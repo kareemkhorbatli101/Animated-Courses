@@ -773,6 +773,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Proportion and comparison across two charts',
+    fix=dict(
+     text=('The first chart shows spending by category, while the second shows '
+           'income. Food accounted for a quarter of the total, which was the '
+           'largest share. Housing took 22 per cent, slightly fewer than food. '
+           'In comparison with the income chart, spending on luxuries was rose '
+           'in the same years.'),
+     faults=[('slightly fewer than food',
+              'slightly less than food',
+              'A percentage is not counted one by one, so the word is less.'),
+             ('spending on luxuries was rose',
+              'spending on luxuries rose',
+              ('Rose is already the past form; was is not needed in front of '
+               'it.')),
+             ('In comparison with the income chart',
+              'By comparison with the income chart',
+              ('In comparison with is used for two things of the same kind; '
+               'here the comparison is between a chart and a figure, and by '
+               'comparison is the idiom.'))]),
     explain=('Describing shares needs language that keeps share and '
              'amount apart, and that compares two charts without '
              'repeating the figures twice.'),

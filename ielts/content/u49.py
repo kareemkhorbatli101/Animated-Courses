@@ -816,6 +816,25 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Maps organised by what changed, not when',
+    fix=dict(
+     text=('The two maps show the square before and after the rebuilding. The '
+           'fountain, which had stood at the north end, has removed. Two '
+           'benches have been added, whereas the long wall remains in place. '
+           'The trees, that were planted in 1988, have been kept, although the '
+           'seating is no longer beneath them.'),
+     faults=[('has removed',
+              'has been removed',
+              ('The fountain removed nothing. The passive needs been: has been '
+               'removed.')),
+             ('The trees, that were planted in 1988,',
+              'The trees, which were planted in 1988,',
+              'A clause between commas takes which.'),
+             (('Two benches have been added, whereas the long wall remains in '
+               'place'),
+              ('Two benches have been added, while the long wall remains in '
+               'place'),
+              ('Whereas marks a strong contrast between two findings, which is '
+               'more than this sentence carries.'))]),
     explain=('Paired maps need language that groups. These patterns name a '
              'type of change and attach several features to it, which is '
              'what lets one sentence do the work of four.'),

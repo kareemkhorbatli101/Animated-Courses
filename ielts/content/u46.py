@@ -884,6 +884,26 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a non-linear curve precisely',
+    fix=dict(
+     text=('The curve rises slowly at first and then it accelerates after '
+           '2015. The rate of increase is not constant, so a straight line '
+           'would fit the data badly. Between 2015 and 2020 the figure almost '
+           'doubled, whereas in the previous five years it had rose by only a '
+           'tenth. The curve flattens again after 2021, at a level about three '
+           'times the starting figure.'),
+     faults=[('it had rose by only a tenth',
+              'it had risen by only a tenth',
+              'After had the verb takes its past participle: risen.'),
+             (('The curve rises slowly at first and then it accelerates after '
+               '2015'),
+              ('The curve rises slowly at first and then accelerates after '
+               '2015'),
+              ('The subject is already the curve, so it does not need '
+               'repeating in the second half.')),
+             ('at a level about three times the starting figure',
+              'at a level about three times the starting figure, around 1,400',
+              ('A multiple with no figure beside it makes the reader go back '
+               'to the chart.'))]),
     explain=('Curves that are flat and then turn need language for the '
              'turn, the rate and the point at which it happens. Vague '
              'movement verbs lose marks here that precision would gain.'),

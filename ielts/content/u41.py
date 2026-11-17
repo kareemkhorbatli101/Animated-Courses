@@ -879,6 +879,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Modal stacking and graded commitment',
+    fix=dict(
+     text=('It may possibly be that the sample was unrepresentative, although '
+           'we cannot be sure. The authors state that the effect might could '
+           'be smaller in other settings. On the evidence available, it seems '
+           'probably that the finding holds for urban areas only. Further work '
+           'would be needed before the result can be relied on.'),
+     faults=[('It may possibly be that the sample was unrepresentative',
+              'It may be that the sample was unrepresentative',
+              ('May and possibly hedge the same thing, so one of them is doing '
+               'no work.')),
+             ('the effect might could be smaller',
+              'the effect might be smaller',
+              ('Two modal verbs cannot stand together: might, or could, not '
+               'both.')),
+             ('it seems probably that the finding holds',
+              'it seems probable that the finding holds',
+              ('After seems the word describes the finding, so it needs the '
+               'adjective probable.'))]),
     explain=('English grades confidence by stacking a modal with an adverb '
              'and a hedging verb. At band 7 the examiner is looking for '
              'control of the whole range, not for the cautious end of it.'),

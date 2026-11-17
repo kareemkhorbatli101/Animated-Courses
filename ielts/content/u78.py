@@ -603,6 +603,24 @@ UNIT = dict(
                      'Accuracy')])],
    gram=dict(
     point='Comparing with the largest, the only, the exception',
+    fix=dict(
+     text=('The chart shows that December is the most popular month for '
+           'festivals, with 14 events. It is the only month which have more '
+           'than ten. November and January are the exception, with two each. '
+           'The largest number of visitors came in December, and the smallest '
+           'came in February. March has more events than any other spring '
+           'month.'),
+     faults=[('the only month which have more than ten',
+              'the only month which has more than ten',
+              ('The subject of the clause is month, which is singular, so the '
+               'verb is has.')),
+             ('November and January are the exception',
+              'November and January are the exceptions',
+              'Two months are two exceptions, so the noun is plural.'),
+             ('the smallest came in February',
+              'the fewest came in February',
+              ('Visitors are counted, so the word is fewest. Smallest would '
+               'describe the size of each visitor.'))]),
     explain='Use the largest, the smallest, the only and the exception '
             'to pick one item out of a set.',
     examples=['Hot food is the largest category at three events.',

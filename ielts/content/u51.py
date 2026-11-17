@@ -915,6 +915,26 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a trend against a counterfactual',
+    fix=dict(
+     text=('Recorded theft fell by 40 per cent on the street where the patrol '
+           'operated. It also fell by 33 per cent across the district as a '
+           'whole, which mean the patrol can account for only a few points of '
+           'the fall. Without a comparison street, the effect of the patrol '
+           'cannot being separated from the general trend.'),
+     faults=[('which mean the patrol can account for only a few points',
+              'which means the patrol can account for only a few points',
+              ('Which stands for the preceding clause and takes a singular '
+               'verb.')),
+             ('cannot being separated from the general trend',
+              'cannot be separated from the general trend',
+              ('After a modal the verb is in its plain form: cannot be '
+               'separated.')),
+             (('Recorded theft fell by 40 per cent on the street where the '
+               'patrol operated'),
+              ('Recorded theft fell by 40 per cent on the street where the '
+               'patrol operated, against 33 per cent elsewhere'),
+              ('The first figure is given with nothing to compare it against, '
+               'which is the whole point of the paragraph.'))]),
     explain=('Describing one series against another needs language for the '
              'gap between them, not just for each line. These patterns '
              'describe a difference as a quantity in its own right.'),

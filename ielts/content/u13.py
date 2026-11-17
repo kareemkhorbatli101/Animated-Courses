@@ -766,6 +766,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing divergence and convergence in data',
+    fix=dict(
+     text=('The two lines diverged after 2012, when the figure for burglary '
+           'begun to fall. Vehicle crime continued to rise, so that the gap '
+           'widened each year. By 2018 the difference had reached 40,000, '
+           'which was the widest point. The two series converged again in '
+           '2020, when burglary rose and vehicle crime was fell.'),
+     faults=[('when the figure for burglary begun to fall',
+              'when the figure for burglary began to fall',
+              ('The past simple of begin is began. Begun needs have in front '
+               'of it.')),
+             ('which was the widest point',
+              'which was the widest gap in the period',
+              ('Widest point is not what the figure describes; the gap, not a '
+               'point, is what widened.')),
+             ('vehicle crime was fell',
+              'vehicle crime fell',
+              ('Fell is already the past form, so was cannot stand in front of '
+               'it.'))]),
     explain=('Four lines need words for moving together and moving '
              'apart. These patterns give both, and attach a time to the '
              'change.'),

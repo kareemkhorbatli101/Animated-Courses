@@ -786,6 +786,25 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Grouping categories by shared behaviour',
+    fix=dict(
+     text=('The four categories can be grouped by behaviour. Television and '
+           'radio both fell steadily, while online and social media rose. The '
+           'first group, that lost about half of its audience, was the older '
+           'media. The second group gained the audience which the first group '
+           'lost, but the chart does not shows where each viewer went.'),
+     faults=[('The first group, that lost about half of its audience,',
+              'The first group, which lost about half of its audience,',
+              'A clause between commas takes which.'),
+             ('the chart does not shows',
+              'the chart does not show',
+              ('After does not the verb goes back to its plain form: does not '
+               'show.')),
+             (('The second group gained the audience which the first group '
+               'lost'),
+              ('The second group gained an audience of about the same size as '
+               'the one the first group lost'),
+              ('The chart cannot show that the same people moved, so the '
+               'sentence claims more than the data allows.'))]),
     explain=('When categories pair up, you need language that says so before '
              'you give any numbers. These patterns group first and quantify '
              'afterwards.'),

@@ -606,6 +606,24 @@ UNIT = dict(
                      'Range and Accuracy')])],
    gram=dict(
     point='Passive for schemes and decisions',
+    fix=dict(
+     text=('A new square was built in the centre of the town in 2019. The old '
+           'car park has demolished the year before. Four hundred flats were '
+           'building on the site between 2019 and 2023. A school was opened '
+           'last year, and the whole scheme is still not quite finished. The '
+           'two streets behind the station did not changed.'),
+     faults=[('The old car park has demolished',
+              'The old car park had been demolished',
+              ('The car park did not demolish anything. The passive needs '
+               'been, and the earlier event needs had.')),
+             ('Four hundred flats were building on the site',
+              'Four hundred flats were built on the site',
+              ('Were building means they were doing the building. The passive '
+               'is were built.')),
+             ('The two streets behind the station did not changed',
+              'The two streets behind the station did not change',
+              ('After did not the verb goes back to its plain form: did not '
+               'change.'))]),
     explain='Use the passive when the decision matters more than who '
             'made it, which is most of the time in this subject.',
     examples=['The bridge was built in 2016.',

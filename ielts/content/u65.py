@@ -517,6 +517,24 @@ UNIT = dict(
                      'Grammatical Range and Accuracy')])],
    gram=dict(
     point='Past continuous for interrupted journeys',
+    fix=dict(
+     text=('I travelled to see my grandmother three years ago. While I was '
+           'waited at the station, the train was stopping for fifty minutes in '
+           'the middle of fields. Nobody told us why. When I arrived at the '
+           'big station, my second train was already left. The next one was in '
+           'two hours, and I had no book.'),
+     faults=[('While I was waited at the station',
+              'While I was waiting at the station',
+              ('The past continuous is was plus the -ing form: was waiting. '
+               'Was waited is a passive and means something else.')),
+             ('the train was stopping for fifty minutes',
+              'the train stopped for fifty minutes',
+              ('A finished event with a stated length takes the past simple, '
+               'not the continuous.')),
+             ('my second train was already left',
+              'my second train had already left',
+              ('The train left before I arrived, so this needs had left. Was '
+               'left would mean somebody left it behind.'))]),
     explain='Use was or were plus -ing for what was in progress, and '
             'the past simple for what interrupted it.',
     examples=['We were waiting at the station when the announcement '

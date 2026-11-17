@@ -844,6 +844,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a site as it changes',
+    fix=dict(
+     text=('The three maps show the site in 1850, 1950 and today. In 1850 the '
+           'site was occupied by a mill, which had demolished by 1950. By 1950 '
+           'the land was cleared and a row of houses stood where the mill had '
+           'been. Today the houses have been replaced by flats, and the mill '
+           'pond, that is still visible in 1950, has been filled in.'),
+     faults=[('which had demolished by 1950',
+              'which had been demolished by 1950',
+              ('The mill demolished nothing. The passive needs been: had been '
+               'demolished.')),
+             ('the mill pond, that is still visible in 1950,',
+              'the mill pond, which was still visible in 1950,',
+              ('Two faults: a clause between commas takes which, and the time '
+               'is 1950, so the verb is past.')),
+             ('By 1950 the land was cleared',
+              'By 1950 the land had been cleared',
+              ('The clearing happened before 1950, so the earlier action takes '
+               'had been.'))]),
     explain=('Map answers need two things English does not give you by '
              'accident: a way of saying where something is, and a way of '
              'saying what it replaced. Pair them and the whole answer '

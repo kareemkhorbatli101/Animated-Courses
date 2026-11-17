@@ -903,6 +903,26 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing absence as data',
+    fix=dict(
+     text=('The table gives figures for four groups, but no entry is recorded '
+           'for agricultural labourers before 1840. The absence is itself a '
+           'finding: the group was not counted, which do not mean it did not '
+           'exist. Where a series begins is therefore a fact about the record '
+           'and not about the population. The figures for landowners, which '
+           'are complete from 1760, cover a much smaller number of people.'),
+     faults=[('which do not mean it did not exist',
+              'which does not mean it did not exist',
+              ('Which stands for the preceding clause and takes a singular '
+               'verb.')),
+             ('a fact about the record and not about the population',
+              'a fact about the record rather than about the population',
+              ('And not is clumsy in a formal contrast; rather than is the '
+               'usual form.')),
+             ('The absence is itself a finding',
+              ('The absence is itself a finding, and the most important one in '
+               'the table'),
+              ('A claim this strong needs to say why, or it reads as an '
+               'assertion.'))]),
     explain=('A gap in a chart is a finding and has to be written as one, '
              'with its depth and its distribution reported. These patterns '
              'describe an absence without filling it in.'),

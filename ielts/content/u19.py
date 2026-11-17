@@ -745,6 +745,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Spatial description and the perfect passive',
+    fix=dict(
+     text=('The station stands at the west of the site, beside the main road. '
+           'To the east, a cycle route has been built along the river. The '
+           'warehouse, which had been used for storage, has demolished in '
+           '2019. A footbridge now connects the two halves of the site, where '
+           'was closed to the public before 2015.'),
+     faults=[('The station stands at the west of the site',
+              'The station stands in the west of the site',
+              'A region of an area takes in. At is for a point.'),
+             ('has demolished in 2019',
+              'was demolished in 2019',
+              ('Two faults in three words: the passive needs been, and 2019 is '
+               'a finished time, so the past simple is right.')),
+             ('the site, where was closed to the public',
+              'the site, which was closed to the public',
+              ('Where cannot be the subject of a verb. The relative pronoun '
+               'here is which.'))]),
     explain=('Two plans separated in time take the present perfect '
              'passive, and each change needs a position as well as a '
              'verb.'),

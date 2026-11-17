@@ -686,6 +686,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Relative clauses with which and where',
+    fix=dict(
+     text=('The reserve contains an area of wetland which it floods every '
+           'spring. The ditches, that were deepened in 1998, now drain the '
+           'eastern margin. The plan where was published last year proposes to '
+           'block them. The peat beneath the surface, which is several metres '
+           'deep, cannot be replaced once it has dried out.'),
+     faults=[('an area of wetland which it floods every spring',
+              'an area of wetland which floods every spring',
+              ('Which is already the subject of floods, so it is not repeated '
+               'as it.')),
+             ('The ditches, that were deepened in 1998,',
+              'The ditches, which were deepened in 1998,',
+              ('A clause between commas adds information and takes which, not '
+               'that.')),
+             ('The plan where was published last year',
+              'The plan which was published last year',
+              'Where introduces a place. For a thing, use which or that.')]),
     explain=('A relative clause lets you attach a fact to a point in '
              'the data without starting a new sentence.'),
     examples=['The lines crossed in July, which cannot happen '

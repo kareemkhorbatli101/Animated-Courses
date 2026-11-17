@@ -758,6 +758,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a fall and a levelling off',
+    fix=dict(
+     text=('The number of single-person households rose steadily until 2015, '
+           'when it reached 7.2 million. It then levelled off on about 7.3 '
+           'million for four years. The figure for households with children, '
+           'that fell throughout the period, ended at 4.1 million. Both '
+           'figures has been revised since the chart was published.'),
+     faults=[('levelled off on about 7.3 million',
+              'levelled off at about 7.3 million',
+              'A level is reached at a figure.'),
+             (('The figure for households with children, that fell throughout '
+               'the period,'),
+              ('The figure for households with children, which fell throughout '
+               'the period,'),
+              'A clause between commas takes which.'),
+             ('Both figures has been revised',
+              'Both figures have been revised',
+              'Both figures is plural, so the verb is have.')]),
     explain=('Task 1 needs words for how much something fell and how fast. '
              'These patterns give you both, and keep the figure in the '
              'sentence.'),

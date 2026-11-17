@@ -775,6 +775,22 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a shift between two snapshots',
+    fix=dict(
+     text=('In 1990 coal provided 60 per cent of the country\'s electricity, '
+           'whereas by 2020 this figure had fell to 12 per cent. Over the same '
+           'period, the share of renewables rose from 2 to 38 per cent. Gas '
+           'remained almost unchanged, at around a quarter in the both years. '
+           'The shift was therefore mainly from coal to renewables.'),
+     faults=[('this figure had fell to 12 per cent',
+              'this figure had fallen to 12 per cent',
+              'After had the verb takes its past participle: fallen.'),
+             ('at around a quarter in the both years',
+              'at around a quarter in both years',
+              'Both comes before the and usually replaces it: both years.'),
+             ('the share of renewables rose from 2 to 38 per cent',
+              'the share of renewables rose from 2 per cent to 38 per cent',
+              ('The first figure needs its unit too, or the sentence can be '
+               'read as rising from two units of something else.'))]),
     explain=('Two charts of the same thing at different dates need '
              'language for the exchange between categories and for what '
              'stayed still.'),

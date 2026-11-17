@@ -498,6 +498,24 @@ UNIT = dict(
                      'Range and Accuracy')])],
    gram=dict(
     point='Past simple questions and negatives',
+    fix=dict(
+     text=('I buyed a pair of walking boots two months ago. I did not bought '
+           'them on the internet, because I wanted to try them on. Where you '
+           'did buy them? In a shop in the centre of the town. They cost about '
+           'sixty, and the man in the shop measured my feet. He said my old '
+           'size was too small, and he was right.'),
+     faults=[('I buyed a pair of walking boots',
+              'I bought a pair of walking boots',
+              ('Buy is irregular: the past form is bought, and there is no '
+               'form buyed.')),
+             ('I did not bought them',
+              'I did not buy them',
+              ('After did not the verb goes back to its plain form: did not '
+               'buy.')),
+             ('Where you did buy them?',
+              'Where did you buy them?',
+              ('In a question did comes before the subject: did you, not you '
+               'did.'))]),
     explain='Use did for questions and did not for negatives. The main '
             'verb goes back to its plain form.',
     examples=['Did you keep the receipt?',

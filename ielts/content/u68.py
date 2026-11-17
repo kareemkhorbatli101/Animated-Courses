@@ -517,6 +517,21 @@ UNIT = dict(
                      'Grammatical Range and Accuracy')])],
    gram=dict(
     point='Advice with should, ought to and had better',
+    fix=dict(
+     text=('You should to walk to work if you can. It is better than the bus, '
+           'and it costs nothing. You had better not start with a long walk, '
+           'because then you stop after a week. I think everybody ought walk a '
+           'little every day. I started two years ago, and after a month I '
+           'slept better and I felt stronger.'),
+     faults=[('You should to walk to work',
+              'You should walk to work',
+              'After should the verb has no to: should walk.'),
+             ('then you stop after a week',
+              'then you will stop after a week',
+              'This is a prediction about the future, so it needs will.'),
+             ('everybody ought walk a little',
+              'everybody ought to walk a little',
+              'Ought is the one modal that keeps to: ought to walk.')]),
     explain='Should and ought to give advice. Had better is stronger '
             'and warns of a bad result.',
     examples=['You should walk for twenty minutes.',

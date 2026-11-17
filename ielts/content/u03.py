@@ -686,6 +686,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing change: rose, levelled off, fell back',
+    fix=dict(
+     text=('Between 2010 and 2014 the number of hospital admissions rised '
+           'sharply, from 120,000 to 190,000. It then levelled off during '
+           'three years. After 2017 the figure fell back slightly, to 180,000 '
+           'in 2019. The amount of admissions for over-sixties followed the '
+           'same pattern throughout the period.'),
+     faults=[('the number of hospital admissions rised sharply',
+              'the number of hospital admissions rose sharply',
+              ('Rise is irregular: the past form is rose, and there is no form '
+               'rised.')),
+             ('It then levelled off during three years',
+              'It then levelled off for three years',
+              ('A length of time takes for. During needs a named period, such '
+               'as during the winter.')),
+             ('The amount of admissions',
+              'The number of admissions',
+              ('Admissions are counted one by one, so the word is number, not '
+               'amount.'))]),
     explain=('A change needs a verb for the direction and a phrase for '
              'the size, and the two should not be the same word.'),
     examples=['Waiting times fell from 14.6 weeks to 10.3.',

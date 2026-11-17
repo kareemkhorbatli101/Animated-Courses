@@ -851,6 +851,22 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Comparing proportion and amount in the same sentence',
+    fix=dict(
+     text=('The prison population rose by 18 per cent, from 74,000 to 87,000. '
+           'In proportion terms this was a rise from 141 to 166 per hundred '
+           'thousand of population. The increase in amount was therefore '
+           'larger than the increase in rate, because the population itself '
+           'had also grew during the period.'),
+     faults=[('In proportion terms',
+              'In proportional terms',
+              'The phrase needs the adjective: in proportional terms.'),
+             ('The increase in amount',
+              'The increase in absolute numbers',
+              ('Amount is vague here; the contrast with rate is with absolute '
+               'numbers.')),
+             ('the population itself had also grew',
+              'the population itself had also grown',
+              'After had the verb takes its past participle: grown.')]),
     explain=('A rise of six months is an amount; a rise of more than half is '
              'a proportion. Task 1 answers that can only do one of these read '
              'as thin, and the pairing is what lets you compare items of very '

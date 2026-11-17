@@ -753,6 +753,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing two lines that peak at different times',
+    fix=dict(
+     text=('Both series rose and then fell, but they did not peaked in the '
+           'same year. Cases peaked in March, whereas deaths peaked four weeks '
+           'later, in April. The gap between the two peaks was about a month '
+           'in each of the three waves. By June both series had returned to '
+           'their starting level, where they stayed until the autumn.'),
+     faults=[('they did not peaked in the same year',
+              'they did not peak in the same year',
+              ('After did not the verb goes back to its plain form: did not '
+               'peak.')),
+             (('Cases peaked in March, whereas deaths peaked four weeks later, '
+               'in April'),
+              'Cases peaked in March and deaths four weeks later, in April',
+              ('Whereas marks a contrast, and a four-week lag between two '
+               'series that behave alike is not one.')),
+             ('had returned to their starting level',
+              'had returned to their starting levels',
+              'Two series have two starting levels, so the noun is plural.')]),
     explain=('A graph with a lag between two series needs language for the '
              'gap itself, not just for each line. These patterns describe the '
              'relationship.'),

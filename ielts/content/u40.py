@@ -824,6 +824,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a branching process',
+    fix=dict(
+     text=('The application is received and then it checks against three '
+           'criteria. If all three are met, it is approved automatically. If '
+           'one is not met, the case is refer to an officer. The officer, who '
+           'sees the same three scores, can approve it or reject it, and the '
+           'applicant is informed either way. No reason is given when a case '
+           'is rejected, which the chart does not explain.'),
+     faults=[('then it checks against three criteria',
+              'then it is checked against three criteria',
+              'The application does not check. The passive is it is checked.'),
+             ('the case is refer to an officer',
+              'the case is referred to an officer',
+              'The passive takes the past participle: is referred.'),
+             ('which the chart does not explain',
+              'a feature the diagram does not explain',
+              ('Which has no clear antecedent, so the reader cannot tell what '
+               'is unexplained; and the source here is a diagram, not a chart.'))]),
     explain=('A diagram with a fork needs language that follows both arms '
              'and rejoins them. Without it, an answer silently drops half the '
              'diagram, which costs a band on Task Achievement.'),

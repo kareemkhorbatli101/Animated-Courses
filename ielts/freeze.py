@@ -129,8 +129,9 @@ def prose(vol, rng):
             for f in ('heading', 'explain', 'examples', 'items'):
                 if g.get(f):
                     out.append(('%s G %s' % (a, f), _j(g[f])))
-            if c.get('fix'):
-                out.append(('%s fix' % a, _j(c['fix'])))
+            if g.get('fix'):
+                out.append(('%s G fix text' % a, g['fix']['text']))
+                out.append(('%s G fix faults' % a, _j(g['fix']['faults'])))
             out.append((a + ' vocab', _j(c['vocab'])))
             out.append((a + ' expr', _j(c['expr'])))
             for bi, r in enumerate(c['read']):

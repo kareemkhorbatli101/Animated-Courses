@@ -867,6 +867,26 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Contrasting share of number with share of value',
+    fix=dict(
+     text=('Prints made up 62 per cent of the lots sold but only 9 per cent of '
+           'the total value. Paintings, which accounted for 11 per cent of '
+           'lots, represented over half of the value. The share of number and '
+           'the share of value are therefore moving in opposite directions. '
+           'The average price of a painting was about thirty times higher as '
+           'the average price of a print.'),
+     faults=[('are therefore moving in opposite directions',
+              'therefore move in opposite directions',
+              ('A permanent relationship in the data takes the present simple, '
+               'not the continuous.')),
+             ('thirty times higher as the average price of a print',
+              'thirty times higher than the average price of a print',
+              'A comparison with higher takes than.'),
+             (('Prints made up 62 per cent of the lots sold but only 9 per '
+               'cent of the total value'),
+              ('Prints made up 62 per cent of the lots sold but only 9 per '
+               'cent of the total value, which is the gap the chart is about'),
+              ('The contrast is stated and its significance is left for the '
+               'reader to supply.'))]),
     explain=('Whenever a chart gives both a count and a value, the sentence '
              'that earns marks contrasts the two in one breath. These are the '
              'structures that do it.'),

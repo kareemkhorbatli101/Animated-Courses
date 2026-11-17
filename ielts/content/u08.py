@@ -750,6 +750,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Passive sequence with time clauses',
+    fix=dict(
+     text=('The beans are first harvested by hand. After they are dried, they '
+           'are sorting by size. Once the sorting has finished, the beans are '
+           'roasted for twelve minutes. They are then ground, and after that '
+           'the powder is packed. When the packing is complete, the boxes was '
+           'loaded onto lorries.'),
+     faults=[('they are sorting by size',
+              'they are sorted by size',
+              'The beans do not sort. The passive is are sorted.'),
+             ('the boxes was loaded onto lorries',
+              'the boxes were loaded onto lorries',
+              'The subject boxes is plural, so the verb is were.'),
+             ('the beans are roasted for twelve minutes',
+              ('the beans are roasted for twelve minutes, which is the stage '
+               'that fixes the flavour'),
+              ('A process description should say what a stage achieves, and '
+               'this one stops at the time.'))]),
     explain=('A process is written in the agentless passive, and the '
              'order is carried by time clauses rather than by '
              'numbers.'),

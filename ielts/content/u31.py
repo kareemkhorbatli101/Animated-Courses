@@ -860,6 +860,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing change: pace, direction and extent in one clause',
+    fix=dict(
+     text=('Recorded theft fell sharply of 40 per cent between 2018 and 2020. '
+           'The decline was steeply at first and then slowed. Over the same '
+           'period the response rate to the survey fell from 42 to 29 per '
+           'cent, which mean the later figures rest on a smaller sample. The '
+           'two changes cannot be separated from one another.'),
+     faults=[('fell sharply of 40 per cent',
+              'fell sharply by 40 per cent',
+              ('The size of a change takes by; of needs a noun, as in a fall '
+               'of 40 per cent.')),
+             ('The decline was steeply at first',
+              'The decline was steep at first',
+              ('After was the word describes the decline, so it needs the '
+               'adjective steep, not the adverb steeply.')),
+             ('which mean the later figures rest on a smaller sample',
+              'which means the later figures rest on a smaller sample',
+              ('Which here stands for the whole preceding clause and takes a '
+               'singular verb.'))]),
     explain=('Task 1 rewards a writer who can say how fast as well as which '
              'way. English does this with an adverb inside the verb phrase or '
              'with a noun phrase carrying an adjective, and a good answer '

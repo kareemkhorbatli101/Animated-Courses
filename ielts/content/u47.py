@@ -868,6 +868,26 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Three series, two axes, one honest comparison',
+    fix=dict(
+     text=('The chart shows yield on the left axis, rainfall on the right '
+           'axis, and soil carbon as a separate series. Yield and rainfall '
+           'both rose, whereas soil carbon fell throughout. The three series '
+           'cannot be compared directly, because two of them is measured in '
+           'different units. The honest comparison is between the direction of '
+           'each series, not between their values.'),
+     faults=[('because two of them is measured in different units',
+              'because two of them are measured in different units',
+              'Two of them is plural, so the verb is are.'),
+             ('not between their values',
+              'rather than between their values',
+              ('Not between is too abrupt after a positive statement; rather '
+               'than carries the contrast.')),
+             (('Yield and rainfall both rose, whereas soil carbon fell '
+               'throughout'),
+              ('Yield and rainfall both rose, by 18 and 11 per cent, whereas '
+               'soil carbon fell throughout'),
+              ('The contrast is made with no figures, so the reader cannot '
+               'judge its size.'))]),
     explain=('Indexed series can be compared with each other and not with '
              'their own underlying quantities. These patterns keep the '
              'comparison inside what the chart supports.'),

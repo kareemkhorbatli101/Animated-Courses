@@ -925,6 +925,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a break in series',
+    fix=dict(
+     text=('The series breaks in 2014, when the definition of a household was '
+           'changed. Figures before and after that year is therefore not '
+           'comparable. The published table shows a single continuous line, '
+           'which hide the break. Any statement about the change over the '
+           'whole period have to be qualified by this.'),
+     faults=[('Figures before and after that year is therefore not comparable',
+              ('Figures before and after that year are therefore not '
+               'comparable'),
+              'The subject figures is plural, so the verb is are.'),
+             ('which hide the break',
+              'which hides the break',
+              ('Which stands for the preceding clause and takes a singular '
+               'verb.')),
+             ('have to be qualified by this',
+              'has to be qualified accordingly',
+              ('Two faults: the subject any statement is singular, and by this '
+               'leaves the reader to find the antecedent.'))]),
     explain=('A jump caused by counting is described differently from a '
              'jump caused by change. These patterns keep the two apart, '
              'which is the whole of this cycle.'),

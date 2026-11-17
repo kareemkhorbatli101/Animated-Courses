@@ -696,6 +696,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Expressing proportion and change together',
+    fix=dict(
+     text=('The pie chart shows that 45 per cent of the energy was used for '
+           'heating, while the line graph shows a fall in total consumption. '
+           'The proportion of heating rose by 45 per cent to 52 per cent over '
+           'the decade. Electricity accounted 18 per cent of the total in '
+           '2020. Three quarters of the households was connected to the '
+           'network.'),
+     faults=[('rose by 45 per cent to 52 per cent',
+              'rose from 45 per cent to 52 per cent',
+              ('From marks the starting figure. By would mean it rose by '
+               'forty-five points.')),
+             ('Electricity accounted 18 per cent',
+              'Electricity accounted for 18 per cent',
+              'Account takes for before the share it covers.'),
+             ('Three quarters of the households was connected',
+              'Three quarters of the households were connected',
+              'The verb agrees with households, which is plural.')]),
     explain=('A comparison is clearer when the proportion and the '
              'absolute difference are not confused with each other.'),
     examples=['The younger group spent roughly twice as long on a phone '

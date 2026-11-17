@@ -477,6 +477,24 @@ UNIT = dict(
                      'Range and Accuracy')])],
    gram=dict(
     point='Imperatives for instructions',
+    fix=dict(
+     text=('First, wash the rice in cold water. Then you put the oil in the '
+           'pan and heat it. Cut the onion and the carrots small. When the oil '
+           'is hot, add the onion and cook it for two minutes. Not add the '
+           'rice yet. Add the water, and then you waiting for twenty minutes. '
+           'At the end, add salt and pepper.'),
+     faults=[('Then you put the oil in the pan',
+              'Then put the oil in the pan',
+              ('An instruction has no subject. Say put, not you put, in a set '
+               'of directions like this one.')),
+             ('Not add the rice yet',
+              'Do not add the rice yet',
+              ('A negative instruction needs do not in front of the verb. Not '
+               'on its own is not enough.')),
+             ('then you waiting for twenty minutes',
+              'then wait for twenty minutes',
+              ('Two faults in three words: the subject again, and waiting '
+               'instead of the plain verb.'))]),
     explain='For an instruction, use the verb with no subject. For a '
             'negative instruction, put do not in front of it.',
     examples=['Wash the rice in cold water.',

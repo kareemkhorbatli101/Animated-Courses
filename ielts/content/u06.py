@@ -709,6 +709,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing peaks, troughs and plateaux',
+    fix=dict(
+     text=('Visitor numbers peaked in August, when they reached 92,000. The '
+           'figure troughed at February, with only 11,000. Between March and '
+           'May the line plateaued on about 30,000. After the peak the numbers '
+           'fell sharply, reaching their lowest point in the winter, which is '
+           'the opposite pattern to the one shown for the museum.'),
+     faults=[('The figure troughed at February',
+              'The figure troughed in February',
+              ('A month takes in. At is used for a clock time or a precise '
+               'point.')),
+             ('the line plateaued on about 30,000',
+              'the line plateaued at about 30,000',
+              'A level is reached at a figure, not on one.'),
+             ('reaching their lowest point in the winter',
+              'reaching its lowest point in the winter',
+              ('The subject is the numbers, but the pronoun here refers to the '
+               'figure, so it must agree with one of them, not both.'))]),
     explain=('A line graph needs words for the shape as well as the '
              'direction, and the shape words are what distinguish two '
              'series.'),

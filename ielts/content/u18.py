@@ -793,6 +793,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Passive and purpose clauses in a method',
+    fix=dict(
+     text=('The samples are collected in order to measure the mineral content. '
+           'They are then dried for to remove the water. The dried material is '
+           'weighed, so that the loss can be calculated. For avoid '
+           'contamination, each sample is handled with clean instruments. The '
+           'results are recorded in a table at the end of the procedure.'),
+     faults=[('They are then dried for to remove the water',
+              'They are then dried to remove the water',
+              ('Purpose is expressed by to and the plain verb. For to is not '
+               'English.')),
+             ('For avoid contamination',
+              'To avoid contamination',
+              'The same rule: to avoid, not for avoid.'),
+             ('so that the loss can be calculated',
+              ('so that the loss can be calculated, which is the point of '
+               'weighing it twice'),
+              ('The clause gives the purpose and leaves out what makes the '
+               'step necessary.'))]),
     explain=('A method is written in the agentless passive, and each '
              'step that exists for a reason takes a purpose clause.'),
     examples=['Participants are allocated at random so that the groups '

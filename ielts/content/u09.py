@@ -755,6 +755,22 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Passive with a technical system',
+    fix=dict(
+     text=('The signal is received by the dish and then it amplifies. It is '
+           'passed to a converter, where the frequency is reducing. The weak '
+           'signal, which travels along the cable, is then decoded. Finally '
+           'the output sends to the receiver in the building.'),
+     faults=[('then it amplifies',
+              'then it is amplified',
+              ('The signal does not amplify anything. The passive is it is '
+               'amplified.')),
+             ('where the frequency is reducing',
+              'where the frequency is reduced',
+              ('Is reducing means it is doing the reducing. The passive is is '
+               'reduced.')),
+             ('Finally the output sends to the receiver',
+              'Finally the output is sent to the receiver',
+              'The output does not send. The passive is is sent.')]),
     explain=('A technical description uses the passive and names the '
              'component that acts, not a person.'),
     examples=['The call is carried by cable to the switching centre.',

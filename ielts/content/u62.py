@@ -502,6 +502,23 @@ UNIT = dict(
                      'Grammatical Range and Accuracy')])],
    gram=dict(
     point='Past simple of common irregular verbs',
+    fix=dict(
+     text=('Last winter the water in my flat stop working. I goed to the '
+           'kitchen and turned on the tap, and nothing came out. My neighbour '
+           'had water, so I knowed the problem was only in my flat. I '
+           'telephoned the landlord and he came on Sunday with a man who works '
+           'on pipes.'),
+     faults=[('the water in my flat stop working',
+              'the water in my flat stopped working',
+              ('The sentence is about last winter, so the verb needs its past '
+               'form, stopped.')),
+             ('I goed to the kitchen',
+              'I went to the kitchen',
+              ('Go is irregular. The past form is went, and there is no form '
+               'goed.')),
+             ('so I knowed the problem',
+              'so I knew the problem',
+              'Know is irregular too. The past form is knew.')]),
     explain='Many common verbs do not add -ed. These have to be '
             'learned one by one.',
     examples=['The heating stopped and the water went cold.',

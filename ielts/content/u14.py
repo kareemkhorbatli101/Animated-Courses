@@ -779,6 +779,22 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Trends that cross and reverse',
+    fix=dict(
+     text=('The number of pupils studying French fell from 2010, whereas '
+           'Spanish rose. The two lines crossed in 2016, since when Spanish '
+           'has been the more popular of the two. German, which had been the '
+           'second choice in 2010, has fell to fourth place. By 2022 the '
+           'position of the two languages had completely reversed.'),
+     faults=[('since when Spanish has been the more popular of the two',
+              'after which Spanish has been the more popular of the two',
+              ('Since when opens a question. In a statement the link is after '
+               'which.')),
+             ('has fell to fourth place',
+              'has fallen to fourth place',
+              'After has the verb takes its past participle: fallen.'),
+             ('the position of the two languages had completely reversed',
+              'the positions of the two languages had completely reversed',
+              'Two languages have two positions, so the noun is plural.')]),
     explain=('Lines that change order need language for the crossing '
              'itself, with a year attached, and for the reversal across '
              'the whole period.'),

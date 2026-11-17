@@ -651,6 +651,24 @@ UNIT = dict(
                      'and Accuracy')])],
    gram=dict(
     point='Describing change: rose from, by, to',
+    fix=dict(
+     text=('The number of households with a smart speaker rose from 12 per '
+           'cent in 2016 to 48 per cent in 2022. It increased of 36 percentage '
+           'points over the period. Ownership of desktop computers fell with 9 '
+           'points in the same years, from 61 to 52 per cent. The figure for '
+           'tablets rose to 4 points only, which was the smallest change on '
+           'the chart.'),
+     faults=[('It increased of 36 percentage points',
+              'It increased by 36 percentage points',
+              ('The size of a change takes by. Of would need a noun: an '
+               'increase of 36 points.')),
+             ('fell with 9 points',
+              'fell by 9 points',
+              'The same rule applies to a fall: it falls by an amount.'),
+             ('rose to 4 points only',
+              'rose by 4 points only',
+              ('To gives the figure reached, by gives the size of the change. '
+               'Here it is the change.'))]),
     explain='Rose from a number to a number; rose by the difference. '
             'Do not mix them.',
     examples=['It rose from two point six to five point one.',

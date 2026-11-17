@@ -935,6 +935,25 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a method and its interpretation separately',
+    fix=dict(
+     text=('The scale asked patients to rate their pain from nought to ten. '
+           'The figures are reliable within one patient, but they are not '
+           'comparable among patients. The method and its interpretation must '
+           'therefore be described separately, which the published protocol '
+           'does not. A score of four from one patient may mean what eight '
+           'means for another.'),
+     faults=[('they are not comparable among patients',
+              'they are not comparable between patients',
+              'A comparison of one patient with another takes between.'),
+             ('which the published protocol does not',
+              'a distinction the published protocol does not make',
+              ('Which has no clear antecedent, so the reader cannot tell what '
+               'the protocol fails to do.')),
+             ('may mean what eight means for another',
+              ('may mean what eight means for another, so the two cannot be '
+               'averaged'),
+              ('The observation is made and its consequence, which is the '
+               'point, is left out.'))]),
     explain=('A method is described in the passive and in sequence; what '
              'it licenses is reported with words that name the inference. '
              'Mixing them is the commonest fault in writing about '

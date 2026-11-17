@@ -896,6 +896,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='The arithmetic of an average, described honestly',
+    fix=dict(
+     text=('The reported score is an average of four components, each of which '
+           'is marked separately. An average of four marks conceal the spread '
+           'behind it: a candidate with 9, 9, 5 and 5 reports the same overall '
+           'score than a candidate with 7 in every component. The standard '
+           'error of the overall score is about half a band, which few '
+           'certificates state.'),
+     faults=[('An average of four marks conceal the spread',
+              'An average of four marks conceals the spread',
+              ('The subject is an average, which is singular, so the verb is '
+               'conceals.')),
+             ('reports the same overall score than a candidate with 7',
+              'reports the same overall score as a candidate with 7',
+              'The same takes as, not than.'),
+             ('which few certificates state',
+              'a figure few certificates state',
+              ('Which has no antecedent to attach to, so the sentence has to '
+               'be rebuilt around the noun.'))]),
     explain=('Writing about an average requires saying what it is '
              'computed from and what it therefore cannot show. These '
              'patterns do both without editorialising.'),

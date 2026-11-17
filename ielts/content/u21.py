@@ -803,6 +803,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Comparing pairs of figures',
+    fix=dict(
+     text=('The table compares two pairs of figures. In 2010 the rate for boys '
+           'was 68 per cent, comparing with 74 per cent for girls. By 2020 '
+           'both figures had risen, but the gap between them was remained the '
+           'same. The rate for girls was still higher that the rate for boys '
+           'at the end of the period.'),
+     faults=[('comparing with 74 per cent for girls',
+              'compared with 74 per cent for girls',
+              ('The fixed form is compared with. Comparing with would mean the '
+               'figure is doing the comparing.')),
+             ('the gap between them was remained the same',
+              'the gap between them remained the same',
+              ('Remained is already the past form, so was cannot stand in '
+               'front of it.')),
+             ('was still higher that the rate for boys',
+              'was still higher than the rate for boys',
+              'A comparison takes than, not that.')]),
     explain=('A chart with two series for every category needs language that '
              'keeps the pair together. Repeating "for men... for women..." in '
              'every sentence costs you marks for range.'),

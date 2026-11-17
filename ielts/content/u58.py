@@ -884,6 +884,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Comparing rates rather than levels',
+    fix=dict(
+     text=('The chart shows the rate of flooding rather than the number of '
+           'floods. The rate rose by a third, although the number of recorded '
+           'floods rose by only a tenth, because the number of monitored '
+           'rivers rose as well. Comparing rates is therefore more informative '
+           'as comparing levels. A rate can rise while the level falls, which '
+           'make the two easy to confuse.'),
+     faults=[('more informative as comparing levels',
+              'more informative than comparing levels',
+              'A comparison with more takes than.'),
+             ('which make the two easy to confuse',
+              'which makes the two easy to confuse',
+              ('Which stands for the preceding clause and takes a singular '
+               'verb.')),
+             ('although the number of recorded floods rose by only a tenth',
+              'while the number of recorded floods rose by only a tenth',
+              ('Although marks a contradiction, and these two figures are '
+               'consistent with each other once the denominator is explained.'))]),
     explain=('When several series share a direction, the comparison is '
              'between rates. These patterns describe a rate and compare '
              'two of them without reverting to levels.'),

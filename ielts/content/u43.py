@@ -893,6 +893,27 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Nominal clauses as subject and complement',
+    fix=dict(
+     text=('That the gap opens before school begins is well established. What '
+           'the chart cannot show are whether the gap can be closed later. The '
+           'fact that mobility is low does not means that intervention is '
+           'futile. Whether education narrows the gap or merely moves it is '
+           'the question the figures leave open.'),
+     faults=[(('What the chart cannot show are whether the gap can be closed '
+               'later'),
+              ('What the chart cannot show is whether the gap can be closed '
+               'later'),
+              ('The subject is the whole clause what the chart cannot show, '
+               'which is singular.')),
+             ('does not means that intervention is futile',
+              'does not mean that intervention is futile',
+              ('After does not the verb goes back to its plain form: does not '
+               'mean.')),
+             ('That the gap opens before school begins is well established',
+              ('That the gap opens before school begins is well established, '
+               'and the chart adds nothing to it'),
+              ('A nominal clause as subject needs to lead somewhere, and this '
+               'one states a fact the answer does not use.'))]),
     explain=('A clause used as a subject lets you make the finding itself '
              'the thing you are describing. It is a marker of academic '
              'register and at band 7 it should appear two or three times in '

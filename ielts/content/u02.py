@@ -688,6 +688,25 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Comparative and superlative with data',
+    fix=dict(
+     text=('The chart shows that the salary for nurses is more higher than for '
+           'teachers. Engineers earn the most of the five groups, at 48,000 a '
+           'year. Teachers earn less than nurses, but they earn more as '
+           'administrators. The difference between the highest and the lowest '
+           'group is about 21,000.'),
+     faults=[('is more higher than for teachers',
+              'is higher than for teachers',
+              ('Higher is already a comparative, so more is one comparison too '
+               'many.')),
+             ('Engineers earn the most of the five groups',
+              ('Engineers earn the most of the five groups, at 48,000 a year, '
+               'which is the highest figure on the chart'),
+              ('The sentence stops before it says what makes the figure worth '
+               'stating.')),
+             ('they earn more as administrators',
+              'they earn more than administrators',
+              ('A comparison takes than. As would mean they earn it in that '
+               'job.'))]),
     explain=('Comparisons of figures need the measure as well as the '
              'direction: how much more, not simply more.'),
     examples=['Employees in Mexico worked nearly five hours more than '

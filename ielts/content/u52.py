@@ -925,6 +925,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a system with feedback',
+    fix=dict(
+     text=('The model projects a rise of 14 million passengers by 2030. The '
+           'projection depends of two assumptions about office development and '
+           'bus services. If either assumption fails, the output changes '
+           'greatly, so the single figure is less useful than the range would '
+           'be. The published report states the assumptions, which many '
+           'business cases does not.'),
+     faults=[('depends of two assumptions',
+              'depends on two assumptions',
+              ('Depend takes the preposition on, never of: it depends on two '
+              'assumptions.')),
+             ('which many business cases does not',
+              'which many business cases do not',
+              'The subject business cases is plural, so the verb is do.'),
+             ('the output changes greatly',
+              'the output changes substantially',
+              ('Greatly is vague beside a figure; substantially is the '
+               'register the rest of the paragraph uses.'))]),
     explain=('A loop has to be described without implying that the machine '
              'chooses to go round it. The passive and the conditional do '
              'this work; "decides", "learns" and "tries" do not.'),

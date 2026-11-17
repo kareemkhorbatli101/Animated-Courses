@@ -826,6 +826,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing shares that add to a whole',
+    fix=dict(
+     text=('The chart shows four shares which together make up the whole. '
+           'Manufacturing accounted for 34 per cent, the largest single share. '
+           'Services took 28 per cent, and agriculture and construction made '
+           'up the remainder. The four shares are adding to 100 per cent, so '
+           'no category has been left out of the figure.'),
+     faults=[('agriculture and construction made up the remainder',
+              'agriculture and construction made up the remaining 38 per cent',
+              ('The remainder leaves the reader to do the arithmetic, which a '
+               'Task 1 answer should do for them.')),
+             ('The four shares are adding to 100 per cent',
+              'The four shares add to 100 per cent',
+              ('A permanent fact about the chart takes the present simple, not '
+               'the continuous.')),
+             ('so no category has been left out of the figure',
+              'so no category has been left out',
+              ('Of the figure adds nothing and makes the sentence harder to '
+               'parse.'))]),
     explain=('When three categories make up 100 per cent, the language has to '
              'keep the reader aware of the whole. These patterns do that and '
              'avoid listing every figure separately.'),

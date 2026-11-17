@@ -911,6 +911,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing agreement and its variability',
+    fix=dict(
+     text=('Inter-rater agreement was 0.71, which is high for a judgement of '
+           'this kind. The variability between judges was greatest for the '
+           'modern works, where the figure fell to 0.42. Agreement is '
+           'therefore not uniform, and it depend on what is being judged. A '
+           'figure of 0.71 shows that judgement is not purely personal, but it '
+           'not show that there is a single standard.'),
+     faults=[('it depend on what is being judged',
+              'it depends on what is being judged',
+              'The subject it is singular, so the verb is depends.'),
+             ('but it not show that there is a single standard',
+              'but it does not show that there is a single standard',
+              'A negative in the present simple needs does not.'),
+             ('which is high for a judgement of this kind',
+              ('which is high for a judgement of this kind, where 0.5 is often '
+               'reported'),
+              'High is a claim that needs a comparison beside it.')]),
     explain=('A figure with a spread needs language for both the centre '
              'and the dispersion, and for the relation between them. '
              'These patterns supply all three.'),

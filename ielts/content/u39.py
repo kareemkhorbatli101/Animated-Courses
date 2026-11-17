@@ -881,6 +881,25 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Reporting a net figure and the flows behind it',
+    fix=dict(
+     text=('Net migration was 240,000 in 2019, which is the difference between '
+           '680,000 arrivals and 440,000 departures. The net figure fell in '
+           '2020, but both the flows behind it fell more sharply. A net figure '
+           'can stay the same although the two flows change greatly, so it '
+           'hide as much as it shows.'),
+     faults=[('both the flows behind it fell more sharply',
+              'both of the flows behind it fell more sharply',
+              ('Both comes before the noun or takes of before the: both flows, '
+               'or both of the flows.')),
+             ('so it hide as much as it shows',
+              'so it hides as much as it shows',
+              'The subject it is singular, so the verb is hides.'),
+             (('A net figure can stay the same although the two flows change '
+               'greatly'),
+              ('A net figure can stay the same even when both flows change '
+               'greatly'),
+              ('Although needs a contrast between two statements; here the '
+               'second clause is a condition, so even when is the link.'))]),
     explain=('A net figure is a difference, and describing it honestly means '
              'giving the two numbers it came from. These patterns do that '
              'compactly.'),

@@ -614,6 +614,26 @@ UNIT = dict(
                      'Range and Accuracy')])],
    gram=dict(
     point='Contrast within a sentence: although, despite, even though',
+    fix=dict(
+     text=('Although the island was small, but we were never bored. Despite of '
+           'the cold water, we swam every day. We walked round the whole '
+           'island on the second day, even though it took five hours. There '
+           'was one shop and no cars. Even though the internet worked for an '
+           'hour a day, but we stopped trying after the second day.'),
+     faults=[('Although the island was small, but we were never bored',
+              'Although the island was small, we were never bored',
+              ('Although joins the two halves by itself; but makes one '
+               'conjunction too many.')),
+             ('Despite of the cold water',
+              'Despite the cold water',
+              ('Despite takes no of. In spite of does, which is where the '
+               'mistake comes from.')),
+             (('Even though the internet worked for an hour a day, but we '
+               'stopped trying'),
+              ('Even though the internet worked for an hour a day, we stopped '
+               'trying'),
+              ('Even though works like although, so but is not needed after '
+               'it.'))]),
     explain='Although and even though take a clause; despite takes a '
             'noun or -ing.',
     examples=['Although the share fell, the group is still largest.',

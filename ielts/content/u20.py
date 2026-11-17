@@ -764,6 +764,27 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing substitution without asserting it',
+    fix=dict(
+     text=('Sales of recorded music fell by two thirds between 2000 and 2012, '
+           'while streaming subscriptions rose from almost nothing to 40 '
+           'million. It is not possible to say from the chart that streaming '
+           'has caused this fall. The two trends occurred in the same years, '
+           'but the chart shows correlation and no causation. Live attendance, '
+           'which is shown on the second chart, rose over the same period.'),
+     faults=[('the chart shows correlation and no causation',
+              'the chart shows correlation, not causation',
+              ('Not is the contrast needed here; and no reads as a list of two '
+               'things the chart shows.')),
+             (('It is not possible to say from the chart that streaming has '
+               'caused this fall'),
+              ('It is not possible to say from the chart whether streaming '
+               'caused this fall'),
+              ('After it is not possible to say the clause is a question, so '
+               'it takes whether.')),
+             ('rose from almost nothing to 40 million',
+              'rose from almost nothing to 40 million subscribers',
+              ('A figure in a description needs its unit, or the reader has to '
+               'guess what is being counted.'))]),
     explain=('A graph can show one thing replacing another; it cannot '
              'show that it caused it, so the verb must be careful.'),
     examples=['Downloads began to fall as streaming rose, which suggests '

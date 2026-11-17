@@ -814,6 +814,26 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Hybrid: charts then table, joined explicitly',
+    fix=dict(
+     text=('The two charts show prize money and the table shows participation. '
+           'Prize money rose by 300 per cent between 2000 and 2020, whereas '
+           'participation fell slightly. Taken together, the charts and the '
+           'table suggests that the money has concentrated at the top. The '
+           'number of professional players, which is given in the table, has '
+           'fell by a fifth.'),
+     faults=[('the charts and the table suggests',
+              'the charts and the table suggest',
+              'Two subjects joined by and take a plural verb.'),
+             ('has fell by a fifth',
+              'has fallen by a fifth',
+              'After has the verb takes its past participle: fallen.'),
+             (('Taken together, the charts and the table suggests that the '
+               'money has concentrated at the top'),
+              ('Taken together, the charts and the table show that prize money '
+               'rose while participation fell'),
+              ('Suggest and concentrated at the top go beyond what the figures '
+               'state, which is a Task 1 answer arguing rather than '
+               'describing.'))]),
     explain=('With three visuals you must say where you are at all times. '
              'These phrases move the reader between visuals and are marked '
              'under Coherence and Cohesion.'),

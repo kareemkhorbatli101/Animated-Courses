@@ -524,6 +524,23 @@ UNIT = dict(
                      'Grammatical Range and Accuracy')])],
    gram=dict(
     point='Gerunds after prepositions and some verbs',
+    fix=dict(
+     text=('I am interested in grow vegetables. I started three years ago, by '
+           'help my neighbour when she was ill. I watered her plants for two '
+           'months, and after that I did not want stopping. Now I share a '
+           'small garden with her, and we grow tomatoes, beans and salad, '
+           'because salad is expensive in the shops.'),
+     faults=[('I am interested in grow vegetables',
+              'I am interested in growing vegetables',
+              ('After a preposition the verb takes the -ing form: interested '
+               'in growing.')),
+             ('by help my neighbour',
+              'by helping my neighbour',
+              'By is a preposition too, so the verb after it is helping.'),
+             ('I did not want stopping',
+              'I did not want to stop',
+              ('Want is followed by to and the plain verb, not by the -ing '
+               'form.'))]),
     explain='After a preposition, and after enjoy, finish, avoid and '
             'keep, use the -ing form.',
     examples=['She started by repairing her own bicycle.',

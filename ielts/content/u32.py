@@ -848,6 +848,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='The passive across a sequence, with time clauses',
+    fix=dict(
+     text=('The waste is first collected and then it sorts by material. After '
+           'the glass has been removed, the remainder is baled. Once it has '
+           'been baled, it is transporting to the reprocessing plant. The '
+           'plastic, which is the most contaminated fraction, are then washed '
+           'before it is melted.'),
+     faults=[('then it sorts by material',
+              'then it is sorted by material',
+              'The waste does not sort. The passive is it is sorted.'),
+             ('it is transporting to the reprocessing plant',
+              'it is transported to the reprocessing plant',
+              ('Is transporting means it is doing the transporting. The '
+               'passive is is transported.')),
+             ('are then washed before it is melted',
+              'is then washed before it is melted',
+              ('The subject is the plastic, which is singular, so the verb is '
+               'is washed.'))]),
     explain=('A process answer is a chain of passives joined by markers of '
              'sequence. The skill is to vary the joins so that eight stages do '
              'not produce eight identical sentences, which is the commonest '

@@ -795,6 +795,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing one series against another',
+    fix=dict(
+     text=('Coal generation fell steadily, whereas wind generation rose. In '
+           '2010 coal provided five times as much electricity than wind. By '
+           '2022 the position had reversed, and wind provided more than twice '
+           'as much as coal. The total of both sources remained almost '
+           'unchanged, which mean the one simply replaced the other.'),
+     faults=[('five times as much electricity than wind',
+              'five times as much electricity as wind',
+              'The pattern is as much as, not as much than.'),
+             ('which mean the one simply replaced the other',
+              'which suggests that one largely replaced the other',
+              ('Two faults: the verb must be singular, and mean states as fact '
+               'a substitution the chart can only suggest.')),
+             ('The total of both sources remained almost unchanged',
+              ('The combined total of the two sources remained almost '
+               'unchanged'),
+              ('The total of both sources is ambiguous between the sum and '
+               'each one\'s total.'))]),
     explain=('When several lines share a chart, each one after the first '
              'should be described in relation to what you have already '
              'established. These patterns do that and remove the need for a '

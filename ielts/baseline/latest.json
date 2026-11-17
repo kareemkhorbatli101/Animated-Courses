@@ -5995,6 +5995,14 @@
      "sha": "2ec75b779174",
      "w": 17
     },
+    "u1 c3 G fix faults": {
+     "sha": "2b4561813792",
+     "w": 88
+    },
+    "u1 c3 G fix text": {
+     "sha": "083db04d7668",
+     "w": 60
+    },
     "u1 c3 G items": {
      "sha": "79119b06abc7",
      "w": 84
@@ -6298,6 +6306,14 @@
     "u10 c3 G explain": {
      "sha": "ce4a4b82849b",
      "w": 18
+    },
+    "u10 c3 G fix faults": {
+     "sha": "3d08394426d3",
+     "w": 75
+    },
+    "u10 c3 G fix text": {
+     "sha": "8b49ce94878b",
+     "w": 52
     },
     "u10 c3 G items": {
      "sha": "16a82f890aa4",
@@ -6603,6 +6619,14 @@
      "sha": "98fe49021e85",
      "w": 17
     },
+    "u2 c3 G fix faults": {
+     "sha": "9b1c48c92627",
+     "w": 86
+    },
+    "u2 c3 G fix text": {
+     "sha": "225479c84b8b",
+     "w": 49
+    },
     "u2 c3 G items": {
      "sha": "51bbce941591",
      "w": 89
@@ -6906,6 +6930,14 @@
     "u3 c3 G explain": {
      "sha": "4a72ba02f901",
      "w": 23
+    },
+    "u3 c3 G fix faults": {
+     "sha": "a9ac62bafa40",
+     "w": 79
+    },
+    "u3 c3 G fix text": {
+     "sha": "bff69adfc5fe",
+     "w": 46
     },
     "u3 c3 G items": {
      "sha": "f5e34ef575a0",
@@ -7211,6 +7243,14 @@
      "sha": "807a7944686e",
      "w": 19
     },
+    "u4 c3 G fix faults": {
+     "sha": "b179a8f6acff",
+     "w": 81
+    },
+    "u4 c3 G fix text": {
+     "sha": "1877ab77b911",
+     "w": 53
+    },
     "u4 c3 G items": {
      "sha": "10d4cc4a0f8a",
      "w": 125
@@ -7514,6 +7554,14 @@
     "u5 c3 G explain": {
      "sha": "869bba70d520",
      "w": 17
+    },
+    "u5 c3 G fix faults": {
+     "sha": "bdc6a67770c3",
+     "w": 72
+    },
+    "u5 c3 G fix text": {
+     "sha": "33597de74065",
+     "w": 61
     },
     "u5 c3 G items": {
      "sha": "939cb47d30a4",
@@ -7819,6 +7867,14 @@
      "sha": "3d525360a731",
      "w": 22
     },
+    "u6 c3 G fix faults": {
+     "sha": "048127d620ec",
+     "w": 84
+    },
+    "u6 c3 G fix text": {
+     "sha": "497170bd2d2e",
+     "w": 53
+    },
     "u6 c3 G items": {
      "sha": "162156fdcfee",
      "w": 87
@@ -8123,6 +8179,14 @@
      "sha": "3c017cdbc7dd",
      "w": 20
     },
+    "u7 c3 G fix faults": {
+     "sha": "d61ba9eff43c",
+     "w": 101
+    },
+    "u7 c3 G fix text": {
+     "sha": "0ba5d01b0d7a",
+     "w": 53
+    },
     "u7 c3 G items": {
      "sha": "b7d35eb1e2b0",
      "w": 97
@@ -8426,6 +8490,14 @@
     "u8 c3 G explain": {
      "sha": "6b066d9a4f95",
      "w": 20
+    },
+    "u8 c3 G fix faults": {
+     "sha": "216645a443f8",
+     "w": 80
+    },
+    "u8 c3 G fix text": {
+     "sha": "92e2d14c07ac",
+     "w": 50
     },
     "u8 c3 G items": {
      "sha": "b59fa47a0564",
@@ -8738,6 +8810,14 @@
     "u9 c3 G explain": {
      "sha": "a14111375b40",
      "w": 15
+    },
+    "u9 c3 G fix faults": {
+     "sha": "db517060f797",
+     "w": 67
+    },
+    "u9 c3 G fix text": {
+     "sha": "b0d8352dce87",
+     "w": 43
     },
     "u9 c3 G items": {
      "sha": "f119bef4de57",
@@ -15570,6 +15650,14 @@
      "sha": "3a1503c6d39f",
      "w": 24
     },
+    "u11 c3 G fix faults": {
+     "sha": "aa434d1943f0",
+     "w": 66
+    },
+    "u11 c3 G fix text": {
+     "sha": "0b5e3a375767",
+     "w": 50
+    },
     "u11 c3 G items": {
      "sha": "a04c648f6fb6",
      "w": 87
@@ -15877,6 +15965,14 @@
     "u12 c3 G explain": {
      "sha": "9d36f680232f",
      "w": 20
+    },
+    "u12 c3 G fix faults": {
+     "sha": "8e51207a2d9c",
+     "w": 84
+    },
+    "u12 c3 G fix text": {
+     "sha": "0eecbe1d535d",
+     "w": 49
     },
     "u12 c3 G items": {
      "sha": "08b465e5c09e",
@@ -16186,6 +16282,14 @@
      "sha": "3acffec6fa83",
      "w": 21
     },
+    "u13 c3 G fix faults": {
+     "sha": "f6bcfc45cfa3",
+     "w": 80
+    },
+    "u13 c3 G fix text": {
+     "sha": "b9867f595177",
+     "w": 53
+    },
     "u13 c3 G items": {
      "sha": "c660a7baf287",
      "w": 86
@@ -16493,6 +16597,14 @@
     "u14 c3 G explain": {
      "sha": "2363c6718e64",
      "w": 22
+    },
+    "u14 c3 G fix faults": {
+     "sha": "ed4824a41e3b",
+     "w": 82
+    },
+    "u14 c3 G fix text": {
+     "sha": "96f03db59a23",
+     "w": 54
     },
     "u14 c3 G items": {
      "sha": "2272c7d46aad",
@@ -16802,6 +16914,14 @@
      "sha": "6799e53c93c3",
      "w": 21
     },
+    "u15 c3 G fix faults": {
+     "sha": "243d613f9cf0",
+     "w": 80
+    },
+    "u15 c3 G fix text": {
+     "sha": "5780f07c5789",
+     "w": 60
+    },
     "u15 c3 G items": {
      "sha": "a2717ec63904",
      "w": 99
@@ -17105,6 +17225,14 @@
     "u16 c3 G explain": {
      "sha": "6d3579ec90c6",
      "w": 21
+    },
+    "u16 c3 G fix faults": {
+     "sha": "c1fbbc701f5f",
+     "w": 95
+    },
+    "u16 c3 G fix text": {
+     "sha": "bf11a542136b",
+     "w": 58
     },
     "u16 c3 G items": {
      "sha": "10b97d703c4b",
@@ -17418,6 +17546,14 @@
      "sha": "4111e4ce5103",
      "w": 21
     },
+    "u17 c3 G fix faults": {
+     "sha": "4708440e9490",
+     "w": 78
+    },
+    "u17 c3 G fix text": {
+     "sha": "b66311628bca",
+     "w": 57
+    },
     "u17 c3 G items": {
      "sha": "3e883c30fef7",
      "w": 103
@@ -17726,6 +17862,14 @@
      "sha": "aca0687428d8",
      "w": 20
     },
+    "u18 c3 G fix faults": {
+     "sha": "3436fec8ff35",
+     "w": 80
+    },
+    "u18 c3 G fix text": {
+     "sha": "569eb3be7af5",
+     "w": 55
+    },
     "u18 c3 G items": {
      "sha": "5952ea9a2c9d",
      "w": 148
@@ -18029,6 +18173,14 @@
     "u19 c3 G explain": {
      "sha": "9d703b672390",
      "w": 21
+    },
+    "u19 c3 G fix faults": {
+     "sha": "a578b5c1d4c8",
+     "w": 89
+    },
+    "u19 c3 G fix text": {
+     "sha": "a34d8416aa66",
+     "w": 55
     },
     "u19 c3 G items": {
      "sha": "ad2377a14b59",
@@ -18337,6 +18489,14 @@
     "u20 c3 G explain": {
      "sha": "51e5c9f76446",
      "w": 21
+    },
+    "u20 c3 G fix faults": {
+     "sha": "169578179210",
+     "w": 109
+    },
+    "u20 c3 G fix text": {
+     "sha": "58d98478b8ed",
+     "w": 67
     },
     "u20 c3 G items": {
      "sha": "20ac46c2d40b",
@@ -24935,6 +25095,14 @@
      "sha": "627c4c5c00a2",
      "w": 28
     },
+    "u21 c3 G fix faults": {
+     "sha": "84ce50ad79a3",
+     "w": 81
+    },
+    "u21 c3 G fix text": {
+     "sha": "8c6e6bd89888",
+     "w": 57
+    },
     "u21 c3 G items": {
      "sha": "a04b6eaa3fce",
      "w": 99
@@ -25251,6 +25419,14 @@
      "sha": "6b9ff5b4947a",
      "w": 29
     },
+    "u22 c3 G fix faults": {
+     "sha": "972ca04717d9",
+     "w": 94
+    },
+    "u22 c3 G fix text": {
+     "sha": "c2908cc80438",
+     "w": 53
+    },
     "u22 c3 G items": {
      "sha": "e237859fd0e1",
      "w": 109
@@ -25562,6 +25738,14 @@
     "u23 c3 G explain": {
      "sha": "c78614ac0d7f",
      "w": 24
+    },
+    "u23 c3 G fix faults": {
+     "sha": "b69b6c7966ec",
+     "w": 93
+    },
+    "u23 c3 G fix text": {
+     "sha": "a96df6b4597f",
+     "w": 59
     },
     "u23 c3 G items": {
      "sha": "993524a8d7cb",
@@ -25875,6 +26059,14 @@
      "sha": "a2c952ec66f0",
      "w": 27
     },
+    "u24 c3 G fix faults": {
+     "sha": "d675caac7f85",
+     "w": 70
+    },
+    "u24 c3 G fix text": {
+     "sha": "ada933075a44",
+     "w": 54
+    },
     "u24 c3 G items": {
      "sha": "25a90c8e7fce",
      "w": 90
@@ -26186,6 +26378,14 @@
     "u25 c3 G explain": {
      "sha": "a02e61736035",
      "w": 25
+    },
+    "u25 c3 G fix faults": {
+     "sha": "9fe2afb2ba82",
+     "w": 76
+    },
+    "u25 c3 G fix text": {
+     "sha": "4e85879ec12e",
+     "w": 58
     },
     "u25 c3 G items": {
      "sha": "4507052ba20a",
@@ -26499,6 +26699,14 @@
      "sha": "b40d0d392883",
      "w": 34
     },
+    "u26 c3 G fix faults": {
+     "sha": "b375e3227d0a",
+     "w": 88
+    },
+    "u26 c3 G fix text": {
+     "sha": "aa48930cd656",
+     "w": 58
+    },
     "u26 c3 G items": {
      "sha": "2a6688b33d3d",
      "w": 98
@@ -26810,6 +27018,14 @@
     "u27 c3 G explain": {
      "sha": "ed08674e8bbd",
      "w": 26
+    },
+    "u27 c3 G fix faults": {
+     "sha": "c149c9c1eaec",
+     "w": 83
+    },
+    "u27 c3 G fix text": {
+     "sha": "866987c55b50",
+     "w": 57
     },
     "u27 c3 G items": {
      "sha": "e30de47e157f",
@@ -27123,6 +27339,14 @@
      "sha": "8e5e5338ff4c",
      "w": 35
     },
+    "u28 c3 G fix faults": {
+     "sha": "a35b1d66e213",
+     "w": 103
+    },
+    "u28 c3 G fix text": {
+     "sha": "1212368ce5af",
+     "w": 55
+    },
     "u28 c3 G items": {
      "sha": "aa3bac0860e3",
      "w": 105
@@ -27435,6 +27659,14 @@
      "sha": "f44b351a58aa",
      "w": 22
     },
+    "u29 c3 G fix faults": {
+     "sha": "31c0a93c6ed2",
+     "w": 97
+    },
+    "u29 c3 G fix text": {
+     "sha": "e79eaa43698c",
+     "w": 55
+    },
     "u29 c3 G items": {
      "sha": "e7b15d9f2011",
      "w": 108
@@ -27746,6 +27978,14 @@
     "u30 c3 G explain": {
      "sha": "0e427e85db8f",
      "w": 26
+    },
+    "u30 c3 G fix faults": {
+     "sha": "c8d25567790a",
+     "w": 93
+    },
+    "u30 c3 G fix text": {
+     "sha": "6edeec038d66",
+     "w": 58
     },
     "u30 c3 G items": {
      "sha": "51e4479d80b0",
@@ -34405,6 +34645,14 @@
      "sha": "33533c258072",
      "w": 53
     },
+    "u31 c3 G fix faults": {
+     "sha": "fc3282316f48",
+     "w": 93
+    },
+    "u31 c3 G fix text": {
+     "sha": "a790795e14c3",
+     "w": 57
+    },
     "u31 c3 G items": {
      "sha": "8e34b6984560",
      "w": 79
@@ -34716,6 +34964,14 @@
     "u32 c3 G explain": {
      "sha": "7332eb5aea43",
      "w": 42
+    },
+    "u32 c3 G fix faults": {
+     "sha": "9b2d42ea8659",
+     "w": 77
+    },
+    "u32 c3 G fix text": {
+     "sha": "6d64e59f5e70",
+     "w": 48
     },
     "u32 c3 G items": {
      "sha": "2a9ba36d2e06",
@@ -35029,6 +35285,14 @@
      "sha": "2a22eabf1015",
      "w": 44
     },
+    "u33 c3 G fix faults": {
+     "sha": "2a43353a5113",
+     "w": 56
+    },
+    "u33 c3 G fix text": {
+     "sha": "eb0b273986a1",
+     "w": 50
+    },
     "u33 c3 G items": {
      "sha": "9a2ef202f71b",
      "w": 81
@@ -35340,6 +35604,14 @@
     "u34 c3 G explain": {
      "sha": "87581eaf7174",
      "w": 37
+    },
+    "u34 c3 G fix faults": {
+     "sha": "fde5e35491d2",
+     "w": 106
+    },
+    "u34 c3 G fix text": {
+     "sha": "211b4c7c4a27",
+     "w": 59
     },
     "u34 c3 G items": {
      "sha": "6db2fcfa8f1c",
@@ -35653,6 +35925,14 @@
      "sha": "2b29a3c30a9e",
      "w": 34
     },
+    "u35 c3 G fix faults": {
+     "sha": "bf1132026c25",
+     "w": 83
+    },
+    "u35 c3 G fix text": {
+     "sha": "4da845bc8d4e",
+     "w": 64
+    },
     "u35 c3 G items": {
      "sha": "a7321d97686a",
      "w": 102
@@ -35964,6 +36244,14 @@
     "u36 c3 G explain": {
      "sha": "42604a91bc12",
      "w": 36
+    },
+    "u36 c3 G fix faults": {
+     "sha": "c517e31cca78",
+     "w": 91
+    },
+    "u36 c3 G fix text": {
+     "sha": "adfb7941c5e1",
+     "w": 51
     },
     "u36 c3 G items": {
      "sha": "d313f8a8d3a1",
@@ -36280,6 +36568,14 @@
     "u37 c3 G explain": {
      "sha": "0afe4954ea42",
      "w": 28
+    },
+    "u37 c3 G fix faults": {
+     "sha": "1f3ae792eb92",
+     "w": 110
+    },
+    "u37 c3 G fix text": {
+     "sha": "b20256a850bb",
+     "w": 67
     },
     "u37 c3 G items": {
      "sha": "d7aaf9b54076",
@@ -36601,6 +36897,14 @@
      "sha": "f62abde304d9",
      "w": 33
     },
+    "u38 c3 G fix faults": {
+     "sha": "40a19abbcdeb",
+     "w": 79
+    },
+    "u38 c3 G fix text": {
+     "sha": "599b07b72f5f",
+     "w": 48
+    },
     "u38 c3 G items": {
      "sha": "89b06c97deec",
      "w": 71
@@ -36917,6 +37221,14 @@
      "sha": "4e7c9ac55076",
      "w": 23
     },
+    "u39 c3 G fix faults": {
+     "sha": "6929b453787c",
+     "w": 106
+    },
+    "u39 c3 G fix text": {
+     "sha": "84de4568a45f",
+     "w": 52
+    },
     "u39 c3 G items": {
      "sha": "d55a80faebe2",
      "w": 85
@@ -37228,6 +37540,14 @@
     "u40 c3 G explain": {
      "sha": "46a8e55227a4",
      "w": 30
+    },
+    "u40 c3 G fix faults": {
+     "sha": "5f7f9048fe91",
+     "w": 82
+    },
+    "u40 c3 G fix text": {
+     "sha": "d3e85b6809bf",
+     "w": 68
     },
     "u40 c3 G items": {
      "sha": "337f57ea593d",
@@ -44112,6 +44432,14 @@
      "sha": "cffa0fd10348",
      "w": 34
     },
+    "u41 c3 G fix faults": {
+     "sha": "5762fa2a1d4c",
+     "w": 81
+    },
+    "u41 c3 G fix text": {
+     "sha": "dad372b43b97",
+     "w": 54
+    },
     "u41 c3 G items": {
      "sha": "4fa8c789373a",
      "w": 104
@@ -44423,6 +44751,14 @@
     "u42 c3 G explain": {
      "sha": "b9073c2f0c41",
      "w": 24
+    },
+    "u42 c3 G fix faults": {
+     "sha": "49d9290f9b48",
+     "w": 82
+    },
+    "u42 c3 G fix text": {
+     "sha": "3bfa74644666",
+     "w": 56
     },
     "u42 c3 G items": {
      "sha": "0529de65d7dc",
@@ -44736,6 +45072,14 @@
      "sha": "f928ec08ecde",
      "w": 45
     },
+    "u43 c3 G fix faults": {
+     "sha": "064803f6ccb0",
+     "w": 115
+    },
+    "u43 c3 G fix text": {
+     "sha": "229182c1209d",
+     "w": 52
+    },
     "u43 c3 G items": {
      "sha": "deb30b57e5bc",
      "w": 115
@@ -45047,6 +45391,14 @@
     "u44 c3 G explain": {
      "sha": "8ebe9ca304b1",
      "w": 23
+    },
+    "u44 c3 G fix faults": {
+     "sha": "9acb91cca591",
+     "w": 81
+    },
+    "u44 c3 G fix text": {
+     "sha": "b38345a5a70c",
+     "w": 60
     },
     "u44 c3 G items": {
      "sha": "46c1736082fe",
@@ -45360,6 +45712,14 @@
      "sha": "5a9eec42c4fe",
      "w": 25
     },
+    "u45 c3 G fix faults": {
+     "sha": "5490a269631b",
+     "w": 101
+    },
+    "u45 c3 G fix text": {
+     "sha": "a63ac52b0ee3",
+     "w": 53
+    },
     "u45 c3 G items": {
      "sha": "52bb8abdb900",
      "w": 115
@@ -45671,6 +46031,14 @@
     "u46 c3 G explain": {
      "sha": "73a73c48418a",
      "w": 31
+    },
+    "u46 c3 G fix faults": {
+     "sha": "51e112b9e759",
+     "w": 97
+    },
+    "u46 c3 G fix text": {
+     "sha": "e2d3d9b3665a",
+     "w": 64
     },
     "u46 c3 G items": {
      "sha": "183a947ea9c8",
@@ -45984,6 +46352,14 @@
      "sha": "49fea0ba3971",
      "w": 25
     },
+    "u47 c3 G fix faults": {
+     "sha": "4fd2ce02a590",
+     "w": 91
+    },
+    "u47 c3 G fix text": {
+     "sha": "79edb0618dbd",
+     "w": 60
+    },
     "u47 c3 G items": {
      "sha": "68913301fcd8",
      "w": 107
@@ -46296,6 +46672,14 @@
      "sha": "a70dbe04f17f",
      "w": 25
     },
+    "u48 c3 G fix faults": {
+     "sha": "7a5f2a82cb01",
+     "w": 87
+    },
+    "u48 c3 G fix text": {
+     "sha": "981c003a50e8",
+     "w": 67
+    },
     "u48 c3 G items": {
      "sha": "fc5809311bc8",
      "w": 100
@@ -46603,6 +46987,14 @@
     "u49 c3 G explain": {
      "sha": "16bbc7ee4f14",
      "w": 30
+    },
+    "u49 c3 G fix faults": {
+     "sha": "000330069927",
+     "w": 75
+    },
+    "u49 c3 G fix text": {
+     "sha": "5605212d5035",
+     "w": 52
     },
     "u49 c3 G items": {
      "sha": "a09ca8a7559e",
@@ -46915,6 +47307,14 @@
     "u50 c3 G explain": {
      "sha": "b47b33244d8e",
      "w": 31
+    },
+    "u50 c3 G fix faults": {
+     "sha": "c0a3e0beb8ac",
+     "w": 70
+    },
+    "u50 c3 G fix text": {
+     "sha": "b6369d6107ee",
+     "w": 52
     },
     "u50 c3 G items": {
      "sha": "97ebc408f5ae",
@@ -53867,6 +54267,14 @@
      "sha": "a40b2eab8ca7",
      "w": 29
     },
+    "u51 c3 G fix faults": {
+     "sha": "bf157e601d94",
+     "w": 112
+    },
+    "u51 c3 G fix text": {
+     "sha": "06f416cdb5a2",
+     "w": 57
+    },
     "u51 c3 G items": {
      "sha": "290f852b5e14",
      "w": 116
@@ -54178,6 +54586,14 @@
     "u52 c3 G explain": {
      "sha": "a1edeaee68d7",
      "w": 30
+    },
+    "u52 c3 G fix faults": {
+     "sha": "4cbcae302818",
+     "w": 67
+    },
+    "u52 c3 G fix text": {
+     "sha": "b7aab16769b1",
+     "w": 55
     },
     "u52 c3 G items": {
      "sha": "b61474703f86",
@@ -54491,6 +54907,14 @@
      "sha": "b97a3d5e4ab5",
      "w": 25
     },
+    "u53 c3 G fix faults": {
+     "sha": "36a8a3acee3c",
+     "w": 93
+    },
+    "u53 c3 G fix text": {
+     "sha": "3a542791449d",
+     "w": 56
+    },
     "u53 c3 G items": {
      "sha": "734ca68b956a",
      "w": 114
@@ -54802,6 +55226,14 @@
     "u54 c3 G explain": {
      "sha": "abaf0a8ce836",
      "w": 31
+    },
+    "u54 c3 G fix faults": {
+     "sha": "d838d57f98f2",
+     "w": 95
+    },
+    "u54 c3 G fix text": {
+     "sha": "46a1f475e8e5",
+     "w": 68
     },
     "u54 c3 G items": {
      "sha": "59c02ecb628f",
@@ -55115,6 +55547,14 @@
      "sha": "62aeb515aea0",
      "w": 29
     },
+    "u55 c3 G fix faults": {
+     "sha": "21a4b9fe3525",
+     "w": 82
+    },
+    "u55 c3 G fix text": {
+     "sha": "200bb20197b0",
+     "w": 53
+    },
     "u55 c3 G items": {
      "sha": "55341fe9cfa9",
      "w": 111
@@ -55426,6 +55866,14 @@
     "u56 c3 G explain": {
      "sha": "2fd32404deac",
      "w": 25
+    },
+    "u56 c3 G fix faults": {
+     "sha": "300dd0cf71f8",
+     "w": 87
+    },
+    "u56 c3 G fix text": {
+     "sha": "6f213c3b6b6f",
+     "w": 63
     },
     "u56 c3 G items": {
      "sha": "d90c320c0b6b",
@@ -55739,6 +56187,14 @@
      "sha": "6bb503631456",
      "w": 27
     },
+    "u57 c3 G fix faults": {
+     "sha": "7717917611dc",
+     "w": 78
+    },
+    "u57 c3 G fix text": {
+     "sha": "269b9fca6ea6",
+     "w": 50
+    },
     "u57 c3 G items": {
      "sha": "440d334ff1b8",
      "w": 111
@@ -56050,6 +56506,14 @@
     "u58 c3 G explain": {
      "sha": "bc04761f4b32",
      "w": 25
+    },
+    "u58 c3 G fix faults": {
+     "sha": "e8cca1ab4492",
+     "w": 81
+    },
+    "u58 c3 G fix text": {
+     "sha": "91d86d2d39dd",
+     "w": 63
     },
     "u58 c3 G items": {
      "sha": "fa9a0dd8b50e",
@@ -56363,6 +56827,14 @@
      "sha": "ce123eaef70e",
      "w": 31
     },
+    "u59 c3 G fix faults": {
+     "sha": "5de3dda232c8",
+     "w": 85
+    },
+    "u59 c3 G fix text": {
+     "sha": "1f3e815c3028",
+     "w": 56
+    },
     "u59 c3 G items": {
      "sha": "d0190d2d1884",
      "w": 101
@@ -56674,6 +57146,14 @@
     "u60 c3 G explain": {
      "sha": "29527b47acdb",
      "w": 23
+    },
+    "u60 c3 G fix faults": {
+     "sha": "a4fb2b224b01",
+     "w": 81
+    },
+    "u60 c3 G fix text": {
+     "sha": "b6f26878e965",
+     "w": 62
     },
     "u60 c3 G items": {
      "sha": "6b3da771958e",
@@ -62111,6 +62591,14 @@
      "sha": "adfe738485b8",
      "w": 20
     },
+    "u1 c3 G fix faults": {
+     "sha": "bcf2df1f3c46",
+     "w": 88
+    },
+    "u1 c3 G fix text": {
+     "sha": "0e917b6ecf62",
+     "w": 61
+    },
     "u1 c3 G items": {
      "sha": "78ccfc9a3255",
      "w": 54
@@ -62406,6 +62894,14 @@
     "u10 c3 G explain": {
      "sha": "9ccf261993e8",
      "w": 14
+    },
+    "u10 c3 G fix faults": {
+     "sha": "ce115c2645e7",
+     "w": 61
+    },
+    "u10 c3 G fix text": {
+     "sha": "f610157ccf38",
+     "w": 59
     },
     "u10 c3 G items": {
      "sha": "855c46e56ed3",
@@ -62703,6 +63199,14 @@
      "sha": "7f49d03d6401",
      "w": 15
     },
+    "u2 c3 G fix faults": {
+     "sha": "d47176e3a8a6",
+     "w": 71
+    },
+    "u2 c3 G fix text": {
+     "sha": "810ad79476da",
+     "w": 53
+    },
     "u2 c3 G items": {
      "sha": "7b6771d31400",
      "w": 66
@@ -62998,6 +63502,14 @@
     "u3 c3 G explain": {
      "sha": "1c7cfc0f6131",
      "w": 12
+    },
+    "u3 c3 G fix faults": {
+     "sha": "c50645144acc",
+     "w": 72
+    },
+    "u3 c3 G fix text": {
+     "sha": "4364068baf57",
+     "w": 63
     },
     "u3 c3 G items": {
      "sha": "dcb48f88ae87",
@@ -63295,6 +63807,14 @@
      "sha": "4eb0e9c23319",
      "w": 18
     },
+    "u4 c3 G fix faults": {
+     "sha": "98fb17ff579a",
+     "w": 75
+    },
+    "u4 c3 G fix text": {
+     "sha": "e656f52c9ef0",
+     "w": 64
+    },
     "u4 c3 G items": {
      "sha": "b2153aaf41ba",
      "w": 53
@@ -63590,6 +64110,14 @@
     "u5 c3 G explain": {
      "sha": "37642029de57",
      "w": 19
+    },
+    "u5 c3 G fix faults": {
+     "sha": "660a3df64fc6",
+     "w": 92
+    },
+    "u5 c3 G fix text": {
+     "sha": "f25553d6272c",
+     "w": 57
     },
     "u5 c3 G items": {
      "sha": "027b233f7be7",
@@ -63887,6 +64415,14 @@
      "sha": "4087868fd3b4",
      "w": 17
     },
+    "u6 c3 G fix faults": {
+     "sha": "a7b8d8a49160",
+     "w": 71
+    },
+    "u6 c3 G fix text": {
+     "sha": "d2a920fcd3f9",
+     "w": 61
+    },
     "u6 c3 G items": {
      "sha": "e6ceb3870a72",
      "w": 60
@@ -64182,6 +64718,14 @@
     "u7 c3 G explain": {
      "sha": "ec0b7525946d",
      "w": 18
+    },
+    "u7 c3 G fix faults": {
+     "sha": "82017c7daf52",
+     "w": 78
+    },
+    "u7 c3 G fix text": {
+     "sha": "b4aeeb987b07",
+     "w": 68
     },
     "u7 c3 G items": {
      "sha": "53f63ed68710",
@@ -64479,6 +65023,14 @@
      "sha": "1dc684fb33cf",
      "w": 16
     },
+    "u8 c3 G fix faults": {
+     "sha": "c31f6d93fbfd",
+     "w": 66
+    },
+    "u8 c3 G fix text": {
+     "sha": "e2e667025608",
+     "w": 60
+    },
     "u8 c3 G items": {
      "sha": "dba861808cf4",
      "w": 63
@@ -64774,6 +65326,14 @@
     "u9 c3 G explain": {
      "sha": "d4fb47de128d",
      "w": 14
+    },
+    "u9 c3 G fix faults": {
+     "sha": "999be7acd351",
+     "w": 69
+    },
+    "u9 c3 G fix text": {
+     "sha": "a60802a2b5ba",
+     "w": 56
     },
     "u9 c3 G items": {
      "sha": "0c2c116fc090",
@@ -70709,6 +71269,14 @@
      "sha": "cdf52ed2ec62",
      "w": 24
     },
+    "u1 c3 G fix faults": {
+     "sha": "a2ee50c9b653",
+     "w": 92
+    },
+    "u1 c3 G fix text": {
+     "sha": "bfe28578f363",
+     "w": 67
+    },
     "u1 c3 G items": {
      "sha": "5950adaef43b",
      "w": 86
@@ -71004,6 +71572,14 @@
     "u10 c3 G explain": {
      "sha": "1876895f8c09",
      "w": 20
+    },
+    "u10 c3 G fix faults": {
+     "sha": "b5d80b72b244",
+     "w": 86
+    },
+    "u10 c3 G fix text": {
+     "sha": "5c2fe905b7a6",
+     "w": 61
     },
     "u10 c3 G items": {
      "sha": "4f7507f8fe09",
@@ -71305,6 +71881,14 @@
      "sha": "d589d3746b4a",
      "w": 13
     },
+    "u2 c3 G fix faults": {
+     "sha": "7236ffc137b2",
+     "w": 89
+    },
+    "u2 c3 G fix text": {
+     "sha": "1715476fc4bc",
+     "w": 61
+    },
     "u2 c3 G items": {
      "sha": "88e2606e7358",
      "w": 96
@@ -71605,6 +72189,14 @@
      "sha": "41d20d1d51e8",
      "w": 15
     },
+    "u3 c3 G fix faults": {
+     "sha": "81eddd73db3d",
+     "w": 76
+    },
+    "u3 c3 G fix text": {
+     "sha": "a0f454118475",
+     "w": 65
+    },
     "u3 c3 G items": {
      "sha": "889b4dbcc791",
      "w": 54
@@ -71900,6 +72492,14 @@
     "u4 c3 G explain": {
      "sha": "0ccd4ec1bfb2",
      "w": 14
+    },
+    "u4 c3 G fix faults": {
+     "sha": "221214bccd07",
+     "w": 62
+    },
+    "u4 c3 G fix text": {
+     "sha": "91969fe5c8a3",
+     "w": 49
     },
     "u4 c3 G items": {
      "sha": "591dd2a6f3b7",
@@ -72197,6 +72797,14 @@
      "sha": "c97ebdadd3dc",
      "w": 21
     },
+    "u5 c3 G fix faults": {
+     "sha": "0b5620d4db0d",
+     "w": 91
+    },
+    "u5 c3 G fix text": {
+     "sha": "ea6af97c5acb",
+     "w": 58
+    },
     "u5 c3 G items": {
      "sha": "5bc56417f1e3",
      "w": 55
@@ -72492,6 +73100,14 @@
     "u6 c3 G explain": {
      "sha": "1350382acae5",
      "w": 13
+    },
+    "u6 c3 G fix faults": {
+     "sha": "3c80bed7d4d6",
+     "w": 95
+    },
+    "u6 c3 G fix text": {
+     "sha": "0d2e3b807a5d",
+     "w": 60
     },
     "u6 c3 G items": {
      "sha": "22ce7798a25e",
@@ -72789,6 +73405,14 @@
      "sha": "da3beb6f195d",
      "w": 18
     },
+    "u7 c3 G fix faults": {
+     "sha": "8796962bfaef",
+     "w": 75
+    },
+    "u7 c3 G fix text": {
+     "sha": "73db16cbddb7",
+     "w": 63
+    },
     "u7 c3 G items": {
      "sha": "27ad40c3aa35",
      "w": 92
@@ -73085,6 +73709,14 @@
      "sha": "30352b482fc6",
      "w": 18
     },
+    "u8 c3 G fix faults": {
+     "sha": "3d489baf30dc",
+     "w": 79
+    },
+    "u8 c3 G fix text": {
+     "sha": "dff20a37685f",
+     "w": 57
+    },
     "u8 c3 G items": {
      "sha": "013341e1a37b",
      "w": 76
@@ -73380,6 +74012,14 @@
     "u9 c3 G explain": {
      "sha": "a73efcbfb943",
      "w": 12
+    },
+    "u9 c3 G fix faults": {
+     "sha": "15b3ad516e92",
+     "w": 83
+    },
+    "u9 c3 G fix text": {
+     "sha": "dd86fa19502a",
+     "w": 52
     },
     "u9 c3 G items": {
      "sha": "8126cb750ca7",

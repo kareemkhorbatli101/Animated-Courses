@@ -778,6 +778,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing absence and uneven data',
+    fix=dict(
+     text=('The table gives figures for four regions, but no data is available '
+           'for the north before 1990. The figures for the south, which are '
+           'complete, show a steady rise. It is not possible to say if the '
+           'northern figure rose or fell in those years. The absence of data '
+           'mean that no comparison can be made for the whole period.'),
+     faults=[('no data is available for the north',
+              'no data are available for the north',
+              'In formal academic writing data takes a plural verb.'),
+             ('It is not possible to say if the northern figure rose or fell',
+              ('It is not possible to say whether the northern figure rose or '
+               'fell'),
+              'Between two alternatives the word is whether, not if.'),
+             ('The absence of data mean',
+              'The absence of data means',
+              ('The subject is absence, which is singular, so the verb is '
+               'means.'))]),
     explain=('A gap in a chart needs language that reports it without '
              'claiming to know what caused it. These patterns do that.'),
     examples=['The gap in the 1640s is a gap in the records, not in the '

@@ -509,6 +509,24 @@ UNIT = dict(
                      'Range and Accuracy')])],
    gram=dict(
     point='Conditionals with if for rules',
+    fix=dict(
+     text=('If I will start late, I always finish badly. Last term I had six '
+           'weeks to write a report, and I did almost nothing for four weeks. '
+           'If you leave a long piece of work until the end, you writing it in '
+           'one night. If I would have started earlier, the end of the report '
+           'would have been longer. Now I make a plan in the first week.'),
+     faults=[('If I will start late',
+              'If I start late',
+              ('After if, English uses the present form for a general rule, '
+               'not will.')),
+             ('you writing it in one night',
+              'you write it in one night',
+              ('The verb needs a tense. Writing on its own is not a complete '
+               'verb here.')),
+             ('If I would have started earlier',
+              'If I had started earlier',
+              ('In the if clause the form is had started. Would belongs in the '
+               'other half of the sentence.'))]),
     explain='Use if plus the present simple, then will or a modal, for '
             'a rule or a likely result.',
     examples=['If you ask before the date, it is agreed.',

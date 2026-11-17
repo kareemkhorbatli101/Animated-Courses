@@ -875,6 +875,25 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a shift and where it lands',
+    fix=dict(
+     text=('Spending shifted from the high street to online during the period. '
+           'The online share rose from 6 to 28 per cent, while the high street '
+           'share fell by 71 to 54 per cent. The shift did not land evenly: '
+           'almost all of the gain went to three companies, which the chart '
+           'shows in the second panel. By 2022 online had overtaken the whole '
+           'of the out-of-town sector.'),
+     faults=[('fell by 71 to 54 per cent',
+              'fell from 71 to 54 per cent',
+              ('The starting figure takes from; by would state the size of the '
+               'fall.')),
+             ('which the chart shows in the second panel',
+              'as the second panel shows',
+              ('Which has no clear antecedent, and the natural link for this '
+               'is as.')),
+             ('online had overtaken the whole of the out-of-town sector',
+              'online had overtaken the out-of-town sector as a whole',
+              ('The whole of the sector is a quantity; the comparison is with '
+               'the sector taken together.'))]),
     explain=('Describing a change that affects two quantities differently '
              'requires language that attributes the movement, not just '
              'reports it. These patterns do that within the data.'),

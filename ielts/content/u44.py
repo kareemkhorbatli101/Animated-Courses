@@ -871,6 +871,25 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a systematic gap between two series',
+    fix=dict(
+     text=('The two series run in parallel but one is consistently above the '
+           'other. The gap between them is systematically, at about eight '
+           'percentage points in every year. Neither line crosses the other at '
+           'any point in the period, which mean the difference is not caused '
+           'by a single year. The gap is widest in 2018, when it reach eleven '
+           'points.'),
+     faults=[('The gap between them is systematically',
+              'The gap between them is systematic',
+              ('After is the word describes the gap, so it needs the adjective '
+               'systematic.')),
+             ('which mean the difference is not caused by a single year',
+              'which means the difference is not caused by a single year',
+              ('Which stands for the preceding clause and takes a singular '
+               'verb.')),
+             ('when it reach eleven points',
+              'when it reached eleven points',
+              ('The sentence is about 2018, a finished year, so the verb is '
+               'past.'))]),
     explain=('Where two series never cross, the language of comparison has '
              'to describe a relationship rather than two shapes. These '
              'patterns do it compactly.'),

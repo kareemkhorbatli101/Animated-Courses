@@ -592,6 +592,22 @@ UNIT = dict(
                      'Range and Accuracy')])],
    gram=dict(
     point='Superlatives and ordering: highest, lowest, widest',
+    fix=dict(
+     text=('The table shows that the Nile is the most longest river in Africa. '
+           'The Congo is the more wide of the four, and the Niger is shortest. '
+           'Lake Victoria is the largest lake in Africa. The highest of the '
+           'four mountains is Kilimanjaro, which is also the most famous.'),
+     faults=[('the most longest river',
+              'the longest river',
+              ('A superlative is formed once: either longest or most long, '
+               'never both.')),
+             ('the more wide of the four',
+              'the widest of the four',
+              ('With four items the superlative is needed, and wide takes the '
+               '-est ending.')),
+             ('the Niger is shortest',
+              'the Niger is the shortest',
+              'A superlative needs the in front of it: the shortest.')]),
     explain='Use the with a superlative, and at plus a figure to give '
             'the value.',
     examples=['The count was highest in January, at fourteen.',

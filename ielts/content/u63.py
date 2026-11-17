@@ -469,6 +469,24 @@ UNIT = dict(
                      'Range and Accuracy')])],
    gram=dict(
     point='Frequency adverbs: always, usually, sometimes, never',
+    fix=dict(
+     text=('In my family everybody has a job at home. I do the washing-up '
+           'always after dinner, from Monday to Friday. My sister she does it '
+           'at the weekend. My mother cooks usually, and my father never cook, '
+           'because he says he cannot. When we were children my mother made a '
+           'list on the kitchen wall, and we still use the same system now.'),
+     faults=[('I do the washing-up always after dinner',
+              'I always do the washing-up after dinner',
+              ('A frequency adverb goes before the main verb, not after the '
+               'object.')),
+             ('My sister she does it',
+              'My sister does it',
+              ('Do not repeat the subject. Either my sister or she, never both '
+               'together.')),
+             ('my father never cook',
+              'my father never cooks',
+              ('The third person singular needs the s: he cooks. The adverb '
+               'never does not remove it.'))]),
     explain='Put the adverb before the main verb, but after the verb '
             'be.',
     examples=['He always sets the table.',

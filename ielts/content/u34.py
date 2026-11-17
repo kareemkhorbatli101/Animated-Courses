@@ -818,6 +818,27 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing relationships without claiming causation',
+    fix=dict(
+     text=('The chart shows that output per hour and hours worked moved in '
+           'opposite directions. Output per hour rose by 12 per cent, while '
+           'hours worked fell by 6 per cent. This suggests that the shorter '
+           'week has caused the rise, although the chart cannot shows this. '
+           'Firms which volunteered for the trial may differ from firms which '
+           'did not.'),
+     faults=[('This suggests that the shorter week has caused the rise',
+              ('The two moved together, although the chart cannot show which '
+               'caused which'),
+              ('Suggests that the shorter week has caused the rise asserts a '
+               'cause the chart cannot support.')),
+             ('although the chart cannot shows this',
+              'although the chart cannot show this',
+              'After a modal such as cannot the verb has no s: cannot show.'),
+             (('Firms which volunteered for the trial may differ from firms '
+               'which did not'),
+              ('Firms which volunteered for the trial may differ from those '
+               'which did not'),
+              ('Repeating firms where those would do is the repetition a Task '
+               '1 answer is marked down for.'))]),
     explain=('Task 1 asks you to report, not explain. A candidate who writes '
              'because loses marks for a claim the chart does not support. '
              'These structures let you state a relationship precisely while '

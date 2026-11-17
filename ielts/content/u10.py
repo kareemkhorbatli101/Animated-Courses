@@ -697,6 +697,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing distributions and exceptions',
+    fix=dict(
+     text=('The table shows that most of the runners finished between 40 and '
+           '50 minutes. The majority of the field was in this group. Only '
+           'three runners, who all were over sixty, took more than 70 minutes. '
+           'The fastest time was 31 minutes, which is a exception in a field '
+           'of this size.'),
+     faults=[('The majority of the field was in this group',
+              'The majority of the field were in this group',
+              ('The majority of a group of people takes a plural verb in '
+               'British usage.')),
+             ('who all were over sixty',
+              'all of whom were over sixty',
+              ('After a preposition-free relative clause the natural order is '
+               'all of whom, not who all.')),
+             ('which is a exception',
+              'which is an exception',
+              'An is needed before a vowel sound: an exception.')]),
     explain=('A pattern with one exception needs the pattern stated '
              'first and the exception marked, not simply listed '
              'alongside.'),

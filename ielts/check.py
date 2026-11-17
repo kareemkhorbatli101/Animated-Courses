@@ -141,6 +141,14 @@ FOLLOWUP_PAIRS = {3: 3, 4: 3, 5: 4, 6: 4}
 MIN_FOLLOWUP_A = 28     # words in a Part 3 answer worth printing
 MIN_SOUNDS = 4          # lines on the pronunciation and fluency page
 
+# Error correction. One per unit, in the grammar slot: a short paragraph
+# written at about band 6 with three faults planted in it, and for each
+# fault the correction and the reason. Recognising your own error in
+# somebody else's sentence is the step between knowing a rule and using it.
+FIX_FAULTS = 3
+FIX_TEXT = (40, 130)    # words in the faulty paragraph
+MIN_FIX_WHY = 25
+
 # Phases turn these on as the content lands, so the gate is written first
 # and goes green when the work it governs is done. Set by main() from the
 # file PHASE, which is the single place a phase is declared finished.
@@ -244,8 +252,11 @@ def speak_share(U):
         g = c.get('gram') or {}
         gv += len(g.get('explain', '').split())
         gv += sum(len(x.split()) for x in g.get('examples', []))
-        gv += sum(len(a.split()) + len(b.split())
-                  for a, b in g.get('fix', []))
+        fx = g.get('fix')
+        if fx:
+            gv += len(fx['text'].split())
+            gv += sum(len(a.split()) + len(b.split()) + len(c_.split())
+                      for a, b, c_ in fx['faults'])
         gv += sum(len(d.split()) for _, d in c.get('vocab', []))
     tot = rd + li + wr + sp + gv
     return 100.0 * sp / tot if tot else 0.0
@@ -383,6 +394,28 @@ def check_unit(U, out, heads):
         if not (lo <= lw <= hi):
             out.append('%s: the long turn is %d words, want %d-%d'
                        % (tag, lw, lo, hi))
+    fixes = [c['gram']['fix'] for c in U['cycles'] if c['gram'].get('fix')]
+    if len(fixes) != 1:
+        out.append('%s: %d error-correction sets, want exactly 1'
+                   % (tag, len(fixes)))
+    else:
+        fx = fixes[0]
+        fw = len(fx['text'].split())
+        if not (FIX_TEXT[0] <= fw <= FIX_TEXT[1]):
+            out.append('%s: the faulty paragraph is %d words, want %d-%d'
+                       % (tag, fw, FIX_TEXT[0], FIX_TEXT[1]))
+        if len(fx['faults']) != FIX_FAULTS:
+            out.append('%s: %d planted faults, want %d'
+                       % (tag, len(fx['faults']), FIX_FAULTS))
+        for fi, (wrong, right, why) in enumerate(fx['faults'], 1):
+            if wrong not in fx['text']:
+                out.append('%s: fault %d (%r) is not in the paragraph'
+                           % (tag, fi, wrong[:40]))
+            if wrong == right:
+                out.append('%s: fault %d corrects nothing' % (tag, fi))
+            if len(why) < MIN_FIX_WHY:
+                out.append('%s: fault %d explained in %d chars, want %d+'
+                           % (tag, fi, len(why), MIN_FIX_WHY))
     snd = [c for c in U['cycles'] if c['speak'].get('sounds')]
     if len(snd) != 1:
         out.append('%s: %d sounds pages, want exactly 1' % (tag, len(snd)))

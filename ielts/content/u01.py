@@ -680,6 +680,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Present perfect and past simple contrasted',
+    fix=dict(
+     text=('I have studied statistics in my second year at university, and it '
+           'was difficult. Since three years I had not done any mathematics, '
+           'and the lecturer assumed we all remembered it. I could do the '
+           'calculations, but I did not understood what they were for. Last '
+           'April I have passed the examination, and I still use some of it '
+           'now.'),
+     faults=[('I have studied statistics in my second year',
+              'I studied statistics in my second year',
+              ('A finished time such as my second year takes the past simple, '
+               'not the present perfect.')),
+             ('Since three years I had not done any mathematics',
+              'For three years I had not done any mathematics',
+              'Since marks a starting point; a length of time takes for.'),
+             ('Last April I have passed the examination',
+              'Last April I passed the examination',
+              ('Last April is a finished time, so the present perfect cannot '
+               'be used with it.'))]),
     explain=('The past simple says when; the present perfect says that '
              'it happened and connects it to now.'),
     examples=['In 2024, 18,400 adults took a computing course.',

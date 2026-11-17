@@ -867,6 +867,25 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing what a method cannot see',
+    fix=dict(
+     text=('The survey recorded 48 species, but it was carried out in July '
+           'only. Species which are active in spring would therefore not '
+           'appear, however common they was. The method can show what is '
+           'present and it cannot show what is absent. The figure of 48 is '
+           'therefore a minimum rather than a count.'),
+     faults=[('however common they was',
+              'however common they were',
+              'The subject they is plural, so the verb is were.'),
+             (('The method can show what is present and it cannot show what is '
+               'absent'),
+              'The method can show what is present but not what is absent',
+              ('And joins two statements of the same kind; this is a contrast, '
+               'so it takes but.')),
+             ('but it was carried out in July only',
+              ('but it was carried out in July alone, so the count covers one '
+               'season'),
+              ('Only at the end of the clause is ambiguous, and the sentence '
+               'stops before saying what the limitation costs.'))]),
     explain=('Reporting a limitation without implying incompetence is a '
              'specific skill. These patterns attribute the gap to the '
              'method rather than to the people using it.'),

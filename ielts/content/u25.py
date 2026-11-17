@@ -803,6 +803,22 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Qualification and scope: only, even, at least',
+    fix=dict(
+     text=('Only the figure for 2019 was published, so the earlier years '
+           'cannot be checked. Even the authors admit that the sample was '
+           'small. At least three of the twelve sites were excluded, which the '
+           'paper does not explain. The study covered only urban areas, so the '
+           'finding apply to cities and not to the country as a whole.'),
+     faults=[('which the paper does not explain',
+              'a decision the paper does not explain',
+              ('Which here has no clear antecedent, so the reader cannot tell '
+               'what is unexplained.')),
+             ('the finding apply to cities',
+              'the finding applies to cities',
+              'The subject finding is singular, so the verb is applies.'),
+             ('Only the figure for 2019 was published',
+              'Only the figure for 2019 was published, and the method was not',
+              'Only sets up a contrast that the sentence never completes.')]),
     explain=('Small words change the scope of a claim completely, and '
              'examiners notice when they are placed carelessly. Put the '
              'qualifier directly before what it limits.'),

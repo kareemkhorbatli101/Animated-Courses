@@ -357,6 +357,15 @@ def render_cycle(d, U, c, ci, key, nq=1):
     d.figure(*F.pattern_box(g['point'], g['examples']))
     d.ex('Exercise  %s' % g['task'], 'writing')
     d.items([q for q, _ in g['items']])
+    # Error correction. The paragraph is written at about band 6 and has
+    # three faults in it. Finding somebody else's error is the step between
+    # knowing the rule and using it, and it is the exercise this series had
+    # no form of at all.
+    if g.get('fix'):
+        d.h3('Find the fault', D_PLUM)
+        d.cefr('Three things in this paragraph would cost a mark. Find them '
+               'before you read the table.')
+        d.faultline(g['fix']['text'], g['fix']['faults'])
     key.setdefault('grammar', []).extend(
         [('%d.%d' % (ci, i), a, '') for i, (_, a) in enumerate(g['items'], 1)])
     d.h3('Vocabulary from this cycle', D_INDIGO)

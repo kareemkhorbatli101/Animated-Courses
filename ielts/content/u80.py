@@ -614,6 +614,23 @@ UNIT = dict(
                      'Range and Accuracy')])],
    gram=dict(
     point='Result clauses: so, which meant, as a result',
+    fix=dict(
+     text=('The new tram line opened in 2018, so the number of car journeys '
+           'fell by 12 per cent. As a result of, the city centre was quieter '
+           'in the morning. Bus use fell as well, which it meant that the '
+           'total number of public transport journeys rose by only 4 per cent. '
+           'So that the scheme was judged a partial success.'),
+     faults=[('As a result of, the city centre was quieter',
+              'As a result, the city centre was quieter',
+              ('As a result stands alone. As a result of needs a noun after '
+               'it.')),
+             ('which it meant that the total number',
+              'which meant that the total number',
+              ('Which is already the subject of meant, so it is not repeated '
+               'as it.')),
+             ('So that the scheme was judged a partial success',
+              'So the scheme was judged a partial success',
+              'So that introduces a purpose. For a result, so is enough.')]),
     explain='Use so and as a result for a consequence, and which '
             'meant to attach the consequence to the whole clause.',
     examples=['A van was added, so journeys doubled.',

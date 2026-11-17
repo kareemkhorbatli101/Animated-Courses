@@ -97,10 +97,13 @@ def wanted(U):
                 out.append(('u%d c%d w%d note %d' % (n, ci, wi, i), nt))
         g = c['gram']
         out.append(('u%d c%d gram explain' % (n, ci), g['explain']))
-        for i, fx in enumerate(c.get('fix') or [], 1):
-            out.append(('u%d c%d fix %d wrong' % (n, ci, i), fx[0]))
-            out.append(('u%d c%d fix %d right' % (n, ci, i), fx[1]))
-            out.append(('u%d c%d fix %d why' % (n, ci, i), fx[2]))
+        fx = g.get('fix')
+        if fx:
+            out.append(('u%d c%d fix text' % (n, ci), fx['text']))
+            for i, (wr, ri, wy) in enumerate(fx['faults'], 1):
+                out.append(('u%d c%d fix %d wrong' % (n, ci, i), wr))
+                out.append(('u%d c%d fix %d right' % (n, ci, i), ri))
+                out.append(('u%d c%d fix %d why' % (n, ci, i), wy))
         # g['examples'] is drawn into the pattern box, which is a figure by
         # the time it reaches the .docx; gate6 checks those.
         for i, (a, b) in enumerate(g['items'], 1):

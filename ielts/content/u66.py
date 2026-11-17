@@ -512,6 +512,23 @@ UNIT = dict(
                      'and Accuracy')])],
    gram=dict(
     point='can, could and may for requests',
+    fix=dict(
+     text=('Can I to ask you something? I need two days off in May, because my '
+           'father has an operation on his knee. Could you tell me if that is '
+           'possible? I know the work must be covered. May I can take the '
+           'Thursday and the Friday? Those days are quiet in our team, so I '
+           'think it will be all right.'),
+     faults=[('Can I to ask you something?',
+              'Can I ask you something?',
+              ('After a modal verb such as can the next verb has no to: can '
+               'ask.')),
+             ('May I can take the Thursday',
+              'May I take the Thursday',
+              ('Two modal verbs cannot stand together. Use one, either may or '
+               'can.')),
+             ('take the Thursday and the Friday',
+              'take Thursday and Friday',
+              'Days of the week take no article when you simply name them.')]),
     explain='Can is normal, could is more polite, may is formal. The '
             'verb after them has no to.',
     examples=['Can I take Friday off?',

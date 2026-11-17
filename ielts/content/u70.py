@@ -536,6 +536,22 @@ UNIT = dict(
                      'Range and Accuracy')])],
    gram=dict(
     point='Imperatives and prohibitions in notices',
+    fix=dict(
+     text=('Please to keep off the grass after heavy rain. Do not to light '
+           'fires in the park at any time. No swimming is allowed in the lake, '
+           'because the water is cold and deep. Visitors must not to leave '
+           'rubbish. In June we planned a party here, and it rained all day, '
+           'so we moved everything to my flat.'),
+     faults=[('Please to keep off the grass',
+              'Please keep off the grass',
+              ('An instruction uses the plain verb. Please does not change '
+               'that.')),
+             ('Do not to light fires',
+              'Do not light fires',
+              'After do not the verb has no to: do not light.'),
+             ('Visitors must not to leave rubbish',
+              'Visitors must not leave rubbish',
+              'After must the verb has no to either.')]),
     explain='Notices use the plain verb for instructions and do not or '
             'never for prohibitions.',
     examples=['Move vehicles to higher ground.',

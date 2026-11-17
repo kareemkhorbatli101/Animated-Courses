@@ -643,6 +643,25 @@ UNIT = dict(
                     ('No invented explanation', 'Task Response')])],
    gram=dict(
     point='while, whereas and although for contrast',
+    fix=dict(
+     text=('Learning to drive as a child is easy, while as an adult it is '
+           'hard. A young learner does not notice the mistakes, whereas an '
+           'adult notices every one of them. Although I was nervous, but I '
+           'passed on the second attempt. Despite I failed the first test, I '
+           'did not give up. Whereas, the other drivers were the real '
+           'difficulty.'),
+     faults=[('Although I was nervous, but I passed',
+              'Although I was nervous, I passed',
+              ('Although already joins the two halves, so but is one '
+               'conjunction too many.')),
+             ('Despite I failed the first test',
+              'Despite failing the first test',
+              ('Despite is followed by a noun or an -ing form, never by a '
+               'clause with a subject and a verb.')),
+             ('Whereas, the other drivers were the real difficulty',
+              'The other drivers, however, were the real difficulty',
+              ('Whereas joins two contrasting halves inside one sentence; it '
+               'cannot start a sentence on its own.'))]),
     explain='Use while and whereas to contrast two facts, and although '
             'to concede one.',
     examples=['Streaming takes 71 per cent for the young, whereas '

@@ -897,6 +897,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Describing a rate against a moving baseline',
+    fix=dict(
+     text=('The rate of serious accidents fell by a third, but the number of '
+           'vehicles on the road rose by half in the same years. The rate is '
+           'therefore falling against a rising baseline, which make the '
+           'improvement larger than it first appears. Comparing with 2010, the '
+           'road is now about twice as safe per kilometre travelled.'),
+     faults=[('which make the improvement larger',
+              'which makes the improvement larger',
+              ('Which stands for the whole preceding clause and takes a '
+               'singular verb.')),
+             ('Comparing with 2010',
+              'Compared with 2010',
+              ('The fixed form is compared with; comparing with would mean the '
+               'road is doing the comparing.')),
+             ('the road is now about twice as safe per kilometre travelled',
+              'the roads are now about twice as safe per kilometre travelled',
+              ('The subject is the road network as a whole, which takes the '
+               'plural in this idiom.'))]),
     explain=('Where a measure redefines itself as it goes, ordinary '
              'comparison language becomes false. These patterns describe the '
              'measure and the movement in one sentence.'),

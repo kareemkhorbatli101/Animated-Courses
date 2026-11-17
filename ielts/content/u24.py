@@ -782,6 +782,22 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Comparing two series with different units',
+    fix=dict(
+     text=('The left axis shows temperature in degrees and the right axis '
+           'shows rainfall in millimetres. Temperature rose by 3 degrees over '
+           'the period, while rainfall fell with 120 millimetres. The two '
+           'series cannot be compared directly, because they measure in '
+           'different units. Rainfall was highest in the same year which the '
+           'temperature was lowest.'),
+     faults=[('rainfall fell with 120 millimetres',
+              'rainfall fell by 120 millimetres',
+              'The size of a change takes by.'),
+             ('because they measure in different units',
+              'because they are measured in different units',
+              'The series do not measure; they are measured.'),
+             ('in the same year which the temperature was lowest',
+              'in the same year in which the temperature was lowest',
+              'A year needs in which or when as the link, not which alone.')]),
     explain=('When two lines share a chart but not a unit, you cannot say one '
              'is higher than the other. You compare shapes, turning points '
              'and proportions instead.'),

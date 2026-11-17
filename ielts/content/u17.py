@@ -788,6 +788,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Passive sequence with a conditional branch',
+    fix=dict(
+     text=('The glass is first washed and then it is inspecting. If a piece is '
+           'cracked, it is removed from the line. Otherwise, the glass is '
+           'passing to the furnace, where it is heated to 600 degrees. After '
+           'it has cooled, the sheets are cut, and any piece which fails the '
+           'second check are returned to the furnace.'),
+     faults=[('then it is inspecting',
+              'then it is inspected',
+              'The glass does not inspect. The passive is it is inspected.'),
+             ('the glass is passing to the furnace',
+              'the glass is passed to the furnace',
+              ('Is passing means it is doing the passing. The passive is is '
+               'passed.')),
+             ('any piece which fails the second check are returned',
+              'any piece which fails the second check is returned',
+              ('The subject is any piece, which is singular, so the verb is is '
+               'returned.'))]),
     explain=('A process with two outcomes needs the passive for the '
              'sequence and a conditional for the branch, kept in that '
              'order.'),

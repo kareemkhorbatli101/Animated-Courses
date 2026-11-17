@@ -623,6 +623,24 @@ UNIT = dict(
                      'Accuracy')])],
    gram=dict(
     point='while and whereas for contrasting two trends',
+    fix=dict(
+     text=('The chart shows that print readership fell steadily, while online '
+           'readership was rose. In 2010 the two figures were almost the same, '
+           'whereas by 2020 online was three times higher. Whereas print lost '
+           'about half of its readers. Television news stayed the same during '
+           'all the period, at about 40 per cent.'),
+     faults=[('while online readership was rose',
+              'while online readership rose',
+              ('Rose is already the past form, so was is not needed in front '
+               'of it.')),
+             ('Whereas print lost about half of its readers',
+              'Print, meanwhile, lost about half of its readers',
+              ('Whereas joins two halves inside one sentence and cannot open a '
+               'sentence of its own.')),
+             ('stayed the same during all the period',
+              'stayed the same throughout the period',
+              ('During all the period is not English. Use throughout the '
+               'period, or during the period.'))]),
     explain='Use while and whereas to put two opposite movements in '
             'one sentence.',
     examples=['Phone use falls, while television rises.',

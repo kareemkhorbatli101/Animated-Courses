@@ -783,6 +783,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Comparing two charts without repeating yourself',
+    fix=dict(
+     text=('The first chart shows yield per hectare and the second shows the '
+           'area farmed. Yield rose by 40 per cent, whereas the area farmed '
+           'fell. As the first chart, the second shows a change after 2010. '
+           'Total production therefore rose less than the yield figure alone '
+           'would suggest, because there was fewer land in use.'),
+     faults=[('As the first chart, the second shows a change after 2010',
+              'Like the first chart, the second shows a change after 2010',
+              ('A comparison between two things takes like. As needs a clause '
+               'after it.')),
+             ('there was fewer land in use',
+              'there was less land in use',
+              'Land is not counted one by one, so the word is less.'),
+             ('Yield rose by 40 per cent, whereas the area farmed fell',
+              ('Yield rose by 40 per cent while the area farmed fell by 15 per '
+               'cent'),
+              ('The second half of the contrast gives no figure, so the two '
+               'cannot be weighed against each other.'))]),
     explain=('With two visuals describing one subject, the danger is saying '
              'the same thing twice in different units. The repair is to give '
              'the second chart a different job: shape, share or trend rather '

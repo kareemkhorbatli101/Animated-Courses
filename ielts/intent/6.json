@@ -1,0 +1,12 @@
+{
+ "note": "Phase 6 - C4: error correction in the grammar slot. One per unit, in the third cycle: a paragraph of 40-130 words written at about band 6 with three faults planted in it, and for each fault the correction and the reason. Rendered by book.py with docxw.faultline, under the heading Find the fault. The faults are the errors candidates at that book's level actually make, and in the Foundation books they are tied to the cycle's own grammar point. Nothing that existed before may change.",
+ "items": [],
+ "item_fields": [],
+ "texts": [],
+ "prose": [],
+ "new_prose": ["G fix text", "G fix faults"],
+ "new_items": false,
+ "heads": false,
+ "measure": {},
+ "figures": {}
+}

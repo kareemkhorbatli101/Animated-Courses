@@ -862,6 +862,24 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='The agentless passive in a process description',
+    fix=dict(
+     text=('The samples are first logged and then they divide into two '
+           'batches. One batch is analysed immediately; the other is frozen. '
+           'After the analysis has completed, the results are compared. Any '
+           'sample whose result differs by more than five per cent are '
+           'analysed again by a second laboratory.'),
+     faults=[('then they divide into two batches',
+              'then they are divided into two batches',
+              ('The samples do not divide themselves. The passive is are '
+               'divided.')),
+             ('After the analysis has completed',
+              'After the analysis has been completed',
+              ('The analysis does not complete anything. The passive needs '
+               'been.')),
+             ('differs by more than five per cent are analysed again',
+              'differs by more than five per cent is analysed again',
+              ('The subject is any sample, which is singular, so the verb is '
+               'is analysed.'))]),
     explain=('A process diagram shows what happens, not who does it. The '
              'passive without a by-phrase is the register this requires, and '
              'using it consistently is the easiest Grammatical Range mark in '

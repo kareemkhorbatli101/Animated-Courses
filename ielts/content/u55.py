@@ -894,6 +894,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Grouping series by outcome',
+    fix=dict(
+     text=('The six fisheries can be grouped by outcome. Three of them, which '
+           'all have a clear boundary and a small user group, remained stable. '
+           'The other three, where all are open-access, collapsed within '
+           'twenty years. The grouping therefore follows the conditions and '
+           'not the species, which the table shows in the final column.'),
+     faults=[('The other three, where all are open-access,',
+              'The other three, which are all open-access,',
+              ('Where introduces a place; for a group of fisheries the pronoun '
+               'is which.')),
+             ('follows the conditions and not the species',
+              'follows the conditions rather than the species',
+              'Rather than is the form for a formal contrast of this kind.'),
+             ('which the table shows in the final column',
+              'as the final column of the table shows',
+              ('Which has no antecedent to attach to, and the natural link is '
+               'as.'))]),
     explain=('Four series are rarely four stories. These patterns name a '
              'group by its behaviour and attach its members, which is what '
              'lets one sentence do the work of four.'),

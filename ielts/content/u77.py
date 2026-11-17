@@ -601,6 +601,23 @@ UNIT = dict(
                      'Range and Accuracy')])],
    gram=dict(
     point='Reason and result in a process',
+    fix=dict(
+     text=('Cotton is grown in warm countries and then it is picking by hand '
+           'or by machine. Because of the fibre is cleaned, it can be spun '
+           'into thread. The thread is dyed, so that the colour is even. As a '
+           'result of this process, a shirt can be made in about two days. '
+           'Consequently of the low cost, many shirts are thrown away.'),
+     faults=[('then it is picking by hand',
+              'then it is picked by hand',
+              'The cotton does not pick. The passive is is picked.'),
+             ('Because of the fibre is cleaned',
+              'Because the fibre is cleaned',
+              ('Because of is followed by a noun. Before a clause with a '
+               'subject and a verb, use because.')),
+             ('Consequently of the low cost',
+              'Because of the low cost',
+              ('Consequently is an adverb and takes no of. For a cause, use '
+               'because of.'))]),
     explain='Use because and since for reasons, and which is why to '
             'attach a result to a whole clause.',
     examples=['Sewing is done by hand because cloth is floppy.',

@@ -709,6 +709,25 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Past perfect passive and spatial prepositions',
+    fix=dict(
+     text=('The site had been used as a factory before it was demolished in '
+           '1998. To the north of the station, a car park was build on the '
+           'cleared land. The flats, which were completed in 2023, stand on '
+           'the same site. A school has opened last year between the square '
+           'and the river.'),
+     faults=[('a car park was build on the cleared land',
+              'a car park was built on the cleared land',
+              'The passive takes the past participle: was built.'),
+             ('A school has opened last year',
+              'A school opened last year',
+              ('Last year is a finished time and cannot take the present '
+               'perfect.')),
+             (('The site had been used as a factory before it was demolished '
+               'in 1998'),
+              ('The site had been used as a factory before it was demolished '
+               'in 1998, so the ground was already cleared when work began'),
+              ('The sentence is correct and leaves the reader to guess why the '
+               'earlier use matters.'))]),
     explain=('Two plans separated in time need the perfect passive, '
              'and every change needs a position as well as a verb.'),
     examples=['The terraces had been replaced by flats by the time of '

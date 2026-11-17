@@ -936,6 +936,25 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Two charts whose disagreement is the argument',
+    fix=dict(
+     text=('The first chart shows that 95 per cent of patients were seen '
+           'within four hours. The second chart shows that the number waiting '
+           'in ambulances rose by 400 per cent over the same period. The two '
+           'charts disagree, which is the finding. A target that is met while '
+           'the problem moves elsewhere has not solved nothing.'),
+     faults=[('The two charts disagree, which is the finding',
+              'The two charts disagree, and that disagreement is the finding',
+              ('Which is the finding leaves the reader to work out what which '
+               'refers to.')),
+             ('has not solved nothing',
+              'has not solved anything',
+              ('Two negatives in one clause cancel: not anything, or has '
+               'solved nothing.')),
+             ('rose by 400 per cent over the same period',
+              'rose fourfold over the same period',
+              ('A rise of 400 per cent is read as a fivefold rise by some '
+               'readers and a fourfold rise by others, so the multiple is '
+               'clearer.'))]),
     explain=('When two sources conflict, the language has to hold both as '
              'true while locating the conflict. These patterns do that '
              'without implying either is wrong.'),

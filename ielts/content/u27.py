@@ -810,6 +810,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Spatial organisation by zone, not by date',
+    fix=dict(
+     text=('The site is divided into three zones. In the north there is '
+           'housing, in the centre there are the shops, and the south is '
+           'industrial. The housing zone, which was built in the nineteen- '
+           'sixties, contains about four hundred homes. The industrial zone is '
+           'the larger of the three, and it occupies almost half of the site.'),
+     faults=[('in the centre there are the shops',
+              'in the centre there are shops',
+              ('The is not needed with a plural noun that is being introduced '
+               'for the first time.')),
+             ('The industrial zone is the larger of the three',
+              'The industrial zone is the largest of the three',
+              'With three items the superlative is needed: the largest.'),
+             ('it occupies almost half of the site',
+              'it occupies almost half the site',
+              ('Half takes no of before the, so half the site is the natural '
+               'form.'))]),
     explain=('Describing two or three maps needs language that fixes a place '
              'and then reports the change there. Fix the place first and the '
              'sentence writes itself.'),

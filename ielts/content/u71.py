@@ -640,6 +640,23 @@ UNIT = dict(
                      'Grammatical Range and Accuracy')])],
    gram=dict(
     point='Relative clauses with which, that and who',
+    fix=dict(
+     text=('The clock which I bought it in a second-hand shop is made of '
+           'brass. It has a round face what has black numbers on it. The man '
+           'who he sold it to me said it was about eighty years old. It loses '
+           'four minutes a week, so I correct it every Sunday, and that small '
+           'job is probably why I look at it twenty times a day.'),
+     faults=[('The clock which I bought it in a second-hand shop',
+              'The clock which I bought in a second-hand shop',
+              ('The relative pronoun which is already the object, so it is not '
+               'repeated as it.')),
+             ('a round face what has black numbers',
+              'a round face which has black numbers',
+              ('What is not a relative pronoun in English. Use which or that '
+               'for a thing.')),
+             ('The man who he sold it to me',
+              'The man who sold it to me',
+              'Who is the subject of the clause, so he is not needed as well.')]),
     explain='Use who for people and which or that for things. A clause '
             'with commas adds information; one without commas defines '
             'which thing you mean.',

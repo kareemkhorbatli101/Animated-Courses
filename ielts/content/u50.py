@@ -890,6 +890,23 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Grouping categories by shared behaviour',
+    fix=dict(
+     text=('The eight languages can be grouped by behaviour rather than by '
+           'family. Four of them, which all gained speakers, are official '
+           'languages of a state. The other four, that all lost speakers, have '
+           'no official status. The two groups therefore differ in status and '
+           'not in size, which the table makes clear.'),
+     faults=[('The other four, that all lost speakers,',
+              'The other four, which all lost speakers,',
+              'A clause between commas takes which.'),
+             ('differ in status and not in size',
+              'differ in status rather than in size',
+              ('And not is clumsy here; rather than carries the contrast '
+               'cleanly.')),
+             ('which the table makes clear',
+              'as the table makes clear',
+              ('Which has no antecedent to attach to; the link for a whole '
+               'clause is as.'))]),
     explain=('A chart with four or more categories is almost always two or '
              'three groups. These patterns name a group and attach its '
              'members, which is what lets one sentence replace four.'),

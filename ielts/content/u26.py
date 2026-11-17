@@ -798,6 +798,22 @@ UNIT = dict(
          lines=14)],
    gram=dict(
     point='Hybrid organisation across two visuals',
+    fix=dict(
+     text=('The map shows the town in 1990 and the chart shows visitor numbers '
+           'since then. Visitor numbers rose from 20,000 to 180,000, while the '
+           'number of hotels increased of four to nineteen. The harbour, where '
+           'the net sheds stood, is now a car park. Both the map and the chart '
+           'shows the same change from fishing to tourism.'),
+     faults=[('increased of four to nineteen',
+              'increased from four to nineteen',
+              'The starting figure takes from.'),
+             ('Both the map and the chart shows the same change',
+              'Both the map and the chart show the same change',
+              'Two subjects joined by and take a plural verb.'),
+             ('The harbour, where the net sheds stood, is now a car park',
+              ('The harbour, where the net sheds stood, is now a car park, so '
+               'the working part of the port has gone'),
+              'The sentence states the change and not what it amounts to.')]),
     explain=('With two visuals you need language that says which one you are '
              'in, and which you are about to leave. Signposting of this kind '
              'is marked under Coherence and Cohesion and costs four words.'),
