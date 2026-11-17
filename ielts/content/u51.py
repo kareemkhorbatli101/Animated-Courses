@@ -524,6 +524,34 @@ UNIT = dict(
            'And if outside, they have something.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Cause',
+    longturn=[('The change whose cause people disagree about is a fall of '
+               'roughly forty per cent in shoplifting recorded by a group of '
+               'shops on one street near where I live.'),
+              ('It happened over about eighteen months, starting in the spring '
+               'of the year before last, and the figure comes from the shops\' '
+               'own incident logs rather than from the police.'),
+              ('What different people say caused it divides into three '
+               'accounts, and each is held by somebody with a reason to hold '
+               'it. The shopkeepers\' association credits a private security '
+               'patrol it had just started paying for. The council credits a '
+               'youth centre that reopened eleven months into the period. A '
+               'criminologist who looked at it for a local paper pointed out '
+               'that recorded theft fell across the whole district over the '
+               'same months, including on streets with neither the patrol nor '
+               'the centre, and that the street in question had also lost two '
+               'shops.'),
+              ('The account I find most convincing is the third, and I want to '
+               'be careful about why, because it is also the least satisfying. '
+               'It is not that the patrol and the centre did nothing. It is '
+               'that the district-wide fall gives us something the other two '
+               'accounts lack, which is a comparison. If theft fell by a third '
+               'everywhere, then a fall of forty per cent on one street is a '
+               'few points of difference, and a few points could be the patrol '
+               'or could be the two closures. The first two explanations are '
+               'not wrong so much as untested, and they are each being offered '
+               'by the party that paid for the thing they credit. What would '
+               'settle it is the one thing nobody collected: the figures for a '
+               'comparable street where nothing was done.')],
     intro=('Short answers, then the long turn. The explanation bullet is '
            'where this card is won.'),
     cue=('Describe a change whose cause people disagree about.',
@@ -1167,6 +1195,31 @@ UNIT = dict(
            'None of which needs a technical term.')])],
    speak=dict(
     part='Part 3', focus='Knowing what would have happened',
+    followup=[(('You say we cannot know the counterfactual. Should governments '
+                'run experiments on policy?'),
+               ('Where the policy is divisible and the harm of being in either '
+                'group is small, yes, and far more often than they do. Most of '
+                'what we spend money on has never been compared with anything, '
+                'so we are running an uncontrolled experiment already and '
+                'simply not collecting the results.')),
+              ('Is it fair to test a policy on some people and not others?',
+               ('The objection assumes we know which arm is better, and if we '
+                'did there would be no trial. Rolling something out everywhere '
+                'on a hunch imposes it on everybody without consent or '
+                'evidence, which is harder to defend than a randomised pilot '
+                'with a commitment to extend what works.')),
+              ('Do people think enough about the alternatives?',
+               ('Not spontaneously, because the alternative is invisible and '
+                'the actual outcome is in front of them. What helps is making '
+                'the comparison a required part of the report: say what '
+                'happened and what happened in the places that did nothing, '
+                'side by side, and the question becomes unavoidable.')),
+              ('But what if no comparable place exists?',
+               ('Then say so, and weaken the claim accordingly, rather than '
+                'reaching for the before-and-after figure. A great deal of '
+                'policy evaluation consists of a difference over time '
+                'presented as an effect, and the honest version is that the '
+                'effect is unknown and the direction is plausible.'))],
     intro=('Five or six sentences. Try once to describe a world that did '
            'not happen.'),
     qs=['Can we ever know what would have happened otherwise?',
@@ -1508,6 +1561,23 @@ UNIT = dict(
            'commitment.')])],
    speak=dict(
     part='Part 3', focus='Acting without proof',
+    sounds=[('Causal language has to be said cleanly, because the hedge is the '
+             'claim: it is associated with, it is consistent with and it '
+             'caused are three different statements and each is one chunk with '
+             'one stress.'),
+            ('Practise the ladder at a steady pitch: it followed, it is '
+             'associated with, it probably contributed to, it caused. Any '
+             'wobble in the voice adds a doubt the words did not.'),
+            ('The word counterfactual is stressed on the third syllable, and '
+             'the phrase what would have happened otherwise is one unit with '
+             'the stress on otherwise.'),
+            ('Where you reject an explanation, keep the pitch level. A '
+             'sarcastic contour is heard as unwillingness to consider it, and '
+             'the examiner is listening for whether you can hold two accounts '
+             'at once.'),
+            ('Record ninety seconds on knowing what would have happened. '
+             'Listen for a causal verb you stressed harder than you meant, and '
+             'say that sentence again.')],
     intro=('The hardest turn in the unit. Try once to say that a standard '
            'applied to one side only is not a standard.'),
     qs=['Should governments wait for proof before acting?',

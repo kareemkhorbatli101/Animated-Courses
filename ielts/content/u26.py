@@ -455,6 +455,29 @@ UNIT = dict(
            'Which Bragadottir has wanted for four years.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Change in a place',
+    longturn=[('The place I want to describe is a reservoir and the path round '
+               'it, about a mile from the edge of the town where my '
+               'grandparents lived.'),
+              ('When I first knew it, in the nineties, it was almost private. '
+               'There was a gate, a gravel track, a notice about fishing '
+               'permits, and on a Sunday afternoon in summer you might pass '
+               'four people. The far end had no path at all and you walked '
+               'through the trees.'),
+              ('What changed was a decision to open it properly. The water '
+               'company resurfaced the track, put in a car park and a cafe, '
+               'made the whole circuit accessible, and ran a cycle route in '
+               'from the town. It took about three years, and the number of '
+               'visitors is now counted in hundreds of thousands.'),
+              ('How I feel about it is genuinely mixed, and I notice that my '
+               'first reaction is the one I trust least. What I lost was a '
+               'private place, and I was sentimental about it for a while. '
+               'What the change produced was a path a wheelchair can use, a '
+               'route my grandmother could walk in her eighties, and three '
+               'hundred people on a Sunday who have somewhere to go. Measured '
+               'against that, my preference for emptiness is hard to defend. I '
+               'still take the long way round to the far end, where the trees '
+               'are, and I am aware that is exactly what the planners '
+               'intended.')],
     intro=('Short answers, then the long turn. Take the bullets in order; '
            'the fourth one is where the marks are.'),
     cue=('Describe a place that changed while you knew it.',
@@ -994,6 +1017,29 @@ UNIT = dict(
            'And a town has to say which one it is doing.')])],
    speak=dict(
     part='Part 3', focus='Who benefits from visitors',
+    followup=[(('You say local people should have a say. What if they simply '
+                'object to everything?'),
+               ('Then you have learned something, and it is usually not what '
+                'it appears to be. Objection is often about a specific loss, '
+                'parking or noise or water, rather than about visitors in '
+                'general, and a process that asks yes or no gets obstruction '
+                'while one that asks what would make this acceptable gets '
+                'conditions. The risk is real, though, and that is why '
+                'consultation cannot be a veto.')),
+              ('Does it matter whether hotels are locally owned?',
+               ('It matters for where the money ends up rather than for the '
+                'quality of the hotel. A chain pays wages locally and profits '
+                'elsewhere, so a town can be busy and still poor. That is an '
+                'argument for taxing the activity where it happens rather than '
+                'for preferring one owner over another, because ownership '
+                'rules are easy to avoid.')),
+              ('Should visitors pay a tax, then?',
+               ('Yes, if the money is visibly spent on what the visitors cost, '
+                'which is the condition that is usually missing. A charge that '
+                'goes into general funds breeds resentment on both sides. A '
+                'charge that pays for the buses, the lavatories and the path '
+                'repairs can be defended to everybody, and it is also the '
+                'honest description of what it is for.'))],
     intro=('Four or five sentences. Try once to distinguish a total from a '
            'share.'),
     qs=['Who benefits most when a place becomes popular with visitors?',
@@ -1275,6 +1321,19 @@ UNIT = dict(
            'Which cannot be designed for at the scale of one town.')])],
    speak=dict(
     part='Part 3', focus='Limits and what they move',
+    sounds=[('Compound nouns stress the first word: a VISitor centre, a CAR '
+             'park, a HOTel tax. Adjective and noun stress the second: a local '
+             'HOtel, a popular PLACE.'),
+            ('Getting this wrong changes the meaning rather than the accent. A '
+             'GREENhouse and a green HOUSE are different objects, and so are a '
+             'BLACKboard and a black BOARD.'),
+            ('Practise the compounds of this unit: TOURist season, HOUSing '
+             'stock, SERvice jobs, SEAfront. The first word takes the stress '
+             'in every one.'),
+            ('Where you are not sure, ask whether the two words have become '
+             'one thing. If they have, the stress moves to the front.'),
+            ('Record yourself on who benefits from visitors. Find every two- '
+             'word noun you used and check which half you stressed.')],
     intro=('The hardest turn in the unit. Try once to say that a rule moved '
            'a problem rather than reducing it.'),
     qs=['Do limits on visitor numbers work?',

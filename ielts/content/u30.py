@@ -473,6 +473,28 @@ UNIT = dict(
            'Meaning no entry to a tournament heard about on the Monday.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Cost',
+    longturn=[('The thing I wanted to do and could not afford was to row '
+               'competitively at university, which I had done at school for '
+               'four years.'),
+              ('I wanted it partly because I was reasonably good, and much '
+               'more because of what the four years before had been: six '
+               'mornings a week with the same eight people, and I have never '
+               'found anything since that produced that kind of company.'),
+              ('I could not afford it for reasons that were not the ones I '
+               'expected. The club fee was manageable. What was not was the '
+               'rest: a season\'s kit, the training camp at Easter, the travel '
+               'to six regattas, and above all the twenty hours a week, which '
+               'ruled out the job I needed to pay rent. Nobody ever told me '
+               'the real figure; I worked it out in November and then spent a '
+               'fortnight pretending I had not.'),
+              ('What I did instead was coach. The school I had left needed '
+               'somebody on Saturday mornings, paid a little, and I did it for '
+               'two years. It was not the same, and for the first term I was '
+               'quietly resentful about it. By the end I had learned more '
+               'about the sport than I had in four years of doing it, because '
+               'explaining a stroke to a fourteen-year-old who cannot feel it '
+               'forces you to understand what you had only been imitating. I '
+               'would still rather have rowed.')],
     intro=('Short answers, then the long turn. The fourth bullet carries the '
            'marks.'),
     cue=('Describe something you wanted to do but could not afford.',
@@ -1028,6 +1050,28 @@ UNIT = dict(
            'While accepting that flattening has real costs.')])],
    speak=dict(
     part='Part 3', focus='Winning and how it is rewarded',
+    followup=[(('You say athletes break the rules because of the rewards. '
+                'Would sharing prize money help?'),
+               ('A little, and less than you would hope. Flattening the prizes '
+                'reduces the gain from cheating at the top and also reduces '
+                'the gain from winning, which is what the sport is for. I '
+                'would rather change the probability of being caught, because '
+                'that affects the calculation without weakening the '
+                'competition.')),
+              ('Does money make sport better or worse to watch?',
+               ('Better in quality and worse in competition, which is why the '
+                'argument never settles. More money buys better training, '
+                'better pitches and better coverage, and it also concentrates '
+                'the best players in six clubs, so the standard of play rises '
+                'while the result becomes predictable. Which of those you '
+                'weigh more heavily is a matter of taste rather than evidence.')),
+              ('How should a sport deal with cheating?',
+               ('By making detection credible and sanctions boring. Long '
+                'investigations and dramatic bans look decisive and arrive '
+                'years late, by which time the result stands in everybody\'s '
+                'memory. Frequent, routine, well-funded testing with quick '
+                'results does less for the news and much more for the honesty '
+                'of the sport.'))],
     intro=('Four or five sentences. Try once to explain a behaviour by an '
            'incentive rather than by a character.'),
     qs=['Why do some athletes break the rules?',
@@ -1316,6 +1360,21 @@ UNIT = dict(
            'Which she calls the honest position.')])],
    speak=dict(
     part='Part 3', focus='Fairness in competition',
+    sounds=[('A two-minute long turn loses energy somewhere around the ninety- '
+             'second mark, and the drop is audible: the pitch narrows, the '
+             'pace rises and the endings go.'),
+            ('Plan the last twenty seconds before you start. Knowing how the '
+             'answer ends is what stops the voice sagging into it, and the '
+             'examiner\'s last impression is formed there.'),
+            ('Breathe at the chunk boundaries you marked in Volume 1. Running '
+             'out of air is what makes the second half quieter, and it is a '
+             'mechanical problem with a mechanical fix.'),
+            ('Practise the whole two minutes without stopping, four times this '
+             'week, on four different cue cards. Stamina in speech is trained '
+             'in the same way as anything else.'),
+            ('Record two long turns a week apart and compare only the final '
+             'fifteen seconds of each. That is where the band is decided and '
+             'the part nobody rehearses.')],
     intro=('The last Part 3 of the volume. Try once to separate what a rule '
            'achieved from what it was sold on.'),
     qs=['Can rules make sporting competition fairer?',

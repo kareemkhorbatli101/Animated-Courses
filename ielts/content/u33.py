@@ -446,6 +446,30 @@ UNIT = dict(
            'accepts.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Decisions and who makes them',
+    longturn=[('The difficult decision I want to describe was whether to close '
+               'a community choir I had helped run for six years, taken by a '
+               'committee of five of us.'),
+              ('The other four were the founder, who was by then unwell and '
+               'not attending, our treasurer, a conductor we employed for two '
+               'nights a week, and a member elected to represent everybody '
+               'else.'),
+              ('How we reached it was badly, and the result was probably '
+               'right. We spent three meetings discussing money, which was the '
+               'one thing everybody could talk about, and avoided the actual '
+               'question, which was that numbers had fallen from sixty to '
+               'twenty-two and the twenty-two were the same people who had '
+               'been there at the start. In the end the treasurer put the '
+               'arithmetic on one page, and the decision made itself in about '
+               'fifteen minutes.'),
+              ('What I would do differently is the order and the honesty. I '
+               'would have put the membership figures in front of everybody a '
+               'year earlier, when there were still options, instead of '
+               'waiting until the only option was closure. I would also have '
+               'asked the conductor first rather than last, because she was '
+               'the only one of us being paid and therefore the only one with '
+               'something to lose, and we made her raise it herself. We did '
+               'finally vote unanimously, and I have never been sure whether '
+               'that was agreement or exhaustion.')],
     intro=('Short answers, then the long turn. The card has written your '
            'outline: four bullets, roughly equal weight, in order.'),
     cue=('Describe a difficult decision you had to make with other people.',
@@ -1076,6 +1100,26 @@ UNIT = dict(
            'immediate and announceable.')])],
    speak=dict(
     part='Part 3', focus='Punishment and prevention',
+    followup=[(('You say longer sentences do little. What else could a '
+                'government do to prevent offending?'),
+               ('The things that work are unglamorous: more detection, so that '
+                'the chance of being caught is credible, and support at the '
+                'two points where people reoffend, which are the first '
+                'fortnight after release and the first failed housing '
+                'application. Neither of those is announceable in a speech.')),
+              ('Should the public have a say in how long sentences are?',
+               ('In the framework, yes; in the individual case, no. Where '
+                'people are asked about offences in the abstract they want '
+                'longer sentences, and where they are given the full facts of '
+                'a particular case, as juries are, they come close to what '
+                'judges do. So consult on the principle and keep the public '
+                'out of the instance.')),
+              ('Why do you think politicians often promise tougher sentences?',
+               ('Because it is the only lever that is both free and immediate. '
+                'Prevention costs money now and shows results after the next '
+                'election, whereas a sentencing announcement costs nothing '
+                'today and the prison population arrives later, which is '
+                'somebody else\'s budget.'))],
     intro=('Four or five sentences, and concede at least once. An answer that '
            'gives no ground on a question like this sounds prepared, not '
            'thought about.'),
@@ -1370,6 +1414,22 @@ UNIT = dict(
            'least be a disagreement about something.')])],
    speak=dict(
     part='Part 3', focus='What punishment is for',
+    sounds=[('Legal and institutional vocabulary is long and almost entirely '
+             'unstressed except for one syllable: reHAbilitation, senTENcing, '
+             'deTERrence, proPORtionate. Get the one right and the rest can be '
+             'quiet.'),
+            ('A word you have just learned is a word you will say too slowly. '
+             'Say each of this unit\'s four longest words inside a full '
+             'sentence at speaking speed, three times.'),
+            ('Pairs that differ only in stress matter here: a SUSpect and to '
+             'susPECT, a CONvict and to conVICT. The noun takes the first '
+             'syllable in both.'),
+            ('Practise the phrase longer sentences do not reduce crime with '
+             'one strong syllable in each half. It is the sentence you will '
+             'need and it is easy to say flatly.'),
+            ('Record yourself on what punishment is for. Listen for any word '
+             'of four or more syllables where you gave two syllables equal '
+             'weight.')],
     intro=('The hardest turn in the test. Name the strongest version of the '
            'view you disagree with before you answer it, in at least one '
            'answer.'),

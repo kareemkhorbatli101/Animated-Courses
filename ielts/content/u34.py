@@ -439,6 +439,27 @@ UNIT = dict(
            'it.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Working life',
+    longturn=[('The job that changed how I think about work was six months in '
+               'a warehouse, picking orders on a night shift.'),
+              ('I did it in the year between school and university, from '
+               'October until the following March, five nights a week.'),
+              ('What was different about it was that every minute was '
+               'measured. A handheld scanner told me where to go and how long '
+               'I had, and the time was set from the fastest person on the '
+               'shift the previous week. You could see your own rate on the '
+               'screen and you could see that it was falling after four hours, '
+               'and so could the supervisor.'),
+              ('How it changed my view of work is in two ways I did not '
+               'expect. The first is that I no longer believe productivity is '
+               'mostly about effort. I worked as hard as I have ever worked '
+               'and my rate was decided by how the shelves were arranged, '
+               'which was not my decision. The second is that I became much '
+               'more sceptical about measurement, having been on the wrong end '
+               'of a good one. The scanner measured something real and it also '
+               'made the job worse, because the number went up and the number '
+               'of people who could still do it at fifty went down. Nobody was '
+               'being cruel. The measurement simply had no way of recording '
+               'what it was costing.')],
     intro=('Short answers, then the long turn. Four bullets, roughly equal '
            'weight, in order, and developed instead of listed.'),
     cue=('Describe a job that changed how you think about work.',
@@ -1043,6 +1064,27 @@ UNIT = dict(
            'the site of the public argument.')])],
    speak=dict(
     part='Part 3', focus='Testing a change at work',
+    followup=[(('You say the trial was not fair. Should companies be required '
+                'to publish the results?'),
+               ('Of trials they run on their own staff, yes, and the argument '
+                'is the same as for medicine: a change tested only where it '
+                'succeeded is not evidence. I would require registration '
+                'before the trial starts, because that is what makes a quiet '
+                'abandonment visible.')),
+              (('Why do you think positive results get more attention than '
+                'negative ones?'),
+               ('Because somebody has an interest in announcing them and '
+                'nobody has an interest in announcing nothing. A firm that '
+                'found no benefit has spent money and gained a press release '
+                'it does not want, so the finding stays internal, and the '
+                'published record ends up describing the successes of self- '
+                'selected volunteers.')),
+              ('What would convince you that a shorter week worked?',
+               ('A trial where the firms were assigned rather than '
+                'volunteering, output measured the same way before and after, '
+                'and the follow-up long enough to see whether the gain '
+                'survived. Six months of enthusiasm is not evidence; two years '
+                'without a fall in output would be.'))],
     intro=('Four or five sentences, with at least one that concedes. These '
            'questions reward a candidate who can hold a position while '
            'admitting what would change it.'),
@@ -1333,6 +1375,19 @@ UNIT = dict(
            'that a more honest place to stand.')])],
    speak=dict(
     part='Part 3', focus='Evidence, risk and acting without proof',
+    sounds=[('Comparison carries its stress on the term being compared, not on '
+             'the comparative word: output per HOUR, not OUTput per hour, when '
+             'the contrast is with output per week.'),
+            ('This is the most common stress error in Part 3, because '
+             'candidates stress the familiar word rather than the new one. '
+             'Practise: hours FELL and output stayed the SAME.'),
+            ('Numbers inside a comparison take the stress: it went from FIVE '
+             'days to FOUR. The nouns are known and the figures are new.'),
+            ('Say three comparisons from this unit twice, once stressing the '
+             'wrong half, and keep the version that makes your point.'),
+            ('Record yourself on whether a change at work can be tested '
+             'fairly. Mark every comparison and check which word carried the '
+             'weight.')],
     intro=('The hardest turn. In at least one answer, state the strongest '
            'version of the view you are about to disagree with.'),
     qs=['Should governments act before the evidence is complete?',

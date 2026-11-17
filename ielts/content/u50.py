@@ -514,6 +514,32 @@ UNIT = dict(
            'purpose is stated.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Languages',
+    longturn=[('The thing that is hard to say in another language is a word in '
+               'my first language that covers the particular tiredness of '
+               'having looked after somebody for a long time.'),
+              ('The languages involved are that one and English, and the '
+               'reason I notice it is that I have had to explain the same '
+               'situation in both, several times, to people who needed to '
+               'understand it.'),
+              ('How people usually translate it is with one of three words, '
+               'and each loses something different. Exhaustion is the common '
+               'choice, and it makes the state sound physical and temporary. '
+               'Burnout is closer in intensity and belongs to employment, so '
+               'it imports a workplace and an implication that somebody is at '
+               'fault. Compassion fatigue is the technical term, and it is '
+               'accurate and clinical, and no family member would ever use it '
+               'about themselves.'),
+              ('What is given up in each case is the same thing: the original '
+               'word carries no blame and no diagnosis. It describes a '
+               'condition that is understood to be the natural consequence of '
+               'having done something right for a long time, and that '
+               'understanding is in the word, not in the sentence around it. '
+               'In English I have to build it each time, usually in two '
+               'sentences, and the person I am talking to has to accept the '
+               'explanation rather than simply recognising the state. I am not '
+               'claiming the idea is inexpressible. I am saying that in one '
+               'language it costs a word and in the other it costs a paragraph '
+               'and a small argument, and that difference is not nothing.')],
     intro=('Short answers, then the long turn. The explanation bullet is '
            'where the marks are.'),
     cue=('Describe something that is hard to say in another language.',
@@ -1133,6 +1159,30 @@ UNIT = dict(
            'By people who would reject it as a theory.')])],
    speak=dict(
     part='Part 3', focus='Saying the same thing differently',
+    followup=[(('You say something is given up. Can two sentences ever mean '
+                'exactly the same thing?'),
+               ('Not if meaning includes what a sentence implies about its '
+                'speaker and its occasion, which in practice it does. Two '
+                'sentences can have identical truth conditions and different '
+                'registers, and a translator who preserves the first and loses '
+                'the second has produced something accurate and wrong.')),
+              ('Does it matter how something is said as well as what is said?',
+               ('It is often the whole content. A refusal can be polite or '
+                'final with the same words in different orders, and in the '
+                'legal and medical texts where translation matters most, the '
+                'difference between those two is what the reader acts on.')),
+              ('Are some ideas impossible to express in another language?',
+               ('Impossible to express economically, rather than impossible. '
+                'Anything can be built with enough sentences, and the cost of '
+                'building it is the real finding: a concept that is one word '
+                'in one language and a paragraph in another will be used '
+                'constantly in the first and rarely in the second.')),
+              ('How would you judge whether two texts match?',
+               ('By asking what the translation is for and testing against '
+                'that, which means different answers for a poem and a '
+                'contract. For the contract I would have it translated back by '
+                'somebody who has not seen the original. For the poem I would '
+                'ask readers of both what they came away with.'))],
     intro=('Five or six sentences. Try once to say that two sentences mean '
            'the same and do not do the same.'),
     qs=['Can two sentences ever mean exactly the same thing?',
@@ -1460,6 +1510,20 @@ UNIT = dict(
            'A demand on publishers rather than on either of them.')])],
    speak=dict(
     part='Part 3', focus='Judging a translation',
+    sounds=[('Foreign words used in English keep approximations of their own '
+             'stress, and this unit is full of them: nuANCE, reGIster, '
+             'idiOMatic, which takes it on the third.'),
+            ('Where you quote a word from another language, say it as that '
+             'language does and then carry on in English. Half-anglicising it '
+             'is the version that sounds least confident.'),
+            ('The phrase word for word is three stresses and a fixed rhythm. '
+             'Said evenly it stops being an idiom.'),
+            ('Practise the sentence it is accurate and it is wrong, which '
+             'needs the stress on and rather than on either adjective, and is '
+             'the hardest stress in this book.'),
+            ('Record yourself on whether two sentences can mean the same '
+             'thing. Find the place where the stress carried the argument, and '
+             'the place where it should have and did not.')],
     intro=('The last long turn of the volume. Try once to say that '
            '"better" is incomplete without a standard.'),
     qs=['How can you tell whether a translation is good?',

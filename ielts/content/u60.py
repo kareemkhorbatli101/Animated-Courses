@@ -525,6 +525,31 @@ UNIT = dict(
            'With the whole paper in one sitting.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Preparing',
+    longturn=[('The thing I prepared for thoroughly is a driving theory test, '
+               'which I passed with full marks and which taught me something I '
+               'did not want to know.'),
+              ('How I prepared was by working through an application that had '
+               'the whole question bank in it, several thousand items, and I '
+               'did them in blocks of fifty until my score stopped moving. '
+               'That took about three weeks of evenings. Towards the end I was '
+               'recognising the questions rather than reading them, and I knew '
+               'that was happening.'),
+              ('How it went was that the test was easy. I finished in about a '
+               'third of the time allowed, and I was confident of every '
+               'answer, and the hazard perception section, which I had '
+               'practised in the same way, I also passed comfortably.'),
+              ('Whether the preparation was the right kind is where I am '
+               'uncomfortable, and the evidence is that it was not. I passed a '
+               'test about road safety and then, six months later, pulled out '
+               'at a junction in a way that could have hurt somebody, in a '
+               'situation the question bank covers directly. I had learned the '
+               'bank, which is a finite list, and the bank is a sample of a '
+               'skill. The test could not tell the difference between somebody '
+               'who had learned the sample and somebody who had learned the '
+               'skill, because from the outside those two produce the same '
+               'paper. What I would want, knowing that, is a test I could not '
+               'have revised for in three weeks, and I am aware that almost '
+               'nobody taking it would thank me.')],
     intro=('Short answers, then the long turn. The last bullet is where '
            'the band is decided.'),
     cue=('Describe something you prepared for thoroughly.',
@@ -1143,6 +1168,31 @@ UNIT = dict(
            'evidence.')])],
    speak=dict(
     part='Part 3', focus='What a score entitles you to say',
+    followup=[(('You say you learned the bank, not the skill. What can a test '
+                'score tell an employer?'),
+               ('That the candidate could do certain things on one day, within '
+                'a margin the employer is rarely told. For broad screening '
+                'that is genuinely useful; as a fine ranking between two '
+                'applicants two points apart it is noise presented as '
+                'information.')),
+              ('Should a single score decide an application?',
+               ('Not alone, and the alternatives are worse than their '
+                'advocates admit. Interviews predict performance badly and '
+                'discriminate reliably. So I would use the score as a '
+                'threshold rather than a ranking, and put the effort into the '
+                'second stage.')),
+              ('How much error should we expect in a measurement like this?',
+               ('Enough to matter at the margin, and it is publishable: most '
+                'large tests report a standard error, and for the one I took '
+                'it is wide enough that half a band is not a real difference. '
+                'The error is known and almost never printed on the '
+                'certificate.')),
+              ('Who should decide what a score means?',
+               ('Not the test owner alone, because it has an interest in the '
+                'score being treated as more precise than it is, and not the '
+                'employer, who wants a single cut-off. The useful arrangement '
+                'is a published standard with the error attached, and a '
+                'regulator able to object when a user over-reads it.'))],
     intro=('Five or six sentences. Try once to say that validity belongs '
            'to an inference.'),
     qs=['What can a test score tell an employer?',
@@ -1494,6 +1544,21 @@ UNIT = dict(
            'section like it.')])],
    speak=dict(
     part='Part 3', focus='Learning the thing, not the test',
+    sounds=[('The last page of the series is about the gap between the sound '
+             'and the score. Everything on these pages has been one thing: '
+             'make the word you chose audible to somebody hearing it once.'),
+            ('Before the exam, record one Part 1 answer, one long turn and one '
+             'Part 3 exchange, and listen for the five faults in order: '
+             'endings, stress, pauses, range, and the last fifteen seconds.'),
+            ('A rehearsed answer is detectable and marked down. What you '
+             'should rehearse is the shape, the hedges and the fillers you '
+             'have replaced, and nothing that constitutes an opinion.'),
+            ('On the day, speak slightly more slowly than feels right and '
+             'slightly more loudly than feels polite. Both corrections work in '
+             'the direction candidates get wrong under pressure.'),
+            ('Keep your first recording from Foundation 1 or Volume 1. '
+             'Listening to it beside today\'s is the only evidence of this kind '
+             'you will ever have, and nobody who throws it away gets it back.')],
     intro=('The last long turn of the volume. Try once to state an '
            'asymmetry.'),
     qs=['Do exams change what is taught?',

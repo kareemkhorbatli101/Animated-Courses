@@ -445,6 +445,28 @@ UNIT = dict(
            'For six years, as he puts it, the street has avoided it.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Preparing',
+    longturn=[('The thing I prepared for was a flood. I live in a house about '
+               'two hundred metres from a river that had come within a street '
+               'of us twice in ten years.'),
+              ('What I did took one weekend and about three hundred in '
+               'materials. I moved everything we cared about out of the ground '
+               'floor, bought boards for the two doors and a pump, lifted the '
+               'washing machine onto blocks, and photographed every room for '
+               'the insurance. I also wrote down, which sounds excessive, the '
+               'order in which we would do things if the warning came at '
+               'night.'),
+              ('It did not happen. The river rose for two days, stopped about '
+               'four hundred metres short, and went down again. The boards are '
+               'still in the garage and have never been used.'),
+              ('How I felt afterwards changed over about a month. For the '
+               'first week I felt faintly ridiculous, and a neighbour who had '
+               'done nothing was generous enough not to mention it. Then I '
+               'noticed that the preparation had cost one weekend and the '
+               'worry had cost me two winters, and the second of those was '
+               'over. I know now what I would do, which means I no longer '
+               'think about it every time it rains. So the preparation bought '
+               'something real, and it was not protection from the flood; it '
+               'was the end of the rehearsing.')],
     intro=('Short answers, then the long turn. Four bullets in order, equal '
            'weight, developed one at a time.'),
     cue=('Describe a time you prepared for something that might not happen.',
@@ -982,6 +1004,28 @@ UNIT = dict(
            'Where the old answer could only be repeated.')])],
    speak=dict(
     part='Part 3', focus='Linking causes and events',
+    followup=[(('Can scientists really say that climate change caused a '
+                'particular storm?'),
+               ('Not in the way the question implies, and the honest '
+                'formulation is different. They can say how much more likely a '
+                'storm of that severity has become, which is a probability '
+                'statement about a class of events, not a causal claim about '
+                'one. That is weaker than people want and much stronger than '
+                'nothing.')),
+              ('Should scientists simplify that for the public?',
+               ('They should translate it, which is not the same as '
+                'simplifying it. Saying this kind of storm is now three times '
+                'as likely is both accurate and sayable. The danger is the '
+                'next step, where a careful probability becomes a flat yes in '
+                'a headline, and then the correction makes the whole field '
+                'look as if it had overreached.')),
+              (('How certain does the evidence have to be before a government '
+                'acts?'),
+               ('It depends on what acting costs and whether the harm can be '
+                'undone. For a measure that is cheap and reversible, a modest '
+                'probability is enough, and waiting for more certainty is '
+                'itself a decision with a price. For a measure that commits a '
+                'country for thirty years, I would want a great deal more.'))],
     intro=('Four or five sentences. Try once to replace a yes-or-no question '
            'with a how-much question.'),
     qs=['Can we say that climate change caused a particular storm?',
@@ -1255,6 +1299,23 @@ UNIT = dict(
            'Tuesday.')])],
    speak=dict(
     part='Part 3', focus='Responsibility for damage',
+    sounds=[('Pitch range carries meaning in English, and a narrow range is '
+             'heard as indifference. The move you need most in Part 3 is the '
+             'one that signals a concession: start high on that is true, drop '
+             'on but.'),
+            ('Practise the two-part shape: that is probably right, up and '
+             'open, then but it does not follow, down and firm. The pitch does '
+             'the argument before the words arrive.'),
+            ('A flat delivery of a good point loses marks it should not lose. '
+             'This is the one aspect of pronunciation where exaggeration in '
+             'practice is useful, because the recording always sounds flatter '
+             'than it felt.'),
+            ('Take three concessions from your own answers and say each one '
+             'twice, the second time with more range than feels comfortable. '
+             'Keep the second.'),
+            ('Record yourself on how certain evidence must be. Listen for the '
+             'highest and lowest points of your voice; if they are close '
+             'together, the content is doing all the work alone.')],
     intro=('The hardest turn in the unit. Try once to say that two causes are '
            'both necessary.'),
     qs=['Who is responsible when a flood destroys homes?',

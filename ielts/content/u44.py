@@ -499,6 +499,29 @@ UNIT = dict(
            'And say so if the two numbers move together.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Attention',
+    longturn=[('The thing that holds my attention is restoring old radios, '
+               'which has occupied most of my spare time for about six years.'),
+              ('I came across it in the least promising way imaginable. A '
+               'neighbour was clearing a house and asked whether I wanted a '
+               'wooden valve set from the nineteen-forties, and I took it '
+               'because refusing seemed rude, and it sat in a cupboard for '
+               'most of a year before I plugged it in and nothing happened.'),
+              ('How much time I give it varies between two hours a week and '
+               'whole weekends, and the pattern is not random: it absorbs me '
+               'most when everything else is going badly, which I have stopped '
+               'pretending is a coincidence.'),
+              ('Why I think it holds me comes down to the structure of the '
+               'problem rather than any interest in radios as such. A fault in '
+               'a valve set is always findable. There are perhaps forty '
+               'components, the circuit is printed in a service manual '
+               'somebody wrote in 1948, and the thing either works at the end '
+               'or it does not, so there is no judgement to be exercised about '
+               'whether I have succeeded. Almost nothing else in my life has '
+               'that shape. My work is never finished and the standard is '
+               'somebody else\'s opinion. Three hours with a meter and a '
+               'soldering iron gives me a problem with a right answer, and I '
+               'think the appeal is entirely that, which is why the radios '
+               'themselves mostly end up being given away.')],
     intro=('Short answers, then the long turn. Choose something genuine '
            'rather than something respectable.'),
     cue=('Describe something that holds your attention.',
@@ -1111,6 +1134,31 @@ UNIT = dict(
            'Incentives one way, no exit, costs outside the price.')])],
    speak=dict(
     part='Part 3', focus='Free services and what they cost',
+    followup=[(('You say the services are not free. Who should pay for the '
+                'ones people use daily?'),
+               ('Users, where the service can be priced, and I accept that '
+                'this excludes people. The honest options are a subscription, '
+                'a public provider, or advertising, and advertising is the one '
+                'that looks free while being paid for in attention and in '
+                'data, which is a price nobody is quoted.')),
+              ('Can competition solve problems of this kind?',
+               ('Not on its own, because the product people choose between is '
+                'not the product being sold. Two networks competing for users '
+                'compete on engagement, which is the mechanism causing the '
+                'harm, so more competition on that dimension makes it worse '
+                'rather than better.')),
+              ('Should there be paid versions without advertising?',
+               ('There should be, and I would not expect much from it. Where '
+                'they exist, a small minority subscribes, which means the ad- '
+                'funded version remains the default for almost everybody and '
+                'the harms stay where they were. It converts a public problem '
+                'into a private solution for people who can afford one.')),
+              ('What would you regulate, then?',
+               ('The design features with the clearest evidence behind them, '
+                'rather than the content: autoplay, infinite scroll, and '
+                'notifications timed to re-engage. Those are decisions '
+                'somebody made and can unmake, and they are testable, which '
+                'content moderation rules are not.'))],
     intro=('Five or six sentences. Try once to say what a cost falling '
            'outside a price means.'),
     qs=['Are free online services really free?',
@@ -1438,6 +1486,21 @@ UNIT = dict(
            'And not the claim that a generation has been damaged.')])],
    speak=dict(
     part='Part 3', focus='Evidence of harm',
+    sounds=[('This unit\'s vocabulary is mostly compound and all front- '
+             'stressed: SCREEN time, ATtention economy, ENgagement metrics, '
+             'NOtification. Get the first element strong and the rest follows.'),
+            ('Where a compound is also an argument, the stress carries the '
+             'point: it is not screen TIME that matters, it is what the screen '
+             'is DOing.'),
+            ('Brand-style words and recent coinages are where candidates '
+             'hesitate most. Decide your pronunciation before the exam and '
+             'then say it without pausing, because the pause costs more than a '
+             'wrong vowel.'),
+            ('Practise the phrase free at the point of use as one chunk with '
+             'one stress. It is four words of grammar and one of content.'),
+            ('Record yourself on whether free services are free. Find the '
+             'place you slowed down for a term, and say that clause again at '
+             'speed.')],
     intro=('The hardest turn in the unit. Try once to say that an average '
            'conceals a distribution.'),
     qs=['Is social media harmful to young people?',

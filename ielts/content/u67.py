@@ -428,6 +428,23 @@ UNIT = dict(
            'One line, sent today, the teacher says.')])],
    speak=dict(
     part='Part 2', focus='Something you had to finish',
+    longturn=[('I am going to talk about something I had to finish by a '
+               'certain time. It was a report for my course.'),
+              ('The report was about water in my city, and it had to be two '
+               'thousand words. I had six weeks, and the last day was the '
+               'twelfth of March.'),
+              ('It was difficult for two reasons. The first reason is that I '
+               'started late: I did almost nothing for four weeks. The '
+               'second reason is that I could not find the numbers. '
+               'The city website had old figures.'),
+              ('In the end I finished it, but not well. I worked for three '
+               'evenings and one whole Saturday. I sent it at half '
+               'past eleven at night, on the last day. I passed with a '
+               'low mark, and my teacher wrote that the ideas were '
+               'good but the end was too short. She was right. Now I '
+               'make a plan in the first week and write a little every '
+               'few days. It is not a perfect system, but it is much '
+               'better than one long Saturday.')],
     intro='One minute to prepare. Keep to the story: what, when, how '
           'it ended.',
     qs=['Describe something you had to finish by a certain time.',
@@ -815,6 +832,18 @@ UNIT = dict(
            'And to use published comparisons for the argument.')])],
    speak=dict(
     part='Part 3', focus='Schools in different countries',
+    sounds=[('A long sentence needs breaks. Breathe after about five or six '
+             'words, and never in the middle of a group like my English '
+             'course.'),
+            ('Say this sentence with one break: I had six weeks, and the last '
+             'day was the twelfth of March.'),
+            ('Study words put the stress at the front: HOMEwork, TEAcher, '
+             'EXercise. Report and exam take the second part.'),
+            ('Say dates clearly: the twelfth of March, the first of June, the '
+             'twenty-third of May.'),
+            ('Record yourself describing something you had to finish. Mark '
+             'where you breathed, and check that no break came in the middle '
+             'of a group.')],
     intro='Compare, then judge. Say what evidence would change your '
           'view if you can.',
     qs=['Should children start school at five or later?',

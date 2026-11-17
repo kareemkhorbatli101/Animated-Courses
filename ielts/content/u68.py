@@ -436,6 +436,23 @@ UNIT = dict(
            'If the receipts are kept, the desk says.')])],
    speak=dict(
     part='Part 2', focus='Something you do to stay well',
+    longturn=[('I am going to talk about something I do to stay healthy. I '
+               'walk to work and back.'),
+              ('It is about twenty-five minutes each way, so that is fifty '
+               'minutes a day. The way goes through a park and then along a '
+               'main road. I started two years ago, when the bus prices went '
+               'up.'),
+              ('I do it every working day, so five days a week. In very bad '
+               'weather I take the bus, but that is only about ten days in a '
+               'year. In winter it is dark in the morning and in the evening, '
+               'and that is the hardest part.'),
+              ('It has made a real difference, in three ways. First, I sleep '
+               'better. I noticed this after about a month. Second, I have '
+               'lost a little weight, about three kilograms, without changing '
+               'my food. Third, and this surprised me, I like my job more. I '
+               'arrive awake, and in the evening I am not thinking about work '
+               'by the time I get home. It costs nothing, and I think it is '
+               'the best change I have made.')],
     intro='One minute to prepare. Four bullets, and give a real '
           'example rather than a general statement.',
     qs=['Describe something you do to stay healthy.',
@@ -829,6 +846,16 @@ UNIT = dict(
            'Rather than which system is better.')])],
    speak=dict(
     part='Part 3', focus='Paying for health care',
+    sounds=[('Say the ends of plural words. Habits, weeks, kilograms. The s is '
+             'small but the examiner is listening for it.'),
+            ('Health words have the stress at the front: EXercise, HEALTHy, '
+             'BREAKfast. Decide takes the second part, and so does begin.'),
+            ('Say these three together: I walk, he walks, I walked. All three '
+             'must sound different.'),
+            ('Practise one sentence: I walk to work five days a week. Two '
+             'strong words only.'),
+            ('Record yourself answering a question about your health. Count '
+             'the s and ed endings you dropped.')],
     intro='This is a question with no easy answer, so say what the '
           'trade-off is rather than pretending there is none.',
     qs=['Should health care be free for everybody?',

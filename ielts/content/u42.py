@@ -512,6 +512,30 @@ UNIT = dict(
            'With the trade-off written into the paper.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Risk',
+    longturn=[('The risk I want to describe is leaving a permanent job to join '
+               'a company of six people that had been running for fourteen '
+               'months.'),
+              ('I was considering it because the work was the work I wanted to '
+               'do and nobody established was offering it to me, and because I '
+               'had watched two colleagues do the same thing, one of whom was '
+               'now doing very well and one of whom had come back.'),
+              ('What I decided was to go, with two conditions I set for '
+               'myself: I would do it only if I had nine months of expenses '
+               'saved, which took me a year to arrange, and only if the '
+               'company would put the equity terms in writing before I '
+               'resigned.'),
+              ('How I weighed it up at the time was more structured than I '
+               'would have expected of myself, and also wrong in one important '
+               'way. I listed what I would lose if it failed and found that '
+               'the honest answer was about eighteen months of earnings and '
+               'some pride, both recoverable. I listed what I would lose by '
+               'not going, which was harder, because it was a probability '
+               'rather than a quantity. What I failed to think about at all '
+               'was the correlation: I assumed my savings were safe if the job '
+               'went, and if the sector had turned, which is in fact why small '
+               'companies fail, my next job would have been hard to find at '
+               'the same moment. I was lucky rather than right about that, and '
+               'it is the thing I would now add to the calculation.')],
     intro=('Short answers, then the long turn. At band 7 the explanation '
            'bullet should carry most of the two minutes.'),
     cue=('Describe a risk you decided to take.',
@@ -1145,6 +1169,33 @@ UNIT = dict(
            'thirty years.')])],
    speak=dict(
     part='Part 3', focus='Rules and the things they govern',
+    followup=[(('You say regulation lags technology. Should rules name '
+                'technologies or outcomes?'),
+               ('Outcomes, with one exception. A rule naming a technology is '
+                'out of date on the day it passes and invites redefinition by '
+                'the industry it governs, whereas a duty to achieve a result '
+                'survives the next product. The exception is where a specific '
+                'thing must be banned outright, and then naming it is the only '
+                'enforceable form.')),
+              ('Who should write the rules for a new industry?',
+               ('Somebody independent of it, informed by it, which is a harder '
+                'arrangement than it sounds. The expertise sits inside the '
+                'firms, so you cannot exclude them from the drafting, and if '
+                'they write it you get a rule that incumbents can meet and '
+                'entrants cannot. I would have the industry supply the facts '
+                'and a separate body choose the thresholds.')),
+              ('Is it possible to regulate something before it exists?',
+               ('In the form of a duty, yes, and in the form of a rule, no. '
+                'You can require that a system be explicable, auditable and '
+                'insurable before it is deployed, without knowing what it will '
+                'be. What you cannot do is write the technical standard, and '
+                'attempting it is what produces rules everybody works around.')),
+              ('Does that not leave firms with too much uncertainty?',
+               ('It leaves them with uncertainty about method rather than '
+                'about obligation, which is the better of the two. A firm can '
+                'design against a clear duty; what paralyses investment is not '
+                'knowing whether the duty will exist at all. So I would set '
+                'the obligation early and the technical detail late.'))],
     intro=('Five or six sentences. Try once to say that a remedy is aimed at '
            'the wrong part of a problem.'),
     qs=['Why does regulation always seem to be behind technology?',
@@ -1478,6 +1529,21 @@ UNIT = dict(
            'anybody.')])],
    speak=dict(
     part='Part 3', focus='Acting before the evidence is complete',
+    sounds=[('Technical and legal compounds take stress on the first element: '
+             'a RISK assessment, a SAFEty case, a COMpliance cost, the '
+             'PREcautionary principle, which is the exception and takes it on '
+             'the adjective\'s own second syllable.'),
+            ('Say each of this unit\'s five key compounds inside a clause. A '
+             'compound said with two equal stresses is heard as two separate '
+             'nouns and the clause has to be re-parsed.'),
+            ('Modal verbs are weak unless they are the argument: it should be '
+             'regulated has a weak should; it SHOULD be regulated means '
+             'somebody says it should not.'),
+            ('Practise the two readings of regulation always lags technology, '
+             'once neutral and once with always stressed, and notice that the '
+             'second is a complaint rather than an observation.'),
+            ('Record yourself on who should write the rules. Check every modal '
+             'and decide whether you stressed it on purpose.')],
     intro=('The hardest turn in the unit. Try once to say that one kind of '
            'error is visible and the other is not.'),
     qs=['Is it better to act too early or too late?',

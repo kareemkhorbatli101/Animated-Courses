@@ -320,6 +320,25 @@ UNIT = dict(
            'form', 'A condition which Maya says she would sign.')])],
    speak=dict(
     part='Part 2', focus='A tradition you know',
+    longturn=[('I am going to talk about a tradition in my country. On the '
+               'second of November we visit the graves of our family.'),
+              ('What happens is that families go to the cemetery in the '
+               'afternoon, clean the stones, and put flowers and candles on '
+               'them. By the evening the whole cemetery is full of small '
+               'lights, and people stand about in groups and talk, so it is '
+               'quiet but it is not sad in the way a funeral is sad.'),
+              ('It happens on the same day every year, and it happens because '
+               'of a religious calendar, although plenty of people who go are '
+               'not religious at all. My grandfather is buried there and so '
+               'are his parents, and my mother knows where about twenty other '
+               'families\' stones are.'),
+              ('What I think about it has changed as I have got older. As a '
+               'child I found it boring and slightly frightening. Now '
+               'it is the one day in the year when the older people in '
+               'my family tell you things, because the stones ask the '
+               'questions for you. I learned that my great-grandmother '
+               'was born in another country standing in front of her '
+               'name, and I had never thought to ask.')],
     intro='One minute, four lines. One tradition, and make the last '
           'bullet a judgement rather than a description.',
     qs=['Describe a tradition in your family or your country.',
@@ -926,6 +945,16 @@ UNIT = dict(
            'Which the chair calls a smaller argument.')])],
    speak=dict(
     part='Part 3', focus='Change and tradition',
+    sounds=[('Dates and months must be clear. Say the second of November, the '
+             'first of May, the twenty-third of June.'),
+            ('Months have fixed stress: NOvember on the second, DEcember on '
+             'the second, JAnuary on the first.'),
+            ('Where you quote a year, say it in two halves: nineteen eighty- '
+             'four, twenty twenty-two.'),
+            ('Practise one sentence: it happens on the second of November, '
+             'every year.'),
+            ('Record yourself describing a tradition. Listen to every date and '
+             'number and check that each one is unmistakable.')],
     intro='Name what is gained and what is lost before you judge.',
     qs=['Should old customs change to include more people?',
         'What is lost when a tradition moves or stops?',

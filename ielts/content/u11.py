@@ -426,6 +426,28 @@ UNIT = dict(
            'Because two people asking is harder to put off.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Family',
+    longturn=[('The person I want to talk about is my aunt, my mother\'s older '
+               'sister, who brought up three children on her own after her '
+               'husband died.'),
+              ('She was a nurse for thirty-one years, mostly on a children\'s '
+               'ward, and she retired about four years ago, although she now '
+               'does two days a week in a clinic because she said the house '
+               'was too quiet.'),
+              ('I have known her all my life, obviously, but I would say I '
+               'have really known her for about ten years, since I was old '
+               'enough to have a conversation with her rather than just be fed '
+               'by her.'),
+              ('I admire her for something quite specific. She is the only '
+               'person I know who can tell you bad news without making it '
+               'worse. She told me my grandfather was dying over the phone, '
+               'and she did it in about four sentences, and I remember '
+               'thinking afterwards that she had somehow left me able to do '
+               'the next thing. I later found out she had been doing exactly '
+               'that with other people\'s children for three decades. I do not '
+               'think she would say it was a skill. She would say it was the '
+               'job. But I have watched people with far more education make a '
+               'far worse job of it, and I would rather be able to do that '
+               'than almost anything else I can think of.')],
     intro=('Short answers first, then the long turn. Use the whole two '
            'minutes.'),
     cue=('Describe someone in your family you admire.',
@@ -1187,6 +1209,22 @@ UNIT = dict(
            'returns', 'Rather than against the number of births.')])],
    speak=dict(
     part='Part 3', focus='What governments can and cannot change',
+    sounds=[('English puts the strong stress on what is new. In the answer she '
+             'is a nurse, and she has been a nurse for thirty years, the '
+             'second nurse is old information and goes quiet while thirty '
+             'years gets the stress.'),
+            ('Candidates who stress the same word twice sound as though they '
+             'are reading a list. Say the sentence above twice, once wrongly, '
+             'and the difference is unmistakable.'),
+            ('Practise with a question and answer of your own: Where does she '
+             'live? She lives in the north of the city. Only the new part is '
+             'strong.'),
+            ('This is also how you avoid sounding rehearsed. A memorised '
+             'sentence stresses the words the writer chose; a spoken one '
+             'stresses the words this examiner has not yet heard.'),
+            ('Record one Part 1 exchange and mark the new information in each '
+             'answer. Then check whether your voice went up on exactly those '
+             'words.')],
     intro=('Five sentences. Try once to say that something worked, but '
            'not in the way intended.'),
     qs=['Can a government change how many children people have?',

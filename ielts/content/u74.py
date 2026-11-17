@@ -310,6 +310,25 @@ UNIT = dict(
            'mention.')])],
    speak=dict(
     part='Part 2', focus='An animal you know',
+    longturn=[('I am going to talk about an animal I know well. It is a cat '
+               'called Vera, and she belongs to my mother.'),
+              ('She is about twelve now, grey with white feet, and she is not '
+               'a friendly cat. My mother got her from a farm where there were '
+               'too many kittens, so she spent the first weeks of her life '
+               'outdoors, and I think that explains a great deal.'),
+              ('She is cautious rather than unkind. She will sit in the same '
+               'room as you for an hour and she will not be touched. She '
+               'hunts, which my mother does not like, and she brings things to '
+               'the back step about once a week. She sleeps on a particular '
+               'chair, and if you sit in it she waits beside it until you '
+               'move.'),
+              ('What I have learned from her is about attention. My mother has '
+               'had three cats and this is the only one she talks '
+               'about, because Vera had to be won. It took two years '
+               'before she would sit on anybody, and my mother calls '
+               'that the achievement of her retirement. An animal that '
+               'gives everything at once is pleasant; one that does '
+               'not teaches you patience.')],
     intro='One minute, four lines. One animal, described properly.',
     qs=['Describe an animal you know or have known.',
         'Say what it is and whose it is.',
@@ -907,6 +926,17 @@ UNIT = dict(
            'Rather than how many animals there are.')])],
    speak=dict(
     part='Part 3', focus='Protecting wildlife',
+    sounds=[('Make your voice go down at the end of a statement and up at the '
+             'end of a real question. If a statement rises, it sounds as '
+             'though you are asking permission.'),
+            ('In a list the voice rises on each item and falls on the last: '
+             'grey, with white feet, and not friendly.'),
+            ('Practise the fall three times on this sentence: she is cautious '
+             'rather than unkind.'),
+            ('Animal and description words put the stress at the front: '
+             'FRIENDly, CAUtious, PAtient. Behaviour takes the second part.'),
+            ('Record yourself describing an animal. Listen to the last word of '
+             'every sentence and decide which way your voice went.')],
     intro='Give a view with a reason, then say what you would do '
           'first. Four sentences.',
     qs=['What is the main threat to wild animals?',

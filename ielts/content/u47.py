@@ -501,6 +501,32 @@ UNIT = dict(
            'extinguished.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Land',
+    longturn=[('The piece of land I want to describe is about four hectares on '
+               'the edge of a village, between the last houses and the river.'),
+              ('It is used for grazing, lightly, by a man who keeps a dozen '
+               'cattle on it in summer and takes a cut of hay from the far '
+               'end, and it has been used that way for as long as anybody can '
+               'establish.'),
+              ('Who cares about it is a longer list than you would expect from '
+               'that description. The grazier cares, obviously. So do the '
+               'people whose houses look onto it, so does the primary school, '
+               'which takes children down there twice a year, and so does a '
+               'group of about fifteen people who walk dogs across it every '
+               'morning on a path that has no legal status whatever.'),
+              ('Why it matters to them is different in each case, and that is '
+               'the interesting part, because they were all on the same side '
+               'when it was threatened. For the grazier it is a business of '
+               'marginal profitability that he will not give up. For the '
+               'houses it is a view and the absence of a road. For the school '
+               'it is the only place within walking distance where a child can '
+               'stand in a field. For the walkers it is the thirty-five '
+               'minutes of the day they have arranged their lives around. When '
+               'planning permission was applied for, those four groups '
+               'presented a single case, and it held together for two years, '
+               'and the application was refused. Watching it, I understood '
+               'that the land had become four quite different things to four '
+               'sets of people, none of whom had ever had to explain it '
+               'before.')],
     intro=('Short answers, then the long turn. Specific people and a '
            'specific place.'),
     cue=('Describe a piece of land that matters to people you know.',
@@ -1100,6 +1126,31 @@ UNIT = dict(
            'Required at the start and end of a tenancy.')])],
    speak=dict(
     part='Part 3', focus='What a balance sheet leaves out',
+    followup=[(('You say accounts leave things out. Should natural resources '
+                'be given a monetary value?'),
+               ('Shadow-priced, yes, and written into the accounts with the '
+                'uncertainty attached. The alternative is a value of zero, '
+                'which is what omission means in practice, and zero is the one '
+                'figure we can be certain is wrong. What I would resist is '
+                'treating the resulting number as a price somebody could pay.')),
+              ('Who should be responsible for the condition of farmland?',
+               ('The occupier for the practice and the owner for the '
+                'condition, which is a distinction current tenancy law mostly '
+                'ignores. A tenant on five years has every incentive to mine '
+                'the soil and no claim on the improvement, so the obligation '
+                'has to sit with whoever holds the asset.')),
+              ('Can long-term damage be measured in money?',
+               ('Partly, and the part that can be is the part that gets acted '
+                'on, which is both the argument for doing it and the danger. '
+                'Soil carbon and water quality have defensible figures. The '
+                'loss of a habitat that nobody will visit does not, and the '
+                'monetised account will quietly rank it at nothing.')),
+              ('So how would you pay farmers for this?',
+               ('Mostly for practices, because they are cheap to verify, with '
+                'outcome payments where measurement is already being paid for '
+                'by somebody else, and soil and water tested when land changes '
+                'hands. It is less elegant than paying for results and it is '
+                'the version that would actually run.'))],
     intro=('Five or six sentences. Try once to distinguish income from '
            'capital.'),
     qs=['What do financial accounts fail to capture?',
@@ -1425,6 +1476,20 @@ UNIT = dict(
            'soil.')])],
    speak=dict(
     part='Part 3', focus='Paying for things that are hard to see',
+    sounds=[('Land and farming words are short, and the hazard is the opposite '
+             'one: too few stresses rather than too many. Soil, yield, tenure, '
+             'runoff and margin each carry a stress because each is content.'),
+            ('A short content word needs length, not volume. Say soil carbon '
+             'with the first word genuinely longer, and the phrase stops '
+             'sounding like two function words.'),
+            ('This unit\'s one long word, sustainability, takes the stress on '
+             'the fourth syllable, and almost everybody puts it on the second.'),
+            ('Practise the contrast the accounts show a profit and the soil '
+             'shows a loss, which needs exactly two stresses and is the '
+             'argument of the unit.'),
+            ('Record yourself on what a balance sheet leaves out. Listen for '
+             'short content words you let go unstressed, which is where this '
+             'topic goes flat.')],
     intro=('The hardest turn in the unit. Try once to say that a proxy '
            'drifts from what it stands for.'),
     qs=['Should people be paid for results or for effort?',

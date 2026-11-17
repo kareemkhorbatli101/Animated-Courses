@@ -457,6 +457,28 @@ UNIT = dict(
            'And Marguerite offers to redraft it that night.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Energy',
+    longturn=[('The change I made because of energy costs was to stop heating '
+               'two of the four rooms in my flat, and to move my desk into the '
+               'kitchen.'),
+              ('I made it in the October when the new tariff arrived, having '
+               'spent September telling myself the figure in the letter must '
+               'be wrong.'),
+              ('How much difference it made I can state fairly precisely, '
+               'because I had the previous winter to compare with. The bill '
+               'fell by about a third, which was more than I expected, and the '
+               'flat became noticeably damper in the two cold rooms, which I '
+               'had not thought about at all until a wall started to mark.'),
+              ('How I felt about having to make it is the part I find hardest '
+               'to say politely. I was not in difficulty; I could have paid, '
+               'and that is precisely why the feeling surprised me. What I '
+               'resented was that the whole adjustment was on my side of the '
+               'meter. I changed where I worked, what I wore indoors and when '
+               'I washed, and none of it touched the reason the price had '
+               'moved. I also noticed how quickly I began to think of it as '
+               'normal, and that is the thing I would warn somebody about. A '
+               'reduction accepted under pressure gets described afterwards as '
+               'a choice, and once it is a choice, nobody has to explain the '
+               'price.')],
     intro=('Short answers, then the long turn. Four bullets in order, equal '
            'weight, and developed instead of listed.'),
     cue=('Describe a change you made because of the cost of energy.',
@@ -1003,6 +1025,28 @@ UNIT = dict(
            'misleads.')])],
    speak=dict(
     part='Part 3', focus='Reliability in a renewable system',
+    followup=[(('You say shortages are possible. Is it reasonable to expect '
+                'electricity at all times?'),
+               ('It is reasonable to expect it for the things that matter and '
+                'expensive to guarantee it for everything. We already accept '
+                'interruption in water pressure and in trains. The honest '
+                'conversation is about which loads can be shifted by an hour, '
+                'and that conversation is easier than building the last ten '
+                'per cent of capacity.')),
+              (('Should people accept occasional shortages to reduce '
+                'emissions?'),
+               ('Only if they are asked rather than told, and only where the '
+                'burden is not concentrated on the people who cannot work '
+                'round it. A planned, paid, voluntary reduction at peak '
+                'already works in industry; an unplanned cut falls hardest on '
+                'whoever is at home and ill.')),
+              (('What should a government do about a problem with no solution '
+                'yet?'),
+               ('Fund several candidate answers, build what is already '
+                'deployable, and avoid committing the whole system to one bet. '
+                'The error to avoid is the one that looks decisive: picking '
+                'the winning technology early and discovering in fifteen years '
+                'that the subsidy went to the wrong one.'))],
     intro=('Four or five sentences. Try to distinguish once between two '
            'things a single word is covering.'),
     qs=['Can a country run entirely on renewable energy?',
@@ -1297,6 +1341,21 @@ UNIT = dict(
            'something.')])],
    speak=dict(
     part='Part 3', focus='Comparing costs honestly',
+    sounds=[('Units and their numbers form one chunk: a hundred and twenty '
+             'kilowatt hours, four pence a unit. The unit word is unstressed '
+             'and the figure is not.'),
+            ('This unit\'s technical words have one strong syllable each: '
+             'inTERmittent, transMISsion, caPAcity, reNEWable. Say each one in '
+             'a phrase, never alone.'),
+            ('The word energy is stressed on the first syllable and the word '
+             'efficiency on the second, which is a pair candidates routinely '
+             'swap.'),
+            ('Practise the sentence the cost has fallen but the bill has not, '
+             'which needs two stresses and no more, and is the sentence this '
+             'unit is about.'),
+            ('Record yourself on whether a country can run on renewables. '
+             'Listen only for your technical vocabulary and check the strong '
+             'syllable in each word.')],
     intro=('The hardest turn in the unit. Say once what a figure you are '
            'using does not include.'),
     qs=['Why do you think simple figures are so often quoted?',

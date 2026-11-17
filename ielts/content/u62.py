@@ -422,6 +422,23 @@ UNIT = dict(
            'four', 'The tenant works until three, so a key is left.')])],
    speak=dict(
     part='Part 2', focus='A problem at home',
+    longturn=[('I am going to talk about a problem I had at home. The water '
+               'stopped working in my flat.'),
+              ('It happened on a Saturday morning in winter. I turned on the '
+               'tap in the kitchen and nothing came out. I tried the bathroom, '
+               'and it was the same. It was very cold outside, about minus '
+               'five, and I thought the pipe was frozen.'),
+              ('I did two things. First, I asked my neighbour. She had water, '
+               'so I knew the problem was only in my flat. Then I telephoned '
+               'the landlord. He did not answer, so I sent him a message with '
+               'a photograph of the tap.'),
+              ('In the end it took two days. The landlord came on Sunday with '
+               'a man who works on pipes. The man said the pipe '
+               'outside the wall was frozen, and he used a special '
+               'heater on it. After an hour the water came back. I was '
+               'happy, but also angry: the pipe had no cover on it. '
+               'The landlord put one on in the spring, so I think it '
+               'will not happen again.')],
     intro='One minute to prepare. Use the bullets in order and you will '
           'fill the two minutes without hurrying.',
     qs=['Describe a problem you had at home.',
@@ -786,6 +803,17 @@ UNIT = dict(
            'They offered before Sam had asked anybody.')])],
    speak=dict(
     part='Part 3', focus='Living in a town or in the country',
+    sounds=[('English has two th sounds. In thing and three there is no voice. '
+             'In this and they there is. Put your hand on your throat and feel '
+             'the difference.'),
+            ('The word water has the stress on the first part: WAter. So does '
+             'winter, kitchen, bathroom and problem.'),
+            ('Say these numbers and keep them different: thirteen and thirty, '
+             'fourteen and forty. Thirteen is longer and the end is stronger.'),
+            ('Practise one sentence: the water stopped working on Saturday '
+             'morning. Say it three times and make it faster each time.'),
+            ('Record yourself describing a room in your home. Listen for the '
+             'th sounds and say any difficult word again.')],
     intro='Compare the two directly. A Part 3 answer that describes '
           'only one side has answered half the question.',
     qs=['Is it better to live in a town or in the country?',

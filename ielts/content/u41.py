@@ -503,6 +503,33 @@ UNIT = dict(
            'broadcast.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Advice',
+    longturn=[('The advice I want to talk about came from a structural '
+               'engineer, about a crack in the back wall of a house I was '
+               'buying.'),
+              ('He was engaged by me rather than by the seller or the lender, '
+               'which turned out to matter more than his qualifications did, '
+               'and he had thirty years of exactly this kind of inspection '
+               'behind him.'),
+              ('What he said was that the crack was almost certainly '
+               'historical, that it had been filled once before and had not '
+               'moved since, and that the house was sound. He also said, which '
+               'nobody else did, that he could not be certain without opening '
+               'the wall, and that in his judgement the cost of doing so was '
+               'not warranted by the risk.'),
+              ('What I decided was to accept it, buy the house, and keep his '
+               'report. I did ask for a reduction, which I got, and the '
+               'reduction was roughly what opening the wall would have cost.'),
+              ('Why I trusted it is a combination of three things, and '
+               'expertise is only one of them. The first is that he was paid '
+               'by me and his fee did not depend on the outcome, so he had '
+               'nothing to gain from either answer. The second is that he told '
+               'me what he did not know, in writing, and quantified it. The '
+               'third is that his conclusion was inconvenient for him: a '
+               'cautious engineer recommends further investigation, because '
+               'that is where the liability goes, and he took the opposite '
+               'view and signed his name to it. Nine years later the crack has '
+               'not moved, which proves nothing about his method and does make '
+               'me glad I paid his invoice without complaining about it.')],
     intro=('Short answers, then the long turn. At band 7 the fourth bullet '
            'should be the longest part of the two minutes.'),
     cue=('Describe advice from an expert that you followed or ignored.',
@@ -1118,6 +1145,32 @@ UNIT = dict(
            'else.')])],
    speak=dict(
     part='Part 3', focus='Disagreement among specialists',
+    followup=[(('You say experts disagree legitimately. Should the public be '
+                'shown that disagreement?'),
+               ('Yes, and shown it in a form that distinguishes the kinds. '
+                'Disagreement about what the data say is different from '
+                'disagreement about what to do, and lumping them together '
+                'produces the impression that nothing is known, which is the '
+                'opposite of what honest disclosure should achieve.')),
+              ('How can a non-specialist decide whom to believe?',
+               ('Not by evaluating the science, which is not available to '
+                'them, but by looking at the things that are: who is paying, '
+                'whether the person has changed their mind when the evidence '
+                'moved, and whether they state what would prove them wrong. '
+                'Those three are visible from outside and they correlate '
+                'reasonably well with reliability.')),
+              ('Is more research always the answer?',
+               ('No, and more research is the most comfortable recommendation '
+                'a committee can make, which is why it appears so often. Where '
+                'the remaining uncertainty would not change the decision, '
+                'further study is a way of deferring it, and the deferral has '
+                'a cost that nobody is asked to carry.')),
+              ('So what should an expert say when they genuinely do not know?',
+               ('That, in those words, and then what they would do in the '
+                'questioner\'s position, because the second part is what was '
+                'actually being asked. Refusing to answer at all reads as '
+                'evasion, and a bare probability leaves the listener with the '
+                'whole decision and none of the expertise.'))],
     intro=('Five or six sentences. Try once to say that two people agree '
            'about the data and differ about what it shows.'),
     qs=['Why do experts in the same field disagree?',
@@ -1448,6 +1501,22 @@ UNIT = dict(
            'as good.')])],
    speak=dict(
     part='Part 3', focus='Openness and its effects',
+    sounds=[('Uncertainty has a sound as well as a vocabulary, and the two '
+             'must agree. Probably, said firmly, is a statement; probably, '
+             'said with a rising wobble, invites the examiner to doubt '
+             'everything around it.'),
+            ('Practise the scale of this unit at a single steady pitch: '
+             'certainly, very likely, probably, possibly, conceivably. The '
+             'word carries the hedge; the voice should not add one.'),
+            ('The phrase on the evidence we have is one chunk, stressed once, '
+             'on evidence. Said word by word it occupies two seconds you '
+             'cannot spare.'),
+            ('Where you concede and then disagree, the pitch does the work: '
+             'high and open on that may be true, dropping sharply on but it '
+             'does not follow.'),
+            ('Record ninety seconds on communicating uncertainty. Listen for a '
+             'sentence where your voice undercut a hedge you had already '
+             'placed in the words.')],
     intro=('The hardest turn in the unit. Try once to say that a change had '
            'an effect nobody on either side predicted.'),
     qs=['Does publishing official documents increase public trust?',

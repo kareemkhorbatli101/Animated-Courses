@@ -436,6 +436,25 @@ UNIT = dict(
            'advertisement.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Working in the arts',
+    longturn=[('The person I want to describe is a friend called Marta, who '
+               'plays the viola in an orchestra in another city.'),
+              ('She is a professional musician, which means she is paid to '
+               'play, but as she points out, what she is actually paid for is '
+               'being able to play something correctly the first time she sees '
+               'it.'),
+              ('She earns her living from three things, and the one you would '
+               'expect is the smallest. The orchestra gives her about half her '
+               'income, teaching gives her a third, and the rest comes from '
+               'recording work, mostly for films and advertisements, which '
+               'pays best per hour and arrives without warning.'),
+              ('Whether I would want that life, I have thought about honestly, '
+               'and the answer is no. The playing I would love. The rest of it '
+               'I would not survive: the not knowing in September what '
+               'December looks like, the three hours of driving to a '
+               'rehearsal, and above all the fact that she cannot be ill. She '
+               'practises four hours a day after twenty years of doing it, and '
+               'she is not working towards anything; that is simply the '
+               'maintenance. I admire it enormously and I would last a month.')],
     intro=('Short answers, then the long turn. Say what the person '
            'actually does all day.'),
     cue=('Describe someone you know who works in the arts.',
@@ -1217,6 +1236,22 @@ UNIT = dict(
            'Which is the one thing she does not dispute.')])],
    speak=dict(
     part='Part 3', focus='What we listen to when we listen',
+    sounds=[('Volume and clarity are not the same thing. Opening your mouth '
+             'slightly wider does more for intelligibility than speaking '
+             'louder, and it costs no effort at all.'),
+            ('A recording tells you what the examiner hears, not what you '
+             'think you said, and the gap between those two is where the marks '
+             'are. Record every long turn you practise this week.'),
+            ('Listen to a recording three times, for one thing each time: '
+             'endings, pauses, and stress. Trying to hear everything at once '
+             'means hearing nothing.'),
+            ('A rehearsed answer is audible. Practise the shape of an answer '
+             'and the phrases that join it, and leave the content to be found '
+             'on the day, because a memorised paragraph is marked down when it '
+             'is spotted.'),
+            ('Keep your first recording from Volume 1 and listen to it beside '
+             'this week\'s. Improvement in fluency is almost invisible from one '
+             'week to the next and obvious over six months.')],
     intro=('Five sentences. This is the last Part 3 of the volume. Take '
            'a position and give it a reason you actually hold.'),
     qs=['Is a recording the same thing as a performance?',

@@ -441,6 +441,26 @@ UNIT = dict(
            'And to record that it was done.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Objects',
+    longturn=[('The object I want to describe is a clock, a small wooden one '
+               'with a brass face, that stands on a shelf in my parents\' house '
+               'and has not worked for about thirty years.'),
+              ('It came from my great-grandfather, who was a railway clerk, '
+               'and we think he was given it when he retired, although nobody '
+               'now alive can tell us that for certain.'),
+              ('My mother looks after it, which mainly means dusting it and '
+               'refusing every offer anybody has ever made to repair it.'),
+              ('It matters for a reason that is slightly odd. It is not '
+               'valuable, it is not beautiful, and it does not work. What it '
+               'does is fix a date. Written inside the case, in pencil, is a '
+               'name and a year, and that pencil mark is the only physical '
+               'evidence my family has of anybody before my grandmother. '
+               'Everything else is stories, which change in the telling. The '
+               'clock does not change. My mother will not have it repaired '
+               'because a repairer would clean the inside of the case, and '
+               'that is where the writing is. So we keep a clock that cannot '
+               'tell the time because of four words written on wood, which '
+               'when you say it aloud sounds ridiculous and still seems to me '
+               'the right decision.')],
     intro=('Short answers, then the long turn. Spend the most time on '
            'the last bullet.'),
     cue=('Describe an old object that matters to your family.',
@@ -1231,6 +1251,23 @@ UNIT = dict(
            'Which he says a third of it lacks entirely.')])],
    speak=dict(
     part='Part 3', focus='Museums and the objects in them',
+    sounds=[('The has three pronunciations, and candidates use only one. '
+             'Before a consonant it is weak, before a vowel it is thee, and '
+             'when you mean the one everybody knows it is also thee, as in it '
+             'is not a museum, it is the museum.'),
+            ('The same split applies to a and an, and getting an wrong is '
+             'heard immediately: an object, an hour, a university. The sound '
+             'decides, not the spelling.'),
+            ('Practise the heritage phrases of this unit: the object, the '
+             'archive, the original, the eighteenth century. Three of those '
+             'four take the strong form.'),
+            ('Where a weak the meets a th word, hold the sound once: the '
+             'thing, the theory. Two separate th sounds there would be slower '
+             'than normal speech.'),
+            ('Record yourself describing a family object. Count how many times '
+             'you used the strong form where the weak one was needed; at this '
+             'level that is the commonest article fault in speech, and it is '
+             'not a grammar error at all.')],
     intro=('Five sentences. Try once to say that two good claims '
            'conflict.'),
     qs=['Should museums return objects to their countries of origin?',

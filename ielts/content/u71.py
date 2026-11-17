@@ -346,6 +346,24 @@ UNIT = dict(
            'Everything moving in the print is water.')])],
    speak=dict(
     part='Part 2', focus='A picture or object you like',
+    longturn=[('I am going to talk about an object I like. It is a small clock '
+               'made of brass on a shelf in my kitchen.'),
+              ('I first saw it in a second-hand shop in the street behind the '
+               'market, about five years ago. I was looking for a cup, '
+               'and the clock was at the back on a box.'),
+              ('It is about fifteen centimetres high and it has a round face '
+               'with black numbers. The metal is yellow-brown and worn '
+               'on the top, where somebody has held it for years. It '
+               'has a key at the back, so there is no battery, and it '
+               'needs winding every eight days.'),
+              ('I remember it for two reasons. The first is the sound. It is '
+               'loud in a quiet kitchen, and for a month I could not '
+               'sleep with the door open. Now I only hear it when it '
+               'stops. The second reason is that it is not accurate. '
+               'It loses four minutes a week, so I correct it every '
+               'Sunday. A telephone keeps perfect time and I never '
+               'look at it. I look at this clock twenty times a day, '
+               'and I think the small job of correcting it is why.')],
     intro='One minute to prepare, four short lines. Describe one thing '
           'and say why, not three things quickly.',
     qs=['Describe a picture or an object you like.',
@@ -973,6 +991,19 @@ UNIT = dict(
            'Which becomes the shape of the essay.')])],
    speak=dict(
     part='Part 3', focus='Value and money',
+    sounds=[('Word stress can change a word\'s job. A RECord is a thing and to '
+             'reCORD is an action. The same pattern gives an OBject and to '
+             'obJECT.'),
+            ('Say these pairs twice each: a present and to present, a design '
+             'and to design, an increase and to increase. The noun takes the '
+             'first part and the verb the second.'),
+            ('Long words have one strong part only: ORiginal, deCOration, '
+             'maTErial. Say the strong part clearly and let the rest go '
+             'quietly.'),
+            ('Practise one sentence: I bought it in a second-hand shop behind '
+             'the market. Say it in two pieces with one break.'),
+            ('Record yourself describing an object. Listen for a long word '
+             'where you made two parts equally strong.')],
     intro='Say what you think, then say which part of the question '
           'your answer covers. That limit is worth marks.',
     qs=['Why are some paintings worth so much money?',

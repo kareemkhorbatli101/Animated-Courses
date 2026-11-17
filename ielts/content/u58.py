@@ -510,6 +510,33 @@ UNIT = dict(
            'Using a sample of forty households.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Acting in advance',
+    longturn=[('The warning I acted on was an amber alert for a storm, issued '
+               'about thirty-six hours in advance, for the coastal area where '
+               'my parents live.'),
+              ('What I did was drive down the evening before, which is a '
+               'three-hour journey, help them move everything out of a garden '
+               'room that floods, bring their car up onto the road above the '
+               'house, and stay the night so that I was there if the power '
+               'went.'),
+              ('What actually happened was very little. The storm tracked '
+               'about sixty kilometres further south than the forecast centre '
+               'line, the wind reached perhaps half what had been warned of, '
+               'and the garden room stayed dry. I drove home the next '
+               'afternoon having used two days of leave and about forty pounds '
+               'of fuel.'),
+              ('Whether I was right to act is a question I think people get '
+               'wrong in both directions, and the answer does not depend on '
+               'what happened. The warning gave a probability, and the '
+               'forecasters were explicit that the track was uncertain; the '
+               'outcome tells me the storm went south, not that the warning '
+               'was poor. What I should ask is whether the cost of acting was '
+               'proportionate to the harm avoided multiplied by its chance, '
+               'and on those numbers it was not close: two days and forty '
+               'pounds against a flooded room, a damaged car and two people in '
+               'their eighties without power. I would do it again, and I would '
+               'expect to be wrong most times. The mistake to avoid is the one '
+               'my father made, which was to conclude from one quiet night '
+               'that the warnings are exaggerated.')],
     intro=('Short answers, then the long turn. The explanation bullet is '
            'where the band is decided.'),
     cue=('Describe a time you acted on a warning or a prediction.',
@@ -1127,6 +1154,33 @@ UNIT = dict(
            'periods.')])],
    speak=dict(
     part='Part 3', focus='Rare events',
+    followup=[(('You say you would act again. How should governments decide '
+                'what to prepare for?'),
+               ('By expected harm rather than by probability, which sounds '
+                'obvious and is not how budgets are set. A one-in-two-hundred- '
+                'year event that would cost a city is worth more preparation '
+                'than an annual nuisance, and the annual nuisance is what gets '
+                'funded because somebody complains about it every year.')),
+              ('Is it rational to worry about unlikely dangers?',
+               ('Rational to prepare for, and not to worry about, and those '
+                'are different activities. Worry tracks vividness rather than '
+                'expected loss, which is why people fear the dramatic and '
+                'ignore the slow. The preparation should be done once, in '
+                'advance, and then forgotten.')),
+              ('Who should pay for preparing?',
+               ('Whoever would otherwise bear the loss, which for the largest '
+                'risks means everybody, through the state, because no '
+                'individual can insure against a correlated catastrophe. Where '
+                'the risk is local and the beneficiary identifiable, the '
+                'beneficiary should pay, and that is where flood levies '
+                'belong.')),
+              (('What about the people who conclude from a quiet night that '
+                'the warnings are exaggerated?'),
+               ('That is the predictable cost of probabilistic warning, and '
+                'the answer is to publish the record rather than to argue. A '
+                'forecaster who says thirty per cent and is right three times '
+                'in ten is calibrated, and the only way anybody can see that '
+                'is if somebody keeps the score.'))],
     intro=('Five or six sentences. Try once to explain why an accurate '
            'test can be usually wrong.'),
     qs=['Should societies prepare for events that rarely happen?',
@@ -1470,6 +1524,21 @@ UNIT = dict(
            'Which is measured already and never disclosed.')])],
    speak=dict(
     part='Part 3', focus='Probability and advice',
+    sounds=[('Probability language must be fast and flat: a one in two hundred '
+             'chance, a thirty per cent probability, more likely than not. '
+             'Each is one chunk and none takes a rising contour.'),
+            ('Practise the pair it is unlikely and it is not impossible with '
+             'the stress on unlikely and on impossible. The sentence is a '
+             'hedge and the delivery should be firm.'),
+            ('The word calibrated is stressed on the first syllable, and '
+             'probabilistic on the fourth, and both appear in every answer in '
+             'this unit.'),
+            ('Where an outcome contradicts a forecast, keep the two clauses at '
+             'different pitches: the storm went south, level, but the warning '
+             'was sound, falling.'),
+            ('Record yourself on preparing for rare events. Listen for a '
+             'probability you delivered as though you were unsure of it rather '
+             'than about it.')],
     intro=('The hardest turn in the unit. Try once to say that a true '
            'statement can be an evasion.'),
     qs=['Should experts give a single answer or a probability?',

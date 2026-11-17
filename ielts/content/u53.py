@@ -538,6 +538,34 @@ UNIT = dict(
            'Since every measure can be gamed.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Targets',
+    longturn=[('The rule I want to describe is a target at a hospital where a '
+               'friend worked, requiring that nobody wait more than four hours '
+               'in the emergency department.'),
+              ('It was introduced because waits had been genuinely scandalous, '
+               'with people on trolleys for a day and a half, and because the '
+               'only thing the department could reliably report was time, so '
+               'time was what got the target.'),
+              ('What happened instead was a set of adaptations nobody intended '
+               'and everybody could see. Patients were admitted to a short- '
+               'stay ward at three hours and fifty minutes, which stopped the '
+               'clock and started a bed. A second queue formed outside, in '
+               'ambulances, which were not in the department and therefore not '
+               'counted. Decisions that would have been better taken at five '
+               'hours were taken at three and a half, and some of those were '
+               'wrong. Meanwhile the thing the target was built to prevent, '
+               'the day and a half on a trolley, genuinely stopped happening.'),
+              ('Whether the rule should be kept is where I part company with '
+               'most people who tell this story. The usual conclusion is that '
+               'targets corrupt, and the evidence for that in this case is '
+               'strong. But the counterfactual is not an unmeasured department '
+               'behaving well; it is the department that existed before, which '
+               'was worse. What I would change is not the existence of the '
+               'target but its monopoly: measure the ambulance queue, the '
+               'readmission rate and the short-stay admissions alongside it, '
+               'so that each of the three escape routes is visible. A single '
+               'number will always be gamed. Three numbers that move in '
+               'opposite directions when it is gamed are much harder to '
+               'defeat, and nobody has to abandon measurement to get them.')],
     intro=('Short answers, then the long turn. The explanation bullet is '
            'where this card is decided.'),
     cue=('Describe a rule that produced an unexpected result.',
@@ -1187,6 +1215,29 @@ UNIT = dict(
            'A direct estimate of the distortion being generated.')])],
    speak=dict(
     part='Part 3', focus='Judging institutions',
+    followup=[(('You would keep the target but add others. Is it possible to '
+                'design a rule people cannot work around?'),
+               ('No, and designing as though it were is the mistake. Anybody '
+                'measured will optimise, so the realistic aim is a set of '
+                'measures whose gaming moves them in opposite directions, '
+                'which makes the manipulation visible rather than impossible.')),
+              ('Should inspectors visit, or should figures be enough?',
+               ('Both, and for different purposes. Figures tell you where to '
+                'look and nothing about why, and an inspection tells you why '
+                'and cannot be done everywhere. Using figures alone produces '
+                'the four-hour ward; using inspection alone produces a service '
+                'judged on the day somebody came.')),
+              ('Who should set the standards?',
+               ('Somebody who is not judged on them, which rules out both the '
+                'organisation and the department that funds it. The profession '
+                'has the knowledge and the conflict, so I would have it '
+                'propose and an independent body decide, with the reasoning '
+                'published.')),
+              ('Does publishing the reasoning actually change behaviour?',
+               ('It changes what can be argued afterwards, which is most of '
+                'what accountability is. A standard whose justification is in '
+                'public can be challenged on the record; one that arrives as a '
+                'number can only be met or missed.'))],
     intro=('Five or six sentences. Try once to explain why a good measure '
            'degrades as fast as a bad one.'),
     qs=['How should we judge whether an institution is working?',
@@ -1534,6 +1585,20 @@ UNIT = dict(
            'And says his field keeps selling it as the other.')])],
    speak=dict(
     part='Part 3', focus='Trust and accountability',
+    sounds=[('Institutional nouns are long, front-loaded and easy to chain: '
+             'ACcountability, INspection regime, PERformance target. Say no '
+             'more than two in a row without a pause.'),
+            ('The stress pair that matters here is to reCORD and a RECord, '
+             'which appears in almost every sentence about measurement, and '
+             'getting it wrong is heard immediately.'),
+            ('Practise the sentence the target was met and the problem moved '
+             'with two stresses, on met and moved. It is the shape of every '
+             'answer in this unit.'),
+            ('Where a sentence contains a number and an institution, the '
+             'number takes the stress: FOUR hours, not four HOURS, when the '
+             'limit is the point.'),
+            ('Record yourself on how to judge an institution. Count the '
+             'abstract nouns you ran together without a breath.')],
     intro=('The hardest turn in the unit. Try once to say that two '
            'opposite criticisms are both true.'),
     qs=['Should professionals be trusted or checked?',

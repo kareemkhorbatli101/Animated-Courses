@@ -374,6 +374,22 @@ UNIT = dict(
            'Which he says embarrasses his profession.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Exercise',
+    longturn=[('The habit I kept up is swimming twice a week, which I have now '
+               'done for about two years.'),
+              ('I started in the January after a winter when I had been ill '
+               'twice and had done almost no exercise for about six months.'),
+              ('I have kept it up for two years with two breaks, one for a '
+               'holiday and one when the pool closed for repairs, and both '
+               'times I went back, which is the part I did not expect.'),
+              ('What made it possible was making the decision as small as I '
+               'could. I did not decide to get fit; I decided to go on Tuesday '
+               'and Saturday mornings, early, when the pool is almost empty. '
+               'Because it is early, nothing else can be arranged over it, and '
+               'because it is always the same two times I do not have to '
+               'decide anything. The other thing that helped was not counting '
+               'lengths. For the first six months I just swam until the clock '
+               'said half past, and that way a bad morning was still a morning '
+               'I went. I got faster anyway, but I only noticed afterwards.')],
     intro=('Short answers, then the long turn. Say what you did and '
            'then what kept it going.'),
     cue=('Describe a time when you kept up a new habit.',
@@ -1141,6 +1157,20 @@ UNIT = dict(
            'Which he says should be on every academy wall.')])],
    speak=dict(
     part='Part 3', focus='Pushing young people to succeed',
+    sounds=[('Fluency is measured by whether the examiner has to wait, not by '
+             'speed. A candidate speaking slowly and steadily scores better '
+             'than one who sprints and stops.'),
+            ('A silent pause while you think is normal. A filled pause of '
+             'three seconds is not, and a repeated filler becomes the thing '
+             'the examiner hears instead of your answer.'),
+            ('Replace your fillers with a phrase that does the same work and '
+             'is worth marks: that is a difficult one to answer, or it depends '
+             'what you mean by. Choose two and practise only those.'),
+            ('Time yourself for two minutes on this unit\'s cue card and do not '
+             'stop, even if the answer goes somewhere strange. The ability to '
+             'keep going is a separate skill from having something to say.'),
+            ('Record the same long turn twice in one week. Count the silences '
+             'longer than two seconds in each, and keep the one with fewer.')],
     intro=('Five sentences. This is the last Part 3 of the volume. '
            'Take a position and support it with evidence.'),
     qs=['Should children be pushed to succeed at sport?',

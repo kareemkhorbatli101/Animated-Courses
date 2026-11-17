@@ -362,6 +362,26 @@ UNIT = dict(
            'Which Ben says is how most such arguments are.')])],
    speak=dict(
     part='Part 2', focus='A rule in your home',
+    longturn=[('I am going to talk about a rule in my home. We do not use '
+               'telephones at the table when we eat.'),
+              ('The rule is simple and it applies to everybody, including '
+               'visitors, who are told about it gently. Telephones go on the '
+               'shelf by the door, face down, and they stay there until the '
+               'plates are cleared.'),
+              ('It exists because of one particular evening about three years '
+               'ago. The four of us sat down to eat, and after ten minutes '
+               'nobody had spoken and three people were looking at a screen. '
+               'My daughter, who was fourteen, was the one who said that it '
+               'was ridiculous. So the rule was her idea, which is probably '
+               'why it has lasted.'),
+              ('Does it work? Mostly, and not perfectly. We eat together four '
+               'or five evenings a week, and those meals are about '
+               'fifteen minutes longer than they used to be. The part '
+               'that does not work is that the rule has to be '
+               'enforced, which is my job, and I am also the person '
+               'most likely to break it. What I have learned is that a '
+               'rule everybody agreed to in advance is far easier to '
+               'keep than one somebody announced.')],
     intro='One minute, four lines. Describe one rule and judge it '
           'honestly.',
     qs=['Describe a rule you have at home, or had as a child.',
@@ -968,6 +988,16 @@ UNIT = dict(
            'Rather than merely making it easier.')])],
    speak=dict(
     part='Part 3', focus='Technology and time',
+    sounds=[('Pause between groups of words, not inside them. At the table is '
+             'one group. Until the plates are cleared is another.'),
+            ('Say this sentence with two breaks: we do not use telephones at '
+             'the table, when we eat, and visitors are told as well.'),
+            ('Where a word ends in t or d and the next begins with a vowel, '
+             'join them: put it on, and it works, about an hour.'),
+            ('Practise the sentence it works, mostly, and not perfectly. The '
+             'two commas are two short pauses and they carry the meaning.'),
+            ('Record yourself describing a rule. Mark where you paused and '
+             'check that no pause came inside a group.')],
     intro='Use the distinction from the reading if it helps: removing '
           'a task against making one easier.',
     qs=['Has technology given people more free time?',

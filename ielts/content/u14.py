@@ -447,6 +447,25 @@ UNIT = dict(
            'Which rose on funded teacher recruitment.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Learning',
+    longturn=[('The skill I learned as an adult is driving. I passed my test '
+               'at twenty-nine, which in my family was considered extremely '
+               'late.'),
+              ('I learned with an instructor, two hours a week for about five '
+               'months, and then a further two months of practice with a '
+               'patient friend before I took the test.'),
+              ('Altogether it took about seven months, and I failed once, '
+               'which I had not seriously considered as a possibility.'),
+              ('What was different about learning it as an adult was that I '
+               'knew exactly how bad I was. A sixteen-year-old thinks they are '
+               'nearly there after four lessons. I could see every mistake I '
+               'made, and I could see them while I was making them, which made '
+               'the mistakes worse rather than better. The other difference '
+               'was that I had no time to be bad at it. Children learn things '
+               'in the hours nobody is using for anything else, and I had to '
+               'take those hours from something. In the end the advantage was '
+               'that I could be told something once and understand why it was '
+               'true, so I did not have to be corrected twenty times. But it '
+               'was much less enjoyable than anything I learned as a child.')],
     intro=('Short answers, then the long turn. The explanation bullet '
            'carries the band.'),
     cue=('Describe a skill you learned as an adult.',
@@ -1228,6 +1247,21 @@ UNIT = dict(
            'Because the recordings are what any revival must use.')])],
    speak=dict(
     part='Part 3', focus='What is lost when a language goes',
+    sounds=[('A dark l at the end of a word is made with the back of the '
+             'tongue: well, skill, careful. It is not a vowel, but it is much '
+             'closer to one than the l in listen.'),
+            ('Where l and r meet in a word, slow down before you speed up: '
+             'regularly, relatively, rarely, particularly. Say each one three '
+             'times in a phrase you would really use.'),
+            ('An r in British English is only pronounced before a vowel, so '
+             'far is without it and far away has it. Adding an r where there '
+             'is no vowel after it sounds effortful rather than careful.'),
+            ('Practise a phrase with both sounds: I learned it relatively '
+             'late, and it was clearly harder. Keep the l dark at the end of '
+             'learned and clearly.'),
+            ('Record ninety seconds on a skill you learned, then listen only '
+             'for words ending in l. Decide whether each one ended with the '
+             'back of your tongue or with a vowel.')],
     intro=('Five sentences. Try once to make a conditional claim and '
            'then limit it.'),
     qs=['Can a language be brought back once it has stopped being '

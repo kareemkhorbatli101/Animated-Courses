@@ -392,6 +392,21 @@ UNIT = dict(
            'milk', 'A real job rather than a small one.')])],
    speak=dict(
     part='Part 2', focus='Jobs at home',
+    longturn=[('I am going to talk about a job I do at home. I do the washing- '
+               'up after dinner.'),
+              ('It is a simple job. I wash the plates, the glasses and the '
+               'pans in hot water, and then I dry them and put them away. It '
+               'takes about fifteen minutes. We do not have a dishwasher.'),
+              ('I do it every evening from Monday to Friday. At the weekend my '
+               'sister does it, because that is our arrangement. When we were '
+               'children, my mother made a list on the kitchen wall, and we '
+               'still use the same system now.'),
+              ('I do not really like it, but I do not hate it either. The part '
+               'I dislike is the pans, because food sticks to them and they '
+               'take a long time. The part I quite like is that I am alone in '
+               'the kitchen for fifteen minutes. I listen to music or to the '
+               'radio. So it is a quiet time in a busy day, and when it is '
+               'finished, the kitchen is clean and the evening is free.')],
     intro='One minute to prepare. Four bullets, four short sections, '
           'and you will reach two minutes without rushing.',
     qs=['Describe a job you do at home.',
@@ -749,6 +764,17 @@ UNIT = dict(
            'Not once in forty interviews, Ana says.')])],
    speak=dict(
     part='Part 3', focus='Neighbours and what makes a good one',
+    sounds=[('In English we do not stress every word. In I do the washing-up '
+             'every evening, only two words are strong: washing and evening.'),
+            ('The small words are quiet: a, of, to, and, for, the. Say a lot '
+             'of work and let of almost disappear.'),
+            ('Say the days of the week and put the stress in the right place: '
+             'MONday, TUESday, SAturday, SUNday. The second part is quiet in '
+             'all of them.'),
+            ('Practise one sentence: I do it every evening from Monday to '
+             'Friday. Two strong words, and the rest quiet.'),
+            ('Record yourself talking about your family. Count the words you '
+             'said strongly. If it is most of them, try again more quietly.')],
     intro='Answer the question first, then give the reason. Add an '
           'example only if it is short.',
     qs=['What makes a good neighbour?',

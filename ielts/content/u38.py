@@ -510,6 +510,29 @@ UNIT = dict(
            'Caveats survive when they are load-bearing, as she puts it.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Claims',
+    longturn=[('The thing I was told that turned out to be wrong is that you '
+               'should wait an hour after eating before swimming, or you will '
+               'get cramp and drown.'),
+              ('I was told it by everybody: my parents, two teachers, the '
+               'attendant at the local pool, and a sign on the wall of a '
+               'holiday camp I went to when I was nine.'),
+              ('How I found out was accidental and much later. I was reading '
+               'about where common safety advice comes from, and this one was '
+               'given as an example of a rule with no evidence behind it at '
+               'all. I checked, half expecting the article to be the wrong '
+               'one, and found that it has been examined several times, that '
+               'nobody has ever recorded a drowning caused by swimming after a '
+               'meal, and that the advice appears to have spread through a '
+               'swimming manual in the nineteen-fifties.'),
+              ('What it changed is broader than swimming. It is the clearest '
+               'case I know of something I believed firmly, for thirty years, '
+               'for no reason other than that everybody around me believed it. '
+               'Nobody lied to me; they were all passing on what they had been '
+               'told, in good faith, about the safety of children. So I now '
+               'ask about ordinary received advice the question I would ask '
+               'about a surprising claim, which is simply: how would anybody '
+               'know that? Most of the time there is an answer. Occasionally '
+               'the question has never been asked.')],
     intro=('Short answers, then the long turn. The card asks for a story; '
            'tell one story properly instead of three briefly.'),
     cue=('Describe something you were told that turned out to be wrong.',
@@ -1073,6 +1096,28 @@ UNIT = dict(
            'Which he says is approximately what has happened since 2015.')])],
    speak=dict(
     part='Part 3', focus='Trusting a published result',
+    followup=[(('You say we should not believe a result first time. Who should '
+                'check published research?'),
+               ('Somebody paid to, which is nobody at present. Replication is '
+                'unfunded, unpublishable and career-damaging, so it does not '
+                'happen, and that is a design fault rather than a failure of '
+                'character. A small fixed share of every research budget '
+                'reserved for replication would change the economics.')),
+              (('Does it matter if a result turns out to be smaller than '
+                'reported?'),
+               ('Usually more than whether it exists at all. Policy is built '
+                'on the size: a treatment with a tiny effect is real and '
+                'useless. And shrinkage is the normal pattern, because the '
+                'first published estimate is the one that was large enough to '
+                'be noticed.')),
+              (('How should scientists respond when their work does not '
+                'replicate?'),
+               ('By treating it as information, which is easier to say than to '
+                'do when a career rests on the finding. The best cases I know '
+                'of were authors who published the failed replication '
+                'themselves, and the profession rewarded them, eventually. The '
+                'worst response is a defence of the original on grounds nobody '
+                'can test.'))],
     intro=('Four or five sentences. Say once what you would need to know '
            'before believing a result.'),
     qs=['Should we believe a scientific result the first time it is '
@@ -1374,6 +1419,22 @@ UNIT = dict(
            'And that neither of them can get it funded.')])],
    speak=dict(
     part='Part 3', focus='How a field corrects itself',
+    sounds=[('Academic reporting language has a rhythm of its own, and it is '
+             'flatter than ordinary speech: the effect was smaller than '
+             'reported takes one real stress, on smaller.'),
+            ('Practise the four verbs of this unit with light stress: '
+             'replicate, overstate, retract, revise. Each is unremarkable in '
+             'the mouth of somebody used to it, and that is the effect you '
+             'want.'),
+            ('The phrase failed to replicate is one chunk with the stress on '
+             'replicate. Said word by word it sounds like an accusation rather '
+             'than a finding.'),
+            ('Hedged conclusions must not be said hesitantly. The evidence is '
+             'weaker than it looked is a firm sentence about a weak result, '
+             'and the firmness belongs in the voice.'),
+            ('Record yourself on whether to believe a result first time. '
+             'Listen for a sentence where uncertainty in the content became '
+             'uncertainty in the delivery.')],
     intro=('The hardest turn in the unit. Try to hold two claims at once and '
            'say that you are doing so.'),
     qs=['How should a field deal with results that do not hold up?',

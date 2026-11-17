@@ -505,6 +505,32 @@ UNIT = dict(
            'Which Casimir found rather than Thomasina.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Sharing',
+    longturn=[('The shared thing I want to describe is a set of allotment '
+               'gardens behind a row of houses, about thirty plots, which '
+               'worked for decades and then nearly collapsed.'),
+              ('It was shared by the tenants of the plots, who paid a small '
+               'rent to the council but ran everything else themselves: a '
+               'water supply, two sheds of communal tools, a compost area, and '
+               'a rota for cutting the paths.'),
+              ('What happened was that the water bill, which had been divided '
+               'thirty ways and paid by a treasurer, went unpaid for most of a '
+               'year after the treasurer moved away, and the supply was cut '
+               'off in July. By the time it was restored, about a third of the '
+               'plots had been abandoned, and the following spring the paths '
+               'were not cut because the rota had been kept in the treasurer\'s '
+               'head.'),
+              ('Why I think it failed is nothing to do with the usual story '
+               'about shared resources. Nobody over-used the water and nobody '
+               'took more than their share of the tools; the free-riding '
+               'problem that the textbooks predict simply did not arise in '
+               'twenty years. What failed was succession. Every function that '
+               'worked depended on one person who had always done it, and none '
+               'of it was written down, so the loss of a single member took '
+               'out the water, the rota and the records at once. The '
+               'arrangement that survived for decades was not robust; it was '
+               'lucky, and it had no way of knowing the difference. What it '
+               'needed was the dullest possible intervention: two signatories, '
+               'a written rota, and a list of who pays what.')],
     intro=('Short answers, then the long turn. The final bullet is where '
            'the band is decided.'),
     cue=('Describe something shared that worked well or failed.',
@@ -1147,6 +1173,32 @@ UNIT = dict(
            'Observed in institutions that survived.')])],
    speak=dict(
     part='Part 3', focus='Rules people make for themselves',
+    followup=[(('You say succession failed rather than free-riding. Are self- '
+                'made rules better than imposed ones?'),
+               ('Better complied with, because the people who wrote them can '
+                'see each other and have most to lose, and not inherently '
+                'better designed. The successful cases in the literature share '
+                'conditions rather than virtues: a clear boundary, a small '
+                'enough group, and a way of excluding outsiders.')),
+              ('Why might a small penalty work better than a large one?',
+               ('Because its purpose is information rather than deterrence. A '
+                'small, certain, graduated sanction tells everybody that the '
+                'rule is being enforced and leaves the relationship intact; a '
+                'large one is rarely applied, because nobody wants to destroy '
+                'a neighbour, and an unapplied penalty teaches that the rule '
+                'is optional.')),
+              ('Who should monitor whether rules are followed?',
+               ('The users, where they can see the resource, because they are '
+                'already there and the cost is near zero. The moment '
+                'monitoring requires somebody employed to do it, the '
+                'arrangement needs a budget, and that is usually where self- '
+                'governance stops scaling.')),
+              ('Do such arrangements work in cities?',
+               ('At the scale of a stair, a street or a garden, yes, and the '
+                'conditions are the same ones. Above that the group can no '
+                'longer see itself, and what works is a formal body with local '
+                'membership rather than either spontaneous cooperation or a '
+                'distant authority.'))],
     intro=('Five or six sentences. Try once to say why a first penalty '
            'should be small.'),
     qs=['Are rules people make themselves better than imposed ones?',
@@ -1507,6 +1559,19 @@ UNIT = dict(
            'Which has thinner evidence than the eight conditions.')])],
    speak=dict(
     part='Part 3', focus='Designing institutions',
+    sounds=[('This unit\'s terms come from economics and keep irregular stress: '
+             'a COMmons, colLECtive action, free RIDing, which is a compound '
+             'and takes the first element.'),
+            ('Say each inside a clause until the clause runs at speed, because '
+             'these are the words candidates define instead of using.'),
+            ('The phrase rules people make for themselves has one stress, on '
+             'themselves, and the whole phrase is one unit. Stressing rules '
+             'makes it a different claim.'),
+            ('Where you list conditions, use the three-part rhythm from Volume '
+             '3: a clear boundary, a small group, and a way of excluding '
+             'outsiders.'),
+            ('Record ninety seconds on whether self-made rules are better. '
+             'Check that your list fell on the last item.')],
     intro=('The hardest turn in the unit. Try once to say that a finding '
            'is not advice.'),
     qs=['Can successful institutions be copied from one place to '

@@ -453,6 +453,24 @@ UNIT = dict(
            'two', 'Or sooner if the river rises faster.')])],
    speak=dict(
     part='Part 2', focus='A time the weather changed your plans',
+    longturn=[('I am going to talk about a time when the weather changed my '
+               'plans. It was my sister\'s birthday party.'),
+              ('We planned a party in the park for about twenty people. It was '
+               'in June, and we had food, two tables and a football. Her '
+               'birthday is on the fourteenth, and we planned it for the '
+               'Saturday after.'),
+              ('The weather was terrible. It rained from eight in the morning '
+               'until the evening, heavy rain, not light rain. We waited until '
+               'eleven o\'clock, and then we knew it was not possible. My '
+               'sister was very unhappy, and she cried a little.'),
+              ('What we did instead was quite simple. We moved everything to '
+               'my flat. My flat is small, so twenty people was too '
+               'many, and about fourteen came. We put the tables '
+               'together, we put the food in the kitchen, and the '
+               'children played a game in the hall. In the end my '
+               'sister said it was better than the park, because '
+               'everybody talked to everybody. I am not sure that is '
+               'true, but we tell the story every year now.')],
     intro='One minute to prepare, four short lines. Tell it as a '
           'story.',
     qs=['Describe a time when the weather changed your plans.',
@@ -851,6 +869,18 @@ UNIT = dict(
            'Which the tutor calls the distinction the essay needs.')])],
    speak=dict(
     part='Part 3', focus='Weather, memory and records',
+    sounds=[('This is the last page on sounds in this book. Five things '
+             'matter, and you have practised them all: word ends, stress, '
+             'joining, breaks, and the voice going down.'),
+            ('Before a test, record one answer from each part of the speaking '
+             'exam. Listen three times, for one thing each time.'),
+            ('Speak a little more slowly than feels normal, and a little '
+             'louder. Under pressure most people do the opposite.'),
+            ('Do not learn an answer by heart. Learn the shape of an answer '
+             'and the useful phrases, and find the words on the day.'),
+            ('Keep your first recording from unit 1. Listen to it next to '
+             'today\'s recording. That is the only way to hear how far you have '
+             'come.')],
     intro='Use both kinds of evidence and say what each is good for. '
           'That is the whole answer.',
     qs=['Do you think the weather has changed where you live?',

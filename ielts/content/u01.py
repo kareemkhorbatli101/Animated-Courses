@@ -374,6 +374,25 @@ UNIT = dict(
            'willpower.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Studying',
+    longturn=[('The subject I want to talk about is statistics, which I '
+               'studied in my second year at university. It was part of my '
+               'course, so I could not avoid it.'),
+              ('I studied it for two terms, from September until the following '
+               'April, with one lecture and one practical class every week.'),
+              ('It was difficult for two reasons. The first was the '
+               'mathematics. I had not done any for three years, and the '
+               'lecturer assumed we all remembered it. The second reason was '
+               'worse: I could do the calculations without understanding what '
+               'they were for. I could work out a number and then not be able '
+               'to say what it told me.'),
+              ('What I did about it was change the order I worked in. Instead '
+               'of starting with the formula, I started with the question the '
+               'data was supposed to answer, and only then looked for the '
+               'method. I also found a study group, which helped more than '
+               'anything, because explaining something badly to somebody else '
+               'shows you exactly where the gap is. By the end of the year I '
+               'was not brilliant at it, but I passed, and I still use some of '
+               'it now.')],
     intro=('Short answers first, then the long turn. Say what was '
            'difficult before you say how you felt about it.'),
     cue=('Describe a subject you found difficult.',
@@ -1107,6 +1126,24 @@ UNIT = dict(
            'For whom she still wants smaller classes.')])],
    speak=dict(
     part='Part 3', focus='Spending money on education',
+    sounds=[('Word stress moves when a word changes its job, and the examiner '
+             'hears it: the noun is a RECord, the verb is to reCORD, and the '
+             'same split runs through conflict, contrast, increase and '
+             'decrease.'),
+            ('Words ending in -ic and -ical put the stress one syllable before '
+             'the ending: acaDEMic, staTIStical, eCOnomic. Say the ending '
+             'quietly and the stress looks after itself.'),
+            ('A long word is not a slow word. Practise university and '
+             'examination at normal speed with only one strong syllable in '
+             'each, because stretching every syllable equally is what makes a '
+             'candidate sound like a learner.'),
+            ('Read one of your Part 1 answers aloud and mark the one syllable '
+             'in each sentence you want the examiner to notice. Then say it '
+             'again and make everything else quieter than that syllable.'),
+            ('Record yourself answering Do you work or study? Listen once for '
+             'stress only, ignoring everything else. You are listening for a '
+             'flat line, which is the most common fault at this level and the '
+             'easiest to fix.')],
     intro=('Four sentences. Say what you would spend money on and what '
            'you would give up.'),
     qs=['How should a government spend money on schools?',

@@ -368,6 +368,24 @@ UNIT = dict(
            'Because serious mistakes come from guessing and waiting.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Starting something new',
+    longturn=[('The new thing I want to talk about is a part-time job in a '
+               'bookshop, which was the first job I ever had.'),
+              ('It was three years ago, the summer after I finished school, '
+               'and I stayed for about eight months.'),
+              ('At the start I felt completely out of place. There was a '
+               'system for everything, and none of it was written down '
+               'anywhere. I was afraid of the till, I was afraid of the phone, '
+               'and I was most afraid of a customer asking me a question I '
+               'could not answer.'),
+              ('What made it easier was one colleague. She did not explain the '
+               'whole system to me, which would have been useless, because I '
+               'could not have remembered it. Instead she gave me one small '
+               'job at a time and let me do it until it was boring. Once '
+               'something was boring, I had learned it. The other thing that '
+               'helped was writing down the questions I could not answer and '
+               'looking them up at the end of the day. After a month I was the '
+               'person other people asked, which still surprises me when I '
+               'think about it.')],
     intro=('Short answers, then the long turn. Describe what happened '
            'before you say how you felt.'),
     cue=('Describe a time when you started something new.',
@@ -1136,6 +1154,23 @@ UNIT = dict(
            'Rather than a consequence of the technology.')])],
    speak=dict(
     part='Part 3', focus='Preparing for work that does not exist yet',
+    sounds=[('In connected speech the small words lose their vowel. Of, for, '
+             'to, and, can and was become weak: a lot of work sounds like a '
+             'lot uv work, and I can do it has a weak can, while I CAN do it '
+             'with a strong can means something different.'),
+            ('Practise the weak forms in a sentence you will actually use: I '
+             'would like to work for a company that lets me learn. Every '
+             'underlined word there is weak, and the sentence should take '
+             'about two seconds.'),
+            ('Strong forms are not wrong; they are emphatic. Keep them for the '
+             'word you are arguing about, and let the grammar words disappear, '
+             'because that contrast is most of what fluency sounds like.'),
+            ('Say I have been looking for a job like that for two years three '
+             'times: once with every word equally strong, once naturally, and '
+             'once too fast. Keep the middle one.'),
+            ('In your next answer, count the words you stressed. If it is more '
+             'than one in four, you are stressing everything, and nothing is '
+             'therefore emphasised.')],
     intro=('Four or five sentences. Say what you would do rather than '
            'what should happen.'),
     qs=['How can people prepare for jobs that do not exist yet?',

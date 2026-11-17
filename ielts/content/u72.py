@@ -348,6 +348,26 @@ UNIT = dict(
            'Rather than because of what it records.')])],
    speak=dict(
     part='Part 2', focus='Something you learned as an adult',
+    longturn=[('I am going to talk about something I learned as an adult. I '
+               'learned to drive at twenty-eight.'),
+              ('I started in the March of that year, after a job interview in '
+               'a place with no buses, where I had to pay for a taxi '
+               'both ways. I had two lessons a week for five months.'),
+              ('Two things were difficult, and neither was the one I expected. '
+               'The first was that I could see every mistake while I '
+               'made it. A young learner does not notice; I noticed, '
+               'and that made me tense. The second was the other '
+               'drivers. The car was manageable. Thirty other people '
+               'all making decisions at the same time was not, and '
+               'that is what made me fail the first test.'),
+              ('What I would tell somebody starting now is to take fewer '
+               'lessons a week over a longer time, because the '
+               'learning happens between the lessons and not during '
+               'them. I would also say that failing once is normal and '
+               'tells you nothing about yourself. I passed on the '
+               'second attempt in the October, and I have driven '
+               'almost every day since, and I am still more careful '
+               'than my friends who learned at seventeen.')],
     intro='One minute, four lines. The fourth bullet is where the best '
           'language is: leave time for it.',
     qs=['Describe something you learned as an adult.',
@@ -988,6 +1008,16 @@ UNIT = dict(
            'And that this should be said honestly.')])],
    speak=dict(
     part='Part 3', focus='Memory and the past',
+    sounds=[('The small words in English lose their vowel: of, for, to, and, '
+             'was, can. A lot of work sounds like a lot uv work.'),
+            ('Say this sentence and let the small words disappear: I had two '
+             'lessons a week for about five months.'),
+            ('Can and can\'t must be different. In I can drive the can is weak; '
+             'in I can\'t drive the word is strong and the vowel is long.'),
+            ('Practise the past forms with their endings clear: started, '
+             'failed, passed, learned. Two are short and two are longer.'),
+            ('Record yourself talking about something you learned. Count the '
+             'small words you said too strongly.')],
     intro='Give the finding, then the explanation, then what you make '
           'of it. Four sentences.',
     qs=['Why do people remember the music of their youth best?',

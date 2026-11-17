@@ -520,6 +520,32 @@ UNIT = dict(
            'Which is why she chased the citation at all.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Remembering',
+    longturn=[('The event I remember differently is a car accident my family '
+               'was in when I was eleven, on a motorway, in which nobody was '
+               'hurt.'),
+              ('The others there were my mother, who was driving, my father in '
+               'the front, and my younger brother, who was seven at the time '
+               'and remembers nothing at all.'),
+              ('How their accounts differ from mine is specific and '
+               'consistent. I remember the car spinning twice, coming to rest '
+               'facing the traffic, and a lorry stopping about ten metres '
+               'away. My mother says we did not spin; we slid sideways onto '
+               'the hard shoulder and stopped facing the right way. My father '
+               'agrees with her, and adds that the lorry was already stopped '
+               'some distance back. The police report, which my mother kept, '
+               'describes a single rotation and gives a resting position '
+               'consistent with her account rather than mine.'),
+              ('Why I think the accounts differ is the part I have thought '
+               'about most, because mine is clearly the wrong one and it has '
+               'not faded. From the back seat I could see only out of the side '
+               'window, so the world rotated past me once and then the traffic '
+               'was in front of me, which is exactly what one rotation looks '
+               'like from where I was sitting and exactly what two would look '
+               'like as well. I had no way to distinguish them. On top of that '
+               'I have told the story perhaps thirty times, and I suspect I am '
+               'now remembering the telling. What I find unsettling is not '
+               'being wrong; it is that the memory is as vivid as any I have, '
+               'and that the vividness was never evidence of anything.')],
     intro=('Short answers, then the long turn. The last bullet is where '
            'the band is decided.'),
     cue=('Describe an event you remember differently from other people.',
@@ -1165,6 +1191,31 @@ UNIT = dict(
            'A known bias being different from an unknown one.')])],
    speak=dict(
     part='Part 3', focus='Whose past is recorded',
+    followup=[('You say the record favours some lives. Is that changing?',
+               ('Yes, and unevenly. Digital records capture far more people '
+                'and keep them far less reliably, so we may be the first '
+                'generation to be both exhaustively documented and largely '
+                'unreadable in a century. The bias has shifted from literacy '
+                'to format.')),
+              ('Should governments keep more records or fewer?',
+               ('More of some and fewer of others, which is not a compromise '
+                'but a distinction. Administrative records of what the state '
+                'did are the ones historians cannot reconstruct and should be '
+                'kept indefinitely. Comprehensive records about individuals '
+                'are a standing risk and should be kept only as long as the '
+                'purpose lasts.')),
+              ('Can we learn about people who left no records?',
+               ('A surprising amount, and almost none of it from documents. '
+                'Skeletons give diet, growth and illness; isotopes give '
+                'movement; genetics gives relationships. It is a different '
+                'kind of knowledge, impersonal and statistical, and it covers '
+                'exactly the people writing missed.')),
+              ('Does that mean the written record matters less than it did?',
+               ('It means it is no longer the only evidence, which is a change '
+                'in the balance rather than a demotion. Where the two conflict '
+                'the material evidence usually wins, and the interesting work '
+                'is in the cases where a document says something the bones '
+                'contradict.'))],
     intro=('Five or six sentences. Try once to say whose lives generate '
            'documents.'),
     qs=['Whose lives are best recorded in history?',
@@ -1511,6 +1562,21 @@ UNIT = dict(
            'About three years of work that nobody will fund.')])],
    speak=dict(
     part='Part 3', focus='Knowing about the past',
+    sounds=[('Narrative at this level needs the past forms audible, because '
+             'the tense is the argument: I remembered, they described, the '
+             'report recorded. Dropping the ending leaves the examiner '
+             'guessing.'),
+            ('Practise the three reporting shapes with their own stress: I '
+             'remember it as, they say it was, and the record shows. The last '
+             'word carries each one.'),
+            ('The phrase as far as I can tell and the phrase as I remember it '
+             'are single chunks under a second. Said slowly they sound like '
+             'doubt about your own memory, which is not the same as the hedge '
+             'you intended.'),
+            ('Where two accounts are contrasted, the pitch separates them: '
+             'high on I remember two, falling on she says one.'),
+            ('Record yourself on an event remembered differently. Listen only '
+             'for past endings, and count the ones that disappeared.')],
     intro=('The hardest turn in the unit. Try once to say that an '
            'objection defeats itself.'),
     qs=['Can we really know what life was like in the past?',

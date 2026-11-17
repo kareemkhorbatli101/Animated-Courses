@@ -520,6 +520,30 @@ UNIT = dict(
            'Because "we disagreed" tells the office nothing.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Judgement',
+    longturn=[('The thing I changed my mind about is a building, a concrete '
+               'lecture hall at the university where I studied, which I '
+               'actively disliked for three years.'),
+              ('What I thought originally was that it was ugly and arrogant. '
+               'It is a windowless mass of board-marked concrete on a street '
+               'of brick terraces, it is darker than everything around it, and '
+               'it turns a blank wall to the pavement for about forty metres.'),
+              ('What I think now is that it is the best building on that '
+               'street and that I would be sorry to see it go. The exterior '
+               'has not improved and I would not defend it on its own terms.'),
+              ('What changed my view was learning what the inside is for, '
+               'which I had used for three years without once asking. The '
+               'blank wall is blank because the hall behind it seats four '
+               'hundred people and was designed, in 1968, for a lecture to be '
+               'audible without amplification, which is why the section is the '
+               'shape it is and why there are no windows on that side. Once '
+               'somebody had told me that, I could hear it: the room is '
+               'extraordinarily quiet and you can speak from the floor without '
+               'raising your voice. What I had been judging was the elevation, '
+               'and what the building was solving was acoustics, and the '
+               'elevation is the price it paid. I am still not sure the trade '
+               'was right, and I am sure that I was not in a position to have '
+               'an opinion about it, which is the part that has stayed with '
+               'me.')],
     intro=('Short answers, then the long turn. The explanation bullet is '
            'where the band is decided.'),
     cue=('Describe something you changed your mind about.',
@@ -1164,6 +1188,31 @@ UNIT = dict(
            'So the kind of disagreement becomes visible.')])],
    speak=dict(
     part='Part 3', focus='Taste and argument',
+    followup=[(('You changed your mind when you learned what the building was '
+                'for. Can people argue usefully about taste?'),
+               ('About judgement, yes; about response, no. Nobody can be '
+                'argued into enjoying a thing, and anybody can be shown what a '
+                'work is doing, which is what changed my view. The two are '
+                'regularly confused, and the confusion is why the argument '
+                'feels futile.')),
+              (('Is there a difference between liking something and thinking '
+                'it good?'),
+               ('A clear one, and most people hold both positions at once '
+                'without difficulty. I can think a novel accomplished and '
+                'never want to read it again, and I can be fond of something I '
+                'would not defend. Collapsing them is what makes criticism '
+                'look like a claim about what you should enjoy.')),
+              ('Should a critic always give reasons for a verdict?',
+               ('That is the whole job. A verdict without reasons is a report '
+                'of a preference, which is useful only if you already share '
+                'it. Reasons can be examined, which means a critic can be '
+                'shown to be wrong, and that possibility is what makes the '
+                'judgement worth anything.')),
+              ('Do reasons ever change what people like?',
+               ('Occasionally and indirectly, by changing what they notice. '
+                'Nobody is argued into pleasure, and attention is teachable, '
+                'and once you can hear the thing somebody has pointed out, the '
+                'response often follows without being asked to.'))],
     intro=('Five or six sentences. Try once to say that two people can '
            'agree about a thing and disagree about its value.'),
     qs=['Can people argue usefully about taste?',
@@ -1521,6 +1570,19 @@ UNIT = dict(
            'Because it is true and costs her every argument.')])],
    speak=dict(
     part='Part 3', focus='Reasons in matters of taste',
+    sounds=[('Aesthetic vocabulary is where candidates most often guess the '
+             'stress: AESthetic takes it on the second syllable, CRItical on '
+             'the first, acCOMplished on the second, inTEGrity on the second.'),
+            ('Decide now how you say each of these four and never hesitate '
+             'before them, because hesitation in front of a judgement word '
+             'undermines the judgement.'),
+            ('The distinction this unit turns on lives in stress: I LIKE it is '
+             'a report, I think it is GOOD is a claim, and said flatly the two '
+             'sound identical.'),
+            ('Practise the concession shape at full range: it is accomplished, '
+             'high and open, and I would not read it again, falling.'),
+            ('Record yourself on whether critics should give reasons. Listen '
+             'for a judgement you delivered with an uncertain contour.')],
     intro=('The hardest turn in the unit. Try once to say that something '
            'can be real and unwritable.'),
     qs=['Can people give reasons for what they find beautiful?',

@@ -453,6 +453,26 @@ UNIT = dict(
            'where it is.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Art in public places',
+    longturn=[('The work of art I want to describe is a steel sculpture of a '
+               'wave standing on a roundabout at the edge of my home town, '
+               'about four metres high.'),
+              ('It was put there about twelve years ago, when the road was '
+               'rebuilt, and it is the first thing you see arriving from the '
+               'south.'),
+              ('It is not a realistic wave. It is a single curved sheet of '
+               'rusted steel, open at the top, and it changes completely '
+               'depending on which way you drive past it, which I think is '
+               'deliberate. From one side it is a wave; from the other it '
+               'looks like the hull of a boat.'),
+              ('What people think of it has changed, and that is the '
+               'interesting part. When it went up there was a long argument in '
+               'the local paper about the cost, and a petition, and somebody '
+               'wrote that it looked like a scrap of metal from a skip. Nobody '
+               'mentions it now except to give directions by it. Whether it '
+               'belongs there, I think yes, and not because it is good, '
+               'although I like it. It belongs because the town has absorbed '
+               'it. It has become the place where you turn left, and I suspect '
+               'that is the most any public sculpture can hope for.')],
     intro=('Short answers, then the long turn. Describe the thing before '
            'you judge it.'),
     cue=('Describe a work of art in a public place that you know.',
@@ -1247,6 +1267,21 @@ UNIT = dict(
            'about.')])],
    speak=dict(
     part='Part 3', focus='Who decides what is good',
+    sounds=[('Word boundaries move in speech, and a listener re-divides what '
+             'you say: an aim and a name are the same sounds, and so are ice '
+             'cream and I scream. Only rhythm separates them.'),
+            ('This is why the pause matters more than the consonant. Say a '
+             'design, then a design that works, keeping the a short and '
+             'joining it to design, and the boundary stays where you want it.'),
+            ('Practise the phrases of this unit: a public building, an urban '
+             'space, a judgement about art. Each one has a join that decides '
+             'whether the article is heard at all.'),
+            ('Where a word ends in t or d and the next begins with y, the '
+             'sounds merge: would you becomes wouldja, what you becomes '
+             'whatcha. That is normal speech, not slang.'),
+            ('Record yourself on who should decide what public buildings look '
+             'like. Find one place where two words ran together into a third '
+             'thing, and say that phrase again more slowly.')],
     intro=('Five sentences. Try once to say that two kinds of evidence '
            'both fall short.'),
     qs=['Who should decide what public buildings look like?',

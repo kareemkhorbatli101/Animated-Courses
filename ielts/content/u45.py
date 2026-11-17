@@ -505,6 +505,32 @@ UNIT = dict(
            'Which lost margins at four times their rate over six years.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Protection',
+    longturn=[('The place I think should be protected is an area of raised bog '
+               'about forty minutes from where I live, roughly six square '
+               'kilometres of it.'),
+              ('It is not attractive in any conventional sense. It is flat, '
+               'wet, treeless and brown for most of the year, the ground moves '
+               'under you, and there is nothing to look at from a distance. '
+               'Close up there are plants that grow nowhere else in the region '
+               'and insects that depend entirely on them, and the peat '
+               'underneath is several metres deep and about nine thousand '
+               'years old.'),
+              ('What threatens it is drainage rather than development, which '
+               'is why nobody notices. The land around it is farmed, the '
+               'ditches at the edge have been deepened twice in forty years, '
+               'and each deepening dries the margin a little further in. '
+               'Nobody has ever proposed building on it, and no planning '
+               'decision has ever been taken about it.'),
+              ('Why I think it is worth protecting rests on two arguments, and '
+               'the one I find more persuasive is the less popular one. The '
+               'first is the usual one about species, and it is true: several '
+               'of them have nowhere else to go. The second is that the bog is '
+               'a record. The peat holds pollen in layers, which is a '
+               'continuous account of what grew in that valley since the last '
+               'ice, and it cannot be reconstructed once it has oxidised. '
+               'Drain it and we do not lose a view; we lose the only copy of '
+               'something, and nobody will be able to tell what the question '
+               'was that we could no longer answer.')],
     intro=('Short answers, then the long turn. The explanation bullet is '
            'where the band is decided.'),
     cue=('Describe somewhere you think should be protected.',
@@ -1105,6 +1131,32 @@ UNIT = dict(
            'So that a proposal recording its cost can be improved.')])],
    speak=dict(
     part='Part 3', focus='Choosing what to save',
+    followup=[(('You say the famous species take the money. How should '
+                'organisations decide what to protect?'),
+               ('By something closer to triage than to popularity: how '
+                'distinct the species is, how likely it is to be lost, and '
+                'what the chance of success is. That produces a list almost '
+                'nobody would donate to, which is the real constraint, and it '
+                'is why public funding has to do the part that charity cannot.')),
+              ('Is it ever right to let a species disappear?',
+               ('It is already happening by default, and the choice is whether '
+                'to make it deliberately. Where saving one would consume the '
+                'budget for twenty, refusing to decide is itself a decision, '
+                'taken badly. I would rather it were taken explicitly, '
+                'published, and argued about.')),
+              ('Should famous animals receive most of the funding?',
+               ('They should receive some, because they raise money that funds '
+                'other things, and that is a better argument than the one '
+                'usually made for them. What I object to is pretending the '
+                'allocation is biological when it is a marketing decision, '
+                'because then nobody can audit what the flagship actually '
+                'brought in.')),
+              ('Who should make these decisions?',
+               ('A body that includes the scientists, the funders and the '
+                'people who live where the work happens, with the reasoning '
+                'published. The scientists cannot be left alone with it, '
+                'because the trade-offs are not scientific, and the funders '
+                'cannot, because they are answering to donors.'))],
     intro=('Five or six sentences. Try once to describe a choice in which '
            'both options are things you want.'),
     qs=['How should conservation organisations decide what to protect?',
@@ -1429,6 +1481,20 @@ UNIT = dict(
            'Harder to measure and politically survivable.')])],
    speak=dict(
     part='Part 3', focus='Conservation and the people nearby',
+    sounds=[('Latin and Greek technical names are regular once you know where '
+             'the stress goes, and most candidates put it too early: '
+             'biodiVERsity, ecoSYStem services, enDEmic, hyDROlogy.'),
+            ('Say three species or habitat words from this unit inside a full '
+             'clause. Alone they are vocabulary; in a clause they are speech.'),
+            ('The phrase worth protecting has its stress on protecting, and '
+             'the whole phrase is one unit. Stressing worth turns a judgement '
+             'into an argument about value.'),
+            ('Where a long name is unavoidable, slow the clause and not the '
+             'word. The word should run at speed and the pause belongs before '
+             'it.'),
+            ('Record yourself describing somewhere that should be protected. '
+             'Count the technical words you avoided, and practise two of them '
+             'for next time.')],
     intro=('The hardest turn in the unit. Try once to say that an '
            'instrument is being used against the wrong problem.'),
     qs=['Are protected areas the best way to conserve wildlife?',

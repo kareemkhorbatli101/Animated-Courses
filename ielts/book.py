@@ -284,6 +284,26 @@ def render_cycle(d, U, c, ci, key, nq=1):
          'speaking')
     d.items(sp['qs'])
     d.figure(*F.answer_shape(sp['shape']))
+    # The three parts of the speaking strand. One unit carries one long-turn
+    # model, one Part 3 exchange and one sounds page, so these fire on the
+    # cycle that holds them and are silent on the other four.
+    if sp.get('longturn'):
+        d.h3('The long turn, modelled  \u00b7  %d words, about two minutes'
+             % sum(len(x.split()) for x in sp['longturn']), D_TEAL)
+        d.body_p('Read it aloud once against the clock. Then cover it, '
+                 'start again from the cue card, and keep going until the '
+                 'two minutes are up. The point is not to memorise this '
+                 'answer; it is to hear how long two minutes actually is.',
+                 i=True)
+        for ln in sp['longturn']:
+            d.body_p(ln)
+    if sp.get('followup'):
+        d.h3('Part 3  \u00b7  the follow-up, and an answer that earns the '
+             'next one', D_TEAL)
+        d.script([t for q, a in sp['followup']
+                  for t in (('Examiner', q), ('Candidate', a))])
+    if sp.get('sounds'):
+        d.skillbox('Pronunciation and fluency', sp['sounds'], 'speaking')
     d.page_break_section()
 
     # ---- writing ----------------------------------------------------------

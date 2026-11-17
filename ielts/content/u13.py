@@ -435,6 +435,27 @@ UNIT = dict(
            'Rather than complaining about each other.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Rules',
+    longturn=[('The rule I think should be changed is the one at my old '
+               'university that an assignment submitted one minute late lost '
+               'ten per cent, and after twenty-four hours scored nothing at '
+               'all.'),
+              ('It applied to every undergraduate in every department, with no '
+               'distinction between a two-page exercise and a dissertation, '
+               'and the only way round it was a medical note.'),
+              ('I understand why it existed. Deadlines are fair only if they '
+               'are the same for everybody, and a tutor who gives one student '
+               'an extra day is marking a different piece of work. Before the '
+               'rule, extensions were given informally, which meant they were '
+               'given to the confident students who asked.'),
+              ('What I would change is the cliff edge rather than the '
+               'deadline. I would keep the deadline, keep it absolute, and '
+               'replace the penalty with something that falls gradually: two '
+               'per cent an hour for the first day, say. That keeps the '
+               'fairness, because the rule still applies to everybody equally, '
+               'but it stops a printer failure at midnight costing somebody a '
+               'grade. I would also publish the number of late submissions '
+               'each term, because my suspicion is that the rule\'s real effect '
+               'was on what students handed in, not on when.')],
     intro=('Short answers first, then the long turn. The last bullet is '
            'where the band is decided.'),
     cue=('Describe a rule you think should be changed.',
@@ -1227,6 +1248,20 @@ UNIT = dict(
            'Because he cannot calibrate on endings he never learns.')])],
    speak=dict(
     part='Part 3', focus='What a sentence is for',
+    sounds=[('Vowel length changes meaning, and the pairs that matter most are '
+             'bit and beat, full and fool, pull and pool, and live and leave. '
+             'Shorten the long one and a listener hears the other word.'),
+            ('The short vowel is not just shorter; the tongue is in a '
+             'different place. For bit the mouth is relaxed; for beat it is '
+             'tense and spread, almost a smile.'),
+            ('The crime vocabulary in this unit depends on it: a sentence, to '
+             'seize, a fine, a finding. Say each one in a phrase and hold the '
+             'long vowels slightly longer than feels natural.'),
+            ('Try these three sentences: he will leave on Friday; he will live '
+             'on Friday; the fine is the fine point. Say them to somebody and '
+             'ask which word they heard.'),
+            ('Record yourself on how safe your area is. Listen only for long '
+             'vowels, and note any word that came out shorter than you meant.')],
     intro=('Five sentences. Try once to say that two aims pull against '
            'each other.'),
     qs=['What should a prison sentence achieve?',

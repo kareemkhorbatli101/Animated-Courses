@@ -429,6 +429,24 @@ UNIT = dict(
            'Which he admits is an accurate description.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Keeping in touch',
+    longturn=[('The person I keep in touch with at a distance is a friend from '
+               'school called Daniel, who I have known since we were eleven.'),
+              ('He lives in Canada now. He moved there for work six years ago '
+               'and has stayed, and the time difference is eight hours, which '
+               'matters more than the distance.'),
+              ('We keep in touch mainly by voice messages. We do not call, and '
+               'we almost never write. One of us records two or three minutes '
+               'while walking somewhere, and the other one replies a day or '
+               'two later. It is not a conversation exactly, but it adds up to '
+               'one.'),
+              ('The reason we do it that way is the time difference. When we '
+               'tried calling, one of us was always tired, and we spent the '
+               'first ten minutes apologising for not having called sooner. '
+               'With messages nobody is waiting, so nobody is late. And you '
+               'say different things when nobody is going to interrupt you, so '
+               'I probably know more about his life now than I did when we '
+               'lived in the same town. It is the only form of keeping in '
+               'touch I have that has lasted.')],
     intro=('Short answers, then the long turn. Say how often, and then '
            'how.'),
     cue=('Describe somebody you keep in touch with at a distance.',
@@ -1198,6 +1216,23 @@ UNIT = dict(
            'Because the study is expensive and unglamorous.')])],
    speak=dict(
     part='Part 3', focus='Language and the way people see things',
+    sounds=[('English allows consonant clusters that many languages do not, '
+             'and the ends of words are where they cluster: texts, strengths, '
+             'asked, worlds. Dropping the middle sound is normal in fast '
+             'speech; adding a vowel is not.'),
+            ('Practise the clusters in the words you need: translation, '
+             'considerable, infrastructure, distances. Say the word slowly '
+             'once, then at speed, and keep the cluster rather than inserting '
+             'a vowel inside it.'),
+            ('Where a cluster meets another consonant, the middle sound often '
+             'goes: asked me usually sounds like askt me. That is not '
+             'laziness; it is what a native listener expects.'),
+            ('Take three words from this unit that you avoid because they are '
+             'awkward. Say each one five times inside a phrase, not alone, '
+             'because the phrase is how you will have to produce it.'),
+            ('Record yourself on how you keep in touch with somebody far away. '
+             'Find a word you simplified into something else, and say that '
+             'sentence again.')],
     intro=('Four or five sentences. Separate a strong claim from a '
            'weak one.'),
     qs=['Does the language you speak change how you think?',

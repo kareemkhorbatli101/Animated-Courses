@@ -375,6 +375,25 @@ UNIT = dict(
            'Through charges on coaches and day parking.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Visiting',
+    longturn=[('The place I want to describe is a small fishing town on the '
+               'coast, about two hours from the city where I live, that is now '
+               'almost entirely a tourist town.'),
+              ('Before, it was quiet for most of the year. There were four or '
+               'five boats working, two shops, one cafe that closed at five, '
+               'and the harbour was full of equipment rather than people.'),
+              ('What changed was a television programme. The town was used as '
+               'a location, and within about three years the number of '
+               'visitors in summer had doubled. There are now eleven places to '
+               'eat, a car park where the net sheds were, and in August you '
+               'cannot walk along the harbour wall.'),
+              ('Whether that was good or bad depends entirely on who you ask, '
+               'and I think the honest answer is both. The town has money it '
+               'did not have, and young people can find work there without '
+               'leaving, which was not true before. But the houses have been '
+               'bought as holiday homes, so the people who serve the visitors '
+               'drive in from somewhere else, and the school has half the '
+               'children it used to have. So the town is busier and emptier at '
+               'the same time.')],
     intro=('Short answers, then the long turn. Describe the place '
            'before and after.'),
     cue=('Describe a place that was changed by visitors.',
@@ -1131,6 +1150,22 @@ UNIT = dict(
            'Including her own town, she says.')])],
    speak=dict(
     part='Part 3', focus='Rules that change behaviour',
+    sounds=[('Contrastive stress puts the strong syllable on the word that '
+             'carries the difference: I did not say the tax was unfair, I said '
+             'it was badly designed. Move the stress and the sentence means '
+             'something else.'),
+            ('This is the single most useful thing in Part 3, because most of '
+             'your answers are comparisons. Practise: it helps the town, but '
+             'it does not help the people who live in it.'),
+            ('Mark the contrast word in three of your own Part 3 sentences, '
+             'then say each one twice, stressing the wrong word first. Hearing '
+             'the wrong version is what fixes the right one.'),
+            ('Do not add volume. Contrastive stress is mostly a change in '
+             'pitch and length, and shouting the word makes you sound annoyed '
+             'rather than precise.'),
+            ('Record yourself answering whether visitors should pay to enter '
+             'popular places. Listen for one sentence where the stress landed '
+             'on the wrong word, and say that sentence again.')],
     intro=('Four or five sentences. Compare forbidding with pricing.'),
     qs=['Do rules or prices change behaviour more effectively?',
         'Should visitors pay a tax to enter popular places?',

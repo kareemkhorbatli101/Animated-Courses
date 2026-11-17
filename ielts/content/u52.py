@@ -538,6 +538,33 @@ UNIT = dict(
            'Because the present order reads as a complaint.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Prediction',
+    longturn=[('The prediction I want to talk about is that my city\'s new tram '
+               'line would carry about fourteen million passengers a year '
+               'within three years of opening.'),
+              ('It was made in the business case put to central government by '
+               'the transport authority, and the modelling behind it was done '
+               'by consultants whose report was published, to their credit, in '
+               'full.'),
+              ('What actually happened is that it carried about eight and a '
+               'half million in its third year, and reached eleven million in '
+               'its seventh, by which time the line had been extended and the '
+               'comparison had stopped being the same comparison.'),
+              ('Whether it was a bad prediction is the question I find '
+               'genuinely difficult, and my answer has moved over the years. '
+               'It was badly wrong by about forty per cent, and if that is the '
+               'test, it fails. But reading the report, the modelling is '
+               'competent and the assumptions are stated, and two of them '
+               'turned out to be wrong for reasons that had nothing to do with '
+               'trams: the office development at one end was built eight years '
+               'late, and the bus network that was supposed to feed the line '
+               'was reorganised by a company the authority did not control. A '
+               'prediction conditional on those two things was accurate about '
+               'the trams and wrong about the city. So what I would say is '
+               'that it was an honest forecast and a bad number, and that the '
+               'real failure was presenting it as a single figure in a '
+               'business case, because a range with the two assumptions '
+               'attached would have been just as useful to the decision and '
+               'far harder to quote back twenty years later.')],
     intro=('Short answers, then the long turn. The last bullet decides the '
            'band.'),
     cue=('Describe a prediction that turned out to be wrong.',
@@ -1172,6 +1199,30 @@ UNIT = dict(
            'Which is the question almost nobody asks.')])],
    speak=dict(
     part='Part 3', focus='Agreement and truth',
+    followup=[(('You say agreement is not proof. Why do people find agreement '
+                'convincing?'),
+               ('Because independent agreement genuinely is evidence, and we '
+                'are poor at telling independence from imitation. Twenty '
+                'experts who read each other\'s drafts are one opinion with '
+                'twenty signatures, and from outside that looks exactly like '
+                'twenty confirmations.')),
+              (('How could you tell whether experts reached a view '
+                'independently?'),
+               ('By asking what each one would have concluded alone: which '
+                'data they used, whether any of them has ever disagreed with '
+                'the others, and whether the estimates cluster more tightly '
+                'than the uncertainty in any single one. Suspiciously close '
+                'agreement is itself a signal.')),
+              ('Is disagreement among experts a bad sign?',
+               ('It is a bad sign for the state of the evidence and a good '
+                'sign about the process. A field with no visible disagreement '
+                'is either settled or not talking, and the second is more '
+                'common than the first in anything policy-relevant.')),
+              ('So what should a committee publish?',
+               ('The range, the assumptions that generate it, and the names of '
+                'whoever dissented and why. A single consensus number is more '
+                'usable and less honest, and it is also what gets quoted back '
+                'when the forecast misses.'))],
     intro=('Five or six sentences. Try once to say why agreement can be '
            'weak evidence.'),
     qs=['If experts agree, does that make them right?',
@@ -1524,6 +1575,20 @@ UNIT = dict(
            'one.')])],
    speak=dict(
     part='Part 3', focus='Reporting what you do not know',
+    sounds=[('Statistical vocabulary at this level is long and regular: '
+             'calibRAtion on the third, enSEMble on the second, senSItivity on '
+             'the third, assUMPtion on the second.'),
+            ('Say each one inside a clause from this unit. The purpose is not '
+             'the word; it is being able to produce the clause without slowing '
+             'for it.'),
+            ('The phrase within the stated range is a single chunk with the '
+             'stress on stated, because that is the word doing the work.'),
+            ('Numbers in a forecast take the stress and the nouns around them '
+             'do not: it predicted FOURteen million and carried EIGHT and a '
+             'half.'),
+            ('Record yourself on whether agreement makes experts right. Find '
+             'the technical term you hesitated before, and drill the clause '
+             'rather than the word.')],
     intro=('The hardest turn in the unit. Try once to describe an '
            'uncertainty that is not in the range.'),
     qs=['How should uncertainty be communicated to the public?',

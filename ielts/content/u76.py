@@ -321,6 +321,25 @@ UNIT = dict(
            'And tells them to include both.')])],
    speak=dict(
     part='Part 2', focus='A holiday you remember',
+    longturn=[('I am going to talk about a holiday I remember well. I spent a '
+               'week on a small island with my brother.'),
+              ('We went in late May, which was before the season started, and '
+               'we chose it because it was cheap and because neither of us had '
+               'been. The island is about two hours by boat from the mainland '
+               'and about six kilometres long.'),
+              ('What we did was very little, and that was the point. We walked '
+               'round the whole island on the second day, which took five '
+               'hours. We swam, although the water was still cold. We ate in '
+               'the same place almost every evening, because there were only '
+               'three, and by the fourth night the owner had stopped giving us '
+               'a menu.'),
+              ('I remember it because of what was absent. There was one shop, '
+               'no cars that we saw, and the internet worked for about '
+               'an hour a day in the harbour. For six days neither of '
+               'us could do anything about anything at home, and after '
+               'the second day we stopped trying. I have had holidays '
+               'with more to see. I have never again had a week in '
+               'which I did not think about work once.')],
     intro='One minute, four lines. One holiday, and make the fourth '
           'bullet count.',
     qs=['Describe a holiday you remember well.',
@@ -939,6 +958,17 @@ UNIT = dict(
            'Which the speaker admits is dull.')])],
    speak=dict(
     part='Part 3', focus='Travel and the environment',
+    sounds=[('Join a final consonant to a following vowel. An island sounds '
+             'like a nisland, and for an hour has no gaps in it.'),
+            ('Say these together with no breaks: on an island, in late May, '
+             'about an hour, out of season.'),
+            ('Holiday words put the stress at the front: HARbour, HOliday, '
+             'Island, where the s is silent. Arrive and depart take the second '
+             'part.'),
+            ('Practise one sentence: we walked round the whole island in five '
+             'hours.'),
+            ('Record yourself describing a holiday. Listen for a place where '
+             'you left a gap between two words that should join.')],
     intro='Use a figure if you can, then say what you would actually '
           'do.',
     qs=['Should people fly less?',

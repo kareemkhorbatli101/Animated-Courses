@@ -360,6 +360,24 @@ UNIT = dict(
            'The members who last come for the coffee afterwards.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Nature nearby',
+    longturn=[('The natural place I want to describe is a stretch of river '
+               'about twenty minutes from where I grew up, with woods on one '
+               'side and fields on the other.'),
+              ('I go there four or five times a year now, usually when I am '
+               'visiting my parents, although when I was younger I went almost '
+               'every week.'),
+              ('It is not spectacular. The river is shallow and brown, there '
+               'is a path along one bank, and in summer the whole thing almost '
+               'disappears under the trees. In spring there are birds in the '
+               'reeds that you hear long before you see them, and in winter '
+               'you can see the shape of the valley properly.'),
+              ('It matters to me for two reasons. The first is simply that I '
+               'know it. I know where the path floods and which tree came down '
+               'in a storm ten years ago, and nowhere else do I know that kind '
+               'of detail. The second reason is that it has survived. There '
+               'was a plan to build on the fields, and the people who lived '
+               'there argued about it for two years and won. So when I go now '
+               'I am looking at something that could easily not be there.')],
     intro=('Short answers, then the long turn. Describe the place '
            'before you say why it matters to you.'),
     cue=('Describe a natural place you care about.',
@@ -1121,6 +1139,23 @@ UNIT = dict(
            'about.')])],
    speak=dict(
     part='Part 3', focus='Conservation and the people who live there',
+    sounds=[('Speech comes in chunks of about four to seven words, and you '
+             'pause between chunks, not inside them. In protected areas near '
+             'the coast is one chunk and takes one breath.'),
+            ('A pause in the wrong place costs more than a pause. Compare the '
+             'river, which floods every spring, is shallow with the river '
+             'which floods every spring is shallow said in one piece; the '
+             'first is clear and the second is a guess.'),
+            ('Mark one of your longer answers with a single slash where you '
+             'intend to breathe. Aim for a slash every five or six words, and '
+             'never one between an adjective and its noun.'),
+            ('Filled pauses are not a disaster if they fall at a chunk '
+             'boundary. Er between chunks is normal speech; er in the middle '
+             'of a noun phrase sounds like a word you cannot find.'),
+            ('Record yourself describing your natural place for ninety '
+             'seconds. Count your pauses, then count how many were at a '
+             'boundary you had marked. The second number is the one to '
+             'improve.')],
     intro=('Four or five sentences. Say who has to agree for something '
            'to work.'),
     qs=['Should people be allowed to live and farm inside protected '

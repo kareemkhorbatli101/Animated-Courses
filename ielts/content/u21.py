@@ -476,6 +476,31 @@ UNIT = dict(
            'report.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Choices',
+    longturn=[('The decision I want to talk about is leaving a science course '
+               'after one year and changing to economics, which at the time I '
+               'thought of as giving up.'),
+              ('I made it in the summer after my first year, which is the '
+               'latest you could change without starting again, so the '
+               'decision had a deadline attached to it and I spent most of '
+               'August on it.'),
+              ('Several people helped, and they helped in different ways. My '
+               'tutor was the most useful because she was the least '
+               'encouraging. She asked me what I had actually enjoyed that '
+               'year, and when I could only name the statistics module, she '
+               'pointed out that I had answered the question. My parents were '
+               'supportive in a way that was no help at all, because they '
+               'would have agreed with anything. The person who tipped it was '
+               'a friend two years ahead of me who had made the same change '
+               'and told me honestly what she had lost by it.'),
+              ('Whether it was right, I would say yes, with one reservation. I '
+               'have a job I would not have got from the other degree, and I '
+               'found the subject genuinely interesting rather than merely '
+               'manageable, which I had not expected. The reservation is that '
+               'I lost a year\'s laboratory work and I have never got it back, '
+               'and there are still moments reading a scientific paper when I '
+               'can see that I am reading it from outside. I would make the '
+               'same decision again, but I would stop describing it as giving '
+               'something up.')],
     intro=('Short answers first, then the long turn. Four bullets in order, '
            'roughly equal weight, developed one at a time.'),
     cue=('Describe a decision you made about your education.',
@@ -991,6 +1016,29 @@ UNIT = dict(
            'And he says the data does not separate them.')])],
    speak=dict(
     part='Part 3', focus='When inequality begins',
+    followup=[(('You say the gap is already there when children start school. '
+                'Does that mean a school cannot change anything?'),
+               ('No, and I would not want that conclusion drawn, because it '
+                'becomes an excuse. What the evidence suggests is that schools '
+                'work on a gap they did not create, and that a good school '
+                'narrows it rather than closing it. That is a real achievement '
+                'and it is also a much smaller claim than the one politicians '
+                'tend to make.')),
+              ('So should the money move from schools to the early years?',
+               ('Some of it, and I would be careful about how much. The return '
+                'on early spending does look higher, but early programmes are '
+                'harder to run well and the good results come from the good '
+                'ones. Moving money to a badly run scheme would be worse than '
+                'leaving it where it is, so I would increase early spending '
+                'without cutting schools, and accept that this costs more.')),
+              ('Whose responsibility is a child\'s early learning, then?',
+               ('Primarily the family\'s, which is why I am uneasy about the '
+                'question, because it is usually asked in order to stop there. '
+                'A parent working two jobs is not failing to read to a child '
+                'out of indifference. So the honest answer is that the '
+                'responsibility is the family\'s and the conditions are the '
+                'government\'s, and the second is the part policy can actually '
+                'reach.'))],
     intro=('Four or five sentences. Try to separate a cause from a predictor '
            'once.'),
     qs=['Why do some children do better at school than others?',
@@ -1257,6 +1305,22 @@ UNIT = dict(
            'A programme can be as good as ever and measure half as large.')])],
    speak=dict(
     part='Part 3', focus='What schools can and cannot fix',
+    sounds=[('In a long answer the strong stress lands once a sentence, on the '
+             'word carrying the point. Candidates who stress every content '
+             'word sound emphatic for ten seconds and exhausting for two '
+             'minutes.'),
+            ('Repeated content goes quiet. In a good school narrows the gap, '
+             'but a good school did not create the gap, the second gap is '
+             'almost inaudible, and making it strong tells the examiner you '
+             'are reading.'),
+            ('Take one of your Part 3 answers and mark one word a sentence. '
+             'Say it with only those words strong and everything else levelled '
+             'down.'),
+            ('The de-stressed words are not mumbled. They keep their sounds '
+             'and lose their length, which is a different operation and takes '
+             'practice to separate.'),
+            ('Record ninety seconds on when inequality begins. Count the words '
+             'you stressed; at this level one in six or seven is about right.')],
     intro=('The hardest turn in the unit. Say once what would change your '
            'mind.'),
     qs=['Can schools make up for differences at home?',

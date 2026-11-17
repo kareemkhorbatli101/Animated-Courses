@@ -373,6 +373,26 @@ UNIT = dict(
            'number', 'Which defeated the purpose of the rule.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Being online',
+    longturn=[('The thing I do to stay safe online is use a password manager, '
+               'which means every account I have got has a different password '
+               'and I know none of them.'),
+              ('I started about four years ago, after a website I had used was '
+               'broken into and I got an email telling me to change my '
+               'password everywhere.'),
+              ('It was difficult for the first fortnight and then it became '
+               'easier than what I was doing before. The hard part was the '
+               'beginning: I had to go through every account I could remember, '
+               'change the password, and save the new one. It took me two '
+               'evenings and I am sure I missed some.'),
+              ('I do it because of what the alternative actually means. '
+               'Before, I had three passwords that I used everywhere with '
+               'small changes, which means one broken website would have given '
+               'somebody access to my email, and from my email they could have '
+               'reset everything else. I had never thought about it in that '
+               'order until it nearly happened. Now the worst case is one '
+               'account, and I can see which one. It is not perfect security, '
+               'but it is the single thing that made the biggest difference '
+               'for the least effort.')],
     intro=('Short answers, then the long turn. Say what you do, and '
            'then why.'),
     cue=('Describe something you do to stay safe online.',
@@ -1135,6 +1155,23 @@ UNIT = dict(
            'But that they would have to defend it in public.')])],
    speak=dict(
     part='Part 3', focus='Judging what you are shown',
+    sounds=[('A list rises on every item and falls on the last: a phone, a '
+             'laptop, and a pair of headphones. The fall is how the examiner '
+             'knows you have finished, and candidates who rise at the end are '
+             'asked the next question too early.'),
+            ('A statement falls; a real question rises. But a statement said '
+             'with a rise sounds like you are asking the examiner whether your '
+             'own opinion is acceptable, which costs you more than any grammar '
+             'error.'),
+            ('Practise the fall on three short sentences from your own '
+             'answers. Put your hand flat and move it down on the last '
+             'stressed syllable, because the gesture makes the pitch follow.'),
+            ('Use a rise deliberately when you are not finished: I use it for '
+             'two things, rising on things, then carry on. That is how you buy '
+             'yourself the time without a filler.'),
+            ('Record one answer and listen only to the last word of each '
+             'sentence. Decide for each one whether you meant it to go up or '
+             'down.')],
     intro=('Four or five sentences. Separate two things people run '
            'together.'),
     qs=['Should companies have to explain how their systems work?',

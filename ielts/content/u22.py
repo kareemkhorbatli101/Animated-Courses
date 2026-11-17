@@ -481,6 +481,29 @@ UNIT = dict(
            'is informative.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Change at work',
+    longturn=[('The thing I had to learn was a new system for logging hospital '
+               'appointments, which replaced one that had been in use for '
+               'eleven years.'),
+              ('I had to learn it because the old system was being switched '
+               'off on a fixed date, and I was one of four people in the '
+               'department expected to be able to use the new one from the '
+               'morning it started.'),
+              ('The way I went about it was not the way I was told to. There '
+               'was a two-day course, which covered everything and taught me '
+               'almost nothing, because I could not tell which parts I would '
+               'need. So after the course I asked a colleague for the twenty '
+               'things she did most often, wrote them down in order, and '
+               'practised only those until I could do them without the notes. '
+               'Everything else I learned when I needed it, by looking it up '
+               'with a patient waiting, which is not ideal but is how it '
+               'actually happened.'),
+              ('Once I could do it, I felt relieved rather than pleased, and '
+               'then slightly annoyed. Relieved because the first fortnight '
+               'had been genuinely stressful. Annoyed because I realised the '
+               'new system was better, and I had spent two months explaining '
+               'to colleagues why the change was unnecessary. I have been more '
+               'careful since about the difference between a change being '
+               'badly introduced and a change being wrong.')],
     intro=('Short answers, then the long turn. One occasion told properly is '
            'worth more than three mentioned.'),
     cue=('Describe a time you had to learn something new for work or study.',
@@ -1018,6 +1041,28 @@ UNIT = dict(
            'Because the evidence differs for each.')])],
    speak=dict(
     part='Part 3', focus='Predicting the effect of a technology',
+    followup=[(('You say we cannot predict which jobs go. Does history not '
+                'tell us anything?'),
+               ('It tells us the shape and not the detail. Every previous wave '
+                'removed tasks rather than occupations, and employment '
+                'recovered while particular trades did not, so the aggregate '
+                'reassurance is probably sound. What history does not tell us '
+                'is who, or where, or how long the gap lasts, and those are '
+                'the only things a person losing a job needs to know.')),
+              ('Then who should help the workers whose jobs disappear?',
+               ('The people who capture the gain, which in practice means the '
+                'firm and the state together. The efficiency saving is real '
+                'and it is collected in one place while the cost is spread '
+                'across a town, so I would fund retraining out of that gain '
+                'rather than out of general taxation, because otherwise the '
+                'losers are asked to pay for their own displacement.')),
+              ('Is change at work actually faster now than in the past?',
+               ('It feels faster, and I am not convinced it is. Measured by '
+                'how quickly occupations rise and fall, the middle of the last '
+                'century was more violent than the last twenty years. What has '
+                'changed is that the disruption now reaches people who '
+                'expected to be protected from it, and that is a different '
+                'claim from speed.'))],
     intro=('Four or five sentences. Say once whether you are talking about a '
            'total or about individuals.'),
     qs=['Can we predict which jobs a new technology will replace?',
@@ -1287,6 +1332,21 @@ UNIT = dict(
            'She says he has made it look small.')])],
    speak=dict(
     part='Part 3', focus='Who bears the cost of change',
+    sounds=[('A three-part list has its own rhythm: two items rising and the '
+             'third falling, with the pause before the third slightly longer. '
+             'Tasks, not jobs, and not whole careers.'),
+            ('Keep the grammar of the three parts parallel, because the rhythm '
+             'exposes it. Who gains, who loses, and who pays is sayable; who '
+             'gains, the people who lose out, and the question of payment is '
+             'not.'),
+            ('Practise one list from this unit\'s vocabulary until it needs no '
+             'thought, because a list is the easiest place to buy yourself '
+             'three seconds in Part 3.'),
+            ('Do not use four. The three-part rhythm is a shape a listener '
+             'recognises, and a fourth item turns it back into an ordinary '
+             'enumeration.'),
+            ('Record yourself answering who should help displaced workers. '
+             'Find your list, and check that the last item fell.')],
     intro=('The hardest turn in the unit. Try to name the unit a claim is '
            'about before you agree or disagree with it.'),
     qs=['Who should pay when an industry closes?',

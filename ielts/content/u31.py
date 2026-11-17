@@ -465,6 +465,30 @@ UNIT = dict(
            'the second paragraph, properly described.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Figures you have heard quoted',
+    longturn=[('The number I want to talk about is a claim that a quarter of '
+               'people in my country have no savings at all, which I heard '
+               'quoted in an argument about pensions.'),
+              ('I first heard it on a radio discussion, where it was used '
+               'without a source, and then saw it again a fortnight later in a '
+               'newspaper column, this time attached to the name of a bank.'),
+              ('What it was supposed to show was that people cannot be '
+               'expected to save for their own retirement, so the state must '
+               'continue to provide. That was the argument it was serving, and '
+               'I agreed with the argument, which is probably why I did not '
+               'look at the figure for a month.'),
+              ('Whether I believed it is a more interesting question now than '
+               'it was then. When I looked, the survey turned out to be real, '
+               'reasonably large and commissioned by a company that sells '
+               'savings products, and the question it had asked was whether '
+               'people had savings they could reach within a week. That is not '
+               'the same as having no savings, and it would exclude anybody '
+               'whose money is tied up in a pension or a fixed-term account. '
+               'So the figure is probably accurate and the claim built on it '
+               'is not, and I have become much more interested in the exact '
+               'wording of a question than in the percentage that follows it. '
+               'I still use the figure occasionally, with the caveat attached, '
+               'and I notice that the caveat is the part people stop listening '
+               'to.')],
     intro=('Part 1 stays at two or three sentences. Then the long turn: one to '
            'two minutes, and the card has already written your outline for '
            'you. Take the bullets in order, give them roughly equal weight, '
@@ -1073,6 +1097,27 @@ UNIT = dict(
            'He raises this to stop students taking the scepticism too far.')])],
    speak=dict(
     part='Part 3', focus='Trusting a survey',
+    followup=[(('You say you would want the response rate. Should news reports '
+                'be required to give it?'),
+               ('Required is strong, and I would accept it for one reason: the '
+                'rate is the single number that most often explains a strange '
+                'result, and it is also the easiest to leave out. A '
+                'requirement that it be stated, without any interpretation, is '
+                'a small burden and would kill a lot of nonsense before it '
+                'travels.')),
+              (('Why do you think people distrust polls more than other kinds '
+                'of research?'),
+               ('Because polls are checked in public and almost nothing else '
+                'is. An election gives everybody a verdict on the method '
+                'within a year, which no medical study has to survive, so '
+                'polling looks less reliable while being far more frequently '
+                'tested. The visibility is mistaken for weakness.')),
+              ('Can an ordinary reader judge whether a survey is sound?',
+               ('Not fully, and they can get most of the way with three '
+                'questions: who was asked, who paid, and how many refused. '
+                'None of those requires statistics, and between them they '
+                'catch the majority of the published claims that turn out not '
+                'to hold.'))],
     intro=('Keep the shape: answer, support, follow-up, support. The follow-up '
            'is where a 6.5 answer separates from a 6.0, because it is the '
            'sentence that explains instead of merely adding.'),
@@ -1370,6 +1415,20 @@ UNIT = dict(
            'margin of error has become misleading.')])],
    speak=dict(
     part='Part 3', focus='Evidence, uncertainty and decisions',
+    sounds=[('Number phrases have a fixed rhythm, and breaking it is heard as '
+             'an error even when the figure is right: a QUARter of the PEOple, '
+             'THREE in TEN, roughly a THIRD.'),
+            ('Say the figure and the thing it measures as one chunk with one '
+             'pause after it, not two chunks with a gap in the middle. A '
+             'quarter of people, pause, have no savings is clear; a quarter, '
+             'pause, of people have no savings is not.'),
+            ('Practise the comparison forms of this unit: up from, down to, '
+             'compared with, against a figure of. Each is a single unit of '
+             'sound and none takes a stress of its own.'),
+            ('The word per cent is stressed on the second half, and candidates '
+             'who stress the first sound uncertain about the number.'),
+            ('Record yourself quoting three figures from this unit\'s charts. '
+             'Listen for a pause that landed inside a number phrase.')],
     intro=('The hardest turn in the test. Four or five sentences, and at least '
            'one of them should concede something before you answer. A '
            'candidate who can give ground and still hold a position is '

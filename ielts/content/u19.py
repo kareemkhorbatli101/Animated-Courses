@@ -414,6 +414,25 @@ UNIT = dict(
            'While Tuesday and Thursday are close to it.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Journeys',
+    longturn=[('The journey I would change is my daily one to work, which goes '
+               'from the north of the city to an industrial estate on the '
+               'eastern edge of it.'),
+              ('It takes fifty-five minutes on a good day and an hour and a '
+               'half on a bad one, for a distance of about eleven kilometres.'),
+              ('I travel by two buses with a wait between them, because there '
+               'is no direct route, and the second bus runs every twenty '
+               'minutes and is not timed to meet the first.'),
+              ('What is wrong with it is almost entirely the gap in the '
+               'middle. The buses themselves are fine. I stand at a stop on a '
+               'main road with no shelter for anything between two and '
+               'nineteen minutes, and because I cannot predict it, I have to '
+               'leave as though it will always be nineteen. So the journey '
+               'costs me more time in the planning than in the travelling. '
+               'What I would change is not the route, which would cost '
+               'millions, but the timetable, which costs nothing: hold the '
+               'second bus for three minutes after the first arrives. I have '
+               'written to the company twice. The second reply explained that '
+               'the two routes are operated by different divisions.')],
     intro=('Short answers, then the long turn. Describe the journey '
            'before you say what is wrong with it.'),
     cue=('Describe a journey you would change if you could.',
@@ -1194,6 +1213,22 @@ UNIT = dict(
            'Although it kept support high.')])],
    speak=dict(
     part='Part 3', focus='Paying for road space',
+    sounds=[('English is stress-timed: the gaps between strong syllables are '
+             'roughly equal, however many quiet syllables are squeezed between '
+             'them. That is why BUS and the BUS and the BUSes take about the '
+             'same time.'),
+            ('If your first language gives every syllable equal weight, this '
+             'is the single biggest change you can make, and it has nothing to '
+             'do with speed.'),
+            ('Beat four times on the table, slowly. Fit these into the beats: '
+             'BUSes are LATE, the BUSes are often LATE, the BUSes in my CIty '
+             'are nearly always LATE. One beat a strong syllable.'),
+            ('Practise the transport phrases of this unit the same way: a '
+             'CHARGE for the CENtre, conGEStion in the MORning. Keep the beats '
+             'steady and crush everything else.'),
+            ('Record ninety seconds on your daily journey, then clap along to '
+             'your own recording. Where you cannot find the beat is where the '
+             'rhythm went flat.')],
     intro=('Five sentences. Try once to hold two true things together.'),
     qs=['Should drivers pay to enter city centres?',
         'Is such a charge fair to people on low incomes?',

@@ -515,6 +515,31 @@ UNIT = dict(
            'With the designs published alongside the programme.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Things that need looking after',
+    longturn=[('The thing that was neglected until it failed is the flat roof '
+               'over the kitchen of the house I grew up in.'),
+              ('The way it was neglected is almost a textbook case. It was '
+               'felted in about 1986 with a twenty-year material, and '
+               'everybody knew that. It was inspected twice, once in 2004 and '
+               'once in 2011, and on both occasions the roofer said it had a '
+               'few years left, which was true and was also the answer that '
+               'postponed the expense. After 2011 nobody looked at it again, '
+               'partly because the person who had arranged the previous '
+               'inspections had died.'),
+              ('What happened in the end was that it let water in during a '
+               'storm in February, not through the felt but at the junction '
+               'with the wall, and by the time anybody noticed, the water had '
+               'been running inside the cavity for several weeks. The kitchen '
+               'ceiling came down. The repair was about eleven thousand, '
+               'against perhaps two thousand for a re-felt.'),
+              ('Whether the neglect was anybody\'s fault is the part I have '
+               'changed my mind about. For a long time I thought it was '
+               'straightforwardly my family\'s, and there is something in that. '
+               'But the structure of the decision was against us at every '
+               'point. The cost of acting was certain, immediate and large; '
+               'the cost of waiting was uncertain, distant and invisible. Each '
+               'individual decision to wait was defensible, and the sum of '
+               'them was a catastrophe, and I now think that pattern is a '
+               'property of the problem rather than a failing of the people.')],
     intro=('Short answers, then the long turn. The explanation bullet '
            'should be the longest.'),
     cue=('Describe something that was neglected until it failed.',
@@ -1116,6 +1141,33 @@ UNIT = dict(
            'Which he says its supporters never mention.')])],
    speak=dict(
     part='Part 3', focus='Decisions that outlast those who make them',
+    followup=[(('You say maintenance always loses. Why do governments avoid '
+                'long-term spending?'),
+               ('Because the accounting and the politics both punish it. '
+                'Maintenance appears as current expenditure with nothing to '
+                'show, while a new building is capital and has a ribbon. '
+                'Change what gets counted as an asset and some of this '
+                'corrects itself without anybody becoming more virtuous.')),
+              ('Should decisions be reviewed over longer periods?',
+               ('Reviewed and published, which matters more. A thirty-year '
+                'review that nobody reads changes nothing; an annual statement '
+                'of the condition of the stock, in a form that cannot be '
+                'presented selectively, creates a number somebody has to '
+                'answer for.')),
+              (('Who is responsible for a problem that took twenty years to '
+                'develop?'),
+               ('Nobody, under present arrangements, and that is the problem '
+                'rather than an answer to it. Each decision to defer was '
+                'individually reasonable, so responsibility has to be '
+                'institutional: the duty should attach to the office, with a '
+                'published condition record, so the next holder inherits the '
+                'evidence.')),
+              ('Can institutions be designed to think further ahead?',
+               ('Partly, and the mechanisms that work are the boring ones: a '
+                'fixed share of budget ring-fenced, a statutory duty with an '
+                'audit, and a long-dated reporting requirement. What does not '
+                'work is exhortation, or a commission whose findings arrive '
+                'after the minister has moved on.'))],
     intro=('Five or six sentences. Try once to say that nobody acted '
            'wrongly and the outcome was still bad.'),
     qs=['Why do governments avoid long-term spending?',
@@ -1442,6 +1494,20 @@ UNIT = dict(
            'decision.')])],
    speak=dict(
     part='Part 3', focus='Rules that bind future decisions',
+    sounds=[('Infrastructure vocabulary is long, dull and front-loaded, which '
+             'is useful: MAINtenance, REsurfacing, DEpreciation on the fourth, '
+             'BACKlog on the first.'),
+            ('The two words that decide this unit are a stress pair: to deFER '
+             'and a DEferral, to negLECT and NEGlect. Noun first syllable, '
+             'verb second, as usual.'),
+            ('Practise the sentence the repair cost eleven thousand and the '
+             're-felt would have cost two with the two figures stressed and '
+             'nothing else.'),
+            ('Long nominal chains are the hazard here: the condition of the '
+             'public building stock. Say it as two chunks and the listener '
+             'keeps the sentence.'),
+            ('Record ninety seconds on paying now or paying later. Find your '
+             'longest noun phrase and break it in two.')],
     intro=('The hardest turn in the unit. Try once to say that a rule was '
            'complied with and defeated.'),
     qs=['Can a government bind its successors?',

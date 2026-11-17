@@ -330,6 +330,24 @@ UNIT = dict(
            'Which the tutor calls his best sentence.')])],
    speak=dict(
     part='Part 2', focus='A news story you remember',
+    longturn=[('I am going to talk about a news story I remember well. A large '
+               'factory near my town announced that it would close.'),
+              ('What happened is that the company told about nine hundred '
+               'workers, on a Tuesday morning, that production would move to '
+               'another country within eighteen months. The announcement was '
+               'made to the workers and to the news on the same day.'),
+              ('I heard about it from a friend who sent me a message, and then '
+               'I watched it on the regional news that evening. For the next '
+               'two weeks it was on the front of the local paper every day.'),
+              ('I remember it for two reasons. The first is that I knew people '
+               'in it. My uncle had worked there for nineteen years, and so '
+               'had most of the men in his street, and the question at every '
+               'family meal for a year was what would happen to them. The '
+               'second reason is what I learned about reporting. The national '
+               'news covered it for two days. The local paper covered it for '
+               'two years, including the retraining that did not work and the '
+               'shops that closed afterwards, and almost nobody outside the '
+               'region read any of that.')],
     intro='One minute, four lines. Choose a story you can describe '
           'concretely.',
     qs=['Describe a news story you remember well.',
@@ -951,6 +969,17 @@ UNIT = dict(
            'Rather than a correction of it.')])],
    speak=dict(
     part='Part 3', focus='Accuracy and trust',
+    sounds=[('Numbers in the news are the part people mishear. Say nine '
+             'hundred, nineteen years, eighteen months, and make each one '
+             'separate.'),
+            ('Thirteen and thirty, fourteen and forty, fifteen and fifty. The '
+             'teens have a strong ending; the tens have a strong beginning.'),
+            ('News words put the stress at the front: FACtory, NEWSpaper, '
+             'PROduction takes the second part, and so does announce.'),
+            ('Practise one sentence: nine hundred workers were told on a '
+             'Tuesday morning.'),
+            ('Record yourself describing a news story. Say the numbers again '
+             'the next day and check you still hear them as you meant them.')],
     intro='Take a position, then say what it costs.',
     qs=['Should newspapers admit mistakes prominently?',
         'Does admitting errors increase or reduce trust?',

@@ -126,6 +126,21 @@ MAX_ANSWER = 3          # the most generous rubric the real paper uses is
 MIN_WRONG = 25          # a line that says why a wrong option is wrong
 SPEAK_FLOOR = 12.0      # per cent of a unit's teaching text
 
+# The Part 2 long turn is the one thing a candidate must do alone for two
+# minutes, and the model has to be the length of two minutes of speech at
+# the level the book is written for - not one length for the whole series.
+# A window, because a model written to a word count reads like one.
+LONGTURN_BY_VOL = {7: (130, 180), 8: (150, 200), 1: (170, 220),
+                   2: (185, 240), 3: (205, 265), 4: (225, 285),
+                   5: (240, 300), 6: (255, 320)}
+# A Part 3 exchange: the examiner's follow-up and an answer that earns the
+# follow-up. From Volume 3, where Part 3 becomes the part that decides the
+# band; four exchanges in the two hardest books.
+FOLLOWUP_FROM = 3
+FOLLOWUP_PAIRS = {3: 3, 4: 3, 5: 4, 6: 4}
+MIN_FOLLOWUP_A = 28     # words in a Part 3 answer worth printing
+MIN_SOUNDS = 4          # lines on the pronunciation and fluency page
+
 # Phases turn these on as the content lands, so the gate is written first
 # and goes green when the work it governs is done. Set by main() from the
 # file PHASE, which is the single place a phase is declared finished.
@@ -301,6 +316,28 @@ def check_unit(U, out, heads):
             if len(line) < 12:
                 out.append('%s: a shape line of %d chars says nothing'
                            % (ct, len(line)))
+        if sp.get('sounds') is not None:
+            snd = sp['sounds']
+            if len(snd) < MIN_SOUNDS:
+                out.append('%s: the sounds page has %d lines, want %d+'
+                           % (ct, len(snd), MIN_SOUNDS))
+            for ln in snd:
+                if len(ln) < 30:
+                    out.append('%s: a sounds line of %d chars says nothing'
+                               % (ct, len(ln)))
+        if sp.get('followup') is not None:
+            for qi, qa in enumerate(sp['followup'], 1):
+                if len(qa) != 2:
+                    out.append('%s: follow-up %d is not a question and an '
+                               'answer' % (ct, qi))
+                    continue
+                if len(qa[0].split()) < 5:
+                    out.append('%s: follow-up %d asks almost nothing'
+                               % (ct, qi))
+                if len(qa[1].split()) < MIN_FOLLOWUP_A:
+                    out.append('%s: follow-up %d answered in %d words, want '
+                               '%d+' % (ct, qi, len(qa[1].split()),
+                                        MIN_FOLLOWUP_A))
         for w in c['write']:
             if w.get('fork'):
                 forks.add(w['fork'])
@@ -333,6 +370,31 @@ def check_unit(U, out, heads):
                    % (tag, len(allpos)))
     if not U.get('technique') or not U.get('outlining'):
         out.append('%s: missing a strand' % tag)
+    # The three parts of the speaking strand, per unit.
+    vol = U.get('vol') or vol_of(n)
+    lt = [c['speak'].get('longturn') for c in U['cycles']
+          if c['speak'].get('longturn')]
+    if len(lt) != 1:
+        out.append('%s: %d long-turn models, want exactly 1'
+                   % (tag, len(lt)))
+    else:
+        lw = len(' '.join(lt[0]).split())
+        lo, hi = LONGTURN_BY_VOL[vol]
+        if not (lo <= lw <= hi):
+            out.append('%s: the long turn is %d words, want %d-%d'
+                       % (tag, lw, lo, hi))
+    snd = [c for c in U['cycles'] if c['speak'].get('sounds')]
+    if len(snd) != 1:
+        out.append('%s: %d sounds pages, want exactly 1' % (tag, len(snd)))
+    if vol in FOLLOWUP_PAIRS and vol >= FOLLOWUP_FROM:
+        fu = [c['speak'].get('followup') for c in U['cycles']
+              if c['speak'].get('followup')]
+        if len(fu) != 1:
+            out.append('%s: %d Part 3 follow-up sets, want exactly 1'
+                       % (tag, len(fu)))
+        elif len(fu[0]) < FOLLOWUP_PAIRS[vol]:
+            out.append('%s: %d follow-up exchanges, want %d'
+                       % (tag, len(fu[0]), FOLLOWUP_PAIRS[vol]))
     # Speaking was 6.2 to 13.6 per cent of a unit and falling as the books
     # got harder: flat at about 5,000 words a book while reading went from
     # 7,000 to 29,000. The floor stops it drifting back.

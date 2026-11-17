@@ -442,6 +442,23 @@ UNIT = dict(
            'Which is the point people do not expect.')])],
    speak=dict(
     part='Part 2', focus='A hobby',
+    longturn=[('I am going to talk about a hobby I have. I grow vegetables in '
+               'a small garden.'),
+              ('The garden is behind my building and it is about four metres '
+               'by five. I share it with the woman in the flat below me. We '
+               'grow tomatoes, beans, onions and a lot of salad, because salad '
+               'is expensive in the shops.'),
+              ('I started three years ago, and I started by accident. My '
+               'neighbour was ill for a summer and asked me to water her '
+               'plants. I did it for two months and then I did not want to '
+               'stop.'),
+              ('I get three things from it. The first is food, and that is '
+               'nice but it is not the main thing. The second is time '
+               'outside. I am in an office all day, so half an hour in '
+               'the garden in the evening is good for me. The third '
+               'thing is that I have to wait. A tomato takes four '
+               'months, and nothing in my work takes four months. That '
+               'is the part I really like, and it is hard to explain.')],
     intro='One minute to prepare. Use all four bullets and keep the '
           'last one for the end.',
     qs=['Describe a hobby you have or would like to have.',
@@ -832,6 +849,15 @@ UNIT = dict(
            'Because those children never return to any sport.')])],
    speak=dict(
     part='Part 3', focus='Children and sport',
+    sounds=[('Make your voice go down at the end of a sentence. If it goes up, '
+             'it sounds like a question, and the examiner will wait.'),
+            ('In a list the voice goes up, up, and then down on the last one: '
+             'tomatoes, beans, onions and salad.'),
+            ('Free-time words have the stress at the front: GARden, FOOTball, '
+             'MUsic. Enjoy takes the second part.'),
+            'Practise the list above three times and make the last word fall.',
+            ('Record yourself talking about your free time. Listen to the last '
+             'word of each sentence and decide whether it went up or down.')],
     intro='Take a position, then say what evidence would change it. '
           'That is the strongest Part 3 answer available.',
     qs=['Should children specialise in one sport early?',

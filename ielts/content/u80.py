@@ -324,6 +324,25 @@ UNIT = dict(
            'Because it is the number that changed her behaviour.')])],
    speak=dict(
     part='Part 2', focus='A journey you make often',
+    longturn=[('I am going to talk about a journey I make often. I travel '
+               'across the city to the hospital where my mother has treatment.'),
+              ('The hospital is about twelve kilometres from her flat, and I '
+               'take her, so we go by car. There is a tram that goes most of '
+               'the way, but she cannot stand for long, and the stop is six '
+               'minutes from the entrance.'),
+              ('The journey takes between twenty-five minutes and an hour, '
+               'depending entirely on the time of day. Her appointments are '
+               'usually at half past nine, which is the worst possible time, '
+               'so we leave at half past eight. We have been doing this about '
+               'every three weeks for two years.'),
+              ('What I like about it is the thing I did not expect. We talk in '
+               'the car. We have never talked easily at home, and in a '
+               'car you sit side by side and nobody has to look at '
+               'anybody, and in two years I have learned more about '
+               'her life than in the thirty before. What I dislike is '
+               'the car park: ninety spaces for a building with two '
+               'thousand people in it, charging by the hour for a wait '
+               'nobody can predict.')],
     intro='One minute, four lines. Give at least one real number.',
     qs=['Describe a journey you make often.',
         'Say where you go and how.',
@@ -947,6 +966,20 @@ UNIT = dict(
            'Which the chair turns into the motion.')])],
    speak=dict(
     part='Part 3', focus='Paying for transport',
+    sounds=[('This is the last page on sounds in this book, and it is a list '
+             'of what has mattered. Word ends, word stress, joining, pauses, '
+             'and the voice falling at the end.'),
+            ('Before a test, record one answer from each part of the speaking '
+             'exam. Listen three times, for one of those things each time.'),
+            ('Speak a little more slowly and a little more clearly than feels '
+             'natural, because under pressure almost everybody speeds up and '
+             'gets quieter.'),
+            ('Do not learn answers by heart. An examiner can hear it, and a '
+             'memorised answer is marked lower than a worse answer that is '
+             'really yours.'),
+            ('Keep your recording from unit 1 of the first Foundation book. '
+             'Listening to it next to today\'s is the clearest evidence you '
+             'will ever have that this works.')],
     intro='Separate the claim from the reason for it.',
     qs=['Should public transport be free?',
         'Who should pay for city transport?',

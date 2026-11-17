@@ -454,6 +454,26 @@ UNIT = dict(
            'Because a result that did not come back is not a story.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Science in the news',
+    longturn=[('The discovery I want to talk about was a claim that a blood '
+               'test could detect several cancers years before any symptoms '
+               'appeared.'),
+              ('I heard about it on the radio first, in a two-minute item, and '
+               'then read a longer piece about it a few days later in a '
+               'newspaper.'),
+              ('What it said would happen was that within a few years people '
+               'would have this test as part of a routine check, and that '
+               'deaths from some cancers would fall sharply because they would '
+               'be caught at a stage where treatment still works.'),
+              ('Whether I believed it is the interesting question, because my '
+               'answer changed. On the radio I believed it completely. Reading '
+               'the longer piece, I noticed three things the radio had not '
+               'said: the study was small, it had been funded by the company '
+               'selling the test, and the test had found cancers in people who '
+               'did not have them. None of that means the claim is wrong. It '
+               'means the claim had been reported as a result when it was '
+               'still a hope. So now I believe the finding and not the '
+               'forecast, and I have become much more suspicious of the phrase '
+               'could lead to, which I had never noticed before.')],
     intro=('Short answers, then the long turn. Say what the finding was '
            'before saying what you thought of it.'),
     cue=('Describe a scientific discovery you heard about.',
@@ -1255,6 +1275,21 @@ UNIT = dict(
            'Although everybody wrote about the failed repeat.')])],
    speak=dict(
     part='Part 3', focus='How science corrects itself',
+    sounds=[('A real question rises; a question you already know the answer to '
+             'falls. Compare did it work, asked to find out, with did it work, '
+             'said after reading the result.'),
+            ('Echo questions buy you time and sound engaged: Whether I '
+             'believed it? Rise on it, pause, then answer. That is a '
+             'legitimate two seconds and it costs you nothing.'),
+            ('Do not rise at the end of a statement. Candidates do it when '
+             'unsure, and the examiner hears a question that has to be '
+             'answered rather than an opinion to be marked.'),
+            ('Practise three sentences from your own answer, each said twice, '
+             'once with a rise and once with a fall. Choose the version you '
+             'meant.'),
+            ('Record yourself on whether science corrects its own mistakes. '
+             'Mark the last word of every sentence and check the direction of '
+             'your voice on each one.')],
     intro=('Five sentences. Try once to say what a piece of evidence '
            'does not establish.'),
     qs=['Does science correct its own mistakes?',

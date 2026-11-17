@@ -423,6 +423,28 @@ UNIT = dict(
            'Which he calls different and less satisfying.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Advice',
+    longturn=[('The advice I did not take was to turn down the first job I was '
+               'offered after graduating and wait for something closer to what '
+               'I had studied.'),
+              ('It came from my former supervisor, who had known me for three '
+               'years and had no reason to say anything other than what she '
+               'thought.'),
+              ('I did not take it for a reason I would now describe as fear '
+               'rather than judgement. I had one offer, I had no savings, and '
+               'I had watched two friends spend six months applying for things '
+               'and getting nowhere. Her argument was that the first job sets '
+               'the direction of the next five years, and I did not disagree '
+               'with it; I simply could not act on it while I was worried '
+               'about rent. I also suspect I wanted the decision to be over.'),
+              ('What I think now is that she was right about the mechanism and '
+               'wrong about me. The job did set the direction, exactly as she '
+               'said, and I am now in a field I did not choose. But I am not '
+               'sure I would have survived six months of uncertainty well '
+               'enough to make a good decision at the end of it, and the '
+               'version of me that waited might have taken something worse out '
+               'of exhaustion. So I think it was good advice that I was not in '
+               'a position to use, which is a different thing from bad advice, '
+               'and I try to remember that when I am the one giving it.')],
     intro=('Short answers, then the long turn. Four bullets in order, equal '
            'weight, developed one at a time.'),
     cue=('Describe some advice you were given and did not take.',
@@ -949,6 +971,27 @@ UNIT = dict(
            'Which he calls the reverse of what governments want.')])],
    speak=dict(
     part='Part 3', focus='Stopping the spread of disease',
+    followup=[('You mentioned restrictions on travel. Do they work?',
+               ('They buy time rather than prevent arrival, and the value of '
+                'the time depends entirely on what is done with it. Where a '
+                'country used the delay to prepare testing and hospital '
+                'capacity, the restriction looks effective in hindsight; where '
+                'nothing was prepared, the same measure simply moved the first '
+                'case by ten days.')),
+              ('Why do people disagree so much about what worked?',
+               ('Because almost nothing was tried in isolation. Countries '
+                'changed five things in a fortnight, so the evidence cannot '
+                'separate them, and anybody arguing for one measure can point '
+                'at a country that used it and did well. Until you can compare '
+                'like with like, the disagreement is not stubbornness; it is a '
+                'genuine limit in what the data can settle.')),
+              ('What should a country prepare in advance?',
+               ('The things that cannot be bought quickly: trained people, a '
+                'surveillance system that already works on ordinary illnesses, '
+                'and legal powers agreed before they are needed. Stockpiles '
+                'matter less than they appear to, because the stockpile is '
+                'always of the last outbreak\'s equipment, whereas the capacity '
+                'to find out what is happening is useful whatever arrives.'))],
     intro=('Four or five sentences. Try once to say that several causes may '
            'be acting at the same time.'),
     qs=['What is the best way to stop a disease spreading?',
@@ -1222,6 +1265,21 @@ UNIT = dict(
            'Because nobody reads an annexe during an emergency.')])],
    speak=dict(
     part='Part 3', focus='Models and the decisions made from them',
+    sounds=[('Hedges have to be said at speed or they stop being hedges. As '
+             'far as I can tell, on the evidence we have and it depends what '
+             'you mean by should each take under a second.'),
+            ('A hedge said slowly sounds like hesitation; said at speed it '
+             'sounds like precision. The words are identical and the examiner '
+             'marks them differently.'),
+            ('Choose three hedges and say each one fifty times this week until '
+             'it is a single unit of sound. Then attach each to a sentence '
+             'from this unit.'),
+            ('The stress inside a hedge is light and falls once: as FAR as I '
+             'can tell. Stressing every word in it makes a short phrase into a '
+             'long one.'),
+            ('Record yourself on whether travel restrictions worked. Time your '
+             'hedges. Anything over a second and a half is costing you fluency '
+             'rather than buying you accuracy.')],
     intro=('The hardest turn in the unit. Say once what a number cannot tell '
            'you.'),
     qs=['Should governments publish the figures they are using?',

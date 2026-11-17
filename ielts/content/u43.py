@@ -516,6 +516,31 @@ UNIT = dict(
            'Because neither of them actually knows.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Opportunity',
+    longturn=[('The opportunity I want to talk about was a funded place on a '
+               'two-year research programme, which I had not applied for and '
+               'did not know existed.'),
+              ('It came about because somebody withdrew three weeks before it '
+               'started, and my former tutor was asked whether she knew '
+               'anybody who could begin at short notice. She gave them my '
+               'name. I had taught one seminar for her, four years earlier, '
+               'and that was the whole of the connection.'),
+              ('What I did with it was accept within two days, give a month\'s '
+               'notice on a job I had been quietly unhappy in, and then spend '
+               'the first term fairly convinced the decision had been a '
+               'mistake. The work was harder than anything I had done, and I '
+               'was two years behind the other people in the room.'),
+              ('How much difference it made is difficult to overstate and also '
+               'difficult to credit myself with. Everything I have done since '
+               'is downstream of those two years: the publications, the people '
+               'I know, the job I now hold. But the mechanism was a phone call '
+               'to somebody who happened to remember me, and there was nothing '
+               'in my application, because there was no application. What I '
+               'take from it is uncomfortable rather than inspiring. I worked '
+               'hard once I was there, and I would have worked equally hard '
+               'somewhere else without being noticed, and the difference '
+               'between those two versions of my career is a withdrawal letter '
+               'I never saw, written by somebody whose name I still do not '
+               'know.')],
     intro=('Short answers, then the long turn. The explanation bullet is '
            'where a band 7 answer separates from a band 6.'),
     cue=('Describe an opportunity that came your way.',
@@ -1134,6 +1159,31 @@ UNIT = dict(
            'Because the outcome being measured is an adult income.')])],
    speak=dict(
     part='Part 3', focus='Getting on and where you started',
+    followup=[(('You say background matters more than people admit. Can '
+                'education close the gap?'),
+               ('It can narrow it and it has never closed it anywhere, which '
+                'is a result worth stating plainly because the promise is made '
+                'so often. Schools work on children for six hours a day '
+                'against eighteen of everything else, and the best systems '
+                'produce a gap smaller than ours rather than none.')),
+              ('Why do governments find this so hard to change?',
+               ('Because the effective interventions are early, slow and '
+                'invisible, and the electoral cycle rewards none of those. A '
+                'programme for three-year-olds shows up in wages twenty years '
+                'later, by which time four administrations have taken credit '
+                'or blame for other things.')),
+              ('Is social mobility the right goal?',
+               ('It is a goal that leaves the structure untouched, which is '
+                'why it is so widely agreed to. Perfect mobility in a very '
+                'unequal society means your children have an equal chance of a '
+                'bad outcome, and most people, asked clearly, want the bad '
+                'outcome to be less bad rather than more randomly distributed.')),
+              ('So you would target inequality of outcome directly?',
+               ('In part, and I would not abandon mobility, because the two '
+                'reinforce each other: lower inequality in one generation is '
+                'what makes opportunity real in the next. What I would stop '
+                'doing is offering mobility as a substitute for the other '
+                'question, which is how it is usually deployed.'))],
     intro=('Five or six sentences. Try once to say why a policy with good '
            'evidence behind it is not adopted.'),
     qs=['How much does family background affect success in your country?',
@@ -1453,6 +1503,21 @@ UNIT = dict(
            'Which is where the exchange ends.')])],
    speak=dict(
     part='Part 3', focus='Fairness and the shape of a society',
+    sounds=[('Abstract nouns of this unit are long and have one strong '
+             'syllable: moBIlity, inEQuality, opporTUnity, perSIStence. '
+             'Candidates who stress two syllables in each sound as though they '
+             'are reading a report.'),
+            ('Pairs that move the stress are the real difficulty: ECOnomy and '
+             'econOMic, ANalyse and anALysis, STAtistics and stati STIcal. '
+             'Learn the pair rather than the word.'),
+            ('Say the sentence mobility is not the same as equality with one '
+             'stress in each half. It is the sentence this unit exists for.'),
+            ('Where you repeat an abstraction, de-stress it the second time, '
+             'or the answer begins to sound like a list of terms rather than '
+             'an argument.'),
+            ('Record yourself on whether mobility is the right goal. Mark '
+             'every noun of four syllables or more and check it had exactly '
+             'one strong syllable.')],
     intro=('The hardest turn in the unit. Try once to say that a goal is '
            'zero-sum and what follows from that.'),
     qs=['Is your society fairer than it was a generation ago?',

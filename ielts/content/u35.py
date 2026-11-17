@@ -509,6 +509,27 @@ UNIT = dict(
            'With the deadline written into the minutes, where an understanding would not hold.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Places that matter',
+    longturn=[('The building I want to describe is a Victorian swimming baths '
+               'at the end of my street, built in 1904, closed in 1998 and '
+               'reopened eight years later as a library and a cafe.'),
+              ('It stands on a corner where four roads meet, and it is the '
+               'tallest thing for several streets, with a brick front and a '
+               'glass roof that was originally there to light the water.'),
+              ('What it is used for now is mostly reading and sitting. The '
+               'main pool has a floor over it and the shelves are where the '
+               'water was, the shallow end is a children\'s section, and the '
+               'old changing cubicles along both sides are study rooms. The '
+               'cafe is in the entrance hall, which was the ticket office.'),
+              ('Why it matters to people there is not architecture, and I '
+               'think that is important. Almost everybody over fifty in those '
+               'streets learned to swim in that building, and they will tell '
+               'you which cubicle they used. When it closed there was a '
+               'campaign for six years, and what the campaigners argued for '
+               'was never the pool, because the council had costed that and it '
+               'was impossible. They argued for the building to remain in '
+               'public use, and they won that. So the thing people care about '
+               'turned out to be the walls and the fact that you can still go '
+               'in, rather than the activity it was built for.')],
     intro=('Short answers, then the long turn. Four bullets, in order, '
            'roughly equal weight, and developed one at a time.'),
     cue=('Describe a building that matters to people where you live.',
@@ -1058,6 +1079,28 @@ UNIT = dict(
            'the handout.')])],
    speak=dict(
     part='Part 3', focus='Objects far from where they were made',
+    followup=[(('You would return the objects. Who should decide where an '
+                'object belongs?'),
+               ('Not the museum alone, which is the current arrangement and an '
+                'obvious conflict. I would want a joint body with the '
+                'community of origin represented and a published reasoning, so '
+                'that the decisions can be compared with each other, because '
+                'the inconsistency between cases does more damage than any '
+                'single refusal.')),
+              (('Does it matter where an object is kept, if people can see it '
+                'online?'),
+               ('It matters a great deal, and the question tends to be asked '
+                'by whoever currently holds it. A photograph serves '
+                'scholarship quite well and serves the other uses hardly at '
+                'all, since you cannot hold a ceremony around a screen, and '
+                'for many of the contested objects that use is the point.')),
+              (('Is there a difference between a sacred object and an ordinary '
+                'one?'),
+               ('Yes, and it is the difference that makes the general argument '
+                'about cases unhelpful. An ordinary artefact raises a question '
+                'about ownership. A sacred object raises a question about use, '
+                'and keeping it on display may be the harm, in which case a '
+                'loan agreement answers nothing.'))],
     intro=('Four or five sentences. At least once, name which principle you '
            'are arguing from instead of only asserting a conclusion.'),
     qs=['Should museums return objects taken during colonial rule?',
@@ -1350,6 +1393,22 @@ UNIT = dict(
            'them in the wrong order.')])],
    speak=dict(
     part='Part 3', focus='Access, ownership and the public',
+    sounds=[('Place names and building names have their own stress, and it is '
+             'not predictable from spelling. Learn the stress of the places '
+             'you will mention, because a mispronounced local name is the one '
+             'thing an examiner cannot help you with.'),
+            ('Dates are said in fixed shapes: nineteen oh four, eighteen '
+             'nineties, the turn of the century. Practise the dates you will '
+             'need for your own building.'),
+            ('Compounds dominate this unit: SWIMming baths, LIbrary service, '
+             'HEritage site, LISted building. The first word takes the stress '
+             'in all four.'),
+            ('A long noun phrase needs one pause and not three: a Victorian '
+             'swimming baths on the corner of the street. Say it as two '
+             'chunks.'),
+            ('Record yourself describing a building. Count your pauses inside '
+             'noun phrases; each one costs a little of what the sentence was '
+             'worth.')],
     intro=('The hardest turn in the unit. Try to state once what would change '
            'your mind, which is the clearest signal of a developed position '
            'an examiner can hear.'),

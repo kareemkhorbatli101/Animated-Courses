@@ -442,6 +442,29 @@ UNIT = dict(
            'Which Kwabena calls a better argument than his own.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Shortage',
+    longturn=[('The thing I needed and could not get was a particular '
+               'antibiotic, prescribed for an infection after a small '
+               'operation.'),
+              ('I needed it because the first one had not worked and the '
+               'surgeon had changed it, and the new prescription had to start '
+               'that day rather than at some convenient point later in the '
+               'week.'),
+              ('What I did instead took most of an afternoon. The nearest '
+               'pharmacy had none, the second said three days, and the third '
+               'phoned round four others for me, which was far beyond what I '
+               'could have asked for. In the end a pharmacy two towns away had '
+               'two boxes, and I took two buses and collected them. The '
+               'shortage, it turned out, was national and had been going on '
+               'for weeks, and nobody had mentioned it when the prescription '
+               'was written.'),
+              ('What it changed is small and permanent. I now ask, when '
+               'anything is prescribed, whether it is actually available, '
+               'which I had never thought to ask before because I had assumed '
+               'availability was somebody else\'s problem. More generally I '
+               'stopped thinking of supply as a background condition. A thing '
+               'can be manufactured, approved, prescribed and paid for, and '
+               'still not be in the building, and the whole chain is invisible '
+               'until one link in it fails.')],
     intro=('Short answers, then the long turn. Keep the four bullets in '
            'order and give the fourth one real weight.'),
     cue=('Describe a time something you needed was unavailable.',
@@ -980,6 +1003,28 @@ UNIT = dict(
            'Though whether land is actually spared is a policy question.')])],
    speak=dict(
     part='Part 3', focus='Producing more without losing more',
+    followup=[(('You say we should measure soil rather than yield. Is that '
+                'practical?'),
+               ('It is practical at the points where land changes hands, '
+                'because somebody is already paying for a survey. Measuring '
+                'every field every year is not, and schemes that tried it '
+                'collapsed under the cost. So I would measure at transactions '
+                'and on a sample, and accept that the picture is coarser than '
+                'a yield figure and about something that actually matters.')),
+              ('Should farmers be paid for looking after soil?',
+               ('Yes, because it is a public good they currently provide for '
+                'nothing, and a tenant with a five-year lease has every reason '
+                'not to. What I would avoid is paying for actions that are '
+                'easy to verify and loosely related to the outcome, which is '
+                'how the existing schemes ended up rewarding hedge planting '
+                'rather than soil carbon.')),
+              ('Who should decide how land is farmed?',
+               ('The farmer, within limits set by whoever bears the '
+                'consequences downstream. Soil and water leave the farm, so '
+                'the effects are not private, and that is what justifies a '
+                'rule. But a rule written far away tends to be wrong about '
+                'particular fields, so I would set the obligation centrally '
+                'and leave the method local.'))],
     intro=('Four or five sentences. Try once to say what a measurement '
            'leaves out.'),
     qs=['How should we judge whether a farming system is successful?',
@@ -1265,6 +1310,21 @@ UNIT = dict(
            'one.')])],
    speak=dict(
     part='Part 3', focus='Feeding more people',
+    sounds=[('Common chunks lose sounds in fluent speech, and the losses are '
+             'regular. Next to sounds like neks to, used to like yoostoo, '
+             'going to like gonna in speech and never in writing.'),
+            ('Assimilation changes a sound rather than dropping it: ten '
+             'minutes becomes tem minutes, good boy becomes gub boy. Both are '
+             'normal and neither is careless.'),
+            ('This matters for listening as much as for speaking. The reason a '
+             'recording sounds too fast is usually that you are waiting for '
+             'sounds the speaker has already simplified.'),
+            ('Practise the supply phrases of this unit at speed: ran out of, '
+             'had to go without, was unable to get hold of. Each should be one '
+             'unit of sound.'),
+            ('Record yourself on judging a farming system, then write down '
+             'what you hear rather than what you said. The difference is the '
+             'elision.')],
     intro=('The hardest turn in the unit. Try once to state the scope within '
            'which a claim is true.'),
     qs=['Can the world be fed by less intensive farming?',

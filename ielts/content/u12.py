@@ -437,6 +437,27 @@ UNIT = dict(
            'And that only a question about rent separates them.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Money',
+    longturn=[('The thing I saved up for was a secondhand piano, an upright '
+               'one, which is now in the corner of my living room and is the '
+               'largest object I have ever bought.'),
+              ('I saved for about fourteen months. I had worked out that I '
+               'needed roughly a thousand, and I managed about seventy a '
+               'month, which was slower than I wanted but faster than I '
+               'expected.'),
+              ('The way I managed it was by moving the money on the day I was '
+               'paid rather than at the end of the month. That sounds obvious, '
+               'but it was the whole difference. Before that I had tried to '
+               'save whatever was left, and there was never anything left. I '
+               'also stopped buying lunch out, which I had always told myself '
+               'was too small to matter, and it turned out to be about a third '
+               'of the total.'),
+              ('When I finally bought it I felt two things at once, and the '
+               'second one surprised me. The first was straightforward: I was '
+               'pleased, I had wanted one since I was nine. The second was '
+               'that the piano mattered less than the fourteen months. I had '
+               'proved something to myself about money that I had not believed '
+               'before, and that has been more useful than the instrument, '
+               'although I do play it.')],
     intro=('Short answers, then the long turn. Use all four bullets and '
            'spend longest on the last.'),
     cue=('Describe something you saved up for.',
@@ -1218,6 +1239,22 @@ UNIT = dict(
            'Rather than in a journal paper.')])],
    speak=dict(
     part='Part 3', focus='Changing behaviour without rules',
+    sounds=[('The two th sounds are different: thing, think and both are '
+             'voiceless, while this, that and they are voiced. Put your hand '
+             'on your throat and you will feel the second group buzz.'),
+            ('In connected speech the voiced one almost disappears after a '
+             'consonant: in that case sounds like in nat case. That is normal, '
+             'and it is not the same as replacing it with a d.'),
+            ('The words you will use most in Part 3 are full of it: therefore, '
+             'nevertheless, whether, although. Say each one inside a phrase '
+             'rather than alone.'),
+            ('Practise the hardest pair in the language for most learners: I '
+             'think that that is the thing that matters. If you can say it at '
+             'speed without a stumble, the sound is no longer costing you '
+             'anything.'),
+            ('Record thirty seconds on saving money. Count the th sounds you '
+             'replaced with s, t or d, and say those words again inside their '
+             'phrases.')],
     intro=('Five sentences. Try once to say that something is true and '
            'does not settle the question.'),
     qs=['Should governments try to change behaviour without passing '

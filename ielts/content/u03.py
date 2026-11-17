@@ -370,6 +370,23 @@ UNIT = dict(
            'A bright room does as much as a telephone.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Sleep',
+    longturn=[('The habit I would like to change is looking at my phone in '
+               'bed, which is the last thing I do at night and the first thing '
+               'I do in the morning.'),
+              ('I have had it for about five years, since I started using my '
+               'phone as an alarm clock, and it has got slowly worse.'),
+              ('I would like to change it because of what it does to my sleep. '
+               'I go to bed tired, read for twenty minutes, and then I am '
+               'awake again. I know roughly what is happening: the light and '
+               'the reading wake me up, and whatever I have read is still '
+               'going round in my head when I put the phone down.'),
+              ('What has stopped me so far is that the phone is also my alarm, '
+               'so it has to be in the room. I have tried leaving it on the '
+               'other side of the room, and that worked for about a week, '
+               'until I started getting up to look at it. I think the real '
+               'problem is that I have nothing to do instead, so the next '
+               'thing I am going to try is keeping a book by the bed, which is '
+               'a smaller change and might last longer.')],
     intro=('Short answers, then the long turn. Say what the habit is '
            'before you say why you want to change it.'),
     cue=('Describe a habit you would like to change.',
@@ -1128,6 +1145,21 @@ UNIT = dict(
            'Twice as many as the years of life they lose.')])],
    speak=dict(
     part='Part 3', focus='Averages and the people behind them',
+    sounds=[('English links a final consonant to the next vowel, so an '
+             'appointment is a nappointment and about an hour is abouta nour. '
+             'Leaving the gap in is what makes speech sound word by word.'),
+            ('Where two of the same consonant meet, you hold it once and '
+             'longer: a health service has one long s, not two. Try that '
+             'phrase, then public services, then a difficult decision.'),
+            ('When a word ends in a vowel and the next begins with one, a '
+             'small sound joins them: the hospital has a tiny y, go out has a '
+             'tiny w. Do not insert a glottal stop there.'),
+            ('Read your Part 3 answer on judging a health service aloud and '
+             'mark every place where a consonant meets a vowel. Then read it '
+             'again and link all of them.'),
+            ('Fluency is not speed. Record the same answer at your normal '
+             'speed with the links in, and you will sound faster without '
+             'saying anything more quickly.')],
     intro=('Four or five sentences. Use one number and then say what it '
            'does not tell you.'),
     qs=['Are national statistics useful?',

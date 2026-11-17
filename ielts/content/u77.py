@@ -309,6 +309,25 @@ UNIT = dict(
            'Which the manager says she can work with.')])],
    speak=dict(
     part='Part 2', focus='Clothes you wear for different occasions',
+    longturn=[('I am going to talk about the clothes I wear for a particular '
+               'occasion. The occasion is a job interview.'),
+              ('An interview in my field is usually an hour, in an office, '
+               'with two or three people on the other side of a table, and it '
+               'is the only hour in which a stranger decides something '
+               'important about you.'),
+              ('What I wear is a dark blue suit, a plain shirt with no '
+               'pattern, and leather shoes that I clean the night before. I do '
+               'not wear anything that makes a noise or that I might play '
+               'with, because I know I do that when I am nervous.'),
+              ('How I decided took two bad experiences. At the first interview '
+               'I ever had, I wore a jacket that did not match the '
+               'trousers, and I spent the hour aware of it instead of '
+               'listening to the questions. At the second I wore a new '
+               'shirt that was too tight. So what I learned is that '
+               'the purpose of interview clothes is not to impress '
+               'anybody. It is to be the thing you think about least '
+               'in the room, and anything new, tight or unusual fails '
+               'that test however good it looks.')],
     intro='One minute, four lines. Be concrete about one situation.',
     qs=['Describe the clothes you wear for a particular occasion.',
         'Say what the occasion is.',
@@ -916,6 +935,17 @@ UNIT = dict(
            'Which Joel says he cannot run a company against.')])],
    speak=dict(
     part='Part 3', focus='Waste and responsibility',
+    sounds=[('Say your word endings. Shoes, clothes and trousers all end in a '
+             'z sound, and shirts and jackets end in s. The sound before '
+             'decides.'),
+            ('Say these three and keep them different: I wear, he wears, I '
+             'wore.'),
+            ('Clothes words put the stress at the front: JACket, TROUsers, '
+             'COLlar. Occasion and material take the second part.'),
+            ('Practise one sentence: I wear a dark blue suit and a plain shirt '
+             'with no pattern.'),
+            ('Record yourself describing what you wear for an occasion. Count '
+             'the plural endings you dropped.')],
     intro='Say where responsibility sits and why, then what you would '
           'require.',
     qs=['Who is responsible for clothing waste?',

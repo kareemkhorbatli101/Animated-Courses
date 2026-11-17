@@ -460,6 +460,28 @@ UNIT = dict(
            'Capital money is available and revenue money is not.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Public space',
+    longturn=[('The public place I want to describe is a square outside a '
+               'railway station, which I go out of my way to avoid.'),
+              ('It is a large paved rectangle with a fountain at one end, six '
+               'mature trees that were kept when it was rebuilt, and about '
+               'eleven thousand people crossing it every day.'),
+              ('What I do there is cross it as quickly as I reasonably can, '
+              'which is '
+               'also what everybody else does, and in eight years I have never '
+               'once sat down in it despite passing through it most days.'),
+              ('What produces that is design, and I have thought about it '
+               'enough to be fairly specific. There is almost nowhere to sit: '
+               'two benches for a space that size, both in full sun, and a '
+               'long low wall with sloped stone on top so that nobody can '
+               'perch on it. The fountain is loud enough to make conversation '
+               'difficult within ten metres. There is no shade where the '
+               'seating is and no seating where the shade is, which cannot be '
+               'an accident, because the trees and the benches were put in by '
+               'the same project. And the whole square is overlooked by a row '
+               'of cafes with tables outside, so there is somewhere to sit if '
+               'you buy something. None of that is written down as a rule. The '
+               'effect is a rule: you may remain here if you are spending or '
+               'moving, and the stone does the enforcing.')],
     intro=('Short answers, then the long turn. Take the bullets in order '
            'and let the last one carry the weight.'),
     cue=('Describe a public place you like or avoid.',
@@ -1054,6 +1076,33 @@ UNIT = dict(
            'The underpass being the standard destination.')])],
    speak=dict(
     part='Part 3', focus='Rules in shared places',
+    followup=[(('You say the design excludes people. Who is usually left out '
+                'when rules are made?'),
+               ('Whoever has no revenue attached to them: teenagers, people '
+                'who want to sit for two hours, street drinkers, anybody '
+                'protesting. None of those has a representative at the '
+                'consultation, and none of them generates a transaction, so '
+                'the uses that disappear first are the ones nobody is '
+                'counting.')),
+              ('Is it possible to please everybody in a shared space?',
+               ('No, and the attempt produces the space I described, where the '
+                'compromise is reached by making every use slightly '
+                'uncomfortable. It is better to zone than to average: '
+                'somewhere to be loud, somewhere to sit quietly, and a '
+                'decision about which is which.')),
+              ('How should a city decide between competing uses?',
+               ('By naming the trade-off in public rather than resolving it '
+                'through furniture. A sloped wall is a decision about who may '
+                'rest, taken by a designer and never debated, and I would '
+                'rather a committee said we are prioritising circulation here, '
+                'because then somebody can disagree with it.')),
+              (('Does it matter whether the space is publicly or privately '
+                'managed?'),
+               ('Less than people assume. A council with a footfall target '
+                'behaves like a landlord, and a good private manager with a '
+                'civic brief can do better than a neglectful authority. What '
+                'matters is whether anybody is accountable for the uses that '
+                'bring in no money.'))],
     intro=('Five or six sentences. Try once to name who a rule excludes '
            'that nobody intended to exclude.'),
     qs=['Should there be rules about behaviour in public places?',
@@ -1381,6 +1430,18 @@ UNIT = dict(
            'And says this is not to his credit.')])],
    speak=dict(
     part='Part 3', focus='Who decides how a place is used',
+    sounds=[('Place and design words in this unit are compounds and take the '
+             'first element: PUBlic space, as an exception, behaves like '
+             'adjective and noun and takes the second.'),
+            ('Say the pair out loud and hear the difference: a public SPACE, '
+             'which is any such place, and a PUBlic-space strategy, which is a '
+             'document.'),
+            ('The phrase hostile architecture has two stresses, one in each '
+             'word, because both are content and neither is a compound.'),
+            ('Practise describing a space you avoid in three chunks: where it '
+             'is, what it is like, and why you keep away. One stress a chunk.'),
+            ('Record yourself on who is left out when rules are made. Listen '
+             'for a list that lost its falling intonation on the last item.')],
     intro=('The hardest turn in the unit. Try once to hold two true things '
            'that sound contradictory.'),
     qs=['Should private companies manage public spaces?',

@@ -534,6 +534,28 @@ UNIT = dict(
            'A question asked when a council tax account is closed.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Arriving somewhere new',
+    longturn=[('The time I was new somewhere was a year I spent working in a '
+               'town in the south of Spain, in an office of about thirty '
+               'people.'),
+              ('I was there on an exchange arranged through my employer, which '
+               'meant I had a job, a desk and a flat from the first day, and '
+               'almost nothing else.'),
+              ('What was difficult was not the language, although my Spanish '
+               'was poor, and not the work. It was that I had no reason to be '
+               'anywhere outside working hours. At home a Tuesday evening is '
+               'full of things that have accumulated over years without my '
+               'noticing: people I owe a drink to, a class I go to, a brother '
+               'who rings. All of that had gone, and what was left was a flat, '
+               'which is how I learned the difference between being alone and '
+               'having nothing arranged.'),
+              ('What made it easier in the end was a single accident. The '
+               'woman at the desk next to mine asked me to make up the numbers '
+               'in a five-a-side football team, and I am a bad footballer, and '
+               'I went. That team was the whole thing. Within two months I had '
+               'Thursday nights, then people who knew my name in a bar, then '
+               'invitations that had nothing to do with the office. I did not '
+               'solve the problem; somebody included me, and I have tried to '
+               'remember that when the new person arrives at my own desk.')],
     intro=('Short answers, then the long turn. One occasion told properly '
            'beats three mentioned.'),
     cue=('Describe a time when you were new somewhere.',
@@ -1104,6 +1126,27 @@ UNIT = dict(
            'Rent, waiting times and the pace at which a street changes.')])],
    speak=dict(
     part='Part 3', focus='Work and newcomers',
+    followup=[(('You say the wage effect is small. Who benefits most when a '
+                'population grows?'),
+               ('Owners of things that cannot be added to quickly, which in '
+                'most countries means housing. Output rises and so does demand '
+                'for a fixed stock, so the gain concentrates in land values '
+                'while the costs show up in rents, and that distribution has '
+                'nothing to do with the newcomers themselves.')),
+              ('Should a country choose which skills it admits?',
+               ('It will, whatever it says, and I would be modest about how '
+                'well it can be done. Governments have a poor record of '
+                'forecasting which skills are needed in ten years, so a points '
+                'system is really a guess with administrative costs. I would '
+                'weight it towards people who can move between occupations.')),
+              (('How should governments respond to people who feel they have '
+                'lost out?'),
+               ('By addressing the thing they are describing rather than the '
+                'thing they are blamed for believing. Where a town\'s surgery '
+                'and school are full, the shortage is real even if the '
+                'national average is fine, and it is fixed with capacity. '
+                'Telling somebody the aggregate data disagrees with their '
+                'waiting list is not an answer.'))],
     intro=('Four or five sentences. Try to distinguish an average from a '
            'distribution at least once.'),
     qs=['Does immigration affect the wages of local workers?',
@@ -1398,6 +1441,21 @@ UNIT = dict(
            'Together with measurement at the level where people live.')])],
    speak=dict(
     part='Part 3', focus='National policy, local effects',
+    sounds=[('Nationality and place words carry stress that moves with the '
+             'suffix: SPAIN but SPANish, ITaly but iTALian, JApan but '
+             'japaNESE. The -ese ending always takes it.'),
+            ('This unit asks you to speak about yourself in a new place, which '
+             'means first-person narrative at speed. Practise the past forms '
+             'with their endings audible: arrived, managed, struggled, '
+             'settled.'),
+            ('The phrase on my own and the phrase by myself are both single '
+             'chunks. Said as three and two words they sound translated.'),
+            ('Keep the stress off the pronouns unless they are the contrast: I '
+             'found it difficult is neutral; I found it difficult says '
+             'somebody else did not.'),
+            ('Record yourself on a time you were new somewhere. Listen for '
+             'pronouns you stressed by accident, because each one implies a '
+             'comparison you may not have meant.')],
     intro=('The hardest turn in the unit. Try once to say what unit a claim '
            'is about.'),
     qs=['Why do national statistics often feel wrong to local people?',

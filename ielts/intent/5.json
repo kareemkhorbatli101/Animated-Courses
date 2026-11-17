@@ -1,0 +1,12 @@
+{
+ "note": "Phase 5 - C3/E: the speaking strand. One Part 2 long-turn model per unit, scaled by book (130-180 words in Foundation 1 rising to 255-320 in Volume 6); one Part 3 follow-up exchange per unit from Volume 3, three exchanges in Volumes 3 and 4 and four in Volumes 5 and 6; one pronunciation and fluency page per unit in all eight books. Rendered by book.py under the answer shape. Six Foundation long turns were trimmed to the window after they were written, so those are new prose rather than changed prose. Nothing that existed before may change: no item, no passage, no model, no head word, no figure. The corrections this phase needed to clear its own new gates - four more words in Volume 5 unit 9's long turn, a reworded third follow-up in Volume 6 unit 6 - were made inside prose this phase had itself added.",
+ "items": [],
+ "item_fields": [],
+ "texts": [],
+ "prose": [],
+ "new_prose": ["longturn", "sounds", "followup"],
+ "new_items": false,
+ "heads": false,
+ "measure": {},
+ "figures": {}
+}

@@ -512,6 +512,28 @@ UNIT = dict(
            'refuse.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Value',
+    longturn=[('The thing I want to describe is a cookery notebook, a hardback '
+               'exercise book filled in by hand, which is worth nothing and '
+               'which I would not sell.'),
+              ('I got it when my father cleared his mother\'s house. Nobody '
+               'else wanted it, because the handwriting is difficult and half '
+               'the entries are only a list of quantities with no method at '
+               'all.'),
+              ('I keep it in a drawer in the kitchen and I use it perhaps four '
+               'times a year, mostly for two things, and I have never copied '
+               'it out, which I know is foolish.'),
+              ('Why it is valuable to me is partly the obvious reason and '
+               'mostly a different one. The obvious reason is that it is her '
+               'handwriting and she is dead. The other reason is that it is a '
+               'record of how somebody cooked when the quantities had to be '
+               'worked out from what there was. Several entries have been '
+               'corrected twice, in different pens, over what must be twenty '
+               'years, so you can see a recipe being improved by somebody who '
+               'never thought of herself as doing anything of the kind. A '
+               'printed book gives you the final version. This gives you the '
+               'argument, and I have not found that anywhere else, which is '
+               'why a thing with no market value is the one object in the flat '
+               'I would carry out of a fire.')],
     intro=('Short answers, then the long turn. Depth over breadth: one object '
            'developed is worth more than four mentioned.'),
     cue=('Describe something valuable to you that is not expensive.',
@@ -1089,6 +1111,26 @@ UNIT = dict(
            'accusation.')])],
    speak=dict(
     part='Part 3', focus='What changes when the author changes',
+    followup=[(('You would display the forgery. Does it matter who painted a '
+                'picture you enjoy?'),
+               ('For the enjoyment, apparently not, since people who loved a '
+                'painting on Monday do not stop seeing the same colours on '
+                'Tuesday. For the judgement, yes, because attribution is how a '
+                'work is placed in an argument about what followed it, and a '
+                'wrong attribution corrupts the history rather than the '
+                'pleasure.')),
+              ('Why do you think people react so strongly to forgeries?',
+               ('Because the loss is social rather than aesthetic. A forgery '
+                'exposed makes everybody who admired it feel that their taste '
+                'was borrowed, and it embarrasses the experts whose authority '
+                'rests on being able to tell. The painting has not changed; '
+                'the audience\'s position has.')),
+              ('Can an expert\'s judgement be trusted without evidence?',
+               ('As a starting point, not as a conclusion. Trained '
+                'connoisseurs do spot things no instrument finds, and they '
+                'have also authenticated a long series of fakes with complete '
+                'confidence. So I would treat the eye as a reason to '
+                'investigate and never as the finding itself.'))],
     intro=('Four or five sentences. Try once to separate what you believe '
            'from what you can defend.'),
     qs=['Should a museum display a work known to be a forgery?',
@@ -1410,6 +1452,21 @@ UNIT = dict(
            'She calls this an honest answer, while refusing to call it a good one.')])],
    speak=dict(
     part='Part 3', focus='Originals and copies',
+    sounds=[('Words from French and Italian keep irregular stress in English: '
+             'conNOISseur, proVEnance, forGEry, aesTHEtic. There is no rule; '
+             'there is only knowing.'),
+            ('Say each of those four inside a sentence from this unit until it '
+             'is automatic, because hesitating before a word you know is worse '
+             'than choosing a simpler one.'),
+            ('Authenticity and authentic shift the stress between forms, and '
+             'so do analysis and analytical. Practise the pair rather than the '
+             'word.'),
+            ('Where you are unsure of a long word\'s stress, you have two '
+             'honest options: use it with the stress you believe, or use a '
+             'shorter one. Guessing audibly is the third and the worst.'),
+            ('Record ninety seconds on forgery. Note every word you slowed '
+             'down for, and decide whether you know its stress or merely hope '
+             'you do.')],
     intro=('The hardest turn in the unit. Try once to say what would have to '
            'be true for you to change your view.'),
     qs=['Is an original always better than a perfect copy?',

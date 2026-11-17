@@ -462,6 +462,29 @@ UNIT = dict(
            'writing.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Privacy',
+    longturn=[('The thing I decided not to share was a copy of my identity '
+               'document, which an online marketplace asked me to upload '
+               'before it would release a payment.'),
+              ('I was asked for it because I had sold something for more than '
+               'their threshold, and the message said it was a legal '
+               'requirement for checks against fraud, which as far as I could '
+               'tell was broadly true.'),
+              ('I decided not to for two reasons. The first was that the '
+               'request arrived by email with a link, and the email was '
+               'indistinguishable from the fake ones I had been warned about, '
+               'so I could not tell what I would be uploading it to. The '
+               'second reason survived even after I had found the same request '
+               'inside my account, where it was clearly genuine: once that '
+               'image exists on their system I have no way of knowing who can '
+               'see it, how long it is kept, or what happens to it when the '
+               'company is sold.'),
+              ('Whether I was right, I think yes, although it cost me '
+               'something. I never received about ninety, which I have written '
+               'off. What I would say is that the decision was easier to '
+               'defend afterwards than it felt at the time, because six months '
+               'later that company announced a breach involving exactly those '
+               'documents. I would like to claim foresight. In fact I simply '
+               'did not trust a link, and the rest followed.')],
     intro=('Short answers, then the long turn. Take the bullets in order and '
            'develop each one before moving on.'),
     cue=('Describe something you decided not to share online.',
@@ -1009,6 +1032,26 @@ UNIT = dict(
            'And the lecturer says they are not being unreasonable.')])],
    speak=dict(
     part='Part 3', focus='Data that cannot be taken back',
+    followup=[(('You say data cannot be made completely anonymous. Is that not '
+                'an argument against all research use?'),
+               ('No, because the alternative also has a cost, and it is paid '
+                'in treatments nobody develops. The realistic aim is not '
+                'anonymity but a combination of restricted access, audited use '
+                'and real penalties, so that re-identification is possible in '
+                'theory and pointless in practice.')),
+              ('Who should decide what gets published?',
+               ('Not the body that benefits from publishing, which is the '
+                'arrangement we usually have. I would want a panel that '
+                'includes people whose records are in the dataset, because '
+                'they are the only members with something to lose, and a '
+                'published record of what was refused as well as what was '
+                'approved.')),
+              ('Can a release of information ever be undone?',
+               ('Legally, sometimes. Practically, no, and that asymmetry is '
+                'the whole reason for caution. A file can be copied in a '
+                'second and deleted only where you know it is, so a decision '
+                'to release has to be taken as though it were permanent, '
+                'because for everybody affected it is.'))],
     intro=('Four or five sentences. Try once to say that a property depends '
            'on something outside the thing itself.'),
     qs=['Can information about people ever be made completely anonymous?',
@@ -1289,6 +1332,22 @@ UNIT = dict(
            'And says she would rather be told she is slow.')])],
    speak=dict(
     part='Part 3', focus='Regulating something that moves',
+    sounds=[('Parenthesis is marked by pausing and lowering, not by '
+             'punctuation you cannot hear. The data, once it is out, cannot be '
+             'recalled has the middle phrase quieter and faster than what '
+             'surrounds it.'),
+            ('This is how you add a qualification without losing the sentence. '
+             'Practise: anonymisation, as it is usually done, is reversible, '
+             'keeping the main clause at full volume.'),
+            ('If the parenthesis is said at the same level as the rest, the '
+             'listener loses which clause the verb belongs to, and a long '
+             'accurate sentence is marked as a confused one.'),
+            ('Take one long sentence from this unit\'s reading and say it aloud '
+             'three times, moving the parenthesis each time. Notice that only '
+             'one version is comfortable.'),
+            ('Record yourself on who should decide what data is published. '
+             'Find a sentence where you ran a qualification into the main '
+             'clause, and say it again with the drop.')],
     intro=('The hardest turn in the unit. Try once to distinguish a rule '
            'being slow from a rule being aimed at the wrong thing.'),
     qs=['Can laws keep up with new technology?',

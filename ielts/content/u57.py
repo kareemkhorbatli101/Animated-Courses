@@ -537,6 +537,32 @@ UNIT = dict(
            'Because it does the work and is the part a reader skims.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Categories',
+    longturn=[('The time I did not fit a category was on a hospital form '
+               'asking for my occupation, in a year when I was doing three '
+               'things and none of them full time.'),
+              ('What the form was asking for, I eventually worked out, was a '
+               'single occupational code from a list of about forty, which '
+               'would be used to classify me for a research database rather '
+               'than for my treatment.'),
+              ('Why I did not fit is that I was teaching two days a week on a '
+               'fixed-term contract, doing freelance editing, and acting as '
+               'the unpaid carer for a relative, which was in fact the largest '
+               'of the three by hours. There was no code for a combination and '
+               'no code for the third thing at all, and the form had no box '
+               'for anything else.'),
+              ('What I did was ask the receptionist, who said to put the one I '
+               'earned most from, which was the editing, and that is what the '
+               'database records. So I am in a research dataset as a self- '
+               'employed editor, which was true of about a quarter of my week.'),
+              ('How I think such forms should handle this is not by adding '
+               'more categories, because the next person will not fit those '
+               'either. I would ask for hours rather than identity: what did '
+               'you spend your time on last week, with three lines and no '
+               'requirement to total to one. That is harder to analyse and it '
+               'would have recorded the caring, which is the thing a health '
+               'research database would presumably most want to know about me, '
+               'and which the form as written made it impossible for me to '
+               'say.')],
     intro=('Short answers, then the long turn. The last bullet decides '
            'the band.'),
     cue=('Describe a time you did not fit a category on a form.',
@@ -1172,6 +1198,30 @@ UNIT = dict(
            'Which he calls the property you can actually have.')])],
    speak=dict(
     part='Part 3', focus='Lines and cases',
+    followup=[(('You would ask for hours rather than identity. Should rules '
+                'have exact limits?'),
+               ('Where the consequence is automatic, yes, because a vague rule '
+                'administered by officials is a lottery with no appeal. The '
+                'cost is the case just outside, and that cost is real; the '
+                'alternative distributes arbitrariness across everybody rather '
+                'than concentrating it at a visible line.')),
+              ('What should an official do when a case falls on the line?',
+               ('Apply the rule and record the case, which is the part usually '
+                'missing. The individual decision has to be predictable, and '
+                'somebody should be counting how often the line produces '
+                'absurd results, because that is the evidence for moving it.')),
+              ('Is it fairer to have a rule or to use judgement?',
+               ('Rules are fairer between cases and judgement is fairer within '
+                'them, so the answer depends on which unfairness is more '
+                'visible and more corrosive. For a benefit paid to millions I '
+                'would take the rule; for a sentence passed on one person I '
+                'would take the judgement, with reasons.')),
+              ('Do people accept decisions they disagree with?',
+               ('Much more readily than is assumed, provided they were heard '
+                'and told why. The research on this is consistent: perceived '
+                'fairness of process predicts acceptance better than the '
+                'outcome does, which is an argument for spending money on '
+                'explanation rather than on appeals.'))],
     intro=('Five or six sentences. Try once to say that a sharper rule '
            'does not remove the hard case.'),
     qs=['Should rules have exact limits?',
@@ -1526,6 +1576,20 @@ UNIT = dict(
            'Which is the reason he gives for keeping it unwritten.')])],
    speak=dict(
     part='Part 3', focus='Arguing about words',
+    sounds=[('Words about words are the trap of this unit: CAtegory on the '
+             'first, cateGORical on the third, deFInition on the third, '
+             'amBIguous on the second.'),
+            ('Say the pair category and categorical in one sentence. The '
+             'stress moves and almost everybody keeps it still.'),
+            ('The phrase falls on the line is one chunk with the stress on '
+             'line, and the phrase just outside it takes the stress on '
+             'outside.'),
+            ('Where you quote the wording of a rule, slow the quotation and '
+             'not the sentence around it. A quoted phrase said at the same '
+             'speed as your own words is not heard as a quotation at all.'),
+            ('Record yourself on whether rules should have exact limits. Find '
+             'a long word about language that you stressed early, and correct '
+             'it.')],
     intro=('The hardest turn in the unit. Try once to say when an argument '
            'about a word is not just about a word.'),
     qs=['Are arguments about definitions a waste of time?',

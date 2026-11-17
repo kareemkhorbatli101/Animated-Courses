@@ -390,6 +390,24 @@ UNIT = dict(
            'Which she says matters more than the money.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Neighbourhoods',
+    longturn=[('The place I want to describe is a flat on the third floor of '
+               'an old building near the centre of the city, where I lived '
+               'while I was studying.'),
+              ('I lived there for three years, which is the longest I have '
+               'stayed anywhere apart from my parents\' house.'),
+              ('The area was mixed in an interesting way. There was a market '
+               'on two mornings a week, a row of small shops that had been '
+               'there for decades, and then two new buildings at the end of '
+               'the street that nobody could afford. It was noisy until about '
+               'eleven and then completely quiet. You could walk everywhere, '
+               'which is the thing I miss most.'),
+              ('What I remember best is the market, and not for the food. The '
+               'same people had the same places every week, and after a few '
+               'months they knew what I bought. One of them used to put things '
+               'aside for me. I did not realise at the time how unusual that '
+               'was, and it is the thing I have not found since. When I think '
+               'about that flat I do not really think about the rooms; I think '
+               'about Thursday mornings.')],
     intro=('Short answers, then the long turn. Describe the street '
            'before you judge it.'),
     cue=('Describe a place where you have lived.',
@@ -1163,6 +1181,22 @@ UNIT = dict(
            'Which she calls the whole difficulty in one sentence.')])],
    speak=dict(
     part='Part 3', focus='Who new housing is built for',
+    sounds=[('Most unstressed vowels in English are the same sound, the schwa, '
+             'and long nouns are full of it: aFFORdable, deVElopment, '
+             'inFRAstructure, reGEneration. Say the stressed syllable clearly '
+             'and let the rest go.'),
+            ('A word you are proud of is a word you over-pronounce. Candidates '
+             'who have just learned affordability often say all five syllables '
+             'equally, which makes a well-chosen word sound rehearsed.'),
+            ('Take the five longest words from this unit\'s vocabulary. Clap '
+             'once on the stressed syllable and say the word at speaking '
+             'speed, not reading speed.'),
+            ('Check the schwa in your own city\'s name and in the words you use '
+             'for where you live. These are the words you will say most often '
+             'in Part 1.'),
+            ('Record one answer about housing, then read a transcript of it. '
+             'Circle any word of four syllables or more and check that only '
+             'one syllable in each is strong.')],
     intro=('Four or five sentences. Distinguish the market as a whole '
            'from one place.'),
     qs=['Does building more homes make housing cheaper?',

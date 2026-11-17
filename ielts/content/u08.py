@@ -381,6 +381,24 @@ UNIT = dict(
            'Which she says annoys her colleagues.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Meals',
+    longturn=[('The meal I want to talk about is a dinner at my grandmother\'s '
+               'house on the evening before my family moved to another city.'),
+              ('It was a completely ordinary meal, which is partly the point: '
+               'soup, bread, a chicken dish she made every few weeks, and a '
+               'cake she had bought rather than made, which was unusual for '
+               'her.'),
+              ('There were nine of us round a table that comfortably seats '
+               'six, so two people were on kitchen chairs and my cousin was on '
+               'a stool. It was her house, which she had lived in for forty '
+               'years, in a village about an hour from where we lived.'),
+              ('It mattered because of what nobody said. Everybody knew it was '
+               'the last time we would do that easily, and everybody talked '
+               'about other things: the car, the weather, somebody\'s exam '
+               'results. At the end my grandmother gave my mother the dish the '
+               'chicken had been cooked in, and that was the only moment '
+               'anybody came close to saying it. We still have the dish. I '
+               'could not tell you what we ate the week before or the week '
+               'after, but I can tell you where everybody was sitting.')],
     intro=('Short answers, then the long turn. Describe the meal '
            'before you explain why it mattered.'),
     cue=('Describe a meal that mattered to you.',
@@ -1178,6 +1196,20 @@ UNIT = dict(
            'Rather than about agriculture.')])],
    speak=dict(
     part='Part 3', focus='Measuring what matters in farming',
+    sounds=[('The -s ending has three sounds: s after a voiceless consonant in '
+             'crops, z after a voiced one in farms, and iz after a sibilant in '
+             'harvests. You do not choose; the sound before decides.'),
+            ('The -ed ending works the same way: t in packed, d in farmed, id '
+             'in exported. A candidate who says exportED and packED everywhere '
+             'is adding a syllable that is not there.'),
+            ('This matters for grammar, not just for sound. If the ending '
+             'disappears, the examiner cannot hear your tense, and a tense '
+             'error that was never made gets marked anyway.'),
+            ('Say these three pairs: it costs, it cost; they pack, they '
+             'packed; it rises, it rose. Then use each one in a sentence about '
+             'food prices.'),
+            ('Record thirty seconds on how far your food travels. Listen only '
+             'for endings, and count the ones you dropped.')],
     intro=('Four or five sentences. Say what a measure leaves out.'),
     qs=['How should we judge whether a farm is doing well?',
         'Do modern farming methods do more harm than good?',

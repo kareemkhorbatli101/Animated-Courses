@@ -476,6 +476,28 @@ UNIT = dict(
            'With the frequency review brought forward.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Streets',
+    longturn=[('The street I know best is the one I grew up on, a long '
+               'terraced street running downhill from a main road to a railway '
+               'bridge.'),
+              ('On it there are about ninety houses, almost all identical from '
+               'the outside, and at the top a corner shop that has changed '
+               'hands four times, a launderette, and a dental surgery in what '
+               'used to be two houses knocked together.'),
+              ('Who uses it has changed completely. When I was small it was '
+               'families, and the street was full of children because there '
+               'was nowhere else to be. It is now mostly rented, largely by '
+               'people in their twenties, and the cars are parked nose to tail '
+               'from the bridge to the main road, which is the single biggest '
+               'visible difference.'),
+              ('What I like about it is the thing that should not work: the '
+               'houses are too close together, and because of that everybody '
+               'knows everybody\'s business, which when I was fifteen I found '
+               'suffocating and now think is the whole value of the place. '
+               'What I dislike is the traffic, and specifically that it has '
+               'become a route rather than a destination. The street was built '
+               'before cars, and it is now the quickest way between two roads '
+               'that were built for them, which is nobody\'s fault and will not '
+               'be solved by asking people to drive more slowly.')],
     intro=('Short answers, then the long turn. The fourth bullet is the one '
            'that separates a band 6 from a band 7.'),
     cue=('Describe a street you know well.',
@@ -1006,6 +1028,28 @@ UNIT = dict(
            'overstated.')])],
    speak=dict(
     part='Part 3', focus='How a city should grow',
+    followup=[(('You say cities should grow upwards. Who pays when a city '
+                'spreads instead?'),
+               ('Everybody, but not at the same time, which is why the cost is '
+                'so easy to ignore. The developer pays for the houses and the '
+                'public pays for the roads, the schools and the sewers, and '
+                'those bills arrive over thirty years. Spreading is cheaper '
+                'for whoever builds and dearer for whoever is there '
+                'afterwards.')),
+              ('Is it reasonable for residents to object to new building?',
+               ('It is reasonable and it is also systematically unbalanced. '
+                'The people who would live in the new homes cannot attend the '
+                'meeting, because they are not there yet, so every hearing is '
+                'weighted towards those who already have one. I would not '
+                'remove the objection; I would require the decision to record '
+                'the interest nobody was present to state.')),
+              ('What happens to a city that builds very little?',
+               ('It does not stay the same, which is the assumption behind the '
+                'question. Demand moves into the existing stock, prices rise, '
+                'households share, and the people who cannot pay leave. So the '
+                'choice is not between change and no change; it is between '
+                'visible change and a slower change that shows up in who can '
+                'afford to live there.'))],
     intro=('Four or five sentences. Try once to name a cost that falls on '
            'somebody who is not present.'),
     qs=['Should cities grow upwards or outwards?',
@@ -1278,6 +1322,21 @@ UNIT = dict(
            'Which takes a paragraph and would have saved two years.')])],
    speak=dict(
     part='Part 3', focus='Evidence and local knowledge',
+    sounds=[('Phrasal verbs stress the particle, not the verb: the scheme fell '
+             'THROUGH, they pulled it DOWN, the plan was brought FORward. '
+             'Stressing the verb sounds like a translation.'),
+            ('When the object is a pronoun it goes in the middle: they pulled '
+             'it down, never they pulled down it. The rhythm will tell you '
+             'before the grammar does.'),
+            ('Practise the planning verbs of this unit inside sentences: the '
+             'application was turned DOWN, the street was closed OFF, the row '
+             'dragged ON for years.'),
+            ('A separable verb with a long object keeps the particle at the '
+             'end or moves it, and both are correct: they turned the '
+             'application down, they turned down the application. Say each and '
+             'keep the one that fits the rhythm you are in.'),
+            ('Record ninety seconds on how a city should grow. Mark your '
+             'phrasal verbs and check that the particle carried the stress.')],
     intro=('The hardest turn in the unit. Try once to say that two sources '
            'of evidence fail in different places.'),
     qs=['Should planning decisions be made by experts or by residents?',

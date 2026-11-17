@@ -5955,6 +5955,10 @@
      "sha": "e4491a8bd128",
      "w": 19
     },
+    "u1 c2 S longturn": {
+     "sha": "e80fef501550",
+     "w": 195
+    },
     "u1 c2 S qs": {
      "sha": "08377e02d45e",
      "w": 29
@@ -6111,6 +6115,10 @@
      "sha": "d6c14e2e6e75",
      "w": 33
     },
+    "u1 c5 S sounds": {
+     "sha": "55b91a071a5e",
+     "w": 169
+    },
     "u1 c5 W0 gap65": {
      "sha": "9ce4e1be462d",
      "w": 71
@@ -6250,6 +6258,10 @@
     "u10 c2 S intro": {
      "sha": "1260dabdafe2",
      "w": 16
+    },
+    "u10 c2 S longturn": {
+     "sha": "43b246d46de1",
+     "w": 187
     },
     "u10 c2 S qs": {
      "sha": "2b7e54803532",
@@ -6407,6 +6419,10 @@
      "sha": "6f8a43afc880",
      "w": 32
     },
+    "u10 c5 S sounds": {
+     "sha": "ac1761c148b8",
+     "w": 151
+    },
     "u10 c5 W0 gap65": {
      "sha": "aeea1dabca38",
      "w": 59
@@ -6546,6 +6562,10 @@
     "u2 c2 S intro": {
      "sha": "6bce3853df5e",
      "w": 15
+    },
+    "u2 c2 S longturn": {
+     "sha": "e4772d2c0299",
+     "w": 190
     },
     "u2 c2 S qs": {
      "sha": "dbac16e37753",
@@ -6703,6 +6723,10 @@
      "sha": "a84044cc15f5",
      "w": 38
     },
+    "u2 c5 S sounds": {
+     "sha": "9ac11ee39f63",
+     "w": 176
+    },
     "u2 c5 W0 gap65": {
      "sha": "2133252aaf03",
      "w": 75
@@ -6842,6 +6866,10 @@
     "u3 c2 S intro": {
      "sha": "ca4a3f4f0870",
      "w": 20
+    },
+    "u3 c2 S longturn": {
+     "sha": "c26e7935f1aa",
+     "w": 205
     },
     "u3 c2 S qs": {
      "sha": "ea2f2866f256",
@@ -6999,6 +7027,10 @@
      "sha": "3f906a15e4af",
      "w": 29
     },
+    "u3 c5 S sounds": {
+     "sha": "dd60681fe654",
+     "w": 159
+    },
     "u3 c5 W0 gap65": {
      "sha": "3cb334990ded",
      "w": 53
@@ -7138,6 +7170,10 @@
     "u4 c2 S intro": {
      "sha": "abb84b52f802",
      "w": 17
+    },
+    "u4 c2 S longturn": {
+     "sha": "589a79c41b3d",
+     "w": 202
     },
     "u4 c2 S qs": {
      "sha": "cef3f63b81e2",
@@ -7295,6 +7331,10 @@
      "sha": "15bd2ae7affe",
      "w": 34
     },
+    "u4 c5 S sounds": {
+     "sha": "a66569b12e86",
+     "w": 172
+    },
     "u4 c5 W0 gap65": {
      "sha": "0a13239525c1",
      "w": 66
@@ -7434,6 +7474,10 @@
     "u5 c2 S intro": {
      "sha": "5625c18c1120",
      "w": 13
+    },
+    "u5 c2 S longturn": {
+     "sha": "8451d4602a8e",
+     "w": 202
     },
     "u5 c2 S qs": {
      "sha": "efd4df5b01e1",
@@ -7591,6 +7635,10 @@
      "sha": "8f355389826c",
      "w": 30
     },
+    "u5 c5 S sounds": {
+     "sha": "e6c67af55744",
+     "w": 168
+    },
     "u5 c5 W0 gap65": {
      "sha": "97bccba337eb",
      "w": 57
@@ -7730,6 +7778,10 @@
     "u6 c2 S intro": {
      "sha": "2d869bf74b11",
      "w": 12
+    },
+    "u6 c2 S longturn": {
+     "sha": "99342182b59b",
+     "w": 201
     },
     "u6 c2 S qs": {
      "sha": "05b189d7fdd9",
@@ -7887,6 +7939,10 @@
      "sha": "dd0747ed5400",
      "w": 29
     },
+    "u6 c5 S sounds": {
+     "sha": "f6d3a482bcc9",
+     "w": 154
+    },
     "u6 c5 W0 gap65": {
      "sha": "8519510f711d",
      "w": 53
@@ -8026,6 +8082,10 @@
     "u7 c2 S intro": {
      "sha": "bac223c4867e",
      "w": 13
+    },
+    "u7 c2 S longturn": {
+     "sha": "c0d949bd9afe",
+     "w": 194
     },
     "u7 c2 S qs": {
      "sha": "a9d28e048bd5",
@@ -8183,6 +8243,10 @@
      "sha": "2af12425c2f3",
      "w": 28
     },
+    "u7 c5 S sounds": {
+     "sha": "23a2b38dc6c4",
+     "w": 146
+    },
     "u7 c5 W0 gap65": {
      "sha": "9e6c025ef534",
      "w": 55
@@ -8322,6 +8386,10 @@
     "u8 c2 S intro": {
      "sha": "b22f8e84dbe0",
      "w": 15
+    },
+    "u8 c2 S longturn": {
+     "sha": "9a627265c91f",
+     "w": 196
     },
     "u8 c2 S qs": {
      "sha": "8f9cd6ab9688",
@@ -8483,6 +8551,10 @@
      "sha": "f44ba993dbda",
      "w": 34
     },
+    "u8 c5 S sounds": {
+     "sha": "bda2bf43b070",
+     "w": 141
+    },
     "u8 c5 W0 gap65": {
      "sha": "ec10e19ac89c",
      "w": 62
@@ -8626,6 +8698,10 @@
     "u9 c2 S intro": {
      "sha": "dbcede9e6596",
      "w": 12
+    },
+    "u9 c2 S longturn": {
+     "sha": "5e5d5a583a3e",
+     "w": 192
     },
     "u9 c2 S qs": {
      "sha": "83fe0a3526db",
@@ -8782,6 +8858,10 @@
     "u9 c5 S qs": {
      "sha": "ea44524e9a9e",
      "w": 39
+    },
+    "u9 c5 S sounds": {
+     "sha": "bb130edd5b9e",
+     "w": 155
     },
     "u9 c5 W0 gap65": {
      "sha": "b991afa2e2a7",
@@ -15450,6 +15530,10 @@
      "sha": "36f693ed28e7",
      "w": 12
     },
+    "u11 c2 S longturn": {
+     "sha": "9b5443c25b20",
+     "w": 230
+    },
     "u11 c2 S qs": {
      "sha": "5921cf6262a1",
      "w": 42
@@ -15606,6 +15690,10 @@
      "sha": "d0ad7ecdce92",
      "w": 38
     },
+    "u11 c5 S sounds": {
+     "sha": "21d6b40a0397",
+     "w": 147
+    },
     "u11 c5 W0 gap65": {
      "sha": "6e663a2d5361",
      "w": 59
@@ -15749,6 +15837,10 @@
     "u12 c2 S intro": {
      "sha": "cb229d5e36a7",
      "w": 16
+    },
+    "u12 c2 S longturn": {
+     "sha": "998243c37dbd",
+     "w": 216
     },
     "u12 c2 S qs": {
      "sha": "824308536970",
@@ -15906,6 +15998,10 @@
      "sha": "865172c47bbe",
      "w": 37
     },
+    "u12 c5 S sounds": {
+     "sha": "088131e2a5fa",
+     "w": 155
+    },
     "u12 c5 W0 gap65": {
      "sha": "df1bb4137b4b",
      "w": 65
@@ -16049,6 +16145,10 @@
     "u13 c2 S intro": {
      "sha": "0a59579ca604",
      "w": 16
+    },
+    "u13 c2 S longturn": {
+     "sha": "11b0c913ac47",
+     "w": 204
     },
     "u13 c2 S qs": {
      "sha": "e4f86c4d8a0b",
@@ -16206,6 +16306,10 @@
      "sha": "be26f2b85743",
      "w": 32
     },
+    "u13 c5 S sounds": {
+     "sha": "a4f257792651",
+     "w": 152
+    },
     "u13 c5 W0 gap65": {
      "sha": "2cd086810869",
      "w": 60
@@ -16349,6 +16453,10 @@
     "u14 c2 S intro": {
      "sha": "0fc34a3a5f38",
      "w": 12
+    },
+    "u14 c2 S longturn": {
+     "sha": "fae81e82f719",
+     "w": 202
     },
     "u14 c2 S qs": {
      "sha": "82b4704dd18a",
@@ -16506,6 +16614,10 @@
      "sha": "5fdc44addb0e",
      "w": 33
     },
+    "u14 c5 S sounds": {
+     "sha": "9dcf03956b02",
+     "w": 161
+    },
     "u14 c5 W0 gap65": {
      "sha": "856bdd1ad4c6",
      "w": 52
@@ -16649,6 +16761,10 @@
     "u15 c2 S intro": {
      "sha": "312e143f9b6d",
      "w": 14
+    },
+    "u15 c2 S longturn": {
+     "sha": "86e9b4eaaac6",
+     "w": 214
     },
     "u15 c2 S qs": {
      "sha": "c2dc8c032c86",
@@ -16806,6 +16922,10 @@
      "sha": "9134a6a18522",
      "w": 25
     },
+    "u15 c5 S sounds": {
+     "sha": "f1ce9232cac8",
+     "w": 163
+    },
     "u15 c5 W0 gap65": {
      "sha": "414d6a909ccd",
      "w": 54
@@ -16945,6 +17065,10 @@
     "u16 c2 S intro": {
      "sha": "768f3f294dac",
      "w": 12
+    },
+    "u16 c2 S longturn": {
+     "sha": "9ed9939e9b9b",
+     "w": 204
     },
     "u16 c2 S qs": {
      "sha": "e727588d3489",
@@ -17106,6 +17230,10 @@
      "sha": "c410ffe1cb6a",
      "w": 26
     },
+    "u16 c5 S sounds": {
+     "sha": "165720a493a0",
+     "w": 138
+    },
     "u16 c5 W0 gap65": {
      "sha": "f892d5bb182c",
      "w": 61
@@ -17249,6 +17377,10 @@
     "u17 c2 S intro": {
      "sha": "94798c13bcf0",
      "w": 13
+    },
+    "u17 c2 S longturn": {
+     "sha": "7809d0b01d75",
+     "w": 212
     },
     "u17 c2 S qs": {
      "sha": "ecb06f07c36e",
@@ -17406,6 +17538,10 @@
      "sha": "9438150e3fda",
      "w": 26
     },
+    "u17 c5 S sounds": {
+     "sha": "c5326684d9e1",
+     "w": 159
+    },
     "u17 c5 W0 gap65": {
      "sha": "c59092da7810",
      "w": 56
@@ -17549,6 +17685,10 @@
     "u18 c2 S intro": {
      "sha": "95047bf43425",
      "w": 18
+    },
+    "u18 c2 S longturn": {
+     "sha": "271eac59b1ee",
+     "w": 205
     },
     "u18 c2 S qs": {
      "sha": "4fcb96906d75",
@@ -17706,6 +17846,10 @@
      "sha": "4346fd295218",
      "w": 31
     },
+    "u18 c5 S sounds": {
+     "sha": "a4cd61e550b6",
+     "w": 141
+    },
     "u18 c5 W0 gap65": {
      "sha": "88739c9cdc19",
      "w": 46
@@ -17845,6 +17989,10 @@
     "u19 c2 S intro": {
      "sha": "374b7b403022",
      "w": 17
+    },
+    "u19 c2 S longturn": {
+     "sha": "a761aa2a701b",
+     "w": 203
     },
     "u19 c2 S qs": {
      "sha": "88140d8f83d3",
@@ -18002,6 +18150,10 @@
      "sha": "3b68d4012e25",
      "w": 31
     },
+    "u19 c5 S sounds": {
+     "sha": "b9d38d8d87e4",
+     "w": 147
+    },
     "u19 c5 W0 gap65": {
      "sha": "f5e2c6da97a4",
      "w": 56
@@ -18145,6 +18297,10 @@
     "u20 c2 S intro": {
      "sha": "9bd6ef685115",
      "w": 14
+    },
+    "u20 c2 S longturn": {
+     "sha": "577abe4dcde0",
+     "w": 197
     },
     "u20 c2 S qs": {
      "sha": "0c19e716ad2b",
@@ -18301,6 +18457,10 @@
     "u20 c5 S qs": {
      "sha": "21bd344496a6",
      "w": 33
+    },
+    "u20 c5 S sounds": {
+     "sha": "e71237bce263",
+     "w": 153
     },
     "u20 c5 W0 gap65": {
      "sha": "73164b3286b3",
@@ -24735,6 +24895,10 @@
      "sha": "1cf7047bfb0f",
      "w": 19
     },
+    "u21 c2 S longturn": {
+     "sha": "da7ba6ebecbb",
+     "w": 258
+    },
     "u21 c2 S qs": {
      "sha": "13155586c4e8",
      "w": 38
@@ -24835,6 +24999,10 @@
      "sha": "b9cd7c5e82b3",
      "w": 6
     },
+    "u21 c4 S followup": {
+     "sha": "b7e3274b0883",
+     "w": 230
+    },
     "u21 c4 S intro": {
      "sha": "dfa2a09f9c97",
      "w": 13
@@ -24890,6 +25058,10 @@
     "u21 c5 S qs": {
      "sha": "e900db0af336",
      "w": 36
+    },
+    "u21 c5 S sounds": {
+     "sha": "46422e96d77f",
+     "w": 141
     },
     "u21 c5 W0 gap65": {
      "sha": "22e038e08b50",
@@ -25039,6 +25211,10 @@
      "sha": "db0478256263",
      "w": 16
     },
+    "u22 c2 S longturn": {
+     "sha": "31e05cbaa0f3",
+     "w": 229
+    },
     "u22 c2 S qs": {
      "sha": "a3b37b0dec66",
      "w": 37
@@ -25139,6 +25315,10 @@
      "sha": "ea6ae1a4dcea",
      "w": 9
     },
+    "u22 c4 S followup": {
+     "sha": "c01d5f7b7c27",
+     "w": 216
+    },
     "u22 c4 S intro": {
      "sha": "0a118bc1a11d",
      "w": 16
@@ -25194,6 +25374,10 @@
     "u22 c5 S qs": {
      "sha": "1b4947c238de",
      "w": 35
+    },
+    "u22 c5 S sounds": {
+     "sha": "7a3a5ea02b62",
+     "w": 134
     },
     "u22 c5 W0 gap65": {
      "sha": "14e73d3fad5e",
@@ -25339,6 +25523,10 @@
      "sha": "2200535c26cb",
      "w": 17
     },
+    "u23 c2 S longturn": {
+     "sha": "b320b684d9eb",
+     "w": 252
+    },
     "u23 c2 S qs": {
      "sha": "c145ca614359",
      "w": 38
@@ -25439,6 +25627,10 @@
      "sha": "9a7b65a19354",
      "w": 9
     },
+    "u23 c4 S followup": {
+     "sha": "7a6a41de2ce4",
+     "w": 194
+    },
     "u23 c4 S intro": {
      "sha": "aa00f47bfa09",
      "w": 18
@@ -25494,6 +25686,10 @@
     "u23 c5 S qs": {
      "sha": "089e6d4156b8",
      "w": 34
+    },
+    "u23 c5 S sounds": {
+     "sha": "7d8bcdf01dad",
+     "w": 143
     },
     "u23 c5 W0 gap65": {
      "sha": "2ed7b3bc2470",
@@ -25639,6 +25835,10 @@
      "sha": "2200535c26cb",
      "w": 17
     },
+    "u24 c2 S longturn": {
+     "sha": "a973636551fe",
+     "w": 226
+    },
     "u24 c2 S qs": {
      "sha": "880c836bcc46",
      "w": 39
@@ -25739,6 +25939,10 @@
      "sha": "19f4a6eae473",
      "w": 10
     },
+    "u24 c4 S followup": {
+     "sha": "2b340688c9dd",
+     "w": 198
+    },
     "u24 c4 S intro": {
      "sha": "39b4a6d50fae",
      "w": 15
@@ -25794,6 +25998,10 @@
     "u24 c5 S qs": {
      "sha": "adcc9897ba7c",
      "w": 35
+    },
+    "u24 c5 S sounds": {
+     "sha": "b23243527c67",
+     "w": 157
     },
     "u24 c5 W0 gap65": {
      "sha": "eb5e3bb472ef",
@@ -25939,6 +26147,10 @@
      "sha": "5d5ffbead33d",
      "w": 18
     },
+    "u25 c2 S longturn": {
+     "sha": "66202a374109",
+     "w": 236
+    },
     "u25 c2 S qs": {
      "sha": "b2126e844470",
      "w": 39
@@ -26039,6 +26251,10 @@
      "sha": "4cae3375ad4d",
      "w": 5
     },
+    "u25 c4 S followup": {
+     "sha": "0988c41d070a",
+     "w": 176
+    },
     "u25 c4 S intro": {
      "sha": "b7d4f7bf56a9",
      "w": 18
@@ -26094,6 +26310,10 @@
     "u25 c5 S qs": {
      "sha": "b3dd136bf402",
      "w": 33
+    },
+    "u25 c5 S sounds": {
+     "sha": "c85b7372e3f2",
+     "w": 147
     },
     "u25 c5 W0 gap65": {
      "sha": "2ed5ab7ecdfb",
@@ -26239,6 +26459,10 @@
      "sha": "032daf6a2c32",
      "w": 19
     },
+    "u26 c2 S longturn": {
+     "sha": "fd59d1735c3b",
+     "w": 237
+    },
     "u26 c2 S qs": {
      "sha": "4af8f72887f8",
      "w": 37
@@ -26339,6 +26563,10 @@
      "sha": "806962ee8d8e",
      "w": 5
     },
+    "u26 c4 S followup": {
+     "sha": "b4c51694f466",
+     "w": 218
+    },
     "u26 c4 S intro": {
      "sha": "e0d78f90d396",
      "w": 13
@@ -26394,6 +26622,10 @@
     "u26 c5 S qs": {
      "sha": "134c59b5bfbe",
      "w": 29
+    },
+    "u26 c5 S sounds": {
+     "sha": "cfe3277e0741",
+     "w": 120
     },
     "u26 c5 W0 gap65": {
      "sha": "9303532554b1",
@@ -26539,6 +26771,10 @@
      "sha": "0b9be8b0bc1e",
      "w": 21
     },
+    "u27 c2 S longturn": {
+     "sha": "4ff99a9fdbe0",
+     "w": 226
+    },
     "u27 c2 S qs": {
      "sha": "98cf8506d013",
      "w": 38
@@ -26639,6 +26875,10 @@
      "sha": "0624f54034d9",
      "w": 6
     },
+    "u27 c4 S followup": {
+     "sha": "2bcc14c3da23",
+     "w": 205
+    },
     "u27 c4 S intro": {
      "sha": "60da1df5b666",
      "w": 18
@@ -26694,6 +26934,10 @@
     "u27 c5 S qs": {
      "sha": "4ecbd9141384",
      "w": 35
+    },
+    "u27 c5 S sounds": {
+     "sha": "b4618e34fc68",
+     "w": 146
     },
     "u27 c5 W0 gap65": {
      "sha": "7d2f427e4e98",
@@ -26839,6 +27083,10 @@
      "sha": "7b1c399f1cb4",
      "w": 19
     },
+    "u28 c2 S longturn": {
+     "sha": "5f592790c310",
+     "w": 212
+    },
     "u28 c2 S qs": {
      "sha": "7a91a8d82fc0",
      "w": 39
@@ -26939,6 +27187,10 @@
      "sha": "3b7b1ebe8b5d",
      "w": 7
     },
+    "u28 c4 S followup": {
+     "sha": "e643fb96fd80",
+     "w": 201
+    },
     "u28 c4 S intro": {
      "sha": "4e51188046c5",
      "w": 13
@@ -26994,6 +27246,10 @@
     "u28 c5 S qs": {
      "sha": "d3b5ef494198",
      "w": 29
+    },
+    "u28 c5 S sounds": {
+     "sha": "ada3a26d4e7f",
+     "w": 138
     },
     "u28 c5 W0 gap65": {
      "sha": "2363c5867bdd",
@@ -27139,6 +27395,10 @@
      "sha": "408d011e2f82",
      "w": 17
     },
+    "u29 c2 S longturn": {
+     "sha": "80af5ec74591",
+     "w": 221
+    },
     "u29 c2 S qs": {
      "sha": "480f86a65f00",
      "w": 35
@@ -27239,6 +27499,10 @@
      "sha": "87b3c8d87f2e",
      "w": 8
     },
+    "u29 c4 S followup": {
+     "sha": "c7bc96eacee0",
+     "w": 195
+    },
     "u29 c4 S intro": {
      "sha": "1b24f33cc5a2",
      "w": 14
@@ -27294,6 +27558,10 @@
     "u29 c5 S qs": {
      "sha": "acd50441cd12",
      "w": 32
+    },
+    "u29 c5 S sounds": {
+     "sha": "8ddaa245263f",
+     "w": 131
     },
     "u29 c5 W0 gap65": {
      "sha": "e9d37d5d00c0",
@@ -27439,6 +27707,10 @@
      "sha": "df0cb66a4942",
      "w": 12
     },
+    "u30 c2 S longturn": {
+     "sha": "e9b5acbfafed",
+     "w": 234
+    },
     "u30 c2 S qs": {
      "sha": "2c3ffc0f42e6",
      "w": 37
@@ -27539,6 +27811,10 @@
      "sha": "3a42ff214d87",
      "w": 7
     },
+    "u30 c4 S followup": {
+     "sha": "88bc6928200f",
+     "w": 190
+    },
     "u30 c4 S intro": {
      "sha": "faef6b12311b",
      "w": 18
@@ -27594,6 +27870,10 @@
     "u30 c5 S qs": {
      "sha": "ad1aa4db5f8b",
      "w": 23
+    },
+    "u30 c5 S sounds": {
+     "sha": "5aaf2de76f89",
+     "w": 143
     },
     "u30 c5 W0 gap65": {
      "sha": "b4d7c8236718",
@@ -34085,6 +34365,10 @@
      "sha": "33cda4b6462a",
      "w": 44
     },
+    "u31 c2 S longturn": {
+     "sha": "198e1f9eb926",
+     "w": 256
+    },
     "u31 c2 S qs": {
      "sha": "f7ed2ffb371e",
      "w": 44
@@ -34185,6 +34469,10 @@
      "sha": "c5880dd61d1f",
      "w": 9
     },
+    "u31 c4 S followup": {
+     "sha": "f57ac057980d",
+     "w": 186
+    },
     "u31 c4 S intro": {
      "sha": "c8d7bd5444c5",
      "w": 29
@@ -34240,6 +34528,10 @@
     "u31 c5 S qs": {
      "sha": "4de8c2d70a37",
      "w": 44
+    },
+    "u31 c5 S sounds": {
+     "sha": "4ec54a763655",
+     "w": 148
     },
     "u31 c5 W0 gap65": {
      "sha": "c74637cf5e52",
@@ -34385,6 +34677,10 @@
      "sha": "223d3f9d64ac",
      "w": 30
     },
+    "u32 c2 S longturn": {
+     "sha": "ce701a55ccd3",
+     "w": 241
+    },
     "u32 c2 S qs": {
      "sha": "3148b6aa1242",
      "w": 42
@@ -34485,6 +34781,10 @@
      "sha": "6bd4743fb965",
      "w": 5
     },
+    "u32 c4 S followup": {
+     "sha": "43d172702f02",
+     "w": 177
+    },
     "u32 c4 S intro": {
      "sha": "20de2d0e50e8",
      "w": 25
@@ -34540,6 +34840,10 @@
     "u32 c5 S qs": {
      "sha": "702140ae9e01",
      "w": 45
+    },
+    "u32 c5 S sounds": {
+     "sha": "93f5fa0d08e0",
+     "w": 124
     },
     "u32 c5 W0 gap65": {
      "sha": "9258d3263d4f",
@@ -34685,6 +34989,10 @@
      "sha": "b8eadaff1fc7",
      "w": 19
     },
+    "u33 c2 S longturn": {
+     "sha": "28269969c483",
+     "w": 231
+    },
     "u33 c2 S qs": {
      "sha": "8735227546ee",
      "w": 36
@@ -34785,6 +35093,10 @@
      "sha": "f6982a10bc2d",
      "w": 5
     },
+    "u33 c4 S followup": {
+     "sha": "e35e3f938059",
+     "w": 180
+    },
     "u33 c4 S intro": {
      "sha": "cdd9ce6dc047",
      "w": 25
@@ -34840,6 +35152,10 @@
     "u33 c5 S qs": {
      "sha": "c954e7af6223",
      "w": 39
+    },
+    "u33 c5 S sounds": {
+     "sha": "eca1ceff286e",
+     "w": 138
     },
     "u33 c5 W0 gap65": {
      "sha": "6ac604c616d8",
@@ -34985,6 +35301,10 @@
      "sha": "725f3116d533",
      "w": 18
     },
+    "u34 c2 S longturn": {
+     "sha": "d1de10433518",
+     "w": 226
+    },
     "u34 c2 S qs": {
      "sha": "f4b54734d91d",
      "w": 33
@@ -35085,6 +35405,10 @@
      "sha": "728eaf73d6d6",
      "w": 6
     },
+    "u34 c4 S followup": {
+     "sha": "99b388e3db4e",
+     "w": 178
+    },
     "u34 c4 S intro": {
      "sha": "78b638f88173",
      "w": 26
@@ -35140,6 +35464,10 @@
     "u34 c5 S qs": {
      "sha": "459b3e9ed39d",
      "w": 38
+    },
+    "u34 c5 S sounds": {
+     "sha": "d6df5af83408",
+     "w": 123
     },
     "u34 c5 W0 gap65": {
      "sha": "24c90bfc28c1",
@@ -35285,6 +35613,10 @@
      "sha": "e9eafc1afd9f",
      "w": 19
     },
+    "u35 c2 S longturn": {
+     "sha": "0d144819dd6d",
+     "w": 235
+    },
     "u35 c2 S qs": {
      "sha": "e26ffcd4986e",
      "w": 41
@@ -35385,6 +35717,10 @@
      "sha": "2e16cdccf4eb",
      "w": 5
     },
+    "u35 c4 S followup": {
+     "sha": "3cebc59b90c0",
+     "w": 188
+    },
     "u35 c4 S intro": {
      "sha": "670a03560d43",
      "w": 20
@@ -35440,6 +35776,10 @@
     "u35 c5 S qs": {
      "sha": "37c364380e30",
      "w": 45
+    },
+    "u35 c5 S sounds": {
+     "sha": "3d9239991659",
+     "w": 134
     },
     "u35 c5 W0 gap65": {
      "sha": "01f4a9fc5440",
@@ -35585,6 +35925,10 @@
      "sha": "55a847e31980",
      "w": 17
     },
+    "u36 c2 S longturn": {
+     "sha": "ceec25efe2d1",
+     "w": 229
+    },
     "u36 c2 S qs": {
      "sha": "5c11147225c8",
      "w": 40
@@ -35685,6 +36029,10 @@
      "sha": "a856145256b2",
      "w": 6
     },
+    "u36 c4 S followup": {
+     "sha": "6bea294525a4",
+     "w": 182
+    },
     "u36 c4 S intro": {
      "sha": "64595540c9b1",
      "w": 16
@@ -35740,6 +36088,10 @@
     "u36 c5 S qs": {
      "sha": "bc6463e9ed6d",
      "w": 38
+    },
+    "u36 c5 S sounds": {
+     "sha": "3b9360667c0b",
+     "w": 122
     },
     "u36 c5 W0 gap65": {
      "sha": "ee1de070f8df",
@@ -35889,6 +36241,10 @@
      "sha": "804ec58b3587",
      "w": 18
     },
+    "u37 c2 S longturn": {
+     "sha": "07cc5ab32ece",
+     "w": 230
+    },
     "u37 c2 S qs": {
      "sha": "8051166249b5",
      "w": 41
@@ -35989,6 +36345,10 @@
      "sha": "efbeff711bd8",
      "w": 8
     },
+    "u37 c4 S followup": {
+     "sha": "91c2308cb22d",
+     "w": 174
+    },
     "u37 c4 S intro": {
      "sha": "494eb887d559",
      "w": 16
@@ -36048,6 +36408,10 @@
     "u37 c5 S qs": {
      "sha": "bce0f42168b3",
      "w": 40
+    },
+    "u37 c5 S sounds": {
+     "sha": "7f76f42983cb",
+     "w": 130
     },
     "u37 c5 W0 gap65": {
      "sha": "a0034a20db46",
@@ -36197,6 +36561,10 @@
      "sha": "b2ec1742fde0",
      "w": 20
     },
+    "u38 c2 S longturn": {
+     "sha": "32df587054ff",
+     "w": 242
+    },
     "u38 c2 S qs": {
      "sha": "de09d72453e5",
      "w": 35
@@ -36297,6 +36665,10 @@
      "sha": "8162faaa073f",
      "w": 4
     },
+    "u38 c4 S followup": {
+     "sha": "9a06e008a52d",
+     "w": 183
+    },
     "u38 c4 S intro": {
      "sha": "efb5af77fd44",
      "w": 16
@@ -36352,6 +36724,10 @@
     "u38 c5 S qs": {
      "sha": "542b423cafe0",
      "w": 41
+    },
+    "u38 c5 S sounds": {
+     "sha": "a730f29dcfbb",
+     "w": 139
     },
     "u38 c5 W0 gap65": {
      "sha": "0cb5d1064f34",
@@ -36501,6 +36877,10 @@
      "sha": "50f49fa8468f",
      "w": 13
     },
+    "u39 c2 S longturn": {
+     "sha": "9da96270f518",
+     "w": 240
+    },
     "u39 c2 S qs": {
      "sha": "4b2623e6799a",
      "w": 41
@@ -36601,6 +36981,10 @@
      "sha": "8dabe4f8b353",
      "w": 5
     },
+    "u39 c4 S followup": {
+     "sha": "a57d509b8227",
+     "w": 192
+    },
     "u39 c4 S intro": {
      "sha": "b9b72eb1bf20",
      "w": 15
@@ -36656,6 +37040,10 @@
     "u39 c5 S qs": {
      "sha": "24e1363a19fa",
      "w": 43
+    },
+    "u39 c5 S sounds": {
+     "sha": "1c03292661ad",
+     "w": 132
     },
     "u39 c5 W0 gap65": {
      "sha": "6a04c3f6cbad",
@@ -36801,6 +37189,10 @@
      "sha": "de12ca23e02c",
      "w": 17
     },
+    "u40 c2 S longturn": {
+     "sha": "95ad7ba10b03",
+     "w": 231
+    },
     "u40 c2 S qs": {
      "sha": "fbb8c098c4d0",
      "w": 38
@@ -36901,6 +37293,10 @@
      "sha": "3c6c8ca49966",
      "w": 6
     },
+    "u40 c4 S followup": {
+     "sha": "32dd26711fb1",
+     "w": 176
+    },
     "u40 c4 S intro": {
      "sha": "3e9b50d2b9ca",
      "w": 16
@@ -36960,6 +37356,10 @@
     "u40 c5 S qs": {
      "sha": "df7f7ed2d4bf",
      "w": 31
+    },
+    "u40 c5 S sounds": {
+     "sha": "6a61ef8879ed",
+     "w": 124
     },
     "u40 c5 W0 gap65": {
      "sha": "89730131205b",
@@ -43672,6 +44072,10 @@
      "sha": "f32cfb12ebab",
      "w": 21
     },
+    "u41 c2 S longturn": {
+     "sha": "07e47dccf6a9",
+     "w": 281
+    },
     "u41 c2 S qs": {
      "sha": "c87ee5a5c3d2",
      "w": 36
@@ -43772,6 +44176,10 @@
      "sha": "42b51c097c22",
      "w": 4
     },
+    "u41 c4 S followup": {
+     "sha": "dd9933ae6545",
+     "w": 236
+    },
     "u41 c4 S intro": {
      "sha": "83ec2cf8b6fc",
      "w": 21
@@ -43827,6 +44235,10 @@
     "u41 c5 S qs": {
      "sha": "615fa9ebdf7c",
      "w": 28
+    },
+    "u41 c5 S sounds": {
+     "sha": "b3ebcf1d620b",
+     "w": 137
     },
     "u41 c5 W0 gap65": {
      "sha": "f66a18ad5db6",
@@ -43972,6 +44384,10 @@
      "sha": "48ab7635b187",
      "w": 19
     },
+    "u42 c2 S longturn": {
+     "sha": "e9a7d8e2abc9",
+     "w": 261
+    },
     "u42 c2 S qs": {
      "sha": "ad6fd008c3fc",
      "w": 38
@@ -44072,6 +44488,10 @@
      "sha": "1ef2bf1129fa",
      "w": 8
     },
+    "u42 c4 S followup": {
+     "sha": "11d8df1b466c",
+     "w": 261
+    },
     "u42 c4 S intro": {
      "sha": "a525163ee420",
      "w": 20
@@ -44127,6 +44547,10 @@
     "u42 c5 S qs": {
      "sha": "44f08c93547a",
      "w": 36
+    },
+    "u42 c5 S sounds": {
+     "sha": "4b4a651764da",
+     "w": 140
     },
     "u42 c5 W0 gap65": {
      "sha": "1866a62e274f",
@@ -44272,6 +44696,10 @@
      "sha": "c5c9fec2a31e",
      "w": 20
     },
+    "u43 c2 S longturn": {
+     "sha": "f186d46eaa6c",
+     "w": 255
+    },
     "u43 c2 S qs": {
      "sha": "1d3f679756cc",
      "w": 35
@@ -44372,6 +44800,10 @@
      "sha": "f08623823cfd",
      "w": 5
     },
+    "u43 c4 S followup": {
+     "sha": "f6847a6146aa",
+     "w": 232
+    },
     "u43 c4 S intro": {
      "sha": "485a621b5b10",
      "w": 19
@@ -44427,6 +44859,10 @@
     "u43 c5 S qs": {
      "sha": "bbe789a47cc0",
      "w": 32
+    },
+    "u43 c5 S sounds": {
+     "sha": "0efc537c1e7f",
+     "w": 131
     },
     "u43 c5 W0 gap65": {
      "sha": "b499f917e254",
@@ -44572,6 +45008,10 @@
      "sha": "a7f40dc19752",
      "w": 13
     },
+    "u44 c2 S longturn": {
+     "sha": "386a2fc6dead",
+     "w": 247
+    },
     "u44 c2 S qs": {
      "sha": "708ade231fb7",
      "w": 34
@@ -44672,6 +45112,10 @@
      "sha": "ab83655d46e8",
      "w": 6
     },
+    "u44 c4 S followup": {
+     "sha": "40692181596d",
+     "w": 218
+    },
     "u44 c4 S intro": {
      "sha": "145f7148c8aa",
      "w": 16
@@ -44727,6 +45171,10 @@
     "u44 c5 S qs": {
      "sha": "c52906c245e6",
      "w": 30
+    },
+    "u44 c5 S sounds": {
+     "sha": "cda0a3fcfcd6",
+     "w": 132
     },
     "u44 c5 W0 gap65": {
      "sha": "da1b95b89c7a",
@@ -44872,6 +45320,10 @@
      "sha": "6d197c771b82",
      "w": 15
     },
+    "u45 c2 S longturn": {
+     "sha": "4a86f96fd24a",
+     "w": 267
+    },
     "u45 c2 S qs": {
      "sha": "d6de3f14c7ff",
      "w": 35
@@ -44972,6 +45424,10 @@
      "sha": "2b65dc682b35",
      "w": 10
     },
+    "u45 c4 S followup": {
+     "sha": "cc1159e38e79",
+     "w": 233
+    },
     "u45 c4 S intro": {
      "sha": "c943b55ec543",
      "w": 18
@@ -45027,6 +45483,10 @@
     "u45 c5 S qs": {
      "sha": "e28de10bf763",
      "w": 28
+    },
+    "u45 c5 S sounds": {
+     "sha": "a787e327da4c",
+     "w": 122
     },
     "u45 c5 W0 gap65": {
      "sha": "f78531338813",
@@ -45172,6 +45632,10 @@
      "sha": "34a7af65ad3f",
      "w": 13
     },
+    "u46 c2 S longturn": {
+     "sha": "80ab2c11e839",
+     "w": 259
+    },
     "u46 c2 S qs": {
      "sha": "85c23698cf75",
      "w": 37
@@ -45272,6 +45736,10 @@
      "sha": "02e6dd4f756b",
      "w": 7
     },
+    "u46 c4 S followup": {
+     "sha": "8fc749fc9cd3",
+     "w": 215
+    },
     "u46 c4 S intro": {
      "sha": "45c6b089ec0c",
      "w": 18
@@ -45327,6 +45795,10 @@
     "u46 c5 S qs": {
      "sha": "7de654dc253e",
      "w": 32
+    },
+    "u46 c5 S sounds": {
+     "sha": "e51f56f7bee7",
+     "w": 114
     },
     "u46 c5 W0 gap65": {
      "sha": "4d0b5ef37c56",
@@ -45472,6 +45944,10 @@
      "sha": "4840a951bea2",
      "w": 12
     },
+    "u47 c2 S longturn": {
+     "sha": "e32100706f0c",
+     "w": 279
+    },
     "u47 c2 S qs": {
      "sha": "4438bd60a0a1",
      "w": 34
@@ -45572,6 +46048,10 @@
      "sha": "638c01b68a3a",
      "w": 7
     },
+    "u47 c4 S followup": {
+     "sha": "4ce048b477ed",
+     "w": 241
+    },
     "u47 c4 S intro": {
      "sha": "fe08006e3613",
      "w": 11
@@ -45627,6 +46107,10 @@
     "u47 c5 S qs": {
      "sha": "c36559a334cc",
      "w": 39
+    },
+    "u47 c5 S sounds": {
+     "sha": "b6add9c49f48",
+     "w": 132
     },
     "u47 c5 W0 gap65": {
      "sha": "5f9e913e555b",
@@ -45772,6 +46256,10 @@
      "sha": "5e677117ae1e",
      "w": 13
     },
+    "u48 c2 S longturn": {
+     "sha": "94ea31693d52",
+     "w": 248
+    },
     "u48 c2 S qs": {
      "sha": "d2473ca44671",
      "w": 35
@@ -45872,6 +46360,10 @@
      "sha": "73e289e00ed9",
      "w": 8
     },
+    "u48 c4 S followup": {
+     "sha": "8d74ee0fdcab",
+     "w": 243
+    },
     "u48 c4 S intro": {
      "sha": "e49ac56ddedb",
      "w": 16
@@ -45927,6 +46419,10 @@
     "u48 c5 S qs": {
      "sha": "b13420780fa9",
      "w": 32
+    },
+    "u48 c5 S sounds": {
+     "sha": "8a9614e2a5d9",
+     "w": 122
     },
     "u48 c5 W0 gap65": {
      "sha": "138b0eb8bdd1",
@@ -46068,6 +46564,10 @@
      "sha": "ceeaade9c81f",
      "w": 19
     },
+    "u49 c2 S longturn": {
+     "sha": "703dd7c57dcb",
+     "w": 241
+    },
     "u49 c2 S qs": {
      "sha": "39c7be314f33",
      "w": 34
@@ -46168,6 +46668,10 @@
      "sha": "47d4c1acb3d3",
      "w": 5
     },
+    "u49 c4 S followup": {
+     "sha": "685a95d418b1",
+     "w": 228
+    },
     "u49 c4 S intro": {
      "sha": "0792dca8be9e",
      "w": 17
@@ -46223,6 +46727,10 @@
     "u49 c5 S qs": {
      "sha": "09de15275f1d",
      "w": 31
+    },
+    "u49 c5 S sounds": {
+     "sha": "817d6409873e",
+     "w": 122
     },
     "u49 c5 W0 gap65": {
      "sha": "daa7a0214ebb",
@@ -46368,6 +46876,10 @@
      "sha": "a859af34b46b",
      "w": 14
     },
+    "u50 c2 S longturn": {
+     "sha": "8b20478d0f06",
+     "w": 262
+    },
     "u50 c2 S qs": {
      "sha": "3fb100ad92cb",
      "w": 34
@@ -46468,6 +46980,10 @@
      "sha": "9070ccb3b194",
      "w": 7
     },
+    "u50 c4 S followup": {
+     "sha": "a59971fb2299",
+     "w": 235
+    },
     "u50 c4 S intro": {
      "sha": "d59bff0f67bf",
      "w": 20
@@ -46523,6 +47039,10 @@
     "u50 c5 S qs": {
      "sha": "846a3daaa1c7",
      "w": 28
+    },
+    "u50 c5 S sounds": {
+     "sha": "e11ada2854c7",
+     "w": 134
     },
     "u50 c5 W0 gap65": {
      "sha": "2cac0b47b3f8",
@@ -53307,6 +53827,10 @@
      "sha": "8e86ed42a9bf",
      "w": 15
     },
+    "u51 c2 S longturn": {
+     "sha": "807d0991ac65",
+     "w": 291
+    },
     "u51 c2 S qs": {
      "sha": "a511d4c6aa28",
      "w": 38
@@ -53407,6 +53931,10 @@
      "sha": "64ff99b151bd",
      "w": 7
     },
+    "u51 c4 S followup": {
+     "sha": "079085f723c4",
+     "w": 233
+    },
     "u51 c4 S intro": {
      "sha": "f8b283b438da",
      "w": 14
@@ -53462,6 +53990,10 @@
     "u51 c5 S qs": {
      "sha": "9b30bbf2c622",
      "w": 33
+    },
+    "u51 c5 S sounds": {
+     "sha": "44444f6e0683",
+     "w": 150
     },
     "u51 c5 W0 gap65": {
      "sha": "63a2d94b6ef0",
@@ -53607,6 +54139,10 @@
      "sha": "38ec58f28185",
      "w": 12
     },
+    "u52 c2 S longturn": {
+     "sha": "69d87d102ce9",
+     "w": 277
+    },
     "u52 c2 S qs": {
      "sha": "2f50f769f869",
      "w": 35
@@ -53707,6 +54243,10 @@
      "sha": "df43319af2c4",
      "w": 6
     },
+    "u52 c4 S followup": {
+     "sha": "e3ec8b2d17cd",
+     "w": 195
+    },
     "u52 c4 S intro": {
      "sha": "198a496b36bc",
      "w": 14
@@ -53762,6 +54302,10 @@
     "u52 c5 S qs": {
      "sha": "4bc8bb25f56f",
      "w": 31
+    },
+    "u52 c5 S sounds": {
+     "sha": "e07eb4decd0a",
+     "w": 122
     },
     "u52 c5 W0 gap65": {
      "sha": "ae5d5304e801",
@@ -53907,6 +54451,10 @@
      "sha": "91c9a500eb18",
      "w": 15
     },
+    "u53 c2 S longturn": {
+     "sha": "a9d98052bde9",
+     "w": 286
+    },
     "u53 c2 S qs": {
      "sha": "e21dbd0a780c",
      "w": 35
@@ -54007,6 +54555,10 @@
      "sha": "a248e0f022c3",
      "w": 6
     },
+    "u53 c4 S followup": {
+     "sha": "ab7a963fd010",
+     "w": 203
+    },
     "u53 c4 S intro": {
      "sha": "c92184ac392e",
      "w": 19
@@ -54062,6 +54614,10 @@
     "u53 c5 S qs": {
      "sha": "045ef451c87c",
      "w": 25
+    },
+    "u53 c5 S sounds": {
+     "sha": "4c3d99e2d822",
+     "w": 123
     },
     "u53 c5 W0 gap65": {
      "sha": "59a9cd619a7e",
@@ -54207,6 +54763,10 @@
      "sha": "e52248cea43e",
      "w": 15
     },
+    "u54 c2 S longturn": {
+     "sha": "dabd46c32274",
+     "w": 277
+    },
     "u54 c2 S qs": {
      "sha": "83d6d87d6f7b",
      "w": 37
@@ -54307,6 +54867,10 @@
      "sha": "aa7998defc44",
      "w": 7
     },
+    "u54 c4 S followup": {
+     "sha": "f2434c6fcb68",
+     "w": 215
+    },
     "u54 c4 S intro": {
      "sha": "fcc0f1661668",
      "w": 12
@@ -54362,6 +54926,10 @@
     "u54 c5 S qs": {
      "sha": "7041167c9345",
      "w": 34
+    },
+    "u54 c5 S sounds": {
+     "sha": "034a41e57658",
+     "w": 134
     },
     "u54 c5 W0 gap65": {
      "sha": "0d75f3a1e388",
@@ -54507,6 +55075,10 @@
      "sha": "bb21b781aba8",
      "w": 15
     },
+    "u55 c2 S longturn": {
+     "sha": "e7ec702ff5af",
+     "w": 268
+    },
     "u55 c2 S qs": {
      "sha": "73134cdadc6c",
      "w": 33
@@ -54607,6 +55179,10 @@
      "sha": "d76f31ddf18f",
      "w": 8
     },
+    "u55 c4 S followup": {
+     "sha": "922990990682",
+     "w": 224
+    },
     "u55 c4 S intro": {
      "sha": "5ecf7c002351",
      "w": 15
@@ -54662,6 +55238,10 @@
     "u55 c5 S qs": {
      "sha": "a1105072ebbb",
      "w": 28
+    },
+    "u55 c5 S sounds": {
+     "sha": "5db2d03c138e",
+     "w": 113
     },
     "u55 c5 W0 gap65": {
      "sha": "2ce71f561b1b",
@@ -54807,6 +55387,10 @@
      "sha": "6d197c771b82",
      "w": 15
     },
+    "u56 c2 S longturn": {
+     "sha": "a0766674e67b",
+     "w": 263
+    },
     "u56 c2 S qs": {
      "sha": "3f141dbb3ee7",
      "w": 34
@@ -54907,6 +55491,10 @@
      "sha": "8db8c5975a36",
      "w": 6
     },
+    "u56 c4 S followup": {
+     "sha": "3b261405583d",
+     "w": 225
+    },
     "u56 c4 S intro": {
      "sha": "aa48af5a7397",
      "w": 21
@@ -54962,6 +55550,10 @@
     "u56 c5 S qs": {
      "sha": "6b4ae78898b8",
      "w": 29
+    },
+    "u56 c5 S sounds": {
+     "sha": "347e162f329f",
+     "w": 123
     },
     "u56 c5 W0 gap65": {
      "sha": "33f82f6f7f74",
@@ -55107,6 +55699,10 @@
      "sha": "38ec58f28185",
      "w": 12
     },
+    "u57 c2 S longturn": {
+     "sha": "81bfeeef3a34",
+     "w": 276
+    },
     "u57 c2 S qs": {
      "sha": "9cba7ebc5bbe",
      "w": 33
@@ -55207,6 +55803,10 @@
      "sha": "fc2c66e6c788",
      "w": 8
     },
+    "u57 c4 S followup": {
+     "sha": "33701c834297",
+     "w": 220
+    },
     "u57 c4 S intro": {
      "sha": "dad33df80e9b",
      "w": 18
@@ -55262,6 +55862,10 @@
     "u57 c5 S qs": {
      "sha": "e680f189ea60",
      "w": 27
+    },
+    "u57 c5 S sounds": {
+     "sha": "f779d2f65018",
+     "w": 127
     },
     "u57 c5 W0 gap65": {
      "sha": "b41c800cdaf9",
@@ -55407,6 +56011,10 @@
      "sha": "6d197c771b82",
      "w": 15
     },
+    "u58 c2 S longturn": {
+     "sha": "e248a85b53b1",
+     "w": 267
+    },
     "u58 c2 S qs": {
      "sha": "110c333b8a30",
      "w": 40
@@ -55507,6 +56115,10 @@
      "sha": "7a335e31e2b5",
      "w": 9
     },
+    "u58 c4 S followup": {
+     "sha": "39a8495b8d32",
+     "w": 229
+    },
     "u58 c4 S intro": {
      "sha": "bd5349db21b8",
      "w": 16
@@ -55562,6 +56174,10 @@
     "u58 c5 S qs": {
      "sha": "eb1d3a921253",
      "w": 40
+    },
+    "u58 c5 S sounds": {
+     "sha": "2a52a1c9bbdc",
+     "w": 133
     },
     "u58 c5 W0 gap65": {
      "sha": "aa5d86b4e469",
@@ -55707,6 +56323,10 @@
      "sha": "0fc34a3a5f38",
      "w": 12
     },
+    "u59 c2 S longturn": {
+     "sha": "cffaac9dc0ad",
+     "w": 277
+    },
     "u59 c2 S qs": {
      "sha": "f5f058747eda",
      "w": 37
@@ -55807,6 +56427,10 @@
      "sha": "b0ee8a665631",
      "w": 6
     },
+    "u59 c4 S followup": {
+     "sha": "c4f1337a1dfd",
+     "w": 205
+    },
     "u59 c4 S intro": {
      "sha": "6897494cfd53",
      "w": 15
@@ -55862,6 +56486,10 @@
     "u59 c5 S qs": {
      "sha": "60330704d34f",
      "w": 33
+    },
+    "u59 c5 S sounds": {
+     "sha": "f5c1097831e6",
+     "w": 127
     },
     "u59 c5 W0 gap65": {
      "sha": "70c9196b09a1",
@@ -56007,6 +56635,10 @@
      "sha": "e52248cea43e",
      "w": 15
     },
+    "u60 c2 S longturn": {
+     "sha": "13d6e6c9b55c",
+     "w": 262
+    },
     "u60 c2 S qs": {
      "sha": "bb4f4be563ed",
      "w": 36
@@ -56107,6 +56739,10 @@
      "sha": "289657d522a6",
      "w": 8
     },
+    "u60 c4 S followup": {
+     "sha": "f1305b4c2a89",
+     "w": 221
+    },
     "u60 c4 S intro": {
      "sha": "ab1b29a6efe2",
      "w": 14
@@ -56162,6 +56798,10 @@
     "u60 c5 S qs": {
      "sha": "b359e890298c",
      "w": 25
+    },
+    "u60 c5 S sounds": {
+     "sha": "5a1593ed4a13",
+     "w": 160
     },
     "u60 c5 W0 gap65": {
      "sha": "1720ac046a20",
@@ -61487,6 +62127,10 @@
      "sha": "507c363df0fe",
      "w": 20
     },
+    "u1 c3 S longturn": {
+     "sha": "f33e5882b296",
+     "w": 176
+    },
     "u1 c3 S qs": {
      "sha": "d6d909a64a3f",
      "w": 21
@@ -61594,6 +62238,10 @@
     "u1 c5 S qs": {
      "sha": "7f0cc8b5b848",
      "w": 27
+    },
+    "u1 c5 S sounds": {
+     "sha": "2c2ba0d3169d",
+     "w": 109
     },
     "u1 c5 W0 heading": {
      "sha": "458ccde0d477",
@@ -61775,6 +62423,10 @@
      "sha": "84fbbcf3a8a7",
      "w": 12
     },
+    "u10 c3 S longturn": {
+     "sha": "db647728fbd2",
+     "w": 180
+    },
     "u10 c3 S qs": {
      "sha": "4c25305cc915",
      "w": 24
@@ -61882,6 +62534,10 @@
     "u10 c5 S qs": {
      "sha": "187efc41c624",
      "w": 24
+    },
+    "u10 c5 S sounds": {
+     "sha": "dcaa62d101c1",
+     "w": 119
     },
     "u10 c5 W0 heading": {
      "sha": "11386228b746",
@@ -62063,6 +62719,10 @@
      "sha": "6b101206f6bf",
      "w": 18
     },
+    "u2 c3 S longturn": {
+     "sha": "148f1be136d8",
+     "w": 179
+    },
     "u2 c3 S qs": {
      "sha": "c0eb44136526",
      "w": 20
@@ -62170,6 +62830,10 @@
     "u2 c5 S qs": {
      "sha": "70825d52b7e7",
      "w": 26
+    },
+    "u2 c5 S sounds": {
+     "sha": "cc3fed347bda",
+     "w": 107
     },
     "u2 c5 W0 heading": {
      "sha": "61a86e7778f7",
@@ -62351,6 +63015,10 @@
      "sha": "9570b24facd6",
      "w": 17
     },
+    "u3 c3 S longturn": {
+     "sha": "ade1451fff14",
+     "w": 177
+    },
     "u3 c3 S qs": {
      "sha": "a599fce3f578",
      "w": 22
@@ -62458,6 +63126,10 @@
     "u3 c5 S qs": {
      "sha": "d91889130504",
      "w": 19
+    },
+    "u3 c5 S sounds": {
+     "sha": "a33700734089",
+     "w": 112
     },
     "u3 c5 W0 heading": {
      "sha": "468be09391f3",
@@ -62639,6 +63311,10 @@
      "sha": "4ba68bc18b43",
      "w": 17
     },
+    "u4 c3 S longturn": {
+     "sha": "67d536d16dbf",
+     "w": 179
+    },
     "u4 c3 S qs": {
      "sha": "ff6c26504ad2",
      "w": 26
@@ -62746,6 +63422,10 @@
     "u4 c5 S qs": {
      "sha": "5662aa68cb06",
      "w": 19
+    },
+    "u4 c5 S sounds": {
+     "sha": "51c9a5c845d2",
+     "w": 93
     },
     "u4 c5 W0 heading": {
      "sha": "5a7148b71d80",
@@ -62927,6 +63607,10 @@
      "sha": "a026ba410fb2",
      "w": 19
     },
+    "u5 c3 S longturn": {
+     "sha": "33c233f32502",
+     "w": 176
+    },
     "u5 c3 S qs": {
      "sha": "a1277138f58a",
      "w": 19
@@ -63034,6 +63718,10 @@
     "u5 c5 S qs": {
      "sha": "b5accad5e2c0",
      "w": 20
+    },
+    "u5 c5 S sounds": {
+     "sha": "b04e1e5e9c2a",
+     "w": 107
     },
     "u5 c5 W0 heading": {
      "sha": "9b2fc020aacc",
@@ -63215,6 +63903,10 @@
      "sha": "d6dac777a6f1",
      "w": 15
     },
+    "u6 c3 S longturn": {
+     "sha": "7fbdf68c0be1",
+     "w": 180
+    },
     "u6 c3 S qs": {
      "sha": "a706f3449b93",
      "w": 22
@@ -63322,6 +64014,10 @@
     "u6 c5 S qs": {
      "sha": "41ba17405ab8",
      "w": 27
+    },
+    "u6 c5 S sounds": {
+     "sha": "06abd8cfd0c0",
+     "w": 96
     },
     "u6 c5 W0 heading": {
      "sha": "471b1f5b4757",
@@ -63503,6 +64199,10 @@
      "sha": "c9c949847b81",
      "w": 13
     },
+    "u7 c3 S longturn": {
+     "sha": "1eb4d87de6ae",
+     "w": 175
+    },
     "u7 c3 S qs": {
      "sha": "b53cf41bcf07",
      "w": 23
@@ -63610,6 +64310,10 @@
     "u7 c5 S qs": {
      "sha": "b920ab6f867d",
      "w": 19
+    },
+    "u7 c5 S sounds": {
+     "sha": "75f40aa276b4",
+     "w": 100
     },
     "u7 c5 W0 heading": {
      "sha": "fae9203c7ca7",
@@ -63791,6 +64495,10 @@
      "sha": "02c603f74cb7",
      "w": 16
     },
+    "u8 c3 S longturn": {
+     "sha": "fda33c1d44b4",
+     "w": 179
+    },
     "u8 c3 S qs": {
      "sha": "8de596eda39c",
      "w": 22
@@ -63898,6 +64606,10 @@
     "u8 c5 S qs": {
      "sha": "044410ff6e58",
      "w": 23
+    },
+    "u8 c5 S sounds": {
+     "sha": "52f60cb44126",
+     "w": 86
     },
     "u8 c5 W0 heading": {
      "sha": "0d808a2de53e",
@@ -64079,6 +64791,10 @@
      "sha": "fe8a3eb7b4bb",
      "w": 16
     },
+    "u9 c3 S longturn": {
+     "sha": "1472040152a0",
+     "w": 179
+    },
     "u9 c3 S qs": {
      "sha": "7fcab6254757",
      "w": 27
@@ -64186,6 +64902,10 @@
     "u9 c5 S qs": {
      "sha": "897c750208f2",
      "w": 20
+    },
+    "u9 c5 S sounds": {
+     "sha": "9a32ca8f7416",
+     "w": 96
     },
     "u9 c5 W0 heading": {
      "sha": "21afc2cebda0",
@@ -69949,6 +70669,10 @@
      "sha": "78b90e0cd307",
      "w": 17
     },
+    "u1 c2 S longturn": {
+     "sha": "7e06743a1215",
+     "w": 198
+    },
     "u1 c2 S qs": {
      "sha": "7e76d2910374",
      "w": 27
@@ -70109,6 +70833,10 @@
      "sha": "99d27d17ecf8",
      "w": 26
     },
+    "u1 c5 S sounds": {
+     "sha": "c1a0f315bc16",
+     "w": 117
+    },
     "u1 c5 W0 heading": {
      "sha": "e5e173e64fcc",
      "w": 9
@@ -70236,6 +70964,10 @@
     "u10 c2 S intro": {
      "sha": "b07ea1637ef1",
      "w": 10
+    },
+    "u10 c2 S longturn": {
+     "sha": "e9bdbcd8b23c",
+     "w": 200
     },
     "u10 c2 S qs": {
      "sha": "56f8f6e6f4d9",
@@ -70397,6 +71129,10 @@
      "sha": "9348a9d9109e",
      "w": 19
     },
+    "u10 c5 S sounds": {
+     "sha": "aafdc296953d",
+     "w": 132
+    },
     "u10 c5 W0 heading": {
      "sha": "708c41568687",
      "w": 5
@@ -70528,6 +71264,10 @@
     "u2 c2 S intro": {
      "sha": "4f9db04ee8e9",
      "w": 17
+    },
+    "u2 c2 S longturn": {
+     "sha": "90fd60576673",
+     "w": 198
     },
     "u2 c2 S qs": {
      "sha": "b7d8b5d6846e",
@@ -70689,6 +71429,10 @@
      "sha": "ea2d1cb77ff1",
      "w": 28
     },
+    "u2 c5 S sounds": {
+     "sha": "563abe8fa976",
+     "w": 104
+    },
     "u2 c5 W0 heading": {
      "sha": "4d63ab0a41b6",
      "w": 9
@@ -70820,6 +71564,10 @@
     "u3 c2 S intro": {
      "sha": "8b162387991b",
      "w": 11
+    },
+    "u3 c2 S longturn": {
+     "sha": "55687ac5ea33",
+     "w": 199
     },
     "u3 c2 S qs": {
      "sha": "af4e4098c314",
@@ -70981,6 +71729,10 @@
      "sha": "93a11c32780a",
      "w": 22
     },
+    "u3 c5 S sounds": {
+     "sha": "23ed77a18317",
+     "w": 109
+    },
     "u3 c5 W0 heading": {
      "sha": "7a13c07866b7",
      "w": 8
@@ -71108,6 +71860,10 @@
     "u4 c2 S intro": {
      "sha": "46bb28bef4a6",
      "w": 8
+    },
+    "u4 c2 S longturn": {
+     "sha": "99b12b14f6e6",
+     "w": 199
     },
     "u4 c2 S qs": {
      "sha": "f0a7e271d696",
@@ -71269,6 +72025,10 @@
      "sha": "1940312ce515",
      "w": 27
     },
+    "u4 c5 S sounds": {
+     "sha": "e1b1d57c9249",
+     "w": 105
+    },
     "u4 c5 W0 heading": {
      "sha": "c8cd8c10f193",
      "w": 8
@@ -71396,6 +72156,10 @@
     "u5 c2 S intro": {
      "sha": "363ce4f471fc",
      "w": 10
+    },
+    "u5 c2 S longturn": {
+     "sha": "98eca2ffb2d4",
+     "w": 198
     },
     "u5 c2 S qs": {
      "sha": "3c6b1bd23237",
@@ -71557,6 +72321,10 @@
      "sha": "e317cab00e67",
      "w": 26
     },
+    "u5 c5 S sounds": {
+     "sha": "a90afdc08888",
+     "w": 102
+    },
     "u5 c5 W0 heading": {
      "sha": "4c186113c995",
      "w": 12
@@ -71684,6 +72452,10 @@
     "u6 c2 S intro": {
      "sha": "a665c7a7f3f5",
      "w": 12
+    },
+    "u6 c2 S longturn": {
+     "sha": "5ef7b4475ff6",
+     "w": 199
     },
     "u6 c2 S qs": {
      "sha": "e830b5fe5ebd",
@@ -71845,6 +72617,10 @@
      "sha": "41241b7197be",
      "w": 22
     },
+    "u6 c5 S sounds": {
+     "sha": "d042bb13b8ff",
+     "w": 96
+    },
     "u6 c5 W0 heading": {
      "sha": "641b18c9fe9f",
      "w": 6
@@ -71972,6 +72748,10 @@
     "u7 c2 S intro": {
      "sha": "fff913939fc0",
      "w": 9
+    },
+    "u7 c2 S longturn": {
+     "sha": "eb44c682ddd9",
+     "w": 199
     },
     "u7 c2 S qs": {
      "sha": "55117d4eeaaf",
@@ -72133,6 +72913,10 @@
      "sha": "0e29f1a6bf8c",
      "w": 22
     },
+    "u7 c5 S sounds": {
+     "sha": "5c4b5d4b3dbd",
+     "w": 87
+    },
     "u7 c5 W0 heading": {
      "sha": "794a13a8c378",
      "w": 14
@@ -72260,6 +73044,10 @@
     "u8 c2 S intro": {
      "sha": "70508a9138cc",
      "w": 17
+    },
+    "u8 c2 S longturn": {
+     "sha": "f394c6a02b17",
+     "w": 200
     },
     "u8 c2 S qs": {
      "sha": "2e93994610cf",
@@ -72421,6 +73209,10 @@
      "sha": "6dbe5d13939b",
      "w": 24
     },
+    "u8 c5 S sounds": {
+     "sha": "beff7c5f7776",
+     "w": 80
+    },
     "u8 c5 W0 heading": {
      "sha": "5defa35eb240",
      "w": 7
@@ -72548,6 +73340,10 @@
     "u9 c2 S intro": {
      "sha": "88a385afe590",
      "w": 11
+    },
+    "u9 c2 S longturn": {
+     "sha": "a369bb19560e",
+     "w": 199
     },
     "u9 c2 S qs": {
      "sha": "9ea34502c51f",
@@ -72708,6 +73504,10 @@
     "u9 c5 S qs": {
      "sha": "095b57688207",
      "w": 19
+    },
+    "u9 c5 S sounds": {
+     "sha": "7e0499edcbba",
+     "w": 96
     },
     "u9 c5 W0 heading": {
      "sha": "93496f42cfef",

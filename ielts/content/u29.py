@@ -449,6 +449,28 @@ UNIT = dict(
            'And not the producer at nine on the morning of broadcast.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Trust',
+    longturn=[('The source I want to describe is the statistics office of my '
+               'own country, whose website publishes the figures that most '
+               'newspaper stories are eventually based on.'),
+              ('I came across it almost by accident, chasing a figure in an '
+               'article that did not look right, and I found that the original '
+               'release said something noticeably more cautious than the '
+               'headline that had been built on it.'),
+              ('I use it for two things now. The first is checking a number '
+               'before repeating it, which takes about four minutes and has '
+               'stopped me being wrong in public several times. The second is '
+               'reading the notes, which are the part nobody quotes and often '
+               'the part that matters, because that is where they tell you '
+               'what the figure does not cover.'),
+              ('Why I trust it is not that I think it is never wrong. I trust '
+               'it because it tells me how it could be wrong. Every release '
+               'says what was measured, how many people were asked, what the '
+               'margin of error is, and which previous figures have been '
+               'revised. When it corrects itself, which it does, the '
+               'correction is published in the same place as the original. '
+               'That is a much better reason for trust than confidence, and I '
+               'have come to be suspicious of any source that never has to '
+               'revise anything.')],
     intro=('Short answers, then the long turn. Four bullets in order, and '
            'make the explanation the longest part.'),
     cue=('Describe a source of information you trust.',
@@ -993,6 +1015,27 @@ UNIT = dict(
            'effort.')])],
    speak=dict(
     part='Part 3', focus='Correcting what people believe',
+    followup=[('You say corrections do not work. Why not?',
+               ('They work less well than people assume, and the reason is '
+                'that a correction is a second encounter with the claim. '
+                'Repeating something to deny it makes it more familiar, and '
+                'familiarity is most of what makes a statement feel true. '
+                'Corrections that offer an alternative account do better than '
+                'corrections that simply say no.')),
+              ('Should people be taught how to check information?',
+               ('Yes, and I would set the expectation lower than the usual '
+                'proposals do. Teaching everybody to evaluate evidence is '
+                'unrealistic; teaching them two habits is not. Look for who is '
+                'saying it and look for a second source. That is most of the '
+                'benefit, and it survives contact with a busy life.')),
+              (('Whose responsibility is it to stop false information '
+                'spreading?'),
+               ('Mostly the platforms\', because they are the only party that '
+                'can act at the speed it moves, and because their ranking '
+                'decides what spreads. I am uncomfortable with that, since it '
+                'makes a company the judge of truth, which is why I would '
+                'regulate the process rather than the content: require them to '
+                'publish how ranking works and to be auditable on it.'))],
     intro=('Four or five sentences. Try once to explain a mechanism rather '
            'than assign blame.'),
     qs=['Why do false stories spread so easily?',
@@ -1285,6 +1328,21 @@ UNIT = dict(
            'And probably the question that matters most.')])],
    speak=dict(
     part='Part 3', focus='Who should decide what is true',
+    sounds=[('Reporting verbs carry your own position in their stress. They '
+             'CLAIMED, with weight on claimed, signals doubt that no adverb is '
+             'needed for.'),
+            ('Compare the study FOUND, the study SUGGESTS and the paper CLAIMS '
+             'said flatly, then with stress. The stressed version commits you, '
+             'and in Part 3 that is usually what you want.'),
+            ('Practise the sequence of this unit: it was reported, then it was '
+             'corrected, and the correction was not read. The second and third '
+             'verbs take the stress.'),
+            ('Be careful with the opposite effect. Heavy stress on a neutral '
+             'reporting verb implies a doubt you may not intend, which is '
+             'worse than saying nothing.'),
+            ('Record yourself on why false stories spread. Listen to your '
+             'reporting verbs and decide, for each one, whether the stress '
+             'said what you meant.')],
     intro=('The hardest turn in the unit. Try once to separate whether '
            'something works from whether anybody can do it.'),
     qs=['Should social media companies remove false information?',

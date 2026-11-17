@@ -469,6 +469,27 @@ UNIT = dict(
            'And she will then accept whatever is decided.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Choosing',
+    longturn=[('The choice I want to describe is which route I take home, '
+               'which used to be a decision and is now made for me by a map on '
+               'my phone.'),
+              ('What the technology did was quite specific. It knows where the '
+               'traffic is, it recalculates while I am driving, and it will '
+               'send me down streets I had never used in fifteen years of '
+               'making that journey.'),
+              ('Whether it helped depends on which journey you ask about. '
+               'Measured in minutes it helped, and the saving is real: four or '
+               'five minutes most days and twenty on a bad one. Measured in '
+               'anything else I am less sure. I no longer know the city the '
+               'way I did. If the phone is flat I am slower than I was before '
+               'I had it, which is a strange thing to be able to say.'),
+              ('How I feel about it now is less comfortable than I would have '
+               'said two years ago. The part that concerns me is not the '
+               'dependence, which I accept, but that the route is chosen for a '
+               'reason I cannot see. It sends several thousand of us down a '
+               'residential street to save four minutes, and nobody who lives '
+               'on that street was consulted, and no planner decided it. A '
+               'choice that used to be mine and visible has become somebody\'s '
+               'optimisation, and it is not even clear whose.')],
     intro=('Short answers, then the long turn. Bullets in order, equal '
            'weight, and developed instead of merely listed.'),
     cue=('Describe a choice that was made easier or harder for you by '
@@ -1045,6 +1066,26 @@ UNIT = dict(
            'another.')])],
    speak=dict(
     part='Part 3', focus='Fair decisions',
+    followup=[(('You say the decision should be explainable. Should the public '
+                'be involved in choices like this?'),
+               ('In setting what the system is for, yes. The public is good at '
+                'deciding whether it is acceptable to rank people by postcode '
+                'and bad at auditing a model, so I would consult on the '
+                'objective and the constraints, and leave the implementation '
+                'to people who can read it.')),
+              ('Is a consistent decision necessarily a fair one?',
+               ('No, and the two are easy to confuse because consistency is '
+                'what you can measure. A rule applied identically to everybody '
+                'can embed the same error every time, which is worse than '
+                'inconsistency, because there is no second opinion anywhere in '
+                'the system to catch it.')),
+              ('Can fairness ever be measured?',
+               ('Several ways, and that is the difficulty rather than the '
+                'answer. Equal error rates between groups, equal treatment of '
+                'similar cases, and equal outcomes are all defensible '
+                'definitions, and it has been proved that you cannot satisfy '
+                'them together. So the measurement is possible once somebody '
+                'chooses, and the choice is political.'))],
     intro=('Four or five sentences. Say once what you mean by a word before '
            'arguing with it.'),
     qs=['What makes a decision fair?',
@@ -1356,6 +1397,20 @@ UNIT = dict(
            'review authority.')])],
    speak=dict(
     part='Part 3', focus='Accountability for machines',
+    sounds=[('Abstract nouns in this unit are long and front-loaded or not at '
+             'all: ACcountability is stressed in the middle, transPARency in '
+             'the middle, AUtonomy on the second. Learn each one as a shape.'),
+            ('Say the four key terms inside a claim, not alone: accountability '
+             'means somebody can be named, which is the sentence and the '
+             'pronunciation practice together.'),
+            ('Where two abstractions meet, keep one strong syllable each and '
+             'one pause between them: a fair decision, pause, and an '
+             'explainable one.'),
+            ('Avoid chaining three abstract nouns without a pause. It is '
+             'grammatical, it is common in writing, and in speech it is '
+             'unintelligible.'),
+            ('Record yourself on what makes a decision fair. Find the longest '
+             'noun phrase you produced and say it again as two chunks.')],
     intro=('The last Part 3 of the volume. Hold a position, concede '
            'something real, and say what would change your mind.'),
     qs=['Who should be accountable when an automated system causes harm?',

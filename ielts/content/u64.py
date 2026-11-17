@@ -418,6 +418,23 @@ UNIT = dict(
            None, 'label', 'The customer did not take it off.')])],
    speak=dict(
     part='Part 2', focus='A thing you bought',
+    longturn=[('I am going to talk about something I bought recently. It is a '
+               'pair of walking boots.'),
+              ('I bought them about two months ago in a shop in the centre of '
+               'my town. The shop sells clothes for walking and camping. I did '
+               'not buy them on the internet, because I wanted to try them on '
+               'first.'),
+              ('I chose them for two reasons. The first reason is the price. '
+               'They were not the cheapest boots in the shop, and not '
+               'the most expensive. They cost about sixty. The second '
+               'reason is that the man in the shop measured my feet. '
+               'He said my old size was too small, and he was right.'),
+              ('I am very happy with them. I have used them about ten times, '
+               'in rain and in dry weather, and my feet have stayed '
+               'dry and have not hurt. One small problem is that they '
+               'are heavy, so I do not wear them in town. But for '
+               'walking in the hills they are much better than my old '
+               'ones, and I think they will last for years.')],
     intro='One minute to prepare. Follow the four bullets in order and '
           'do not stop to correct yourself.',
     qs=['Describe something you bought recently.',
@@ -788,6 +805,17 @@ UNIT = dict(
            'So the tutor asks for both to be written.')])],
    speak=dict(
     part='Part 3', focus='Small shops and big shops',
+    sounds=[('Prices and numbers must be very clear, because the examiner '
+             'cannot guess them. Say sixty and sixteen, fifty and fifteen, and '
+             'make them different.'),
+            ('In sixteen the end is strong. In sixty the beginning is strong. '
+             'Say them together six times.'),
+            ('Shop words have the stress at the front: MARket, SUPermarket, '
+             'EXpensive is the exception and takes the second part.'),
+            ('Practise one sentence: they cost about sixty, which was not the '
+             'cheapest. Keep the number clear.'),
+            ('Record yourself saying five prices. Listen to them the next day '
+             'and write down what you hear.')],
     intro='Compare the two, then say which you prefer and why. Do not '
           'describe only one.',
     qs=['Are small shops better than large ones?',

@@ -429,6 +429,24 @@ UNIT = dict(
            None, 'no', 'A holiday day would have left fourteen.')])],
    speak=dict(
     part='Part 2', focus='Time off',
+    longturn=[('I am going to talk about a time I needed time off work. I '
+               'asked for two days in May.'),
+              ('I needed them because my father had an operation on his knee. '
+               'He lives two hours away and lives alone, so somebody '
+               'had to take him to hospital and bring him home the '
+               'next day.'),
+              ('I asked my manager on a Monday, about three weeks before. I '
+               'did not send a message. I went to her office and '
+               'explained, and I said which days were quiet in our '
+               'team, so she knew the work would be fine. She said yes '
+               'in about a minute.'),
+              ('What happened was better than I expected. The operation went '
+               'well, and my father was walking a little after two '
+               'days. At work a colleague did my job for those two '
+               'days, and I did hers in June when her son was ill. So '
+               'we helped each other. I learned that it is much better '
+               'to ask early and to explain clearly. When I was '
+               'younger I was afraid to ask, and that was a mistake.')],
     intro='One minute to prepare. Tell it as a story with a problem '
           'and an end.',
     qs=['Describe a time you needed time off work or school.',
@@ -810,6 +828,17 @@ UNIT = dict(
            None, 'measured', 'He says he will admit that in the essay.')])],
    speak=dict(
     part='Part 3', focus='Work in the future',
+    sounds=[('Past forms need to be heard, because they carry the time. Asked, '
+             'worked and helped end with a t sound. Needed and wanted have an '
+             'extra part: need-id, want-id.'),
+            ('Say these six words: asked, worked, helped, needed, wanted, '
+             'started. Three are short and three are longer.'),
+            ('Work words have the stress at the front: MANager, COlleague, '
+             'HOliday. Employer takes the second part.'),
+            ('Practise one sentence: I asked my manager three weeks before. '
+             'The past form must be audible.'),
+            ('Record yourself talking about a working day in the past. Listen '
+             'only for the ends of the verbs.')],
     intro='Say what you think, then say what would change your mind. '
           'That second part is rare and it is impressive.',
     qs=['Will people work fewer hours in the future?',

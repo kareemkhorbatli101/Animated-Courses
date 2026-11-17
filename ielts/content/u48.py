@@ -502,6 +502,30 @@ UNIT = dict(
            'rather than in guidance.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Choice',
+    longturn=[('The time I had no real alternative was when the only nursery '
+               'within reach of my work raised its fees by a third, with six '
+               'weeks\' notice.'),
+              ('The options that appeared to exist were three. I could move my '
+               'daughter to a cheaper nursery eleven kilometres away, I could '
+               'reduce my hours, or I could stay and pay.'),
+              ('What I did was stay and pay, and I spent a weekend convincing '
+               'myself it was a decision.'),
+              ('Why the alternatives were not real ones is worth setting out, '
+               'because at the time I could not see it. The cheaper nursery '
+               'was in the opposite direction from my office, so the two '
+               'journeys together added eighty minutes a day, which meant I '
+               'would arrive after the start of the shift I was contracted to; '
+               'the fee saving was about a fifth of what the extra travel '
+               'cost. Reducing my hours would have taken me below the '
+               'threshold at which the childcare subsidy applied, so the net '
+               'loss was greater than the fee rise. And moving was not '
+               'available at all, because the waiting list was nine months and '
+               'the notice was six weeks. So there were three options on paper '
+               'and one in fact, and the nursery, which was not behaving '
+               'badly, knew the arithmetic as well as I did. What I learned is '
+               'that a market with choice in it can still leave each '
+               'individual with none, and that the published list of '
+               'alternatives tells you nothing about this.')],
     intro=('Short answers, then the long turn. The explanation bullet '
            'should carry the weight.'),
     cue=('Describe a time you had no real alternative.',
@@ -1115,6 +1139,35 @@ UNIT = dict(
            'And if so, to test a payment on a small scale first.')])],
    speak=dict(
     part='Part 3', focus='Things that should not be bought and sold',
+    followup=[(('You say some things should not be for sale. Does paying '
+                'people change why they do things?'),
+               ('Sometimes, and the direction is not reliable, which is what '
+                'makes the design difficult. Payment crowds out willingness '
+                'where the activity carried a signal, as with blood donation, '
+                'and it has no such effect in most ordinary work. So the '
+                'question has to be asked case by case rather than settled by '
+                'principle.')),
+              ('Should people who volunteer be paid for their time?',
+               ('Expenses, always, and a wage only where the work has become a '
+                'job in all but name. Paying expenses removes a barrier that '
+                'excludes poorer volunteers; paying a wage changes the '
+                'relationship, and organisations that have done it report '
+                'losing the people who were there for the reason the role '
+                'existed.')),
+              ('Who should decide what can be bought?',
+               ('Legislatures, after argument, rather than economists or '
+                'ethicists, because the judgements involved are about what a '
+                'society is willing to treat as a commodity and there is no '
+                'technical answer. What experts can supply is evidence about '
+                'what happens when a market is opened, which is frequently '
+                'surprising.')),
+              (('Is the real objection about inequality rather than the sale '
+                'itself?'),
+               ('In most cases, yes, and that is a reason to be precise. Where '
+                'the seller is acting only because they have no alternative, '
+                'the wrong is the absence of alternatives, and banning the '
+                'transaction removes their least bad option. Those cases need '
+                'better alternatives, not a prohibition.'))],
     intro=('Five or six sentences. Try once to say that paying for '
            'something changed what it meant.'),
     qs=['Are there things that should not be for sale?',
@@ -1440,6 +1493,19 @@ UNIT = dict(
            'Which he would rather have in the list honestly.')])],
    speak=dict(
     part='Part 3', focus='Drawing a line',
+    sounds=[('Market vocabulary is full of words that change stress with their '
+             'part of speech: a TRANSfer and to transFER, a SUBsidy and to '
+             'SUBsidise, a CONtract and to contRACT.'),
+            ('Say each pair inside a sentence from this unit. The grammar is '
+             'already right in your writing; this is about the mouth.'),
+            ('The phrase no real alternative stresses real, and the whole '
+             'phrase is one chunk. Stressing alternative makes it sound like a '
+             'complaint about the options rather than a claim that there were '
+             'none.'),
+            ('Practise crowding out, opportunity cost and willingness to pay '
+             'as single units. Each is three or four words and one idea.'),
+            ('Record yourself on whether volunteers should be paid. Check the '
+             'stress on every noun-verb pair you used.')],
     intro=('The hardest turn in the volume so far. Try once to say that an '
            'argument you agree with proves too much.'),
     qs=['Where should the line be drawn on what can be sold?',

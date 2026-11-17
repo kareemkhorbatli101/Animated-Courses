@@ -326,6 +326,27 @@ UNIT = dict(
            'At which point the two of them agree.')])],
    speak=dict(
     part='Part 2', focus='A place that changed',
+    longturn=[('I am going to talk about a place that has changed. It is the '
+               'area around the railway station in my city.'),
+              ('Before, when I was at school, it was somewhere you did not '
+               'walk at night. There were two hotels that were almost empty, a '
+               'long wall with nothing behind it, and a car park on land where '
+               'a factory had been pulled down.'),
+              ('What changed was a decision to build on the car park. There '
+               'are now about four hundred flats there, a supermarket, a '
+               'square with trees, and a school that opened last year. The '
+               'whole thing took about eight years and it is still not quite '
+               'finished.'),
+              ('Was the change good? For the city, yes, clearly. Four hundred '
+               'households live within five minutes of a station, '
+               'which is exactly where people should live, and the '
+               'area is busy in the evening instead of empty. But the '
+               'flats are expensive, and the people who used to rent '
+               'cheaply in the two streets behind have mostly gone '
+               'somewhere else, because their rents rose as well. '
+               'Nobody planned that, and nobody was responsible for '
+               'it, and nobody mentions it when the project is '
+               'described as a success.')],
     intro='One minute, four lines. One place, one change, described '
           'concretely.',
     qs=['Describe a place you know that has changed.',
@@ -923,6 +944,17 @@ UNIT = dict(
            'Which is the place nobody checks.')])],
    speak=dict(
     part='Part 3', focus='Housing',
+    sounds=[('Compound nouns take the stress on the first word: a CAR park, a '
+             'RAILway station, a SUPermarket. Adjective and noun take the '
+             'second: an expensive FLAT.'),
+            ('Say these four and keep the pattern: a car park, a new car, a '
+             'railway station, a busy station.'),
+            ('City words have one strong part: DEvelopment on the second, '
+             'NEIGHbourhood on the first, reGEneration on the fourth.'),
+            ('Practise one sentence: four hundred flats were built on the old '
+             'car park. The number and the compound carry the stress.'),
+            ('Record yourself describing a place that has changed. Find every '
+             'two-word noun and check which half you stressed.')],
     intro='Name the trade-off rather than pretending there is none. '
           'Four sentences.',
     qs=['How should a town solve a housing shortage?',

@@ -443,6 +443,28 @@ UNIT = dict(
            'ten-year parts promise is a balance-sheet liability.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Things that last',
+    longturn=[('The thing I repaired instead of replacing was a bicycle, a '
+               'steel one from the early nineteen-nineties that I bought '
+               'secondhand when I was twenty.'),
+              ('What was wrong with it was almost everything except the frame. '
+               'The wheels were buckled, the gears had stopped selecting two '
+               'of the five, the saddle had split, and the chain had worn into '
+               'the teeth of the sprockets so that it jumped under load.'),
+              ('The way I went about it was slowly and in the wrong order, '
+               'which I would now do differently. I did the easy, visible '
+               'things first, and then discovered that the wheels needed a '
+               'tool I did not have and a skill I did not have either. In the '
+               'end I paid a shop forty to rebuild one wheel, watched them do '
+               'it, and did the second one myself badly. The whole thing took '
+               'a winter and cost about a hundred and ten.'),
+              ('Why I chose to repair it rather than replace it was not mainly '
+               'money, although a comparable new bicycle was four times the '
+               'cost. It was that the frame was better than anything I could '
+               'afford new, and the parts that had failed were the parts '
+               'designed to be replaced. That turned out to be the lesson. A '
+               'thing is repairable or not depending on how it was designed, '
+               'not on how willing you are, and the bicycle is repairable '
+               'because somebody in 1991 expected it to be.')],
     intro=('Short answers first, then the long turn. On the card, take the '
            'bullets in order and give them roughly equal weight. Two points '
            'developed will always beat five points mentioned.'),
@@ -1062,6 +1084,26 @@ UNIT = dict(
            'blame.')])],
    speak=dict(
     part='Part 3', focus='Targets and what they produce',
+    followup=[(('You say targets distort behaviour. Who should be responsible '
+                'for reducing packaging, then?'),
+               ('The manufacturer, because it is the only party that can '
+                'change the decision at the point it is made. A shopper can '
+                'choose between two packets and cannot choose a third that '
+                'does not exist, and a government rule arrives years later. '
+                'Put the obligation where the design happens.')),
+              ('Why do you think people blame individuals instead of systems?',
+               ('Partly because individual action is visible and systemic '
+                'action is not, and partly because somebody has encouraged it. '
+                'The personal carbon footprint was popularised by an oil '
+                'company, which tells you how useful the framing is to whoever '
+                'would otherwise be responsible.')),
+              (('Would you support a rule that made recycling rates look worse '
+                'but did more good?'),
+               ('Yes, and I would expect to lose the argument. Counting only '
+                'material that is actually reprocessed would cut the headline '
+                'figure sharply, and no minister wants to publish a fall. That '
+                'is exactly why the measure needs to be set by somebody who is '
+                'not judged on it.'))],
     intro=('Concede something in at least one answer. A candidate who can give '
            'ground and still hold a position is demonstrating precisely what '
            'the criteria reward.'),
@@ -1349,6 +1391,21 @@ UNIT = dict(
            'gets absorbed, the cost plus disclosure gets designed out.')])],
    speak=dict(
     part='Part 3', focus='Proportion, attention and responsibility',
+    sounds=[('Negative prefixes take no stress of their own in ordinary '
+             'speech: unNECessary, inEFFicient, disPOSable. Stressing the '
+             'prefix is how you emphasise the negation, so save it for when '
+             'you mean it.'),
+            ('The contrast you need most in this unit lives on that stress: it '
+             'is not inefficient, it is UNnecessary. Move the stress and you '
+             'have made a different point.'),
+            ('Practise the waste vocabulary with one strong syllable each: '
+             'packaging, incineration, landfill, reprocessing, contamination. '
+             'The long ones are the ones most often over-pronounced.'),
+            ('Where a prefix is the point, lengthen it slightly rather than '
+             'raising the volume, because volume reads as irritation.'),
+            ('Record ninety seconds on targets. Find a negative word you '
+             'stressed on the prefix without meaning to, and say that sentence '
+             'again.')],
     intro=('The hardest turn. Concede, then hold. At least one of your answers '
            'should name the strongest version of the opposing case before you '
            'answer it.'),

@@ -438,6 +438,22 @@ UNIT = dict(
            'charge', 'For passengers who decide not to wait.')])],
    speak=dict(
     part='Part 2', focus='A journey',
+    longturn=[('I am going to talk about a journey I remember. I travelled by '
+               'train to see my grandmother.'),
+              ('I went to a small town about three hundred kilometres from my '
+               'city. It was in the summer, three years ago. I went alone for '
+               'the first time, and I was nineteen.'),
+              ('The journey did not go well. The train stopped after one hour, '
+               'in the middle of fields, and we waited for fifty minutes. '
+               'Nobody told us why. Then the train went on, but I missed my '
+               'second train in the big station. The next one was in two '
+               'hours. I had no book and my telephone had almost no battery.'),
+              ('At the end I felt two things. I was tired, because the journey '
+               'took seven hours instead of four. But I was also quite proud. '
+               'I found the right platform, I asked a woman for help with my '
+               'ticket, and I arrived. My grandmother was waiting at the '
+               'station with food in a bag. I still remember that more than '
+               'the long wait in the fields.')],
     intro='One minute to prepare. Four bullets, and keep the story '
           'moving: what happened, not how you felt about it.',
     qs=['Describe a journey you remember.',
@@ -818,6 +834,17 @@ UNIT = dict(
            'They get worse after that, the tutor says.')])],
    speak=dict(
     part='Part 3', focus='Why people travel',
+    sounds=[('Join your words together. In English a journey sounds like a '
+             'journey with no gap, and in an hour the n joins the h.'),
+            ('Say these together and do not stop in the middle: at the end, in '
+             'the morning, on the train, for an hour.'),
+            ('Travel words put the stress at the front: STAtion, PLATform, '
+             'JOURney, TICket. Only arrive is different, and it takes the '
+             'second part.'),
+            ('Practise one sentence: I missed my second train in the big '
+             'station. Say it as two pieces, not as eight words.'),
+            ('Record yourself describing a journey. Listen for a place where '
+             'you stopped between two words that belong together.')],
     intro='Give the reason, then say what it costs. A Part 3 answer '
           'that only lists reasons is incomplete.',
     qs=['Why do people travel to other countries?',

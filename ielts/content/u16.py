@@ -383,6 +383,26 @@ UNIT = dict(
            'Which he calls a failure of the prediction.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Saving energy',
+    longturn=[('The change I made was fitting thick curtains and draught '
+               'strips in the front room of the flat I was renting, which is '
+               'the coldest room in it.'),
+              ('It cost me about ninety altogether: sixty for the curtains, '
+               'which I bought secondhand, and the rest for the strips, the '
+               'rail and a tube of sealant.'),
+              ('The difference was bigger than I expected in comfort and '
+               'smaller than I had hoped in money. The room went from being '
+               'somewhere I did not sit in January to somewhere I worked in '
+               'all winter. On the bills I think I saved perhaps forty over '
+               'the year, which I cannot prove, because the winter was milder '
+               'than the one before.'),
+              ('Whether it was worth doing depends on what you are counting. '
+               'As an investment it took two winters to pay for itself, which '
+               'is fine but not remarkable. As a change to how I lived it was '
+               'worth it in the first week, because I gained a room. The thing '
+               'I would say to anybody considering it is that the draught '
+               'strips did most of the work and cost almost nothing, and the '
+               'curtains, which were the part I thought about for a month, '
+               'were the smaller half.')],
     intro=('Short answers, then the long turn. Give one number if you '
            'can.'),
     cue=('Describe a change you made to save money or energy.',
@@ -1219,6 +1239,21 @@ UNIT = dict(
            'Because objections use the wrong number too.')])],
    speak=dict(
     part='Part 3', focus='Paying for reliability',
+    sounds=[('Thirteen and thirty differ in stress, not in sound: thirTEEN '
+             'rises at the end, THIRty falls. In a sentence about bills that '
+             'distinction is worth real marks.'),
+            ('Large numbers are said in groups with a pause between them, not '
+             'as one string: fourteen thousand, two hundred. Read three '
+             'figures from this unit\'s chart aloud and pause where the commas '
+             'are.'),
+            ('Decimals are said digit by digit after the point: nought point '
+             'four five, not nought point forty-five. Percentages take a weak '
+             'of: four per cent of the total.'),
+            ('Practise the comparison you will need in Part 3: it fell from '
+             'thirty per cent to thirteen, which is where the two forms '
+             'collide and must be unmistakable.'),
+            ('Record yourself reading five numbers from this unit, then listen '
+             'the next day without the page and write down what you hear.')],
     intro=('Five sentences. Try once to agree in one case and disagree '
            'in another.'),
     qs=['Is renewable energy now the cheapest option?',

@@ -546,6 +546,32 @@ UNIT = dict(
            'fortnight.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Measurement',
+    longturn=[('The number I want to describe is a pain score, out of ten, '
+               'recorded for my aunt in the weeks after an operation.'),
+              ('What it measured was what she said when she was asked how bad '
+               'the pain was on a scale of nought to ten, which was written '
+               'down three times a day and plotted on a chart at the end of '
+               'the bed.'),
+              ('What was decided from it was her medication. Above a threshold '
+               'she was offered something stronger; below it she was not, and '
+               'the chart was the thing the night staff looked at when they '
+               'had not met her before.'),
+              ('Who decided it was nobody in particular, which is the part '
+               'that interests me. The scale was a hospital protocol, the '
+               'threshold was in a guideline, and each individual decision was '
+               'taken correctly by somebody following it.'),
+              ('Whether the number was the right thing to use is a question I '
+               'would answer in two halves. As a way of comparing one hour '
+               'with the next in the same patient, it is probably the best '
+               'available, because the only expert on her pain was her, and '
+               'the alternative is a nurse\'s guess. As a way of deciding '
+               'treatment across a ward it is close to useless, because my '
+               'aunt, who was brought up not to make a fuss, said four for '
+               'something that another patient would have called eight, and '
+               'the protocol could not see that. The problem is not that pain '
+               'cannot be quantified. It is that a scale which is reliable '
+               'within one person was being used to compare between people, '
+               'and nothing in the chart recorded that it should not be.')],
     intro=('Short answers, then the long turn. The explanation bullet '
            'carries the band.'),
     cue=('Describe a number that was used to decide something about you '
@@ -1189,6 +1215,29 @@ UNIT = dict(
            'An argument from failure of imagination.')])],
    speak=dict(
     part='Part 3', focus='What an explanation has to do',
+    followup=[(('You say the scale was reliable within one person. What makes '
+                'an explanation satisfying?'),
+               ('Usually that it shows a mechanism, so you can see how the '
+                'thing would come out differently if the parts were changed. '
+                'Satisfaction and correctness are not the same, though: a '
+                'story with agents and motives satisfies more than a true '
+                'account with none.')),
+              ('Are there things science cannot explain?',
+               ('Two different sets, and they get confused. Questions of value '
+                'cannot be settled by observation, because no measurement '
+                'would count as an answer. Questions about origins or minds '
+                'are frequently called unanswerable and have a poor record of '
+                'staying that way.')),
+              ('Does explaining how something works explain what it is?',
+               ('Not always, and the pain chart is a small example. A complete '
+                'account of the mechanism leaves the question of what my aunt '
+                'was experiencing untouched, and whether that gap is permanent '
+                'or merely current is the thing nobody can currently settle.')),
+              ('Should we expect every question to have an answer?',
+               ('We should expect every well-posed question to have one, and a '
+                'good deal of the difficulty is that the questions are not '
+                'well posed. Clarifying what would count as an answer disposes '
+                'of more puzzles than any new evidence does.'))],
     intro=('Five or six sentences. Try once to say what would count as '
            'having explained something.'),
     qs=['What makes an explanation satisfying?',
@@ -1532,6 +1581,20 @@ UNIT = dict(
            'the world.')])],
    speak=dict(
     part='Part 3', focus='Limits of explanation',
+    sounds=[('This unit\'s abstractions are the longest in the book and have '
+             'one strong syllable each: conSCIOUSness on the first, '
+             'exPLAnation on the third, subJECtive on the second, pheNOMenal '
+             'on the second.'),
+            ('Say each in a clause. Said alone they are a vocabulary test; '
+             'said in a clause they are the argument, and the argument is what '
+             'is marked.'),
+            ('The phrase what it is like is four words, one chunk, stress on '
+             'like, and it is the technical phrase this entire topic turns on.'),
+            ('Where you distinguish two senses of a word, the stress does it: '
+             'explaining how it WORKS and explaining what it IS.'),
+            ('Record ninety seconds on what an explanation has to do. Find '
+             'your longest abstract noun and check that only one syllable was '
+             'strong.')],
     intro=('The hardest turn in the unit. Try once to distinguish a '
            'limit on knowledge from a limit in the world.'),
     qs=['Are some questions permanently beyond science?',

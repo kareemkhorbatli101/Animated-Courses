@@ -404,6 +404,22 @@ UNIT = dict(
            'from her mother.')])],
    speak=dict(
     part='Part 2', focus='Cooking',
+    longturn=[('I am going to talk about a meal I can cook. It is a rice dish '
+               'with chicken and vegetables.'),
+              ('In it there is rice, chicken, one onion, two carrots and some '
+               'peas. I also put in salt, pepper and a little oil. Sometimes I '
+               'add an egg at the end.'),
+              ('I cook it about once a week, usually on a Sunday evening. It '
+               'takes about forty minutes. I often make a lot, because then I '
+               'have lunch for Monday as well.'),
+              ('I like it for three reasons. First, it is cheap. The chicken '
+               'is the only expensive part, and I use a small amount. Second, '
+               'it is easy. I do not have to watch it all the time, so I can '
+               'do other things in the kitchen. Third, my family likes it. My '
+               'brother always asks for it when he comes to my flat, and I am '
+               'happy that there is one meal I can cook well. My mother taught '
+               'me this dish when I was about sixteen, so it also reminds me '
+               'of home.')],
     intro='One minute to prepare, two minutes to speak. Use the four '
           'bullets in order and you will not stop early.',
     qs=['Describe a meal you can cook.',
@@ -770,6 +786,18 @@ UNIT = dict(
            'His summary at the end of the discussion.')])],
    speak=dict(
     part='Part 3', focus='Why food is different from place to place',
+    sounds=[('Say each word to the end. In English the end of a word carries '
+             'information: cooks is not cook, and cooked is not cook.'),
+            ('Food words in this unit have the stress at the front: '
+             'VEgetables, CHICken, DINner, BREAKfast. Say the first part '
+             'clearly and the rest more quietly.'),
+            ('Say these three words slowly, then at normal speed: vegetables, '
+             'restaurant, comfortable. In normal speech each one is shorter '
+             'than it looks.'),
+            ('Practise one sentence until it is easy: I cook it about once a '
+             'week. Do not stop between the words.'),
+            ('Record yourself answering one Part 1 question. Listen once. You '
+             'are only listening for the ends of words.')],
     intro='Give the reason first, then the example. If you start with '
           'the example you often forget the reason.',
     qs=['Why do people in different countries eat different food?',
