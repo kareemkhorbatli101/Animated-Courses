@@ -364,16 +364,16 @@ UNIT = dict(
            'serious mistake I have seen here was made by somebody who '
            'guessed on a Monday and told nobody until Friday.')],
          items=[
-          ('The probation period lasts ____________ months.', None,
-           'six', 'Not three, which is what people assume.'),
+          ('How long does the probation period last?', None,
+           'six months', 'Not three, which is what people assume.'),
           ('The most important review takes place at ____________ '
            'weeks.', None, 'six',
            'Because problems can still be fixed easily then.'),
           ('During probation, the notice period is ____________ week on '
            'each side.', None, 'one',
            'Rising to four and eight afterwards.'),
-          ('The mentor works in the ____________.', None, 'depot',
-           'And is not the new starter’s manager.'),
+          ('Where does the mentor work?', None, 'the depot',
+           'And is not the new starter\u2019s manager.'),
           ('The induction course is described as',
            ['optional', 'compulsory', 'online', 'monthly'], 1,
            'Running on Tuesday and Thursday of the following week.',
@@ -628,8 +628,8 @@ UNIT = dict(
            ['reduced', 'the same', 'reviewed', 'increased'], 1,
            'Four days, same money, same targets.',
            {0: 'The pay is the same, so nothing is reduced.', 2: 'A review of the targets is not part of the proposal.', 3: 'Nothing is increased under the proposal as described.'}),
-          ('Kwabena says his job differs because he answers the '
-           '____________.', None, 'phone',
+          ('What does Kwabena say makes his job different?', None,
+           'answering the phone',
            'Which does not ring less for being open four days.'),
           ('He says the alternatives are employing more people or '
            '____________ of them covering five days.', None, 'four',
@@ -639,8 +639,8 @@ UNIT = dict(
            'One company cut them by about forty per cent.'),
           ('Kwabena would prefer days of ____________ hours.', None,
            'seven', 'Five days a week rather than four.'),
-          ('He says he is against being given a policy designed for '
-           'somebody else’s ____________.', None, 'job',
+          ('What is he against being given a policy designed for?',
+           None, 'somebody else\u2019s job',
            'Rather than against the idea itself.')])],
    speak=dict(
     part='Part 3', focus='Hours and the rest of life',
@@ -912,8 +912,9 @@ UNIT = dict(
           ('Fact one is that total employment has ____________ over two '
            'hundred years.', None, 'risen',
            'Despite every generation predicting the end of work.'),
-          ('Farm work in Britain fell from about a ____________ of all '
-           'workers.', None, 'fifth',
+          (
+           'Farm work in Britain fell from about what share of all '
+           'workers?', None, 'a fifth',
            'To under two per cent across about a century.'),
           (
            'He says the gap between the first two facts is measured in',
@@ -923,8 +924,9 @@ UNIT = dict(
           ('In some regions, wages took ____________ years to '
            'recover.', None, 'forty',
            'Which he says is longer than a working life.'),
-          ('The two questions he says to ask are over what period and '
-           'for ____________.', None, 'whom',
+          (
+           'The two questions he says to ask are over what period and '
+           'for whom?', None, 'over what period',
            'Both usually missing from the claim.'),
           ('What is new, he says, is the type of ____________ being '
            'automated.', None, 'task',
@@ -1225,7 +1227,10 @@ UNIT = dict(
            'hours a choice.')])],
    listen=[
     dict(heading='Two economists disagree about automation',
-         part='Part 4', task='A recorded discussion · note completion and multiple choice', band='l4',
+         part='Part 4', task='A recorded discussion · note completion and multiple choice''A recorded discussion · note completion and multiple choice''A recorded discussion · note completion and multiple choiceA recorded discussion · note completion and multiple choice',
+                        reuse=True,
+                        bank=['A', 'B', 'C'],
+                        banklabel='A  Dr Oyelaran-Vance    B  Professor Ingerson    C  both of them', band='l4',
          qtype='Questions 68-73',
          script=[
           ('Chair', 'Dr Oyelaran-Vance expects automation to create more '
@@ -1261,26 +1266,21 @@ UNIT = dict(
            'anybody can act on, which is more than the chair was '
            'expecting.')],
          items=[
-          ('The first economist admits that a record is not a '
-           '____________.', None, 'law',
-           'And that he says "history shows" for "history so far '
-           'shows".'),
-          ('The second admits she has predicted falling employment and '
-           'been wrong ____________ times.', None, 'three',
-           'In the course of her career, she says.'),
-          ('They disagree about whether ____________ work is different '
-           'in kind.', None, 'judgement',
-           'And he says software takes only tasks inside those jobs.'),
-          ('He calls the disagreement one about',
-           ['principle', 'degree', 'evidence', 'timing'], 1,
-           'Rather than about principle, he says.',
-           {0: 'He says it is about degree rather than principle.', 2: 'Neither speaker calls the dispute one about evidence.', 3: 'Timing is not the word either of them uses.'}),
-          ('They agree that the ____________ figure is not the right '
-           'thing to argue about.', None, 'total',
-           'Because it tells you nothing about one town.'),
-          ('Support for affected workers, she says, is a '
-           '____________ choice.', None, 'political',
-           'Rather than a consequence of the technology.')])],
+          ('A two-hundred-year record is not a law.', None, 'A',
+           'His own weakest point, given first.'),
+          (
+           'I have predicted falling total employment three times and '
+           'been wrong three times.', None, 'B',
+           'The second speaker\u2019s own weakest point.'),
+          ('Software takes enough tasks to remove the job.', None, 'B',
+           'Her side of the disagreement about judgement work.'),
+          ('The disagreement is about degree rather than principle.',
+           None, 'A',
+           'Said immediately after the disagreement is named.'),
+          ('The total figure is not the right thing to argue about.',
+           None, 'C', 'The thing they say they agree on.'),
+          ('Support for the people in a town is a political choice.',
+           None, 'B', 'Said after the point about the national figure.')])],
    speak=dict(
     part='Part 3', focus='Preparing for work that does not exist yet',
     sounds=[('In connected speech the small words lose their vowel. Of, for, '

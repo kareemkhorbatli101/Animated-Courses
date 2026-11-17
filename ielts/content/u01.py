@@ -378,9 +378,9 @@ UNIT = dict(
           ('Serena', 'In the kitchen. Always, even when I am expecting '
            'a message. That is not willpower, it is distance.')],
          items=[
-          ('Tomasz revised for ____________ hours the night before.',
-           None, 'four', 'And he remembers very little of it this '
-           'morning.'),
+          ('How long did Tomasz revise the night before?', None,
+           'four hours',
+           'And he remembers very little of it this morning.'),
           ('Serena revised for ____________ minutes.', None, 'fifty',
            'And she can still name every heading from it.'),
           ('She says reading feels like learning but is mostly',
@@ -394,9 +394,8 @@ UNIT = dict(
            'Answering badly first and then reading to correct it.'),
           ('They lost ____________ minutes to football on Tuesday.',
            None, 'forty', 'Which is why they now use a timer.'),
-          ('Serena keeps her phone in the ____________.', None,
-           'kitchen', 'Which she calls distance rather than '
-           'willpower.')])],
+          ('Where does Serena keep her phone?', None, 'the kitchen',
+           'Which she calls distance rather than willpower.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Studying',
     longturn=[('The subject I want to talk about is statistics, which I '
@@ -630,11 +629,12 @@ UNIT = dict(
           ('The largest subject was computing, at ____________ '
            'thousand.', None, '18.4',
            'Ahead of English at 14.1 thousand.'),
-          ('The smallest subject was ____________.', None, 'history',
+          ('Which was the smallest subject?', None, 'history',
            'At three thousand eight hundred.'),
-          ('About one person in ____________ finishes a free course.',
-           None, 'seven', 'Across all subjects, he says, and not '
-           'because the courses are bad.'),
+          ('What proportion of people finish a free course?', None,
+           'one in seven',
+           'Across all subjects, he says, and not because the courses '
+           'are bad.'),
           ('He says finishing costs the learner ____________ weeks.',
            None, 'eight', 'Whereas starting costs nothing.'),
           ('People who book a fixed ____________ finish about three '
@@ -913,10 +913,9 @@ UNIT = dict(
            {0: 'The leaving test gives the final result, which is the '
                'simple measure.', 2: 'No test at the point of application is mentioned at '
                'all.', 3: 'Repeating a test is not part of the progress measure.'}),
-          ('He says every measure answers one ____________.', None,
-           'question', 'Often not the one parents are asking.'),
-          ('No table, he says, can tell a parent what a school will do '
-           'for one ____________.', None, 'child',
+          ('What does he say every measure answers?', None,
+           'one question', 'Often not the one parents are asking.'),
+          ('What can no table tell a parent about?', None, 'one child',
            'Which is the question they actually have.')])],
    speak=dict(
     part='Part 3', focus='What makes a good school',
@@ -1125,7 +1124,10 @@ UNIT = dict(
            'behind', 'After better pay and more training.')])],
    listen=[
     dict(heading='Two researchers disagree about class size',
-         part='Part 4', task='A recorded discussion · multiple choice and note completion', band='l4',
+         part='Part 4', task='A recorded discussion · multiple choice and note completion''A recorded discussion · multiple choice and note completion''A recorded discussion · multiple choice and note completionA recorded discussion · multiple choice and note completion',
+                        reuse=True,
+                        bank=['A', 'B', 'C'],
+                        banklabel='A  Dr Fenwick-Abara    B  Professor Lindqvist    C  both of them', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Dr Fenwick-Abara studies class size. Professor '
@@ -1161,27 +1163,26 @@ UNIT = dict(
           ('Lindqvist', 'Then we agree on more than the newspapers '
            'think.')],
          items=[
-          ('The first speaker admits the effect she measures is',
-           ['imaginary', 'small', 'temporary', 'disputed'], 1,
-           'Real, clearest among poor pupils, and small.',
-           {0: 'She calls the effect real, not imaginary.', 2: 'Nothing is said about the effect being temporary.', 3: 'She concedes the size of the effect rather than '
-               'calling it disputed.'}),
-          ('She says it is clearest in the first two years and among '
-           'pupils who are ____________.', None, 'poor',
-           'Which she has sometimes let audiences forget.'),
-          ('The second speaker admits that some of the ____________ the '
-           'money buys is of poor quality.', None, 'training',
-           'Which she says she should admit more often.'),
-          ('They disagree about what to do in the first ____________ '
-           'years of school.', None, 'two',
-           'A narrower disagreement than the public one.'),
-          ('What changed the first speaker’s mind was the question of '
-           '____________.', None, 'rooms',
-           'Where extra classes come from inside a school.'),
-          ('She says her view has changed about everybody except',
-           ['teachers', 'five-year-olds', 'parents', 'researchers'], 1,
-           'For whom she still wants smaller classes.',
-           {0: 'Teachers are what she now wants the money spent on.', 2: 'Parents are not the exception she names.', 3: 'Researchers are not the exception she names.'})])],
+          (
+           'Begins by stating the strongest point against their own '
+           'position.', None, 'C',
+           'The chair asks for this and both speakers do it.'),
+          ('Admits the effect they measure is small.', None, 'A',
+           'Said three times in one turn, with an admission about '
+           'audiences.'),
+          (
+           'Admits some of what the money buys is of very poor '
+           'quality.', None, 'B',
+           'An admission about the quality of training.'),
+          (
+           'Says the disagreement is much narrower than the newspapers '
+           'report it.', None, 'B',
+           'Two school years and one group of children.'),
+          ('Says the room question had never occurred to them at all.',
+           None, 'A',
+           'What changed this speaker\u2019s mind during the year.'),
+          ('Says they agree on more than the newspapers think.', None,
+           'B', 'The closing line of the discussion.')])],
    speak=dict(
     part='Part 3', focus='Spending money on education',
     sounds=[('Word stress moves when a word changes its job, and the examiner '

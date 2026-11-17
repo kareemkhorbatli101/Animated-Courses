@@ -381,10 +381,11 @@ UNIT = dict(
           ('Before artificial light, people slept in ____________ '
            'blocks.', None, 'two',
            'With about an hour awake between them.'),
-          ('The first and largest factor is the time you ____________.',
-           None, 'get up', 'Rather than the time you go to bed.'),
-          ('A three-hour difference at weekends is compared to crossing '
-           'three ____________.', None, 'time zones',
+          ('What is the first and largest factor?', None, 'getting up',
+           'Rather than the time you go to bed.'),
+          (
+           'A three-hour difference at weekends is compared to '
+           'crossing what?', None, 'three time zones',
            'Which is why Monday feels as it does.'),
           ('Caffeine stays in the body for ____________ to six hours.',
            None, 'five', 'So an afternoon coffee is still working at '
@@ -637,11 +638,10 @@ UNIT = dict(
            'weeks.', None, 'ten',
            'And six for Northgate, which is the reverse of what '
            'happened.'),
-          ('Brackmere divides patients into urgent and ____________.',
-           None, 'routine', 'With urgent cases seen in about three '
-           'weeks.'),
-          ('Rasheed says the average is two different ____________ '
-           'added together.', None, 'queues',
+          ('What two groups does Brackmere divide patients into?',
+           None, 'urgent and routine',
+           'With urgent cases seen in about three weeks.'),
+          ('What does Rasheed say the average is?', None, 'two queues',
            'Which the published figure does not separate.'),
           ('He found out which list he was on in week ____________.',
            None, 'nine', 'And he found out only because he asked.'),
@@ -921,11 +921,11 @@ UNIT = dict(
          items=[
           ('Life expectancy in western Europe was about ____________ in '
            '1850.', None, 'forty', 'And about eighty years in the present day.'),
-          ('He says the reason is ____________ rather than biology.',
+          ('What does he say the reason is, rather than biology?',
            None, 'arithmetic',
            'Because averages are pulled down by child deaths.'),
-          ('European cities separated drinking water from '
-           '____________.', None, 'sewage',
+          ('What did European cities separate drinking water from?',
+           None, 'sewage',
            'In the half century from about 1860 to 1910.'),
           ('The order of the cities matches the order of the',
            ['outbreaks', 'building', 'vaccines', 'censuses'], 1,
@@ -1193,12 +1193,11 @@ UNIT = dict(
           ('The second admits the same money spent on ____________ '
            'would buy more years of life.', None, 'housing',
            'Although he defends spending on treatment.'),
-          ('He argues that money cannot be moved from a service people '
-           'can ____________.', None, 'see',
+          ('What does he argue money cannot be moved from?', None,
+           'a visible service',
            'To one they cannot, and survive the election.'),
-          ('She accepts that this is a ____________ argument rather '
-           'than a medical one.', None, 'political',
-           'As a description of what happens.'),
+          ('What kind of argument does she accept this is?', None,
+           'a political argument', 'As a description of what happens.'),
           (
            'Her finding is that averages rose while the gap between '
            'districts',

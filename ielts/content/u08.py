@@ -376,8 +376,8 @@ UNIT = dict(
            'possible one, which is what most of this advice '
            'accidentally does.')],
          items=[
-          ('She says most writing confuses a cause with a '
-           '____________.', None, 'marker',
+          ('What does she say most writing confuses a cause with?',
+           None, 'a marker',
            'Because eating together signals other advantages.'),
           ('Those advantages include steadier work, more money and one '
            'adult free at ____________ o’clock.', None, 'six',
@@ -391,9 +391,8 @@ UNIT = dict(
           ('Her best guess is that the benefit comes from the '
            '____________ rather than the food.', None, 'conversation',
            'Which is why the number of nights matters less.'),
-          ('She recommends aiming for ____________ nights rather than '
-           'seven.', None, 'three',
-           'Because seven is not three times better.'),
+          ('How many nights does she recommend aiming for?', None,
+           'three', 'Because seven is not three times better.'),
           ('She says a household that talks with the television on '
            'does better than one that is ____________ with it off.',
            None, 'silent',
@@ -638,10 +637,9 @@ UNIT = dict(
           ('He says both kinds are pasteurised at ____________ '
            'degrees.', None, 'seventy-two',
            'And both are tested before sale.'),
-          ('What he says he is buying is a shorter ____________.',
-           None, 'chain',
-           'So that somebody can be telephoned if anything is '
-           'wrong.'),
+          ('What does Teodor say he is buying?', None,
+           'a shorter chain',
+           'So that somebody can be telephoned if anything is wrong.'),
           ('One tanker collects from ____________ farms.', None, 'six',
            'Six farms on one round, before the tanker returns.'),
           ('Testing before mixing means one bad load costs them',
@@ -650,8 +648,9 @@ UNIT = dict(
            {0: 'A hundred loads is what would be spoiled if they mixed '
                'first.', 2: 'A day of production is not the figure either speaker '
                'gives.', 3: 'The whole silo is the loss that testing prevents.'}),
-          ('He admits his reason is partly ____________ rather than '
-           'scientific.', None, 'sentimental',
+          (
+           'He admits his reason is partly what, rather than '
+           'scientific?', None, 'sentimental',
            'Which he says is better than pretending otherwise.')]),
     dict(heading='A dairy manager on the daily cycle', part='Part 4',
          task='A talk at a dairy · flow-chart completion and multiple choice', band='l4', qtype='Questions 41-46',
@@ -697,17 +696,16 @@ UNIT = dict(
           ('If they mixed before testing, one problem farm would cost '
            'them ____________ loads.', None, 'a hundred',
            'Instead of costing them a single load.'),
-          ('He calls testing before mixing the whole ____________ of '
-           'the building.', None, 'economics',
-           'Rather than a safety measure alone.'),
+          ('What does he call testing before mixing?', None,
+           'the whole economics', 'Rather than a safety measure alone.'),
           ('At the third boundary, what changes is',
            ['ownership', 'responsibility', 'temperature', 'price'], 1,
            'The temperature record belongs to the haulier.',
            {0: 'Ownership changes at the first boundary, on the farm.', 2: 'Temperature is recorded rather than being the '
                'boundary.', 3: 'Price is not what changes at any of the three '
                'boundaries.'}),
-          ('He says the useful question about a process is where the '
-           '____________ fall and why.', None, 'boundaries',
+          ('The useful question about a process is where what fall?',
+           None, 'the boundaries',
            'Rather than how many stages there are.')])],
    speak=dict(
     part='Part 3', focus='How far food travels',
@@ -967,15 +965,15 @@ UNIT = dict(
           ('Farmland rose by ____________ per cent while population '
            'doubled.', None, 'twelve',
            'Between 1960 and 2000, while population doubled.'),
-          ('New varieties put their energy into grain rather than '
-           '____________.', None, 'stem',
+          (
+           'New varieties put their energy into grain rather than '
+           'what?', None, 'stem',
            'Which is why the plants are shorter.'),
           ('India tripled its cereal yield per hectare in '
            '____________ years.', None, 'forty',
            'And forecast famines did not occur.'),
-          ('Soil forms at about one centimetre a ____________.',
-           None, 'century',
-           'Which is why losing it matters.'),
+          ('How long does one centimetre of soil take to form?', None,
+           'a century', 'Which is why losing it matters.'),
           ('Fertiliser reaching a river makes things grow, which takes '
            'out the ____________.', None, 'oxygen',
            'And without oxygen the fish in the river die.'),

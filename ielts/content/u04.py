@@ -364,9 +364,8 @@ UNIT = dict(
           ('Run-off from fields carries soil and ____________ into the '
            'water.', None, 'fertiliser',
            'Which takes the oxygen out of it.'),
-          ('Sewage is released when the treatment works cannot '
-           '____________.', None, 'cope',
-           'Which he says is legal, and frequent.'),
+          ('What stops the treatment works releasing sewage?', None,
+           'coping', 'Which he says is legal, and frequent.'),
           ('____________ members take readings twice a week.', None,
            'Six', 'At four points along the river.'),
           (
@@ -375,8 +374,8 @@ UNIT = dict(
            ['seriously', 'quickly', 'legally', 'publicly'], 0,
            'After nine years of being thanked.',
            {1: 'Nothing in the talk says the company acted quickly.', 2: 'Legality is not what the readings changed.', 3: 'The talk does not say the company responded publicly.'}),
-          ('He says the ____________ side is most of why people '
-           'stay.', None, 'social',
+          ('What does he say is most of why people stay?', None,
+           'the social side',
            'The members who last come for the coffee afterwards.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Nature nearby',
@@ -632,8 +631,8 @@ UNIT = dict(
           ('The licences were issued in the ____________, when the '
            'river ran higher.', None, 'sixties',
            'Which is the core of her point.'),
-          ('A licence states a quantity rather than a ____________.',
-           None, 'proportion',
+          ('What does a licence state, rather than a proportion?',
+           None, 'a quantity',
            'So the share taken rises as the river falls.'),
           ('At three cubic metres a second, fish cannot get past the',
            ['weir', 'shallows', 'bridge', 'bend'], 1,
@@ -642,9 +641,8 @@ UNIT = dict(
           ('Two of the three licences come up for renewal in '
            '____________ years.', None, 'four',
            'Which is why the readings matter now.'),
-          ('The official gauge was broken for ____________ months.',
-           None, 'five',
-           'From March until it was repaired in August.')])],
+          ('How long was the official gauge broken for?', None,
+           'five months', 'From March until it was repaired in August.')])],
    speak=dict(
     part='Part 3', focus='Trusting a measurement',
     intro=('Three or four sentences. Say what a measurement can and '
@@ -913,8 +911,8 @@ UNIT = dict(
           ('Taking a hundred metres off every side of a square '
            'kilometre loses ____________ per cent of it.', None,
            'thirty-six', 'Before the reserve is even used.'),
-          ('A long thin reserve may have no ____________ at all.',
-           None, 'interior', 'Which is the point of the arithmetic.'),
+          ('What may a long thin reserve have none of?', None,
+           'interior', 'Which is the point of the arithmetic.'),
           (
            'Small populations, he says, die of accidents rather than '
            'of',
@@ -925,8 +923,8 @@ UNIT = dict(
           ('Joined by a corridor, two populations of forty behave like '
            'one of ____________.', None, 'eighty',
            'Which survives what forty does not.'),
-          ('He says conservation is therefore mostly a '
-           '____________.', None, 'negotiation',
+          ('What does he say conservation is therefore mostly?', None,
+           'a negotiation',
            'Because the surrounding land belongs to other people.')])],
    speak=dict(
     part='Part 3', focus='Choosing what to protect',
@@ -1174,8 +1172,9 @@ UNIT = dict(
            '____________ for reasons outside the fence.', None,
            'drying out', 'With the water decided twelve kilometres '
            'away.'),
-          ('The second admits that single-species work is really a '
-           '____________ argument.', None, 'fundraising',
+          (
+           'What does the second speaker admit single-species work '
+           'really is?', None, 'a fundraising argument',
            'Because people give to birds they recognise.'),
           ('They disagree about where the next ten million '
            '____________ should go.', None, 'pounds',
@@ -1183,8 +1182,8 @@ UNIT = dict(
           ('He argues that recovering a species into a landscape it '
            'cannot cross buys it ____________ years.', None, 'twenty',
            'Which she says is not nothing.'),
-          ('She says twenty years is how long it took to change the '
-           '____________ rules.', None, 'farming',
+          ('She says twenty years is how long it took to change what?',
+           None, 'the farming rules',
            'Which he calls her best argument.'),
           (
            'They agree that neither profession works on the problem of',

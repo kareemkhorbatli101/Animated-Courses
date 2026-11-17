@@ -389,16 +389,15 @@ UNIT = dict(
            '420', 'A house with one bathroom and no garden.'),
           ('Desmond paid ____________ thousand in 1986.', None,
            'nineteen', 'When he earned six and a half.'),
-          ('That was ____________ times his salary.', None, 'three',
-           'Against eleven times his son’s.'),
+          ('How many times his salary did Desmond pay?', None,
+           'three times', 'Against eleven times his son\u2019s.'),
           ('His son can borrow about ____________ and a half times his '
            'salary.', None, 'four',
            'Which is why the arithmetic does not work.'),
           ('Annika has moved ____________ times in six years.', None,
            'four', 'Each time because the landlord sold.'),
-          ('She says the harm is that she cannot ____________ more '
-           'than six months ahead.', None, 'plan',
-           'Which she says matters more than the money.')])],
+          ('How far ahead does Annika say she cannot plan?', None,
+           'six months', 'Which she says matters more than the money.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Neighbourhoods',
     longturn=[('The place I want to describe is a flat on the third floor of '
@@ -636,17 +635,17 @@ UNIT = dict(
            'one direction saying what replaced what, then the new '
            'route.')],
          items=[
-          ('The two unchanged features are the road and the '
+          (
+           'The two unchanged features are the road and the '
            '____________.', None, 'railway',
            'Across the top and bottom of both plans.'),
           ('North of the road, the terraces have become '
            '____________.', None, 'flats',
            'Of five storeys, on the same strip.'),
-          ('The only surviving building in the middle strip is the',
-           ['wash house', 'school', 'works', 'shop'], 1,
-           'In the same place and the same building.',
-           {0: 'The wash house became the health centre.', 2: 'The engineering works became business units.', 3: 'The corner shops became a supermarket, north of the '
-               'road.'}),
+          (
+           'The only surviving building in the middle strip is the '
+           '____________.', None, 'school',
+           'In the same place and the same building.'),
           ('The engineering works is now a row of small '
            '____________.', None, 'business units',
            'At the eastern end of the middle strip.'),
@@ -925,8 +924,9 @@ UNIT = dict(
           ('Everything physical about a house is about a '
            '____________ of the price.', None, 'quarter',
            'Materials, labour and fittings together.'),
-          ('Making construction twenty per cent cheaper would take '
-           '____________ per cent off a house.', None, 'five',
+          (
+           'Making construction twenty per cent cheaper takes what off '
+           'a house?', None, 'five per cent',
            'Which he says nobody would notice.'),
           ('Farmland with planning permission sells for fifty to a '
            'hundred times as much, although the ____________ has not '
@@ -935,8 +935,9 @@ UNIT = dict(
           ('He lists farmland, the spread of the city, views and the '
            '____________ of a village as genuine benefits.', None,
            'character', 'All of which he calls genuine benefits.'),
-          ('Existing owners vote in local elections at about '
-           '____________ the rate of renters.', None, 'twice',
+          (
+           'Existing owners vote at about what rate compared with '
+           'renters?', None, 'twice',
            'Which is why pressure runs one way.'),
           ('His conclusion is uncomfortable in',
            ['one direction', 'both directions', 'no direction', 'three directions'],
@@ -1207,9 +1208,8 @@ UNIT = dict(
           ('The second admits that cities which build do have lower '
            '____________.', None, 'rents',
            'And that she has implied this is disputed.'),
-          ('She argues for permission plus public building on '
-           '____________ land.', None, 'public',
-           'Because the market serves the top first.'),
+          ('What does she argue for alongside permission?', None,
+           'public building', 'Because the market serves the top first.'),
           ('He says he disagrees mainly about the',
            ['evidence', 'order', 'cost', 'timing'], 1,
            'Permission first, because otherwise nobody can build.',
@@ -1218,8 +1218,8 @@ UNIT = dict(
           ('He has changed his mind about the ____________-level '
            'argument.', None, 'street',
            'Having previously dismissed objectors as selfish.'),
-          ('An argument true of a city, he says, can be '
-           '____________ about one road.', None, 'false',
+          ('An argument true of a city can be what about one road?',
+           None, 'false',
            'Which she calls the whole difficulty in one sentence.')])],
    speak=dict(
     part='Part 3', focus='Who new housing is built for',

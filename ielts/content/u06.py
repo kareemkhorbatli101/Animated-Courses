@@ -373,13 +373,13 @@ UNIT = dict(
            'Arriving at eleven and leaving at five.'),
           ('A day visitor spends about £____________.', None, '11',
            'Against ninety-four for an overnight visitor.'),
-          ('____________ per cent of housing is now let to visitors.',
-           None, 'Twenty-two',
+          ('What proportion of housing is now let to visitors?', None,
+           'twenty-two per cent',
            'With rents in the rest up about a third in five years.'),
           ('Tourism supports ____________ jobs in the town.', None,
            '280', 'About one in five of those working there.'),
-          ('He proposes to shift the ____________ rather than the '
-           'total.', None, 'mix',
+          ('What does he propose to shift, rather than the total?',
+           None, 'the mix',
            'Through charges on coaches and day parking.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Visiting',
@@ -636,8 +636,8 @@ UNIT = dict(
           ('Carrowmoor rises from four thousand in January to '
            '____________ thousand in July.', None, 'sixty-one',
            'Against eighteen to thirty-eight in Brantwell.'),
-          ('A Brantwell hotel can keep a ____________ in February.',
-           None, 'chef', 'Which a Carrowmoor hotel cannot.'),
+          ('What can a Brantwell hotel keep in February?', None,
+           'a chef', 'Which a Carrowmoor hotel cannot.'),
           ('Retraining staff each year costs about ____________ per '
            'cent of turnover.', None, 'nine',
            'According to figures the hotels supplied.'),
@@ -649,9 +649,8 @@ UNIT = dict(
           ('Two towns have shifted about ____________ per cent of '
            'their season.', None, 'eight',
            'By advertising and by pricing.'),
-          ('The only cost of the approach, he says, is the '
-           '____________.', None, 'advertising',
-           'No new roads or car parks are needed.')])],
+          ('What does he say is the only cost of the approach?', None,
+           'the advertising', 'No new roads or car parks are needed.')])],
    speak=dict(
     part='Part 3', focus='Spreading visitors through the year',
     intro=('Three or four sentences. Name a cost that is not '
@@ -910,16 +909,15 @@ UNIT = dict(
            'Those three questions have answers. "Is tourism good?" does '
            'not.')],
          items=[
-          ('He says tourism is the only major industry where the '
-           '____________ comes to the factory.', None, 'customer',
-           'From which everything difficult follows.'),
+          ('In which industry does the customer come to the factory?',
+           None, 'tourism', 'From which everything difficult follows.'),
           ('Tourism employs one worker in ____________ worldwide.',
            None, 'ten', 'And one in five in a small town.'),
           ('A house let to visitors earns three to four times what a '
            'resident ____________ pays.', None, 'tenant',
            'Which is why so many owners convert them.'),
-          ('He says no landlord is behaving ____________ by '
-           'converting.', None, 'badly',
+          ('How does he say landlords are behaving by converting?',
+           None, 'not badly',
            'They are responding to a large difference.'),
           ('Retraining costs close to a ____________ of turnover in '
            'the sharpest towns.', None, 'tenth',
@@ -1166,9 +1164,8 @@ UNIT = dict(
           ('The first official admits her cap moved about a '
            '____________ of the problem to the next town.', None,
            'third', 'Which she admits she knew at the time.'),
-          ('She says her reply at the time was true and was not an '
-           '____________.', None, 'answer',
-           'That it was not her responsibility.'),
+          ('Her reply at the time was true, but was not what?', None,
+           'an answer', 'That it was not her responsibility.'),
           ('The second official admits he offered nothing for '
            '____________ years.', None, 'four',
            'While explaining that caps do not work.'),
@@ -1177,8 +1174,8 @@ UNIT = dict(
            'Rather than that they work well.',
            {0: 'Cheapness is not the argument he makes for caps.', 2: 'He concedes a cap moved the problem elsewhere, so not '
                'locally.', 3: 'Permanence is the opposite of what he claims.'}),
-          ('Measures that worked changed a ____________.', None,
-           'price', 'While measures that failed forbade something.'),
+          ('What did the measures that worked change?', None,
+           'a price', 'While measures that failed forbade something.'),
           ('She says that pattern holds for all ____________ towns in '
            'the study.', None, 'four',
            'Including her own town, she says.')])],

@@ -236,17 +236,31 @@ def wc(paras):
     return sum(len(p.split()) for p in paras)
 
 
-def _items_ok(items, tag, n_lo, n_hi, out, bank=None):
+def _items_ok(items, tag, n_lo, n_hi, out, bank=None, reuse=False):
     if not (n_lo <= len(items) <= n_hi):
         out.append('%s: %d items, want %d-%d' % (tag, len(items), n_lo, n_hi))
     pos = set()
     lettered = any(it[1] for it in items)
     if bank is not None:
-        if len(bank) < len(items) + MIN_BANK_SPARE:
+        # Two kinds of lettered bank, and the real paper uses both. In a
+        # one-use bank - matching features, matching headings, labelling a
+        # plan - each option answers at most one question and the bank
+        # carries spares, so a candidate who is sure of five is not handed
+        # the sixth. In a reusable bank - "which speaker says each of the
+        # following: A, B, or both" - the options are categories and every
+        # item is sorted into one, so spares would be meaningless and a
+        # repeat is the point. A block declares the second kind with
+        # reuse=True, and is then held to a rule of its own: at least
+        # three options, every one of them used, because an option no item
+        # answers is a dead option either way.
+        seen = []
+        if not reuse and len(bank) < len(items) + MIN_BANK_SPARE:
             out.append('%s: %d items from a bank of %d, want at least %d '
                        'spare' % (tag, len(items), len(bank),
                                   MIN_BANK_SPARE))
-        seen = []
+        if reuse and len(bank) < 3:
+            out.append('%s: a reusable bank of %d, want 3+'
+                       % (tag, len(bank)))
         for i, it in enumerate(items):
             a = str(it[2]).strip()
             if not re.fullmatch(r'[A-J]', a):
@@ -255,11 +269,17 @@ def _items_ok(items, tag, n_lo, n_hi, out, bank=None):
             elif 'ABCDEFGHIJ'.index(a) >= len(bank):
                 out.append('%s item %d: answer %s is past the end of the '
                            'bank' % (tag, i + 1, a))
-            elif a in seen:
+            elif a in seen and not reuse:
                 out.append('%s item %d: letter %s used twice'
                            % (tag, i + 1, a))
             else:
                 seen.append(a)
+        if reuse:
+            dead = [b for i, b in enumerate(bank)
+                    if 'ABCDEFGHIJ'[i] not in seen]
+            if dead:
+                out.append('%s: reusable bank option(s) %s answer nothing'
+                           % (tag, ', '.join(str(d)[:18] for d in dead)))
     for i, it in enumerate(items):
         stem, opts, ans, why = it[0], it[1], it[2], it[3]
         if opts:
@@ -357,7 +377,7 @@ def check_unit(U, out, heads):
                     out.append('%s "%s": %d words, want %d-%d'
                                % (ct, r['heading'][:34], w, band[0], band[1]))
             allpos |= _items_ok(r['items'], '%s %s' % (ct, r['heading'][:22]),
-                                3, 8, out)
+                                3, 8, out, r.get('bank'), r.get('reuse'))
             if PHASE['rubric'] and not _rubric_ok(r):
                 out.append('%s "%s": no rubric can be derived for the '
                            'exercise' % (ct, r['heading'][:30]))
@@ -372,7 +392,7 @@ def check_unit(U, out, heads):
                     out.append('%s listening "%s": %d words, want %d-%d'
                                % (ct, l['heading'][:30], w, band[0], band[1]))
             allpos |= _items_ok(l['items'], '%s %s' % (ct, l['heading'][:22]),
-                                3, 8, out, l.get('bank'))
+                                3, 8, out, l.get('bank'), l.get('reuse'))
             if PHASE['rubric'] and not _rubric_ok(l):
                 out.append('%s listening "%s": no rubric can be derived'
                            % (ct, l['heading'][:30]))

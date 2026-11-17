@@ -367,14 +367,15 @@ UNIT = dict(
           ('The commonest week to stop is the week ____________ a '
            'week off.', None, 'after',
            'Rather than the week off itself.'),
-          ('He says restarting takes a ____________ and continuing '
-           'does not.', None, 'decision',
-           'Which is why gaps become endings.'),
+          (
+           'What does he say restarting takes and continuing does not?',
+           None, 'a decision', 'Which is why gaps become endings.'),
           ('After a break he advises coming back once and doing '
            '____________ of the usual amount.', None, 'half',
            'Early, to close the gap before it sets.'),
-          ('Improvement typically lasts about ____________ months '
-           'before flattening.', None, 'three',
+          (
+           'How long does improvement typically last before '
+           'flattening?', None, 'three months',
            'Which he says is normal and physiological.'),
           ('Last year\u2019s survey put facilities ahead of time and',
            ['distance', 'cost', 'coaching', 'equipment'], 1,
@@ -637,8 +638,8 @@ UNIT = dict(
            'that could only be spent that way.', None, 'grant',
            'Which Ingrid calls the commonest way bad spending '
            'happens.'),
-          ('She would propose keeping one pool open with longer hours '
-           'for ____________ workers.', None, 'shift',
+          ('Whom would she keep one pool open with longer hours for?',
+           None, 'shift workers',
            'Instead of building a fourth pitch, she says.')])],
    speak=dict(
     part='Part 3', focus='Who sport is for',
@@ -902,11 +903,11 @@ UNIT = dict(
            'know that in advance are the people still training two years '
            'later.')],
          items=[
-          ('He says training makes you worse and ____________ makes '
-           'you fitter.', None, 'recovery',
-           'Which he calls the basis of the subject.'),
-          ('For a day or two after a hard session you are measurably '
-           '____________.', None, 'weaker',
+          ('What does he say makes you fitter, rather than training?',
+           None, 'recovery', 'Which he calls the basis of the subject.'),
+          (
+           'How are you measurably for a day or two after a hard '
+           'session?', None, 'weaker',
            'Weaker than before the session, until rebuilding.'),
           ('The body rebuilds slightly beyond where you started, as a '
            '____________ against the same load.', None, 'defence',

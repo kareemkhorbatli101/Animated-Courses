@@ -99,8 +99,53 @@ def to_q(name, spec):
     return _apply(name, spec, 'q')
 
 
+def to_short(name, spec):
+    """{ordinal: (question, answer)} -> short-answer items from gap items.
+
+    Not the same job as to_q, which takes a multiple-choice item apart.
+    This one re-asks a gapped sentence as a question, which is how the
+    completion ceiling is met without touching a recording: two questions
+    in a six-gap block leave four gaps, and four independent gaps are a
+    sentence-completion set rather than a note set. Both are real tasks and
+    the real paper mixes them inside one part."""
+    f, items = _items(name)
+    bad = []
+    done = 0
+    for n, v in sorted(spec.items()):
+        if not (1 <= n <= len(items)):
+            bad.append('%s: no item %d' % (name, n))
+            continue
+        it = items[n - 1]
+        stem, ans = (v if isinstance(v, (tuple, list)) else (v, None))
+        if it.opts:
+            bad.append('%s i%d: still has options; use to_q' % (name, n))
+            continue
+        if not GAP.search(it.stem or ''):
+            bad.append('%s i%d: was not a gap item' % (name, n))
+            continue
+        if ans is None:
+            ans = it.ans
+        if len(str(ans).split()) > MAX_WORDS:
+            bad.append('%s i%d: answer %r is %d words, the rubric allows %d'
+                       % (name, n, ans, len(str(ans).split()), MAX_WORDS))
+            continue
+        if not stem.rstrip().endswith('?'):
+            bad.append('%s i%d: a short-answer stem has to ask something'
+                       % (name, n))
+            continue
+        if GAP.search(stem):
+            bad.append('%s i%d: the new stem still has a gap' % (name, n))
+            continue
+        it.set(stem=stem, ans=str(ans))
+        done += 1
+    f.save()
+    for b in bad:
+        print('  !! ' + b)
+    return done, len(bad)
+
+
 def to_match(name, spec):
-    """{ordinal: letter} -> matching items answered from a lettered bank.
+    """{ordinal: letter} or {ordinal: (letter, stem[, why])} -> matching.
 
     The block must already carry the bank; blockedit.setkw puts it there.
     A matching item keeps its stem and loses its option list, because the
@@ -109,16 +154,22 @@ def to_match(name, spec):
     f, items = _items(name)
     bad = []
     done = 0
-    for n, letter in sorted(spec.items()):
+    for n, v in sorted(spec.items()):
         if not (1 <= n <= len(items)):
             bad.append('%s: no item %d' % (name, n))
             continue
         it = items[n - 1]
+        if isinstance(v, (tuple, list)):
+            letter = v[0]
+            stem = v[1] if len(v) > 1 else it.stem
+            why = v[2] if len(v) > 2 else it.why
+        else:
+            letter, stem, why = v, it.stem, it.why
         if not isinstance(letter, str) or len(letter.strip()) != 1:
             bad.append('%s i%d: %r is not a bank letter' % (name, n, letter))
             continue
         it.wrongs = None
-        it.set(stem=it.stem, ans=letter.strip(), opts=None)
+        it.set(stem=stem, ans=letter.strip(), why=why, opts=None)
         done += 1
     f.save()
     for b in bad:

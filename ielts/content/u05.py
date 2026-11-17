@@ -374,9 +374,9 @@ UNIT = dict(
           ('He says the advice about symbols comes from the '
            '____________.', None, 'nineties',
            'And produced passwords people cannot remember.'),
-          ('He says ____________ matters far more than punctuation.',
-           None, 'length', 'In choosing a password that will hold.'),
-          ('The real danger, he says, is ____________.', None, 'reuse',
+          ('What does he say matters far more than punctuation?', None,
+           'length', 'In choosing a password that will hold.'),
+          ('What does he say the real danger is?', None, 'reuse',
            'Rather than somebody guessing a password.'),
           ('A machine tries a leaked password on about ____________ '
            'other sites.', None, 'four hundred',
@@ -635,8 +635,7 @@ UNIT = dict(
           ('Casimir’s phone reported ____________ hours forty '
            'minutes.', None, 'four',
            'Against Lucinde’s three and a half.'),
-          ('The figure that worried him was the number of '
-           '____________.', None, 'pick-ups',
+          ('Which figure worried Casimir?', None, 'pick-ups',
            'Ninety-four of them in a single day.'),
           ('That is roughly once every ____________ minutes he is '
            'awake.', None, 'ten',
@@ -648,9 +647,8 @@ UNIT = dict(
            ['fifty-one', 'thirty-three', 'twenty-two', 'eleven'], 2,
            'Down from ninety-four when it was on the desk.',
            {0: 'Fifty-one is not a figure given in the conversation.', 1: 'Thirty-three is not one of the counts mentioned.', 3: 'Eleven is lower than any figure he reports.'}),
-          ('He says the ____________ does what willpower does not.',
-           None, 'distance',
-           'Which he admits is slightly embarrassing.')])],
+          ('What does he say does what willpower does not?', None,
+           'the distance', 'Which he admits is slightly embarrassing.')])],
    speak=dict(
     part='Part 3', focus='Attention and distraction',
     intro=('Three or four sentences. Use a number if you have one.'),
@@ -907,8 +905,9 @@ UNIT = dict(
            'you announce what you are counting, people optimise for the '
            'thing you count rather than the thing you wanted.')],
          items=[
-          ('A thing counted in place of what you really want is called '
-           'a ____________.', None, 'proxy',
+          (
+           'What is a thing counted in place of what you really want '
+           'called?', None, 'a proxy',
            'Quality measured by counting links, for example.'),
           ('The first method lasted about ____________ years.', None,
            'three', 'Counting the search word on the page.'),
@@ -923,8 +922,9 @@ UNIT = dict(
            'Which is why the systems become complicated.',
            {0: 'The measure is what gets refined, not what is '
                'answered.', 2: 'The ranking is the output rather than the attack.', 3: 'A result is what the user sees, not what is answered.'}),
-          ('When a measure becomes a ____________, it stops being a '
-           'good measure.', None, 'target',
+          (
+           'What does a measure become when it stops being a good one?',
+           None, 'a target',
            'The law he wants the audience to remember.')])],
    speak=dict(
     part='Part 3', focus='What a machine decides for you',

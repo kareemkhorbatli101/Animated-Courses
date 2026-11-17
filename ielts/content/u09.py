@@ -367,11 +367,10 @@ UNIT = dict(
           ('The long conversation between two close people still '
            'happens by ____________.', None, 'voice',
            'And has risen slightly in average length.'),
-          ('He describes the change as a ____________ rather than a '
-           'decline.', None, 'split',
-           'More contact, the same conversation.'),
-          ('What is genuinely new is ____________ without '
-           'conversation.', None, 'presence',
+          ('How does he describe the change, rather than a decline?',
+           None, 'a split', 'More contact, the same conversation.'),
+          ('What does he say is genuinely new?', None,
+           'presence without conversation',
            'Knowing about somebody without speaking to them.'),
           ('His test is whether you have had a conversation in the '
            'last ____________ months.', None, 'six',
@@ -420,12 +419,12 @@ UNIT = dict(
           ('Hyacinth says a message takes ____________ exchanges to '
            'say what a minute says.', None, 'four',
            'Which is her reason for calling.'),
-          ('Anselm wants contact that costs him nothing at the moment '
-           'it ____________.', None, 'arrives',
-           'Which she calls the honest version of the '
-           'disagreement.'),
-          ('She says nobody tells you anything ____________ in a '
-           'message.', None, 'difficult',
+          (
+           'What does Anselm want contact to cost him when it arrives?',
+           None, 'nothing',
+           'Which she calls the honest version of the disagreement.'),
+          ('What does she say nobody tells you in a message?', None,
+           'anything difficult',
            'Because they do not know when it will be read.'),
           ('Everything serious Anselm was told this year was said',
            ['in writing', 'out loud', 'at work', 'by email'], 1,
@@ -686,20 +685,17 @@ UNIT = dict(
           ('From the base station onwards, the call travels on '
            '____________.', None, 'cable',
            'Which accounts for most of the journey.'),
-          ('A telephone number does not contain a ____________.',
-           None, 'location',
-           'Which is why the register is needed.'),
+          ('A telephone number does not contain a ____________.', None,
+           'location', 'Which is why the register is needed.'),
           ('The subscriber register is updated whenever a phone '
            'crosses a ____________.', None, 'boundary',
            'Whether a call is being made or not.'),
-          ('If the receiver is on a landline, the call goes onto the',
-           ['radio network', 'fixed network', 'satellite link', 'local mast'],
-           1, 'Leaving the mobile network entirely.',
-           {0: 'The radio network is only the first and last few '
-               'hundred metres.', 2: 'No satellite link is mentioned in the talk.', 3: 'The local mast is where the mobile part ends.'}),
-          ('A handover between masts takes under half a '
-           '____________.', None, 'second',
-           'Which is why nobody notices it.')])],
+          (
+           'If the receiver is on a landline, the call goes onto the '
+           '____________ network.', None, 'fixed',
+           'Leaving the mobile network entirely.'),
+          ('A handover between masts takes under half a ____________.',
+           None, 'second', 'Which is why nobody notices it.')])],
    speak=dict(
     part='Part 3', focus='Infrastructure people never see',
     intro=('Three or four sentences. Describe how something works '
@@ -961,18 +957,18 @@ UNIT = dict(
           ('He says what is not lost in translation is the '
            '____________.', None, 'content',
            'Because anything can be said with enough words.'),
-          ('The first thing lost is ____________: whether a word is '
-           'formal, rude or affectionate.', None, 'register',
-           'Which dictionaries rarely record.'),
+          ('What is the first thing lost in translation?', None,
+           'register', 'Which dictionaries rarely record.'),
           ('"Slim" and "skinny" describe the same shape and carry '
            'opposite ____________.', None, 'judgements',
            'Which no dictionary in either direction conveys.'),
           ('The third loss is the ____________ of expressing an '
            'idea.', None, 'cost',
            'Because a word is cheaper than a sentence.'),
-          ('He says that is a claim about what people bother to '
-           '____________ rather than what they can think.', None,
-           'say', 'Which he calls far better supported.'),
+          (
+           'That is a claim about what people bother to do, rather '
+           'than what?', None, 'what they think',
+           'Which he calls far better supported.'),
           (
            'A culture can be read accurately in translation provided '
            'the reader knows what has been',
