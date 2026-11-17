@@ -281,7 +281,12 @@
   var P = FMS.progress = {
     all: readJSON(KEY, {}),
     page: function (pid) { return (this.all[pid] = this.all[pid] || { cards: {} }); },
-    card: function (pid, cid) { var p = this.page(pid); return (p.cards[cid] = p.cards[cid] || { attempts: 0, helped: false, score: 0, max: 0, done: false, state: null }); },
+    /* `erred` — has any check ever found an answer the learner gave that was WRONG?
+       It is what mastery turns on now, in place of "this is the first press of the
+       button": an incomplete attempt is not a mistake. Absent on records saved
+       before 2026-11-17, and absent reads as false, which is the safe direction - an
+       old record cannot wrongly lose its star. */
+    card: function (pid, cid) { var p = this.page(pid); return (p.cards[cid] = p.cards[cid] || { attempts: 0, helped: false, erred: false, score: 0, max: 0, done: false, state: null }); },
     save: function () { writeJSON(KEY, this.all); FMS.chrome && FMS.chrome.refresh && FMS.chrome.refresh(); },
     pageScore: function (pid) {
       var p = this.all[pid]; if (!p) return { done: 0, total: 0 };
@@ -833,7 +838,19 @@
     }
     sec.appendChild(body);
 
+    /* THE MARK IS NOW ANNOUNCED.
+       Measured 2026-11-17: `aria-live` appeared ZERO times in this engine and
+       `role="status"` zero times. A learner using a screen reader pressed Check
+       answers and was told nothing at all - not the score, not "Not yet", not
+       "Correct". The words appeared on screen and were never spoken, on all 180
+       cards of this course and in all five courses that share the engine.
+       `polite` rather than `assertive` on purpose: the verdict is the answer to
+       something the learner just did, so it should not cut across what they are
+       already hearing. RESIDUALS FM-30 / F9. */
     var verdict = U.el('div', 'verdict');
+    verdict.setAttribute('role', 'status');
+    verdict.setAttribute('aria-live', 'polite');
+    verdict.setAttribute('aria-atomic', 'true');
     var foot = U.el('div', 'card-foot no-print');
 
     /* ----------------------------------------------------------
@@ -867,14 +884,42 @@
       },
       clearVerdict: function () { verdict.className = 'verdict'; },
       save: function (state) { rec.state = state === undefined ? rec.state : state; P.save(); },
-      /** record a result and update chrome */
-      result: function (score, max) {
-        rec.attempts++;
+      /** record a result and update chrome
+       *
+       *  `answered` — HOW MANY ITEMS THE LEARNER HAD ACTUALLY FILLED IN. One number,
+       *  and it is what makes the two fixes below possible, because `score < max` on
+       *  its own cannot tell "three of six are wrong" from "three of six are still
+       *  empty". A component that cannot say omits it, and then nothing changes for
+       *  that component: it is read as a complete attempt, exactly as before.
+       */
+      result: function (score, max, answered) {
+        var known = (typeof answered === 'number');
+        var filled = known ? answered : max;            /* unknown = assume complete */
+        var wrong = Math.max(0, filled - score);        /* answered, and not right */
+
+        /* AN EMPTY CARD NO LONGER COSTS AN ATTEMPT.
+           Measured 2026-11-17 on 53 of this course's cards: pressing Check with
+           nothing filled in recorded `attempts: 1` and `0 / max`, so merely pressing
+           the button to see what it does spent the learner's one chance at mastery
+           before they had answered anything. The verdict still answers; the record
+           is not charged. RESIDUALS FM-30 / F5. */
+        if (!(known && filled === 0)) rec.attempts++;
+        /* A WRONG ANSWER IS WHAT COSTS MASTERY - NOT AN INCOMPLETE ONE.
+           It used to require `rec.attempts === 1`, so a learner who checked three of
+           six answers, fixed nothing because nothing was wrong, finished the other
+           three and passed could never be marked as having mastered it - while one
+           who guessed all six at once and happened to be right, could. Measured on 36
+           cards. The engine was rewarding a single guess and penalising checking your
+           work, which is the opposite of what the course is for.
+           RESIDUALS FM-30 / F6. */
+        if (wrong > 0) rec.erred = true;
+
         rec.score = score; rec.max = max;
         var pass = max > 0 ? score >= max : score > 0;
         if (pass) {
           rec.done = true;
-          if (!rec.helped && rec.attempts === 1) rec.mastered = true;
+          /* `helped` still withholds the star, so Show me and Hint still cost it. */
+          if (!rec.helped && !rec.erred) rec.mastered = true;
           sec.classList.add('is-ok');
           api.verdict('ok', (card.okMsg || 'Correct.') + ' ' + score + ' / ' + max + (rec.helped ? '  (completed with help)' : (rec.mastered ? '  ★ mastered' : '')));
         } else if (score > 0) {
@@ -894,7 +939,93 @@
         P.save();
       },
       helped: function () { rec.helped = true; P.save(); },
-      speak: FMS.speak
+      speak: FMS.speak,
+      /* ----------------------------------------------------------
+         reveal — the ONE place "show me the answer" is implemented.
+
+         It used to be implemented twenty-three times, once per
+         exercise type, and every one of them did it by writing the
+         answer into the card. Measured 2026-11-17 across this
+         course's 180 cards: 53 had the learner's answer rewritten
+         where they had written it, 20 of those replacing whole
+         sentences; the same 53 were then marked 7/7 and `done` by
+         the next press of Check; and 45 more announced "Shown."
+         while changing nothing at all. Not one of the 180 opened a
+         panel. RESIDUALS FM-30, the owner's instruction.
+
+         rows: [{ t: the answer, mine: what the learner wrote,
+                  ok: true|false|null, why: '…', given: true }]
+
+         `mine` is optional and `ok:null` means "they left it
+         alone" — neither right nor wrong, and said so rather than
+         counted as wrong.
+
+         The card is NOT touched. That is the whole contract, and
+         gates/course_check_answers M9 asserts it by comparing the
+         card's answer state before and after.
+         ---------------------------------------------------------- */
+      reveal: function (spec) {
+        spec = spec || {};
+        var rows = spec.rows || [];
+        var host = U.el('div', '');
+        if (spec.note) host.appendChild(U.el('p', 'rev-note', spec.note));
+
+        var anyMine = rows.some(function (r) { return r.mine !== undefined; });
+        if (rows.length) {
+          if (anyMine) {
+            var h = U.el('div', 'rev-row');
+            h.appendChild(U.el('div', 'rev-head', ''));
+            h.appendChild(U.el('div', 'rev-head', 'What you wrote'));
+            h.appendChild(U.el('div', 'rev-head', 'The answer'));
+            host.appendChild(h);
+          }
+          rows.forEach(function (r) {
+            var cls = r.given ? 'rev-skip' : (r.ok === true ? 'rev-ok'
+              : (r.ok === false ? 'rev-no' : 'rev-skip'));
+            var row = U.el('div', 'rev-row ' + cls);
+            row.appendChild(U.el('div', 'rev-mark',
+              r.given ? '•' : (r.ok === true ? '✓' : (r.ok === false ? '✗' : '–'))));
+            if (anyMine) {
+              var mine = String(r.mine === undefined || r.mine === null ? '' : r.mine).trim();
+              row.appendChild(U.el('div', 'rev-mine',
+                mine ? U.esc(mine) : '<em>you left this one</em>'));
+            }
+            row.appendChild(U.el('div', 'rev-want', U.esc(String(r.t === undefined ? '' : r.t))));
+            /* the reason is authored prose and takes light markup, the same way
+               an instruction and a caption do; the answer itself is data and is
+               escaped above */
+            if (r.why) row.appendChild(U.el('div', 'rev-why', r.why));
+            host.appendChild(row);
+          });
+        }
+
+        var actions = [];
+        /* PUT MY ANSWER BACK is what makes a reveal safe rather than merely
+           non-destructive. It is offered only where the component can really do
+           it — 41 of the 48 implement getState/setState — and it restores the
+           state as it was the moment before the panel opened, not the state of
+           the last check. */
+        if (inst && inst.getState && inst.setState) {
+          var before = null;
+          try { before = JSON.parse(JSON.stringify(inst.getState())); } catch (e) { before = null; }
+          if (before !== null) {
+            actions.push({
+              label: FMS.art.icon('replay', 15) + 'Put my answer back', keep: true,
+              onclick: function () {
+                try { inst.setState(before); FMS.toast('Your answer is back.'); }
+                catch (e2) { FMS.toast('That could not be restored.'); }
+              }
+            });
+          }
+        }
+
+        return FMS.panel({
+          title: spec.title || 'The answer, beside yours',
+          node: host,
+          key: 'reveal',
+          actions: actions
+        });
+      }
     };
 
     /* ----------------------------------------------------------
@@ -961,6 +1092,11 @@
       api.clearVerdict();
       sec.classList.remove('is-ok');
       rec.state = null; rec.score = 0; rec.max = 0; rec.done = false;
+      /* a real start-over includes the mistake record: the card comes back exactly as
+         it loaded, and that has to include the learner's chance at mastery. `helped`
+         deliberately does NOT reset - having been shown the answer is not undone by
+         clearing the boxes. */
+      rec.erred = false;
       P.save();
       buildActivity();
     }
@@ -988,7 +1124,38 @@
     }
     if (inst && (inst.reset || inst.check)) {
       var bTry = U.el('button', 'btn', FMS.art.icon('replay', 16) + 'Try again');
-      bTry.onclick = function () { hardReset(); };
+      /* IT ASKS FIRST, ON A CARD THAT HAS SOMETHING TO LOSE.
+         This button sits immediately beside Check answers on every one of the 180
+         cards, and it erased the learner's answer, their score and their completion
+         with no warning and no way back - one stray click on a finished, fully
+         marked exercise emptied it. Three of the engine's own verdict messages told
+         the learner to press it, two of them at the moment they had just scored full
+         marks.
+
+         The question is only asked when there IS something to lose - a card with no
+         attempt and nothing written clears silently, because a confirmation on an
+         empty card is noise that teaches people to dismiss confirmations.
+         RESIDUALS FM-30 / F10. */
+      bTry.onclick = function () {
+        var hasWork = rec.done || rec.attempts > 0 ||
+          (rec.state !== null && rec.state !== undefined);
+        if (!hasWork) { hardReset(); return; }
+        var what = rec.done
+          ? (rec.max > 0
+             ? 'This exercise is finished, with ' + rec.score + ' / ' + rec.max + '.'
+             : 'This exercise is marked as finished.')
+          : 'You have work in this exercise that has not been finished yet.';
+        FMS.modal({
+          title: 'Start this exercise again?',
+          html: '<p>' + what + '</p><p>Starting again <b>clears your answer and your '
+              + 'score</b> and cannot be undone.</p>',
+          actions: [
+            { label: 'Keep my work', cls: 'btn-primary' },
+            { label: FMS.art.icon('replay', 15) + 'Clear it and start again',
+              onclick: function () { hardReset(); } }
+          ]
+        });
+      };
       bTry.title = 'Clear this exercise and start it again';
       foot.appendChild(bTry);
     }
@@ -1005,6 +1172,13 @@
       foot.appendChild(bS);
       bS.onclick = function () { api.helped(); inst.show(); };
       sec.addEventListener('csb1:attempt', unlockShow);
+    }
+    /* A COMPONENT MAY ASK FOR ITS OWN FOOTER CONTROL. `study` and a quiz-less
+       `scene` have no check and no show, so their footer offered "Try again" and
+       nothing else while their real button - "I've studied this" - sat in the body.
+       35 cards of this course. RESIDUALS FM-30 / F7. */
+    if (inst && inst.footer && inst.footer.length) {
+      inst.footer.forEach(function (b) { foot.appendChild(b); });
     }
     foot.appendChild(U.el('div', 'grow'));
     if (card.bookRef) foot.appendChild(U.el('span', 'bookchip', card.bookRef));
@@ -1279,6 +1453,190 @@
     d.addEventListener('keydown', onKey, true);
     var ff = focusables();
     if (ff.length) { try { ff[0].focus(); } catch (e) { } }
+    return api;
+  };
+
+  /* ============================================================
+     panel — a floating, closeable, MOVEABLE, RESIZABLE window
+
+     A sibling of FMS.modal, not a change to it, and the difference
+     is the whole point. `modal` covers the page and traps focus,
+     which is right for "choose an option before you go on" and
+     wrong for the only job this panel has: letting a learner read
+     the model answer WHILE their own answer is still on screen. A
+     reveal that hides the thing being compared is no better than
+     the one this replaces, which wrote the answer over it.
+
+     Why it exists at all: measured 2026-11-17, `Show me` rewrote
+     the learner's answer in place on 53 of the 180 cards of this
+     course — 20 of them replacing whole sentences they had
+     written — and not one card in any of the five courses opened a
+     panel of any kind. RESIDUALS FM-30.
+
+       FMS.panel({ title, node | html, key })
+
+     `key` is a name under which this panel's position and size are
+     remembered, so a learner who drags it out of the way once does
+     not have to do it again.
+     ============================================================ */
+  var openPanel = null;
+  var PANEL_MIN_W = 300, PANEL_MIN_H = 180;
+
+  FMS.panel = function (opts) {
+    if (openPanel) openPanel.close();
+    opts = opts || {};
+    var key = 'panel.' + (opts.key || 'default');
+    var small = w.matchMedia && w.matchMedia('(max-width: 640px)').matches;
+
+    var box = U.el('div', 'fpanel' + (small ? ' fpanel-sheet' : ''));
+    box.setAttribute('role', 'dialog');
+    /* NOT aria-modal. The page behind stays available on purpose, and claiming
+       otherwise would tell a screen reader the opposite of what is true. */
+    box.setAttribute('aria-modal', 'false');
+    var hid = 'fp' + Math.random().toString(36).slice(2, 8);
+    box.setAttribute('aria-labelledby', hid);
+
+    var head = U.el('div', 'fpanel-head');
+    head.innerHTML = '<h3 id="' + hid + '">' + U.esc(opts.title || 'The answer') + '</h3>';
+    head.appendChild(U.el('div', 'grow'));
+    var xb = U.el('button', 'btn btn-sm fpanel-close', FMS.art.icon('x', 16) + 'Close');
+    xb.type = 'button';
+    xb.setAttribute('aria-label', 'Close this panel');
+    head.appendChild(xb);
+    box.appendChild(head);
+
+    var body = U.el('div', 'fpanel-body');
+    if (opts.node) body.appendChild(opts.node);
+    else if (opts.html !== undefined) body.innerHTML = opts.html;
+    box.appendChild(body);
+
+    var foot = null;
+    if (opts.actions && opts.actions.length) {
+      foot = U.el('div', 'fpanel-foot');
+      opts.actions.forEach(function (a) {
+        var b = U.el('button', 'btn btn-sm ' + (a.cls || ''), a.label);
+        b.type = 'button';
+        b.onclick = function () { if (a.onclick) a.onclick(api); if (!a.keep) api.close(); };
+        foot.appendChild(b);
+      });
+      box.appendChild(foot);
+    }
+
+    var grip = null;
+    if (!small) {
+      grip = U.el('div', 'fpanel-grip');
+      grip.setAttribute('aria-hidden', 'true');
+      box.appendChild(grip);
+    }
+
+    var api = {
+      el: box, body: body,
+      close: function () {
+        if (openPanel !== api) return;
+        openPanel = null;
+        try { FMS.stopSpeak(); } catch (e) { }
+        d.removeEventListener('keydown', onKey, true);
+        box.remove();
+        if (opts.onClose) { try { opts.onClose(); } catch (e) { } }
+      }
+    };
+    xb.onclick = api.close;
+
+    /* ---- remembered geometry, clamped into the viewport every time ----
+       A remembered position is only useful if it is still on screen. The
+       window may have been resized, or the panel dragged to the far right
+       of a wide monitor and reopened on a laptop, and a panel restored off
+       screen is indistinguishable from one that failed to open. */
+    function clamp(x, y, cw, ch) {
+      var vw = w.innerWidth, vh = w.innerHeight;
+      cw = Math.min(cw, vw - 16); ch = Math.min(ch, vh - 16);
+      return [Math.max(8, Math.min(x, vw - cw - 8)),
+              Math.max(8, Math.min(y, vh - ch - 8)), cw, ch];
+    }
+
+    d.body.appendChild(box);
+    if (!small) {
+      var st = readJSON(PREF + '.' + key, null);
+      var bw = (st && st.w) || Math.min(620, w.innerWidth - 40);
+      var bh = (st && st.h) || Math.min(460, w.innerHeight - 80);
+      var bx = (st && st.x !== undefined) ? st.x : Math.max(8, w.innerWidth - bw - 32);
+      var by = (st && st.y !== undefined) ? st.y : 96;
+      var c = clamp(bx, by, Math.max(PANEL_MIN_W, bw), Math.max(PANEL_MIN_H, bh));
+      box.style.left = c[0] + 'px'; box.style.top = c[1] + 'px';
+      box.style.width = c[2] + 'px'; box.style.height = c[3] + 'px';
+    }
+
+    function remember() {
+      if (small) return;
+      writeJSON(PREF + '.' + key, {
+        x: parseInt(box.style.left, 10) || 0, y: parseInt(box.style.top, 10) || 0,
+        w: box.offsetWidth, h: box.offsetHeight
+      });
+    }
+
+    /* ---- MOVEABLE: pointer events, so a mouse, a finger and a pen all work.
+       Pointer capture means a fast drag that leaves the header still tracks,
+       which a plain mousemove on the header does not. ---- */
+    function dragFrom(el, onMove) {
+      el.addEventListener('pointerdown', function (ev) {
+        if (ev.button !== undefined && ev.button !== 0) return;
+        if (ev.target.closest && ev.target.closest('button')) return;
+        ev.preventDefault();
+        var sx = ev.clientX, sy = ev.clientY;
+        var ox = parseInt(box.style.left, 10) || 0, oy = parseInt(box.style.top, 10) || 0;
+        var ow = box.offsetWidth, oh = box.offsetHeight;
+        try { el.setPointerCapture(ev.pointerId); } catch (e) { }
+        function move(e2) { onMove(e2.clientX - sx, e2.clientY - sy, ox, oy, ow, oh); }
+        function up(e2) {
+          try { el.releasePointerCapture(e2.pointerId); } catch (e) { }
+          el.removeEventListener('pointermove', move);
+          el.removeEventListener('pointerup', up);
+          el.removeEventListener('pointercancel', up);
+          remember();
+        }
+        el.addEventListener('pointermove', move);
+        el.addEventListener('pointerup', up);
+        el.addEventListener('pointercancel', up);
+      });
+    }
+
+    if (!small) {
+      dragFrom(head, function (dx, dy, ox, oy) {
+        var c2 = clamp(ox + dx, oy + dy, box.offsetWidth, box.offsetHeight);
+        box.style.left = c2[0] + 'px'; box.style.top = c2[1] + 'px';
+      });
+      dragFrom(grip, function (dx, dy, ox, oy, ow, oh) {
+        var nw = Math.max(PANEL_MIN_W, Math.min(ow + dx, w.innerWidth - ox - 8));
+        var nh = Math.max(PANEL_MIN_H, Math.min(oh + dy, w.innerHeight - oy - 8));
+        box.style.width = nw + 'px'; box.style.height = nh + 'px';
+      });
+      /* the keyboard can move it too: a draggable window that only a mouse can
+         move is not moveable for everyone */
+      head.setAttribute('tabindex', '0');
+      head.setAttribute('aria-label',
+        'Panel title bar — drag to move, or use the arrow keys');
+      head.addEventListener('keydown', function (ev) {
+        var step = ev.shiftKey ? 48 : 16, dx = 0, dy = 0;
+        if (ev.key === 'ArrowLeft') dx = -step;
+        else if (ev.key === 'ArrowRight') dx = step;
+        else if (ev.key === 'ArrowUp') dy = -step;
+        else if (ev.key === 'ArrowDown') dy = step;
+        else return;
+        ev.preventDefault();
+        var c3 = clamp((parseInt(box.style.left, 10) || 0) + dx,
+                       (parseInt(box.style.top, 10) || 0) + dy,
+                       box.offsetWidth, box.offsetHeight);
+        box.style.left = c3[0] + 'px'; box.style.top = c3[1] + 'px';
+        remember();
+      });
+    }
+
+    function onKey(ev) {
+      if (ev.key === 'Escape') { ev.preventDefault(); api.close(); }
+    }
+    d.addEventListener('keydown', onKey, true);
+    openPanel = api;
+    try { xb.focus(); } catch (e) { }
     return api;
   };
 

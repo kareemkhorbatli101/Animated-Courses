@@ -2896,6 +2896,23 @@
     var blocks = card.blocks || [];
     var slots = [], blockEls = {};
 
+    /* `positions` MAY BE A LIST OF BLOCK-ID STRINGS, and in this course always is.
+       The code below reads pos.answer, pos.job, pos.why and pos.hint. On a string those
+       are all undefined, so check() compared a placed id against undefined and scored
+       0 of n however the learner arranged the blocks, and show() called
+       place(i, undefined) and filled nothing.
+
+       Fixed in fms/b1 and eam/b1 on 2026-11-16 (RESIDUALS FM-15) and NOT HERE, because
+       each course carries its own copy of this file. Measured 2026-11-17: four cards of
+       this course were still live and unmarkable - unit 1 4A (6 positions), unit 1
+       F1.1-b (5), unit 2 4A (6), unit 2 F2.1-b (3). cybersecurity/b1 also lacks this
+       normalisation and is unaffected, because its one order card authors objects: the
+       population is (card, has the fix, shape of its data), never (course).
+       RESIDUALS FM-30 / F24. */
+    card.positions = (card.positions || []).map(function (p) {
+      return (p && typeof p === 'object') ? p : { answer: p, job: '' };
+    });
+
     if (card.poolLabel) host.appendChild(mk('div', 'wc', card.poolLabel));
 
     /* the slots: one per position, each saying what job it wants */
