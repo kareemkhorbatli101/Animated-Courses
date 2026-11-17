@@ -227,3 +227,118 @@ Every step ends the same way: `check.py`, `density.py`, `density.py
 --ladder`, `book.py`, `omit.py`, `gate6.py`, the new `gate8.py`,
 `readiness.py`, **and a rendered page read by eye** — which is what found
 the defect in Part 1.
+
+---
+
+## Part 5 · Two questions the plan did not answer well enough
+
+Asked directly whether this fixes **the density of speaking** and **the
+level of writing**, I measured both rather than answering from intent.
+One answer is "mostly, with an amendment"; the other is "no, as written".
+
+### 5.1 Speaking density: the real shape of the problem
+
+Words of teaching text in the unit cycles of each book:
+
+| book | reading | listening | writing | **speaking** | grammar/vocab | speaking share |
+|---|---|---|---|---|---|---|
+| Foundation 1 | 7,392 | 8,143 | 7,619 | **4,438** | 5,135 | 13.6% |
+| Foundation 2 | 10,791 | 10,275 | 10,637 | **4,787** | 4,480 | 11.7% |
+| Volume 1 | 15,129 | 12,253 | 13,534 | **5,086** | 5,465 | 9.9% |
+| Volume 2 | 17,032 | 16,413 | 13,880 | **5,048** | 5,771 | 8.7% |
+| Volume 3 | 21,389 | 21,049 | 14,593 | **4,924** | 6,258 | 7.2% |
+| Volume 4 | 23,634 | 23,272 | 15,831 | **5,567** | 6,617 | 7.4% |
+| Volume 5 | 27,886 | 22,884 | 16,461 | **5,241** | 6,386 | 6.6% |
+| Volume 6 | 28,980 | 23,197 | 17,004 | **5,020** | 6,345 | 6.2% |
+
+**Speaking is flat at about 5,000 words in every book while reading goes
+from 7,000 to 29,000.** It is not that speaking is thin; it is that
+speaking never grows. Its share halves from 13.6% to 6.2% exactly as the
+other strands get serious. That is the defect, and it is sharper than
+"the thin strand".
+
+**What E1 and E2 would actually do.** Eighty long-turn models at 200 words
+adds 2,000 words a book; a pronunciation page at roughly 250 words adds
+2,500. Speaking goes to about 9,700 a book — which takes Foundation 1 to
+24% and Volume 6 to **9.5%**. Fixed at the bottom, improved but still
+thin at the top.
+
+**Amendment to the plan.** Scale the speaking strand with the book, the
+way every other strand already scales:
+
+- **E1′** — the Part 2 long-turn model grows with the volume: 150 words in
+  Foundation 1 rising to 280 in Volume 6, not a flat 200.
+- **E2′** — the pronunciation and fluency page likewise, and from Volume 3
+  it covers the features that actually separate band 6 from band 7:
+  chunking, stress for contrast, and the intonation of a concession.
+- **E4 (new)** — from Volume 3, a **second speaking block per unit**: a
+  Part 3 follow-up exchange with the examiner's counter-question written
+  out and a model reply. This is the thing that distinguishes a band 7
+  Part 3 from a band 6, and no page in the series currently shows it.
+- **E5 (new)** — gate it. `check.py` gains a speaking band per volume, the
+  way it already has `acad`, `long` and `essay` bands for the texts, and a
+  rule that the speaking strand is not less than 12% of a unit's teaching
+  text. Written before E1′–E4, as usual.
+
+With the amendment, speaking lands at roughly 12–14% in every book, and
+the gate stops it drifting back.
+
+### 5.2 Writing level: the review's diagnosis is wrong, the complaint is right
+
+The review says the models are band 8–9 prose a B2 student cannot
+produce. Measured the same way a reading passage is measured:
+
+| book | models k1 | models beyond4k | models sent | models nominal | passages k1 / beyond | difference |
+|---|---|---|---|---|---|---|
+| Foundation 1 | 75.3% | 9.4% | 15.7 | 0.7% | 74.2 / 10.0 | models **+1.1** k1, **−0.6** beyond |
+| Foundation 2 | 71.9% | 11.7% | 19.6 | 2.0% | 72.0 / 12.3 | −0.1, −0.6 |
+| Volume 1 | 71.2% | 12.8% | 21.2 | 2.9% | 69.9 / 13.5 | +1.3, −0.7 |
+| Volume 2 | 69.5% | 14.1% | 20.9 | 3.1% | 69.7 / 14.4 | −0.2, −0.3 |
+| Volume 3 | 68.3% | 16.0% | 22.0 | 3.5% | 66.6 / 17.4 | +1.7, −1.4 |
+| Volume 4 | 67.8% | 16.8% | 21.7 | 3.6% | 65.0 / 19.3 | +2.8, −2.6 |
+| Volume 5 | 65.4% | 19.4% | 24.6 | 4.8% | 64.8 / 21.0 | +0.6, −1.6 |
+| Volume 6 | 66.2% | 18.4% | 23.8 | 5.1% | 62.6 / 23.8 | **+3.7, −5.4** |
+
+**In every single book the models are written in a plainer register than
+the book's own reading passages** — more first-thousand words, fewer rare
+ones. In Volume 6 the gap is 3.7 and 5.4 points. Whatever is out of reach
+about these models, it is not their vocabulary.
+
+So the complaint is real but the cause was misdiagnosed. What is out of
+reach is **rhetorical control**: the concession placed before the
+counter-argument, the test that resolves both views, the conclusion that
+adds instead of summarising. A B2 candidate can read every word of the
+Volume 3 model and still not see which move to attempt this month.
+
+That has three consequences for the plan:
+
+- **J moves from P2 to P1.** The band-6.5 second model is not a nice
+  extra; it is the only item in the list that addresses this. 60 essays,
+  each with a *Why it stops at 6.5* note naming the two or three moves it
+  does not make — which is the same technique the existing *Why it works*
+  notes use, pointed the other way.
+- **Do not simplify the band-9 models.** The measurement says they are
+  already plainer than the surrounding prose. Simplifying them further
+  would remove the target without making it reachable.
+- **E6 (new) — gate the models' register.** `density.py` profiles the
+  reading passages; nothing profiles the model answers, which is why this
+  relationship was accidental rather than designed. Add a row: models
+  measured like passages, with a required relationship to them (within
+  about 2 points of k1 of the book's own passages, never harder). The
+  band-6.5 models get their own looser row. This is a twenty-line change
+  and it makes the next sixty essays verifiable instead of hopeful.
+
+### 5.3 Revised order
+
+| step | work | cost |
+|---|---|---|
+| P0 A–C | figure fix, gate 8, honest banner | half a day |
+| **E5, E6** | the speaking band and the model-register row — gates first | half a day |
+| P1 D1 | distractors on all 484 three-option items | 2 days |
+| **P1 J** | 60 band-6.5 second models with *Why it stops at 6.5* | 4 days |
+| P1 E1′ | 80 long-turn models, scaled by volume | 2 days |
+| P1 E4 | 40 Part 3 follow-up exchanges, Volumes 3–6 | 2 days |
+| P1 E2′ | 80 pronunciation and fluency pages, scaled | 3 days |
+| P1 F1 | 10 second timed papers | 3 days |
+| P1 D2–D4 | the remaining 7,900 distractor lines | 9 days |
+| P2 G–I | new task types and the T/F/NG rebalance | 5 days |
