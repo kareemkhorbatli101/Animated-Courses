@@ -754,7 +754,7 @@ UNIT = dict(
    read=[
     dict(heading='Clean water, vaccines and the fall in child deaths',
          kind='Academic passage',
-         task='Matching headings, True/False/Not Given and summary '
+         task='Matching headings, True/False, Yes/No and summary '
               'completion',
          band='acad', qtype='Questions 41-48',
          paras=[
@@ -828,7 +828,7 @@ UNIT = dict(
                'paragraph\u2019s subject.'}),
           (
            'The writer believes modern medicine has made no '
-           'difference.', ['True', 'False', 'Not Given'], 1,
+           'difference.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 5 says it mattered enormously.',
            {0: 'Yes would need dismissal; paragraph 5 says it mattered '
                'enormously.', 2: 'Not Given is wrong because the writer weighs medicine '
@@ -1012,7 +1012,7 @@ UNIT = dict(
    read=[
     dict(heading='Why a national average tells you very little',
          kind='Academic passage',
-         task='Matching information, True/False/Not Given and short '
+         task='Matching information, True/False, Yes/No and short '
               'answer',
          band='acad', qtype='Questions 55-62',
          paras=[
@@ -1076,7 +1076,7 @@ UNIT = dict(
            'Four years of life and three years of illness.'),
           (
            'The writer believes national averages should not be '
-           'published.', ['True', 'False', 'Not Given'], 1,
+           'published.', ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph says the average is not useless.',
            {0: 'Yes would need that recommendation; he calls the '
                'average not useless.', 2: 'Not Given is wrong because the final paragraph takes a '
@@ -1090,8 +1090,7 @@ UNIT = dict(
                'stated.'}),
           (
            'The writer believes doctors should work in poorer '
-           'districts first.',
-           ['True', 'False', 'Not Given'], 2,
+           'districts first.', ['Yes', 'No', 'Not Given'], 2,
            'No recommendation about where doctors should work is made.',
            {0: 'Yes would need a recommendation about where doctors '
                'work, and none appears.', 1: 'No would need him to argue against it, which he never '

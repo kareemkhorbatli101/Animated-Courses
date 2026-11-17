@@ -768,7 +768,7 @@ UNIT = dict(
    read=[
     dict(heading='Load, rest and the shape of improvement',
          kind='Academic passage',
-         task='Matching headings, True/False/Not Given and summary '
+         task='Matching headings, True/False, Yes/No and summary '
               'completion',
          band='acad', qtype='Questions 41-48',
          paras=[
@@ -846,7 +846,7 @@ UNIT = dict(
                'directly.'}),
           (
            'The writer believes most coaches explain this to '
-           'beginners.', ['True', 'False', 'Not Given'], 2,
+           'beginners.', ['Yes', 'No', 'Not Given'], 2,
            'What coaches do is not stated.',
            {0: 'Yes would need a claim about coaches, and none is '
                'made.', 1: 'No would need him to say they do not, which he never '
@@ -1026,7 +1026,7 @@ UNIT = dict(
    read=[
     dict(heading='The children who stopped at fifteen',
          kind='Academic passage',
-         task='Matching information, True/False/Not Given and short '
+         task='Matching information, True/False, Yes/No and short '
               'answer',
          band='acad', qtype='Questions 55-62',
          paras=[
@@ -1090,8 +1090,8 @@ UNIT = dict(
            'A wider range of movement skills, which transfer.'),
           (
            'The writer believes early specialisation never produces '
-           'elite athletes.', ['True', 'False', 'Not Given'],
-           1, 'The final paragraph says the opposite.',
+           'elite athletes.', ['Yes', 'No', 'Not Given'], 1,
+           'The final paragraph says the opposite.',
            {0: 'Yes would need never; the final paragraph allows the '
                'exceptions.', 2: 'Not Given is wrong because the writer addresses the '
                'claim.'}),
@@ -1104,7 +1104,7 @@ UNIT = dict(
                'from the cohorts.', 2: 'Not Given is wrong because the fifteen-year-old '
                'comparison is given.'}),
           ('The writer believes parents are mainly to blame.',
-           ['True', 'False', 'Not Given'], 2,
+           ['Yes', 'No', 'Not Given'], 2,
            'No attribution of blame to parents appears.',
            {0: 'Yes would need blame to be assigned, and it never is.', 1: 'No would need him to defend parents, which he does '
                'not.'}),
@@ -1117,7 +1117,8 @@ UNIT = dict(
            'Paragraph 5, and those skills transfer.')]),
     dict(heading='The hour record',
          kind='Academic passage \u00b7 the stamina read',
-         task='Matching information, True/False/Not Given and short answer',
+         task='Matching information, True/False, Yes/No and short '
+              'answer',
          band='stamina',
          qtype='Questions 63-70',
          skill=('Reading a long passage without losing the thread',
@@ -1241,14 +1242,14 @@ UNIT = dict(
            'treats as remarkably small.',
            {0: 'True contradicts the figure given.',
             2: 'Not Given is wrong because the margin is stated exactly.'}),
-          ('The writer thinks the question of who was the better rider can '
-           'be settled.',
-           ['True', 'False', 'Not Given'], 1,
-           'Paragraph 7 says people argue about whether that question has '
-           'an answer, and paragraph 6 says the figures cannot settle it.',
-           {0: 'True would need the writer to offer a method, and the '
-               'passage says the comparison fails.',
-            2: 'Not Given is wrong because the writer addresses it '
+          (
+           'The writer thinks the question of who was the better rider '
+           'can be settled.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 7 says people argue about whether that question '
+           'has an answer, and paragraph 6 says the figures cannot '
+           'settle it.',
+           {0: 'Yes would need the writer to offer a method, and the '
+               'passage says the comparison fails.', 2: 'Not Given is wrong because the writer addresses it '
                'directly in the last two paragraphs.'}),
           ('In which year was the rule changed to allow any track-racing '
            'bicycle?', None, '2014',

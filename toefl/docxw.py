@@ -282,6 +282,27 @@ class Doc:
                                   run(txt, b=True, color=INK, sz=19)])))
         self.blank()
 
+    def letterbank(self, label, entries, accent=INDIGO):
+        """A lettered list to choose from: endings, plan positions, names.
+
+        wordbank puts everything on one line separated by bars, which is
+        right for single words and unreadable for sentence endings. This
+        gives one entry a line with its letter in the accent colour, which
+        is the shape the real paper uses.
+        """
+        cells = [para([run(label, b=True, color=accent, sz=20)],
+                      '<w:spacing w:after="60"/>')]
+        for i, e in enumerate(entries):
+            cells.append(para([run('%s  ' % 'ABCDEFGHIJ'[i], b=True,
+                                   color=accent, sz=20),
+                               run(e, sz=20)],
+                              '<w:spacing w:after="34"/>'
+                              '<w:ind w:left="240" w:hanging="240"/>'))
+        self.body.append('<w:tbl>%s<w:tblGrid><w:gridCol w:w="100"/></w:tblGrid>'
+                         '<w:tr><w:tc>%s%s</w:tc></w:tr></w:tbl>'
+                         % (tblpr(accent), tcpr(SOFT, 130), ''.join(cells)))
+        self.blank()
+
     def table(self, headers, rows, accent=INDIGO, widths=None):
         n = len(headers)
         widths = widths or [100 // n] * n

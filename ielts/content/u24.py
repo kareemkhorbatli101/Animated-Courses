@@ -593,7 +593,7 @@ UNIT = dict(
    read=[
     dict(heading='What a hundred years of readings show',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 30-35',
          figure=_WARM,
          paras=[
@@ -641,12 +641,21 @@ UNIT = dict(
           ('The number of days above thirty degrees rose from four to '
            '____________.', None, '29',
            'Paragraph 2, with almost all of the change after 1980.'),
-          ('The writer says what people encounter is the ____________.',
-           None, 'tail',
-           'Paragraph 4, which has grown by a factor of seven.'),
-          ('The station moved in ____________, which has been corrected for.',
-           None, '1964',
-           'Paragraph 5, visible as a small step in the anomaly line.')])],
+          (
+           'The temperature anomaly rose at a steady rate throughout '
+           'the century.', ['True', 'False', 'Not Given'], 1,
+           'Paragraph 2 reports a flat period between 1940 and 1960.',
+           {0: 'True would need an even rise, and paragraph 2 names an '
+               'interruption.', 2: 'Not Given is wrong because paragraph 2 describes the '
+               'shape of the rise.'}),
+          (
+           'The number of hot days at this station has grown about '
+           'sevenfold.', ['True', 'False', 'Not Given'], 0,
+           'Paragraph 4 gives a factor of seven for the tail against '
+           'less than two degrees for the mean.',
+           {1: 'False would need a different factor, and paragraph 4 '
+               'states it.', 2: 'Not Given is wrong because paragraph 4 gives the '
+               'figure.'})])],
    listen=[
     dict(heading='A climatologist on the instrumental record', part='Part 4',
          task='A lecture on temperature records', band='l4',

@@ -585,7 +585,7 @@ UNIT = dict(
    read=[
     dict(heading='What a household spends in a year',
          kind='Data article',
-         task='Matching information and table completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_LOW, figure2=_HIGH,
          paras=[
@@ -636,12 +636,24 @@ UNIT = dict(
           ('Housing and food together take ____________ per cent of '
            'lower-income spending.', None, '56',
            'Against 32 per cent in the higher-income group.'),
-          ('Leisure and eating out rises from 9 per cent to '
-           '____________.', None, '24',
-           'The largest rise between the two groups.'),
-          ('Spending on ____________ is almost unchanged between the two '
-           'groups.', None, 'clothing',
-           'At 7 and 8 per cent respectively.')])],
+          (
+           'The pattern named in paragraph 5 has been found wherever '
+           'it has been measured.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 5 says it has been found in every country where '
+           'the measurement has been made.',
+           {1: 'False would need a country where it failed, and none '
+               'is mentioned.', 2: 'Not Given is wrong because paragraph 5 makes exactly '
+               'this claim.'}),
+          (
+           'Higher-income households spend less money on food than '
+           'lower-income households.',
+           ['True', 'False', 'Not Given'], 1,
+           'The last paragraph says the higher-income group spends '
+           'more on food in pounds.',
+           {0: 'True confuses the share with the amount, which the '
+               'last paragraph separates.', 2: 'Not Given is wrong because the final paragraph '
+               'addresses it directly.'})])],
    listen=[
     dict(heading='An economist on household spending', part='Part 4',
          task='A lecture on measuring spending', band='l4',
@@ -1194,10 +1206,92 @@ UNIT = dict(
            'Paragraph 4, which the writer calls real and small.'),
           ('The pension result is unusual because the change is made '
            '____________ and requires nothing further.', None, 'once',
-           'Paragraph 5, unlike a letter that must persuade again.')])],
+           'Paragraph 5, unlike a letter that must persuade again.')]),
+    dict(heading='Why a shop puts the milk at the back',
+         kind='Magazine article',
+         task='Matching sentence endings',
+         band='long',
+         qtype='Questions 67-71',
+         banklabel='Endings',
+         bank=[
+          'so a customer walks past everything else to reach it.',
+          'because the decision is made in about two seconds.',
+          'which is the most profitable shelf in the shop.',
+          'although shoppers say they are not influenced by it.',
+          'and the effect disappears once it is pointed out.',
+          'because the supplier has paid for the position.',
+          'which is why the layout rarely changes.'],
+         skill=('Matching sentence endings',
+                ['Each question is the first half of a sentence. Finish '
+                 'it from the list and use each ending once only.',
+                 'There are more endings than questions, so elimination '
+                 'will not give you the last answer.',
+                 'Two or three endings will fit the grammar of any '
+                 'beginning. Choose the one the passage supports, not '
+                 'the one that reads well.']),
+         paras=[
+          'A supermarket is one of the most carefully designed '
+          'commercial spaces most people enter, and almost nothing in it '
+          'is where it is by accident. The milk, the bread and the eggs '
+          'are usually at the furthest point from the door, so a '
+          'customer walks past everything else to reach it, and the '
+          'distance is chosen rather than inherited from the building.',
+          'The shelf height matters more than the aisle. Goods placed '
+          'between about waist and eye level sell substantially better '
+          'than the same goods a metre lower, and that band is the most '
+          'profitable shelf in the shop. Manufacturers know it, and in '
+          'many chains the position is sold: a product is at eye level '
+          'because the supplier has paid for the position, which is a '
+          'commercial arrangement rather than a judgement about '
+          'quality.',
+          'The decisions a shopper makes are faster than they feel. '
+          'Studies that film people choosing between similar products '
+          'find that the median time spent is under three seconds, and '
+          'that packaging, colour and position account for most of the '
+          'choice, because the decision is made in about two seconds. '
+          'Price comparison, which shoppers describe as their main '
+          'method, occupies a small minority of the time recorded.',
+          'Music, lighting and smell are all adjusted and all have '
+          'measurable effects. Slower music lengthens the visit and '
+          'raises the amount spent; the bakery is placed where its smell '
+          'reaches the entrance; lighting over fresh food is warmer than '
+          'elsewhere in the building. The effects are modest '
+          'individually and reliable in aggregate, although shoppers say '
+          'they are not influenced by it.',
+          'The arrangement is also expensive to alter. Moving a category '
+          'means new shelving, a new plan for every store in the chain '
+          'and a period during which regular customers cannot find '
+          'anything, which is why the layout rarely changes. When a '
+          'chain does rearrange, sales usually fall for several weeks '
+          'before recovering, and the fall is the cost of the '
+          'improvement.',
+          'None of this is concealed, and that is the interesting part. '
+          'The principles are published in trade manuals, taught on '
+          'retail courses and described in newspapers every few years. '
+          'Knowing about them changes behaviour less than anybody '
+          'expects, and the experiments that have tested this find a '
+          'small effect on the first visit and the effect disappears '
+          'once it is pointed out.'],
+         items=[
+          ('Milk is placed at the back of the shop', None, 'A',
+           'Paragraph 1 gives the walk past everything else as the '
+           'reason for the distance.'),
+          ('The band between waist and eye level is sold to suppliers',
+           None, 'C',
+           'Paragraph 2 calls that band the most profitable shelf in the '
+           'shop.'),
+          ('Packaging and position decide most choices', None, 'B',
+           'Paragraph 3 gives the speed of the decision as the reason '
+           'position matters so much.'),
+          ('Music and lighting have reliable effects', None, 'D',
+           'Paragraph 4 contrasts the measured effects with what '
+           'shoppers say about themselves.'),
+          ('A chain rearranges its stores rarely', None, 'G',
+           'Paragraph 5 gives the cost and the disruption as the '
+           'reason.')])],
    listen=[
     dict(heading='Two researchers disagree about nudges', part='Part 4',
-         task='A recorded discussion', band='l4', qtype='Questions 67-72',
+         task='A recorded discussion', band='l4', qtype='Questions 72-77',
          script=[
           ('Chair', 'Dr Ferreira runs a behavioural unit. Professor Okonjo '
            'has written against them. Each will begin with their own '

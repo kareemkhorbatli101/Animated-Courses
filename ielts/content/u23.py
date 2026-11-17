@@ -570,7 +570,7 @@ UNIT = dict(
    read=[
     dict(heading='Incidence, prevalence and what gets missed',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 30-35',
          figure=_CASES,
          paras=[
@@ -617,12 +617,21 @@ UNIT = dict(
            'testing.'),
           ('Admissions peak at ____________ per hundred thousand.', None,
            '29', 'In week seven, a fifth of the height of the case peak.'),
-          ('Testing expanded in week ____________.', None, 'four',
-           'So part of the rise to the week-five peak is more detection.'),
-          ('The writer calls the admissions line slower, smaller and more '
-           '____________.', None, 'honest',
-           'Because a person ill enough for hospital is counted whatever the '
-           'testing programme.')])],
+          ('Admissions peak about two weeks after cases do.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 1 gives week five for cases and week seven for '
+           'admissions.',
+           {1: 'False would need a different lag, and the two peak '
+               'weeks are given.', 2: 'Not Given is wrong because paragraph 1 dates both '
+               'peaks.'}),
+          (
+           'The ratio between the two lines gives the proportion of '
+           'infected people who become seriously ill.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 3 says it is the proportion of reported cases, '
+           'not of infected people.',
+           {0: 'True is the error paragraph 3 exists to correct.', 2: 'Not Given is wrong because paragraph 3 answers it in '
+               'those terms.'})])],
    listen=[
     dict(heading='An epidemiologist on case counts', part='Part 4',
          task='A lecture on reading outbreak data', band='l4',

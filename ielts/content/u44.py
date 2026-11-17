@@ -657,7 +657,7 @@ UNIT = dict(
    read=[
     dict(heading='Measured use against reported use',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_USE,
          paras=[
@@ -717,13 +717,22 @@ UNIT = dict(
           ('The 13 to 17 group reported 3.1 hours against a measured '
            '____________ hours.', None, '6.8',
            'Paragraph 2, the largest gap of the four groups.'),
-          ('The median participant made ____________ brief checks a day.',
-           None, 'fifty-eight',
-           'Paragraph 4, which are not recalled when reporting a week '
-           'later.'),
-          ('The writer says self-reported hours carry an error that is '
-           'systematic and correlated with ____________.', None, 'age',
-           'The final paragraph, and larger than the effects being sought.')])],
+          (
+           'Reported use was lower than measured use in every age '
+           'group.', ['True', 'False', 'Not Given'], 0,
+           'Paragraph 2 says every group underestimates and the '
+           'direction never reverses.',
+           {1: 'False would need one group to over-report, and '
+               'paragraph 2 denies it.', 2: 'Not Given is wrong because paragraph 2 gives all four '
+               'pairs of figures.'}),
+          (
+           'The device measure counts time spent listening with the '
+           'screen off.', ['True', 'False', 'Not Given'], 1,
+           'Paragraph 6 says it counts a lit screen and does not count '
+           'listening with it off.',
+           {0: 'True contradicts paragraph 6, which lists this as one '
+               'of two errors.', 2: 'Not Given is wrong because paragraph 6 names both '
+               'errors.'})])],
    listen=[
     dict(heading='A researcher on self-reported data', part='Part 4',
          task='A lecture on measurement error', band='l4',

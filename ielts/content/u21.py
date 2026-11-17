@@ -623,7 +623,7 @@ UNIT = dict(
    read=[
     dict(heading='Earnings by subject, five years on',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 34-39',
          figure=_EARN,
          paras=[
@@ -670,13 +670,24 @@ UNIT = dict(
            'people.'),
           ('Median earnings for women in medicine: £____________', None,
            '48,000', 'Against £52,000 for men, the highest figure shown.'),
-          ('Economists call the problem in paragraph 3 ____________.', None,
-           'selection',
-           'Separating it from the effect of the course is the central '
-           'difficulty.'),
-          ('In the past fifteen years, engineering has risen and '
-           '____________ has fallen.', None, 'law',
-           'Paragraph 4, which is why the subject order is not fixed.')])],
+          (
+           'The gap between the sexes is wider in economics than in '
+           'any other subject shown.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 2 gives economics the widest gap, at seven '
+           'thousand.',
+           {1: 'False would need another subject to be wider, and '
+               'paragraph 2 names economics.', 2: 'Not Given is wrong because paragraph 2 states which '
+               'gap is widest.'}),
+          (
+           'The order of subjects by earnings has been stable for the '
+           'past fifteen years.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 4 says the subject order has changed twice in '
+           'that period.',
+           {0: 'True would need stability, and paragraph 4 reports two '
+               'changes.', 2: 'Not Given is wrong because paragraph 4 addresses the '
+               'question directly.'})])],
    listen=[
     dict(heading='An economist on graduate earnings', part='Part 4',
          task='A lecture on reading earnings figures', band='l4',

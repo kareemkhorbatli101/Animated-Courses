@@ -51,7 +51,8 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Riverside Hall: autumn concerts',
-         kind='Concert listing', task='Table completion',
+         kind='Concert listing', task='Table completion and '
+                                      'True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('A listing is read for the condition on the cheap seat',
                 ['Find the cheapest price and then find the sentence '
@@ -79,11 +80,20 @@ UNIT = dict(
            'The season begins on 14 September.'),
           ('Sunday afternoon concerts begin at ____________.', None,
            'three', 'Other concerts begin at half past seven.'),
-          ('A gallery seat costs ____________ pounds.', None,
-           'seventeen', 'Against twenty-eight in the stalls.'),
-          ('Under twenty-sixes pay eight pounds for seats unsold an '
-           '____________ before.', None, 'hour',
-           'And these cannot be bought in advance.'),
+          ('There is a lift to the gallery.',
+           ['True', 'False', 'Not Given'], 1,
+           'The text says the gallery is a steep climb and there is no '
+           'lift.',
+           {0: 'True contradicts the sentence about the climb.', 2: 'Not Given is wrong because the absence of a lift is '
+               'stated.'}),
+          (
+           'Cheap seats for under twenty-sixes can be booked a week '
+           'ahead.', ['True', 'False', 'Not Given'], 1,
+           'They are not obtainable in advance and the number varies '
+           'from day to day.',
+           {0: 'True contradicts the statement that they are not '
+               'available in advance.', 2: 'Not Given is wrong because availability in advance is '
+               'addressed.'}),
           ('What is the box office’s commonest problem?', None,
            'duplicate bookings',
            'Which is why people should telephone rather than rebook.')]),

@@ -583,7 +583,7 @@ UNIT = dict(
    read=[
     dict(heading='Recorded crime and reported crime are not the same',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_CRIME,
          paras=[
@@ -630,11 +630,22 @@ UNIT = dict(
            'Criminal damage, never outside 19 to 21.'),
           ('Burglary fell from 18 to ____________ over the period.', None,
            '9', 'Closely matched by vehicle theft.'),
-          ('Fraud overtook criminal damage in ____________.', None,
-           '2021', 'Becoming the largest category by a wide margin.'),
-          ('Reporting of fraud was moved to a single national '
-           '____________ in 2017.', None, 'service',
-           'Which is part of why the recorded figure rose.')])],
+          (
+           'More fraud is now committed than at the start of the '
+           'period.', ['True', 'False', 'Not Given'], 0,
+           'Paragraph 6 says more fraud is committed as well as more '
+           'being recorded.',
+           {1: 'False would need the rise to be entirely '
+               'administrative, and the text says partly real.', 2: 'Not Given is wrong because paragraph 6 separates the '
+               'two causes.'}),
+          (
+           'Fraud was the largest recorded category throughout the ten '
+           'years.', ['True', 'False', 'Not Given'], 1,
+           'Paragraph 4 says it overtook criminal damage in 2021, so '
+           'not before then.',
+           {0: 'True would need fraud largest from the start; it '
+               'overtakes in 2021.', 2: 'Not Given is wrong because the year of the crossing is '
+               'given.'})])],
    listen=[
     dict(heading='A criminologist on crime statistics', part='Part 4',
          task='A lecture on measuring crime', band='l4',

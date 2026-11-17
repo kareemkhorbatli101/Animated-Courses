@@ -47,7 +47,8 @@ UNIT = dict(
    read=[
     dict(heading='Quick start guide: the WX200 router',
          kind='Instruction leaflet',
-         task='Flow-chart completion and short answer',
+         task='Flow-chart completion and short answer and '
+              'True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('An instruction leaflet is read for the order and the '
                 'waiting time',
@@ -74,10 +75,17 @@ UNIT = dict(
            None, 'WAN', 'And the power lead goes to the mains.'),
           ('Hold the button for ____________ seconds.', None, 'five',
            'The light then flashes orange.'),
-          ('Wait until the light is steady ____________.', None,
-           'green', 'Which takes about two minutes, sometimes four.'),
-          ('The password is printed on the ____________ underneath.',
-           None, 'card', 'With the network name, the leaflet says.'),
+          ('You should connect all your devices at the same time.',
+           ['True', 'False', 'Not Given'], 1,
+           'The guide says to connect one device first and the rest '
+           'only afterwards.',
+           {0: 'True contradicts the fourth step of the guide.', 2: 'Not Given is wrong because the order of connection is '
+               'given.'}),
+          ('The letter O in the password is in fact a zero.',
+           ['True', 'False', 'Not Given'], 0,
+           'The guide says the letter O is a zero throughout the '
+           'password.',
+           {1: 'False contradicts the note about the password.', 2: 'Not Given is wrong because the note says exactly this.'}),
           ('If the light is steady red, unplug the power for '
            '____________ seconds.', None, 'thirty',
            'Then begin again from the second step.')]),

@@ -759,7 +759,7 @@ UNIT = dict(
    read=[
     dict(heading='Habitat, corridors and what a reserve cannot do',
          kind='Academic passage',
-         task='Matching headings, True/False/Not Given and summary '
+         task='Matching headings, True/False, Yes/No and summary '
               'completion',
          band='acad', qtype='Questions 41-48',
          paras=[
@@ -817,7 +817,7 @@ UNIT = dict(
             'How large is large enough', 'Building on land'], 1,
            'The question is what surrounds it, not its size.'),
           ('The writer believes reserves should no longer be created.',
-           ['True', 'False', 'Not Given'], 1,
+           ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 5 calls them the only reliable instrument '
            'against building.',
            {0: 'Yes would need that view; paragraph 5 calls them the '
@@ -1009,7 +1009,7 @@ UNIT = dict(
    read=[
     dict(heading='The threats that cross a fence',
          kind='Academic passage',
-         task='Matching information, True/False/Not Given and short '
+         task='Matching information, True/False, Yes/No and short '
               'answer',
          band='acad', qtype='Questions 55-62',
          paras=[
@@ -1071,7 +1071,7 @@ UNIT = dict(
            'It says this is what a boundary is for, not an error.'),
           (
            'The writer believes reserves are no longer worth creating.',
-           ['True', 'False', 'Not Given'], 1,
+           ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph calls them necessary but not '
            'sufficient.',
            {0: 'Yes would need dismissal; the final paragraph calls '
@@ -1085,7 +1085,7 @@ UNIT = dict(
                'paragraph 2 names the wetlands.', 2: 'Not Given is wrong because the examples are given.'}),
           (
            'The writer believes conservation bodies should buy whole '
-           'catchments.', ['True', 'False', 'Not Given'], 1,
+           'catchments.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 5 says no body could manage that.',
            {0: 'Yes would need that proposal; paragraph 5 says no body '
                'could manage it.', 2: 'Not Given is wrong because the option is considered '

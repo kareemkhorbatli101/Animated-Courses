@@ -685,7 +685,7 @@ UNIT = dict(
    read=[
     dict(heading='Records surviving from four centuries',
          kind='Data article',
-         task='Matching information and table completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_SURV,
          paras=[
@@ -748,12 +748,21 @@ UNIT = dict(
           ('Court and legal records in the nineteenth century: '
            '____________ per thousand', None, '214',
            'Paragraph 2, up from 41 in the sixteenth.'),
-          ('Parish and personal records in the seventeenth century: '
-           '____________ per thousand', None, '2',
-           'Paragraph 3, down from 7 in the sixteenth.'),
-          ('The sixteenth-century material had been moved to the '
-           '____________ in 1771.', None, 'cathedral',
-           'Paragraph 4, which is why it escaped the fire.')])],
+          (
+           'The cause of the seventeenth-century gap in this archive '
+           'is known.', ['True', 'False', 'Not Given'], 0,
+           'Paragraph 4 names a fire in the county hall in 1783.',
+           {1: 'False would need the cause to be unknown, and '
+               'paragraph 4 documents it.', 2: 'Not Given is wrong because paragraph 4 gives the event '
+               'and the year.'}),
+          (
+           'The same shape appears only in archives where a fire is '
+           'recorded.', ['True', 'False', 'Not Given'], 1,
+           'Paragraph 5 says it appears where no such event is '
+           'recorded at all.',
+           {0: 'True contradicts paragraph 5, which is the point of '
+               'the paragraph.', 2: 'Not Given is wrong because paragraph 5 states the '
+               'opposite.'})])],
    listen=[
     dict(heading='An archivist on survival and loss', part='Part 4',
          task='A lecture on what archives contain', band='l4',

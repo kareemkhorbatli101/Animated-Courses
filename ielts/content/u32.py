@@ -589,7 +589,7 @@ UNIT = dict(
    step=3,
    read=[
     dict(heading='Four streams and four destinations',
-         kind='Process article', task='Flow-chart completion and matching',
+         kind='Process article', task='Flow-chart completion and True/False/Not Given',
          band='long', qtype='Questions 30-36',
          figure=dict(kind='process',
                      title='How mixed household recycling is sorted',
@@ -685,13 +685,21 @@ UNIT = dict(
            None, 'split',
            'Paragraph 2 gives the reason as well: a sealed bag passes through '
            'the whole plant as one object.'),
-          ('An eddy current separator throws ____________ clear of the belt.',
-           None, 'aluminium',
-           'Paragraph 4, which also notes it is the only stage where material '
-           'is pushed along, not lifted or dropped.'),
-          ('Each separated stream is baled, weighed and stored for collection '
-           'by a ____________.', None, 'reprocessor',
-           'Paragraph 5. The plant separates; somebody else reprocesses.')])],
+          ('The plant turns the sorted materials into new products.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 1 says nothing is turned into anything and the '
+           'building separates.',
+           {0: 'True is the common misunderstanding paragraph 1 '
+               'corrects.', 2: 'Not Given is wrong because paragraph 1 answers it in '
+               'its first sentence.'}),
+          (
+           'A load whose contamination passes a threshold is rejected '
+           'as a whole.', ['True', 'False', 'Not Given'], 0,
+           'The last paragraph says the cost arrives suddenly and the '
+           'load is rejected whole.',
+           {1: 'False would need a gradual penalty, which the last '
+               'paragraph denies.', 2: 'Not Given is wrong because the final paragraph states '
+               'the mechanism.'})])],
    listen=[
     dict(heading='A plant manager on sorting', part='Part 4',
          task='A site visit talk', band='l4', qtype='Questions 37-42',
@@ -1330,11 +1338,102 @@ UNIT = dict(
            'dispose.'),
           ('The writer says the question to ask is not how much was recycled '
            'but how much was never ____________.', None, 'made',
-           'The final sentence, and the thesis of the whole cycle.')])],
+           'The final sentence, and the thesis of the whole cycle.')]),
+    dict(heading='The repair cafe',
+         kind='Magazine article',
+         task='Matching sentence endings',
+         band='long',
+         qtype='Questions 63-67',
+         banklabel='Endings',
+         bank=[
+          'because the fault is almost always in one of four places.',
+          'which is more than the value of most of the items brought in.',
+          'so the owner learns to do it rather than watching it done.',
+          'although the law in several countries now requires it.',
+          'and the proportion has not changed in ten years.',
+          'because a manufacturer is not obliged to supply the part.',
+          'which the organisers regard as the point of the whole '
+          'exercise.'],
+         skill=('Matching sentence endings', ['Each question is the first half of a sentence. Finish it from the list and use each ending once only.', 'There are more endings than questions, so the last answer cannot be reached by elimination.', 'Several endings will fit the grammar of any beginning. Choose the one the passage supports and read the whole sentence back.']),
+         paras=[
+          'A repair cafe is a room, a set of tools and four or five '
+          'volunteers who can mend things, open for three hours on a '
+          'Saturday. The first opened in Amsterdam in 2009 and there are '
+          'now some three thousand, in about forty countries, almost all '
+          'run by the people who use them.',
+          'The arrangement is deliberately unlike a repair shop. Nothing '
+          'is left and collected; the owner stays with the item and '
+          'holds the screwdriver for at least part of the work, so the '
+          'owner learns to do it rather than watching it done. '
+          'Volunteers describe the teaching as slower and the queue as '
+          'longer, and they are unanimous that the alternative defeats '
+          'the purpose.',
+          'The things brought in are predictable. Small electrical '
+          'appliances, lamps, kettles, toasters, vacuum cleaners and '
+          'headphones account for about half of everything seen; '
+          'clothing is a quarter; bicycles, furniture and toys make up '
+          'most of the rest. The published figures from several '
+          'countries agree on a success rate between fifty-five and '
+          'seventy per cent, and the proportion has not changed in ten '
+          'years.',
+          'Volunteers report that the diagnosis is rarely difficult, '
+          'because the fault is almost always in one of four places: the '
+          'cable where it enters the body of the appliance, the switch, '
+          'a fuse, or a dry joint on a circuit board. None of those is a '
+          'complicated repair, and all four are outside what a '
+          'manufacturer regards as a serviceable part.',
+          'The failures are instructive and usually have nothing to do '
+          'with skill. An item is unrepairable in a repair cafe when it '
+          'is glued rather than screwed, when the fastening needs a '
+          'driver nobody sells, when the electronics are sealed in '
+          'resin, or when a component has failed that cannot be bought '
+          'because a manufacturer is not obliged to supply the part.',
+          'That last point is where the movement has become political. '
+          'A right to repair, meaning an obligation on manufacturers to '
+          'publish information and supply spares at a reasonable price, '
+          'was until recently a fringe demand, although the law in '
+          'several countries now requires it. The legislation has so far '
+          'covered white goods and a short list of electronics, and the '
+          'items most often brought to a repair cafe are mostly outside '
+          'it.',
+          'What the organisers emphasise is not the environmental '
+          'arithmetic, which is modest, but something else. The cafes '
+          'report that about a third of visitors come back as '
+          'volunteers, and that the skills spread into households that '
+          'had none, which the organisers regard as the point of the '
+          'whole exercise.',
+                ('Two practical points are worth recording for anybody '
+                 'thinking of starting one. The first is insurance: a '
+                 'volunteer working on somebody else\'s electrical appliance '
+                 'needs public liability cover, and the cost of it is the '
+                 'single largest item in most cafes\' accounts. The second is '
+                 'that the tools matter far less than the testing equipment. A '
+                 'cafe can run with donated screwdrivers and one soldering '
+                 'iron, and it cannot responsibly return a mains appliance '
+                 'without a portable appliance tester, which costs several '
+                 'hundred pounds and has to be calibrated. Several cafes have '
+                 'closed over exactly that, and the networks that support them '
+                 'now lend testers between branches, which is an unglamorous '
+                 'piece of infrastructure and the thing that keeps the '
+                 'movement legal.')],
+         items=[
+          ('The owner of the item takes part in the repair', None, 'C',
+           'Paragraph 2 says the owner holds the screwdriver for part of '
+           'the work.'),
+          ('Between fifty-five and seventy per cent of items are mended',
+           None, 'E',
+           'Paragraph 3 gives the range and says it has been stable.'),
+          ('Diagnosis is rarely difficult', None, 'A',
+           'Paragraph 4 lists the four usual places.'),
+          ('Some items cannot be repaired at all', None, 'F',
+           'Paragraph 5 ends on the component that cannot be bought.'),
+          ('A third of visitors return as volunteers', None, 'G',
+           'The last paragraph says the organisers regard this as the '
+           'point.')])],
    listen=[
     dict(heading='A campaigner and an industry representative disagree',
          part='Part 4', task='A recorded panel discussion', band='l4',
-         qtype='Questions 63-68',
+         qtype='Questions 68-73',
          script=[
           ('Chair', 'Ms Lindqvist, you argue that recycling campaigns are a '
            'distraction. Mr Achebe disagrees. Ms Lindqvist first.'),
@@ -1414,7 +1513,75 @@ UNIT = dict(
            ['A higher price', 'A reporting requirement',
             'A longer timescale', 'An exemption for small firms'], 1,
            'So the figure appears where a shareholder reads it: the cost alone '
-           'gets absorbed, the cost plus disclosure gets designed out.')])],
+           'gets absorbed, the cost plus disclosure gets designed out.')]),
+    dict(heading='A plan of the recycling centre',
+         part='Part 2', task='Plan labelling and matching',
+         band='l2',
+         qtype='Questions 74-78',
+         banklabel='Positions on the plan',
+         bank=['A', 'B', 'C', 'D', 'E', 'F', 'G'],
+         figure=dict(kind='map',
+                     title='Hartsmere household waste recycling centre',
+                     sub='seven bays, lettered A to G',
+                     panels=[('Site plan',
+                              [(0.04, 0.08, 0.2, 0.2, 'A', 'building'),
+                               (0.28, 0.08, 0.2, 0.2, 'B', 'building'),
+                               (0.52, 0.08, 0.2, 0.2, 'C', 'building'),
+                               (0.76, 0.08, 0.2, 0.2, 'D', 'building'),
+                               (0.04, 0.52, 0.28, 0.2, 'E', 'building'),
+                               (0.36, 0.52, 0.28, 0.2, 'F', 'building'),
+                               (0.68, 0.52, 0.28, 0.2, 'G', 'building')],
+                              [(0.0, 0.42, 1.0, 0.42, 'One-way ramp'),
+                               (0.5, 0.95, 0.5, 0.42, 'Entrance barrier')])]),
+         skill=('A plan with lettered positions', ['Find the entrance on the plan before the recording starts and decide which way is left and right from there.', 'Write the letter, not the name. A correct place written in words is marked wrong.', 'The speaker will not take the places in order, so keep your eyes on the plan rather than on the questions.']),
+         script=[
+          ('Attendant', 'You come in at the barrier at the bottom of the '
+           'plan and drive up the ramp, which runs left to right. Four '
+           'bays are above the ramp and three below it, and the traffic '
+           'is one way, so if you pass a bay you have to go round '
+           'again.'),
+          ('Attendant', 'Green waste is the first bay on your left as '
+           'you come through the barrier, so it is the one at the '
+           'bottom-left of the plan. That is deliberate, because it is '
+           'the busiest in the summer and we want it nearest the '
+           'entrance.'),
+          ('Attendant', 'Rubble and hardcore is at the bottom-right, '
+           'furthest from the barrier on that side, because the lorry '
+           'that empties it needs the turning space at that end.'),
+          ('Attendant', 'Wood is directly opposite green waste, at the '
+           'far left above the ramp.'),
+          ('Attendant', 'Electrical items are the bay above the ramp at '
+           'the far right, in the top-right corner. They are under cover '
+           'and the bay is locked outside opening hours.'),
+          ('Attendant', 'The paint and chemicals store is the middle bay '
+           'on the lower side, between green waste and the rubble bay. '
+           'It is the smallest of the seven and there is a limit of five '
+           'litres a visit.'),
+          ('Attendant', 'That leaves the two bays above the ramp in the '
+           'middle. The one beside the wood bay takes scrap metal, and '
+           'the one beside the electrical bay takes mattresses and '
+           'furniture, which is the one people most often get wrong.'),
+          ('Attendant', 'Two things that are not on the plan. There is '
+           'no bay for plasterboard at this site at all, and the nearest '
+           'one that takes it is at Linfold, eleven miles away. And the '
+           'bay numbers painted on the kerb do not match the letters on '
+           'this plan, because the plan was drawn after the site was '
+           'renumbered and nobody has repainted the kerbs.')],
+         items=[
+          ('Green waste', None, 'E',
+           'The first bay on the left inside the barrier, at the '
+           'bottom-left.'),
+          ('Wood', None, 'A',
+           'Directly opposite green waste, at the far left above the '
+           'ramp.'),
+          ('Electrical items', None, 'D',
+           'The covered bay in the top-right corner.'),
+          ('Paint and chemicals', None, 'F',
+           'The middle bay on the lower side, between green waste and '
+           'the rubble bay.'),
+          ('Mattresses and furniture', None, 'C',
+           'The upper middle bay beside the electrical bay, which the '
+           'attendant says is most often confused.')])],
    speak=dict(
     part='Part 3', focus='Proportion, attention and responsibility',
     sounds=[('Negative prefixes take no stress of their own in ordinary '

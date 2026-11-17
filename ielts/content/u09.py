@@ -821,7 +821,7 @@ UNIT = dict(
    read=[
     dict(heading='Words a language has and another does not',
          kind='Academic passage',
-         task='Matching headings, True/False/Not Given and summary '
+         task='Matching headings, True/False, Yes/No and summary '
               'completion',
          band='acad', qtype='Questions 47-54',
          paras=[
@@ -893,14 +893,14 @@ UNIT = dict(
                'paragraph\u2019s example.'}),
           (
            'The writer believes lists of untranslatable words are '
-           'inaccurate.', ['True', 'False', 'Not Given'], 1,
+           'inaccurate.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 1 says the lists are accurate.',
            {0: 'Yes would need inaccuracy; paragraph 1 calls the lists '
                'accurate.', 2: 'Not Given is wrong because the writer judges the '
                'lists.'}),
           (
            'The writer believes some languages are better for '
-           'philosophy.', ['True', 'False', 'Not Given'], 2,
+           'philosophy.', ['Yes', 'No', 'Not Given'], 2,
            'No comparison between languages of that kind is made.',
            {0: 'Yes would need that ranking, and no comparison of the '
                'kind is made.', 1: 'No would need him to reject it, and the question never '
@@ -1082,7 +1082,7 @@ UNIT = dict(
    read=[
     dict(heading='A famous claim and what survived of it',
          kind='Academic passage',
-         task='Matching information, True/False/Not Given and short '
+         task='Matching information, True/False, Yes/No and short '
               'answer',
          band='acad', qtype='Questions 61-68',
          paras=[
@@ -1162,7 +1162,7 @@ UNIT = dict(
                'example given.'}),
           (
            'The writer believes the weak version will also be '
-           'abandoned.', ['True', 'False', 'Not Given'], 2,
+           'abandoned.', ['Yes', 'No', 'Not Given'], 2,
            'No prediction of that kind is made.',
            {0: 'Yes would need a prediction, and none is made.', 1: 'No would need him to defend its survival, which he '
                'does not.'}),

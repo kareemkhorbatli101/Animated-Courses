@@ -715,7 +715,7 @@ UNIT = dict(
    read=[
     dict(heading='Three services and the measure they were judged by',
          kind='Data article',
-         task='Matching information and table completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_TGT, figure2=_OUT,
          paras=[
@@ -779,13 +779,20 @@ UNIT = dict(
           ('Housing repairs on the outcome measure fell from 59 to '
            '____________.', None, '54',
            'Paragraph 3, while its target score rose from 64 to 91.'),
-          ('About ____________ per cent of benefit refusals are overturned '
-           'on appeal.', None, 'sixty',
-           'Paragraph 5, falling on a different budget.'),
-          ('Pressure on a measure that is merely a ____________ of the '
-           'outcome breaks the relationship.', None, 'correlate',
-           'Paragraph 7, because it held under conditions with no '
-           'pressure.')])],
+          ('One of the three services improved on both measures.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 3 says one improved on both and two declined on '
+           'the outcome.',
+           {1: 'False would need none or more than one, and paragraph '
+               '3 gives exactly one.', 2: 'Not Given is wrong because paragraph 3 counts them.'}),
+          (
+           'The three services gave the same explanation for the '
+           'divergence.', ['True', 'False', 'Not Given'], 1,
+           'Paragraph 5 says their explanations are specific and '
+           'differ.',
+           {0: 'True contradicts paragraph 5, which contrasts the '
+               'explanations.', 2: 'Not Given is wrong because paragraph 5 reports them '
+               'separately.'})])],
    listen=[
     dict(heading='A researcher on target effects', part='Part 4',
          task='A lecture on measurement and behaviour', band='l4',

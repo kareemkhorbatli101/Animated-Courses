@@ -596,7 +596,7 @@ UNIT = dict(
    step=3,
    read=[
     dict(heading='Sentence length across four offences',
-         kind='Data article', task='Matching information and sentence completion',
+         kind='Data article', task='Matching information and True/False/Not Given',
          band='long', qtype='Questions 30-36',
          figure=dict(kind='bar', title='Average custodial sentence by offence',
                      sub='2005 and 2025 compared',
@@ -686,14 +686,24 @@ UNIT = dict(
            'from twenty months to ____________.', None, 'eleven',
            'Paragraph 3, which calls the system less differentiated but more '
            'severe.'),
-          ('Sentencing guidelines were revised ____________ during the '
-           'period.', None, 'twice',
-           'Paragraph 4, in each case raising starting points for repeat '
-           'offending.'),
-          ('The writer advises asking whether the thing a number counts '
-           '____________ first.', None, 'moved',
-           'The final sentence, which is the rule the whole passage '
-           'illustrates.')])],
+          (
+           'Robbery no longer has the longest average sentence of the '
+           'four categories.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 3 says robbery was first in 2005 and is first in '
+           '2025.',
+           {0: 'True contradicts paragraph 3, which says the ranking '
+               'is almost unchanged.', 2: 'Not Given is wrong because paragraph 3 gives both '
+               'positions.'}),
+          (
+           'Two offence categories with the same mean sentence may '
+           'have very different spreads.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 7 says nothing in a chart of means distinguishes '
+           'the two patterns.',
+           {1: 'False would need the mean to fix the spread, which '
+               'paragraph 7 denies.', 2: 'Not Given is wrong because paragraph 7 raises exactly '
+               'this point.'})])],
    listen=[
     dict(heading='A researcher on sentencing data', part='Part 4',
          task='A lecture on reading criminal justice statistics', band='l4',

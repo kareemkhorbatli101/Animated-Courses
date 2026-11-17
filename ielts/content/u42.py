@@ -677,7 +677,7 @@ UNIT = dict(
    read=[
     dict(heading='Why a one-in-two-hundred-year event happened twice',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_EXTR,
          paras=[
@@ -740,14 +740,23 @@ UNIT = dict(
           ('Events against the fixed threshold rose from nine to '
            '____________ per decade.', None, 'twenty-seven',
            'Paragraph 2, with the whole of the rise after 1990.'),
-          ('Against a recalculated threshold the count stays between ten '
-           'and ____________.', None, 'eleven',
-           'Paragraph 3, with no trend at all.'),
-          ('The writer says that where the distribution is changing, the '
-           'phrase is not wrong so much as ____________.', None,
-           'undefined',
-           'Paragraph 6, because the frequency depends on the period '
-           'chosen.')])],
+          (
+           'The two series are computed from different rainfall '
+           'records.', ['True', 'False', 'Not Given'], 1,
+           'Paragraph 3 says the underlying rainfall figures are '
+           'identical in both.',
+           {0: 'True contradicts paragraph 3, which insists the '
+               'figures are the same.', 2: 'Not Given is wrong because paragraph 3 addresses it in '
+               'those words.'}),
+          (
+           'The writer recommends the fixed baseline over the '
+           'recalculated one.',
+           ['True', 'False', 'Not Given'], 1,
+           'The last paragraph says this is not an argument for the '
+           'fixed baseline either.',
+           {0: 'True would need a recommendation, and the last '
+               'paragraph withholds one.', 2: 'Not Given is wrong because the writer addresses the '
+               'fixed baseline directly.'})])],
    listen=[
     dict(heading='An engineer on return periods', part='Part 4',
          task='A lecture on designing for rare events', band='l4',
@@ -1467,10 +1476,108 @@ UNIT = dict(
            'Besides a review date, what should a decision to delay '
            'carry?', None, 'a condition',
            'Paragraph 9, to prevent a precaution becoming a permanent '
-           'prohibition.')])],
+           'prohibition.')]),
+    dict(heading='The lift inspector',
+         kind='Magazine article',
+         task='Matching sentence endings',
+         band='long',
+         qtype='Questions 67-71',
+         banklabel='Endings',
+         bank=[
+          'because the owner, not the manufacturer, carries the duty.',
+          'which has not changed in substance since 1902.',
+          'so a fault found on a Friday can leave a building without a '
+          'lift for a week.',
+          'although no inspector has ever asked for one.',
+          'and the interval between inspections is six months.',
+          'because the parts are no longer made anywhere.',
+          'which is the single commonest finding in the whole trade.'],
+         skill=('Matching sentence endings', ['Each question is the first half of a sentence. Finish it from the list and use each ending once only.', 'There are more endings than questions, so the last answer cannot be reached by elimination.', 'Several endings will fit the grammar of any beginning. Choose the one the passage supports and read the whole sentence back.']),
+         paras=[
+          'There are roughly a quarter of a million passenger lifts in '
+          'Britain and each of them is examined twice a year by somebody '
+          'who does not work for the company that maintains it. That '
+          'separation between the maintainer and the examiner is the '
+          'whole of the regulatory design, and the interval between '
+          'inspections is six months.',
+          'The inspection is a legal requirement rather than a '
+          'commercial service, and the duty falls in a place that '
+          'surprises people. A lift is classed as lifting equipment, and '
+          'the obligation to have it examined rests with whoever has '
+          'control of it in the building, because the owner, not the '
+          'manufacturer, carries the duty. A managing agent who has '
+          'never seen a machine room is nevertheless the person '
+          'prosecuted if the examinations have not been done.',
+          'What the examiner looks at is narrower than most passengers '
+          'would guess. Ropes, brakes, overspeed governor, buffers, '
+          'door interlocks and the structure that carries the load. The '
+          'ride quality, the lighting and the buttons are the '
+          'maintainer\u2019s business and are not part of a thorough '
+          'examination at all.',
+          'The door interlock is the component everything turns on. It '
+          'is the switch that proves the landing doors are shut before '
+          'the car can move, and a failure of it is the mechanism behind '
+          'most serious lift accidents in every country that keeps '
+          'records. Inspectors report that an interlock out of '
+          'adjustment, rather than broken, is the fault they write up '
+          'most often, which is the single commonest finding in the '
+          'whole trade.',
+          'The examiner has a power that is unusual in British '
+          'regulation. On finding a danger, the inspector can serve a '
+          'report that takes the lift out of service immediately, and '
+          'the owner cannot overrule it. There is no appeal that works '
+          'in useful time, so a fault found on a Friday can leave a '
+          'building without a lift for a week.',
+          'The oldest lifts are the interesting case and are not the '
+          'most dangerous. A hydraulic lift from the nineteen-thirties '
+          'can be kept in service indefinitely provided the examinations '
+          'are passed, and several in London are older than that. What '
+          'retires such a machine is not the regulator but the supply '
+          'chain: it is condemned because the parts are no longer made '
+          'anywhere, and a replacement for a single worn component has '
+          'to be made specially at a cost that exceeds a new '
+          'installation.',
+          'The framework itself is a Victorian inheritance. The duty to '
+          'examine lifting equipment at fixed intervals by an '
+          'independent person comes from factory legislation, which has '
+          'not changed in substance since 1902. It was written for '
+          'cranes and hoists in mills, it was extended to passenger '
+          'lifts without much alteration, and it is now the reason the '
+          'safest place in most buildings is the lift.',
+                ('Two features of the arrangement are worth weighing against '
+                 'each other, because they pull in opposite directions. The '
+                 'first is that the examiner is paid by the owner, which is '
+                 'the arrangement every regulator of this kind has and the one '
+                 'every inquiry criticises: the person who can close the lift '
+                 'is engaged by the person who loses money when it closes. In '
+                 'practice the insurance market does most of the work, because '
+                 'the examiner is usually an engineer employed by the insurer '
+                 'who would pay the claim, and that interest runs the other '
+                 'way. The second is that the system generates almost no '
+                 'public data. Reports go to the owner and, in a dangerous '
+                 'case, to the enforcing authority, and nobody publishes how '
+                 'many lifts failed an examination last year or why. The trade '
+                 'knows the interlock figure from its own surveys rather than '
+                 'from any register, and a regulator asked to justify the six- '
+                 'month interval could not produce the evidence either way.')],
+         items=[
+          ('Each lift is examined twice a year', None, 'E',
+           'Paragraph 1 gives the interval as six months.'),
+          ('A managing agent can be prosecuted', None, 'A',
+           'Paragraph 2 places the duty on whoever controls the '
+           'equipment.'),
+          ('An interlock out of adjustment is written up constantly',
+           None, 'G',
+           'Paragraph 4 calls it the commonest finding in the trade.'),
+          ('A lift can be taken out of service at once', None, 'C',
+           'Paragraph 5 says there is no appeal that works in useful '
+           'time.'),
+          ('An old lift is eventually condemned', None, 'F',
+           'Paragraph 6 gives the supply chain rather than the regulator '
+           'as the cause.')])],
    listen=[
     dict(heading='A regulator and an economist disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange', band='l4', qtype='Questions 72-77',
          script=[
           ('Chair', 'Dr Fanshawe-Oyelude is a medicines regulator. Professor '
            'Barrientos works on the economics of regulation.'),
@@ -1544,7 +1651,77 @@ UNIT = dict(
            ['They are expensive', 'They create a date on which somebody '
             'must decide', 'They are unlawful', 'Nobody proposed them'], 1,
            'Whereas a precaution with no review date requires nothing of '
-           'anybody.')])],
+           'anybody.')]),
+    dict(heading='A plan of the factory floor',
+         part='Part 2', task='Plan labelling and matching',
+         band='l2',
+         qtype='Questions 78-82',
+         banklabel='Positions on the plan',
+         bank=['A', 'B', 'C', 'D', 'E', 'F', 'G'],
+         figure=dict(kind='map',
+                     title='Ground floor, Kelvedge Works',
+                     sub='seven areas, lettered A to G',
+                     panels=[('Factory floor',
+                              [(0.04, 0.08, 0.2, 0.2, 'A', 'building'),
+                               (0.28, 0.08, 0.2, 0.2, 'B', 'building'),
+                               (0.52, 0.08, 0.2, 0.2, 'C', 'building'),
+                               (0.76, 0.08, 0.2, 0.2, 'D', 'building'),
+                               (0.04, 0.52, 0.28, 0.2, 'E', 'building'),
+                               (0.36, 0.52, 0.28, 0.2, 'F', 'building'),
+                               (0.68, 0.52, 0.28, 0.2, 'G', 'building')],
+                              [(0.0, 0.42, 1.0, 0.42, 'Main gangway'),
+                               (0.5, 0.95, 0.5, 0.42, 'Personnel door')])]),
+         skill=('A plan with lettered positions', ['Find the entrance on the plan before the recording starts and decide which way is left and right from there.', 'Write the letter, not the name. A correct place written in words is marked wrong.', 'The speaker will not take the places in order, so keep your eyes on the plan rather than on the questions.']),
+         script=[
+          ('Safety officer', 'This is the ground floor. You come in '
+           'through the personnel door at the bottom of the plan, in the '
+           'middle, and the main gangway runs left to right. Four areas '
+           'are above the gangway and three below it, and the gangway is '
+           'kept clear at all times, which is not a request.'),
+          ('Safety officer', 'The first aid room is immediately on your '
+           'left as you come in, so it is the area at the bottom-left of '
+           'the plan. Two people on each shift are trained and their '
+           'names are on the door.'),
+          ('Safety officer', 'The chemical store is at the bottom-right, '
+           'furthest from the door on that side, and it is the only area '
+           'with its own ventilation. You do not go in without being '
+           'asked to.'),
+          ('Safety officer', 'The press shop is directly opposite first '
+           'aid, at the far left above the gangway. That is where the '
+           'noise is, and ear protection is mandatory from the yellow '
+           'line onwards.'),
+          ('Safety officer', 'The finished goods bay is above the '
+           'gangway at the far right, in the top-right corner, because '
+           'the loading doors are at that end of the building.'),
+          ('Safety officer', 'The tool crib is the middle area on the '
+           'lower side, between first aid and the chemical store. '
+           'Everything is signed out and nothing leaves the building, '
+           'which we check.'),
+          ('Safety officer', 'That leaves the two areas above the '
+           'gangway in the middle. The one beside the press shop is '
+           'assembly, and the one beside the finished goods bay is '
+           'inspection, which is where every item goes before it is '
+           'packed.'),
+          ('Safety officer', 'Two things the plan does not show. The '
+           'muster point for a fire alarm is outside the building, at '
+           'the far end of the car park, and not in the yard, which is '
+           'where everybody went the last two times. And the second '
+           'gangway marked along the top of the plan is not a walkway at '
+           'all; it is the overhead crane rail, and nothing is to be '
+           'stored under it.')],
+         items=[
+          ('First aid room', None, 'E',
+           'Immediately on the left inside the personnel door.'),
+          ('Press shop', None, 'A',
+           'Directly opposite first aid, at the far left above the '
+           'gangway.'),
+          ('Finished goods bay', None, 'D',
+           'In the top-right corner, beside the loading doors.'),
+          ('Tool crib', None, 'F',
+           'The middle area on the lower side, between first aid and the '
+           'chemical store.'),
+          ('Inspection', None, 'C',
+           'The upper middle area beside the finished goods bay.')])],
    speak=dict(
     part='Part 3', focus='Acting before the evidence is complete',
     sounds=[('Technical and legal compounds take stress on the first element: '
@@ -1561,7 +1738,14 @@ UNIT = dict(
              'once neutral and once with always stressed, and notice that the '
              'second is a complaint rather than an observation.'),
             ('Record yourself on who should write the rules. Check every modal '
-             'and decide whether you stressed it on purpose.')],
+             'and decide whether you stressed it on purpose.'),
+            ('One last exercise, because this unit\u2019s vocabulary is the '
+             'hardest in the book to say at speed. Take the five longest '
+             'compounds on this page, put each inside a clause you would '
+             'really use in Part 3, and say the clause ten times. The word '
+             'is not the difficulty. Producing it inside a sentence you are '
+             'also thinking about is the difficulty, and that is what this '
+             'trains.')],
     intro=('The hardest turn in the unit. Try once to say that one kind of '
            'error is visible and the other is not.'),
     qs=['Is it better to act too early or too late?',

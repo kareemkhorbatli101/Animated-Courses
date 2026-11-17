@@ -766,7 +766,7 @@ UNIT = dict(
    read=[
     dict(heading='What decides what you see first',
          kind='Academic passage',
-         task='Matching headings, True/False/Not Given and summary '
+         task='Matching headings, True/False, Yes/No and summary '
               'completion',
          band='acad', qtype='Questions 41-48',
          paras=[
@@ -834,10 +834,10 @@ UNIT = dict(
                'names this one.', 2: 'Not Given is wrong because the earliest engines are '
                'described.'}),
           ('The writer believes links are impossible to fake.',
-           ['True', 'False', 'Not Given'], 1,
+           ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 4 describes an industry devoted to producing '
            'them.',
-           {0: 'True would need that claim; paragraph 4 describes an '
+           {0: 'Yes would need that claim; paragraph 4 describes an '
                'industry faking them.', 2: 'Not Given is wrong because the writer discusses how '
                'links are manufactured.'}),
           ('Search companies publish the full details of their rules.',
@@ -1016,8 +1016,7 @@ UNIT = dict(
    read=[
     dict(heading='Why a good answer and a popular answer differ',
          kind='Academic passage',
-         task='Matching information, True/False/Not Given and short '
-              'answer',
+         task='Matching information, Yes/No/Not Given and short answer',
          band='acad', qtype='Questions 55-62',
          paras=[
           'Every ranking system measures something it can count in '
@@ -1084,7 +1083,7 @@ UNIT = dict(
            'not.'),
           (
            'The writer believes ranking systems fail on most '
-           'questions.', ['True', 'False', 'Not Given'], 1,
+           'questions.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 1 says they work well for most and fail for a '
            'few.',
            {0: 'Yes would need failure on most; paragraph 1 says they '
@@ -1093,14 +1092,14 @@ UNIT = dict(
           (
            'The writer believes commercial secrecy is the main '
            'argument against publishing rules.',
-           ['True', 'False', 'Not Given'], 1,
+           ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 5 says the real argument is something more '
            'awkward.',
            {0: 'Yes would need secrecy to be the main reason; '
                'paragraph 5 names a more awkward one.', 2: 'Not Given is wrong because the writer ranks the '
                'arguments.'}),
           ('The writer believes search companies should be broken up.',
-           ['True', 'False', 'Not Given'], 2,
+           ['Yes', 'No', 'Not Given'], 2,
            'No view on company structure is expressed.',
            {0: 'Yes would need a view on company structure, and none '
                'is given.', 1: 'No would need him to argue against it, which he never '

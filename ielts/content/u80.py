@@ -1071,7 +1071,72 @@ UNIT = dict(
                     ('The weak argument identified and set aside',
                      'Task Response'),
                     ('Accurate and varied structures', 'Grammatical '
-                     'Range and Accuracy')])],
+                     'Range and Accuracy')]),
+    dict(task='Task 2', wband='essay',
+         heading='Calibration: the real instruction, at the real length',
+         prompt=('This is the last task in Foundation 2 and the only one '
+                 'written to the instruction the real paper uses. Some '
+                 'people think that everybody should learn a second '
+                 'language at school. Others think school time is better '
+                 'spent on other subjects. Discuss both views and give '
+                 'your own opinion. Write at least 250 words.'),
+         plan=('Teach a language, and change how it is taught',
+               [('The case for a second language',
+                 ['many jobs now need more than one',
+                  'and a young learner acquires the accent']),
+                ('The case against the school time',
+                 ['four hours a week come from another subject',
+                  'and six years of it produced no conversation']),
+                ('The position that is neither',
+                 ['a shorter, far more intensive course',
+                  'because a skill needs practice rather than '
+                  'lessons'])]),
+         model=[
+          'Some people believe that every child should learn a second '
+          'language at school. Others believe that the time would be '
+          'better spent on subjects such as mathematics or science. I '
+          'think a second language should be taught, but not in the way '
+          'it usually is.',
+          'There are good reasons for teaching a language. The first is '
+          'practical. Many jobs now need more than one language, and '
+          'somebody who can speak two has more choices than somebody who '
+          'can speak one. The second reason is that learning a language '
+          'is easier when you are young. My cousin started French at '
+          'seven and I started at fourteen, and her accent is much '
+          'better than mine.',
+          'The other side also has a point. School time is limited. If a '
+          'child has four hours of language a week, those four hours come '
+          'from something else, and in my country they come from music '
+          'and art. There is also a problem with the result. I studied '
+          'English for six years at school and I could not have a '
+          'conversation at the end of it, so the time was not well used.',
+          'In my opinion, the question is not whether to teach a language '
+          'but how. Two hours a week for six years produces very little. '
+          'I would rather have a shorter course that is much more '
+          'intensive, with real conversation and fewer written exercises, '
+          'because that is how I finally learned English after I left '
+          'school. A language is a skill, and a skill needs practice '
+          'rather than lessons.'],
+         notes=[
+          'Both views are given a reason and an example, which is what '
+          'Task Response asks for.',
+          'The opinion in paragraph 4 is a third position, not a repeat '
+          'of view one or view two.',
+          'The examples are small and personal, and that is enough. '
+          'Nothing has been invented that a reader could check.',
+          'It is 264 words. Count the words of your own answer once, '
+          'here, and then never again: by Volume 1 you should be able to '
+          'feel the length.'],
+         criterion=[('Both views given a reason and an example',
+                     'Task Response'),
+                    ('An opinion that is not one of the two views',
+                     'Task Response'),
+                    ('Four paragraphs with one job each',
+                     'Coherence and Cohesion')],
+         instruct=('  Write at least 250 words. This is the length the '
+                   'real paper asks for and the length Volume 1 assumes '
+                   'from its first page.'),
+         lines=26)],
    gram=dict(
     point='Contrast within a sentence: although, but, rather than',
     explain='Use although at the start of a clause, but between two '

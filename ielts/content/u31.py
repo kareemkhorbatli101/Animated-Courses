@@ -618,7 +618,7 @@ UNIT = dict(
    step=3,
    read=[
     dict(heading='Three graphs of the same data',
-         kind='Data article', task='Matching information and sentence completion',
+         kind='Data article', task='Matching information and True/False/Not Given',
          band='long', qtype='Questions 30-36',
          figure=dict(kind='line', title='Reported crime in Marchfield',
                      sub='the same figures, plotted from zero',
@@ -704,14 +704,20 @@ UNIT = dict(
            '____________ per cent.', None, 'nine',
            'Paragraph 4, as new estates were completed. This is the figure the '
            'third chart divides by.'),
-          ('Organised by year, the data suggest a story of ____________.',
-           None, 'stability',
-           'Paragraph 6 sets out the three structuring choices and what each '
-           'one implies.'),
-          ('The writer says an honest answer names the ____________ it has '
-           'chosen and keeps to it.', None, 'basis',
-           'The last sentence of the passage, which is also the rule this '
-           'volume teaches for Task 1.')])],
+          ('The researcher\'s chart was the one most widely reported.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 5 says the third chart appeared in none of the '
+           'coverage.',
+           {0: 'True contradicts paragraph 5, which says it was not '
+               'reported at all.', 2: 'Not Given is wrong because paragraph 5 states what '
+               'happened to it.'}),
+          ('None of the three charts contains an error.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 5 opens with exactly that statement before '
+           'weighing them.',
+           {1: 'False would need one of the charts to be wrong, and '
+               'the text denies it.', 2: 'Not Given is wrong because paragraph 5 says it in '
+               'those words.'})])],
    listen=[
     dict(heading='A statistician on axes and scales', part='Part 4',
          task='A lecture on presenting data', band='l4',

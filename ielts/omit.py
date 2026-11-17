@@ -62,6 +62,8 @@ def wanted(U):
                                        else {}).items()):
                     out.append(('u%d c%d r%d q%d wrong %s'
                                 % (n, ci, ri, i, 'ABCDEFGH'[k]), line))
+            for i, e in enumerate(r.get('bank') or [], 1):
+                out.append(('u%d c%d r%d bank %d' % (n, ci, ri, i), e))
             out.append(('u%d c%d r%d rubric' % (n, ci, ri), B.rubric(r)))
         for li, l in enumerate(c['listen'], 1):
             for i, (_, t) in enumerate(l['script'], 1):
@@ -73,6 +75,8 @@ def wanted(U):
                                        else {}).items()):
                     out.append(('u%d c%d l%d q%d wrong %s'
                                 % (n, ci, li, i, 'ABCDEFGH'[k]), line))
+            for i, e in enumerate(l.get('bank') or [], 1):
+                out.append(('u%d c%d l%d bank %d' % (n, ci, li, i), e))
             out.append(('u%d c%d l%d rubric' % (n, ci, li), B.rubric(l)))
         sp = c['speak']
         out.append(('u%d c%d speak intro' % (n, ci), sp['intro']))

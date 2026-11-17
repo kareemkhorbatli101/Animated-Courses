@@ -575,7 +575,7 @@ UNIT = dict(
    read=[
     dict(heading='Why more people live alone',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_HH,
          paras=[
@@ -623,11 +623,22 @@ UNIT = dict(
            'Because young adults living alone is a local pattern.'),
           ('Mexico’s average household fell by ____________ people.', None,
            '1.8', 'From 5.4 to 3.6, the largest fall shown.'),
-          ('____________ has the smallest households in 2020.', None,
-           'Sweden', 'At 1.8, although it also fell least.'),
-          ('Several countries now fund daily ____________ calls to older '
-           'people living alone.', None, 'telephone',
-           'The final paragraph, because a fall may not be noticed.')])],
+          (
+           'All four countries had smaller households in 2020 than in '
+           '1970.', ['True', 'False', 'Not Given'], 0,
+           'Paragraph 1 says every country fell, and only the size of '
+           'the fall differed.',
+           {1: 'False would need one country to have risen, and '
+               'paragraph 1 denies it.', 2: 'Not Given is wrong because the first paragraph states '
+               'it directly.'}),
+          (
+           'Sweden had the largest fall in household size of the four '
+           'countries.', ['True', 'False', 'Not Given'], 1,
+           'Paragraph 2 gives Mexico the furthest fall, 1.8; Sweden '
+           'fell least.',
+           {0: 'True would need Sweden to have the largest fall; it '
+               'has the smallest.', 2: 'Not Given is wrong because paragraph 2 gives every '
+               'figure needed.'})])],
    listen=[
     dict(heading='A statistician on household size', part='Part 4',
          task='A lecture on measuring households', band='l4',

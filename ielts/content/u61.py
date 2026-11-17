@@ -48,7 +48,8 @@ UNIT = dict(
    read=[
     dict(heading='The Corner Cafe: menu and opening times',
          kind='Menu and notice',
-         task='Form completion and short answer',
+         task='Form completion and short answer and True/False/Not '
+              'Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('A menu is read for the number beside the word',
                 ['Read the question first. It tells you whether you are '
@@ -73,10 +74,19 @@ UNIT = dict(
           ('How much is a bowl of soup with bread?', None, 'four pounds',
            'Paragraph 2. The soup changes daily, but the price does '
            'not.'),
-          ('A glass of milk costs ____________ pence.', None, 'ninety',
-           'Paragraph 3, and a hot drink is more.'),
-          ('Children under ____________ eat free with an adult.', None,
-           'five', 'Paragraph 3, the last line of the notice.')]),
+          ('A glass of milk costs less than a hot drink.',
+           ['True', 'False', 'Not Given'], 0,
+           'Hot drinks are one pound fifty and a glass of milk is '
+           'ninety pence.',
+           {1: 'False would need milk to cost more, and both prices '
+               'are given.', 2: 'Not Given is wrong because the text gives both prices.'}),
+          ('The cafe is open on Sunday afternoons.',
+           ['True', 'False', 'Not Given'], 2,
+           'The text gives the Sunday opening time and not the Sunday '
+           'closing time.',
+           {0: 'True would need a Sunday closing time, which is never '
+               'given.', 1: 'No closing time for Sunday appears, so False cannot be '
+               'shown either.'})]),
     ],
    listen=[
     dict(heading='Ordering lunch for two', part='Part 1',

@@ -591,7 +591,7 @@ UNIT = dict(
    read=[
     dict(heading='What a parish register actually records',
          kind='Article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_REC,
          paras=[
@@ -640,12 +640,23 @@ UNIT = dict(
           ('Parish registers rise from 31 to ____________ and then to '
            '100.', None, '96',
            'With almost no increase in the final step.'),
-          ('Court papers increase roughly ____________ across the '
-           'period.', None, 'fifteenfold',
-           'Matching land and property documents.'),
-          ('The registers contain no entries between 1643 and '
-           '____________.', None, '1649',
-           'Because the civil war interrupted the record-keeping.')])],
+          (
+           'The parish held no baptisms or burials between 1643 and '
+           '1649.', ['True', 'False', 'Not Given'], 1,
+           'Paragraph 5 says the parish did not stop; the '
+           'register-keeping was interrupted.',
+           {0: 'True reads a gap in the record as a gap in the events, '
+               'which paragraph 5 forbids.', 2: 'Not Given is wrong because paragraph 5 addresses it in '
+               'those words.'}),
+          (
+           'Court papers increased at roughly the same rate as land '
+           'and property documents.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 3 says both increase roughly fifteenfold across '
+           'the period.',
+           {1: 'False would need different rates, and paragraph 3 '
+               'gives the same one.', 2: 'Not Given is wrong because paragraph 3 states both '
+               'rates together.'})])],
    listen=[
     dict(heading='An archivist on sources', part='Part 4',
          task='A lecture on reading old documents', band='l4',

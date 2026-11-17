@@ -40,7 +40,8 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='The Okoro family: a short profile',
-         kind='Short profile', task='Short answer and matching',
+         kind='Short profile', task='Short answer and matching and '
+                                    'True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('A profile is read for who does what',
                 ['Names first. Write them in a list down the side of '
@@ -65,10 +66,17 @@ UNIT = dict(
            'Paragraph 1, and she works nights.'),
           ('Where does Femi teach on Saturdays?', None, 'the library',
            'Paragraph 1, and he drives a van in the week.'),
-          ('Who answers when the school telephones?', None, 'Adaeze',
-           'Paragraph 2: she retired and is always available.'),
-          ('How many languages are spoken at home?', None, 'three',
-           'Paragraph 3, and Daniel answers in all of them.')])],
+          ('Femi has two jobs.', ['True', 'False', 'Not Given'], 0,
+           'He teaches at the library on Saturdays and drives a van in '
+           'the week.',
+           {1: 'False would need one job, and the text names two.', 2: 'Not Given is wrong because both jobs are stated.'}),
+          ('Daniel is the youngest person in the house.',
+           ['True', 'False', 'Not Given'], 2,
+           'Daniel is seven and is the only child, but no other age is '
+           'given.',
+           {0: 'True would need the other ages, which the profile '
+               'never gives.', 1: 'False would need somebody younger, and nobody younger '
+               'is mentioned.'})])],
    listen=[
     dict(heading='Meeting a new neighbour', part='Part 1',
          task='A conversation at a front door', band='l1',

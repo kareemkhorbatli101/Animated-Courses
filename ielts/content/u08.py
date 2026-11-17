@@ -818,7 +818,7 @@ UNIT = dict(
    read=[
     dict(heading='Yield, fertiliser and what the soil loses',
          kind='Academic passage',
-         task='Matching headings, True/False/Not Given and summary '
+         task='Matching headings, True/False, Yes/No and summary '
               'completion',
          band='acad', qtype='Questions 47-54',
          paras=[
@@ -892,10 +892,10 @@ UNIT = dict(
                'are not in dispute.', 2: 'Not Given is wrong because the writer states where the '
                'argument is.'}),
           ('The writer believes fertiliser should be banned.',
-           ['True', 'False', 'Not Given'], 2,
+           ['Yes', 'No', 'Not Given'], 2,
            'No proposal to ban fertiliser appears anywhere.',
-           {0: 'True would need a ban to be proposed, and none is.', 1: 'False would need him to defend fertiliser against a '
-               'ban nobody raises.'}),
+           {0: 'Yes would need a ban to be proposed, and none is.', 1: 'No would need him to defend fertiliser against a ban '
+               'nobody raises.'}),
           ('New varieties put more of the plant into grain and less '
            'into ____________.', None, 'stem',
            'Paragraph 2, so shorter plants carried more food.'),
@@ -1066,7 +1066,7 @@ UNIT = dict(
    read=[
     dict(heading='The measure that made the soil invisible',
          kind='Academic passage',
-         task='Matching information, True/False/Not Given and short '
+         task='Matching information, True/False, Yes/No and short '
               'answer',
          band='acad', qtype='Questions 61-68',
          paras=[
@@ -1129,7 +1129,7 @@ UNIT = dict(
            'The easy measure drives out the one that matters.'),
           (
            'The writer believes yield is the wrong measure of '
-           'production.', ['True', 'False', 'Not Given'], 1,
+           'production.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 3 calls it the right measure of production.',
            {0: 'Yes would need rejection; paragraph 3 calls it the '
                'right measure of production.', 2: 'Not Given is wrong because the writer says what yield '
@@ -1143,7 +1143,7 @@ UNIT = dict(
                'comparison.', 2: 'Not Given is wrong because dry-year performance is '
                'measured.'}),
           ('The writer believes subsidies should be abolished.',
-           ['True', 'False', 'Not Given'], 2,
+           ['Yes', 'No', 'Not Given'], 2,
            'Only how they are calculated is discussed.',
            {0: 'Yes would need abolition; only the basis of '
                'calculation is discussed.', 1: 'No would need him to defend them, which he does not.'}),

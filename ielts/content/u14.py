@@ -596,7 +596,7 @@ UNIT = dict(
    read=[
     dict(heading='What is studied and why',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_LANG,
          paras=[
@@ -647,11 +647,21 @@ UNIT = dict(
           ('French fell by about ____________ per cent across the '
            'period.', None, 'seventy',
            'From 34 thousand to 10 thousand.'),
-          ('Spanish overtook French in about ____________.', None,
-           '2017', 'Having overtaken German around 2010.'),
-          ('German teachers became hard to recruit after about '
-           '____________.', None, '2005',
-           'Which began the sequence the writer describes.')])],
+          ('German fell by more thousands of entries than French did.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 2 gives French a fall of 24 thousand and German '
+           'one of 16.',
+           {0: 'True reverses the comparison; German fell less in '
+               'thousands and more in proportion.', 2: 'Not Given is wrong because both falls are given in '
+               'thousands.'}),
+          (
+           'Mandarin changed more steeply than any other language on '
+           'the chart.', ['True', 'False', 'Not Given'], 0,
+           'Paragraph 3 calls its sixteenfold rise the steepest change '
+           'on the chart.',
+           {1: 'False would need another language to be steeper, and '
+               'paragraph 3 denies it.', 2: 'Not Given is wrong because paragraph 3 names the '
+               'steepest change.'})])],
    listen=[
     dict(heading='A researcher on language uptake', part='Part 4',
          task='A lecture on why subjects rise and fall', band='l4',

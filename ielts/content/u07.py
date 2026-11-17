@@ -781,7 +781,7 @@ UNIT = dict(
    read=[
     dict(heading='Land, permission and the price of a home',
          kind='Academic passage',
-         task='Matching headings, True/False/Not Given and summary '
+         task='Matching headings, True/False, Yes/No and summary '
               'completion',
          band='acad', qtype='Questions 41-48',
          paras=[
@@ -852,13 +852,13 @@ UNIT = dict(
                'paragraph\u2019s example.'}),
           (
            'The writer believes restrictions on building serve no '
-           'purpose.', ['True', 'False', 'Not Given'], 1,
+           'purpose.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 3 lists several real public benefits.',
            {0: 'Yes would need dismissal; paragraph 3 lists real '
                'public benefits.', 2: 'Not Given is wrong because the writer weighs the '
                'restrictions.'}),
           ('The writer believes committees are corrupt.',
-           ['True', 'False', 'Not Given'], 2,
+           ['Yes', 'No', 'Not Given'], 2,
            'No claim about corruption appears anywhere.',
            {0: 'Yes would need a charge of corruption, which is never '
                'made.', 1: 'No would need him to defend them against it, and the '
@@ -1048,7 +1048,7 @@ UNIT = dict(
    read=[
     dict(heading='Why supply alone does not settle the question',
          kind='Academic passage',
-         task='Matching information, True/False/Not Given and short '
+         task='Matching information, True/False, Yes/No and short '
               'answer',
          band='acad', qtype='Questions 55-62',
          paras=[
@@ -1111,7 +1111,7 @@ UNIT = dict(
             'Paragraph 6'], 2,
            'Private building and public building together.'),
           ('The writer believes building more homes is pointless.',
-           ['True', 'False', 'Not Given'], 1,
+           ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 5 says this is not an argument against building.',
            {0: 'Yes would need that conclusion; paragraph 5 says the '
                'opposite.', 2: 'Not Given is wrong because the writer states what '
@@ -1127,7 +1127,7 @@ UNIT = dict(
           (
            'The writer believes new flats should be prevented from '
            'being sold at market prices.',
-           ['True', 'False', 'Not Given'], 2,
+           ['Yes', 'No', 'Not Given'], 2,
            'No proposal about prices of that kind is made.',
            {0: 'Yes would need a proposal about prices, and none is '
                'made.', 1: 'No would need him to defend market pricing, which he '

@@ -54,7 +54,8 @@ UNIT = dict(
    read=[
     dict(heading='Marchfield Gallery: the Hokusai exhibition',
          kind='Notice and booking page',
-         task='Form completion and short answer',
+         task='Form completion and short answer and True/False/Not '
+              'Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('A booking page is read for the condition on the '
                 'cheaper option',
@@ -84,11 +85,19 @@ UNIT = dict(
            None, 'timed', 'Although you may stay as long as you like.'),
           ('A reduced ticket costs ____________ pounds.', None, 'nine',
            'Against fourteen pounds at the full price.'),
-          ('When is the gallery half price for everybody?', None,
-           'Thursday evenings',
-           'From six until nine, and it is the busiest time.'),
-          ('Membership costs the same as ____________ visits.', None,
-           'three', 'Forty-five pounds a year, the notice says.')]),
+          (
+           'A student ticket must be booked before the day of the '
+           'visit.', ['True', 'False', 'Not Given'], 0,
+           'The reduced price must be booked in advance, and proof is '
+           'asked for at the desk.',
+           {1: 'False would need booking on the day, which the text '
+               'rules out.', 2: 'Not Given is wrong because the booking condition is '
+               'stated.'}),
+          ('The members\u2019 room is on the first floor.',
+           ['True', 'False', 'Not Given'], 1,
+           'Membership includes the members\u2019 room on the second floor.',
+           {0: 'True would need the first floor, and the second is '
+               'given.', 2: 'Not Given is wrong because the floor is stated.'})]),
     dict(heading='Three membership options',
          kind='Table of options', task='Matching features',
          band='gt_short', qtype='Questions 6-10',

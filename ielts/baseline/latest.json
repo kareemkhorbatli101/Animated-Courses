@@ -404,7 +404,7 @@
     "worn down",
     "wrong material"
    ],
-   "images": 441,
+   "images": 445,
    "items": {
     "lpaper1 Part 1 i1": {
      "ans": "main",
@@ -3008,6 +3008,41 @@
      "opts": 0,
      "stem": "f49490a3be05",
      "why": "519d64287ab8",
+     "wrongs": 0
+    },
+    "u2 c5 R1 i1": {
+     "ans": "D",
+     "opts": 0,
+     "stem": "50c934dd9999",
+     "why": "ad274dd4d0f9",
+     "wrongs": 0
+    },
+    "u2 c5 R1 i2": {
+     "ans": "A",
+     "opts": 0,
+     "stem": "008d50a6b6cc",
+     "why": "7b40a09e86d0",
+     "wrongs": 0
+    },
+    "u2 c5 R1 i3": {
+     "ans": "C",
+     "opts": 0,
+     "stem": "c831c6f0fab9",
+     "why": "6500a255fcc8",
+     "wrongs": 0
+    },
+    "u2 c5 R1 i4": {
+     "ans": "E",
+     "opts": 0,
+     "stem": "b41bf23cfa56",
+     "why": "b6e50a98eef7",
+     "wrongs": 0
+    },
+    "u2 c5 R1 i5": {
+     "ans": "G",
+     "opts": 0,
+     "stem": "427760c95d5a",
+     "why": "97ee41a0edde",
      "wrongs": 0
     },
     "u3 c1 L0 i1": {
@@ -6428,11 +6463,11 @@
     }
    },
    "measure": {
-    "beyond": 13.44,
-    "k1": 70.0,
+    "beyond": 13.42,
+    "k1": 70.07,
     "longest": 39,
     "nominal": 2.87,
-    "sent": 19.6
+    "sent": 19.59
    },
    "prose": {
     "lpaper1 Part 1 blurb": {
@@ -7414,6 +7449,14 @@
     "u2 c5 R0 heading": {
      "sha": "3c03119c19bc",
      "w": 8
+    },
+    "u2 c5 R1 bank": {
+     "sha": "b1d1cd66b22c",
+     "w": 60
+    },
+    "u2 c5 R1 heading": {
+     "sha": "f3221aaee3f7",
+     "w": 9
     },
     "u2 c5 S intro": {
      "sha": "8811ac199840",
@@ -9873,6 +9916,10 @@
      "sha": "453197b321dc",
      "w": 410
     },
+    "u2 c5 R1": {
+     "sha": "35c325693315",
+     "w": 383
+    },
     "u3 c1 L0": {
      "sha": "a59d29a0ec83",
      "w": 191
@@ -10595,7 +10642,7 @@
     "write-up",
     "written reasons"
    ],
-   "images": 443,
+   "images": 444,
    "items": {
     "lpaper2 Part 1 i1": {
      "ans": "Oyelaran",
@@ -12012,18 +12059,18 @@
      "wrongs": 0
     },
     "u11 c3 R0 i5": {
-     "ans": "Sweden",
-     "opts": 0,
-     "stem": "20853aa17ca9",
-     "why": "6fbaac843da6",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "94b450e3d68e",
+     "why": "4462d688c063",
+     "wrongs": 2
     },
     "u11 c3 R0 i6": {
-     "ans": "telephone",
-     "opts": 0,
-     "stem": "4adeee137ada",
-     "why": "1e27b28e5049",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "a077f342dfbc",
+     "why": "737f6e14d57b",
+     "wrongs": 2
     },
     "u11 c4 L0 i1": {
      "ans": "2.1",
@@ -12516,18 +12563,18 @@
      "wrongs": 0
     },
     "u12 c3 R0 i5": {
-     "ans": "24",
-     "opts": 0,
-     "stem": "8100fb46c7ab",
-     "why": "f990daac1482",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "cea32ccad079",
+     "why": "58bc77430063",
+     "wrongs": 2
     },
     "u12 c3 R0 i6": {
-     "ans": "clothing",
-     "opts": 0,
-     "stem": "a98934d2f5c8",
-     "why": "d20446d1b692",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "7e09b84f51ed",
+     "why": "0d393ef91f78",
+     "wrongs": 2
     },
     "u12 c4 L0 i1": {
      "ans": "comparison",
@@ -12723,6 +12770,41 @@
      "opts": 0,
      "stem": "027c45259487",
      "why": "674cbfb1c372",
+     "wrongs": 0
+    },
+    "u12 c5 R1 i1": {
+     "ans": "A",
+     "opts": 0,
+     "stem": "20a685d7205a",
+     "why": "354c06eab770",
+     "wrongs": 0
+    },
+    "u12 c5 R1 i2": {
+     "ans": "C",
+     "opts": 0,
+     "stem": "19688739de02",
+     "why": "6fd9c53a9664",
+     "wrongs": 0
+    },
+    "u12 c5 R1 i3": {
+     "ans": "B",
+     "opts": 0,
+     "stem": "f496f465e626",
+     "why": "d89d3f8fa0c7",
+     "wrongs": 0
+    },
+    "u12 c5 R1 i4": {
+     "ans": "D",
+     "opts": 0,
+     "stem": "8fcd4e6e26c4",
+     "why": "142cff8a9a58",
+     "wrongs": 0
+    },
+    "u12 c5 R1 i5": {
+     "ans": "G",
+     "opts": 0,
+     "stem": "7b67c1292275",
+     "why": "e00505c1a7bb",
      "wrongs": 0
     },
     "u13 c1 L0 i1": {
@@ -13020,18 +13102,18 @@
      "wrongs": 0
     },
     "u13 c3 R0 i5": {
-     "ans": "2021",
-     "opts": 0,
-     "stem": "83c10f8d98c1",
-     "why": "bff330397269",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "3130710d3776",
+     "why": "a7746a89ff9e",
+     "wrongs": 2
     },
     "u13 c3 R0 i6": {
-     "ans": "service",
-     "opts": 0,
-     "stem": "34ade73c3773",
-     "why": "16aa89a1d83c",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "3b6da1235c5a",
+     "why": "4e758b01ab1e",
+     "wrongs": 2
     },
     "u13 c4 L0 i1": {
      "ans": "caught",
@@ -13524,18 +13606,18 @@
      "wrongs": 0
     },
     "u14 c3 R0 i5": {
-     "ans": "2017",
-     "opts": 0,
-     "stem": "7cd4fb32546d",
-     "why": "b6a59d5b4120",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "b6497955c907",
+     "why": "20bae17801b1",
+     "wrongs": 2
     },
     "u14 c3 R0 i6": {
-     "ans": "2005",
-     "opts": 0,
-     "stem": "39cc45189f42",
-     "why": "d8eb87bc462f",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "75d082f084be",
+     "why": "1096fe18285c",
+     "wrongs": 2
     },
     "u14 c4 L0 i1": {
      "ans": "sixty",
@@ -14028,18 +14110,18 @@
      "wrongs": 0
     },
     "u15 c3 R0 i5": {
-     "ans": "fifteenfold",
-     "opts": 0,
-     "stem": "77ec94c22b4b",
-     "why": "311616b0a3a8",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "787765e298fd",
+     "why": "49efee32ac8b",
+     "wrongs": 2
     },
     "u15 c3 R0 i6": {
-     "ans": "1649",
-     "opts": 0,
-     "stem": "645c37446529",
-     "why": "b22cab21f009",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "e28cb36352ef",
+     "why": "a2a8ee27d3cb",
+     "wrongs": 2
     },
     "u15 c4 L0 i1": {
      "ans": "office",
@@ -16787,11 +16869,11 @@
     }
    },
    "measure": {
-    "beyond": 14.66,
-    "k1": 69.47,
+    "beyond": 14.72,
+    "k1": 69.38,
     "longest": 46,
-    "nominal": 3.38,
-    "sent": 20.64
+    "nominal": 3.37,
+    "sent": 20.69
    },
    "prose": {
     "lpaper2 Part 1 blurb": {
@@ -17465,6 +17547,14 @@
     "u12 c5 R0 heading": {
      "sha": "4345c431699d",
      "w": 8
+    },
+    "u12 c5 R1 bank": {
+     "sha": "725817fe3dd6",
+     "w": 61
+    },
+    "u12 c5 R1 heading": {
+     "sha": "0e4e1ddcba1b",
+     "w": 9
     },
     "u12 c5 S intro": {
      "sha": "cd23a87fc6fc",
@@ -20220,6 +20310,10 @@
      "sha": "0452f75792c0",
      "w": 455
     },
+    "u12 c5 R1": {
+     "sha": "ee7171cdc636",
+     "w": 385
+    },
     "u13 c1 L0": {
      "sha": "23bf881562aa",
      "w": 200
@@ -20607,7 +20701,7 @@
    }
   },
   "3": {
-   "figures": 38,
+   "figures": 39,
    "heads": [
     "access",
     "accrue",
@@ -21010,7 +21104,7 @@
     "yield",
     "zone"
    ],
-   "images": 449,
+   "images": 453,
    "items": {
     "lpaper3 Part 1 i1": {
      "ans": "Achebe-Fontaine",
@@ -22434,18 +22528,18 @@
      "wrongs": 0
     },
     "u21 c3 R0 i5": {
-     "ans": "selection",
-     "opts": 0,
-     "stem": "6339706a36a1",
-     "why": "3aa82587ba4b",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "f9a862c1e40d",
+     "why": "cab5c720ae8c",
+     "wrongs": 2
     },
     "u21 c3 R0 i6": {
-     "ans": "law",
-     "opts": 0,
-     "stem": "01a8051c3a64",
-     "why": "26bb12525384",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "b30b39d046c0",
+     "why": "0a120416a5f2",
+     "wrongs": 2
     },
     "u21 c4 L0 i1": {
      "ans": "1",
@@ -22931,18 +23025,18 @@
      "wrongs": 0
     },
     "u22 c3 R0 i5": {
-     "ans": "80",
-     "opts": 0,
-     "stem": "36625fc6c32b",
-     "why": "6bc4e1fcf51d",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "4b7931b0a751",
+     "why": "210e34165270",
+     "wrongs": 2
     },
     "u22 c3 R0 i6": {
-     "ans": "bundles",
-     "opts": 0,
-     "stem": "c7d11a4c2ac1",
-     "why": "7432dd19bbc2",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "4d88b71f0c45",
+     "why": "f57de8ee784f",
+     "wrongs": 2
     },
     "u22 c4 L0 i1": {
      "ans": "1",
@@ -23077,6 +23171,41 @@
      "why": "d990cea984bb",
      "wrongs": 0
     },
+    "u22 c5 L1 i1": {
+     "ans": "E",
+     "opts": 0,
+     "stem": "d928bfee825c",
+     "why": "1446af53e383",
+     "wrongs": 0
+    },
+    "u22 c5 L1 i2": {
+     "ans": "A",
+     "opts": 0,
+     "stem": "c3f71e678566",
+     "why": "cce3ff8aa5af",
+     "wrongs": 0
+    },
+    "u22 c5 L1 i3": {
+     "ans": "D",
+     "opts": 0,
+     "stem": "13b8fe38a93b",
+     "why": "b8d8450eee48",
+     "wrongs": 0
+    },
+    "u22 c5 L1 i4": {
+     "ans": "F",
+     "opts": 0,
+     "stem": "4946664b6394",
+     "why": "e8c6084945f3",
+     "wrongs": 0
+    },
+    "u22 c5 L1 i5": {
+     "ans": "C",
+     "opts": 0,
+     "stem": "ecdec360aab9",
+     "why": "1852145ecb40",
+     "wrongs": 0
+    },
     "u22 c5 R0 i1": {
      "ans": "1",
      "opts": 4,
@@ -23124,6 +23253,41 @@
      "opts": 0,
      "stem": "b7426926201e",
      "why": "f3e35e95efbb",
+     "wrongs": 0
+    },
+    "u22 c5 R1 i1": {
+     "ans": "F",
+     "opts": 0,
+     "stem": "bcc7da2bf8b6",
+     "why": "c9a1f429e2d9",
+     "wrongs": 0
+    },
+    "u22 c5 R1 i2": {
+     "ans": "B",
+     "opts": 0,
+     "stem": "3d609a88d1db",
+     "why": "cd2db187adb4",
+     "wrongs": 0
+    },
+    "u22 c5 R1 i3": {
+     "ans": "A",
+     "opts": 0,
+     "stem": "51424c874aaf",
+     "why": "093cb471f68d",
+     "wrongs": 0
+    },
+    "u22 c5 R1 i4": {
+     "ans": "E",
+     "opts": 0,
+     "stem": "a3e86cc750f8",
+     "why": "f4459436340c",
+     "wrongs": 0
+    },
+    "u22 c5 R1 i5": {
+     "ans": "C",
+     "opts": 0,
+     "stem": "a6e47b6d32a6",
+     "why": "f8102f3f6ddf",
      "wrongs": 0
     },
     "u23 c1 L0 i1": {
@@ -23400,18 +23564,18 @@
      "wrongs": 0
     },
     "u23 c3 R0 i5": {
-     "ans": "four",
-     "opts": 0,
-     "stem": "9d83fdcd222a",
-     "why": "f5953cf53fd9",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "96525dece6c4",
+     "why": "7f55addde556",
+     "wrongs": 2
     },
     "u23 c3 R0 i6": {
-     "ans": "honest",
-     "opts": 0,
-     "stem": "47e2a1f7b7eb",
-     "why": "1caa11456b95",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "994ddabb48f4",
+     "why": "8feafb4dc62f",
+     "wrongs": 2
     },
     "u23 c4 L0 i1": {
      "ans": "1",
@@ -23869,18 +24033,18 @@
      "wrongs": 0
     },
     "u24 c3 R0 i5": {
-     "ans": "tail",
-     "opts": 0,
-     "stem": "2c342f9daae1",
-     "why": "46ce660bc9f5",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "30153439b678",
+     "why": "64246504cd37",
+     "wrongs": 2
     },
     "u24 c3 R0 i6": {
-     "ans": "1964",
-     "opts": 0,
-     "stem": "304aa612c56d",
-     "why": "df020fb68b2c",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "10da7cb5cee1",
+     "why": "a627fa5c997f",
+     "wrongs": 2
     },
     "u24 c4 L0 i1": {
      "ans": "1",
@@ -24338,18 +24502,18 @@
      "wrongs": 0
     },
     "u25 c3 R0 i5": {
-     "ans": "traits",
-     "opts": 0,
-     "stem": "5abd4fb48d83",
-     "why": "1d46d69cf822",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "798f20fd76db",
+     "why": "fdacde41c891",
+     "wrongs": 2
     },
     "u25 c3 R0 i6": {
-     "ans": "effect",
-     "opts": 0,
-     "stem": "6a7bfcdcb2e4",
-     "why": "c11b1fa4d028",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "461639d128c5",
+     "why": "f559e48b6fbd",
+     "wrongs": 2
     },
     "u25 c4 L0 i1": {
      "ans": "1",
@@ -26880,11 +27044,11 @@
     }
    },
    "measure": {
-    "beyond": 17.04,
-    "k1": 66.98,
+    "beyond": 17.08,
+    "k1": 67.01,
     "longest": 50,
-    "nominal": 3.84,
-    "sent": 21.53
+    "nominal": 3.88,
+    "sent": 21.6
    },
    "prose": {
     "lpaper3 Part 1 blurb": {
@@ -27571,9 +27735,25 @@
      "sha": "d60cabae3dba",
      "w": 5
     },
+    "u22 c5 L1 bank": {
+     "sha": "2faa4e165157",
+     "w": 7
+    },
+    "u22 c5 L1 heading": {
+     "sha": "a864183c24c5",
+     "w": 7
+    },
     "u22 c5 R0 heading": {
      "sha": "ca2c0a1cab12",
      "w": 6
+    },
+    "u22 c5 R1 bank": {
+     "sha": "50f8cdb3fefc",
+     "w": 73
+    },
+    "u22 c5 R1 heading": {
+     "sha": "877d37ef61e5",
+     "w": 7
     },
     "u22 c5 S intro": {
      "sha": "66e19cc4e989",
@@ -30365,9 +30545,17 @@
      "sha": "7d0782bb1b3b",
      "w": 350
     },
+    "u22 c5 L1": {
+     "sha": "924d38049010",
+     "w": 282
+    },
     "u22 c5 R0": {
      "sha": "a6b1f07a1ad9",
      "w": 732
+    },
+    "u22 c5 R1": {
+     "sha": "a1f73ec25b22",
+     "w": 467
     },
     "u23 c1 L0": {
      "sha": "1778954d6ce5",
@@ -30756,7 +30944,7 @@
    }
   },
   "4": {
-   "figures": 30,
+   "figures": 31,
    "heads": [
     "absolute risk",
     "acclimatisation",
@@ -31159,7 +31347,7 @@
     "wind drought",
     "withdraw"
    ],
-   "images": 468,
+   "images": 472,
    "items": {
     "lpaper4 Part 1 i1": {
      "ans": "Delacroix",
@@ -32562,18 +32750,18 @@
      "wrongs": 0
     },
     "u31 c3 R0 i6": {
-     "ans": "stability",
-     "opts": 0,
-     "stem": "820d5879c644",
-     "why": "98e6f7a07a8c",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "b27305ff91f0",
+     "why": "1f698b34aafe",
+     "wrongs": 2
     },
     "u31 c3 R0 i7": {
-     "ans": "basis",
-     "opts": 0,
-     "stem": "411f3fafe83e",
-     "why": "d8b83ba5b4e1",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "b93b6b0b3e5b",
+     "why": "e73f5660426d",
+     "wrongs": 2
     },
     "u31 c4 L0 i1": {
      "ans": "1",
@@ -33038,18 +33226,18 @@
      "wrongs": 0
     },
     "u32 c3 R0 i6": {
-     "ans": "aluminium",
-     "opts": 0,
-     "stem": "4a9681f7d5ce",
-     "why": "bd816e2185d6",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "9b6a00fc77a2",
+     "why": "98f3846912ed",
+     "wrongs": 2
     },
     "u32 c3 R0 i7": {
-     "ans": "reprocessor",
-     "opts": 0,
-     "stem": "fa739de110b4",
-     "why": "2d86ff8eeca8",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "29ec2d05eda3",
+     "why": "664fe0acab45",
+     "wrongs": 2
     },
     "u32 c4 L0 i1": {
      "ans": "1",
@@ -33184,6 +33372,41 @@
      "why": "fdc8169a6b8a",
      "wrongs": 0
     },
+    "u32 c5 L1 i1": {
+     "ans": "E",
+     "opts": 0,
+     "stem": "ada9876fadde",
+     "why": "aaa18bbd92f3",
+     "wrongs": 0
+    },
+    "u32 c5 L1 i2": {
+     "ans": "A",
+     "opts": 0,
+     "stem": "b3b5a34500ef",
+     "why": "291500d73039",
+     "wrongs": 0
+    },
+    "u32 c5 L1 i3": {
+     "ans": "D",
+     "opts": 0,
+     "stem": "7ea051230ee1",
+     "why": "ada7a40961b3",
+     "wrongs": 0
+    },
+    "u32 c5 L1 i4": {
+     "ans": "F",
+     "opts": 0,
+     "stem": "d0b48822797e",
+     "why": "2567d661d2e5",
+     "wrongs": 0
+    },
+    "u32 c5 L1 i5": {
+     "ans": "C",
+     "opts": 0,
+     "stem": "8b8e69d68e3c",
+     "why": "4598b9c75e09",
+     "wrongs": 0
+    },
     "u32 c5 R0 i1": {
      "ans": "1",
      "opts": 4,
@@ -33231,6 +33454,41 @@
      "opts": 0,
      "stem": "59bcda4aa10f",
      "why": "7db0f80ded29",
+     "wrongs": 0
+    },
+    "u32 c5 R1 i1": {
+     "ans": "C",
+     "opts": 0,
+     "stem": "a6202c8170ad",
+     "why": "23118efed0b9",
+     "wrongs": 0
+    },
+    "u32 c5 R1 i2": {
+     "ans": "E",
+     "opts": 0,
+     "stem": "620abc5eafdc",
+     "why": "6e7d7d76de7d",
+     "wrongs": 0
+    },
+    "u32 c5 R1 i3": {
+     "ans": "A",
+     "opts": 0,
+     "stem": "e4d9ef5f9874",
+     "why": "81a6fc21730e",
+     "wrongs": 0
+    },
+    "u32 c5 R1 i4": {
+     "ans": "F",
+     "opts": 0,
+     "stem": "c19cda53f90d",
+     "why": "18bcf24e13fc",
+     "wrongs": 0
+    },
+    "u32 c5 R1 i5": {
+     "ans": "G",
+     "opts": 0,
+     "stem": "afd371be82f7",
+     "why": "1f5aa7b5a66b",
      "wrongs": 0
     },
     "u33 c1 L0 i1": {
@@ -33514,18 +33772,18 @@
      "wrongs": 0
     },
     "u33 c3 R0 i6": {
-     "ans": "twice",
-     "opts": 0,
-     "stem": "7c36750f1464",
-     "why": "5f8c5b4d6966",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "135d2ba26ab5",
+     "why": "218da4ab4868",
+     "wrongs": 2
     },
     "u33 c3 R0 i7": {
-     "ans": "moved",
-     "opts": 0,
-     "stem": "48cf9e08c977",
-     "why": "385c7956df63",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "fad9eec5364b",
+     "why": "103c326e2386",
+     "wrongs": 2
     },
     "u33 c4 L0 i1": {
      "ans": "2",
@@ -33990,18 +34248,18 @@
      "wrongs": 0
     },
     "u34 c3 R0 i6": {
-     "ans": "attention",
-     "opts": 0,
-     "stem": "ab38e3e7cb18",
-     "why": "e78f016ecc6d",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "657cd8c2cc6f",
+     "why": "8458843e2c78",
+     "wrongs": 2
     },
     "u34 c3 R0 i7": {
-     "ans": "sectors",
-     "opts": 0,
-     "stem": "e2c4fe89abfd",
-     "why": "56144a74f9f4",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "ceb935a0d803",
+     "why": "136bbefe5be5",
+     "wrongs": 2
     },
     "u34 c4 L0 i1": {
      "ans": "1",
@@ -37078,11 +37336,11 @@
     }
    },
    "measure": {
-    "beyond": 19.35,
-    "k1": 64.87,
+    "beyond": 19.34,
+    "k1": 64.92,
     "longest": 54,
-    "nominal": 4.37,
-    "sent": 22.66
+    "nominal": 4.33,
+    "sent": 22.71
    },
    "prose": {
     "lpaper4 Part 1 blurb": {
@@ -37761,9 +38019,25 @@
      "sha": "b5a7db92c817",
      "w": 7
     },
+    "u32 c5 L1 bank": {
+     "sha": "2faa4e165157",
+     "w": 7
+    },
+    "u32 c5 L1 heading": {
+     "sha": "9081c888e1e3",
+     "w": 6
+    },
     "u32 c5 R0 heading": {
      "sha": "a7d5b9d8e2e2",
      "w": 8
+    },
+    "u32 c5 R1 bank": {
+     "sha": "e23d0ab865ac",
+     "w": 75
+    },
+    "u32 c5 R1 heading": {
+     "sha": "027ac5f2c830",
+     "w": 3
     },
     "u32 c5 S intro": {
      "sha": "f2643969d0ae",
@@ -40567,9 +40841,17 @@
      "sha": "2f2e87055f90",
      "w": 393
     },
+    "u32 c5 L1": {
+     "sha": "7fbf54e6ec46",
+     "w": 303
+    },
     "u32 c5 R0": {
      "sha": "b2da82c12497",
      "w": 732
+    },
+    "u32 c5 R1": {
+     "sha": "2ae7447efd62",
+     "w": 545
     },
     "u33 c1 L0": {
      "sha": "8484086a64cc",
@@ -40970,7 +41252,7 @@
    }
   },
   "5": {
-   "figures": 35,
+   "figures": 36,
    "heads": [
     "absolute gain",
     "abstraction",
@@ -41373,7 +41655,7 @@
     "yardstick",
     "zero-sum"
    ],
-   "images": 434,
+   "images": 438,
    "items": {
     "lpaper5 Part 1 i1": {
      "ans": "Rushbrook",
@@ -42790,18 +43072,18 @@
      "wrongs": 0
     },
     "u41 c3 R0 i5": {
-     "ans": "2020",
-     "opts": 0,
-     "stem": "74eadb6dadba",
-     "why": "d4a921142af7",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "8774696e71e2",
+     "why": "ead549f7611f",
+     "wrongs": 2
     },
     "u41 c3 R0 i6": {
-     "ans": "width",
-     "opts": 0,
-     "stem": "b0f5381d7ba7",
-     "why": "98dc015cc2bf",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "2185a24a5500",
+     "why": "f858e82f3e89",
+     "wrongs": 2
     },
     "u41 c4 L0 i1": {
      "ans": "1",
@@ -43294,18 +43576,18 @@
      "wrongs": 0
     },
     "u42 c3 R0 i5": {
-     "ans": "eleven",
-     "opts": 0,
-     "stem": "53ff2a9aae94",
-     "why": "868bffbdcb15",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "c09ba5d764a7",
+     "why": "7917e287ed95",
+     "wrongs": 2
     },
     "u42 c3 R0 i6": {
-     "ans": "undefined",
-     "opts": 0,
-     "stem": "92a804004c48",
-     "why": "0e21adc82eac",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "65b53f41b133",
+     "why": "32ca08582500",
+     "wrongs": 2
     },
     "u42 c4 L0 i1": {
      "ans": "1",
@@ -43447,6 +43729,41 @@
      "why": "b810cf09d650",
      "wrongs": 0
     },
+    "u42 c5 L1 i1": {
+     "ans": "E",
+     "opts": 0,
+     "stem": "2a5d763de21f",
+     "why": "e35ead54e4d6",
+     "wrongs": 0
+    },
+    "u42 c5 L1 i2": {
+     "ans": "A",
+     "opts": 0,
+     "stem": "dbd2e3578f94",
+     "why": "8cbe0e0b7917",
+     "wrongs": 0
+    },
+    "u42 c5 L1 i3": {
+     "ans": "D",
+     "opts": 0,
+     "stem": "523b92c4bd55",
+     "why": "015fbeeba4d0",
+     "wrongs": 0
+    },
+    "u42 c5 L1 i4": {
+     "ans": "F",
+     "opts": 0,
+     "stem": "1d9193e0caf4",
+     "why": "10662ed75c38",
+     "wrongs": 0
+    },
+    "u42 c5 L1 i5": {
+     "ans": "C",
+     "opts": 0,
+     "stem": "d3ce4618efaa",
+     "why": "65f93259afed",
+     "wrongs": 0
+    },
     "u42 c5 R0 i1": {
      "ans": "1",
      "opts": 4,
@@ -43501,6 +43818,41 @@
      "opts": 0,
      "stem": "5b7fa6c63ef2",
      "why": "cbad9776636f",
+     "wrongs": 0
+    },
+    "u42 c5 R1 i1": {
+     "ans": "E",
+     "opts": 0,
+     "stem": "b840d63bab10",
+     "why": "1c6ed4c7cada",
+     "wrongs": 0
+    },
+    "u42 c5 R1 i2": {
+     "ans": "A",
+     "opts": 0,
+     "stem": "204c6a2a364b",
+     "why": "b1b67f2e1061",
+     "wrongs": 0
+    },
+    "u42 c5 R1 i3": {
+     "ans": "G",
+     "opts": 0,
+     "stem": "eb00c5856ea8",
+     "why": "589b004a00a3",
+     "wrongs": 0
+    },
+    "u42 c5 R1 i4": {
+     "ans": "C",
+     "opts": 0,
+     "stem": "f21ca2aa4d7c",
+     "why": "e35cfa0e62f3",
+     "wrongs": 0
+    },
+    "u42 c5 R1 i5": {
+     "ans": "F",
+     "opts": 0,
+     "stem": "cb17146c6156",
+     "why": "94d09b571ade",
      "wrongs": 0
     },
     "u43 c1 L0 i1": {
@@ -43798,18 +44150,18 @@
      "wrongs": 0
     },
     "u43 c3 R0 i5": {
-     "ans": "thirty-eight",
-     "opts": 0,
-     "stem": "e07866c19908",
-     "why": "3b6ee5be5269",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "96f699acdbbe",
+     "why": "1d01e9c5e43b",
+     "wrongs": 2
     },
     "u43 c3 R0 i6": {
-     "ans": "median",
-     "opts": 0,
-     "stem": "da1c445a0256",
-     "why": "236b5342d18a",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "4501c14d0882",
+     "why": "01bd269387cc",
+     "wrongs": 2
     },
     "u43 c4 L0 i1": {
      "ans": "1",
@@ -44302,18 +44654,18 @@
      "wrongs": 0
     },
     "u44 c3 R0 i5": {
-     "ans": "fifty-eight",
-     "opts": 0,
-     "stem": "96978b66848e",
-     "why": "deec59206051",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "d7041924137b",
+     "why": "50a1829daa66",
+     "wrongs": 2
     },
     "u44 c3 R0 i6": {
-     "ans": "age",
-     "opts": 0,
-     "stem": "d1bc4b27ca1e",
-     "why": "f0f4b513d165",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "89347930c6b7",
+     "why": "a9e8b377bdc5",
+     "wrongs": 2
     },
     "u44 c4 L0 i1": {
      "ans": "2",
@@ -47509,11 +47861,11 @@
     }
    },
    "measure": {
-    "beyond": 20.83,
-    "k1": 64.68,
+    "beyond": 20.71,
+    "k1": 64.84,
     "longest": 56,
-    "nominal": 4.69,
-    "sent": 23.24
+    "nominal": 4.67,
+    "sent": 23.26
    },
    "prose": {
     "lpaper5 Part 1 blurb": {
@@ -48192,9 +48544,25 @@
      "sha": "eeb7915033d6",
      "w": 6
     },
+    "u42 c5 L1 bank": {
+     "sha": "2faa4e165157",
+     "w": 7
+    },
+    "u42 c5 L1 heading": {
+     "sha": "d5b8068610bd",
+     "w": 6
+    },
     "u42 c5 R0 heading": {
      "sha": "f3f0d8f5bc0f",
      "w": 11
+    },
+    "u42 c5 R1 bank": {
+     "sha": "be36388cecd5",
+     "w": 68
+    },
+    "u42 c5 R1 heading": {
+     "sha": "83fa879f1018",
+     "w": 3
     },
     "u42 c5 S intro": {
      "sha": "66feb3853183",
@@ -48205,8 +48573,8 @@
      "w": 36
     },
     "u42 c5 S sounds": {
-     "sha": "4b4a651764da",
-     "w": 140
+     "sha": "8fbb68a6bc95",
+     "w": 208
     },
     "u42 c5 W0 gap65": {
      "sha": "1866a62e274f",
@@ -50974,9 +51342,17 @@
      "sha": "055348428f59",
      "w": 431
     },
+    "u42 c5 L1": {
+     "sha": "70f88d93a009",
+     "w": 322
+    },
     "u42 c5 R0": {
      "sha": "27f73316aeab",
      "w": 899
+    },
+    "u42 c5 R1": {
+     "sha": "0155bcd695e8",
+     "w": 627
     },
     "u43 c1 L0": {
      "sha": "79772458e9a4",
@@ -51361,7 +51737,7 @@
    }
   },
   "6": {
-   "figures": 35,
+   "figures": 36,
    "heads": [
     "a priori",
     "about substance",
@@ -51764,7 +52140,7 @@
     "without a reason",
     "written reason"
    ],
-   "images": 449,
+   "images": 453,
    "items": {
     "lpaper6 Part 1 i1": {
      "ans": "technical",
@@ -52621,18 +52997,18 @@
      "wrongs": 0
     },
     "u51 c3 R0 i5": {
-     "ans": "26",
-     "opts": 0,
-     "stem": "dcac9b2f3608",
-     "why": "b0d247ce9d6b",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "008d58591d3e",
+     "why": "9a30b9e71c89",
+     "wrongs": 2
     },
     "u51 c3 R0 i6": {
-     "ans": "third",
-     "opts": 0,
-     "stem": "96b9a3243a61",
-     "why": "d1892fcf3453",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "dda0b4e488a4",
+     "why": "d4f4daf08c94",
+     "wrongs": 2
     },
     "u51 c4 L0 i1": {
      "ans": "1",
@@ -53125,18 +53501,18 @@
      "wrongs": 0
     },
     "u52 c3 R0 i5": {
-     "ans": "judgement",
-     "opts": 0,
-     "stem": "b156f78356ce",
-     "why": "54ff1c1b8954",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "7b60fccdc1ee",
+     "why": "a64366213c09",
+     "wrongs": 2
     },
     "u52 c3 R0 i6": {
      "ans": "1",
-     "opts": 4,
-     "stem": "f9cdc68ecf87",
-     "why": "97729898f561",
-     "wrongs": 0
+     "opts": 3,
+     "stem": "b5e88685bc9f",
+     "why": "b4ff3bd6405f",
+     "wrongs": 2
     },
     "u52 c4 L0 i1": {
      "ans": "1",
@@ -53278,6 +53654,41 @@
      "why": "5a8ddf2b2ea8",
      "wrongs": 0
     },
+    "u52 c5 L1 i1": {
+     "ans": "E",
+     "opts": 0,
+     "stem": "6c3a72eaf623",
+     "why": "c172323f11fb",
+     "wrongs": 0
+    },
+    "u52 c5 L1 i2": {
+     "ans": "A",
+     "opts": 0,
+     "stem": "655b6341e4bf",
+     "why": "af1a71043638",
+     "wrongs": 0
+    },
+    "u52 c5 L1 i3": {
+     "ans": "D",
+     "opts": 0,
+     "stem": "0d8a7046c8d3",
+     "why": "5cbcf5cff861",
+     "wrongs": 0
+    },
+    "u52 c5 L1 i4": {
+     "ans": "F",
+     "opts": 0,
+     "stem": "b2ca1cb4572f",
+     "why": "c06f8c586b78",
+     "wrongs": 0
+    },
+    "u52 c5 L1 i5": {
+     "ans": "C",
+     "opts": 0,
+     "stem": "13b8fe38a93b",
+     "why": "af5db51665a4",
+     "wrongs": 0
+    },
     "u52 c5 R0 i1": {
      "ans": "1",
      "opts": 4,
@@ -53332,6 +53743,41 @@
      "opts": 0,
      "stem": "f1bc257a6183",
      "why": "870bda1a1c84",
+     "wrongs": 0
+    },
+    "u52 c5 R1 i1": {
+     "ans": "B",
+     "opts": 0,
+     "stem": "4b7c8b832d70",
+     "why": "5723e53d6b7f",
+     "wrongs": 0
+    },
+    "u52 c5 R1 i2": {
+     "ans": "A",
+     "opts": 0,
+     "stem": "e8036b90c769",
+     "why": "aeb077a5d0d5",
+     "wrongs": 0
+    },
+    "u52 c5 R1 i3": {
+     "ans": "F",
+     "opts": 0,
+     "stem": "ec06aa18a4f9",
+     "why": "08fcb1cb4a94",
+     "wrongs": 0
+    },
+    "u52 c5 R1 i4": {
+     "ans": "E",
+     "opts": 0,
+     "stem": "d726d0552ca9",
+     "why": "6c7d0a04abd2",
+     "wrongs": 0
+    },
+    "u52 c5 R1 i5": {
+     "ans": "C",
+     "opts": 0,
+     "stem": "4659dce17b48",
+     "why": "5e20561b92ad",
      "wrongs": 0
     },
     "u53 c1 L0 i1": {
@@ -53629,18 +54075,18 @@
      "wrongs": 0
     },
     "u53 c3 R0 i5": {
-     "ans": "sixty",
-     "opts": 0,
-     "stem": "a4e0c0f498b2",
-     "why": "bca126f62e6c",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "985ce539c63a",
+     "why": "37d7bc7a6193",
+     "wrongs": 2
     },
     "u53 c3 R0 i6": {
-     "ans": "correlate",
-     "opts": 0,
-     "stem": "28306b714a26",
-     "why": "bcb158f794d4",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "a1839d818bd3",
+     "why": "a80f22d40e5b",
+     "wrongs": 2
     },
     "u53 c4 L0 i1": {
      "ans": "1",
@@ -54133,18 +54579,18 @@
      "wrongs": 0
     },
     "u54 c3 R0 i5": {
-     "ans": "2",
-     "opts": 0,
-     "stem": "b90b1fc4c5b3",
-     "why": "8e695e64744f",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "de002992020f",
+     "why": "527e34641a7a",
+     "wrongs": 2
     },
     "u54 c3 R0 i6": {
-     "ans": "cathedral",
-     "opts": 0,
-     "stem": "20c521577432",
-     "why": "6287c8413d54",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "cbaa1c46d2b7",
+     "why": "3230cb139c49",
+     "wrongs": 2
     },
     "u54 c4 L0 i1": {
      "ans": "1",
@@ -57368,11 +57814,11 @@
     }
    },
    "measure": {
-    "beyond": 23.4,
-    "k1": 62.81,
+    "beyond": 23.23,
+    "k1": 63.0,
     "longest": 55,
-    "nominal": 5.57,
-    "sent": 23.99
+    "nominal": 5.46,
+    "sent": 24.0
    },
    "prose": {
     "lpaper6 Part 1 blurb": {
@@ -58055,9 +58501,25 @@
      "sha": "0d00d2e1265b",
      "w": 5
     },
+    "u52 c5 L1 bank": {
+     "sha": "2faa4e165157",
+     "w": 7
+    },
+    "u52 c5 L1 heading": {
+     "sha": "1ed3c6c9302c",
+     "w": 6
+    },
     "u52 c5 R0 heading": {
      "sha": "c7eb5c8d0da2",
      "w": 7
+    },
+    "u52 c5 R1 bank": {
+     "sha": "e534972fdc19",
+     "w": 73
+    },
+    "u52 c5 R1 heading": {
+     "sha": "a12fdcb63e73",
+     "w": 3
     },
     "u52 c5 S intro": {
      "sha": "b9e0605f8b9b",
@@ -58068,8 +58530,8 @@
      "w": 31
     },
     "u52 c5 S sounds": {
-     "sha": "e07eb4decd0a",
-     "w": 122
+     "sha": "08d13f7a6d1d",
+     "w": 270
     },
     "u52 c5 W0 gap65": {
      "sha": "ae5d5304e801",
@@ -60885,9 +61347,17 @@
      "sha": "bcad538b4d65",
      "w": 436
     },
+    "u52 c5 L1": {
+     "sha": "850acd2a90e3",
+     "w": 309
+    },
     "u52 c5 R0": {
      "sha": "de0898169b00",
      "w": 913
+    },
+    "u52 c5 R1": {
+     "sha": "e7f395815cfc",
+     "w": 705
     },
     "u53 c1 L0": {
      "sha": "8eeb8ddba5ed",
@@ -62179,18 +62649,18 @@
      "wrongs": 0
     },
     "u1 c1 R0 i4": {
-     "ans": "ninety",
-     "opts": 0,
-     "stem": "6fa418b485df",
-     "why": "6599e180d756",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "b2b0a4c7ebd4",
+     "why": "f7f259763c9a",
+     "wrongs": 2
     },
     "u1 c1 R0 i5": {
-     "ans": "five",
-     "opts": 0,
-     "stem": "6d6b34ddac3c",
-     "why": "d57a116030ab",
-     "wrongs": 0
+     "ans": "2",
+     "opts": 3,
+     "stem": "e319190a720c",
+     "why": "da888e07273b",
+     "wrongs": 2
     },
     "u1 c2 L0 i1": {
      "ans": "two",
@@ -62907,18 +63377,18 @@
      "wrongs": 2
     },
     "u2 c1 R0 i4": {
-     "ans": "2",
+     "ans": "0",
      "opts": 3,
-     "stem": "c03e7d443040",
-     "why": "cf6904446ab3",
+     "stem": "d3400ce8a8e4",
+     "why": "5d09a59c67f4",
      "wrongs": 2
     },
     "u2 c1 R0 i5": {
-     "ans": "six months",
-     "opts": 0,
-     "stem": "9ec176b80353",
-     "why": "affa67b1a228",
-     "wrongs": 0
+     "ans": "2",
+     "opts": 3,
+     "stem": "3c745c7cb576",
+     "why": "0ddb5e1f272b",
+     "wrongs": 2
     },
     "u2 c2 L0 i1": {
      "ans": "shelf",
@@ -63271,18 +63741,18 @@
      "wrongs": 0
     },
     "u3 c1 R0 i4": {
-     "ans": "Adaeze",
-     "opts": 0,
-     "stem": "75fff7806089",
-     "why": "b870a22893e2",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "ae6fb5925bd8",
+     "why": "ff5716aaa73f",
+     "wrongs": 2
     },
     "u3 c1 R0 i5": {
-     "ans": "three",
-     "opts": 0,
-     "stem": "a2958550d6f8",
-     "why": "90224b037f5a",
-     "wrongs": 0
+     "ans": "2",
+     "opts": 3,
+     "stem": "40c5f3232074",
+     "why": "0be6e09b6ffb",
+     "wrongs": 2
     },
     "u3 c2 L0 i1": {
      "ans": "12",
@@ -69726,7 +70196,7 @@
     "wireless",
     "worldwide"
    ],
-   "images": 440,
+   "images": 443,
    "items": {
     "lpaper8 Part 1 i1": {
      "ans": "thirty-two",
@@ -70121,18 +70591,18 @@
      "wrongs": 0
     },
     "u1 c1 R0 i4": {
-     "ans": "Thursday evenings",
-     "opts": 0,
-     "stem": "d579a4c34636",
-     "why": "551bad47725c",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "e8ed25fc3230",
+     "why": "c6a19ab62f12",
+     "wrongs": 2
     },
     "u1 c1 R0 i5": {
-     "ans": "three",
-     "opts": 0,
-     "stem": "b1744fcb4f74",
-     "why": "fd8899e36a7d",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "43715a0aa0c3",
+     "why": "c5f89a6ef528",
+     "wrongs": 2
     },
     "u1 c1 R1 i1": {
      "ans": "0",
@@ -71003,18 +71473,18 @@
      "wrongs": 0
     },
     "u2 c1 R0 i3": {
-     "ans": "seventeen",
-     "opts": 0,
-     "stem": "758db4847843",
-     "why": "6dc2f995cf58",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "8d39d54573b6",
+     "why": "6cada5f9cf53",
+     "wrongs": 2
     },
     "u2 c1 R0 i4": {
-     "ans": "hour",
-     "opts": 0,
-     "stem": "7550f8f3f374",
-     "why": "ae17321848c6",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "04ec932432e4",
+     "why": "3ce43e46dd5e",
+     "wrongs": 2
     },
     "u2 c1 R0 i5": {
      "ans": "duplicate bookings",
@@ -71465,18 +71935,18 @@
      "wrongs": 0
     },
     "u3 c1 R0 i3": {
-     "ans": "green",
-     "opts": 0,
-     "stem": "cbb1f67291a0",
-     "why": "319d74cc67b3",
-     "wrongs": 0
+     "ans": "1",
+     "opts": 3,
+     "stem": "74c554c336f4",
+     "why": "dfc732399563",
+     "wrongs": 2
     },
     "u3 c1 R0 i4": {
-     "ans": "card",
-     "opts": 0,
-     "stem": "46c82cfee9ee",
-     "why": "3d659177d339",
-     "wrongs": 0
+     "ans": "0",
+     "opts": 3,
+     "stem": "8699bd45ed67",
+     "why": "12c7c27994c1",
+     "wrongs": 2
     },
     "u3 c1 R0 i5": {
      "ans": "thirty",
@@ -75072,6 +75542,22 @@
     "u10 c5 W0 prompt": {
      "sha": "404c200a6ce2",
      "w": 28
+    },
+    "u10 c5 W1 heading": {
+     "sha": "85c15cff55b5",
+     "w": 8
+    },
+    "u10 c5 W1 model": {
+     "sha": "b0a6ca3026de",
+     "w": 254
+    },
+    "u10 c5 W1 notes": {
+     "sha": "24b5a0511af8",
+     "w": 81
+    },
+    "u10 c5 W1 prompt": {
+     "sha": "0a4afe8f9dbb",
+     "w": 55
     },
     "u10 c5 expr": {
      "sha": "4d559f6f5652",

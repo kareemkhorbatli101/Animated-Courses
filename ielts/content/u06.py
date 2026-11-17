@@ -778,7 +778,7 @@ UNIT = dict(
    read=[
     dict(heading='Jobs, prices and the people who leave',
          kind='Academic passage',
-         task='Matching headings, True/False/Not Given and summary '
+         task='Matching headings, True/False, Yes/No and summary '
               'completion',
          band='acad', qtype='Questions 41-48',
          paras=[
@@ -852,7 +852,7 @@ UNIT = dict(
                'directly.'}),
           (
            'The writer believes tourism should be discouraged in small '
-           'towns.', ['True', 'False', 'Not Given'], 2,
+           'towns.', ['Yes', 'No', 'Not Given'], 2,
            'No recommendation of that kind is made.',
            {0: 'Yes would need that recommendation, and none is made.', 1: 'No would need him to argue for tourism, which he does '
                'not.'}),

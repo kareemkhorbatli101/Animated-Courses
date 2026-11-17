@@ -683,7 +683,7 @@ UNIT = dict(
    read=[
     dict(heading='Three measures of the same inequality',
          kind='Data article',
-         task='Matching information and table completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_DEC, figure2=_GINI,
          paras=[
@@ -742,13 +742,22 @@ UNIT = dict(
            'A report quoting one measure alone is making an argument.'),
           ('Aldoria’s top decile share in 2023: ____________ per cent',
            None, '34', 'Paragraph 2, up from 28 per cent in 2003.'),
-          ('The decile ratio rose by ____________ per cent over the '
-           'period.', None, 'thirty-eight',
-           'Paragraph 3, against six per cent for the Gini.'),
-          ('The relative poverty measure improves whenever the '
-           '____________ falls relative to the top.', None, 'median',
-           'Paragraph 5, which is why it can improve as the middle loses '
-           'ground.')])],
+          (
+           'All three measures in the second chart are correctly '
+           'computed.', ['True', 'False', 'Not Given'], 0,
+           'Paragraph 4 says all three are correctly computed from the '
+           'same data.',
+           {1: 'False would need an error, and paragraph 4 rules one '
+               'out.', 2: 'Not Given is wrong because paragraph 4 opens with the '
+               'statement.'}),
+          (
+           'A fall in relative poverty guarantees that poorer '
+           'households are better off.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 6 says it is consistent with every household '
+           'below the median becoming poorer.',
+           {0: 'True is precisely the inference paragraph 6 forbids.', 2: 'Not Given is wrong because paragraph 6 states the '
+               'counter-case.'})])],
    listen=[
     dict(heading='An economist on inequality measures', part='Part 4',
          task='A lecture on measuring distributions', band='l4',

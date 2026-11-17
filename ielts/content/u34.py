@@ -586,7 +586,7 @@ UNIT = dict(
    step=3,
    read=[
     dict(heading='Hours, output and the gap between',
-         kind='Data article', task='Matching information and sentence completion',
+         kind='Data article', task='Matching information and True/False/Not Given',
          band='long', qtype='Questions 30-36',
          figure=dict(kind='bar', title='Annual hours worked and output per hour',
                      sub='six countries, indexed and compared',
@@ -671,13 +671,22 @@ UNIT = dict(
            'people in agriculture and informal services.'),
           ('Fenland works about ____________ hours a year.', None, '1,300',
            'Paragraph 2, with an output index of 112, the highest shown.'),
-          ('The writer says the effect of long shifts is sharpest in work '
-           'requiring sustained ____________.', None, 'attention',
-           'Paragraph 6, which is the concession the argument then limits.'),
-          ('A country can plausibly raise output per hour by investment, '
-           'education and moving activity into higher-value ____________.',
-           None, 'sectors',
-           'Paragraph 7, after which hours fall on their own.')])],
+          (
+           'Across the six countries, output per hour rises at every '
+           'step as hours fall.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 2 says the ordering is almost perfectly '
+           'inverted, with no exceptions.',
+           {1: 'False would need an exception, and paragraph 2 says '
+               'there is none.', 2: 'Not Given is wrong because paragraph 2 describes the '
+               'ordering.'}),
+          ('No economy combines long hours with high output per hour.',
+           ['True', 'False', 'Not Given'], 1,
+           'The penultimate paragraph says such economies exist and '
+           'would weaken the pattern.',
+           {0: 'True contradicts the paragraph on how the six '
+               'countries were chosen.', 2: 'Not Given is wrong because the writer states that such '
+               'economies exist.'})])],
    listen=[
     dict(heading='An economist on hours and productivity', part='Part 4',
          task='A lecture on reading an international comparison', band='l4',

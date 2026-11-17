@@ -694,7 +694,7 @@ UNIT = dict(
    read=[
     dict(heading='The policy, the trend and the year it was introduced',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_ITS,
          paras=[
@@ -757,13 +757,23 @@ UNIT = dict(
           ('Marchwood admissions four years after the zone: ____________',
            None, '314',
            'Paragraph 2, down from 352 in the year the zone opened.'),
-          ('The fall in the comparison region over the same period: '
-           '____________', None, '26',
-           'Paragraph 3, falling from 351 to 325 with no zone in '
-           'place.'),
-          ('The estimated effect of the zone is about a ____________ of '
-           'the headline number.', None, 'third',
-           'Paragraph 4: twelve against thirty-eight.')])],
+          (
+           'The two regions were moving together in the years before '
+           'the zone opened.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 5 gives both pre-policy falls and says the '
+           'places moved together.',
+           {1: 'False would need divergence before the policy, which '
+               'paragraph 5 denies.', 2: 'Not Given is wrong because paragraph 5 gives the '
+               'pre-policy figures.'}),
+          (
+           'The common trend assumption can be tested after the policy '
+           'begins.', ['True', 'False', 'Not Given'], 1,
+           'Paragraph 6 says it cannot be tested once the policy '
+           'exists.',
+           {0: 'True contradicts paragraph 6, which explains why the '
+               'test is impossible.', 2: 'Not Given is wrong because paragraph 6 addresses '
+               'testability directly.'})])],
    listen=[
     dict(heading='A statistician on interrupted time series', part='Part 4',
          task='A lecture on evaluating an intervention', band='l4',

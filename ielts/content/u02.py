@@ -759,7 +759,7 @@ UNIT = dict(
    read=[
     dict(heading='The machines and the jobs they replaced',
          kind='Academic passage',
-         task='Matching headings, True/False/Not Given and summary '
+         task='Matching headings, True/False, Yes/No and summary '
               'completion',
          band='acad', qtype='Questions 41-48',
          paras=[
@@ -826,7 +826,7 @@ UNIT = dict(
           (
            'The writer believes employment has collapsed in previous '
            'waves of automation.',
-           ['True', 'False', 'Not Given'], 1,
+           ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 1 says the predicted collapse failed to arrive.',
            {0: 'Yes would need agreement; paragraph 1 says the '
                'collapse failed to arrive.', 2: 'Not Given is wrong because the writer states a view on '
@@ -841,7 +841,7 @@ UNIT = dict(
                'gives both figures.'}),
           (
            'The writer believes the present wave will reduce total '
-           'employment.', ['True', 'False', 'Not Given'], 2,
+           'employment.', ['Yes', 'No', 'Not Given'], 2,
            'Paragraph 5 says nobody honest claims to know.',
            {0: 'Yes would need a prediction; paragraph 5 declines to '
                'make one.', 1: 'No would need him to rule it out, and he says nobody '
@@ -1019,8 +1019,7 @@ UNIT = dict(
    read=[
     dict(heading='Two centuries of predicting the end of work',
          kind='Academic passage',
-         task='Matching information, True/False/Not Given and short '
-              'answer',
+         task='Matching information, Yes/No/Not Given and short answer',
          band='acad', qtype='Questions 55-62',
          paras=[
           'Every generation since 1800 has produced a confident '
@@ -1087,14 +1086,14 @@ UNIT = dict(
            'technology.'),
           (
            'The writer believes previous predictions were entirely '
-           'wrong.', ['True', 'False', 'Not Given'], 1,
+           'wrong.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 1 says they were right about something else.',
            {0: 'Yes would need the whole claim; he says they were '
                'right about something else.', 2: 'Not Given is wrong because paragraph 1 judges the '
                'predictions.'}),
           (
            'The writer believes the total number of jobs is likely to '
-           'fall.', ['True', 'False', 'Not Given'], 1,
+           'fall.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 5 says it is unlikely to fall.',
            {0: 'Yes would need agreement; paragraph 5 calls a fall '
                'unlikely.', 2: 'Not Given is wrong because the writer gives his '
@@ -1102,7 +1101,7 @@ UNIT = dict(
           (
            'The writer believes governments should slow down the '
            'adoption of machines.',
-           ['True', 'False', 'Not Given'], 2,
+           ['Yes', 'No', 'Not Given'], 2,
            'No view on slowing adoption is expressed anywhere.',
            {0: 'Yes would need a recommendation about policy, and none '
                'is made.', 1: 'No would need him to argue against slowing it, which '
@@ -1113,11 +1112,92 @@ UNIT = dict(
           ('The useful question concerns how a worker is supported '
            'through a ____________.', None, 'transition',
            'The final paragraph, which calls it a question about money '
-           'and training.')])],
+           'and training.')]),
+    dict(heading='The night shift and the people who work it',
+         kind='Magazine article',
+         task='Matching sentence endings',
+         band='long',
+         qtype='Questions 63-67',
+         banklabel='Endings',
+         bank=[
+          'because the body expects darkness to mean sleep.',
+          'although the pay is higher than for the same work by day.',
+          'which no amount of experience removes.',
+          'because somebody has to be there when nobody else is.',
+          'and the effect lasts for about two days afterwards.',
+          'which employers are not required to publish.',
+          'so the hours are chosen rather than imposed.'],
+         skill=('Matching sentence endings',
+                ['Each question is the first half of a sentence. Finish '
+                 'it from the list, and use each ending once only.',
+                 'There are more endings than questions, so you cannot '
+                 'get the last one by elimination.',
+                 'Read your completed sentence back and check it against '
+                 'the passage. Several endings fit the grammar of more '
+                 'than one beginning, and only one fits the meaning.']),
+         paras=[
+          'About one worker in nine in Britain is regularly at work '
+          'between midnight and five in the morning: nurses, drivers, '
+          'bakers, security staff, machine operators and the people '
+          'who clean the buildings everybody else uses by day. The '
+          'work exists because somebody has to be there when nobody '
+          'else is, and that is as true of a motorway as of a hospital '
+          'ward.',
+          'The body does not adjust. Human beings run on an internal '
+          'clock of about twenty-four hours, set mainly by light, '
+          'which controls temperature, digestion and alertness as well '
+          'as sleep. A night worker has to be alert at the hour when '
+          'that clock is lowest, because the body expects darkness to '
+          'mean sleep. After years on nights most people still feel '
+          'it, and the tiredness is a permanent feature of the job '
+          'which no amount of experience removes.',
+          'The measured effects are consistent. Reaction times at four '
+          'in the morning are slower than at any other hour, errors '
+          'rise, and the risk of a road accident on the way home is '
+          'several times the daytime figure. One night shift also '
+          'reduces performance the following day, and the effect lasts '
+          'for about two days afterwards, which is why a fast rota is '
+          'worse than a slow one.',
+          'Pay is a smaller part of the arrangement than people '
+          'assume. A night premium is usually ten to thirty per cent, '
+          'and surveys find that most night workers do the job for '
+          'reasons of childcare, travel or the daytime it leaves free. '
+          'Many say they would not move to a day job at the same '
+          'money, so the hours are chosen rather than imposed.',
+          'What a worker is entitled to is more generous on paper than '
+          'in practice. The law limits night work to eight hours in '
+          'twenty-four on average, requires a free health assessment, '
+          'and allows a move to day work where a doctor advises it. '
+          'Enforcement depends on somebody complaining, and the number '
+          'of assessments carried out is not collected centrally, '
+          'which employers are not required to publish.',
+          'The advice from occupational health is unglamorous and '
+          'works. Keep the same sleep hours on days off. Make the '
+          'bedroom dark. Eat the main meal before the shift. And treat '
+          'the journey home as the most dangerous part of the night, '
+          'which it is.'],
+         items=[
+          ('Night work exists', None, 'D',
+           'Paragraph 1: somebody has to be there when nobody else is.'),
+          ('A night worker feels tired at four in the morning',
+           None, 'A',
+           'Paragraph 2 explains the internal clock and what it expects '
+           'of darkness.'),
+          ('The tiredness of night work is a permanent feature',
+           None, 'C',
+           'Paragraph 2 says experience does not remove it.'),
+          ('One night shift reduces performance the next day',
+           None, 'E',
+           'Paragraph 3 gives the two-day recovery, which is why fast '
+           'rotation is worse.'),
+          ('Most night workers do the work for reasons of their own',
+           None, 'G',
+           'Paragraph 4: childcare, travel and the free daytime make the '
+           'hours a choice.')])],
    listen=[
     dict(heading='Two economists disagree about automation',
          part='Part 4', task='A recorded discussion', band='l4',
-         qtype='Questions 63-68',
+         qtype='Questions 68-73',
          script=[
           ('Chair', 'Dr Oyelaran-Vance expects automation to create more '
            'jobs than it destroys. Professor Ingerson expects the '

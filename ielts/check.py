@@ -147,6 +147,37 @@ FOLLOWUP_PAIRS = {3: 3, 4: 3, 5: 4, 6: 4}
 MIN_FOLLOWUP_A = 28     # words in a Part 3 answer worth printing
 MIN_SOUNDS = 4          # lines on the pronunciation and fluency page
 
+# The task types the series had never used, and the verification type it
+# taught once and then dropped.
+#
+# Matching sentence endings is one of the eleven Reading task types and is
+# the one candidates most often meet for the first time in the exam. A
+# lettered bank with more endings than stems, so that elimination does not
+# solve it.
+#
+# Plan and map labelling exists in these books as a READING support for
+# Task 1, and in the real paper it is a LISTENING task with a lettered
+# plan, which is a different skill: you are tracking a speaker's route in
+# real time. One set per book from Volume 3.
+#
+# True/False/Not Given and Yes/No/Not Given are different tasks. The first
+# asks whether the passage states a fact, the second whether the writer
+# holds a view, and a candidate who has only done one of them loses marks
+# on the other. Volume 1 taught T/F/NG 84 times and Volumes 2 to 6 taught
+# it in their units not once.
+MIN_BANK_SPARE = 2      # endings in the bank beyond the number of stems
+MIN_ENDINGS = 4         # stems in a matching-sentence-endings set
+TFNG_FLOOR = 8          # T/F/NG items in a graded book's units
+YNNG_FLOOR = 8          # Y/N/NG items in a graded book's units
+TFNG_FOUNDATION = 6     # the Foundation books' first T/F/NG items
+# The last thing Foundation 2 asks for is one essay at the real paper's
+# length. Everything before it is shorter on purpose, because asking an A2
+# writer for 250 words teaches padding; the final task exists so that
+# nobody meets the real instruction for the first time in Volume 1.
+CALIBRATION_WORDS = 250
+TFNG = ['True', 'False', 'Not Given']
+YNNG = ['Yes', 'No', 'Not Given']
+
 # Error correction. One per unit, in the grammar slot: a short paragraph
 # written at about band 6 with three faults planted in it, and for each
 # fault the correction and the reason. Recognising your own error in
@@ -205,11 +236,30 @@ def wc(paras):
     return sum(len(p.split()) for p in paras)
 
 
-def _items_ok(items, tag, n_lo, n_hi, out):
+def _items_ok(items, tag, n_lo, n_hi, out, bank=None):
     if not (n_lo <= len(items) <= n_hi):
         out.append('%s: %d items, want %d-%d' % (tag, len(items), n_lo, n_hi))
     pos = set()
     lettered = any(it[1] for it in items)
+    if bank is not None:
+        if len(bank) < len(items) + MIN_BANK_SPARE:
+            out.append('%s: %d items from a bank of %d, want at least %d '
+                       'spare' % (tag, len(items), len(bank),
+                                  MIN_BANK_SPARE))
+        seen = []
+        for i, it in enumerate(items):
+            a = str(it[2]).strip()
+            if not re.fullmatch(r'[A-J]', a):
+                out.append('%s item %d: answer %r is not a bank letter'
+                           % (tag, i + 1, a))
+            elif 'ABCDEFGHIJ'.index(a) >= len(bank):
+                out.append('%s item %d: answer %s is past the end of the '
+                           'bank' % (tag, i + 1, a))
+            elif a in seen:
+                out.append('%s item %d: letter %s used twice'
+                           % (tag, i + 1, a))
+            else:
+                seen.append(a)
     for i, it in enumerate(items):
         stem, opts, ans, why = it[0], it[1], it[2], it[3]
         if opts:
@@ -234,10 +284,10 @@ def _items_ok(items, tag, n_lo, n_hi, out):
             # list went missing: Foundation 2 unit 6 shipped two of them.
             # A legitimate answer can still BE a letter (band C, zone D),
             # so only a block that letters its other items is suspect.
-            if lettered and re.fullmatch(r'[A-H]', a):
+            if bank is None and lettered and re.fullmatch(r'[A-H]', a):
                 out.append('%s item %d: answer %r is a bare letter but the '
                            'item shows no options' % (tag, i + 1, a))
-            if len(a.split()) > MAX_ANSWER:
+            if bank is None and len(a.split()) > MAX_ANSWER:
                 out.append('%s item %d: answer is %d words, the paper allows '
                            '%d' % (tag, i + 1, len(a.split()), MAX_ANSWER))
         if len(why) < MIN_WHY:
@@ -322,7 +372,7 @@ def check_unit(U, out, heads):
                     out.append('%s listening "%s": %d words, want %d-%d'
                                % (ct, l['heading'][:30], w, band[0], band[1]))
             allpos |= _items_ok(l['items'], '%s %s' % (ct, l['heading'][:22]),
-                                3, 8, out)
+                                3, 8, out, l.get('bank'))
             if PHASE['rubric'] and not _rubric_ok(l):
                 out.append('%s listening "%s": no rubric can be derived'
                            % (ct, l['heading'][:30]))
@@ -480,6 +530,60 @@ def check_long_reads(vol, units, out):
         if len(longs) < MIN_LONG_READS:
             out.append('%s: %d reads of %d+ words, want %d+'
                        % (tag, len(longs), LONG_READ, MIN_LONG_READS))
+
+
+def check_types(vol, units, out):
+    """The three task types the series was missing, per book."""
+    tag = 'Foundation %d' % (vol - 6) if vol > 6 else 'Volume %d' % vol
+    ends = lmap = tf = yn = 0
+    for U in units:
+        for c in U['cycles']:
+            for r in c['read']:
+                if r.get('bank') and 'sentence endings' in r['task']:
+                    if len(r['items']) >= MIN_ENDINGS:
+                        ends += 1
+                for it in r['items']:
+                    if it[1] == TFNG:
+                        tf += 1
+                    elif it[1] == YNNG:
+                        yn += 1
+            for l in c['listen']:
+                if l.get('bank') and ('Plan labelling' in l['task']
+                                      or 'Map labelling' in l['task']):
+                    lmap += 1
+                for it in l['items']:
+                    if it[1] == TFNG:
+                        tf += 1
+                    elif it[1] == YNNG:
+                        yn += 1
+    if vol <= 6:
+        if not ends:
+            out.append('%s: no matching-sentence-endings set of %d+ items'
+                       % (tag, MIN_ENDINGS))
+        if vol >= 3 and not lmap:
+            out.append('%s: no Listening plan or map labelling set with a '
+                       'lettered bank' % tag)
+        if tf < TFNG_FLOOR:
+            out.append('%s: %d True/False/Not Given items in its units, '
+                       'want %d+' % (tag, tf, TFNG_FLOOR))
+        if yn < YNNG_FLOOR:
+            out.append('%s: %d Yes/No/Not Given items in its units, want '
+                       '%d+' % (tag, yn, YNNG_FLOOR))
+    else:
+        if tf < TFNG_FOUNDATION:
+            out.append('%s: %d True/False/Not Given items, want %d+'
+                       % (tag, tf, TFNG_FOUNDATION))
+        if vol == 8:
+            cal = [w for U in units for c in U['cycles'] for w in c['write']
+                   if '%d words' % CALIBRATION_WORDS in (w.get('prompt') or '')]
+            if len(cal) != 1:
+                out.append('%s: %d calibration tasks at the real paper\'s '
+                           'length, want exactly 1' % (tag, len(cal)))
+            else:
+                mw = wc(cal[0].get('model') or [])
+                if mw < CALIBRATION_WORDS:
+                    out.append('%s: the calibration model is %d words, want '
+                               '%d+' % (tag, mw, CALIBRATION_WORDS))
 
 
 def check_numbering(U, out):
@@ -756,6 +860,7 @@ def main(argv):
             except ModuleNotFoundError:
                 continue
         check_long_reads(vol, us, out)
+        check_types(vol, us, out)
     npaper = 0
     for prefix, fn, attr in (('paper', check_paper, 'PAPER'),
                              ('lpaper', check_lpaper, 'LPAPER')):

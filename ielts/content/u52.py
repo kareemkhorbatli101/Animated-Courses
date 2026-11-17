@@ -707,7 +707,7 @@ UNIT = dict(
    read=[
     dict(heading='Inputs, structure and calibration',
          kind='Process article',
-         task='Flow-chart completion and diagram labelling',
+         task='Flow-chart completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_MOD,
          paras=[
@@ -769,15 +769,21 @@ UNIT = dict(
             'Paragraph 8'], 2,
            'Because the model is then effectively fitted to the test '
            'data.'),
-          ('Choosing the model structure is described as a ____________ '
-           'rather than an output.', None, 'judgement',
-           'Paragraph 2, where two teams given the same data choose '
-           'differently.'),
-          ('Which paragraph describes the second return path?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
-           'The outturn added back to the historical data at annual '
-           'review.')])],
+          (
+           'The held-back years are excluded from the fitting on '
+           'purpose.', ['True', 'False', 'Not Given'], 0,
+           'Paragraph 4 says they were deliberately excluded so the '
+           'test means something.',
+           {1: 'False would need an accident, and paragraph 4 says it '
+               'is deliberate.', 2: 'Not Given is wrong because paragraph 4 explains the '
+               'reason.'}),
+          (
+           'A protocol exists for the problem created by the slow '
+           'loop.', ['True', 'False', 'Not Given'], 1,
+           'The last paragraph says no protocol in current use '
+           'addresses it.',
+           {0: 'True contradicts the final sentence of the passage.', 2: 'Not Given is wrong because the writer states that none '
+               'exists.'})])],
    listen=[
     dict(heading='A modeller on building and checking', part='Part 4',
          task='A lecture on model construction', band='l4',
@@ -1502,10 +1508,115 @@ UNIT = dict(
           ('The fix the writer proposes is a requirement applying to '
            '____________ at once.', None, 'everybody',
            'Paragraph 11: it imposes no competitive disadvantage on '
-           'any.')])],
+           'any.')]),
+    dict(heading='The tide tables',
+         kind='Magazine article',
+         task='Matching sentence endings',
+         band='long',
+         qtype='Questions 67-71',
+         banklabel='Endings',
+         bank=[
+          'because the shape of the sea bed is fixed and known.',
+          'which is the oldest continuously published scientific '
+          'prediction there is.',
+          'so the published time can be out by an hour in a storm.',
+          'although the equations behind it are more than a century old.',
+          'and the machine that did it weighed about seven tonnes.',
+          'because the coefficients have to be derived from local '
+          'measurement.',
+          'which no amount of computing power will improve.'],
+         skill=('Matching sentence endings', ['Each question is the first half of a sentence. Finish it from the list and use each ending once only.', 'There are more endings than questions, so the last answer cannot be reached by elimination.', 'Several endings will fit the grammar of any beginning. Choose the one the passage supports and read the whole sentence back.']),
+         paras=[
+          'The tide tables are the most successful forecast anybody '
+          'publishes. A table printed for a British port gives the time '
+          'and height of every high and low water for a year ahead, to '
+          'the minute and to a tenth of a metre, and the predictions '
+          'hold. They have been issued annually without interruption '
+          'since 1833, which is the oldest continuously published '
+          'scientific prediction there is.',
+          'The reason they work is not that tides are simple. The reason '
+          'is that the forcing is astronomical and therefore known '
+          'exactly. The positions of the moon and the sun can be '
+          'calculated centuries ahead, and the response of a given '
+          'basin to that forcing is stable, because the shape of the sea '
+          'bed is fixed and known.',
+          'What makes a port\u2019s tide hard to compute is the '
+          'response rather than the forcing. The rise and fall at a '
+          'particular quay is the sum of a long list of components, each '
+          'a wave of a known period and an unknown local size. Nobody '
+          'can derive those sizes from theory for a real estuary, '
+          'because the coefficients have to be derived from local '
+          'measurement, which in practice means a year of recorded '
+          'levels before a new port can be predicted at all.',
+          'The arithmetic was mechanised before it was electrified. '
+          'Between the eighteen-seventies and the nineteen-sixties the '
+          'tables were produced by tide-predicting machines, '
+          'arrangements of pulleys and wires in which each component was '
+          'a wheel of the right circumference, and the sum of their '
+          'motions was traced on a paper roll. The largest British '
+          'machine ran until 1965, and the machine that did it weighed '
+          'about seven tonnes.',
+          'The modern computation is a few lines of code, although the '
+          'equations behind it are more than a century old, and the '
+          'coefficients in use for several ports were measured before the '
+          'First World War. Updating them is a matter of recording '
+          'again, which is done when a harbour is dredged or a new '
+          'barrage is built, because those change the response the '
+          'coefficients describe.',
+          'Where the prediction fails, it fails for a reason outside the '
+          'model. Wind piles water against a coast or holds it off, and '
+          'atmospheric pressure raises or lowers the surface by about a '
+          'centimetre for every millibar. Neither is astronomical, '
+          'neither is predictable a year ahead, so the published time '
+          'can be out by an hour in a storm. The tables carry a note '
+          'saying so, and the note is the part that is never quoted.',
+          'The useful lesson is about the structure of the problem '
+          'rather than about tides. A forecast is accurate when the '
+          'thing driving it is known and the system responding is '
+          'stable, and the weather is the counter-example on both '
+          'counts. The difference between a tide table and a '
+          'ten-day forecast is not the quality of the science, which no '
+          'amount of computing power will improve.',
+                ('It is worth adding what the tables are used for, because the '
+                 'uses are less obvious than the prediction. A commercial port '
+                 'schedules the arrival of a deep-draught vessel by them, and '
+                 'a ship a metre too deep for the water under its keel waits '
+                 'for six hours at a cost of several thousand pounds an hour. '
+                 'A surveyor reduces every depth measurement in a harbour to '
+                 'the same datum using them, which is why charts from '
+                 'different decades can be compared at all. Coastal engineers '
+                 'combine them with a surge model to decide whether to close a '
+                 'barrier, and that combination is where the two kinds of '
+                 'forecast meet: the astronomical part is known a year ahead '
+                 'and the meteorological part six hours ahead, and the '
+                 'decision has to be taken on the sum.'),
+                ('One final point belongs with that comparison. The accuracy '
+                 'of the tables has bred a public expectation that forecasts '
+                 'in general should be of this kind, and the expectation is '
+                 'unreasonable. A tide table is a calculation about a system '
+                 'with a known driver and a stable response, and almost '
+                 'nothing else that anybody wants predicted has either '
+                 'property. The forecaster of demand, of disease or of weather '
+                 'is working on a system whose driver is partly its own '
+                 'output, and no improvement in method will make that problem '
+                 'into this one.')],
+         items=[
+          ('Tide tables have appeared every year since 1833', None, 'B',
+           'Paragraph 1 ends by naming it the oldest such prediction.'),
+          ('A basin responds to the moon in a stable way', None, 'A',
+           'Paragraph 2 gives the fixed sea bed as the reason.'),
+          ('A new port needs a year of recorded levels', None, 'F',
+           'Paragraph 3 says the local coefficients cannot be derived '
+           'from theory.'),
+          ('Tables were produced mechanically until 1965', None, 'E',
+           'Paragraph 4 gives the weight of the largest British '
+           'machine.'),
+          ('A storm can shift the time of high water', None, 'C',
+           'Paragraph 6 gives the hour, and says the note is never '
+           'quoted.')])],
    listen=[
     dict(heading='Two modellers disagree about uncertainty', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange', band='l4', qtype='Questions 72-77',
          script=[
           ('Chair', 'Dr Fairweather-Oduya runs a climate modelling group. '
            'Professor Nakamura-Belluomini works on decision-making under '
@@ -1590,7 +1701,77 @@ UNIT = dict(
             'and loses contracts', 'it is unpublishable', 'it is '
             'untrue'], 1,
            'Which makes it a procurement question rather than a scientific '
-           'one.')])],
+           'one.')]),
+    dict(heading='A plan of the field station',
+         part='Part 2', task='Map labelling and matching',
+         band='l2',
+         qtype='Questions 78-82',
+         banklabel='Positions on the plan',
+         bank=['A', 'B', 'C', 'D', 'E', 'F', 'G'],
+         figure=dict(kind='map',
+                     title='Ardnavar field station',
+                     sub='seven buildings, lettered A to G',
+                     panels=[('Site plan',
+                              [(0.04, 0.08, 0.2, 0.2, 'A', 'building'),
+                               (0.28, 0.08, 0.2, 0.2, 'B', 'building'),
+                               (0.52, 0.08, 0.2, 0.2, 'C', 'building'),
+                               (0.76, 0.08, 0.2, 0.2, 'D', 'building'),
+                               (0.04, 0.52, 0.28, 0.2, 'E', 'building'),
+                               (0.36, 0.52, 0.28, 0.2, 'F', 'building'),
+                               (0.68, 0.52, 0.28, 0.2, 'G', 'building')],
+                              [(0.0, 0.42, 1.0, 0.42, 'Service track'),
+                               (0.5, 0.95, 0.5, 0.42, 'Gate')])]),
+         skill=('A plan with lettered positions', ['Find the entrance on the plan before the recording starts and decide which way is left and right from there.', 'Write the letter, not the name. A correct place written in words is marked wrong.', 'The speaker will not take the places in order, so keep your eyes on the plan rather than on the questions.']),
+         script=[
+          ('Manager', 'You come in at the gate at the bottom of the '
+           'plan, in the middle, and the service track runs left to '
+           'right across the site. Four buildings stand above the track '
+           'and three below it. Vehicles stay on the track; everything '
+           'else is on foot.'),
+          ('Manager', 'The office is the first building on your left as '
+           'you come through the gate, so it is the one at the '
+           'bottom-left. Sign in there before you go anywhere else, '
+           'including on your second day.'),
+          ('Manager', 'The generator house is at the bottom-right, '
+           'furthest from the gate on that side, and it is the only '
+           'building nobody enters without a reason.'),
+          ('Manager', 'The wet laboratory is directly opposite the '
+           'office, at the far left above the track. It has the water '
+           'supply and the drains, which is why it cannot be anywhere '
+           'else.'),
+          ('Manager', 'The store is above the track at the far right, in '
+           'the top-right corner, because the delivery lorry turns at '
+           'that end and cannot reverse any further than that. '
+           'Everything that arrives on the site is signed for there '
+           'first, whatever it is for.'),
+          ('Manager', 'Accommodation is the middle building on the lower '
+           'side, between the office and the generator house. It is the '
+           'longest building on the site and it is the one the plan '
+           'draws too small.'),
+          ('Manager', 'That leaves the two buildings above the track in '
+           'the middle. The one beside the wet laboratory is the dry '
+           'laboratory, where the samples are weighed, and the one '
+           'beside the store is the workshop.'),
+          ('Manager', 'Two things not on the plan. The weather mast is '
+           'two hundred metres beyond the store and is not to be '
+           'approached in a gale. And the footbridge marked across the '
+           'burn at the top of the plan was taken out in January and has '
+           'not been replaced, so the only crossing is the ford by the '
+           'gate.')],
+         items=[
+          ('Office', None, 'E',
+           'The first building on the left inside the gate.'),
+          ('Wet laboratory', None, 'A',
+           'Directly opposite the office, at the far left above the '
+           'track.'),
+          ('Store', None, 'D',
+           'The top-right corner, where the delivery lorry turns.'),
+          ('Accommodation', None, 'F',
+           'The middle building on the lower side, between the office '
+           'and the generator house.'),
+          ('Workshop', None, 'C',
+           'Of the two remaining buildings above the track, the one '
+           'beside the store.')])],
    speak=dict(
     part='Part 3', focus='Reporting what you do not know',
     sounds=[('Statistical vocabulary at this level is long and regular: '
@@ -1606,7 +1787,22 @@ UNIT = dict(
              'half.'),
             ('Record yourself on whether agreement makes experts right. Find '
              'the technical term you hesitated before, and drill the clause '
-             'rather than the word.')],
+             'rather than the word.'),
+            ('Two further exercises for this unit, because it is the one with '
+             'the most new vocabulary in it. First, take the five technical '
+             'terms on this page and say each inside a clause from your own '
+             'Part 3 answer, ten times, until the clause runs at speaking '
+             'speed. Second, record the same clause on three successive '
+             'days and keep only the third recording. Vocabulary that has '
+             'been said aloud thirty times is available under pressure, and '
+             'vocabulary that has been read thirty times is not, which is '
+             'the whole argument for doing this aloud rather than in your '
+             'head.'),
+            ('Finally, a warning about this unit\u2019s register. Technical '
+             'terms used correctly earn marks and technical terms used to '
+             'sound impressive cost them, and an examiner can hear the '
+             'difference immediately. If you cannot say what a word means '
+             'in your own language, do not use it in the exam.')],
     intro=('The hardest turn in the unit. Try once to describe an '
            'uncertainty that is not in the range.'),
     qs=['How should uncertainty be communicated to the public?',

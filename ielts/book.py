@@ -143,9 +143,19 @@ def rubric(blk):
     paper never asks a question without one.
     """
     items = blk['items']
-    gaps = [str(it[2]) for it in items if not it[1]]
+    # A block with a lettered bank answers with a letter and shows no
+    # options on the item, so those answers are not gaps and the word
+    # limit must not be derived from them.
+    bank = blk.get('bank')
+    gaps = [str(it[2]) for it in items if not it[1]
+            and not (bank and len(str(it[2]).strip()) == 1)]
     mc = [it for it in items if it[1]]
     bits = []
+    if bank:
+        n = len(bank)
+        bits.append('Choose the correct letter, A-%s, for each question. '
+                    'You may use each letter once only.'
+                    % 'ABCDEFGHIJ'[n - 1])
     if mc:
         sizes = {len(it[1]) for it in mc}
         if len(sizes) == 1:
@@ -250,6 +260,9 @@ def render_cycle(d, U, c, ci, key, nq=1):
                   sum(len(p.split()) for p in r['paras']))
         d.ex('Exercise  %s \u00b7 %s' % (r['qtype'], r['task']), 'reading')
         d.cefr(rubric(r))
+        if r.get('bank'):
+            d.letterbank(r.get('banklabel', 'Choose from'), r['bank'],
+                         D_BLUE)
         nq = _items(d, r['items'], nq, key.setdefault('reading', []), 'reading')
         d.page_break_section()
 
@@ -268,6 +281,9 @@ def render_cycle(d, U, c, ci, key, nq=1):
              % (l['qtype'], l['task']),
              'listening')
         d.cefr(rubric(l))
+        if l.get('bank'):
+            d.letterbank(l.get('banklabel', 'Choose from'), l['bank'],
+                         D_AMBER)
         nq = _items(d, l['items'], nq, key.setdefault('listening', []),
                     'listening')
         d.body_p('Audio script: at the back of the book. Do not read it '

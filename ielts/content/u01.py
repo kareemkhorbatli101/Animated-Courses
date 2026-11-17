@@ -991,7 +991,7 @@ UNIT = dict(
    read=[
     dict(heading='Why smaller classes may not be the answer',
          kind='Academic passage',
-         task='Matching information, True/False/Not Given and short '
+         task='Matching information, True/False, Yes/No and short '
               'answer',
          band='acad', qtype='Questions 55-62',
          paras=[
@@ -1055,7 +1055,7 @@ UNIT = dict(
            'Better pay, more training and targeted help, in that '
            'order.'),
           ('The writer believes class size is unimportant.',
-           ['True', 'False', 'Not Given'], 1,
+           ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph says the opposite in its first '
            'sentence.',
            {0: 'Yes would need agreement; the first sentence of the '
@@ -1072,7 +1072,7 @@ UNIT = dict(
                'counted.'}),
           (
            'The writer thinks parents should be told about the lost '
-           'rooms.', ['True', 'False', 'Not Given'], 2,
+           'rooms.', ['Yes', 'No', 'Not Given'], 2,
            'He says parents rarely see it, but recommends nothing '
            'about telling them.',
            {0: 'Yes would need a recommendation; he reports what '

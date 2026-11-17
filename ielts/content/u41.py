@@ -667,7 +667,7 @@ UNIT = dict(
    read=[
     dict(heading='What a confidence range means and does not',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_FORE,
          paras=[
@@ -727,14 +727,24 @@ UNIT = dict(
           ('In ____________ of the six years shown, the outturn fell inside '
            'the range.', None, 'five',
            'Paragraph 3: 2014, 2016, 2018, 2022 and 2023.'),
-          ('The one genuine failure is the year ____________.', None,
-           '2020',
-           'Paragraph 4, where demand fell by 3.2 against a lower bound of '
-           '0.6.'),
-          ('The honest measure combines the proportion inside the range with '
-           'its ____________.', None, 'width',
-           'Paragraph 7, which says the two must always be given '
-           'together.')])],
+          (
+           'The central forecast line differed from the outturn in '
+           'every year shown.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 2 says the two are different in every year, '
+           'sometimes substantially.',
+           {1: 'False would need a year in which they agreed, and '
+               'paragraph 2 denies it.', 2: 'Not Given is wrong because paragraph 2 states it '
+               'directly.'}),
+          (
+           'A range running from minus four to plus eight would have '
+           'failed in 2020.', ['True', 'False', 'Not Given'],
+           1,
+           'The last paragraph says such a range would have survived '
+           'every year on the chart.',
+           {0: 'True contradicts the last paragraph, which says it '
+               'would have survived.', 2: 'Not Given is wrong because the writer discusses that '
+               'exact range.'})])],
    listen=[
     dict(heading='A statistician on uncertainty', part='Part 4',
          task='A lecture on forecasts and ranges', band='l4',

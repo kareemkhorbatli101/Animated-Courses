@@ -635,7 +635,7 @@ UNIT = dict(
    read=[
     dict(heading='Routine, non-routine and the jobs in between',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 34-39',
          figure=_TASKS,
          paras=[
@@ -685,12 +685,21 @@ UNIT = dict(
            'down.', None, 'cognitive',
            'Paragraph 1, as against routine manual work, which follows a '
            'physical procedure.'),
-          ('A checkout operator is about ____________ per cent routine in '
-           'total.', None, '80',
-           'Paragraph 4, which is 46 manual plus 34 cognitive.'),
-          ('Jobs are described in the last paragraph as ____________ of '
-           'tasks.', None, 'bundles',
-           'And a bundle usually loses some contents and gains others.')])],
+          (
+           'Care assistants spend more of their time on non-routine '
+           'work than plumbers do.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 3 gives care assistants 70 per cent against 67 '
+           'for plumbers.',
+           {1: 'False reverses the two figures given in paragraph 3.', 2: 'Not Given is wrong because both percentages are '
+               'stated.'}),
+          ('Forecasts of job destruction have usually been too low.',
+           ['True', 'False', 'Not Given'], 1,
+           'The last paragraph says such forecasts have consistently '
+           'overshot.',
+           {0: 'True reverses the finding; overshooting means the '
+               'forecasts were too high.', 2: 'Not Given is wrong because the last paragraph states '
+               'the direction.'})])],
    listen=[
     dict(heading='A lecture on task composition', part='Part 4',
          task='A lecture on what automation actually takes', band='l4',
@@ -1290,10 +1299,97 @@ UNIT = dict(
            'Besides a total, an average and a distribution, what may a '
            'claim be about?', None, 'a person',
            'The final paragraph, with the evidence strongest for the '
-           'first and weakest for the last.')])],
+           'first and weakest for the last.')]),
+    dict(heading='What a job advertisement does not say',
+         kind='Magazine article',
+         task='Matching sentence endings',
+         band='long',
+         qtype='Questions 66-70',
+         banklabel='Endings',
+         bank=[
+          'because the employer has not decided what the job is.',
+          'which is a legal requirement in several countries and not in '
+          'Britain.',
+          'so the applicants who most need the information never see it.',
+          'although the research on it is weaker than its advocates '
+          'claim.',
+          'and the number of applications falls by about a fifth.',
+          'which tells an applicant almost nothing about the work.',
+          'because the wording has been copied from an earlier '
+          'advertisement.'],
+         skill=('Matching sentence endings', ['Each question is the first half of a sentence. Finish it from the list and use each ending once only.', 'There are more endings than questions, so the last answer cannot be reached by elimination.', 'Several endings will fit the grammar of any beginning. Choose the one the passage supports and read the whole sentence back.']),
+         paras=[
+          'An advertisement for a job is a short document with an '
+          'unusually large amount of information missing from it, and '
+          'the pattern of what is missing is consistent enough to be '
+          'worth describing.',
+          'The commonest omission is the salary. Surveys of large job '
+          'boards find that between forty and sixty per cent of '
+          'advertisements give no figure at all, offering instead a '
+          'phrase such as competitive or commensurate with experience, '
+          'which tells an applicant almost nothing about the work. '
+          'Publishing a range is a legal requirement in several '
+          'countries and not in Britain, and where it has been '
+          'introduced the research finds two effects: more applications '
+          'from women, and a narrowing of the gap between what two '
+          'people doing the same job are paid.',
+          'The second omission is the reason the post exists. An '
+          'advertisement rarely says whether the previous holder was '
+          'promoted, left in frustration, or whether the post is new. '
+          'That information is available, is not confidential, and '
+          'would be the first question an experienced applicant asks at '
+          'interview.',
+          'A third pattern is a list of requirements that nobody '
+          'possesses. Advertisements routinely ask for a combination of '
+          'qualifications, years of experience and software skills that '
+          'the person eventually appointed does not have, which happens '
+          'because the employer has not decided what the job is. '
+          'Recruiters describe this as a wish list, and it has a '
+          'measurable cost: well-qualified applicants who do not meet '
+          'every item frequently do not apply, and the number of '
+          'applications falls by about a fifth.',
+          'Much of the wording is also inherited. Studies that compare '
+          'advertisements for the same post across years find whole '
+          'paragraphs repeated for a decade, including requirements for '
+          'systems the organisation has stopped using, because the '
+          'wording has been copied from an earlier advertisement.',
+          'Finally, the parts an applicant would most value are the '
+          'parts least often included: how the work is actually '
+          'organised, how much of it is done alone, whether the hours '
+          'are predictable, and what the first six months look like. '
+          'These are rarely in the advertisement and are usually '
+          'available on request, so the applicants who most need the '
+          'information never see it.',
+                ('There is one further pattern, and it is the most recent. A '
+                 'growing share of advertisements are posted for roles that '
+                 'are not open: a department advertises to build a list of '
+                 'candidates for a vacancy it expects later, or to satisfy a '
+                 'rule requiring an external advertisement when an internal '
+                 'appointment has already been decided. Estimates of how '
+                 'common this is vary widely because nobody collects the '
+                 'figure, and the practice is not illegal. What it costs is '
+                 'the applicant\'s time, which the advertisement does not '
+                 'mention either. Anybody applying in volume should expect a '
+                 'proportion of silence that has nothing to do with the '
+                 'quality of the application.')],
+         items=[
+          ('Many advertisements give no salary figure', None, 'F',
+           'Paragraph 2 says a phrase such as competitive tells an '
+           'applicant almost nothing.'),
+          ('Publishing a salary range', None, 'B',
+           'Paragraph 2 contrasts the legal position in Britain with '
+           'that in several other countries.'),
+          ('A list of impossible requirements appears', None, 'A',
+           'Paragraph 4 traces the wish list to an undecided job.'),
+          ('A long list of requirements has a cost', None, 'E',
+           'Paragraph 4 gives the fall in applications as the measurable '
+           'effect.'),
+          ('The information applicants most want is held back', None, 'C',
+           'Paragraph 6 says it is available on request, which is the '
+           'point.')])],
    listen=[
     dict(heading='Two economists disagree about adjustment', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 66-71',
+         task='A recorded exchange', band='l4', qtype='Questions 71-76',
          script=[
           ('Chair', 'Professor Oyelaran-Smit works on labour market '
            'adjustment. Dr Barczak studies displaced workers.'),
@@ -1357,7 +1453,80 @@ UNIT = dict(
           ('How does Oyelaran-Smit describe his addition?',
            ['A small point', 'A larger concession than hers',
             'Unnecessary', 'Already standard'], 1,
-           'She says he has made it look small.')])],
+           'She says he has made it look small.')]),
+    dict(heading='A plan of the new training centre',
+         part='Part 2', task='Plan labelling and matching',
+         band='l2',
+         qtype='Questions 77-81',
+         banklabel='Positions on the plan',
+         bank=['A', 'B', 'C', 'D', 'E', 'F', 'G'],
+         figure=dict(kind='map',
+                     title='Ground floor of the Brackmoor training centre',
+                     sub='seven rooms, lettered A to G',
+                     panels=[('Ground floor',
+                              [(0.04, 0.08, 0.2, 0.2, 'A', 'building'),
+                               (0.28, 0.08, 0.2, 0.2, 'B', 'building'),
+                               (0.52, 0.08, 0.2, 0.2, 'C', 'building'),
+                               (0.76, 0.08, 0.2, 0.2, 'D', 'building'),
+                               (0.04, 0.52, 0.28, 0.2, 'E', 'building'),
+                               (0.36, 0.52, 0.28, 0.2, 'F', 'building'),
+                               (0.68, 0.52, 0.28, 0.2, 'G', 'building')],
+                              [(0.0, 0.42, 1.0, 0.42, 'Corridor'),
+                               (0.5, 0.95, 0.5, 0.42, 'Main entrance')])]),
+         skill=('A plan with lettered positions',
+                ['Find the entrance on the plan before the recording '
+                 'starts, and decide which way is left and right from '
+                 'there. Every instruction will be relative to it.',
+                 'Write the letter, not the name of the room. A correct '
+                 'room written in words is marked wrong.',
+                 'The speaker will not take the rooms in order. Keep '
+                 'your eyes on the plan rather than on the list of '
+                 'questions.']),
+         script=[
+          ('Guide', 'This is the ground floor. You come in at the bottom '
+           'of the plan, in the middle, and the corridor runs left to '
+           'right across the building. There are four rooms along the '
+           'north side and three along the south.'),
+          ('Guide', 'Reception is immediately on your left as you come '
+           'through the door, so it is the room at the bottom-left '
+           'corner.'),
+          ('Guide', 'The computer suite is at the far left of the north '
+           'side, directly opposite reception across the corridor. It '
+           'has the only windows on that side.'),
+          ('Guide', 'The workshop needs the double doors, which are at '
+           'the far right of the corridor on the north side, so it is '
+           'the room in the top-right corner.'),
+          ('Guide', 'The quiet study room is the middle room on the '
+           'south side, between reception and the room at the '
+           'bottom-right. People ask why it is beside the entrance, and '
+           'the answer is that it used to be a store.'),
+          ('Guide', 'The staff room is the bottom-right room, furthest '
+           'from reception on that side.'),
+          ('Guide', 'That leaves two rooms on the north side, between '
+           'the computer suite and the workshop. The one next to the '
+           'workshop is the assessment room, which is where you will all '
+           'be on Friday morning. It is kept locked and the key is at '
+           'reception, which is a nuisance and is not going to change.'),
+          ('Guide', 'The other one, next to the computer suite, is the '
+           'kitchen, and it is the only room on the plan with a sink.'),
+          ('Guide', 'One more thing about the layout. There is no door '
+           'between the assessment room and the workshop, although the '
+           'plan makes it look as though there might be, so you have to '
+           'go round by the corridor.')],
+         items=[
+          ('Reception', None, 'E',
+           'The first room on the left as you come in, at the '
+           'bottom-left of the plan.'),
+          ('Computer suite', None, 'A',
+           'At the far left of the north side, opposite reception.'),
+          ('Workshop', None, 'D',
+           'The room with the double doors, in the top-right corner.'),
+          ('Quiet study room', None, 'F',
+           'The middle room on the south side, between reception and the '
+           'staff room.'),
+          ('Assessment room', None, 'C',
+           'Of the two remaining north rooms, the one next to the '
+           'workshop.')])],
    speak=dict(
     part='Part 3', focus='Who bears the cost of change',
     sounds=[('A three-part list has its own rhythm: two items rising and the '

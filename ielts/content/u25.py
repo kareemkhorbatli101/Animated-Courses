@@ -609,7 +609,7 @@ UNIT = dict(
    step=3,
    read=[
     dict(heading='Signals, inference and the picture they make',
-         kind='Article', task='Matching information and sentence completion',
+         kind='Article', task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 30-35',
          figure=_REC,
          paras=[
@@ -661,12 +661,20 @@ UNIT = dict(
           ('The log is summarised into about four hundred ____________.',
            None, 'features',
            'Paragraph 3, from perhaps ten thousand events.'),
-          ('Predicted age, income and household composition are called '
-           'inferred ____________.', None, 'traits',
-           'Paragraph 4, each with a confidence attached.'),
-          ('The writer says the system measures its own ____________ on '
-           'you.', None, 'effect',
-           'Paragraph 5, and treats the result as new evidence.')])],
+          ('The system is given the user\'s age by the user.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 4 says nobody told the system an age, and that '
+           'it estimates one.',
+           {0: 'True contradicts paragraph 4, which is explicit that '
+               'nothing was told.', 2: 'Not Given is wrong because paragraph 4 addresses '
+               'exactly this.'}),
+          ('The event log is kept for two years.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 6 gives the retention period as twenty-four '
+           'months.',
+           {1: 'False would need a different period, and twenty-four '
+               'months is stated.', 2: 'Not Given is wrong because the retention period is '
+               'given.'})])],
    listen=[
     dict(heading='An engineer on inference', part='Part 4',
          task='A talk on how profiles are built', band='l4',

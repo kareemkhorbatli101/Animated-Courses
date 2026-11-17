@@ -43,7 +43,8 @@ UNIT = dict(
    read=[
     dict(heading='Rooms to let: three small adverts',
          kind='Classified adverts',
-         task='Matching features and short answer',
+         task='Matching features and short answer and True/False/Not '
+              'Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('An advert is read for what it does not say',
                 ['Three adverts always differ in two or three things. '
@@ -70,11 +71,19 @@ UNIT = dict(
           ('Which room is noisy on some days?', ['A', 'B', 'C'], 1,
            'Advert B, which is above a shop on a market street.',
            {0: 'Advert A is on a quiet residential street.', 2: 'Advert C mentions no noise at all.'}),
-          ('Which room asks for a written reference?', ['A', 'B', 'C'],
-           2, 'Advert C, which also wants the tenant to be in work.',
-           {0: 'Advert A asks only for a deposit.', 1: 'Advert B asks for a month in advance, not a reference.'}),
-          ('What is the minimum stay for room A?', None, 'six months',
-           'The last line of advert A, and C asks for twelve.')])],
+          ('Room B is cheaper than room A.',
+           ['True', 'False', 'Not Given'], 0,
+           'Room B is 350 a month and room A is 420, so B is the '
+           'cheaper.',
+           {1: 'False would reverse the two prices, which are both '
+               'given.', 2: 'Not Given is wrong because both monthly prices appear.'}),
+          ('Room C is in the same street as room A.',
+           ['True', 'False', 'Not Given'], 2,
+           'Room A is in a quiet street and nothing is said about '
+           'where room C is.',
+           {0: 'True would need a street for room C, and none is '
+               'given.', 1: 'False would also need that information, which the '
+               'adverts omit.'})])],
    listen=[
     dict(heading='Asking about a room', part='Part 1',
          task='A telephone call about an advert', band='l1',
