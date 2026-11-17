@@ -696,8 +696,12 @@ UNIT = dict(
            'different people.',
            {0: 'Paragraph 2 compares the sexes within each subject.', 1: 'Paragraph 3 explains that high earners may have done '
                'well anyway.', 3: 'Paragraph 5 says what the figures are still good for.'}),
-          ('Median earnings for women in medicine: £____________', None,
-           '48,000', 'Against £52,000 for men, the highest figure shown.'),
+          (
+           'Women in medicine have the highest median earnings of any '
+           'group on the chart.',
+           ['True', 'False', 'Not Given'], 0,
+           'The medicine bar for women stands above every other bar.',
+           {1: 'The chart puts no group above it.', 2: 'The chart gives the figure, so it is given.'}),
           (
            'The gap between the sexes is wider in economics than in '
            'any other subject shown.',

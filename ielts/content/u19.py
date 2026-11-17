@@ -408,8 +408,9 @@ UNIT = dict(
          items=[
           ('The morning peak lasts ____________ minutes.', None,
            'eighty', 'And carries forty per cent of the day.'),
-          ('The existing off-peak fare moves about ____________ per cent '
-           'of journeys.', None, 'three',
+          (
+           'What share of journeys does the existing off-peak fare '
+           'move?', None, 'three per cent',
            'Because those who can shift already have.'),
           (
            'Thaddeus argues the current discount of twelve per cent is '
@@ -423,8 +424,9 @@ UNIT = dict(
           ('He concedes that revenue falls in year ____________.', None,
            'one', 'Which he calls a genuine objection rather than an '
            'excuse.'),
-          ('Working from home did in ____________ months what fares '
-           'failed to do in thirty years.', None, 'eighteen',
+          (
+           'Working from home did in eighteen months what fares failed '
+           'to do in how long?', None, 'thirty years',
            'According to Ondine, whose career was spent being told '
            'otherwise.'),
           ('Monday and Friday are now ____________ per cent below the '
@@ -980,9 +982,8 @@ UNIT = dict(
           ('By year four the road carries ____________ per cent more '
            'traffic at the old journey time.', None, 'fifty',
            'After eighteen months of faster journeys.'),
-          ('He says the engineers treated traffic as a ____________ '
-           'quantity.', None, 'fixed',
-           'Which is the error rather than the arithmetic.'),
+          ('How does he say the engineers treated traffic?', None,
+           'as fixed', 'Which is the error rather than the arithmetic.'),
           ('The fourth response is journeys that nobody made',
            ['twice', 'before', 'quickly', 'legally'], 1,
            'Which he calls the interesting one.',
@@ -991,8 +992,8 @@ UNIT = dict(
           ('A traffic counter cannot tell a new journey apart from one '
            'that moved off the ____________ route.', None, 'back',
            'Although they are not the same thing.'),
-          ('In a growing city the benefit is gone inside a '
-           '____________.', None, 'decade',
+          ('How soon is the benefit gone in a growing city?', None,
+           'inside a decade',
            'After decaying across three to five years.'),
           ('Of the studied closures, roughly a ____________ of the '
            'journeys simply stopped.', None, 'quarter',

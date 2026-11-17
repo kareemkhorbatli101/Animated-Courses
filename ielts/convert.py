@@ -99,6 +99,48 @@ def to_q(name, spec):
     return _apply(name, spec, 'q')
 
 
+TFNG = ['True', 'False', 'Not Given']
+YNNG = ['Yes', 'No', 'Not Given']
+
+
+def to_verify(name, spec, kind='tf'):
+    """{ordinal: (stem, answer index, why, {wrong index: line})} -> a
+    True/False/Not Given or Yes/No/Not Given item.
+
+    Used where a type is present in a book but only ever in pairs. The
+    gate asks for a set of three, because two questions of a type is not
+    teaching it, and the third usually comes from the gap item sitting
+    beside them in the same exercise: the passage already supports the
+    claim, and a verification item is a different thing to do with it."""
+    opts = TFNG if kind == 'tf' else YNNG
+    f, items = _items(name)
+    bad = []
+    done = 0
+    for n, v in sorted(spec.items()):
+        if not (1 <= n <= len(items)):
+            bad.append('%s: no item %d' % (name, n))
+            continue
+        it = items[n - 1]
+        stem, ans, why, wrongs = v
+        if not isinstance(ans, int) or not (0 <= ans < 3):
+            bad.append('%s i%d: answer %r is not 0, 1 or 2' % (name, n, ans))
+            continue
+        need = [k for k in range(3) if k != ans]
+        short = [k for k in need
+                 if len(str(wrongs.get(k, ''))) < 25]
+        if short:
+            bad.append('%s i%d: option %s needs a line of 25 characters'
+                       % (name, n, ''.join(opts[k][0] for k in short)))
+            continue
+        it.wrongs = {k: wrongs[k] for k in need}
+        it.set(stem=stem, ans=ans, why=why, opts=list(opts))
+        done += 1
+    f.save()
+    for b in bad:
+        print('  !! ' + b)
+    return done, len(bad)
+
+
 def to_short(name, spec):
     """{ordinal: (question, answer)} -> short-answer items from gap items.
 

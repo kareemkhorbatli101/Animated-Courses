@@ -171,7 +171,10 @@ UNIT = dict(
            'Which the adviser uses to make the point about speaking to the '
            'manager this week.')]),
     dict(heading='A short talk: what moves people actually make',
-         part='Part 2', task='A talk on internal career moves · matching and multiple choice', band='l2',
+         part='Part 2', task='A talk on internal career moves · matching and multiple choice''A talk on internal career moves · matching and multiple choice',
+                        bank=None,
+                        reuse=None,
+                        banklabel=None, band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have run internal recruitment for eleven years and I '
@@ -390,7 +393,10 @@ UNIT = dict(
                'the majority.'})])],
    listen=[
     dict(heading='A short talk: retraining', part='Part 2',
-         task='A talk at a careers centre · matching and multiple choice', band='l2',
+         task='A talk at a careers centre · matching and multiple choice''A talk at a careers centre · matching and multiple choice',
+         bank=['A', 'B', 'C', 'D'],
+         reuse=True,
+         banklabel='A  a short course    B  a qualification next to your field    C  a full change of field    D  staying and adapting', band='l2',
          qtype='Questions 25-28',
          script=[
           ('Speaker', 'Everybody in this room has been told that the answer '
@@ -422,28 +428,16 @@ UNIT = dict(
            'which is a fact about households and not about training policy at '
            'all.')],
          items=[
-          ('Which type has the highest completion rate?',
-           ['A short course', 'A qualification next to your field', 'A full change of field', 'Staying and adapting'],
-           0, 'Around ninety per cent, and it changes pay least.',
-           {1: 'A qualification next to your field completes at '
-               'sixty-five per cent.', 2: 'A full change of field completes at about forty per '
-               'cent.', 3: 'Adapting in place is the type nobody counts at all.'}),
+          ('has the highest completion rate.', None, 'A',
+           'A fortnight, often paid for by an employer.'),
+          ('has a completion rate of about sixty-five per cent.', None,
+           'B', 'Six to twelve months, in a field next to your own.'),
           (
-           'Completion for a qualification in a neighbouring field is '
-           'about ____________ per cent.', None,
-           'sixty-five', 'And the people who finish usually move jobs.'),
-          (
-           'The best predictor of finishing a full change of field is '
-           'another ____________ in the household.', None,
-           'earner',
-           'He says explicitly that it is not ability or motivation.'),
-          ('Which type does nobody count?',
-           ['Short courses', 'Neighbouring qualifications', 'Full changes', 'Adapting in the same job'],
-           3,
-           'No funding, no certificate, and the commonest way a '
-           'workforce changes.',
-           {0: 'Short courses have the completion rate he quotes '
-               'first.', 1: 'Neighbouring qualifications are counted and measured.', 2: 'Full changes are counted, at about forty per cent.'})]),
+           'is the one where another earner in the household is the '
+           'best predictor of finishing.', None, 'C',
+           'Two years or more, often with a drop in income.'),
+          ('is the one nobody counts.', None, 'D',
+           'Most people do this and nobody calls it retraining.')]),
     dict(heading='Two advisers on retraining schemes', part='Part 3',
          task='A discussion between careers advisers · multiple choice', band='l3',
          qtype='Questions 29-33',

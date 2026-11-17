@@ -1294,7 +1294,10 @@ UNIT = dict(
            'apart.')])],
    listen=[
     dict(heading='A judge and a researcher disagree', part='Part 4',
-         task='A recorded discussion · multiple choice and sentence completion', band='l4', qtype='Questions 67-72',
+         task='A recorded discussion · multiple choice and sentence completion''A recorded discussion · multiple choice and sentence completion',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Judge Aldersey    B  Dr Nakamura-Reilly    C  both of them', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Judge Aldersey sentences in the Crown Court. Dr '
            'Nakamura-Reilly studies reoffending. Each will start with '
@@ -1334,34 +1337,23 @@ UNIT = dict(
            'figures for their own sentences once a year. I cannot '
            'calibrate on cases whose endings I never learn.')],
          items=[
+          ('Has never seen the figures for their own decisions.', None,
+           'A', 'Nineteen years and several thousand sentences.'),
           (
-           'Judge Aldersey\u2019s own weakest point is that he has never '
-           'seen',
-           ['the research', 'the figures for his own sentences', 'a prison', 'the guidelines'],
-           1, 'After nineteen years and several thousand sentences.',
-           {0: 'He does not say he is unfamiliar with the research.', 2: 'Prisons are not what he says he has never seen.', 3: 'The guidelines are what he sentences by every day.'}),
-          ('Dr Nakamura-Reilly admits her method depends on judges',
-           ['agreeing', 'differing from one another', 'keeping records', 'being experienced'],
-           1, 'Which the system regards as a fault.',
-           {0: 'Agreement between judges would destroy her method.', 2: 'Record-keeping is the judge\u2019s complaint, not her '
-               'concession.', 3: 'Experience is not what her method depends on.'}),
-          ('The judge says a community order for a burglary is read by the '
-           'victim as ____________.', None, 'nothing',
-           'Which he says is an argument about what a sentence does.'),
-          ('The researcher accepts that ____________ is one of a '
-           'sentence’s jobs.', None, 'punishment',
-           'In exchange for dropping a claim about the other two.'),
-          ('She says a short sentence protects the public for about',
-           ['two weeks', 'eleven weeks', 'six months', 'a year'], 1,
-           'And releases somebody with no job and no tenancy.',
-           {0: 'Too short for the period she names.', 2: 'Six months is where the short-sentence threshold sits.', 3: 'A year is far longer than the protection she '
-               'describes.'}),
+           'Depends on a feature of the system that the system treats '
+           'as a fault.', None, 'B',
+           'The method works because judges differ.'),
+          ('Says a community order for a burglary is read as nothing.',
+           None, 'A', 'What the victim reads in the paper.'),
+          ('Accepts that punishment is one of the jobs of a sentence.',
+           None, 'C', 'Said by one and not disputed by the other.'),
+          ('Is least comfortable with the short custodial sentence.',
+           None, 'A',
+           'And says Parliament has made it hardest to avoid.'),
           (
-           'What the judge would most want changed is to be sent the '
-           'figures for his own sentences',
-           ['monthly', 'once a year', 'on request', 'after each case'],
-           1, 'Because he cannot calibrate on endings he never learns.',
-           {0: 'Monthly is more often than he asks for.', 2: 'He wants them sent, not supplied when he asks.', 3: 'After each case the ending is still years away.'})])],
+           'Asks to be sent the figures for their own decisions once a '
+           'year.', None, 'A',
+           'The change this speaker would most want.')])],
    speak=dict(
     part='Part 3', focus='What a sentence is for',
     sounds=[('Vowel length changes meaning, and the pairs that matter most are '

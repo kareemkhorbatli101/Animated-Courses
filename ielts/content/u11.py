@@ -1251,7 +1251,10 @@ UNIT = dict(
            'Paragraph 6, in two countries during a crisis.')])],
    listen=[
     dict(heading='Two demographers disagree', part='Part 4',
-         task='A recorded discussion · multiple choice and sentence completion', band='l4', qtype='Questions 67-72',
+         task='A recorded discussion · multiple choice and sentence completion''A recorded discussion · multiple choice and sentence completion',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Dr Varga    B  Professor Lindqvist    C  both of them', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Dr Varga thinks these policies are a waste of money. '
            'Professor Lindqvist does not. Each has agreed to start with '
@@ -1290,35 +1293,26 @@ UNIT = dict(
            'entirely, which I suspect is why nobody in a ministry has '
            'suggested it.')],
          items=[
-          ('Dr Varga\u2019s own weakest point is that he argues from',
-           ['old studies', 'the cash policies only', 'one country', 'his own experience'],
-           1, 'And then draws a conclusion about all of them.',
-           {0: 'He does not complain about the age of the evidence.', 2: 'No single country is the basis of his argument.', 3: 'He argues from the published cash schemes, not from '
-               'experience.'}),
-          ('Professor Lindqvist admits that her effect is',
-           ['unproven', 'small', 'recent', 'disputed'], 1,
-           'Nought point two on the fertility rate.',
-           {0: 'She calls the effect consistent rather than unproven.', 2: 'The age of the evidence is not what she concedes.', 3: 'What she concedes is the size, not whether it is '
-               'agreed.'}),
-          ('Varga says childcare may be a terrible birth rate policy and an '
-           'excellent ____________ policy.', None, 'childcare',
-           'He wants services sold as what they are.'),
           (
-           'Lindqvist says childcare is sold as a birth rate measure '
-           'because that is what gets it',
-           ['noticed', 'funded', 'evaluated', 'copied'], 1,
-           'And the evaluation then measures the wrong thing.',
-           {0: 'Being noticed is Varga\'s point about the cash '
-               'payments.', 2: 'Evaluation is what then measures the wrong thing.', 3: 'Copying between countries is not discussed here.'}),
-          ('The practice Varga would stop is',
-           ['parental leave', 'paying cash at birth', 'free childcare', 'housing priority'],
-           1, 'Which he says continues because it is visible.',
-           {0: 'Leave that fathers take is among the measures he '
-               'accepts.', 2: 'Childcare is Lindqvist\'s policy, and he does not '
-               'oppose it.', 3: 'Housing priority is not raised in the discussion.'}),
-          ('Lindqvist would evaluate childcare against hours worked, '
-           'incomes and whether the second parent ____________.', None,
-           'returns', 'Rather than against the number of births.')])],
+           'Argues from the cash policies and draws a conclusion about '
+           'all of them.', None, 'A',
+           'The speaker\u2019s own weakest point, given first.'),
+          (
+           'Defends childcare to ministers using a number of nought '
+           'point two.', None, 'B',
+           'The other speaker\u2019s weakest point about a small effect.'),
+          (
+           'Agrees that childcare is sold as the wrong kind of '
+           'measure.', None, 'C',
+           'Said by one and agreed with entirely by the other.'),
+          (
+           'Says the policy then gets cut after helping several '
+           'hundred thousand families.', None, 'B',
+           'Said after the other speaker finishes the sentence.'),
+          ('Wants cash payments at birth stopped.', None, 'A',
+           'The change this speaker asks for.'),
+          ('Wants childcare evaluated on hours worked and incomes.',
+           None, 'B', 'The change the other speaker asks for.')])],
    speak=dict(
     part='Part 3', focus='What governments can and cannot change',
     sounds=[('English puts the strong stress on what is new. In the answer she '

@@ -103,15 +103,25 @@ def frame_of(blk):
     return (None, None)
 
 
+LETTER = re.compile(r'^[A-J]$')
+
+
 def in_bank(it, blk):
-    """True when this item is answered by a letter from the block's bank."""
+    """True when this item is answered by a letter of the block's bank.
+
+    The test is the letter and its position, not the bank's contents: a
+    labelling bank happens to be a list of letters, while an endings bank
+    is a list of the endings themselves and the letters are implied by
+    their order. Comparing the answer against the contents therefore
+    worked for one kind and silently failed for the other, which cost the
+    series its matching-sentence-endings count for an hour."""
     bank = blk.get('bank')
     if not bank:
         return False
     a = it[2]
-    if not isinstance(a, str):
+    if not isinstance(a, str) or not LETTER.match(a.strip()):
         return False
-    return a.strip() in [str(x).strip() for x in bank]
+    return 'ABCDEFGHIJ'.index(a.strip()) < len(bank)
 
 
 def shape_of(it, blk, skill='read'):

@@ -1380,7 +1380,10 @@ UNIT = dict(
            'reason.')])],
    listen=[
     dict(heading='Two researchers disagree about nudges', part='Part 4',
-         task='A recorded discussion · multiple choice and sentence completion', band='l4', qtype='Questions 72-77',
+         task='A recorded discussion · multiple choice and sentence completion''A recorded discussion · multiple choice and sentence completion',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Dr Ferreira    B  Professor Okonjo    C  both of them', band='l4', qtype='Questions 72-77',
          script=[
           ('Chair', 'Dr Ferreira runs a behavioural unit. Professor Okonjo '
            'has written against them. Each will begin with their own '
@@ -1420,34 +1423,20 @@ UNIT = dict(
            'any minister would.')],
          items=[
           (
-           'Dr Ferreira\u2019s own weakest point is that the pension result '
-           'is',
-           ['disputed', 'the least typical thing they have done', 'very old', 'from another country'],
-           1, 'And it appears on the first slide every time.',
-           {0: 'She does not question the pension figures themselves.', 2: 'Age is not her concern; how untypical it is, is.', 3: 'Several countries are involved, and she raises no such '
-               'point.'}),
-          ('Professor Okonjo admits that he treats small effects as',
-           ['dishonest', 'worthless', 'temporary', 'uncertain'], 1,
-           'Although a one-point rise collects a great deal of money.',
-           {0: 'He does not accuse the small effects of dishonesty.', 2: 'Durability is his separate objection, not his '
-               'concession.', 3: 'He accepts that the small effects are real, not '
-               'uncertain.'}),
-          ('The actual disagreement, he says, concerns',
-           ['cost', 'durability', 'sample size', 'ethics'], 1,
-           'Because most effects need repeating.',
-           {0: 'Both agree that the letters cost almost nothing.', 2: 'Sample size is not raised by either researcher.', 3: 'Consent comes later, and he treats it as a separate '
-               'objection.'}),
-          ('Ferreira says almost nothing is known about five-year effects '
-           'because nobody funds the ____________ year.', None, 'fifth',
-           'Which she says is what she would most want funded.'),
-          ('Okonjo\u2019s main objection concerns',
-           ['cost', 'consent', 'accuracy', 'speed'], 1,
-           'Influencing somebody who does not know it is happening.',
-           {0: 'Cost is the thing he concedes in her favour.', 2: 'He does not dispute the accuracy of her results.', 3: 'Speed is not discussed by either researcher.'}),
-          ('What Okonjo proposes is publishing what was done on the',
-           ['website', 'form', 'statute', 'receipt'], 1,
-           'Rather than in a journal paper.',
-           {0: 'No website is proposed; he names the form itself.', 2: 'He wants a note on the form, not a change in the law.', 3: 'No receipt is involved in filling in a form.'})])],
+           'Quotes the pension result constantly although it is the '
+           'least typical.', None, 'A',
+           'This speaker\u2019s own weakest point.'),
+          ('Attacks small effects as if small meant worthless.', None,
+           'B', 'The other speaker\u2019s own weakest point.'),
+          ('Begins the discussion by stating their own weakest point.',
+           None, 'C', 'The chair asks for this and both do it.'),
+          ('Says there are almost no five-year follow-ups.', None, 'A',
+           'An admission about what nobody funds.'),
+          ('Raises consent as the objection they care most about.',
+           None, 'B', 'Introduced by asking permission to put it.'),
+          (
+           'Says what was done should be published on the form itself.',
+           None, 'B', 'Not in a journal paper, the speaker says.')])],
    speak=dict(
     part='Part 3', focus='Changing behaviour without rules',
     sounds=[('The two th sounds are different: thing, think and both are '

@@ -41,8 +41,39 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 BOOKS = [(7, range(61, 71)), (8, range(71, 81)), (1, range(1, 11)),
          (2, range(11, 21)), (3, range(21, 31)), (4, range(31, 41)),
          (5, range(41, 51)), (6, range(51, 61))]
-FLOOR_READ = 2.0        # per cent of a book's reading items
-FLOOR_LISTEN = 3.0      # per cent of a book's listening items
+# COVERAGE is a set, not a share. The first version of this gate asked
+# every type for 2% of a book's reading items and 3% of its listening
+# items, and that was the wrong shape of rule twice over. A real paper
+# uses five to seven of the eleven reading types and four or five of the
+# six listening types, so no type earns a fixed share of every book; and
+# a 3% share of a 400-item book is thirteen questions, which for plan
+# labelling would have meant inventing recordings in the books where no
+# recording describes a place. What a teaching series owes a candidate is
+# that no type is a surprise in the exam room, and that is a set of
+# questions, taught once, not a quota. So: every type appears in at least
+# one block as a set of SET_MIN questions or more, in every book.
+SET_MIN = 3
+# WEIGHTING is a share, and it applies to the families that carry a real
+# paper rather than to single types. Reading is three passages and the
+# completion and matching families carry most of it; Listening is four
+# parts of which Part 1 and Part 4 are completion by design.
+FAMILY_FLOORS = {
+    'read': [('the completion family',
+              ('sentence completion', 'note/table/flow-chart completion'),
+              20.0),
+             ('the matching family',
+              ('matching information', 'matching headings',
+               'matching features', 'matching sentence endings'), 20.0),
+             ('the verification family',
+              ('True/False/Not Given', 'Yes/No/Not Given'), 8.0),
+             ('multiple choice', ('multiple choice',), 4.0)],
+    'listen': [('the completion family',
+                ('sentence completion',
+                 'note/table/flow-chart completion'), 30.0),
+               ('multiple choice', ('multiple choice',), 10.0)],
+}
+FLOOR_READ = 2.0        # kept for the report's columns only
+FLOOR_LISTEN = 3.0
 CEIL_READ = 30.0
 CEIL_LISTEN = 45.0
 # A per-type ceiling of one number for both skills was the first thing
@@ -105,6 +136,21 @@ def blocks(vol, rng, skill):
                 yield x
 
 
+def biggest_set(vol, rng, skill):
+    """{type: the largest number of that type's questions in one block}.
+
+    A type taught once, as a set, is a type a candidate has met. Counting
+    the biggest set rather than the total is what stops one stray item of
+    a type counting as having taught it."""
+    out = {}
+    for blk in blocks(vol, rng, skill):
+        cen = qtypes.census([blk], skill)
+        for t, n in cen.items():
+            if n > out.get(t, 0):
+                out[t] = n
+    return out
+
+
 def speak_parts(rng):
     """{part label: slots} over a book's speaking slots."""
     c = collections.Counter()
@@ -135,6 +181,7 @@ def report(only=None):
             cen = qtypes.census(blocks(vol, rng, skill), skill)
             tot = sum(cen.values()) or 1
             print('  %s  %d items' % (skill, tot))
+            sets = biggest_set(vol, rng, skill)
             for t in inv:
                 n = cen.get(t, 0)
                 sh = 100.0 * n / tot
@@ -143,17 +190,29 @@ def report(only=None):
                 else:
                     ceil = CEIL_LISTEN if skill == 'listen' else CEIL_READ
                 flag = ''
+                big = sets.get(t, 0)
                 if t in EXEMPT.get(vol, set()):
                     flag = 'exempt'
-                elif sh < floor:
-                    flag = 'UNDER %.0f%%' % floor
-                    bad.append('%s %s: %s is %.1f%% (%d items), floor %.0f%%'
-                               % (tag, skill, t, sh, n, floor))
+                elif big < SET_MIN:
+                    flag = ('NOT TAUGHT' if not big
+                            else 'biggest set is %d' % big)
+                    bad.append('%s %s: %s is not taught as a set of %d+ '
+                               '(%d items, biggest set %d)'
+                               % (tag, skill, t, SET_MIN, n, big))
                 elif sh > ceil:
                     flag = 'OVER %.0f%%' % ceil
                     bad.append('%s %s: %s is %.1f%% (%d items), ceiling %.0f%%'
                                % (tag, skill, t, sh, n, ceil))
-                print('    %-42s %4d  %5.1f%%  %s' % (t, n, sh, flag))
+                print('    %-42s %4d  %5.1f%%  set %-2d %s'
+                      % (t, n, sh, big, flag))
+            for label, types, lo in FAMILY_FLOORS[skill]:
+                fam = sum(cen.get(t, 0) for t in types)
+                fsh = 100.0 * fam / tot
+                if fsh < lo:
+                    bad.append('%s %s: %s is %.1f%% (%d items), floor %.0f%%'
+                               % (tag, skill, label, fsh, fam, lo))
+                    print('    %-42s %4d  %5.1f%%  UNDER %.0f%%'
+                          % ('(%s)' % label, fam, fsh, lo))
             if skill == 'listen':
                 fam = sum(cen.get(t, 0) for t in
                           ('note/table/flow-chart completion',

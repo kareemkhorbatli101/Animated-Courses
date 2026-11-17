@@ -458,8 +458,7 @@ UNIT = dict(
           ('She says the heading she filed contained the words "small '
            'study ____________".', None, 'suggests',
            'And that the desk cut it for space.'),
-          ('The desk cut her heading at about ____________ at night.',
-           None, 'eleven',
+          ('When did the desk cut her heading?', None, 'about eleven',
            'Which she says is what the desk does then.'),
           (
            'The part she says she would change is that she knew the '
@@ -746,8 +745,8 @@ UNIT = dict(
           ('The outcome must be written down and lodged before a single '
            '____________ is recruited.', None, 'volunteer',
            'Box one, where the single question is written down.'),
-          ('With fifteen measurements, he says, one comes out well by '
-           '____________.', None, 'chance',
+          ('With fifteen measurements, how does one come out well?',
+           None, 'by chance',
            'Which is why one outcome is named in advance.'),
           ('The size of the trial is fixed at',
            ['the question', 'recruitment', 'measurement', 'write-up'],
@@ -762,8 +761,8 @@ UNIT = dict(
           ('A trial in which nobody knows which group is which is called '
            '____________.', None, 'blind',
            'Box four, with an identical dummy pill.'),
-          ('The published literature, he says, is the ____________ half '
-           'of the research that was done.', None, 'flattering',
+          ('What does he say the published literature is?', None,
+           'the flattering half',
            'Because write-up is skipped selectively.')])],
    speak=dict(
     part='Part 3', focus='Testing whether something works',
@@ -1333,17 +1332,16 @@ UNIT = dict(
            ['untrue', 'worthless', 'unfair', 'unusual'], 1,
            'As a defence, whatever its individual merits.',
            {0: 'She says some of it was true, which is her point.', 2: 'Unfairness is not what she accuses herself of.', 3: 'She calls it the standard move, so it is not unusual.'}),
-          ('They disagree about whether a disputed finding should stay in '
-           'the ____________ until the pattern is clear.', None,
-           'textbooks', 'Or come out and go back in if it survives.'),
+          ('Where do they disagree a disputed finding should stay?',
+           None, 'the textbooks',
+           'Or come out and go back in if it survives.'),
           ('Her argument is that removing a finding is also a '
            '____________ made on thin evidence.', None, 'claim',
            'Which he calls the best version of her case.'),
           ('She withdrew her claim after ____________ more groups had '
            'tried it.', None, 'three',
            'Two finding nothing and one finding half the effect.'),
-          ('Not one outlet reported the ____________.', None,
-           'withdrawal',
+          ('What did not one outlet report?', None, 'the withdrawal',
            'Although everybody wrote about the failed repeat.')])],
    speak=dict(
     part='Part 3', focus='How science corrects itself',
