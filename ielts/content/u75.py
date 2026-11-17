@@ -256,10 +256,12 @@ UNIT = dict(
          items=[
           ('Who has lived on the street longest?',
            ['Yvette', 'Mo', 'Dilek', 'all the same'], 0,
-           'Yvette has lived there thirty years.'),
+           'Yvette has lived there thirty years.',
+           {1: 'Mo moved in two years ago.', 2: 'Dilek\u2019s length of residence is not given.', 3: 'Yvette has been there far longer than Mo.'}),
           ('Who values the street because of the school?',
            ['Yvette', 'Mo', 'Dilek', 'none of them'], 1,
-           'He knows sixty people by sight because of it.'),
+           'He knows sixty people by sight because of it.',
+           {0: 'Yvette values the bus route, not the school.', 2: 'Dilek is concerned with the new flats.', 3: 'Mo values the street because of the school.'}),
           (
            'Yvette says the street changed when the ____________ '
            'moved.', None, 'bus route',
@@ -895,9 +897,10 @@ UNIT = dict(
            None, 'build', 'Paragraph 1, but needs new roads and '
            'pipes.'),
           ('Which answer has a lower public cost per home?',
-           ['building outward', 'using existing homes',
-            'building upward', 'doing nothing'], 2,
-           'Paragraph 2: the roads and pipes already exist.'),
+           ['building outward', 'using existing homes', 'building upward', 'doing nothing'],
+           2, 'Paragraph 2: the roads and pipes already exist.',
+           {0: 'Building outward needs new roads, pipes and buses.', 1: 'Using existing homes saves land, not public cost per '
+               'home.', 3: 'Doing nothing builds no homes at all.'}),
           ('A hundred small sites are needed to do what one '
            '____________ does.', None, 'field',
            'Paragraph 2, which makes building inside slow.'),

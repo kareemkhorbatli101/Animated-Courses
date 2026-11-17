@@ -113,19 +113,19 @@ UNIT = dict(
            0, 'Only one of the four sockets is marked WAN.',
            {1: 'A password that is refused is usually an O read as a '
                'letter.', 2: 'A connection that stops after a minute means two '
-               'routers are competing.'}),
+               'routers are competing.', 3: 'No red light is described in the leaflet.'}),
           ('Which problem is usually an O read as a letter?',
            ['a light that stays orange', 'a password that is refused', 'a connection that stops after a minute', 'a red light'],
            1, 'The leaflet says to try the zero instead.',
            {0: 'A light that stays orange means the cable is in the '
                'wrong socket.', 2: 'A connection that stops after a minute means two '
-               'routers are competing.'}),
+               'routers are competing.', 3: 'No red light is described in the leaflet.'}),
           ('Which problem means two routers are competing?',
            ['a light that stays orange', 'a password that is refused', 'a connection that stops after a minute', 'a red light'],
            2, 'And the old one must be unplugged, not switched off.',
            {0: 'A light that stays orange means the cable is in the '
                'wrong socket.', 1: 'A password that is refused is usually an O read as a '
-               'letter.'}),
+               'letter.', 3: 'No red light is described in the leaflet.'}),
           ('An old router that is switched off still ____________.',
            None, 'answers', 'Which is why it must be unplugged.'),
           ('The helpline is open from eight until ____________.',
@@ -301,12 +301,12 @@ UNIT = dict(
          items=[
           ('Which family has a rule about where screens are used?',
            ['the Nowaks', 'the Baptistes', 'both', 'neither'], 1,
-           'Screens stay in the main room and nothing goes '
-           'upstairs.'),
+           'Screens stay in the main room and nothing goes upstairs.',
+           {0: 'The Nowaks have a weekday time rule instead.', 2: 'Only the Baptistes have a place rule.', 3: 'The Baptistes use a place rule.'}),
           ('Which family\u2019s rule has no exceptions?',
            ['the Nowaks', 'the Baptistes', 'both', 'neither'], 0,
            'No screens at all on weekdays.',
-           {1: 'The Baptistes has a rule about where screens are used.'}),
+           {1: 'The Baptistes has a rule about where screens are used.', 2: 'The Baptiste rule is about place, not exceptions.', 3: 'The Nowak weekday rule has no exceptions.'}),
           ('Where do the Nowaks admit their eldest child watches?',
            None, 'a friend\u2019s house',
            'Which they did not intend and cannot prevent.'),
@@ -317,11 +317,9 @@ UNIT = dict(
            'referee', 'While a visible rule can be checked at a '
            'glance.'),
           ('What did both families conclude?',
-           ['screens should be banned',
-            'the rule matters less than whether adults follow it',
-            'younger children need stricter rules',
-            'weekends should be free'], 1,
-           'The last paragraph, which contrasts the two houses.')])],
+           ['screens should be banned', 'the rule matters less than whether adults follow it', 'younger children need stricter rules', 'weekends should be free'],
+           1, 'The last paragraph, which contrasts the two houses.',
+           {0: 'Neither family bans screens altogether.', 2: 'Age is not what either family concluded about.', 3: 'The Nowak weekends are chaotic, not a conclusion.'})])],
    listen=[
     dict(heading='Two parents disagree about screen time',
          part='Part 3',
@@ -759,9 +757,9 @@ UNIT = dict(
            '____________.', None, 'cold',
            'Paragraph 3, colder than the inside of the fridge.'),
           ('Which stage takes heat from the food?',
-           ['compression', 'condensing', 'expansion', 'evaporating'],
-           3, 'Paragraph 3: the cold liquid passes through the '
-           'cabinet.'),
+           ['compression', 'condensing', 'expansion', 'evaporating'], 3,
+           'Paragraph 3: the cold liquid passes through the cabinet.',
+           {0: 'Compression squeezes the gas and makes it hot.', 1: 'Condensing releases heat at the coils behind.', 2: 'Expansion makes the liquid cold before the cabinet.'}),
           ('Heat always flows from the ____________ thing to the '
            'colder one.', None, 'hotter',
            'Paragraph 4, which the whole machine depends on.')])],

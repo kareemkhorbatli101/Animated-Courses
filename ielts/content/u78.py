@@ -249,11 +249,12 @@ UNIT = dict(
          items=[
           ('Which family eats a dish nobody especially likes?',
            ['the Oseis', 'the Lindqvists', 'the Haddads', 'none'], 0,
-           'Which the eldest daughter says is the point.'),
+           'Which the eldest daughter says is the point.',
+           {1: 'The Lindqvists walk a route; no meal is named.', 2: 'The Haddads stopped their tradition altogether.', 3: 'The Osei rice is the dish nobody especially likes.'}),
           ('Which tradition is the newest?',
-           ['the Oseis’', 'the Lindqvists’',
-            'the Haddads’', 'they are the same age'], 1,
-           'It began nine years ago, after a death.'),
+           ['the Oseis\u2019', 'the Lindqvists\u2019', 'the Haddads\u2019', 'they are the same age'],
+           1, 'It began nine years ago, after a death.',
+           {0: 'The Osei meal is annual and long established.', 2: 'The Haddad tradition ran for thirty years.', 3: 'The Lindqvist tradition is only nine years old.'}),
           ('The Osei dish takes ____________ hours to cook.', None,
            'four', 'Slow-cooked rice with very little in it.'),
           ('The Lindqvist walk is about ____________ kilometres.',
@@ -489,7 +490,9 @@ UNIT = dict(
          items=[
           ('At which event does hot food take the largest share?',
            ['harvest', 'spring fair', 'midwinter', 'music'], 3,
-           'Sixty-two per cent at the music festival.'),
+           'Sixty-two per cent at the music festival.',
+           {0: 'Harvest is not among the shares quoted.', 1: 'Hot food takes only thirty-one per cent there.', 2: 'Midwinter takes fifty-eight per cent, four points '
+               'less.'}),
           ('Bread and cake reach ____________ per cent at the spring '
            'fair.', None, 'forty-four',
            'The highest share of any category anywhere.'),
@@ -704,7 +707,8 @@ UNIT = dict(
            'Paragraph 2, with a fixed quantity of equipment.'),
           ('Which stage can stop everything?',
            ['review', 'booking', 'licensing', 'ticketing'], 2,
-           'Paragraph 3: the council sets conditions.'),
+           'Paragraph 3: the council sets conditions.',
+           {0: 'The review happens after the last festival ends.', 1: 'Booking limits the choice but does not stop it.', 3: 'Tickets go on sale once the licence is likely.'}),
           ('An objection answered in advance is ____________.', None,
            'administrative',
            'Paragraph 3, while the same one at a hearing is a '
@@ -898,9 +902,10 @@ UNIT = dict(
            'town ____________.', None, 'watched',
            'Paragraph 2, rather than something it did.'),
           ('Which group mentioned warmth and seats?',
-           ['parents', 'older residents', 'wheelchair users',
-            'former attenders'], 1,
-           'Paragraph 3, among those who newly arrived.'),
+           ['parents', 'older residents', 'wheelchair users', 'former attenders'],
+           1, 'Paragraph 3, among those who newly arrived.',
+           {0: 'Parents mentioned the cold street at nine at night.', 2: 'Wheelchair users attended for the first time.', 3: 'Former attenders said it had stopped being something '
+               'the town did.'}),
           ('Two people in ____________ attended for the first time.',
            None, 'wheelchairs',
            'Paragraph 3, one after sixty years in the town.'),

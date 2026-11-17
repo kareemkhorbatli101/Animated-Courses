@@ -615,9 +615,10 @@ UNIT = dict(
            'a generation.', None, 'decade',
            'Paragraph 3, which is the uncomfortable part.'),
           ('What does the writer say an honest account must do?',
-           ['choose one side', 'quote the figures', 'say both things',
-            'predict the next change'], 2,
-           'Paragraph 3: more work in total, disaster for some.')])],
+           ['choose one side', 'quote the figures', 'say both things', 'predict the next change'],
+           2, 'Paragraph 3: more work in total, disaster for some.',
+           {0: 'Choosing one side is what paragraph 3 refuses to do.', 1: 'The figures come in paragraphs 1 and 2, not the '
+               'demand.', 3: 'Paragraph 3 makes no prediction about the next change.'})])],
    listen=[
     dict(heading='A talk about work and machines', part='Part 4',
          task='A short lecture to first-year students', band='l4',
@@ -799,7 +800,8 @@ UNIT = dict(
            ['they have read the evidence', 'they are describing their temperament', 'they are probably right', 'they work in software'],
            1,
            'Paragraph 3, the last sentence, which is about certainty '
-           'itself.')])],
+           'itself.',
+           {0: 'Paragraph 3 says the evidence does not settle it.', 2: 'The writer does not say they are probably right.', 3: 'Nothing is said about where such people work.'})])],
    listen=[
     dict(heading='Two students disagree about automation',
          part='Part 3',

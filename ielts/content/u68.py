@@ -817,7 +817,9 @@ UNIT = dict(
            ['the system\u2019s name', 'the number of hospitals', 'how much is spent and how early people are seen', 'the history of the country'],
            2,
            'Paragraph 3, the last sentence, which ranks the four '
-           'things.')])],
+           'things.',
+           {0: 'The system\u2019s name is not what paragraph 3 ranks.', 1: 'Hospital numbers are not mentioned anywhere.', 3: 'History explains the mixture rather than mattering '
+               'most.'})])],
    listen=[
     dict(heading='Two people compare hospitals', part='Part 3',
          task='A discussion between two students', band='l3',

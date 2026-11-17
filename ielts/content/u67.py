@@ -805,9 +805,10 @@ UNIT = dict(
            'systems.', None, 'pre-school',
            'Paragraph 3: the start age is one part of a whole.'),
           ('What would a country get if it moved the age alone?',
-           ['both advantages', 'the costs and none of the advantages',
-            'neither cost nor advantage', 'a smaller gap'],
-           1, 'Paragraph 3, as happened twice recently.')])],
+           ['both advantages', 'the costs and none of the advantages', 'neither cost nor advantage', 'a smaller gap'],
+           1, 'Paragraph 3, as happened twice recently.',
+           {0: 'Paragraph 3 says the advantages would not follow.', 2: 'The costs of a late start would still arrive.', 3: 'An early start widens the gap; moving the age alone '
+               'does not close it.'})])],
    listen=[
     dict(heading='Two students compare their schools', part='Part 3',
          task='A discussion between two students', band='l3',

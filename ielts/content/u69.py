@@ -815,11 +815,13 @@ UNIT = dict(
           ('Early specialisation is genuinely needed where the career '
            'is over by ____________.', None, 'twenty-five',
            'Paragraph 3, in a small number of sports.'),
-          ('What is wrong with studying only those who reached the '
+          (
+           'What is wrong with studying only those who reached the '
            'top?',
-           ['they are too old', 'they do not remember',
-            'they are the survivors', 'they play too many sports'], 2,
-           'Paragraph 3: nobody counts those who stopped.')])],
+           ['they are too old', 'they do not remember', 'they are the survivors', 'they play too many sports'],
+           2, 'Paragraph 3: nobody counts those who stopped.',
+           {0: 'Age is not the flaw in the sample.', 1: 'Memory is the flaw in the studies that ask adults to '
+               'recall.', 3: 'Playing many sports is what the non-specialisers did.'})])],
    listen=[
     dict(heading='Two coaches disagree', part='Part 3',
          task='A discussion between two coaches', band='l3',

@@ -254,7 +254,8 @@ UNIT = dict(
          items=[
           ('How long did she measure the journey for?',
            ['a month', 'three months', 'six months', 'a year'], 3,
-           'Every day, door to door, by both means.'),
+           'Every day, door to door, by both means.',
+           {0: 'A month is far shorter than the period described.', 1: 'Three months is a quarter of the period described.', 2: 'Six months is half the period described.'}),
           ('The bicycle’s best month was ____________ at '
            'twenty-four minutes.', None, 'July',
            'And its worst was December at thirty-three.'),
@@ -464,9 +465,10 @@ UNIT = dict(
           'city now reports cost per journey rather than total cost.'],
          items=[
           ('How many bicycles were put out in the first year?',
-           ['eight hundred', 'four hundred', 'one thousand',
-            'two hundred'], 0,
-           'At forty stands, in a city of three hundred thousand.'),
+           ['eight hundred', 'four hundred', 'one thousand', 'two hundred'],
+           0, 'At forty stands, in a city of three hundred thousand.',
+           {1: 'Four hundred is half the number put out.', 2: 'One thousand is the total after the second year\u2019s '
+               'additions.', 3: 'Two hundred is the number added in the second year.'}),
           ('The commonest complaint was that stands were '
            '____________ when people wanted a bicycle.', None,
            'empty', 'And full when they wanted to leave one.'),
@@ -722,9 +724,9 @@ UNIT = dict(
            'Paragraph 2: a gate cannot be pushed against a '
            'difference.'),
           ('Which stage takes the longest?',
-           ['the approach', 'emptying the lock',
-            'filling the lock', 'leaving the lock'], 2,
-           'Paragraph 3: about five minutes in an ordinary lock.'),
+           ['the approach', 'emptying the lock', 'filling the lock', 'leaving the lock'],
+           2, 'Paragraph 3: about five minutes in an ordinary lock.',
+           {0: 'The approach is where the boat waits below.', 1: 'Emptying the lock comes before the boat enters.', 3: 'Leaving the lock happens once it is full.'}),
           ('Fast water throws a ____________ about.', None, 'boat',
            'Paragraph 3, which is where damage happens.'),
           ('A lock built in ____________ works in the same way as a '
@@ -913,9 +915,9 @@ UNIT = dict(
           'two will not.'],
          items=[
           ('How much did use rise over the first two years?',
-           ['about three per cent', 'about ten per cent',
-            'about fourteen per cent', 'about forty per cent'], 2,
-           'Paragraph 2, against the forty per cent predicted.'),
+           ['about three per cent', 'about ten per cent', 'about fourteen per cent', 'about forty per cent'],
+           2, 'Paragraph 2, against the forty per cent predicted.',
+           {0: 'Three per cent is the fall in car journeys.', 1: 'Ten per cent is the fall in journey times.', 3: 'Forty per cent is what supporters had predicted.'}),
           ('Most new passengers had previously ____________ or '
            'cycled.', None, 'walked',
            'Paragraph 2, rather than driven.'),

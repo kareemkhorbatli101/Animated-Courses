@@ -233,10 +233,9 @@ UNIT = dict(
           ('Boots should already be ____________.', None, 'worn in',
            'New boots ruin the second day of a holiday.'),
           ('Which three small items make the most difference?',
-           ['boots, socks and a map', 'gloves, a hat and a scarf',
-            'a thick coat, a bag and a stick',
-            'a torch, a scarf and gloves'], 1,
-           'They take almost no room in a bag and change the day.'),
+           ['boots, socks and a map', 'gloves, a hat and a scarf', 'a thick coat, a bag and a stick', 'a torch, a scarf and gloves'],
+           1, 'They take almost no room in a bag and change the day.',
+           {0: 'Boots matter, but socks and a map are not on the list.', 2: 'Paragraph 3 says these three beat any coat.', 3: 'A torch is not among the three items named.'}),
           ('Most heat is lost at the ____________ of the body.', None,
            'edges', 'Which is why the ends are covered first.')])],
    listen=[

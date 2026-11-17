@@ -563,9 +563,9 @@ UNIT = dict(
            'numbers.', None, 'generation',
            'Paragraph 2, and the gap caused fast growth.'),
           ('Which cause does the writer say is weakest?',
-           ['fewer children dying', 'children becoming students',
-            'women moving into paid work', 'cities growing'], 2,
-           'Paragraph 3: it follows the other two.'),
+           ['fewer children dying', 'children becoming students', 'women moving into paid work', 'cities growing'],
+           2, 'Paragraph 3: it follows the other two.',
+           {0: 'Fewer children dying is the first and strongest cause.', 1: 'Children becoming students is the second cause.', 3: 'City growth is not listed as one of the three causes.'}),
           ('In a city with schools, a child costs money for '
            '____________ years.', None, 'sixteen',
            'Paragraph 3, against a week to be useful on a farm.')])],

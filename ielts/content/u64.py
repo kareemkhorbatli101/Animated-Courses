@@ -60,13 +60,15 @@ UNIT = dict(
           'the till: we cannot simply look it up.'],
          items=[
           ('Which till does not take cards?', ['A', 'B', 'C', 'D'], 0,
-           'Notice A: the card machine is out of use.'),
+           'Notice A: the card machine is out of use.',
+           {1: 'Notice B asks customers to have a card ready.', 2: 'Notice C limits the till to baskets of nine items.', 3: 'Notice D is about receipts for refunds.'}),
           ('When does the new card machine arrive?', None, 'Friday',
            'Notice A, which calls it a replacement.'),
           ('What is the most items allowed at till C?', None, 'nine',
            'Notice C: baskets only, nine items or fewer.'),
           ('Which till is the busiest?', ['A', 'B', 'C', 'D'], 1,
-           'Notice B: twice as many customers as the others.'),
+           'Notice B: twice as many customers as the others.',
+           {0: 'Notice A is the till with no card machine.', 2: 'Notice C is the baskets-only till.', 3: 'Notice D is about receipts for refunds.'}),
           ('What do you need for a refund?', None, 'a receipt',
            'Notice D, which asks you to keep the page.')])],
    listen=[
@@ -374,7 +376,8 @@ UNIT = dict(
            'Paragraph 3: an item without its parts cannot be resold.'),
           ('Which cannot be returned unless faulty?',
            ['coats', 'electrical goods', 'food', 'books'], 2,
-           'Paragraph 4, along with earrings.')])],
+           'Paragraph 4, along with earrings.',
+           {0: 'Coats may be returned within fourteen days.', 1: 'Electrical goods may be returned with their parts.', 3: 'Books are not among the exceptions in paragraph 4.'})])],
    listen=[
     dict(heading='Returning a jacket', part='Part 1',
          task='A conversation at a customer desk', band='l1',
@@ -589,10 +592,13 @@ UNIT = dict(
           ('As income rises, the ____________ spent on food falls.',
            None, 'share',
            'Paragraph 2, although the amount rises.'),
-          ('Which grows faster than income while a country becomes '
+          (
+           'Which grows faster than income while a country becomes '
            'richer?',
-           ['food', 'housing', 'spending on goods to own', 'travel'],
-           2, 'Paragraph 3, before it settles.'),
+           ['food', 'housing', 'spending on goods to own', 'travel'], 2,
+           'Paragraph 3, before it settles.',
+           {0: 'The share spent on food falls as income rises.', 1: 'Housing takes the largest share but does not outgrow '
+               'income.', 3: 'Travel takes a smaller share than anybody expects.'}),
           ('Companies advertise hardest inside that ____________.',
            None, 'window', 'Paragraph 3, which is when goods spread.')])],
    listen=[

@@ -807,10 +807,12 @@ UNIT = dict(
           ('Successful towns tried to attract visitors at a different '
            '____________.', None, 'time',
            'Paragraph 3, rather than more of them.'),
-          ('Spreading visitors across twenty weeks means the town '
+          (
+           'Spreading visitors across twenty weeks means the town '
            'needs fewer ____________.',
            ['visitors', 'shops', 'beds', 'residents'], 2,
-           'Paragraph 3: fewer beds, car parks and short contracts.')])],
+           'Paragraph 3: fewer beds, car parks and short contracts.',
+           {0: 'The number of visitors stays the same, spread wider.', 1: 'A shop selling shoes survives, so shops are not fewer.', 3: 'Spreading visitors keeps young residents in the town.'})])],
    listen=[
     dict(heading='Planning a weekend away', part='Part 3',
          task='A discussion between two students', band='l3',

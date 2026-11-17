@@ -262,7 +262,8 @@ UNIT = dict(
          items=[
           ('How long did the paper wait before printing?',
            ['one day', 'two days', 'four days', 'two weeks'], 2,
-           'And the four days of checking are the story.'),
+           'And the four days of checking are the story.',
+           {0: 'One day is far shorter than the wait described.', 1: 'Two days is half the wait paragraph 1 reports.', 3: 'Two weeks is much longer than the four days.'}),
           ('The first check was the bare ____________ in the '
            'background.', None, 'trees',
            'Which do not occur in that town in March.'),
@@ -498,9 +499,9 @@ UNIT = dict(
           'and broadcasters.'],
          items=[
           ('What share of the youngest group named a phone or app?',
-           ['fifty-eight per cent', 'seventy-one per cent',
-            'thirty-four per cent', 'twelve per cent'], 1,
-           'Against twelve per cent of the oldest group.'),
+           ['fifty-eight per cent', 'seventy-one per cent', 'thirty-four per cent', 'twelve per cent'],
+           1, 'Against twelve per cent of the oldest group.',
+           {0: 'Fifty-eight per cent appears in none of the figures.', 2: 'Thirty-four per cent appears in none of the figures.', 3: 'Twelve per cent is the oldest group\u2019s share.'}),
           ('Television reaches ____________ per cent in the oldest '
            'group.', None, 'sixty-one',
            'Up from fourteen in the youngest.'),
@@ -720,9 +721,9 @@ UNIT = dict(
           ('Where does the cable begin?', None, 'at an exchange',
            'Paragraph 1: a building called an exchange.'),
           ('Which section never limits the speed?',
-           ['the drop cable', 'the fibre to the cabinet',
-            'the wall socket', 'the wireless signal'], 1,
-           'Paragraph 1: its capability far exceeds the demand.'),
+           ['the drop cable', 'the fibre to the cabinet', 'the wall socket', 'the wireless signal'],
+           1, 'Paragraph 1: its capability far exceeds the demand.',
+           {0: 'The copper drop cable weakens with distance.', 2: 'The wall socket is where the drop cable ends.', 3: 'The wireless signal is stopped by walls and metal.'}),
           ('A typical cabinet serves about ____________ homes.',
            None, 'three hundred',
            'Paragraph 2, each with its own drop cable.'),
@@ -921,9 +922,9 @@ UNIT = dict(
           ('The correction appeared ____________ days later.', None,
            'eight', 'Paragraph 1, in a box on page two.'),
           ('How many readers were telephoned?',
-           ['two hundred', 'one hundred', 'fifty',
-            'five hundred'], 0,
-           'Paragraph 2, three weeks after the correction.'),
+           ['two hundred', 'one hundred', 'fifty', 'five hundred'], 0,
+           'Paragraph 2, three weeks after the correction.',
+           {1: 'One hundred is half the sample described.', 2: 'Fifty is a quarter of the sample described.', 3: 'Five hundred is more than twice the sample.'}),
           ('____________ per cent could recall a correction '
            'appearing.', None, 'Four',
            'Paragraph 2, among those who remembered the story.'),
