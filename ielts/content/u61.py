@@ -266,13 +266,23 @@ UNIT = dict(
           ('The stall is open Tuesday to ____________.', None,
            'Saturday', 'The last line: it is closed on Sunday.')])],
    speak=dict(
-    part='Part 1', focus='Where you buy your food',
-    intro='Say where, then say why. The second sentence is the one that '
-          'is worth marks.',
+    part='Part 1 into Part 2', focus='Where you buy your food',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: say where, then say why. The second '
+           'sentence is the one that is worth marks.'),
+    cue=('Describe a shop or a market you go to.',
+         ['say where it is',
+          'say what it sells',
+          'say how often you go',
+          'and explain why you go there']),
     qs=['Where do you buy most of your food?',
         'Do you go to a market or a supermarket?',
         'How often do you shop for food?',
-        'Is food expensive where you live?'],
+        'Is food expensive where you live?',
+        'Now look at the card. You have one minute to make notes.',
+        'Is it busy when you go?',
+        'Who do you usually go with?'],
     shape=[('answer', 'I buy most of my food at a small supermarket '
             'near my flat.'),
            ('support', 'It is two minutes away, so I can shop after '
@@ -429,12 +439,16 @@ UNIT = dict(
                'happy that there is one meal I can cook well. My mother taught '
                'me this dish when I was about sixteen, so it also reminds me '
                'of home.')],
-    intro='One minute to prepare, two minutes to speak. Use the four '
-          'bullets in order and you will not stop early.',
-    qs=['Describe a meal you can cook.',
-        'Say what is in it.',
-        'Say when you cook it.',
-        'Say why you like it.'],
+    intro=('One minute to prepare, two minutes to speak. Use the four '
+           'bullets in order and you will not stop early.'),
+    cue=('Describe a meal you can cook.',
+         ['say what is in it',
+          'say when you cook it',
+          'say why you like it',
+          'and explain who you usually cook it for']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who taught you to cook it?',
+        'Do you cook it often?'],
     shape=[('answer', 'The meal I can cook best is rice with eggs and '
             'tomatoes.'),
            ('support', 'It needs five things and all of them are cheap.'),
@@ -625,10 +639,20 @@ UNIT = dict(
            '____________.', None, 'paperwork',
            'The speaker calls it "not free money".')])],
    speak=dict(
-    part='Part 3', focus='Food that comes from other countries',
-    intro='Part 3 answers are longer. Give an opinion and one reason, '
-          'then an example.',
-    qs=['Is it a good thing that food comes from other countries?',
+    part='Part 2 into Part 3', focus='Food that comes from other countries',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: part 3 answers are longer. Give an '
+           'opinion and one reason, then an example.'),
+    cue=('Describe a food from another country that you like.',
+         ['say what it is',
+          'say where it comes from',
+          'say when you first tried it',
+          'and explain why you like it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Can you buy it easily?',
+        'Is it expensive where you live?',
+        'Is it a good thing that food comes from other countries?',
         'Should people buy food grown near their home?',
         'Will farms be different in fifty years?'],
     shape=[('answer', 'I think it is mostly a good thing, but not '

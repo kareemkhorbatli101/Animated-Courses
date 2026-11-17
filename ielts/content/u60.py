@@ -856,10 +856,20 @@ UNIT = dict(
            1, 'Because an average cannot both compress and describe.',
            {0: 'The arithmetic is computed exactly as published.', 2: 'Section scores are what he asks people to read.', 3: 'The rounding rule is part of the published method.'})])],
    speak=dict(
-    part='Part 3', focus='Reporting an ability as a number',
-    intro=('Five or six sentences. Try once to say what an average '
-           'cannot do.'),
-    qs=['Is it useful to report an ability as a single number?',
+    part='Part 2 into Part 3', focus='Reporting an ability as a number',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: five or six sentences. Try once to say '
+           'what an average cannot do.'),
+    cue=('Describe a test or an examination you have taken.',
+         ['what it was for',
+          'how you prepared for it',
+          'what the result was',
+          'and explain how well it reflected your ability']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What did it fail to measure?',
+        'Would you take it again?',
+        'Is it useful to report an ability as a single number?',
         'What is lost when several measures are combined?',
         'Should institutions look at the parts or the whole?',
         'Would you trust a single score about yourself?'],
@@ -1219,7 +1229,7 @@ UNIT = dict(
            'Which he calls the newest and most argued-over kind of '
            'evidence.')])],
    speak=dict(
-    part='Part 3', focus='What a score entitles you to say',
+    part='Part 2 into Part 3', focus='What a score entitles you to say',
     followup=[(('You say you learned the bank, not the skill. What can a test '
                 'score tell an employer?'),
                ('That the candidate could do certain things on one day, within '
@@ -1245,9 +1255,19 @@ UNIT = dict(
                 'employer, who wants a single cut-off. The useful arrangement '
                 'is a published standard with the error attached, and a '
                 'regulator able to object when a user over-reads it.'))],
-    intro=('Five or six sentences. Try once to say that validity belongs '
-           'to an inference.'),
-    qs=['What can a test score tell an employer?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: five or six sentences. Try once to '
+           'say that validity belongs to an inference.'),
+    cue=('Describe a time a number decided something for you.',
+         ['what the number was',
+          'who used it',
+          'what was decided',
+          'and explain whether you accepted the decision']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could you appeal against it?',
+        'What else should they have looked at?',
+        'What can a test score tell an employer?',
         'Should a single score decide an application?',
         'How much error should we expect in a measurement?',
         'Who should decide what a score means?'],
@@ -1605,7 +1625,7 @@ UNIT = dict(
            'section like it.',
            {0: 'Reading samples widely but is not the example given.', 1: 'Writing is where a learnable shape can be taught.', 3: 'Listening is not the section named as resistant.'})])],
    speak=dict(
-    part='Part 3', focus='Learning the thing, not the test',
+    part='Part 2 into Part 3', focus='Learning the thing, not the test',
     sounds=[('The last page of the series is about the gap between the sound '
              'and the score. Everything on these pages has been one thing: '
              'make the word you chose audible to somebody hearing it once.'),
@@ -1621,9 +1641,19 @@ UNIT = dict(
             ('Keep your first recording from Foundation 1 or Volume 1. '
              'Listening to it beside today\'s is the only evidence of this kind '
              'you will ever have, and nobody who throws it away gets it back.')],
-    intro=('The last long turn of the volume. Try once to state an '
-           'asymmetry.'),
-    qs=['Do exams change what is taught?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: the last long turn of the volume. Try once to '
+           'state an asymmetry.'),
+    cue=('Describe how you have prepared for this examination.',
+         ['what you have done so far',
+          'how you organised your time',
+          'what you have found hardest',
+          'and explain what you would tell somebody starting now']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What has helped you most?',
+        'What would you do differently?',
+        'Do exams change what is taught?',
         'Is that always a bad thing?',
         'Should test preparation be regulated?',
         'What would you tell someone beginning to prepare?'],

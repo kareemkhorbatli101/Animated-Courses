@@ -899,10 +899,21 @@ UNIT = dict(
            None, 'false',
            'Which is why the two series are published separately.')])],
    speak=dict(
-    part='Part 3', focus='Counting and categories',
-    intro=('Five or six sentences. Try once to say that a jump in a figure '
-           'may be a change in counting.'),
-    qs=['Why do governments count their populations?',
+    part='Part 2 into Part 3', focus='Counting and categories',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: five or six sentences. Try '
+           'once to say that a jump in a figure may be a change in '
+           'counting.'),
+    cue=('Describe a form or a census you have had to complete.',
+         ['what it was for',
+          'what it asked you',
+          'which questions were hard to answer',
+          'and explain what your answers could not capture']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who was it for?',
+        'What would you add to it?',
+        'Why do governments count their populations?',
         'Can everything about a population be measured?',
         'What happens when definitions change?',
         'Should statistics be comparable over long periods?'],
@@ -1267,7 +1278,7 @@ UNIT = dict(
            None, 'reviewable',
            'Which he calls the property you can actually have.')])],
    speak=dict(
-    part='Part 3', focus='Lines and cases',
+    part='Part 2 into Part 3', focus='Lines and cases',
     followup=[(('You would ask for hours rather than identity. Should rules '
                 'have exact limits?'),
                ('Where the consequence is automatic, yes, because a vague rule '
@@ -1292,9 +1303,19 @@ UNIT = dict(
                 'fairness of process predicts acceptance better than the '
                 'outcome does, which is an argument for spending money on '
                 'explanation rather than on appeals.'))],
-    intro=('Five or six sentences. Try once to say that a sharper rule '
-           'does not remove the hard case.'),
-    qs=['Should rules have exact limits?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: five or six sentences. Try once to say '
+           'that a sharper rule does not remove the hard case.'),
+    cue=('Describe a time you fell just inside or just outside a limit.',
+         ['what the limit was',
+          'which side of it you fell',
+          'what difference it made',
+          'and explain whether it was fair']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could judgement have been used instead?',
+        'Who set the limit?',
+        'Should rules have exact limits?',
         'What should an official do when a case falls on the line?',
         'Is it fairer to have a rule or to use judgement?',
         'Do people accept decisions they disagree with?'],

@@ -320,7 +320,7 @@ UNIT = dict(
            '____________ when the family changes shape.', None,
            'form', 'A condition which Maya says she would sign.')])],
    speak=dict(
-    part='Part 2', focus='A tradition you know',
+    part='Part 1 into Part 2', focus='A tradition you know',
     longturn=[('I am going to talk about a tradition in my country. On the '
                'second of November we visit the graves of our family.'),
               ('What happens is that families go to the cemetery in the '
@@ -340,12 +340,19 @@ UNIT = dict(
                'questions for you. I learned that my great-grandmother '
                'was born in another country standing in front of her '
                'name, and I had never thought to ask.')],
-    intro='One minute, four lines. One tradition, and make the last '
-          'bullet a judgement rather than a description.',
-    qs=['Describe a tradition in your family or your country.',
-        'Say what happens.',
-        'Say when and why it happens.',
-        'Say what you think about it.'],
+    intro=('One minute, four lines. One tradition, and make the last '
+           'bullet a judgement rather than a description.'),
+    cue=('Describe a tradition in your family or your country.',
+         ['say what happens',
+          'say when and why it happens',
+          'say what you think about it',
+          'and explain who takes part']),
+    qs=['Which festival is the biggest where you live?',
+        'Do you cook anything special for it?',
+        'Have the celebrations changed since you were a child?',
+        'Now look at the card. You have one minute to make notes.',
+        'Did you take part this year?',
+        'Will it continue?'],
     shape=[('answer', 'My family eats the same meal on the same day '
             'every year, in September.'),
            ('support', 'It is a rice dish that takes four hours and '
@@ -553,9 +560,20 @@ UNIT = dict(
            'comfort problem.', None, 'safety',
            'Because salty food makes people thirsty.')])],
    speak=dict(
-    part='Part 3', focus='Food and occasions',
-    intro='Make a general point and support it with one example.',
-    qs=['Why is food important at celebrations?',
+    part='Part 2 into Part 3', focus='Food and occasions',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: make a general point and '
+           'support it with one example.'),
+    cue=('Describe a meal you eat on a special day.',
+         ['say what it is',
+          'say who prepares it',
+          'say who eats it with you',
+          'and explain why it is eaten on that day']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who taught your family to make it?',
+        'Has it changed over the years?',
+        'Why is food important at celebrations?',
         'Has what people eat at festivals changed?',
         'Should events sell only local food?'],
     shape=[('answer', 'Food at an occasion is doing a different job '
@@ -764,9 +782,20 @@ UNIT = dict(
            None, 'clearing',
            'Because a clean field buys the next year.')])],
    speak=dict(
-    part='Part 3', focus='Organising events',
-    intro='Give a reason, then say what you would do differently.',
-    qs=['Why do some local events stop happening?',
+    part='Part 2 into Part 3', focus='Organising events',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: give a reason, then say what you would do '
+           'differently.'),
+    cue=('Describe an event in your town that you have been to.',
+         ['say what it was',
+          'say when it happens',
+          'say what people do there',
+          'and explain whether it is well organised']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who pays for it?',
+        'Is it busier than it used to be?',
+        'Why do some local events stop happening?',
         'Should councils support festivals?',
         'What makes an event good for the town it is in?'],
     shape=[('answer', 'Most stop because of licensing or because the '

@@ -453,12 +453,16 @@ UNIT = dict(
                'arrive awake, and in the evening I am not thinking about work '
                'by the time I get home. It costs nothing, and I think it is '
                'the best change I have made.')],
-    intro='One minute to prepare. Four bullets, and give a real '
-          'example rather than a general statement.',
-    qs=['Describe something you do to stay healthy.',
-        'Say what it is.',
-        'Say how often you do it.',
-        'Say what difference it makes.'],
+    intro=('One minute to prepare. Four bullets, and give a real example '
+           'rather than a general statement.'),
+    cue=('Describe something you do to stay healthy.',
+         ['say what it is',
+          'say how often you do it',
+          'say what difference it makes',
+          'and explain how you started doing it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you do it alone or with other people?',
+        'Is it hard to keep up?'],
     shape=[('answer', 'The thing I do is walk to the station instead '
             'of taking the first bus.'),
            ('support', 'It is about twenty minutes, five days a '
@@ -668,12 +672,21 @@ UNIT = dict(
            'years.', None, 'eighteen',
            'And both districts have the same hospitals.')])],
    speak=dict(
-    part='Part 3', focus='Health and society',
-    intro='Give an opinion and a reason, then a consequence. Three or '
-          'four sentences.',
-    qs=['Why do people live longer than they used to?',
-        'Should governments spend more on prevention than on '
-        'hospitals?',
+    part='Part 2 into Part 3', focus='Health and society',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: give an opinion '
+           'and a reason, then a consequence. Three or four sentences.'),
+    cue=('Describe a doctor, a nurse or a dentist you have seen.',
+         ['say who they were',
+          'say why you went',
+          'say what they told you',
+          'and explain how you felt afterwards']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you have to wait long?',
+        'Would you go back to them?',
+        'Why do people live longer than they used to?',
+        'Should governments spend more on prevention than on hospitals?',
         'Why do rich and poor people have different health?'],
     shape=[('answer', 'The largest reason is clean water rather than '
             'medicine.'),

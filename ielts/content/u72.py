@@ -356,7 +356,7 @@ UNIT = dict(
            'you ____________.', None, 'notice',
            'Rather than because of what it records.')])],
    speak=dict(
-    part='Part 2', focus='Something you learned as an adult',
+    part='Part 1 into Part 2', focus='Something you learned as an adult',
     longturn=[('I am going to talk about something I learned as an adult. I '
                'learned to drive at twenty-eight.'),
               ('I started in the March of that year, after a job interview in '
@@ -377,12 +377,19 @@ UNIT = dict(
                'second attempt in the October, and I have driven '
                'almost every day since, and I am still more careful '
                'than my friends who learned at seventeen.')],
-    intro='One minute, four lines. The fourth bullet is where the best '
-          'language is: leave time for it.',
-    qs=['Describe something you learned as an adult.',
-        'Say what it was and when you started.',
-        'Say what was difficult about it.',
-        'Say what you would tell somebody starting now.'],
+    intro=('One minute, four lines. The fourth bullet is where the best '
+           'language is: leave time for it.'),
+    cue=('Describe something you learned as an adult.',
+         ['say what it was and when you started',
+          'say what was difficult about it',
+          'say what you would tell somebody starting now',
+          'and explain whether you still do it']),
+    qs=['Do you play an instrument or sing?',
+        'Is music taught in schools where you live?',
+        'When do you listen to music?',
+        'Now look at the card. You have one minute to make notes.',
+        'How long did it take you?',
+        'Who helped you most?'],
     shape=[('answer', 'I started learning the violin at forty, about '
             'three years ago.'),
            ('support', 'The difficult part was not the playing but the '
@@ -598,10 +605,20 @@ UNIT = dict(
            'than music.', None, 'risk',
            'Which Tomas calls annoyingly well put.')])],
    speak=dict(
-    part='Part 3', focus='Live and recorded',
-    intro='Give both sides, then say which you choose and why. The '
-          'reason is what is marked.',
-    qs=['Is live music better than recorded music?',
+    part='Part 2 into Part 3', focus='Live and recorded',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: give both sides, then say '
+           'which you choose and why. The reason is what is marked.'),
+    cue=('Describe a concert or a live show you have been to.',
+         ['say what it was',
+          'say where it was',
+          'say who you went with',
+          'and explain what it was like']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was it worth the ticket?',
+        'Would you go again?',
+        'Is live music better than recorded music?',
         'Why do people pay so much for concert tickets?',
         'Will people still go to concerts in fifty years?'],
     shape=[('answer', 'The sound is usually better on a recording and '
@@ -835,10 +852,20 @@ UNIT = dict(
            'matters ____________.', None, 'least',
            'Which is the order the speaker wants remembered.')])],
    speak=dict(
-    part='Part 3', focus='Technology and art',
-    intro='Explain the mechanism, then give your view. Three or four '
-          'sentences.',
-    qs=['Has recording changed how people hear music?',
+    part='Part 2 into Part 3', focus='Technology and art',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: explain the mechanism, then give your '
+           'view. Three or four sentences.'),
+    cue=('Describe a song you like.',
+         ['say what it is',
+          'say when you first heard it',
+          'say when you listen to it',
+          'and explain why you like it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Have you heard it played live?',
+        'Do your family like it too?',
+        'Has recording changed how people hear music?',
         'Is it a problem that recordings can be edited?',
         'Should people learn how recordings are made?'],
     shape=[('answer', 'It has changed what people listen to more than '

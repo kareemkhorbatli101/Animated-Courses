@@ -311,7 +311,7 @@ UNIT = dict(
            None, 'Christmas', 'Which Ross says a book should '
            'mention.')])],
    speak=dict(
-    part='Part 2', focus='An animal you know',
+    part='Part 1 into Part 2', focus='An animal you know',
     longturn=[('I am going to talk about an animal I know well. It is a cat '
                'called Vera, and she belongs to my mother.'),
               ('She is about twelve now, grey with white feet, and she is not '
@@ -332,10 +332,17 @@ UNIT = dict(
                'gives everything at once is pleasant; one that does '
                'not teaches you patience.')],
     intro='One minute, four lines. One animal, described properly.',
-    qs=['Describe an animal you know or have known.',
-        'Say what it is and whose it is.',
-        'Say what it is like.',
-        'Say what you have learned from it.'],
+    cue=('Describe an animal you know or have known.',
+         ['say what it is and whose it is',
+          'say what it is like',
+          'say what you have learned from it',
+          'and explain how often you see it']),
+    qs=['Do you have a pet, or did you have one as a child?',
+        'Are there many animals near where you live?',
+        'Do you watch programmes about animals?',
+        'Now look at the card. You have one minute to make notes.',
+        'Who looks after it?',
+        'Would you like another one?'],
     shape=[('answer', 'The animal I know best is my neighbour’s '
             'dog, which I walk twice a week.'),
            ('support', 'She is eight years old, large, and completely '
@@ -544,10 +551,20 @@ UNIT = dict(
            'garden.', None, 'note',
            'Better than any book, the speaker says.')])],
    speak=dict(
-    part='Part 3', focus='Nature near where people live',
-    intro='Give an opinion, a reason and an example. Three or four '
-          'sentences.',
-    qs=['Is it important to have nature in cities?',
+    part='Part 2 into Part 3', focus='Nature near where people live',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: give an opinion, a reason and an '
+           'example. Three or four sentences.'),
+    cue=('Describe a park or a green space near you.',
+         ['say where it is',
+          'say what is in it',
+          'say when you go there',
+          'and explain who else uses it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is it looked after?',
+        'What would you add to it?',
+        'Is it important to have nature in cities?',
         'Should gardens be left wild?',
         'Do people notice wildlife less than they used to?'],
     shape=[('answer', 'I think it matters, and mostly for ordinary '
@@ -752,9 +769,20 @@ UNIT = dict(
            'area.', None, 'depth',
            'Because a pond that freezes solid loses everything.')])],
    speak=dict(
-    part='Part 3', focus='Learning about the natural world',
-    intro='Explain the idea, then say why it is worth knowing.',
-    qs=['Should children learn about animals at school?',
+    part='Part 2 into Part 3', focus='Learning about the natural world',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: explain the '
+           'idea, then say why it is worth knowing.'),
+    cue=('Describe something you learned about an animal or a plant.',
+         ['say what you learned',
+          'say where you learned it',
+          'say how old you were',
+          'and explain why you remember it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Have you told anybody else?',
+        'Would a child find it interesting?',
+        'Should children learn about animals at school?',
         'Is it better to learn from books or from being outside?',
         'Why do people care more about some animals than others?'],
     shape=[('answer', 'I think both are needed, and in that order: '

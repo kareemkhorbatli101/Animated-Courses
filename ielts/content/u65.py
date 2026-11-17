@@ -277,13 +277,23 @@ UNIT = dict(
           ('On Sunday the centre is open from ten until ____________.',
            None, 'four', 'The pool is closed on Sunday morning.')])],
    speak=dict(
-    part='Part 1', focus='Getting lost',
-    intro='Tell a short story: where, what happened, how it ended. '
-          'Three sentences.',
+    part='Part 1 into Part 2', focus='Getting lost',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: tell a short story: where, what '
+           'happened, how it ended. Three sentences.'),
+    cue=('Describe a place where it is easy to get lost.',
+         ['say where it is',
+          'say why it is hard to find your way',
+          'say when you were last there',
+          'and explain how you found your way']),
     qs=['Do you find your way easily in a new town?',
         'Have you ever been lost?',
         'Do you use a map or ask people?',
-        'Is your town easy for visitors?'],
+        'Is your town easy for visitors?',
+        'Now look at the card. You have one minute to make notes.',
+        'Did anybody help you?',
+        'Would more signs make it better?'],
     shape=[('answer', 'I am reasonably good at finding my way, but I '
             'have been lost once badly.'),
            ('support', 'I took the wrong bus in a city I did not know '
@@ -454,12 +464,16 @@ UNIT = dict(
                'ticket, and I arrived. My grandmother was waiting at the '
                'station with food in a bag. I still remember that more than '
                'the long wait in the fields.')],
-    intro='One minute to prepare. Four bullets, and keep the story '
-          'moving: what happened, not how you felt about it.',
-    qs=['Describe a journey you remember.',
-        'Say where you went.',
-        'Say what happened.',
-        'Say how you felt at the end.'],
+    intro=('One minute to prepare. Four bullets, and keep the story '
+           'moving: what happened, not how you felt about it.'),
+    cue=('Describe a journey you remember.',
+         ['say where you went',
+          'say what happened',
+          'say how you felt at the end',
+          'and explain why you still remember it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who were you travelling with?',
+        'Would you make that journey again?'],
     shape=[('answer', 'The journey I remember best is one I made to '
             'the coast two summers ago.'),
            ('support', 'The train was cancelled and we were put on a '
@@ -669,10 +683,20 @@ UNIT = dict(
            '____________.', None, 'estimate',
            'Which this estimate already allows for.')])],
    speak=dict(
-    part='Part 3', focus='Public transport in your town',
-    intro='Give an opinion and a reason, then one example. Keep it to '
-          'four sentences.',
-    qs=['Is public transport good in your town?',
+    part='Part 2 into Part 3', focus='Public transport in your town',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: give an opinion and a reason, then '
+           'one example. Keep it to four sentences.'),
+    cue=('Describe a bus, a train or a tram you use.',
+         ['say where it goes',
+          'say how often you use it',
+          'say what it is like',
+          'and explain what you would change about it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is it usually on time?',
+        'Is it cheap enough?',
+        'Is public transport good in your town?',
         'Should it be free?',
         'What stops people using buses?'],
     shape=[('answer', 'It is reasonable but it stops too early in the '

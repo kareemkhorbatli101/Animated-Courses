@@ -862,10 +862,20 @@ UNIT = dict(
            None, 'argument',
            'Which is why he asks for all three as a matter of routine.')])],
    speak=dict(
-    part='Part 3', focus='What a measure captures',
-    intro=('Five or six sentences. Try once to say that a statistic can '
-           'improve for a reason nobody would want.'),
-    qs=['How should a country measure inequality?',
+    part='Part 2 into Part 3', focus='What a measure captures',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: five or six sentences. Try once to say '
+           'that a statistic can improve for a reason nobody would want.'),
+    cue=('Describe a number that is often quoted about your country.',
+         ['what the number is',
+          'where you usually hear it',
+          'what it is supposed to show',
+          'and explain what you think it leaves out']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you think it is accurate?',
+        'What would you measure instead?',
+        'How should a country measure inequality?',
         'Can statistics about society be misleading without being wrong?',
         'Should governments publish all the measures they hold?',
         'Do people understand the figures they are given?'],
@@ -1230,7 +1240,7 @@ UNIT = dict(
            {0: 'Faster than the period he gives.', 2: 'Longer than the thirty to fifty years he names.', 3: 'A generation is the mechanism, not the figure he '
                'gives.'})])],
    speak=dict(
-    part='Part 3', focus='Getting on and where you started',
+    part='Part 2 into Part 3', focus='Getting on and where you started',
     followup=[(('You say background matters more than people admit. Can '
                 'education close the gap?'),
                ('It can narrow it and it has never closed it anywhere, which '
@@ -1256,9 +1266,20 @@ UNIT = dict(
                 'what makes opportunity real in the next. What I would stop '
                 'doing is offering mobility as a substitute for the other '
                 'question, which is how it is usually deployed.'))],
-    intro=('Five or six sentences. Try once to say why a policy with good '
-           'evidence behind it is not adopted.'),
-    qs=['How much does family background affect success in your country?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: five or six sentences. Try once to '
+           'say why a policy with good evidence behind it is not adopted.'),
+    cue=(('Describe somebody whose life turned out differently from their '
+          'parents.'),
+         ['who they are',
+          'what their parents did',
+          'what they do now',
+          'and explain what you think made the difference']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was education part of it?',
+        'Is their story a common one?',
+        'How much does family background affect success in your country?',
         'Can education close the gap?',
         'Why do governments find this hard to change?',
         'Is social mobility the right goal?'],

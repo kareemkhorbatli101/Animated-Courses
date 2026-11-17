@@ -835,10 +835,20 @@ UNIT = dict(
            'without a ____________ time attached.', None,
            'lead', 'Which he says is missing from most press releases.')])],
    speak=dict(
-    part='Part 3', focus='Measuring a prediction',
-    intro=('Five or six sentences. Try once to say that the best method '
-           'depends on the range.'),
-    qs=['How would you judge whether a forecast is good?',
+    part='Part 2 into Part 3', focus='Measuring a prediction',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: five or six sentences. Try once to '
+           'say that the best method depends on the range.'),
+    cue=('Describe a forecast you check regularly.',
+         ['what it forecasts',
+          'where you get it from',
+          'how far ahead it looks',
+          'and explain how much you rely on it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'How often is it wrong?',
+        'Would you notice if it got worse?',
+        'How would you judge whether a forecast is good?',
         'Are long-range forecasts worth making?',
         'Should forecasters be held accountable for errors?',
         'Do people understand what a forecast is saying?'],
@@ -1195,7 +1205,7 @@ UNIT = dict(
            'quiet periods.',
            {0: 'An inferred estimate is not accurate, he says.', 2: 'The estimate is pessimistic rather than optimistic.', 3: 'He calls the inference durable rather than unstable.'})])],
    speak=dict(
-    part='Part 3', focus='Rare events',
+    part='Part 2 into Part 3', focus='Rare events',
     followup=[(('You say you would act again. How should governments decide '
                 'what to prepare for?'),
                ('By expected harm rather than by probability, which sounds '
@@ -1223,9 +1233,19 @@ UNIT = dict(
                 'forecaster who says thirty per cent and is right three times '
                 'in ten is calibrated, and the only way anybody can see that '
                 'is if somebody keeps the score.'))],
-    intro=('Five or six sentences. Try once to explain why an accurate '
-           'test can be usually wrong.'),
-    qs=['Should societies prepare for events that rarely happen?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: five or six sentences. Try once to explain why an '
+           'accurate test can be usually wrong.'),
+    cue=('Describe something unlikely that happened to you.',
+         ['what happened',
+          'when it was',
+          'how unlikely you thought it was',
+          'and explain how you reacted']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could you have prepared for it?',
+        'Has anything like it happened since?',
+        'Should societies prepare for events that rarely happen?',
         'How should governments decide what to prepare for?',
         'Is it rational to worry about unlikely dangers?',
         'Who should pay for preparing?'],
@@ -1573,7 +1593,7 @@ UNIT = dict(
            None, 'calibration',
            'Which is measured already and never disclosed.')])],
    speak=dict(
-    part='Part 3', focus='Probability and advice',
+    part='Part 2 into Part 3', focus='Probability and advice',
     sounds=[('Probability language must be fast and flat: a one in two hundred '
              'chance, a thirty per cent probability, more likely than not. '
              'Each is one chunk and none takes a rising contour.'),
@@ -1589,11 +1609,21 @@ UNIT = dict(
             ('Record yourself on preparing for rare events. Listen for a '
              'probability you delivered as though you were unsure of it rather '
              'than about it.')],
-    intro=('The hardest turn in the unit. Try once to say that a true '
-           'statement can be an evasion.'),
-    qs=['Should experts give a single answer or a probability?',
-        'Is it fair to blame a forecaster when a predicted event does not '
-        'happen?',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: the hardest turn in the unit. Try '
+           'once to say that a true statement can be an evasion.'),
+    cue=('Describe a warning you were given.',
+         ['what the warning was',
+          'who gave it to you',
+          'how likely the danger seemed',
+          'and explain what you did about it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did the thing actually happen?',
+        'Was the warning worth giving?',
+        'Should experts give a single answer or a probability?',
+        ('Is it fair to blame a forecaster when a predicted event does not '
+         'happen?'),
         'How should uncertainty be explained to the public?',
         'Who should decide what to do about a risk?'],
     shape=[('answer', 'Both, and in that order.'),

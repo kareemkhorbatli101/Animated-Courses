@@ -326,7 +326,7 @@ UNIT = dict(
            'the same observation.', None, 'conclusions',
            'And tells them to include both.')])],
    speak=dict(
-    part='Part 2', focus='A holiday you remember',
+    part='Part 1 into Part 2', focus='A holiday you remember',
     longturn=[('I am going to talk about a holiday I remember well. I spent a '
                'week on a small island with my brother.'),
               ('We went in late May, which was before the season started, and '
@@ -346,12 +346,19 @@ UNIT = dict(
                'the second day we stopped trying. I have had holidays '
                'with more to see. I have never again had a week in '
                'which I did not think about work once.')],
-    intro='One minute, four lines. One holiday, and make the fourth '
-          'bullet count.',
-    qs=['Describe a holiday you remember well.',
-        'Say where you went and when.',
-        'Say what you did there.',
-        'Say why you remember it.'],
+    intro=('One minute, four lines. One holiday, and make the fourth '
+           'bullet count.'),
+    cue=('Describe a holiday you remember well.',
+         ['say where you went and when',
+          'say what you did there',
+          'say why you remember it',
+          'and explain who you went with']),
+    qs=['Do you take your holidays at the same time each year?',
+        'Do visitors come to your town?',
+        'Where would you like to go next?',
+        'Now look at the card. You have one minute to make notes.',
+        'Would you go back?',
+        'What did it cost you?'],
     shape=[('answer', 'The holiday I remember best was a week on the '
             'coast about four years ago.'),
            ('support', 'We walked the coast path south from the '
@@ -564,9 +571,20 @@ UNIT = dict(
            'as ____________.', None, 'success',
            'Because the number measures nothing by itself.')])],
    speak=dict(
-    part='Part 3', focus='Tourism and local people',
-    intro='Say who gains and who pays before you give your view.',
-    qs=['Does tourism help or harm small towns?',
+    part='Part 2 into Part 3', focus='Tourism and local people',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: say who gains and who pays before '
+           'you give your view.'),
+    cue=('Describe a place in your country that visitors like.',
+         ['say where it is',
+          'say what visitors go to see',
+          'say when they come',
+          'and explain what local people think of it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you go there yourself?',
+        'Is it too busy at some times of year?',
+        'Does tourism help or harm small towns?',
         'Should towns limit visitor numbers?',
         'Who should pay for the cost of tourism?'],
     shape=[('answer', 'It helps the people who sell things and costs '
@@ -784,11 +802,20 @@ UNIT = dict(
            'believe a price ____________ something.', None, 'means',
            'And that if everybody understood it, half would wait.')])],
    speak=dict(
-    part='Part 3', focus='Prices and information',
-    intro='Explain the mechanism, then say what you think should '
-          'change.',
-    qs=['Should companies have to advertise the price most people '
-        'pay?',
+    part='Part 2 into Part 3', focus='Prices and information',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: explain the mechanism, then say what you think '
+           'should change.'),
+    cue=('Describe something you booked or paid for in advance.',
+         ['say what it was',
+          'say how far ahead you booked it',
+          'say what it cost',
+          'and explain whether it was good value']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was the price clear?',
+        'Would you book that far ahead again?',
+        'Should companies have to advertise the price most people pay?',
         'Why do prices for the same thing differ so much?',
         'Is it the customer’s job to find out?'],
     shape=[('answer', 'I think the advertised price should be the one '

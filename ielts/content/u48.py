@@ -840,10 +840,20 @@ UNIT = dict(
            '____________ its effect.', None, 'understate',
            'With the error in the same direction every time.')])],
    speak=dict(
-    part='Part 3', focus='Who really pays',
-    intro=('Five or six sentences. Try once to separate who hands over the '
-           'money from who bears the cost.'),
-    qs=['Who really pays a tax on a company?',
+    part='Part 2 into Part 3', focus='Who really pays',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: five or six sentences. Try once to '
+           'separate who hands over the money from who bears the cost.'),
+    cue=('Describe a price rise you noticed.',
+         ['what went up',
+          'by roughly how much',
+          'when you noticed it',
+          'and explain who you think ended up paying for it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you change what you buy?',
+        'Was a reason given?',
+        'Who really pays a tax on a company?',
         'Should taxes be used to change behaviour?',
         'Are some taxes unfair to poorer people?',
         'How should a government decide what to tax?'],
@@ -1199,7 +1209,7 @@ UNIT = dict(
            {0: 'Low pay is a different objection, about exploitation.', 2: 'Organisation is not part of the test.', 3: 'Recruitment difficulty is not what the test asks '
                'about.'})])],
    speak=dict(
-    part='Part 3', focus='Things that should not be bought and sold',
+    part='Part 2 into Part 3', focus='Things that should not be bought and sold',
     followup=[(('You say some things should not be for sale. Does paying '
                 'people change why they do things?'),
                ('Sometimes, and the direction is not reliable, which is what '
@@ -1229,9 +1239,19 @@ UNIT = dict(
                 'the wrong is the absence of alternatives, and banning the '
                 'transaction removes their least bad option. Those cases need '
                 'better alternatives, not a prohibition.'))],
-    intro=('Five or six sentences. Try once to say that paying for '
-           'something changed what it meant.'),
-    qs=['Are there things that should not be for sale?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: five or six sentences. Try once to '
+           'say that paying for something changed what it meant.'),
+    cue=('Describe something you did without being paid.',
+         ['what you did',
+          'who it was for',
+          'how much time it took',
+          'and explain why you did it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would being paid have changed it?',
+        'Would you do it again?',
+        'Are there things that should not be for sale?',
         'Does paying people change why they do things?',
         'Should volunteers be paid?',
         'Who should decide what can be bought?'],
@@ -1561,7 +1581,7 @@ UNIT = dict(
            2, 'Which he would rather have in the list honestly.',
            {0: 'Supply effects can be measured directly.', 1: 'Whether alternatives exist is an empirical question.', 3: 'External costs are empirical as well.'})])],
    speak=dict(
-    part='Part 3', focus='Drawing a line',
+    part='Part 2 into Part 3', focus='Drawing a line',
     sounds=[('Market vocabulary is full of words that change stress with their '
              'part of speech: a TRANSfer and to transFER, a SUBsidy and to '
              'SUBsidise, a CONtract and to contRACT.'),
@@ -1575,9 +1595,19 @@ UNIT = dict(
              'as single units. Each is three or four words and one idea.'),
             ('Record yourself on whether volunteers should be paid. Check the '
              'stress on every noun-verb pair you used.')],
-    intro=('The hardest turn in the volume so far. Try once to say that an '
-           'argument you agree with proves too much.'),
-    qs=['Where should the line be drawn on what can be sold?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: the hardest turn in the volume so far. Try once to '
+           'say that an argument you agree with proves too much.'),
+    cue=('Describe something you refused to do for money.',
+         ['what you were asked to do',
+          'who asked you',
+          'what you said',
+          'and explain why you refused']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would any amount have changed your mind?',
+        'Did somebody else take it on?',
+        'Where should the line be drawn on what can be sold?',
         'Is it possible to have a general rule about this?',
         'Should we trust our instincts about such questions?',
         'Who should decide?'],

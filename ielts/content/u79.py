@@ -330,7 +330,7 @@ UNIT = dict(
            'did not think about trees.', None, 'edited',
            'Which the tutor calls his best sentence.')])],
    speak=dict(
-    part='Part 2', focus='A news story you remember',
+    part='Part 1 into Part 2', focus='A news story you remember',
     longturn=[('I am going to talk about a news story I remember well. A large '
                'factory near my town announced that it would close.'),
               ('What happened is that the company told about nine hundred '
@@ -349,12 +349,19 @@ UNIT = dict(
                'two years, including the retraining that did not work and the '
                'shops that closed afterwards, and almost nobody outside the '
                'region read any of that.')],
-    intro='One minute, four lines. Choose a story you can describe '
-          'concretely.',
-    qs=['Describe a news story you remember well.',
-        'Say what happened.',
-        'Say how you heard about it.',
-        'Say why you remember it.'],
+    intro=('One minute, four lines. Choose a story you can describe '
+           'concretely.'),
+    cue=('Describe a news story you remember well.',
+         ['say what happened',
+          'say how you heard about it',
+          'say why you remember it',
+          'and explain how you felt about it']),
+    qs=['Where do you get your news?',
+        'Do you read a newspaper?',
+        'Do you talk about the news with your family?',
+        'Now look at the card. You have one minute to make notes.',
+        'Did the story turn out to be true?',
+        'Do people still talk about it?'],
     shape=[('answer', 'A flood at a school in my town, about two '
             'years ago.'),
            ('support', 'The hall was under water and the floor had to '
@@ -567,10 +574,20 @@ UNIT = dict(
            '____________.', None, 'print',
            'And would allow two answers if designing it again.')])],
    speak=dict(
-    part='Part 3', focus='Media habits',
-    intro='Make a claim, then qualify it with something you have '
-          'noticed.',
-    qs=['Why do older and younger people use different media?',
+    part='Part 2 into Part 3', focus='Media habits',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: make a claim, then qualify it with '
+           'something you have noticed.'),
+    cue=('Describe a programme or a channel you follow.',
+         ['say what it is',
+          'say how often you watch or listen',
+          'say what it covers',
+          'and explain why you follow it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you recommend it?',
+        'Do people your age usually follow it?',
+        'Why do older and younger people use different media?',
         'Will newspapers disappear?',
         'Is it better to get news from several sources?'],
     shape=[('answer', 'Mostly habit rather than ability, I think.'),
@@ -789,9 +806,20 @@ UNIT = dict(
            'ring again.', None, 'walls',
            'Which is why the speaker explains the work.')])],
    speak=dict(
-    part='Part 3', focus='Technology at home',
-    intro='Explain a cause, then draw the practical conclusion.',
-    qs=['Why do people complain about slow internet at home?',
+    part='Part 2 into Part 3', focus='Technology at home',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: explain a cause, then draw the practical '
+           'conclusion.'),
+    cue=('Describe a time your internet or your phone stopped working.',
+         ['say when it happened',
+          'say how long it lasted',
+          'say what you did',
+          'and explain how much it mattered']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Were you told why?',
+        'Who did you contact?',
+        'Why do people complain about slow internet at home?',
         'Should companies explain technical things better?',
         'Has being connected changed family life?'],
     shape=[('answer', 'Usually because the problem is indoors and '

@@ -447,12 +447,16 @@ UNIT = dict(
                'happy, but also angry: the pipe had no cover on it. '
                'The landlord put one on in the spring, so I think it '
                'will not happen again.')],
-    intro='One minute to prepare. Use the bullets in order and you will '
-          'fill the two minutes without hurrying.',
-    qs=['Describe a problem you had at home.',
-        'Say what happened.',
-        'Say what you did about it.',
-        'Say how it ended.'],
+    intro=('One minute to prepare. Use the bullets in order and you will '
+           'fill the two minutes without hurrying.'),
+    cue=('Describe a problem you had at home.',
+         ['say what happened',
+          'say what you did about it',
+          'say how it ended',
+          'and explain what you would do next time']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did anybody help you?',
+        'Has it happened again?'],
     shape=[('answer', 'Last winter the heating in my flat stopped '
             'working.'),
            ('support', 'It stopped at night and there was no hot water '
@@ -648,10 +652,21 @@ UNIT = dict(
           ('Buyers decide in the first ninety ____________.', None,
            'seconds', 'And almost always in the kitchen.')])],
    speak=dict(
-    part='Part 3', focus='Old houses and new houses',
-    intro='In Part 3, give the opinion first and the reason second. '
-          'Three sentences is a good length.',
-    qs=['Are old houses better than new ones?',
+    part='Part 2 into Part 3', focus='Old houses and new houses',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: in Part 3, give '
+           'the opinion first and the reason second. Three sentences is a '
+           'good length.'),
+    cue=('Describe an old building near where you live.',
+         ['say where it is',
+          'say how old it is',
+          'say what it is used for',
+          'and explain what you think of it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is it looked after well?',
+        'Would you like to live in it?',
+        'Are old houses better than new ones?',
         'Should cities build more houses?',
         'What makes a house a good place to live?'],
     shape=[('answer', 'I think new houses are better to live in, but '

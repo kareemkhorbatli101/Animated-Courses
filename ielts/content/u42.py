@@ -877,10 +877,21 @@ UNIT = dict(
            2, 'Because the phrase is heard as "not in my lifetime".',
            {0: 'Stating the period is his first recommendation.', 1: 'Designing to a range is his second.', 3: 'He does not recommend annual updating.'})])],
    speak=dict(
-    part='Part 3', focus='Planning for things that rarely happen',
-    intro=('Five or six sentences. Try once to say that a measure answers a '
-           'different question from the one assumed.'),
-    qs=['How should a country prepare for rare disasters?',
+    part='Part 2 into Part 3', focus='Planning for things that rarely happen',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: five or six sentences. Try once to '
+           'say that a measure answers a different question from the one '
+           'assumed.'),
+    cue=('Describe something you keep in case of an emergency.',
+         ['what it is',
+          'where you keep it',
+          'how you came to have it',
+          'and explain whether you have ever needed it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Has it ever actually been used?',
+        'What else do you think you should keep?',
+        'How should a country prepare for rare disasters?',
         'Why do people underestimate rare events?',
         'Should money be spent on risks that may never occur?',
         'How should rare risks be explained to the public?'],
@@ -1249,7 +1260,7 @@ UNIT = dict(
            {0: 'More staff is what thirty years of proposals '
                'recommended.', 2: 'Drafting was already complete in most of those cases.', 3: 'International agreement is not part of his account.'})])],
    speak=dict(
-    part='Part 3', focus='Rules and the things they govern',
+    part='Part 2 into Part 3', focus='Rules and the things they govern',
     followup=[(('You say regulation lags technology. Should rules name '
                 'technologies or outcomes?'),
                ('Outcomes, with one exception. A rule naming a technology is '
@@ -1277,9 +1288,20 @@ UNIT = dict(
                 'design against a clear duty; what paralyses investment is not '
                 'knowing whether the duty will exist at all. So I would set '
                 'the obligation early and the technical detail late.'))],
-    intro=('Five or six sentences. Try once to say that a remedy is aimed at '
-           'the wrong part of a problem.'),
-    qs=['Why does regulation always seem to be behind technology?',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: five or six '
+           'sentences. Try once to say that a remedy is aimed at the wrong '
+           'part of a problem.'),
+    cue=('Describe a rule that was introduced after something went wrong.',
+         ['what went wrong',
+          'what rule followed',
+          'who it applies to',
+          'and explain whether it has prevented a repeat']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was it introduced quickly enough?',
+        'Does everybody affected know about it?',
+        'Why does regulation always seem to be behind technology?',
         'Should rules name specific technologies or general outcomes?',
         'Who should write the rules for new industries?',
         'Is it possible to regulate something before it exists?'],
@@ -1785,7 +1807,7 @@ UNIT = dict(
           ('Inspection', None, 'C',
            'The upper middle area beside the finished goods bay.')])],
    speak=dict(
-    part='Part 3', focus='Acting before the evidence is complete',
+    part='Part 2 into Part 3', focus='Acting before the evidence is complete',
     sounds=[('Technical and legal compounds take stress on the first element: '
              'a RISK assessment, a SAFEty case, a COMpliance cost, the '
              'PREcautionary principle, which is the exception and takes it on '
@@ -1808,9 +1830,21 @@ UNIT = dict(
              'is not the difficulty. Producing it inside a sentence you are '
              'also thinking about is the difficulty, and that is what this '
              'trains.')],
-    intro=('The hardest turn in the unit. Try once to say that one kind of '
-           'error is visible and the other is not.'),
-    qs=['Is it better to act too early or too late?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: the hardest turn in the unit. '
+           'Try once to say that one kind of error is visible and the '
+           'other is not.'),
+    cue=(('Describe a precaution you took that turned out to be '
+          'unnecessary.'),
+         ['what you did',
+          'why you did it',
+          'what actually happened',
+          'and explain whether you regret the effort']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you take the same precaution again?',
+        'What did it cost you?',
+        'Is it better to act too early or too late?',
         'How should a government decide under uncertainty?',
         'Can the cost of caution be measured?',
         'Who should bear the cost of a decision that turns out wrong?'],

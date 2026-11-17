@@ -357,7 +357,7 @@ UNIT = dict(
            'danger.', None, 'scale',
            'Everything moving in the print is water.')])],
    speak=dict(
-    part='Part 2', focus='A picture or object you like',
+    part='Part 1 into Part 2', focus='A picture or object you like',
     longturn=[('I am going to talk about an object I like. It is a small clock '
                'made of brass on a shelf in my kitchen.'),
               ('I first saw it in a second-hand shop in the street behind the '
@@ -376,12 +376,19 @@ UNIT = dict(
                'Sunday. A telephone keeps perfect time and I never '
                'look at it. I look at this clock twenty times a day, '
                'and I think the small job of correcting it is why.')],
-    intro='One minute to prepare, four short lines. Describe one thing '
-          'and say why, not three things quickly.',
-    qs=['Describe a picture or an object you like.',
-        'Say what it is and where you saw it.',
-        'Say what it looks like.',
-        'Say why you remember it.'],
+    intro=('One minute to prepare, four short lines. Describe one thing '
+           'and say why, not three things quickly.'),
+    cue=('Describe a picture or an object you like.',
+         ['say what it is and where you saw it',
+          'say what it looks like',
+          'say why you remember it',
+          'and explain whether you would like to own it']),
+    qs=['Do you have any pictures on your walls at home?',
+        'Where do people buy pictures where you live?',
+        'Do you prefer old pictures or modern ones?',
+        'Now look at the card. You have one minute to make notes.',
+        'Who else has seen it?',
+        'Would you choose the same one again?'],
     shape=[('answer', 'The picture I would describe is a Japanese '
             'print of a wave, which I saw in a gallery last year.'),
            ('support', 'It is much smaller than I expected, about the '
@@ -819,10 +826,20 @@ UNIT = dict(
            'fifty years.', None, 'decision',
            'With better tools and her notes to explain.')])],
    speak=dict(
-    part='Part 3', focus='Keeping old things',
-    intro='Give a view, a reason and a limit. Three or four sentences '
-          'is right for Part 3 at this level.',
-    qs=['Should old buildings be repaired or replaced?',
+    part='Part 2 into Part 3', focus='Keeping old things',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: give a view, a reason and a limit. '
+           'Three or four sentences is right for Part 3 at this level.'),
+    cue=('Describe an old thing your family has kept.',
+         ['say what it is',
+          'say who it belonged to',
+          'say where it is kept',
+          'and explain why it has been kept']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Will it be passed on?',
+        'Is it worth anything?',
+        'Should old buildings be repaired or replaced?',
         'Who should pay to look after old art?',
         'Is it important for a country to keep its old things?'],
     shape=[('answer', 'I think repair is usually better, but not at '
@@ -1022,7 +1039,7 @@ UNIT = dict(
            '____________ each claim covers.', None, 'market',
            'Which becomes the shape of the essay.')])],
    speak=dict(
-    part='Part 3', focus='Value and money',
+    part='Part 2 into Part 3', focus='Value and money',
     sounds=[('Word stress can change a word\'s job. A RECord is a thing and to '
              'reCORD is an action. The same pattern gives an OBject and to '
              'obJECT.'),
@@ -1036,9 +1053,20 @@ UNIT = dict(
              'the market. Say it in two pieces with one break.'),
             ('Record yourself describing an object. Listen for a long word '
              'where you made two parts equally strong.')],
-    intro='Say what you think, then say which part of the question '
-          'your answer covers. That limit is worth marks.',
-    qs=['Why are some paintings worth so much money?',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: say what you '
+           'think, then say which part of the question your answer covers. '
+           'That limit is worth marks.'),
+    cue=('Describe something expensive you would like to own.',
+         ['say what it is',
+          'say roughly what it costs',
+          'say where you have seen it',
+          'and explain why you want it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Will you ever buy it?',
+        'Is it worth the money?',
+        'Why are some paintings worth so much money?',
         'Should governments limit what art can be sold abroad?',
         'Is it wrong to treat art as an investment?'],
     shape=[('answer', 'At the top of the market the price is mostly '

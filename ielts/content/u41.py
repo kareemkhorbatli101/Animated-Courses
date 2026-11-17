@@ -866,10 +866,20 @@ UNIT = dict(
            None, 'wide',
            'Because either number alone can be made to flatter.')])],
    speak=dict(
-    part='Part 3', focus='Communicating uncertainty',
-    intro=('Five or six sentences at this level, with a concession '
-           'somewhere in the middle.'),
-    qs=['Why do people distrust forecasts?',
+    part='Part 2 into Part 3', focus='Communicating uncertainty',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: five or six sentences at this level, '
+           'with a concession somewhere in the middle.'),
+    cue=('Describe a forecast or a prediction you relied on.',
+         ['what it predicted',
+          'where it came from',
+          'what you did because of it',
+          'and explain how accurate it turned out to be']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you rely on it again?',
+        'Was any uncertainty mentioned with it?',
+        'Why do people distrust forecasts?',
         'Should experts give a single figure or a range?',
         'How should uncertainty be reported in the news?',
         'Does admitting uncertainty make people trust you less?'],
@@ -1224,7 +1234,7 @@ UNIT = dict(
            'Because those who cannot answer are arguing about '
            'something else.')])],
    speak=dict(
-    part='Part 3', focus='Disagreement among specialists',
+    part='Part 2 into Part 3', focus='Disagreement among specialists',
     followup=[(('You say experts disagree legitimately. Should the public be '
                 'shown that disagreement?'),
                ('Yes, and shown it in a form that distinguishes the kinds. '
@@ -1251,9 +1261,20 @@ UNIT = dict(
                 'actually being asked. Refusing to answer at all reads as '
                 'evasion, and a bare probability leaves the listener with the '
                 'whole decision and none of the expertise.'))],
-    intro=('Five or six sentences. Try once to say that two people agree '
-           'about the data and differ about what it shows.'),
-    qs=['Why do experts in the same field disagree?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: five or six sentences. Try once to say that two '
+           'people agree about the data and differ about what it shows.'),
+    cue=(('Describe a time two people you trusted gave you different '
+          'advice.'),
+         ['what the question was',
+          'who the two people were',
+          'what each of them said',
+          'and explain whose advice you took']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Why did you choose that one?',
+        'Were they both partly right?',
+        'Why do experts in the same field disagree?',
         'Should the public be shown that disagreement?',
         'How can a non-specialist decide whom to believe?',
         'Is more research always the answer?'],

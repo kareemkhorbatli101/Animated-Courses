@@ -878,10 +878,21 @@ UNIT = dict(
            'Because the explanation you find satisfying was built '
            'without evidence.')])],
    speak=dict(
-    part='Part 3', focus='What the past left behind',
-    intro=('Five or six sentences. Try once to say what an absence does '
-           'and does not show.'),
-    qs=['Why do some things from the past survive and others not?',
+    part='Part 2 into Part 3', focus='What the past left behind',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: five or six sentences. Try once to '
+           'say what an absence does and does not show.'),
+    cue=(('Describe something you have kept for years for no practical '
+          'reason.'),
+         ['what it is',
+          'how long you have had it',
+          'where you keep it',
+          'and explain why you have never thrown it away']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would anybody else have kept it?',
+        'What will happen to it?',
+        'Why do some things from the past survive and others not?',
         'Should everything be preserved?',
         'Who decides what is worth keeping?',
         'Does it matter that some lives leave no record?'],
@@ -1250,7 +1261,7 @@ UNIT = dict(
            'systematic and directional',
            'A known bias being different from an unknown one.')])],
    speak=dict(
-    part='Part 3', focus='Whose past is recorded',
+    part='Part 2 into Part 3', focus='Whose past is recorded',
     followup=[('You say the record favours some lives. Is that changing?',
                ('Yes, and unevenly. Digital records capture far more people '
                 'and keep them far less reliably, so we may be the first '
@@ -1276,9 +1287,19 @@ UNIT = dict(
                 'the material evidence usually wins, and the interesting work '
                 'is in the cases where a document says something the bones '
                 'contradict.'))],
-    intro=('Five or six sentences. Try once to say whose lives generate '
-           'documents.'),
-    qs=['Whose lives are best recorded in history?',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: five or six '
+           'sentences. Try once to say whose lives generate documents.'),
+    cue=('Describe a story about your family that has been passed down.',
+         ['what the story is',
+          'who told it to you',
+          'how much of it is written down anywhere',
+          'and explain whether you believe all of it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could any of it be checked?',
+        'Has it changed in the telling?',
+        'Whose lives are best recorded in history?',
         'Is that changing?',
         'Should governments keep more records or fewer?',
         'Can we learn about people who left no records?'],
@@ -1636,7 +1657,7 @@ UNIT = dict(
            'About three years of work that nobody will fund.',
            {0: 'Sources are what the evidence consists of.', 2: 'Archives are where the evidence sits.', 3: 'Critics are not what the evidence must exclude.'})])],
    speak=dict(
-    part='Part 3', focus='Knowing about the past',
+    part='Part 2 into Part 3', focus='Knowing about the past',
     sounds=[('Narrative at this level needs the past forms audible, because '
              'the tense is the argument: I remembered, they described, the '
              'report recorded. Dropping the ending leaves the examiner '
@@ -1652,9 +1673,19 @@ UNIT = dict(
              'high on I remember two, falling on she says one.'),
             ('Record yourself on an event remembered differently. Listen only '
              'for past endings, and count the ones that disappeared.')],
-    intro=('The hardest turn in the unit. Try once to say that an '
-           'objection defeats itself.'),
-    qs=['Can we really know what life was like in the past?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: the hardest turn in the unit. '
+           'Try once to say that an objection defeats itself.'),
+    cue=('Describe a historical place or period you have read about.',
+         ['what it is',
+          'how you came to read about it',
+          'what the sources were',
+          'and explain how confident you are in what you read']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Where did the evidence come from?',
+        'What is still disputed about it?',
+        'Can we really know what life was like in the past?',
         'Are museums and documentaries reliable?',
         'Does it matter if historical accounts are uncertain?',
         'Should we be sceptical about all claims about the past?'],

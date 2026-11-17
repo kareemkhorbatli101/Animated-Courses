@@ -885,10 +885,21 @@ UNIT = dict(
            None, 'pre-policy',
            'Which most published evaluations do not show.')])],
    speak=dict(
-    part='Part 3', focus='Showing that something worked',
-    intro=('Five or six sentences. Try once to say that a true number can '
-           'be a misleading one.'),
-    qs=['How can a government show that a policy worked?',
+    part='Part 2 into Part 3', focus='Showing that something worked',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: five or six sentences. Try once to say that a true '
+           'number can be a misleading one.'),
+    cue=(('Describe a change in your area that was supposed to improve '
+          'something.'),
+         ['what the change was',
+          'who introduced it',
+          'what it was supposed to improve',
+          'and explain how anybody could tell whether it worked']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was it ever evaluated?',
+        'What would you count as proof either way?',
+        'How can a government show that a policy worked?',
         'Are statistics often used misleadingly?',
         'Should people be taught to read evidence at school?',
         'Who should check official figures?'],
@@ -1259,7 +1270,7 @@ UNIT = dict(
           ('How many questions does he end with?', None, 'four',
            'None of which needs a technical term.')])],
    speak=dict(
-    part='Part 3', focus='Knowing what would have happened',
+    part='Part 2 into Part 3', focus='Knowing what would have happened',
     followup=[(('You say we cannot know the counterfactual. Should governments '
                 'run experiments on policy?'),
                ('Where the policy is divisible and the harm of being in either '
@@ -1285,9 +1296,20 @@ UNIT = dict(
                 'policy evaluation consists of a difference over time '
                 'presented as an effect, and the honest version is that the '
                 'effect is unknown and the direction is plausible.'))],
-    intro=('Five or six sentences. Try once to describe a world that did '
-           'not happen.'),
-    qs=['Can we ever know what would have happened otherwise?',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: five or six sentences. Try once to '
+           'describe a world that did not happen.'),
+    cue=(('Describe a decision of yours whose alternative you still think '
+          'about.'),
+         ['what you decided',
+          'what the alternative was',
+          'why you chose as you did',
+          'and explain what you think would have happened otherwise']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Can you ever really know?',
+        'Would you choose differently now?',
+        'Can we ever know what would have happened otherwise?',
         'Do people think enough about alternatives?',
         'Should governments run experiments on policy?',
         'Is it fair to test a policy on some people and not others?'],

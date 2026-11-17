@@ -911,10 +911,20 @@ UNIT = dict(
            'asked.',
            {0: 'Accuracy is what he says is the wrong first question.', 2: 'Affordability is not the question he poses.', 3: 'Publication is not what he tells you to ask about.'})])],
    speak=dict(
-    part='Part 3', focus='Measuring an organisation',
-    intro=('Five or six sentences. Try once to say that two true figures '
-           'can disagree.'),
-    qs=['How should a hospital or school be judged?',
+    part='Part 2 into Part 3', focus='Measuring an organisation',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: five or six sentences. Try once to '
+           'say that two true figures can disagree.'),
+    cue=('Describe an organisation you know well.',
+         ['what it does',
+          'how big it is',
+          'how outsiders judge it',
+          'and explain what that judgement misses']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who does the judging?',
+        'What would you measure instead?',
+        'How should a hospital or school be judged?',
         'Can everything important be measured?',
         'What happens when people know how they are being measured?',
         'Should measures be published?'],
@@ -1281,7 +1291,7 @@ UNIT = dict(
            'between them.', None, 'gap',
            'A direct estimate of the distortion being generated.')])],
    speak=dict(
-    part='Part 3', focus='Judging institutions',
+    part='Part 2 into Part 3', focus='Judging institutions',
     followup=[(('You would keep the target but add others. Is it possible to '
                 'design a rule people cannot work around?'),
                ('No, and designing as though it were is the mistake. Anybody '
@@ -1305,9 +1315,19 @@ UNIT = dict(
                 'what accountability is. A standard whose justification is in '
                 'public can be challenged on the record; one that arrives as a '
                 'number can only be met or missed.'))],
-    intro=('Five or six sentences. Try once to explain why a good measure '
-           'degrades as fast as a bad one.'),
-    qs=['How should we judge whether an institution is working?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: five or six sentences. Try once to explain why a '
+           'good measure degrades as fast as a bad one.'),
+    cue=('Describe a time you were inspected, assessed or audited.',
+         ['what was being checked',
+          'who did the checking',
+          'how you prepared for it',
+          'and explain what the result was']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did it change the way you worked?',
+        'Was the right thing being checked?',
+        'How should we judge whether an institution is working?',
         'Is it possible to design a rule people cannot work around?',
         'Should inspectors visit, or should figures be enough?',
         'Who should set the standards?'],

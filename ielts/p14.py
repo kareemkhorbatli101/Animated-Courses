@@ -80,14 +80,33 @@ def _lower1(s):
 
 
 def convert(name, cycle, part=None, card=None, rounds=(), pre=0, focus=None,
-            instr=INSTR, keep=True):
-    """Put a card in front of the questions a speaking slot already asks."""
+            instr=INSTR, keep=True, after=False, lead=()):
+    """Put a card in front of the questions a speaking slot already asks.
+
+    `after` puts the card instruction and its rounding-off questions after
+    the slot's existing ones instead of before, which is the order a 'Part
+    1 into Part 2' slot needs: the examiner asks the short questions and
+    then hands over the card. `pre=None` leaves the lead-in alone, for the
+    Foundation slots that already teach the long turn and were only ever
+    missing the card itself. `keep=False` drops the old question list,
+    which is right in exactly one place: a Foundation Part 2 slot whose
+    questions WERE the bullets of an unprinted card, written out as
+    instructions. They are not lost there; they become the card.
+    """
     m = _load(name)
     sp = m.UNIT['cycles'][cycle - 1]['speak']
     old = list(sp['qs'])
-    new = ([instr] if instr else []) + list(rounds) + (old if keep else [])
+    head = ([instr] if instr else []) + list(rounds)
+    new = (old + head) if after else (head + (old if keep else []))
+    if after and not keep:
+        new = head
+    # `lead` is for a slot that gains Part 1 questions as well as a card,
+    # which is how Foundation 2 reaches the Part 1 floor: its long-turn
+    # slot becomes the Part 1 questions and then the card, in that order,
+    # because that is the order the examiner uses.
+    new = list(lead) + new
     intro = sp['intro']
-    if card is not None:
+    if card is not None and pre is not None:
         intro = PREFIX[pre % len(PREFIX)] + _lower1(intro)
     n = speakedit.edit(name, cycle, part=part, cue=card, intro=intro,
                        qs=new, focus=focus)

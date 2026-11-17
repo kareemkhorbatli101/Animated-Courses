@@ -307,7 +307,7 @@ UNIT = dict(
            'of it.', None, 'ranking',
            'Which the manager says she can work with.')])],
    speak=dict(
-    part='Part 2', focus='Clothes you wear for different occasions',
+    part='Part 1 into Part 2', focus='Clothes you wear for different occasions',
     longturn=[('I am going to talk about the clothes I wear for a particular '
                'occasion. The occasion is a job interview.'),
               ('An interview in my field is usually an hour, in an office, '
@@ -328,10 +328,17 @@ UNIT = dict(
                'in the room, and anything new, tight or unusual fails '
                'that test however good it looks.')],
     intro='One minute, four lines. Be concrete about one situation.',
-    qs=['Describe the clothes you wear for a particular occasion.',
-        'Say what the occasion is.',
-        'Say what you wear and why.',
-        'Say how you decided.'],
+    cue=('Describe the clothes you wear for a particular occasion.',
+         ['say what the occasion is',
+          'say what you wear and why',
+          'say how you decided',
+          'and explain where you got them']),
+    qs=['Do you buy clothes often?',
+        'Do you wear the same clothes for work and for free time?',
+        'Does it matter to you what other people wear?',
+        'Now look at the card. You have one minute to make notes.',
+        'How often do you wear them?',
+        'Would you wear them anywhere else?'],
     shape=[('answer', 'The clothes I think about most are the ones I '
             'wear for job interviews.'),
            ('support', 'I wear the same jacket and shirt every time, '
@@ -549,9 +556,20 @@ UNIT = dict(
            None, 'repairability',
            'A seam that can be restitched, a button replaced.')])],
    speak=dict(
-    part='Part 3', focus='How things are made',
-    intro='Give the fact, then the conclusion you draw from it.',
-    qs=['Should people know how their clothes are made?',
+    part='Part 2 into Part 3', focus='How things are made',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: give the fact, then the conclusion '
+           'you draw from it.'),
+    cue=('Describe a piece of clothing you have had for a long time.',
+         ['say what it is',
+          'say where you got it',
+          'say how often you wear it',
+          'and explain why you have kept it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you know where it was made?',
+        'How long will it last?',
+        'Should people know how their clothes are made?',
         'Is it reasonable to expect shoppers to check?',
         'What should companies be required to tell us?'],
     shape=[('answer', 'I think the useful knowledge is narrower than '
@@ -749,9 +767,21 @@ UNIT = dict(
            'about ____________ years ago.', None, 'twenty-five',
            'And has not yet come back into fashion.')])],
    speak=dict(
-    part='Part 3', focus='Fashion and change',
-    intro='Explain the mechanism before giving an opinion.',
-    qs=['Why do fashions change?',
+    part='Part 2 into Part 3', focus='Fashion and change',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: explain the '
+           'mechanism before giving an opinion.'),
+    cue=(('Describe a style of clothes that was popular when you were '
+          'younger.'),
+         ['say what it looked like',
+          'say who wore it',
+          'say whether you wore it',
+          'and explain what you think of it now']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Has it come back?',
+        'Do you have a photograph of it?',
+        'Why do fashions change?',
         'Do people follow fashion less than they used to?',
         'Is it a waste of money to buy fashionable clothes?'],
     shape=[('answer', 'Mostly because the people deciding are drawing '

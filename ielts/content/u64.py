@@ -438,12 +438,16 @@ UNIT = dict(
                'are heavy, so I do not wear them in town. But for '
                'walking in the hills they are much better than my old '
                'ones, and I think they will last for years.')],
-    intro='One minute to prepare. Follow the four bullets in order and '
-          'do not stop to correct yourself.',
-    qs=['Describe something you bought recently.',
-        'Say what it was and where you bought it.',
-        'Say why you chose it.',
-        'Say whether you were happy with it.'],
+    intro=('One minute to prepare. Follow the four bullets in order and do '
+           'not stop to correct yourself.'),
+    cue=('Describe something you bought recently.',
+         ['say what it was and where you bought it',
+          'say why you chose it',
+          'say whether you were happy with it',
+          'and explain whether you would buy it again']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you look at the price in other shops?',
+        'Who did you buy it for?'],
     shape=[('answer', 'I bought a winter jacket last month from a shop '
             'in the town centre.'),
            ('support', 'It was half price, which is why I looked at it '
@@ -644,10 +648,20 @@ UNIT = dict(
            '____________ you are part of it.', None, 'believe',
            'Nobody in the room is immune, he says.')])],
    speak=dict(
-    part='Part 3', focus='Things people spend too much on',
-    intro='Give the thing, then the reason people overspend on it. Two '
-          'reasons is enough.',
-    qs=['What do people spend too much money on?',
+    part='Part 2 into Part 3', focus='Things people spend too much on',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: give the thing, then the reason people '
+           'overspend on it. Two reasons is enough.'),
+    cue=('Describe something you spend money on every month.',
+         ['say what it is',
+          'say roughly how much you spend',
+          'say why you spend it',
+          'and explain whether you could spend less']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Have you ever tried to cut it?',
+        'Do other people you know spend the same?',
+        'What do people spend too much money on?',
         'Is it easier to save now than it was?',
         'Should schools teach children about money?'],
     shape=[('answer', 'I think people spend most on things they buy '

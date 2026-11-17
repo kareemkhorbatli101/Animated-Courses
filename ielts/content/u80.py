@@ -324,7 +324,7 @@ UNIT = dict(
            'minutes.', None, 'lateness',
            'Because it is the number that changed her behaviour.')])],
    speak=dict(
-    part='Part 2', focus='A journey you make often',
+    part='Part 1 into Part 2', focus='A journey you make often',
     longturn=[('I am going to talk about a journey I make often. I travel '
                'across the city to the hospital where my mother has treatment.'),
               ('The hospital is about twelve kilometres from her flat, and I '
@@ -345,10 +345,17 @@ UNIT = dict(
                'thousand people in it, charging by the hour for a wait '
                'nobody can predict.')],
     intro='One minute, four lines. Give at least one real number.',
-    qs=['Describe a journey you make often.',
-        'Say where you go and how.',
-        'Say how long it takes.',
-        'Say what you like or dislike about it.'],
+    cue=('Describe a journey you make often.',
+         ['say where you go and how',
+          'say how long it takes',
+          'say what you like or dislike about it',
+          'and explain whether you could do it differently']),
+    qs=['How do you usually travel to work or to school?',
+        'Is there much traffic where you live?',
+        'Do you ever walk or cycle?',
+        'Now look at the card. You have one minute to make notes.',
+        'Has the journey got longer?',
+        'What would make it better?'],
     shape=[('answer', 'My journey to work, about four kilometres, '
             'five days a week.'),
            ('support', 'I go by bicycle, which takes twenty-five '
@@ -537,9 +544,20 @@ UNIT = dict(
            '____________.', None, 'place',
            'Which the speaker calls a cheaper problem to solve.')])],
    speak=dict(
-    part='Part 3', focus='Transport policy',
-    intro='Give a reason, then name what you would measure.',
-    qs=['Should cities encourage cycling?',
+    part='Part 2 into Part 3', focus='Transport policy',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: give a reason, then name what you '
+           'would measure.'),
+    cue=('Describe a bus station or a train station you use.',
+         ['say where it is',
+          'say how often you go there',
+          'say what it is like',
+          'and explain what you would change']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is it easy to find your way in it?',
+        'Is it busy all day?',
+        'Should cities encourage cycling?',
         'Is free public transport a good idea?',
         'What is the best way to reduce traffic?'],
     shape=[('answer', 'Yes, and the cheapest part of it is not the '
@@ -782,10 +800,20 @@ UNIT = dict(
            'improved.', None, '1790',
            'Because, the speaker says, it cannot be.')])],
    speak=dict(
-    part='Part 3', focus='Old and new technology',
-    intro='Explain why something old survives, then generalise '
-          'carefully.',
-    qs=['Why do some old machines stay in use?',
+    part='Part 2 into Part 3', focus='Old and new technology',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: explain why '
+           'something old survives, then generalise carefully.'),
+    cue=('Describe an old vehicle or machine that is still being used.',
+         ['say what it is',
+          'say where you saw it',
+          'say how old it looked',
+          'and explain why it is still used']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who looks after it?',
+        'Would a new one be better?',
+        'Why do some old machines stay in use?',
         'Is new technology always better?',
         'Should old transport systems be kept?'],
     shape=[('answer', 'Usually because they already do the job with '

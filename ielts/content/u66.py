@@ -447,12 +447,16 @@ UNIT = dict(
                'we helped each other. I learned that it is much better '
                'to ask early and to explain clearly. When I was '
                'younger I was afraid to ask, and that was a mistake.')],
-    intro='One minute to prepare. Tell it as a story with a problem '
-          'and an end.',
-    qs=['Describe a time you needed time off work or school.',
-        'Say why you needed it.',
-        'Say how you asked.',
-        'Say what happened.'],
+    intro=('One minute to prepare. Tell it as a story with a problem and '
+           'an end.'),
+    cue=('Describe a time you needed time off work or school.',
+         ['say why you needed it',
+          'say how you asked',
+          'say what happened',
+          'and explain how you felt about the answer']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was it easy to ask?',
+        'Would you ask the same way again?'],
     shape=[('answer', 'Last June I needed a Saturday off for my '
             'sister’s wedding.'),
            ('support', 'Saturday is our busiest day, so I knew it would '
@@ -660,10 +664,20 @@ UNIT = dict(
            '____________ to the person asking.', None, 'irrelevant',
            'Which is the part usually left out.')])],
    speak=dict(
-    part='Part 3', focus='Machines and work',
-    intro='Give both sides, then your own view. A one-sided answer is '
-          'an incomplete answer in Part 3.',
-    qs=['Will machines take most jobs in the future?',
+    part='Part 2 into Part 3', focus='Machines and work',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: give both sides, then your own view. A one-sided '
+           'answer is an incomplete answer in Part 3.'),
+    cue=('Describe a machine you use at work or at home.',
+         ['say what it is',
+          'say what it does',
+          'say how often you use it',
+          'and explain what you would do without it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who taught you to use it?',
+        'Has it ever broken down?',
+        'Will machines take most jobs in the future?',
         'Should governments help workers whose jobs disappear?',
         'Which jobs could never be done by a machine?'],
     shape=[('answer', 'I think machines will change most jobs rather '

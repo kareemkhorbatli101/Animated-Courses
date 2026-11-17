@@ -262,13 +262,23 @@ UNIT = dict(
            '____________.', None, 'purpose',
            'Because students want the language for work.')])],
    speak=dict(
-    part='Part 1', focus='Learning in a class',
-    intro='Say what you like or dislike, then why. One reason is '
-          'enough.',
+    part='Part 1 into Part 2', focus='Learning in a class',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: say what you '
+           'like or dislike, then why. One reason is enough.'),
+    cue=('Describe a teacher you remember.',
+         ['say who they were',
+          'say what they taught you',
+          'say what they were like',
+          'and explain why you remember them']),
     qs=['Do you like learning in a class?',
         'What makes a good teacher?',
         'Do you ask questions in class?',
-        'Is homework useful?'],
+        'Is homework useful?',
+        'Now look at the card. You have one minute to make notes.',
+        'Do you ever see them now?',
+        'What did you learn from them?'],
     shape=[('answer', 'I like classes more than studying alone.'),
            ('support', 'Hearing other people make the mistake I was '
             'about to make saves me a week.'),
@@ -445,12 +455,16 @@ UNIT = dict(
                'make a plan in the first week and write a little every '
                'few days. It is not a perfect system, but it is much '
                'better than one long Saturday.')],
-    intro='One minute to prepare. Keep to the story: what, when, how '
-          'it ended.',
-    qs=['Describe something you had to finish by a certain time.',
-        'Say what it was.',
-        'Say why it was difficult.',
-        'Say how it ended.'],
+    intro=('One minute to prepare. Keep to the story: what, when, how it '
+           'ended.'),
+    cue=('Describe something you had to finish by a certain time.',
+         ['say what it was',
+          'say why it was difficult',
+          'say how it ended',
+          'and explain what you learned from it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you finish on time?',
+        'Who was waiting for it?'],
     shape=[('answer', 'Last term I had to finish a piece of written '
             'work while my mother was ill.'),
            ('support', 'It was due on the Monday and she went into '
@@ -665,10 +679,20 @@ UNIT = dict(
            'the worst ones.', None, 'feels',
            'And do it confidently, the speaker adds.')])],
    speak=dict(
-    part='Part 3', focus='Learning and memory',
-    intro='Give the method, then why it works. Avoid listing more than '
-          'two.',
-    qs=['What is the best way to learn something new?',
+    part='Part 2 into Part 3', focus='Learning and memory',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: give the method, then why it works. '
+           'Avoid listing more than two.'),
+    cue=('Describe something you learned easily.',
+         ['say what it was',
+          'say when you learned it',
+          'say how you learned it',
+          'and explain why it was easy for you']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you still remember it?',
+        'Could you teach it to somebody?',
+        'What is the best way to learn something new?',
         'Do examinations measure learning well?',
         'Should schools teach students how to study?'],
     shape=[('answer', 'The best method I know is testing yourself '

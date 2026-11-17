@@ -874,10 +874,20 @@ UNIT = dict(
            'Because the mean of a bimodal distribution describes '
            'nobody in it.')])],
    speak=dict(
-    part='Part 3', focus='Judging consistently',
-    intro=('Five or six sentences. Try once to say why an average can '
-           'mislead.'),
-    qs=['How can competitions be judged fairly?',
+    part='Part 2 into Part 3', focus='Judging consistently',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: five or six sentences. Try once to say why an '
+           'average can mislead.'),
+    cue=('Describe a time you had to judge or choose between entries.',
+         ['what the entries were',
+          'what you were judging for',
+          'how you decided',
+          'and explain how consistent you think you were']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you decide the same way tomorrow?',
+        'Did anybody disagree with you?',
+        'How can competitions be judged fairly?',
         'Should the same people judge every year?',
         'Is it better to have more judges or better ones?',
         'Can judging ever be objective?'],
@@ -1249,7 +1259,7 @@ UNIT = dict(
            '____________.', None, 'weightings',
            'So the kind of disagreement becomes visible.')])],
    speak=dict(
-    part='Part 3', focus='Taste and argument',
+    part='Part 2 into Part 3', focus='Taste and argument',
     followup=[(('You changed your mind when you learned what the building was '
                 'for. Can people argue usefully about taste?'),
                ('About judgement, yes; about response, no. Nobody can be '
@@ -1275,11 +1285,22 @@ UNIT = dict(
                 'Nobody is argued into pleasure, and attention is teachable, '
                 'and once you can hear the thing somebody has pointed out, the '
                 'response often follows without being asked to.'))],
-    intro=('Five or six sentences. Try once to say that two people can '
-           'agree about a thing and disagree about its value.'),
-    qs=['Can people argue usefully about taste?',
-        'Is there a difference between liking something and thinking it '
-        'good?',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: five or six sentences. Try once to '
+           'say that two people can agree about a thing and disagree about '
+           'its value.'),
+    cue=('Describe something you admire but do not enjoy.',
+         ['what it is',
+          'how you came across it',
+          'what you admire about it',
+          'and explain why you still do not enjoy it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could you be argued into enjoying it?',
+        'Do other people feel the same?',
+        'Can people argue usefully about taste?',
+        ('Is there a difference between liking something and thinking it '
+         'good?'),
         'Should critics give reasons?',
         'Do reasons ever change what people like?'],
     shape=[('answer', 'Yes, and most of the argument is not where people '
@@ -1649,7 +1670,7 @@ UNIT = dict(
            1, 'Because it is true and costs her every argument.',
            {0: 'He does not say she calls taste personal.', 2: 'He asks her to record weightings against criteria.', 3: 'Training is what he tells her to keep.'})])],
    speak=dict(
-    part='Part 3', focus='Reasons in matters of taste',
+    part='Part 2 into Part 3', focus='Reasons in matters of taste',
     sounds=[('Aesthetic vocabulary is where candidates most often guess the '
              'stress: AESthetic takes it on the second syllable, CRItical on '
              'the first, acCOMplished on the second, inTEGrity on the second.'),
@@ -1663,9 +1684,20 @@ UNIT = dict(
              'high and open, and I would not read it again, falling.'),
             ('Record yourself on whether critics should give reasons. Listen '
              'for a judgement you delivered with an uncertain contour.')],
-    intro=('The hardest turn in the unit. Try once to say that something '
-           'can be real and unwritable.'),
-    qs=['Can people give reasons for what they find beautiful?',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: the hardest turn '
+           'in the unit. Try once to say that something can be real and '
+           'unwritable.'),
+    cue=('Describe something you find beautiful.',
+         ['what it is',
+          'when you first saw or heard it',
+          'how often you go back to it',
+          'and explain what you think makes it beautiful']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could you convince somebody who disagreed?',
+        'Has your view of it changed?',
+        'Can people give reasons for what they find beautiful?',
         'Should art competitions publish their criteria?',
         'Is "I know it when I see it" a reason?',
         'Can taste be taught?'],

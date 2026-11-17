@@ -888,10 +888,21 @@ UNIT = dict(
            'produce.',
            {0: 'Computing cost is not the unsolved problem he names.', 2: 'Missing data is not the difficulty he describes.', 3: 'Staffing is not mentioned in the lecture.'})])],
    speak=dict(
-    part='Part 3', focus='Testing a model',
-    intro=('Five or six sentences. Try once to explain why a test can stop '
-           'being a test.'),
-    qs=['How can you tell whether a model is any good?',
+    part='Part 2 into Part 3', focus='Testing a model',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: five or six '
+           'sentences. Try once to explain why a test can stop being a '
+           'test.'),
+    cue=('Describe a plan you made that had to be revised.',
+         ['what the plan was',
+          'what assumption it rested on',
+          'what turned out differently',
+          'and explain how you revised it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Which assumption was the wrong one?',
+        'Would you plan the same way again?',
+        'How can you tell whether a model is any good?',
         'Should the public be able to inspect government models?',
         'Is it possible to test a forecast of the distant future?',
         'Who should check that models are sound?'],
@@ -1250,7 +1261,7 @@ UNIT = dict(
            {0: 'That would make the spread conservative, which it is '
                'not.', 2: 'The answer was uncomfortable, not reassuring.', 3: 'Past ensembles have missed the outturn.'})])],
    speak=dict(
-    part='Part 3', focus='Agreement and truth',
+    part='Part 2 into Part 3', focus='Agreement and truth',
     followup=[(('You say agreement is not proof. Why do people find agreement '
                 'convincing?'),
                ('Because independent agreement genuinely is evidence, and we '
@@ -1275,12 +1286,21 @@ UNIT = dict(
                 'whoever dissented and why. A single consensus number is more '
                 'usable and less honest, and it is also what gets quoted back '
                 'when the forecast misses.'))],
-    intro=('Five or six sentences. Try once to say why agreement can be '
-           'weak evidence.'),
-    qs=['If experts agree, does that make them right?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: five or six sentences. Try '
+           'once to say why agreement can be weak evidence.'),
+    cue=('Describe a time everybody around you agreed about something.',
+         ['what the view was',
+          'who held it',
+          'how you came to share it or doubt it',
+          'and explain whether the agreement was well founded']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Had they reached it independently?',
+        'Has anybody changed their mind since?',
+        'If experts agree, does that make them right?',
         'Why do people find agreement convincing?',
-        'How could you tell whether experts reached a view '
-        'independently?',
+        'How could you tell whether experts reached a view independently?',
         'Is disagreement among experts a bad sign?'],
     shape=[('answer', 'Only if they reached the view separately, which is '
             'rarer than it looks.'),
@@ -1805,7 +1825,7 @@ UNIT = dict(
            'Of the two remaining buildings above the track, the one '
            'beside the store.')])],
    speak=dict(
-    part='Part 3', focus='Reporting what you do not know',
+    part='Part 2 into Part 3', focus='Reporting what you do not know',
     sounds=[('Statistical vocabulary at this level is long and regular: '
              'calibRAtion on the third, enSEMble on the second, senSItivity on '
              'the third, assUMPtion on the second.'),
@@ -1835,9 +1855,19 @@ UNIT = dict(
              'sound impressive cost them, and an examiner can hear the '
              'difference immediately. If you cannot say what a word means '
              'in your own language, do not use it in the exam.')],
-    intro=('The hardest turn in the unit. Try once to describe an '
-           'uncertainty that is not in the range.'),
-    qs=['How should uncertainty be communicated to the public?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: the hardest turn in the unit. Try once to '
+           'describe an uncertainty that is not in the range.'),
+    cue=('Describe a time you had to admit you did not know something.',
+         ['what the question was',
+          'who was asking',
+          'what you said',
+          'and explain how it was received']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would admitting it earlier have helped?',
+        'Did it cost you anything?',
+        'How should uncertainty be communicated to the public?',
         'Is it possible to plan for things nobody predicted?',
         'Should experts admit the limits of what they know?',
         'Does admitting uncertainty reduce trust?'],

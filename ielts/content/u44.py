@@ -842,10 +842,21 @@ UNIT = dict(
            1, 'Because the error is larger than the effects sought.',
            {0: 'He says the findings depend on the instrument.', 2: 'He makes no exception for the largest effects.', 3: 'Sample size is not what he says would fix them.'})])],
    speak=dict(
-    part='Part 3', focus='Measuring behaviour',
-    intro=('Five or six sentences. Try once to say that an error in a '
-           'measure is systematic rather than random.'),
-    qs=['How accurately do people describe their own behaviour?',
+    part='Part 2 into Part 3', focus='Measuring behaviour',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: five or six sentences. Try once to say that an '
+           'error in a measure is systematic rather than random.'),
+    cue=(('Describe a habit of yours that you would find hard to describe '
+          'accurately.'),
+         ['what the habit is',
+          'how often you think you do it',
+          'how you could find out for certain',
+          'and explain why your own estimate might be wrong']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Have you ever measured it?',
+        'Would you want to know?',
+        'How accurately do people describe their own behaviour?',
         'Should researchers rely on what people tell them?',
         'Is it intrusive to measure behaviour directly?',
         'What would make a study of this kind convincing?'],
@@ -1196,7 +1207,7 @@ UNIT = dict(
            {0: 'He takes the evidence up in the next cycle rather than '
                'dismissing it.', 2: 'Simplicity is not his reason for the order.', 3: 'Student preference is not his reason.'})])],
    speak=dict(
-    part='Part 3', focus='Free services and what they cost',
+    part='Part 2 into Part 3', focus='Free services and what they cost',
     followup=[(('You say the services are not free. Who should pay for the '
                 'ones people use daily?'),
                ('Users, where the service can be priced, and I accept that '
@@ -1222,9 +1233,19 @@ UNIT = dict(
                 'notifications timed to re-engage. Those are decisions '
                 'somebody made and can unmake, and they are testable, which '
                 'content moderation rules are not.'))],
-    intro=('Five or six sentences. Try once to say what a cost falling '
-           'outside a price means.'),
-    qs=['Are free online services really free?',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: five or six sentences. Try once to '
+           'say what a cost falling outside a price means.'),
+    cue=('Describe a free service you use often.',
+         ['what it is',
+          'how often you use it',
+          'what you would do without it',
+          'and explain how you think it is paid for']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you pay for it?',
+        'What do you give up by using it?',
+        'Are free online services really free?',
         'Who should pay for the services people use every day?',
         'Can competition solve problems of this kind?',
         'Should there be paid versions without advertising?'],
@@ -1556,7 +1577,7 @@ UNIT = dict(
            1, 'And not the claim that a generation has been damaged.',
            {0: 'They agree some action is licensed.', 2: 'No general ban is proposed by either.', 3: 'They agree on action as well as on funding a study.'})])],
    speak=dict(
-    part='Part 3', focus='Evidence of harm',
+    part='Part 2 into Part 3', focus='Evidence of harm',
     sounds=[('This unit\'s vocabulary is mostly compound and all front- '
              'stressed: SCREEN time, ATtention economy, ENgagement metrics, '
              'NOtification. Get the first element strong and the rest follows.'),
@@ -1572,9 +1593,21 @@ UNIT = dict(
             ('Record yourself on whether free services are free. Find the '
              'place you slowed down for a term, and say that clause again at '
              'speed.')],
-    intro=('The hardest turn in the unit. Try once to say that an average '
-           'conceals a distribution.'),
-    qs=['Is social media harmful to young people?',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: the hardest turn '
+           'in the unit. Try once to say that an average conceals a '
+           'distribution.'),
+    cue=(('Describe a rule you would make for children about screens or '
+          'phones.'),
+         ['what the rule would be',
+          'who it would apply to',
+          'how it would be enforced',
+          'and explain what you would expect it to achieve']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would a child accept it?',
+        'What evidence are you going on?',
+        'Is social media harmful to young people?',
         'How should governments act when evidence is mixed?',
         'Who should decide what children can use?',
         'Why do people disagree so strongly about this?'],

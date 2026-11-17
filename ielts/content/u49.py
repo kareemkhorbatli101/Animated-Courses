@@ -775,10 +775,21 @@ UNIT = dict(
            'of ____________ in 1994.', None, 'traffic',
            'Achieved without building anything.')])],
    speak=dict(
-    part='Part 3', focus='Redesigning a public place',
-    intro=('Five or six sentences. Try once to name a change that cost '
-           'nothing to build.'),
-    qs=['How have public places in your city changed?',
+    part='Part 2 into Part 3', focus='Redesigning a public place',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: five or six sentences. Try once to '
+           'name a change that cost nothing to build.'),
+    cue=(('Describe a square, a park or a market place that has been '
+          'redesigned.'),
+         ['where it is',
+          'what it was like before',
+          'what it is like now',
+          'and explain who uses it now']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you go there more or less than before?',
+        'Who was consulted about it?',
+        'How have public places in your city changed?',
         'Are such changes usually improvements?',
         'Who should decide how a square is used?',
         'Is it important to keep old buildings in a square?'],
@@ -1120,7 +1131,7 @@ UNIT = dict(
            '____________ it somewhere worse.', None,
            'displaces', 'The underpass being the standard destination.')])],
    speak=dict(
-    part='Part 3', focus='Rules in shared places',
+    part='Part 2 into Part 3', focus='Rules in shared places',
     followup=[(('You say the design excludes people. Who is usually left out '
                 'when rules are made?'),
                ('Whoever has no revenue attached to them: teenagers, people '
@@ -1148,9 +1159,20 @@ UNIT = dict(
                 'civic brief can do better than a neglectful authority. What '
                 'matters is whether anybody is accountable for the uses that '
                 'bring in no money.'))],
-    intro=('Five or six sentences. Try once to name who a rule excludes '
-           'that nobody intended to exclude.'),
-    qs=['Should there be rules about behaviour in public places?',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: five or six '
+           'sentences. Try once to name who a rule excludes that nobody '
+           'intended to exclude.'),
+    cue=('Describe a shared space where people have to get along.',
+         ['where it is',
+          'who uses it',
+          'what the unwritten rules are',
+          'and explain what happens when somebody breaks them']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who tends to be left out?',
+        'Should the rules be written down?',
+        'Should there be rules about behaviour in public places?',
         'Who is usually left out when such rules are made?',
         'Is it possible to please everybody in a shared space?',
         'How should a city decide between competing uses?'],

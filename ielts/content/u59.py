@@ -903,10 +903,22 @@ UNIT = dict(
            {1: 'Possible awareness is more than the design can carry.', 2: 'Absence of awareness is the overclaim he warns '
                'against.', 3: 'A need for repetition is not what he says to claim.'})])],
    speak=dict(
-    part='Part 3', focus='Evidence about other minds',
-    intro=('Five or six sentences. Try once to state the asymmetry '
-           'between a positive and a negative result.'),
-    qs=['How can we know what another person is experiencing?',
+    part='Part 2 into Part 3', focus='Evidence about other minds',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: five or six '
+           'sentences. Try once to state the asymmetry between a positive '
+           'and a negative result.'),
+    cue=(('Describe a time you had to work out how somebody else was '
+          'feeling.'),
+         ['who the person was',
+          'what the situation was',
+          'what you had to go on',
+          'and explain whether you got it right']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'How did you find out in the end?',
+        'What would have helped you?',
+        'How can we know what another person is experiencing?',
         'Can a machine tell us whether someone is aware?',
         'Should such evidence be used in medical decisions?',
         'What should be done when the evidence is unclear?'],
@@ -1269,7 +1281,7 @@ UNIT = dict(
            1, 'An argument from failure of imagination.',
            {0: 'Consciousness is the subject, not the lesson.', 2: 'History of science is his evidence, not the lesson.', 3: 'Experimental design is not what he draws from it.'})])],
    speak=dict(
-    part='Part 3', focus='What an explanation has to do',
+    part='Part 2 into Part 3', focus='What an explanation has to do',
     followup=[(('You say the scale was reliable within one person. What makes '
                 'an explanation satisfying?'),
                ('Usually that it shows a mechanism, so you can see how the '
@@ -1293,9 +1305,20 @@ UNIT = dict(
                 'good deal of the difficulty is that the questions are not '
                 'well posed. Clarifying what would count as an answer disposes '
                 'of more puzzles than any new evidence does.'))],
-    intro=('Five or six sentences. Try once to say what would count as '
-           'having explained something.'),
-    qs=['What makes an explanation satisfying?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: five or six sentences. Try '
+           'once to say what would count as having explained something.'),
+    cue=(('Describe an explanation that finally made something clear to '
+          'you.'),
+         ['what you had not understood',
+          'who explained it',
+          'how they explained it',
+          'and explain why that worked when other attempts had not']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What had the earlier attempts missed?',
+        'Could you now explain it to somebody else?',
+        'What makes an explanation satisfying?',
         'Are there things science cannot explain?',
         'Does explaining how something works explain what it is?',
         'Should we expect every question to have an answer?'],

@@ -270,13 +270,23 @@ UNIT = dict(
            'half time',
            'Because the ground is open to all stands then.')])],
    speak=dict(
-    part='Part 1', focus='Watching sport',
-    intro='Answer about yourself. If you do not watch sport, say so '
-          'and say what you do instead.',
+    part='Part 1 into Part 2', focus='Watching sport',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: answer about yourself. If you '
+           'do not watch sport, say so and say what you do instead.'),
+    cue=('Describe a match or a game you watched.',
+         ['say what it was',
+          'say where you watched it',
+          'say who you watched it with',
+          'and explain what you remember about it']),
     qs=['Do you watch sport?',
         'Is it better to watch at home or at the ground?',
         'Do people in your country follow one sport most?',
-        'Did you play sport at school?'],
+        'Did you play sport at school?',
+        'Now look at the card. You have one minute to make notes.',
+        'Who won?',
+        'Would you watch it again?'],
     shape=[('answer', 'I watch a little, mostly football, and mostly '
             'at home.'),
            ('support', 'At the ground you see the shape of the game '
@@ -459,12 +469,16 @@ UNIT = dict(
                'thing is that I have to wait. A tomato takes four '
                'months, and nothing in my work takes four months. That '
                'is the part I really like, and it is hard to explain.')],
-    intro='One minute to prepare. Use all four bullets and keep the '
-          'last one for the end.',
-    qs=['Describe a hobby you have or would like to have.',
-        'Say what it is.',
-        'Say how you started or would start.',
-        'Say what you get from it.'],
+    intro=('One minute to prepare. Use all four bullets and keep the last '
+           'one for the end.'),
+    cue=('Describe a hobby you have or would like to have.',
+         ['say what it is',
+          'say how you started or would start',
+          'say what you get from it',
+          'and explain whether you would tell a friend to try it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'How much time does it take?',
+        'Does it cost much?'],
     shape=[('answer', 'My hobby is repairing bicycles, which I do in '
             'my kitchen.'),
            ('support', 'I started because a shop wanted thirty pounds '
@@ -670,10 +684,21 @@ UNIT = dict(
            'not back to the ____________.', None, 'beginning',
            'Which is what gets people through an injury.')])],
    speak=dict(
-    part='Part 3', focus='Exercise and health',
-    intro='Give the claim, then the mechanism. Saying why something '
-          'works is what lifts a Part 3 answer.',
-    qs=['Why do people stop exercising?',
+    part='Part 2 into Part 3', focus='Exercise and health',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: give the claim, then the '
+           'mechanism. Saying why something works is what lifts a Part 3 '
+           'answer.'),
+    cue=('Describe a sport or an exercise you have tried.',
+         ['say what it was',
+          'say where you did it',
+          'say who you did it with',
+          'and explain whether you kept it up']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What made you stop or go on?',
+        'Would you try it again?',
+        'Why do people stop exercising?',
         'Is it better to exercise alone or with others?',
         'Should employers give workers time to exercise?'],
     shape=[('answer', 'Most people stop because they expect visible '

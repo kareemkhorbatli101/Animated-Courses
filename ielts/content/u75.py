@@ -327,7 +327,7 @@ UNIT = dict(
            'attached.', None, 'date',
            'At which point the two of them agree.')])],
    speak=dict(
-    part='Part 2', focus='A place that changed',
+    part='Part 1 into Part 2', focus='A place that changed',
     longturn=[('I am going to talk about a place that has changed. It is the '
                'area around the railway station in my city.'),
               ('Before, when I was at school, it was somewhere you did not '
@@ -349,12 +349,19 @@ UNIT = dict(
                'Nobody planned that, and nobody was responsible for '
                'it, and nobody mentions it when the project is '
                'described as a success.')],
-    intro='One minute, four lines. One place, one change, described '
-          'concretely.',
-    qs=['Describe a place you know that has changed.',
-        'Say what it was like before.',
-        'Say what changed.',
-        'Say whether the change was good.'],
+    intro=('One minute, four lines. One place, one change, described '
+           'concretely.'),
+    cue=('Describe a place you know that has changed.',
+         ['say what it was like before',
+          'say what changed',
+          'say whether the change was good',
+          'and explain who the change was for']),
+    qs=['How long have you lived where you live now?',
+        'Is your area quiet or busy?',
+        'What is the best thing about it?',
+        'Now look at the card. You have one minute to make notes.',
+        'Do you go there as often as you did?',
+        'What would you change back?'],
     shape=[('answer', 'The street where I grew up has changed a great '
             'deal in twenty years.'),
            ('support', 'It had two shops, a post office and a bus that '
@@ -553,10 +560,20 @@ UNIT = dict(
            '____________, at a low price.', None, 'nothing',
            'Which is the speaker’s closing lesson.')])],
    speak=dict(
-    part='Part 3', focus='Getting around a town',
-    intro='Give a view, a reason and a specific example from where you '
-          'live.',
-    qs=['How easy is it to get around your town without a car?',
+    part='Part 2 into Part 3', focus='Getting around a town',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: give a view, a reason and a '
+           'specific example from where you live.'),
+    cue=('Describe a walk you often take.',
+         ['say where you walk',
+          'say how long it takes',
+          'say what you see',
+          'and explain why you take that route']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you walk alone?',
+        'Has the route changed?',
+        'How easy is it to get around your town without a car?',
         'Should cities spend more on cycling?',
         'What makes people change how they travel?'],
     shape=[('answer', 'It is easy in the centre and difficult at the '
@@ -768,9 +785,20 @@ UNIT = dict(
            '____________.', None, 'road',
            'None of them a decision about the place itself.')])],
    speak=dict(
-    part='Part 3', focus='How places change',
-    intro='Name the cause, then the effect, then your judgement.',
-    qs=['What makes a village become a town?',
+    part='Part 2 into Part 3', focus='How places change',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: name the cause, then the effect, then your '
+           'judgement.'),
+    cue=('Describe a new building or road near where you live.',
+         ['say what it is',
+          'say when it was built',
+          'say what was there before',
+          'and explain what people say about it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you use it?',
+        'Was anybody asked about it first?',
+        'What makes a village become a town?',
         'Should people be able to stop building near them?',
         'Is it better to live in a place that is growing?'],
     shape=[('answer', 'Usually transport rather than any decision '

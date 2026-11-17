@@ -851,10 +851,20 @@ UNIT = dict(
            '____________ years of history.', None, 'five',
            'So that the decline is visible while it is still gentle.')])],
    speak=dict(
-    part='Part 3', focus='Paying now or paying later',
-    intro=('Five or six sentences. Try once to describe a curve that is '
-           'flat and then turns.'),
-    qs=['Why do organisations put off necessary spending?',
+    part='Part 2 into Part 3', focus='Paying now or paying later',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: five or six sentences. Try once to '
+           'describe a curve that is flat and then turns.'),
+    cue=('Describe a repair you put off.',
+         ['what needed repairing',
+          'why you put it off',
+          'what happened in the meantime',
+          'and explain what it cost you in the end']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would doing it sooner have been cheaper?',
+        'Are you putting anything off now?',
+        'Why do organisations put off necessary spending?',
         'Should governments be required to plan further ahead?',
         'Is it reasonable to leave costs to a future government?',
         'How can long-term problems be made visible?'],
@@ -1201,7 +1211,7 @@ UNIT = dict(
            1, 'Which he says its supporters never mention.',
            {0: 'He calls publication the cheapest remedy.', 2: 'Compliance has not been the problem.', 3: 'The condition data is audited and reliable.'})])],
    speak=dict(
-    part='Part 3', focus='Decisions that outlast those who make them',
+    part='Part 2 into Part 3', focus='Decisions that outlast those who make them',
     followup=[(('You say maintenance always loses. Why do governments avoid '
                 'long-term spending?'),
                ('Because the accounting and the politics both punish it. '
@@ -1229,12 +1239,22 @@ UNIT = dict(
                 'audit, and a long-dated reporting requirement. What does not '
                 'work is exhortation, or a commission whose findings arrive '
                 'after the minister has moved on.'))],
-    intro=('Five or six sentences. Try once to say that nobody acted '
-           'wrongly and the outcome was still bad.'),
-    qs=['Why do governments avoid long-term spending?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: five or six sentences. Try once to say that nobody '
+           'acted wrongly and the outcome was still bad.'),
+    cue=('Describe something built long ago that is still in use.',
+         ['what it is',
+          'when it was built',
+          'who uses it now',
+          'and explain what has kept it going']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who maintains it?',
+        'Will it still be there in fifty years?',
+        'Why do governments avoid long-term spending?',
         'Should decisions be reviewed over longer periods?',
-        'Who is responsible for a problem that took twenty years to '
-        'develop?',
+        ('Who is responsible for a problem that took twenty years to '
+         'develop?'),
         'Can institutions be designed to think further ahead?'],
     shape=[('answer', 'Mostly because the review period is shorter than the '
             'problem.'),
@@ -1563,7 +1583,7 @@ UNIT = dict(
            'decision.',
            {0: 'He has just conceded that floors failed.', 2: 'Voluntary publication is not what he proposes.', 3: 'Audit is part of what made publication work.'})])],
    speak=dict(
-    part='Part 3', focus='Rules that bind future decisions',
+    part='Part 2 into Part 3', focus='Rules that bind future decisions',
     sounds=[('Infrastructure vocabulary is long, dull and front-loaded, which '
              'is useful: MAINtenance, REsurfacing, DEpreciation on the fourth, '
              'BACKlog on the first.'),
@@ -1578,13 +1598,23 @@ UNIT = dict(
              'keeps the sentence.'),
             ('Record ninety seconds on paying now or paying later. Find your '
              'longest noun phrase and break it in two.')],
-    intro=('The hardest turn in the unit. Try once to say that a rule was '
-           'complied with and defeated.'),
-    qs=['Can a government bind its successors?',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: the hardest turn in the unit. Try '
+           'once to say that a rule was complied with and defeated.'),
+    cue=('Describe a promise that was hard to keep.',
+         ['what was promised',
+          'who made it',
+          'what made it hard',
+          'and explain whether it was kept in the end']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Should it have been promised at all?',
+        'Who was let down?',
+        'Can a government bind its successors?',
         'Do rules about spending work?',
         'Is it better to require information or to require action?',
-        'What should happen when there is not enough money for '
-        'everything?'],
+        ('What should happen when there is not enough money for '
+         'everything?')],
     shape=[('answer', 'Rules about spending tend to be complied with and '
             'defeated at the same time.'),
            ('support', 'One jurisdiction met a forty per cent floor every '

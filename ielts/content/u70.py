@@ -470,12 +470,15 @@ UNIT = dict(
                'sister said it was better than the park, because '
                'everybody talked to everybody. I am not sure that is '
                'true, but we tell the story every year now.')],
-    intro='One minute to prepare, four short lines. Tell it as a '
-          'story.',
-    qs=['Describe a time when the weather changed your plans.',
-        'Say what you had planned.',
-        'Say what the weather did.',
-        'Say what you did instead.'],
+    intro='One minute to prepare, four short lines. Tell it as a story.',
+    cue=('Describe a time when the weather changed your plans.',
+         ['say what you had planned',
+          'say what the weather did',
+          'say what you did instead',
+          'and explain how you felt about it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Had you been warned?',
+        'Did you try again later?'],
     shape=[('answer', 'Two winters ago we had planned a walk along the '
             'river on a Saturday.'),
            ('support', 'The river came over its banks on the Friday '
@@ -688,11 +691,20 @@ UNIT = dict(
            'three.', None, 'distance',
            'Facing and height matter more.')])],
    speak=dict(
-    part='Part 3', focus='Climate and place',
-    intro='Explain the cause, then give the example. The explanation '
-          'is what is being marked.',
-    qs=['Why is the weather different in places that are close '
-        'together?',
+    part='Part 2 into Part 3', focus='Climate and place',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: explain the cause, then give the example. '
+           'The explanation is what is being marked.'),
+    cue=('Describe the weather in your favourite season.',
+         ['say which season it is',
+          'say what the weather is like',
+          'say what you do in it',
+          'and explain why you prefer it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is that season changing?',
+        'Which season do you like least?',
+        'Why is the weather different in places that are close together?',
         'Do people choose where to live because of weather?',
         'Will the weather where you live change in your lifetime?'],
     shape=[('answer', 'The main reasons are water, height and the '

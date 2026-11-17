@@ -832,10 +832,21 @@ UNIT = dict(
            {0: 'He says the methods section is not read.', 2: 'An appendix is where he says such things go to be '
                'ignored.', 3: 'He wants it stated whether or not anybody asks.'})])],
    speak=dict(
-    part='Part 3', focus='Knowing what you have',
-    intro=('Five or six sentences. Try once to say that a zero is '
-           'ambiguous.'),
-    qs=['How do scientists know what species live in a place?',
+    part='Part 2 into Part 3', focus='Knowing what you have',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: five or six sentences. Try '
+           'once to say that a zero is ambiguous.'),
+    cue=(('Describe a plant or an animal you have looked for and not '
+          'found.'),
+         ['what it was',
+          'where you looked',
+          'why you expected to find it',
+          'and explain what you concluded']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could it still be there?',
+        'How would you make sure?',
+        'How do scientists know what species live in a place?',
         'Can we be sure something has disappeared?',
         'Should surveys be repeated in the same way each time?',
         'How should uncertainty be reported to the public?'],
@@ -1190,7 +1201,7 @@ UNIT = dict(
            {0: 'He says avoiding them is impossible.', 2: 'Ministers are who fund, not who should decide the '
                'trade-off.', 3: 'Funders are not who he says should record it.'})])],
    speak=dict(
-    part='Part 3', focus='Choosing what to save',
+    part='Part 2 into Part 3', focus='Choosing what to save',
     followup=[(('You say the famous species take the money. How should '
                 'organisations decide what to protect?'),
                ('By something closer to triage than to popularity: how '
@@ -1217,9 +1228,20 @@ UNIT = dict(
                 'published. The scientists cannot be left alone with it, '
                 'because the trade-offs are not scientific, and the funders '
                 'cannot, because they are answering to donors.'))],
-    intro=('Five or six sentences. Try once to describe a choice in which '
-           'both options are things you want.'),
-    qs=['How should conservation organisations decide what to protect?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: five or six sentences. Try once to '
+           'describe a choice in which both options are things you want.'),
+    cue=(('Describe a choice you made between two things you wanted to '
+          'keep.'),
+         ['what the two things were',
+          'why you could not keep both',
+          'how you decided',
+          'and explain whether you were right']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who else was affected?',
+        'Would you choose the same way now?',
+        'How should conservation organisations decide what to protect?',
         'Is it right to let some species disappear?',
         'Should famous animals receive most of the funding?',
         'Who should make these decisions?'],

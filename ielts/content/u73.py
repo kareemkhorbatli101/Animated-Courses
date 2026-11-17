@@ -367,7 +367,7 @@ UNIT = dict(
            'about the measurable one.', None, 'matters',
            'Which Ben says is how most such arguments are.')])],
    speak=dict(
-    part='Part 2', focus='A rule in your home',
+    part='Part 1 into Part 2', focus='A rule in your home',
     longturn=[('I am going to talk about a rule in my home. We do not use '
                'telephones at the table when we eat.'),
               ('The rule is simple and it applies to everybody, including '
@@ -388,12 +388,19 @@ UNIT = dict(
                'most likely to break it. What I have learned is that a '
                'rule everybody agreed to in advance is far easier to '
                'keep than one somebody announced.')],
-    intro='One minute, four lines. Describe one rule and judge it '
-          'honestly.',
-    qs=['Describe a rule you have at home, or had as a child.',
-        'Say what the rule is.',
-        'Say why it exists.',
-        'Say whether it works.'],
+    intro=('One minute, four lines. Describe one rule and judge it '
+           'honestly.'),
+    cue=('Describe a rule you have at home, or had as a child.',
+         ['say what the rule is',
+          'say why it exists',
+          'say whether it works',
+          'and explain who made it']),
+    qs=['How many machines do you have in your kitchen?',
+        'Which one do you use most?',
+        'Do you repair things or replace them?',
+        'Now look at the card. You have one minute to make notes.',
+        'Did you ever break it?',
+        'Would you keep it in your own home?'],
     shape=[('answer', 'The rule in my house is that telephones stay in '
             'the main room.'),
            ('support', 'It exists because a rule about minutes needs '
@@ -602,9 +609,20 @@ UNIT = dict(
            '____________.', None, 'dirty',
            'Or have a blocked filter, the speaker says.')])],
    speak=dict(
-    part='Part 3', focus='Repair and waste',
-    intro='Give a view and a reason, then a limit on your own view.',
-    qs=['Should companies be required to make repairable products?',
+    part='Part 2 into Part 3', focus='Repair and waste',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: give a view and a reason, then a '
+           'limit on your own view.'),
+    cue=('Describe something you repaired or had repaired.',
+         ['say what it was',
+          'say what was wrong with it',
+          'say who repaired it',
+          'and explain whether it was worth repairing']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'How long did it last afterwards?',
+        'Would you repair it again?',
+        'Should companies be required to make repairable products?',
         'Why do people throw away things that could be mended?',
         'Who should pay for dealing with electrical waste?'],
     shape=[('answer', 'I think companies should have to sell parts '
@@ -807,10 +825,20 @@ UNIT = dict(
            'a gas leak', 'Because finding it costs more than the '
            'machine.')])],
    speak=dict(
-    part='Part 3', focus='Machines and how they work',
-    intro='Explain the mechanism in two sentences, then say what '
-          'follows from it.',
-    qs=['Should people understand how household machines work?',
+    part='Part 2 into Part 3', focus='Machines and how they work',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: explain the mechanism in two sentences, then say '
+           'what follows from it.'),
+    cue=('Describe a machine in your home you could not do without.',
+         ['say what it is',
+          'say how old it is',
+          'say who uses it most',
+          'and explain what it does for you']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What would you do if it broke?',
+        'Could you repair it yourself?',
+        'Should people understand how household machines work?',
         'Do machines make life easier or just busier?',
         'What should happen to old machines?'],
     shape=[('answer', 'I think a basic idea of the mechanism is worth '

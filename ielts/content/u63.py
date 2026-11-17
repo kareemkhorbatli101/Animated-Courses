@@ -252,13 +252,23 @@ UNIT = dict(
            'six',
            'The lost property office is on Wharf Road.')])],
    speak=dict(
-    part='Part 1', focus='Someone you know well',
-    intro='Describe one person, not three. Two sentences about one '
-          'person scores better than one sentence about three.',
+    part='Part 1 into Part 2', focus='Someone you know well',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: describe one person, not three. Two sentences '
+           'about one person scores better than one sentence about three.'),
+    cue=('Describe a friend you have known a long time.',
+         ['say who they are',
+          'say how you met',
+          'say what you do together',
+          'and explain why you are still friends']),
     qs=['Who do you know best outside your family?',
         'What is that person like?',
         'How did you meet?',
-        'Do you see them often?'],
+        'Do you see them often?',
+        'Now look at the card. You have one minute to make notes.',
+        'How often do you see them?',
+        'Have they changed much?'],
     shape=[('answer', 'The person I know best is my friend Omar.'),
            ('support', 'He is quiet and very patient, which is useful '
             'because I am neither.'),
@@ -414,12 +424,16 @@ UNIT = dict(
                'the kitchen for fifteen minutes. I listen to music or to the '
                'radio. So it is a quiet time in a busy day, and when it is '
                'finished, the kitchen is clean and the evening is free.')],
-    intro='One minute to prepare. Four bullets, four short sections, '
-          'and you will reach two minutes without rushing.',
-    qs=['Describe a job you do at home.',
-        'Say what it is.',
-        'Say how often you do it.',
-        'Say whether you like it.'],
+    intro=('One minute to prepare. Four bullets, four short sections, and '
+           'you will reach two minutes without rushing.'),
+    cue=('Describe a job you do at home.',
+         ['say what it is',
+          'say how often you do it',
+          'say whether you like it',
+          'and explain who else could do it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you choose that job?',
+        'How long does it take you?'],
     shape=[('answer', 'The job I do at home is the cooking on two '
             'nights a week.'),
            ('support', 'I cook on Monday and Thursday, because I do not '
@@ -609,10 +623,20 @@ UNIT = dict(
            'causing them.', None, 'follows',
            'Getting the order wrong gives the wrong policy.')])],
    speak=dict(
-    part='Part 3', focus='How families have changed',
-    intro='Give the change first, then the reason. Two reasons is '
-          'plenty for a Part 3 answer.',
-    qs=['How are families different from fifty years ago?',
+    part='Part 2 into Part 3', focus='How families have changed',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: give the change first, then '
+           'the reason. Two reasons is plenty for a Part 3 answer.'),
+    cue=('Describe an older member of your family.',
+         ['say who they are',
+          'say where they live',
+          'say what they did when they were young',
+          'and explain how their life was different from yours']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you see them often?',
+        'What have you learned from them?',
+        'How are families different from fifty years ago?',
         'Is a small family better than a large one?',
         'Should governments help families with children?'],
     shape=[('answer', 'The biggest change is that families are much '

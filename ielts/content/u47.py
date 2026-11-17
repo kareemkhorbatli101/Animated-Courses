@@ -827,9 +827,21 @@ UNIT = dict(
            {0: 'He says the farm is not in trouble yet.', 2: 'Profitability is in doubt from the widening gap.', 3: 'A change of ownership is one alternative explanation '
                'only.'})])],
    speak=dict(
-    part='Part 3', focus='Measuring a farm',
-    intro=('Five or six sentences. Try once to say what an index conceals.'),
-    qs=['How should the success of a farm be measured?',
+    part='Part 2 into Part 3', focus='Measuring a farm',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: five or six '
+           'sentences. Try once to say what an index conceals.'),
+    cue=(('Describe a piece of work you did that was judged by a single '
+          'number.'),
+         ['what the work was',
+          'what the number measured',
+          'who judged you by it',
+          'and explain what it failed to capture']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was the judgement fair?',
+        'What else should have counted?',
+        'How should the success of a farm be measured?',
         'Is producing more always better?',
         'What do agricultural statistics leave out?',
         'Should farmers be judged on their output?'],
@@ -1178,7 +1190,7 @@ UNIT = dict(
            1, 'Required at the start and end of a tenancy.',
            {0: 'Annual valuation is what he argues against.', 2: 'Public reporting is not part of his proposal.', 3: 'Taxation is not what he proposes.'})])],
    speak=dict(
-    part='Part 3', focus='What a balance sheet leaves out',
+    part='Part 2 into Part 3', focus='What a balance sheet leaves out',
     followup=[(('You say accounts leave things out. Should natural resources '
                 'be given a monetary value?'),
                ('Shadow-priced, yes, and written into the accounts with the '
@@ -1204,9 +1216,20 @@ UNIT = dict(
                 'by somebody else, and soil and water tested when land changes '
                 'hands. It is less elegant than paying for results and it is '
                 'the version that would actually run.'))],
-    intro=('Five or six sentences. Try once to distinguish income from '
-           'capital.'),
-    qs=['What do financial accounts fail to capture?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: five or six sentences. Try '
+           'once to distinguish income from capital.'),
+    cue=(('Describe something valuable where you live that is not counted '
+          'in money.'),
+         ['what it is',
+          'who benefits from it',
+          'why it is not counted',
+          'and explain what would happen if it were lost']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could it be given a price?',
+        'Who looks after it?',
+        'What do financial accounts fail to capture?',
         'Should natural resources be given a monetary value?',
         'Who should be responsible for the condition of farmland?',
         'Can long-term damage be measured in money?'],

@@ -860,10 +860,20 @@ UNIT = dict(
            1, 'And the answer is surprisingly often no.',
            {0: 'What it did is the question he says comes second.', 2: 'Funding is not his first question.', 3: 'Duration is not what he asks about first.'})])],
    speak=dict(
-    part='Part 3', focus='Managing what everyone uses',
-    intro=('Five or six sentences. Try once to say why a success might not '
-           'be one.'),
-    qs=['How should shared natural resources be managed?',
+    part='Part 2 into Part 3', focus='Managing what everyone uses',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: five or six sentences. Try once to say why '
+           'a success might not be one.'),
+    cue=('Describe something shared that you help look after.',
+         ['what it is',
+          'who else uses it',
+          'what looking after it involves',
+          'and explain how the work is divided']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Does everybody contribute?',
+        'What happens when somebody does not?',
+        'How should shared natural resources be managed?',
         'Do international agreements work?',
         'Who should pay for protecting them?',
         'Can local communities manage resources themselves?'],
@@ -1223,7 +1233,7 @@ UNIT = dict(
            '____________.', None, 'survivors',
            'Observed in institutions that survived.')])],
    speak=dict(
-    part='Part 3', focus='Rules people make for themselves',
+    part='Part 2 into Part 3', focus='Rules people make for themselves',
     followup=[(('You say succession failed rather than free-riding. Are self- '
                 'made rules better than imposed ones?'),
                ('Better complied with, because the people who wrote them can '
@@ -1250,9 +1260,20 @@ UNIT = dict(
                 'longer see itself, and what works is a formal body with local '
                 'membership rather than either spontaneous cooperation or a '
                 'distant authority.'))],
-    intro=('Five or six sentences. Try once to say why a first penalty '
-           'should be small.'),
-    qs=['Are rules people make themselves better than imposed ones?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: five or six sentences. Try once to '
+           'say why a first penalty should be small.'),
+    cue=(('Describe an arrangement a group you belong to agreed among '
+          'themselves.'),
+         ['what the group is',
+          'what was agreed',
+          'how it was agreed',
+          'and explain whether people keep to it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who notices when somebody does not?',
+        'Was any of it written down?',
+        'Are rules people make themselves better than imposed ones?',
         'Why might a small penalty work better than a large one?',
         'Who should monitor whether rules are followed?',
         'Do such arrangements work in cities?'],

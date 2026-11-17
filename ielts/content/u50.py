@@ -845,10 +845,20 @@ UNIT = dict(
            1, 'And the remaining errors are the invisible kind.',
            {0: 'Cost is not the reason the agencies give.', 2: 'Staff refusal is not reported.', 3: 'Client objection is not the reason given.'})])],
    speak=dict(
-    part='Part 3', focus='Translating by machine',
-    intro=('Five or six sentences. Try once to say that a better-sounding '
-           'output can be a worse one.'),
-    qs=['Will machine translation replace human translators?',
+    part='Part 2 into Part 3', focus='Translating by machine',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: five or six sentences. Try '
+           'once to say that a better-sounding output can be a worse one.'),
+    cue=('Describe a time you used a translation tool.',
+         ['what you were translating',
+          'why you needed it',
+          'how good the result was',
+          'and explain what you did to check it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you use it for something important?',
+        'What did it get wrong?',
+        'Will machine translation replace human translators?',
         'Do you trust automatic translation?',
         'Is it a problem if a translation sounds right but is wrong?',
         'Should children still learn languages?'],
@@ -1201,7 +1211,7 @@ UNIT = dict(
            {0: 'He cites it as support, not as refutation.', 2: 'He calls it the reason to take the position seriously.', 3: 'No measurement error is involved in splitting the '
                'score.'})])],
    speak=dict(
-    part='Part 3', focus='Saying the same thing differently',
+    part='Part 2 into Part 3', focus='Saying the same thing differently',
     followup=[(('You say something is given up. Can two sentences ever mean '
                 'exactly the same thing?'),
                ('Not if meaning includes what a sentence implies about its '
@@ -1226,9 +1236,20 @@ UNIT = dict(
                 'contract. For the contract I would have it translated back by '
                 'somebody who has not seen the original. For the poem I would '
                 'ask readers of both what they came away with.'))],
-    intro=('Five or six sentences. Try once to say that two sentences mean '
-           'the same and do not do the same.'),
-    qs=['Can two sentences ever mean exactly the same thing?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: five or six sentences. Try once to say '
+           'that two sentences mean the same and do not do the same.'),
+    cue=(('Describe a time you had to explain the same thing twice in '
+          'different words.'),
+         ['what you were explaining',
+          'who you were explaining it to',
+          'how the two explanations differed',
+          'and explain which of them worked better']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Why did the first one fail?',
+        'Did the meaning change between them?',
+        'Can two sentences ever mean exactly the same thing?',
         'Does it matter how something is said as well as what is said?',
         'Are some ideas impossible to express in another language?',
         'How would you judge whether two texts match?'],
@@ -1562,7 +1583,7 @@ UNIT = dict(
            1, 'A demand on publishers rather than on either of them.',
            {0: 'She says he cannot learn eleven languages.', 2: 'She does not suggest he stop reviewing.', 3: 'Which books to review is not her point.'})])],
    speak=dict(
-    part='Part 3', focus='Judging a translation',
+    part='Part 2 into Part 3', focus='Judging a translation',
     sounds=[('Foreign words used in English keep approximations of their own '
              'stress, and this unit is full of them: nuANCE, reGIster, '
              'idiOMatic, which takes it on the third.'),
@@ -1577,9 +1598,21 @@ UNIT = dict(
             ('Record yourself on whether two sentences can mean the same '
              'thing. Find the place where the stress carried the argument, and '
              'the place where it should have and did not.')],
-    intro=('The last long turn of the volume. Try once to say that '
-           '"better" is incomplete without a standard.'),
-    qs=['How can you tell whether a translation is good?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: the last long turn of the volume. '
+           'Try once to say that "better" is incomplete without a '
+           'standard.'),
+    cue=(('Describe a translated book, film or article you have read or '
+          'seen.'),
+         ['what it was',
+          'which language it came from',
+          'how it read in English',
+          'and explain whether you would call it a good translation']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What would you compare it with?',
+        'Do you know who translated it?',
+        'How can you tell whether a translation is good?',
         'Can a translation ever be better than the original?',
         'Should translators explain their choices?',
         'Who is qualified to judge?'],
