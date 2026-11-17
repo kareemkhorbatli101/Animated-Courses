@@ -779,14 +779,16 @@ UNIT = dict(
            'at all.',
            {0: 'Paragraph 3 gives the two spreads.', 2: 'Paragraph 5 gives the two middle competitions.', 3: 'Paragraph 6 explains why the mean is nearly useless '
                'for panel sizing.'}),
-          ('Spread between lowest and highest pair in sculpture: '
-           '____________ points', None, 'seventy-eight',
+          (
+           'What is the spread between the lowest and highest pair in '
+           'sculpture?', None, 'seventy-eight',
            'Paragraph 3, running from a lowest pair of 14 to a highest '
            'of 92.'),
-          ('The lowest pair in short fiction scored ____________.', None,
+          ('What did the lowest pair in short fiction score?', None,
            '31', 'Paragraph 5, against a highest pair of 81.'),
-          ('A panel with a ____________ range cannot be reduced in size.',
-           None, 'wide',
+          (
+           'A panel with what kind of range cannot be reduced in size?',
+           None, 'a wide range',
            'Paragraph 6, because the outcome then depends on '
            'availability.')])],
    listen=[

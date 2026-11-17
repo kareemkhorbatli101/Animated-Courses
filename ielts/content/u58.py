@@ -752,12 +752,13 @@ UNIT = dict(
            ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
            2, 'A figure is meaningless unless the lead time is stated.',
            {0: 'Paragraph 5 identifies the crossing as the finding.', 1: 'Paragraph 6 explains what each method relies on.', 3: 'Paragraph 4 gives the statistical method\u2019s figures.'}),
-          ('Persistence scores ____________ at seventy-two hours.', None,
+          ('What does persistence score at seventy-two hours?', None,
            '18', 'Paragraph 2, down from 86 at six hours.'),
-          ('The numerical model reaches ____________ at a week.', None,
+          ('What does the numerical model reach at a week?', None,
            '31', 'Paragraph 3, having begun highest at 92.'),
-          ('The statistical method is the best available beyond '
-           '____________ days.', None, 'five',
+          (
+           'Beyond how many days is the statistical method the best '
+           'available?', None, 'five',
            'Paragraph 4, where it crosses the numerical model.')])],
    listen=[
     dict(heading='A forecaster on verification', part='Part 4',

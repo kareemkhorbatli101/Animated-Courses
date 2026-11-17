@@ -1255,12 +1255,12 @@ UNIT = dict(
            'thing.', None, 'form',
            'So a longer functional story is more of what was not '
            'helping.'),
-          ('The reply he calls the sharpest holds that',
-           ['conceivability proves nothing', 'there are two representations', 'the sense of a remainder is itself produced by a mechanism', 'the question is meaningless'],
-           2,
+          (
+           'The reply he calls the sharpest holds that the sense of a '
+           'remainder is itself produced by a ____________.',
+           None, 'mechanism',
            'So a theory would explain why we feel the explanation is '
-           'incomplete.',
-           {0: 'Conceivability proving nothing is the first reply.', 1: 'The two representations are the second reply.', 3: 'Meaninglessness is not among the three replies.'}),
+           'incomplete.'),
           ('He says the three replies all explain the ____________.',
            None, 'intuition',
            'Which was not what the complaint was about.'),

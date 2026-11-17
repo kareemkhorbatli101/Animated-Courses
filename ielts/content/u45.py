@@ -748,11 +748,12 @@ UNIT = dict(
            'Each states its blind spots in its summary rather than in '
            'a methods section.',
            {0: 'Paragraph 5 states the general pattern.', 1: 'Paragraph 6 warns about comparing two periods.', 3: 'Paragraph 4 describes specimen sampling.'}),
-          ('Beetles recorded by specimen sampling: ____________', None,
-           '84', 'Paragraph 4, four times the transect figure.'),
-          ('Mammals recorded by camera traps: ____________', None, '21',
-           'Paragraph 3, three times the transect figure.'),
-          ('Fungi recorded by camera traps: ____________', None, 'none',
+          ('How many beetles were recorded by specimen sampling?',
+           None, '84', 'Paragraph 4, four times the transect figure.'),
+          ('How many mammals were recorded by camera traps?', None,
+           '21', 'Paragraph 3, three times the transect figure.'),
+          ('How many fungi were recorded by camera traps?', None,
+           'none',
            'Paragraph 3, because fungi cannot be detected that way.')])],
    listen=[
     dict(heading='An ecologist on survey method', part='Part 4',

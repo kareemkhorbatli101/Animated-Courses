@@ -763,16 +763,17 @@ UNIT = dict(
            {0: 'Paragraph 4 groups the four language pairs into two '
                'sets.', 1: 'Paragraph 5 explains the pattern in terms of training '
                'data.', 3: 'Paragraph 7 reports what agencies now do.'}),
-          ('The largest fluency gain was ____________ to English.', None,
-           'Turkish',
+          (
+           'Which language pair had the largest fluency gain into '
+           'English?', None, 'Turkish',
            'Paragraph 2, at twenty-one points.'),
-          ('Adequacy fell by ____________ points for Yoruba.', None,
-           'three',
-           'Paragraph 3, while its fluency rose by nineteen.'),
-          ('Three of four agencies discourage ____________ of Yoruba '
-           'output.', None, 'post-editing',
-           'Paragraph 7: correcting fluent wrong text takes longer than '
-           'translating afresh.')])],
+          ('By how many points did adequacy fall for Yoruba?', None,
+           'three', 'Paragraph 3, while its fluency rose by nineteen.'),
+          (
+           'What do three of four agencies discourage for Yoruba '
+           'output?', None, 'post-editing',
+           'Paragraph 7: correcting fluent wrong text takes longer '
+           'than translating afresh.')])],
    listen=[
     dict(heading='A researcher on evaluating translation', part='Part 4',
          task='A lecture on translation evaluation · multiple choice', band='l4',
@@ -826,20 +827,18 @@ UNIT = dict(
            'wrong text takes longer than translating the source, and the '
            'errors it leaves behind are the invisible kind.')],
          items=[
-          ('Fluency rose in all ____________ pairs.', None, 'four',
+          ('In how many pairs did fluency rise?', None, 'all four',
            'By between fourteen and twenty-one points.'),
           (
            'The German fluency gain is the smallest because of a '
            '____________ effect.', None, 'ceiling',
            'German output was already the most readable in 2019.'),
-          ('Adequacy for Yoruba fell ____________ points.', None,
+          ('By how many points did adequacy for Yoruba fall?', None,
            'three', 'While its fluency rose by nineteen.'),
           ('He says the chart should be read as ____________ stories.',
            None, 'two',
            'German and Spanish together; Turkish and Yoruba together.'),
-          (
-           'The cause of the pattern is the ____________ of matched '
-           'text in both languages.', None, 'quantity',
+          ('What causes the pattern?', None, 'matched text quantity',
            'English text alone improves fluency from any source.'),
           ('Agencies discourage post-editing Yoruba output because',
            ['it is too expensive', 'correcting fluent wrong text takes longer than translating afresh', 'staff refuse', 'clients object'],

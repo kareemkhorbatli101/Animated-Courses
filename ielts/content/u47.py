@@ -741,12 +741,14 @@ UNIT = dict(
            'chart.',
            {0: 'Paragraph 4 compares output with purchased inputs.', 1: 'Paragraph 5 gives the underlying percentages behind '
                'the index.', 3: 'Paragraph 7 gives the honest summary.'}),
-          ('Yield index in 2023: ____________', None, '144',
+          ('What is the yield index in 2023?', None, '144',
            'Paragraph 2, against 186 for purchased inputs.'),
-          ('Soil organic matter index in 2023: ____________', None, '74',
+          ('What is the soil organic matter index in 2023?', None,
+           '74',
            'Paragraph 3, declining about four points every five years.'),
-          ('The agronomic threshold for structural failure is usually put '
-           'at ____________ per cent.', None, '2.0',
+          (
+           'Where is the agronomic threshold for structural failure '
+           'usually put?', None, '2.0',
            'Paragraph 5, against a current level of 3.0.')])],
    listen=[
     dict(heading='An agronomist on measuring a farm', part='Part 4',

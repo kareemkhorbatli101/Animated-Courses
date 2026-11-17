@@ -1236,20 +1236,18 @@ UNIT = dict(
            1, 'Because agreement leaves no trail.',
            {0: 'That is the conclusion he says is unwarranted.', 2: 'Parish size is not what the count measures.', 3: 'Archive quality is not what is being measured.'}),
           (
-           'He says the archive records the poor as objects of '
-           '____________.', None, 'administration',
+           'As objects of what does he say the archive records the '
+           'poor?', None, 'administration',
            'Which he calls different from the comfortable version.'),
           (
            'Anything shelved together, he says, is ____________ '
            'together.', None, 'lost',
            'Which can remove a century from a collection.'),
-          ('The fourth distortion operates through ____________.',
-           None, 'cataloguing',
+          ('Through what does the fourth distortion operate?', None,
+           'cataloguing',
            'Since nobody finds what they do not know is there.'),
-          (
-           'He blocks the response that nothing can be known by saying '
-           'the distortions are systematic and ____________.',
-           None, 'directional',
+          ('How does he describe the distortions?', None,
+           'systematic and directional',
            'A known bias being different from an unknown one.')])],
    speak=dict(
     part='Part 3', focus='Whose past is recorded',

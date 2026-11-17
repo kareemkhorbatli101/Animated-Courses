@@ -754,15 +754,15 @@ UNIT = dict(
            'A measurement after one quarter understates the eventual '
            'effect.',
            {0: 'Paragraph 5 explains substitutability.', 1: 'Paragraph 6 draws the two practical consequences.', 3: 'Paragraph 4 defines incidence.'}),
-          ('In Market A the buyer price settled at ____________.', None,
+          ('Where did the buyer price settle in Market A?', None,
            '120', 'Paragraph 2, from 102 before the tax.'),
-          ('In Market B the quantity fell to ____________ by the fourth '
-           'quarter.', None, '76',
+          (
+           'To what did the quantity fall in Market B by the fourth '
+           'quarter?', None, '76',
            'Paragraph 3, while the price rose only to 105.'),
-          ('A tax reduces consumption in Market B and raises ____________ '
-           'in Market A.', None, 'revenue',
-           'Paragraph 6: a government cannot have both from one tax in one '
-           'market.')])],
+          ('What does a tax raise in Market A?', None, 'revenue',
+           'Paragraph 6: a government cannot have both from one tax in '
+           'one market.')])],
    listen=[
     dict(heading='An economist on tax incidence', part='Part 4',
          task='A lecture on who bears a tax · multiple choice', band='l4',

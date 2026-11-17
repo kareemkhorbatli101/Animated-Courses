@@ -763,12 +763,12 @@ UNIT = dict(
            2,
            'Condition turns at year 10 and spending not until year 19.',
            {0: 'Paragraph 4 gives the first fifteen years of spending.', 1: 'Paragraph 5 identifies the crossing point.', 3: 'Paragraph 3 describes the reactive decline.'}),
-          ('Reactive condition in year 20: ____________', None, '52',
+          ('What is the reactive condition in year 20?', None, '52',
            'Paragraph 3, after 76 in year 15.'),
-          ('Reactive cumulative spending at year 30: ____________ '
-           'million', None, '61',
+          ('What is reactive cumulative spending at year 30?', None,
+           '61 million',
            'Paragraph 5, against 29 million for the planned regime.'),
-          ('No intervention restores an asset to ____________ condition.',
+          ('To what condition does no intervention restore an asset?',
            None, 'as-built',
            'Paragraph 2, which is why the planned line ends at 90.')])],
    listen=[

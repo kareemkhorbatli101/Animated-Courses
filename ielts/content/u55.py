@@ -769,15 +769,15 @@ UNIT = dict(
            'nothing.',
            {0: 'Paragraph 5 gives the management histories.', 1: 'Paragraph 6 explains why that fishery was never '
                'pressed.', 3: 'Paragraph 4 describes its flat line.'}),
-          ('Ashcombe Deep ended 2024 at ____________ thousand tonnes.',
-           None, '362',
+          ('At what level did Ashcombe Deep end 2024?', None,
+           '362 thousand tonnes',
            'Paragraph 3, within eight per cent of its 1994 level.'),
-          ('Ashcombe’s fleet agreed a closed season and observers in '
-           '____________.', None, '2007',
+          (
+           'In which year did Ashcombe\u2019s fleet agree a closed season '
+           'and observers?', None, '2007',
            'Paragraph 5, at about four per cent of catch value.'),
-          ('Kelverstone varied by no more than ____________ thousand '
-           'tonnes across the period.', None, 'nine',
-           'Paragraph 4, in either direction.')])],
+          ('By how much did Kelverstone vary across the period?', None,
+           'nine thousand tonnes', 'Paragraph 4, in either direction.')])],
    listen=[
     dict(heading='An economist on common resources', part='Part 4',
          task='A lecture on shared resources · multiple choice', band='l4',

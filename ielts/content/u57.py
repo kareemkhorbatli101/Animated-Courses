@@ -805,12 +805,12 @@ UNIT = dict(
            ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
            2, 'Where older records lack what the new definition needs.',
            {0: 'Paragraph 5 says the direction of travel is unchanged.', 1: 'Paragraph 6 defines a break in series.', 3: 'Paragraph 4 gives the recalculated figures.'}),
-          ('The urban threshold fell from ten thousand residents to '
-           '____________ thousand plus a density condition.', None,
-           'five',
+          (
+           'To what did the urban threshold fall from ten thousand '
+           'residents?', None, 'five thousand',
            'Paragraph 3, moving several hundred settlements.'),
-          ('Urban in 2001 rises from 1,840 to ____________ thousand on '
-           'the new basis.', None, '2,104',
+          ('To what does urban in 2001 rise on the new basis?', None,
+           '2,104 thousand',
            'Paragraph 4, an increase of 264 thousand reclassified.'),
           ('Where recalculation is impossible, the convention is to '
            'publish both series and refuse to ____________ them.', None,

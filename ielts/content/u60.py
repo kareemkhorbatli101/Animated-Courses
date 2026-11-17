@@ -99,11 +99,12 @@ UNIT = dict(
            ['per section', 'once', 'per outcome', 'only if the score changes'],
            1, 'Paragraph 2, and refunded if any section changes.',
            {0: 'Paragraph 2 says once rather than per section.', 2: 'Outcomes do not affect how often the fee is charged.', 3: 'A change brings a refund, not the charge.'}),
-          ('Reductions affect fewer than ____________ per cent of '
-           'nominated sections.', None, 'one',
+          (
+           'What percentage of nominated sections do reductions '
+           'affect?', None, 'under one',
            'Paragraph 3, though the possibility is real.'),
-          ('The six-week deadline is calculated from the ____________ '
-           'date.', None, 'test',
+          ('From what date is the six-week deadline calculated?', None,
+           'the test date',
            'Paragraph 5, not from when results were issued.'),
           ('An enquiry upheld in part means',
            ['the fee is halved', 'one section changes and another does not', 'the result is cancelled', 'a retest is offered'],

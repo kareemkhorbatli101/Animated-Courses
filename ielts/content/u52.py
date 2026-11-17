@@ -786,12 +786,11 @@ UNIT = dict(
           ('The hindcast is compared against the ____________ years.',
            None, 'held-back',
            'Paragraph 4, excluded from fitting on purpose.'),
-          ('Which paragraph identifies the loop?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
-           2,
+          (
+           'On the diagram, the forward run produces the ____________.',
+           None, 'published range',
            'Where an out-of-tolerance hindcast returns to the fitting '
-           'routine.',
-           {0: 'Paragraph 3 describes the fitting routine.', 1: 'Paragraph 4 describes the hindcast.', 3: 'Paragraph 6 describes the forward run and review.'}),
+           'routine.'),
           ('Which paragraph warns that the loop can be run too often?',
            ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
            2,

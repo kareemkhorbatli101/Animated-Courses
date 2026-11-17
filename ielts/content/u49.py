@@ -1406,7 +1406,10 @@ UNIT = dict(
            'Paragraph 8: the only such requirement among the three.')])],
    listen=[
     dict(heading='A manager and a campaigner disagree', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 63-68',
+         task='A recorded exchange · multiple choice''A recorded exchange · multiple choice',
+         bank=['A', 'B', 'C'],
+         reuse=True,
+         banklabel='A  Mr Osei-Lindqvist    B  Ms Achterberg    C  both of them', band='l4', qtype='Questions 63-68',
          script=[
           ('Chair', 'Mr Osei-Lindqvist manages Ravensmere Square. Ms '
            'Achterberg campaigns on access to public space.'),
@@ -1455,34 +1458,26 @@ UNIT = dict(
            'nine years to work out that it was a reporting clause rather '
            'than an ownership argument.')],
          items=[
-          ('Osei-Lindqvist opens by',
-           ['disputing the figures', 'stating the figure used against him', 'blaming the council', 'refusing to comment'],
-           1, 'Users over seventy down by about half.',
-           {0: 'He states the figures rather than disputing them.', 2: 'He credits the council square with better composition '
-               'of use.', 3: 'He comments at length from the outset.'}),
-          ('What does he admit he is uncomfortable defending?',
-           ['collecting the data', 'collecting but not publishing it', 'the condition scores', 'the security contract'],
-           1, 'A distinction he draws himself.',
-           {0: 'He is comfortable with collecting the data.', 2: 'He defends the condition scores as real.', 3: 'He defends each security decision as reasonable.'}),
           (
-           'Achterberg says she has stopped arguing about '
-           '____________.', None, 'motives',
-           'Accepting that the pattern was nobody\u2019s intention.'),
+           'States the figure that is used against them before it can '
+           'be read out.', None, 'A',
+           'The opening move of the exchange.'),
+          ('Collects a figure but does not publish it.', None, 'A',
+           'An admission the speaker will not defend.'),
+          ('Has stopped arguing about motives.', None, 'B',
+           'Said after accepting that nothing was set out to be '
+           'produced.'),
+          ('Accepts that better kept and less used are both true.',
+           None, 'C',
+           'One says it and the other calls both halves true.'),
           (
-           'She describes "better kept and less used" as both true and '
-           'not a ____________.', None, 'contradiction',
-           'And says she cannot get it into a press release.'),
-          ('What does she actually ask for?',
-           ['public ownership', 'annual publication of composition of use', 'removal of security', 'longer opening hours'],
-           1,
-           'Age bands, dwell time and refusals, beside the condition '
-           'scores.',
-           {0: 'She says explicitly that she does not want his keys.', 2: 'She accepts the security as lawful and asks for '
-               'reporting.', 3: 'Opening hours are one mechanism, not her request.'}),
+           'Says the twenty-minute instruction is lawful but not a '
+           'readable rule.', None, 'A',
+           'The thing this speaker\u2019s own side will not say.'),
           (
-           'He says the clause would work because he ____________ what '
-           'he is asked about.', None, 'manages',
-           'And says this is not to his credit.')])],
+           'Wants composition of use published annually alongside '
+           'condition scores.', None, 'B',
+           'The clause rather than the slogan.')])],
    speak=dict(
     part='Part 3', focus='Who decides how a place is used',
     sounds=[('Place and design words in this unit are compounds and take the '

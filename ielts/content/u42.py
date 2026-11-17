@@ -1153,12 +1153,14 @@ UNIT = dict(
            'duty stops working.',
            {0: 'Yes would need none; paragraph 7 names the one that '
                'matters.', 2: 'Not Given is wrong because the regime is assessed.'}),
-          ('Across twenty-four technologies the median interval before a '
-           'binding rule was ____________ years.', None, 'six',
+          (
+           'Across twenty-four technologies, what was the median '
+           'interval before a binding rule?', None,
+           'six years',
            'Paragraph 8, rising to eleven where a new statute was '
            'required.'),
-          ('Principle-based rules are enforced against small firms and '
-           '____________ with large ones.', None, 'negotiated',
+          ('Against whom are principle-based rules enforced?', None,
+           'small firms',
            'Paragraph 5, because contesting them is expensive.'),
           ('The writer says a regulator waiting for a parliamentary slot is '
            'waiting behind a ____________.', None, 'legislature',

@@ -762,9 +762,13 @@ UNIT = dict(
            'tell a reader nothing.',
            {0: 'Paragraph 5 explains what a range claims.', 1: 'Paragraph 6 describes how the chart is usually '
                'reported.', 3: 'Paragraph 4 deals with the 2020 exception.'}),
-          ('In ____________ of the six years shown, the outturn fell inside '
-           'the range.', None, 'five',
-           'Paragraph 3: 2014, 2016, 2018, 2022 and 2023.'),
+          (
+           'The outturn fell inside the published range in five of the '
+           'six years shown.',
+           ['True', 'False', 'Not Given'], 0,
+           'The chart shows one year outside the range and five inside '
+           'it.',
+           {1: 'Five of the six is what the chart shows.', 2: 'The chart gives every year, so it is given.'}),
           (
            'The central forecast line differed from the outturn in '
            'every year shown.',
@@ -1127,10 +1131,13 @@ UNIT = dict(
            'failure as quantitative.',
            {0: 'Yes would need it to be closed mindedness; paragraph 6 '
                'calls it correct procedure.', 2: 'Not Given is wrong because the practice is judged.'}),
-          ('A researcher with no priors would be moved by the most recent '
-           '____________ they encountered.', None, 'study',
-           'Paragraph 3, which is why priors are what make a specialist '
-           'useful.'),
+          (
+           'The writer believes a researcher with no priors at all '
+           'would be the most reliable judge.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'The writer says such a researcher would be moved by the '
+           'most recent study.',
+           {0: 'The writer treats it as a weakness, not a strength.', 2: 'The writer states a view on it in the same paragraph.'}),
           ('A consensus document both epidemiologists could sign would omit '
            'the part about ____________.', None, 'schools',
            'Paragraph 7, which is the only part the reader needed.'),
