@@ -11,9 +11,21 @@ PASS - 11 reading types and 6 listening types in every book,
 no type over its ceiling, speaking split 25-40% per part
 ```
 
-on all eight books, against **80 failures** when the gate was first
-written. `check.py` passes on all eighty units and all forty-two timed
-modules.
+on all eight books. `check.py` passes on all eighty units and all
+forty-two timed modules.
+
+**A note on the failure count, because two documents in this package give
+two numbers.** `IELTS_Balance_Plan.md` quotes **75 failures**; the figure
+measured immediately before phase 12 was **80**. Both are right about
+their own moment. The gate's rules were revised between the plan and the
+content, and the revision is recorded in `gate10.py`'s own comments: a
+share-based floor for every type was replaced by a rule that every type
+must be taught as a set of three or more, because a real paper uses five
+to seven of the eleven reading types and no type earns a fixed share of
+every book; and one flat listening ceiling was replaced by three, because
+Listening Parts 1 and 4 are completion tasks by design and a flat ceiling
+would have failed a faithful book. The stricter rule set found five more
+failures. Nothing about the books changed between the two counts.
 
 Every number in this document comes from `ielts/census.py`,
 `ielts/gate10.py` or `ielts/check.py` and can be re-derived by running

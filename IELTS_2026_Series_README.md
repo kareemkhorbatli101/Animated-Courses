@@ -14,18 +14,22 @@ rather than assumed — see *The bridge into Volume 1* below.
 
 | Book | CEFR | Band | Units | Pages | Figures | File |
 |---|---|---|---|---|---|---|
-| Foundation 1 | A1–A2 | below 4.0 | 1–10 | 421 | 436 | `IELTS_2026_A1-A2_Foundation_1.docx` |
-| Foundation 2 | A2–B1 | 4.0–4.5 | 1–10 | 441 | 443 | `IELTS_2026_A2-B1_Foundation_2.docx` |
-| Volume 1 | B1 | 5.0 | 1–10 | 510 | 445 | `IELTS_2026_B1_Volume_1.docx` |
-| Volume 2 | B1+ | 5.5 | 11–20 | 529 | 444 | `IELTS_2026_B1plus_Volume_2.docx` |
-| Volume 3 | B2 | 6.0 | 21–30 | 559 | 453 | `IELTS_2026_B2_Volume_3.docx` |
-| Volume 4 | B2 | 6.5 | 31–40 | 565 | 472 | `IELTS_2026_B2_Volume_4.docx` |
-| Volume 5 | B2+/C1 | 7.0 | 41–50 | 566 | 438 | `IELTS_2026_B2plus_Volume_5.docx` |
-| Volume 6 | C1 | 7.5–8.0 | 51–60 | 575 | 453 | `IELTS_2026_C1_Volume_6.docx` |
+| Foundation 1 | A1–A2 | below 4.0 | 1–10 | 442 | 454 | `IELTS_2026_A1-A2_Foundation_1.docx` |
+| Foundation 2 | A2–B1 | 4.0–4.5 | 1–10 | 475 | 473 | `IELTS_2026_A2-B1_Foundation_2.docx` |
+| Volume 1 | B1 | 5.0 | 1–10 | 530 | 454 | `IELTS_2026_B1_Volume_1.docx` |
+| Volume 2 | B1+ | 5.5 | 11–20 | 548 | 444 | `IELTS_2026_B1plus_Volume_2.docx` |
+| Volume 3 | B2 | 6.0 | 21–30 | 569 | 457 | `IELTS_2026_B2_Volume_3.docx` |
+| Volume 4 | B2 | 6.5 | 31–40 | 579 | 469 | `IELTS_2026_B2_Volume_4.docx` |
+| Volume 5 | B2+/C1 | 7.0 | 41–50 | 582 | 445 | `IELTS_2026_B2plus_Volume_5.docx` |
+| Volume 6 | C1 | 7.5–8.0 | 51–60 | 572 | 443 | `IELTS_2026_C1_Volume_6.docx` |
 
-**4,166 pages. 3,584 rendered figures. 3,384 head words, none repeated
-across books. 6,385 questions, every one of them explained, and a line for
-every wrong option of all 2,563 four-option items.**
+**4,297 pages. 3,639 rendered figures. 3,384 head words, none repeated across books.
+6,385 questions, every one of them explained, and a line for every wrong
+option that is printed anywhere in the series — 7,475 lines, in the timed
+papers as well as in the units. Every one of the eleven official Reading
+types and six Listening types is taught as a set of at least three
+questions in every book, and each of the three Speaking parts holds
+between 25 and 40 per cent of a book's speaking slots.**
 
 Each Foundation book numbers its own units 1–10, because each stands
 alone; the six graded volumes carry units 1–60 straight through.
@@ -184,7 +188,7 @@ any change a phase did not declare. All ten have shipped.
 
 | what the books gained | where |
 |---|---|
-| a line for every wrong option — what that option actually is, and where in the text it came from | all 2,563 four-option items and all 489 three-option items: **7,689 lines** |
+| a line for every wrong option — what that option actually is, and where in the text it came from | every item with a printed option list, in the units and in the timed papers: **7,475 lines** |
 | a band-6.5 second model answer, with a list of what the band-9 answer does that it does not | the cycle-5 Task 2 of all 60 units in Volumes 1–6 |
 | a Part 2 long-turn model, scaled by book from 130–180 words to 255–320 | every unit, all eight books |
 | a Part 3 follow-up set, three exchanges rising to four | every unit from Volume 3 |
@@ -249,6 +253,12 @@ inside its own box, not that a caption is clear of its neighbour.
   ten-phase plan that followed the first eight deliveries, and the record
   of what each phase put into the books, what the gates say now, and what
   the plan did not fix
+- `IELTS_Balance_Plan.md` and `IELTS_Balance_Report.md` — the six phases
+  after that, which gated the question-type distribution for the first
+  time, rebalanced reading, listening and speaking in all eight books,
+  and wrote the fourteen missing Writing and Speaking papers. The report
+  carries the full type census, book by book, and the five things it
+  leaves open
 
 ## Known open items
 
@@ -260,7 +270,7 @@ defects.
 
 **The wrong-option lines are gated for presence, not for truth.**
 `freeze.py` records the `wrongs` field as a count, so a line rewritten at
-the same length moves nothing in the baseline. Each of the 7,689 lines was
+the same length moves nothing in the baseline. Each of the 7,475 lines was
 written against the passage in front of the author and checked for
 presence and length; a sampled read by a second person is the obvious next
 step. Two answer keys also cite a paragraph one short of the one their
@@ -268,23 +278,31 @@ explanation describes — in both the keyed option is still the best of the
 four, so neither was changed under a phase whose declaration did not
 permit it. Both are named in the completion report.
 
-**Question-type distribution was never gated.** Nine of the eleven
-Reading types and four of the six Listening types are present, and all
-three Speaking parts are in every book — but the shares are uneven:
-completion tasks are 44% of reading items and 54% of listening items,
-listening matching and labelling together are 3.3% and are absent from the
-Foundation books and Volumes 1–2, and Speaking Part 3 carries 57% of the
-speaking slots. The option pools are also smaller than the real paper's:
-matching information offers four candidate paragraphs where the real task
-offers every paragraph. Nothing on the page is wrong; the distribution
-simply has no rule behind it, because no gate was ever written to count
-question types. `IELTS_Fix_Plan_Completion_Report.md` §2a has the full
-audit, book by book.
+**Question-type distribution is now gated — this was the open item and
+it is closed.** `IELTS_Balance_Plan.md` set out six further phases (10 to
+15) and `IELTS_Balance_Report.md` records what they did.
+`ielts/qtypes.py` classifies every item from its own shape, never from
+its printed label; `ielts/gate10.py` holds the census against a floor, a
+ceiling and a rule that every type must be taught as a set of at least
+three questions in one exercise. The gate reported 80 failures when it
+was written and reports **PASS** on all eight books now. The worst two
+cases it found — Volume 6 running 62% of its listening as multiple
+choice, Foundation 2 running 99% of its listening as gap completion — are
+gone, and the Foundation books, which between them had put 593 of 593
+listening questions into one task type, now teach all six.
 
-**A timed Writing paper and a timed Speaking paper exist in Volume 6
-only.** Both skills are taught and modelled in every cycle of all eighty
-units; only the against-the-clock paper is missing from the other seven
-books.
+What the gate proves is that every type is taught in every book and that
+none dominates. It does **not** prove the shares match a current
+Cambridge paper: the floors and ceilings are a declared design target,
+because this container reaches package registries and nothing else and
+cannot sample a real paper. The gate says so in its own docstring, and
+the balance report says so twice.
+
+**Every book now carries all four timed papers.** Fourteen Writing and
+Speaking papers were written in phase 15, for Volumes 1 to 5 and both
+Foundation books; before that only Volume 6 had them. The option pools
+are still smaller than the real paper's: matching information offers four
+candidate paragraphs where the real task offers every paragraph.
 
 The remaining item is the one carried from the start. The syntax ladder is
 a relative gate: it proves this series is internally graded, not that

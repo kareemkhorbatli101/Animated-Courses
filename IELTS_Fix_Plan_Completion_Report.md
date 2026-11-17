@@ -60,13 +60,24 @@ four in every book:
 | Volumes 1–5 | Reading ×2, Listening ×2 |
 | Volume 6 | Reading, Listening, **Writing, Speaking** |
 
-**A full timed Writing paper and a full timed Speaking paper exist in
-Volume 6 only.** Writing and Speaking are taught and modelled in every
+**A full timed Writing paper and a full timed Speaking paper existed in
+Volume 6 only.** Writing and Speaking were taught and modelled in every
 cycle of all eighty units — every unit has a Task 1 and a Task 2 model, a
-Part 2 long turn and a speaking slot — but a candidate who wants to sit
-those two papers against the clock can only do it in Volume 6. That is a
-gap in the series, it is not something any of the ten phases set out to
-close, and it is the largest piece of work still outstanding.
+Part 2 long turn and a speaking slot — but a candidate who wanted to sit
+those two papers against the clock could only do it in Volume 6. That was
+a gap in the series, it was not something any of the ten phases set out
+to close, and it was the largest piece of work then outstanding.
+
+> **Superseded on 17 November.** `IELTS_Balance_Plan.md` added six
+> phases, and phase 15 wrote the fourteen missing modules: a Writing
+> paper and a Speaking paper for Volumes 1, 2, 3, 4 and 5 and for both
+> Foundation books. Every book now carries all four timed papers.
+> `IELTS_Balance_Report.md` records that work and the five things it
+> leaves open. Where this document and the balance report disagree about
+> a number, the balance report is the later measurement: in particular
+> the four-option item count and the wrong-option line count both fell,
+> because phase 13 converted 514 items out of multiple choice and an item
+> with no printed options owes no lines.
 
 ### The syntax ladder, measured
 
@@ -94,6 +105,12 @@ two Foundation books. The gate passes.
 ---
 
 ## 2a. Question-type coverage, audited
+
+> **This section is the audit that started the balance plan, and it
+> describes the series as it stood on 17 November before phases 10 to 15.
+> Every share below has since changed.** The tables are kept because they
+> are the evidence the plan was written from; for the current census see
+> `IELTS_Balance_Report.md` §3, or run `python3 ielts/census.py --types`.
 
 Every item in the eighty units and all the timed papers, classified by its
 actual shape rather than by the label printed above it.
