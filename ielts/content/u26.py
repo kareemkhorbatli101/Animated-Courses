@@ -211,16 +211,14 @@ UNIT = dict(
            'a question about what the council does with the fee, not about '
            'how many people come.')],
          items=[
-          ('What does the speaker say about the crowds?',
-           ['They are the main problem', 'They are the least of it', 'They are exaggerated', 'They have gone'],
-           1, 'Eleven weeks unpleasant, forty-one weeks unchanged.',
-           {0: 'He says the crowds are the least of what changed.', 2: 'He calls the crowds real, not exaggerated.', 3: 'Eleven weeks of the year they are still there.'}),
-          ('What has changed, in the speaker\u2019s view?',
-           ['The weather', 'Who can afford to live there', 'The quality of the beaches', 'The council'],
-           1,
+          ('The speaker says the crowds are the ____________ of it.',
+           None, 'least',
+           'Eleven weeks unpleasant, forty-one weeks unchanged.'),
+          (
+           'What has changed, in the speaker\u2019s view, is who can afford '
+           'to ____________ there.', None, 'live',
            'About a hundred and forty working households lost in '
-           'twelve years.',
-           {0: 'The weather is not among the changes he describes.', 2: 'The beaches are not what he says has changed.', 3: 'The council is who he addresses, not what changed.'}),
+           'twelve years.'),
           ('Which consequence does the speaker find most frightening?',
            ['The closed class', 'The surgery', 'The lifeboat crew', 'The bus route'],
            2,
@@ -460,30 +458,26 @@ UNIT = dict(
           ('Vilaseca', 'You do not have their votes. You have mine if the '
            'basis is in there.')],
          items=[
-          ('Bragadottir\u2019s proposed cap is',
-           ['twenty thousand bed-nights', 'forty thousand bed-nights', 'fifteen thousand visitors', 'unspecified'],
-           1, 'Allocated by licence, each season.',
-           {0: 'Lower than the figure she proposes.', 2: 'Her cap is in bed-nights, not in visitors.', 3: 'She gives the figure plainly, so it is specified.'}),
-          ('Where does the figure come from?',
-           ['A study', 'Last season minus fifteen per cent', 'The utility company', 'A neighbouring town'],
-           1, 'Which Vilaseca calls political rather than evidential.',
-           {0: 'No study is behind it, which is the objection.', 2: 'The utility figure is what Vilaseca proposes instead.', 3: 'Lowerbridge comes up as displacement, not as a source.'}),
-          ('What basis for a cap would Vilaseca support?',
-           ['Last year\u2019s figure', 'The capacity of the water treatment works', 'A public vote', 'The number of licences'],
-           1,
+          (
+           'Bragadottir\u2019s proposed cap is forty thousand ____________.',
+           None, 'bed-nights', 'Allocated by licence, each season.'),
+          (
+           'The figure comes from last season minus ____________ per '
+           'cent.', None, 'fifteen',
+           'Which Vilaseca calls political rather than evidential.'),
+          (
+           'Vilaseca would support a cap based on the capacity of the '
+           '____________ treatment works.', None, 'water',
            'Because the utility publishes it and nobody can argue with '
-           'it.',
-           {0: 'Last year\'s figure minus fifteen is what he objects '
-               'to.', 2: 'A vote is not the measurable basis he names.', 3: 'The number of licences is how the cap is allocated.'}),
-          ('What is Vilaseca\u2019s main worry?',
-           ['Cost', 'Displacement to Lowerbridge', 'Enforcement', 'Legal challenge'],
-           1, 'Which has one primary school and no bus after six.',
-           {0: 'Cost is not the worry he calls real.', 2: 'Enforcement is not raised in this exchange.', 3: 'Appeals are his objection to the figure, not his main '
-               'worry.'}),
-          ('Why has a county scheme not happened?',
-           ['It is illegal', 'Three councils benefit from having no rules', 'It is too expensive', 'Nobody has proposed it'],
-           1, 'Which Bragadottir has wanted for four years.',
-           {0: 'Legality is not mentioned by either speaker.', 2: 'Cost is not the obstacle she names.', 3: 'She says she has wanted it for four years.'})])],
+           'it.'),
+          (
+           'Vilaseca\u2019s main worry is ____________ to Lowerbridge.',
+           None, 'displacement',
+           'Which has one primary school and no bus after six.'),
+          (
+           'A county scheme has not happened because three councils '
+           'benefit from having no ____________.', None,
+           'rules', 'Which Bragadottir has wanted for four years.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Change in a place',
     longturn=[('The place I want to describe is a reservoir and the path round '
@@ -748,14 +742,14 @@ UNIT = dict(
            ['from the data at all', 'from either chart alone', 'without a survey', 'without more years'],
            1, 'Which he calls the structure of the problem.',
            {0: 'He says the data is adequate, not the problem.', 2: 'No survey is proposed in the lecture.', 3: 'More years of data are not what he asks for.'}),
-          ('Porthaven\u2019s spending per visitor in 2023 was',
-           ['310 euros', '185 euros', '295 euros', '340 euros'], 1,
-           'Down from 310 euros per visitor in 2015.',
-           {0: '310 euros was its figure in 2015.', 2: '295 euros was Val d\'Arrie\'s figure in 2015.', 3: '340 euros is Val d\'Arrie\'s figure in 2023.'}),
-          ('Val d\u2019Arrie\u2019s total spending rose by about',
-           ['a third', 'two fifths', 'a half', 'a tenth'], 1,
-           'On about half the extra arrivals Porthaven gained.',
-           {0: 'A third is Porthaven\'s rise, not Val d\'Arrie\'s.', 2: 'Higher than the increase he reports.', 3: 'Far smaller than either town achieved.'}),
+          (
+           'Porthaven\u2019s spending per visitor in 2023 was ____________ '
+           'euros.', None, '185',
+           'Down from 310 euros per visitor in 2015.'),
+          (
+           'Val d\u2019Arrie\u2019s total spending rose by about two '
+           '____________.', None, 'fifths',
+           'On about half the extra arrivals Porthaven gained.'),
           ('Why does he dislike arrivals as a measure?',
            ['It is inaccurate', 'It rises whatever happens and is the only figure published monthly', 'It is expensive to collect', 'Nobody understands it'],
            1,
@@ -1063,27 +1057,23 @@ UNIT = dict(
            'Because residents ask how much is still there in a month.',
            {0: 'He calls the sentence true, not false.', 2: 'Age of the figure is not his objection.', 3: 'The figure appears in every strategy document he has '
                'read.'}),
-          ('The largest source of leakage is',
-           ['supply', 'ownership', 'labour', 'taxation'], 1,
+          ('The largest source of leakage is ____________.', None,
+           'ownership',
            'Profit leaves on the day it is made where ownership is '
-           'elsewhere.',
-           {0: 'Supply is his second point, not the largest.', 2: 'Labour is his third point, not the largest.', 3: 'Taxation is not one of the three sources he lists.'}),
-          ('Why does marketing not address the supply problem?',
-           ['It is too expensive', 'The visitor cannot tell the difference', 'Chefs resist it', 'Fish is imported'],
-           1, 'Between harbour fish and wholesale fish, on the plate.',
-           {0: 'Cost is not why marketing fails on supply.', 2: 'Chefs are not described as resisting anything.', 3: 'Imported fish is the example, not the reason.'}),
-          ('A town that has priced out its workforce has',
-           ['saved money', 'converted its wage bill into leakage', 'reduced its multiplier to zero', 'solved its housing problem'],
-           1, 'Because those wages are spent where the workers live.',
-           {0: 'The town loses the spending rather than saving it.', 2: 'The multiplier falls but does not reach zero.', 3: 'Pricing out the workforce is the housing problem '
-               'itself.'}),
+           'elsewhere.'),
+          (
+           'Marketing does not address the supply problem because the '
+           'visitor cannot tell the ____________.', None,
+           'difference',
+           'Between harbour fish and wholesale fish, on the plate.'),
+          (
+           'A town that has priced out its workforce has converted its '
+           '____________ bill into leakage.', None, 'wage',
+           'Because those wages are spent where the workers live.'),
           (
            'Multipliers for coastal and mountain destinations are '
-           'usually',
-           ['below one', 'between 1.2 and 1.9', 'between 2 and 3', 'above 3'],
-           1, 'Which is the figure he recommends reporting.',
-           {0: 'Below one would mean the money left before changing '
-               'hands.', 2: 'Higher than the range he reports.', 3: 'Far above any figure in the studies he cites.'}),
+           'usually between 1.2 and ____________.', None,
+           '1.9', 'Which is the figure he recommends reporting.'),
           ('His conclusion is that',
            ['tourism is overrated', 'raising the local share and raising numbers are different projects', 'hotels should be taxed', 'strategies should be shorter'],
            1, 'And a town has to say which one it is doing.',
@@ -1392,19 +1382,18 @@ UNIT = dict(
            'Licensed lets fell to eight per cent of stock in two '
            'years.',
            {0: 'He says his paper is quoted against her unfairly here.', 2: 'Legality is not raised by either speaker.', 3: 'The size of the cap is not his criticism.'}),
-          ('He calls a cap with no enforcement',
-           ['a waste of money', 'a cap on the honest', 'illegal', 'a political gesture'],
-           1, 'Because unlicensed lets rose by an unmeasurable amount.',
-           {0: 'Cost is the mayor\u2019s explanation, not his phrase.', 2: 'He does not call the cap unlawful.', 3: 'He credits it with a real effect, so not a gesture.'}),
+          (
+           'He calls a cap with no enforcement a cap on the '
+           '____________.', None, 'honest',
+           'Because unlicensed lets rose by an unmeasurable amount.'),
           ('Why were there no inspectors?',
            ['They could not be recruited', 'The cap generated no revenue and a levy was thought to look like profiting', 'The council refused', 'They were not needed'],
            1, 'Which the mayor says is recorded in the minutes.',
            {0: 'Recruitment difficulty is not the reason she gives.', 2: 'The council passed the cap, so it did not refuse.', 3: 'She accepts that they were needed.'}),
-          ('The fourth town\u2019s tax produced',
-           ['fewer visitors', 'ninety homes for key workers', 'lower rents', 'a smaller season'],
-           1, 'In six years, from a scheme that restricted nothing.',
-           {0: 'Arrivals continued to rise under the tax.', 2: 'Lower rents were the second town\u2019s effect, not the '
-               'fourth\u2019s.', 3: 'The season did not shorten in the fourth town.'}),
+          (
+           'The fourth town\u2019s tax produced ____________ homes for key '
+           'workers.', None, 'ninety',
+           'In six years, from a scheme that restricted nothing.'),
           ('What does the mayor say the fourth town did not address?',
            ['Rents', 'Crowding in July', 'Enforcement', 'Revenue'], 1,
            'Which was the grievance everybody started with.',

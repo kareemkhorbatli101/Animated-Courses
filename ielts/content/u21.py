@@ -200,28 +200,19 @@ UNIT = dict(
          items=[
           (
            'How long does the speaker give a statement on a first '
-           'read?',
-           ['Thirty seconds', 'Ninety seconds', 'Five minutes', 'As long as it takes'],
-           1,
+           'read?', None, 'ninety seconds',
            'She explains this as four hundred applications in a '
-           'fortnight.',
-           {0: 'Shorter than the time she gives a statement on a first '
-               'read.', 2: 'Far longer than four hundred applications in a '
-               'fortnight allows.', 3: 'She gives a fixed first read rather than an open one.'}),
-          ('What does she advise against in the opening?',
-           ['Describing work experience', 'A quotation or a childhood ambition', 'Naming the course', 'Mentioning grades'],
-           1,
+           'fortnight.'),
+          (
+           'She advises against opening with a quotation or a '
+           'childhood ____________.', None, 'ambition',
            'She says she has read the childhood-ambition sentence '
-           'eleven hundred times.',
-           {0: 'Work experience is what she says to write about well.', 2: 'Naming the course is not among the things she warns '
-               'against.', 3: 'Grades are the other score, and she does not ban them.'}),
-          ('What matters more than the work experience itself?',
-           ['Its length', 'Where it took place', 'What you say about it', 'Who arranged it'],
-           2,
+           'eleven hundred times.'),
+          (
+           'What matters more than the work experience itself is what '
+           'you ____________ about it.', None, 'say',
            'The student who says what surprised her is the one she '
-           'remembers.',
-           {0: 'Length matters for the statement, not for the '
-               'placement.', 1: 'Two students describe the same placement differently.', 3: 'How the placement was arranged is not mentioned.'}),
+           'remembers.'),
           ('What does she say about the character limit?',
            ['Use all of it', 'You do not have to use it', 'It is strictly enforced', 'It has recently changed'],
            1, 'A short statement of substance beats a padded full one.',
@@ -421,33 +412,22 @@ UNIT = dict(
            'course without the subject it needs, and every one of those was '
            'avoidable in twenty minutes.')],
          items=[
-          ('The speaker says the system is',
-           ['entirely fair', 'fairer than it was and less fair than it looks', 'worse than it was', 'impossible to judge'],
-           1,
-           'She gives this as the honest answer to the question nobody '
-           'asks.',
-           {0: 'She says it is also less fair than it looks.', 2: 'She says it is fairer than it was twenty years ago.', 3: 'She answers the question rather than refusing it.'}),
           (
-           'Roughly what proportion of selective universities make '
-           'lower offers?',
-           ['A tenth', 'A quarter', 'A third', 'A half'], 2,
+           'The speaker says the system is fairer than it was and '
+           '____________ fair than it looks.', None, 'less',
+           'She gives this as the honest answer to the question nobody '
+           'asks.'),
+          (
+           'About a ____________ of selective universities make lower '
+           'offers.', None, 'third',
            'She calls the change real and says it has moved thousands '
-           'of students a year.',
-           {0: 'Smaller than the share she reports making lower '
-               'offers.', 1: 'Lower than the proportion she gives for selective '
-               'universities.', 3: 'Higher than the share of selective universities she '
-               'names.'}),
-          ('Lowering an offer by one grade helps',
-           ['every disadvantaged student', 'the student who was close', 'students at eleven', 'nobody'],
-           1,
-           'It does nothing for the larger group who were never close.',
-           {0: 'It does nothing for those who were never going to be '
-               'close.', 2: 'A university cannot do anything about the gap at '
-               'eleven.', 3: 'It does help the student who was already close.'}),
-          ('What does she say about information?',
-           ['It is secret', 'It is unevenly spread', 'It is mostly wrong', 'It changes too fast'],
-           1, 'And she stresses that none of it is secret.',
-           {0: 'She stresses that none of the information is secret.', 2: 'The information is right; it is unevenly held.', 3: 'Her advice is to check this year, not that it changes.'})]),
+           'of students a year.'),
+          (
+           'Lowering an offer by one grade helps the student who was '
+           '____________.', None, 'close',
+           'It does nothing for the larger group who were never close.'),
+          ('She says information is ____________ spread.', None,
+           'unevenly', 'And she stresses that none of it is secret.')]),
     dict(heading='Two admissions tutors disagree', part='Part 3',
          task='A conversation after a selection meeting · multiple choice', band='l3',
          qtype='Questions 29-33',
@@ -487,24 +467,21 @@ UNIT = dict(
            ['Eight', 'Eleven', 'Ninety', 'Three'], 1,
            'Out of ninety offers in total, which Grigor calls too few.',
            {0: 'Eight thousand is the cost of the foundation tutor.', 2: 'Ninety is the total number of offers made.', 3: 'Three times is the failure rate she reports.'}),
-          ('Marisol argues that if the number is too low,',
-           ['the tutors are at fault', 'the criteria are wrong', 'more applicants are needed', 'the course is too hard'],
-           1,
+          (
+           'Marisol argues that if the number is too low, the '
+           '____________ are wrong.', None, 'criteria',
            'And that changing the criteria is not a decision for that '
-           'meeting.',
-           {0: 'She says the offers went to everybody who qualified.', 2: 'Applicant numbers are not the point she makes.', 3: 'Difficulty is her later point, about anatomy.'}),
-          ('What does she say about offers two grades below standard?',
-           ['They work well', 'There is almost no evidence', 'They are illegal', 'They are already used'],
-           1, 'The evidence is encouraging about one grade only.',
-           {0: 'The encouraging evidence covers one grade only.', 2: 'Legality is not raised anywhere in the meeting.', 3: 'This course uses one grade below, not two.'}),
+           'meeting.'),
+          (
+           'She says there is almost no ____________ about offers two '
+           'grades below standard.', None, 'evidence',
+           'The evidence is encouraging about one grade only.'),
           (
            'Students arriving two grades below fail the anatomy '
-           'examination',
-           ['at the same rate', 'at twice the rate', 'at three times the rate', 'at half the rate'],
-           2,
+           'examination at ____________ times the rate.',
+           None, 'three',
            'She says she has the figures and would rather use them '
-           'than argue from principle.',
-           {0: 'That would remove her objection entirely.', 1: 'Lower than the figure she says she has.', 3: 'That would be an argument for the lower offer.'}),
+           'than argue from principle.'),
           ('What do they agree to propose?',
            ['A lower offer', 'A foundation tutor costing \u00a38,000', 'A new committee', 'No change'],
            1,
@@ -780,32 +757,28 @@ UNIT = dict(
            ['Uses old figures', 'Answers a question nobody asked', 'Confuses the subjects', 'Excludes women'],
            1, 'He then sets out what the question should be.',
            {0: 'Dates are his later point, not his first objection.', 2: 'The subjects are not confused in the table.', 3: 'The chart gives figures for both sexes separately.'}),
-          ('The mistake he names is comparing',
-           ['men with women', 'graduates with graduates', 'subjects with subjects', 'medians with means'],
-           1,
+          (
+           'The mistake he names is comparing graduates with '
+           '____________.', None, 'graduates',
            'What you want is what the same person would have earned '
-           'otherwise.',
-           {0: 'The comparison between the sexes is not the mistake he '
-               'names.', 2: 'Comparing subjects is what the table is for.', 3: 'Medians come up at the end, as a separate point.'}),
+           'otherwise.'),
           ('Which is NOT one of his three methods?',
            ['Comparing students near a cut-off', 'Following twins', 'Surveying employers', 'Using a policy change'],
            2, 'He gives three, and none of them is clean.',
            {0: 'This is the first of his three methods.', 1: 'Twins are the second method he names.', 3: 'A policy change is the third method he lists.'}),
-          ('When better methods are used, the premium',
-           ['disappears', 'shrinks', 'grows', 'stays the same'], 1,
-           'To around half to two thirds of the raw gap.',
-           {0: 'He says a degree still pays on average.', 2: 'Better methods make the premium smaller, not larger.', 3: 'It falls to about half or two thirds of the raw gap.'}),
-          ('Why does medicine stay near the top?',
-           ['The students are selected', 'The training really is specific', 'The hours are long', 'The sample is small'],
-           1, 'Even once selection is accounted for.',
-           {0: 'Selection is what the better methods remove.', 2: 'Hours of work are not mentioned in the lecture.', 3: 'Sample size is not his explanation here.'}),
-          ('His final point is that the spread within a subject is',
-           ['narrower than between subjects', 'wider than between subjects', 'the same', 'not measurable'],
-           1,
+          ('When better methods are used, the premium ____________.',
+           None, 'shrinks',
+           'To around half to two thirds of the raw gap.'),
+          (
+           'Medicine stays near the top because the training really is '
+           '____________.', None, 'specific',
+           'Even once selection is accounted for.'),
+          (
+           'His final point is that the spread within a subject is '
+           '____________ than between subjects.', None,
+           'wider',
            'Which makes a choice between two subjects a decision about '
-           'a small difference.',
-           {0: 'He says the reverse, which is his final point.', 2: 'He contrasts the two spreads rather than equating '
-               'them.', 3: 'He gives the comparison as a measured fact.'})])],
+           'a small difference.')])],
    speak=dict(
     part='Part 3', focus='Education and work',
     intro=('Four or five sentences. Where you use a figure, say what it is an '
@@ -1096,15 +1069,16 @@ UNIT = dict(
            'It predicts results at sixteen better than anything a '
            'secondary school does.',
            {0: 'He says the finding itself is uncontroversial.', 2: 'Age is not what he questions about the finding.', 3: 'He calls the differences large, not small.'}),
-          ('His objection is that a correlation is used as',
-           ['a prediction', 'a cause', 'an average', 'a target'], 1,
+          (
+           'His objection is that a correlation is used as a '
+           '____________.', None, 'cause',
            'Pointing at it tells you where to look and not what to '
-           'fix.',
-           {0: 'A prediction is what it legitimately is.', 2: 'Averages are not what he objects to here.', 3: 'Targets are not discussed in the lecture.'}),
-          ('What tracks early language better than income?',
-           ['Housing quality', 'Talk addressed to the child directly', 'Nursery attendance', 'Parental education'],
-           1, 'As against speech the child merely hears in the room.',
-           {0: 'Housing is one of the things the gap travels with.', 2: 'Nursery places appear later, as a comparison group.', 3: 'Parental education also merely travels with the gap.'}),
+           'fix.'),
+          (
+           'What tracks early language better than income is talk '
+           'addressed to the child ____________.', None,
+           'directly',
+           'As against speech the child merely hears in the room.'),
           ('Why does he call that refinement interesting?',
            ['It is cheap to measure', 'It holds inside income groups', 'It is new', 'It applies to all ages'],
            1, 'Which is also what makes it actionable.',
@@ -1393,11 +1367,9 @@ UNIT = dict(
           ('Adeyinka', 'I had not weighted that properly, and it damages my '
            'position more than yours.')],
          items=[
-          ('How many children were in the original programme?',
-           ['Eighteen', 'Fifty-eight', 'Four hundred', 'Four million'],
-           1, 'Adeyinka contrasts this with the cities it is cited in.',
-           {0: 'No figure of that size appears in the exchange.', 2: 'Four hundred is the city trial described in the '
-               'passage.', 3: 'Four million is the city the result is quoted in.'}),
+          ('How many children were in the original programme?', None,
+           'fifty-eight',
+           'Adeyinka contrasts this with the cities it is cited in.'),
           ('Halvorsen replies that the overclaiming comes from',
            ['the researchers', 'people other than the researchers', 'the journals', 'the funders'],
            1,

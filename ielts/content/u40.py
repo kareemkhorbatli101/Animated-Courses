@@ -227,23 +227,19 @@ UNIT = dict(
            'those, because the deciding was the part that was expensive.')],
          items=[
           (
-           'How often did two officers give different answers to the '
-           'same file?',
-           ['A tenth of the time', 'A fifth of the time', 'A third of the time', 'Half the time'],
-           1,
+           'Two officers gave different answers to the same file a '
+           '____________ of the time.', None, 'fifth',
            'And decisions after four in the afternoon were measurably '
-           'harsher.',
-           {0: 'Smaller than the disagreement rate she reports.', 2: 'Larger than the figure she gives.', 3: 'Far above the rate she measured.'}),
-          ('What does the speaker say consistency does to a bad rule?',
-           ['Removes it', 'Reveals it', 'Converts a patchy injustice into a uniform one', 'Makes it cheaper'],
-           2,
+           'harsher.'),
+          (
+           'The speaker says consistency converts a patchy injustice '
+           'into a ____________ one.', None, 'uniform',
            'A human applying a bad rule applies it unevenly, so some '
-           'people escape.',
-           {0: 'Consistency leaves the rule in place.', 1: 'A uniform rule is harder to notice, not easier.', 3: 'Cost is not what she says consistency changes.'}),
-          ('The second loss concerns circumstances that',
-           ['are rare', 'have no box on the form', 'are hard to verify', 'arrive late'],
-           1, 'A system can only act on what has a box.',
-           {0: 'Rarity is not what she says makes them invisible.', 2: 'Verification is not the obstacle she names.', 3: 'Lateness is not the problem with such circumstances.'}),
+           'people escape.'),
+          (
+           'The second loss concerns circumstances that have no '
+           '____________ on the form.', None, 'box',
+           'A system can only act on what has a box.'),
           ('What does she say the real question is?',
            ['Whether machines should decide', 'What happens to cases that do not fit', 'How much it costs', 'Who writes the rules'],
            1,
@@ -469,22 +465,16 @@ UNIT = dict(
            'decide.')],
          items=[
           (
-           'What proportion turn personalisation on if it is off by '
-           'default?',
-           ['Four per cent', 'Fourteen per cent', 'Forty per cent', 'Ninety-six per cent'],
-           0, 'Which Ingrid says proves her point, not his.',
-           {1: 'Higher than the share he reports turning it on.', 2: 'Far above the figure he gives.', 3: 'Ninety-six per cent is the share left with it off.'}),
-          ('What does Casimiro concede about defaults?',
-           ['They can be neutral', 'There is no neutral default', 'Prompts solve the problem', 'Users decide'],
-           1, 'Off, on and a prompt are all choices.',
-           {0: 'He says explicitly that there is no neutral default.', 2: 'He says a prompt produces the worst outcomes.', 3: 'He says almost nobody moves from the default.'}),
-          ('Ingrid objects that time spent is measured because',
-           ['it predicts revenue', 'it can be measured', 'users prefer it', 'regulators require it'],
-           1,
+           'If personalisation is off by default, ____________ per '
+           'cent turn it on.', None, 'four',
+           'Which Ingrid says proves her point, not his.'),
+          ('Casimiro concedes that there is no ____________ default.',
+           None, 'neutral', 'Off, on and a prompt are all choices.'),
+          (
+           'Ingrid objects that time spent is measured because it '
+           '____________ be measured.', None, 'can',
            'And then discussed as though satisfaction had been '
-           'measured.',
-           {0: 'Revenue is not the reason she gives for measuring it.', 2: 'User preference is what she says has never been '
-               'measured.', 3: 'Regulators are not mentioned in the exchange.'}),
+           'measured.'),
           ('What does Casimiro say he has no answer to?',
            ['The default question', 'The criticism of their metrics', 'The summary proposal', 'The release date'],
            1, 'He concedes that their metrics deserve it.',
@@ -763,28 +753,23 @@ UNIT = dict(
            'Almost no applicant has seen it, and the weights were '
            'learned from it.',
            {0: 'The applicant data is what everybody knows about.', 2: 'The threshold is set later, outside the model.', 3: 'The reviewer comes after the decision.'}),
-          ('What does a system learn from skewed past decisions?',
-           ['It corrects them', 'It learns the skew and applies it consistently', 'It ignores them', 'It averages them away'],
-           1,
+          (
+           'A system learns the ____________ in past decisions and '
+           'applies it consistently.', None, 'skew',
            'Without the variation that used to let some people slip '
-           'through.',
-           {0: 'He says the system reproduces rather than corrects.', 2: 'The skew is learned, not ignored.', 3: 'Averaging is what inconsistency produces, not skew.'}),
-          ('What does he insist about the score?',
-           ['It is final', 'It is not a decision', 'It is confidential', 'It is unreliable'],
-           1, 'It becomes a decision only at the next box.',
-           {0: 'He says it is not final until the threshold is '
-               'applied.', 2: 'Confidentiality is not what he insists on.', 3: 'He does not question the score\u2019s reliability.'}),
+           'through.'),
+          ('He insists that the score is not a ____________.', None,
+           'decision', 'It becomes a decision only at the next box.'),
           ('Who sets the threshold?',
            ['The engineers', 'The organisation', 'The regulator', 'The reviewer'],
            1,
            'And it can be moved with no retraining or technical work.',
            {0: 'He says explicitly that the engineers do not set it.', 2: 'No regulator sets the cut-off in his account.', 3: 'The reviewer comes after the threshold has been '
                'applied.'}),
-          ('When people say the algorithm has become harsher,',
-           ['they are usually right', 'the threshold has usually changed instead', 'the data has changed', 'the model was retrained'],
-           1, 'Nine times in ten, by his account.',
-           {0: 'He says they are usually wrong about which box '
-               'changed.', 2: 'The data is not what he says has changed.', 3: 'Retraining is exactly what has not happened.'}),
+          (
+           'When people say the algorithm has become harsher, the '
+           '____________ has usually changed instead.', None,
+           'threshold', 'Nine times in ten, by his account.'),
           ('What does he say is decided by a policy document?',
            ['The weights', 'The score', 'Whether a reviewer may overturn the decision', 'The input data'],
            2,
@@ -1097,39 +1082,33 @@ UNIT = dict(
          items=[
           (
            'How many definitions of fairness does the lecturer set '
-           'out?', ['Two', 'Three', 'Four', 'Five'], 1,
+           'out?', None, 'three',
            'Calibration and two balance conditions, which he says most '
-           'people believe simultaneously.',
-           {0: 'Fewer than the definitions he sets out.', 2: 'One more than the number he gives.', 3: 'He sets out three, not five.'}),
-          ('Calibration means a score of seventy should',
-           ['be rare', 'mean the same thing in both groups', 'guarantee approval', 'be published'],
-           1, 'The same proportion of seventies repay in each group.',
-           {0: 'Rarity is not what calibration requires.', 2: 'No score guarantees approval; the threshold decides.', 3: 'Publication is a separate question about transparency.'}),
+           'people believe simultaneously.'),
+          (
+           'Calibration means a score of seventy should mean the '
+           '____________ thing in both groups.', None,
+           'same',
+           'The same proportion of seventies repay in each group.'),
           (
            'All three can hold only if base rates are identical or the '
-           'predictor is',
-           ['linear', 'perfect', 'published', 'audited'], 1,
-           'And he says neither ever happens.',
-           {0: 'Linearity is not the condition in the theorem.', 2: 'Publication is not part of the result.', 3: 'Auditing is not one of the two conditions.'}),
-          ('He describes the result as',
-           ['an engineering limitation', 'a theorem', 'an empirical finding', 'a convention'],
-           1,
+           'predictor is ____________.', None, 'perfect',
+           'And he says neither ever happens.'),
+          ('He describes the result as a ____________.', None,
+           'theorem',
            'Not approximately solvable with better data or a cleverer '
-           'model.',
-           {0: 'He says explicitly it is not an engineering '
-               'limitation.', 2: 'He calls it a theorem rather than a finding from data.', 3: 'A convention could be changed; a theorem cannot.'}),
+           'model.'),
           ('Where does he say the choice is usually implicit?',
            ['In the data collection', 'In which error the training objective penalises', 'In the threshold', 'In the review policy'],
            1,
            'An engineer picking a loss function has made a '
            'distributive decision.',
            {0: 'Data collection is not where he locates the choice.', 2: 'The threshold is a separate box in the earlier cycle.', 3: 'Review policy is a third, separate setting.'}),
-          ('Why is he pessimistic about certification?',
-           ['Audits are expensive', 'There is no complete list of groups', 'Firms resist it', 'The theorem may be wrong'],
-           1,
+          (
+           'He is pessimistic about certification because there is no '
+           'complete ____________ of groups.', None, 'list',
            'A system calibrated on one division will generally fail on '
-           'another.',
-           {0: 'Cost is not his objection to certification.', 2: 'Firm resistance is not the reason he gives.', 3: 'He calls the result a theorem, so not in doubt.'})])],
+           'another.')])],
    speak=dict(
     part='Part 3', focus='Fair decisions',
     followup=[(('You say the decision should be explainable. Should the public '
@@ -1476,17 +1455,13 @@ UNIT = dict(
            {0: 'Fees are not what he criticises.', 2: 'He credits her with finding real faults.', 3: 'Reporting speed is not his objection.'}),
           (
            'Her answer to the gaming objection is that secrecy '
-           'protects',
-           ['applicants', 'the asymmetry', 'the model', 'the regulator'],
-           1,
+           'protects the ____________.', None, 'asymmetry',
            'Because the threshold is already known to those who can '
-           'pay to find it.',
-           {0: 'She says secrecy does not protect the applicant.', 2: 'The model is not what she says secrecy protects.', 3: 'The regulator is not party to the secrecy.'}),
+           'pay to find it.'),
           ('How many sentences does she propose should be published?',
-           ['Two', 'Three', 'Four', 'Six'], 2,
+           None, 'four',
            'Criterion, threshold and who may move it, training date, '
-           'and review authority.',
-           {0: 'Fewer than the sentences she lists.', 1: 'One short of the four she proposes.', 3: 'More than the number she names.'})])],
+           'and review authority.')])],
    speak=dict(
     part='Part 3', focus='Accountability for machines',
     sounds=[('Abstract nouns in this unit are long and front-loaded or not at '

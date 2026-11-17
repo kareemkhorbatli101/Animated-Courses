@@ -198,29 +198,26 @@ UNIT = dict(
            'and find out what the competing advice is before you add '
            'another.')],
          items=[
-          ('What does the speaker say about people who ignore advice?',
-           ['They have not heard it', 'They can state it accurately', 'They distrust the source', 'They forget it'],
-           1,
+          (
+           'The speaker says people who ignore advice can state it '
+           '____________.', None, 'accurately',
            'Campaigns assuming the message has not arrived solve a '
-           'non-existent problem.',
-           {0: 'She says they can state the advice accurately.', 2: 'Distrust of the source is not what the surveys find.', 3: 'Forgetting is ruled out by their accurate recall.'}),
-          ('Her second point is that advice',
-           ['is too complicated', 'competes with other advice', 'changes too often', 'comes too late'],
-           1,
+           'non-existent problem.'),
+          (
+           'Her second point is that advice ____________ with other '
+           'advice.', None, 'competes',
            'Issued from different offices and received from one '
-           'authority.',
-           {0: 'Complexity is not what her second point is about.', 2: 'How often advice changes is not raised in the talk.', 3: 'Timing is not among the three points she makes.'}),
+           'authority.'),
           ('Which advice is most often ignored?',
            ['The most expensive', 'The hardest to follow', 'The easiest to follow', 'The most recent'],
            2, 'Which she says is the thing she finds hardest to teach.',
            {0: 'Cost is not one of the factors she discusses.', 1: 'She says the opposite, which is what she finds hard to '
                'teach.', 3: 'How recent the advice is does not predict being '
                'ignored.'}),
-          ('What predicts following advice?',
-           ['Understanding the science', 'Having seen the consequence', 'Trusting the government', 'Being reminded often'],
-           1, 'Preferably in somebody the person knows.',
-           {0: 'Understanding the science is not what predicts '
-               'following it.', 2: 'Trust in government is not mentioned in the talk.', 3: 'Repetition is what she says does not work.'})])],
+          (
+           'What predicts following advice is having seen the '
+           '____________.', None, 'consequence',
+           'Preferably in somebody the person knows.')])],
    speak=dict(
     part='Part 1', focus='Health services where you live',
     intro=('Two or three sentences each. Everyday experience is the right '
@@ -419,22 +416,16 @@ UNIT = dict(
           ('Faisal', 'Then put that in writing and neither of us can move the target afterwards, which is the thing this department does every single year.'),
           ('Annelise', 'Less satisfying is accurate. Write it that way and I will sign it.')],
          items=[
-          ('Uptake in the targeted wards was',
-           ['twenty-nine per cent', 'thirty-four per cent', 'sixty-one per cent', 'two per cent'],
-           1, 'Up from twenty-nine the previous year.',
-           {0: 'Twenty-nine per cent was the figure a year earlier.', 2: 'Sixty-one per cent is the overall figure.', 3: 'Two points is the rise in the overall figure.'}),
-          ('Faisal argues that of the five-point rise,',
-           ['all is the campaign', 'three points are the campaign', 'none is the campaign', 'it cannot be estimated'],
-           1,
-           'Because the untargeted overall figure rose by two anyway.',
-           {0: 'Two of the five points moved everywhere without a '
-               'campaign.', 2: 'He credits the campaign with three of the five points.', 3: 'He estimates it plainly from the untargeted rise.'}),
-          ('Why does he say they cannot tell what worked?',
-           ['The sample is small', 'They changed four things at once', 'The data is late', 'Staff were untrained'],
-           1,
-           'Which is his argument for running two wards differently.',
-           {0: 'Sample size is not the objection he raises.', 2: 'The figures have just arrived, which is why they meet.', 3: 'He praises the staff rather than questioning their '
-               'training.'}),
+          ('Uptake in the targeted wards was ____________ per cent.',
+           None, 'thirty-four', 'Up from twenty-nine the previous year.'),
+          (
+           'Faisal argues that of the five-point rise, ____________ '
+           'points are the campaign.', None, 'three',
+           'Because the untargeted overall figure rose by two anyway.'),
+          (
+           'They cannot tell what worked because they changed '
+           '____________ things at once.', None, 'four',
+           'Which is his argument for running two wards differently.'),
           ('What will Annelise not support?',
            ['A new campaign', 'Reporting thirty-four as a failure', 'Naming the wards', 'Spending more'],
            1, 'Because those who came were the hardest to reach.',
@@ -712,28 +703,22 @@ UNIT = dict(
            'one of these two lines during an outbreak, I would take the one '
            'that tells me less and lies to me less.')],
          items=[
-          ('The gap between the peaks is caused by',
-           ['testing delays', 'the time from unwell to seriously unwell', 'reporting errors', 'weekend effects'],
-           1, 'About a fortnight, which he says is not a mystery.',
-           {0: 'Testing affects the heights, not the gap between '
-               'peaks.', 2: 'Reporting errors are not what he says causes the lag.', 3: 'The weekend sawtooth is a separate distortion he names '
-               'later.'}),
-          ('An admissions figure on Thursday describes the epidemic',
-           ['that day', 'a week earlier', 'a fortnight earlier', 'a month earlier'],
-           2,
-           'Which is why policy made from it responds to a past state.',
-           {0: 'Same-day figures are what admissions cannot give.', 1: 'Shorter than the interval he describes.', 3: 'Longer than the fortnight he gives.'}),
           (
-           'Why is "one in five infected people needed hospital" '
-           'wrong?',
-           ['The figures are rounded', 'The denominator is reported cases', 'Admissions are undercounted', 'The weeks differ'],
-           1, 'The error is in the word infected.',
-           {0: 'Rounding is not where he locates the error.', 2: 'He says admissions are the more reliable of the two '
-               'lines.', 3: 'The two-week gap is a separate point about timing.'}),
-          ('Testing in this outbreak expanded in week',
-           ['two', 'four', 'six', 'eight'], 1,
-           'So part of the rise to the peak is more looking.',
-           {0: 'Earlier than the week he names for the expansion.', 2: 'Week six is his hypothetical cut, not the expansion.', 3: 'Later than the expansion he describes.'}),
+           'The gap between the peaks is caused by the time from '
+           'unwell to ____________ unwell.', None,
+           'seriously',
+           'About a fortnight, which he says is not a mystery.'),
+          (
+           'An admissions figure on Thursday describes the epidemic a '
+           '____________ earlier.', None, 'fortnight',
+           'Which is why policy made from it responds to a past state.'),
+          (
+           '"One in five infected people needed hospital" is wrong '
+           'because the ____________ is reported cases.',
+           None, 'denominator', 'The error is in the word infected.'),
+          ('Testing in this outbreak expanded in week ____________.',
+           None, 'four',
+           'So part of the rise to the peak is more looking.'),
           ('A government that cut testing in week six would produce',
            ['a real fall', 'a falling line and no epidemiological change', 'more admissions', 'no visible effect'],
            1,
@@ -741,10 +726,10 @@ UNIT = dict(
            'distorted.',
            {0: 'A real fall is what the line would appear to show and '
                'would not be.', 2: 'Admissions would be unaffected by a change in testing.', 3: 'The line would move sharply, which is his point.'}),
-          ('He would prefer the line that',
-           ['tells him more', 'tells him less and lies less', 'arrives soonest', 'is easiest to explain'],
-           1, 'Because admissions are harder to distort.',
-           {0: 'The case line tells him more and distorts more.', 2: 'Cases arrive sooner, which is their only advantage.', 3: 'Ease of explanation is not his criterion.'})])],
+          (
+           'He would prefer the line that tells him less and '
+           '____________ less.', None, 'lies',
+           'Because admissions are harder to distort.')])],
    speak=dict(
     part='Part 3', focus='Measuring an outbreak',
     intro=('Four or five sentences. Where you use a number, say what it is a '
@@ -1038,30 +1023,25 @@ UNIT = dict(
            ['wrong', 'true and about a third of the story', 'out of date', 'too technical'],
            1, 'He then gives the three things it leaves out.',
            {0: 'He says the textbook answer is true as far as it goes.', 2: 'Age is not what he says is wrong with it.', 3: 'He calls it the textbook answer, not a technical one.'}),
-          ('The number of further cases is a property of',
-           ['the virus', 'a virus in a population behaving a certain way', 'the season only', 'the health system'],
-           1,
+          (
+           'The number of further cases is a property of a virus in a '
+           '____________ behaving a certain way.', None,
+           'population',
            'And he calls treating it as a constant the commonest error '
-           'in the field.',
-           {0: 'The virus alone is what he says it is wrongly taken to '
-               'be.', 2: 'Season is one factor among several, not the whole.', 3: 'The health system is not part of his definition.'}),
-          ('The standard model wrongly assumes that',
-           ['everybody is immune', 'everybody is equally likely to meet everybody', 'nobody travels', 'all cases are reported'],
-           1,
+           'in the field.'),
+          (
+           'The standard model wrongly assumes everybody is equally '
+           'likely to ____________ everybody.', None, 'meet',
            'Whereas the first infected are those with the most '
-           'contacts.',
-           {0: 'Universal immunity is not what the model assumes.', 2: 'Travel is not what the mixing assumption is about.', 3: 'Reporting is a separate problem, about case counts.'}),
+           'contacts.'),
           ('Why is he careful about the mixing point?',
            ['It is disputed', 'A true observation was used for a badly wrong prediction', 'It is hard to measure', 'It applies only to cities'],
            1, 'A few years ago, which is why he flags it.',
            {0: 'He presents the mixing point as true, not disputed.', 2: 'Measurement difficulty is real but not why he flags '
                'it.', 3: 'He does not restrict the point to cities.'}),
-          ('The third reason he gives is',
-           ['vaccination', 'seasons', 'travel restrictions', 'better treatment'],
-           1,
-           'Many respiratory infections spread better in cold dry air.',
-           {0: 'Vaccination is not among the three things he lists.', 2: 'Restrictions come in as his fourth point, on '
-               'behaviour.', 3: 'Treatment is not one of his reasons.'}),
+          ('The third reason he gives is ____________.', None,
+           'seasons',
+           'Many respiratory infections spread better in cold dry air.'),
           (
            'He says an epidemic ending is overdetermined, which makes '
            'the decline easy to forecast and the credit',
@@ -1361,13 +1341,10 @@ UNIT = dict(
            'properly.',
            {0: 'Communication is exactly what he does criticise.', 2: 'He names identifiable meetings rather than the '
                'government.', 3: 'The data is not what either of them faults.'}),
-          ('What word does Wrzesniewski resist?',
-           ['Model', 'Uncertainty', 'System', 'Estimate'], 2,
+          ('The word Wrzesniewski resists is ____________.', None,
+           'system',
            'Because it sounds as though nobody did it, when '
-           'identifiable people did.',
-           {0: 'The models are what Agbaje says he is not criticising.', 1: 'Uncertainty is what he says the models carried '
-               'properly.', 3: 'An estimate is what the meetings produced, not the '
-               'word he resists.'}),
+           'identifiable people did.'),
           ('He says answering properly eventually reads as',
            ['caution', 'evasion', 'expertise', 'disagreement'], 1,
            'Which is the point at which a central estimate gets given.',

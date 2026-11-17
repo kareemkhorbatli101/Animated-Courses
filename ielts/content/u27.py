@@ -231,21 +231,18 @@ UNIT = dict(
            'Residents forgive a choice they can see. They do not forgive a '
            'scheme that pretends to serve everybody.')],
          items=[
-          ('The speaker says people disagree about',
-           ['the evidence', 'what a street is for', 'the cost', 'the designers'],
-           1,
+          (
+           'The speaker says people disagree about what a street is '
+           '____________.', None, 'for',
            'Which is why two people can argue while agreeing on every '
-           'fact.',
-           {0: 'He says they can agree on every fact and still argue.', 2: 'Cost is not what he says the disagreement is about.', 3: 'The designers are who he advises, not the subject of '
-               'dispute.'}),
+           'fact.'),
           ('How many definitions of a street does the speaker name?',
-           ['Two', 'Three', 'Four', 'Five'], 2,
-           'Route, destination, frontage and home.',
-           {0: 'Fewer than the number he lists.', 1: 'One short of the four he names.', 3: 'He names four definitions, not five.'}),
-          ('What does the speaker advise doing when somebody objects?',
-           ['Explain the evidence', 'Ask which definition they speak for', 'Offer a compromise', 'Refer them to the policy'],
-           1, 'Because half the objections turn out to be compatible.',
-           {0: 'Explaining the evidence is what he says does not help.', 2: 'Compromise is not the step he recommends first.', 3: 'Policy is not what he tells you to cite.'}),
+           None, 'four', 'Route, destination, frontage and home.'),
+          (
+           'When somebody objects, the speaker advises asking which '
+           '____________ they speak for.', None,
+           'definition',
+           'Because half the objections turn out to be compatible.'),
           ('Which scheme survives a consultation?',
            ['The cheapest', 'The best', 'The one whose designers can name their choice', 'The one with fewest objections'],
            2, 'Residents forgive a choice they can see.',
@@ -475,18 +472,17 @@ UNIT = dict(
            1, 'He accepts the first is not a survey.',
            {0: 'He accepts that what shopkeepers tell him is not a '
                'survey.', 2: 'Council figures are what Alinta produces against him.', 3: 'No national research is cited by either councillor.'}),
-          ('What happened to takings in Pell Street?',
-           ['They fell', 'They rose eleven per cent', 'They were unchanged', 'Nobody measured'],
-           1, 'And the two shops that closed were already failing.',
-           {0: 'They rose, which is the figure Alinta produces.', 2: 'An eleven per cent rise is a change, not stability.', 3: 'The figures exist, in the appendix.'}),
-          ('Where was the inconvenient detail published?',
-           ['The summary', 'The appendix', 'A press release', 'Nowhere'],
-           1, 'Which Alinta says is where such things are hidden.',
-           {0: 'The summary is where it was left out.', 2: 'No press release is mentioned by either councillor.', 3: 'It was published, but in the appendix.'}),
-          ('Bogdan\u2019s revised objection concerns',
-           ['takings', 'who can reach the high street', 'noise', 'construction'],
-           1, 'Drivers there are disproportionately old and disabled.',
-           {0: 'Takings are the objection he withdraws.', 2: 'Noise is not raised in this exchange.', 3: 'Construction disruption is not mentioned.'}),
+          ('Takings in Pell Street rose ____________ per cent.', None,
+           'eleven',
+           'And the two shops that closed were already failing.'),
+          (
+           'The inconvenient detail was published in the ____________.',
+           None, 'appendix',
+           'Which Alinta says is where such things are hidden.'),
+          (
+           'Bogdan\u2019s revised objection concerns who can ____________ '
+           'the high street.', None, 'reach',
+           'Drivers there are disproportionately old and disabled.'),
           ('What do they agree?',
            ['Twelve bays', 'Ten bays and the bus review in the paper', 'No change', 'Eight bays only'],
            1, 'With the frequency review brought forward.',
@@ -748,29 +744,24 @@ UNIT = dict(
            'the thing at risk, and anybody who tells you otherwise has not '
            'watched this happen before.')],
          items=[
-          ('The planner organises the presentation by',
-           ['date', 'zone', 'cost', 'phase'], 1,
-           'Because that is how the plan was designed.',
-           {0: 'He says the plan was not designed by date.', 2: 'Cost is not how he orders the presentation.', 3: 'Phasing comes last, as one item rather than the order.'}),
-          ('The western half of the northern zone will be',
-           ['four storeys', 'six storeys', 'workshops', 'unchanged'], 1,
+          ('The planner organises the presentation by ____________.',
+           None, 'zone', 'Because that is how the plan was designed.'),
+          (
+           'The western half of the northern zone will be ____________ '
+           'storeys.', None, 'six',
            'Facing the railway, while the east is four storeys facing '
-           'the terraces.',
-           {0: 'Four storeys is the eastern half, facing the terraces.', 2: 'The workshops are in the central zone.', 3: 'The warehouses there are replaced, not retained.'}),
-          ('In the central zone, the car park becomes a',
-           ['square', 'school', 'workshop', 'park'], 1,
-           'Alongside the scrubland becoming a square.',
-           {0: 'The scrubland becomes the square.', 2: 'The bus depot becomes the workshops.', 3: 'The canal basin becomes the park.'}),
+           'the terraces.'),
+          ('In the central zone, the car park becomes a ____________.',
+           None, 'school', 'Alongside the scrubland becoming a square.'),
           ('The square is placed to serve',
            ['residents only', 'children and workshop workers', 'visitors', 'the school alone'],
            1, 'Giving four busy periods a day.',
            {0: 'Residents are served, but the placing is for two '
                'groups.', 2: 'Visitors are not mentioned in the planning of the '
                'square.', 3: 'The workshops supply the midday use as well.'}),
-          ('What crosses all three zones?',
-           ['A road', 'A pedestrian route', 'The canal', 'A railway'],
-           1, 'With nothing corresponding to it on the first map.',
-           {0: 'The road along the southern edge is unchanged.', 2: 'The canal lies in the southern zone only.', 3: 'The railway lies beyond the northern zone.'}),
+          ('A ____________ route crosses all three zones.', None,
+           'pedestrian',
+           'With nothing corresponding to it on the first map.'),
           (
            'Which element is most at risk if housing sells below '
            'forecast?',
@@ -1060,36 +1051,30 @@ UNIT = dict(
            'it is the one opponents can most easily show to be '
            'overstated.')],
          items=[
-          ('The lecturer says the public argument covers',
-           ['all three options', 'two of the three options', 'none of them', 'only building upwards'],
-           1, 'While most cities have chosen the third.',
-           {0: 'He says the third option is left out of the argument.', 2: 'Two of the three are argued about constantly.', 3: 'Building outwards is argued about as well.'}),
-          ('A tall building costs per square metre',
-           ['the same as a house', 'two to three times a house', 'half as much', 'four times as much'],
-           1,
+          (
+           'The lecturer says the public argument covers ____________ '
+           'of the three options.', None, 'two',
+           'While most cities have chosen the third.'),
+          (
+           'A tall building costs per square metre two to ____________ '
+           'times a house.', None, 'three',
            'And takes four to seven years from permission to '
-           'occupation.',
-           {0: 'The whole point is that it costs considerably more.', 2: 'Half as much would reverse his comparison.', 3: 'Higher than the multiple he gives.'}),
+           'occupation.'),
           ('Who pays the cost of building outwards?',
            ['The developer', 'The public, later', 'The buyer', 'Nobody'],
            1,
            'Roads, a school, water mains and a loss-making bus route.',
            {0: 'The developer pays for building upwards.', 2: 'The buyer pays the construction cost of building '
                'upwards.', 3: 'The cost is real and falls on the public purse.'}),
-          ('Why is building nothing not recorded anywhere?',
-           ['It is secret', 'It is the sum of individual refusals rather than a decision', 'It is illegal', 'Nobody has studied it'],
-           1, 'So no planning document contains it.',
-           {0: 'Nothing is concealed; there is simply no decision to '
-               'record.', 2: 'Legality is not raised in the lecture.', 3: 'He describes the costs, so it has been studied.'}),
-          ('What does the lecturer treat as settled?',
-           ['That density builds community', 'The servicing arithmetic', 'Emissions', 'Construction cost'],
-           1,
+          (
+           'Building nothing is not recorded anywhere because it is '
+           'the sum of individual ____________.', None,
+           'refusals', 'So no planning document contains it.'),
+          (
+           'The lecturer treats the ____________ arithmetic as '
+           'settled.', None, 'servicing',
            'Pipe and road per household two to four times higher at '
-           'the edge.',
-           {0: 'That is the claim he calls asserted rather than '
-               'settled.', 2: 'Emissions are among the mixed evidence, not the '
-               'settled part.', 3: 'Construction cost is a term in the comparison, not his '
-               'example.'}),
+           'the edge.'),
           ('What is he more careful about than his colleagues?',
            ['Cost figures', 'The claim that density produces community', 'Emissions data', 'Travel times'],
            1,
@@ -1372,14 +1357,12 @@ UNIT = dict(
            ['out of date', 'competent', 'too complex', 'secret'], 1,
            'Checked by somebody who does it for a living.',
            {0: 'Age of the model is not what he concedes.', 2: 'Complexity is not his concession.', 3: 'The model was open enough to be checked.'}),
-          ('His objection concerns',
-           ['the arithmetic', 'the model boundary', 'the software', 'the consultation'],
-           1, 'The traffic appears on a road outside it.',
-           {0: 'He says the arithmetic is competent.', 2: 'Software is not what he objects to.', 3: 'The consultation is not his objection here.'}),
-          ('Why is the boundary where it is?',
-           ['A technical limit', 'A funding decision in 2019', 'A legal requirement', 'A resident request'],
-           1, 'Because that is where the survey data ends.',
-           {0: 'She calls it a budget rather than a technical limit.', 2: 'No legal requirement is mentioned by either.', 3: 'Residents did not choose the boundary.'}),
+          ('His objection concerns the model ____________.', None,
+           'boundary', 'The traffic appears on a road outside it.'),
+          (
+           'The boundary is where it is because of a ____________ '
+           'decision in 2019.', None, 'funding',
+           'Because that is where the survey data ends.'),
           ('The second weakness she names is',
            ['long commutes', 'short walking trips by children and older people', 'freight', 'bus journeys'],
            1, 'Under-reported in surveys and too short for the zones.',

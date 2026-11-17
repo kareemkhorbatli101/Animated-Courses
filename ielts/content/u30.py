@@ -220,20 +220,19 @@ UNIT = dict(
            'and the total cost to us fell, because the subsidy was no longer '
            'going to families who did not need it.')],
          items=[
-          ('The speaker says the membership fee is',
-           ['the main barrier', 'almost never the barrier', 'too low', 'unfairly charged'],
-           1,
+          (
+           'The speaker says the membership fee is almost never the '
+           '____________.', None, 'barrier',
            'Four pounds a month, affordable to most families who do '
-           'not join.',
-           {0: 'He says the fee is almost never the barrier.', 2: 'He does not argue that the fee should be higher.', 3: 'Fairness of the charge is not his subject.'}),
-          ('What stops people, in the speaker\u2019s view?',
-           ['The fee', 'Accumulated small unpredictable costs', 'Lack of interest', 'Travel distance alone'],
-           1, 'Boots, lifts, tournament entries announced on Thursday.',
-           {0: 'The fee is the one cost he rules out.', 2: 'He does not suggest families lack interest.', 3: 'Transport is one of several unpredictable costs.'}),
-          ('Why did the subsidy schemes fail?',
-           ['They were too small', 'They removed the fee, which was not the problem', 'Families did not apply', 'Clubs refused them'],
-           1, 'Leaving every unpredictable cost in place.',
-           {0: 'Size of the subsidy is not what he blames.', 2: 'Families did apply; the fee was waived for them.', 3: 'No refusal by clubs is mentioned.'}),
+           'not join.'),
+          (
+           'What stops people is accumulated small ____________ costs.',
+           None, 'unpredictable',
+           'Boots, lifts, tournament entries announced on Thursday.'),
+          (
+           'The subsidy schemes failed because they removed the '
+           '____________, which was not the problem.', None,
+           'fee', 'Leaving every unpredictable cost in place.'),
           ('What did the successful approach include?',
            ['A larger subsidy', 'One September payment covering everything and three weeks\u2019 notice of any cost', 'Free coaching only', 'A new clubhouse'],
            1, 'Participation rose eleven per cent and total cost fell.',
@@ -462,33 +461,29 @@ UNIT = dict(
            'this room for two years, and I would like it in the minutes '
            'before you reconsider.')],
          items=[
-          ('Ferdinand\u2019s original proposal was to',
-           ['raise fees', 'abolish junior fees', 'reduce coaching', 'buy a scoreboard'],
-           1,
-           'Fourteen thousand a year, to be raised from the sponsor.',
-           {0: 'Raising fees is the opposite of what he proposes.', 2: 'Coaching levels are not what he proposes changing.', 3: 'The scoreboard is what he later agrees to give up.'}),
           (
-           'The county programme\u2019s fee waiver raised participation by',
-           ['two per cent', 'eleven per cent', 'twenty per cent', 'nothing'],
-           0, 'Having removed the one predictable cost.',
-           {1: 'Eleven per cent is what the bundled payment achieved.', 2: 'Far above either figure in the exchange.', 3: 'The waiver did raise participation, if only slightly.'}),
+           'Ferdinand\u2019s original proposal was to abolish junior '
+           '____________.', None, 'fees',
+           'Fourteen thousand a year, to be raised from the sponsor.'),
+          (
+           'The county programme\u2019s fee waiver raised participation by '
+           '____________ per cent.', None, 'two',
+           'Having removed the one predictable cost.'),
           ('What raised participation by eleven per cent?',
            ['A bigger waiver', 'One September payment covering everything, with three weeks\u2019 notice of any cost', 'Free transport only', 'More coaches'],
            1, 'And it cost the programme less.',
            {0: 'A bigger waiver is what the programme had already '
                'tried.', 2: 'Transport is one part of the bundle, not the whole.', 3: 'Coaching numbers are not part of the change.'}),
-          ('Why did the successful approach cost less?',
-           ['Fewer families joined', 'A waiver goes to everybody who asks', 'Sponsors paid more', 'Fixtures were reduced'],
-           1,
+          (
+           'The successful approach cost less because a ____________ '
+           'goes to everybody who asks.', None, 'waiver',
            'While a bundled payment is chosen by those needing '
-           'predictability.',
-           {0: 'More families joined, not fewer.', 2: 'Sponsorship is not what made the difference in cost.', 3: 'Fixtures were not reduced under the scheme.'}),
-          ('What does Chiara say Ferdinand will not like?',
-           ['Losing the scoreboard', 'The notice rule binding coaches', 'Paying the sponsor back', 'Fewer tournaments for seniors'],
-           1,
+           'predictability.'),
+          (
+           'Chiara says Ferdinand will not like the ____________ rule '
+           'binding coaches.', None, 'notice',
            'Meaning no entry to a tournament heard about on the '
-           'Monday.',
-           {0: 'He offers the scoreboard up himself.', 2: 'No repayment to the sponsor is discussed.', 3: 'Senior fixtures are not mentioned in the exchange.'})])],
+           'Monday.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Cost',
     longturn=[('The thing I wanted to do and could not afford was to row '
@@ -754,36 +749,30 @@ UNIT = dict(
            'is made of. Either one on its own is a presentation and the '
            'pair of them is an accounts department.')],
          items=[
-          ('Why are three visuals needed?',
-           ['The data is incomplete', 'No two of them answer the question', 'The charts are unreliable', 'To compare four clubs'],
-           1,
+          (
+           'Three visuals are needed because no ____________ of them '
+           'answer the question.', None, 'two',
            'The charts give sources and the table gives what happens '
-           'to the money.',
-           {0: 'He treats the data as complete enough to use.', 2: 'He does not question the reliability of the charts.', 3: 'The table covers four clubs, but that is not his '
-               'reason.'}),
-          ('Carrick Athletic draws what share from gate receipts?',
-           ['14 per cent', '18 per cent', '41 per cent', '54 per cent'],
-           2, 'Against 18 per cent from broadcast rights.',
-           {0: '14 per cent is Harlow Vale\u2019s gate share.', 1: '18 per cent is Carrick\u2019s broadcast share.', 3: '54 per cent is Harlow Vale\u2019s broadcast share.'}),
-          ('Broadcast income can fall by',
-           ['a tenth', 'a third', 'a half', 'nothing'], 1,
-           'On a renegotiation, without local behaviour changing.',
-           {0: 'Smaller than the fall he describes.', 2: 'Larger than the figure he gives for a renegotiation.', 3: 'The whole point is that it can fall sharply.'}),
-          ('Dunmore City finished',
-           ['fourth', 'sixth', 'eleventh', 'seventeenth'], 3,
-           'Paying 94 per cent of income in wages.',
-           {0: 'Fourth is where Harlow Vale finished.', 1: 'Sixth is where Pellow Rangers finished.', 2: 'Eleven places is the gap, not a position.'}),
+           'to the money.'),
+          (
+           'Carrick Athletic draws ____________ per cent from gate '
+           'receipts.', None, '41',
+           'Against 18 per cent from broadcast rights.'),
+          ('Broadcast income can fall by a ____________.', None,
+           'third',
+           'On a renegotiation, without local behaviour changing.'),
+          ('Dunmore City finished ____________.', None, 'seventeenth',
+           'Paying 94 per cent of income in wages.'),
           ('Which distinction does the analyst say people collapse?',
            ['Income and wages', 'Absolute spending and spending as a share of income', 'Gate and broadcast', 'Position and points'],
            1, 'The first tends to move a club up; the second does not.',
            {0: 'Income and wages are both in the table, and distinct.', 2: 'Gate and broadcast are separated clearly in the '
                'charts.', 3: 'Points and position are not what he says are confused.'}),
-          ('What structure lies behind most insolvencies?',
-           ['Low gate receipts', 'A variable income matched against a fixed obligation', 'Too little sponsorship', 'Falling attendances'],
-           1,
-           'Which is invisible in any single one of the three visuals.',
-           {0: 'Low gate receipts are not the structure he names.', 2: 'Sponsorship is similar for both clubs in the charts.', 3: 'Falling attendance moves slowly, which is his '
-               'contrast.'})])],
+          (
+           'Behind most insolvencies lies a variable income matched '
+           'against a ____________ obligation.', None,
+           'fixed',
+           'Which is invisible in any single one of the three visuals.')])],
    speak=dict(
     part='Part 3', focus='Money in sport',
     intro=('Four or five sentences. Try once to distinguish an amount from a '
@@ -1097,11 +1086,10 @@ UNIT = dict(
            'Most of what is called an ethical crisis follows from '
            'committees\u2019 decisions.',
            {0: 'He does not claim that sport is improving.', 2: 'He argues that punishment has disappointed.', 3: 'He says committees do not see what they are voting on.'}),
-          ('A larger gap between first and second increases',
-           ['effort in the middle', 'risk-taking', 'attendance', 'fairness'],
-           1, 'Because the competitor behind has nothing to lose.',
-           {0: 'Effort in the middle depends on the taper, not the top '
-               'gap.', 2: 'Attendance is not among the effects he describes.', 3: 'Fairness is not what a larger gap increases.'}),
+          (
+           'A larger gap between first and second increases '
+           '____________.', None, 'risk-taking',
+           'Because the competitor behind has nothing to lose.'),
           ('Paying prize money by position to the bottom',
            ['reduces effort', 'sustains effort further down the field', 'has no effect', 'increases doping'],
            1,
@@ -1109,20 +1097,16 @@ UNIT = dict(
            'something.',
            {0: 'Concentrating the money at the top is what reduces '
                'effort.', 2: 'He reports a clear effect further down the field.', 3: 'Doping follows the gradient, which this flattens.'}),
-          ('Detected doping clusters',
-           ['among the very best', 'just below the very best', 'at the bottom', 'evenly'],
-           1,
+          (
+           'Detected doping clusters just below the very ____________.',
+           None, 'best',
            'Among those for whom one per cent crosses a financial '
-           'line.',
-           {0: 'He says the clustering is not among the very best.', 2: 'The bottom of the field has least to gain.', 3: 'The distribution follows the prize structure, not '
-               'chance.'}),
-          ('Tougher punishment has mainly produced',
-           ['less cheating', 'better concealment', 'fewer competitors', 'lower prizes'],
-           1,
+           'line.'),
+          (
+           'Tougher punishment has mainly produced better '
+           '____________.', None, 'concealment',
            'Where the value of winning exceeds the cost of being '
-           'caught.',
-           {0: 'Less cheating is what punishment was expected to '
-               'produce.', 2: 'Competitor numbers are not what he reports changing.', 3: 'Prizes have risen rather than fallen.'}),
+           'caught.'),
           ('What does he say about the optimal gradient?',
            ['It is known', 'He does not know and distrusts anybody who claims to', 'It is zero', 'It is the same in every sport'],
            1, 'While accepting that flattening has real costs.',

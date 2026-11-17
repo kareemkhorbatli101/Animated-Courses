@@ -209,32 +209,24 @@ UNIT = dict(
            'neighbours. None of it costs anything and all of it is harder to '
            'do in November than to intend in July.')],
          items=[
-          ('What does the speaker say about flood doors?',
-           ['They always work', 'They help in about one flood in three', 'They are a waste of money', 'They are too expensive'],
-           1,
+          (
+           'The speaker says flood doors help in about one flood in '
+           '____________.', None, 'three',
            'They buy about twenty centimetres and are overtopped in '
-           'the other two.',
-           {0: 'He says they are overtopped in two floods out of '
-               'three.', 2: 'He says protection is worth having, not wasted.', 3: 'Cost is not his objection; a grant covers the work.'}),
-          ('What distinguishes households that recover fastest?',
-           ['Better insurance', 'Moving irreplaceable things upstairs early', 'Living higher up', 'Having more warning'],
-           1,
+           'the other two.'),
+          (
+           'Households that recover fastest move irreplaceable things '
+           'upstairs ____________.', None, 'early',
            'Documents, photographs and things with no price on an '
-           'insurance form.',
-           {0: 'Insurance covers everything else, which he calls a '
-               'claim.', 2: 'Where the house sits is not what distinguishes the '
-               'households.', 3: 'Warning time is the same for everybody in the zone.'}),
-          ('In a real warning, how long do people have?',
-           ['Minutes', 'One to four hours', 'A day', 'Two days'], 1,
-           'And almost nobody has decided the sequence in advance.',
-           {0: 'Longer than minutes, though not long enough to decide '
-               'then.', 2: 'Far longer than the warning he describes.', 3: 'Two days is not the interval he gives.'}),
-          ('What surprised the speaker?',
-           ['The cost of repairs', 'That telling neighbours matters', 'The speed of the water', 'How few people claim'],
-           1,
+           'insurance form.'),
+          ('In a real warning, people have one to ____________ hours.',
+           None, 'four',
+           'And almost nobody has decided the sequence in advance.'),
+          (
+           'What surprised the speaker is that telling ____________ '
+           'matters.', None, 'neighbours',
            'Because two people moving a piano is a different problem '
-           'from one.',
-           {0: 'Repair costs are not what he says surprised him.', 2: 'The speed of the water is not his subject.', 3: 'Claim rates are not discussed in the talk.'})])],
+           'from one.')])],
    speak=dict(
     part='Part 1', focus='Weather where you live',
     intro=('Two or three sentences each. Ordinary observation is exactly '
@@ -448,21 +440,17 @@ UNIT = dict(
          items=[
           (
            'The proposed defence would raise the level on Rafaela\u2019s '
-           'side by',
-           ['no amount', 'ten centimetres', 'forty-one centimetres', 'an unknown amount'],
-           1, 'A figure she found in a table on page forty-one.',
-           {0: 'The figure she found is small but not nothing.', 2: 'Forty-one is the page number, not a measurement.', 3: 'She gives the figure, so it is not unknown.'}),
-          ('Where did she find the figure?',
-           ['In the summary', 'In a table in the modelling report', 'From the council', 'From a neighbour'],
-           1, 'Not in the summary, which is why she nearly missed it.',
-           {0: 'She says the figure is not in the summary.', 2: 'The council published it without drawing attention to '
-               'it.', 3: 'Her son found it, but it came from the report itself.'}),
-          ('Why does Gustav want the page number in the letter?',
-           ['It is required', 'It gets a different answer', 'It saves time', 'It proves she read it'],
-           1,
+           'side by ____________ centimetres.', None, 'ten',
+           'A figure she found in a table on page forty-one.'),
+          (
+           'She found the figure in a ____________ in the modelling '
+           'report.', None, 'table',
+           'Not in the summary, which is why she nearly missed it.'),
+          (
+           'Gustav wants the page number in the letter because it gets '
+           'a ____________ answer.', None, 'different',
            'A letter with a page number gets a different answer from '
-           'one without.',
-           {0: 'No requirement to cite pages is mentioned.', 2: 'Saving time is not the reason he gives.', 3: 'Proving she read it is not the effect he describes.'}),
+           'one without.'),
           ('What does he say she should ask for?',
            ['Abandoning the scheme', 'What they propose to do about the ten centimetres', 'Compensation', 'A new report'],
            1, 'A question they have to answer and have not.',
@@ -745,41 +733,34 @@ UNIT = dict(
            'whenever the chart is shown, and in most newspaper versions of '
            'this chart it is not.')],
          items=[
-          ('The lecturer chose this station to show that',
-           ['records are unreliable', 'a small change in an average is a large change in experience', 'warming has stopped', 'stations disagree'],
-           1, 'Which he says people find hardest to believe.',
-           {0: 'He defends the record rather than questioning it.', 2: 'Nothing in the chart suggests warming has stopped.', 3: 'Agreement between stations is his later caution, not '
-               'his purpose.'}),
-          ('The anomaly moves about',
-           ['0.7 degrees', '1.7 degrees', '2.9 degrees', '4 degrees'],
-           1,
-           'While the count of hot days goes from four to twenty-nine.',
-           {0: 'Smaller than the change he reports across the century.', 2: 'Larger than the anomaly; twenty-nine is the day count.', 3: 'Far larger than the figure he gives.'}),
+          (
+           'The lecturer chose this station to show that a small '
+           'change in an average is a large change in ____________.',
+           None, 'experience',
+           'Which he says people find hardest to believe.'),
+          ('The anomaly moves about ____________ degrees.', None,
+           '1.7',
+           'While the count of hot days goes from four to twenty-nine.'),
           ('Why do the two measures look so different?',
            ['Different instruments', 'Arithmetic about distributions', 'Different periods', 'One is estimated'],
            1,
            'Thirty degrees is a fixed line where the curve is steep.',
            {0: 'Instruments are his second caution, about the 1964 '
                'move.', 2: 'Both lines cover the same hundred and twenty years.', 3: 'Both measures are read from the same records.'}),
-          ('Scientists report the mean because',
-           ['it is dramatic', 'it is stable and models predict it', 'it is easier to measure', 'the public asks for it'],
-           1,
+          (
+           'Scientists report the mean because it is ____________ and '
+           'models predict it.', None, 'stable',
            'While people experience the tail, which is what a heatwave '
-           'is.',
-           {0: 'He calls the mean the undramatic measure of the two.', 2: 'Ease of measurement is not the reason he gives.', 3: 'He says the public conversation runs on the tail '
-               'instead.'}),
-          ('He says a single station is only worth showing because',
-           ['it is well maintained', 'it matches the regional series', 'it is the oldest', 'it has no gaps'],
-           1, 'On its own it would prove nothing.',
-           {0: 'Maintenance is not what makes the station worth '
-               'showing.', 2: 'Age is not the reason he gives for choosing it.', 3: 'Completeness of the record is not his criterion.'}),
-          ('Correcting for station moves and changes is called',
-           ['calibration', 'homogenisation', 'smoothing', 'adjustment'],
-           1,
+           'is.'),
+          (
+           'A single station is only worth showing because it '
+           '____________ the regional series.', None,
+           'matches', 'On its own it would prove nothing.'),
+          (
+           'Correcting for station moves and changes is called '
+           '____________.', None, 'homogenisation',
            'Which he says is where most accusations of fraud are '
-           'aimed.',
-           {0: 'Calibration is a different operation on an instrument.', 2: 'Smoothing is averaging over time, not correcting a '
-               'move.', 3: 'Adjustment is what it does, but not the term he gives.'})])],
+           'aimed.')])],
    speak=dict(
     part='Part 3', focus='Evidence about the climate',
     intro=('Four or five sentences. Say once what a measurement does and does '
@@ -1088,15 +1069,12 @@ UNIT = dict(
            ['whether warming caused it', 'how much more likely it has become', 'when it will happen again', 'who is responsible'],
            1, 'Not whether, but how much more likely.',
            {0: 'That is the question he says is close to meaningless.', 2: 'Future recurrence is not what the method estimates.', 3: 'Responsibility is for the courts, not the model.'}),
-          ('The method removes from the model',
-           ['the oceans', 'the extra greenhouse gases', 'the clouds', 'the event itself'],
-           1,
-           'And counts the event\u2019s frequency in both sets of runs.',
-           {0: 'The oceans stay in the model, with their assumptions.', 2: 'Clouds remain, and are a source of disagreement.', 3: 'The event is counted, not removed.'}),
-          ('Attribution is most reliable for',
-           ['rainfall', 'heat', 'storm tracks', 'drought'], 1,
-           'Because models handle temperature well.',
-           {0: 'Rainfall is the harder case, below the model grid.', 2: 'Storm tracks are what nobody can attribute at all.', 3: 'Drought is not among the cases he ranks.'}),
+          (
+           'The method removes from the model the extra ____________ '
+           'gases.', None, 'greenhouse',
+           'And counts the event\u2019s frequency in both sets of runs.'),
+          ('Attribution is most reliable for ____________.', None,
+           'heat', 'Because models handle temperature well.'),
           ('Which limit does he say his field states badly?',
            ['The heat limit', 'The rainfall limit', 'The biased sample of studied events', 'The model grid'],
            2, 'Studies are run where the news and the funding are.',
@@ -1410,11 +1388,10 @@ UNIT = dict(
            'And she says she has done it herself and noticed '
            'afterwards.',
            {0: 'She defends the models as well validated.', 2: 'She speaks to the press, which is part of the problem.', 3: 'Overstating ranges is not what she admits.'}),
-          ('In recent floods, more of the loss is explained by',
-           ['growth in hazard', 'growth in exposure', 'poor warning', 'building materials'],
-           1, 'Though both hazard and exposure are rising.',
-           {0: 'Hazard is rising too, but explains less of the loss.', 2: 'Warning quality is not discussed by either.', 3: 'Materials are vulnerability, a third term, not the '
-               'answer.'}),
+          (
+           'In recent floods, more of the loss is explained by growth '
+           'in ____________.', None, 'exposure',
+           'Though both hazard and exposure are rising.'),
           (
            'Why does Iwuchukwu hesitate about publishing the exposure '
            'figure?',

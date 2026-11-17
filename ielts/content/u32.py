@@ -204,24 +204,22 @@ UNIT = dict(
            'without emptying the bin, do that and empty the bin. One movement. '
            'If it takes two, it is a tag.')],
          items=[
-          ('The supervisor defines contamination as',
-           ['any dirt in a bin', 'the wrong material in the right bin', 'a bin that is too full', 'food residue on packaging'],
-           1,
+          (
+           'The supervisor defines contamination as the wrong material '
+           'in the ____________ bin.', None, 'right',
            'He rules out dirt and residue explicitly in the first '
-           'turn.',
-           {0: 'He rules out dirt in his first sentence.', 2: 'Fullness is not what contamination means.', 3: 'He rules out food residue explicitly.'}),
+           'turn.'),
           ('Why does a contaminated load matter financially?',
            ['It takes longer to collect', 'It damages the lorry', 'Above a threshold it is rejected and costs money', 'It must be sorted by hand'],
            2,
            'Rejected at the gate and sent to incineration, paid for '
            'twice.',
            {0: 'Collection time is not the cost he describes.', 1: 'No damage to the lorry is mentioned.', 3: 'Hand sorting happens in the plant, not on the round.'}),
-          ('The supervisor emphasises that the threshold is',
-           ['gradual', 'not gradual', 'set by the crew', 'different each week'],
-           1,
+          (
+           'The supervisor emphasises that the threshold is not '
+           '____________.', None, 'gradual',
            'Below it the load is worth money and above it the load '
-           'costs money, which is why one household can flip a lorry.',
-           {0: 'He says explicitly that it is not gradual.', 2: 'The threshold sits in the contract, not with the crew.', 3: 'Nothing in the talk suggests it changes weekly.'}),
+           'costs money, which is why one household can flip a lorry.'),
           ('What should crews do when they find contamination?',
            ['Knock on the door', 'Empty the bin and report it', 'Tag it, photograph it and move on', 'Call the supervisor'],
            2,
@@ -438,19 +436,17 @@ UNIT = dict(
           ('Astrid', 'That is a better point than anything I came in with. '
            'Put it in the draft as a fourth condition and I will defend it.')],
          items=[
-          ('What does Ruben say the two screws would cost?',
-           ['Assembly time', 'The water seal', 'The warranty', 'Material cost'],
-           1,
-           'And he gives the consequence: the seal is why the failure '
-           'rate halved.',
-           {0: 'Assembly time is not what he says the screws cost.', 2: 'The warranty is not mentioned in the exchange.', 3: 'Material cost would rise with a thicker case, later.'}),
           (
-           'Astrid\u2019s criticism is that the sealing argument has become',
-           ['false', 'too expensive', 'a justification dressed as a reason', 'unfashionable'],
-           2,
+           'Ruben says the two screws would cost the ____________ '
+           'seal.', None, 'water',
+           'And he gives the consequence: the seal is why the failure '
+           'rate halved.'),
+          (
+           'Astrid\u2019s criticism is that the sealing argument has become '
+           'a ____________ dressed as a reason.', None,
+           'justification',
            'We seal things and then use the improvement as the reason '
-           'they cannot be opened.',
-           {0: 'She does not say the sealing argument is false.', 1: 'Cost is not the ground of her criticism.', 3: 'Fashion plays no part in her objection.'}),
+           'they cannot be opened.'),
           ('What does Ruben admit when asked a hypothetical question?',
            ['He would have used fewer screws', 'He would have designed it differently', 'The seal was unnecessary', 'The cost would have been lower'],
            1,
@@ -460,11 +456,9 @@ UNIT = dict(
                'admission.', 2: 'He defends the seal throughout.', 3: 'A thicker case would cost more, not less.'}),
           (
            'How many conditions does Ruben attach to the word '
-           'repairable?', ['Two', 'Three', 'Four', 'Five'],
-           1,
+           'repairable?', None, 'three',
            'A part exists, it is affordable, and the instructions are '
-           'public.',
-           {0: 'Fewer than the conditions he lists.', 2: 'The fourth is added later, by Astrid, on software.', 3: 'He names three, and a fourth is added after.'}),
+           'public.'),
           (
            'Which condition do the two expect manufacturers to resist '
            'most?',
@@ -781,38 +775,33 @@ UNIT = dict(
            'profitable lorry into an expensive one, which is why the tag on '
            'the bin is not pettiness.')],
          items=[
-          ('The manager says the plant does not',
-           ['separate materials', 'recycle anything', 'sell bales', 'employ hand pickers'],
-           1,
+          (
+           'The manager says the plant does not ____________ anything.',
+           None, 'recycle',
            'What leaves is bales; somebody else melts, pulps or '
-           'extrudes.',
-           {0: 'Separation is exactly what the plant does.', 2: 'Bales are what it sells, by the tonne.', 3: 'The hand-picking line is still staffed.'}),
-          ('What happened when the price of baled mixed paper fell?',
-           ['The plant changed its process', 'Costs rose', 'Three regional plants closed', 'Collections were reduced'],
-           2,
+           'extrudes.'),
+          (
+           'When the price of baled mixed paper fell, ____________ '
+           'regional plants closed.', None, 'three',
            'Nothing inside the building changed, which is his point '
-           'about a price set elsewhere.',
-           {0: 'He says nothing in the building changed.', 1: 'He says costs were identical.', 3: 'Collections are a council matter, not the plant\u2019s.'}),
+           'about a price set elsewhere.'),
           (
            'A plant running at eighty per cent of capacity often '
-           'produces',
-           ['less revenue', 'cleaner output', 'more contamination', 'the same output'],
-           1,
+           'produces ____________ output.', None, 'cleaner',
            'Because a surge gives every machine too deep a bed of '
-           'material.',
-           {0: 'Revenue depends on the market price, not the rate.', 2: 'Running slower reduces contamination in the output.', 3: 'The output is cleaner, which is his point.'}),
+           'material.'),
           ('Which stage would the manager protect first?',
            ['The optical sorters', 'The magnets', 'The trommel', 'The baler'],
            2,
            'Everything after it works better on a narrow size range, '
            'and its wear is blamed on later machines.',
            {0: 'The optical sorters get blamed for the trommel\u2019s wear.', 1: 'The magnets also suffer when the trommel is worn.', 3: 'The baler is the last stage, after separation.'}),
-          ('Why is a black plastic tray hard to sort optically?',
-           ['It is usually dirty', 'The carbon pigment absorbs the light', 'It is too light to divert', 'It melts under the sensor'],
-           1,
+          (
+           'A black plastic tray is hard to sort optically because the '
+           'carbon ____________ absorbs the light.', None,
+           'pigment',
            'The sensor is looking for reflected light that the pigment '
-           'absorbs.',
-           {0: 'Dirt is not the reason given for the difficulty.', 2: 'Weight is not what defeats the optical sorter.', 3: 'Nothing melts under the sensor.'}),
+           'absorbs.'),
           ('The manager describes contamination cost as',
            ['gradual', 'predictable', 'not gradual', 'falling'], 2,
            'There is a threshold in every offtake contract, below '
@@ -1128,36 +1117,31 @@ UNIT = dict(
            'of a collection round, and a householder controls neither.')],
          items=[
           (
-           'Why does the lecturer say the stopping point is not caused '
-           'by policy?',
-           ['It varies too much', 'It is similar across very different systems', 'It has changed over time', 'It is set by regulation'],
-           1,
+           'The stopping point is not caused by policy because it is '
+           '____________ across very different systems.',
+           None, 'similar',
            'When a number is consistent across different policies, the '
-           'policy is not producing it.',
-           {0: 'He says the stopping point is suspiciously similar.', 2: 'He describes it as persistent over two decades.', 3: 'Regulation differs between the countries he compares.'}),
+           'policy is not producing it.'),
           ('Which four materials does he say pay for the lorry?',
            ['Food, textiles, film and card', 'Paper, card, metal and glass', 'Garden waste, food, paper and card', 'Plastics of all kinds'],
            1,
            'Valuable, bulky and easy to identify, which is why they '
            'are captured first.',
            {0: 'Food, textiles and film are what is left at the end.', 2: 'Garden waste is what a weight target chases later.', 3: 'Only rigid plastic has useful value in his account.'}),
-          ('He objects to the phrase diminishing returns because',
-           ['the returns increase', 'it suggests a gentle curve', 'it is too technical', 'it applies only to industry'],
-           1, 'He calls the actual shape a corner, not a slope.',
-           {0: 'He does not claim the returns increase.', 2: 'He objects to the shape it implies, not its '
-               'difficulty.', 3: 'He applies the idea to household collection.'}),
-          ('Why does a weight-based target favour garden waste?',
-           ['It is easy to collect', 'It is mostly water and therefore heavy', 'It has a high market value', 'It is collected weekly anyway'],
-           1,
+          (
+           'He objects to "diminishing returns" because it suggests a '
+           '____________ curve.', None, 'gentle',
+           'He calls the actual shape a corner, not a slope.'),
+          (
+           'A weight-based target favours garden waste because it is '
+           'mostly ____________ and therefore heavy.', None,
+           'water',
            'An authority can move its headline rate by collecting '
-           'grass cuttings more often.',
-           {0: 'Ease of collection is not the reason he gives.', 2: 'Garden waste has little market value in his account.', 3: 'Weekly collection is what food waste would need.'}),
-          ('What does the lecturer say happened to the target?',
-           ['It was abandoned', 'It was met early', 'The proxy became the objective', 'It was set too low'],
-           2,
+           'grass cuttings more often.'),
+          ('He says the ____________ became the objective.', None,
+           'proxy',
            'And he says this is a pattern found in every public '
-           'service.',
-           {0: 'The target was kept, not abandoned.', 1: 'The target was not met; the rate plateaued.', 3: 'He does not say the target was too low.'}),
+           'service.'),
           ('Where does the lecturer say the plateau is located?',
            ['In household behaviour', 'In packaging design and collection economics', 'In local authority budgets', 'In the sorting technology'],
            1,
@@ -1548,13 +1532,11 @@ UNIT = dict(
            'alone gets absorbed. The cost plus the disclosure gets designed '
            'out.')],
          items=[
-          ('Lindqvist\u2019s central argument concerns',
-           ['whether recycling works', 'where public attention goes', 'the cost of collection', 'the accuracy of the figures'],
-           1,
+          (
+           'Lindqvist\u2019s central argument concerns where public '
+           '____________ goes.', None, 'attention',
            'She says explicitly that it is about attention, not about '
-           'whether recycling works.',
-           {0: 'She says the argument is not about whether recycling '
-               'works.', 2: 'Collection cost is not what she raises.', 3: 'She accepts the figures and argues about emphasis.'}),
+           'whether recycling works.'),
           ('Achebe\u2019s first objection is that',
            ['the arithmetic is wrong', 'households are where the public touches the system', 'demolition waste is already regulated', 'campaigns are ineffective'],
            1,
@@ -1568,12 +1550,12 @@ UNIT = dict(
            'the debate should be.',
            {0: 'He does not claim the effect is large.', 1: 'He calls the laboratory results real.', 3: 'He treats the question as worth debating, not '
                'irrelevant.'}),
-          ('What weaker version does Lindqvist now use?',
-           ['Recycling increases consumption', 'Believing the problem is solved reduces support for regulation', 'Households produce most waste', 'Campaigns waste money'],
-           1,
+          (
+           'The weaker version Lindqvist now uses is that believing '
+           'the problem is solved reduces support for ____________.',
+           None, 'regulation',
            'It does not need the experiment at all, which is why she '
-           'prefers it.',
-           {0: 'That is the strong version she has stopped using.', 2: 'She says households are a tenth of the problem.', 3: 'Campaign cost is not the version she keeps.'}),
+           'prefers it.'),
           ('Which policy do both speakers support?',
            ['Fines for contamination', 'Weekly food collections', 'Producer responsibility, priced properly', 'A ban on composite packaging'],
            2,

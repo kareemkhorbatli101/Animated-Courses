@@ -377,28 +377,22 @@ UNIT = dict(
          items=[
           (
            'What proportion of a typical bill is the wholesale cost of '
-           'energy?',
-           ['Sixteen per cent', 'Twenty-two per cent', 'Forty per cent', 'Over half'],
-           2,
-           'Networks take about twenty-two and levies about sixteen.',
-           {0: 'Sixteen per cent is the share taken by levies.', 1: 'Twenty-two per cent is the share taken by networks.', 3: 'Higher than the share she gives for wholesale energy.'}),
-          ('Rather over half of the levies fund',
-           ['insulation', 'contracts paying renewable generators', 'the warm home discount', 'network repairs'],
-           1,
+           'energy?', None, 'forty per cent',
+           'Networks take about twenty-two and levies about sixteen.'),
+          (
+           'Rather over half of the levies fund contracts paying '
+           '____________ generators.', None, 'renewable',
            'The rest funds the warm home discount, insulation and '
-           'social obligations.',
-           {0: 'Insulation is funded from the remainder of the levies.', 2: 'The warm home discount is part of the remainder.', 3: 'Network repairs are the separate twenty-two per cent.'}),
+           'social obligations.'),
           (
            'The speaker says calling the whole sixteen per cent '
-           'environmental is',
-           ['correct', 'wrong by about half', 'deliberately misleading', 'a recent change'],
-           1, 'Because a substantial part of it is social in purpose.',
-           {0: 'She says the description is wrong by about half.', 2: 'She does not accuse anybody of deliberate deception.', 3: 'No recent change in the levies is described.'}),
-          ('Her main point about who pays is that',
-           ['gas users pay most', 'the charge sits on the clean fuel', 'taxpayers pay', 'suppliers absorb it'],
-           1,
-           'The household doing the right thing pays for the policy.',
-           {0: 'Almost none of the charge sits on gas, she says.', 2: 'Taxation is one of the options she declines to choose.', 3: 'Suppliers\u2019 own costs are a separate part of the bill.'})]),
+           'environmental is wrong by about ____________.',
+           None, 'half',
+           'Because a substantial part of it is social in purpose.'),
+          (
+           'Her main point about who pays is that the charge sits on '
+           'the ____________ fuel.', None, 'clean',
+           'The household doing the right thing pays for the policy.')]),
     dict(heading='Two councillors disagree about levies', part='Part 3',
          task='A discussion after the meeting · multiple choice and matching', band='l3',
          qtype='Questions 25-29',
@@ -447,25 +441,21 @@ UNIT = dict(
           ('Marguerite', 'Give me a period you would accept and I will '
            'redraft it tonight.')],
          items=[
-          ('Jerzy accepts that moving levies to taxation is',
-           ['impossible', 'an improvement', 'irrelevant', 'too expensive'],
-           1,
+          (
+           'Jerzy accepts that moving levies to taxation is an '
+           '____________.', None, 'improvement',
            'Because taxpayers are a more progressive group than bill '
-           'payers.',
-           {0: 'He accepts the move as possible, if not simple.', 2: 'He treats it as a real improvement, not beside the '
-               'point.', 3: 'Cost to the Treasury is not his objection.'}),
-          ('His objection concerns',
-           ['the cost of capital for future projects', 'existing contracts being broken', 'the level of taxation', 'the speed of construction'],
-           0,
+           'payers.'),
+          (
+           'His objection concerns the cost of ____________ for future '
+           'projects.', None, 'capital',
            'Announcing a possible change raises it before anything is '
-           'legislated.',
-           {1: 'He says the existing contracts would be fine.', 2: 'The level of taxation is not what he raises.', 3: 'Construction speed is not part of his objection.'}),
-          ('What does he say he wants?',
-           ['No change', 'Change announced with a guarantee', 'A referendum', 'A review'],
-           1,
+           'legislated.'),
+          (
+           'He says he wants the change announced with a ____________.',
+           None, 'guarantee',
            'He calls the present arrangement indefensible and wants it '
-           'changed carefully rather than cleanly.',
-           {0: 'He calls the present arrangement indefensible.', 2: 'No referendum is suggested by either councillor.', 3: 'He wants a guarantee, not a review.'}),
+           'changed carefully rather than cleanly.'),
           (
            'Which of Marguerite\u2019s points does Jerzy say he cannot '
            'answer?',
@@ -737,31 +727,24 @@ UNIT = dict(
            'The frequency moves far enough that things disconnect to '
            'survive.',
            {0: 'Prices are not what he describes happening.', 2: 'Imports are a line he says barely moves.', 3: 'Storage discharge is not the consequence he names.'}),
-          ('The daily swing in demand on this chart is about',
-           ['10 GW', '20 GW', '26 GW', '46 GW'], 1,
-           'From twenty-six at four in the morning to forty-six at '
-           'four in the afternoon.',
-           {0: 'Smaller than the swing he describes.', 2: 'Twenty-six is the overnight trough, not the swing.', 3: 'Forty-six is the afternoon peak, not the swing.'}),
           (
-           'What does the engineer say the real problem with '
-           'renewables is?',
-           ['They are unpredictable', 'They are predictably in the wrong place in time', 'They are expensive', 'They are too small'],
-           1,
+           'The daily swing in demand on this chart is about '
+           '____________ GW.', None, '20',
+           'From twenty-six at four in the morning to forty-six at '
+           'four in the afternoon.'),
+          (
+           'The engineer says renewables are predictably in the wrong '
+           '____________ in time.', None, 'place',
            'He explicitly corrects the assumption about '
-           'unpredictability.',
-           {0: 'He corrects this assumption explicitly.', 2: 'Cost is not his subject in the control room.', 3: 'Size is not what he says the problem is.'}),
-          ('Why can solar not contribute to the winter evening peak?',
-           ['Panels are too few', 'There is no sun at that hour', 'The grid cannot take it', 'Storage is full'],
-           1, 'No quantity multiplied by zero helps, as he puts it.',
-           {0: 'He says no installed capacity would help.', 2: 'Grid capacity is not the limit he names.', 3: 'Storage is the line he says must grow, not the '
-               'obstacle.'}),
-          ('The two services gas provides are energy and',
-           ['frequency', 'the ability to change output quickly', 'voltage', 'reserve capacity'],
-           1,
-           'The area under the curve and the steepness of the curve.',
-           {0: 'Frequency is what he keeps steady, not a service gas '
-               'sells.', 2: 'Voltage is not among the two services he names.', 3: 'Reserve capacity is part of being there, not the '
-               'second service.'}),
+           'unpredictability.'),
+          (
+           'Solar cannot contribute to the winter evening peak because '
+           'there is no ____________ at that hour.', None,
+           'sun', 'No quantity multiplied by zero helps, as he puts it.'),
+          (
+           'The two services gas provides are energy and the ability '
+           'to change ____________ quickly.', None, 'output',
+           'The area under the curve and the steepness of the curve.'),
           ('He says the hard part of decarbonising electricity is',
            ['generating the energy', 'building the wires', 'changing output quickly at the peak', 'the cost'],
            2,
@@ -1064,34 +1047,31 @@ UNIT = dict(
            'three sentences at once and you will be better informed than '
            'almost everybody arguing about this in public.')],
          items=[
-          ('Why does the lecturer ban the word storage on its own?',
-           ['It is imprecise about cost', 'It names three unrelated problems', 'It is a marketing term', 'It excludes hydrogen'],
-           1, 'Hours, days and seasons, which he treats separately.',
-           {0: 'Imprecision about cost follows from the confusion, not '
-               'the ban.', 2: 'He treats it as a careless habit, not a marketing '
-               'term.', 3: 'Hydrogen is one of the candidates he names.'}),
+          (
+           'He bans the word storage on its own because it names three '
+           '____________ problems.', None, 'unrelated',
+           'Hours, days and seasons, which he treats separately.'),
           (
            'What does he say about claims that storage costs are '
            'collapsing?',
            ['They are false', 'They are true of the four-hour problem only', 'They are true of all three', 'They are out of date'],
            1, 'True about problem one and nothing about the others.',
            {0: 'He says the claim is true of the first problem.', 2: 'He says it tells you nothing about the other two.', 3: 'The figures he quotes are current.'}),
-          ('For the multi-day problem he says the candidates',
-           ['do not exist', 'have not been demonstrated at scale', 'are too expensive to consider', 'are already built'],
-           1,
-           'Hydrogen, compressed air and long-duration flow batteries.',
-           {0: 'He names three candidates, so they exist.', 2: 'He calls the cost uncertain rather than prohibitive.', 3: 'None has been built at the scale required.'}),
-          ('Why is no battery a candidate for seasonal storage?',
-           ['The chemistry degrades', 'Cost scales with energy stored', 'The land requirement', 'Safety regulation'],
-           1, 'And the energy involved across a season is enormous.',
-           {0: 'Degradation is not the reason he gives.', 2: 'Land is not among the obstacles he names.', 3: 'Safety regulation is not mentioned.'}),
+          (
+           'For the multi-day problem he says the candidates have not '
+           'been demonstrated at ____________.', None,
+           'scale',
+           'Hydrogen, compressed air and long-duration flow batteries.'),
+          (
+           'No battery is a candidate for seasonal storage because '
+           'cost scales with energy ____________.', None,
+           'stored',
+           'And the energy involved across a season is enormous.'),
           (
            'A store built for a two-week wind drought might be used '
-           'fully',
-           ['every day', 'twice a decade', 'once a year', 'never'], 1,
+           'fully twice a ____________.', None, 'decade',
            'Which is why identical capital produces a different cost '
-           'per unit.',
-           {0: 'Daily use is the four-hour battery.', 2: 'More often than he says a drought store would run.', 3: 'It would be used, if rarely.'}),
+           'per unit.'),
           (
            'What does he say determines how often a storage asset '
            'runs?',
@@ -1409,10 +1389,10 @@ UNIT = dict(
            ['It is confidential', 'It states the limits and nobody reads it', 'It is revised annually', 'It excludes gas'],
            1, 'She accepts the criticism and adds this.',
            {0: 'The methodology is published, not confidential.', 2: 'Annual revision is not what she says about it.', 3: 'Gas is included in the comparison.'}),
-          ('The range of integration cost estimates is a factor of',
-           ['two', 'five', 'ten', 'twenty'], 3,
-           'Which Ingrassia calls embarrassing and also informative.',
-           {0: 'Far narrower than the range he reports.', 1: 'Still narrower than the factor he gives.', 2: 'Half the factor he names.'}),
+          (
+           'The range of integration cost estimates is a factor of '
+           '____________.', None, 'twenty',
+           'Which Ingrassia calls embarrassing and also informative.'),
           ('Ingrassia says integration cost is a property of',
            ['a technology', 'a system at a share', 'a country', 'a weather year'],
            1,

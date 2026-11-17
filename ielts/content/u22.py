@@ -212,24 +212,21 @@ UNIT = dict(
            'years.',
            {0: 'One grade up is the move people imagine rather than '
                'the best one.', 2: 'Management is not named as the direction that works.', 3: 'He is describing moves inside the organisation only.'}),
-          ('The commonest mistake with timing is',
-           ['applying too early', 'applying too late', 'applying too often', 'missing the closing date'],
-           1,
+          (
+           'The commonest mistake with timing is applying too '
+           '____________.', None, 'late',
            'An application by somebody who wants to leave reads '
-           'differently from one by somebody who wants to arrive.',
-           {0: 'Applying early is what he recommends, not the mistake.', 2: 'Frequency of applying is not what he warns about.', 3: 'Closing dates are not mentioned in the talk.'}),
-          ('Why do internal candidates lose to external ones?',
-           ['Lower ability', 'They assume the panel already knows them', 'Worse qualifications', 'Manager opposition'],
-           1,
+           'differently from one by somebody who wants to arrive.'),
+          (
+           'Internal candidates lose to external ones because they '
+           'assume the panel already ____________ them.',
+           None, 'knows',
            'He says it is almost never ability, and that they write '
-           'four lines.',
-           {0: 'He says it is almost never a matter of ability.', 2: 'Qualifications are not what his review of the reasons '
-               'found.', 3: 'Managers are not blamed anywhere in the talk.'}),
-          ('People who read their feedback are appointed next time at',
-           ['the same rate', 'nearly twice the rate', 'three times the rate', 'a lower rate'],
-           1, 'He calls this the single clearest number he has.',
-           {0: 'That would make the feedback worth nothing.', 2: 'Higher than the figure he calls his clearest number.', 3: 'Reading feedback raises the rate rather than lowering '
-               'it.'})])],
+           'four lines.'),
+          (
+           'People who read their feedback are appointed next time at '
+           'nearly ____________ the rate.', None, 'twice',
+           'He calls this the single clearest number he has.')])],
    speak=dict(
     part='Part 1', focus='Skills you have learned at work',
     intro=('Two or three sentences each. A job, a course or helping at home '
@@ -433,15 +430,13 @@ UNIT = dict(
                'cent.', 3: 'Adapting in place is the type nobody counts at all.'}),
           (
            'Completion for a qualification in a neighbouring field is '
-           'about',
-           ['forty per cent', 'sixty-five per cent', 'ninety per cent', 'unknown'],
-           1, 'And the people who finish usually move jobs.',
-           {0: 'Forty per cent is the full change of field.', 2: 'Ninety per cent is the fortnight course.', 3: 'He gives the figure plainly, so it is known.'}),
-          ('The best predictor of finishing a full change of field is',
-           ['ability', 'motivation', 'another earner in the household', 'previous qualifications'],
-           2,
-           'He says explicitly that it is not ability or motivation.',
-           {0: 'He says explicitly that it is not ability.', 1: 'He rules out motivation in the same sentence.', 3: 'Earlier qualifications are not among his predictors.'}),
+           'about ____________ per cent.', None,
+           'sixty-five', 'And the people who finish usually move jobs.'),
+          (
+           'The best predictor of finishing a full change of field is '
+           'another ____________ in the household.', None,
+           'earner',
+           'He says explicitly that it is not ability or motivation.'),
           ('Which type does nobody count?',
            ['Short courses', 'Neighbouring qualifications', 'Full changes', 'Adapting in the same job'],
            3,
@@ -485,42 +480,31 @@ UNIT = dict(
           ('Rosalind', 'Then I can report something before they lose interest, which is the actual constraint we are designing '
            'around.')],
          items=[
-          ('The completion rate for the two-year programme is',
-           ['thirty-eight per cent', 'sixty-five per cent', 'ninety per cent', 'not yet known'],
-           0,
+          (
+           'The completion rate for the two-year programme is '
+           '____________ per cent.', None, 'thirty-eight',
            'Which Rosalind expects will prompt the department to close '
-           'it.',
-           {1: 'Sixty-five per cent is the neighbouring qualification.', 2: 'Ninety per cent is the fortnight course.', 3: 'The figures have just come through, which is why they '
-               'meet.'}),
+           'it.'),
           (
            'Emeka says comparing it with fortnight courses is like '
-           'comparing',
-           ['two marathons', 'a marathon with a bus ride', 'two bus rides', 'a course with a job'],
-           1,
-           'His point is that the two populations are not comparable.',
-           {0: 'Two marathons would make the two courses comparable.', 2: 'Two bus rides would also make them comparable.', 3: 'The comparison he draws is between two courses.'}),
-          ('What does he say causes the dropout?',
-           ['Poor teaching', 'Surviving two years financially', 'Lack of interest', 'Difficult assessment'],
-           1,
+           'comparing a marathon with a ____________ ride.',
+           None, 'bus',
+           'His point is that the two populations are not comparable.'),
+          (
+           'He says the dropout is caused by surviving two years '
+           '____________.', None, 'financially',
            'Nobody leaves a fortnight course because of a rent '
-           'increase.',
-           {0: 'Teaching quality is not raised by either adviser.', 2: 'Interest is not what he says drives people out.', 3: 'Assessment difficulty is not mentioned in the '
-               'exchange.'}),
-          ('What does Rosalind point out about maintenance payments?',
-           ['They are too expensive', 'Nobody has tested them', 'They have failed before', 'The department forbids them'],
-           1,
+           'increase.'),
+          (
+           'Rosalind points out that nobody has ____________ '
+           'maintenance payments.', None, 'tested',
            'Which is why Emeka proposes a trial instead of a '
-           'programme.',
-           {0: 'Cost is the department\u2019s concern, not her objection '
-               'here.', 2: 'No earlier failure is reported, because none was '
-               'tried.', 3: 'No prohibition is mentioned by either adviser.'}),
-          ('Why do they add an interim report at twelve months?',
-           ['The funder requires it', 'Dropout happens early', 'The sample is small', 'To save money'],
-           1,
+           'programme.'),
+          (
+           'They add an interim report at twelve months because '
+           'dropout happens ____________.', None, 'early',
            'Most of it happens in the first four months, so an early '
-           'report is informative.',
-           {0: 'No funder requirement is mentioned in the exchange.', 2: 'The sample size is settled separately, at a hundred '
-               'each.', 3: 'The interim is for speed of evidence, not for economy.'})])],
+           'report is informative.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Change at work',
     longturn=[('The thing I had to learn was a new system for logging hospital '
@@ -789,11 +773,10 @@ UNIT = dict(
            'like have barely been done, and the people in those jobs have '
            'been telling us about it for a decade.')],
          items=[
-          ('The lecturer says the wrong question is',
-           ['which tasks are routine', 'will this job be automated', 'how fast machines improve', 'who pays for retraining'],
-           1, 'He proposes task composition as the right one.',
-           {0: 'Task composition is what he says the right question is '
-               'about.', 2: 'The speed of machine improvement is not his subject.', 3: 'Retraining costs are not discussed in the lecture.'}),
+          (
+           'The lecturer says the wrong question is whether this job '
+           'will be ____________.', None, 'automated',
+           'He proposes task composition as the right one.'),
           ('Which category do machines struggle with?',
            ['Routine manual', 'Routine cognitive', 'Non-routine', 'All three equally'],
            2,
@@ -808,19 +791,16 @@ UNIT = dict(
            'day.',
            {0: 'The plumber is the other hard-to-automate job, not the '
                'contrast.', 2: 'The warehouse picker is the most routine of the four.', 3: 'No teacher appears anywhere in the lecture.'}),
-          ('The inversion he describes is that',
-           ['machines do everything better', 'what is hard for humans is easy for machines', 'training predicts automation', 'small children learn faster'],
-           1,
+          (
+           'The inversion he describes is that what is hard for humans '
+           'is ____________ for machines.', None, 'easy',
            'And what a small child does without noticing remains very '
-           'difficult.',
-           {0: 'He says the opposite about faces and cluttered rooms.', 2: 'Training length predicts automation badly, which is '
-               'his example.', 3: 'How fast children learn is not the inversion he names.'}),
-          ('Automating eighty per cent of a job produces',
-           ['eight-tenths of a redundancy', 'a job with a different shape', 'no change', 'a new occupation'],
-           1,
+           'difficult.'),
+          (
+           'Automating eighty per cent of a job produces a job with a '
+           'different ____________.', None, 'shape',
            'And often a worse one, because what is left is the '
-           'exceptions all day.',
-           {0: 'He says that is exactly what you do not get.', 2: 'The job changes shape, so there is a change.', 3: 'No new occupation is created in his account.'}),
+           'exceptions all day.'),
           ('Where does he say policy attention should go?',
            ['Counting jobs lost', 'What the remaining work feels like', 'Training budgets', 'Machine capability'],
            1,
@@ -1119,29 +1099,21 @@ UNIT = dict(
                'totals.'}),
           (
            'In all four episodes, total employment twenty years later '
-           'was',
-           ['lower', 'the same', 'higher', 'not measured'], 2,
-           'Which he calls the optimists\u2019 case, and correct.',
-           {0: 'A fall is what the pessimists predicted and did not '
-               'happen.', 1: 'No episode left the total unchanged.', 3: 'He says the national statistics measured it in all '
-               'four.'}),
+           'was ____________.', None, 'higher',
+           'Which he calls the optimists\u2019 case, and correct.'),
           ('What happened to the displaced weavers?',
            ['They became factory hands', 'Many finished poorer', 'They moved abroad', 'They retrained'],
            1,
            'The new work came a generation later and went to other '
            'people\u2019s children.',
            {0: 'He says they did not become well-paid factory hands.', 2: 'Emigration is not part of his account of the weavers.', 3: 'No retraining is described in the weaving episode.'}),
-          ('How long did agricultural adjustment take?',
-           ['Ten years', 'About thirty years', 'Fifty years', 'A century'],
-           1, 'Which he points out is a working life.',
-           {0: 'Shorter than the period he calls a working life.', 2: 'Fifty years is the span of mechanised weaving.', 3: 'Longer than the figure he gives for agriculture.'}),
-          ('Office computerisation removed work that was',
-           ['manual and low-paid', 'cognitive and middle-paid', 'professional', 'seasonal'],
-           1,
-           'Clerks, typists and book-keeping, replaced at both ends.',
-           {0: 'Manual low-paid work was the earlier episodes, not '
-               'this one.', 2: 'Professional work is where some of the new jobs '
-               'appeared.', 3: 'Seasonal work is not part of the office episode.'}),
+          ('How long did agricultural adjustment take?', None,
+           'about thirty years',
+           'Which he points out is a working life.'),
+          (
+           'Office computerisation removed work that was cognitive and '
+           '____________.', None, 'middle-paid',
+           'Clerks, typists and book-keeping, replaced at both ends.'),
           ('His closing request is to ask whether a claim is about',
            ['the past or the future', 'totals or people', 'machines or software', 'one country or many'],
            1, 'Because the evidence differs for each.',

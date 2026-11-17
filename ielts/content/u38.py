@@ -225,13 +225,11 @@ UNIT = dict(
            {0: 'Understanding is her first question, not the commonest '
                'failure.', 1: 'Freedom to refuse is her second question.', 3: 'She singles out the third as sending back most '
                'studies.'}),
-          ('The commonest failure she names is',
-           ['missing signatures', 'an information sheet written too densely', 'inadequate insurance', 'a weak protocol'],
-           1,
+          (
+           'The commonest failure she names is an information sheet '
+           'written too ____________.', None, 'densely',
            'A sheet at the reading age of a journal article gives you '
-           'a signature, not consent.',
-           {0: 'Missing signatures are not what she describes.', 2: 'Insurance is not among the failures she names.', 3: 'She says safety and protocol are not the committee\u2019s '
-               'strength.'}),
+           'a signature, not consent.'),
           (
            'On recruiting your own students, she says the key question '
            'is',
@@ -450,27 +448,25 @@ UNIT = dict(
            'second paragraph of the paper and in no paragraph of the '
            'newspaper.')],
          items=[
-          ('The first question the speaker gives is',
-           ['how big is it', 'compared with what', 'who funded it', 'how many people'],
-           1,
+          (
+           'The first question the speaker gives is "compared with '
+           '____________?"', None, 'what',
            'Half the time the comparison group is missing from the '
-           'report.',
-           {0: 'How big is her second question, not her first.', 2: 'Funding is not among her four questions.', 3: 'Sample size is not one of the four.'}),
-          ('She says relative figures are reported because they are',
-           ['more accurate', 'larger', 'easier to calculate', 'standard'],
-           1, 'Not because they are more informative.',
-           {0: 'She says they are not more informative.', 2: 'Ease of calculation is not the reason she gives.', 3: 'She treats the practice as a choice, not a convention.'}),
+           'report.'),
+          (
+           'She says relative figures are reported because they are '
+           '____________.', None, 'larger',
+           'Not because they are more informative.'),
           ('Which question does she say is the most important?',
            ['Compared with what', 'How big', 'Assigned or observed', 'Adjusted or raw'],
            2,
            'It is the difference between a study that can support a '
            'headline and one that cannot.',
            {0: 'Compared with what is her first question.', 1: 'How big is her second question.', 3: 'Adjusted or raw is her fourth question.'}),
-          ('She calls the shrinkage from 25 to 9 per cent',
-           ['a rounding error', 'the most informative number', 'an adjustment error', 'a minor detail'],
-           1, 'And the one that most often goes missing from reports.',
-           {0: 'The shrinkage is real, not a rounding artefact.', 2: 'The adjustment is correct; it is the reporting that '
-               'fails.', 3: 'She calls it the most informative number in the story.'})]),
+          (
+           'She calls the shrinkage from 25 to 9 per cent the most '
+           '____________ number.', None, 'informative',
+           'And the one that most often goes missing from reports.')]),
     dict(heading='A scientist and a journalist disagree', part='Part 3',
          task='A conversation after a press briefing · multiple choice', band='l3',
          qtype='Questions 29-33',
@@ -527,29 +523,26 @@ UNIT = dict(
            1, 'She says the caution is in the fourth paragraph.',
            {0: 'She says the headline is not hers.', 2: 'The scientist objects to it, so did not approve it.', 3: 'No correction is mentioned in the exchange.'}),
           (
-           'What does the journalist criticise about the press '
-           'release?',
-           ['It was late', 'It led with the unadjusted figure', 'It omitted the sample size', 'It named no authors'],
-           1, 'Twenty-five per cent in the first line instead of nine.',
-           {0: 'Timing of the release is not her complaint.', 2: 'Sample size is not what she says was left out.', 3: 'Authorship is not raised in the exchange.'}),
+           'The journalist criticises the press release for leading '
+           'with the ____________ figure.', None,
+           'unadjusted',
+           'Twenty-five per cent in the first line instead of nine.'),
           ('How does the scientist respond to that?',
            ['She disputes it', 'She accepts it and says it is not a defence', 'She blames the journal', 'She asks for a correction'],
            1,
            'The press office writes them and they are signed off '
            'without careful reading.',
            {0: 'She accepts the criticism at once.', 2: 'The journal is not blamed by either speaker.', 3: 'No correction is requested by either.'}),
-          ('What does the journalist ask to be given?',
-           ['An interview', 'The baseline risk in actual numbers', 'An embargo', 'The raw data'],
-           1, 'Four in a thousand becoming three in a thousand.',
-           {0: 'An interview is not what she asks for.', 2: 'No embargo is discussed in the exchange.', 3: 'Raw data is not what she requests.'}),
           (
-           'Why does she want the caveat in the same sentence as the '
-           'number?',
-           ['It is shorter', 'Cutting it would break the sentence', 'It is required', 'Editors prefer it'],
-           1,
+           'The journalist asks to be given the baseline risk in '
+           'actual ____________.', None, 'numbers',
+           'Four in a thousand becoming three in a thousand.'),
+          (
+           'She wants the caveat in the same sentence because cutting '
+           'it would ____________ the sentence.', None,
+           'break',
            'Caveats survive when they are load-bearing, as she puts '
-           'it.',
-           {0: 'Length is not her reason for wanting it there.', 2: 'No requirement obliges her to carry it.', 3: 'Editor preference is what she is working around.'})])],
+           'it.')])],
    speak=dict(
     part='Part 1 into Part 2', focus='Claims',
     longturn=[('The thing I was told that turned out to be wrong is that you '
@@ -825,29 +818,28 @@ UNIT = dict(
            'causal claim.',
            {0: 'Boxes one and two are recruitment and screening.', 1: 'Box three is consent, which he groups with '
                'recruitment.', 3: 'Boxes seven and eight are follow-up and analysis.'}),
-          ('What do recruitment, screening and consent determine?',
-           ['Whether the result is true', 'Whether the result applies to others', 'The size of the effect', 'The analysis plan'],
-           1, 'He insists the two questions be kept apart.',
-           {0: 'He says they matter not at all for whether it is true.', 2: 'Effect size is a result, not what these boxes settle.', 3: 'The analysis plan belongs to the last box.'}),
-          ('The purpose of random allocation is that the groups',
-           ['are equal in size', 'are fairly treated', 'differ only by chance in everything', 'can be compared statistically'],
-           2, 'Including things not measured and not yet discovered.',
-           {0: 'Equal group sizes are not the purpose he gives.', 1: 'He says explicitly that the purpose is not fairness.', 3: 'Statistical comparison follows from the design, not '
-               'its purpose.'}),
-          ('Concealment fails when',
-           ['a clinician guesses the next assignment', 'the assessor knows which arm they are measuring', 'consent is taken too early', 'the schedule differs'],
-           1, 'And rounds in the hopeful direction, as he puts it.',
-           {0: 'A clinician guessing the next assignment is how '
-               'allocation fails.', 2: 'Consent timing is not part of either failure.', 3: 'An unequal schedule is a separate fault, in box six.'}),
+          (
+           'Recruitment, screening and consent determine whether the '
+           'result ____________ to others.', None, 'applies',
+           'He insists the two questions be kept apart.'),
+          (
+           'The purpose of random allocation is that the groups differ '
+           'only by ____________ in everything.', None,
+           'chance',
+           'Including things not measured and not yet discovered.'),
+          (
+           'Concealment fails when the assessor knows which '
+           '____________ they are measuring.', None, 'arm',
+           'And rounds in the hopeful direction, as he puts it.'),
           ('Why must the visit schedule be identical in both arms?',
            ['To reduce cost', 'Otherwise you test treatment plus attention', 'To satisfy the ethics committee', 'To keep participants'],
            1, 'Which is not what is on the label.',
            {0: 'Cost is not the reason he gives.', 2: 'The ethics committee is not mentioned in this lecture.', 3: 'Retention is a separate issue, in box seven.'}),
-          ('His reason for pre-specifying the analysis is',
-           ['ethical', 'arithmetic', 'legal', 'historical'], 1,
+          (
+           'His reason for pre-specifying the analysis is '
+           '____________.', None, 'arithmetic',
            'Many defensible analyses exist, and choosing after seeing '
-           'the answers means running many studies.',
-           {0: 'He distinguishes his reason from virtue.', 2: 'No legal requirement is mentioned.', 3: 'History is not the ground he gives.'})])],
+           'the answers means running many studies.')])],
    speak=dict(
     part='Part 3', focus='Showing that something works',
     intro=('Four or five sentences. Try to use one of the unit’s '
@@ -1149,19 +1141,14 @@ UNIT = dict(
          items=[
           (
            'Typical statistical power in published psychology is '
-           'around',
-           ['twenty per cent', 'fifty per cent', 'eighty per cent', 'ninety per cent'],
-           1,
-           'A coin flip decides whether a study finds a real effect.',
-           {0: 'Lower than the figure the surveys give.', 2: 'Higher than typical published power, he says.', 3: 'Far above the level he reports.'}),
+           'around ____________ per cent.', None, 'fifty',
+           'A coin flip decides whether a study finds a real effect.'),
           ('In his thought experiment, how many hypotheses are true?',
-           ['Half', 'Most', 'All', 'None'], 2,
-           'And half the studies still find nothing.',
-           {0: 'Half is the power, not the share of true hypotheses.', 1: 'He stipulates every one, not most.', 3: 'The experiment assumes all of them are true.'}),
-          ('Published estimates are drawn from',
-           ['a random sample', 'the upper half of a distribution', 'replications', 'pilot studies'],
-           1, 'Because only the studies that got lucky are published.',
-           {0: 'A random sample is what publication prevents.', 2: 'Replications come after, and fail more often.', 3: 'Pilot studies are not part of his account.'}),
+           None, 'all', 'And half the studies still find nothing.'),
+          (
+           'Published estimates are drawn from the ____________ half '
+           'of a distribution.', None, 'upper',
+           'Because only the studies that got lucky are published.'),
           ('He says four in ten replications succeeding is',
            ['a scandal', 'what the machine outputs normally', 'evidence of fraud', 'better than expected'],
            1,
@@ -1169,12 +1156,11 @@ UNIT = dict(
            'effect.',
            {0: 'He says explicitly that it is not a scandal.', 2: 'He argues that fraud is almost always the wrong word.', 3: 'It is what the arithmetic predicts, not a surprise.'}),
           (
-           'About choices made after seeing data, he is careful to say',
-           ['they are fraud', 'the word fraud is almost always wrong', 'they are rare', 'they are undetectable'],
-           1,
+           'About choices made after seeing data, he says the word '
+           '____________ is almost always wrong.', None,
+           'fraud',
            'Researchers run many studies while sincerely believing '
-           'they ran one.',
-           {0: 'He says the word fraud is almost always wrong here.', 2: 'He treats such choices as routine rather than rare.', 3: 'Detectability is not the point he makes.'}),
+           'they ran one.'),
           ('Because the problem is arithmetic, the remedy he names is',
            ['audits and sanctions', 'bigger samples, pre-registration and null results', 'fewer studies', 'replication projects'],
            1,
@@ -1500,12 +1486,12 @@ UNIT = dict(
            ['the size of the sample', 'where the effect should and should not work', 'the measurement instrument', 'the follow-up period'],
            1, 'It works where the sense of not belonging is acute.',
            {0: 'Sample size is not what the 2011 paper predicted.', 2: 'The instrument is not the subject of the prediction.', 3: 'Follow-up length is not what was predicted.'}),
-          ('Why did Adeyemi-Strand not design around the moderator?',
-           ['He disagreed with it', 'It would have cost three times as much', 'He was unaware of it', 'The schools refused'],
-           1,
+          (
+           'Adeyemi-Strand did not design around the moderator because '
+           'it would have cost ____________ times as much.',
+           None, 'three',
            'He calls it a resource constraint, separating it from any '
-           'disagreement.',
-           {0: 'He says it is not a disagreement at all.', 2: 'He says he knew about the 2011 paper.', 3: 'School refusal is not mentioned.'}),
+           'disagreement.'),
           ('What does he call the hardest point for her?',
            ['The sample size', 'That subgroup findings have rescued false results before', 'The cost', 'The materials'],
            1,

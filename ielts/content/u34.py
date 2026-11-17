@@ -198,12 +198,11 @@ UNIT = dict(
            'way, and if it fails you are refusing on grounds you can now '
            'actually demonstrate.')],
          items=[
-          ('The first mistake the trainer describes is',
-           ['refusing too quickly', 'deciding before the consultation', 'failing to keep records', 'consulting too many people'],
-           1,
+          (
+           'The first mistake the trainer describes is ____________ '
+           'before the consultation.', None, 'deciding',
            'He says a meeting held as a formality becomes evidence '
-           'against the manager.',
-           {0: 'Speed of refusal is not his first mistake.', 2: 'Record-keeping is not among the three mistakes.', 3: 'The number of people consulted is not his concern.'}),
+           'against the manager.'),
           ('Which reason would not be a valid ground for refusal?',
            ['Additional costs', 'An effect on quality', 'It would set a precedent', 'Inability to reorganise work'],
            2,
@@ -211,20 +210,16 @@ UNIT = dict(
            'managerial without being on the list.',
            {0: 'Additional costs is one of the eight statutory '
                'grounds.', 1: 'An effect on quality is a statutory ground.', 3: 'Inability to reorganise work is a statutory ground.'}),
-          ('The two-month period runs from',
-           ['the date of the meeting', 'a valid request', 'the manager reading it', 'the appeal decision'],
-           1,
+          ('The two-month period runs from a ____________ request.',
+           None, 'valid',
            'Not from when you got round to looking at it, which is his '
-           'phrasing.',
-           {0: 'He says explicitly not from the meeting.', 2: 'He says not from when the manager got round to it.', 3: 'An appeal comes after the decision, not before the '
-               'clock.'}),
+           'phrasing.'),
           (
-           'What does the trainer recommend where a manager is uneasy?',
-           ['An immediate refusal', 'A time-limited trial with a review date', 'Referring it upwards', 'A second consultation'],
-           1,
+           'Where a manager is uneasy the trainer recommends a '
+           'time-limited ____________ with a review date.',
+           None, 'trial',
            'Because it is rarely appealed and produces evidence either '
-           'way.',
-           {0: 'He says refusal is not the most effective response.', 2: 'Referring it upwards is not what he recommends.', 3: 'A second consultation is not his suggestion.'})])],
+           'way.')])],
    speak=dict(
     part='Part 1', focus='How you spend your working week',
     intro=('Two or three sentences. The examiner is establishing a baseline '
@@ -445,19 +440,16 @@ UNIT = dict(
            'is about whether a decision is reversible.'),
           ('Idris', 'Which is how I should have put it an hour ago.')],
          items=[
-          ('Idris describes the promotion as more money and',
-           ['more travel', 'more meetings', 'more responsibility', 'more hours'],
-           1,
+          (
+           'Idris describes the promotion as more money and more '
+           '____________.', None, 'meetings',
            'Twenty per cent more money and about eighty per cent more '
-           'meetings, which he calls arithmetic and not modesty.',
-           {0: 'Travel is not mentioned in his description.', 2: 'Responsibility is implied but not the figure he gives.', 3: 'He gives meetings rather than hours as the cost.'}),
-          ('What does Idris say about Dagmar\u2019s argument?',
-           ['It is about the work', 'It is about the structure, not the work', 'It is about money', 'It is about status'],
-           1,
+           'meetings, which he calls arithmetic and not modesty.'),
+          (
+           'Idris says Dagmar\u2019s argument is about the ____________, '
+           'not the work.', None, 'structure',
            'She is not saying the job is good; she is saying refusal '
-           'is expensive later.',
-           {0: 'He says she is not claiming the job is good.', 2: 'Money is his own calculation, not her argument.', 3: 'Status appears later, in his own account of the '
-               'choice.'}),
+           'is expensive later.'),
           (
            'Which of Dagmar\u2019s points does Idris concede is her best?',
            ['That he will be managed by juniors', 'That he might be good at it', 'That the money matters', 'That people step back'],
@@ -465,13 +457,11 @@ UNIT = dict(
            'He says he is assuming something he has no evidence for.',
            {0: 'Being managed by juniors is the point that worries '
                'him.', 2: 'Money is his own arithmetic, not her best point.', 3: 'He doubts that people step back without cost.'}),
-          ('Why does Idris doubt he could step back later?',
-           ['The pay would not return', 'It would be read as a failure', 'The role would be filled', 'He would lose his team'],
-           1,
+          (
+           'Idris doubts he could step back later because it would be '
+           'read as a ____________.', None, 'failure',
            'He has never seen anyone do it voluntarily in eleven '
-           'years.',
-           {0: 'Pay is not the obstacle he identifies.', 2: 'The role being filled is not what he raises.', 3: 'Losing the team is a cost of refusing, not of stepping '
-               'back.'}),
+           'years.'),
           ('What do they agree the question really concerns?',
            ['Ambition', 'Money', 'Whether a decision is reversible', 'The quality of management'],
            2,
@@ -781,12 +771,12 @@ UNIT = dict(
            'case there are four, and the one everybody picks is the weakest of '
            'them.')],
          items=[
-          ('The lecturer says the relationship on the chart is',
-           ['weak but visible', 'tight enough not to need a regression', 'different each year', 'reversed since last year'],
-           1,
+          (
+           'The lecturer says the relationship on the chart is tight '
+           'enough not to need a ____________.', None,
+           'regression',
            'The points fall almost on a straight line sloping '
-           'downwards.',
-           {0: 'He calls the relationship tight, not weak.', 2: 'The chart is the same each year; the answers are not.', 3: 'No reversal is described.'}),
+           'downwards.'),
           (
            'What does he ask students to do before proposing a policy?',
            ['Check the data source', 'Ask what else could produce the picture', 'Compare more countries', 'Run a regression'],
@@ -794,19 +784,15 @@ UNIT = dict(
            'Because a correlation is consistent with several arrows.',
            {0: 'The data source is not what he questions.', 2: 'More countries is not the step he asks for first.', 3: 'He says a regression is not needed to see it.'}),
           (
-           'In the lecturer\u2019s preferred explanation, output per hour '
-           'is mostly determined by',
-           ['hours worked', 'capital, sector mix and education', 'working culture', 'legislation'],
-           1,
+           'In his preferred explanation, output per hour is mostly '
+           'determined by capital, sector mix and ____________.',
+           None, 'education',
            'And a country with those things is also rich, which is '
-           'where the leisure argument enters.',
-           {0: 'Hours are what the chart plots against output, not the '
-               'cause.', 2: 'Working culture is not part of his explanation.', 3: 'Legislation is what he says cannot produce the effect.'}),
-          ('He describes leisure in rich countries as',
-           ['a luxury', 'a normal good', 'a policy choice', 'an unmeasured cost'],
-           1, 'As income rises people buy more of it, so hours fall.',
-           {0: 'A luxury good would be bought less as income rises.', 2: 'Leisure here is a purchase, not a policy.', 3: 'He treats leisure as measurable demand, not a hidden '
-               'cost.'}),
+           'where the leisure argument enters.'),
+          (
+           'He describes leisure in rich countries as a ____________ '
+           'good.', None, 'normal',
+           'As income rises people buy more of it, so hours fall.'),
           (
            'In which fields does he say fatigue effects are well '
            'established?',
@@ -815,9 +801,8 @@ UNIT = dict(
            {0: 'Retail and catering are not among the fields he names.', 2: 'Agriculture and construction are not his examples.', 3: 'Education and research are not mentioned.'}),
           (
            'How many arrows does the lecturer say could produce the '
-           'picture?', ['Two', 'Three', 'Four', 'Six'], 2,
-           'And the one everybody picks is the weakest of them.',
-           {0: 'Fewer than the arrows he counts.', 1: 'Still fewer than the number he gives.', 3: 'Six is the number of countries, not of arrows.'})])],
+           'picture?', None, 'four',
+           'And the one everybody picks is the weakest of them.')])],
    speak=dict(
     part='Part 3', focus='Hours, output and comparison',
     intro=('Four or five sentences. These questions invite a causal claim, so '
@@ -1134,13 +1119,11 @@ UNIT = dict(
            'of the public argument is currently taking place.')],
          items=[
           (
-           'What does the lecturer say is genuinely impressive about '
-           'the literature?',
-           ['The size of the samples', 'That they are real organisations', 'The length of the trials', 'The independence of the researchers'],
-           1,
+           'What is genuinely impressive about the literature is that '
+           'they are real ____________.', None,
+           'organisations',
            'Real organisations, not laboratories, with measures '
-           'collected over months.',
-           {0: 'Sample size is part of what he goes on to criticise.', 2: 'Six months is what he calls too short.', 3: 'Researcher independence is not what he praises.'}),
+           'collected over months.'),
           ('The three conditions for volunteering do not include',
            ['belief that it will work', 'work that can be compressed', 'a large workforce', 'enough slack to experiment publicly'],
            2,
@@ -1152,17 +1135,15 @@ UNIT = dict(
            1,
            'Any operation where output is a function of hours present.',
            {0: 'Finance and law are office-based and well represented.', 2: 'Retail and hospitality are not the examples he gives.', 3: 'Education and research are not named.'}),
-          ('On measurement, the lecturer is careful to say that',
-           ['the data were falsified', 'nobody lied', 'the measures were objective', 'the samples were too small'],
-           1,
+          (
+           'On measurement, the lecturer is careful to say that nobody '
+           '____________.', None, 'lied',
            'He says enthusiasm moves a self-reported measure without '
-           'anyone lying.',
-           {0: 'He says explicitly that nobody lied.', 2: 'He says the measures are soft, not objective.', 3: 'Sample size is a separate point about sectors.'}),
-          ('Organisations followed for two years or more show',
-           ['larger effects', 'attenuated effects', 'no effects', 'reversed effects'],
-           1,
-           'Though he adds there are too few of them to conclude from.',
-           {0: 'Larger effects are what the six-month trials report.', 2: 'He reports smaller effects, not none.', 3: 'No reversal is reported in the longer studies.'}),
+           'anyone lying.'),
+          (
+           'Organisations followed for two years or more show '
+           '____________ effects.', None, 'attenuated',
+           'Though he adds there are too few of them to conclude from.'),
           ('The claim the lecturer says survives is that',
            ['shorter weeks always work', 'organisations suited to it usually find it works', 'shorter weeks reduce output', 'more research is needed'],
            1,
@@ -1481,18 +1462,16 @@ UNIT = dict(
            'which is a more honest place to be standing than where this debate '
            'usually is.')],
          items=[
-          ('Haldorsen argues that the evidence is held to a standard',
-           ['lower than usual', 'applied nowhere else', 'set by regulators', 'used in medicine'],
-           1,
+          (
+           'Haldorsen argues that the evidence is held to a standard '
+           'applied ____________ else.', None, 'nowhere',
            'He compares it with workplace safety, where he says we '
-           'would have legislated five years ago.',
-           {0: 'He says the standard is higher here, not lower.', 2: 'Regulators are who he says would have acted already.', 3: 'Workplace safety is his comparison, not medicine.'}),
-          ('Mbeki\u2019s objection is that a mandate applies to',
-           ['small firms', 'volunteers', 'a different population', 'future employers'],
-           2,
+           'would have legislated five years ago.'),
+          (
+           'Mbeki\u2019s objection is that a mandate applies to a different '
+           '____________.', None, 'population',
            'We have evidence about volunteers, and he says that is not '
-           'a technicality.',
-           {0: 'Firm size is not his objection.', 1: 'Volunteers are who the evidence covers.', 3: 'Future employers are not the population he names.'}),
+           'a technicality.'),
           ('Mbeki says he has no objection if the policy is',
            ['require', 'permit and encourage', 'subsidise', 'delay'], 1,
            'He draws the line precisely at the difference between '
@@ -1512,12 +1491,11 @@ UNIT = dict(
            2, 'He names residential care and continuous manufacturing.',
            {0: 'More software studies are what he says would add '
                'least.', 1: 'A longer trial is a different gap he also names.', 3: 'A government pilot is not what he specifies.'}),
-          ('What do the two agree they are really disagreeing about?',
-           ['Evidence', 'Risk', 'Definitions', 'Timing'], 1,
+          (
+           'The two agree they are really disagreeing about '
+           '____________.', None, 'risk',
            'Haldorsen says the balance of risk favours acting; Mbeki '
-           'calls that a more honest place to stand.',
-           {0: 'They end up agreeing about what the evidence shows.', 2: 'Definitions are not what divides them.', 3: 'Timing follows from the risk judgement, not the '
-               'reverse.'})])],
+           'calls that a more honest place to stand.')])],
    speak=dict(
     part='Part 3', focus='Evidence, risk and acting without proof',
     sounds=[('Comparison carries its stress on the term being compared, not on '

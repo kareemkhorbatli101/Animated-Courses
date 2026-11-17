@@ -211,14 +211,11 @@ UNIT = dict(
          items=[
           (
            'The trainer says households reached on a Tuesday afternoon '
-           'are',
-           ['a random selection', 'easier to interview', 'a particular kind of household', 'the most useful group'],
-           2,
+           'are a particular ____________ of household.',
+           None, 'kind',
            'He lists them: older people, people at home, people not '
            'working, people with young children. The point is that '
-           'they are not random.',
-           {0: 'He says explicitly that they are not a random '
-               'selection.', 1: 'Ease of interviewing is not the point he makes.', 3: 'The sixth call reaches the most valuable households.'}),
+           'they are not random.'),
           ('Which calls bring in commuters?',
            ['Weekend calls', 'Evening calls', 'The sixth call', 'Afternoon calls'],
            1,
@@ -233,12 +230,10 @@ UNIT = dict(
            'you but are counted identically.',
            {0: 'He says a bad interview is noise pretending to be '
                'data.', 2: 'No marking for checking is mentioned in the talk.', 3: 'He says to record the refusal and move on.'}),
-          ('A clean refusal is described as',
-           ['a failure', 'noise', 'data', 'a call-back'], 2,
+          ('A clean refusal is described as ____________.', None,
+           'data',
            'It tells us the shape of who is missing, which is why he '
-           'calls it data, not a failure.',
-           {0: 'He calls a clean refusal informative rather than a '
-               'failure.', 1: 'Noise is what a reluctant interview produces.', 3: 'A call-back is what precedes a refusal.'})])],
+           'calls it data, not a failure.')])],
    speak=dict(
     part='Part 1', focus='Numbers and surveys',
     intro=('Part 1 answers stay short. Two or three sentences: answer, then '
@@ -486,22 +481,17 @@ UNIT = dict(
            {0: 'The reporter accepts the figure itself as correct.', 2: 'Sample size is not raised by either journalist.', 3: 'The reporter wants a different story, not a duller '
                'one.'}),
           (
-           'Why does the reporter call the eleven-point gap the most '
-           'reliable number?',
-           ['It is the largest', 'It comes from a bigger sample', 'It is a comparison within one survey', 'It was checked independently'],
-           2,
+           'The reporter calls the eleven-point gap the most reliable '
+           'number because it is a comparison within one ____________.',
+           None, 'survey',
            'Both measurements come from the same survey on the same '
-           'measure, so the bias affects both sides equally.',
-           {0: 'Size of the figure is not why she trusts it.', 1: 'Both figures come from the same survey, not a larger '
-               'one.', 3: 'No independent check is mentioned.'}),
+           'measure, so the bias affects both sides equally.'),
           (
-           'What does the reporter mean by the gap survives the '
-           'flattery?',
-           ['People exaggerate in both districts equally', 'The gap is too large to be an error', 'The survey corrected for exaggeration', 'Richer districts exaggerate more'],
-           0,
+           'By the gap surviving the flattery the reporter means '
+           'people exaggerate in both districts ____________.',
+           None, 'equally',
            'People overstate their exercise in both districts, so the '
-           'difference between them is unaffected.',
-           {1: 'Size is not what makes the gap survive.', 2: 'No correction for exaggeration is described.', 3: 'The point is that both districts exaggerate alike.'}),
+           'difference between them is unaffected.'),
           (
            'What is the reporter\u2019s practical argument against the '
            'headline?',
@@ -828,39 +818,31 @@ UNIT = dict(
          items=[
           (
            'The lecturer says the school rule about starting at zero '
-           'is',
-           ['always correct', 'correct about half the time', 'a matter of taste', 'out of date'],
-           1,
+           'is correct about ____________ the time.', None,
+           'half',
            'Right about half the time and wrong in a way nobody '
-           'explains, which is the structure of the whole lecture.',
-           {0: 'He says the rule is wrong about half the time.', 2: 'He says explicitly that it is not a matter of taste.', 3: 'Age is not what he says is wrong with the rule.'}),
-          ('Why must bar charts start at zero?',
-           ['Bars are read as area', 'Bars are harder to draw', 'Readers expect it', 'Bars show change'],
-           0,
+           'explains, which is the structure of the whole lecture.'),
+          (
+           'Bar charts must start at zero because bars are read as '
+           '____________.', None, 'area',
            'A bar twice as tall reads as twice as much, because that '
-           'is what a bar is for.',
-           {1: 'Ease of drawing is not part of his argument.', 2: 'Reader expectation is not the reason he gives.', 3: 'Lines show change; bars show quantity.'}),
-          ('In the temperature example, a zero baseline would',
-           ['exaggerate the fever', 'conceal the fever', 'make the chart unreadable', 'require a second axis'],
-           1,
+           'is what a bar is for.'),
+          (
+           'In the temperature example, a zero baseline would '
+           '____________ the fever.', None, 'conceal',
            'A perfectly flat line across the page, having concealed '
-           'the fever.',
-           {0: 'Cutting the axis is what would exaggerate it.', 2: 'The chart would be readable and flat, which is the '
-               'problem.', 3: 'No second axis is discussed in the lecture.'}),
-          ('The lecturer concludes that the axis should match',
-           ['the size of the page', 'what the reader is asked to compare', 'the convention in the field', 'the largest value'],
-           1,
+           'the fever.'),
+          (
+           'The lecturer concludes that the axis should match what the '
+           'reader is asked to ____________.', None,
+           'compare',
            'Bars compare quantities and start at zero; lines compare '
-           'change and start where the change is legible.',
-           {0: 'Page size is not part of the rule he gives.', 2: 'He argues against following convention unexamined.', 3: 'The largest value sets the top, not the basis of '
-               'comparison.'}),
-          ('A count presented without its denominator is described as',
-           ['an error', 'already a claim about cause', 'incomplete data', 'the usual practice'],
-           1,
+           'change and start where the change is legible.'),
+          (
+           'A count presented without its ____________ is already a '
+           'claim about cause.', None, 'denominator',
            'Because counts rise with population, so presenting the '
-           'count alone implies the rise belongs to the thing counted.',
-           {0: 'He does not call it an error, but a claim.', 2: 'The data may be complete; the basis is the problem.', 3: 'He is arguing against the usual practice, not '
-               'describing it.'}),
+           'count alone implies the rise belongs to the thing counted.'),
           (
            'What does the lecturer want students to do if they have '
            'cut an axis?',
@@ -1194,12 +1176,10 @@ UNIT = dict(
          items=[
           (
            'The lecturer says the random selection condition is a '
-           'statement about',
-           ['the people in the sample', 'the procedure used', 'the size of the population', 'the questions asked'],
-           1,
+           'statement about the ____________ used.', None,
+           'procedure',
            'And he draws the consequence: you cannot inspect a '
-           'finished sample and tell whether it was randomly drawn.',
-           {0: 'He says you cannot tell from the people in the sample.', 2: 'Population size is what barely enters the arithmetic.', 3: 'The questions are not what the condition concerns.'}),
+           'finished sample and tell whether it was randomly drawn.'),
           (
            'Matching a sample to the population on age, sex and region '
            'tells you nothing unless',
@@ -1208,12 +1188,12 @@ UNIT = dict(
            'That is the exact condition he gives, and it almost never '
            'holds.',
            {0: 'Size is not the condition he attaches to weighting.', 2: 'Response rate matters, but is not the condition here.', 3: 'Repetition would reproduce the same bias.'}),
-          ('According to the lecturer, survey respondents tend to be',
-           ['younger than average', 'wealthier than average', 'more trusting of institutions', 'better educated'],
-           2,
+          (
+           'According to the lecturer, survey respondents tend to be '
+           'more ____________ of institutions.', None,
+           'trusting',
            'He lists more joiners, more trusting of institutions, more '
-           'likely to have time. Education is not mentioned.',
-           {0: 'Age is not among the traits he lists.', 1: 'Wealth is not one of the respondent traits he names.', 3: 'Education is not mentioned in the lecture.'}),
+           'likely to have time. Education is not mentioned.'),
           ('Which number does the lecturer say to look for first?',
            ['The sample size', 'The margin of error', 'The response rate', 'The fieldwork dates'],
            2,
@@ -1221,12 +1201,11 @@ UNIT = dict(
            'from a six per cent one, whatever the sample size.',
            {0: 'Sample size is the figure he says is almost never the '
                'problem.', 1: 'The margin of error measures the smaller uncertainty.', 3: 'Fieldwork dates are not what he tells you to look for.'}),
-          ('The margin of error describes',
-           ['all sources of uncertainty', 'sampling variability only', 'non-response', 'the weighting applied'],
-           1,
+          (
+           'The margin of error describes ____________ variability '
+           'only.', None, 'sampling',
            'And he adds that the sources it does not measure are '
-           'usually larger.',
-           {0: 'He says it measures one source only.', 2: 'Non-response is exactly what it does not describe.', 3: 'Weighting is not what the margin measures.'}),
+           'usually larger.'),
           (
            'What does the lecturer say the alternative to a well-run '
            'survey is?',
@@ -1533,13 +1512,12 @@ UNIT = dict(
            'anything else either of us has proposed and it would do more than '
            'all of it.')],
          items=[
-          ('What is Okonkwo\u2019s main criticism of the industry?',
-           ['It uses samples that are too small', 'It keeps solving the previous failure', 'It refuses to publish its methods', 'It relies on telephone directories'],
-           1,
+          (
+           'Okonkwo\u2019s main criticism is that the industry keeps '
+           'solving the ____________ failure.', None,
+           'previous',
            'Each fix was correct and each left the underlying '
-           'vulnerability intact.',
-           {0: 'Sample size is not his criticism of the industry.', 2: 'He does not accuse the industry of hiding its methods.', 3: 'Telephone directories are the 1936 frame, one fix '
-               'among many.'}),
+           'vulnerability intact.'),
           ('Vasquez argues that the error in polling is',
            ['unknowable', 'growing rapidly', 'bounded and roughly known', 'caused by weighting'],
            2,
@@ -1547,12 +1525,11 @@ UNIT = dict(
            'which is why she calls it a known error term.',
            {0: 'She says the error is roughly known from hundreds of '
                'contests.', 1: 'She reports a stable average, not a rising one.', 3: 'Weighting is not what she says causes the error.'}),
-          ('Okonkwo\u2019s reply about the average error is that',
-           ['the average is miscalculated', 'the distribution has a tail', 'the contests are not comparable', 'the comparison period is too short'],
-           1,
+          (
+           'Okonkwo\u2019s reply about the average error is that the '
+           'distribution has a ____________.', None, 'tail',
            'And the years in the tail are not random: they cluster '
-           'around unusual contests.',
-           {0: 'He does not dispute her calculation.', 2: 'He accepts the comparison across contests.', 3: 'Hundreds of contests is long enough for his reply.'}),
+           'around unusual contests.'),
           ('What does Vasquez propose instead of a single figure?',
            ['A larger sample', 'Publishing a range with no central estimate', 'Delaying publication', 'Weighting by response rate'],
            1,
@@ -1567,13 +1544,10 @@ UNIT = dict(
            'Editors eventually ran probability forecasts for weather, '
            'and nobody now expects a single temperature.',
            {0: 'Medical testing is not the comparison she draws.', 2: 'Financial reporting is not mentioned by either.', 3: 'Sports results are not used as a comparison.'}),
-          ('What do both speakers agree about?',
-           ['The 1936 failure', 'Falling response rates', 'The use of ranges', 'The size of the tail'],
-           1,
+          ('Both speakers agree about falling ____________ rates.',
+           None, 'response',
            'Okonkwo raises it and Vasquez agrees, adding that it is '
-           'why the margin of error has become misleading.',
-           {0: 'The 1936 failure is where they differ in emphasis.', 2: 'Ranges are her proposal, which he doubts editors would '
-               'run.', 3: 'The size of the tail is exactly what they dispute.'})])],
+           'why the margin of error has become misleading.')])],
    speak=dict(
     part='Part 3', focus='Evidence, uncertainty and decisions',
     sounds=[('Number phrases have a fixed rhythm, and breaking it is heard as '

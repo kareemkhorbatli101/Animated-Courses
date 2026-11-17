@@ -222,19 +222,16 @@ UNIT = dict(
            'One incident in eleven years, and that a delay with '
            'nothing broken.',
            {0: 'She says transport is the rarest source of trouble.', 2: 'Insurance is available, and is her second problem.', 3: 'She says shippers are already extremely good.'}),
-          ('Failures of display conditions are mostly',
-           ['equipment failures', 'a failure of nerve', 'budget decisions', 'the lender\u2019s fault'],
-           1,
+          (
+           'Failures of display conditions are mostly a failure of '
+           '____________.', None, 'nerve',
            'A curator wants a particular room and somebody decides a '
-           'blind will do.',
-           {0: 'She says the equipment is rarely at fault.', 2: 'Budgets are not what she blames for display failures.', 3: 'The lender sets the conditions rather than breaking '
-               'them.'}),
-          ('The insurance problem she describes is',
-           ['underinsurance at an outdated value', 'excluded perils', 'late payment', 'disputed ownership'],
-           0,
+           'blind will do.'),
+          (
+           'The insurance problem she describes is underinsurance at '
+           'an ____________ value.', None, 'outdated',
            'Nothing is wrong until something is wrong, at which point '
-           'it is catastrophic.',
-           {1: 'Excluded perils are not the gap she describes.', 2: 'Payment delay is not the insurance problem she names.', 3: 'Ownership disputes are not among her four.'})])],
+           'it is catastrophic.')])],
    speak=dict(
     part='Part 1', focus='Objects people value',
     intro=('Two or three sentences. Everyday possessions are a perfectly '
@@ -459,13 +456,10 @@ UNIT = dict(
            'strikingly small as a share.',
            {0: 'He says it is strikingly small as a share of the '
                'price.', 2: 'It is the only one of the four actually transferred.', 3: 'Valuation is not what he says is difficult about it.'}),
-          ('The attribution is described as',
-           ['the condition of the work', 'a claim about who made it', 'the dealer\u2019s valuation', 'the exhibition record'],
-           1,
-           'Which can be separated from the object, usually painfully.',
-           {0: 'Condition is not what attribution means here.', 2: 'The dealer\u2019s valuation belongs to the position, not '
-               'the claim.', 3: 'The exhibition record supports an attribution without '
-               'being one.'}),
+          (
+           'The attribution is described as a claim about who '
+           '____________ it.', None, 'made',
+           'Which can be separated from the object, usually painfully.'),
           ('Which element does he say never appears on an invoice?',
            ['The object', 'The attribution', 'The position', 'The membership'],
            3,
@@ -525,25 +519,25 @@ UNIT = dict(
            'to think about, and I notice you led with the thing I would '
            'refuse.')],
          items=[
-          ('Why does Fenella say a museum receives a discount?',
-           ['It buys in volume', 'Its purchase raises the artist\u2019s other work', 'It pays promptly', 'It is a public body'],
-           1, 'And it places the work in a public collection.',
-           {0: 'Volume of purchases is not the reason she gives.', 2: 'Prompt payment is not mentioned as a reason.', 3: 'Being public is not itself the reason, but the effect.'}),
-          ('Osvaldo objects that the highest price is paid by',
-           ['museums', 'new collectors', 'a buyer who simply walks in', 'other dealers'],
-           2,
+          (
+           'Fenella says a museum receives a discount because its '
+           'purchase raises the artist\u2019s other ____________.',
+           None, 'work',
+           'And it places the work in a public collection.'),
+          (
+           'Osvaldo objects that the highest price is paid by a buyer '
+           'who simply ____________ in.', None, 'walks',
            'Which he calls a strange way to treat the only person '
-           'behaving normally.',
-           {0: 'Museums get the discount, which is his complaint.', 1: 'New collectors get a discount to bring them back.', 3: 'Other dealers are not mentioned in the exchange.'}),
-          ('Fenella\u2019s answer is that such a buyer is paying for',
-           ['exclusivity', 'immediacy', 'condition', 'provenance'], 1,
+           'behaving normally.'),
+          (
+           'Fenella answers that such a buyer is paying for '
+           '____________.', None, 'immediacy',
            'Everyone else waited or brought something other than '
-           'money.',
-           {0: 'Exclusivity is not what she says such a buyer buys.', 2: 'Condition is not part of the pricing argument.', 3: 'Provenance is not raised in this exchange.'}),
-          ('What does Osvaldo propose?',
-           ['A fixed price list', 'A published range with its criteria', 'An auction', 'No change'],
-           1, 'Museums at the bottom, immediate sales at the top.',
-           {0: 'He proposes a range rather than a fixed price.', 2: 'No auction is suggested by either dealer.', 3: 'He clearly proposes a change.'}),
+           'money.'),
+          (
+           'Osvaldo proposes a published ____________ with its '
+           'criteria.', None, 'range',
+           'Museums at the bottom, immediate sales at the top.'),
           ('What does Fenella agree to immediately?',
            ['The wall price list', 'Telling the artists the range', 'Discounting for museums', 'Nothing'],
            1,
@@ -815,19 +809,17 @@ UNIT = dict(
            'while appearing to describe everybody.')],
          items=[
           (
-           'What does the analyst say about the sentence printed under '
-           'his chart?',
-           ['It is approximately right', 'It is not supported by his chart', 'It uses the wrong year', 'It confuses two categories'],
-           1, 'He devotes the lecture to showing why.',
-           {0: 'He says it is not supported at all.', 2: 'The year is not what he says is wrong.', 3: 'No confusion of categories is alleged.'}),
-          ('Lots over ten million are what share of lots sold?',
-           ['Four in a hundred', 'Four in a thousand', 'Nine per cent', 'Forty-one per cent'],
-           1, 'And forty-one per cent of the money.',
-           {0: 'Ten times the share he gives.', 2: 'Nine per cent is the value share of the cheapest lots.', 3: 'Forty-one per cent is their share of the money.'}),
-          ('He describes the market by volume and by value as',
-           ['the same market', 'two different markets sharing a name', 'converging', 'equally sized'],
-           1, 'Which is the key to reading the category chart.',
-           {0: 'He says they are essentially two different markets.', 2: 'No convergence is described.', 3: 'They differ enormously in value and in volume.'}),
+           'The analyst says the sentence printed under his chart is '
+           'not ____________ by it.', None, 'supported',
+           'He devotes the lecture to showing why.'),
+          (
+           'Lots over ten million are four in a ____________ of lots '
+           'sold.', None, 'thousand',
+           'And forty-one per cent of the money.'),
+          (
+           'He describes the market by volume and by value as two '
+           'different ____________ sharing a name.', None,
+           'markets', 'Which is the key to reading the category chart.'),
           (
            'A fourteen-point move in the category chart could be '
            'produced by',
@@ -842,11 +834,9 @@ UNIT = dict(
            {0: 'The general claim is what he says is unsupported.', 2: 'He does not report falling volumes.', 3: 'Price levels are not the claim he examines.'}),
           (
            'His general lesson is that a chart weighted by value '
-           'describes',
-           ['everybody', 'the people who hold the value', 'the median buyer', 'the long run'],
-           1,
-           'A small population while appearing to describe everybody.',
-           {0: 'He says it appears to describe everybody and does not.', 2: 'The median buyer is almost weightless in such a chart.', 3: 'Time horizon is not what weighting by value changes.'})])],
+           'describes the people who hold the ____________.',
+           None, 'value',
+           'A small population while appearing to describe everybody.')])],
    speak=dict(
     part='Part 3', focus='Art as an investment',
     intro=('Four or five sentences. Where a question invites a number, say '
@@ -1161,33 +1151,27 @@ UNIT = dict(
            ['A victory of science over expertise', 'A scandal', 'An accident', 'A failure of management'],
            0, 'He then argues it is a story about institutions.',
            {1: 'He does not describe the usual telling as a scandal.', 2: 'Nothing accidental is claimed in the usual version.', 3: 'Management failure is closer to his own account.'}),
-          ('What does he say analysis cannot do?',
-           ['Date a pigment', 'Show that a work is genuine', 'Examine a ground layer', 'Work on panels'],
-           1,
-           'It is powerful in one direction and silent in the other.',
-           {0: 'Dating a pigment is exactly what it does well.', 2: 'Examining a ground layer is what found the pigment.', 3: 'Panels are what the analysis was performed on.'}),
-          ('How many specialists recorded doubts in print?',
-           ['One', 'Two', 'Three', 'Nine'], 2,
-           'In 1974, 1988 and 2004, none using the word forgery.',
-           {0: 'Fewer than the specialists he counts.', 1: 'Still fewer than the three he names.', 3: 'Nine is the number of books, not of specialists.'}),
-          ('What did those specialists say about the panel?',
-           ['It was poorly painted', 'It was unusually satisfying', 'It was wrongly attributed', 'It was overcleaned'],
-           1,
+          ('He says analysis cannot show that a work is ____________.',
+           None, 'genuine',
+           'It is powerful in one direction and silent in the other.'),
+          ('How many specialists recorded doubts in print?', None,
+           'three',
+           'In 1974, 1988 and 2004, none using the word forgery.'),
+          (
+           'Those specialists said the panel was unusually '
+           '____________.', None, 'satisfying',
            'It solved problems more tidily than pictures of its date '
-           'normally do.',
-           {0: 'They did not criticise the painting\u2019s quality.', 2: 'None of them used the word forgery.', 3: 'Overcleaning is not among their observations.'}),
-          ('What does he say was missing?',
-           ['Better instruments', 'A mechanism for pooling doubt', 'Funding', 'Access to the panel'],
-           1,
+           'normally do.'),
+          (
+           'He says what was missing was a mechanism for ____________ '
+           'doubt.', None, 'pooling',
            'Three mild reservations over thirty years never became one '
-           'question.',
-           {0: 'He says the instruments performed as well as they can.', 2: 'Funding is not what he says was absent.', 3: 'The panel hung on the wall for forty years.'}),
-          ('His proposed fix is',
-           ['more scientific testing', 'a register for recording uncertainty', 'fewer acquisitions', 'external review'],
-           1,
+           'question.'),
+          (
+           'His proposed fix is a ____________ for recording '
+           'uncertainty.', None, 'register',
            'Somewhere to write that you are not sure without it being '
-           'an accusation.',
-           {0: 'He says better instruments are not the fix.', 2: 'Fewer acquisitions is not what he proposes.', 3: 'External review is not the mechanism he names.'})])],
+           'an accusation.')])],
    speak=dict(
     part='Part 3', focus='What changes when the author changes',
     followup=[(('You would display the forgery. Does it matter who painted a '
@@ -1519,12 +1503,11 @@ UNIT = dict(
            'She calls indistinguishable under every instrument a false '
            'premise.',
            {0: 'She says the premise is false, not well constructed.', 2: 'She applies it directly to museum practice.', 3: 'She treats the question as open.'}),
-          ('Her objection rests on',
-           ['the cost of analysis', 'techniques that did not previously exist', 'museum policy', 'the quality of forgeries'],
-           1,
+          (
+           'Her objection rests on techniques that did not previously '
+           '____________.', None, 'exist',
            'She finds unexpected differences with methods that are new '
-           'since the last examination.',
-           {0: 'Cost of analysis is not her objection.', 2: 'Museum policy is her later point, about labels.', 3: 'Forgery quality is the premise, not her objection.'}),
+           'since the last examination.'),
           ('Achterberg says his question is intended to reveal',
            ['what forgers can do', 'what our judgement is about', 'how museums decide', 'whether instruments are reliable'],
            1,
