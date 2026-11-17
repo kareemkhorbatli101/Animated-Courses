@@ -56,7 +56,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Northgate Station: travel information',
-         kind='Information page', task='Short answer',
+         kind='Information page', task='Note completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A travel page is read for the thing that changes',
                 ['Look for what is different on Sundays or in the '
@@ -94,7 +94,7 @@ UNIT = dict(
            'It has been out of use since August.')])],
    listen=[
     dict(heading='Buying a ticket', part='Part 1',
-         task='A conversation at a ticket office', band='l1',
+         task='A conversation at a ticket office · note completion', band='l1',
          qtype='Questions 6-11',
          script=[
           ('Clerk', 'Where are you travelling to?'),
@@ -229,7 +229,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Twelve months of one journey',
-         kind='Short article', task='Matching information',
+         kind='Short article', task='Multiple choice and note completion',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'A teacher timed her journey to work every day for a year, '
@@ -273,7 +273,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two students on measuring a journey',
          part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion', band='l3',
          qtype='Questions 18-23',
          script=[
           ('Tutor', 'You are both using the teacher’s data. What '
@@ -437,7 +437,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Three years of a hire scheme',
-         kind='Short article', task='Matching information',
+         kind='Short article', task='Multiple choice and note completion',
          band='gt_work', qtype='Questions 24-29',
          skill=('A report of a scheme is read for what was changed',
                 ['Find the decision and the result it produced.',
@@ -489,7 +489,7 @@ UNIT = dict(
    listen=[
     dict(heading='A transport officer on the hire scheme',
          part='Part 2',
-         task='One speaker describing a scheme', band='l2',
+         task='One speaker describing a scheme · note completion', band='l2',
          qtype='Questions 30-35',
          script=[
           ('Speaker', 'I ran this scheme for three years and I was '
@@ -679,7 +679,7 @@ UNIT = dict(
    read=[
     dict(heading='Lifting a boat without a pump',
          kind='Short factual article',
-         task='Flow-chart completion and short answer',
+         task='Note completion, short answer and matching features',
          band='acad', qtype='Questions 36-42',
          paras=[
           'A canal lock lifts a boat from one level to another using '
@@ -735,7 +735,7 @@ UNIT = dict(
    listen=[
     dict(heading='A canal volunteer on operating a lock',
          part='Part 4',
-         task='A talk to new volunteers', band='l4',
+         task='A talk to new volunteers · note completion', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'You will each work a lock on your own by the end '
@@ -879,7 +879,7 @@ UNIT = dict(
    read=[
     dict(heading='What happened when one city stopped charging',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Multiple choice, note completion and short answer',
          band='acad', qtype='Questions 49-55',
          paras=[
           'In 2013 a European city of about four hundred thousand '
@@ -939,7 +939,7 @@ UNIT = dict(
            'drivers.')])],
    listen=[
     dict(heading='Two councillors on free buses', part='Part 3',
-         task='A discussion between two councillors', band='l3',
+         task='A discussion between two councillors · note completion', band='l3',
          qtype='Questions 56-61',
          script=[
           ('Chair', 'You are voting opposite ways on free buses. Give '

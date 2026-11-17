@@ -31,7 +31,7 @@ UNIT = dict(
    read=[
     dict(heading='Reporting a workplace danger',
          kind='Procedure notice',
-         task='Flow-chart completion and short answer',
+         task='Multiple choice and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A reporting procedure is read for the branch points',
                 ['Procedures of this kind are not a straight line. They '
@@ -93,7 +93,7 @@ UNIT = dict(
            'without a visit.', None, 'a third',
            'Paragraph 5, which is why anonymity has a cost.')]),
     dict(heading='What the regulator will and will not investigate',
-         kind='Guidance', task='Matching features',
+         kind='Guidance', task='Matching features and multiple choice',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'We investigate where the regulations we enforce appear to have '
@@ -143,7 +143,7 @@ UNIT = dict(
            {0: 'Speed is not what the tension is between.', 2: 'Cost is not mentioned in paragraph 4.', 3: 'Anonymity is the confidentiality side of the tension.'})])],
    listen=[
     dict(heading='Reporting a hazard to the regulator', part='Part 1',
-         task='A call to a safety regulator', band='l1',
+         task='A call to a safety regulator · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Officer', 'Safety line, Rosalind speaking.'),
@@ -207,7 +207,7 @@ UNIT = dict(
            '____________ raises its priority.', None, 'year',
            'Which the caller is asked to state on the form.')]),
     dict(heading='A short talk: risks people accept', part='Part 2',
-         task='A talk at a risk communication seminar', band='l2',
+         task='A talk at a risk communication seminar · multiple choice and matching', band='l2',
          qtype='Questions 17-20',
          script=[
           ('Speaker', 'I have spent fourteen years asking people which risks '
@@ -469,7 +469,7 @@ UNIT = dict(
                'strictest he has met.', 2: 'Not Given is wrong because he rates the regime.'})])],
    listen=[
     dict(heading='Two regulators disagree about proportionality',
-         part='Part 3', task='A conversation between two regulators',
+         part='Part 3', task='A conversation between two regulators · multiple choice',
          band='l3', qtype='Questions 27-32',
          script=[
           ('Marisol', 'I am going to recommend we close the whole category '
@@ -716,7 +716,7 @@ UNIT = dict(
    read=[
     dict(heading='Why a one-in-two-hundred-year event happened twice',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_EXTR,
          paras=[
@@ -805,7 +805,7 @@ UNIT = dict(
                'fixed baseline directly.'})])],
    listen=[
     dict(heading='An engineer on return periods', part='Part 4',
-         task='A lecture on designing for rare events', band='l4',
+         task='A lecture on designing for rare events · multiple choice and matching', band='l4',
          qtype='Questions 39-44',
          figure=_EXTR,
          script=[
@@ -1030,7 +1030,7 @@ UNIT = dict(
    read=[
     dict(heading='Writing a rule for a technology that moves',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'The complaint that regulation always lags behind technology is '
@@ -1176,7 +1176,7 @@ UNIT = dict(
            'staff.')])],
    listen=[
     dict(heading='A lecture on regulatory design', part='Part 4',
-         task='A lecture on how rules are written', band='l4',
+         task='A lecture on how rules are written · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'You will all have heard that regulation lags behind '
@@ -1403,7 +1403,7 @@ UNIT = dict(
    read=[
     dict(heading='The harm that was prevented and the harm that was not',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given, sentence completion and short answer',
          band='acad', qtype='Questions 59-66',
          paras=[
           'The precautionary principle instructs a decision-maker to act '
@@ -1647,7 +1647,7 @@ UNIT = dict(
            'as the cause.')])],
    listen=[
     dict(heading='A regulator and an economist disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 72-77',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 72-77',
          script=[
           ('Chair', 'Dr Fanshawe-Oyelude is a medicines regulator. Professor '
            'Barrientos works on the economics of regulation.'),
@@ -1729,7 +1729,7 @@ UNIT = dict(
            'of anybody.',
            {0: 'Cost is not the obstacle she names.', 2: 'Legality is not raised by either speaker.', 3: 'She proposes them herself as the cheaper measure.'})]),
     dict(heading='A plan of the factory floor',
-         part='Part 2', task='Plan labelling and matching',
+         part='Part 2', task='Plan labelling and matching · plan labelling',
          band='l2',
          qtype='Questions 78-82',
          banklabel='Positions on the plan',

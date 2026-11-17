@@ -42,7 +42,7 @@ UNIT = dict(
    read=[
     dict(heading='Farm shop or supermarket: four comparisons',
          kind='Comparison table',
-         task='Table completion and matching features',
+         task='Matching features, multiple choice and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A price comparison is read for the unit, not the '
                 'price',
@@ -92,7 +92,7 @@ UNIT = dict(
           ('The farm shop closes at ____________.', None, '4 p.m.',
            'Paragraph 6, where it also takes cash.')]),
     dict(heading='What the labels mean', kind='Information notice',
-         task='Matching features', band='gt_short',
+         task='Matching features, sentence completion and short answer', band='gt_short',
          qtype='Questions 7-10',
          paras=[
           '"Free range" is defined in law and means that birds have '
@@ -128,7 +128,7 @@ UNIT = dict(
            'use by', 'Paragraph 4, unlike "best before".')])],
    listen=[
     dict(heading='Ordering a weekly vegetable box', part='Part 1',
-         task='A telephone call to a farm shop', band='l1',
+         task='A telephone call to a farm shop · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Shop', 'Ashfield Farm Shop, good morning.'),
@@ -345,7 +345,7 @@ UNIT = dict(
                'so.'})])],
    listen=[
     dict(heading='A dietitian on family meals', part='Part 2',
-         task='A talk at a community centre', band='l2',
+         task='A talk at a community centre · note completion and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Dietitian', 'I am going to talk about family meals, and I '
@@ -546,7 +546,7 @@ UNIT = dict(
    read=[
     dict(heading='How milk reaches the shop',
          kind='Process article',
-         task='Flow-chart completion and matching information',
+         task='Matching information and flow-chart completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_MILK,
          paras=[
@@ -599,7 +599,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two speakers discuss where food comes from',
          part='Part 3',
-         task='A discussion between two shoppers', band='l3',
+         task='A discussion between two shoppers · note completion and multiple choice', band='l3',
          qtype='Questions 35-40',
          script=[
           ('Delphine', 'You buy the farm shop milk and it is the same '
@@ -654,7 +654,7 @@ UNIT = dict(
            'scientific.', None, 'sentimental',
            'Which he says is better than pretending otherwise.')]),
     dict(heading='A dairy manager on the daily cycle', part='Part 4',
-         task='A talk at a dairy', band='l4', qtype='Questions 41-46',
+         task='A talk at a dairy · flow-chart completion and multiple choice', band='l4', qtype='Questions 41-46',
          figure=_MILK,
          script=[
           ('Manager', 'Seven stages, three phases, and twenty-four '
@@ -844,8 +844,7 @@ UNIT = dict(
    read=[
     dict(heading='Yield, fertiliser and what the soil loses',
          kind='Academic passage',
-         task='Matching headings, True/False, Yes/No and summary '
-              'completion',
+         task='Matching headings, True/False/Not Given, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 47-54',
          paras=[
           'Between 1960 and 2000 the world\u2019s population roughly '
@@ -932,7 +931,7 @@ UNIT = dict(
            'Paragraph 3, and expected famines did not occur.')])],
    listen=[
     dict(heading='A lecture on intensive farming', part='Part 4',
-         task='A lecture on yields and soil', band='l4',
+         task='A lecture on yields and soil · note completion', band='l4',
          qtype='Questions 55-60',
          script=[
           ('Lecturer', 'Population doubled between nineteen sixty and '
@@ -1094,8 +1093,7 @@ UNIT = dict(
    read=[
     dict(heading='The measure that made the soil invisible',
          kind='Academic passage',
-         task='Matching information, True/False, Yes/No and short '
-              'answer',
+         task='Matching information, Yes/No/Not Given, True/False/Not Given, short answer and sentence completion',
          band='acad', qtype='Questions 61-68',
          paras=[
           'Yield is the amount harvested from a hectare in a single season, '
@@ -1188,7 +1186,7 @@ UNIT = dict(
            'farming.')])],
    listen=[
     dict(heading='Two agronomists disagree', part='Part 4',
-         task='A recorded discussion', band='l4',
+         task='A recorded discussion · note completion and multiple choice', band='l4',
          qtype='Questions 69-74',
          script=[
           ('Chair', 'Dr Falkenrath works on crop yields. Professor '

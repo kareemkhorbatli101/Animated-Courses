@@ -31,7 +31,7 @@ UNIT = dict(
    read=[
     dict(heading='Four tariffs compared',
          kind='Comparison table',
-         task='Table completion and matching features',
+         task='Matching features and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A tariff table has two prices in it, and questions '
                 'usually concern the one people forget',
@@ -90,7 +90,7 @@ UNIT = dict(
            'cent more.', None, '3',
            'On the unit rate, compared with monthly payment.')]),
     dict(heading='How switching works',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Take a meter reading on the day you apply. Photograph the meter '
@@ -125,7 +125,7 @@ UNIT = dict(
            'Paragraph 4, taken after your own reading.')])],
    listen=[
     dict(heading='Switching energy supplier', part='Part 1',
-         task='A telephone call to an energy supplier', band='l1',
+         task='A telephone call to an energy supplier · note completion and multiple choice', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Agent', 'Thorncliffe Energy, Aurelio speaking.'),
@@ -364,7 +364,7 @@ UNIT = dict(
                'bill.'})])],
    listen=[
     dict(heading='An adviser on insulation', part='Part 2',
-         task='A talk at a community energy advice session', band='l2',
+         task='A talk at a community energy advice session · note completion and multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Adviser', 'I am going to spend ten minutes telling you which '
@@ -558,7 +558,7 @@ UNIT = dict(
    read=[
     dict(heading='A country’s electricity mix over twenty years',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 27-32',
          figure=_E05, figure2=_E25,
          paras=[
@@ -621,7 +621,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two speakers discuss where power comes from',
          part='Part 3',
-         task='A discussion between a councillor and an engineer',
+         task='A discussion between a councillor and an engineer · note completion and multiple choice',
          band='l3', qtype='Questions 33-38',
          script=[
           ('Councillor', 'Our county is now eighty per cent renewable '
@@ -693,7 +693,7 @@ UNIT = dict(
            'Which the councillor says she can take to the '
            'committee.')]),
     dict(heading='An engineer on the grid', part='Part 4',
-         task='A lecture on how a grid is balanced', band='l4',
+         task='A lecture on how a grid is balanced · multiple choice and note completion', band='l4',
          qtype='Questions 39-44',
          figure=_E25,
          script=[
@@ -887,7 +887,7 @@ UNIT = dict(
    read=[
     dict(heading='The wind does not blow to order',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'Electricity is unusual among the things we buy because it cannot '
@@ -983,7 +983,7 @@ UNIT = dict(
            'Paragraph 6, and it is a real cost.')])],
    listen=[
     dict(heading='A lecture on storage and backup', part='Part 4',
-         task='A lecture on keeping a grid reliable', band='l4',
+         task='A lecture on keeping a grid reliable · note completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'One fact, and the whole of this lecture follows '
@@ -1156,7 +1156,7 @@ UNIT = dict(
    read=[
     dict(heading='What a price per unit leaves out',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'The claim that a particular way of generating electricity is now '
@@ -1255,7 +1255,7 @@ UNIT = dict(
            'The final paragraph, which states the condition.')])],
    listen=[
     dict(heading='Two engineers disagree about system cost', part='Part 4',
-         task='A recorded discussion', band='l4', qtype='Questions 67-72',
+         task='A recorded discussion · multiple choice and note completion', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Dr Castellanos works on renewable integration. '
            'Professor Yıldırım is a systems economist. Each begins with '

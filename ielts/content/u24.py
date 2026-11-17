@@ -25,7 +25,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Flood risk and what the council will do',
-         kind='Public notice', task='Matching features and short answer',
+         kind='Public notice', task='Multiple choice, matching features and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A notice that assigns duties is read for who does what',
                 ['Where a notice divides responsibility between an authority '
@@ -82,7 +82,7 @@ UNIT = dict(
           ('The grant is paid to the ____________.', None, 'contractor',
            'Paragraph 4, rather than to the householder.')]),
     dict(heading='Applying for a property grant',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Check first that your property is in a grant area, which is not '
@@ -117,7 +117,7 @@ UNIT = dict(
            'list.')])],
    listen=[
     dict(heading='Applying for a flood grant', part='Part 1',
-         task='A call to a council flood team', band='l1',
+         task='A call to a council flood team · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Officer', 'Flood team, Annika speaking.'),
@@ -174,7 +174,7 @@ UNIT = dict(
            'After the survey and the quotation, making two to three months '
            'in all.')]),
     dict(heading='A short talk: what people do about it', part='Part 2',
-         task='A talk at a community flood meeting', band='l2',
+         task='A talk at a community flood meeting · multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have worked on flood recovery for fourteen years and '
@@ -404,7 +404,7 @@ UNIT = dict(
                'she does not.'})])],
    listen=[
     dict(heading='Two residents disagree about moving', part='Part 3',
-         task='A conversation between neighbours', band='l3',
+         task='A conversation between neighbours · multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Rafaela', 'The consultation closes on Friday and I still do not '
@@ -625,7 +625,7 @@ UNIT = dict(
    read=[
     dict(heading='What a hundred years of readings show',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Multiple choice, matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 30-35',
          figure=_WARM,
          paras=[
@@ -701,7 +701,7 @@ UNIT = dict(
                'figure.'})])],
    listen=[
     dict(heading='A climatologist on the instrumental record', part='Part 4',
-         task='A lecture on temperature records', band='l4',
+         task='A lecture on temperature records · multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_WARM,
          script=[
@@ -912,7 +912,7 @@ UNIT = dict(
    read=[
     dict(heading='How a single flood is linked to a changing climate',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 42-48',
          paras=[
           'For most of the past thirty years the standard answer to whether '
@@ -1036,7 +1036,7 @@ UNIT = dict(
            'them.')])],
    listen=[
     dict(heading='A lecture on attribution studies', part='Part 4',
-         task='A lecture on linking events to warming', band='l4',
+         task='A lecture on linking events to warming · multiple choice and matching', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Somebody asks you after a flood whether climate '
@@ -1231,7 +1231,7 @@ UNIT = dict(
    read=[
     dict(heading='The limits of a counterfactual world',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 55-61',
          paras=[
           'Attribution science produces a sentence of a particular form: this '
@@ -1344,7 +1344,7 @@ UNIT = dict(
            'produce.')])],
    listen=[
     dict(heading='Two climate scientists disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 62-67',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 62-67',
          script=[
           ('Chair', 'Dr Iwuchukwu runs attribution studies. Professor '
            'Halloran-Baptiste works on disaster risk.'),

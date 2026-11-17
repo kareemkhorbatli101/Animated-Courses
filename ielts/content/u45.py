@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Designated sites — what the status means',
          kind='Official guidance',
-         task='Matching features and short answer',
+         task='Multiple choice and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('Designation guidance is read for what is protected, not '
                 'where',
@@ -103,7 +103,7 @@ UNIT = dict(
           ('Most cases are resolved by a requirement to ____________.',
            None, 'restore', 'Paragraph 5, rather than by prosecution.')]),
     dict(heading='Applying for permission to work on a site',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Identify the site code from the map on our website. Codes begin '
@@ -140,7 +140,7 @@ UNIT = dict(
            'refused.')])],
    listen=[
     dict(heading='Applying for permission on a designated site',
-         part='Part 1', task='A call to a conservation agency', band='l1',
+         part='Part 1', task='A call to a conservation agency · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Officer', 'Site permissions, Rosalind speaking.'),
@@ -201,7 +201,7 @@ UNIT = dict(
           ('Submit at least ____________ weeks before starting.', None,
            'sixteen', 'With strict liability for starting early.')]),
     dict(heading='A short talk: who pays to protect', part='Part 2',
-         task='A talk at an agricultural college', band='l2',
+         task='A talk at an agricultural college · multiple choice and matching', band='l2',
          qtype='Questions 17-20',
          script=[
           ('Speaker', 'I ran a payment scheme for conservation on farmland '
@@ -458,7 +458,7 @@ UNIT = dict(
                'got.'})])],
    listen=[
     dict(heading='Two officers disagree about payments', part='Part 3',
-         task='A conversation between two scheme officers', band='l3',
+         task='A conversation between two scheme officers · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Ingrid', 'The uptake figures are excellent and I am not going to '
@@ -696,7 +696,7 @@ UNIT = dict(
    read=[
     dict(heading='Three surveys of one wood',
          kind='Data article',
-         task='Matching information and table completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 33-38',
          figure=_SURV,
          paras=[
@@ -766,7 +766,7 @@ UNIT = dict(
            'Paragraph 3, because fungi cannot be detected that way.')])],
    listen=[
     dict(heading='An ecologist on survey method', part='Part 4',
-         task='A lecture on detection and absence', band='l4',
+         task='A lecture on detection and absence · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_SURV,
          script=[
@@ -987,7 +987,7 @@ UNIT = dict(
    read=[
     dict(heading='The fence that saved a bird and stopped a herd',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'Conservation is conducted in public as though its difficulty were '
@@ -1121,7 +1121,7 @@ UNIT = dict(
            'Paragraph 8, when they are discovered.')])],
    listen=[
     dict(heading='A lecture on conservation trade-offs', part='Part 4',
-         task='A lecture on choosing what to save', band='l4',
+         task='A lecture on choosing what to save · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'The public version of this field is a fight against '
@@ -1347,7 +1347,7 @@ UNIT = dict(
    read=[
     dict(heading='The threats that walk across a reserve',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'The protected area is the central instrument of global '
@@ -1480,7 +1480,7 @@ UNIT = dict(
            'adopted.')])],
    listen=[
     dict(heading='Two conservationists disagree about reserves',
-         part='Part 4', task='A recorded exchange', band='l4',
+         part='Part 4', task='A recorded exchange · multiple choice', band='l4',
          qtype='Questions 67-72',
          script=[
           ('Chair', 'Dr Oyelaran-Fitzwilliam works on protected area '

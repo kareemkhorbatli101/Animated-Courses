@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Broadband packages compared',
          kind='Comparison table',
-         task='Table completion and matching features',
+         task='Matching features and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A package comparison is read for what the price '
                 'excludes',
@@ -81,7 +81,7 @@ UNIT = dict(
            'connection.', None, 'third',
            'Paragraph 6, paid automatically at £8.40 a day.')]),
     dict(heading='What to do if your connection drops',
-         kind='Troubleshooting notice', task='Flow-chart completion',
+         kind='Troubleshooting notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'First check the lights on the router. A steady blue light '
@@ -113,7 +113,7 @@ UNIT = dict(
            'Paragraph 4, which takes about an hour.')])],
    listen=[
     dict(heading='Reporting a fault', part='Part 1',
-         task='A telephone call to a broadband provider', band='l1',
+         task='A telephone call to a broadband provider · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Agent', 'Thank you for holding. Can I take your account '
@@ -340,7 +340,7 @@ UNIT = dict(
                'it is silent.'})])],
    listen=[
     dict(heading='An IT officer on account security', part='Part 2',
-         task='A talk to new staff', band='l2',
+         task='A talk to new staff · note completion', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Officer', 'Fifteen minutes on account security, and I am '
@@ -540,7 +540,7 @@ UNIT = dict(
    read=[
     dict(heading='How long people look at a screen',
          kind='Article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_SCREEN,
          paras=[
@@ -598,7 +598,7 @@ UNIT = dict(
            'Paragraph 5, measured in minutes.')])],
    listen=[
     dict(heading='Two students on phone habits', part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion and multiple choice', band='l3',
          qtype='Questions 35-40',
          script=[
           ('Casimir', 'My phone says four hours forty yesterday. I do '
@@ -788,8 +788,7 @@ UNIT = dict(
    read=[
     dict(heading='What decides what you see first',
          kind='Academic passage',
-         task='Matching headings, True/False, Yes/No and summary '
-              'completion',
+         task='Matching headings, True/False/Not Given, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'When a search engine returns ten results in order, somebody '
@@ -875,7 +874,7 @@ UNIT = dict(
            'The final paragraph, which is the central assumption.')])],
    listen=[
     dict(heading='A lecture on ranking and relevance', part='Part 4',
-         task='A lecture on how search results are ordered', band='l4',
+         task='A lecture on how search results are ordered · note completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Every ranking system in the world has the same '
@@ -1039,7 +1038,7 @@ UNIT = dict(
    read=[
     dict(heading='Why a good answer and a popular answer differ',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 55-62',
          paras=[
           'Every ranking system measures something it can count in '
@@ -1145,7 +1144,7 @@ UNIT = dict(
            'Paragraph 5, which the writer accepts as a real cost.')])],
    listen=[
     dict(heading='Two engineers disagree about transparency',
-         part='Part 4', task='A recorded discussion', band='l4',
+         part='Part 4', task='A recorded discussion · note completion and multiple choice', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Ms Petrakis-Odili builds ranking systems. Dr '

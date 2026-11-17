@@ -29,7 +29,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Allotment rules and the waiting list',
-         kind='Council notice', task='Matching features and short answer',
+         kind='Council notice', task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A rules notice is read for the conditions that end the '
                 'agreement',
@@ -88,7 +88,7 @@ UNIT = dict(
            'dwarfing',
            'Paragraph 4, and these must be approved in advance.')]),
     dict(heading='Applying for a plot',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Apply online, naming a preferred site. There is no charge to join '
@@ -120,7 +120,7 @@ UNIT = dict(
            'secretary', 'Paragraph 4, rather than by the council office.')])],
    listen=[
     dict(heading='Applying for an allotment', part='Part 1',
-         task='A call to an allotments office', band='l1',
+         task='A call to an allotments office · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Officer', 'Allotments, Priyanka speaking.'),
@@ -166,7 +166,7 @@ UNIT = dict(
           ('List positions are reviewed each ____________.', None,
            'January', 'When about a fifth of names are removed.')]),
     dict(heading='A short talk: what a shortage looks like', part='Part 2',
-         task='A talk at a supply management seminar', band='l2',
+         task='A talk at a supply management seminar · multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I managed fresh produce buying for a supermarket chain '
@@ -398,7 +398,7 @@ UNIT = dict(
                'raises it.'})])],
    listen=[
     dict(heading='Two buyers on supply problems', part='Part 3',
-         task='A conversation between two food buyers', band='l3',
+         task='A conversation between two food buyers · multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Esperanza', 'How bad was yours?'),
@@ -617,7 +617,7 @@ UNIT = dict(
    read=[
     dict(heading='Production, imports and the gap between',
          kind='Data article',
-         task='Matching information and table completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 30-35',
          figure=_CROPS, figure2=_SHARE,
          paras=[
@@ -683,7 +683,7 @@ UNIT = dict(
            'Paragraph 4, up from 21 per cent in 2003.')])],
    listen=[
     dict(heading='An analyst on self-sufficiency', part='Part 4',
-         task='A talk on production and imports', band='l4',
+         task='A talk on production and imports · matching and multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_CROPS, figure2=_SHARE,
          script=[
@@ -895,7 +895,7 @@ UNIT = dict(
    read=[
     dict(heading='The soil that paid for the harvest',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 42-48',
          paras=[
           'Yield is the measure on which almost every argument about farming '
@@ -1012,7 +1012,7 @@ UNIT = dict(
            'common.')])],
    listen=[
     dict(heading='A lecture on soil and productivity', part='Part 4',
-         task='A lecture on what yield omits', band='l4',
+         task='A lecture on what yield omits · multiple choice and matching', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Yield measures what leaves the field. It says nothing '
@@ -1222,7 +1222,7 @@ UNIT = dict(
    read=[
     dict(heading='Two systems compared over thirty years',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 55-61',
          paras=[
           'The claim that organic farming cannot feed the world is made and '
@@ -1328,7 +1328,7 @@ UNIT = dict(
            'production.')])],
    listen=[
     dict(heading='Two agronomists disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 62-67',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 62-67',
          script=[
           ('Chair', 'Dr Oyinlola-Brandt works on long-term trials. Professor '
            'Marchetti works on food systems.'),

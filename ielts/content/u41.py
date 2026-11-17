@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Prescribed consultation — how it works',
          kind='Official guidance',
-         task='Matching features and short answer',
+         task='Multiple choice, matching features and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('Official guidance is read for the two tests it applies',
                 ['Guidance of this kind almost always contains a test of '
@@ -97,7 +97,7 @@ UNIT = dict(
            'Paragraph 6, which otherwise removes addresses and '
            'signatures.')]),
     dict(heading='What a consultation response must contain',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Identify the proposal by its reference, which begins with the '
@@ -136,7 +136,7 @@ UNIT = dict(
            'Paragraph 4, referred to by number in the text.')])],
    listen=[
     dict(heading='Submitting a consultation response', part='Part 1',
-         task='A call to a planning policy team', band='l1',
+         task='A call to a planning policy team · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Officer', 'Policy team, Aurelio speaking.'),
@@ -202,7 +202,7 @@ UNIT = dict(
            'somebody.', None, 'accuses',
            'Which is the one ground the officer gives for refusing.')]),
     dict(heading='A short talk: who people listen to', part='Part 2',
-         task='A talk at a science communication course', band='l2',
+         task='A talk at a science communication course · multiple choice', band='l2',
          qtype='Questions 17-20',
          script=[
           ('Speaker', 'I have spent eleven years measuring whose advice '
@@ -457,7 +457,7 @@ UNIT = dict(
            {0: 'Yes would need regret; he says he would do it again.', 2: 'Not Given is wrong because he judges his own decision.'})])],
    listen=[
     dict(heading='Two advisers disagree about communicating risk',
-         part='Part 3', task='A conversation between two advisers',
+         part='Part 3', task='A conversation between two advisers · multiple choice',
          band='l3', qtype='Questions 27-32',
          script=[
           ('Soraya', 'The press office wants one number and I am going to '
@@ -699,7 +699,7 @@ UNIT = dict(
    read=[
     dict(heading='What a confidence range means and does not',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_FORE,
          paras=[
@@ -787,7 +787,7 @@ UNIT = dict(
                'exact range.'})])],
    listen=[
     dict(heading='A statistician on uncertainty', part='Part 4',
-         task='A lecture on forecasts and ranges', band='l4',
+         task='A lecture on forecasts and ranges · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_FORE,
          script=[
@@ -1006,7 +1006,7 @@ UNIT = dict(
    read=[
     dict(heading='Same evidence, different priors',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'Public disagreement between specialists is routinely attributed '
@@ -1143,7 +1143,7 @@ UNIT = dict(
            'Paragraph 8, and will converge as it arrives.')])],
    listen=[
     dict(heading='A lecture on expert disagreement', part='Part 4',
-         task='A lecture on why specialists differ', band='l4',
+         task='A lecture on why specialists differ · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'When two specialists disagree in public, the '
@@ -1361,7 +1361,7 @@ UNIT = dict(
    read=[
     dict(heading='What happened when the advice was published',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given, sentence completion and short answer',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Between 2015 and 2022 a sufficient number of governments moved '
@@ -1500,7 +1500,7 @@ UNIT = dict(
            'accident.')])],
    listen=[
     dict(heading='A scientist and a minister disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice and matching', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Oyelaran-Whitlock chaired the advisory '
            'committee. Ms Dahlberg-Iqbal was the minister responsible.'),

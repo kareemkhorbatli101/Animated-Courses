@@ -51,8 +51,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Riverside Hall: autumn concerts',
-         kind='Concert listing', task='Table completion and '
-                                      'True/False/Not Given',
+         kind='Concert listing', task='Sentence completion, True/False/Not Given and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A listing is read for the condition on the cheap seat',
                 ['Find the cheapest price and then find the sentence '
@@ -98,7 +97,7 @@ UNIT = dict(
            'duplicate bookings',
            'Which is why people should telephone rather than rebook.')]),
     dict(heading='How to collect your tickets',
-         kind='Information page', task='Short answer',
+         kind='Information page', task='Note completion',
          band='gt_short', qtype='Questions 6-10',
          paras=[
           'The box office opens at ten on concert days and at noon '
@@ -130,7 +129,7 @@ UNIT = dict(
            'The name is checked and a replacement printed.')])],
    listen=[
     dict(heading='Booking seats by telephone', part='Part 1',
-         task='A telephone booking', band='l1',
+         task='A telephone booking · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Box office', 'Riverside Hall, good morning.'),
@@ -265,7 +264,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Starting the violin at forty',
-         kind='First-person article', task='Matching information',
+         kind='First-person article', task='Short answer and note completion',
          band='gt_work', qtype='Questions 17-22',
          skill=('A first-person article is read for the claim behind '
                 'the story',
@@ -313,7 +312,7 @@ UNIT = dict(
            'Paragraph 3, which was obvious only when written down.')])],
    listen=[
     dict(heading='A music teacher on practising', part='Part 2',
-         task='One speaker explaining a method', band='l2',
+         task='One speaker explaining a method · note completion', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Speaker', 'I teach adults, and almost everything I do in '
@@ -503,7 +502,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Two listeners, two habits',
-         kind='Two short profiles', task='Matching features',
+         kind='Two short profiles', task='Matching features, note completion and multiple choice',
          band='gt_work', qtype='Questions 29-34',
          paras=[
           'Dele listens to about three hours of music a day, almost all '
@@ -550,7 +549,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two friends disagree about live music',
          part='Part 3',
-         task='A discussion between two friends', band='l3',
+         task='A discussion between two friends · note completion', band='l3',
          qtype='Questions 35-40',
          script=[
           ('Tomas', 'Ninety pounds for a ticket. For music I already '
@@ -725,7 +724,7 @@ UNIT = dict(
    read=[
     dict(heading='From the microphone to the file',
          kind='Short factual article',
-         task='Flow-chart completion and matching',
+         task='Note completion, multiple choice and short answer',
          band='acad', qtype='Questions 41-47',
          paras=[
           'A recording is a series of measurements, and that one '
@@ -785,7 +784,7 @@ UNIT = dict(
            'Paragraph 4: bad speakers spoil a good recording.')])],
    listen=[
     dict(heading='Inside a recording studio', part='Part 4',
-         task='A talk to visiting students', band='l4',
+         task='A talk to visiting students · note completion', band='l4',
          qtype='Questions 48-53',
          script=[
           ('Speaker', 'Everything in this room exists to solve one '
@@ -931,7 +930,7 @@ UNIT = dict(
    read=[
     dict(heading='Why a song can bring a year back',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion and matching information',
          band='acad', qtype='Questions 54-60',
          paras=[
           'Almost everybody has had the experience: a song begins and a '
@@ -990,7 +989,7 @@ UNIT = dict(
            'Paragraph 4, which nobody calls a treatment.')])],
    listen=[
     dict(heading='A psychologist on music and memory', part='Part 4',
-         task='A short lecture', band='l4', qtype='Questions 61-66',
+         task='A short lecture · note completion', band='l4', qtype='Questions 61-66',
          script=[
           ('Speaker', 'I want to start with the most replicated finding '
            'in my field that nobody outside it has heard of. Ask a '

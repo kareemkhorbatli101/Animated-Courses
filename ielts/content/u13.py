@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Reporting a crime: what happens next',
          kind='Procedure notice',
-         task='Flow-chart completion and short answer',
+         task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('A procedure notice tells you what the reader must do and '
                 'what the office will do',
@@ -84,7 +84,7 @@ UNIT = dict(
            'crime ____________ number.', None, 'reference',
            'Paragraph 6: a duplicate record delays both.')]),
     dict(heading='Victim support services',
-         kind='Information page', task='Matching features',
+         kind='Information page', task='Matching features and sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Telephone support line. Open 24 hours. No referral is needed '
@@ -129,7 +129,7 @@ UNIT = dict(
            'For a named worker for up to twelve weeks.')])],
    listen=[
     dict(heading='Reporting a theft by telephone', part='Part 1',
-         task='A call to a police non-emergency line', band='l1',
+         task='A call to a police non-emergency line · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Operator', 'Police non-emergency, how can I help?'),
@@ -355,7 +355,7 @@ UNIT = dict(
                'his friend.', 2: 'Not Given is wrong because he gives his reason.'})])],
    listen=[
     dict(heading='A short talk: rules people break', part='Part 2',
-         task='A talk to a community meeting', band='l2',
+         task='A talk to a community meeting · sentence completion and multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I have been asked to talk about why people break '
@@ -412,7 +412,7 @@ UNIT = dict(
                'point.', 3: 'Reporting is not discussed in connection with these '
                'fines.'})]),
     dict(heading='Two residents on parking and the law', part='Part 3',
-         task='A conversation between two neighbours', band='l3',
+         task='A conversation between two neighbours · note completion and multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Hesper', 'You reported me, did you not?'),
@@ -627,7 +627,7 @@ UNIT = dict(
    read=[
     dict(heading='Recorded crime and reported crime are not the same',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_CRIME,
          paras=[
@@ -700,7 +700,7 @@ UNIT = dict(
                'given.'})])],
    listen=[
     dict(heading='A criminologist on crime statistics', part='Part 4',
-         task='A lecture on measuring crime', band='l4',
+         task='A lecture on measuring crime · note completion and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_CRIME,
          script=[
@@ -905,7 +905,7 @@ UNIT = dict(
    read=[
     dict(heading='Certainty, severity and what deters',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'The belief that heavier punishment prevents crime is among the '
@@ -1005,7 +1005,7 @@ UNIT = dict(
            'The final paragraph, against prison places for removal.')])],
    listen=[
     dict(heading='A lecture on deterrence', part='Part 4',
-         task='A lecture on punishment and prevention', band='l4',
+         task='A lecture on punishment and prevention · note completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'I am going to tell you something that almost every '
@@ -1185,7 +1185,7 @@ UNIT = dict(
    read=[
     dict(heading='The reoffending that follows a sentence',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'About forty per cent of people released from prison in a typical '
@@ -1294,7 +1294,7 @@ UNIT = dict(
            'apart.')])],
    listen=[
     dict(heading='A judge and a researcher disagree', part='Part 4',
-         task='A recorded discussion', band='l4', qtype='Questions 67-72',
+         task='A recorded discussion · multiple choice and sentence completion', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Judge Aldersey sentences in the Crown Court. Dr '
            'Nakamura-Reilly studies reoffending. Each will start with '

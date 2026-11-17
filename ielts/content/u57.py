@@ -40,7 +40,7 @@ UNIT = dict(
    read=[
     dict(heading='Why the official term changed',
          kind='Policy notice',
-         task='Matching features and short answer',
+         task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('A terminology notice is read for what the change does and '
                 'does not affect',
@@ -108,7 +108,7 @@ UNIT = dict(
            'exhausted.', None, 'stock',
            'Paragraph 5: nobody need resubmit anything.')]),
     dict(heading='Guidance on describing people',
-         kind='Style guidance', task='Matching features',
+         kind='Style guidance', task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Prefer the term people use about themselves, where this is '
@@ -158,7 +158,7 @@ UNIT = dict(
            'Paragraph 4, with a record of what changed and why.')])],
    listen=[
     dict(heading='Querying a term used on a form', part='Part 1',
-         task='A call to a department enquiry line', band='l1',
+         task='A call to a department enquiry line · note completion and multiple choice', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Officer', 'Enquiries, Perpetua speaking.'),
@@ -428,7 +428,7 @@ UNIT = dict(
                'comes from.'})])],
    listen=[
     dict(heading='A short talk: where a category ends', part='Part 2',
-         task='A talk to trainee decision-makers', band='l2',
+         task='A talk to trainee decision-makers · multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'You are going to spend your careers applying sharp '
@@ -491,7 +491,7 @@ UNIT = dict(
            {0: 'He says the genuine borderline cases are almost never '
                'appealed.', 2: 'Representatives are not who he says appeals come from.', 3: 'Repeat applicants are not mentioned as a source.'})]),
     dict(heading='Two lawyers disagree about a definition', part='Part 3',
-         task='A discussion between two lawyers', band='l3',
+         task='A discussion between two lawyers · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Casimir', 'I want the statute to define "household" precisely '
@@ -749,7 +749,7 @@ UNIT = dict(
    read=[
     dict(heading='How a census decides who counts as what',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 33-38',
          figure=_OLD, figure2=_NEW,
          paras=[
@@ -825,7 +825,7 @@ UNIT = dict(
            'option.')])],
    listen=[
     dict(heading='A statistician on classification', part='Part 4',
-         task='A lecture on definitional change in official statistics',
+         task='A lecture on definitional change in official statistics · multiple choice',
          band='l4', qtype='Questions 39-44',
          figure=_OLD, figure2=_NEW,
          script=[
@@ -1056,7 +1056,7 @@ UNIT = dict(
    read=[
     dict(heading='One grain, one more grain, and no line',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'A solitary grain of sand constitutes no heap. Adding a single '
@@ -1192,7 +1192,7 @@ UNIT = dict(
            'Paragraph 10, which calls that an achievable property.')])],
    listen=[
     dict(heading='A lecture on vagueness', part='Part 4',
-         task='A lecture on borderline cases', band='l4',
+         task='A lecture on borderline cases · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'One grain is not a heap. Adding one grain to a '
@@ -1424,7 +1424,7 @@ UNIT = dict(
    read=[
     dict(heading='Three responses to vagueness and what each costs',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'A familiar complaint about philosophical disputes alleges that '
@@ -1579,7 +1579,7 @@ UNIT = dict(
            'position.')])],
    listen=[
     dict(heading='Two philosophers disagree about vagueness', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Adeyemi-Kowalczyk works on vagueness. Dr '
            'Beaumont-Nakamura works on legal philosophy.'),

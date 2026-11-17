@@ -26,7 +26,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Internal transfers and secondments',
-         kind='Policy page', task='Matching features and short answer',
+         kind='Policy page', task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('Two things with similar names are two sets of questions',
                 ['Where a policy defines two arrangements side by side, the '
@@ -81,7 +81,7 @@ UNIT = dict(
            'advertised.', None, 'priority',
            'Paragraph 4: the employee must apply in the normal way.')]),
     dict(heading='How to apply internally',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Discuss the move with your current manager before you apply. This '
@@ -121,7 +121,7 @@ UNIT = dict(
            'complex.')])],
    listen=[
     dict(heading='Asking about a secondment', part='Part 1',
-         task='A call to a human resources adviser', band='l1',
+         task='A call to a human resources adviser · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Adviser', 'People services, Teodor speaking.'),
@@ -171,7 +171,7 @@ UNIT = dict(
            'Which the adviser uses to make the point about speaking to the '
            'manager this week.')]),
     dict(heading='A short talk: what moves people actually make',
-         part='Part 2', task='A talk on internal career moves', band='l2',
+         part='Part 2', task='A talk on internal career moves · matching and multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have run internal recruitment for eleven years and I '
@@ -393,7 +393,7 @@ UNIT = dict(
                'the majority.'})])],
    listen=[
     dict(heading='A short talk: retraining', part='Part 2',
-         task='A talk at a careers centre', band='l2',
+         task='A talk at a careers centre · matching and multiple choice', band='l2',
          qtype='Questions 25-28',
          script=[
           ('Speaker', 'Everybody in this room has been told that the answer '
@@ -450,7 +450,7 @@ UNIT = dict(
            {0: 'Short courses have the completion rate he quotes '
                'first.', 1: 'Neighbouring qualifications are counted and measured.', 2: 'Full changes are counted, at about forty per cent.'})]),
     dict(heading='Two advisers on retraining schemes', part='Part 3',
-         task='A discussion between careers advisers', band='l3',
+         task='A discussion between careers advisers · multiple choice', band='l3',
          qtype='Questions 29-33',
          script=[
           ('Rosalind', 'The completion figures came through and the two-year '
@@ -677,7 +677,7 @@ UNIT = dict(
    read=[
     dict(heading='Routine, non-routine and the jobs in between',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching features, matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 34-39',
          figure=_TASKS,
          paras=[
@@ -750,7 +750,7 @@ UNIT = dict(
                'the direction.'})])],
    listen=[
     dict(heading='A lecture on task composition', part='Part 4',
-         task='A lecture on what automation actually takes', band='l4',
+         task='A lecture on what automation actually takes · multiple choice and matching', band='l4',
          qtype='Questions 40-45',
          figure=_TASKS,
          script=[
@@ -961,7 +961,7 @@ UNIT = dict(
    read=[
     dict(heading='Two centuries of machines and the jobs that followed',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 46-52',
          paras=[
           'Anxiety about machines destroying work is not new, and the four '
@@ -1071,7 +1071,7 @@ UNIT = dict(
            'Paragraph 5, in the episode of office computerisation.')])],
    listen=[
     dict(heading='A lecture on technological unemployment', part='Part 4',
-         task='A lecture on four historical episodes', band='l4',
+         task='A lecture on four historical episodes · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'Every generation believes machines are about to end '
@@ -1269,7 +1269,7 @@ UNIT = dict(
    read=[
     dict(heading='The aggregate that hides the person',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given, sentence completion and short answer',
          band='acad', qtype='Questions 59-65',
          paras=[
           'A statement can be true of a labour market and false of every '
@@ -1484,7 +1484,7 @@ UNIT = dict(
            'point.')])],
    listen=[
     dict(heading='Two economists disagree about adjustment', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 71-76',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 71-76',
          script=[
           ('Chair', 'Professor Oyelaran-Smit works on labour market '
            'adjustment. Dr Barczak studies displaced workers.'),
@@ -1552,7 +1552,7 @@ UNIT = dict(
            1, 'She says he has made it look small.',
            {0: 'She says he has made a large concession look small.', 2: 'He calls the fix cheap, not unnecessary.', 3: 'He says the opposite: the word never appears.'})]),
     dict(heading='A plan of the new training centre',
-         part='Part 2', task='Plan labelling and matching',
+         part='Part 2', task='Plan labelling and matching · plan labelling',
          band='l2',
          qtype='Questions 77-81',
          banklabel='Positions on the plan',

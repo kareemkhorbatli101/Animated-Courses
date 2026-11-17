@@ -28,7 +28,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Meadow Lane Surgery: registering and appointments',
-         kind='Notice', task='Flow-chart completion and short answer',
+         kind='Notice', task='Note completion and short answer',
          band='gt_short', qtype='Questions 1-6',
          skill=('A surgery notice is read for who does what, and when',
                 ['Notices of this kind contain two kinds of sentence: '
@@ -79,7 +79,7 @@ UNIT = dict(
            'closed?', None, '111',
            'Paragraph 6, unless it is an emergency.')]),
     dict(heading='When to use which service', kind='Triage table',
-         task='Matching features', band='gt_short',
+         task='Matching features and sentence completion', band='gt_short',
          qtype='Questions 7-10',
          paras=[
           'A pharmacy deals with coughs, sore throats, rashes and minor '
@@ -125,7 +125,7 @@ UNIT = dict(
            'Paragraph 4, because serious patients are seen first.')])],
    listen=[
     dict(heading='Registering a family', part='Part 1',
-         task='A conversation at a surgery reception', band='l1',
+         task='A conversation at a surgery reception · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Receptionist', 'Good morning. How can I help?'),
@@ -346,7 +346,7 @@ UNIT = dict(
                'mentions it.'})])],
    listen=[
     dict(heading='A nurse on sleep', part='Part 2',
-         task='A talk at a health centre', band='l2',
+         task='A talk at a health centre · note completion and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Nurse', 'Good evening. I am going to spend fifteen minutes '
@@ -540,7 +540,7 @@ UNIT = dict(
    read=[
     dict(heading='Waiting times: what the figures do and do not show',
          kind='Article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_WAIT,
          paras=[
@@ -597,7 +597,7 @@ UNIT = dict(
            'Paragraph 5, which is not the patient’s question.')])],
    listen=[
     dict(heading='Two patients compare experiences', part='Part 3',
-         task='A discussion between two patients', band='l3',
+         task='A discussion between two patients · note completion and multiple choice', band='l3',
          qtype='Questions 35-40',
          script=[
           ('Delphine', 'How long did you wait in the end?'),
@@ -787,8 +787,7 @@ UNIT = dict(
    read=[
     dict(heading='Clean water, vaccines and the fall in child deaths',
          kind='Academic passage',
-         task='Matching headings, True/False, Yes/No and summary '
-              'completion',
+         task='Matching headings, True/False/Not Given, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'Life expectancy in western Europe was around forty in 1850 '
@@ -882,7 +881,7 @@ UNIT = dict(
            'Paragraph 4, rather than preventing it.')])],
    listen=[
     dict(heading='A lecture on public health history', part='Part 4',
-         task='A lecture on why people live longer', band='l4',
+         task='A lecture on why people live longer · note completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'If I ask a class why we live twice as long as '
@@ -1051,8 +1050,7 @@ UNIT = dict(
    read=[
     dict(heading='Why a national average tells you very little',
          kind='Academic passage',
-         task='Matching information, True/False, Yes/No and short '
-              'answer',
+         task='Matching information, Yes/No/Not Given, True/False/Not Given, short answer and sentence completion',
          band='acad', qtype='Questions 55-62',
          paras=[
           'A country reports that life expectancy is 81.2 years, and the '
@@ -1152,7 +1150,7 @@ UNIT = dict(
            'Paragraph 5, where both are measured.')])],
    listen=[
     dict(heading='Two researchers disagree about life expectancy',
-         part='Part 4', task='A recorded discussion', band='l4',
+         part='Part 4', task='A recorded discussion · note completion and multiple choice', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Dr Villaseñor studies health inequality. Professor '

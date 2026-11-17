@@ -30,7 +30,7 @@ UNIT = dict(
    read=[
     dict(heading='Ashfield College: how to enrol',
          kind='Procedure notice',
-         task='Flow-chart completion and short answer',
+         task='Note completion and short answer',
          band='gt_short', qtype='Questions 1-6',
          skill=('A notice is read for the order of the steps',
                 ['Find the words that mark order: first, then, once, '
@@ -79,7 +79,7 @@ UNIT = dict(
            'the department office',
            'Paragraph 6: timetables are not sent by email.')]),
     dict(heading='Fees, loans and hardship funds',
-         kind='Information page', task='Matching features',
+         kind='Information page', task='Matching features and sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Full-time fees are £3,200 a year and may be paid in stages: '
@@ -123,7 +123,7 @@ UNIT = dict(
            'enrolment.')])],
    listen=[
     dict(heading='Enrolling in person', part='Part 1',
-         task='A conversation at a college office', band='l1',
+         task='A conversation at a college office · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Clerk', 'Good morning. Are you enrolling?'),
@@ -344,7 +344,7 @@ UNIT = dict(
                'it says nothing.'})])],
    listen=[
     dict(heading='Two students compare revision habits', part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion and multiple choice', band='l3',
          qtype='Questions 23-28',
          script=[
           ('Serena', 'How long did you revise last night?'),
@@ -542,7 +542,7 @@ UNIT = dict(
    read=[
     dict(heading='Three things people learn without a teacher',
          kind='Article',
-         task='Matching headings and sentence completion',
+         task='Matching headings and note completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_FREE,
          paras=[
@@ -595,7 +595,7 @@ UNIT = dict(
            'forty', 'Paragraph 5, unlike a language.')])],
    listen=[
     dict(heading='A librarian on free courses', part='Part 2',
-         task='A talk at a public library', band='l2',
+         task='A talk at a public library · note completion and multiple choice', band='l2',
          qtype='Questions 35-40',
          figure=_FREE,
          script=[
@@ -774,8 +774,7 @@ UNIT = dict(
    read=[
     dict(heading='Class size, teaching and what the evidence shows',
          kind='Academic passage',
-         task='Matching headings, True/False/Not Given and summary '
-              'completion',
+         task='Matching headings, True/False/Not Given and sentence completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'Parents choosing a school almost always ask about class size, and '
@@ -864,7 +863,7 @@ UNIT = dict(
            'Paragraph 4, which is the usual way of staffing them.')])],
    listen=[
     dict(heading='A lecture on measuring school performance',
-         part='Part 4', task='A lecture on school results', band='l4',
+         part='Part 4', task='A lecture on school results · note completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Every country publishes a table of school '
@@ -1023,8 +1022,7 @@ UNIT = dict(
    read=[
     dict(heading='Why smaller classes may not be the answer',
          kind='Academic passage',
-         task='Matching information, True/False, Yes/No and short '
-              'answer',
+         task='Matching information, Yes/No/Not Given, True/False/Not Given, short answer and sentence completion',
          band='acad', qtype='Questions 55-62',
          paras=[
           'The argument for smaller classes is normally made as though the '
@@ -1127,7 +1125,7 @@ UNIT = dict(
            'behind', 'After better pay and more training.')])],
    listen=[
     dict(heading='Two researchers disagree about class size',
-         part='Part 4', task='A recorded discussion', band='l4',
+         part='Part 4', task='A recorded discussion · multiple choice and note completion', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Dr Fenwick-Abara studies class size. Professor '

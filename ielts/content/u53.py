@@ -35,7 +35,7 @@ UNIT = dict(
    read=[
     dict(heading='Raising a concern at work — the policy',
          kind='Policy document',
-         task='Matching features and short answer',
+         task='Multiple choice and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A concerns policy is read for the stage at which '
                 'protection begins',
@@ -113,7 +113,7 @@ UNIT = dict(
                'separate.', 3: 'Anonymity is not promised, so refusing to be named is '
                'not bad faith.'})]),
     dict(heading='Protections for those who raise concerns',
-         kind='Guidance', task='Flow-chart completion',
+         kind='Guidance', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Put it in writing, even where you have already raised it in '
@@ -156,7 +156,7 @@ UNIT = dict(
            'Paragraph 4, which the committee treats as a right.')])],
    listen=[
     dict(heading='Raising a formal concern', part='Part 1',
-         task='A call to a designated officer', band='l1',
+         task='A call to a designated officer · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Officer', 'Designated officer line, Marguerite speaking.'),
@@ -423,7 +423,7 @@ UNIT = dict(
            {0: 'Yes would need intent; he says nobody designed it.', 2: 'Not Given is wrong because he addresses intention.'})])],
    listen=[
     dict(heading='A short talk: what rules produce', part='Part 2',
-         task='A talk at a public management seminar', band='l2',
+         task='A talk at a public management seminar · multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I am going to describe four ways a target gets met '
@@ -483,7 +483,7 @@ UNIT = dict(
            {0: 'Threshold behaviour is visible as a spike in the '
                'figures.', 1: 'Selection shows in the case mix if anybody looks.', 2: 'Redefinition is visible in the definition itself.'})]),
     dict(heading='Two managers disagree about targets', part='Part 3',
-         task='A discussion between two managers', band='l3',
+         task='A discussion between two managers · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Perpetua', 'I want the completion target replaced and I will '
@@ -747,7 +747,7 @@ UNIT = dict(
    read=[
     dict(heading='Three services and the measure they were judged by',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_TGT, figure2=_OUT,
          paras=[
@@ -831,7 +831,7 @@ UNIT = dict(
                'separately.'})])],
    listen=[
     dict(heading='A researcher on target effects', part='Part 4',
-         task='A lecture on measurement and behaviour', band='l4',
+         task='A lecture on measurement and behaviour · multiple choice and matching', band='l4',
          qtype='Questions 39-44',
          figure=_TGT, figure2=_OUT,
          script=[
@@ -1060,7 +1060,7 @@ UNIT = dict(
    read=[
     dict(heading='When a proxy becomes the objective',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'The observation that a measure employed for control ceases to be '
@@ -1199,7 +1199,7 @@ UNIT = dict(
            'Paragraph 9, a direct estimate of the distortion.')])],
    listen=[
     dict(heading='A lecture on measurement and incentives', part='Part 4',
-         task='A lecture on why measures degrade', band='l4',
+         task='A lecture on why measures degrade · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'A measure used for control stops being a measure of '
@@ -1426,7 +1426,7 @@ UNIT = dict(
    read=[
     dict(heading='Judgement, discretion and what they produced',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Arguments against measurement in public services invariably '
@@ -1577,7 +1577,7 @@ UNIT = dict(
            'Paragraph 8, disadvantaging people with complicated lives.')])],
    listen=[
     dict(heading='An administrator and a researcher disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Ms Winterbourne-Adeyemi runs a benefits office. Dr '
            'Castellanos-Nkemdirim researches public administration.'),

@@ -37,7 +37,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='How we use your data',
-         kind='Privacy notice', task='Matching features and short answer',
+         kind='Privacy notice', task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A notice of rights is read for the verbs that bind',
                 ['Notices of this kind mix three things: what the '
@@ -98,7 +98,7 @@ UNIT = dict(
            'quarter',
            'Paragraph 4, which names three categories of supplier.')]),
     dict(heading='Making a subject access request',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Decide what you are asking for. A request for everything is '
@@ -132,7 +132,7 @@ UNIT = dict(
            'Paragraph 4, where a request is complex.')])],
    listen=[
     dict(heading='Making a data request', part='Part 1',
-         task='A call to a data protection team', band='l1',
+         task='A call to a data protection team · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Officer', 'Data protection team, Benedikt speaking.'),
@@ -183,7 +183,7 @@ UNIT = dict(
           ('The month runs from the day the ____________ documents arrive.',
            None, 'identity', 'Rather than from the day of the call.')]),
     dict(heading='A short talk: what people will trade', part='Part 2',
-         task='A talk at a consumer research briefing', band='l2',
+         task='A talk at a consumer research briefing · multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'We have run this study for six years, asking people '
@@ -415,7 +415,7 @@ UNIT = dict(
                'she reads.'})])],
    listen=[
     dict(heading='Two users disagree about tracking', part='Part 3',
-         task='A conversation about a tracking setting', band='l3',
+         task='A conversation about a tracking setting · multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Marisol', 'You turned it all off, then.'),
@@ -634,7 +634,7 @@ UNIT = dict(
    step=3,
    read=[
     dict(heading='Signals, inference and the picture they make',
-         kind='Article', task='Matching information and True/False/Not Given',
+         kind='Article', task='Matching information, diagram labelling and True/False/Not Given',
          band='gt_work', qtype='Questions 30-35',
          figure=_REC,
          paras=[
@@ -710,7 +710,7 @@ UNIT = dict(
                'given.'})])],
    listen=[
     dict(heading='An engineer on inference', part='Part 4',
-         task='A talk on how profiles are built', band='l4',
+         task='A talk on how profiles are built · multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_REC,
          script=[
@@ -914,7 +914,7 @@ UNIT = dict(
    read=[
     dict(heading='Three fields and a name',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 42-48',
          paras=[
           'Organisations that wish to publish or share data about people '
@@ -1039,7 +1039,7 @@ UNIT = dict(
            'between.')])],
    listen=[
     dict(heading='A lecture on re-identification', part='Part 4',
-         task='A lecture on anonymised data', band='l4',
+         task='A lecture on anonymised data · matching and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I am going to give you one number and then spend the '
@@ -1250,7 +1250,7 @@ UNIT = dict(
    read=[
     dict(heading='A law written for files, applied to inferences',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 55-61',
          paras=[
           'The complaint that privacy law cannot keep pace with technology is '
@@ -1360,7 +1360,7 @@ UNIT = dict(
            'opponent with a reason to prefer the slogan.')])],
    listen=[
     dict(heading='A regulator and an engineer disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 62-67',
+         task='A recorded exchange · multiple choice and matching', band='l4', qtype='Questions 62-67',
          script=[
           ('Chair', 'Ms Oyelaran-Petit is a deputy commissioner. Dr Halvorsen '
            'builds ranking systems.'),

@@ -55,7 +55,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='What listing means for an owner',
-         kind='Official guidance', task='Matching features and short answer',
+         kind='Official guidance', task='Matching features, multiple choice and table completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('Reading a grade as a level of constraint',
                 ['Where official guidance sorts things into grades, bands or '
@@ -121,7 +121,7 @@ UNIT = dict(
            'Paragraph 4, July 1948, which is why a wall or privy may be '
            'listed without being named.')]),
     dict(heading='Applying for consent to alter',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Before applying, obtain pre-application advice from the '
@@ -163,7 +163,7 @@ UNIT = dict(
            'margin.')])],
    listen=[
     dict(heading='Applying for listed building consent', part='Part 1',
-         task='A call to a conservation officer', band='l1',
+         task='A call to a conservation officer · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Officer', 'Conservation team, Priya Nandakumar.'),
@@ -217,7 +217,7 @@ UNIT = dict(
            'Leaving it out makes the application invalid, as the officer '
            'says.')]),
     dict(heading='A short talk: what a conservation officer actually does',
-         part='Part 2', task='A talk to new homeowners', band='l2',
+         part='Part 2', task='A talk to new homeowners · multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have fifteen minutes and I want to use them to '
@@ -481,7 +481,7 @@ UNIT = dict(
            {1: 'No would need urgency; he allows fifteen years.', 2: 'Not Given is wrong because he gives a timescale.'})])],
    listen=[
     dict(heading='Two trustees disagree about a chapel', part='Part 3',
-         task='A trustees’ meeting', band='l3',
+         task='A trustees’ meeting · multiple choice and matching', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Rosalind', 'The surveyor’s figure is four hundred and twelve '
@@ -706,7 +706,7 @@ UNIT = dict(
    read=[
     dict(heading='The abbey site in 1540, 1890 and today',
          kind='Three maps with notes',
-         task='Map labelling and matching information',
+         task='Plan labelling and matching information',
          band='gt_work', qtype='Questions 30-35',
          figure=_MAP,
          paras=[
@@ -768,7 +768,7 @@ UNIT = dict(
                'earlier one.'})])],
    listen=[
     dict(heading='An archaeologist on the site phases', part='Part 2',
-         task='A guided walk around the site', band='l2',
+         task='A guided walk around the site · multiple choice', band='l2',
          qtype='Questions 36-39',
          figure=_MAP,
          script=[
@@ -969,7 +969,7 @@ UNIT = dict(
    read=[
     dict(heading='Four claims on one collection',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 40-46',
          paras=[
           'A museum in northern Europe holds a group of nine hundred objects '
@@ -1092,7 +1092,7 @@ UNIT = dict(
            'individual object carries.')])],
    listen=[
     dict(heading='A lecture on provenance and restitution', part='Part 4',
-         task='A lecture on four kinds of claim', band='l4',
+         task='A lecture on four kinds of claim · multiple choice and matching', band='l4',
          qtype='Questions 47-52',
          script=[
           ('Lecturer', 'Today I want to take the heat out of a subject that '
@@ -1302,7 +1302,7 @@ UNIT = dict(
    read=[
     dict(heading='Three returns and what happened next',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given, sentence completion and short answer',
          band='acad', qtype='Questions 53-59',
          paras=[
           'Arguments about restitution are conducted almost entirely '
@@ -1420,7 +1420,7 @@ UNIT = dict(
            'over decades.')])],
    listen=[
     dict(heading='A curator and a campaigner disagree', part='Part 4',
-         task='A recorded panel discussion', band='l4',
+         task='A recorded panel discussion · multiple choice', band='l4',
          qtype='Questions 60-65',
          script=[
           ('Chair', 'Dr Fenwick-Oyelaran curates the collection in question. '

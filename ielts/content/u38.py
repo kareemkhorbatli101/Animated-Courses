@@ -33,7 +33,7 @@ UNIT = dict(
    read=[
     dict(heading='Joining a research study: your rights',
          kind='Information sheet',
-         task='Matching features and short answer',
+         task='Multiple choice, matching features and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('Rights sheets are written to be skimmed and tested on the '
                 'exceptions',
@@ -91,7 +91,7 @@ UNIT = dict(
            'Paragraph 4: unconnected with the study, with details on the '
            'final page.')]),
     dict(heading='Consent and withdrawal',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'You will first be given this information sheet to take away. A '
@@ -129,7 +129,7 @@ UNIT = dict(
            'retained.')])],
    listen=[
     dict(heading='Consenting to take part', part='Part 1',
-         task='A consent visit', band='l1', qtype='Questions 10-14',
+         task='A consent visit · note completion', band='l1', qtype='Questions 10-14',
          script=[
           ('Nurse', 'Good morning. You had the information sheet on '
            'Tuesday?'),
@@ -177,7 +177,7 @@ UNIT = dict(
            'Along with stopping further collection, though the existing data '
            'remains.')]),
     dict(heading='A short talk: what ethics review is for', part='Part 2',
-         task='A talk to new research staff', band='l2',
+         task='A talk to new research staff · multiple choice and matching', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'Everybody in this room thinks ethics review is slow. '
@@ -416,7 +416,7 @@ UNIT = dict(
                'quoted.'})])],
    listen=[
     dict(heading='A short talk: reading a claim', part='Part 2',
-         task='A talk on reading science reporting', band='l2',
+         task='A talk on reading science reporting · multiple choice and matching', band='l2',
          qtype='Questions 25-28',
          script=[
           ('Speaker', 'I am going to give you four questions to ask of any '
@@ -472,7 +472,7 @@ UNIT = dict(
            {0: 'The shrinkage is real, not a rounding artefact.', 2: 'The adjustment is correct; it is the reporting that '
                'fails.', 3: 'She calls it the most informative number in the story.'})]),
     dict(heading='A scientist and a journalist disagree', part='Part 3',
-         task='A conversation after a press briefing', band='l3',
+         task='A conversation after a press briefing · multiple choice', band='l3',
          qtype='Questions 29-33',
          script=[
           ('Dr Ferreira-Nakamura', 'Your headline says coffee cuts heart '
@@ -703,7 +703,7 @@ UNIT = dict(
    read=[
     dict(heading='Allocation, masking and the control arm',
          kind='Process article',
-         task='Flow-chart completion and diagram labelling',
+         task='Flow-chart completion, matching information and multiple choice',
          band='gt_work', qtype='Questions 34-39',
          figure=_TRIAL,
          paras=[
@@ -772,7 +772,7 @@ UNIT = dict(
            {0: 'Time is not the reason given in paragraph 6.', 2: 'The funder is not mentioned in the passage.', 3: 'Replication is not the reason the plan is published.'})])],
    listen=[
     dict(heading='A methodologist on trial design', part='Part 4',
-         task='A lecture on why each step exists', band='l4',
+         task='A lecture on why each step exists · matching and multiple choice', band='l4',
          qtype='Questions 40-45',
          figure=_TRIAL,
          script=[
@@ -971,7 +971,7 @@ UNIT = dict(
    read=[
     dict(heading='A literature of successes',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 46-52',
          paras=[
           'Between 2011 and 2020 a series of large projects attempted '
@@ -1100,7 +1100,7 @@ UNIT = dict(
            'point.')])],
    listen=[
     dict(heading='A lecture on publication bias', part='Part 4',
-         task='A lecture on why literatures mislead', band='l4',
+         task='A lecture on why literatures mislead · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'I want to do something slightly unusual today, which '
@@ -1315,7 +1315,7 @@ UNIT = dict(
    read=[
     dict(heading='Two studies, two results, one unresolved question',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given, short answer and sentence completion',
          band='acad', qtype='Questions 59-65',
          paras=[
           'In 2009 a laboratory reported that a brief writing exercise '
@@ -1436,7 +1436,7 @@ UNIT = dict(
            'says matters, a different claim has been tested.')])],
    listen=[
     dict(heading='Two researchers disagree about replication', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 66-71',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 66-71',
          script=[
           ('Chair', 'Professor Adeyemi-Strand ran the 2017 replication. Dr '
            'Vasquez-Oyelaran was an author of the 2009 original.'),

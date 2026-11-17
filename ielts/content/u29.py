@@ -25,7 +25,7 @@ UNIT = dict(
    read=[
     dict(heading='How to complain about a programme',
          kind='Regulator notice',
-         task='Flow-chart completion and short answer',
+         task='Multiple choice, matching features and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A regulator’s notice is read for the ground, not the '
                 'grievance',
@@ -83,7 +83,7 @@ UNIT = dict(
            'forty', 'Paragraph 5, with findings published every '
            'fortnight.')]),
     dict(heading='What the code requires',
-         kind='Summary of rules', task='Matching features',
+         kind='Summary of rules', task='Multiple choice and matching features',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Accuracy requires that news, in whatever form, is reported with '
@@ -130,7 +130,7 @@ UNIT = dict(
                'one programme.', 2: 'Fairness gives a right to respond to criticism.'})])],
    listen=[
     dict(heading='Making a complaint', part='Part 1',
-         task='A call to a broadcasting regulator', band='l1',
+         task='A call to a broadcasting regulator · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Officer', 'Complaints team, Yusuf speaking.'),
@@ -177,7 +177,7 @@ UNIT = dict(
           ('Reference number: C____________', None, '9472',
            'Noted on the file during the call.')]),
     dict(heading='A short talk: who people believe', part='Part 2',
-         task='A talk at a journalism school', band='l2',
+         task='A talk at a journalism school · multiple choice and matching', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have surveyed trust in news for fourteen years, and '
@@ -409,7 +409,7 @@ UNIT = dict(
                'never does.'})])],
    listen=[
     dict(heading='Two editors disagree about balance', part='Part 3',
-         task='A conversation in a newsroom', band='l3',
+         task='A conversation in a newsroom · multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Fiadh', 'We have four minutes on the water story and I want to '
@@ -619,7 +619,7 @@ UNIT = dict(
    read=[
     dict(heading='What gets shared and what gets read',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 30-35',
          figure=_SHARES,
          paras=[
@@ -681,7 +681,7 @@ UNIT = dict(
            'Paragraph 4, where local news reverses the ratio.')])],
    listen=[
     dict(heading='A researcher on sharing behaviour', part='Part 4',
-         task='A talk on attention and sharing', band='l4',
+         task='A talk on attention and sharing · multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_SHARES,
          script=[
@@ -892,7 +892,7 @@ UNIT = dict(
    read=[
     dict(heading='Novelty, emotion and the speed of a rumour',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 42-48',
          paras=[
           'False stories travel faster and further than true ones, and the '
@@ -1013,7 +1013,7 @@ UNIT = dict(
            'Paragraph 7, which is why intention is not the problem.')])],
    listen=[
     dict(heading='A lecture on misinformation', part='Part 4',
-         task='A lecture on why false stories spread', band='l4',
+         task='A lecture on why false stories spread · multiple choice and matching', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'That false stories spread faster than true ones is '
@@ -1225,7 +1225,7 @@ UNIT = dict(
    read=[
     dict(heading='What happens after a story is corrected',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 55-61',
          paras=[
           'The question whether correcting a false story works has been '
@@ -1331,7 +1331,7 @@ UNIT = dict(
            'important question.')])],
    listen=[
     dict(heading='A platform officer and a researcher disagree',
-         part='Part 4', task='A recorded exchange', band='l4',
+         part='Part 4', task='A recorded exchange · multiple choice', band='l4',
          qtype='Questions 62-67',
          script=[
           ('Chair', 'Ms Delacroix-Oyediran leads trust and safety at a large '

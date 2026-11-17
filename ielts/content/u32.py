@@ -18,7 +18,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Ashfield recycling: the new three-bin scheme',
-         kind='Council notice', task='Matching features and short answer',
+         kind='Council notice', task='Multiple choice',
          band='gt_short', qtype='Questions 1-5',
          skill=('Finding the exception in a notice',
                 ['Councils write the rule first and the exception last. The '
@@ -83,7 +83,7 @@ UNIT = dict(
            {0: 'No charge for emptying a contaminated bin is '
                'mentioned.', 1: 'It waits until the next scheduled collection.', 3: 'The bin is left, not taken away.'})]),
     dict(heading='Booking a bulky collection',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Bulky items are anything that will not fit in a household bin with '
@@ -120,7 +120,7 @@ UNIT = dict(
            'booking and a new payment.')])],
    listen=[
     dict(heading='Arranging a trade waste contract', part='Part 1',
-         task='A call from a small business', band='l1',
+         task='A call from a small business · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Officer', 'Ashfield trade waste, Benedikt speaking.'),
@@ -174,7 +174,7 @@ UNIT = dict(
            'And the officer adds who is fined if they are missing, which is '
            'the detail the question is really testing.')]),
     dict(heading='A short talk: what contamination costs', part='Part 2',
-         task='A briefing for new crew members', band='l2',
+         task='A briefing for new crew members · multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Supervisor', 'You will hear the word contamination forty times '
@@ -395,7 +395,7 @@ UNIT = dict(
                'not.'})])],
    listen=[
     dict(heading='Two engineers disagree about repairability', part='Part 3',
-         task='A discussion after a design review', band='l3',
+         task='A discussion after a design review · multiple choice and matching', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Astrid', 'My position is that we should be able to open it with '
@@ -621,7 +621,7 @@ UNIT = dict(
    step=3,
    read=[
     dict(heading='Four streams and four destinations',
-         kind='Process article', task='Flow-chart completion and True/False/Not Given',
+         kind='Process article', task='Multiple choice, matching features, flow-chart completion and True/False/Not Given',
          band='long', qtype='Questions 30-36',
          figure=dict(kind='process',
                      title='How mixed household recycling is sorted',
@@ -737,7 +737,7 @@ UNIT = dict(
                'the mechanism.'})])],
    listen=[
     dict(heading='A plant manager on sorting', part='Part 4',
-         task='A site visit talk', band='l4', qtype='Questions 37-42',
+         task='A site visit talk · multiple choice and matching', band='l4', qtype='Questions 37-42',
          script=[
           ('Manager', 'Welcome to the plant. I am going to walk you through '
            'the line, and I want to start by correcting the thing everybody '
@@ -964,7 +964,7 @@ UNIT = dict(
    read=[
     dict(heading='The last twenty per cent',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 43-49',
          paras=[
           'Almost every developed country that introduced household recycling '
@@ -1083,7 +1083,7 @@ UNIT = dict(
            'Paragraph 2, repeated in paragraph 3 as a laminated object.')])],
    listen=[
     dict(heading='A lecture on diminishing returns', part='Part 4',
-         task='Why the last points cost most', band='l4',
+         task='Why the last points cost most · multiple choice and matching', band='l4',
          qtype='Questions 50-55',
          script=[
           ('Lecturer', 'I want to take a curve you have all seen and ask why '
@@ -1284,7 +1284,7 @@ UNIT = dict(
    read=[
     dict(heading='The material that should not have been made',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 56-62',
          paras=[
           'The previous cycle argued that household recycling rates have '
@@ -1502,7 +1502,7 @@ UNIT = dict(
            'point.')])],
    listen=[
     dict(heading='A campaigner and an industry representative disagree',
-         part='Part 4', task='A recorded panel discussion', band='l4',
+         part='Part 4', task='A recorded panel discussion · multiple choice and matching', band='l4',
          qtype='Questions 68-73',
          script=[
           ('Chair', 'Ms Lindqvist, you argue that recycling campaigns are a '
@@ -1588,7 +1588,7 @@ UNIT = dict(
            'designed out.',
            {0: 'Pricing is already part of what he proposes.', 2: 'Two product cycles is his timescale, not her addition.', 3: 'No exemption is discussed by either speaker.'})]),
     dict(heading='A plan of the recycling centre',
-         part='Part 2', task='Plan labelling and matching',
+         part='Part 2', task='Plan labelling and matching · plan labelling',
          band='l2',
          qtype='Questions 74-78',
          banklabel='Positions on the plan',

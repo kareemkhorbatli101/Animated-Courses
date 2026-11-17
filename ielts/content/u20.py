@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Riverside Hall: hire rates and conditions',
          kind='Hire information',
-         task='Table completion and matching features',
+         task='Note completion and matching features',
          band='gt_short', qtype='Questions 1-6',
          skill=('Hire information is read for the conditions, not the '
                 'prices',
@@ -115,7 +115,7 @@ UNIT = dict(
            'only', 'Paragraph 4, with an alternative on request.')])],
    listen=[
     dict(heading='Booking the hall for a concert', part='Part 1',
-         task='A telephone call to a venue', band='l1',
+         task='A telephone call to a venue · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Manager', 'Riverside Hall, bookings.'),
@@ -349,7 +349,7 @@ UNIT = dict(
                'is.'})])],
    listen=[
     dict(heading='A short talk: making a living from music',
-         part='Part 2', task='A talk to music students', band='l2',
+         part='Part 2', task='A talk to music students · note completion and multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I am going to describe how a working musician is '
@@ -396,7 +396,7 @@ UNIT = dict(
           ('His advice is to build ____________ sources of income.',
            None, 'four', 'Rather than one large source that may disappear.')]),
     dict(heading='Two musicians on streaming income', part='Part 3',
-         task='A discussion between two performers', band='l3',
+         task='A discussion between two performers · note completion and multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Ambrose', 'You put the streaming figures in your newsletter '
@@ -603,7 +603,7 @@ UNIT = dict(
    read=[
     dict(heading='Twenty-five years of listening',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 33-38',
          figure=_FORM,
          paras=[
@@ -666,7 +666,7 @@ UNIT = dict(
            '230', 'Paragraph 5, before recovering to £780 million.')])],
    listen=[
     dict(heading='An analyst on listening habits', part='Part 4',
-         task='A lecture on the recorded music market', band='l4',
+         task='A lecture on the recorded music market · note completion and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_FORM,
          script=[
@@ -866,7 +866,7 @@ UNIT = dict(
    read=[
     dict(heading='Before recording, music was always live',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'For almost all of human history, hearing music meant being in '
@@ -961,7 +961,7 @@ UNIT = dict(
            'Paragraph 6, which is now the larger commercial effect.')])],
    listen=[
     dict(heading='A lecture on recording and performance',
-         part='Part 4', task='A lecture in a music department',
+         part='Part 4', task='A lecture in a music department · note completion and multiple choice',
          band='l4', qtype='Questions 53-58',
          script=[
           ('Lecturer', 'Until about eighteen ninety, hearing music meant '
@@ -1142,7 +1142,7 @@ UNIT = dict(
    read=[
     dict(heading='The performance, the record and the thing itself',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'When somebody says they know a symphony well, they almost '
@@ -1235,7 +1235,7 @@ UNIT = dict(
            'know.')]),
     dict(heading='The loudness war',
          kind='Academic passage \u00b7 the stamina read',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given, short answer and sentence completion',
          band='stamina',
          qtype='Questions 67-74',
          skill=('Reading a long passage without losing the thread',
@@ -1383,7 +1383,7 @@ UNIT = dict(
            'Paragraph 6 names the practice and explains what it does.')])],
    listen=[
     dict(heading='A performer and a producer disagree', part='Part 4',
-         task='A recorded discussion', band='l4',
+         task='A recorded discussion · note completion and multiple choice', band='l4',
          qtype='Questions 75-80',
          script=[
           ('Chair', 'Mr Szabo-Whitfield is a concert pianist. Ms '

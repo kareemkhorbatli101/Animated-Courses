@@ -29,7 +29,7 @@ LPAPER = dict(
 
   dict(no=1, first=1, part='Part 1', band='l1',
        heading='Enrolling on an evening course',
-       task='A conversation between a caller and a college office',
+       task='A conversation between a caller and a college office · note completion',
        qtype='Questions 1-10',
        blurb='Questions 1–10. Complete the enrolment form. Write ONE WORD '
              'AND/OR A NUMBER for each answer.',
@@ -94,7 +94,7 @@ LPAPER = dict(
 
   dict(no=2, first=11, part='Part 2', band='l2',
        heading='A talk about a river clean-up scheme',
-       task='A talk to new volunteers',
+       task='A talk to new volunteers · multiple choice, matching and note completion',
        qtype='Questions 11-20',
        blurb='Questions 11–16. Choose the correct letter. Questions '
              '17–20. Complete the notes with ONE WORD ONLY.',
@@ -175,7 +175,7 @@ LPAPER = dict(
 
   dict(no=3, first=21, part='Part 3', band='l3',
        heading='Two students plan a survey of bus use',
-       task='A discussion between two students and a tutor',
+       task='A discussion between two students and a tutor · multiple choice and note completion',
        qtype='Questions 21-30',
        blurb='Questions 21–26. Choose the correct letter. Questions '
              '27–30. Complete the notes with ONE WORD ONLY.',
@@ -269,7 +269,7 @@ LPAPER = dict(
 
   dict(no=4, first=31, part='Part 4', band='l4',
        heading='A lecture on how museums choose what to display',
-       task='A lecture on museum collections',
+       task='A lecture on museum collections · multiple choice, matching and note completion',
        qtype='Questions 31-40',
        blurb='Questions 31–36. Choose the correct letter. Questions '
              '37–40. Complete the notes with ONE WORD ONLY.',

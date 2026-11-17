@@ -30,7 +30,7 @@ UNIT = dict(
    read=[
     dict(heading='Severe weather warnings — what each level means',
          kind='Public guidance',
-         task='Matching features and short answer',
+         task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('Warning guidance is read for what the colour means about '
                 'likelihood and impact',
@@ -100,7 +100,7 @@ UNIT = dict(
            'Paragraph 6: twenty per cent means one occurrence in five.',
            {0: 'Paragraph 6 says it is not an error.', 2: 'No failure is reported for an unrealised warning.', 3: 'Warnings are updated, not downgraded afterwards.'})]),
     dict(heading='What to do at each level',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'At yellow, check the detail rather than the colour. The warning '
@@ -140,7 +140,7 @@ UNIT = dict(
            'Paragraph 4: about four fifths of reports received.')])],
    listen=[
     dict(heading='Querying a warning that was not issued', part='Part 1',
-         task='A call to a weather service enquiry line', band='l1',
+         task='A call to a weather service enquiry line · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Officer', 'Weather service enquiries, Rosalind speaking.'),
@@ -393,7 +393,7 @@ UNIT = dict(
                'working.', 2: 'Not Given is wrong because she interprets the figure.'})])],
    listen=[
     dict(heading='A short talk: living with a forecast', part='Part 2',
-         task='A talk to emergency planners', band='l2',
+         task='A talk to emergency planners · multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'Any warning system makes two kinds of mistake, and '
@@ -456,7 +456,7 @@ UNIT = dict(
            {0: 'Accuracy of the forecast is the old complaint, not the '
                'new one.', 2: 'Timeliness is not what the complaints turn to.', 3: 'The warning area is not raised in the new complaints.'})]),
     dict(heading='Two officers disagree about false alarms', part='Part 3',
-         task='A discussion between two emergency officers', band='l3',
+         task='A discussion between two emergency officers · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Thaddeus', 'I am going to propose we raise the evacuation '
@@ -711,7 +711,7 @@ UNIT = dict(
    read=[
     dict(heading='Three ways of scoring a prediction',
          kind='Data article',
-         task='Matching information and table completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 33-38',
          figure=_SKILL,
          paras=[
@@ -775,7 +775,7 @@ UNIT = dict(
            'Paragraph 4, where it crosses the numerical model.')])],
    listen=[
     dict(heading='A forecaster on verification', part='Part 4',
-         task='A lecture on scoring forecasts', band='l4',
+         task='A lecture on scoring forecasts · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_SKILL,
          script=[
@@ -997,7 +997,7 @@ UNIT = dict(
    read=[
     dict(heading='Base rates and the warning that is usually wrong',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'A detection apparatus accurate ninety-nine times in a hundred '
@@ -1137,7 +1137,7 @@ UNIT = dict(
            'claim.')])],
    listen=[
     dict(heading='A lecture on base rates', part='Part 4',
-         task='A lecture on detecting rare events', band='l4',
+         task='A lecture on detecting rare events · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'A test that is right ninety-nine times in a hundred '
@@ -1373,7 +1373,7 @@ UNIT = dict(
    read=[
     dict(heading='The thirty per cent that happened',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'A forecaster announcing a thirty per cent probability of '
@@ -1522,7 +1522,7 @@ UNIT = dict(
            'The final paragraph, which is the reader\u2019s second question.')])],
    listen=[
     dict(heading='A forecaster and a politician disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Dr Oyelaran-Strand is a senior forecaster. Mr '
            'Beckwith-Nakamura chairs a regional authority.'),

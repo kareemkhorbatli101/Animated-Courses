@@ -30,7 +30,7 @@ UNIT = dict(
    read=[
     dict(heading='Three posts at Marchfield Council',
          kind='Job adverts',
-         task='Matching features and short answer',
+         task='Matching features, short answer and sentence completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A job advert is read for the word "essential"',
                 ['Every advert separates what you must have from what '
@@ -90,7 +90,7 @@ UNIT = dict(
            'Paragraph 6: the panel compares applicants against the '
            'same headings.')]),
     dict(heading='How we shortlist', kind='Procedure notice',
-         task='Flow-chart completion', band='gt_short',
+         task='Note completion', band='gt_short',
          qtype='Questions 7-10',
          paras=[
           'When the closing date has passed, every application is checked '
@@ -122,7 +122,7 @@ UNIT = dict(
            'Paragraph 4, and the rest are told within five days.')])],
    listen=[
     dict(heading='A call about an application', part='Part 1',
-         task='A telephone call from a council office', band='l1',
+         task='A telephone call from a council office · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Officer', 'Good afternoon. Is that Mr Haruna-Petrov?'),
@@ -333,7 +333,7 @@ UNIT = dict(
                'it is silent.'})])],
    listen=[
     dict(heading='A manager briefs a new starter', part='Part 2',
-         task='A talk to a new employee', band='l2',
+         task='A talk to a new employee · note completion and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Manager', 'Welcome. I am going to spend ten minutes telling '
@@ -529,7 +529,7 @@ UNIT = dict(
    read=[
     dict(heading='The four-day week: three trials',
          kind='Article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_HOURS,
          paras=[
@@ -589,7 +589,7 @@ UNIT = dict(
            'Paragraph 3, which is the clearest single result.')])],
    listen=[
     dict(heading='Two employees discuss shorter hours', part='Part 3',
-         task='A discussion between two colleagues', band='l3',
+         task='A discussion between two colleagues · multiple choice and note completion', band='l3',
          qtype='Questions 35-40',
          script=[
           ('Marisol', 'Did you read the note about the four-day week '
@@ -781,8 +781,7 @@ UNIT = dict(
    read=[
     dict(heading='The machines and the jobs they replaced',
          kind='Academic passage',
-         task='Matching headings, True/False, Yes/No and summary '
-              'completion',
+         task='Matching headings, Yes/No/Not Given, True/False/Not Given and sentence completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'The fear that machines will take the work is older than the '
@@ -876,7 +875,7 @@ UNIT = dict(
            'Paragraph 4, although average wages rose.')])],
    listen=[
     dict(heading='A lecture on technology and employment',
-         part='Part 4', task='A lecture on automation', band='l4',
+         part='Part 4', task='A lecture on automation · note completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I want to give you three facts about automation '
@@ -1043,7 +1042,7 @@ UNIT = dict(
    read=[
     dict(heading='Two centuries of predicting the end of work',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 55-62',
          paras=[
           'Every generation since 1800 has produced a confident '
@@ -1226,7 +1225,7 @@ UNIT = dict(
            'hours a choice.')])],
    listen=[
     dict(heading='Two economists disagree about automation',
-         part='Part 4', task='A recorded discussion', band='l4',
+         part='Part 4', task='A recorded discussion · note completion and multiple choice', band='l4',
          qtype='Questions 68-73',
          script=[
           ('Chair', 'Dr Oyelaran-Vance expects automation to create more '

@@ -1,0 +1,10 @@
+{
+ "note": "Phase 11 - every label tells the truth. The November audit found three kinds of false label and nothing in the project had ever gated one, because freeze.py did not record the task field at all. This phase closes both halves. qtypes.py derives a block's question types from its items, its lettered bank and the kind of figure it actually draws, and never from the label it is rewriting; labeledit.py writes that derivation into the 859 unit labels and 52 listening-paper labels that disagreed with it. 542 items headed short answer are now sentence completion, which is what a sentence with a blank in it is. The 171 blocks claiming a drawn table, flow chart or form are now named for what the page holds: Table completion and Flow-chart completion where a table or process figure is drawn (21 blocks), note completion where the gaps are lines under the exercise heading (150 blocks). Multiple choice is named for the first time, on the 270 items that are exactly that. Every listening block keeps its scenario and gains its question types after a middle dot, so a candidate is told which task they are practising. The skill bar takes a shortened form of the label, because its box shrinks text to fit and the full list would crowd it; the full list prints on the exercise line, which wraps. NO ITEM CHANGES: not one stem, option list, answer, explanation or wrong-option line moves in this phase. omit.py now requires the label to reach the document and freeze.py records it, so from here a label cannot drift from the exercise under it without failing a gate.",
+ "items": [],
+ "item_fields": [],
+ "texts": [],
+ "prose": ["*"],
+ "heads": false,
+ "measure": {},
+ "figures": {}
+}

@@ -41,7 +41,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Surgery opening times and how to book',
-         kind='Notice', task='Form completion and short answer',
+         kind='Notice', task='Note completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A surgery notice is read for which number to ring',
                 ['There are always two or three numbers: normal, '
@@ -73,7 +73,7 @@ UNIT = dict(
            'That is, from eight until twenty past.')])],
    listen=[
     dict(heading='Making an appointment', part='Part 1',
-         task='A telephone call to a surgery', band='l1',
+         task='A telephone call to a surgery · note completion', band='l1',
          qtype='Questions 6-10',
          script=[
           ('Receptionist', 'Good morning, Bell Lane Surgery.'),
@@ -207,7 +207,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='What is in your lunch: a label',
-         kind='Food label', task='Table completion',
+         kind='Food label', task='Note completion',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'One pack contains two portions. The figures below are for '
@@ -233,7 +233,7 @@ UNIT = dict(
            'And the notice says it is not lying.')])],
    listen=[
     dict(heading='A nurse talks about eating well', part='Part 2',
-         task='One speaker giving practical advice', band='l2',
+         task='One speaker giving practical advice · note completion', band='l2',
          qtype='Questions 16-20',
          script=[
           ('Nurse', 'I am not going to give you a diet. I am going to '
@@ -359,7 +359,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Walking for twenty minutes: a leaflet',
-         kind='Leaflet', task='Short answer and matching',
+         kind='Leaflet', task='Short answer and note completion',
          band='gt_work', qtype='Questions 21-25',
          skill=('A health leaflet is read for the number and the '
                 'condition',
@@ -397,7 +397,7 @@ UNIT = dict(
            'Or anybody breathing harder than the leaflet describes.')])],
    listen=[
     dict(heading='Joining the sports centre', part='Part 1',
-         task='A conversation at a reception desk', band='l1',
+         task='A conversation at a reception desk · note completion', band='l1',
          qtype='Questions 26-30',
          script=[
           ('Desk', 'Are you joining today?'),
@@ -578,7 +578,7 @@ UNIT = dict(
    read=[
     dict(heading='Three reasons people live longer than they did',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion, short answer and matching information',
          band='acad', qtype='Questions 31-36',
          paras=[
           'Life expectancy at birth in this country was forty-seven in '
@@ -628,7 +628,7 @@ UNIT = dict(
            'Paragraph 3, larger than between some countries.')])],
    listen=[
     dict(heading='A talk about clean water and health', part='Part 4',
-         task='A short lecture to first-year students', band='l4',
+         task='A short lecture to first-year students · note completion', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I want to correct something almost everybody in '
@@ -768,7 +768,7 @@ UNIT = dict(
    read=[
     dict(heading='Two countries, two systems',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion, matching information and multiple choice',
          band='acad', qtype='Questions 42-47',
          paras=[
           'In Country A, health care is paid for out of taxes and is '
@@ -822,7 +822,7 @@ UNIT = dict(
                'most.'})])],
    listen=[
     dict(heading='Two people compare hospitals', part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion', band='l3',
          qtype='Questions 48-52',
          script=[
           ('Tutor', 'You have both used health systems in two '

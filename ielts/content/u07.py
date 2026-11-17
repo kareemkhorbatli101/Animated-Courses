@@ -50,7 +50,7 @@ UNIT = dict(
    read=[
     dict(heading='Tenancy agreement: the main terms',
          kind='Contract summary',
-         task='Matching features and short answer',
+         task='Matching features, sentence completion and short answer',
          band='gt_short', qtype='Questions 1-6',
          skill=('A contract is read for who must do what',
                 ['Mark each clause L for landlord or T for tenant as '
@@ -100,7 +100,7 @@ UNIT = dict(
           ('Which term cannot be varied?', None, 'smoking',
            'Paragraph 6, unlike the term about pets.')]),
     dict(heading='Reporting repairs', kind='Procedure notice',
-         task='Flow-chart completion', band='gt_short',
+         task='Note completion', band='gt_short',
          qtype='Questions 7-10',
          paras=[
           'Report all repairs through the online form, which records the '
@@ -132,7 +132,7 @@ UNIT = dict(
            'Paragraph 4: the council will ask whether you have.')])],
    listen=[
     dict(heading='Reporting a repair to the letting agent',
-         part='Part 1', task='A telephone call to a letting agent',
+         part='Part 1', task='A telephone call to a letting agent · note completion',
          band='l1', qtype='Questions 11-16',
          script=[
           ('Agent', 'Harbledown Lettings, good afternoon.'),
@@ -353,7 +353,7 @@ UNIT = dict(
                'finds it hard to say.', 1: 'False would need a denial, and none appears.'})])],
    listen=[
     dict(heading='Two neighbours on a changing street', part='Part 3',
-         task='A discussion between two neighbours', band='l3',
+         task='A discussion between two neighbours · note completion', band='l3',
          qtype='Questions 23-28',
          script=[
           ('Desmond', 'The house at number twenty went for four hundred '
@@ -548,7 +548,7 @@ UNIT = dict(
    read=[
     dict(heading='Brackwell, 1975 and today',
          kind='Two texts with maps',
-         task='Map labelling and matching information',
+         task='Matching information and plan labelling',
          band='gt_work', qtype='Questions 29-34',
          figure=_MAPS,
          paras=[
@@ -602,7 +602,7 @@ UNIT = dict(
            'Paragraph 4, reduced rather than removed.')])],
    listen=[
     dict(heading='A planner describes the redevelopment', part='Part 2',
-         task='A talk to a local history group', band='l2',
+         task='A talk to a local history group · plan labelling and multiple choice', band='l2',
          qtype='Questions 35-40',
          figure=_MAPS,
          script=[
@@ -796,8 +796,7 @@ UNIT = dict(
    read=[
     dict(heading='Land, permission and the price of a home',
          kind='Academic passage',
-         task='Matching headings, True/False, Yes/No and summary '
-              'completion',
+         task='Matching headings, True/False/Not Given, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'Most people assume that a house is expensive because building one '
@@ -888,7 +887,7 @@ UNIT = dict(
            'vote', 'Paragraph 4, compared with renters.')])],
    listen=[
     dict(heading='A lecture on housing supply', part='Part 4',
-         task='A lecture on why housing costs what it does', band='l4',
+         task='A lecture on why housing costs what it does · note completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I am going to answer one question: why does a '
@@ -1067,8 +1066,7 @@ UNIT = dict(
    read=[
     dict(heading='Why supply alone does not settle the question',
          kind='Academic passage',
-         task='Matching information, True/False, Yes/No and short '
-              'answer',
+         task='Matching information, Yes/No/Not Given, True/False/Not Given and sentence completion',
          band='acad', qtype='Questions 55-62',
          paras=[
           'If housing is expensive because there is not enough of it, then '
@@ -1165,7 +1163,7 @@ UNIT = dict(
            'homes.')])],
    listen=[
     dict(heading='Two economists disagree about housing', part='Part 4',
-         task='A recorded discussion', band='l4',
+         task='A recorded discussion · note completion and multiple choice', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Professor Oyelaran-Smit argues for building. Dr '

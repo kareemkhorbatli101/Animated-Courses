@@ -20,7 +20,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='The National Household Survey: who is asked, and why',
-         kind='Public notice', task='Matching features and short answer',
+         kind='Public notice', task='Multiple choice',
          band='gt_short', qtype='Questions 1-5',
          skill=('Reading a notice for what it obliges you to do',
                 ['A public notice is written to be acted on, so the action is '
@@ -85,7 +85,7 @@ UNIT = dict(
            {0: 'The voucher does not depend on completing every '
                'question.', 2: 'Paragraph 4 rules out payment for particular answers.', 3: 'Nothing is described as a refund of expenses.'})]),
     dict(heading='What happens to your answers',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'When the interview is finished, the answers are sent to the central '
@@ -123,7 +123,7 @@ UNIT = dict(
            None, 'nine', 'Paragraph 4. The year after that refers to the '
            'release of anonymised records, not to publication.')])],
    listen=[
-    dict(heading='An interviewer calls', part='Part 1', task='A survey visit',
+    dict(heading='An interviewer calls', part='Part 1', task='A survey visit · note completion',
          band='l1', qtype='Questions 10-14', 
          skill=('Predicting the form of a gap',
                 ['Before you listen, decide what kind of word each gap wants: '
@@ -177,7 +177,7 @@ UNIT = dict(
            'Twenty pounds is the amount, not the answer; the gap asks for the '
            'number of days.')]),
     dict(heading='A short talk: why surveys call back', part='Part 2',
-         task='A monologue for new interviewers', band='l2',
+         task='A monologue for new interviewers · multiple choice and matching', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Trainer', 'Before you go out this week I want to say something '
@@ -432,7 +432,7 @@ UNIT = dict(
                'never discusses.'})])],
    listen=[
     dict(heading='Two journalists disagree about a figure', part='Part 3',
-         task='A newsroom discussion', band='l3', qtype='Questions 25-29',
+         task='A newsroom discussion · multiple choice', band='l3', qtype='Questions 25-29',
          script=[
           ('Editor', 'I want to go with one in four adults cannot swim. It is '
            'clear and people will read it.'),
@@ -672,7 +672,7 @@ UNIT = dict(
    step=3,
    read=[
     dict(heading='Three graphs of the same data',
-         kind='Data article', task='Matching information and True/False/Not Given',
+         kind='Data article', task='Matching features, multiple choice, sentence completion and True/False/Not Given',
          band='long', qtype='Questions 30-36',
          figure=dict(kind='line', title='Reported crime in Marchfield',
                      sub='the same figures, plotted from zero',
@@ -786,7 +786,7 @@ UNIT = dict(
                'those words.'})])],
    listen=[
     dict(heading='A statistician on axes and scales', part='Part 4',
-         task='A lecture on presenting data', band='l4',
+         task='A lecture on presenting data · multiple choice', band='l4',
          qtype='Questions 37-42',
          script=[
           ('Lecturer', 'I want to spend this session on a question that sounds '
@@ -1011,7 +1011,7 @@ UNIT = dict(
    read=[
     dict(heading='Why a thousand people can speak for a country',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 43-49',
          skill=('Matching Headings, in two parts',
                 ['In move 2, read each heading and predict what a paragraph '
@@ -1145,7 +1145,7 @@ UNIT = dict(
            'with two and a half million responses.')])],
    listen=[
     dict(heading='A lecture on sampling', part='Part 4',
-         task='Why the condition matters more than the size', band='l4',
+         task='Why the condition matters more than the size · multiple choice and matching', band='l4',
          qtype='Questions 50-55',
          script=[
           ('Lecturer', 'Last week we established that the margin of error on a '
@@ -1359,7 +1359,7 @@ UNIT = dict(
    read=[
     dict(heading='The poll that asked the wrong thousand',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given, short answer and sentence completion',
          band='acad', qtype='Questions 56-62',
          paras=[
           'Cycle 4 argued that sample size is the wrong thing to worry '
@@ -1483,7 +1483,7 @@ UNIT = dict(
            'has been building towards.')])],
    listen=[
     dict(heading='Two pollsters disagree about method', part='Part 4',
-         task='A recorded discussion after a conference paper', band='l4',
+         task='A recorded discussion after a conference paper · multiple choice and matching', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Our two speakers disagree about what went wrong, which is '

@@ -47,8 +47,7 @@ UNIT = dict(
    read=[
     dict(heading='Quick start guide: the WX200 router',
          kind='Instruction leaflet',
-         task='Flow-chart completion and short answer and '
-              'True/False/Not Given',
+         task='Note completion and True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('An instruction leaflet is read for the order and the '
                 'waiting time',
@@ -90,7 +89,7 @@ UNIT = dict(
            '____________ seconds.', None, 'thirty',
            'Then begin again from the second step.')]),
     dict(heading='If it does not connect',
-         kind='Troubleshooting page', task='Matching',
+         kind='Troubleshooting page', task='Matching features and sentence completion',
          band='gt_short', qtype='Questions 6-10',
          paras=[
           'A light that never leaves orange usually means the grey '
@@ -133,7 +132,7 @@ UNIT = dict(
            'And out-of-hours messages wait until the morning.')])],
    listen=[
     dict(heading='A helpline call', part='Part 1',
-         task='A call to a technical helpline', band='l1',
+         task='A call to a technical helpline · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Helpline', 'Technical support, good afternoon.'),
@@ -272,7 +271,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Two families, two rules about screens',
-         kind='Two short profiles', task='Matching features',
+         kind='Two short profiles', task='Matching features, short answer, sentence completion and multiple choice',
          band='gt_work', qtype='Questions 17-22',
          skill=('Two profiles are read for the rule and its result',
                 ['Each family has a rule and a consequence. Pair them '
@@ -323,7 +322,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two parents disagree about screen time',
          part='Part 3',
-         task='A discussion between two parents', band='l3',
+         task='A discussion between two parents · note completion', band='l3',
          qtype='Questions 23-28',
          script=[
           ('Tutor', 'You run the same parents’ group and you '
@@ -512,7 +511,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Repair or replace?',
-         kind='Short article', task='Matching information',
+         kind='Short article', task='Note completion',
          band='gt_work', qtype='Questions 29-34',
          paras=[
           'The arithmetic of repair has changed twice in thirty years '
@@ -557,7 +556,7 @@ UNIT = dict(
            'Paragraph 3, the last sentence.')])],
    listen=[
     dict(heading='A repair cafe volunteer explains', part='Part 2',
-         task='One speaker describing a project', band='l2',
+         task='One speaker describing a project · note completion', band='l2',
          qtype='Questions 35-40',
          script=[
           ('Speaker', 'We open on the first Saturday of the month, from '
@@ -716,7 +715,7 @@ UNIT = dict(
    read=[
     dict(heading='The cycle inside a refrigerator',
          kind='Short factual article',
-         task='Flow-chart completion and matching',
+         task='Note completion and matching features',
          band='acad', qtype='Questions 41-47',
          paras=[
           'A fridge does not make cold. There is no such thing as cold '
@@ -766,7 +765,7 @@ UNIT = dict(
    listen=[
     dict(heading='A technician explains the cooling cycle',
          part='Part 4',
-         task='A talk to trainee technicians', band='l4',
+         task='A talk to trainee technicians · note completion and short answer', band='l4',
          qtype='Questions 48-53',
          script=[
           ('Speaker', 'Before any of you touch a fridge, understand '
@@ -908,7 +907,7 @@ UNIT = dict(
    read=[
     dict(heading='Three machines that changed housework',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Short answer, note completion and matching information',
          band='acad', qtype='Questions 54-60',
          paras=[
           'If you ask which machine saved the most human time, the '
@@ -966,7 +965,7 @@ UNIT = dict(
            'Paragraph 4, and that time has stayed saved.')])],
    listen=[
     dict(heading='A historian on the washing machine', part='Part 4',
-         task='A short lecture', band='l4', qtype='Questions 61-66',
+         task='A short lecture · note completion', band='l4', qtype='Questions 61-66',
          script=[
           ('Speaker', 'I am going to argue that the washing machine is '
            'the second most important machine ever installed in a '

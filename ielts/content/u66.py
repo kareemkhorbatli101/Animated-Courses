@@ -75,7 +75,7 @@ UNIT = dict(
            'Advert C, which runs from nine in the morning.')])],
    listen=[
     dict(heading='Asking about a job', part='Part 1',
-         task='A telephone call about an advert', band='l1',
+         task='A telephone call about an advert · note completion', band='l1',
          qtype='Questions 6-10',
          script=[
           ('Caller', 'I am calling about the kitchen job on the '
@@ -198,7 +198,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Your first week: a staff handbook page',
-         kind='Handbook', task='Note completion',
+         kind='Handbook', task='Note completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'Arrive ten minutes before your shift. The rota for the whole '
@@ -226,7 +226,7 @@ UNIT = dict(
            None, 'thirty', 'An hour is given on nine hours or more.')])],
    listen=[
     dict(heading='Showing a new worker round', part='Part 2',
-         task='One speaker explaining a workplace', band='l2',
+         task='One speaker explaining a workplace · note completion', band='l2',
          qtype='Questions 16-20',
          script=[
           ('Speaker', 'Welcome. I will show you round in ten minutes, '
@@ -351,7 +351,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Holiday requests: how the system works',
-         kind='Notice', task='Short answer and matching',
+         kind='Notice', task='Note completion',
          band='gt_work', qtype='Questions 21-25',
          skill=('A rule page is read for the number and the exception',
                 ['Three numbers run through any holiday policy: how '
@@ -390,7 +390,7 @@ UNIT = dict(
            'Paragraph 4: leave is granted immediately.')])],
    listen=[
     dict(heading='Asking the manager for a day off', part='Part 1',
-         task='A conversation at work', band='l1',
+         task='A conversation at work · note completion', band='l1',
          qtype='Questions 26-30',
          script=[
           ('Worker', 'Could I ask about a day off in June?'),
@@ -568,7 +568,7 @@ UNIT = dict(
    read=[
     dict(heading='A hundred and twenty years of work',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion, matching information and multiple choice',
          band='acad', qtype='Questions 31-36',
          paras=[
           'In 1900, forty-one per cent of workers in this country were '
@@ -621,7 +621,7 @@ UNIT = dict(
                'demand.', 3: 'Paragraph 3 makes no prediction about the next change.'})])],
    listen=[
     dict(heading='A talk about work and machines', part='Part 4',
-         task='A short lecture to first-year students', band='l4',
+         task='A short lecture to first-year students · note completion', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I am going to give you two numbers and then one '
@@ -754,7 +754,7 @@ UNIT = dict(
    read=[
     dict(heading='The same argument, every generation',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion, matching information and multiple choice',
          band='acad', qtype='Questions 42-47',
          paras=[
           'The belief that machines are about to end work is at least '
@@ -805,7 +805,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two students disagree about automation',
          part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion', band='l3',
          qtype='Questions 48-52',
          script=[
           ('Tutor', 'You read the same three papers and reached '

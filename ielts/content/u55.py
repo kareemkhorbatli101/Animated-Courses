@@ -32,7 +32,7 @@ UNIT = dict(
    read=[
     dict(heading='Allotment water use — the new rules',
          kind='Association notice',
-         task='Matching features and short answer',
+         task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('A shared-resource rule is read for what happens when '
                 'somebody ignores it',
@@ -101,7 +101,7 @@ UNIT = dict(
                'on.', 3: 'Reports are recorded whether or not they lead '
                'anywhere.'})]),
     dict(heading='How disputes are settled',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Speak to the other plot-holder first, and the committee will ask '
@@ -142,7 +142,7 @@ UNIT = dict(
            'made an example.')])],
    listen=[
     dict(heading='Raising a dispute with the committee', part='Part 1',
-         task='A call to an allotment association secretary', band='l1',
+         task='A call to an allotment association secretary · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Secretary', 'Fernhill Allotments, Hildegarde speaking.'),
@@ -388,7 +388,7 @@ UNIT = dict(
            {0: 'Yes would need character; she credits the observers.', 2: 'Not Given is wrong because she gives the cause.'})])],
    listen=[
     dict(heading='A short talk: when everyone acts alone', part='Part 2',
-         task='A talk to an environmental policy group', band='l2',
+         task='A talk to an environmental policy group · multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I want to describe the structure that produces these '
@@ -448,7 +448,7 @@ UNIT = dict(
            1, 'Because nobody has ever been able to fish it hard.',
            {0: 'He says it is not a case of governance at all.', 2: 'He warns against treating it as a model.', 3: 'Measurement is not what he questions about it.'})]),
     dict(heading='Two residents disagree about shared costs',
-         part='Part 3', task='A discussion between two residents',
+         part='Part 3', task='A discussion between two residents · multiple choice',
          band='l3', qtype='Questions 27-32',
          script=[
           ('Casimir', 'I am going to propose we charge every flat for the '
@@ -702,7 +702,7 @@ UNIT = dict(
    read=[
     dict(heading='Four fisheries and four outcomes',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 33-38',
          figure=_FISH,
          paras=[
@@ -784,7 +784,7 @@ UNIT = dict(
            'Paragraph 4, in either direction.')])],
    listen=[
     dict(heading='An economist on common resources', part='Part 4',
-         task='A lecture on shared resources', band='l4',
+         task='A lecture on shared resources · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_FISH,
          script=[
@@ -1002,7 +1002,7 @@ UNIT = dict(
    read=[
     dict(heading='Eight conditions and the villages that met them',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'For most of the twentieth century the standard analysis of shared '
@@ -1151,7 +1151,7 @@ UNIT = dict(
            'achievement.')])],
    listen=[
     dict(heading='A lecture on governing the commons', part='Part 4',
-         task='A lecture on durable shared institutions', band='l4',
+         task='A lecture on durable shared institutions · multiple choice and matching', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'The standard prediction was that a shared resource '
@@ -1386,7 +1386,7 @@ UNIT = dict(
    read=[
     dict(heading='Three attempts to build what had grown',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Once a set of features has been identified in institutions that '
@@ -1542,7 +1542,7 @@ UNIT = dict(
            'something.')])],
    listen=[
     dict(heading='A policy adviser and an anthropologist disagree',
-         part='Part 4', task='A recorded exchange', band='l4',
+         part='Part 4', task='A recorded exchange · multiple choice', band='l4',
          qtype='Questions 67-72',
          script=[
           ('Chair', 'Mr Oyelaran-Beck advises on rural development '

@@ -28,7 +28,7 @@ UNIT = dict(
    read=[
     dict(heading='Registering a birth, a marriage or a change of name',
          kind='Procedure notice',
-         task='Flow-chart completion and short answer',
+         task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('A procedure notice is read for the order of the steps and '
                 'the deadline',
@@ -86,7 +86,7 @@ UNIT = dict(
                'poll.', 3: 'A change of name is not entered in the register at '
                'all.'})]),
     dict(heading='Fees and documents required',
-         kind='Information table', task='Matching features',
+         kind='Information table', task='Matching features and sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Birth certificate, first copy: no charge. You must bring '
@@ -124,7 +124,7 @@ UNIT = dict(
    listen=[
     dict(heading='Booking an appointment at the register office',
          part='Part 1',
-         task='A telephone conversation with a register office', band='l1',
+         task='A telephone conversation with a register office · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Clerk', 'Eastgate Register Office, good morning.'),
@@ -336,7 +336,7 @@ UNIT = dict(
            {0: 'Yes would need uselessness; she calls it not nothing.', 2: 'Not Given is wrong because she rates the four hours.'})])],
    listen=[
     dict(heading='A short talk: who looks after whom', part='Part 2',
-         task='A talk to a local carers group', band='l2',
+         task='A talk to a local carers group · sentence completion and multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'Welcome. I want to give you three numbers tonight, '
@@ -381,7 +381,7 @@ UNIT = dict(
            {0: 'The speaker says the reason is almost never pride.', 2: 'Cost is not given as a reason for the two-year delay.', 3: 'Trust is not mentioned; people simply do not use the '
                'word.'})]),
     dict(heading='Two carers compare their weeks', part='Part 3',
-         task='A conversation between two carers', band='l3',
+         task='A conversation between two carers · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Bronwen', 'How many hours do you actually get to yourself?'),
@@ -609,7 +609,7 @@ UNIT = dict(
    read=[
     dict(heading='Why more people live alone',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_HH,
          paras=[
@@ -686,7 +686,7 @@ UNIT = dict(
                'figure needed.'})])],
    listen=[
     dict(heading='A statistician on household size', part='Part 4',
-         task='A lecture on measuring households', band='l4',
+         task='A lecture on measuring households · note completion and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_HH,
          script=[
@@ -885,7 +885,7 @@ UNIT = dict(
    read=[
     dict(heading='Fewer children, older countries',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'In 1970 the average woman in the world bore about 4.5 children. '
@@ -984,7 +984,7 @@ UNIT = dict(
            'Paragraph 6, and every country has chosen a mixture.')])],
    listen=[
     dict(heading='A lecture on demographic change', part='Part 4',
-         task='A lecture on populations and ageing', band='l4',
+         task='A lecture on populations and ageing · note completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'I am going to spend this hour on one number and one '
@@ -1153,7 +1153,7 @@ UNIT = dict(
    read=[
     dict(heading='Countries that tried to raise the birth rate',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Since about 1980, more than thirty countries have introduced '
@@ -1251,7 +1251,7 @@ UNIT = dict(
            'Paragraph 6, in two countries during a crisis.')])],
    listen=[
     dict(heading='Two demographers disagree', part='Part 4',
-         task='A recorded discussion', band='l4', qtype='Questions 67-72',
+         task='A recorded discussion · multiple choice and sentence completion', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Dr Varga thinks these policies are a waste of money. '
            'Professor Lindqvist does not. Each has agreed to start with '

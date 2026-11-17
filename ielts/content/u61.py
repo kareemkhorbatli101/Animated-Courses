@@ -48,8 +48,7 @@ UNIT = dict(
    read=[
     dict(heading='The Corner Cafe: menu and opening times',
          kind='Menu and notice',
-         task='Form completion and short answer and True/False/Not '
-              'Given',
+         task='Sentence completion, short answer and True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('A menu is read for the number beside the word',
                 ['Read the question first. It tells you whether you are '
@@ -90,7 +89,7 @@ UNIT = dict(
     ],
    listen=[
     dict(heading='Ordering lunch for two', part='Part 1',
-         task='A conversation in a cafe', band='l1',
+         task='A conversation in a cafe · note completion', band='l1',
          qtype='Questions 6-10',
          script=[
           ('Waiter', 'Good afternoon. Are you ready to order?'),
@@ -204,7 +203,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading="Greenway Market: this week's prices",
-         kind='Price list', task='Table completion',
+         kind='Price list', task='Note completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'Potatoes are sixty pence a kilogram this week, down from '
@@ -229,7 +228,7 @@ UNIT = dict(
            'Saturday', 'Paragraph 3, when the queue is long.')])],
    listen=[
     dict(heading='At the market stall', part='Part 1',
-         task='A conversation at a market', band='l1',
+         task='A conversation at a market · note completion', band='l1',
          qtype='Questions 16-20',
          script=[
           ('Seller', 'Morning. What can I get you?'),
@@ -349,7 +348,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Egg and tomato rice: a recipe card',
-         kind='Recipe', task='Flow-chart completion and short answer',
+         kind='Recipe', task='Note completion and short answer',
          band='gt_work', qtype='Questions 21-25',
          skill=('A recipe is read for order and for amounts',
                 ['The verbs at the start of each line are the steps. '
@@ -381,7 +380,7 @@ UNIT = dict(
            'Paragraph 3, while the rice is cooking.')])],
    listen=[
     dict(heading='How I make my soup', part='Part 2',
-         task='One speaker describing a method', band='l2',
+         task='One speaker describing a method · note completion and short answer', band='l2',
          qtype='Questions 26-30',
          script=[
           ('Speaker', 'People think soup is difficult. It is not. I make '
@@ -540,7 +539,7 @@ UNIT = dict(
    read=[
     dict(heading='From the field to the shop',
          kind='Short factual article',
-         task='Flow-chart completion and matching',
+         task='Note completion, matching features and multiple choice',
          band='acad', qtype='Questions 31-36',
          skill=('A process text is read for the order of its stages',
                 ['Find the stage words first: grown, cut, sent, sold. '
@@ -588,7 +587,7 @@ UNIT = dict(
            {0: 'A label does not change the price.', 2: 'The cold building keeps the food cold.', 3: 'A label does not make the food sell faster.'})])],
    listen=[
     dict(heading='A talk at the school farm', part='Part 4',
-         task='A short talk to visiting students', band='l4',
+         task='A short talk to visiting students · note completion and short answer', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'Welcome to the school farm. We have forty '
@@ -713,7 +712,7 @@ UNIT = dict(
    read=[
     dict(heading='Different countries, different meals',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Matching information, sentence completion and short answer',
          band='acad', qtype='Questions 42-47',
          paras=[
           'Ask why people in one country eat rice and people in another '
@@ -772,7 +771,7 @@ UNIT = dict(
            'Paragraph 3, as more people worked away from home.')])],
    listen=[
     dict(heading='Two students talk about meals at home', part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion and matching', band='l3',
          qtype='Questions 48-52',
          script=[
           ('Tutor', 'You were both looking at family meals. What did you '

@@ -1,17 +1,36 @@
 # -*- coding: utf-8 -*-
-"""What question type each item actually is.
+"""What question type each item actually is, and the label that says so.
 
-One classifier, used by the distribution gate, by the label repair and by
-the reports, so that all three agree by construction. It reads the item
-and the block it sits in, never the printed label, because the whole point
-of the audit that produced it was that a label can be wrong.
+The November audit found three kinds of false label: 542 items headed
+"short answer" that were sentences with a blank in them, 171 blocks
+claiming a drawn table, flow chart or form where only 21 carried a figure
+of any kind, and 270 multiple-choice items in a series where no exercise
+was headed "Multiple choice". A label nobody can re-derive is a label
+that drifts, so this module makes the label derivable from the block and
+the derivation checkable.
 
-The inventory is the official one: eleven Reading types and six Listening
-types. A series that teaches ten of eleven has a hole in it, and until this
-module existed nothing in the project could say which ten.
+    shape_of(item, block)   the official type, from the item and the
+                            figure the block draws
+    types_of(block)         the types a block holds
+    label_for(block)        the sentence the book prints
 
-    from qtypes import classify, READING, LISTENING
-    classify(item, block, 'read')   -> one of READING
+The classifier never reads `task`, which is the field it exists to
+rewrite. It reads the items, the lettered bank and the **kind of figure
+the block actually draws**, which is the thing that decides a completion
+task's name in the real paper: gaps against a drawn table are table
+completion, gaps against a process diagram are flow-chart completion,
+gaps against a plan or a schematic are diagram label completion, and gaps
+against nothing are note or sentence completion. A block that claims a
+table and draws none is the defect this module reports.
+
+One authored field remains, `qkind`, for the single distinction the data
+cannot settle: whether a run of gapped lines with no figure is note
+completion or sentence completion. In the real paper that turns on
+whether the gaps come from one continuous set or stand independently,
+which is a fact about the task the author wrote. `verify()` fails when an
+authored qkind and the items disagree.
+
+The inventory is the official one: eleven Reading types, six Listening.
 """
 import re
 
@@ -24,7 +43,7 @@ READING = [
     'matching features',
     'matching sentence endings',
     'sentence completion',
-    'summary/note/table/flow-chart completion',
+    'note/table/flow-chart completion',
     'plan/map/diagram labelling',
     'short answer',
 ]
@@ -32,75 +51,208 @@ LISTENING = [
     'multiple choice',
     'matching',
     'plan/map/diagram labelling',
-    'form/note/table/flow-chart completion',
+    'note/table/flow-chart completion',
     'sentence completion',
     'short answer',
 ]
+COMPLETION = ('sentence completion', 'note/table/flow-chart completion')
+
+# Which figure kinds a completion task can be set against, and what the
+# resulting task is called on the page. bar, line and pie are charts: a
+# question about a chart is not a labelling task and is not named one.
+FRAME = {'table': ('note/table/flow-chart completion', 'Table completion'),
+         'process': ('note/table/flow-chart completion',
+                     'Flow-chart completion'),
+         'map': ('plan/map/diagram labelling', 'Plan labelling'),
+         'device': ('plan/map/diagram labelling', 'Diagram labelling')}
+
+PRETTY = {
+    'multiple choice': 'Multiple choice',
+    'True/False/Not Given': 'True/False/Not Given',
+    'Yes/No/Not Given': 'Yes/No/Not Given',
+    'matching information': 'Matching information',
+    'matching headings': 'Matching headings',
+    'matching features': 'Matching features',
+    'matching sentence endings': 'Matching sentence endings',
+    'sentence completion': 'Sentence completion',
+    'note/table/flow-chart completion': 'Note completion',
+    'plan/map/diagram labelling': 'Plan labelling',
+    'matching': 'Matching',
+    'short answer': 'Short answer',
+}
 
 GAP = re.compile(r'_{3,}')
 PARA = re.compile(r'^(paragraph|section|part)\s+[\dA-Za-z]+$', re.I)
 HEADING = re.compile(r'best heading', re.I)
 WHICH = re.compile(r'^\s*(which|in which|who)\b', re.I)
 ENDING = re.compile(r'ending', re.I)
-PLAN = re.compile(r'plan|map|diagram', re.I)
-# A completion block says in its own label how its gaps are presented: a
-# table and a flow chart are different tasks in the real paper even though
-# the candidate writes the same words into the same kind of gap.
-PRESENT = [
-    ('summary/note/table/flow-chart completion',
-     r'summary completion|note completion|table completion|'
-     r'flow-chart completion|form completion'),
-]
+MAPWORDS = re.compile(r'plan|map|diagram|schematic|position', re.I)
 
 
-def _blocktext(blk):
-    return ' '.join(str(blk.get(k, '')) for k in
-                    ('task', 'banklabel', 'heading', 'kind'))
+def frame_of(blk):
+    """(official type, printed name) for the figure this block draws, or
+    (None, None). The first drawn frame wins; a chart is not a frame."""
+    for key in ('figure', 'figure2', 'figure3'):
+        f = blk.get(key)
+        if isinstance(f, dict) and f.get('kind') in FRAME:
+            return FRAME[f['kind']]
+    return (None, None)
 
 
-def classify(it, blk, skill):
-    """The type of one item. skill is 'read' or 'listen'."""
+def shape_of(it, blk, skill='read'):
+    """The official type of one item. 'gap' where only qkind can decide."""
     stem, opts = it[0], it[1]
-    bt = _blocktext(blk)
     if opts:
-        low = [str(o).strip().lower() for o in opts]
-        s = set(low)
-        if s == {'true', 'false', 'not given'}:
-            return ('True/False/Not Given' if skill == 'read'
-                    else 'short answer')
-        if s == {'yes', 'no', 'not given'}:
-            return ('Yes/No/Not Given' if skill == 'read'
-                    else 'short answer')
+        low = {str(o).strip().lower() for o in opts}
+        if low == {'true', 'false', 'not given'}:
+            return 'True/False/Not Given' if skill == 'read' else 'short answer'
+        if low == {'yes', 'no', 'not given'}:
+            return 'Yes/No/Not Given' if skill == 'read' else 'short answer'
         if all(PARA.match(str(o).strip()) for o in opts):
-            return ('matching information' if skill == 'read'
-                    else 'matching')
+            return 'matching information' if skill == 'read' else 'matching'
         if HEADING.search(stem):
-            return ('matching headings' if skill == 'read'
-                    else 'matching')
+            return 'matching headings' if skill == 'read' else 'matching'
         if WHICH.search(stem) and not GAP.search(stem):
-            return ('matching features' if skill == 'read' else 'matching')
+            return 'matching features' if skill == 'read' else 'matching'
         return 'multiple choice'
-    # No option list: the presentation decides, and the block carries it.
     if blk.get('bank'):
-        if PLAN.search(bt):
+        bl = '%s %s' % (blk.get('banklabel', ''), blk.get('heading', ''))
+        if MAPWORDS.search(bl) or frame_of(blk)[0] == \
+                'plan/map/diagram labelling':
             return 'plan/map/diagram labelling'
-        if ENDING.search(bt):
+        if ENDING.search(bl):
             return ('matching sentence endings' if skill == 'read'
                     else 'matching')
-        return ('matching features' if skill == 'read' else 'matching')
-    if blk.get('figure') and re.search(r'label', bt, re.I):
-        return 'plan/map/diagram labelling'
+        return 'matching features' if skill == 'read' else 'matching'
     if GAP.search(stem or ''):
-        for name, rx in PRESENT:
-            if re.search(rx, bt, re.I):
-                return (name if skill == 'read'
-                        else 'form/note/table/flow-chart completion')
-        return 'sentence completion'
+        t = frame_of(blk)[0]
+        return t if t else 'gap'
     return 'short answer'
 
 
+def completion_kind(blk):
+    """Which completion type a block's unframed gapped lines are.
+
+    Authored in qkind where the author has said. Otherwise: three or more
+    gaps in one block read as a set under the exercise heading, which is
+    note completion; one or two stand on their own, which is sentence
+    completion. The rule is written down so a reader can disagree with it
+    rather than wonder what happened."""
+    q = blk.get('qkind') or ()
+    for k in COMPLETION:
+        if k in q:
+            return k
+    gaps = sum(1 for it in blk['items']
+               if not it[1] and GAP.search(it[0] or ''))
+    return ('note/table/flow-chart completion' if gaps >= 3
+            else 'sentence completion')
+
+
+def classify(it, blk, skill='read'):
+    """The official type of one item, with gaps resolved."""
+    s = shape_of(it, blk, skill)
+    return completion_kind(blk) if s == 'gap' else s
+
+
+def types_of(blk, skill='read'):
+    """The official types a block holds, in the order its items use them."""
+    out = []
+    for it in blk['items']:
+        k = classify(it, blk, skill)
+        if k not in out:
+            out.append(k)
+    return out
+
+
+def _name(t, blk):
+    """What a type is called on the page, which is finer than the official
+    type for a completion task set against a drawn frame."""
+    ft, fname = frame_of(blk)
+    if ft == t and fname:
+        return fname
+    return PRETTY.get(t, t)
+
+
+SEP = ' \u00b7 '          # between a listening scenario and its types
+
+
+def _lower(t):
+    """A type name mid-sentence. True/False/Not Given and Yes/No/Not Given
+    keep their capitals, because they are the names of the three answers a
+    candidate writes and lower-casing them makes the label look like a
+    typing error."""
+    return t if '/' in t else t[0].lower() + t[1:]
+
+
+def typelist(blk, skill='read'):
+    """The types a block holds, as the book names them, joined for print."""
+    seen = []
+    for t in types_of(blk, skill):
+        nm = _name(t, blk)
+        if nm not in seen:
+            seen.append(nm)
+    if not seen:
+        return ''
+    if len(seen) == 1:
+        return seen[0]
+    all_ = [seen[0][0].upper() + seen[0][1:]] + [_lower(t) for t in seen[1:]]
+    return '%s and %s' % (', '.join(all_[:-1]), all_[-1])
+
+
+def label_for(blk, skill='read'):
+    """The sentence the book prints above the exercise.
+
+    A reading label is the list of question types, which is what a reading
+    label has always been. A listening label keeps the scenario, because
+    the real paper tells a candidate who is speaking and why, and adds the
+    question types after it, because until this phase the series never
+    told a candidate which listening task they were practising."""
+    ts = typelist(blk, skill)
+    if not ts:
+        return ''
+    if skill != 'listen':
+        return ts
+    scen = (blk.get('task') or '').split(SEP)[0].strip()
+    return '%s%s%s' % (scen, SEP, ts[0].lower() + ts[1:]) if scen else ts
+
+
+def bar_label(blk, skill='read'):
+    """A short label for the skill bar, which is a 340px box that shrinks
+    its text to fit. The full type list goes on the exercise line, which
+    wraps; this one names the first type and counts the rest, so the bar
+    stays legible and gate 6 has nothing to catch."""
+    seen = []
+    for t in types_of(blk, skill):
+        nm = _name(t, blk)
+        if nm not in seen:
+            seen.append(nm)
+    if not seen:
+        return ''
+    return seen[0] if len(seen) == 1 else '%s +%d' % (seen[0], len(seen) - 1)
+
+
+def verify(blk, skill='read'):
+    """Why an authored qkind and the block's items disagree, or []."""
+    bad = []
+    q = blk.get('qkind')
+    if not q:
+        return bad
+    held = set(types_of(blk, skill))
+    for k in q:
+        if k not in held:
+            bad.append('qkind claims %r, no item is one' % k)
+    gaps = [it for it in blk['items']
+            if not it[1] and GAP.search(it[0] or '')]
+    for k in COMPLETION:
+        if k in q and not gaps:
+            bad.append('qkind claims %r with no gapped line' % k)
+    if sum(1 for k in COMPLETION if k in q) > 1:
+        bad.append('qkind claims both completion types at once')
+    return bad
+
+
 def census(blocks, skill):
-    """{type: count} over an iterable of (block) dicts with 'items'."""
+    """{official type: count} over blocks carrying 'items'."""
     out = {}
     for blk in blocks:
         for it in blk['items']:

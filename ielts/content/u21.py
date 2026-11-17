@@ -24,7 +24,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Entry requirements and contextual offers',
-         kind='Admissions page', task='Matching features and short answer',
+         kind='Admissions page', task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('An offer with conditions is a list of questions',
                 ['Where a page sets out an offer, look for the word if. '
@@ -80,7 +80,7 @@ UNIT = dict(
            'substantial.', None, 'shortfall',
            'Paragraph 4, or where a required subject has not been passed.')]),
     dict(heading='How applications are assessed',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Applications arrive through the central admissions service and are '
@@ -119,7 +119,7 @@ UNIT = dict(
            'February.')])],
    listen=[
     dict(heading='An admissions enquiry', part='Part 1',
-         task='A telephone call to an admissions office', band='l1',
+         task='A telephone call to an admissions office · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Adviser', 'Admissions, Beatriz speaking.'),
@@ -166,7 +166,7 @@ UNIT = dict(
           ('A contextual offer would be ____________.', None, 'BCC',
            'One grade below the standard offer of BBC.')]),
     dict(heading='A short talk: what admissions staff actually read',
-         part='Part 2', task='A talk to sixth-form students', band='l2',
+         part='Part 2', task='A talk to sixth-form students · multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have read about nine thousand personal statements and '
@@ -390,7 +390,7 @@ UNIT = dict(
                'does.'})])],
    listen=[
     dict(heading='A short talk: who gets in', part='Part 2',
-         task='A talk at a parents’ evening', band='l2',
+         task='A talk at a parents’ evening · multiple choice', band='l2',
          qtype='Questions 25-28',
          script=[
           ('Speaker', 'I am going to answer the question every parent in this '
@@ -449,7 +449,7 @@ UNIT = dict(
            1, 'And she stresses that none of it is secret.',
            {0: 'She stresses that none of the information is secret.', 2: 'The information is right; it is unevenly held.', 3: 'Her advice is to check this year, not that it changes.'})]),
     dict(heading='Two admissions tutors disagree', part='Part 3',
-         task='A conversation after a selection meeting', band='l3',
+         task='A conversation after a selection meeting · multiple choice', band='l3',
          qtype='Questions 29-33',
          script=[
           ('Grigor', 'We have made eleven contextual offers out of ninety and '
@@ -660,7 +660,7 @@ UNIT = dict(
    read=[
     dict(heading='Earnings by subject, five years on',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching features, matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 34-39',
          figure=_EARN,
          paras=[
@@ -741,7 +741,7 @@ UNIT = dict(
                'question directly.'})])],
    listen=[
     dict(heading='An economist on graduate earnings', part='Part 4',
-         task='A lecture on reading earnings figures', band='l4',
+         task='A lecture on reading earnings figures · multiple choice and matching', band='l4',
          qtype='Questions 40-45',
          figure=_EARN,
          script=[
@@ -936,7 +936,7 @@ UNIT = dict(
    read=[
     dict(heading='What is already different at five',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 46-52',
          paras=[
           'Most public argument about educational inequality concerns '
@@ -1055,7 +1055,7 @@ UNIT = dict(
            'name.')])],
    listen=[
     dict(heading='A lecture on early years and attainment', part='Part 4',
-         task='A lecture on reading early-years evidence', band='l4',
+         task='A lecture on reading early-years evidence · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'I want to take the single most quoted finding in '
@@ -1236,7 +1236,7 @@ UNIT = dict(
    read=[
     dict(heading='Three programmes and what happened next',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-65',
          paras=[
           'If early differences predict later results, the obvious response is '
@@ -1351,7 +1351,7 @@ UNIT = dict(
            'Paragraph 6, which the writer calls politically much harder.')])],
    listen=[
     dict(heading='Two researchers disagree about early intervention',
-         part='Part 4', task='A recorded exchange', band='l4',
+         part='Part 4', task='A recorded exchange · multiple choice and matching', band='l4',
          qtype='Questions 66-71',
          script=[
           ('Chair', 'Dr Halvorsen evaluates early years programmes. Professor '

@@ -50,7 +50,7 @@ UNIT = dict(
    read=[
     dict(heading='Four travel passes compared',
          kind='Comparison table',
-         task='Table completion and matching features',
+         task='Note completion and matching features',
          band='gt_short', qtype='Questions 1-6',
          skill=('A comparison text is read down one column at a time',
                 ['Four options and five features is twenty facts. The '
@@ -107,7 +107,7 @@ UNIT = dict(
            '____________ only.', None, '90',
            'Paragraph 5: rail requires a separate ticket.')]),
     dict(heading='How to apply for a parking permit',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Check first which permit zone your street is in, using the map '
@@ -143,7 +143,7 @@ UNIT = dict(
            'Paragraph 4, so the expiry date must be visible.')])],
    listen=[
     dict(heading='Applying for a parking permit', part='Part 1',
-         task='A conversation at a council counter', band='l1',
+         task='A conversation at a council counter · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Clerk', 'Good afternoon. Parking permits?'),
@@ -369,7 +369,7 @@ UNIT = dict(
                'and the work.'})])],
    listen=[
     dict(heading='Two planners on peak demand', part='Part 3',
-         task='A discussion between two transport planners', band='l3',
+         task='A discussion between two transport planners · note completion and multiple choice', band='l3',
          qtype='Questions 23-28',
          script=[
           ('Thaddeus', 'Every meeting I go to is about adding capacity. I '
@@ -586,7 +586,7 @@ UNIT = dict(
    read=[
     dict(heading='The Dunmorrow line: a route plan',
          kind='Plan with key',
-         task='Plan labelling and matching information',
+         task='Matching information and plan labelling',
          band='gt_work', qtype='Questions 29-34',
          figure=_MAPS,
          paras=[
@@ -651,7 +651,7 @@ UNIT = dict(
            'Paragraph 4, on roughly the same alignment.')])],
    listen=[
     dict(heading='A planner describes the route', part='Part 2',
-         task='A talk to a residents’ meeting', band='l2',
+         task='A talk to a residents’ meeting · plan labelling and multiple choice', band='l2',
          qtype='Questions 35-40',
          figure=_MAPS,
          script=[
@@ -843,7 +843,7 @@ UNIT = dict(
    read=[
     dict(heading='The capacity that vanished',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'A city widens a congested road from four lanes to six. For '
@@ -935,7 +935,7 @@ UNIT = dict(
            'it.')])],
    listen=[
     dict(heading='A lecture on induced demand', part='Part 4',
-         task='A lecture on traffic and capacity', band='l4',
+         task='A lecture on traffic and capacity · note completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Four lanes to six. Eighteen months of faster '
@@ -1110,7 +1110,7 @@ UNIT = dict(
    read=[
     dict(heading='Three cities that charged drivers',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 55-62',
          paras=[
           'Three cities introduced a charge for driving into the centre '
@@ -1209,7 +1209,7 @@ UNIT = dict(
            'years.')])],
    listen=[
     dict(heading='A councillor and an economist disagree',
-         part='Part 4', task='A recorded discussion', band='l4',
+         part='Part 4', task='A recorded discussion · note completion and multiple choice', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Councillor Mbeki-Lindqvist opposes the charge. Dr '

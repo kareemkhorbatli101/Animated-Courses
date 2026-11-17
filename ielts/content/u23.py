@@ -22,7 +22,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Autumn vaccination: who is eligible',
-         kind='Public notice', task='Matching features and short answer',
+         kind='Public notice', task='Multiple choice, matching features and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('Eligibility lists are read for the exceptions',
                 ['A notice that lists who qualifies will also list who '
@@ -76,7 +76,7 @@ UNIT = dict(
            'employment',
            'Paragraph 3, where no employer scheme is available to them.')]),
     dict(heading='How to book and what to bring',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Book online, by telephone or at a participating pharmacy. The '
@@ -112,7 +112,7 @@ UNIT = dict(
            'Paragraph 4, where rebooking in advance is free.')])],
    listen=[
     dict(heading='Booking a vaccination', part='Part 1',
-         task='A call to a vaccination booking line', band='l1',
+         task='A call to a vaccination booking line · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Clerk', 'Vaccination bookings, Ingrid speaking.'),
@@ -163,7 +163,7 @@ UNIT = dict(
           ('The caller qualifies as a ____________.', None, 'carer',
            'Which the clerk calls the route people miss constantly.')]),
     dict(heading='A short talk: advice people follow and ignore',
-         part='Part 2', task='A talk to public health trainees', band='l2',
+         part='Part 2', task='A talk to public health trainees · multiple choice and matching', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have spent nineteen years writing health advice that '
@@ -386,7 +386,7 @@ UNIT = dict(
                'objection is.'})])],
    listen=[
     dict(heading='Two public health officers disagree', part='Part 3',
-         task='A planning discussion', band='l3', qtype='Questions 25-29',
+         task='A planning discussion · multiple choice', band='l3', qtype='Questions 25-29',
          script=[
           ('Annelise', 'The uptake figures are in. Sixty-one per cent '
            'overall, which is up two points, and thirty-four in the two wards '
@@ -594,7 +594,7 @@ UNIT = dict(
    read=[
     dict(heading='Incidence, prevalence and what gets missed',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Multiple choice, matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 30-35',
          figure=_CASES,
          paras=[
@@ -674,7 +674,7 @@ UNIT = dict(
                'those terms.'})])],
    listen=[
     dict(heading='An epidemiologist on case counts', part='Part 4',
-         task='A lecture on reading outbreak data', band='l4',
+         task='A lecture on reading outbreak data · multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_CASES,
          script=[
@@ -878,7 +878,7 @@ UNIT = dict(
    read=[
     dict(heading='The epidemic that stops before everyone has had it',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 42-48',
          paras=[
           'Epidemics end. They end, in almost every recorded case, well '
@@ -995,7 +995,7 @@ UNIT = dict(
            'Paragraph 8: several mechanisms each sufficient on their own.')])],
    listen=[
     dict(heading='A lecture on transmission and immunity', part='Part 4',
-         task='A lecture on why outbreaks decline', band='l4',
+         task='A lecture on why outbreaks decline · multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Here is a question that sounds simple and is not. Why '
@@ -1199,7 +1199,7 @@ UNIT = dict(
    read=[
     dict(heading='Why a single reproduction number misleads',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 55-61',
          paras=[
           'For two years, a single figure governed decisions affecting many '
@@ -1318,7 +1318,7 @@ UNIT = dict(
            'reasonably.')])],
    listen=[
     dict(heading='Two modellers disagree', part='Part 4',
-         task='A recorded discussion', band='l4', qtype='Questions 62-67',
+         task='A recorded discussion · multiple choice', band='l4', qtype='Questions 62-67',
          script=[
           ('Chair', 'Dr Wrzesniewski builds transmission models. Professor '
            'Agbaje advises on how their results are communicated.'),

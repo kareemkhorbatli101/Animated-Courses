@@ -30,7 +30,7 @@ LPAPER = dict(
 
   dict(no=1, first=1, part='Part 1', band='l1',
        heading='Booking a venue for a community event',
-       task='A conversation between a caller and a hall bookings officer',
+       task='A conversation between a caller and a hall bookings officer · note completion',
        qtype='Questions 1-10',
        blurb='Questions 1–10. Complete the booking form. Write ONE WORD '
              'AND/OR A NUMBER for each answer.',
@@ -104,7 +104,7 @@ LPAPER = dict(
 
   dict(no=2, first=11, part='Part 2', band='l2',
        heading='A talk to new allotment holders',
-       task='A talk by the secretary of an allotment association',
+       task='A talk by the secretary of an allotment association · multiple choice and note completion',
        qtype='Questions 11-20',
        blurb='Questions 11–20. Choose the correct letter, A, B or C, and '
              'complete the notes below.',
@@ -168,7 +168,7 @@ LPAPER = dict(
 
   dict(no=3, first=21, part='Part 3', band='l3',
        heading='Two students plan a research presentation',
-       task='A discussion between two students and their tutor',
+       task='A discussion between two students and their tutor · multiple choice, matching and sentence completion',
        qtype='Questions 21-30',
        blurb='Questions 21–30. Choose the correct letter, A, B or C, and '
              'match each section to the student responsible.',
@@ -257,7 +257,7 @@ LPAPER = dict(
 
   dict(no=4, first=31, part='Part 4', band='l4',
        heading='A lecture on how a city measures its own traffic',
-       task='A lecture on measurement and policy',
+       task='A lecture on measurement and policy · note completion, matching and multiple choice',
        qtype='Questions 31-40',
        blurb='Questions 31–40. Complete the notes. Write ONE WORD ONLY '
              'for each answer, or choose the correct letter.',

@@ -31,7 +31,7 @@ LPAPER = dict(
  parts=[
   dict(no=1, first=1, part='Part 1', band='l1',
        heading='Booking a room at the community centre',
-       task='A telephone conversation', qtype='Questions 1-5',
+       task='A telephone conversation · note completion', qtype='Questions 1-5',
        blurb='A conversation about an arrangement. Listen for numbers, '
              'days and names.',
        script=[
@@ -68,7 +68,7 @@ LPAPER = dict(
          'Because the houses behind are close.')]),
   dict(no=2, first=6, part='Part 2', band='l2',
        heading='A talk about the new footpath',
-       task='One speaker describing a local change',
+       task='One speaker describing a local change · note completion',
        qtype='Questions 6-10',
        blurb='One speaker. Listen for the reasons as well as the '
              'numbers.',
@@ -105,7 +105,7 @@ LPAPER = dict(
          'Because of the cost and the bats along the river.')]),
   dict(no=3, first=11, part='Part 3', band='l3',
        heading='Two students plan a survey',
-       task='A discussion between two students',
+       task='A discussion between two students · note completion',
        qtype='Questions 11-15',
        blurb='Two speakers who disagree. Listen for what they decide, '
              'not what they suggest.',
@@ -147,7 +147,7 @@ LPAPER = dict(
          'About one student in nine, she says.')]),
   dict(no=4, first=16, part='Part 4', band='l4',
        heading='A talk about how a library chooses its books',
-       task='A short talk to new members', qtype='Questions 16-20',
+       task='A short talk to new members · note completion', qtype='Questions 16-20',
        blurb='One speaker, more formal. Listen for the three reasons '
              'and the number attached to each.',
        script=[

@@ -40,7 +40,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Bexley Stores: signs at the till',
-         kind='Shop notices', task='Matching and short answer',
+         kind='Shop notices', task='Matching features and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('Short notices are read for the one word that differs',
                 ['Four notices usually say four different things about '
@@ -73,7 +73,7 @@ UNIT = dict(
            'Notice D, which asks you to keep the page.')])],
    listen=[
     dict(heading='Paying at the till', part='Part 1',
-         task='A short exchange at a supermarket till', band='l1',
+         task='A short exchange at a supermarket till · note completion', band='l1',
          qtype='Questions 6-10',
          script=[
           ('Cashier', 'Good afternoon. Do you have a loyalty card?'),
@@ -192,7 +192,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Half price this week: a sale poster',
-         kind='Poster', task='Table completion',
+         kind='Poster', task='Note completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'Half price on all winter coats until Saturday. The price on '
@@ -218,7 +218,7 @@ UNIT = dict(
            None, 'nine', 'Paragraph 3, separately from the account.')])],
    listen=[
     dict(heading='Which offer is better?', part='Part 2',
-         task='One speaker comparing two offers', band='l2',
+         task='One speaker comparing two offers · note completion', band='l2',
          qtype='Questions 16-20',
          script=[
           ('Speaker', 'Two shops, the same washing powder, and two '
@@ -341,7 +341,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Returns: what you need to know',
-         kind='Notice', task='Short answer and matching',
+         kind='Notice', task='Note completion, short answer and matching features',
          band='gt_work', qtype='Questions 21-25',
          skill=('A policy is read for the exception, not the rule',
                 ['The first line gives the normal rule. The questions '
@@ -380,7 +380,7 @@ UNIT = dict(
            {0: 'Coats may be returned within fourteen days.', 1: 'Electrical goods may be returned with their parts.', 3: 'Books are not among the exceptions in paragraph 4.'})])],
    listen=[
     dict(heading='Returning a jacket', part='Part 1',
-         task='A conversation at a customer desk', band='l1',
+         task='A conversation at a customer desk · note completion', band='l1',
          qtype='Questions 26-30',
          script=[
           ('Desk', 'Good morning. How can I help?'),
@@ -555,7 +555,7 @@ UNIT = dict(
    read=[
     dict(heading='What households spend, and why it differs',
          kind='Short factual article',
-         task='Table completion and matching',
+         task='Short answer, note completion and matching features',
          band='acad', qtype='Questions 31-36',
          paras=[
           'Ask a family where its money goes and the answer is usually '
@@ -603,7 +603,7 @@ UNIT = dict(
            None, 'window', 'Paragraph 3, which is when goods spread.')])],
    listen=[
     dict(heading='A talk about family spending', part='Part 4',
-         task='A short lecture to first-year students', band='l4',
+         task='A short lecture to first-year students · note completion', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I am going to give you one law, and it is as '
@@ -732,7 +732,7 @@ UNIT = dict(
    read=[
     dict(heading='How to tell a real offer from a false one',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Matching information and note completion',
          band='acad', qtype='Questions 42-47',
          paras=[
           'A false offer is rarely a lie. If it were a simple lie it '
@@ -787,7 +787,7 @@ UNIT = dict(
            'offer.', None, 'two', 'Paragraph 3, as the dull defence.')])],
    listen=[
     dict(heading='Two shoppers disagree', part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion and short answer', band='l3',
          qtype='Questions 48-52',
          script=[
           ('Tutor', 'You tested whether offers save money. What did you '

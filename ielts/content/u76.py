@@ -49,7 +49,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Coastal Breaks: four short breaks',
-         kind='Brochure page', task='Matching features',
+         kind='Brochure page', task='Matching features and multiple choice',
          band='gt_short', qtype='Questions 1-5',
          skill=('A brochure is read for what the price does not '
                 'include',
@@ -91,7 +91,7 @@ UNIT = dict(
            {0: 'Offer A charges extra for parking.', 1: 'Offer B says nothing about parking.', 2: 'C price applies to November only.'})])],
    listen=[
     dict(heading='Booking a short break', part='Part 1',
-         task='A telephone booking', band='l1',
+         task='A telephone booking · note completion', band='l1',
          qtype='Questions 6-11',
          script=[
           ('Agent', 'Coastal Breaks, good afternoon.'),
@@ -226,7 +226,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Three visitors, three kinds of holiday',
-         kind='Three short profiles', task='Matching features',
+         kind='Three short profiles', task='Matching features and note completion',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'Ines goes to the same village every year and has done for '
@@ -271,7 +271,7 @@ UNIT = dict(
            'Which she points out to people who make it.')])],
    listen=[
     dict(heading='Two travellers compare trips', part='Part 3',
-         task='A discussion between two travellers', band='l3',
+         task='A discussion between two travellers · note completion', band='l3',
          qtype='Questions 18-23',
          script=[
           ('Tutor', 'You are writing about what people want from a '
@@ -471,7 +471,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='A town with too many visitors',
-         kind='Short article', task='Matching information',
+         kind='Short article', task='Note completion',
          band='gt_work', qtype='Questions 24-29',
          skill=('An article about a local problem is read for who '
                 'gains and who pays',
@@ -518,7 +518,7 @@ UNIT = dict(
            'Which is when the first coaches arrive.')])],
    listen=[
     dict(heading='A resident speaks at a public meeting', part='Part 2',
-         task='One speaker at a meeting', band='l2',
+         task='One speaker at a meeting · note completion', band='l2',
          qtype='Questions 30-35',
          script=[
           ('Speaker', 'I have lived here for thirty-one years and I am '
@@ -680,7 +680,7 @@ UNIT = dict(
    read=[
     dict(heading='From brochure to booking',
          kind='Short factual article',
-         task='Flow-chart completion and matching',
+         task='Note completion and matching information',
          band='acad', qtype='Questions 36-42',
          paras=[
           'A package holiday is not priced the way most goods are. A '
@@ -737,7 +737,7 @@ UNIT = dict(
            'Paragraph 4, which the writer calls the honest advice.')])],
    listen=[
     dict(heading='Inside a travel company', part='Part 4',
-         task='A talk to business students', band='l4',
+         task='A talk to business students · note completion', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'I price holidays for a living and I am going to '
@@ -876,7 +876,7 @@ UNIT = dict(
    read=[
     dict(heading='Three ways to travel, three footprints',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion and matching information',
          band='acad', qtype='Questions 49-55',
          paras=[
           'Comparing the environmental cost of travelling is harder '
@@ -933,7 +933,7 @@ UNIT = dict(
    listen=[
     dict(heading='A researcher on aviation and emissions',
          part='Part 4',
-         task='A short lecture', band='l4', qtype='Questions 56-61',
+         task='A short lecture · note completion', band='l4', qtype='Questions 56-61',
          script=[
           ('Speaker', 'I am going to give you four numbers and then '
            'tell you which one actually matters.'),

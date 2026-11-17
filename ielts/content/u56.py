@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Open submission — criteria and process',
          kind='Competition notice',
-         task='Matching features and short answer',
+         task='Multiple choice and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A competition notice is read for what the panel is '
                 'instructed to do',
@@ -100,7 +100,7 @@ UNIT = dict(
            {0: 'Paragraph 6 says the decision may not be queried.', 2: 'Only one of the two may be queried.', 3: 'Process queries are answered within twenty working '
                'days.'})]),
     dict(heading='How work is selected',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Submit through the portal with the reference number generated at '
@@ -142,7 +142,7 @@ UNIT = dict(
            'Paragraph 4, after which scores are destroyed.')])],
    listen=[
     dict(heading='Querying a selection decision', part='Part 1',
-         task='A call to a competition office', band='l1',
+         task='A call to a competition office · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Officer', 'Open submission office, Marguerite speaking.'),
@@ -410,7 +410,7 @@ UNIT = dict(
                'claiming it means much.', 2: 'Not Given is wrong because he rates the agreement.'})])],
    listen=[
     dict(heading='A short talk: agreeing about quality', part='Part 2',
-         task='A talk at a cultural policy seminar', band='l2',
+         task='A talk at a cultural policy seminar · multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'The claim I want to examine is that there is no such '
@@ -470,7 +470,7 @@ UNIT = dict(
            'And that in the few fields tested the results are mixed.',
            {0: 'More agreement is what he says proves little.', 2: 'Speed of judgement is not what he would test.', 3: 'Cost is not part of the question he poses.'})]),
     dict(heading='Two critics disagree about a work', part='Part 3',
-         task='A discussion between two critics', band='l3',
+         task='A discussion between two critics · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Perpetua', 'You put it first and I put it last, and I want to '
@@ -715,7 +715,7 @@ UNIT = dict(
    read=[
     dict(heading='Agreement between judges across four competitions',
          kind='Data article',
-         task='Matching information and table completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 33-38',
          figure=_AGREE,
          paras=[
@@ -798,7 +798,7 @@ UNIT = dict(
            'availability.')])],
    listen=[
     dict(heading='A researcher on inter-rater agreement', part='Part 4',
-         task='A lecture on agreement between judges', band='l4',
+         task='A lecture on agreement between judges · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_AGREE,
          script=[
@@ -1029,7 +1029,7 @@ UNIT = dict(
    read=[
     dict(heading='Two judges, one standard, different weightings',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'The inference from disagreement to subjectivity is conducted so '
@@ -1175,7 +1175,7 @@ UNIT = dict(
            'visible.')])],
    listen=[
     dict(heading='A lecture on aesthetic judgement', part='Part 4',
-         task='A lecture on taste and argument', band='l4',
+         task='A lecture on taste and argument · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'Experts disagree about art, therefore there is '
@@ -1414,7 +1414,7 @@ UNIT = dict(
    read=[
     dict(heading='The standard that cannot be fully specified',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'If judges apply a standard, it should in principle be possible to '
@@ -1574,7 +1574,7 @@ UNIT = dict(
            'faces.')])],
    listen=[
     dict(heading='A philosopher and a curator disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Nakamura-Belluomini works on aesthetics. Ms '
            'Thwaite-Oyelaran has selected for open submissions for twenty '

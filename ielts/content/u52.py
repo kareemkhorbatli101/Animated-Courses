@@ -44,7 +44,7 @@ UNIT = dict(
    read=[
     dict(heading='Licensing a forecasting model',
          kind='Terms of use',
-         task='Matching features and short answer',
+         task='Note completion, multiple choice and matching features',
          band='gt_short', qtype='Questions 1-6',
          skill=('Terms of use are read for what you may not say',
                 ['A licence for a model governs two different things: what '
@@ -113,7 +113,7 @@ UNIT = dict(
            {0: 'Paragraph 6 says such a user has not breached the '
                'licence.', 2: 'The warranty is excluded in any case.', 3: 'The scenario must be stated, which is clause 4.'})]),
     dict(heading='Reporting a suspected error',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Establish reproducibility before reporting anything. Run the '
@@ -155,7 +155,7 @@ UNIT = dict(
            'Paragraph 4, with no finding recorded against it.')])],
    listen=[
     dict(heading='Reporting a modelling error', part='Part 1',
-         task='A call to a model support desk', band='l1',
+         task='A call to a model support desk · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Support', 'Model support, Rosalind speaking.'),
@@ -428,7 +428,7 @@ UNIT = dict(
                'fell.'})])],
    listen=[
     dict(heading='A short talk: forecasts people believed', part='Part 2',
-         task='A talk at a forecasting seminar', band='l2',
+         task='A talk at a forecasting seminar · multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I want to talk about four famous forecasting '
@@ -490,7 +490,7 @@ UNIT = dict(
            'number.',
            {0: 'He wants the range published, not withheld.', 2: 'He wants the condition published with the range.', 3: 'He wants press releases to carry the range.'})]),
     dict(heading='Two forecasters disagree about a projection',
-         part='Part 3', task='A discussion between two forecasters',
+         part='Part 3', task='A discussion between two forecasters · multiple choice',
          band='l3', qtype='Questions 27-32',
          script=[
           ('Casimir', 'I want to publish the range without a central figure '
@@ -747,7 +747,7 @@ UNIT = dict(
    read=[
     dict(heading='Inputs, structure and calibration',
          kind='Process article',
-         task='Flow-chart completion and True/False/Not Given',
+         task='Diagram labelling, matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_MOD,
          paras=[
@@ -828,7 +828,7 @@ UNIT = dict(
                'exists.'})])],
    listen=[
     dict(heading='A modeller on building and checking', part='Part 4',
-         task='A lecture on model construction', band='l4',
+         task='A lecture on model construction · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_MOD,
          script=[
@@ -1052,7 +1052,7 @@ UNIT = dict(
    read=[
     dict(heading='An ensemble that shares its mistakes',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'When several independent models of a single system yield '
@@ -1195,7 +1195,7 @@ UNIT = dict(
            'Paragraph 7: the system is at least this uncertain.')])],
    listen=[
     dict(heading='A lecture on ensembles and independence', part='Part 4',
-         task='A lecture on why models agree', band='l4',
+         task='A lecture on why models agree · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'Twenty models agree. How reassured should you be? '
@@ -1423,7 +1423,7 @@ UNIT = dict(
    read=[
     dict(heading='The uncertainty that is outside the range',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Uncertainty in a quantitative projection comes in at least three '
@@ -1680,7 +1680,7 @@ UNIT = dict(
            'quoted.')])],
    listen=[
     dict(heading='Two modellers disagree about uncertainty', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 72-77',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 72-77',
          script=[
           ('Chair', 'Dr Fairweather-Oduya runs a climate modelling group. '
            'Professor Nakamura-Belluomini works on decision-making under '
@@ -1769,7 +1769,7 @@ UNIT = dict(
            'scientific one.',
            {0: 'He agrees with her, so not nobody.', 2: 'The sentence could be published; it would cost her.', 3: 'She says she would sign it, so she holds it true.'})]),
     dict(heading='A plan of the field station',
-         part='Part 2', task='Map labelling and matching',
+         part='Part 2', task='Map labelling and matching · plan labelling',
          band='l2',
          qtype='Questions 78-82',
          banklabel='Positions on the plan',

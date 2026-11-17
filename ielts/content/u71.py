@@ -54,8 +54,7 @@ UNIT = dict(
    read=[
     dict(heading='Marchfield Gallery: the Hokusai exhibition',
          kind='Notice and booking page',
-         task='Form completion and short answer and True/False/Not '
-              'Given',
+         task='Note completion and True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('A booking page is read for the condition on the '
                 'cheaper option',
@@ -99,7 +98,7 @@ UNIT = dict(
            {0: 'True would need the first floor, and the second is '
                'given.', 2: 'Not Given is wrong because the floor is stated.'})]),
     dict(heading='Three membership options',
-         kind='Table of options', task='Matching features',
+         kind='Table of options', task='Matching features, sentence completion and short answer',
          band='gt_short', qtype='Questions 6-10',
          paras=[
           'Standard membership is forty-five pounds. It covers one '
@@ -136,7 +135,7 @@ UNIT = dict(
            'They are booked separately and sell out quickly.')])],
    listen=[
     dict(heading='Booking two tickets for Saturday', part='Part 1',
-         task='A telephone booking', band='l1',
+         task='A telephone booking · note completion', band='l1',
          qtype='Questions 11-15',
          script=[
           ('Desk', 'Marchfield Gallery, good afternoon.'),
@@ -270,7 +269,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='The Great Wave: a gallery label',
-         kind='Gallery label', task='Short answer and matching',
+         kind='Gallery label', task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 16-21',
          paras=[
           'The Great Wave off Kanagawa was made about 1831. It is not a '
@@ -310,7 +309,7 @@ UNIT = dict(
            'Which is why the label says the print is about scale.')])],
    listen=[
     dict(heading='Two visitors discuss a painting', part='Part 3',
-         task='A discussion between two visitors', band='l3',
+         task='A discussion between two visitors · note completion', band='l3',
          qtype='Questions 22-27',
          script=[
           ('Mia', 'I had always assumed this was a painting.'),
@@ -503,7 +502,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Why a kettle has a wide handle',
-         kind='Short article', task='Matching information',
+         kind='Short article', task='Note completion and matching features',
          band='gt_work', qtype='Questions 28-33',
          skill=('A design article is read for the reason behind each '
                 'feature',
@@ -553,7 +552,7 @@ UNIT = dict(
            'Paragraph 3, and noticed only when wrong.')])],
    listen=[
     dict(heading='A short talk on chair design', part='Part 2',
-         task='One speaker describing a design problem', band='l2',
+         task='One speaker describing a design problem · note completion', band='l2',
          qtype='Questions 34-39',
          script=[
           ('Speaker', 'I am going to talk about the most difficult '
@@ -715,7 +714,7 @@ UNIT = dict(
    read=[
     dict(heading='Cleaning a four-hundred-year-old painting',
          kind='Short factual article',
-         task='Flow-chart completion and matching',
+         task='Note completion, short answer and matching features',
          band='acad', qtype='Questions 40-46',
          paras=[
           'Cleaning an old painting is the most argued-about work in a '
@@ -773,7 +772,7 @@ UNIT = dict(
            'Paragraph 4: somebody can undo them in fifty years.')])],
    listen=[
     dict(heading='A conservator explains her work', part='Part 4',
-         task='A talk to visiting students', band='l4',
+         task='A talk to visiting students · note completion', band='l4',
          qtype='Questions 47-52',
          script=[
           ('Speaker', 'People think my job is cleaning. About a tenth '
@@ -915,7 +914,7 @@ UNIT = dict(
    read=[
     dict(heading='Three reasons a painting sells for millions',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Short answer, note completion and matching information',
          band='acad', qtype='Questions 53-59',
          paras=[
           'The price of a painting has almost nothing to do with the '
@@ -974,7 +973,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two students argue about value in art',
          part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion', band='l3',
          qtype='Questions 60-65',
          script=[
           ('Tutor', 'You disagreed in the seminar. Put it properly.'),

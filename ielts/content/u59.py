@@ -47,7 +47,7 @@ UNIT = dict(
    read=[
     dict(heading='Decisions for people who cannot decide',
          kind='Official guidance',
-         task='Matching features and short answer',
+         task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('Capacity guidance is read for the test, not for the '
                 'conclusion',
@@ -123,7 +123,7 @@ UNIT = dict(
            'two',
            'Paragraph 7, recorded on the order itself.')]),
     dict(heading='Applying to act for another person',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Establish first whether authority already exists. A lasting '
@@ -165,7 +165,7 @@ UNIT = dict(
    listen=[
     dict(heading='Applying for authority to decide for a relative',
          part='Part 1',
-         task='A call to a court enquiry service', band='l1',
+         task='A call to a court enquiry service · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Clerk', 'Court of Protection enquiries, Lysander speaking.'),
@@ -430,7 +430,7 @@ UNIT = dict(
                'threshold is larger.', 2: 'Not Given is wrong because both numbers are given.'})])],
    listen=[
     dict(heading='A short talk: what a score means', part='Part 2',
-         task='A talk to trainee clinicians', band='l2',
+         task='A talk to trainee clinicians · multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'Before you write a number in a patient’s notes, I '
@@ -488,7 +488,7 @@ UNIT = dict(
            1, 'A number two people can argue about.',
            {0: 'A better scale is the comparison he calls dishonest.', 2: 'No assessment at all is not the real alternative.', 3: 'A second opinion is not what replaces the number.'})]),
     dict(heading='Two clinicians disagree about a scale', part='Part 3',
-         task='A discussion between two clinicians', band='l3',
+         task='A discussion between two clinicians · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Hollingbury', 'You want the scale off the admission form and I '
@@ -746,7 +746,7 @@ UNIT = dict(
    read=[
     dict(heading='Response, awareness and the gap between',
          kind='Process article',
-         task='Diagram labelling and matching information',
+         task='Flow-chart completion and matching information',
          band='gt_work', qtype='Questions 33-38',
          figure=_PARA,
          paras=[
@@ -827,7 +827,7 @@ UNIT = dict(
                'response.', 1: 'Paragraph 7 is about how a negative is recorded.', 3: 'Paragraph 5 covers what a detection licenses.'})])],
    listen=[
     dict(heading='A neuroscientist on imaging studies', part='Part 4',
-         task='A lecture on command-following paradigms', band='l4',
+         task='A lecture on command-following paradigms · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_PARA,
          script=[
@@ -1053,7 +1053,7 @@ UNIT = dict(
    read=[
     dict(heading='Everything explained except the one thing',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'The sciences of the mind have been remarkably successful at '
@@ -1197,7 +1197,7 @@ UNIT = dict(
            'The final paragraph, with an appalling historical record.')])],
    listen=[
     dict(heading='A lecture on the explanatory gap', part='Part 4',
-         task='A lecture on consciousness and explanation', band='l4',
+         task='A lecture on consciousness and explanation · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'The function is explained and the question is said '
@@ -1431,7 +1431,7 @@ UNIT = dict(
    read=[
     dict(heading='An objection to the objection',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'An argument that something cannot be explained has a structure '
@@ -1574,7 +1574,7 @@ UNIT = dict(
            'resolution.')])],
    listen=[
     dict(heading='Two philosophers disagree about explanation',
-         part='Part 4', task='A recorded exchange', band='l4',
+         part='Part 4', task='A recorded exchange · multiple choice', band='l4',
          qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Thackeray-Osei holds that there is an '

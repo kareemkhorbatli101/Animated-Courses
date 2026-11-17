@@ -30,7 +30,7 @@ UNIT = dict(
    read=[
     dict(heading='Riverside Centre: membership and classes',
          kind='Notice and timetable',
-         task='Table completion and matching features',
+         task='Matching features and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A timetable is read for the exception',
                 ['Four memberships, five classes and two price columns '
@@ -80,7 +80,7 @@ UNIT = dict(
           ('A suspended membership is charged at £____________ a '
            'month.', None, '5',
            'Paragraph 6, for up to three months a year.')]),
-    dict(heading='Pool rules', kind='Notice', task='Short answer',
+    dict(heading='Pool rules', kind='Notice', task='Short answer and sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'The pool has three lanes during lane swimming and is open '
@@ -110,7 +110,7 @@ UNIT = dict(
            'Paragraph 4, on the first Monday of the month.')])],
    listen=[
     dict(heading='Joining the centre', part='Part 1',
-         task='A conversation at a sports centre', band='l1',
+         task='A conversation at a sports centre · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Staff', 'Riverside Centre, how can I help?'),
@@ -330,7 +330,7 @@ UNIT = dict(
                'none.', 1: 'False would need her to rule it out, and she does not.'})])],
    listen=[
     dict(heading='A coach on keeping going', part='Part 2',
-         task='A talk to new members', band='l2',
+         task='A talk to new members · note completion and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Coach', 'Welcome. I am going to spend ten minutes on why '
@@ -531,7 +531,7 @@ UNIT = dict(
    read=[
     dict(heading='Participation in five sports, by age',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_PART,
          paras=[
@@ -587,7 +587,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two officers discuss participation figures',
          part='Part 3',
-         task='A discussion between two council officers', band='l3',
+         task='A discussion between two council officers · note completion', band='l3',
          qtype='Questions 35-40',
          figure=_PART,
          script=[
@@ -779,8 +779,7 @@ UNIT = dict(
    read=[
     dict(heading='Load, rest and the shape of improvement',
          kind='Academic passage',
-         task='Matching headings, True/False, Yes/No and summary '
-              'completion',
+         task='Matching headings, True/False/Not Given, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'Training does not make anybody fitter. Training makes people '
@@ -869,7 +868,7 @@ UNIT = dict(
            'Paragraph 4, which is why they are fast.')])],
    listen=[
     dict(heading='A physiologist on training and recovery',
-         part='Part 4', task='A lecture on how training works',
+         part='Part 4', task='A lecture on how training works · note completion and multiple choice',
          band='l4', qtype='Questions 49-54',
          script=[
           ('Physiologist', 'I am going to tell you something that '
@@ -1039,8 +1038,7 @@ UNIT = dict(
    read=[
     dict(heading='The children who stopped at fifteen',
          kind='Academic passage',
-         task='Matching information, True/False, Yes/No and short '
-              'answer',
+         task='Matching information, Yes/No/Not Given, True/False/Not Given, short answer and sentence completion',
          band='acad', qtype='Questions 55-62',
          paras=[
           'Ask twenty professional athletes how they trained as children and '
@@ -1134,8 +1132,7 @@ UNIT = dict(
            'Paragraph 5, and those skills transfer.')]),
     dict(heading='The hour record',
          kind='Academic passage \u00b7 the stamina read',
-         task='Matching information, True/False, Yes/No and short '
-              'answer',
+         task='Matching information, True/False/Not Given, Yes/No/Not Given, short answer and sentence completion',
          band='stamina',
          qtype='Questions 63-70',
          skill=('Reading a long passage without losing the thread',
@@ -1278,7 +1275,7 @@ UNIT = dict(
            'is the whole point of the passage.')])],
    listen=[
     dict(heading='Two coaches disagree about specialising',
-         part='Part 4', task='A recorded discussion', band='l4',
+         part='Part 4', task='A recorded discussion · note completion and multiple choice', band='l4',
          qtype='Questions 71-76',
          script=[
           ('Chair', 'Ms Oyelaran-Pike coaches a youth academy. Mr '

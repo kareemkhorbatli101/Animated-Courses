@@ -33,7 +33,7 @@ UNIT = dict(
    read=[
     dict(heading='Four accounts compared',
          kind='Comparison table',
-         task='Table completion and matching features',
+         task='Matching features and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A comparison table is read down the column you care '
                 'about, not across the rows',
@@ -90,7 +90,7 @@ UNIT = dict(
            None, 'three',
            'Against the same day for applications made in a branch.')]),
     dict(heading='What you need to open an account',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion and matching features',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Choose the account before you book. Staff cannot change the '
@@ -127,7 +127,7 @@ UNIT = dict(
            'Paragraph 4, and they are sent separately.')])],
    listen=[
     dict(heading='Opening an account', part='Part 1',
-         task='A conversation in a bank branch', band='l1',
+         task='A conversation in a bank branch · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Adviser', 'Good morning. You have an appointment to open an '
@@ -350,7 +350,7 @@ UNIT = dict(
                'being told it.', 2: 'Not Given is wrong because she responds to the charge.'})])],
    listen=[
     dict(heading='A short talk: saving and spending', part='Part 2',
-         task='A talk at a community centre', band='l2',
+         task='A talk at a community centre · multiple choice and sentence completion', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I am going to say one thing tonight that contradicts '
@@ -398,7 +398,7 @@ UNIT = dict(
            {0: 'Sixty per cent is where participation starts, not '
                'seventy.', 1: 'The rise he reports goes past eighty to above ninety.', 3: 'He says above ninety, and gives no figure beyond that.'})]),
     dict(heading='Two friends on budgeting', part='Part 3',
-         task='A conversation between two friends', band='l3',
+         task='A conversation between two friends · multiple choice and sentence completion', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Emeka', 'You have never once asked me how much I earn, and you '
@@ -627,7 +627,7 @@ UNIT = dict(
    read=[
     dict(heading='What a household spends in a year',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_LOW, figure2=_HIGH,
          paras=[
@@ -707,7 +707,7 @@ UNIT = dict(
                'addresses it directly.'})])],
    listen=[
     dict(heading='An economist on household spending', part='Part 4',
-         task='A lecture on measuring spending', band='l4',
+         task='A lecture on measuring spending · multiple choice and note completion', band='l4',
          qtype='Questions 39-44',
          figure=_LOW,
          script=[
@@ -914,7 +914,7 @@ UNIT = dict(
    read=[
     dict(heading='Scarcity, comparison and the sense of a bargain',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'A price on its own conveys very little. Asked whether forty '
@@ -1011,7 +1011,7 @@ UNIT = dict(
            'The final paragraph, since resisting the feeling fails.')])],
    listen=[
     dict(heading='A lecture on consumer behaviour', part='Part 4',
-         task='A lecture on how prices are judged', band='l4',
+         task='A lecture on how prices are judged · note completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'I want to start with a question that sounds '
@@ -1192,7 +1192,7 @@ UNIT = dict(
    read=[
     dict(heading='What happened when the standard choice was changed',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Between about 2008 and 2015, governments in several countries '
@@ -1380,7 +1380,7 @@ UNIT = dict(
            'reason.')])],
    listen=[
     dict(heading='Two researchers disagree about nudges', part='Part 4',
-         task='A recorded discussion', band='l4', qtype='Questions 72-77',
+         task='A recorded discussion · multiple choice and sentence completion', band='l4', qtype='Questions 72-77',
          script=[
           ('Chair', 'Dr Ferreira runs a behavioural unit. Professor Okonjo '
            'has written against them. Each will begin with their own '

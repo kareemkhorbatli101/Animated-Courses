@@ -47,7 +47,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Size guide and returns',
-         kind='Shop information', task='Short answer',
+         kind='Shop information', task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 1-5',
          skill=('A size and returns page is read for the exception',
                 ['Sizes are rarely asked about directly. The '
@@ -85,7 +85,7 @@ UNIT = dict(
            None, 'year', 'Worn or not, at the full price paid.')])],
    listen=[
     dict(heading='Exchanging a jacket', part='Part 1',
-         task='A conversation at a customer desk', band='l1',
+         task='A conversation at a customer desk · note completion', band='l1',
          qtype='Questions 6-11',
          script=[
           ('Desk', 'How can I help?'),
@@ -219,7 +219,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Should there be a uniform?',
-         kind='Short article', task='Matching information',
+         kind='Short article', task='Short answer, note completion and matching features',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'Arguments about uniforms at work are usually arguments about '
@@ -262,7 +262,7 @@ UNIT = dict(
            'Unlike a vague one, the writer argues.')])],
    listen=[
     dict(heading='Two colleagues on the dress code', part='Part 3',
-         task='A discussion between two colleagues', band='l3',
+         task='A discussion between two colleagues · note completion', band='l3',
          qtype='Questions 18-23',
          script=[
           ('Manager', 'You both replied to the dress code '
@@ -447,7 +447,7 @@ UNIT = dict(
    read=[
     dict(heading='The journey of a cotton shirt',
          kind='Short factual article',
-         task='Flow-chart completion and matching',
+         task='Note completion and short answer',
          band='acad', qtype='Questions 24-30',
          paras=[
           'A cotton shirt on a shelf in Europe has usually travelled '
@@ -503,7 +503,7 @@ UNIT = dict(
            'Paragraph 4, which advertisements do not say.')])],
    listen=[
     dict(heading='A talk on the clothing supply chain', part='Part 4',
-         task='A talk to design students', band='l4',
+         task='A talk to design students · note completion', band='l4',
          qtype='Questions 31-36',
          script=[
           ('Speaker', 'I want to correct the thing most people believe '
@@ -660,7 +660,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Why old styles return',
-         kind='Short article', task='Matching information',
+         kind='Short article', task='Note completion and short answer',
          band='gt_work', qtype='Questions 37-42',
          paras=[
           'Styles return on a cycle of roughly twenty to thirty years, '
@@ -702,7 +702,7 @@ UNIT = dict(
            'Which the writer says is not an insult.')])],
    listen=[
     dict(heading='A fashion historian on cycles', part='Part 2',
-         task='One speaker explaining a pattern', band='l2',
+         task='One speaker explaining a pattern · note completion', band='l2',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'I am going to explain why your parents’ '
@@ -844,7 +844,7 @@ UNIT = dict(
    read=[
     dict(heading='Three answers to a mountain of clothes',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion and matching features',
          band='acad', qtype='Questions 49-55',
          paras=[
           'Households in rich countries now buy roughly twice as many '
@@ -905,7 +905,7 @@ UNIT = dict(
            'hypocrisy.')])],
    listen=[
     dict(heading='A campaigner and a retailer disagree', part='Part 3',
-         task='A discussion between two speakers', band='l3',
+         task='A discussion between two speakers · note completion', band='l3',
          qtype='Questions 56-61',
          script=[
           ('Chair', 'You two have argued in public before. Keep it '

@@ -43,8 +43,7 @@ UNIT = dict(
    read=[
     dict(heading='Rooms to let: three small adverts',
          kind='Classified adverts',
-         task='Matching features and short answer and True/False/Not '
-              'Given',
+         task='Matching features and True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('An advert is read for what it does not say',
                 ['Three adverts always differ in two or three things. '
@@ -86,7 +85,7 @@ UNIT = dict(
                'adverts omit.'})])],
    listen=[
     dict(heading='Asking about a room', part='Part 1',
-         task='A telephone call about an advert', band='l1',
+         task='A telephone call about an advert · note completion', band='l1',
          qtype='Questions 6-10',
          script=[
           ('Caller', 'Hello. I am calling about the room above the '
@@ -210,7 +209,7 @@ UNIT = dict(
    read=[
     dict(heading='Flat 3B: a plan of the rooms',
          kind='Floor plan with labels',
-         task='Plan labelling',
+         task='Note completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'The front door is on the north side of the flat. As you come '
@@ -235,7 +234,7 @@ UNIT = dict(
            'Paragraph 3, because the street is on the other side.')])],
    listen=[
     dict(heading='Showing a friend round the flat', part='Part 2',
-         task='One speaker describing a home', band='l2',
+         task='One speaker describing a home · note completion and short answer', band='l2',
          qtype='Questions 16-20',
          script=[
           ('Speaker', 'Come in. It is small, but it works, and I will '
@@ -357,7 +356,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Repairs: what to do and who to call',
-         kind='Notice', task='Matching and short answer',
+         kind='Notice', task='Short answer, note completion and matching features',
          band='gt_work', qtype='Questions 21-25',
          skill=('A notice about repairs is read for who does what',
                 ['The questions are nearly always about who to call and '
@@ -394,7 +393,7 @@ UNIT = dict(
            {0: 'Nobody is charged for anything worn out.', 2: 'Batteries are free from the office.', 3: 'An ordered part is part of the repair, not a charge.'})])],
    listen=[
     dict(heading='Reporting a broken heater', part='Part 1',
-         task='A call to a repairs office', band='l1',
+         task='A call to a repairs office · note completion', band='l1',
          qtype='Questions 26-30',
          script=[
           ('Office', 'Repairs line, good morning.'),
@@ -569,7 +568,7 @@ UNIT = dict(
    read=[
     dict(heading='Four stages in building a small house',
          kind='Short factual article',
-         task='Flow-chart completion and matching',
+         task='Note completion, multiple choice and matching features',
          band='acad', qtype='Questions 31-36',
          paras=[
           'A small house is built in four stages, and they cannot be '
@@ -611,7 +610,7 @@ UNIT = dict(
            None, 'twenty', 'Paragraph 3, and weather can add to it.')])],
    listen=[
     dict(heading='A visit to a building site', part='Part 4',
-         task='A short talk to visiting students', band='l4',
+         task='A short talk to visiting students · note completion and short answer', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'Hard hats on, please. We have twenty-four houses '
@@ -735,7 +734,7 @@ UNIT = dict(
    read=[
     dict(heading='A village and a city: what residents decide',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Matching information and note completion',
          band='acad', qtype='Questions 42-47',
          paras=[
           'A village of four hundred people and a city of four hundred '
@@ -790,7 +789,7 @@ UNIT = dict(
            'Paragraph 3, but somebody is paid to answer it.')])],
    listen=[
     dict(heading='Two people talk about moving', part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion and multiple choice', band='l3',
          qtype='Questions 48-52',
          script=[
           ('Tutor', 'You both moved last year, in opposite directions. '

@@ -53,7 +53,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='The Weekly Gazette: subscriptions and delivery',
-         kind='Information page', task='Short answer',
+         kind='Information page', task='Note completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A service page is read for what changes and when',
                 ['Deadlines and cut-off times are the commonest '
@@ -94,7 +94,7 @@ UNIT = dict(
            'The address held on the account, the page says.')])],
    listen=[
     dict(heading='Reporting a missed delivery', part='Part 1',
-         task='A telephone conversation', band='l1',
+         task='A telephone conversation · note completion', band='l1',
          qtype='Questions 6-11',
          script=[
           ('Clerk', 'Gazette subscriptions, good morning.'),
@@ -236,7 +236,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Before it was printed',
-         kind='Short article', task='Matching information',
+         kind='Short article', task='Multiple choice and note completion',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'In March a reporter was sent a photograph of a flooded '
@@ -283,7 +283,7 @@ UNIT = dict(
            'opinion.')])],
    listen=[
     dict(heading='Two students on checking a story', part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion', band='l3',
          qtype='Questions 18-23',
          script=[
           ('Tutor', 'You are presenting on verification. What is your '
@@ -468,7 +468,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Four age groups, three sources',
-         kind='Short article', task='Matching information',
+         kind='Short article', task='Multiple choice, note completion and short answer',
          band='gt_work', qtype='Questions 24-29',
          skill=('A survey of groups is read one group at a time',
                 ['Decide which group the question names before '
@@ -520,7 +520,7 @@ UNIT = dict(
            'Much phone reading comes from the same newspapers.')])],
    listen=[
     dict(heading='A researcher on news habits', part='Part 2',
-         task='One speaker describing a survey', band='l2',
+         task='One speaker describing a survey · note completion', band='l2',
          qtype='Questions 30-35',
          script=[
           ('Speaker', 'I have run this survey four times in six years, '
@@ -684,7 +684,7 @@ UNIT = dict(
    read=[
     dict(heading='From the exchange to the socket',
          kind='Short factual article',
-         task='Diagram labelling and short answer',
+         task='Short answer, matching features and note completion',
          band='acad', qtype='Questions 36-42',
          paras=[
           'The cable that ends in a socket on a wall begins in a '
@@ -741,7 +741,7 @@ UNIT = dict(
            'Paragraph 4: eighty centimetres is often enough.')])],
    listen=[
     dict(heading='An engineer on home networks', part='Part 4',
-         task='A talk to trainee engineers', band='l4',
+         task='A talk to trainee engineers · note completion', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'You will spend your first year being sent to '
@@ -881,7 +881,7 @@ UNIT = dict(
    read=[
     dict(heading='The correction nobody read',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion and multiple choice',
          band='acad', qtype='Questions 49-55',
          paras=[
           'In 2017 a regional paper printed a front-page story saying '
@@ -939,7 +939,7 @@ UNIT = dict(
            'Paragraph 4, as a reason for trusting the paper.')])],
    listen=[
     dict(heading='Two editors on corrections', part='Part 3',
-         task='A discussion between two editors', band='l3',
+         task='A discussion between two editors · note completion', band='l3',
          qtype='Questions 56-61',
          script=[
           ('Chair', 'You run two papers with opposite policies on '

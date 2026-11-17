@@ -32,7 +32,7 @@ UNIT = dict(
    read=[
     dict(heading='How a policy is evaluated',
          kind='Official guidance',
-         task='Matching features and short answer',
+         task='Sentence completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('Evaluation guidance is read for what the evaluation will '
                 'not do',
@@ -109,7 +109,7 @@ UNIT = dict(
            'Paragraph 6, which happens in about one evaluation in six.',
            {0: 'Paragraph 6 says a qualified answer is not acceptable.', 2: 'No further work is commissioned in that case.', 3: 'The report is published rather than deferred.'})]),
     dict(heading='Submitting evidence to a review',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Obtain the terms of reference before drafting anything. They name '
@@ -149,7 +149,7 @@ UNIT = dict(
            'report.')])],
    listen=[
     dict(heading='Submitting evidence to a policy review', part='Part 1',
-         task='A call to an evaluation secretariat', band='l1',
+         task='A call to an evaluation secretariat · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Officer', 'Evaluation secretariat, Hildegarde speaking.'),
@@ -413,7 +413,7 @@ UNIT = dict(
                'claims.'})])],
    listen=[
     dict(heading='A short talk: what people think caused what',
-         part='Part 2', task='A talk to a council scrutiny committee',
+         part='Part 2', task='A talk to a council scrutiny committee · multiple choice',
          band='l2', qtype='Questions 23-26',
          script=[
           ('Speaker', 'I have spent eleven years evaluating local policy and '
@@ -473,7 +473,7 @@ UNIT = dict(
            1, 'Before anybody knows which way the result will fall.',
            {0: 'He says training would do less than the clause.', 2: 'Duration is not what he asks the committee to require.', 3: 'Panel independence is not his proposal.'})]),
     dict(heading='Two analysts disagree about a cause', part='Part 3',
-         task='A discussion between two analysts', band='l3',
+         task='A discussion between two analysts · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Perpetua', 'I am going to put Ashworth in the report and I know '
@@ -727,7 +727,7 @@ UNIT = dict(
    read=[
     dict(heading='The policy, the trend and the year it was introduced',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_ITS,
          paras=[
@@ -817,7 +817,7 @@ UNIT = dict(
                'testability directly.'})])],
    listen=[
     dict(heading='A statistician on interrupted time series', part='Part 4',
-         task='A lecture on evaluating an intervention', band='l4',
+         task='A lecture on evaluating an intervention · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_ITS,
          script=[
@@ -1038,7 +1038,7 @@ UNIT = dict(
    read=[
     dict(heading='The world that has to be imagined',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given, sentence completion and short answer',
          band='acad', qtype='Questions 45-52',
          paras=[
           'Every causal claim harbours an implicit assertion about a world '
@@ -1187,7 +1187,7 @@ UNIT = dict(
            'The final paragraph, none of them technical.')])],
    listen=[
     dict(heading='A lecture on causal inference', part='Part 4',
-         task='A lecture on what a causal claim requires', band='l4',
+         task='A lecture on what a causal claim requires · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'Every causal claim is a claim about a world nobody '
@@ -1416,7 +1416,7 @@ UNIT = dict(
    read=[
     dict(heading='Three questions no study can settle',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'A recurring frustration in public argument is the discovery '
@@ -1563,7 +1563,7 @@ UNIT = dict(
            'Paragraph 7, which is the test for distinguishing it.')])],
    listen=[
     dict(heading='Two methodologists disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice and matching', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Achterberg-Nkemdirim works on causal '
            'inference. Dr Villanueva-Strand advises a health department.'),

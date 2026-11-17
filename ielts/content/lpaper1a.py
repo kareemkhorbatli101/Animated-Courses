@@ -28,7 +28,7 @@ LPAPER = dict(
 
   dict(no=1, first=1, part='Part 1', band='l1',
        heading='Hiring a hall for a club meeting',
-       task='A telephone call to a community centre',
+       task='A telephone call to a community centre · note completion',
        qtype='Questions 1-10',
        blurb='Questions 1–10. Complete the notes. Write ONE WORD '
              'AND/OR A NUMBER for each answer.',
@@ -86,7 +86,7 @@ LPAPER = dict(
 
   dict(no=2, first=11, part='Part 2', band='l2',
        heading='A talk about a new library service',
-       task='A talk by a librarian to a residents’ group',
+       task='A talk by a librarian to a residents’ group · multiple choice and short answer',
        qtype='Questions 11-20',
        blurb='Questions 11–20. Choose the correct letter, A, B or C, '
              'or write NO MORE THAN TWO WORDS for each answer.',
@@ -155,7 +155,7 @@ LPAPER = dict(
 
   dict(no=3, first=21, part='Part 3', band='l3',
        heading='Two students discuss a reading list',
-       task='A tutorial discussion',
+       task='A tutorial discussion · short answer, multiple choice and sentence completion',
        qtype='Questions 21-30',
        blurb='Questions 21–30. Choose the correct letter, A, B or C, '
              'or write NO MORE THAN TWO WORDS for each answer.',
@@ -223,7 +223,7 @@ LPAPER = dict(
 
   dict(no=4, first=31, part='Part 4', band='l4',
        heading='A lecture on why bridges are inspected',
-       task='A lecture to first-year engineering students',
+       task='A lecture to first-year engineering students · note completion',
        qtype='Questions 31-40',
        blurb='Questions 31–40. Complete the notes. Write NO MORE '
              'THAN TWO WORDS AND/OR A NUMBER for each answer.',

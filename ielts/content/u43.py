@@ -41,7 +41,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Hardship funds — eligibility and evidence',
-         kind='Guidance', task='Matching features and short answer',
+         kind='Guidance', task='Multiple choice and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('Eligibility guidance is read for the word "normally"',
                 ['Guidance about money almost always distinguishes a rule '
@@ -104,7 +104,7 @@ UNIT = dict(
            'Paragraph 5, which was not sent with the original '
            'application.')]),
     dict(heading='How applications are assessed',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Applications are checked first for completeness. An incomplete '
@@ -144,7 +144,7 @@ UNIT = dict(
            'seeking.')])],
    listen=[
     dict(heading='Applying to a hardship fund', part='Part 1',
-         task='A call to a welfare office', band='l1',
+         task='A call to a welfare office · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Adviser', 'Hardship fund, Celestine speaking.'),
@@ -208,7 +208,7 @@ UNIT = dict(
           ('Reference: HF____________', None, '4152',
            'To be written at the top of the review request.')]),
     dict(heading='A short talk: starting from different places',
-         part='Part 2', task='A talk at a teacher training day',
+         part='Part 2', task='A talk at a teacher training day · multiple choice',
          band='l2', qtype='Questions 17-20',
          script=[
           ('Speaker', 'I want to give you a number that changed how I teach, '
@@ -461,7 +461,7 @@ UNIT = dict(
                'good.', 2: 'Not Given is wrong because she rates the figures.'})])],
    listen=[
     dict(heading='Two teachers disagree about fairness', part='Part 3',
-         task='A staffroom conversation', band='l3',
+         task='A staffroom conversation · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Oriana', 'I am going to put the extra hours into the top set and '
@@ -708,7 +708,7 @@ UNIT = dict(
    read=[
     dict(heading='Three measures of the same inequality',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_DEC, figure2=_GINI,
          paras=[
@@ -794,7 +794,7 @@ UNIT = dict(
                'counter-case.'})])],
    listen=[
     dict(heading='An economist on inequality measures', part='Part 4',
-         task='A lecture on measuring distributions', band='l4',
+         task='A lecture on measuring distributions · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_GINI,
          script=[
@@ -1015,7 +1015,7 @@ UNIT = dict(
    read=[
     dict(heading='Four generations and what moved',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'Studies of how far economic position passes from parent to child '
@@ -1152,7 +1152,7 @@ UNIT = dict(
            'income.')])],
    listen=[
     dict(heading='A lecture on intergenerational mobility', part='Part 4',
-         task='A lecture on persistence across generations', band='l4',
+         task='A lecture on persistence across generations · multiple choice and matching', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'I am going to give you a number, then a second '
@@ -1382,7 +1382,7 @@ UNIT = dict(
    read=[
     dict(heading='Moving up in a room that is shrinking',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Mobility statistics come in two kinds that are routinely quoted '
@@ -1512,7 +1512,7 @@ UNIT = dict(
            'group.')])],
    listen=[
     dict(heading='Two sociologists disagree about mobility', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Nakagawa-Oduya works on absolute mobility. '
            'Dr Villanueva-Bright works on relative mobility and '

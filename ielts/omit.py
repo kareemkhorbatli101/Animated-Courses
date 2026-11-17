@@ -53,6 +53,10 @@ def wanted(U):
     for ci, c in enumerate(U['cycles'], 1):
         for ri, r in enumerate(c['read'], 1):
             out.append(('u%d c%d r%d heading' % (n, ci, ri), r['heading']))
+            # The printed task label. Until phase 11 nothing checked
+            # that it reached the page, and nothing checked that it
+            # described the exercise under it.
+            out.append(('u%d c%d r%d task' % (n, ci, ri), r['task']))
             for i, p in enumerate(r['paras'], 1):
                 out.append(('u%d c%d r%d para %d' % (n, ci, ri, i), p))
             for i, it in enumerate(r['items'], 1):
@@ -66,6 +70,7 @@ def wanted(U):
                 out.append(('u%d c%d r%d bank %d' % (n, ci, ri, i), e))
             out.append(('u%d c%d r%d rubric' % (n, ci, ri), B.rubric(r)))
         for li, l in enumerate(c['listen'], 1):
+            out.append(('u%d c%d l%d task' % (n, ci, li), l['task']))
             for i, (_, t) in enumerate(l['script'], 1):
                 out.append(('u%d c%d l%d turn %d' % (n, ci, li, i), t))
             for i, it in enumerate(l['items'], 1):

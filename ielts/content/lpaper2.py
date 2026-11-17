@@ -30,7 +30,7 @@ LPAPER = dict(
 
   dict(no=1, first=1, part='Part 1', band='l1',
        heading='Joining a sports centre',
-       task='A conversation at a reception desk',
+       task='A conversation at a reception desk · note completion',
        qtype='Questions 1-10',
        blurb='Questions 1–10. Complete the membership form. Write ONE '
              'WORD AND/OR A NUMBER for each answer.',
@@ -103,7 +103,7 @@ LPAPER = dict(
 
   dict(no=2, first=11, part='Part 2', band='l2',
        heading='A talk to new volunteers at a city farm',
-       task='A talk by a volunteer coordinator',
+       task='A talk by a volunteer coordinator · note completion',
        qtype='Questions 11-20',
        blurb='Questions 11–20. Complete the notes. Write NO MORE THAN '
              'TWO WORDS for each answer.',
@@ -168,7 +168,7 @@ LPAPER = dict(
 
   dict(no=3, first=21, part='Part 3', band='l3',
        heading='Two students choose a subject for a group project',
-       task='A discussion between two students',
+       task='A discussion between two students · multiple choice and note completion',
        qtype='Questions 21-30',
        blurb='Questions 21–30. Choose the correct letter, or complete '
              'the sentence with ONE WORD ONLY.',
@@ -256,7 +256,7 @@ LPAPER = dict(
 
   dict(no=4, first=31, part='Part 4', band='l4',
        heading='A lecture on why queues form',
-       task='A lecture on queues and waiting',
+       task='A lecture on queues and waiting · note completion and multiple choice',
        qtype='Questions 31-40',
        blurb='Questions 31–40. Complete the notes. Write ONE WORD '
              'ONLY, or choose the correct letter.',

@@ -40,8 +40,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='The Okoro family: a short profile',
-         kind='Short profile', task='Short answer and matching and '
-                                    'True/False/Not Given',
+         kind='Short profile', task='Short answer and True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('A profile is read for who does what',
                 ['Names first. Write them in a list down the side of '
@@ -79,7 +78,7 @@ UNIT = dict(
                'is mentioned.'})])],
    listen=[
     dict(heading='Meeting a new neighbour', part='Part 1',
-         task='A conversation at a front door', band='l1',
+         task='A conversation at a front door · note completion', band='l1',
          qtype='Questions 6-10',
          script=[
           ('Neighbour', 'Hello. You moved in on Saturday, did you not?'),
@@ -194,7 +193,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Lost: have you seen this man?',
-         kind='Notice with a description', task='Short answer',
+         kind='Notice with a description', task='Short answer and sentence completion',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'We are looking for Mr Albert Hale, who left his house on '
@@ -219,7 +218,7 @@ UNIT = dict(
            'Paragraph 3, and telephone the number.')])],
    listen=[
     dict(heading='Describing a missing bag and its owner', part='Part 1',
-         task='A conversation at a lost property desk', band='l1',
+         task='A conversation at a lost property desk · note completion', band='l1',
          qtype='Questions 16-20',
          script=[
           ('Desk', 'Lost property. What have you lost?'),
@@ -331,7 +330,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Who does what: a family timetable',
-         kind='Timetable', task='Table completion',
+         kind='Timetable', task='Note completion and short answer',
          band='gt_work', qtype='Questions 21-25',
          skill=('A timetable is read down a column, not across a line',
                 ['Find the column the question is about first. Most '
@@ -365,7 +364,7 @@ UNIT = dict(
            'And anything else that cannot wait.')])],
    listen=[
     dict(heading='Sharing the jobs at home', part='Part 2',
-         task='One speaker describing a system', band='l2',
+         task='One speaker describing a system · short answer and note completion', band='l2',
          qtype='Questions 26-30',
          script=[
           ('Speaker', 'We tried three systems before this one worked, '
@@ -529,7 +528,7 @@ UNIT = dict(
    read=[
     dict(heading='Families a hundred years ago',
          kind='Short factual article',
-         task='Note completion and matching',
+         task='Note completion and matching features',
          band='acad', qtype='Questions 31-36',
          paras=[
           'In 1920 a family in most countries had five or six children. '
@@ -571,7 +570,7 @@ UNIT = dict(
            'Paragraph 3, against a week to be useful on a farm.')])],
    listen=[
     dict(heading='A talk about family size', part='Part 4',
-         task='A short lecture to first-year students', band='l4',
+         task='A short lecture to first-year students · note completion', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I want to start with a number that surprises '
@@ -697,7 +696,7 @@ UNIT = dict(
    read=[
     dict(heading='Keeping in touch across a distance',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Matching information and note completion',
          band='acad', qtype='Questions 42-47',
          paras=[
           'A hundred years ago, a family that moved to another country '
@@ -747,7 +746,7 @@ UNIT = dict(
            'Paragraph 3, and everything can be read again.')])],
    listen=[
     dict(heading='A conversation about a neighbour', part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion', band='l3',
          qtype='Questions 48-52',
          script=[
           ('Tutor', 'You interviewed people about neighbours. What did '

@@ -35,7 +35,7 @@ LPAPER = dict(
  parts=[
   dict(no=1, first=1, part='Part 1', band='l1',
        heading='Joining a swimming pool',
-       task='A conversation at a reception desk',
+       task='A conversation at a reception desk · note completion and short answer',
        qtype='Questions 1-6',
        blurb='A conversation about an arrangement. Listen for numbers, '
              'days and prices.',
@@ -84,7 +84,7 @@ LPAPER = dict(
          'November', 'And passes are extended automatically.')]),
   dict(no=2, first=7, part='Part 2', band='l2',
        heading='A baker on a village oven',
-       task='One speaker describing a building',
+       task='One speaker describing a building · note completion',
        qtype='Questions 7-12',
        blurb='One speaker describing something. Listen for figures and '
              'reasons.',
@@ -134,7 +134,7 @@ LPAPER = dict(
          'chest.')]),
   dict(no=3, first=13, part='Part 3', band='l3',
        heading='Two students on missed appointments',
-       task='A discussion between two students',
+       task='A discussion between two students · note completion',
        qtype='Questions 13-18',
        blurb='Two students and a tutor. Listen for who thinks what, '
              'and for the numbers each uses.',
@@ -183,7 +183,7 @@ LPAPER = dict(
          'At no cost, which Theo says gets ignored.')]),
   dict(no=4, first=19, part='Part 4', band='l4',
        heading='A lecture on measuring small changes',
-       task='A short talk to first-year students',
+       task='A short talk to first-year students · note completion',
        qtype='Questions 19-24',
        blurb='A short talk. Listen for the steps of the method and the '
              'figures given.',

@@ -52,7 +52,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading="This week's forecast",
-         kind='Forecast chart', task='Table completion',
+         kind='Forecast chart', task='Note completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A forecast is read down the day you need',
                 ['Find the day first, then the thing: rain, wind, '
@@ -83,7 +83,7 @@ UNIT = dict(
            None, 'Thursday', 'With ice forming on untreated roads.')])],
    listen=[
     dict(heading='What shall we wear?', part='Part 1',
-         task='A conversation at home', band='l1',
+         task='A conversation at home · note completion', band='l1',
          qtype='Questions 6-10',
          script=[
           ('Ana', 'Have you looked at tomorrow?'),
@@ -213,7 +213,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='What to pack: a list for a cold country',
-         kind='Packing list', task='Matching and short answer',
+         kind='Packing list', task='Short answer, note completion and matching features',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'Three thin layers are warmer than one thick one and they can '
@@ -240,7 +240,7 @@ UNIT = dict(
            'edges', 'Which is why the ends are covered first.')])],
    listen=[
     dict(heading='Packing for a cold country', part='Part 2',
-         task='One speaker giving advice', band='l2',
+         task='One speaker giving advice · note completion and short answer', band='l2',
          qtype='Questions 16-20',
          script=[
           ('Speaker', 'I have taken groups north for eleven years and '
@@ -375,7 +375,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Flood warning: what to do',
-         kind='Public notice', task='Short answer and matching',
+         kind='Public notice', task='Note completion and short answer',
          band='gt_work', qtype='Questions 21-25',
          skill=('An emergency notice is read for the order of actions',
                 ['Find what to do first and what never to do. Those '
@@ -414,7 +414,7 @@ UNIT = dict(
            'And wait for the council on the water supply.')])],
    listen=[
     dict(heading='A flood warning announcement', part='Part 2',
-         task='A public announcement', band='l2',
+         task='A public announcement · note completion', band='l2',
          qtype='Questions 26-30',
          script=[
           ('Announcer', 'This is a flood warning for properties on Mill '
@@ -600,7 +600,7 @@ UNIT = dict(
    read=[
     dict(heading='Why the coast is milder than the hills',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion, short answer and matching information',
          band='acad', qtype='Questions 31-36',
          paras=[
           'Two towns twenty kilometres apart can have winters that '
@@ -648,7 +648,7 @@ UNIT = dict(
            'Paragraph 3, depending which way each faces.')])],
    listen=[
     dict(heading='A talk about rain and mountains', part='Part 4',
-         task='A short lecture to first-year students', band='l4',
+         task='A short lecture to first-year students · note completion', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'Here is a fact that sounds impossible. Two sides '
@@ -791,7 +791,7 @@ UNIT = dict(
    read=[
     dict(heading='Two people remember the winters',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion and matching information',
          band='acad', qtype='Questions 42-47',
          paras=[
           'Ask anybody over sixty about the winters of their childhood '
@@ -845,7 +845,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two neighbours talk about hotter summers',
          part='Part 3',
-         task='A discussion between two neighbours', band='l3',
+         task='A discussion between two neighbours · note completion', band='l3',
          qtype='Questions 48-52',
          script=[
           ('Tutor', 'You have both lived on this street for decades. '

@@ -17,6 +17,7 @@ from _base import Doc, D_INDIGO, D_BLUE, D_AMBER, D_TEAL, D_PLUM, D_GREY, D_PERI
 import charts
 import diagrams
 import frames as F
+import qtypes as QT
 
 VOLS = {1: dict(units=range(1, 11), level='B1', band='5.0',
                 cefr='B1', title='Volume 1'),
@@ -247,7 +248,8 @@ def render_cycle(d, U, c, ci, key, nq=1):
 
     # ---- reading ----------------------------------------------------------
     for r in c['read']:
-        d.figure(*F.skill_bar('reading', ci, r['kind'], r['task']))
+        d.figure(*F.skill_bar('reading', ci, r['kind'],
+                               QT.bar_label(r, 'read')))
         if r.get('skill'):
             d.skillbox(r['skill'][0], r['skill'][1], 'reading')
         if r.get('figure'):
@@ -268,7 +270,8 @@ def render_cycle(d, U, c, ci, key, nq=1):
 
     # ---- listening --------------------------------------------------------
     for l in c['listen']:
-        d.figure(*F.skill_bar('listening', ci, l['part'], l['task']))
+        d.figure(*F.skill_bar('listening', ci, l['part'],
+                               QT.bar_label(l, 'listen')))
         if l.get('figure'):
             _figure(d, l['figure'])
         if l.get('figure2'):
@@ -621,7 +624,8 @@ def render_lpaper(d, L):
     d.items(L['instruct'])
     d.page_break_section()
     for pt in L['parts']:
-        d.figure(*F.skill_bar('listening', pt['no'], pt['part'], pt['task']))
+        d.figure(*F.skill_bar('listening', pt['no'], pt['part'],
+                               QT.bar_label(pt, 'listen')))
         d.body_p(pt['blurb'], i=True)
         d.ex('Exercise  %s \u00b7 %s   The recording is played once.'
              % (pt['qtype'], pt.get('task', pt.get('part', ''))),

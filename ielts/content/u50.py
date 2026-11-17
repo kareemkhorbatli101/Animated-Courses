@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Certified translation — what is required',
          kind='Official guidance',
-         task='Matching features and short answer',
+         task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('Official guidance is read for which authority wants which '
                 'document',
@@ -104,7 +104,7 @@ UNIT = dict(
            'Paragraph 6, because the statement is signed in wet ink and '
            'posted.')]),
     dict(heading='Submitting documents for certification',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Ask the receiving body what it requires, in writing, before '
@@ -146,7 +146,7 @@ UNIT = dict(
            'Paragraph 4: dates, figures, names and spellings.')])],
    listen=[
     dict(heading='Arranging a certified translation', part='Part 1',
-         task='A call to a translation agency', band='l1',
+         task='A call to a translation agency · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Agent', 'Caldecott Linguistic Services, Benedetta speaking.'),
@@ -402,7 +402,7 @@ UNIT = dict(
                'them in two pages.', 2: 'Not Given is wrong because he gives the mechanism.'})])],
    listen=[
     dict(heading='A short talk: what gets lost', part='Part 2',
-         task='A talk at a literary festival', band='l2',
+         task='A talk at a literary festival · multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I have been asked to say what gets lost in '
@@ -459,7 +459,7 @@ UNIT = dict(
            'Which he says shapes more published prose than any theory.',
            {0: 'Difficulty is not what decides it, in his account.', 2: 'The author\u2019s intention is not the element he names.', 3: 'Titles are not among the four things a sentence does.'})]),
     dict(heading='Two translators disagree about fidelity', part='Part 3',
-         task='A discussion between two translators', band='l3',
+         task='A discussion between two translators · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Casimir', 'I want to put my position at its weakest before you '
@@ -701,7 +701,7 @@ UNIT = dict(
    read=[
     dict(heading='What machine translation gets right and wrong',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 33-38',
          figure=_ERR,
          paras=[
@@ -782,7 +782,7 @@ UNIT = dict(
            'translating afresh.')])],
    listen=[
     dict(heading='A researcher on evaluating translation', part='Part 4',
-         task='A lecture on translation evaluation', band='l4',
+         task='A lecture on translation evaluation · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_ERR,
          script=[
@@ -1002,7 +1002,7 @@ UNIT = dict(
    read=[
     dict(heading='Two texts, one meaning, no shared words',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'The notion that two sentences in different languages can mean the '
@@ -1135,7 +1135,7 @@ UNIT = dict(
            'The final paragraph, chosen on purpose.')])],
    listen=[
     dict(heading='A lecture on equivalence', part='Part 4',
-         task='A lecture on defining equivalence', band='l4',
+         task='A lecture on defining equivalence · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'Here is a question you have never needed to ask and '
@@ -1361,7 +1361,7 @@ UNIT = dict(
    read=[
     dict(heading='Three translations, three defences',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'A short novel published in 1961 has been rendered into English '
@@ -1499,7 +1499,7 @@ UNIT = dict(
            'The final paragraph, which he says nobody has tried.')])],
    listen=[
     dict(heading='A translator and a critic disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Dr Fairweather-Oduya made the 2019 translation. Mr '
            'Valdemarsson reviewed it, unfavourably.'),

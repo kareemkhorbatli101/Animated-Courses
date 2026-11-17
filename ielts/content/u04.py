@@ -31,7 +31,7 @@ UNIT = dict(
    read=[
     dict(heading='Ashfield recycling: what goes in which bin',
          kind='Council notice',
-         task='Matching features and short answer',
+         task='Matching features, sentence completion and short answer',
          band='gt_short', qtype='Questions 1-6',
          skill=('A council notice is read for the exceptions',
                 ['The general rule is in the first sentence of each '
@@ -81,7 +81,7 @@ UNIT = dict(
            'a sticker',
            'Paragraph 6, explaining why it was rejected.')]),
     dict(heading='Bulky waste collections', kind='Procedure notice',
-         task='Flow-chart completion', band='gt_short',
+         task='Note completion', band='gt_short',
          qtype='Questions 7-10',
          paras=[
           'Book online or by telephone. You will be given a reference '
@@ -110,7 +110,7 @@ UNIT = dict(
            'Paragraph 4, because they travel separately.')])],
    listen=[
     dict(heading='Booking a bulky collection', part='Part 1',
-         task='A telephone call to a council', band='l1',
+         task='A telephone call to a council · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Officer', 'Ashfield Council, waste services.'),
@@ -327,7 +327,7 @@ UNIT = dict(
                'never appears.'})])],
    listen=[
     dict(heading='A volunteer group leader', part='Part 2',
-         task='A talk to new volunteers', band='l2',
+         task='A talk to new volunteers · note completion and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Leader', 'Welcome to the river group. Before the waders come '
@@ -529,7 +529,7 @@ UNIT = dict(
    read=[
     dict(heading='What a gauge actually measures',
          kind='Article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_FLOW,
          paras=[
@@ -588,7 +588,7 @@ UNIT = dict(
            'Paragraph 3, used most in the driest month.')])],
    listen=[
     dict(heading='Two speakers discuss measuring a river', part='Part 3',
-         task='A discussion between two volunteers', band='l3',
+         task='A discussion between two volunteers · note completion and multiple choice', band='l3',
          qtype='Questions 35-40',
          figure=_FLOW,
          script=[
@@ -785,8 +785,7 @@ UNIT = dict(
    read=[
     dict(heading='Habitat, corridors and what a reserve cannot do',
          kind='Academic passage',
-         task='Matching headings, True/False, Yes/No and summary '
-              'completion',
+         task='Matching headings, Yes/No/Not Given, True/False/Not Given and sentence completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'The simplest way to protect a species is to buy the land it '
@@ -875,7 +874,7 @@ UNIT = dict(
            'Paragraph 3: a dry summer, a disease, a fire.')])],
    listen=[
     dict(heading='A lecture on habitat fragmentation', part='Part 4',
-         task='A lecture on reserves and corridors', band='l4',
+         task='A lecture on reserves and corridors · note completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I am going to argue that the most important fact '
@@ -1042,8 +1041,7 @@ UNIT = dict(
    read=[
     dict(heading='The threats that cross a fence',
          kind='Academic passage',
-         task='Matching information, True/False, Yes/No and short '
-              'answer',
+         task='Matching information, Yes/No/Not Given, True/False/Not Given, short answer and sentence completion',
          band='acad', qtype='Questions 55-62',
          paras=[
           'A reserve is a line drawn on a map, and the value of drawing '
@@ -1135,7 +1133,7 @@ UNIT = dict(
            'The final paragraph: hedges, verges and field margins.')])],
    listen=[
     dict(heading='Two conservationists disagree', part='Part 4',
-         task='A recorded discussion', band='l4',
+         task='A recorded discussion · note completion and multiple choice', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Dr Abeyratne manages reserves. Professor '

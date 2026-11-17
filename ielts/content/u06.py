@@ -30,7 +30,7 @@ UNIT = dict(
    read=[
     dict(heading='Hillcrest Tours: four walking holidays',
          kind='Brochure',
-         task='Matching features and table completion',
+         task='Matching features and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A brochure is read for the grade and the '
                 'supplements',
@@ -84,7 +84,7 @@ UNIT = dict(
            'before departure.', None, 'fourteen',
            'Paragraph 6, or the booking is cancelled.')]),
     dict(heading='What is and is not included', kind='Terms notice',
-         task='Short answer', band='gt_short', qtype='Questions 7-10',
+         task='Short answer and sentence completion', band='gt_short', qtype='Questions 7-10',
          paras=[
           'The price includes accommodation, breakfast, dinner except on '
           'the final night, luggage transfer between hotels and a '
@@ -115,7 +115,7 @@ UNIT = dict(
            'Paragraph 4, rising to the full price within ten days.')])],
    listen=[
     dict(heading='Booking a walking holiday', part='Part 1',
-         task='A telephone call to a tour company', band='l1',
+         task='A telephone call to a tour company · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Agent', 'Hillcrest Tours, good morning.'),
@@ -335,7 +335,7 @@ UNIT = dict(
                'herself.'})])],
    listen=[
     dict(heading='A town meeting on visitor numbers', part='Part 2',
-         task='A talk at a town meeting', band='l2',
+         task='A talk at a town meeting · note completion', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Officer', 'Good evening. Before anybody argues, I am going '
@@ -540,7 +540,7 @@ UNIT = dict(
    read=[
     dict(heading='A year of arrivals in two towns',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_VIS,
          paras=[
@@ -596,7 +596,7 @@ UNIT = dict(
            'Paragraph 5, which is why policy aims at the shape.')])],
    listen=[
     dict(heading='A tourism officer on the season', part='Part 3',
-         task='A discussion with a tourism officer', band='l3',
+         task='A discussion with a tourism officer · note completion and multiple choice', band='l3',
          qtype='Questions 35-40',
          figure=_VIS,
          script=[
@@ -790,8 +790,7 @@ UNIT = dict(
    read=[
     dict(heading='Jobs, prices and the people who leave',
          kind='Academic passage',
-         task='Matching headings, True/False, Yes/No and summary '
-              'completion',
+         task='Matching headings, True/False/Not Given, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'Tourism is unusual among large industries in that its '
@@ -877,7 +876,7 @@ UNIT = dict(
            'Paragraph 4, in sharply seasonal towns.')])],
    listen=[
     dict(heading='A lecture on tourism economics', part='Part 4',
-         task='A lecture on who gains from tourism', band='l4',
+         task='A lecture on who gains from tourism · note completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Tourism is the only major industry where the '
@@ -1041,8 +1040,7 @@ UNIT = dict(
    read=[
     dict(heading='Four towns that tried to cap visitors',
          kind='Academic passage',
-         task='Matching information, True/False/Not Given and short '
-              'answer',
+         task='Matching information, True/False/Not Given, short answer and sentence completion',
          band='acad', qtype='Questions 55-62',
          paras=[
           'Four towns in Europe have tried, within the last fifteen years, '
@@ -1129,7 +1127,7 @@ UNIT = dict(
            'Paragraph 5, while the peak fell by six.')])],
    listen=[
     dict(heading='Two officials disagree about caps', part='Part 4',
-         task='A recorded discussion', band='l4',
+         task='A recorded discussion · note completion and multiple choice', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Ms Vasquez-Hollander introduced a visitor cap in '

@@ -48,7 +48,7 @@ UNIT = dict(
    read=[
     dict(heading='Hiring a public square — conditions',
          kind='Council guidance',
-         task='Matching features and short answer',
+         task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('Hire conditions are read for what the hirer is liable for',
                 ['A hire agreement allocates risk. Somebody is responsible '
@@ -117,7 +117,7 @@ UNIT = dict(
            'Paragraph 6: charity collection is not trading, but selling '
            'food is.')]),
     dict(heading='Applying for an event licence',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Check availability online before anything else. The calendar '
@@ -158,7 +158,7 @@ UNIT = dict(
            'Paragraph 4, held within one working day of the event.')])],
    listen=[
     dict(heading='Applying for an event licence', part='Part 1',
-         task='A call to a council events office', band='l1',
+         task='A call to a council events office · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Officer', 'Events office, Perpetua speaking.'),
@@ -409,7 +409,7 @@ UNIT = dict(
                'does not.'})])],
    listen=[
     dict(heading='Two designers disagree about benches', part='Part 3',
-         task='A discussion between two designers', band='l3',
+         task='A discussion between two designers · multiple choice and matching', band='l3',
          qtype='Questions 23-28',
          script=[
           ('Ignatius', 'I am going to defend the arm rails and I would '
@@ -713,7 +713,7 @@ UNIT = dict(
            'height.')])],
    listen=[
     dict(heading='A designer presents the redesign', part='Part 2',
-         task='A presentation to a planning committee', band='l2',
+         task='A presentation to a planning committee · multiple choice and matching', band='l2',
          qtype='Questions 35-40',
          figure=_MAPS,
          script=[
@@ -918,7 +918,7 @@ UNIT = dict(
    read=[
     dict(heading='Three claims on one square',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'Disputes about public space are ordinarily reported as '
@@ -1052,7 +1052,7 @@ UNIT = dict(
            'Paragraph 9: less overlooked, less served and less safe.')])],
    listen=[
     dict(heading='A lecture on the public realm', part='Part 4',
-         task='A lecture on contested public space', band='l4',
+         task='A lecture on contested public space · matching and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I want to retire a sentence today, and the sentence '
@@ -1270,7 +1270,7 @@ UNIT = dict(
    read=[
     dict(heading='Three privately managed squares and who uses them',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given, sentence completion and short answer',
          band='acad', qtype='Questions 55-62',
          paras=[
           'Privately managed public space is now a substantial part of the '
@@ -1414,7 +1414,7 @@ UNIT = dict(
            'Paragraph 8: the only such requirement among the three.')])],
    listen=[
     dict(heading='A manager and a campaigner disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 63-68',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 63-68',
          script=[
           ('Chair', 'Mr Osei-Lindqvist manages Ravensmere Square. Ms '
            'Achterberg campaigns on access to public space.'),

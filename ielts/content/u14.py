@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Four evening language courses',
          kind='Course listing',
-         task='Matching features and table completion',
+         task='Matching features and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A course listing is read by the column the question asks '
                 'about',
@@ -83,7 +83,7 @@ UNIT = dict(
           ('A place is held without payment for ____________ days.', None,
            'seven', 'From the date of booking, with payment due after that.')]),
     dict(heading='Placement and refunds',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Book the level you believe is right. Where a course requires a '
@@ -117,7 +117,7 @@ UNIT = dict(
            'Paragraph 4, and a letter is required.')])],
    listen=[
     dict(heading='Taking a placement interview', part='Part 1',
-         task='A telephone placement interview', band='l1',
+         task='A telephone placement interview · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Adviser', 'Rosewood Centre. Is that Mr Achterberg?'),
@@ -355,7 +355,7 @@ UNIT = dict(
                'about it.'})])],
    listen=[
     dict(heading='A teacher on adult learners', part='Part 2',
-         task='A talk to new language teachers', band='l2',
+         task='A talk to new language teachers · sentence completion and multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Teacher', 'I have taught adults for twenty-two years and I '
@@ -406,7 +406,7 @@ UNIT = dict(
            '____________.', None, 'slow',
            'While living in the country produces the opposite.')]),
     dict(heading='Two teachers on falling numbers', part='Part 3',
-         task='A conversation between two language teachers', band='l3',
+         task='A conversation between two language teachers · multiple choice and sentence completion', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Ingeborg', 'French is down to ten thousand entries. It was '
@@ -634,7 +634,7 @@ UNIT = dict(
    read=[
     dict(heading='What is studied and why',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_LANG,
          paras=[
@@ -711,7 +711,7 @@ UNIT = dict(
                'steepest change.'})])],
    listen=[
     dict(heading='A researcher on language uptake', part='Part 4',
-         task='A lecture on why subjects rise and fall', band='l4',
+         task='A lecture on why subjects rise and fall · note completion and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_LANG,
          script=[
@@ -907,7 +907,7 @@ UNIT = dict(
    read=[
     dict(heading='When the last speakers stop teaching their children',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'Of the roughly seven thousand languages spoken today, linguists '
@@ -1004,7 +1004,7 @@ UNIT = dict(
            'Paragraph 7, recorded only just in time.')])],
    listen=[
     dict(heading='A linguist on language shift', part='Part 4',
-         task='A lecture on how languages are lost', band='l4',
+         task='A lecture on how languages are lost · note completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Linguist', 'A language does not die when the last speaker '
@@ -1181,7 +1181,7 @@ UNIT = dict(
    read=[
     dict(heading='Two revivals, one success and one not',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Only one language is generally agreed to have been brought back '
@@ -1285,7 +1285,7 @@ UNIT = dict(
            'The final paragraph, the condition no programme creates.')])],
    listen=[
     dict(heading='Two linguists disagree about revival', part='Part 4',
-         task='A recorded discussion', band='l4', qtype='Questions 67-72',
+         task='A recorded discussion · multiple choice and note completion', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Dr Ó Braonáin directs a revival programme. Professor '
            'Halvorsen studies documentation. Each begins with their own '

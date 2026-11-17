@@ -42,7 +42,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Marchfield Library: membership and borrowing',
-         kind='Notice', task='Matching features and short answer',
+         kind='Notice', task='Short answer, note completion and matching features',
          band='gt_short', qtype='Questions 1-6',
          skill=('A library notice is read for the numbers',
                 ['How many, how long, how much. Those three questions '
@@ -87,7 +87,7 @@ UNIT = dict(
           ('On which evening is the library open until 19.00?', None,
            'Wednesday', 'Paragraph 6, the only evening opening.')]),
     dict(heading='Online resources from home',
-         kind='Information page', task='Flow-chart completion',
+         kind='Information page', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Go to the library website and choose "log in". Your username '
@@ -120,7 +120,7 @@ UNIT = dict(
            'building.')])],
    listen=[
     dict(heading='Joining and borrowing', part='Part 1',
-         task='A conversation at a library counter', band='l1',
+         task='A conversation at a library counter · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Librarian', 'Good morning. Can I help?'),
@@ -331,7 +331,7 @@ UNIT = dict(
                'appears.'})])],
    listen=[
     dict(heading='A short talk: talking at a distance', part='Part 2',
-         task='A talk at an adult education class', band='l2',
+         task='A talk at an adult education class · note completion and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Speaker', 'I want to describe what has actually changed '
@@ -385,7 +385,7 @@ UNIT = dict(
                'with.', 2: 'Emails are not mentioned in the talk.', 3: 'Minutes would make the sentence compare like with '
                'like.'})]),
     dict(heading='Two friends on messaging and calling', part='Part 3',
-         task='A discussion between two friends', band='l3',
+         task='A discussion between two friends · note completion and multiple choice', band='l3',
          qtype='Questions 29-34',
          script=[
           ('Anselm', 'You never answer messages and you ring me at '
@@ -586,7 +586,7 @@ UNIT = dict(
    read=[
     dict(heading='From your phone to theirs',
          kind='Process article',
-         task='Flow-chart completion and diagram labelling',
+         task='Matching information and diagram labelling',
          band='gt_work', qtype='Questions 35-40',
          figure=_CALL,
          paras=[
@@ -646,7 +646,7 @@ UNIT = dict(
            'Paragraph 4, leaving the mobile network.')])],
    listen=[
     dict(heading='An engineer on the mobile network', part='Part 4',
-         task='A lecture on how a call is routed', band='l4',
+         task='A lecture on how a call is routed · diagram labelling and multiple choice', band='l4',
          qtype='Questions 41-46',
          figure=_CALL,
          script=[
@@ -835,8 +835,7 @@ UNIT = dict(
    read=[
     dict(heading='Words a language has and another does not',
          kind='Academic passage',
-         task='Matching headings, True/False, Yes/No and summary '
-              'completion',
+         task='Matching headings, True/False/Not Given, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 47-54',
          paras=[
           'Every language contains words that another language cannot '
@@ -925,7 +924,7 @@ UNIT = dict(
            'The final paragraph, which is the modest conclusion.')])],
    listen=[
     dict(heading='A lecture on translation and meaning', part='Part 4',
-         task='A lecture on what translation loses', band='l4',
+         task='A lecture on what translation loses · note completion and multiple choice', band='l4',
          qtype='Questions 55-60',
          script=[
           ('Lecturer', 'I am going to talk about what is lost in '
@@ -1096,8 +1095,7 @@ UNIT = dict(
    read=[
     dict(heading='A famous claim and what survived of it',
          kind='Academic passage',
-         task='Matching information, True/False, Yes/No and short '
-              'answer',
+         task='Matching information, True/False/Not Given, Yes/No/Not Given, short answer and sentence completion',
          band='acad', qtype='Questions 61-68',
          paras=[
           'In the middle of the twentieth century it was widely argued that '
@@ -1191,7 +1189,7 @@ UNIT = dict(
            'The final paragraph, because it is more interesting.')])],
    listen=[
     dict(heading='Two linguists disagree', part='Part 4',
-         task='A recorded discussion', band='l4',
+         task='A recorded discussion · note completion and multiple choice', band='l4',
          qtype='Questions 69-74',
          script=[
           ('Chair', 'Professor Achterberg works on language and memory. '

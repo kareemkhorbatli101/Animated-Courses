@@ -49,7 +49,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Riverside Festival: what you need to know',
-         kind='Information page', task='Short answer',
+         kind='Information page', task='Note completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('An event page is read for the thing you must bring',
                 ['Find every item you have to show or carry. Those are '
@@ -88,7 +88,7 @@ UNIT = dict(
            'it.')])],
    listen=[
     dict(heading='Collecting wristbands', part='Part 1',
-         task='A conversation at a festival gate', band='l1',
+         task='A conversation at a festival gate · note completion', band='l1',
          qtype='Questions 6-11',
          script=[
           ('Steward', 'Tickets, please. How many?'),
@@ -223,7 +223,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Three families, three traditions',
-         kind='Three short profiles', task='Matching features',
+         kind='Three short profiles', task='Matching features, note completion and short answer',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'The Osei family eat the same meal on the same day every '
@@ -269,7 +269,7 @@ UNIT = dict(
            'before.')])],
    listen=[
     dict(heading='Two friends on family customs', part='Part 3',
-         task='A discussion between two friends', band='l3',
+         task='A discussion between two friends · note completion', band='l3',
          qtype='Questions 18-23',
          script=[
           ('Tutor', 'You are writing about family traditions. Where do '
@@ -459,7 +459,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='What people eat at four festivals',
-         kind='Short article', task='Matching information',
+         kind='Short article', task='Multiple choice, note completion and short answer',
          band='gt_work', qtype='Questions 24-29',
          skill=('A comparison of four events is read column by column',
                 ['Decide which event the question is about before you '
@@ -509,7 +509,7 @@ UNIT = dict(
            'two extra taps', 'Two taps, which cost the organisers very little.')])],
    listen=[
     dict(heading='A cook on festival dishes', part='Part 2',
-         task='One speaker describing a job', band='l2',
+         task='One speaker describing a job · note completion', band='l2',
          qtype='Questions 30-35',
          script=[
           ('Speaker', 'I have run a food stall at eleven festivals a '
@@ -665,7 +665,7 @@ UNIT = dict(
    read=[
     dict(heading='Twelve months of planning',
          kind='Short factual article',
-         task='Flow-chart completion and matching',
+         task='Note completion and matching features',
          band='acad', qtype='Questions 36-42',
          paras=[
           'A festival that runs for three days is worked on for twelve '
@@ -721,7 +721,7 @@ UNIT = dict(
    listen=[
     dict(heading='A festival organiser on the year before',
          part='Part 4',
-         task='A talk to events students', band='l4',
+         task='A talk to events students · note completion', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'Three days of festival, twelve months of work, '
@@ -858,7 +858,7 @@ UNIT = dict(
    read=[
     dict(heading='A festival that moved indoors',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion and matching features',
          band='acad', qtype='Questions 49-55',
          paras=[
           'For a hundred and forty years a town in the north held a '
@@ -919,7 +919,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two residents disagree about a changed custom',
          part='Part 3',
-         task='A discussion between two residents', band='l3',
+         task='A discussion between two residents · note completion', band='l3',
          qtype='Questions 56-61',
          script=[
           ('Chair', 'You both wrote to the committee and you disagree. '

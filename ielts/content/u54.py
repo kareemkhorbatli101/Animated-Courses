@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Access to records — what is open and what is closed',
          kind='Archive guidance',
-         task='Matching features and short answer',
+         task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('Archive guidance is read for the clock on each closure',
                 ['Closure is not permanent and is almost never uniform. '
@@ -101,7 +101,7 @@ UNIT = dict(
            {0: 'Paragraph 6 says such an appeal is not reheard.', 2: 'The appeal goes to the same panel, differently '
                'constituted.', 3: 'It is dismissed rather than held over.'})]),
     dict(heading='Applying to see a closed record',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Find the catalogue reference first and quote it exactly. The '
@@ -142,7 +142,7 @@ UNIT = dict(
            'Paragraph 4, which is why the written reason matters most.')])],
    listen=[
     dict(heading='Applying to consult a closed file', part='Part 1',
-         task='A call to a county archive', band='l1',
+         task='A call to a county archive · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Archivist', 'County archive, enquiries. Beatrix speaking.'),
@@ -404,7 +404,7 @@ UNIT = dict(
                'none.', 2: 'Not Given is wrong because they are asked and answer.'})])],
    listen=[
     dict(heading='A short talk: four accounts of one event', part='Part 2',
-         task='A talk to a local history society', band='l2',
+         task='A talk to a local history society · multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'Four accounts of one afternoon, and I want to argue '
@@ -470,7 +470,7 @@ UNIT = dict(
                'about.', 2: '1974 is the date of the earlier interview, not the '
                'later one.', 3: 'He says both accounts are good evidence of something.'})]),
     dict(heading='Two historians disagree about a source', part='Part 3',
-         task='A discussion between two historians', band='l3',
+         task='A discussion between two historians · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Casimir', 'I want to use the resident’s letter as the main '
@@ -717,7 +717,7 @@ UNIT = dict(
    read=[
     dict(heading='Records surviving from four centuries',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_SURV,
          paras=[
@@ -804,7 +804,7 @@ UNIT = dict(
                'opposite.'})])],
    listen=[
     dict(heading='An archivist on survival and loss', part='Part 4',
-         task='A lecture on what archives contain', band='l4',
+         task='A lecture on what archives contain · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_SURV,
          script=[
@@ -1039,7 +1039,7 @@ UNIT = dict(
    read=[
     dict(heading='Litigation leaves a trail; contentment leaves none',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'An archive is frequently treated, in practice if not in theory, '
@@ -1183,7 +1183,7 @@ UNIT = dict(
            'Paragraph 9, a step taken constantly and rarely defended.')])],
    listen=[
     dict(heading='A lecture on archival silence', part='Part 4',
-         task='A lecture on what archives do not contain', band='l4',
+         task='A lecture on what archives do not contain · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'What survives is the residue of an administration, '
@@ -1417,7 +1417,7 @@ UNIT = dict(
    read=[
     dict(heading='The argument that would make history impossible',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'A position encountered regularly in undergraduate work, and '
@@ -1567,7 +1567,7 @@ UNIT = dict(
            'Paragraph 9, which the writer says should be a warning.')])],
    listen=[
     dict(heading='Two historians disagree about scepticism', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Mbeki-Thorsdottir works on early modern '
            'administration. Dr Villanueva-Oyelaran works on historical '

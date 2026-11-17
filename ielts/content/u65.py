@@ -60,7 +60,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Fares and times: a station board',
-         kind='Timetable', task='Table completion',
+         kind='Timetable', task='Note completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A board is read across one line only',
                 ['Find the line the question is about, then put a '
@@ -92,7 +92,7 @@ UNIT = dict(
            None, 'one', 'Paragraph 3, for each journey.')])],
    listen=[
     dict(heading='Buying a return ticket', part='Part 1',
-         task='A conversation at a ticket window', band='l1',
+         task='A conversation at a ticket window · note completion', band='l1',
          qtype='Questions 6-10',
          script=[
           ('Clerk', 'Where are you travelling to?'),
@@ -216,7 +216,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='How to find the museum: a short guide',
-         kind='Directions', task='Map labelling',
+         kind='Directions', task='Note completion',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'Come out of the station and turn left. Walk along River Road '
@@ -242,7 +242,7 @@ UNIT = dict(
            'fire station', 'Paragraph 3, at the end of the street.')])],
    listen=[
     dict(heading='Directions to the sports centre', part='Part 1',
-         task='A conversation in the street', band='l1',
+         task='A conversation in the street · note completion', band='l1',
          qtype='Questions 16-20',
          script=[
           ('Visitor', 'Excuse me. Is the sports centre near here?'),
@@ -365,7 +365,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='What to do if your train is cancelled',
-         kind='Notice', task='Short answer and matching',
+         kind='Notice', task='Note completion',
          band='gt_work', qtype='Questions 21-25',
          skill=('A notice about problems is read for who pays',
                 ['Find the word refund, and the word unless beside it. '
@@ -401,7 +401,7 @@ UNIT = dict(
            'Paragraph 3, arranged by the railway.')])],
    listen=[
     dict(heading='A delayed bus', part='Part 2',
-         task='An announcement at a bus station', band='l2',
+         task='An announcement at a bus station · note completion', band='l2',
          qtype='Questions 26-30',
          script=[
           ('Announcer', 'This is an announcement for passengers waiting '
@@ -582,7 +582,7 @@ UNIT = dict(
    read=[
     dict(heading='Four ways a city moves people',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Short answer, note completion and matching information',
          band='acad', qtype='Questions 31-36',
          paras=[
           'Every city solves the same problem with some mixture of '
@@ -630,7 +630,7 @@ UNIT = dict(
            'Paragraph 3, which is what decided its use.')])],
    listen=[
     dict(heading='A talk about the new tram', part='Part 4',
-         task='A short lecture at a public meeting', band='l4',
+         task='A short lecture at a public meeting · short answer and note completion', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'Three questions come up every time a tram is '
@@ -761,7 +761,7 @@ UNIT = dict(
    read=[
     dict(heading='What visitors do to a small town',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion, matching information and multiple choice',
          band='acad', qtype='Questions 42-47',
          paras=[
           'A coastal town of four thousand people receives two hundred '
@@ -815,7 +815,7 @@ UNIT = dict(
            {0: 'The number of visitors stays the same, spread wider.', 1: 'A shop selling shoes survives, so shops are not fewer.', 3: 'Spreading visitors keeps young residents in the town.'})])],
    listen=[
     dict(heading='Planning a weekend away', part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion', band='l3',
          qtype='Questions 48-52',
          script=[
           ('Tutor', 'You are planning the field weekend. Where have you '

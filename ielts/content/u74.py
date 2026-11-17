@@ -47,7 +47,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Hollow Brook Wildlife Park: visitor information',
-         kind='Visitor information', task='Short answer',
+         kind='Visitor information', task='Note completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('Visitor information is read for the time and the '
                 'exception',
@@ -84,7 +84,7 @@ UNIT = dict(
            'Behind the barn, the information says.')])],
    listen=[
     dict(heading='Planning the visit', part='Part 1',
-         task='A conversation about an outing', band='l1',
+         task='A conversation about an outing · note completion', band='l1',
          qtype='Questions 6-11',
          script=[
           ('Park', 'Hollow Brook, good morning.'),
@@ -217,7 +217,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Two people and their dogs',
-         kind='Two short profiles', task='Matching features',
+         kind='Two short profiles', task='Matching features and note completion',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'Hana got her dog at fifty-eight, two years after she '
@@ -263,7 +263,7 @@ UNIT = dict(
            'Rather than about the whole life of the animal.')])],
    listen=[
     dict(heading='Two friends talk about keeping pets', part='Part 3',
-         task='A discussion between two friends', band='l3',
+         task='A discussion between two friends · note completion', band='l3',
          qtype='Questions 18-23',
          script=[
           ('Tutor', 'You were asked whether people should keep pets at '
@@ -451,7 +451,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Which bird is that?',
-         kind='Identification guide', task='Matching features',
+         kind='Identification guide', task='Matching features, note completion and short answer',
          band='gt_work', qtype='Questions 24-29',
          skill=('An identification guide is read for the one feature '
                 'that separates',
@@ -501,7 +501,7 @@ UNIT = dict(
            'Because it surrounds part of the garden with cover.')])],
    listen=[
     dict(heading='A birdwatcher on what to look for', part='Part 2',
-         task='One speaker giving practical advice', band='l2',
+         task='One speaker giving practical advice · note completion and short answer', band='l2',
          qtype='Questions 30-35',
          script=[
           ('Speaker', 'Beginners try to identify a bird by its colour. '
@@ -653,7 +653,7 @@ UNIT = dict(
    read=[
     dict(heading='From egg to frog',
          kind='Short factual article',
-         task='Flow-chart completion and matching',
+         task='Note completion and matching features',
          band='acad', qtype='Questions 36-42',
          paras=[
           'A frog does not grow in the way a kitten grows. It is '
@@ -707,7 +707,7 @@ UNIT = dict(
            'spring', 'Paragraph 4: the pond sets the speed.')])],
    listen=[
     dict(heading='A biologist on the life cycle', part='Part 4',
-         task='A short talk to students', band='l4',
+         task='A short talk to students · note completion', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'I want to use the frog to make a general point '
@@ -843,7 +843,7 @@ UNIT = dict(
    read=[
     dict(heading='Three reasons a species disappears',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Short answer, note completion and matching information',
          band='acad', qtype='Questions 49-55',
          paras=[
           'When an animal becomes rare, people usually blame hunting. '
@@ -897,7 +897,7 @@ UNIT = dict(
            'Paragraph 4, that it cannot do without.')])],
    listen=[
     dict(heading='A conservationist on habitat loss', part='Part 4',
-         task='A short talk', band='l4', qtype='Questions 56-61',
+         task='A short talk · note completion', band='l4', qtype='Questions 56-61',
          script=[
           ('Speaker', 'I am going to ask you to stop thinking about '
            'hunting for twenty minutes, because it is not what is '

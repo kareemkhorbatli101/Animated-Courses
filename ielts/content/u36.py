@@ -27,7 +27,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Connecting a generator: the process',
-         kind='Procedure notice', task='Flow-chart completion and short answer',
+         kind='Procedure notice', task='Flow-chart completion and multiple choice',
          band='gt_short', qtype='Questions 1-5',
          figure=dict(kind='process',
                      title='From enquiry to energisation',
@@ -127,7 +127,7 @@ UNIT = dict(
            'Paragraph 4, and it is not binding on either party.')])],
    listen=[
     dict(heading='Applying for a grid connection', part='Part 1',
-         task='A call to a network operator', band='l1',
+         task='A call to a network operator · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Operator', 'Connections team, Aoife speaking.'),
@@ -346,7 +346,7 @@ UNIT = dict(
                'he accepts that part.'})])],
    listen=[
     dict(heading='A short talk: who pays for the change', part='Part 2',
-         task='A talk at a public meeting', band='l2',
+         task='A talk at a public meeting · multiple choice', band='l2',
          qtype='Questions 21-24',
          script=[
           ('Speaker', 'I have been asked to explain what is actually on your '
@@ -400,7 +400,7 @@ UNIT = dict(
            'The household doing the right thing pays for the policy.',
            {0: 'Almost none of the charge sits on gas, she says.', 2: 'Taxation is one of the options she declines to choose.', 3: 'Suppliers\u2019 own costs are a separate part of the bill.'})]),
     dict(heading='Two councillors disagree about levies', part='Part 3',
-         task='A discussion after the meeting', band='l3',
+         task='A discussion after the meeting · multiple choice and matching', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Marguerite', 'I thought she was admirably clear and I think her '
@@ -625,7 +625,7 @@ UNIT = dict(
    read=[
     dict(heading='Demand, supply and the hours in between',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 30-35',
          figure=_DAY,
          paras=[
@@ -685,7 +685,7 @@ UNIT = dict(
            'capacity.')])],
    listen=[
     dict(heading='A control room engineer on balancing', part='Part 4',
-         task='A talk on keeping supply and demand equal', band='l4',
+         task='A talk on keeping supply and demand equal · multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_DAY,
          script=[
@@ -900,7 +900,7 @@ UNIT = dict(
    read=[
     dict(heading='Four hours, four days, four weeks',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 42-48',
          paras=[
           'Discussions of electricity storage are made confusing by a word '
@@ -1016,7 +1016,7 @@ UNIT = dict(
            'seasonal storage.')])],
    listen=[
     dict(heading='A lecture on storage duration', part='Part 4',
-         task='A lecture on three storage problems', band='l4',
+         task='A lecture on three storage problems · multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I am going to ban a word for the next forty minutes. '
@@ -1228,7 +1228,7 @@ UNIT = dict(
    read=[
     dict(heading='Unit cost, system cost and the boundary between',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given, sentence completion and short answer',
          band='acad', qtype='Questions 55-61',
          paras=[
           'The claim that wind and solar are now the cheapest sources of '
@@ -1346,7 +1346,7 @@ UNIT = dict(
            'year.')])],
    listen=[
     dict(heading='Two analysts disagree about system cost', part='Part 4',
-         task='A recorded exchange', band='l4',
+         task='A recorded exchange · multiple choice', band='l4',
          qtype='Questions 62-67',
          script=[
           ('Chair', 'Dr Oyelowo-Brandt publishes levelised cost estimates. '

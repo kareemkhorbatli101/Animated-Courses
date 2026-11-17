@@ -26,7 +26,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Digital wellbeing settings explained',
-         kind='Guidance page', task='Matching features and short answer',
+         kind='Guidance page', task='Multiple choice, matching features and note completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A settings page is read for what each control actually '
                 'governs',
@@ -100,7 +100,7 @@ UNIT = dict(
            'Paragraph 5, which directs the reader to the privacy '
            'documentation.')]),
     dict(heading='Turning off notifications',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Begin from the notification list rather than from inside each '
@@ -140,7 +140,7 @@ UNIT = dict(
            'delivery.')])],
    listen=[
     dict(heading='Setting up screen limits for a family account',
-         part='Part 1', task='A call to a support line', band='l1',
+         part='Part 1', task='A call to a support line · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Adviser', 'Family accounts, Thaddeus speaking.'),
@@ -204,7 +204,7 @@ UNIT = dict(
            'A different menu, which the adviser says is a separate '
            'matter.')]),
     dict(heading='A short talk: what holds attention', part='Part 2',
-         task='A talk at a design conference', band='l2',
+         task='A talk at a design conference · multiple choice', band='l2',
          qtype='Questions 17-20',
          script=[
           ('Speaker', 'I designed engagement systems for nine years and I am '
@@ -451,7 +451,7 @@ UNIT = dict(
                'affected.'})])],
    listen=[
     dict(heading='Two designers disagree about engagement', part='Part 3',
-         task='A conversation between two product designers', band='l3',
+         task='A conversation between two product designers · multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Rosalind', 'I want to take the autoplay out of the next '
@@ -686,7 +686,7 @@ UNIT = dict(
    read=[
     dict(heading='Measured use against reported use',
          kind='Data article',
-         task='Matching information and True/False/Not Given',
+         task='Matching information, sentence completion and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_USE,
          paras=[
@@ -769,7 +769,7 @@ UNIT = dict(
                'errors.'})])],
    listen=[
     dict(heading='A researcher on self-reported data', part='Part 4',
-         task='A lecture on measurement error', band='l4',
+         task='A lecture on measurement error · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_USE,
          script=[
@@ -987,7 +987,7 @@ UNIT = dict(
    read=[
     dict(heading='The thing being sold is you',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'The phrase "if you are not paying, you are the product" is '
@@ -1121,7 +1121,7 @@ UNIT = dict(
            'Paragraph 6, leaving the structure unchanged.')])],
    listen=[
     dict(heading='A lecture on the attention economy', part='Part 4',
-         task='A lecture on two-sided markets', band='l4',
+         task='A lecture on two-sided markets · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', '"If you are not paying, you are the product." It is '
@@ -1345,7 +1345,7 @@ UNIT = dict(
    read=[
     dict(heading='Correlation, birth year and the studies that disagree',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Few empirical questions have been argued about more publicly, or '
@@ -1483,7 +1483,7 @@ UNIT = dict(
            'has been damaged.')])],
    listen=[
     dict(heading='Two psychologists disagree about harm', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Lindqvist-Oyelaran argues the evidence '
            'supports action. Dr Abiodun-Reyes argues it does not yet.'),

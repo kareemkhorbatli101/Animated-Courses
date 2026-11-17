@@ -41,7 +41,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Evening classes: a course list',
-         kind='Course list', task='Table completion',
+         kind='Course list', task='Note completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A course list is read down the column you need',
                 ['Decide first whether the question is about the day, '
@@ -73,7 +73,7 @@ UNIT = dict(
            'Because the Thursday class assumes you can use a mouse.')])],
    listen=[
     dict(heading='Enrolling on a course', part='Part 1',
-         task='A conversation at a college desk', band='l1',
+         task='A conversation at a college desk · note completion', band='l1',
          qtype='Questions 6-10',
          script=[
           ('Clerk', 'Which course is it?'),
@@ -196,7 +196,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Classroom rules: a poster',
-         kind='Poster', task='Matching and short answer',
+         kind='Poster', task='Note completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'Telephones go in the box by the door. You may take yours out '
@@ -223,7 +223,7 @@ UNIT = dict(
            'accent', 'Only for not trying to speak English.')])],
    listen=[
     dict(heading='The first lesson', part='Part 2',
-         task='A teacher speaking to a new class', band='l2',
+         task='A teacher speaking to a new class · note completion', band='l2',
          qtype='Questions 16-20',
          script=[
           ('Teacher', 'Welcome. Four things, and then we start '
@@ -356,7 +356,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='When you cannot hand work in on time',
-         kind='Notice', task='Short answer and matching',
+         kind='Notice', task='Note completion',
          band='gt_work', qtype='Questions 21-25',
          skill=('A deadline policy is read for the word before',
                 ['Nearly every rule here turns on whether you asked '
@@ -391,7 +391,7 @@ UNIT = dict(
            'Because the class has seen the answers by then.')])],
    listen=[
     dict(heading='Asking for more time', part='Part 1',
-         task='A conversation with a teacher', band='l1',
+         task='A conversation with a teacher · note completion', band='l1',
          qtype='Questions 26-30',
          script=[
           ('Student', 'Could I ask for more time on the writing?'),
@@ -573,7 +573,7 @@ UNIT = dict(
    read=[
     dict(heading='Three things that help memory',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion, short answer and matching information',
          band='acad', qtype='Questions 31-36',
          paras=[
           'Almost everything students believe about studying is wrong, '
@@ -625,7 +625,7 @@ UNIT = dict(
            'failure', 'Paragraph 3, which is why it is rarely used.')])],
    listen=[
     dict(heading='A talk about remembering', part='Part 4',
-         task='A short lecture to new students', band='l4',
+         task='A short lecture to new students · note completion', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I am going to tell you three things about '
@@ -762,7 +762,7 @@ UNIT = dict(
    read=[
     dict(heading='Starting school at five, six or seven',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion, matching information and multiple choice',
          band='acad', qtype='Questions 42-47',
          paras=[
           'Children begin formal school at five in some countries, at '
@@ -811,7 +811,7 @@ UNIT = dict(
                'does not close it.'})])],
    listen=[
     dict(heading='Two students compare their schools', part='Part 3',
-         task='A discussion between two students', band='l3',
+         task='A discussion between two students · note completion', band='l3',
          qtype='Questions 48-52',
          script=[
           ('Tutor', 'You went to school in two different systems. Start '

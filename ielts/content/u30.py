@@ -40,7 +40,7 @@ UNIT = dict(
    read=[
     dict(heading='Community club — membership categories',
          kind='Club information',
-         task='Table completion and matching features',
+         task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A table of categories is read by finding the one condition '
                 'that moves you between them',
@@ -101,7 +101,7 @@ UNIT = dict(
           ('Non-member facility hire: £____________ an hour', None, '18',
            'Paragraph 5, with members free outside coaching hours.')]),
     dict(heading='Safeguarding and codes of conduct',
-         kind='Policy notice', task='Short answer',
+         kind='Policy notice', task='Short answer and sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Every adult working with junior members holds a current '
@@ -135,7 +135,7 @@ UNIT = dict(
            'Paragraph 4, who may be asked to watch from the far side.')])],
    listen=[
     dict(heading='Registering a junior player', part='Part 1',
-         task='A call to a community sports club', band='l1',
+         task='A call to a community sports club · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Secretary', 'Harlow Vale juniors, Niamh speaking.'),
@@ -184,7 +184,7 @@ UNIT = dict(
            '____________.', None, 'selected',
            'Which parents discover on a Saturday morning.')]),
     dict(heading='A short talk: paying to play', part='Part 2',
-         task='A talk at a sports participation conference', band='l2',
+         task='A talk at a sports participation conference · multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I ran a county participation programme for nine years '
@@ -360,7 +360,7 @@ UNIT = dict(
    read=[
     dict(heading='Four families on the cost of sport',
          kind='Four short texts',
-         task='Matching features and Yes/No/Not Given',
+         task='Matching features, multiple choice and Yes/No/Not Given',
          band='gt_short', qtype='Questions 19-24',
          paras=[
           'A  Gudrun: The subscription is not the problem and I wish somebody '
@@ -417,7 +417,7 @@ UNIT = dict(
                'lift-organising parent moved.', 2: 'Not Given is wrong because the reason is given.'})])],
    listen=[
     dict(heading='Two coaches disagree about fees', part='Part 3',
-         task='A conversation at a club committee', band='l3',
+         task='A conversation at a club committee · multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Ferdinand', 'I want to abolish junior fees entirely. Forty-eight '
@@ -710,7 +710,7 @@ UNIT = dict(
            'Paragraph 4, against Dunmore City’s 94 million.')])],
    listen=[
     dict(heading='An analyst on club finances', part='Part 4',
-         task='A talk on where club money comes from', band='l4',
+         task='A talk on where club money comes from · multiple choice and matching', band='l4',
          qtype='Questions 36-41',
          figure=_PIE_A, figure2=_PIE_B, figure3=_TAB,
          script=[
@@ -923,7 +923,7 @@ UNIT = dict(
    read=[
     dict(heading='What happens when the prize gets large',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 42-48',
          paras=[
           'Competitions are designed objects, and the design that receives '
@@ -1046,7 +1046,7 @@ UNIT = dict(
            'it.')])],
    listen=[
     dict(heading='A lecture on incentives in sport', part='Part 4',
-         task='A lecture on prize structures', band='l4',
+         task='A lecture on prize structures · multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I am going to argue that most of what sport describes '
@@ -1262,7 +1262,7 @@ UNIT = dict(
    read=[
     dict(heading='Three attempts to limit spending',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 55-61',
          paras=[
           'Three families of spending limit have been tried in professional '
@@ -1368,7 +1368,7 @@ UNIT = dict(
            'in place.')])],
    listen=[
     dict(heading='An administrator and an economist disagree',
-         part='Part 4', task='A recorded exchange', band='l4',
+         part='Part 4', task='A recorded exchange · multiple choice', band='l4',
          qtype='Questions 62-67',
          script=[
           ('Chair', 'Ms Bergkamp-Osei has run financial regulation for a '

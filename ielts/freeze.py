@@ -136,11 +136,13 @@ def prose(vol, rng):
             out.append((a + ' expr', _j(c['expr'])))
             for bi, r in enumerate(c['read']):
                 out.append(('%s R%d heading' % (a, bi), r['heading']))
+                out.append(('%s R%d task' % (a, bi), r['task']))
                 if r.get('bank'):
                     out.append(('%s R%d bank' % (a, bi), _j(r['bank'])))
             for bi, l in enumerate(c['listen']):
                 if l.get('heading'):
                     out.append(('%s L%d heading' % (a, bi), l['heading']))
+                out.append(('%s L%d task' % (a, bi), l['task']))
                 if l.get('bank'):
                     out.append(('%s L%d bank' % (a, bi), _j(l['bank'])))
     for nm in ('wpaper%d' % vol, 'spaper%d' % vol):

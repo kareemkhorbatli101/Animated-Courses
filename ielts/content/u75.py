@@ -62,7 +62,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Welcome to Ashfield: new residents guide',
-         kind='Council guide', task='Short answer',
+         kind='Council guide', task='Note completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A council guide is read for the deadline',
                 ['Nearly every item has a time limit. Find all of them '
@@ -99,7 +99,7 @@ UNIT = dict(
            'arrived.')])],
    listen=[
     dict(heading='Registering with the council', part='Part 1',
-         task='A conversation at a council office', band='l1',
+         task='A conversation at a council office · note completion', band='l1',
          qtype='Questions 6-11',
          script=[
           ('Clerk', 'Good morning. How can I help?'),
@@ -231,7 +231,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Three residents on their street',
-         kind='Three short profiles', task='Matching features',
+         kind='Three short profiles', task='Matching features and note completion',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'Yvette has lived on the street for thirty years and says the '
@@ -276,7 +276,7 @@ UNIT = dict(
            'Which she calls a way of not answering them.')])],
    listen=[
     dict(heading='Two neighbours discuss the new flats', part='Part 3',
-         task='A discussion between two neighbours', band='l3',
+         task='A discussion between two neighbours · note completion', band='l3',
          qtype='Questions 18-23',
          script=[
           ('Chair', 'You two are on opposite sides of this. Keep it '
@@ -467,7 +467,7 @@ UNIT = dict(
    step=3,
    read=[
     dict(heading='The new cycle route: a map and key',
-         kind='Route description', task='Map labelling',
+         kind='Route description', task='Note completion and short answer',
          band='gt_work', qtype='Questions 24-29',
          skill=('A route description is read in the order you would '
                 'travel it',
@@ -507,7 +507,7 @@ UNIT = dict(
            'the old railway', 'Where the surface is loose stone.')])],
    listen=[
     dict(heading='Describing the new route', part='Part 2',
-         task='One speaker describing a scheme', band='l2',
+         task='One speaker describing a scheme · note completion', band='l2',
          qtype='Questions 30-35',
          script=[
           ('Speaker', 'I will take you along the route from the station '
@@ -667,7 +667,7 @@ UNIT = dict(
    read=[
     dict(heading='Stokeford, 1930 and today',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion and matching information',
          band='acad', qtype='Questions 36-42',
          paras=[
           'In 1930 Stokeford was a village of twelve houses, a church, '
@@ -722,7 +722,7 @@ UNIT = dict(
            'Paragraph 4, which nobody enjoys after dark.')])],
    listen=[
     dict(heading='A local historian on the village', part='Part 4',
-         task='A talk to a local society', band='l4',
+         task='A talk to a local society · note completion', band='l4',
          qtype='Questions 43-48',
          script=[
           ('Speaker', 'People ask me when Stokeford stopped being a '
@@ -859,7 +859,7 @@ UNIT = dict(
    read=[
     dict(heading='Three answers to a housing shortage',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Short answer, note completion and matching features',
          band='acad', qtype='Questions 49-55',
          paras=[
           'Every town with a housing shortage has the same three '
@@ -916,7 +916,7 @@ UNIT = dict(
            'Paragraph 4, which is an invisible choice.')])],
    listen=[
     dict(heading='A planner on building upwards', part='Part 4',
-         task='A short talk', band='l4', qtype='Questions 56-61',
+         task='A short talk · note completion', band='l4', qtype='Questions 56-61',
          script=[
           ('Speaker', 'I am a planner, and I want to describe the three '
            'choices honestly, including the costs of the one I '

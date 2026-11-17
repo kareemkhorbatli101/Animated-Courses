@@ -41,7 +41,7 @@ UNIT = dict(
    read=[
     dict(heading='Switching provider — your rights',
          kind='Consumer guidance',
-         task='Matching features and short answer',
+         task='Note completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('Consumer guidance is read for the clock that starts',
                 ['Every stage of a complaint or a switch starts a period, '
@@ -104,7 +104,7 @@ UNIT = dict(
            '____________.', None, 'court',
            'Paragraph 5, losing nothing except the time.')]),
     dict(heading='Making a complaint to the ombudsman',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Obtain a deadlock letter or wait eight weeks. A deadlock letter '
@@ -143,7 +143,7 @@ UNIT = dict(
            'Paragraph 4, after which the file is assessed on documents.')])],
    listen=[
     dict(heading='Escalating a complaint to an ombudsman', part='Part 1',
-         task='A call to a consumer advice line', band='l1',
+         task='A call to a consumer advice line · note completion', band='l1',
          qtype='Questions 11-16',
          script=[
           ('Adviser', 'Consumer line, Marguerite speaking.'),
@@ -201,7 +201,7 @@ UNIT = dict(
            '____________.', None, 'consumer',
            'So rejecting it preserves the right to go to court.')]),
     dict(heading='A short talk: when choice is not a choice',
-         part='Part 2', task='A talk at a consumer policy briefing',
+         part='Part 2', task='A talk at a consumer policy briefing · multiple choice',
          band='l2', qtype='Questions 17-20',
          script=[
           ('Speaker', 'I have evaluated switching markets for eleven years, '
@@ -462,7 +462,7 @@ UNIT = dict(
                'year.', 2: 'Not Given is wrong because the figure is his own.'})])],
    listen=[
     dict(heading='Two regulators disagree about competition',
-         part='Part 3', task='A conversation between two regulators',
+         part='Part 3', task='A conversation between two regulators · multiple choice',
          band='l3', qtype='Questions 27-32',
          script=[
           ('Beatrix', 'I am going to recommend the cap stays and I know what '
@@ -703,7 +703,7 @@ UNIT = dict(
    read=[
     dict(heading='Where a tax actually lands',
          kind='Data article',
-         task='Matching information and sentence completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 33-38',
          figure=_MKT_A, figure2=_MKT_B,
          paras=[
@@ -774,7 +774,7 @@ UNIT = dict(
            'market.')])],
    listen=[
     dict(heading='An economist on tax incidence', part='Part 4',
-         task='A lecture on who bears a tax', band='l4',
+         task='A lecture on who bears a tax · multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_MKT_A, figure2=_MKT_B,
          script=[
@@ -994,7 +994,7 @@ UNIT = dict(
    read=[
     dict(heading='Goods that get worse when they are priced',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and note completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'Economic analysis ordinarily treats a price as information: it '
@@ -1133,7 +1133,7 @@ UNIT = dict(
            'The final paragraph, which he calls imperfect and cheap.')])],
    listen=[
     dict(heading='A lecture on the limits of markets', part='Part 4',
-         task='A lecture on goods that resist pricing', band='l4',
+         task='A lecture on goods that resist pricing · multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'A price is normally information. It tells you what '
@@ -1358,7 +1358,7 @@ UNIT = dict(
    read=[
     dict(heading='The argument that would ban almost everything',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given, sentence completion and short answer',
          band='acad', qtype='Questions 59-66',
          paras=[
           'An argument proves too much when the reasoning that supports its '
@@ -1492,7 +1492,7 @@ UNIT = dict(
            'Paragraph 9, with the constitution question the exception.')])],
    listen=[
     dict(heading='A philosopher and an economist disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice and matching', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Oyelaran-Whitlock works on the ethics of '
            'markets. Dr Bergström-Adeyemi is an economist.'),

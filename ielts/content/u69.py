@@ -49,7 +49,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Riverside Leisure: clubs and times',
-         kind='Noticeboard', task='Table completion',
+         kind='Noticeboard', task='Note completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A club list is read for the age and the cost',
                 ['Three facts repeat in every entry: day, age range, '
@@ -80,7 +80,7 @@ UNIT = dict(
            'twenty-one', 'Against four pounds for a single session.')])],
    listen=[
     dict(heading='Signing up for a club', part='Part 1',
-         task='A conversation at a leisure centre', band='l1',
+         task='A conversation at a leisure centre · note completion', band='l1',
          qtype='Questions 6-10',
          script=[
           ('Staff', 'Which club is it for?'),
@@ -204,7 +204,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Match day: finding your way round the ground',
-         kind='Ground notice', task='Plan labelling',
+         kind='Ground notice', task='Note completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'The ticket office is at the north end, beside the north '
@@ -232,7 +232,7 @@ UNIT = dict(
            'Beside the car park and reception.')])],
    listen=[
     dict(heading='Finding your seat', part='Part 1',
-         task='A conversation with a steward', band='l1',
+         task='A conversation with a steward · note completion', band='l1',
          qtype='Questions 16-20',
          script=[
           ('Visitor', 'Excuse me. Where is block F?'),
@@ -360,7 +360,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Three people and their hobbies',
-         kind='Short profiles', task='Matching features',
+         kind='Short profiles', task='Matching features, short answer and sentence completion',
          band='gt_work', qtype='Questions 21-25',
          skill=('Three profiles are read for the difference, not the '
                 'hobby',
@@ -402,7 +402,7 @@ UNIT = dict(
            'For the first six weeks, she says.')])],
    listen=[
     dict(heading='A talk about starting a hobby', part='Part 2',
-         task='One speaker giving advice', band='l2',
+         task='One speaker giving advice · note completion', band='l2',
          qtype='Questions 26-30',
          script=[
           ('Speaker', 'I run the beginners’ night at the band, and '
@@ -583,7 +583,7 @@ UNIT = dict(
    read=[
     dict(heading='What changes when you train',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion and matching information',
          band='acad', qtype='Questions 31-36',
          paras=[
           'Most people believe that training makes a muscle bigger and '
@@ -631,7 +631,7 @@ UNIT = dict(
            'Paragraph 3, which is good news after an injury.')])],
    listen=[
     dict(heading='A talk about training and rest', part='Part 4',
-         task='A short lecture to sports students', band='l4',
+         task='A short lecture to sports students · note completion', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'I am going to tell you the three things that '
@@ -766,7 +766,7 @@ UNIT = dict(
    read=[
     dict(heading='Whether early specialisation works',
          kind='Short factual article',
-         task='Matching information and short answer',
+         task='Note completion, matching information and multiple choice',
          band='acad', qtype='Questions 42-47',
          paras=[
           'Parents are told two opposite things about children and '
@@ -824,7 +824,7 @@ UNIT = dict(
                'recall.', 3: 'Playing many sports is what the non-specialisers did.'})])],
    listen=[
     dict(heading='Two coaches disagree', part='Part 3',
-         task='A discussion between two coaches', band='l3',
+         task='A discussion between two coaches · note completion', band='l3',
          qtype='Questions 48-52',
          script=[
           ('Tutor', 'You coach the same age group and you do it '

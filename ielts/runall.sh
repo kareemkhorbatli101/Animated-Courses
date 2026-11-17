@@ -19,5 +19,6 @@ done
 python3 density.py --ladder 2>&1 | tail -1
 python3 gate8.py all 2>&1 | tail -1
 python3 readiness.py 2>&1 | tail -1
+python3 gate10.py 2>&1 | tail -1
 python3 regress.py ${1:-0} 2>&1 | tail -1
 echo "SUITE: $([ $fail = 0 ] && echo ok || echo FAIL)"

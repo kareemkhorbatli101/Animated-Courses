@@ -27,7 +27,7 @@ UNIT = dict(
    read=[
     dict(heading='What to do in your first month',
          kind='Official guidance',
-         task='Flow-chart completion and short answer',
+         task='Note completion and matching features',
          band='gt_short', qtype='Questions 1-5',
          skill=('Deadlines are the question in any arrival guidance',
                 ['Official guidance for newcomers is organised around dates: '
@@ -131,7 +131,7 @@ UNIT = dict(
            'list.')])],
    listen=[
     dict(heading='Registering with the local authority', part='Part 1',
-         task='A visit to a registration office', band='l1',
+         task='A visit to a registration office · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Clerk', 'Good morning. Are you here to register an address?'),
@@ -186,7 +186,7 @@ UNIT = dict(
            'ten', 'By post, and the original must be kept because no copy is '
            'accepted.')]),
     dict(heading='A short talk: arriving and settling', part='Part 2',
-         task='An induction talk for new arrivals', band='l2',
+         task='An induction talk for new arrivals · multiple choice and matching', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I run this session every month and I have stopped '
@@ -248,7 +248,7 @@ UNIT = dict(
            {0: 'Shorter than the period she gives for recognition.', 1: 'Still shorter than the eight to fourteen months she '
                'names.', 3: 'Longer than the process she describes.'})]),
     dict(heading='Two advisers disagree about integration', part='Part 3',
-         task='A conversation between caseworkers', band='l3',
+         task='A conversation between caseworkers · multiple choice', band='l3',
          qtype='Questions 19-23',
          script=[
           ('Hyacinth', 'I want to change the advice we give about language '
@@ -500,7 +500,7 @@ UNIT = dict(
                'the cost.'})])],
    listen=[
     dict(heading='Two councillors on where newcomers settle', part='Part 3',
-         task='A discussion about housing', band='l3',
+         task='A discussion about housing · multiple choice and matching', band='l3',
          qtype='Questions 30-34',
          script=[
           ('Perpetua', 'The figures came through this morning and they do not '
@@ -719,7 +719,7 @@ UNIT = dict(
    read=[
     dict(heading='Flows between four regions',
          kind='Data article',
-         task='Matching information and table completion',
+         task='Matching features, table completion and matching information',
          band='gt_work', qtype='Questions 35-40',
          figure=_FLOWS,
          paras=[
@@ -783,7 +783,7 @@ UNIT = dict(
            {0: 'Paragraph 2 reads the year by the net column.', 1: 'Paragraph 3 reads the same year by turnover.', 3: 'Paragraph 5 compares regions that look alike.'})])],
    listen=[
     dict(heading='A demographer on migration data', part='Part 4',
-         task='A lecture on reading flow figures', band='l4',
+         task='A lecture on reading flow figures · multiple choice', band='l4',
          qtype='Questions 41-46',
          figure=_FLOWS,
          script=[
@@ -998,7 +998,7 @@ UNIT = dict(
    read=[
     dict(heading='The evidence and its disagreements',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 47-53',
          paras=[
           'Few empirical questions have been studied as intensively as the '
@@ -1117,7 +1117,7 @@ UNIT = dict(
            're-analysed.')])],
    listen=[
     dict(heading='A lecture on labour market effects', part='Part 4',
-         task='A lecture on reading an economics literature', band='l4',
+         task='A lecture on reading an economics literature · multiple choice and matching', band='l4',
          qtype='Questions 54-59',
          script=[
           ('Lecturer', 'I am going to do something that will annoy both '
@@ -1332,7 +1332,7 @@ UNIT = dict(
    read=[
     dict(heading='Why national figures settle nothing locally',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given, sentence completion and short answer',
          band='acad', qtype='Questions 60-66',
          paras=[
           'A national finding and a local one can both be correct and point '
@@ -1464,7 +1464,7 @@ UNIT = dict(
            'are experienced.')])],
    listen=[
     dict(heading='An economist and a councillor disagree', part='Part 4',
-         task='A recorded exchange at a local inquiry', band='l4',
+         task='A recorded exchange at a local inquiry · multiple choice', band='l4',
          qtype='Questions 67-72',
          script=[
           ('Chair', 'Dr Steinhauer-Okafor is an economist. Councillor '

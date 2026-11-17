@@ -32,7 +32,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='New rules for short-term letting',
-         kind='Council notice', task='Matching features and short answer',
+         kind='Council notice', task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('A notice that changes a rule is read for the dates',
                 ['Any notice announcing a change has at least three dates: '
@@ -88,7 +88,7 @@ UNIT = dict(
            'of licensed ____________ in each street.', None, 'nights',
            'Paragraph 5, which will not name operators.')]),
     dict(heading='Registering a property',
-         kind='Procedure notice', task='Flow-chart completion',
+         kind='Procedure notice', task='Note completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Check the map before anything else. The scheme covers the town and '
@@ -121,7 +121,7 @@ UNIT = dict(
            'Paragraph 4, and is carried out by an uninvolved officer.')])],
    listen=[
     dict(heading='Registering a holiday let', part='Part 1',
-         task='A call to a licensing office', band='l1',
+         task='A call to a licensing office · note completion', band='l1',
          qtype='Questions 10-14',
          script=[
           ('Officer', 'Licensing, Thandeka speaking.'),
@@ -176,7 +176,7 @@ UNIT = dict(
            'application.', None, 'eight',
            'The officer stresses the word complete.')]),
     dict(heading='A short talk: living in a visited place', part='Part 2',
-         task='A talk at a town residents’ forum', band='l2',
+         task='A talk at a town residents’ forum · multiple choice and matching', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have lived here for thirty-one years and I want to '
@@ -421,7 +421,7 @@ UNIT = dict(
                'not.'})])],
    listen=[
     dict(heading='A public meeting on visitor numbers', part='Part 3',
-         task='A discussion at a council meeting', band='l3',
+         task='A discussion at a council meeting · multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Chair', 'We have twenty minutes and two positions. Councillor '
@@ -634,7 +634,7 @@ UNIT = dict(
    read=[
     dict(heading='Arrivals, nights and spending',
          kind='Data article',
-         task='Matching information and table completion',
+         task='Matching information and note completion',
          band='gt_work', qtype='Questions 30-35',
          figure=_ARR, figure2=_MON,
          paras=[
@@ -701,7 +701,7 @@ UNIT = dict(
            'Paragraph 4, against under 3 per cent in January.')])],
    listen=[
     dict(heading='A tourism economist on the figures', part='Part 4',
-         task='A lecture on measuring tourism', band='l4',
+         task='A lecture on measuring tourism · multiple choice and matching', band='l4',
          qtype='Questions 36-41',
          figure=_ARR, figure2=_MON,
          script=[
@@ -909,7 +909,7 @@ UNIT = dict(
    read=[
     dict(heading='Leakage and the local share',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and summary completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 42-48',
          paras=[
           'A town told that visitors spent 170 million euros there last year '
@@ -1015,7 +1015,7 @@ UNIT = dict(
            'Paragraph 7, and lower where it is corporate.')])],
    listen=[
     dict(heading='A lecture on tourism economics', part='Part 4',
-         task='A lecture on where visitor money goes', band='l4',
+         task='A lecture on where visitor money goes · multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I want to take one sentence apart, because it appears '
@@ -1218,7 +1218,7 @@ UNIT = dict(
    read=[
     dict(heading='Four towns that capped visitors',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and short answer',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 55-61',
          paras=[
           'Four towns that introduced limits on visitor numbers between 2016 '
@@ -1340,7 +1340,7 @@ UNIT = dict(
            'Paragraph 5: ninety homes in six years.')])],
    listen=[
     dict(heading='A mayor and an economist disagree', part='Part 4',
-         task='A recorded exchange', band='l4', qtype='Questions 62-67',
+         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 62-67',
          script=[
           ('Chair', 'Mayor Szczepanska introduced a cap in 2019. Dr Ferreira '
            'has studied all four schemes.'),
