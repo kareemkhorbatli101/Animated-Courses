@@ -744,10 +744,21 @@ UNIT = dict(
            {0: 'Provenance of the data is not what he tells you to '
                'ask.', 2: 'Size and speed are what the figure already gives.', 3: 'Crops and years are both labelled on the charts.'})])],
    speak=dict(
-    part='Part 3', focus='Importing food',
-    intro=('Four or five sentences. Try once to describe the shape of a '
-           'change rather than its size.'),
-    qs=['Is it a problem for a country to import much of its food?',
+    part='Part 2 into Part 3', focus='Importing food',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four or five '
+           'sentences. Try once to describe the shape of a change rather '
+           'than its size.'),
+    cue=('Describe a food you eat that comes from another country.',
+         ['what it is',
+          'where it comes from',
+          'how often you eat it',
+          'and explain whether you could do without it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could it be grown nearer?',
+        'Would you pay more for a local one?',
+        'Is it a problem for a country to import much of its food?',
         'Why might domestic production fall?',
         'Should governments support farmers?',
         'What would make a food supply more secure?'],
@@ -1067,7 +1078,7 @@ UNIT = dict(
            'question.',
            {0: 'Prices are not part of the argument he credits.', 2: 'Nutrition is not raised in the lecture.', 3: 'Labour is not among the comparisons he makes.'})])],
    speak=dict(
-    part='Part 3', focus='Producing more without losing more',
+    part='Part 2 into Part 3', focus='Producing more without losing more',
     followup=[(('You say we should measure soil rather than yield. Is that '
                 'practical?'),
                ('It is practical at the points where land changes hands, '
@@ -1090,9 +1101,19 @@ UNIT = dict(
                 'rule. But a rule written far away tends to be wrong about '
                 'particular fields, so I would set the obligation centrally '
                 'and leave the method local.'))],
-    intro=('Four or five sentences. Try once to say what a measurement '
-           'leaves out.'),
-    qs=['How should we judge whether a farming system is successful?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. Try '
+           'once to say what a measurement leaves out.'),
+    cue=('Describe a garden, an allotment or a field you have worked on.',
+         ['where it was',
+          'what grew there',
+          'what work it needed',
+          'and explain what you learned from it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was the soil any good?',
+        'Would you do it again?',
+        'How should we judge whether a farming system is successful?',
         'Is it possible to produce more food without damaging land?',
         'Should farmers be paid for looking after soil?',
         'Who should decide how land is farmed?'],
@@ -1377,7 +1398,7 @@ UNIT = dict(
            'different one.',
            {0: 'No new trial is proposed in the exchange.', 2: 'Nothing is being corrected; the numbers stand.', 3: 'They agree on a specific joint statement.'})])],
    speak=dict(
-    part='Part 3', focus='Feeding more people',
+    part='Part 2 into Part 3', focus='Feeding more people',
     sounds=[('Common chunks lose sounds in fluent speech, and the losses are '
              'regular. Next to sounds like neks to, used to like yoostoo, '
              'going to like gonna in speech and never in writing.'),
@@ -1393,9 +1414,19 @@ UNIT = dict(
             ('Record yourself on judging a farming system, then write down '
              'what you hear rather than what you said. The difference is the '
              'elision.')],
-    intro=('The hardest turn in the unit. Try once to state the scope within '
-           'which a claim is true.'),
-    qs=['Can the world be fed by less intensive farming?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: the hardest turn in the unit. Try once to '
+           'state the scope within which a claim is true.'),
+    cue=('Describe a change you have made to what you eat.',
+         ['what you changed',
+          'why you changed it',
+          'how long ago it was',
+          'and explain whether you have kept it up']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did anybody else notice?',
+        'Was it cheaper or dearer?',
+        'Can the world be fed by less intensive farming?',
         'Should people eat less meat?',
         'How much food is wasted where you live?',
         'Who should decide what a country grows?'],

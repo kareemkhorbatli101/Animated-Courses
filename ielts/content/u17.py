@@ -756,10 +756,20 @@ UNIT = dict(
            None, 'turns up',
            'Although that is where the argument can still be won.')])],
    speak=dict(
-    part='Part 3', focus='Buildings that work and buildings that do not',
-    intro=('Four or five sentences. Describe the mechanism, not just the '
-           'opinion.'),
-    qs=['What makes a building work well for the people in it?',
+    part='Part 2 into Part 3', focus='Buildings that work and buildings that do not',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: four or five sentences. Describe the '
+           'mechanism, not just the opinion.'),
+    cue=('Describe a building you find uncomfortable to be in.',
+         ['where it is',
+          'what it is used for',
+          'what is wrong with it',
+          'and explain how you would change it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do other people say the same?',
+        'Has anything been done about it?',
+        'What makes a building work well for the people in it?',
         'Should the public be consulted about new buildings?',
         'Why do some new buildings become unpopular?',
         'Who should decide what gets built?'],
@@ -1053,10 +1063,20 @@ UNIT = dict(
            'be ____________.', None, 'third',
            'Asked third rather than ignored altogether.')])],
    speak=dict(
-    part='Part 3', focus='Judging a design',
-    intro=('Four or five sentences. Try once to separate two questions '
-           'people run together.'),
-    qs=['How should we judge whether a building is good?',
+    part='Part 2 into Part 3', focus='Judging a design',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: four or five sentences. Try once to separate two '
+           'questions people run together.'),
+    cue=('Describe a new building in your town or city.',
+         ['where it is',
+          'what it is for',
+          'what it looks like',
+          'and explain whether you like it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What was there before?',
+        'Who do you think chose the design?',
+        'How should we judge whether a building is good?',
         'Do architects listen enough to the people who use buildings?',
         'Is the appearance of a building important?',
         'Should cost decide what gets built?'],

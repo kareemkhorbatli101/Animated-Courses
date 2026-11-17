@@ -771,10 +771,20 @@ UNIT = dict(
            'Before answering any question about it.',
            {0: 'Definition matters, but his rule names the recording.', 2: 'Publication is not what he tells you to question.', 3: 'Funding is not part of the discipline he sets out.'})])],
    speak=dict(
-    part='Part 3', focus='Measuring crime',
-    intro=('Four or five sentences. Give the reason, then the '
-           'consequence.'),
-    qs=['Are crime figures reliable?',
+    part='Part 2 into Part 3', focus='Measuring crime',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: four or five sentences. Give the '
+           'reason, then the consequence.'),
+    cue=('Describe a place where you feel safe.',
+         ['where it is',
+          'when you go there',
+          'who else is usually there',
+          'and explain why you feel safe there']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is the whole area like that?',
+        'Has it changed since you first knew it?',
+        'Are crime figures reliable?',
         'Why might people not report a crime?',
         'Should crime figures be published?',
         'Does reporting crime in the news change how safe people feel?'],
@@ -1075,10 +1085,21 @@ UNIT = dict(
            'Whereas it is a claim about which lever moves the '
            'number.')])],
    speak=dict(
-    part='Part 3', focus='Punishment and prevention',
-    intro=('Five sentences. Try once to separate two things people run '
-           'together.'),
-    qs=['Does the threat of punishment stop people committing crimes?',
+    part='Part 2 into Part 3', focus='Punishment and prevention',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: five sentences. '
+           'Try once to separate two things people run together.'),
+    cue=(('Describe a rule at a school or a workplace that stopped people '
+          'doing something.'),
+         ['what the rule was',
+          'where it applied',
+          'how it was enforced',
+          'and explain whether it worked']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What happened to people who broke it?',
+        'Would a different rule have worked better?',
+        'Does the threat of punishment stop people committing crimes?',
         'Should sentences be longer for serious crimes?',
         'What else can reduce crime?',
         'Is prison the right answer for most offences?'],

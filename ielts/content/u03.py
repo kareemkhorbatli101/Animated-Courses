@@ -653,10 +653,21 @@ UNIT = dict(
            {0: 'Cost is not raised by either speaker.', 2: 'Travelling to a different hospital is mentioned but '
                'not as the complaint.', 3: 'Paperwork is not what either of them objects to.'})])],
    speak=dict(
-    part='Part 3', focus='Judging a health service',
-    intro=('Three or four sentences. Say what a number does and does '
-           'not tell you.'),
-    qs=['How can you tell whether a hospital is good?',
+    part='Part 2 into Part 3', focus='Judging a health service',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: three or four sentences. Say what a number does '
+           'and does not tell you.'),
+    cue=(('Describe a time you or somebody you know used a hospital or a '
+          'clinic.'),
+         ['why you went',
+          'how long you waited',
+          'how you were treated',
+          'and explain what you thought of the service']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you go back to the same place?',
+        'Do most people near you have a choice of clinic?',
+        'How can you tell whether a hospital is good?',
         'Are waiting times a fair measure?',
         'Should patients be able to choose their hospital?',
         'What information should hospitals publish?'],
@@ -941,10 +952,20 @@ UNIT = dict(
            'cent.', None, 'eighty',
            'And medicine most of the last twenty.')])],
    speak=dict(
-    part='Part 3', focus='Health and where you are born',
-    intro=('Four sentences. Try once to explain a cause rather than '
-           'naming it.'),
-    qs=['Why do people live longer in some countries than others?',
+    part='Part 2 into Part 3', focus='Health and where you are born',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: four sentences. Try once to explain a '
+           'cause rather than naming it.'),
+    cue=('Describe an older person you know who is in good health.',
+         ['who the person is',
+          'how they live from day to day',
+          'what they do to stay well',
+          'and explain how much of it you think is luck']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is that typical of older people where you live?',
+        'Could you live the way that person does?',
+        'Why do people live longer in some countries than others?',
         'Is health mostly decided by money?',
         'What should a government spend health money on first?',
         'Can individuals do much about their own health?'],

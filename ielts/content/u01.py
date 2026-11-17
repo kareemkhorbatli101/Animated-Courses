@@ -646,10 +646,20 @@ UNIT = dict(
            {0: 'A seventh is the rate across all subjects, not in the '
                'room.', 1: 'A quarter is not a figure the talk gives anywhere.', 3: 'Three quarters is higher than any figure in the talk.'})])],
    speak=dict(
-    part='Part 3', focus='Learning as an adult',
-    intro=('Three or four sentences. Give a reason and then an example '
-           'of it.'),
-    qs=['Is it harder to learn something new as an adult?',
+    part='Part 2 into Part 3', focus='Learning as an adult',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: three or four sentences. Give a '
+           'reason and then an example of it.'),
+    cue=('Describe something you have learned since you left school.',
+         ['what you learned',
+          'how you went about learning it',
+          'how long you kept at it',
+          'and explain what made you keep going or stop']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you learn something else in the same way?',
+        'Is that how most adults you know learn things?',
+        'Is it harder to learn something new as an adult?',
         'Why do people stop doing online courses?',
         'Should employers pay for training?',
         'What is the best way to learn a language?'],
@@ -918,10 +928,20 @@ UNIT = dict(
           ('What can no table tell a parent about?', None, 'one child',
            'Which is the question they actually have.')])],
    speak=dict(
-    part='Part 3', focus='What makes a good school',
-    intro=('Three or four sentences. Give the reason behind your '
-           'opinion.'),
-    qs=['What makes a school a good school?',
+    part='Part 2 into Part 3', focus='What makes a good school',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: three or four '
+           'sentences. Give the reason behind your opinion.'),
+    cue=('Describe a school or college you know well.',
+         ['where it is',
+          'what the buildings and the classes are like',
+          'what it is known for',
+          'and explain whether you would recommend it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Has it changed since you knew it?',
+        'Would you send a child of your own there?',
+        'What makes a school a good school?',
         'Are examination results a fair way to judge a school?',
         'Should parents be able to choose their child’s school?',
         'How important is the size of a class?'],

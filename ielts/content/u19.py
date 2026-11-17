@@ -709,10 +709,20 @@ UNIT = dict(
            'the ____________ path.', None, 'canal',
            'And is the only genuinely new line on the plan.')])],
    speak=dict(
-    part='Part 3', focus='Building transport through a city',
-    intro=('Four or five sentences. Describe the trade-off rather than '
-           'taking a side immediately.'),
-    qs=['Is it worth disrupting a city to build new transport?',
+    part='Part 2 into Part 3', focus='Building transport through a city',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four or five sentences. Describe the '
+           'trade-off rather than taking a side immediately.'),
+    cue=('Describe building work that disrupted a place you know.',
+         ['what was being built',
+          'where it was',
+          'how long it took',
+          'and explain whether it was worth it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you use what was built?',
+        'Who was most affected while it went on?',
+        'Is it worth disrupting a city to build new transport?',
         'Who should be compensated when a line is built?',
         'Do new stations change the areas around them?',
         'Should old railway land be used for housing instead?'],
@@ -999,10 +1009,20 @@ UNIT = dict(
            'journeys simply stopped.', None, 'quarter',
            'Having been worth making only while they were easy.')])],
    speak=dict(
-    part='Part 3', focus='Reducing traffic',
-    intro=('Four or five sentences. Try once to explain a result that '
-           'defeats itself.'),
-    qs=['How can a city reduce traffic?',
+    part='Part 2 into Part 3', focus='Reducing traffic',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: four or five sentences. Try once to '
+           'explain a result that defeats itself.'),
+    cue=('Describe a street or a road that is always busy.',
+         ['where it is',
+          'when it is at its worst',
+          'who uses it',
+          'and explain what you would do about it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Has anything been tried there?',
+        'Can you avoid it?',
+        'How can a city reduce traffic?',
         'Does building more roads help?',
         'Should city centres be closed to cars?',
         'Who loses when driving is made harder?'],

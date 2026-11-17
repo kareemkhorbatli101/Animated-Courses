@@ -650,9 +650,20 @@ UNIT = dict(
           ('What does he say does what willpower does not?', None,
            'the distance', 'Which he admits is slightly embarrassing.')])],
    speak=dict(
-    part='Part 3', focus='Attention and distraction',
-    intro=('Three or four sentences. Use a number if you have one.'),
-    qs=['Do people find it harder to concentrate than they used to?',
+    part='Part 2 into Part 3', focus='Attention and distraction',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: three or four sentences. Use a '
+           'number if you have one.'),
+    cue=('Describe a time when you found it hard to concentrate.',
+         ['when it was',
+          'what you were trying to do',
+          'what kept interrupting you',
+          'and explain how you dealt with it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Does the same thing still interrupt you?',
+        'What helps you most when you have to concentrate?',
+        'Do people find it harder to concentrate than they used to?',
         'Should phones be banned in schools?',
         'How do you avoid distractions when you work?',
         'Is it a problem that people check their phones so often?'],
@@ -927,10 +938,20 @@ UNIT = dict(
            None, 'a target',
            'The law he wants the audience to remember.')])],
    speak=dict(
-    part='Part 3', focus='What a machine decides for you',
-    intro=('Four sentences. Describe what the machine is actually '
-           'measuring.'),
-    qs=['How do you decide whether something online is reliable?',
+    part='Part 2 into Part 3', focus='What a machine decides for you',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: four sentences. Describe what the machine is '
+           'actually measuring.'),
+    cue=('Describe something you looked up online recently.',
+         ['what you were looking for',
+          'where you looked',
+          'what you found first',
+          'and explain whether you trusted it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you look past the first few results?',
+        'How do you decide whether a page is reliable?',
+        'How do you decide whether something online is reliable?',
         'Should people know how search results are ordered?',
         'Do you look beyond the first few results?',
         'What problems come from machines ranking information?'],

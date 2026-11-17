@@ -644,10 +644,20 @@ UNIT = dict(
           ('How long was the official gauge broken for?', None,
            'five months', 'From March until it was repaired in August.')])],
    speak=dict(
-    part='Part 3', focus='Trusting a measurement',
-    intro=('Three or four sentences. Say what a measurement can and '
-           'cannot tell you.'),
-    qs=['How do we know whether a river is healthy?',
+    part='Part 2 into Part 3', focus='Trusting a measurement',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: three or four '
+           'sentences. Say what a measurement can and cannot tell you.'),
+    cue=('Describe a river, a lake or a beach near where you live.',
+         ['where it is',
+          'what it is used for',
+          'what condition it is in',
+          'and explain how you can tell']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Has it changed in the time you have known it?',
+        'Who looks after it?',
+        'How do we know whether a river is healthy?',
         'Should companies be allowed to take water from rivers?',
         'Can ordinary people collect useful scientific data?',
         'Who should pay for monitoring the environment?'],
@@ -927,10 +937,20 @@ UNIT = dict(
            'a negotiation',
            'Because the surrounding land belongs to other people.')])],
    speak=dict(
-    part='Part 3', focus='Choosing what to protect',
-    intro=('Four sentences. Give a reason that involves a '
-           'consequence.'),
-    qs=['Should governments protect land from building?',
+    part='Part 2 into Part 3', focus='Choosing what to protect',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four sentences. Give a reason '
+           'that involves a consequence.'),
+    cue=('Describe an animal or a plant that is rare where you live.',
+         ['what it is',
+          'where it is found',
+          'why it has become rare',
+          'and explain what is being done about it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Have you ever seen one?',
+        'Do people near you know about it?',
+        'Should governments protect land from building?',
         'Is it better to protect one famous animal or a whole area?',
         'Who should pay for conservation?',
         'Can farming and wildlife share the same land?'],
@@ -1195,7 +1215,7 @@ UNIT = dict(
                'work.', 3: 'Climate is not the problem they say neither profession '
                'works on.'})])],
    speak=dict(
-    part='Part 3', focus='Conservation and the people who live there',
+    part='Part 2 into Part 3', focus='Conservation and the people who live there',
     sounds=[('Speech comes in chunks of about four to seven words, and you '
              'pause between chunks, not inside them. In protected areas near '
              'the coast is one chunk and takes one breath.'),
@@ -1213,10 +1233,20 @@ UNIT = dict(
              'seconds. Count your pauses, then count how many were at a '
              'boundary you had marked. The second number is the one to '
              'improve.')],
-    intro=('Four or five sentences. Say who has to agree for something '
-           'to work.'),
-    qs=['Should people be allowed to live and farm inside protected '
-        'areas?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four or five sentences. Say who has to '
+           'agree for something to work.'),
+    cue=('Describe a protected area you have visited or read about.',
+         ['where it is',
+          'what it protects',
+          'who lives or works there',
+          'and explain whether the protection seems to work']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you like to live inside such an area?',
+        'Who pays for it?',
+        ('Should people be allowed to live and farm inside protected '
+         'areas?'),
         'Is conservation mainly a scientific or a political problem?',
         'How should conservation be paid for?',
         'What would you protect first where you live?'],

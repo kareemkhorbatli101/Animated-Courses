@@ -697,10 +697,20 @@ UNIT = dict(
           ('A handover between masts takes under half a ____________.',
            None, 'second', 'Which is why nobody notices it.')])],
    speak=dict(
-    part='Part 3', focus='Infrastructure people never see',
-    intro=('Three or four sentences. Describe how something works '
-           'rather than whether you like it.'),
-    qs=['Do people understand how the technology they use works?',
+    part='Part 2 into Part 3', focus='Infrastructure people never see',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: three or four sentences. '
+           'Describe how something works rather than whether you like it.'),
+    cue=('Describe a time when a service you rely on stopped working.',
+         ['what it was',
+          'when it happened',
+          'what you did instead',
+          'and explain how long it took you to notice']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you ever find out why it failed?',
+        'What would you do if it stopped for a week?',
+        'Do people understand how the technology they use works?',
         'Does it matter whether they do?',
         'What happens when such systems fail?',
         'Should these things be taught at school?'],
@@ -976,10 +986,21 @@ UNIT = dict(
            'Namely the register and the cost of saying it.',
            {0: 'Nothing is added in translation, on his account.', 2: 'Invention is not what he says happens.', 3: 'Repetition is not one of the three losses he names.'})])],
    speak=dict(
-    part='Part 3', focus='Translation and what gets lost',
-    intro=('Four sentences. Give an example if you have one in any '
-           'language you know.'),
-    qs=['Is it possible to translate everything?',
+    part='Part 2 into Part 3', focus='Translation and what gets lost',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four sentences. Give an example if you '
+           'have one in any language you know.'),
+    cue=(('Describe a book, a film or a song you know in more than one '
+          'language.'),
+         ['what it is',
+          'which languages you know it in',
+          'what differs between them',
+          'and explain which version you prefer']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who did the translating?',
+        'Would you recommend it in translation?',
+        'Is it possible to translate everything?',
         'What is lost when a book is translated?',
         'Should everybody learn a second language?',
         'Do people behave differently in a second language?'],

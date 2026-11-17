@@ -816,10 +816,22 @@ UNIT = dict(
            'On a site like this the survival is always more '
            'interesting than the destruction.')])],
    speak=dict(
-    part='Part 3', focus='Layers of a place',
-    intro=('Four or five sentences. These questions reward a candidate who '
-           'can describe change over time without losing the thread.'),
-    qs=['Why do you think some old buildings survive and others do not?',
+    part='Part 2 into Part 3', focus='Layers of a place',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four or five '
+           'sentences. These questions reward a candidate who can describe '
+           'change over time without losing the thread.'),
+    cue=(('Describe a place that is now used for something other than what '
+          'it was built for.'),
+         ['where it is',
+          'what it was built for',
+          'what it is used for now',
+          'and explain whether the change suits it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Can you still see what it used to be?',
+        'Who decided on the change?',
+        'Why do you think some old buildings survive and others do not?',
         'Is it a good thing when industrial sites become parks?',
         'Should towns keep a record of what used to stand where?',
         'How much should a new building have to fit in with old ones?'],
@@ -1152,7 +1164,7 @@ UNIT = dict(
            'Nobody disagrees about dates, permits or condition in the '
            'case on the handout.')])],
    speak=dict(
-    part='Part 3', focus='Objects far from where they were made',
+    part='Part 2 into Part 3', focus='Objects far from where they were made',
     followup=[(('You would return the objects. Who should decide where an '
                 'object belongs?'),
                ('Not the museum alone, which is the current arrangement and an '
@@ -1175,13 +1187,25 @@ UNIT = dict(
                 'about ownership. A sacred object raises a question about use, '
                 'and keeping it on display may be the harm, in which case a '
                 'loan agreement answers nothing.'))],
-    intro=('Four or five sentences. At least once, name which principle you '
-           'are arguing from instead of only asserting a conclusion.'),
-    qs=['Should museums return objects taken during colonial rule?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. At '
+           'least once, name which principle you are arguing from instead '
+           'of only asserting a conclusion.'),
+    cue=('Describe an object in a museum that stayed in your mind.',
+         ['what it was',
+          'where you saw it',
+          'where it had come from',
+          'and explain why you remember it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was it well explained?',
+        'Should it be where it is?',
+        'Should museums return objects taken during colonial rule?',
         'Who should decide where an object belongs?',
-        'Does it matter where an object is kept, if people can see it '
-        'online?',
-        'Is there a difference between a sacred object and an ordinary one?'],
+        ('Does it matter where an object is kept, if people can see it '
+         'online?'),
+        ('Is there a difference between a sacred object and an ordinary '
+         'one?')],
     shape=[('answer', 'In many cases yes, but it depends which argument you '
             'are making.'),
            ('support', 'If the claim is that the object was taken unlawfully, '

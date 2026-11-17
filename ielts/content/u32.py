@@ -808,16 +808,26 @@ UNIT = dict(
            'which the plant is paid and above which it pays.',
            {0: 'He says explicitly that it is not gradual.', 1: 'Predictability is not what he claims for it.', 3: 'The cost rises sharply above the threshold.'})])],
    speak=dict(
-    part='Part 3', focus='Recycling and what it achieves',
-    intro=('Four or five sentences. At this point in the test the examiner is '
-           'listening for development, so make sure at least one follow-up '
-           'explains instead of merely adding.'),
-    qs=['How effective do you think recycling is?',
+    part='Part 2 into Part 3', focus='Recycling and what it achieves',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: four or five sentences. At this point in the test '
+           'the examiner is listening for development, so make sure at '
+           'least one follow-up explains instead of merely adding.'),
+    cue=('Describe how waste is collected where you live.',
+         ['what is collected and when',
+          'how it has to be sorted',
+          'what happens to it afterwards',
+          'and explain whether the system works well']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do your neighbours follow it?',
+        'What would you change?',
+        'How effective do you think recycling is?',
         'Should people be fined for putting the wrong things in a bin?',
-        'Some say recycling makes people feel entitled to consume more. What '
-        'do you think?',
-        'Whose responsibility is packaging waste: the shopper or the '
-        'manufacturer?'],
+        ('Some say recycling makes people feel entitled to consume more. '
+         'What do you think?'),
+        ('Whose responsibility is packaging waste: the shopper or the '
+         'manufacturer?')],
     shape=[('answer', 'More effective than people think, but for a narrower '
             'set of materials.'),
            ('support', 'Metals and card genuinely go round again.'),
@@ -1150,7 +1160,7 @@ UNIT = dict(
            {0: 'He says explicitly that it is not located there.', 2: 'Budgets are part of collection economics, not the '
                'whole.', 3: 'Sorting technology is not where he puts the plateau.'})])],
    speak=dict(
-    part='Part 3', focus='Targets and what they produce',
+    part='Part 2 into Part 3', focus='Targets and what they produce',
     followup=[(('You say targets distort behaviour. Who should be responsible '
                 'for reducing packaging, then?'),
                ('The manufacturer, because it is the only party that can '
@@ -1171,15 +1181,26 @@ UNIT = dict(
                 'figure sharply, and no minister wants to publish a fall. That '
                 'is exactly why the measure needs to be set by somebody who is '
                 'not judged on it.'))],
-    intro=('Concede something in at least one answer. A candidate who can give '
-           'ground and still hold a position is demonstrating precisely what '
-           'the criteria reward.'),
-    qs=['Are targets a good way to improve public services?',
-        'Who should be responsible for reducing packaging: shoppers, '
-        'manufacturers or government?',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: concede something in at least one '
+           'answer. A candidate who can give ground and still hold a '
+           'position is demonstrating precisely what the criteria reward.'),
+    cue=(('Describe a target you were given at work, at school or in '
+          'training.'),
+         ['what the target was',
+          'who set it',
+          'what you did to try to meet it',
+          'and explain whether it improved anything']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did it change the way you worked?',
+        'Was it a fair target?',
+        'Are targets a good way to improve public services?',
+        ('Who should be responsible for reducing packaging: shoppers, '
+         'manufacturers or government?'),
         'Why do you think people blame individuals instead of systems?',
-        'Would you support a rule that made recycling rates look worse but '
-        'did more good?'],
+        ('Would you support a rule that made recycling rates look worse '
+         'but did more good?')],
     shape=[('answer', 'They help at the start and then start to distort '
             'things.'),
            ('support', 'A weight target makes grass cuttings look like '
@@ -1638,7 +1659,7 @@ UNIT = dict(
            'The upper middle bay beside the electrical bay, which the '
            'attendant says is most often confused.')])],
    speak=dict(
-    part='Part 3', focus='Proportion, attention and responsibility',
+    part='Part 2 into Part 3', focus='Proportion, attention and responsibility',
     sounds=[('Negative prefixes take no stress of their own in ordinary '
              'speech: unNECessary, inEFFicient, disPOSable. Stressing the '
              'prefix is how you emphasise the negation, so save it for when '
@@ -1654,13 +1675,27 @@ UNIT = dict(
             ('Record ninety seconds on targets. Find a negative word you '
              'stressed on the prefix without meaning to, and say that sentence '
              'again.')],
-    intro=('The hardest turn. Concede, then hold. At least one of your answers '
-           'should name the strongest version of the opposing case before you '
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: the hardest '
+           'turn. Concede, then hold. At least one of your answers should '
+           'name the strongest version of the opposing case before you '
            'answer it.'),
-    qs=['Is it fair to ask individuals to solve environmental problems?',
-        'Should companies pay the full cost of disposing of their packaging?',
+    cue=(('Describe a campaign that asked people to change their '
+          'behaviour.'),
+         ['what it asked for',
+          'where you saw it',
+          'who it was aimed at',
+          'and explain whether it worked on you']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who paid for it?',
+        'Should it have been aimed elsewhere?',
+        'Is it fair to ask individuals to solve environmental problems?',
+        ('Should companies pay the full cost of disposing of their '
+         'packaging?'),
         'Why do you think campaigns focus on households and not industry?',
-        'Can a public habit be valuable even if its direct effect is small?'],
+        ('Can a public habit be valuable even if its direct effect is '
+         'small?')],
     shape=[('answer', 'Partly fair, and mostly a way of avoiding a harder '
             'conversation.'),
            ('support', 'Households are a small share of total waste.'),

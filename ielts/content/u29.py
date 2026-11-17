@@ -748,10 +748,20 @@ UNIT = dict(
            'worth publishing.',
            {0: 'Cost is not his objection to better headlines.', 2: 'Reader dislike is not what he reports.', 3: 'He argues from the chart, not from past attempts.'})])],
    speak=dict(
-    part='Part 3', focus='Headlines and what follows them',
-    intro=('Four or five sentences. Try once to group two things that behave '
-           'alike.'),
-    qs=['Do people read beyond the headline?',
+    part='Part 2 into Part 3', focus='Headlines and what follows them',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: four or five sentences. Try once to '
+           'group two things that behave alike.'),
+    cue=('Describe a news story you followed closely.',
+         ['what it was about',
+          'where you followed it',
+          'how long you followed it',
+          'and explain why it interested you']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did the reporting change over time?',
+        'Would you trust the same source again?',
+        'Do people read beyond the headline?',
         'Why do some stories spread much further than others?',
         'Should news organisations care how often a story is shared?',
         'Is local news important?'],
@@ -1079,7 +1089,7 @@ UNIT = dict(
            'of effort.',
            {0: 'Fact-checking is not what he singles out.', 2: 'Platform regulation is closer to what he recommends.', 3: 'Media literacy is not discussed in the lecture.'})])],
    speak=dict(
-    part='Part 3', focus='Correcting what people believe',
+    part='Part 2 into Part 3', focus='Correcting what people believe',
     followup=[('You say corrections do not work. Why not?',
                ('They work less well than people assume, and the reason is '
                 'that a correction is a second encounter with the claim. '
@@ -1101,9 +1111,19 @@ UNIT = dict(
                 'makes a company the judge of truth, which is why I would '
                 'regulate the process rather than the content: require them to '
                 'publish how ranking works and to be auditable on it.'))],
-    intro=('Four or five sentences. Try once to explain a mechanism rather '
-           'than assign blame.'),
-    qs=['Why do false stories spread so easily?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: four or five sentences. Try once to explain a '
+           'mechanism rather than assign blame.'),
+    cue=('Describe a rumour or a false story you heard.',
+         ['what it claimed',
+          'where you heard it',
+          'how it spread',
+          'and explain how you found out the truth']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was it ever corrected?',
+        'Do people still repeat it?',
+        'Why do false stories spread so easily?',
         'Do corrections work?',
         'Should people be taught how to check information?',
         'Whose responsibility is it to stop false information?'],

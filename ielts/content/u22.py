@@ -803,10 +803,20 @@ UNIT = dict(
            {0: 'Counting jobs lost is what he says has overshot.', 2: 'Training budgets are not his subject at all.', 3: 'Machine capability is the first two categories, not '
                'the policy.'})])],
    speak=dict(
-    part='Part 3', focus='Work that cannot be automated',
-    intro=('Four or five sentences. Try once to talk about tasks instead of '
-           'jobs.'),
-    qs=['Which jobs do you think machines will never do?',
+    part='Part 2 into Part 3', focus='Work that cannot be automated',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: four or five sentences. Try once to '
+           'talk about tasks instead of jobs.'),
+    cue=('Describe a job that needs patience with people.',
+         ['what the job is',
+          'who does it where you live',
+          'what the difficult part of it is',
+          'and explain why a machine could not do it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is it well paid where you live?',
+        'Would you do it?',
+        'Which jobs do you think machines will never do?',
         'Is it a problem if machines do more of the work?',
         'Should companies have to say when a machine makes a decision?',
         'What kind of work do people find most satisfying?'],
@@ -1114,7 +1124,7 @@ UNIT = dict(
            {0: 'Past and future is not the distinction he asks for.', 2: 'Machines against software is not the question he '
                'poses.', 3: 'Country coverage is not what he tells you to ask.'})])],
    speak=dict(
-    part='Part 3', focus='Predicting the effect of a technology',
+    part='Part 2 into Part 3', focus='Predicting the effect of a technology',
     followup=[(('You say we cannot predict which jobs go. Does history not '
                 'tell us anything?'),
                ('It tells us the shape and not the detail. Every previous wave '
@@ -1137,9 +1147,20 @@ UNIT = dict(
                 'changed is that the disruption now reaches people who '
                 'expected to be protected from it, and that is a different '
                 'claim from speed.'))],
-    intro=('Four or five sentences. Say once whether you are talking about a '
-           'total or about individuals.'),
-    qs=['Can we predict which jobs a new technology will replace?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: four or five sentences. Say once whether you are '
+           'talking about a total or about individuals.'),
+    cue=(('Describe a machine or a program that changed how you work or '
+          'study.'),
+         ['what it is',
+          'when you started using it',
+          'what it replaced',
+          'and explain what you gained and what you lost']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could you work without it now?',
+        'Who taught you to use it?',
+        'Can we predict which jobs a new technology will replace?',
         'Does history tell us anything useful about automation?',
         'Who should help workers whose jobs disappear?',
         'Is change at work faster now than in the past?'],
@@ -1591,7 +1612,7 @@ UNIT = dict(
            'Of the two remaining north rooms, the one next to the '
            'workshop.')])],
    speak=dict(
-    part='Part 3', focus='Who bears the cost of change',
+    part='Part 2 into Part 3', focus='Who bears the cost of change',
     sounds=[('A three-part list has its own rhythm: two items rising and the '
              'third falling, with the pause before the third slightly longer. '
              'Tasks, not jobs, and not whole careers.'),
@@ -1607,13 +1628,25 @@ UNIT = dict(
              'enumeration.'),
             ('Record yourself answering who should help displaced workers. '
              'Find your list, and check that the last item fell.')],
-    intro=('The hardest turn in the unit. Try to name the unit a claim is '
-           'about before you agree or disagree with it.'),
-    qs=['Who should pay when an industry closes?',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: the hardest turn in the unit. Try to '
+           'name the unit a claim is about before you agree or disagree '
+           'with it.'),
+    cue=(('Describe a place you know that lost an industry or a large '
+          'employer.'),
+         ['where it is',
+          'what the employer was',
+          'what happened to the place',
+          'and explain what is there now']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did people move away?',
+        'What would have helped most?',
+        'Who should pay when an industry closes?',
         'Is it reasonable to ask people to move for work?',
         'Do national statistics describe ordinary lives?',
-        'How should a government help a town that loses its main '
-        'employer?'],
+        ('How should a government help a town that loses its main '
+         'employer?')],
     shape=[('answer', 'Whoever gains from the change, which is usually '
             'everybody.'),
            ('support', 'The gains are spread thinly and the losses are '

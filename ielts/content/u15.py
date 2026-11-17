@@ -767,10 +767,20 @@ UNIT = dict(
            'source that failed ____________.', None, 'differently',
            'And names people the register never baptised.')])],
    speak=dict(
-    part='Part 3', focus='Evidence from the past',
-    intro=('Four or five sentences. Try once to distinguish a gap in the '
-           'record from a gap in the events.'),
-    qs=['How do we know what life was like in the past?',
+    part='Part 2 into Part 3', focus='Evidence from the past',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: four or five sentences. Try once to distinguish a '
+           'gap in the record from a gap in the events.'),
+    cue=('Describe an old photograph, letter or record you have seen.',
+         ['what it showed',
+          'where you saw it',
+          'how old it was',
+          'and explain what it told you']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who had kept it?',
+        'Would anybody keep the same thing today?',
+        'How do we know what life was like in the past?',
         'Are old documents reliable?',
         'Should ordinary people’s lives be recorded?',
         'What will survive from our own time?'],
@@ -1063,10 +1073,21 @@ UNIT = dict(
            'the size of a ____________.', None, 'silence',
            'Rather than merely complaining about it.')])],
    speak=dict(
-    part='Part 3', focus='Whose past gets recorded',
-    intro=('Four or five sentences. Try once to say why a source is '
-           'uneven rather than wrong.'),
-    qs=['Whose lives are best recorded in history?',
+    part='Part 2 into Part 3', focus='Whose past gets recorded',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: four or five sentences. Try once to '
+           'say why a source is uneven rather than wrong.'),
+    cue=(('Describe an ordinary person from the past you know something '
+          'about.'),
+         ['who they were',
+          'how you know about them',
+          'what their life was like',
+          'and explain what you would ask them']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is anything written down about them?',
+        'Who told you about them?',
+        'Whose lives are best recorded in history?',
         'Why do we know so little about ordinary people?',
         'Can we trust what old documents tell us?',
         'Should governments keep more records?'],

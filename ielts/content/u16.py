@@ -755,10 +755,22 @@ UNIT = dict(
            'cheaper ____________.', None, 'system',
            'Which he says are two different numbers.')])],
    speak=dict(
-    part='Part 3', focus='Changing how power is made',
-    intro=('Four or five sentences. Try once to say that a share and an '
-           'amount are different.'),
-    qs=['How has electricity generation changed in your country?',
+    part='Part 2 into Part 3', focus='Changing how power is made',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four or five '
+           'sentences. Try once to say that a share and an amount are '
+           'different.'),
+    cue=(('Describe a power station, a wind farm or a solar installation '
+          'you have seen.'),
+         ['where it is',
+          'what it looks like',
+          'when you first saw it',
+          'and explain what local people think of it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Has it changed the area?',
+        'Would you want one near you?',
+        'How has electricity generation changed in your country?',
         'Should countries move away from coal?',
         'Who should pay for new power stations?',
         'Is it realistic to use only renewable energy?'],
@@ -1045,10 +1057,20 @@ UNIT = dict(
            'most expensive ____________.', None, 'system',
            'Which he insists is not an argument against wind.')])],
    speak=dict(
-    part='Part 3', focus='Reliability and cost',
-    intro=('Four or five sentences. Try once to name a cost that a price '
-           'does not show.'),
-    qs=['Is it important for electricity to be reliable?',
+    part='Part 2 into Part 3', focus='Reliability and cost',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. Try '
+           'once to name a cost that a price does not show.'),
+    cue=('Describe a time when the electricity or the water was cut off.',
+         ['when it happened',
+          'how long it lasted',
+          'what you did',
+          'and explain what you missed most']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Were you told why?',
+        'Does it happen often where you live?',
+        'Is it important for electricity to be reliable?',
         'Who should pay for keeping power available?',
         'Can a country rely on wind and solar alone?',
         'How should countries decide between energy sources?'],
@@ -1323,7 +1345,7 @@ UNIT = dict(
                'means.', 2: 'Journals are where he says the careful figure already '
                'appears.', 3: 'Nuclear is not discussed by either engineer.'})])],
    speak=dict(
-    part='Part 3', focus='Paying for reliability',
+    part='Part 2 into Part 3', focus='Paying for reliability',
     sounds=[('Thirteen and thirty differ in stress, not in sound: thirTEEN '
              'rises at the end, THIRty falls. In a sentence about bills that '
              'distinction is worth real marks.'),
@@ -1339,9 +1361,19 @@ UNIT = dict(
              'collide and must be unmistakable.'),
             ('Record yourself reading five numbers from this unit, then listen '
              'the next day without the page and write down what you hear.')],
-    intro=('Five sentences. Try once to agree in one case and disagree '
-           'in another.'),
-    qs=['Is renewable energy now the cheapest option?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: five sentences. Try once to agree in one '
+           'case and disagree in another.'),
+    cue=('Describe something you did to use less energy at home.',
+         ['what you changed',
+          'why you changed it',
+          'what it cost you',
+          'and explain whether it made any difference']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you notice it on a bill?',
+        'Would you do more?',
+        'Is renewable energy now the cheapest option?',
         'Should price be the main consideration?',
         'Who should pay when the system needs backup?',
         'Will storage solve the problem?'],

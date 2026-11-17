@@ -772,10 +772,20 @@ UNIT = dict(
            'must explain all ____________ lines.', None, 'four',
            'Rather than only the ones that move one way.')])],
    speak=dict(
-    part='Part 3', focus='Languages and work',
-    intro=('Four or five sentences. Give a reason and then test it '
-           'once.'),
-    qs=['Why do fewer students study languages in some countries?',
+    part='Part 2 into Part 3', focus='Languages and work',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. Give a '
+           'reason and then test it once.'),
+    cue=('Describe a language you would like to learn.',
+         ['which language it is',
+          'why you chose that one',
+          'how you would go about learning it',
+          'and explain what you would use it for']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is it taught anywhere near you?',
+        'How long would you give yourself?',
+        'Why do fewer students study languages in some countries?',
         'Is English enough for international work?',
         'Should schools require a language?',
         'Which languages will matter most in twenty years?'],
@@ -1071,10 +1081,21 @@ UNIT = dict(
            {0: 'Speakers are who the claims are about, not who tests '
                'them.', 2: 'A finance ministry is the audience, not the test.', 3: 'Journalists are not mentioned in the lecture.'})])],
    speak=dict(
-    part='Part 3', focus='Small languages',
-    intro=('Four or five sentences. Try once to say what exactly is '
-           'lost.'),
-    qs=['Why do some languages disappear?',
+    part='Part 2 into Part 3', focus='Small languages',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four or five sentences. Try once to say '
+           'what exactly is lost.'),
+    cue=(('Describe a language or a dialect spoken by only a few people '
+          'you know.'),
+         ['what it is',
+          'who speaks it',
+          'where you have heard it',
+          'and explain what you think will happen to it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do younger people speak it?',
+        'Is it written down anywhere?',
+        'Why do some languages disappear?',
         'Does it matter when a language is lost?',
         'Should children be taught a local language at school?',
         'Can anything stop the process?'],
@@ -1352,7 +1373,7 @@ UNIT = dict(
            '____________ rather than about them.', None, 'community',
            'Because the recordings are what any revival must use.')])],
    speak=dict(
-    part='Part 3', focus='What is lost when a language goes',
+    part='Part 2 into Part 3', focus='What is lost when a language goes',
     sounds=[('A dark l at the end of a word is made with the back of the '
              'tongue: well, skill, careful. It is not a vowel, but it is much '
              'closer to one than the l in listen.'),
@@ -1368,10 +1389,19 @@ UNIT = dict(
             ('Record ninety seconds on a skill you learned, then listen only '
              'for words ending in l. Decide whether each one ended with the '
              'back of your tongue or with a vowel.')],
-    intro=('Five sentences. Try once to make a conditional claim and '
-           'then limit it.'),
-    qs=['Can a language be brought back once it has stopped being '
-        'spoken?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: five sentences. Try once to make a '
+           'conditional claim and then limit it.'),
+    cue=('Describe a word or an expression that is hard to translate.',
+         ['what it is',
+          'which language it comes from',
+          'what it means',
+          'and explain why it is hard to put into English']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Where did you learn it?',
+        'Do you use it yourself?',
+        'Can a language be brought back once it has stopped being spoken?',
         'Should governments pay for this?',
         'Is it enough to record a language?',
         'Who should decide what happens to a small language?'],

@@ -656,10 +656,20 @@ UNIT = dict(
            None, 'routes',
            'And worth mentioning first when describing a plan.')])],
    speak=dict(
-    part='Part 3', focus='Rebuilding part of a city',
-    intro=('Three or four sentences. Say what was gained and what was '
-           'lost.'),
-    qs=['Is it better to rebuild old areas or to build new ones?',
+    part='Part 2 into Part 3', focus='Rebuilding part of a city',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: three or four sentences. Say what was '
+           'gained and what was lost.'),
+    cue=('Describe a part of a town or a city that has been rebuilt.',
+         ['where it is',
+          'what was there before',
+          'what is there now',
+          'and explain what people think of the change']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you go there more often than you used to?',
+        'Who seems to have gained from it?',
+        'Is it better to rebuild old areas or to build new ones?',
         'Should old buildings be kept?',
         'Who should decide what gets built in a city?',
         'Do new developments help the people already living there?'],
@@ -947,10 +957,20 @@ UNIT = dict(
            {0: 'He says both directions, not one.', 2: 'He states the conclusion as uncomfortable, not '
                'comfortable.', 3: 'Three directions is more than he claims.'})])],
    speak=dict(
-    part='Part 3', focus='Making housing affordable',
-    intro=('Four sentences. Separate the cost of the building from the '
-           'cost of the land.'),
-    qs=['Why is housing so expensive in cities?',
+    part='Part 2 into Part 3', focus='Making housing affordable',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: four sentences. Separate the cost of '
+           'the building from the cost of the land.'),
+    cue=('Describe a home you would like to live in.',
+         ['where it would be',
+          'what it would be like',
+          'who you would live with',
+          'and explain how realistic it is for you']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'How far is that from where you live now?',
+        'What would have to change for it to happen?',
+        'Why is housing so expensive in cities?',
         'What could governments do about it?',
         'Should building be allowed on protected land?',
         'Is owning a home still realistic for young people?'],

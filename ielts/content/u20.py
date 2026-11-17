@@ -728,10 +728,20 @@ UNIT = dict(
            'rather than back to it.', None, 'above',
            'Reaching £780 million by 2025.')])],
    speak=dict(
-    part='Part 3', focus='Owning and renting music',
-    intro=('Four or five sentences. Say what changed before saying '
-           'whether it was good.'),
-    qs=['Do you own any music, or do you stream it?',
+    part='Part 2 into Part 3', focus='Owning and renting music',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: four or five sentences. Say what changed before '
+           'saying whether it was good.'),
+    cue=('Describe a recording you have kept for a long time.',
+         ['what it is',
+          'how you got it',
+          'how you listen to it now',
+          'and explain why you have kept it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could you find it online?',
+        'Would you miss it if it disappeared?',
+        'Do you own any music, or do you stream it?',
         'Is it better to own music or to have access to all of it?',
         'What is lost when people stop owning recordings?',
         'Will people pay for music in twenty years?'],
@@ -1026,10 +1036,20 @@ UNIT = dict(
            'a decline.', None, 'exchange',
            'And to count both sides of it.')])],
    speak=dict(
-    part='Part 3', focus='Live performance now',
-    intro=('Four or five sentences. Try once to name a gain and a loss '
-           'in the same answer.'),
-    qs=['Why do people still go to concerts?',
+    part='Part 2 into Part 3', focus='Live performance now',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: four or five sentences. Try once to '
+           'name a gain and a loss in the same answer.'),
+    cue=('Describe a live performance you went to.',
+         ['what it was',
+          'who you went with',
+          'what the place was like',
+          'and explain what you remember best']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you go again?',
+        'Was it better than a recording?',
+        'Why do people still go to concerts?',
         'Has recorded music harmed live performance?',
         'Do audiences expect too much from performers?',
         'Is it better to hear music live or recorded?'],
@@ -1447,7 +1467,7 @@ UNIT = dict(
            '____________ rather than the listener.', None, 'performer',
            'Which is the one thing she does not dispute.')])],
    speak=dict(
-    part='Part 3', focus='What we listen to when we listen',
+    part='Part 2 into Part 3', focus='What we listen to when we listen',
     sounds=[('Volume and clarity are not the same thing. Opening your mouth '
              'slightly wider does more for intelligibility than speaking '
              'louder, and it costs no effort at all.'),
@@ -1464,9 +1484,20 @@ UNIT = dict(
             ('Keep your first recording from Volume 1 and listen to it beside '
              'this week\'s. Improvement in fluency is almost invisible from one '
              'week to the next and obvious over six months.')],
-    intro=('Five sentences. This is the last Part 3 of the volume. Take '
-           'a position and give it a reason you actually hold.'),
-    qs=['Is a recording the same thing as a performance?',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: five sentences. '
+           'This is the last Part 3 of the volume. Take a position and '
+           'give it a reason you actually hold.'),
+    cue=('Describe a piece of music you know well.',
+         ['what it is',
+          'when you first heard it',
+          'when you listen to it',
+          'and explain what it does for you']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Have you heard it played live?',
+        'Do you know how it was recorded?',
+        'Is a recording the same thing as a performance?',
         'Should listeners be told how a recording was made?',
         'Do audiences expect perfection from live performers?',
         'What would you lose if all recordings disappeared?'],

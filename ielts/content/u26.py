@@ -767,9 +767,20 @@ UNIT = dict(
            {0: 'The peak share is published monthly but not reported '
                'as a cost.', 2: 'He says it is the figure nobody reports.', 3: 'He treats the monthly figures as reliable.'})])],
    speak=dict(
-    part='Part 3', focus='What tourism is worth',
-    intro=('Four or five sentences. Try once to replace a total with a rate.'),
-    qs=['How should a country measure the value of tourism?',
+    part='Part 2 into Part 3', focus='What tourism is worth',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. Try '
+           'once to replace a total with a rate.'),
+    cue=('Describe a place near you that visitors come to see.',
+         ['where it is',
+          'what brings people there',
+          'how busy it gets',
+          'and explain what the town gets from it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you send a friend there?',
+        'Who works there?',
+        'How should a country measure the value of tourism?',
         'Is it better to have more visitors or richer visitors?',
         'Should governments try to spread tourism across the year?',
         'Who should decide how many visitors a place can take?'],
@@ -1080,7 +1091,7 @@ UNIT = dict(
            {0: 'He says explicitly that this is not his conclusion.', 2: 'Taxation is the fourth town\u2019s instrument, not his '
                'conclusion.', 3: 'Document length is not what he recommends changing.'})])],
    speak=dict(
-    part='Part 3', focus='Who benefits from visitors',
+    part='Part 2 into Part 3', focus='Who benefits from visitors',
     followup=[(('You say local people should have a say. What if they simply '
                 'object to everything?'),
                ('Then you have learned something, and it is usually not what '
@@ -1104,9 +1115,19 @@ UNIT = dict(
                 'charge that pays for the buses, the lavatories and the path '
                 'repairs can be defended to everybody, and it is also the '
                 'honest description of what it is for.'))],
-    intro=('Four or five sentences. Try once to distinguish a total from a '
-           'share.'),
-    qs=['Who benefits most when a place becomes popular with visitors?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four or five sentences. Try once to '
+           'distinguish a total from a share.'),
+    cue=('Describe somebody you know whose work depends on visitors.',
+         ['who they are',
+          'what they do',
+          'when their busy season is',
+          'and explain how they manage the rest of the year']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do they want more visitors?',
+        'Is the work secure?',
+        'Who benefits most when a place becomes popular with visitors?',
         'Should local people have a say in how tourism develops?',
         'Is it better for hotels to be locally owned?',
         'Should visitors pay a tax?'],
@@ -1405,7 +1426,7 @@ UNIT = dict(
            {0: 'Cost is discussed, in the enforcement exchange.', 2: 'Legal challenge is not mentioned by either.', 3: 'Measurement is his criticism of her cap, not the third '
                'problem.'})])],
    speak=dict(
-    part='Part 3', focus='Limits and what they move',
+    part='Part 2 into Part 3', focus='Limits and what they move',
     sounds=[('Compound nouns stress the first word: a VISitor centre, a CAR '
              'park, a HOTel tax. Adjective and noun stress the second: a local '
              'HOtel, a popular PLACE.'),
@@ -1419,9 +1440,21 @@ UNIT = dict(
              'one thing. If they have, the stress moves to the front.'),
             ('Record yourself on who benefits from visitors. Find every two- '
              'word noun you used and check which half you stressed.')],
-    intro=('The hardest turn in the unit. Try once to say that a rule moved '
-           'a problem rather than reducing it.'),
-    qs=['Do limits on visitor numbers work?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: the hardest turn in the unit. Try '
+           'once to say that a rule moved a problem rather than reducing '
+           'it.'),
+    cue=(('Describe a time you could not get into somewhere because it was '
+          'full.'),
+         ['where it was',
+          'when you went',
+          'what you did instead',
+          'and explain how you felt about it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Should they limit the numbers?',
+        'Did you go back?',
+        'Do limits on visitor numbers work?',
         'What happens to demand when one place restricts it?',
         'Should neighbouring towns agree their rules together?',
         'Is a tax better than a limit?'],

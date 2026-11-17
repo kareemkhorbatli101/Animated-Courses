@@ -652,10 +652,20 @@ UNIT = dict(
           ('What does he say is the only cost of the approach?', None,
            'the advertising', 'No new roads or car parks are needed.')])],
    speak=dict(
-    part='Part 3', focus='Spreading visitors through the year',
-    intro=('Three or four sentences. Name a cost that is not '
-           'obvious.'),
-    qs=['Why do most people travel at the same time of year?',
+    part='Part 2 into Part 3', focus='Spreading visitors through the year',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: three or four sentences. Name a cost '
+           'that is not obvious.'),
+    cue=('Describe a place you visited outside the busy season.',
+         ['where you went',
+          'when you went',
+          'what it was like then',
+          'and explain whether you would go at that time again']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was anything closed while you were there?',
+        'Do many people go at that time of year?',
+        'Why do most people travel at the same time of year?',
         'How could towns attract visitors outside the summer?',
         'Is seasonal work a problem?',
         'Should prices be higher in the busiest season?'],
@@ -928,9 +938,20 @@ UNIT = dict(
            {0: 'Which visitors is one of the three answerable '
                'questions.', 1: 'Which months is also answerable, he says.', 3: 'Housing is the third question he says has an answer.'})])],
    speak=dict(
-    part='Part 3', focus='Who gains from tourism',
-    intro=('Four sentences. Say who gains and who pays.'),
-    qs=['Who benefits most from tourism in a town?',
+    part='Part 2 into Part 3', focus='Who gains from tourism',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four sentences. '
+           'Say who gains and who pays.'),
+    cue=('Describe a shop, a cafe or a business that depends on visitors.',
+         ['what it is and where it is',
+          'who its customers are',
+          'what it is like in the quiet months',
+          'and explain how it survives the year']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do the people who run it live locally?',
+        'Would the town be different without it?',
+        'Who benefits most from tourism in a town?',
         'Should local people get priority for housing?',
         'Is seasonal work worth having?',
         'How should tourism money be spent?'],
@@ -1180,7 +1201,7 @@ UNIT = dict(
            'the study.', None, 'four',
            'Including her own town, she says.')])],
    speak=dict(
-    part='Part 3', focus='Rules that change behaviour',
+    part='Part 2 into Part 3', focus='Rules that change behaviour',
     sounds=[('Contrastive stress puts the strong syllable on the word that '
              'carries the difference: I did not say the tax was unfair, I said '
              'it was badly designed. Move the stress and the sentence means '
@@ -1197,8 +1218,20 @@ UNIT = dict(
             ('Record yourself answering whether visitors should pay to enter '
              'popular places. Listen for one sentence where the stress landed '
              'on the wrong word, and say that sentence again.')],
-    intro=('Four or five sentences. Compare forbidding with pricing.'),
-    qs=['Do rules or prices change behaviour more effectively?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. '
+           'Compare forbidding with pricing.'),
+    cue=(('Describe a rule that visitors have to follow somewhere you '
+          'know.'),
+         ['where it applies',
+          'what the rule is',
+          'why it was introduced',
+          'and explain whether people follow it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who enforces it?',
+        'Would a charge work better than a rule?',
+        'Do rules or prices change behaviour more effectively?',
         'Should visitors pay a tax to enter popular places?',
         'What happens when one town restricts something?',
         'Who should decide these rules?'],

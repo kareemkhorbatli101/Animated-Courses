@@ -838,10 +838,21 @@ UNIT = dict(
            None, 'value',
            'A small population while appearing to describe everybody.')])],
    speak=dict(
-    part='Part 3', focus='Art as an investment',
-    intro=('Four or five sentences. Where a question invites a number, say '
-           'what the number would have to be weighted by.'),
-    qs=['Should works of art be treated as investments?',
+    part='Part 2 into Part 3', focus='Art as an investment',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: four or five sentences. Where a '
+           'question invites a number, say what the number would have to '
+           'be weighted by.'),
+    cue=('Describe something you own that has gone up or down in value.',
+         ['what it is',
+          'how you came to have it',
+          'what it is worth now',
+          'and explain whether that matters to you']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you sell it?',
+        'Who decides what it is worth?',
+        'Should works of art be treated as investments?',
         'Does it matter who owns a famous painting?',
         'Should governments stop important works leaving the country?',
         'Is it possible to measure the value of art?'],
@@ -1173,7 +1184,7 @@ UNIT = dict(
            'Somewhere to write that you are not sure without it being '
            'an accusation.')])],
    speak=dict(
-    part='Part 3', focus='What changes when the author changes',
+    part='Part 2 into Part 3', focus='What changes when the author changes',
     followup=[(('You would display the forgery. Does it matter who painted a '
                 'picture you enjoy?'),
                ('For the enjoyment, apparently not, since people who loved a '
@@ -1194,9 +1205,21 @@ UNIT = dict(
                 'have also authenticated a long series of fakes with complete '
                 'confidence. So I would treat the eye as a reason to '
                 'investigate and never as the finding itself.'))],
-    intro=('Four or five sentences. Try once to separate what you believe '
-           'from what you can defend.'),
-    qs=['Should a museum display a work known to be a forgery?',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four or five '
+           'sentences. Try once to separate what you believe from what you '
+           'can defend.'),
+    cue=(('Describe a copy or a reproduction of something famous that you '
+          'have seen.'),
+         ['what it was',
+          'where you saw it',
+          'how close to the original it was',
+          'and explain how you felt looking at it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would the original have felt different?',
+        'Was it presented as a copy?',
+        'Should a museum display a work known to be a forgery?',
         'Does it matter who painted a picture you enjoy?',
         'Why do you think people react so strongly to forgeries?',
         'Can an expert’s judgement be trusted without evidence?'],

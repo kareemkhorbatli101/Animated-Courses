@@ -774,10 +774,20 @@ UNIT = dict(
            'twenty-four',
            'A number in a policy document rather than in his code.')])],
    speak=dict(
-    part='Part 3', focus='Being predicted',
-    intro=('Four or five sentences. Try once to distinguish what was given '
-           'from what was guessed.'),
-    qs=['How do websites decide what to show you?',
+    part='Part 2 into Part 3', focus='Being predicted',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: four or five sentences. Try once to '
+           'distinguish what was given from what was guessed.'),
+    cue=('Describe something you were recommended online that you liked.',
+         ['what it was',
+          'where the recommendation came from',
+          'why you took it',
+          'and explain whether you would have found it otherwise']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'How do you think it was chosen for you?',
+        'Do you usually follow suggestions like that?',
+        'How do websites decide what to show you?',
         'Is it a problem if a company guesses things about you?',
         'Should people be told what has been guessed about them?',
         'Do recommendations make choices easier or narrower?'],
@@ -1109,7 +1119,7 @@ UNIT = dict(
            'less ____________.', None, 'useful',
            'And the lecturer says they are not being unreasonable.')])],
    speak=dict(
-    part='Part 3', focus='Data that cannot be taken back',
+    part='Part 2 into Part 3', focus='Data that cannot be taken back',
     followup=[(('You say data cannot be made completely anonymous. Is that not '
                 'an argument against all research use?'),
                ('No, because the alternative also has a cost, and it is paid '
@@ -1130,9 +1140,21 @@ UNIT = dict(
                 'second and deleted only where you know it is, so a decision '
                 'to release has to be taken as though it were permanent, '
                 'because for everybody affected it is.'))],
-    intro=('Four or five sentences. Try once to say that a property depends '
-           'on something outside the thing itself.'),
-    qs=['Can information about people ever be made completely anonymous?',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four or five '
+           'sentences. Try once to say that a property depends on '
+           'something outside the thing itself.'),
+    cue=(('Describe a form you had to fill in with a lot of personal '
+          'information.'),
+         ['what it was for',
+          'what it asked you',
+          'who you gave it to',
+          'and explain how you felt about handing it over']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Were you told what would happen to it?',
+        'Could you have refused?',
+        'Can information about people ever be made completely anonymous?',
         'Should researchers be given access to medical records?',
         'Who should decide what data is published?',
         'Is it possible to undo a release of information?'],

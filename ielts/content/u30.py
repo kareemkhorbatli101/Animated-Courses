@@ -774,10 +774,20 @@ UNIT = dict(
            'fixed',
            'Which is invisible in any single one of the three visuals.')])],
    speak=dict(
-    part='Part 3', focus='Money in sport',
-    intro=('Four or five sentences. Try once to distinguish an amount from a '
-           'share.'),
-    qs=['Where does the money in professional sport come from?',
+    part='Part 2 into Part 3', focus='Money in sport',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: four or five sentences. Try once to '
+           'distinguish an amount from a share.'),
+    cue=('Describe a sports club or a team you support or know about.',
+         ['which club it is',
+          'where it plays',
+          'who pays for it',
+          'and explain what it means to the area']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Has its ownership changed?',
+        'Do local people go?',
+        'Where does the money in professional sport come from?',
         'Is it a problem if clubs depend on television money?',
         'Should clubs be allowed to spend all their income on wages?',
         'Who should own a sports club?'],
@@ -1113,7 +1123,7 @@ UNIT = dict(
            {0: 'He says nobody has demonstrated where it lies.', 2: 'He accepts that flattening has real costs, so not '
                'zero.', 3: 'He says it is unlikely to be the same for every sport.'})])],
    speak=dict(
-    part='Part 3', focus='Winning and how it is rewarded',
+    part='Part 2 into Part 3', focus='Winning and how it is rewarded',
     followup=[(('You say athletes break the rules because of the rewards. '
                 'Would sharing prize money help?'),
                ('A little, and less than you would hope. Flattening the prizes '
@@ -1136,9 +1146,20 @@ UNIT = dict(
                 'memory. Frequent, routine, well-funded testing with quick '
                 'results does less for the news and much more for the honesty '
                 'of the sport.'))],
-    intro=('Four or five sentences. Try once to explain a behaviour by an '
-           'incentive rather than by a character.'),
-    qs=['Why do some athletes break the rules?',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four or five '
+           'sentences. Try once to explain a behaviour by an incentive '
+           'rather than by a character.'),
+    cue=('Describe a competition you took part in.',
+         ['what it was',
+          'when it was',
+          'how you prepared for it',
+          'and explain how you did']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was it fairly judged?',
+        'Would you enter again?',
+        'Why do some athletes break the rules?',
         'Should prize money be shared more evenly?',
         'Does money make sport better or worse to watch?',
         'How should a sport deal with cheating?'],
@@ -1427,7 +1448,7 @@ UNIT = dict(
            1, 'Which she calls the honest position.',
            {0: 'Lawfulness is not the obstacle she names.', 2: 'She says insolvency has fallen under her rule.', 3: 'Broadcasters are not mentioned as an obstacle.'})])],
    speak=dict(
-    part='Part 3', focus='Fairness in competition',
+    part='Part 2 into Part 3', focus='Fairness in competition',
     sounds=[('A two-minute long turn loses energy somewhere around the ninety- '
              'second mark, and the drop is audible: the pitch narrows, the '
              'pace rises and the endings go.'),
@@ -1443,9 +1464,20 @@ UNIT = dict(
             ('Record two long turns a week apart and compare only the final '
              'fifteen seconds of each. That is where the band is decided and '
              'the part nobody rehearses.')],
-    intro=('The last Part 3 of the volume. Try once to separate what a rule '
-           'achieved from what it was sold on.'),
-    qs=['Can rules make sporting competition fairer?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: the last Part 3 of the volume. '
+           'Try once to separate what a rule achieved from what it was '
+           'sold on.'),
+    cue=('Describe a match or a contest that was decided unfairly.',
+         ['what the event was',
+          'what happened',
+          'who was affected',
+          'and explain what should have been done']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was the result changed?',
+        'Do the rules prevent it now?',
+        'Can rules make sporting competition fairer?',
         'Should richer clubs share their income?',
         'Has money ruined professional sport?',
         'What makes a competition worth watching?'],

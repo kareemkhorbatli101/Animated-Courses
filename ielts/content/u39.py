@@ -840,10 +840,21 @@ UNIT = dict(
            {0: 'Registering an address is where arrivals are already '
                'counted.', 2: 'Passports are not mentioned in the lecture.', 3: 'School enrolment is an arrival, not a departure.'})])],
    speak=dict(
-    part='Part 3', focus='Why people move',
-    intro=('Four or five sentences. Where you use a figure, say what it '
-           'measures.'),
-    qs=['Why do people move from one part of a country to another?',
+    part='Part 2 into Part 3', focus='Why people move',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: four or five sentences. Where you use a figure, '
+           'say what it measures.'),
+    cue=(('Describe somebody you know who moved to another town or '
+          'country.'),
+         ['who they are',
+          'where they moved from and to',
+          'why they moved',
+          'and explain how the move worked out']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do they plan to go back?',
+        'What did they find hardest?',
+        'Why do people move from one part of a country to another?',
         'Should governments try to influence where people live?',
         'What are the effects on the places people leave?',
         'Is it better to grow up in one place or in several?'],
@@ -1178,7 +1189,7 @@ UNIT = dict(
            'changes.',
            {0: 'Wages are the best-measured channel.', 2: 'Long-run effects are his earlier point about time.', 3: 'Measurement error is not the gap he identifies.'})])],
    speak=dict(
-    part='Part 3', focus='Work and newcomers',
+    part='Part 2 into Part 3', focus='Work and newcomers',
     followup=[(('You say the wage effect is small. Who benefits most when a '
                 'population grows?'),
                ('Owners of things that cannot be added to quickly, which in '
@@ -1200,13 +1211,23 @@ UNIT = dict(
                 'national average is fine, and it is fixed with capacity. '
                 'Telling somebody the aggregate data disagrees with their '
                 'waiting list is not an answer.'))],
-    intro=('Four or five sentences. Try to distinguish an average from a '
-           'distribution at least once.'),
-    qs=['Does immigration affect the wages of local workers?',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: four or five sentences. Try to '
+           'distinguish an average from a distribution at least once.'),
+    cue=('Describe a place where you were the newcomer.',
+         ['where it was',
+          'why you were there',
+          'how you were received',
+          'and explain how long it took you to settle']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who helped you most?',
+        'What would have made it easier?',
+        'Does immigration affect the wages of local workers?',
         'Who benefits most when a country’s population grows?',
         'Should a country choose which skills it admits?',
-        'How should governments respond to people who feel they have '
-        'lost out?'],
+        ('How should governments respond to people who feel they have lost '
+         'out?')],
     shape=[('answer', 'On average very little, and that is not the whole '
             'answer.'),
            ('support', 'An average hides who gained and who lost within '

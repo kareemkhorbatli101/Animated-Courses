@@ -841,10 +841,21 @@ UNIT = dict(
            'Many defensible analyses exist, and choosing after seeing '
            'the answers means running many studies.')])],
    speak=dict(
-    part='Part 3', focus='Showing that something works',
-    intro=('Four or five sentences. Try to use one of the unit’s '
-           'distinctions precisely instead of gesturing at it.'),
-    qs=['How can we tell whether a medicine really works?',
+    part='Part 2 into Part 3', focus='Showing that something works',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. Try to '
+           'use one of the unit’s distinctions precisely instead of '
+           'gesturing at it.'),
+    cue=('Describe a time you tried something to see whether it worked.',
+         ['what you tried',
+          'why you tried it',
+          'how you judged the result',
+          'and explain what you concluded']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could something else explain the result?',
+        'Would you test it differently now?',
+        'How can we tell whether a medicine really works?',
         'Is it fair to give some people a dummy treatment?',
         'Should people be paid to take part in experiments?',
         'Can everything important be tested this way?'],
@@ -1168,7 +1179,7 @@ UNIT = dict(
            '2015.',
            {0: 'Audits and sanctions are the remedy for dishonesty.', 2: 'Fewer studies is not what he recommends.', 3: 'Replication projects are what revealed the problem.'})])],
    speak=dict(
-    part='Part 3', focus='Trusting a published result',
+    part='Part 2 into Part 3', focus='Trusting a published result',
     followup=[(('You say we should not believe a result first time. Who should '
                 'check published research?'),
                ('Somebody paid to, which is nobody at present. Replication is '
@@ -1191,14 +1202,25 @@ UNIT = dict(
                 'themselves, and the profession rewarded them, eventually. The '
                 'worst response is a defence of the original on grounds nobody '
                 'can test.'))],
-    intro=('Four or five sentences. Say once what you would need to know '
-           'before believing a result.'),
-    qs=['Should we believe a scientific result the first time it is '
-        'published?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four or five sentences. Say once what you '
+           'would need to know before believing a result.'),
+    cue=('Describe a claim you have heard repeated often.',
+         ['what the claim is',
+          'where you first heard it',
+          'who repeats it',
+          'and explain whether you think it is true']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Have you ever checked it?',
+        'Where would you look?',
+        ('Should we believe a scientific result the first time it is '
+         'published?'),
         'Who should check that published research is correct?',
-        'Does it matter if a result turns out to be smaller than reported?',
-        'How should scientists respond when their work does not '
-        'replicate?'],
+        ('Does it matter if a result turns out to be smaller than '
+         'reported?'),
+        ('How should scientists respond when their work does not '
+         'replicate?')],
     shape=[('answer', 'Not on its own, no, however good the study looks.'),
            ('support', 'A single result is drawn from a literature filtered '
             'on results.'),
@@ -1503,7 +1525,7 @@ UNIT = dict(
            1, 'And that neither of them can get it funded.',
            {0: 'No retraction is needed, since no error was found.', 2: 'No meta-analysis is proposed.', 3: 'A new measure is not what they call for.'})])],
    speak=dict(
-    part='Part 3', focus='How a field corrects itself',
+    part='Part 2 into Part 3', focus='How a field corrects itself',
     sounds=[('Academic reporting language has a rhythm of its own, and it is '
              'flatter than ordinary speech: the effect was smaller than '
              'reported takes one real stress, on smaller.'),
@@ -1520,9 +1542,19 @@ UNIT = dict(
             ('Record yourself on whether to believe a result first time. '
              'Listen for a sentence where uncertainty in the content became '
              'uncertainty in the delivery.')],
-    intro=('The hardest turn in the unit. Try to hold two claims at once and '
-           'say that you are doing so.'),
-    qs=['How should a field deal with results that do not hold up?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: the hardest turn in the unit. Try to '
+           'hold two claims at once and say that you are doing so.'),
+    cue=('Describe a mistake that was put right.',
+         ['what the mistake was',
+          'who noticed it',
+          'what was done about it',
+          'and explain what difference it made']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was anybody blamed?',
+        'Could it happen again?',
+        'How should a field deal with results that do not hold up?',
         'Is it a weakness or a strength when science corrects itself?',
         'Who should pay for studies that check other studies?',
         'Can the public be expected to follow these arguments?'],

@@ -752,10 +752,20 @@ UNIT = dict(
            'evening in January.',
            {0: 'He says generating the energy is not the hard part.', 1: 'Wires are not what he names as the difficulty.', 3: 'Cost is not his answer to the question.'})])],
    speak=dict(
-    part='Part 3', focus='Keeping the lights on',
-    intro=('Four or five sentences. These questions invite speculation; mark '
-           'clearly where you are speculating.'),
-    qs=['How important is it that electricity is always available?',
+    part='Part 2 into Part 3', focus='Keeping the lights on',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four or five sentences. These questions '
+           'invite speculation; mark clearly where you are speculating.'),
+    cue=('Describe something you depend on electricity for.',
+         ['what it is',
+          'how often you use it',
+          'what you would do without it',
+          'and explain how much it would matter']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Have you ever had to do without it?',
+        'Could you manage for a whole day?',
+        'How important is it that electricity is always available?',
         'Should people be paid to use less electricity at busy times?',
         'Who should be responsible when the power fails?',
         'Do you think people understand how the electricity system works?'],
@@ -1081,7 +1091,7 @@ UNIT = dict(
            'misleads.',
            {0: 'He says explicitly that it is not the technology.', 2: 'The regulator is not part of his answer.', 3: 'Cost per kilowatt-hour is the figure he says misleads.'})])],
    speak=dict(
-    part='Part 3', focus='Reliability in a renewable system',
+    part='Part 2 into Part 3', focus='Reliability in a renewable system',
     followup=[(('You say shortages are possible. Is it reasonable to expect '
                 'electricity at all times?'),
                ('It is reasonable to expect it for the things that matter and '
@@ -1104,13 +1114,25 @@ UNIT = dict(
                 'The error to avoid is the one that looks decisive: picking '
                 'the winning technology early and discovering in fifteen years '
                 'that the subsidy went to the wrong one.'))],
-    intro=('Four or five sentences. Try to distinguish once between two '
-           'things a single word is covering.'),
-    qs=['Can a country run entirely on renewable energy?',
-        'Is it reasonable to expect electricity to be available at all '
-        'times?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: four or five sentences. Try to '
+           'distinguish once between two things a single word is covering.'),
+    cue=(('Describe a time you had to wait for something to become '
+          'available.'),
+         ['what it was',
+          'how long you waited',
+          'why it was not available',
+          'and explain how you dealt with the wait']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Were you told how long it would be?',
+        'Would you accept that regularly?',
+        'Can a country run entirely on renewable energy?',
+        ('Is it reasonable to expect electricity to be available at all '
+         'times?'),
         'Should people accept occasional shortages to reduce emissions?',
-        'What should a government do about a problem with no solution yet?'],
+        ('What should a government do about a problem with no solution '
+         'yet?')],
     shape=[('answer', 'It depends which part of the problem you mean.'),
            ('support', 'Covering an evening is largely solved now.'),
            ('follow-up', 'Covering a still fortnight in January is not.'),
@@ -1418,7 +1440,7 @@ UNIT = dict(
            'something.',
            {0: 'The gas price is an input to the measure.', 2: 'Future technology is not what he says it omits.', 3: 'Subsidy levels are not his point.'})])],
    speak=dict(
-    part='Part 3', focus='Comparing costs honestly',
+    part='Part 2 into Part 3', focus='Comparing costs honestly',
     sounds=[('Units and their numbers form one chunk: a hundred and twenty '
              'kilowatt hours, four pence a unit. The unit word is unstressed '
              'and the figure is not.'),
@@ -1434,11 +1456,22 @@ UNIT = dict(
             ('Record yourself on whether a country can run on renewables. '
              'Listen only for your technical vocabulary and check the strong '
              'syllable in each word.')],
-    intro=('The hardest turn in the unit. Say once what a figure you are '
-           'using does not include.'),
-    qs=['Why do you think simple figures are so often quoted?',
-        'Should journalists be required to explain what a statistic '
-        'excludes?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: the hardest turn in the unit. Say once what a '
+           'figure you are using does not include.'),
+    cue=(('Describe a time you compared two prices before buying '
+          'something.'),
+         ['what you were buying',
+          'what you compared',
+          'what you decided',
+          'and explain whether the cheaper one was really cheaper']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What did the price leave out?',
+        'Would you decide the same way now?',
+        'Why do you think simple figures are so often quoted?',
+        ('Should journalists be required to explain what a statistic '
+         'excludes?'),
         'Is it possible to compare two very different things fairly?',
         'How should a government decide between energy technologies?'],
     shape=[('answer', 'Because a simple figure is the only kind that '

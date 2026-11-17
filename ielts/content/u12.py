@@ -778,14 +778,25 @@ UNIT = dict(
                'look for.', 2: 'The year is given; it is the total that is missing.', 3: 'He asks for the total behind the shares, not the '
                'sample.'})])],
    speak=dict(
-    part='Part 3', focus='Necessities and luxuries',
-    intro=('Four or five sentences. Give a reason and then an example of '
-           'it.'),
-    qs=['What would you call a necessity rather than a luxury?',
+    part='Part 2 into Part 3', focus='Necessities and luxuries',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four or five sentences. Give a reason and '
+           'then an example of it.'),
+    cue=(('Describe something you own that other people might call a '
+          'luxury.'),
+         ['what it is',
+          'when you got it',
+          'how often you use it',
+          'and explain why it matters to you']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you call it a necessity?',
+        'Did your parents have one?',
+        'What would you call a necessity rather than a luxury?',
         'Has that changed since your parents were young?',
         'Should necessities be cheaper for people on low incomes?',
-        'Do people in your country spend more than they used to on '
-        'leisure?'],
+        ('Do people in your country spend more than they used to on '
+         'leisure?')],
     shape=[('answer', 'An internet connection, which my parents would '
             'have called a luxury.'),
            ('support', 'You cannot apply for most jobs without one '
@@ -1084,10 +1095,20 @@ UNIT = dict(
            '____________.', None, 'this week',
            'A standard the shop did not choose.')])],
    speak=dict(
-    part='Part 3', focus='Advertising and choice',
-    intro=('Four or five sentences. Try once to describe a mechanism '
-           'rather than an opinion.'),
-    qs=['Does advertising change what people buy?',
+    part='Part 2 into Part 3', focus='Advertising and choice',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: four or five sentences. Try once to '
+           'describe a mechanism rather than an opinion.'),
+    cue=('Describe an advertisement you remember.',
+         ['where you saw it',
+          'what it was for',
+          'what it showed',
+          'and explain why you remember it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did it make you buy anything?',
+        'Would it work on a child?',
+        'Does advertising change what people buy?',
         'Are some kinds of advertising unfair?',
         'Should there be limits on advertising to children?',
         'Can people learn to ignore it?'],
@@ -1438,7 +1459,7 @@ UNIT = dict(
            'Says what was done should be published on the form itself.',
            None, 'B', 'Not in a journal paper, the speaker says.')])],
    speak=dict(
-    part='Part 3', focus='Changing behaviour without rules',
+    part='Part 2 into Part 3', focus='Changing behaviour without rules',
     sounds=[('The two th sounds are different: thing, think and both are '
              'voiceless, while this, that and they are voiced. Put your hand '
              'on your throat and you will feel the second group buzz.'),
@@ -1455,10 +1476,20 @@ UNIT = dict(
             ('Record thirty seconds on saving money. Count the th sounds you '
              'replaced with s, t or d, and say those words again inside their '
              'phrases.')],
-    intro=('Five sentences. Try once to say that something is true and '
-           'does not settle the question.'),
-    qs=['Should governments try to change behaviour without passing '
-        'laws?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: five sentences. Try once to say that something is '
+           'true and does not settle the question.'),
+    cue=(('Describe a habit of yours that changed without you deciding to '
+          'change it.'),
+         ['what the habit was',
+          'what you do instead now',
+          'what you think caused the change',
+          'and explain whether you are glad it changed']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did anybody suggest the change?',
+        'Could a rule have done the same thing?',
+        'Should governments try to change behaviour without passing laws?',
         'Is it fair to influence people without telling them?',
         'Which works better, a law or a small change to a form?',
         'Who should decide what behaviour is encouraged?'],

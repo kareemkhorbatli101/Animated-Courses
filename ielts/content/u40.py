@@ -778,10 +778,21 @@ UNIT = dict(
            {0: 'The weights are learned from the historical records.', 1: 'The score comes out of the model itself.', 3: 'The input data is supplied by the case and the '
                'records.'})])],
    speak=dict(
-    part='Part 3', focus='Explaining a decision',
-    intro=('Four or five sentences. Try to use the model-threshold-policy '
-           'distinction at least once.'),
-    qs=['Should organisations have to explain how a decision was made?',
+    part='Part 2 into Part 3', focus='Explaining a decision',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four or five '
+           'sentences. Try to use the model-threshold-policy distinction '
+           'at least once.'),
+    cue=('Describe a decision about you that you wanted explained.',
+         ['what the decision was',
+          'who made it',
+          'what you were told at the time',
+          'and explain what you did about it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you ever get an explanation?',
+        'Would it have changed anything?',
+        'Should organisations have to explain how a decision was made?',
         'How much explanation is enough?',
         'Who should be responsible when an automated decision is wrong?',
         'Would you trust a decision you could not have explained to you?'],
@@ -1110,7 +1121,7 @@ UNIT = dict(
            'A system calibrated on one division will generally fail on '
            'another.')])],
    speak=dict(
-    part='Part 3', focus='Fair decisions',
+    part='Part 2 into Part 3', focus='Fair decisions',
     followup=[(('You say the decision should be explainable. Should the public '
                 'be involved in choices like this?'),
                ('In setting what the system is for, yes. The public is good at '
@@ -1131,9 +1142,20 @@ UNIT = dict(
                 'definitions, and it has been proved that you cannot satisfy '
                 'them together. So the measurement is possible once somebody '
                 'chooses, and the choice is political.'))],
-    intro=('Four or five sentences. Say once what you mean by a word before '
-           'arguing with it.'),
-    qs=['What makes a decision fair?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. Say '
+           'once what you mean by a word before arguing with it.'),
+    cue=(('Describe a selection or an application process you went '
+          'through.'),
+         ['what it was for',
+          'what the stages were',
+          'how you were judged',
+          'and explain whether it seemed fair']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was the result explained to you?',
+        'How would you improve it?',
+        'What makes a decision fair?',
         'Should the public be involved in choices like this?',
         'Is a consistent decision necessarily a fair one?',
         'Can fairness ever be measured?'],
@@ -1463,7 +1485,7 @@ UNIT = dict(
            'Criterion, threshold and who may move it, training date, '
            'and review authority.')])],
    speak=dict(
-    part='Part 3', focus='Accountability for machines',
+    part='Part 2 into Part 3', focus='Accountability for machines',
     sounds=[('Abstract nouns in this unit are long and front-loaded or not at '
              'all: ACcountability is stressed in the middle, transPARency in '
              'the middle, AUtonomy on the second. Learn each one as a shape.'),
@@ -1478,9 +1500,21 @@ UNIT = dict(
              'unintelligible.'),
             ('Record yourself on what makes a decision fair. Find the longest '
              'noun phrase you produced and say it again as two chunks.')],
-    intro=('The last Part 3 of the volume. Hold a position, concede '
-           'something real, and say what would change your mind.'),
-    qs=['Who should be accountable when an automated system causes harm?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: the last Part 3 of the volume. Hold a '
+           'position, concede something real, and say what would change '
+           'your mind.'),
+    cue=(('Describe something that went wrong with a machine or a service '
+          'you use.'),
+         ['what happened',
+          'who you contacted',
+          'what they said',
+          'and explain how it was resolved']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who turned out to be responsible?',
+        'Was anything changed afterwards?',
+        'Who should be accountable when an automated system causes harm?',
         'Is independent inspection of these systems possible?',
         'Should companies publish how their systems work?',
         'Will regulation ever keep up with technology?'],

@@ -784,10 +784,20 @@ UNIT = dict(
            'Which makes a choice between two subjects a decision about '
            'a small difference.')])],
    speak=dict(
-    part='Part 3', focus='Education and work',
-    intro=('Four or five sentences. Where you use a figure, say what it is an '
-           'average of.'),
-    qs=['Is a university degree still worth the cost?',
+    part='Part 2 into Part 3', focus='Education and work',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. Where '
+           'you use a figure, say what it is an average of.'),
+    cue=('Describe a course or a qualification that helped you get work.',
+         ['what it was',
+          'where you did it',
+          'how long it took',
+          'and explain how it helped']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would you recommend it to somebody else?',
+        'Did it cost you much?',
+        'Is a university degree still worth the cost?',
         'Should students choose subjects by future earnings?',
         'Do employers value experience more than qualifications?',
         'What else does education give people besides a job?'],
@@ -1097,7 +1107,7 @@ UNIT = dict(
            1, 'And he says the data does not separate them.',
            {0: 'The size of the gains is reported; the cause is not.', 2: 'Cost is not what the word conceals.', 3: 'Sample size is not the ambiguity he names.'})])],
    speak=dict(
-    part='Part 3', focus='When inequality begins',
+    part='Part 2 into Part 3', focus='When inequality begins',
     followup=[(('You say the gap is already there when children start school. '
                 'Does that mean a school cannot change anything?'),
                ('No, and I would not want that conclusion drawn, because it '
@@ -1121,9 +1131,19 @@ UNIT = dict(
                 'responsibility is the family\'s and the conditions are the '
                 'government\'s, and the second is the part policy can actually '
                 'reach.'))],
-    intro=('Four or five sentences. Try to separate a cause from a predictor '
-           'once.'),
-    qs=['Why do some children do better at school than others?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four or five sentences. Try to separate a '
+           'cause from a predictor once.'),
+    cue=('Describe a child you know who is doing well at school.',
+         ['who the child is',
+          'what they are good at',
+          'what help they get at home',
+          'and explain why you think they are doing well']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is the school a good one?',
+        'What would help them most now?',
+        'Why do some children do better at school than others?',
         'How much can a school change a child’s chances?',
         'Should governments spend more on the early years?',
         'Whose responsibility is a child’s early learning?'],

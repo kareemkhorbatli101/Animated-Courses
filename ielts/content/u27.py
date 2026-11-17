@@ -769,10 +769,21 @@ UNIT = dict(
            1, 'Because it falls in phase three, nine years away.',
            {0: 'The school falls in phase two, before the risk.', 2: 'The workshops are part of the central zone works.', 3: 'The allotments are retained at no cost.'})])],
    speak=dict(
-    part='Part 3', focus='Plans and what gets built',
-    intro=('Four or five sentences. Try once to say that a plan and its '
-           'delivery are different things.'),
-    qs=['Do new developments usually turn out as planned?',
+    part='Part 2 into Part 3', focus='Plans and what gets built',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: four or five sentences. Try once to say that a '
+           'plan and its delivery are different things.'),
+    cue=(('Describe a new neighbourhood or housing development you have '
+          'seen.'),
+         ['where it is',
+          'what it contains',
+          'who lives there',
+          'and explain what it still needs']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was anything promised that never arrived?',
+        'Would you live there?',
+        'Do new developments usually turn out as planned?',
         'Why do some parts of a plan never get built?',
         'Should developers be made to build the public parts first?',
         'Who should decide what a new neighbourhood contains?'],
@@ -1082,7 +1093,7 @@ UNIT = dict(
            'overstated.',
            {0: 'Cost figures are what he treats as reliable.', 2: 'Emissions data is not what he singles out.', 3: 'Travel times are not mentioned in the lecture.'})])],
    speak=dict(
-    part='Part 3', focus='How a city should grow',
+    part='Part 2 into Part 3', focus='How a city should grow',
     followup=[(('You say cities should grow upwards. Who pays when a city '
                 'spreads instead?'),
                ('Everybody, but not at the same time, which is why the cost is '
@@ -1105,9 +1116,19 @@ UNIT = dict(
                 'choice is not between change and no change; it is between '
                 'visible change and a slower change that shows up in who can '
                 'afford to live there.'))],
-    intro=('Four or five sentences. Try once to name a cost that falls on '
-           'somebody who is not present.'),
-    qs=['Should cities grow upwards or outwards?',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: four or five sentences. Try once to '
+           'name a cost that falls on somebody who is not present.'),
+    cue=('Describe a tall building you know.',
+         ['where it is',
+          'what it is used for',
+          'how it fits its surroundings',
+          'and explain what you think of it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What was there before it?',
+        'Should more be built like it?',
+        'Should cities grow upwards or outwards?',
         'Who pays when a city spreads?',
         'Is it reasonable for residents to object to new building?',
         'What happens to a city that builds very little?'],

@@ -765,10 +765,20 @@ UNIT = dict(
            'the flattering half',
            'Because write-up is skipped selectively.')])],
    speak=dict(
-    part='Part 3', focus='Testing whether something works',
-    intro=('Four or five sentences. Describe the method, not only the '
-           'conclusion.'),
-    qs=['How can we tell whether a medicine works?',
+    part='Part 2 into Part 3', focus='Testing whether something works',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: four or five sentences. Describe the '
+           'method, not only the conclusion.'),
+    cue=('Describe a treatment or a remedy people you know believe in.',
+         ['what it is',
+          'who uses it',
+          'what it is supposed to do',
+          'and explain whether you think it works']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'How would you test it?',
+        'Has anybody ever tested it?',
+        'How can we tell whether a medicine works?',
         'Why are some medical studies more trusted than others?',
         'Should people take part in medical trials?',
         'Can everything be tested this way?'],
@@ -1070,10 +1080,21 @@ UNIT = dict(
            '____________.', None, 'study',
            'Including a famous one, rather than science itself.')])],
    speak=dict(
-    part='Part 3', focus='Trusting a single study',
-    intro=('Four or five sentences. Try once to explain why something '
-           'innocent produces a bad result.'),
-    qs=['Should we believe a single scientific study?',
+    part='Part 2 into Part 3', focus='Trusting a single study',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four or five '
+           'sentences. Try once to explain why something innocent produces '
+           'a bad result.'),
+    cue=('Describe a piece of health or science news you heard recently.',
+         ['what it said',
+          'where you heard it',
+          'how it was explained',
+          'and explain whether you believed it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you look for the study itself?',
+        'Have you heard it contradicted since?',
+        'Should we believe a single scientific study?',
         'Why do some published findings turn out to be wrong?',
         'Does this mean science cannot be trusted?',
         'What should newspapers do differently?'],
@@ -1344,7 +1365,7 @@ UNIT = dict(
           ('What did not one outlet report?', None, 'the withdrawal',
            'Although everybody wrote about the failed repeat.')])],
    speak=dict(
-    part='Part 3', focus='How science corrects itself',
+    part='Part 2 into Part 3', focus='How science corrects itself',
     sounds=[('A real question rises; a question you already know the answer to '
              'falls. Compare did it work, asked to find out, with did it work, '
              'said after reading the result.'),
@@ -1360,9 +1381,20 @@ UNIT = dict(
             ('Record yourself on whether science corrects its own mistakes. '
              'Mark the last word of every sentence and check the direction of '
              'your voice on each one.')],
-    intro=('Five sentences. Try once to say what a piece of evidence '
-           'does not establish.'),
-    qs=['Does science correct its own mistakes?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: five sentences. Try once to '
+           'say what a piece of evidence does not establish.'),
+    cue=(('Describe something you once believed that turned out to be '
+          'wrong.'),
+         ['what you believed',
+          'where you got it from',
+          'how you found out',
+          'and explain how you felt about it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who put you right?',
+        'Do other people still believe it?',
+        'Does science correct its own mistakes?',
         'Should disputed findings be removed from textbooks?',
         'Who should decide when the evidence is strong enough?',
         'Is it a problem that corrections are not reported?'],

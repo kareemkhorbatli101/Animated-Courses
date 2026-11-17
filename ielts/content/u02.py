@@ -643,10 +643,20 @@ UNIT = dict(
            None, 'somebody else\u2019s job',
            'Rather than against the idea itself.')])],
    speak=dict(
-    part='Part 3', focus='Hours and the rest of life',
-    intro=('Three or four sentences. Compare two situations if you '
-           'can.'),
-    qs=['Do people in your country work long hours?',
+    part='Part 2 into Part 3', focus='Hours and the rest of life',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: three or four sentences. '
+           'Compare two situations if you can.'),
+    cue=('Describe a working day that was longer than usual.',
+         ['when it was',
+          'why it was long',
+          'what you did with the time',
+          'and explain how you felt at the end of it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Does that happen often where you work or study?',
+        'Would you take less money for shorter days?',
+        'Do people in your country work long hours?',
         'Would a four-day week work for every job?',
         'Is it better to be paid more or to work fewer hours?',
         'Should employers decide working hours, or governments?'],
@@ -932,13 +942,22 @@ UNIT = dict(
            'automated.', None, 'task',
            'Work involving judgement rather than routine work.')])],
    speak=dict(
-    part='Part 3', focus='Jobs machines can and cannot do',
-    intro=('Four sentences. Name a job and then the part of it a '
-           'machine could do.'),
-    qs=['Which jobs could machines do in the future?',
+    part='Part 2 into Part 3', focus='Jobs machines can and cannot do',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four sentences. Name a job and then the '
+           'part of it a machine could do.'),
+    cue=('Describe a job you would not want a machine to do.',
+         ['what the job is',
+          'what it involves',
+          'who does it where you live',
+          'and explain why you think a person should do it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could part of it be done by a machine already?',
+        'Do you know anybody who does that job?',
+        'Which jobs could machines do in the future?',
         'Which jobs will always need people?',
-        'Should companies be allowed to replace workers with '
-        'machines?',
+        'Should companies be allowed to replace workers with machines?',
         'How should people prepare for these changes?'],
     shape=[('answer', 'Parts of most jobs rather than whole jobs.'),
            ('support', 'A machine can read a scan and cannot tell a '
@@ -1282,7 +1301,7 @@ UNIT = dict(
           ('Support for the people in a town is a political choice.',
            None, 'B', 'Said after the point about the national figure.')])],
    speak=dict(
-    part='Part 3', focus='Preparing for work that does not exist yet',
+    part='Part 2 into Part 3', focus='Preparing for work that does not exist yet',
     sounds=[('In connected speech the small words lose their vowel. Of, for, '
              'to, and, can and was become weak: a lot of work sounds like a '
              'lot uv work, and I can do it has a weak can, while I CAN do it '
@@ -1300,13 +1319,22 @@ UNIT = dict(
             ('In your next answer, count the words you stressed. If it is more '
              'than one in four, you are stressing everything, and nothing is '
              'therefore emphasised.')],
-    intro=('Four or five sentences. Say what you would do rather than '
-           'what should happen.'),
-    qs=['How can people prepare for jobs that do not exist yet?',
-        'Should schools teach different subjects because of '
-        'automation?',
-        'Whose responsibility is retraining: the worker, the employer '
-        'or the state?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: four or five sentences. Say what you '
+           'would do rather than what should happen.'),
+    cue=('Describe a skill you think will be useful in ten years.',
+         ['what the skill is',
+          'how somebody would learn it',
+          'who already has it',
+          'and explain why you think it will matter']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Are you learning it yourself?',
+        'Where would you go to learn it where you live?',
+        'How can people prepare for jobs that do not exist yet?',
+        'Should schools teach different subjects because of automation?',
+        ('Whose responsibility is retraining: the worker, the employer or '
+         'the state?'),
         'Are you optimistic about the future of work?'],
     shape=[('answer', 'By learning the things that transfer rather than '
             'the things that are current.'),

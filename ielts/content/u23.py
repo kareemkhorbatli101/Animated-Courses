@@ -731,10 +731,21 @@ UNIT = dict(
            '____________ less.', None, 'lies',
            'Because admissions are harder to distort.')])],
    speak=dict(
-    part='Part 3', focus='Measuring an outbreak',
-    intro=('Four or five sentences. Where you use a number, say what it is a '
-           'number of.'),
-    qs=['How should a government decide when to act in an epidemic?',
+    part='Part 2 into Part 3', focus='Measuring an outbreak',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four or five '
+           'sentences. Where you use a number, say what it is a number of.'),
+    cue=(('Describe a time you had to decide something without enough '
+          'information.'),
+         ['what the decision was',
+          'what you knew at the time',
+          'what you decided',
+          'and explain how it turned out']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What would you have wanted to know?',
+        'Would you decide the same way again?',
+        'How should a government decide when to act in an epidemic?',
         'Should health figures be published daily?',
         'Do people understand the numbers they are shown?',
         'What makes one piece of data more reliable than another?'],
@@ -1052,7 +1063,7 @@ UNIT = dict(
                'here.', 3: 'He calls the credit the question governments most '
                'want.'})])],
    speak=dict(
-    part='Part 3', focus='Stopping the spread of disease',
+    part='Part 2 into Part 3', focus='Stopping the spread of disease',
     followup=[('You mentioned restrictions on travel. Do they work?',
                ('They buy time rather than prevent arrival, and the value of '
                 'the time depends entirely on what is done with it. Where a '
@@ -1074,9 +1085,20 @@ UNIT = dict(
                 'matter less than they appear to, because the stockpile is '
                 'always of the last outbreak\'s equipment, whereas the capacity '
                 'to find out what is happening is useful whatever arrives.'))],
-    intro=('Four or five sentences. Try once to say that several causes may '
-           'be acting at the same time.'),
-    qs=['What is the best way to stop a disease spreading?',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. Try '
+           'once to say that several causes may be acting at the same '
+           'time.'),
+    cue=('Describe a rule about health that you had to follow.',
+         ['what the rule was',
+          'when and where it applied',
+          'how people around you reacted to it',
+          'and explain whether you thought it was sensible']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was it explained to you?',
+        'Is it still in force?',
+        'What is the best way to stop a disease spreading?',
         'Should governments restrict travel during an outbreak?',
         'Why do people disagree about what worked?',
         'What should a country prepare in advance?'],

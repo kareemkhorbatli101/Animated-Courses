@@ -642,10 +642,20 @@ UNIT = dict(
            None, 'shift workers',
            'Instead of building a fourth pitch, she says.')])],
    speak=dict(
-    part='Part 3', focus='Who sport is for',
-    intro=('Three or four sentences. Use the figures if they help.'),
-    qs=['Why do some people stop taking part in sport as they get '
-        'older?',
+    part='Part 2 into Part 3', focus='Who sport is for',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: three or four sentences. Use the '
+           'figures if they help.'),
+    cue=('Describe a sport or an activity you stopped doing.',
+         ['what it was',
+          'when you did it',
+          'why you stopped',
+          'and explain whether you would take it up again']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'What would have to change for you to go back?',
+        'Do people your age near you still do it?',
+        'Why do some people stop taking part in sport as they get older?',
         'Should councils provide sports facilities for everybody?',
         'Are some sports more welcoming than others?',
         'How could more people be encouraged to take part?'],
@@ -925,10 +935,20 @@ UNIT = dict(
            'second ____________.', None, 'stage',
            'And knowing that keeps people training.')])],
    speak=dict(
-    part='Part 3', focus='Improvement and how long it takes',
-    intro=('Four sentences. Describe a process rather than an '
+    part='Part 2 into Part 3', focus='Improvement and how long it takes',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: four sentences. Describe a process rather than an '
            'opinion.'),
-    qs=['Why do people improve quickly at first and then slow down?',
+    cue=('Describe something you got better at slowly.',
+         ['what it was',
+          'how you measured your progress',
+          'how long it took',
+          'and explain what kept you at it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you ever think of giving up?',
+        'What would you tell a beginner?',
+        'Why do people improve quickly at first and then slow down?',
         'Is it useful to know how long improvement takes?',
         'Do people expect results too quickly?',
         'How should beginners be advised?'],
@@ -1334,7 +1354,7 @@ UNIT = dict(
            '____________.', None, 'sport',
            'Which he says should be on every academy wall.')])],
    speak=dict(
-    part='Part 3', focus='Pushing young people to succeed',
+    part='Part 2 into Part 3', focus='Pushing young people to succeed',
     sounds=[('Fluency is measured by whether the examiner has to wait, not by '
              'speed. A candidate speaking slowly and steadily scores better '
              'than one who sprints and stops.'),
@@ -1349,9 +1369,19 @@ UNIT = dict(
              'keep going is a separate skill from having something to say.'),
             ('Record the same long turn twice in one week. Count the silences '
              'longer than two seconds in each, and keep the one with fewer.')],
-    intro=('Five sentences. This is the last Part 3 of the volume. '
-           'Take a position and support it with evidence.'),
-    qs=['Should children be pushed to succeed at sport?',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: five sentences. This is the last Part '
+           '3 of the volume. Take a position and support it with evidence.'),
+    cue=('Describe a young person you know who is good at something.',
+         ['who they are',
+          'what they are good at',
+          'how much they practise',
+          'and explain who encourages them']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do they enjoy it?',
+        'Who decided they would do it?',
+        'Should children be pushed to succeed at sport?',
         'At what age should a child specialise?',
         'What do children lose by specialising early?',
         'Who should decide: the child, the parents or the coach?'],

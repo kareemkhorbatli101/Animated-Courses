@@ -854,18 +854,29 @@ UNIT = dict(
                'option.', 1: 'He wants it in the sentence, not in the small print.', 3: 'A bar chart would need a zero baseline and hide the '
                'change.'})])],
    speak=dict(
-    part='Part 3', focus='How figures are presented',
-    intro=('Part 3 answers are longer: four or five sentences. Answer, support, '
-           'follow-up, second support. You are being asked to discuss, not to '
-           'report, so the follow-up matters more here than anywhere '
-           'else in the test.'),
-    qs=['Why do you think the same figures can give people opposite '
-        'impressions?',
+    part='Part 2 into Part 3', focus='How figures are presented',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: part 3 answers are longer: four or five '
+           'sentences. Answer, support, follow-up, second support. You are '
+           'being asked to discuss, not to report, so the follow-up '
+           'matters more here than anywhere else in the test.'),
+    cue=(('Describe a chart or a graph you have seen that was hard to '
+          'read.'),
+         ['where you saw it',
+          'what it was showing',
+          'what made it hard to read',
+          'and explain what you would change about it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did it change your mind about anything?',
+        'Who do you think produced it?',
+        ('Why do you think the same figures can give people opposite '
+         'impressions?'),
         'Should journalists be trained in handling statistics? Why?',
-        'Some people say the public cannot be expected to read charts '
-        'carefully. How far do you agree?',
-        'Is it the responsibility of the reader or the publisher to notice a '
-        'misleading chart?'],
+        ('Some people say the public cannot be expected to read charts '
+         'carefully. How far do you agree?'),
+        ('Is it the responsibility of the reader or the publisher to '
+         'notice a misleading chart?')],
     shape=[('answer', 'Mostly because a chart decides what you compare before '
             'you have decided anything.'),
            ('support', 'If the axis starts high, the gap fills the page.'),
@@ -1216,7 +1227,7 @@ UNIT = dict(
            {0: 'A larger survey is not the alternative he names.', 1: 'He says the alternative is not certainty.', 3: 'Official statistics are themselves surveys of this '
                'kind.'})])],
    speak=dict(
-    part='Part 3', focus='Trusting a survey',
+    part='Part 2 into Part 3', focus='Trusting a survey',
     followup=[(('You say you would want the response rate. Should news reports '
                 'be required to give it?'),
                ('Required is strong, and I would accept it for one reason: the '
@@ -1238,15 +1249,27 @@ UNIT = dict(
                 'None of those requires statistics, and between them they '
                 'catch the majority of the published claims that turn out not '
                 'to hold.'))],
-    intro=('Keep the shape: answer, support, follow-up, support. The follow-up '
-           'is where a 6.5 answer separates from a 6.0, because it is the '
-           'sentence that explains instead of merely adding.'),
-    qs=['What would make you trust a survey result?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: keep the shape: answer, support, '
+           'follow-up, support. The follow-up is where a 6.5 answer '
+           'separates from a 6.0, because it is the sentence that explains '
+           'instead of merely adding.'),
+    cue=(('Describe a survey or a questionnaire you were asked to '
+          'complete.'),
+         ['who asked you',
+          'what it was about',
+          'how long it took',
+          'and explain whether you answered it honestly']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Did you ever see the results?',
+        'Were the questions fairly worded?',
+        'What would make you trust a survey result?',
         'Should news reports be required to give the response rate?',
-        'Why do you think people distrust polls more than other kinds of '
-        'research?',
-        'Is it possible for an ordinary reader to judge whether a survey is '
-        'sound?'],
+        ('Why do you think people distrust polls more than other kinds of '
+         'research?'),
+        ('Is it possible for an ordinary reader to judge whether a survey '
+         'is sound?')],
     shape=[('answer', 'Mainly how the people were chosen.'),
            ('support', 'A small sample chosen properly beats a huge one that '
             'anyone could join.'),

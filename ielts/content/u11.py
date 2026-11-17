@@ -755,10 +755,20 @@ UNIT = dict(
                'about.', 2: 'No regional figures appear anywhere in the talk.', 3: 'Generations are not the unit he says the numbers '
                'count.'})])],
    speak=dict(
-    part='Part 3', focus='Living alone',
-    intro=('Four or five sentences. Try once to give a reason and then an '
-           'example.'),
-    qs=['Why do more people live alone than in the past?',
+    part='Part 2 into Part 3', focus='Living alone',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four or five '
+           'sentences. Try once to give a reason and then an example.'),
+    cue=('Describe somebody you know who lives alone.',
+         ['who the person is',
+          'where they live',
+          'how they spend their time',
+          'and explain whether they seem happy with it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do they have family nearby?',
+        'Would you like to live alone?',
+        'Why do more people live alone than in the past?',
         'Is living alone a problem or a choice?',
         'What can be done to help older people who live alone?',
         'Will households continue to get smaller?'],
@@ -1048,9 +1058,20 @@ UNIT = dict(
            'when the ratio moves.', None, 'three',
            'Taxes, pensions, or the pension age.')])],
    speak=dict(
-    part='Part 3', focus='Population and policy',
-    intro=('Four or five sentences. Say what you think and then why.'),
-    qs=['Why are people in many countries having fewer children?',
+    part='Part 2 into Part 3', focus='Population and policy',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. Say '
+           'what you think and then why.'),
+    cue=('Describe an older relative or neighbour you help.',
+         ['who they are',
+          'what you do for them',
+          'how often you do it',
+          'and explain why you do it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Who else helps them?',
+        'Should the state be doing some of this?',
+        'Why are people in many countries having fewer children?',
         'Is a falling population a serious problem?',
         'Should governments try to change it?',
         'What should a country do about an ageing population?'],

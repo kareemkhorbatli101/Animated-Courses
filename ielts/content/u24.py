@@ -762,10 +762,21 @@ UNIT = dict(
            'Which he says is where most accusations of fraud are '
            'aimed.')])],
    speak=dict(
-    part='Part 3', focus='Evidence about the climate',
-    intro=('Four or five sentences. Say once what a measurement does and does '
-           'not cover.'),
-    qs=['How do we know the climate is changing?',
+    part='Part 2 into Part 3', focus='Evidence about the climate',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four or five sentences. Say once what a '
+           'measurement does and does not cover.'),
+    cue=(('Describe a change in the weather or the seasons that you have '
+          'noticed.'),
+         ['what you have noticed',
+          'over how many years',
+          'how you came to notice it',
+          'and explain whether other people agree with you']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Could you be mistaken about it?',
+        'What would convince you either way?',
+        'How do we know the climate is changing?',
         'Why do some people not believe the evidence?',
         'Should scientists explain their methods to the public?',
         'What kind of evidence do people find convincing?'],
@@ -1087,7 +1098,7 @@ UNIT = dict(
                'change.', 3: 'Simplification is what the headline does to the '
                'number.'})])],
    speak=dict(
-    part='Part 3', focus='Linking causes and events',
+    part='Part 2 into Part 3', focus='Linking causes and events',
     followup=[(('Can scientists really say that climate change caused a '
                 'particular storm?'),
                ('Not in the way the question implies, and the honest '
@@ -1110,9 +1121,19 @@ UNIT = dict(
                 'probability is enough, and waiting for more certainty is '
                 'itself a decision with a price. For a measure that commits a '
                 'country for thirty years, I would want a great deal more.'))],
-    intro=('Four or five sentences. Try once to replace a yes-or-no question '
-           'with a how-much question.'),
-    qs=['Can we say that climate change caused a particular storm?',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: four or five sentences. Try once to '
+           'replace a yes-or-no question with a how-much question.'),
+    cue=('Describe a storm, a flood or a heatwave you remember.',
+         ['when it was',
+          'where you were',
+          'what happened',
+          'and explain how people coped']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Has anything like it happened since?',
+        'Was anything changed afterwards?',
+        'Can we say that climate change caused a particular storm?',
         'Should scientists give simple answers to the public?',
         'Who should pay for damage caused by extreme weather?',
         'How certain does evidence have to be before a government acts?'],
@@ -1405,7 +1426,7 @@ UNIT = dict(
            'Tuesday.',
            {0: 'She argues against withholding a true number.', 2: 'No correction is proposed by either of them.', 3: 'They go further than the press release.'})])],
    speak=dict(
-    part='Part 3', focus='Responsibility for damage',
+    part='Part 2 into Part 3', focus='Responsibility for damage',
     sounds=[('Pitch range carries meaning in English, and a narrow range is '
              'heard as indifference. The move you need most in Part 3 is the '
              'one that signals a concession: start high on that is true, drop '
@@ -1423,9 +1444,20 @@ UNIT = dict(
             ('Record yourself on how certain evidence must be. Listen for the '
              'highest and lowest points of your voice; if they are close '
              'together, the content is doing all the work alone.')],
-    intro=('The hardest turn in the unit. Try once to say that two causes are '
-           'both necessary.'),
-    qs=['Who is responsible when a flood destroys homes?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: the hardest turn in the unit. Try once to say that '
+           'two causes are both necessary.'),
+    cue=(('Describe something that was damaged and had to be repaired or '
+          'replaced.'),
+         ['what it was',
+          'how it was damaged',
+          'who paid for it',
+          'and explain whether that was fair']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was it insured?',
+        'Could the damage have been prevented?',
+        'Who is responsible when a flood destroys homes?',
         'Should building be allowed on land that may flood?',
         'Is it fair to blame distant countries for local damage?',
         'How should a government decide what to protect?'],

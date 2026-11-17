@@ -834,12 +834,25 @@ UNIT = dict(
            'Cheap, and it ends every argument in the same place; he '
            'wants the question a number does answer.')])],
    speak=dict(
-    part='Part 3', focus='Measuring a justice system',
-    intro=('Four or five sentences. Try to include one sentence that concedes '
-           'something, because this is the part of the test where a '
-           'one-sided answer sounds rehearsed.'),
-    qs=['How should a country judge whether its justice system is working?',
-        'Are longer sentences a sign of a stricter system or a failing one?',
+    part='Part 2 into Part 3', focus='Measuring a justice system',
+    intro=('Card first, and the last bullet is the one that earns the '
+           'band: it asks you to explain rather than to list. After the '
+           'long turn the discussion opens: four or five sentences. Try to '
+           'include one sentence that concedes something, because this is '
+           'the part of the test where a one-sided answer sounds '
+           'rehearsed.'),
+    cue=('Describe a time you saw a disagreement settled fairly.',
+         ['what the disagreement was about',
+          'who was involved',
+          'how it was settled',
+          'and explain why you thought it was fair']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would both sides say the same?',
+        'Who decided in the end?',
+        ('How should a country judge whether its justice system is '
+         'working?'),
+        ('Are longer sentences a sign of a stricter system or a failing '
+         'one?'),
         'Should sentencing decisions be made public in detail?',
         'Can statistics ever capture whether justice has been done?'],
     shape=[('answer', 'Not by average sentence length, which is the figure '
@@ -1185,7 +1198,7 @@ UNIT = dict(
            'Certainty is expensive, slow and invisible; severity is '
            'cheap, immediate and announceable.')])],
    speak=dict(
-    part='Part 3', focus='Punishment and prevention',
+    part='Part 2 into Part 3', focus='Punishment and prevention',
     followup=[(('You say longer sentences do little. What else could a '
                 'government do to prevent offending?'),
                ('The things that work are unglamorous: more detection, so that '
@@ -1206,10 +1219,20 @@ UNIT = dict(
                 'election, whereas a sentencing announcement costs nothing '
                 'today and the prison population arrives later, which is '
                 'somebody else\'s budget.'))],
-    intro=('Four or five sentences, and concede at least once. An answer that '
-           'gives no ground on a question like this sounds prepared, not '
-           'thought about.'),
-    qs=['Do you think longer prison sentences reduce crime?',
+    intro=('Start with the card. Notes for a minute, then talk, developing '
+           'each bullet instead of adding bullets of your own. The '
+           'discussion follows: four or five sentences, and concede at '
+           'least once. An answer that gives no ground on a question like '
+           'this sounds prepared, not thought about.'),
+    cue=('Describe a consequence you faced for breaking a rule.',
+         ['what the rule was',
+          'how you came to break it',
+          'what happened next',
+          'and explain what effect it had on you']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was it proportionate?',
+        'Did it stop you doing the same thing again?',
+        'Do you think longer prison sentences reduce crime?',
         'What else could a government do to prevent offending?',
         'Should the public have a say in how long sentences are?',
         'Why do you think politicians often promise tougher sentences?'],

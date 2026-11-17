@@ -708,10 +708,20 @@ UNIT = dict(
            None, 'the boundaries',
            'Rather than how many stages there are.')])],
    speak=dict(
-    part='Part 3', focus='How far food travels',
-    intro=('Three or four sentences. Give a step in the process '
-           'rather than an opinion about it.'),
-    qs=['Is it better to buy food produced locally?',
+    part='Part 2 into Part 3', focus='How far food travels',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: three or four sentences. Give a step in the '
+           'process rather than an opinion about it.'),
+    cue=('Describe a food that is produced near where you live.',
+         ['what it is',
+          'where and how it is produced',
+          'when you eat it',
+          'and explain whether you would pay more for it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Is it sold outside your area?',
+        'Could you tell it from an imported one?',
+        'Is it better to buy food produced locally?',
         'Does it matter how far food travels?',
         'Should labels say more about where food comes from?',
         'Do people know enough about how food is produced?'],
@@ -981,10 +991,20 @@ UNIT = dict(
            'field has ____________.', None, 'left',
            'Which he says is bigger than farming.')])],
    speak=dict(
-    part='Part 3', focus='Producing more food',
-    intro=('Four sentences. Name a gain and the cost that came with '
-           'it.'),
-    qs=['How can the world produce more food?',
+    part='Part 2 into Part 3', focus='Producing more food',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: four sentences. Name a gain and the '
+           'cost that came with it.'),
+    cue=('Describe a farm or a market garden you have seen.',
+         ['where it was',
+          'what it produced',
+          'how it was worked',
+          'and explain what surprised you about it']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was it bigger or smaller than you expected?',
+        'Would you want to work on it?',
+        'How can the world produce more food?',
         'Is intensive farming necessary?',
         'Should farmers be paid to protect the soil?',
         'Do consumers think about how food is produced?'],
@@ -1242,7 +1262,7 @@ UNIT = dict(
            {0: 'Soil is what the disagreement is about, not the '
                'underlying question.', 2: 'Weather is not mentioned by either speaker.', 3: 'Exports do not come up in the discussion.'})])],
    speak=dict(
-    part='Part 3', focus='Measuring what matters in farming',
+    part='Part 2 into Part 3', focus='Measuring what matters in farming',
     sounds=[('The -s ending has three sounds: s after a voiceless consonant in '
              'crops, z after a voiced one in farms, and iz after a sibilant in '
              'harvests. You do not choose; the sound before decides.'),
@@ -1257,8 +1277,20 @@ UNIT = dict(
              'food prices.'),
             ('Record thirty seconds on how far your food travels. Listen only '
              'for endings, and count the ones you dropped.')],
-    intro=('Four or five sentences. Say what a measure leaves out.'),
-    qs=['How should we judge whether a farm is doing well?',
+    intro=('The card comes first. Make your notes inside the minute you '
+           'are given, speak until you are stopped, and let the last '
+           'bullet carry the weight. Then the discussion: four or five '
+           'sentences. Say what a measure leaves out.'),
+    cue=(('Describe something you buy that carries a label about how it '
+          'was made.'),
+         ['what it is',
+          'what the label claims',
+          'where you buy it',
+          'and explain whether the label changes what you buy']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Do you believe the claim?',
+        'Who do you think checks it?',
+        'How should we judge whether a farm is doing well?',
         'Do modern farming methods do more harm than good?',
         'Should farmers be paid for things other than food?',
         'Who should pay for protecting soil?'],

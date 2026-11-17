@@ -804,10 +804,21 @@ UNIT = dict(
            'picture?', None, 'four',
            'And the one everybody picks is the weakest of them.')])],
    speak=dict(
-    part='Part 3', focus='Hours, output and comparison',
-    intro=('Four or five sentences. These questions invite a causal claim, so '
-           'try to mark at least once where you are reasoning, as against reporting.'),
-    qs=['Why do you think working hours differ so much between countries?',
+    part='Part 2 into Part 3', focus='Hours, output and comparison',
+    intro=('The long turn first. A minute of notes, then one to two '
+           'minutes, and the examiner closes it with a short question or '
+           'two. Then the discussion: four or five sentences. These '
+           'questions invite a causal claim, so try to mark at least once '
+           'where you are reasoning, as against reporting.'),
+    cue=('Describe a week when you worked or studied more than usual.',
+         ['when it was',
+          'what you were working on',
+          'how you organised the time',
+          'and explain how much you actually got done']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was the extra time useful?',
+        'Would a shorter week have suited you better?',
+        'Why do you think working hours differ so much between countries?',
         'Should a government set a maximum working week?',
         'Is output a good measure of how well a country is doing?',
         'What else would you want to know about a country’s working life?'],
@@ -1153,7 +1164,7 @@ UNIT = dict(
                'limiting.', 2: 'He does not claim shorter weeks reduce output.', 3: 'More research is a conclusion, not the surviving '
                'claim.'})])],
    speak=dict(
-    part='Part 3', focus='Testing a change at work',
+    part='Part 2 into Part 3', focus='Testing a change at work',
     followup=[(('You say the trial was not fair. Should companies be required '
                 'to publish the results?'),
                ('Of trials they run on their own staff, yes, and the argument '
@@ -1175,13 +1186,24 @@ UNIT = dict(
                 'and the follow-up long enough to see whether the gain '
                 'survived. Six months of enthusiasm is not evidence; two years '
                 'without a fall in output would be.'))],
-    intro=('Four or five sentences, with at least one that concedes. These '
-           'questions reward a candidate who can hold a position while '
-           'admitting what would change it.'),
-    qs=['Is it possible to test a change at work fairly?',
-        'Should companies be required to publish the results of such trials?',
-        'Why do you think positive results get more attention than negative '
-        'ones?',
+    intro=('Work the card first: a minute of notes, the long turn, then '
+           'the one or two questions that round it off. The discussion '
+           'after that: four or five sentences, with at least one that '
+           'concedes. These questions reward a candidate who can hold a '
+           'position while admitting what would change it.'),
+    cue=('Describe a change that was introduced where you work or study.',
+         ['what the change was',
+          'who introduced it',
+          'how people responded to it',
+          'and explain whether it was kept']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Was anybody asked beforehand?',
+        'How would you have judged it?',
+        'Is it possible to test a change at work fairly?',
+        ('Should companies be required to publish the results of such '
+         'trials?'),
+        ('Why do you think positive results get more attention than '
+         'negative ones?'),
         'What would convince you that a shorter week worked?'],
     shape=[('answer', 'Fairly is difficult, because the firms that volunteer '
             'are unusual.'),
@@ -1497,7 +1519,7 @@ UNIT = dict(
            'Haldorsen says the balance of risk favours acting; Mbeki '
            'calls that a more honest place to stand.')])],
    speak=dict(
-    part='Part 3', focus='Evidence, risk and acting without proof',
+    part='Part 2 into Part 3', focus='Evidence, risk and acting without proof',
     sounds=[('Comparison carries its stress on the term being compared, not on '
              'the comparative word: output per HOUR, not OUTput per hour, when '
              'the contrast is with output per week.'),
@@ -1511,12 +1533,24 @@ UNIT = dict(
             ('Record yourself on whether a change at work can be tested '
              'fairly. Mark every comparison and check which word carried the '
              'weight.')],
-    intro=('The hardest turn. In at least one answer, state the strongest '
-           'version of the view you are about to disagree with.'),
-    qs=['Should governments act before the evidence is complete?',
+    intro=('Take the card first. One minute to make notes, then one to two '
+           'minutes of talk, and the bullets are the order to take them '
+           'in. Then the discussion: the hardest turn. In at least one '
+           'answer, state the strongest version of the view you are about '
+           'to disagree with.'),
+    cue=('Describe a decision you made before you were sure.',
+         ['what the decision was',
+          'what you did not know at the time',
+          'why you did not wait',
+          'and explain how it worked out']),
+    qs=['Now look at the card. You have one minute to make notes.',
+        'Would waiting have helped?',
+        'What would you do differently now?',
+        'Should governments act before the evidence is complete?',
         'Who should decide what counts as enough evidence?',
         'Is it worse to act too early or too late?',
-        'How should a society handle a change that cannot be tested fairly?'],
+        ('How should a society handle a change that cannot be tested '
+         'fairly?')],
     shape=[('answer', 'Sometimes, and it depends on which way the error '
             'runs.'),
            ('support', 'Acting late on something harmful costs more than '
