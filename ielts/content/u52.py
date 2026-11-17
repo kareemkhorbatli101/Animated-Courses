@@ -93,21 +93,25 @@ UNIT = dict(
            None, 'scenario',
            'Paragraph 2: two scenarios differ more than two models do.'),
           ('A modified model must be described as',
-           ['the model itself', 'derived', 'experimental',
-            'unsupported'], 1,
-           'Paragraph 3, and may not use the original name.'),
+           ['the model itself', 'derived', 'experimental', 'unsupported'],
+           1, 'Paragraph 3, and may not use the original name.',
+           {0: 'Paragraph 3 forbids using the original name.', 2: 'No such designation is required by the licence.', 3: 'Support is limited to defects, which is a separate '
+               'clause.'}),
           ('A figure from a superseded version stays compliant provided '
            'the ____________ is stated.', None, 'version',
            'Paragraph 4: users are not required to upgrade.'),
           ('Which of these counts as a defect?',
-           ['a result the user finds implausible',
-            'a result that cannot be reproduced from the stated inputs',
-            'a slow run', 'an unclear release note'], 1,
+           ['a result the user finds implausible', 'a result that cannot be reproduced from the stated inputs', 'a slow run', 'an unclear release note'],
+           1,
            'Paragraph 5: a defect is behaviour departing from the '
-           'documentation.'),
+           'documentation.',
+           {0: 'Paragraph 5 says implausibility is not a defect.', 2: 'Run speed is not mentioned in the licence.', 3: 'Release notes are published, and their clarity is not '
+               'a defect.'}),
           ('Reporting a projection as a prediction departs from the',
            ['licence', 'documentation', 'warranty', 'scenario'], 1,
-           'Paragraph 6, which distinguishes the two.')]),
+           'Paragraph 6, which distinguishes the two.',
+           {0: 'Paragraph 6 says such a user has not breached the '
+               'licence.', 2: 'The warranty is excluded in any case.', 3: 'The scenario must be stated, which is clause 4.'})]),
     dict(heading='Reporting a suspected error',
          kind='Procedure notice', task='Flow-chart completion',
          band='gt_short', qtype='Questions 7-10',
@@ -462,22 +466,29 @@ UNIT = dict(
            'one, and I have no solution to it beyond saying out loud that it '
            'is what is happening.')],
          items=[
-          ('He argues that three of the four failures were failures of',
+          (
+           'He argues that three of the four failures were failures of',
            ['method', 'reporting', 'data', 'funding'], 1,
-           'For which the remedies are completely different.'),
+           'For which the remedies are completely different.',
+           {0: 'He says three of the four were not failures of method.', 2: 'Data quality is not what he blames.', 3: 'Funding is not among the failures he describes.'}),
           ('A projection, he says, is',
-           ['a prediction', 'a conditional statement', 'an estimate',
-            'a scenario'], 1,
-           'Whose condition is stripped off between modeller and reader.'),
+           ['a prediction', 'a conditional statement', 'an estimate', 'a scenario'],
+           1,
+           'Whose condition is stripped off between modeller and '
+           'reader.',
+           {0: 'He says explicitly that it is not a prediction.', 2: 'An estimate carries no condition with it.', 3: 'The scenario is the condition, not the statement.'}),
           ('The traffic outturn of fifteen thousand was',
-           ['above the range', 'inside the range', 'below the range',
-            'not measured'], 1,
-           'Against a published range of fourteen to thirty-one.'),
+           ['above the range', 'inside the range', 'below the range', 'not measured'],
+           1, 'Against a published range of fourteen to thirty-one.',
+           {0: 'Fifteen is below the central figure but inside the '
+               'range.', 2: 'Fourteen is the bottom of the range, so fifteen is '
+               'inside.', 3: 'The outturn was measured at fifteen thousand.'}),
           ('His recommendation is to stop publishing',
-           ['ranges', 'a central figure', 'assumptions',
-            'press releases'], 1,
+           ['ranges', 'a central figure', 'assumptions', 'press releases'],
+           1,
            'And to give a journalist the range again if they ask for a '
-           'number.')]),
+           'number.',
+           {0: 'He wants the range published, not withheld.', 2: 'He wants the condition published with the range.', 3: 'He wants press releases to carry the range.'})]),
     dict(heading='Two forecasters disagree about a projection',
          part='Part 3', task='A discussion between two forecasters',
          band='l3', qtype='Questions 27-32',
@@ -531,32 +542,40 @@ UNIT = dict(
           ('Casimir', 'That is better advice than anything I came in '
            'with.')],
          items=[
-          ('Thomasina’s argument against a range with no central figure '
-           'is that', ['it is dishonest', 'it is less usable for somebody '
-            'who must choose', 'it is too wide', 'it is unpublishable'], 1,
-           'A planner cannot build a range.'),
-          ('If a planner takes the midpoint of a skewed range, they take a '
-           'figure', ['most likely', 'less likely than either end',
-            'identical to the mean', 'outside the range'], 1,
-           'Which she says the modeller has caused.'),
+          (
+           'Thomasina\u2019s argument against a range with no central '
+           'figure is that',
+           ['it is dishonest', 'it is less usable for somebody who must choose', 'it is too wide', 'it is unpublishable'],
+           1, 'A planner cannot build a range.',
+           {0: 'She does not call the practice dishonest.', 2: 'Width is not her objection to a range.', 3: 'A range can be published; her point is about use.'}),
+          (
+           'If a planner takes the midpoint of a skewed range, they '
+           'take a figure',
+           ['most likely', 'less likely than either end', 'identical to the mean', 'outside the range'],
+           1, 'Which she says the modeller has caused.',
+           {0: 'The midpoint of a skewed range is not the most likely '
+               'value.', 2: 'The midpoint and the mean need not coincide.', 3: 'The midpoint lies inside the range by definition.'}),
           ('Casimir concedes her case for',
-           ['the newspaper', 'the planner', 'both audiences',
-            'neither'], 1,
-           'And says he can answer it for the other audience.'),
+           ['the newspaper', 'the planner', 'both audiences', 'neither'],
+           1, 'And says he can answer it for the other audience.',
+           {0: 'The newspaper is the audience he says he can answer '
+               'for.', 2: 'He concedes one audience and not the other.', 3: 'He concedes her case for one of the two.'}),
           ('His proposal is',
-           ['one document with a range', 'two documents for two '
-            'audiences', 'no press release', 'a longer annex'], 1,
-           'The annex giving the central figure, the release the range and '
-           'condition.'),
+           ['one document with a range', 'two documents for two audiences', 'no press release', 'a longer annex'],
+           1,
+           'The annex giving the central figure, the release the range '
+           'and condition.',
+           {0: 'One document for both audiences is what he rejects.', 2: 'He keeps the press release and changes its content.', 3: 'Length of the annex is not his proposal.'}),
           ('Why does he say it will fail?',
-           ['it costs too much', 'the press release is written by people '
-            'who want approval', 'journalists object',
-            'planners object'], 1,
+           ['it costs too much', 'the press release is written by people who want approval', 'journalists object', 'planners object'],
+           1,
            'Which makes it a question about drafting rather than '
-           'forecasting.'),
-          ('Thomasina’s advice is to put the recommendation',
+           'forecasting.',
+           {0: 'Cost is not what he says will defeat it.', 2: 'Journalists are not who he says will resist.', 3: 'Planners are served by his proposal.'}),
+          ('Thomasina\u2019s advice is to put the recommendation',
            ['last', 'first', 'in an annex', 'in a footnote'], 1,
-           'Because the present order reads as a complaint.')])],
+           'Because the present order reads as a complaint.',
+           {0: 'The present order puts it last, which she criticises.', 2: 'She wants it in the main text, not an annex.', 3: 'A footnote is less prominent still.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Prediction',
     longturn=[('The prediction I want to talk about is that my city\'s new tram '
@@ -781,15 +800,17 @@ UNIT = dict(
            None, 'held-back',
            'Paragraph 4, excluded from fitting on purpose.'),
           ('Which paragraph identifies the loop?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
            'Where an out-of-tolerance hindcast returns to the fitting '
-           'routine.'),
+           'routine.',
+           {0: 'Paragraph 3 describes the fitting routine.', 1: 'Paragraph 4 describes the hindcast.', 3: 'Paragraph 6 describes the forward run and review.'}),
           ('Which paragraph warns that the loop can be run too often?',
            ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
            2,
            'Because the model is then effectively fitted to the test '
-           'data.', {0: 'Paragraph 5 identifies the loop.'}),
+           'data.',
+           {0: 'Paragraph 5 identifies the loop.', 1: 'Paragraph 6 describes the forward run and review.', 3: 'Paragraph 8 describes the slow loop through review.'}),
           (
            'The held-back years are excluded from the fitting on '
            'purpose.', ['True', 'False', 'Not Given'], 0,
@@ -860,28 +881,37 @@ UNIT = dict(
          items=[
           ('How many components does the diagram have?',
            ['seven', 'eight', 'nine', 'ten'], 2,
-           'With ten movements between them.'),
+           'With ten movements between them.',
+           {0: 'Fewer than the components he counts.', 1: 'One short of the number of components.', 3: 'Ten is the number of movements, not components.'}),
           ('Choosing the structure is described as',
            ['mechanical', 'a judgement', 'automated', 'arbitrary'], 1,
-           'Two good teams given the same data may choose differently.'),
+           'Two good teams given the same data may choose differently.',
+           {0: 'Fitting is the mechanical step, not structure.', 2: 'Automation belongs to the fitting routine.', 3: 'He says both teams could defend their choice.'}),
           ('The step with the least judgement in it is',
-           ['choosing structure', 'fitting', 'the hindcast',
-            'annual review'], 1,
-           'He says a clerk could supervise it.'),
+           ['choosing structure', 'fitting', 'the hindcast', 'annual review'],
+           1, 'He says a clerk could supervise it.',
+           {0: 'Choosing structure is the judgement he contrasts it '
+               'with.', 2: 'The hindcast is the test, which requires choices about '
+               'tolerance.', 3: 'Annual review compares the range with the outturn.'}),
           ('The held-back years are excluded from fitting because',
-           ['they are unreliable', 'a model tested on its own fitting data '
-            'always looks good', 'they are too recent', 'they are '
-            'incomplete'], 1,
-           'And such tests are still published.'),
-          ('A model adjusted repeatedly until it matches the held-back '
+           ['they are unreliable', 'a model tested on its own fitting data always looks good', 'they are too recent', 'they are incomplete'],
+           1, 'And such tests are still published.',
+           {0: 'The held-back years are as reliable as the rest.', 2: 'Recency is not why they are excluded.', 3: 'They are complete, which is why they can test the '
+               'model.'}),
+          (
+           'A model adjusted repeatedly until it matches the held-back '
            'years has effectively been',
            ['validated', 'fitted to them', 'improved', 'simplified'], 1,
-           'So the test has stopped being a test.'),
+           'So the test has stopped being a test.',
+           {0: 'Validation is what the hindcast was supposed to '
+               'provide.', 2: 'Matching the test years is not an improvement in the '
+               'model.', 3: 'Repeated adjustment does not simplify anything.'}),
           ('The problem he says nobody has solved concerns',
-           ['computing cost', 'a forecast changing the behaviour it '
-            'forecasts', 'missing data', 'staff turnover'], 1,
+           ['computing cost', 'a forecast changing the behaviour it forecasts', 'missing data', 'staff turnover'],
+           1,
            'So that later refits use data the earlier version helped '
-           'produce.')])],
+           'produce.',
+           {0: 'Computing cost is not the unsolved problem he names.', 2: 'Missing data is not the difficulty he describes.', 3: 'Staffing is not mentioned in the lecture.'})])],
    speak=dict(
     part='Part 3', focus='Testing a model',
     intro=('Five or six sentences. Try once to explain why a test can stop '
@@ -1123,21 +1153,21 @@ UNIT = dict(
           'third is the one scarcely anybody asks.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['Correlated error', 'Why models are related',
-            'Detecting dependency', 'What an ensemble provides'], 1,
-           'Shared training, shared departments and inherited code.'),
+           ['Correlated error', 'Why models are related', 'Detecting dependency', 'What an ensemble provides'],
+           1, 'Shared training, shared departments and inherited code.',
+           {0: 'Correlated error is paragraph 3.', 2: 'Detecting dependency is paragraphs 4 and 5.', 3: 'What an ensemble provides is paragraph 7.'}),
           ('Choose the best heading for paragraph 7.',
-           ['Correlated error', 'The presentational problem',
-            'What an ensemble actually provides',
-            'The reading test'], 2,
+           ['Correlated error', 'The presentational problem', 'What an ensemble actually provides', 'The reading test'],
+           2,
            'A lower bound on uncertainty, not a distribution over '
-           'outcomes.'),
+           'outcomes.',
+           {0: 'Correlated error is paragraph 3.', 1: 'The presentational problem is paragraph 8.', 3: 'The reading test is paragraph 11.'}),
           ('Choose the best heading for paragraph 10.',
            ['Why models are related', 'Why this is not an argument against models', 'The reading test', 'Detecting dependency'],
            1,
            'A model wrong in knowable ways beats an intuition wrong in '
            'unknowable ones.',
-           {0: 'Why models are related is the heading for paragraph 2.'}),
+           {0: 'Why models are related is the heading for paragraph 2.', 2: 'The reading test is paragraph 11.', 3: 'Detecting dependency is paragraphs 4 and 5.'}),
           (
            'The writer believes agreement among models is strong '
            'evidence that an answer is right.',
@@ -1219,29 +1249,37 @@ UNIT = dict(
          items=[
           ('The word that is almost never checked is',
            ['accurate', 'independent', 'calibrated', 'validated'], 1,
-           'Which the textbook reasoning rests on entirely.'),
-          ('The mid-2000s survey found that models from different '
-           'institutions', ['used different methods', 'shared substantial '
-            'sections of code', 'disagreed sharply', 'were '
-            'unpublished'], 1,
-           'In some cases without either group knowing.'),
+           'Which the textbook reasoning rests on entirely.',
+           {0: 'Accuracy is what the agreement is taken to indicate.', 2: 'Calibration is a separate step in model building.', 3: 'Validation is the purpose, not the unchecked word.'}),
+          (
+           'The mid-2000s survey found that models from different '
+           'institutions',
+           ['used different methods', 'shared substantial sections of code', 'disagreed sharply', 'were unpublished'],
+           1, 'In some cases without either group knowing.',
+           {0: 'The finding was shared code, not different methods.', 2: 'Sharp disagreement would be evidence of independence.', 3: 'The models were published and surveyed.'}),
           ('Ensemble spread measures',
-           ['distance from the truth', 'how far models are from each '
-            'other', 'parameter uncertainty only', 'forecast error'], 1,
-           'Which is why it understates the uncertainty.'),
+           ['distance from the truth', 'how far models are from each other', 'parameter uncertainty only', 'forecast error'],
+           1, 'Which is why it understates the uncertainty.',
+           {0: 'Distance from the truth is what spread does not '
+               'measure.', 2: 'Spread includes some structural variation across '
+               'models.', 3: 'Forecast error is measured against the outturn '
+               'instead.'}),
           ('The structural check counts',
-           ['models', 'distinct assumptions represented',
-            'institutions', 'publications'], 1,
-           'Finding four or five across twenty models.'),
+           ['models', 'distinct assumptions represented', 'institutions', 'publications'],
+           1, 'Finding four or five across twenty models.',
+           {0: 'Counting models is what the structural check corrects.', 2: 'Institutions are what the shared code crosses.', 3: 'Publications are not what is counted.'}),
           ('An ensemble provides',
-           ['a probability distribution', 'a lower bound on '
-            'uncertainty', 'a central estimate', 'a validation'], 1,
-           'Which the lecturer admits he has himself misrepresented.'),
-          ('Where the third question has been asked, past ensembles '
-           'contained the outturn', ['more often than implied',
-            'less often than implied', 'exactly as implied',
-            'always'], 1,
-           'Which is the question almost nobody asks.')])],
+           ['a probability distribution', 'a lower bound on uncertainty', 'a central estimate', 'a validation'],
+           1,
+           'Which the lecturer admits he has himself misrepresented.',
+           {0: 'He says it is presented as one and is not.', 2: 'A central estimate is a separate output.', 3: 'Validation is what agreement is wrongly taken for.'}),
+          (
+           'Where the third question has been asked, past ensembles '
+           'contained the outturn',
+           ['more often than implied', 'less often than implied', 'exactly as implied', 'always'],
+           1, 'Which is the question almost nobody asks.',
+           {0: 'That would make the spread conservative, which it is '
+               'not.', 2: 'The answer was uncomfortable, not reassuring.', 3: 'Past ensembles have missed the outturn.'})])],
    speak=dict(
     part='Part 3', focus='Agreement and truth',
     followup=[(('You say agreement is not proof. Why do people find agreement '
@@ -1487,23 +1525,28 @@ UNIT = dict(
           'distance between those two things is exactly what is not '
           'shown.'],
          items=[
-          ('Which paragraph explains why structural uncertainty cannot be '
-           'explored by varying parameters?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
+          (
+           'Which paragraph explains why structural uncertainty cannot '
+           'be explored by varying parameters?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
            'A model has no way of representing its own absence of a '
-           'term.'),
-          ('Which paragraph answers the objection that deep uncertainty '
-           'licenses inaction?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
-           'Robust planning rather than paralysis.'),
-          ('Which paragraph describes the objection as commercial rather '
-           'than scientific?',
-           ['Paragraph 8', 'Paragraph 9', 'Paragraph 10',
-            'Paragraph 11'], 2,
-           'A report carrying the sentence is harder to commission work '
-           'from.'),
+           'term.',
+           {0: 'Paragraph 2 describes parametric uncertainty.', 2: 'Paragraph 4 explains what an ensemble samples.', 3: 'Paragraph 5 describes deep uncertainty.'}),
+          (
+           'Which paragraph answers the objection that deep '
+           'uncertainty licenses inaction?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1, 'Robust planning rather than paralysis.',
+           {0: 'Paragraph 5 describes deep uncertainty itself.', 2: 'Paragraph 7 contrasts optimising with robustness.', 3: 'Paragraph 8 describes the recurring cycle.'}),
+          (
+           'Which paragraph describes the objection as commercial '
+           'rather than scientific?',
+           ['Paragraph 8', 'Paragraph 9', 'Paragraph 10', 'Paragraph 11'],
+           2,
+           'A report carrying the sentence is harder to commission '
+           'work from.',
+           {0: 'Paragraph 8 describes the recurring cycle.', 1: 'Paragraph 9 gives the sentence that would help.', 3: 'Paragraph 11 proposes a funder requirement.'}),
           (
            'The writer believes deep uncertainty makes planning '
            'impossible.', ['Yes', 'No', 'Not Given'], 1,
@@ -1693,36 +1736,38 @@ UNIT = dict(
            'treating it as a scientific one.')],
          items=[
           ('Fairweather-Oduya opens by conceding that',
-           ['the models are wrong', 'labelling a band is not the same as '
-            'communicating', 'the data are poor', 'the bands are too '
-            'wide'], 1,
-           'Which her field has been hiding behind for twenty years.'),
-          ('Nakamura-Belluomini’s own concession is that his field',
-           ['overstates uncertainty', 'is vague about how to plan for '
-            'deep uncertainty', 'ignores models', 'is too '
-            'mathematical'], 1,
-           '"Choose robust options" is not advice until something is given '
-           'up.'),
+           ['the models are wrong', 'labelling a band is not the same as communicating', 'the data are poor', 'the bands are too wide'],
+           1,
+           'Which her field has been hiding behind for twenty years.',
+           {0: 'She does not concede that the models are wrong.', 2: 'Data quality is not what she concedes.', 3: 'She says the bands are read as wider than they are.'}),
+          (
+           'Nakamura-Belluomini\u2019s own concession is that his field',
+           ['overstates uncertainty', 'is vague about how to plan for deep uncertainty', 'ignores models', 'is too mathematical'],
+           1,
+           '"Choose robust options" is not advice until something is '
+           'given up.',
+           {0: 'He argues the published uncertainty is understated.', 2: 'He works with models rather than ignoring them.', 3: 'Mathematical difficulty is not his concession.'}),
           ('The robustness premium in infrastructure cases is',
-           ['under five per cent', 'eight to twenty per cent',
-            'about half', 'unmeasurable'], 1,
-           'Measured against the optimised net benefit in those '
-           'cases.'),
-          ('The connection between their two confessions is that an '
+           ['under five per cent', 'eight to twenty per cent', 'about half', 'unmeasurable'],
+           1,
+           'Measured against the optimised net benefit in those cases.',
+           {0: 'Lower than the range he gives.', 2: 'Far higher than the premium he reports.', 3: 'He gives a measured range for those cases.'}),
+          (
+           'The connection between their two confessions is that an '
            'understated band makes robustness look',
-           ['cheaper', 'more expensive than it is', 'unnecessary',
-            'compulsory'], 1,
-           'Because the insurance is priced against the wrong risk.'),
+           ['cheaper', 'more expensive than it is', 'unnecessary', 'compulsory'],
+           1, 'Because the insurance is priced against the wrong risk.',
+           {0: 'A narrow band makes robustness look dear, not cheap.', 2: 'Necessity is what a wider band would show.', 3: 'Nothing compels the robust choice.'}),
           ('What does he ask her for?',
-           ['a wider band', 'one sentence as prominent as the band',
-            'a new model', 'an ensemble'], 1,
-           'Naming what the band does not cover.'),
+           ['a wider band', 'one sentence as prominent as the band', 'a new model', 'an ensemble'],
+           1, 'Naming what the band does not cover.',
+           {0: 'A wider band is not what he asks for.', 2: 'No new model is requested.', 3: 'An ensemble is what she already publishes.'}),
           ('Why does she say she would be signing it alone?',
-           ['nobody agrees', 'a report carrying it is easier to attack '
-            'and loses contracts', 'it is unpublishable', 'it is '
-            'untrue'], 1,
-           'Which makes it a procurement question rather than a scientific '
-           'one.')]),
+           ['nobody agrees', 'a report carrying it is easier to attack and loses contracts', 'it is unpublishable', 'it is untrue'],
+           1,
+           'Which makes it a procurement question rather than a '
+           'scientific one.',
+           {0: 'He agrees with her, so not nobody.', 2: 'The sentence could be published; it would cost her.', 3: 'She says she would sign it, so she holds it true.'})]),
     dict(heading='A plan of the field station',
          part='Part 2', task='Map labelling and matching',
          band='l2',

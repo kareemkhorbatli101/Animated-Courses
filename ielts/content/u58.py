@@ -78,11 +78,12 @@ UNIT = dict(
            'people should be prepared to change ____________.', None,
            'plans',
            'Paragraph 1, between yellow and red.'),
-          ('A red warning may be issued for a less extreme event than an '
-           'amber one where', ['the area is larger', 'the impact would be '
-            'greater', 'more people complain', 'the forecast is '
-            'later'], 1,
-           'Paragraph 2: level combines likelihood with impact.'),
+          (
+           'A red warning may be issued for a less extreme event than '
+           'an amber one where',
+           ['the area is larger', 'the impact would be greater', 'more people complain', 'the forecast is later'],
+           1, 'Paragraph 2: level combines likelihood with impact.',
+           {0: 'Area is not what paragraph 2 weighs.', 2: 'Complaints play no part in setting the level.', 3: 'Lead time belongs to paragraph 3, not the level.'}),
           ('Red warnings are issued with at least ____________ hours’ '
            'notice where possible.', None, 'twelve',
            'Paragraph 3, because of the actions required.'),
@@ -90,13 +91,14 @@ UNIT = dict(
            'number.', None, 'reference',
            'Paragraph 4, so the sequence of upgrades is visible.'),
           ('The probability threshold for a red warning is',
-           ['five per cent', 'twenty per cent', 'fifty per cent',
-            'eighty per cent'], 1,
-           'Paragraph 5, lower than most people assume.'),
+           ['five per cent', 'twenty per cent', 'fifty per cent', 'eighty per cent'],
+           1, 'Paragraph 5, lower than most people assume.',
+           {0: 'Five per cent is lower than the stated threshold.', 2: 'Fifty per cent is what many people assume.', 3: 'Eighty per cent would miss most of the events.'}),
           ('A red warning not followed by the event is',
-           ['an error', 'not an error', 'reported as a failure',
-            'downgraded retrospectively'], 1,
-           'Paragraph 6: twenty per cent means one occurrence in five.')]),
+           ['an error', 'not an error', 'reported as a failure', 'downgraded retrospectively'],
+           1,
+           'Paragraph 6: twenty per cent means one occurrence in five.',
+           {0: 'Paragraph 6 says it is not an error.', 2: 'No failure is reported for an unrealised warning.', 3: 'Warnings are updated, not downgraded afterwards.'})]),
     dict(heading='What to do at each level',
          kind='Procedure notice', task='Flow-chart completion',
          band='gt_short', qtype='Questions 7-10',
@@ -430,24 +432,29 @@ UNIT = dict(
            'only honest response to that is to publish the gap rather than '
            'to close it by warning less.')],
          items=[
-          ('The difficulty of the job, he says, comes from the fact that',
-           ['both mistakes are costly', 'only one kind of mistake is '
-            'counted', 'forecasts are poor', 'the public does not '
-            'listen'], 1,
-           'Of the two kinds any warning system makes.'),
+          (
+           'The difficulty of the job, he says, comes from the fact '
+           'that',
+           ['both mistakes are costly', 'only one kind of mistake is counted', 'forecasts are poor', 'the public does not listen'],
+           1, 'Of the two kinds any warning system makes.',
+           {0: 'Both are costly, but only one is counted.', 2: 'He does not blame the quality of forecasts.', 3: 'Public attention is not the source of the difficulty.'}),
           ('The thing nobody can see at all is',
-           ['a missed event', 'an unnecessary warning',
-            'a warning that worked', 'a late warning'], 2,
-           'Indistinguishable from a false alarm from outside.'),
-          ('An official optimising for how their performance looks will',
-           ['warn too often', 'warn too rarely', 'warn correctly',
-            'avoid deciding'], 1,
-           'While one optimising for outcomes will warn too often.'),
-          ('Publishing the false alarm rate changes complaints from saying '
-           'you were wrong to asking whether the',
-           ['forecast was accurate', 'threshold is right', 'warning was '
-            'timely', 'area was correct'], 1,
-           'Which he calls a conversation worth having.')]),
+           ['a missed event', 'an unnecessary warning', 'a warning that worked', 'a late warning'],
+           2, 'Indistinguishable from a false alarm from outside.',
+           {0: 'A missed event is visible and pointed at afterwards.', 1: 'An unnecessary warning is the most visible of all.', 3: 'Lateness is not one of his three outcomes.'}),
+          (
+           'An official optimising for how their performance looks '
+           'will',
+           ['warn too often', 'warn too rarely', 'warn correctly', 'avoid deciding'],
+           1, 'While one optimising for outcomes will warn too often.',
+           {0: 'Warning too often is the outcome-optimiser\u2019s error.', 2: 'Correctness is what neither incentive produces.', 3: 'Avoidance is not the behaviour he predicts.'}),
+          (
+           'Publishing the false alarm rate changes complaints from '
+           'saying you were wrong to asking whether the',
+           ['forecast was accurate', 'threshold is right', 'warning was timely', 'area was correct'],
+           1, 'Which he calls a conversation worth having.',
+           {0: 'Accuracy of the forecast is the old complaint, not the '
+               'new one.', 2: 'Timeliness is not what the complaints turn to.', 3: 'The warning area is not raised in the new complaints.'})]),
     dict(heading='Two officers disagree about false alarms', part='Part 3',
          task='A discussion between two emergency officers', band='l3',
          qtype='Questions 27-32',
@@ -499,31 +506,40 @@ UNIT = dict(
            'it settles an argument we have been having since I '
            'arrived.')],
          items=[
-          ('Thaddeus’s substantive reason for raising the threshold is',
-           ['cost', 'falling compliance', 'staff shortages',
-            'political pressure'], 1,
-           'A third of the street staying put on the fifth occasion.'),
-          ('Marguerite says compliance fell because people were not told',
-           ['the forecast', 'the base rate', 'the cost', 'the '
-            'area'], 1,
-           'And so inferred that the service cries wolf.'),
+          (
+           'Thaddeus\u2019s substantive reason for raising the threshold is',
+           ['cost', 'falling compliance', 'staff shortages', 'political pressure'],
+           1,
+           'A third of the street staying put on the fifth occasion.',
+           {0: 'Cost is not the substantive reason he gives.', 2: 'Staffing is not mentioned as a reason.', 3: 'He admits the front pages are only part of it.'}),
+          (
+           'Marguerite says compliance fell because people were not '
+           'told',
+           ['the forecast', 'the base rate', 'the cost', 'the area'], 1,
+           'And so inferred that the service cries wolf.',
+           {0: 'The forecast was given; the base rate was not.', 2: 'Cost is not what she says was withheld.', 3: 'The area was not the missing information.'}),
           ('Her evidence is one service whose compliance held at',
-           ['sixty per cent', 'eighty per cent', 'ninety per cent',
-            'full compliance'], 1,
-           'Across six warnings, three of them false alarms.'),
-          ('She answers "one service, one season" by saying it is more '
+           ['sixty per cent', 'eighty per cent', 'ninety per cent', 'full compliance'],
+           1, 'Across six warnings, three of them false alarms.',
+           {0: 'Sixty per cent is below the figure she reports.', 2: 'Ninety per cent overstates her one example.', 3: 'Compliance held at eighty, not in full.'}),
+          (
+           'She answers "one service, one season" by saying it is more '
            'evidence than exists for',
-           ['publishing rates', 'raising the threshold', 'door-to-door '
-            'surveys', 'evacuation'], 1,
-           'Which she says has never been evaluated.'),
-          ('Thaddeus’s remaining objection is that his option has a cost '
-           'that is', ['smaller', 'quantifiable in advance',
-            'political', 'temporary'], 1,
-           'While hers is discovered afterwards.'),
+           ['publishing rates', 'raising the threshold', 'door-to-door surveys', 'evacuation'],
+           1, 'Which she says has never been evaluated.',
+           {0: 'Publishing rates is her own proposal, not his.', 2: 'Surveys are the step they agree on later.', 3: 'Evacuation itself is not what she says is unevaluated.'}),
+          (
+           'Thaddeus\u2019s remaining objection is that his option has a '
+           'cost that is',
+           ['smaller', 'quantifiable in advance', 'political', 'temporary'],
+           1, 'While hers is discovered afterwards.',
+           {0: 'He does not claim the cost is smaller.', 2: 'Political cost is what he sets aside as only part of '
+               'it.', 3: 'Nothing is said about the cost being temporary.'}),
           ('Their agreed next step is to',
-           ['raise the threshold', 'measure compliance this season',
-            'publish the rate', 'consult the public'], 1,
-           'Using a sample of forty households.')])],
+           ['raise the threshold', 'measure compliance this season', 'publish the rate', 'consult the public'],
+           1, 'Using a sample of forty households.',
+           {0: 'Raising the threshold is the proposal they leave open.', 2: 'Publishing the rate is her proposal, not the agreed '
+               'step.', 3: 'Consultation is not what they agree to do.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Acting in advance',
     longturn=[('The warning I acted on was an amber alert for a storm, issued '
@@ -739,17 +755,17 @@ UNIT = dict(
           ('Which paragraph identifies the crossing as the finding?',
            ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
            2, 'True for the first five days and false thereafter.',
-           {3: 'Paragraph 6 explains what each method relies on.'}),
+           {0: 'Paragraph 3 gives the numerical model\u2019s figures.', 1: 'Paragraph 4 gives the statistical method\u2019s figures.', 3: 'Paragraph 6 explains what each method relies on.'}),
           ('Which paragraph explains what each method relies on?',
            ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
            2,
            'The current atmospheric state against large-scale '
            'patterns.',
-           {1: 'Paragraph 5 identifies the crossing as the finding.', 3: 'Paragraph 7 warns about headline skill figures.'}),
+           {0: 'Paragraph 4 gives the statistical method\u2019s figures.', 1: 'Paragraph 5 identifies the crossing as the finding.', 3: 'Paragraph 7 warns about headline skill figures.'}),
           ('Which paragraph warns about headline skill figures?',
            ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
            2, 'A figure is meaningless unless the lead time is stated.',
-           {0: 'Paragraph 5 identifies the crossing as the finding.', 1: 'Paragraph 6 explains what each method relies on.'}),
+           {0: 'Paragraph 5 identifies the crossing as the finding.', 1: 'Paragraph 6 explains what each method relies on.', 3: 'Paragraph 4 gives the statistical method\u2019s figures.'}),
           ('Persistence scores ____________ at seventy-two hours.', None,
            '18', 'Paragraph 2, down from 86 at six hours.'),
           ('The numerical model reaches ____________ at a week.', None,
@@ -810,28 +826,37 @@ UNIT = dict(
            'what a press office wants, and a single number is exactly what '
            'this chart shows you cannot honestly give them.')],
          items=[
-          ('He says that when all series share a direction, the direction '
-           'is', ['the finding', 'not the finding', 'misleading',
-            'unreliable'], 1,
-           'Because it could have been guessed.'),
-          ('Persistence at six hours scores',
-           ['55', '78', '86', '92'], 2,
-           'Which he says people find shocking and should not.'),
+          (
+           'He says that when all series share a direction, the '
+           'direction is',
+           ['the finding', 'not the finding', 'misleading', 'unreliable'],
+           1, 'Because it could have been guessed.',
+           {0: 'He says the shared direction is not the finding.', 2: 'He does not call the direction misleading, only '
+               'uninformative.', 3: 'Reliability is not what he questions about it.'}),
+          ('Persistence at six hours scores', ['55', '78', '86', '92'],
+           2, 'Which he says people find shocking and should not.',
+           {0: '55 is persistence at twenty-four hours.', 1: '78 is where the statistical method starts.', 3: '92 is where the numerical model starts.'}),
           ('The numerical model is the best method up to about',
            ['two days', 'three days', 'five days', 'a week'], 2,
-           'Starting highest at ninety-two.'),
+           'Starting highest at ninety-two.',
+           {0: 'Two days is where it scores seventy-four, not its '
+               'limit.', 1: 'Three days is not the crossing point he gives.', 3: 'By a week the statistical method has overtaken it.'}),
           ('The statistical method starts',
-           ['highest', 'lowest of the three', 'second', 'equal with '
-            'persistence'], 1,
-           'And declines most gently of all.'),
-          ('Numerical models rely on the current state of the atmosphere, '
-           'whose influence', ['grows', 'decays', 'stays constant',
-            'reverses'], 1,
-           'As the system forgets its starting point.'),
-          ('His practical rule is that a skill figure means nothing '
-           'without', ['a sample size', 'a lead time attached',
-            'a confidence interval', 'a baseline'], 1,
-           'Which he says is missing from most press releases.')])],
+           ['highest', 'lowest of the three', 'second', 'equal with persistence'],
+           1, 'And declines most gently of all.',
+           {0: 'The numerical model starts highest at ninety-two.', 2: 'Persistence at eighty-six is second, not this method.', 3: 'Persistence starts at eighty-six, eight points higher.'}),
+          (
+           'Numerical models rely on the current state of the '
+           'atmosphere, whose influence',
+           ['grows', 'decays', 'stays constant', 'reverses'], 1,
+           'As the system forgets its starting point.',
+           {0: 'The influence decays rather than growing.', 2: 'It does not stay constant; that is the point.', 3: 'Nothing reverses in his explanation.'}),
+          (
+           'His practical rule is that a skill figure means nothing '
+           'without',
+           ['a sample size', 'a lead time attached', 'a confidence interval', 'a baseline'],
+           1, 'Which he says is missing from most press releases.',
+           {0: 'Sample size is not what he says is missing.', 2: 'Confidence intervals are not his practical rule.', 3: 'A baseline is not the figure he requires.'})])],
    speak=dict(
     part='Part 3', focus='Measuring a prediction',
     intro=('Five or six sentences. Try once to say that the best method '
@@ -1073,19 +1098,20 @@ UNIT = dict(
           'accuracy claim, which should be treated as a warning in itself.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['Why base rates matter', 'The arithmetic worked through',
-            'Raising the threshold', 'Telling people the rate'], 1,
-           'A thousand days, one real event, ten false alarms.'),
+           ['Why base rates matter', 'The arithmetic worked through', 'Raising the threshold', 'Telling people the rate'],
+           1, 'A thousand days, one real event, ten false alarms.',
+           {0: 'Why base rates matter is paragraph 3.', 2: 'Raising the threshold is paragraph 6.', 3: 'Telling people the rate is paragraph 8.'}),
           ('Choose the best heading for paragraph 6.',
-           ['The arithmetic', 'Raising the threshold and what it costs',
-            'Designing around the rate', 'The institutional '
-            'difficulty'], 1,
-           'Real events cluster near the threshold rather than far above '
-           'it.'),
+           ['The arithmetic', 'Raising the threshold and what it costs', 'Designing around the rate', 'The institutional difficulty'],
+           1,
+           'Real events cluster near the threshold rather than far '
+           'above it.',
+           {0: 'The arithmetic is worked through in paragraph 2.', 2: 'Designing around the rate is paragraph 7.', 3: 'The institutional difficulty is paragraph 10.'}),
           ('Choose the best heading for paragraph 10.',
-           ['Designing around the rate', 'Telling people in advance',
-            'Why the pressure runs one way', 'The question to ask'], 2,
-           'Officials judged by people who do not know the base rate.'),
+           ['Designing around the rate', 'Telling people in advance', 'Why the pressure runs one way', 'The question to ask'],
+           2,
+           'Officials judged by people who do not know the base rate.',
+           {0: 'Designing around the rate is paragraph 7.', 1: 'Telling people in advance is paragraph 8.', 3: 'The question to ask is paragraph 12.'}),
           (
            'The writer believes a high false alarm rate indicates a '
            'faulty detector.', ['Yes', 'No', 'Not Given'], 1,
@@ -1161,32 +1187,42 @@ UNIT = dict(
            'the base rate is almost never printed next to the accuracy '
            'claim.')],
          items=[
-          ('In the worked example, how many false alarms occur in a '
-           'thousand days?', ['one', 'about ten', 'ninety-nine',
-            'a hundred'], 1,
-           'Against one real event that is caught.'),
+          (
+           'In the worked example, how many false alarms occur in a '
+           'thousand days?',
+           ['one', 'about ten', 'ninety-nine', 'a hundred'], 1,
+           'Against one real event that is caught.',
+           {0: 'One is the number of real events, not false alarms.', 2: 'Ninety-nine per cent is the detector\u2019s accuracy.', 3: 'A hundred is not a figure in the example.'}),
           ('The proportion of alarms that are false is',
-           ['one per cent', 'ten per cent', 'ninety per cent',
-            'ninety-nine per cent'], 2,
-           'From a detector accurate in both directions.'),
-          ('Halving the miss rate achieves almost nothing because misses '
-           'are', ['uncounted', 'already rare', 'unreported',
-            'expensive'], 1,
-           'While halving the false alarm rate halves the alarms.'),
-          ('Raising the threshold loses detections faster than expected '
-           'because real events', ['are mismeasured', 'cluster just above '
-            'the threshold', 'occur at night', 'are '
-            'under-reported'], 1,
-           'Rather than far above the threshold, so detections fall fast.'),
-          ('A high false alarm rate is affordable where an alarm triggers',
-           ['an evacuation', 'a cheap confirmatory step', 'a report',
-            'a shutdown'], 1,
-           'As in medical screening programmes.'),
+           ['one per cent', 'ten per cent', 'ninety per cent', 'ninety-nine per cent'],
+           2, 'From a detector accurate in both directions.',
+           {0: 'One per cent is the false alarm rate per ordinary day.', 1: 'Ten is the number of false alarms, not the percentage.', 3: 'Ninety-nine per cent is the detector\u2019s accuracy.'}),
+          (
+           'Halving the miss rate achieves almost nothing because '
+           'misses are',
+           ['uncounted', 'already rare', 'unreported', 'expensive'], 1,
+           'While halving the false alarm rate halves the alarms.',
+           {0: 'Misses are counted; they are simply rare.', 2: 'Under-reporting is not the reason he gives.', 3: 'Expense is not why halving misses achieves little.'}),
+          (
+           'Raising the threshold loses detections faster than '
+           'expected because real events',
+           ['are mismeasured', 'cluster just above the threshold', 'occur at night', 'are under-reported'],
+           1,
+           'Rather than far above the threshold, so detections fall '
+           'fast.',
+           {0: 'Mismeasurement is not the reason he gives.', 2: 'Nothing in the lecture concerns the time of day.', 3: 'Under-reporting is not part of this explanation.'}),
+          (
+           'A high false alarm rate is affordable where an alarm '
+           'triggers',
+           ['an evacuation', 'a cheap confirmatory step', 'a report', 'a shutdown'],
+           1, 'As in medical screening programmes.',
+           {0: 'An evacuation is the expensive action to avoid.', 2: 'A report is not the cheap step he describes.', 3: 'A shutdown is an expensive action, not a cheap one.'}),
           ('If people are not told the rate, their estimate of it is',
-           ['accurate', 'always worse than the truth', 'too '
-            'optimistic', 'unstable'], 1,
-           'Because repeated false alarms are more memorable than quiet '
-           'periods.')])],
+           ['accurate', 'always worse than the truth', 'too optimistic', 'unstable'],
+           1,
+           'Because repeated false alarms are more memorable than '
+           'quiet periods.',
+           {0: 'An inferred estimate is not accurate, he says.', 2: 'The estimate is pessimistic rather than optimistic.', 3: 'He calls the inference durable rather than unstable.'})])],
    speak=dict(
     part='Part 3', focus='Rare events',
     followup=[(('You say you would act again. How should governments decide '
@@ -1438,10 +1474,11 @@ UNIT = dict(
           'ordinarily answer very well.'],
          items=[
           ('Which paragraph defines calibration?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
            'Events assigned thirty per cent occurring about thirty per '
-           'cent of the time.'),
+           'cent of the time.',
+           {0: 'Paragraph 2 sets out the technical position.', 2: 'Paragraph 4 explains why the omission matters.', 3: 'Paragraph 5 gives the single-occasion difficulty.'}),
           (
            'Which paragraph says the demand for a single answer is '
            'more reasonable than forecasters acknowledge?',
@@ -1449,13 +1486,14 @@ UNIT = dict(
            1,
            'The asker is requesting a recommendation, not confused '
            'about probability.',
-           {3: 'Paragraph 8 describes the paired probability and '
+           {0: 'Paragraph 5 gives the single-occasion difficulty.', 2: 'Paragraph 7 gives the honest counter.', 3: 'Paragraph 8 describes the paired probability and '
                'conditional recommendation.'}),
-          ('Which paragraph describes the paired probability and '
+          (
+           'Which paragraph describes the paired probability and '
            'conditional recommendation?',
-           ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',
-            'Paragraph 10'], 1,
-           'With a stated case the reader can substitute into.'),
+           ['Paragraph 7', 'Paragraph 8', 'Paragraph 9', 'Paragraph 10'],
+           1, 'With a stated case the reader can substitute into.',
+           {0: 'Paragraph 7 gives the honest counter.', 2: 'Paragraph 9 reports what happened where it was tried.', 3: 'Paragraph 10 describes the cost of the protection.'}),
           (
            'The writer believes a thirty per cent forecast is refuted '
            'by the event occurring.',
@@ -1536,30 +1574,34 @@ UNIT = dict(
            'currently do not, and I would rather be criticised for a real '
            'failing than defended for a false one.')],
          items=[
-          ('Beckwith-Nakamura opens by admitting he called a forecast a '
-           'failure', ['by mistake', 'knowing it was not',
-            'on advice', 'after a review'], 1,
-           'Describing it as a useful sentence in a difficult week.'),
+          (
+           'Beckwith-Nakamura opens by admitting he called a forecast '
+           'a failure',
+           ['by mistake', 'knowing it was not', 'on advice', 'after a review'],
+           1, 'Describing it as a useful sentence in a difficult week.',
+           {0: 'He says he knew it was not a failure.', 2: 'No advice is mentioned behind the sentence.', 3: 'No review preceded the sentence he admits to.'}),
           ('Oyelaran-Strand says her profession hides behind',
-           ['the data', 'the arithmetic about probabilities',
-            'its procedures', 'its independence'], 1,
-           'Instead of answering the question it was asked.'),
+           ['the data', 'the arithmetic about probabilities', 'its procedures', 'its independence'],
+           1, 'Instead of answering the question it was asked.',
+           {0: 'The data are not what she says the profession hides '
+               'behind.', 2: 'Procedures are not named as the shield.', 3: 'Independence is not the refuge she admits.'}),
           ('The question she says householders are actually asking is',
-           ['how likely it is', 'what they should do', 'who is '
-            'responsible', 'when it will happen'], 1,
-           'From somebody who knows more than they do.'),
+           ['how likely it is', 'what they should do', 'who is responsible', 'when it will happen'],
+           1, 'From somebody who knows more than they do.',
+           {0: 'Likelihood is what the number already answers.', 2: 'Responsibility is not the question householders ask.', 3: 'Timing is not what she says they want to know.'}),
           ('Her compromise is a probability paired with',
-           ['a confidence interval', 'a conditional recommendation',
-            'a single answer', 'an apology'], 1,
-           'Which the listener substitutes their own situation into.'),
+           ['a confidence interval', 'a conditional recommendation', 'a single answer', 'an apology'],
+           1,
+           'Which the listener substitutes their own situation into.',
+           {0: 'A confidence interval is not her compromise.', 2: 'A single answer is what she declines to give.', 3: 'An apology is not part of the compromise.'}),
           ('She says the bare probability is preferred because it',
-           ['is more accurate', 'is never wrong for anybody',
-            'is quicker', 'is required'], 1,
-           'Whereas a conditional recommendation sometimes will be.'),
+           ['is more accurate', 'is never wrong for anybody', 'is quicker', 'is required'],
+           1, 'Whereas a conditional recommendation sometimes will be.',
+           {0: 'Accuracy is not the advantage she gives.', 2: 'Speed is not why her colleagues prefer it.', 3: 'Nothing requires the bare probability.'}),
           ('What she asks the authority to publish is',
-           ['the forecasts', 'the calibration data', 'the warnings',
-            'the complaints'], 1,
-           'Which is measured already and never disclosed.')])],
+           ['the forecasts', 'the calibration data', 'the warnings', 'the complaints'],
+           1, 'Which is measured already and never disclosed.',
+           {0: 'Forecasts are already published.', 2: 'Warnings are published already as well.', 3: 'Complaints are not what she asks to be published.'})])],
    speak=dict(
     part='Part 3', focus='Probability and advice',
     sounds=[('Probability language must be fast and flat: a one in two hundred '

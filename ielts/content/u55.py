@@ -79,21 +79,27 @@ UNIT = dict(
            'Paragraph 1, with an evening window as well.'),
           ('The supply failed on nineteen days, all between noon and',
            ['two', 'three', 'four', 'six'], 2,
-           'Paragraph 1, which is why the restriction was introduced.'),
+           'Paragraph 1, which is why the restriction was introduced.',
+           {0: 'Earlier than the end of the failure window.', 1: 'Still short of the hour paragraph 1 gives.', 3: 'Later than the end of the window given.'}),
           ('A hosepipe left running delivers in ____________ minutes what '
            'a plot needs in a week.', None, 'eleven',
            'Paragraph 3, the behaviour the failures were traced to.'),
           ('A plot with two water butts draws on mains about',
-           ['half as often', 'a third as often', 'a quarter as often',
-            'the same amount'], 1,
-           'Paragraph 4, the only measure that reduced total draw.'),
+           ['half as often', 'a third as often', 'a quarter as often', 'the same amount'],
+           1, 'Paragraph 4, the only measure that reduced total draw.',
+           {0: 'More often than paragraph 4 reports.', 2: 'Less often than the figure given.', 3: 'Butts reduced the draw rather than leaving it '
+               'unchanged.'}),
           ('A second instance within the season is ____________ by the '
            'committee.', None, 'heard',
            'Paragraph 5, with escalation to tenancy review on a third.'),
-          ('Reports of a breach are not anonymous because an anonymous '
-           'report is almost never', ['believed', 'actionable',
-            'received', 'recorded'], 1,
-           'Paragraph 6, and often concerns a different dispute.')]),
+          (
+           'Reports of a breach are not anonymous because an anonymous '
+           'report is almost never',
+           ['believed', 'actionable', 'received', 'recorded'], 1,
+           'Paragraph 6, and often concerns a different dispute.',
+           {0: 'Belief is not the reason paragraph 6 gives.', 2: 'Anonymous reports are received; they cannot be acted '
+               'on.', 3: 'Reports are recorded whether or not they lead '
+               'anywhere.'})]),
     dict(heading='How disputes are settled',
          kind='Procedure notice', task='Flow-chart completion',
          band='gt_short', qtype='Questions 7-10',
@@ -423,23 +429,24 @@ UNIT = dict(
            'a pressure they never experienced.')],
          items=[
           ('The structure requires a resource that is',
-           ['owned', 'impossible to exclude people from and diminished by '
-            'use', 'scarce and valuable', 'publicly funded'], 1,
-           'Giving each user the same arithmetic.'),
+           ['owned', 'impossible to exclude people from and diminished by use', 'scarce and valuable', 'publicly funded'],
+           1, 'Giving each user the same arithmetic.',
+           {0: 'Ownership is what would break the structure.', 2: 'Scarcity alone does not produce the arithmetic.', 3: 'Public funding is not part of the structure.'}),
           ('The outcome does not require',
-           ['many users', 'greed or short-sightedness', 'a large '
-            'resource', 'weak law'], 1,
-           'A skipper who knows and cares faces the same arithmetic.'),
+           ['many users', 'greed or short-sightedness', 'a large resource', 'weak law'],
+           1,
+           'A skipper who knows and cares faces the same arithmetic.',
+           {0: 'He does not say the number of users is irrelevant.', 2: 'Resource size is not what he rules out.', 3: 'Weak law is not the condition he dismisses.'}),
           ('He says appeals for restraint fail',
-           ['sometimes', 'in a direction, because compliers are selected '
-            'against', 'only where users are many', 'unless '
-            'repeated'], 1,
+           ['sometimes', 'in a direction, because compliers are selected against', 'only where users are many', 'unless repeated'],
+           1,
            'The benefit is captured by whoever does not restrain '
-           'themselves.'),
+           'themselves.',
+           {0: 'He says they fail in a direction, not sometimes.', 2: 'He does not limit the failure to large groups.', 3: 'Repetition does not change the arithmetic.'}),
           ('The fourth fishery, which never declined, he describes as',
-           ['the best governed', 'not a success',
-            'a model for others', 'poorly measured'], 1,
-           'Because nobody has ever been able to fish it hard.')]),
+           ['the best governed', 'not a success', 'a model for others', 'poorly measured'],
+           1, 'Because nobody has ever been able to fish it hard.',
+           {0: 'He says it is not a case of governance at all.', 2: 'He warns against treating it as a model.', 3: 'Measurement is not what he questions about it.'})]),
     dict(heading='Two residents disagree about shared costs',
          part='Part 3', task='A discussion between two residents',
          band='l3', qtype='Questions 27-32',
@@ -493,29 +500,32 @@ UNIT = dict(
            'than me. Put it in the proposal that way.')],
          items=[
           ('Thomasina begins by accepting that',
-           ['the courtyard is clean', 'four flats pay and nine benefit',
-            'compulsion is needed', 'the rota works'], 1,
-           'Which she calls unjust and unstable.'),
+           ['the courtyard is clean', 'four flats pay and nine benefit', 'compulsion is needed', 'the rota works'],
+           1, 'Which she calls unjust and unstable.',
+           {0: 'Cleanliness of the courtyard is not what she concedes.', 2: 'Compulsion for the courtyard she accepts later, '
+               'separately.', 3: 'No rota is part of this dispute.'}),
           ('Her objection concerns',
-           ['the courtyard', 'compulsion as a principle extending to the '
-            'roof garden', 'the cost', 'the committee'], 1,
-           'Which Casimir’s argument would also cover.'),
+           ['the courtyard', 'compulsion as a principle extending to the roof garden', 'the cost', 'the committee'],
+           1, 'Which Casimir\u2019s argument would also cover.',
+           {0: 'She accepts compulsion for the courtyard.', 2: 'Cost comes in only at the window boxes.', 3: 'The committee is not what she objects to.'}),
           ('The test she proposes is whether somebody can be',
-           ['charged', 'excluded from the benefit', 'identified',
-            'consulted'], 1,
-           'Nobody can be excluded from a clean courtyard.'),
+           ['charged', 'excluded from the benefit', 'identified', 'consulted'],
+           1, 'Nobody can be excluded from a clean courtyard.',
+           {0: 'Charging is what follows from the test, not the test.', 2: 'Identifying users is not the question she asks.', 3: 'Consultation is not part of her test.'}),
           ('She says the principle is',
-           ['hers', 'about two hundred years old', 'new',
-            'contested'], 1,
-           'And explains why street lighting is taxed and gyms are not.'),
+           ['hers', 'about two hundred years old', 'new', 'contested'],
+           1,
+           'And explains why street lighting is taxed and gyms are '
+           'not.',
+           {0: 'She says explicitly that it is not hers.', 2: 'She dates it back about two hundred years.', 3: 'She treats it as settled, with examples.'}),
           ('The bin store falls on the compulsory side because',
-           ['it has a key', 'rats do not respect the key',
-            'everybody uses it', 'it is expensive'], 1,
-           'So the benefit of cleaning reaches everybody.'),
+           ['it has a key', 'rats do not respect the key', 'everybody uses it', 'it is expensive'],
+           1, 'So the benefit of cleaning reaches everybody.',
+           {0: 'The key is why it looks excludable.', 2: 'Use is not what puts it on the compulsory side.', 3: 'Cost is not the deciding factor here.'}),
           ('The refinement they reach is that the test concerns',
-           ['access', 'the benefit rather than the access', 'cost',
-            'frequency of use'], 1,
-           'Which Casimir found rather than Thomasina.')])],
+           ['access', 'the benefit rather than the access', 'cost', 'frequency of use'],
+           1, 'Which Casimir found rather than Thomasina.',
+           {0: 'Access is the test they start with and refine.', 2: 'Cost is the threshold under the test, separately.', 3: 'Frequency of use is not part of the test.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Sharing',
     longturn=[('The shared thing I want to describe is a set of allotment '
@@ -737,11 +747,14 @@ UNIT = dict(
           'the policy literature contains a long list of models drawn from '
           'exactly this error.'],
          items=[
-          ('Which paragraph describes the two fisheries that collapsed and '
-           'stayed collapsed?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 0,
-           'Brindle Bank and Tarnmouth, flattening at a very low level.'),
+          (
+           'Which paragraph describes the two fisheries that collapsed '
+           'and stayed collapsed?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           0,
+           'Brindle Bank and Tarnmouth, flattening at a very low '
+           'level.',
+           {1: 'Paragraph 3 describes the fishery that recovered.', 2: 'Paragraph 4 describes the fishery that did not move.', 3: 'Paragraph 5 gives the management histories.'}),
           (
            'Which paragraph explains why one fishery was never under '
            'pressure?',
@@ -749,7 +762,7 @@ UNIT = dict(
            2,
            'Distant grounds, poor weather and ground that damages '
            'gear.',
-           {3: 'Paragraph 7 warns against reading the fourth case as '
+           {0: 'Paragraph 4 describes that fishery\u2019s flat line.', 1: 'Paragraph 5 gives the management histories.', 3: 'Paragraph 7 warns against reading the fourth case as '
                'governance.'}),
           (
            'Which paragraph warns against reading the fourth case as '
@@ -758,8 +771,8 @@ UNIT = dict(
            2,
            'An institution never under pressure has demonstrated '
            'nothing.',
-           {1: 'Paragraph 6 explains why one fishery was never under '
-               'pressure.'}),
+           {0: 'Paragraph 5 gives the management histories.', 1: 'Paragraph 6 explains why that fishery was never '
+               'pressed.', 3: 'Paragraph 4 describes its flat line.'}),
           ('Ashcombe Deep ended 2024 at ____________ thousand tonnes.',
            None, '362',
            'Paragraph 3, within eight per cent of its 1994 level.'),
@@ -827,27 +840,32 @@ UNIT = dict(
            'the answer is no.')],
          items=[
           ('He says the least informative thing on the chart is',
-           ['the vertical scale', 'the names in the key', 'the dates',
-            'the units'], 1,
-           'And that most people organise around them.'),
+           ['the vertical scale', 'the names in the key', 'the dates', 'the units'],
+           1, 'And that most people organise around them.',
+           {0: 'The vertical scale carries the stock figures.', 2: 'The dates define the thirty-year period.', 3: 'The units are thousands of tonnes, which he uses.'}),
           ('The flatness of the collapsed group represents',
-           ['stability', 'a stock too small to rebuild',
-            'successful management', 'a measurement limit'], 1,
-           'After fifteen years along the bottom.'),
-          ('Ashcombe Deep ended within what percentage of its starting '
-           'level?', ['two', 'eight', 'fifteen', 'twenty'], 1,
-           'Climbing from a minimum of 128 in 2004.'),
-          ('The difference between the collapse group and the recovery '
-           'was', ['the quota', 'who verified the numbers',
-            'fleet size', 'the species'], 1,
-           'All three operated under quota.'),
-          ('Kelverstone’s stability is described as a fact about',
+           ['stability', 'a stock too small to rebuild', 'successful management', 'a measurement limit'],
+           1, 'After fifteen years along the bottom.',
+           {0: 'He says explicitly that it is not stability.', 2: 'The collapsed group was not well managed.', 3: 'No measurement limit is suggested.'}),
+          (
+           'Ashcombe Deep ended within what percentage of its starting '
+           'level?', ['two', 'eight', 'fifteen', 'twenty'],
+           1, 'Climbing from a minimum of 128 in 2004.',
+           {0: 'Closer than the figure he gives.', 2: 'Further than the eight per cent he reports.', 3: 'Far further than the gap he gives.'}),
+          (
+           'The difference between the collapse group and the recovery '
+           'was',
+           ['the quota', 'who verified the numbers', 'fleet size', 'the species'],
+           1, 'All three operated under quota.',
+           {0: 'All three operated under quota, which is his point.', 2: 'Fleet size is not what he identifies.', 3: 'The species is not the variable he names.'}),
+          ('Kelverstone\u2019s stability is described as a fact about',
            ['its rules', 'the weather', 'its fleet', 'its quota'], 1,
-           'Since effort has never threatened the stock.'),
+           'Since effort has never threatened the stock.',
+           {0: 'It has no rules at all, which is his point.', 2: 'The fleet is not what keeps the stock steady.', 3: 'It has no quota in place.'}),
           ('On meeting a success story, his first question is',
-           ['what it did', 'whether it was ever under pressure',
-            'who funded it', 'how long it lasted'], 1,
-           'And the answer is surprisingly often no.')])],
+           ['what it did', 'whether it was ever under pressure', 'who funded it', 'how long it lasted'],
+           1, 'And the answer is surprisingly often no.',
+           {0: 'What it did is the question he says comes second.', 2: 'Funding is not his first question.', 3: 'Duration is not what he asks about first.'})])],
    speak=dict(
     part='Part 3', focus='Managing what everyone uses',
     intro=('Five or six sentences. Try once to say why a success might not '
@@ -1092,15 +1110,18 @@ UNIT = dict(
            ['The failed prediction', 'A comparative research programme', 'The eight features', 'Description against prescription'],
            1,
            'Paragraph 2 is the scale of the fieldwork: several hundred '
-           'cases.'),
+           'cases.',
+           {0: 'The failed prediction is paragraph 1.', 2: 'The eight features are paragraphs 3 and 4.', 3: 'Description against prescription is paragraph 11.'}),
           ('Choose the best heading for paragraph 6.',
-           ['Monitoring by users', 'Why sanctions begin trivially',
-            'Nesting at scale', 'What is absent from the list'], 1,
-           'Keeping enforcement local and preventing permanent enmity.'),
+           ['Monitoring by users', 'Why sanctions begin trivially', 'Nesting at scale', 'What is absent from the list'],
+           1,
+           'Keeping enforcement local and preventing permanent enmity.',
+           {0: 'Monitoring by users is paragraph 7.', 2: 'Nesting at scale is paragraph 8.', 3: 'What is absent from the list is paragraph 5.'}),
           ('Choose the best heading for paragraph 9.',
-           ['The nesting condition', 'What kind of finding this is',
-            'The policy record', 'The original achievement'], 1,
-           'A description of survivors, not a demonstration of cause.'),
+           ['The nesting condition', 'What kind of finding this is', 'The policy record', 'The original achievement'],
+           1,
+           'A description of survivors, not a demonstration of cause.',
+           {0: 'The nesting condition is paragraph 8.', 2: 'The policy record is paragraph 10.', 3: 'The original achievement is paragraph 12.'}),
           (
            'The writer believes ownership is one of the eight '
            'features.', ['Yes', 'No', 'Not Given'], 1,
@@ -1187,29 +1208,33 @@ UNIT = dict(
          items=[
           ('The standard prediction was refuted by',
            ['argument', 'fieldwork', 'simulation', 'legislation'], 1,
-           'Which the lecturer says is rarer than it sounds.'),
+           'Which the lecturer says is rarer than it sounds.',
+           {0: 'He says it was refuted by looking, not by arguing.', 2: 'No simulation is mentioned in the lecture.', 3: 'Legislation is not what refuted the prediction.'}),
           ('The research programme is described as',
            ['theoretical', 'comparative', 'experimental', 'historical'],
            1,
            'The programme covered four kinds of resource, several '
-           'hundred cases.'),
+           'hundred cases.',
+           {0: 'He says explicitly that it was not theoretical.', 2: 'Nothing was assigned or randomised in the programme.', 3: 'Historical depth is a property of the cases, not the '
+               'method.'}),
           ('Which of these is NOT among the eight features?',
-           ['clear boundaries', 'ownership', 'graduated sanctions',
-            'nesting'], 1,
-           'He stresses that ownership is absent from the list.'),
+           ['clear boundaries', 'ownership', 'graduated sanctions', 'nesting'],
+           1, 'He stresses that ownership is absent from the list.',
+           {0: 'Clear boundaries is the first of the eight.', 2: 'Graduated sanctions is among the eight.', 3: 'Nesting is the eighth feature.'}),
           ('Graduated sanctions appear to work because they',
-           ['deter strongly', 'keep enforcement inside the community',
-            'are cheap to administer', 'are legally required'], 1,
-           'And stop a lapse becoming a permanent quarrel.'),
-          ('The objection to monitoring by users is answered by making it',
-           ['anonymous', 'a rotating paid job', 'external',
-            'voluntary'], 1,
-           'Rather than being left as a moral duty of neighbours.'),
+           ['deter strongly', 'keep enforcement inside the community', 'are cheap to administer', 'are legally required'],
+           1, 'And stop a lapse becoming a permanent quarrel.',
+           {0: 'They begin trivially, so they do not deter strongly.', 2: 'Cheapness is a property of conflict resolution.', 3: 'No legal requirement is involved.'}),
+          (
+           'The objection to monitoring by users is answered by making '
+           'it',
+           ['anonymous', 'a rotating paid job', 'external', 'voluntary'],
+           1, 'Rather than being left as a moral duty of neighbours.',
+           {0: 'Anonymity is not what the successful cases used.', 2: 'External monitoring is what the condition rules out.', 3: 'A voluntary duty is exactly what fails.'}),
           ('He says the eight features are',
-           ['a theory of institution-building',
-            'a description of survivors', 'a legal framework',
-            'a prediction'], 1,
-           'Observed in institutions that survived.')])],
+           ['a theory of institution-building', 'a description of survivors', 'a legal framework', 'a prediction'],
+           1, 'Observed in institutions that survived.',
+           {0: 'He says it was never a theory of institution-building.', 2: 'No legal framework is described.', 3: 'A description of survivors predicts nothing.'})])],
    speak=dict(
     part='Part 3', focus='Rules people make for themselves',
     followup=[(('You say succession failed rather than free-riding. Are self- '
@@ -1464,22 +1489,32 @@ UNIT = dict(
           'to a programme requires an argument, and the argument is scarcely '
           'ever supplied because the gap is scarcely ever noticed.'],
          items=[
-          ('Which paragraph describes the attempt that is still '
-           'operating?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'An irrigation system with customary arrangements already in '
-           'place.'),
-          ('Which paragraph gives the uncomfortable implication about '
+          (
+           'Which paragraph describes the attempt that is still '
+           'operating?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
+           'An irrigation system with customary arrangements already '
+           'in place.',
+           {0: 'Paragraph 2 describes the forest programme that '
+               'collapsed.', 2: 'Paragraph 4 describes the failed transplant.', 3: 'Paragraph 5 draws the pattern from the three.'}),
+          (
+           'Which paragraph gives the uncomfortable implication about '
            'where remedies will not work?',
-           ['Paragraph 6', 'Paragraph 7', 'Paragraph 8',
-            'Paragraph 9'], 1,
-           'A history of conflict is both the cause and the obstacle to '
-           'the remedy.'),
-          ('Which paragraph says a smaller intervention would probably '
+           ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'],
+           1,
+           'A history of conflict is both the cause and the obstacle '
+           'to the remedy.',
+           {0: 'Paragraph 6 explains what the features are features '
+               'of.', 2: 'Paragraph 8 describes how the implication is evaded.', 3: 'Paragraph 9 gives the more modest reading.'}),
+          (
+           'Which paragraph says a smaller intervention would probably '
            'work more often?',
-           ['Paragraph 9', 'Paragraph 10', 'Paragraph 11',
-            'Paragraph 12'], 1,
-           'A proposal to find existing attempts and remove obstacles.'),
+           ['Paragraph 9', 'Paragraph 10', 'Paragraph 11', 'Paragraph 12'],
+           1,
+           'A proposal to find existing attempts and remove obstacles.',
+           {0: 'Paragraph 9 gives the more modest reading.', 2: 'Paragraph 11 separates succeeding from being '
+               'installed.', 3: 'Paragraph 12 gives the reader\u2019s test.'}),
           (
            'The writer believes the three cases establish the pattern '
            'firmly.', ['Yes', 'No', 'Not Given'], 1,
@@ -1569,33 +1604,36 @@ UNIT = dict(
           ('Oyelaran-Beck', 'I would rather have that sentence from you '
            'than another paper telling me it is complicated.')],
          items=[
-          ('Oyelaran-Beck concedes that he has designed against the '
-           'checklist', ['without knowing the problem',
-            'after writing the acknowledgement into four proposals',
-            'only once', 'against advice'], 1,
-           'Knowing the research describes survivors.'),
-          ('Haraldsen-Achebe says her own side’s failing is to',
-           ['overstate findings', 'identify the problem and stop',
-            'refuse funding', 'avoid fieldwork'], 1,
-           'Which she calls useless to somebody with a budget.'),
+          (
+           'Oyelaran-Beck concedes that he has designed against the '
+           'checklist',
+           ['without knowing the problem', 'after writing the acknowledgement into four proposals', 'only once', 'against advice'],
+           1, 'Knowing the research describes survivors.',
+           {0: 'He says he knows the problem perfectly well.', 2: 'He names four proposals, not one.', 3: 'Nobody advised him against it in the exchange.'}),
+          ('Haraldsen-Achebe says her own side\u2019s failing is to',
+           ['overstate findings', 'identify the problem and stop', 'refuse funding', 'avoid fieldwork'],
+           1, 'Which she calls useless to somebody with a budget.',
+           {0: 'Overstating findings is the adviser\u2019s side of the '
+               'problem.', 2: 'Funding is what the adviser has to secure.', 3: 'Fieldwork is what her field does.'}),
           ('Her practical advice is to find places where people are',
-           ['wealthiest', 'already trying something',
-            'most in need', 'best organised'], 1,
-           'And ask what is stopping them.'),
+           ['wealthiest', 'already trying something', 'most in need', 'best organised'],
+           1, 'And ask what is stopping them.',
+           {0: 'Wealth is not the criterion she gives.', 2: 'The neediest places are where she says it will not '
+               'work.', 3: 'Existing organisation is nearer, but she says trying.'}),
           ('He says a small intervention is a problem because',
-           ['it is ineffective', 'it does not get funded and the officer '
-            'is not promoted', 'it takes longer', 'it is hard to '
-            'measure'], 1,
-           'Which he raises as an honest account of his incentives.'),
+           ['it is ineffective', 'it does not get funded and the officer is not promoted', 'it takes longer', 'it is hard to measure'],
+           1, 'Which he raises as an honest account of his incentives.',
+           {0: 'He does not say a small intervention fails.', 2: 'Duration is her point about the nineteen-year case.', 3: 'Measurement is the director\u2019s question, raised later.'}),
           ('For places with no existing attempt, she says',
-           ['the conditions should be built', 'nobody knows how to start '
-            'one from nothing', 'privatisation is better',
-            'the state should act'], 1,
-           'Since every documented success began from something.'),
-          ('She says her field avoids the implication by writing about',
-           ['ownership', 'building social capital', 'monitoring',
-            'sanctions'], 1,
-           'Which has thinner evidence than the eight conditions.')])],
+           ['the conditions should be built', 'nobody knows how to start one from nothing', 'privatisation is better', 'the state should act'],
+           1, 'Since every documented success began from something.',
+           {0: 'Building the conditions is what she says nobody knows '
+               'how to do.', 2: 'Privatisation is not what she recommends.', 3: 'State action is not her answer either.'}),
+          (
+           'She says her field avoids the implication by writing about',
+           ['ownership', 'building social capital', 'monitoring', 'sanctions'],
+           1, 'Which has thinner evidence than the eight conditions.',
+           {0: 'Ownership is absent from the eight conditions.', 2: 'Monitoring is one of the eight conditions.', 3: 'Sanctions are one of the eight conditions.'})])],
    speak=dict(
     part='Part 3', focus='Designing institutions',
     sounds=[('This unit\'s terms come from economics and keep irregular stress: '

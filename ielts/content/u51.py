@@ -80,26 +80,34 @@ UNIT = dict(
           ('Programmes are evaluated at ____________ years.', None, 'three',
            'Paragraph 1, where the cost threshold is also given.'),
           ('The evaluation does not ask',
-           ['whether the outcome improved',
-            'whether the stated outcome was the right one to pursue',
-            'what the programme cost', 'who received it'], 1,
-           'Paragraph 2: that belongs to the appraisal stage and is not '
-           'reopened.'),
-          ('A submission arguing the programme aimed at the wrong thing is',
-           ['weighed and rejected', 'returned rather than considered',
-            'passed to ministers', 'held over'], 1,
-           'Paragraph 2, and the return does not pause the window.'),
-          ('How many comparison methods are accepted without prior '
+           ['whether the outcome improved', 'whether the stated outcome was the right one to pursue', 'what the programme cost', 'who received it'],
+           1,
+           'Paragraph 2: that belongs to the appraisal stage and is '
+           'not reopened.',
+           {0: 'Whether the outcome improved is the first question it '
+               'asks.', 2: 'Cost per unit of outcome is the third question it '
+               'asks.', 3: 'Who received the programme is part of the attribution '
+               'work.'}),
+          (
+           'A submission arguing the programme aimed at the wrong '
+           'thing is',
+           ['weighed and rejected', 'returned rather than considered', 'passed to ministers', 'held over'],
+           1, 'Paragraph 2, and the return does not pause the window.',
+           {0: 'Paragraph 2 says such a submission is not considered.', 2: 'Nothing is passed to ministers at this stage.', 3: 'The submission is returned, not held over.'}),
+          (
+           'How many comparison methods are accepted without prior '
            'agreement?', ['two', 'three', 'four', 'five'], 1,
            'Paragraph 4: a comparison region, a comparison group, or '
-           'phased areas.'),
+           'phased areas.',
+           {0: 'Fewer than the methods paragraph 4 lists.', 2: 'One more than the number accepted without agreement.', 3: 'Paragraph 4 names three, not five.'}),
           ('Submissions are invited for ____________ weeks.', None,
            'eight', 'Paragraph 5, and must address one of the three '
            'questions.'),
           ('Where attribution cannot be answered, the panel must',
-           ['give a qualified answer', 'say so', 'commission more work',
-            'defer'], 1,
-           'Paragraph 6, which happens in about one evaluation in six.')]),
+           ['give a qualified answer', 'say so', 'commission more work', 'defer'],
+           1,
+           'Paragraph 6, which happens in about one evaluation in six.',
+           {0: 'Paragraph 6 says a qualified answer is not acceptable.', 2: 'No further work is commissioned in that case.', 3: 'The report is published rather than deferred.'})]),
     dict(heading='Submitting evidence to a review',
          kind='Procedure notice', task='Flow-chart completion',
          band='gt_short', qtype='Questions 7-10',
@@ -445,21 +453,25 @@ UNIT = dict(
            'result to before it.')],
          items=[
           ('The error he describes is made by',
-           ['careless people', 'competent people who stop reasoning too '
-            'early', 'politicians only', 'statisticians'], 1,
-           'Having correctly noticed that one thing followed another.'),
+           ['careless people', 'competent people who stop reasoning too early', 'politicians only', 'statisticians'],
+           1,
+           'Having correctly noticed that one thing followed another.',
+           {0: 'He says the error is not made by fools.', 2: 'He attributes it to analysts as well as politicians.', 3: 'He does not confine it to statisticians.'}),
           ('The real question, he says, is whether the outcome',
-           ['improved', 'improved more than it would have anyway',
-            'improved quickly', 'improved everywhere'], 1,
-           'Which requires knowing what it would have done anyway.'),
+           ['improved', 'improved more than it would have anyway', 'improved quickly', 'improved everywhere'],
+           1, 'Which requires knowing what it would have done anyway.',
+           {0: 'Improvement alone is the step he says is not enough.', 2: 'Speed of improvement is not what he asks about.', 3: 'Geographic spread is not the question he poses.'}),
           ('Every method, he says, constructs',
-           ['a forecast', 'a substitute for a world nobody will see',
-            'a control group', 'a model'], 1,
-           'Each carrying an assumption about why it is a fair stand-in.'),
+           ['a forecast', 'a substitute for a world nobody will see', 'a control group', 'a model'],
+           1,
+           'Each carrying an assumption about why it is a fair '
+           'stand-in.',
+           {0: 'A forecast looks forward; this looks sideways.', 2: 'A control group is one such substitute, not the '
+               'general case.', 3: 'A model is one way of building it, not what is built.'}),
           ('What does he ask the committee to require?',
-           ['more training', 'the comparison named in the commissioning '
-            'document', 'longer evaluations', 'independent panels'], 1,
-           'Before anybody knows which way the result will fall.')]),
+           ['more training', 'the comparison named in the commissioning document', 'longer evaluations', 'independent panels'],
+           1, 'Before anybody knows which way the result will fall.',
+           {0: 'He says training would do less than the clause.', 2: 'Duration is not what he asks the committee to require.', 3: 'Panel independence is not his proposal.'})]),
     dict(heading='Two analysts disagree about a cause', part='Part 3',
          task='A discussion between two analysts', band='l3',
          qtype='Questions 27-32',
@@ -511,29 +523,38 @@ UNIT = dict(
            'never to the finding.')],
          items=[
           ('Ignatius objects to',
-           ['the finding', 'how the finding will be read',
-            'the data', 'the deadline'], 1,
-           'Specifically the sentence a newspaper would write.'),
+           ['the finding', 'how the finding will be read', 'the data', 'the deadline'],
+           1, 'Specifically the sentence a newspaper would write.',
+           {0: 'He says he would sign the finding itself.', 2: 'He does not question the data.', 3: 'The deadline is not his objection.'}),
           ('Why does he distrust the Ashworth comparison?',
-           ['the data are poor', 'it was chosen after seeing the '
-            'result', 'it is too far away', 'it is too small'], 1,
-           'With nine towns available and no principled reason to prefer '
-           'one.'),
+           ['the data are poor', 'it was chosen after seeing the result', 'it is too far away', 'it is too small'],
+           1,
+           'With nine towns available and no principled reason to '
+           'prefer one.',
+           {0: 'He does not fault the quality of the data.', 2: 'He says Ashworth is the same distance from the city.', 3: 'He says Ashworth is the same size.'}),
           ('What does Perpetua propose instead?',
-           ['dropping the comparison', 'using all nine towns',
-            'a longer time series', 'a survey'], 1,
-           'Which Ignatius calls the right answer.'),
-          ('His remaining concern is funding, which Perpetua answers by '
-           'saying the work is', ['already done', 'three days',
-            'unnecessary', 'someone else’s'], 1,
-           'And that she already holds the data.'),
-          ('He then asks for the ____________ to be reported as well as '
-           'the average.', ['median', 'spread', 'total', 'forecast'], 1,
-           'Because the nine towns will not agree with each other.'),
-          ('If Marchwood sits inside the range of the nine towns, then',
-           ['the closure explains nothing', 'the closure worked',
-            'the data are wrong', 'more years are needed'], 0,
-           'And if outside, they have something.')])],
+           ['dropping the comparison', 'using all nine towns', 'a longer time series', 'a survey'],
+           1, 'Which Ignatius calls the right answer.',
+           {0: 'She wants more comparisons, not fewer.', 2: 'A longer series is not what she suggests.', 3: 'No survey is proposed in the exchange.'}),
+          (
+           'His remaining concern is funding, which Perpetua answers '
+           'by saying the work is',
+           ['already done', 'three days', 'unnecessary', 'someone else\u2019s'],
+           1, 'And that she already holds the data.',
+           {0: 'She says she holds the data, not that the work is '
+               'done.', 2: 'She treats the work as necessary and cheap.', 3: 'She offers to do it herself.'}),
+          (
+           'He then asks for the ____________ to be reported as well '
+           'as the average.',
+           ['median', 'spread', 'total', 'forecast'], 1,
+           'Because the nine towns will not agree with each other.',
+           {0: 'The median is a single figure, not the variation.', 2: 'A total would not show the disagreement.', 3: 'No forecast is involved in the comparison.'}),
+          (
+           'If Marchwood sits inside the range of the nine towns, then',
+           ['the closure explains nothing', 'the closure worked', 'the data are wrong', 'more years are needed'],
+           0, 'And if outside, they have something.',
+           {1: 'Working would require Marchwood to sit outside the '
+               'range.', 2: 'Neither analyst questions the data at this point.', 3: 'More years is not what the test turns on.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Cause',
     longturn=[('The change whose cause people disagree about is a fall of '
@@ -758,13 +779,14 @@ UNIT = dict(
            2,
            'Thirty-eight minus twenty-six, or twelve per hundred '
            'thousand.',
-           {3: 'Paragraph 5 says the pre-policy years make the '
+           {0: 'Paragraph 2 gives the Marchwood figures alone.', 1: 'Paragraph 3 gives the comparison region figures.', 3: 'Paragraph 5 says the pre-policy years make the '
                'comparison credible.'}),
           ('Which paragraph names the common trend assumption?',
            ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
            2, 'And says it cannot be tested after the policy begins.',
            {0: 'Paragraph 4 gives the estimate of the zone\u2019s effect.', 1: 'Paragraph 5 says the pre-policy years make the '
-               'comparison credible.'}),
+               'comparison credible.', 3: 'Paragraph 7 says what can be done about the '
+               'assumption.'}),
           (
            'Which paragraph says the pre-policy years make the '
            'comparison credible?',
@@ -772,7 +794,7 @@ UNIT = dict(
            2,
            'Both regions moving together from 412 and 409 down to 352 '
            'and 351.',
-           {1: 'Paragraph 4 gives the estimate of the zone\u2019s effect.', 3: 'Paragraph 6 names the common trend assumption.'}),
+           {0: 'Paragraph 3 gives the comparison region figures.', 1: 'Paragraph 4 gives the estimate of the zone\u2019s effect.', 3: 'Paragraph 6 names the common trend assumption.'}),
           ('Marchwood admissions four years after the zone: ____________',
            None, '314',
            'Paragraph 2, down from 352 in the year the zone opened.'),
@@ -849,29 +871,28 @@ UNIT = dict(
          items=[
           ('The fall in Marchwood over four years was',
            ['twelve', 'twenty-six', 'thirty-eight', 'fifty-two'], 2,
-           'From 352 to 314, just under eleven per cent.'),
+           'From 352 to 314, just under eleven per cent.',
+           {0: 'Twelve is the estimated effect of the zone.', 1: 'Twenty-six is the fall in the comparison region.', 3: 'No figure of that size appears on the chart.'}),
           ('He calls the Marchwood-only sentence',
-           ['wrong', 'correct and useless', 'exaggerated',
-            'unverifiable'], 1,
-           'And notes it is the sentence that gets printed.'),
+           ['wrong', 'correct and useless', 'exaggerated', 'unverifiable'],
+           1, 'And notes it is the sentence that gets printed.',
+           {0: 'He says every figure in it is correct.', 2: 'The figures are accurate, not overstated.', 3: 'The figures can be checked; that is not the fault.'}),
           ('The estimated effect of the zone is',
-           ['twelve per hundred thousand', 'twenty-six per hundred '
-            'thousand', 'thirty-eight per hundred thousand',
-            'none'], 0,
-           'The difference between the two falls.'),
+           ['twelve per hundred thousand', 'twenty-six per hundred thousand', 'thirty-eight per hundred thousand', 'none'],
+           0, 'The difference between the two falls.',
+           {1: 'Twenty-six is the comparison region\u2019s fall.', 2: 'Thirty-eight is the Marchwood fall.', 3: 'He puts the effect at twelve, which is not nothing.'}),
           ('What makes the comparison worth having?',
-           ['the regions are adjacent', 'the two moved together for four '
-            'years beforehand', 'the populations are equal',
-            'the data are recent'], 1,
-           'From 412 and 409 down to 352 and 351.'),
+           ['the regions are adjacent', 'the two moved together for four years beforehand', 'the populations are equal', 'the data are recent'],
+           1, 'From 412 and 409 down to 352 and 351.',
+           {0: 'Adjacency is not what he says makes it credible.', 2: 'Equal population is not the test he applies.', 3: 'Recency of the data is not the reason.'}),
           ('The common trend assumption cannot be tested because',
-           ['the data are missing', 'the world without the zone cannot be '
-            'observed', 'the sample is small', 'it is circular'], 1,
-           'It can only be tested on the years before the policy.'),
+           ['the data are missing', 'the world without the zone cannot be observed', 'the sample is small', 'it is circular'],
+           1, 'It can only be tested on the years before the policy.',
+           {0: 'The data exist for both regions throughout.', 2: 'Sample size is not the obstacle he names.', 3: 'The assumption is not circular, only unobservable.'}),
           ('His closing rule is to look at',
-           ['the sample size', 'the pre-policy years', 'the p-value',
-            'the funding source'], 1,
-           'Which most published evaluations do not show.')])],
+           ['the sample size', 'the pre-policy years', 'the p-value', 'the funding source'],
+           1, 'Which most published evaluations do not show.',
+           {0: 'Sample size is not what he tells you to look at.', 2: 'No p-value is mentioned in the lecture.', 3: 'Funding is not part of his closing rule.'})])],
    speak=dict(
     part='Part 3', focus='Showing that something worked',
     intro=('Five or six sentences. Try once to say that a true number can '
@@ -1120,21 +1141,23 @@ UNIT = dict(
           'from most of what is not.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['The missing world', 'What randomisation actually guarantees',
-            'Untestable assumptions', 'Pre-registration'], 1,
+           ['The missing world', 'What randomisation actually guarantees', 'Untestable assumptions', 'Pre-registration'],
+           1,
            'Not identical groups, but groups differing for no reason '
-           'connected to the outcome.'),
+           'connected to the outcome.',
+           {0: 'The missing world is paragraphs 1 and 2.', 2: 'Untestable assumptions are paragraph 5.', 3: 'Pre-registration is paragraph 9.'}),
           ('Choose the best heading for paragraph 5.',
-           ['What randomisation guarantees',
-            'Why the key assumption cannot be tested',
-            'Confidence intervals', 'The four questions'], 1,
-           'What the comparison region would have done after the policy '
-           'cannot be observed.'),
+           ['What randomisation guarantees', 'Why the key assumption cannot be tested', 'Confidence intervals', 'The four questions'],
+           1,
+           'What the comparison region would have done after the '
+           'policy cannot be observed.',
+           {0: 'What randomisation guarantees is paragraph 3.', 2: 'Confidence intervals are paragraph 7.', 3: 'The four questions are paragraph 11.'}),
           ('Choose the best heading for paragraph 7.',
-           ['Expert judgement', 'What a confidence interval does not '
-            'cover', 'Pre-registration', 'The missing world'], 1,
+           ['Expert judgement', 'What a confidence interval does not cover', 'Pre-registration', 'The missing world'],
+           1,
            'It describes sampling uncertainty, not assumption '
-           'uncertainty.'),
+           'uncertainty.',
+           {0: 'Expert judgement is paragraph 6.', 2: 'Pre-registration is paragraph 9.', 3: 'The missing world is paragraphs 1 and 2.'}),
           (
            'The writer believes randomisation makes two groups '
            'identical.', ['Yes', 'No', 'Not Given'], 1,
@@ -1218,30 +1241,36 @@ UNIT = dict(
            'literature in about ten minutes.')],
          items=[
           ('A causal claim, he says, is a claim about',
-           ['a large sample', 'a world nobody observed', 'a mechanism',
-            'a future state'], 1,
-           'A Marchwood without the zone, which does not exist.'),
+           ['a large sample', 'a world nobody observed', 'a mechanism', 'a future state'],
+           1, 'A Marchwood without the zone, which does not exist.',
+           {0: 'Sample size is not what a causal claim is about.', 2: 'A mechanism is one route to the claim, not its '
+               'content.', 3: 'The claim concerns a world alongside this one, not '
+               'ahead of it.'}),
           ('Randomisation guarantees that two groups',
-           ['are identical', 'differ for no reason connected to the '
-            'outcome', 'are large enough', 'are representative'], 1,
+           ['are identical', 'differ for no reason connected to the outcome', 'are large enough', 'are representative'],
+           1,
            'Which he calls narrower than the usual claim, and '
-           'sufficient.'),
+           'sufficient.',
+           {0: 'He says explicitly that they are not identical.', 2: 'Size is a separate matter from randomisation.', 3: 'Representativeness is not what randomisation buys.'}),
           ('The assumption behind a phased rollout is that',
-           ['phases were randomly assigned',
-            'the order of phases had nothing to do with the outcome',
-            'all phases were equal', 'the policy was identical'], 1,
-           'One of three designs he lists.'),
+           ['phases were randomly assigned', 'the order of phases had nothing to do with the outcome', 'all phases were equal', 'the policy was identical'],
+           1, 'One of three designs he lists.',
+           {0: 'Random assignment is what the design substitutes for.', 2: 'Equality of phases is not the assumption he states.', 3: 'Identical delivery is a different assumption.'}),
           ('The central assumption of each design is',
-           ['testable in advance', 'untestable in the period that '
-            'matters', 'always false', 'statistical'], 1,
-           'Because it concerns what cannot be observed.'),
+           ['testable in advance', 'untestable in the period that matters', 'always false', 'statistical'],
+           1, 'Because it concerns what cannot be observed.',
+           {0: 'The pre-policy years test something adjacent, not the '
+               'assumption.', 2: 'He says each is plausible somewhere.', 3: 'The assumption is substantive rather than statistical.'}),
           ('He says a confidence interval describes',
-           ['assumption uncertainty', 'uncertainty from having a '
-            'sample', 'measurement error', 'forecast error'], 1,
-           'And nothing about whether the identifying assumption holds.'),
+           ['assumption uncertainty', 'uncertainty from having a sample', 'measurement error', 'forecast error'],
+           1,
+           'And nothing about whether the identifying assumption '
+           'holds.',
+           {0: 'Assumption uncertainty is exactly what it omits.', 2: 'Measurement error is a different source.', 3: 'Forecast error is not what an interval describes.'}),
           ('How many questions does he end with?',
            ['two', 'three', 'four', 'five'], 2,
-           'None of which needs a technical term.')])],
+           'None of which needs a technical term.',
+           {0: 'Fewer than the questions he ends with.', 1: 'One short of the four he lists.', 3: 'He gives four questions, not five.'})])],
    speak=dict(
     part='Part 3', focus='Knowing what would have happened',
     followup=[(('You say we cannot know the counterfactual. Should governments '
@@ -1484,10 +1513,11 @@ UNIT = dict(
           'question is not a standard; it is a preference wearing one.'],
          items=[
           ('Which paragraph describes the failure of scope?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
            'Immigration and wages, where every good study answers a '
-           'narrower question.'),
+           'narrower question.',
+           {0: 'Paragraph 2 describes the counterfactual failure.', 1: 'Paragraph 3 describes the construct failure.', 3: 'Paragraph 5 says what each failure calls for.'}),
           (
            'Which paragraph describes a dispute that persists because '
            'the answer is unwelcome?',
@@ -1495,7 +1525,7 @@ UNIT = dict(
            1,
            'Which the writer calls a category error that does real '
            'damage.',
-           {3: 'Paragraph 8 says the test requires applying it to your '
+           {0: 'Paragraph 5 says what each failure calls for.', 2: 'Paragraph 7 gives the test between the cases.', 3: 'Paragraph 8 says the test requires applying it to your '
                'own side.'}),
           (
            'Which paragraph says the test requires applying it to your '
@@ -1503,7 +1533,7 @@ UNIT = dict(
            ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'],
            2, 'And that few who cite it have done so.',
            {0: 'Paragraph 6 describes a dispute that persists because '
-               'the answer is unwelcome.'}),
+               'the answer is unwelcome.', 1: 'Paragraph 7 gives the test between the cases.', 3: 'Paragraph 9 asks what a government should do.'}),
           (
            'The writer believes a decision taken on a mechanism '
            'argument is arbitrary.',
@@ -1586,34 +1616,37 @@ UNIT = dict(
            'new policy and never to the policy already running, and nobody '
            'in this room has an answer to that.')],
          items=[
-          ('Villanueva-Strand opens by conceding that her side says "the '
-           'evidence does not support this" when it means',
-           ['the evidence is weak', 'no randomised trial exists',
-            'the policy is costly', 'the question is unclear'], 1,
-           'Which she says was not honest.'),
-          ('Achterberg-Nkemdirim’s own concession concerns',
-           ['sample sizes', 'the place of mechanism arguments in the '
-            'hierarchy', 'funding', 'publication'], 1,
-           'Which he says should not universally be at the bottom.'),
+          (
+           'Villanueva-Strand opens by conceding that her side says '
+           '"the evidence does not support this" when it means',
+           ['the evidence is weak', 'no randomised trial exists', 'the policy is costly', 'the question is unclear'],
+           1, 'Which she says was not honest.',
+           {0: 'Weak evidence is a different claim from none.', 2: 'Cost is not what the phrase conceals.', 3: 'Clarity of the question is not her concession.'}),
+          ('Achterberg-Nkemdirim\u2019s own concession concerns',
+           ['sample sizes', 'the place of mechanism arguments in the hierarchy', 'funding', 'publication'],
+           1, 'Which he says should not universally be at the bottom.',
+           {0: 'Sample size is not what he concedes.', 2: 'Funding is not raised in his concession.', 3: 'Publication practice is not what he concedes.'}),
           ('Their actual disagreement is about',
-           ['which method is best', 'what to do when a question is '
-            'unanswerable in principle', 'how to fund trials',
-            'who decides'], 1,
-           'Specifically whether labelling the basis works.'),
+           ['which method is best', 'what to do when a question is unanswerable in principle', 'how to fund trials', 'who decides'],
+           1, 'Specifically whether labelling the basis works.',
+           {0: 'They agree that no single method is always best.', 2: 'Funding is not what divides them.', 3: 'Who decides is not the question at issue.'}),
           ('His objection to labelling is that',
-           ['it is expensive', 'nobody reads the label and the policy '
-            'outlives the reasoning', 'it is unclear', 'it is '
-            'optional'], 1,
-           'Which she calls a testable empirical claim about documents.'),
+           ['it is expensive', 'nobody reads the label and the policy outlives the reasoning', 'it is unclear', 'it is optional'],
+           1,
+           'Which she calls a testable empirical claim about '
+           'documents.',
+           {0: 'He says labelling costs almost nothing.', 2: 'Clarity of the label is what she proposes to fix.', 3: 'Whether it is optional is not his objection.'}),
           ('Which of her three sentences does she say nobody writes?',
-           ['the basis', 'the alternatives considered',
-            'the finding that would change their view', 'the date'], 2,
-           'And calls it the one that does the work.'),
+           ['the basis', 'the alternatives considered', 'the finding that would change their view', 'the date'],
+           2, 'And calls it the one that does the work.',
+           {0: 'The basis is the first sentence, which does get '
+               'written.', 1: 'The alternatives considered are the second sentence.', 3: 'The date is his addition, not one of her three.'}),
           ('What condition does he add?',
-           ['an independent reviewer', 'a review date written into the '
-            'document', 'a cost ceiling', 'ministerial sign-off'], 1,
+           ['an independent reviewer', 'a review date written into the document', 'a cost ceiling', 'ministerial sign-off'],
+           1,
            'Because a commitment with no review date is not a '
-           'commitment.')])],
+           'commitment.',
+           {0: 'No independent reviewer is proposed.', 2: 'No cost ceiling is part of his condition.', 3: 'Ministerial sign-off is not mentioned.'})])],
    speak=dict(
     part='Part 3', focus='Acting without proof',
     sounds=[('Causal language has to be said cleanly, because the hedge is the '
