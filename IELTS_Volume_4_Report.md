@@ -181,9 +181,15 @@ tracker (7–8) and the new Listening paper (404).
   produces sound.
 - **Speaking and Writing are rated, not marked.** A student working alone gets
   less from those two strands.
-- **The syntax window is still unvalidated** (§4.2). It is a recorded decision
-  now, not an open question, but it rests on my judgement and not on a
-  measurement of real Cambridge passages.
+- ~~**The syntax window**~~ **Closed on 17 November.** `density.py` now gates
+  the two syntactic numbers against a laddered window, and `density.py --ladder`
+  checks the eight books together. Volume 4 measures **22.7 words a sentence**
+  (window 21.6-23.6), longest sentence **54**, nominalisation **4.5%** — all in
+  window. The gate failed six of the eight books when it was written, and about
+  275 sentences across the series were split or merged to pass it; the worst
+  failure was that the B1 book had the longest sentences in the series and the
+  C1 book did not. The full account is in `IELTS_Syntax_Ladder_Report.md`,
+  including what the gate still does not prove.
 - The timed Reading paper's 1k share (64.2%) sits 0.3 points below the window
   floor — marginally denser vocabulary than the units, which is right for an
   exam simulation but outside the stated band.

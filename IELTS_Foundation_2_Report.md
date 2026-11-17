@@ -156,4 +156,11 @@ the page.**
 
 ## What is still open
 
-The syntax window, as everywhere else in the series.
+**Nothing.** The syntax window was closed on 17 November and is now
+gated. Foundation 2 failed it at first on all three counts and was fixed:
+31 long sentences split and 24 rephrased to carry a nominalisation,
+bringing the mean from 20.9 words to **18.8** (window 17.6–19.6), the
+longest sentence from 56 words to **37** (ceiling 38), and the
+nominalisation rate from 1.5 % to **2.0 %** — it had been *below*
+Foundation 1's, which for a book one level higher was backwards. See
+`IELTS_Syntax_Ladder_Report.md`.

@@ -204,7 +204,15 @@ through all of this; I verified that structurally rather than by eye.
   produces sound.
 - **Speaking and Writing are rated, not marked.** A student working alone gets
   less from those two strands than from Reading and Listening.
-- **The syntax window is still unvalidated**, as described in section 4.
+- ~~**The syntax window**~~ **Closed on 17 November.** `density.py` now gates
+  the two syntactic numbers against a laddered window, and `density.py --ladder`
+  checks the eight books together. Volume 5 measures **23.3 words a sentence**
+  (window 22.3-24.3), longest sentence **56**, nominalisation **4.9%** — all in
+  window. The gate failed six of the eight books when it was written, and about
+  275 sentences across the series were split or merged to pass it; the worst
+  failure was that the B1 book had the longest sentences in the series and the
+  C1 book did not. The full account is in `IELTS_Syntax_Ladder_Report.md`,
+  including what the gate still does not prove.
 - **One Reading paper and one Listening paper.** No timed Writing or Speaking
   paper at this level.
 - **Volumes 3 and 4 would benefit from a rebuild.** Fifteen outline frames in

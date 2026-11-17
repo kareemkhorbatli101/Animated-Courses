@@ -170,6 +170,12 @@ error surfaces in seconds rather than six minutes in.
   `level=` line of units 21 to 30 now say **B2**, as the series plan
   always had it. Volume 3 was rebuilt and is now
   `IELTS_2026_B2_Volume_3.docx`; no occurrence of "B1+" survives in it.
-- **The syntax window** (mean sentence length, nominalisation) is still
-  a recorded decision rather than a gated measurement. Volume 1's unit
-  passages measure 24.0 words a sentence, the timed paper 22.2.
+- ~~**The syntax window**~~ **Closed on 17 November.** `density.py` now gates
+  the two syntactic numbers against a laddered window, and `density.py --ladder`
+  checks the eight books together. Volume 1 measures **20.2 words a sentence**
+  (window 19.4-21.4), longest sentence **37**, nominalisation **3.0%** — all in
+  window. The gate failed six of the eight books when it was written, and about
+  275 sentences across the series were split or merged to pass it; the worst
+  failure was that the B1 book had the longest sentences in the series and the
+  C1 book did not. The full account is in `IELTS_Syntax_Ladder_Report.md`,
+  including what the gate still does not prove.

@@ -171,9 +171,15 @@ this volume:
 
 ## 5. What is still open
 
-- The **syntax window** (sentence length, nominalisation) remains a recorded
-  decision rather than a measurement, for the genre reason above. One command
-  closes it given real Cambridge passages.
+- ~~**The syntax window**~~ **Closed on 17 November.** `density.py` now gates
+  the two syntactic numbers against a laddered window, and `density.py --ladder`
+  checks the eight books together. Volume 6 measures **24.0 words a sentence**
+  (window 23.0-25.0), longest sentence **55**, nominalisation **5.6%** — all in
+  window. The gate failed six of the eight books when it was written, and about
+  275 sentences across the series were split or merged to pass it; the worst
+  failure was that the B1 book had the longest sentences in the series and the
+  C1 book did not. The full account is in `IELTS_Syntax_Ladder_Report.md`,
+  including what the gate still does not prove.
 - Fifteen outline frames in **Volumes 3 and 4** are set small to fit a thesis
   on one line. They are *not* clipped, and a rebuild of those two volumes would
   now set them at full size with wrapped headers.

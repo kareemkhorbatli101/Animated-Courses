@@ -167,10 +167,15 @@ argument the Volume 4 report made and the reason I did it again here.
   produces sound.
 - **Speaking and Writing are rated, not marked.** A student working alone gets
   less from those two strands than from Reading and Listening.
-- **The syntax window is still unvalidated.** It remains a recorded decision
-  resting on my judgement, not on a measurement of real Cambridge passages.
-  `calibrate.py` is built and tested and will settle it in one command the
-  moment real material is available: `python3 calibrate.py <files>`.
+- ~~**The syntax window**~~ **Closed on 17 November.** `density.py` now gates
+  the two syntactic numbers against a laddered window, and `density.py --ladder`
+  checks the eight books together. Volume 3 measures **21.8 words a sentence**
+  (window 20.9-22.9), longest sentence **50**, nominalisation **3.9%** — all in
+  window. The gate failed six of the eight books when it was written, and about
+  275 sentences across the series were split or merged to pass it; the worst
+  failure was that the B1 book had the longest sentences in the series and the
+  C1 book did not. The full account is in `IELTS_Syntax_Ladder_Report.md`,
+  including what the gate still does not prove.
 - **One Reading paper and one Listening paper.** No timed Writing or Speaking
   paper at this level.
 

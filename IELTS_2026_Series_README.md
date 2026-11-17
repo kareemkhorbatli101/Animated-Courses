@@ -105,6 +105,39 @@ measured **together**.
 | Volume 5 | 64.6% | 21.0% | in window |
 | Volume 6 | 62.8% | 23.4% | in window |
 
+### The syntax ladder
+
+Two more numbers are measured on the same prose and gated the same way:
+the mean sentence length, and the -tion/-ment/-ity/-ness rate, which is
+the best single marker of academic density.
+
+| Book | mean sentence | window | longest sentence | nominalisation |
+|---|---|---|---|---|
+| Foundation 1 | 16.8 | 16.5–18.5 | 31 | 1.8% |
+| Foundation 2 | 18.8 | 17.6–19.6 | 37 | 2.0% |
+| Volume 1 | 20.2 | 19.4–21.4 | 37 | 3.0% |
+| Volume 2 | 21.1 | 20.2–22.2 | 46 | 3.6% |
+| Volume 3 | 21.8 | 20.9–22.9 | 50 | 3.9% |
+| Volume 4 | 22.7 | 21.6–23.6 | 54 | 4.5% |
+| Volume 5 | 23.3 | 22.3–24.3 | 56 | 4.9% |
+| Volume 6 | 24.0 | 23.0–25.0 | 55 | 5.6% |
+
+Three things are gated: each book inside its own window, no sentence
+anywhere over its book's ceiling, and — with `density.py --ladder` — the
+eight measured means strictly rising, each at least 0.4 words above the
+book below.
+
+This is a **relative** gate and is stated as one. Unlike the vocabulary
+window, it does not rest on a property of English; it gates the claim
+this series makes, which is that each book is harder than the one below.
+It is not a weak gate: it failed six of the eight books the day it was
+written, and the worst failure was that the B1 book had the longest
+sentences in the series and the C1 book did not. About 275 sentences were
+split or merged to fix that. `IELTS_Syntax_Ladder_Report.md` has the
+whole account, including what the gate still does not prove.
+
+---
+
 The two productive bands do **not** scale down with the cover band: a model
 answer has to satisfy the rubric at any level, so the writing models in
 Volume 1 are held to the same standard as those in Volume 6. The two
@@ -149,6 +182,7 @@ academic passage and **18 in the worst of the twenty**, against ceilings of
 | `book.py` | the build itself |
 | `omit.py` | zero omissions — every passage, script turn, model, question and explanation reaching the file |
 | `gate6.py` | every run of text inside its box, nothing printed under 7.5px |
+| `density.py --ladder` | the syntax ladder above: eight books, rising |
 | `readiness.py` | gate 7, on the pair of Foundation books: a leaver can read Volume 1 |
 
 The first five pass on all eight files in this package; gate 7 passes on
@@ -170,11 +204,20 @@ inside its own box, not that a caption is clear of its neighbour.
 - `IELTS_Volume_N_Report.md` and `IELTS_Foundation_N_Report.md` — a
   delivery report per book: what is in it, how its level was measured,
   what was fixed and what is still open
+- `IELTS_Syntax_Ladder_Report.md` — how the last open item in the series
+  was closed, what it found, and what it still does not prove
 
 ## Known open item
 
-The syntax window (mean sentence length, nominalisation) is a recorded
-design decision rather than a gated measurement. Volume 1 measures 24.0
-words a sentence in its unit passages; Volume 6 measures more. If a
-Cambridge measurement ever fixes the real figure, the unit passages are
-what to move.
+**None blocking.** The syntax window, carried as the one open item through
+eight deliveries, was closed on 17 November: it is now gated, and the
+prose of six books was changed to pass it.
+
+What remains is an improvement rather than a defect. The syntax ladder is
+a relative gate: it proves this series is internally graded, not that
+Volume 4's 22.7 words a sentence is the right figure for band 6.5 in the
+real exam. Settling that needs the mean sentence length and
+nominalisation rate of twenty official Cambridge Academic passages, per
+band — a measurement this container cannot make, because its network
+policy reaches package registries and nothing else. If it is ever made,
+the window centres move to it and the ladder stays.

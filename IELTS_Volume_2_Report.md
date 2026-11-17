@@ -162,11 +162,12 @@ an exam simulation and is written to the register a candidate will actually
 meet, while the unit passages are teaching texts read at 110–130 words a minute
 under the loop. Volumes 4 and 6 show the same pattern.
 
-The two *reported* numbers — mean sentence 21.1, nominalisation 3.8 % — are not
-gated, for the reason `density.py` states in full: the only syntax window
-available was calibrated on textbook prose, and IELTS Academic passages are
-adapted journalism. `calibrate.py` settles it in one command given real
-Cambridge passages.
+The two syntactic numbers — mean sentence 21.1, nominalisation 3.6 % — are now
+**gated**, but against a ladder rather than an absolute, because the only
+absolute window available was calibrated on textbook prose and IELTS Academic
+passages are adapted journalism. The ladder gates what this series actually
+claims: that each book is harder than the one below it. Volume 2 sits between
+Volume 1's 20.2 and Volume 3's 21.8. See `IELTS_Syntax_Ladder_Report.md`.
 
 ---
 
@@ -239,7 +240,15 @@ figures, nothing overrunning its box, nothing printed under 7.5 px.
   label. It is a one-line fix plus a rebuild, and I have deliberately not
   touched it while Volume 2 was in flight, because changing it renames the
   shipped Volume 3 file.
-- The **syntax window** remains a recorded decision rather than a measurement,
+- ~~**The syntax window**~~ **Closed on 17 November.** `density.py` now gates
+  mean sentence length, the longest sentence in the book and the
+  nominalisation rate against a laddered window, and `density.py --ladder`
+  checks the eight books together. Volume 2 measures **21.1 words a sentence**
+  (window 20.2-22.2), longest sentence **46**, nominalisation **3.6%** — all in
+  window, and Volume 2 was the only book of the eight that needed no change at
+  all to pass. See `IELTS_Syntax_Ladder_Report.md`, including what the gate
+  still does not prove.
+- *(superseded)* The syntax window was a recorded decision rather than a measurement,
   for the genre reason above.
 - Fifteen outline frames in **Volumes 3 and 4** are set small to fit a thesis
   on one line. They are not clipped; a rebuild would now set them full size.

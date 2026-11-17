@@ -126,6 +126,14 @@ blank — is still true when the passages are four times longer.
 
 ## What is still open
 
-The syntax window (mean sentence length, nominalisation) remains a
-recorded design decision rather than a gated measurement, as in every
-other book in this series.
+**Nothing.** The syntax window — the one item carried as open in every
+other report in this series — was closed on 17 November. `density.py`
+now gates mean sentence length, the longest sentence in the book and the
+nominalisation rate against a laddered window.
+
+Foundation 1 failed it at first and was fixed: 26 long sentences were
+split, bringing the mean from 19.1 words to **16.8** (window 16.5–18.5)
+and the longest sentence from 43 words to **31** (ceiling 34).
+Nominalisation measures **1.8 %**, the bottom rung of a ladder that rises
+to 5.6 % in Volume 6. The full account, including what the gate still
+does not prove, is in `IELTS_Syntax_Ladder_Report.md`.
