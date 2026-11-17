@@ -368,22 +368,40 @@ UNIT = dict(
           'has given me one, and "use judgement" is not a measure, it is the '
           'thing we had before.'],
          items=[
-          ('Which person defends a target while admitting they gamed it?',
+          (
+           'Which person defends a target while admitting they gamed '
+           'it?',
            ['Hieronymus', 'Perpetua', 'Thaddeus', 'Winifred'], 0,
-           'The spike at three hours fifty minutes, which he says he did '
-           'too.'),
-          ('Which person reports a measure and a survey moving in opposite '
-           'directions?',
+           'The spike at three hours fifty minutes, which he says he '
+           'did too.',
+           {1: 'Perpetua reports a measure and a survey moving in '
+               'opposite directions.', 2: 'Thaddeus describes a cost falling on a different '
+               'budget.', 3: 'Winifred says the alternative is what existed before.'}),
+          (
+           'Which person reports a measure and a survey moving in '
+           'opposite directions?',
            ['Hieronymus', 'Perpetua', 'Thaddeus', 'Winifred'], 1,
-           'Five years of rising figures and falling satisfaction, both '
-           'accurate.'),
-          ('Which person describes a cost falling on a different budget?',
+           'Five years of rising figures and falling satisfaction, '
+           'both accurate.',
+           {0: 'Hieronymus defends a target while admitting they gamed '
+               'it.', 2: 'Thaddeus describes a cost falling on a different '
+               'budget.', 3: 'Winifred says the alternative is what existed before.'}),
+          (
+           'Which person describes a cost falling on a different '
+           'budget?',
            ['Hieronymus', 'Perpetua', 'Thaddeus', 'Winifred'], 2,
            'Appeals overturning about sixty per cent, eight months '
-           'later.'),
+           'later.',
+           {0: 'Hieronymus defends a target while admitting they gamed '
+               'it.', 1: 'Perpetua reports a measure and a survey moving in '
+               'opposite directions.', 3: 'Winifred says the alternative is what existed before.'}),
           ('Which person says the alternative is what existed before?',
            ['Hieronymus', 'Perpetua', 'Thaddeus', 'Winifred'], 3,
-           'And that "use judgement" is not a measure.'),
+           'And that "use judgement" is not a measure.',
+           {0: 'Hieronymus defends a target while admitting they gamed '
+               'it.', 1: 'Perpetua reports a measure and a survey moving in '
+               'opposite directions.', 2: 'Thaddeus describes a cost falling on a different '
+               'budget.'}),
           (
            'Perpetua believes her service\u2019s published figures are '
            'inaccurate.', ['Yes', 'No', 'Not Given'], 1,
@@ -768,14 +786,17 @@ UNIT = dict(
             'Paragraph 5'], 2,
            'Thirty-two points between the two accounts in housing '
            'repairs.'),
-          ('Which paragraph explains why one service improved on both '
-           'measures?', ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'Its target is closest to the outcome it stands for.'),
+          (
+           'Which paragraph explains why one service improved on both '
+           'measures?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2, 'Its target is closest to the outcome it stands for.',
+           {0: 'Paragraph 4 gives the size of the divergence.', 3: 'Paragraph 7 states the general rule.'}),
           ('Which paragraph states the general rule?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 2,
-           'Part of the outcome versus correlate of the outcome.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           2, 'Part of the outcome versus correlate of the outcome.',
+           {1: 'Paragraph 6 explains why one service improved on both '
+               'measures.', 3: 'Paragraph 4 gives the size of the divergence.'}),
           ('Housing repairs on the outcome measure fell from 59 to '
            '____________.', None, '54',
            'Paragraph 3, while its target score rose from 64 to 91.'),
@@ -1491,12 +1512,14 @@ UNIT = dict(
            'inside?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
             'Paragraph 5'], 1,
            'A practitioner has no access to the distribution.'),
-          ('Which paragraph says the case for discretion is about '
+          (
+           'Which paragraph says the case for discretion is about '
            'consequences rather than measurement?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
-           'A measure published and not enforced gives visibility without '
-           'punishment.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1,
+           'A measure published and not enforced gives visibility '
+           'without punishment.',
+           {3: 'Paragraph 8 says both systems redistribute attention.'}),
           ('Which paragraph says both systems redistribute attention?',
            ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',
             'Paragraph 10'], 1,

@@ -58,17 +58,22 @@ UNIT = dict(
           'days from the date of booking without payment.'],
          items=[
           ('Which course runs for fewer than twelve weeks?',
-           ['Spanish for Beginners', 'Intermediate Italian',
-            'Mandarin, First Steps', 'Conversational French'], 2,
-           'Ten weeks, and capped at eight students.'),
+           ['Spanish for Beginners', 'Intermediate Italian', 'Mandarin, First Steps', 'Conversational French'],
+           2, 'Ten weeks, and capped at eight students.',
+           {0: 'Spanish for Beginners runs for the full twelve weeks.', 1: 'Intermediate Italian requires a test before joining.', 3: 'Conversational French is the cheapest before materials '
+               'are added.'}),
           ('Which course requires a test before joining?',
-           ['Spanish for Beginners', 'Intermediate Italian',
-            'Mandarin, First Steps', 'Conversational French'], 1,
-           'A short placement interview by telephone.'),
+           ['Spanish for Beginners', 'Intermediate Italian', 'Mandarin, First Steps', 'Conversational French'],
+           1, 'A short placement interview by telephone.',
+           {0: 'Spanish for Beginners needs no test before joining.', 2: 'Mandarin, First Steps runs for fewer than twelve '
+               'weeks.', 3: 'Conversational French is the cheapest before materials '
+               'are added.'}),
           ('Which course is the cheapest before materials are added?',
-           ['Spanish for Beginners', 'Intermediate Italian',
-            'Mandarin, First Steps', 'Conversational French'], 3,
-           'At £150, though materials add £24.'),
+           ['Spanish for Beginners', 'Intermediate Italian', 'Mandarin, First Steps', 'Conversational French'],
+           3, 'At \u00a3150, though materials add \u00a324.',
+           {0: 'Spanish for Beginners costs \u00a3185, with the book '
+               'included.', 1: 'Intermediate Italian requires a test before joining.', 2: 'Mandarin, First Steps runs for fewer than twelve '
+               'weeks.'}),
           ('Mandarin classes are capped at ____________ students.', None,
            'eight', 'Against the usual sixteen on other courses.'),
           (
@@ -308,20 +313,33 @@ UNIT = dict(
           'where it stops being new. I have four beginner’s levels and no '
           'intermediate one.'],
          items=[
-          ('Which learner believes earlier classroom study made later '
+          (
+           'Which learner believes earlier classroom study made later '
            'immersion work?',
            ['Ingeborg', 'Taavi', 'Marguerite', 'Casimiro'], 0,
-           'Two years, then five weeks in Porto.'),
+           'Two years, then five weeks in Porto.',
+           {1: 'Taavi reads well but could not understand speech.', 2: 'Marguerite speaks fluently but repeats the same '
+               'errors.', 3: 'Casimiro has stopped at the same stage several times.'}),
           ('Which learner reads well but could not understand speech?',
            ['Ingeborg', 'Taavi', 'Marguerite', 'Casimiro'], 1,
            'Nobody in the application interrupted themselves or '
-           'coughed.'),
-          ('Which learner speaks fluently but repeats the same errors?',
+           'coughed.',
+           {0: 'Ingeborg believes earlier classroom study made later '
+               'immersion work.', 2: 'Marguerite speaks fluently but repeats the same '
+               'errors.', 3: 'Casimiro has stopped at the same stage several times.'}),
+          (
+           'Which learner speaks fluently but repeats the same errors?',
            ['Ingeborg', 'Taavi', 'Marguerite', 'Casimiro'], 2,
-           'Because a family does not correct you.'),
-          ('Which learner has stopped at the same stage several times?',
+           'Because a family does not correct you.',
+           {0: 'Ingeborg believes earlier classroom study made later '
+               'immersion work.', 1: 'Taavi reads well but could not understand speech.', 3: 'Casimiro has stopped at the same stage several times.'}),
+          (
+           'Which learner has stopped at the same stage several times?',
            ['Ingeborg', 'Taavi', 'Marguerite', 'Casimiro'], 3,
-           'Four beginner’s levels and no intermediate one.'),
+           'Four beginner\u2019s levels and no intermediate one.',
+           {0: 'Ingeborg believes earlier classroom study made later '
+               'immersion work.', 1: 'Taavi reads well but could not understand speech.', 2: 'Marguerite speaks fluently but repeats the same '
+               'errors.'}),
           ('Ingeborg believes classroom study is a waste of time.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says the opposite, explicitly.',
@@ -372,12 +390,18 @@ UNIT = dict(
            'Rules, vocabulary and deliberate study.'),
           ('Adults typically leave a course around week',
            ['four', 'eight', 'twelve', 'sixteen'], 1,
-           'When the novelty ends and progress stops being visible.'),
+           'When the novelty ends and progress stops being visible.',
+           {0: 'Week four is still inside the period he calls full.', 2: 'Whoever is left at week twelve tends to stay for '
+               'years.', 3: 'The courses he describes last twelve weeks, not '
+               'sixteen.'}),
           ('By week nine, attendance has fallen to about',
-           ['a half', 'two thirds', 'three quarters', 'nine '
-            'tenths'], 1,
+           ['a half', 'two thirds', 'three quarters', 'nine tenths'], 1,
            'And whoever remains at week twelve tends to stay for '
-           'years.'),
+           'years.',
+           {0: 'A half is a sharper fall than he reports for week '
+               'nine.', 2: 'Three quarters would be a gentler fall than he '
+               'describes.', 3: 'Nine tenths is close to the full attendance of week '
+               'one.'}),
           ('Classrooms produce students who are correct and '
            '____________.', None, 'slow',
            'While living in the country produces the opposite.')]),
@@ -429,22 +453,36 @@ UNIT = dict(
          items=[
           ('French entries have fallen from thirty-four thousand to',
            ['six', 'ten', 'sixteen', 'eighteen'], 1,
-           'Over the period the two teachers are discussing.'),
+           'Over the period the two teachers are discussing.',
+           {0: 'A steeper fall than the figure the two teachers '
+               'discuss.', 2: 'Higher than the figure given for French entries now.', 3: 'No figure of that size appears in the conversation.'}),
           ('Casimiro first blames the ____________, which forces a choice '
            'against a science.', None, 'timetable',
            'Rather than blaming the students.'),
           ('Ingeborg objects that this does not explain',
            ['German', 'Spanish', 'Mandarin', 'French'], 1,
-           'Which faces the same timetable and has risen.'),
+           'Which faces the same timetable and has risen.',
+           {0: 'German is the language his teacher-supply account '
+               'starts with.', 2: 'Mandarin comes up later, as the case that tests the '
+               'account.', 3: 'French is the language the explanation was offered '
+               'for.'}),
           ('Ingeborg’s own explanation is that French and German were '
            'marked ____________ than other subjects.', None, 'harder',
            'For about fifteen years, according to three studies.'),
-          ('Casimiro’s final explanation is a shortage of',
+          ('Casimiro\u2019s final explanation is a shortage of',
            ['students', 'teachers', 'textbooks', 'funding'], 1,
-           'Beginning with German after about 2005.'),
-          ('He says his explanation is the only one that also predicts',
+           'Beginning with German after about 2005.',
+           {0: 'Falling student numbers are what he is trying to '
+               'explain.', 2: 'Textbooks are not mentioned anywhere in the exchange.', 3: 'Funding appears only as what paid for Mandarin '
+               'teachers.'}),
+          (
+           'He says his explanation is the only one that also predicts',
            ['French', 'German', 'Spanish', 'Mandarin'], 3,
-           'Which rose on funded teacher recruitment.')])],
+           'Which rose on funded teacher recruitment.',
+           {0: 'French is one of the falls his explanation already '
+               'covers.', 1: 'German is where the shortage began, not what it '
+               'predicts.', 2: 'Spanish simply kept its teachers, which is the other '
+               'half.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Learning',
     longturn=[('The skill I learned as an adult is driving. I passed my test '
@@ -628,22 +666,31 @@ UNIT = dict(
           'forwards: its rise follows a funded recruitment programme '
           'almost exactly.'],
          items=[
-          ('Which paragraph names the explanation that fits all four '
+          (
+           'Which paragraph names the explanation that fits all four '
            'languages?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 3,
-           'Teacher supply, running in both directions.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           3, 'Teacher supply, running in both directions.',
+           {0: 'Paragraph 3 gives the figures for the two rising '
+               'languages.', 1: 'Paragraph 4 identifies the crossings.', 2: 'Paragraph 5 says two explanations both fail on the '
+               'same language.'}),
           ('Which paragraph identifies the crossings?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
            'Spanish overtaking German and French, and Mandarin passing '
-           'German.'),
-          ('Which paragraph says two explanations both fail on the same '
-           'language?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
+           'German.',
+           {0: 'Paragraph 2 gives the falls for French and German.', 1: 'Paragraph 3 gives the rises for Spanish and Mandarin.', 3: 'Paragraph 5 says two explanations both fail on the '
+               'same language.'}),
+          (
+           'Which paragraph says two explanations both fail on the '
+           'same language?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
            'Neither the timetable nor the grading explanation covers '
-           'Spanish.'),
+           'Spanish.',
+           {0: 'Paragraph 3 reports the rises rather than any '
+               'explanation.', 1: 'Paragraph 4 identifies the crossings.', 3: 'Paragraph 6 names the explanation that fits all four '
+               'languages.'}),
           ('French fell by about ____________ per cent across the '
            'period.', None, 'seventy',
            'From 34 thousand to 10 thousand.'),
@@ -709,13 +756,15 @@ UNIT = dict(
            'The steepest change on the chart.'),
           ('The timetable explanation fails because two of the lines',
            ['fell', 'rose', 'crossed', 'levelled'], 1,
-           'If it were right, all four would fall.'),
+           'If it were right, all four would fall.',
+           {0: 'A fall in all four is what the explanation predicts.', 2: 'The crossings are a separate feature of the chart.', 3: 'No line levels off; all four move throughout.'}),
           ('The grading explanation fails because Spanish was graded on '
            'the identical ____________.', None, 'scale',
            'And rose in every year measured.'),
           ('German teacher recruitment collapsed after',
            ['2000', '2005', '2010', '2015'], 1,
-           'After which schools dropped the course.'),
+           'After which schools dropped the course.',
+           {0: 'Five years before the collapse he describes.', 2: 'By 2010 the shortage had been running for years.', 3: 'Later than the date he gives for German recruitment.'}),
           ('He says the shortage deepens on a ____________-year cycle.',
            None, 'twenty',
            'Because students who never meet a subject do not teach it.'),
@@ -907,20 +956,27 @@ UNIT = dict(
           'loss whether or not anybody else can measure it.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['How the sequence begins', 'The stage that decides it',
-            'Counting speakers', 'What is actually lost'], 1,
+           ['How the sequence begins', 'The stage that decides it', 'Counting speakers', 'What is actually lost'],
+           1,
            'Bilingual parents speaking the larger language to '
-           'children.'),
+           'children.',
+           {0: 'The start of the sequence is paragraph 2, with the '
+               'useless language.', 2: 'Counting speakers is paragraph 4, on transfer between '
+               'generations.', 3: 'What is lost is paragraphs 6 and 7, at the end.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Transfer between generations',
-            'Why published figures mislead', 'The strongest claim',
-            'Oral literature'], 1,
-           'Speaker counts are easy to obtain; age profiles are not.'),
+           ['Transfer between generations', 'Why published figures mislead', 'The strongest claim', 'Oral literature'],
+           1,
+           'Speaker counts are easy to obtain; age profiles are not.',
+           {0: 'Transfer between generations is paragraph 4, just '
+               'before this.', 2: 'The strongest claim is paragraph 6, about ways of '
+               'thinking.', 3: 'Oral literature is paragraph 7, among the weaker '
+               'claims.'}),
           ('Choose the best heading for paragraph 7.',
-           ['The strongest claim', 'The claims that are better '
-            'supported', 'How languages are counted',
-            'Bilingualism'], 1,
-           'Oral literature, local knowledge and identity.'),
+           ['The strongest claim', 'The claims that are better supported', 'How languages are counted', 'Bilingualism'],
+           1, 'Oral literature, local knowledge and identity.',
+           {0: 'The strongest claim is paragraph 6, and it is the weak '
+               'one.', 2: 'Counting is paragraphs 4 and 5, on transfer and '
+               'tables.', 3: 'Bilingualism is paragraph 2, the second stage.'}),
           (
            'The writer believes the strongest claim about lost ways of '
            'thinking is well supported.',
@@ -993,20 +1049,27 @@ UNIT = dict(
            'On an ordinary afternoon, when a parent chooses.'),
           ('At stage two, adults become',
            ['monolingual', 'bilingual', 'literate', 'mobile'], 1,
-           'Which he says looks like gain rather than loss.'),
+           'Which he says looks like gain rather than loss.',
+           {0: 'Monolingual is what they were before stage two.', 2: 'Literacy is not part of the sequence he sets out.', 3: 'Movement of people is not one of his four stages.'}),
           ('Speakers asked where the trouble started usually point one '
            'stage too ____________.', None, 'early',
            'That is, at bilingualism rather than at transmission.'),
           ('At stage three, children understand the small language and '
            'answer in the ____________ one.', None, 'big',
            'For reasons their parents would defend.'),
-          ('Instead of counting speakers, linguists ask about transfer '
-           'between', ['regions', 'generations', 'schools',
-            'families'], 1,
-           'Which published tables rarely show.'),
+          (
+           'Instead of counting speakers, linguists ask about transfer '
+           'between',
+           ['regions', 'generations', 'schools', 'families'], 1,
+           'Which published tables rarely show.',
+           {0: 'Regions are not the unit the measure compares.', 2: 'Schools matter later, but are not what the measure '
+               'asks about.', 3: 'Families are where transfer happens, not what is '
+               'compared.'}),
           ('He advises using the claims that survive contact with a',
            ['speaker', 'sceptic', 'government', 'journalist'], 1,
-           'Rather than the strongest and least supported one.')])],
+           'Rather than the strongest and least supported one.',
+           {0: 'Speakers are who the claims are about, not who tests '
+               'them.', 2: 'A finance ministry is the audience, not the test.', 3: 'Journalists are not mentioned in the lecture.'})])],
    speak=dict(
     part='Part 3', focus='Small languages',
     intro=('Four or five sentences. Try once to say what exactly is '
@@ -1168,22 +1231,34 @@ UNIT = dict(
           'is the condition the successful case had and no programme has '
           'been shown to create.'],
          items=[
-          ('Which paragraph describes the conditions that made the '
+          (
+           'Which paragraph describes the conditions that made the '
            'successful case unusual?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'No shared language, and a political project.'),
-          ('Which paragraph insists that the second case is not one of '
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'No shared language, and a political project.',
+           {0: 'Paragraph 1 says only that the conditions are rarely '
+               'quoted.', 2: 'Paragraph 3 describes the second case and its state '
+               'support.', 3: 'Paragraph 4 insists that the second case is not one of '
+               'neglect.'}),
+          (
+           'Which paragraph insists that the second case is not one of '
            'neglect?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1,
            'More money and teaching hours than almost any other '
-           'language.'),
-          ('Which paragraph separates teaching a language from causing it '
-           'to be used?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'Different projects requiring different instruments.'),
+           'language.',
+           {0: 'Paragraph 3 sets out the support the second case has '
+               'had.', 2: 'Paragraph 5 explains what the successful case had '
+               'instead.', 3: 'Paragraph 6 separates teaching a language from causing '
+               'it to be used.'}),
+          (
+           'Which paragraph separates teaching a language from causing '
+           'it to be used?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2, 'Different projects requiring different instruments.',
+           {0: 'Paragraph 4 insists that the second case is not one of '
+               'neglect.', 1: 'Paragraph 5 is about which language is the easiest '
+               'option.', 3: 'Paragraph 7 draws the practical conclusion instead.'}),
           (
            'The writer believes Irish has failed because of '
            'insufficient support.',
@@ -1252,10 +1327,12 @@ UNIT = dict(
            'programme may not, and I would rather be honest about that '
            'than funded on a misunderstanding.')],
          items=[
-          ('Dr Ó Braonáin’s own weakest point is that he cannot show',
-           ['learners', 'a rise in daily use', 'funding',
-            'broadcasting'], 1,
-           'Although he can show qualifications and attitudes.'),
+          (
+           'Dr \u00d3 Braon\u00e1in\u2019s own weakest point is that he cannot show',
+           ['learners', 'a rise in daily use', 'funding', 'broadcasting'],
+           1, 'Although he can show qualifications and attitudes.',
+           {0: 'He says he can show learners, which is his point.', 2: 'Funding is what he is arguing about, not what he '
+               'lacks.', 3: 'Broadcasting hours are among the things he can show.'}),
           ('Professor Halvorsen says documentation is what you do when '
            'you have ____________.', None, 'given up',
            'And that the speakers understand this.'),
@@ -1267,7 +1344,10 @@ UNIT = dict(
            'And that their own child may use it.'),
           ('He accepts that his strongest argument is',
            ['proven', 'a bet', 'expensive', 'unpopular'], 1,
-           'Because it is untestable within their lifetimes.'),
+           'Because it is untestable within their lifetimes.',
+           {0: 'He says the opposite: it cannot be tested in their '
+               'lifetimes.', 2: 'Cost is the other speaker\u2019s objection, not his '
+               'admission.', 3: 'Popularity is not what either of them disputes.'}),
           ('They agree that documentation should be done with the '
            '____________ rather than about them.', None, 'community',
            'Because the recordings are what any revival must use.')])],

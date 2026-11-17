@@ -368,21 +368,42 @@ UNIT = dict(
           'and accepted, because both sides can see there is nothing to '
           'appeal to.'],
          items=[
-          ('Which official says they cannot state where the line falls?',
+          (
+           'Which official says they cannot state where the line '
+           'falls?',
            ['Hieronymus', 'Marguerite', 'Thaddeus', 'Winifred'], 0,
-           'After nineteen years of applying the definition.'),
-          ('Which official describes a case where their decision was '
+           'After nineteen years of applying the definition.',
+           {1: 'Marguerite describes a case where their decision was '
+               'reversed and both were defensible.', 2: 'Thaddeus says the sharpness belongs to the law and not '
+               'to the world.', 3: 'Winifred reports that borderline cases are rarely '
+               'appealed.'}),
+          (
+           'Which official describes a case where their decision was '
            'reversed and both were defensible?',
            ['Hieronymus', 'Marguerite', 'Thaddeus', 'Winifred'], 1,
-           'Two sisters, one flat, one shared fridge.'),
-          ('Which official says the sharpness belongs to the law and not '
-           'to the world?',
+           'Two sisters, one flat, one shared fridge.',
+           {0: 'Hieronymus says they cannot state where the line '
+               'falls.', 2: 'Thaddeus says the sharpness belongs to the law and not '
+               'to the world.', 3: 'Winifred reports that borderline cases are rarely '
+               'appealed.'}),
+          (
+           'Which official says the sharpness belongs to the law and '
+           'not to the world?',
            ['Hieronymus', 'Marguerite', 'Thaddeus', 'Winifred'], 2,
-           'And calls it a shared pretence.'),
-          ('Which official reports that borderline cases are rarely '
+           'And calls it a shared pretence.',
+           {0: 'Hieronymus says they cannot state where the line '
+               'falls.', 1: 'Marguerite describes a case where their decision was '
+               'reversed and both were defensible.', 3: 'Winifred reports that borderline cases are rarely '
+               'appealed.'}),
+          (
+           'Which official reports that borderline cases are rarely '
            'appealed?',
            ['Hieronymus', 'Marguerite', 'Thaddeus', 'Winifred'], 3,
-           'Because both sides can see there is nothing to appeal to.'),
+           'Because both sides can see there is nothing to appeal to.',
+           {0: 'Hieronymus says they cannot state where the line '
+               'falls.', 1: 'Marguerite describes a case where their decision was '
+               'reversed and both were defensible.', 2: 'Thaddeus says the sharpness belongs to the law and not '
+               'to the world.'}),
           ('Marguerite believes her original decision was wrong.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says nobody was wrong and both decisions were '
@@ -753,14 +774,16 @@ UNIT = dict(
             'Paragraph 4'], 1,
            'The old boundaries were not applied in that round.'),
           ('Which paragraph defines a break in series?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
            'A jump produced by a change in counting rather than in the '
-           'world.'),
-          ('Which paragraph explains when recalculation is impossible?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 2,
-           'Where older records lack what the new definition needs.'),
+           'world.',
+           {3: 'Paragraph 7 explains when recalculation is impossible.'}),
+          (
+           'Which paragraph explains when recalculation is impossible?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           2, 'Where older records lack what the new definition needs.',
+           {1: 'Paragraph 6 defines a break in series.'}),
           ('The urban threshold fell from ten thousand residents to '
            '____________ thousand plus a density condition.', None,
            'five',
@@ -1098,19 +1121,19 @@ UNIT = dict(
           'one, and adjust their expectations accordingly.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['The argument', 'A hidden sharp boundary nobody can locate',
-            'Degrees of truth', 'Vagueness in language'], 1,
-           'A precise number of grains that is unknowable.'),
+           ['The argument', 'A hidden sharp boundary nobody can locate', 'Degrees of truth', 'Vagueness in language'],
+           1, 'A precise number of grains that is unknowable.',
+           {2: 'Degrees of truth is the heading for paragraph 5.'}),
           ('Choose the best heading for paragraph 5.',
            ['A hidden boundary', 'Degrees of truth',
             'Vagueness in language', 'The administrative version'], 1,
            'True to degree 0.3 at one point and 0.7 at another.'),
           ('Choose the best heading for paragraph 10.',
-           ['The administrative version',
-            'A procedural answer', 'Borderline cases in practice',
-            'Degrees of truth'], 1,
+           ['The administrative version', 'A procedural answer', 'Borderline cases in practice', 'Degrees of truth'],
+           1,
            'Like cases alike, reasoning recorded, departures '
-           'explained.'),
+           'explained.',
+           {3: 'Degrees of truth is the heading for paragraph 5.'}),
           (
            'The writer believes the conclusion of the sorites argument '
            'is true.', ['Yes', 'No', 'Not Given'], 1,
@@ -1470,9 +1493,11 @@ UNIT = dict(
            'If the argument continues unchanged, it was never about the '
            'word.'),
           ('Which paragraph describes categories directing attention?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
-           'Separate statistics, procedures and eventually expertise.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1,
+           'Separate statistics, procedures and eventually expertise.',
+           {3: 'Paragraph 8 says the merely-verbal complaint is '
+               'correct and beside the point.'}),
           ('Which paragraph says the merely-verbal complaint is correct '
            'and beside the point?',
            ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',

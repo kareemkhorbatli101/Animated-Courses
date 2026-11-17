@@ -66,12 +66,18 @@ UNIT = dict(
            'Paragraph 1, against 101 or the online form otherwise.'),
           ('An online report produces a crime reference number within',
            ['ten minutes', 'one hour', 'one day', 'one week'], 1,
-           'Paragraph 2, and the insurer will ask for it.'),
+           'Paragraph 2, and the insurer will ask for it.',
+           {0: 'Faster than the passage allows for an online report.', 2: 'A day is longer than paragraph 2 gives for the number.', 3: 'A week is the wait for nothing in this procedure.'}),
           ('An officer will make contact within ____________ hours.', None,
            '48', 'Paragraph 3, to arrange a written statement.'),
-          ('A statement may be taken by telephone where no property was',
-           ['stolen', 'damaged', 'insured', 'found'], 1,
-           'Paragraph 3, as an alternative to home or station.'),
+          (
+           'A statement may be taken by telephone where no property '
+           'was', ['stolen', 'damaged', 'insured', 'found'],
+           1, 'Paragraph 3, as an alternative to home or station.',
+           {0: 'Theft is what the report is about, not what decides '
+               'the method.', 2: 'Insurance affects the claim, not how the statement is '
+               'taken.', 3: 'Whether property is found is not mentioned in '
+               'paragraph 3.'}),
           ('You will be told the outcome within ____________ days.', None,
            '28', 'Paragraph 5, which lists three possible outcomes.'),
           ('Instead of submitting a second report you should quote your '
@@ -100,15 +106,21 @@ UNIT = dict(
           'group leader beforehand if you intend to bring somebody with '
           'you.'],
          items=[
-          ('Which service requires no referral and no report to the '
+          (
+           'Which service requires no referral and no report to the '
            'police?',
-           ['the telephone support line', 'the caseworker service',
-            'compensation', 'the court visit'], 0,
-           'Open 24 hours, with interpreters in 42 languages.'),
+           ['the telephone support line', 'the caseworker service', 'compensation', 'the court visit'],
+           0, 'Open 24 hours, with interpreters in 42 languages.',
+           {1: 'The caseworker service is arranged by referral from '
+               'the police.', 2: 'Compensation is open only to victims of violent crime.', 3: 'The court visit is available only once a trial date is '
+               'set.'}),
           ('Which service is open only to victims of violent crime?',
-           ['the telephone line', 'the caseworker service',
-            'compensation', 'peer support'], 2,
-           'And the incident must have been reported.'),
+           ['the telephone line', 'the caseworker service', 'compensation', 'peer support'],
+           2, 'And the incident must have been reported.',
+           {0: 'The telephone line is open to anybody, reported or '
+               'not.', 1: 'The caseworker service takes referrals for any '
+               'offence.', 3: 'Peer support groups are free and need no booking at '
+               'all.'}),
           ('A court familiarisation visit must be booked at least '
            '____________ days ahead.', None, 'seven',
            'And is available once a trial date is set.'),
@@ -298,22 +310,37 @@ UNIT = dict(
           'rather than disagreeing with the rule. Enforcement here is '
           'almost nothing, so most people find out that nobody is.'],
          items=[
-          ('Which person admits applying a standard to themselves they '
+          (
+           'Which person admits applying a standard to themselves they '
            'would not accept from others?',
            ['Oleander', 'Hesper', 'Wolfram', 'Perpetua'], 0,
-           'A better judge of their own junction.'),
+           'A better judge of their own junction.',
+           {1: 'Hesper treats a penalty as a payment for a service.', 2: 'Wolfram changed their behaviour because of what a '
+               'penalty cost somebody else.', 3: 'Perpetua thinks rule-breaking is mostly about being '
+               'observed.'}),
           ('Which person treats a penalty as a payment for a service?',
            ['Oleander', 'Hesper', 'Wolfram', 'Perpetua'], 1,
-           'Regarded as rent for a space the council has not '
-           'provided.'),
-          ('Which person changed their behaviour because of what a '
+           'Regarded as rent for a space the council has not provided.',
+           {0: 'Oleander admits applying a standard to themselves they '
+               'would not accept from others.', 2: 'Wolfram changed their behaviour because of what a '
+               'penalty cost somebody else.', 3: 'Perpetua thinks rule-breaking is mostly about being '
+               'observed.'}),
+          (
+           'Which person changed their behaviour because of what a '
            'penalty cost somebody else?',
            ['Oleander', 'Hesper', 'Wolfram', 'Perpetua'], 2,
-           'Fifty pounds was a week’s food to his friend.'),
-          ('Which person thinks rule-breaking is mostly about being '
+           'Fifty pounds was a week\u2019s food to his friend.',
+           {0: 'Oleander admits applying a standard to themselves they '
+               'would not accept from others.', 1: 'Hesper treats a penalty as a payment for a service.', 3: 'Perpetua thinks rule-breaking is mostly about being '
+               'observed.'}),
+          (
+           'Which person thinks rule-breaking is mostly about being '
            'observed?',
            ['Oleander', 'Hesper', 'Wolfram', 'Perpetua'], 3,
-           'Testing whether anybody is watching.'),
+           'Testing whether anybody is watching.',
+           {0: 'Oleander admits applying a standard to themselves they '
+               'would not accept from others.', 1: 'Hesper treats a penalty as a payment for a service.', 2: 'Wolfram changed their behaviour because of what a '
+               'penalty cost somebody else.'}),
           ('Hesper believes the fine is unfair.',
            ['Yes', 'No', 'Not Given'], 2,
            'She treats it as rent; she never says whether it is '
@@ -364,17 +391,26 @@ UNIT = dict(
            None, 'caught',
            'The finding he says surprises every audience.'),
           ('Doubling a parking fine produces',
-           ['a large change', 'almost no change', 'a temporary change',
-            'an immediate change'], 1,
+           ['a large change', 'almost no change', 'a temporary change', 'an immediate change'],
+           1,
            'While one inspector twice a week changes behaviour in a '
-           'fortnight.'),
+           'fortnight.',
+           {0: 'A large change is what the audience expects and does '
+               'not happen.', 2: 'Nothing temporary is reported; the change is almost '
+               'nothing.', 3: 'The immediate change comes from the inspector, not the '
+               'fine.'}),
           ('An inspector costs less than the administration of the '
            '____________ fine.', None, 'higher',
            'Which is why he calls it the better option.'),
-          ('Fines set as a share of income have a modest effect on '
+          (
+           'Fines set as a share of income have a modest effect on '
            'behaviour and a considerable effect on',
            ['revenue', 'fairness', 'enforcement', 'reporting'], 1,
-           'A combination he calls unusual.')]),
+           'A combination he calls unusual.',
+           {0: 'Revenue is not the effect he reports for income-based '
+               'fines.', 2: 'Enforcement is the chance of being caught, a separate '
+               'point.', 3: 'Reporting is not discussed in connection with these '
+               'fines.'})]),
     dict(heading='Two residents on parking and the law', part='Part 3',
          task='A conversation between two neighbours', band='l3',
          qtype='Questions 27-32',
@@ -417,16 +453,24 @@ UNIT = dict(
            'spaces.', None, 'eleven',
            'Built that way in 1974 and not reviewed since.'),
           ('Hesper argues that the fine is not enforcement but',
-           ['a punishment', 'an income', 'a warning', 'a '
-            'deterrent'], 1,
-           'Because the council collects it and changes nothing.'),
+           ['a punishment', 'an income', 'a warning', 'a deterrent'], 1,
+           'Because the council collects it and changes nothing.',
+           {0: 'Punishment is what she thinks the fine fails to '
+               'achieve.', 2: 'A warning is not what he calls it; a warning changes '
+               'behaviour.', 3: 'A deterrent is precisely what he says it has stopped '
+               'being.'}),
           ('Perpetua says her complaint is not that Hesper is fined',
            ['too often', 'too little', 'unfairly', 'too late'], 1,
-           'But that the fine lets everybody stop thinking.'),
-          ('The effect of the fine, Perpetua says, is that the pavement '
-           'remains', ['clearer', 'as blocked as before', 'unsafe at '
-            'night', 'unrepaired'], 1,
-           'While both sides feel the matter is settled.'),
+           'But that the fine lets everybody stop thinking.',
+           {0: 'How often he is fined is not her objection either.', 2: 'Unfairness is her point about number seventeen, not '
+               'about him.', 3: 'Timing is not raised anywhere in the exchange.'}),
+          (
+           'The effect of the fine, Perpetua says, is that the '
+           'pavement remains',
+           ['clearer', 'as blocked as before', 'unsafe at night', 'unrepaired'],
+           1, 'While both sides feel the matter is settled.',
+           {0: 'Clearer is what neither of them claims has happened.', 2: 'Night-time safety is not mentioned by either resident.', 3: 'Repair is not the issue; the pavement is blocked, not '
+               'broken.'}),
           ('Hesper adds that the resident at number seventeen has stopped '
            'using her ____________.', None, 'car',
            'Because she cannot pay the fine.'),
@@ -615,19 +659,27 @@ UNIT = dict(
           'rise as a rise in offending is reading a change in procedure as '
           'a change in the world.'],
          items=[
-          ('Which paragraph explains the fall in two of the categories?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Cars harder to steal and houses easier to alarm.'),
-          ('Which paragraph warns against reading a procedural change as '
-           'a real one?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 3'], 2,
-           'Reporting moved to a national service in 2017.'),
-          ('Which paragraph identifies the category that barely moves?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Criminal damage, never outside 19 to 21.'),
+          (
+           'Which paragraph explains the fall in two of the '
+           'categories?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'Cars harder to steal and houses easier to alarm.',
+           {0: 'Paragraph 3 identifies the category that barely moves.', 1: 'Paragraph 4 is about fraud, the one line that rises.', 3: 'Paragraph 6 warns against reading a procedural change '
+               'as a real one.'}),
+          (
+           'Which paragraph warns against reading a procedural change '
+           'as a real one?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 3'],
+           2, 'Reporting moved to a national service in 2017.',
+           {0: 'Paragraph 4 describes fraud, the one line that rises.', 1: 'Paragraph 5 explains the fall in two of the '
+               'categories.', 3: 'Paragraph 3 describes criminal damage, the flat line.'}),
+          (
+           'Which paragraph identifies the category that barely moves?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Criminal damage, never outside 19 to 21.',
+           {0: 'Paragraph 2 pairs burglary with vehicle theft as they '
+               'fall.', 2: 'Paragraph 4 describes fraud, which moves most of all.', 3: 'Paragraph 5 explains the fall in two of the '
+               'categories.'}),
           ('Burglary fell from 18 to ____________ over the period.', None,
            '9', 'Closely matched by vehicle theft.'),
           (
@@ -696,21 +748,28 @@ UNIT = dict(
            'must report it to claim the ____________.', None,
            'insurance', 'Unlike minor assault, where the gap is '
            'enormous.'),
-          ('Part of the rise in recorded fraud is explained by reporting '
-           'moving to one national service in',
+          (
+           'Part of the rise in recorded fraud is explained by '
+           'reporting moving to one national service in',
            ['2014', '2017', '2020', '2022'], 1,
-           'Which made reporting easier and shrank the dark figure.'),
+           'Which made reporting easier and shrank the dark figure.',
+           {0: 'Three years too early for the change he describes.', 2: 'By 2020 the single service had been running for years.', 3: 'Later than the change that explains part of the rise.'}),
           ('The two counts can only be separated by comparing the graph '
            'against the ____________.', None, 'survey',
            'Which asks the same question every year.'),
-          ('He is confident about burglary because recorded and surveyed '
-           'burglary both', ['rose', 'halved', 'flattened',
-            'diverged'], 1,
-           'Two methods failing differently and agreeing.'),
-          ('His rule is to ask whether anything changed about how a '
-           'figure is', ['defined', 'recorded', 'published',
-            'funded'], 1,
-           'Before answering any question about it.')])],
+          (
+           'He is confident about burglary because recorded and '
+           'surveyed burglary both',
+           ['rose', 'halved', 'flattened', 'diverged'], 1,
+           'Two methods failing differently and agreeing.',
+           {0: 'A rise is what fraud did, not burglary.', 2: 'Flattening is what criminal damage does throughout.', 3: 'Divergence would weaken his case rather than support '
+               'it.'}),
+          (
+           'His rule is to ask whether anything changed about how a '
+           'figure is',
+           ['defined', 'recorded', 'published', 'funded'], 1,
+           'Before answering any question about it.',
+           {0: 'Definition matters, but his rule names the recording.', 2: 'Publication is not what he tells you to question.', 3: 'Funding is not part of the discipline he sets out.'})])],
    speak=dict(
     part='Part 3', focus='Measuring crime',
     intro=('Four or five sentences. Give the reason, then the '
@@ -902,21 +961,25 @@ UNIT = dict(
           'described as though they were a single policy.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['Why offenders lack information',
-            'Evidence from natural experiments',
-            'The effect of imprisonment itself',
-            'Two aims competing for one budget'], 1,
-           'Redeployed officers and increased sentences compared.'),
+           ['Why offenders lack information', 'Evidence from natural experiments', 'The effect of imprisonment itself', 'Two aims competing for one budget'],
+           1, 'Redeployed officers and increased sentences compared.',
+           {0: 'Information is paragraph 4, on sentences offenders '
+               'cannot name.', 2: 'Imprisonment itself is paragraph 6, the qualification.', 3: 'The competing budgets are paragraph 7, the last '
+               'paragraph.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Information about sentences', 'Immediate against distant '
-            'consequences', 'What imprisonment prevents',
-            'Where the money goes'], 1,
-           'A consequence arriving years later is weighted near zero.'),
+           ['Information about sentences', 'Immediate against distant consequences', 'What imprisonment prevents', 'Where the money goes'],
+           1,
+           'A consequence arriving years later is weighted near zero.',
+           {0: 'Information about sentences is paragraph 4, not this '
+               'one.', 2: 'What imprisonment prevents is paragraph 6, the '
+               'qualification.', 3: 'Where the money goes is paragraph 7, on the two '
+               'budgets.'}),
           ('Choose the best heading for paragraph 7.',
-           ['Natural experiments', 'The qualification',
-            'Two aims, two different budgets',
-            'Why the belief persists'], 2,
-           'Detection and prison places compete for the same money.'),
+           ['Natural experiments', 'The qualification', 'Two aims, two different budgets', 'Why the belief persists'],
+           2, 'Detection and prison places compete for the same money.',
+           {0: 'Natural experiments are paragraph 3, with the '
+               'redeployments.', 1: 'The qualification about imprisonment is paragraph 6.', 3: 'Why the belief persists is not this paragraph, which '
+               'is about cost.'}),
           (
            'The writer believes raising penalties reliably reduces '
            'offending.', ['Yes', 'No', 'Not Given'], 1,
@@ -988,19 +1051,25 @@ UNIT = dict(
            'Sixty years of research in many countries.'),
           ('Moving officers into an area reduces offences within',
            ['days', 'weeks', 'months', 'a year'], 1,
-           'And offences return when the officers leave.'),
-          ('Increasing a sentence by a third produces a change that is',
-           ['small but clear', 'indistinguishable from nothing',
-            'delayed', 'temporary'], 1,
-           'Which is the comparison that makes the evidence clean.'),
+           'And offences return when the officers leave.',
+           {0: 'Days is faster than the lecture claims for the effect.', 2: 'Months is slower than the weeks he reports.', 3: 'A year is far longer than the effect takes to appear.'}),
+          (
+           'Increasing a sentence by a third produces a change that is',
+           ['small but clear', 'indistinguishable from nothing', 'delayed', 'temporary'],
+           1, 'Which is the comparison that makes the evidence clean.',
+           {0: 'Small but clear is the opposite of what he reports.', 2: 'No delay is described; the change simply does not '
+               'appear.', 3: 'Nothing temporary is reported for a longer sentence.'}),
           ('When offenders are asked about sentences, their answers are '
            'wrong in both ____________.', None, 'directions',
            'Which is the information explanation.'),
-          ('He insists that prison preventing offences during '
+          (
+           'He insists that prison preventing offences during '
            'imprisonment is real but is not',
            ['measurable', 'deterrence', 'expensive', 'common'], 1,
            'And says running the two together keeps the argument '
-           'confused.'),
+           'confused.',
+           {0: 'He says the opposite: the effect is real and '
+               'measurable.', 2: 'Cost is his closing point about budgets, not this one.', 3: 'How common imprisonment is, is not discussed here.'}),
           ('He thinks people resist the finding because it sounds like '
            'saying the offence does not ____________.', None, 'matter',
            'Whereas it is a claim about which lever moves the '
@@ -1170,23 +1239,35 @@ UNIT = dict(
           'and leaves the person worse, which is exactly what the evidence '
           'describes.'],
          items=[
-          ('Which paragraph explains why the reoffending figure is '
+          (
+           'Which paragraph explains why the reoffending figure is '
            'similar across countries?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
            'Dominated by who goes to prison rather than what happens '
-           'there.'),
-          ('Which paragraph describes the method using random allocation '
-           'to judges?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Comparing similar defendants who met different judges.'),
-          ('Which paragraph gives the mechanism behind the effect of '
+           'there.',
+           {0: 'Paragraph 1 gives the figure and says it is hard to '
+               'interpret.', 2: 'Paragraph 3 describes the method using random '
+               'allocation to judges.', 3: 'Paragraph 4 reports the finding about short prison '
+               'terms.'}),
+          (
+           'Which paragraph describes the method using random '
+           'allocation to judges?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Comparing similar defendants who met different judges.',
+           {0: 'Paragraph 2 explains why the reoffending figure is '
+               'similar across countries.', 2: 'Paragraph 4 gives the result that method produced.', 3: 'Paragraph 5 gives the mechanism behind the effect of '
+               'short sentences.'}),
+          (
+           'Which paragraph gives the mechanism behind the effect of '
            'short sentences?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 1,
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           1,
            'Long enough to cost a job and a tenancy, too short for a '
-           'programme.'),
+           'programme.',
+           {0: 'Paragraph 4 gives the size of the effect, not its '
+               'cause.', 2: 'Paragraph 6 is about longer sentences and prison '
+               'conditions.', 3: 'Paragraph 7 asks what a sentence is for.'}),
           (
            'The writer believes the similar figures show prisons make '
            'no difference.', ['Yes', 'No', 'Not Given'], 1,
@@ -1253,14 +1334,17 @@ UNIT = dict(
            'figures for their own sentences once a year. I cannot '
            'calibrate on cases whose endings I never learn.')],
          items=[
-          ('Judge Aldersey’s own weakest point is that he has never seen',
-           ['the research', 'the figures for his own sentences',
-            'a prison', 'the guidelines'], 1,
-           'After nineteen years and several thousand sentences.'),
+          (
+           'Judge Aldersey\u2019s own weakest point is that he has never '
+           'seen',
+           ['the research', 'the figures for his own sentences', 'a prison', 'the guidelines'],
+           1, 'After nineteen years and several thousand sentences.',
+           {0: 'He does not say he is unfamiliar with the research.', 2: 'Prisons are not what he says he has never seen.', 3: 'The guidelines are what he sentences by every day.'}),
           ('Dr Nakamura-Reilly admits her method depends on judges',
-           ['agreeing', 'differing from one another', 'keeping '
-            'records', 'being experienced'], 1,
-           'Which the system regards as a fault.'),
+           ['agreeing', 'differing from one another', 'keeping records', 'being experienced'],
+           1, 'Which the system regards as a fault.',
+           {0: 'Agreement between judges would destroy her method.', 2: 'Record-keeping is the judge\u2019s complaint, not her '
+               'concession.', 3: 'Experience is not what her method depends on.'}),
           ('The judge says a community order for a burglary is read by the '
            'victim as ____________.', None, 'nothing',
            'Which he says is an argument about what a sentence does.'),
@@ -1269,12 +1353,15 @@ UNIT = dict(
            'In exchange for dropping a claim about the other two.'),
           ('She says a short sentence protects the public for about',
            ['two weeks', 'eleven weeks', 'six months', 'a year'], 1,
-           'And releases somebody with no job and no tenancy.'),
-          ('What the judge would most want changed is to be sent the '
+           'And releases somebody with no job and no tenancy.',
+           {0: 'Too short for the period she names.', 2: 'Six months is where the short-sentence threshold sits.', 3: 'A year is far longer than the protection she '
+               'describes.'}),
+          (
+           'What the judge would most want changed is to be sent the '
            'figures for his own sentences',
-           ['monthly', 'once a year', 'on request', 'after each '
-            'case'], 1,
-           'Because he cannot calibrate on endings he never learns.')])],
+           ['monthly', 'once a year', 'on request', 'after each case'],
+           1, 'Because he cannot calibrate on endings he never learns.',
+           {0: 'Monthly is more often than he asks for.', 2: 'He wants them sent, not supplied when he asks.', 3: 'After each case the ending is still years away.'})])],
    speak=dict(
     part='Part 3', focus='What a sentence is for',
     sounds=[('Vowel length changes meaning, and the pairs that matter most are '

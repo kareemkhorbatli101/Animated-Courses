@@ -364,20 +364,28 @@ PAPER = dict(
                'definition, and that the change was announced, explained and '
                'ignored.')],
        items=[
-        ('Which paragraph explains why an adjusted census figure is partly '
-         'an estimate?',
-         ['Paragraph 1', 'Paragraph 2', 'Paragraph 5', 'Paragraph 7'], 1,
+        (
+         'Which paragraph explains why an adjusted census figure is '
+         'partly an estimate?',
+         ['Paragraph 1', 'Paragraph 2', 'Paragraph 5', 'Paragraph 7'],
+         1,
          'Paragraph 2 describes the second survey used to measure the '
-         'undercount.'),
+         'undercount.',
+         {3: 'Paragraph 7 argues that administrative records count a '
+             'different population.'}),
         ('Which paragraph argues that administrative records count a '
          'different population?',
          ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 3,
          'Paragraph 7 explains who such records contain and who they '
          'miss.'),
-        ('Which paragraph states the writer’s own recommendation?',
-         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 3,
-         'Paragraph 8 rejects scepticism and says how a census should be '
-         'read.'),
+        (
+         'Which paragraph states the writer\u2019s own recommendation?',
+         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+         3,
+         'Paragraph 8 rejects scepticism and says how a census should '
+         'be read.',
+         {2: 'Paragraph 7 argues that administrative records count a '
+             'different population.'}),
         ('The census undercount falls randomly across the population.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 2 lists the specific groups it falls on.'),

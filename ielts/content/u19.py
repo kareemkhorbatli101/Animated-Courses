@@ -87,9 +87,11 @@ UNIT = dict(
            'Paragraph 1, and it may be used at any time within the '
            'boundary.'),
           ('Which pass is not transferable?',
-           ['Standard Monthly', 'Off-Peak Monthly', 'Annual',
-            'Young Person’s Monthly'], 1,
-           'Paragraph 2: it carries a photograph.'),
+           ['Standard Monthly', 'Off-Peak Monthly', 'Annual', 'Young Person\u2019s Monthly'],
+           1, 'Paragraph 2: it carries a photograph.',
+           {0: 'The Standard Monthly may be used by anybody, one at a '
+               'time.', 2: 'The Annual pass even brings a guest two days a month.', 3: 'Young Person\u2019s Monthly is valid on the riverbus '
+               'routes.'}),
           ('The Annual pass includes ____________ free guest days a '
            'month.', None, 'two',
            'Paragraph 3, for one accompanying adult.'),
@@ -97,9 +99,10 @@ UNIT = dict(
            'weeks a year.', None, 'eight',
            'Paragraph 3, on production of a medical note.'),
           ('Which pass is valid on the riverbus routes?',
-           ['Standard Monthly', 'Off-Peak Monthly', 'Annual',
-            'Young Person’s Monthly'], 3,
-           'Paragraph 4, unlike the Off-Peak pass.'),
+           ['Standard Monthly', 'Off-Peak Monthly', 'Annual', 'Young Person\u2019s Monthly'],
+           3, 'Paragraph 4, unlike the Off-Peak pass.',
+           {0: 'The Standard Monthly covers buses and trams only.', 1: 'Off-Peak Monthly is not transferable.', 2: 'The Annual pass is the standard pass bought for ten '
+               'months.'}),
           ('Travel to the airport is included by bus route '
            '____________ only.', None, '90',
            'Paragraph 5: rail requires a separate ticket.')]),
@@ -326,20 +329,29 @@ UNIT = dict(
           'There is one roundabout where I have twice been hit, and that '
           'roundabout is the entire reason my colleagues do not cycle.'],
          items=[
-          ('Which commuter objects to the conditions rather than the '
+          (
+           'Which commuter objects to the conditions rather than the '
            'length of the journey?',
            ['Ondine', 'Thaddeus', 'Perpetua', 'Ignatius'], 0,
-           'She would not change the time, only the standing.'),
+           'She would not change the time, only the standing.',
+           {1: 'Thaddeus argues for a change that costs nothing.', 2: 'Perpetua reports a gain and a loss together.', 3: 'Ignatius identifies a single point that deters others.'}),
           ('Which commuter argues for a change that costs nothing?',
            ['Ondine', 'Thaddeus', 'Perpetua', 'Ignatius'], 1,
-           'Starting at ten rather than running more trains.'),
+           'Starting at ten rather than running more trains.',
+           {0: 'Ondine objects to the conditions rather than the '
+               'length of the journey.', 2: 'Perpetua reports a gain and a loss together.', 3: 'Ignatius identifies a single point that deters others.'}),
           ('Which commuter reports a gain and a loss together?',
            ['Ondine', 'Thaddeus', 'Perpetua', 'Ignatius'], 2,
-           'A better journey and worse work.'),
-          ('Which commuter identifies a single point that deters '
+           'A better journey and worse work.',
+           {0: 'Ondine objects to the conditions rather than the '
+               'length of the journey.', 1: 'Thaddeus argues for a change that costs nothing.', 3: 'Ignatius identifies a single point that deters others.'}),
+          (
+           'Which commuter identifies a single point that deters '
            'others?',
            ['Ondine', 'Thaddeus', 'Perpetua', 'Ignatius'], 3,
-           'One roundabout, which is the whole reason.'),
+           'One roundabout, which is the whole reason.',
+           {0: 'Ondine objects to the conditions rather than the '
+               'length of the journey.', 1: 'Thaddeus argues for a change that costs nothing.', 2: 'Perpetua reports a gain and a loss together.'}),
           (
            'Thaddeus\u2019s employer has refused his request to start '
            'later.', ['Yes', 'No', 'Not Given'], 2,
@@ -399,9 +411,15 @@ UNIT = dict(
           ('The existing off-peak fare moves about ____________ per cent '
            'of journeys.', None, 'three',
            'Because those who can shift already have.'),
-          ('Thaddeus argues the current discount of twelve per cent is '
-           'too', ['late', 'small', 'complicated', 'generous'], 1,
-           'And suggests thirty per cent might work.'),
+          (
+           'Thaddeus argues the current discount of twelve per cent is '
+           'too',
+           ['late', 'small', 'complicated', 'generous'], 1,
+           'And suggests thirty per cent might work.',
+           {0: 'Timing is not his complaint about the existing '
+               'discount.', 2: 'He does not say the fare structure is hard to '
+               'understand.', 3: 'Generous is the opposite of what he calls twelve per '
+               'cent.'}),
           ('He concedes that revenue falls in year ____________.', None,
            'one', 'Which he calls a genuine objection rather than an '
            'excuse.'),
@@ -603,19 +621,26 @@ UNIT = dict(
           'the rest describable.'],
          items=[
           ('Which paragraph identifies the two features to orient by?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 0,
-           'The road and the canal, unchanged in both plans.'),
-          ('Which paragraph describes the only surviving building in the '
-           'middle strip?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'The depot, retained in its original position.'),
-          ('Which paragraph describes the only entirely new line of '
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           0, 'The road and the canal, unchanged in both plans.',
+           {1: 'Paragraph 2 describes the changes north of the road.', 2: 'Paragraph 3 describes the only surviving building in '
+               'the middle strip.', 3: 'Paragraph 4 describes the changes south of the track.'}),
+          (
+           'Which paragraph describes the only surviving building in '
+           'the middle strip?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'The depot, retained in its original position.',
+           {0: 'Paragraph 2 covers the station and the tram '
+               'interchange.', 2: 'Paragraph 4 covers the allotments and the underpass.', 3: 'Paragraph 5 describes the only entirely new line of '
+               'movement.'}),
+          (
+           'Which paragraph describes the only entirely new line of '
            'movement?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'The footbridge route across the middle.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'The footbridge route across the middle.',
+           {0: 'Paragraph 3 covers the track, platforms, park and '
+               'depot.', 1: 'Paragraph 4 covers the allotments and the new '
+               'underpass.', 3: 'Paragraph 6 sums up the corridor as a whole.'}),
           ('A station now stands where the ____________ was.', None,
            'goods yard', 'Paragraph 2, north of the road.'),
           ('The sidings have been replaced by the running track and two '
@@ -671,7 +696,10 @@ UNIT = dict(
            'Where there was scrubland before.'),
           ('The depot is the only building in that strip that',
            ['moved', 'survives', 'expanded', 'closed'], 1,
-           'And it explains why the track bends.'),
+           'And it explains why the track bends.',
+           {0: 'The depot stayed exactly where it was, which is the '
+               'point.', 2: 'No expansion is described; it is unchanged in '
+               'position.', 3: 'It is still there, and the track bends around it.'}),
           ('The level crossing has been replaced by an ____________ on '
            'roughly the same line.', None, 'underpass',
            'Which he expects residents to raise.'),
@@ -866,19 +894,21 @@ UNIT = dict(
           'journeys at the same speed is promising something it can.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['The widened road', 'Treating traffic as fixed',
-            'Four responses', 'The timescale'], 1,
-           'The engineers calculated correctly and assumed wrongly.'),
+           ['The widened road', 'Treating traffic as fixed', 'Four responses', 'The timescale'],
+           1, 'The engineers calculated correctly and assumed wrongly.',
+           {0: 'The widened road and its result are paragraph 1.', 2: 'The four responses are paragraph 3.', 3: 'The timescale is paragraph 5, from eighteen months to '
+               'a decade.'}),
           ('Choose the best heading for paragraph 4.',
-           ['Journeys that were never made before',
-            'Returning to the main road', 'Road closures',
-            'What the evidence shows'], 0,
-           'The fourth group, and the benefit to them.'),
+           ['Journeys that were never made before', 'Returning to the main road', 'Road closures', 'What the evidence shows'],
+           0, 'The fourth group, and the benefit to them.',
+           {1: 'Returning from the back route is the first response, '
+               'in paragraph 3.', 2: 'Road closures are paragraph 6, where the effect runs '
+               'backwards.', 3: 'What the evidence shows is paragraph 7, the '
+               'conclusion.'}),
           ('Choose the best heading for paragraph 6.',
-           ['How long the benefit lasts',
-            'What happens when a road is closed',
-            'Why widening fails', 'Counting traffic'], 1,
-           'Seventy closures and the quarter that vanished.'),
+           ['How long the benefit lasts', 'What happens when a road is closed', 'Why widening fails', 'Counting traffic'],
+           1, 'Seventy closures and the quarter that vanished.',
+           {0: 'How long the benefit lasts is paragraph 5.', 2: 'Why widening fails is paragraphs 2 and 7.', 3: 'Counting traffic is a point inside paragraph 4.'}),
           ('The writer believes roads should never be widened.',
            ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph allows widening where the junction is '
@@ -955,7 +985,9 @@ UNIT = dict(
            'Which is the error rather than the arithmetic.'),
           ('The fourth response is journeys that nobody made',
            ['twice', 'before', 'quickly', 'legally'], 1,
-           'Which he calls the interesting one.'),
+           'Which he calls the interesting one.',
+           {0: 'Repetition is not what distinguishes the fourth group.', 2: 'Speed belongs to the second response, about departure '
+               'times.', 3: 'Legality is not raised anywhere in the lecture.'}),
           ('A traffic counter cannot tell a new journey apart from one '
            'that moved off the ____________ route.', None, 'back',
            'Although they are not the same thing.'),
@@ -1131,20 +1163,28 @@ UNIT = dict(
           'able to bear it, and whether that is acceptable depends '
           'entirely on what is done with the money it raises.'],
          items=[
-          ('Which paragraph describes the scheme charging by distance?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Harder to administer and fairer in principle.'),
-          ('Which paragraph explains why total traffic fell least in one '
-           'city?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
-           'Journeys moved into the free hours.'),
-          ('Which paragraph identifies what predicts political '
+          (
+           'Which paragraph describes the scheme charging by distance?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Harder to administer and fairer in principle.',
+           {0: 'Paragraph 2 describes the flat daily charge on entry.', 2: 'Paragraph 4 explains why total traffic fell least in '
+               'one city.', 3: 'Paragraph 5 sets out the objection about income.'}),
+          (
+           'Which paragraph explains why total traffic fell least in '
+           'one city?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1, 'Journeys moved into the free hours.',
+           {0: 'Paragraph 3 describes the scheme charging by distance.', 2: 'Paragraph 5 is about the burden by income, not the '
+               'total fall.', 3: 'Paragraph 6 identifies what predicts political '
+               'survival.'}),
+          (
+           'Which paragraph identifies what predicts political '
            'survival?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'What was done with the revenue.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2, 'What was done with the revenue.',
+           {0: 'Paragraph 4 explains why total traffic fell least in '
+               'one city.', 1: 'Paragraph 5 describes the objection the schemes all '
+               'face.', 3: 'Paragraph 7 gives the summary in two halves.'}),
           ('The writer believes charging fails to reduce traffic.',
            ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph calls the reduction reliable.',
@@ -1212,10 +1252,13 @@ UNIT = dict(
           ('The councillor admits his real objection is about who '
            '____________.', None, 'pays',
            'Rather than whether the charge works.'),
-          ('The economist admits she has given talks that did not '
-           'mention the', ['council', 'cleaner', 'commuter',
-            'company'], 1,
-           'Who pays a serious weekly sum.'),
+          (
+           'The economist admits she has given talks that did not '
+           'mention the',
+           ['council', 'cleaner', 'commuter', 'company'], 1,
+           'Who pays a serious weekly sum.',
+           {0: 'The council is who she is addressing, not who she '
+               'omits.', 2: 'Commuters in general are not the group she names.', 3: 'No company is mentioned by either speaker.'}),
           ('The councillor says the buses arrive in year ____________ '
            'while the charge arrives in week one.', None, 'three',
            'So the lowest-paid driver pays for two years.'),

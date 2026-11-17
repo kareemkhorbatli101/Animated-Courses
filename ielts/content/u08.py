@@ -75,10 +75,12 @@ UNIT = dict(
          items=[
           ('Which item costs the same at both shops?',
            ['potatoes', 'eggs', 'carrots', 'milk'], 3,
-           'Paragraph 4: £1.45 for two litres at each.'),
+           'Paragraph 4: \u00a31.45 for two litres at each.',
+           {0: 'Potatoes are \u00a31.40 against 70p a kilogram.', 1: 'Eggs are \u00a32.60 for six against \u00a31.95.', 2: 'Carrots are sold by the bunch and by the kilogram.'}),
           ('For which item is a direct comparison impossible?',
            ['potatoes', 'eggs', 'carrots', 'milk'], 2,
-           'Paragraph 3: sold by the bunch against by the kilogram.'),
+           'Paragraph 3: sold by the bunch against by the kilogram.',
+           {0: 'Potatoes are given per kilogram in both shops.', 1: 'Eggs are given per six in both shops.', 3: 'Milk is two litres in both shops at the same price.'}),
           ('The supermarket bag of potatoes works out at '
            '____________ a kilogram.', None, '70p',
            'Paragraph 1, against £1.40 loose at the farm shop.'),
@@ -110,10 +112,15 @@ UNIT = dict(
          items=[
           ('Which term is checked by an annual inspection?',
            ['free range', 'organic', 'farm fresh', 'best before'], 1,
-           'Paragraph 2, paid for by the farm.'),
+           'Paragraph 2, paid for by the farm.',
+           {0: 'Free range is defined in law but is not inspected '
+               'annually here.', 2: 'Farm fresh is not defined at all, so nothing is '
+               'checked.', 3: 'Best before is a quality date, not a farming standard.'}),
           ('Which term has no legal meaning?',
            ['free range', 'organic', 'use by', 'natural'], 3,
-           'Paragraph 3, along with "farm fresh".'),
+           'Paragraph 3, along with "farm fresh".',
+           {0: 'Free range is defined in law as daytime access to open '
+               'ground.', 1: 'Organic is defined in law and inspected.', 2: 'Use by is a legally meaningful safety date.'}),
           ('"Free range" says nothing about the size of the '
            '____________.', None, 'flock',
            'Paragraph 1, which may be several thousand.'),
@@ -302,18 +309,27 @@ UNIT = dict(
          items=[
           ('Which person says the habit was created by circumstances?',
            ['Rosalind', 'Kwabena', 'Delphine', 'Teodor'], 0,
-           'One small table and nowhere else to sit.'),
-          ('Which person has stopped feeling guilty about how often '
+           'One small table and nowhere else to sit.',
+           {1: 'Kwabena describes working hours and a number he '
+               'accepts.', 2: 'Delphine disputes what counts rather than describing a '
+               'cause.', 3: 'Teodor describes a habit he broke on purpose.'}),
+          (
+           'Which person has stopped feeling guilty about how often '
            'they manage it?',
            ['Rosalind', 'Kwabena', 'Delphine', 'Teodor'], 1,
-           'Three nights, which he now calls reasonable.'),
+           'Three nights, which he now calls reasonable.',
+           {0: 'Rosalind manages it every night and claims no credit.', 2: 'Delphine argues about the television, not about '
+               'frequency.', 3: 'Teodor describes four nights and no guilt about the '
+               'rest.'}),
           ('Which person disputes what counts as eating together?',
            ['Rosalind', 'Kwabena', 'Delphine', 'Teodor'], 2,
-           'The television is on, and they talk about the '
-           'programmes.'),
+           'The television is on, and they talk about the programmes.',
+           {0: 'Rosalind describes why it happens, not what counts.', 1: 'Kwabena accepts a number rather than disputing a '
+               'definition.', 3: 'Teodor describes cooking for himself.'}),
           ('Which person deliberately changed a habit?',
            ['Rosalind', 'Kwabena', 'Delphine', 'Teodor'], 3,
-           'He stopped eating standing up over the sink.'),
+           'He stopped eating standing up over the sink.',
+           {0: 'Rosalind says the furniture imposed the habit.', 1: 'Kwabena changed how he felt rather than what he does.', 2: 'Delphine defends an existing habit.'}),
           (
            'Rosalind believes her family deserves credit for eating '
            'together.', ['True', 'False', 'Not Given'], 1,
@@ -368,7 +384,10 @@ UNIT = dict(
            'Which the research has to allow for.'),
           ('When studies control for those factors, the effect',
            ['disappears', 'shrinks', 'reverses', 'doubles'], 1,
-           'But does not disappear entirely.'),
+           'But does not disappear entirely.',
+           {0: 'The talk says the effect shrinks and does not '
+               'disappear.', 2: 'No reversal of the effect is mentioned.', 3: 'Nothing in the talk doubles when the controls are '
+               'applied.'}),
           ('Her best guess is that the benefit comes from the '
            '____________ rather than the food.', None, 'conversation',
            'Which is why the number of nights matters less.'),
@@ -554,20 +573,22 @@ UNIT = dict(
           'about quality alone: milk has a short life, and every hour '
           'spent in the system is an hour removed from the shelf.'],
          items=[
-          ('Which paragraph explains why the phase boundaries fall '
+          (
+           'Which paragraph explains why the phase boundaries fall '
            'where they do?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 0,
-           'Each marks a change of ownership or responsibility.'),
-          ('Which paragraph describes the stage that protects the rest '
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           0, 'Each marks a change of ownership or responsibility.',
+           {1: 'Paragraph 2 describes the farm phase.', 2: 'Paragraph 3 describes the testing stage.', 3: 'Paragraph 4 describes heating and homogenising.'}),
+          (
+           'Which paragraph describes the stage that protects the rest '
            'of the system?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Testing before mixing, so one load can be rejected.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Testing before mixing, so one load can be rejected.',
+           {0: 'Paragraph 2 is the farm and the tank.', 2: 'Paragraph 4 is pasteurising and homogenising.', 3: 'Paragraph 5 is bottling and delivery.'}),
           ('Which paragraph explains why speed matters commercially?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 3,
-           'Every hour in the system is an hour off the shelf.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           3, 'Every hour in the system is an hour off the shelf.',
+           {0: 'Paragraph 2 is about the farm.', 1: 'Paragraph 3 is about testing before mixing.', 2: 'Paragraph 4 is about the two processes.'}),
           ('Milk is held on the farm at ____________ degrees.', None,
            'four', 'Paragraph 2, in a refrigerated tank.'),
           ('Pasteurising heats the milk for ____________ seconds.',
@@ -624,9 +645,11 @@ UNIT = dict(
           ('One tanker collects from ____________ farms.', None, 'six',
            'Six farms on one round, before the tanker returns.'),
           ('Testing before mixing means one bad load costs them',
-           ['a hundred loads', 'one load', 'a day of production',
-            'the whole silo'], 1,
-           'Rather than spoiling everything it would have joined.'),
+           ['a hundred loads', 'one load', 'a day of production', 'the whole silo'],
+           1, 'Rather than spoiling everything it would have joined.',
+           {0: 'A hundred loads is what would be spoiled if they mixed '
+               'first.', 2: 'A day of production is not the figure either speaker '
+               'gives.', 3: 'The whole silo is the loss that testing prevents.'}),
           ('He admits his reason is partly ____________ rather than '
            'scientific.', None, 'sentimental',
            'Which he says is better than pretending otherwise.')]),
@@ -679,7 +702,10 @@ UNIT = dict(
            'Rather than a safety measure alone.'),
           ('At the third boundary, what changes is',
            ['ownership', 'responsibility', 'temperature', 'price'], 1,
-           'The temperature record belongs to the haulier.'),
+           'The temperature record belongs to the haulier.',
+           {0: 'Ownership changes at the first boundary, on the farm.', 2: 'Temperature is recorded rather than being the '
+               'boundary.', 3: 'Price is not what changes at any of the three '
+               'boundaries.'}),
           ('He says the useful question about a process is where the '
            '____________ fall and why.', None, 'boundaries',
            'Rather than how many stages there are.')])],
@@ -865,18 +891,20 @@ UNIT = dict(
           'need have been wrong.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['Population and farmland', 'The three changes together',
-            'What the gains were', 'The cost in the soil'], 1,
-           'Varieties, fertiliser and irrigation working together.'),
+           ['Population and farmland', 'The three changes together', 'What the gains were', 'The cost in the soil'],
+           1, 'Varieties, fertiliser and irrigation working together.',
+           {0: 'Population and farmland are paragraph 1.', 2: 'What the gains were is paragraph 3.', 3: 'The cost in the soil is paragraph 4.'}),
           ('Choose the best heading for paragraph 4.',
-           ['Famines that did not happen', 'Soil and water',
-            'Measuring in different units', 'Shorter plants'], 1,
-           'Organic matter lost and fertiliser in rivers.'),
+           ['Famines that did not happen', 'Soil and water', 'Measuring in different units', 'Shorter plants'],
+           1, 'Organic matter lost and fertiliser in rivers.',
+           {0: 'Famines that did not happen are paragraph 3.', 2: 'Measuring in different units is paragraph 5.', 3: 'Shorter plants are one of the three changes in '
+               'paragraph 2.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Why the argument is hard', 'Profit every year',
-            'Centuries of soil', 'The limit removed'], 0,
-           'Costs and benefits in different units at different '
-           'times.'),
+           ['Why the argument is hard', 'Profit every year', 'Centuries of soil', 'The limit removed'],
+           0,
+           'Costs and benefits in different units at different times.',
+           {1: 'Profit every year is an example inside paragraph 5.', 2: 'Centuries of soil is a phrase in paragraph 5, not its '
+               'subject.', 3: 'The limit removed is fertiliser, in paragraph 2.'}),
           (
            'Cultivated land rose by about twelve per cent between 1960 '
            'and 2000.', ['True', 'False', 'Not Given'], 0,
@@ -1115,18 +1143,22 @@ UNIT = dict(
           'whatever number is already on the page.'],
          items=[
           ('Which paragraph lists what yield does not measure?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'Topsoil, organic matter, water and organisms.'),
-          ('Which paragraph explains how payments penalise careful '
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'Topsoil, organic matter, water and organisms.',
+           {0: 'Paragraph 1 says what yield is and how it has been '
+               'used.', 2: 'Paragraph 3 defends yield as a measure of production.', 3: 'Paragraph 4 is about what farmers are paid for.'}),
+          (
+           'Which paragraph explains how payments penalise careful '
            'farmers?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'Subsidies, loans and valuations built on output.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'Subsidies, loans and valuations built on output.',
+           {0: 'Paragraph 2 lists what yield omits.', 1: 'Paragraph 3 defends yield as the right measure of '
+               'production.', 3: 'Paragraph 5 is about measuring the rest.'}),
           ('Which paragraph states a lesson beyond farming?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 3,
-           'The easy measure drives out the one that matters.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           3, 'The easy measure drives out the one that matters.',
+           {0: 'Paragraph 3 is about a single measure becoming a '
+               'definition.', 1: 'Paragraph 4 is about payments.', 2: 'Paragraph 5 is about the cost of measuring.'}),
           (
            'The writer believes yield is the wrong measure of '
            'production.', ['Yes', 'No', 'Not Given'], 1,
@@ -1210,7 +1242,9 @@ UNIT = dict(
            'Which almost no farmer can afford to wait for.'),
           ('He says that is really a question about',
            ['soil', 'lending', 'weather', 'exports'], 1,
-           'Rather than about agriculture.')])],
+           'Rather than about agriculture.',
+           {0: 'Soil is what the disagreement is about, not the '
+               'underlying question.', 2: 'Weather is not mentioned by either speaker.', 3: 'Exports do not come up in the discussion.'})])],
    speak=dict(
     part='Part 3', focus='Measuring what matters in farming',
     sounds=[('The -s ending has three sounds: s after a voiceless consonant in '

@@ -62,12 +62,16 @@ UNIT = dict(
            '____________ months.', None, 'three',
            'Paragraph 1, and almost everything else depends on the '
            'certificate.'),
-          ('Which document is NOT accepted as proof of address for an '
+          (
+           'Which document is NOT accepted as proof of address for an '
            'initial registration?',
-           ['A tenancy agreement', 'A utility bill',
-            'A countersigned letter', 'A residence permit'], 1,
-           'Paragraph 2: a utility bill is accepted only for a change of '
-           'address.'),
+           ['A tenancy agreement', 'A utility bill', 'A countersigned letter', 'A residence permit'],
+           1,
+           'Paragraph 2: a utility bill is accepted only for a change '
+           'of address.',
+           {0: 'A tenancy agreement is accepted as proof of address.', 2: 'A countersigned letter dated within a month is '
+               'accepted.', 3: 'A residence permit proves status, and should be '
+               'brought.'}),
           ('The certificate usually arrives within ____________ working '
            'days.', None, 'ten',
            'Paragraph 3, by post, and the original should be kept.'),
@@ -217,24 +221,32 @@ UNIT = dict(
            'thing nobody tells you because it looks obvious from the other '
            'side.')],
          items=[
-          ('How long do people lose on average by delaying registration?',
-           ['Two weeks', 'Four weeks', 'Seven weeks', 'Three months'], 2,
-           'Because every later step needs the document they did not get.'),
-          ('What distinguished those who took a job below their '
+          (
+           'How long do people lose on average by delaying '
+           'registration?',
+           ['Two weeks', 'Four weeks', 'Seven weeks', 'Three months'],
+           2,
+           'Because every later step needs the document they did not '
+           'get.',
+           {0: 'Shorter than the delay she reports.', 1: 'Still shorter than the average loss she gives.', 3: 'Longer than the figure she quotes.'}),
+          (
+           'What distinguished those who took a job below their '
            'qualification?',
-           ['They refused such jobs', 'They set a review date in writing',
-            'They worked longer hours', 'They retrained'], 1,
-           'The ones who did badly had no date by which they would review '
-           'it.'),
+           ['They refused such jobs', 'They set a review date in writing', 'They worked longer hours', 'They retrained'],
+           1,
+           'The ones who did badly had no date by which they would '
+           'review it.',
+           {0: 'She says the ones who did badly were not those who '
+               'refused.', 2: 'Hours worked are not what distinguished them.', 3: 'Retraining is not the difference she identifies.'}),
           ('Which group does the speaker say struggled?',
-           ['Those who mixed widely', 'Those at either extreme',
-            'Those who learned the language first',
-            'Those who moved cities'], 1,
-           'Entirely inside a community or entirely outside one.'),
+           ['Those who mixed widely', 'Those at either extreme', 'Those who learned the language first', 'Those who moved cities'],
+           1, 'Entirely inside a community or entirely outside one.',
+           {0: 'Mixing widely is what the successful group did.', 2: 'Language first is one of two workable routes.', 3: 'Moving between cities is not discussed.'}),
           ('Qualification recognition takes between',
-           ['two and four months', 'four and eight months',
-            'eight and fourteen months', 'one and two years'], 2,
-           'Which is why she advises starting it in month one.')]),
+           ['two and four months', 'four and eight months', 'eight and fourteen months', 'one and two years'],
+           2, 'Which is why she advises starting it in month one.',
+           {0: 'Shorter than the period she gives for recognition.', 1: 'Still shorter than the eight to fourteen months she '
+               'names.', 3: 'Longer than the process she describes.'})]),
     dict(heading='Two advisers disagree about integration', part='Part 3',
          task='A conversation between caseworkers', band='l3',
          qtype='Questions 19-23',
@@ -283,27 +295,33 @@ UNIT = dict(
           ('Emeka', 'Because nobody is funded to do it. Which is the real obstacle, while we have spent ten minutes on another one.')],
          items=[
           ('Hyacinth argues the current advice is wrong for',
-           ['everybody', 'about half of clients', 'new arrivals only',
-            'those with savings'], 1,
-           'Specifically those who need income quickly.'),
-          ('Emeka’s counterargument is that without the language',
-           ['people cannot register', 'people stay in the first job they '
-            'take', 'employers refuse them', 'classes are wasted'], 1,
-           'The job they take is the job they are still in at forty-five.'),
+           ['everybody', 'about half of clients', 'new arrivals only', 'those with savings'],
+           1, 'Specifically those who need income quickly.',
+           {0: 'She says it is clearly right for some clients.', 2: 'She divides clients by circumstances, not by arrival '
+               'date.', 3: 'Those with savings are the group it suits.'}),
+          ('Emeka\u2019s counterargument is that without the language',
+           ['people cannot register', 'people stay in the first job they take', 'employers refuse them', 'classes are wasted'],
+           1,
+           'The job they take is the job they are still in at '
+           'forty-five.',
+           {0: 'Registration does not depend on the language.', 2: 'He does not say employers refuse them outright.', 3: 'Wasted classes are her concern, not his.'}),
           ('What does he say about evening classes?',
-           ['They are free', 'They have about seventy per cent attrition',
-            'They are unavailable', 'They work better'], 1,
+           ['They are free', 'They have about seventy per cent attrition', 'They are unavailable', 'They work better'],
+           1,
            'After a ten-hour shift, which is why he calls both options '
-           'bad.'),
+           'bad.',
+           {0: 'Cost is not what he says about evening classes.', 2: 'They are available, which is why attrition can be '
+               'measured.', 3: 'He says they work badly after a long shift.'}),
           ('What do they agree to propose?',
-           ['One standard route', 'Two named tracks with the trade-off '
-            'written down', 'Full-time study for all',
-            'Removing the advice'], 1,
-           'With a mandatory review at twelve months booked at the start.'),
+           ['One standard route', 'Two named tracks with the trade-off written down', 'Full-time study for all', 'Removing the advice'],
+           1,
+           'With a mandatory review at twelve months booked at the '
+           'start.',
+           {0: 'A single route is what they agree to abandon.', 2: 'Full-time study for all is the advice she criticises.', 3: 'They propose more advice, not less.'}),
           ('What does Emeka identify as the real obstacle?',
-           ['Client attitudes', 'Nobody is funded to do the review',
-            'Class availability', 'Employer resistance'], 1,
-           'Which he says is not what they have been arguing about.')])],
+           ['Client attitudes', 'Nobody is funded to do the review', 'Class availability', 'Employer resistance'],
+           1, 'Which he says is not what they have been arguing about.',
+           {0: 'Client attitudes are not what he blames.', 2: 'Class availability is not the obstacle he names.', 3: 'Employers are not mentioned as the obstacle.'})])],
    speak=dict(
     part='Part 1', focus='Moving to a new place',
     intro=('Two or three sentences. Personal experience is ideal here, and '
@@ -441,18 +459,29 @@ UNIT = dict(
           ('Which person says their experience was eased by others?',
            ['Lioubov', 'Oyelaran', 'Siv', 'Tarquin'], 0,
            'A job, a flat and a colleague who had done the paperwork '
-           'before.'),
-          ('Which person rejects the way their situation was described by '
-           'others?', ['Lioubov', 'Oyelaran', 'Siv', 'Tarquin'], 1,
-           'He refuses the word determination and names the real cause.'),
-          ('Which person describes an accumulation of small obstacles?',
+           'before.',
+           {1: 'Oyelaran rejects the way their situation was described '
+               'by others.', 2: 'Siv describes an accumulation of small obstacles.', 3: 'Tarquin regrets a strategy they chose deliberately.'}),
+          (
+           'Which person rejects the way their situation was described '
+           'by others?',
+           ['Lioubov', 'Oyelaran', 'Siv', 'Tarquin'], 1,
+           'He refuses the word determination and names the real '
+           'cause.',
+           {0: 'Lioubov says their experience was eased by others.', 2: 'Siv describes an accumulation of small obstacles.', 3: 'Tarquin regrets a strategy they chose deliberately.'}),
+          (
+           'Which person describes an accumulation of small obstacles?',
            ['Lioubov', 'Oyelaran', 'Siv', 'Tarquin'], 2,
-           'Forty tiny ones, each twenty minutes, which together were a '
-           'winter.'),
+           'Forty tiny ones, each twenty minutes, which together were '
+           'a winter.',
+           {0: 'Lioubov says their experience was eased by others.', 1: 'Oyelaran rejects the way their situation was described '
+               'by others.', 3: 'Tarquin regrets a strategy they chose deliberately.'}),
           ('Which person regrets a strategy they chose deliberately?',
            ['Lioubov', 'Oyelaran', 'Siv', 'Tarquin'], 3,
-           'He avoided people from home for eight months and would not do it '
-           'again.'),
+           'He avoided people from home for eight months and would not '
+           'do it again.',
+           {0: 'Lioubov says their experience was eased by others.', 1: 'Oyelaran rejects the way their situation was described '
+               'by others.', 2: 'Siv describes an accumulation of small obstacles.'}),
           (
            'Oyelaran believes the recognition process should be '
            'faster.', ['Yes', 'No', 'Not Given'], 2,
@@ -515,23 +544,29 @@ UNIT = dict(
          items=[
           ('How many people arrived in the ward last year?',
            ['410', '1,790', '2,200', '4,000'], 2,
-           'Against seventeen hundred and ninety departures, giving a net of '
-           'four hundred and ten.'),
+           'Against seventeen hundred and ninety departures, giving a '
+           'net of four hundred and ten.',
+           {0: '410 is the net figure, not the arrivals.', 1: '1,790 is the number who left.', 3: '4,000 is the number of households changing hands.'}),
           ('Perpetua says the net figure is',
            ['wrong', 'incomplete', 'out of date', 'inflated'], 1,
-           'She distinguishes incomplete from misleading explicitly.'),
+           'She distinguishes incomplete from misleading explicitly.',
+           {0: 'She says she does not call it wrong.', 2: 'The figures came through that morning.', 3: 'She does not say the net figure is overstated.'}),
           ('What does she say costs drive on?',
-           ['The net figure', 'The turnover', 'The housing stock',
-            'The population total'], 1,
-           'A school with the same roll but a third of its pupils new is '
-           'doing a different job.'),
+           ['The net figure', 'The turnover', 'The housing stock', 'The population total'],
+           1,
+           'A school with the same roll but a third of its pupils new '
+           'is doing a different job.',
+           {0: 'The net figure is what services are sized on.', 2: 'Housing stock is not what she says drives cost.', 3: 'The population total is not her measure.'}),
           ('Which figure does she say is poorly measured?',
            ['Arrivals', 'Departures', 'Births', 'Households'], 1,
-           'Arrivals are registered; departures are inferred badly.'),
+           'Arrivals are registered; departures are inferred badly.',
+           {0: 'Arrivals are known because people register.', 2: 'Births are not discussed in the exchange.', 3: 'Household changes are counted, at nearly four '
+               'thousand.'}),
           ('What do they agree to?',
-           ['Changing the housing target', 'Measuring departures',
-            'A new survey of arrivals', 'Nothing'], 1,
-           'A question asked when a council tax account is closed.')])],
+           ['Changing the housing target', 'Measuring departures', 'A new survey of arrivals', 'Nothing'],
+           1, 'A question asked when a council tax account is closed.',
+           {0: 'He says explicitly that it does not change his '
+               'position.', 2: 'Arrivals are already well measured.', 3: 'They agree on a specific, cheap measure.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Arriving somewhere new',
     longturn=[('The time I was new somewhere was a year I spent working in a '
@@ -725,10 +760,13 @@ UNIT = dict(
          items=[
           ('Which region had the largest net loss?',
            ['North', 'East', 'Central', 'West'], 3,
-           'The West, at minus thirty thousand.'),
+           'The West, at minus thirty thousand.',
+           {0: 'The North gained twenty-two thousand.', 1: 'The East lost seven thousand, the smallest change.', 2: 'Central had the highest turnover.'}),
           ('Which region had the highest turnover?',
            ['North', 'East', 'Central', 'West'], 2,
-           'Central, at three hundred and ninety-one thousand.'),
+           'Central, at three hundred and ninety-one thousand.',
+           {0: 'The North\u2019s turnover was two hundred and fourteen '
+               'thousand.', 1: 'The East had the lowest turnover of the four.', 3: 'West had the largest net loss.'}),
           ('Arrivals in the North: ____________ thousand', None, '118',
            'Against ninety-six thousand departures, giving a net of plus '
            'twenty-two.'),
@@ -738,9 +776,11 @@ UNIT = dict(
            'departures',
            'Paragraph 1, which notes it is almost never reported.'),
           ('Which paragraph explains what each figure drives?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'], 2,
-           'Net change drives housing and school places; turnover drives '
-           'administrative cost.')])],
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
+           'Net change drives housing and school places; turnover '
+           'drives administrative cost.',
+           {0: 'Paragraph 2 reads the year by the net column.', 1: 'Paragraph 3 reads the same year by turnover.', 3: 'Paragraph 5 compares regions that look alike.'})])],
    listen=[
     dict(heading='A demographer on migration data', part='Part 4',
          task='A lecture on reading flow figures', band='l4',
@@ -788,31 +828,38 @@ UNIT = dict(
            'measurement instead of a subtraction of a guess.')],
          items=[
           ('What does the lecturer say is wrong with the net figure?',
-           ['It is inaccurate', 'It answers a question nobody asked',
-            'It is out of date', 'It is too large'], 1,
-           'He distinguishes wrong in that sense from inaccurate.'),
-          ('Central’s turnover is',
+           ['It is inaccurate', 'It answers a question nobody asked', 'It is out of date', 'It is too large'],
+           1, 'He distinguishes wrong in that sense from inaccurate.',
+           {0: 'He says explicitly that it is not inaccurate.', 2: 'Currency of the figure is not his objection.', 3: 'Its size is not what he says is wrong with it.'}),
+          ('Central\u2019s turnover is',
            ['15,000', '188,000', '203,000', '391,000'], 3,
-           'Against a net figure of plus fifteen thousand.'),
+           'Against a net figure of plus fifteen thousand.',
+           {0: '15,000 is the net figure for Central.', 1: '188,000 is the number who left Central.', 2: '203,000 is the number who arrived in Central.'}),
           ('What does turnover drive?',
-           ['The number of houses needed',
-            'Tenancies, records and mid-year arrivals',
-            'The birth rate', 'Regional boundaries'], 1,
-           'Net change drives the housing quantity; turnover drives these.'),
-          ('He says a school with a third of its pupils new each year is',
-           ['better funded', 'funded identically to a stable school',
-            'smaller', 'closed'], 1,
-           'Which he calls the largest unfunded pressure in high-turnover '
-           'areas.'),
+           ['The number of houses needed', 'Tenancies, records and mid-year arrivals', 'The birth rate', 'Regional boundaries'],
+           1,
+           'Net change drives the housing quantity; turnover drives '
+           'these.',
+           {0: 'Housing quantity follows from net change.', 2: 'The birth rate is not part of either figure.', 3: 'Boundaries are fixed, not driven by turnover.'}),
+          (
+           'He says a school with a third of its pupils new each year '
+           'is',
+           ['better funded', 'funded identically to a stable school', 'smaller', 'closed'],
+           1,
+           'Which he calls the largest unfunded pressure in '
+           'high-turnover areas.',
+           {0: 'He says the funding is identical, not better.', 2: 'The roll is the same four hundred in both cases.', 3: 'Nothing in the lecture suggests closure.'}),
           ('Why are departures measured badly?',
-           ['People leave suddenly', 'Nobody has a reason to tell an '
-            'authority', 'The surveys are too large',
-            'Registration is voluntary'], 1,
-           'Arrivals are counted well because people need documents.'),
+           ['People leave suddenly', 'Nobody has a reason to tell an authority', 'The surveys are too large', 'Registration is voluntary'],
+           1,
+           'Arrivals are counted well because people need documents.',
+           {0: 'Suddenness is not the reason he gives.', 2: 'He calls the survey confidence intervals alarming, not '
+               'the size.', 3: 'Registration on arrival is required, not voluntary.'}),
           ('His proposed fix is to ask a question when somebody',
-           ['registers an address', 'closes a utility or tax account',
-            'applies for a passport', 'enrols a child'], 1,
-           'Which would turn an estimate into a count.')])],
+           ['registers an address', 'closes a utility or tax account', 'applies for a passport', 'enrols a child'],
+           1, 'Which would turn an estimate into a count.',
+           {0: 'Registering an address is where arrivals are already '
+               'counted.', 2: 'Passports are not mentioned in the lecture.', 3: 'School enrolment is an arrival, not a departure.'})])],
    speak=dict(
     part='Part 3', focus='Why people move',
     intro=('Four or five sentences. Where you use a figure, say what it '
@@ -1024,22 +1071,26 @@ UNIT = dict(
           'is not an answer to what they asked.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['Why the average effect is near zero',
-            'Who loses within the average', 'Comparing cities',
-            'What is not measured'], 0,
-           'More workers also means more demand, and arrivals are often '
-           'complements.'),
+           ['Why the average effect is near zero', 'Who loses within the average', 'Comparing cities', 'What is not measured'],
+           0,
+           'More workers also means more demand, and arrivals are '
+           'often complements.',
+           {1: 'Who loses within the average is the heading for '
+               'paragraph 3.', 2: 'Comparing cities is paragraph 4, the first approach.', 3: 'What is not measured is paragraph 10, the last.'}),
           ('Choose the best heading for paragraph 3.',
-           ['Why the average effect is near zero',
-            'Who loses within the average', 'Natural experiments',
-            'Structural models'], 1,
+           ['Why the average effect is near zero', 'Who loses within the average', 'Natural experiments', 'Structural models'],
+           1,
            'Substitutes experience downward pressure; complements '
-           'experience gains.'),
+           'experience gains.',
+           {0: 'Why the average effect is near zero is the heading for '
+               'paragraph 2.', 2: 'Natural experiments are paragraph 5, the second '
+               'approach.', 3: 'Structural models are paragraph 6, the third approach.'}),
           ('Choose the best heading for paragraph 8.',
-           ['The honest position', 'Structural models',
-            'Channels other than wages', 'Why studies disagree'], 2,
-           'Rents, services and the pace of change are experienced by the '
-           'same people.'),
+           ['The honest position', 'Structural models', 'Channels other than wages', 'Why studies disagree'],
+           2,
+           'Rents, services and the pace of change are experienced by '
+           'the same people.',
+           {0: 'The honest position is paragraph 7.', 1: 'Structural models are paragraph 6, the third approach.', 3: 'Why studies disagree is paragraphs 4 to 6.'}),
           ('The writer believes immigration lowers wages overall.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 1: the average effect is close to zero, and '
@@ -1115,34 +1166,43 @@ UNIT = dict(
            'question they did not ask and then calling them irrational for '
            'not being satisfied.')],
          items=[
-          ('What does the lecturer say about the aggregate wage effect?',
-           ['It is clearly negative', 'It is approximately zero and robust',
-            'It is unmeasurable', 'It is positive'], 1,
-           'It has survived forty years of attack, and the mechanism is not '
-           'mysterious.'),
-          ('Which group does he say substitutes most closely for recent '
-           'arrivals?',
-           ['Graduates', 'Previous arrivals', 'Older workers',
-            'Public sector workers'], 1,
-           'The people most affected by this year’s migration are often last '
-           'decade’s migrants.'),
+          (
+           'What does the lecturer say about the aggregate wage '
+           'effect?',
+           ['It is clearly negative', 'It is approximately zero and robust', 'It is unmeasurable', 'It is positive'],
+           1,
+           'It has survived forty years of attack, and the mechanism '
+           'is not mysterious.',
+           {0: 'He reports an effect near zero, not negative.', 2: 'He calls the result robust, so it is measurable.', 3: 'He says it cannot be distinguished from zero.'}),
+          (
+           'Which group does he say substitutes most closely for '
+           'recent arrivals?',
+           ['Graduates', 'Previous arrivals', 'Older workers', 'Public sector workers'],
+           1,
+           'The people most affected by this year\u2019s migration are '
+           'often last decade\u2019s migrants.',
+           {0: 'Graduates are more often complements than substitutes.', 2: 'Age is not the basis of substitution he names.', 3: 'The public sector is not part of his account.'}),
           ('The problem with comparing cities is that',
-           ['data are scarce', 'migrants choose thriving cities',
-            'cities differ in size', 'wages are not comparable'], 1,
-           'So the correlation may record destination choice alone.'),
-          ('How many natural experiments does he say exist in modern '
-           'history?', ['About four', 'About a dozen', 'Dozens',
-            'Hundreds'], 0,
-           'Each re-analysed with conflicting results.'),
+           ['data are scarce', 'migrants choose thriving cities', 'cities differ in size', 'wages are not comparable'],
+           1, 'So the correlation may record destination choice alone.',
+           {0: 'City data is plentiful, which is why the method is '
+               'used.', 2: 'Size differences are handled by the comparison.', 3: 'Wage comparability is not the problem he names.'}),
+          (
+           'How many natural experiments does he say exist in modern '
+           'history?',
+           ['About four', 'About a dozen', 'Dozens', 'Hundreds'], 0,
+           'Each re-analysed with conflicting results.',
+           {1: 'More than the number he reports.', 2: 'Far more than the handful he describes.', 3: 'Nothing like the number he gives.'}),
           ('What does he say about structural models?',
-           ['They are scandalous', 'Their answers depend on contested '
-            'parameters', 'They are the most reliable',
-            'They are rarely used'], 1,
-           'He calls this a limit, not a scandal.'),
+           ['They are scandalous', 'Their answers depend on contested parameters', 'They are the most reliable', 'They are rarely used'],
+           1, 'He calls this a limit, not a scandal.',
+           {0: 'He says explicitly that it is not a scandal.', 2: 'He calls their dependence on assumptions a limit.', 3: 'He treats them as one of three standard methods.'}),
           ('His final point is that the literature says least about',
-           ['wages', 'channels other than wages', 'long-run effects',
-            'measurement error'], 1,
-           'Rent, waiting times and the pace at which a street changes.')])],
+           ['wages', 'channels other than wages', 'long-run effects', 'measurement error'],
+           1,
+           'Rent, waiting times and the pace at which a street '
+           'changes.',
+           {0: 'Wages are the best-measured channel.', 2: 'Long-run effects are his earlier point about time.', 3: 'Measurement error is not the gap he identifies.'})])],
    speak=dict(
     part='Part 3', focus='Work and newcomers',
     followup=[(('You say the wage effect is small. Who benefits most when a '
@@ -1351,20 +1411,32 @@ UNIT = dict(
                  'argument has shifted from identity to capacity, which is a '
                  'question that can be answered.')],
          items=[
-          ('Which paragraph explains why the national average is near zero?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
-           'Supply and demand, movement towards work, and capital adjusting '
-           'over time.'),
-          ('Which paragraph describes a figure true of a country and of '
-           'nowhere in it?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'], 1,
+          (
+           'Which paragraph explains why the national average is near '
+           'zero?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
+           'Supply and demand, movement towards work, and capital '
+           'adjusting over time.',
+           {0: 'Paragraph 1 states the general structure of the '
+               'problem.', 2: 'Paragraph 3 describes the town of twenty thousand.', 3: 'Paragraph 4 describes a figure true of a country and '
+               'of nowhere in it.'}),
+          (
+           'Which paragraph describes a figure true of a country and '
+           'of nowhere in it?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1,
            'Paragraph 4: averaging discards the variance across '
-           'localities.'),
-          ('Which paragraph concedes that local accounts are also '
+           'localities.',
+           {0: 'Paragraph 3 describes the town of twenty thousand.', 2: 'Paragraph 5 is about which effects are measured.', 3: 'Paragraph 6 describes the shape of the dialogue.'}),
+          (
+           'Which paragraph concedes that local accounts are also '
            'unreliable?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 2,
-           'Paragraph 7: residents misattribute, remember selectively and '
-           'generalise.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           2,
+           'Paragraph 7: residents misattribute, remember selectively '
+           'and generalise.',
+           {0: 'Paragraph 5 is about which effects are measured.', 1: 'Paragraph 6 describes the shape of the dialogue.', 3: 'Paragraph 8 says the mismatch runs both ways.'}),
           (
            'The writer believes residents who reject national figures '
            'are being irrational.',
@@ -1440,33 +1512,40 @@ UNIT = dict(
           ('Brannigan', 'Neither of us can deliver any of that, which is worth minuting too.')],
          items=[
           ('What does the councillor say about the national figure?',
-           ['It is wrong', 'It is not about his ward',
-            'It is out of date', 'It is too small'], 1,
-           'He explicitly says he does not dispute the figure.'),
+           ['It is wrong', 'It is not about his ward', 'It is out of date', 'It is too small'],
+           1, 'He explicitly says he does not dispute the figure.',
+           {0: 'He says he does not dispute the figure.', 2: 'He does not question how current it is.', 3: 'Its size is not his objection.'}),
           ('How long does the economist say adjustment takes?',
-           ['Under a year', 'One to two years', 'Three to seven years',
-            'A generation'], 2,
-           'And the ward received its arrivals in eighteen months.'),
-          ('Why does he say the national figure gets offered in reply?',
-           ['It is persuasive', 'It is the number that exists',
-            'It is required', 'It is cheap'], 1,
+           ['Under a year', 'One to two years', 'Three to seven years', 'A generation'],
+           2, 'And the ward received its arrivals in eighteen months.',
+           {0: 'Faster than the adjustment he describes.', 1: 'Still shorter than the period he names.', 3: 'Longer than the three to seven years he gives.'}),
+          (
+           'Why does he say the national figure gets offered in reply?',
+           ['It is persuasive', 'It is the number that exists', 'It is required', 'It is cheap'],
+           1,
            'Rents, school rolls and surgery waiting times are not '
-           'measured.'),
+           'measured.',
+           {0: 'He does not claim it persuades anybody.', 2: 'No requirement obliges him to quote it.', 3: 'Cost is not his explanation.'}),
           ('What challenge does the economist put to the councillor?',
-           ['His figures are invented',
-            'He has said the school is full when the reception year is',
-            'He has misread the roll', 'He has no evidence'], 1,
+           ['His figures are invented', 'He has said the school is full when the reception year is', 'He has misread the roll', 'He has no evidence'],
+           1,
            'The roll figures show the school at eighty-six per cent of '
-           'capacity.'),
+           'capacity.',
+           {0: 'He does not accuse the councillor of inventing '
+               'figures.', 2: 'The roll figures are the economist\u2019s, not a '
+               'misreading.', 3: 'The councillor has evidence, which is the point at '
+               'issue.'}),
           ('How does the councillor respond?',
-           ['He disputes it', 'He accepts it and notes the parallel',
-            'He changes the subject', 'He withdraws his evidence'], 1,
-           'He says it is exactly the kind of thing he has been complaining '
-           'about.'),
+           ['He disputes it', 'He accepts it and notes the parallel', 'He changes the subject', 'He withdraws his evidence'],
+           1,
+           'He says it is exactly the kind of thing he has been '
+           'complaining about.',
+           {0: 'He accepts the correction at once.', 2: 'He answers the challenge directly.', 3: 'He refines his claim rather than withdrawing it.'}),
           ('What do they agree should be funded?',
-           ['Net arrivals', 'The number of children moving',
-            'Language classes', 'New housing'], 1,
-           'Together with measurement at the level where people live.')])],
+           ['Net arrivals', 'The number of children moving', 'Language classes', 'New housing'],
+           1,
+           'Together with measurement at the level where people live.',
+           {0: 'Net arrivals are what funding currently follows.', 2: 'Language classes are the earlier cycle\u2019s subject.', 3: 'Housing follows net change, not turnover.'})])],
    speak=dict(
     part='Part 3', focus='National policy, local effects',
     sounds=[('Nationality and place words carry stress that moves with the '

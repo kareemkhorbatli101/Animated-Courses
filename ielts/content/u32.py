@@ -50,29 +50,38 @@ UNIT = dict(
           'not be emptied until the next scheduled collection.'],
          items=[
           ('Garden waste is collected',
-           ['every week', 'fortnightly all year',
-            'fortnightly from March to November', 'every three weeks'], 2,
-           'Paragraph 1: fortnightly between March and November only, which is '
-           'the restriction the other options drop.'),
+           ['every week', 'fortnightly all year', 'fortnightly from March to November', 'every three weeks'],
+           2,
+           'Paragraph 1: fortnightly between March and November only, '
+           'which is the restriction the other options drop.',
+           {0: 'No bin is collected weekly under the new scheme.', 1: 'The blue bin is the one collected fortnightly all '
+               'year.', 3: 'Every three weeks is the black bin.'}),
           ('Soft plastic should be taken to',
-           ['the blue bin', 'the black bin', 'supermarket collection points',
-            'the household waste centre'], 2,
-           'Paragraph 2 names the supermarket points and gives the reason: '
-           'bags jam the sorting line.'),
+           ['the blue bin', 'the black bin', 'supermarket collection points', 'the household waste centre'],
+           2,
+           'Paragraph 2 names the supermarket points and gives the '
+           'reason: bags jam the sorting line.',
+           {0: 'Paragraph 2 says soft plastic jams the sorting line.', 1: 'The notice directs soft plastic to the listed points '
+               'instead.', 3: 'No household waste centre is mentioned in the notice.'}),
           ('A second black bin is available to households with',
-           ['any number of residents', 'more than five residents',
-            'children under five', 'a garden'], 1,
-           'Paragraph 3: more than five residents, or a qualifying medical '
-           'need.'),
+           ['any number of residents', 'more than five residents', 'children under five', 'a garden'],
+           1,
+           'Paragraph 3: more than five residents, or a qualifying '
+           'medical need.',
+           {0: 'A threshold is set, so not every household qualifies.', 2: 'Age of residents is not a criterion in paragraph 3.', 3: 'A garden entitles a household to the green bin only.'}),
           ('If an application is refused, the household',
-           ['may appeal', 'may apply again after six months',
-            'must pay a charge', 'receives a smaller bin'], 1,
-           'Paragraph 3 rules out appeal explicitly and gives the six-month '
-           'route instead.'),
+           ['may appeal', 'may apply again after six months', 'must pay a charge', 'receives a smaller bin'],
+           1,
+           'Paragraph 3 rules out appeal explicitly and gives the '
+           'six-month route instead.',
+           {0: 'Paragraph 3 rules out any appeal.', 2: 'The second bin is provided at no charge.', 3: 'No smaller bin is offered as an alternative.'}),
           ('A contaminated bin will be',
-           ['emptied and the household charged', 'emptied the following day',
-            'left with a tag until the next collection', 'removed'], 2,
-           'Paragraph 4, which also says crews will not enter a property.')]),
+           ['emptied and the household charged', 'emptied the following day', 'left with a tag until the next collection', 'removed'],
+           2,
+           'Paragraph 4, which also says crews will not enter a '
+           'property.',
+           {0: 'No charge for emptying a contaminated bin is '
+               'mentioned.', 1: 'It waits until the next scheduled collection.', 3: 'The bin is left, not taken away.'})]),
     dict(heading='Booking a bulky collection',
          kind='Procedure notice', task='Flow-chart completion',
          band='gt_short', qtype='Questions 6-9',
@@ -196,23 +205,29 @@ UNIT = dict(
            'If it takes two, it is a tag.')],
          items=[
           ('The supervisor defines contamination as',
-           ['any dirt in a bin', 'the wrong material in the right bin',
-            'a bin that is too full', 'food residue on packaging'], 1,
-           'He rules out dirt and residue explicitly in the first turn.'),
+           ['any dirt in a bin', 'the wrong material in the right bin', 'a bin that is too full', 'food residue on packaging'],
+           1,
+           'He rules out dirt and residue explicitly in the first '
+           'turn.',
+           {0: 'He rules out dirt in his first sentence.', 2: 'Fullness is not what contamination means.', 3: 'He rules out food residue explicitly.'}),
           ('Why does a contaminated load matter financially?',
-           ['It takes longer to collect', 'It damages the lorry',
-            'Above a threshold it is rejected and costs money',
-            'It must be sorted by hand'], 2,
-           'Rejected at the gate and sent to incineration, paid for twice.'),
+           ['It takes longer to collect', 'It damages the lorry', 'Above a threshold it is rejected and costs money', 'It must be sorted by hand'],
+           2,
+           'Rejected at the gate and sent to incineration, paid for '
+           'twice.',
+           {0: 'Collection time is not the cost he describes.', 1: 'No damage to the lorry is mentioned.', 3: 'Hand sorting happens in the plant, not on the round.'}),
           ('The supervisor emphasises that the threshold is',
            ['gradual', 'not gradual', 'set by the crew', 'different each week'],
-           1, 'Below it the load is worth money and above it the load costs '
-           'money, which is why one household can flip a lorry.'),
+           1,
+           'Below it the load is worth money and above it the load '
+           'costs money, which is why one household can flip a lorry.',
+           {0: 'He says explicitly that it is not gradual.', 2: 'The threshold sits in the contract, not with the crew.', 3: 'Nothing in the talk suggests it changes weekly.'}),
           ('What should crews do when they find contamination?',
-           ['Knock on the door', 'Empty the bin and report it',
-            'Tag it, photograph it and move on', 'Call the supervisor'], 2,
-           'He gives the reason too: complaints record the crew’s manner and '
-           'never the contents of the bin.')])],
+           ['Knock on the door', 'Empty the bin and report it', 'Tag it, photograph it and move on', 'Call the supervisor'],
+           2,
+           'He gives the reason too: complaints record the crew\u2019s '
+           'manner and never the contents of the bin.',
+           {0: 'He tells crews not to knock on the door.', 1: 'A contaminated bin is left rather than emptied.', 3: 'Calling the supervisor is not among his instructions.'})])],
    speak=dict(
     part='Part 1', focus='Rubbish and recycling at home',
     intro=('Two or three sentences. Answer and support, and stop. The examiner '
@@ -344,20 +359,26 @@ UNIT = dict(
          items=[
           ('Which person objects to information being withheld?',
            ['Benedikta', 'Oleksandr', 'Marguerite', 'Yusuf'], 0,
-           'The drawing was a commercial secret: her objection is to the '
-           'secrecy; the failure itself she forgives.'),
+           'The drawing was a commercial secret: her objection is to '
+           'the secrecy; the failure itself she forgives.',
+           {1: 'Oleksandr questions the environmental case for repair.', 2: 'Marguerite identifies labour as the decisive cost.', 3: 'Yusuf changed because of something shared, not owned.'}),
           ('Which person questions the environmental case for repair?',
            ['Benedikta', 'Oleksandr', 'Marguerite', 'Yusuf'], 1,
-           'He argues older machines use more electricity, so universal repair '
-           'would keep the hungriest in service.'),
+           'He argues older machines use more electricity, so '
+           'universal repair would keep the hungriest in service.',
+           {0: 'Benedikta objects to information being withheld.', 2: 'Marguerite identifies labour as the decisive cost.', 3: 'Yusuf changed because of something shared, not owned.'}),
           ('Which person identifies labour as the decisive cost?',
            ['Benedikta', 'Oleksandr', 'Marguerite', 'Yusuf'], 2,
-           'An hour of an engineer’s time against the price of a new '
-           'appliance.'),
-          ('Which person changed because of something shared, not '
-           'owned?', ['Benedikta', 'Oleksandr', 'Marguerite', 'Yusuf'], 3,
-           'The library of things, and the shift in what counts as a normal '
-           'decision.'),
+           'An hour of an engineer\u2019s time against the price of a new '
+           'appliance.',
+           {0: 'Benedikta objects to information being withheld.', 1: 'Oleksandr questions the environmental case for repair.', 3: 'Yusuf changed because of something shared, not owned.'}),
+          (
+           'Which person changed because of something shared, not '
+           'owned?',
+           ['Benedikta', 'Oleksandr', 'Marguerite', 'Yusuf'], 3,
+           'The library of things, and the shift in what counts as a '
+           'normal decision.',
+           {0: 'Benedikta objects to information being withheld.', 1: 'Oleksandr questions the environmental case for repair.', 2: 'Marguerite identifies labour as the decisive cost.'}),
           ('Oleksandr believes repairing things is a waste of time.',
            ['Yes', 'No', 'Not Given'], 1,
            'He repairs things because he enjoys it. His doubt is about '
@@ -418,29 +439,40 @@ UNIT = dict(
            'Put it in the draft as a fourth condition and I will defend it.')],
          items=[
           ('What does Ruben say the two screws would cost?',
-           ['Assembly time', 'The water seal', 'The warranty',
-            'Material cost'], 1,
-           'And he gives the consequence: the seal is why the failure rate '
-           'halved.'),
-          ('Astrid’s criticism is that the sealing argument has become',
-           ['false', 'too expensive', 'a justification dressed as a reason',
-            'unfashionable'], 2,
-           'We seal things and then use the improvement as the reason they '
-           'cannot be opened.'),
+           ['Assembly time', 'The water seal', 'The warranty', 'Material cost'],
+           1,
+           'And he gives the consequence: the seal is why the failure '
+           'rate halved.',
+           {0: 'Assembly time is not what he says the screws cost.', 2: 'The warranty is not mentioned in the exchange.', 3: 'Material cost would rise with a thicker case, later.'}),
+          (
+           'Astrid\u2019s criticism is that the sealing argument has become',
+           ['false', 'too expensive', 'a justification dressed as a reason', 'unfashionable'],
+           2,
+           'We seal things and then use the improvement as the reason '
+           'they cannot be opened.',
+           {0: 'She does not say the sealing argument is false.', 1: 'Cost is not the ground of her criticism.', 3: 'Fashion plays no part in her objection.'}),
           ('What does Ruben admit when asked a hypothetical question?',
-           ['He would have used fewer screws',
-            'He would have designed it differently',
-            'The seal was unnecessary', 'The cost would have been lower'], 1,
-           'He would have put the board outside the seal and accepted a '
-           'thicker case.'),
-          ('How many conditions does Ruben attach to the word repairable?',
-           ['Two', 'Three', 'Four', 'Five'], 1,
-           'A part exists, it is affordable, and the instructions are public.'),
-          ('Which condition do the two expect manufacturers to resist most?',
-           ['Publishing instructions', 'Guaranteeing an affordable part',
-            'Reducing the number of screws', 'Extending the warranty'], 1,
+           ['He would have used fewer screws', 'He would have designed it differently', 'The seal was unnecessary', 'The cost would have been lower'],
+           1,
+           'He would have put the board outside the seal and accepted '
+           'a thicker case.',
+           {0: 'The number of screws is her proposal, not his '
+               'admission.', 2: 'He defends the seal throughout.', 3: 'A thicker case would cost more, not less.'}),
+          (
+           'How many conditions does Ruben attach to the word '
+           'repairable?', ['Two', 'Three', 'Four', 'Five'],
+           1,
+           'A part exists, it is affordable, and the instructions are '
+           'public.',
+           {0: 'Fewer than the conditions he lists.', 2: 'The fourth is added later, by Astrid, on software.', 3: 'He names three, and a fourth is added after.'}),
+          (
+           'Which condition do the two expect manufacturers to resist '
+           'most?',
+           ['Publishing instructions', 'Guaranteeing an affordable part', 'Reducing the number of screws', 'Extending the warranty'],
+           1,
            'Ruben corrects Astrid on this: publishing costs nothing, a '
-           'ten-year parts promise is a balance-sheet liability.')])],
+           'ten-year parts promise is a balance-sheet liability.',
+           {0: 'Publishing instructions costs nothing, he says.', 2: 'Screw count is not among the three conditions.', 3: 'The warranty is not one of the conditions.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Things that last',
     longturn=[('The thing I repaired instead of replacing was a bicycle, a '
@@ -658,29 +690,32 @@ UNIT = dict(
           'can become unaffordable without a single thing changing inside the '
           'building.'],
          items=[
-          ('The writer argues that a recovery facility should be understood '
-           'as a', ['recycling plant', 'manufacturing process',
-            'separation machine', 'storage depot'], 2,
-           'Paragraph 1: nothing is turned into anything, and the framing is '
-           'said to explain most of what follows.'),
+          (
+           'The writer argues that a recovery facility should be '
+           'understood as a',
+           ['recycling plant', 'manufacturing process', 'separation machine', 'storage depot'],
+           2,
+           'Paragraph 1: nothing is turned into anything, and the '
+           'framing is said to explain most of what follows.',
+           {0: 'Paragraph 1 says it is not a recycling plant in that '
+               'sense.', 1: 'Nothing is manufactured in the building.', 3: 'Storage is the last stage, not what the plant is.'}),
           ('Why does the rate of feed onto the conveyor matter?',
-           ['It affects how much is collected',
-            'The downstream machinery expects a particular depth',
-            'It determines the number of staff required',
-            'It controls the noise level'], 1,
-           'Paragraph 2: a surge defeats every stage that follows.'),
+           ['It affects how much is collected', 'The downstream machinery expects a particular depth', 'It determines the number of staff required', 'It controls the noise level'],
+           1, 'Paragraph 2: a surge defeats every stage that follows.',
+           {0: 'How much is collected is decided on the round.', 2: 'Staffing is set by the hand-picking line, not the feed '
+               'rate.', 3: 'Noise is not mentioned in the passage.'}),
           ('Which stage sorts by size instead of by material?',
-           ['The bag splitter', 'The trommel', 'The overband magnet',
-            'The optical sorter'], 1,
-           'Paragraph 3, and it is called the stage that most affects final '
-           'quality.'),
+           ['The bag splitter', 'The trommel', 'The overband magnet', 'The optical sorter'],
+           1,
+           'Paragraph 3, and it is called the stage that most affects '
+           'final quality.',
+           {0: 'The bag splitter opens bags without sorting by size.', 2: 'The magnet lifts steel, sorting by material.', 3: 'The optical sorter identifies polymer, not size.'}),
           ('Why do hand pickers remain necessary?',
-           ['The machines are too slow',
-            'Optical sorters read surfaces, not contents',
-            'Regulations require human inspection',
-            'The magnets miss small items'], 1,
-           'Paragraph 5: a sleeved or heavily printed bottle is invisible to '
-           'an optical sorter.'),
+           ['The machines are too slow', 'Optical sorters read surfaces, not contents', 'Regulations require human inspection', 'The magnets miss small items'],
+           1,
+           'Paragraph 5: a sleeved or heavily printed bottle is '
+           'invisible to an optical sorter.',
+           {0: 'Speed of the machines is not the reason given.', 2: 'No regulation requiring inspection is mentioned.', 3: 'Small items are handled by the trommel.'}),
           ('A rotating drum is used at the start to ____________ the bags.',
            None, 'split',
            'Paragraph 2 gives the reason as well: a sealed bag passes through '
@@ -747,32 +782,42 @@ UNIT = dict(
            'the bin is not pettiness.')],
          items=[
           ('The manager says the plant does not',
-           ['separate materials', 'recycle anything', 'sell bales',
-            'employ hand pickers'], 1,
-           'What leaves is bales; somebody else melts, pulps or extrudes.'),
+           ['separate materials', 'recycle anything', 'sell bales', 'employ hand pickers'],
+           1,
+           'What leaves is bales; somebody else melts, pulps or '
+           'extrudes.',
+           {0: 'Separation is exactly what the plant does.', 2: 'Bales are what it sells, by the tonne.', 3: 'The hand-picking line is still staffed.'}),
           ('What happened when the price of baled mixed paper fell?',
-           ['The plant changed its process', 'Costs rose',
-            'Three regional plants closed', 'Collections were reduced'], 2,
-           'Nothing inside the building changed, which is his point about a '
-           'price set elsewhere.'),
-          ('A plant running at eighty per cent of capacity often produces',
-           ['less revenue', 'cleaner output', 'more contamination',
-            'the same output'], 1,
-           'Because a surge gives every machine too deep a bed of material.'),
+           ['The plant changed its process', 'Costs rose', 'Three regional plants closed', 'Collections were reduced'],
+           2,
+           'Nothing inside the building changed, which is his point '
+           'about a price set elsewhere.',
+           {0: 'He says nothing in the building changed.', 1: 'He says costs were identical.', 3: 'Collections are a council matter, not the plant\u2019s.'}),
+          (
+           'A plant running at eighty per cent of capacity often '
+           'produces',
+           ['less revenue', 'cleaner output', 'more contamination', 'the same output'],
+           1,
+           'Because a surge gives every machine too deep a bed of '
+           'material.',
+           {0: 'Revenue depends on the market price, not the rate.', 2: 'Running slower reduces contamination in the output.', 3: 'The output is cleaner, which is his point.'}),
           ('Which stage would the manager protect first?',
-           ['The optical sorters', 'The magnets', 'The trommel',
-            'The baler'], 2,
-           'Everything after it works better on a narrow size range, and its '
-           'wear is blamed on later machines.'),
+           ['The optical sorters', 'The magnets', 'The trommel', 'The baler'],
+           2,
+           'Everything after it works better on a narrow size range, '
+           'and its wear is blamed on later machines.',
+           {0: 'The optical sorters get blamed for the trommel\u2019s wear.', 1: 'The magnets also suffer when the trommel is worn.', 3: 'The baler is the last stage, after separation.'}),
           ('Why is a black plastic tray hard to sort optically?',
-           ['It is usually dirty', 'The carbon pigment absorbs the light',
-            'It is too light to divert', 'It melts under the sensor'], 1,
+           ['It is usually dirty', 'The carbon pigment absorbs the light', 'It is too light to divert', 'It melts under the sensor'],
+           1,
            'The sensor is looking for reflected light that the pigment '
-           'absorbs.'),
+           'absorbs.',
+           {0: 'Dirt is not the reason given for the difficulty.', 2: 'Weight is not what defeats the optical sorter.', 3: 'Nothing melts under the sensor.'}),
           ('The manager describes contamination cost as',
            ['gradual', 'predictable', 'not gradual', 'falling'], 2,
-           'There is a threshold in every offtake contract, below which the '
-           'plant is paid and above which it pays.')])],
+           'There is a threshold in every offtake contract, below '
+           'which the plant is paid and above which it pays.',
+           {0: 'He says explicitly that it is not gradual.', 1: 'Predictability is not what he claims for it.', 3: 'The cost rises sharply above the threshold.'})])],
    speak=dict(
     part='Part 3', focus='Recycling and what it achieves',
     intro=('Four or five sentences. At this point in the test the examiner is '
@@ -987,26 +1032,31 @@ UNIT = dict(
           'the cheap half of the problem has been solved.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['Three materials, three cost structures',
-            'Why the curve turns, and does not bend',
-            'The problem with weight targets',
-            'Where the plateau actually sits'], 0,
-           'The paragraph takes food, textiles and composites in turn and '
-           'gives the cost of capturing each.'),
+           ['Three materials, three cost structures', 'Why the curve turns, and does not bend', 'The problem with weight targets', 'Where the plateau actually sits'],
+           0,
+           'The paragraph takes food, textiles and composites in turn '
+           'and gives the cost of capturing each.',
+           {1: 'Why the curve turns is paragraph 4, on diminishing '
+               'returns.', 2: 'The problem with weight targets is the heading for '
+               'paragraph 5.', 3: 'Where the plateau actually sits is the heading for '
+               'paragraph 7.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Three materials, three cost structures',
-            'Why the curve turns, and does not bend',
-            'The problem with weight targets',
-            'A politically awkward improvement'], 2,
-           'It explains how a weight-based target pushes authorities towards '
-           'heavy material and away from film.'),
+           ['Three materials, three cost structures', 'Why the curve turns, and does not bend', 'The problem with weight targets', 'A politically awkward improvement'],
+           2,
+           'It explains how a weight-based target pushes authorities '
+           'towards heavy material and away from film.',
+           {0: 'Three materials, three cost structures is the heading '
+               'for paragraph 3.', 1: 'Why the curve turns is paragraph 4, on diminishing '
+               'returns.', 3: 'The politically awkward improvement is paragraph 7, on '
+               'carbon targets.'}),
           ('Choose the best heading for paragraph 7.',
-           ['A politically awkward improvement',
-            'Where the plateau actually sits',
-            'Three materials, three cost structures',
-            'Why the curve turns, and does not bend'], 1,
-           'Not in household behaviour but in packaging design and collection '
-           'economics.'),
+           ['A politically awkward improvement', 'Where the plateau actually sits', 'Three materials, three cost structures', 'Why the curve turns, and does not bend'],
+           1,
+           'Not in household behaviour but in packaging design and '
+           'collection economics.',
+           {0: 'The politically awkward improvement is paragraph 7.', 2: 'Three materials, three cost structures is the heading '
+               'for paragraph 3.', 3: 'Why the curve turns is paragraph 4, on diminishing '
+               'returns.'}),
           (
            'The writer believes households have become less willing to '
            'recycle.', ['Yes', 'No', 'Not Given'], 1,
@@ -1077,36 +1127,44 @@ UNIT = dict(
            'behaviour. It is located in packaging design and in the economics '
            'of a collection round, and a householder controls neither.')],
          items=[
-          ('Why does the lecturer say the stopping point is not caused by '
-           'policy?', ['It varies too much',
-            'It is similar across very different systems',
-            'It has changed over time', 'It is set by regulation'], 1,
-           'When a number is consistent across different policies, the policy '
-           'is not producing it.'),
+          (
+           'Why does the lecturer say the stopping point is not caused '
+           'by policy?',
+           ['It varies too much', 'It is similar across very different systems', 'It has changed over time', 'It is set by regulation'],
+           1,
+           'When a number is consistent across different policies, the '
+           'policy is not producing it.',
+           {0: 'He says the stopping point is suspiciously similar.', 2: 'He describes it as persistent over two decades.', 3: 'Regulation differs between the countries he compares.'}),
           ('Which four materials does he say pay for the lorry?',
-           ['Food, textiles, film and card', 'Paper, card, metal and glass',
-            'Garden waste, food, paper and card', 'Plastics of all kinds'], 1,
-           'Valuable, bulky and easy to identify, which is why they are '
-           'captured first.'),
+           ['Food, textiles, film and card', 'Paper, card, metal and glass', 'Garden waste, food, paper and card', 'Plastics of all kinds'],
+           1,
+           'Valuable, bulky and easy to identify, which is why they '
+           'are captured first.',
+           {0: 'Food, textiles and film are what is left at the end.', 2: 'Garden waste is what a weight target chases later.', 3: 'Only rigid plastic has useful value in his account.'}),
           ('He objects to the phrase diminishing returns because',
-           ['the returns increase', 'it suggests a gentle curve',
-            'it is too technical', 'it applies only to industry'], 1,
-           'He calls the actual shape a corner, not a slope.'),
+           ['the returns increase', 'it suggests a gentle curve', 'it is too technical', 'it applies only to industry'],
+           1, 'He calls the actual shape a corner, not a slope.',
+           {0: 'He does not claim the returns increase.', 2: 'He objects to the shape it implies, not its '
+               'difficulty.', 3: 'He applies the idea to household collection.'}),
           ('Why does a weight-based target favour garden waste?',
-           ['It is easy to collect', 'It is mostly water and therefore heavy',
-            'It has a high market value', 'It is collected weekly anyway'], 1,
-           'An authority can move its headline rate by collecting grass '
-           'cuttings more often.'),
+           ['It is easy to collect', 'It is mostly water and therefore heavy', 'It has a high market value', 'It is collected weekly anyway'],
+           1,
+           'An authority can move its headline rate by collecting '
+           'grass cuttings more often.',
+           {0: 'Ease of collection is not the reason he gives.', 2: 'Garden waste has little market value in his account.', 3: 'Weekly collection is what food waste would need.'}),
           ('What does the lecturer say happened to the target?',
-           ['It was abandoned', 'It was met early',
-            'The proxy became the objective', 'It was set too low'], 2,
-           'And he says this is a pattern found in every public service.'),
+           ['It was abandoned', 'It was met early', 'The proxy became the objective', 'It was set too low'],
+           2,
+           'And he says this is a pattern found in every public '
+           'service.',
+           {0: 'The target was kept, not abandoned.', 1: 'The target was not met; the rate plateaued.', 3: 'He does not say the target was too low.'}),
           ('Where does the lecturer say the plateau is located?',
-           ['In household behaviour', 'In packaging design and collection '
-            'economics', 'In local authority budgets',
-            'In the sorting technology'], 1,
-           'Neither of which a householder controls, which is his point about '
-           'blame.')])],
+           ['In household behaviour', 'In packaging design and collection economics', 'In local authority budgets', 'In the sorting technology'],
+           1,
+           'Neither of which a householder controls, which is his '
+           'point about blame.',
+           {0: 'He says explicitly that it is not located there.', 2: 'Budgets are part of collection economics, not the '
+               'whole.', 3: 'Sorting technology is not where he puts the plateau.'})])],
    speak=dict(
     part='Part 3', focus='Targets and what they produce',
     followup=[(('You say targets distort behaviour. Who should be responsible '
@@ -1303,19 +1361,31 @@ UNIT = dict(
                  'a waste statistic should ask who paid to have it collected, '
                  'as well as what it measures.')],
          items=[
-          ('Which paragraph gives the share of total waste that households '
-           'produce?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
-           'Between a tenth and a quarter, with construction and industry '
-           'accounting for the majority.'),
-          ('Which paragraph limits the writer’s own argument?',
-           ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 1,
-           'Paragraph 5 says honesty requires admitting the field evidence is '
-           'weak and the effect sizes small.'),
-          ('Which paragraph explains why recycling receives more attention '
-           'than prevention?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 6'], 1,
-           'Visible, measurable, and it does not require anybody to buy less.'),
+          (
+           'Which paragraph gives the share of total waste that '
+           'households produce?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
+           'Between a tenth and a quarter, with construction and '
+           'industry accounting for the majority.',
+           {0: 'Paragraph 1 raises the question without the figures.', 2: 'Paragraph 3 explains why recycling receives more '
+               'attention than prevention.', 3: 'Paragraph 4 is about moral licensing.'}),
+          ('Which paragraph limits the writer\u2019s own argument?',
+           ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           1,
+           'Paragraph 5 says honesty requires admitting the field '
+           'evidence is weak and the effect sizes small.',
+           {0: 'Paragraph 3 explains why recycling receives more '
+               'attention than prevention.', 2: 'Paragraph 6 makes the argument about finite attention.', 3: 'Paragraph 7 compares campaigns with regulation.'}),
+          (
+           'Which paragraph explains why recycling receives more '
+           'attention than prevention?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 6'],
+           1,
+           'Visible, measurable, and it does not require anybody to '
+           'buy less.',
+           {0: 'Paragraph 2 gives the share of total waste that '
+               'households produce.', 2: 'Paragraph 4 is about moral licensing.', 3: 'Paragraph 6 makes the argument about finite attention.'}),
           (
            'The writer accepts that moral licensing has been '
            'demonstrated outside the laboratory.',
@@ -1478,42 +1548,45 @@ UNIT = dict(
            'alone gets absorbed. The cost plus the disclosure gets designed '
            'out.')],
          items=[
-          ('Lindqvist’s central argument concerns',
-           ['whether recycling works', 'where public attention goes',
-            'the cost of collection', 'the accuracy of the figures'], 1,
-           'She says explicitly that it is about attention, not about whether '
-           'recycling works.'),
-          ('Achebe’s first objection is that',
-           ['the arithmetic is wrong',
-            'households are where the public touches the system',
-            'demolition waste is already regulated',
-            'campaigns are ineffective'], 1,
+          ('Lindqvist\u2019s central argument concerns',
+           ['whether recycling works', 'where public attention goes', 'the cost of collection', 'the accuracy of the figures'],
+           1,
+           'She says explicitly that it is about attention, not about '
+           'whether recycling works.',
+           {0: 'She says the argument is not about whether recycling '
+               'works.', 2: 'Collection cost is not what she raises.', 3: 'She accepts the figures and argues about emphasis.'}),
+          ('Achebe\u2019s first objection is that',
+           ['the arithmetic is wrong', 'households are where the public touches the system', 'demolition waste is already regulated', 'campaigns are ineffective'],
+           1,
            'Nobody has a relationship with a demolition skip, so the '
-           'conversation naturally forms there.'),
+           'conversation naturally forms there.',
+           {0: 'He says she can be right about the arithmetic.', 2: 'No regulation of demolition waste is mentioned.', 3: 'He defends campaigns rather than calling them useless.'}),
           ('On moral licensing, Achebe argues that',
-           ['the effect is large', 'the laboratory work is flawed',
-            'laboratory and field results differ sharply',
-            'the effect is irrelevant'], 2,
-           'And he says the gap between those two sentences is where the '
-           'debate should be.'),
+           ['the effect is large', 'the laboratory work is flawed', 'laboratory and field results differ sharply', 'the effect is irrelevant'],
+           2,
+           'And he says the gap between those two sentences is where '
+           'the debate should be.',
+           {0: 'He does not claim the effect is large.', 1: 'He calls the laboratory results real.', 3: 'He treats the question as worth debating, not '
+               'irrelevant.'}),
           ('What weaker version does Lindqvist now use?',
-           ['Recycling increases consumption',
-            'Believing the problem is solved reduces support for regulation',
-            'Households produce most waste',
-            'Campaigns waste money'], 1,
-           'It does not need the experiment at all, which is why she prefers '
-           'it.'),
+           ['Recycling increases consumption', 'Believing the problem is solved reduces support for regulation', 'Households produce most waste', 'Campaigns waste money'],
+           1,
+           'It does not need the experiment at all, which is why she '
+           'prefers it.',
+           {0: 'That is the strong version she has stopped using.', 2: 'She says households are a tenth of the problem.', 3: 'Campaign cost is not the version she keeps.'}),
           ('Which policy do both speakers support?',
-           ['Fines for contamination', 'Weekly food collections',
-            'Producer responsibility, priced properly',
-            'A ban on composite packaging'], 2,
-           'Achebe proposes it and says design changes within two product '
-           'cycles.'),
+           ['Fines for contamination', 'Weekly food collections', 'Producer responsibility, priced properly', 'A ban on composite packaging'],
+           2,
+           'Achebe proposes it and says design changes within two '
+           'product cycles.',
+           {0: 'Fines are not proposed by either speaker.', 1: 'Food collections are not discussed in this exchange.', 3: 'No ban is proposed by either speaker.'}),
           ('What does Lindqvist add to that policy?',
-           ['A higher price', 'A reporting requirement',
-            'A longer timescale', 'An exemption for small firms'], 1,
-           'So the figure appears where a shareholder reads it: the cost alone '
-           'gets absorbed, the cost plus disclosure gets designed out.')]),
+           ['A higher price', 'A reporting requirement', 'A longer timescale', 'An exemption for small firms'],
+           1,
+           'So the figure appears where a shareholder reads it: the '
+           'cost alone gets absorbed, the cost plus disclosure gets '
+           'designed out.',
+           {0: 'Pricing is already part of what he proposes.', 2: 'Two product cycles is his timescale, not her addition.', 3: 'No exemption is discussed by either speaker.'})]),
     dict(heading='A plan of the recycling centre',
          part='Part 2', task='Plan labelling and matching',
          band='l2',

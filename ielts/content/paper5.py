@@ -475,16 +475,20 @@ PAPER = dict(
           'refuted', 'it requires fraud', 'it is too technical'], 1,
          'Paragraph 6: an unmeasured feature can always be proposed.'),
         ('Which paragraph describes what the field has changed?',
-         ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'], 1,
+         ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'],
+         1,
          'Preregistration, larger samples and publication of negative '
-         'results.'),
+         'results.',
+         {2: 'Paragraph 8 lists what has not changed.'}),
         ('Publishing an analysis plan before collecting data is called '
          '____________.', None, 'preregistration',
          'Paragraph 7, and such studies replicate at higher rates.'),
         ('Which paragraph lists what has not changed?',
-         ['Paragraph 7', 'Paragraph 8', 'Paragraph 9', 'Paragraph 10'], 1,
-         'Promotion rewards volume; replication is unfunded; the threshold '
-         'stands.'),
+         ['Paragraph 7', 'Paragraph 8', 'Paragraph 9', 'Paragraph 10'],
+         1,
+         'Promotion rewards volume; replication is unfunded; the '
+         'threshold stands.',
+         {0: 'Paragraph 7 describes what the field has changed.'}),
         ('Psychology was audited first because',
          ['it was the worst offender', 'its studies are cheap and its '
           'community organised the audit', 'its journals demanded it',

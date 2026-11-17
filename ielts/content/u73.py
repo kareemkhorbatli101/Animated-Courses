@@ -109,23 +109,23 @@ UNIT = dict(
           'the next morning.'],
          items=[
           ('Which problem means the cable is in the wrong socket?',
-           ['a light that stays orange',
-            'a password that is refused',
-            'a connection that stops after a minute',
-            'a red light'], 0,
-           'Only one of the four sockets is marked WAN.'),
+           ['a light that stays orange', 'a password that is refused', 'a connection that stops after a minute', 'a red light'],
+           0, 'Only one of the four sockets is marked WAN.',
+           {1: 'A password that is refused is usually an O read as a '
+               'letter.', 2: 'A connection that stops after a minute means two '
+               'routers are competing.'}),
           ('Which problem is usually an O read as a letter?',
-           ['a light that stays orange',
-            'a password that is refused',
-            'a connection that stops after a minute',
-            'a red light'], 1,
-           'The leaflet says to try the zero instead.'),
+           ['a light that stays orange', 'a password that is refused', 'a connection that stops after a minute', 'a red light'],
+           1, 'The leaflet says to try the zero instead.',
+           {0: 'A light that stays orange means the cable is in the '
+               'wrong socket.', 2: 'A connection that stops after a minute means two '
+               'routers are competing.'}),
           ('Which problem means two routers are competing?',
-           ['a light that stays orange',
-            'a password that is refused',
-            'a connection that stops after a minute',
-            'a red light'], 2,
-           'And the old one must be unplugged, not switched off.'),
+           ['a light that stays orange', 'a password that is refused', 'a connection that stops after a minute', 'a red light'],
+           2, 'And the old one must be unplugged, not switched off.',
+           {0: 'A light that stays orange means the cable is in the '
+               'wrong socket.', 1: 'A password that is refused is usually an O read as a '
+               'letter.'}),
           ('An old router that is switched off still ____________.',
            None, 'answers', 'Which is why it must be unplugged.'),
           ('The helpline is open from eight until ____________.',
@@ -303,9 +303,10 @@ UNIT = dict(
            ['the Nowaks', 'the Baptistes', 'both', 'neither'], 1,
            'Screens stay in the main room and nothing goes '
            'upstairs.'),
-          ('Which family’s rule has no exceptions?',
+          ('Which family\u2019s rule has no exceptions?',
            ['the Nowaks', 'the Baptistes', 'both', 'neither'], 0,
-           'No screens at all on weekdays.'),
+           'No screens at all on weekdays.',
+           {1: 'The Baptistes has a rule about where screens are used.'}),
           ('Where do the Nowaks admit their eldest child watches?',
            None, 'a friend\u2019s house',
            'Which they did not intend and cannot prevent.'),

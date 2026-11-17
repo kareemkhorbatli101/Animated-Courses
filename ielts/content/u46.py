@@ -78,20 +78,26 @@ UNIT = dict(
           'four times in ten and on descriptions almost never.'],
          items=[
           ('What determines the response to a report?',
-           ['the description', 'the measurement', 'the photograph',
-            'the location'], 1,
+           ['the description', 'the measurement', 'the photograph', 'the location'],
+           1,
            'Paragraph 1: "ninety millimetres deep" may generate a '
-           'repair.'),
+           'repair.',
+           {0: 'Paragraph 1 says a description generates only an '
+               'inspection.', 2: 'The photograph is required but does not set the '
+               'category.', 3: 'The location is needed to find the defect, not to rank '
+               'it.'}),
           ('A Category 1 defect must be made safe within',
-           ['two hours', 'twenty-eight days', 'one year',
-            'the next resurfacing'], 0,
-           'Paragraph 2, which may mean a cone rather than a repair.'),
+           ['two hours', 'twenty-eight days', 'one year', 'the next resurfacing'],
+           0,
+           'Paragraph 2, which may mean a cone rather than a repair.',
+           {1: 'Twenty-eight days is the Category 2 repair period.', 2: 'Far longer than the two hours for making safe.', 3: 'The next resurfacing is the Category 3 timetable.'}),
           ('On a footway, the threshold is lower because',
-           ['footways are cheaper', 'the consequences of a trip differ '
-            'from a jolt', 'more people use them', 'they are inspected '
-            'less'], 1,
+           ['footways are cheaper', 'the consequences of a trip differ from a jolt', 'more people use them', 'they are inspected less'],
+           1,
            'Paragraph 3, where the carriageway threshold is forty '
-           'millimetres.'),
+           'millimetres.',
+           {0: 'Cost is not the reason paragraph 3 gives.', 2: 'Numbers of users are not mentioned in the notice.', 3: 'Inspection frequency is not the reason for the '
+               'threshold.'}),
           ('Category 2 defects are repaired within ____________ days.',
            None, 'twenty-eight',
            'Paragraph 2, against the next resurfacing for Category 3.'),
@@ -242,21 +248,21 @@ UNIT = dict(
            'whole of the mechanism.')],
          items=[
           ('The speaker says deferral happens because of',
-           ['ignorance', 'the shape of the cost curve against annual '
-            'budgets', 'poor engineering', 'corruption'], 1,
-           'And assuming ignorance is why advice achieves nothing.'),
+           ['ignorance', 'the shape of the cost curve against annual budgets', 'poor engineering', 'corruption'],
+           1, 'And assuming ignorance is why advice achieves nothing.',
+           {0: 'He says explicitly that it is not ignorance.', 2: 'Engineering quality is not what he blames.', 3: 'He rules out dishonesty along with carelessness.'}),
           ('A repair at ninety per cent condition costs about',
-           ['the same as at seventy', 'an eighth of the repair at '
-            'seventy', 'half the repair at seventy', 'twice as much'], 1,
-           'Though the two look identical to a non-inspector.'),
+           ['the same as at seventy', 'an eighth of the repair at seventy', 'half the repair at seventy', 'twice as much'],
+           1, 'Though the two look identical to a non-inspector.',
+           {0: 'The costs differ by a factor of eight.', 2: 'Larger than the fraction he gives.', 3: 'The earlier repair is far cheaper, not dearer.'}),
           ('Why is maintenance the line that gets cut?',
-           ['It is the largest', 'Its consequence is invisible this year',
-            'It is optional', 'It is unpopular'], 1,
-           'Cutting anything else produces a complaint on Monday.'),
+           ['It is the largest', 'Its consequence is invisible this year', 'It is optional', 'It is unpopular'],
+           1, 'Cutting anything else produces a complaint on Monday.',
+           {0: 'Size of the line is not the reason he gives.', 2: 'He treats maintenance as necessary, not optional.', 3: 'Unpopularity is what cutting anything else produces.'}),
           ('What does the speaker say actually works?',
-           ['Training', 'Publishing a condition index annually',
-            'Legal requirements', 'Larger budgets'], 1,
-           'Because deferral stops being invisible.')])],
+           ['Training', 'Publishing a condition index annually', 'Legal requirements', 'Larger budgets'],
+           1, 'Because deferral stops being invisible.',
+           {0: 'He says exhortation and training achieve nothing.', 2: 'Legal requirements are not what he recommends.', 3: 'Larger budgets are not the remedy he names.'})])],
    speak=dict(
     part='Part 1', focus='Roads and services where you live',
     intro=('Two or three sentences each. A specific road or service is '
@@ -412,20 +418,37 @@ UNIT = dict(
           'the deck repairs it displaced, and pretending otherwise would '
           'make my general argument easier and weaker.'],
          items=[
-          ('Which person defended each individual decision but not the '
-           'sequence?', ['Ottilie', 'Ferdinand', 'Beatriz', 'Casimir'], 0,
-           'Every decision right and the sequence a disaster.'),
+          (
+           'Which person defended each individual decision but not the '
+           'sequence?',
+           ['Ottilie', 'Ferdinand', 'Beatriz', 'Casimir'], 0,
+           'Every decision right and the sequence a disaster.',
+           {1: 'Ferdinand saw good practice punished.', 2: 'Beatriz changed how information was presented rather '
+               'than the information.', 3: 'Casimir concedes a case against their own general '
+               'position.'}),
           ('Which person saw good practice punished?',
            ['Ottilie', 'Ferdinand', 'Beatriz', 'Casimir'], 1,
-           'A properly kept deferral log read out at an inquiry.'),
-          ('Which person changed how information was presented rather than '
-           'the information?',
+           'A properly kept deferral log read out at an inquiry.',
+           {0: 'Ottilie defended each individual decision but not the '
+               'sequence.', 2: 'Beatriz changed how information was presented rather '
+               'than the information.', 3: 'Casimir concedes a case against their own general '
+               'position.'}),
+          (
+           'Which person changed how information was presented rather '
+           'than the information?',
            ['Ottilie', 'Ferdinand', 'Beatriz', 'Casimir'], 2,
-           'Republishing a backlog as a liability with a figure.'),
-          ('Which person concedes a case against their own general '
-           'position?', ['Ottilie', 'Ferdinand', 'Beatriz',
-            'Casimir'], 3,
-           'The link road that removed four thousand lorries.'),
+           'Republishing a backlog as a liability with a figure.',
+           {0: 'Ottilie defended each individual decision but not the '
+               'sequence.', 1: 'Ferdinand saw good practice punished.', 3: 'Casimir concedes a case against their own general '
+               'position.'}),
+          (
+           'Which person concedes a case against their own general '
+           'position?',
+           ['Ottilie', 'Ferdinand', 'Beatriz', 'Casimir'], 3,
+           'The link road that removed four thousand lorries.',
+           {0: 'Ottilie defended each individual decision but not the '
+               'sequence.', 1: 'Ferdinand saw good practice punished.', 2: 'Beatriz changed how information was presented rather '
+               'than the information.'}),
           (
            'Ferdinand believes his team should have kept fewer '
            'records.', ['Yes', 'No', 'Not Given'], 1,
@@ -488,31 +511,33 @@ UNIT = dict(
            'is a design somebody meant to progress.')],
          items=[
           ('Oluwaseun begins by conceding that',
-           ['the walls can wait', 'resurfacing is the highest-return '
-            'spending', 'the budget is adequate', 'inspections are too '
-            'frequent'], 1,
-           'As every whole-life calculation has said for a decade.'),
+           ['the walls can wait', 'resurfacing is the highest-return spending', 'the budget is adequate', 'inspections are too frequent'],
+           1, 'As every whole-life calculation has said for a decade.',
+           {0: 'He argues that the walls cannot wait.', 2: 'Adequacy of the budget is not what he concedes.', 3: 'Inspection frequency is not raised as a problem.'}),
           ('How many structures are at condition grade four?',
            ['Four', 'Nine', 'Eleven', 'Forty-one'], 1,
-           'Out of forty-one bridges and eleven retaining walls.'),
+           'Out of forty-one bridges and eleven retaining walls.',
+           {0: 'Fewer than the number at grade four.', 2: 'Eleven is the number of retaining walls.', 3: 'Forty-one is the number of bridges.'}),
           ('What does he say about how a grade four wall fails?',
-           ['Gradually', 'It is fine and then it is on the railway',
-            'Only in winter', 'With long warning'], 1,
-           'Which is why it cannot be managed like a road surface.'),
-          ('Which of Perpetua’s arguments does he reject as a reason '
+           ['Gradually', 'It is fine and then it is on the railway', 'Only in winter', 'With long warning'],
+           1, 'Which is why it cannot be managed like a road surface.',
+           {0: 'He says a grade four wall does not fail gradually.', 2: 'Season is not part of his account.', 3: 'Long warning is exactly what it does not give.'}),
+          (
+           'Which of Perpetua\u2019s arguments does he reject as a reason '
            'rather than a justification?',
-           ['Deliverability', 'That roads are visible to voters',
-            'Contractor availability', 'Whole-life cost'], 1,
-           'He says he would rather she did not make it.'),
+           ['Deliverability', 'That roads are visible to voters', 'Contractor availability', 'Whole-life cost'],
+           1, 'He says he would rather she did not make it.',
+           {0: 'Deliverability is the argument he calls better.', 2: 'Contractor availability is part of the better '
+               'argument.', 3: 'Whole-life cost is what he concedes at the start.'}),
           ('Her better argument is that the wall works require',
-           ['more money', 'a design, a railway possession and eighteen '
-            'months', 'new legislation', 'public consultation'], 1,
-           'So moving the money would leave it unspent and taken back.'),
+           ['more money', 'a design, a railway possession and eighteen months', 'new legislation', 'public consultation'],
+           1,
+           'So moving the money would leave it unspent and taken back.',
+           {0: 'Money is what she has; time is what she lacks.', 2: 'No legislation is needed for the wall works.', 3: 'Consultation is not mentioned in the exchange.'}),
           ('What do they agree?',
-           ['Move the uplift to the walls', 'Spend the uplift on roads and '
-            'fund the wall designs from revenue', 'Delay both',
-            'Seek extra funding'], 1,
-           'With the designs published alongside the programme.')])],
+           ['Move the uplift to the walls', 'Spend the uplift on roads and fund the wall designs from revenue', 'Delay both', 'Seek extra funding'],
+           1, 'With the designs published alongside the programme.',
+           {0: 'The uplift stays with the roads.', 2: 'Neither is delayed under their agreement.', 3: 'No extra funding is sought.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Things that need looking after',
     longturn=[('The thing that was neglected until it failed is the flat roof '
@@ -718,19 +743,26 @@ UNIT = dict(
           'year 19, so an organisation monitoring only cost learns nine '
           'years later than one monitoring condition.'],
          items=[
-          ('Which paragraph explains why the planned line steps back up?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'Scheduled interventions at year 15 and year 25.'),
+          (
+           'Which paragraph explains why the planned line steps back '
+           'up?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'Scheduled interventions at year 15 and year 25.',
+           {0: 'Paragraph 1 describes the two graphs.', 2: 'Paragraph 3 describes the reactive decline.', 3: 'Paragraph 4 gives the first fifteen years of spending.'}),
           ('Which paragraph identifies the crossing point?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
            'At about year 19, after which reactive spending rises '
-           'steeply.'),
-          ('Which paragraph notes the warning the condition graph gives '
-           'first?', ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 3'], 2,
-           'Condition turns at year 10 and spending not until year 19.'),
+           'steeply.',
+           {0: 'Paragraph 3 describes the reactive decline.', 1: 'Paragraph 4 gives the first fifteen years of spending.', 3: 'Paragraph 6 notes the warning the condition graph '
+               'gives first.'}),
+          (
+           'Which paragraph notes the warning the condition graph '
+           'gives first?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 3'],
+           2,
+           'Condition turns at year 10 and spending not until year 19.',
+           {0: 'Paragraph 4 gives the first fifteen years of spending.', 1: 'Paragraph 5 identifies the crossing point.', 3: 'Paragraph 3 describes the reactive decline.'}),
           ('Reactive condition in year 20: ____________', None, '52',
            'Paragraph 3, after 76 in year 15.'),
           ('Reactive cumulative spending at year 30: ____________ '
@@ -796,24 +828,31 @@ UNIT = dict(
          items=[
           ('The planned regime ends at condition',
            ['100', '96', '90', '76'], 2,
-           'Because no repair returns an asset to as-built condition.'),
+           'Because no repair returns an asset to as-built condition.',
+           {0: 'No repair returns an asset to as-built condition.', 1: 'No figure of that size is given for either regime.', 3: '76 is the reactive figure at year fifteen.'}),
           ('For the first decade the two condition lines are',
-           ['far apart', 'almost on top of each other', 'crossing '
-            'repeatedly', 'diverging steadily'], 1,
-           'Everything that matters happens in the second half.'),
+           ['far apart', 'almost on top of each other', 'crossing repeatedly', 'diverging steadily'],
+           1, 'Everything that matters happens in the second half.',
+           {0: 'They diverge only in the second half.', 2: 'They do not cross; they separate once.', 3: 'The divergence begins after year ten.'}),
           ('At year fifteen, reactive spending stands at',
            ['5 million', '14 million', '29 million', '38 million'], 0,
-           'Against 14 million for the planned regime.'),
+           'Against 14 million for the planned regime.',
+           {1: '14 million is the planned figure at year fifteen.', 2: '29 million is the planned total at year thirty.', 3: '38 million is the reactive figure at year twenty-five.'}),
           ('The two spending lines cross at about year',
            ['ten', 'fifteen', 'nineteen', 'twenty-five'], 2,
-           'After which reactive spending rises steeply.'),
+           'After which reactive spending rises steeply.',
+           {0: 'Year ten is where the condition line turns.', 1: 'At year fifteen reactive spending is still much lower.', 3: 'By year twenty-five reactive spending has run far '
+               'ahead.'}),
           ('The condition line turns how long before the cost line?',
-           ['Two years', 'Five years', 'Nine years', 'Fifteen years'], 2,
-           'Year ten against year nineteen.'),
+           ['Two years', 'Five years', 'Nine years', 'Fifteen years'],
+           2, 'Year ten against year nineteen.',
+           {0: 'Shorter than the gap he reports.', 1: 'Still shorter than the nine years he gives.', 3: 'Longer than the gap between the two turns.'}),
           ('His recommendation is to publish',
-           ['spending by year', 'condition by asset with five years of '
-            'history', 'whole-life costings', 'inspection reports'], 1,
-           'So that the decline is visible while it is still gentle.')])],
+           ['spending by year', 'condition by asset with five years of history', 'whole-life costings', 'inspection reports'],
+           1,
+           'So that the decline is visible while it is still gentle.',
+           {0: 'Spending by year is what he says tells you too late.', 2: 'Whole-life costings are not what he asks to be '
+               'published.', 3: 'Inspection reports are not his recommendation.'})])],
    speak=dict(
     part='Part 3', focus='Paying now or paying later',
     intro=('Five or six sentences. Try once to describe a curve that is '
@@ -1043,19 +1082,21 @@ UNIT = dict(
           'and the remedies for the two have almost nothing in common.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['The shape of deterioration', 'Capital and revenue',
-            'The asymmetry of visibility', 'Horizon mismatch'], 1,
+           ['The shape of deterioration', 'Capital and revenue', 'The asymmetry of visibility', 'Horizon mismatch'],
+           1,
            'The same work is easier to fund as replacement than as '
-           'repair.'),
+           'repair.',
+           {0: 'The deterioration curve is paragraph 2.', 2: 'Visibility is paragraph 4.', 3: 'Horizon mismatch is paragraph 5.'}),
           ('Choose the best heading for paragraph 6.',
-           ['Horizon mismatch', 'How the four factors interact',
-            'Remedies and their evidence', 'The limitation'], 1,
-           'Each factor makes the others harder to solve.'),
+           ['Horizon mismatch', 'How the four factors interact', 'Remedies and their evidence', 'The limitation'],
+           1, 'Each factor makes the others harder to solve.',
+           {0: 'Horizon mismatch is paragraph 5.', 2: 'Remedies are paragraphs 7 and 8.', 3: 'The limitation is paragraph 9.'}),
           ('Choose the best heading for paragraph 9.',
-           ['Remedies and their evidence', 'Publication of condition',
-            'The limitation of publication', 'Horizon mismatch'], 2,
+           ['Remedies and their evidence', 'Publication of condition', 'The limitation of publication', 'Horizon mismatch'],
+           2,
            'Better-documented decline where there is no money to '
-           'reallocate.'),
+           'reallocate.',
+           {0: 'Remedies are paragraphs 7 and 8.', 1: 'Publication itself is paragraph 8.', 3: 'Horizon mismatch is paragraph 5.'}),
           (
            'The writer believes backlogs are caused mainly by '
            'incompetence.', ['Yes', 'No', 'Not Given'], 1,
@@ -1133,32 +1174,36 @@ UNIT = dict(
            'publication will move it. If there is not, you are looking at '
            'a funding question dressed as a management one.')],
          items=[
-          ('The lecturer says a pattern that robust means we should look '
-           'at', ['villains', 'structures', 'national differences',
-            'funding levels'], 1,
-           'Because the countries have nothing else in common.'),
-          ('A decision rule recommends deferral whenever its horizon is',
-           ['longer than the flat section', 'shorter than the flat '
-            'section', 'exactly one year', 'set by statute'], 1,
-           'And it appears correct every time it is reviewed.'),
+          (
+           'The lecturer says a pattern that robust means we should '
+           'look at',
+           ['villains', 'structures', 'national differences', 'funding levels'],
+           1, 'Because the countries have nothing else in common.',
+           {0: 'He says to stop looking for villains.', 2: 'National differences are what the pattern crosses.', 3: 'Funding levels come later, as the allocation question.'}),
+          (
+           'A decision rule recommends deferral whenever its horizon '
+           'is',
+           ['longer than the flat section', 'shorter than the flat section', 'exactly one year', 'set by statute'],
+           1, 'And it appears correct every time it is reviewed.',
+           {0: 'A longer horizon would catch the consequence.', 2: 'He does not tie the rule to any particular year.', 3: 'Statute is not what sets the horizon in his account.'}),
           ('Engineers have redesigned schemes in order to call work',
-           ['urgent', 'replacement rather than repair', 'capital '
-            'maintenance', 'emergency work'], 1,
-           'Because the accounting treatment differs.'),
+           ['urgent', 'replacement rather than repair', 'capital maintenance', 'emergency work'],
+           1, 'Because the accounting treatment differs.',
+           {0: 'Urgency is not the classification that matters.', 2: 'No such category appears in the lecture.', 3: 'Emergency work is what deferral eventually produces.'}),
           ('Maintenance is invisible because it produces',
-           ['no paperwork', 'a failure that did not happen',
-            'no cost', 'no inspection'], 1,
-           'Which is not an event and cannot be attributed.'),
+           ['no paperwork', 'a failure that did not happen', 'no cost', 'no inspection'],
+           1, 'Which is not an event and cannot be attributed.',
+           {0: 'Paperwork exists; the failure does not.', 2: 'Maintenance costs money, which is the problem.', 3: 'Inspection is what records condition.'}),
           ('He calls the audit gap one of',
-           ['ethics', 'audit rather than ethics', 'funding',
-            'training'], 1,
-           'Since no process identifies a sequence of defensible decisions '
-           'as a failure.'),
+           ['ethics', 'audit rather than ethics', 'funding', 'training'],
+           1,
+           'Since no process identifies a sequence of defensible '
+           'decisions as a failure.',
+           {0: 'He says it is a gap in audit rather than in ethics.', 2: 'Funding is a separate question he raises later.', 3: 'Training is not what he says is missing.'}),
           ('The limit of mandatory publication is that',
-           ['it is expensive', 'where there is no money to move it '
-            'produces better-documented decline', 'authorities refuse',
-            'the data is unreliable'], 1,
-           'Which he says its supporters never mention.')])],
+           ['it is expensive', 'where there is no money to move it produces better-documented decline', 'authorities refuse', 'the data is unreliable'],
+           1, 'Which he says its supporters never mention.',
+           {0: 'He calls publication the cheapest remedy.', 2: 'Compliance has not been the problem.', 3: 'The condition data is audited and reliable.'})])],
    speak=dict(
     part='Part 3', focus='Decisions that outlast those who make them',
     followup=[(('You say maintenance always loses. Why do governments avoid '
@@ -1391,19 +1436,27 @@ UNIT = dict(
           'choosing an instrument is the step all three of these '
           'jurisdictions skipped.'],
          items=[
-          ('Which paragraph explains the definitional failure of the first '
-           'rule?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
+          (
+           'Which paragraph explains the definitional failure of the '
+           'first rule?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
            'Renewal reclassified as maintenance, with no improper '
-           'individual decision.'),
-          ('Which paragraph describes the effect on unlisted asset '
-           'classes?', ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
-           'Culverts and drainage deteriorating faster than before.'),
+           'individual decision.',
+           {0: 'Paragraph 2 reports the compliance and the backlog.', 2: 'Paragraph 4 describes the effect on unlisted asset '
+               'classes.', 3: 'Paragraph 5 states the general failure mode of a list.'}),
+          (
+           'Which paragraph describes the effect on unlisted asset '
+           'classes?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1, 'Culverts and drainage deteriorating faster than before.',
+           {0: 'Paragraph 3 explains the definitional failure of the '
+               'first rule.', 2: 'Paragraph 5 states the general failure mode of a list.', 3: 'Paragraph 6 describes the third approach.'}),
           ('Which paragraph explains why publication worked?',
-           ['Paragraph 6', 'Paragraph 7', 'Paragraph 8',
-            'Paragraph 9'], 1,
-           'Deferral became legible inside the organisation.'),
+           ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'],
+           1, 'Deferral became legible inside the organisation.',
+           {0: 'Paragraph 6 describes the third approach and its '
+               'result.', 2: 'Paragraph 8 gives the limits of that approach.', 3: 'Paragraph 9 draws the comparative lesson.'}),
           ('The writer believes the first rule was broken.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 reports complete compliance in every year.',
@@ -1483,35 +1536,37 @@ UNIT = dict(
            'it is uncomfortable for both of the people who signed it.')],
          items=[
           ('Nakamura-Lindgren concedes that',
-           ['publication fails', 'the spending floor his profession asked '
-            'for has failed', 'backlogs are shrinking',
-            'engineers were ignored'], 1,
-           'Three jurisdictions complied and two have worse backlogs.'),
+           ['publication fails', 'the spending floor his profession asked for has failed', 'backlogs are shrinking', 'engineers were ignored'],
+           1,
+           'Three jurisdictions complied and two have worse backlogs.',
+           {0: 'He says publication worked, as the treasury official '
+               'notes.', 2: 'Two of the three have worse backlogs than before.', 3: 'The floor was enacted, so engineers were heard.'}),
           ('Oyelaran-Battersby concedes that the treasury',
-           ['was right to resist', 'was wrong to resist the publication '
-            'approach', 'has no role', 'should set a floor'], 1,
-           'Which produced a twenty-three per cent shift in six years.'),
+           ['was right to resist', 'was wrong to resist the publication approach', 'has no role', 'should set a floor'],
+           1,
+           'Which produced a twenty-three per cent shift in six years.',
+           {0: 'She says the resistance was wrong.', 2: 'She proposes a role for publication and against '
+               'floors.', 3: 'She agrees no spending floor should be set.'}),
           ('Why did she originally resist it?',
-           ['It was expensive', 'It looked like a reporting burden with no '
-            'mechanism', 'It was unlawful', 'Engineers opposed it'], 1,
-           'A view she still calls reasonable and wrong.'),
+           ['It was expensive', 'It looked like a reporting burden with no mechanism', 'It was unlawful', 'Engineers opposed it'],
+           1, 'A view she still calls reasonable and wrong.',
+           {0: 'Cost is not the reason she gives.', 2: 'Legality is not raised by either speaker.', 3: 'Engineers supported it, which is his point.'}),
           ('The mechanism turned out to be',
-           ['public shaming', 'internal visibility of long-run '
-            'consequences', 'legal obligation', 'ministerial '
-            'direction'], 1,
-           'Finance committees asking about trajectory rather than annual '
-           'figures.'),
+           ['public shaming', 'internal visibility of long-run consequences', 'legal obligation', 'ministerial direction'],
+           1,
+           'Finance committees asking about trajectory rather than '
+           'annual figures.',
+           {0: 'He says explicitly that nobody was shamed.', 2: 'There was no obligation to spend anything.', 3: 'No ministerial direction was involved.'}),
           ('Nakamura-Lindgren characterises publication as',
-           ['a cure', 'a reallocation mechanism, and a diagnostic where '
-            'the total is the problem', 'a reporting burden',
-            'a substitute for funding'], 1,
-           'And says his profession has been selling it as a cure.'),
+           ['a cure', 'a reallocation mechanism, and a diagnostic where the total is the problem', 'a reporting burden', 'a substitute for funding'],
+           1, 'And says his profession has been selling it as a cure.',
+           {0: 'He says his profession has wrongly sold it as a cure.', 2: 'A reporting burden is what the treasury first feared.', 3: 'He says it cannot substitute for funding.'}),
           ('What does he add that will be unpopular?',
-           ['Floors should be tried again', 'Somebody must decide what to '
-            'stop maintaining', 'Publication should be voluntary',
-            'Audit is unnecessary'], 1,
+           ['Floors should be tried again', 'Somebody must decide what to stop maintaining', 'Publication should be voluntary', 'Audit is unnecessary'],
+           1,
            'And no jurisdiction in the study has a process for that '
-           'decision.')])],
+           'decision.',
+           {0: 'He has just conceded that floors failed.', 2: 'Voluntary publication is not what he proposes.', 3: 'Audit is part of what made publication work.'})])],
    speak=dict(
     part='Part 3', focus='Rules that bind future decisions',
     sounds=[('Infrastructure vocabulary is long, dull and front-loaded, which '

@@ -49,30 +49,41 @@ UNIT = dict(
           'complete and no reason need be given.'],
          items=[
           ('Addresses for the survey are taken from',
-           ['the electoral register', 'the postal address file',
-            'last year’s sample', 'applications from households'], 1,
-           'Paragraph 1: selected at random from the postal address file. The '
-           'electoral register is never mentioned.'),
-          ('A household that wants to take part but has not been invited',
-           ['may apply in writing', 'may ask an interviewer',
-            'cannot be included', 'joins a waiting list'], 2,
-           'Paragraph 1 says nobody can ask to be included, and gives the '
-           'reason: a sample people choose to join is not random.'),
-          ('How many times will an interviewer call before recording a '
+           ['the electoral register', 'the postal address file', 'last year\u2019s sample', 'applications from households'],
+           1,
+           'Paragraph 1: selected at random from the postal address '
+           'file. The electoral register is never mentioned.',
+           {0: 'Paragraph 1 names the postal address file, not the '
+               'register.', 2: 'A fresh random selection is made each year.', 3: 'Paragraph 1 says nobody can apply to take part.'}),
+          (
+           'A household that wants to take part but has not been '
+           'invited',
+           ['may apply in writing', 'may ask an interviewer', 'cannot be included', 'joins a waiting list'],
+           2,
+           'Paragraph 1 says nobody can ask to be included, and gives '
+           'the reason: a sample people choose to join is not random.',
+           {0: 'Paragraph 1 says nobody can ask to be included.', 1: 'Asking the interviewer would not add the household '
+               'either.', 3: 'No waiting list exists, because the sample is random.'}),
+          (
+           'How many times will an interviewer call before recording a '
            'non-response?',
            ['Three', 'Four', 'Six', 'Until contact is made'], 2,
-           'Paragraph 2: up to six times, at different times and on different '
-           'days.'),
+           'Paragraph 2: up to six times, at different times and on '
+           'different days.',
+           {0: 'Fewer than the number of calls paragraph 2 allows.', 1: 'Still fewer than the six calls the interviewer may '
+               'make.', 3: 'A limit is set, after which non-response is recorded.'}),
           ('Income answers are',
-           ['recorded exactly', 'not collected at all', 'placed in bands',
-            'published by household'], 2,
-           'Paragraph 3: income goes into bands, not exact figures.'),
+           ['recorded exactly', 'not collected at all', 'placed in bands', 'published by household'],
+           2, 'Paragraph 3: income goes into bands, not exact figures.',
+           {0: 'Paragraph 3 says income is banded rather than exact.', 1: 'Income is collected, in bands.', 3: 'No answer is published in an identifiable form.'}),
           ('The twenty-pound voucher is described as',
-           ['a payment for completing every question',
-            'a contribution towards your time',
-            'a reward for particular answers', 'a refund of expenses'], 1,
-           'Paragraph 4 uses exactly that phrase and then rules out the '
-           'alternative: it is not a payment for particular answers.')]),
+           ['a payment for completing every question', 'a contribution towards your time', 'a reward for particular answers', 'a refund of expenses'],
+           1,
+           'Paragraph 4 uses exactly that phrase and then rules out '
+           'the alternative: it is not a payment for particular '
+           'answers.',
+           {0: 'The voucher does not depend on completing every '
+               'question.', 2: 'Paragraph 4 rules out payment for particular answers.', 3: 'Nothing is described as a refund of expenses.'})]),
     dict(heading='What happens to your answers',
          kind='Procedure notice', task='Flow-chart completion',
          band='gt_short', qtype='Questions 6-9',
@@ -198,26 +209,36 @@ UNIT = dict(
            'it at the end of your introduction, once, in the same tone you '
            'mention the length of the interview.')],
          items=[
-          ('The trainer says households reached on a Tuesday afternoon are',
-           ['a random selection', 'easier to interview',
-            'a particular kind of household', 'the most useful group'], 2,
-           'He lists them: older people, people at home, people not working, '
-           'people with young children. The point is that they are not random.'),
+          (
+           'The trainer says households reached on a Tuesday afternoon '
+           'are',
+           ['a random selection', 'easier to interview', 'a particular kind of household', 'the most useful group'],
+           2,
+           'He lists them: older people, people at home, people not '
+           'working, people with young children. The point is that '
+           'they are not random.',
+           {0: 'He says explicitly that they are not a random '
+               'selection.', 1: 'Ease of interviewing is not the point he makes.', 3: 'The sixth call reaches the most valuable households.'}),
           ('Which calls bring in commuters?',
-           ['Weekend calls', 'Evening calls', 'The sixth call',
-            'Afternoon calls'], 1,
-           'Evening calls bring in commuters; weekend calls bring in shift '
-           'workers. The two are set out one after the other.'),
+           ['Weekend calls', 'Evening calls', 'The sixth call', 'Afternoon calls'],
+           1,
+           'Evening calls bring in commuters; weekend calls bring in '
+           'shift workers. The two are set out one after the other.',
+           {0: 'Weekend calls bring in shift workers.', 2: 'The sixth call reaches a handful of unusual '
+               'households.', 3: 'Afternoon calls reach people who are already at home.'}),
           ('What does the trainer say about a reluctant interview?',
-           ['It is better than no interview',
-            'Its answers go into the same column as everybody else’s',
-            'It should be marked for checking', 'It must be repeated later'], 1,
-           'That is his objection: the answers are given to get rid of you but '
-           'are counted identically.'),
+           ['It is better than no interview', 'Its answers go into the same column as everybody else\u2019s', 'It should be marked for checking', 'It must be repeated later'],
+           1,
+           'That is his objection: the answers are given to get rid of '
+           'you but are counted identically.',
+           {0: 'He says a bad interview is noise pretending to be '
+               'data.', 2: 'No marking for checking is mentioned in the talk.', 3: 'He says to record the refusal and move on.'}),
           ('A clean refusal is described as',
            ['a failure', 'noise', 'data', 'a call-back'], 2,
-           'It tells us the shape of who is missing, which is why he calls it '
-           'data, not a failure.')])],
+           'It tells us the shape of who is missing, which is why he '
+           'calls it data, not a failure.',
+           {0: 'He calls a clean refusal informative rather than a '
+               'failure.', 1: 'Noise is what a reluctant interview produces.', 3: 'A call-back is what precedes a refusal.'})])],
    speak=dict(
     part='Part 1', focus='Numbers and surveys',
     intro=('Part 1 answers stay short. Two or three sentences: answer, then '
@@ -354,22 +375,46 @@ UNIT = dict(
           'editor could not defend in print go to live quietly, and they are '
           'almost never corrected afterwards.'],
          items=[
-          ('Which reader objects to a comparison between two differently '
-           'collected figures?', ['Dariusz', 'Imelda', 'Nkechi', 'Taavi'], 1,
-           'Imelda: a figure from twenty years ago collected by a different '
-           'method, then called a decline.'),
-          ('Which reader says the question asked was not the question '
-           'reported?', ['Dariusz', 'Imelda', 'Nkechi', 'Taavi'], 0,
-           'Dariusz: the study asked about swimming in the last twelve months; '
-           'the headline said people cannot swim.'),
-          ('Which reader accepts the figure but objects to how precisely it '
-           'was stated?', ['Dariusz', 'Imelda', 'Nkechi', 'Taavi'], 2,
-           'Nkechi: a decimal place the sample cannot support, given a margin '
-           'of error of two points.'),
-          ('Which reader objects to something outside the text of the article?',
+          (
+           'Which reader objects to a comparison between two '
+           'differently collected figures?',
+           ['Dariusz', 'Imelda', 'Nkechi', 'Taavi'], 1,
+           'Imelda: a figure from twenty years ago collected by a '
+           'different method, then called a decline.',
+           {0: 'Dariusz says the question asked was not the question '
+               'reported.', 2: 'Nkechi accepts the figure but objects to how precisely '
+               'it was stated.', 3: 'Taavi objects to something outside the text of the '
+               'article.'}),
+          (
+           'Which reader says the question asked was not the question '
+           'reported?',
+           ['Dariusz', 'Imelda', 'Nkechi', 'Taavi'], 0,
+           'Dariusz: the study asked about swimming in the last twelve '
+           'months; the headline said people cannot swim.',
+           {1: 'Imelda objects to a comparison between two differently '
+               'collected figures.', 2: 'Nkechi accepts the figure but objects to how precisely '
+               'it was stated.', 3: 'Taavi objects to something outside the text of the '
+               'article.'}),
+          (
+           'Which reader accepts the figure but objects to how '
+           'precisely it was stated?',
+           ['Dariusz', 'Imelda', 'Nkechi', 'Taavi'], 2,
+           'Nkechi: a decimal place the sample cannot support, given a '
+           'margin of error of two points.',
+           {0: 'Dariusz says the question asked was not the question '
+               'reported.', 1: 'Imelda objects to a comparison between two differently '
+               'collected figures.', 3: 'Taavi objects to something outside the text of the '
+               'article.'}),
+          (
+           'Which reader objects to something outside the text of the '
+           'article?',
            ['Dariusz', 'Imelda', 'Nkechi', 'Taavi'], 3,
-           'Taavi objects to the photograph, which invites a cause the study '
-           'never tested.'),
+           'Taavi objects to the photograph, which invites a cause the '
+           'study never tested.',
+           {0: 'Dariusz says the question asked was not the question '
+               'reported.', 1: 'Imelda objects to a comparison between two differently '
+               'collected figures.', 2: 'Nkechi accepts the figure but objects to how precisely '
+               'it was stated.'}),
           ('Nkechi believes the sample size was too small.',
            ['Yes', 'No', 'Not Given'], 1,
            'She calls two thousand perfectly respectable. The '
@@ -431,38 +476,47 @@ UNIT = dict(
           ('Editor', 'Put it in the second paragraph with the national figure, '
            'and keep it to one sentence.')],
          items=[
-          ('What is the reporter’s objection to the proposed headline?',
-           ['The figure is wrong', 'It reports a different question',
-            'The sample was too small', 'It is not interesting enough'], 1,
-           'The study asked about swimming in the last year; the headline says '
-           'cannot swim. The reporter accepts the figure itself.'),
-          ('Why does the reporter call the eleven-point gap the most reliable '
-           'number?',
-           ['It is the largest', 'It comes from a bigger sample',
-            'It is a comparison within one survey',
-            'It was checked independently'], 2,
-           'Both measurements come from the same survey on the same measure, '
-           'so the bias affects both sides equally.'),
-          ('What does the reporter mean by the gap survives the flattery?',
-           ['People exaggerate in both districts equally',
-            'The gap is too large to be an error',
-            'The survey corrected for exaggeration',
-            'Richer districts exaggerate more'], 0,
+          (
+           'What is the reporter\u2019s objection to the proposed headline?',
+           ['The figure is wrong', 'It reports a different question', 'The sample was too small', 'It is not interesting enough'],
+           1,
+           'The study asked about swimming in the last year; the '
+           'headline says cannot swim. The reporter accepts the figure '
+           'itself.',
+           {0: 'The reporter accepts the figure itself as correct.', 2: 'Sample size is not raised by either journalist.', 3: 'The reporter wants a different story, not a duller '
+               'one.'}),
+          (
+           'Why does the reporter call the eleven-point gap the most '
+           'reliable number?',
+           ['It is the largest', 'It comes from a bigger sample', 'It is a comparison within one survey', 'It was checked independently'],
+           2,
+           'Both measurements come from the same survey on the same '
+           'measure, so the bias affects both sides equally.',
+           {0: 'Size of the figure is not why she trusts it.', 1: 'Both figures come from the same survey, not a larger '
+               'one.', 3: 'No independent check is mentioned.'}),
+          (
+           'What does the reporter mean by the gap survives the '
+           'flattery?',
+           ['People exaggerate in both districts equally', 'The gap is too large to be an error', 'The survey corrected for exaggeration', 'Richer districts exaggerate more'],
+           0,
            'People overstate their exercise in both districts, so the '
-           'difference between them is unaffected.'),
-          ('What is the reporter’s practical argument against the headline?',
-           ['It would take too long to check',
-            'A correction would destroy the real story too',
-            'The editor would have to apologise',
-            'Readers prefer local news'], 1,
-           'If someone checks, the correction kills the real story along with '
-           'the false one.'),
+           'difference between them is unaffected.',
+           {1: 'Size is not what makes the gap survive.', 2: 'No correction for exaggeration is described.', 3: 'The point is that both districts exaggerate alike.'}),
+          (
+           'What is the reporter\u2019s practical argument against the '
+           'headline?',
+           ['It would take too long to check', 'A correction would destroy the real story too', 'The editor would have to apologise', 'Readers prefer local news'],
+           1,
+           'If someone checks, the correction kills the real story '
+           'along with the false one.',
+           {0: 'Checking time is not the argument she makes.', 2: 'An apology from the editor is not what she warns '
+               'about.', 3: 'Reader preference is not part of her argument.'}),
           ('What do they finally agree to do?',
-           ['Drop the story', 'Lead on the national figure',
-            'Lead on the gap, with the national figure described properly',
-            'Wait for a second study'], 2,
-           'The editor concedes the lead and asks for the national figure in '
-           'the second paragraph, properly described.')])],
+           ['Drop the story', 'Lead on the national figure', 'Lead on the gap, with the national figure described properly', 'Wait for a second study'],
+           2,
+           'The editor concedes the lead and asks for the national '
+           'figure in the second paragraph, properly described.',
+           {0: 'They agree to run the story, not to drop it.', 1: 'The national figure goes in the second paragraph.', 3: 'No second study is mentioned.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Figures you have heard quoted',
     longturn=[('The number I want to talk about is a claim that a quarter of '
@@ -680,26 +734,38 @@ UNIT = dict(
           'basis it has chosen and keeps to it.'],
          items=[
           ('Which chart began its vertical axis above zero?',
-           ['The police chart', 'The campaign chart', 'The researcher’s chart',
-            'All three'], 1,
-           'Paragraph 3: an axis that began at 800, which leaves only the '
-           'moving part of each line visible.'),
-          ('Which chart was least likely to be reproduced in the press?',
-           ['The police chart', 'The campaign chart', 'The researcher’s chart',
-            'None of them'], 2,
-           'Paragraph 5: the most informative and the hardest to read quickly, '
-           'which is why it appeared in none of the coverage.'),
-          ('According to the article, much of the apparent rise in vehicle '
-           'crime is explained by', ['better reporting', 'more vehicles',
-            'a change of definition', 'the chosen baseline'], 1,
+           ['The police chart', 'The campaign chart', 'The researcher\u2019s chart', 'All three'],
+           1,
+           'Paragraph 3: an axis that began at 800, which leaves only '
+           'the moving part of each line visible.',
+           {0: 'The police chart began at zero.', 2: 'The researcher\u2019s chart was least likely to be '
+               'reproduced in the press.', 3: 'Only one of the three cut the axis.'}),
+          (
+           'Which chart was least likely to be reproduced in the '
+           'press?',
+           ['The police chart', 'The campaign chart', 'The researcher\u2019s chart', 'None of them'],
+           2,
+           'Paragraph 5: the most informative and the hardest to read '
+           'quickly, which is why it appeared in none of the coverage.',
+           {0: 'The police chart is the conventional choice and was '
+               'used.', 1: 'The campaign chart began its vertical axis above zero.', 3: 'One of the three appeared in none of the coverage.'}),
+          (
+           'According to the article, much of the apparent rise in '
+           'vehicle crime is explained by',
+           ['better reporting', 'more vehicles', 'a change of definition', 'the chosen baseline'],
+           1,
            'Paragraph 4: dividing by households shows the rise largely '
-           'disappears, because more vehicles have arrived.'),
+           'disappears, because more vehicles have arrived.',
+           {0: 'Reporting quality is not mentioned in the passage.', 2: 'No change of definition is described.', 3: 'The baseline affects appearance, not the per-household '
+               'rise.'}),
           ('Over the eight years, recorded burglary changed by about',
-           ['three per cent', 'nine per cent', 'thirteen per cent',
-            'fifty per cent'], 2,
-           'Paragraph 2 gives the figures and names the change as thirteen per '
-           'cent. The fifty is the height on the campaign chart, not a change '
-           'in the data.'),
+           ['three per cent', 'nine per cent', 'thirteen per cent', 'fifty per cent'],
+           2,
+           'Paragraph 2 gives the figures and names the change as '
+           'thirteen per cent. The fifty is the height on the campaign '
+           'chart, not a change in the data.',
+           {0: 'Smaller than the change paragraph 2 names.', 1: 'Nine per cent is the rise in the number of households.', 3: 'Fifty is the height on the campaign chart, not a '
+               'change.'}),
           ('The number of households in the district rose by roughly '
            '____________ per cent.', None, 'nine',
            'Paragraph 4, as new estates were completed. This is the figure the '
@@ -760,36 +826,51 @@ UNIT = dict(
            'Name the basis, name the period, and if you have cut the axis, say '
            'so in the sentence rather than in the small print.')],
          items=[
-          ('The lecturer says the school rule about starting at zero is',
-           ['always correct', 'correct about half the time',
-            'a matter of taste', 'out of date'], 1,
-           'Right about half the time and wrong in a way nobody explains, '
-           'which is the structure of the whole lecture.'),
+          (
+           'The lecturer says the school rule about starting at zero '
+           'is',
+           ['always correct', 'correct about half the time', 'a matter of taste', 'out of date'],
+           1,
+           'Right about half the time and wrong in a way nobody '
+           'explains, which is the structure of the whole lecture.',
+           {0: 'He says the rule is wrong about half the time.', 2: 'He says explicitly that it is not a matter of taste.', 3: 'Age is not what he says is wrong with the rule.'}),
           ('Why must bar charts start at zero?',
-           ['Bars are read as area', 'Bars are harder to draw',
-            'Readers expect it', 'Bars show change'], 0,
-           'A bar twice as tall reads as twice as much, because that is what a '
-           'bar is for.'),
+           ['Bars are read as area', 'Bars are harder to draw', 'Readers expect it', 'Bars show change'],
+           0,
+           'A bar twice as tall reads as twice as much, because that '
+           'is what a bar is for.',
+           {1: 'Ease of drawing is not part of his argument.', 2: 'Reader expectation is not the reason he gives.', 3: 'Lines show change; bars show quantity.'}),
           ('In the temperature example, a zero baseline would',
-           ['exaggerate the fever', 'conceal the fever',
-            'make the chart unreadable', 'require a second axis'], 1,
-           'A perfectly flat line across the page, having concealed the fever.'),
+           ['exaggerate the fever', 'conceal the fever', 'make the chart unreadable', 'require a second axis'],
+           1,
+           'A perfectly flat line across the page, having concealed '
+           'the fever.',
+           {0: 'Cutting the axis is what would exaggerate it.', 2: 'The chart would be readable and flat, which is the '
+               'problem.', 3: 'No second axis is discussed in the lecture.'}),
           ('The lecturer concludes that the axis should match',
-           ['the size of the page', 'what the reader is asked to compare',
-            'the convention in the field', 'the largest value'], 1,
-           'Bars compare quantities and start at zero; lines compare change '
-           'and start where the change is legible.'),
+           ['the size of the page', 'what the reader is asked to compare', 'the convention in the field', 'the largest value'],
+           1,
+           'Bars compare quantities and start at zero; lines compare '
+           'change and start where the change is legible.',
+           {0: 'Page size is not part of the rule he gives.', 2: 'He argues against following convention unexamined.', 3: 'The largest value sets the top, not the basis of '
+               'comparison.'}),
           ('A count presented without its denominator is described as',
-           ['an error', 'already a claim about cause', 'incomplete data',
-            'the usual practice'], 1,
-           'Because counts rise with population, so presenting the count alone '
-           'implies the rise belongs to the thing counted.'),
-          ('What does the lecturer want students to do if they have cut an '
-           'axis?',
-           ['Avoid it entirely', 'Explain it in a footnote',
-            'Say so in the sentence', 'Use a bar chart instead'], 2,
+           ['an error', 'already a claim about cause', 'incomplete data', 'the usual practice'],
+           1,
+           'Because counts rise with population, so presenting the '
+           'count alone implies the rise belongs to the thing counted.',
+           {0: 'He does not call it an error, but a claim.', 2: 'The data may be complete; the basis is the problem.', 3: 'He is arguing against the usual practice, not '
+               'describing it.'}),
+          (
+           'What does the lecturer want students to do if they have '
+           'cut an axis?',
+           ['Avoid it entirely', 'Explain it in a footnote', 'Say so in the sentence', 'Use a bar chart instead'],
+           2,
            'Say so in the sentence, not in the small print, which is '
-           'the last line of the lecture.')])],
+           'the last line of the lecture.',
+           {0: 'He says cutting an axis is sometimes the honest '
+               'option.', 1: 'He wants it in the sentence, not in the small print.', 3: 'A bar chart would need a zero baseline and hide the '
+               'change.'})])],
    speak=dict(
     part='Part 3', focus='How figures are presented',
     intro=('Part 3 answers are longer: four or five sentences. Answer, support, '
@@ -1012,20 +1093,33 @@ UNIT = dict(
                  'the figure most often quoted and least often decisive.')],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['A rule with one condition', 'The spoonful and the pot',
-            'Why four times as many', 'What the famous failure showed'], 1,
-           'The paragraph is the soup analogy and nothing else: the spoonful '
-           'is the sample, stirring is randomisation.'),
+           ['A rule with one condition', 'The spoonful and the pot', 'Why four times as many', 'What the famous failure showed'],
+           1,
+           'The paragraph is the soup analogy and nothing else: the '
+           'spoonful is the sample, stirring is randomisation.',
+           {0: 'A rule with one condition is the heading for paragraph '
+               '5.', 2: 'Why four times as many is paragraph 3, on the square '
+               'root.', 3: 'The famous failure is paragraph 6, with the two and a '
+               'half million.'}),
           ('Choose the best heading for paragraph 5.',
-           ['A rule with one condition', 'The spoonful and the pot',
-            'Two polls, one margin', 'Reordering the reader’s questions'], 0,
-           'It introduces the condition that every member had a known chance '
-           'of selection, and says the condition does all the work.'),
+           ['A rule with one condition', 'The spoonful and the pot', 'Two polls, one margin', 'Reordering the reader\u2019s questions'],
+           0,
+           'It introduces the condition that every member had a known '
+           'chance of selection, and says the condition does all the '
+           'work.',
+           {1: 'The spoonful and the pot is the heading for paragraph '
+               '2.', 2: 'Two polls and one margin is paragraph 4.', 3: 'Reordering the reader\u2019s questions is the heading for '
+               'paragraph 7.'}),
           ('Choose the best heading for paragraph 7.',
-           ['A rule with one condition', 'Why four times as many',
-            'Reordering the reader’s questions', 'The spoonful and the pot'], 2,
-           'The first question is not how many but how they were chosen, which '
-           'is a reordering of what a reader usually asks.'),
+           ['A rule with one condition', 'Why four times as many', 'Reordering the reader\u2019s questions', 'The spoonful and the pot'],
+           2,
+           'The first question is not how many but how they were '
+           'chosen, which is a reordering of what a reader usually '
+           'asks.',
+           {0: 'A rule with one condition is the heading for paragraph '
+               '5.', 1: 'Why four times as many is paragraph 3, on the square '
+               'root.', 3: 'The spoonful and the pot is the heading for paragraph '
+               '2.'}),
           (
            'To halve a margin of error, a survey needs twice as many '
            'respondents.', ['Yes', 'No', 'Not Given'], 1,
@@ -1098,36 +1192,50 @@ UNIT = dict(
            'for is not that a sample was too small. It is almost never too '
            'small. It is a sentence about who was reached and who was not.')],
          items=[
-          ('The lecturer says the random selection condition is a statement '
-           'about', ['the people in the sample', 'the procedure used',
-            'the size of the population', 'the questions asked'], 1,
-           'And he draws the consequence: you cannot inspect a finished sample '
-           'and tell whether it was randomly drawn.'),
-          ('Matching a sample to the population on age, sex and region tells '
-           'you nothing unless',
-           ['the sample is large enough',
-            'the measured thing relates only to those variables',
-            'the response rate is known', 'the survey is repeated'], 1,
-           'That is the exact condition he gives, and it almost never holds.'),
+          (
+           'The lecturer says the random selection condition is a '
+           'statement about',
+           ['the people in the sample', 'the procedure used', 'the size of the population', 'the questions asked'],
+           1,
+           'And he draws the consequence: you cannot inspect a '
+           'finished sample and tell whether it was randomly drawn.',
+           {0: 'He says you cannot tell from the people in the sample.', 2: 'Population size is what barely enters the arithmetic.', 3: 'The questions are not what the condition concerns.'}),
+          (
+           'Matching a sample to the population on age, sex and region '
+           'tells you nothing unless',
+           ['the sample is large enough', 'the measured thing relates only to those variables', 'the response rate is known', 'the survey is repeated'],
+           1,
+           'That is the exact condition he gives, and it almost never '
+           'holds.',
+           {0: 'Size is not the condition he attaches to weighting.', 2: 'Response rate matters, but is not the condition here.', 3: 'Repetition would reproduce the same bias.'}),
           ('According to the lecturer, survey respondents tend to be',
-           ['younger than average', 'wealthier than average',
-            'more trusting of institutions', 'better educated'], 2,
-           'He lists more joiners, more trusting of institutions, more likely '
-           'to have time. Education is not mentioned.'),
+           ['younger than average', 'wealthier than average', 'more trusting of institutions', 'better educated'],
+           2,
+           'He lists more joiners, more trusting of institutions, more '
+           'likely to have time. Education is not mentioned.',
+           {0: 'Age is not among the traits he lists.', 1: 'Wealth is not one of the respondent traits he names.', 3: 'Education is not mentioned in the lecture.'}),
           ('Which number does the lecturer say to look for first?',
-           ['The sample size', 'The margin of error', 'The response rate',
-            'The fieldwork dates'], 2,
-           'A seventy per cent response rate is a different animal from a six '
-           'per cent one, whatever the sample size.'),
+           ['The sample size', 'The margin of error', 'The response rate', 'The fieldwork dates'],
+           2,
+           'A seventy per cent response rate is a different animal '
+           'from a six per cent one, whatever the sample size.',
+           {0: 'Sample size is the figure he says is almost never the '
+               'problem.', 1: 'The margin of error measures the smaller uncertainty.', 3: 'Fieldwork dates are not what he tells you to look for.'}),
           ('The margin of error describes',
-           ['all sources of uncertainty', 'sampling variability only',
-            'non-response', 'the weighting applied'], 1,
-           'And he adds that the sources it does not measure are usually '
-           'larger.'),
-          ('What does the lecturer say the alternative to a well-run survey '
-           'is?', ['A larger survey', 'Certainty', 'Anecdote',
-            'Official statistics'], 2,
-           'He raises this to stop students taking the scepticism too far.')])],
+           ['all sources of uncertainty', 'sampling variability only', 'non-response', 'the weighting applied'],
+           1,
+           'And he adds that the sources it does not measure are '
+           'usually larger.',
+           {0: 'He says it measures one source only.', 2: 'Non-response is exactly what it does not describe.', 3: 'Weighting is not what the margin measures.'}),
+          (
+           'What does the lecturer say the alternative to a well-run '
+           'survey is?',
+           ['A larger survey', 'Certainty', 'Anecdote', 'Official statistics'],
+           2,
+           'He raises this to stop students taking the scepticism too '
+           'far.',
+           {0: 'A larger survey is not the alternative he names.', 1: 'He says the alternative is not certainty.', 3: 'Official statistics are themselves surveys of this '
+               'kind.'})])],
    speak=dict(
     part='Part 3', focus='Trusting a survey',
     followup=[(('You say you would want the response rate. Should news reports '
@@ -1321,20 +1429,33 @@ UNIT = dict(
           'unstated response rate, is a sentence written in three different '
           'registers of confidence at once.'],
          items=[
-          ('Which paragraph explains why one kind of bias cannot be corrected '
-           'afterwards?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'], 1,
-           'Paragraph 3 distinguishes a biased frame, which weighting can '
-           'address, from differential response, which it cannot.'),
-          ('Which paragraph describes polls resembling each other more than '
-           'their data justify?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'], 2,
-           'Paragraph 5: each adjustment is defensible and the cumulative '
-           'effect is false agreement.'),
-          ('Which paragraph limits the writer’s own argument?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
-           'Paragraph 6 says explicitly that the sceptical case is easy to '
-           'overstate and that polls have a respectable record.'),
+          (
+           'Which paragraph explains why one kind of bias cannot be '
+           'corrected afterwards?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
+           'Paragraph 3 distinguishes a biased frame, which weighting '
+           'can address, from differential response, which it cannot.',
+           {0: 'Paragraph 2 describes the 1936 poll and its '
+               're-analysis.', 2: 'Paragraph 4 applies the same shape to modern misses.', 3: 'Paragraph 5 describes polls resembling each other more '
+               'than their data justify.'}),
+          (
+           'Which paragraph describes polls resembling each other more '
+           'than their data justify?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
+           'Paragraph 5: each adjustment is defensible and the '
+           'cumulative effect is false agreement.',
+           {0: 'Paragraph 3 explains why one kind of bias cannot be '
+               'corrected afterwards.', 1: 'Paragraph 4 applies the same shape to modern misses.', 3: 'Paragraph 6 limits the writer\u2019s own argument.'}),
+          ('Which paragraph limits the writer\u2019s own argument?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
+           'Paragraph 6 says explicitly that the sceptical case is '
+           'easy to overstate and that polls have a respectable '
+           'record.',
+           {0: 'Paragraph 4 applies the same shape to modern misses.', 1: 'Paragraph 5 describes polls resembling each other more '
+               'than their data justify.', 3: 'Paragraph 7 rejects the remedy of asking more people.'}),
           (
            'The writer believes the 1936 failure is fully explained by '
            'the address list used.',
@@ -1412,40 +1533,47 @@ UNIT = dict(
            'anything else either of us has proposed and it would do more than '
            'all of it.')],
          items=[
-          ('What is Okonkwo’s main criticism of the industry?',
-           ['It uses samples that are too small',
-            'It keeps solving the previous failure',
-            'It refuses to publish its methods',
-            'It relies on telephone directories'], 1,
-           'Each fix was correct and each left the underlying vulnerability '
-           'intact.'),
+          ('What is Okonkwo\u2019s main criticism of the industry?',
+           ['It uses samples that are too small', 'It keeps solving the previous failure', 'It refuses to publish its methods', 'It relies on telephone directories'],
+           1,
+           'Each fix was correct and each left the underlying '
+           'vulnerability intact.',
+           {0: 'Sample size is not his criticism of the industry.', 2: 'He does not accuse the industry of hiding its methods.', 3: 'Telephone directories are the 1936 frame, one fix '
+               'among many.'}),
           ('Vasquez argues that the error in polling is',
-           ['unknowable', 'growing rapidly', 'bounded and roughly known',
-            'caused by weighting'], 2,
-           'Around two points on average across hundreds of contests, which is '
-           'why she calls it a known error term.'),
-          ('Okonkwo’s reply about the average error is that',
-           ['the average is miscalculated', 'the distribution has a tail',
-            'the contests are not comparable',
-            'the comparison period is too short'], 1,
-           'And the years in the tail are not random: they cluster around '
-           'unusual contests.'),
+           ['unknowable', 'growing rapidly', 'bounded and roughly known', 'caused by weighting'],
+           2,
+           'Around two points on average across hundreds of contests, '
+           'which is why she calls it a known error term.',
+           {0: 'She says the error is roughly known from hundreds of '
+               'contests.', 1: 'She reports a stable average, not a rising one.', 3: 'Weighting is not what she says causes the error.'}),
+          ('Okonkwo\u2019s reply about the average error is that',
+           ['the average is miscalculated', 'the distribution has a tail', 'the contests are not comparable', 'the comparison period is too short'],
+           1,
+           'And the years in the tail are not random: they cluster '
+           'around unusual contests.',
+           {0: 'He does not dispute her calculation.', 2: 'He accepts the comparison across contests.', 3: 'Hundreds of contests is long enough for his reply.'}),
           ('What does Vasquez propose instead of a single figure?',
-           ['A larger sample', 'Publishing a range with no central estimate',
-            'Delaying publication', 'Weighting by response rate'], 1,
-           'She argues most of the dispute would disappear if a range were '
-           'published and the central estimate withheld.'),
-          ('Which comparison does Vasquez use to answer the objection that no '
-           'editor would run it?',
-           ['Medical testing', 'Weather forecasting', 'Financial reporting',
-            'Sports results'], 1,
-           'Editors eventually ran probability forecasts for weather, and '
-           'nobody now expects a single temperature.'),
+           ['A larger sample', 'Publishing a range with no central estimate', 'Delaying publication', 'Weighting by response rate'],
+           1,
+           'She argues most of the dispute would disappear if a range '
+           'were published and the central estimate withheld.',
+           {0: 'A larger sample is what both say cannot help.', 2: 'No delay in publication is proposed.', 3: 'Weighting by response rate is not her proposal.'}),
+          (
+           'Which comparison does Vasquez use to answer the objection '
+           'that no editor would run it?',
+           ['Medical testing', 'Weather forecasting', 'Financial reporting', 'Sports results'],
+           1,
+           'Editors eventually ran probability forecasts for weather, '
+           'and nobody now expects a single temperature.',
+           {0: 'Medical testing is not the comparison she draws.', 2: 'Financial reporting is not mentioned by either.', 3: 'Sports results are not used as a comparison.'}),
           ('What do both speakers agree about?',
-           ['The 1936 failure', 'Falling response rates',
-            'The use of ranges', 'The size of the tail'], 1,
-           'Okonkwo raises it and Vasquez agrees, adding that it is why the '
-           'margin of error has become misleading.')])],
+           ['The 1936 failure', 'Falling response rates', 'The use of ranges', 'The size of the tail'],
+           1,
+           'Okonkwo raises it and Vasquez agrees, adding that it is '
+           'why the margin of error has become misleading.',
+           {0: 'The 1936 failure is where they differ in emphasis.', 2: 'Ranges are her proposal, which he doubts editors would '
+               'run.', 3: 'The size of the tail is exactly what they dispute.'})])],
    speak=dict(
     part='Part 3', focus='Evidence, uncertainty and decisions',
     sounds=[('Number phrases have a fixed rhythm, and breaking it is heard as '

@@ -138,27 +138,34 @@ PAPER = dict(
          'Paragraph 4, during the period when the mine was guarded.'),
         ('What did Conté mix with powdered graphite?', None, 'clay',
          'Paragraph 5, before pressing and firing the mixture.'),
-        ('Which paragraph explains why pencils are made in different '
+        (
+         'Which paragraph explains why pencils are made in different '
          'grades of hardness?',
-         ['Paragraph 3', 'Paragraph 4', 'Paragraph 6',
-          'Paragraph 7'], 2,
+         ['Paragraph 3', 'Paragraph 4', 'Paragraph 6', 'Paragraph 7'],
+         2,
          'The proportion of clay determines hardness, which is where '
-         'the scale comes from.'),
+         'the scale comes from.',
+         {1: 'Paragraph 4 describes a measure taken against theft.', 3: 'Paragraph 7 explains why a patent was cancelled.'}),
         ('Which paragraph describes a measure taken against theft?',
-         ['Paragraph 2', 'Paragraph 4', 'Paragraph 5',
-          'Paragraph 8'], 1,
-         'Armed guards, deliberate flooding and an act of '
-         'Parliament.'),
+         ['Paragraph 2', 'Paragraph 4', 'Paragraph 5', 'Paragraph 8'],
+         1,
+         'Armed guards, deliberate flooding and an act of Parliament.',
+         {3: 'Paragraph 8 argues that the pencil developed without a '
+             'plan.'}),
         ('Which paragraph explains why a patent was cancelled?',
-         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-          'Paragraph 8'], 2,
-         'Joining two known objects was held not to be an '
-         'invention.'),
-        ('Which paragraph argues that the pencil developed without a '
+         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+         2,
+         'Joining two known objects was held not to be an invention.',
+         {1: 'Paragraph 6 explains why pencils are made in different '
+             'grades of hardness.', 3: 'Paragraph 8 argues that the pencil developed without a '
+             'plan.'}),
+        (
+         'Which paragraph argues that the pencil developed without a '
          'plan?',
-         ['Paragraph 1', 'Paragraph 6', 'Paragraph 7',
-          'Paragraph 8'], 3,
-         'The final paragraph, listing four unplanned steps.')]),
+         ['Paragraph 1', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+         3, 'The final paragraph, listing four unplanned steps.',
+         {1: 'Paragraph 6 explains why pencils are made in different '
+             'grades of hardness.', 2: 'Paragraph 7 explains why a patent was cancelled.'})]),
 
   dict(no=2, first=14,
        heading='Why a postcode is not an address',
@@ -405,28 +412,37 @@ PAPER = dict(
          {0: 'Yes would need an effect on convictions, which is never '
              'discussed.', 1: 'No would need him to say it has not, and the question '
              'never arises.'}),
-        ('Which paragraph lists the ways a scene mark differs from a '
+        (
+         'Which paragraph lists the ways a scene mark differs from a '
          'controlled print?',
-         ['Paragraph 2', 'Paragraph 3', 'Paragraph 5',
-          'Paragraph 7'], 1,
-         'Partial, distorted, smudged, overlapped and degraded.'),
+         ['Paragraph 2', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'],
+         1, 'Partial, distorted, smudged, overlapped and degraded.',
+         {2: 'Paragraph 5 describes a finding about the same examiner '
+             'on two occasions.', 3: 'Paragraph 7 describes the procedural changes that were '
+             'made.'}),
         ('Which paragraph describes a finding about the same examiner '
          'on two occasions?',
          ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
           'Paragraph 8'], 1,
          'Conclusions changed in a measurable proportion of repeated '
          'comparisons.'),
-        ('Which paragraph describes the procedural changes that were '
+        (
+         'Which paragraph describes the procedural changes that were '
          'made?',
-         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-          'Paragraph 9'], 2,
+         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 9'],
+         2,
          'Marks given without case information, independent '
-         'verification, changed wording.'),
-        ('Which paragraph explains why a jury may remember the wrong '
+         'verification, changed wording.',
+         {0: 'Paragraph 5 describes a finding about the same examiner '
+             'on two occasions.', 3: 'Paragraph 9 explains why a jury may remember the wrong '
+             'thing.'}),
+        (
+         'Which paragraph explains why a jury may remember the wrong '
          'thing?',
-         ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',
-          'Paragraph 10'], 2,
-         'Juries hear a number and remember a phrase.'),
+         ['Paragraph 7', 'Paragraph 8', 'Paragraph 9', 'Paragraph 10'],
+         2, 'Juries hear a number and remember a phrase.',
+         {0: 'Paragraph 7 describes the procedural changes that were '
+             'made.'}),
         ('A mark recovered from a scene is often a ____________ of the '
          'finger or less.', None, 'quarter',
          'Paragraph 3, among the other ways it differs from a '

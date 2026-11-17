@@ -63,10 +63,12 @@ UNIT = dict(
           ('Which bin takes a pizza box?',
            ['green', 'blue', 'brown', 'black'], 3,
            'Paragraph 1: card that has held food goes in the black '
-           'bin.'),
+           'bin.',
+           {0: 'Green takes card, but not card that has held food.', 1: 'Blue is for glass, tins, cans and plastic bottles.', 2: 'Brown takes garden waste and raw peelings only.'}),
           ('Which bin takes raw vegetable peelings?',
            ['green', 'blue', 'brown', 'black'], 2,
-           'Paragraph 3, along with garden waste.'),
+           'Paragraph 3, along with garden waste.',
+           {0: 'Green is paper and card, flattened.', 1: 'Blue is for glass, tins, cans and bottles.', 3: 'Black takes everything the other three do not.'}),
           ('Lids must be removed from ____________.', None, 'jars',
            'Paragraph 2, though they may be left on bottles.'),
           (
@@ -282,19 +284,34 @@ UNIT = dict(
           'a Saturday morning and talk to each other. The river gets '
           'cleaner and that is honestly the second thing.'],
          items=[
-          ('Which volunteer says the work changes how the river looks '
+          (
+           'Which volunteer says the work changes how the river looks '
            'rather than its water?',
            ['Anselm', 'Constance', 'Ibrahim', 'Marguerite'], 0,
-           'Two tonnes a year, and a difference to the look.'),
+           'Two tonnes a year, and a difference to the look.',
+           {1: 'Constance says the visible rubbish is not the problem.', 2: 'Ibrahim describes a change to measuring rather than '
+               'appearance.', 3: 'Marguerite gives a social reason, not a claim about '
+               'the water.'}),
           ('Which volunteer points to pollution that cannot be seen?',
            ['Anselm', 'Constance', 'Ibrahim', 'Marguerite'], 1,
-           'Field run-off and released sewage.'),
-          ('Which volunteer describes a change in what the group does?',
+           'Field run-off and released sewage.',
+           {0: 'Anselm lists tyres, trolleys and bottles, which are '
+               'all visible.', 2: 'Ibrahim measures the water but does not name the '
+               'pollutants.', 3: 'Marguerite talks about the group rather than the '
+               'pollution.'}),
+          (
+           'Which volunteer describes a change in what the group does?',
            ['Anselm', 'Constance', 'Ibrahim', 'Marguerite'], 2,
-           'Joined to clean and stayed to measure.'),
+           'Joined to clean and stayed to measure.',
+           {0: 'Anselm describes the same work and a change of claim '
+               'about it.', 1: 'Constance explains a difficulty rather than a change '
+               'of activity.', 3: 'Marguerite describes her own reason, not a change in '
+               'the work.'}),
           ('Which volunteer gives a social reason for taking part?',
            ['Anselm', 'Constance', 'Ibrahim', 'Marguerite'], 3,
-           'Thirty people standing in a river and talking.'),
+           'Thirty people standing in a river and talking.',
+           {0: 'Anselm gives a reason about how the river looks.', 1: 'Constance gives a reason about what harms the fish.', 2: 'Ibrahim gives a reason about evidence and the water '
+               'company.'}),
           (
            'Ibrahim says the readings were more effective than the '
            'rubbish collection.',
@@ -352,9 +369,12 @@ UNIT = dict(
            'Which he says is legal, and frequent.'),
           ('____________ members take readings twice a week.', None,
            'Six', 'At four points along the river.'),
-          ('The readings record was what made the water company take '
-           'them', ['seriously', 'quickly', 'legally', 'publicly'], 0,
-           'After nine years of being thanked.'),
+          (
+           'The readings record was what made the water company take '
+           'them',
+           ['seriously', 'quickly', 'legally', 'publicly'], 0,
+           'After nine years of being thanked.',
+           {1: 'Nothing in the talk says the company acted quickly.', 2: 'Legality is not what the readings changed.', 3: 'The talk does not say the company responded publicly.'}),
           ('He says the ____________ side is most of why people '
            'stay.', None, 'social',
            'The members who last come for the coffee afterwards.')])],
@@ -537,21 +557,26 @@ UNIT = dict(
           'this graph say nothing at all about what is dissolved in the '
           'water, which is measured separately and much less often.'],
          items=[
-          ('Which paragraph explains why the lower reading is normally '
+          (
+           'Which paragraph explains why the lower reading is normally '
            'higher?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'A river collects water from the land as it travels.'),
-          ('Which paragraph gives the reason for the reversal in '
-           'July?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Water taken out by farms and a bottling plant.'),
-          ('Which paragraph distinguishes how much water from how '
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'A river collects water from the land as it travels.',
+           {0: 'Paragraph 1 introduces the two gauges and their '
+               'positions.', 2: 'Paragraph 3 explains the July reversal.', 3: 'Paragraph 4 says why a single reading tells you '
+               'little.'}),
+          (
+           'Which paragraph gives the reason for the reversal in July?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Water taken out by farms and a bottling plant.',
+           {0: 'Paragraph 2 explains the normal order of the two '
+               'readings.', 2: 'Paragraph 4 is about the limits of a single gauge.', 3: 'Paragraph 5 separates flow from quality.'}),
+          (
+           'Which paragraph distinguishes how much water from how '
            'clean it is?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 3,
-           'A river can run high and dirty or low and clean.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           3, 'A river can run high and dirty or low and clean.',
+           {0: 'Paragraph 2 is about where the water comes from.', 1: 'Paragraph 3 explains the abstraction licences.', 2: 'Paragraph 4 is about needing two gauges and a year.'}),
           ('The two measuring points are ____________ kilometres '
            'apart.', None, 'twelve',
            'Paragraph 1, Ashfield above Harbledown.'),
@@ -612,7 +637,8 @@ UNIT = dict(
            'So the share taken rises as the river falls.'),
           ('At three cubic metres a second, fish cannot get past the',
            ['weir', 'shallows', 'bridge', 'bend'], 1,
-           'Which is close to the summer reading.'),
+           'Which is close to the summer reading.',
+           {0: 'A weir is not mentioned in the conversation.', 2: 'No bridge is referred to as the obstacle.', 3: 'A bend in the river is not the problem named.'}),
           ('Two of the three licences come up for renewal in '
            '____________ years.', None, 'four',
            'Which is why the readings matter now.'),
@@ -805,17 +831,20 @@ UNIT = dict(
           'cannot control.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['A century of buying land', 'Why edges matter',
-            'Populations and accidents', 'The land in between'], 1,
-           'Wind, light, dryness and predators reaching inwards.'),
+           ['A century of buying land', 'Why edges matter', 'Populations and accidents', 'The land in between'],
+           1, 'Wind, light, dryness and predators reaching inwards.',
+           {0: 'A century of buying land is paragraph 1.', 2: 'Populations and accidents are paragraph 3.', 3: 'The land in between is paragraph 4.'}),
           ('Choose the best heading for paragraph 4.',
-           ['What a corridor does', 'Small populations',
-            'Islands and species', 'What reserves cannot do'], 0,
-           'A strip of ground connecting two reserves.'),
+           ['What a corridor does', 'Small populations', 'Islands and species', 'What reserves cannot do'],
+           0, 'A strip of ground connecting two reserves.',
+           {1: 'Small populations are paragraph 3.', 2: 'Islands and species are the end of paragraph 4, not '
+               'its subject.', 3: 'What reserves cannot do is paragraph 5.'}),
           ('Choose the best heading for paragraph 5.',
-           ['The case against reserves', 'What surrounds the reserve',
-            'How large is large enough', 'Building on land'], 1,
-           'The question is what surrounds it, not its size.'),
+           ['The case against reserves', 'What surrounds the reserve', 'How large is large enough', 'Building on land'],
+           1, 'The question is what surrounds it, not its size.',
+           {0: 'Paragraph 5 says the opposite: reserves remain '
+               'necessary.', 2: 'How large is large enough belongs to paragraph 3.', 3: 'Building on land is mentioned as what reserves '
+               'prevent.'}),
           ('The writer believes reserves should no longer be created.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 5 calls them the only reliable instrument '
@@ -887,9 +916,13 @@ UNIT = dict(
            'thirty-six', 'Before the reserve is even used.'),
           ('A long thin reserve may have no ____________ at all.',
            None, 'interior', 'Which is the point of the arithmetic.'),
-          ('Small populations, he says, die of accidents rather than '
-           'of', ['predators', 'trends', 'disease', 'hunting'], 1,
-           'A dry summer, a disease, a fire.'),
+          (
+           'Small populations, he says, die of accidents rather than '
+           'of',
+           ['predators', 'trends', 'disease', 'hunting'], 1,
+           'A dry summer, a disease, a fire.',
+           {0: 'Predators are one of the accidents rather than the '
+               'contrast.', 2: 'Disease is given as an example of an accident.', 3: 'Hunting is not mentioned in the lecture at all.'}),
           ('Joined by a corridor, two populations of forty behave like '
            'one of ____________.', None, 'eighty',
            'Which survives what forty does not.'),
@@ -1054,21 +1087,26 @@ UNIT = dict(
           'which is a reasonable summary of why it is not being done at the '
           'scale required.'],
          items=[
-          ('Which paragraph explains why fences cannot stop '
+          (
+           'Which paragraph explains why fences cannot stop '
            'fertiliser?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 2,
-           'Nitrogen from farming and vehicles falls everywhere.'),
-          ('Which paragraph describes conditions moving across the '
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           2, 'Nitrogen from farming and vehicles falls everywhere.',
+           {0: 'Paragraph 1 distinguishes threats that respect the '
+               'line.', 1: 'Paragraph 2 is about water taken outside the boundary.', 3: 'Paragraph 4 is about the climate moving.'}),
+          (
+           'Which paragraph describes conditions moving across the '
            'map?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'Two to five kilometres a year.'),
-          ('Which paragraph says the boundary problem was not a '
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'Two to five kilometres a year.',
+           {0: 'Paragraph 2 is about water and drainage.', 1: 'Paragraph 3 is about nitrogen in the air.', 3: 'Paragraph 5 explains why the boundary excludes the '
+               'cause.'}),
+          (
+           'Which paragraph says the boundary problem was not a '
            'mistake?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'It says this is what a boundary is for, not an error.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'It says this is what a boundary is for, not an error.',
+           {0: 'Paragraph 3 is about nitrogen.', 1: 'Paragraph 4 is about the climate moving.', 3: 'Paragraph 6 says what work matters most now.'}),
           (
            'The writer believes reserves are no longer worth creating.',
            ['Yes', 'No', 'Not Given'], 1,
@@ -1150,10 +1188,15 @@ UNIT = dict(
           ('She says twenty years is how long it took to change the '
            '____________ rules.', None, 'farming',
            'Which he calls her best argument.'),
-          ('They agree that neither profession works on the problem '
-           'of', ['water', 'nitrogen', 'funding', 'climate'], 1,
+          (
+           'They agree that neither profession works on the problem of',
+           ['water', 'nitrogen', 'funding', 'climate'], 1,
            'Which they say does more damage than what they argue '
-           'about.')])],
+           'about.',
+           {0: 'Water is exactly what the first speaker manages '
+               'around.', 2: 'Funding is what the second speaker admits drives his '
+               'work.', 3: 'Climate is not the problem they say neither profession '
+               'works on.'})])],
    speak=dict(
     part='Part 3', focus='Conservation and the people who live there',
     sounds=[('Speech comes in chunks of about four to seven words, and you '

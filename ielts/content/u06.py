@@ -63,15 +63,18 @@ UNIT = dict(
           'send a certificate of cover at least fourteen days before '
           'departure, or the booking is cancelled without refund.'],
          items=[
-          ('Which holiday has no rest day?',
-           ['A', 'B', 'C', 'D'], 2,
-           'Paragraph 3: the distances cannot be shortened.'),
+          ('Which holiday has no rest day?', ['A', 'B', 'C', 'D'], 2,
+           'Paragraph 3: the distances cannot be shortened.',
+           {0: 'A is five days and includes a rest day.', 1: 'B is seven days with two days above six hundred '
+               'metres.', 3: 'D is four days on level ground.'}),
           ('Which holiday requires previous experience?',
            ['A', 'B', 'C', 'D'], 1,
-           'Paragraph 2: a grade 3 holiday or equivalent.'),
+           'Paragraph 2: a grade 3 holiday or equivalent.',
+           {0: 'A is grade 2 and asks for nothing in advance.', 2: 'C is grade 3 and names no prerequisite.', 3: 'D is for walkers who have not walked regularly.'}),
           ('Which holiday suits a walker who has not walked before?',
            ['A', 'B', 'C', 'D'], 3,
-           'Paragraph 4, seven kilometres a day on level ground.'),
+           'Paragraph 4, seven kilometres a day on level ground.',
+           {0: 'A averages nine kilometres a day at grade 2.', 1: 'B requires a previous grade 3 holiday.', 2: 'C averages fourteen kilometres a day with no rest day.'}),
           ('The single-room supplement is £____________ a night.',
            None, '28', 'Paragraph 5, on every holiday.'),
           ('Dinner is included on all nights except the '
@@ -297,20 +300,25 @@ UNIT = dict(
           'difference between a visitor and a resident is about fifteen '
           'years, and I cannot defend treating them differently.'],
          items=[
-          ('Which resident defends tourism against a common '
-           'criticism?',
+          (
+           'Which resident defends tourism against a common criticism?',
            ['Perpetua', 'Lysander', 'Oyelaran', 'Thomasina'], 0,
-           'Seasonal work compared with farming.'),
+           'Seasonal work compared with farming.',
+           {1: 'Lysander raises the buses rather than defending the '
+               'industry.', 2: 'Oyelaran raises housing rather than defending tourism.', 3: 'Thomasina admits an inconsistency in her own position.'}),
           ('Which resident describes a service problem?',
            ['Perpetua', 'Lysander', 'Oyelaran', 'Thomasina'], 1,
-           'Buses full of visitors in August.'),
+           'Buses full of visitors in August.',
+           {0: 'Perpetua talks about the shape of her trade.', 2: 'Oyelaran talks about rents and lettings.', 3: 'Thomasina talks about her own arrival.'}),
           ('Which resident is concerned about housing?',
            ['Perpetua', 'Lysander', 'Oyelaran', 'Thomasina'], 2,
-           'Half the street let to visitors, rents rising on the '
-           'rest.'),
+           'Half the street let to visitors, rents rising on the rest.',
+           {0: 'Perpetua compares tourism with farming.', 1: 'Lysander describes the bus service.', 3: 'Thomasina compares visitors with residents.'}),
           ('Which resident admits to inconsistency?',
            ['Perpetua', 'Lysander', 'Oyelaran', 'Thomasina'], 3,
-           'She moved there herself and complains about crowds.'),
+           'She moved there herself and complains about crowds.',
+           {0: 'Perpetua defends her trade without conceding anything.', 1: 'Lysander makes a straightforward complaint.', 2: 'Oyelaran reports a situation rather than an '
+               'inconsistency.'}),
           (
            'Lysander says the council has refused to discuss the bus '
            'problem.', ['True', 'False', 'Not Given'], 2,
@@ -560,20 +568,22 @@ UNIT = dict(
           'thousand in July, and costs the town nothing except the '
           'advertising.'],
          items=[
-          ('Which paragraph explains why the shape matters more than '
+          (
+           'Which paragraph explains why the shape matters more than '
            'the total?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 4',
-            'Paragraph 5'], 2,
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 4', 'Paragraph 5'],
+           2,
            'Employment all year and borrowing against predictable '
-           'income.'),
+           'income.',
+           {0: 'Paragraph 1 gives the two totals.', 1: 'Paragraph 2 describes the sharp season.', 3: 'Paragraph 5 gives the aim of policy.'}),
           ('Which paragraph describes a town with no empty month?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Brantwell, between eighteen and thirty-eight thousand.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Brantwell, between eighteen and thirty-eight thousand.',
+           {0: 'Paragraph 2 is the coastal town with a sharp season.', 2: 'Paragraph 4 explains why the shape matters.', 3: 'Paragraph 5 is about moving visitors between months.'}),
           ('Which paragraph gives the aim of most tourism policy?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 3,
-           'Moving visitors from July to May.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           3, 'Moving visitors from July to May.',
+           {0: 'Paragraph 2 describes Carrowmoor.', 1: 'Paragraph 3 describes Brantwell.', 2: 'Paragraph 4 explains the business consequence.'}),
           ('Carrowmoor receives nearly half its visitors in '
            '____________ months.', None, 'two',
            'Paragraph 2, where July alone brings sixty-one '
@@ -631,9 +641,11 @@ UNIT = dict(
           ('Retraining staff each year costs about ____________ per '
            'cent of turnover.', None, 'nine',
            'According to figures the hotels supplied.'),
-          ('He wants more visitors in', ['August', 'May', 'January',
-            'October'], 1,
-           'Because the capacity already exists then.'),
+          ('He wants more visitors in',
+           ['August', 'May', 'January', 'October'], 1,
+           'Because the capacity already exists then.',
+           {0: 'August is already the peak he wants to relieve.', 2: 'January is the empty month and not his target.', 3: 'October is when the staff leave, not when he wants '
+               'arrivals.'}),
           ('Two towns have shifted about ____________ per cent of '
            'their season.', None, 'eight',
            'By advertising and by pricing.'),
@@ -825,18 +837,19 @@ UNIT = dict(
           'answers the other.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['Customers come to the factory',
-            'The benefits, understated', 'Housing and rents',
-            'Why the argument cannot be settled'], 1,
-           'One worker in ten, one in five in small towns.'),
+           ['Customers come to the factory', 'The benefits, understated', 'Housing and rents', 'Why the argument cannot be settled'],
+           1, 'One worker in ten, one in five in small towns.',
+           {0: 'Customers coming to the factory is paragraph 1.', 2: 'Housing and rents are paragraph 3.', 3: 'Why the argument cannot be settled is paragraph 5.'}),
           ('Choose the best heading for paragraph 3.',
-           ['The housing cost', 'Seasonal work',
-            'Jobs that need little training', 'Different people'], 0,
-           'Houses converted to visitor letting, and rents rising.'),
+           ['The housing cost', 'Seasonal work', 'Jobs that need little training', 'Different people'],
+           0, 'Houses converted to visitor letting, and rents rising.',
+           {1: 'Seasonal work is paragraph 4.', 2: 'Jobs needing little training is a point in paragraph '
+               '2.', 3: 'Different people is paragraph 5.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Two lists, different people', 'What critics understate',
-            'The cost of retraining', 'Where the jobs appear'], 0,
-           'The owner gains and the tenant loses on the same street.'),
+           ['Two lists, different people', 'What critics understate', 'The cost of retraining', 'Where the jobs appear'],
+           0,
+           'The owner gains and the tenant loses on the same street.',
+           {1: 'What critics understate is paragraph 2.', 2: 'The cost of retraining is paragraph 4.', 3: 'Where the jobs appear is paragraph 2.'}),
           ('Tourism employs about one in five workers worldwide.',
            ['True', 'False', 'Not Given'], 1,
            'Paragraph 2 says one in ten worldwide and one in five in '
@@ -913,9 +926,10 @@ UNIT = dict(
            'the sharpest towns.', None, 'tenth',
            'Because the workforce changes completely each year.'),
           ('The question that he says has no answer is',
-           ['which visitors', 'which months', 'is tourism good',
-            'what about housing'], 2,
-           'Unlike the three specific questions he lists.')])],
+           ['which visitors', 'which months', 'is tourism good', 'what about housing'],
+           2, 'Unlike the three specific questions he lists.',
+           {0: 'Which visitors is one of the three answerable '
+               'questions.', 1: 'Which months is also answerable, he says.', 3: 'Housing is the third question he says has an answer.'})])],
    speak=dict(
     part='Part 3', focus='Who gains from tourism',
     intro=('Four sentences. Say who gains and who pays.'),
@@ -1072,19 +1086,22 @@ UNIT = dict(
           'respond to rules rather than a conclusion about tourism, and it '
           'holds well beyond this subject.'],
          items=[
-          ('Which paragraph describes a measure that moved visitors to '
+          (
+           'Which paragraph describes a measure that moved visitors to '
            'another port?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 0,
-           'Cruise passengers landing forty kilometres away.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           0, 'Cruise passengers landing forty kilometres away.',
+           {1: 'Paragraph 3 is the entry fee on day visitors.', 2: 'Paragraph 4 is the cap on licensed beds.', 3: 'Paragraph 5 is the town that capped nothing.'}),
           ('Which paragraph describes enforcement against residents?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'Unlicensed beds after new licences were refused.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'Unlicensed beds after new licences were refused.',
+           {0: 'Paragraph 2 is the cruise cap.', 1: 'Paragraph 3 is the entry fee.', 3: 'Paragraph 5 is the parking and advertising town.'}),
           ('Which paragraph describes a town that capped nothing?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
-           'Parking prices, park-and-ride and advertising.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'Parking prices, park-and-ride and advertising.',
+           {0: 'Paragraph 3 charged an entry fee, which is a cap on '
+               'numbers.', 1: 'Paragraph 4 capped the number of licensed beds.', 3: 'Paragraph 6 draws the conclusion rather than '
+               'describing a town.'}),
           ('All four measures achieved what was intended.',
            ['True', 'False', 'Not Given'], 1,
            'Paragraph 3 says only one of the four did.',
@@ -1159,7 +1176,9 @@ UNIT = dict(
            'While explaining that caps do not work.'),
           ('He says the honest argument for caps is that they work',
            ['cheaply', 'immediately', 'locally', 'permanently'], 1,
-           'Rather than that they work well.'),
+           'Rather than that they work well.',
+           {0: 'Cheapness is not the argument he makes for caps.', 2: 'He concedes a cap moved the problem elsewhere, so not '
+               'locally.', 3: 'Permanence is the opposite of what he claims.'}),
           ('Measures that worked changed a ____________.', None,
            'price', 'While measures that failed forbade something.'),
           ('She says that pattern holds for all ____________ towns in '

@@ -81,18 +81,20 @@ UNIT = dict(
           'available at the application stage and was not sent.'],
          items=[
           ('An application describing a general shortage of money is',
-           ['assessed on its merits', 'refused at the first stage',
-            'referred elsewhere', 'put on a waiting list'], 1,
-           'Paragraph 1: the fund is not an income supplement.'),
+           ['assessed on its merits', 'refused at the first stage', 'referred elsewhere', 'put on a waiting list'],
+           1, 'Paragraph 1: the fund is not an income supplement.',
+           {0: 'Paragraph 1 says such applications are not assessed on '
+               'merit.', 2: 'No referral elsewhere is described in paragraph 1.', 3: 'No waiting list exists for refused applications.'}),
           ('The savings limit may be disregarded where savings are',
-           ['below £600', 'committed to a specific need',
-            'held jointly', 'recently received'], 1,
+           ['below \u00a3600', 'committed to a specific need', 'held jointly', 'recently received'],
+           1,
            'Paragraph 2, which gives an agreed tenancy deposit as the '
-           'example.'),
+           'example.',
+           {0: 'The limit is \u00a31,200, and no lower figure is given.', 2: 'Joint holding is not mentioned in paragraph 2.', 3: 'How recently savings arrived is not the test.'}),
           ('Awards are made in kind because an award in kind',
-           ['is cheaper', 'is not counted as income by other bodies',
-            'arrives faster', 'can be recovered'], 1,
-           'Paragraph 4, where a cash payment sometimes is counted.'),
+           ['is cheaper', 'is not counted as income by other bodies', 'arrives faster', 'can be recovered'],
+           1, 'Paragraph 4, where a cash payment sometimes is counted.',
+           {0: 'Cost is not the reason paragraph 4 gives.', 2: 'Speed is not the reason for an award in kind.', 3: 'Recovery of the award is not mentioned.'}),
           ('The normal savings limit is £____________.', None, '1,200',
            'Paragraph 2, qualified by the word "normally".'),
           ('Roughly ____________ of reviews succeed.', None, 'a quarter',
@@ -245,26 +247,32 @@ UNIT = dict(
            'produces a much larger one, and almost nothing in our system is '
            'built that way.')],
          items=[
-          ('A low-income child scoring in the top fifth at seven has what '
-           'chance of top-fifth earnings at thirty?',
-           ['One in two', 'One in three', 'One in five',
-            'One in ten'], 1,
+          (
+           'A low-income child scoring in the top fifth at seven has '
+           'what chance of top-fifth earnings at thirty?',
+           ['One in two', 'One in three', 'One in five', 'One in ten'],
+           1,
            'Against one in two for a high-income child scoring in the '
-           'bottom fifth.'),
-          ('The speaker rejects the reading that schools do not matter '
-           'because', ['schools are well funded', 'the comparison says '
-            'nothing about what schools contributed',
-            'the data is old', 'both children were tested'], 1,
-           'Both children attended schools.'),
-          ('The claim that early tests measure preparation rather than '
-           'capacity is', ['entirely right', 'partly right but smaller '
-            'than people want', 'entirely wrong', 'untested'], 1,
+           'bottom fifth.',
+           {0: 'One in two is the high-income child\u2019s chance.', 2: 'Lower than the figure she gives.', 3: 'Far below the chance she reports.'}),
+          (
+           'The speaker rejects the reading that schools do not matter '
+           'because',
+           ['schools are well funded', 'the comparison says nothing about what schools contributed', 'the data is old', 'both children were tested'],
+           1, 'Both children attended schools.',
+           {0: 'Funding is not part of her objection.', 2: 'She does not question the age of the data.', 3: 'Both were tested, which is why the comparison exists.'}),
+          (
+           'The claim that early tests measure preparation rather than '
+           'capacity is',
+           ['entirely right', 'partly right but smaller than people want', 'entirely wrong', 'untested'],
+           1,
            'The pattern survives with later tests and teacher '
-           'assessments.'),
+           'assessments.',
+           {0: 'She says it is much smaller than people want it to be.', 2: 'She says there is something in it.', 3: 'It has been tested with later measures.'}),
           ('The speaker says what a wealthy family buys is',
-           ['a better school', 'a sequence of recoveries',
-            'higher test scores', 'more tutoring'], 1,
-           'Perhaps eight such moments across twenty-three years.')])],
+           ['a better school', 'a sequence of recoveries', 'higher test scores', 'more tutoring'],
+           1, 'Perhaps eight such moments across twenty-three years.',
+           {0: 'A better school is not what she says is bought.', 2: 'Test scores are the measure, not what is purchased.', 3: 'Tutoring is one recovery among perhaps eight.'})])],
    speak=dict(
     part='Part 1', focus='Help people can get where you live',
     intro=('Two or three sentences each. A specific scheme beats a general '
@@ -413,19 +421,33 @@ UNIT = dict(
           'of the gap. Both of those are true and only one of them is in the '
           'annual report.'],
          items=[
-          ('Which person identifies unpaid work as the hidden difference?',
+          (
+           'Which person identifies unpaid work as the hidden '
+           'difference?',
            ['Perpetua', 'Dominic', 'Ingrid', 'Haruki'], 0,
-           'Nineteen hours a week, invisible in the fee account.'),
-          ('Which person describes an advantage they did not notice at the '
-           'time?', ['Perpetua', 'Dominic', 'Ingrid', 'Haruki'], 1,
-           'Somebody to ring when the first placement went badly.'),
+           'Nineteen hours a week, invisible in the fee account.',
+           {1: 'Dominic describes an advantage they did not notice at '
+               'the time.', 2: 'Ingrid criticises what the scheme measures.', 3: 'Haruki holds two apparently opposed views at once.'}),
+          (
+           'Which person describes an advantage they did not notice at '
+           'the time?',
+           ['Perpetua', 'Dominic', 'Ingrid', 'Haruki'], 1,
+           'Somebody to ring when the first placement went badly.',
+           {0: 'Perpetua identifies unpaid work as the hidden '
+               'difference.', 2: 'Ingrid criticises what the scheme measures.', 3: 'Haruki holds two apparently opposed views at once.'}),
           ('Which person criticises what the scheme measures?',
            ['Perpetua', 'Dominic', 'Ingrid', 'Haruki'], 2,
-           'Receipt and completion, but not what completion cost.'),
+           'Receipt and completion, but not what completion cost.',
+           {0: 'Perpetua identifies unpaid work as the hidden '
+               'difference.', 1: 'Dominic describes an advantage they did not notice at '
+               'the time.', 3: 'Haruki holds two apparently opposed views at once.'}),
           ('Which person holds two apparently opposed views at once?',
            ['Perpetua', 'Dominic', 'Ingrid', 'Haruki'], 3,
-           'Transformative against no scheme; a third of the gap against '
-           'wealth.'),
+           'Transformative against no scheme; a third of the gap '
+           'against wealth.',
+           {0: 'Perpetua identifies unpaid work as the hidden '
+               'difference.', 1: 'Dominic describes an advantage they did not notice at '
+               'the time.', 2: 'Ingrid criticises what the scheme measures.'}),
           ('Dominic believes the bursary was of no value.',
            ['Yes', 'No', 'Not Given'], 1,
            'He says what he had was not mainly money, which is not the '
@@ -489,31 +511,34 @@ UNIT = dict(
            'arrived.')],
          items=[
           ('Oriana proposes to give extra hours to',
-           ['the bottom set', 'the top set', 'both equally',
-            'students without tutors'], 1,
-           'Where four students are a grade off a university place.'),
+           ['the bottom set', 'the top set', 'both equally', 'students without tutors'],
+           1, 'Where four students are a grade off a university place.',
+           {0: 'The bottom set is what Bartolomeu argues for.', 2: 'An even split is where they end up, not her proposal.', 3: 'Tutoring is his objection, not her criterion.'}),
           ('Bartolomeu accepts that',
-           ['the return is higher', 'the students need the hours',
-            'grades do not matter', 'the bottom set cannot improve'], 0,
-           'While separating that from the claim that they need them.'),
+           ['the return is higher', 'the students need the hours', 'grades do not matter', 'the bottom set cannot improve'],
+           0,
+           'While separating that from the claim that they need them.',
+           {1: 'He argues that three of the four do not need them.', 2: 'He argues that grades matter differently outside '
+               'university entry.', 3: 'He argues the bottom set gains more than she assumes.'}),
           ('His first objection is that three of the four',
-           ['have already been tutored', 'are not able enough',
-            'have left', 'do not want the hours'], 0,
-           'So Oriana’s hours produce the grade for only one of them.'),
+           ['have already been tutored', 'are not able enough', 'have left', 'do not want the hours'],
+           0,
+           'So Oriana\u2019s hours produce the grade for only one of them.',
+           {1: 'Ability is not what he questions about the four.', 2: 'All four are still in the class.', 3: 'Their willingness is not what he raises.'}),
           ('He says Oriana is counting',
-           ['the wrong students', 'the outcome rather than her '
-            'contribution', 'the wrong subject', 'the hours wrongly'], 1,
-           'Which makes the calculated return too high.'),
+           ['the wrong students', 'the outcome rather than her contribution', 'the wrong subject', 'the hours wrongly'],
+           1, 'Which makes the calculated return too high.',
+           {0: 'Her choice of students is what he goes on to question.', 2: 'Subject choice is not what he says she miscounts.', 3: 'The number of hours is not in dispute.'}),
           ('His second objection concerns',
-           ['the cost of tutoring', 'what a four and a five mean outside '
-            'university entry', 'staff workload', 'the timetable'], 1,
+           ['the cost of tutoring', 'what a four and a five mean outside university entry', 'staff workload', 'the timetable'],
+           1,
            'A four and a five differ for apprenticeships and college '
-           'courses.'),
+           'courses.',
+           {0: 'Tutoring cost is not his second objection.', 2: 'Workload is not raised by either teacher.', 3: 'The timetable is not what he questions.'}),
           ('What do they agree to do?',
-           ['Keep the hours in the top set', 'Split the hours evenly and '
-            'track outcomes for three years', 'Ask the head',
-            'Stop the extra hours'], 1,
-           'Because neither of them actually knows.')])],
+           ['Keep the hours in the top set', 'Split the hours evenly and track outcomes for three years', 'Ask the head', 'Stop the extra hours'],
+           1, 'Because neither of them actually knows.',
+           {0: 'She gives up the exclusive claim to the hours.', 2: 'The head is not involved in their agreement.', 3: 'They keep the hours and divide them.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Opportunity',
     longturn=[('The opportunity I want to talk about was a funded place on a '
@@ -727,19 +752,28 @@ UNIT = dict(
           'finding. It is making an argument while appearing not to.'],
          items=[
           ('Which paragraph explains why the three measures diverge?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Each is sensitive to a different part of the distribution.'),
-          ('Which paragraph states the counter-intuitive property of the '
-           'relative poverty measure?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
+           'Each is sensitive to a different part of the distribution.',
+           {0: 'Paragraph 3 gives the three divergent figures.', 1: 'Paragraph 4 states that all three are correct.', 3: 'Paragraph 6 states the counter-intuitive property of '
+               'the relative poverty measure.'}),
+          (
+           'Which paragraph states the counter-intuitive property of '
+           'the relative poverty measure?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
            'It can improve while every household below the median gets '
-           'poorer.'),
-          ('Which paragraph says that choosing a measure is itself a '
-           'claim?', ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 2,
-           'A report quoting one measure alone is making an argument.'),
+           'poorer.',
+           {0: 'Paragraph 4 states that all three are correct.', 1: 'Paragraph 5 explains why the three measures diverge.', 3: 'Paragraph 7 says that choosing a measure is itself a '
+               'claim.'}),
+          (
+           'Which paragraph says that choosing a measure is itself a '
+           'claim?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           2,
+           'A report quoting one measure alone is making an argument.',
+           {0: 'Paragraph 5 explains why the three measures diverge.', 1: 'Paragraph 6 states the counter-intuitive property of '
+               'the relative poverty measure.', 3: 'Paragraph 4 states that all three are correct.'}),
           ('Aldoria’s top decile share in 2023: ____________ per cent',
            None, '34', 'Paragraph 2, up from 28 per cent in 2003.'),
           (
@@ -809,28 +843,35 @@ UNIT = dict(
            'write that down as well.')],
          items=[
           ('Over twenty years the decile ratio rose by',
-           ['six per cent', 'thirty-eight per cent', 'ninety-four per '
-            'cent', 'it fell'], 1,
-           'While the Gini rose by six and relative poverty fell by six.'),
+           ['six per cent', 'thirty-eight per cent', 'ninety-four per cent', 'it fell'],
+           1,
+           'While the Gini rose by six and relative poverty fell by '
+           'six.',
+           {0: 'Six per cent is the Gini rise.', 2: 'No figure of that size appears on the chart.', 3: 'Relative poverty is the measure that fell.'}),
           ('The Gini is dominated by',
-           ['the top end', 'the middle', 'the bottom end',
-            'the extremes'], 1,
-           'Which in this distribution barely moved.'),
+           ['the top end', 'the middle', 'the bottom end', 'the extremes'],
+           1, 'Which in this distribution barely moved.',
+           {0: 'The top end is what the decile ratio hears.', 2: 'The bottom end enters through the relative poverty '
+               'line.', 3: 'The extremes are what the decile ratio compares.'}),
           ('The relative poverty line is defined as a fraction of the',
            ['mean', 'median', 'top decile', 'minimum wage'], 1,
-           'Making it a measure of the shape below the middle.'),
+           'Making it a measure of the shape below the middle.',
+           {0: 'The mean is not what the line is based on.', 2: 'The top decile is the other end of the ratio.', 3: 'No wage floor is used in the definition.'}),
           ('Relative poverty can improve while',
-           ['the top gets richer', 'every household below the median gets '
-            'poorer', 'the population falls', 'prices rise'], 1,
-           'Provided the median falls faster than the bottom.'),
+           ['the top gets richer', 'every household below the median gets poorer', 'the population falls', 'prices rise'],
+           1, 'Provided the median falls faster than the bottom.',
+           {0: 'The top getting richer raises the decile ratio '
+               'instead.', 2: 'Population size does not enter the measure.', 3: 'Prices are handled by using real incomes.'}),
           ('When three measures disagree, the economist advises',
-           ['averaging them', 'asking which part of the distribution the '
-            'question is about', 'using the oldest', 'using the Gini'], 1,
-           'Averaging them he calls meaningless.'),
+           ['averaging them', 'asking which part of the distribution the question is about', 'using the oldest', 'using the Gini'],
+           1, 'Averaging them he calls meaningless.',
+           {0: 'He calls averaging them meaningless.', 2: 'Age of the measure is not his criterion.', 3: 'The Gini is dominated by the middle, which barely '
+               'moved.'}),
           ('Publishing one measure and not the others amounts to',
-           ['a reporting error', 'a substantive argument presented as a '
-            'fact', 'standard practice', 'a technical limitation'], 1,
-           'Which is why he asks for all three as a matter of routine.')])],
+           ['a reporting error', 'a substantive argument presented as a fact', 'standard practice', 'a technical limitation'],
+           1,
+           'Which is why he asks for all three as a matter of routine.',
+           {0: 'All three figures are correctly computed.', 2: 'He is arguing against the practice, not describing it.', 3: 'No technical limitation prevents publishing all three.'})])],
    speak=dict(
     part='Part 3', focus='What a measure captures',
     intro=('Five or six sentences. Try once to say that a statistic can '
@@ -1063,22 +1104,25 @@ UNIT = dict(
           'most plausible explanation of why so few do.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['What the elasticity measures', 'Persistence over four '
-            'generations', 'Why the two findings differ',
-            'What the data supports'], 1,
+           ['What the elasticity measures', 'Persistence over four generations', 'Why the two findings differ', 'What the data supports'],
+           1,
            'Surnames over-represented today after revolutions in '
-           'between.'),
+           'between.',
+           {0: 'What the elasticity measures is paragraph 1.', 2: 'Why the two findings differ is the heading for '
+               'paragraph 4.', 3: 'What the data supports is paragraph 8.'}),
           ('Choose the best heading for paragraph 4.',
-           ['Persistence over four generations',
-            'Why the two findings differ', 'The underlying quantity',
-            'Two hasty policy readings'], 1,
+           ['Persistence over four generations', 'Why the two findings differ', 'The underlying quantity', 'Two hasty policy readings'],
+           1,
            'Single-year income is noisy, and noise attenuates a '
-           'correlation.'),
+           'correlation.',
+           {0: 'Persistence over four generations is the heading for '
+               'paragraph 3.', 2: 'The underlying quantity is paragraph 5.', 3: 'The two hasty readings are paragraphs 6 and 7.'}),
           ('Choose the best heading for paragraph 9.',
-           ['What the data supports', 'Two hasty policy readings',
-            'Why results take decades', 'The underlying quantity'], 2,
+           ['What the data supports', 'Two hasty policy readings', 'Why results take decades', 'The underlying quantity'],
+           2,
            'Thirty to fifty years, with results attributed to a '
-           'successor.'),
+           'successor.',
+           {0: 'What the data supports is paragraph 8.', 1: 'The two hasty readings are paragraphs 6 and 7.', 3: 'The underlying quantity is paragraph 5.'}),
           (
            'The writer believes high persistence shows intervention is '
            'futile.', ['Yes', 'No', 'Not Given'], 1,
@@ -1161,32 +1205,44 @@ UNIT = dict(
            'experiments, and anybody who tells you this literature '
            'establishes causation has not read its methods sections.')],
          items=[
-          ('The intergenerational elasticity across developed countries '
-           'runs between', ['0.1 and 0.3', '0.2 and 0.6', '0.5 and 0.9',
-            '0.8 and 1.0'], 1,
-           'A wide range that complicates every policy argument built on '
-           'it.'),
+          (
+           'The intergenerational elasticity across developed '
+           'countries runs between',
+           ['0.1 and 0.3', '0.2 and 0.6', '0.5 and 0.9', '0.8 and 1.0'],
+           1,
+           'A wide range that complicates every policy argument built '
+           'on it.',
+           {0: 'Narrower than the range he reports.', 2: 'Higher than the range across developed countries.', 3: 'Near-complete transmission, far above his figures.'}),
           ('The long-run surname evidence shows correlations that',
-           ['fall to zero quickly', 'decline far more slowly than '
-            'predicted', 'rise over time', 'cannot be measured'], 1,
-           'In some populations not reaching zero at all.'),
+           ['fall to zero quickly', 'decline far more slowly than predicted', 'rise over time', 'cannot be measured'],
+           1, 'In some populations not reaching zero at all.',
+           {0: 'Rapid decay is what the single-generation figure '
+               'predicted.', 2: 'He reports slow decline, not a rise.', 3: 'The surname studies measure it successfully.'}),
           ('The contradiction is resolved by',
-           ['better data collection', 'measurement error in single-year '
-            'income', 'different definitions', 'changes in tax law'], 1,
-           'Noise pushes a measured correlation towards zero.'),
-          ('Which does the lecturer include in the underlying quantity?',
-           ['Only inherited wealth', 'Wealth, networks, school knowledge, '
-            'early expectations and partner selection',
-            'Schooling alone', 'Nothing measurable'], 1,
-           'Whose proportions are argued about and whose total is not.'),
-          ('He rejects "copy Denmark" because part of the Danish result '
-           'comes from', ['its schools', 'a compressed wage distribution',
-            'its population size', 'its tax rates'], 1,
-           'Which is not an education policy.'),
-          ('The policies he defends take how long to show in the '
-           'statistic?', ['Five to ten years', 'Thirty to fifty years',
-            'A century', 'One generation'], 1,
-           'Because the outcome being measured is an adult income.')])],
+           ['better data collection', 'measurement error in single-year income', 'different definitions', 'changes in tax law'],
+           1, 'Noise pushes a measured correlation towards zero.',
+           {0: 'Better collection is not the resolution he gives.', 2: 'Definitions are the same in both kinds of study.', 3: 'Tax law is not part of the explanation.'}),
+          (
+           'Which does the lecturer include in the underlying '
+           'quantity?',
+           ['Only inherited wealth', 'Wealth, networks, school knowledge, early expectations and partner selection', 'Schooling alone', 'Nothing measurable'],
+           1,
+           'Whose proportions are argued about and whose total is not.',
+           {0: 'Wealth is one of several components he lists.', 2: 'Schooling knowledge is one component among several.', 3: 'He says the total is not in dispute.'}),
+          (
+           'He rejects "copy Denmark" because part of the Danish '
+           'result comes from',
+           ['its schools', 'a compressed wage distribution', 'its population size', 'its tax rates'],
+           1, 'Which is not an education policy.',
+           {0: 'Schools are part of it, but not the part he singles '
+               'out.', 2: 'Population size is not part of his explanation.', 3: 'Tax rates are not what he names.'}),
+          (
+           'The policies he defends take how long to show in the '
+           'statistic?',
+           ['Five to ten years', 'Thirty to fifty years', 'A century', 'One generation'],
+           1, 'Because the outcome being measured is an adult income.',
+           {0: 'Faster than the period he gives.', 2: 'Longer than the thirty to fifty years he names.', 3: 'A generation is the mechanism, not the figure he '
+               'gives.'})])],
    speak=dict(
     part='Part 3', focus='Getting on and where you started',
     followup=[(('You say background matters more than people admit. Can '
@@ -1412,19 +1468,25 @@ UNIT = dict(
           'the room.'],
          items=[
           ('Which paragraph defines relative mobility?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 2,
-           'Whether rank is independent of parents’ rank, which is '
-           'zero-sum.'),
-          ('Which paragraph explains why both sides of the public argument '
-           'are right?', ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
-           'One cites the relative figure and one the absolute.'),
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           2,
+           'Whether rank is independent of parents\u2019 rank, which is '
+           'zero-sum.',
+           {0: 'Paragraph 1 states that the two are routinely '
+               'confused.', 1: 'Paragraph 2 defines absolute mobility.', 3: 'Paragraph 4 reports the divergence between them.'}),
+          (
+           'Which paragraph explains why both sides of the public '
+           'argument are right?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1, 'One cites the relative figure and one the absolute.',
+           {0: 'Paragraph 5 describes the political experience of the '
+               'period.', 2: 'Paragraph 7 is about the zero-sum property.', 3: 'Paragraph 8 explains why absolute mobility is easier.'}),
           ('Which paragraph discusses positional goods?',
-           ['Paragraph 8', 'Paragraph 9', 'Paragraph 10',
-            'Paragraph 7'], 2,
-           'Places that cannot be expanded without ceasing to be what was '
-           'wanted.'),
+           ['Paragraph 8', 'Paragraph 9', 'Paragraph 10', 'Paragraph 7'],
+           2,
+           'Places that cannot be expanded without ceasing to be what '
+           'was wanted.',
+           {0: 'Paragraph 8 explains why absolute mobility is easier.', 1: 'Paragraph 9 says the two should be pursued separately.', 3: 'Paragraph 7 is about the zero-sum property.'}),
           ('The writer believes relative mobility fell after 1980.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 4 reports it as broadly flat over the period.',
@@ -1505,32 +1567,41 @@ UNIT = dict(
            'argument for precisely the policies my side already wanted, '
            'which should make us both slightly suspicious of it.')],
          items=[
-          ('Villanueva-Bright concedes that the relative figure has been',
-           ['falling', 'flat for forty years', 'rising', 'unmeasurable'], 1,
-           'Which she says colleagues avoid stating in public.'),
+          (
+           'Villanueva-Bright concedes that the relative figure has '
+           'been',
+           ['falling', 'flat for forty years', 'rising', 'unmeasurable'],
+           1, 'Which she says colleagues avoid stating in public.',
+           {0: 'She concedes it has not fallen, which is her point.', 2: 'She reports no rise either.', 3: 'The figure is measured, which is why she can concede '
+               'it.'}),
           ('Nakagawa-Oduya concedes that the absolute collapse',
-           ['was deliberate', 'is not an injustice anybody committed',
-            'is exaggerated', 'has been reversed'], 1,
-           'Growth slowed and more of it went to the top.'),
+           ['was deliberate', 'is not an injustice anybody committed', 'is exaggerated', 'has been reversed'],
+           1, 'Growth slowed and more of it went to the top.',
+           {0: 'He says nobody did it to anybody.', 2: 'He stands by the size of the fall.', 3: 'He reports no reversal of the fall.'}),
           ('They agree that the two figures should be',
-           ['averaged', 'published separately and never averaged',
-            'replaced by one measure', 'withheld'], 1,
-           'And both object to a single mobility target.'),
-          ('Why does Villanueva-Bright say relative mobility is hard to '
-           'campaign for?', ['It is expensive', 'Success means an '
-            'identifiable child moves down', 'It cannot be measured',
-            'Voters do not care'], 1,
-           'Not a statistical abstraction, in a house she could drive to.'),
-          ('Her objection to absolute mobility as the easy goal concerns',
-           ['its cost', 'goods that cannot be expanded',
-            'its measurement', 'its timescale'], 1,
+           ['averaged', 'published separately and never averaged', 'replaced by one measure', 'withheld'],
+           1, 'And both object to a single mobility target.',
+           {0: 'They agree averaging them is wrong.', 2: 'A single measure is what they both object to.', 3: 'Both want the figures published.'}),
+          (
+           'Why does Villanueva-Bright say relative mobility is hard '
+           'to campaign for?',
+           ['It is expensive', 'Success means an identifiable child moves down', 'It cannot be measured', 'Voters do not care'],
+           1,
+           'Not a statistical abstraction, in a house she could drive '
+           'to.',
+           {0: 'Cost is not her explanation.', 2: 'She measures it herself, so it can be measured.', 3: 'Voter indifference is not what she claims.'}),
+          (
+           'Her objection to absolute mobility as the easy goal '
+           'concerns',
+           ['its cost', 'goods that cannot be expanded', 'its measurement', 'its timescale'],
+           1,
            'A selective university cannot add places and stay '
-           'selective.'),
+           'selective.',
+           {0: 'Cost is not her objection to it.', 2: 'Measurement is not her objection here.', 3: 'Timescale is his point about results, not hers.'}),
           ('How does Nakagawa-Oduya respond to that objection?',
-           ['He disputes it', 'He says he has no answer and wants that '
-            'recorded', 'He changes the subject', 'He accepts it '
-            'partially'], 1,
-           'Which is where the exchange ends.')])],
+           ['He disputes it', 'He says he has no answer and wants that recorded', 'He changes the subject', 'He accepts it partially'],
+           1, 'Which is where the exchange ends.',
+           {0: 'He accepts the objection rather than disputing it.', 2: 'He answers it directly before she adds more.', 3: 'He says he has no answer at all.'})])],
    speak=dict(
     part='Part 3', focus='Fairness and the shape of a society',
     sounds=[('Abstract nouns of this unit are long and have one strong '

@@ -68,17 +68,21 @@ UNIT = dict(
           'source.'],
          items=[
           ('The duty holder is',
-           ['your line manager', 'the person in control of the premises',
-            'the regulator', 'the building owner’s insurer'], 1,
-           'Paragraph 1, which notes this is often not the employer.'),
+           ['your line manager', 'the person in control of the premises', 'the regulator', 'the building owner\u2019s insurer'],
+           1,
+           'Paragraph 1, which notes this is often not the employer.',
+           {0: 'Paragraph 1 says it is almost never the person who '
+               'manages you.', 2: 'The regulator receives reports; it is not the duty '
+               'holder.', 3: 'No insurer is mentioned in the guidance.'}),
           ('Immediate risk is defined by',
-           ['severity', 'time', 'the number of people affected',
-            'the duty holder'], 1,
-           'Paragraph 2: somebody could be seriously injured today.'),
+           ['severity', 'time', 'the number of people affected', 'the duty holder'],
+           1, 'Paragraph 2: somebody could be seriously injured today.',
+           {0: 'Paragraph 2 says it is defined by time rather than '
+               'severity.', 2: 'The number affected is not part of the definition.', 3: 'The duty holder is told, but does not define the risk.'}),
           ('The commonest reason for no action is that the risk',
-           ['is not real', 'belongs to a different body', 'is too small',
-            'was reported late'], 1,
-           'Paragraph 4, after which the report is forwarded.'),
+           ['is not real', 'belongs to a different body', 'is too small', 'was reported late'],
+           1, 'Paragraph 4, after which the report is forwarded.',
+           {0: 'A real risk is assumed; the issue is whose it is.', 2: 'Size of the risk is not the reason given.', 3: 'Lateness is not among the reasons for no action.'}),
           ('Normal waiting time for a reply from the duty holder: '
            '____________ days', None, 'twenty-one',
            'Paragraph 2, unless the risk is immediate.'),
@@ -117,24 +121,26 @@ UNIT = dict(
           'people to discover it.'],
          items=[
           ('Which of these would the regulator investigate?',
-           ['A dispute about rotas', 'Equipment that failed in service',
-            'Bullying by a manager with no health risk',
-            'A disagreement about duties'], 1,
-           'Paragraph 3 lists this among the priority categories.'),
+           ['A dispute about rotas', 'Equipment that failed in service', 'Bullying by a manager with no health risk', 'A disagreement about duties'],
+           1, 'Paragraph 3 lists this among the priority categories.',
+           {0: 'Paragraph 2 sends rota disputes to a different body.', 2: 'Paragraph 2 excludes bullying with no health risk.', 3: 'Paragraph 2 excludes disagreements about duties.'}),
           ('A breach already put right is normally',
-           ['investigated as a priority', 'recorded without investigation',
-            'forwarded elsewhere', 'closed without record'], 1,
+           ['investigated as a priority', 'recorded without investigation', 'forwarded elsewhere', 'closed without record'],
+           1,
            'Paragraph 1, which surprises people who wait until they '
-           'leave.'),
+           'leave.',
+           {0: 'Priority goes to the three categories in paragraph 3.', 2: 'Forwarding happens where the risk belongs elsewhere.', 3: 'The breach is recorded, not closed without trace.'}),
           ('At the assessment stage, repetition is weighted',
-           ['less heavily than severity', 'more heavily than severity',
-            'equally with severity', 'not at all'], 1,
-           'Paragraph 3: repetition is evidence about a system.'),
-          ('The guidance admits a practical tension between confidentiality '
-           'and', ['speed', 'telling the duty holder', 'cost',
-            'anonymity'], 1,
+           ['less heavily than severity', 'more heavily than severity', 'equally with severity', 'not at all'],
+           1, 'Paragraph 3: repetition is evidence about a system.',
+           {0: 'Paragraph 3 reverses this at the assessment stage.', 2: 'The two are not weighted equally.', 3: 'Repetition is one of the three priority grounds.'}),
+          (
+           'The guidance admits a practical tension between '
+           'confidentiality and',
+           ['speed', 'telling the duty holder', 'cost', 'anonymity'], 1,
            'Paragraph 4, which says so rather than letting people find '
-           'out.')])],
+           'out.',
+           {0: 'Speed is not what the tension is between.', 2: 'Cost is not mentioned in paragraph 4.', 3: 'Anonymity is the confidentiality side of the tension.'})])],
    listen=[
     dict(heading='Reporting a hazard to the regulator', part='Part 1',
          task='A call to a safety regulator', band='l1',
@@ -237,27 +243,30 @@ UNIT = dict(
            'not understand the objection, and every evaluation I have run '
            'shows that message performing worse than saying nothing.')],
          items=[
-          ('The speaker says the "bad at numbers" explanation fails '
+          (
+           'The speaker says the "bad at numbers" explanation fails '
            'because the pattern',
-           ['disappears with training', 'survives when people are given the '
-            'numbers and time', 'is found only in surveys',
-            'is a recent development'], 1,
+           ['disappears with training', 'survives when people are given the numbers and time', 'is found only in surveys', 'is a recent development'],
+           1,
            'It also appears among people who work with numbers '
-           'professionally.'),
-          ('A chosen risk is tolerated at how many times the level of an '
-           'imposed one?',
-           ['Five to ten', 'Fifty to a hundred', 'Five hundred to a '
-            'thousand', 'Ten thousand'], 2,
-           'Which the speaker calls defensible rather than innumerate.'),
+           'professionally.',
+           {0: 'He says training does not remove it.', 2: 'He says it appears among numerate professionals too.', 3: 'Nothing suggests the pattern is recent.'}),
+          (
+           'A chosen risk is tolerated at how many times the level of '
+           'an imposed one?',
+           ['Five to ten', 'Fifty to a hundred', 'Five hundred to a thousand', 'Ten thousand'],
+           2,
+           'Which the speaker calls defensible rather than innumerate.',
+           {0: 'Far smaller than the ratio he reports.', 1: 'Still an order below the figure he gives.', 3: 'Higher than the range he names.'}),
           ('Which three properties does a chosen risk have?',
-           ['Cheapness, speed, visibility',
-            'Control, benefit, prior knowledge',
-            'Novelty, dread, familiarity', 'Consent, cost, scale'], 1,
-           'None of which an imposed risk has.'),
+           ['Cheapness, speed, visibility', 'Control, benefit, prior knowledge', 'Novelty, dread, familiarity', 'Consent, cost, scale'],
+           1, 'None of which an imposed risk has.',
+           {0: 'These are not the properties he lists.', 2: 'Dread and familiarity are the two smaller factors.', 3: 'Consent is the heading, not one of the three '
+               'properties.'}),
           ('Comparing an imposed risk to a chosen one performs',
-           ['better than saying nothing', 'worse than saying nothing',
-            'about the same', 'well with experts only'], 1,
-           'In every evaluation the speaker has run.')])],
+           ['better than saying nothing', 'worse than saying nothing', 'about the same', 'well with experts only'],
+           1, 'In every evaluation the speaker has run.',
+           {0: 'He says it performs worse than saying nothing.', 2: 'He reports a clear difference, not parity.', 3: 'He does not report an expert exception.'})])],
    speak=dict(
     part='Part 1', focus='Safety where you work or study',
     intro=('Two or three sentences each. Concrete detail from your own '
@@ -409,20 +418,41 @@ UNIT = dict(
           'accepted and a risk done to them as the same object, and after '
           'four years I stopped thinking they were wrong about that.'],
          items=[
-          ('Which person accepts that their own activity is more dangerous '
-           'than what they campaign about?',
+          (
+           'Which person accepts that their own activity is more '
+           'dangerous than what they campaign about?',
            ['Severin', 'Lucinde', 'Bartholomew', 'Ngozi'], 0,
-           'And argues the difference is consent rather than magnitude.'),
-          ('Which person notices using reasoning they reject in others?',
+           'And argues the difference is consent rather than '
+           'magnitude.',
+           {1: 'Lucinde notices using reasoning they reject in others.', 2: 'Bartholomew objects to a risk being outside the '
+               'applicable rules.', 3: 'Ngozi changed their professional view after running a '
+               'study.'}),
+          (
+           'Which person notices using reasoning they reject in '
+           'others?',
            ['Severin', 'Lucinde', 'Bartholomew', 'Ngozi'], 1,
-           'About who carries the consequences of a risk.'),
-          ('Which person objects to a risk being outside the applicable '
-           'rules?', ['Severin', 'Lucinde', 'Bartholomew', 'Ngozi'], 2,
-           'The helicopter journey, which no regulation covers.'),
-          ('Which person changed their professional view after running a '
-           'study?', ['Severin', 'Lucinde', 'Bartholomew', 'Ngozi'], 3,
-           'Which showed people produce the same ranking given numbers and '
-           'time.'),
+           'About who carries the consequences of a risk.',
+           {0: 'Severin accepts that their own activity is more '
+               'dangerous than what they campaign about.', 2: 'Bartholomew objects to a risk being outside the '
+               'applicable rules.', 3: 'Ngozi changed their professional view after running a '
+               'study.'}),
+          (
+           'Which person objects to a risk being outside the '
+           'applicable rules?',
+           ['Severin', 'Lucinde', 'Bartholomew', 'Ngozi'], 2,
+           'The helicopter journey, which no regulation covers.',
+           {0: 'Severin accepts that their own activity is more '
+               'dangerous than what they campaign about.', 1: 'Lucinde notices using reasoning they reject in others.', 3: 'Ngozi changed their professional view after running a '
+               'study.'}),
+          (
+           'Which person changed their professional view after running '
+           'a study?',
+           ['Severin', 'Lucinde', 'Bartholomew', 'Ngozi'], 3,
+           'Which showed people produce the same ranking given numbers '
+           'and time.',
+           {0: 'Severin accepts that their own activity is more '
+               'dangerous than what they campaign about.', 1: 'Lucinde notices using reasoning they reject in others.', 2: 'Bartholomew objects to a risk being outside the '
+               'applicable rules.'}),
           (
            'Lucinde believes the risk of motorcycling fell after her '
            'daughter was born.', ['Yes', 'No', 'Not Given'],
@@ -486,30 +516,39 @@ UNIT = dict(
            'years what we knew.')],
          items=[
           ('Marisol proposes a control costing the sector',
-           ['two million a year', 'eleven million a year',
-            'nine million a year', 'nothing'], 1,
-           'Against two deaths in nine years across four hundred sites.'),
+           ['two million a year', 'eleven million a year', 'nine million a year', 'nothing'],
+           1,
+           'Against two deaths in nine years across four hundred '
+           'sites.',
+           {0: 'Lower than the figure he puts to her.', 2: 'Nine is the number of lives, not the millions.', 3: 'She proposes a control with a real cost.'}),
           ('Her argument rests on the risk being',
-           ['large', 'imposed rather than chosen', 'newly discovered',
-            'poorly measured'], 1,
-           'Nobody in those buildings chose the exposure or is paid for '
-           'it.'),
-          ('Yannick’s objection is that the same money would',
-           ['be wasted', 'buy about nine lives a year elsewhere',
-            'close the sites', 'be refused by the board'], 1,
-           'So the choice is not between the control and nothing.'),
+           ['large', 'imposed rather than chosen', 'newly discovered', 'poorly measured'],
+           1,
+           'Nobody in those buildings chose the exposure or is paid '
+           'for it.',
+           {0: 'Two deaths in nine years is the arithmetic against '
+               'her.', 2: 'Novelty of the risk is not her argument.', 3: 'She accepts the measurement without question.'}),
+          ('Yannick\u2019s objection is that the same money would',
+           ['be wasted', 'buy about nine lives a year elsewhere', 'close the sites', 'be refused by the board'],
+           1, 'So the choice is not between the control and nothing.',
+           {0: 'He says it would buy nine lives, not be wasted.', 2: 'Closing the sites is not what he suggests.', 3: 'The board is who she expects to fight, not his '
+               'objection.'}),
           ('Marisol answers that the money would actually go',
-           ['to a safety programme', 'back to the operators',
-            'to the regulator', 'to insurance'], 1,
-           'Making the counterfactual a dividend rather than nine lives.'),
+           ['to a safety programme', 'back to the operators', 'to the regulator', 'to insurance'],
+           1,
+           'Making the counterfactual a dividend rather than nine '
+           'lives.',
+           {0: 'A safety programme is the ideal counterfactual, not '
+               'the real one.', 2: 'The regulator does not receive the money.', 3: 'Insurance is not mentioned in the exchange.'}),
           ('Yannick calls that',
-           ['irrelevant', 'a fair hit that does not dispose of the point',
-            'decisive', 'outside their powers'], 1,
-           'And an argument for insisting on better use of the money.'),
+           ['irrelevant', 'a fair hit that does not dispose of the point', 'decisive', 'outside their powers'],
+           1,
+           'And an argument for insisting on better use of the money.',
+           {0: 'He treats her point as relevant and partial.', 2: 'He says it does not dispose of his point.', 3: 'Their powers come up later, over the condition.'}),
           ('What do they agree to propose?',
-           ['Dropping the control', 'A three-year phasing conditional on '
-            'the programme', 'An immediate ban', 'A further study'], 1,
-           'With the trade-off written into the paper.')])],
+           ['Dropping the control', 'A three-year phasing conditional on the programme', 'An immediate ban', 'A further study'],
+           1, 'With the trade-off written into the paper.',
+           {0: 'She keeps the control, with conditions.', 2: 'No ban is proposed by either regulator.', 3: 'No further study is suggested.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Risk',
     longturn=[('The risk I want to describe is leaving a permanent job to join '
@@ -722,21 +761,28 @@ UNIT = dict(
           'different questions, and a chart showing one of them without '
           'saying which is not a neutral presentation of the data.'],
          items=[
-          ('Which paragraph explains why the second series shows no trend?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
+          (
+           'Which paragraph explains why the second series shows no '
+           'trend?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
            'A redefined threshold rises with the rainfall, by '
-           'construction.'),
+           'construction.',
+           {0: 'Paragraph 2 describes the fixed-threshold series.', 1: 'Paragraph 3 describes the recalculated series.', 3: 'Paragraph 5 concerns engineering design standards.'}),
           ('Which paragraph concerns engineering design standards?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
            'Where an updated record moves the standard while the label '
-           'stays.'),
-          ('Which paragraph argues against the fixed baseline as well?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 2,
+           'stays.',
+           {0: 'Paragraph 3 describes the recalculated series.', 1: 'Paragraph 4 explains why the second series shows no '
+               'trend.', 3: 'Paragraph 6 examines the phrase itself.'}),
+          (
+           'Which paragraph argues against the fixed baseline as well?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           2,
            'A 1961 threshold says less each year about what is unusual '
-           'now.'),
+           'now.',
+           {0: 'Paragraph 5 is about engineering standards.', 1: 'Paragraph 6 examines the phrase itself.', 3: 'Paragraph 4 explains the moving baseline.'}),
           ('Events against the fixed threshold rose from nine to '
            '____________ per decade.', None, 'twenty-seven',
            'Paragraph 2, with the whole of the rise after 1990.'),
@@ -808,31 +854,38 @@ UNIT = dict(
            'writing the period you computed it over next to the number, '
            'every time, for the rest of your career.')],
          items=[
-          ('Against the fixed threshold, events per decade rose from nine '
-           'to', ['eleven', 'nineteen', 'twenty-seven', 'thirty'], 2,
-           'While the recalculated series stayed at ten or eleven.'),
-          ('The engineer’s athletics comparison illustrates that',
-           ['records always improve', 'a moving baseline cannot show a '
-            'trend', 'measurement is subjective', 'averages mislead'], 1,
+          (
+           'Against the fixed threshold, events per decade rose from '
+           'nine to',
+           ['eleven', 'nineteen', 'twenty-seven', 'thirty'], 2,
+           'While the recalculated series stayed at ten or eleven.',
+           {0: 'Eleven is the recalculated series, not the fixed one.', 1: 'No figure of that size appears in the record.', 3: 'Higher than the count he reports for the 2010s.'}),
+          ('The engineer\u2019s athletics comparison illustrates that',
+           ['records always improve', 'a moving baseline cannot show a trend', 'measurement is subjective', 'averages mislead'],
+           1,
            'Raise the bar as the jumpers improve and no improvement is '
-           'reported.'),
-          ('Two structures on one river to the same stated standard '
-           'differed by', ['two per cent', 'eleven per cent',
-            'twenty per cent', 'no measurable amount'], 1,
-           'Because the underlying record had been updated between them.'),
+           'reported.',
+           {0: 'He does not claim records always improve.', 2: 'He insists nothing has been manipulated.', 3: 'Averages are not what the comparison is about.'}),
+          (
+           'Two structures on one river to the same stated standard '
+           'differed by',
+           ['two per cent', 'eleven per cent', 'twenty per cent', 'no measurable amount'],
+           1,
+           'Because the underlying record had been updated between '
+           'them.',
+           {0: 'Smaller than the difference he reports.', 2: 'Larger than the figure he gives.', 3: 'He gives a definite difference between the two.'}),
           ('Stationarity is the assumption that',
-           ['measurements are accurate', 'the distribution generating '
-            'events is not changing', 'events are independent',
-            'records are complete'], 1,
-           'Where it fails, the return period is undefined.'),
+           ['measurements are accurate', 'the distribution generating events is not changing', 'events are independent', 'records are complete'],
+           1, 'Where it fails, the return period is undefined.',
+           {0: 'Accuracy is not what stationarity assumes.', 2: 'Independence is a separate assumption.', 3: 'Completeness of the record is a different matter.'}),
           ('Where the assumption fails, the return period is',
            ['inaccurate', 'undefined', 'too high', 'too low'], 1,
-           'Which cannot be fixed by measuring more carefully.'),
+           'Which cannot be fixed by measuring more carefully.',
+           {0: 'He distinguishes undefined from inaccurate.', 2: 'Undefined is not the same as overstated.', 3: 'Undefined is not the same as understated either.'}),
           ('Which recommendation does the engineer most argue for?',
-           ['Stating the computation period', 'Designing to a range',
-            'Not reporting return periods to the public',
-            'Updating records annually'], 2,
-           'Because the phrase is heard as "not in my lifetime".')])],
+           ['Stating the computation period', 'Designing to a range', 'Not reporting return periods to the public', 'Updating records annually'],
+           2, 'Because the phrase is heard as "not in my lifetime".',
+           {0: 'Stating the period is his first recommendation.', 1: 'Designing to a range is his second.', 3: 'He does not recommend annual updating.'})])],
    speak=dict(
     part='Part 3', focus='Planning for things that rarely happen',
     intro=('Five or six sentences. Try once to say that a measure answers a '
@@ -1079,21 +1132,24 @@ UNIT = dict(
           'change.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['What a prescriptive rule is', 'Obsolescence and lawful '
-            'evasion', 'What a principle-based rule is',
-            'Unenforceability at the margin'], 1,
+           ['What a prescriptive rule is', 'Obsolescence and lawful evasion', 'What a principle-based rule is', 'Unenforceability at the margin'],
+           1,
            'A rule precise enough to enforce is specific enough to go '
-           'round.'),
+           'round.',
+           {0: 'What a prescriptive rule is, is paragraph 2.', 2: 'What a principle-based rule is, is paragraph 4.', 3: 'Unenforceability at the margin is the heading for '
+               'paragraph 5.'}),
           ('Choose the best heading for paragraph 5.',
-           ['What a principle-based rule is',
-            'Unenforceability at the margin', 'The staffing asymmetry',
-            'The hybrid regime'], 1,
-           'Enforced against small firms and negotiated with large ones.'),
+           ['What a principle-based rule is', 'Unenforceability at the margin', 'The staffing asymmetry', 'The hybrid regime'],
+           1,
+           'Enforced against small firms and negotiated with large '
+           'ones.',
+           {0: 'What a principle-based rule is, is paragraph 4.', 2: 'The staffing asymmetry is paragraph 6.', 3: 'The hybrid regime is paragraph 7.'}),
           ('Choose the best heading for paragraph 9.',
-           ['The hybrid regime', 'The evidence on timing',
-            'Waiting behind a legislature', 'Exhortation and its limits'], 2,
-           'A written rule awaiting a parliamentary slot is a different '
-           'failure.'),
+           ['The hybrid regime', 'The evidence on timing', 'Waiting behind a legislature', 'Exhortation and its limits'],
+           2,
+           'A written rule awaiting a parliamentary slot is a '
+           'different failure.',
+           {0: 'The hybrid regime is paragraph 7.', 1: 'The evidence on timing is paragraph 8.', 3: 'Exhortation and its limits are paragraph 10.'}),
           (
            'The writer believes regulators lag mainly through lack of '
            'urgency.', ['Yes', 'No', 'Not Given'], 1,
@@ -1171,29 +1227,39 @@ UNIT = dict(
          items=[
           ('The lecturer says the lag is a statement about',
            ['speed', 'a trade-off', 'funding', 'expertise'], 1,
-           'Rather than about urgency or capability.'),
-          ('A prescriptive rule is easy to enforce because compliance is',
-           ['negotiable', 'a matter of fact', 'self-certified',
-            'rarely checked'], 1,
+           'Rather than about urgency or capability.',
+           {0: 'He says it is not a statement about speed.', 2: 'Funding is part of the staffing point, not his claim.', 3: 'Expertise is what the usual remedies address.'}),
+          (
+           'A prescriptive rule is easy to enforce because compliance '
+           'is',
+           ['negotiable', 'a matter of fact', 'self-certified', 'rarely checked'],
+           1,
            'An inspector settles it in an afternoon without expert '
-           'evidence.'),
+           'evidence.',
+           {0: 'Negotiation belongs to the principle-based rule.', 2: 'Self-certification is not part of his account.', 3: 'He says such rules are the ones actually enforced.'}),
           ('A principle-based rule fails',
-           ['immediately', 'at the margin', 'only for small firms',
-            'when technology changes'], 1,
-           'Where whether a duty was met can be argued either way.'),
+           ['immediately', 'at the margin', 'only for small firms', 'when technology changes'],
+           1, 'Where whether a duty was met can be argued either way.',
+           {0: 'He says they never become obsolete.', 2: 'They are negotiated with large firms, which is the '
+               'pattern.', 3: 'They survive technological change, which is their '
+               'merit.'}),
           ('The enforcement pattern he describes results from',
-           ['corruption', 'an asymmetry in legal spending',
-            'poor drafting', 'political pressure'], 1,
-           'And would happen with saints running the agency.'),
+           ['corruption', 'an asymmetry in legal spending', 'poor drafting', 'political pressure'],
+           1, 'And would happen with saints running the agency.',
+           {0: 'He says explicitly that it is not corruption.', 2: 'Drafting quality is not what produces the pattern.', 3: 'Political pressure is not the mechanism he names.'}),
           ('Where a new statute was required, the median interval was',
-           ['six years', 'eleven years', 'three years',
-            'twenty years'], 1,
-           'Against a median of six across all twenty-four technologies.'),
+           ['six years', 'eleven years', 'three years', 'twenty years'],
+           1,
+           'Against a median of six across all twenty-four '
+           'technologies.',
+           {0: 'Six years is the median across all twenty-four.', 2: 'Shorter than either median he reports.', 3: 'Longer than the figure he gives.'}),
           ('The remedy the evidence points to is',
-           ['more technical staff', 'delegated powers',
-            'faster drafting', 'international agreement'], 1,
-           'While the public conversation has recommended the other for '
-           'thirty years.')])],
+           ['more technical staff', 'delegated powers', 'faster drafting', 'international agreement'],
+           1,
+           'While the public conversation has recommended the other '
+           'for thirty years.',
+           {0: 'More staff is what thirty years of proposals '
+               'recommended.', 2: 'Drafting was already complete in most of those cases.', 3: 'International agreement is not part of his account.'})])],
    speak=dict(
     part='Part 3', focus='Rules and the things they govern',
     followup=[(('You say regulation lags technology. Should rules name '
@@ -1436,19 +1502,23 @@ UNIT = dict(
           'outcome.'],
          items=[
           ('Which paragraph explains the asymmetry of visibility?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
            'A prevented harm is countable; a harm caused by precaution '
-           'consists of absences.'),
-          ('Which paragraph concerns the concentration of an industry?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 1,
-           'Fixed costs falling disproportionately on small entrants.'),
+           'consists of absences.',
+           {0: 'Paragraph 1 states the trade-off the principle omits.', 2: 'Paragraph 3 gives the pharmaceutical cases.', 3: 'Paragraph 4 describes the incentives on officials.'}),
+          (
+           'Which paragraph concerns the concentration of an industry?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           1,
+           'Fixed costs falling disproportionately on small entrants.',
+           {0: 'Paragraph 4 describes the incentives on officials.', 2: 'Paragraph 6 states the criterion the writer prefers.', 3: 'Paragraph 7 applies the criterion to hard cases.'}),
           ('Which paragraph states the criterion the writer prefers?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1,
            'The distinction between reversible and irreversible '
-           'outcomes.'),
+           'outcomes.',
+           {0: 'Paragraph 5 concerns the concentration of an industry.', 2: 'Paragraph 7 applies the criterion to hard cases.', 3: 'Paragraph 8 gives the first practical measure.'}),
           (
            'The writer believes the precautionary principle should be '
            'abandoned.', ['Yes', 'No', 'Not Given'], 1,
@@ -1627,31 +1697,37 @@ UNIT = dict(
            'is a weapon.')],
          items=[
           ('Barrientos begins by conceding that',
-           ['delays are costless', 'the bad approvals were a genuine '
-            'failure of a too-fast system', 'regulators are competent',
-            'his model was wrong'], 1,
-           'And that those who warned at the time were right.'),
+           ['delays are costless', 'the bad approvals were a genuine failure of a too-fast system', 'regulators are competent', 'his model was wrong'],
+           1, 'And that those who warned at the time were right.',
+           {0: 'He goes on to argue that delays have a real cost.', 2: 'Competence is not what he concedes.', 3: 'His model is not in question here.'}),
           ('Fanshawe-Oyelude says she has stopped using the phrase',
-           ['"risk-based"', '"abundance of caution"', '"evidence-led"',
-            '"proportionate"'], 1,
-           'Because it describes a cost as though it were a virtue.'),
+           ['"risk-based"', '"abundance of caution"', '"evidence-led"', '"proportionate"'],
+           1, 'Because it describes a cost as though it were a virtue.',
+           {0: 'She does not object to describing a regime as '
+               'risk-based.', 2: 'She appeals to the evidence herself throughout.', 3: 'Proportionality is what her proposed accounting would '
+               'serve.'}),
           ('She characterises the bias towards delay as a failure of',
            ['nerve', 'accounting', 'training', 'leadership'], 1,
-           'Since no official anywhere has been dismissed for an absence.'),
+           'Since no official anywhere has been dismissed for an '
+           'absence.',
+           {0: 'She says explicitly that it is not a failure of nerve.', 2: 'Training is not what she says is at fault.', 3: 'Leadership is not where she locates the bias.'}),
           ('What does she predict about estimating the cost of delay?',
-           ['It is impossible', 'Its bounds will be four times wider than '
-            'the harm estimate', 'It will be ignored',
-            'It will be accurate'], 1,
-           'And will be used against her in committee.'),
+           ['It is impossible', 'Its bounds will be four times wider than the harm estimate', 'It will be ignored', 'It will be accurate'],
+           1, 'And will be used against her in committee.',
+           {0: 'She supports the estimate, so does not call it '
+               'impossible.', 2: 'She predicts it will be read out, not ignored.', 3: 'She expects wide bounds rather than accuracy.'}),
           ('Barrientos answers that a wide estimate is better than',
-           ['no decision', 'the zero an omitted line puts there',
-            'a narrow one', 'a qualitative judgement'], 1,
-           'Which is what leaving the line out amounts to.'),
+           ['no decision', 'the zero an omitted line puts there', 'a narrow one', 'a qualitative judgement'],
+           1, 'Which is what leaving the line out amounts to.',
+           {0: 'A decision is made either way; the line is what is '
+               'missing.', 2: 'A narrow estimate is not available.', 3: 'A qualitative judgement is not what he compares it '
+               'with.'}),
           ('Why have review dates not been adopted?',
-           ['They are expensive', 'They create a date on which somebody '
-            'must decide', 'They are unlawful', 'Nobody proposed them'], 1,
-           'Whereas a precaution with no review date requires nothing of '
-           'anybody.')]),
+           ['They are expensive', 'They create a date on which somebody must decide', 'They are unlawful', 'Nobody proposed them'],
+           1,
+           'Whereas a precaution with no review date requires nothing '
+           'of anybody.',
+           {0: 'Cost is not the obstacle she names.', 2: 'Legality is not raised by either speaker.', 3: 'She proposes them herself as the cheaper measure.'})]),
     dict(heading='A plan of the factory floor',
          part='Part 2', task='Plan labelling and matching',
          band='l2',

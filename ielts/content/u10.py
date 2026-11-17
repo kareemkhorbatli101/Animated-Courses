@@ -63,8 +63,9 @@ UNIT = dict(
          items=[
           ('Which activity costs extra for all members?',
            ['the gym', 'the pool', 'Pilates', 'the induction'], 2,
-           'Paragraph 2: £6 a session, taught by an outside '
-           'instructor.'),
+           'Paragraph 2: \u00a36 a session, taught by an outside '
+           'instructor.',
+           {0: 'The gym is included in both memberships.', 1: 'The pool is included in both memberships.', 3: 'The induction is required but is not charged for.'}),
           ('Off-peak membership may be used at any time at '
            '____________.', None, 'weekends',
            'Paragraph 1, and before 4 p.m. on weekdays.'),
@@ -299,17 +300,23 @@ UNIT = dict(
          items=[
           ('Which person stopped when other people did?',
            ['Casimir', 'Marguerite', 'Olubunmi', 'Ingrid'], 0,
-           'He was going because his friends went.'),
+           'He was going because his friends went.',
+           {1: 'Marguerite stopped after an illness, not after her '
+               'friends.', 2: 'Olubunmi stopped when he stopped improving.', 3: 'Ingrid stopped because of the changing room.'}),
           ('Which person describes stopping without deciding to?',
            ['Casimir', 'Marguerite', 'Olubunmi', 'Ingrid'], 1,
-           'A fortnight of flu and the gap closed over.'),
+           'A fortnight of flu and the gap closed over.',
+           {0: 'Casimir followed his friends, which is a reason.', 2: 'Olubunmi gives a clear reason for stopping.', 3: 'Ingrid names the changing room as her reason.'}),
           ('Which person stopped when progress stopped?',
            ['Casimir', 'Marguerite', 'Olubunmi', 'Ingrid'], 2,
-           'Faster every week for four months, and then not.'),
-          ('Which person blames the facilities rather than the '
+           'Faster every week for four months, and then not.',
+           {0: 'Casimir went because other people went.', 1: 'Marguerite had a gap in the habit, not a plateau.', 3: 'Ingrid objected to the facilities.'}),
+          (
+           'Which person blames the facilities rather than the '
            'activity?',
            ['Casimir', 'Marguerite', 'Olubunmi', 'Ingrid'], 3,
-           'The cold changing room with no hooks.'),
+           'The cold changing room with no hooks.',
+           {0: 'Casimir blames the loss of company.', 1: 'Marguerite blames nothing and describes a gap.', 2: 'Olubunmi blames the end of improvement.'}),
           ('Olubunmi was told that reaching a plateau was normal.',
            ['True', 'False', 'Not Given'], 1,
            'He says nobody told him, although everybody knew.',
@@ -369,9 +376,11 @@ UNIT = dict(
           ('Improvement typically lasts about ____________ months '
            'before flattening.', None, 'three',
            'Which he says is normal and physiological.'),
-          ('Last year’s survey put facilities ahead of time and',
+          ('Last year\u2019s survey put facilities ahead of time and',
            ['distance', 'cost', 'coaching', 'equipment'], 1,
-           'Which he says embarrasses his profession.')])],
+           'Which he says embarrasses his profession.',
+           {0: 'Distance is not one of the three things compared.', 2: 'Coaching is not what the survey put facilities ahead '
+               'of.', 3: 'Equipment is not the comparison he gives.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Exercise',
     longturn=[('The habit I kept up is swimming twice a week, which I have now '
@@ -550,20 +559,22 @@ UNIT = dict(
           'The chart is an argument about spending rather than about '
           'sport.'],
          items=[
-          ('Which paragraph explains why swimming behaves '
-           'differently?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 3,
-           'It can be done alone, at any hour, at any speed.'),
+          (
+           'Which paragraph explains why swimming behaves differently?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           3, 'It can be done alone, at any hour, at any speed.',
+           {0: 'Paragraph 1 introduces the chart and the exception.', 1: 'Paragraph 2 gives the four sports with the usual '
+               'pattern.', 2: 'Paragraph 3 states that swimming is the exception.'}),
           ('Which paragraph draws a conclusion about spending?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 3,
-           'Pitches built and pools closed.'),
-          ('Which paragraph gives the largest gap between the '
-           'groups?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 0,
-           'Football, at 21.6 per cent against 3.4 per cent.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           3, 'Pitches built and pools closed.',
+           {0: 'Paragraph 2 gives the largest gap.', 1: 'Paragraph 3 identifies the exception.', 2: 'Paragraph 4 explains why swimming keeps participants.'}),
+          ('Which paragraph gives the largest gap between the groups?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           0, 'Football, at 21.6 per cent against 3.4 per cent.',
+           {1: 'Paragraph 3 gives the swimming figures, which are the '
+               'exception.', 2: 'Paragraph 4 explains the reason rather than giving a '
+               'gap.', 3: 'Paragraph 5 is about spending.'}),
           ('The older group participates more in ____________ '
            'only.', None, 'swimming',
            'Paragraph 3, at 16.8 against 14.2 per cent.'),
@@ -817,21 +828,20 @@ UNIT = dict(
           'working.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['Why training makes you worse first',
-            'Load and rest as one system',
-            'The shape of improvement', 'What beginners are not '
-            'told'], 0,
-           'Damage, then rebuilding slightly beyond the start.'),
+           ['Why training makes you worse first', 'Load and rest as one system', 'The shape of improvement', 'What beginners are not told'],
+           0, 'Damage, then rebuilding slightly beyond the start.',
+           {1: 'Load and rest as one system is paragraph 3.', 2: 'The shape of improvement is paragraph 4.', 3: 'What beginners are not told is paragraph 5.'}),
           ('Choose the best heading for paragraph 4.',
-           ['Accumulated damage', 'Cheap gains first',
-            'Food and sleep', 'Why people stop'], 1,
-           'The nervous system before new tissue.'),
+           ['Accumulated damage', 'Cheap gains first', 'Food and sleep', 'Why people stop'],
+           1, 'The nervous system before new tissue.',
+           {0: 'Accumulated damage is paragraph 3.', 2: 'Food and sleep are mentioned in paragraph 2.', 3: 'Why people stop is paragraph 5.'}),
           ('Choose the best heading for paragraph 5.',
-           ['A warning that keeps people training',
-            'Six weeks against two', 'Building new tissue',
-            'Measuring performance'], 0,
+           ['A warning that keeps people training', 'Six weeks against two', 'Building new tissue', 'Measuring performance'],
+           0,
            'Being told in advance makes people more likely to '
-           'continue.'),
+           'continue.',
+           {1: 'Six weeks against two is in paragraph 3.', 2: 'Building new tissue is paragraph 4.', 3: 'Measuring performance is not what paragraph 5 is '
+               'about.'}),
           (
            'Performance falls measurably for a day or two after a hard '
            'session.', ['True', 'False', 'Not Given'], 0,
@@ -902,9 +912,12 @@ UNIT = dict(
           ('The body rebuilds slightly beyond where you started, as a '
            '____________ against the same load.', None, 'defence',
            'Which is the mechanism of improvement.'),
-          ('The athlete training hardest in January is routinely the '
-           'slowest in', ['December', 'March', 'June', 'September'], 1,
-           'Because damage accumulates without recovery.'),
+          (
+           'The athlete training hardest in January is routinely the '
+           'slowest in',
+           ['December', 'March', 'June', 'September'], 1,
+           'Because damage accumulates without recovery.',
+           {0: 'December is before the January he refers to.', 2: 'June is not the month he names.', 3: 'September is not mentioned in the talk.'}),
           ('Early gains are cheap because the ____________ system is '
            'learning to use existing muscle.', None, 'nervous',
            'After which new tissue is needed.'),
@@ -1075,19 +1088,23 @@ UNIT = dict(
           'one that should change what parents do.'],
          items=[
           ('Which paragraph names the fault in the usual evidence?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 2,
-           'Survivorship, and why risky strategies look brilliant.'),
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           2, 'Survivorship, and why risky strategies look brilliant.',
+           {0: 'Paragraph 1 states the pattern and the usual '
+               'conclusion.', 1: 'Paragraph 2 explains who is missing from the sample.', 3: 'Paragraph 4 reports the whole-cohort studies.'}),
           ('Which paragraph reports what whole-cohort studies find?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
            'Ahead at fifteen, no more likely to be competing at '
-           'twenty-one.'),
-          ('Which paragraph gives an advantage of the opposite '
+           'twenty-one.',
+           {0: 'Paragraph 2 explains the sampling problem.', 1: 'Paragraph 3 names the fault.', 3: 'Paragraph 5 gives the advantage of the other approach.'}),
+          (
+           'Which paragraph gives an advantage of the opposite '
            'approach?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'A wider range of movement skills, which transfer.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'A wider range of movement skills, which transfer.',
+           {0: 'Paragraph 3 names survivorship.', 1: 'Paragraph 4 reports the cohort findings.', 3: 'Paragraph 6 states what the evidence does and does not '
+               'show.'}),
           (
            'The writer believes early specialisation never produces '
            'elite athletes.', ['Yes', 'No', 'Not Given'], 1,
@@ -1306,10 +1323,12 @@ UNIT = dict(
           ('They disagree about the ____________ at which '
            'specialisation should begin.', None, 'age',
            'Fourteen against twelve for some sports.'),
-          ('She argues for twelve in gymnastics and diving because '
-           'those careers end at', ['eighteen', 'twenty-two',
-            'twenty-five', 'thirty'], 1,
-           'So the arithmetic is different.'),
+          (
+           'She argues for twelve in gymnastics and diving because '
+           'those careers end at',
+           ['eighteen', 'twenty-two', 'twenty-five', 'thirty'], 1,
+           'So the arithmetic is different.',
+           {0: 'Eighteen is earlier than the age she gives.', 2: 'Twenty-five is later than the age she gives.', 3: 'Thirty is well beyond the careers she describes.'}),
           ('Her academy started asking the ____________ why they '
            'left.', None, 'leavers',
            'Which she says nobody does because it is depressing.'),

@@ -378,25 +378,39 @@ UNIT = dict(
           'ward resembles, with trained raters, unlimited time and no '
           'competing claim on their attention.'],
          items=[
-          ('Which clinician says the scale was built to track change '
+          (
+           'Which clinician says the scale was built to track change '
            'rather than to decide?',
-           ['Ravensworth-Idowu', 'Fontaine-Abara', 'Hollingbury',
-            'Nwachukwu-Beale'], 0,
-           'With the manual saying so on page four.'),
+           ['Ravensworth-Idowu', 'Fontaine-Abara', 'Hollingbury', 'Nwachukwu-Beale'],
+           0, 'With the manual saying so on page four.',
+           {1: 'Fontaine-Abara describes a floor effect.', 2: 'Hollingbury defends the scale by comparison with what '
+               'would replace it.', 3: 'Nwachukwu-Beale reports measuring agreement between '
+               'assessors.'}),
           ('Which clinician describes a floor effect?',
-           ['Ravensworth-Idowu', 'Fontaine-Abara', 'Hollingbury',
-            'Nwachukwu-Beale'], 1,
-           'Four points require a motor response.'),
-          ('Which clinician defends the scale by comparison with what '
+           ['Ravensworth-Idowu', 'Fontaine-Abara', 'Hollingbury', 'Nwachukwu-Beale'],
+           1, 'Four points require a motor response.',
+           {0: 'Ravensworth-Idowu says the scale was built to track '
+               'change rather than to decide.', 2: 'Hollingbury defends the scale by comparison with what '
+               'would replace it.', 3: 'Nwachukwu-Beale reports measuring agreement between '
+               'assessors.'}),
+          (
+           'Which clinician defends the scale by comparison with what '
            'would replace it?',
-           ['Ravensworth-Idowu', 'Fontaine-Abara', 'Hollingbury',
-            'Nwachukwu-Beale'], 2,
-           'An unrecorded impression rather than a better instrument.'),
-          ('Which clinician reports measuring agreement between '
+           ['Ravensworth-Idowu', 'Fontaine-Abara', 'Hollingbury', 'Nwachukwu-Beale'],
+           2,
+           'An unrecorded impression rather than a better instrument.',
+           {0: 'Ravensworth-Idowu says the scale was built to track '
+               'change rather than to decide.', 1: 'Fontaine-Abara describes a floor effect.', 3: 'Nwachukwu-Beale reports measuring agreement between '
+               'assessors.'}),
+          (
+           'Which clinician reports measuring agreement between '
            'assessors?',
-           ['Ravensworth-Idowu', 'Fontaine-Abara', 'Hollingbury',
-            'Nwachukwu-Beale'], 3,
-           'Two clinicians differing by three points within an hour.'),
+           ['Ravensworth-Idowu', 'Fontaine-Abara', 'Hollingbury', 'Nwachukwu-Beale'],
+           3,
+           'Two clinicians differing by three points within an hour.',
+           {0: 'Ravensworth-Idowu says the scale was built to track '
+               'change rather than to decide.', 1: 'Fontaine-Abara describes a floor effect.', 2: 'Hollingbury defends the scale by comparison with what '
+               'would replace it.'}),
           ('Hollingbury believes the scale is a good instrument.',
            ['Yes', 'No', 'Not Given'], 1,
            'He calls it flawed and defends it against the alternative.',
@@ -778,17 +792,22 @@ UNIT = dict(
             'Paragraph 5'], 1,
            'To make coincidence implausible rather than merely '
            'unlikely.'),
-          ('Which paragraph lists the reasons a patient might show no '
+          (
+           'Which paragraph lists the reasons a patient might show no '
            'response?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
-           'Asleep, did not hear, could not sustain, imagined something '
-           'else, or unaware.'),
-          ('Which paragraph gives the question to ask of a published '
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1,
+           'Asleep, did not hear, could not sustain, imagined '
+           'something else, or unaware.',
+           {3: 'Paragraph 8 gives the question to ask of a published '
+               'report.'}),
+          (
+           'Which paragraph gives the question to ask of a published '
            'report?',
-           ['Paragraph 6', 'Paragraph 7', 'Paragraph 8',
-            'Paragraph 5'], 2,
-           'What the report claims from a negative result.')])],
+           ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 5'],
+           2, 'What the report claims from a negative result.',
+           {0: 'Paragraph 6 lists the reasons a patient might show no '
+               'response.'})])],
    listen=[
     dict(heading='A neuroscientist on imaging studies', part='Part 4',
          task='A lecture on command-following paradigms', band='l4',

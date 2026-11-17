@@ -66,7 +66,11 @@ UNIT = dict(
            'Paragraph 2: a passport or a driving licence.'),
           ('The person who registers the birth is called the',
            ['registrar', 'informant', 'applicant', 'witness'], 1,
-           'Paragraph 3, which also says who may do it.'),
+           'Paragraph 3, which also says who may do it.',
+           {0: 'The registrar is the official who records it, not the '
+               'person who reports it.', 2: 'The passage uses no such word for the person who '
+               'registers a birth.', 3: 'A witness is needed at a marriage, not at a birth '
+               'registration.'}),
           ('Extra copies of a certificate cost ____________ each on the '
            'day.', None, '£12.50',
            'Paragraph 4, against £35 if ordered later.'),
@@ -75,9 +79,12 @@ UNIT = dict(
            'Paragraph 5, although the marriage itself is registered on the '
            'day.'),
           ('A change of name is made by signing a',
-           ['certificate', 'deed poll', 'statutory form',
-            'register entry'], 1,
-           'Paragraph 6, and it is not done at the register office.')]),
+           ['certificate', 'deed poll', 'statutory form', 'register entry'],
+           1, 'Paragraph 6, and it is not done at the register office.',
+           {0: 'A certificate is what the register office issues, not '
+               'what you sign.', 2: 'No form of that name appears; paragraph 6 names a deed '
+               'poll.', 3: 'A change of name is not entered in the register at '
+               'all.'})]),
     dict(heading='Fees and documents required',
          kind='Information table', task='Matching features',
          band='gt_short', qtype='Questions 7-10',
@@ -100,14 +107,15 @@ UNIT = dict(
           'within ten working days, and the lost copy is cancelled.'],
          items=[
           ('Which document costs nothing?',
-           ['the first birth certificate', 'an extra copy on the day',
-            'a copy ordered later', 'a certified copy for abroad'], 0,
-           'The first copy is issued free at the appointment.'),
+           ['the first birth certificate', 'an extra copy on the day', 'a copy ordered later', 'a certified copy for abroad'],
+           0, 'The first copy is issued free at the appointment.',
+           {1: 'An extra copy on the day costs twelve pounds fifty.', 2: 'A copy ordered later costs thirty-five pounds.', 3: 'A certified copy for abroad requires you to send one '
+               'you already hold.'}),
           ('Which document requires you to send one you already hold?',
-           ['the first birth certificate', 'an extra copy on the day',
-            'a marriage certificate copy',
-            'a certified copy for abroad'], 3,
-           'And a photocopy will not be accepted.'),
+           ['the first birth certificate', 'an extra copy on the day', 'a marriage certificate copy', 'a certified copy for abroad'],
+           3, 'And a photocopy will not be accepted.',
+           {0: 'The first birth certificate costs nothing.', 1: 'An extra copy on the day needs no extra documents.', 2: 'A marriage certificate copy needs the date and place '
+               'only.'}),
           ('Copies ordered later are posted within ____________ working '
            'days.', None, 'ten',
            'This applies to both birth and marriage certificates.'),
@@ -298,16 +306,24 @@ UNIT = dict(
          items=[
           ('Which person gave up work to provide care?',
            ['Ndidi', 'Marek', 'Adaeze', 'Bronwen'], 0,
-           'Three years ago, and she says she does not regret it.'),
+           'Three years ago, and she says she does not regret it.',
+           {1: 'Marek says the arrangement is expensive.', 2: 'Adaeze shares the care with her sister and brother.', 3: 'Bronwen cares for her husband and gets four hours of '
+               'respite.'}),
           ('Which person shares the care with other family members?',
            ['Ndidi', 'Marek', 'Adaeze', 'Bronwen'], 2,
-           'Weekdays, weekends and the cost of a cleaner.'),
+           'Weekdays, weekends and the cost of a cleaner.',
+           {0: 'Ndidi gave up work to provide care.', 1: 'Marek says the arrangement is expensive.', 3: 'Bronwen cares for her husband alone, with four hours '
+               'of respite.'}),
           ('Which person says the arrangement is expensive?',
            ['Ndidi', 'Marek', 'Adaeze', 'Bronwen'], 1,
-           'Nine hundred pounds a month, most of a salary.'),
+           'Nine hundred pounds a month, most of a salary.',
+           {0: 'Ndidi gave up work to provide care.', 2: 'Adaeze names no figure; her brother pays for the '
+               'cleaner.', 3: 'Bronwen talks about respite hours rather than cost.'}),
           ('Which person mentions a written agreement?',
            ['Ndidi', 'Marek', 'Adaeze', 'Bronwen'], 2,
-           'Written at the start, and it has prevented arguments.'),
+           'Written at the start, and it has prevented arguments.',
+           {0: 'Ndidi gave up work to provide care.', 1: 'Marek says the arrangement is expensive.', 3: 'Bronwen mentions no agreement, only the hours she is '
+               'given.'}),
           ('Ndidi regrets leaving her job.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says she does not regret it, which is the opposite.',
@@ -351,16 +367,19 @@ UNIT = dict(
           ('About one adult in ____________ is caring for somebody.', None,
            'eight', 'More people than work in the health service.'),
           ('The proportion of carers who are women is about',
-           ['forty per cent', 'fifty per cent', 'sixty per cent',
-            'eighty per cent'], 2,
-           'And the gap is widest between fifty and sixty-four.'),
+           ['forty per cent', 'fifty per cent', 'sixty per cent', 'eighty per cent'],
+           2, 'And the gap is widest between fifty and sixty-four.',
+           {0: 'Forty per cent would be the share of carers who are '
+               'men.', 1: 'Fifty and sixty-four are the ages where the gap is '
+               'widest.', 3: 'No figure of that size appears anywhere in the talk.'}),
           ('On average, people wait ____________ years before asking for '
            'help.', None, 'two',
            'The number the speaker most wants remembered.'),
           ('The usual reason for waiting is that people',
-           ['are too proud', 'do not know they count as a carer',
-            'cannot afford it', 'do not trust the office'], 1,
-           'They say they were simply helping a relative.')]),
+           ['are too proud', 'do not know they count as a carer', 'cannot afford it', 'do not trust the office'],
+           1, 'They say they were simply helping a relative.',
+           {0: 'The speaker says the reason is almost never pride.', 2: 'Cost is not given as a reason for the two-year delay.', 3: 'Trust is not mentioned; people simply do not use the '
+               'word.'})]),
     dict(heading='Two carers compare their weeks', part='Part 3',
          task='A conversation between two carers', band='l3',
          qtype='Questions 27-32',
@@ -404,26 +423,41 @@ UNIT = dict(
          items=[
           ('How many hours to themselves does each woman get?',
            ['two', 'four', 'six', 'eight'], 1,
-           'They discover they have the same number.'),
+           'They discover they have the same number.',
+           {0: 'Two years is the delay before carers ask for help.', 2: 'No such number is given for the hours either woman '
+               'gets.', 3: 'Eight months is how long one letter was misread as a '
+               'refusal.'}),
           ('Ndidi spends most of those hours',
            ['resting', 'shopping', 'visiting friends', 'sleeping'], 1,
-           'Which she says is a different job rather than rest.'),
-          ('Bronwen says the hours are spent on things that cannot be done',
-           ['at the weekend', 'with him there', 'without money',
-            'in the evening'], 1,
-           'Which is why she calls them the worst hours of the week.'),
+           'Which she says is a different job rather than rest.',
+           {0: 'She says shopping is a different job rather than rest.', 2: 'Ndidi says earlier that her own friendships '
+               'disappeared.', 3: 'Sleep is not among the things she names doing.'}),
+          (
+           'Bronwen says the hours are spent on things that cannot be '
+           'done',
+           ['at the weekend', 'with him there', 'without money', 'in the evening'],
+           1,
+           'Which is why she calls them the worst hours of the week.',
+           {0: 'The respite hours are weekly, and no day is named.', 2: 'Cost is what Marek raises, not what Bronwen says here.', 3: 'No time of day is given for the four hours.'}),
           ('Bronwen did not ask again in April because she',
-           ['was refused', 'forgot', 'did not ask', 'was told not '
-            'to'], 2,
-           'She says she should have, and treats it as her own error.'),
-          ('What does Bronwen think Ndidi should have been told about?',
-           ['the respite hours', 'the cost to her pension',
-            'the care home fees', 'the waiting list'], 1,
-           'Which Ndidi only found out last year.'),
+           ['was refused', 'forgot', 'did not ask', 'was told not to'],
+           2,
+           'She says she should have, and treats it as her own error.',
+           {0: 'She says the letter was not a refusal, though she read '
+               'it as one.', 1: 'She does not say she forgot, but that she should have '
+               'asked.', 3: 'Nobody told her not to ask; the letter was about '
+               'March.'}),
+          (
+           'What does Bronwen think Ndidi should have been told about?',
+           ['the respite hours', 'the cost to her pension', 'the care home fees', 'the waiting list'],
+           1, 'Which Ndidi only found out last year.',
+           {0: 'Bronwen says the hours are what leaflets already put '
+               'first.', 2: 'Care home fees belong to Marek, not to Ndidi.', 3: 'No waiting list is mentioned in the conversation.'}),
           ('They agree to',
-           ['write a letter', 'ask together in April', 'contact a '
-            'lawyer', 'join a group'], 1,
-           'Because two people asking is harder to put off.')])],
+           ['write a letter', 'ask together in April', 'contact a lawyer', 'join a group'],
+           1, 'Because two people asking is harder to put off.',
+           {0: 'The letter they discuss is one the office sent in '
+               'March.', 2: 'No lawyer is mentioned anywhere in the conversation.', 3: 'They agree to go to the office, not to join anything.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Family',
     longturn=[('The person I want to talk about is my aunt, my mother\'s older '
@@ -607,20 +641,31 @@ UNIT = dict(
           'countries now fund daily telephone calls to older people living '
           'alone.'],
          items=[
-          ('Which paragraph explains why smaller households increase the '
-           'need for housing?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'More homes for the same number of people.'),
+          (
+           'Which paragraph explains why smaller households increase '
+           'the need for housing?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'More homes for the same number of people.',
+           {0: 'Paragraph 3 gives three causes acting together.', 1: 'Paragraph 4 explains why similar birth rates can '
+               'produce different household sizes.', 3: 'Paragraph 6 is about who is found quickly when '
+               'something goes wrong.'}),
           ('Which paragraph gives three causes acting together?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Fewer children, longer lives and young adults leaving home.'),
-          ('Which paragraph explains why similar birth rates can produce '
-           'different household sizes?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
-           'Because young adults living alone is a local pattern.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
+           'Fewer children, longer lives and young adults leaving '
+           'home.',
+           {0: 'Paragraph 2 gives the figures for each of the four '
+               'countries.', 2: 'Paragraph 4 explains why similar birth rates can '
+               'produce different household sizes.', 3: 'Paragraph 5 explains why smaller households increase '
+               'the need for housing.'}),
+          (
+           'Which paragraph explains why similar birth rates can '
+           'produce different household sizes?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1, 'Because young adults living alone is a local pattern.',
+           {0: 'Paragraph 3 gives three causes acting together.', 2: 'Paragraph 5 explains why smaller households increase '
+               'the need for housing.', 3: 'Paragraph 6 explains why some countries fund daily '
+               'telephone calls.'}),
           ('Mexico’s average household fell by ____________ people.', None,
            '1.8', 'From 5.4 to 3.6, the largest fall shown.'),
           (
@@ -686,9 +731,10 @@ UNIT = dict(
            'households',
            'The simplest calculation in demography, he says.'),
           ('A falling average is mostly caused by a rise in',
-           ['divorce', 'one-person households', 'emigration',
-            'student numbers'], 1,
-           'Mainly older people and young adults who have moved.'),
+           ['divorce', 'one-person households', 'emigration', 'student numbers'],
+           1, 'Mainly older people and young adults who have moved.',
+           {0: 'Divorce is not given as a cause anywhere in the talk.', 2: 'Nobody leaves the country in his account; they move '
+               'house.', 3: 'Young adults are mentioned, but not as students.'}),
           ('In Sweden the average household contains ____________ '
            'people.', None, '1.8',
            'Which sounds as though most Swedes live alone.'),
@@ -700,10 +746,14 @@ UNIT = dict(
            'count.', None, 'unit',
            'Boxes against people, which he calls the thing to '
            'remember.'),
-          ('He says most population stories mean people while most numbers '
-           'are about', ['families', 'households', 'regions',
-            'generations'], 1,
-           'And the gap is where bad stories come from.')])],
+          (
+           'He says most population stories mean people while most '
+           'numbers are about',
+           ['families', 'households', 'regions', 'generations'], 1,
+           'And the gap is where bad stories come from.',
+           {0: 'Families are what readers wrongly take the story to be '
+               'about.', 2: 'No regional figures appear anywhere in the talk.', 3: 'Generations are not the unit he says the numbers '
+               'count.'})])],
    speak=dict(
     part='Part 3', focus='Living alone',
     intro=('Four or five sentences. Try once to give a reason and then an '
@@ -891,18 +941,23 @@ UNIT = dict(
           'scheme to raise the birth rate once more.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['Why the fall happened', 'What the fertility rate measures',
-            'The dependency ratio', 'How pensions are paid'], 0,
-           'Child survival, education, contraception and cities.'),
+           ['Why the fall happened', 'What the fertility rate measures', 'The dependency ratio', 'How pensions are paid'],
+           0, 'Child survival, education, contraception and cities.',
+           {1: 'That is paragraph 2, which defines the rate and the '
+               'figure 2.1.', 2: 'That is paragraph 5, with Japan at ten and then fifty.', 3: 'That is paragraph 6, on this year\'s pensions from this '
+               'year\'s taxes.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Why the fall happened', 'Two effects that arrive together',
-            'The dependency ratio and what it shows',
-            'The three policy choices'], 2,
-           'Ten in 1970 and about fifty today, in Japan.'),
+           ['Why the fall happened', 'Two effects that arrive together', 'The dependency ratio and what it shows', 'The three policy choices'],
+           2, 'Ten in 1970 and about fifty today, in Japan.',
+           {0: 'Why the fall happened is the heading for paragraph 3.', 1: 'That is paragraph 4, where one line falls as the other '
+               'climbs.', 3: 'That is paragraph 6, with tax, pensions and pension '
+               'age.'}),
           ('Choose the best heading for paragraph 6.',
-           ['The fertility rate', 'Why pensions are affected',
-            'Why cities matter', 'The fourth option'], 1,
-           'This year’s pensions come from this year’s taxes.'),
+           ['The fertility rate', 'Why pensions are affected', 'Why cities matter', 'The fourth option'],
+           1,
+           'This year\u2019s pensions come from this year\u2019s taxes.',
+           {0: 'The rate is defined in paragraph 2, not in this one.', 2: 'Cities appear in paragraph 3, among the causes of the '
+               'fall.', 3: 'The missing fourth option is paragraph 7\'s subject.'}),
           (
            'The writer believes the fall in the birth rate is mainly '
            'bad news.', ['Yes', 'No', 'Not Given'], 1,
@@ -971,14 +1026,21 @@ UNIT = dict(
            'Half the world now lives below that figure.'),
           ('In 1950 the number of countries below that rate was',
            ['none', 'about ten', 'about thirty', 'half'], 0,
-           'Against half the world’s population today.'),
+           'Against half the world\u2019s population today.',
+           {1: 'Ten is Japan\'s dependency ratio in 1970, not a count '
+               'of countries.', 2: 'No figure of that size is given for 1950.', 3: 'Half the world lives below the rate today, not in '
+               '1950.'}),
           ('He says the causes of the fall are mostly',
            ['unknown', 'things we wanted', 'recent', 'political'], 1,
-           'Child survival, girls in school, women working, cities.'),
+           'Child survival, girls in school, women working, cities.',
+           {0: 'He says the causes are not mysterious at all.', 2: 'The causes he lists are long-running rather than '
+               'recent.', 3: 'The causes he names are social, not government policy.'}),
           ('The ratio changes quickly because the two lines',
-           ['move together', 'move apart at once', 'stay flat',
-            'reverse'], 1,
-           'Fewer young people and more old people at the same time.'),
+           ['move together', 'move apart at once', 'stay flat', 'reverse'],
+           1,
+           'Fewer young people and more old people at the same time.',
+           {0: 'Moving together is what would keep the ratio steady.', 2: 'Both lines move, which is the point of the arithmetic.', 3: 'Neither line reverses; one falls while the other '
+               'rises.'}),
           ('Japan’s figure rose from 10 to about ____________ per hundred '
            'workers.', None, '50',
            'Which he stresses is five times, not fifty per cent more.'),
@@ -1138,20 +1200,34 @@ UNIT = dict(
           'than the purpose. Several countries now state precisely this, and '
           'they are the ones with the better figures.'],
          items=[
-          ('Which paragraph explains why childcare might work better than '
-           'cash?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'A payment changes one year; a childcare place changes four.'),
-          ('Which paragraph describes what happened when payments were '
+          (
+           'Which paragraph explains why childcare might work better '
+           'than cash?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
+           'A payment changes one year; a childcare place changes '
+           'four.',
+           {0: 'Paragraph 3 distinguishes timing from completed family '
+               'size.', 1: 'Paragraph 4 reports the 0.2 to 0.3 figure for '
+               'childcare.', 3: 'Paragraph 6 describes what happened when payments were '
+               'stopped.'}),
+          (
+           'Which paragraph describes what happened when payments were '
            'stopped?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'The rate fell by more than it had risen.'),
-          ('Which paragraph states the honest reason for these policies?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 2,
-           'They help the families who already exist.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2, 'The rate fell by more than it had risen.',
+           {0: 'Paragraph 4 reports the record of the duller measures.', 1: 'Paragraph 5 explains why childcare might work better '
+               'than cash.', 3: 'Paragraph 7 states the honest reason for these '
+               'policies.'}),
+          (
+           'Which paragraph states the honest reason for these '
+           'policies?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           2, 'They help the families who already exist.',
+           {0: 'Paragraph 5 explains why childcare might work better '
+               'than cash.', 1: 'Paragraph 6 describes what happened when payments were '
+               'stopped.', 3: 'Paragraph 4 compares the childcare figures with other '
+               'countries.'}),
           ('The writer believes cash payments have no effect at all.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 says they work, but on the timing.',
@@ -1214,24 +1290,32 @@ UNIT = dict(
            'entirely, which I suspect is why nobody in a ministry has '
            'suggested it.')],
          items=[
-          ('Dr Varga’s own weakest point is that he argues from',
-           ['old studies', 'the cash policies only',
-            'one country', 'his own experience'], 1,
-           'And then draws a conclusion about all of them.'),
+          ('Dr Varga\u2019s own weakest point is that he argues from',
+           ['old studies', 'the cash policies only', 'one country', 'his own experience'],
+           1, 'And then draws a conclusion about all of them.',
+           {0: 'He does not complain about the age of the evidence.', 2: 'No single country is the basis of his argument.', 3: 'He argues from the published cash schemes, not from '
+               'experience.'}),
           ('Professor Lindqvist admits that her effect is',
            ['unproven', 'small', 'recent', 'disputed'], 1,
-           'Nought point two on the fertility rate.'),
+           'Nought point two on the fertility rate.',
+           {0: 'She calls the effect consistent rather than unproven.', 2: 'The age of the evidence is not what she concedes.', 3: 'What she concedes is the size, not whether it is '
+               'agreed.'}),
           ('Varga says childcare may be a terrible birth rate policy and an '
            'excellent ____________ policy.', None, 'childcare',
            'He wants services sold as what they are.'),
-          ('Lindqvist says childcare is sold as a birth rate measure '
-           'because that is what gets it', ['noticed', 'funded',
-            'evaluated', 'copied'], 1,
-           'And the evaluation then measures the wrong thing.'),
+          (
+           'Lindqvist says childcare is sold as a birth rate measure '
+           'because that is what gets it',
+           ['noticed', 'funded', 'evaluated', 'copied'], 1,
+           'And the evaluation then measures the wrong thing.',
+           {0: 'Being noticed is Varga\'s point about the cash '
+               'payments.', 2: 'Evaluation is what then measures the wrong thing.', 3: 'Copying between countries is not discussed here.'}),
           ('The practice Varga would stop is',
-           ['parental leave', 'paying cash at birth', 'free childcare',
-            'housing priority'], 1,
-           'Which he says continues because it is visible.'),
+           ['parental leave', 'paying cash at birth', 'free childcare', 'housing priority'],
+           1, 'Which he says continues because it is visible.',
+           {0: 'Leave that fathers take is among the measures he '
+               'accepts.', 2: 'Childcare is Lindqvist\'s policy, and he does not '
+               'oppose it.', 3: 'Housing priority is not raised in the discussion.'}),
           ('Lindqvist would evaluate childcare against hours worked, '
            'incomes and whether the second parent ____________.', None,
            'returns', 'Rather than against the number of births.')])],

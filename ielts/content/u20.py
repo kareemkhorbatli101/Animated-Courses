@@ -69,9 +69,12 @@ UNIT = dict(
            '____________ weeks before.', None, 'six',
            'Paragraph 2, after which it is retained.'),
           ('Which is included in the hire charge?',
-           ['amplified sound', 'a second technician', 'the house piano',
-            'stewards'], 2,
-           'Paragraph 3, tuned twice a year.'),
+           ['amplified sound', 'a second technician', 'the house piano', 'stewards'],
+           2, 'Paragraph 3, tuned twice a year.',
+           {0: 'Amplified sound is an extra charge of eighty-five '
+               'pounds.', 1: 'A second technician costs sixty pounds on top of the '
+               'hire.', 3: 'Hirers provide their own stewards, one for every '
+               'hundred seats.'}),
           ('Access for setting up begins at ____________ for an evening '
            'booking.', None, '14.00',
            'Paragraph 4, unless a daytime event is booked.'),
@@ -304,22 +307,33 @@ UNIT = dict(
           'landlord, bank or insurer has a form that understands '
           'that.'],
          items=[
-          ('Which musician earns most of their income away from '
+          (
+           'Which musician earns most of their income away from '
            'performing their own music?',
            ['Rosalind', 'Ambrose', 'Hyacinth', 'Thelonius'], 0,
-           'Teaching, a pit orchestra and session work.'),
-          ('Which musician argues against an argument made by their own '
-           'side?',
+           'Teaching, a pit orchestra and session work.',
+           {1: 'Ambrose argues against an argument made by their own '
+               'side.', 2: 'Hyacinth describes a reversal of the old order.', 3: 'Thelonius objects to how uneven the income is.'}),
+          (
+           'Which musician argues against an argument made by their '
+           'own side?',
            ['Rosalind', 'Ambrose', 'Hyacinth', 'Thelonius'], 1,
-           'The streaming figure, which he calls the wrong '
-           'argument.'),
+           'The streaming figure, which he calls the wrong argument.',
+           {0: 'Rosalind earns most of their income away from '
+               'performing their own music.', 2: 'Hyacinth describes a reversal of the old order.', 3: 'Thelonius objects to how uneven the income is.'}),
           ('Which musician describes a reversal of the old order?',
            ['Rosalind', 'Ambrose', 'Hyacinth', 'Thelonius'], 2,
-           'A record made in order to sell concert tickets.'),
+           'A record made in order to sell concert tickets.',
+           {0: 'Rosalind earns most of their income away from '
+               'performing their own music.', 1: 'Ambrose argues against an argument made by their own '
+               'side.', 3: 'Thelonius objects to how uneven the income is.'}),
           ('Which musician objects to how uneven the income is?',
            ['Rosalind', 'Ambrose', 'Hyacinth', 'Thelonius'], 3,
            'Forty-one thousand one year and nine the next, in her '
-           'account.'),
+           'account.',
+           {0: 'Rosalind earns most of their income away from '
+               'performing their own music.', 1: 'Ambrose argues against an argument made by their own '
+               'side.', 2: 'Hyacinth describes a reversal of the old order.'}),
           ('Ambrose believes streaming pays musicians fairly.',
            ['Yes', 'No', 'Not Given'], 2,
            'He says the figure is small and that it is the wrong '
@@ -375,7 +389,10 @@ UNIT = dict(
            'Tickets and merchandise together.'),
           ('He says the real problem is not the amount but the',
            ['delay', 'variance', 'contract', 'commission'], 1,
-           'He contrasts the two figures to make unevenness the point.'),
+           'He contrasts the two figures to make unevenness the point.',
+           {0: 'Delay in payment is not what he identifies as the '
+               'problem.', 2: 'Contracts are not mentioned in the talk at all.', 3: 'Commission belongs to the box office, not to his '
+               'argument.'}),
           ('His advice is to build ____________ sources of income.',
            None, 'four', 'Rather than one large source that may disappear.')]),
     dict(heading='Two musicians on streaming income', part='Part 3',
@@ -421,7 +438,10 @@ UNIT = dict(
            'Because nobody who hears it can act on it.'),
           ('He would argue instead that the terms are not',
            ['published', 'negotiable', 'legal', 'profitable'], 1,
-           'Rather than that the rate is low.'),
+           'Rather than that the rate is low.',
+           {0: 'Publication is part of it, but he names what cannot be '
+               'changed.', 2: 'He does not suggest the arrangements are unlawful.', 3: 'Profitability is the rate argument he wants to '
+               'replace.'}),
           ('He says they cannot leave the platforms because leaving means '
            'being ____________.', None, 'inaudible',
            'Alongside being unable to audit the count.'),
@@ -616,20 +636,27 @@ UNIT = dict(
           'independently of all of that, interrupted once and then '
           'resumed.'],
          items=[
-          ('Which paragraph explains why one line needs separate '
+          (
+           'Which paragraph explains why one line needs separate '
            'treatment?',
-           ['Paragraph 1', 'Paragraph 3', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'The live ticket line, which collapses and recovers.'),
-          ('Which paragraph describes a format replaced by its own '
+           ['Paragraph 1', 'Paragraph 3', 'Paragraph 5', 'Paragraph 6'],
+           2, 'The live ticket line, which collapses and recovers.',
+           {0: 'Paragraph 1 only says that one line needs its own '
+               'sentence.', 1: 'Paragraph 3 describes a format replaced by its own '
+               'successor.', 3: 'Paragraph 6 reduces the whole graph to two sentences.'}),
+          (
+           'Which paragraph describes a format replaced by its own '
            'successor?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Downloads, replaced within fifteen years.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Downloads, replaced within fifteen years.',
+           {0: 'Paragraph 2 describes physical sales, which only fall.', 2: 'Paragraph 4 describes streaming, which only rises.', 3: 'Paragraph 5 explains why one line needs separate '
+               'treatment.'}),
           ('Which paragraph reduces the whole graph to two sentences?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 3,
-           'Substitution, then live revenue growing independently.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           3, 'Substitution, then live revenue growing independently.',
+           {0: 'Paragraph 3 describes a format replaced by its own '
+               'successor.', 1: 'Paragraph 4 describes streaming and what it overtook.', 2: 'Paragraph 5 explains why one line needs separate '
+               'treatment.'}),
           ('Downloads peaked at around £____________ million in 2010.',
            None, '410', 'Paragraph 3, before falling to almost '
            'nothing.'),
@@ -687,9 +714,13 @@ UNIT = dict(
            'Rising and then falling within the period.'),
           ('Streaming passed physical sales around ____________.', None,
            '2013', 'And it passed download shortly afterwards.'),
-          ('Streaming now earns more on its own than the whole recorded '
-           'market earned in', ['2000', '2005', '2010', '2015'], 0,
-           'Which he says surprises people most.'),
+          (
+           'Streaming now earns more on its own than the whole '
+           'recorded market earned in',
+           ['2000', '2005', '2010', '2015'], 0,
+           'Which he says surprises people most.',
+           {1: 'No figure is given for the market in that year.', 2: 'In 2010 streaming was still negligible.', 3: 'The comparison he makes is with the start of the '
+               'period.'}),
           ('Live revenue collapsed to £____________ million in 2020.',
            None, '230',
            'For reasons nothing to do with formats.'),
@@ -890,19 +921,22 @@ UNIT = dict(
           'season.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['Music before recording', 'Performances made permanent',
-            'A narrower repertoire', 'What a performance is for'], 1,
-           'A singer who died in 1930, and the teaching of music.'),
+           ['Music before recording', 'Performances made permanent', 'A narrower repertoire', 'What a performance is for'],
+           1, 'A singer who died in 1930, and the teaching of music.',
+           {0: 'Music before recording is paragraph 1, the opening.', 2: 'The narrower repertoire is paragraph 3, the second '
+               'consequence.', 3: 'What a performance is for is paragraph 4, the third.'}),
           ('Choose the best heading for paragraph 5.',
-           ['A new standard, then a normal one',
-            'The definitive recording', 'Advertising the event',
-            'An exchange rather than a decline'], 0,
-           'A record assembled from the best of many attempts.'),
+           ['A new standard, then a normal one', 'The definitive recording', 'Advertising the event', 'An exchange rather than a decline'],
+           0, 'A record assembled from the best of many attempts.',
+           {1: 'The definitive recording is paragraph 3, on the '
+               'repertoire.', 2: 'Advertising the event is paragraph 6, the fourth '
+               'consequence.', 3: 'The exchange is paragraph 7, the conclusion.'}),
           ('Choose the best heading for paragraph 7.',
-           ['The commercial reversal', 'What was gained and lost',
-            'Accuracy in orchestral playing', 'Teaching from '
-            'recordings'], 1,
-           'Permanence and reach against variety and tolerance.'),
+           ['The commercial reversal', 'What was gained and lost', 'Accuracy in orchestral playing', 'Teaching from recordings'],
+           1, 'Permanence and reach against variety and tolerance.',
+           {0: 'The commercial reversal is paragraph 6, the fourth '
+               'consequence.', 2: 'Orchestral accuracy is an example inside paragraph 5.', 3: 'Teaching from recordings is in paragraph 2, the first '
+               'gain.'}),
           ('The writer believes recording has damaged music overall.',
            ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph calls it an exchange rather than a '
@@ -974,9 +1008,14 @@ UNIT = dict(
           ('He says recorded performance changed music ____________ more '
            'than any curriculum reform.', None, 'teaching',
            'Because a performance can be studied directly.'),
-          ('The narrowing of the repertoire took about forty years and '
-           'was', ['predicted', 'unwanted', 'reversed', 'measured'], 1,
-           'Nobody wanted it, he says, and it took forty years.'),
+          (
+           'The narrowing of the repertoire took about forty years and '
+           'was',
+           ['predicted', 'unwanted', 'reversed', 'measured'], 1,
+           'Nobody wanted it, he says, and it took forty years.',
+           {0: 'He says nobody wanted it, so nobody foresaw it either.', 2: 'Nothing in the lecture suggests the narrowing has '
+               'reversed.', 3: 'He gives no measurement of the narrowing, only its '
+               'direction.'}),
           ('A record, he says, is the best of forty ____________ '
            'stitched together.', None, 'attempts',
            'Which a single concert cannot match.'),
@@ -1155,20 +1194,22 @@ UNIT = dict(
           'recording the work.'],
          items=[
           ('Which paragraph describes how a recording is assembled?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
            'Forty attempts, a balance no seat would give, added '
-           'reverberation.'),
+           'reverberation.',
+           {0: 'Paragraph 1 states the dispute rather than the method.', 2: 'Paragraph 3 argues that recording is a separate art.', 3: 'Paragraph 4 rejects the comparison with film.'}),
           ('Which paragraph rejects the comparison with film?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'A film announces itself as constructed.'),
-          ('Which paragraph reports what listeners do after learning the '
-           'truth?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'They go on listening and still prefer the edited '
-           'version.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'A film announces itself as constructed.',
+           {0: 'Paragraph 2 describes how a recording is assembled.', 1: 'Paragraph 3 makes the comparison with film.', 3: 'Paragraph 5 gives the evidence for that side instead.'}),
+          (
+           'Which paragraph reports what listeners do after learning '
+           'the truth?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
+           'They go on listening and still prefer the edited version.',
+           {0: 'Paragraph 4 rejects the comparison with film.', 1: 'Paragraph 5 reports what they say, not what they do.', 3: 'Paragraph 7 builds a position from both findings.'}),
           ('The writer believes the dispute can be settled.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 1 says it probably cannot be.',
@@ -1392,11 +1433,13 @@ UNIT = dict(
           ('They disagree about whether listeners should be told how many '
            '____________ a record took.', None, 'sessions',
            'Which she says tells them nothing usable.'),
-          ('Told the truth about a favourite recording, listeners say '
+          (
+           'Told the truth about a favourite recording, listeners say '
            'they feel cheated and then',
-           ['stop listening', 'keep listening', 'complain',
-            'buy the live version'], 1,
-           'And still prefer the edited version.'),
+           ['stop listening', 'keep listening', 'complain', 'buy the live version'],
+           1, 'And still prefer the edited version.',
+           {0: 'They go on listening, which is the finding that '
+               'matters.', 2: 'Complaint is not what the evidence reports them doing.', 3: 'They choose the edited version over a live take.'}),
           ('The pianist says he is compared in the hall to a version of '
            'himself that took four ____________ to make.', None, 'days',
            'By an audience that has heard it two hundred times.'),

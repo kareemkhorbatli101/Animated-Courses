@@ -93,18 +93,21 @@ UNIT = dict(
            'month.', None, 'Saturday',
            'Paragraph 1: the charter market holds a right that predates the '
            'council.'),
-          ('Applications must arrive at least how long before the event?',
-           ['fourteen days', 'twenty-one days', 'twenty-eight days',
-            'six weeks'], 2,
-           'Paragraph 1, with no discretion in that period.'),
+          (
+           'Applications must arrive at least how long before the '
+           'event?',
+           ['fourteen days', 'twenty-one days', 'twenty-eight days', 'six weeks'],
+           2, 'Paragraph 1, with no discretion in that period.',
+           {0: 'Shorter than the notice period paragraph 1 requires.', 1: 'Still short of the twenty-eight days required.', 3: 'Six weeks is the lead time for street trading consent.'}),
           ('The refundable deposit is held against ____________.', None,
            'reinstatement',
            'Paragraph 2, returned within ten working days if nothing needs '
            'making good.'),
           ('The insurance certificate must be produced',
-           ['on the day', 'before the hire is confirmed', 'within a week '
-            'after', 'only if asked'], 1,
-           'Paragraph 3: the council is not insured for your event.'),
+           ['on the day', 'before the hire is confirmed', 'within a week after', 'only if asked'],
+           1, 'Paragraph 3: the council is not insured for your event.',
+           {0: 'Paragraph 3 says not on the day.', 2: 'The certificate is needed before confirmation, not '
+               'after.', 3: 'It is required in every case, not only on request.'}),
           ('The decibel limit is measured at the ____________ of the '
            'residential block.', None, 'facade',
            'Paragraph 4, and not at the speakers, which is the usual '
@@ -356,21 +359,39 @@ UNIT = dict(
           'the square has a roof over part of it, which is why we are here '
           'when it rains and why they would rather we were not.'],
          items=[
-          ('Which person wants people to stay longer for commercial '
-           'reasons?', ['Clementine', 'Everard', 'Marguerite',
-            'Obadiah'], 0,
-           'A person sitting down buys a second coffee.'),
-          ('Which person admits that their own rules exclude innocent '
-           'users?', ['Clementine', 'Everard', 'Marguerite',
-            'Obadiah'], 1,
-           'And says he is not pretending the trade-off is absent.'),
-          ('Which person has stopped using the square because of the '
-           'seating?', ['Clementine', 'Everard', 'Marguerite',
-            'Obadiah'], 2,
-           'She now sits in the library instead.'),
-          ('Which person says the design was aimed at people like them?',
+          (
+           'Which person wants people to stay longer for commercial '
+           'reasons?',
+           ['Clementine', 'Everard', 'Marguerite', 'Obadiah'], 0,
+           'A person sitting down buys a second coffee.',
+           {1: 'Everard admits that their own rules exclude innocent '
+               'users.', 2: 'Marguerite has stopped using the square because of the '
+               'seating.', 3: 'Obadiah says the design was aimed at people like them.'}),
+          (
+           'Which person admits that their own rules exclude innocent '
+           'users?',
+           ['Clementine', 'Everard', 'Marguerite', 'Obadiah'], 1,
+           'And says he is not pretending the trade-off is absent.',
+           {0: 'Clementine wants people to stay longer for commercial '
+               'reasons.', 2: 'Marguerite has stopped using the square because of the '
+               'seating.', 3: 'Obadiah says the design was aimed at people like them.'}),
+          (
+           'Which person has stopped using the square because of the '
+           'seating?',
+           ['Clementine', 'Everard', 'Marguerite', 'Obadiah'], 2,
+           'She now sits in the library instead.',
+           {0: 'Clementine wants people to stay longer for commercial '
+               'reasons.', 1: 'Everard admits that their own rules exclude innocent '
+               'users.', 3: 'Obadiah says the design was aimed at people like them.'}),
+          (
+           'Which person says the design was aimed at people like '
+           'them?',
            ['Clementine', 'Everard', 'Marguerite', 'Obadiah'], 3,
-           'And that the alternatives have closed.'),
+           'And that the alternatives have closed.',
+           {0: 'Clementine wants people to stay longer for commercial '
+               'reasons.', 1: 'Everard admits that their own rules exclude innocent '
+               'users.', 2: 'Marguerite has stopped using the square because of the '
+               'seating.'}),
           (
            'Clementine was consulted about the benches before they '
            'were chosen.', ['Yes', 'No', 'Not Given'], 1,
@@ -434,30 +455,33 @@ UNIT = dict(
           ('Thomasina', 'Say that in the report too.')],
          items=[
           ('Ignatius defends the arm rails as',
-           ['a comfort feature', 'a measure to prevent lying down',
-            'a cost saving', 'a legal requirement'], 1,
-           'And says he would rather defend them honestly.'),
+           ['a comfort feature', 'a measure to prevent lying down', 'a cost saving', 'a legal requirement'],
+           1, 'And says he would rather defend them honestly.',
+           {0: 'He says he would rather not pretend they are for '
+               'comfort.', 2: 'Cost saving is not the purpose he defends.', 3: 'No legal requirement is mentioned for the rails.'}),
           ('What happened to the sleeping?',
-           ['It stopped', 'It moved to the underpass', 'It increased',
-            'It was not measured'], 1,
-           'Which he accepts is worse for everybody.'),
+           ['It stopped', 'It moved to the underpass', 'It increased', 'It was not measured'],
+           1, 'Which he accepts is worse for everybody.',
+           {0: 'He says the sleeping moved rather than stopped.', 2: 'He does not report an increase overall.', 3: 'He knows where it went, so it was observed.'}),
           ('Dwell time after installation fell by about',
-           ['ten per cent', 'twenty-five per cent', 'forty per cent',
-            'sixty per cent'], 2,
+           ['ten per cent', 'twenty-five per cent', 'forty per cent', 'sixty per cent'],
+           2,
            'Measured the same way before and after, with kiosk takings '
-           'falling too.'),
+           'falling too.',
+           {0: 'Smaller than the fall he reports.', 1: 'Still below the drop he measured.', 3: 'Larger than the figure he gives.'}),
           ('Who was most harmed, according to Ignatius?',
-           ['people sleeping there', 'an elderly woman wanting a back and '
-            'arms', 'the kiosk owner', 'teenagers'], 1,
-           'Not the person the design was aimed against.'),
+           ['people sleeping there', 'an elderly woman wanting a back and arms', 'the kiosk owner', 'teenagers'],
+           1, 'Not the person the design was aimed against.',
+           {0: 'The people sleeping were who the design was aimed '
+               'against.', 2: 'The kiosk lost takings but is not who he names.', 3: 'Teenagers are not mentioned in the exchange.'}),
           ('Thomasina would have proposed',
-           ['no seating', 'backs and arms on half the seating and evening '
-            'staff', 'more rails', 'closing the square at night'], 1,
-           'A social answer rather than a physical one.'),
+           ['no seating', 'backs and arms on half the seating and evening staff', 'more rails', 'closing the square at night'],
+           1, 'A social answer rather than a physical one.',
+           {0: 'Removing seating is the opposite of what she wants.', 2: 'More rails is what she objects to.', 3: 'Closing the square is not her proposal.'}),
           ('Why does her option lose?',
-           ['It is unpopular', 'It needs revenue funding rather than '
-            'capital', 'It is unlawful', 'It is untested'], 1,
-           'Capital money is available and revenue money is not.')])],
+           ['It is unpopular', 'It needs revenue funding rather than capital', 'It is unlawful', 'It is untested'],
+           1, 'Capital money is available and revenue money is not.',
+           {0: 'Popularity is not the obstacle she names.', 2: 'Legality is not raised by either designer.', 3: 'She treats a staffed presence as known to work.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Public space',
     longturn=[('The public place I want to describe is a square outside a '
@@ -665,19 +689,24 @@ UNIT = dict(
            'be.', None, 'public toilets',
            'Paragraph 3, demolished in 2003 and not replaced.'),
           ('Which paragraph lists what was removed outright?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 0,
-           'The bus station, the car park and the public toilets, with the '
-           'toilets never replaced.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           0,
+           'The bus station, the car park and the public toilets, with '
+           'the toilets never replaced.',
+           {1: 'Paragraph 3 lists what was added.', 2: 'Paragraph 4 lists what was converted.', 3: 'Paragraph 5 lists what did not change.'}),
           ('Which paragraph lists what did not change?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'The lime trees to the south-east and Fenwick Street along the '
-           'southern edge.'),
-          ('Which paragraph describes a change of use rather than of '
-           'fabric?', ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'Two-way traffic becoming pedestrian only in 1994.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
+           'The lime trees to the south-east and Fenwick Street along '
+           'the southern edge.',
+           {0: 'Paragraph 3 lists what was added.', 1: 'Paragraph 4 lists what was converted.', 3: 'Paragraph 6 describes a change of use rather than of '
+               'fabric.'}),
+          (
+           'Which paragraph describes a change of use rather than of '
+           'fabric?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2, 'Two-way traffic becoming pedestrian only in 1994.',
+           {0: 'Paragraph 4 lists what was converted.', 1: 'Paragraph 5 lists what did not change.', 3: 'Paragraph 7 explains the grouping itself.'}),
           ('The Corn Exchange is now occupied by ____________.', None,
            'cafes',
            'Paragraph 4: converted rather than replaced, same footprint and '
@@ -727,29 +756,31 @@ UNIT = dict(
          items=[
           ('The bus station closed in',
            ['1965', '1981', '1994', '2003'], 1,
-           'With the interchange function moving to the ring road.'),
+           'With the interchange function moving to the ring road.',
+           {0: '1965 is the date of the earlier plan.', 2: '1994 is when the car park and the traffic went.', 3: '2003 is when the toilets were demolished.'}),
           ('What now stands on the former public toilets site?',
-           ['the library', 'the market hall', 'a kiosk with seating',
-            'the water feature'], 2,
+           ['the library', 'the market hall', 'a kiosk with seating', 'the water feature'],
+           2,
            'In the north-west corner, where the toilets stood until '
-           '2003.'),
+           '2003.',
+           {0: 'The library stands on the bus station footprint.', 1: 'The market hall stands where the open stalls were.', 3: 'The water feature replaced the ornamental fountain.'}),
           ('The Corn Exchange is described as',
            ['removed', 'added', 'converted', 'unchanged'], 2,
-           'Same footprint, height and name; cafes instead of grain.'),
+           'Same footprint, height and name; cafes instead of grain.',
+           {0: 'It is still standing, so not removed.', 1: 'It predates the square\u2019s redesign, so not added.', 3: 'Its use changed, so not unchanged.'}),
           ('Why does the rebuilt fountain matter?',
-           ['it is cheaper', 'it can be switched off for events',
-            'it is larger', 'it is historic'], 1,
-           'Which the 1965 fountain could not be.'),
+           ['it is cheaper', 'it can be switched off for events', 'it is larger', 'it is historic'],
+           1, 'Which the 1965 fountain could not be.',
+           {0: 'Cost is not the reason he gives.', 2: 'Size is not what he says matters about it.', 3: 'The Corn Exchange is the oldest structure, not the '
+               'fountain.'}),
           ('Which items does he describe as unchanged?',
-           ['the Corn Exchange and the fountain',
-            'the lime trees and Fenwick Street',
-            'the market hall and the kiosk', 'the car park and the '
-            'stalls'], 1,
-           'And asks for it to go in the minutes.'),
+           ['the Corn Exchange and the fountain', 'the lime trees and Fenwick Street', 'the market hall and the kiosk', 'the car park and the stalls'],
+           1, 'And asks for it to go in the minutes.',
+           {0: 'The Corn Exchange and the fountain were converted.', 2: 'The market hall and the kiosk were added.', 3: 'The car park was removed and the stalls were roofed.'}),
           ('The change he says altered the square most was',
-           ['the library', 'the market hall',
-            'the removal of traffic in 1994', 'the new paving'], 2,
-           'Achieved without building anything.')])],
+           ['the library', 'the market hall', 'the removal of traffic in 1994', 'the new paving'],
+           2, 'Achieved without building anything.',
+           {0: 'The library is one of the three additions.', 1: 'The market hall is another of the additions.', 3: 'Paving is not among the changes he lists.'})])],
    speak=dict(
     part='Part 3', focus='Redesigning a public place',
     intro=('Five or six sentences. Try once to name a change that cost '
@@ -980,17 +1011,19 @@ UNIT = dict(
           'purpose.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['The claim of passage', 'The claim of dwelling',
-            'The claim of trade', 'Why rules exclude'], 1,
-           'Seating, shade, shelter, and users with no alternative.'),
+           ['The claim of passage', 'The claim of dwelling', 'The claim of trade', 'Why rules exclude'],
+           1, 'Seating, shade, shelter, and users with no alternative.',
+           {0: 'The claim of passage is paragraph 2.', 2: 'The claim of trade is paragraph 4.', 3: 'Why rules exclude is paragraph 6.'}),
           ('Choose the best heading for paragraph 5.',
-           ['The claim of trade', 'Why the claims cannot all be met',
-            'Problems with consultation', 'Measurement'], 1,
-           'Seating obstructs passage; width removes enclosure.'),
+           ['The claim of trade', 'Why the claims cannot all be met', 'Problems with consultation', 'Measurement'],
+           1, 'Seating obstructs passage; width removes enclosure.',
+           {0: 'The claim of trade is paragraph 4.', 2: 'Consultation problems are paragraph 7.', 3: 'Measurement is paragraph 8.'}),
           ('Choose the best heading for paragraph 9.',
-           ['Measurement', 'Displacement rather than resolution',
-            'The claim of dwelling', 'Naming the loser'], 1,
-           'A removed use moves somewhere less overlooked and less safe.'),
+           ['Measurement', 'Displacement rather than resolution', 'The claim of dwelling', 'Naming the loser'],
+           1,
+           'A removed use moves somewhere less overlooked and less '
+           'safe.',
+           {0: 'Measurement is paragraph 8.', 2: 'The claim of dwelling is the heading for paragraph 3.', 3: 'Naming the loser is paragraph 10.'}),
           (
            'The writer believes those who cross a square are well '
            'represented in consultations.',
@@ -1070,29 +1103,30 @@ UNIT = dict(
            'square before you touch it.')],
          items=[
           ('Which sentence does the lecturer want to retire?',
-           ['"squares are for trade"', '"this square should be for '
-            'people"', '"consultation works"', '"design solves '
-            'conflict"'], 1,
-           'Because every party to such a dispute is a person.'),
+           ['"squares are for trade"', '"this square should be for people"', '"consultation works"', '"design solves conflict"'],
+           1, 'Because every party to such a dispute is a person.',
+           {0: 'Trade is one of the three claims, not the sentence.', 2: 'He criticises consultation but not with that sentence.', 3: 'He argues design cannot resolve the conflict, '
+               'separately.'}),
           ('Which claim does he say consultation hears worst?',
            ['passage', 'dwelling', 'trade', 'residents'], 0,
-           'Numerous, in a hurry, and never at the meeting.'),
+           'Numerous, in a hurry, and never at the meeting.',
+           {1: 'Dwelling users are visible and attend when they can.', 2: 'Trade pays rent and has a reliable voice.', 3: 'Residents are heard through the noise rules.'}),
           ('For dwelling users, he says a square is',
-           ['an amenity', 'the only room available', 'a thoroughfare',
-            'a workplace'], 1,
-           'So designing them out sends them nowhere better.'),
+           ['an amenity', 'the only room available', 'a thoroughfare', 'a workplace'],
+           1, 'So designing them out sends them nowhere better.',
+           {0: 'An amenity is what it is for other users.', 2: 'A thoroughfare is what passage wants.', 3: 'A workplace is what trade makes of it.'}),
           ('Why does trade have a reliable voice?',
-           ['it is better organised', 'it pays rent', 'it is more '
-            'numerous', 'it is legally privileged'], 1,
-           'Which buys it a telephone number at the council.'),
+           ['it is better organised', 'it pays rent', 'it is more numerous', 'it is legally privileged'],
+           1, 'Which buys it a telephone number at the council.',
+           {0: 'Organisation is not the reason he gives.', 2: 'Passage is the most numerous claim.', 3: 'No legal privilege is described for trade.'}),
           ('The incompatibility of the three claims is',
-           ['a matter of personality', 'structural, given a finite '
-            'square', 'caused by bad consultation', 'recent'], 1,
-           'Seating obstructs passage; width destroys enclosure.'),
+           ['a matter of personality', 'structural, given a finite square', 'caused by bad consultation', 'recent'],
+           1, 'Seating obstructs passage; width destroys enclosure.',
+           {0: 'He says it is not a matter of personality.', 2: 'Consultation is a separate aggravating feature.', 3: 'The conflict is as old as the square.'}),
           ('His single empirical finding is that removing a use',
-           ['ends it', 'displaces it somewhere worse', 'reduces it '
-            'slightly', 'has no effect'], 1,
-           'The underpass being the standard destination.')])],
+           ['ends it', 'displaces it somewhere worse', 'reduces it slightly', 'has no effect'],
+           1, 'The underpass being the standard destination.',
+           {0: 'He says the use is displaced, not ended.', 2: 'He reports relocation rather than reduction.', 3: 'The effect is real and recurs in study after study.'})])],
    speak=dict(
     part='Part 3', focus='Rules in shared places',
     followup=[(('You say the design excludes people. Who is usually left out '
@@ -1333,18 +1367,24 @@ UNIT = dict(
           'measured and published, and the ownership question becomes '
           'considerably less interesting than it looks.'],
          items=[
-          ('Which paragraph explains why the private square is better '
-           'maintained?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'Tenants’ rents depend on the square being attractive.'),
+          (
+           'Which paragraph explains why the private square is better '
+           'maintained?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
+           'Tenants\u2019 rents depend on the square being attractive.',
+           {0: 'Paragraph 2 describes the three squares.', 1: 'Paragraph 3 gives the condition ranking.', 3: 'Paragraph 5 reverses the picture on use.'}),
           ('Which paragraph lists the mechanisms of exclusion?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
-           'Angled seating, security, no lavatory, overnight closure.'),
-          ('Which paragraph identifies the reporting requirement as the '
-           'key difference?', ['Paragraph 7', 'Paragraph 8',
-            'Paragraph 9', 'Paragraph 10'], 2,
-           'A number that must be published gets managed.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1,
+           'Angled seating, security, no lavatory, overnight closure.',
+           {0: 'Paragraph 5 reverses the picture on use.', 2: 'Paragraph 7 explains why the aggregate matters.', 3: 'Paragraph 8 describes the trust square.'}),
+          (
+           'Which paragraph identifies the reporting requirement as '
+           'the key difference?',
+           ['Paragraph 7', 'Paragraph 8', 'Paragraph 9', 'Paragraph 10'],
+           2, 'A number that must be published gets managed.',
+           {0: 'Paragraph 7 explains why the aggregate matters.', 1: 'Paragraph 8 describes the trust square.', 3: 'Paragraph 10 reframes the policy question.'}),
           (
            'The writer believes the private manager is behaving badly.',
            ['Yes', 'No', 'Not Given'], 1,
@@ -1424,29 +1464,34 @@ UNIT = dict(
            'than an ownership argument.')],
          items=[
           ('Osei-Lindqvist opens by',
-           ['disputing the figures', 'stating the figure used against him',
-            'blaming the council', 'refusing to comment'], 1,
-           'Users over seventy down by about half.'),
+           ['disputing the figures', 'stating the figure used against him', 'blaming the council', 'refusing to comment'],
+           1, 'Users over seventy down by about half.',
+           {0: 'He states the figures rather than disputing them.', 2: 'He credits the council square with better composition '
+               'of use.', 3: 'He comments at length from the outset.'}),
           ('What does he admit he is uncomfortable defending?',
-           ['collecting the data', 'collecting but not publishing it',
-            'the condition scores', 'the security contract'], 1,
-           'A distinction he draws himself.'),
+           ['collecting the data', 'collecting but not publishing it', 'the condition scores', 'the security contract'],
+           1, 'A distinction he draws himself.',
+           {0: 'He is comfortable with collecting the data.', 2: 'He defends the condition scores as real.', 3: 'He defends each security decision as reasonable.'}),
           ('Achterberg says she has stopped arguing about',
            ['money', 'motives', 'design', 'ownership'], 1,
-           'Accepting that the pattern was nobody’s intention.'),
+           'Accepting that the pattern was nobody\u2019s intention.',
+           {0: 'Money is not what she says she has dropped.', 2: 'Design is what she still discusses, measure by '
+               'measure.', 3: 'Ownership is what she drops only at the very end.'}),
           ('She describes "better kept and less used" as',
-           ['a contradiction', 'both true and not a contradiction',
-            'unproven', 'irrelevant'], 1,
-           'And says she cannot get it into a press release.'),
+           ['a contradiction', 'both true and not a contradiction', 'unproven', 'irrelevant'],
+           1, 'And says she cannot get it into a press release.',
+           {0: 'She says they are not in contradiction.', 2: 'Both halves are supported by the figures.', 3: 'She treats both halves as central.'}),
           ('What does she actually ask for?',
-           ['public ownership', 'annual publication of composition of '
-            'use', 'removal of security', 'longer opening hours'], 1,
+           ['public ownership', 'annual publication of composition of use', 'removal of security', 'longer opening hours'],
+           1,
            'Age bands, dwell time and refusals, beside the condition '
-           'scores.'),
+           'scores.',
+           {0: 'She says explicitly that she does not want his keys.', 2: 'She accepts the security as lawful and asks for '
+               'reporting.', 3: 'Opening hours are one mechanism, not her request.'}),
           ('Why does he say the clause would work?',
-           ['it is cheap', 'he manages what he is asked about',
-            'it is legally binding', 'his tenants want it'], 1,
-           'And says this is not to his credit.')])],
+           ['it is cheap', 'he manages what he is asked about', 'it is legally binding', 'his tenants want it'],
+           1, 'And says this is not to his credit.',
+           {0: 'Cost is low, but not the reason he gives.', 2: 'He offers to sign it, so no obligation yet exists.', 3: 'His tenants ask about condition, not composition.'})])],
    speak=dict(
     part='Part 3', focus='Who decides how a place is used',
     sounds=[('Place and design words in this unit are compounds and take the '

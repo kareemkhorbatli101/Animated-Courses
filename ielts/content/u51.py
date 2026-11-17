@@ -363,20 +363,32 @@ UNIT = dict(
           'is that the closure has no support in the data, which is weaker '
           'than saying it did nothing.'],
          items=[
-          ('Which person has publicly given up a claim their own evaluation '
-           'could not support?',
+          (
+           'Which person has publicly given up a claim their own '
+           'evaluation could not support?',
            ['Vasquez-Oyelaran', 'Thaddeus', 'Perpetua', 'Ignatius'], 0,
-           'And calls the position uncomfortable to hold.'),
+           'And calls the position uncomfortable to hold.',
+           {1: 'Thaddeus offers a different cause operating earlier.', 2: 'Perpetua points to a place that changed nothing.', 3: 'Ignatius warns that the comparison was not chosen in '
+               'advance.'}),
           ('Which person offers a different cause operating earlier?',
            ['Vasquez-Oyelaran', 'Thaddeus', 'Perpetua', 'Ignatius'], 1,
-           'A bank branch closing four months before the road.'),
+           'A bank branch closing four months before the road.',
+           {0: 'Vasquez-Oyelaran has publicly given up a claim their '
+               'own evaluation could not support.', 2: 'Perpetua points to a place that changed nothing.', 3: 'Ignatius warns that the comparison was not chosen in '
+               'advance.'}),
           ('Which person points to a place that changed nothing?',
            ['Vasquez-Oyelaran', 'Thaddeus', 'Perpetua', 'Ignatius'], 2,
-           'And says she has circulated the figure twice.'),
-          ('Which person warns that the comparison was not chosen in '
+           'And says she has circulated the figure twice.',
+           {0: 'Vasquez-Oyelaran has publicly given up a claim their '
+               'own evaluation could not support.', 1: 'Thaddeus offers a different cause operating earlier.', 3: 'Ignatius warns that the comparison was not chosen in '
+               'advance.'}),
+          (
+           'Which person warns that the comparison was not chosen in '
            'advance?',
            ['Vasquez-Oyelaran', 'Thaddeus', 'Perpetua', 'Ignatius'], 3,
-           'Distinguishing a comparison from a control.'),
+           'Distinguishing a comparison from a control.',
+           {0: 'Vasquez-Oyelaran has publicly given up a claim their '
+               'own evaluation could not support.', 1: 'Thaddeus offers a different cause operating earlier.', 2: 'Perpetua points to a place that changed nothing.'}),
           (
            'Thaddeus believes the people queueing at the bank were '
            'potential customers.',
@@ -740,20 +752,27 @@ UNIT = dict(
           'began has not, and no amount of statistical adjustment afterwards '
           'repairs it.'],
          items=[
-          ('Which paragraph gives the estimate of the zone’s effect?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
+          (
+           'Which paragraph gives the estimate of the zone\u2019s effect?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
            'Thirty-eight minus twenty-six, or twelve per hundred '
-           'thousand.'),
+           'thousand.',
+           {3: 'Paragraph 5 says the pre-policy years make the '
+               'comparison credible.'}),
           ('Which paragraph names the common trend assumption?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'And says it cannot be tested after the policy begins.'),
-          ('Which paragraph says the pre-policy years make the comparison '
-           'credible?', ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Both regions moving together from 412 and 409 down to 352 and '
-           '351.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2, 'And says it cannot be tested after the policy begins.',
+           {0: 'Paragraph 4 gives the estimate of the zone\u2019s effect.', 1: 'Paragraph 5 says the pre-policy years make the '
+               'comparison credible.'}),
+          (
+           'Which paragraph says the pre-policy years make the '
+           'comparison credible?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
+           'Both regions moving together from 412 and 409 down to 352 '
+           'and 351.',
+           {1: 'Paragraph 4 gives the estimate of the zone\u2019s effect.', 3: 'Paragraph 6 names the common trend assumption.'}),
           ('Marchwood admissions four years after the zone: ____________',
            None, '314',
            'Paragraph 2, down from 352 in the year the zone opened.'),
@@ -1469,16 +1488,22 @@ UNIT = dict(
             'Paragraph 5'], 2,
            'Immigration and wages, where every good study answers a '
            'narrower question.'),
-          ('Which paragraph describes a dispute that persists because the '
-           'answer is unwelcome?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
+          (
+           'Which paragraph describes a dispute that persists because '
+           'the answer is unwelcome?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1,
            'Which the writer calls a category error that does real '
-           'damage.'),
-          ('Which paragraph says the test requires applying it to your own '
-           'side?', ['Paragraph 6', 'Paragraph 7', 'Paragraph 8',
-            'Paragraph 9'], 2,
-           'And that few who cite it have done so.'),
+           'damage.',
+           {3: 'Paragraph 8 says the test requires applying it to your '
+               'own side.'}),
+          (
+           'Which paragraph says the test requires applying it to your '
+           'own side?',
+           ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'],
+           2, 'And that few who cite it have done so.',
+           {0: 'Paragraph 6 describes a dispute that persists because '
+               'the answer is unwelcome.'}),
           (
            'The writer believes a decision taken on a mechanism '
            'argument is arbitrary.',

@@ -60,19 +60,26 @@ UNIT = dict(
           'point of switching.'],
          items=[
           ('Which tariff has the lowest standing charge?',
-           ['Standard Variable', 'Fixed Two Year', 'Green Fixed',
-            'Economy Night'], 2,
+           ['Standard Variable', 'Fixed Two Year', 'Green Fixed', 'Economy Night'],
+           2,
            'At 48p a day, although its unit rate is the highest of the '
-           'three flat tariffs.'),
+           'three flat tariffs.',
+           {0: 'Standard Variable charges 60p a day, more than Green '
+               'Fixed.', 1: 'Fixed Two Year charges a fee for leaving early.', 3: 'Economy Night suits a household that uses power mainly '
+               'at night.'}),
           ('Which tariff charges a fee for leaving early?',
-           ['Standard Variable', 'Fixed Two Year', 'Green Fixed',
-            'Economy Night'], 1,
-           '£50 per fuel, as it is fixed until April 2027.'),
-          ('Which tariff suits a household that uses power mainly at '
+           ['Standard Variable', 'Fixed Two Year', 'Green Fixed', 'Economy Night'],
+           1, '\u00a350 per fuel, as it is fixed until April 2027.',
+           {0: 'Standard Variable has no fixed term and no exit '
+               'charge.', 2: 'Green Fixed has the lowest standing charge.', 3: 'Economy Night suits a household that uses power mainly '
+               'at night.'}),
+          (
+           'Which tariff suits a household that uses power mainly at '
            'night?',
-           ['Standard Variable', 'Fixed Two Year', 'Green Fixed',
-            'Economy Night'], 3,
-           'At 11.2p between midnight and 07.00.'),
+           ['Standard Variable', 'Fixed Two Year', 'Green Fixed', 'Economy Night'],
+           3, 'At 11.2p between midnight and 07.00.',
+           {0: 'Standard Variable charges one rate at every hour of '
+               'the day.', 1: 'Fixed Two Year charges a fee for leaving early.', 2: 'Green Fixed has the lowest standing charge.'}),
           ('The Standard Variable rate may change with ____________ '
            'days’ notice.', None, '30',
            'It has no fixed term and no exit charge.'),
@@ -164,10 +171,14 @@ UNIT = dict(
           ('The agent asks the customer to ____________ the meter '
            'today.', None, 'photograph',
            'Because it settles any later argument.'),
-          ('The customer should NOT contact the old supplier because it '
-           'may', ['delay the bill', 'stop the switch', 'cost a fee',
-            'cancel the tariff'], 1,
-           'The new supplier arranges everything.'),
+          (
+           'The customer should NOT contact the old supplier because '
+           'it may',
+           ['delay the bill', 'stop the switch', 'cost a fee', 'cancel the tariff'],
+           1, 'The new supplier arranges everything.',
+           {0: 'The bill is not what the call warns about if you ring '
+               'them.', 2: 'No fee is mentioned for contacting the old supplier.', 3: 'The tariff is with the new supplier, so it is not at '
+               'risk.'}),
           ('The switch will happen on the ____________ of next month.',
            None, 'sixth',
            'After fourteen days plus five working days.'),
@@ -313,17 +324,32 @@ UNIT = dict(
           ('Which household got its money back fastest?',
            ['Ptolemy', 'Nkechi', 'Oriane', 'Rasmus'], 1,
            'Ninety pounds spent and a hundred and forty saved in a '
-           'year.'),
-          ('Which household had work done that had largely been done '
-           'before?', ['Ptolemy', 'Nkechi', 'Oriane', 'Rasmus'], 2,
-           'The loft was insulated in the 1980s.'),
-          ('Which household took the saving as warmth rather than '
-           'money?', ['Ptolemy', 'Nkechi', 'Oriane', 'Rasmus'], 3,
-           'Heating rooms that had always been cold.'),
-          ('Which household expects not to live long enough to recover '
+           'year.',
+           {0: 'Ptolemy expects not to live long enough to recover the '
+               'cost.', 2: 'Oriane had work done that had largely been done '
+               'before.', 3: 'Rasmus took the saving as warmth rather than money.'}),
+          (
+           'Which household had work done that had largely been done '
+           'before?',
+           ['Ptolemy', 'Nkechi', 'Oriane', 'Rasmus'], 2,
+           'The loft was insulated in the 1980s.',
+           {0: 'Ptolemy expects not to live long enough to recover the '
+               'cost.', 1: 'Nkechi got its money back fastest.', 3: 'Rasmus took the saving as warmth rather than money.'}),
+          (
+           'Which household took the saving as warmth rather than '
+           'money?',
+           ['Ptolemy', 'Nkechi', 'Oriane', 'Rasmus'], 3,
+           'Heating rooms that had always been cold.',
+           {0: 'Ptolemy expects not to live long enough to recover the '
+               'cost.', 1: 'Nkechi got its money back fastest.', 2: 'Oriane had work done that had largely been done '
+               'before.'}),
+          (
+           'Which household expects not to live long enough to recover '
            'the cost?',
            ['Ptolemy', 'Nkechi', 'Oriane', 'Rasmus'], 0,
-           'Thirteen years at sixty-eight.'),
+           'Thirteen years at sixty-eight.',
+           {1: 'Nkechi got its money back fastest.', 2: 'Oriane had work done that had largely been done '
+               'before.', 3: 'Rasmus took the saving as warmth rather than money.'}),
           ('Ptolemy regrets having the work done.',
            ['Yes', 'No', 'Not Given'], 1,
            'He says he did it anyway and would do it for the house.',
@@ -372,9 +398,10 @@ UNIT = dict(
            '____________ period.', None, 'payback',
            'Cost divided by annual saving.'),
           ('Draught-proofing is paid back in about',
-           ['six months', 'fourteen months', 'three years',
-            'five years'], 1,
-           'About sixty pounds spent and fifty saved a year.'),
+           ['six months', 'fourteen months', 'three years', 'five years'],
+           1, 'About sixty pounds spent and fifty saved a year.',
+           {0: 'Faster than sixty pounds divided by fifty a year '
+               'allows.', 2: 'Just under three years is the loft insulation figure.', 3: 'No measure in the talk has a five-year payback.'}),
           ('Wall insulation takes ____________ to twenty years to pay '
            'back.', None, 'thirteen',
            'For a cost of four to seven thousand pounds.'),
@@ -564,18 +591,25 @@ UNIT = dict(
           'changed less than their role has.'],
          items=[
           ('Which paragraph explains why gas has not fallen?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 3,
-           'It does the work of covering wind and solar.'),
-          ('Which paragraph warns that a falling share can be a rising '
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           3, 'It does the work of covering wind and solar.',
+           {0: 'Paragraph 3 groups the three sources that barely move.', 1: 'Paragraph 4 warns that a falling share can be a rising '
+               'amount.', 2: 'Paragraph 5 explains why the exchange was not like for '
+               'like.'}),
+          (
+           'Which paragraph warns that a falling share can be a rising '
            'amount?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'Because total generation rose by a fifth.'),
-          ('Which paragraph groups the three sources that barely move?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Gas, nuclear and hydro, changing five points in total.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'Because total generation rose by a fifth.',
+           {0: 'Paragraph 2 reports the coal, wind and solar changes.', 1: 'Paragraph 3 groups the three sources that barely move.', 3: 'Paragraph 5 explains why the exchange was not like for '
+               'like.'}),
+          (
+           'Which paragraph groups the three sources that barely move?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Gas, nuclear and hydro, changing five points in total.',
+           {0: 'Paragraph 2 covers the two sources that change most.', 2: 'Paragraph 4 warns that a falling share can be a rising '
+               'amount.', 3: 'Paragraph 5 explains why the exchange was not like for '
+               'like.'}),
           ('Coal falls from 41 per cent to ____________ per cent.', None,
            '4', 'Matched almost exactly by the rise in wind and solar.'),
           ('Total generation rose by about a ____________ over the '
@@ -632,17 +666,23 @@ UNIT = dict(
           ('The councillor wants to publish that the county is '
            '____________ per cent renewable.', None, 'eighty',
            'Measured over the electricity generated in a year.'),
-          ('The engineer says the figure is true but will be '
+          (
+           'The engineer says the figure is true but will be '
            'misunderstood as describing any given',
            ['county', 'moment', 'season', 'station'], 1,
-           'Rather than as the annual total it actually is.'),
+           'Rather than as the annual total it actually is.',
+           {0: 'The county is what the figure is about, not what is '
+               'misread.', 2: 'A season is nearer the truth than the moment readers '
+               'assume.', 3: 'No individual station is described by the figure.'}),
           ('On a still January evening the county imports about '
            '____________ per cent of what it uses.', None, 'seventy',
            'Down a wire from somewhere with gas at the end of it.'),
           ('He advises printing the figure together with a second',
            ['figure', 'sentence', 'chart', 'source'], 1,
-           'Naming the reliance on neighbours on the hardest '
-           'evenings.'),
+           'Naming the reliance on neighbours on the hardest evenings.',
+           {0: 'A second figure is not what he asks for; a sentence '
+               'is.', 2: 'No chart is suggested anywhere in the conversation.', 3: 'The source of the figure is not in dispute between '
+               'them.'}),
           ('The councillor objects that the second sentence will be '
            'quoted against her by people who want a ____________ '
            'station.', None, 'gas',
@@ -695,7 +735,8 @@ UNIT = dict(
          items=[
           ('Supply must be matched to demand every',
            ['hour', 'second', 'day', 'month'], 1,
-           'Not on average, which is the point the charts cannot show.'),
+           'Not on average, which is the point the charts cannot show.',
+           {0: 'An hour is far too long for the matching he describes.', 2: 'A day is the period he says people wrongly imagine.', 3: 'A month is the averaging the charts already do.'}),
           ('In this country, the source that covers the gap is '
            '____________.', None, 'gas',
            'Which is why its share has not fallen.'),
@@ -707,7 +748,9 @@ UNIT = dict(
            'Rather than for an average hour of the year.'),
           ('The costs he describes are invisible in the price of a',
            ['station', 'unit', 'licence', 'connection'], 1,
-           'Starting stations and keeping them available.'),
+           'Starting stations and keeping them available.',
+           {0: 'A station has a price, but it is not the one he names.', 2: 'Licences are not mentioned anywhere in the talk.', 3: 'Connection costs are part of what the unit price '
+               'hides.'}),
           ('His argument is against the claim that a cheaper unit means a '
            'cheaper ____________.', None, 'system',
            'Which he says are two different numbers.')])],
@@ -893,19 +936,24 @@ UNIT = dict(
           'has done so.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['Why electricity cannot be stored',
-            'A system that works by instruction',
-            'The three responses', 'Building more than is needed'], 1,
+           ['Why electricity cannot be stored', 'A system that works by instruction', 'The three responses', 'Building more than is needed'],
+           1,
            'Stations are told what to produce, and demand is '
-           'predictable.'),
+           'predictable.',
+           {0: 'Why electricity cannot be stored is paragraph 1.', 2: 'The three responses are paragraphs 4 to 6.', 3: 'Building more than is needed is the heading for '
+               'paragraph 6.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Keeping stations idle', 'What storage can and cannot do',
-            'Curtailment', 'Two different costs'], 1,
-           'Minutes to hours well; a still winter week not.'),
+           ['Keeping stations idle', 'What storage can and cannot do', 'Curtailment', 'Two different costs'],
+           1, 'Minutes to hours well; a still winter week not.',
+           {0: 'Keeping stations idle is paragraph 4, the first '
+               'response.', 2: 'Curtailment is paragraph 6, the third response.', 3: 'The two different costs are paragraph 7, the '
+               'conclusion.'}),
           ('Choose the best heading for paragraph 6.',
-           ['Storage', 'Building more than is needed',
-            'Forecasting', 'Demand prediction'], 1,
-           'Which produces output nobody can use on good days.'),
+           ['Storage', 'Building more than is needed', 'Forecasting', 'Demand prediction'],
+           1, 'Which produces output nobody can use on good days.',
+           {0: 'Storage is paragraph 5, the second response.', 2: 'Forecasting is paragraph 3, where a day ahead is good '
+               'enough.', 3: 'Demand prediction is paragraph 2, under the old '
+               'system.'}),
           (
            'The writer believes the main difficulty with wind is that '
            'its output is unpredictable.',
@@ -977,7 +1025,9 @@ UNIT = dict(
            'Which makes a conventional system an instruction problem.'),
           ('He says the problem with wind is not that the forecast is',
            ['late', 'poor', 'expensive', 'regional'], 1,
-           'Knowing a shortage is coming produces no electricity.'),
+           'Knowing a shortage is coming produces no electricity.',
+           {0: 'Lateness is not the complaint; a day ahead is enough.', 2: 'Cost is the subject of the three answers, not the '
+               'forecast.', 3: 'Regional detail is not raised in the lecture.'}),
           ('Keeping a gas station available but idle saves the '
            '____________ and not the other costs.', None, 'fuel',
            'The station, the staff and the connection are still paid '
@@ -987,7 +1037,10 @@ UNIT = dict(
            'But not a still cold week in January.'),
           ('Switching off unwanted output is called',
            ['balancing', 'curtailment', 'firming', 'dispatch'], 1,
-           'And it is usually paid for anyway.'),
+           'And it is usually paid for anyway.',
+           {0: 'Balancing is the operator\u2019s whole job, not this one '
+               'act.', 2: 'No such term appears in the lecture.', 3: 'Dispatch is telling a station to run, which is the '
+               'opposite.'}),
           ('His conclusion is that the cheapest electricity can make the '
            'most expensive ____________.', None, 'system',
            'Which he insists is not an argument against wind.')])],
@@ -1151,22 +1204,31 @@ UNIT = dict(
           'and the first half travels perfectly well on its own provided '
           'nobody pretends it is the second.'],
          items=[
-          ('Which paragraph lists the three kinds of cost the measure '
+          (
+           'Which paragraph lists the three kinds of cost the measure '
            'omits?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'Standby, network and discarded output.'),
-          ('Which paragraph explains why the costs depend on the existing '
-           'share?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'Standby, network and discarded output.',
+           {0: 'Paragraph 2 explains how the measure is calculated.', 1: 'Paragraph 3 says the costs exist without listing them.', 3: 'Paragraph 5 explains why the costs depend on the '
+               'existing share.'}),
+          (
+           'Which paragraph explains why the costs depend on the '
+           'existing share?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
            'Close to nothing at a small share, growing faster than the '
-           'share.'),
+           'share.',
+           {0: 'Paragraph 3 says the omitted costs are real and paid.', 1: 'Paragraph 4 lists the three kinds of cost the measure '
+               'omits.', 3: 'Paragraph 6 resolves an apparent contradiction.'}),
           ('Which paragraph resolves an apparent contradiction?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
            'Adding wind can reduce or raise costs depending on the '
-           'system.'),
+           'system.',
+           {0: 'Paragraph 4 lists the three kinds of cost the measure '
+               'omits.', 1: 'Paragraph 5 explains why the costs depend on the '
+               'existing share.', 3: 'Paragraph 7 states the honest version with its '
+               'condition.'}),
           (
            'The writer believes the cost-per-unit figure is calculated '
            'incorrectly.', ['Yes', 'No', 'Not Given'], 1,
@@ -1237,22 +1299,29 @@ UNIT = dict(
          items=[
           ('Dr Castellanos admits he quotes the per-unit figure in',
            ['papers', 'public', 'evidence', 'contracts'], 1,
-           'And the system figure in papers.'),
+           'And the system figure in papers.',
+           {0: 'Papers are where he says he quotes the system figure.', 2: 'Evidence is not where he admits the slip.', 3: 'Contracts are not mentioned by either speaker.'}),
           ('Professor Yıldırım admits he treats system costs as fixed '
            'properties of a ____________.', None, 'technology',
            'Although they depend on existing share.'),
           ('He drops the condition in public because it weakens the',
            ['evidence', 'sentence', 'funding', 'model'], 1,
-           'Which he names as his own weakest point.'),
+           'Which he names as his own weakest point.',
+           {0: 'The evidence is unchanged; it is the sentence that '
+               'weakens.', 2: 'Funding is not what either of them says is at stake.', 3: 'The model is not what the condition belongs to.'}),
           ('His concern is the next ____________ points of share.', None,
            'twenty', 'Rather than the twenty points already achieved.'),
           ('They agree that nobody should quote a per-unit cost without '
            'saying which they ____________.', None, 'mean',
            'A rule they say would remove most bad argument.'),
-          ('Castellanos adds that the rule would also remove most bad '
-           'argument', ['against wind', 'about storage', 'in '
-            'journals', 'about nuclear'], 0,
-           'Because objections use the wrong number too.')])],
+          (
+           'Castellanos adds that the rule would also remove most bad '
+           'argument',
+           ['against wind', 'about storage', 'in journals', 'about nuclear'],
+           0, 'Because objections use the wrong number too.',
+           {1: 'Storage is one cost among several, not the argument he '
+               'means.', 2: 'Journals are where he says the careful figure already '
+               'appears.', 3: 'Nuclear is not discussed by either engineer.'})])],
    speak=dict(
     part='Part 3', focus='Paying for reliability',
     sounds=[('Thirteen and thirty differ in stress, not in sound: thirTEEN '

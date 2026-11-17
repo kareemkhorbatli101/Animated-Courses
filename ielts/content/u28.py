@@ -63,18 +63,24 @@ UNIT = dict(
           'any plot that becomes available, and refusing two offers returns '
           'an applicant to the end of the list.'],
          items=[
-          ('A plot is considered uncultivated when weeds cover more than',
-           ['a tenth of it', 'a quarter of it', 'half of it',
-            'all of it'], 1,
-           'Paragraph 3, during the growing season.'),
+          (
+           'A plot is considered uncultivated when weeds cover more '
+           'than',
+           ['a tenth of it', 'a quarter of it', 'half of it', 'all of it'],
+           1, 'Paragraph 3, during the growing season.',
+           {0: 'Less than the share paragraph 3 sets as the threshold.', 2: 'More than the proportion that triggers a warning.', 3: 'A quarter is enough, so total cover is not required.'}),
           ('The rent reduction for older tenants must be',
-           ['applied once', 'claimed each year', 'requested in writing '
-            'only', 'agreed by the committee'], 1,
-           'Paragraph 2, which gives a reduction of one third.'),
+           ['applied once', 'claimed each year', 'requested in writing only', 'agreed by the committee'],
+           1, 'Paragraph 2, which gives a reduction of one third.',
+           {0: 'Paragraph 2 says it must be claimed each year, not '
+               'once.', 2: 'The form of the claim is not specified in paragraph 2.', 3: 'No committee decision is mentioned for the reduction.'}),
           ('Refusing two offers of a plot means an applicant',
-           ['loses the reduction', 'returns to the end of the list',
-            'waits six months', 'must reapply in writing'], 1,
-           'Paragraph 5, where the average wait is two years nine months.'),
+           ['loses the reduction', 'returns to the end of the list', 'waits six months', 'must reapply in writing'],
+           1,
+           'Paragraph 5, where the average wait is two years nine '
+           'months.',
+           {0: 'The reduction applies to tenants, not to applicants.', 2: 'No six-month penalty appears in paragraph 5.', 3: 'Nothing in paragraph 5 requires a new written '
+               'application.'}),
           ('Half plots are now the more common ____________.', None,
            'letting',
            'Paragraph 1, because new tenants find a full plot too much.'),
@@ -198,19 +204,24 @@ UNIT = dict(
          items=[
           ('The speaker says a shortage is almost never',
            ['serious', 'a lack of food', 'predictable', 'reported'], 1,
-           'The food was in the wrong place or arrived two days late.'),
+           'The food was in the wrong place or arrived two days late.',
+           {0: 'He treats the shortages as serious but misdescribed.', 2: 'Predictability is not what he denies about shortages.', 3: 'Reporting is what he says makes a shortage real.'}),
           ('A store typically holds',
-           ['a week of stock', 'a day and a half of stock',
-            'a month of stock', 'no stock'], 1,
-           'Because holding stock costs money and spoils fruit.'),
-          ('In a normal week, what share of households buys a given item?',
-           ['Two per cent', 'Six per cent', 'Ten per cent',
-            'Twenty per cent'], 0,
-           'Rising to six per cent once a shortage is reported.'),
+           ['a week of stock', 'a day and a half of stock', 'a month of stock', 'no stock'],
+           1, 'Because holding stock costs money and spoils fruit.',
+           {0: 'More than a store holds, and the point of his '
+               'argument.', 2: 'Far more than any store carries on fresh produce.', 3: 'A store holds a little, not nothing.'}),
+          (
+           'In a normal week, what share of households buys a given '
+           'item?',
+           ['Two per cent', 'Six per cent', 'Ten per cent', 'Twenty per cent'],
+           0, 'Rising to six per cent once a shortage is reported.',
+           {1: 'Six per cent is the figure once a shortage is '
+               'reported.', 2: 'Higher than either figure he gives.', 3: 'Far above the share he reports for any week.'}),
           ('What does the speaker say actually works?',
-           ['Better forecasting', 'Two suppliers per line and a week of '
-            'buffer', 'Price rises', 'Public information'], 1,
-           'Paid for in the years when neither is needed.')])],
+           ['Better forecasting', 'Two suppliers per line and a week of buffer', 'Price rises', 'Public information'],
+           1, 'Paid for in the years when neither is needed.',
+           {0: 'Forecasting is not among the measures he endorses.', 2: 'Price rises are not part of his answer.', 3: 'Public information is what he says makes things worse.'})])],
    speak=dict(
     part='Part 1', focus='Growing or buying food',
     intro=('Two or three sentences each. Concrete food beats general '
@@ -353,17 +364,24 @@ UNIT = dict(
          items=[
           ('Which person admits to contributing to the shortage?',
            ['Perpetua', 'Ruairi', 'Jacinta', 'Olamide'], 0,
-           'She calculates her own share of the cause at about a tenth.'),
+           'She calculates her own share of the cause at about a '
+           'tenth.',
+           {1: 'Ruairi noticed nothing unusual.', 2: 'Jacinta inferred the cause from a local difference.', 3: 'Olamide benefited from being able to change suppliers.'}),
           ('Which person noticed nothing unusual?',
            ['Perpetua', 'Ruairi', 'Jacinta', 'Olamide'], 1,
-           'He cooks from whatever is available.'),
+           'He cooks from whatever is available.',
+           {0: 'Perpetua admits to contributing to the shortage.', 2: 'Jacinta inferred the cause from a local difference.', 3: 'Olamide benefited from being able to change suppliers.'}),
           ('Which person inferred the cause from a local difference?',
            ['Perpetua', 'Ruairi', 'Jacinta', 'Olamide'], 2,
-           'One shop had no eggs for nine days and another nearby had them '
-           'throughout.'),
-          ('Which person benefited from being able to change suppliers?',
+           'One shop had no eggs for nine days and another nearby had '
+           'them throughout.',
+           {0: 'Perpetua admits to contributing to the shortage.', 1: 'Ruairi noticed nothing unusual.', 3: 'Olamide benefited from being able to change suppliers.'}),
+          (
+           'Which person benefited from being able to change '
+           'suppliers?',
            ['Perpetua', 'Ruairi', 'Jacinta', 'Olamide'], 3,
-           'A small business can switch and a supermarket cannot.'),
+           'A small business can switch and a supermarket cannot.',
+           {0: 'Perpetua admits to contributing to the shortage.', 1: 'Ruairi noticed nothing unusual.', 2: 'Jacinta inferred the cause from a local difference.'}),
           (
            'Ruairi believes other people are exaggerating what '
            'happened.', ['Yes', 'No', 'Not Given'], 0,
@@ -424,22 +442,28 @@ UNIT = dict(
          items=[
           ('How long was Kwabena short of eggs?',
            ['Two days', 'Nine days', 'A fortnight', 'Five days'], 1,
-           'With two days on tomatoes and a fortnight of complaints.'),
+           'With two days on tomatoes and a fortnight of complaints.',
+           {0: 'Two days was the shortage on tomatoes.', 2: 'A fortnight is how long he was shouted at.', 3: 'Five days is the stock Esperanza holds, not his '
+               'shortage.'}),
           ('Esperanza holds how many days of stock on staples?',
            ['A day and a half', 'Three', 'Five', 'Ten'], 2,
-           'At a cost of about eighty thousand a year.'),
+           'At a cost of about eighty thousand a year.',
+           {0: 'A day and a half is what Kwabena holds.', 1: 'Three days was her figure before 2021.', 3: 'More than she holds, at any cost.'}),
           ('Why is the buffer argument hard to win?',
-           ['It is expensive', 'Its benefit is invisible when it works',
-            'Nobody understands it', 'It is against regulations'], 1,
-           'While the saving from cutting it shows every month.'),
+           ['It is expensive', 'Its benefit is invisible when it works', 'Nobody understands it', 'It is against regulations'],
+           1, 'While the saving from cutting it shows every month.',
+           {0: 'Cost is real, but the difficulty is that the benefit '
+               'is unseen.', 2: 'Both buyers understand it perfectly well.', 3: 'No regulation is mentioned in the exchange.'}),
           ('What does Esperanza say mattered more than the buffer?',
-           ['Better forecasting', 'Two packers on every line',
-            'More warehouse space', 'Higher prices'], 1,
-           'At a cost of three to four per cent on price.'),
+           ['Better forecasting', 'Two packers on every line', 'More warehouse space', 'Higher prices'],
+           1, 'At a cost of three to four per cent on price.',
+           {0: 'Forecasting is not raised by either buyer.', 2: 'Warehouse space is part of the buffer cost.', 3: 'Higher prices are the cost of two packers, not the '
+               'measure.'}),
           ('Why would she protect that first?',
-           ['It is cheaper', 'A buffer runs out and a second supplier does '
-            'not', 'It is easier to explain', 'Her board prefers it'], 1,
-           'Which Kwabena calls a better argument than his own.')])],
+           ['It is cheaper', 'A buffer runs out and a second supplier does not', 'It is easier to explain', 'Her board prefers it'],
+           1, 'Which Kwabena calls a better argument than his own.',
+           {0: 'It costs three to four per cent more, so it is not '
+               'cheaper.', 2: 'Ease of explanation is not her reason.', 3: 'Her board questions the cost every budget.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Shortage',
     longturn=[('The thing I needed and could not get was a particular '
@@ -628,18 +652,29 @@ UNIT = dict(
           'country aiming to reduce the share would have to know that, and '
           'neither chart contains it.'],
          items=[
-          ('Which paragraph gives the figures for the two largest falls in '
-           'production?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 0,
-           'Fruit from 190 to 120 and vegetables from 540 to 430.'),
-          ('Which paragraph explains why the shape of the line matters?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'A crisis would show a step; this is a slope.'),
-          ('Which paragraph names something the charts cannot tell you?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 2'], 2,
-           'How much of the rise in import share came from each cause.'),
+          (
+           'Which paragraph gives the figures for the two largest '
+           'falls in production?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           0, 'Fruit from 190 to 120 and vegetables from 540 to 430.',
+           {1: 'Paragraph 3 compares imports with domestic production.', 2: 'Paragraph 4 describes the import share line.', 3: 'Paragraph 5 explains why the shape of the line '
+               'matters.'}),
+          (
+           'Which paragraph explains why the shape of the line '
+           'matters?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'A crisis would show a step; this is a slope.',
+           {0: 'Paragraph 3 compares imports with domestic production.', 1: 'Paragraph 4 describes the import share line.', 3: 'Paragraph 6 names something the charts cannot tell '
+               'you.'}),
+          (
+           'Which paragraph names something the charts cannot tell '
+           'you?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 2'],
+           2,
+           'How much of the rise in import share came from each cause.',
+           {0: 'Paragraph 4 describes the import share line.', 1: 'Paragraph 5 explains why the shape of the line '
+               'matters.', 3: 'Paragraph 2 gives the figures for the two largest '
+               'falls in production.'}),
           ('Fruit: produced in 2023, ____________ thousand tonnes', None,
            '120', 'Paragraph 2, down from 190 in 2003.'),
           ('Oilseed: imported in 2023, ____________ thousand tonnes', None,
@@ -691,31 +726,38 @@ UNIT = dict(
            'five regions or from one. Neither chart says, and that is the '
            'figure I would want before writing a word of policy.')],
          items=[
-          ('Which crop’s production was essentially flat?',
+          ('Which crop\u2019s production was essentially flat?',
            ['Wheat', 'Oilseed', 'Fruit', 'Vegetables'], 0,
-           '720 to 740 thousand tonnes over twenty years.'),
+           '720 to 740 thousand tonnes over twenty years.',
+           {1: 'Oilseed fell slightly, from 310 to 290.', 2: 'Fruit fell from 190 to 120, one of the two large '
+               'falls.', 3: 'Vegetables fell from 540 to 430, the other large fall.'}),
           ('Imports exceed home production in',
-           ['wheat and fruit', 'fruit and oilseed', 'vegetables only',
-            'all four'], 1,
-           'Fruit 610 against 120, oilseed 460 against 290.'),
-          ('Each five-year period added how many points to the import '
-           'share?', ['Two to three', 'Six to eight', 'Ten to twelve',
-            'None'], 1,
-           'Taking it from 21 per cent to 49 with no step anywhere.'),
+           ['wheat and fruit', 'fruit and oilseed', 'vegetables only', 'all four'],
+           1, 'Fruit 610 against 120, oilseed 460 against 290.',
+           {0: 'Wheat is the one still comfortably the other way '
+               'round.', 2: 'Vegetables are not among the two he names.', 3: 'Wheat remains ahead, so not all four.'}),
+          (
+           'Each five-year period added how many points to the import '
+           'share?',
+           ['Two to three', 'Six to eight', 'Ten to twelve', 'None'], 1,
+           'Taking it from 21 per cent to 49 with no step anywhere.',
+           {0: 'Smaller than the increase in each five-year period.', 2: 'Larger than any five-year step he reports.', 3: 'Every period added points, which is his argument.'}),
           ('Why does the analyst say the usual argument is dishonest?',
-           ['The figures are wrong', 'A shift caused by an event would leave '
-            'a step', 'The crops are not comparable',
-            'The period is too short'], 1,
-           'A smooth slope indicates prices, planting and retirement.'),
+           ['The figures are wrong', 'A shift caused by an event would leave a step', 'The crops are not comparable', 'The period is too short'],
+           1,
+           'A smooth slope indicates prices, planting and retirement.',
+           {0: 'He calls the charts honest.', 2: 'He compares the crops throughout, so they are '
+               'comparable.', 3: 'Twenty years is long enough to show the shape.'}),
           ('What do the charts not separate?',
-           ['Imports and exports', 'Rising consumption from falling '
-            'production', 'Fruit from vegetables', 'Price from volume'], 1,
-           'And the two require opposite policies.'),
+           ['Imports and exports', 'Rising consumption from falling production', 'Fruit from vegetables', 'Price from volume'],
+           1, 'And the two require opposite policies.',
+           {0: 'Exports are not shown on either chart.', 2: 'Fruit and vegetables are shown separately on chart '
+               'one.', 3: 'Price is not plotted on either chart.'}),
           ('What two questions does he recommend asking?',
-           ['Who collected it and when', 'What is the shape, and what is the '
-            'denominator doing', 'How much and how fast',
-            'Which crops and which years'], 1,
-           'The second being left out of nine briefings in ten.')])],
+           ['Who collected it and when', 'What is the shape, and what is the denominator doing', 'How much and how fast', 'Which crops and which years'],
+           1, 'The second being left out of nine briefings in ten.',
+           {0: 'Provenance of the data is not what he tells you to '
+               'ask.', 2: 'Size and speed are what the figure already gives.', 3: 'Crops and years are both labelled on the charts.'})])],
    speak=dict(
     part='Part 3', focus='Importing food',
     intro=('Four or five sentences. Try once to describe the shape of a '
@@ -929,19 +971,25 @@ UNIT = dict(
                  'modelling removes it.')],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['What a soil is', 'Organic matter', 'Structure',
-            'Erosion'], 1,
-           'Losses of a fifth to a third over four decades, which raise '
-           'yields briefly.'),
+           ['What a soil is', 'Organic matter', 'Structure', 'Erosion'],
+           1,
+           'Losses of a fifth to a third over four decades, which '
+           'raise yields briefly.',
+           {0: 'What a soil is, is paragraph 2, before the three '
+               'losses.', 2: 'Structure is the heading for paragraph 4.', 3: 'Erosion is paragraph 5, with the tonnes per hectare.'}),
           ('Choose the best heading for paragraph 4.',
-           ['Organic matter', 'Structure', 'Erosion',
-            'The case for intensive systems'], 1,
-           'Compaction below the depth of cultivation, invisible from the '
-           'surface.'),
+           ['Organic matter', 'Structure', 'Erosion', 'The case for intensive systems'],
+           1,
+           'Compaction below the depth of cultivation, invisible from '
+           'the surface.',
+           {0: 'Organic matter is the heading for paragraph 3.', 2: 'Erosion is paragraph 5, with the tonnes per hectare.', 3: 'The case for intensive systems is the heading for '
+               'paragraph 6.'}),
           ('Choose the best heading for paragraph 6.',
-           ['Erosion', 'The case for intensive systems',
-            'A measurement problem', 'The honest formulation'], 1,
-           'Higher yields leave more land uncultivated.'),
+           ['Erosion', 'The case for intensive systems', 'A measurement problem', 'The honest formulation'],
+           1, 'Higher yields leave more land uncultivated.',
+           {0: 'Erosion is paragraph 5, with the tonnes per hectare.', 2: 'The measurement problem is paragraph 7, on balance '
+               'sheets.', 3: 'The honest formulation is paragraph 8, the narrow '
+               'statement.'}),
           ('The writer believes yield is a useless measure.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 1 calls it a good measure of how much food left '
@@ -1008,27 +1056,37 @@ UNIT = dict(
            'of measure dressed up as a finding.')],
          items=[
           ('The lecturer says yield omits',
-           ['the cost of inputs', 'what the field has left',
-            'the weather', 'the price'], 1,
-           'Which he calls most of the argument about farming systems.'),
+           ['the cost of inputs', 'what the field has left', 'the weather', 'the price'],
+           1,
+           'Which he calls most of the argument about farming systems.',
+           {0: 'Input costs are an accounting matter, not his point.', 2: 'The weather is what compaction damage is blamed on.', 3: 'Price is not part of what yield omits in his account.'}),
           ('Which property of organic matter does he call perverse?',
-           ['It cannot be measured', 'Losing it raises yields in the short '
-            'run', 'It builds up quickly', 'It has no effect'], 1,
-           'As the material breaks down and releases nitrogen.'),
+           ['It cannot be measured', 'Losing it raises yields in the short run', 'It builds up quickly', 'It has no effect'],
+           1, 'As the material breaks down and releases nitrogen.',
+           {0: 'Organic matter is measurable, which is why the trials '
+               'work.', 2: 'It builds up slowly, which is part of the problem.', 3: 'Its effect is large, in both directions.'}),
           ('Compaction occurs',
-           ['at the surface', 'below the depth of cultivation',
-            'only in dry soil', 'in sandy soils only'], 1,
-           'And is not found by a standard soil test.'),
+           ['at the surface', 'below the depth of cultivation', 'only in dry soil', 'in sandy soils only'],
+           1, 'And is not found by a standard soil test.',
+           {0: 'The surface is where it cannot be seen.', 2: 'Wet ground is when machinery causes it.', 3: 'No soil type is excluded in his account.'}),
           ('Compaction damage is usually attributed to',
            ['machinery', 'the weather', 'poor seed', 'fertiliser'], 1,
-           'Because it shows up as a bad harvest in a dry summer.'),
-          ('Soil forms at about what proportion of common erosion rates?',
+           'Because it shows up as a bad harvest in a dry summer.',
+           {0: 'Machinery is the actual cause, not what it is blamed '
+               'on.', 2: 'Seed quality is not mentioned in the lecture.', 3: 'Fertiliser is not blamed for compaction.'}),
+          (
+           'Soil forms at about what proportion of common erosion '
+           'rates?',
            ['A half', 'A tenth', 'A hundredth', 'The same rate'], 1,
-           'Against one to two tonnes per hectare per year.'),
-          ('What does he call the other side’s strongest argument?',
-           ['Lower prices', 'That high yields spare land',
-            'Better nutrition', 'Less labour'], 1,
-           'Though whether land is actually spared is a policy question.')])],
+           'Against one to two tonnes per hectare per year.',
+           {0: 'Faster than the rate he gives for soil formation.', 2: 'Slower than the tenth he reports.', 3: 'The same rate would mean no net loss at all.'}),
+          (
+           'What does he call the other side\u2019s strongest argument?',
+           ['Lower prices', 'That high yields spare land', 'Better nutrition', 'Less labour'],
+           1,
+           'Though whether land is actually spared is a policy '
+           'question.',
+           {0: 'Prices are not part of the argument he credits.', 2: 'Nutrition is not raised in the lecture.', 3: 'Labour is not among the comparisons he makes.'})])],
    speak=dict(
     part='Part 3', focus='Producing more without losing more',
     followup=[(('You say we should measure soil rather than yield. Is that '
@@ -1227,18 +1285,21 @@ UNIT = dict(
           'describes a choice anyone could actually make.'],
          items=[
           ('Which paragraph gives the yield comparison?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Organic plots at seventy to ninety per cent per hectare per '
-           'year.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
+           'Organic plots at seventy to ninety per cent per hectare '
+           'per year.',
+           {0: 'Paragraph 2 describes the trials themselves.', 2: 'Paragraph 4 gives the soil comparison.', 3: 'Paragraph 5 sets out the two honest comparisons.'}),
           ('Which paragraph explains what the trials hold constant?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'Same farm, rotation, scale and market.'),
-          ('Which paragraph states the conclusion as a scope statement?',
-           ['Paragraph 6', 'Paragraph 7', 'Paragraph 8',
-            'Paragraph 5'], 2,
-           'Current population, land, diet and waste.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2, 'Same farm, rotation, scale and market.',
+           {0: 'Paragraph 4 gives the soil comparison.', 1: 'Paragraph 5 sets out the two honest comparisons.', 3: 'Paragraph 7 calls it the strongest organic argument.'}),
+          (
+           'Which paragraph states the conclusion as a scope '
+           'statement?',
+           ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 5'],
+           2, 'Current population, land, diet and waste.',
+           {0: 'Paragraph 6 explains what the trials hold constant.', 1: 'Paragraph 7 calls it the strongest organic argument.', 3: 'Paragraph 5 sets out the two honest comparisons.'}),
           (
            'The writer believes organic farming matches intensive '
            'farming on yield.', ['Yes', 'No', 'Not Given'],
@@ -1311,31 +1372,33 @@ UNIT = dict(
            'sentence and it is the one neither campaign wants.')],
          items=[
           ('The organic plots produce what proportion per hectare?',
-           ['Fifty to seventy per cent', 'Seventy to ninety per cent',
-            'Ninety to a hundred per cent', 'More than the intensive '
-            'plots'], 1,
-           'A gap that has not closed in thirty years.'),
+           ['Fifty to seventy per cent', 'Seventy to ninety per cent', 'Ninety to a hundred per cent', 'More than the intensive plots'],
+           1, 'A gap that has not closed in thirty years.',
+           {0: 'Lower than the range the trials report.', 2: 'Higher than the range she gives.', 3: 'She says plainly that there is a real gap.'}),
           ('On soil, the organic plots show organic matter higher by',
-           ['a tenth', 'a quarter to a half', 'double', 'no difference'], 1,
-           'With lower erosion and faster infiltration.'),
+           ['a tenth', 'a quarter to a half', 'double', 'no difference'],
+           1, 'With lower erosion and faster infiltration.',
+           {0: 'Smaller than the difference she reports.', 2: 'Larger than the figure the trials show.', 3: 'She reports a clear difference after thirty years.'}),
           ('Why does the yield gap narrow in a dry year?',
-           ['Less irrigation is used', 'Better soil structure partly '
-            'compensates', 'Crops are different', 'Yields are '
-            'estimated'], 1,
-           'Which Oyinlola-Brandt says surprised everybody.'),
-          ('Marchetti’s argument is that the trials hold constant',
-           ['the weather', 'the food system', 'the soil type',
-            'the crop'], 1,
-           'Same farm, rotation, market and diet.'),
+           ['Less irrigation is used', 'Better soil structure partly compensates', 'Crops are different', 'Yields are estimated'],
+           1, 'Which Oyinlola-Brandt says surprised everybody.',
+           {0: 'Irrigation is not mentioned by either agronomist.', 2: 'The same crops are grown on both plots.', 3: 'The yields are measured, not estimated.'}),
+          (
+           'Marchetti\u2019s argument is that the trials hold constant',
+           ['the weather', 'the food system', 'the soil type', 'the crop'],
+           1, 'Same farm, rotation, market and diet.',
+           {0: 'The weather varies across the thirty years.', 2: 'The soil type is held constant and he does not object '
+               'to that.', 3: 'The crop is held constant, which is sound practice.'}),
           ('What does Oyinlola-Brandt object to in his argument?',
-           ['The numbers', 'That the required changes are not agronomic',
-            'The trial design', 'The timescale'], 1,
-           'She can grow a crop and cannot change what people eat.'),
+           ['The numbers', 'That the required changes are not agronomic', 'The trial design', 'The timescale'],
+           1, 'She can grow a crop and cannot change what people eat.',
+           {0: 'She accepts his numbers on waste and animal feed.', 2: 'The trial design is hers and she defends it.', 3: 'Timescale is not what she objects to.'}),
           ('What do they agree to publish?',
-           ['A new trial', 'A joint scope statement', 'A correction',
-            'Nothing'], 1,
-           'Not at the current diet and waste; unstudied at a different '
-           'one.')])],
+           ['A new trial', 'A joint scope statement', 'A correction', 'Nothing'],
+           1,
+           'Not at the current diet and waste; unstudied at a '
+           'different one.',
+           {0: 'No new trial is proposed in the exchange.', 2: 'Nothing is being corrected; the numbers stand.', 3: 'They agree on a specific joint statement.'})])],
    speak=dict(
     part='Part 3', focus='Feeding more people',
     sounds=[('Common chunks lose sounds in fluent speech, and the losses are '

@@ -80,16 +80,21 @@ UNIT = dict(
           ('No work may exceed ____________ metres in any direction.',
            None, '1.5', 'Paragraph 2, including the frame.'),
           ('Which work is not accepted in any category?',
-           ['work over 40 kilograms', 'work needing a power supply',
-            'work shown in another town', 'work on paper'], 1,
-           'Paragraph 2, a rule applying across all categories.'),
+           ['work over 40 kilograms', 'work needing a power supply', 'work shown in another town', 'work on paper'],
+           1, 'Paragraph 2, a rule applying across all categories.',
+           {0: 'The 40-kilogram limit applies to three-dimensional '
+               'work only.', 2: 'Work shown elsewhere is acceptable, outside fifty '
+               'kilometres.', 3: 'Works on paper are one of the four categories invited.'}),
           ('Work must not have been exhibited previously within '
            '____________ kilometres of Marchfield.', None, 'fifty',
            'Paragraph 3: work shown elsewhere is acceptable.'),
           ('The hanging fee is payable only if the work is',
            ['delivered', 'selected', 'sold', 'framed'], 1,
            'Paragraph 5, which the organisers say causes most '
-           'complaints.'),
+           'complaints.',
+           {0: 'Delivery is required of selected work but carries no '
+               'fee.', 2: 'Sale of the work is not mentioned in the conditions.', 3: 'Framing counts towards the size limit, not towards '
+               'this fee.'}),
           ('Entries close at ____________ on 14 March.', None, '17.00',
            'Paragraph 6, when the system closes automatically.')]),
     dict(heading='Delivery and collection of work',
@@ -321,21 +326,33 @@ UNIT = dict(
           'sun, where the old people sat. There was a reason that bench '
           'was there and the designers never asked.'],
          items=[
-          ('Which resident changed their view through use rather than '
+          (
+           'Which resident changed their view through use rather than '
            'judgement?',
            ['Ottoline', 'Lysander', 'Ignatia', 'Phineas'], 0,
-           'Meeting people under it rather than deciding it is good.'),
+           'Meeting people under it rather than deciding it is good.',
+           {1: 'Lysander objects to the timing of the decision.', 2: 'Ignatia questions what a consultation actually '
+               'measures.', 3: 'Phineas objects to where it was placed.'}),
           ('Which resident objects to the timing of the decision?',
            ['Ottoline', 'Lysander', 'Ignatia', 'Phineas'], 1,
-           'The same year the library closed on Wednesdays.'),
-          ('Which resident questions what a consultation actually '
+           'The same year the library closed on Wednesdays.',
+           {0: 'Ottoline changed their view through use rather than '
+               'judgement.', 2: 'Ignatia questions what a consultation actually '
+               'measures.', 3: 'Phineas objects to where it was placed.'}),
+          (
+           'Which resident questions what a consultation actually '
            'measures?',
            ['Ottoline', 'Lysander', 'Ignatia', 'Phineas'], 2,
            'Thirty-one per cent of four hundred votes in a town of '
-           'twenty thousand.'),
+           'twenty thousand.',
+           {0: 'Ottoline changed their view through use rather than '
+               'judgement.', 1: 'Lysander objects to the timing of the decision.', 3: 'Phineas objects to where it was placed.'}),
           ('Which resident objects to where it was placed?',
            ['Ottoline', 'Lysander', 'Ignatia', 'Phineas'], 3,
-           'The spot with afternoon sun where the old people sat.'),
+           'The spot with afternoon sun where the old people sat.',
+           {0: 'Ottoline changed their view through use rather than '
+               'judgement.', 1: 'Lysander objects to the timing of the decision.', 2: 'Ignatia questions what a consultation actually '
+               'measures.'}),
           ('Lysander dislikes the sculpture itself.',
            ['Yes', 'No', 'Not Given'], 1,
            'He says he has nothing against the sculpture.',
@@ -382,7 +399,10 @@ UNIT = dict(
          items=[
           ('The objection about cost is nearly always',
            ['exaggerated', 'comparative', 'late', 'anonymous'], 1,
-           'Too much in the year the library closed.'),
+           'Too much in the year the library closed.',
+           {0: 'He does not say the figures are overstated.', 2: 'Timing is the subject of his third objection, about '
+               'place.', 3: 'Anonymity belongs to the consultation, not the cost '
+               'objection.'}),
           ('In a town of twenty thousand, a consultation typically '
            'produces about ____________ responses.', None, 'four '
            'hundred', 'Which he calls normal rather than a failure.'),
@@ -434,14 +454,17 @@ UNIT = dict(
          items=[
           ('Lysander says his objection is not about the',
            ['cost', 'sculpture', 'artist', 'process'], 1,
-           'But about the year in which the money was spent.'),
+           'But about the year in which the money was spent.',
+           {0: 'Cost is exactly what he says the vote is about.', 2: 'The artist is not criticised anywhere in the meeting.', 3: 'Process is his second complaint, about the leaflet.'}),
           ('Ignatia replies that the art budget is a capital grant with '
            '____________.', None, 'conditions',
            'And cannot be used to buy library hours.'),
-          ('Lysander calls that true sentence useless because it is never '
-           'said until after they have been', ['funded', 'attacked',
-            'elected', 'audited'], 1,
-           'And would have prevented half the objections.'),
+          (
+           'Lysander calls that true sentence useless because it is '
+           'never said until after they have been',
+           ['funded', 'attacked', 'elected', 'audited'], 1,
+           'And would have prevented half the objections.',
+           {0: 'Funding is not what the sentence comes after.', 2: 'Elections are not mentioned in the exchange.', 3: 'No audit is referred to by either councillor.'}),
           ('The site he objects to is where the ____________ bench '
            'is.', None, 'sunny',
            'Which a resident has written about three times.'),
@@ -638,20 +661,27 @@ UNIT = dict(
           'frequently find themselves objecting again.'],
          items=[
           ('Which paragraph explains why a vague brief is expensive?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
            'Questions it fails to answer are answered later at higher '
-           'cost.'),
-          ('Which paragraph describes the stage at which problems are '
+           'cost.',
+           {0: 'Paragraph 1 only counts the stages and the outcomes.', 2: 'Paragraph 3 describes the stage at which problems are '
+               'cheapest to find.', 3: 'Paragraph 4 covers design, costing and public comment.'}),
+          (
+           'Which paragraph describes the stage at which problems are '
            'cheapest to find?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Feasibility, where one scheme in six is altered.'),
-          ('Which paragraph explains why the two outcomes are not '
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Feasibility, where one scheme in six is altered.',
+           {0: 'Paragraph 2 explains why a vague brief is expensive.', 2: 'Paragraph 4 covers design, costing and public comment.', 3: 'Paragraph 5 describes the decision and its two '
+               'outcomes.'}),
+          (
+           'Which paragraph explains why the two outcomes are not '
            'equal?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 3'], 2,
-           'Approval ends the process and referral does not.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 3'],
+           2, 'Approval ends the process and referral does not.',
+           {0: 'Paragraph 4 covers design, costing and public comment.', 1: 'Paragraph 5 names the two outcomes without comparing '
+               'them.', 3: 'Paragraph 3 describes the stage at which problems are '
+               'cheapest to find.'}),
           ('The ____________ is written by the client rather than the '
            'architect.', None, 'brief',
            'Paragraph 2, stating what the building must do.'),
@@ -708,16 +738,20 @@ UNIT = dict(
           ('About one scheme in ____________ changes substantially at '
            'feasibility.', None, 'six',
            'Which he calls the cheapest place to discover an error.'),
-          ('The committee must have regard to public comments, which he '
-           'stresses does not mean',
+          (
+           'The committee must have regard to public comments, which '
+           'he stresses does not mean',
            ['publish', 'follow', 'record', 'answer'], 1,
-           'A distinction people discover at the meeting.'),
+           'A distinction people discover at the meeting.',
+           {0: 'Publication of the comments happens in any case.', 2: 'Recording the comments is not what the phrase is '
+               'confused with.', 3: 'Answering each comment is not required at any stage.'}),
           ('A scheme that is referred back can return as often as the '
            'applicant can ____________.', None, 'afford',
            'Which is why a refusal is a delay rather than an ending.'),
           ('He says the stage at which to object is the',
            ['design', 'brief', 'application', 'appeal'], 1,
-           'Because that is where the purpose is decided.'),
+           'Because that is where the purpose is decided.',
+           {0: 'By the design stage you are arguing about a drawing.', 2: 'At application the drawings already exist.', 3: 'No appeal stage is described in the lecture.'}),
           ('At the brief stage, he says, almost nobody ____________.',
            None, 'turns up',
            'Although that is where the argument can still be won.')])],
@@ -914,19 +948,21 @@ UNIT = dict(
           'buildings have never been asked either of them.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['The three questions', 'Does it do its job?',
-            'What it costs over time', 'Judgement and taste'], 1,
-           'Studies commissioned for one building in twenty.'),
+           ['The three questions', 'Does it do its job?', 'What it costs over time', 'Judgement and taste'],
+           1, 'Studies commissioned for one building in twenty.',
+           {0: 'The three questions are set out in paragraph 1.', 2: 'Cost over time is paragraphs 4 and 5.', 3: 'Judgement and taste are paragraph 6, the third '
+               'question.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Repeated faults', 'Glass as the standard example',
-            'Two different clients', 'The third question'], 1,
-           'Cheaper to build and more expensive to run.'),
+           ['Repeated faults', 'Glass as the standard example', 'Two different clients', 'The third question'],
+           1, 'Cheaper to build and more expensive to run.',
+           {0: 'The repeated faults are paragraph 3, from the studies.', 2: 'Two clients is part of this paragraph, not its '
+               'subject.', 3: 'The third question is paragraph 6, about architecture.'}),
           ('Choose the best heading for paragraph 7.',
-           ['Why the third question matters',
-            'Why it should not be answered first',
-            'Post-occupancy studies', 'Running costs'], 1,
+           ['Why the third question matters', 'Why it should not be answered first', 'Post-occupancy studies', 'Running costs'],
+           1,
            'A building failing the first two is bad whatever it looks '
-           'like.'),
+           'like.',
+           {0: 'Paragraph 6 is where the third question is described.', 2: 'The studies are paragraphs 2 and 3.', 3: 'Running costs are paragraphs 4 and 5.'}),
           (
            'The writer believes the question of appearance should be '
            'ignored.', ['Yes', 'No', 'Not Given'], 1,
@@ -993,9 +1029,11 @@ UNIT = dict(
           ('He says most architectural argument is two people answering '
            'different ____________.', None, 'questions',
            'Of the three the word good conceals.'),
-          ('Studies of buildings in use are commissioned for about one '
-           'building in', ['five', 'ten', 'twenty', 'fifty'], 2,
-           'Although they cost almost nothing.'),
+          (
+           'Studies of buildings in use are commissioned for about one '
+           'building in', ['five', 'ten', 'twenty', 'fifty'],
+           2, 'Although they cost almost nothing.',
+           {0: 'More often than the lecture reports for such studies.', 1: 'Still more often than the figure he gives.', 3: 'Rarer than the proportion he names.'}),
           ('He says every fault those studies find was visible in the '
            '____________.', None, 'drawings',
            'Heat, storage, corridors and doors.'),
@@ -1003,11 +1041,14 @@ UNIT = dict(
            'its build price in heat, cleaning, repair and the people who '
            '____________ it.', None, 'run',
            'Which is why construction is the small part.'),
-          ('In most public bodies, the person who chooses the glazing and '
-           'the person who pays to run it have never',
+          (
+           'In most public bodies, the person who chooses the glazing '
+           'and the person who pays to run it have never',
            ['agreed', 'met', 'visited', 'published'], 1,
            'One holds a construction budget and the other a running '
-           'budget.'),
+           'budget.',
+           {0: 'Agreement is not what he says is missing between them.', 2: 'Visiting the building is not the gap he describes.', 3: 'Publication is not mentioned in connection with the '
+               'two budgets.'}),
           ('His conclusion is that the question about architecture should '
            'be ____________.', None, 'third',
            'Asked third rather than ignored altogether.')])],
@@ -1176,20 +1217,26 @@ UNIT = dict(
           'a building works for the people in it, is answerable by asking '
           'them, and that it is the question asked least often.'],
          items=[
-          ('Which paragraph says the two groups describe buildings '
+          (
+           'Which paragraph says the two groups describe buildings '
            'similarly?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'Disagreement appears only at evaluation.'),
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'Disagreement appears only at evaluation.',
+           {0: 'Paragraph 1 sets out the two positions people take.', 2: 'Paragraph 3 is about prediction, where the groups '
+               'differ.', 3: 'Paragraph 4 weakens the evidence for expertise.'}),
           ('Which paragraph weakens the evidence for expertise?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
-           'A prediction that helps bring about its own fulfilment.'),
-          ('Which paragraph reports that stated and actual preference '
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1, 'A prediction that helps bring about its own fulfilment.',
+           {0: 'Paragraph 3 reports the finding that favours '
+               'expertise.', 2: 'Paragraph 5 reports that stated and actual preference '
+               'disagree.', 3: 'Paragraph 6 draws the policy consequence.'}),
+          (
+           'Which paragraph reports that stated and actual preference '
            'disagree?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 1,
-           'The most disliked building being the most used.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           1, 'The most disliked building being the most used.',
+           {0: 'Paragraph 4 weakens the evidence for expertise.', 2: 'Paragraph 6 draws the policy consequence from that '
+               'finding.', 3: 'Paragraph 7 states the narrow conclusion available.'}),
           (
            'The writer believes expert judgement is proved correct by '
            'the prediction studies.',
@@ -1258,10 +1305,12 @@ UNIT = dict(
           ('Oyelaran-Petit', 'And which I am almost never asked about '
            'after the opening.')],
          items=[
-          ('The critic’s own weakest point is that she writes as though '
-           'her judgement were a',
+          (
+           'The critic\u2019s own weakest point is that she writes as '
+           'though her judgement were a',
            ['preference', 'finding', 'rule', 'prediction'], 1,
-           'Whereas it is a trained opinion.'),
+           'Whereas it is a trained opinion.',
+           {0: 'A preference is nearer what she says it really is.', 2: 'She does not claim to state rules about buildings.', 3: 'Prediction is where architects are said to do better.'}),
           ('The architect admits that when a consultation goes against '
            'him he calls it a failure of ____________.', None,
            'communication', 'Which he admits happens every single '
@@ -1277,7 +1326,9 @@ UNIT = dict(
            'point.'),
           ('The architect says this is mainly inconvenient for the',
            ['critic', 'vote', 'client', 'committee'], 1,
-           'Because preference does not predict use.'),
+           'Because preference does not predict use.',
+           {0: 'She raises the finding herself, against her own '
+               'profession.', 2: 'Clients are not mentioned in this exchange.', 3: 'No committee appears in the discussion.'}),
           ('The one question neither disputes is whether the building '
            '____________ for the people inside.', None, 'works',
            'Which she never writes about and he is never asked '

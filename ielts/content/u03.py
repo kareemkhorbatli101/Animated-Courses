@@ -98,20 +98,28 @@ UNIT = dict(
           'wait longest because the most serious patients are seen '
           'first.'],
          items=[
-          ('Which service can be used without an appointment and keeps '
+          (
+           'Which service can be used without an appointment and keeps '
            'no record?',
-           ['the pharmacy', 'the surgery', 'the walk-in centre',
-            'the emergency department'], 0,
-           'Paragraph 1: a pharmacist can advise with no record '
-           'made.'),
+           ['the pharmacy', 'the surgery', 'the walk-in centre', 'the emergency department'],
+           0,
+           'Paragraph 1: a pharmacist can advise with no record made.',
+           {1: 'The surgery needs an appointment and updates your '
+               'record.', 2: 'The walk-in centre needs no appointment but is for '
+               'injuries.', 3: 'The emergency department is for severe problems and '
+               'keeps records.'}),
           ('Which service deals with a problem that keeps returning?',
-           ['the pharmacy', 'the surgery', 'the walk-in centre',
-            'the emergency department'], 1,
-           'Paragraph 2, along with long-term conditions.'),
+           ['the pharmacy', 'the surgery', 'the walk-in centre', 'the emergency department'],
+           1, 'Paragraph 2, along with long-term conditions.',
+           {0: 'The pharmacy deals with minor problems, not recurring '
+               'ones.', 2: 'The walk-in centre deals with injuries rather than '
+               'recurrence.', 3: 'The emergency department deals with severe and sudden '
+               'problems.'}),
           ('Which service can take an X-ray?',
-           ['the pharmacy', 'the surgery', 'the walk-in centre',
-            'the emergency department'], 2,
-           'Paragraph 3, between 8 a.m. and 8 p.m.'),
+           ['the pharmacy', 'the surgery', 'the walk-in centre', 'the emergency department'],
+           2, 'Paragraph 3, between 8 a.m. and 8 p.m.',
+           {0: 'A pharmacy advises and takes no X-rays.', 1: 'The surgery is not listed as taking X-rays.', 3: 'The emergency department is named for severe problems, '
+               'not X-rays here.'}),
           ('At the emergency department, patients with minor problems '
            'wait ____________.', None, 'longest',
            'Paragraph 4, because serious patients are seen first.')])],
@@ -295,20 +303,36 @@ UNIT = dict(
           'What ruins my night is coffee after four o’clock, which took '
           'me years to notice.'],
          items=[
-          ('Which person stopped worrying after being told something '
+          (
+           'Which person stopped worrying after being told something '
            'was normal?',
            ['Ignatius', 'Delphine', 'Rasheed', 'Yevgenia'], 0,
-           'Waking at four, which his doctor called normal.'),
+           'Waking at four, which his doctor called normal.',
+           {1: 'Delphine found something that helped, not something '
+               'called normal.', 2: 'Rasheed found a cause in light rather than '
+               'reassurance.', 3: 'Yevgenia was told a nap would ruin her night and '
+               'ignored it.'}),
           ('Which person finds falling asleep the difficulty?',
            ['Ignatius', 'Delphine', 'Rasheed', 'Yevgenia'], 1,
-           'The start, not the middle, of the night.'),
-          ('Which person describes an effect caused by different '
+           'The start, not the middle, of the night.',
+           {0: 'Ignatius wakes in the middle of the night, not at the '
+               'start.', 2: 'Rasheed sleeps badly on particular nights, not at the '
+               'start.', 3: 'Yevgenia names coffee rather than the start of the '
+               'night.'}),
+          (
+           'Which person describes an effect caused by different '
            'waking times?',
            ['Ignatius', 'Delphine', 'Rasheed', 'Yevgenia'], 2,
-           'Six on weekdays and nine at weekends.'),
+           'Six on weekdays and nine at weekends.',
+           {0: 'Ignatius keeps the same hours and wakes in the night.', 1: 'Delphine describes the day going round, not a change '
+               'of hours.', 3: 'Yevgenia changed nothing about her waking time.'}),
           ('Which person identified a cause after a long time?',
            ['Ignatius', 'Delphine', 'Rasheed', 'Yevgenia'], 3,
-           'Coffee after four o’clock, noticed after years.'),
+           'Coffee after four o\u2019clock, noticed after years.',
+           {0: 'Ignatius was told something by a doctor, which is not '
+               'noticing it.', 1: 'Delphine found something that helped rather than a '
+               'cause.', 2: 'Rasheed identified light, and does not say it took '
+               'years.'}),
           ('Delphine writes her list on her telephone.',
            ['True', 'False', 'Not Given'], 1,
            'She says she writes it on paper.',
@@ -367,7 +391,9 @@ UNIT = dict(
            'night.'),
           ('For evening light, she says what matters most is the',
            ['screen', 'brightness', 'colour', 'distance'], 1,
-           'A bright room does as much as a telephone.')])],
+           'A bright room does as much as a telephone.',
+           {0: 'She says the brightness matters more than the screen '
+               'itself.', 2: 'Colour is not mentioned in the talk.', 3: 'Distance from the light is not discussed.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Sleep',
     longturn=[('The habit I would like to change is looking at my phone in '
@@ -544,19 +570,22 @@ UNIT = dict(
           'is asking something the figure does not measure.'],
          items=[
           ('Which paragraph explains how a target changed behaviour?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
            'More patients seen in week seventeen, fewer in week '
-           'nineteen.'),
-          ('Which paragraph shows that two hospitals can share an '
+           'nineteen.',
+           {0: 'Paragraph 2 is about what an average hides.', 1: 'Paragraph 3 is about where the measurement starts.', 3: 'Paragraph 5 says what narrow question the figures '
+               'answer.'}),
+          (
+           'Which paragraph shows that two hospitals can share an '
            'average and differ?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'Eight weeks for everybody against two and fourteen.'),
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'Eight weeks for everybody against two and fourteen.',
+           {0: 'Paragraph 1 reports what the chart shows.', 2: 'Paragraph 3 concerns the point of referral.', 3: 'Paragraph 4 is about the effect of the target.'}),
           ('Which paragraph concerns where the measurement starts?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Referral, which is made earlier at some surgeries.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Referral, which is made earlier at some surgeries.',
+           {0: 'Paragraph 2 is about the average concealing a spread.', 2: 'Paragraph 4 is about a target changing behaviour.', 3: 'Paragraph 5 states what the figures do answer.'}),
           ('In the chart, ____________ of the four hospitals '
            'improved.', None, 'three',
            'Paragraph 1, which is the safest thing to say.'),
@@ -616,9 +645,13 @@ UNIT = dict(
            'Which the published figure does not separate.'),
           ('He found out which list he was on in week ____________.',
            None, 'nine', 'And he found out only because he asked.'),
-          ('Delphine says what she would change is not the waiting but '
-           'the', ['cost', 'not knowing', 'travelling', 'paperwork'], 1,
-           'Which Rasheed extends to the people who do not ask.')])],
+          (
+           'Delphine says what she would change is not the waiting but '
+           'the',
+           ['cost', 'not knowing', 'travelling', 'paperwork'], 1,
+           'Which Rasheed extends to the people who do not ask.',
+           {0: 'Cost is not raised by either speaker.', 2: 'Travelling to a different hospital is mentioned but '
+               'not as the complaint.', 3: 'Paperwork is not what either of them objects to.'})])],
    speak=dict(
     part='Part 3', focus='Judging a health service',
     intro=('Three or four sentences. Say what a number does and does '
@@ -806,19 +839,22 @@ UNIT = dict(
           'children.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['The timing problem', 'Why child deaths dominate',
-            'Water and sewage', 'When medicine arrived'], 1,
+           ['The timing problem', 'Why child deaths dominate', 'Water and sewage', 'When medicine arrived'],
+           1,
            'A quarter of children dying pulls the average to about '
-           'forty.'),
+           'forty.',
+           {0: 'The timing problem is set out in paragraph 1.', 2: 'Water and sewage are paragraph 3.', 3: 'When medicine arrived is paragraph 5.'}),
           ('Choose the best heading for paragraph 3.',
-           ['The drainage of cities', 'Food and nutrition',
-            'Vaccines and antibiotics', 'What historians dispute'], 0,
+           ['The drainage of cities', 'Food and nutrition', 'Vaccines and antibiotics', 'What historians dispute'],
+           0,
            'City records matching the order in which drains were '
-           'built.'),
+           'built.',
+           {1: 'Food and nutrition are paragraph 4.', 2: 'Vaccines and antibiotics are paragraph 5.', 3: 'What historians dispute is the end of paragraph 4.'}),
           ('Choose the best heading for paragraph 5.',
-           ['The first eighty per cent', 'Medicine arrives late',
-            'Measuring nutrition', 'Life expectancy in 1850'], 1,
-           'Vaccines and antibiotics, after the main improvement.'),
+           ['The first eighty per cent', 'Medicine arrives late', 'Measuring nutrition', 'Life expectancy in 1850'],
+           1, 'Vaccines and antibiotics, after the main improvement.',
+           {0: 'The first eighty per cent is attributed in paragraph '
+               '3.', 2: 'Measuring nutrition is paragraph 4.', 3: 'Life expectancy in 1850 is the opening of paragraph 1.'}),
           (
            'Most of the improvement in life expectancy happened before '
            'antibiotics.', ['True', 'False', 'Not Given'], 0,
@@ -894,7 +930,10 @@ UNIT = dict(
            'In the half century from about 1860 to 1910.'),
           ('The order of the cities matches the order of the',
            ['outbreaks', 'building', 'vaccines', 'censuses'], 1,
-           'Which is the evidence linking drains to the fall.'),
+           'Which is the evidence linking drains to the fall.',
+           {0: 'The order of outbreaks is not what the archives are '
+               'matched against.', 2: 'Vaccines come later and are not part of this '
+               'comparison.', 3: 'Censuses are not mentioned in the lecture.'}),
           ('Better fed children survive infections that kill '
            '____________ ones.', None, 'malnourished',
            'Which is why the effect shows in a dozen diseases at '
@@ -1058,22 +1097,32 @@ UNIT = dict(
           'is becoming more equal, has asked two different questions. '
           'The published figure answers neither of them.'],
          items=[
-          ('Which paragraph explains that the gap is not mainly caused '
+          (
+           'Which paragraph explains that the gap is not mainly caused '
            'by health services?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
            'Countries with and without free treatment show the same '
-           'pattern.'),
-          ('Which paragraph describes an average rising while a gap '
+           'pattern.',
+           {0: 'Paragraph 2 gives the size of the gap.', 2: 'Paragraph 4 is about an average rising while the gap '
+               'widens.', 3: 'Paragraph 5 is about healthy years.'}),
+          (
+           'Which paragraph describes an average rising while a gap '
            'widens?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'The richest districts improving faster than the poorest.'),
-          ('Which paragraph distinguishes years of life from healthy '
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
+           'The richest districts improving faster than the poorest.',
+           {0: 'Paragraph 2 describes the range within one country.', 1: 'Paragraph 3 rules out the health service as the main '
+               'cause.', 3: 'Paragraph 5 distinguishes healthy years from years of '
+               'life.'}),
+          (
+           'Which paragraph distinguishes years of life from healthy '
            'years?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Four years of life and three years of illness.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'Four years of life and three years of illness.',
+           {0: 'Paragraph 3 is about what differs between the two ends '
+               'of the range.', 1: 'Paragraph 4 is about the average rising as the gap '
+               'widens.', 3: 'Paragraph 6 states what question the average answers.'}),
           (
            'The writer believes national averages should not be '
            'published.', ['Yes', 'No', 'Not Given'], 1,
@@ -1152,11 +1201,15 @@ UNIT = dict(
           ('She accepts that this is a ____________ argument rather '
            'than a medical one.', None, 'political',
            'As a description of what happens.'),
-          ('Her finding is that averages rose while the gap between '
-           'districts', ['narrowed', 'widened', 'vanished',
-            'stabilised'], 1,
+          (
+           'Her finding is that averages rose while the gap between '
+           'districts',
+           ['narrowed', 'widened', 'vanished', 'stabilised'], 1,
            'So the national number improved while the poorest places '
-           'went backwards.'),
+           'went backwards.',
+           {0: 'The gap widened rather than narrowed, which is her '
+               'point.', 2: 'Nobody claims the gap vanished.', 3: 'A stable gap would not be the finding she wants '
+               'published.'}),
           ('He adds that the poorest districts lose roughly twice as '
            'many ____________ years.', None, 'healthy',
            'Twice as many as the years of life they lose.')])],

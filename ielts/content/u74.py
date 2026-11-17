@@ -480,10 +480,12 @@ UNIT = dict(
          items=[
           ('Which bird is nearly always in a group?',
            ['sparrow', 'blackbird', 'robin', 'all three'], 0,
-           'A dozen arriving and leaving together.'),
+           'A dozen arriving and leaving together.',
+           {1: 'Blackbird turns leaves over with its beak.'}),
           ('Which bird turns leaves over with its beak?',
            ['sparrow', 'blackbird', 'robin', 'all three'], 1,
-           'Blackbirds feed on the ground.'),
+           'Blackbirds feed on the ground.',
+           {0: 'Sparrow is nearly always in a group.'}),
           (
            'The commonest confusion is that the female blackbird is '
            '____________.', None, 'brown',

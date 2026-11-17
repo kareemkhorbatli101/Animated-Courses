@@ -95,16 +95,24 @@ UNIT = dict(
          items=[
           ('Which grade covers about nine in ten listed buildings?',
            ['Grade I', 'Grade II*', 'Grade II', 'All equally'], 2,
-           'Paragraph 2, and the table beside the passage gives the same '
-           'share as 91.7 per cent.'),
+           'Paragraph 2, and the table beside the passage gives the '
+           'same share as 91.7 per cent.',
+           {0: 'Grade I covers buildings of exceptional interest.', 1: 'Grade II* covers particularly important buildings, a '
+               'small share.', 3: 'The grades cover very different shares of the '
+               'register.'}),
           ('Which grade covers buildings of exceptional interest?',
            ['Grade I', 'Grade II*', 'Grade II', 'None of these'], 0,
-           'Paragraph 2: about one listed building in forty.'),
+           'Paragraph 2: about one listed building in forty.',
+           {1: 'Grade II* covers buildings of more than special '
+               'interest.', 2: 'Grade II covers about nine in ten listed buildings.', 3: 'One of the three grades carries exactly this '
+               'description.'}),
           ('What does the grade affect?',
-           ['Whether consent is needed', 'How applications are assessed',
-            'The amount of any grant', 'The age of the building'], 1,
-           'Paragraph 3, which states that the duty to apply is the same at '
-           'every grade.'),
+           ['Whether consent is needed', 'How applications are assessed', 'The amount of any grant', 'The age of the building'],
+           1,
+           'Paragraph 3, which states that the duty to apply is the '
+           'same at every grade.',
+           {0: 'Paragraph 3 says the duty to apply is the same at '
+               'every grade.', 2: 'No grants are mentioned anywhere in the notice.', 3: 'Age governs curtilage structures, not the grade.'}),
           ('Listing is not a ____________ order.', None, 'preservation',
            'Paragraph 1, which adds that listing does not freeze a '
            'building.'),
@@ -248,27 +256,34 @@ UNIT = dict(
            'spend the hour.')],
          items=[
           ('How many applications were refused last year?',
-           ['Nineteen', 'Forty', 'Two hundred', 'Two hundred and forty'], 0,
-           'Out of two hundred and forty determined, the rest granted with '
-           'conditions.'),
-          ('The speaker says the owners who get into trouble are those who',
-           ['were refused', 'never applied', 'appealed', 'used the wrong '
-            'materials'], 1,
+           ['Nineteen', 'Forty', 'Two hundred', 'Two hundred and forty'],
+           0,
+           'Out of two hundred and forty determined, the rest granted '
+           'with conditions.',
+           {1: 'Forty is the fraction of listings that are Grade I.', 2: 'No figure of that size appears in the talk.', 3: 'Two hundred and forty is the number determined.'}),
+          (
+           'The speaker says the owners who get into trouble are those '
+           'who',
+           ['were refused', 'never applied', 'appealed', 'used the wrong materials'],
+           1,
            'Almost never the ones refused, which is the point of the '
-           'number.'),
+           'number.',
+           {0: 'She says the refused owners are almost never in '
+               'trouble.', 2: 'Appeals are not mentioned in the talk.', 3: 'Materials matter, but the trouble starts with not '
+               'applying.'}),
           ('What is she assessing?',
-           ['Whether a building changes',
-            'Whether a change can be put back',
-            'Whether the work is well done', 'Whether the owner is local'], 1,
+           ['Whether a building changes', 'Whether a change can be put back', 'Whether the work is well done', 'Whether the owner is local'],
+           1,
            'Buildings have always changed; she asks what cannot be '
-           'reversed.'),
+           'reversed.',
+           {0: 'She says buildings have always changed.', 2: 'Quality of workmanship is not her test.', 3: 'Where the owner lives is irrelevant to consent.'}),
           ('She gives as an example of a surprising decision',
-           ['allowing a modern extension and refusing a reproduction '
-            'staircase',
-            'refusing a modern extension',
-            'allowing gypsum plaster', 'refusing a paint colour'], 0,
-           'The extension is reversible; the staircase replaces what the '
-           'building was listed for.')])],
+           ['allowing a modern extension and refusing a reproduction staircase', 'refusing a modern extension', 'allowing gypsum plaster', 'refusing a paint colour'],
+           0,
+           'The extension is reversible; the staircase replaces what '
+           'the building was listed for.',
+           {1: 'She says a modern extension is often allowed.', 2: 'Gypsum over lime plaster is her example of the '
+               'irreversible.', 3: 'A paint colour she calls a Saturday, not a refusal.'})])],
    speak=dict(
     part='Part 1', focus='Old buildings you know',
     intro=('Two or three sentences each. Part 1 rewards a clear answer with '
@@ -410,22 +425,46 @@ UNIT = dict(
           'generation is asking the next one to pay rent somewhere else so '
           'that we can be remembered.'],
          items=[
-          ('Which person says they rarely used the building themselves?',
+          (
+           'Which person says they rarely used the building '
+           'themselves?',
            ['Wilhelmina', 'Oluwaseun', 'Bartholomew', 'Chiedza'], 0,
-           'She has been inside twice in thirty-one years and finds her own '
-           'position strange.'),
-          ('Which person argues that a refusal to pay reveals a preference?',
+           'She has been inside twice in thirty-one years and finds '
+           'her own position strange.',
+           {1: 'Oluwaseun argues that a refusal to pay reveals a '
+               'preference.', 2: 'Bartholomew objects to the way the options have been '
+               'framed.', 3: 'Chiedza was a user of the building but supports '
+               'redevelopment.'}),
+          (
+           'Which person argues that a refusal to pay reveals a '
+           'preference?',
            ['Wilhelmina', 'Oluwaseun', 'Bartholomew', 'Chiedza'], 1,
-           'At some point refusing to say what you will pay is the same as '
-           'saying you do not want it.'),
-          ('Which person objects to the way the options have been framed?',
+           'At some point refusing to say what you will pay is the '
+           'same as saying you do not want it.',
+           {0: 'Wilhelmina says they rarely used the building '
+               'themselves.', 2: 'Bartholomew objects to the way the options have been '
+               'framed.', 3: 'Chiedza was a user of the building but supports '
+               'redevelopment.'}),
+          (
+           'Which person objects to the way the options have been '
+           'framed?',
            ['Wilhelmina', 'Oluwaseun', 'Bartholomew', 'Chiedza'], 2,
-           'He wants a third option in which the council holds it until a use '
-           'appears.'),
-          ('Which person was a user of the building but supports '
+           'He wants a third option in which the council holds it '
+           'until a use appears.',
+           {0: 'Wilhelmina says they rarely used the building '
+               'themselves.', 1: 'Oluwaseun argues that a refusal to pay reveals a '
+               'preference.', 3: 'Chiedza was a user of the building but supports '
+               'redevelopment.'}),
+          (
+           'Which person was a user of the building but supports '
            'redevelopment?',
            ['Wilhelmina', 'Oluwaseun', 'Bartholomew', 'Chiedza'], 3,
-           'She grew up going to the chapel and would vote for the flats.'),
+           'She grew up going to the chapel and would vote for the '
+           'flats.',
+           {0: 'Wilhelmina says they rarely used the building '
+               'themselves.', 1: 'Oluwaseun argues that a refusal to pay reveals a '
+               'preference.', 2: 'Bartholomew objects to the way the options have been '
+               'framed.'}),
           (
            'Wilhelmina believes the chapel should be converted into '
            'housing.', ['Yes', 'No', 'Not Given'], 2,
@@ -487,26 +526,35 @@ UNIT = dict(
            'I would want the deadline written into the minutes, not merely '
            'understood.')],
          items=[
-          ('The surveyor’s figure for the roof is',
-           ['£9,000', '£112,000', '£412,000', '£400,000 a year'], 2,
-           'Four hundred and twelve thousand for the roof alone.'),
-          ('Which of Rosalind’s points does Tobias call her strongest?',
-           ['The size of the congregation', 'The insurance cost',
-            'The Thornbeck chapel', 'The surveyor’s figure'], 1,
-           'Nine thousand a year with nothing to show for it, which he says '
-           'he wants to answer properly.'),
-          ('How does Rosalind undermine Tobias’s example of the mill?',
-           ['She disputes the dates', 'She cites a building that collapsed',
-            'She says it was cheaper', 'She says it was listed'], 1,
-           'The chapel at Thornbeck fell down while its trustees waited.'),
+          ('The surveyor\u2019s figure for the roof is',
+           ['\u00a39,000', '\u00a3112,000', '\u00a3412,000', '\u00a3400,000 a year'],
+           2, 'Four hundred and twelve thousand for the roof alone.',
+           {0: 'Nine thousand is the annual insurance, not the roof.', 1: 'No figure of that size appears in the exchange.', 3: 'The roof figure is a single cost, not an annual one.'}),
+          (
+           'Which of Rosalind\u2019s points does Tobias call her strongest?',
+           ['The size of the congregation', 'The insurance cost', 'The Thornbeck chapel', 'The surveyor\u2019s figure'],
+           1,
+           'Nine thousand a year with nothing to show for it, which he '
+           'says he wants to answer properly.',
+           {0: 'The congregation of eleven is her later question.', 2: 'Thornbeck is her answer to his example, not her own '
+               'point.', 3: 'The surveyor\u2019s figure is what prompts the discussion.'}),
+          (
+           'How does Rosalind undermine Tobias\u2019s example of the mill?',
+           ['She disputes the dates', 'She cites a building that collapsed', 'She says it was cheaper', 'She says it was listed'],
+           1,
+           'The chapel at Thornbeck fell down while its trustees '
+           'waited.',
+           {0: 'She does not dispute the twenty-two years.', 2: 'Cost is not how she answers the mill example.', 3: 'Listing is his later proposal, not her objection.'}),
           ('Tobias argues the building is for',
-           ['the congregation', 'the trustees', 'the street',
-            'future buyers'], 2,
-           'He says a building like that sets what the street is.'),
+           ['the congregation', 'the trustees', 'the street', 'future buyers'],
+           2, 'He says a building like that sets what the street is.',
+           {0: 'He says explicitly that it is not for the eleven.', 1: 'The trustees are who decide, not who it is for.', 3: 'Future buyers would get flats, which is his fear.'}),
           ('What do they agree to?',
-           ['An immediate sale', 'Eighteen months and listing',
-            'A public meeting', 'A new survey'], 1,
-           'With the deadline written into the minutes, where an understanding would not hold.')])],
+           ['An immediate sale', 'Eighteen months and listing', 'A public meeting', 'A new survey'],
+           1,
+           'With the deadline written into the minutes, where an '
+           'understanding would not hold.',
+           {0: 'He wins a delay, so no immediate sale.', 2: 'No public meeting is proposed.', 3: 'The survey has already been done.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Places that matter',
     longturn=[('The building I want to describe is a Victorian swimming baths '
@@ -703,13 +751,21 @@ UNIT = dict(
           ('Today the line of the railway is a ____________.', None,
            'cycle path',
            'Paragraph 3, after the railway and station were removed.'),
-          ('Which paragraph describes a change that reverses an earlier one?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 2,
-           'Paragraph 3 calls the present-day transformation a reversal of what came before it.'),
+          (
+           'Which paragraph describes a change that reverses an '
+           'earlier one?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           2,
+           'Paragraph 3 calls the present-day transformation a '
+           'reversal of what came before it.',
+           {0: 'Paragraph 1 describes the monastery in 1540.', 1: 'Paragraph 2 describes the mill, housing and railway.', 3: 'Paragraph 4 identifies what has not changed.'}),
           ('Which paragraph identifies what has not changed?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 3,
-           'Paragraph 4: Mill Lane and the continuous use of the eastern end '
-           'of the church.')])],
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           3,
+           'Paragraph 4: Mill Lane and the continuous use of the '
+           'eastern end of the church.',
+           {0: 'Paragraph 1 describes the monastery in 1540.', 1: 'Paragraph 2 describes the mill, housing and railway.', 2: 'Paragraph 3 describes a change that reverses an '
+               'earlier one.'})])],
    listen=[
     dict(heading='An archaeologist on the site phases', part='Part 2',
          task='A guided walk around the site', band='l2',
@@ -750,26 +806,34 @@ UNIT = dict(
            'the survival is always more interesting than the destruction.')],
          items=[
           ('The refectory now lies beneath',
-           ['the visitor centre', 'the end of the terrace', 'the car park',
-            'the cycle path'], 1,
-           'The guide places it east of the cloister, under the end of the '
-           'terrace.'),
+           ['the visitor centre', 'the end of the terrace', 'the car park', 'the cycle path'],
+           1,
+           'The guide places it east of the cloister, under the end of '
+           'the terrace.',
+           {0: 'The visitor centre stands on part of the mill '
+               'footprint.', 2: 'The car park covers the old mill pond.', 3: 'The cycle path follows the line of the railway.'}),
           ('Why was the mill built in the north-eastern corner?',
-           ['The ground was level', 'The water was already managed',
-            'The railway was there', 'The land was cheap'], 1,
-           'One of the monastic ponds was enlarged and kept, which is his '
-           'point about reuse.'),
+           ['The ground was level', 'The water was already managed', 'The railway was there', 'The land was cheap'],
+           1,
+           'One of the monastic ponds was enlarged and kept, which is '
+           'his point about reuse.',
+           {0: 'Level ground is what the railway took, to the south.', 2: 'The railway came later than the mill.', 3: 'Land price is not mentioned by the guide.'}),
           ('What does the guide say each phase does?',
-           ['Reuses the infrastructure and destroys the buildings',
-            'Destroys everything', 'Preserves the water',
-            'Follows the railway'], 0,
+           ['Reuses the infrastructure and destroys the buildings', 'Destroys everything', 'Preserves the water', 'Follows the railway'],
+           0,
            'He gives three examples: the mill, the housing and the '
-           'railway.'),
-          ('What does he call the most interesting thing about the site?',
-           ['The destruction', 'The reversal', 'The survival',
-            'The ponds'], 2,
-           'On a site like this the survival is always more interesting than '
-           'the destruction.')])],
+           'railway.',
+           {1: 'He says the infrastructure is reused, not destroyed.', 2: 'Water was preserved by the mill but lost to the car '
+               'park.', 3: 'The railway is one phase among several.'}),
+          (
+           'What does he call the most interesting thing about the '
+           'site?',
+           ['The destruction', 'The reversal', 'The survival', 'The ponds'],
+           2,
+           'On a site like this the survival is always more '
+           'interesting than the destruction.',
+           {0: 'Destruction is what he says is less interesting.', 1: 'The reversal he calls unusual, not the most '
+               'interesting.', 3: 'The ponds illustrate reuse rather than survival.'})])],
    speak=dict(
     part='Part 3', focus='Layers of a place',
     intro=('Four or five sentences. These questions reward a candidate who '
@@ -981,20 +1045,28 @@ UNIT = dict(
           'question any amount of further research will answer.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['A claim based on access', 'A claim based on legality',
-            'A claim based on continuity', 'A defence based on stewardship'],
-           1, 'The permit was issued by an administration the modern state '
-           'regards as having had no authority.'),
+           ['A claim based on access', 'A claim based on legality', 'A claim based on continuity', 'A defence based on stewardship'],
+           1,
+           'The permit was issued by an administration the modern '
+           'state regards as having had no authority.',
+           {0: 'A claim based on access is the heading for paragraph '
+               '4.', 2: 'Continuity is paragraph 3, the descendant community.', 3: 'Stewardship is paragraph 5, the holding museum\u2019s '
+               'position.'}),
           ('Choose the best heading for paragraph 4.',
-           ['A claim based on access', 'A claim based on legality',
-            'A claim based on continuity', 'A defence based on stewardship'],
-           0, 'The regional museum argues objects should be reachable without '
-           'a visa.'),
+           ['A claim based on access', 'A claim based on legality', 'A claim based on continuity', 'A defence based on stewardship'],
+           0,
+           'The regional museum argues objects should be reachable '
+           'without a visa.',
+           {1: 'A claim based on legality is the heading for paragraph '
+               '2.', 2: 'Continuity is paragraph 3, the descendant community.', 3: 'Stewardship is paragraph 5, the holding museum\u2019s '
+               'position.'}),
           ('Choose the best heading for paragraph 8.',
-           ['What the facts show', 'Why research will not settle it',
-            'The strongest claim', 'A proposal for resolution'], 1,
-           'The facts are agreed; the disagreement is about which principle '
-           'governs.'),
+           ['What the facts show', 'Why research will not settle it', 'The strongest claim', 'A proposal for resolution'],
+           1,
+           'The facts are agreed; the disagreement is about which '
+           'principle governs.',
+           {0: 'What the facts show is paragraph 10, the closing '
+               'point.', 2: 'The strongest claim is weighed in paragraphs 6 and 7.', 3: 'No proposal for resolution is offered in the passage.'}),
           (
            'The writer believes the holding museum has the strongest '
            'claim.', ['Yes', 'No', 'Not Given'], 1,
@@ -1072,29 +1144,38 @@ UNIT = dict(
          items=[
           ('How many kinds of claim does the lecturer identify?',
            ['Three', 'Four', 'Five', 'Six'], 1,
-           'Legality, continuity, access and stewardship.'),
+           'Legality, continuity, access and stewardship.',
+           {0: 'Fewer than the kinds of claim he lists.', 2: 'Inertia is added later and he calls it no principle.', 3: 'He identifies four, not six.'}),
           ('What awkward property does he attribute to legality?',
-           ['It is hard to prove', 'Applied consistently it unwinds too much',
-            'It ignores the public', 'It is recent'], 1,
-           'Including acquisitions by claimant states under administrations '
-           'now regarded as illegitimate.'),
-          ('Which claim does he say has moved furthest in thirty years?',
+           ['It is hard to prove', 'Applied consistently it unwinds too much', 'It ignores the public', 'It is recent'],
+           1,
+           'Including acquisitions by claimant states under '
+           'administrations now regarded as illegitimate.',
+           {0: 'Difficulty of proof is not the property he names.', 2: 'The public enters through the access argument instead.', 3: 'Legality is the oldest of the four, not the newest.'}),
+          (
+           'Which claim does he say has moved furthest in thirty '
+           'years?',
            ['Legality', 'Continuity', 'Access', 'Stewardship'], 1,
-           'And museums find it hardest to resist for human remains and '
-           'funerary material.'),
+           'And museums find it hardest to resist for human remains '
+           'and funerary material.',
+           {0: 'Legality is the claim he says does less work than it '
+               'seems.', 2: 'Access he calls the least reported of the four.', 3: 'Stewardship is now advanced quietly, he says.'}),
           ('Why does he call the access argument the most negotiable?',
-           ['It is supported by data', 'It has no villain in it',
-            'It is recent', 'It is cheap to satisfy'], 1,
-           'Which he also says makes it the least reported.'),
+           ['It is supported by data', 'It has no villain in it', 'It is recent', 'It is cheap to satisfy'],
+           1, 'Which he also says makes it the least reported.',
+           {0: 'Data supports the visitor-number version, which cuts '
+               'both ways.', 2: 'He does not date the access argument.', 3: 'Cost is what makes it hard, not easy, to satisfy.'}),
           ('What is his view of stewardship as a principle?',
-           ['The strongest', 'Close to indefensible',
-            'Legally decisive', 'Untested'], 1,
-           'Because it makes competence a source of title, though he allows '
-           'it practical force.'),
+           ['The strongest', 'Close to indefensible', 'Legally decisive', 'Untested'],
+           1,
+           'Because it makes competence a source of title, though he '
+           'allows it practical force.',
+           {0: 'He calls it the weakest of the four as a principle.', 2: 'He does not claim it has legal force.', 3: 'It is advanced often enough to be tested in argument.'}),
           ('He says these disputes are rarely',
            ['political', 'factual', 'public', 'expensive'], 1,
-           'Nobody disagrees about dates, permits or condition in the case on '
-           'the handout.')])],
+           'Nobody disagrees about dates, permits or condition in the '
+           'case on the handout.',
+           {0: 'He treats them as political throughout.', 2: 'These disputes are conducted very publicly.', 3: 'Cost is his point about who can afford a claim.'})])],
    speak=dict(
     part='Part 3', focus='Objects far from where they were made',
     followup=[(('You would return the objects. Who should decide where an '
@@ -1291,18 +1372,29 @@ UNIT = dict(
           'predicting outcomes could now begin reading them.'],
          items=[
           ('Which paragraph describes a return followed by reburial?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'], 1,
-           'Paragraph 3: human remains returned in 2004 and reburied within '
-           'eighteen months.'),
-          ('Which paragraph explains what made the third case different?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 1,
-           'Paragraph 5: the transfer was designed as the beginning of a '
-           'relationship, with costs budgeted by the returning '
-           'institution.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
+           'Paragraph 3: human remains returned in 2004 and reburied '
+           'within eighteen months.',
+           {0: 'Paragraph 2 describes the panels placed in storage.', 2: 'Paragraph 4 describes the manuscripts and the loans.', 3: 'Paragraph 5 explains what made the third case '
+               'different.'}),
+          (
+           'Which paragraph explains what made the third case '
+           'different?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           1,
+           'Paragraph 5: the transfer was designed as the beginning of '
+           'a relationship, with costs budgeted by the returning '
+           'institution.',
+           {0: 'Paragraph 4 describes what happened to the '
+               'manuscripts.', 2: 'Paragraph 6 draws the general conclusion.', 3: 'Paragraph 7 is about the documentary record.'}),
           ('Which paragraph identifies something neither side raised?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 2,
-           'Paragraph 7: the documentary record stayed behind and was not '
-           'discussed in two of the three negotiations.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           2,
+           'Paragraph 7: the documentary record stayed behind and was '
+           'not discussed in two of the three negotiations.',
+           {0: 'Paragraph 5 explains what made the third case '
+               'different.', 1: 'Paragraph 6 draws the general conclusion.', 3: 'Paragraph 8 says what three cases cannot support.'}),
           (
            'The writer thinks the storage case shows the first return '
            'was a mistake.', ['Yes', 'No', 'Not Given'], 1,
@@ -1381,34 +1473,39 @@ UNIT = dict(
            'that at different times.')],
          items=[
           ('What does the curator say about the 1998 panels?',
-           ['They prove return fails', 'Her own side cites them dishonestly',
-            'They should be returned again', 'They were never displayed'], 1,
-           'She says they are in storage under their own curators, which was '
-           'the request.'),
+           ['They prove return fails', 'Her own side cites them dishonestly', 'They should be returned again', 'They were never displayed'],
+           1,
+           'She says they are in storage under their own curators, '
+           'which was the request.',
+           {0: 'She says they refute nothing.', 2: 'No second return is suggested.', 3: 'They were displayed for four years.'}),
           ('Her actual objection concerns',
-           ['conservation standards', 'the documentary record',
-            'visitor numbers', 'legal title'], 1,
+           ['conservation standards', 'the documentary record', 'visitor numbers', 'legal title'],
+           1,
            'In all three returns the archive stayed with the returning '
-           'institution.'),
+           'institution.',
+           {0: 'She does not question the recipients\u2019 conservation.', 2: 'Visitor numbers are not her objection.', 3: 'Title is the campaigner\u2019s point, not hers.'}),
           ('How does the campaigner respond to that point?',
-           ['He disputes it', 'He accepts it and turns it round',
-            'He ignores it', 'He asks for evidence'], 1,
-           'He grants the omission and says it is an argument for better '
-           'negotiation, not for keeping the objects.'),
+           ['He disputes it', 'He accepts it and turns it round', 'He ignores it', 'He asks for evidence'],
+           1,
+           'He grants the omission and says it is an argument for '
+           'better negotiation, not for keeping the objects.',
+           {0: 'He grants the omission at once.', 2: 'He answers it directly rather than passing over it.', 3: 'He accepts the point without asking for proof.'}),
           ('What do both speakers praise about the 2011 manuscripts?',
-           ['The speed of the transfer',
-            'That costs were carried by the returning institution',
-            'That nothing was digitised', 'That no loans were agreed'], 1,
-           'Along with digitisation, training and reciprocal loans.'),
-          ('The campaigner’s central objection is that the curator',
-           ['denies the history', 'discusses arrangements before title',
-            'exaggerates the costs', 'speaks for others'], 1,
-           'He says the prior question is whose they are.'),
+           ['The speed of the transfer', 'That costs were carried by the returning institution', 'That nothing was digitised', 'That no loans were agreed'],
+           1, 'Along with digitisation, training and reciprocal loans.',
+           {0: 'Speed is not what either of them praises.', 2: 'Digitisation is part of what they praise.', 3: 'Reciprocal loans are part of what they praise.'}),
+          (
+           'The campaigner\u2019s central objection is that the curator',
+           ['denies the history', 'discusses arrangements before title', 'exaggerates the costs', 'speaks for others'],
+           1, 'He says the prior question is whose they are.',
+           {0: 'She does not deny the history of the acquisition.', 2: 'He does not dispute her figures.', 3: 'Representation is not the objection he raises here.'}),
           ('What do they finally agree on?',
-           ['An immediate return', 'The order of the questions',
-            'A joint exhibition', 'Further research'], 1,
-           'Title first, arrangements second, and both admit having taken '
-           'them in the wrong order.')])],
+           ['An immediate return', 'The order of the questions', 'A joint exhibition', 'Further research'],
+           1,
+           'Title first, arrangements second, and both admit having '
+           'taken them in the wrong order.',
+           {0: 'No immediate return is agreed in the exchange.', 2: 'No joint exhibition is proposed.', 3: 'They agree the collapsed cases are unlikely to be '
+               'published.'})])],
    speak=dict(
     part='Part 3', focus='Access, ownership and the public',
     sounds=[('Place names and building names have their own stress, and it is '

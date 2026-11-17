@@ -76,9 +76,9 @@ UNIT = dict(
           ('Items may be renewed ____________ times.', None, 'twice',
            'Paragraph 2, unless somebody has reserved them.'),
           ('Who pays nothing for reservations?',
-           ['adults', 'children and the over-65s', 'students',
-            'nobody'], 1,
-           'Paragraph 3, where adults pay 60p.'),
+           ['adults', 'children and the over-65s', 'students', 'nobody'],
+           1, 'Paragraph 3, where adults pay 60p.',
+           {0: 'Adults pay 60p for each reservation.', 2: 'Students are not named as a category for reservations.', 3: 'Two groups do pay nothing, so nobody is wrong.'}),
           ('A reserved item is held for ____________ days.', None,
            'eight', 'Paragraph 3, after notification by text or '
            'email.'),
@@ -303,16 +303,20 @@ UNIT = dict(
          items=[
           ('Which person values a conversation with no content?',
            ['Perpetua', 'Anselm', 'Hyacinth', 'Teodor'], 0,
-           'The weekly nothing is the relationship.'),
+           'The weekly nothing is the relationship.',
+           {1: 'Anselm reports chats with no conversation at all.', 2: 'Hyacinth values the delay rather than the emptiness.', 3: 'Teodor values being unable to do anything else.'}),
           ('Which person tested whether they were missed?',
            ['Perpetua', 'Anselm', 'Hyacinth', 'Teodor'], 1,
-           'He left a group chat for a month.'),
+           'He left a group chat for a month.',
+           {0: 'Perpetua describes eleven years of the same call.', 2: 'Hyacinth describes letters rather than a test.', 3: 'Teodor describes calls while driving.'}),
           ('Which person says the delay changes what is said?',
            ['Perpetua', 'Anselm', 'Hyacinth', 'Teodor'], 2,
-           'You say different things when the reply is a week away.'),
+           'You say different things when the reply is a week away.',
+           {0: 'Perpetua describes a weekly call, not a delay.', 1: 'Anselm describes reactions rather than replies.', 3: 'Teodor describes being trapped in a car.'}),
           ('Which person relies on being unable to do anything else?',
            ['Perpetua', 'Anselm', 'Hyacinth', 'Teodor'], 3,
-           'Calls while driving, when both are trapped.'),
+           'Calls while driving, when both are trapped.',
+           {0: 'Perpetua relies on the weekly habit.', 1: 'Anselm relies on nothing and notices it.', 2: 'Hyacinth relies on the week between letters.'}),
           ('Hyacinth writes letters because she misses the past.',
            ['True', 'False', 'Not Given'], 1,
            'She says explicitly that it is not nostalgia.',
@@ -372,10 +376,14 @@ UNIT = dict(
           ('His test is whether you have had a conversation in the '
            'last ____________ months.', None, 'six',
            'After which knowing about is not knowing.'),
-          ('His remedy is forty minutes on a Sunday rather than four '
-           'hundred', ['photographs', 'messages', 'emails',
-            'minutes'], 1,
-           'Which is the practical point of the talk.')]),
+          (
+           'His remedy is forty minutes on a Sunday rather than four '
+           'hundred',
+           ['photographs', 'messages', 'emails', 'minutes'], 1,
+           'Which is the practical point of the talk.',
+           {0: 'Photographs are not what he contrasts the Sunday call '
+               'with.', 2: 'Emails are not mentioned in the talk.', 3: 'Minutes would make the sentence compare like with '
+               'like.'})]),
     dict(heading='Two friends on messaging and calling', part='Part 3',
          task='A discussion between two friends', band='l3',
          qtype='Questions 29-34',
@@ -421,7 +429,8 @@ UNIT = dict(
            'Because they do not know when it will be read.'),
           ('Everything serious Anselm was told this year was said',
            ['in writing', 'out loud', 'at work', 'by email'], 1,
-           'Three in person and one by telephone.'),
+           'Three in person and one by telephone.',
+           {0: 'Writing is where he says nothing difficult is said.', 2: 'Work is not where either of them locates it.', 3: 'Email is not mentioned by either speaker.'}),
           ('She will accept ____________ o’clock instead of eleven.',
            None, 'ten', 'As a compromise on calling late.'),
           ('In his four group chats, nobody has asked a question since '
@@ -607,21 +616,25 @@ UNIT = dict(
           'under the sea. The word "wireless" describes the ends of the '
           'journey rather than the journey.'],
          items=[
-          ('Which paragraph explains why the parts should be named '
+          (
+           'Which paragraph explains why the parts should be named '
            'first?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 0,
-           'The movement makes no sense until the parts have names.'),
-          ('Which paragraph describes how the network finds the '
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           0, 'The movement makes no sense until the parts have names.',
+           {1: 'Paragraph 2 describes the mast and the radio link.', 2: 'Paragraph 3 describes the switching centre.', 3: 'Paragraph 4 describes the routing to the receiver.'}),
+          (
+           'Which paragraph describes how the network finds the '
            'receiver?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'The switching centre asks the subscriber register.'),
-          ('Which paragraph corrects a common idea about the word '
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'The switching centre asks the subscriber register.',
+           {0: 'Paragraph 2 is about the mast and the base station.', 2: 'Paragraph 4 is about routing once the receiver is '
+               'found.', 3: 'Paragraph 5 is about how much of the journey is cable.'}),
+          (
+           'Which paragraph corrects a common idea about the word '
            'wireless?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 3,
-           'Almost all of the journey is cable.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           3, 'Almost all of the journey is cable.',
+           {0: 'Paragraph 2 describes the radio link at the start.', 1: 'Paragraph 3 is about the subscriber register.', 2: 'Paragraph 4 is about the last radio step.'}),
           ('A phone talks to the nearest ____________ rather than to '
            'another phone.', None, 'mast',
            'Paragraph 2, over a radio signal.'),
@@ -680,9 +693,10 @@ UNIT = dict(
            'crosses a ____________.', None, 'boundary',
            'Whether a call is being made or not.'),
           ('If the receiver is on a landline, the call goes onto the',
-           ['radio network', 'fixed network', 'satellite link',
-            'local mast'], 1,
-           'Leaving the mobile network entirely.'),
+           ['radio network', 'fixed network', 'satellite link', 'local mast'],
+           1, 'Leaving the mobile network entirely.',
+           {0: 'The radio network is only the first and last few '
+               'hundred metres.', 2: 'No satellite link is mentioned in the talk.', 3: 'The local mast is where the mobile part ends.'}),
           ('A handover between masts takes under half a '
            '____________.', None, 'second',
            'Which is why nobody notices it.')])],
@@ -870,19 +884,17 @@ UNIT = dict(
           'speed in front of other people.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['Lists of untranslatable words',
-            'A missing word is not a missing idea',
-            'The cost of an idea', 'What translation loses'], 1,
-           'Schadenfreude, understood and then borrowed.'),
+           ['Lists of untranslatable words', 'A missing word is not a missing idea', 'The cost of an idea', 'What translation loses'],
+           1, 'Schadenfreude, understood and then borrowed.',
+           {0: 'Lists of untranslatable words are paragraph 1.', 2: 'The cost of an idea is paragraph 3.', 3: 'What translation loses is paragraph 4.'}),
           ('Choose the best heading for paragraph 3.',
-           ['Frequency rather than capability',
-            'Why lists circulate', 'Register and history',
-            'Speed and effort'], 0,
-           'One word is cheaper to use, so it is used more.'),
+           ['Frequency rather than capability', 'Why lists circulate', 'Register and history', 'Speed and effort'],
+           0, 'One word is cheaper to use, so it is used more.',
+           {1: 'Why the lists circulate is paragraph 1.', 2: 'Register and history are paragraph 4.', 3: 'Speed and effort are the end of paragraph 5.'}),
           ('Choose the best heading for paragraph 4.',
-           ['Borrowed words', 'What a dictionary cannot convey',
-            'A modest conclusion', 'Four words instead of one'], 1,
-           'Register, history and the company a word keeps.'),
+           ['Borrowed words', 'What a dictionary cannot convey', 'A modest conclusion', 'Four words instead of one'],
+           1, 'Register, history and the company a word keeps.',
+           {0: 'Borrowed words appear in paragraph 2.', 2: 'The modest conclusion is paragraph 5.', 3: 'Four words instead of one is paragraph 2.'}),
           (
            'English speakers could not understand Schadenfreude before '
            'borrowing the word.',
@@ -962,10 +974,12 @@ UNIT = dict(
           ('He says that is a claim about what people bother to '
            '____________ rather than what they can think.', None,
            'say', 'Which he calls far better supported.'),
-          ('A culture can be read accurately in translation provided '
-           'the reader knows what has been', ['added', 'stripped '
-            'out', 'invented', 'repeated'], 1,
-           'Namely the register and the cost of saying it.')])],
+          (
+           'A culture can be read accurately in translation provided '
+           'the reader knows what has been',
+           ['added', 'stripped out', 'invented', 'repeated'], 1,
+           'Namely the register and the cost of saying it.',
+           {0: 'Nothing is added in translation, on his account.', 2: 'Invention is not what he says happens.', 3: 'Repetition is not one of the three losses he names.'})])],
    speak=dict(
     part='Part 3', focus='Translation and what gets lost',
     intro=('Four sentences. Give an example if you have one in any '
@@ -1132,20 +1146,23 @@ UNIT = dict(
           'what is taught about evaluating sources, and it costs about a '
           'minute.'],
          items=[
-          ('Which paragraph describes the test that the strong claim '
+          (
+           'Which paragraph describes the test that the strong claim '
            'failed?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'Colour sorting and borrowed words.'),
-          ('Which paragraph gives the clearest evidence for the weak '
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'Colour sorting and borrowed words.',
+           {0: 'Paragraph 1 describes the rise and fall of the claim.', 2: 'Paragraph 3 introduces the weaker version.', 3: 'Paragraph 4 gives the evidence for the weaker version.'}),
+          (
+           'Which paragraph gives the clearest evidence for the weak '
            'version?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'Pointing north inside an unfamiliar building.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'Pointing north inside an unfamiliar building.',
+           {0: 'Paragraph 2 is where the strong claim failed.', 1: 'Paragraph 3 states the weak version rather than '
+               'testing it.', 3: 'Paragraph 5 explains the skill in ordinary terms.'}),
           ('Which paragraph explains the skill in ordinary terms?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Daily practice required by the grammar.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'Daily practice required by the grammar.',
+           {0: 'Paragraph 3 states the weak version.', 1: 'Paragraph 4 gives the compass evidence.', 3: 'Paragraph 6 draws the lesson for a reader.'}),
           (
            'The strong version of the claim was supported by '
            'experiment.', ['True', 'False', 'Not Given'], 1,
@@ -1221,9 +1238,10 @@ UNIT = dict(
            'than causing the skill.', None, 'landscape',
            'Because people in open country navigate by landmarks.'),
           ('He replies that both explanations may be true at',
-           ['different times', 'once', 'different ages', 'a '
-            'distance'], 1,
-           'Which he calls the honest answer.'),
+           ['different times', 'once', 'different ages', 'a distance'],
+           1, 'Which he calls the honest answer.',
+           {0: 'He says at once rather than at different times.', 2: 'Age is not part of either explanation.', 3: 'Distance is not what he says about the two '
+               'explanations.'}),
           ('The test that would separate them involves speakers who '
            'grew up in ____________.', None, 'cities',
            'Speakers with the same grammar but a city childhood.'),

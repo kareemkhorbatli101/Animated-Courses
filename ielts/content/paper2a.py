@@ -327,18 +327,27 @@ PAPER = dict(
                'judges the work by the few hundred words the publisher is '
                'least confident about.')],
        items=[
-        ('Which paragraph explains why publishers wait before including a '
-         'word?',
-         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 7'], 2,
+        (
+         'Which paragraph explains why publishers wait before '
+         'including a word?',
+         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 7'],
+         2,
          'Paragraph 4 gives the time test and the embarrassment that '
-         'produced it.'),
+         'produced it.',
+         {3: 'Paragraph 7 explains why a large dictionary keeps '
+             'obsolete words.'}),
         ('Which paragraph describes what a usage note actually reports?',
          ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
          'Paragraph 6 explains that it reports a fact about readers.'),
-        ('Which paragraph explains why a large dictionary keeps obsolete '
-         'words?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 7', 'Paragraph 8'], 2,
-         'Paragraph 7 contrasts a historical purpose with finite pages.'),
+        (
+         'Which paragraph explains why a large dictionary keeps '
+         'obsolete words?',
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 7', 'Paragraph 8'],
+         2,
+         'Paragraph 7 contrasts a historical purpose with finite '
+         'pages.',
+         {0: 'Paragraph 4 explains why publishers wait before '
+             'including a word.'}),
         ('What is the collection of text called?',
          None, 'a corpus',
          'Paragraph 2 names the method and describes its scale.'),

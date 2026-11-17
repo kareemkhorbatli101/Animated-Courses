@@ -126,20 +126,23 @@ PAPER = dict(
          '____________ wagons.', None, 'horse-drawn',
          'Paragraph 6, and trains have fitted it ever since.'),
         ('Which paragraph explains why being different is costly?',
-         ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-          'Paragraph 6'], 2,
-         'The cost is paid by the person who differs.'),
-        ('Which paragraph gives two examples from outside '
-         'timekeeping?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-          'Paragraph 7'], 2,
-         'Keyboards and the width between railway lines.'),
-        ('Which paragraph describes clocks that divided the day into '
+         ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+         2, 'The cost is paid by the person who differs.',
+         {1: 'Paragraph 4 describes clocks that divided the day into '
+             'twenty-four hours.', 3: 'Paragraph 6 gives two examples from outside timekeeping.'}),
+        (
+         'Which paragraph gives two examples from outside timekeeping?',
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+         2, 'Keyboards and the width between railway lines.',
+         {0: 'Paragraph 4 describes clocks that divided the day into '
+             'twenty-four hours.', 1: 'Paragraph 5 explains why being different is costly.'}),
+        (
+         'Which paragraph describes clocks that divided the day into '
          'twenty-four hours?',
-         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-          'Paragraph 5'], 2,
-         'Several clocks in Italy, alongside the anticlockwise '
-         'dials.'),
+         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+         2,
+         'Several clocks in Italy, alongside the anticlockwise dials.',
+         {3: 'Paragraph 5 explains why being different is costly.'}),
         ('According to the final paragraph, a widely used standard is '
          'evidence of',
          ['good design', 'early arrival', 'public demand',
@@ -351,28 +354,38 @@ PAPER = dict(
          {0: 'Yes would need a figure for forces; only several '
              'countries are named.', 1: 'No would need him to say most do not, and he gives no '
              'such count.'}),
-        ('Which paragraph explains how a memory is rebuilt each time '
+        (
+         'Which paragraph explains how a memory is rebuilt each time '
          'it is recalled?',
-         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-          'Paragraph 4'], 1,
-         'From fragments and expectations, then stored again.'),
-        ('Which paragraph describes an experiment with different '
+         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+         1, 'From fragments and expectations, then stored again.',
+         {2: 'Paragraph 3 describes an experiment with different '
+             'verbs.'}),
+        (
+         'Which paragraph describes an experiment with different '
          'verbs?',
-         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-          'Paragraph 5'], 1,
+         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+         1,
          '"Hit" against "smashed into", and the broken glass a week '
-         'later.'),
-        ('Which paragraph explains who should conduct an '
+         'later.',
+         {0: 'Paragraph 2 explains how a memory is rebuilt each time '
+             'it is recalled.', 3: 'Paragraph 5 explains who should conduct an '
+             'identification parade.'}),
+        (
+         'Which paragraph explains who should conduct an '
          'identification parade?',
-         ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-          'Paragraph 6'], 2,
-         'An officer who does not know which person is the '
-         'suspect.'),
-        ('Which paragraph states when confidence is most closely '
+         ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+         2, 'An officer who does not know which person is the suspect.',
+         {0: 'Paragraph 3 describes an experiment with different '
+             'verbs.', 3: 'Paragraph 6 states when confidence is most closely '
+             'related to accuracy.'}),
+        (
+         'Which paragraph states when confidence is most closely '
          'related to accuracy?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-          'Paragraph 7'], 2,
-         'At the moment of first identification.'),
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+         2, 'At the moment of first identification.',
+         {1: 'Paragraph 5 explains who should conduct an '
+             'identification parade.'}),
         ('Participants who heard the word "smashed" were more likely '
          'to report seeing broken ____________.', None, 'glass',
          'Paragraph 3, although there was none in the film.'),

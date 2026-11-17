@@ -50,17 +50,25 @@ UNIT = dict(
           'is required.'],
          items=[
           ('The vaccination is free for everyone aged',
-           ['50 and over', '60 and over', '65 and over', '70 and over'], 2,
-           'Paragraph 1, alongside those with a listed condition and pregnant '
-           'women.'),
+           ['50 and over', '60 and over', '65 and over', '70 and over'],
+           2,
+           'Paragraph 1, alongside those with a listed condition and '
+           'pregnant women.',
+           {0: 'Lower than the age paragraph 1 gives for free '
+               'vaccination.', 1: 'Still below the threshold the first paragraph sets.', 3: 'Higher than the age at which the offer begins.'}),
           ('Which group is vaccinated through their employer?',
-           ['Carers', 'Pregnant women', 'Front-line health and care staff',
-            'Children'], 2,
-           'Paragraph 3, though they may book here if no employer scheme '
-           'exists.'),
+           ['Carers', 'Pregnant women', 'Front-line health and care staff', 'Children'],
+           2,
+           'Paragraph 3, though they may book here if no employer '
+           'scheme exists.',
+           {0: 'Carers book through this programme, not an employer.', 1: 'Pregnant women are eligible at any stage, through this '
+               'programme.', 3: 'Children are offered a spray through this programme.'}),
           ('Children aged 2 to 11 are normally offered',
            ['an injection', 'a nasal spray', 'nothing', 'a choice'], 1,
-           'Paragraph 4, with an injection available on request.'),
+           'Paragraph 4, with an injection available on request.',
+           {0: 'An injection is available on request, but is not the '
+               'default.', 2: 'This age group is offered the spray, not nothing.', 3: 'The spray is offered first; a choice follows only on '
+               'request.'}),
           ('You are eligible if you are the main ____________ for an older or '
            'disabled person.', None, 'carer',
            'Paragraph 2, one of the two least-used routes.'),
@@ -191,23 +199,28 @@ UNIT = dict(
            'another.')],
          items=[
           ('What does the speaker say about people who ignore advice?',
-           ['They have not heard it', 'They can state it accurately',
-            'They distrust the source', 'They forget it'], 1,
+           ['They have not heard it', 'They can state it accurately', 'They distrust the source', 'They forget it'],
+           1,
            'Campaigns assuming the message has not arrived solve a '
-           'non-existent problem.'),
+           'non-existent problem.',
+           {0: 'She says they can state the advice accurately.', 2: 'Distrust of the source is not what the surveys find.', 3: 'Forgetting is ruled out by their accurate recall.'}),
           ('Her second point is that advice',
-           ['is too complicated', 'competes with other advice',
-            'changes too often', 'comes too late'], 1,
+           ['is too complicated', 'competes with other advice', 'changes too often', 'comes too late'],
+           1,
            'Issued from different offices and received from one '
-           'authority.'),
+           'authority.',
+           {0: 'Complexity is not what her second point is about.', 2: 'How often advice changes is not raised in the talk.', 3: 'Timing is not among the three points she makes.'}),
           ('Which advice is most often ignored?',
-           ['The most expensive', 'The hardest to follow',
-            'The easiest to follow', 'The most recent'], 2,
-           'Which she says is the thing she finds hardest to teach.'),
+           ['The most expensive', 'The hardest to follow', 'The easiest to follow', 'The most recent'],
+           2, 'Which she says is the thing she finds hardest to teach.',
+           {0: 'Cost is not one of the factors she discusses.', 1: 'She says the opposite, which is what she finds hard to '
+               'teach.', 3: 'How recent the advice is does not predict being '
+               'ignored.'}),
           ('What predicts following advice?',
-           ['Understanding the science', 'Having seen the consequence',
-            'Trusting the government', 'Being reminded often'], 1,
-           'Preferably in somebody the person knows.')])],
+           ['Understanding the science', 'Having seen the consequence', 'Trusting the government', 'Being reminded often'],
+           1, 'Preferably in somebody the person knows.',
+           {0: 'Understanding the science is not what predicts '
+               'following it.', 2: 'Trust in government is not mentioned in the talk.', 3: 'Repetition is what she says does not work.'})])],
    speak=dict(
     part='Part 1', focus='Health services where you live',
     intro=('Two or three sentences each. Everyday experience is the right '
@@ -341,16 +354,21 @@ UNIT = dict(
          items=[
           ('Which person stopped because the guidance changed?',
            ['Sigrun', 'Oluwafemi', 'Petra', 'Dawit'], 0,
-           'She names exhaustion as a reason nobody plans for.'),
+           'She names exhaustion as a reason nobody plans for.',
+           {1: 'Oluwafemi wants to know which advice matters most.', 2: 'Petra changed after seeing somebody else\u2019s illness.', 3: 'Dawit says the advice assumes a different life.'}),
           ('Which person wants to know which advice matters most?',
            ['Sigrun', 'Oluwafemi', 'Petra', 'Dawit'], 1,
-           'Forty instructions and no sense of which three matter.'),
-          ('Which person changed after seeing somebody else’s illness?',
+           'Forty instructions and no sense of which three matter.',
+           {0: 'Sigrun stopped because the guidance changed.', 2: 'Petra changed after seeing somebody else\u2019s illness.', 3: 'Dawit says the advice assumes a different life.'}),
+          (
+           'Which person changed after seeing somebody else\u2019s illness?',
            ['Sigrun', 'Oluwafemi', 'Petra', 'Dawit'], 2,
-           'Watching her brother relearn to hold a cup.'),
+           'Watching her brother relearn to hold a cup.',
+           {0: 'Sigrun stopped because the guidance changed.', 1: 'Oluwafemi wants to know which advice matters most.', 3: 'Dawit says the advice assumes a different life.'}),
           ('Which person says the advice assumes a different life?',
            ['Sigrun', 'Oluwafemi', 'Petra', 'Dawit'], 3,
-           'Ten hours driving a van, home at nine.'),
+           'Ten hours driving a van, home at nine.',
+           {0: 'Sigrun stopped because the guidance changed.', 1: 'Oluwafemi wants to know which advice matters most.', 2: 'Petra changed after seeing somebody else\u2019s illness.'}),
           (
            'Petra recommends that others wait for a shock before '
            'changing.', ['Yes', 'No', 'Not Given'], 1,
@@ -402,25 +420,31 @@ UNIT = dict(
           ('Annelise', 'Less satisfying is accurate. Write it that way and I will sign it.')],
          items=[
           ('Uptake in the targeted wards was',
-           ['twenty-nine per cent', 'thirty-four per cent',
-            'sixty-one per cent', 'two per cent'], 1,
-           'Up from twenty-nine the previous year.'),
+           ['twenty-nine per cent', 'thirty-four per cent', 'sixty-one per cent', 'two per cent'],
+           1, 'Up from twenty-nine the previous year.',
+           {0: 'Twenty-nine per cent was the figure a year earlier.', 2: 'Sixty-one per cent is the overall figure.', 3: 'Two points is the rise in the overall figure.'}),
           ('Faisal argues that of the five-point rise,',
-           ['all is the campaign', 'three points are the campaign',
-            'none is the campaign', 'it cannot be estimated'], 1,
-           'Because the untargeted overall figure rose by two anyway.'),
+           ['all is the campaign', 'three points are the campaign', 'none is the campaign', 'it cannot be estimated'],
+           1,
+           'Because the untargeted overall figure rose by two anyway.',
+           {0: 'Two of the five points moved everywhere without a '
+               'campaign.', 2: 'He credits the campaign with three of the five points.', 3: 'He estimates it plainly from the untargeted rise.'}),
           ('Why does he say they cannot tell what worked?',
-           ['The sample is small', 'They changed four things at once',
-            'The data is late', 'Staff were untrained'], 1,
-           'Which is his argument for running two wards differently.'),
+           ['The sample is small', 'They changed four things at once', 'The data is late', 'Staff were untrained'],
+           1,
+           'Which is his argument for running two wards differently.',
+           {0: 'Sample size is not the objection he raises.', 2: 'The figures have just arrived, which is why they meet.', 3: 'He praises the staff rather than questioning their '
+               'training.'}),
           ('What will Annelise not support?',
-           ['A new campaign', 'Reporting thirty-four as a failure',
-            'Naming the wards', 'Spending more'], 1,
-           'Because those who came were the hardest to reach.'),
+           ['A new campaign', 'Reporting thirty-four as a failure', 'Naming the wards', 'Spending more'],
+           1, 'Because those who came were the hardest to reach.',
+           {0: 'She says she is not arguing that they stop.', 2: 'She offers to back the proposal with the wards named.', 3: 'Spending more is not what she refuses to support.'}),
           ('How does Faisal propose to describe the result?',
-           ['A failure', 'A success', 'A number they cannot yet explain',
-            'An improvement'], 2,
-           'Which he calls different and less satisfying.')])],
+           ['A failure', 'A success', 'A number they cannot yet explain', 'An improvement'],
+           2, 'Which he calls different and less satisfying.',
+           {0: 'He says he would never report it as a failure.', 1: 'A success is her reading, which he calls fair but '
+               'early.', 3: 'An improvement is what the figure shows, but not his '
+               'wording.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Advice',
     longturn=[('The advice I did not take was to turn down the first job I was '
@@ -606,15 +630,31 @@ UNIT = dict(
          items=[
           ('Reported cases peak in week',
            ['three', 'five', 'seven', 'nine'], 1,
-           'At 140 per hundred thousand, two weeks before admissions peak.'),
-          ('Which paragraph explains the two-week gap between the peaks?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
-           'The interval between being unwell and being seriously unwell.'),
-          ('Which paragraph explains why the ratio between the lines '
-           'misleads?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'It is a proportion of reported cases, and reporting depends on '
-           'testing.'),
+           'At 140 per hundred thousand, two weeks before admissions '
+           'peak.',
+           {0: 'Week three is before the peak the passage reports.', 2: 'Week seven is when admissions peak, two weeks later.', 3: 'Later than either peak the graph shows.'}),
+          (
+           'Which paragraph explains the two-week gap between the '
+           'peaks?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
+           'The interval between being unwell and being seriously '
+           'unwell.',
+           {0: 'Paragraph 1 gives the peaks without explaining the '
+               'gap.', 2: 'Paragraph 3 explains why the ratio between the lines '
+               'misleads.', 3: 'Paragraph 4 is about the expansion of testing in week '
+               'four.'}),
+          (
+           'Which paragraph explains why the ratio between the lines '
+           'misleads?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
+           'It is a proportion of reported cases, and reporting '
+           'depends on testing.',
+           {0: 'Paragraph 2 explains the two-week gap between the '
+               'peaks.', 2: 'Paragraph 4 is about the expansion of testing in week '
+               'four.', 3: 'Paragraph 5 explains why admissions are watched '
+               'instead.'}),
           ('Admissions peak at ____________ per hundred thousand.', None,
            '29', 'In week seven, a fifth of the height of the case peak.'),
           ('Admissions peak about two weeks after cases do.',
@@ -673,29 +713,38 @@ UNIT = dict(
            'that tells me less and lies to me less.')],
          items=[
           ('The gap between the peaks is caused by',
-           ['testing delays', 'the time from unwell to seriously unwell',
-            'reporting errors', 'weekend effects'], 1,
-           'About a fortnight, which he says is not a mystery.'),
+           ['testing delays', 'the time from unwell to seriously unwell', 'reporting errors', 'weekend effects'],
+           1, 'About a fortnight, which he says is not a mystery.',
+           {0: 'Testing affects the heights, not the gap between '
+               'peaks.', 2: 'Reporting errors are not what he says causes the lag.', 3: 'The weekend sawtooth is a separate distortion he names '
+               'later.'}),
           ('An admissions figure on Thursday describes the epidemic',
-           ['that day', 'a week earlier', 'a fortnight earlier',
-            'a month earlier'], 2,
-           'Which is why policy made from it responds to a past state.'),
-          ('Why is "one in five infected people needed hospital" wrong?',
-           ['The figures are rounded', 'The denominator is reported cases',
-            'Admissions are undercounted', 'The weeks differ'], 1,
-           'The error is in the word infected.'),
+           ['that day', 'a week earlier', 'a fortnight earlier', 'a month earlier'],
+           2,
+           'Which is why policy made from it responds to a past state.',
+           {0: 'Same-day figures are what admissions cannot give.', 1: 'Shorter than the interval he describes.', 3: 'Longer than the fortnight he gives.'}),
+          (
+           'Why is "one in five infected people needed hospital" '
+           'wrong?',
+           ['The figures are rounded', 'The denominator is reported cases', 'Admissions are undercounted', 'The weeks differ'],
+           1, 'The error is in the word infected.',
+           {0: 'Rounding is not where he locates the error.', 2: 'He says admissions are the more reliable of the two '
+               'lines.', 3: 'The two-week gap is a separate point about timing.'}),
           ('Testing in this outbreak expanded in week',
            ['two', 'four', 'six', 'eight'], 1,
-           'So part of the rise to the peak is more looking.'),
+           'So part of the rise to the peak is more looking.',
+           {0: 'Earlier than the week he names for the expansion.', 2: 'Week six is his hypothetical cut, not the expansion.', 3: 'Later than the expansion he describes.'}),
           ('A government that cut testing in week six would produce',
-           ['a real fall', 'a falling line and no epidemiological change',
-            'more admissions', 'no visible effect'], 1,
+           ['a real fall', 'a falling line and no epidemiological change', 'more admissions', 'no visible effect'],
+           1,
            'Which is his illustration of how easily the case line is '
-           'distorted.'),
+           'distorted.',
+           {0: 'A real fall is what the line would appear to show and '
+               'would not be.', 2: 'Admissions would be unaffected by a change in testing.', 3: 'The line would move sharply, which is his point.'}),
           ('He would prefer the line that',
-           ['tells him more', 'tells him less and lies less',
-            'arrives soonest', 'is easiest to explain'], 1,
-           'Because admissions are harder to distort.')])],
+           ['tells him more', 'tells him less and lies less', 'arrives soonest', 'is easiest to explain'],
+           1, 'Because admissions are harder to distort.',
+           {0: 'The case line tells him more and distorts more.', 2: 'Cases arrive sooner, which is their only advantage.', 3: 'Ease of explanation is not his criterion.'})])],
    speak=dict(
     part='Part 3', focus='Measuring an outbreak',
     intro=('Four or five sentences. Where you use a number, say what it is a '
@@ -906,18 +955,24 @@ UNIT = dict(
                  'expensive, unpopular and almost never done.')],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['The familiar account', 'A number that is not fixed',
-            'Who is infected first', 'Running out of season'], 1,
-           'The figure depends on the population and its behaviour, not just '
-           'the disease.'),
+           ['The familiar account', 'A number that is not fixed', 'Who is infected first', 'Running out of season'],
+           1,
+           'The figure depends on the population and its behaviour, '
+           'not just the disease.',
+           {0: 'The familiar account is paragraph 2, with the '
+               'threshold.', 2: 'Who is infected first is the heading for paragraph 5.', 3: 'Running out of season is the heading for paragraph 7.'}),
           ('Choose the best heading for paragraph 5.',
-           ['A number that is not fixed', 'Who is infected first',
-            'Running out of season', 'Several causes at once'], 1,
-           'Real populations are not well-mixed pools.'),
+           ['A number that is not fixed', 'Who is infected first', 'Running out of season', 'Several causes at once'],
+           1, 'Real populations are not well-mixed pools.',
+           {0: 'A number that is not fixed is the heading for '
+               'paragraph 3.', 2: 'Running out of season is the heading for paragraph 7.', 3: 'Several causes at once is paragraph 10, the summary.'}),
           ('Choose the best heading for paragraph 7.',
-           ['Who is infected first', 'Running out of season',
-            'Several causes at once', 'The familiar account'], 1,
-           'Many respiratory diseases transmit better in cold, dry air.'),
+           ['Who is infected first', 'Running out of season', 'Several causes at once', 'The familiar account'],
+           1,
+           'Many respiratory diseases transmit better in cold, dry '
+           'air.',
+           {0: 'Who is infected first is the heading for paragraph 5.', 2: 'Several causes at once is paragraph 10, the summary.', 3: 'The familiar account is paragraph 2, with the '
+               'threshold.'}),
           ('The writer believes the familiar account is wrong.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 calls it correct and incomplete.',
@@ -980,32 +1035,42 @@ UNIT = dict(
            'reverse of what every government wants from us.')],
          items=[
           ('The lecturer says the textbook answer is',
-           ['wrong', 'true and about a third of the story',
-            'out of date', 'too technical'], 1,
-           'He then gives the three things it leaves out.'),
+           ['wrong', 'true and about a third of the story', 'out of date', 'too technical'],
+           1, 'He then gives the three things it leaves out.',
+           {0: 'He says the textbook answer is true as far as it goes.', 2: 'Age is not what he says is wrong with it.', 3: 'He calls it the textbook answer, not a technical one.'}),
           ('The number of further cases is a property of',
-           ['the virus', 'a virus in a population behaving a certain way',
-            'the season only', 'the health system'], 1,
-           'And he calls treating it as a constant the commonest error in '
-           'the field.'),
+           ['the virus', 'a virus in a population behaving a certain way', 'the season only', 'the health system'],
+           1,
+           'And he calls treating it as a constant the commonest error '
+           'in the field.',
+           {0: 'The virus alone is what he says it is wrongly taken to '
+               'be.', 2: 'Season is one factor among several, not the whole.', 3: 'The health system is not part of his definition.'}),
           ('The standard model wrongly assumes that',
-           ['everybody is immune', 'everybody is equally likely to meet '
-            'everybody', 'nobody travels', 'all cases are reported'], 1,
-           'Whereas the first infected are those with the most contacts.'),
+           ['everybody is immune', 'everybody is equally likely to meet everybody', 'nobody travels', 'all cases are reported'],
+           1,
+           'Whereas the first infected are those with the most '
+           'contacts.',
+           {0: 'Universal immunity is not what the model assumes.', 2: 'Travel is not what the mixing assumption is about.', 3: 'Reporting is a separate problem, about case counts.'}),
           ('Why is he careful about the mixing point?',
-           ['It is disputed', 'A true observation was used for a badly wrong '
-            'prediction', 'It is hard to measure', 'It applies only to '
-            'cities'], 1,
-           'A few years ago, which is why he flags it.'),
+           ['It is disputed', 'A true observation was used for a badly wrong prediction', 'It is hard to measure', 'It applies only to cities'],
+           1, 'A few years ago, which is why he flags it.',
+           {0: 'He presents the mixing point as true, not disputed.', 2: 'Measurement difficulty is real but not why he flags '
+               'it.', 3: 'He does not restrict the point to cities.'}),
           ('The third reason he gives is',
-           ['vaccination', 'seasons', 'travel restrictions',
-            'better treatment'], 1,
-           'Many respiratory infections spread better in cold dry air.'),
-          ('He says an epidemic ending is overdetermined, which makes the '
-           'decline easy to forecast and the credit',
-           ['easy to assign', 'nearly impossible to assign',
-            'shared equally', 'irrelevant'], 1,
-           'Which he calls the reverse of what governments want.')])],
+           ['vaccination', 'seasons', 'travel restrictions', 'better treatment'],
+           1,
+           'Many respiratory infections spread better in cold dry air.',
+           {0: 'Vaccination is not among the three things he lists.', 2: 'Restrictions come in as his fourth point, on '
+               'behaviour.', 3: 'Treatment is not one of his reasons.'}),
+          (
+           'He says an epidemic ending is overdetermined, which makes '
+           'the decline easy to forecast and the credit',
+           ['easy to assign', 'nearly impossible to assign', 'shared equally', 'irrelevant'],
+           1, 'Which he calls the reverse of what governments want.',
+           {0: 'He says the credit is the part that cannot be '
+               'assigned.', 2: 'Equal sharing is not what overdetermination implies '
+               'here.', 3: 'He calls the credit the question governments most '
+               'want.'})])],
    speak=dict(
     part='Part 3', focus='Stopping the spread of disease',
     followup=[('You mentioned restrictions on travel. Do they work?',
@@ -1202,19 +1267,31 @@ UNIT = dict(
           'reasonably, until a number with error bars wider than its value '
           'appears on a screen behind a minister.'],
          items=[
-          ('Which paragraph explains that most infected people infect '
-           'nobody?', ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'A large majority pass it to nobody while a small minority produce '
-           'many cases.'),
-          ('Which paragraph describes the problem of regional averaging?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'], 1,
+          (
+           'Which paragraph explains that most infected people infect '
+           'nobody?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
+           'A large majority pass it to nobody while a small minority '
+           'produce many cases.',
+           {0: 'Paragraph 1 describes how the figure was used.', 2: 'Paragraph 3 explains why such an average misleads.', 3: 'Paragraph 4 describes the problem of regional '
+               'averaging.'}),
+          (
+           'Which paragraph describes the problem of regional '
+           'averaging?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1,
            'A national figure below one can contain a city in rapid '
-           'growth.'),
-          ('Which paragraph argues that scientists were not simply ignored?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 2,
-           'The number was converted into a usable form, and the conversion '
-           'destroyed the information.'),
+           'growth.',
+           {0: 'Paragraph 3 explains why such an average misleads.', 2: 'Paragraph 5 is about the delay in the estimate.', 3: 'Paragraph 6 reports what the producers said.'}),
+          (
+           'Which paragraph argues that scientists were not simply '
+           'ignored?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           2,
+           'The number was converted into a usable form, and the '
+           'conversion destroyed the information.',
+           {0: 'Paragraph 5 is about the delay in the estimate.', 1: 'Paragraph 6 reports the warnings that were given.', 3: 'Paragraph 8 asks what better practice would look like.'}),
           (
            'The writer believes the figure should never have been '
            'calculated.', ['Yes', 'No', 'Not Given'], 1,
@@ -1278,28 +1355,37 @@ UNIT = dict(
            'the next one, not during it.')],
          items=[
           ('Agbaje says his criticism is not of',
-           ['the communication', 'the models', 'the government',
-            'the data'], 1,
-           'He states that the models carried their uncertainty properly.'),
+           ['the communication', 'the models', 'the government', 'the data'],
+           1,
+           'He states that the models carried their uncertainty '
+           'properly.',
+           {0: 'Communication is exactly what he does criticise.', 2: 'He names identifiable meetings rather than the '
+               'government.', 3: 'The data is not what either of them faults.'}),
           ('What word does Wrzesniewski resist?',
            ['Model', 'Uncertainty', 'System', 'Estimate'], 2,
-           'Because it sounds as though nobody did it, when identifiable '
-           'people did.'),
+           'Because it sounds as though nobody did it, when '
+           'identifiable people did.',
+           {0: 'The models are what Agbaje says he is not criticising.', 1: 'Uncertainty is what he says the models carried '
+               'properly.', 3: 'An estimate is what the meetings produced, not the '
+               'word he resists.'}),
           ('He says answering properly eventually reads as',
            ['caution', 'evasion', 'expertise', 'disagreement'], 1,
-           'Which is the point at which a central estimate gets given.'),
+           'Which is the point at which a central estimate gets given.',
+           {0: 'Caution is how it is meant rather than how it is '
+               'heard.', 2: 'Expertise is not how the repeated range is received.', 3: 'Disagreement is not what the questioner hears.'}),
           ('Agbaje says the fix is',
            ['scientific', 'procedural', 'legal', 'political'], 1,
-           'An agreed sentence, the same every week.'),
+           'An agreed sentence, the same every week.',
+           {0: 'He says the models did their part properly.', 2: 'No legal change is proposed by either speaker.', 3: 'He proposes an agreed form of words, not a political '
+               'fix.'}),
           ('Why did the modellers keep producing a national figure?',
-           ['It was accurate', 'It was asked for',
-            'Regions were synchronised', 'It was required by law'], 1,
-           'Though they knew regions were not synchronised.'),
+           ['It was accurate', 'It was asked for', 'Regions were synchronised', 'It was required by law'],
+           1, 'Though they knew regions were not synchronised.',
+           {0: 'They knew the national figure was nobody\u2019s.', 2: 'They knew the regions were not synchronised.', 3: 'No legal requirement is mentioned in the exchange.'}),
           ('What do they conclude about the format?',
-           ['It should be decided during an emergency',
-            'It should be decided before the next one',
-            'It cannot be fixed', 'It should be left to scientists'], 1,
-           'Because nobody reads an annexe during an emergency.')])],
+           ['It should be decided during an emergency', 'It should be decided before the next one', 'It cannot be fixed', 'It should be left to scientists'],
+           1, 'Because nobody reads an annexe during an emergency.',
+           {0: 'Deciding during an emergency is what went wrong.', 2: 'They end by agreeing on a fix, not on impossibility.', 3: 'The fix they reach is procedural and shared.'})])],
    speak=dict(
     part='Part 3', focus='Models and the decisions made from them',
     sounds=[('Hedges have to be said at speed or they stop being hedges. As '

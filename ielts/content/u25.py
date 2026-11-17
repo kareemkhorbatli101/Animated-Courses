@@ -71,18 +71,25 @@ UNIT = dict(
           'first.'],
          items=[
           ('Browsing records are kept for',
-           ['one month', 'twenty-four months', 'six years',
-            'indefinitely'], 1,
-           'Paragraph 2, after which they are deleted automatically.'),
+           ['one month', 'twenty-four months', 'six years', 'indefinitely'],
+           1,
+           'Paragraph 2, after which they are deleted automatically.',
+           {0: 'Shorter than the period paragraph 2 gives for '
+               'browsing.', 2: 'Six years is the retention for account records.', 3: 'Browsing records are deleted automatically after two '
+               'years.'}),
           ('Account records are kept for six years because',
-           ['of marketing', 'tax law requires it', 'customers ask',
-            'the supplier requires it'], 1,
-           'Paragraph 2, counted from the closing of the account.'),
+           ['of marketing', 'tax law requires it', 'customers ask', 'the supplier requires it'],
+           1, 'Paragraph 2, counted from the closing of the account.',
+           {0: 'Marketing preferences are kept until withdrawn, '
+               'separately.', 2: 'Customer requests are not the reason given in '
+               'paragraph 2.', 3: 'Suppliers are listed in paragraph 4 for a different '
+               'purpose.'}),
           ('You may complain to the regulator',
-           ['only after complaining to the company', 'at any time',
-            'only within a month', 'only about deletion'], 1,
-           'Paragraph 5: whether or not you have complained to the company '
-           'first.'),
+           ['only after complaining to the company', 'at any time', 'only within a month', 'only about deletion'],
+           1,
+           'Paragraph 5: whether or not you have complained to the '
+           'company first.',
+           {0: 'Paragraph 5 says the two complaints are independent.', 2: 'One month is the time the company has to reply.', 3: 'The right to complain is not limited to deletion.'}),
           ('The company must answer a request for a copy within one '
            '____________ month.', None, 'calendar',
            'Paragraph 3, alongside correcting anything inaccurate without '
@@ -212,24 +219,29 @@ UNIT = dict(
            'is the question that predicts complaints, and it is also the one '
            'the law is slowly moving towards.')],
          items=[
-          ('The study’s main finding is that',
-           ['people dislike tracking', 'what people say and do are almost '
-            'unrelated', 'discounts are too small', 'surveys are '
-            'unreliable'], 1,
-           'Ninety per cent object in the survey; seventy per cent accept '
-           'for a discount.'),
-          ('The speaker says pricing a privacy trade is impossible '
-           'because', ['people are irrational', 'nobody has the necessary '
-            'information', 'the law is unclear', 'discounts vary'], 1,
-           'Including the company doing the collecting.'),
+          ('The study\u2019s main finding is that',
+           ['people dislike tracking', 'what people say and do are almost unrelated', 'discounts are too small', 'surveys are unreliable'],
+           1,
+           'Ninety per cent object in the survey; seventy per cent '
+           'accept for a discount.',
+           {0: 'Dislike of tracking is the survey half of the finding.', 2: 'He does not say the discounts are too small.', 3: 'Both halves of the study are treated as sound.'}),
+          (
+           'The speaker says pricing a privacy trade is impossible '
+           'because',
+           ['people are irrational', 'nobody has the necessary information', 'the law is unclear', 'discounts vary'],
+           1, 'Including the company doing the collecting.',
+           {0: 'He says the opposite: it is a sensible response.', 2: 'Legal uncertainty is not his explanation.', 3: 'Variation in discounts is not what makes pricing '
+               'impossible.'}),
           ('People object most strongly to',
-           ['how much is collected', 'who sees the data', 'how long it is '
-            'kept', 'where it is stored'], 1,
-           'Four times the objection when shared with an insurer.'),
+           ['how much is collected', 'who sees the data', 'how long it is kept', 'where it is stored'],
+           1, 'Four times the objection when shared with an insurer.',
+           {0: 'Volume collected matters far less than who sees it.', 2: 'Retention is not what the study found people object to '
+               'most.', 3: 'Where the data is stored is not among his findings.'}),
           ('What question does the speaker recommend asking?',
-           ['Did they consent?', 'Would they have predicted the use?',
-            'Is it lawful?', 'Is it profitable?'], 1,
-           'Because that is what predicts complaints.')])],
+           ['Did they consent?', 'Would they have predicted the use?', 'Is it lawful?', 'Is it profitable?'],
+           1, 'Because that is what predicts complaints.',
+           {0: 'He says people do consent, so that question is '
+               'settled.', 2: 'Lawfulness is not the question he recommends.', 3: 'Profit is not what predicts complaints.'})])],
    speak=dict(
     part='Part 1', focus='Information you share online',
     intro=('Two or three sentences each. Concrete examples beat general '
@@ -372,16 +384,24 @@ UNIT = dict(
          items=[
           ('Which person accepts a practical cost for their position?',
            ['Beatriz', 'Teodor', 'Noor', 'Lajos'], 0,
-           'Ten minutes a week, which she calls the price.'),
+           'Ten minutes a week, which she calls the price.',
+           {1: 'Teodor blames the design of the choice.', 2: 'Noor cares about the recipient rather than the amount.', 3: 'Lajos sees the decision as collective.'}),
           ('Which person blames the design of the choice?',
            ['Beatriz', 'Teodor', 'Noor', 'Lajos'], 1,
-           'A large green button, with the alternative three clicks away.'),
-          ('Which person cares about the recipient rather than the amount?',
-           ['Beatriz', 'Teodor', 'Noor', 'Lajos'], 2,
-           'The shop may know everything; it may not pass it to an insurer.'),
+           'A large green button, with the alternative three clicks '
+           'away.',
+           {0: 'Beatriz accepts a practical cost for their position.', 2: 'Noor cares about the recipient rather than the amount.', 3: 'Lajos sees the decision as collective.'}),
+          (
+           'Which person cares about the recipient rather than the '
+           'amount?', ['Beatriz', 'Teodor', 'Noor', 'Lajos'],
+           2,
+           'The shop may know everything; it may not pass it to an '
+           'insurer.',
+           {0: 'Beatriz accepts a practical cost for their position.', 1: 'Teodor blames the design of the choice.', 3: 'Lajos sees the decision as collective.'}),
           ('Which person sees the decision as collective?',
            ['Beatriz', 'Teodor', 'Noor', 'Lajos'], 3,
-           'What he agrees to sets what the next person is offered.'),
+           'What he agrees to sets what the next person is offered.',
+           {0: 'Beatriz accepts a practical cost for their position.', 1: 'Teodor blames the design of the choice.', 2: 'Noor cares about the recipient rather than the amount.'}),
           ('Teodor believes the trade he accepts is a fair one.',
            ['Yes', 'No', 'Not Given'], 1,
            'He says explicitly that this is not why he accepts it.',
@@ -440,26 +460,31 @@ UNIT = dict(
            'us does that.')],
          items=[
           ('What has got worse since Dev changed the setting?',
-           ['Battery life', 'The maps', 'The recommendations',
-            'Nothing'], 1,
-           'It offers the route a tourist would take, costing four minutes a '
-           'week.'),
+           ['Battery life', 'The maps', 'The recommendations', 'Nothing'],
+           1,
+           'It offers the route a tourist would take, costing four '
+           'minutes a week.',
+           {0: 'Battery life is not mentioned in the conversation.', 2: 'Recommendations are not what he says has got worse.', 3: 'He says the maps got badly worse.'}),
           ('Marisol says the setting governs',
            ['what is recorded', 'what is shown', 'both', 'neither'], 1,
-           'So Dev is still logged and has lost the benefit.'),
+           'So Dev is still logged and has lost the benefit.',
+           {0: 'What is recorded is exactly what the setting does not '
+               'govern.', 2: 'She says it governs the use only, not both.', 3: 'It does govern what is shown to him.'}),
           ('Why does she say people misread it?',
-           ['They do not read it', 'The wording invites it',
-            'It is translated badly', 'It changes often'], 1,
-           'Personalisation is the use, not the collection.'),
+           ['They do not read it', 'The wording invites it', 'It is translated badly', 'It changes often'],
+           1, 'Personalisation is the use, not the collection.',
+           {0: 'Her point is that people do read it and misread it.', 2: 'Translation is not mentioned by either speaker.', 3: 'How often the wording changes is not her point.'}),
           ('What does she say would actually stop collection?',
-           ['Another setting', 'Deleting the account or using a different '
-            'device', 'A complaint', 'Nothing at all'], 1,
-           'Everything in between she calls theatre.'),
+           ['Another setting', 'Deleting the account or using a different device', 'A complaint', 'Nothing at all'],
+           1, 'Everything in between she calls theatre.',
+           {0: 'Everything between the two she calls theatre.', 2: 'A complaint is what worked for leverage, not for '
+               'collection.', 3: 'She names two things that would work.'}),
           ('What does she say worked?',
-           ['The setting', 'The data request', 'The complaint',
-            'The new phone'], 1,
+           ['The setting', 'The data request', 'The complaint', 'The new phone'],
+           1,
            'Because it produced their own list of what they hold, in '
-           'writing.')])],
+           'writing.',
+           {0: 'The setting is what she calls theatre.', 2: 'No complaint was made, only a request.', 3: 'A different device is advice, not something he did.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Privacy',
     longturn=[('The thing I decided not to share was a copy of my identity '
@@ -645,19 +670,27 @@ UNIT = dict(
           'knows is a number in a retention policy and not a setting on your '
           'phone.'],
          items=[
-          ('Which paragraph explains the point at which behaviour becomes '
-           'description?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Summarising the log into features: what you did becomes what you '
-           'are like.'),
+          (
+           'Which paragraph explains the point at which behaviour '
+           'becomes description?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
+           'Summarising the log into features: what you did becomes '
+           'what you are like.',
+           {0: 'Paragraph 2 describes the event log and its signals.', 2: 'Paragraph 4 describes the traits the system infers.', 3: 'Paragraph 5 names the first feedback path.'}),
           ('Which paragraph names the first feedback path?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Your response is recorded in the same log.'),
-          ('Which paragraph explains why clearing your history changes '
-           'little?', ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 3,
-           'The log is retained for twenty-four months.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'Your response is recorded in the same log.',
+           {0: 'Paragraph 3 explains the point at which behaviour '
+               'becomes description.', 1: 'Paragraph 4 describes the traits the system infers.', 3: 'Paragraph 6 explains why clearing your history changes '
+               'little.'}),
+          (
+           'Which paragraph explains why clearing your history changes '
+           'little?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           3, 'The log is retained for twenty-four months.',
+           {0: 'Paragraph 3 explains the point at which behaviour '
+               'becomes description.', 1: 'Paragraph 4 describes the traits the system infers.', 2: 'Paragraph 5 names the first feedback path.'}),
           ('The log is summarised into about four hundred ____________.',
            None, 'features',
            'Paragraph 3, from perhaps ten thousand events.'),
@@ -721,31 +754,38 @@ UNIT = dict(
            'never seen this slide.')],
          items=[
           ('The engineer says the system should be described as',
-           ['a pipeline', 'apparatus with two loops', 'a database',
-            'a sequence of steps'], 1,
-           'Because the process description is how everybody gets it wrong.'),
+           ['a pipeline', 'apparatus with two loops', 'a database', 'a sequence of steps'],
+           1,
+           'Because the process description is how everybody gets it '
+           'wrong.',
+           {0: 'A pipeline is the description he says gets it wrong.', 2: 'A database is one component, not the whole.', 3: 'A sequence of steps is the description he rejects.'}),
           ('An example of a recorded action is',
-           ['your name', 'a two-second hesitation', 'your address',
-            'your payment card'], 1,
-           'Alongside a page opened and a scroll depth.'),
+           ['your name', 'a two-second hesitation', 'your address', 'your payment card'],
+           1, 'Alongside a page opened and a scroll depth.',
+           {0: 'A name is personal data, not one of his signals.', 2: 'An address is personal data, not a recorded action.', 3: 'Card details are personal data rather than a signal.'}),
           ('The feature store turns ten thousand events into about',
-           ['forty numbers', 'four hundred numbers', 'four thousand '
-            'numbers', 'one number'], 1,
-           'Frequency by category, time of day, speed of return, variance in '
-           'basket size.'),
-          ('What does he say about the confidences on inferred traits?',
-           ['They are too low', 'They are honest but used badly',
-            'They are hidden', 'They are inaccurate'], 1,
-           'The way they are used downstream is not always honest.'),
+           ['forty numbers', 'four hundred numbers', 'four thousand numbers', 'one number'],
+           1,
+           'Frequency by category, time of day, speed of return, '
+           'variance in basket size.',
+           {0: 'Fewer than the number he gives for the feature store.', 2: 'Closer to the event count than to the feature count.', 3: 'A single number could not hold what he describes.'}),
+          (
+           'What does he say about the confidences on inferred traits?',
+           ['They are too low', 'They are honest but used badly', 'They are hidden', 'They are inaccurate'],
+           1, 'The way they are used downstream is not always honest.',
+           {0: 'He does not say the confidences are too low.', 2: 'He states the confidences openly, so they are not '
+               'hidden.', 3: 'He calls them honest, which is the opposite of '
+               'inaccurate.'}),
           ('Why is loop one uncomfortable for him?',
-           ['It is slow', 'The system records its own influence as '
-            'information about you', 'It is expensive',
-            'It is inaccurate'], 1,
-           'If it shows you more of something and you click, it has learned '
-           'and also caused it.'),
-          ('Retention is set at', ['three months', 'twelve months',
-            'twenty-four months', 'five years'], 2,
-           'A number in a policy document rather than in his code.')])],
+           ['It is slow', 'The system records its own influence as information about you', 'It is expensive', 'It is inaccurate'],
+           1,
+           'If it shows you more of something and you click, it has '
+           'learned and also caused it.',
+           {0: 'Speed is not what troubles him about the loop.', 2: 'Cost is not mentioned in connection with the loop.', 3: 'His worry is that the loop works, not that it fails.'}),
+          ('Retention is set at',
+           ['three months', 'twelve months', 'twenty-four months', 'five years'],
+           2, 'A number in a policy document rather than in his code.',
+           {0: 'Three months is his hypothetical shorter figure.', 1: 'Shorter than the period he names.', 3: 'Longer than the retention he describes.'})])],
    speak=dict(
     part='Part 3', focus='Being predicted',
     intro=('Four or five sentences. Try once to distinguish what was given '
@@ -951,20 +991,28 @@ UNIT = dict(
                  'alone, does not.')],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['Removing the name', 'Where identity actually lives',
-            'The linkage attack', 'Defences and their cost'], 1,
+           ['Removing the name', 'Where identity actually lives', 'The linkage attack', 'Defences and their cost'],
+           1,
            'In the combination of attributes unique to one person in a '
-           'population.'),
+           'population.',
+           {0: 'Removing the name is paragraph 1, the standard '
+               'practice.', 2: 'The linkage attack is the heading for paragraph 4.', 3: 'Defences and their cost is the heading for paragraph '
+               '7.'}),
           ('Choose the best heading for paragraph 4.',
-           ['Where identity lives', 'Quasi-identifiers',
-            'The linkage attack', 'A structural problem'], 2,
-           'Matching the anonymised file against a second dataset containing '
-           'names.'),
+           ['Where identity lives', 'Quasi-identifiers', 'The linkage attack', 'A structural problem'],
+           2,
+           'Matching the anonymised file against a second dataset '
+           'containing names.',
+           {0: 'Where identity lives is paragraph 2, on combinations.', 1: 'Quasi-identifiers are named in paragraph 3.', 3: 'The structural problem is paragraph 6, on other '
+               'datasets.'}),
           ('Choose the best heading for paragraph 7.',
-           ['A structural problem', 'Defences and their cost',
-            'Published demonstrations', 'The honest summary'], 1,
-           'Aggregation, generalisation and noise addition, all of which '
-           'reduce usefulness.'),
+           ['A structural problem', 'Defences and their cost', 'Published demonstrations', 'The honest summary'],
+           1,
+           'Aggregation, generalisation and noise addition, all of '
+           'which reduce usefulness.',
+           {0: 'The structural problem is paragraph 6, on other '
+               'datasets.', 2: 'The demonstrations are paragraph 5, from taxis to card '
+               'data.', 3: 'The honest summary is paragraph 8, on the trade-off.'}),
           (
            'The writer believes removing names makes a file anonymous.',
            ['Yes', 'No', 'Not Given'], 1,
@@ -1039,31 +1087,40 @@ UNIT = dict(
            'that somebody can revisit it when the world changes.')],
          items=[
           ('Which three fields does the lecturer name?',
-           ['Name, address, age', 'Date of birth, postcode, sex',
-            'Postcode, income, sex', 'Name, postcode, diagnosis'], 1,
-           'None of which is an identifier in the ordinary sense.'),
+           ['Name, address, age', 'Date of birth, postcode, sex', 'Postcode, income, sex', 'Name, postcode, diagnosis'],
+           1, 'None of which is an identifier in the ordinary sense.',
+           {0: 'A name and address are identifiers, which is his point '
+               'against.', 2: 'Income is not among the three fields he names.', 3: 'A diagnosis is what the attack reveals, not an input '
+               'field.'}),
           ('Adding a field multiplies the combinations while',
-           ['the population grows', 'the population stays the same',
-            'the file shrinks', 'accuracy falls'], 1,
-           'Which is why almost every combination ends up describing one '
-           'person or nobody.'),
+           ['the population grows', 'the population stays the same', 'the file shrinks', 'accuracy falls'],
+           1,
+           'Which is why almost every combination ends up describing '
+           'one person or nobody.',
+           {0: 'A growing population would weaken the arithmetic.', 2: 'The file does not shrink as fields are added.', 3: 'Accuracy is not what changes as fields multiply.'}),
           ('The second file in the attack contains',
-           ['the same fields and a name', 'medical records', 'postcodes '
-            'only', 'nothing useful'], 0,
-           'From an electoral register, a leaked list, or what people post '
-           'themselves.'),
+           ['the same fields and a name', 'medical records', 'postcodes only', 'nothing useful'],
+           0,
+           'From an electoral register, a leaked list, or what people '
+           'post themselves.',
+           {1: 'Medical records are in the anonymised file, not the '
+               'second one.', 2: 'Postcodes alone would not name anybody.', 3: 'The second file supplies the names, so it is '
+               'essential.'}),
           ('In several published cases, re-identification took',
            ['several years', 'about a week', 'a month', 'a decade'], 1,
-           'By a student, using a laptop and a public register.'),
+           'By a student, using a laptop and a public register.',
+           {0: 'Far longer than the time he reports.', 2: 'Longer than the period he gives for several cases.', 3: 'A decade is longer than the whole literature.'}),
           ('The structural claim is that anonymity is a property of',
-           ['a file', 'a file together with every other dataset',
-            'an organisation', 'a law'], 1,
-           'So somebody else’s publication can de-anonymise your file '
-           'later.'),
+           ['a file', 'a file together with every other dataset', 'an organisation', 'a law'],
+           1,
+           'So somebody else\u2019s publication can de-anonymise your file '
+           'later.',
+           {0: 'A file alone is what he says it is wrongly taken to '
+               'be.', 2: 'The organisation is not where the property sits.', 3: 'The law is what fails to capture the property.'}),
           ('Why do researchers resist the defences?',
-           ['They are expensive', 'They make the data less useful',
-            'They are illegal', 'They are untested'], 1,
-           'And the lecturer says they are not being unreasonable.')])],
+           ['They are expensive', 'They make the data less useful', 'They are illegal', 'They are untested'],
+           1, 'And the lecturer says they are not being unreasonable.',
+           {0: 'Cost is not the objection he reports from researchers.', 2: 'Legality is not raised against the defences.', 3: 'He says all three defences work.'})])],
    speak=dict(
     part='Part 3', focus='Data that cannot be taken back',
     followup=[(('You say data cannot be made completely anonymous. Is that not '
@@ -1259,19 +1316,25 @@ UNIT = dict(
           'that each of those four repairs has an identifiable opponent with '
           'a reason to prefer the slogan.'],
          items=[
-          ('Which paragraph gives the example of a sixty-eight per cent '
-           'estimate?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Where the three rights are each tested against an inference.'),
+          (
+           'Which paragraph gives the example of a sixty-eight per '
+           'cent estimate?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
+           'Where the three rights are each tested against an '
+           'inference.',
+           {0: 'Paragraph 2 applies the rights to a stored field.', 2: 'Paragraph 4 states the mismatch in general terms.', 3: 'Paragraph 5 explains the technology-neutral strategy.'}),
           ('Which paragraph explains the technology-neutral strategy?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Principles rather than specifics, which half worked.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'Principles rather than specifics, which half worked.',
+           {0: 'Paragraph 3 gives the example of a sixty-eight per '
+               'cent estimate.', 1: 'Paragraph 4 states the mismatch in general terms.', 3: 'Paragraph 6 is about collection against use.'}),
           ('Which paragraph describes the asymmetry in enforcement?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 2,
-           'Consent is a document; a model requires access, skills and a '
-           'reason to look.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           2,
+           'Consent is a document; a model requires access, skills and '
+           'a reason to look.',
+           {0: 'Paragraph 5 explains the technology-neutral strategy.', 1: 'Paragraph 6 is about collection against use.', 3: 'Paragraph 8 lists the four repairs.'}),
           (
            'The writer believes privacy law simply cannot keep up with '
            'technology.', ['Yes', 'No', 'Not Given'], 1,
@@ -1339,31 +1402,37 @@ UNIT = dict(
            'saying this again next year.')],
          items=[
           ('Halvorsen says the law is',
-           ['too slow', 'aimed at the wrong event', 'too strict',
-            'well designed'], 1,
-           'Because nothing that upsets anybody happens at the moment of '
-           'collection.'),
+           ['too slow', 'aimed at the wrong event', 'too strict', 'well designed'],
+           1,
+           'Because nothing that upsets anybody happens at the moment '
+           'of collection.',
+           {0: 'He says explicitly that he does not think it is too '
+               'slow.', 2: 'Strictness is not his complaint.', 3: 'He finds it aimed at the wrong moment.'}),
           ('Why does the regulator say consent is what they audit?',
-           ['It is most important', 'It is a document they can check',
-            'The law requires only that', 'Companies prefer it'], 1,
-           'What a regulator with forty staff can check.'),
+           ['It is most important', 'It is a document they can check', 'The law requires only that', 'Companies prefer it'],
+           1, 'What a regulator with forty staff can check.',
+           {0: 'She separates what is audited from what matters.', 2: 'She does not say the law requires only consent.', 3: 'Company preference is not her reason.'}),
           ('The difficulty with correcting an inference is that',
-           ['it is encrypted', 'it is a sound output that is wrong about the '
-            'person', 'it cannot be seen', 'it is not stored'], 1,
-           'A sixty-eight per cent estimate of household composition.'),
+           ['it is encrypted', 'it is a sound output that is wrong about the person', 'it cannot be seen', 'it is not stored'],
+           1,
+           'A sixty-eight per cent estimate of household composition.',
+           {0: 'Encryption is not mentioned by either speaker.', 2: 'He can see and quote the estimate.', 3: 'It is stored, and regenerated when deleted.'}),
           ('The regulator calls the problem',
-           ['unsolvable', 'a drafting failure', 'a funding problem',
-            'an engineering problem'], 1,
-           'And says drafting failures are repairable.'),
+           ['unsolvable', 'a drafting failure', 'a funding problem', 'an engineering problem'],
+           1, 'And says drafting failures are repairable.',
+           {0: 'She says the repairs are known and possible.', 2: 'Funding is her point about staff, not about the law '
+               'itself.', 3: 'She places the fault in the drafting, not the '
+               'engineering.'}),
           ('Which problem does Halvorsen say would remain?',
            ['Consent', 'Retention', 'Correction', 'Enforcement'], 1,
            'Twenty-four months, set in a policy a product manager can '
-           'change.'),
+           'change.',
+           {0: 'Consent is what the regulator can already audit.', 2: 'Correction is what she offers to repair by drafting.', 3: 'Enforcement is her difficulty, not what he says '
+               'remains.'}),
           ('What does the regulator admit at the end?',
-           ['The law is adequate', 'The four needed repairs are each blocked '
-            'by somebody specific', 'She has no powers',
-            'Engineers are to blame'], 1,
-           'And says she would rather be told she is slow.')])],
+           ['The law is adequate', 'The four needed repairs are each blocked by somebody specific', 'She has no powers', 'Engineers are to blame'],
+           1, 'And says she would rather be told she is slow.',
+           {0: 'She argues the law needs four specific repairs.', 2: 'She describes limited staff, not an absence of powers.', 3: 'She blames identifiable opponents, not engineers.'})])],
    speak=dict(
     part='Part 3', focus='Regulating something that moves',
     sounds=[('Parenthesis is marked by pausing and lowering, not by '

@@ -64,17 +64,20 @@ UNIT = dict(
           'working days.'],
          items=[
           ('Which account charges a monthly fee?',
-           ['Everyday Account', 'Everyday Plus', 'Saver Account',
-            'Young Saver'], 1,
-           '£5 a month, with insurance and breakdown cover included.'),
+           ['Everyday Account', 'Everyday Plus', 'Saver Account', 'Young Saver'],
+           1,
+           '\u00a35 a month, with insurance and breakdown cover included.',
+           {0: 'The Everyday Account has no monthly fee at all.', 2: 'Saver Account limits the number of withdrawals.', 3: 'Young Saver pays the highest rate of interest.'}),
           ('Which account pays the highest rate of interest?',
-           ['Everyday Account', 'Everyday Plus', 'Saver Account',
-            'Young Saver'], 3,
-           '4.0 per cent, and it has no limit on withdrawals.'),
+           ['Everyday Account', 'Everyday Plus', 'Saver Account', 'Young Saver'],
+           3, '4.0 per cent, and it has no limit on withdrawals.',
+           {0: 'The Everyday Account pays no interest on any balance.', 1: 'Everyday Plus charges a monthly fee.', 2: 'Saver Account limits the number of withdrawals.'}),
           ('Which account limits the number of withdrawals?',
-           ['Everyday Account', 'Everyday Plus', 'Saver Account',
-            'Young Saver'], 2,
-           'Three a year, after which the rate falls to 0.5 per cent.'),
+           ['Everyday Account', 'Everyday Plus', 'Saver Account', 'Young Saver'],
+           2,
+           'Three a year, after which the rate falls to 0.5 per cent.',
+           {0: 'The Everyday Account pays no interest, so withdrawals '
+               'are not limited.', 1: 'Everyday Plus charges a monthly fee.', 3: 'Young Saver pays the highest rate of interest.'}),
           ('The Everyday Account offers an overdraft after ____________ '
            'months.', None, 'six',
            'Of up to £250, unlike the Plus which is immediate.'),
@@ -113,9 +116,12 @@ UNIT = dict(
            'months.', None, 'three',
            'Paragraph 2, alongside photographic identity.'),
           ('Which document is NOT accepted as proof of address?',
-           ['a bank statement', 'a council tax bill',
-            'a mobile telephone bill', 'a tenancy agreement'], 2,
-           'Paragraph 3: the address on it is not verified.'),
+           ['a bank statement', 'a council tax bill', 'a mobile telephone bill', 'a tenancy agreement'],
+           2, 'Paragraph 3: the address on it is not verified.',
+           {0: 'Paragraph 3 lists a bank statement among the accepted '
+               'documents.', 1: 'A council tax bill is accepted, if dated within three '
+               'months.', 3: 'A tenancy agreement is accepted as proof of where you '
+               'live.'}),
           ('The card and the personal identification number arrive within '
            '____________ working days.', None, 'five',
            'Paragraph 4, and they are sent separately.')])],
@@ -305,18 +311,32 @@ UNIT = dict(
           'windfall, I paid off the mortgage, and the money I used to pay '
           'the bank goes to the savings account instead.'],
          items=[
-          ('Which person saves automatically without deciding each '
-           'month?', ['Rosalind', 'Emeka', 'Marisol', 'Finnegan'], 0,
-           'On payday, before she sees the money.'),
-          ('Which person finds saving easier when the goal is visible?',
+          (
+           'Which person saves automatically without deciding each '
+           'month?',
+           ['Rosalind', 'Emeka', 'Marisol', 'Finnegan'], 0,
+           'On payday, before she sees the money.',
+           {1: 'Emeka finds saving easier when the goal is visible.', 2: 'Marisol says their income makes saving impossible.', 3: 'Finnegan redirected his old mortgage payment after a '
+               'windfall.'}),
+          (
+           'Which person finds saving easier when the goal is visible?',
            ['Rosalind', 'Emeka', 'Marisol', 'Finnegan'], 1,
-           'A bicycle and a deposit, but never a pension.'),
+           'A bicycle and a deposit, but never a pension.',
+           {0: 'Rosalind saves automatically without deciding each '
+               'month.', 2: 'Marisol says their income makes saving impossible.', 3: 'Finnegan saves a third of his income without naming a '
+               'goal.'}),
           ('Which person says their income makes saving impossible?',
            ['Rosalind', 'Emeka', 'Marisol', 'Finnegan'], 2,
-           'Rent takes two thirds of what she earns.'),
-          ('Which person’s saving rate rose because a payment ended?',
+           'Rent takes two thirds of what she earns.',
+           {0: 'Rosalind saves automatically without deciding each '
+               'month.', 1: 'Emeka finds saving easier when the goal is visible.', 3: 'Finnegan saved nothing until forty and now saves a '
+               'third.'}),
+          (
+           'Which person\u2019s saving rate rose because a payment ended?',
            ['Rosalind', 'Emeka', 'Marisol', 'Finnegan'], 3,
-           'The mortgage payment became a savings payment.'),
+           'The mortgage payment became a savings payment.',
+           {0: 'Rosalind saves automatically without deciding each '
+               'month.', 1: 'Emeka finds saving easier when the goal is visible.', 2: 'Marisol says their income makes saving impossible.'}),
           ('Rosalind knows what her savings are for.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says she could not tell you, and calls that the point.',
@@ -361,17 +381,22 @@ UNIT = dict(
          items=[
           ('Most people stop following budgeting advice after about',
            ['three weeks', 'eleven weeks', 'six months', 'a year'], 1,
-           'Which he says is what the research consistently finds.'),
+           'Which he says is what the research consistently finds.',
+           {0: 'No figure that short appears; the research says eleven '
+               'weeks.', 2: 'Nobody in the trials lasts anything like that long.', 3: 'The talk gives the figure in weeks, not in years.'}),
           ('What survives, he says, is the arrangement you make '
            '____________.', None, 'once',
            'Requiring no decisions afterwards.'),
           ('The real difference is not willpower but the number of times '
            'you have to ____________.', None, 'choose',
            'A budget asks you to decide repeatedly.'),
-          ('Under automatic enrolment, participation rises from about '
+          (
+           'Under automatic enrolment, participation rises from about '
            'sixty per cent to above',
            ['seventy', 'eighty', 'ninety', 'ninety-five'], 2,
-           'With no change in income or intentions.')]),
+           'With no change in income or intentions.',
+           {0: 'Sixty per cent is where participation starts, not '
+               'seventy.', 1: 'The rise he reports goes past eighty to above ninety.', 3: 'He says above ninety, and gives no figure beyond that.'})]),
     dict(heading='Two friends on budgeting', part='Part 3',
          task='A conversation between two friends', band='l3',
          qtype='Questions 27-32',
@@ -416,22 +441,39 @@ UNIT = dict(
          items=[
           ('Emeka objects that Rosalind asks about saving rather than',
            ['spending', 'earnings', 'debt', 'rent'], 1,
-           'Which she says is because saving is what can be changed.'),
-          ('Emeka says the same advice is painless for Rosalind because '
-           'her rent is', ['a quarter', 'a third', 'half', 'two '
-            'thirds'], 1,
-           'Against two thirds for Marisol.'),
-          ('Rosalind pushes back by saying she began saving when her rent '
-           'was', ['a third', 'half', 'two thirds', 'unknown'], 1,
-           'And says it was not painless then.'),
-          ('Emeka’s main objection is that advice is always aimed at',
-           ['the landlord', 'the spender', 'the government',
-            'the bank'], 1,
-           'Nobody writes that the rent is too high.'),
-          ('Rosalind explains this by saying the reader can change the '
-           'coffee but not the', ['salary', 'rent', 'bank',
-            'budget'], 1,
-           'At least not within the month.'),
+           'Which she says is because saving is what can be changed.',
+           {0: 'Spending is what the advice she gives him is about.', 2: 'Debt is not raised anywhere in the conversation.', 3: 'Rent comes later in the argument; his first point is '
+               'earnings.'}),
+          (
+           'Emeka says the same advice is painless for Rosalind '
+           'because her rent is',
+           ['a quarter', 'a third', 'half', 'two thirds'], 1,
+           'Against two thirds for Marisol.',
+           {0: 'No fraction that small is given for anybody\'s rent.', 2: 'Half is what Rosalind\'s rent was when she began '
+               'saving.', 3: 'Two thirds is Marisol\'s rent, which is the contrast '
+               'drawn.'}),
+          (
+           'Rosalind pushes back by saying she began saving when her '
+           'rent was',
+           ['a third', 'half', 'two thirds', 'unknown'], 1,
+           'And says it was not painless then.',
+           {0: 'A third is Rosalind\'s rent now, not when she began.', 2: 'Two thirds is Marisol\'s rent, and she agrees it '
+               'differs.', 3: 'She gives the figure plainly: half her income at the '
+               'time.'}),
+          (
+           'Emeka\u2019s main objection is that advice is always aimed at',
+           ['the landlord', 'the spender', 'the government', 'the bank'],
+           1, 'Nobody writes that the rent is too high.',
+           {0: 'His complaint is that nobody writes about the rent at '
+               'all.', 2: 'Government is not mentioned in the conversation.', 3: 'No bank appears in this exchange about rent and '
+               'coffee.'}),
+          (
+           'Rosalind explains this by saying the reader can change the '
+           'coffee but not the',
+           ['salary', 'rent', 'bank', 'budget'], 1,
+           'At least not within the month.',
+           {0: 'Salary is what Emeka says she never asks him about.', 2: 'No bank is mentioned in her answer about the coffee.', 3: 'A budget is something the reader can change, which is '
+               'her point.'}),
           ('They agree that two different things are being said in the '
            'same ____________.', None, 'words',
            'And that only a question about rent separates them.')])],
@@ -623,16 +665,25 @@ UNIT = dict(
            ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
            3,
            'Paragraph 3 is where the share and the amount are '
-           'separated.'),
+           'separated.',
+           {0: 'Paragraph 3 groups two categories that behave alike.', 1: 'Paragraph 4 gives the leisure, transport and clothing '
+               'figures.', 2: 'Paragraph 5 refers to a pattern first described in the '
+               'nineteenth century.'}),
           ('Which paragraph groups two categories that behave alike?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Housing and food, described together as essentials.'),
-          ('Which paragraph refers to a pattern first described in the '
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Housing and food, described together as essentials.',
+           {0: 'Paragraph 2 gives the housing and food figures '
+               'separately.', 2: 'Paragraph 4 covers the categories that move the other '
+               'way.', 3: 'Paragraph 5 refers to a pattern first described in the '
+               'nineteenth century.'}),
+          (
+           'Which paragraph refers to a pattern first described in the '
            'nineteenth century?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'The share spent on food falls as income rises.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'The share spent on food falls as income rises.',
+           {0: 'Paragraph 3 groups two categories that behave alike.', 1: 'Paragraph 4 reports leisure rising from 9 per cent to '
+               '24.', 3: 'Paragraph 6 warns that a falling share is not falling '
+               'spending.'}),
           ('Housing and food together take ____________ per cent of '
            'lower-income spending.', None, '56',
            'Against 32 per cent in the higher-income group.'),
@@ -696,10 +747,14 @@ UNIT = dict(
            'slice by slice only if you say they are shares. Compare them '
            'as amounts and you are inventing a total nobody measured.')],
          items=[
-          ('The relationship between food share and income was first '
-           'described in the', ['1750s', '1850s', '1950s',
-            '1990s'], 1,
-           'By a German statistician, and it has held since.'),
+          (
+           'The relationship between food share and income was first '
+           'described in the',
+           ['1750s', '1850s', '1950s', '1990s'], 1,
+           'By a German statistician, and it has held since.',
+           {0: 'A century too early for the German statistician he '
+               'names.', 2: 'A century too late; the finding is from the '
+               'eighteen-fifties.', 3: 'The pattern was old long before this, and still holds.'}),
           ('Food accounts for ____________ per cent of lower-income '
            'spending.', None, '22',
            'Against eleven per cent in the higher-income group.'),
@@ -709,14 +764,19 @@ UNIT = dict(
           ('The trap he describes is that a share is not an',
            ['average', 'amount', 'estimate', 'index'], 1,
            'He names the trap: the higher-income group spends more in '
-           'pounds.'),
+           'pounds.',
+           {0: 'Averages are not what either of these charts shows.', 2: 'The figures are measured shares rather than estimates.', 3: 'No index is used in either of the two charts.'}),
           ('He says newspaper corrections, if printed at all, appear on '
            'page ____________.', None, 'nineteen',
            'While the original claim appears at the front.'),
-          ('His discipline is to say that a chart shows a share of a total '
-           'and that you have not been told the',
+          (
+           'His discipline is to say that a chart shows a share of a '
+           'total and that you have not been told the',
            ['source', 'total', 'year', 'sample'], 1,
-           'And then to look for the total, which is rarely given.')])],
+           'And then to look for the total, which is rarely given.',
+           {0: 'The source is not what his discipline tells you to '
+               'look for.', 2: 'The year is given; it is the total that is missing.', 3: 'He asks for the total behind the shares, not the '
+               'sample.'})])],
    speak=dict(
     part='Part 3', focus='Necessities and luxuries',
     intro=('Four or five sentences. Give a reason and then an example of '
@@ -909,18 +969,24 @@ UNIT = dict(
           'supports.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['Scarcity and shortage', 'Anchoring and how it was tested',
-            'The middle option', 'What a shopper can do'], 1,
-           'Arbitrary numbers moving valuations, even when random.'),
+           ['Scarcity and shortage', 'Anchoring and how it was tested', 'The middle option', 'What a shopper can do'],
+           1, 'Arbitrary numbers moving valuations, even when random.',
+           {0: 'That is paragraph 4, with the invented \'only four '
+               'left\'.', 2: 'That is paragraph 5, where three versions are offered.', 3: 'That is paragraph 7, on replacing the comparison.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Anchoring', 'Apparent scarcity',
-            'Adding an option nobody buys', 'Why the effects are hard to '
-            'see'], 2,
-           'Three versions, and most buyers taking the middle.'),
+           ['Anchoring', 'Apparent scarcity', 'Adding an option nobody buys', 'Why the effects are hard to see'],
+           2, 'Three versions, and most buyers taking the middle.',
+           {0: 'Anchoring is paragraph 3, with the numbers generated '
+               'at random.', 1: 'Scarcity is paragraph 4, with the counter and the '
+               'warehouse.', 3: 'That is paragraph 6, one kettle against four million '
+               'customers.'}),
           ('Choose the best heading for paragraph 7.',
-           ['How retailers benefit', 'Replacing the comparison',
-            'Why warnings fail', 'The size of the effects'], 1,
-           'Asking what else the money would buy this week.'),
+           ['How retailers benefit', 'Replacing the comparison', 'Why warnings fail', 'The size of the effects'],
+           1, 'Asking what else the money would buy this week.',
+           {0: 'That is paragraph 6, where the effect is measured in a '
+               'fortnight.', 2: 'Warnings are paragraph 3, which says the effect '
+               'survives them.', 3: 'Size is paragraph 6\'s subject, not the final '
+               'paragraph\'s.'}),
           (
            'The writer believes anchoring can be prevented by warning '
            'people about it.', ['Yes', 'No', 'Not Given'], 1,
@@ -988,20 +1054,31 @@ UNIT = dict(
           ('The kettle example shows that a price means something only '
            'against a ____________.', None, 'comparison',
            'Which is almost always supplied by the seller.'),
-          ('In the original anchoring studies, the number shown to '
-           'participants was', ['a real price', 'generated at random',
-            'an average', 'chosen by them'], 1,
-           'And valuations still moved towards it.'),
-          ('What makes anchoring serious, he says, is that it survives',
+          (
+           'In the original anchoring studies, the number shown to '
+           'participants was',
+           ['a real price', 'generated at random', 'an average', 'chosen by them'],
+           1, 'And valuations still moved towards it.',
+           {0: 'The point of the studies is that the number was '
+               'arbitrary.', 2: 'No average was shown; the number was generated at '
+               'random.', 3: 'Participants watched the number generated, they did '
+               'not choose it.'}),
+          (
+           'What makes anchoring serious, he says, is that it survives',
            ['low prices', 'a warning', 'experience', 'training'], 1,
-           'Which separates it from an ordinary error.'),
+           'Which separates it from an ordinary error.',
+           {0: 'Price level is not what the effect is said to survive.', 2: 'Experience is not tested in the studies he describes.', 3: 'What survives is a warning given in advance, not '
+               'training.'}),
           ('Scarcity notices raise purchases most among shoppers who are '
            '____________.', None, 'undecided',
            'Commercially the group worth having.'),
-          ('A retailer who wants to sell the middle option adds a version '
-           'that almost nobody', ['sees', 'buys', 'understands',
-            'returns'], 1,
-           'And it works without ever being sold.'),
+          (
+           'A retailer who wants to sell the middle option adds a '
+           'version that almost nobody',
+           ['sees', 'buys', 'understands', 'returns'], 1,
+           'And it works without ever being sold.',
+           {0: 'The expensive version has to be seen to do its work.', 2: 'Understanding the three options is not what is at '
+               'issue.', 3: 'Returns are not mentioned anywhere in the lecture.'}),
           ('The only method with evidence behind it is to replace the '
            'comparison by asking what else the money would buy '
            '____________.', None, 'this week',
@@ -1168,19 +1245,31 @@ UNIT = dict(
           'is cheap, occasionally effective, frequently small, and that it '
           'has been sold as considerably more than that.'],
          items=[
-          ('Which paragraph describes the pension change and its result?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'Participation rising from sixty per cent to above ninety.'),
-          ('Which paragraph gives the results that are quoted less '
+          (
+           'Which paragraph describes the pension change and its '
+           'result?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
+           'Participation rising from sixty per cent to above ninety.',
+           {0: 'Paragraph 1 describes the units themselves and their '
+               'testing.', 2: 'Paragraph 3 explains why the result is such strong '
+               'evidence.', 3: 'Paragraph 4 gives the results that are quoted less '
+               'often.'}),
+          (
+           'Which paragraph gives the results that are quoted less '
            'often?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
-           'Tax letters and appointment reminders.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1, 'Tax letters and appointment reminders.',
+           {0: 'Paragraph 3 explains why the pension result is so '
+               'strong.', 2: 'Paragraph 5 asks instead whether the effects endure.', 3: 'Paragraph 6 states the objection about consent.'}),
           ('Which paragraph states the objection about consent?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'Influencing people who have not agreed to be influenced.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
+           'Influencing people who have not agreed to be influenced.',
+           {0: 'Paragraph 4 gives the results that are quoted less '
+               'often.', 1: 'Paragraph 5 is about whether the effects last on '
+               'repetition.', 3: 'Paragraph 7 weighs the answer rather than stating the '
+               'objection.'}),
           (
            'The writer believes the approach has been accurately '
            'described by its supporters.',
@@ -1330,25 +1419,35 @@ UNIT = dict(
           ('Ferreira', 'That I would accept tomorrow, and I do not think '
            'any minister would.')],
          items=[
-          ('Dr Ferreira’s own weakest point is that the pension result '
-           'is', ['disputed', 'the least typical thing they have done',
-            'very old', 'from another country'], 1,
-           'And it appears on the first slide every time.'),
+          (
+           'Dr Ferreira\u2019s own weakest point is that the pension result '
+           'is',
+           ['disputed', 'the least typical thing they have done', 'very old', 'from another country'],
+           1, 'And it appears on the first slide every time.',
+           {0: 'She does not question the pension figures themselves.', 2: 'Age is not her concern; how untypical it is, is.', 3: 'Several countries are involved, and she raises no such '
+               'point.'}),
           ('Professor Okonjo admits that he treats small effects as',
            ['dishonest', 'worthless', 'temporary', 'uncertain'], 1,
-           'Although a one-point rise collects a great deal of money.'),
+           'Although a one-point rise collects a great deal of money.',
+           {0: 'He does not accuse the small effects of dishonesty.', 2: 'Durability is his separate objection, not his '
+               'concession.', 3: 'He accepts that the small effects are real, not '
+               'uncertain.'}),
           ('The actual disagreement, he says, concerns',
            ['cost', 'durability', 'sample size', 'ethics'], 1,
-           'Because most effects need repeating.'),
+           'Because most effects need repeating.',
+           {0: 'Both agree that the letters cost almost nothing.', 2: 'Sample size is not raised by either researcher.', 3: 'Consent comes later, and he treats it as a separate '
+               'objection.'}),
           ('Ferreira says almost nothing is known about five-year effects '
            'because nobody funds the ____________ year.', None, 'fifth',
            'Which she says is what she would most want funded.'),
-          ('Okonjo’s main objection concerns',
+          ('Okonjo\u2019s main objection concerns',
            ['cost', 'consent', 'accuracy', 'speed'], 1,
-           'Influencing somebody who does not know it is happening.'),
+           'Influencing somebody who does not know it is happening.',
+           {0: 'Cost is the thing he concedes in her favour.', 2: 'He does not dispute the accuracy of her results.', 3: 'Speed is not discussed by either researcher.'}),
           ('What Okonjo proposes is publishing what was done on the',
            ['website', 'form', 'statute', 'receipt'], 1,
-           'Rather than in a journal paper.')])],
+           'Rather than in a journal paper.',
+           {0: 'No website is proposed; he names the form itself.', 2: 'He wants a note on the form, not a change in the law.', 3: 'No receipt is involved in filling in a form.'})])],
    speak=dict(
     part='Part 3', focus='Changing behaviour without rules',
     sounds=[('The two th sounds are different: thing, think and both are '

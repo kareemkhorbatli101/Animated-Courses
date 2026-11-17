@@ -98,17 +98,25 @@ UNIT = dict(
           'enrol, which surprises several people every year.'],
          items=[
           ('Which may be paid in two parts?',
-           ['full-time fees', 'part-time fees', 'the student loan',
-            'the hardship fund'], 0,
-           'Paragraph 1: half in September and half in January.'),
+           ['full-time fees', 'part-time fees', 'the student loan', 'the hardship fund'],
+           0, 'Paragraph 1: half in September and half in January.',
+           {1: 'Part-time fees must be paid in full at enrolment, so '
+               'they cannot be split.', 2: 'The loan is not a fee paid in parts; it is applied for '
+               'nationally.', 3: 'The hardship fund is a payment to the student, not a '
+               'fee paid in instalments.'}),
           ('Which is not applied for through the college?',
-           ['full-time fees', 'part-time fees', 'the student loan',
-            'the hardship fund'], 2,
-           'Paragraph 2, through the national service instead.'),
+           ['full-time fees', 'part-time fees', 'the student loan', 'the hardship fund'],
+           2, 'Paragraph 2, through the national service instead.',
+           {0: 'Full-time fees are paid to the college itself.', 1: 'Part-time fees are also paid to the college, in full '
+               'at enrolment.', 3: 'The hardship fund is college money, decided by the '
+               'college.'}),
           ('Which is for a situation that has changed suddenly?',
-           ['full-time fees', 'part-time fees', 'the student loan',
-            'the hardship fund'], 3,
-           'Paragraph 3, such as a job lost or a family illness.'),
+           ['full-time fees', 'part-time fees', 'the student loan', 'the hardship fund'],
+           3, 'Paragraph 3, such as a job lost or a family illness.',
+           {0: 'Full-time fees are the standard charge and do not '
+               'depend on circumstances.', 1: 'Part-time fees are a fixed charge too, unaffected by a '
+               'change of situation.', 2: 'The loan covers fees and is applied for in advance, '
+               'not after a sudden change.'}),
           ('Fees are not charged to students aged under 19 on '
            '____________.', None, '31 August',
            'Paragraph 4, which is decided by date rather than by '
@@ -297,16 +305,30 @@ UNIT = dict(
           ('Which student says a method does not work?',
            ['Tomasz', 'Serena', 'Olumide', 'Priya'], 0,
            'Reading notes again and again, which only feels like '
-           'learning.'),
+           'learning.',
+           {1: 'Serena describes a method she finds useful, not one '
+               'that fails.', 2: 'Olumide names a danger in his method rather than a '
+               'failure of it.', 3: 'Priya describes a change that worked, not a method '
+               'that does not.'}),
           ('Which student finds an unpleasant result useful?',
            ['Tomasz', 'Serena', 'Olumide', 'Priya'], 1,
-           'The bad feeling shows her what to study.'),
+           'The bad feeling shows her what to study.',
+           {0: 'Tomasz reports a comfortable feeling that misleads '
+               'him.', 2: 'Olumide loses time to football, which is not an '
+               'unpleasant result.', 3: 'Priya had a problem with the phone on the desk, not '
+               'with a bad result.'}),
           ('Which student learns by explaining?',
            ['Tomasz', 'Serena', 'Olumide', 'Priya'], 2,
-           'If he cannot explain it, he does not know it.'),
+           'If he cannot explain it, he does not know it.',
+           {0: 'Tomasz reads his notes again and explains nothing to '
+               'anybody.', 1: 'Serena tests herself alone, by covering the page.', 3: 'Priya works alone in short blocks with the phone '
+               'elsewhere.'}),
           ('Which student changed where something is kept?',
            ['Tomasz', 'Serena', 'Olumide', 'Priya'], 3,
-           'The phone, now in another room.'),
+           'The phone, now in another room.',
+           {0: 'Tomasz changed his opinion of a method, not the place '
+               'of anything.', 1: 'Serena changed what she does, which is to test '
+               'herself.', 2: 'Olumide added a timer, which is not a change of place.'}),
           ('Olumide and his friends now use a timer.',
            ['True', 'False', 'Not Given'], 0,
            'He says they start with a timer because of the talking.',
@@ -363,7 +385,10 @@ UNIT = dict(
            'And she can still name every heading from it.'),
           ('She says reading feels like learning but is mostly',
            ['guessing', 'recognising', 'copying', 'planning'], 1,
-           'Which is why it is comfortable.'),
+           'Which is why it is comfortable.',
+           {0: 'Guessing is not what she says; recognising is her '
+               'word.', 2: 'Copying is not described by either speaker.', 3: 'Planning is the other student\u2019s problem, about where '
+               'to start.'}),
           ('She advises starting with the ____________ rather than the '
            'notes.', None, 'test',
            'Answering badly first and then reading to correct it.'),
@@ -546,18 +571,20 @@ UNIT = dict(
           'answer in forty minutes.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['The commonest three subjects', 'Started most, stopped most',
-            'Why computing works', 'Learning from a video'], 1,
-           'Languages are begun more often than they are continued.'),
+           ['The commonest three subjects', 'Started most, stopped most', 'Why computing works', 'Learning from a video'],
+           1, 'Languages are begun more often than they are continued.',
+           {0: 'The commonest three subjects are named in paragraph 1.', 2: 'Computing is the subject of paragraph 3, not paragraph '
+               '2.', 3: 'Learning from a video is cooking, which is paragraph '
+               '4.'}),
           ('Choose the best heading for paragraph 4.',
-           ['Free online courses', 'Honest and immediate feedback',
-            'A social reason', 'What the chart shows'], 1,
-           'Cooking a dish badly and cooking it again.'),
+           ['Free online courses', 'Honest and immediate feedback', 'A social reason', 'What the chart shows'],
+           1, 'Cooking a dish badly and cooking it again.',
+           {0: 'Free online courses are the subject of paragraph 3.', 2: 'The social reason belongs to languages, in paragraph '
+               '2.', 3: 'The chart is referred to in paragraph 3.'}),
           ('Choose the best heading for paragraph 5.',
-           ['What the three have in common',
-            'Why languages are difficult', 'The cost of practice',
-            'Courses and classes'], 0,
-           'People continue when the subject gives something back.'),
+           ['What the three have in common', 'Why languages are difficult', 'The cost of practice', 'Courses and classes'],
+           0, 'People continue when the subject gives something back.',
+           {1: 'Why languages are difficult is paragraph 2.', 2: 'The cost of practice is a point inside paragraph 3.', 3: 'Courses and classes are not what paragraph 5 is about.'}),
           ('People who continue with a language usually have someone to '
            '____________ to.', None, 'speak',
            'Paragraph 2, which is a social reason.'),
@@ -615,7 +642,9 @@ UNIT = dict(
            'Rather than fitting the course in.'),
           ('In the Thursday room, the finishing rate is about',
            ['a seventh', 'a quarter', 'a half', 'three quarters'], 2,
-           'Although nobody teaches or checks the work.')])],
+           'Although nobody teaches or checks the work.',
+           {0: 'A seventh is the rate across all subjects, not in the '
+               'room.', 1: 'A quarter is not a figure the talk gives anywhere.', 3: 'Three quarters is higher than any figure in the talk.'})])],
    speak=dict(
     part='Part 3', focus='Learning as an adult',
     intro=('Three or four sentences. Give a reason and then an example '
@@ -795,20 +824,19 @@ UNIT = dict(
           'choice.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['What parents ask', 'Schools that differ in other ways',
-            'Deciding class size by chance', 'The cost of smaller '
-            'classes'], 1,
-           'Wealthier areas, higher pay and teachers with a choice.'),
+           ['What parents ask', 'Schools that differ in other ways', 'Deciding class size by chance', 'The cost of smaller classes'],
+           1, 'Wealthier areas, higher pay and teachers with a choice.',
+           {0: 'What parents ask is the subject of paragraph 1.', 2: 'Deciding class size by chance is paragraph 3.', 3: 'The cost of smaller classes is paragraph 4.'}),
           ('Choose the best heading for paragraph 3.',
-           ['A study that used chance', 'Why the gain disappears',
-            'What head teachers advertise', 'A fixed budget'], 0,
+           ['A study that used chance', 'Why the gain disappears', 'What head teachers advertise', 'A fixed budget'],
+           0,
            'Pupils put into classes of fifteen or twenty-three at '
-           'random.'),
+           'random.',
+           {1: 'Why the gain disappears is paragraph 4.', 2: 'What head teachers advertise is paragraph 1.', 3: 'The fixed budget is the subject of paragraph 5.'}),
           ('Choose the best heading for paragraph 5.',
-           ['The strongest belief in education',
-            'Smaller classes in the first two years',
-            'What the evidence really says', 'Employing new teachers'], 2,
-           'Class size matters less than who teaches.'),
+           ['The strongest belief in education', 'Smaller classes in the first two years', 'What the evidence really says', 'Employing new teachers'],
+           2, 'Class size matters less than who teaches.',
+           {0: 'The strongest belief in education is paragraph 1.', 1: 'The first two years are reported in paragraph 3.', 3: 'Employing new teachers is paragraph 4.'}),
           ('Schools with small classes are often in wealthier areas.',
            ['True', 'False', 'Not Given'], 0,
            'Paragraph 2 says exactly this.',
@@ -879,9 +907,13 @@ UNIT = dict(
            '____________ of outstanding schools were ordinary on '
            'progress.', None, 'third',
            'And some low-ranked schools rose to the top.'),
-          ('The progress measure depends on the test pupils take when '
+          (
+           'The progress measure depends on the test pupils take when '
            'they', ['leave', 'arrive', 'apply', 'repeat'], 1,
-           'Which can be affected by a bad day.'),
+           'Which can be affected by a bad day.',
+           {0: 'The leaving test gives the final result, which is the '
+               'simple measure.', 2: 'No test at the point of application is mentioned at '
+               'all.', 3: 'Repeating a test is not part of the progress measure.'}),
           ('He says every measure answers one ____________.', None,
            'question', 'Often not the one parents are asking.'),
           ('No table, he says, can tell a parent what a school will do '
@@ -1038,22 +1070,29 @@ UNIT = dict(
           'reduced to a single figure on a poster, which accounts for '
           'a considerable part of why they lose the public argument.'],
          items=[
-          ('Which paragraph explains why small reductions achieve '
+          (
+           'Which paragraph explains why small reductions achieve '
            'little?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
            'The studies compared fifteen with twenty-three, a third '
-           'fewer.'),
-          ('Which paragraph describes a loss inside the school '
+           'fewer.',
+           {0: 'Paragraph 1 asks what has to be given up to pay for '
+               'them.', 2: 'Paragraph 3 is about where the extra teachers come '
+               'from.', 3: 'Paragraph 4 is about the rooms that are taken.'}),
+          (
+           'Which paragraph describes a loss inside the school '
            'building?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'The music room, the library and the small-group space.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'The music room, the library and the small-group space.',
+           {0: 'Paragraph 2 is about the scale of the reduction.', 1: 'Paragraph 3 is about recruiting the teachers.', 3: 'Paragraph 5 states what the real question is.'}),
           ('Which paragraph lists what the evidence supports instead?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 3,
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           3,
            'Better pay, more training and targeted help, in that '
-           'order.'),
+           'order.',
+           {0: 'Paragraph 2 compares the class sizes the studies used.', 1: 'Paragraph 3 reports what happened when training was '
+               'relaxed.', 2: 'Paragraph 4 names the rooms that are taken first.'}),
           ('The writer believes class size is unimportant.',
            ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph says the opposite in its first '
@@ -1126,7 +1165,9 @@ UNIT = dict(
          items=[
           ('The first speaker admits the effect she measures is',
            ['imaginary', 'small', 'temporary', 'disputed'], 1,
-           'Real, clearest among poor pupils, and small.'),
+           'Real, clearest among poor pupils, and small.',
+           {0: 'She calls the effect real, not imaginary.', 2: 'Nothing is said about the effect being temporary.', 3: 'She concedes the size of the effect rather than '
+               'calling it disputed.'}),
           ('She says it is clearest in the first two years and among '
            'pupils who are ____________.', None, 'poor',
            'Which she has sometimes let audiences forget.'),
@@ -1141,7 +1182,8 @@ UNIT = dict(
            'Where extra classes come from inside a school.'),
           ('She says her view has changed about everybody except',
            ['teachers', 'five-year-olds', 'parents', 'researchers'], 1,
-           'For whom she still wants smaller classes.')])],
+           'For whom she still wants smaller classes.',
+           {0: 'Teachers are what she now wants the money spent on.', 2: 'Parents are not the exception she names.', 3: 'Researchers are not the exception she names.'})])],
    speak=dict(
     part='Part 3', focus='Spending money on education',
     sounds=[('Word stress moves when a word changes its job, and the examiner '

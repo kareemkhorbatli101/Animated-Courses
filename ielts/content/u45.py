@@ -73,20 +73,26 @@ UNIT = dict(
           'rather than by prosecution.'],
          items=[
           ('Protection attaches to',
-           ['the land as a whole', 'the specified features',
-            'public access rights', 'the owner'], 1,
+           ['the land as a whole', 'the specified features', 'public access rights', 'the owner'],
+           1,
            'Paragraph 1, which is the source of most of the '
-           'correspondence.'),
+           'correspondence.',
+           {0: 'Paragraph 1 says protection does not attach to the '
+               'land in general.', 2: 'Paragraph 4 says designation confers no public access.', 3: 'The owner may continue using the land.'}),
           ('Removing a hedge on a site designated for orchids is',
-           ['always prohibited', 'not controlled', 'permitted with '
-            'notice', 'an offence'], 1,
+           ['always prohibited', 'not controlled', 'permitted with notice', 'an offence'],
+           1,
            'Paragraph 2, whereas draining the adjacent field probably '
-           'is.'),
+           'is.',
+           {0: 'The hedge is not a listed feature, so it is not '
+               'prohibited.', 2: 'No notice is required for work not affecting a '
+               'feature.', 3: 'An offence requires work affecting a listed feature.'}),
           ('A site recorded as declining will normally',
-           ['receive permission readily', 'not receive permission '
-            'affecting that feature', 'be sold', 'lose its '
-            'designation'], 1,
-           'Paragraph 3, which divides unfavourable into three states.'),
+           ['receive permission readily', 'not receive permission affecting that feature', 'be sold', 'lose its designation'],
+           1,
+           'Paragraph 3, which divides unfavourable into three states.',
+           {0: 'Declining is the state least likely to attract '
+               'permission.', 2: 'Sale of the land is not mentioned in the notice.', 3: 'Condition does not remove the designation.'}),
           ('Designation does not confer public ____________.', None,
            'access',
            'Paragraph 4, and does not prevent the owner using the land.'),
@@ -235,23 +241,29 @@ UNIT = dict(
            'about a hundredth of the administrative cost.')],
          items=[
           ('Additionality is the question of',
-           ['who pays', 'what would have happened without the payment',
-            'how much to pay', 'which species benefit'], 1,
-           'A counterfactual known only to the recipient.'),
-          ('In schemes that have been checked, how much goes to practices '
-           'already being followed?',
-           ['Under a tenth', 'Between a third and a half',
-            'About three quarters', 'Nearly all'], 1,
-           'Money the speaker says is not stolen but buys nothing.'),
+           ['who pays', 'what would have happened without the payment', 'how much to pay', 'which species benefit'],
+           1, 'A counterfactual known only to the recipient.',
+           {0: 'Who pays is not what the term means.', 2: 'The level of payment is a separate question.', 3: 'Which species benefit is not the counterfactual.'}),
+          (
+           'In schemes that have been checked, how much goes to '
+           'practices already being followed?',
+           ['Under a tenth', 'Between a third and a half', 'About three quarters', 'Nearly all'],
+           1, 'Money the speaker says is not stolen but buys nothing.',
+           {0: 'Smaller than the share she reports.', 2: 'Larger than the range she gives.', 3: 'She reports between a third and a half, not nearly '
+               'all.'}),
           ('Who is most likely to apply?',
-           ['Those who would have to change most', 'Those already doing '
-            'the thing', 'The largest farms', 'New entrants'], 1,
-           'Because the application is easy and the change is zero.'),
-          ('The speaker’s own preference is to pay for practices that are',
-           ['popular and cheap', 'expensive and rare',
-            'easy to monitor', 'required by law'], 1,
-           'Because nobody is already doing them, making payment wholly '
-           'additional.')])],
+           ['Those who would have to change most', 'Those already doing the thing', 'The largest farms', 'New entrants'],
+           1, 'Because the application is easy and the change is zero.',
+           {0: 'Those who must change most are least likely to apply.', 2: 'Farm size is not what she says predicts application.', 3: 'New entrants are not the group she identifies.'}),
+          (
+           'The speaker\u2019s own preference is to pay for practices that '
+           'are',
+           ['popular and cheap', 'expensive and rare', 'easy to monitor', 'required by law'],
+           1,
+           'Because nobody is already doing them, making payment '
+           'wholly additional.',
+           {0: 'Popular and cheap practices are mostly not additional.', 2: 'Ease of monitoring is the outcome approach she sets '
+               'aside.', 3: 'Legal requirements would not be paid for at all.'})])],
    speak=dict(
     part='Part 1', focus='Wild places near you',
     intro=('Two or three sentences each. Name a place rather than '
@@ -405,18 +417,31 @@ UNIT = dict(
          items=[
           ('Which person says their payment bought no change at all?',
            ['Ottoline', 'Lazarus', 'Mirembe', 'Thorvald'], 0,
-           'She had been leaving the margins for six years already.'),
-          ('Which person took an option that worked and would not repeat '
-           'it?', ['Ottoline', 'Lazarus', 'Mirembe', 'Thorvald'], 1,
+           'She had been leaving the margins for six years already.',
+           {1: 'Lazarus took an option that worked and would not '
+               'repeat it.', 2: 'Mirembe objects to what the inspection measures.', 3: 'Thorvald defends the scheme against the realistic '
+               'alternative.'}),
+          (
+           'Which person took an option that worked and would not '
+           'repeat it?',
+           ['Ottoline', 'Lazarus', 'Mirembe', 'Thorvald'], 1,
            'Eleven acres of grazing lost in a year he could not afford '
-           'it.'),
+           'it.',
+           {0: 'Ottoline says their payment bought no change at all.', 2: 'Mirembe objects to what the inspection measures.', 3: 'Thorvald defends the scheme against the realistic '
+               'alternative.'}),
           ('Which person objects to what the inspection measures?',
            ['Ottoline', 'Lazarus', 'Mirembe', 'Thorvald'], 2,
-           'The inspector checks the action and never the result.'),
-          ('Which person defends the scheme against the realistic '
-           'alternative?', ['Ottoline', 'Lazarus', 'Mirembe',
-            'Thorvald'], 3,
-           'Which he says was no scheme rather than a better one.'),
+           'The inspector checks the action and never the result.',
+           {0: 'Ottoline says their payment bought no change at all.', 1: 'Lazarus took an option that worked and would not '
+               'repeat it.', 3: 'Thorvald defends the scheme against the realistic '
+               'alternative.'}),
+          (
+           'Which person defends the scheme against the realistic '
+           'alternative?',
+           ['Ottoline', 'Lazarus', 'Mirembe', 'Thorvald'], 3,
+           'Which he says was no scheme rather than a better one.',
+           {0: 'Ottoline says their payment bought no change at all.', 1: 'Lazarus took an option that worked and would not '
+               'repeat it.', 2: 'Mirembe objects to what the inspection measures.'}),
           ('Ottoline believes the payment scheme should be abolished.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says she would support it as income support if '
@@ -478,31 +503,38 @@ UNIT = dict(
            'until page four, which is advice about ministers rather than '
            'about ecology and is the most useful thing I know.')],
          items=[
-          ('What proportion of applications are for the three cheapest '
-           'options?', ['Fifty-one per cent', 'Seventy per cent',
-            'Ninety-one per cent', 'All of them'], 2,
-           'Which Ingrid says were mostly already being done.'),
-          ('Obadiah’s objection is that paying only for change',
-           ['costs more', 'rewards previous neglect', 'is unlawful',
-            'reduces uptake'], 1,
+          (
+           'What proportion of applications are for the three cheapest '
+           'options?',
+           ['Fifty-one per cent', 'Seventy per cent', 'Ninety-one per cent', 'All of them'],
+           2, 'Which Ingrid says were mostly already being done.',
+           {0: 'Lower than the proportion she reports.', 1: 'Still below the figure she gives.', 3: 'She gives a definite proportion, not all.'}),
+          ('Obadiah\u2019s objection is that paying only for change',
+           ['costs more', 'rewards previous neglect', 'is unlawful', 'reduces uptake'],
+           1,
            'Paying nothing to farms that have managed well for twenty '
-           'years.'),
+           'years.',
+           {0: 'Paying only for change costs less, not more.', 2: 'Legality is not raised by either officer.', 3: 'Uptake is high, which is her complaint.'}),
           ('Ingrid proposes',
-           ['abolishing the scheme', 'two payments rather than one',
-            'higher payments', 'stricter inspection'], 1,
-           'A maintenance payment and a separate payment for change.'),
+           ['abolishing the scheme', 'two payments rather than one', 'higher payments', 'stricter inspection'],
+           1,
+           'A maintenance payment and a separate payment for change.',
+           {0: 'Neither officer proposes abolition.', 2: 'Higher payments are not her proposal.', 3: 'Inspection is not what she suggests changing.'}),
           ('Obadiah thinks the maintenance payment would fail with',
-           ['the farming press', 'the finance ministry', 'the public',
-            'ecologists'], 1,
-           'Because it is expensive and buys nothing new.'),
+           ['the farming press', 'the finance ministry', 'the public', 'ecologists'],
+           1, 'Because it is expensive and buys nothing new.',
+           {0: 'The farming press is what the two payments would '
+               'survive.', 2: 'Public opinion is not what he says would reject it.', 3: 'Ecologists are not the obstacle he names.'}),
           ('Ingrid says the maintenance payment buys',
-           ['goodwill', 'the absence of a loss', 'new habitat',
-            'political support'], 1,
-           'Which no accounting system they use can record.'),
+           ['goodwill', 'the absence of a loss', 'new habitat', 'political support'],
+           1, 'Which no accounting system they use can record.',
+           {0: 'Goodwill is not what she says it purchases.', 2: 'New habitat is what the change payment would buy.', 3: 'Political support is not her claim.'}),
           ('What evidence does she have for that?',
-           ['A national survey', 'Four counties that left the scheme in '
-            '2016', 'An academic study', 'Inspection records'], 1,
-           'Which lost margins at four times their rate over six years.')])],
+           ['A national survey', 'Four counties that left the scheme in 2016', 'An academic study', 'Inspection records'],
+           1,
+           'Which lost margins at four times their rate over six '
+           'years.',
+           {0: 'No national survey is cited.', 2: 'No academic study is mentioned.', 3: 'Inspection records are not her evidence.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Protection',
     longturn=[('The place I think should be protected is an area of raised bog '
@@ -707,19 +739,25 @@ UNIT = dict(
           'summary, which makes all three less impressive and makes the set '
           'of them usable.'],
          items=[
-          ('Which paragraph explains why camera traps find more mammals?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Being at knee height and operating at night.'),
+          (
+           'Which paragraph explains why camera traps find more '
+           'mammals?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Being at knee height and operating at night.',
+           {0: 'Paragraph 2 describes the walked transect.', 2: 'Paragraph 4 describes specimen sampling.', 3: 'Paragraph 5 states the general pattern.'}),
           ('Which paragraph warns about comparing two periods?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'A change that is entirely an artefact of the method.'),
-          ('Which paragraph describes how the three reports were written?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 2,
-           'Each states its blind spots in its summary rather than in a '
-           'methods section.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2, 'A change that is entirely an artefact of the method.',
+           {0: 'Paragraph 4 describes specimen sampling.', 1: 'Paragraph 5 states the general pattern.', 3: 'Paragraph 7 describes how the three reports were '
+               'written.'}),
+          (
+           'Which paragraph describes how the three reports were '
+           'written?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           2,
+           'Each states its blind spots in its summary rather than in '
+           'a methods section.',
+           {0: 'Paragraph 5 states the general pattern.', 1: 'Paragraph 6 warns about comparing two periods.', 3: 'Paragraph 4 describes specimen sampling.'}),
           ('Beetles recorded by specimen sampling: ____________', None,
            '84', 'Paragraph 4, four times the transect figure.'),
           ('Mammals recorded by camera traps: ____________', None, '21',
@@ -776,27 +814,37 @@ UNIT = dict(
          items=[
           ('The transect recorded how many bird species?',
            ['Nine', 'Twenty-three', 'Forty-six', 'Eighty-four'], 2,
-           'Against twenty-three from cameras and nine from sampling.'),
+           'Against twenty-three from cameras and nine from sampling.',
+           {0: 'Nine is the figure from specimen sampling.', 1: 'Twenty-three is the figure from the cameras.', 3: 'Eighty-four is the beetle count from sampling.'}),
           ('Camera traps find more mammals because they are',
-           ['more sensitive', 'at knee height and run at night',
-            'left for longer', 'placed near water'], 1,
-           'So they miss what sings in a canopy at noon.'),
+           ['more sensitive', 'at knee height and run at night', 'left for longer', 'placed near water'],
+           1, 'So they miss what sings in a canopy at noon.',
+           {0: 'Sensitivity is not the reason he gives.', 2: 'Duration is not what explains the mammal counts.', 3: 'Placement near water is not mentioned.'}),
           ('The zero for fungi from cameras is',
-           ['a finding about the wood', 'a failure to detect',
-            'an error', 'a seasonal effect'], 1,
-           'Most fungi need a specimen and a microscope to identify.'),
+           ['a finding about the wood', 'a failure to detect', 'an error', 'a seasonal effect'],
+           1,
+           'Most fungi need a specimen and a microscope to identify.',
+           {0: 'He says explicitly it is not a finding about the wood.', 2: 'No error was made by any of the three teams.', 3: 'Season is not what explains the camera zero.'}),
           ('A zero that reflects failure to detect is called a',
-           ['null result', 'false absence', 'detection limit',
-            'sampling gap'], 1,
-           'More common in published site reports than true absence.'),
-          ('Comparing a 2004 transect with a 2024 camera survey measures',
-           ['a real change', 'a change of method', 'seasonal variation',
-            'observer skill'], 1,
-           'Half the local extinctions he verifies turn out to be this.'),
-          ('His rule for reports is to state what a method cannot detect',
-           ['in the methods section', 'in the same paragraph as the '
-            'result', 'in an appendix', 'only if asked'], 1,
-           'Which makes the report less impressive and more usable.')])],
+           ['null result', 'false absence', 'detection limit', 'sampling gap'],
+           1,
+           'More common in published site reports than true absence.',
+           {0: 'A null result is a different idea in statistics.', 2: 'A detection limit is a threshold, not a false zero.', 3: 'No such term is used in the lecture.'}),
+          (
+           'Comparing a 2004 transect with a 2024 camera survey '
+           'measures',
+           ['a real change', 'a change of method', 'seasonal variation', 'observer skill'],
+           1,
+           'Half the local extinctions he verifies turn out to be '
+           'this.',
+           {0: 'A real change is what the comparison appears to show.', 2: 'Season is not what the comparison measures.', 3: 'Observer skill is not the variable that differs.'}),
+          (
+           'His rule for reports is to state what a method cannot '
+           'detect',
+           ['in the methods section', 'in the same paragraph as the result', 'in an appendix', 'only if asked'],
+           1, 'Which makes the report less impressive and more usable.',
+           {0: 'He says the methods section is not read.', 2: 'An appendix is where he says such things go to be '
+               'ignored.', 3: 'He wants it stated whether or not anybody asks.'})])],
    speak=dict(
     part='Part 3', focus='Knowing what you have',
     intro=('Five or six sentences. Try once to say that a zero is '
@@ -1028,22 +1076,24 @@ UNIT = dict(
           'expensive kind.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['The fence and the herd', 'Nobody was negligent',
-            'Funding and flagship species', 'Prioritisation '
-            'frameworks'], 1,
-           'The migration was mapped and the fence sited to minimise the '
-           'effect.'),
+           ['The fence and the herd', 'Nobody was negligent', 'Funding and flagship species', 'Prioritisation frameworks'],
+           1,
+           'The migration was mapped and the fence sited to minimise '
+           'the effect.',
+           {0: 'The fence and the herd is paragraph 2.', 2: 'Funding and flagships is paragraph 4.', 3: 'The frameworks are paragraph 7.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Funding and flagship species', 'The flagship argument '
-            'examined', 'The temporal trade-off',
-            'What practitioners conclude'], 1,
+           ['Funding and flagship species', 'The flagship argument examined', 'The temporal trade-off', 'What practitioners conclude'],
+           1,
            'The second half holds only where requirements genuinely '
-           'overlap.'),
+           'overlap.',
+           {0: 'Funding and flagships is paragraph 4.', 2: 'The temporal trade-off is the heading for paragraph 6.', 3: 'What practitioners conclude is paragraph 9.'}),
           ('Choose the best heading for paragraph 6.',
-           ['The flagship argument examined', 'The temporal trade-off',
-            'Prioritisation frameworks', 'Public reticence'], 1,
+           ['The flagship argument examined', 'The temporal trade-off', 'Prioritisation frameworks', 'Public reticence'],
+           1,
            'Intensive protection shows results in a political cycle; '
-           'restoration does not.'),
+           'restoration does not.',
+           {0: 'The flagship argument examined is the heading for '
+               'paragraph 5.', 2: 'The frameworks are paragraph 7.', 3: 'Public reticence is paragraph 8.'}),
           (
            'The writer believes the fence project was carried out '
            'carelessly.', ['Yes', 'No', 'Not Given'], 1,
@@ -1123,31 +1173,37 @@ UNIT = dict(
            'said.')],
          items=[
           ('The bird population rose from under forty pairs to',
-           ['one hundred', 'two hundred', 'over three hundred',
-            'one thousand'], 2,
-           'Within fifteen years of the fence being erected.'),
-          ('The lecturer rules out negligence because the migration route '
-           'was', ['unknown', 'mapped and deliberately crossed at its '
-            'narrowest point', 'abandoned', 'outside the project area'], 1,
-           'The modelling was not built for the question that mattered.'),
+           ['one hundred', 'two hundred', 'over three hundred', 'one thousand'],
+           2, 'Within fifteen years of the fence being erected.',
+           {0: 'Lower than the figure he reports.', 1: 'Still below the population he gives.', 3: 'Far above the figure in the case.'}),
+          (
+           'The lecturer rules out negligence because the migration '
+           'route was',
+           ['unknown', 'mapped and deliberately crossed at its narrowest point', 'abandoned', 'outside the project area'],
+           1,
+           'The modelling was not built for the question that '
+           'mattered.',
+           {0: 'He says the migration was known and mapped.', 2: 'The migration was in use, which is why it mattered.', 3: 'The fence crossed it, so it was inside the area.'}),
           ('A single large mammal programme can exceed',
-           ['the national parks budget', 'the entire invertebrate budget '
-            'of its country', 'all private donations', 'the research '
-            'budget'], 1,
-           'Including funding for pollinators the system depends on.'),
+           ['the national parks budget', 'the entire invertebrate budget of its country', 'all private donations', 'the research budget'],
+           1,
+           'Including funding for pollinators the system depends on.',
+           {0: 'The parks budget is not the comparison he draws.', 2: 'Private donations are a source, not the comparison.', 3: 'Research budgets are not what he compares it with.'}),
           ('The measured overlap supporting the flagship argument is',
-           ['over three quarters', 'about half', 'under a third',
-            'not measurable'], 2,
-           'Far lower than the argument assumes.'),
+           ['over three quarters', 'about half', 'under a third', 'not measurable'],
+           2, 'Far lower than the argument assumes.',
+           {0: 'Far higher than the measured overlap.', 1: 'Higher than the figure he reports.', 3: 'It has been measured in several systems.'}),
           ('Habitat restoration shows measurable results after about',
-           ['four years', 'eight years', 'fifteen years',
-            'fifty years'], 2,
+           ['four years', 'eight years', 'fifteen years', 'fifty years'],
+           2,
            'Against four years for intensive protection of a small '
-           'population.'),
+           'population.',
+           {0: 'Four years is the figure for intensive protection.', 1: 'Shorter than the period he gives for restoration.', 3: 'Far longer than the period he names.'}),
           ('His conclusion is that trade-offs should be',
-           ['avoided', 'written down at the point of decision',
-            'decided by ministers', 'left to funders'], 1,
-           'So that a proposal recording its cost can be improved.')])],
+           ['avoided', 'written down at the point of decision', 'decided by ministers', 'left to funders'],
+           1, 'So that a proposal recording its cost can be improved.',
+           {0: 'He says avoiding them is impossible.', 2: 'Ministers are who fund, not who should decide the '
+               'trade-off.', 3: 'Funders are not who he says should record it.'})])],
    speak=dict(
     part='Part 3', focus='Choosing what to save',
     followup=[(('You say the famous species take the money. How should '
@@ -1380,18 +1436,24 @@ UNIT = dict(
           'the reason they have not been adopted.'],
          items=[
           ('Which paragraph explains the hydrological case?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'A catchment twenty to fifty times the area of the reserve.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
+           'A catchment twenty to fifty times the area of the reserve.',
+           {0: 'Paragraph 2 describes what protection reliably '
+               'achieves.', 1: 'Paragraph 3 lists the threats that cross boundaries.', 3: 'Paragraph 5 is about displacement and leakage.'}),
           ('Which paragraph concerns the edge of a reserve?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1,
            'The outer two or three hundred metres differing from the '
-           'interior.'),
-          ('Which paragraph explains the bias in which land is protected?',
-           ['Paragraph 8', 'Paragraph 9', 'Paragraph 10',
-            'Paragraph 7'], 1,
-           'The cheapest area to designate is the area nobody wants.'),
+           'interior.',
+           {0: 'Paragraph 5 is about displacement and leakage.', 2: 'Paragraph 7 gives the evidence in favour of reserves.', 3: 'Paragraph 8 states the matching argument.'}),
+          (
+           'Which paragraph explains the bias in which land is '
+           'protected?',
+           ['Paragraph 8', 'Paragraph 9', 'Paragraph 10', 'Paragraph 7'],
+           1,
+           'The cheapest area to designate is the area nobody wants.',
+           {0: 'Paragraph 8 states the matching argument.', 2: 'Paragraph 10 proposes changing what is counted.', 3: 'Paragraph 7 gives the evidence in favour of reserves.'}),
           ('The writer believes protected areas do not work.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 reports a real and measured effect on '
@@ -1472,32 +1534,35 @@ UNIT = dict(
            'things it misses are now most of the problem.')],
          items=[
           ('Mbeki-Sandoval concedes that protected areas',
-           ['are unnecessary', 'work against conversion',
-            'are too expensive', 'are well funded'], 1,
+           ['are unnecessary', 'work against conversion', 'are too expensive', 'are well funded'],
+           1,
            'With nothing he advocates performing as well against that '
-           'threat.'),
+           'threat.',
+           {0: 'He concedes they work, so not unnecessary.', 2: 'Cost is not what he concedes about them.', 3: 'Funding is his complaint about where effort goes.'}),
           ('Oyelaran-Fitzwilliam concedes that conversion',
-           ['is increasing', 'is no longer the dominant threat in most '
-            'systems she monitors', 'cannot be measured',
-            'is irrelevant'], 1,
+           ['is increasing', 'is no longer the dominant threat in most systems she monitors', 'cannot be measured', 'is irrelevant'],
+           1,
            'Naming nitrogen, hydrology, disease and migratory losses '
-           'instead.'),
+           'instead.',
+           {0: 'She reports conversion as displaced, not increasing.', 2: 'Clearance rates are measured repeatedly.', 3: 'She calls it dominant in most tropical systems still.'}),
           ('Her position is that the instrument is',
-           ['failing', 'being used against threats it was not built for',
-            'too small', 'well matched to current threats'], 1,
-           'A different problem with a different remedy.'),
+           ['failing', 'being used against threats it was not built for', 'too small', 'well matched to current threats'],
+           1, 'A different problem with a different remedy.',
+           {0: 'She says explicitly that it is not failing.', 2: 'Size of the estate is not her point.', 3: 'She says it is matched to an older threat.'}),
           ('His objection is that the instrument',
-           ['costs too much', 'absorbs the effort and the budgets',
-            'is unpopular', 'damages local people'], 1,
-           'The hydrology budget being a fortieth the size.'),
-          ('She says an area target produces a bias towards land that is',
-           ['fertile', 'high, dry, cold or steep', 'coastal',
-            'privately owned'], 1,
-           'And therefore has least to protect.'),
+           ['costs too much', 'absorbs the effort and the budgets', 'is unpopular', 'damages local people'],
+           1, 'The hydrology budget being a fortieth the size.',
+           {0: 'Cost is not his objection to the instrument.', 2: 'Popularity is not what he raises.', 3: 'Local people are not mentioned in the exchange.'}),
+          (
+           'She says an area target produces a bias towards land that '
+           'is',
+           ['fertile', 'high, dry, cold or steep', 'coastal', 'privately owned'],
+           1, 'And therefore has least to protect.',
+           {0: 'Fertile land is what the bias avoids.', 2: 'Coastal land is not what she names.', 3: 'Ownership is not the basis of the bias she describes.'}),
           ('What do they finally propose?',
-           ['Replacing area targets', 'A condition target alongside the '
-            'area target', 'Abolishing targets', 'A larger area target'], 1,
-           'Harder to measure and politically survivable.')])],
+           ['Replacing area targets', 'A condition target alongside the area target', 'Abolishing targets', 'A larger area target'],
+           1, 'Harder to measure and politically survivable.',
+           {0: 'She proposes a target alongside, not instead.', 2: 'Neither proposes abolishing targets.', 3: 'A larger area target is not what they propose.'})])],
    speak=dict(
     part='Part 3', focus='Conservation and the people nearby',
     sounds=[('Latin and Greek technical names are regular once you know where '

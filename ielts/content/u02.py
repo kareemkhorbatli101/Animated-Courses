@@ -65,13 +65,20 @@ UNIT = dict(
          items=[
           ('Which post requires a driving licence?',
            ['Post A', 'Post B', 'Post C', 'all three'], 1,
-           'Paragraph 2: essential for Parks Maintenance.'),
+           'Paragraph 2: essential for Parks Maintenance.',
+           {0: 'Post A requires experience with the public, not a '
+               'licence.', 2: 'Post C requires an accounting qualification, not a '
+               'licence.', 3: 'Only Post B names a driving licence as essential.'}),
           ('Which post requires a formal qualification?',
            ['Post A', 'Post B', 'Post C', 'none of them'], 2,
-           'Paragraph 3: a recognised accounting qualification.'),
+           'Paragraph 3: a recognised accounting qualification.',
+           {0: 'Post A asks for experience and lists a second language '
+               'as desirable.', 1: 'Post B states that no qualifications are required.', 3: 'Post C does require one, so none of them is wrong.'}),
           ('Which post involves working some Saturdays?',
            ['Post A', 'Post B', 'Post C', 'all three'], 0,
-           'Paragraph 1: one week in three.'),
+           'Paragraph 1: one week in three.',
+           {1: 'Post B is 37 hours and says nothing about Saturdays.', 2: 'Post C is 37 hours with no Saturday requirement '
+               'stated.', 3: 'Only Post A mentions Saturday work.'}),
           ('How long is the probation period?', None, 'six months',
            'Paragraph 4, and it applies to all three posts.'),
           ('One referee must be a current or most recent '
@@ -295,16 +302,23 @@ UNIT = dict(
          items=[
           ('Which person was afraid to ask questions?',
            ['Esperanza', 'Kwabena', 'Marisol', 'Teodor'], 0,
-           'She spent a week pretending to be busy.'),
+           'She spent a week pretending to be busy.',
+           {1: 'Kwabena was given one job and had it checked.', 2: 'Marisol had a mentor who was unavailable, not a fear '
+               'of asking.', 3: 'Teodor was given videos and no time, which is a '
+               'different problem.'}),
           ('Which person was given one task to learn properly?',
            ['Esperanza', 'Kwabena', 'Marisol', 'Teodor'], 1,
-           'One job for the whole first week, checked on Friday.'),
+           'One job for the whole first week, checked on Friday.',
+           {0: 'Esperanza was given nothing to do and nobody to ask.', 2: 'Marisol was assigned a mentor rather than a task.', 3: 'Teodor was given a list of videos, not a job to learn.'}),
           ('Which person describes help that existed only on paper?',
            ['Esperanza', 'Kwabena', 'Marisol', 'Teodor'], 2,
-           'The scheme existed; the help did not.'),
+           'The scheme existed; the help did not.',
+           {0: 'Esperanza was given no help at all, on paper or '
+               'otherwise.', 1: 'Kwabena had real help from his manager.', 3: 'Teodor had training available but no time for it.'}),
           ('Which person was given training but no time for it?',
            ['Esperanza', 'Kwabena', 'Marisol', 'Teodor'], 3,
-           'A long list of videos and no time to watch them.'),
+           'A long list of videos and no time to watch them.',
+           {0: 'Esperanza was given no training to find time for.', 1: 'Kwabena was given time and one task.', 2: 'Marisol was given a mentor rather than training.'}),
           ('Kwabena thought his first week was slow at the time.',
            ['True', 'False', 'Not Given'], 0,
            'He says it felt slow and he now values it.',
@@ -362,7 +376,8 @@ UNIT = dict(
            'And is not the new starter’s manager.'),
           ('The induction course is described as',
            ['optional', 'compulsory', 'online', 'monthly'], 1,
-           'Running on Tuesday and Thursday of the following week.'),
+           'Running on Tuesday and Thursday of the following week.',
+           {0: 'The manager says it is compulsory, not optional.', 2: 'Nothing in the briefing says the course is online.', 3: 'It runs on two days next week rather than monthly.'}),
           ('His rule is to ask on the same ____________ if you do not '
            'know something.', None, 'day',
            'Because serious mistakes come from guessing and waiting.')])],
@@ -543,20 +558,26 @@ UNIT = dict(
           'every employer were required to do the same thing.'],
          items=[
           ('Which paragraph describes the objection to the evidence?',
-           ['Paragraph 1', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 3,
+           ['Paragraph 1', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           3,
            'The companies volunteered, so they were the likeliest to '
-           'succeed.'),
-          ('Which paragraph gives results measured against an earlier '
+           'succeed.',
+           {0: 'Paragraph 1 compares hours between countries.', 1: 'Paragraph 3 gives the results of the trial.', 2: 'Paragraph 4 describes the Icelandic and Japanese '
+               'trials.'}),
+          (
+           'Which paragraph gives results measured against an earlier '
            'year?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Output, staff leaving and days lost to sickness.'),
-          ('Which paragraph describes a trial that shortened hours '
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Output, staff leaving and days lost to sickness.',
+           {0: 'Paragraph 2 describes the size of the trial.', 2: 'Paragraph 4 moves to the other two trials.', 3: 'Paragraph 5 states the objection to all of them.'}),
+          (
+           'Which paragraph describes a trial that shortened hours '
            'rather than days?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'Iceland, to thirty-five or thirty-six hours.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'Iceland, to thirty-five or thirty-six hours.',
+           {0: 'Paragraph 2 is the four-day trial in the United '
+               'Kingdom.', 1: 'Paragraph 3 reports results rather than a trial '
+               'design.', 3: 'Paragraph 5 is the objection, not a trial.'}),
           ('The United Kingdom trial involved about ____________ '
            'employees.', None, '2,900',
            'Paragraph 2, across sixty-one companies.'),
@@ -605,7 +626,8 @@ UNIT = dict(
          items=[
           ('Under the proposal, pay and targets would be',
            ['reduced', 'the same', 'reviewed', 'increased'], 1,
-           'Four days, same money, same targets.'),
+           'Four days, same money, same targets.',
+           {0: 'The pay is the same, so nothing is reduced.', 2: 'A review of the targets is not part of the proposal.', 3: 'Nothing is increased under the proposal as described.'}),
           ('Kwabena says his job differs because he answers the '
            '____________.', None, 'phone',
            'Which does not ring less for being open four days.'),
@@ -809,20 +831,20 @@ UNIT = dict(
           'are better placed to argue about it in public.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['An old fear returns', 'Tasks replaced, not jobs',
-            'Where the new work appears', 'The present wave'], 1,
-           'The cash machine example: the task went, the job '
-           'changed.'),
+           ['An old fear returns', 'Tasks replaced, not jobs', 'Where the new work appears', 'The present wave'],
+           1,
+           'The cash machine example: the task went, the job changed.',
+           {0: 'An old fear returning is paragraph 1.', 2: 'Where the new work appears is paragraph 3.', 3: 'The present wave is paragraph 5.'}),
           ('Choose the best heading for paragraph 3.',
-           ['The farm and the city', 'Average wages',
-            'What software can do', 'The textile towns'], 0,
+           ['The farm and the city', 'Average wages', 'What software can do', 'The textile towns'],
+           0,
            'New jobs appeared in cities rather than where the old ones '
-           'were.'),
+           'were.',
+           {1: 'Average wages are the subject of paragraph 4.', 2: 'What software can do is paragraph 5.', 3: 'The textile towns are mentioned in paragraph 1.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Why the fear is groundless',
-            'What is different this time', 'Wages and regions',
-            'A century of agriculture'], 1,
-           'Software replacing work that requires judgement.'),
+           ['Why the fear is groundless', 'What is different this time', 'Wages and regions', 'A century of agriculture'],
+           1, 'Software replacing work that requires judgement.',
+           {0: 'The passage never says the fear is groundless.', 2: 'Wages and regions are paragraph 4.', 3: 'A century of agriculture is paragraph 3.'}),
           (
            'The writer believes employment has collapsed in previous '
            'waves of automation.',
@@ -894,9 +916,11 @@ UNIT = dict(
           ('Farm work in Britain fell from about a ____________ of all '
            'workers.', None, 'fifth',
            'To under two per cent across about a century.'),
-          ('He says the gap between the first two facts is measured in',
+          (
+           'He says the gap between the first two facts is measured in',
            ['months', 'years', 'decades', 'centuries'], 2,
-           'With some regions taking forty years.'),
+           'With some regions taking forty years.',
+           {0: 'Months is far shorter than any figure he gives.', 1: 'Years is too vague for the forty-year example.', 3: 'Centuries is longer than anything the lecture claims.'}),
           ('In some regions, wages took ____________ years to '
            'recover.', None, 'forty',
            'Which he says is longer than a working life.'),
@@ -1068,22 +1092,28 @@ UNIT = dict(
           'and it is a question about money and training rather than '
           'about technology.'],
          items=[
-          ('Which paragraph explains why jobs disappear faster than new '
-           'ones appear?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'Any employer who does not adopt the machine is undercut.'),
-          ('Which paragraph identifies the mistake in the old '
+          (
+           'Which paragraph explains why jobs disappear faster than '
+           'new ones appear?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
+           'Any employer who does not adopt the machine is undercut.',
+           {0: 'Paragraph 1 says what the old predictions got right.', 2: 'Paragraph 3 is about who pays rather than about speed.', 3: 'Paragraph 4 is where the predictions were wrong.'}),
+          (
+           'Which paragraph identifies the mistake in the old '
            'predictions?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'Treating the quantity of work as a fixed amount.'),
-          ('Which paragraph says the useful argument is about support '
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'Treating the quantity of work as a fixed amount.',
+           {0: 'Paragraph 2 is about the speed of the loss.', 1: 'Paragraph 3 is about which people lose the work.', 3: 'Paragraph 5 states the two honest answers.'}),
+          (
+           'Which paragraph says the useful argument is about support '
            'rather than forecasting?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 3,
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           3,
            'A question about money and training rather than '
-           'technology.'),
+           'technology.',
+           {0: 'Paragraph 3 is about who pays for the change.', 1: 'Paragraph 4 is about demand not being fixed.', 2: 'Paragraph 5 sets out the two statements, not the '
+               'policy.'}),
           (
            'The writer believes previous predictions were entirely '
            'wrong.', ['Yes', 'No', 'Not Given'], 1,
@@ -1244,7 +1274,8 @@ UNIT = dict(
            'And he says software takes only tasks inside those jobs.'),
           ('He calls the disagreement one about',
            ['principle', 'degree', 'evidence', 'timing'], 1,
-           'Rather than about principle, he says.'),
+           'Rather than about principle, he says.',
+           {0: 'He says it is about degree rather than principle.', 2: 'Neither speaker calls the dispute one about evidence.', 3: 'Timing is not the word either of them uses.'}),
           ('They agree that the ____________ figure is not the right '
            'thing to argue about.', None, 'total',
            'Because it tells you nothing about one town.'),

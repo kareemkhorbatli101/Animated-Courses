@@ -50,27 +50,39 @@ UNIT = dict(
           'said in the jury room, and you may not tell them.'],
          items=[
           ('You must reply to a summons within',
-           ['three days', 'seven days', 'fourteen days',
-            'the month of service'], 1,
-           'Paragraph 1, and the notice adds that replying is not the same as '
-           'agreeing to serve.'),
+           ['three days', 'seven days', 'fourteen days', 'the month of service'],
+           1,
+           'Paragraph 1, and the notice adds that replying is not the '
+           'same as agreeing to serve.',
+           {0: 'Shorter than the period paragraph 1 allows for a '
+               'reply.', 2: 'Longer than the seven days the summons requires.', 3: 'The reply is due long before service begins.'}),
           ('Being self-employed is given as a ground for',
-           ['excusal', 'deferral', 'payment at a higher rate',
-            'release after two days'], 1,
-           'Paragraph 3 lists it with being busy and on holiday, explicitly as '
-           'deferral, not an excusal.'),
+           ['excusal', 'deferral', 'payment at a higher rate', 'release after two days'],
+           1,
+           'Paragraph 3 lists it with being busy and on holiday, '
+           'explicitly as deferral, not an excusal.',
+           {0: 'Paragraph 3 lists excusal grounds, and this is not '
+               'one.', 2: 'Payment is capped at a daily maximum for everybody.', 3: 'Release after two days follows non-selection, not '
+               'status.'}),
           ('How many times may service be deferred?',
            ['Once', 'Twice', 'As often as necessary', 'It cannot be deferred'],
-           0, 'Paragraph 3: granted once only, within the following twelve '
-           'months.'),
+           0,
+           'Paragraph 3: granted once only, within the following '
+           'twelve months.',
+           {1: 'Paragraph 3 says deferral is granted once only.', 2: 'A single deferral is all that is available.', 3: 'Deferral is available, within twelve months.'}),
           ('An employer',
-           ['may refuse to release you', 'may count the time as holiday',
-            'must release you', 'may require evidence of selection'], 2,
-           'Paragraph 2: obliged to release you and may not treat the absence '
-           'as leave.'),
-          ('A juror who is not selected for a trial is usually released after',
+           ['may refuse to release you', 'may count the time as holiday', 'must release you', 'may require evidence of selection'],
+           2,
+           'Paragraph 2: obliged to release you and may not treat the '
+           'absence as leave.',
+           {0: 'Paragraph 2 obliges the employer to release you.', 1: 'The absence may not be treated as leave.', 3: 'No evidence of selection is required of the employer.'}),
+          (
+           'A juror who is not selected for a trial is usually '
+           'released after',
            ['one day', 'two days', 'five days', 'the full ten days'], 1,
-           'Paragraph 4, which also says the obligation is then discharged.')]),
+           'Paragraph 4, which also says the obligation is then '
+           'discharged.',
+           {0: 'Shorter than the period paragraph 4 gives.', 2: 'Longer than the two days before release.', 3: 'Only a selected juror serves the full period.'})]),
     dict(heading='Applying to defer or be excused',
          kind='Procedure notice', task='Flow-chart completion',
          band='gt_short', qtype='Questions 6-9',
@@ -194,26 +206,30 @@ UNIT = dict(
            'malicious.')],
          items=[
           ('The usher says jurors may be called',
-           ['on the first morning', 'within three days',
-            'today, tomorrow or not at all', 'only after the induction'], 2,
-           'There is no way of knowing, because a long trial can collapse '
-           'before lunch.'),
+           ['on the first morning', 'within three days', 'today, tomorrow or not at all', 'only after the induction'],
+           2,
+           'There is no way of knowing, because a long trial can '
+           'collapse before lunch.',
+           {0: 'The first morning is possible but not the whole '
+               'answer.', 1: 'No such limit is given; it may be not at all.', 3: 'Induction is immediate; calling is unpredictable.'}),
           ('Which expense is not reimbursed?',
-           ['Travel by public transport', 'Travel by car', 'Parking',
-            'Lunch'], 2,
-           'Travel is paid at the public transport rate however you came, and '
-           'parking is explicitly excluded.'),
+           ['Travel by public transport', 'Travel by car', 'Parking', 'Lunch'],
+           2,
+           'Travel is paid at the public transport rate however you '
+           'came, and parking is explicitly excluded.',
+           {0: 'Travel is paid at the public transport rate.', 1: 'Car travel is reimbursed at the public transport rate.', 3: 'A subsistence allowance covers this.'}),
           ('When should claim forms be submitted?',
-           ['At the end of each day', 'At the end of each week',
-            'At the end of service', 'Within a month'], 1,
-           'In the box by the door at the end of each week, not at the end of '
-           'service.'),
+           ['At the end of each day', 'At the end of each week', 'At the end of service', 'Within a month'],
+           1,
+           'In the box by the door at the end of each week, not at the '
+           'end of service.',
+           {0: 'Daily submission is not what he asks for.', 2: 'He says explicitly not at the end of service.', 3: 'No monthly deadline is given in the talk.'}),
           ('Why does the usher say jurors must not look things up?',
-           ['It wastes time', 'The information is usually wrong',
-            'Others cannot know what was read or whether it was true',
-            'It is against court rules'], 2,
-           'He gives the reason instead of the rule: everyone must decide '
-           'from the same material.')])],
+           ['It wastes time', 'The information is usually wrong', 'Others cannot know what was read or whether it was true', 'It is against court rules'],
+           2,
+           'He gives the reason instead of the rule: everyone must '
+           'decide from the same material.',
+           {0: 'Time is not the reason he gives for the rule.', 1: 'He does not claim the information would be false.', 3: 'He gives the reason rather than citing the rule.'})])],
    speak=dict(
     part='Part 1', focus='Rules and the people who make them',
     intro=('Two or three sentences. Answer, support, stop. Part 1 is a warm-up '
@@ -343,21 +359,36 @@ UNIT = dict(
           'had spoken last. A process designed for twelve views was decided by '
           'about seven.'],
          items=[
-          ('Which juror changed their opinion about juries during the trial?',
+          (
+           'Which juror changed their opinion about juries during the '
+           'trial?',
            ['Henrike', 'Camilo', 'Oluwaseun', 'Marguerite'], 1,
-           'He went in assuming twelve ordinary people were a poor substitute '
-           'and came out thinking the opposite.'),
+           'He went in assuming twelve ordinary people were a poor '
+           'substitute and came out thinking the opposite.',
+           {0: 'Henrike reflects on the reliability of witnesses.', 2: 'Oluwaseun found the facts easier to settle than their '
+               'meaning.', 3: 'Marguerite raises a concern about participation.'}),
           ('Which juror raises a concern about participation?',
            ['Henrike', 'Camilo', 'Oluwaseun', 'Marguerite'], 3,
-           'Two of the twelve did not speak, so a process designed for twelve '
-           'views was decided by about seven.'),
-          ('Which juror found the facts easier to settle than their meaning?',
+           'Two of the twelve did not speak, so a process designed for '
+           'twelve views was decided by about seven.',
+           {0: 'Henrike reflects on the reliability of witnesses.', 1: 'Camilo changed their opinion about juries during the '
+               'trial.', 2: 'Oluwaseun found the facts easier to settle than their '
+               'meaning.'}),
+          (
+           'Which juror found the facts easier to settle than their '
+           'meaning?',
            ['Henrike', 'Camilo', 'Oluwaseun', 'Marguerite'], 2,
-           'An hour on the facts and two days on what they amounted to.'),
+           'An hour on the facts and two days on what they amounted '
+           'to.',
+           {0: 'Henrike reflects on the reliability of witnesses.', 1: 'Camilo changed their opinion about juries during the '
+               'trial.', 3: 'Marguerite raises a concern about participation.'}),
           ('Which juror reflects on the reliability of witnesses?',
            ['Henrike', 'Camilo', 'Oluwaseun', 'Marguerite'], 0,
-           'Two witnesses described the same four seconds and disagreed, and '
-           'neither was lying.'),
+           'Two witnesses described the same four seconds and '
+           'disagreed, and neither was lying.',
+           {1: 'Camilo changed their opinion about juries during the '
+               'trial.', 2: 'Oluwaseun found the facts easier to settle than their '
+               'meaning.', 3: 'Marguerite raises a concern about participation.'}),
           (
            'Camilo believes juries are better because jurors are '
            'intelligent.', ['Yes', 'No', 'Not Given'], 1,
@@ -416,34 +447,42 @@ UNIT = dict(
            'in the tribunal or in the presentation, and that is a question '
            'somebody could actually research.')],
          items=[
-          ('Nakamura’s objection concerns',
-           ['all jury trials', 'complex fraud trials specifically',
-            'the cost of trials', 'the length of deliberations'], 1,
-           'She opens by saying her case is narrow and that she is not against '
-           'juries.'),
+          ('Nakamura\u2019s objection concerns',
+           ['all jury trials', 'complex fraud trials specifically', 'the cost of trials', 'the length of deliberations'],
+           1,
+           'She opens by saying her case is narrow and that she is not '
+           'against juries.',
+           {0: 'She says she is not against juries in general.', 2: 'Cost is not raised by either speaker.', 3: 'Deliberation length is not her objection.'}),
           ('Oyelaran argues that her reasoning',
-           ['relies on old evidence', 'proves too much',
-            'misunderstands the standard of proof', 'applies only abroad'], 1,
-           'Because a prosecutor could then secure a judge-only trial by '
-           'making the case complicated.'),
+           ['relies on old evidence', 'proves too much', 'misunderstands the standard of proof', 'applies only abroad'],
+           1,
+           'Because a prosecutor could then secure a judge-only trial '
+           'by making the case complicated.',
+           {0: 'Age of the evidence is not his objection.', 2: 'The standard of proof is her objection to his '
+               'comparison.', 3: 'He does not confine her argument to other countries.'}),
           ('What does Oyelaran propose instead?',
-           ['Longer trials', 'Specialist juries',
-            'Better presentation of the case', 'Written verdicts'], 2,
-           'The answer to a case a jury cannot follow is a case presented '
-           'better.'),
-          ('Nakamura objects to the medical negligence comparison because',
-           ['the cases are shorter', 'those cases are mostly civil',
-            'experts are not used', 'juries are rare there'], 1,
-           'And therefore the standard of proof differs, so he is comparing '
-           'instruments.'),
-          ('Which of Oyelaran’s arguments does Nakamura find hardest to '
-           'answer?',
-           ['That juries are more accurate',
-            'That the jury is a check on the state',
-            'That reform would be cheaper',
-            'That complexity is controllable'], 1,
-           'She notes that it is not an argument about accuracy, which he '
-           'accepts.')])],
+           ['Longer trials', 'Specialist juries', 'Better presentation of the case', 'Written verdicts'],
+           2,
+           'The answer to a case a jury cannot follow is a case '
+           'presented better.',
+           {0: 'Longer trials are the problem, not the remedy.', 1: 'Specialist juries are not what he proposes.', 3: 'Written verdicts are not mentioned by either.'}),
+          (
+           'Nakamura objects to the medical negligence comparison '
+           'because',
+           ['the cases are shorter', 'those cases are mostly civil', 'experts are not used', 'juries are rare there'],
+           1,
+           'And therefore the standard of proof differs, so he is '
+           'comparing instruments.',
+           {0: 'Length of those cases is not her objection.', 2: 'Experts are central to his comparison.', 3: 'Jury rarity there is not the point she makes.'}),
+          (
+           'Which of Oyelaran\u2019s arguments does Nakamura find hardest '
+           'to answer?',
+           ['That juries are more accurate', 'That the jury is a check on the state', 'That reform would be cheaper', 'That complexity is controllable'],
+           1,
+           'She notes that it is not an argument about accuracy, which '
+           'he accepts.',
+           {0: 'Accuracy is what she says the argument is not about.', 2: 'Cost is not part of his argument.', 3: 'Controllable complexity is his earlier point, which '
+               'she answers.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Decisions and who makes them',
     longturn=[('The difficult decision I want to describe was whether to close '
@@ -666,22 +705,35 @@ UNIT = dict(
          items=[
           ('Which offence category shows a fall?',
            ['Burglary', 'Assault', 'Fraud', 'Robbery'], 3,
-           'Paragraph 2: from about thirty months to twenty-seven, the only '
-           'downward movement on the chart.'),
+           'Paragraph 2: from about thirty months to twenty-seven, the '
+           'only downward movement on the chart.',
+           {0: 'Burglary rose from eighteen months to about '
+               'twenty-four.', 1: 'Assault rose from fourteen months to nineteen.', 2: 'Fraud rose proportionately fastest.'}),
           ('Which offence rose proportionately fastest?',
            ['Burglary', 'Assault', 'Fraud', 'Robbery'], 2,
-           'Fraud started lowest at around ten and reached sixteen, which is '
-           'the largest relative increase.'),
-          ('Which paragraph explains how diverting minor cases can raise an '
-           'average?', ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Paragraph 5 gives the burglary example and says part of the rise '
-           'is a change in what is measured.'),
-          ('The writer says the fall in robbery sentences is explained by',
-           ['more lenient judges', 'fewer prosecutions',
-            'reclassification of serious cases', 'shorter trials'], 2,
-           'Paragraph 6: serious instances moved into other categories, so '
-           'the average for what remains fell.'),
+           'Fraud started lowest at around ten and reached sixteen, '
+           'which is the largest relative increase.',
+           {0: 'Burglary rose by about a third, less than fraud.', 1: 'Assault rose from fourteen to nineteen, a smaller '
+               'share.', 3: 'Robbery category shows a fall.'}),
+          (
+           'Which paragraph explains how diverting minor cases can '
+           'raise an average?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
+           'Paragraph 5 gives the burglary example and says part of '
+           'the rise is a change in what is measured.',
+           {0: 'Paragraph 3 is about the narrowing gap between '
+               'categories.', 1: 'Paragraph 4 lists the explanations for the general '
+               'rise.', 3: 'Paragraph 6 explains the fall in robbery sentences.'}),
+          (
+           'The writer says the fall in robbery sentences is explained '
+           'by',
+           ['more lenient judges', 'fewer prosecutions', 'reclassification of serious cases', 'shorter trials'],
+           2,
+           'Paragraph 6: serious instances moved into other '
+           'categories, so the average for what remains fell.',
+           {0: 'Judicial leniency is not offered as an explanation.', 1: 'Prosecution volume is the burglary example, not '
+               'robbery.', 3: 'Trial length is not discussed in the passage.'}),
           ('The gap between the longest and shortest averages has narrowed '
            'from twenty months to ____________.', None, 'eleven',
            'Paragraph 3, which calls the system less differentiated but more '
@@ -755,37 +807,54 @@ UNIT = dict(
            'then finding the question it does answer well. There almost '
            'always is one.')],
          items=[
-          ('Why does the lecturer say the figures are unusually solid?',
-           ['They come from a large sample',
-            'They come from administrative records',
-            'They were independently audited',
-            'They cover twenty years'], 1,
-           'So there is no sampling error, no non-response and nothing to '
-           'weight.'),
-          ('The first trap is that an average sentence is an average over',
-           ['all offenders', 'all offences of that type',
-            'the cases that were sentenced', 'a sample of cases'], 2,
+          (
+           'Why does the lecturer say the figures are unusually solid?',
+           ['They come from a large sample', 'They come from administrative records', 'They were independently audited', 'They cover twenty years'],
+           1,
+           'So there is no sampling error, no non-response and nothing '
+           'to weight.',
+           {0: 'Sample size does not apply to administrative records.', 2: 'No audit is mentioned in the lecture.', 3: 'The period covered is not why the figures are solid.'}),
+          (
+           'The first trap is that an average sentence is an average '
+           'over',
+           ['all offenders', 'all offences of that type', 'the cases that were sentenced', 'a sample of cases'],
+           2,
            'Not over burglaries and not over burglars, which is the '
-           'distinction he draws twice.'),
-          ('Removing the least serious cases from a category causes the mean '
-           'to', ['fall', 'rise', 'stay the same', 'become unstable'], 1,
-           'Without anybody changing their behaviour, which is his point.'),
-          ('What does the lecturer call the change in offence categories?',
-           ['Reclassification error', 'Category drift', 'Definitional bias',
-            'Statistical noise'], 1,
-           'And he gives robbery as the clearest case on the chart.'),
-          ('Which finding does the lecturer say survives both corrections?',
-           ['The general rise in severity',
-            'The fall in robbery sentences',
-            'The narrowing gap between categories',
-            'The accuracy of the records'], 2,
-           'He calls it a real finding about what the system is doing with its '
-           'capacity.'),
+           'distinction he draws twice.',
+           {0: 'He says explicitly it is not an average over burglars.', 1: 'He says explicitly it is not an average over '
+               'burglaries.', 3: 'These are administrative records, not a sample.'}),
+          (
+           'Removing the least serious cases from a category causes '
+           'the mean to',
+           ['fall', 'rise', 'stay the same', 'become unstable'], 1,
+           'Without anybody changing their behaviour, which is his '
+           'point.',
+           {0: 'A fall would follow from removing the most serious '
+               'cases.', 2: 'The mean moves, which is the whole trap.', 3: 'The mean stays stable; it simply shifts upward.'}),
+          (
+           'What does the lecturer call the change in offence '
+           'categories?',
+           ['Reclassification error', 'Category drift', 'Definitional bias', 'Statistical noise'],
+           1, 'And he gives robbery as the clearest case on the chart.',
+           {0: 'He does not call it an error; the categories are '
+               'revised lawfully.', 2: 'No such term is used in the lecture.', 3: 'He treats it as a real change, not noise.'}),
+          (
+           'Which finding does the lecturer say survives both '
+           'corrections?',
+           ['The general rise in severity', 'The fall in robbery sentences', 'The narrowing gap between categories', 'The accuracy of the records'],
+           2,
+           'He calls it a real finding about what the system is doing '
+           'with its capacity.',
+           {0: 'The general rise is what the two traps undermine.', 1: 'The fall in robbery is explained away by category '
+               'drift.', 3: 'Accuracy is where he starts, not what survives the '
+               'traps.'}),
           ('What does the lecturer say about scepticism?',
-           ['It is necessary', 'It is cheap',
-            'It is the main skill required', 'It is misplaced here'], 1,
-           'Cheap, and it ends every argument in the same place; he wants the '
-           'question a number does answer.')])],
+           ['It is necessary', 'It is cheap', 'It is the main skill required', 'It is misplaced here'],
+           1,
+           'Cheap, and it ends every argument in the same place; he '
+           'wants the question a number does answer.',
+           {0: 'He says the discipline he wants is not scepticism.', 2: 'The main skill is asking what a number averages over.', 3: 'He does not say scepticism is misplaced, but that it '
+               'is easy.'})])],
    speak=dict(
     part='Part 3', focus='Measuring a justice system',
     intro=('Four or five sentences. Try to include one sentence that concedes '
@@ -1006,23 +1075,34 @@ UNIT = dict(
           'rarely done.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['Why severity deters so little', 'Three components of cost',
-            'The limits of incapacitation',
-            'Why policy moves the other way'], 0,
-           'It explains the asymmetry: a long sentence multiplied by a near-'
-           'zero probability of detection is a small expected cost.'),
+           ['Why severity deters so little', 'Three components of cost', 'The limits of incapacitation', 'Why policy moves the other way'],
+           0,
+           'It explains the asymmetry: a long sentence multiplied by a '
+           'near-zero probability of detection is a small expected '
+           'cost.',
+           {1: 'The three components are paragraph 1, with the three '
+               'labels.', 2: 'The limits of incapacitation is the heading for '
+               'paragraph 6.', 3: 'Why policy moves the other way is the heading for '
+               'paragraph 7.'}),
           ('Choose the best heading for paragraph 6.',
-           ['Three components of cost', 'The limits of incapacitation',
-            'Why policy moves the other way', 'What the evidence shows'], 1,
-           'It turns on offending declining with age, so a long sentence buys '
-           'little additional protection.'),
+           ['Three components of cost', 'The limits of incapacitation', 'Why policy moves the other way', 'What the evidence shows'],
+           1,
+           'It turns on offending declining with age, so a long '
+           'sentence buys little additional protection.',
+           {0: 'The three components are paragraph 1, with the three '
+               'labels.', 2: 'Why policy moves the other way is the heading for '
+               'paragraph 7.', 3: 'What the evidence shows is paragraph 2, on the three '
+               'effects.'}),
           ('Choose the best heading for paragraph 7.',
-           ['Why severity deters so little', 'The limits of incapacitation',
-            'Why policy moves the other way',
-            'Three components of cost'], 2,
-           'Certainty is expensive and invisible; severity is cheap and '
-           'legible, so the instrument that works is the one that is hard to '
-           'deliver.'),
+           ['Why severity deters so little', 'The limits of incapacitation', 'Why policy moves the other way', 'Three components of cost'],
+           2,
+           'Certainty is expensive and invisible; severity is cheap '
+           'and legible, so the instrument that works is the one that '
+           'is hard to deliver.',
+           {0: 'Why severity deters so little is the heading for '
+               'paragraph 3.', 1: 'The limits of incapacitation is the heading for '
+               'paragraph 6.', 3: 'The three components are paragraph 1, with the three '
+               'labels.'}),
           (
            'The writer believes sentence length serves no useful '
            'purpose.', ['Yes', 'No', 'Not Given'], 1,
@@ -1095,35 +1175,46 @@ UNIT = dict(
            'built and not to a mistake '
            'by an individual in it.')],
          items=[
-          ('The lecturer says the research literature has been clear for about',
+          (
+           'The lecturer says the research literature has been clear '
+           'for about',
            ['ten years', 'twenty years', 'forty years', 'a century'], 2,
-           'And he stresses that its lack of influence is not a story about '
-           'ignorance.'),
+           'And he stresses that its lack of influence is not a story '
+           'about ignorance.',
+           {0: 'Shorter than the period he gives for the literature.', 1: 'Still shorter than the forty years he names.', 3: 'Far longer than the literature he describes.'}),
           ('The lever that works, according to the lecture, is',
-           ['the length of sentence', 'the probability of being caught',
-            'the speed of trial', 'the conditions in prison'], 1,
-           'Replicated across jurisdictions, offence types and decades.'),
+           ['the length of sentence', 'the probability of being caught', 'the speed of trial', 'the conditions in prison'],
+           1,
+           'Replicated across jurisdictions, offence types and '
+           'decades.',
+           {0: 'Sentence length is the lever he says barely works.', 2: 'Speed of trial is the least studied of the three.', 3: 'Prison conditions are not among the three levers.'}),
           ('Why does doubling a sentence have little effect?',
-           ['Sentences are rarely served in full',
-            'It doubles a number already multiplied by a small probability',
-            'Offenders do not know the sentence',
-            'Judges reduce sentences on appeal'], 1,
-           'He gives one in forty as the example, so the multiplier is 0.025.'),
+           ['Sentences are rarely served in full', 'It doubles a number already multiplied by a small probability', 'Offenders do not know the sentence', 'Judges reduce sentences on appeal'],
+           1,
+           'He gives one in forty as the example, so the multiplier is '
+           '0.025.',
+           {0: 'Time served is not the arithmetic he sets out.', 2: 'He says most offenders are not doing arithmetic at '
+               'all.', 3: 'Appeals are not mentioned in the lecture.'}),
           ('What does the lecturer say prison does achieve?',
-           ['Deterrence through severity', 'Rehabilitation',
-            'Incapacitation', 'Faster case completion'], 2,
-           'Somebody inside is not offending outside, which he calls real and '
-           'measurable.'),
+           ['Deterrence through severity', 'Rehabilitation', 'Incapacitation', 'Faster case completion'],
+           2,
+           'Somebody inside is not offending outside, which he calls '
+           'real and measurable.',
+           {0: 'Severity is the lever he says barely works.', 1: 'Rehabilitation is not what he credits prison with '
+               'here.', 3: 'Case completion belongs to certainty, not to prison.'}),
           ('The age-crime curve means that long sentences often',
-           ['prevent many offences', 'incapacitate people who would have '
-            'stopped', 'increase reoffending', 'reduce costs'], 1,
-           'Criminal careers are short and the curve falls steeply through the '
-           'twenties.'),
+           ['prevent many offences', 'incapacitate people who would have stopped', 'increase reoffending', 'reduce costs'],
+           1,
+           'Criminal careers are short and the curve falls steeply '
+           'through the twenties.',
+           {0: 'Preventing many offences is what the curve undercuts.', 2: 'Reoffending effects are a separate finding, not the '
+               'curve.', 3: 'He says the cost is paid in full.'}),
           ('The lecturer explains the policy divergence in terms of',
-           ['public opinion', 'institutional incentives',
-            'judicial independence', 'media coverage'], 1,
-           'Certainty is expensive, slow and invisible; severity is cheap, '
-           'immediate and announceable.')])],
+           ['public opinion', 'institutional incentives', 'judicial independence', 'media coverage'],
+           1,
+           'Certainty is expensive, slow and invisible; severity is '
+           'cheap, immediate and announceable.',
+           {0: 'Public opinion is not the explanation he offers.', 2: 'Judicial independence is not part of his account.', 3: 'Media coverage is not what he blames.'})])],
    speak=dict(
     part='Part 3', focus='Punishment and prevention',
     followup=[(('You say longer sentences do little. What else could a '
@@ -1330,22 +1421,32 @@ UNIT = dict(
                  'in a judgment, which is why the proposal is worth making '
                  'even though its chances are poor.')],
          items=[
-          ('Which paragraph describes a measure being defended on shifting '
-           'grounds?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
-           'Paragraph 6: justified to deter, defended as deserved, then as '
-           'incapacitating. The argument never has to stay in one place.'),
-          ('Which paragraph explains why one purpose is systematically '
+          (
+           'Which paragraph describes a measure being defended on '
+           'shifting grounds?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
+           'Paragraph 6: justified to deter, defended as deserved, '
+           'then as incapacitating. The argument never has to stay in '
+           'one place.',
+           {0: 'Paragraph 4 describes rehabilitation.', 1: 'Paragraph 5 explains why one purpose is systematically '
+               'under-served.', 3: 'Paragraph 7 proposes the procedural remedy.'}),
+          (
+           'Which paragraph explains why one purpose is systematically '
            'under-served?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 8'], 2,
-           'Paragraph 5: cheap and visible purposes crowd out the expensive '
-           'and invisible one, without anybody deciding it.'),
-          ('Which paragraph identifies the only purpose that limits '
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 8'],
+           2,
+           'Paragraph 5: cheap and visible purposes crowd out the '
+           'expensive and invisible one, without anybody deciding it.',
+           {0: 'Paragraph 3 compares deterrence with incapacitation.', 1: 'Paragraph 4 describes rehabilitation.', 3: 'Paragraph 8 says what the proposal does not require.'}),
+          (
+           'Which paragraph identifies the only purpose that limits '
            'punishment?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 7'], 0,
-           'Retribution places a ceiling where the others place a floor, and is '
-           'the only '
-           'backward-looking purpose.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 7'],
+           0,
+           'Retribution places a ceiling where the others place a '
+           'floor, and is the only backward-looking purpose.',
+           {1: 'Paragraph 3 compares deterrence with incapacitation.', 2: 'Paragraph 4 describes rehabilitation.', 3: 'Paragraph 7 proposes the procedural remedy.'}),
           (
            'The writer believes rehabilitation is the most important '
            'purpose.', ['Yes', 'No', 'Not Given'], 2,
@@ -1416,36 +1517,49 @@ UNIT = dict(
            'disagree about what follows, and that disagreement would at least '
            'be about something.')],
          items=[
-          ('The judge’s objection to the reform case is that it treats '
+          (
+           'The judge\u2019s objection to the reform case is that it treats '
            'sentencing as',
-           ['too lenient', 'a technical exercise with a right answer',
-            'a political question', 'a matter for Parliament alone'], 1,
-           'In the room, he says, it is not: four conflicting purposes and no '
-           'ranking.'),
+           ['too lenient', 'a technical exercise with a right answer', 'a political question', 'a matter for Parliament alone'],
+           1,
+           'In the room, he says, it is not: four conflicting purposes '
+           'and no ranking.',
+           {0: 'Leniency is the reformer\u2019s subject, not his objection.', 2: 'He does not call sentencing a political question.', 3: 'He wants Parliament to rank the purposes, not to '
+               'sentence.'}),
           ('Lindqvist responds that unranked purposes mean',
-           ['sentences are too long', 'any decision is defensible',
-            'judges need more training', 'guidelines should be abolished'], 1,
-           'She calls it the absence of a standard dressed as judgement.'),
-          ('What does Lindqvist say about measured variation between judges?',
-           ['It is larger than claimed', 'It is within the permitted range',
-            'It has not been measured', 'It is falling'], 1,
-           'Her complaint is aimed at the level of the guideline, not at the '
-           'judge.'),
-          ('The judge says he has inferred Parliament’s intention from',
-           ['case law', 'maximum sentences', 'public opinion',
-            'guideline commentary'], 1,
-           'Which he compares to reading tea leaves.'),
-          ('How would the judge treat actuarial material on reoffending?',
-           ['Refuse to see it', 'Use it with unease and a power to depart',
-            'Apply it strictly', 'Pass it to the jury'], 1,
-           'Because it is about a group and the person in front of him is an '
-           'individual.'),
+           ['sentences are too long', 'any decision is defensible', 'judges need more training', 'guidelines should be abolished'],
+           1,
+           'She calls it the absence of a standard dressed as '
+           'judgement.',
+           {0: 'Sentence length is her campaign, not this argument.', 2: 'Training is not what she says is missing.', 3: 'She aims at the guideline, not at abolishing it.'}),
+          (
+           'What does Lindqvist say about measured variation between '
+           'judges?',
+           ['It is larger than claimed', 'It is within the permitted range', 'It has not been measured', 'It is falling'],
+           1,
+           'Her complaint is aimed at the level of the guideline, not '
+           'at the judge.',
+           {0: 'She accepts that the measured variation is small.', 2: 'She says it has been measured.', 3: 'No trend in variation is mentioned.'}),
+          (
+           'The judge says he has inferred Parliament\u2019s intention from',
+           ['case law', 'maximum sentences', 'public opinion', 'guideline commentary'],
+           1, 'Which he compares to reading tea leaves.',
+           {0: 'Case law is not what he says he reads for intention.', 2: 'Public opinion is not his source.', 3: 'Guideline commentary is not what he names.'}),
+          (
+           'How would the judge treat actuarial material on '
+           'reoffending?',
+           ['Refuse to see it', 'Use it with unease and a power to depart', 'Apply it strictly', 'Pass it to the jury'],
+           1,
+           'Because it is about a group and the person in front of him '
+           'is an individual.',
+           {0: 'He would look at it, with unease.', 2: 'He wants a power to depart from it.', 3: 'Sentencing material does not go to a jury.'}),
           ('What do both finally agree on?',
-           ['Shorter sentences', 'More judicial discretion',
-            'That the framework should state its purpose',
-            'That variation is acceptable'], 2,
-           'They disagree about what follows, which the judge says would at '
-           'least be a disagreement about something.')])],
+           ['Shorter sentences', 'More judicial discretion', 'That the framework should state its purpose', 'That variation is acceptable'],
+           2,
+           'They disagree about what follows, which the judge says '
+           'would at least be a disagreement about something.',
+           {0: 'Shorter sentences are her position, not the common '
+               'ground.', 1: 'Discretion is what she questions.', 3: 'Variation is what she objects to.'})])],
    speak=dict(
     part='Part 3', focus='What punishment is for',
     sounds=[('Legal and institutional vocabulary is long and almost entirely '

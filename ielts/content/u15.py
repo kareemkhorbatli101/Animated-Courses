@@ -67,18 +67,26 @@ UNIT = dict(
            'Paragraph 2, while the grounds stay open.'),
           ('On those days the entry charge is reduced by',
            ['a quarter', 'a third', 'a half', 'two thirds'], 1,
-           'Paragraph 2, because the keep is not available.'),
+           'Paragraph 2, because the keep is not available.',
+           {0: 'A quarter is a smaller reduction than paragraph 2 '
+               'gives.', 2: 'A half is more generous than the castle offers on '
+               'Mondays.', 3: 'Two thirds would leave almost nothing to pay.'}),
           ('Caldwell residents must show a utility bill dated within the '
            'last ____________ months.', None, 'six',
            'Paragraph 3, which admits them free.'),
-          ('Visitors unable to use the stair are offered a video tour in '
-           'the', ['tea room', 'exhibition', 'gatehouse',
-            'grounds'], 2,
-           'Paragraph 4, shown continuously.'),
+          (
+           'Visitors unable to use the stair are offered a video tour '
+           'in the',
+           ['tea room', 'exhibition', 'gatehouse', 'grounds'], 2,
+           'Paragraph 4, shown continuously.',
+           {0: 'The tea room stays open on Mondays but shows no tour.', 1: 'The exhibition is open on Mondays but is not where the '
+               'tour runs.', 3: 'The grounds take dogs on a lead, not the video tour.'}),
           ('Which dogs are admitted to the tea room?',
-           ['all dogs on a lead', 'small dogs only',
-            'assistance dogs only', 'no dogs'], 2,
-           'Paragraph 5, which is the exception to the rule.'),
+           ['all dogs on a lead', 'small dogs only', 'assistance dogs only', 'no dogs'],
+           2, 'Paragraph 5, which is the exception to the rule.',
+           {0: 'Dogs on a lead are admitted to the grounds only.', 1: 'Size is not the test; the rule is about assistance '
+               'dogs.', 3: 'Assistance dogs are the exception, so this is too '
+               'strong.'}),
           ('Permission for photography for publication is normally granted '
            'within ____________ working days.', None, 'ten',
            'Paragraph 6, applied for by email.')]),
@@ -103,9 +111,10 @@ UNIT = dict(
           'entry remains valid for the day.'],
          items=[
           ('Which tour requires no booking for individuals?',
-           ['the general tour', 'the tower and roof tour',
-            'the evening tour', 'none of them'], 0,
-           'Daily at 11.00 and 14.30, with no booking needed.'),
+           ['the general tour', 'the tower and roof tour', 'the evening tour', 'none of them'],
+           0, 'Daily at 11.00 and 14.30, with no booking needed.',
+           {1: 'The tower and roof tour is limited to twelve and must '
+               'be booked.', 2: 'The evening tour runs once a month and must be booked.', 3: 'The general tour needs no booking, so this is wrong.'}),
           ('The tower and roof tour is limited to ____________ people.',
            None, '12', 'Saturdays only, and not for children under 8.'),
           ('Group bookings must be confirmed ____________ days in '
@@ -304,19 +313,32 @@ UNIT = dict(
           'it was and I found I did not know, which rather made her '
           'point.'],
          items=[
-          ('Which person keeps objects that have no practical use and '
+          (
+           'Which person keeps objects that have no practical use and '
            'cannot be discarded?',
            ['Benedikta', 'Cormac', 'Delphine', 'Emrys'], 0,
-           'Forty carpentry tools and nobody who works wood.'),
+           'Forty carpentry tools and nobody who works wood.',
+           {1: 'Cormac found that very little was actually wanted.', 2: 'Delphine\u2019s letters went to the county archive as a '
+               'valuable series.', 3: 'Emrys discovered they did not know the object\u2019s story.'}),
           ('Which person found that very little was actually wanted?',
            ['Benedikta', 'Cormac', 'Delphine', 'Emrys'], 1,
-           'Two photographs, after three moves.'),
-          ('Which family’s collection has gone to an archive?',
+           'Two photographs, after three moves.',
+           {0: 'Benedikta keeps objects that have no practical use and '
+               'cannot be discarded.', 2: 'Delphine kept everything her mother received for '
+               'fifty-one years.', 3: 'Emrys discovered they did not know the object\u2019s story.'}),
+          ('Which family\u2019s collection has gone to an archive?',
            ['Benedikta', 'Cormac', 'Delphine', 'Emrys'], 2,
-           'Fifty-one years of letters in shoeboxes.'),
-          ('Which person discovered they did not know the object’s '
-           'story?', ['Benedikta', 'Cormac', 'Delphine', 'Emrys'], 3,
-           'When his daughter asked whose chair it was.'),
+           'Fifty-one years of letters in shoeboxes.',
+           {0: 'Benedikta keeps objects that have no practical use and '
+               'cannot be discarded.', 1: 'Cormac found that very little was actually wanted.', 3: 'Emrys discovered they did not know the object\u2019s story.'}),
+          (
+           'Which person discovered they did not know the object\u2019s '
+           'story?',
+           ['Benedikta', 'Cormac', 'Delphine', 'Emrys'], 3,
+           'When his daughter asked whose chair it was.',
+           {0: 'Benedikta keeps objects that have no practical use and '
+               'cannot be discarded.', 1: 'Cormac found that very little was actually wanted.', 2: 'Delphine knows exactly what the shoeboxes contain and '
+               'why.'}),
           ('Delphine regrets that the letters were kept.',
            ['Yes', 'No', 'Not Given'], 2,
            'She gives the cost and the value and never says she '
@@ -366,17 +388,26 @@ UNIT = dict(
           ('Objects survive while somebody can say ____________ they '
            'were.', None, 'whose',
            'Which the speaker says lasts about three generations.'),
-          ('Families reliably keep photographs, documents that prove '
+          (
+           'Families reliably keep photographs, documents that prove '
            'something, and objects connected to a named',
            ['place', 'person', 'event', 'trade'], 1,
-           'The third category being the one that disappears.'),
+           'The third category being the one that disappears.',
+           {0: 'A place is not the link he names for the third '
+               'category.', 2: 'Events are what the documents prove, not what objects '
+               'attach to.', 3: 'A trade is what Benedikta\u2019s tools belong to, not the '
+               'general rule.'}),
           ('What families almost never keep is anything about ordinary '
            '____________.', None, 'weeks',
            'Nobody keeps a shopping list or an ordinary note.'),
-          ('Things survive in large numbers when they were thrown away '
-           'all at once and then', ['sold', 'forgotten', 'recorded',
-            'buried deliberately'], 1,
-           'Which is why rubbish pits are so informative.')]),
+          (
+           'Things survive in large numbers when they were thrown away '
+           'all at once and then',
+           ['sold', 'forgotten', 'recorded', 'buried deliberately'], 1,
+           'Which is why rubbish pits are so informative.',
+           {0: 'Selling is not how he says large quantities survive.', 2: 'Recording is the opposite of what happened to rubbish '
+               'pits.', 3: 'Deliberate burial is not what he describes; they were '
+               'forgotten.'})]),
     dict(heading='Two archivists on what to keep', part='Part 3',
          task='A discussion between two archivists', band='l3',
          qtype='Questions 27-32',
@@ -422,14 +453,16 @@ UNIT = dict(
           ('The archive has nineteen metres of shelf and ____________ '
            'metres offered.', None, 'forty-one',
            'Which is why the decision is about destruction.'),
-          ('Benedikta’s rule is to keep what cannot be',
-           ['sold', 'reconstructed from elsewhere', 'read easily',
-            'stored flat'], 1,
-           'A deed exists in three copies; a diary exists once.'),
+          ('Benedikta\u2019s rule is to keep what cannot be',
+           ['sold', 'reconstructed from elsewhere', 'read easily', 'stored flat'],
+           1, 'A deed exists in three copies; a diary exists once.',
+           {0: 'Sale value is not the test either archivist applies.', 2: 'Ease of reading is the problem with the Bengali '
+               'material.', 3: 'How material is stored is not what her rule turns on.'}),
           ('Delphine objects that the valuable item arrives',
-           ['damaged', 'unlabelled in a box', 'too late',
-            'in several parts'], 1,
-           'With two hundred receipts and nobody with four hours.'),
+           ['damaged', 'unlabelled in a box', 'too late', 'in several parts'],
+           1, 'With two hundred receipts and nobody with four hours.',
+           {0: 'Damage is not what she says makes the diary hard to '
+               'find.', 2: 'Lateness is not the problem; the box arrives in time.', 3: 'The diary arrives whole, buried among the receipts.'}),
           ('Benedikta says archivists over-keep the documents their '
            'profession was ____________ on.', None, 'trained',
            'Estate papers, legal series, bound volumes.'),
@@ -624,19 +657,24 @@ UNIT = dict(
           'question that the record itself cannot answer.'],
          items=[
           ('Which paragraph explains why one category stops rising?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'Because a register was kept every year.'),
-          ('Which paragraph gives two different reasons for the low early '
-           'figures?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
-           'Fewer created, and more of them since lost.'),
-          ('Which paragraph describes a specific absence in the '
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'Because a register was kept every year.',
+           {0: 'Paragraph 1 only says the three rates differ.', 2: 'Paragraph 3 covers the two categories with no limit.', 3: 'Paragraph 4 gives two different reasons for the low '
+               'early figures.'}),
+          (
+           'Which paragraph gives two different reasons for the low '
+           'early figures?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1, 'Fewer created, and more of them since lost.',
+           {0: 'Paragraph 3 gives the land and court figures.', 2: 'Paragraph 5 describes a specific absence in the '
+               'registers.', 3: 'Paragraph 6 states the general rule about gaps.'}),
+          (
+           'Which paragraph describes a specific absence in the '
            'registers?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 3'], 1,
-           'No entries between 1643 and 1649.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 3'],
+           1, 'No entries between 1643 and 1649.',
+           {0: 'Paragraph 4 gives two different reasons for the low '
+               'early figures.', 2: 'Paragraph 6 draws the lesson from that absence.', 3: 'Paragraph 3 gives the land and court figures.'}),
           ('Parish registers rise from 31 to ____________ and then to '
            '100.', None, '96',
            'With almost no increase in the final step.'),
@@ -708,15 +746,23 @@ UNIT = dict(
            'every ____________.', None, 'year',
            'So once every year is present no further rise is '
            'possible.'),
-          ('Land documents could rise indefinitely because there is no '
-           'natural', ['record', 'maximum', 'archive', 'index'], 1,
-           'Number of property transactions.'),
+          (
+           'Land documents could rise indefinitely because there is no '
+           'natural',
+           ['record', 'maximum', 'archive', 'index'], 1,
+           'Number of property transactions.',
+           {0: 'A record exists for each transaction, which is the '
+               'point.', 2: 'The archive is where they are kept, not what limits '
+               'them.', 3: 'An index is not what sets a ceiling on a category.'}),
           ('The gap in the Caldwell registers runs from 1643 to '
            '____________.', None, '1649',
            'When the clerk stopped, not the baptisms.'),
           ('He says a plague year can genuinely have no',
            ['burials', 'marriages', 'baptisms', 'court cases'], 1,
-           'Which is why the record alone cannot decide.'),
+           'Which is why the record alone cannot decide.',
+           {0: 'Burials would rise in a plague year, not vanish.', 2: 'Baptisms are what students wrongly think stopped in '
+               'the 1640s.', 3: 'Court cases are the source that fills the register\u2019s '
+               'gap.'}),
           ('For Caldwell the answer came from the manorial court, a '
            'source that failed ____________.', None, 'differently',
            'And names people the register never baptised.')])],
@@ -908,19 +954,23 @@ UNIT = dict(
           'the rule it departed from.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['Documents and institutions', 'Arguments and agreement',
-            'Property and paper', 'Reasoning backwards'], 1,
+           ['Documents and institutions', 'Arguments and agreement', 'Property and paper', 'Reasoning backwards'],
+           1,
            'A disputed boundary fills a folder; an accepted one does '
-           'not.'),
+           'not.',
+           {0: 'Institutions creating documents is paragraph 2, the '
+               'first sieve.', 2: 'Property is paragraph 4, the second sieve.', 3: 'Reasoning backwards is paragraphs 6 and 7.'}),
           ('Choose the best heading for paragraph 5.',
-           ['The property filter', 'The physical filter',
-            'What can still be known', 'Overlapping records'], 1,
-           'Parchment, continuing institutions and a single fire.'),
+           ['The property filter', 'The physical filter', 'What can still be known', 'Overlapping records'],
+           1, 'Parchment, continuing institutions and a single fire.',
+           {0: 'The property filter is paragraph 4, the second sieve.', 2: 'What can still be known is paragraph 6.', 3: 'Overlapping records are paragraph 7, among the '
+               'techniques.'}),
           ('Choose the best heading for paragraph 7.',
-           ['Three filters', 'Why nothing can be known',
-            'Techniques for reading through a filter',
-            'The workhouse register'], 2,
-           'Overlaps, calibration and the exception implying a rule.'),
+           ['Three filters', 'Why nothing can be known', 'Techniques for reading through a filter', 'The workhouse register'],
+           2,
+           'Overlaps, calibration and the exception implying a rule.',
+           {0: 'The three filters are paragraphs 2 to 5.', 1: 'Paragraph 6 says the opposite: much can still be '
+               'known.', 3: 'The workhouse register is an example in paragraph 4.'}),
           (
            'The writer believes the filters make historical knowledge '
            'impossible.', ['Yes', 'No', 'Not Given'], 1,
@@ -995,13 +1045,18 @@ UNIT = dict(
           ('He says arguments leave paper and ____________ leaves '
            'none.', None, 'agreement',
            'Which is the first distortion he describes.'),
-          ('A workhouse register, he says, is nearly useless about the',
+          (
+           'A workhouse register, he says, is nearly useless about the',
            ['parish', 'inmates', 'costs', 'officials'], 1,
-           'Although it is excellent about the workhouse.'),
+           'Although it is excellent about the workhouse.',
+           {0: 'The parish is not what the register is about either '
+               'way.', 2: 'Costs are part of what such a register records well.', 3: 'Officials are the people whose purposes shaped the '
+               'record.'}),
           ('The third filter is described as physical and',
-           ['deliberate', 'stupid rather than social', 'recent',
-            'reversible'], 1,
-           'Parchment, surviving institutions and single fires.'),
+           ['deliberate', 'stupid rather than social', 'recent', 'reversible'],
+           1, 'Parchment, surviving institutions and single fires.',
+           {0: 'He contrasts it with the social filters, calling it '
+               'accidental.', 2: 'Age is not what makes the third filter different.', 3: 'A fire that takes a century cannot be reversed.'}),
           ('He says a bias you can name is a ____________.', None,
            'tool', 'While one you have not noticed is the danger.'),
           ('Comparing two offices that recorded the same people tells you '
@@ -1170,21 +1225,32 @@ UNIT = dict(
           'description of the easy cases rather than a method for the '
           'hard ones.'],
          items=[
-          ('Which paragraph describes the claim of a body that is not the '
-           'state?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'The royal house for whose court the objects were made.'),
-          ('Which paragraph identifies the weakest part of the museums’ '
-           'case?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
-           'It would justify acquiring the objects today.'),
-          ('Which paragraph describes what institutions have actually '
+          (
+           'Which paragraph describes the claim of a body that is not '
+           'the state?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'The royal house for whose court the objects were made.',
+           {0: 'Paragraph 2 sets out the claim of the present-day '
+               'state.', 2: 'Paragraph 4 identifies the weakest part of the '
+               'museums\u2019 case.', 3: 'Paragraph 5 describes the interest of unconnected '
+               'scholars.'}),
+          (
+           'Which paragraph identifies the weakest part of the '
+           'museums\u2019 case?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1, 'It would justify acquiring the objects today.',
+           {0: 'Paragraph 3 describes the claim of a body that is not '
+               'the state.', 2: 'Paragraph 5 is about the fourth claim, not the '
+               'museums\u2019.', 3: 'Paragraph 6 describes what institutions have actually '
+               'done.'}),
+          (
+           'Which paragraph describes what institutions have actually '
            'done?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 1,
-           'Transfers of ownership with loans in the other direction.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           1,
+           'Transfers of ownership with loans in the other direction.',
+           {0: 'Paragraph 5 sets out the fourth claim instead.', 2: 'Paragraph 7 draws the lesson from what was done.', 3: 'Paragraph 4 identifies the weakest part of the '
+               'museums\u2019 case.'}),
           (
            'The writer believes the museums\u2019 case is entirely without '
            'merit.', ['Yes', 'No', 'Not Given'], 1,
@@ -1255,25 +1321,33 @@ UNIT = dict(
            'to persuade the other about, which is why I suspect it will be '
            'the last thing either institution does.')],
          items=[
-          ('The curator’s own weakest point is that his argument for '
+          (
+           'The curator\u2019s own weakest point is that his argument for '
            'keeping would also justify',
-           ['selling them', 'taking them', 'lending them',
-            'copying them'], 1,
-           'Which he says he does not defend.'),
+           ['selling them', 'taking them', 'lending them', 'copying them'],
+           1, 'Which he says he does not defend.',
+           {0: 'Selling is not what he says his argument would '
+               'license.', 2: 'Lending is what his institution already does.', 3: 'Copying is not raised anywhere in the discussion.'}),
           ('The campaigner admits she speaks of a community as if it were '
            'one ____________.', None, 'body',
            'Although at least two claimants disagree.'),
           ('Their actual disagreement concerns what the ____________ '
            'is.', None, 'default',
            'Whether objects stay unless a case is made, or go.'),
-          ('The curator says his board fears the loan will not be renewed '
-           'in', ['ten years', 'thirty years', 'fifty years',
-            'a century'], 1,
-           'A fear he calls real and not a reason.'),
-          ('He agrees that transferring title on condition nothing '
-           'changes means nothing has been', ['agreed', 'transferred',
-            'published', 'insured'], 1,
-           'Which concedes the campaigner’s point.'),
+          (
+           'The curator says his board fears the loan will not be '
+           'renewed in',
+           ['ten years', 'thirty years', 'fifty years', 'a century'], 1,
+           'A fear he calls real and not a reason.',
+           {0: 'Sooner than the period the board worries about.', 2: 'Longer than the figure he gives for the board\u2019s fear.', 3: 'A century is how long the objects have already been '
+               'there.'}),
+          (
+           'He agrees that transferring title on condition nothing '
+           'changes means nothing has been',
+           ['agreed', 'transferred', 'published', 'insured'], 1,
+           'Which concedes the campaigner\u2019s point.',
+           {0: 'Agreement is what a conditional transfer would still '
+               'be.', 2: 'Publication is the thing they both want, separately.', 3: 'Insurance is not mentioned in the exchange.'}),
           ('Both want published ____________ for the whole collection.',
            None, 'provenance',
            'Which he says a third of it lacks entirely.')])],

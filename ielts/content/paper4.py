@@ -100,25 +100,31 @@ PAPER = dict(
         'most transport improvements had done before and after.'],
        items=[
         ('Choose the best heading for paragraph 2.',
-         ['The first voyage', 'A system, not an invention',
-          'The end of dock labour', 'Agreeing a standard'], 1,
+         ['The first voyage', 'A system, not an invention', 'The end of dock labour', 'Agreeing a standard'],
+         1,
          'Paragraph 2 lists everything else that had to change: ports, '
-         'railways, insurance, unions, customs.'),
+         'railways, insurance, unions, customs.',
+         {3: 'Agreeing a standard is the heading for paragraph 5.'}),
         ('Choose the best heading for paragraph 5.',
-         ['The end of dock labour', 'Agreeing a standard',
-          'Ports in the wrong place', 'A different kind of trade'], 1,
-         'Incompatible sizes and fittings, and a compromise that suited '
-         'nobody exactly.'),
+         ['The end of dock labour', 'Agreeing a standard', 'Ports in the wrong place', 'A different kind of trade'],
+         1,
+         'Incompatible sizes and fittings, and a compromise that '
+         'suited nobody exactly.',
+         {2: 'Ports in the wrong place is the heading for paragraph 6.', 3: 'A different kind of trade is the heading for paragraph '
+             '8.'}),
         ('Choose the best heading for paragraph 6.',
-         ['Agreeing a standard', 'Ports in the wrong place',
-          'A different kind of trade', 'The invisible effect'], 1,
-         'Deep water, flat land and connections, which established city ports '
-         'did not have.'),
+         ['Agreeing a standard', 'Ports in the wrong place', 'A different kind of trade', 'The invisible effect'],
+         1,
+         'Deep water, flat land and connections, which established '
+         'city ports did not have.',
+         {0: 'Agreeing a standard is the heading for paragraph 5.', 2: 'A different kind of trade is the heading for paragraph '
+             '8.'}),
         ('Choose the best heading for paragraph 8.',
-         ['Ports in the wrong place', 'A different kind of trade',
-          'The invisible effect', 'The first voyage'], 1,
-         'Production broken into stages, components crossing oceans several '
-         'times.'),
+         ['Ports in the wrong place', 'A different kind of trade', 'The invisible effect', 'The first voyage'],
+         1,
+         'Production broken into stages, components crossing oceans '
+         'several times.',
+         {0: 'Ports in the wrong place is the heading for paragraph 6.'}),
         ('Loading the 1956 ship cost sixteen cents a ton, against '
          '____________ for a conventional ship.', None, '$5.83',
          'Paragraph 1 gives five dollars and eighty-three cents, which is the '
@@ -251,11 +257,15 @@ PAPER = dict(
         'the sun by a second or two per century. Noon will once again not be '
         'quite noon, for reasons exactly opposite to the original ones.'],
        items=[
-        ('Which paragraph explains why local time was not a problem before '
-         'railways?',
-         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 0,
-         'Nobody could travel fast enough for the four minutes per degree to '
-         'matter.'),
+        (
+         'Which paragraph explains why local time was not a problem '
+         'before railways?',
+         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+         0,
+         'Nobody could travel fast enough for the four minutes per '
+         'degree to matter.',
+         {2: 'Paragraph 3 describes buildings displaying two times at '
+             'once.'}),
         ('Which paragraph describes buildings displaying two times at once?',
          ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'], 1,
          'Paragraph 3: clocks fitted with two minute hands while towns kept '
@@ -264,11 +274,15 @@ PAPER = dict(
          ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
          'Paragraph 6: legislation ratified universal practice ten to '
          'thirty-five years later.'),
-        ('Which paragraph describes a new kind of measurement becoming '
+        (
+         'Which paragraph describes a new kind of measurement becoming '
          'possible?',
-         ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'], 2,
+         ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'],
+         2,
          'Simultaneity at a distance, on which markets, telegraphy and '
-         'astronomy depend.'),
+         'astronomy depend.',
+         {0: 'Paragraph 6 argues that governments were largely '
+             'followers.'}),
         ('Local time changed by about four minutes for every degree of '
          '____________.', None, 'longitude',
          'Paragraph 1, which is why westward travel put a traveller behind.'),
@@ -391,19 +405,30 @@ PAPER = dict(
         'because a decision mistaken for a discovery cannot be argued with by '
         'anybody who disagrees with it.'],
        items=[
-        ('Which paragraph explains why the standard definition cannot apply '
-         'to most organisms?',
-         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
-         'Bacteria do not interbreed and exchange material sideways.'),
-        ('Which paragraph describes a case where the relation is not '
+        (
+         'Which paragraph explains why the standard definition cannot '
+         'apply to most organisms?',
+         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+         1,
+         'Bacteria do not interbreed and exchange material sideways.',
+         {2: 'Paragraph 3 describes a case where the relation is not '
+             'transitive.'}),
+        (
+         'Which paragraph describes a case where the relation is not '
          'transitive?',
-         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'], 1,
-         'Ring species: every adjacent pair interbreeds, the two ends do '
-         'not.'),
-        ('Which paragraph compares species boundaries with units of '
+         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+         1,
+         'Ring species: every adjacent pair interbreeds, the two ends '
+         'do not.',
+         {0: 'Paragraph 2 explains why the standard definition cannot '
+             'apply to most organisms.'}),
+        (
+         'Which paragraph compares species boundaries with units of '
          'measurement?',
-         ['Paragraph 8', 'Paragraph 9', 'Paragraph 10', 'Paragraph 11'], 3,
-         'The metre is a convention and bridges do not fall down.'),
+         ['Paragraph 8', 'Paragraph 9', 'Paragraph 10', 'Paragraph 11'],
+         3, 'The metre is a convention and bridges do not fall down.',
+         {0: 'Paragraph 8 explains why reclassification matters '
+             'legally.'}),
         ('Which paragraph explains why reclassification matters legally?',
          ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'], 2,
          'Protection, extinction counts and funding all operate at species '

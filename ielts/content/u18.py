@@ -82,9 +82,11 @@ UNIT = dict(
           ('The hands-on workshops take ____________ people.', None,
            'twenty-four', 'Paragraph 3, at three times each afternoon.'),
           ('Which event is free when the others of its kind are not?',
-           ['the Saturday programme', 'the Wednesday lecture',
-            'the courtyard demonstration', 'the Annexe workshops'], 1,
-           'Paragraph 4: the exception that breaks the pattern.'),
+           ['the Saturday programme', 'the Wednesday lecture', 'the courtyard demonstration', 'the Annexe workshops'],
+           1, 'Paragraph 4: the exception that breaks the pattern.',
+           {0: 'The Saturday programme is open all day, like the rest '
+               'of the week.', 2: 'The courtyard demonstration is part of the Wednesday '
+               'lecture.', 3: 'The Annexe workshops carry no charge on any day.'}),
           ('Wheelchair access to the Lecture Theatre is through the side '
            'door on ____________ Street.', None, 'Fairweather',
            'Paragraph 5, opened on request.'),
@@ -316,19 +318,31 @@ UNIT = dict(
          items=[
           ('Which reader stopped trusting a whole category of story?',
            ['Casimir', 'Perpetua', 'Benedetta', 'Maximilian'], 0,
-           'He says he has never trusted a food story since.'),
+           'He says he has never trusted a food story since.',
+           {1: 'Perpetua objects to what is left unreported.', 2: 'Benedetta says the exaggeration happens after the '
+               'words leave them.', 3: 'Maximilian accepts understanding only part of what '
+               'they read.'}),
           ('Which reader objects to what is left unreported?',
            ['Casimir', 'Perpetua', 'Benedetta', 'Maximilian'], 1,
-           'The second study, which failed to come back.'),
-          ('Which reader says the exaggeration happens after the words '
+           'The second study, which failed to come back.',
+           {0: 'Casimir stopped trusting a whole category of story.', 2: 'Benedetta says the exaggeration happens after the '
+               'words leave them.', 3: 'Maximilian accepts understanding only part of what '
+               'they read.'}),
+          (
+           'Which reader says the exaggeration happens after the words '
            'leave them?',
            ['Casimir', 'Perpetua', 'Benedetta', 'Maximilian'], 2,
            'A different person in a different building writes the '
-           'headline.'),
-          ('Which reader accepts understanding only part of what they '
+           'headline.',
+           {0: 'Casimir stopped trusting a whole category of story.', 1: 'Perpetua objects to what is left unreported.', 3: 'Maximilian accepts understanding only part of what '
+               'they read.'}),
+          (
+           'Which reader accepts understanding only part of what they '
            'read?',
            ['Casimir', 'Perpetua', 'Benedetta', 'Maximilian'], 3,
-           'Perhaps a third of each paper.'),
+           'Perhaps a third of each paper.',
+           {0: 'Casimir stopped trusting a whole category of story.', 1: 'Perpetua objects to what is left unreported.', 2: 'Benedetta says the exaggeration happens after the '
+               'words leave them.'}),
           ('Perpetua believes newspapers print untrue statements.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says her complaint is not that the papers lie.',
@@ -384,10 +398,15 @@ UNIT = dict(
           ('The press office summary usually uses the word '
            '____________.', None, 'suggests',
            'Stage three, which the speaker calls careful.'),
-          ('The stage that causes almost all the complaints is the '
-           'writing of the', ['summary', 'article', 'headline',
-            'study'], 2,
-           'Stage five, by somebody who may not have read the study.'),
+          (
+           'The stage that causes almost all the complaints is the '
+           'writing of the',
+           ['summary', 'article', 'headline', 'study'], 2,
+           'Stage five, by somebody who may not have read the study.',
+           {0: 'The summaries he calls careful, and they give the '
+               'numbers.', 1: 'The article is stage four, written in about forty '
+               'minutes.', 3: 'The study itself is stage one, which gets the blame '
+               'instead.'}),
           ('His practical advice is to ask how many ____________ were in '
            'the study.', None, 'people',
            'And to treat silence on that point as an answer.')]),
@@ -442,10 +461,14 @@ UNIT = dict(
           ('The desk cut her heading at about ____________ at night.',
            None, 'eleven',
            'Which she says is what the desk does then.'),
-          ('The part she says she would change is that she knew the cut '
-           'would probably happen when she',
+          (
+           'The part she says she would change is that she knew the '
+           'cut would probably happen when she',
            ['wrote it', 'filed it', 'read it', 'checked it'], 1,
-           'Which she calls the honest position.'),
+           'Which she calls the honest position.',
+           {0: 'Writing it is where she put the number in the wrong '
+               'paragraph.', 2: 'Reading it afterwards is not when she says she knew.', 3: 'Checking each year since is a separate point she '
+               'makes.'}),
           ('She would now add a line saying what would have to happen for '
            'the result to be worth ____________ on.', None, 'acting',
            'In that case a trial a hundred times bigger.'),
@@ -641,21 +664,33 @@ UNIT = dict(
           'result that the published record contains more successes than '
           'the research actually produced.'],
          items=[
-          ('Which paragraph explains why a trial must name one outcome in '
-           'advance?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'With fifteen measurements one looks good by chance.'),
-          ('Which paragraph explains why chance rather than choice forms '
-           'the groups?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'Any human choice puts the healthier people in one group.'),
-          ('Which paragraph explains why the published record is '
+          (
+           'Which paragraph explains why a trial must name one outcome '
+           'in advance?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'With fifteen measurements one looks good by chance.',
+           {0: 'Paragraph 1 only says the order of the stages matters.', 2: 'Paragraph 3 is about recruitment and the size of the '
+               'trial.', 3: 'Paragraph 4 explains why chance rather than choice '
+               'forms the groups.'}),
+          (
+           'Which paragraph explains why chance rather than choice '
+           'forms the groups?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
+           'Any human choice puts the healthier people in one group.',
+           {0: 'Paragraph 2 explains why a trial must name one outcome '
+               'in advance.', 1: 'Paragraph 3 is about recruitment and the size of the '
+               'trial.', 3: 'Paragraph 5 covers blinding, measurement and the '
+               'write-up.'}),
+          (
+           'Which paragraph explains why the published record is '
            'misleading?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 3,
-           'Trials that found nothing are skipped selectively.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           3, 'Trials that found nothing are skipped selectively.',
+           {0: 'Paragraph 3 is about recruitment and the size of the '
+               'trial.', 1: 'Paragraph 4 explains why chance rather than choice '
+               'forms the groups.', 2: 'Paragraph 5 covers blinding, measurement and '
+               'comparison.'}),
           ('The size of the trial is fixed at the ____________ stage.',
            None, 'recruitment',
            'Paragraph 3, when volunteers are checked against the '
@@ -714,9 +749,13 @@ UNIT = dict(
           ('With fifteen measurements, he says, one comes out well by '
            '____________.', None, 'chance',
            'Which is why one outcome is named in advance.'),
-          ('The size of the trial is fixed at', ['the question',
-            'recruitment', 'measurement', 'write-up'], 1,
-           'Box two, and the calculation is done before.'),
+          ('The size of the trial is fixed at',
+           ['the question', 'recruitment', 'measurement', 'write-up'],
+           1, 'Box two, and the calculation is done before.',
+           {0: 'The question fixes the outcome, not the number of '
+               'people.', 2: 'Measurement comes long after the size has been '
+               'decided.', 3: 'The write-up is the last box, where the size is '
+               'reported.'}),
           ('He says any human choice quietly puts the ____________ people '
            'in the treatment group.', None, 'healthier',
            'Which is why a coin toss decides.'),
@@ -923,18 +962,23 @@ UNIT = dict(
           'comparison is not flattering to most of them.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['The hundred studies', 'Why dishonesty cannot explain it',
-            'The size of the studies', 'What was done afterwards'], 1,
-           'Invention is rare and cannot account for the figure.'),
+           ['The hundred studies', 'Why dishonesty cannot explain it', 'The size of the studies', 'What was done afterwards'],
+           1, 'Invention is rare and cannot account for the figure.',
+           {0: 'The hundred studies are paragraph 1, with the result.', 2: 'The size of the studies is paragraph 3, the main '
+               'explanation.', 3: 'What was done afterwards is paragraph 6, on the '
+               'journals.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Studies that found nothing',
-            'The most innocent explanation', 'Lodging the question',
-            'Trusting science'], 1,
-           'Reporting the measurement that reached significance.'),
+           ['Studies that found nothing', 'The most innocent explanation', 'Lodging the question', 'Trusting science'],
+           1, 'Reporting the measurement that reached significance.',
+           {0: 'Studies that found nothing are paragraph 4, the second '
+               'one.', 2: 'Lodging the question is paragraph 6, among the '
+               'changes.', 3: 'Trusting science is paragraph 7, the conclusion.'}),
           ('Choose the best heading for paragraph 6.',
-           ['The third explanation', 'What the journals changed',
-            'Why small studies fail', 'A filtered record'], 1,
-           'Lodging the question in advance, and the rate rising.'),
+           ['The third explanation', 'What the journals changed', 'Why small studies fail', 'A filtered record'],
+           1, 'Lodging the question in advance, and the rate rising.',
+           {0: 'The third explanation is paragraph 5, just before '
+               'this.', 2: 'Small studies are paragraph 3, the main explanation.', 3: 'The filtered record is paragraph 4, the second '
+               'explanation.'}),
           (
            'The writer believes the episode shows that science should '
            'be distrusted.', ['Yes', 'No', 'Not Given'], 1,
@@ -1006,10 +1050,13 @@ UNIT = dict(
           ('Of a hundred published findings, rather under ____________ '
            'came back.', None, 'forty',
            'When each was run again as closely as possible.'),
-          ('He sets aside cheating because there is not enough of it to '
-           'produce a failure rate of three in', ['two', 'four', 'five',
-            'ten'], 2,
-           'And it is usually caught eventually.'),
+          (
+           'He sets aside cheating because there is not enough of it '
+           'to produce a failure rate of three in',
+           ['two', 'four', 'five', 'ten'], 2,
+           'And it is usually caught eventually.',
+           {0: 'A higher failure rate than the one he reports.', 1: 'Not the proportion given for the hundred studies.', 3: 'Far too low for a figure of rather under forty in a '
+               'hundred.'}),
           ('A study of twenty people, he says, gives an answer that is '
            'substantially ____________.', None, 'luck',
            'Rather than a slightly weaker answer.'),
@@ -1190,20 +1237,25 @@ UNIT = dict(
           'is not the mark of a reliable literature; it is frequently the '
           'mark of a filtered one.'],
          items=[
-          ('Which paragraph explains why a small repeat may miss a real '
-           'effect?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'Forty participants and then thirty.'),
-          ('Which paragraph describes the standard defence of a '
+          (
+           'Which paragraph explains why a small repeat may miss a '
+           'real effect?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'Forty participants and then thirty.',
+           {0: 'Paragraph 1 states the error without the numbers.', 2: 'Paragraph 3 describes the standard defence of a '
+               'contradicted finding.', 3: 'Paragraph 4 gives the usable rule about patterns.'}),
+          (
+           'Which paragraph describes the standard defence of a '
            'contradicted finding?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'A different country, season or recruitment.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'A different country, season or recruitment.',
+           {0: 'Paragraph 2 explains why a small repeat may miss a '
+               'real effect.', 2: 'Paragraph 4 gives the rule rather than the defence.', 3: 'Paragraph 5 is about lodging every attempt in advance.'}),
           ('Which paragraph admits a cost of waiting for the pattern?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'A health authority that cannot wait five years.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2, 'A health authority that cannot wait five years.',
+           {0: 'Paragraph 4 gives the rule about patterns of attempts.', 1: 'Paragraph 5 explains why the changes in practice '
+               'matter.', 3: 'Paragraph 7 states the modest lesson instead.'}),
           (
            'The writer believes a failed repeat proves the first study '
            'was wrong.', ['Yes', 'No', 'Not Given'], 1,
@@ -1275,10 +1327,12 @@ UNIT = dict(
           ('The professor admits he has talked as though a single failed '
            'repeat ____________ something.', None, 'settled',
            'Which his own arguments do not allow.'),
-          ('The researcher says her defence was what she would have said '
-           'whatever had happened, which makes it',
+          (
+           'The researcher says her defence was what she would have '
+           'said whatever had happened, which makes it',
            ['untrue', 'worthless', 'unfair', 'unusual'], 1,
-           'As a defence, whatever its individual merits.'),
+           'As a defence, whatever its individual merits.',
+           {0: 'She says some of it was true, which is her point.', 2: 'Unfairness is not what she accuses herself of.', 3: 'She calls it the standard move, so it is not unusual.'}),
           ('They disagree about whether a disputed finding should stay in '
            'the ____________ until the pattern is clear.', None,
            'textbooks', 'Or come out and go back in if it survives.'),

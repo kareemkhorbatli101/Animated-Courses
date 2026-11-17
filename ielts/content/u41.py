@@ -71,17 +71,20 @@ UNIT = dict(
           'person.'],
          items=[
           ('Whether a response is considered at all depends on',
-           ['its length', 'arriving in time and identifying the proposal',
-            'the evidence it carries', 'the number of signatories'], 1,
-           'Paragraph 2, which separates admissibility from weight.'),
+           ['its length', 'arriving in time and identifying the proposal', 'the evidence it carries', 'the number of signatories'],
+           1, 'Paragraph 2, which separates admissibility from weight.',
+           {0: 'Length is not mentioned as a test of admissibility.', 2: 'Evidence affects the weight a response carries, not '
+               'admission.', 3: 'Paragraph 3 says the number objecting is immaterial.'}),
           ('Which of these is a material consideration?',
-           ['The identity of the applicant', 'Loss of daylight',
-            'The effect on property values', 'How many people object'], 1,
-           'Paragraph 3 lists the other three as immaterial.'),
+           ['The identity of the applicant', 'Loss of daylight', 'The effect on property values', 'How many people object'],
+           1, 'Paragraph 3 lists the other three as immaterial.',
+           {0: 'Paragraph 3 lists the applicant\u2019s identity as '
+               'immaterial.', 2: 'Paragraph 3 lists property values as immaterial.', 3: 'Paragraph 3 says the number of objectors is '
+               'immaterial.'}),
           ('A response raising only immaterial matters will be',
-           ['returned', 'recorded and given no weight', 'destroyed',
-            'counted as a vote'], 1,
-           'Paragraph 4, and the respondent is not normally told.'),
+           ['returned', 'recorded and given no weight', 'destroyed', 'counted as a vote'],
+           1, 'Paragraph 4, and the respondent is not normally told.',
+           {0: 'Nothing is returned; the response is kept on file.', 2: 'All responses are recorded and published.', 3: 'Paragraph 1 says a consultation is not a vote.'}),
           ('An assertion carries more weight when it is accompanied by '
            '____________.', None, 'evidence',
            'Paragraph 5, where the collision record is the example given.'),
@@ -237,23 +240,27 @@ UNIT = dict(
            'communication plan built the other way round.')],
          items=[
           ('The speaker says people cannot evaluate expertise because',
-           ['they are not interested', 'doing so requires the expert’s own '
-            'training', 'the information is hidden',
-            'experts disagree'], 1,
-           'So they use a proxy instead, consistent across countries.'),
+           ['they are not interested', 'doing so requires the expert\u2019s own training', 'the information is hidden', 'experts disagree'],
+           1,
+           'So they use a proxy instead, consistent across countries.',
+           {0: 'He does not accuse people of indifference.', 2: 'He says the difficulty is training, not secrecy.', 3: 'Expert disagreement is a separate problem.'}),
           ('The proxy people use is whether the speaker',
-           ['is famous', 'has visibly lost something by saying it',
-            'speaks simply', 'is quoted often'], 1,
+           ['is famous', 'has visibly lost something by saying it', 'speaks simply', 'is quoted often'],
+           1,
            'An adviser recommending what their employer sells is '
-           'discounted.'),
-          ('Moving a declaration of interest to the beginning raises trust '
-           'by about', ['five points', 'fifteen points', 'thirty points',
-            'no measurable amount'], 1,
-           'While at the end it reads as something you were caught at.'),
+           'discounted.',
+           {0: 'Fame is not the proxy his research identifies.', 2: 'Simplicity of speech is not what he measures.', 3: 'Frequency of quotation is not the proxy.'}),
+          (
+           'Moving a declaration of interest to the beginning raises '
+           'trust by about',
+           ['five points', 'fifteen points', 'thirty points', 'no measurable amount'],
+           1,
+           'While at the end it reads as something you were caught at.',
+           {0: 'Smaller than the gain he reports.', 2: 'Larger than the figure he gives.', 3: 'He reports a measurable gain of some size.'}),
           ('Trust in institutions and trust in individuals are',
-           ['both rising', 'both falling', 'moving in opposite directions',
-            'unchanged'], 2,
-           'With the gap widening in every year measured.')])],
+           ['both rising', 'both falling', 'moving in opposite directions', 'unchanged'],
+           2, 'With the gap widening in every year measured.',
+           {0: 'Only one of the two is rising.', 1: 'Only one of the two is falling.', 3: 'The gap has widened every year measured.'})])],
    speak=dict(
     part='Part 1', focus='Decisions that affect where you live',
     intro=('Two or three sentences each. At this level the examiner is '
@@ -405,16 +412,38 @@ UNIT = dict(
          items=[
           ('Which person judged by what the advice cost the adviser?',
            ['Teodora', 'Ignatius', 'Rosamund', 'Casimiro'], 0,
-           'The sale falling through cost the surveyor a repeat client.'),
-          ('Which person preferred direct experience to official warning?',
+           'The sale falling through cost the surveyor a repeat '
+           'client.',
+           {1: 'Ignatius preferred direct experience to official '
+               'warning.', 2: 'Rosamund was persuaded by being told what would not '
+               'work.', 3: 'Casimiro follows an individual because of a published '
+               'record.'}),
+          (
+           'Which person preferred direct experience to official '
+           'warning?',
            ['Teodora', 'Ignatius', 'Rosamund', 'Casimiro'], 1,
-           'His neighbour drives the hill road and the agency does not.'),
-          ('Which person was persuaded by being told what would not work?',
+           'His neighbour drives the hill road and the agency does '
+           'not.',
+           {0: 'Teodora judged by what the advice cost the adviser.', 2: 'Rosamund was persuaded by being told what would not '
+               'work.', 3: 'Casimiro follows an individual because of a published '
+               'record.'}),
+          (
+           'Which person was persuaded by being told what would not '
+           'work?',
            ['Teodora', 'Ignatius', 'Rosamund', 'Casimiro'], 2,
-           'After six specialists who all said the operation would help.'),
-          ('Which person follows an individual because of a published '
-           'record?', ['Teodora', 'Ignatius', 'Rosamund', 'Casimiro'], 3,
-           'Including the years that record shows going badly wrong.'),
+           'After six specialists who all said the operation would '
+           'help.',
+           {0: 'Teodora judged by what the advice cost the adviser.', 1: 'Ignatius preferred direct experience to official '
+               'warning.', 3: 'Casimiro follows an individual because of a published '
+               'record.'}),
+          (
+           'Which person follows an individual because of a published '
+           'record?',
+           ['Teodora', 'Ignatius', 'Rosamund', 'Casimiro'], 3,
+           'Including the years that record shows going badly wrong.',
+           {0: 'Teodora judged by what the advice cost the adviser.', 1: 'Ignatius preferred direct experience to official '
+               'warning.', 2: 'Rosamund was persuaded by being told what would not '
+               'work.'}),
           (
            'Teodora is confident the surveyor\u2019s judgement was correct.',
            ['Yes', 'No', 'Not Given'], 1,
@@ -477,30 +506,33 @@ UNIT = dict(
            'than less.')],
          items=[
           ('What does the press office want?',
-           ['A range', 'One number', 'No comment', 'A written release'], 1,
-           'Which Soraya has decided to provide.'),
-          ('Dmitri’s practical argument is that a range',
-           ['is easier to produce', 'protects your standing in future '
-            'arguments', 'is required by law', 'is shorter'], 1,
-           'Because an outturn inside the range does not make you wrong.'),
-          ('Soraya’s objection is that a range',
-           ['is dishonest', 'is reported as its midpoint',
-            'cannot be calculated', 'is too wide'], 1,
-           'Leaving them with the blame and without the number.'),
+           ['A range', 'One number', 'No comment', 'A written release'],
+           1, 'Which Soraya has decided to provide.',
+           {0: 'A range is what Dmitri argues for instead.', 2: 'Silence is not what the press office asks for.', 3: 'The written release is a later part of the agreement.'}),
+          ('Dmitri\u2019s practical argument is that a range',
+           ['is easier to produce', 'protects your standing in future arguments', 'is required by law', 'is shorter'],
+           1,
+           'Because an outturn inside the range does not make you '
+           'wrong.',
+           {0: 'Ease of production is not his argument.', 2: 'No legal requirement is mentioned.', 3: 'Brevity is the objection against him, not for.'}),
+          ('Soraya\u2019s objection is that a range',
+           ['is dishonest', 'is reported as its midpoint', 'cannot be calculated', 'is too wide'],
+           1, 'Leaving them with the blame and without the number.',
+           {0: 'She does not call a range dishonest.', 2: 'The range exists; her objection is to its reporting.', 3: 'Width is not the objection she raises.'}),
           ('What does Dmitri propose?',
-           ['A single number after all', 'A range plus what would have to '
-            'be true at each end', 'No forecast', 'A longer broadcast'], 1,
-           'So the number has a condition attached to it.'),
-          ('Soraya’s remaining objection concerns',
-           ['accuracy', 'the time the format allows', 'cost',
-            'her colleagues'], 1,
-           'Forty seconds of explanation against twenty available.'),
+           ['A single number after all', 'A range plus what would have to be true at each end', 'No forecast', 'A longer broadcast'],
+           1, 'So the number has a condition attached to it.',
+           {0: 'A single number is what he is arguing against.', 2: 'He does not propose withholding the forecast.', 3: 'Broadcast length is her objection, not his proposal.'}),
+          ('Soraya\u2019s remaining objection concerns',
+           ['accuracy', 'the time the format allows', 'cost', 'her colleagues'],
+           1, 'Forty seconds of explanation against twenty available.',
+           {0: 'She does not dispute the accuracy of the range.', 2: 'Cost is not raised by either adviser.', 3: 'Her colleagues are not the obstacle she names.'}),
           ('What do they agree about the written release?',
-           ['It should match the broadcast', 'It should carry the '
-            'conditions in full', 'It should be dropped',
-            'It should be shorter'], 1,
+           ['It should match the broadcast', 'It should carry the conditions in full', 'It should be dropped', 'It should be shorter'],
+           1,
            'Because specialist correspondents use it rather than the '
-           'broadcast.')])],
+           'broadcast.',
+           {0: 'They agree the two are different products.', 2: 'The release is what they agree to strengthen.', 3: 'They want the conditions in full, so not shorter.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Advice',
     longturn=[('The advice I want to talk about came from a structural '
@@ -712,18 +744,26 @@ UNIT = dict(
           'the proportion of outturns inside them, and only ever both.'],
          items=[
           ('Which paragraph gives the naive reading of the chart?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'The central line differs from the outturn in every year shown.'),
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
+           'The central line differs from the outturn in every year '
+           'shown.',
+           {0: 'Paragraph 1 describes the four lines on the chart.', 2: 'Paragraph 3 reads the record against the published '
+               'range.', 3: 'Paragraph 4 deals with the 2020 exception.'}),
           ('Which paragraph explains what a published range claims?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'That the outturn falls inside it about four years in five.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
+           'That the outturn falls inside it about four years in five.',
+           {0: 'Paragraph 3 reads the record against the published '
+               'range.', 1: 'Paragraph 4 deals with the 2020 exception.', 3: 'Paragraph 6 describes how the chart is usually '
+               'reported.'}),
           ('Which paragraph rejects the tempting response?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 2,
-           'A range from minus four to plus eight would survive and tell a '
-           'reader nothing.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           2,
+           'A range from minus four to plus eight would survive and '
+           'tell a reader nothing.',
+           {0: 'Paragraph 5 explains what a range claims.', 1: 'Paragraph 6 describes how the chart is usually '
+               'reported.', 3: 'Paragraph 4 deals with the 2020 exception.'}),
           ('In ____________ of the six years shown, the outturn fell inside '
            'the range.', None, 'five',
            'Paragraph 3: 2014, 2016, 2018, 2022 and 2023.'),
@@ -796,28 +836,35 @@ UNIT = dict(
            'survive contact with a headline.')],
          items=[
           ('The lecturer says the standard newspaper reading is',
-           ['inaccurate', 'accurate but answering a question nobody asked',
-            'deliberately unfair', 'statistically illiterate'], 1,
-           'Comparing the central line with the outturn year by year.'),
+           ['inaccurate', 'accurate but answering a question nobody asked', 'deliberately unfair', 'statistically illiterate'],
+           1,
+           'Comparing the central line with the outturn year by year.',
+           {0: 'He says the reading is accurate as far as it goes.', 2: 'He does not accuse the newspapers of unfairness.', 3: 'He calls the arithmetic correct, if misdirected.'}),
           ('The claim attached to a published range is a claim about',
            ['accuracy', 'frequency', 'causation', 'precision'], 1,
-           'That the outturn lands inside it about four years in five.'),
-          ('In how many of the six years did the outturn fall inside the '
-           'range?', ['Three', 'Four', 'Five', 'Six'], 2,
-           'Which the lecturer says is almost exactly what was advertised.'),
+           'That the outturn lands inside it about four years in five.',
+           {0: 'Accuracy is what the central line is judged on.', 2: 'Causation is not what a range claims.', 3: 'Precision is the width, not the claim.'}),
+          (
+           'In how many of the six years did the outturn fall inside '
+           'the range?', ['Three', 'Four', 'Five', 'Six'], 2,
+           'Which the lecturer says is almost exactly what was '
+           'advertised.',
+           {0: 'Fewer than the years he counts inside the range.', 1: 'One short of the number he gives.', 3: '2020 fell outside, so not all six.'}),
           ('About 2020 the lecturer says the usual explanation is',
-           ['false', 'true and not a defence', 'irrelevant',
-            'the right one'], 1,
-           'Because the range exists to contain the years nobody foresaw.'),
+           ['false', 'true and not a defence', 'irrelevant', 'the right one'],
+           1,
+           'Because the range exists to contain the years nobody '
+           'foresaw.',
+           {0: 'He says the explanation is true.', 2: 'He treats it as relevant and still insufficient.', 3: 'He says it is not a defence.'}),
           ('What does he criticise his own profession for?',
-           ['Publishing too often', 'Widening ranges after a failure',
-            'Refusing to publish ranges', 'Using the wrong models'], 1,
-           'Since a widened range cannot fail and cannot inform.'),
+           ['Publishing too often', 'Widening ranges after a failure', 'Refusing to publish ranges', 'Using the wrong models'],
+           1, 'Since a widened range cannot fail and cannot inform.',
+           {0: 'Frequency of publication is not his criticism.', 2: 'His profession does publish ranges, which he defends.', 3: 'Model choice is not what he criticises.'}),
           ('The rule he gives is to assess a record on',
-           ['accuracy alone', 'how often the outturn fell inside the range '
-            'and how wide it was', 'the central estimate',
-            'the longest run of successes'], 1,
-           'Because either number alone can be made to flatter.')])],
+           ['accuracy alone', 'how often the outturn fell inside the range and how wide it was', 'the central estimate', 'the longest run of successes'],
+           1, 'Because either number alone can be made to flatter.',
+           {0: 'He says accuracy alone can be made to flatter.', 2: 'The central estimate is what he says was never the '
+               'forecast.', 3: 'A run of successes is not the measure he gives.'})])],
    speak=dict(
     part='Part 3', focus='Communicating uncertainty',
     intro=('Five or six sentences at this level, with a concession '
@@ -1054,20 +1101,20 @@ UNIT = dict(
           'anybody who has not.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['The easy explanations', 'Different starting points',
-            'Why priors are not prejudices',
-            'Agreement about data, disagreement about meaning'], 1,
-           'Two researchers moved from where each of them started.'),
+           ['The easy explanations', 'Different starting points', 'Why priors are not prejudices', 'Agreement about data, disagreement about meaning'],
+           1, 'Two researchers moved from where each of them started.',
+           {0: 'The easy explanations are paragraph 1.', 2: 'Why priors are not prejudices is paragraph 3.', 3: 'Agreement about data is paragraph 4.'}),
           ('Choose the best heading for paragraph 6.',
-           ['Why "follow the evidence" fails',
-            'Requiring more evidence for surprising claims',
-            'The limits of consensus', 'A better question'], 1,
+           ['Why "follow the evidence" fails', 'Requiring more evidence for surprising claims', 'The limits of consensus', 'A better question'],
+           1,
            'Which the passage says is the correct procedure, within '
-           'limits.'),
+           'limits.',
+           {0: '"Follow the evidence" is paragraph 5.', 2: 'The limits of consensus are paragraph 7.', 3: 'The better question is paragraph 8.'}),
           ('Choose the best heading for paragraph 8.',
-           ['The limits of consensus', 'A better question to ask',
-            'Different starting points', 'The easy explanations'], 1,
-           'Asking what observation would move each disputant.'),
+           ['The limits of consensus', 'A better question to ask', 'Different starting points', 'The easy explanations'],
+           1, 'Asking what observation would move each disputant.',
+           {0: 'The limits of consensus are paragraph 7.', 2: 'Different starting points is the heading for paragraph '
+               '2.', 3: 'The easy explanations are paragraph 1.'}),
           (
            'The writer believes most expert disagreement is caused by '
            'corruption or incompetence.',
@@ -1145,32 +1192,37 @@ UNIT = dict(
            'answer.')],
          items=[
           ('The lecturer is interested in disagreements where',
-           ['one party is corrupt', 'competent honest people with adequate '
-            'data differ', 'the evidence is missing', 'the data is wrong'], 1,
-           'The large category the three usual explanations do not cover.'),
+           ['one party is corrupt', 'competent honest people with adequate data differ', 'the evidence is missing', 'the data is wrong'],
+           1,
+           'The large category the three usual explanations do not '
+           'cover.',
+           {0: 'Corruption is one of the three explanations he sets '
+               'aside.', 2: 'Missing evidence is another of the three he sets '
+               'aside.', 3: 'He stipulates that the data is adequate.'}),
           ('Priors are described as',
-           ['bias to be removed', 'the reason you consult a specialist',
-            'a statistical error', 'irrelevant to conclusions'], 1,
-           'Everything read, run and failed to replicate.'),
+           ['bias to be removed', 'the reason you consult a specialist', 'a statistical error', 'irrelevant to conclusions'],
+           1, 'Everything read, run and failed to replicate.',
+           {0: 'He says explicitly that they are not bias.', 2: 'He treats them as knowledge, not error.', 3: 'They determine how far a result moves a reader.'}),
           ('Somebody with no priors would be',
-           ['perfectly objective', 'swung by the last paper they read',
-            'unable to publish', 'the ideal adviser'], 1,
-           'Which the lecturer calls the absence of a field.'),
+           ['perfectly objective', 'swung by the last paper they read', 'unable to publish', 'the ideal adviser'],
+           1, 'Which the lecturer calls the absence of a field.',
+           {0: 'He says that is not open-mindedness.', 2: 'Publication is not what he says would be impossible.', 3: 'He calls such a person the absence of a field.'}),
           ('The two colleagues differ about',
-           ['the transmission estimate', 'how much behaviour offsets '
-            'restriction', 'the quality of the data', 'the definition of a '
-            'case'], 1,
-           'While accepting the same transmission estimate.'),
+           ['the transmission estimate', 'how much behaviour offsets restriction', 'the quality of the data', 'the definition of a case'],
+           1, 'While accepting the same transmission estimate.',
+           {0: 'They accept the same transmission estimate.', 2: 'Neither questions the quality of the data.', 3: 'Case definition is not what divides them.'}),
           ('"Follow the evidence" fails because evidence',
-           ['is usually wrong', 'does not come with a conclusion attached',
-            'arrives too late', 'is contested'], 1,
-           'It shifts the odds, by an amount depending on prior belief.'),
+           ['is usually wrong', 'does not come with a conclusion attached', 'arrives too late', 'is contested'],
+           1,
+           'It shifts the odds, by an amount depending on prior '
+           'belief.',
+           {0: 'He does not say the evidence is usually wrong.', 2: 'Timeliness is not his objection to the phrase.', 3: 'The evidence is agreed; the conclusions are not.'}),
           ('He advises asking each specialist',
-           ['for a consensus statement', 'what observation would change '
-            'their mind', 'for their funding sources',
-            'to publish their data'], 1,
-           'Because those who cannot answer are arguing about something '
-           'else.')])],
+           ['for a consensus statement', 'what observation would change their mind', 'for their funding sources', 'to publish their data'],
+           1,
+           'Because those who cannot answer are arguing about '
+           'something else.',
+           {0: 'He says a consensus statement will mislead.', 2: 'Funding sources are not what he tells you to ask.', 3: 'Publishing the data is not his recommendation.'})])],
    speak=dict(
     part='Part 3', focus='Disagreement among specialists',
     followup=[(('You say experts disagree legitimately. Should the public be '
@@ -1404,20 +1456,24 @@ UNIT = dict(
           'literature.'],
          items=[
           ('Which paragraph states the two premises being tested?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'A premise about trust and a premise about candour.'),
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'A premise about trust and a premise about candour.',
+           {0: 'Paragraph 1 describes what the studies cover.', 2: 'Paragraph 3 reports the result on trust.', 3: 'Paragraph 4 reports the change in advisory writing.'}),
           ('Which paragraph reports the change in advisory writing?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
-           'Longer papers, more qualifications, dissent moved to private '
-           'correspondence.'),
-          ('Which paragraph describes a correctly rejected option being '
-           'read as concealment?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1,
+           'Longer papers, more qualifications, dissent moved to '
+           'private correspondence.',
+           {0: 'Paragraph 3 reports the result on trust.', 2: 'Paragraph 5 describes the change in public argument.', 3: 'Paragraph 6 describes a correctly rejected option '
+               'being read as concealment.'}),
+          (
+           'Which paragraph describes a correctly rejected option '
+           'being read as concealment?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1,
            'The moment a possibility was raised and rejected for good '
-           'reasons.'),
+           'reasons.',
+           {0: 'Paragraph 5 describes the change in public argument.', 2: 'Paragraph 7 gives the honest summary.', 3: 'Paragraph 8 is about timing rather than extent.'}),
           ('The writer believes publication raised public trust.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 3: movements were indistinguishable from noise, '
@@ -1499,34 +1555,38 @@ UNIT = dict(
            'later.')],
          items=[
           ('What does the minister concede at the start?',
-           ['The advice was wrong', 'Publication did not damage the advice',
-            'She misled the public', 'The committee was right about '
-            'trust'], 1,
-           'A prediction she made and the papers did not support.'),
+           ['The advice was wrong', 'Publication did not damage the advice', 'She misled the public', 'The committee was right about trust'],
+           1, 'A prediction she made and the papers did not support.',
+           {0: 'She does not concede that the advice was wrong.', 2: 'She does not accuse herself of misleading anybody.', 3: 'Trust is where she says the committee was wrong.'}),
           ('What does the professor concede in return?',
-           ['The advice was poor', 'Publication did not build trust',
-            'The data was weak', 'Ministers should decide'], 1,
+           ['The advice was poor', 'Publication did not build trust', 'The data was weak', 'Ministers should decide'],
+           1,
            'Measured movement indistinguishable from nothing in nine '
-           'jurisdictions.'),
+           'jurisdictions.',
+           {0: 'The quality of the advice is what the minister '
+               'concedes.', 2: 'He accepts the papers rather than faulting the data.', 3: 'Who decides is not what he concedes here.'}),
           ('What did publication actually change?',
-           ['What was believed', 'What could be quoted',
-            'How advice was written', 'Who was consulted'], 1,
+           ['What was believed', 'What could be quoted', 'How advice was written', 'Who was consulted'],
+           1,
            'Critics could quote the record instead of disputing a '
-           'characterisation.'),
-          ('The minister’s specific complaint concerns',
-           ['the volume of criticism', 'rejected options read as suppressed '
-            'warnings', 'the cost of publication', 'delays'], 1,
-           'The ports example, quoted without the recorded reasons.'),
+           'characterisation.',
+           {0: 'Belief is what neither of them says moved.', 2: 'Writing changed, but is not the third thing he names.', 3: 'Membership of the committee is not discussed.'}),
+          ('The minister\u2019s specific complaint concerns',
+           ['the volume of criticism', 'rejected options read as suppressed warnings', 'the cost of publication', 'delays'],
+           1, 'The ports example, quoted without the recorded reasons.',
+           {0: 'She says it was not the criticism itself.', 2: 'Cost is not what she complains about.', 3: 'Delay is not part of her complaint.'}),
           ('Which remedy did the professor refuse?',
-           ['Publishing later', 'Ceasing to minute rejected options',
-            'Publishing summaries only', 'Anonymising advisers'], 1,
+           ['Publishing later', 'Ceasing to minute rejected options', 'Publishing summaries only', 'Anonymising advisers'],
+           1,
            'Because it destroys the record of whether anything was '
-           'considered.'),
+           'considered.',
+           {0: 'Publishing later is what he now favours.', 2: 'Summaries are what publication replaced.', 3: 'Anonymity is not proposed by either speaker.'}),
           ('What arrangement does the professor now favour?',
-           ['No publication', 'Publishing everything after the decision',
-            'Publishing summaries', 'Publishing only dissent'], 1,
-           'Which he defends as less bad than the alternatives rather than '
-           'as good.')])],
+           ['No publication', 'Publishing everything after the decision', 'Publishing summaries', 'Publishing only dissent'],
+           1,
+           'Which he defends as less bad than the alternatives rather '
+           'than as good.',
+           {0: 'He does not propose returning to no publication.', 2: 'Summaries are what the reform replaced.', 3: 'He wants everything published, not dissent alone.'})])],
    speak=dict(
     part='Part 3', focus='Openness and its effects',
     sounds=[('Uncertainty has a sound as well as a vocabulary, and the two '

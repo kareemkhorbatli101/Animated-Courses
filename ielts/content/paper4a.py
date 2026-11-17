@@ -239,18 +239,23 @@ PAPER = dict(
                'discount does not want the next country to know it was '
                'available.')],
        items=[
-        ('Which paragraph explains why the research cost cannot set the '
-         'price?',
-         ['Paragraph 2', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'], 1,
-         'Paragraph 3 introduces the idea of a sunk cost.'),
+        (
+         'Which paragraph explains why the research cost cannot set '
+         'the price?',
+         ['Paragraph 2', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'],
+         1, 'Paragraph 3 introduces the idea of a sunk cost.',
+         {3: 'Paragraph 7 identifies a case the method handles badly.'}),
         ('Which paragraph describes an unintended effect of publishing a '
          'threshold?',
          ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
          'Paragraph 6 reports the clustering of prices just below the '
          'line.'),
         ('Which paragraph identifies a case the method handles badly?',
-         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 2,
-         'Paragraph 7 deals with medicines for very rare conditions.'),
+         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+         2,
+         'Paragraph 7 deals with medicines for very rare conditions.',
+         {1: 'Paragraph 6 describes an unintended effect of publishing '
+             'a threshold.'}),
         ('Published estimates of the cost of a successful medicine vary '
          'because of which failures are ____________.',
          None, 'counted',
@@ -375,15 +380,22 @@ PAPER = dict(
                'precision is real, it was assembled by hand over four decades, '
                'and it continues to be revised by the same means.')],
        items=[
-        ('Which paragraph explains how sequences are joined to reach '
+        (
+         'Which paragraph explains how sequences are joined to reach '
          'further back?',
-         ['Paragraph 1', 'Paragraph 2', 'Paragraph 4', 'Paragraph 6'], 1,
+         ['Paragraph 1', 'Paragraph 2', 'Paragraph 4', 'Paragraph 6'],
+         1,
          'Paragraph 2 describes overlapping signatures from timbers of '
-         'different ages.'),
-        ('Which paragraph explains why a short offcut cannot be dated?',
-         ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
+         'different ages.',
+         {3: 'Paragraph 6 explains why a short offcut cannot be dated.'}),
+        (
+         'Which paragraph explains why a short offcut cannot be dated?',
+         ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+         2,
          'Paragraph 6 gives the minimum number of rings needed for a '
-         'match.'),
+         'match.',
+         {3: 'Paragraph 7 distinguishes the date of the wood from the '
+             'date of the event.'}),
         ('Which paragraph distinguishes the date of the wood from the date '
          'of the event?',
          ['Paragraph 4', 'Paragraph 5', 'Paragraph 7', 'Paragraph 8'], 2,

@@ -80,19 +80,20 @@ UNIT = dict(
           'unreasonably refused. Smoking is not permitted anywhere in '
           'the property, and this term cannot be varied.'],
          items=[
-          ('Who must give two months’ notice?',
-           ['the tenant', 'the landlord', 'both equally',
-            'neither'], 1,
-           'Paragraph 1: the tenant gives one month.'),
+          ('Who must give two months\u2019 notice?',
+           ['the tenant', 'the landlord', 'both equally', 'neither'], 1,
+           'Paragraph 1: the tenant gives one month.',
+           {0: 'The tenant gives one month, not two.', 2: 'The two notice periods are different, so not equal.', 3: 'Both sides must give notice, so neither is wrong.'}),
           ('Rent unpaid for ____________ days is treated as arrears.',
            None, 'fourteen',
            'Paragraph 2, after which interest applies.'),
           ('The deposit is equal to ____________ weeks’ rent.', None,
            'five', 'Paragraph 3, held by a government-backed scheme.'),
           ('Who is responsible for the smoke alarm batteries?',
-           ['the tenant', 'the landlord', 'the scheme',
-            'the agent'], 0,
-           'Paragraph 4, along with light bulbs and the garden.'),
+           ['the tenant', 'the landlord', 'the scheme', 'the agent'], 0,
+           'Paragraph 4, along with light bulbs and the garden.',
+           {1: 'The landlord covers the structure, roof, heating and '
+               'water.', 2: 'The scheme holds the deposit and nothing else.', 3: 'No agent is given any responsibility in the agreement.'}),
           ('How much written notice is required before an '
            'inspection?', None, 'twenty-four hours',
            'Paragraph 5, except in an emergency.'),
@@ -315,19 +316,29 @@ UNIT = dict(
           'have, because almost nothing like it has been built since, '
           'and that is a decision somebody made rather than weather.'],
          items=[
-          ('Which person compares two generations’ earnings?',
+          ('Which person compares two generations\u2019 earnings?',
            ['Desmond', 'Annika', 'Fabio', 'Marguerite'], 0,
-           'Three times his salary against eleven times his son’s.'),
-          ('Which person identifies instability rather than cost as '
+           'Three times his salary against eleven times his son\u2019s.',
+           {1: 'Annika compares moves and schools, not earnings.', 2: 'Fabio describes one purchase rather than two '
+               'generations.', 3: 'Marguerite compares what exists now with what was '
+               'built.'}),
+          (
+           'Which person identifies instability rather than cost as '
            'the harm?',
            ['Desmond', 'Annika', 'Fabio', 'Marguerite'], 1,
-           'Four moves in six years and three schools.'),
+           'Four moves in six years and three schools.',
+           {0: 'Desmond compares prices across two generations.', 2: 'Fabio is concerned with blame for a price.', 3: 'Marguerite is concerned with what is no longer built.'}),
           ('Which person rejects blame for a price?',
            ['Desmond', 'Annika', 'Fabio', 'Marguerite'], 2,
-           'He paid what was asked and did not set it.'),
+           'He paid what was asked and did not set it.',
+           {0: 'Desmond accepts that none of it is his son\u2019s fault.', 1: 'Annika blames nobody and describes the effect on her '
+               'family.', 3: 'Marguerite attributes the situation to a decision, not '
+               'to herself.'}),
           ('Which person says the situation results from a decision?',
            ['Desmond', 'Annika', 'Fabio', 'Marguerite'], 3,
-           'Almost nothing like her tenancy has been built since.'),
+           'Almost nothing like her tenancy has been built since.',
+           {0: 'Desmond describes a change in prices, not a decision.', 1: 'Annika describes landlords selling, which is not a '
+               'policy.', 2: 'Fabio describes paying an asking price.'}),
           ('Annika has moved because of rent increases.',
            ['True', 'False', 'Not Given'], 1,
            'She says each move happened because the landlord sold.',
@@ -567,18 +578,20 @@ UNIT = dict(
           'out.'],
          items=[
           ('Which paragraph names the two unchanged features?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 0,
-           'Brackwell Road and the railway line.'),
-          ('Which paragraph describes the building that did not '
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           0, 'Brackwell Road and the railway line.',
+           {1: 'Paragraph 2 describes the strip north of the road.', 2: 'Paragraph 3 describes the middle strip.', 3: 'Paragraph 4 describes the area to the south.'}),
+          (
+           'Which paragraph describes the building that did not '
            'change?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 0,
-           'The primary school, in the same position.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'The primary school, in the same position.',
+           {0: 'Paragraph 2 is where the terraces and shops were '
+               'replaced.', 2: 'Paragraph 4 is the allotments and the car park.', 3: 'Paragraph 5 summarises what replaced what.'}),
           ('Which paragraph mentions a new route across the site?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'The footpath running east to west.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'The footpath running east to west.',
+           {0: 'Paragraph 2 is about homes and businesses.', 1: 'Paragraph 3 is about the school and the works.', 3: 'Paragraph 5 counts the kinds of change.'}),
           ('The corner shops have been replaced by a '
            '____________.', None, 'supermarket',
            'Paragraph 2, on the same site.'),
@@ -631,7 +644,9 @@ UNIT = dict(
            'Of five storeys, on the same strip.'),
           ('The only surviving building in the middle strip is the',
            ['wash house', 'school', 'works', 'shop'], 1,
-           'In the same place and the same building.'),
+           'In the same place and the same building.',
+           {0: 'The wash house became the health centre.', 2: 'The engineering works became business units.', 3: 'The corner shops became a supermarket, north of the '
+               'road.'}),
           ('The engineering works is now a row of small '
            '____________.', None, 'business units',
            'At the eastern end of the middle strip.'),
@@ -827,21 +842,23 @@ UNIT = dict(
           'road.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['What a house is made of',
-            'The value created by permission', 'Why restriction exists',
-            'Owners and renters'], 1,
+           ['What a house is made of', 'The value created by permission', 'Why restriction exists', 'Owners and renters'],
+           1,
            'A field with permission sells for fifty to a hundred times '
-           'as much.'),
+           'as much.',
+           {0: 'What a house is made of is paragraph 1.', 2: 'Why the restriction exists is paragraph 3.', 3: 'Owners and renters are paragraph 4.'}),
           ('Choose the best heading for paragraph 4.',
-           ['Who pays for the benefit', 'Protecting farmland',
-            'The price of materials', 'An uncomfortable conclusion'], 0,
-           'The cost falls on people who are not in the room.'),
+           ['Who pays for the benefit', 'Protecting farmland', 'The price of materials', 'An uncomfortable conclusion'],
+           0, 'The cost falls on people who are not in the room.',
+           {1: 'Protecting farmland is one of the benefits in '
+               'paragraph 3.', 2: 'The price of materials is paragraph 1.', 3: 'The uncomfortable conclusion is paragraph 5.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Why building methods matter', 'The conclusion neither '
-            'side likes', 'How committees decide', 'The price of '
-            'land'], 1,
+           ['Why building methods matter', 'The conclusion neither side likes', 'How committees decide', 'The price of land'],
+           1,
            'Construction is nearly irrelevant, and the restriction is '
-           'popular.'),
+           'popular.',
+           {0: 'Paragraph 5 says building methods are nearly '
+               'irrelevant.', 2: 'How committees decide is mentioned in paragraph 2.', 3: 'The price of land is paragraph 2.'}),
           (
            'Building materials and labour account for about a quarter '
            'of the price in an expensive city.',
@@ -923,10 +940,12 @@ UNIT = dict(
            '____________ the rate of renters.', None, 'twice',
            'Which is why pressure runs one way.'),
           ('His conclusion is uncomfortable in',
-           ['one direction', 'both directions', 'no direction',
-            'three directions'], 1,
+           ['one direction', 'both directions', 'no direction', 'three directions'],
+           1,
            'For those blaming builders and for those demanding cheaper '
-           'housing.')])],
+           'housing.',
+           {0: 'He says both directions, not one.', 2: 'He states the conclusion as uncomfortable, not '
+               'comfortable.', 3: 'Three directions is more than he claims.'})])],
    speak=dict(
     part='Part 3', focus='Making housing affordable',
     intro=('Four sentences. Separate the cost of the building from the '
@@ -1095,21 +1114,25 @@ UNIT = dict(
           'aggregate and unrecognisable to the person living through it will '
           'be opposed by that person, and they will not be wrong to do it.'],
          items=[
-          ('Which paragraph explains the delay between permission and '
+          (
+           'Which paragraph explains the delay between permission and '
            'occupation?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'Three to eight years from decision to family.'),
-          ('Which paragraph explains why new homes appear at the '
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'Three to eight years from decision to family.',
+           {0: 'Paragraph 1 states the argument and its three gaps.', 2: 'Paragraph 3 is about where the building happens.', 3: 'Paragraph 4 is about who the homes are for.'}),
+          (
+           'Which paragraph explains why new homes appear at the '
            'edges?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Land available and permission obtainable.'),
-          ('Which paragraph describes what the best-performing cities '
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'Land available and permission obtainable.',
+           {0: 'Paragraph 2 is about timing.', 2: 'Paragraph 4 is about who the new homes serve first.', 3: 'Paragraph 5 is about doing two things at once.'}),
+          (
+           'Which paragraph describes what the best-performing cities '
            'did?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Private building and public building together.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'Private building and public building together.',
+           {0: 'Paragraph 3 is about the edges of cities.', 1: 'Paragraph 4 is about the chain of moves.', 3: 'Paragraph 6 gives the sentence about aggregates and '
+               'streets.'}),
           ('The writer believes building more homes is pointless.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 5 says this is not an argument against building.',
@@ -1191,7 +1214,9 @@ UNIT = dict(
            'Because the market serves the top first.'),
           ('He says he disagrees mainly about the',
            ['evidence', 'order', 'cost', 'timing'], 1,
-           'Permission first, because otherwise nobody can build.'),
+           'Permission first, because otherwise nobody can build.',
+           {0: 'He concedes the evidence rather than disputing it.', 2: 'Cost is not the point of difference he names.', 3: 'Timing is his own admitted weakness, not the '
+               'disagreement.'}),
           ('He has changed his mind about the ____________-level '
            'argument.', None, 'street',
            'Having previously dismissed objectors as selfish.'),

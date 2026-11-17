@@ -346,21 +346,37 @@ UNIT = dict(
           'the only thing that has ever reduced the complaints, and it '
           'took eleven years to get it into the guidance.'],
          items=[
-          ('Which person says the arithmetic does not feel like arithmetic '
-           'at the time?', ['Perpetua', 'Casimir', 'Thaddeus',
-            'Winifred'], 0,
-           'After two angry seasons and one justifying afternoon.'),
-          ('Which person ignores a longer forecast for reasons about cost '
-           'rather than accuracy?',
+          (
+           'Which person says the arithmetic does not feel like '
+           'arithmetic at the time?',
+           ['Perpetua', 'Casimir', 'Thaddeus', 'Winifred'], 0,
+           'After two angry seasons and one justifying afternoon.',
+           {1: 'Casimir ignores a longer forecast for reasons about '
+               'cost rather than accuracy.', 2: 'Thaddeus describes successes that cannot be observed.', 3: 'Winifred publishes the false alarm rate rather than '
+               'defending it.'}),
+          (
+           'Which person ignores a longer forecast for reasons about '
+           'cost rather than accuracy?',
            ['Perpetua', 'Casimir', 'Thaddeus', 'Winifred'], 1,
-           'Nothing cheap enough to be worth doing at that confidence.'),
+           'Nothing cheap enough to be worth doing at that confidence.',
+           {0: 'Perpetua says the arithmetic does not feel like '
+               'arithmetic at the time.', 2: 'Thaddeus describes successes that cannot be observed.', 3: 'Winifred publishes the false alarm rate rather than '
+               'defending it.'}),
           ('Which person describes successes that cannot be observed?',
            ['Perpetua', 'Casimir', 'Thaddeus', 'Winifred'], 2,
-           'Unable to point at the people who did not drown.'),
-          ('Which person publishes the false alarm rate rather than '
+           'Unable to point at the people who did not drown.',
+           {0: 'Perpetua says the arithmetic does not feel like '
+               'arithmetic at the time.', 1: 'Casimir ignores a longer forecast for reasons about '
+               'cost rather than accuracy.', 3: 'Winifred publishes the false alarm rate rather than '
+               'defending it.'}),
+          (
+           'Which person publishes the false alarm rate rather than '
            'defending it?',
            ['Perpetua', 'Casimir', 'Thaddeus', 'Winifred'], 3,
-           'Which took eleven years to get into the guidance.'),
+           'Which took eleven years to get into the guidance.',
+           {0: 'Perpetua says the arithmetic does not feel like '
+               'arithmetic at the time.', 1: 'Casimir ignores a longer forecast for reasons about '
+               'cost rather than accuracy.', 2: 'Thaddeus describes successes that cannot be observed.'}),
           ('Casimir believes the seven-day forecast is unreliable.',
            ['Yes', 'No', 'Not Given'], 1,
            'He says his reason is about the cost of acting, not about '
@@ -721,18 +737,19 @@ UNIT = dict(
           'which method at which range.'],
          items=[
           ('Which paragraph identifies the crossing as the finding?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'True for the first five days and false thereafter.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'True for the first five days and false thereafter.',
+           {3: 'Paragraph 6 explains what each method relies on.'}),
           ('Which paragraph explains what each method relies on?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
            'The current atmospheric state against large-scale '
-           'patterns.'),
+           'patterns.',
+           {1: 'Paragraph 5 identifies the crossing as the finding.', 3: 'Paragraph 7 warns about headline skill figures.'}),
           ('Which paragraph warns about headline skill figures?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 2,
-           'A figure is meaningless unless the lead time is stated.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           2, 'A figure is meaningless unless the lead time is stated.',
+           {0: 'Paragraph 5 identifies the crossing as the finding.', 1: 'Paragraph 6 explains what each method relies on.'}),
           ('Persistence scores ____________ at seventy-two hours.', None,
            '18', 'Paragraph 2, down from 86 at six hours.'),
           ('The numerical model reaches ____________ at a week.', None,
@@ -1425,12 +1442,15 @@ UNIT = dict(
             'Paragraph 5'], 1,
            'Events assigned thirty per cent occurring about thirty per '
            'cent of the time.'),
-          ('Which paragraph says the demand for a single answer is more '
-           'reasonable than forecasters acknowledge?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
-           'The asker is requesting a recommendation, not confused about '
-           'probability.'),
+          (
+           'Which paragraph says the demand for a single answer is '
+           'more reasonable than forecasters acknowledge?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1,
+           'The asker is requesting a recommendation, not confused '
+           'about probability.',
+           {3: 'Paragraph 8 describes the paired probability and '
+               'conditional recommendation.'}),
           ('Which paragraph describes the paired probability and '
            'conditional recommendation?',
            ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',

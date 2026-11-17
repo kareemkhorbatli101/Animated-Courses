@@ -60,14 +60,17 @@ UNIT = dict(
          items=[
           ('Which package can be cancelled at any time?',
            ['A', 'B', 'C', 'D'], 2,
-           'Paragraph 3: a rolling monthly basis with 30 days’ '
-           'notice.'),
+           'Paragraph 3: a rolling monthly basis with 30 days\u2019 notice.',
+           {0: 'Package A is a 24-month contract with a price rise.', 1: 'Package B runs for 18 months.', 3: 'Package D is a 24-month contract.'}),
           ('Which package has no price rise during the contract?',
            ['A', 'B', 'C', 'D'], 1,
-           'Paragraph 2, held for the whole 18 months.'),
+           'Paragraph 2, held for the whole 18 months.',
+           {0: 'Package A rises from \u00a324 to \u00a331 after 12 months.', 2: 'Package C is monthly, so there is no contract to hold '
+               'a price.', 3: 'Package D gives no undertaking about the price.'}),
           ('Which package includes an engineer visit for slow speed?',
            ['A', 'B', 'C', 'D'], 3,
-           'Paragraph 4, below 100 Mbps for more than a week.'),
+           'Paragraph 4, below 100 Mbps for more than a week.',
+           {0: 'Package A offers no engineer visit for slow speed.', 1: 'Package B offers no speed guarantee.', 2: 'Package C offers no engineer visit either.'}),
           ('Package A rises to £____________ a month after the first '
            'year.', None, '31',
            'Paragraph 1, from £24 for the first 12 months.'),
@@ -295,22 +298,35 @@ UNIT = dict(
           'recover from and I still use it, because the alternative is '
           'what I did before, which was worse.'],
          items=[
-          ('Which person had accounts broken into after a company lost '
+          (
+           'Which person had accounts broken into after a company lost '
            'data?',
            ['Casimir', 'Lucinde', 'Teodor', 'Yevgenia'], 0,
            'Four accounts in one evening, because the password was '
-           'repeated.'),
-          ('Which person argues about which threat actually applies to '
+           'repeated.',
+           {1: 'Lucinde describes her method and the threat she faces, '
+               'not a breach.', 2: 'Teodor acted after his brother lost an email account.', 3: 'Yevgenia had trouble with her own password manager.'}),
+          (
+           'Which person argues about which threat actually applies to '
            'them?',
            ['Casimir', 'Lucinde', 'Teodor', 'Yevgenia'], 1,
-           'Somebody in another country with a list, not a burglar.'),
-          ('Which person has had attempts blocked and knows about '
+           'Somebody in another country with a list, not a burglar.',
+           {0: 'Casimir describes what happened rather than which '
+               'threat applies.', 2: 'Teodor reports what his method has stopped.', 3: 'Yevgenia compares her tool with what she did before.'}),
+          (
+           'Which person has had attempts blocked and knows about '
            'them?',
            ['Casimir', 'Lucinde', 'Teodor', 'Yevgenia'], 2,
-           'Three attempts, each refused when the message arrived.'),
+           'Three attempts, each refused when the message arrived.',
+           {0: 'Casimir found out after four accounts had been '
+               'entered.', 1: 'Lucinde reports no attempts at all.', 3: 'Yevgenia reports losing access herself, not blocking '
+               'an attempt.'}),
           ('Which person had difficulty with the tool they chose?',
            ['Casimir', 'Lucinde', 'Teodor', 'Yevgenia'], 3,
-           'Forgetting the one password that opens the manager.'),
+           'Forgetting the one password that opens the manager.',
+           {0: 'Casimir had no tool; he repeated one password.', 1: 'Lucinde uses a notebook and reports no difficulty with '
+               'it.', 2: 'Teodor calls his method slightly annoying, not a '
+               'difficulty.'}),
           ('Casimir says his password was weak.',
            ['True', 'False', 'Not Given'], 1,
            'He says it was not weak but repeated.',
@@ -553,19 +569,24 @@ UNIT = dict(
           'disappear without anything being completed.'],
          items=[
           ('Which paragraph points out that much screen time is work?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 2,
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           2,
            'The computer at work is the largest figure for the older '
-           'group.'),
+           'group.',
+           {0: 'Paragraph 1 gives the totals for the two groups.', 1: 'Paragraph 2 compares phones with television.', 3: 'Paragraph 4 is about duration and attention.'}),
           ('Which paragraph says the figures measure the wrong thing?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'Duration rather than attention.'),
-          ('Which paragraph explains the real cost of an '
-           'interruption?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 3,
-           'The time taken to return to the task.'),
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'Duration rather than attention.',
+           {0: 'Paragraph 2 reports the two differences usually '
+               'quoted.', 1: 'Paragraph 3 identifies work as a large part of the '
+               'total.', 3: 'Paragraph 5 is about interruption rather than '
+               'measurement.'}),
+          (
+           'Which paragraph explains the real cost of an interruption?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           3, 'The time taken to return to the task.',
+           {0: 'Paragraph 2 compares the two age groups.', 1: 'Paragraph 3 identifies work as a large part of the '
+               'total.', 2: 'Paragraph 4 is about duration rather than attention.'}),
           ('The two groups’ totals are about ten hours and '
            '____________ hours.', None, 'nine',
            'Paragraph 1, which is where the similarity ends.'),
@@ -625,7 +646,8 @@ UNIT = dict(
            'Measured over a fortnight of trying it.'),
           ('Leaving the phone in another room reduced them to',
            ['fifty-one', 'thirty-three', 'twenty-two', 'eleven'], 2,
-           'Down from ninety-four when it was on the desk.'),
+           'Down from ninety-four when it was on the desk.',
+           {0: 'Fifty-one is not a figure given in the conversation.', 1: 'Thirty-three is not one of the counts mentioned.', 3: 'Eleven is lower than any figure he reports.'}),
           ('He says the ____________ does what willpower does not.',
            None, 'distance',
            'Which he admits is slightly embarrassing.')])],
@@ -812,20 +834,19 @@ UNIT = dict(
           'better on some questions than on others.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['The first rule and its weakness',
-            'Using evidence from outside', 'Refining the measure',
-            'Standing in for quality'], 0,
-           'Counting the search word, and repeating it to win.'),
+           ['The first rule and its weakness', 'Using evidence from outside', 'Refining the measure', 'Standing in for quality'],
+           0, 'Counting the search word, and repeating it to win.',
+           {1: 'Using evidence from outside the page is paragraph 3.', 2: 'Refining the measure is paragraph 4.', 3: 'Standing in for quality is paragraph 5.'}),
           ('Choose the best heading for paragraph 4.',
-           ['Judgements by other people', 'An industry in links',
-            'What cannot be measured', 'The earliest engines'], 1,
+           ['Judgements by other people', 'An industry in links', 'What cannot be measured', 'The earliest engines'],
+           1,
            'Each refinement answering an attempt to exploit the last '
-           'rule.'),
+           'rule.',
+           {0: 'Judgements by other people are paragraph 3.', 2: 'What cannot be measured is paragraph 5.', 3: 'The earliest engines are paragraph 2.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Measuring what stands in for quality',
-            'Why links are hard to fake', 'Clicks and returns',
-            'The design nobody notices'], 0,
-           'Nobody can write a rule for accuracy.'),
+           ['Measuring what stands in for quality', 'Why links are hard to fake', 'Clicks and returns', 'The design nobody notices'],
+           0, 'Nobody can write a rule for accuracy.',
+           {1: 'Why links are hard to fake is paragraph 3.', 2: 'Clicks and returns are examples inside paragraph 5.', 3: 'The design nobody notices is paragraph 1.'}),
           (
            'The earliest ranking method counted how often a word '
            'appeared.', ['True', 'False', 'Not Given'], 0,
@@ -900,7 +921,9 @@ UNIT = dict(
            'control', 'Evidence from outside the page.'),
           ('He says each refinement is an answer to the last',
            ['measure', 'attack', 'ranking', 'result'], 1,
-           'Which is why the systems become complicated.'),
+           'Which is why the systems become complicated.',
+           {0: 'The measure is what gets refined, not what is '
+               'answered.', 2: 'The ranking is the output rather than the attack.', 3: 'A result is what the user sees, not what is answered.'}),
           ('When a measure becomes a ____________, it stops being a '
            'good measure.', None, 'target',
            'The law he wants the audience to remember.')])],
@@ -1064,23 +1087,31 @@ UNIT = dict(
           'worth is available in every argument of this kind, and it is '
           'almost never made by either side.'],
          items=[
-          ('Which paragraph explains why the system works well '
+          (
+           'Which paragraph explains why the system works well '
            'unnoticed?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
            'Library hours and spelling, where nobody gains from a '
-           'wrong answer.'),
-          ('Which paragraph describes a failure that needs no bad '
+           'wrong answer.',
+           {0: 'Paragraph 1 states the general question about proxies.', 2: 'Paragraph 3 is where somebody has an interest in the '
+               'answer.', 3: 'Paragraph 4 is the failure that needs no bad '
+               'intention.'}),
+          (
+           'Which paragraph describes a failure that needs no bad '
            'intention?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'Popularity measuring a common misconception accurately.'),
-          ('Which paragraph states the distinction the writer '
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'Popularity measuring a common misconception accurately.',
+           {0: 'Paragraph 2 is where the system works well.', 1: 'Paragraph 3 involves a party that gains, which is '
+               'intention.', 3: 'Paragraph 5 is about transparency.'}),
+          (
+           'Which paragraph states the distinction the writer '
            'recommends?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 3,
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           3,
            'What is measured should be public; the weightings need '
-           'not.'),
+           'not.',
+           {0: 'Paragraph 3 is about interested parties.', 1: 'Paragraph 4 is about popularity and misconception.', 2: 'Paragraph 5 gives the argument against transparency.'}),
           (
            'The writer believes ranking systems fail on most '
            'questions.', ['Yes', 'No', 'Not Given'], 1,
@@ -1160,9 +1191,11 @@ UNIT = dict(
            '____________.', None, 'counted',
            'And what is deliberately not counted.'),
           ('She admits she had heard that as a request for the',
-           ['weightings', 'source code', 'test results', 'user '
-            'data'], 1,
-           'Which she agrees is a different request.'),
+           ['weightings', 'source code', 'test results', 'user data'],
+           1, 'Which she agrees is a different request.',
+           {0: 'The weightings are what she says need not be '
+               'published.', 2: 'Test results are how people game the system now.', 3: 'User data is not part of the request either speaker '
+               'makes.'}),
           ('She says the list would reveal a set of ____________ '
            'judgements.', None, 'value',
            'Made by about forty people in one building.'),

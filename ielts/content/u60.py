@@ -366,21 +366,42 @@ UNIT = dict(
           'paragraphs on demand and nothing else, and that is what the '
           'test sampled and what it reported.'],
          items=[
-          ('Which candidate tested their improvement outside the exam '
-           'format?', ['Benedetta', 'Oluwaseun', 'Thandeka',
-            'Rhodri'], 0,
-           'On a train, with somebody patient.'),
-          ('Which candidate improved in a section they had not worked '
-           'on?', ['Benedetta', 'Oluwaseun', 'Thandeka', 'Rhodri'], 1,
-           'Speaking rose without being practised.'),
-          ('Which candidate says format practice is worth about half a '
-           'band?', ['Benedetta', 'Oluwaseun', 'Thandeka',
-            'Rhodri'], 2,
-           'By removing the penalty for not knowing the format.'),
-          ('Which candidate says the test reported accurately what he had '
-           'been taught?',
+          (
+           'Which candidate tested their improvement outside the exam '
+           'format?',
+           ['Benedetta', 'Oluwaseun', 'Thandeka', 'Rhodri'], 0,
+           'On a train, with somebody patient.',
+           {1: 'Oluwaseun improved in a section they had not worked '
+               'on.', 2: 'Thandeka says format practice is worth about half a '
+               'band.', 3: 'Rhodri says the test reported accurately what he had '
+               'been taught.'}),
+          (
+           'Which candidate improved in a section they had not worked '
+           'on?',
+           ['Benedetta', 'Oluwaseun', 'Thandeka', 'Rhodri'], 1,
+           'Speaking rose without being practised.',
+           {0: 'Benedetta tested their improvement outside the exam '
+               'format.', 2: 'Thandeka says format practice is worth about half a '
+               'band.', 3: 'Rhodri says the test reported accurately what he had '
+               'been taught.'}),
+          (
+           'Which candidate says format practice is worth about half a '
+           'band?',
+           ['Benedetta', 'Oluwaseun', 'Thandeka', 'Rhodri'], 2,
+           'By removing the penalty for not knowing the format.',
+           {0: 'Benedetta tested their improvement outside the exam '
+               'format.', 1: 'Oluwaseun improved in a section they had not worked '
+               'on.', 3: 'Rhodri says the test reported accurately what he had '
+               'been taught.'}),
+          (
+           'Which candidate says the test reported accurately what he '
+           'had been taught?',
            ['Benedetta', 'Oluwaseun', 'Thandeka', 'Rhodri'], 3,
-           'Four paragraphs on demand and nothing else.'),
+           'Four paragraphs on demand and nothing else.',
+           {0: 'Benedetta tested their improvement outside the exam '
+               'format.', 1: 'Oluwaseun improved in a section they had not worked '
+               'on.', 2: 'Thandeka says format practice is worth about half a '
+               'band.'}),
           ('Benedetta believes her practice was worthless.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says it raised her speed at a particular kind of '
@@ -735,16 +756,20 @@ UNIT = dict(
           ('Candidate A’s four sections average ____________ before '
            'rounding.', None, '7.25',
            'Paragraph 2: 8.0, 8.5, 5.5 and 7.0.'),
-          ('Which paragraph identifies the only candidate whose band '
+          (
+           'Which paragraph identifies the only candidate whose band '
            'describes every section?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Candidate E, at 7.0 in all four.'),
-          ('Which paragraph gives the gap between overall band and lowest '
-           'section for each candidate?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
-           '2.0, 1.5, 1.0, 0.5 and nothing.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2, 'Candidate E, at 7.0 in all four.',
+           {3: 'Paragraph 6 gives the gap between overall band and '
+               'lowest section for each candidate.'}),
+          (
+           'Which paragraph gives the gap between overall band and '
+           'lowest section for each candidate?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1, '2.0, 1.5, 1.0, 0.5 and nothing.',
+           {0: 'Paragraph 5 identifies the only candidate whose band '
+               'describes every section.'}),
           ('Candidate D’s weakest section is ____________.', None,
            'speaking',
            'At 5.5, against 9.0 in listening.'),

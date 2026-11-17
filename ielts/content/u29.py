@@ -61,16 +61,21 @@ UNIT = dict(
           'coverage rather than a single programme.'],
          items=[
           ('A complaint to the regulator must be made within',
-           ['ten working days', 'twenty working days', 'three months',
-            'a year'], 1,
-           'Paragraph 2, counted from the broadcaster’s reply.'),
+           ['ten working days', 'twenty working days', 'three months', 'a year'],
+           1, 'Paragraph 2, counted from the broadcaster\u2019s reply.',
+           {0: 'Shorter than the window paragraph 2 allows.', 2: 'Longer than the twenty working days given.', 3: 'Far longer than the deadline in paragraph 2.'}),
           ('Which of these will the regulator NOT consider?',
-           ['Accuracy', 'Privacy', 'Whether a presenter is likeable',
-            'Fairness to a person featured'], 2,
-           'Paragraph 3 lists this among matters for the broadcaster.'),
+           ['Accuracy', 'Privacy', 'Whether a presenter is likeable', 'Fairness to a person featured'],
+           2,
+           'Paragraph 3 lists this among matters for the broadcaster.',
+           {0: 'Accuracy is one of the rules the regulator applies.', 1: 'Privacy is among the rules most often engaged.', 3: 'Fairness to a person featured is a rule it considers.'}),
           ('Most upheld complaints concern',
            ['impartiality', 'accuracy', 'privacy', 'fairness'], 1,
-           'Paragraph 5, because accuracy can be established.'),
+           'Paragraph 5, because accuracy can be established.',
+           {0: 'Impartiality has to be judged across a period of '
+               'coverage.', 2: 'Privacy is among the rules but not the commonest '
+               'finding.', 3: 'Fairness is a rule, but accuracy supplies most upheld '
+               'cases.'}),
           ('Broadcasters must reply within ____________ working days.',
            None, 'twenty',
            'Paragraph 1, where about half of complaints are resolved.'),
@@ -102,18 +107,27 @@ UNIT = dict(
          items=[
           ('Under which rule does a prompt correction matter?',
            ['Accuracy', 'Impartiality', 'Fairness', 'Privacy'], 0,
-           'A corrected error is not normally treated as a breach.'),
-          ('Which rule is assessed across a period rather than one '
-           'programme?', ['Accuracy', 'Impartiality', 'Fairness',
-            'Privacy'], 1,
-           'Which the notice says complainants find hardest to accept.'),
+           'A corrected error is not normally treated as a breach.',
+           {1: 'Impartiality is assessed across a period rather than '
+               'one programme.', 2: 'Fairness gives a right to respond to criticism.', 3: 'Privacy turns on whether an infringement is warranted.'}),
+          (
+           'Which rule is assessed across a period rather than one '
+           'programme?',
+           ['Accuracy', 'Impartiality', 'Fairness', 'Privacy'], 1,
+           'Which the notice says complainants find hardest to accept.',
+           {0: 'Accuracy turns on a single report and its correction.', 2: 'Fairness gives a right to respond to criticism.', 3: 'Privacy is judged on the particular infringement.'}),
           ('Which rule gives a right to respond to criticism?',
            ['Accuracy', 'Impartiality', 'Fairness', 'Privacy'], 2,
-           'An appropriate and timely opportunity to respond.'),
-          ('Under which rule is the public interest weighed against the '
-           'intrusion?', ['Accuracy', 'Impartiality', 'Fairness',
-            'Privacy'], 3,
-           'Any infringement must be warranted.')])],
+           'An appropriate and timely opportunity to respond.',
+           {0: 'Accuracy decides whether the criticism is true.', 1: 'Impartiality is assessed across a period rather than '
+               'one programme.', 3: 'Privacy concerns intrusion, not the right of reply.'}),
+          (
+           'Under which rule is the public interest weighed against '
+           'the intrusion?',
+           ['Accuracy', 'Impartiality', 'Fairness', 'Privacy'], 3,
+           'Any infringement must be warranted.',
+           {0: 'Accuracy concerns reporting, not intrusion.', 1: 'Impartiality is assessed across a period rather than '
+               'one programme.', 2: 'Fairness gives a right to respond to criticism.'})])],
    listen=[
     dict(heading='Making a complaint', part='Part 1',
          task='A call to a broadcasting regulator', band='l1',
@@ -200,22 +214,27 @@ UNIT = dict(
            'of that is about accuracy, and all of it determines whether your '
            'accuracy is believed.')],
          items=[
-          ('The speaker says people decide what to believe by assessing',
-           ['accuracy', 'whether a source admits being wrong',
-            'how famous a source is', 'how often they see it'], 1,
-           'Along with whether it treats them as a fool.'),
+          (
+           'The speaker says people decide what to believe by '
+           'assessing',
+           ['accuracy', 'whether a source admits being wrong', 'how famous a source is', 'how often they see it'],
+           1, 'Along with whether it treats them as a fool.',
+           {0: 'He says almost nobody can assess accuracy.', 2: 'Fame is not what his surveys find people assess.', 3: 'Frequency of exposure is not among his findings.'}),
           ('Outlets publishing prominent corrections score',
-           ['five points higher', 'twenty points higher', 'the same',
-            'lower'], 1,
-           'Even among readers who disagree with their politics.'),
+           ['five points higher', 'twenty points higher', 'the same', 'lower'],
+           1, 'Even among readers who disagree with their politics.',
+           {0: 'Smaller than the difference he reports.', 2: 'He reports a clear gap, not equality.', 3: 'Prominent corrections raise trust rather than lowering '
+               'it.'}),
           ('What happens when a presenter over-explains?',
-           ['Viewers switch off', 'Viewers discount the rest of the '
-            'programme', 'Trust recovers later', 'Nothing measurable'], 1,
-           'And it does not recover within the broadcast.'),
+           ['Viewers switch off', 'Viewers discount the rest of the programme', 'Trust recovers later', 'Nothing measurable'],
+           1, 'And it does not recover within the broadcast.',
+           {0: 'Switching off is not what the figures show.', 2: 'He says it does not recover within the broadcast.', 3: 'The effect is visible second by second in the figures.'}),
           ('Which finding does the speaker dislike?',
-           ['Corrections help', 'Trust in individuals exceeds trust in '
-            'institutions', 'Tone matters', 'Trust is falling'], 1,
-           'And no institutional reputation closes the gap.')])],
+           ['Corrections help', 'Trust in individuals exceeds trust in institutions', 'Tone matters', 'Trust is falling'],
+           1, 'And no institutional reputation closes the gap.',
+           {0: 'The correction finding is the one he calls '
+               'extraordinary.', 2: 'Tone is a finding he accepts without complaint.', 3: 'He reports trust moving between kinds of source, not '
+               'falling.'})])],
    speak=dict(
     part='Part 1', focus='News you follow',
     intro=('Two or three sentences each. Naming an actual source is better '
@@ -356,19 +375,26 @@ UNIT = dict(
           'always slightly behind, and I have decided that is a price worth '
           'paying.'],
          items=[
-          ('Which person uses discomfort as a test of trustworthiness?',
+          (
+           'Which person uses discomfort as a test of trustworthiness?',
            ['Severine', 'Dermot', 'Winnifred', 'Abimbola'], 0,
-           'An outlet that has never cost her a comfortable belief is not '
-           'reporting.'),
-          ('Which person follows individuals rather than publications?',
+           'An outlet that has never cost her a comfortable belief is '
+           'not reporting.',
+           {1: 'Dermot follows individuals rather than publications.', 2: 'Winnifred judges by how corrections are published.', 3: 'Abimbola has decided to suspend judgement.'}),
+          (
+           'Which person follows individuals rather than publications?',
            ['Severine', 'Dermot', 'Winnifred', 'Abimbola'], 1,
-           'He cancelled a nine-year subscription when a journalist moved.'),
+           'He cancelled a nine-year subscription when a journalist '
+           'moved.',
+           {0: 'Severine uses discomfort as a test of trustworthiness.', 2: 'Winnifred judges by how corrections are published.', 3: 'Abimbola has decided to suspend judgement.'}),
           ('Which person judges by how corrections are published?',
            ['Severine', 'Dermot', 'Winnifred', 'Abimbola'], 2,
-           'At the foot of the original article.'),
+           'At the foot of the original article.',
+           {0: 'Severine uses discomfort as a test of trustworthiness.', 1: 'Dermot follows individuals rather than publications.', 3: 'Abimbola has decided to suspend judgement.'}),
           ('Which person has decided to suspend judgement?',
            ['Severine', 'Dermot', 'Winnifred', 'Abimbola'], 3,
-           'Holding things loosely and waiting a week.'),
+           'Holding things loosely and waiting a week.',
+           {0: 'Severine uses discomfort as a test of trustworthiness.', 1: 'Dermot follows individuals rather than publications.', 2: 'Winnifred judges by how corrections are published.'}),
           ('Winnifred believes a trustworthy outlet makes no errors.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says explicitly that nobody is free of errors.',
@@ -423,30 +449,30 @@ UNIT = dict(
            'week.')],
          items=[
           ('Fiadh objects to equal time because',
-           ['it is too long', 'it states that two positions are equally '
-            'supported', 'the researcher is better', 'the guidance is '
-            'old'], 1,
+           ['it is too long', 'it states that two positions are equally supported', 'the researcher is better', 'the guidance is old'],
+           1,
            'A statement the newsroom would be making with its running '
-           'order.'),
-          ('Osvaldo’s strongest argument is',
-           ['the guidance requires it', 'the newsroom cannot be trusted to '
-            'decide what is settled', 'viewers prefer it',
-            'it is cheaper'], 1,
-           'A finding treated as settled was withdrawn in June.'),
+           'order.',
+           {0: 'Length is not her objection to equal time.', 2: 'She does not argue from who is the better speaker.', 3: 'She quotes the guidance herself, on the word due.'}),
+          ('Osvaldo\u2019s strongest argument is',
+           ['the guidance requires it', 'the newsroom cannot be trusted to decide what is settled', 'viewers prefer it', 'it is cheaper'],
+           1, 'A finding treated as settled was withdrawn in June.',
+           {0: 'The guidance is what she reinterprets against him.', 2: 'Viewer preference is not his argument.', 3: 'Cost is not raised by either editor.'}),
           ('What does Fiadh propose instead?',
-           ['Two and two', 'Four minutes to the researcher',
-            'Three minutes plus one describing the weight of evidence',
-            'Dropping the story'], 2,
+           ['Two and two', 'Four minutes to the researcher', 'Three minutes plus one describing the weight of evidence', 'Dropping the story'],
+           2,
            'Twelve studies against two that are smaller and funded '
-           'differently.'),
+           'differently.',
+           {0: 'Two and two is his position, not hers.', 1: 'Four minutes was her opening position.', 3: 'Neither editor suggests dropping the story.'}),
           ('What does she say this gives the viewer?',
-           ['A shorter item', 'The weight of the evidence rather than the '
-            'number of speakers', 'More voices', 'A clearer presenter'], 1,
-           'Which neither of their formats does.'),
+           ['A shorter item', 'The weight of the evidence rather than the number of speakers', 'More voices', 'A clearer presenter'],
+           1, 'Which neither of their formats does.',
+           {0: 'Her proposal is more work, not shorter.', 2: 'More voices is the two-and-two format.', 3: 'Presentation is not what her proposal changes.'}),
           ('What condition does Osvaldo attach?',
-           ['A longer item', 'That somebody is given time to read the '
-            'studies', 'A second presenter', 'A written apology'], 1,
-           'And not the producer at nine on the morning of broadcast.')])],
+           ['A longer item', 'That somebody is given time to read the studies', 'A second presenter', 'A written apology'],
+           1,
+           'And not the producer at nine on the morning of broadcast.',
+           {0: 'The item length is already settled at four minutes.', 2: 'No second presenter is proposed.', 3: 'No apology is involved in the exchange.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Trust',
     longturn=[('The source I want to describe is the statistics office of my '
@@ -629,18 +655,23 @@ UNIT = dict(
           'second, which is a reasonable description of the last fifteen '
           'years.'],
          items=[
-          ('Which paragraph explains what the two heavily shared categories '
-           'have in common?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'The headline contains the whole of the claim.'),
+          (
+           'Which paragraph explains what the two heavily shared '
+           'categories have in common?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1, 'The headline contains the whole of the claim.',
+           {0: 'Paragraph 2 gives the four sets of figures.', 2: 'Paragraph 4 expresses the contrast as ratios.', 3: 'Paragraph 5 gives the two cautions.'}),
           ('Which paragraph gives the two cautions?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Inference from scrolling, and variation between outlets.'),
-          ('Which paragraph states the consequence for news producers?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 2'], 2,
-           'Paid for the first pair and judged by the second.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
+           'Inference from scrolling, and variation between outlets.',
+           {0: 'Paragraph 3 explains what the two heavily shared '
+               'categories have in common.', 1: 'Paragraph 4 expresses the contrast as ratios.', 3: 'Paragraph 6 states the consequence for news producers.'}),
+          (
+           'Which paragraph states the consequence for news producers?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 2'],
+           2, 'Paid for the first pair and judged by the second.',
+           {0: 'Paragraph 4 expresses the contrast as ratios.', 1: 'Paragraph 5 gives the two cautions.', 3: 'Paragraph 2 gives the four sets of figures.'}),
           ('Scandal: shared by ____________ per thousand', None, '91',
            'Paragraph 2, against 14 who read it to the end.'),
           ('Local news: read to the end by ____________ per thousand',
@@ -695,31 +726,36 @@ UNIT = dict(
            'on by Monday.')],
          items=[
           ('The researcher advises',
-           ['ranking the four categories', 'grouping them into two pairs',
-            'ignoring two of them', 'collecting more data'], 1,
-           'Because two behave alike and two are their mirror image.'),
+           ['ranking the four categories', 'grouping them into two pairs', 'ignoring two of them', 'collecting more data'],
+           1,
+           'Because two behave alike and two are their mirror image.',
+           {0: 'He asks you to resist the instinct to rank them.', 2: 'All four are used, in two pairs.', 3: 'More data is not what he asks for.'}),
           ('Research findings are read to the end by',
-           ['12 per thousand', '46 per thousand', '52 per thousand',
-            '91 per thousand'], 1,
-           'Against twelve per thousand who share them.'),
+           ['12 per thousand', '46 per thousand', '52 per thousand', '91 per thousand'],
+           1, 'Against twelve per thousand who share them.',
+           {0: 'Twelve per thousand is how many share them.', 2: 'Fifty-two is the local news figure.', 3: 'Ninety-one is the scandal sharing figure.'}),
           ('The explanation lies in',
-           ['the reader', 'the headline', 'the platform', 'the time of '
-            'day'], 1,
-           'Because for some stories the headline is the whole content.'),
+           ['the reader', 'the headline', 'the platform', 'the time of day'],
+           1,
+           'Because for some stories the headline is the whole '
+           'content.',
+           {0: 'He says the explanation is not in the reader.', 2: 'The platform is not where he locates the cause.', 3: 'Time of day is not part of his explanation.'}),
           ('"Read to the end" is inferred from',
-           ['surveys', 'scroll depth and dwell time', 'comments',
-            'subscriptions'], 1,
-           'So it overcounts an open tab and undercounts a fast reader.'),
+           ['surveys', 'scroll depth and dwell time', 'comments', 'subscriptions'],
+           1,
+           'So it overcounts an open tab and undercounts a fast '
+           'reader.',
+           {0: 'No survey is involved in the measure.', 2: 'Comments are not used in the inference.', 3: 'Subscriptions are not part of the measure.'}),
           ('An outlet is paid for',
-           ['what is read', 'what travels', 'what is corrected',
-            'what is local'], 1,
-           'And judged on the category almost nobody shares.'),
+           ['what is read', 'what travels', 'what is corrected', 'what is local'],
+           1, 'And judged on the category almost nobody shares.',
+           {0: 'What is read is what the outlet is judged on.', 2: 'Corrections are not what advertising pays for.', 3: 'Local news is the category almost nobody shares.'}),
           ('Why does he reject the usual recommendation?',
-           ['It is expensive', 'A shareable headline would have to contain '
-            'the whole claim', 'Readers dislike it',
-            'It has been tried'], 1,
-           'And a finding that fits in seven words is usually not worth '
-           'publishing.')])],
+           ['It is expensive', 'A shareable headline would have to contain the whole claim', 'Readers dislike it', 'It has been tried'],
+           1,
+           'And a finding that fits in seven words is usually not '
+           'worth publishing.',
+           {0: 'Cost is not his objection to better headlines.', 2: 'Reader dislike is not what he reports.', 3: 'He argues from the chart, not from past attempts.'})])],
    speak=dict(
     part='Part 3', focus='Headlines and what follows them',
     intro=('Four or five sentences. Try once to group two things that behave '
@@ -936,19 +972,23 @@ UNIT = dict(
                  'yet defended in public.')],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['The role of automated accounts', 'Novelty',
-            'Emotional content', 'Simplicity'], 0,
-           'Removing them leaves the difference almost unchanged.'),
+           ['The role of automated accounts', 'Novelty', 'Emotional content', 'Simplicity'],
+           0, 'Removing them leaves the difference almost unchanged.',
+           {1: 'Novelty is paragraph 3, the explanation with most '
+               'support.', 2: 'Emotional content is paragraph 4, on surprise and '
+               'disgust.', 3: 'Simplicity is the heading for paragraph 5.'}),
           ('Choose the best heading for paragraph 5.',
-           ['Novelty', 'Emotional content', 'Simplicity',
-            'The asymmetry in correction'], 2,
-           'One cause, one villain and no qualifications.'),
+           ['Novelty', 'Emotional content', 'Simplicity', 'The asymmetry in correction'],
+           2, 'One cause, one villain and no qualifications.',
+           {0: 'Novelty is paragraph 3, the explanation with most '
+               'support.', 1: 'Emotional content is paragraph 4, on surprise and '
+               'disgust.', 3: 'The asymmetry in correction is paragraph 6.'}),
           ('Choose the best heading for paragraph 7.',
-           ['The asymmetry in correction',
-            'Why interventions on sharers disappoint',
-            'A change of target', 'Simplicity'], 1,
+           ['The asymmetry in correction', 'Why interventions on sharers disappoint', 'A change of target', 'Simplicity'],
+           1,
            'Asking people to consider accuracy has a small, decaying '
-           'effect.'),
+           'effect.',
+           {0: 'The asymmetry in correction is paragraph 6.', 2: 'The change of target is paragraph 8, the last but one.', 3: 'Simplicity is the heading for paragraph 5.'}),
           (
            'The writer believes automated accounts are the main cause.',
            ['Yes', 'No', 'Not Given'], 1,
@@ -1020,28 +1060,36 @@ UNIT = dict(
          items=[
           ('How many candidate mechanisms does the lecturer discuss?',
            ['Two', 'Three', 'Four', 'Five'], 2,
-           'Automated accounts, novelty, emotion and simplicity.'),
+           'Automated accounts, novelty, emotion and simplicity.',
+           {0: 'Fewer than the mechanisms he lists.', 1: 'One short of the number he goes through.', 3: 'He discusses four, not five.'}),
           ('Removing automated accounts from the data',
-           ['closes the gap', 'barely changes the gap', 'reverses the gap',
-            'has not been tried'], 1,
-           'Because almost all sharing is done by ordinary accounts.'),
+           ['closes the gap', 'barely changes the gap', 'reverses the gap', 'has not been tried'],
+           1,
+           'Because almost all sharing is done by ordinary accounts.',
+           {0: 'Closing the gap is what the test did not find.', 2: 'No reversal is reported in the data.', 3: 'He says it has been tested repeatedly.'}),
           ('Why does he call the novelty advantage structural?',
-           ['It is measured precisely', 'A true story is limited by what '
-            'happened and a false one by nothing',
-            'It applies to all platforms', 'It has been found twice'], 1,
-           'Which is the mechanism with the most support.'),
+           ['It is measured precisely', 'A true story is limited by what happened and a false one by nothing', 'It applies to all platforms', 'It has been found twice'],
+           1, 'Which is the mechanism with the most support.',
+           {0: 'Precision of measurement is not why he calls it '
+               'structural.', 2: 'Platform coverage is not the reason he gives.', 3: 'The number of replications is not his point here.'}),
           ('Which mechanism does he say almost nobody lists?',
-           ['Automated accounts', 'Novelty', 'Emotion', 'Simplicity'], 3,
-           'One cause, one villain, no qualifications.'),
+           ['Automated accounts', 'Novelty', 'Emotion', 'Simplicity'],
+           3, 'One cause, one villain, no qualifications.',
+           {0: 'Automated accounts are the first mechanism, widely '
+               'discussed.', 1: 'Novelty is the mechanism with the most support.', 2: 'Emotion is regularly listed, as his third mechanism.'}),
           ('A correction is necessarily more complex because',
-           ['it is longer', 'it must restate the claim before denying it',
-            'it cites sources', 'it is written by lawyers'], 1,
-           'And necessarily less novel because the claim has been seen.'),
+           ['it is longer', 'it must restate the claim before denying it', 'it cites sources', 'it is written by lawyers'],
+           1,
+           'And necessarily less novel because the claim has been '
+           'seen.',
+           {0: 'Length follows from restating the claim rather than '
+               'causing it.', 2: 'Citing sources is not the reason he gives.', 3: 'Lawyers are not mentioned in the lecture.'}),
           ('What does he call the least promising use of money?',
-           ['Fact-checking', 'Asking individuals to be more careful',
-            'Platform regulation', 'Media literacy in schools'], 1,
-           'Because the asymmetry is arithmetic rather than a failure of '
-           'effort.')])],
+           ['Fact-checking', 'Asking individuals to be more careful', 'Platform regulation', 'Media literacy in schools'],
+           1,
+           'Because the asymmetry is arithmetic rather than a failure '
+           'of effort.',
+           {0: 'Fact-checking is not what he singles out.', 2: 'Platform regulation is closer to what he recommends.', 3: 'Media literacy is not discussed in the lecture.'})])],
    speak=dict(
     part='Part 3', focus='Correcting what people believe',
     followup=[('You say corrections do not work. Why not?',
@@ -1245,18 +1293,19 @@ UNIT = dict(
           'to answer, although it is probably the one that matters most.'],
          items=[
           ('Which paragraph discusses the backfire effect?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-            'Paragraph 4'], 1,
-           'Now understood as largely an artefact of small samples.'),
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1, 'Now understood as largely an artefact of small samples.',
+           {0: 'Paragraph 1 says the question contains two questions.', 2: 'Paragraph 3 reports the modest, decaying effect.', 3: 'Paragraph 4 distinguishes efficacy from reach.'}),
           ('Which paragraph distinguishes efficacy from reach?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1,
            'Researchers quote one and critics quote the other, both '
-           'correctly.'),
+           'correctly.',
+           {0: 'Paragraph 3 reports the modest, decaying effect.', 2: 'Paragraph 5 explains how reach can be engineered.', 3: 'Paragraph 6 describes two opposite effects on trust.'}),
           ('Which paragraph describes two opposite effects on trust?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 1,
-           'Trust in one outlet rises; trust in everything falls.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           1, 'Trust in one outlet rises; trust in everything falls.',
+           {0: 'Paragraph 5 explains how reach can be engineered.', 2: 'Paragraph 7 draws the implication from those effects.', 3: 'Paragraph 8 gives the three-sentence summary.'}),
           ('The writer believes corrections strengthen false beliefs.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 reports that the backfire finding did not '
@@ -1329,32 +1378,39 @@ UNIT = dict(
            'half, and I will put it in the first sentence.')],
          items=[
           ('What does Ismailov concede at the start?',
-           ['Platforms cannot act', 'The backfire effect is dead',
-            'Corrections never work', 'His data is small'], 1,
+           ['Platforms cannot act', 'The backfire effect is dead', 'Corrections never work', 'His data is small'],
+           1,
            'A finding his side quoted for ten years that did not '
-           'reproduce.'),
-          ('Attaching a correction to the original item raises the '
+           'reproduce.',
+           {0: 'He concedes a finding, not a view about platforms.', 2: 'He says corrections do reduce belief.', 3: 'The small samples were in the original backfire work.'}),
+          (
+           'Attaching a correction to the original item raises the '
            'proportion corrected to',
-           ['under a tenth', 'about a quarter', 'above half',
-            'almost all'], 2,
-           'Against under a tenth for a separate correction.'),
+           ['under a tenth', 'about a quarter', 'above half', 'almost all'],
+           2, 'Against under a tenth for a separate correction.',
+           {0: 'Under a tenth is the figure for a separate correction.', 1: 'Higher than a separate correction but below her '
+               'figure.', 3: 'Higher than the proportion her experiments found.'}),
           ('Why has it not been rolled out everywhere?',
-           ['It is expensive', 'Deciding what is false at scale cannot be '
-            'staffed', 'Users object', 'It is untested'], 1,
-           'With every error in either direction becoming a story about the '
-           'platform.'),
+           ['It is expensive', 'Deciding what is false at scale cannot be staffed', 'Users object', 'It is untested'],
+           1,
+           'With every error in either direction becoming a story '
+           'about the platform.',
+           {0: 'She says the engineering is finished.', 2: 'User objection is not the obstacle she names.', 3: 'Their own experiments have tested it.'}),
           ('She says the binding objection is not',
            ['cost', 'free expression', 'accuracy', 'speed'], 1,
-           'Which she calls real but not the binding one.'),
+           'Which she calls real but not the binding one.',
+           {0: 'Cost appears as staffing, which is the binding '
+               'problem.', 2: 'Accuracy of the model is part of the staffing '
+               'difficulty.', 3: 'Speed is not raised as an objection.'}),
           ('What does Ismailov propose instead?',
-           ['More adjudicators', 'Adjudicating distribution rather than '
-            'truth', 'Removing all claims', 'Labelling everything'], 1,
-           'Declining to amplify an item nobody has opened.'),
+           ['More adjudicators', 'Adjudicating distribution rather than truth', 'Removing all claims', 'Labelling everything'],
+           1, 'Declining to amplify an item nobody has opened.',
+           {0: 'More adjudicators is what she says cannot be staffed.', 2: 'Removing claims is not what he proposes.', 3: 'Labelling everything would require adjudicating truth.'}),
           ('What does he add that is bad for his own field?',
-           ['His sample was small', 'The effect of constant corrections on '
-            'general trust is unstudied', 'Corrections are expensive',
-            'His funding is from a platform'], 1,
-           'And probably the question that matters most.')])],
+           ['His sample was small', 'The effect of constant corrections on general trust is unstudied', 'Corrections are expensive', 'His funding is from a platform'],
+           1, 'And probably the question that matters most.',
+           {0: 'Small samples were the backfire problem, already '
+               'conceded.', 2: 'Cost is the platform\u2019s difficulty, not his field\u2019s.', 3: 'No funding source is mentioned for his work.'})])],
    speak=dict(
     part='Part 3', focus='Who should decide what is true',
     sounds=[('Reporting verbs carry your own position in their stress. They '

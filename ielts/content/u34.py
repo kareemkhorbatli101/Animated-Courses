@@ -49,24 +49,32 @@ UNIT = dict(
           'into a request that did not mention one.'],
          items=[
           ('An employee may request flexible working',
-           ['after six months', 'after one year', 'from the first day',
-            'only with caring responsibilities'], 2,
-           'Paragraph 1, which also removes the requirement to give a reason.'),
+           ['after six months', 'after one year', 'from the first day', 'only with caring responsibilities'],
+           2,
+           'Paragraph 1, which also removes the requirement to give a '
+           'reason.',
+           {0: 'No qualifying period applies under paragraph 1.', 1: 'A year of service is not required for a request.', 3: 'Paragraph 1 removes the need for any reason at all.'}),
           ('How many requests may be made in twelve months?',
            ['One', 'Two', 'Three', 'No limit'], 1,
-           'Paragraph 2, alongside the two-month decision period.'),
+           'Paragraph 2, alongside the two-month decision period.',
+           {0: 'Paragraph 2 allows more than one request a year.', 2: 'More than the number paragraph 2 permits.', 3: 'A limit is set, at two in twelve months.'}),
           ('A refusal must',
-           ['prove the ground applies', 'state which ground applies',
-            'be approved by a tribunal', 'offer an alternative'], 1,
+           ['prove the ground applies', 'state which ground applies', 'be approved by a tribunal', 'offer an alternative'],
+           1,
            'Paragraph 3 draws the distinction explicitly: it need not '
-           'demonstrate the ground is correct.'),
+           'demonstrate the ground is correct.',
+           {0: 'Paragraph 3 says it need not demonstrate the ground is '
+               'correct.', 2: 'No tribunal approval is required for a refusal.', 3: 'No alternative need be offered with a refusal.'}),
           ('Unless agreed otherwise, an accepted change is',
-           ['temporary', 'reviewed annually', 'permanent',
-            'subject to a trial'], 2,
-           'Paragraph 4, which is why a trial must be requested expressly.'),
+           ['temporary', 'reviewed annually', 'permanent', 'subject to a trial'],
+           2,
+           'Paragraph 4, which is why a trial must be requested '
+           'expressly.',
+           {0: 'A trial must be requested expressly to be temporary.', 1: 'No annual review is provided for in paragraph 4.', 3: 'A trial period is not implied in a request.'}),
           ('How many statutory grounds for refusal are there?',
            ['Four', 'Six', 'Eight', 'Twelve'], 2,
-           'Paragraph 3, of which three are given as examples.')]),
+           'Paragraph 3, of which three are given as examples.',
+           {0: 'Fewer than the statutory grounds paragraph 3 counts.', 1: 'Still fewer than the number of grounds given.', 3: 'More than the statutory grounds available.'})]),
     dict(heading='How a request is decided',
          kind='Procedure notice', task='Flow-chart completion',
          band='gt_short', qtype='Questions 6-9',
@@ -191,24 +199,32 @@ UNIT = dict(
            'actually demonstrate.')],
          items=[
           ('The first mistake the trainer describes is',
-           ['refusing too quickly', 'deciding before the consultation',
-            'failing to keep records', 'consulting too many people'], 1,
-           'He says a meeting held as a formality becomes evidence against '
-           'the manager.'),
+           ['refusing too quickly', 'deciding before the consultation', 'failing to keep records', 'consulting too many people'],
+           1,
+           'He says a meeting held as a formality becomes evidence '
+           'against the manager.',
+           {0: 'Speed of refusal is not his first mistake.', 2: 'Record-keeping is not among the three mistakes.', 3: 'The number of people consulted is not his concern.'}),
           ('Which reason would not be a valid ground for refusal?',
-           ['Additional costs', 'An effect on quality',
-            'It would set a precedent', 'Inability to reorganise work'], 2,
-           'He names it alongside fairness to others as sounding managerial '
-           'without being on the list.'),
+           ['Additional costs', 'An effect on quality', 'It would set a precedent', 'Inability to reorganise work'],
+           2,
+           'He names it alongside fairness to others as sounding '
+           'managerial without being on the list.',
+           {0: 'Additional costs is one of the eight statutory '
+               'grounds.', 1: 'An effect on quality is a statutory ground.', 3: 'Inability to reorganise work is a statutory ground.'}),
           ('The two-month period runs from',
-           ['the date of the meeting', 'a valid request',
-            'the manager reading it', 'the appeal decision'], 1,
+           ['the date of the meeting', 'a valid request', 'the manager reading it', 'the appeal decision'],
+           1,
            'Not from when you got round to looking at it, which is his '
-           'phrasing.'),
-          ('What does the trainer recommend where a manager is uneasy?',
-           ['An immediate refusal', 'A time-limited trial with a review date',
-            'Referring it upwards', 'A second consultation'], 1,
-           'Because it is rarely appealed and produces evidence either way.')])],
+           'phrasing.',
+           {0: 'He says explicitly not from the meeting.', 2: 'He says not from when the manager got round to it.', 3: 'An appeal comes after the decision, not before the '
+               'clock.'}),
+          (
+           'What does the trainer recommend where a manager is uneasy?',
+           ['An immediate refusal', 'A time-limited trial with a review date', 'Referring it upwards', 'A second consultation'],
+           1,
+           'Because it is rarely appealed and produces evidence either '
+           'way.',
+           {0: 'He says refusal is not the most effective response.', 2: 'Referring it upwards is not what he recommends.', 3: 'A second consultation is not his suggestion.'})])],
    speak=dict(
     part='Part 1', focus='How you spend your working week',
     intro=('Two or three sentences. The examiner is establishing a baseline '
@@ -338,20 +354,36 @@ UNIT = dict(
           'an interview without sounding unserious tells you something about '
           'how we are expected to talk about this.'],
          items=[
-          ('Which person distinguishes the purpose of work from the experience '
-           'of doing it?', ['Ingeborg', 'Rashid', 'Noor', 'Emeka'], 0,
-           'The meaning is in what it is for, not in what I do between nine '
-           'and five.'),
+          (
+           'Which person distinguishes the purpose of work from the '
+           'experience of doing it?',
+           ['Ingeborg', 'Rashid', 'Noor', 'Emeka'], 0,
+           'The meaning is in what it is for, not in what I do between '
+           'nine and five.',
+           {1: 'Rashid argues that the language of meaning is used to '
+               'justify low pay.', 2: 'Noor identifies autonomy as the decisive factor.', 3: 'Emeka says relationships at work matter most.'}),
           ('Which person identifies autonomy as the decisive factor?',
            ['Ingeborg', 'Rashid', 'Noor', 'Emeka'], 2,
            'Same job, same salary, and control over the order changed '
-           'everything.'),
-          ('Which person argues that the language of meaning is used to '
-           'justify low pay?', ['Ingeborg', 'Rashid', 'Noor', 'Emeka'], 1,
-           'A way of paying people less for jobs that are already badly paid.'),
+           'everything.',
+           {0: 'Ingeborg distinguishes the purpose of work from the '
+               'experience of doing it.', 1: 'Rashid argues that the language of meaning is used to '
+               'justify low pay.', 3: 'Emeka says relationships at work matter most.'}),
+          (
+           'Which person argues that the language of meaning is used '
+           'to justify low pay?',
+           ['Ingeborg', 'Rashid', 'Noor', 'Emeka'], 1,
+           'A way of paying people less for jobs that are already '
+           'badly paid.',
+           {0: 'Ingeborg distinguishes the purpose of work from the '
+               'experience of doing it.', 2: 'Noor identifies autonomy as the decisive factor.', 3: 'Emeka says relationships at work matter most.'}),
           ('Which person says relationships at work matter most?',
            ['Ingeborg', 'Rashid', 'Noor', 'Emeka'], 3,
-           'He would leave within a year if the team changed completely.'),
+           'He would leave within a year if the team changed '
+           'completely.',
+           {0: 'Ingeborg distinguishes the purpose of work from the '
+               'experience of doing it.', 1: 'Rashid argues that the language of meaning is used to '
+               'justify low pay.', 2: 'Noor identifies autonomy as the decisive factor.'}),
           (
            'Rashid believes his arrangement is a regrettable '
            'compromise.', ['Yes', 'No', 'Not Given'], 1,
@@ -414,29 +446,39 @@ UNIT = dict(
           ('Idris', 'Which is how I should have put it an hour ago.')],
          items=[
           ('Idris describes the promotion as more money and',
-           ['more travel', 'more meetings', 'more responsibility',
-            'more hours'], 1,
+           ['more travel', 'more meetings', 'more responsibility', 'more hours'],
+           1,
            'Twenty per cent more money and about eighty per cent more '
-           'meetings, which he calls arithmetic and not modesty.'),
-          ('What does Idris say about Dagmar’s argument?',
-           ['It is about the work', 'It is about the structure, not the work',
-            'It is about money', 'It is about status'], 1,
-           'She is not saying the job is good; she is saying refusal is '
-           'expensive later.'),
-          ('Which of Dagmar’s points does Idris concede is her best?',
-           ['That he will be managed by juniors',
-            'That he might be good at it',
-            'That the money matters', 'That people step back'], 1,
-           'He says he is assuming something he has no evidence for.'),
+           'meetings, which he calls arithmetic and not modesty.',
+           {0: 'Travel is not mentioned in his description.', 2: 'Responsibility is implied but not the figure he gives.', 3: 'He gives meetings rather than hours as the cost.'}),
+          ('What does Idris say about Dagmar\u2019s argument?',
+           ['It is about the work', 'It is about the structure, not the work', 'It is about money', 'It is about status'],
+           1,
+           'She is not saying the job is good; she is saying refusal '
+           'is expensive later.',
+           {0: 'He says she is not claiming the job is good.', 2: 'Money is his own calculation, not her argument.', 3: 'Status appears later, in his own account of the '
+               'choice.'}),
+          (
+           'Which of Dagmar\u2019s points does Idris concede is her best?',
+           ['That he will be managed by juniors', 'That he might be good at it', 'That the money matters', 'That people step back'],
+           1,
+           'He says he is assuming something he has no evidence for.',
+           {0: 'Being managed by juniors is the point that worries '
+               'him.', 2: 'Money is his own arithmetic, not her best point.', 3: 'He doubts that people step back without cost.'}),
           ('Why does Idris doubt he could step back later?',
-           ['The pay would not return', 'It would be read as a failure',
-            'The role would be filled', 'He would lose his team'], 1,
-           'He has never seen anyone do it voluntarily in eleven years.'),
+           ['The pay would not return', 'It would be read as a failure', 'The role would be filled', 'He would lose his team'],
+           1,
+           'He has never seen anyone do it voluntarily in eleven '
+           'years.',
+           {0: 'Pay is not the obstacle he identifies.', 2: 'The role being filled is not what he raises.', 3: 'Losing the team is a cost of refusing, not of stepping '
+               'back.'}),
           ('What do they agree the question really concerns?',
-           ['Ambition', 'Money', 'Whether a decision is reversible',
-            'The quality of management'], 2,
-           'Dagmar reframes it and Idris says that is how he should have put '
-           'it.')])],
+           ['Ambition', 'Money', 'Whether a decision is reversible', 'The quality of management'],
+           2,
+           'Dagmar reframes it and Idris says that is how he should '
+           'have put it.',
+           {0: 'They end by agreeing it is not about ambition.', 1: 'Money is the arithmetic he starts from, not the real '
+               'question.', 3: 'Management quality is a separate worry about the team.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Working life',
     longturn=[('The job that changed how I think about work was six months in '
@@ -652,23 +694,33 @@ UNIT = dict(
          items=[
           ('Which country works the longest hours?',
            ['Alvania', 'Corland', 'Estren', 'Fenland'], 0,
-           'Paragraph 2: around 2,100 hours a year with the lowest output '
-           'index of the six.'),
-          ('Which paragraph explains long hours as a symptom and not a '
-           'cause?', ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 2,
-           'Paragraph 5: households supply more hours to reach a given income '
-           'where output per hour is low.'),
+           'Paragraph 2: around 2,100 hours a year with the lowest '
+           'output index of the six.',
+           {1: 'No figures are given for this country in paragraph 2.', 2: 'No figures are given for this country in paragraph 2.', 3: 'Fenland works the fewest hours, at about 1,300.'}),
+          (
+           'Which paragraph explains long hours as a symptom and not a '
+           'cause?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
+           'Paragraph 5: households supply more hours to reach a given '
+           'income where output per hour is low.',
+           {0: 'Paragraph 3 names the temptation and resists it.', 1: 'Paragraph 4 is about the composition of an economy.', 3: 'Paragraph 6 concedes that hours do affect output.'}),
           ('Which paragraph concedes that hours do affect output?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
-           'Paragraph 6 accepts the workplace evidence and then denies that it '
-           'scales up.'),
-          ('According to the writer, the pattern across the six countries is '
-           'mostly explained by',
-           ['fatigue', 'the composition of each economy', 'legislation',
-            'cultural attitudes'], 1,
-           'Paragraph 4: capital per worker, high-value sectors and fewer '
-           'people in agriculture and informal services.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
+           'Paragraph 6 accepts the workplace evidence and then denies '
+           'that it scales up.',
+           {0: 'Paragraph 4 is about the composition of an economy.', 1: 'Paragraph 5 explains long hours as a symptom and not a '
+               'cause.', 3: 'Paragraph 7 draws the practical consequence.'}),
+          (
+           'According to the writer, the pattern across the six '
+           'countries is mostly explained by',
+           ['fatigue', 'the composition of each economy', 'legislation', 'cultural attitudes'],
+           1,
+           'Paragraph 4: capital per worker, high-value sectors and '
+           'fewer people in agriculture and informal services.',
+           {0: 'Fatigue is the workplace mechanism that does not scale '
+               'up.', 2: 'Legislation is what paragraph 7 says cannot do it.', 3: 'Cultural attitudes are not offered as an explanation.'}),
           ('Fenland works about ____________ hours a year.', None, '1,300',
            'Paragraph 2, with an output index of 112, the highest shown.'),
           (
@@ -730,30 +782,42 @@ UNIT = dict(
            'them.')],
          items=[
           ('The lecturer says the relationship on the chart is',
-           ['weak but visible', 'tight enough not to need a regression',
-            'different each year', 'reversed since last year'], 1,
-           'The points fall almost on a straight line sloping downwards.'),
-          ('What does he ask students to do before proposing a policy?',
-           ['Check the data source', 'Ask what else could produce the picture',
-            'Compare more countries', 'Run a regression'], 1,
-           'Because a correlation is consistent with several arrows.'),
-          ('In the lecturer’s preferred explanation, output per hour is '
-           'mostly determined by',
-           ['hours worked', 'capital, sector mix and education',
-            'working culture', 'legislation'], 1,
-           'And a country with those things is also rich, which is where the '
-           'leisure argument enters.'),
+           ['weak but visible', 'tight enough not to need a regression', 'different each year', 'reversed since last year'],
+           1,
+           'The points fall almost on a straight line sloping '
+           'downwards.',
+           {0: 'He calls the relationship tight, not weak.', 2: 'The chart is the same each year; the answers are not.', 3: 'No reversal is described.'}),
+          (
+           'What does he ask students to do before proposing a policy?',
+           ['Check the data source', 'Ask what else could produce the picture', 'Compare more countries', 'Run a regression'],
+           1,
+           'Because a correlation is consistent with several arrows.',
+           {0: 'The data source is not what he questions.', 2: 'More countries is not the step he asks for first.', 3: 'He says a regression is not needed to see it.'}),
+          (
+           'In the lecturer\u2019s preferred explanation, output per hour '
+           'is mostly determined by',
+           ['hours worked', 'capital, sector mix and education', 'working culture', 'legislation'],
+           1,
+           'And a country with those things is also rich, which is '
+           'where the leisure argument enters.',
+           {0: 'Hours are what the chart plots against output, not the '
+               'cause.', 2: 'Working culture is not part of his explanation.', 3: 'Legislation is what he says cannot produce the effect.'}),
           ('He describes leisure in rich countries as',
-           ['a luxury', 'a normal good', 'a policy choice',
-            'an unmeasured cost'], 1,
-           'As income rises people buy more of it, so hours fall.'),
-          ('In which fields does he say fatigue effects are well established?',
-           ['Retail and catering', 'Medicine, haulage and air traffic control',
-            'Agriculture and construction', 'Education and research'], 1,
-           'Where fatigue is measurable and consequential.'),
-          ('How many arrows does the lecturer say could produce the picture?',
-           ['Two', 'Three', 'Four', 'Six'], 2,
-           'And the one everybody picks is the weakest of them.')])],
+           ['a luxury', 'a normal good', 'a policy choice', 'an unmeasured cost'],
+           1, 'As income rises people buy more of it, so hours fall.',
+           {0: 'A luxury good would be bought less as income rises.', 2: 'Leisure here is a purchase, not a policy.', 3: 'He treats leisure as measurable demand, not a hidden '
+               'cost.'}),
+          (
+           'In which fields does he say fatigue effects are well '
+           'established?',
+           ['Retail and catering', 'Medicine, haulage and air traffic control', 'Agriculture and construction', 'Education and research'],
+           1, 'Where fatigue is measurable and consequential.',
+           {0: 'Retail and catering are not among the fields he names.', 2: 'Agriculture and construction are not his examples.', 3: 'Education and research are not mentioned.'}),
+          (
+           'How many arrows does the lecturer say could produce the '
+           'picture?', ['Two', 'Three', 'Four', 'Six'], 2,
+           'And the one everybody picks is the weakest of them.',
+           {0: 'Fewer than the arrows he counts.', 1: 'Still fewer than the number he gives.', 3: 'Six is the number of countries, not of arrows.'})])],
    speak=dict(
     part='Part 3', focus='Hours, output and comparison',
     intro=('Four or five sentences. These questions invite a causal claim, so '
@@ -973,20 +1037,27 @@ UNIT = dict(
           'the people most likely to benefit.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['What the trials found', 'The firms selected themselves',
-            'A problem of measurement', 'How long is long enough'], 1,
-           'It introduces self-selection and lists the three conditions under '
-           'which a firm volunteers.'),
+           ['What the trials found', 'The firms selected themselves', 'A problem of measurement', 'How long is long enough'],
+           1,
+           'It introduces self-selection and lists the three '
+           'conditions under which a firm volunteers.',
+           {0: 'What the trials found is paragraph 1.', 2: 'A problem of measurement is the heading for paragraph '
+               '4.', 3: 'Duration is paragraph 5, on the six-month trials.'}),
           ('Choose the best heading for paragraph 4.',
-           ['The firms selected themselves', 'A problem of measurement',
-            'How long is long enough', 'What the evidence does support'], 1,
-           'Self-report and proxies, sensitive to the enthusiasm of the '
-           'reporter.'),
+           ['The firms selected themselves', 'A problem of measurement', 'How long is long enough', 'What the evidence does support'],
+           1,
+           'Self-report and proxies, sensitive to the enthusiasm of '
+           'the reporter.',
+           {0: 'The firms selected themselves is the heading for '
+               'paragraph 2.', 2: 'Duration is paragraph 5, on the six-month trials.', 3: 'What the evidence does support is the heading for '
+               'paragraph 7.'}),
           ('Choose the best heading for paragraph 7.',
-           ['A problem of measurement', 'How long is long enough',
-            'What the evidence does support',
-            'A point that generalises'], 2,
-           'It states what the narrower claim covers and what it does not.'),
+           ['A problem of measurement', 'How long is long enough', 'What the evidence does support', 'A point that generalises'],
+           2,
+           'It states what the narrower claim covers and what it does '
+           'not.',
+           {0: 'A problem of measurement is the heading for paragraph '
+               '4.', 1: 'Duration is paragraph 5, on the six-month trials.', 3: 'The general methodological point is paragraph 10.'}),
           ('The writer believes shorter working weeks do not work.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 6 says explicitly that the evidence for that '
@@ -1062,36 +1133,44 @@ UNIT = dict(
            'conclusion, and the gap between those two sentences is where most '
            'of the public argument is currently taking place.')],
          items=[
-          ('What does the lecturer say is genuinely impressive about the '
-           'literature?',
-           ['The size of the samples', 'That they are real organisations',
-            'The length of the trials', 'The independence of the researchers'],
-           1, 'Real organisations, not laboratories, with measures '
-           'collected over months.'),
+          (
+           'What does the lecturer say is genuinely impressive about '
+           'the literature?',
+           ['The size of the samples', 'That they are real organisations', 'The length of the trials', 'The independence of the researchers'],
+           1,
+           'Real organisations, not laboratories, with measures '
+           'collected over months.',
+           {0: 'Sample size is part of what he goes on to criticise.', 2: 'Six months is what he calls too short.', 3: 'Researcher independence is not what he praises.'}),
           ('The three conditions for volunteering do not include',
-           ['belief that it will work', 'work that can be compressed',
-            'a large workforce', 'enough slack to experiment publicly'], 2,
-           'Size is never mentioned; the three are belief, compressibility and '
-           'slack.'),
+           ['belief that it will work', 'work that can be compressed', 'a large workforce', 'enough slack to experiment publicly'],
+           2,
+           'Size is never mentioned; the three are belief, '
+           'compressibility and slack.',
+           {0: 'Belief that it will work is the first condition.', 1: 'Compressible work is the second condition.', 3: 'Slack to experiment publicly is the third condition.'}),
           ('Which sectors does the lecturer say are missing?',
-           ['Finance and law', 'Continuous process manufacturing and care',
-            'Retail and hospitality', 'Education and research'], 1,
-           'Any operation where output is a function of hours present.'),
+           ['Finance and law', 'Continuous process manufacturing and care', 'Retail and hospitality', 'Education and research'],
+           1,
+           'Any operation where output is a function of hours present.',
+           {0: 'Finance and law are office-based and well represented.', 2: 'Retail and hospitality are not the examples he gives.', 3: 'Education and research are not named.'}),
           ('On measurement, the lecturer is careful to say that',
-           ['the data were falsified', 'nobody lied',
-            'the measures were objective', 'the samples were too small'], 1,
-           'He says enthusiasm moves a self-reported measure without anyone '
-           'lying.'),
+           ['the data were falsified', 'nobody lied', 'the measures were objective', 'the samples were too small'],
+           1,
+           'He says enthusiasm moves a self-reported measure without '
+           'anyone lying.',
+           {0: 'He says explicitly that nobody lied.', 2: 'He says the measures are soft, not objective.', 3: 'Sample size is a separate point about sectors.'}),
           ('Organisations followed for two years or more show',
-           ['larger effects', 'attenuated effects', 'no effects',
-            'reversed effects'], 1,
-           'Though he adds there are too few of them to conclude from.'),
+           ['larger effects', 'attenuated effects', 'no effects', 'reversed effects'],
+           1,
+           'Though he adds there are too few of them to conclude from.',
+           {0: 'Larger effects are what the six-month trials report.', 2: 'He reports smaller effects, not none.', 3: 'No reversal is reported in the longer studies.'}),
           ('The claim the lecturer says survives is that',
-           ['shorter weeks always work',
-            'organisations suited to it usually find it works',
-            'shorter weeks reduce output', 'more research is needed'], 1,
-           'And he calls the gap between that and a general policy conclusion '
-           'the site of the public argument.')])],
+           ['shorter weeks always work', 'organisations suited to it usually find it works', 'shorter weeks reduce output', 'more research is needed'],
+           1,
+           'And he calls the gap between that and a general policy '
+           'conclusion the site of the public argument.',
+           {0: 'The universal claim is what he spends the lecture '
+               'limiting.', 2: 'He does not claim shorter weeks reduce output.', 3: 'More research is a conclusion, not the surviving '
+               'claim.'})])],
    speak=dict(
     part='Part 3', focus='Testing a change at work',
     followup=[(('You say the trial was not fair. Should companies be required '
@@ -1294,19 +1373,37 @@ UNIT = dict(
                  'dispute about the data between two parties who both accept '
                  'it.')],
          items=[
-          ('Which paragraph explains why random assignment has not been used?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
-           'An employer cannot be assigned to change its operating model by a '
-           'researcher, and no regulator has done so either.'),
-          ('Which paragraph describes a problem that better design cannot '
-           'remove?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'], 1,
+          (
+           'Which paragraph explains why random assignment has not '
+           'been used?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
+           'An employer cannot be assigned to change its operating '
+           'model by a researcher, and no regulator has done so '
+           'either.',
+           {0: 'Paragraph 1 says the easy criticism is already '
+               'accepted.', 2: 'Paragraph 3 describes the partial designs tried '
+               'instead.', 3: 'Paragraph 4 describes a problem that better design '
+               'cannot remove.'}),
+          (
+           'Which paragraph describes a problem that better design '
+           'cannot remove?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1,
            'Paragraph 4: a trial that may be withdrawn is a different '
-           'intervention, which is a property of the thing.'),
-          ('Which paragraph lists what is known despite the difficulties?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 1,
-           'Feasibility in office work, and the revealed preference of firms '
-           'not reversing.'),
+           'intervention, which is a property of the thing.',
+           {0: 'Paragraph 3 describes the partial designs tried '
+               'instead.', 2: 'Paragraph 5 lists what is known despite the '
+               'difficulties.', 3: 'Paragraph 6 lists what is not known.'}),
+          (
+           'Which paragraph lists what is known despite the '
+           'difficulties?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           1,
+           'Feasibility in office work, and the revealed preference of '
+           'firms not reversing.',
+           {0: 'Paragraph 4 describes a problem that better design '
+               'cannot remove.', 2: 'Paragraph 6 lists what is not known.', 3: 'Paragraph 7 is about the asymmetry in the blank.'}),
           (
            'The writer believes nothing useful can be concluded from '
            'the trials.', ['Yes', 'No', 'Not Given'], 1,
@@ -1385,33 +1482,42 @@ UNIT = dict(
            'usually is.')],
          items=[
           ('Haldorsen argues that the evidence is held to a standard',
-           ['lower than usual', 'applied nowhere else', 'set by regulators',
-            'used in medicine'], 1,
-           'He compares it with workplace safety, where he says we would have '
-           'legislated five years ago.'),
-          ('Mbeki’s objection is that a mandate applies to',
-           ['small firms', 'volunteers', 'a different population',
-            'future employers'], 2,
-           'We have evidence about volunteers, and he says that is not a '
-           'technicality.'),
+           ['lower than usual', 'applied nowhere else', 'set by regulators', 'used in medicine'],
+           1,
+           'He compares it with workplace safety, where he says we '
+           'would have legislated five years ago.',
+           {0: 'He says the standard is higher here, not lower.', 2: 'Regulators are who he says would have acted already.', 3: 'Workplace safety is his comparison, not medicine.'}),
+          ('Mbeki\u2019s objection is that a mandate applies to',
+           ['small firms', 'volunteers', 'a different population', 'future employers'],
+           2,
+           'We have evidence about volunteers, and he says that is not '
+           'a technicality.',
+           {0: 'Firm size is not his objection.', 1: 'Volunteers are who the evidence covers.', 3: 'Future employers are not the population he names.'}),
           ('Mbeki says he has no objection if the policy is',
            ['require', 'permit and encourage', 'subsidise', 'delay'], 1,
-           'He draws the line precisely at the difference between encouraging '
-           'and requiring.'),
-          ('Why does Mbeki say this extrapolation is different from others?',
-           ['The sample is small', 'The direction of the bias is known',
-            'The data are self-reported', 'The sectors are unusual'], 1,
-           'Every selection pressure runs the same way, so the bias can be '
-           'signed.'),
+           'He draws the line precisely at the difference between '
+           'encouraging and requiring.',
+           {0: 'Requiring is exactly what he objects to.', 2: 'Subsidy is not among the policies discussed.', 3: 'Delay is not what he proposes.'}),
+          (
+           'Why does Mbeki say this extrapolation is different from '
+           'others?',
+           ['The sample is small', 'The direction of the bias is known', 'The data are self-reported', 'The sectors are unusual'],
+           1,
+           'Every selection pressure runs the same way, so the bias '
+           'can be signed.',
+           {0: 'Sample size is not his objection here.', 2: 'Self-report is a separate criticism of the measures.', 3: 'The sectors are ordinary; the selection is the '
+               'problem.'}),
           ('What study does Mbeki say would change his mind?',
-           ['A larger software study', 'A longer trial',
-            'One in a sector where output is tied to hours present',
-            'A government pilot'], 2,
-           'He names residential care and continuous manufacturing.'),
+           ['A larger software study', 'A longer trial', 'One in a sector where output is tied to hours present', 'A government pilot'],
+           2, 'He names residential care and continuous manufacturing.',
+           {0: 'More software studies are what he says would add '
+               'least.', 1: 'A longer trial is a different gap he also names.', 3: 'A government pilot is not what he specifies.'}),
           ('What do the two agree they are really disagreeing about?',
            ['Evidence', 'Risk', 'Definitions', 'Timing'], 1,
-           'Haldorsen says the balance of risk favours acting; Mbeki calls '
-           'that a more honest place to stand.')])],
+           'Haldorsen says the balance of risk favours acting; Mbeki '
+           'calls that a more honest place to stand.',
+           {0: 'They end up agreeing about what the evidence shows.', 2: 'Definitions are not what divides them.', 3: 'Timing follows from the risk judgement, not the '
+               'reverse.'})])],
    speak=dict(
     part='Part 3', focus='Evidence, risk and acting without proof',
     sounds=[('Comparison carries its stress on the term being compared, not on '

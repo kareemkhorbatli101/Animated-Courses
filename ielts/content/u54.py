@@ -352,24 +352,35 @@ UNIT = dict(
           'except that I have told it so often.'],
          items=[
           ('Which account was written on the day of the events?',
-           ['The constable’s notebook', 'The resident’s letter',
-            'The newspaper report', 'The oral history'], 0,
-           'Written that evening, with crowd numbers and times.'),
-          ('Which account explicitly records what its author could not '
-           'see?', ['The constable’s notebook', 'The resident’s letter',
-            'The newspaper report', 'The oral history'], 0,
+           ['The constable\u2019s notebook', 'The resident\u2019s letter', 'The newspaper report', 'The oral history'],
+           0, 'Written that evening, with crowd numbers and times.',
+           {1: 'The resident\u2019s letter places the trouble away from the '
+               'police.', 3: 'The oral history differs from the same person\u2019s '
+               'earlier version.'}),
+          (
+           'Which account explicitly records what its author could not '
+           'see?',
+           ['The constable\u2019s notebook', 'The resident\u2019s letter', 'The newspaper report', 'The oral history'],
+           0,
            'Stationed at the western end and never seeing the eastern '
-           'gate.'),
+           'gate.',
+           {1: 'The resident\u2019s letter places the trouble away from the '
+               'police.', 3: 'The oral history differs from the same person\u2019s '
+               'earlier version.'}),
           ('Which account places the trouble away from the police?',
-           ['The constable’s notebook', 'The resident’s letter',
-            'The newspaper report', 'The oral history'], 1,
-           'At the far end from where the police were standing.'),
-          ('Which account differs from the same person’s earlier '
+           ['The constable\u2019s notebook', 'The resident\u2019s letter', 'The newspaper report', 'The oral history'],
+           1, 'At the far end from where the police were standing.',
+           {3: 'The oral history differs from the same person\u2019s '
+               'earlier version.'}),
+          (
+           'Which account differs from the same person\u2019s earlier '
            'version?',
-           ['The constable’s notebook', 'The resident’s letter',
-            'The newspaper report', 'The oral history'], 3,
-           'Several hundred and no charge in 1974; thousands and a charge '
-           'in 1987.'),
+           ['The constable\u2019s notebook', 'The resident\u2019s letter', 'The newspaper report', 'The oral history'],
+           3,
+           'Several hundred and no charge in 1974; thousands and a '
+           'charge in 1987.',
+           {1: 'The resident\u2019s letter places the trouble away from the '
+               'police.'}),
           (
            'The newspaper report describes events at the eastern gate.',
            ['Yes', 'No', 'Not Given'], 1,
@@ -731,20 +742,29 @@ UNIT = dict(
           'collapse is a fact about one fire. Both are visible in the chart '
           'and they are different kinds of fact.'],
          items=[
-          ('Which paragraph gives the documented cause of the '
+          (
+           'Which paragraph gives the documented cause of the '
            'seventeenth-century gap?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 2,
-           'A fire in the county hall in 1783.'),
-          ('Which paragraph warns that the same shape is elsewhere '
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2, 'A fire in the county hall in 1783.',
+           {3: 'Paragraph 5 warns that the same shape is elsewhere '
+               'explained historically.'}),
+          (
+           'Which paragraph warns that the same shape is elsewhere '
            'explained historically?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 1,
-           'A disordered period, a collapse of administration.'),
-          ('Which paragraph distinguishes a survival rate from a specific '
-           'loss?', ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 2,
-           'Two different kinds of fact, both visible in the chart.'),
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           1, 'A disordered period, a collapse of administration.',
+           {0: 'Paragraph 4 gives the documented cause of the '
+               'seventeenth-century gap.', 3: 'Paragraph 7 distinguishes a survival rate from a '
+               'specific loss.'}),
+          (
+           'Which paragraph distinguishes a survival rate from a '
+           'specific loss?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           2, 'Two different kinds of fact, both visible in the chart.',
+           {0: 'Paragraph 5 warns that the same shape is elsewhere '
+               'explained historically.', 3: 'Paragraph 4 gives the documented cause of the '
+               'seventeenth-century gap.'}),
           ('Court and legal records in the nineteenth century: '
            '____________ per thousand', None, '214',
            'Paragraph 2, up from 41 in the sixteenth.'),
@@ -1474,14 +1494,17 @@ UNIT = dict(
             'Paragraph 7'], 2,
            'Not a better source and not more sources: the objection is to '
            'the kind.'),
-          ('Which paragraph says the strong version swallows the weak '
-           'one?', ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',
-            'Paragraph 10'], 1,
-           'Because a claim of poor support needs a contrast class.'),
+          (
+           'Which paragraph says the strong version swallows the weak '
+           'one?',
+           ['Paragraph 7', 'Paragraph 8', 'Paragraph 9', 'Paragraph 10'],
+           1, 'Because a claim of poor support needs a contrast class.',
+           {3: 'Paragraph 10 gives a test applicable beyond history.'}),
           ('Which paragraph gives a test applicable beyond history?',
-           ['Paragraph 8', 'Paragraph 9', 'Paragraph 10',
-            'Paragraph 11'], 2,
-           'Ask whether the objection applies to its own evidence.'),
+           ['Paragraph 8', 'Paragraph 9', 'Paragraph 10', 'Paragraph 11'],
+           2, 'Ask whether the objection applies to its own evidence.',
+           {0: 'Paragraph 8 says the strong version swallows the weak '
+               'one.'}),
           (
            'The writer believes the clauses of the sceptical argument '
            'are false.', ['Yes', 'No', 'Not Given'], 1,

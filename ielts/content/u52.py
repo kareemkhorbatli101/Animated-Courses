@@ -371,23 +371,44 @@ UNIT = dict(
           'conditional on something that did not hold, and the thing it was '
           'conditional on changed partly because we published it.'],
          items=[
-          ('Which person says their forecast was right by cancellation?',
+          (
+           'Which person says their forecast was right by '
+           'cancellation?',
            ['Okonjo-Lindqvist', 'Casimir', 'Thomasina', 'Ignatius'], 0,
-           'Two roughly equal and opposite errors.'),
-          ('Which person says critics are reasoning from an outturn they '
-           'have seen?',
+           'Two roughly equal and opposite errors.',
+           {1: 'Casimir says critics are reasoning from an outturn '
+               'they have seen.', 2: 'Thomasina blames their own communication rather than '
+               'the model.', 3: 'Ignatius says the forecast changed the thing it was '
+               'forecasting.'}),
+          (
+           'Which person says critics are reasoning from an outturn '
+           'they have seen?',
            ['Okonjo-Lindqvist', 'Casimir', 'Thomasina', 'Ignatius'], 1,
-           'About solar cost projections made before 2010.'),
-          ('Which person blames their own communication rather than the '
-           'model?',
+           'About solar cost projections made before 2010.',
+           {0: 'Okonjo-Lindqvist says their forecast was right by '
+               'cancellation.', 2: 'Thomasina blames their own communication rather than '
+               'the model.', 3: 'Ignatius says the forecast changed the thing it was '
+               'forecasting.'}),
+          (
+           'Which person blames their own communication rather than '
+           'the model?',
            ['Okonjo-Lindqvist', 'Casimir', 'Thomasina', 'Ignatius'], 2,
-           'Quoting the central figure in public and the range only in the '
-           'papers.'),
-          ('Which person says the forecast changed the thing it was '
+           'Quoting the central figure in public and the range only in '
+           'the papers.',
+           {0: 'Okonjo-Lindqvist says their forecast was right by '
+               'cancellation.', 1: 'Casimir says critics are reasoning from an outturn '
+               'they have seen.', 3: 'Ignatius says the forecast changed the thing it was '
+               'forecasting.'}),
+          (
+           'Which person says the forecast changed the thing it was '
            'forecasting?',
            ['Okonjo-Lindqvist', 'Casimir', 'Thomasina', 'Ignatius'], 3,
            'Behaviour changed partly because the projection was '
-           'published.'),
+           'published.',
+           {0: 'Okonjo-Lindqvist says their forecast was right by '
+               'cancellation.', 1: 'Casimir says critics are reasoning from an outturn '
+               'they have seen.', 2: 'Thomasina blames their own communication rather than '
+               'the model.'}),
           (
            'Okonjo-Lindqvist regards the 1998 projection as a good '
            'forecast.', ['Yes', 'No', 'Not Given'], 1,
@@ -765,10 +786,10 @@ UNIT = dict(
            'Where an out-of-tolerance hindcast returns to the fitting '
            'routine.'),
           ('Which paragraph warns that the loop can be run too often?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 2,
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           2,
            'Because the model is then effectively fitted to the test '
-           'data.'),
+           'data.', {0: 'Paragraph 5 identifies the loop.'}),
           (
            'The held-back years are excluded from the fitting on '
            'purpose.', ['True', 'False', 'Not Given'], 0,
@@ -1112,11 +1133,11 @@ UNIT = dict(
            'A lower bound on uncertainty, not a distribution over '
            'outcomes.'),
           ('Choose the best heading for paragraph 10.',
-           ['Why models are related',
-            'Why this is not an argument against models',
-            'The reading test', 'Detecting dependency'], 1,
+           ['Why models are related', 'Why this is not an argument against models', 'The reading test', 'Detecting dependency'],
+           1,
            'A model wrong in knowable ways beats an intuition wrong in '
-           'unknowable ones.'),
+           'unknowable ones.',
+           {0: 'Why models are related is the heading for paragraph 2.'}),
           (
            'The writer believes agreement among models is strong '
            'evidence that an answer is right.',

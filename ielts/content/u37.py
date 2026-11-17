@@ -63,14 +63,20 @@ UNIT = dict(
           'twenty-four hours.'],
          items=[
           ('Insurance must run from',
-           ['arrival at the venue', 'the lender’s premises',
-            'the date of the agreement', 'the opening of the exhibition'], 1,
-           'Nail-to-nail cover, which paragraph 1 says is not satisfied by '
-           'cover beginning on arrival.'),
+           ['arrival at the venue', 'the lender\u2019s premises', 'the date of the agreement', 'the opening of the exhibition'],
+           1,
+           'Nail-to-nail cover, which paragraph 1 says is not '
+           'satisfied by cover beginning on arrival.',
+           {0: 'Paragraph 1 says cover beginning on arrival is not '
+               'enough.', 2: 'The agreement precedes the movement of the work.', 3: 'The exhibition opens after the work has already '
+               'travelled.'}),
           ('Who pays for a condition report where none exists?',
-           ['The lender', 'The borrower', 'The insurer', 'It is shared'], 1,
+           ['The lender', 'The borrower', 'The insurer', 'It is shared'],
+           1,
            'Paragraph 2, though the lender still must disclose known '
-           'weaknesses.'),
+           'weaknesses.',
+           {0: 'The lender must disclose weaknesses but not pay for '
+               'the report.', 2: 'The insurer is not mentioned in paragraph 2.', 3: 'The cost falls on one party, not both.'}),
           ('Light levels for works on paper must not exceed ____________ '
            'lux.', None, '50',
            'Paragraph 3, against 150 lux for oil paintings.'),
@@ -205,24 +211,30 @@ UNIT = dict(
            'to one report that does not exist.')],
          items=[
           ('Which does the registrar say causes the most problems?',
-           ['Transport', 'Display conditions', 'Insurance',
-            'Condition reports'], 3,
-           'First by a wide margin, and three quarters of disputes come down '
-           'to it.'),
+           ['Transport', 'Display conditions', 'Insurance', 'Condition reports'],
+           3,
+           'First by a wide margin, and three quarters of disputes '
+           'come down to it.',
+           {0: 'Transport she calls the rarest of the four.', 1: 'Display conditions are third in her order.', 2: 'Insurance is second, not first.'}),
           ('What does she say about transport?',
-           ['It is the biggest risk', 'It is where anxiety goes but not '
-            'incidents', 'It is uninsurable', 'It is improving'], 1,
-           'One incident in eleven years, and that a delay with nothing broken.'),
+           ['It is the biggest risk', 'It is where anxiety goes but not incidents', 'It is uninsurable', 'It is improving'],
+           1,
+           'One incident in eleven years, and that a delay with '
+           'nothing broken.',
+           {0: 'She says transport is the rarest source of trouble.', 2: 'Insurance is available, and is her second problem.', 3: 'She says shippers are already extremely good.'}),
           ('Failures of display conditions are mostly',
-           ['equipment failures', 'a failure of nerve', 'budget decisions',
-            'the lender’s fault'], 1,
-           'A curator wants a particular room and somebody decides a blind '
-           'will do.'),
+           ['equipment failures', 'a failure of nerve', 'budget decisions', 'the lender\u2019s fault'],
+           1,
+           'A curator wants a particular room and somebody decides a '
+           'blind will do.',
+           {0: 'She says the equipment is rarely at fault.', 2: 'Budgets are not what she blames for display failures.', 3: 'The lender sets the conditions rather than breaking '
+               'them.'}),
           ('The insurance problem she describes is',
-           ['underinsurance at an outdated value', 'excluded perils',
-            'late payment', 'disputed ownership'], 0,
-           'Nothing is wrong until something is wrong, at which point it is '
-           'catastrophic.')])],
+           ['underinsurance at an outdated value', 'excluded perils', 'late payment', 'disputed ownership'],
+           0,
+           'Nothing is wrong until something is wrong, at which point '
+           'it is catastrophic.',
+           {1: 'Excluded perils are not the gap she describes.', 2: 'Payment delay is not the insurance problem she names.', 3: 'Ownership disputes are not among her four.'})])],
    speak=dict(
     part='Part 1', focus='Objects people value',
     intro=('Two or three sentences. Everyday possessions are a perfectly '
@@ -357,20 +369,36 @@ UNIT = dict(
           'exasperating. Selling would end the relationship, and the '
           'relationship is the thing I was actually buying.'],
          items=[
-          ('Which person bought with an expectation of financial gain?',
+          (
+           'Which person bought with an expectation of financial gain?',
            ['Casimir', 'Thandiwe', 'Ignatius', 'Bernadette'], 1,
            'She describes buying a position and lists the supply-side '
-           'reasons.'),
+           'reasons.',
+           {0: 'Casimir calculates the value as a daily cost of '
+               'pleasure.', 2: 'Ignatius says they were buying social access.', 3: 'Bernadette values the relationship with the maker '
+               'above the object.'}),
           ('Which person says they were buying social access?',
            ['Casimir', 'Thandiwe', 'Ignatius', 'Bernadette'], 2,
-           'Dinners, a dealer who takes his calls, a kind of conversation at '
-           'parties.'),
-          ('Which person calculates the value as a daily cost of pleasure?',
+           'Dinners, a dealer who takes his calls, a kind of '
+           'conversation at parties.',
+           {0: 'Casimir calculates the value as a daily cost of '
+               'pleasure.', 1: 'Thandiwe bought with an expectation of financial gain.', 3: 'Bernadette values the relationship with the maker '
+               'above the object.'}),
+          (
+           'Which person calculates the value as a daily cost of '
+           'pleasure?',
            ['Casimir', 'Thandiwe', 'Ignatius', 'Bernadette'], 0,
-           'Eleven years of looking at it, about nine pounds a day.'),
-          ('Which person values the relationship with the maker above the '
-           'object?', ['Casimir', 'Thandiwe', 'Ignatius', 'Bernadette'], 3,
-           'Selling would end the relationship, which is what she was buying.'),
+           'Eleven years of looking at it, about nine pounds a day.',
+           {1: 'Thandiwe bought with an expectation of financial gain.', 2: 'Ignatius says they were buying social access.', 3: 'Bernadette values the relationship with the maker '
+               'above the object.'}),
+          (
+           'Which person values the relationship with the maker above '
+           'the object?',
+           ['Casimir', 'Thandiwe', 'Ignatius', 'Bernadette'], 3,
+           'Selling would end the relationship, which is what she was '
+           'buying.',
+           {0: 'Casimir calculates the value as a daily cost of '
+               'pleasure.', 1: 'Thandiwe bought with an expectation of financial gain.', 2: 'Ignatius says they were buying social access.'}),
           ('Thandiwe regrets her purchase.',
            ['Yes', 'No', 'Not Given'], 2,
            'She says she has not asked herself whether she likes it, '
@@ -425,24 +453,32 @@ UNIT = dict(
            'were buying was never the object at all.')],
          items=[
           ('What does the speaker say about the object itself?',
-           ['It is most of the price', 'It is a small part of the price',
-            'It is rarely transferred', 'It cannot be valued'], 1,
-           'The only one of the four actually transferred, and strikingly '
-           'small as a share.'),
+           ['It is most of the price', 'It is a small part of the price', 'It is rarely transferred', 'It cannot be valued'],
+           1,
+           'The only one of the four actually transferred, and '
+           'strikingly small as a share.',
+           {0: 'He says it is strikingly small as a share of the '
+               'price.', 2: 'It is the only one of the four actually transferred.', 3: 'Valuation is not what he says is difficult about it.'}),
           ('The attribution is described as',
-           ['the condition of the work', 'a claim about who made it',
-            'the dealer’s valuation', 'the exhibition record'], 1,
-           'Which can be separated from the object, usually painfully.'),
+           ['the condition of the work', 'a claim about who made it', 'the dealer\u2019s valuation', 'the exhibition record'],
+           1,
+           'Which can be separated from the object, usually painfully.',
+           {0: 'Condition is not what attribution means here.', 2: 'The dealer\u2019s valuation belongs to the position, not '
+               'the claim.', 3: 'The exhibition record supports an attribution without '
+               'being one.'}),
           ('Which element does he say never appears on an invoice?',
-           ['The object', 'The attribution', 'The position',
-            'The membership'], 3,
+           ['The object', 'The attribution', 'The position', 'The membership'],
+           3,
            'Access, invitations and standing, which he calls the most '
-           'underestimated.'),
+           'underestimated.',
+           {0: 'The object is exactly what appears on an invoice.', 1: 'The attribution appears on the invoice as a name.', 2: 'The position is implicit in the price itself.'}),
           ('When a forgery is discovered, what collapses?',
-           ['The object', 'The attribution only', 'All four elements',
-            'The membership'], 1,
-           'And the size of the price fall shows how little of the purchase '
-           'was the object.')]),
+           ['The object', 'The attribution only', 'All four elements', 'The membership'],
+           1,
+           'And the size of the price fall shows how little of the '
+           'purchase was the object.',
+           {0: 'The object is unchanged, which is his whole point.', 2: 'He says only one of the four collapses.', 3: 'The membership does he say never appears on an '
+               'invoice.'})]),
     dict(heading='Two dealers disagree about pricing', part='Part 3',
          task='A conversation in a gallery back office', band='l3',
          qtype='Questions 29-33',
@@ -490,26 +526,30 @@ UNIT = dict(
            'refuse.')],
          items=[
           ('Why does Fenella say a museum receives a discount?',
-           ['It buys in volume', 'Its purchase raises the artist’s other '
-            'work', 'It pays promptly', 'It is a public body'], 1,
-           'And it places the work in a public collection.'),
+           ['It buys in volume', 'Its purchase raises the artist\u2019s other work', 'It pays promptly', 'It is a public body'],
+           1, 'And it places the work in a public collection.',
+           {0: 'Volume of purchases is not the reason she gives.', 2: 'Prompt payment is not mentioned as a reason.', 3: 'Being public is not itself the reason, but the effect.'}),
           ('Osvaldo objects that the highest price is paid by',
-           ['museums', 'new collectors', 'a buyer who simply walks in',
-            'other dealers'], 2,
-           'Which he calls a strange way to treat the only person behaving '
-           'normally.'),
-          ('Fenella’s answer is that such a buyer is paying for',
+           ['museums', 'new collectors', 'a buyer who simply walks in', 'other dealers'],
+           2,
+           'Which he calls a strange way to treat the only person '
+           'behaving normally.',
+           {0: 'Museums get the discount, which is his complaint.', 1: 'New collectors get a discount to bring them back.', 3: 'Other dealers are not mentioned in the exchange.'}),
+          ('Fenella\u2019s answer is that such a buyer is paying for',
            ['exclusivity', 'immediacy', 'condition', 'provenance'], 1,
-           'Everyone else waited or brought something other than money.'),
+           'Everyone else waited or brought something other than '
+           'money.',
+           {0: 'Exclusivity is not what she says such a buyer buys.', 2: 'Condition is not part of the pricing argument.', 3: 'Provenance is not raised in this exchange.'}),
           ('What does Osvaldo propose?',
-           ['A fixed price list', 'A published range with its criteria',
-            'An auction', 'No change'], 1,
-           'Museums at the bottom, immediate sales at the top.'),
+           ['A fixed price list', 'A published range with its criteria', 'An auction', 'No change'],
+           1, 'Museums at the bottom, immediate sales at the top.',
+           {0: 'He proposes a range rather than a fixed price.', 2: 'No auction is suggested by either dealer.', 3: 'He clearly proposes a change.'}),
           ('What does Fenella agree to immediately?',
-           ['The wall price list', 'Telling the artists the range',
-            'Discounting for museums', 'Nothing'], 1,
+           ['The wall price list', 'Telling the artists the range', 'Discounting for museums', 'Nothing'],
+           1,
            'She also notices that Osvaldo led with the part she would '
-           'refuse.')])],
+           'refuse.',
+           {0: 'The wall price list is what she wants to think about.', 2: 'Museum discounts are already her practice.', 3: 'She agrees to one of the two proposals at once.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Value',
     longturn=[('The thing I want to describe is a cookery notebook, a hardback '
@@ -697,14 +737,18 @@ UNIT = dict(
           'statement about perhaps two hundred individuals.'],
          items=[
           ('Which category gained share over the five years?',
-           ['Modern', 'Old masters', 'Post-war and contemporary',
-            'Impressionist'], 2,
-           'From 38 to 52 per cent, a gain of fourteen points.'),
-          ('Which paragraph explains that the two charts together say more '
-           'than either alone?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 3,
-           'A shift in category share may record the preferences of very few '
-           'people.'),
+           ['Modern', 'Old masters', 'Post-war and contemporary', 'Impressionist'],
+           2, 'From 38 to 52 per cent, a gain of fourteen points.',
+           {0: 'Modern fell from 24 to 21 per cent.', 1: 'Old masters fell from 14 to 9 per cent.', 3: 'Impressionist fell from 18 to 13 per cent.'}),
+          (
+           'Which paragraph explains that the two charts together say '
+           'more than either alone?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           3,
+           'A shift in category share may record the preferences of '
+           'very few people.',
+           {0: 'Paragraph 1 explains how the two charts divide the '
+               'market.', 1: 'Paragraph 2 gives the category movements.', 2: 'Paragraph 3 gives the price-band divergence.'}),
           ('Old masters fell from 14 per cent to ____________ per cent.',
            None, '9', 'Paragraph 2, one of four categories that declined.'),
           ('Lots under fifty thousand are ____________ per cent of lots '
@@ -770,34 +814,39 @@ UNIT = dict(
            'people who hold the value, and it will describe a small population '
            'while appearing to describe everybody.')],
          items=[
-          ('What does the analyst say about the sentence printed under his '
-           'chart?',
-           ['It is approximately right', 'It is not supported by his chart',
-            'It uses the wrong year', 'It confuses two categories'], 1,
-           'He devotes the lecture to showing why.'),
+          (
+           'What does the analyst say about the sentence printed under '
+           'his chart?',
+           ['It is approximately right', 'It is not supported by his chart', 'It uses the wrong year', 'It confuses two categories'],
+           1, 'He devotes the lecture to showing why.',
+           {0: 'He says it is not supported at all.', 2: 'The year is not what he says is wrong.', 3: 'No confusion of categories is alleged.'}),
           ('Lots over ten million are what share of lots sold?',
-           ['Four in a hundred', 'Four in a thousand', 'Nine per cent',
-            'Forty-one per cent'], 1,
-           'And forty-one per cent of the money.'),
+           ['Four in a hundred', 'Four in a thousand', 'Nine per cent', 'Forty-one per cent'],
+           1, 'And forty-one per cent of the money.',
+           {0: 'Ten times the share he gives.', 2: 'Nine per cent is the value share of the cheapest lots.', 3: 'Forty-one per cent is their share of the money.'}),
           ('He describes the market by volume and by value as',
-           ['the same market', 'two different markets sharing a name',
-            'converging', 'equally sized'], 1,
-           'Which is the key to reading the category chart.'),
-          ('A fourteen-point move in the category chart could be produced '
-           'by', ['a change among ordinary buyers', 'about two hundred '
-            'people at the top', 'a change in exchange rates',
-            'a reclassification'], 1,
-           'Without any ordinary buyer changing behaviour.'),
+           ['the same market', 'two different markets sharing a name', 'converging', 'equally sized'],
+           1, 'Which is the key to reading the category chart.',
+           {0: 'He says they are essentially two different markets.', 2: 'No convergence is described.', 3: 'They differ enormously in value and in volume.'}),
+          (
+           'A fourteen-point move in the category chart could be '
+           'produced by',
+           ['a change among ordinary buyers', 'about two hundred people at the top', 'a change in exchange rates', 'a reclassification'],
+           1, 'Without any ordinary buyer changing behaviour.',
+           {0: 'He says no ordinary buyer need change behaviour.', 2: 'Exchange rates are not part of his argument.', 3: 'No reclassification is mentioned.'}),
           ('Which version of the claim does he say his data supports?',
-           ['Taste has shifted generally',
-            'Taste among the wealthiest buyers has shifted',
-            'Volumes have fallen', 'Prices have risen'], 1,
-           'He calls it a real and interesting finding that does not get '
-           'printed.'),
-          ('His general lesson is that a chart weighted by value describes',
-           ['everybody', 'the people who hold the value', 'the median buyer',
-            'the long run'], 1,
-           'A small population while appearing to describe everybody.')])],
+           ['Taste has shifted generally', 'Taste among the wealthiest buyers has shifted', 'Volumes have fallen', 'Prices have risen'],
+           1,
+           'He calls it a real and interesting finding that does not '
+           'get printed.',
+           {0: 'The general claim is what he says is unsupported.', 2: 'He does not report falling volumes.', 3: 'Price levels are not the claim he examines.'}),
+          (
+           'His general lesson is that a chart weighted by value '
+           'describes',
+           ['everybody', 'the people who hold the value', 'the median buyer', 'the long run'],
+           1,
+           'A small population while appearing to describe everybody.',
+           {0: 'He says it appears to describe everybody and does not.', 2: 'The median buyer is almost weightless in such a chart.', 3: 'Time horizon is not what weighting by value changes.'})])],
    speak=dict(
     part='Part 3', focus='Art as an investment',
     intro=('Four or five sentences. Where a question invites a number, say '
@@ -1013,23 +1062,27 @@ UNIT = dict(
           'the answer without noticing it was a question.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['What the laboratory can and cannot show',
-            'The failure of the expert eye', 'How doubts were recorded',
-            'Why the panel still matters'], 0,
-           'Analysis can show a material was unavailable, not that a work is '
-           'genuine.'),
+           ['What the laboratory can and cannot show', 'The failure of the expert eye', 'How doubts were recorded', 'Why the panel still matters'],
+           0,
+           'Analysis can show a material was unavailable, not that a '
+           'work is genuine.',
+           {1: 'The failure of the eye is paragraph 2, the obvious '
+               'lesson.', 2: 'How doubts were recorded is paragraph 4.', 3: 'Why the panel still matters is paragraphs 10 and 11.'}),
           ('Choose the best heading for paragraph 5.',
-           ['What the laboratory can and cannot show',
-            'Why doubts were never acted on',
-            'A pattern beyond art history', 'The historian’s position'], 1,
-           'The cost of raising the question fell on the person raising '
-           'it.'),
+           ['What the laboratory can and cannot show', 'Why doubts were never acted on', 'A pattern beyond art history', 'The historian\u2019s position'],
+           1,
+           'The cost of raising the question fell on the person '
+           'raising it.',
+           {0: 'What the laboratory can and cannot show is the heading '
+               'for paragraph 3.', 2: 'A pattern beyond art history is the heading for '
+               'paragraph 6.', 3: 'The historian\u2019s position is paragraph 10.'}),
           ('Choose the best heading for paragraph 6.',
-           ['Why doubts were never acted on',
-            'A pattern beyond art history', 'The historian’s position',
-            'What the pigment settled'], 1,
+           ['Why doubts were never acted on', 'A pattern beyond art history', 'The historian\u2019s position', 'What the pigment settled'],
+           1,
            'Distributed expert judgement with no mechanism for pooling '
-           'doubt.'),
+           'doubt.',
+           {0: 'Why doubts were never acted on is the heading for '
+               'paragraph 5.', 2: 'The historian\u2019s position is paragraph 10.', 3: 'What the pigment settled is paragraph 11.'}),
           (
            'The writer believes connoisseurship should be replaced by '
            'scientific analysis.',
@@ -1102,33 +1155,39 @@ UNIT = dict(
            'is a register where somebody can write I am not sure about this '
            'without it being an accusation.')],
          items=[
-          ('How does the lecturer characterise the usual telling of the '
-           'story?',
-           ['A victory of science over expertise', 'A scandal',
-            'An accident', 'A failure of management'], 0,
-           'He then argues it is a story about institutions.'),
+          (
+           'How does the lecturer characterise the usual telling of '
+           'the story?',
+           ['A victory of science over expertise', 'A scandal', 'An accident', 'A failure of management'],
+           0, 'He then argues it is a story about institutions.',
+           {1: 'He does not describe the usual telling as a scandal.', 2: 'Nothing accidental is claimed in the usual version.', 3: 'Management failure is closer to his own account.'}),
           ('What does he say analysis cannot do?',
-           ['Date a pigment', 'Show that a work is genuine',
-            'Examine a ground layer', 'Work on panels'], 1,
-           'It is powerful in one direction and silent in the other.'),
+           ['Date a pigment', 'Show that a work is genuine', 'Examine a ground layer', 'Work on panels'],
+           1,
+           'It is powerful in one direction and silent in the other.',
+           {0: 'Dating a pigment is exactly what it does well.', 2: 'Examining a ground layer is what found the pigment.', 3: 'Panels are what the analysis was performed on.'}),
           ('How many specialists recorded doubts in print?',
            ['One', 'Two', 'Three', 'Nine'], 2,
-           'In 1974, 1988 and 2004, none using the word forgery.'),
+           'In 1974, 1988 and 2004, none using the word forgery.',
+           {0: 'Fewer than the specialists he counts.', 1: 'Still fewer than the three he names.', 3: 'Nine is the number of books, not of specialists.'}),
           ('What did those specialists say about the panel?',
-           ['It was poorly painted', 'It was unusually satisfying',
-            'It was wrongly attributed', 'It was overcleaned'], 1,
+           ['It was poorly painted', 'It was unusually satisfying', 'It was wrongly attributed', 'It was overcleaned'],
+           1,
            'It solved problems more tidily than pictures of its date '
-           'normally do.'),
+           'normally do.',
+           {0: 'They did not criticise the painting\u2019s quality.', 2: 'None of them used the word forgery.', 3: 'Overcleaning is not among their observations.'}),
           ('What does he say was missing?',
-           ['Better instruments', 'A mechanism for pooling doubt',
-            'Funding', 'Access to the panel'], 1,
+           ['Better instruments', 'A mechanism for pooling doubt', 'Funding', 'Access to the panel'],
+           1,
            'Three mild reservations over thirty years never became one '
-           'question.'),
+           'question.',
+           {0: 'He says the instruments performed as well as they can.', 2: 'Funding is not what he says was absent.', 3: 'The panel hung on the wall for forty years.'}),
           ('His proposed fix is',
-           ['more scientific testing', 'a register for recording uncertainty',
-            'fewer acquisitions', 'external review'], 1,
-           'Somewhere to write that you are not sure without it being an '
-           'accusation.')])],
+           ['more scientific testing', 'a register for recording uncertainty', 'fewer acquisitions', 'external review'],
+           1,
+           'Somewhere to write that you are not sure without it being '
+           'an accusation.',
+           {0: 'He says better instruments are not the fix.', 2: 'Fewer acquisitions is not what he proposes.', 3: 'External review is not the mechanism he names.'})])],
    speak=dict(
     part='Part 3', focus='What changes when the author changes',
     followup=[(('You would display the forgery. Does it matter who painted a '
@@ -1351,17 +1410,27 @@ UNIT = dict(
           'the thing they were looking at has not.'],
          items=[
           ('Which paragraph describes value as a social fact?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'], 2,
-           'Paragraph 5: the institutional account, on which asking what in '
-           'the object grounds value is a category error.'),
-          ('Which paragraph tests the accounts against observed behaviour?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
-           'Paragraph 6: betrayal, named forgers selling under their own '
-           'names, and prices during disputed attributions.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           2,
+           'Paragraph 5: the institutional account, on which asking '
+           'what in the object grounds value is a category error.',
+           {0: 'Paragraph 3 gives the historical account.', 1: 'Paragraph 4 gives the achievement account.', 3: 'Paragraph 6 tests the accounts against observed '
+               'behaviour.'}),
+          (
+           'Which paragraph tests the accounts against observed '
+           'behaviour?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
+           'Paragraph 6: betrayal, named forgers selling under their '
+           'own names, and prices during disputed attributions.',
+           {0: 'Paragraph 4 gives the achievement account.', 1: 'Paragraph 5 describes value as a social fact.', 3: 'Paragraph 7 weighs the three accounts together.'}),
           ('Which paragraph applies the argument to museum practice?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 3,
-           'Paragraph 8: institutions respond to attribution, visitors to the '
-           'object.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           3,
+           'Paragraph 8: institutions respond to attribution, visitors '
+           'to the object.',
+           {0: 'Paragraph 5 describes value as a social fact.', 1: 'Paragraph 6 tests the accounts against observed '
+               'behaviour.', 2: 'Paragraph 7 weighs the three accounts together.'}),
           (
            'The writer believes one of the three accounts is correct '
            'and the others wrong.',
@@ -1442,34 +1511,44 @@ UNIT = dict(
            'That is an honest answer and it is not a good one, and it is the '
            'thing about my profession I would most like to change.')],
          items=[
-          ('What does the conservator say about the thought experiment?',
-           ['It is well constructed', 'Its premise does most of the work',
-            'It is irrelevant to museums', 'It has been settled'], 1,
+          (
+           'What does the conservator say about the thought '
+           'experiment?',
+           ['It is well constructed', 'Its premise does most of the work', 'It is irrelevant to museums', 'It has been settled'],
+           1,
            'She calls indistinguishable under every instrument a false '
-           'premise.'),
+           'premise.',
+           {0: 'She says the premise is false, not well constructed.', 2: 'She applies it directly to museum practice.', 3: 'She treats the question as open.'}),
           ('Her objection rests on',
-           ['the cost of analysis', 'techniques that did not previously '
-            'exist', 'museum policy', 'the quality of forgeries'], 1,
-           'She finds unexpected differences with methods that are new since '
-           'the last examination.'),
+           ['the cost of analysis', 'techniques that did not previously exist', 'museum policy', 'the quality of forgeries'],
+           1,
+           'She finds unexpected differences with methods that are new '
+           'since the last examination.',
+           {0: 'Cost of analysis is not her objection.', 2: 'Museum policy is her later point, about labels.', 3: 'Forgery quality is the premise, not her objection.'}),
           ('Achterberg says his question is intended to reveal',
-           ['what forgers can do', 'what our judgement is about',
-            'how museums decide', 'whether instruments are reliable'], 1,
+           ['what forgers can do', 'what our judgement is about', 'how museums decide', 'whether instruments are reliable'],
+           1,
            'He concedes her practical point and separates it from the '
-           'philosophical one.'),
+           'philosophical one.',
+           {0: 'What forgers can do is the premise, not the aim.', 2: 'Museum decisions come up later in the exchange.', 3: 'Instrument reliability is her point, not his question.'}),
           ('The conservator says that without possible evidence',
-           ['the works are equal', 'she is unsure what genuine means',
-            'the forgery is better', 'the question is easy'], 1,
-           'Which Achterberg identifies as itself a position.'),
+           ['the works are equal', 'she is unsure what genuine means', 'the forgery is better', 'the question is easy'],
+           1, 'Which Achterberg identifies as itself a position.',
+           {0: 'She does not say the two works are equal.', 2: 'She does not rank the forgery above the original.', 3: 'She says the question becomes harder, not easier.'}),
           ('She distinguishes her position from his by saying that',
-           ['history does not matter', 'history and its traces are '
-            'inseparable in practice', 'evidence is always available',
-            'philosophers are wrong'], 1,
-           'A philosopher can separate them; she is unsure a practice can.'),
+           ['history does not matter', 'history and its traces are inseparable in practice', 'evidence is always available', 'philosophers are wrong'],
+           1,
+           'A philosopher can separate them; she is unsure a practice '
+           'can.',
+           {0: 'She says the panel was a forgery in 2012, so history '
+               'matters.', 2: 'She says new evidence keeps arriving, not that it is '
+               'always there.', 3: 'She calls his separation possible for a philosopher.'}),
           ('Why does she say a reattributed work comes off the wall?',
-           ['It loses value', 'The label would be wrong',
-            'Visitors complain', 'It needs conservation'], 1,
-           'She calls this an honest answer, while refusing to call it a good one.')])],
+           ['It loses value', 'The label would be wrong', 'Visitors complain', 'It needs conservation'],
+           1,
+           'She calls this an honest answer, while refusing to call it '
+           'a good one.',
+           {0: 'She refuses the claim that it was worth nothing.', 2: 'Visitor complaints are not the reason she gives.', 3: 'Conservation need is not why it is moved.'})])],
    speak=dict(
     part='Part 3', focus='Originals and copies',
     sounds=[('Words from French and Italian keep irregular stress in English: '

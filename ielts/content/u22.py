@@ -54,18 +54,26 @@ UNIT = dict(
           'is advertised, and holding it on secondment confers no priority.'],
          items=[
           ('A secondment normally lasts',
-           ['up to three months', 'three to twelve months',
-            'one to two years', 'as long as both agree'], 1,
-           'Paragraph 1, after which the employee returns to the substantive '
-           'post.'),
+           ['up to three months', 'three to twelve months', 'one to two years', 'as long as both agree'],
+           1,
+           'Paragraph 1, after which the employee returns to the '
+           'substantive post.',
+           {0: 'Three months is the shortest a secondment normally '
+               'runs.', 2: 'Longer than paragraph 1 allows for a temporary move.', 3: 'The period is set by the policy, not left to the '
+               'managers.'}),
           ('No interview is required for a secondment of under',
-           ['three months', 'six months', 'nine months', 'twelve months'], 1,
+           ['three months', 'six months', 'nine months', 'twelve months'],
+           1,
            'Paragraph 2, where the two managers may arrange it by '
-           'agreement.'),
+           'agreement.',
+           {0: 'Shorter than the threshold paragraph 2 gives.', 2: 'Longer than the period that dispenses with an '
+               'interview.', 3: 'A twelve-month secondment does require an interview.'}),
           ('If the receiving role pays less, the employee',
-           ['takes the lower salary', 'keeps their existing salary',
-            'receives an allowance', 'cannot be seconded'], 1,
-           'Paragraph 3: nobody is paid down for taking a secondment.'),
+           ['takes the lower salary', 'keeps their existing salary', 'receives an allowance', 'cannot be seconded'],
+           1,
+           'Paragraph 3: nobody is paid down for taking a secondment.',
+           {0: 'Nobody is ever paid down for taking a secondment.', 2: 'No allowance is mentioned; the existing salary is '
+               'kept.', 3: 'A lower-paid receiving role is no bar to a secondment.'}),
           ('An employee’s ____________ post is held open during a '
            'secondment.', None, 'substantive',
            'Paragraph 4, and it may be covered temporarily.'),
@@ -198,23 +206,30 @@ UNIT = dict(
            'payslip cannot go down.')],
          items=[
           ('Which moves does the speaker say work best?',
-           ['One grade up', 'Sideways into a different function',
-            'Into management', 'Out of the organisation'], 1,
-           'Such people are more likely to be promoted within three years.'),
+           ['One grade up', 'Sideways into a different function', 'Into management', 'Out of the organisation'],
+           1,
+           'Such people are more likely to be promoted within three '
+           'years.',
+           {0: 'One grade up is the move people imagine rather than '
+               'the best one.', 2: 'Management is not named as the direction that works.', 3: 'He is describing moves inside the organisation only.'}),
           ('The commonest mistake with timing is',
-           ['applying too early', 'applying too late',
-            'applying too often', 'missing the closing date'], 1,
-           'An application by somebody who wants to leave reads differently '
-           'from one by somebody who wants to arrive.'),
+           ['applying too early', 'applying too late', 'applying too often', 'missing the closing date'],
+           1,
+           'An application by somebody who wants to leave reads '
+           'differently from one by somebody who wants to arrive.',
+           {0: 'Applying early is what he recommends, not the mistake.', 2: 'Frequency of applying is not what he warns about.', 3: 'Closing dates are not mentioned in the talk.'}),
           ('Why do internal candidates lose to external ones?',
-           ['Lower ability', 'They assume the panel already knows them',
-            'Worse qualifications', 'Manager opposition'], 1,
-           'He says it is almost never ability, and that they write four '
-           'lines.'),
+           ['Lower ability', 'They assume the panel already knows them', 'Worse qualifications', 'Manager opposition'],
+           1,
+           'He says it is almost never ability, and that they write '
+           'four lines.',
+           {0: 'He says it is almost never a matter of ability.', 2: 'Qualifications are not what his review of the reasons '
+               'found.', 3: 'Managers are not blamed anywhere in the talk.'}),
           ('People who read their feedback are appointed next time at',
-           ['the same rate', 'nearly twice the rate', 'three times the '
-            'rate', 'a lower rate'], 1,
-           'He calls this the single clearest number he has.')])],
+           ['the same rate', 'nearly twice the rate', 'three times the rate', 'a lower rate'],
+           1, 'He calls this the single clearest number he has.',
+           {0: 'That would make the feedback worth nothing.', 2: 'Higher than the figure he calls his clearest number.', 3: 'Reading feedback raises the rate rather than lowering '
+               'it.'})])],
    speak=dict(
     part='Part 1', focus='Skills you have learned at work',
     intro=('Two or three sentences each. A job, a course or helping at home '
@@ -345,18 +360,23 @@ UNIT = dict(
          items=[
           ('Which person says the main difficulty was psychological?',
            ['Benedetta', 'Kwabena', 'Marguerite', 'Haruki'], 0,
-           'Eleven months of being the oldest and the worst at everything.'),
+           'Eleven months of being the oldest and the worst at '
+           'everything.',
+           {1: 'Kwabena found that paying made them finish.', 2: 'Marguerite changed without moving jobs.', 3: 'Haruki credits circumstances others may not have.'}),
           ('Which person found that paying made them finish?',
            ['Benedetta', 'Kwabena', 'Marguerite', 'Haruki'], 1,
-           'Three free courses abandoned, one paid course finished in eleven '
-           'weeks.'),
+           'Three free courses abandoned, one paid course finished in '
+           'eleven weeks.',
+           {0: 'Benedetta says the main difficulty was psychological.', 2: 'Marguerite changed without moving jobs.', 3: 'Haruki credits circumstances others may not have.'}),
           ('Which person changed without moving jobs?',
            ['Benedetta', 'Kwabena', 'Marguerite', 'Haruki'], 2,
-           'Same job title, completely different work underneath it.'),
+           'Same job title, completely different work underneath it.',
+           {0: 'Benedetta says the main difficulty was psychological.', 1: 'Kwabena found that paying made them finish.', 3: 'Haruki credits circumstances others may not have.'}),
           ('Which person credits circumstances others may not have?',
            ['Benedetta', 'Kwabena', 'Marguerite', 'Haruki'], 3,
            'Three months unpaid, possible only because a partner was '
-           'earning.'),
+           'earning.',
+           {0: 'Benedetta says the main difficulty was psychological.', 1: 'Kwabena found that paying made them finish.', 2: 'Marguerite changed without moving jobs.'}),
           ('Kwabena believes free courses are a bad idea.',
            ['Yes', 'No', 'Not Given'], 2,
            'He reports what happened to him; he never recommends '
@@ -406,22 +426,29 @@ UNIT = dict(
            'all.')],
          items=[
           ('Which type has the highest completion rate?',
-           ['A short course', 'A qualification next to your field',
-            'A full change of field', 'Staying and adapting'], 0,
-           'Around ninety per cent, and it changes pay least.'),
-          ('Completion for a qualification in a neighbouring field is about',
-           ['forty per cent', 'sixty-five per cent', 'ninety per cent',
-            'unknown'], 1,
-           'And the people who finish usually move jobs.'),
+           ['A short course', 'A qualification next to your field', 'A full change of field', 'Staying and adapting'],
+           0, 'Around ninety per cent, and it changes pay least.',
+           {1: 'A qualification next to your field completes at '
+               'sixty-five per cent.', 2: 'A full change of field completes at about forty per '
+               'cent.', 3: 'Adapting in place is the type nobody counts at all.'}),
+          (
+           'Completion for a qualification in a neighbouring field is '
+           'about',
+           ['forty per cent', 'sixty-five per cent', 'ninety per cent', 'unknown'],
+           1, 'And the people who finish usually move jobs.',
+           {0: 'Forty per cent is the full change of field.', 2: 'Ninety per cent is the fortnight course.', 3: 'He gives the figure plainly, so it is known.'}),
           ('The best predictor of finishing a full change of field is',
-           ['ability', 'motivation', 'another earner in the household',
-            'previous qualifications'], 2,
-           'He says explicitly that it is not ability or motivation.'),
+           ['ability', 'motivation', 'another earner in the household', 'previous qualifications'],
+           2,
+           'He says explicitly that it is not ability or motivation.',
+           {0: 'He says explicitly that it is not ability.', 1: 'He rules out motivation in the same sentence.', 3: 'Earlier qualifications are not among his predictors.'}),
           ('Which type does nobody count?',
-           ['Short courses', 'Neighbouring qualifications',
-            'Full changes', 'Adapting in the same job'], 3,
-           'No funding, no certificate, and the commonest way a workforce '
-           'changes.')]),
+           ['Short courses', 'Neighbouring qualifications', 'Full changes', 'Adapting in the same job'],
+           3,
+           'No funding, no certificate, and the commonest way a '
+           'workforce changes.',
+           {0: 'Short courses have the completion rate he quotes '
+               'first.', 1: 'Neighbouring qualifications are counted and measured.', 2: 'Full changes are counted, at about forty per cent.'})]),
     dict(heading='Two advisers on retraining schemes', part='Part 3',
          task='A discussion between careers advisers', band='l3',
          qtype='Questions 29-33',
@@ -459,26 +486,41 @@ UNIT = dict(
            'around.')],
          items=[
           ('The completion rate for the two-year programme is',
-           ['thirty-eight per cent', 'sixty-five per cent',
-            'ninety per cent', 'not yet known'], 0,
-           'Which Rosalind expects will prompt the department to close it.'),
-          ('Emeka says comparing it with fortnight courses is like comparing',
-           ['two marathons', 'a marathon with a bus ride',
-            'two bus rides', 'a course with a job'], 1,
-           'His point is that the two populations are not comparable.'),
+           ['thirty-eight per cent', 'sixty-five per cent', 'ninety per cent', 'not yet known'],
+           0,
+           'Which Rosalind expects will prompt the department to close '
+           'it.',
+           {1: 'Sixty-five per cent is the neighbouring qualification.', 2: 'Ninety per cent is the fortnight course.', 3: 'The figures have just come through, which is why they '
+               'meet.'}),
+          (
+           'Emeka says comparing it with fortnight courses is like '
+           'comparing',
+           ['two marathons', 'a marathon with a bus ride', 'two bus rides', 'a course with a job'],
+           1,
+           'His point is that the two populations are not comparable.',
+           {0: 'Two marathons would make the two courses comparable.', 2: 'Two bus rides would also make them comparable.', 3: 'The comparison he draws is between two courses.'}),
           ('What does he say causes the dropout?',
-           ['Poor teaching', 'Surviving two years financially',
-            'Lack of interest', 'Difficult assessment'], 1,
-           'Nobody leaves a fortnight course because of a rent increase.'),
+           ['Poor teaching', 'Surviving two years financially', 'Lack of interest', 'Difficult assessment'],
+           1,
+           'Nobody leaves a fortnight course because of a rent '
+           'increase.',
+           {0: 'Teaching quality is not raised by either adviser.', 2: 'Interest is not what he says drives people out.', 3: 'Assessment difficulty is not mentioned in the '
+               'exchange.'}),
           ('What does Rosalind point out about maintenance payments?',
-           ['They are too expensive', 'Nobody has tested them',
-            'They have failed before', 'The department forbids them'], 1,
-           'Which is why Emeka proposes a trial instead of a programme.'),
+           ['They are too expensive', 'Nobody has tested them', 'They have failed before', 'The department forbids them'],
+           1,
+           'Which is why Emeka proposes a trial instead of a '
+           'programme.',
+           {0: 'Cost is the department\u2019s concern, not her objection '
+               'here.', 2: 'No earlier failure is reported, because none was '
+               'tried.', 3: 'No prohibition is mentioned by either adviser.'}),
           ('Why do they add an interim report at twelve months?',
-           ['The funder requires it', 'Dropout happens early',
-            'The sample is small', 'To save money'], 1,
-           'Most of it happens in the first four months, so an early report '
-           'is informative.')])],
+           ['The funder requires it', 'Dropout happens early', 'The sample is small', 'To save money'],
+           1,
+           'Most of it happens in the first four months, so an early '
+           'report is informative.',
+           {0: 'No funder requirement is mentioned in the exchange.', 2: 'The sample size is settled separately, at a hundred '
+               'each.', 3: 'The interim is for speed of evidence, not for economy.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Change at work',
     longturn=[('The thing I had to learn was a new system for logging hospital '
@@ -669,18 +711,24 @@ UNIT = dict(
           'some of its contents and acquires others instead of being thrown '
           'away.'],
          items=[
-          ('Which occupation has the highest share of routine manual work?',
-           ['Checkout operator', 'Warehouse picker', 'Care assistant',
-            'Plumber'], 1,
-           'At 61 per cent, against 46 for the checkout operator.'),
-          ('Which paragraph explains why whole-occupation forecasts fail?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'], 2,
-           'No occupation is entirely routine, and the remainder is what '
-           'changes the job’s shape.'),
+          (
+           'Which occupation has the highest share of routine manual '
+           'work?',
+           ['Checkout operator', 'Warehouse picker', 'Care assistant', 'Plumber'],
+           1, 'At 61 per cent, against 46 for the checkout operator.',
+           {0: 'The checkout operator is 46 per cent routine manual.', 2: 'The care assistant is 70 per cent non-routine.', 3: 'The plumber is 67 per cent non-routine.'}),
+          (
+           'Which paragraph explains why whole-occupation forecasts '
+           'fail?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           2,
+           'No occupation is entirely routine, and the remainder is '
+           'what changes the job\u2019s shape.',
+           {0: 'Paragraph 2 explains why machines took routine tasks.', 1: 'Paragraph 3 is about the two least automatable jobs.', 3: 'Paragraph 5 draws the general lesson about bundles.'}),
           ('Which two occupations are hardest to automate?',
-           ['Checkout and warehouse', 'Warehouse and care',
-            'Care and plumbing', 'Checkout and plumbing'], 2,
-           'At 70 and 67 per cent non-routine respectively.'),
+           ['Checkout and warehouse', 'Warehouse and care', 'Care and plumbing', 'Checkout and plumbing'],
+           2, 'At 70 and 67 per cent non-routine respectively.',
+           {0: 'Checkout and warehouse are the two most routine jobs.', 1: 'The warehouse picker is the most routine of the four.', 3: 'The checkout operator is 80 per cent routine.'}),
           ('Routine ____________ work follows a rule that can be written '
            'down.', None, 'cognitive',
            'Paragraph 1, as against routine manual work, which follows a '
@@ -742,33 +790,44 @@ UNIT = dict(
            'been telling us about it for a decade.')],
          items=[
           ('The lecturer says the wrong question is',
-           ['which tasks are routine', 'will this job be automated',
-            'how fast machines improve', 'who pays for retraining'], 1,
-           'He proposes task composition as the right one.'),
+           ['which tasks are routine', 'will this job be automated', 'how fast machines improve', 'who pays for retraining'],
+           1, 'He proposes task composition as the right one.',
+           {0: 'Task composition is what he says the right question is '
+               'about.', 2: 'The speed of machine improvement is not his subject.', 3: 'Retraining costs are not discussed in the lecture.'}),
           ('Which category do machines struggle with?',
-           ['Routine manual', 'Routine cognitive', 'Non-routine',
-            'All three equally'], 2,
-           'Judgement, unpredictable physical settings and other people.'),
+           ['Routine manual', 'Routine cognitive', 'Non-routine', 'All three equally'],
+           2,
+           'Judgement, unpredictable physical settings and other '
+           'people.',
+           {0: 'Routine manual work is what machines took first.', 1: 'Routine cognitive work follows a writable rule.', 3: 'He says machines take the first two categories '
+               'readily.'}),
           ('He compares the care assistant with',
-           ['a plumber', 'a junior accountant', 'a warehouse picker',
-            'a teacher'], 1,
-           'The accountant has longer training and a more automatable day.'),
+           ['a plumber', 'a junior accountant', 'a warehouse picker', 'a teacher'],
+           1,
+           'The accountant has longer training and a more automatable '
+           'day.',
+           {0: 'The plumber is the other hard-to-automate job, not the '
+               'contrast.', 2: 'The warehouse picker is the most routine of the four.', 3: 'No teacher appears anywhere in the lecture.'}),
           ('The inversion he describes is that',
-           ['machines do everything better',
-            'what is hard for humans is easy for machines',
-            'training predicts automation', 'small children learn faster'], 1,
+           ['machines do everything better', 'what is hard for humans is easy for machines', 'training predicts automation', 'small children learn faster'],
+           1,
            'And what a small child does without noticing remains very '
-           'difficult.'),
+           'difficult.',
+           {0: 'He says the opposite about faces and cluttered rooms.', 2: 'Training length predicts automation badly, which is '
+               'his example.', 3: 'How fast children learn is not the inversion he names.'}),
           ('Automating eighty per cent of a job produces',
-           ['eight-tenths of a redundancy', 'a job with a different shape',
-            'no change', 'a new occupation'], 1,
-           'And often a worse one, because what is left is the exceptions '
-           'all day.'),
+           ['eight-tenths of a redundancy', 'a job with a different shape', 'no change', 'a new occupation'],
+           1,
+           'And often a worse one, because what is left is the '
+           'exceptions all day.',
+           {0: 'He says that is exactly what you do not get.', 2: 'The job changes shape, so there is a change.', 3: 'No new occupation is created in his account.'}),
           ('Where does he say policy attention should go?',
-           ['Counting jobs lost', 'What the remaining work feels like',
-            'Training budgets', 'Machine capability'], 1,
+           ['Counting jobs lost', 'What the remaining work feels like', 'Training budgets', 'Machine capability'],
+           1,
            'Studies of this have barely been done, though workers have '
-           'reported it for a decade.')])],
+           'reported it for a decade.',
+           {0: 'Counting jobs lost is what he says has overshot.', 2: 'Training budgets are not his subject at all.', 3: 'Machine capability is the first two categories, not '
+               'the policy.'})])],
    speak=dict(
     part='Part 3', focus='Work that cannot be automated',
     intro=('Four or five sentences. Try once to talk about tasks instead of '
@@ -969,19 +1028,28 @@ UNIT = dict(
           'than that the evidence is poor.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['The reassuring account', 'What the account leaves out',
-            'A generation of adjustment', 'Work at both ends'], 1,
-           'The aggregate recovered in a decade; the individuals mostly did '
-           'not.'),
+           ['The reassuring account', 'What the account leaves out', 'A generation of adjustment', 'Work at both ends'],
+           1,
+           'The aggregate recovered in a decade; the individuals '
+           'mostly did not.',
+           {0: 'The reassuring account is paragraph 2, on cloth and '
+               'demand.', 2: 'A generation of adjustment is paragraph 4, on '
+               'agriculture.', 3: 'Work at both ends is the heading for paragraph 5.'}),
           ('Choose the best heading for paragraph 5.',
-           ['A generation of adjustment', 'Work at both ends',
-            'Why adjustment changed', 'Two claims, reported as one'], 1,
-           'New jobs appearing at both ends, which is polarisation.'),
+           ['A generation of adjustment', 'Work at both ends', 'Why adjustment changed', 'Two claims, reported as one'],
+           1, 'New jobs appearing at both ends, which is polarisation.',
+           {0: 'A generation of adjustment is paragraph 4, on '
+               'agriculture.', 2: 'Why adjustment changed is paragraph 6, on moving up or '
+               'down.', 3: 'Two claims, reported as one is the heading for '
+               'paragraph 7.'}),
           ('Choose the best heading for paragraph 7.',
-           ['Why adjustment changed', 'Two claims, reported as one',
-            'Work at both ends', 'A badly framed question'], 1,
-           'Employment recovers is supported; displaced workers recover is '
-           'not.'),
+           ['Why adjustment changed', 'Two claims, reported as one', 'Work at both ends', 'A badly framed question'],
+           1,
+           'Employment recovers is supported; displaced workers '
+           'recover is not.',
+           {0: 'Why adjustment changed is paragraph 6, on moving up or '
+               'down.', 2: 'Work at both ends is the heading for paragraph 5.', 3: 'The badly framed question is paragraph 10, the '
+               'summary.'}),
           ('The writer believes machines reduce total employment.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 1: total employment was higher twenty years '
@@ -1043,29 +1111,42 @@ UNIT = dict(
            'questions.')],
          items=[
           ('The lecturer says each generation has been',
-           ['wrong about everything', 'wrong about the total and right about '
-            'somebody', 'right about the total', 'too pessimistic'], 1,
-           'He sets out to separate the two claims.'),
-          ('In all four episodes, total employment twenty years later was',
+           ['wrong about everything', 'wrong about the total and right about somebody', 'right about the total', 'too pessimistic'],
+           1, 'He sets out to separate the two claims.',
+           {0: 'He says they have been right about somebody every '
+               'time.', 2: 'Being right about the total is the optimists\u2019 case, '
+               'not theirs.', 3: 'He credits the optimists with the better of the '
+               'totals.'}),
+          (
+           'In all four episodes, total employment twenty years later '
+           'was',
            ['lower', 'the same', 'higher', 'not measured'], 2,
-           'Which he calls the optimists’ case, and correct.'),
+           'Which he calls the optimists\u2019 case, and correct.',
+           {0: 'A fall is what the pessimists predicted and did not '
+               'happen.', 1: 'No episode left the total unchanged.', 3: 'He says the national statistics measured it in all '
+               'four.'}),
           ('What happened to the displaced weavers?',
-           ['They became factory hands', 'Many finished poorer',
-            'They moved abroad', 'They retrained'], 1,
-           'The new work came a generation later and went to other people’s '
-           'children.'),
+           ['They became factory hands', 'Many finished poorer', 'They moved abroad', 'They retrained'],
+           1,
+           'The new work came a generation later and went to other '
+           'people\u2019s children.',
+           {0: 'He says they did not become well-paid factory hands.', 2: 'Emigration is not part of his account of the weavers.', 3: 'No retraining is described in the weaving episode.'}),
           ('How long did agricultural adjustment take?',
-           ['Ten years', 'About thirty years', 'Fifty years',
-            'A century'], 1,
-           'Which he points out is a working life.'),
+           ['Ten years', 'About thirty years', 'Fifty years', 'A century'],
+           1, 'Which he points out is a working life.',
+           {0: 'Shorter than the period he calls a working life.', 2: 'Fifty years is the span of mechanised weaving.', 3: 'Longer than the figure he gives for agriculture.'}),
           ('Office computerisation removed work that was',
-           ['manual and low-paid', 'cognitive and middle-paid',
-            'professional', 'seasonal'], 1,
-           'Clerks, typists and book-keeping, replaced at both ends.'),
+           ['manual and low-paid', 'cognitive and middle-paid', 'professional', 'seasonal'],
+           1,
+           'Clerks, typists and book-keeping, replaced at both ends.',
+           {0: 'Manual low-paid work was the earlier episodes, not '
+               'this one.', 2: 'Professional work is where some of the new jobs '
+               'appeared.', 3: 'Seasonal work is not part of the office episode.'}),
           ('His closing request is to ask whether a claim is about',
-           ['the past or the future', 'totals or people',
-            'machines or software', 'one country or many'], 1,
-           'Because the evidence differs for each.')])],
+           ['the past or the future', 'totals or people', 'machines or software', 'one country or many'],
+           1, 'Because the evidence differs for each.',
+           {0: 'Past and future is not the distinction he asks for.', 2: 'Machines against software is not the question he '
+               'poses.', 3: 'Country coverage is not what he tells you to ask.'})])],
    speak=dict(
     part='Part 3', focus='Predicting the effect of a technology',
     followup=[(('You say we cannot predict which jobs go. Does history not '
@@ -1266,19 +1347,33 @@ UNIT = dict(
                  'budget, and it explains the shape of the literature better '
                  'than any argument about ideology does.')],
          items=[
-          ('Which paragraph explains why averaging destroys information?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'], 1,
-           'Half gaining and half losing reports the same average as nobody '
-           'changing.'),
-          ('Which paragraph describes adjustment through population '
-           'turnover?', ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
-           'Adjustment at the level of a country and bereavement at the level '
-           'of a town.'),
-          ('Which paragraph argues that the two sides often do not '
-           'disagree?', ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 8'], 2,
-           'Both report accurately about different objects.'),
+          (
+           'Which paragraph explains why averaging destroys '
+           'information?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
+           'Half gaining and half losing reports the same average as '
+           'nobody changing.',
+           {0: 'Paragraph 2 gives the standard finding and the '
+               'operator.', 2: 'Paragraph 4 describes adjustment through population '
+               'turnover.', 3: 'Paragraph 5 is about geography and local losses.'}),
+          (
+           'Which paragraph describes adjustment through population '
+           'turnover?',
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1,
+           'Adjustment at the level of a country and bereavement at '
+           'the level of a town.',
+           {0: 'Paragraph 3 explains why averaging destroys '
+               'information.', 2: 'Paragraph 5 is about geography and local losses.', 3: 'Paragraph 6 insists the aggregate findings are not '
+               'wrong.'}),
+          (
+           'Which paragraph argues that the two sides often do not '
+           'disagree?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+           2, 'Both report accurately about different objects.',
+           {0: 'Paragraph 5 is about geography and local losses.', 1: 'Paragraph 6 insists the aggregate findings are not '
+               'wrong.', 3: 'Paragraph 8 is about unstated weighting.'}),
           ('The writer believes the aggregate findings are wrong.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 6 says the error is in the inference and not the '
@@ -1429,31 +1524,33 @@ UNIT = dict(
            'have made it look small.')],
          items=[
           ('What does Barczak say they agree on?',
-           ['Models are wrong', 'Aggregate employment recovers',
-            'Policy should change', 'Data is poor'], 1,
-           'He says he has never disputed it.'),
+           ['Models are wrong', 'Aggregate employment recovers', 'Policy should change', 'Data is poor'],
+           1, 'He says he has never disputed it.',
+           {0: 'Neither of them says the models are simply wrong.', 2: 'Policy is where they disagree, not where they agree.', 3: 'Data quality is not what he concedes at the start.'}),
           ('In his data, the dominant mechanism is that',
-           ['workers move between sectors',
-            'the displaced cohort never recovers',
-            'wages fall everywhere', 'firms retrain staff'], 1,
-           'And the next cohort enters the new jobs directly.'),
+           ['workers move between sectors', 'the displaced cohort never recovers', 'wages fall everywhere', 'firms retrain staff'],
+           1, 'And the next cohort enters the new jobs directly.',
+           {0: 'Movement between sectors is what the models represent.', 2: 'He does not claim wages fall everywhere.', 3: 'Firm retraining is not part of his finding.'}),
           ('What does Oyelaran-Smit concede about calibration?',
-           ['It is never done', 'It fits both mechanisms by construction',
-            'It uses the wrong data', 'It is too slow'], 1,
-           'Because the parameter is calibrated to the aggregate.'),
+           ['It is never done', 'It fits both mechanisms by construction', 'It uses the wrong data', 'It is too slow'],
+           1, 'Because the parameter is calibrated to the aggregate.',
+           {0: 'She says it is done, and done against the aggregate.', 2: 'The data is not what she says is at fault.', 3: 'Speed of calibration is not the issue she raises.'}),
           ('What does she then take back?',
-           ['Her concession', 'That the policy conclusion is obvious',
-            'The aggregate finding', 'The model'], 1,
-           'Compensating the displaced and speeding the transition pull in '
-           'opposite directions.'),
+           ['Her concession', 'That the policy conclusion is obvious', 'The aggregate finding', 'The model'],
+           1,
+           'Compensating the displaced and speeding the transition '
+           'pull in opposite directions.',
+           {0: 'She keeps the concession and adds a qualification.', 2: 'Both of them accept the aggregate finding.', 3: 'She defends the model rather than withdrawing it.'}),
           ('What do they agree to publish in future papers?',
-           ['Larger samples', 'How long adjustment takes, by cohort',
-            'Their disagreements', 'Regional wages'], 1,
-           'With Barczak adding geography to the proposal.'),
+           ['Larger samples', 'How long adjustment takes, by cohort', 'Their disagreements', 'Regional wages'],
+           1, 'With Barczak adding geography to the proposal.',
+           {0: 'Sample size is not what they agree to publish.', 2: 'They publish timings, not an account of their '
+               'argument.', 3: 'Geography is added to the timings, not published '
+               'alone.'}),
           ('How does Oyelaran-Smit describe his addition?',
-           ['A small point', 'A larger concession than hers',
-            'Unnecessary', 'Already standard'], 1,
-           'She says he has made it look small.')]),
+           ['A small point', 'A larger concession than hers', 'Unnecessary', 'Already standard'],
+           1, 'She says he has made it look small.',
+           {0: 'She says he has made a large concession look small.', 2: 'He calls the fix cheap, not unnecessary.', 3: 'He says the opposite: the word never appears.'})]),
     dict(heading='A plan of the new training centre',
          part='Part 2', task='Plan labelling and matching',
          band='l2',

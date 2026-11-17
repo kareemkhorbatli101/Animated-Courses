@@ -67,17 +67,28 @@ UNIT = dict(
           'documented separately.'],
          items=[
           ('A screen time limit, when reached, produces',
-           ['an automatic shutdown', 'a prompt that may be dismissed',
-            'a message to a parent', 'a reduced data allowance'], 1,
-           'Paragraph 1, with dismissals recorded in the weekly summary.'),
-          ('Which control actually prevents an application from opening?',
-           ['A screen time limit', 'Silent delivery', 'A focus mode',
-            'A parental approval'], 2,
-           'Paragraph 3, the only prohibition rather than a prompt.'),
-          ('When an application is switched to silent delivery, the '
-           'application', ['is told', 'is not told', 'is blocked',
-            'is uninstalled'], 1,
-           'Paragraph 2, which also collects its messages into a digest.'),
+           ['an automatic shutdown', 'a prompt that may be dismissed', 'a message to a parent', 'a reduced data allowance'],
+           1,
+           'Paragraph 1, with dismissals recorded in the weekly '
+           'summary.',
+           {0: 'Paragraph 1 says the prompt may be dismissed.', 2: 'Parental approval belongs to the family account '
+               'system.', 3: 'Data allowances are not mentioned in the notice.'}),
+          (
+           'Which control actually prevents an application from '
+           'opening?',
+           ['A screen time limit', 'Silent delivery', 'A focus mode', 'A parental approval'],
+           2, 'Paragraph 3, the only prohibition rather than a prompt.',
+           {0: 'A screen time limit produces a prompt, not a block.', 1: 'Silent delivery changes how messages arrive, not '
+               'access.', 3: 'Parental approval raises a limit rather than enforcing '
+               'one.'}),
+          (
+           'When an application is switched to silent delivery, the '
+           'application',
+           ['is told', 'is not told', 'is blocked', 'is uninstalled'],
+           1,
+           'Paragraph 2, which also collects its messages into a '
+           'digest.',
+           {0: 'Paragraph 2 says the application is not told.', 2: 'Blocking is what a focus mode does.', 3: 'Nothing is removed from the device.'}),
           ('Take-up of focus modes is under ____________ per cent of '
            'accounts.', None, 'four',
            'Paragraph 3, the lowest of any control described.'),
@@ -233,23 +244,26 @@ UNIT = dict(
            'persuade.')],
          items=[
           ('The speaker says the core mechanism is',
-           ['dopamine', 'variable reward schedules', 'social comparison',
-            'addiction'], 1,
-           'Understood since the nineteen fifties.'),
+           ['dopamine', 'variable reward schedules', 'social comparison', 'addiction'],
+           1, 'Understood since the nineteen fifties.',
+           {0: 'He says explicitly that it is not dopamine.', 2: 'Social comparison is not the mechanism he names.', 3: 'He says the core of it is not addiction.'}),
           ('A feed is refreshed by pulling down because',
-           ['pulling is pleasant', 'the gesture is separated from a '
-            'varying outcome', 'it saves data', 'it is easier to '
-            'learn'], 1,
-           'A fixed one-item result would end the gesture within a week.'),
+           ['pulling is pleasant', 'the gesture is separated from a varying outcome', 'it saves data', 'it is easier to learn'],
+           1,
+           'A fixed one-item result would end the gesture within a '
+           'week.',
+           {0: 'He says it is not because pulling is pleasant.', 2: 'Data use is not part of his explanation.', 3: 'Ease of learning is not the reason he gives.'}),
           ('Each additional step before an action removes about',
-           ['a tenth of people', 'a fifth of people', 'half of people',
-            'nobody'], 1,
-           'Which the speaker illustrates with a nineteen per cent loss.'),
-          ('What does the speaker most want a regulator to understand?',
-           ['That designers intend harm', 'That teams maximise a proxy '
-            'metric nobody revisits', 'That friction is unavoidable',
-            'That users choose freely'], 1,
-           'Chosen because it is measurable weekly.')])],
+           ['a tenth of people', 'a fifth of people', 'half of people', 'nobody'],
+           1,
+           'Which the speaker illustrates with a nineteen per cent '
+           'loss.',
+           {0: 'Smaller than the share he reports losing.', 2: 'Larger than the fifth he gives.', 3: 'He reports a measurable loss at each step.'}),
+          (
+           'What does the speaker most want a regulator to understand?',
+           ['That designers intend harm', 'That teams maximise a proxy metric nobody revisits', 'That friction is unavoidable', 'That users choose freely'],
+           1, 'Chosen because it is measurable weekly.',
+           {0: 'He says there is nobody to persuade of harm.', 2: 'Friction is a tool, not what he wants understood.', 3: 'Free choice is not the point he makes to regulators.'})])],
    speak=dict(
     part='Part 1', focus='How you use your phone',
     intro=('Two or three sentences each. Honest detail is more impressive '
@@ -398,20 +412,30 @@ UNIT = dict(
           'not stop it working, any more than knowing how a magic trick is '
           'done stops you looking at the hand that is moving.'],
          items=[
-          ('Which person describes attention that nothing was designed to '
-           'capture?', ['Oleander', 'Fenwick', 'Marguerite',
-            'Ignatius'], 0,
-           'Local planning disputes four hundred miles away.'),
-          ('Which person identifies an unresolved argument as the hook?',
+          (
+           'Which person describes attention that nothing was designed '
+           'to capture?',
+           ['Oleander', 'Fenwick', 'Marguerite', 'Ignatius'], 0,
+           'Local planning disputes four hundred miles away.',
+           {1: 'Fenwick identifies an unresolved argument as the hook.', 2: 'Marguerite found that total time changed very little.', 3: 'Ignatius says expertise does not confer immunity.'}),
+          (
+           'Which person identifies an unresolved argument as the '
+           'hook?',
            ['Oleander', 'Fenwick', 'Marguerite', 'Ignatius'], 1,
-           'Threads where the correction is already visible are closed at '
-           'once.'),
+           'Threads where the correction is already visible are closed '
+           'at once.',
+           {0: 'Oleander describes attention that nothing was designed '
+               'to capture.', 2: 'Marguerite found that total time changed very little.', 3: 'Ignatius says expertise does not confer immunity.'}),
           ('Which person found that total time changed very little?',
            ['Oleander', 'Fenwick', 'Marguerite', 'Ignatius'], 2,
-           'Though she felt dramatically better about the same hours.'),
+           'Though she felt dramatically better about the same hours.',
+           {0: 'Oleander describes attention that nothing was designed '
+               'to capture.', 1: 'Fenwick identifies an unresolved argument as the hook.', 3: 'Ignatius says expertise does not confer immunity.'}),
           ('Which person says expertise does not confer immunity?',
            ['Oleander', 'Fenwick', 'Marguerite', 'Ignatius'], 3,
-           'Compared to knowing how a magic trick is done.'),
+           'Compared to knowing how a magic trick is done.',
+           {0: 'Oleander describes attention that nothing was designed '
+               'to capture.', 1: 'Fenwick identifies an unresolved argument as the hook.', 2: 'Marguerite found that total time changed very little.'}),
           ('Marguerite fully trusts her own account of the month.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says the result makes her suspicious of her own '
@@ -472,31 +496,36 @@ UNIT = dict(
            'should say so.')],
          items=[
           ('Removing autoplay is expected to cost',
-           ['four per cent of sessions', 'eleven per cent of session '
-            'length', 'a quarter of users', 'nothing measurable'], 1,
-           'And Casimir predicts it would be reinstated within a quarter.'),
-          ('Rosalind objects that session length was chosen because it',
-           ['matters most', 'was available weekly', 'is standard across '
-            'the industry', 'users asked for it'], 1,
-           'Picked in 2019 and never revisited.'),
-          ('Casimir’s main objection concerns',
-           ['user preferences', 'the reporting cadence of alternative '
-            'metrics', 'legal risk', 'engineering cost'], 1,
+           ['four per cent of sessions', 'eleven per cent of session length', 'a quarter of users', 'nothing measurable'],
+           1,
+           'And Casimir predicts it would be reinstated within a '
+           'quarter.',
+           {0: 'Four per cent is the survey response rate.', 2: 'User numbers are not the figure he gives.', 3: 'He gives a definite cost in session length.'}),
+          (
+           'Rosalind objects that session length was chosen because it',
+           ['matters most', 'was available weekly', 'is standard across the industry', 'users asked for it'],
+           1, 'Picked in 2019 and never revisited.',
+           {0: 'She argues it is not what matters most.', 2: 'Industry practice is not her explanation.', 3: 'No user request is mentioned for the metric.'}),
+          ('Casimir\u2019s main objection concerns',
+           ['user preferences', 'the reporting cadence of alternative metrics', 'legal risk', 'engineering cost'],
+           1,
            'A weekly-reporting team being asked to accept a quarterly '
-           'number.'),
+           'number.',
+           {0: 'User preferences are what she wants measured.', 2: 'Legal risk is not raised in the exchange.', 3: 'Engineering cost is not his objection.'}),
           ('Rosalind proposes publishing session length alongside',
-           ['revenue', 'the share of sessions users called worth their '
-            'time', 'complaint volume', 'retention'], 1,
-           'From a one-question survey already running.'),
+           ['revenue', 'the share of sessions users called worth their time', 'complaint volume', 'retention'],
+           1, 'From a one-question survey already running.',
+           {0: 'Revenue is not what she proposes publishing beside it.', 2: 'Complaints are not the measure she names.', 3: 'Retention is close to session length, not her '
+               'proposal.'}),
           ('She characterises the four per cent response rate as',
-           ['a precision problem', 'a selection problem', 'fatal',
-            'irrelevant'], 1,
-           'Given a base of two hundred million users.'),
+           ['a precision problem', 'a selection problem', 'fatal', 'irrelevant'],
+           1, 'Given a base of two hundred million users.',
+           {0: 'She says a four per cent sample of millions is precise '
+               'enough.', 2: 'She wants the number published, so not fatal.', 3: 'She treats the selection issue as worth arguing about.'}),
           ('What does Casimir add as a condition?',
-           ['Remove autoplay first', 'Publish both numbers for two '
-            'quarters first', 'Raise the response rate',
-            'Get legal approval'], 1,
-           'And say so if the two numbers move together.')])],
+           ['Remove autoplay first', 'Publish both numbers for two quarters first', 'Raise the response rate', 'Get legal approval'],
+           1, 'And say so if the two numbers move together.',
+           {0: 'He asks for the numbers first, before the change.', 2: 'The response rate is not what he asks her to change.', 3: 'Legal approval is not mentioned in the exchange.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Attention',
     longturn=[('The thing that holds my attention is restoring old radios, '
@@ -701,19 +730,24 @@ UNIT = dict(
           'be produced or destroyed by the measurement method alone.'],
          items=[
           ('Which paragraph gives the proportional size of the gap?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
            'A third for the oldest group, more than half for the '
-           'youngest.'),
-          ('Which paragraph describes a test between the two '
-           'explanations?', ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 1,
-           'Reporting immediately narrowed the gap by two thirds.'),
+           'youngest.',
+           {0: 'Paragraph 2 gives the four pairs of figures.', 2: 'Paragraph 4 gives the two explanations.', 3: 'Paragraph 5 describes a test between the two '
+               'explanations.'}),
+          (
+           'Which paragraph describes a test between the two '
+           'explanations?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           1, 'Reporting immediately narrowed the gap by two thirds.',
+           {0: 'Paragraph 4 gives the two explanations.', 2: 'Paragraph 6 identifies errors in the measured series.', 3: 'Paragraph 7 draws the consequence for research.'}),
           ('Which paragraph identifies errors in the measured series?',
-           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 1,
-           'A phone left unlocked is counted and audio with the screen off '
-           'is not.'),
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           1,
+           'A phone left unlocked is counted and audio with the screen '
+           'off is not.',
+           {0: 'Paragraph 5 describes the test between explanations.', 2: 'Paragraph 7 draws the consequence for research.', 3: 'Paragraph 4 gives the two explanations.'}),
           ('The 13 to 17 group reported 3.1 hours against a measured '
            '____________ hours.', None, '6.8',
            'Paragraph 2, the largest gap of the four groups.'),
@@ -786,29 +820,32 @@ UNIT = dict(
          items=[
           ('The over-50 group reported 1.5 hours against a measured',
            ['1.9 hours', '2.1 hours', '3.9 hours', '6.8 hours'], 1,
-           'The smallest gap of the four groups.'),
+           'The smallest gap of the four groups.',
+           {0: 'No figure of that size appears for this group.', 2: '3.9 hours is the measured figure for the 30 to 49 '
+               'group.', 3: '6.8 hours is the measured figure for 13 to 17.'}),
           ('The gap ranges from',
-           ['0.2 to 1.1 hours', '0.6 to 3.7 hours', '1.0 to 2.0 hours',
-            '2.0 to 5.0 hours'], 1,
-           'Oldest group to youngest group.'),
+           ['0.2 to 1.1 hours', '0.6 to 3.7 hours', '1.0 to 2.0 hours', '2.0 to 5.0 hours'],
+           1, 'Oldest group to youngest group.',
+           {0: 'Narrower than the range he reports.', 2: 'Neither end matches the figures he gives.', 3: 'Wider at the bottom than the gap he reports.'}),
           ('The researcher says the main cause of under-reporting is',
-           ['embarrassment', 'failure to recall brief checks',
-            'misunderstanding the question', 'deliberate deception'], 1,
-           'The median participant checked fifty-eight times a day.'),
+           ['embarrassment', 'failure to recall brief checks', 'misunderstanding the question', 'deliberate deception'],
+           1, 'The median participant checked fifty-eight times a day.',
+           {0: 'He says the evidence mostly says otherwise.', 2: 'Misunderstanding the question is not his explanation.', 3: 'He rules out deliberate understatement as the main '
+               'cause.'}),
           ('The clean test is to ask people',
-           ['twice', 'immediately after a period', 'in writing',
-            'anonymously'], 1,
-           'Which closes the gap by about two thirds.'),
+           ['twice', 'immediately after a period', 'in writing', 'anonymously'],
+           1, 'Which closes the gap by about two thirds.',
+           {0: 'Asking twice is not the test he describes.', 2: 'The medium of the question is not what he varies.', 3: 'Anonymity is not the variable in the test.'}),
           ('The device measure wrongly counts',
-           ['audio with the screen off', 'a phone left face-up on a '
-            'table', 'time on another device', 'notifications'], 1,
+           ['audio with the screen off', 'a phone left face-up on a table', 'time on another device', 'notifications'],
+           1,
            'While missing screen-off listening, in the opposite '
-           'direction.'),
+           'direction.',
+           {0: 'Screen-off audio is what the measure misses.', 2: 'Other devices are outside the measure entirely.', 3: 'Notifications are not what the measure counts.'}),
           ('His conclusion about published findings is that he could',
-           ['replicate them all', 'produce or destroy most by changing the '
-            'measurement method', 'confirm the largest effects',
-            'improve them with bigger samples'], 1,
-           'Because the error is larger than the effects sought.')])],
+           ['replicate them all', 'produce or destroy most by changing the measurement method', 'confirm the largest effects', 'improve them with bigger samples'],
+           1, 'Because the error is larger than the effects sought.',
+           {0: 'He says the findings depend on the instrument.', 2: 'He makes no exception for the largest effects.', 3: 'Sample size is not what he says would fix them.'})])],
    speak=dict(
     part='Part 3', focus='Measuring behaviour',
     intro=('Five or six sentences. Try once to say that an error in a '
@@ -1041,20 +1078,22 @@ UNIT = dict(
           'for one exists.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['What is actually sold', 'The two-sided market',
-            'Precision as the commercial advance',
-            'Why network effects matter'], 1,
-           'A platform charging one side and subsidising the other.'),
+           ['What is actually sold', 'The two-sided market', 'Precision as the commercial advance', 'Why network effects matter'],
+           1, 'A platform charging one side and subsidising the other.',
+           {0: 'What is sold is paragraph 1, the probability.', 2: 'Precision as the commercial advance is the heading for '
+               'paragraph 4.', 3: 'Network effects are paragraph 7, on exit.'}),
           ('Choose the best heading for paragraph 4.',
-           ['The two-sided market', 'Precision as the commercial advance',
-            'The consequence for design', 'Externalities'], 1,
+           ['The two-sided market', 'Precision as the commercial advance', 'The consequence for design', 'Externalities'],
+           1,
            'Audiences defined by inferred characteristics in small '
-           'units.'),
+           'units.',
+           {0: 'The two-sided market is the heading for paragraph 2.', 2: 'The consequence for design is paragraph 5.', 3: 'Externalities are paragraph 8.'}),
           ('Choose the best heading for paragraph 7.',
-           ['The consequence for design', 'Why appeals to designers fail',
-            'Why network effects prevent exit', 'Externalities'], 2,
+           ['The consequence for design', 'Why appeals to designers fail', 'Why network effects prevent exit', 'Externalities'],
+           2,
            'Dissatisfaction does not produce exit as in an ordinary '
-           'market.'),
+           'market.',
+           {0: 'The consequence for design is paragraph 5.', 1: 'Why appeals to designers fail is paragraph 6.', 3: 'Externalities are paragraph 8.'}),
           (
            'The writer believes the subsidised side of a two-sided '
            'market is necessarily cheated.',
@@ -1134,32 +1173,36 @@ UNIT = dict(
            'argument and nothing to do about it.')],
          items=[
           ('The lecturer says what is sold is',
-           ['the user', 'the user’s data', 'a probability of a behaviour',
-            'advertising space'], 2,
-           'Which he calls the unit of trade.'),
+           ['the user', 'the user\u2019s data', 'a probability of a behaviour', 'advertising space'],
+           2, 'Which he calls the unit of trade.',
+           {0: 'He says the user is not what is sold.', 1: 'He says the data is not what is sold in most cases.', 3: 'Space was what a newspaper sold, which is his '
+               'contrast.'}),
           ('He says the subsidised side of a two-sided market',
-           ['is always exploited', 'is not necessarily being swindled',
-            'pays indirectly', 'subsidises itself'], 1,
-           'Giving the historical newspaper reader as the example.'),
+           ['is always exploited', 'is not necessarily being swindled', 'pays indirectly', 'subsidises itself'],
+           1, 'Giving the historical newspaper reader as the example.',
+           {0: 'He says the opposite about the newspaper reader.', 2: 'He describes a subsidy, not an indirect payment.', 3: 'The paying side subsidises the other.'}),
           ('What changed with digital platforms is',
-           ['the structure', 'the precision of targeting', 'the price',
-            'the number of advertisers'], 1,
+           ['the structure', 'the precision of targeting', 'the price', 'the number of advertisers'],
+           1,
            'Audiences in units of a few thousand, measurable within '
-           'hours.'),
+           'hours.',
+           {0: 'He says the structure is not new.', 2: 'Price is not what he says changed.', 3: 'Advertiser numbers are not his point.'}),
           ('In his formulation, revenue is a function of',
-           ['users times time', 'opportunities to place a message times '
-            'accuracy of placement', 'advertisers times price',
-            'data times storage'], 1,
-           'Which explains which features get built.'),
+           ['users times time', 'opportunities to place a message times accuracy of placement', 'advertisers times price', 'data times storage'],
+           1, 'Which explains which features get built.',
+           {0: 'Users times time is nearer the first term alone.', 2: 'Advertiser numbers are not in his formulation.', 3: 'Storage is not part of the revenue function.'}),
           ('Network effects matter because dissatisfied users',
-           ['complain more', 'cannot easily leave', 'pay more',
-            'are more valuable'], 1,
-           'So the normal market discipline on a seller is weakened.'),
-          ('He teaches the structural argument before the evidence on harm '
-           'because', ['the evidence is weak', 'the structural case holds '
-            'even if harms are modest', 'it is simpler',
-            'students prefer it'], 1,
-           'Incentives one way, no exit, costs outside the price.')])],
+           ['complain more', 'cannot easily leave', 'pay more', 'are more valuable'],
+           1,
+           'So the normal market discipline on a seller is weakened.',
+           {0: 'Complaint volume is not what he says changes.', 2: 'The subsidised side does not pay at all.', 3: 'Value to advertisers is a separate matter.'}),
+          (
+           'He teaches the structural argument before the evidence on '
+           'harm because',
+           ['the evidence is weak', 'the structural case holds even if harms are modest', 'it is simpler', 'students prefer it'],
+           1, 'Incentives one way, no exit, costs outside the price.',
+           {0: 'He takes the evidence up in the next cycle rather than '
+               'dismissing it.', 2: 'Simplicity is not his reason for the order.', 3: 'Student preference is not his reason.'})])],
    speak=dict(
     part='Part 3', focus='Free services and what they cost',
     followup=[(('You say the services are not free. Who should pay for the '
@@ -1391,20 +1434,25 @@ UNIT = dict(
           'actually being made in public by people who are citing this '
           'literature.'],
          items=[
-          ('Which paragraph explains why a small average may conceal a '
-           'large effect?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
+          (
+           'Which paragraph explains why a small average may conceal a '
+           'large effect?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
            'Three per cent seriously affected would produce the same '
-           'average.'),
+           'average.',
+           {0: 'Paragraph 2 gives the agreed size of the association.', 2: 'Paragraph 4 concerns the direction of causation.', 3: 'Paragraph 5 is about measurement error.'}),
           ('Which paragraph concerns the direction of causation?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1,
            'Unhappy adolescents use more social media, which is well '
-           'documented.'),
+           'documented.',
+           {0: 'Paragraph 3 explains why a small average may conceal a '
+               'large effect.', 2: 'Paragraph 5 is about measurement error.', 3: 'Paragraph 6 describes the two camps.'}),
           ('Which paragraph describes natural-experiment evidence?',
-           ['Paragraph 6', 'Paragraph 7', 'Paragraph 8',
-            'Paragraph 9'], 2,
-           'The staggered arrival of high-speed internet by region.'),
+           ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'],
+           2, 'The staggered arrival of high-speed internet by region.',
+           {0: 'Paragraph 6 describes the two camps.', 1: 'Paragraph 7 defends the historical argument.', 3: 'Paragraph 9 gives the honest summary.'}),
           (
            'The writer believes the association between use and '
            'wellbeing does not exist.',
@@ -1486,32 +1534,36 @@ UNIT = dict(
            'would write it alone.')],
          items=[
           ('Abiodun-Reyes begins by agreeing that',
-           ['the effects are large', 'the association is real and appears '
-            'in nearly every dataset', 'the data is fabricated',
-            'the question is settled'], 1,
-           'Including against people on his own side.'),
-          ('Lindqvist-Oyelaran’s strongest argument is that',
-           ['the studies are new', 'a small average is compatible with a '
-            'large effect on a few per cent', 'the data is better now',
-            'the effects are increasing'], 1,
-           'Three per cent seriously harmed would produce that average.'),
+           ['the effects are large', 'the association is real and appears in nearly every dataset', 'the data is fabricated', 'the question is settled'],
+           1, 'Including against people on his own side.',
+           {0: 'He agrees the effects are small, not large.', 2: 'He says the correlation is not manufactured.', 3: 'He argues the evidence does not yet settle it.'}),
+          ('Lindqvist-Oyelaran\u2019s strongest argument is that',
+           ['the studies are new', 'a small average is compatible with a large effect on a few per cent', 'the data is better now', 'the effects are increasing'],
+           1,
+           'Three per cent seriously harmed would produce that '
+           'average.',
+           {0: 'Novelty of the studies is not her argument.', 2: 'Data quality is what she later concedes runs against '
+               'her.', 3: 'No trend over time is her argument here.'}),
           ('Abiodun-Reyes answers that the vulnerable minority is',
-           ['disproved', 'inferred from the shape of an average rather '
-            'than found', 'too small to matter', 'already identified'], 1,
-           'A reasonable hypothesis rather than a finding.'),
+           ['disproved', 'inferred from the shape of an average rather than found', 'too small to matter', 'already identified'],
+           1, 'A reasonable hypothesis rather than a finding.',
+           {0: 'He calls it a reasonable hypothesis, not disproved.', 2: 'He accepts that a small minority would matter.', 3: 'He says nobody has characterised it properly.'}),
           ('The regional rollout studies are described as',
-           ['unreliable', 'the best-identified work in the field',
-            'too old', 'too small'], 1,
-           'Though they also find positive effects for some outcomes.'),
+           ['unreliable', 'the best-identified work in the field', 'too old', 'too small'],
+           1,
+           'Though they also find positive effects for some outcomes.',
+           {0: 'They both treat them as the strongest evidence.', 2: 'Age of the studies is not raised.', 3: 'Small samples are the price, but not how they are '
+               'described.'}),
           ('What does Lindqvist-Oyelaran concede against herself?',
-           ['Her sample was small', 'The measurement problem runs her way',
-            'Her funding was commercial', 'She misread a paper'], 1,
-           'Self-report inflates estimates and most of what she cites is '
-           'self-report.'),
+           ['Her sample was small', 'The measurement problem runs her way', 'Her funding was commercial', 'She misread a paper'],
+           1,
+           'Self-report inflates estimates and most of what she cites '
+           'is self-report.',
+           {0: 'Sample size is not what she concedes.', 2: 'Funding is not mentioned by either.', 3: 'No misreading is admitted.'}),
           ('What do they agree the evidence licenses?',
-           ['No action', 'Action aimed at an identified minority',
-            'A general ban', 'Further funding only'], 1,
-           'And not the claim that a generation has been damaged.')])],
+           ['No action', 'Action aimed at an identified minority', 'A general ban', 'Further funding only'],
+           1, 'And not the claim that a generation has been damaged.',
+           {0: 'They agree some action is licensed.', 2: 'No general ban is proposed by either.', 3: 'They agree on action as well as on funding a study.'})])],
    speak=dict(
     part='Part 3', focus='Evidence of harm',
     sounds=[('This unit\'s vocabulary is mostly compound and all front- '

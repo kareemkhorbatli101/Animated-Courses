@@ -341,20 +341,33 @@ UNIT = dict(
           'did not, and from outside they look similar. A rule that was '
           'never tested is not a rule that worked.'],
          items=[
-          ('Which person explains why stopping alone achieves nothing?',
+          (
+           'Which person explains why stopping alone achieves nothing?',
            ['Thaddeus', 'Marguerite', 'Hieronymus', 'Perpetua'], 0,
-           'The quota not taken is taken by the next boat.'),
-          ('Which person credits an enforcement mechanism rather than '
-           'character?', ['Thaddeus', 'Marguerite', 'Hieronymus',
-            'Perpetua'], 1,
-           'Observers costing about four per cent of catch value.'),
+           'The quota not taken is taken by the next boat.',
+           {1: 'Marguerite credits an enforcement mechanism rather '
+               'than character.', 2: 'Hieronymus resists being described as a success.', 3: 'Perpetua warns that two different cases look alike '
+               'from outside.'}),
+          (
+           'Which person credits an enforcement mechanism rather than '
+           'character?',
+           ['Thaddeus', 'Marguerite', 'Hieronymus', 'Perpetua'], 1,
+           'Observers costing about four per cent of catch value.',
+           {0: 'Thaddeus explains why stopping alone achieves nothing.', 2: 'Hieronymus resists being described as a success.', 3: 'Perpetua warns that two different cases look alike '
+               'from outside.'}),
           ('Which person resists being described as a success?',
            ['Thaddeus', 'Marguerite', 'Hieronymus', 'Perpetua'], 2,
-           'Protected by difficulty rather than by governance.'),
-          ('Which person warns that two different cases look alike from '
-           'outside?', ['Thaddeus', 'Marguerite', 'Hieronymus',
-            'Perpetua'], 3,
-           'One did something and the other did not.'),
+           'Protected by difficulty rather than by governance.',
+           {0: 'Thaddeus explains why stopping alone achieves nothing.', 1: 'Marguerite credits an enforcement mechanism rather '
+               'than character.', 3: 'Perpetua warns that two different cases look alike '
+               'from outside.'}),
+          (
+           'Which person warns that two different cases look alike '
+           'from outside?',
+           ['Thaddeus', 'Marguerite', 'Hieronymus', 'Perpetua'], 3,
+           'One did something and the other did not.',
+           {0: 'Thaddeus explains why stopping alone achieves nothing.', 1: 'Marguerite credits an enforcement mechanism rather '
+               'than character.', 2: 'Hieronymus resists being described as a success.'}),
           (
            'Thaddeus believes he bears no responsibility for the '
            'collapse.', ['Yes', 'No', 'Not Given'], 1,
@@ -729,15 +742,24 @@ UNIT = dict(
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
             'Paragraph 5'], 0,
            'Brindle Bank and Tarnmouth, flattening at a very low level.'),
-          ('Which paragraph explains why one fishery was never under '
-           'pressure?', ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-            'Paragraph 7'], 2,
-           'Distant grounds, poor weather and ground that damages gear.'),
-          ('Which paragraph warns against reading the fourth case as '
-           'governance?', ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-            'Paragraph 4'], 2,
+          (
+           'Which paragraph explains why one fishery was never under '
+           'pressure?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
+           'Distant grounds, poor weather and ground that damages '
+           'gear.',
+           {3: 'Paragraph 7 warns against reading the fourth case as '
+               'governance.'}),
+          (
+           'Which paragraph warns against reading the fourth case as '
+           'governance?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           2,
            'An institution never under pressure has demonstrated '
-           'nothing.'),
+           'nothing.',
+           {1: 'Paragraph 6 explains why one fishery was never under '
+               'pressure.'}),
           ('Ashcombe Deep ended 2024 at ____________ thousand tonnes.',
            None, '362',
            'Paragraph 3, within eight per cent of its 1994 level.'),

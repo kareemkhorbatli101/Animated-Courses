@@ -122,9 +122,13 @@ PAPER = dict(
          ['Paragraph 2', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'], 1,
          'Paragraph 3 describes the objection and the apologies in early '
          'prefaces.'),
-        ('Which paragraph identifies who created the demand for indexes?',
-         ['Paragraph 2', 'Paragraph 4', 'Paragraph 6', 'Paragraph 8'], 1,
-         'Paragraph 4 names the thirteenth-century preaching orders.'),
+        (
+         'Which paragraph identifies who created the demand for '
+         'indexes?',
+         ['Paragraph 2', 'Paragraph 4', 'Paragraph 6', 'Paragraph 8'],
+         1,
+         'Paragraph 4 names the thirteenth-century preaching orders.',
+         {3: 'Paragraph 8 compares an index with a modern search.'}),
         ('Which paragraph compares an index with a modern search?',
          ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 3,
          'Paragraph 8 sets out the parallels and the chief difference.'),
@@ -261,16 +265,25 @@ PAPER = dict(
                'first generation of new speakers is told that what it speaks '
                'is the language or an approximation to it.')],
        items=[
-        ('Which paragraph distinguishes two kinds of threatened language?',
-         ['Paragraph 1', 'Paragraph 2', 'Paragraph 4', 'Paragraph 6'], 1,
-         'Paragraph 2 separates the endangered from the dormant case.'),
+        (
+         'Which paragraph distinguishes two kinds of threatened '
+         'language?',
+         ['Paragraph 1', 'Paragraph 2', 'Paragraph 4', 'Paragraph 6'],
+         1,
+         'Paragraph 2 separates the endangered from the dormant case.',
+         {3: 'Paragraph 6 states the central finding of the '
+             'literature.'}),
         ('Which paragraph states the central finding of the literature?',
          ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
          'Paragraph 6 identifies transmission between generations as the '
          'limit.'),
-        ('Which paragraph names the intervention with the poorest record?',
-         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 2,
-         'Paragraph 7 names adult evening classes.'),
+        (
+         'Which paragraph names the intervention with the poorest '
+         'record?',
+         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+         2, 'Paragraph 7 names adult evening classes.',
+         {1: 'Paragraph 6 states the central finding of the '
+             'literature.'}),
         ('About what proportion of languages are expected to lose their '
          'native speakers this century?', None, 'half',
          'Paragraph 1 gives the figure against seven thousand '
@@ -398,19 +411,26 @@ PAPER = dict(
                'of how budgets are normally constructed and is the entire '
                'finding.')],
        items=[
-        ('Which paragraph explains why reported coverage may overstate '
+        (
+         'Which paragraph explains why reported coverage may overstate '
          'protection?',
-         ['Paragraph 1', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'], 1,
+         ['Paragraph 1', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'],
+         1,
          'Paragraph 3 explains that frozen doses are recorded as '
-         'successes.'),
+         'successes.',
+         {3: 'Paragraph 7 describes a system failing at its cheapest '
+             'link.'}),
         ('Which paragraph states a design principle that generalises '
          'beyond vaccines?',
          ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
          'Paragraph 6 gives the pump example.'),
-        ('Which paragraph describes a system failing at its cheapest '
+        (
+         'Which paragraph describes a system failing at its cheapest '
          'link?',
-         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 2,
-         'Paragraph 7 reports outreach cancelled for want of fuel.'),
+         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+         2, 'Paragraph 7 reports outreach cancelled for want of fuel.',
+         {1: 'Paragraph 6 states a design principle that generalises '
+             'beyond vaccines.'}),
         ('Most vaccines require storage between two and ____________ '
          'degrees.', None, 'eight',
          'Paragraph 2 says both ends of the range matter.'),
@@ -428,7 +448,8 @@ PAPER = dict(
         ('What do vaccine vial monitors detect?',
          ['freezing', 'heat', 'light', 'expiry'], 1,
          'Paragraph 4 says they do not detect freezing, which is the '
-         'point of the paragraph.'),
+         'point of the paragraph.',
+         {0: 'Freezing the commoner failure.'}),
         ('Early solar refrigerators failed because their ____________ '
          'lasted about three years.', None, 'batteries',
          'Paragraph 5 explains what happened to the refrigerator '

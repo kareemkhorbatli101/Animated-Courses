@@ -54,19 +54,27 @@ UNIT = dict(
           'and not to the householder.'],
          items=[
           ('Being in a flood zone means that',
-           ['the property has flooded', 'the probability is above a '
-            'threshold', 'the property will flood', 'insurance is '
-            'refused'], 1,
-           'Paragraph 1, which is the level at which the council must plan.'),
+           ['the property has flooded', 'the probability is above a threshold', 'the property will flood', 'insurance is refused'],
+           1,
+           'Paragraph 1, which is the level at which the council must '
+           'plan.',
+           {0: 'Paragraph 1 says a zone does not mean a property has '
+               'flooded.', 2: 'Paragraph 1 says a zone does not mean a property will '
+               'flood.', 3: 'Insurance is not mentioned anywhere in the notice.'}),
           ('Who is responsible for a private ditch?',
-           ['The council', 'The landowner', 'The water company',
-            'Nobody'], 1,
-           'Paragraph 2: responsibility follows ownership of the land it '
-           'crosses.'),
+           ['The council', 'The landowner', 'The water company', 'Nobody'],
+           1,
+           'Paragraph 2: responsibility follows ownership of the land '
+           'it crosses.',
+           {0: 'The council clears the main watercourse, not private '
+               'ditches.', 2: 'No water company appears in the notice.', 3: 'Responsibility rests with the landowner, so somebody '
+               'holds it.'}),
           ('Grant applications are assessed on',
-           ['income', 'risk', 'property value', 'first come, first '
-            'served'], 1,
-           'Paragraph 4, and a survey is required before approval.'),
+           ['income', 'risk', 'property value', 'first come, first served'],
+           1, 'Paragraph 4, and a survey is required before approval.',
+           {0: 'Paragraph 4 says applications are not assessed on '
+               'income.', 2: 'Property value is not among the criteria given.', 3: 'Order of application is not how the grants are '
+               'decided.'}),
           ('The council clears the main watercourse ____________ a year.',
            None, 'twice',
            'Paragraph 2, alongside maintaining the embankment and the '
@@ -202,23 +210,31 @@ UNIT = dict(
            'do in November than to intend in July.')],
          items=[
           ('What does the speaker say about flood doors?',
-           ['They always work', 'They help in about one flood in three',
-            'They are a waste of money', 'They are too expensive'], 1,
-           'They buy about twenty centimetres and are overtopped in the '
-           'other two.'),
+           ['They always work', 'They help in about one flood in three', 'They are a waste of money', 'They are too expensive'],
+           1,
+           'They buy about twenty centimetres and are overtopped in '
+           'the other two.',
+           {0: 'He says they are overtopped in two floods out of '
+               'three.', 2: 'He says protection is worth having, not wasted.', 3: 'Cost is not his objection; a grant covers the work.'}),
           ('What distinguishes households that recover fastest?',
-           ['Better insurance', 'Moving irreplaceable things upstairs early',
-            'Living higher up', 'Having more warning'], 1,
-           'Documents, photographs and things with no price on an insurance '
-           'form.'),
+           ['Better insurance', 'Moving irreplaceable things upstairs early', 'Living higher up', 'Having more warning'],
+           1,
+           'Documents, photographs and things with no price on an '
+           'insurance form.',
+           {0: 'Insurance covers everything else, which he calls a '
+               'claim.', 2: 'Where the house sits is not what distinguishes the '
+               'households.', 3: 'Warning time is the same for everybody in the zone.'}),
           ('In a real warning, how long do people have?',
            ['Minutes', 'One to four hours', 'A day', 'Two days'], 1,
-           'And almost nobody has decided the sequence in advance.'),
+           'And almost nobody has decided the sequence in advance.',
+           {0: 'Longer than minutes, though not long enough to decide '
+               'then.', 2: 'Far longer than the warning he describes.', 3: 'Two days is not the interval he gives.'}),
           ('What surprised the speaker?',
-           ['The cost of repairs', 'That telling neighbours matters',
-            'The speed of the water', 'How few people claim'], 1,
-           'Because two people moving a piano is a different problem from '
-           'one.')])],
+           ['The cost of repairs', 'That telling neighbours matters', 'The speed of the water', 'How few people claim'],
+           1,
+           'Because two people moving a piano is a different problem '
+           'from one.',
+           {0: 'Repair costs are not what he says surprised him.', 2: 'The speed of the water is not his subject.', 3: 'Claim rates are not discussed in the talk.'})])],
    speak=dict(
     part='Part 1', focus='Weather where you live',
     intro=('Two or three sentences each. Ordinary observation is exactly '
@@ -352,17 +368,26 @@ UNIT = dict(
          items=[
           ('Which person found that a defence worked only partly?',
            ['Ilse', 'Oskar', 'Varsha', 'Emmanuel'], 0,
-           'The doors work against one of the two ways water arrives.'),
+           'The doors work against one of the two ways water arrives.',
+           {1: 'Oskar prepared only once and thinks it was enough.', 2: 'Varsha values an arrangement with neighbours most.', 3: 'Emmanuel is unsure whether their spending was '
+               'justified.'}),
           ('Which person prepared only once and thinks it was enough?',
            ['Ilse', 'Oskar', 'Varsha', 'Emmanuel'], 1,
-           'One afternoon moving photographs, because insurance replaced '
-           'everything else.'),
+           'One afternoon moving photographs, because insurance '
+           'replaced everything else.',
+           {0: 'Ilse found that a defence worked only partly.', 2: 'Varsha values an arrangement with neighbours most.', 3: 'Emmanuel is unsure whether their spending was '
+               'justified.'}),
           ('Which person values an arrangement with neighbours most?',
            ['Ilse', 'Oskar', 'Varsha', 'Emmanuel'], 2,
-           'An hour in a kitchen, worth more than anything bought.'),
-          ('Which person is unsure whether their spending was justified?',
+           'An hour in a kitchen, worth more than anything bought.',
+           {0: 'Ilse found that a defence worked only partly.', 1: 'Oskar prepared only once and thinks it was enough.', 3: 'Emmanuel is unsure whether their spending was '
+               'justified.'}),
+          (
+           'Which person is unsure whether their spending was '
+           'justified?',
            ['Ilse', 'Oskar', 'Varsha', 'Emmanuel'], 3,
-           'He says he genuinely cannot tell.'),
+           'He says he genuinely cannot tell.',
+           {0: 'Ilse found that a defence worked only partly.', 1: 'Oskar prepared only once and thinks it was enough.', 2: 'Varsha values an arrangement with neighbours most.'}),
           ('Ilse believes the sellers deliberately misled her.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says she does not think they knew either, which is the '
@@ -421,28 +446,35 @@ UNIT = dict(
            'can summarise. Get the page number in the first paragraph and '
            'the signatures on the back.')],
          items=[
-          ('The proposed defence would raise the level on Rafaela’s side '
-           'by', ['no amount', 'ten centimetres', 'forty-one centimetres',
-            'an unknown amount'], 1,
-           'A figure she found in a table on page forty-one.'),
+          (
+           'The proposed defence would raise the level on Rafaela\u2019s '
+           'side by',
+           ['no amount', 'ten centimetres', 'forty-one centimetres', 'an unknown amount'],
+           1, 'A figure she found in a table on page forty-one.',
+           {0: 'The figure she found is small but not nothing.', 2: 'Forty-one is the page number, not a measurement.', 3: 'She gives the figure, so it is not unknown.'}),
           ('Where did she find the figure?',
-           ['In the summary', 'In a table in the modelling report',
-            'From the council', 'From a neighbour'], 1,
-           'Not in the summary, which is why she nearly missed it.'),
+           ['In the summary', 'In a table in the modelling report', 'From the council', 'From a neighbour'],
+           1, 'Not in the summary, which is why she nearly missed it.',
+           {0: 'She says the figure is not in the summary.', 2: 'The council published it without drawing attention to '
+               'it.', 3: 'Her son found it, but it came from the report itself.'}),
           ('Why does Gustav want the page number in the letter?',
-           ['It is required', 'It gets a different answer',
-            'It saves time', 'It proves she read it'], 1,
-           'A letter with a page number gets a different answer from one '
-           'without.'),
+           ['It is required', 'It gets a different answer', 'It saves time', 'It proves she read it'],
+           1,
+           'A letter with a page number gets a different answer from '
+           'one without.',
+           {0: 'No requirement to cite pages is mentioned.', 2: 'Saving time is not the reason he gives.', 3: 'Proving she read it is not the effect he describes.'}),
           ('What does he say she should ask for?',
-           ['Abandoning the scheme', 'What they propose to do about the ten '
-            'centimetres', 'Compensation', 'A new report'], 1,
-           'A question they have to answer and have not.'),
-          ('What does Gustav say would follow if the answer is that they '
-           'should move?',
-           ['Nothing', 'A conversation the street has avoided',
-            'Legal action', 'A new consultation'], 1,
-           'For six years, as he puts it, the street has avoided it.')])],
+           ['Abandoning the scheme', 'What they propose to do about the ten centimetres', 'Compensation', 'A new report'],
+           1, 'A question they have to answer and have not.',
+           {0: 'She says she is not asking them to abandon twelve '
+               'houses.', 2: 'Compensation is not what he suggests she request.', 3: 'A new report is not what he proposes asking for.'}),
+          (
+           'What does Gustav say would follow if the answer is that '
+           'they should move?',
+           ['Nothing', 'A conversation the street has avoided', 'Legal action', 'A new consultation'],
+           1,
+           'For six years, as he puts it, the street has avoided it.',
+           {0: 'He says it would be said out loud for the first time.', 2: 'No legal action is mentioned by either resident.', 3: 'A further consultation is not what he predicts.'})])],
    speak=dict(
     part='Part 1 into Part 2', focus='Preparing',
     longturn=[('The thing I prepared for was a flood. I live in a house about '
@@ -628,16 +660,27 @@ UNIT = dict(
           'series.'],
          items=[
           ('The temperature anomaly in 2020 was',
-           ['minus 0.3°C', 'plus 0.9°C', 'plus 1.4°C', 'plus 2.9°C'], 2,
-           'Paragraph 2, against minus 0.3 in 1900.'),
-          ('Which paragraph explains why extreme days rise faster than the '
-           'average?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
-            'Paragraph 5'], 1,
-           'The count depends on how much of the distribution sits above a '
-           'fixed line.'),
-          ('Which paragraph gives reasons to be careful with one station?',
-           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'], 3,
-           'One station is weather, and the station moved in 1964.'),
+           ['minus 0.3\u00b0C', 'plus 0.9\u00b0C', 'plus 1.4\u00b0C', 'plus 2.9\u00b0C'],
+           2, 'Paragraph 2, against minus 0.3 in 1900.',
+           {0: 'Minus 0.3 is the 1900 figure, not the 2020 one.', 1: 'No figure of that size is given for either year.', 3: 'Twenty-nine is the count of hot days, not the anomaly.'}),
+          (
+           'Which paragraph explains why extreme days rise faster than '
+           'the average?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           1,
+           'The count depends on how much of the distribution sits '
+           'above a fixed line.',
+           {0: 'Paragraph 2 gives the two series and their shapes.', 2: 'Paragraph 4 draws the consequence for public '
+               'experience.', 3: 'Paragraph 5 gives reasons to be careful with one '
+               'station.'}),
+          (
+           'Which paragraph gives reasons to be careful with one '
+           'station?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+           3, 'One station is weather, and the station moved in 1964.',
+           {0: 'Paragraph 2 gives the two series and their shapes.', 1: 'Paragraph 3 explains why extreme days rise faster than '
+               'the average.', 2: 'Paragraph 4 draws the consequence for public '
+               'experience.'}),
           ('The number of days above thirty degrees rose from four to '
            '____________.', None, '29',
            'Paragraph 2, with almost all of the change after 1980.'),
@@ -703,28 +746,40 @@ UNIT = dict(
            'this chart it is not.')],
          items=[
           ('The lecturer chose this station to show that',
-           ['records are unreliable', 'a small change in an average is a '
-            'large change in experience', 'warming has stopped',
-            'stations disagree'], 1,
-           'Which he says people find hardest to believe.'),
+           ['records are unreliable', 'a small change in an average is a large change in experience', 'warming has stopped', 'stations disagree'],
+           1, 'Which he says people find hardest to believe.',
+           {0: 'He defends the record rather than questioning it.', 2: 'Nothing in the chart suggests warming has stopped.', 3: 'Agreement between stations is his later caution, not '
+               'his purpose.'}),
           ('The anomaly moves about',
-           ['0.7 degrees', '1.7 degrees', '2.9 degrees', '4 degrees'], 1,
-           'While the count of hot days goes from four to twenty-nine.'),
+           ['0.7 degrees', '1.7 degrees', '2.9 degrees', '4 degrees'],
+           1,
+           'While the count of hot days goes from four to twenty-nine.',
+           {0: 'Smaller than the change he reports across the century.', 2: 'Larger than the anomaly; twenty-nine is the day count.', 3: 'Far larger than the figure he gives.'}),
           ('Why do the two measures look so different?',
-           ['Different instruments', 'Arithmetic about distributions',
-            'Different periods', 'One is estimated'], 1,
-           'Thirty degrees is a fixed line where the curve is steep.'),
+           ['Different instruments', 'Arithmetic about distributions', 'Different periods', 'One is estimated'],
+           1,
+           'Thirty degrees is a fixed line where the curve is steep.',
+           {0: 'Instruments are his second caution, about the 1964 '
+               'move.', 2: 'Both lines cover the same hundred and twenty years.', 3: 'Both measures are read from the same records.'}),
           ('Scientists report the mean because',
-           ['it is dramatic', 'it is stable and models predict it',
-            'it is easier to measure', 'the public asks for it'], 1,
-           'While people experience the tail, which is what a heatwave is.'),
+           ['it is dramatic', 'it is stable and models predict it', 'it is easier to measure', 'the public asks for it'],
+           1,
+           'While people experience the tail, which is what a heatwave '
+           'is.',
+           {0: 'He calls the mean the undramatic measure of the two.', 2: 'Ease of measurement is not the reason he gives.', 3: 'He says the public conversation runs on the tail '
+               'instead.'}),
           ('He says a single station is only worth showing because',
-           ['it is well maintained', 'it matches the regional series',
-            'it is the oldest', 'it has no gaps'], 1,
-           'On its own it would prove nothing.'),
+           ['it is well maintained', 'it matches the regional series', 'it is the oldest', 'it has no gaps'],
+           1, 'On its own it would prove nothing.',
+           {0: 'Maintenance is not what makes the station worth '
+               'showing.', 2: 'Age is not the reason he gives for choosing it.', 3: 'Completeness of the record is not his criterion.'}),
           ('Correcting for station moves and changes is called',
-           ['calibration', 'homogenisation', 'smoothing', 'adjustment'], 1,
-           'Which he says is where most accusations of fraud are aimed.')])],
+           ['calibration', 'homogenisation', 'smoothing', 'adjustment'],
+           1,
+           'Which he says is where most accusations of fraud are '
+           'aimed.',
+           {0: 'Calibration is a different operation on an instrument.', 2: 'Smoothing is averaging over time, not correcting a '
+               'move.', 3: 'Adjustment is what it does, but not the term he gives.'})])],
    speak=dict(
     part='Part 3', focus='Evidence about the climate',
     intro=('Four or five sentences. Say once what a measurement does and does '
@@ -932,19 +987,29 @@ UNIT = dict(
                  'different timescales.')],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['The old answer', 'A better question', 'How the method works',
-            'Where it works badly'], 1,
-           'Asking how much more likely an event has become, instead of '
-           'whether it was caused.'),
+           ['The old answer', 'A better question', 'How the method works', 'Where it works badly'],
+           1,
+           'Asking how much more likely an event has become, instead '
+           'of whether it was caused.',
+           {0: 'The old answer is paragraph 1, taught to a generation.', 2: 'How the method works is the heading for paragraph 3.', 3: 'Where it works badly is paragraph 5, on rainfall and '
+               'tracks.'}),
           ('Choose the best heading for paragraph 3.',
-           ['A better question', 'How the method works',
-            'Where it works badly', 'Which events get studied'], 1,
-           'Running a model many times with and without the extra gases.'),
+           ['A better question', 'How the method works', 'Where it works badly', 'Which events get studied'],
+           1,
+           'Running a model many times with and without the extra '
+           'gases.',
+           {0: 'A better question is the heading for paragraph 2.', 2: 'Where it works badly is paragraph 5, on rainfall and '
+               'tracks.', 3: 'Which events get studied is the heading for paragraph '
+               '6.'}),
           ('Choose the best heading for paragraph 6.',
-           ['Where it works badly', 'Which events get studied',
-            'What the method delivers', 'A use in the courts'], 1,
-           'Studies are run on events that made the news in countries able '
-           'to study them.'),
+           ['Where it works badly', 'Which events get studied', 'What the method delivers', 'A use in the courts'],
+           1,
+           'Studies are run on events that made the news in countries '
+           'able to study them.',
+           {0: 'Where it works badly is paragraph 5, on rainfall and '
+               'tracks.', 2: 'What the method delivers is paragraph 7, on public '
+               'argument.', 3: 'The courts are paragraph 8, with the four-times '
+               'figure.'}),
           (
            'The writer believes no single event can be attributed to '
            'climate change.', ['Yes', 'No', 'Not Given'], 1,
@@ -1014,29 +1079,35 @@ UNIT = dict(
            'than the slow ones, and their authors say so in the paper.')],
          items=[
           ('The lecturer says the old answer was',
-           ['evasion', 'not evasion but genuinely near meaningless',
-            'deliberately cautious', 'politically motivated'], 1,
+           ['evasion', 'not evasion but genuinely near meaningless', 'deliberately cautious', 'politically motivated'],
+           1,
            'He compares it with asking whether loaded dice caused one '
-           'particular six.'),
+           'particular six.',
+           {0: 'He says the old answer was not evasion.', 2: 'Caution is how it was taught, not what he calls it.', 3: 'He finds no political motive in the old answer.'}),
           ('The answerable question is',
-           ['whether warming caused it', 'how much more likely it has '
-            'become', 'when it will happen again', 'who is responsible'], 1,
-           'Not whether, but how much more likely.'),
+           ['whether warming caused it', 'how much more likely it has become', 'when it will happen again', 'who is responsible'],
+           1, 'Not whether, but how much more likely.',
+           {0: 'That is the question he says is close to meaningless.', 2: 'Future recurrence is not what the method estimates.', 3: 'Responsibility is for the courts, not the model.'}),
           ('The method removes from the model',
-           ['the oceans', 'the extra greenhouse gases', 'the clouds',
-            'the event itself'], 1,
-           'And counts the event’s frequency in both sets of runs.'),
+           ['the oceans', 'the extra greenhouse gases', 'the clouds', 'the event itself'],
+           1,
+           'And counts the event\u2019s frequency in both sets of runs.',
+           {0: 'The oceans stay in the model, with their assumptions.', 2: 'Clouds remain, and are a source of disagreement.', 3: 'The event is counted, not removed.'}),
           ('Attribution is most reliable for',
            ['rainfall', 'heat', 'storm tracks', 'drought'], 1,
-           'Because models handle temperature well.'),
+           'Because models handle temperature well.',
+           {0: 'Rainfall is the harder case, below the model grid.', 2: 'Storm tracks are what nobody can attribute at all.', 3: 'Drought is not among the cases he ranks.'}),
           ('Which limit does he say his field states badly?',
-           ['The heat limit', 'The rainfall limit',
-            'The biased sample of studied events', 'The model grid'], 2,
-           'Studies are run where the news and the funding are.'),
+           ['The heat limit', 'The rainfall limit', 'The biased sample of studied events', 'The model grid'],
+           2, 'Studies are run where the news and the funding are.',
+           {0: 'Heat is the case he says works well.', 1: 'Rainfall is stated clearly as the harder case.', 3: 'The model grid is why rainfall is hard, not the '
+               'unstated limit.'}),
           ('He says the main change is that a number can be',
-           ['believed', 'argued with and used in court', 'published faster',
-            'simplified'], 1,
-           'Where the old answer could only be repeated.')])],
+           ['believed', 'argued with and used in court', 'published faster', 'simplified'],
+           1, 'Where the old answer could only be repeated.',
+           {0: 'Belief is what the old answer asked for instead.', 2: 'Speed is his later practical note, not the main '
+               'change.', 3: 'Simplification is what the headline does to the '
+               'number.'})])],
    speak=dict(
     part='Part 3', focus='Linking causes and events',
     followup=[(('Can scientists really say that climate change caused a '
@@ -1226,16 +1297,30 @@ UNIT = dict(
           'unflattering explanation for a gap in a literature, and it is the '
           'one that best fits where the gap actually is.'],
          items=[
-          ('Which paragraph explains that counterfactual worlds differ '
+          (
+           'Which paragraph explains that counterfactual worlds differ '
            'between modelling groups?',
-           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
-           'Which is part of why attribution results carry wide ranges.'),
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+           1,
+           'Which is part of why attribution results carry wide '
+           'ranges.',
+           {0: 'Paragraph 1 explains what the sentence rests on.', 2: 'Paragraph 3 is about what the counterfactual holds '
+               'constant.', 3: 'Paragraph 4 gives the flood example.'}),
           ('Which paragraph gives the flood example?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'], 1,
-           'Two thousand homes on a floodplain developed in the 1990s.'),
-          ('Which paragraph names the three standard terms in the field?',
-           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
-           'Hazard, exposure and vulnerability.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1,
+           'Two thousand homes on a floodplain developed in the 1990s.',
+           {0: 'Paragraph 3 is about what the counterfactual holds '
+               'constant.', 2: 'Paragraph 5 is about responsibility and planning '
+               'decisions.', 3: 'Paragraph 6 names the three standard terms in the '
+               'field.'}),
+          (
+           'Which paragraph names the three standard terms in the '
+           'field?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2, 'Hazard, exposure and vulnerability.',
+           {0: 'Paragraph 4 gives the flood example.', 1: 'Paragraph 5 is about responsibility and planning '
+               'decisions.', 3: 'Paragraph 7 compares the two shares of damage.'}),
           ('The writer believes attribution science is unsound.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 6 says none of this is an argument against it '
@@ -1305,33 +1390,43 @@ UNIT = dict(
            'costs us a Tuesday.')],
          items=[
           ('Halloran-Baptiste begins by saying he is not disputing',
-           ['the models', 'the attribution results', 'the funding',
-            'the terminology'], 1,
-           'He calls them among the better-validated numbers in the field.'),
+           ['the models', 'the attribution results', 'the funding', 'the terminology'],
+           1,
+           'He calls them among the better-validated numbers in the '
+           'field.',
+           {0: 'He accepts the models along with the results.', 2: 'Funding is not mentioned by either scientist.', 3: 'Terminology is what he raises later, about rainfall '
+               'and event.'}),
           ('His objection concerns the difference between',
-           ['models and observations', 'rainfall and disaster',
-            'heat and rain', 'science and policy'], 1,
+           ['models and observations', 'rainfall and disaster', 'heat and rain', 'science and policy'],
+           1,
            'Only one of those two sentences belongs to the attribution '
-           'scientist.'),
+           'scientist.',
+           {0: 'Models against observations is not his objection.', 2: 'Heat and rain are a limit of the method, not his point '
+               'here.', 3: 'Science and policy is broader than the distinction he '
+               'draws.'}),
           ('What does Iwuchukwu admit about her own practice?',
-           ['Her models are wrong', 'Press releases say rainfall and '
-            'interviews say event', 'She avoids the press',
-            'She overstates ranges'], 1,
-           'And she says she has done it herself and noticed afterwards.'),
+           ['Her models are wrong', 'Press releases say rainfall and interviews say event', 'She avoids the press', 'She overstates ranges'],
+           1,
+           'And she says she has done it herself and noticed '
+           'afterwards.',
+           {0: 'She defends the models as well validated.', 2: 'She speaks to the press, which is part of the problem.', 3: 'Overstating ranges is not what she admits.'}),
           ('In recent floods, more of the loss is explained by',
-           ['growth in hazard', 'growth in exposure', 'poor warning',
-            'building materials'], 1,
-           'Though both hazard and exposure are rising.'),
-          ('Why does Iwuchukwu hesitate about publishing the exposure '
-           'figure?', ['It is unreliable', 'It would be used to argue '
-            'warming is not the problem', 'It is expensive',
-            'It is already known'], 1,
-           'Which Halloran-Baptiste calls the strongest objection.'),
+           ['growth in hazard', 'growth in exposure', 'poor warning', 'building materials'],
+           1, 'Though both hazard and exposure are rising.',
+           {0: 'Hazard is rising too, but explains less of the loss.', 2: 'Warning quality is not discussed by either.', 3: 'Materials are vulnerability, a third term, not the '
+               'answer.'}),
+          (
+           'Why does Iwuchukwu hesitate about publishing the exposure '
+           'figure?',
+           ['It is unreliable', 'It would be used to argue warming is not the problem', 'It is expensive', 'It is already known'],
+           1, 'Which Halloran-Baptiste calls the strongest objection.',
+           {0: 'Reliability is not her reason for hesitating.', 2: 'Cost is not what makes her hesitate.', 3: 'The figure does not exist, which is the whole point.'}),
           ('What do they agree to do?',
-           ['Withhold the figure', 'Publish both numbers in one joint paper',
-            'Issue a correction', 'Change the press release only'], 1,
+           ['Withhold the figure', 'Publish both numbers in one joint paper', 'Issue a correction', 'Change the press release only'],
+           1,
            'Which he says makes the misuse harder and costs them a '
-           'Tuesday.')])],
+           'Tuesday.',
+           {0: 'She argues against withholding a true number.', 2: 'No correction is proposed by either of them.', 3: 'They go further than the press release.'})])],
    speak=dict(
     part='Part 3', focus='Responsibility for damage',
     sounds=[('Pitch range carries meaning in English, and a narrow range is '

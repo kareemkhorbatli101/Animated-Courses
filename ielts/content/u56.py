@@ -351,23 +351,44 @@ UNIT = dict(
           'them must have been mistaken about the object. Four, out of '
           'thousands.'],
          items=[
-          ('Which judge argues that judging involves pointing at things '
-           'that can be demonstrated?',
+          (
+           'Which judge argues that judging involves pointing at '
+           'things that can be demonstrated?',
            ['Hieronymus', 'Perpetua', 'Thaddeus', 'Winifred'], 0,
-           'The handling of edges, demonstrable in ten minutes.'),
-          ('Which judge describes their disagreement as being about '
-           'weighting?', ['Hieronymus', 'Perpetua', 'Thaddeus',
-            'Winifred'], 1,
+           'The handling of edges, demonstrable in ten minutes.',
+           {1: 'Perpetua describes their disagreement as being about '
+               'weighting.', 2: 'Thaddeus questions what convergence between judges '
+               'shows.', 3: 'Winifred reports how rarely judges describe a work '
+               'incompatibly.'}),
+          (
+           'Which judge describes their disagreement as being about '
+           'weighting?',
+           ['Hieronymus', 'Perpetua', 'Thaddeus', 'Winifred'], 1,
            'Agreeing about the work and differing on what counts how '
-           'much.'),
-          ('Which judge questions what convergence between judges shows?',
+           'much.',
+           {0: 'Hieronymus argues that judging involves pointing at '
+               'things that can be demonstrated.', 2: 'Thaddeus questions what convergence between judges '
+               'shows.', 3: 'Winifred reports how rarely judges describe a work '
+               'incompatibly.'}),
+          (
+           'Which judge questions what convergence between judges '
+           'shows?',
            ['Hieronymus', 'Perpetua', 'Thaddeus', 'Winifred'], 2,
            'Four people trained in three institutions, two by the same '
-           'person.'),
-          ('Which judge reports how rarely judges describe a work '
+           'person.',
+           {0: 'Hieronymus argues that judging involves pointing at '
+               'things that can be demonstrated.', 1: 'Perpetua describes their disagreement as being about '
+               'weighting.', 3: 'Winifred reports how rarely judges describe a work '
+               'incompatibly.'}),
+          (
+           'Which judge reports how rarely judges describe a work '
            'incompatibly?',
            ['Hieronymus', 'Perpetua', 'Thaddeus', 'Winifred'], 3,
-           'Four occasions in thirty years.'),
+           'Four occasions in thirty years.',
+           {0: 'Hieronymus argues that judging involves pointing at '
+               'things that can be demonstrated.', 1: 'Perpetua describes their disagreement as being about '
+               'weighting.', 2: 'Thaddeus questions what convergence between judges '
+               'shows.'}),
           (
            'Hieronymus and Perpetua disagree about what is present in '
            'the work.', ['Yes', 'No', 'Not Given'], 1,
@@ -728,21 +749,34 @@ UNIT = dict(
           'distinguishes those, and the two call for opposite remedies: '
           'the first for clearer criteria, the second for more judges.'],
          items=[
-          ('Which paragraph explains why the mean is nearly useless for '
-           'panel sizing?', ['Paragraph 4', 'Paragraph 5',
-            'Paragraph 6', 'Paragraph 7'], 2,
-           'A wide range means the result depends on who is available.'),
-          ('Which paragraph names two explanations the chart cannot '
-           'distinguish?', ['Paragraph 5', 'Paragraph 6',
-            'Paragraph 7', 'Paragraph 4'], 2,
+          (
+           'Which paragraph explains why the mean is nearly useless '
+           'for panel sizing?',
+           ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+           2,
+           'A wide range means the result depends on who is available.',
+           {0: 'Paragraph 4 compares two panels with similar means and '
+               'different structures.', 3: 'Paragraph 7 names two explanations the chart cannot '
+               'distinguish.'}),
+          (
+           'Which paragraph names two explanations the chart cannot '
+           'distinguish?',
+           ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 4'],
+           2,
            'Different standards, or the same standard applied to more '
-           'variable work.'),
-          ('Which paragraph compares two panels with similar means and '
+           'variable work.',
+           {1: 'Paragraph 6 explains why the mean is nearly useless '
+               'for panel sizing.', 3: 'Paragraph 4 compares two panels with similar means and '
+               'different structures.'}),
+          (
+           'Which paragraph compares two panels with similar means and '
            'different structures?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 1,
-           'Architecture agreeing throughout; sculpture not agreeing at '
-           'all.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           1,
+           'Architecture agreeing throughout; sculpture not agreeing '
+           'at all.',
+           {3: 'Paragraph 6 explains why the mean is nearly useless '
+               'for panel sizing.'}),
           ('Spread between lowest and highest pair in sculpture: '
            '____________ points', None, 'seventy-eight',
            'Paragraph 3, running from a lowest pair of 14 to a highest '
@@ -1081,17 +1115,19 @@ UNIT = dict(
           'published criterion could resolve while the first is not.'],
          items=[
           ('Choose the best heading for paragraph 3.',
-           ['Disagreement about description',
-            'Disagreement about weighting', 'The engineering parallel',
-            'Why convergence is weak evidence'], 1,
+           ['Disagreement about description', 'Disagreement about weighting', 'The engineering parallel', 'Why convergence is weak evidence'],
+           1,
            'How much technical command counts against thematic '
-           'engagement.'),
+           'engagement.',
+           {3: 'Why convergence is weak evidence is the heading for '
+               'paragraph 6.'}),
           ('Choose the best heading for paragraph 6.',
-           ['The engineering parallel',
-            'Why convergence is weak evidence',
-            'What would settle the question',
-            'An interim position'], 1,
-           'Judges drawn from three institutions and a shared training.'),
+           ['The engineering parallel', 'Why convergence is weak evidence', 'What would settle the question', 'An interim position'],
+           1,
+           'Judges drawn from three institutions and a shared '
+           'training.',
+           {2: 'What would settle the question is the heading for '
+               'paragraph 9.'}),
           ('Choose the best heading for paragraph 9.',
            ['An interim position', 'What would settle the question',
             'Expertise in perception', 'The practical consequence'], 1,

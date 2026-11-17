@@ -285,17 +285,22 @@ PAPER = dict(
         'and ninety-two years to get one, by which time nobody involved in '
         'asking for it was alive to see it.'],
        items=[
-        ('Which paragraph explains why local variation in measures was not '
-         'an administrative failure?',
-         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-          'Paragraph 4'], 0,
-         'A measure was maintained by the authority enforcing contracts '
-         'locally.'),
-        ('Which paragraph gives the reason the pendulum definition was '
+        (
+         'Which paragraph explains why local variation in measures was '
+         'not an administrative failure?',
+         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+         0,
+         'A measure was maintained by the authority enforcing '
+         'contracts locally.',
+         {3: 'Paragraph 4 gives the reason the pendulum definition was '
+             'rejected.'}),
+        (
+         'Which paragraph gives the reason the pendulum definition was '
          'rejected?',
-         ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-          'Paragraph 6'], 1,
-         'Because a pendulum’s period depends on local gravity.'),
+         ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+         1,
+         'Because a pendulum\u2019s period depends on local gravity.',
+         {3: 'Paragraph 6 describes the surveyors being arrested.'}),
         ('Which paragraph describes the surveyors being arrested?',
          ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
           'Paragraph 8'], 1,
@@ -451,20 +456,27 @@ PAPER = dict(
          ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
           'Paragraph 7'], 1,
          'A ship declining to pay could be prevented from unloading.'),
-        ('Which paragraph gives examples of bundling outside shipping?',
-         ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',
-          'Paragraph 10'], 1,
-         'Commercial radio, car parks and search engines.'),
-        ('Which paragraph identifies who subsidised whom under the toll '
-         'system?',
-         ['Paragraph 8', 'Paragraph 9', 'Paragraph 10',
-          'Paragraph 11'], 2,
-         'Coastal traders paid for benefits enjoyed by passing traffic.'),
-        ('Which paragraph observes that a paper becoming an example loses '
-         'its qualifications?',
-         ['Paragraph 10', 'Paragraph 11', 'Paragraph 12',
-          'Paragraph 13'], 3,
-         'The 1974 paper is cited more often than it is read.'),
+        (
+         'Which paragraph gives examples of bundling outside shipping?',
+         ['Paragraph 7', 'Paragraph 8', 'Paragraph 9', 'Paragraph 10'],
+         1, 'Commercial radio, car parks and search engines.',
+         {3: 'Paragraph 10 identifies who subsidised whom under the '
+             'toll system.'}),
+        (
+         'Which paragraph identifies who subsidised whom under the '
+         'toll system?',
+         ['Paragraph 8', 'Paragraph 9', 'Paragraph 10', 'Paragraph 11'],
+         2,
+         'Coastal traders paid for benefits enjoyed by passing '
+         'traffic.',
+         {0: 'Paragraph 8 gives examples of bundling outside shipping.'}),
+        (
+         'Which paragraph observes that a paper becoming an example '
+         'loses its qualifications?',
+         ['Paragraph 10', 'Paragraph 11', 'Paragraph 12', 'Paragraph 13'],
+         3, 'The 1974 paper is cited more often than it is read.',
+         {0: 'Paragraph 10 identifies who subsidised whom under the '
+             'toll system.'}),
         (
          'The writer believes the historical claims of the 1974 paper '
          'are doubtful.', ['Yes', 'No', 'Not Given'], 1,
