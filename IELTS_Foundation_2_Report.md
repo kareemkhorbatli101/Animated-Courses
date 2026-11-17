@@ -201,3 +201,47 @@ in the baseline. Nobody has read all of them a second time. The full
 account, including the three defects the invariance contract caught and
 the five things the plan did not fix, is in
 `IELTS_Fix_Plan_Completion_Report.md`.
+
+---
+
+## The balance plan, measured in this book
+
+Phases 10 to 15 counted what the ten-phase fix plan never counted: how often each kind of question appears. `gate10.py` holds the answer against a floor, a ceiling and a rule that every type must be taught as a set of at least three questions in one exercise. Those numbers are a declared design target, not a measurement of a Cambridge paper, and the gate says so in its own docstring. What follows is this book, measured by `census.py`.
+
+| | |
+|---|---|
+| Questions | 672 |
+| Four-option items | 132 |
+| Wrong-option lines | 470 |
+| Part 2 cue cards | 31 |
+| Timed papers | Reading, Listening, Writing, Speaking |
+| Speaking slots | Part 1 32% · Part 2 30% · Part 3 38% (target 25-40% each) |
+
+### Reading · 349 questions
+
+| task type | questions | share | largest set |
+|---|---|---|---|
+| multiple choice | 22 | 6.3% | 4 |
+| True/False/Not Given | 30 | 8.6% | 3 |
+| Yes/No/Not Given | — | — | exempt at this level |
+| matching information | 10 | 2.9% | 3 |
+| matching headings | 30 | 8.6% | 3 |
+| matching features | 37 | 10.6% | 4 |
+| matching sentence endings | — | — | exempt at this level |
+| sentence completion | 91 | 26.1% | 4 |
+| note/table/flow-chart completion | 87 | 24.9% | 6 |
+| plan/map/diagram labelling | 11 | 3.2% | 6 |
+| short answer | 31 | 8.9% | 3 |
+
+### Listening · 323 questions
+
+| task type | questions | share | largest set |
+|---|---|---|---|
+| multiple choice | 40 | 12.4% | 4 |
+| matching | 60 | 18.6% | 6 |
+| plan/map/diagram labelling | 6 | 1.9% | 6 |
+| note/table/flow-chart completion | 135 | 41.8% | 6 |
+| sentence completion | 49 | 15.2% | 4 |
+| short answer | 33 | 10.2% | 3 |
+
+`gate10.py` passes on this book: every type above is taught as a set of three or more, no type is over its ceiling, and no family is under its floor.

@@ -216,3 +216,47 @@ in the baseline. Nobody has read all of them a second time. The full
 account, including the three defects the invariance contract caught and
 the five things the plan did not fix, is in
 `IELTS_Fix_Plan_Completion_Report.md`.
+
+---
+
+## The balance plan, measured in this book
+
+Phases 10 to 15 counted what the ten-phase fix plan never counted: how often each kind of question appears. `gate10.py` holds the answer against a floor, a ceiling and a rule that every type must be taught as a set of at least three questions in one exercise. Those numbers are a declared design target, not a measurement of a Cambridge paper, and the gate says so in its own docstring. What follows is this book, measured by `census.py`.
+
+| | |
+|---|---|
+| Questions | 865 |
+| Four-option items | 222 |
+| Wrong-option lines | 900 |
+| Part 2 cue cards | 36 |
+| Timed papers | Reading, Reading, Listening, Listening, Writing, Speaking |
+| Speaking slots | Part 1 30% · Part 2 35% · Part 3 35% (target 25-40% each) |
+
+### Reading · 473 questions
+
+| task type | questions | share | largest set |
+|---|---|---|---|
+| multiple choice | 20 | 4.2% | 5 |
+| True/False/Not Given | 70 | 14.8% | 5 |
+| Yes/No/Not Given | 37 | 7.8% | 5 |
+| matching information | 66 | 14.0% | 4 |
+| matching headings | 36 | 7.6% | 3 |
+| matching features | 64 | 13.5% | 4 |
+| matching sentence endings | 5 | 1.1% | 5 |
+| sentence completion | 115 | 24.3% | 4 |
+| note/table/flow-chart completion | 18 | 3.8% | 5 |
+| plan/map/diagram labelling | 6 | 1.3% | 3 |
+| short answer | 36 | 7.6% | 4 |
+
+### Listening · 392 questions
+
+| task type | questions | share | largest set |
+|---|---|---|---|
+| multiple choice | 46 | 11.7% | 5 |
+| matching | 12 | 3.1% | 6 |
+| plan/map/diagram labelling | 12 | 3.1% | 6 |
+| note/table/flow-chart completion | 145 | 37.0% | 10 |
+| sentence completion | 102 | 26.0% | 4 |
+| short answer | 75 | 19.1% | 5 |
+
+`gate10.py` passes on this book: every type above is taught as a set of three or more, no type is over its ceiling, and no family is under its floor.

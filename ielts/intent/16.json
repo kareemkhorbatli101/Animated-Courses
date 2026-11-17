@@ -1,0 +1,37 @@
+{
+ "note": "Phases 12 to 15 of the balance plan, and the answer-key promise applied to the timed papers. The baseline is the phase 11 snapshot, so this slip covers everything after it. Phase 12 rebalanced the reading of both Foundation books: True/False/Not Given sets, best-heading sets, two plan-labelling tasks a book, and six authored qkind declarations on blocks whose gaps come from a poster, a list or a four-stage process rather than from different paragraphs of prose. Phase 13 re-asked the whole listening strand of both Foundation books, which between them had put 593 of 593 questions into gap completion: the two-voice discussion becomes a reusable-bank matching task, the Part 4 talk becomes multiple choice, and one block a unit asks two or three of its facts as questions. Phase 14 put 195 cue cards in front of the discussions the speaking slots already held, and relabelled those slots 'Part 2 into Part 3' or 'Part 1 into Part 2', which is what they now do. Phase 15 wrote fourteen new timed modules: a Writing paper and a Speaking paper for Volumes 1 to 5 and for both Foundation books. Afterwards, 138 wrong-option lines were written for the 70 items in eleven second papers that had none, because the answer-key page promises them and only the unit check was enforcing it. Every label was then recomputed from the items by labeledit.py, which is prose. No question was deleted: the series holds 6,385 items before and after. Six drawn figures are added, three to each Foundation book: the plan of Flat 3B and the layout of a football ground in Foundation 1's reading, the street map the directions in unit 65 already described, the refrigerator circuit in Foundation 2's reading and listening, and the cycle route whose passage is headed 'a map and key'. None of them adds a fact its passage or script does not state, which is why no text changed with them.",
+ "items": [
+  "*"
+ ],
+ "item_fields": [
+  "stem",
+  "ans",
+  "opts",
+  "why",
+  "wrongs"
+ ],
+ "texts": [],
+ "new_texts": [
+  "wpaper",
+  "spaper"
+ ],
+ "new_items": true,
+ "prose": [
+  "*"
+ ],
+ "new_prose": [
+  "bank",
+  "banklabel",
+  "qkind",
+  "cue",
+  "wpaper",
+  "spaper",
+  "task"
+ ],
+ "heads": false,
+ "measure": {},
+ "figures": {
+  "7": 3,
+  "8": 3
+ }
+}
