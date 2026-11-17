@@ -47,11 +47,26 @@ build failure rather than an intention.
 | Volume 6 | 810 | 478 | 1,434 | 12.1–13.0% | 21 | 4 | 453 |
 | **total** | **6,385** | **2,563** | **7,689** | — | **62** | **28** | **3,584** |
 
-Papers counts the four single-skill forms a book carries (Reading,
-Listening, Writing, Speaking) plus, in Volumes 1–5, the second Reading
-and Listening forms phase 7 added. Reads of 700+ words counts passages
-inside the units, not in the papers; Volumes 1 and 2 carry one stamina
-read each instead, which is the longest text in those books by design.
+Reads of 700+ words counts passages inside the units, not in the papers;
+Volumes 1 and 2 carry one stamina read each instead, which is the longest
+text in those books by design.
+
+The papers column needs stating exactly, because the four is not the same
+four in every book:
+
+| book | timed papers it carries |
+|---|---|
+| Foundation 1, Foundation 2 | Reading, Listening |
+| Volumes 1–5 | Reading ×2, Listening ×2 |
+| Volume 6 | Reading, Listening, **Writing, Speaking** |
+
+**A full timed Writing paper and a full timed Speaking paper exist in
+Volume 6 only.** Writing and Speaking are taught and modelled in every
+cycle of all eighty units — every unit has a Task 1 and a Task 2 model, a
+Part 2 long turn and a speaking slot — but a candidate who wants to sit
+those two papers against the clock can only do it in Volume 6. That is a
+gap in the series, it is not something any of the ten phases set out to
+close, and it is the largest piece of work still outstanding.
 
 ### The syntax ladder, measured
 
@@ -75,6 +90,89 @@ book below, no sentence over its book's ceiling.
 per Volume 1 academic passage on average (ceiling 12) and **18** in the
 worst passage (ceiling 20), against 10,740 head words taught across the
 two Foundation books. The gate passes.
+
+---
+
+## 2a. Question-type coverage, audited
+
+Every item in the eighty units and all the timed papers, classified by its
+actual shape rather than by the label printed above it.
+
+### Reading — 3,349 items, 9 of the 11 official types
+
+| type | F1 | F2 | V1 | V2 | V3 | V4 | V5 | V6 | total | share |
+|---|---|---|---|---|---|---|---|---|---|---|
+| completion / short answer | 231 | 283 | 169 | 181 | 143 | 142 | 173 | 164 | 1,486 | 44.4% |
+| matching information | 24 | 7 | 66 | 73 | 63 | 57 | 74 | 67 | 431 | 12.9% |
+| matching features | 21 | 37 | 64 | 61 | 50 | 55 | 47 | 41 | 376 | 11.2% |
+| Yes/No/Not Given | 0 | 0 | 37 | 69 | 63 | 65 | 65 | 64 | 363 | 10.8% |
+| multiple choice | 8 | 16 | 20 | 22 | 62 | 50 | 57 | 35 | 270 | 8.1% |
+| matching headings | 0 | 0 | 36 | 35 | 30 | 34 | 30 | 34 | 199 | 5.9% |
+| True/False/Not Given | 6 | 6 | 70 | 24 | 16 | 19 | 11 | 12 | 164 | 4.9% |
+| matching sentence endings | 0 | 0 | 5 | 5 | 5 | 5 | 5 | 5 | 30 | 0.9% |
+| plan / map / diagram labelling | 0 | 0 | 6 | 3 | 3 | 12 | 3 | 3 | 30 | 0.9% |
+
+### Listening — 3,036 items, 4 of the 6 official types
+
+| type | F1 | F2 | V1 | V2 | V3 | V4 | V5 | V6 | total | share |
+|---|---|---|---|---|---|---|---|---|---|---|
+| completion / short answer | 268 | 323 | 341 | 295 | 107 | 108 | 119 | 79 | 1,640 | 54.0% |
+| multiple choice | 1 | 0 | 51 | 121 | 279 | 270 | 282 | 294 | 1,298 | 42.8% |
+| matching | 1 | 0 | 0 | 0 | 22 | 33 | 15 | 7 | 78 | 2.6% |
+| plan / map / diagram labelling | 0 | 0 | 0 | 0 | 5 | 5 | 5 | 5 | 20 | 0.7% |
+
+### Speaking — all three parts, every book
+
+| book | Part 1 slots | Part 2 slots | Part 3 slots | long-turn models | Part 3 follow-up sets |
+|---|---|---|---|---|---|
+| Foundation 1 | 20 | 10 | 20 | 10 | 0 |
+| Foundation 2 | 11 | 10 | 29 | 10 | 0 |
+| Volumes 1, 2 | 20 | 10 | 30 | 10 | 0 |
+| Volumes 3–6 | 20 | 10 | 30 | 10 | 10 |
+
+1,551 speaking prompts in all. Each book has 50 speaking slots (ten units
+× five cycles); the "Part 1 into Part 2" slots count in both columns,
+which is why the rows exceed 50.
+
+### What this audit says is not balanced
+
+1. **Reading leans on completion.** 44.4% of reading items ask the
+   candidate to write words into a gap. In a real Academic paper that
+   family is nearer a quarter to a third.
+2. **Reading multiple choice is thin at 8.1%**, and absent from the task
+   labels entirely — no exercise in the series is headed "Multiple
+   choice", although 270 items are exactly that. The label names the other
+   types in the block and omits this one.
+3. **The option pools are smaller than the real paper's.** Matching
+   information is offered as four candidate paragraphs (335 items) or
+   three (31); the real task offers every paragraph in the passage, often
+   eight to ten. Matching headings offers four headings per question in all
+   183 items; the real task offers about eight for five or six paragraphs.
+   Both are therefore easier than the task they prepare for, and the gates
+   never checked pool size because no rule was ever written for it.
+4. **Listening is two types doing 96.8% of the work.** Matching is 2.6%
+   and plan/map/diagram labelling is 0.7%, and both are absent from
+   Foundation 1, Foundation 2, Volume 1 and Volume 2 altogether. In a real
+   Listening paper those two families are a normal feature of Parts 2 and
+   3. Phase 9 added one labelling set a book from Volume 3, which was what
+   the plan asked for and is not enough to call the strand balanced.
+5. **Listening never names its question type.** A reading exercise is
+   headed with its types; a listening exercise is headed with its scenario
+   ("A recorded exchange"), so a candidate is never told which task
+   they are practising.
+6. **Speaking Part 3 carries 57% of the slots**, against roughly a third
+   of the real interview, and the Part 3 follow-up sets exist only in
+   Volumes 3–6.
+7. **Writing and Speaking have no timed paper outside Volume 6**, as the
+   table in section 2 now records.
+
+None of the seven is a defect in what is on the page: every item is
+gated, explained and at the right level for its book. They are gaps in
+*distribution*, and distribution was never gated — no rule in `check.py`
+has ever counted how often each question type appears. That is the
+obvious next phase, and it would be cheap: the audit above is thirty
+lines of Python, and turning it into a gate means choosing target shares
+and failing the build outside them.
 
 ---
 

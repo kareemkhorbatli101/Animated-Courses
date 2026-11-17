@@ -268,6 +268,24 @@ explanation describes — in both the keyed option is still the best of the
 four, so neither was changed under a phase whose declaration did not
 permit it. Both are named in the completion report.
 
+**Question-type distribution was never gated.** Nine of the eleven
+Reading types and four of the six Listening types are present, and all
+three Speaking parts are in every book — but the shares are uneven:
+completion tasks are 44% of reading items and 54% of listening items,
+listening matching and labelling together are 3.3% and are absent from the
+Foundation books and Volumes 1–2, and Speaking Part 3 carries 57% of the
+speaking slots. The option pools are also smaller than the real paper's:
+matching information offers four candidate paragraphs where the real task
+offers every paragraph. Nothing on the page is wrong; the distribution
+simply has no rule behind it, because no gate was ever written to count
+question types. `IELTS_Fix_Plan_Completion_Report.md` §2a has the full
+audit, book by book.
+
+**A timed Writing paper and a timed Speaking paper exist in Volume 6
+only.** Both skills are taught and modelled in every cycle of all eighty
+units; only the against-the-clock paper is missing from the other seven
+books.
+
 The remaining item is the one carried from the start. The syntax ladder is
 a relative gate: it proves this series is internally graded, not that
 Volume 4's 22.7 words a sentence is the right figure for band 6.5 in the
