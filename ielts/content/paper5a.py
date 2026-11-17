@@ -117,26 +117,32 @@ PAPER = dict(
                'that would be considered unacceptable in any other part of '
                'publishing.')],
        items=[
-        ('Which paragraph explains why alphabetical order was once thought '
-         'improper?',
-         ['Paragraph 2', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'], 1,
-         'Paragraph 3 describes the objection and the apologies in early '
-         'prefaces.'),
+        (
+         'Which paragraph explains why alphabetical order was once '
+         'thought improper?',
+         ['Paragraph 2', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'],
+         1,
+         'Paragraph 3 describes the objection and the apologies in '
+         'early prefaces.',
+         {0: 'Paragraph 2 explains the page number and the codex.', 2: 'Paragraph 5 describes the Paris concordance.', 3: 'Paragraph 7 discusses the index\u2019s bias.'}),
         (
          'Which paragraph identifies who created the demand for '
          'indexes?',
          ['Paragraph 2', 'Paragraph 4', 'Paragraph 6', 'Paragraph 8'],
          1,
          'Paragraph 4 names the thirteenth-century preaching orders.',
-         {3: 'Paragraph 8 compares an index with a modern search.'}),
+         {0: 'Paragraph 2 explains the page number and the codex.', 2: 'Paragraph 6 covers printing and the early complaints.', 3: 'Paragraph 8 compares an index with a modern search.'}),
         ('Which paragraph compares an index with a modern search?',
-         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 3,
-         'Paragraph 8 sets out the parallels and the chief difference.'),
+         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+         3,
+         'Paragraph 8 sets out the parallels and the chief difference.',
+         {0: 'Paragraph 5 describes the Paris concordance.', 1: 'Paragraph 6 covers printing and the early complaints.', 2: 'Paragraph 7 discusses the index\u2019s bias.'}),
         ('Why can a scroll not be indexed usefully?',
-         ['it is too long', 'there is no stable name for a position',
-          'it cannot be copied', 'it has no title'], 1,
-         'Paragraph 2 contrasts the scroll with the countable leaves of a '
-         'codex.'),
+         ['it is too long', 'there is no stable name for a position', 'it cannot be copied', 'it has no title'],
+         1,
+         'Paragraph 2 contrasts the scroll with the countable leaves '
+         'of a codex.',
+         {0: 'Length is not the obstacle paragraph 2 names.', 2: 'Scrolls were copied; that is not the problem.', 3: 'Titles are not what an index needs.'}),
         ('From which century were manuscripts foliated irregularly?',
          None, 'twelfth',
          'Paragraph 2 says the practice became standard only with '
@@ -152,30 +158,32 @@ PAPER = dict(
          None, 'twelve-thirties',
          'Paragraph 5 describes the scale of the work.'),
         ('Why was the first version of the concordance revised?',
-         ['it contained errors',
-          'the references lacked enough context',
-          'the alphabet had changed',
-          'it was too expensive'], 1,
-         'Paragraph 5 says the second version added short quotations.'),
+         ['it contained errors', 'the references lacked enough context', 'the alphabet had changed', 'it was too expensive'],
+         1,
+         'Paragraph 5 says the second version added short quotations.',
+         {0: 'Errors are not the reason paragraph 5 gives.', 2: 'The alphabet did not change in a generation.', 3: 'Cost is not what prompted the revision.'}),
         ('Printing changed the ____________ of indexing rather than the '
          'idea.', None, 'economics',
          'Paragraph 6 explains how the cost could be spread.'),
-        ('How soon after printing did authors begin complaining about '
-         'indexes?', ['within five years', 'within fifty years',
-          'within two hundred years', 'only in the modern period'], 1,
-         'Paragraph 6 dates the complaint and says it has continued.'),
+        (
+         'How soon after printing did authors begin complaining about '
+         'indexes?',
+         ['within five years', 'within fifty years', 'within two hundred years', 'only in the modern period'],
+         1,
+         'Paragraph 6 dates the complaint and says it has continued.',
+         {0: 'Five years is sooner than paragraph 6 reports.', 2: 'Two hundred years is far later than the complaint began.', 3: 'The complaint began within fifty years of printing.'}),
         ('The writer says the bias of an index favours the sentence over '
          'the ____________.', None, 'argument',
          'Paragraph 7 states the bias after giving the historical '
          'evidence.'),
-        ('What does the writer give as the chief difference between an '
+        (
+         'What does the writer give as the chief difference between an '
          'index and a search box?',
-         ['indexes are more accurate',
-          'searches are compiled by machines',
-          'the indexer’s name was often printed',
-          'searches find arguments'], 2,
+         ['indexes are more accurate', 'searches are compiled by machines', 'the indexer\u2019s name was often printed', 'searches find arguments'],
+         2,
          'The final sentence of the passage makes the contrast about '
-         'visibility of the compiler.')]),
+         'visibility of the compiler.',
+         {0: 'Accuracy is not the difference the passage names.', 1: 'Both are compiled with invisible choices.', 3: 'Neither finds arguments, the passage says.'})]),
 
   dict(no=2, first=14,
        heading='Bringing a language back',
@@ -271,19 +279,23 @@ PAPER = dict(
          ['Paragraph 1', 'Paragraph 2', 'Paragraph 4', 'Paragraph 6'],
          1,
          'Paragraph 2 separates the endangered from the dormant case.',
-         {3: 'Paragraph 6 states the central finding of the '
+         {0: 'Paragraph 1 sets out the scale of language loss.', 2: 'Paragraph 4 describes the Welsh case.', 3: 'Paragraph 6 states the central finding of the '
              'literature.'}),
-        ('Which paragraph states the central finding of the literature?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
-         'Paragraph 6 identifies transmission between generations as the '
-         'limit.'),
+        (
+         'Which paragraph states the central finding of the '
+         'literature?',
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'],
+         2,
+         'Paragraph 6 identifies transmission between generations as '
+         'the limit.',
+         {0: 'Paragraph 4 describes the Welsh case.', 1: 'Paragraph 5 describes Maori and Hawaiian.', 3: 'Paragraph 8 states what the evidence can settle.'}),
         (
          'Which paragraph names the intervention with the poorest '
          'record?',
          ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
          2, 'Paragraph 7 names adult evening classes.',
-         {1: 'Paragraph 6 states the central finding of the '
-             'literature.'}),
+         {0: 'Paragraph 5 describes Maori and Hawaiian.', 1: 'Paragraph 6 states the central finding of the '
+             'literature.', 3: 'Paragraph 8 states what the evidence can settle.'}),
         ('About what proportion of languages are expected to lose their '
          'native speakers this century?', None, 'half',
          'Paragraph 1 gives the figure against seven thousand '
@@ -291,11 +303,14 @@ PAPER = dict(
         ('A dormant language has no ____________ speakers.',
          None, 'native',
          'Paragraph 2 contrasts this with an endangered language.'),
-        ('Hebrew was in continuous use for how long before the revival?',
-         ['eight centuries', 'eighteen centuries', 'two centuries',
-          'it was not in use'], 1,
+        (
+         'Hebrew was in continuous use for how long before the '
+         'revival?',
+         ['eight centuries', 'eighteen centuries', 'two centuries', 'it was not in use'],
+         1,
          'Paragraph 3 says it was in liturgical and scholarly use '
-         'throughout.'),
+         'throughout.',
+         {0: 'Eight centuries understates the period given.', 2: 'Two centuries understates the period given.', 3: 'It was in continuous liturgical and scholarly use.'}),
         ('What Hebrew lacked was ____________ who spoke it at home.',
          None, 'children',
          'Paragraph 3 identifies this as the gap the revival filled.'),
@@ -306,11 +321,13 @@ PAPER = dict(
          None, 'thirty years',
          'Paragraph 4 gives the period and the three measures behind '
          'it.'),
-        ('Which of the three Welsh measures does the writer think was '
+        (
+         'Which of the three Welsh measures does the writer think was '
          'least important?',
-         ['compulsory teaching', 'the legal right',
-          'the television channel', 'all were equal'], 2,
-         'Paragraph 4 says the schools produced the speakers.'),
+         ['compulsory teaching', 'the legal right', 'the television channel', 'all were equal'],
+         2, 'Paragraph 4 says the schools produced the speakers.',
+         {0: 'Compulsory teaching produced the speakers.', 1: 'The legal right is not the one he discounts.', 3: 'Paragraph 4 ranks them rather than treating them '
+             'equally.'}),
         ('What kind of institution did Maori and Hawaiian both use?',
          None, 'immersion nurseries',
          'Paragraph 5 describes small children spending the day with '
@@ -418,26 +435,29 @@ PAPER = dict(
          1,
          'Paragraph 3 explains that frozen doses are recorded as '
          'successes.',
-         {3: 'Paragraph 7 describes a system failing at its cheapest '
+         {0: 'Paragraph 1 introduces the last-mile problem.', 2: 'Paragraph 5 describes the solar refrigerators.', 3: 'Paragraph 7 describes a system failing at its cheapest '
              'link.'}),
-        ('Which paragraph states a design principle that generalises '
+        (
+         'Which paragraph states a design principle that generalises '
          'beyond vaccines?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
-         'Paragraph 6 gives the pump example.'),
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'],
+         2, 'Paragraph 6 gives the pump example.',
+         {0: 'Paragraph 4 describes the vial monitors.', 1: 'Paragraph 5 describes the solar refrigerators.', 3: 'Paragraph 8 gives the conclusion about budget lines.'}),
         (
          'Which paragraph describes a system failing at its cheapest '
          'link?',
          ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
          2, 'Paragraph 7 reports outreach cancelled for want of fuel.',
-         {1: 'Paragraph 6 states a design principle that generalises '
-             'beyond vaccines.'}),
+         {0: 'Paragraph 5 describes the solar refrigerators.', 1: 'Paragraph 6 states a design principle that generalises '
+             'beyond vaccines.', 3: 'Paragraph 8 gives the conclusion about budget lines.'}),
         ('Most vaccines require storage between two and ____________ '
          'degrees.', None, 'eight',
          'Paragraph 2 says both ends of the range matter.'),
         ('Which is the commoner failure?',
          ['heat', 'freezing', 'light', 'vibration'], 1,
          'Paragraph 2 explains that a cold box with plenty of ice '
-         'produces it.'),
+         'produces it.',
+         {0: 'Heat is the failure everybody expected.', 2: 'Light is not among the failures discussed.', 3: 'Vibration is not mentioned in the passage.'}),
         ('Monitors placed inside shipments find below-zero episodes only '
          'in poor countries.', ['True', 'False', 'Not Given'], 1,
          'Paragraph 2 says the finding holds in rich and poor countries '
@@ -449,7 +469,7 @@ PAPER = dict(
          ['freezing', 'heat', 'light', 'expiry'], 1,
          'Paragraph 4 says they do not detect freezing, which is the '
          'point of the paragraph.',
-         {0: 'Freezing the commoner failure.'}),
+         {0: 'Freezing the commoner failure.', 2: 'Light is not what the monitors respond to.', 3: 'Expiry dates are printed, not monitored by the label.'}),
         ('Early solar refrigerators failed because their ____________ '
          'lasted about three years.', None, 'batteries',
          'Paragraph 5 explains what happened to the refrigerator '
@@ -460,15 +480,18 @@ PAPER = dict(
         ('A less efficient pump may deliver more water because any '
          '____________ can repair it.', None, 'mechanic',
          'Paragraph 6 contrasts this with a part from abroad.'),
-        ('The writer says the efficiency calculation answers a question '
-         'about the machine rather than about the',
+        (
+         'The writer says the efficiency calculation answers a '
+         'question about the machine rather than about the',
          ['budget', 'system', 'manufacturer', 'climate'], 1,
-         'Paragraph 6 states exactly this distinction.'),
+         'Paragraph 6 states exactly this distinction.',
+         {0: 'The budget appears later, in paragraph 7.', 2: 'The manufacturer is not the contrast drawn.', 3: 'Climate is part of the system, not the contrast.'}),
         ('Which items vanish first in a budget revision?',
-         ['refrigerators', 'monitors', 'transport and allowances',
-          'vaccines'], 2,
+         ['refrigerators', 'monitors', 'transport and allowances', 'vaccines'],
+         2,
          'Paragraph 7 lists what a nurse travelling to a village '
-         'needs.'),
+         'needs.',
+         {0: 'Refrigerators were working in the districts described.', 1: 'Monitors appear on most doses and were not cut.', 3: 'Full stores of vaccine are part of the same finding.'}),
         ('Coverage is stable where outreach is funded as an '
          '____________.', None, 'entitlement',
          'The final paragraph contrasts this with annual competition for '

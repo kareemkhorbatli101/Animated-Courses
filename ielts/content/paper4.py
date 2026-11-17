@@ -104,13 +104,13 @@ PAPER = dict(
          1,
          'Paragraph 2 lists everything else that had to change: ports, '
          'railways, insurance, unions, customs.',
-         {3: 'Agreeing a standard is the heading for paragraph 5.'}),
+         {0: 'The first voyage is paragraph 1.', 2: 'The end of dock labour is paragraph 4.', 3: 'Agreeing a standard is the heading for paragraph 5.'}),
         ('Choose the best heading for paragraph 5.',
          ['The end of dock labour', 'Agreeing a standard', 'Ports in the wrong place', 'A different kind of trade'],
          1,
          'Incompatible sizes and fittings, and a compromise that '
          'suited nobody exactly.',
-         {2: 'Ports in the wrong place is the heading for paragraph 6.', 3: 'A different kind of trade is the heading for paragraph '
+         {0: 'The end of dock labour is paragraph 4.', 2: 'Ports in the wrong place is the heading for paragraph 6.', 3: 'A different kind of trade is the heading for paragraph '
              '8.'}),
         ('Choose the best heading for paragraph 6.',
          ['Agreeing a standard', 'Ports in the wrong place', 'A different kind of trade', 'The invisible effect'],
@@ -118,13 +118,13 @@ PAPER = dict(
          'Deep water, flat land and connections, which established '
          'city ports did not have.',
          {0: 'Agreeing a standard is the heading for paragraph 5.', 2: 'A different kind of trade is the heading for paragraph '
-             '8.'}),
+             '8.', 3: 'The invisible effect is paragraph 10.'}),
         ('Choose the best heading for paragraph 8.',
          ['Ports in the wrong place', 'A different kind of trade', 'The invisible effect', 'The first voyage'],
          1,
          'Production broken into stages, components crossing oceans '
          'several times.',
-         {0: 'Ports in the wrong place is the heading for paragraph 6.'}),
+         {0: 'Ports in the wrong place is the heading for paragraph 6.', 2: 'The invisible effect is paragraph 10.', 3: 'The first voyage is paragraph 1.'}),
         ('Loading the 1956 ship cost sixteen cents a ton, against '
          '____________ for a conventional ship.', None, '$5.83',
          'Paragraph 1 gives five dollars and eighty-three cents, which is the '
@@ -264,16 +264,24 @@ PAPER = dict(
          0,
          'Nobody could travel fast enough for the four minutes per '
          'degree to matter.',
-         {2: 'Paragraph 3 describes buildings displaying two times at '
-             'once.'}),
-        ('Which paragraph describes buildings displaying two times at once?',
-         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'], 1,
-         'Paragraph 3: clocks fitted with two minute hands while towns kept '
-         'their own time.'),
-        ('Which paragraph argues that governments were largely followers?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
+         {1: 'Paragraph 2 describes what the railway changed.', 2: 'Paragraph 3 describes buildings displaying two times at '
+             'once.', 3: 'Paragraph 4 covers the gap before legal recognition.'}),
+        (
+         'Which paragraph describes buildings displaying two times at '
+         'once?',
+         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
+         1,
+         'Paragraph 3: clocks fitted with two minute hands while towns '
+         'kept their own time.',
+         {0: 'Paragraph 2 describes what the railway changed.', 2: 'Paragraph 4 covers the gap before legal recognition.', 3: 'Paragraph 5 describes the Washington conference.'}),
+        (
+         'Which paragraph argues that governments were largely '
+         'followers?',
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+         2,
          'Paragraph 6: legislation ratified universal practice ten to '
-         'thirty-five years later.'),
+         'thirty-five years later.',
+         {0: 'Paragraph 4 covers the gap before legal recognition.', 1: 'Paragraph 5 describes the Washington conference.', 3: 'Paragraph 7 is about the social reception.'}),
         (
          'Which paragraph describes a new kind of measurement becoming '
          'possible?',
@@ -282,7 +290,8 @@ PAPER = dict(
          'Simultaneity at a distance, on which markets, telegraphy and '
          'astronomy depend.',
          {0: 'Paragraph 6 argues that governments were largely '
-             'followers.'}),
+             'followers.', 1: 'Paragraph 7 is about the social reception.', 3: 'Paragraph 9 is about the telegraph making the difference '
+             'visible.'}),
         ('Local time changed by about four minutes for every degree of '
          '____________.', None, 'longitude',
          'Paragraph 1, which is why westward travel put a traveller behind.'),
@@ -299,19 +308,27 @@ PAPER = dict(
          None, '1911',
          'Paragraph 5: Paris mean time retarded by nine minutes and '
          'twenty-one seconds.'),
-        ('According to the writer, nineteenth-century objections to standard '
-         'time concerned',
+        (
+         'According to the writer, nineteenth-century objections to '
+         'standard time concerned',
          ['inconvenience', 'cost', 'authority', 'accuracy'], 2,
-         'Paragraph 7: time derived from an agreement, where it had come from the sun.'),
-        ('The writer describes the complaint about losing local time as',
-         ['foolish', 'not as foolish as it sounds', 'typical of the period',
-          'economically motivated'], 1,
-         'Something that had been a property of a place became a property of '
-         'a network.'),
+         'Paragraph 7: time derived from an agreement, where it had '
+         'come from the sun.',
+         {0: 'Paragraph 7 says the objections were not about '
+             'inconvenience.', 1: 'Cost is not among the objections recorded.', 3: 'Accuracy was not what the objectors disputed.'}),
+        (
+         'The writer describes the complaint about losing local time '
+         'as',
+         ['foolish', 'not as foolish as it sounds', 'typical of the period', 'economically motivated'],
+         1,
+         'Something that had been a property of a place became a '
+         'property of a network.',
+         {0: 'The writer says it is not as foolish as it sounds.', 2: 'He does not call the complaint typical of the period.', 3: 'The complaint was about authority, not economics.'}),
         ('Leap seconds are to be abandoned by',
          ['2022', '2030', '2035', '2100'], 2,
-         'Paragraph 9, agreed in 2022, accepting a drift of a second or two '
-         'per century.'),
+         'Paragraph 9, agreed in 2022, accepting a drift of a second '
+         'or two per century.',
+         {0: '2022 is when the decision was agreed.', 1: '2030 is five years before the agreed date.', 3: '2100 is far beyond the agreed date.'}),
         (
          'Modern civil time is derived from the rotation of the earth.',
          ['True', 'False', 'Not Given'], 1,
@@ -411,8 +428,8 @@ PAPER = dict(
          ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
          1,
          'Bacteria do not interbreed and exchange material sideways.',
-         {2: 'Paragraph 3 describes a case where the relation is not '
-             'transitive.'}),
+         {0: 'Paragraph 1 states the schoolroom definition.', 2: 'Paragraph 3 describes a case where the relation is not '
+             'transitive.', 3: 'Paragraph 4 gives the temporal problem.'}),
         (
          'Which paragraph describes a case where the relation is not '
          'transitive?',
@@ -421,18 +438,23 @@ PAPER = dict(
          'Ring species: every adjacent pair interbreeds, the two ends '
          'do not.',
          {0: 'Paragraph 2 explains why the standard definition cannot '
-             'apply to most organisms.'}),
+             'apply to most organisms.', 2: 'Paragraph 4 gives the temporal problem.', 3: 'Paragraph 5 counts the rival definitions.'}),
         (
          'Which paragraph compares species boundaries with units of '
          'measurement?',
          ['Paragraph 8', 'Paragraph 9', 'Paragraph 10', 'Paragraph 11'],
          3, 'The metre is a convention and bridges do not fall down.',
          {0: 'Paragraph 8 explains why reclassification matters '
-             'legally.'}),
-        ('Which paragraph explains why reclassification matters legally?',
-         ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'], 2,
-         'Protection, extinction counts and funding all operate at species '
-         'level.'),
+             'legally.', 1: 'Paragraph 9 answers the accusation about splitting.', 2: 'Paragraph 10 states the honest position.'}),
+        (
+         'Which paragraph explains why reclassification matters '
+         'legally?',
+         ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'],
+         2,
+         'Protection, extinction counts and funding all operate at '
+         'species level.',
+         {0: 'Paragraph 6 argues the question is malformed.', 1: 'Paragraph 7 separates the objective facts from the '
+             'choice.', 3: 'Paragraph 9 answers the accusation about splitting.'}),
         (
          'The writer believes the standard school definition is '
          'adequate for most purposes.',
@@ -473,9 +495,13 @@ PAPER = dict(
          {1: 'No would need a contradiction; paragraph 9 gives both '
              'effects.', 2: 'Not Given is wrong because the effect of cheap '
              'sequencing is described.'}),
-        ('Approximately how many species definitions are in current use?',
+        (
+         'Approximately how many species definitions are in current '
+         'use?',
          ['Six', 'Twelve', 'Twenty-six', 'Over a hundred'], 2,
-         'Paragraph 5, each working well in the domain it was built for.'),
+         'Paragraph 5, each working well in the domain it was built '
+         'for.',
+         {0: 'Six is far fewer than paragraph 5 counts.', 1: 'Twelve is fewer than half the number counted.', 3: 'Over a hundred is well beyond the figure given.'}),
         ('Palaeontologists use ____________ criteria instead of the '
          'interbreeding test.', None, 'morphological',
          'Paragraph 4, because the test cannot be run on fossils.'),

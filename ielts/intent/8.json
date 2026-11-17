@@ -1,0 +1,10 @@
+{
+ "note": "Phase 8 - every wrong option explained. The answer-key page has always promised that a wrong option is accounted for; until now only the three-option items kept it. This phase writes a line for every wrong option of every four-option item in the series: 1,068 lines across the eighty units and the twenty-four timed papers, each naming what that option actually is or where in the text it came from, so that a candidate who chose it learns why rather than being told a letter. check.PHASE['wrongs'] moves from 3 to 4, which makes the gate enforce the promise from here on, and the answer-key banner is restored to the sentence the promise was written as. One answer key was corrected on the way: u26 c5 R0 i55 asked which paragraph describes a scheme allocating licences by auction and was keyed to Paragraph 3, where the auction is in Paragraph 4. Two wrong-option lines first written against the wrong paragraph were rewritten. Nothing else changes: no stem, no text, no option list, no explanation.",
+ "items": ["*"],
+ "item_fields": ["wrongs", "ans"],
+ "texts": [],
+ "prose": [],
+ "heads": false,
+ "measure": {},
+ "figures": {}
+}

@@ -201,7 +201,7 @@ STAMINA_TO = 2
 # Phases turn these on as the content lands, so the gate is written first
 # and goes green when the work it governs is done. Set by main() from the
 # file PHASE, which is the single place a phase is declared finished.
-PHASE = dict(rubric=True, wrongs=3)    # wrongs: 0 none, 3 three-option, 4 all
+PHASE = dict(rubric=True, wrongs=4)    # wrongs: 0 none, 3 three-option, 4 all
 
 
 def _rubric_ok(blk):

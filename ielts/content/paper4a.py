@@ -110,29 +110,38 @@ PAPER = dict(
                'same, which turns out to help less than anybody '
                'expected.')],
        items=[
-        ('Which paragraph explains why owners overloaded ships '
+        (
+         'Which paragraph explains why owners overloaded ships '
          'deliberately?',
-         ['Paragraph 2', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'], 1,
+         ['Paragraph 2', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'],
+         1,
          'Paragraph 3 sets out who was paid, who was insured and who '
-         'drowned.'),
+         'drowned.',
+         {0: 'Paragraph 2 explains freeboard and the physics.', 2: 'Paragraph 5 describes Plimsoll\u2019s campaign.', 3: 'Paragraph 7 explains the ladder of lines.'}),
         ('Which paragraph explains why the first Act achieved little?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
-         'Paragraph 6 identifies the concession that let owners place the '
-         'line themselves.'),
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'],
+         2,
+         'Paragraph 6 identifies the concession that let owners place '
+         'the line themselves.',
+         {0: 'Paragraph 4 gives the loss rates of the '
+             'eighteen-seventies.', 1: 'Paragraph 5 describes Plimsoll\u2019s campaign.', 3: 'Paragraph 8 states why the problem was never technical.'}),
         ('What is the height of hull above the waterline called?',
          None, 'freeboard',
          'Paragraph 2 names it and explains what it does.'),
         ('The margin between a safe and an unsafe load is measured in',
          ['metres', 'centimetres', 'tonnes', 'degrees'], 1,
-         'Paragraph 2 contrasts this with the depth of the hull.'),
+         'Paragraph 2 contrasts this with the depth of the hull.',
+         {0: 'Metres is the depth of the hull, not the margin.', 2: 'Tonnes measure the cargo, not the margin of freeboard.', 3: 'Degrees are not a unit used in paragraph 2.'}),
         ('Nineteenth-century masters did not understand the danger.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 3 says it was understood by every master and '
          'systematically ignored.'),
-        ('At what rate were British ships being lost in the '
+        (
+         'At what rate were British ships being lost in the '
          'eighteen-seventies?',
          ['two a week', 'two a day', 'two a month', 'two a year'], 1,
-         'Paragraph 4 gives the rate alongside the annual death toll.'),
+         'Paragraph 4 gives the rate alongside the annual death toll.',
+         {0: 'Two a week is a seventh of the rate given.', 2: 'Two a month is far below the rate given.', 3: 'Two a year would not have drowned thousands.'}),
         ('What were certain vessels known as in their home ports?',
          None, 'coffin ships',
          'Paragraph 4 reports the evidence given to the inquiry.'),
@@ -147,10 +156,12 @@ PAPER = dict(
          'regulation?', None, '1890',
          'Paragraph 6 contrasts this with the 1876 Act.'),
         ('The first official tables were calculated from',
-         ['model experiments', 'the records of ships that had sunk',
-          'the opinions of masters', 'insurance premiums'], 1,
+         ['model experiments', 'the records of ships that had sunk', 'the opinions of masters', 'insurance premiums'],
+         1,
          'Paragraph 6 makes the point about where the figures came '
-         'from.'),
+         'from.',
+         {0: 'No model experiments are mentioned in the passage.', 2: 'Masters understood the danger but set no tables.', 3: 'Insurance premiums are part of paragraph 3, not the '
+             'tables.'}),
         ('A hull floats higher in cold ____________ water.',
          None, 'salt',
          'Paragraph 7 explains why the mark has several lines.'),
@@ -244,18 +255,21 @@ PAPER = dict(
          'the price?',
          ['Paragraph 2', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'],
          1, 'Paragraph 3 introduces the idea of a sunk cost.',
-         {3: 'Paragraph 7 identifies a case the method handles badly.'}),
-        ('Which paragraph describes an unintended effect of publishing a '
-         'threshold?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
+         {0: 'Paragraph 2 sets out the standard defence.', 2: 'Paragraph 5 describes the threshold method.', 3: 'Paragraph 7 identifies a case the method handles badly.'}),
+        (
+         'Which paragraph describes an unintended effect of publishing '
+         'a threshold?',
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'],
+         2,
          'Paragraph 6 reports the clustering of prices just below the '
-         'line.'),
+         'line.',
+         {0: 'Paragraph 4 explains patents and generics.', 1: 'Paragraph 5 describes the threshold method.', 3: 'Paragraph 8 gives the honest summary.'}),
         ('Which paragraph identifies a case the method handles badly?',
          ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
          2,
          'Paragraph 7 deals with medicines for very rare conditions.',
-         {1: 'Paragraph 6 describes an unintended effect of publishing '
-             'a threshold.'}),
+         {0: 'Paragraph 5 describes the threshold method.', 1: 'Paragraph 6 describes an unintended effect of publishing '
+             'a threshold.', 3: 'Paragraph 8 gives the honest summary.'}),
         ('Published estimates of the cost of a successful medicine vary '
          'because of which failures are ____________.',
          None, 'counted',
@@ -267,38 +281,42 @@ PAPER = dict(
         ('What do economists call a cost that cannot be recovered?',
          None, 'sunk',
          'Paragraph 3 uses the term to explain the pricing logic.'),
-        ('By how much does a price typically fall once a generic version '
-         'appears?',
-         ['between ten and twenty per cent',
-          'between forty and sixty per cent',
-          'between eighty and ninety-five per cent',
-          'it does not fall'], 2,
+        (
+         'By how much does a price typically fall once a generic '
+         'version appears?',
+         ['between ten and twenty per cent', 'between forty and sixty per cent', 'between eighty and ninety-five per cent', 'it does not fall'],
+         2,
          'Paragraph 4 gives the range and the period over which it '
-         'happens.'),
+         'happens.',
+         {0: 'Ten to twenty per cent understates the fall reported.', 1: 'Forty to sixty per cent understates the fall reported.', 3: 'Paragraph 4 says the price does fall, and far.'}),
         ('The fall after a generic appears shows how much of the price '
          'was the ____________.', None, 'patent',
          'Paragraph 4 draws exactly this conclusion.'),
         ('Health is measured in years of life adjusted for their '
          '____________.', None, 'quality',
          'Paragraph 5 describes the assessment method.'),
-        ('A refusal under a published threshold is a consequence of a '
-         'stated', ['judgement', 'rule', 'price', 'illness'], 1,
-         'Paragraph 6 contrasts this with a judgement about a particular '
-         'illness.'),
+        (
+         'A refusal under a published threshold is a consequence of a '
+         'stated', ['judgement', 'rule', 'price', 'illness'],
+         1,
+         'Paragraph 6 contrasts this with a judgement about a '
+         'particular illness.',
+         {0: 'A judgement about an illness is what it replaces.', 2: 'The price is what is compared against the rule.', 3: 'The illness is what a judgement would be about.'}),
         ('Medicines for rare conditions are usually dealt with by',
-         ['refusing them', 'lowering the threshold', 'exceptions',
-          'importing them'], 2,
-         'Paragraph 7 says the exceptions are decided politically.'),
+         ['refusing them', 'lowering the threshold', 'exceptions', 'importing them'],
+         2, 'Paragraph 7 says the exceptions are decided politically.',
+         {0: 'Refusal is what the exceptions avoid.', 1: 'The threshold is not lowered for rare conditions.', 3: 'Importing is not what paragraph 7 describes.'}),
         ('The writer believes some method prices medicines well.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 8 opens by saying no method does.'),
-        ('What advantage does the writer claim for the published '
-         'threshold?', ['it produces lower prices',
-          'it can be argued with in public',
-          'it removes political decisions', 'it is cheaper to operate'],
+        (
+         'What advantage does the writer claim for the published '
+         'threshold?',
+         ['it produces lower prices', 'it can be argued with in public', 'it removes political decisions', 'it is cheaper to operate'],
          1,
          'Paragraph 8 says the figure can be scrutinised, unlike an '
-         'unstated one.')]),
+         'unstated one.',
+         {0: 'Lower prices are not the advantage claimed.', 2: 'The exceptions remain explicitly political.', 3: 'Cost of operation is not the claim made.'})]),
 
   dict(no=3, first=27,
        heading='Reading the rings of a tree',
@@ -387,24 +405,28 @@ PAPER = dict(
          1,
          'Paragraph 2 describes overlapping signatures from timbers of '
          'different ages.',
-         {3: 'Paragraph 6 explains why a short offcut cannot be dated.'}),
+         {0: 'Paragraph 1 states the two facts the method rests on.', 2: 'Paragraph 4 describes what the precision transformed.', 3: 'Paragraph 6 explains why a short offcut cannot be dated.'}),
         (
          'Which paragraph explains why a short offcut cannot be dated?',
          ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
          2,
          'Paragraph 6 gives the minimum number of rings needed for a '
          'match.',
-         {3: 'Paragraph 7 distinguishes the date of the wood from the '
+         {0: 'Paragraph 3 describes the reference sequences.', 1: 'Paragraph 5 describes the radiocarbon calibration.', 3: 'Paragraph 7 distinguishes the date of the wood from the '
              'date of the event.'}),
-        ('Which paragraph distinguishes the date of the wood from the date '
-         'of the event?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 7', 'Paragraph 8'], 2,
-         'Paragraph 7 gives the examples of reuse, storage and trade.'),
+        (
+         'Which paragraph distinguishes the date of the wood from the '
+         'date of the event?',
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 7', 'Paragraph 8'],
+         2,
+         'Paragraph 7 gives the examples of reuse, storage and trade.',
+         {0: 'Paragraph 4 describes what the precision transformed.', 1: 'Paragraph 5 describes the radiocarbon calibration.', 3: 'Paragraph 8 gives the modest conclusion.'}),
         ('How long a run of rings makes an effective signature?',
-         ['five or ten years', 'twenty years', 'forty or fifty years',
-          'two hundred years'], 2,
-         'Paragraph 2 describes the length, and paragraph 6 repeats it as '
-         'a requirement.'),
+         ['five or ten years', 'twenty years', 'forty or fifty years', 'two hundred years'],
+         2,
+         'Paragraph 2 describes the length, and paragraph 6 repeats it '
+         'as a requirement.',
+         {0: 'Five or ten years is too short for a signature.', 1: 'Twenty years is below the length given.', 3: 'Two hundred years is far more than a signature needs.'}),
         ('How far back does the European oak sequence reach?',
          None, 'ten thousand years',
          'Paragraph 3 says any new oak sample from the region can be '
@@ -413,10 +435,11 @@ PAPER = dict(
          '____________.', None, 'felled',
          'Paragraph 3 contrasts this with an approximate date.'),
         ('Datings based on style have often proved wrong by',
-         ['a year or two', 'ten years', 'fifty years or more',
-          'a thousand years'], 2,
-         'Paragraph 4 gives this as one effect of the method on existing '
-         'arguments.'),
+         ['a year or two', 'ten years', 'fifty years or more', 'a thousand years'],
+         2,
+         'Paragraph 4 gives this as one effect of the method on '
+         'existing arguments.',
+         {0: 'A year or two is the precision the method gives.', 1: 'Ten years understates the errors found.', 3: 'A thousand years is far beyond the errors reported.'}),
         ('What has been dated from the wooden supports of paintings?',
          None, 'forgeries',
          'Paragraph 4 says both forgeries and misattributions were '
@@ -434,16 +457,18 @@ PAPER = dict(
          'Paragraph 6 gives this as the first of three limitations.'),
         ('Building a reference sequence for a new region takes',
          ['a few months', 'about a year', 'decades', 'a century'], 2,
-         'Paragraph 6 lists it among the requirements of the method.'),
+         'Paragraph 6 lists it among the requirements of the method.',
+         {0: 'A few months is far less than paragraph 6 implies.', 1: 'About a year is far less than paragraph 6 implies.', 3: 'A century is longer than the work has taken.'}),
         ('The writer says the method has made another method '
          '____________.', None, 'honest',
          'The final paragraph names this as its greatest contribution.'),
-        ('What does the writer say is a better description of scientific '
-         'progress?',
-         ['one technique replacing a superior one',
-          'one method making another honest',
-          'the invention of precise instruments',
-          'the abandonment of radiocarbon dating'], 1,
-         'The last sentence contrasts the two descriptions and says which '
-         'happened.')]),
+        (
+         'What does the writer say is a better description of '
+         'scientific progress?',
+         ['one technique replacing a superior one', 'one method making another honest', 'the invention of precise instruments', 'the abandonment of radiocarbon dating'],
+         1,
+         'The last sentence contrasts the two descriptions and says '
+         'which happened.',
+         {0: 'Paragraph 8 says that is not what happened.', 2: 'The invention of instruments is not the description '
+             'offered.', 3: 'Radiocarbon dating was calibrated, not abandoned.'})]),
  ])

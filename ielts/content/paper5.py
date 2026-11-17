@@ -122,47 +122,57 @@ PAPER = dict(
         'have failed for exactly the reason the original succeeded.'],
        items=[
         ('Before containers, loading a ship is compared to',
-         ['building a wall', 'packing a suitcase', 'filling a warehouse',
-          'sorting post'], 1,
-         'Paragraph 1: stacking and wedging so nothing shifted at sea.'),
-        ('What share of shipment cost could loading and unloading '
+         ['building a wall', 'packing a suitcase', 'filling a warehouse', 'sorting post'],
+         1,
+         'Paragraph 1: stacking and wedging so nothing shifted at sea.',
+         {0: 'A wall is not the comparison paragraph 1 makes.', 2: 'Filling a warehouse is not the image used.', 3: 'Sorting post is not the comparison drawn.'}),
+        (
+         'What share of shipment cost could loading and unloading '
          'represent?',
-         ['ten to twenty per cent', 'twenty to thirty per cent',
-          'forty to sixty per cent', 'over eighty per cent'], 2,
+         ['ten to twenty per cent', 'twenty to thirty per cent', 'forty to sixty per cent', 'over eighty per cent'],
+         2,
          'Paragraph 2, from studies of break-bulk operations in the '
-         '1950s.'),
+         '1950s.',
+         {0: 'Ten to twenty per cent understates the studies\u2019 range.', 1: 'Twenty to thirty per cent understates the range given.', 3: 'Over eighty per cent exceeds the range reported.'}),
         ('How did the industry treat pilferage?',
-         ['as a crime to prosecute', 'as an operating expense',
-          'as a reason to insure cargo abroad', 'as a union matter'], 1,
-         'Paragraph 2: premiums assumed some cargo would not arrive.'),
-        ('Why could nobody repeat McLean’s 1956 saving?',
-         ['the ships were unavailable', 'his boxes fitted only his own '
-          'equipment', 'the route was exclusive', 'labour costs rose'], 1,
+         ['as a crime to prosecute', 'as an operating expense', 'as a reason to insure cargo abroad', 'as a union matter'],
+         1,
+         'Paragraph 2: premiums assumed some cargo would not arrive.',
+         {0: 'Prosecution is what the industry did not pursue.', 2: 'Insuring abroad is not what paragraph 2 describes.', 3: 'Unions are not mentioned in connection with pilferage.'}),
+        ('Why could nobody repeat McLean\u2019s 1956 saving?',
+         ['the ships were unavailable', 'his boxes fitted only his own equipment', 'the route was exclusive', 'labour costs rose'],
+         1,
          'Paragraph 3, where the saving is called real and '
-         'unrepeatable.'),
+         'unrepeatable.',
+         {0: 'He converted two ships, so ships were available.', 2: 'Route exclusivity is not what paragraph 3 gives.', 3: 'Labour costs are not the reason named.'}),
         ('The writer says the decisive development was',
-         ['a new crane', 'a standard rather than a technology',
-          'cheaper steel', 'military funding'], 1,
-         'Paragraph 3: containers already existed; agreement did not.'),
+         ['a new crane', 'a standard rather than a technology', 'cheaper steel', 'military funding'],
+         1,
+         'Paragraph 3: containers already existed; agreement did not.',
+         {0: 'Cranes came after the standard made them safe to buy.', 2: 'Steel prices are not mentioned at all.', 3: 'Military funding is not credited with the development.'}),
         ('The eventual dimensions suited',
-         ['European roads', 'the American railway network',
-          'both equally', 'neither'], 1,
-         'Paragraph 4, which says the effect is visible in European road '
-         'rules today.'),
-        ('According to the writer, the standard mattered mainly because '
-         'it',
-         ['reduced steel use', 'made long-term investment safe',
-          'simplified paperwork', 'lowered insurance'], 1,
+         ['European roads', 'the American railway network', 'both equally', 'neither'],
+         1,
+         'Paragraph 4, which says the effect is visible in European '
+         'road rules today.',
+         {0: 'European road rules still show the misfit.', 2: 'Paragraph 4 says it suited one better than the other.', 3: 'It suited the American railway network rather well.'}),
+        (
+         'According to the writer, the standard mattered mainly '
+         'because it',
+         ['reduced steel use', 'made long-term investment safe', 'simplified paperwork', 'lowered insurance'],
+         1,
          'Paragraph 5: a crane bought now must suit ships in fifteen '
-         'years.'),
+         'years.',
+         {0: 'Steel use is not what paragraph 5 discusses.', 2: 'Paperwork is not the reason given for the standard.', 3: 'Insurance is a consequence elsewhere, not here.'}),
         ('A published standard allowed the parties to invest',
-         ['one at a time', 'without trusting each other',
-          'under government direction', 'only in America'], 1,
-         'Paragraph 5, since none could move first alone.'),
+         ['one at a time', 'without trusting each other', 'under government direction', 'only in America'],
+         1, 'Paragraph 5, since none could move first alone.',
+         {0: 'Moving one at a time is what none of them could do.', 2: 'No government direction is described in paragraph 5.', 3: 'The standard was international, not American only.'}),
         ('Why did traditional ports lose the business?',
-         ['labour disputes', 'they lacked deep water, flat land and land '
-          'access', 'they were nationalised', 'they refused containers'], 1,
-         'Paragraph 7: almost no old port had any of the three.'),
+         ['labour disputes', 'they lacked deep water, flat land and land access', 'they were nationalised', 'they refused containers'],
+         1, 'Paragraph 7: almost no old port had any of the three.',
+         {0: 'Labour disputes are a separate strand in paragraph 8.', 2: 'Nationalisation is not mentioned in the passage.', 3: 'The ports did not refuse containers; they could not '
+             'handle them.'}),
         ('Dock employment in London fell from about fifty thousand to a few '
          'thousand between 1960 and ____________.', None, '1980',
          'Paragraph 8, with the remaining work requiring different '
@@ -277,50 +287,58 @@ PAPER = dict(
         'a text and the claim that you know what it says, because the '
         'first can be true while the second is not.'],
        items=[
-        ('The writer says decipherments can be verified absolutely '
+        (
+         'The writer says decipherments can be verified absolutely '
          'because',
-         ['experts agree', 'the readings must make sense in unseen texts',
-          'the languages are known', 'the texts are dated'], 1,
+         ['experts agree', 'the readings must make sense in unseen texts', 'the languages are known', 'the texts are dated'],
+         1,
          'Paragraph 1, which is why failures are as instructive as '
-         'successes.'),
-        ('Which paragraph sets out the three variables of the problem?',
-         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
-         'Script, language and the presence of a bilingual text.'),
+         'successes.',
+         {0: 'Expert agreement is not what makes it absolute.', 2: 'The language may be unknown and still verified.', 3: 'Dating the texts is not the test described.'}),
+        (
+         'Which paragraph sets out the three variables of the problem?',
+         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+         1, 'Script, language and the presence of a bilingual text.',
+         {0: 'Paragraph 1 explains why decipherment is verifiable.', 2: 'Paragraph 3 gives the sign-count diagnostic.', 3: 'Paragraph 4 describes positional analysis.'}),
         ('Egyptian hieroglyphs are described as',
-         ['the hardest case', 'the easiest configuration faced',
-          'still unsolved', 'solved by chance'], 1,
-         'Paragraph 2, and it still took twenty years.'),
+         ['the hardest case', 'the easiest configuration faced', 'still unsolved', 'solved by chance'],
+         1, 'Paragraph 2, and it still took twenty years.',
+         {0: 'Paragraph 2 calls it the easiest configuration.', 2: 'Hieroglyphs were cracked, not left unsolved.', 3: 'Twenty years of work is not chance.'}),
         ('A script with between fifty and a hundred and twenty signs is '
          'likely to be a ____________.', None, 'syllabary',
          'Paragraph 3, where each sign is a consonant and vowel '
          'together.'),
         ('Positional analysis requires',
-         ['a bilingual text', 'no hypothesis about sound',
-          'a known language', 'a large corpus'], 1,
+         ['a bilingual text', 'no hypothesis about sound', 'a known language', 'a large corpus'],
+         1,
          'Paragraph 4, tabulating where signs occur and what they '
-         'exclude.'),
+         'exclude.',
+         {0: 'A bilingual text is a separate variable in paragraph 2.', 2: 'A known language is exactly what it does not need.', 3: 'Corpus size is the Indus problem, not this requirement.'}),
         ('What did Alice Kober establish about Linear B?',
-         ['which language it recorded', 'that it was inflected and certain '
-          'signs shared sounds', 'the sound of each sign',
-          'where it was written'], 1,
-         'Paragraph 5, while drawing no conclusion about the language.'),
+         ['which language it recorded', 'that it was inflected and certain signs shared sounds', 'the sound of each sign', 'where it was written'],
+         1,
+         'Paragraph 5, while drawing no conclusion about the language.',
+         {0: 'She drew no conclusion about the language.', 2: 'Sound values came from Ventris, not Kober.', 3: 'Where it was written is not what she established.'}),
         ('Which paragraph describes the guess Kober refused to make?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
-         'Ventris assumed place names and an early form of Greek.'),
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+         2, 'Ventris assumed place names and an early form of Greek.',
+         {0: 'Paragraph 4 describes positional analysis.', 1: 'Paragraph 5 describes Kober\u2019s index-card work.', 3: 'Paragraph 7 describes the Pylos verification.'}),
         ('Ventris had previously',
-         ['supported the Greek hypothesis', 'rejected the Greek hypothesis '
-          'in print', 'worked with Kober', 'never seen the script'], 1,
+         ['supported the Greek hypothesis', 'rejected the Greek hypothesis in print', 'worked with Kober', 'never seen the script'],
+         1,
          'Paragraph 6, having called it implausible a few years '
-         'earlier.'),
+         'earlier.',
+         {0: 'He had rejected the Greek hypothesis, not supported it.', 2: 'No collaboration with Kober is described.', 3: 'He had worked on the script for years.'}),
         ('The 1953 Pylos tablet mattered because it was read',
-         ['by two scholars independently', 'after the system was fixed',
-          'with a bilingual text', 'by its pictograms alone'], 1,
+         ['by two scholars independently', 'after the system was fixed', 'with a bilingual text', 'by its pictograms alone'],
+         1,
          'Paragraph 7: confirmation must come from texts read '
-         'afterwards.'),
+         'afterwards.',
+         {0: 'Independent reading by two scholars is not the point.', 2: 'No bilingual text was involved at Pylos.', 3: 'The pictograms confirmed the numbers, not the reading.'}),
         ('Why do internally consistent decipherments often fail?',
-         ['bad translation', 'a system with enough free parameters fits any '
-          'finite corpus', 'poor excavation', 'political pressure'], 1,
-         'Paragraph 8, and undeciphered corpora are always finite.'),
+         ['bad translation', 'a system with enough free parameters fits any finite corpus', 'poor excavation', 'political pressure'],
+         1, 'Paragraph 8, and undeciphered corpora are always finite.',
+         {0: 'Translation quality is not the structural reason given.', 2: 'Excavation quality is not what paragraph 8 blames.', 3: 'Political pressure is not mentioned as a cause.'}),
         ('The Indus script resists partly because its texts are only four '
          'or five ____________ long.', None, 'signs',
          'Paragraph 10, giving almost no positional information.'),
@@ -440,46 +458,55 @@ PAPER = dict(
         'as a scandal says more about how science is reported than about how '
         'it is done.'],
        items=[
-        ('The replication projects reported that findings failed to '
+        (
+         'The replication projects reported that findings failed to '
          'reproduce in',
-         ['under a tenth of cases', 'a third to a half of cases',
-          'two thirds of cases', 'nearly all cases'], 1,
-         'Paragraph 1, from projects run between 2011 and 2015.'),
-        ('Which paragraph explains why fraud is not the likely '
+         ['under a tenth of cases', 'a third to a half of cases', 'two thirds of cases', 'nearly all cases'],
+         1, 'Paragraph 1, from projects run between 2011 and 2015.',
+         {0: 'Under a tenth understates the reported failure rate.', 2: 'Two thirds is above the reported range.', 3: 'Nearly all is far beyond the reported range.'}),
+        (
+         'Which paragraph explains why fraud is not the likely '
          'explanation?',
-         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
+         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+         1,
          'The failures are distributed, not clustered round a few '
-         'actors.'),
+         'actors.',
+         {0: 'Paragraph 1 lists the four possible meanings.', 2: 'Paragraph 3 explains low statistical power.', 3: 'Paragraph 4 explains selective reporting.'}),
         ('Low statistical power causes a small study to',
-         ['miss real effects only', 'overestimate the size of effects it '
-          'does find', 'produce negative results',
-          'be rejected by journals'], 1,
-         'Paragraph 3: only large apparent effects reach significance in '
-         'small samples.'),
+         ['miss real effects only', 'overestimate the size of effects it does find', 'produce negative results', 'be rejected by journals'],
+         1,
+         'Paragraph 3: only large apparent effects reach significance '
+         'in small samples.',
+         {0: 'A small study also finds effects, which is the problem.', 2: 'Negative results are not what paragraph 3 predicts here.', 3: 'Journal rejection is not the mechanism described.'}),
         ('The writer calls low power',
-         ['the least likely explanation', 'the leading explanation',
-          'an excuse', 'untestable'], 1,
+         ['the least likely explanation', 'the leading explanation', 'an excuse', 'untestable'],
+         1,
          'Paragraph 3, because it predicts what was observed without '
-         'blame.'),
-        ('Reporting one significant outcome from six measured is described '
-         'as', ['fraud', 'selective reporting', 'low power',
-          'a hidden condition'], 1,
-         'Paragraph 4, which anonymous surveys found near-universal before '
-         '2012.'),
+         'blame.',
+         {0: 'Paragraph 3 calls it the leading explanation.', 2: 'It requires nobody to behave badly, so not an excuse.', 3: 'It predicts what was observed, so it is testable.'}),
+        (
+         'Reporting one significant outcome from six measured is '
+         'described as',
+         ['fraud', 'selective reporting', 'low power', 'a hidden condition'],
+         1,
+         'Paragraph 4, which anonymous surveys found near-universal '
+         'before 2012.',
+         {0: 'Fraud is invention of data, the first meaning.', 2: 'Low power concerns sample size, not choice of outcome.', 3: 'A hidden condition is the fourth meaning.'}),
         ('The fourth possible meaning is that the effect depends on '
          '____________ the replication did not reproduce.', None,
          'conditions',
          'Paragraph 5, which makes it important and hard to assess.'),
         ('Why is that fourth explanation rhetorically dangerous?',
-         ['it is always false', 'as usually deployed it cannot be '
-          'refuted', 'it requires fraud', 'it is too technical'], 1,
-         'Paragraph 6: an unmeasured feature can always be proposed.'),
+         ['it is always false', 'as usually deployed it cannot be refuted', 'it requires fraud', 'it is too technical'],
+         1,
+         'Paragraph 6: an unmeasured feature can always be proposed.',
+         {0: 'Paragraph 5 says it is a genuine possibility.', 2: 'No fraud is required by the fourth explanation.', 3: 'Technicality is not the danger identified.'}),
         ('Which paragraph describes what the field has changed?',
          ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'],
          1,
          'Preregistration, larger samples and publication of negative '
          'results.',
-         {2: 'Paragraph 8 lists what has not changed.'}),
+         {0: 'Paragraph 6 explains the rhetorical danger.', 2: 'Paragraph 8 lists what has not changed.', 3: 'Paragraph 9 explains why psychology was audited first.'}),
         ('Publishing an analysis plan before collecting data is called '
          '____________.', None, 'preregistration',
          'Paragraph 7, and such studies replicate at higher rates.'),
@@ -488,12 +515,12 @@ PAPER = dict(
          1,
          'Promotion rewards volume; replication is unfunded; the '
          'threshold stands.',
-         {0: 'Paragraph 7 describes what the field has changed.'}),
+         {0: 'Paragraph 7 describes what the field has changed.', 2: 'Paragraph 9 explains why psychology was audited first.', 3: 'Paragraph 10 describes the asymmetry in reputation.'}),
         ('Psychology was audited first because',
-         ['it was the worst offender', 'its studies are cheap and its '
-          'community organised the audit', 'its journals demanded it',
-          'funders required it'], 1,
-         'Paragraph 9, which blocks any inference about other fields.'),
+         ['it was the worst offender', 'its studies are cheap and its community organised the audit', 'its journals demanded it', 'funders required it'],
+         1,
+         'Paragraph 9, which blocks any inference about other fields.',
+         {0: 'Paragraph 9 blocks the inference that it was the worst.', 2: 'Journals did not demand the audit.', 3: 'Funders are not credited with requiring it.'}),
         (
          'The writer believes fields that have not been audited are '
          'probably sounder.', ['Yes', 'No', 'Not Given'], 1,

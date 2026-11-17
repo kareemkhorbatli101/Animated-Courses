@@ -125,30 +125,24 @@ PAPER = dict(
         'died of it.'],
        items=[
         ('Choose the best heading for paragraph 3.',
-         ['The scale of the eruption',
-          'Why altitude matters more than volume',
-          'The year without a summer',
-          'A natural experiment'], 1,
+         ['The scale of the eruption', 'Why altitude matters more than volume', 'The year without a summer', 'A natural experiment'],
+         1,
          'The paragraph explains the sulphur mechanism and says volume '
-         'predicts poorly.'),
+         'predicts poorly.',
+         {0: 'The scale of the eruption is paragraph 1.', 2: 'The year without a summer is paragraph 4.', 3: 'The natural experiment is paragraph 9.'}),
         ('Choose the best heading for paragraph 5.',
-         ['Explanations offered at the time',
-          'The failure of the harvest',
-          'Migration westward',
-          'What the models get wrong'], 0,
-         'Sunspots, lightning rods and artillery were all blamed.'),
+         ['Explanations offered at the time', 'The failure of the harvest', 'Migration westward', 'What the models get wrong'],
+         0, 'Sunspots, lightning rods and artillery were all blamed.',
+         {1: 'The harvest failure is paragraph 4.', 2: 'Migration westward is paragraph 7.', 3: 'What the models get wrong is paragraph 10.'}),
         ('Choose the best heading for paragraph 10.',
-         ['A controlled trial',
-          'What the models reproduce well and badly',
-          'Managing such an event today',
-          'The price of grain'], 1,
-         'Cooling is reproduced; the pattern of rainfall is not.'),
+         ['A controlled trial', 'What the models reproduce well and badly', 'Managing such an event today', 'The price of grain'],
+         1, 'Cooling is reproduced; the pattern of rainfall is not.',
+         {0: 'The controlled trial is paragraph 9.', 2: 'Managing such an event today is paragraph 11.', 3: 'The price of grain is paragraph 12.'}),
         ('Choose the best heading for paragraph 12.',
-         ['The cultural afterlife',
-          'A range of outcomes',
-          'Why people died, and of what',
-          'The last subsistence crisis'], 2,
-         'Deaths came from the price of grain rather than its absence.'),
+         ['The cultural afterlife', 'A range of outcomes', 'Why people died, and of what', 'The last subsistence crisis'],
+         2,
+         'Deaths came from the price of grain rather than its absence.',
+         {0: 'The cultural afterlife is paragraph 8.', 1: 'A range of outcomes is paragraph 11.', 3: 'The last subsistence crisis is paragraph 6.'}),
         ('The eruption was heard two thousand kilometres away, where it was '
          'mistaken for ____________.', None, 'gunfire',
          'Paragraph 1: garrison commanders sent troops to investigate.'),
@@ -292,7 +286,7 @@ PAPER = dict(
          0,
          'A measure was maintained by the authority enforcing '
          'contracts locally.',
-         {3: 'Paragraph 4 gives the reason the pendulum definition was '
+         {1: 'Paragraph 2 lists the costs of local variation.', 2: 'Paragraph 3 gives the commission\u2019s brief.', 3: 'Paragraph 4 gives the reason the pendulum definition was '
              'rejected.'}),
         (
          'Which paragraph gives the reason the pendulum definition was '
@@ -300,19 +294,23 @@ PAPER = dict(
          ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
          1,
          'Because a pendulum\u2019s period depends on local gravity.',
-         {3: 'Paragraph 6 describes the surveyors being arrested.'}),
+         {0: 'Paragraph 3 gives the commission\u2019s brief.', 2: 'Paragraph 5 describes the meridian definition.', 3: 'Paragraph 6 describes the surveyors being arrested.'}),
         ('Which paragraph describes the surveyors being arrested?',
-         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
-          'Paragraph 8'], 1,
-         'Delambre and Méchain, by authorities suspicious of their '
-         'instruments.'),
-        ('Which paragraph explains why an experiment finding a different '
-         'speed of light would be read as a measurement of something '
-         'else?',
-         ['Paragraph 9', 'Paragraph 10', 'Paragraph 11',
-          'Paragraph 12'], 2,
+         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+         1,
+         'Delambre and M\u00e9chain, by authorities suspicious of their '
+         'instruments.',
+         {0: 'Paragraph 5 describes the meridian definition.', 2: 'Paragraph 7 describes the platinum bar and its error.', 3: 'Paragraph 8 explains how the bar became the metre.'}),
+        (
+         'Which paragraph explains why an experiment finding a '
+         'different speed of light would be read as a measurement of '
+         'something else?',
+         ['Paragraph 9', 'Paragraph 10', 'Paragraph 11', 'Paragraph 12'],
+         2,
          'Because since 1983 the speed of light is an exact number by '
-         'definition.'),
+         'definition.',
+         {0: 'Paragraph 9 describes the problem of an owned object.', 1: 'Paragraph 10 gives the two twentieth-century '
+             'redefinitions.', 3: 'Paragraph 12 draws the general observation.'}),
         ('Complaints to the Estates-General in 1789 were specific about '
          'the interest of a ____________ in the local measure of area.',
          None, 'landlord',
@@ -331,15 +329,16 @@ PAPER = dict(
          'Paragraph 7, because of a wrong value for the Earth’s '
          'flattening.'),
         ('The writer regards the error in the platinum bar as',
-         ['embarrassing', 'instructive', 'deliberate',
-          'insignificant'], 1,
+         ['embarrassing', 'instructive', 'deliberate', 'insignificant'],
+         1,
          'Paragraph 8, because of what happened to the definition '
-         'afterwards.'),
+         'afterwards.',
+         {0: 'Paragraph 8 says it is instructive rather than '
+             'embarrassing.', 2: 'The error came from a wrong value for flattening.', 3: 'The writer treats it as significant for the definition.'}),
         ('The 1889 definition made the metre',
-         ['a fraction of the meridian', 'the distance between two marks '
-          'on a bar', 'a wavelength of light',
-          'a function of the second'], 1,
-         'Paragraph 8: the bar, not the Earth, became the metre.'),
+         ['a fraction of the meridian', 'the distance between two marks on a bar', 'a wavelength of light', 'a function of the second'],
+         1, 'Paragraph 8: the bar, not the Earth, became the metre.',
+         {0: 'A fraction of the meridian was the 1799 intention.', 2: 'The wavelength definition came in 1960.', 3: 'The second-based definition came in 1983.'}),
         ('The 1983 definition was justified by the fact that '
          '____________ can be measured more precisely than length.', None,
          'time',
@@ -448,19 +447,21 @@ PAPER = dict(
         'read as the example, and the qualifications in it are the first '
         'thing to be lost.'],
        items=[
-        ('Which paragraph sets out the textbook argument step by step?',
-         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',
-          'Paragraph 4'], 1,
-         'Because the later dispute concerns one of its steps.'),
+        (
+         'Which paragraph sets out the textbook argument step by step?',
+         ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
+         1, 'Because the later dispute concerns one of its steps.',
+         {0: 'Paragraph 1 introduces the lighthouse example.', 2: 'Paragraph 3 reports the 1974 historical paper.', 3: 'Paragraph 4 separates the claims from what follows.'}),
         ('Which paragraph explains how the tolls were enforced?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-          'Paragraph 7'], 1,
-         'A ship declining to pay could be prevented from unloading.'),
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+         1,
+         'A ship declining to pay could be prevented from unloading.',
+         {0: 'Paragraph 4 separates the claims from what follows.', 2: 'Paragraph 6 states the bundling point.', 3: 'Paragraph 7 weighs the two conclusions drawn.'}),
         (
          'Which paragraph gives examples of bundling outside shipping?',
          ['Paragraph 7', 'Paragraph 8', 'Paragraph 9', 'Paragraph 10'],
          1, 'Commercial radio, car parks and search engines.',
-         {3: 'Paragraph 10 identifies who subsidised whom under the '
+         {0: 'Paragraph 7 weighs the two conclusions drawn.', 2: 'Paragraph 9 gives the limits of bundling.', 3: 'Paragraph 10 identifies who subsidised whom under the '
              'toll system.'}),
         (
          'Which paragraph identifies who subsidised whom under the '
@@ -469,14 +470,14 @@ PAPER = dict(
          2,
          'Coastal traders paid for benefits enjoyed by passing '
          'traffic.',
-         {0: 'Paragraph 8 gives examples of bundling outside shipping.'}),
+         {0: 'Paragraph 8 gives examples of bundling outside shipping.', 1: 'Paragraph 9 gives the limits of bundling.', 3: 'Paragraph 11 draws the lesson about examples.'}),
         (
          'Which paragraph observes that a paper becoming an example '
          'loses its qualifications?',
          ['Paragraph 10', 'Paragraph 11', 'Paragraph 12', 'Paragraph 13'],
          3, 'The 1974 paper is cited more often than it is read.',
          {0: 'Paragraph 10 identifies who subsidised whom under the '
-             'toll system.'}),
+             'toll system.', 1: 'Paragraph 11 draws the lesson about examples.', 2: 'Paragraph 12 contrasts what three students learn.'}),
         (
          'The writer believes the historical claims of the 1974 paper '
          'are doubtful.', ['Yes', 'No', 'Not Given'], 1,

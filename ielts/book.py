@@ -786,7 +786,8 @@ def back_matter(d, vol, units, ukeys):
     d.unit_title('Answer key')
     d.strapline('%s · Units %d–%d'
                 % (vol, units[0]['n'], units[-1]['n']))
-    d.cefr('Where a wrong option is tempting, the explanation says why.')
+    d.cefr('Every wrong option is explained, because a letter on its own '
+           'teaches nothing.')
     d.page_break_section()
     for u in units:
         k = ukeys[u['n']]
