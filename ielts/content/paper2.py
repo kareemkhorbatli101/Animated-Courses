@@ -145,18 +145,18 @@ PAPER = dict(
          2,
          'The proportion of clay determines hardness, which is where '
          'the scale comes from.',
-         {1: 'Paragraph 4 describes a measure taken against theft.', 3: 'Paragraph 7 explains why a patent was cancelled.'}),
+         {0: 'Paragraph 3 describes the Italian wooden case.', 1: 'Paragraph 4 describes a measure taken against theft.', 3: 'Paragraph 7 explains why a patent was cancelled.'}),
         ('Which paragraph describes a measure taken against theft?',
          ['Paragraph 2', 'Paragraph 4', 'Paragraph 5', 'Paragraph 8'],
          1,
          'Armed guards, deliberate flooding and an act of Parliament.',
-         {3: 'Paragraph 8 argues that the pencil developed without a '
+         {0: 'Paragraph 2 describes the purity of the deposit.', 2: 'Paragraph 5 describes the blockade and Cont\u00e9.', 3: 'Paragraph 8 argues that the pencil developed without a '
              'plan.'}),
         ('Which paragraph explains why a patent was cancelled?',
          ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
          2,
          'Joining two known objects was held not to be an invention.',
-         {1: 'Paragraph 6 explains why pencils are made in different '
+         {0: 'Paragraph 5 describes the blockade and Cont\u00e9.', 1: 'Paragraph 6 explains why pencils are made in different '
              'grades of hardness.', 3: 'Paragraph 8 argues that the pencil developed without a '
              'plan.'}),
         (
@@ -164,7 +164,7 @@ PAPER = dict(
          'plan?',
          ['Paragraph 1', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
          3, 'The final paragraph, listing four unplanned steps.',
-         {1: 'Paragraph 6 explains why pencils are made in different '
+         {0: 'Paragraph 1 describes the storm and the discovery.', 1: 'Paragraph 6 explains why pencils are made in different '
              'grades of hardness.', 2: 'Paragraph 7 explains why a patent was cancelled.'})]),
 
   dict(no=2, first=14,
@@ -235,30 +235,33 @@ PAPER = dict(
         'what it was accurate about.'],
        items=[
         ('Choose the best heading for paragraph 2.',
-         ['A code for a machine', 'The cost of sorting by hand',
-          'Secondary users arrive', 'What the code groups'], 1,
+         ['A code for a machine', 'The cost of sorting by hand', 'Secondary users arrive', 'What the code groups'],
+         1,
          'Slow work requiring local knowledge that could not be '
-         'mechanised.'),
+         'mechanised.',
+         {0: 'A code for a machine is paragraph 1.', 2: 'Secondary users arrive in paragraph 4.', 3: 'What the code groups is paragraph 3.'}),
         ('Choose the best heading for paragraph 4.',
-         ['Built around sorting offices',
-          'Why other organisations adopted it',
-          'The delivery problem', 'Statistical comparisons'], 1,
+         ['Built around sorting offices', 'Why other organisations adopted it', 'The delivery problem', 'Statistical comparisons'],
+         1,
          'The only compact location description everybody knew by '
-         'heart.'),
+         'heart.',
+         {0: 'Built around sorting offices is paragraph 3.', 2: 'The delivery problem is paragraph 5.', 3: 'Statistical comparisons are paragraph 7.'}),
         ('Choose the best heading for paragraph 6.',
-         ['A minor annoyance', 'Inferring things about people',
-          'Rural codes', 'A separate identifier'], 1,
-         'Premiums and credit decisions calculated from the code.'),
+         ['A minor annoyance', 'Inferring things about people', 'Rural codes', 'A separate identifier'],
+         1, 'Premiums and credit decisions calculated from the code.',
+         {0: 'The minor annoyance is paragraph 5.', 2: 'Rural codes are part of paragraph 5.', 3: 'A separate identifier is paragraph 8.'}),
         ('Choose the best heading for paragraph 7.',
-         ['Comparing sorting convenience', 'Redrawing boundaries',
-          'Health services', 'Available and consistent data'], 0,
-         'Research comparing areas that were never meant to be '
-         'areas.'),
+         ['Comparing sorting convenience', 'Redrawing boundaries', 'Health services', 'Available and consistent data'],
+         0,
+         'Research comparing areas that were never meant to be areas.',
+         {1: 'Redrawing boundaries is one finding inside paragraph 7.', 2: 'Health services appear among the adopters in paragraph '
+             '4.', 3: 'Available data is a reason inside the paragraph, not its '
+             'subject.'}),
         ('Choose the best heading for paragraph 9.',
-         ['A well-designed system', 'What an identifier becomes',
-          'Four other tasks', 'Keeping the code for post'], 1,
-         'An identifier acquires purposes because it is already '
-         'there.'),
+         ['A well-designed system', 'What an identifier becomes', 'Four other tasks', 'Keeping the code for post'],
+         1,
+         'An identifier acquires purposes because it is already there.',
+         {0: 'The well-designed system is paragraph 8.', 2: 'The four other tasks are paragraph 8.', 3: 'Keeping the code for post is paragraph 8.'}),
         ('The first part of a British postcode identifies the '
          '____________ that handles the mail.', None, 'office',
          'Paragraph 3, rather than any recognised boundary.'),
@@ -273,25 +276,29 @@ PAPER = dict(
          'neighbourhoods, some known differences ____________.', None,
          'shrink', 'Paragraph 7, and a few disappear altogether.'),
         ('According to the passage, a machine of the 1950s could read',
-         ['a handwritten address', 'a short code', 'a street name',
-          'a signature'], 1,
-         'Paragraph 2, which is why a code was needed at all.'),
+         ['a handwritten address', 'a short code', 'a street name', 'a signature'],
+         1, 'Paragraph 2, which is why a code was needed at all.',
+         {0: 'A handwritten address is what it could not read.', 2: 'Street names were what the human sorter knew.', 3: 'Signatures are not mentioned in the passage.'}),
         ('In rural areas, a single postcode can cover',
-         ['about fifteen addresses', 'one street',
-          'several square kilometres', 'two towns'], 2,
-         'Paragraph 5, which makes the central point very '
-         'approximate.'),
-        ('The writer says a code grouping fifteen addresses may '
+         ['about fifteen addresses', 'one street', 'several square kilometres', 'two towns'],
+         2,
+         'Paragraph 5, which makes the central point very approximate.',
+         {0: 'Fifteen addresses is the average group, not the rural '
+             'area.', 1: 'A street may be divided between two codes.', 3: 'Two towns may share a code, which is a different point.'}),
+        (
+         'The writer says a code grouping fifteen addresses may '
          'include',
-         ['only similar houses', 'large houses and a block of flats',
-          'no residents at all', 'two sorting offices'], 1,
+         ['only similar houses', 'large houses and a block of flats', 'no residents at all', 'two sorting offices'],
+         1,
          'Paragraph 6, so residents are treated as the average of '
-         'both.'),
-        ('The writer’s view of the postcode system is that it is',
-         ['badly designed', 'well designed for its original task',
-          'no longer needed', 'too expensive to replace'], 1,
+         'both.',
+         {0: 'Similar houses are what the grouping does not guarantee.', 2: 'The group is a group of addresses with residents.', 3: 'The first part of the code identifies one office.'}),
+        ('The writer\u2019s view of the postcode system is that it is',
+         ['badly designed', 'well designed for its original task', 'no longer needed', 'too expensive to replace'],
+         1,
          'Paragraph 8 states this directly before describing the extra '
-         'tasks.')]),
+         'tasks.',
+         {0: 'Paragraph 8 says it is not badly designed.', 2: 'The postal code is to be kept for post.', 3: 'Cost of replacement is not the writer\u2019s point.'})]),
 
   dict(no=3, first=27,
        heading='What a fingerprint can and cannot prove',
@@ -417,15 +424,18 @@ PAPER = dict(
          'controlled print?',
          ['Paragraph 2', 'Paragraph 3', 'Paragraph 5', 'Paragraph 7'],
          1, 'Partial, distorted, smudged, overlapped and degraded.',
-         {2: 'Paragraph 5 describes a finding about the same examiner '
+         {0: 'Paragraph 2 describes complete prints taken under '
+             'control.', 2: 'Paragraph 5 describes a finding about the same examiner '
              'on two occasions.', 3: 'Paragraph 7 describes the procedural changes that were '
              'made.'}),
-        ('Which paragraph describes a finding about the same examiner '
+        (
+         'Which paragraph describes a finding about the same examiner '
          'on two occasions?',
-         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
-          'Paragraph 8'], 1,
+         ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'],
+         1,
          'Conclusions changed in a measurable proportion of repeated '
-         'comparisons.'),
+         'comparisons.',
+         {0: 'Paragraph 4 describes the absolute formulation in court.', 2: 'Paragraph 6 is about irrelevant case information.', 3: 'Paragraph 8 answers the objection to the new wording.'}),
         (
          'Which paragraph describes the procedural changes that were '
          'made?',
@@ -434,7 +444,7 @@ PAPER = dict(
          'Marks given without case information, independent '
          'verification, changed wording.',
          {0: 'Paragraph 5 describes a finding about the same examiner '
-             'on two occasions.', 3: 'Paragraph 9 explains why a jury may remember the wrong '
+             'on two occasions.', 1: 'Paragraph 6 is about irrelevant case information.', 3: 'Paragraph 9 explains why a jury may remember the wrong '
              'thing.'}),
         (
          'Which paragraph explains why a jury may remember the wrong '
@@ -442,7 +452,7 @@ PAPER = dict(
          ['Paragraph 7', 'Paragraph 8', 'Paragraph 9', 'Paragraph 10'],
          2, 'Juries hear a number and remember a phrase.',
          {0: 'Paragraph 7 describes the procedural changes that were '
-             'made.'}),
+             'made.', 1: 'Paragraph 8 answers the objection to the new wording.', 3: 'Paragraph 10 states the lesson about two claims.'}),
         ('A mark recovered from a scene is often a ____________ of the '
          'finger or less.', None, 'quarter',
          'Paragraph 3, among the other ways it differs from a '

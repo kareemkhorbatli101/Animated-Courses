@@ -99,48 +99,60 @@ PAPER = dict(
         'being in step with the sun.'],
        items=[
         ('Before the railways, noon in a town was',
-         ['set by the government', 'the moment the sun was highest there',
-          'the same everywhere', 'kept by the church'], 1,
+         ['set by the government', 'the moment the sun was highest there', 'the same everywhere', 'kept by the church'],
+         1,
          'Paragraph 1, which is why local time was the only measurable '
-         'kind.'),
+         'kind.',
+         {0: 'No government set local noon in paragraph 1.', 2: 'Noon came four minutes later each degree west.', 3: 'The church is not mentioned as the timekeeper.'}),
         ('Why did nobody mind local time before the railways?',
-         ['Clocks were rare', 'Nobody could travel fast enough for the '
-          'difference to matter', 'The differences were tiny',
-          'Travel was forbidden'], 1,
+         ['Clocks were rare', 'Nobody could travel fast enough for the difference to matter', 'The differences were tiny', 'Travel was forbidden'],
+         1,
          'Paragraph 1 and 2: a coach took most of a day to cover fifty '
-         'miles.'),
+         'miles.',
+         {0: 'Clocks are not described as rare in paragraph 2.', 2: 'The differences were real, several minutes over fifty '
+             'miles.', 3: 'Travel was slow rather than forbidden.'}),
         ('What made railway timetables confusing?',
-         ['Trains were late', 'Departure and arrival were stated in '
-          'different time systems', 'Clocks were inaccurate',
-          'Passengers could not read'], 1,
-         'Paragraph 3, which is why early timetables carried footnotes.'),
-        ('The writer says a timetable in two versions of the hour is not',
-         ['a legal document', 'a safety system', 'a commercial document',
-          'readable'], 1,
-         'Paragraph 4, where collisions in the 1840s are partly attributed '
-         'to this.'),
+         ['Trains were late', 'Departure and arrival were stated in different time systems', 'Clocks were inaccurate', 'Passengers could not read'],
+         1,
+         'Paragraph 3, which is why early timetables carried '
+         'footnotes.',
+         {0: 'Lateness is not what paragraph 3 describes.', 2: 'The clocks were accurate to their own local noon.', 3: 'Reading ability is not the problem raised.'}),
+        (
+         'The writer says a timetable in two versions of the hour is '
+         'not',
+         ['a legal document', 'a safety system', 'a commercial document', 'readable'],
+         1,
+         'Paragraph 4, where collisions in the 1840s are partly '
+         'attributed to this.',
+         {0: 'Legal recognition came later and is a separate point.', 2: 'Its commercial standing is not what paragraph 4 denies.', 3: 'The footnotes made the timetables readable, if '
+             'confusing.'}),
         ('Railway time in Britain was distributed by',
          ['post', 'the telegraph', 'printed notices', 'ships'], 1,
-         'Paragraph 5, carrying the time kept at Greenwich.'),
-        ('The writer says resistance to railway time is usually '
+         'Paragraph 5, carrying the time kept at Greenwich.',
+         {0: 'Post was too slow to carry a time signal.', 2: 'Printed notices carried timetables, not the signal.', 3: 'Ships used Greenwich charts, a separate point.'}),
+        (
+         'The writer says resistance to railway time is usually '
          'misremembered as',
-         ['political', 'simple conservatism', 'religious',
-          'commercial'], 1,
-         'Paragraph 6, because local time was in a real sense correct.'),
+         ['political', 'simple conservatism', 'religious', 'commercial'],
+         1,
+         'Paragraph 6, because local time was in a real sense correct.',
+         {0: 'Politics is not what the resistance is reduced to.', 2: 'Religion plays no part in the resistance described.', 3: 'Commerce drove the change rather than the resistance.'}),
         ('In the United States, the four zones were created by',
-         ['Congress', 'the railroads', 'an international conference',
-          'the states'], 1,
+         ['Congress', 'the railroads', 'an international conference', 'the states'],
+         1,
          'Paragraph 7, in 1883, a year before any international '
-         'conference.'),
+         'conference.',
+         {0: 'Congress acted only later than 1883.', 2: 'The Washington conference met in 1884, a year later.', 3: 'The states did not create the four zones.'}),
         ('The 1884 conference chose the Greenwich meridian because',
-         ['Britain insisted', 'most of the world’s shipping already used '
-          'charts based on it', 'it was the oldest',
-          'it was geographically central'], 1,
-         'Paragraph 8, which the writer calls a practical ground.'),
+         ['Britain insisted', 'most of the world\u2019s shipping already used charts based on it', 'it was the oldest', 'it was geographically central'],
+         1, 'Paragraph 8, which the writer calls a practical ground.',
+         {0: 'British insistence is not the ground paragraph 8 gives.', 2: 'Age of the meridian is not the reason given.', 3: 'Greenwich is not geographically central.'}),
         ('Time zone boundaries follow',
-         ['lines of longitude exactly', 'rivers, borders and convenience',
-          'ocean currents', 'population density'], 1,
-         'Paragraph 9, producing a map reflecting administrative history.'),
+         ['lines of longitude exactly', 'rivers, borders and convenience', 'ocean currents', 'population density'],
+         1,
+         'Paragraph 9, producing a map reflecting administrative '
+         'history.',
+         {0: 'Longitude is exactly what the boundaries do not follow.', 2: 'Ocean currents play no part in the boundaries.', 3: 'Population density is not what paragraph 9 names.'}),
         ('The gap between railway time and legal recognition in Britain was '
          'about ____________ years.', None, 'twenty-five',
          'Paragraph 5, during which some town clocks had two minute '
@@ -240,45 +252,58 @@ PAPER = dict(
         'little.'],
        items=[
         ('The writer says street trees are objected to',
-         ['in principle by most people', 'outside people’s own houses',
-          'only by councils', 'only on narrow streets'], 1,
-         'Paragraph 1, which is the tension the passage is about.'),
+         ['in principle by most people', 'outside people\u2019s own houses', 'only by councils', 'only on narrow streets'],
+         1, 'Paragraph 1, which is the tension the passage is about.',
+         {0: 'Paragraph 1 says almost nobody objects in principle.', 2: 'Councils plant the trees rather than objecting.', 3: 'Narrow streets are a planting obstacle, not the '
+             'objection.'}),
         ('Measurements find temperature differences of up to',
-         ['three degrees', 'five degrees', 'eight degrees',
-          'twelve degrees'], 2,
+         ['three degrees', 'five degrees', 'eight degrees', 'twelve degrees'],
+         2,
          'Paragraph 2, between a planted and a bare street two hundred '
-         'metres apart.'),
+         'metres apart.',
+         {0: 'Three degrees understates the measured difference.', 1: 'Five degrees understates the measured difference.', 3: 'Twelve degrees overstates the measured difference.'}),
         ('Deaths during heatwaves fall most heavily on',
-         ['young children', 'elderly people in upper-floor flats',
-          'outdoor workers', 'drivers'], 1,
-         'Paragraph 3, on the streets that reliably have fewest trees.'),
-        ('Which reason for the pattern concerns what lies beneath '
+         ['young children', 'elderly people in upper-floor flats', 'outdoor workers', 'drivers'],
+         1,
+         'Paragraph 3, on the streets that reliably have fewest trees.',
+         {0: 'Young children are not the group paragraph 3 names.', 2: 'Outdoor workers are not named in the passage.', 3: 'Drivers are not among the groups discussed.'}),
+        (
+         'Which reason for the pattern concerns what lies beneath '
          'pavements?',
          ['The first', 'The second', 'The third', 'The fourth'], 1,
-         'Paragraph 4: utilities often leave no legal space for roots.'),
+         'Paragraph 4: utilities often leave no legal space for roots.',
+         {0: 'The first reason is pavement width.', 2: 'The third reason is tenure and who asks.', 3: 'The fourth reason is maintenance cost.'}),
         ('A request-driven planting programme tends to plant',
-         ['where need is greatest', 'where it is already greenest',
-          'at random', 'in parks'], 1,
+         ['where need is greatest', 'where it is already greenest', 'at random', 'in parks'],
+         1,
          'Paragraph 5, because requests come from stable '
-         'owner-occupied streets.'),
-        ('The writer says most tree programmes actually fail because of',
-         ['planting costs', 'maintenance cost', 'species choice',
-          'public opposition'], 1,
+         'owner-occupied streets.',
+         {0: 'Need is what a request system does not follow.', 2: 'Requests are not random; they come from stable streets.', 3: 'Parks are not what a street programme plants.'}),
+        (
+         'The writer says most tree programmes actually fail because '
+         'of',
+         ['planting costs', 'maintenance cost', 'species choice', 'public opposition'],
+         1,
          'Paragraph 6, where watering is the line cut from a reduced '
-         'budget.'),
+         'budget.',
+         {0: 'Planting costs are the visible expenditure, not the '
+             'failure.', 2: 'Species choice is part of the remedy in paragraph 8.', 3: 'Public opposition is not what paragraph 6 blames.'}),
         ('Cities publishing both figures report net canopy gains of',
-         ['almost all that was planted', 'about two thirds',
-          'under a third', 'nothing at all'], 2,
-         'Paragraph 7, after deaths within four years of planting.'),
-        ('The writer takes seriously the argument that a continuous canopy '
-         'can', ['damage drains', 'trap pollution at street level',
-          'reduce property values', 'use too much water'], 1,
+         ['almost all that was planted', 'about two thirds', 'under a third', 'nothing at all'],
+         2, 'Paragraph 7, after deaths within four years of planting.',
+         {0: 'Almost all would mean no losses at all.', 1: 'Two thirds is more than twice the reported gain.', 3: 'Some net gain is reported, not none.'}),
+        (
+         'The writer takes seriously the argument that a continuous '
+         'canopy can',
+         ['damage drains', 'trap pollution at street level', 'reduce property values', 'use too much water'],
+         1,
          'Paragraph 9, measured in street canyons taller than they are '
-         'wide.'),
+         'wide.',
+         {0: 'Damaged drains appear in paragraph 1, not here.', 2: 'Property values rise with trees, paragraph 1 says.', 3: 'Watering is a maintenance cost, not this argument.'}),
         ('In such a street the correct planting pattern is',
-         ['continuous', 'broken, with gaps', 'on one side only',
-          'none at all'], 1,
-         'Paragraph 9, so that air can move.'),
+         ['continuous', 'broken, with gaps', 'on one side only', 'none at all'],
+         1, 'Paragraph 9, so that air can move.',
+         {0: 'Continuous canopy is what traps the air.', 2: 'One side only is not what paragraph 9 recommends.', 3: 'Paragraph 9 does not recommend planting nothing.'}),
         ('An unwatered tree in its second year dies at a rate of about one '
          'in ____________.', None, 'three',
          'Paragraph 6, which is why watering matters more than planting.'),
@@ -380,34 +405,44 @@ PAPER = dict(
         'which is nearly the opposite of how it was originally sold.'],
        items=[
         ('The standard instrument for measuring wellbeing is',
-         ['a long interview', 'a single question on a nought-to-ten scale',
-          'an index of income', 'a diary'], 1,
-         'Paragraph 2, asked of large representative samples.'),
-        ('The strongest argument for the measure, according to the writer, '
-         'is that it', ['is cheap', 'responds to circumstances as almost '
-          'everybody would predict', 'is widely used',
-          'is easy to understand'], 1,
-         'Paragraph 3, which shifts the burden to the critic.'),
+         ['a long interview', 'a single question on a nought-to-ten scale', 'an index of income', 'a diary'],
+         1, 'Paragraph 2, asked of large representative samples.',
+         {0: 'A long interview is not the standard instrument.', 2: 'An income index measures national income instead.', 3: 'A diary is the day-reconstruction method of paragraph 8.'}),
+        (
+         'The strongest argument for the measure, according to the '
+         'writer, is that it',
+         ['is cheap', 'responds to circumstances as almost everybody would predict', 'is widely used', 'is easy to understand'],
+         1, 'Paragraph 3, which shifts the burden to the critic.',
+         {0: 'Cheapness is a convenience, not the strongest argument.', 2: 'Wide use is not what shifts the burden.', 3: 'Ease of understanding is not the argument given.'}),
         ('The first objection concerns',
-         ['sample size', 'the assumption of equal intervals on the scale',
-          'the wording of the question', 'the cost'], 1,
-         'Paragraph 4, which averaging requires and nothing establishes.'),
+         ['sample size', 'the assumption of equal intervals on the scale', 'the wording of the question', 'the cost'],
+         1,
+         'Paragraph 4, which averaging requires and nothing '
+         'establishes.',
+         {0: 'Sample size is not the first objection.', 2: 'Wording is not what paragraph 4 questions.', 3: 'Cost is not an objection anywhere.'}),
         ('How do defenders answer that objection?',
-         ['They deny it', 'They argue comparisons survive an unknown scale',
-          'They change the question', 'They use larger samples'], 1,
-         'Paragraph 5, if both groups use the scale similarly.'),
+         ['They deny it', 'They argue comparisons survive an unknown scale', 'They change the question', 'They use larger samples'],
+         1, 'Paragraph 5, if both groups use the scale similarly.',
+         {0: 'Paragraph 5 grants the objection is correct.', 2: 'The question is not changed in the reply.', 3: 'Larger samples are not the defence offered.'}),
         ('The second objection concerns',
          ['adaptation', 'sampling', 'translation', 'timing'], 0,
          'Paragraph 6: people return towards previous levels after '
-         'unreversed events.'),
-        ('The writer says the dispute about adaptation cannot be settled by',
-         ['argument', 'more data', 'better questions', 'larger samples'], 1,
-         'Paragraph 7, because the two readings agree about what people '
-         'report.'),
+         'unreversed events.',
+         {1: 'Sampling is not the second objection.', 2: 'Translation is not raised in the passage.', 3: 'Timing is not what paragraph 6 concerns.'}),
+        (
+         'The writer says the dispute about adaptation cannot be '
+         'settled by',
+         ['argument', 'more data', 'better questions', 'larger samples'],
+         1,
+         'Paragraph 7, because the two readings agree about what '
+         'people report.',
+         {0: 'Argument is what the dispute consists of.', 2: 'Better questions are the third objection\u2019s remedy.', 3: 'Larger samples would not settle a question of purpose.'}),
         ('Which paragraph distinguishes evaluation from experience?',
-         ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'], 2,
+         ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'],
+         2,
          'Where caring for children is rated differently on the two '
-         'measures.'),
+         'measures.',
+         {0: 'Paragraph 6 is about adaptation.', 1: 'Paragraph 7 says the dispute is about purpose.', 3: 'Paragraph 9 describes measuring four things.'}),
         (
          'The writer believes the single life-satisfaction question is '
          'worthless.', ['Yes', 'No', 'Not Given'], 1,

@@ -88,27 +88,26 @@ PAPER = dict(
                'to the owners than the first.')],
        items=[
         ('How old is the fixed price?',
-         ['about fifty years', 'about a hundred and seventy years',
-          'about four hundred years', 'nobody knows'], 1,
-         'Paragraph 1 gives the approximate age at the end.'),
+         ['about fifty years', 'about a hundred and seventy years', 'about four hundred years', 'nobody knows'],
+         1, 'Paragraph 1 gives the approximate age at the end.',
+         {0: 'Fifty years is far too recent for the fixed price.', 2: 'Four hundred years predates the eighteen-fifties.', 3: 'Paragraph 1 does give an approximate age.'}),
         ('In which decade was the fixed price introduced?',
          None, 'eighteen-fifties',
          'Paragraph 2 says it appeared in several places at once in that '
          'decade.'),
         ('What religious argument was given for fixed prices?',
-         ['that bargaining wasted time',
-          'that different prices were a form of lying',
-          'that shops should close on Sundays',
-          'that prices should be low'], 1,
-         'Paragraph 2 reports the Pennsylvania shopkeeper’s '
-         'reasoning.'),
+         ['that bargaining wasted time', 'that different prices were a form of lying', 'that shops should close on Sundays', 'that prices should be low'],
+         1,
+         'Paragraph 2 reports the Pennsylvania shopkeeper\u2019s reasoning.',
+         {0: 'Wasted time is a commercial argument, not a religious '
+             'one.', 2: 'Sunday closing is not mentioned in the passage.', 3: 'Low prices are not what the shopkeeper argued for.'}),
         ('The writer says the commercial argument came first.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 2 says it came later and mattered more.'),
         ('A shop with negotiated prices needs assistants who are',
-         ['cheap to employ', 'able to read labels',
-          'expensive and hard to replace', 'available in the evening'], 2,
-         'Paragraph 3 explains the staffing cost of negotiation.'),
+         ['cheap to employ', 'able to read labels', 'expensive and hard to replace', 'available in the evening'],
+         2, 'Paragraph 3 explains the staffing cost of negotiation.',
+         {0: 'Cheap staff are what the fixed price allows.', 1: 'Reading labels is the only skill a fixed price needs.', 3: 'Evening availability is not discussed.'}),
         ('In which decades did department stores grow?',
          None, 'eighteen-sixties and seventies',
          'Paragraph 3 says they could not have existed without fixed '
@@ -121,12 +120,14 @@ PAPER = dict(
          ['True', 'False', 'Not Given'], 0,
          'Paragraph 5 says the same price helps the nervous and removes '
          'an advantage from the confident.'),
-        ('Nineteenth-century writers who called the new shops impersonal '
-         'were, the writer says,',
-         ['completely wrong', 'exaggerating', 'right',
-          'writing about a different kind of shop'], 2,
+        (
+         'Nineteenth-century writers who called the new shops '
+         'impersonal were, the writer says,',
+         ['completely wrong', 'exaggerating', 'right', 'writing about a different kind of shop'],
+         2,
          'Paragraph 5 says they were right, while explaining what else '
-         'they were describing.'),
+         'they were describing.',
+         {0: 'Paragraph 5 says they were right.', 1: 'The writer does not call them exaggerated.', 3: 'They were describing the new fixed-price shops.'}),
         ('Which of these is still negotiated, according to the passage?',
          None, 'a salary',
          'Paragraph 6 lists a house, a car and a salary.'),
@@ -208,10 +209,11 @@ PAPER = dict(
                'for thirty years.')],
        items=[
         ('What are the black specks in a cultivated banana?',
-         ['young seeds', 'the remains of seeds that no longer work',
-          'a fungus', 'fibres'], 1,
+         ['young seeds', 'the remains of seeds that no longer work', 'a fungus', 'fibres'],
+         1,
          'Paragraph 2 explains why the plants cannot be grown from '
-         'seed.'),
+         'seed.',
+         {0: 'They are remains rather than young seeds.', 2: 'The fungus attacks the roots, not the fruit.', 3: 'Fibres are not what paragraph 2 describes.'}),
         ('How does a grower produce a new banana plant?',
          None, 'a cutting',
          'Paragraph 1 and paragraph 2 both describe taking a shoot from '
@@ -224,17 +226,17 @@ PAPER = dict(
          'Paragraph 3 says growers and shippers regarded it as better.'),
         ('Where does Panama disease enter the plant?',
          ['the leaves', 'the fruit', 'the roots', 'the flower'], 2,
-         'Paragraph 4 describes the route and the blockage it causes.'),
+         'Paragraph 4 describes the route and the blockage it causes.',
+         {0: 'The leaves wilt once the vessels are blocked.', 1: 'The fruit is not the route of entry.', 3: 'The flower plays no part in the infection.'}),
         ('Panama disease can be treated with chemicals.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 4 says it cannot be treated.'),
         ('Why does destroying the crop not remove the disease?',
-         ['it spreads through the air',
-          'it lives in the soil',
-          'it is carried by insects',
-          'it survives in the fruit'], 1,
+         ['it spreads through the air', 'it lives in the soil', 'it is carried by insects', 'it survives in the fruit'],
+         1,
          'Paragraph 4 gives the reason an infected field stays '
-         'infected.'),
+         'infected.',
+         {0: 'Air is not how the fungus spreads in paragraph 4.', 2: 'Insects are not named as carriers.', 3: 'The fruit is not where it survives.'}),
         ('By which year had the Cavendish replaced the Gros Michel?',
          None, '1965', 'Paragraph 5 gives the year the trade had '
          'changed over.'),
@@ -251,12 +253,11 @@ PAPER = dict(
          '____________ to breed from.', None, 'seeds',
          'Paragraph 7 explains the difficulty facing plant breeders.'),
         ('What does the writer say the history supports?',
-         ['the use of gene editing',
-          'the breeding of hybrids',
-          'the argument that monoculture is the real fault',
-          'a return to the Gros Michel'], 2,
+         ['the use of gene editing', 'the breeding of hybrids', 'the argument that monoculture is the real fault', 'a return to the Gros Michel'],
+         2,
          'Paragraph 8 says that last argument has the history on its '
-         'side.')]),
+         'side.',
+         {0: 'Gene editing is one response markets may refuse.', 1: 'Hybrid breeding is slow and seedless.', 3: 'The Gros Michel was lost to the first strain.'})]),
 
   dict(no=3, first=27,
        heading='How a word gets into a dictionary',
@@ -334,11 +335,15 @@ PAPER = dict(
          2,
          'Paragraph 4 gives the time test and the embarrassment that '
          'produced it.',
-         {3: 'Paragraph 7 explains why a large dictionary keeps '
+         {0: 'Paragraph 2 describes the corpus method.', 1: 'Paragraph 3 gives the spread test.', 3: 'Paragraph 7 explains why a large dictionary keeps '
              'obsolete words.'}),
-        ('Which paragraph describes what a usage note actually reports?',
-         ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
-         'Paragraph 6 explains that it reports a fact about readers.'),
+        (
+         'Which paragraph describes what a usage note actually '
+         'reports?',
+         ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'],
+         2,
+         'Paragraph 6 explains that it reports a fact about readers.',
+         {0: 'Paragraph 3 gives the spread test.', 1: 'Paragraph 5 describes the two traditions.', 3: 'Paragraph 8 states what authority a dictionary has.'}),
         (
          'Which paragraph explains why a large dictionary keeps '
          'obsolete words?',
@@ -347,7 +352,7 @@ PAPER = dict(
          'Paragraph 7 contrasts a historical purpose with finite '
          'pages.',
          {0: 'Paragraph 4 explains why publishers wait before '
-             'including a word.'}),
+             'including a word.', 1: 'Paragraph 5 describes the two traditions.', 3: 'Paragraph 8 states what authority a dictionary has.'}),
         ('What is the collection of text called?',
          None, 'a corpus',
          'Paragraph 2 names the method and describes its scale.'),
@@ -357,7 +362,8 @@ PAPER = dict(
         ('The tests a lexicographer applies are mainly about',
          ['frequency', 'spelling', 'spread', 'age'], 2,
          'Paragraph 3 contrasts spread with frequency and gives an '
-         'example of each.'),
+         'example of each.',
+         {0: 'Paragraph 3 contrasts spread with frequency.', 1: 'Spelling is not among the tests described.', 3: 'Age is the separate time test of paragraph 4.'}),
         ('A writer who explains a word in passing shows that the reader '
          'does not ____________ it.', None, 'know',
          'Paragraph 3 gives this as a test of whether a word is '
@@ -369,11 +375,15 @@ PAPER = dict(
          ['True', 'False', 'Not Given'], 0,
          'Paragraph 5 says most do the first of the two things '
          'described.'),
-        ('According to the writer, newspapers report dictionary decisions '
-         'as', ['careful observations', 'announcements of bans or '
-         'permissions', 'historical records', 'usage notes'], 1,
+        (
+         'According to the writer, newspapers report dictionary '
+         'decisions as',
+         ['careful observations', 'announcements of bans or permissions', 'historical records', 'usage notes'],
+         1,
          'Paragraph 6 describes the translation newspapers routinely '
-         'make.'),
+         'make.',
+         {0: 'Careful observation is what the writer credits, not the '
+             'papers.', 2: 'Historical records are the large dictionary\u2019s purpose.', 3: 'Usage notes are what the newspapers translate.'}),
         ('Small dictionaries have to remove words because their pages are '
          '____________.', None, 'finite',
          'Paragraph 7 gives the practical reason for deletion.'),
@@ -384,9 +394,11 @@ PAPER = dict(
         ('A word is in the language when enough people use it as though '
          'it ____________.', None, 'were',
          'The final paragraph states the writer’s own test.'),
-        ('What kind of authority does the writer say a dictionary has?',
-         ['none at all', 'the authority of a vote',
-          'legal authority', 'the authority of a careful observer'], 3,
-         'The last sentence of the passage names it and says what it is '
-         'not.')]),
+        (
+         'What kind of authority does the writer say a dictionary has?',
+         ['none at all', 'the authority of a vote', 'legal authority', 'the authority of a careful observer'],
+         3,
+         'The last sentence of the passage names it and says what it '
+         'is not.',
+         {0: 'The writer calls the authority considerable.', 1: 'A vote is exactly what it is not.', 2: 'No legal authority is claimed anywhere.'})]),
  ])

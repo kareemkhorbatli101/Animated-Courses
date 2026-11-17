@@ -99,16 +99,22 @@ PAPER = dict(
                'wreck, and it was the shipowners whose opinion restored the '
                'service.')],
        items=[
-        ('Which paragraph explains why earlier observations could not be '
-         'used for prediction?',
-         ['Paragraph 1', 'Paragraph 2', 'Paragraph 4', 'Paragraph 7'], 1,
+        (
+         'Which paragraph explains why earlier observations could not '
+         'be used for prediction?',
+         ['Paragraph 1', 'Paragraph 2', 'Paragraph 4', 'Paragraph 7'],
+         1,
          'Paragraph 2 describes the postal delay that made the records '
-         'useless for forecasting.'),
-        ('Which paragraph describes two groups objecting for opposite '
+         'useless for forecasting.',
+         {0: 'Paragraph 1 names the two conditions a forecast needs.', 2: 'Paragraph 4 introduces FitzRoy and his word.', 3: 'Paragraph 7 covers his death and the restored service.'}),
+        (
+         'Which paragraph describes two groups objecting for opposite '
          'reasons?',
-         ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
-         'Paragraph 6 gives the scientific objection and the commercial '
-         'one.'),
+         ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'],
+         2,
+         'Paragraph 6 gives the scientific objection and the '
+         'commercial one.',
+         {0: 'Paragraph 3 explains what the telegraph changed.', 1: 'Paragraph 5 describes his pattern-recognition method.', 3: 'Paragraph 8 draws the general lesson.'}),
         ('Barometers had been accurate for how long by 1800?',
          None, 'two hundred years',
          'Paragraph 2 makes the point that measurement was not the '
@@ -121,28 +127,28 @@ PAPER = dict(
          'minutes?', None, 'eighteen-forties',
          'Paragraph 3 dates the change to the electric telegraph.'),
         ('What had FitzRoy done before his work on forecasts?',
-         ['studied mathematics', 'captained Darwin’s ship',
-          'worked for a newspaper', 'built barometers'], 1,
-         'Paragraph 4 gives this one biographical detail.'),
+         ['studied mathematics', 'captained Darwin\u2019s ship', 'worked for a newspaper', 'built barometers'],
+         1, 'Paragraph 4 gives this one biographical detail.',
+         {0: 'Mathematics came later and not from him.', 2: 'He published in newspapers rather than working for one.', 3: 'Barometers were already accurate; he did not build them.'}),
         ('From about how many stations did FitzRoy collect readings?',
          None, 'twenty',
          'Paragraph 4 gives the figure for the coastal network.'),
         ('In which year did FitzRoy begin publishing forecasts?',
          None, '1861', 'Paragraph 4 gives the year and the newspapers.'),
-        ('FitzRoy chose the word "forecast" because he wanted something',
-         ['stronger than prophecy', 'weaker than prophecy',
-          'shorter to print', 'more scientific sounding'], 1,
-         'Paragraph 4 states his reason for the choice.'),
+        (
+         'FitzRoy chose the word "forecast" because he wanted '
+         'something',
+         ['stronger than prophecy', 'weaker than prophecy', 'shorter to print', 'more scientific sounding'],
+         1, 'Paragraph 4 states his reason for the choice.',
+         {0: 'He wanted something weaker, not stronger.', 2: 'Print length is not the reason paragraph 4 gives.', 3: 'Sounding scientific is not his stated reason.'}),
         ('FitzRoy could explain why his patterns held.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 6 says he could not, which was the scientific '
          'objection.'),
         ('Why did shipowners object to the warnings?',
-         ['the warnings were too frequent',
-          'a warning that proved wrong cost them money',
-          'they did not understand the charts',
-          'they preferred their own observations'], 1,
-         'Paragraph 6 gives the commercial objection.'),
+         ['the warnings were too frequent', 'a warning that proved wrong cost them money', 'they did not understand the charts', 'they preferred their own observations'],
+         1, 'Paragraph 6 gives the commercial objection.',
+         {0: 'Frequency is not the objection paragraph 6 records.', 2: 'The charts were his, and not what they objected to.', 3: 'Their own observations are not mentioned as preferred.'}),
         ('Whose pressure led to the service being restored?',
          None, 'the ports',
          'Paragraph 7 contrasts this with pressure from the '
@@ -230,21 +236,28 @@ PAPER = dict(
                'problem, and the Clean Air Act is the clearest case in which '
                'it was solved.')],
        items=[
-        ('Which paragraph explains why earlier committees focused on '
+        (
+         'Which paragraph explains why earlier committees focused on '
          'factories?',
-         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 6'], 2,
+         ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 6'],
+         2,
          'Paragraph 4 explains that a law on domestic smoke was '
-         'politically impossible.'),
-        ('Which paragraph identifies the feature of the Act that made it '
-         'effective?',
-         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 2,
+         'politically impossible.',
+         {0: 'Paragraph 2 explains what the fog was made of.', 1: 'Paragraph 3 gives the mortality evidence.', 3: 'Paragraph 6 describes the Act\u2019s passage.'}),
+        (
+         'Which paragraph identifies the feature of the Act that made '
+         'it effective?',
+         ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
+         2,
          'Paragraph 7 says the law paid for the alternative before '
-         'banning the practice.'),
+         'banning the practice.',
+         {0: 'Paragraph 5 describes the 1952 event.', 1: 'Paragraph 6 describes the Act\u2019s passage.', 3: 'Paragraph 8 weighs the two usual conclusions.'}),
         ('What gave the London fog its colour?',
-         ['water vapour', 'sulphur compounds', 'industrial dust',
-          'river mud'], 1,
+         ['water vapour', 'sulphur compounds', 'industrial dust', 'river mud'],
+         1,
          'Paragraph 2 names the compounds and lists the colours '
-         'reported.'),
+         'reported.',
+         {0: 'Water vapour makes a natural fog white.', 2: 'Industry produced a minority of the smoke.', 3: 'River mud is not mentioned in the passage.'}),
         ('Most of the smoke came from industry.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 2 says it came from domestic fires, not primarily '
@@ -264,14 +277,16 @@ PAPER = dict(
          'Paragraph 5 describes the still, cold weather that trapped the '
          'smoke.'),
         ('What was the later estimate of excess deaths?',
-         ['four thousand', 'twelve thousand', 'forty thousand',
-          'one hundred thousand'], 1,
+         ['four thousand', 'twelve thousand', 'forty thousand', 'one hundred thousand'],
+         1,
          'Paragraph 5 contrasts the official figure with the later '
-         'analysis.'),
+         'analysis.',
+         {0: 'Four thousand was the immediate official estimate.', 2: 'Forty thousand is more than three times the later '
+             'figure.', 3: 'A hundred thousand is far beyond any estimate given.'}),
         ('Who introduced the bill that became the Clean Air Act?',
-         ['the government', 'a backbench member', 'a local authority',
-          'a committee of scientists'], 1,
-         'Paragraph 6 makes the point that the government did not.'),
+         ['the government', 'a backbench member', 'a local authority', 'a committee of scientists'],
+         1, 'Paragraph 6 makes the point that the government did not.',
+         {0: 'Paragraph 6 says the government did not introduce it.', 2: 'Local authorities declared the areas afterwards.', 3: 'No committee of scientists introduced the bill.'}),
         ('In which year was the Clean Air Act passed?',
          None, '1956', 'Paragraph 6 gives the year, four years after the '
          'fog.'),
@@ -371,20 +386,23 @@ PAPER = dict(
          1,
          'Paragraph 2 describes the second survey used to measure the '
          'undercount.',
-         {3: 'Paragraph 7 argues that administrative records count a '
+         {0: 'Paragraph 1 introduces the census as an instrument.', 2: 'Paragraph 5 is about money following categories.', 3: 'Paragraph 7 argues that administrative records count a '
              'different population.'}),
-        ('Which paragraph argues that administrative records count a '
+        (
+         'Which paragraph argues that administrative records count a '
          'different population?',
-         ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 3,
+         ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
+         3,
          'Paragraph 7 explains who such records contain and who they '
-         'miss.'),
+         'miss.',
+         {0: 'Paragraph 3 is about which categories a form makes real.', 1: 'Paragraph 5 is about money following categories.', 2: 'Paragraph 6 is about representation and boundaries.'}),
         (
          'Which paragraph states the writer\u2019s own recommendation?',
          ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'],
          3,
          'Paragraph 8 rejects scepticism and says how a census should '
          'be read.',
-         {2: 'Paragraph 7 argues that administrative records count a '
+         {0: 'Paragraph 5 is about money following categories.', 1: 'Paragraph 6 is about representation and boundaries.', 2: 'Paragraph 7 argues that administrative records count a '
              'different population.'}),
         ('The census undercount falls randomly across the population.',
          ['True', 'False', 'Not Given'], 1,
@@ -403,11 +421,13 @@ PAPER = dict(
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 4 says it followed a political campaign rather than '
          'a methodological argument.'),
-        ('Why are the religion figures not comparable with the others?',
-         ['they were collected later', 'the question is voluntary',
-          'they were not published', 'the categories changed'], 1,
+        (
+         'Why are the religion figures not comparable with the others?',
+         ['they were collected later', 'the question is voluntary', 'they were not published', 'the categories changed'],
+         1,
          'Paragraph 4 gives the condition on which the question was '
-         'included.'),
+         'included.',
+         {0: 'The question was added in 2001, with the others.', 2: 'The religion figures were published.', 3: 'Category change is a separate difficulty in paragraph 9.'}),
         ('Funding formulas for schools and health services are built on '
          'census ____________.', None, 'counts',
          'Paragraph 5 explains why the categories are consequential.'),
@@ -415,17 +435,21 @@ PAPER = dict(
          'long as ____________ years.', None, 'twenty',
          'Paragraph 6 gives the possible life of a boundary.'),
         ('Legal cases about census counts have been argued by',
-         ['statisticians', 'lawyers', 'local authorities',
-          'parliamentary committees'], 1,
+         ['statisticians', 'lawyers', 'local authorities', 'parliamentary committees'],
+         1,
          'Paragraph 6 says the statistical argument was conducted by '
-         'lawyers because the stakes were political.'),
+         'lawyers because the stakes were political.',
+         {0: 'Statisticians produced the figures, not the argument.', 2: 'Local authorities campaign over counts, not these cases.', 3: 'No parliamentary committee argued the cases.'}),
         ('Using administrative records is cheaper and more ____________.',
          None, 'frequent',
          'Paragraph 7 gives both advantages before the drawback.'),
-        ('What does the writer say a census shows more of than almost any '
-         'other government number?',
-         ['its cost', 'its own working', 'its authors’ names',
-          'its margin of error'], 1,
+        (
+         'What does the writer say a census shows more of than almost '
+         'any other government number?',
+         ['its cost', 'its own working', 'its authors\u2019 names', 'its margin of error'],
+         1,
          'The final sentence makes this the reason for reading it '
-         'carefully rather than dismissing it.')]),
+         'carefully rather than dismissing it.',
+         {0: 'Cost is not what paragraph 8 says is shown.', 2: 'The authors are inferred, not named.', 3: 'The undercount estimate is part of the working, not the '
+             'whole.'})]),
  ])

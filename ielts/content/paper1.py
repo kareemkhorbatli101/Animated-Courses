@@ -128,26 +128,27 @@ PAPER = dict(
         ('Which paragraph explains why being different is costly?',
          ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
          2, 'The cost is paid by the person who differs.',
-         {1: 'Paragraph 4 describes clocks that divided the day into '
+         {0: 'Paragraph 3 explains why the makers copied the shadow.', 1: 'Paragraph 4 describes clocks that divided the day into '
              'twenty-four hours.', 3: 'Paragraph 6 gives two examples from outside timekeeping.'}),
         (
          'Which paragraph gives two examples from outside timekeeping?',
          ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
          2, 'Keyboards and the width between railway lines.',
          {0: 'Paragraph 4 describes clocks that divided the day into '
-             'twenty-four hours.', 1: 'Paragraph 5 explains why being different is costly.'}),
+             'twenty-four hours.', 1: 'Paragraph 5 explains why being different is costly.', 3: 'Paragraph 7 defends standards in general.'}),
         (
          'Which paragraph describes clocks that divided the day into '
          'twenty-four hours?',
          ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'],
          2,
          'Several clocks in Italy, alongside the anticlockwise dials.',
-         {3: 'Paragraph 5 explains why being different is costly.'}),
-        ('According to the final paragraph, a widely used standard is '
+         {0: 'Paragraph 2 explains how a sundial works.', 1: 'Paragraph 3 explains why the makers copied the shadow.', 3: 'Paragraph 5 explains why being different is costly.'}),
+        (
+         'According to the final paragraph, a widely used standard is '
          'evidence of',
-         ['good design', 'early arrival', 'public demand',
-          'careful testing'], 1,
-         'Rather than of the system being the best available.')]),
+         ['good design', 'early arrival', 'public demand', 'careful testing'],
+         1, 'Rather than of the system being the best available.',
+         {0: 'Paragraph 7 says it is not evidence of good design.', 2: 'Public demand is not what the paragraph claims.', 3: 'Careful testing is not what a standard demonstrates.'})]),
 
   dict(no=2, first=14,
        heading='The penny that changed the post',
@@ -207,18 +208,17 @@ PAPER = dict(
         'improvement in efficiency.'],
        items=[
         ('Choose the best heading for paragraph 2.',
-         ['What letters cost', 'How people avoided paying',
-          'Hill’s pamphlet', 'What happened to revenue'], 1,
-         'Writing across the page and private codes on the '
-         'outside.'),
+         ['What letters cost', 'How people avoided paying', 'Hill\u2019s pamphlet', 'What happened to revenue'],
+         1, 'Writing across the page and private codes on the outside.',
+         {0: 'What letters cost is paragraph 1.', 2: 'Hill\u2019s pamphlet is paragraph 3.', 3: 'What happened to revenue is paragraph 5.'}),
         ('Choose the best heading for paragraph 3.',
-         ['The real cost of a letter', 'The Post Office objects',
-          'Letters from ordinary families', 'A single low price'], 0,
-         'Handling rather than distance.'),
+         ['The real cost of a letter', 'The Post Office objects', 'Letters from ordinary families', 'A single low price'],
+         0, 'Handling rather than distance.',
+         {1: 'The Post Office objects in paragraph 4.', 2: 'Letters from ordinary families are paragraph 6.', 3: 'The single low price is paragraph 4.'}),
         ('Choose the best heading for paragraph 6.',
-         ['Numbers rise', 'What people began to write about',
-          'A lesson beyond letters', 'The label as proof'], 1,
-         'Families writing about nothing in particular.'),
+         ['Numbers rise', 'What people began to write about', 'A lesson beyond letters', 'The label as proof'],
+         1, 'Families writing about nothing in particular.',
+         {0: 'The rise in numbers is paragraph 5.', 2: 'The lesson beyond letters is paragraph 7.', 3: 'The printed label is paragraph 4.'}),
         ('Before 1840, the cost of a letter depended on distance and '
          'the number of ____________.', None, 'sheets',
          'Paragraph 1, and the receiver paid.'),
@@ -235,30 +235,30 @@ PAPER = dict(
          '____________.', None, 'decade',
          'Paragraph 5, having fallen at first.'),
         ('The Post Office predicted that revenue would',
-         ['rise sharply', 'collapse', 'stay the same',
-          'become easier to collect'], 1,
-         'Paragraph 4, which is why it opposed the change.'),
+         ['rise sharply', 'collapse', 'stay the same', 'become easier to collect'],
+         1, 'Paragraph 4, which is why it opposed the change.',
+         {0: 'The Post Office predicted the opposite of a rise.', 2: 'It predicted collapse, not stability.', 3: 'Ease of collection was Hill\u2019s point, not the prediction.'}),
         ('People wrote across their own writing in order to',
-         ['save ink', 'keep to one sheet', 'confuse readers',
-          'write faster'], 1,
-         'Paragraph 2, because cost depended on sheets.'),
-        ('A private code on the outside of a letter allowed the '
+         ['save ink', 'keep to one sheet', 'confuse readers', 'write faster'],
+         1, 'Paragraph 2, because cost depended on sheets.',
+         {0: 'Ink is not what the charge depended on.', 2: 'Confusing readers was not the purpose.', 3: 'Crossed writing is slower, not faster.'}),
+        (
+         'A private code on the outside of a letter allowed the '
          'receiver to',
-         ['pay less', 'refuse to pay', 'send a reply free',
-          'claim a refund'], 1,
-         'Paragraph 2, after examining the mark.'),
+         ['pay less', 'refuse to pay', 'send a reply free', 'claim a refund'],
+         1, 'Paragraph 2, after examining the mark.',
+         {0: 'The receiver paid nothing at all.', 2: 'No free reply is described in paragraph 2.', 3: 'No refund is involved, since nothing was paid.'}),
         ('The writer says Hill won his argument by showing that',
-         ['postage was too expensive',
-          'the charge was based on the wrong cost',
-          'the Post Office was badly run',
-          'more people wanted to write'], 1,
-         'The final paragraph, which calls the mistake very '
-         'common.'),
-        ('According to the writer, finding such a mistake is usually '
+         ['postage was too expensive', 'the charge was based on the wrong cost', 'the Post Office was badly run', 'more people wanted to write'],
+         1, 'The final paragraph, which calls the mistake very common.',
+         {0: 'Expense was the symptom; the wrong cost was the '
+             'argument.', 2: 'He did not argue the Post Office was badly run.', 3: 'Demand rose afterwards and was not his argument.'}),
+        (
+         'According to the writer, finding such a mistake is usually '
          'worth more than',
-         ['any new technology', 'any improvement in efficiency',
-          'a change of management', 'a lower price'], 1,
-         'The final sentence of the passage.')]),
+         ['any new technology', 'any improvement in efficiency', 'a change of management', 'a lower price'],
+         1, 'The final sentence of the passage.',
+         {0: 'New technology is not what the final sentence compares.', 2: 'A change of management is not the comparison made.', 3: 'A lower price is the remedy, not the comparison.'})]),
 
   dict(no=3, first=27,
        heading='Why witnesses are confident and wrong',
@@ -359,8 +359,8 @@ PAPER = dict(
          'it is recalled?',
          ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'],
          1, 'From fragments and expectations, then stored again.',
-         {2: 'Paragraph 3 describes an experiment with different '
-             'verbs.'}),
+         {0: 'Paragraph 1 describes the persuasive witness.', 2: 'Paragraph 3 describes an experiment with different '
+             'verbs.', 3: 'Paragraph 4 is about information from other witnesses.'}),
         (
          'Which paragraph describes an experiment with different '
          'verbs?',
@@ -369,7 +369,7 @@ PAPER = dict(
          '"Hit" against "smashed into", and the broken glass a week '
          'later.',
          {0: 'Paragraph 2 explains how a memory is rebuilt each time '
-             'it is recalled.', 3: 'Paragraph 5 explains who should conduct an '
+             'it is recalled.', 2: 'Paragraph 4 is about information from other witnesses.', 3: 'Paragraph 5 explains who should conduct an '
              'identification parade.'}),
         (
          'Which paragraph explains who should conduct an '
@@ -377,15 +377,15 @@ PAPER = dict(
          ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
          2, 'An officer who does not know which person is the suspect.',
          {0: 'Paragraph 3 describes an experiment with different '
-             'verbs.', 3: 'Paragraph 6 states when confidence is most closely '
+             'verbs.', 1: 'Paragraph 4 is about information from other witnesses.', 3: 'Paragraph 6 states when confidence is most closely '
              'related to accuracy.'}),
         (
          'Which paragraph states when confidence is most closely '
          'related to accuracy?',
          ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'],
          2, 'At the moment of first identification.',
-         {1: 'Paragraph 5 explains who should conduct an '
-             'identification parade.'}),
+         {0: 'Paragraph 4 is about information from other witnesses.', 1: 'Paragraph 5 explains who should conduct an '
+             'identification parade.', 3: 'Paragraph 7 is about recording that first statement.'}),
         ('Participants who heard the word "smashed" were more likely '
          'to report seeing broken ____________.', None, 'glass',
          'Paragraph 3, although there was none in the film.'),
