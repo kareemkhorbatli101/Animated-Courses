@@ -44,7 +44,7 @@ UNIT = dict(
    read=[
     dict(heading='Licensing a forecasting model',
          kind='Terms of use',
-         task='Note completion, multiple choice and matching features',
+         task='Sentence completion, multiple choice and matching features',
          band='gt_short', qtype='Questions 1-6',
          skill=('Terms of use are read for what you may not say',
                 ['A licence for a model governs two different things: what '
@@ -113,7 +113,7 @@ UNIT = dict(
            {0: 'Paragraph 6 says such a user has not breached the '
                'licence.', 2: 'The warranty is excluded in any case.', 3: 'The scenario must be stated, which is clause 4.'})]),
     dict(heading='Reporting a suspected error',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Establish reproducibility before reporting anything. Run the '
@@ -428,7 +428,7 @@ UNIT = dict(
                'fell.'})])],
    listen=[
     dict(heading='A short talk: forecasts people believed', part='Part 2',
-         task='A talk at a forecasting seminar · multiple choice', band='l2',
+         task='A talk at a forecasting seminar · sentence completion', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I want to talk about four famous forecasting '
@@ -484,7 +484,7 @@ UNIT = dict(
            'And to give a journalist the range again if they ask for a '
            'number.')]),
     dict(heading='Two forecasters disagree about a projection',
-         part='Part 3', task='A discussion between two forecasters · multiple choice',
+         part='Part 3', task='A discussion between two forecasters · sentence completion and multiple choice',
          band='l3', qtype='Questions 27-32',
          script=[
           ('Casimir', 'I want to publish the range without a central figure '
@@ -814,7 +814,7 @@ UNIT = dict(
                'exists.'})])],
    listen=[
     dict(heading='A modeller on building and checking', part='Part 4',
-         task='A lecture on model construction · multiple choice', band='l4',
+         task='A lecture on model construction · short answer, diagram labelling and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_MOD,
          script=[
@@ -1038,7 +1038,7 @@ UNIT = dict(
    read=[
     dict(heading='An ensemble that shares its mistakes',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'When several independent models of a single system yield '
@@ -1181,7 +1181,7 @@ UNIT = dict(
            'Paragraph 7: the system is at least this uncertain.')])],
    listen=[
     dict(heading='A lecture on ensembles and independence', part='Part 4',
-         task='A lecture on why models agree · multiple choice', band='l4',
+         task='A lecture on why models agree · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'Twenty models agree. How reassured should you be? '
@@ -1412,7 +1412,7 @@ UNIT = dict(
    read=[
     dict(heading='The uncertainty that is outside the range',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Uncertainty in a quantitative projection comes in at least three '
@@ -1669,7 +1669,7 @@ UNIT = dict(
            'quoted.')])],
    listen=[
     dict(heading='Two modellers disagree about uncertainty', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 72-77',
+         task='A recorded exchange · multiple choice, sentence completion and short answer', band='l4', qtype='Questions 72-77',
          script=[
           ('Chair', 'Dr Fairweather-Oduya runs a climate modelling group. '
            'Professor Nakamura-Belluomini works on decision-making under '

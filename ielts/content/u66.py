@@ -198,7 +198,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Your first week: a staff handbook page',
-         kind='Handbook', task='Note completion and short answer',
+         kind='Handbook', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'Arrive ten minutes before your shift. The rota for the whole '
@@ -572,7 +572,7 @@ UNIT = dict(
    read=[
     dict(heading='A hundred and twenty years of work',
          kind='Short factual article',
-         task='Note completion, matching information and multiple choice',
+         task='Sentence completion, matching information and multiple choice',
          band='acad', qtype='Questions 31-36',
          paras=[
           'In 1900, forty-one per cent of workers in this country were '
@@ -768,7 +768,7 @@ UNIT = dict(
    read=[
     dict(heading='The same argument, every generation',
          kind='Short factual article',
-         task='Note completion, matching information and multiple choice',
+         task='Sentence completion, matching information and multiple choice',
          band='acad', qtype='Questions 42-47',
          paras=[
           'The belief that machines are about to end work is at least '

@@ -30,7 +30,7 @@ UNIT = dict(
    read=[
     dict(heading='Public rights of way — what they allow',
          kind='Official guidance',
-         task='Multiple choice, matching features and note completion',
+         task='Multiple choice, matching features and sentence completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('Rights guidance is read for the verb that defines the '
                 'right',
@@ -95,7 +95,7 @@ UNIT = dict(
            'substantially less ____________.', None, 'convenient',
            'Paragraph 5, after advertisement.')]),
     dict(heading='Reporting an obstructed path',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Find the path number from the interactive map. Numbers are given '
@@ -193,7 +193,7 @@ UNIT = dict(
            'report.', None, 'fresh',
            'Because the file is closed when the obstruction goes.')]),
     dict(heading='A short talk: who the land is for', part='Part 2',
-         task='A talk at a rural studies seminar · multiple choice', band='l2',
+         task='A talk at a rural studies seminar · sentence completion and multiple choice', band='l2',
          qtype='Questions 17-20',
          script=[
           ('Speaker', 'I want to dismantle a sentence that appears in almost '
@@ -440,7 +440,7 @@ UNIT = dict(
                'mentioned.'})])],
    listen=[
     dict(heading='Two officers disagree about access', part='Part 3',
-         task='A conversation between two council officers · multiple choice and matching', band='l3',
+         task='A conversation between two council officers · sentence completion, multiple choice and matching', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Rosalind', 'I want to recommend the permissive route and close '
@@ -681,7 +681,7 @@ UNIT = dict(
    read=[
     dict(heading='Yield, inputs and what leaves the gate',
          kind='Data article',
-         task='Matching information and note completion',
+         task='Matching information and short answer',
          band='gt_work', qtype='Questions 33-38',
          figure=_FARM,
          paras=[
@@ -752,7 +752,7 @@ UNIT = dict(
            'Paragraph 5, against a current level of 3.0.')])],
    listen=[
     dict(heading='An agronomist on measuring a farm', part='Part 4',
-         task='A lecture on farm measurement · multiple choice and matching', band='l4',
+         task='A lecture on farm measurement · sentence completion, matching and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_FARM,
          script=[
@@ -979,7 +979,7 @@ UNIT = dict(
    read=[
     dict(heading='The asset that is consumed without appearing',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'A farm business keeps accounts that record the value of its land, '
@@ -1112,7 +1112,7 @@ UNIT = dict(
            'tenancy.')])],
    listen=[
     dict(heading='A lecture on natural capital', part='Part 4',
-         task='A lecture on accounting for natural assets · multiple choice', band='l4',
+         task='A lecture on accounting for natural assets · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'A farm’s accounts record its land, its buildings, '
@@ -1345,7 +1345,7 @@ UNIT = dict(
     dict(heading='Three schemes that paid for an outcome nobody could '
                  'measure',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Paying for environmental outcomes rather than for actions is the '
@@ -1476,7 +1476,7 @@ UNIT = dict(
            'economics proposes.')])],
    listen=[
     dict(heading='A policy adviser and a farmer disagree', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice and sentence completion', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Dr Ferreira-Oyelude advises on agricultural payments. '
            'Mr Lindqvist-Abara farms twelve hundred hectares and has been in '

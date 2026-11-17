@@ -31,7 +31,7 @@ UNIT = dict(
    read=[
     dict(heading='Lending to an exhibition: conditions',
          kind='Loan agreement summary',
-         task='Multiple choice, matching features and note completion',
+         task='Multiple choice, matching features and sentence completion',
          band='gt_short', qtype='Questions 1-5',
          skill=('Reading an agreement for what it obliges you to do',
                 ['An agreement has two kinds of sentence: what the other '
@@ -88,7 +88,7 @@ UNIT = dict(
            'Paragraph 4: the crate is opened only after that period, with '
            'the courier present.')]),
     dict(heading='Insurance and transport',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Begin with a valuation. Where the work has not been valued in the '
@@ -177,7 +177,7 @@ UNIT = dict(
            'Which the registrar notes immediately instead of leaving it to be '
            'found later.')]),
     dict(heading='A short talk: what a registrar worries about', part='Part 2',
-         task='A briefing to new museum staff · matching and multiple choice', band='l2',
+         task='A briefing to new museum staff · matching, multiple choice and sentence completion', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Registrar', 'I look after objects that belong to other people, '
@@ -411,7 +411,7 @@ UNIT = dict(
            {0: 'Yes would need a sale; she says she has not sold one.', 2: 'Not Given is wrong because her selling is addressed.'})])],
    listen=[
     dict(heading='A short talk: what people pay for', part='Part 2',
-         task='A talk at a collectors’ evening · multiple choice and matching', band='l2',
+         task='A talk at a collectors’ evening · multiple choice, sentence completion and matching', band='l2',
          qtype='Questions 25-28',
          script=[
           ('Speaker', 'I am going to suggest that when somebody buys a work '
@@ -474,7 +474,7 @@ UNIT = dict(
            {0: 'The object is unchanged, which is his whole point.', 2: 'He says only one of the four collapses.', 3: 'The membership does he say never appears on an '
                'invoice.'})]),
     dict(heading='Two dealers disagree about pricing', part='Part 3',
-         task='A conversation in a gallery back office · multiple choice', band='l3',
+         task='A conversation in a gallery back office · sentence completion and multiple choice', band='l3',
          qtype='Questions 29-33',
          script=[
           ('Fenella', 'I am not putting a price list on the wall. We have '
@@ -694,7 +694,7 @@ UNIT = dict(
    read=[
     dict(heading='Sales by category and by price band',
          kind='Data article',
-         task='Matching features, matching information and note completion',
+         task='Matching features, matching information and sentence completion',
          band='gt_work', qtype='Questions 34-39',
          figure=_CAT,
          paras=[
@@ -757,7 +757,7 @@ UNIT = dict(
            'the charts.')])],
    listen=[
     dict(heading='An analyst on the art market', part='Part 4',
-         task='A lecture on reading market data · multiple choice and matching', band='l4',
+         task='A lecture on reading market data · sentence completion, multiple choice and matching', band='l4',
          qtype='Questions 40-45',
          figure=_BAND,
          script=[
@@ -1109,7 +1109,7 @@ UNIT = dict(
            'Paragraph 1, which settled the question in an afternoon.')])],
    listen=[
     dict(heading='A lecture on connoisseurship and science', part='Part 4',
-         task='A lecture on two ways of knowing · multiple choice', band='l4',
+         task='A lecture on two ways of knowing · multiple choice, sentence completion and short answer', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'The story you have all read for today is usually told '
@@ -1466,7 +1466,7 @@ UNIT = dict(
            'being compared.')])],
    listen=[
     dict(heading='A philosopher and a conservator disagree', part='Part 4',
-         task='A recorded discussion · multiple choice', band='l4',
+         task='A recorded discussion · multiple choice and sentence completion', band='l4',
          qtype='Questions 66-71',
          script=[
           ('Chair', 'Professor Achterberg works on aesthetics; Ms '

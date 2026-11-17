@@ -28,7 +28,7 @@ UNIT = dict(
    read=[
     dict(heading='Registering a birth, a marriage or a change of name',
          kind='Procedure notice',
-         task='Note completion and multiple choice',
+         task='Sentence completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('A procedure notice is read for the order of the steps and '
                 'the deadline',
@@ -686,7 +686,7 @@ UNIT = dict(
                'figure needed.'})])],
    listen=[
     dict(heading='A statistician on household size', part='Part 4',
-         task='A lecture on measuring households · note completion and multiple choice', band='l4',
+         task='A lecture on measuring households · sentence completion and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_HH,
          script=[
@@ -895,7 +895,7 @@ UNIT = dict(
    read=[
     dict(heading='Fewer children, older countries',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'In 1970 the average woman in the world bore about 4.5 children. '
@@ -994,7 +994,7 @@ UNIT = dict(
            'Paragraph 6, and every country has chosen a mixture.')])],
    listen=[
     dict(heading='A lecture on demographic change', part='Part 4',
-         task='A lecture on populations and ageing · note completion and multiple choice', band='l4',
+         task='A lecture on populations and ageing · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'I am going to spend this hour on one number and one '
@@ -1174,7 +1174,7 @@ UNIT = dict(
    read=[
     dict(heading='Countries that tried to raise the birth rate',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Since about 1980, more than thirty countries have introduced '
@@ -1272,7 +1272,7 @@ UNIT = dict(
            'Paragraph 6, in two countries during a crisis.')])],
    listen=[
     dict(heading='Two demographers disagree', part='Part 4',
-         task='A recorded discussion · multiple choice and sentence completion''A recorded discussion · multiple choice and sentence completion',
+         task='A recorded discussion · matching',
          bank=['A', 'B', 'C'],
          reuse=True,
          banklabel='A  Dr Varga    B  Professor Lindqvist    C  both of them', band='l4', qtype='Questions 67-72',

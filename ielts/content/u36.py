@@ -346,7 +346,7 @@ UNIT = dict(
                'he accepts that part.'})])],
    listen=[
     dict(heading='A short talk: who pays for the change', part='Part 2',
-         task='A talk at a public meeting · multiple choice', band='l2',
+         task='A talk at a public meeting · short answer and sentence completion', band='l2',
          qtype='Questions 21-24',
          script=[
           ('Speaker', 'I have been asked to explain what is actually on your '
@@ -394,7 +394,7 @@ UNIT = dict(
            'the ____________ fuel.', None, 'clean',
            'The household doing the right thing pays for the policy.')]),
     dict(heading='Two councillors disagree about levies', part='Part 3',
-         task='A discussion after the meeting · multiple choice and matching', band='l3',
+         task='A discussion after the meeting · sentence completion, matching and multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Marguerite', 'I thought she was admirably clear and I think her '
@@ -615,7 +615,7 @@ UNIT = dict(
    read=[
     dict(heading='Demand, supply and the hours in between',
          kind='Data article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='gt_work', qtype='Questions 30-35',
          figure=_DAY,
          paras=[
@@ -675,7 +675,7 @@ UNIT = dict(
            'capacity.')])],
    listen=[
     dict(heading='A control room engineer on balancing', part='Part 4',
-         task='A talk on keeping supply and demand equal · multiple choice', band='l4',
+         task='A talk on keeping supply and demand equal · multiple choice and sentence completion', band='l4',
          qtype='Questions 36-41',
          figure=_DAY,
          script=[
@@ -1009,7 +1009,7 @@ UNIT = dict(
            'seasonal storage.')])],
    listen=[
     dict(heading='A lecture on storage duration', part='Part 4',
-         task='A lecture on three storage problems · multiple choice', band='l4',
+         task='A lecture on three storage problems · sentence completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I am going to ban a word for the next forty minutes. '
@@ -1348,7 +1348,7 @@ UNIT = dict(
            'year.')])],
    listen=[
     dict(heading='Two analysts disagree about system cost', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4',
+         task='A recorded exchange · multiple choice and sentence completion', band='l4',
          qtype='Questions 62-67',
          script=[
           ('Chair', 'Dr Oyelowo-Brandt publishes levelised cost estimates. '

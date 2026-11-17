@@ -196,7 +196,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Classroom rules: a poster',
-         kind='Poster', task='Note completion and short answer',
+         kind='Poster', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'Telephones go in the box by the door. You may take yours out '
@@ -587,7 +587,7 @@ UNIT = dict(
    read=[
     dict(heading='Three things that help memory',
          kind='Short factual article',
-         task='Note completion, short answer and matching information',
+         task='Sentence completion, short answer and matching information',
          band='acad', qtype='Questions 31-36',
          paras=[
           'Almost everything students believe about studying is wrong, '
@@ -786,7 +786,7 @@ UNIT = dict(
    read=[
     dict(heading='Starting school at five, six or seven',
          kind='Short factual article',
-         task='Note completion, matching information and multiple choice',
+         task='Sentence completion, matching information and multiple choice',
          band='acad', qtype='Questions 42-47',
          paras=[
           'Children begin formal school at five in some countries, at '

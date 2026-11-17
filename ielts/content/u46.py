@@ -38,7 +38,7 @@ UNIT = dict(
    read=[
     dict(heading='Reporting a road or bridge defect',
          kind='Procedure notice',
-         task='Multiple choice and note completion',
+         task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A reporting procedure is read for the category, because '
                 'the category sets the clock',
@@ -107,7 +107,7 @@ UNIT = dict(
            'times in ten.', None, 'four',
            'Paragraph 5, and on descriptions almost never.')]),
     dict(heading='How defects are prioritised',
-         kind='Guidance table', task='Note completion',
+         kind='Guidance table', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Priority is set by category and then by a network factor, '
@@ -210,7 +210,7 @@ UNIT = dict(
           ('Reference: DF____________', None, '7204',
            'Issued during the call once the report was taken.')]),
     dict(heading='A short talk: what gets maintained', part='Part 2',
-         task='A talk at an engineering institute · multiple choice', band='l2',
+         task='A talk at an engineering institute · multiple choice and sentence completion', band='l2',
          qtype='Questions 17-20',
          script=[
           ('Speaker', 'I have spent nineteen years managing infrastructure '
@@ -465,7 +465,7 @@ UNIT = dict(
                'sure.', 2: 'Not Given is wrong because she states her uncertainty.'})])],
    listen=[
     dict(heading='Two officers disagree about priorities', part='Part 3',
-         task='A conversation between two council officers · multiple choice and matching', band='l3',
+         task='A conversation between two council officers · sentence completion, short answer, multiple choice and matching', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Perpetua', 'I am putting the whole of the uplift into '
@@ -703,7 +703,7 @@ UNIT = dict(
    read=[
     dict(heading='What a deferred repair costs later',
          kind='Data article',
-         task='Matching information and note completion',
+         task='Matching information and short answer',
          band='gt_work', qtype='Questions 33-38',
          figure=_COND, figure2=_COST,
          paras=[
@@ -773,7 +773,7 @@ UNIT = dict(
            'Paragraph 2, which is why the planned line ends at 90.')])],
    listen=[
     dict(heading='An asset manager on deterioration curves', part='Part 4',
-         task='A lecture on condition and cost · multiple choice', band='l4',
+         task='A lecture on condition and cost · note completion and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_COND, figure2=_COST,
          script=[
@@ -1001,7 +1001,7 @@ UNIT = dict(
    read=[
     dict(heading='The budget that is always next year',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'Infrastructure backlogs in developed economies have grown '
@@ -1130,7 +1130,7 @@ UNIT = dict(
            'Paragraph 8, by removing the invisibility of deferral.')])],
    listen=[
     dict(heading='A lecture on infrastructure funding', part='Part 4',
-         task='A lecture on why backlogs grow · multiple choice', band='l4',
+         task='A lecture on why backlogs grow · multiple choice and sentence completion', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'Maintenance backlogs have grown for forty years in '
@@ -1365,7 +1365,7 @@ UNIT = dict(
    read=[
     dict(heading='Three attempts to protect maintenance spending',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Three jurisdictions have attempted to protect maintenance '
@@ -1498,7 +1498,7 @@ UNIT = dict(
            'Paragraph 6, with no obligation to spend anything.')])],
    listen=[
     dict(heading='A treasury official and an engineer disagree',
-         part='Part 4', task='A recorded exchange · multiple choice', band='l4',
+         part='Part 4', task='A recorded exchange · multiple choice and sentence completion', band='l4',
          qtype='Questions 67-72',
          script=[
           ('Chair', 'Ms Oyelaran-Battersby is a treasury official. Professor '

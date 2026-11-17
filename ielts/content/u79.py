@@ -53,7 +53,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='The Weekly Gazette: subscriptions and delivery',
-         kind='Information page', task='Note completion and short answer',
+         kind='Information page', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A service page is read for what changes and when',
                 ['Deadlines and cut-off times are the commonest '
@@ -475,7 +475,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Four age groups, three sources',
-         kind='Short article', task='Multiple choice, note completion and short answer',
+         kind='Short article', task='Multiple choice, sentence completion and short answer',
          band='gt_work', qtype='Questions 24-29',
          skill=('A survey of groups is read one group at a time',
                 ['Decide which group the question names before '

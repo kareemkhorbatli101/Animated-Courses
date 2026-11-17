@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Prescribed consultation — how it works',
          kind='Official guidance',
-         task='Multiple choice, matching features and note completion',
+         task='Multiple choice, matching features and sentence completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('Official guidance is read for the two tests it applies',
                 ['Guidance of this kind almost always contains a test of '
@@ -97,7 +97,7 @@ UNIT = dict(
            'Paragraph 6, which otherwise removes addresses and '
            'signatures.')]),
     dict(heading='What a consultation response must contain',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Identify the proposal by its reference, which begins with the '
@@ -202,7 +202,7 @@ UNIT = dict(
            'somebody.', None, 'accuses',
            'Which is the one ground the officer gives for refusing.')]),
     dict(heading='A short talk: who people listen to', part='Part 2',
-         task='A talk at a science communication course · multiple choice', band='l2',
+         task='A talk at a science communication course · sentence completion', band='l2',
          qtype='Questions 17-20',
          script=[
           ('Speaker', 'I have spent eleven years measuring whose advice '
@@ -455,7 +455,7 @@ UNIT = dict(
            {0: 'Yes would need regret; he says he would do it again.', 2: 'Not Given is wrong because he judges his own decision.'})])],
    listen=[
     dict(heading='Two advisers disagree about communicating risk',
-         part='Part 3', task='A conversation between two advisers · multiple choice',
+         part='Part 3', task='A conversation between two advisers · multiple choice and sentence completion',
          band='l3', qtype='Questions 27-32',
          script=[
           ('Soraya', 'The press office wants one number and I am going to '
@@ -697,7 +697,7 @@ UNIT = dict(
    read=[
     dict(heading='What a confidence range means and does not',
          kind='Data article',
-         task='Matching information, sentence completion and True/False/Not Given',
+         task='Matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 33-38',
          figure=_FORE,
          paras=[
@@ -789,7 +789,7 @@ UNIT = dict(
                'exact range.'})])],
    listen=[
     dict(heading='A statistician on uncertainty', part='Part 4',
-         task='A lecture on forecasts and ranges · multiple choice', band='l4',
+         task='A lecture on forecasts and ranges · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_FORE,
          script=[
@@ -1016,7 +1016,7 @@ UNIT = dict(
    read=[
     dict(heading='Same evidence, different priors',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'Public disagreement between specialists is routinely attributed '
@@ -1156,7 +1156,7 @@ UNIT = dict(
            'Paragraph 8, and will converge as it arrives.')])],
    listen=[
     dict(heading='A lecture on expert disagreement', part='Part 4',
-         task='A lecture on why specialists differ · multiple choice', band='l4',
+         task='A lecture on why specialists differ · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'When two specialists disagree in public, the '

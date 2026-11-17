@@ -91,7 +91,7 @@ UNIT = dict(
            'Paragraph 4: unconnected with the study, with details on the '
            'final page.')]),
     dict(heading='Consent and withdrawal',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'You will first be given this information sheet to take away. A '
@@ -177,7 +177,7 @@ UNIT = dict(
            'Along with stopping further collection, though the existing data '
            'remains.')]),
     dict(heading='A short talk: what ethics review is for', part='Part 2',
-         task='A talk to new research staff · multiple choice and matching', band='l2',
+         task='A talk to new research staff · multiple choice, matching and sentence completion', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'Everybody in this room thinks ethics review is slow. '
@@ -414,7 +414,7 @@ UNIT = dict(
                'quoted.'})])],
    listen=[
     dict(heading='A short talk: reading a claim', part='Part 2',
-         task='A talk on reading science reporting · multiple choice and matching', band='l2',
+         task='A talk on reading science reporting · sentence completion and matching', band='l2',
          qtype='Questions 25-28',
          script=[
           ('Speaker', 'I am going to give you four questions to ask of any '
@@ -468,7 +468,7 @@ UNIT = dict(
            '____________ number.', None, 'informative',
            'And the one that most often goes missing from reports.')]),
     dict(heading='A scientist and a journalist disagree', part='Part 3',
-         task='A conversation after a press briefing · multiple choice', band='l3',
+         task='A conversation after a press briefing · multiple choice and sentence completion', band='l3',
          qtype='Questions 29-33',
          script=[
           ('Dr Ferreira-Nakamura', 'Your headline says coffee cuts heart '
@@ -765,7 +765,7 @@ UNIT = dict(
            {0: 'Time is not the reason given in paragraph 6.', 2: 'The funder is not mentioned in the passage.', 3: 'Replication is not the reason the plan is published.'})])],
    listen=[
     dict(heading='A methodologist on trial design', part='Part 4',
-         task='A lecture on why each step exists · matching and multiple choice', band='l4',
+         task='A lecture on why each step exists · matching, flow-chart completion and multiple choice', band='l4',
          qtype='Questions 40-45',
          figure=_TRIAL,
          script=[
@@ -1103,7 +1103,7 @@ UNIT = dict(
            'point.')])],
    listen=[
     dict(heading='A lecture on publication bias', part='Part 4',
-         task='A lecture on why literatures mislead · multiple choice', band='l4',
+         task='A lecture on why literatures mislead · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'I want to do something slightly unusual today, which '
@@ -1444,7 +1444,7 @@ UNIT = dict(
            'says matters, a different claim has been tested.')])],
    listen=[
     dict(heading='Two researchers disagree about replication', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 66-71',
+         task='A recorded exchange · multiple choice and sentence completion', band='l4', qtype='Questions 66-71',
          script=[
           ('Chair', 'Professor Adeyemi-Strand ran the 2017 replication. Dr '
            'Vasquez-Oyelaran was an author of the 2009 original.'),

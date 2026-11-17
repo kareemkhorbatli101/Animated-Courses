@@ -47,7 +47,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Hollow Brook Wildlife Park: visitor information',
-         kind='Visitor information', task='Note completion and short answer',
+         kind='Visitor information', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('Visitor information is read for the time and the '
                 'exception',
@@ -217,7 +217,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Two people and their dogs',
-         kind='Two short profiles', task='Matching features and note completion',
+         kind='Two short profiles', task='Matching features and sentence completion',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'Hana got her dog at fifty-eight, two years after she '
@@ -458,7 +458,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Which bird is that?',
-         kind='Identification guide', task='Matching features, note completion and short answer',
+         kind='Identification guide', task='Matching features, sentence completion and short answer',
          band='gt_work', qtype='Questions 24-29',
          skill=('An identification guide is read for the one feature '
                 'that separates',

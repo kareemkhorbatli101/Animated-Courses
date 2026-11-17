@@ -31,7 +31,7 @@ UNIT = dict(
    read=[
     dict(heading='Reporting a workplace danger',
          kind='Procedure notice',
-         task='Multiple choice and note completion',
+         task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A reporting procedure is read for the branch points',
                 ['Procedures of this kind are not a straight line. They '
@@ -207,7 +207,7 @@ UNIT = dict(
            '____________ raises its priority.', None, 'year',
            'Which the caller is asked to state on the form.')]),
     dict(heading='A short talk: risks people accept', part='Part 2',
-         task='A talk at a risk communication seminar · multiple choice and matching', band='l2',
+         task='A talk at a risk communication seminar · sentence completion, multiple choice and matching', band='l2',
          qtype='Questions 17-20',
          script=[
           ('Speaker', 'I have spent fourteen years asking people which risks '
@@ -467,7 +467,7 @@ UNIT = dict(
                'strictest he has met.', 2: 'Not Given is wrong because he rates the regime.'})])],
    listen=[
     dict(heading='Two regulators disagree about proportionality',
-         part='Part 3', task='A conversation between two regulators · multiple choice',
+         part='Part 3', task='A conversation between two regulators · sentence completion and multiple choice',
          band='l3', qtype='Questions 27-32',
          script=[
           ('Marisol', 'I am going to recommend we close the whole category '
@@ -798,7 +798,7 @@ UNIT = dict(
                'fixed baseline directly.'})])],
    listen=[
     dict(heading='An engineer on return periods', part='Part 4',
-         task='A lecture on designing for rare events · multiple choice and matching', band='l4',
+         task='A lecture on designing for rare events · note completion and matching', band='l4',
          qtype='Questions 39-44',
          figure=_EXTR,
          script=[
@@ -1031,7 +1031,7 @@ UNIT = dict(
    read=[
     dict(heading='Writing a rule for a technology that moves',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given, short answer and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'The complaint that regulation always lags behind technology is '
@@ -1179,7 +1179,7 @@ UNIT = dict(
            'staff.')])],
    listen=[
     dict(heading='A lecture on regulatory design', part='Part 4',
-         task='A lecture on how rules are written · multiple choice', band='l4',
+         task='A lecture on how rules are written · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'You will all have heard that regulation lags behind '
@@ -1657,7 +1657,7 @@ UNIT = dict(
            'as the cause.')])],
    listen=[
     dict(heading='A regulator and an economist disagree', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 72-77',
+         task='A recorded exchange · multiple choice and sentence completion', band='l4', qtype='Questions 72-77',
          script=[
           ('Chair', 'Dr Fanshawe-Oyelude is a medicines regulator. Professor '
            'Barrientos works on the economics of regulation.'),

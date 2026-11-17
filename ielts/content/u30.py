@@ -184,7 +184,7 @@ UNIT = dict(
            '____________.', None, 'selected',
            'Which parents discover on a Saturday morning.')]),
     dict(heading='A short talk: paying to play', part='Part 2',
-         task='A talk at a sports participation conference · multiple choice', band='l2',
+         task='A talk at a sports participation conference · sentence completion and multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I ran a county participation programme for nine years '
@@ -416,7 +416,7 @@ UNIT = dict(
                'lift-organising parent moved.', 2: 'Not Given is wrong because the reason is given.'})])],
    listen=[
     dict(heading='Two coaches disagree about fees', part='Part 3',
-         task='A conversation at a club committee · multiple choice', band='l3',
+         task='A conversation at a club committee · sentence completion and multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Ferdinand', 'I want to abolish junior fees entirely. Forty-eight '
@@ -705,7 +705,7 @@ UNIT = dict(
            'Paragraph 4, against Dunmore City’s 94 million.')])],
    listen=[
     dict(heading='An analyst on club finances', part='Part 4',
-         task='A talk on where club money comes from · multiple choice and matching', band='l4',
+         task='A talk on where club money comes from · table completion and matching', band='l4',
          qtype='Questions 36-41',
          figure=_PIE_A, figure2=_PIE_B, figure3=_TAB,
          script=[
@@ -1045,7 +1045,7 @@ UNIT = dict(
            'it.')])],
    listen=[
     dict(heading='A lecture on incentives in sport', part='Part 4',
-         task='A lecture on prize structures · multiple choice', band='l4',
+         task='A lecture on prize structures · multiple choice and sentence completion', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I am going to argue that most of what sport describes '

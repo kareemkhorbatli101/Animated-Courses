@@ -340,7 +340,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Who does what: a family timetable',
-         kind='Timetable', task='Note completion and short answer',
+         kind='Timetable', task='Sentence completion and short answer',
          band='gt_work', qtype='Questions 21-25',
          skill=('A timetable is read down a column, not across a line',
                 ['Find the column the question is about first. Most '
@@ -374,7 +374,7 @@ UNIT = dict(
            'And anything else that cannot wait.')])],
    listen=[
     dict(heading='Sharing the jobs at home', part='Part 2',
-         task='One speaker describing a system · short answer and note completion', band='l2',
+         task='One speaker describing a system · short answer and sentence completion', band='l2',
          qtype='Questions 26-30',
          script=[
           ('Speaker', 'We tried three systems before this one worked, '
@@ -720,7 +720,7 @@ UNIT = dict(
    read=[
     dict(heading='Keeping in touch across a distance',
          kind='Short factual article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='acad', qtype='Questions 42-47',
          paras=[
           'A hundred years ago, a family that moved to another country '

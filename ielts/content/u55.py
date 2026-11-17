@@ -32,7 +32,7 @@ UNIT = dict(
    read=[
     dict(heading='Allotment water use — the new rules',
          kind='Association notice',
-         task='Note completion and multiple choice',
+         task='Sentence completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('A shared-resource rule is read for what happens when '
                 'somebody ignores it',
@@ -101,7 +101,7 @@ UNIT = dict(
                'on.', 3: 'Reports are recorded whether or not they lead '
                'anywhere.'})]),
     dict(heading='How disputes are settled',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Speak to the other plot-holder first, and the committee will ask '
@@ -388,7 +388,7 @@ UNIT = dict(
            {0: 'Yes would need character; she credits the observers.', 2: 'Not Given is wrong because she gives the cause.'})])],
    listen=[
     dict(heading='A short talk: when everyone acts alone', part='Part 2',
-         task='A talk to an environmental policy group · multiple choice', band='l2',
+         task='A talk to an environmental policy group · multiple choice and sentence completion', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I want to describe the structure that produces these '
@@ -446,7 +446,7 @@ UNIT = dict(
            'not a ____________.', None, 'success',
            'Because nobody has ever been able to fish it hard.')]),
     dict(heading='Two residents disagree about shared costs',
-         part='Part 3', task='A discussion between two residents · multiple choice',
+         part='Part 3', task='A discussion between two residents · sentence completion and multiple choice',
          band='l3', qtype='Questions 27-32',
          script=[
           ('Casimir', 'I am going to propose we charge every flat for the '
@@ -698,7 +698,7 @@ UNIT = dict(
    read=[
     dict(heading='Four fisheries and four outcomes',
          kind='Data article',
-         task='Matching information and note completion',
+         task='Matching information and short answer',
          band='gt_work', qtype='Questions 33-38',
          figure=_FISH,
          paras=[
@@ -780,7 +780,7 @@ UNIT = dict(
            'nine thousand tonnes', 'Paragraph 4, in either direction.')])],
    listen=[
     dict(heading='An economist on common resources', part='Part 4',
-         task='A lecture on shared resources · multiple choice', band='l4',
+         task='A lecture on shared resources · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_FISH,
          script=[
@@ -1005,7 +1005,7 @@ UNIT = dict(
    read=[
     dict(heading='Eight conditions and the villages that met them',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'For most of the twentieth century the standard analysis of shared '
@@ -1154,7 +1154,7 @@ UNIT = dict(
            'achievement.')])],
    listen=[
     dict(heading='A lecture on governing the commons', part='Part 4',
-         task='A lecture on durable shared institutions · multiple choice and matching', band='l4',
+         task='A lecture on durable shared institutions · sentence completion, matching and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'The standard prediction was that a shared resource '
@@ -1394,7 +1394,7 @@ UNIT = dict(
    read=[
     dict(heading='Three attempts to build what had grown',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Once a set of features has been identified in institutions that '

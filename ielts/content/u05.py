@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Broadband packages compared',
          kind='Comparison table',
-         task='Matching features and note completion',
+         task='Matching features and sentence completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A package comparison is read for what the price '
                 'excludes',
@@ -81,7 +81,7 @@ UNIT = dict(
            'connection.', None, 'third',
            'Paragraph 6, paid automatically at £8.40 a day.')]),
     dict(heading='What to do if your connection drops',
-         kind='Troubleshooting notice', task='Note completion',
+         kind='Troubleshooting notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'First check the lights on the router. A steady blue light '
@@ -340,7 +340,7 @@ UNIT = dict(
                'it is silent.'})])],
    listen=[
     dict(heading='An IT officer on account security', part='Part 2',
-         task='A talk to new staff · note completion', band='l2',
+         task='A talk to new staff · sentence completion and short answer', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Officer', 'Fifteen minutes on account security, and I am '
@@ -540,7 +540,7 @@ UNIT = dict(
    read=[
     dict(heading='How long people look at a screen',
          kind='Article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_SCREEN,
          paras=[
@@ -598,7 +598,7 @@ UNIT = dict(
            'Paragraph 5, measured in minutes.')])],
    listen=[
     dict(heading='Two students on phone habits', part='Part 3',
-         task='A discussion between two students · note completion and multiple choice', band='l3',
+         task='A discussion between two students · sentence completion, short answer and multiple choice', band='l3',
          qtype='Questions 35-40',
          script=[
           ('Casimir', 'My phone says four hours forty yesterday. I do '
@@ -883,7 +883,7 @@ UNIT = dict(
            'The final paragraph, which is the central assumption.')])],
    listen=[
     dict(heading='A lecture on ranking and relevance', part='Part 4',
-         task='A lecture on how search results are ordered · note completion and multiple choice', band='l4',
+         task='A lecture on how search results are ordered · short answer, sentence completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Every ranking system in the world has the same '

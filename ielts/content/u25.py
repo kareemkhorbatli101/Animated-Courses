@@ -98,7 +98,7 @@ UNIT = dict(
            'quarter',
            'Paragraph 4, which names three categories of supplier.')]),
     dict(heading='Making a subject access request',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Decide what you are asking for. A request for everything is '
@@ -183,7 +183,7 @@ UNIT = dict(
           ('The month runs from the day the ____________ documents arrive.',
            None, 'identity', 'Rather than from the day of the call.')]),
     dict(heading='A short talk: what people will trade', part='Part 2',
-         task='A talk at a consumer research briefing · multiple choice', band='l2',
+         task='A talk at a consumer research briefing · sentence completion and multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'We have run this study for six years, asking people '
@@ -410,7 +410,7 @@ UNIT = dict(
                'she reads.'})])],
    listen=[
     dict(heading='Two users disagree about tracking', part='Part 3',
-         task='A conversation about a tracking setting · multiple choice', band='l3',
+         task='A conversation about a tracking setting · sentence completion and multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Marisol', 'You turned it all off, then.'),
@@ -700,7 +700,7 @@ UNIT = dict(
                'given.'})])],
    listen=[
     dict(heading='An engineer on inference', part='Part 4',
-         task='A talk on how profiles are built · multiple choice', band='l4',
+         task='A talk on how profiles are built · diagram labelling and multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_REC,
          script=[
@@ -1036,7 +1036,7 @@ UNIT = dict(
            'between.')])],
    listen=[
     dict(heading='A lecture on re-identification', part='Part 4',
-         task='A lecture on anonymised data · matching and multiple choice', band='l4',
+         task='A lecture on anonymised data · matching, sentence completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I am going to give you one number and then spend the '
@@ -1369,7 +1369,7 @@ UNIT = dict(
            'opponent with a reason to prefer the slogan.')])],
    listen=[
     dict(heading='A regulator and an engineer disagree', part='Part 4',
-         task='A recorded exchange · multiple choice and matching', band='l4', qtype='Questions 62-67',
+         task='A recorded exchange · multiple choice, sentence completion and matching', band='l4', qtype='Questions 62-67',
          script=[
           ('Chair', 'Ms Oyelaran-Petit is a deputy commissioner. Dr Halvorsen '
            'builds ranking systems.'),

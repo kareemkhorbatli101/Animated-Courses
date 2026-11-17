@@ -41,7 +41,7 @@ UNIT = dict(
    read=[
     dict(heading='The Marchfield Open: rules of entry',
          kind='Competition notice',
-         task='Note completion, matching features and multiple choice',
+         task='Sentence completion, matching features and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('A competition notice is read for the limits, because '
                 'that is what disqualifies people',
@@ -98,7 +98,7 @@ UNIT = dict(
           ('Entries close at ____________ on 14 March.', None, '17.00',
            'Paragraph 6, when the system closes automatically.')]),
     dict(heading='Delivery and collection of work',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Deliver selected work on 2 or 3 April between 09.00 and 16.00. '
@@ -367,7 +367,7 @@ UNIT = dict(
                'real.', 2: 'Not Given is wrong because she judges it directly.'})])],
    listen=[
     dict(heading='A short talk: public art', part='Part 2',
-         task='A talk to a town forum · multiple choice and note completion', band='l2',
+         task='A talk to a town forum · multiple choice and sentence completion', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I have commissioned public art for eighteen years '
@@ -413,7 +413,7 @@ UNIT = dict(
            'whether they ____________ it.', None, 'use',
            'Rather than whether they like it.')]),
     dict(heading='A council meeting on public art', part='Part 3',
-         task='A discussion at a council committee · multiple choice and note completion', band='l3',
+         task='A discussion at a council committee · multiple choice and sentence completion', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Lysander', 'I am going to vote against, and I want to say why '
@@ -903,7 +903,7 @@ UNIT = dict(
    read=[
     dict(heading='Function, cost and the people who use it',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'Asking whether a building is good turns out to be three '
@@ -998,7 +998,7 @@ UNIT = dict(
            'Paragraph 5, and these are often different people.')])],
    listen=[
     dict(heading='A lecture on design and use', part='Part 4',
-         task='A lecture on judging buildings · note completion and multiple choice', band='l4',
+         task='A lecture on judging buildings · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'When somebody asks whether a building is good, '
@@ -1186,7 +1186,7 @@ UNIT = dict(
    read=[
     dict(heading='Taste, training and the limits of agreement',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'If judgements about how a building looks are merely personal, '
@@ -1285,7 +1285,7 @@ UNIT = dict(
            'The final paragraph, and it is asked least often.')])],
    listen=[
     dict(heading='A critic and an architect disagree', part='Part 4',
-         task='A recorded discussion · multiple choice and note completion', band='l4', qtype='Questions 67-72',
+         task='A recorded discussion · multiple choice and sentence completion', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Ms Abendroth is an architecture critic. Mr '
            'Oyelaran-Petit designs public buildings. Each begins with '

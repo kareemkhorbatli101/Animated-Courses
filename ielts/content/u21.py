@@ -80,7 +80,7 @@ UNIT = dict(
            'substantial.', None, 'shortfall',
            'Paragraph 4, or where a required subject has not been passed.')]),
     dict(heading='How applications are assessed',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Applications arrive through the central admissions service and are '
@@ -166,7 +166,7 @@ UNIT = dict(
           ('A contextual offer would be ____________.', None, 'BCC',
            'One grade below the standard offer of BBC.')]),
     dict(heading='A short talk: what admissions staff actually read',
-         part='Part 2', task='A talk to sixth-form students · multiple choice', band='l2',
+         part='Part 2', task='A talk to sixth-form students · short answer, sentence completion and multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have read about nine thousand personal statements and '
@@ -381,7 +381,7 @@ UNIT = dict(
                'does.'})])],
    listen=[
     dict(heading='A short talk: who gets in', part='Part 2',
-         task='A talk at a parents’ evening · multiple choice', band='l2',
+         task='A talk at a parents’ evening · sentence completion', band='l2',
          qtype='Questions 25-28',
          script=[
           ('Speaker', 'I am going to answer the question every parent in this '
@@ -429,7 +429,7 @@ UNIT = dict(
           ('She says information is ____________ spread.', None,
            'unevenly', 'And she stresses that none of it is secret.')]),
     dict(heading='Two admissions tutors disagree', part='Part 3',
-         task='A conversation after a selection meeting · multiple choice', band='l3',
+         task='A conversation after a selection meeting · multiple choice and sentence completion', band='l3',
          qtype='Questions 29-33',
          script=[
           ('Grigor', 'We have made eleven contextual offers out of ninety and '
@@ -637,7 +637,7 @@ UNIT = dict(
    read=[
     dict(heading='Earnings by subject, five years on',
          kind='Data article',
-         task='Matching features, matching information, sentence completion and True/False/Not Given',
+         task='Matching features, matching information and True/False/Not Given',
          band='gt_work', qtype='Questions 34-39',
          figure=_EARN,
          paras=[
@@ -722,7 +722,7 @@ UNIT = dict(
                'question directly.'})])],
    listen=[
     dict(heading='An economist on graduate earnings', part='Part 4',
-         task='A lecture on reading earnings figures · multiple choice and matching', band='l4',
+         task='A lecture on reading earnings figures · multiple choice, sentence completion and matching', band='l4',
          qtype='Questions 40-45',
          figure=_EARN,
          script=[
@@ -1042,7 +1042,7 @@ UNIT = dict(
            'name.')])],
    listen=[
     dict(heading='A lecture on early years and attainment', part='Part 4',
-         task='A lecture on reading early-years evidence · multiple choice', band='l4',
+         task='A lecture on reading early-years evidence · multiple choice and sentence completion', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'I want to take the single most quoted finding in '
@@ -1349,7 +1349,7 @@ UNIT = dict(
            'Paragraph 6, which the writer calls politically much harder.')])],
    listen=[
     dict(heading='Two researchers disagree about early intervention',
-         part='Part 4', task='A recorded exchange · multiple choice and matching', band='l4',
+         part='Part 4', task='A recorded exchange · short answer, multiple choice and matching', band='l4',
          qtype='Questions 66-71',
          script=[
           ('Chair', 'Dr Halvorsen evaluates early years programmes. Professor '

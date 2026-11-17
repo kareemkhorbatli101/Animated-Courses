@@ -33,7 +33,7 @@ UNIT = dict(
    read=[
     dict(heading='Four accounts compared',
          kind='Comparison table',
-         task='Matching features and note completion',
+         task='Matching features and sentence completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A comparison table is read down the column you care '
                 'about, not across the rows',
@@ -90,7 +90,7 @@ UNIT = dict(
            None, 'three',
            'Against the same day for applications made in a branch.')]),
     dict(heading='What you need to open an account',
-         kind='Procedure notice', task='Note completion and matching features',
+         kind='Procedure notice', task='Sentence completion and matching features',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Choose the account before you book. Staff cannot change the '
@@ -707,7 +707,7 @@ UNIT = dict(
                'addresses it directly.'})])],
    listen=[
     dict(heading='An economist on household spending', part='Part 4',
-         task='A lecture on measuring spending · multiple choice and note completion', band='l4',
+         task='A lecture on measuring spending · multiple choice and sentence completion', band='l4',
          qtype='Questions 39-44',
          figure=_LOW,
          script=[
@@ -925,7 +925,7 @@ UNIT = dict(
    read=[
     dict(heading='Scarcity, comparison and the sense of a bargain',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'A price on its own conveys very little. Asked whether forty '
@@ -1022,7 +1022,7 @@ UNIT = dict(
            'The final paragraph, since resisting the feeling fails.')])],
    listen=[
     dict(heading='A lecture on consumer behaviour', part='Part 4',
-         task='A lecture on how prices are judged · note completion and multiple choice', band='l4',
+         task='A lecture on how prices are judged · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'I want to start with a question that sounds '
@@ -1213,7 +1213,7 @@ UNIT = dict(
    read=[
     dict(heading='What happened when the standard choice was changed',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Between about 2008 and 2015, governments in several countries '
@@ -1401,7 +1401,7 @@ UNIT = dict(
            'reason.')])],
    listen=[
     dict(heading='Two researchers disagree about nudges', part='Part 4',
-         task='A recorded discussion · multiple choice and sentence completion''A recorded discussion · multiple choice and sentence completion',
+         task='A recorded discussion · matching',
          bank=['A', 'B', 'C'],
          reuse=True,
          banklabel='A  Dr Ferreira    B  Professor Okonjo    C  both of them', band='l4', qtype='Questions 72-77',

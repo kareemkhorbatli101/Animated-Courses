@@ -83,7 +83,7 @@ UNIT = dict(
            {0: 'No charge for emptying a contaminated bin is '
                'mentioned.', 1: 'It waits until the next scheduled collection.', 3: 'The bin is left, not taken away.'})]),
     dict(heading='Booking a bulky collection',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Bulky items are anything that will not fit in a household bin with '
@@ -174,7 +174,7 @@ UNIT = dict(
            'And the officer adds who is fined if they are missing, which is '
            'the detail the question is really testing.')]),
     dict(heading='A short talk: what contamination costs', part='Part 2',
-         task='A briefing for new crew members · multiple choice', band='l2',
+         task='A briefing for new crew members · sentence completion and multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Supervisor', 'You will hear the word contamination forty times '
@@ -393,7 +393,7 @@ UNIT = dict(
                'not.'})])],
    listen=[
     dict(heading='Two engineers disagree about repairability', part='Part 3',
-         task='A discussion after a design review · multiple choice and matching', band='l3',
+         task='A discussion after a design review · sentence completion, multiple choice, short answer and matching', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Astrid', 'My position is that we should be able to open it with '
@@ -731,7 +731,7 @@ UNIT = dict(
                'the mechanism.'})])],
    listen=[
     dict(heading='A plant manager on sorting', part='Part 4',
-         task='A site visit talk · multiple choice and matching', band='l4', qtype='Questions 37-42',
+         task='A site visit talk · sentence completion, matching and multiple choice', band='l4', qtype='Questions 37-42',
          script=[
           ('Manager', 'Welcome to the plant. I am going to walk you through '
            'the line, and I want to start by correcting the thing everybody '
@@ -1082,7 +1082,7 @@ UNIT = dict(
            'Paragraph 2, repeated in paragraph 3 as a laminated object.')])],
    listen=[
     dict(heading='A lecture on diminishing returns', part='Part 4',
-         task='Why the last points cost most · multiple choice and matching', band='l4',
+         task='Why the last points cost most · sentence completion, matching and multiple choice', band='l4',
          qtype='Questions 50-55',
          script=[
           ('Lecturer', 'I want to take a curve you have all seen and ask why '
@@ -1507,7 +1507,7 @@ UNIT = dict(
            'point.')])],
    listen=[
     dict(heading='A campaigner and an industry representative disagree',
-         part='Part 4', task='A recorded panel discussion · multiple choice and matching', band='l4',
+         part='Part 4', task='A recorded panel discussion · sentence completion, multiple choice and matching', band='l4',
          qtype='Questions 68-73',
          script=[
           ('Chair', 'Ms Lindqvist, you argue that recycling campaigns are a '

@@ -82,7 +82,7 @@ UNIT = dict(
           ('The grant is paid to the ____________.', None, 'contractor',
            'Paragraph 4, rather than to the householder.')]),
     dict(heading='Applying for a property grant',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Check first that your property is in a grant area, which is not '
@@ -174,7 +174,7 @@ UNIT = dict(
            'After the survey and the quotation, making two to three months '
            'in all.')]),
     dict(heading='A short talk: what people do about it', part='Part 2',
-         task='A talk at a community flood meeting · multiple choice', band='l2',
+         task='A talk at a community flood meeting · sentence completion', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have worked on flood recovery for fourteen years and '
@@ -396,7 +396,7 @@ UNIT = dict(
                'she does not.'})])],
    listen=[
     dict(heading='Two residents disagree about moving', part='Part 3',
-         task='A conversation between neighbours · multiple choice', band='l3',
+         task='A conversation between neighbours · sentence completion and multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Rafaela', 'The consultation closes on Friday and I still do not '
@@ -689,7 +689,7 @@ UNIT = dict(
                'figure.'})])],
    listen=[
     dict(heading='A climatologist on the instrumental record', part='Part 4',
-         task='A lecture on temperature records · multiple choice', band='l4',
+         task='A lecture on temperature records · note completion and multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_WARM,
          script=[
@@ -1028,7 +1028,7 @@ UNIT = dict(
            'them.')])],
    listen=[
     dict(heading='A lecture on attribution studies', part='Part 4',
-         task='A lecture on linking events to warming · multiple choice and matching', band='l4',
+         task='A lecture on linking events to warming · multiple choice, sentence completion and matching', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Somebody asks you after a flood whether climate '
@@ -1343,7 +1343,7 @@ UNIT = dict(
            'produce.')])],
    listen=[
     dict(heading='Two climate scientists disagree', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 62-67',
+         task='A recorded exchange · multiple choice and sentence completion', band='l4', qtype='Questions 62-67',
          script=[
           ('Chair', 'Dr Iwuchukwu runs attribution studies. Professor '
            'Halloran-Baptiste works on disaster risk.'),

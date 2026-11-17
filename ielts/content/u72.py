@@ -509,7 +509,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Two listeners, two habits',
-         kind='Two short profiles', task='Matching features, note completion and multiple choice',
+         kind='Two short profiles', task='Matching features, sentence completion and multiple choice',
          band='gt_work', qtype='Questions 29-34',
          paras=[
           'Dele listens to about three hours of music a day, almost all '

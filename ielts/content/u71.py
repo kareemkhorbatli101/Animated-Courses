@@ -54,7 +54,7 @@ UNIT = dict(
    read=[
     dict(heading='Marchfield Gallery: the Hokusai exhibition',
          kind='Notice and booking page',
-         task='Note completion and True/False/Not Given',
+         task='Sentence completion and True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('A booking page is read for the condition on the '
                 'cheaper option',
@@ -509,7 +509,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Why a kettle has a wide handle',
-         kind='Short article', task='Note completion and matching features',
+         kind='Short article', task='Sentence completion and matching features',
          band='gt_work', qtype='Questions 28-33',
          skill=('A design article is read for the reason behind each '
                 'feature',

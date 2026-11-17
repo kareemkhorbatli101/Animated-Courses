@@ -27,7 +27,7 @@ UNIT = dict(
    read=[
     dict(heading='What to do in your first month',
          kind='Official guidance',
-         task='Note completion and matching features',
+         task='Sentence completion and matching features',
          band='gt_short', qtype='Questions 1-5',
          skill=('Deadlines are the question in any arrival guidance',
                 ['Official guidance for newcomers is organised around dates: '
@@ -186,7 +186,7 @@ UNIT = dict(
            'ten', 'By post, and the original must be kept because no copy is '
            'accepted.')]),
     dict(heading='A short talk: arriving and settling', part='Part 2',
-         task='An induction talk for new arrivals · multiple choice and matching', band='l2',
+         task='An induction talk for new arrivals · sentence completion and matching', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I run this session every month and I have stopped '
@@ -240,7 +240,7 @@ UNIT = dict(
            '____________ months.', None, 'fourteen',
            'Which is why she advises starting it in month one.')]),
     dict(heading='Two advisers disagree about integration', part='Part 3',
-         task='A conversation between caseworkers · multiple choice', band='l3',
+         task='A conversation between caseworkers · sentence completion and multiple choice', band='l3',
          qtype='Questions 19-23',
          script=[
           ('Hyacinth', 'I want to change the advice we give about language '
@@ -488,7 +488,7 @@ UNIT = dict(
                'the cost.'})])],
    listen=[
     dict(heading='Two councillors on where newcomers settle', part='Part 3',
-         task='A discussion about housing · multiple choice and matching', band='l3',
+         task='A discussion about housing · short answer, sentence completion, matching and multiple choice', band='l3',
          qtype='Questions 30-34',
          script=[
           ('Perpetua', 'The figures came through this morning and they do not '
@@ -767,7 +767,7 @@ UNIT = dict(
            {0: 'Paragraph 2 reads the year by the net column.', 1: 'Paragraph 3 reads the same year by turnover.', 3: 'Paragraph 5 compares regions that look alike.'})])],
    listen=[
     dict(heading='A demographer on migration data', part='Part 4',
-         task='A lecture on reading flow figures · multiple choice', band='l4',
+         task='A lecture on reading flow figures · table completion and multiple choice', band='l4',
          qtype='Questions 41-46',
          figure=_FLOWS,
          script=[
@@ -1107,7 +1107,7 @@ UNIT = dict(
            're-analysed.')])],
    listen=[
     dict(heading='A lecture on labour market effects', part='Part 4',
-         task='A lecture on reading an economics literature · multiple choice and matching', band='l4',
+         task='A lecture on reading an economics literature · sentence completion, matching, short answer and multiple choice', band='l4',
          qtype='Questions 54-59',
          script=[
           ('Lecturer', 'I am going to do something that will annoy both '

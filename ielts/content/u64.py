@@ -192,7 +192,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Half price this week: a sale poster',
-         kind='Poster', task='Note completion and short answer',
+         kind='Poster', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'Half price on all winter coats until Saturday. The price on '
@@ -341,7 +341,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Returns: what you need to know',
-         kind='Notice', task='Note completion, short answer and matching features',
+         kind='Notice', task='Sentence completion, short answer and matching features',
          band='gt_work', qtype='Questions 21-25',
          skill=('A policy is read for the exception, not the rule',
                 ['The first line gives the normal rule. The questions '
@@ -559,7 +559,7 @@ UNIT = dict(
    read=[
     dict(heading='What households spend, and why it differs',
          kind='Short factual article',
-         task='Short answer, note completion and matching features',
+         task='Short answer, sentence completion and matching features',
          band='acad', qtype='Questions 31-36',
          paras=[
           'Ask a family where its money goes and the answer is usually '
@@ -746,7 +746,7 @@ UNIT = dict(
    read=[
     dict(heading='How to tell a real offer from a false one',
          kind='Short factual article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='acad', qtype='Questions 42-47',
          paras=[
           'A false offer is rarely a lie. If it were a simple lie it '
@@ -801,7 +801,7 @@ UNIT = dict(
            'offer.', None, 'two', 'Paragraph 3, as the dull defence.')])],
    listen=[
     dict(heading='Two shoppers disagree', part='Part 3',
-         task='A discussion between two students · note completion and short answer', band='l3',
+         task='A discussion between two students · sentence completion and short answer', band='l3',
          qtype='Questions 48-52',
          script=[
           ('Tutor', 'You tested whether offers save money. What did you '

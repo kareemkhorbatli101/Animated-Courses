@@ -76,7 +76,7 @@ UNIT = dict(
            'employment',
            'Paragraph 3, where no employer scheme is available to them.')]),
     dict(heading='How to book and what to bring',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Book online, by telephone or at a participating pharmacy. The '
@@ -163,7 +163,7 @@ UNIT = dict(
           ('The caller qualifies as a ____________.', None, 'carer',
            'Which the clerk calls the route people miss constantly.')]),
     dict(heading='A short talk: advice people follow and ignore',
-         part='Part 2', task='A talk to public health trainees · multiple choice and matching', band='l2',
+         part='Part 2', task='A talk to public health trainees · sentence completion and matching', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have spent nineteen years writing health advice that '
@@ -383,7 +383,7 @@ UNIT = dict(
                'objection is.'})])],
    listen=[
     dict(heading='Two public health officers disagree', part='Part 3',
-         task='A planning discussion · multiple choice', band='l3', qtype='Questions 25-29',
+         task='A planning discussion · sentence completion and multiple choice', band='l3', qtype='Questions 25-29',
          script=[
           ('Annelise', 'The uptake figures are in. Sixty-one per cent '
            'overall, which is up two points, and thirty-four in the two wards '
@@ -665,7 +665,7 @@ UNIT = dict(
                'those terms.'})])],
    listen=[
     dict(heading='An epidemiologist on case counts', part='Part 4',
-         task='A lecture on reading outbreak data · multiple choice', band='l4',
+         task='A lecture on reading outbreak data · note completion and multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_CASES,
          script=[
@@ -991,7 +991,7 @@ UNIT = dict(
            'Paragraph 8: several mechanisms each sufficient on their own.')])],
    listen=[
     dict(heading='A lecture on transmission and immunity', part='Part 4',
-         task='A lecture on why outbreaks decline · multiple choice', band='l4',
+         task='A lecture on why outbreaks decline · multiple choice and sentence completion', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Here is a question that sounds simple and is not. Why '
@@ -1320,7 +1320,7 @@ UNIT = dict(
            'reasonably.')])],
    listen=[
     dict(heading='Two modellers disagree', part='Part 4',
-         task='A recorded discussion · multiple choice', band='l4', qtype='Questions 62-67',
+         task='A recorded discussion · multiple choice and sentence completion', band='l4', qtype='Questions 62-67',
          script=[
           ('Chair', 'Dr Wrzesniewski builds transmission models. Professor '
            'Agbaje advises on how their results are communicated.'),

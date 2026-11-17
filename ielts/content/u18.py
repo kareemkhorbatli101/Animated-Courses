@@ -357,7 +357,7 @@ UNIT = dict(
                'stated.'})])],
    listen=[
     dict(heading='A short talk: how people hear about science',
-         part='Part 2', task='A talk at a public library · note completion and multiple choice', band='l2',
+         part='Part 2', task='A talk at a public library · sentence completion and multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I am going to describe the route a scientific '
@@ -411,7 +411,7 @@ UNIT = dict(
            'the study.', None, 'people',
            'And to treat silence on that point as an answer.')]),
     dict(heading='Two journalists on reporting a study', part='Part 3',
-         task='A discussion between two reporters · note completion and multiple choice', band='l3',
+         task='A discussion between two reporters · sentence completion, short answer and multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Casimir', 'You ran the chocolate story. I want to know how it '
@@ -702,7 +702,7 @@ UNIT = dict(
            'Paragraph 5, wherever that is possible.')])],
    listen=[
     dict(heading='A researcher on designing a trial', part='Part 4',
-         task='A lecture on trial design · flow-chart completion and multiple choice', band='l4',
+         task='A lecture on trial design · flow-chart completion, short answer and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_TRI,
          script=[
@@ -915,7 +915,7 @@ UNIT = dict(
    read=[
     dict(heading='The published result that would not come back',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'In 2011 a group of psychologists did something that sounds '
@@ -1205,7 +1205,7 @@ UNIT = dict(
    read=[
     dict(heading='Two studies, two results, one question',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'A study finds an effect. A second study, run carefully, does '
@@ -1302,7 +1302,7 @@ UNIT = dict(
            'Paragraph 6, where decisions cannot wait.')])],
    listen=[
     dict(heading='Two scientists disagree about repeating studies',
-         part='Part 4', task='A recorded discussion · note completion and multiple choice', band='l4',
+         part='Part 4', task='A recorded discussion · sentence completion, multiple choice and short answer', band='l4',
          qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Achterberg works on replication. Dr '

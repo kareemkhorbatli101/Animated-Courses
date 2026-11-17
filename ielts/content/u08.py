@@ -42,7 +42,7 @@ UNIT = dict(
    read=[
     dict(heading='Farm shop or supermarket: four comparisons',
          kind='Comparison table',
-         task='Matching features, multiple choice and note completion',
+         task='Matching features, multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A price comparison is read for the unit, not the '
                 'price',
@@ -345,7 +345,7 @@ UNIT = dict(
                'so.'})])],
    listen=[
     dict(heading='A dietitian on family meals', part='Part 2',
-         task='A talk at a community centre · note completion and multiple choice', band='l2',
+         task='A talk at a community centre · short answer, sentence completion and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Dietitian', 'I am going to talk about family meals, and I '
@@ -598,7 +598,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two speakers discuss where food comes from',
          part='Part 3',
-         task='A discussion between two shoppers · note completion and multiple choice', band='l3',
+         task='A discussion between two shoppers · sentence completion, short answer and multiple choice', band='l3',
          qtype='Questions 35-40',
          script=[
           ('Delphine', 'You buy the farm shop milk and it is the same '
@@ -653,7 +653,7 @@ UNIT = dict(
            'scientific?', None, 'sentimental',
            'Which he says is better than pretending otherwise.')]),
     dict(heading='A dairy manager on the daily cycle', part='Part 4',
-         task='A talk at a dairy · flow-chart completion and multiple choice', band='l4', qtype='Questions 41-46',
+         task='A talk at a dairy · flow-chart completion, short answer and multiple choice', band='l4', qtype='Questions 41-46',
          figure=_MILK,
          script=[
           ('Manager', 'Seven stages, three phases, and twenty-four '
@@ -939,7 +939,7 @@ UNIT = dict(
            'Paragraph 3, and expected famines did not occur.')])],
    listen=[
     dict(heading='A lecture on intensive farming', part='Part 4',
-         task='A lecture on yields and soil · note completion', band='l4',
+         task='A lecture on yields and soil · sentence completion and short answer', band='l4',
          qtype='Questions 55-60',
          script=[
           ('Lecturer', 'Population doubled between nineteen sixty and '

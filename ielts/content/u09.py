@@ -42,7 +42,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Marchfield Library: membership and borrowing',
-         kind='Notice', task='Short answer, note completion and matching features',
+         kind='Notice', task='Short answer, sentence completion and matching features',
          band='gt_short', qtype='Questions 1-6',
          skill=('A library notice is read for the numbers',
                 ['How many, how long, how much. Those three questions '
@@ -87,7 +87,7 @@ UNIT = dict(
           ('On which evening is the library open until 19.00?', None,
            'Wednesday', 'Paragraph 6, the only evening opening.')]),
     dict(heading='Online resources from home',
-         kind='Information page', task='Note completion',
+         kind='Information page', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Go to the library website and choose "log in". Your username '
@@ -331,7 +331,7 @@ UNIT = dict(
                'appears.'})])],
    listen=[
     dict(heading='A short talk: talking at a distance', part='Part 2',
-         task='A talk at an adult education class · note completion and multiple choice', band='l2',
+         task='A talk at an adult education class · sentence completion, short answer and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Speaker', 'I want to describe what has actually changed '
@@ -384,7 +384,7 @@ UNIT = dict(
                'with.', 2: 'Emails are not mentioned in the talk.', 3: 'Minutes would make the sentence compare like with '
                'like.'})]),
     dict(heading='Two friends on messaging and calling', part='Part 3',
-         task='A discussion between two friends · note completion and multiple choice', band='l3',
+         task='A discussion between two friends · sentence completion, short answer and multiple choice', band='l3',
          qtype='Questions 29-34',
          script=[
           ('Anselm', 'You never answer messages and you ring me at '
@@ -645,7 +645,7 @@ UNIT = dict(
            'Paragraph 4, leaving the mobile network.')])],
    listen=[
     dict(heading='An engineer on the mobile network', part='Part 4',
-         task='A lecture on how a call is routed · diagram labelling and multiple choice', band='l4',
+         task='A lecture on how a call is routed · diagram labelling', band='l4',
          qtype='Questions 41-46',
          figure=_CALL,
          script=[
@@ -930,7 +930,7 @@ UNIT = dict(
            'The final paragraph, which is the modest conclusion.')])],
    listen=[
     dict(heading='A lecture on translation and meaning', part='Part 4',
-         task='A lecture on what translation loses · note completion and multiple choice', band='l4',
+         task='A lecture on what translation loses · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 55-60',
          script=[
           ('Lecturer', 'I am going to talk about what is lost in '

@@ -100,7 +100,7 @@ UNIT = dict(
           ('Which term cannot be varied?', None, 'smoking',
            'Paragraph 6, unlike the term about pets.')]),
     dict(heading='Reporting repairs', kind='Procedure notice',
-         task='Note completion', band='gt_short',
+         task='Sentence completion', band='gt_short',
          qtype='Questions 7-10',
          paras=[
           'Report all repairs through the online form, which records the '
@@ -353,7 +353,7 @@ UNIT = dict(
                'finds it hard to say.', 1: 'False would need a denial, and none appears.'})])],
    listen=[
     dict(heading='Two neighbours on a changing street', part='Part 3',
-         task='A discussion between two neighbours · note completion', band='l3',
+         task='A discussion between two neighbours · sentence completion and short answer', band='l3',
          qtype='Questions 23-28',
          script=[
           ('Desmond', 'The house at number twenty went for four hundred '
@@ -601,7 +601,7 @@ UNIT = dict(
            'Paragraph 4, reduced rather than removed.')])],
    listen=[
     dict(heading='A planner describes the redevelopment', part='Part 2',
-         task='A talk to a local history group · plan labelling and multiple choice', band='l2',
+         task='A talk to a local history group · plan labelling', band='l2',
          qtype='Questions 35-40',
          figure=_MAPS,
          script=[
@@ -896,7 +896,7 @@ UNIT = dict(
            'vote', 'Paragraph 4, compared with renters.')])],
    listen=[
     dict(heading='A lecture on housing supply', part='Part 4',
-         task='A lecture on why housing costs what it does · note completion and multiple choice', band='l4',
+         task='A lecture on why housing costs what it does · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I am going to answer one question: why does a '
@@ -1184,7 +1184,7 @@ UNIT = dict(
            'homes.')])],
    listen=[
     dict(heading='Two economists disagree about housing', part='Part 4',
-         task='A recorded discussion · note completion and multiple choice', band='l4',
+         task='A recorded discussion · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Professor Oyelaran-Smit argues for building. Dr '

@@ -213,7 +213,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='What to pack: a list for a cold country',
-         kind='Packing list', task='Short answer, note completion and matching features',
+         kind='Packing list', task='Short answer, sentence completion and matching features',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'Three thin layers are warmer than one thick one and they can '
@@ -240,7 +240,7 @@ UNIT = dict(
            'edges', 'Which is why the ends are covered first.')])],
    listen=[
     dict(heading='Packing for a cold country', part='Part 2',
-         task='One speaker giving advice · note completion and short answer', band='l2',
+         task='One speaker giving advice · sentence completion and short answer', band='l2',
          qtype='Questions 16-20',
          script=[
           ('Speaker', 'I have taken groups north for eleven years and '
@@ -375,7 +375,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Flood warning: what to do',
-         kind='Public notice', task='Note completion and short answer',
+         kind='Public notice', task='Sentence completion and short answer',
          band='gt_work', qtype='Questions 21-25',
          skill=('An emergency notice is read for the order of actions',
                 ['Find what to do first and what never to do. Those '
@@ -603,7 +603,7 @@ UNIT = dict(
    read=[
     dict(heading='Why the coast is milder than the hills',
          kind='Short factual article',
-         task='Note completion, short answer and matching information',
+         task='Sentence completion, short answer and matching information',
          band='acad', qtype='Questions 31-36',
          paras=[
           'Two towns twenty kilometres apart can have winters that '

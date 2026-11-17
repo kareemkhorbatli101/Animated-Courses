@@ -57,31 +57,45 @@ def setkw(name, skill, index, **kw):
     call = calls[index]
     blines = src.encode('utf-8').split(b'\n')
 
+    raw = src.encode('utf-8')
+
     def span(node):
         a = sum(len(l) + 1 for l in blines[:node.lineno - 1]) \
             + node.col_offset
         b = sum(len(l) + 1 for l in blines[:node.end_lineno - 1]) \
             + node.end_col_offset
+        # ast does not record the redundant brackets round an implicit
+        # string concatenation, so the span of a wrapped task= ends before
+        # the closing bracket. Grow over any balanced pair, or a
+        # replacement leaves the old brackets round the new literal and an
+        # insert lands inside them.
+        while a > 0 and raw[a - 1:a] == b'(' and raw[b:b + 1] == b')':
+            a, b = a - 1, b + 1
         return a, b
 
     jobs = []
     anchor = None
     for k in call.keywords:
-        if k.arg == 'task':
+        if k.arg in ('items', 'script', 'paras') and anchor is None:
             anchor = k
         if k.arg in kw:
             a, b = span(k.value)
-            jobs.append((a, b, _lit(kw.pop(k.arg), k.value.col_offset)))
+            col = a - (raw.rfind(b'\n', 0, a) + 1)
+            jobs.append((a, b, _lit(kw.pop(k.arg), col)))
     if kw:
+        # Inserted BEFORE a keyword rather than after one. The first
+        # version re-emitted task= at the end of its own span and relied on
+        # that span covering the old text; where the label was a wrapped
+        # concatenation it did not, so the file kept the old label AND
+        # gained a copy. Eight blocks shipped with their label printed
+        # twice. A keyword node's own start is unambiguous.
         if anchor is None:
-            raise SystemExit('%s %s%d: no task= to insert after'
+            raise SystemExit('%s %s%d: nothing to insert before'
                              % (name, skill, index))
-        a, b = span(anchor.value)
-        ind = anchor.value.col_offset
-        add = ''.join(',\n%s%s=%s' % (' ' * (ind - len('task=')), k,
-                                      _lit(v, ind))
-                      for k, v in kw.items())
-        jobs.append((b, b, _lit(anchor.value.value, ind) + add))
+        a, _ = span(anchor)
+        ind = anchor.col_offset
+        jobs.append((a, a, ''.join('%s=%s,\n%s' % (k, _lit(v, ind), ' ' * ind)
+                                   for k, v in kw.items())))
     out = src.encode('utf-8')
     for a, b, text in sorted(jobs, reverse=True):
         out = out[:a] + text.encode('utf-8') + out[b:]

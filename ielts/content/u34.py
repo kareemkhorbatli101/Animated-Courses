@@ -76,7 +76,7 @@ UNIT = dict(
            'Paragraph 3, of which three are given as examples.',
            {0: 'Fewer than the statutory grounds paragraph 3 counts.', 1: 'Still fewer than the number of grounds given.', 3: 'More than the statutory grounds available.'})]),
     dict(heading='How a request is decided',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'On receiving a request the manager must first check that it is '
@@ -167,7 +167,7 @@ UNIT = dict(
            'On the employee’s own terms, which the adviser says is '
            'deliberate.')]),
     dict(heading='A short talk: what managers get wrong about requests',
-         part='Part 2', task='A briefing for line managers · multiple choice and matching', band='l2',
+         part='Part 2', task='A briefing for line managers · sentence completion and matching', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Trainer', 'I have twenty minutes and I want to spend them on the '
@@ -397,7 +397,7 @@ UNIT = dict(
                'could not have told you.'})])],
    listen=[
     dict(heading='Two employees disagree about ambition', part='Part 3',
-         task='A conversation after a promotion round · multiple choice and matching', band='l3',
+         task='A conversation after a promotion round · sentence completion, matching and multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Dagmar', 'You turned it down. I still cannot get over it.'),
@@ -731,7 +731,7 @@ UNIT = dict(
                'economies exist.'})])],
    listen=[
     dict(heading='An economist on hours and productivity', part='Part 4',
-         task='A lecture on reading an international comparison · multiple choice and matching', band='l4',
+         task='A lecture on reading an international comparison · sentence completion, multiple choice, matching and short answer', band='l4',
          qtype='Questions 37-42',
          script=[
           ('Lecturer', 'I am going to put a chart on the screen that I use '
@@ -1077,7 +1077,7 @@ UNIT = dict(
            'whole passage.')])],
    listen=[
     dict(heading='A lecture on working-time trials', part='Part 4',
-         task='Evaluating an evidence base · multiple choice and matching', band='l4',
+         task='Evaluating an evidence base · sentence completion, multiple choice and matching', band='l4',
          qtype='Questions 50-55',
          script=[
           ('Lecturer', 'I want to use the four-day week literature as a '
@@ -1433,7 +1433,7 @@ UNIT = dict(
            'structurally unfillable.')])],
    listen=[
     dict(heading='Two researchers disagree about the evidence', part='Part 4',
-         task='A recorded exchange at a conference · multiple choice', band='l4',
+         task='A recorded exchange at a conference · sentence completion and multiple choice', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Professor Haldorsen argues the evidence is sufficient '

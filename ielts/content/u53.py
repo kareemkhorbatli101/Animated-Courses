@@ -35,7 +35,7 @@ UNIT = dict(
    read=[
     dict(heading='Raising a concern at work — the policy',
          kind='Policy document',
-         task='Multiple choice and note completion',
+         task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A concerns policy is read for the stage at which '
                 'protection begins',
@@ -113,7 +113,7 @@ UNIT = dict(
                'separate.', 3: 'Anonymity is not promised, so refusing to be named is '
                'not bad faith.'})]),
     dict(heading='Protections for those who raise concerns',
-         kind='Guidance', task='Note completion',
+         kind='Guidance', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Put it in writing, even where you have already raised it in '
@@ -423,7 +423,7 @@ UNIT = dict(
            {0: 'Yes would need intent; he says nobody designed it.', 2: 'Not Given is wrong because he addresses intention.'})])],
    listen=[
     dict(heading='A short talk: what rules produce', part='Part 2',
-         task='A talk at a public management seminar · multiple choice', band='l2',
+         task='A talk at a public management seminar · sentence completion', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I am going to describe four ways a target gets met '
@@ -480,7 +480,7 @@ UNIT = dict(
            '____________.', None, 'unmeasured',
            'Which he says is also the least visible.')]),
     dict(heading='Two managers disagree about targets', part='Part 3',
-         task='A discussion between two managers · multiple choice', band='l3',
+         task='A discussion between two managers · multiple choice and sentence completion', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Perpetua', 'I want the completion target replaced and I will '
@@ -828,7 +828,7 @@ UNIT = dict(
                'separately.'})])],
    listen=[
     dict(heading='A researcher on target effects', part='Part 4',
-         task='A lecture on measurement and behaviour · multiple choice and matching', band='l4',
+         task='A lecture on measurement and behaviour · multiple choice, matching and sentence completion', band='l4',
          qtype='Questions 39-44',
          figure=_TGT, figure2=_OUT,
          script=[
@@ -1068,7 +1068,7 @@ UNIT = dict(
    read=[
     dict(heading='When a proxy becomes the objective',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'The observation that a measure employed for control ceases to be '
@@ -1207,7 +1207,7 @@ UNIT = dict(
            'Paragraph 9, a direct estimate of the distortion.')])],
    listen=[
     dict(heading='A lecture on measurement and incentives', part='Part 4',
-         task='A lecture on why measures degrade · multiple choice', band='l4',
+         task='A lecture on why measures degrade · multiple choice and sentence completion', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'A measure used for control stops being a measure of '
@@ -1445,7 +1445,7 @@ UNIT = dict(
    read=[
     dict(heading='Judgement, discretion and what they produced',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Arguments against measurement in public services invariably '
@@ -1596,7 +1596,7 @@ UNIT = dict(
            'Paragraph 8, disadvantaging people with complicated lives.')])],
    listen=[
     dict(heading='An administrator and a researcher disagree', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · sentence completion and multiple choice', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Ms Winterbourne-Adeyemi runs a benefits office. Dr '
            'Castellanos-Nkemdirim researches public administration.'),

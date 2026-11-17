@@ -349,7 +349,7 @@ UNIT = dict(
                'is.'})])],
    listen=[
     dict(heading='A short talk: making a living from music',
-         part='Part 2', task='A talk to music students · note completion and multiple choice', band='l2',
+         part='Part 2', task='A talk to music students · sentence completion and multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I am going to describe how a working musician is '
@@ -603,7 +603,7 @@ UNIT = dict(
    read=[
     dict(heading='Twenty-five years of listening',
          kind='Data article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='gt_work', qtype='Questions 33-38',
          figure=_FORM,
          paras=[
@@ -876,7 +876,7 @@ UNIT = dict(
    read=[
     dict(heading='Before recording, music was always live',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'For almost all of human history, hearing music meant being in '
@@ -1162,7 +1162,7 @@ UNIT = dict(
    read=[
     dict(heading='The performance, the record and the thing itself',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'When somebody says they know a symphony well, they almost '

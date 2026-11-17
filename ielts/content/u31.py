@@ -85,7 +85,7 @@ UNIT = dict(
            {0: 'The voucher does not depend on completing every '
                'question.', 2: 'Paragraph 4 rules out payment for particular answers.', 3: 'Nothing is described as a refund of expenses.'})]),
     dict(heading='What happens to your answers',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'When the interview is finished, the answers are sent to the central '
@@ -177,7 +177,7 @@ UNIT = dict(
            'Twenty pounds is the amount, not the answer; the gap asks for the '
            'number of days.')]),
     dict(heading='A short talk: why surveys call back', part='Part 2',
-         task='A monologue for new interviewers · multiple choice and matching', band='l2',
+         task='A monologue for new interviewers · sentence completion, matching and multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Trainer', 'Before you go out this week I want to say something '
@@ -427,7 +427,7 @@ UNIT = dict(
                'never discusses.'})])],
    listen=[
     dict(heading='Two journalists disagree about a figure', part='Part 3',
-         task='A newsroom discussion · multiple choice', band='l3', qtype='Questions 25-29',
+         task='A newsroom discussion · multiple choice and sentence completion', band='l3', qtype='Questions 25-29',
          script=[
           ('Editor', 'I want to go with one in four adults cannot swim. It is '
            'clear and people will read it.'),
@@ -776,7 +776,7 @@ UNIT = dict(
                'those words.'})])],
    listen=[
     dict(heading='A statistician on axes and scales', part='Part 4',
-         task='A lecture on presenting data · multiple choice', band='l4',
+         task='A lecture on presenting data · note completion and multiple choice', band='l4',
          qtype='Questions 37-42',
          script=[
           ('Lecturer', 'I want to spend this session on a question that sounds '
@@ -1138,7 +1138,7 @@ UNIT = dict(
            'with two and a half million responses.')])],
    listen=[
     dict(heading='A lecture on sampling', part='Part 4',
-         task='Why the condition matters more than the size · multiple choice and matching', band='l4',
+         task='Why the condition matters more than the size · sentence completion, multiple choice and matching', band='l4',
          qtype='Questions 50-55',
          script=[
           ('Lecturer', 'Last week we established that the margin of error on a '
@@ -1485,7 +1485,7 @@ UNIT = dict(
            'has been building towards.')])],
    listen=[
     dict(heading='Two pollsters disagree about method', part='Part 4',
-         task='A recorded discussion after a conference paper · multiple choice and matching', band='l4',
+         task='A recorded discussion after a conference paper · sentence completion, multiple choice and matching', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Our two speakers disagree about what went wrong, which is '

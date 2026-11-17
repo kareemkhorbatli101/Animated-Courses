@@ -48,7 +48,7 @@ UNIT = dict(
    read=[
     dict(heading='Hiring a public square — conditions',
          kind='Council guidance',
-         task='Note completion and multiple choice',
+         task='Sentence completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('Hire conditions are read for what the hirer is liable for',
                 ['A hire agreement allocates risk. Somebody is responsible '
@@ -117,7 +117,7 @@ UNIT = dict(
            'Paragraph 6: charity collection is not trading, but selling '
            'food is.')]),
     dict(heading='Applying for an event licence',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Check availability online before anything else. The calendar '
@@ -409,7 +409,7 @@ UNIT = dict(
                'does not.'})])],
    listen=[
     dict(heading='Two designers disagree about benches', part='Part 3',
-         task='A discussion between two designers · multiple choice and matching', band='l3',
+         task='A discussion between two designers · sentence completion, multiple choice and matching', band='l3',
          qtype='Questions 23-28',
          script=[
           ('Ignatius', 'I am going to defend the arm rails and I would '
@@ -711,7 +711,7 @@ UNIT = dict(
            'height.')])],
    listen=[
     dict(heading='A designer presents the redesign', part='Part 2',
-         task='A presentation to a planning committee · multiple choice and matching', band='l2',
+         task='A presentation to a planning committee · plan labelling, short answer, multiple choice and matching', band='l2',
          qtype='Questions 35-40',
          figure=_MAPS,
          script=[
@@ -922,7 +922,7 @@ UNIT = dict(
    read=[
     dict(heading='Three claims on one square',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'Disputes about public space are ordinarily reported as '
@@ -1056,7 +1056,7 @@ UNIT = dict(
            'Paragraph 9: less overlooked, less served and less safe.')])],
    listen=[
     dict(heading='A lecture on the public realm', part='Part 4',
-         task='A lecture on contested public space · matching and multiple choice', band='l4',
+         task='A lecture on contested public space · matching and sentence completion', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I want to retire a sentence today, and the sentence '
@@ -1428,7 +1428,7 @@ UNIT = dict(
            'Paragraph 8: the only such requirement among the three.')])],
    listen=[
     dict(heading='A manager and a campaigner disagree', part='Part 4',
-         task='A recorded exchange · multiple choice''A recorded exchange · multiple choice',
+         task='A recorded exchange · matching',
          bank=['A', 'B', 'C'],
          reuse=True,
          banklabel='A  Mr Osei-Lindqvist    B  Ms Achterberg    C  both of them', band='l4', qtype='Questions 63-68',

@@ -28,7 +28,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Meadow Lane Surgery: registering and appointments',
-         kind='Notice', task='Note completion and short answer',
+         kind='Notice', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 1-6',
          skill=('A surgery notice is read for who does what, and when',
                 ['Notices of this kind contain two kinds of sentence: '
@@ -346,7 +346,7 @@ UNIT = dict(
                'mentions it.'})])],
    listen=[
     dict(heading='A nurse on sleep', part='Part 2',
-         task='A talk at a health centre · note completion and multiple choice', band='l2',
+         task='A talk at a health centre · sentence completion, short answer and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Nurse', 'Good evening. I am going to spend fifteen minutes '
@@ -541,7 +541,7 @@ UNIT = dict(
    read=[
     dict(heading='Waiting times: what the figures do and do not show',
          kind='Article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_WAIT,
          paras=[
@@ -598,7 +598,7 @@ UNIT = dict(
            'Paragraph 5, which is not the patient’s question.')])],
    listen=[
     dict(heading='Two patients compare experiences', part='Part 3',
-         task='A discussion between two patients · note completion and multiple choice', band='l3',
+         task='A discussion between two patients · sentence completion, short answer and multiple choice', band='l3',
          qtype='Questions 35-40',
          script=[
           ('Delphine', 'How long did you wait in the end?'),
@@ -892,7 +892,7 @@ UNIT = dict(
            'Paragraph 4, rather than preventing it.')])],
    listen=[
     dict(heading='A lecture on public health history', part='Part 4',
-         task='A lecture on why people live longer · note completion and multiple choice', band='l4',
+         task='A lecture on why people live longer · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'If I ask a class why we live twice as long as '
@@ -1171,7 +1171,7 @@ UNIT = dict(
            'Paragraph 5, where both are measured.')])],
    listen=[
     dict(heading='Two researchers disagree about life expectancy',
-         part='Part 4', task='A recorded discussion · note completion and multiple choice', band='l4',
+         part='Part 4', task='A recorded discussion · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Dr Villaseñor studies health inequality. Professor '

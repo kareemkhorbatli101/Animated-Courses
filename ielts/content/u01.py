@@ -30,7 +30,7 @@ UNIT = dict(
    read=[
     dict(heading='Ashfield College: how to enrol',
          kind='Procedure notice',
-         task='Note completion and short answer',
+         task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 1-6',
          skill=('A notice is read for the order of the steps',
                 ['Find the words that mark order: first, then, once, '
@@ -344,7 +344,7 @@ UNIT = dict(
                'it says nothing.'})])],
    listen=[
     dict(heading='Two students compare revision habits', part='Part 3',
-         task='A discussion between two students · note completion and multiple choice', band='l3',
+         task='A discussion between two students · short answer, sentence completion and multiple choice', band='l3',
          qtype='Questions 23-28',
          script=[
           ('Serena', 'How long did you revise last night?'),
@@ -541,7 +541,7 @@ UNIT = dict(
    read=[
     dict(heading='Three things people learn without a teacher',
          kind='Article',
-         task='Matching headings and note completion',
+         task='Matching headings and sentence completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_FREE,
          paras=[
@@ -594,7 +594,7 @@ UNIT = dict(
            'forty', 'Paragraph 5, unlike a language.')])],
    listen=[
     dict(heading='A librarian on free courses', part='Part 2',
-         task='A talk at a public library · note completion and multiple choice', band='l2',
+         task='A talk at a public library · sentence completion, short answer and multiple choice', band='l2',
          qtype='Questions 35-40',
          figure=_FREE,
          script=[
@@ -873,7 +873,7 @@ UNIT = dict(
            'Paragraph 4, which is the usual way of staffing them.')])],
    listen=[
     dict(heading='A lecture on measuring school performance',
-         part='Part 4', task='A lecture on school results · note completion and multiple choice', band='l4',
+         part='Part 4', task='A lecture on school results · sentence completion, multiple choice and short answer', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Every country publishes a table of school '
@@ -1144,7 +1144,7 @@ UNIT = dict(
            'behind', 'After better pay and more training.')])],
    listen=[
     dict(heading='Two researchers disagree about class size',
-         part='Part 4', task='A recorded discussion · multiple choice and note completion''A recorded discussion · multiple choice and note completion''A recorded discussion · multiple choice and note completionA recorded discussion · multiple choice and note completion',
+         part='Part 4', task='A recorded discussion · matching',
                         reuse=True,
                         bank=['A', 'B', 'C'],
                         banklabel='A  Dr Fenwick-Abara    B  Professor Lindqvist    C  both of them', band='l4',

@@ -81,7 +81,7 @@ UNIT = dict(
            'a sticker',
            'Paragraph 6, explaining why it was rejected.')]),
     dict(heading='Bulky waste collections', kind='Procedure notice',
-         task='Note completion', band='gt_short',
+         task='Sentence completion', band='gt_short',
          qtype='Questions 7-10',
          paras=[
           'Book online or by telephone. You will be given a reference '
@@ -327,7 +327,7 @@ UNIT = dict(
                'never appears.'})])],
    listen=[
     dict(heading='A volunteer group leader', part='Part 2',
-         task='A talk to new volunteers · note completion and multiple choice', band='l2',
+         task='A talk to new volunteers · sentence completion, short answer and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Leader', 'Welcome to the river group. Before the waders come '
@@ -528,7 +528,7 @@ UNIT = dict(
    read=[
     dict(heading='What a gauge actually measures',
          kind='Article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_FLOW,
          paras=[
@@ -587,7 +587,7 @@ UNIT = dict(
            'Paragraph 3, used most in the driest month.')])],
    listen=[
     dict(heading='Two speakers discuss measuring a river', part='Part 3',
-         task='A discussion between two volunteers · note completion and multiple choice', band='l3',
+         task='A discussion between two volunteers · sentence completion, short answer and multiple choice', band='l3',
          qtype='Questions 35-40',
          figure=_FLOW,
          script=[
@@ -882,7 +882,7 @@ UNIT = dict(
            'Paragraph 3: a dry summer, a disease, a fire.')])],
    listen=[
     dict(heading='A lecture on habitat fragmentation', part='Part 4',
-         task='A lecture on reserves and corridors · note completion and multiple choice', band='l4',
+         task='A lecture on reserves and corridors · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I am going to argue that the most important fact '
@@ -1151,7 +1151,7 @@ UNIT = dict(
            'The final paragraph: hedges, verges and field margins.')])],
    listen=[
     dict(heading='Two conservationists disagree', part='Part 4',
-         task='A recorded discussion · note completion and multiple choice', band='l4',
+         task='A recorded discussion · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Dr Abeyratne manages reserves. Professor '

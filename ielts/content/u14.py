@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Four evening language courses',
          kind='Course listing',
-         task='Matching features and note completion',
+         task='Matching features and sentence completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A course listing is read by the column the question asks '
                 'about',
@@ -83,7 +83,7 @@ UNIT = dict(
           ('A place is held without payment for ____________ days.', None,
            'seven', 'From the date of booking, with payment due after that.')]),
     dict(heading='Placement and refunds',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Book the level you believe is right. Where a course requires a '
@@ -711,7 +711,7 @@ UNIT = dict(
                'steepest change.'})])],
    listen=[
     dict(heading='A researcher on language uptake', part='Part 4',
-         task='A lecture on why subjects rise and fall · note completion and multiple choice', band='l4',
+         task='A lecture on why subjects rise and fall · sentence completion and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_LANG,
          script=[
@@ -917,7 +917,7 @@ UNIT = dict(
    read=[
     dict(heading='When the last speakers stop teaching their children',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'Of the roughly seven thousand languages spoken today, linguists '
@@ -1014,7 +1014,7 @@ UNIT = dict(
            'Paragraph 7, recorded only just in time.')])],
    listen=[
     dict(heading='A linguist on language shift', part='Part 4',
-         task='A lecture on how languages are lost · note completion and multiple choice', band='l4',
+         task='A lecture on how languages are lost · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Linguist', 'A language does not die when the last speaker '
@@ -1202,7 +1202,7 @@ UNIT = dict(
    read=[
     dict(heading='Two revivals, one success and one not',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'Only one language is generally agreed to have been brought back '
@@ -1306,7 +1306,7 @@ UNIT = dict(
            'The final paragraph, the condition no programme creates.')])],
    listen=[
     dict(heading='Two linguists disagree about revival', part='Part 4',
-         task='A recorded discussion · multiple choice and note completion', band='l4', qtype='Questions 67-72',
+         task='A recorded discussion · multiple choice and sentence completion', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Dr Ó Braonáin directs a revival programme. Professor '
            'Halvorsen studies documentation. Each begins with their own '

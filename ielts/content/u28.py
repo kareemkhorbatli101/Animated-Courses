@@ -88,7 +88,7 @@ UNIT = dict(
            'dwarfing',
            'Paragraph 4, and these must be approved in advance.')]),
     dict(heading='Applying for a plot',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Apply online, naming a preferred site. There is no charge to join '
@@ -166,7 +166,7 @@ UNIT = dict(
           ('List positions are reviewed each ____________.', None,
            'January', 'When about a fifth of names are removed.')]),
     dict(heading='A short talk: what a shortage looks like', part='Part 2',
-         task='A talk at a supply management seminar · multiple choice', band='l2',
+         task='A talk at a supply management seminar · sentence completion and multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I managed fresh produce buying for a supermarket chain '
@@ -394,7 +394,7 @@ UNIT = dict(
                'raises it.'})])],
    listen=[
     dict(heading='Two buyers on supply problems', part='Part 3',
-         task='A conversation between two food buyers · multiple choice', band='l3',
+         task='A conversation between two food buyers · short answer and sentence completion', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Esperanza', 'How bad was yours?'),
@@ -606,7 +606,7 @@ UNIT = dict(
    read=[
     dict(heading='Production, imports and the gap between',
          kind='Data article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='gt_work', qtype='Questions 30-35',
          figure=_CROPS, figure2=_SHARE,
          paras=[
@@ -672,7 +672,7 @@ UNIT = dict(
            'Paragraph 4, up from 21 per cent in 2003.')])],
    listen=[
     dict(heading='An analyst on self-sufficiency', part='Part 4',
-         task='A talk on production and imports · matching and multiple choice', band='l4',
+         task='A talk on production and imports · matching, sentence completion and multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_CROPS, figure2=_SHARE,
          script=[
@@ -1008,7 +1008,7 @@ UNIT = dict(
            'common.')])],
    listen=[
     dict(heading='A lecture on soil and productivity', part='Part 4',
-         task='A lecture on what yield omits · multiple choice and matching', band='l4',
+         task='A lecture on what yield omits · sentence completion, matching, short answer and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Yield measures what leaves the field. It says nothing '
@@ -1328,7 +1328,7 @@ UNIT = dict(
            'production.')])],
    listen=[
     dict(heading='Two agronomists disagree', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 62-67',
+         task='A recorded exchange · multiple choice and sentence completion', band='l4', qtype='Questions 62-67',
          script=[
           ('Chair', 'Dr Oyinlola-Brandt works on long-term trials. Professor '
            'Marchetti works on food systems.'),

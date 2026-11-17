@@ -47,7 +47,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Size guide and returns',
-         kind='Shop information', task='Note completion and multiple choice',
+         kind='Shop information', task='Sentence completion and multiple choice',
          band='gt_short', qtype='Questions 1-5',
          skill=('A size and returns page is read for the exception',
                 ['Sizes are rarely asked about directly. The '
@@ -219,7 +219,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Should there be a uniform?',
-         kind='Short article', task='Short answer, note completion and matching features',
+         kind='Short article', task='Short answer, sentence completion and matching features',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'Arguments about uniforms at work are usually arguments about '

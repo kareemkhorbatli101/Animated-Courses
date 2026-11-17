@@ -231,7 +231,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Three residents on their street',
-         kind='Three short profiles', task='Matching features and note completion',
+         kind='Three short profiles', task='Matching features and sentence completion',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'Yvette has lived on the street for thirty years and says the '

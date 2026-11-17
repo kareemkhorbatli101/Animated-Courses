@@ -41,7 +41,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Surgery opening times and how to book',
-         kind='Notice', task='Note completion and short answer',
+         kind='Notice', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A surgery notice is read for which number to ring',
                 ['There are always two or three numbers: normal, '
@@ -359,7 +359,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Walking for twenty minutes: a leaflet',
-         kind='Leaflet', task='Short answer and note completion',
+         kind='Leaflet', task='Short answer and sentence completion',
          band='gt_work', qtype='Questions 21-25',
          skill=('A health leaflet is read for the number and the '
                 'condition',
@@ -582,7 +582,7 @@ UNIT = dict(
    read=[
     dict(heading='Three reasons people live longer than they did',
          kind='Short factual article',
-         task='Note completion, short answer and matching information',
+         task='Sentence completion, short answer and matching information',
          band='acad', qtype='Questions 31-36',
          paras=[
           'Life expectancy at birth in this country was forty-seven in '
@@ -781,7 +781,7 @@ UNIT = dict(
    read=[
     dict(heading='Two countries, two systems',
          kind='Short factual article',
-         task='Note completion, matching information and multiple choice',
+         task='Sentence completion, matching information and multiple choice',
          band='acad', qtype='Questions 42-47',
          paras=[
           'In Country A, health care is paid for out of taxes and is '

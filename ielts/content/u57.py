@@ -40,7 +40,7 @@ UNIT = dict(
    read=[
     dict(heading='Why the official term changed',
          kind='Policy notice',
-         task='Note completion and multiple choice',
+         task='Sentence completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('A terminology notice is read for what the change does and '
                 'does not affect',
@@ -428,7 +428,7 @@ UNIT = dict(
                'comes from.'})])],
    listen=[
     dict(heading='A short talk: where a category ends', part='Part 2',
-         task='A talk to trainee decision-makers · multiple choice', band='l2',
+         task='A talk to trainee decision-makers · sentence completion and multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'You are going to spend your careers applying sharp '
@@ -489,7 +489,7 @@ UNIT = dict(
            None, 'inside',
            'Which is an error about facts and is correctable.')]),
     dict(heading='Two lawyers disagree about a definition', part='Part 3',
-         task='A discussion between two lawyers · multiple choice', band='l3',
+         task='A discussion between two lawyers · sentence completion and multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Casimir', 'I want the statute to define "household" precisely '
@@ -743,7 +743,7 @@ UNIT = dict(
    read=[
     dict(heading='How a census decides who counts as what',
          kind='Data article',
-         task='Matching information and note completion',
+         task='Matching information, short answer and sentence completion',
          band='gt_work', qtype='Questions 33-38',
          figure=_OLD, figure2=_NEW,
          paras=[
@@ -819,7 +819,7 @@ UNIT = dict(
            'option.')])],
    listen=[
     dict(heading='A statistician on classification', part='Part 4',
-         task='A lecture on definitional change in official statistics · multiple choice',
+         task='A lecture on definitional change in official statistics · multiple choice, sentence completion and short answer',
          band='l4', qtype='Questions 39-44',
          figure=_OLD, figure2=_NEW,
          script=[
@@ -1057,7 +1057,7 @@ UNIT = dict(
    read=[
     dict(heading='One grain, one more grain, and no line',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'A solitary grain of sand constitutes no heap. Adding a single '
@@ -1193,7 +1193,7 @@ UNIT = dict(
            'Paragraph 10, which calls that an achievable property.')])],
    listen=[
     dict(heading='A lecture on vagueness', part='Part 4',
-         task='A lecture on borderline cases · multiple choice', band='l4',
+         task='A lecture on borderline cases · multiple choice and sentence completion', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'One grain is not a heap. Adding one grain to a '
@@ -1433,7 +1433,7 @@ UNIT = dict(
    read=[
     dict(heading='Three responses to vagueness and what each costs',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'A familiar complaint about philosophical disputes alleges that '
@@ -1588,7 +1588,7 @@ UNIT = dict(
            'position.')])],
    listen=[
     dict(heading='Two philosophers disagree about vagueness', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice and sentence completion', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Adeyemi-Kowalczyk works on vagueness. Dr '
            'Beaumont-Nakamura works on legal philosophy.'),

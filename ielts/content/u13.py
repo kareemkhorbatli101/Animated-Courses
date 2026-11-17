@@ -29,7 +29,7 @@ UNIT = dict(
    read=[
     dict(heading='Reporting a crime: what happens next',
          kind='Procedure notice',
-         task='Note completion and multiple choice',
+         task='Sentence completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('A procedure notice tells you what the reader must do and '
                 'what the office will do',
@@ -412,7 +412,7 @@ UNIT = dict(
                'point.', 3: 'Reporting is not discussed in connection with these '
                'fines.'})]),
     dict(heading='Two residents on parking and the law', part='Part 3',
-         task='A conversation between two neighbours · note completion and multiple choice', band='l3',
+         task='A conversation between two neighbours · sentence completion and multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Hesper', 'You reported me, did you not?'),
@@ -700,7 +700,7 @@ UNIT = dict(
                'given.'})])],
    listen=[
     dict(heading='A criminologist on crime statistics', part='Part 4',
-         task='A lecture on measuring crime · note completion and multiple choice', band='l4',
+         task='A lecture on measuring crime · sentence completion and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_CRIME,
          script=[
@@ -915,7 +915,7 @@ UNIT = dict(
    read=[
     dict(heading='Certainty, severity and what deters',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'The belief that heavier punishment prevents crime is among the '
@@ -1015,7 +1015,7 @@ UNIT = dict(
            'The final paragraph, against prison places for removal.')])],
    listen=[
     dict(heading='A lecture on deterrence', part='Part 4',
-         task='A lecture on punishment and prevention · note completion and multiple choice', band='l4',
+         task='A lecture on punishment and prevention · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'I am going to tell you something that almost every '
@@ -1206,7 +1206,7 @@ UNIT = dict(
    read=[
     dict(heading='The reoffending that follows a sentence',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'About forty per cent of people released from prison in a typical '
@@ -1315,7 +1315,7 @@ UNIT = dict(
            'apart.')])],
    listen=[
     dict(heading='A judge and a researcher disagree', part='Part 4',
-         task='A recorded discussion · multiple choice and sentence completion''A recorded discussion · multiple choice and sentence completion',
+         task='A recorded discussion · matching',
          bank=['A', 'B', 'C'],
          reuse=True,
          banklabel='A  Judge Aldersey    B  Dr Nakamura-Reilly    C  both of them', band='l4', qtype='Questions 67-72',

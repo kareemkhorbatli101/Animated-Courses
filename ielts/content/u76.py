@@ -226,7 +226,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Three visitors, three kinds of holiday',
-         kind='Three short profiles', task='Matching features and note completion',
+         kind='Three short profiles', task='Matching features and sentence completion',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'Ines goes to the same village every year and has done for '

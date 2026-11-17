@@ -330,7 +330,7 @@ UNIT = dict(
                'none.', 1: 'False would need her to rule it out, and she does not.'})])],
    listen=[
     dict(heading='A coach on keeping going', part='Part 2',
-         task='A talk to new members · note completion and multiple choice', band='l2',
+         task='A talk to new members · sentence completion, short answer and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Coach', 'Welcome. I am going to spend ten minutes on why '
@@ -532,7 +532,7 @@ UNIT = dict(
    read=[
     dict(heading='Participation in five sports, by age',
          kind='Data article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_PART,
          paras=[
@@ -588,7 +588,7 @@ UNIT = dict(
    listen=[
     dict(heading='Two officers discuss participation figures',
          part='Part 3',
-         task='A discussion between two council officers · note completion', band='l3',
+         task='A discussion between two council officers · note completion and short answer', band='l3',
          qtype='Questions 35-40',
          figure=_PART,
          script=[
@@ -879,7 +879,7 @@ UNIT = dict(
            'Paragraph 4, which is why they are fast.')])],
    listen=[
     dict(heading='A physiologist on training and recovery',
-         part='Part 4', task='A lecture on how training works · note completion and multiple choice',
+         part='Part 4', task='A lecture on how training works · short answer, sentence completion and multiple choice',
          band='l4', qtype='Questions 49-54',
          script=[
           ('Physiologist', 'I am going to tell you something that '

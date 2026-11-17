@@ -49,7 +49,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Riverside Festival: what you need to know',
-         kind='Information page', task='Note completion and short answer',
+         kind='Information page', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('An event page is read for the thing you must bring',
                 ['Find every item you have to show or carry. Those are '
@@ -223,7 +223,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='Three families, three traditions',
-         kind='Three short profiles', task='Matching features, note completion and short answer',
+         kind='Three short profiles', task='Matching features, sentence completion and short answer',
          band='gt_work', qtype='Questions 12-17',
          paras=[
           'The Osei family eat the same meal on the same day every '
@@ -466,7 +466,7 @@ UNIT = dict(
    step=2,
    read=[
     dict(heading='What people eat at four festivals',
-         kind='Short article', task='Multiple choice, note completion and short answer',
+         kind='Short article', task='Multiple choice, sentence completion and short answer',
          band='gt_work', qtype='Questions 24-29',
          skill=('A comparison of four events is read column by column',
                 ['Decide which event the question is about before you '

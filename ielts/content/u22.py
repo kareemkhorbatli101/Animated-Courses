@@ -81,7 +81,7 @@ UNIT = dict(
            'advertised.', None, 'priority',
            'Paragraph 4: the employee must apply in the normal way.')]),
     dict(heading='How to apply internally',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Discuss the move with your current manager before you apply. This '
@@ -171,7 +171,7 @@ UNIT = dict(
            'Which the adviser uses to make the point about speaking to the '
            'manager this week.')]),
     dict(heading='A short talk: what moves people actually make',
-         part='Part 2', task='A talk on internal career moves · matching and multiple choice''A talk on internal career moves · matching and multiple choice',
+         part='Part 2', task='A talk on internal career moves · matching and sentence completion',
                         bank=None,
                         reuse=None,
                         banklabel=None, band='l2',
@@ -393,7 +393,7 @@ UNIT = dict(
                'the majority.'})])],
    listen=[
     dict(heading='A short talk: retraining', part='Part 2',
-         task='A talk at a careers centre · matching and multiple choice''A talk at a careers centre · matching and multiple choice',
+         task='A talk at a careers centre · matching',
          bank=['A', 'B', 'C', 'D'],
          reuse=True,
          banklabel='A  a short course    B  a qualification next to your field    C  a full change of field    D  staying and adapting', band='l2',
@@ -439,7 +439,7 @@ UNIT = dict(
           ('is the one nobody counts.', None, 'D',
            'Most people do this and nobody calls it retraining.')]),
     dict(heading='Two advisers on retraining schemes', part='Part 3',
-         task='A discussion between careers advisers · multiple choice', band='l3',
+         task='A discussion between careers advisers · note completion', band='l3',
          qtype='Questions 29-33',
          script=[
           ('Rosalind', 'The completion figures came through and the two-year '
@@ -728,7 +728,7 @@ UNIT = dict(
                'the direction.'})])],
    listen=[
     dict(heading='A lecture on task composition', part='Part 4',
-         task='A lecture on what automation actually takes · multiple choice and matching', band='l4',
+         task='A lecture on what automation actually takes · sentence completion, matching and multiple choice', band='l4',
          qtype='Questions 40-45',
          figure=_TASKS,
          script=[
@@ -1055,7 +1055,7 @@ UNIT = dict(
            'Paragraph 5, in the episode of office computerisation.')])],
    listen=[
     dict(heading='A lecture on technological unemployment', part='Part 4',
-         task='A lecture on four historical episodes · multiple choice', band='l4',
+         task='A lecture on four historical episodes · multiple choice, sentence completion and short answer', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'Every generation believes machines are about to end '

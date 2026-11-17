@@ -49,7 +49,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Riverside Leisure: clubs and times',
-         kind='Noticeboard', task='Note completion and short answer',
+         kind='Noticeboard', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A club list is read for the age and the cost',
                 ['Three facts repeat in every entry: day, age range, '
@@ -204,7 +204,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Match day: finding your way round the ground',
-         kind='Ground notice', task='Note completion and short answer',
+         kind='Ground notice', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 11-15',
          paras=[
           'The ticket office is at the north end, beside the north '
@@ -791,7 +791,7 @@ UNIT = dict(
    read=[
     dict(heading='Whether early specialisation works',
          kind='Short factual article',
-         task='Note completion, matching information and multiple choice',
+         task='Sentence completion, matching information and multiple choice',
          band='acad', qtype='Questions 42-47',
          paras=[
           'Parents are told two opposite things about children and '

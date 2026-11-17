@@ -28,7 +28,7 @@ UNIT = dict(
    read=[
     dict(heading='Caldwell Castle: visiting and access',
          kind='Visitor notice',
-         task='Note completion, multiple choice and matching features',
+         task='Sentence completion, multiple choice and matching features',
          band='gt_short', qtype='Questions 1-6',
          skill=('A visitor notice is read for the exceptions, because '
                 'that is where the questions are',
@@ -91,7 +91,7 @@ UNIT = dict(
            'within ____________ working days.', None, 'ten',
            'Paragraph 6, applied for by email.')]),
     dict(heading='Guided tours and group bookings',
-         kind='Timetable and terms', task='Matching features and note completion',
+         kind='Timetable and terms', task='Matching features and sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'General tour. Daily at 11.00 and 14.30, lasting 50 minutes. No '
@@ -409,7 +409,7 @@ UNIT = dict(
                'pits.', 3: 'Deliberate burial is not what he describes; they were '
                'forgotten.'})]),
     dict(heading='Two archivists on what to keep', part='Part 3',
-         task='A discussion between two archivists · note completion and multiple choice', band='l3',
+         task='A discussion between two archivists · sentence completion and multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Delphine', 'We have nineteen metres of shelf and forty-one '
@@ -697,7 +697,7 @@ UNIT = dict(
                'rates together.'})])],
    listen=[
     dict(heading='An archivist on sources', part='Part 4',
-         task='A lecture on reading old documents · note completion and multiple choice', band='l4',
+         task='A lecture on reading old documents · sentence completion and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_REC,
          script=[
@@ -914,7 +914,7 @@ UNIT = dict(
    read=[
     dict(heading='Arguments leave paper; agreement leaves none',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'An archive looks like a sample of the past and is not one. It is '
@@ -1009,7 +1009,7 @@ UNIT = dict(
            'The final paragraph, one of three named techniques.')])],
    listen=[
     dict(heading='A historian on archival silence', part='Part 4',
-         task='A lecture on what archives do not contain · note completion and multiple choice', band='l4',
+         task='A lecture on what archives do not contain · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Historian', 'I am going to begin with a sentence that sounds '
@@ -1196,7 +1196,7 @@ UNIT = dict(
    read=[
     dict(heading='Four claims on one collection',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'A collection of about nine hundred carved objects, removed from a '
@@ -1299,7 +1299,7 @@ UNIT = dict(
            'The final paragraph, which limits the lesson.')])],
    listen=[
     dict(heading='A curator and a campaigner disagree', part='Part 4',
-         task='A recorded discussion · multiple choice and note completion', band='l4', qtype='Questions 67-72',
+         task='A recorded discussion · multiple choice and sentence completion', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Dr Villiers-Okafor is a curator. Ms Adeyemi-Strand '
            'campaigns for return. Each begins with their own weakest '

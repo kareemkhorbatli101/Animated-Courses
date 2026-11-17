@@ -47,7 +47,7 @@ UNIT = dict(
    read=[
     dict(heading='Quick start guide: the WX200 router',
          kind='Instruction leaflet',
-         task='Note completion and True/False/Not Given',
+         task='Sentence completion and True/False/Not Given',
          band='gt_short', qtype='Questions 1-5',
          skill=('An instruction leaflet is read for the order and the '
                 'waiting time',
@@ -935,7 +935,7 @@ UNIT = dict(
    read=[
     dict(heading='Three machines that changed housework',
          kind='Short factual article',
-         task='Short answer, note completion and matching information',
+         task='Short answer, sentence completion and matching information',
          band='acad', qtype='Questions 54-60',
          paras=[
           'If you ask which machine saved the most human time, the '

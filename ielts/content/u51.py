@@ -109,7 +109,7 @@ UNIT = dict(
            'Paragraph 6, which happens in about one evaluation in six.',
            {0: 'Paragraph 6 says a qualified answer is not acceptable.', 2: 'No further work is commissioned in that case.', 3: 'The report is published rather than deferred.'})]),
     dict(heading='Submitting evidence to a review',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Obtain the terms of reference before drafting anything. They name '
@@ -413,7 +413,7 @@ UNIT = dict(
                'claims.'})])],
    listen=[
     dict(heading='A short talk: what people think caused what',
-         part='Part 2', task='A talk to a council scrutiny committee · multiple choice',
+         part='Part 2', task='A talk to a council scrutiny committee · sentence completion and multiple choice',
          band='l2', qtype='Questions 23-26',
          script=[
           ('Speaker', 'I have spent eleven years evaluating local policy and '
@@ -471,7 +471,7 @@ UNIT = dict(
            'comparison',
            'Before anybody knows which way the result will fall.')]),
     dict(heading='Two analysts disagree about a cause', part='Part 3',
-         task='A discussion between two analysts · multiple choice', band='l3',
+         task='A discussion between two analysts · multiple choice and sentence completion', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Perpetua', 'I am going to put Ashworth in the report and I know '
@@ -809,7 +809,7 @@ UNIT = dict(
                'testability directly.'})])],
    listen=[
     dict(heading='A statistician on interrupted time series', part='Part 4',
-         task='A lecture on evaluating an intervention · multiple choice', band='l4',
+         task='A lecture on evaluating an intervention · sentence completion and multiple choice', band='l4',
          qtype='Questions 39-44',
          figure=_ITS,
          script=[
@@ -1189,7 +1189,7 @@ UNIT = dict(
            'The final paragraph, none of them technical.')])],
    listen=[
     dict(heading='A lecture on causal inference', part='Part 4',
-         task='A lecture on what a causal claim requires · multiple choice', band='l4',
+         task='A lecture on what a causal claim requires · sentence completion, multiple choice and short answer', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'Every causal claim is a claim about a world nobody '
@@ -1425,7 +1425,7 @@ UNIT = dict(
    read=[
     dict(heading='Three questions no study can settle',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'A recurring frustration in public argument is the discovery '
@@ -1572,7 +1572,7 @@ UNIT = dict(
            'Paragraph 7, which is the test for distinguishing it.')])],
    listen=[
     dict(heading='Two methodologists disagree', part='Part 4',
-         task='A recorded exchange · multiple choice and matching', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · sentence completion, multiple choice, matching and short answer', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Achterberg-Nkemdirim works on causal '
            'inference. Dr Villanueva-Strand advises a health department.'),

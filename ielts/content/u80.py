@@ -56,7 +56,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='Northgate Station: travel information',
-         kind='Information page', task='Note completion and short answer',
+         kind='Information page', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 1-5',
          skill=('A travel page is read for the thing that changes',
                 ['Look for what is different on Sundays or in the '

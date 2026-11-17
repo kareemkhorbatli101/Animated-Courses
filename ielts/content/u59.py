@@ -47,7 +47,7 @@ UNIT = dict(
    read=[
     dict(heading='Decisions for people who cannot decide',
          kind='Official guidance',
-         task='Note completion and multiple choice',
+         task='Sentence completion and multiple choice',
          band='gt_short', qtype='Questions 1-6',
          skill=('Capacity guidance is read for the test, not for the '
                 'conclusion',
@@ -123,7 +123,7 @@ UNIT = dict(
            'two',
            'Paragraph 7, recorded on the order itself.')]),
     dict(heading='Applying to act for another person',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Establish first whether authority already exists. A lasting '
@@ -430,7 +430,7 @@ UNIT = dict(
                'threshold is larger.', 2: 'Not Given is wrong because both numbers are given.'})])],
    listen=[
     dict(heading='A short talk: what a score means', part='Part 2',
-         task='A talk to trainee clinicians · multiple choice', band='l2',
+         task='A talk to trainee clinicians · sentence completion', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'Before you write a number in a patient’s notes, I '
@@ -485,7 +485,7 @@ UNIT = dict(
            'unrecorded ____________.', None, 'impression',
            'A number two people can argue about.')]),
     dict(heading='Two clinicians disagree about a scale', part='Part 3',
-         task='A discussion between two clinicians · multiple choice', band='l3',
+         task='A discussion between two clinicians · sentence completion and multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Hollingbury', 'You want the scale off the admission form and I '
@@ -822,7 +822,7 @@ UNIT = dict(
                'response.', 1: 'Paragraph 7 is about how a negative is recorded.', 3: 'Paragraph 5 covers what a detection licenses.'})])],
    listen=[
     dict(heading='A neuroscientist on imaging studies', part='Part 4',
-         task='A lecture on command-following paradigms · multiple choice', band='l4',
+         task='A lecture on command-following paradigms · multiple choice, flow-chart completion and short answer', band='l4',
          qtype='Questions 39-44',
          figure=_PARA,
          script=[
@@ -1055,7 +1055,7 @@ UNIT = dict(
    read=[
     dict(heading='Everything explained except the one thing',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'The sciences of the mind have been remarkably successful at '
@@ -1199,7 +1199,7 @@ UNIT = dict(
            'The final paragraph, with an appalling historical record.')])],
    listen=[
     dict(heading='A lecture on the explanatory gap', part='Part 4',
-         task='A lecture on consciousness and explanation · multiple choice', band='l4',
+         task='A lecture on consciousness and explanation · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'The function is explained and the question is said '
@@ -1438,7 +1438,7 @@ UNIT = dict(
    read=[
     dict(heading='An objection to the objection',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 59-66',
          paras=[
           'An argument that something cannot be explained has a structure '
@@ -1581,7 +1581,7 @@ UNIT = dict(
            'resolution.')])],
    listen=[
     dict(heading='Two philosophers disagree about explanation',
-         part='Part 4', task='A recorded exchange · multiple choice', band='l4',
+         part='Part 4', task='A recorded exchange · multiple choice and sentence completion', band='l4',
          qtype='Questions 67-72',
          script=[
           ('Chair', 'Professor Thackeray-Osei holds that there is an '

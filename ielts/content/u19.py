@@ -50,7 +50,7 @@ UNIT = dict(
    read=[
     dict(heading='Four travel passes compared',
          kind='Comparison table',
-         task='Note completion and matching features',
+         task='Sentence completion and matching features',
          band='gt_short', qtype='Questions 1-6',
          skill=('A comparison text is read down one column at a time',
                 ['Four options and five features is twenty facts. The '
@@ -107,7 +107,7 @@ UNIT = dict(
            '____________ only.', None, '90',
            'Paragraph 5: rail requires a separate ticket.')]),
     dict(heading='How to apply for a parking permit',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Check first which permit zone your street is in, using the map '
@@ -369,7 +369,7 @@ UNIT = dict(
                'and the work.'})])],
    listen=[
     dict(heading='Two planners on peak demand', part='Part 3',
-         task='A discussion between two transport planners · note completion and multiple choice', band='l3',
+         task='A discussion between two transport planners · sentence completion, short answer and multiple choice', band='l3',
          qtype='Questions 23-28',
          script=[
           ('Thaddeus', 'Every meeting I go to is about adding capacity. I '
@@ -855,7 +855,7 @@ UNIT = dict(
    read=[
     dict(heading='The capacity that vanished',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 41-48',
          paras=[
           'A city widens a congested road from four lanes to six. For '
@@ -947,7 +947,7 @@ UNIT = dict(
            'it.')])],
    listen=[
     dict(heading='A lecture on induced demand', part='Part 4',
-         task='A lecture on traffic and capacity · note completion and multiple choice', band='l4',
+         task='A lecture on traffic and capacity · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Four lanes to six. Eighteen months of faster '
@@ -1131,7 +1131,7 @@ UNIT = dict(
    read=[
     dict(heading='Three cities that charged drivers',
          kind='Academic passage',
-         task='Matching information, Yes/No/Not Given and note completion',
+         task='Matching information, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 55-62',
          paras=[
           'Three cities introduced a charge for driving into the centre '

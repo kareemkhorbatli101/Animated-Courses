@@ -110,7 +110,7 @@ UNIT = dict(
            'reported.', None, 'inspector',
            'Paragraph 5, and the inspector may require changes.')]),
     dict(heading='What happens to your comment',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Your comment is logged on arrival and given a reference beginning '
@@ -197,7 +197,7 @@ UNIT = dict(
            '____________.', None, 'address',
            'And anonymous comments cannot be accepted.')]),
     dict(heading='A short talk: what a street is for', part='Part 2',
-         task='A talk at a neighbourhood forum · multiple choice and matching', band='l2',
+         task='A talk at a neighbourhood forum · sentence completion, short answer and matching', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have run consultations on street schemes for nine '
@@ -425,7 +425,7 @@ UNIT = dict(
                'which she does not.'})])],
    listen=[
     dict(heading='Two councillors disagree about parking', part='Part 3',
-         task='A discussion before a committee vote · multiple choice', band='l3',
+         task='A discussion before a committee vote · multiple choice and sentence completion', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Alinta', 'We vote on Thursday and I would rather we disagreed '
@@ -700,7 +700,7 @@ UNIT = dict(
            'Paragraph 5, which has no equivalent on the first map.')])],
    listen=[
     dict(heading='A planner presents the masterplan', part='Part 4',
-         task='A presentation of two site plans · multiple choice and matching', band='l4',
+         task='A presentation of two site plans · plan labelling, multiple choice and matching', band='l4',
          qtype='Questions 36-41',
          figure=_MAPS,
          script=[
@@ -1023,7 +1023,7 @@ UNIT = dict(
            'The final paragraph, which is part of why it is popular.')])],
    listen=[
     dict(heading='A lecture on density and infrastructure', part='Part 4',
-         task='A lecture on how cities grow · multiple choice and matching', band='l4',
+         task='A lecture on how cities grow · sentence completion, matching and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'There are three ways a city can grow and the public '
@@ -1330,7 +1330,7 @@ UNIT = dict(
            'The final paragraph, as part of a procedural repair.')])],
    listen=[
     dict(heading='A planner and a resident disagree', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 62-67',
+         task='A recorded exchange · multiple choice and sentence completion', band='l4', qtype='Questions 62-67',
          script=[
           ('Chair', 'Ms Lindqvist-Oduya ran the modelling for the Pell Street '
            'scheme. Mr Abubakar chairs the residents’ association.'),

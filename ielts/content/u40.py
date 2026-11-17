@@ -38,7 +38,7 @@ UNIT = dict(
    step=1,
    read=[
     dict(heading='When a decision about you is automated',
-         kind='Rights notice', task='Note completion, matching features and multiple choice',
+         kind='Rights notice', task='Sentence completion, matching features and multiple choice',
          band='gt_short', qtype='Questions 1-5',
          skill=('A right with three conditions is a right with three '
                 'questions',
@@ -97,7 +97,7 @@ UNIT = dict(
                'entitlement.', 3: 'Consent is one of the exceptions, not the usual '
                'complaint.'})]),
     dict(heading='Asking for a human review',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'Begin by requesting the information you are entitled to, in '
@@ -191,7 +191,7 @@ UNIT = dict(
            'Which the adviser tells the caller to keep along with every '
            'letter.')]),
     dict(heading='A short talk: letting a machine choose', part='Part 2',
-         task='A talk on automated decisions in public services · multiple choice', band='l2',
+         task='A talk on automated decisions in public services · sentence completion and multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I spent six years approving or refusing applications '
@@ -425,7 +425,7 @@ UNIT = dict(
                'the settings.'})])],
    listen=[
     dict(heading='Two designers disagree about defaults', part='Part 3',
-         task='A product meeting · multiple choice', band='l3', qtype='Questions 25-29',
+         task='A product meeting · sentence completion and multiple choice', band='l3', qtype='Questions 25-29',
          script=[
           ('Ingrid', 'I want personalisation off by default and on by '
            'choice. I have wanted it for two years and I have never had a '
@@ -700,7 +700,7 @@ UNIT = dict(
            {0: 'A skew is learned, not ignored.', 1: 'The average is what inconsistency produces.', 3: 'Nothing in the model corrects the past pattern.'})])],
    listen=[
     dict(heading='An engineer on a scoring system', part='Part 4',
-         task='A talk on how a decision is produced · matching and multiple choice', band='l4',
+         task='A talk on how a decision is produced · matching, diagram labelling and multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_SCORER,
          script=[
@@ -1042,7 +1042,7 @@ UNIT = dict(
            'Paragraph 5, and neither condition ever holds in practice.')])],
    listen=[
     dict(heading='A lecture on fairness criteria', part='Part 4',
-         task='A lecture on an impossibility result · multiple choice', band='l4',
+         task='A lecture on an impossibility result · short answer, sentence completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I am going to present a result that I think every '
@@ -1402,7 +1402,7 @@ UNIT = dict(
            'the review policy.')])],
    listen=[
     dict(heading='An auditor and an engineer disagree', part='Part 4',
-         task='A recorded panel at a standards conference · multiple choice', band='l4',
+         task='A recorded panel at a standards conference · multiple choice, sentence completion and short answer', band='l4',
          qtype='Questions 62-67',
          script=[
           ('Chair', 'Ms Delacroix-Mbeki audits algorithmic systems. Dr '

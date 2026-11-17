@@ -177,7 +177,7 @@ UNIT = dict(
           ('Reference number: C____________', None, '9472',
            'Noted on the file during the call.')]),
     dict(heading='A short talk: who people believe', part='Part 2',
-         task='A talk at a journalism school · multiple choice and matching', band='l2',
+         task='A talk at a journalism school · sentence completion and matching', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Speaker', 'I have surveyed trust in news for fourteen years, and '
@@ -407,7 +407,7 @@ UNIT = dict(
                'never does.'})])],
    listen=[
     dict(heading='Two editors disagree about balance', part='Part 3',
-         task='A conversation in a newsroom · multiple choice', band='l3',
+         task='A conversation in a newsroom · sentence completion and multiple choice', band='l3',
          qtype='Questions 25-29',
          script=[
           ('Fiadh', 'We have four minutes on the water story and I want to '
@@ -616,7 +616,7 @@ UNIT = dict(
    read=[
     dict(heading='What gets shared and what gets read',
          kind='Data article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='gt_work', qtype='Questions 30-35',
          figure=_SHARES,
          paras=[
@@ -678,7 +678,7 @@ UNIT = dict(
            'Paragraph 4, where local news reverses the ratio.')])],
    listen=[
     dict(heading='A researcher on sharing behaviour', part='Part 4',
-         task='A talk on attention and sharing · multiple choice', band='l4',
+         task='A talk on attention and sharing · note completion and multiple choice', band='l4',
          qtype='Questions 36-41',
          figure=_SHARES,
          script=[
@@ -1014,7 +1014,7 @@ UNIT = dict(
            'Paragraph 7, which is why intention is not the problem.')])],
    listen=[
     dict(heading='A lecture on misinformation', part='Part 4',
-         task='A lecture on why false stories spread · multiple choice and matching', band='l4',
+         task='A lecture on why false stories spread · short answer, sentence completion, multiple choice and matching', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'That false stories spread faster than true ones is '
@@ -1339,7 +1339,7 @@ UNIT = dict(
            'important question.')])],
    listen=[
     dict(heading='A platform officer and a researcher disagree',
-         part='Part 4', task='A recorded exchange · multiple choice', band='l4',
+         part='Part 4', task='A recorded exchange · multiple choice and sentence completion', band='l4',
          qtype='Questions 62-67',
          script=[
           ('Chair', 'Ms Delacroix-Oyediran leads trust and safety at a large '

@@ -43,7 +43,7 @@ UNIT = dict(
    read=[
     dict(heading='Enquiries on results: what is reviewed',
          kind='Official guidance',
-         task='Note completion and multiple choice',
+         task='Sentence completion, multiple choice and short answer',
          band='gt_short', qtype='Questions 1-6',
          skill=('Procedural guidance about your own result is read for '
                 'what is and is not reconsidered',
@@ -111,7 +111,7 @@ UNIT = dict(
            1, 'Paragraph 6, with a revised Test Report Form issued.',
            {0: 'The fee is refunded in full, not halved.', 2: 'The result is revised, never cancelled.', 3: 'No retest is offered under any outcome.'})]),
     dict(heading='Applying for a review of marking',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 7-10',
          paras=[
           'Decide first between the two procedures. A clerical check is '
@@ -415,7 +415,7 @@ UNIT = dict(
            {0: 'Yes would need a trick; she says neither is.', 2: 'Not Given is wrong because she rates both.'})])],
    listen=[
     dict(heading='A short talk: preparing and what it does', part='Part 2',
-         task='A talk to a class beginning a course · multiple choice', band='l2',
+         task='A talk to a class beginning a course · sentence completion and multiple choice', band='l2',
          qtype='Questions 23-26',
          script=[
           ('Speaker', 'I am going to tell you what practice tests do and '
@@ -469,7 +469,7 @@ UNIT = dict(
            'So teaching narrows to the sample.')]),
     dict(heading='Two teachers disagree about test preparation',
          part='Part 3',
-         task='A discussion between two teachers · multiple choice', band='l3',
+         task='A discussion between two teachers · note completion and multiple choice', band='l3',
          qtype='Questions 27-32',
          script=[
           ('Thandeka', 'You want to cut the practice papers from eight to '
@@ -785,7 +785,7 @@ UNIT = dict(
    listen=[
     dict(heading='An assessment specialist on reporting scores',
          part='Part 4',
-         task='A lecture on score reporting · multiple choice', band='l4',
+         task='A lecture on score reporting · multiple choice, table completion and short answer', band='l4',
          qtype='Questions 39-44',
          figure=_TBL,
          script=[
@@ -1008,7 +1008,7 @@ UNIT = dict(
    read=[
     dict(heading='Construct, evidence and the claim a score makes',
          kind='Academic passage',
-         task='Matching headings, Yes/No/Not Given and note completion',
+         task='Matching headings, Yes/No/Not Given and sentence completion',
          band='acad', qtype='Questions 45-52',
          paras=[
           'A test is not valid or invalid. This sounds like a quibble and '
@@ -1146,7 +1146,7 @@ UNIT = dict(
            'Paragraph 8, so a reported 6.5 spans about 6.0 to 7.0.')])],
    listen=[
     dict(heading='A lecture on validity', part='Part 4',
-         task='A lecture on test validation · multiple choice', band='l4',
+         task='A lecture on test validation · sentence completion and multiple choice', band='l4',
          qtype='Questions 53-58',
          script=[
           ('Lecturer', 'A test is not valid; the inference drawn from it '
@@ -1535,7 +1535,7 @@ UNIT = dict(
            'testimonial.')])],
    listen=[
     dict(heading='An examiner and a teacher disagree', part='Part 4',
-         task='A recorded exchange · multiple choice', band='l4', qtype='Questions 67-72',
+         task='A recorded exchange · multiple choice and sentence completion', band='l4', qtype='Questions 67-72',
          script=[
           ('Chair', 'Mrs Fotheringay-Adeyemi is a senior examiner. Mr '
            'Szczepanski runs a preparation school. Each has agreed to '

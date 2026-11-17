@@ -90,7 +90,7 @@ UNIT = dict(
            'Paragraph 6: the panel compares applicants against the '
            'same headings.')]),
     dict(heading='How we shortlist', kind='Procedure notice',
-         task='Note completion', band='gt_short',
+         task='Sentence completion', band='gt_short',
          qtype='Questions 7-10',
          paras=[
           'When the closing date has passed, every application is checked '
@@ -333,7 +333,7 @@ UNIT = dict(
                'it is silent.'})])],
    listen=[
     dict(heading='A manager briefs a new starter', part='Part 2',
-         task='A talk to a new employee · note completion and multiple choice', band='l2',
+         task='A talk to a new employee · short answer, sentence completion and multiple choice', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Manager', 'Welcome. I am going to spend ten minutes telling '
@@ -529,7 +529,7 @@ UNIT = dict(
    read=[
     dict(heading='The four-day week: three trials',
          kind='Article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_HOURS,
          paras=[
@@ -589,7 +589,7 @@ UNIT = dict(
            'Paragraph 3, which is the clearest single result.')])],
    listen=[
     dict(heading='Two employees discuss shorter hours', part='Part 3',
-         task='A discussion between two colleagues · multiple choice and note completion', band='l3',
+         task='A discussion between two colleagues · multiple choice, short answer and sentence completion', band='l3',
          qtype='Questions 35-40',
          script=[
           ('Marisol', 'Did you read the note about the four-day week '
@@ -885,7 +885,7 @@ UNIT = dict(
            'Paragraph 4, although average wages rose.')])],
    listen=[
     dict(heading='A lecture on technology and employment',
-         part='Part 4', task='A lecture on automation · note completion and multiple choice', band='l4',
+         part='Part 4', task='A lecture on automation · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'I want to give you three facts about automation '
@@ -1246,7 +1246,7 @@ UNIT = dict(
            'hours a choice.')])],
    listen=[
     dict(heading='Two economists disagree about automation',
-         part='Part 4', task='A recorded discussion · note completion and multiple choice''A recorded discussion · note completion and multiple choice''A recorded discussion · note completion and multiple choiceA recorded discussion · note completion and multiple choice',
+         part='Part 4', task='A recorded discussion · matching',
                         reuse=True,
                         bank=['A', 'B', 'C'],
                         banklabel='A  Dr Oyelaran-Vance    B  Professor Ingerson    C  both of them', band='l4',

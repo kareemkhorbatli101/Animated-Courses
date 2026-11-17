@@ -30,7 +30,7 @@ UNIT = dict(
    read=[
     dict(heading='Hillcrest Tours: four walking holidays',
          kind='Brochure',
-         task='Matching features and note completion',
+         task='Matching features and sentence completion',
          band='gt_short', qtype='Questions 1-6',
          skill=('A brochure is read for the grade and the '
                 'supplements',
@@ -335,7 +335,7 @@ UNIT = dict(
                'herself.'})])],
    listen=[
     dict(heading='A town meeting on visitor numbers', part='Part 2',
-         task='A talk at a town meeting · note completion', band='l2',
+         task='A talk at a town meeting · sentence completion and short answer', band='l2',
          qtype='Questions 23-28',
          script=[
           ('Officer', 'Good evening. Before anybody argues, I am going '
@@ -540,7 +540,7 @@ UNIT = dict(
    read=[
     dict(heading='A year of arrivals in two towns',
          kind='Data article',
-         task='Matching information and note completion',
+         task='Matching information and sentence completion',
          band='gt_work', qtype='Questions 29-34',
          figure=_VIS,
          paras=[
@@ -596,7 +596,7 @@ UNIT = dict(
            'Paragraph 5, which is why policy aims at the shape.')])],
    listen=[
     dict(heading='A tourism officer on the season', part='Part 3',
-         task='A discussion with a tourism officer · note completion and multiple choice', band='l3',
+         task='A discussion with a tourism officer · sentence completion, short answer and multiple choice', band='l3',
          qtype='Questions 35-40',
          figure=_VIS,
          script=[
@@ -885,7 +885,7 @@ UNIT = dict(
            'Paragraph 4, in sharply seasonal towns.')])],
    listen=[
     dict(heading='A lecture on tourism economics', part='Part 4',
-         task='A lecture on who gains from tourism · note completion and multiple choice', band='l4',
+         task='A lecture on who gains from tourism · short answer, sentence completion and multiple choice', band='l4',
          qtype='Questions 49-54',
          script=[
           ('Lecturer', 'Tourism is the only major industry where the '
@@ -1146,7 +1146,7 @@ UNIT = dict(
            'Paragraph 5, while the peak fell by six.')])],
    listen=[
     dict(heading='Two officials disagree about caps', part='Part 4',
-         task='A recorded discussion · note completion and multiple choice', band='l4',
+         task='A recorded discussion · sentence completion, short answer and multiple choice', band='l4',
          qtype='Questions 63-68',
          script=[
           ('Chair', 'Ms Vasquez-Hollander introduced a visitor cap in '

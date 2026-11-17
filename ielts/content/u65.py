@@ -596,7 +596,7 @@ UNIT = dict(
    read=[
     dict(heading='Four ways a city moves people',
          kind='Short factual article',
-         task='Short answer, note completion and matching information',
+         task='Short answer, sentence completion and matching information',
          band='acad', qtype='Questions 31-36',
          paras=[
           'Every city solves the same problem with some mixture of '
@@ -644,7 +644,7 @@ UNIT = dict(
            'Paragraph 3, which is what decided its use.')])],
    listen=[
     dict(heading='A talk about the new tram', part='Part 4',
-         task='A short lecture at a public meeting · short answer and note completion', band='l4',
+         task='A short lecture at a public meeting · short answer and sentence completion', band='l4',
          qtype='Questions 37-41',
          script=[
           ('Speaker', 'Three questions come up every time a tram is '
@@ -785,7 +785,7 @@ UNIT = dict(
    read=[
     dict(heading='What visitors do to a small town',
          kind='Short factual article',
-         task='Note completion, matching information and multiple choice',
+         task='Sentence completion, matching information and multiple choice',
          band='acad', qtype='Questions 42-47',
          paras=[
           'A coastal town of four thousand people receives two hundred '

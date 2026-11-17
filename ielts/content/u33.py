@@ -84,7 +84,7 @@ UNIT = dict(
            'discharged.',
            {0: 'Shorter than the period paragraph 4 gives.', 2: 'Longer than the two days before release.', 3: 'Only a selected juror serves the full period.'})]),
     dict(heading='Applying to defer or be excused',
-         kind='Procedure notice', task='Note completion',
+         kind='Procedure notice', task='Sentence completion',
          band='gt_short', qtype='Questions 6-9',
          paras=[
           'An application to defer or to be excused must be made on the reply '
@@ -173,7 +173,7 @@ UNIT = dict(
            'And the caller is warned to attend on the original date until the '
            'letter arrives.')]),
     dict(heading='A short talk: what jurors are told on arrival', part='Part 2',
-         task='A court induction briefing · multiple choice and matching', band='l2',
+         task='A court induction briefing · sentence completion, matching and multiple choice', band='l2',
          qtype='Questions 15-18',
          script=[
           ('Usher', 'Welcome, and thank you for coming. I am going to spend '
@@ -404,7 +404,7 @@ UNIT = dict(
                'not.'})])],
    listen=[
     dict(heading='Two lawyers disagree about juries', part='Part 3',
-         task='A seminar discussion · multiple choice and matching', band='l3', qtype='Questions 25-29',
+         task='A seminar discussion · sentence completion and matching', band='l3', qtype='Questions 25-29',
          script=[
           ('Chair', 'Ms Nakamura argues for judge-only trials in complex '
            'fraud. Mr Oyelaran disagrees. Ms Nakamura.'),
@@ -750,7 +750,7 @@ UNIT = dict(
                'this point.'})])],
    listen=[
     dict(heading='A researcher on sentencing data', part='Part 4',
-         task='A lecture on reading criminal justice statistics · multiple choice and matching', band='l4',
+         task='A lecture on reading criminal justice statistics · sentence completion, matching and short answer', band='l4',
          qtype='Questions 37-42',
          script=[
           ('Lecturer', 'I want to take one chart and spend an hour on it, '
@@ -1120,7 +1120,7 @@ UNIT = dict(
            'voter.')])],
    listen=[
     dict(heading='A lecture on deterrence', part='Part 4',
-         task='Why the evidence and the policy diverge · multiple choice', band='l4',
+         task='Why the evidence and the policy diverge · note completion and multiple choice', band='l4',
          qtype='Questions 50-55',
          script=[
           ('Lecturer', 'Today I want to look at a case where the research '
@@ -1462,7 +1462,7 @@ UNIT = dict(
            'it.')])],
    listen=[
     dict(heading='A judge and a reformer disagree', part='Part 4',
-         task='A recorded conversation · multiple choice', band='l4', qtype='Questions 63-68',
+         task='A recorded conversation · multiple choice and sentence completion', band='l4', qtype='Questions 63-68',
          script=[
           ('Chair', 'Judge Castellanos has sentenced for twenty-two years. Dr '
            'Lindqvist campaigns for shorter sentences. Judge first.'),
