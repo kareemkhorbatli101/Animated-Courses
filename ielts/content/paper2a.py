@@ -103,7 +103,8 @@ PAPER = dict(
              'one.', 2: 'Sunday closing is not mentioned in the passage.', 3: 'Low prices are not what the shopkeeper argued for.'}),
         ('The writer says the commercial argument came first.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 2 says it came later and mattered more.'),
+         'Paragraph 2 says it came later and mattered more.',
+         {0: 'Paragraph 2 says the commercial argument came later.', 2: 'The order of the two arguments is given in paragraph 2.'}),
         ('A shop with negotiated prices needs assistants who are',
          ['cheap to employ', 'able to read labels', 'expensive and hard to replace', 'available in the evening'],
          2, 'Paragraph 3 explains the staffing cost of negotiation.',
@@ -118,8 +119,11 @@ PAPER = dict(
          'anybody.'),
         ('Fixed prices help nervous customers.',
          ['True', 'False', 'Not Given'], 0,
-         'Paragraph 5 says the same price helps the nervous and removes '
-         'an advantage from the confident.'),
+         'Paragraph 5 says the same price helps the nervous and '
+         'removes an advantage from the confident.',
+         {1: 'Paragraph 5 says a fixed price helps the nervous '
+             'customer.', 2: 'The effect on nervous customers is stated in paragraph '
+             '5.'}),
         (
          'Nineteenth-century writers who called the new shops '
          'impersonal were, the writer says,',
@@ -134,9 +138,11 @@ PAPER = dict(
         ('Online sellers may vary prices according to the ____________ a '
          'customer is using.', None, 'device',
          'Paragraph 6 lists location, purchase history and device.'),
-        ('The writer thinks online pricing is a return to the old '
+        (
+         'The writer thinks online pricing is a return to the old '
          'market.', ['True', 'False', 'Not Given'], 1,
-         'Paragraph 7 opens by denying it and gives the difference.'),
+         'Paragraph 7 opens by denying it and gives the difference.',
+         {0: 'Paragraph 7 denies the comparison in its first sentence.', 2: 'The writer addresses the comparison and rejects it.'}),
         ('In the online version, how many parties know the price is '
          'personal?', None, 'one',
          'The last paragraph contrasts this with the open negotiation of '
@@ -221,16 +227,19 @@ PAPER = dict(
         ('Which variety was exported before the nineteen-fifties?',
          None, 'Gros Michel',
          'Paragraph 3 names it and says growers preferred it.'),
-        ('The Gros Michel was considered worse than what is eaten now.',
+        (
+         'The Gros Michel was considered worse than what is eaten now.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 3 says growers and shippers regarded it as better.'),
+         'Paragraph 3 says growers and shippers regarded it as better.',
+         {0: 'Paragraph 3 says growers and shippers thought it better.', 2: 'How it was regarded is stated in paragraph 3.'}),
         ('Where does Panama disease enter the plant?',
          ['the leaves', 'the fruit', 'the roots', 'the flower'], 2,
          'Paragraph 4 describes the route and the blockage it causes.',
          {0: 'The leaves wilt once the vessels are blocked.', 1: 'The fruit is not the route of entry.', 3: 'The flower plays no part in the infection.'}),
         ('Panama disease can be treated with chemicals.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 4 says it cannot be treated.'),
+         'Paragraph 4 says it cannot be treated.',
+         {0: 'Paragraph 4 says the disease cannot be treated.', 2: 'Whether it can be treated is answered in paragraph 4.'}),
         ('Why does destroying the crop not remove the disease?',
          ['it spreads through the air', 'it lives in the soil', 'it is carried by insects', 'it survives in the fruit'],
          1,
@@ -240,9 +249,12 @@ PAPER = dict(
         ('By which year had the Cavendish replaced the Gros Michel?',
          None, '1965', 'Paragraph 5 gives the year the trade had '
          'changed over.'),
-        ('Before the disaster, the Cavendish was thought good enough to '
-         'export.', ['True', 'False', 'Not Given'], 1,
-         'Paragraph 5 says nobody had previously thought so.'),
+        (
+         'Before the disaster, the Cavendish was thought good enough '
+         'to export.', ['True', 'False', 'Not Given'], 1,
+         'Paragraph 5 says nobody had previously thought so.',
+         {0: 'Paragraph 5 says nobody had thought so before the '
+             'disaster.', 2: 'What was thought beforehand is stated in paragraph 5.'}),
         ('When did a new strain of the fungus appear?',
          None, 'nineteen-nineties',
          'Paragraph 6 gives the decade and then the spread.'),
@@ -358,7 +370,8 @@ PAPER = dict(
          'Paragraph 2 names the method and describes its scale.'),
         ('English has an official committee that approves words.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 1 says there is no such committee.'),
+         'Paragraph 1 says there is no such committee.',
+         {0: 'Paragraph 1 says no such committee exists for English.', 2: 'The absence of a committee is stated in paragraph 1.'}),
         ('The tests a lexicographer applies are mainly about',
          ['frequency', 'spelling', 'spread', 'age'], 2,
          'Paragraph 3 contrasts spread with frequency and gives an '
@@ -374,7 +387,8 @@ PAPER = dict(
         ('Most modern English dictionaries record what people say.',
          ['True', 'False', 'Not Given'], 0,
          'Paragraph 5 says most do the first of the two things '
-         'described.'),
+         'described.',
+         {1: 'Paragraph 5 says most dictionaries record usage.', 2: 'What most dictionaries do is stated in paragraph 5.'}),
         (
          'According to the writer, newspapers report dictionary '
          'decisions as',
@@ -387,10 +401,13 @@ PAPER = dict(
         ('Small dictionaries have to remove words because their pages are '
          '____________.', None, 'finite',
          'Paragraph 7 gives the practical reason for deletion.'),
-        ('The words removed from a small dictionary are usually the '
+        (
+         'The words removed from a small dictionary are usually the '
          'oldest ones.', ['True', 'False', 'Not Given'], 1,
          'Paragraph 7 says they are usually the ones whose moment '
-         'passed.'),
+         'passed.',
+         {0: 'Paragraph 7 says the words dropped are the ones whose '
+             'moment passed.', 2: 'Which words are removed is answered in paragraph 7.'}),
         ('A word is in the language when enough people use it as though '
          'it ____________.', None, 'were',
          'The final paragraph states the writer’s own test.'),

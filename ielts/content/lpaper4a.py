@@ -142,12 +142,16 @@ LPAPER = dict(
          None, '900', 'In forty cases, arranged by material.'),
         ('The present arrangement dates from',
          ['1963', '1983', '2003'], 0,
-         'And the curator says it reflects how curators were trained.'),
+         'And the curator says it reflects how curators were trained.',
+         {1: 'The curator gives an earlier date than this for the '
+             'arrangement.', 2: 'The present arrangement is older than the 2000s.'}),
         ('How many objects will the new display hold?',
          None, '280', 'A reduction of about two thirds.'),
         ('The median time a visitor spends in the gallery is',
          ['two minutes', 'four minutes', 'eleven minutes'], 1,
-         'And the median number of objects looked at is eleven.'),
+         'And the median number of objects looked at is eleven.',
+         {0: 'Two minutes is shorter than the median the curator '
+             'reports.', 2: 'Eleven is the median number of objects, not the minutes.'}),
         ('Objects not on display will go into the ____________ store',
          None, 'study', 'Open to the public by appointment for the first '
          'time.'),
@@ -158,10 +162,13 @@ LPAPER = dict(
         ('A label over about eighty words is read by fewer than one '
          'visitor in ____________', None, 'ten',
          'Which the curator gives as consistent evidence.'),
-        ('What did the access audit find was the commonest reason for '
+        (
+         'What did the access audit find was the commonest reason for '
          'leaving?',
          ['poor lighting', 'the absence of seating', 'the labels'], 1,
-         'Hence a bench in each of the four period sections.'),
+         'Hence a bench in each of the four period sections.',
+         {0: 'Lighting is not what the audit found drove visitors out.', 2: 'The labels are a separate problem, not the commonest '
+             'reason.'}),
         ('During the closure, about ____________ objects go into a '
          'corridor display', None, 'sixty',
          'So that the museum is not without its best pieces.')]),
@@ -222,7 +229,8 @@ LPAPER = dict(
          'planned.'),
         ('How many people were in the pilot?',
          ['six', 'seven', 'eleven'], 0,
-         'And the schedule had eleven questions.'),
+         'And the schedule had eleven questions.',
+         {1: 'Seven is not the number of people in the pilot.', 2: 'Eleven is the number of questions in the schedule.'}),
         ('The supervisor says the schedule should be cut to '
          '____________ questions', None, 'six',
          'Letting the one that produced long answers run.'),
@@ -238,7 +246,8 @@ LPAPER = dict(
          'transcription.'),
         ('Full transcription is described as',
          ['essential', 'a counsel of perfection', 'quick'], 1,
-         'And one that sinks more dissertations than bad analysis.'),
+         'And one that sinks more dissertations than bad analysis.',
+         {0: 'The speaker calls it the opposite of essential.', 2: 'Full transcription is described as slow, not quick.'}),
         ('How many interviews are recommended?',
          None, 'twelve to fifteen',
          'After about twelve the students should stop hearing new '

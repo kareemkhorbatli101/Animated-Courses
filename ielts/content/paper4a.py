@@ -135,7 +135,9 @@ PAPER = dict(
         ('Nineteenth-century masters did not understand the danger.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 3 says it was understood by every master and '
-         'systematically ignored.'),
+         'systematically ignored.',
+         {0: 'Paragraph 3 says the danger was understood by every '
+             'master.', 2: 'What the masters understood is stated in paragraph 3.'}),
         (
          'At what rate were British ships being lost in the '
          'eighteen-seventies?',
@@ -150,8 +152,9 @@ PAPER = dict(
          'Paragraph 5 says he pursued it for six years.'),
         ('Plimsoll apologised for his accusation.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 5 says he apologised for the language rather than the '
-         'accusation.'),
+         'Paragraph 5 says he apologised for the language rather than '
+         'the accusation.',
+         {0: 'Paragraph 5 says he apologised for the language only.', 2: 'What he apologised for is stated in paragraph 5.'}),
         ('In which year was the position of the line finally set by '
          'regulation?', None, '1890',
          'Paragraph 6 contrasts this with the 1876 Act.'),
@@ -276,8 +279,10 @@ PAPER = dict(
          'Paragraph 2 gives this and the assumed return on capital.'),
         ('The writer rejects the research-cost defence entirely.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 3 says it is sound in outline but does not determine '
-         'a price.'),
+         'Paragraph 3 says it is sound in outline but does not '
+         'determine a price.',
+         {0: 'Paragraph 3 calls the defence sound in outline.', 2: 'The writer\u2019s view of the defence is given in paragraph '
+             '3.'}),
         ('What do economists call a cost that cannot be recovered?',
          None, 'sunk',
          'Paragraph 3 uses the term to explain the pricing logic.'),
@@ -308,7 +313,10 @@ PAPER = dict(
          {0: 'Refusal is what the exceptions avoid.', 1: 'The threshold is not lowered for rare conditions.', 3: 'Importing is not what paragraph 7 describes.'}),
         ('The writer believes some method prices medicines well.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 8 opens by saying no method does.'),
+         'Paragraph 8 opens by saying no method does.',
+         {0: 'Paragraph 8 says in its first sentence that no method '
+             'does.', 2: 'Whether any method prices well is answered in paragraph '
+             '8.'}),
         (
          'What advantage does the writer claim for the published '
          'threshold?',
@@ -448,10 +456,13 @@ PAPER = dict(
          'in the ____________.', None, 'atmosphere',
          'Paragraph 5 explains that the concentration has in fact '
          'varied.'),
-        ('Every radiocarbon date published today is adjusted using a curve '
-         'built from tree rings.',
+        (
+         'Every radiocarbon date published today is adjusted using a '
+         'curve built from tree rings.',
          ['True', 'False', 'Not Given'], 0,
-         'Paragraph 5 states this directly.'),
+         'Paragraph 5 states this directly.',
+         {1: 'Paragraph 5 states that every published date is '
+             'adjusted.', 2: 'The adjustment of every date is stated in paragraph 5.'}),
         ('Most tropical trees cannot be used because there is no '
          '____________ to stop growth.', None, 'winter',
          'Paragraph 6 gives this as the first of three limitations.'),

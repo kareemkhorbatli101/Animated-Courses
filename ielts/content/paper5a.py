@@ -152,8 +152,11 @@ PAPER = dict(
          'Paragraph 3 explains the intellectual objection.'),
         ('Monastic readers needed indexes for their work.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 4 says monastic reading was slow and meditative and '
-         'that a reader was not looking anything up.'),
+         'Paragraph 4 says monastic reading was slow and meditative '
+         'and that a reader was not looking anything up.',
+         {0: 'Paragraph 4 says a monastic reader was not looking '
+             'anything up.', 2: 'What monastic reading was like is described in paragraph '
+             '4.'}),
         ('In which decade was the Paris concordance produced?',
          None, 'twelve-thirties',
          'Paragraph 5 describes the scale of the work.'),
@@ -314,9 +317,13 @@ PAPER = dict(
         ('What Hebrew lacked was ____________ who spoke it at home.',
          None, 'children',
          'Paragraph 3 identifies this as the gap the revival filled.'),
-        ('The Hebrew school system used the language for all subjects from '
-         'the first year.', ['True', 'False', 'Not Given'], 0,
-         'Paragraph 3 lists this among the three conditions.'),
+        (
+         'The Hebrew school system used the language for all subjects '
+         'from the first year.',
+         ['True', 'False', 'Not Given'], 0,
+         'Paragraph 3 lists this among the three conditions.',
+         {1: 'Paragraph 3 lists it among the three conditions that '
+             'held.', 2: 'The condition is stated explicitly in paragraph 3.'}),
         ('How long did the reversal in Welsh numbers take?',
          None, 'thirty years',
          'Paragraph 4 gives the period and the three measures behind '
@@ -458,10 +465,14 @@ PAPER = dict(
          'Paragraph 2 explains that a cold box with plenty of ice '
          'produces it.',
          {0: 'Heat is the failure everybody expected.', 2: 'Light is not among the failures discussed.', 3: 'Vibration is not mentioned in the passage.'}),
-        ('Monitors placed inside shipments find below-zero episodes only '
-         'in poor countries.', ['True', 'False', 'Not Given'], 1,
-         'Paragraph 2 says the finding holds in rich and poor countries '
-         'alike.'),
+        (
+         'Monitors placed inside shipments find below-zero episodes '
+         'only in poor countries.',
+         ['True', 'False', 'Not Given'], 1,
+         'Paragraph 2 says the finding holds in rich and poor '
+         'countries alike.',
+         {0: 'Paragraph 2 says the finding holds in rich countries '
+             'too.', 2: 'Where the episodes are found is stated in paragraph 2.'}),
         ('A coverage figure counts doses ____________.',
          None, 'administered',
          'Paragraph 3 explains what it therefore cannot distinguish.'),

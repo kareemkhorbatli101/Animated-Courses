@@ -130,12 +130,16 @@ LPAPER = dict(
        items=[
         ('General waste collection becomes',
          ['weekly', 'fortnightly', 'monthly'], 1,
-         'Recycling stays weekly and food waste becomes weekly.'),
+         'Recycling stays weekly and food waste becomes weekly.',
+         {0: 'Weekly is what recycling and food waste become, not '
+             'general waste.', 2: 'Monthly is not an interval the officer mentions.'}),
         ('What is the stated reason for the change?',
-         ['saving money', 'a legal recycling target',
-          'complaints from residents'], 1,
-         'The saving is only about four per cent, which the officer says '
-         'is not the reason.'),
+         ['saving money', 'a legal recycling target', 'complaints from residents'],
+         1,
+         'The saving is only about four per cent, which the officer '
+         'says is not the reason.',
+         {0: 'The officer says the four per cent saving is not the '
+             'reason.', 2: 'No complaints from residents are mentioned as a cause.'}),
         ('The recycling rate rises by between nine and ____________ '
          'points.', None, 'fourteen',
          'The officer gives the range found where the pattern is used.'),
@@ -147,7 +151,9 @@ LPAPER = dict(
          'in.'),
         ('Where are the free liners collected from?',
          ['the council office', 'the library', 'the supermarket'], 1,
-         'One roll a year, and ordinary plastic bags are not allowed.'),
+         'One roll a year, and ordinary plastic bags are not allowed.',
+         {0: 'The council office is not where the liners are given '
+             'out.', 2: 'The supermarket is not mentioned as a collection point.'}),
         ('Ordinary plastic bags are refused because the whole '
          '____________ is rejected.', None, 'load',
          'The machine detects them and the material cannot be used.'),
@@ -156,7 +162,8 @@ LPAPER = dict(
          'collection.'),
         ('Collection day for the street moves to',
          ['Tuesday', 'Wednesday', 'Thursday'], 2,
-         'With containers out by seven in the morning.'),
+         'With containers out by seven in the morning.',
+         {0: 'Tuesday is the day the collection is moving away from.', 1: 'Wednesday is not the new day the officer announces.'}),
         ('An application for assisted collection requires no '
          '____________ evidence.', None, 'medical',
          'The officer says this surprises people.')]),
@@ -208,17 +215,20 @@ LPAPER = dict(
        items=[
         ('How long will a visitor stand in front of the poster?',
          ['ninety seconds', 'two minutes', 'five minutes'], 0,
-         'The supervisor corrects Tomasz’s estimate.'),
+         'The supervisor corrects Tomasz\u2019s estimate.',
+         {1: 'Two minutes is Tomasz\u2019s estimate, which is corrected.', 2: 'Five minutes is longer than anybody in the discussion '
+             'suggests.'}),
         ('How many words will a visitor read?',
          None, '150', 'That is the whole budget for words that are '
          'actually read.'),
         ('The finding should be placed',
-         ['at the bottom', 'at the top in the largest type',
-          'in the middle'], 1,
-         'And everything else on the poster explains it.'),
+         ['at the bottom', 'at the top in the largest type', 'in the middle'],
+         1, 'And everything else on the poster explains it.',
+         {0: 'The bottom is where the finding would be missed.', 2: 'The middle is not where the supervisor puts the finding.'}),
         ('The method should be shown as',
          ['a paragraph', 'one diagram', 'a list'], 1,
-         'With the rest answered out loud if it cannot be drawn.'),
+         'With the rest answered out loud if it cannot be drawn.',
+         {0: 'A paragraph of method is what the supervisor rules out.', 2: 'A list is not what she asks for either.'}),
         ('How many figures should the poster have?',
          None, 'two', 'One for the finding and one for the likely '
          'objection.'),
@@ -227,10 +237,11 @@ LPAPER = dict(
          'Which is the reason for having exactly two figures on a '
          'poster rather than one or three.'),
         ('What should happen to the table?',
-         ['it should be enlarged', 'it should go on a handout',
-          'it should be removed entirely'], 1,
+         ['it should be enlarged', 'it should go on a handout', 'it should be removed entirely'],
+         1,
          'With an email address on it, because nobody reads a table '
-         'standing up.'),
+         'standing up.',
+         {0: 'Enlarging the table is the opposite of the advice given.', 2: 'The table is not removed; it moves to a handout.'}),
         ('How many colours are recommended?',
          None, 'two', 'Two colours and white, which is the whole palette '
          'the supervisor allows.'),

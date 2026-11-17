@@ -92,17 +92,24 @@ PAPER = dict(
          None, '1924',
          'Paragraph 1 says it has been broadcast in more or less the same '
          'form since then.'),
-        ('The four items for each area are always given in the same order.',
-         ['True', 'False', 'Not Given'], 0,
+        (
+         'The four items for each area are always given in the same '
+         'order.', ['True', 'False', 'Not Given'], 0,
          'Paragraph 2 lists wind, weather, visibility and sea state in '
-         'that sequence.'),
+         'that sequence.',
+         {1: 'Paragraph 2 gives the four items in a fixed sequence '
+             'every time.', 2: 'The order is stated in paragraph 2, so it is not left '
+             'out.'}),
         ('The forecast begins in the south and moves anticlockwise.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 2 says it starts in the north-east and moves '
-         'clockwise.'),
+         'clockwise.',
+         {0: 'Paragraph 2 says the opposite: north-east, and '
+             'clockwise.', 2: 'Both the starting point and the direction are given.'}),
         ('Listeners are told the reason for each forecast.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 2 says nothing is ever explained.'),
+         'Paragraph 2 says nothing is ever explained.',
+         {0: 'Paragraph 2 says nothing is ever explained to listeners.', 2: 'The passage states the absence of explanation directly.'}),
         ('Approximately how many words may the forecasters use?',
          None, 'four hundred',
          'Paragraph 3 gives the limit on the whole vocabulary.'),
@@ -123,7 +130,11 @@ PAPER = dict(
          'for.'),
         ('Most listeners to the forecast have been to sea.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 6 says surveys find most have never been on a boat.'),
+         'Paragraph 6 says surveys find most have never been on a '
+         'boat.',
+         {0: 'Surveys in paragraph 6 find most listeners have never '
+             'been on a boat.', 2: 'Paragraph 6 reports what the surveys found, so this is '
+             'stated.'}),
         ('What did the broadcaster once propose?',
          ['ending the forecast', 'moving it by twelve minutes', 'reading it faster', 'adding more sea areas'],
          1,
@@ -132,7 +143,9 @@ PAPER = dict(
          {0: 'No proposal to end the forecast is reported.', 2: 'Reading speed is not what was proposed.', 3: 'No extra sea areas were proposed.'}),
         ('The complaints about the proposal came mainly from sailors.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 6 says almost none of them were from sailors.'),
+         'Paragraph 6 says almost none of them were from sailors.',
+         {0: 'Paragraph 6 says almost none of the complaints came from '
+             'sailors.', 2: 'The source of the complaints is given in paragraph 6.'}),
         ('The forecast is kept because it works when nothing else '
          '____________.', None, 'works',
          'The last sentence of the passage states the reason for keeping '
@@ -204,15 +217,23 @@ PAPER = dict(
          'Paragraph 2 explains the name in terms of map orientation.'),
         ('The compass reached Europe in the twelfth century.',
          ['True', 'False', 'Not Given'], 0,
-         'Paragraph 3 gives the century of its arrival.'),
+         'Paragraph 3 gives the century of its arrival.',
+         {1: 'Paragraph 3 names the twelfth century as when it '
+             'arrived.', 2: 'The century is stated, so this is not left out of the '
+             'passage.'}),
         ('Printing made several orientations cheaper than one.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 3 says a single orientation became much cheaper than '
-         'several.'),
+         'Paragraph 3 says a single orientation became much cheaper '
+         'than several.',
+         {0: 'Paragraph 3 says one orientation became cheaper than '
+             'several.', 2: 'The comparison of costs is made directly in paragraph 3.'}),
         ('The writer proves that publishers chose north deliberately.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 4 says it is difficult to show that anybody chose it '
-         'for that reason.'),
+         'Paragraph 4 says it is difficult to show that anybody chose '
+         'it for that reason.',
+         {0: 'Paragraph 4 says the deliberate choice is hard to '
+             'demonstrate.', 2: 'The writer discusses the difficulty, so the point is '
+             'addressed.'}),
         ('Where were the leading sixteenth-century mapmakers based?',
          ['southern Europe', 'China', 'the Arab world', 'northern Europe'],
          3, 'Paragraph 4 names Flanders, the Netherlands and Germany.',
@@ -233,8 +254,11 @@ PAPER = dict(
          'Paragraph 6 names the country and says the map still sells.'),
         ('Pupils find the south-up map easy to read immediately.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 6 says they find it genuinely difficult for the first '
-         'ten minutes.'),
+         'Paragraph 6 says they find it genuinely difficult for the '
+         'first ten minutes.',
+         {0: 'Paragraph 6 says they find it difficult for the first '
+             'ten minutes.', 2: 'The ten minutes of difficulty are described in paragraph '
+             '6.'}),
         ('What does the writer conclude?',
          ['north-up is wrong', 'any shared orientation would do', 'maps should be banned from schools', 'the convention will soon change'],
          1,
@@ -314,10 +338,16 @@ PAPER = dict(
         ('The fleet returned to service after the first accident.',
          ['True', 'False', 'Not Given'], 0,
          'Paragraph 2 says it was grounded, inspected and returned to '
-         'service.'),
-        ('The second accident happened on a different route from the '
+         'service.',
+         {1: 'Paragraph 2 says the fleet was inspected and returned to '
+             'service.', 2: 'The return to service is stated in paragraph 2.'}),
+        (
+         'The second accident happened on a different route from the '
          'first.', ['True', 'False', 'Not Given'], 1,
-         'Paragraph 2 says it was almost the same route.'),
+         'Paragraph 2 says it was almost the same route.',
+         {0: 'Paragraph 2 says it was almost the same route as the '
+             'first.', 2: 'The route of the second accident is given in paragraph '
+             '2.'}),
         ('What were the recovered pieces laid out on?',
          None, 'a wooden frame',
          'Paragraph 3 describes the frame shaped like the aeroplane.'),
@@ -337,7 +367,9 @@ PAPER = dict(
          'for rounded windows.'),
         ('Metal fatigue was unknown before the investigation.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 5 says the phenomenon had a name and was understood.'),
+         'Paragraph 5 says the phenomenon had a name and was '
+         'understood.',
+         {0: 'Paragraph 5 says the phenomenon already had a name.', 2: 'What was known beforehand is stated in paragraph 5.'}),
         ('What had not been understood?',
          ['that metal could crack', 'that cabins were pressurised', 'how rivets worked', 'how little stress was needed'],
          3,
@@ -349,10 +381,14 @@ PAPER = dict(
          None, 'punched',
          'Paragraph 6 contrasts punching with drilling and explains what '
          'punching left behind.'),
-        ('The manufacturing method was considered unusual at the time.',
+        (
+         'The manufacturing method was considered unusual at the time.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 6 says neither the design nor the method was thought '
-         'unusual.'),
+         'Paragraph 6 says neither the design nor the method was '
+         'thought unusual.',
+         {0: 'Paragraph 6 says neither the design nor the method was '
+             'unusual.', 2: 'Paragraph 6 addresses how the method was regarded at the '
+             'time.'}),
         ('Aircraft built after 1960 assume that cracks will ____________.',
          None, 'appear',
          'Paragraph 7 states the changed design assumption.'),

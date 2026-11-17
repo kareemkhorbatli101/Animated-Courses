@@ -236,7 +236,9 @@ LPAPER = dict(
         ('Who will present the literature review?',
          ['Priya', 'Marcus', 'Both'], 0,
          'She takes the literature and the method.',
-         {1: 'Marcus takes the case study.', 2: 'They do not share it.'}),
+         {1: 'Marcus takes the results and the discussion, not the '
+             'review.', 2: 'The two of them divide the sections rather than share '
+             'one.'}),
         ('Who will present the case study?',
          ['Priya', 'Marcus', 'Both'], 1,
          'Along with, originally, the limitations.',

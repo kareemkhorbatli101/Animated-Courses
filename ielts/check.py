@@ -626,6 +626,30 @@ def check_numbering(U, out):
             n += k
 
 
+def _paper_wrongs(items, tag, first, out):
+    """The answer-key promise, applied to a timed paper.
+
+    Every book's answer-key page says that every wrong option is
+    explained. _items_ok enforces that inside the units and nothing
+    enforced it in the papers, so 70 verification items in the eleven
+    second papers shipped with no lines at all. The promise is printed in
+    the same book as the paper, so the rule belongs in both places.
+    """
+    if not PHASE['wrongs']:
+        return
+    for i, it in enumerate(items):
+        opts = it[1]
+        if not opts:
+            continue
+        wrongs = it[4] if len(it) > 4 and isinstance(it[4], dict) else {}
+        for k in range(len(opts)):
+            if k == it[2]:
+                continue
+            if len(str((wrongs or {}).get(k, ''))) < MIN_WRONG:
+                out.append('%s item %d: option %s has no line'
+                           % (tag, first + i, 'ABCDEFGH'[k]))
+
+
 def check_paper(P, out):
     global BANDS
     BANDS = BANDS_BY_VOL[P['vol']]
@@ -658,6 +682,7 @@ def check_paper(P, out):
                 out.append('%s p%d item %d: explanation %d chars, want %d+'
                            % (tag, x['no'], x['first'] + i, len(it[3]),
                               MIN_WHY))
+        _paper_wrongs(x['items'], '%s p%d' % (tag, x['no']), x['first'], out)
         nxt += n
         total += n
     want_total = PAPER_BY_VOL[P['vol']].get('total_q', 40)
@@ -709,6 +734,7 @@ def check_lpaper(L, out):
             if len(it) not in (4, 5) or len(it[3]) < MIN_WHY:
                 out.append('%s %s item %d: explanation too short'
                            % (tag, p['part'], p['first'] + i))
+        _paper_wrongs(p['items'], '%s %s' % (tag, p['part']), p['first'], out)
         nxt += n
         total += n
     want_total = PAPER_BY_VOL[L['vol']].get('litems', 10) * 4

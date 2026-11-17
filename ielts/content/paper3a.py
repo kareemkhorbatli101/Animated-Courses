@@ -119,10 +119,14 @@ PAPER = dict(
          None, 'two hundred years',
          'Paragraph 2 makes the point that measurement was not the '
          'obstacle.'),
-        ('The records collected by post were useful for the study of '
+        (
+         'The records collected by post were useful for the study of '
          'climate.', ['True', 'False', 'Not Given'], 0,
-         'Paragraph 2 says they were excellent for that and useless for '
-         'prediction.'),
+         'Paragraph 2 says they were excellent for that and useless '
+         'for prediction.',
+         {1: 'Paragraph 2 says they were excellent for studying '
+             'climate.', 2: 'What the postal records were good for is stated in '
+             'paragraph 2.'}),
         ('From which decade could a reading cross between cities in '
          'minutes?', None, 'eighteen-forties',
          'Paragraph 3 dates the change to the electric telegraph.'),
@@ -144,7 +148,9 @@ PAPER = dict(
         ('FitzRoy could explain why his patterns held.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 6 says he could not, which was the scientific '
-         'objection.'),
+         'objection.',
+         {0: 'Paragraph 6 says he could not explain why they held.', 2: 'The absence of an explanation is the objection in '
+             'paragraph 6.'}),
         ('Why did shipowners object to the warnings?',
          ['the warnings were too frequent', 'a warning that proved wrong cost them money', 'they did not understand the charts', 'they preferred their own observations'],
          1, 'Paragraph 6 gives the commercial objection.',
@@ -261,7 +267,9 @@ PAPER = dict(
         ('Most of the smoke came from industry.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 2 says it came from domestic fires, not primarily '
-         'from industry.'),
+         'from industry.',
+         {0: 'Paragraph 2 says the smoke came mainly from domestic '
+             'fires.', 2: 'Where the smoke came from is stated in paragraph 2.'}),
         ('From which decade do mortality figures show the pattern?',
          None, 'eighteen-seventies',
          'Paragraph 3 says deaths rose during each prolonged fog.'),
@@ -270,8 +278,10 @@ PAPER = dict(
          'Paragraph 3 lists it among the things that led nowhere.'),
         ('The delay in acting was caused by ignorance of the effects.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 4 says the reason was not ignorance but the location '
-         'of the cost.'),
+         'Paragraph 4 says the reason was not ignorance but the '
+         'location of the cost.',
+         {0: 'Paragraph 4 says the cause was not ignorance of the '
+             'effects.', 2: 'The reason for the delay is given in paragraph 4.'}),
         ('How long did the fog of December 1952 last?',
          None, 'five days',
          'Paragraph 5 describes the still, cold weather that trapped the '
@@ -406,7 +416,9 @@ PAPER = dict(
              'different population.'}),
         ('The census undercount falls randomly across the population.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 2 lists the specific groups it falls on.'),
+         'Paragraph 2 lists the specific groups it falls on.',
+         {0: 'Paragraph 2 names the particular groups the undercount '
+             'falls on.', 2: 'Who is undercounted is stated in paragraph 2.'}),
         ('How do statistical offices estimate their own undercount?',
          None, 'a second survey',
          'Paragraph 2 says the published figures are then adjusted.'),
@@ -419,8 +431,9 @@ PAPER = dict(
          'Paragraph 4 says it followed thirty years of refusal.'),
         ('The religion question was added for methodological reasons.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 4 says it followed a political campaign rather than '
-         'a methodological argument.'),
+         'Paragraph 4 says it followed a political campaign rather '
+         'than a methodological argument.',
+         {0: 'Paragraph 4 says it followed a political campaign.', 2: 'Why the question was added is stated in paragraph 4.'}),
         (
          'Why are the religion figures not comparable with the others?',
          ['they were collected later', 'the question is voluntary', 'they were not published', 'the categories changed'],

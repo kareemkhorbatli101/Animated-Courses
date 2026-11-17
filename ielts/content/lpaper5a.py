@@ -140,9 +140,12 @@ LPAPER = dict(
          'commitment, and the funding we have runs for seven years.')],
        items=[
         ('When was the river straightened?',
-         ['the eighteen-sixties', 'the nineteen-sixties',
-          'the seventeen-sixties'], 0,
-         'It was done for drainage and shortened the river by a third.'),
+         ['the eighteen-sixties', 'the nineteen-sixties', 'the seventeen-sixties'],
+         0,
+         'It was done for drainage and shortened the river by a third.',
+         {1: 'The nineteen-sixties is a century later than the speaker '
+             'says.', 2: 'The seventeen-sixties is a century earlier than she '
+             'says.'}),
         ('Straightening roughly ____________ the speed of the water',
          None, 'doubled',
          'Which stopped silt being deposited on the bed.'),
@@ -157,9 +160,12 @@ LPAPER = dict(
         ('Four years in, invertebrate recovery is about ____________ of '
          'what was expected', None, 'half',
          'And it had been forecast by year three.'),
-        ('Dead wood has outperformed remeandering per pound by a factor '
-         'of about', ['three', 'thirteen', 'thirty'], 2,
-         'The speaker calls it the surprise of the scheme.'),
+        (
+         'Dead wood has outperformed remeandering per pound by a '
+         'factor of about', ['three', 'thirteen', 'thirty'], 2,
+         'The speaker calls it the surprise of the scheme.',
+         {0: 'Three is far below the factor the speaker gives.', 1: 'Thirteen is not the figure she quotes for the '
+             'comparison.'}),
         ('Fencing has produced dense ____________ in places',
          None, 'scrub', 'Which shades water that two target plants need '
          'light in.'),
@@ -226,7 +232,8 @@ LPAPER = dict(
         ('The supervisor says the opening sentence is',
          ['too technical', 'nine words of nothing', 'too long'], 1,
          'Because nobody reads an abstract to be told interest is '
-         'growing.'),
+         'growing.',
+         {0: 'The objection is not that the sentence is technical.', 2: 'Its length is not what the supervisor criticises.'}),
         ('Recovery is longer after the ____________ night shift',
          None, 'second', 'Than after the fourth, which is the finding.'),
         ('Number of participants: ____________', None, '31',
@@ -238,14 +245,17 @@ LPAPER = dict(
          'and the ____________', None, 'interval',
          'Because that tells a reader how big the effect is.'),
         ('The conflicting paper should be mentioned in',
-         ['a footnote', 'one clause of the abstract',
-          'the discussion only'], 1,
+         ['a footnote', 'one clause of the abstract', 'the discussion only'],
+         1,
          'A reviewer who knows it assumes otherwise that it was not '
-         'read.'),
+         'read.',
+         {0: 'A footnote is not available in an abstract.', 2: 'Leaving it to the discussion is what the supervisor '
+             'warns against.'}),
         ('The title should be',
          ['a question', 'a statement', 'a single word'], 1,
          'Because a title that states the finding can be quoted by '
-         'somebody who has not read the paper.'),
+         'somebody who has not read the paper.',
+         {0: 'A question cannot be quoted as a finding.', 2: 'A single word is not what the supervisor asks for.'}),
         ('The funder should be named in the ____________',
          None, 'declaration', 'Rather than in the abstract itself.'),
         ('The group should submit on the ____________', None, 'seventh',

@@ -118,37 +118,48 @@ LPAPER = dict(
          'website rather than ours.')],
        items=[
         ('The library building will',
-         ['close in September', 'stay open for longer hours',
-          'move to a new site'], 1,
+         ['close in September', 'stay open for longer hours', 'move to a new site'],
+         1,
          'Open fifty-four hours instead of thirty-two, with less '
-         'professional staffing.'),
+         'professional staffing.',
+         {0: 'The building is not closing; its hours are being '
+             'extended.', 2: 'No move is mentioned anywhere in the talk.'}),
         ('How many hours a week will a librarian be present?',
          None, '28', 'Down from thirty-two, while the building opens for '
          'fifty-four.'),
         ('Somebody needing help with a form should come',
          ['at any time', 'in the evening', 'between ten and four'], 2,
          'The speaker is explicit about when a librarian will be '
-         'there.'),
+         'there.',
+         {0: 'A librarian is there only between ten and four, not all '
+             'day.', 1: 'The evening hours are the ones with no professional '
+             'staff.'}),
         ('How many self-service machines will there be?',
          None, 'three', 'By the main door, for borrowing, returning and '
          'fines.'),
         ('The machines cannot deal with',
          ['fines', 'reservations from other branches', 'returns'], 1,
          'Those still need a member of staff, and the machines take no '
-         'cash either.'),
+         'cash either.',
+         {0: 'Fines are one of the things the machines do handle.', 2: 'Returns are handled by the machines; it is reservations '
+             'that are not.'}),
         ('Where will the children’s section move to?',
          None, 'upstairs',
          'Into what is at present the reference room.'),
         ('Last year the printed reference collection was used',
          ['eleven times', 'four hundred times', 'forty-one times'], 2,
          'The figure is given as the reason for reducing it to one '
-         'wall.'),
+         'wall.',
+         {0: 'Eleven is not a figure the talk gives for the '
+             'collection.', 1: 'Four hundred would not be a reason to reduce the '
+             'collection.'}),
         ('How many study tables will have power points?',
          None, 'four', 'Out of twelve, up from eight tables in total.'),
         ('Booking a table will be necessary',
-         ['every day', 'never',
-          'in the fortnight before public examinations'], 2,
-         'When the tables fill before the morning is over.'),
+         ['every day', 'never', 'in the fortnight before public examinations'],
+         2, 'When the tables fill before the morning is over.',
+         {0: 'Booking is needed in one fortnight of the year, not '
+             'every day.', 1: 'The speaker names a period when it will be necessary.'}),
         ('How many newspapers will still be taken?',
          None, 'two', 'Seven are being cancelled, and the saving pays for '
          'about a third of the extra hours.')]),
@@ -193,24 +204,31 @@ LPAPER = dict(
          None, '26', 'Dilan gives the figure at the start.'),
         ('How many has Dilan read properly?',
          ['four', 'six', 'fifteen'], 0,
-         'He has looked at about fifteen and read four.'),
+         'He has looked at about fifteen and read four.',
+         {1: 'Six is the number the other student has read properly.', 2: 'Fifteen is the number he has looked at, not read.'}),
         ('Priyasha has read six items',
          ['partly', 'from beginning to end', 'twice'], 1,
-         'And she has not opened the other twenty at all.'),
+         'And she has not opened the other twenty at all.',
+         {0: 'Partly is how the other student describes his own '
+             'reading.', 2: 'Nothing is said about reading any of them twice.'}),
         ('The essay question asks the students to',
-         ['summarise one approach', 'compare approaches',
-          'describe the list'], 1,
-         'Which is why neither reading strategy has worked.'),
+         ['summarise one approach', 'compare approaches', 'describe the list'],
+         1, 'Which is why neither reading strategy has worked.',
+         {0: 'Summarising one approach is what neither strategy '
+             'achieves.', 2: 'Describing the list is not what the question asks for.'}),
         ('According to the tutor, how many items should be read fully?',
          None, 'four', 'The rest are to be known about rather than '
          'read.'),
         ('The reading list is ordered by',
          ['the alphabet', 'date of publication', 'importance'], 2,
-         'The tutor says she ordered it and nobody noticed.'),
-        ('Priyasha’s notes are currently',
+         'The tutor says she ordered it and nobody noticed.',
+         {0: 'The tutor says the order is not alphabetical.', 1: 'Date of publication is not the ordering the tutor '
+             'describes.'}),
+        ('Priyasha\u2019s notes are currently',
          ['too short', 'a page a chapter', 'written on cards'], 1,
-         'And she never reads them again, which is the tutor’s '
-         'point.'),
+         'And she never reads them again, which is the tutor\u2019s point.',
+         {0: 'The notes are too long, not too short, which is the '
+             'problem.', 2: 'No cards are mentioned anywhere in the discussion.'}),
         ('A note should state what the author would say about the '
          '____________ question.', None, 'essay',
          'With the page number for the part that proves it.'),
