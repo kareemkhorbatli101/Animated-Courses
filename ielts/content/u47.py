@@ -1319,10 +1319,11 @@ UNIT = dict(
           ('The writer says any proxy measured at known points will '
            '____________ from what it stands for.', None, 'diverge',
            'Paragraph 8, through ordinary behaviour rather than cheating.'),
-          ('What standard does the writer say actual schemes are judged '
-           'by?', None, 'running for a decade without being abandoned',
-           'The final paragraph, which he calls lower than the economics '
-           'proposes.')])],
+          (
+           'Actual schemes are judged by running for a ____________ '
+           'without being abandoned.', None, 'decade',
+           'The final paragraph, which he calls lower than the '
+           'economics proposes.')])],
    listen=[
     dict(heading='A policy adviser and a farmer disagree', part='Part 4',
          task='A recorded exchange', band='l4', qtype='Questions 67-72',

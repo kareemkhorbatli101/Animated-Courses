@@ -210,8 +210,8 @@ UNIT = dict(
           'break most. Nobody is ever corrected for an accent, only for '
           'not trying.'],
          items=[
-          ('Where do telephones go?', None, 'in the box by the door',
-           'And they are taken out at the break.'),
+          ('Telephones go in the box by the ____________.', None,
+           'door', 'And they are taken out at the break.'),
           ('What should you do if you expect an urgent call?', None,
            'tell the teacher',
            'At the start, and keep the telephone on the desk.'),

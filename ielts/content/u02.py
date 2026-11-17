@@ -77,10 +77,11 @@ UNIT = dict(
           ('One referee must be a current or most recent '
            '____________.', None, 'employer',
            'Paragraph 4, where two referees are required.'),
-          ('Why are curricula vitae not accepted alone?', None,
-           'they cannot be compared',
-           'Paragraph 6: the panel compares applicants against the same '
-           'headings.')]),
+          (
+           'Curricula vitae are not accepted alone because they cannot '
+           'be ____________.', None, 'compared',
+           'Paragraph 6: the panel compares applicants against the '
+           'same headings.')]),
     dict(heading='How we shortlist', kind='Procedure notice',
          task='Flow-chart completion', band='gt_short',
          qtype='Questions 7-10',
@@ -1038,8 +1039,8 @@ UNIT = dict(
           ('The writer believes governments should slow down the '
            'adoption of machines.', ['True', 'False', 'Not Given'], 2,
            'No view on slowing adoption is expressed anywhere.'),
-          ('What do the predictions treat as fixed, according to the '
-           'writer?', None, 'the quantity of work',
+          ('The predictions treat the ____________ of work as fixed.',
+           None, 'quantity',
            'Paragraph 4, which is where they go wrong.'),
           ('The useful question concerns how a worker is supported '
            'through a ____________.', None, 'transition',

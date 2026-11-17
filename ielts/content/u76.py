@@ -79,10 +79,12 @@ UNIT = dict(
           ('Which advertised price applies to November only?',
            ['A', 'B', 'C', 'D'], 2,
            'The cruise, and only for an inside cabin.'),
-          ('Which offer does not take young children?', None, 'B',
-           'No children under twelve are accepted.'),
-          ('At which hotel is parking included?', None, 'D',
-           'Although breakfast is extra there.')])],
+          ('Which offer does not take young children?',
+           ['A', 'B', 'C', 'D'], 1,
+           'Offer B says no children under twelve are accepted.'),
+          ('At which hotel is parking included?',
+           ['A', 'B', 'C', 'D'], 3,
+           'Offer D includes parking, although breakfast is extra.')])],
    listen=[
     dict(heading='Booking a short break', part='Part 1',
          task='A telephone booking', band='l1',
@@ -248,13 +250,15 @@ UNIT = dict(
           ('Who prepares for weeks before travelling?',
            ['Ines', 'Karim', 'Ruth', 'all of them'], 1,
            'And sometimes enjoys the preparation more.'),
-          ('What does Ines say the pleasure is?', None,
-           'not having to decide anything',
+          (
+           'Ines says the pleasure is not having to ____________ '
+           'anything.', None, 'decide',
            'After a year of deciding things at work.'),
           ('Karim saw ____________ of the eleven things on his list.',
            None, 'nine', 'In a cathedral city, on his last trip.'),
-          ('Why does Ruth take a cruise?', None,
-           'her knee will not take long distances',
+          (
+           'Ruth takes a cruise because her ____________ will not take '
+           'long distances.', None, 'knee',
            'So the ship brings the places to her.'),
           ('Ruth says the usual insult comes from somebody who can '
            '____________.', None, 'walk',
@@ -483,8 +487,9 @@ UNIT = dict(
            'Which is the one measure that worked.'),
           ('The coach charge was forbidden by a ____________ rule.',
            None, 'national', 'So the council dropped the idea.'),
-          ('What was the commonest single request in the survey?',
-           None, 'that the toilets open before nine',
+          (
+           'The commonest request was that the toilets open before '
+           '____________.', None, 'nine',
            'Which is when the first coaches arrive.')])],
    listen=[
     dict(heading='A resident speaks at a public meeting', part='Part 2',
@@ -675,8 +680,7 @@ UNIT = dict(
           ('The advertised price is legal provided it is genuinely '
            '____________ to somebody.', None, 'available',
            'Paragraph 3, although it causes many complaints.'),
-          ('Why are unsold rooms cut in price near the date?', None,
-           'an empty room earns nothing',
+          ('An empty room earns ____________.', None, 'nothing',
            'Paragraph 4: it is worth nothing the next day.'),
           ('Which paragraph explains why no simple booking rule '
            'works?',
@@ -868,9 +872,8 @@ UNIT = dict(
           ('A car carrying four people emits about ____________ '
            'grams per person.', None, 'forty-three',
            'Paragraph 2, against a hundred and seventy for one.'),
-          ('What does the writer call the most useful fact?', None,
-           'how full the vehicle is matters more than what kind it is',
-           'Paragraph 2, after the car comparison.'),
+          ('The most useful fact is how ____________ the vehicle is.',
+           None, 'full', 'Paragraph 2, after the car comparison.'),
           ('A short-haul flight is around ____________ hundred and '
            'fifty grams.', None, 'two',
            'Paragraph 3, and the distances are far greater.'),

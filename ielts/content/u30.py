@@ -116,9 +116,10 @@ UNIT = dict(
          items=[
           ('How many welfare officers does the club appoint?', None, 'two',
            'Paragraph 2, of whom at least one is not a coach.'),
-          ('What will the club show but not photocopy?', None,
-           'the background check certificate',
-           'Paragraph 1, for the certificate holder’s privacy.'),
+          (
+           'The club will show but not photocopy the background check '
+           '____________.', None, 'certificate',
+           'Paragraph 1, for the certificate holder\u2019s privacy.'),
           ('How many adults travel when transport is unavoidable?', None,
            'two',
            'Paragraph 3, with parents told in advance who they are.'),
@@ -1213,11 +1214,10 @@ UNIT = dict(
           ('A rule limiting spending to a share of income is called a '
            '____________ rule.', None, 'ratio',
            'Paragraph 4, the form most competitions have adopted.'),
-          ('What does the writer say is the real problem that spending '
-           'limits address badly?', None,
-           'the steepness of the rewards',
-           'The final paragraph: the instrument leaves the steepness in '
-           'place.')])],
+          ('The real problem is the ____________ of the rewards.',
+           None, 'steepness',
+           'The final paragraph: the instrument leaves the steepness '
+           'in place.')])],
    listen=[
     dict(heading='An administrator and an economist disagree',
          part='Part 4', task='A recorded exchange', band='l4',

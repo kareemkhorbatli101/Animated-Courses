@@ -1165,9 +1165,10 @@ UNIT = dict(
           ('The yield gap is smallest in legumes and in ____________ '
            'years.', None, 'dry',
            'Paragraph 3, because better soil structure partly compensates.'),
-          ('What does the writer say is larger than the yield gap being '
-           'debated?', None,
-           'differences in diet, waste and livestock',
+          (
+           'Differences in diet, waste and ____________ are larger '
+           'than the yield gap being debated.', None,
+           'livestock',
            'Paragraph 6, in a food system built around less intensive '
            'production.')])],
    listen=[

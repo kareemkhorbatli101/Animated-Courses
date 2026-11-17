@@ -252,8 +252,9 @@ UNIT = dict(
           ('The bill for the fractures was ____________ hundred '
            'pounds.', None, 'eleven',
            'Most of which insurance covered.'),
-          ('What do both say the decision is really about?', None,
-           'a promise about years you cannot see yet',
+          (
+           'Both say the decision is really a promise about '
+           '____________ you cannot see yet.', None, 'years',
            'Because a dog lives twelve to fifteen years.'),
           ('They think people decide while thinking about the first '
            '____________ months.', None, 'six',
@@ -464,15 +465,14 @@ UNIT = dict(
           ('Which bird turns leaves over with its beak?',
            ['sparrow', 'blackbird', 'robin', 'all three'], 1,
            'Blackbirds feed on the ground.'),
-          ('What causes the commonest confusion in a garden?', None,
-           'the female blackbird is brown',
+          (
+           'The commonest confusion is that the female blackbird is '
+           '____________.', None, 'brown',
            'While the male is black with a yellow eye ring.'),
-          ('Why does the robin come close to a gardener?', None,
-           'it follows animals that turn soil',
-           'A gardener is the nearest available one.'),
-          ('What brings more species than a feeder?', None,
-           'a shallow dish of water',
-           'Changed daily, the guide says.'),
+          ('The robin follows animals that turn ____________.', None,
+           'soil', 'A gardener is the nearest available one.'),
+          ('What brings more species than a feeder does?', None,
+           'a shallow dish', 'Changed daily, the guide says.'),
           ('A thick ____________ matters more than anything you can '
            'buy.', None, 'hedge',
            'Because it surrounds part of the garden with cover.')])],
@@ -648,8 +648,9 @@ UNIT = dict(
          items=[
           ('A mass of eggs can hold ____________ thousand.', None,
            'two', 'Paragraph 2, and most do not survive.'),
-          ('What does the jelly round the eggs do?', None,
-           'holds water and makes the mass hard to swallow',
+          (
+           'The jelly holds water and makes the mass hard to '
+           '____________.', None, 'swallow',
            'Paragraph 2 says the jelly is not food.'),
           ('The tadpoles hatch after about ____________ weeks.', None,
            'three', 'Paragraph 2: the eggs are laid in spring.'),

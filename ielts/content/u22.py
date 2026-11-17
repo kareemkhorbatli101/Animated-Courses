@@ -1197,10 +1197,11 @@ UNIT = dict(
           ('An aggregate is produced by adding, and adding destroys '
            '____________.', None, 'information',
            'Paragraph 3, which is the core of the argument.'),
-          ('What four things does the writer say a claim may be about?',
-           None, 'a total, an average, a distribution, or a person',
-           'The final paragraph, with the evidence strongest for the first '
-           'and weakest for the last.')])],
+          (
+           'Besides a total, an average and a distribution, what may a '
+           'claim be about?', None, 'a person',
+           'The final paragraph, with the evidence strongest for the '
+           'first and weakest for the last.')])],
    listen=[
     dict(heading='Two economists disagree about adjustment', part='Part 4',
          task='A recorded exchange', band='l4', qtype='Questions 66-71',

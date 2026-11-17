@@ -1070,9 +1070,10 @@ UNIT = dict(
            'being sold at market prices.',
            ['True', 'False', 'Not Given'], 2,
            'No proposal about prices of that kind is made.'),
-          ('How long does housing take to move from a decision to a '
-           'family living in it?', None, 'three to eight years',
-           'Paragraph 2, which is why relief arrives late.'),
+          (
+           'Housing takes three to ____________ years to move from a '
+           'decision to a family living in it.', None,
+           'eight', 'Paragraph 2, which is why relief arrives late.'),
           ('The benefit of new building reaches poorer households only '
            '____________.', None, 'indirectly',
            'Paragraph 4, as other households move and release '

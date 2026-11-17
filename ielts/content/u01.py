@@ -162,7 +162,7 @@ UNIT = dict(
           ('Course starts: ____________ September', None, '23',
            'At six o’clock in the evening.'),
           ('Room: ____________', None, 'C14',
-           'Given at the end of the conversation.')])],
+           'The room is given at the very end of the conversation.')])],
    speak=dict(
     part='Part 1', focus='Your studies and why you chose them',
     intro=('Two or three sentences for each answer. One real reason is '
@@ -1017,9 +1017,10 @@ UNIT = dict(
            'as, in terms of cost?', None, 'a doubling',
            'Paragraph 2, which also calls it a reduction of a '
            'third.'),
-          ('According to the final paragraph, which group should '
-           'receive targeted help?', None, 'pupils who are behind',
-           'After better pay and more training.')])],
+          (
+           'According to the final paragraph, targeted support should '
+           'go to pupils who are ____________.', None,
+           'behind', 'After better pay and more training.')])],
    listen=[
     dict(heading='Two researchers disagree about class size',
          part='Part 4', task='A recorded discussion', band='l4',

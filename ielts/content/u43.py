@@ -1346,8 +1346,9 @@ UNIT = dict(
           ('Relative mobility is described as ____________ by '
            'construction.', None, 'zero-sum',
            'Paragraph 3: for one person to rise, another must fall.'),
-          ('What does the writer say a ministry with a single mobility '
-           'target will do?', None, 'take the cheaper route',
+          (
+           'A ministry with a single mobility target will take the '
+           '____________ route.', None, 'cheaper',
            'Paragraph 9: improving the relative figure among a small '
            'group.')])],
    listen=[

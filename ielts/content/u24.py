@@ -1154,8 +1154,8 @@ UNIT = dict(
            'are the ____________.', None, 'exposure',
            'Paragraph 6, with vulnerability as what the houses are made '
            'of.'),
-          ('What second number does the writer say is missing?', None,
-           'a number for exposure',
+          ('The second missing number is a number for ____________.',
+           None, 'exposure',
            'The final paragraph, which nobody has an incentive to '
            'produce.')])],
    listen=[

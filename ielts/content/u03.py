@@ -71,8 +71,9 @@ UNIT = dict(
            'five', 'Paragraph 3, confirmed by text message.'),
           ('At what time are appointments released each morning?', None,
            '8 a.m.', 'Paragraph 4, for that day and two weeks ahead.'),
-          ('How long should patients allow for a repeat '
-           'prescription?', None, 'two full working days',
+          (
+           'Patients should allow ____________ full working days for a '
+           'repeat prescription.', None, 'two',
            'Paragraph 5, and requests are not taken by telephone.'),
           ('Which number should be called when the surgery is '
            'closed?', None, '111',

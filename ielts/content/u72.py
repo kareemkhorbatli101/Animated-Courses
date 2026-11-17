@@ -110,11 +110,13 @@ UNIT = dict(
           ('Unclaimed tickets are held for the whole ____________.',
            None, 'season',
            'And can be collected at any later concert.'),
-          ('Why are tickets not posted?', None,
-           'the post is slower than the season is long',
+          (
+           'Tickets are not posted because the post is slower than the '
+           '____________ is long.', None, 'season',
            'The information page says so directly.'),
-          ('What should you bring if you lose a ticket?', None,
-           'the card you paid with',
+          (
+           'If you lose a ticket, bring the ____________ you paid '
+           'with.', None, 'card',
            'The name is checked and a replacement printed.')])],
    listen=[
     dict(heading='Booking seats by telephone', part='Part 1',
@@ -289,8 +291,9 @@ UNIT = dict(
            'Paragraph 2, meeting weekly instead.'),
           ('The writer was given ____________ minutes a day.', None,
            'fifteen', 'Paragraph 2, although an hour was wanted.'),
-          ('Why is practising a mistake for an hour bad?', None,
-           'it teaches the mistake',
+          (
+           'Practising a mistake for an hour teaches the ____________.',
+           None, 'mistake',
            'Paragraph 2: the mistake then takes a year to remove.'),
           ('The notebook recorded what went wrong and what '
            '____________ it.', None, 'fixed',

@@ -1193,10 +1193,11 @@ UNIT = dict(
            'the harm sits in ____________.', None, 'use',
            'Paragraph 6, which is diffuse, repeated and often invented '
            'later.'),
-          ('What does the writer say the real obstacle to repair is?', None,
-           'an opponent for each repair',
-           'The final paragraph: each repair has an identifiable opponent '
-           'with a reason to prefer the slogan.')])],
+          (
+           'The real obstacle to repair is an ____________ for each '
+           'repair.', None, 'opponent',
+           'The final paragraph: each repair has an identifiable '
+           'opponent with a reason to prefer the slogan.')])],
    listen=[
     dict(heading='A regulator and an engineer disagree', part='Part 4',
          task='A recorded exchange', band='l4', qtype='Questions 62-67',

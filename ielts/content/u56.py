@@ -185,7 +185,8 @@ UNIT = dict(
            'desk to the process query, so the two arrive separately.')],
          items=[
           ('Entry number: ____________', None, '7204',
-           'Given at the start of the call.'),
+           'The entry number is taken before anything else is '
+           'discussed.'),
           ('An entrant may query the ____________ but not the decision.',
            None, 'process',
            'A distinction the officer says is applied strictly.'),

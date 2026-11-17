@@ -1298,10 +1298,11 @@ UNIT = dict(
            '____________.', None, 'relic',
            'Paragraph 3, where the aesthetic experience is partly an '
            'experience of contact.'),
-          ('Which position does the writer say is not defensible?', None,
-           'that the difference is obvious',
-           'Paragraph 7: it has no answer to the question of what is being '
-           'compared.')])],
+          (
+           'It is not defensible to say the difference is '
+           '____________.', None, 'obvious',
+           'Paragraph 7: it has no answer to the question of what is '
+           'being compared.')])],
    listen=[
     dict(heading='A philosopher and a conservator disagree', part='Part 4',
          task='A recorded discussion', band='l4',

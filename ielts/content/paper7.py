@@ -52,8 +52,9 @@ PAPER = dict(
         'a book, and will order one from another branch at no charge '
         'if it is not here.'],
        items=[
-        ('Who may join the library?', None,
-         'anybody who lives, works or studies in the county',
+        (
+         'Membership is open to anybody who lives, works or studies in '
+         'the ____________.', None, 'county',
          'Paragraph 1, which also asks for proof of address.'),
         ('Proof of address must be from the last ____________ months.',
          None, 'three', 'Paragraph 1, and membership itself is free.'),

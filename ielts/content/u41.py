@@ -1338,8 +1338,10 @@ UNIT = dict(
           ('Before publication, critics could only dispute the minister’s '
            '____________.', None, 'characterisation',
            'Paragraph 5, whereas afterwards they could quote.'),
-          ('Which arrangement produces the accountability effects without '
-           'the candour effects?', None, 'publication after a decision',
+          (
+           'Which arrangement produces the accountability effects '
+           'without the candour cost?', None,
+           'publication afterwards',
            'Paragraph 8, which the writer says was discovered by '
            'accident.')])],
    listen=[

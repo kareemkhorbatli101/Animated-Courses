@@ -391,8 +391,9 @@ UNIT = dict(
           ('Two blocks of ____________ minutes work as well as one of '
            'twenty.', None, 'ten',
            'Which fits into a working day more easily.'),
-          ('Who should speak to a nurse first?', None,
-           'anybody with chest pain',
+          (
+           'Anybody with ____________ pain should speak to a nurse '
+           'first.', None, 'chest',
            'Or anybody breathing harder than the leaflet describes.')])],
    listen=[
     dict(heading='Joining the sports centre', part='Part 1',
@@ -777,10 +778,10 @@ UNIT = dict(
            '____________ it prefers.', None, 'failure',
            'Paragraph 3, and should say so plainly.'),
           ('What does the writer say matters more than the system?',
-           ['the system’s name', 'the number of hospitals',
-            'how much is spent and how early people are seen',
-            'the history of the country'], 2,
-           'Paragraph 3, the last sentence.')])],
+           ['the system\u2019s name', 'the number of hospitals', 'how much is spent and how early people are seen', 'the history of the country'],
+           2,
+           'Paragraph 3, the last sentence, which ranks the four '
+           'things.')])],
    listen=[
     dict(heading='Two people compare hospitals', part='Part 3',
          task='A discussion between two students', band='l3',

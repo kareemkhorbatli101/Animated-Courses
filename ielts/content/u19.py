@@ -837,7 +837,8 @@ UNIT = dict(
            'Seventy closures and the quarter that vanished.'),
           ('The writer believes roads should never be widened.',
            ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says the opposite explicitly.'),
+           'The final paragraph allows widening where the junction is '
+           'the constraint.'),
           ('The writer believes the engineers calculated the capacity '
            'wrongly.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 says they calculated it correctly.'),

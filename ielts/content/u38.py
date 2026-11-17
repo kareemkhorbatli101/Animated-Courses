@@ -1266,10 +1266,10 @@ UNIT = dict(
           ('In what year did the original authors publish the prediction '
            'about severity?', None, '2011',
            'Paragraph 4, before the replication was designed.'),
-          ('What does the writer say a repetition tests?', None,
-           'the conditions of the repetition',
-           'Paragraph 8: when those conditions differ in a way theory says '
-           'matters, a different claim has been tested.')])],
+          ('A repetition tests the ____________ of the repetition.',
+           None, 'conditions',
+           'Paragraph 8: when those conditions differ in a way theory '
+           'says matters, a different claim has been tested.')])],
    listen=[
     dict(heading='Two researchers disagree about replication', part='Part 4',
          task='A recorded exchange', band='l4', qtype='Questions 66-71',

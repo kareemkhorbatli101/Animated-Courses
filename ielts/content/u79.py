@@ -270,8 +270,9 @@ UNIT = dict(
            '____________.', None, 'November',
            'Which the writer says is suggestive but not '
            'conclusive.'),
-          ('What question did the reporter ask the school?', None,
-           'whether the hall floor had been replaced',
+          (
+           'The reporter asked whether the hall ____________ had been '
+           'replaced.', None, 'floor',
            'A question with a checkable answer.'),
           ('The floor was replaced in ____________.', None,
            'December', 'And the photograph showed the old floor.'),
@@ -879,8 +880,7 @@ UNIT = dict(
           'any year it had been asked about, and several respondents '
           'mentioned the corrections unprompted as their reason.'],
          items=[
-          ('What was actually happening to the bus route?', None,
-           'it was being altered',
+          ('The bus route was being ____________.', None, 'altered',
            'Paragraph 1: altered, not withdrawn.'),
           ('The correction appeared ____________ days later.', None,
            'eight', 'Paragraph 1, in a box on page two.'),
@@ -894,10 +894,9 @@ UNIT = dict(
           ('Recall rose to ____________ per cent after the change in '
            'practice.', None, 'thirty-one',
            'Paragraph 3, when corrections matched the original.'),
-          ('What was the argument inside the building about?', None,
-           'the fear of looking unreliable',
-           'Paragraph 4: not about accuracy, which nobody '
-           'opposed.'),
+          ('The argument was about the fear of looking ____________.',
+           None, 'unreliable',
+           'Paragraph 4: not about accuracy, which nobody opposed.'),
           ('Several survey respondents mentioned the corrections '
            '____________.', None, 'unprompted',
            'Paragraph 4, as a reason for trusting the paper.')])],

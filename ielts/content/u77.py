@@ -470,8 +470,9 @@ UNIT = dict(
           ('Spinning and weaving go where ____________ is steady.',
            None, 'power',
            'Paragraph 2, because they are done by machine.'),
-          ('Why are cutting and sewing still done by hand?', None,
-           'cloth is floppy and machines handle it badly',
+          (
+           'Cutting and sewing stay manual because cloth is '
+           '____________.', None, 'floppy',
            'Paragraph 2, so those stages follow low wages.'),
           ('Shipping produces less than a ____________ of the '
            'emissions of growing and making.', None, 'tenth',
@@ -480,7 +481,7 @@ UNIT = dict(
            'and ____________.', None, 'dyeing',
            'Paragraph 3, before the shirt moves.'),
           ('Which action affects every stage at once?', None,
-           'buying fewer shirts and keeping them longer',
+           'buying fewer shirts',
            'Paragraph 4, which advertisements do not say.')])],
    listen=[
     dict(heading='A talk on the clothing supply chain', part='Part 4',
@@ -846,8 +847,9 @@ UNIT = dict(
           ('Households buy roughly ____________ as many garments as '
            'in 2000.', None, 'twice',
            'Paragraph 1, and keep each about half as long.'),
-          ('Why is recycling weak?', None,
-           'most garments are mixtures of fibres',
+          (
+           'Recycling is weak because most garments are mixtures of '
+           '____________.', None, 'fibres',
            'Paragraph 2: no cheap process separates them.'),
           ('Most collected clothing is shredded or ____________ for '
            'energy.', None, 'burned',

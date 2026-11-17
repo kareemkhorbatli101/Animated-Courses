@@ -1132,8 +1132,9 @@ UNIT = dict(
           ('A published value describes the situation about ____________ '
            'days earlier.', None, 'ten',
            'Paragraph 5, because of reporting delays and smoothing.'),
-          ('What does the writer say happens to uncertainty as it travels '
-           'through an institution?', None, 'it is removed at each step',
+          (
+           'Uncertainty is ____________ at each step as it travels '
+           'through an institution.', None, 'removed',
            'The final paragraph, by people who are each behaving '
            'reasonably.')])],
    listen=[

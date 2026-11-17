@@ -78,9 +78,11 @@ UNIT = dict(
           ('The Everyday Account offers an overdraft after ____________ '
            'months.', None, 'six',
            'Of up to £250, unlike the Plus which is immediate.'),
-          ('All applicants must provide photographic identification and a '
-           '____________ Insurance number.', None, 'National',
-           'The final paragraph, which applies to all four.'),
+          (
+           'All applicants must provide photographic identification '
+           'and a ____________ Insurance number.', None,
+           'National',
+           'The final paragraph, which applies to all four accounts.'),
           ('Applications made online take ____________ working days.',
            None, 'three',
            'Against the same day for applications made in a branch.')]),
@@ -589,11 +591,13 @@ UNIT = dict(
           'larger total, and a reader who misses that reaches the opposite '
           'conclusion from the correct one.'],
          items=[
-          ('Which paragraph warns that a falling share is not falling '
+          (
+           'Which paragraph warns that a falling share is not falling '
            'spending?',
-           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
-            'Paragraph 6'], 3,
-           'The higher-income group spends more on food in pounds.'),
+           ['Paragraph 3', 'Paragraph 4', 'Paragraph 5', 'Paragraph 6'],
+           3,
+           'Paragraph 3 is where the share and the amount are '
+           'separated.'),
           ('Which paragraph groups two categories that behave alike?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',
             'Paragraph 5'], 1,
@@ -666,7 +670,8 @@ UNIT = dict(
            'Against fifty-six in the lower-income group.'),
           ('The trap he describes is that a share is not an',
            ['average', 'amount', 'estimate', 'index'], 1,
-           'The higher-income group spends more on food in pounds.'),
+           'He names the trap: the higher-income group spends more in '
+           'pounds.'),
           ('He says newspaper corrections, if printed at all, appear on '
            'page ____________.', None, 'nineteen',
            'While the original claim appears at the front.'),

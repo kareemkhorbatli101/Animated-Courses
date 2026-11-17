@@ -1184,8 +1184,9 @@ UNIT = dict(
           ('Models are built from household surveys recording '
            '____________ journeys.', None, 'purposeful',
            'Paragraph 3: commuting, school, shopping and business.'),
-          ('What does the writer say should be published on the first '
-           'page?', None, 'the model boundary and the trip types',
+          (
+           'Besides the trip types, what should be published on the '
+           'first page?', None, 'the model boundary',
            'The final paragraph, as part of a procedural repair.')])],
    listen=[
     dict(heading='A planner and a resident disagree', part='Part 4',

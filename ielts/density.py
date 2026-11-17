@@ -103,6 +103,17 @@ SYNTAX_BY_VOL = {
     4: dict(sent=(21.6, 23.6), longest=54, nominal=(4.0, 5.0)),
     5: dict(sent=(22.3, 24.3), longest=58, nominal=(4.4, 5.4)),
     6: dict(sent=(23.0, 25.0), longest=62, nominal=(5.1, 6.1))}
+# Gated: the model answers, measured against the book's own passages.
+# Nothing profiled the models until now, which is how they came to be
+# EASIER than the passages in every book - V6 models 66.2% k1 against
+# 62.6% in its prose - while a reviewer read them as pitched too high.
+# The register was accidental. These two numbers make it deliberate:
+# a model may be plainer than the passages it sits among, by up to
+# MODEL_EASIER points of k1, and may never be harder.
+MODEL_EASIER = 4.5      # the most a band-9 model may fall below its book
+MODEL_HARDER = 0.5      # the little it may rise above it
+MODEL65_EASIER = 9.0    # a band-6.5 model is plainer still, on purpose
+
 # the order the books are read in, for the ladder check
 LADDER_ORDER = [7, 8, 1, 2, 3, 4, 5, 6]
 MIN_STEP = 0.4          # the smallest rise that counts as a step
@@ -194,6 +205,44 @@ def measure(vol, R):
     return out
 
 
+def models(vol):
+    """Every model answer in a book, and every band-6.5 second model."""
+    nine, sixfive = [], []
+    lo = 21 + (vol - 3) * 10
+    for n in range(lo, lo + 10):
+        m = _load('u%02d' % n)
+        if m is None:
+            continue
+        for c in m.UNIT['cycles']:
+            for w in c['write']:
+                if w.get('model'):
+                    nine.append(' '.join(w['model']))
+                if w.get('model65'):
+                    sixfive.append(' '.join(w['model65']))
+    return nine, sixfive
+
+
+def model_row(vol, R, base):
+    """The two model sets measured against the book's own passages."""
+    nine, sixfive = models(vol)
+    rows = []
+    for name, texts, easier in (('band-9 models', nine, MODEL_EASIER),
+                                ('band-6.5 models', sixfive, MODEL65_EASIER)):
+        if not texts:
+            continue
+        r = P.profile(name, texts, R)
+        d = r['bands']['1k'] - base
+        bad = []
+        if d > easier:
+            bad.append('%.1f points plainer than the passages, limit %.1f'
+                       % (d, easier))
+        if d < -MODEL_HARDER:
+            bad.append('%.1f points harder than the passages, limit %.1f'
+                       % (-d, MODEL_HARDER))
+        rows.append((name, r, d, bad))
+    return rows
+
+
 def ladder(R):
     """The eight books in reading order: are the measured means rising?"""
     print('THE SYNTAX LADDER - all eight books, gated prose\n')
@@ -274,6 +323,18 @@ def main():
             bad = 1
     print('\nWindow: sent %.1f-%.1f   longest <= %d   nominal %.1f-%.1f'
           % (WIN['sent'] + (WIN['longest'],) + WIN['nominal']))
+    print('\n\nGATED (the model answers, against this book\'s own passages)\n')
+    head = ('%-24s %8s %8s %9s   %s'
+            % ('set', '1k', 'beyond4k', 'vs prose', 'verdict'))
+    print(head)
+    print('-' * len(head))
+    base = keep['unit academic passages']['k1']
+    for name, r, d, f in model_row(vol, R, base):
+        print('%-24s %7.1f%% %7.1f%% %+8.1f   %s'
+              % (name, r['bands']['1k'], r['over4k'], d,
+                 'in window' if not f else '; '.join(f)))
+        if f:
+            bad = 1
     print('\nRun `python3 density.py --ladder` for the eight books together, '
           'which is\nwhere the rising-step part of the gate is checked.')
     return bad

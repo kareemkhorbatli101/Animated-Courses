@@ -785,11 +785,13 @@ UNIT = dict(
           'disagreement between them as information rather than as '
           'somebody being wrong.'],
          items=[
-          ('Winters have warmed by about ____________ degrees in sixty '
-           'years.', None, 'one and a half',
+          (
+           'Winters have warmed by about ____________ degrees in sixty '
+           'years.', None, '1.5',
            'Paragraph 1, so the memory points at something real.'),
-          ('Why are the famous winters remembered?', None,
-           'they were unusual at the time',
+          (
+           'The famous winters are remembered because they were '
+           '____________ at the time.', None, 'unusual',
            'Paragraph 1: a typical winter is not stored.'),
           ('People remember events and instruments record '
            '____________.', None, 'means',

@@ -71,9 +71,10 @@ UNIT = dict(
            'At £150, though materials add £24.'),
           ('Mandarin classes are capped at ____________ students.', None,
            'eight', 'Against the usual sixteen on other courses.'),
-          ('Enrolment closes ____________ week before the first class.',
+          (
+           'Enrolment closes ____________ week before the first class.',
            None, 'one',
-           'The final paragraph, which applies to all four.'),
+           'The final paragraph, which applies to all four courses.'),
           ('A place is held without payment for ____________ days.', None,
            'seven', 'From the date of booking, with payment due after that.')]),
     dict(heading='Placement and refunds',

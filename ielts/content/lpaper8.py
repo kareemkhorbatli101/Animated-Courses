@@ -125,8 +125,9 @@ LPAPER = dict(
         ('In the eighteenth century fuel cost more than '
          '____________.', None, 'flour',
          'Which is the speaker’s explanation for sharing.'),
-        ('What ended the village oven?', None,
-         'cheap coal and the iron range',
+        (
+         'The village oven was ended by cheap coal and the iron '
+         '____________.', None, 'range',
          'Which put an oven in a wall heated anyway.'),
         ('Meetings were held in the building until ____________.',
          None, '1951', 'Recorded in minute books in the parish '

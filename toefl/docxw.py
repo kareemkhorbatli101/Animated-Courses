@@ -386,6 +386,12 @@ class Doc:
                                run(because, sz=20)],
                               '<w:spacing w:after="46"/><w:ind w:left="200"/>'))
 
+    def wrongline(self, letter, because):
+        """Why a wrong option was wrong: the promise the key page makes."""
+        self.body.append(para([run('(%s)  ' % letter, b=True, color=PLUM, sz=19),
+                               run(because, sz=19, i=True)],
+                              '<w:spacing w:after="26"/><w:ind w:left="520"/>'))
+
     # ---------- output ----------
     def save(self, path):
         doc = ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'

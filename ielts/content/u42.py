@@ -1374,8 +1374,9 @@ UNIT = dict(
            '____________ entered by default.', None, 'zero',
            'Paragraph 8, which argues for an estimate with wide bounds '
            'instead.'),
-          ('What two things should a decision to delay carry?', None,
-           'a review date and a condition for lifting it',
+          (
+           'Besides a review date, what should a decision to delay '
+           'carry?', None, 'a condition',
            'Paragraph 9, to prevent a precaution becoming a permanent '
            'prohibition.')])],
    listen=[

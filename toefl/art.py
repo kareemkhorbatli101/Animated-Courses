@@ -162,12 +162,20 @@ def shrink_to(text, width_px, size, bold=False, mono=False, floor=0.82):
 # Every fitted run records the box it promised to stay inside, so the audit can
 # prove the promise rather than infer it. Collected only when FITLOG is a list.
 FITLOG = None
+# Boxes, and which block of text was drawn into them. Collected only when
+# RECTLOG is a list. gate8 uses the pair to prove that a text block stays
+# inside the rectangle drawn around it, which FITLOG alone cannot show:
+# FITLOG proves a line fits its WIDTH, and a box overflows DOWNWARDS.
+RECTLOG = None
+_FIG = [0]            # which figure we are inside
+_BLK = [0]            # which block of lines a run belongs to
 
 
-def _note(x, y, text, size, bold, mono, anchor, max_w):
+def _note(x, y, text, size, bold, mono, anchor, max_w, blk=None):
     if FITLOG is not None:
         FITLOG.append(dict(x=x, y=y, s=text, size=size, bold=bool(bold), mono=bool(mono),
-                           anchor=anchor, max_w=max_w))
+                           anchor=anchor, max_w=max_w, fig=_FIG[0],
+                           blk=_BLK[0] if blk is None else blk))
 
 
 def TFIT(x, y, text, size, max_w, fill=None, bold=False, anchor='start',
@@ -181,7 +189,8 @@ def TFIT(x, y, text, size, max_w, fill=None, bold=False, anchor='start',
     s = shrink_to(text, max_w, size, bold, mono, floor)
     if tw(text, s, bold, mono) > max_w:
         s = max(8.0, s * max_w / tw(text, s, bold, mono))
-    _note(x, y, text, s, bold, mono, anchor, max_w)
+    _BLK[0] += 1
+    _note(x, y, text, s, bold, mono, anchor, max_w, _BLK[0])
     return T(x, y, text, s, INK if fill is None else fill, bold, anchor, italic, mono)
 
 
@@ -195,9 +204,11 @@ def TBLOCK(x, y, text, size, max_w, lead=None, fill=None, bold=False,
     lead = lead if lead is not None else size * 1.38
     lns = lines if lines is not None else fit(text, max_w, size, bold, mono)
     out = []
+    _BLK[0] += 1
+    blk = _BLK[0]
     for i, ln in enumerate(lns):
         yy = y + i * lead
-        _note(x, yy, ln, size, bold, mono, anchor, max_w)
+        _note(x, yy, ln, size, bold, mono, anchor, max_w, blk)
         out.append(T(x, yy, ln, size, INK if fill is None else fill, bold, anchor, italic, mono))
     return ''.join(out), len(lns), (len(lns) - 1) * lead
 
@@ -215,6 +226,8 @@ def T(x, y, s, size=20, fill=INK, bold=False, anchor='middle', italic=False, mon
 
 
 def R(x, y, w, h, fill='none', stroke=None, sw=2, rx=0):
+    if RECTLOG is not None:
+        RECTLOG.append(dict(x=x, y=y, w=w, h=h, fig=_FIG[0]))
     return ('<rect x="%g" y="%g" width="%g" height="%g" rx="%g" fill="%s"%s/>'
             % (x, y, w, h, rx, fill,
                ' stroke="%s" stroke-width="%g"' % (stroke, sw) if stroke else ''))
@@ -454,6 +467,7 @@ def icon(name, x, y, s=1.0):
 
 # ---- renderer ---------------------------------------------------------------
 def render(svg_body, w, h, bg=PAPER):
+    _FIG[0] += 1
     svg = ('<svg xmlns="http://www.w3.org/2000/svg" width="%d" height="%d" viewBox="0 0 %d %d">'
            '<rect width="%d" height="%d" fill="%s"/>%s</svg>' % (w, h, w, h, w, h, bg, svg_body))
     key = hashlib.sha1(svg.encode()).hexdigest()

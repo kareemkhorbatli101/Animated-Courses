@@ -161,7 +161,8 @@ UNIT = dict(
           ('Special requirement: a room at ____________ level', None,
            'stage', 'For a performer who cannot manage stairs.'),
           ('Booking reference: R-____________', None, '639',
-           'Spelled out at the end of the call.')])],
+           'The hall reference is confirmed twice at the end of the '
+           'call.')])],
    speak=dict(
     part='Part 1', focus='Music you play or listen to',
     intro=('Two or three sentences each. Name the music rather than '
@@ -317,7 +318,8 @@ UNIT = dict(
            'A record made in order to sell concert tickets.'),
           ('Which musician objects to how uneven the income is?',
            ['Rosalind', 'Ambrose', 'Hyacinth', 'Thelonius'], 3,
-           'Forty-one thousand one year and nine the next.'),
+           'Forty-one thousand one year and nine the next, in her '
+           'account.'),
           ('Ambrose believes streaming pays musicians fairly.',
            ['Yes', 'No', 'Not Given'], 2,
            'He says the figure is small and that it is the wrong '
@@ -367,7 +369,7 @@ UNIT = dict(
            'Tickets and merchandise together.'),
           ('He says the real problem is not the amount but the',
            ['delay', 'variance', 'contract', 'commission'], 1,
-           'Forty-one thousand one year and nine the next.'),
+           'He contrasts the two figures to make unevenness the point.'),
           ('His advice is to build ____________ sources of income.',
            None, 'four', 'Rather than one large source that may disappear.')]),
     dict(heading='Two musicians on streaming income', part='Part 3',

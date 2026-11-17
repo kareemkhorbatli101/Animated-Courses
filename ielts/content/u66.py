@@ -218,8 +218,7 @@ UNIT = dict(
           ('Telephone the supervisor before ____________ in the '
            'morning.', None, 'seven',
            'A text message is not accepted instead.'),
-          ('Why is a text message not accepted?', None,
-           'the supervisor will not see it',
+          ('Who will not see a text message?', None, 'the supervisor',
            'Because the supervisor is not at a desk.'),
           ('A six-hour shift has a break of ____________ minutes.',
            None, 'thirty', 'An hour is given on nine hours or more.')])],
@@ -753,10 +752,10 @@ UNIT = dict(
           ('Earlier waves replaced ____________ work.', None,
            'physical', 'Paragraph 3, leaving the judging to people.'),
           ('What does the writer say about anybody who is certain?',
-           ['they have read the evidence',
-            'they are describing their temperament',
-            'they are probably right', 'they work in software'], 1,
-           'Paragraph 3, the last sentence.')])],
+           ['they have read the evidence', 'they are describing their temperament', 'they are probably right', 'they work in software'],
+           1,
+           'Paragraph 3, the last sentence, which is about certainty '
+           'itself.')])],
    listen=[
     dict(heading='Two students disagree about automation',
          part='Part 3',

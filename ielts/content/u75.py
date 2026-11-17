@@ -90,9 +90,10 @@ UNIT = dict(
            'four', 'It opens at nine in the morning.'),
           ('Council tax is charged from the day you ____________.',
            None, 'move in', 'Not from the day you tell the council.'),
-          ('What is the commonest complaint the council receives?',
-           None, 'that registering for tax does not register you to '
-           'vote', 'The tax list and the voting list are separate.'),
+          (
+           'Registering for tax does not register you to ____________.',
+           None, 'vote',
+           'The tax list and the voting list are separate.'),
           ('Recycling boxes arrive within ____________ working days.',
            None, 'ten', 'After you tell the council you have '
            'arrived.')])],
@@ -259,8 +260,9 @@ UNIT = dict(
           ('Who values the street because of the school?',
            ['Yvette', 'Mo', 'Dilek', 'none of them'], 1,
            'He knows sixty people by sight because of it.'),
-          ('What does Yvette say changed the street?', None,
-           'the bus route moved',
+          (
+           'Yvette says the street changed when the ____________ '
+           'moved.', None, 'bus route',
            'It moved two streets away in 2011.'),
           ('The shops at the near end closed within ____________ '
            'years.', None, 'four', 'They closed after the bus route moved.'),
@@ -478,9 +480,8 @@ UNIT = dict(
            'From half past eight in the morning.'),
           ('The route crosses the bypass on a ____________.', None,
            'bridge', 'On a bridge rather than at the junction.'),
-          ('Which section is poor in winter?', None,
-           'the old railway section',
-           'Where the surface is loose stone.')])],
+          ('Which section of the route is poor in winter?', None,
+           'the old railway', 'Where the surface is loose stone.')])],
    listen=[
     dict(heading='Describing the new route', part='Part 2',
          task='One speaker describing a scheme', band='l2',
@@ -862,8 +863,9 @@ UNIT = dict(
           ('The third answer means using the homes that '
            '____________.', None, 'exist',
            'Paragraph 3, including empty rooms.'),
-          ('Why do almost no towns try the third answer?', None,
-           'it means telling people what to do with their property',
+          (
+           'The third answer means telling people what to do with '
+           'their ____________.', None, 'property',
            'Paragraph 3, the last sentence of it.'),
           ('A town that refuses all three has chosen that prices keep '
            '____________.', None, 'rising',

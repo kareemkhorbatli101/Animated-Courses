@@ -140,8 +140,8 @@ LPAPER = dict(
          'somebody. A confident wrong answer reaches a parent by teatime '
          'and reaches me by Thursday.')],
        items=[
-        ('The farm occupies ____________ acres.', None, 'four and a '
-         'half', 'Between a railway line and a retail park.'),
+        ('The farm occupies ____________ acres.', None, '4.5',
+         'Between a railway line and a retail park.'),
         ('It has been farmed since ____________.', None, '1978',
          'And now receives about forty thousand visitors a year.'),
         ('Paid staff: the coordinator and ____________ livestock '

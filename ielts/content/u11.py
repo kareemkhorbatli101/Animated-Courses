@@ -168,7 +168,7 @@ UNIT = dict(
           ('Appointment: Thursday the fourth at ____________', None,
            '10.15', 'Thirty minutes is allowed for it.'),
           ('Reference: B-____________', None, '724',
-           'Spelled out at the end of the call.')])],
+           'The booking reference is spelled out as the call ends.')])],
    speak=dict(
     part='Part 1', focus='Your family and where they live',
     intro=('Two or three sentences for each question. Give one real '

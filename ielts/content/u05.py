@@ -1042,9 +1042,10 @@ UNIT = dict(
           ('The writer believes search companies should be broken '
            'up.', ['True', 'False', 'Not Given'], 2,
            'No view on company structure is expressed.'),
-          ('On which kind of question does an interested party invest '
-           'in being seen first?', None, 'a medicine, a legal right '
-           'or a product',
+          (
+           'An interested party invests in being seen where the '
+           'question concerns a medicine, a legal right or a '
+           '____________.', None, 'product',
            'Paragraph 3, where somebody gains from the answer.'),
           ('Every previous rule that became known was ____________ '
            'within a few years.', None, 'exploited',

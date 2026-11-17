@@ -76,9 +76,8 @@ UNIT = dict(
            'The light then flashes orange.'),
           ('Wait until the light is steady ____________.', None,
            'green', 'Which takes about two minutes, sometimes four.'),
-          ('Where is the password printed?', None,
-           'on the card underneath',
-           'With the network name, the leaflet says.'),
+          ('The password is printed on the ____________ underneath.',
+           None, 'card', 'With the network name, the leaflet says.'),
           ('If the light is steady red, unplug the power for '
            '____________ seconds.', None, 'thirty',
            'Then begin again from the second step.')]),
@@ -299,8 +298,8 @@ UNIT = dict(
           ('Which family’s rule has no exceptions?',
            ['the Nowaks', 'the Baptistes', 'both', 'neither'], 0,
            'No screens at all on weekdays.'),
-          ('What do the Nowaks admit about their eldest child?', None,
-           'she watches at a friend’s house',
+          ('Where do the Nowaks admit their eldest child watches?',
+           None, 'a friend\u2019s house',
            'Which they did not intend and cannot prevent.'),
           ('The Baptistes chose their rule because it is '
            '____________.', None, 'visible',
@@ -522,9 +521,9 @@ UNIT = dict(
           ('A washing machine that leaks usually needs a seal costing '
            '____________ pounds.', None, 'eight',
            'Paragraph 2, against under twenty for a fridge part.'),
-          ('What is the difficulty the writer identifies?', None,
-           'nobody can tell which failure they have without opening '
-           'the machine',
+          (
+           'Nobody can tell which failure they have without '
+           '____________ the machine.', None, 'opening',
            'Paragraph 3, and opening it is what people avoid.'),
           ('About ____________ machines in ten leave the repair cafe '
            'working.', None, 'six',
@@ -895,11 +894,14 @@ UNIT = dict(
           'that would otherwise spoil, and that time has stayed '
           'saved.'],
          items=[
-          ('Which three machines does the writer name?', None,
-           'running water, the washing machine and the fridge',
+          (
+           'Besides running water and the washing machine, which '
+           'machine does the writer name?', None,
+           'the fridge',
            'Paragraph 1, rather than the vacuum or dishwasher.'),
-          ('What do the three have in common?', None,
-           'they removed work measured in hours a day',
+          (
+           'The three removed work that was measured in ____________ a '
+           'day.', None, 'hours',
            'Paragraph 1, rather than minutes.'),
           ('Surveys from the ____________ put water carrying at '
            'several hours daily.', None, 'nineteen-twenties',
@@ -913,8 +915,9 @@ UNIT = dict(
            'absorbed?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 2,
            'Rising standards followed labour-saving machines.'),
-          ('Why is the fridge the clearest exception?', None,
-           'it removed a daily journey rather than raising a standard',
+          (
+           'The fridge removed a daily ____________ rather than '
+           'raising a standard.', None, 'journey',
            'Paragraph 4, and that time has stayed saved.')])],
    listen=[
     dict(heading='A historian on the washing machine', part='Part 4',

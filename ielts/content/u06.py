@@ -102,8 +102,10 @@ UNIT = dict(
            'Paragraph 1, along with a route description each day.'),
           ('On which holidays does a guide accompany the group?', None,
            'grade 4', 'Paragraph 2, and on no others.'),
-          ('How long before departure can a booking be changed free of '
-           'charge?', None, 'more than eight weeks',
+          (
+           'A booking can be changed free of charge more than '
+           '____________ weeks before departure.', None,
+           'eight',
            'Paragraph 3, after which it counts as a cancellation.'),
           ('What percentage is charged for cancelling within four '
            'weeks?', None, '60 per cent',
@@ -1042,7 +1044,7 @@ UNIT = dict(
            'It was unsustainable politically because of residents, not '
            'visitors.'),
           ('By how much did day numbers fall in the second town?',
-           None, 'about eleven per cent',
+           None, '11 per cent',
            'Paragraph 3, while total spending rose.'),
           ('In the fourth town, shoulder months rose by ____________ '
            'per cent.', None, 'nineteen',

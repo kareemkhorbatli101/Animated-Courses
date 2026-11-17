@@ -100,8 +100,9 @@ UNIT = dict(
            'three', 'Paragraph 1, on weekdays only.'),
           ('What is the adult-to-child ratio for under-eights?', None,
            'one to two', 'Paragraph 2, with the adult in the water.'),
-          ('Where are outdoor shoes not permitted?', None, 'beyond '
-           'the changing room door',
+          (
+           'Outdoor shoes are not permitted beyond the changing room '
+           '____________.', None, 'door',
            'Paragraph 3, the rule most often broken.'),
           ('At what time does the pool reopen after monthly '
            'cleaning?', None, '14.00',
@@ -156,7 +157,7 @@ UNIT = dict(
           ('Suspension costs £____________ a month.', None, '5',
            'For up to three months, with a month’s notice.'),
           ('Membership number: RC____________', None, '804',
-           'Given at the end of the conversation.')])],
+           'The membership number follows the RC prefix, at the end.')])],
    speak=dict(
     part='Part 1', focus='Exercise you take',
     intro=('Two or three sentences each. Say what you actually do, not '

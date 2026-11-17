@@ -74,9 +74,8 @@ UNIT = dict(
            'sixteen', 'And membership is forty pounds a term.'),
           ('Where does the running group start?', None, 'reception',
            'At nine o clock on Saturday morning.'),
-          ('Why must runners sign in?', None,
-           'the group waits for everybody who signed in',
-           'It does not start until they have all arrived.'),
+          ('The group waits for everybody who ____________ in.', None,
+           'signed', 'It does not start until they have all arrived.'),
           ('Ten table tennis sessions cost ____________ pounds.', None,
            'twenty-one', 'Against four pounds for a single session.')])],
    listen=[
@@ -392,11 +391,11 @@ UNIT = dict(
           ('Who values the hobby for the time rather than the '
            'result?', ['Ana', 'Bilal', 'Cora'], 1,
            'Bilal says the vegetables are not the point.'),
-          ('How often does Ana repair a bicycle?', None,
-           'about one a week', 'For friends, taking only the cost of '
-           'parts.'),
-          ('What did Cora find hardest?', None,
-           'being the worst person in the room',
+          ('How often does Ana repair a bicycle?', None, 'one a week',
+           'For friends, taking only the cost of parts.'),
+          (
+           'Cora found it hardest to be the worst person in the '
+           '____________.', None, 'room',
            'For the first six weeks, she says.')])],
    listen=[
     dict(heading='A talk about starting a hobby', part='Part 2',

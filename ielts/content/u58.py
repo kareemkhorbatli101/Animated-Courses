@@ -181,7 +181,7 @@ UNIT = dict(
           ('Caller', 'Eleven.')],
          items=[
           ('Village affected: Nether ____________', None, 'Haldane',
-           'Given at the start of the call.'),
+           'The village name is given in the caller\u2019s first sentence.'),
           ('Warning in force: ____________ for rain, from 6am', None,
            'yellow',
            'Covering the county, with no amber or red.'),

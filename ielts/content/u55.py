@@ -179,8 +179,8 @@ UNIT = dict(
            'purpose, so that a first complaint is not a catastrophe for '
            'anybody.')],
          items=[
-          ('Caller’s plot number: ____________', None, '47B',
-           'Given at the start of the call.'),
+          ('Caller\u2019s plot number: ____________', None, '47B',
+           'The plot number is given as the caller introduces herself.'),
           ('The committee will ask whether the caller has ____________ to '
            'the other plot-holder.', None, 'spoken',
            'Four disputes in five end at that conversation.'),
@@ -1018,10 +1018,10 @@ UNIT = dict(
           'creditable one.'],
          items=[
           ('Choose the best heading for paragraph 2.',
-           ['The failed prediction', 'A comparative research programme',
-            'The eight features', 'Description against '
-            'prescription'], 1,
-           'Several hundred cases across four kinds of resource.'),
+           ['The failed prediction', 'A comparative research programme', 'The eight features', 'Description against prescription'],
+           1,
+           'Paragraph 2 is the scale of the fieldwork: several hundred '
+           'cases.'),
           ('Choose the best heading for paragraph 6.',
            ['Monitoring by users', 'Why sanctions begin trivially',
             'Nesting at scale', 'What is absent from the list'], 1,
@@ -1111,9 +1111,10 @@ UNIT = dict(
            ['argument', 'fieldwork', 'simulation', 'legislation'], 1,
            'Which the lecturer says is rarer than it sounds.'),
           ('The research programme is described as',
-           ['theoretical', 'comparative', 'experimental',
-            'historical'], 1,
-           'Several hundred cases across four kinds of resource.'),
+           ['theoretical', 'comparative', 'experimental', 'historical'],
+           1,
+           'The programme covered four kinds of resource, several '
+           'hundred cases.'),
           ('Which of these is NOT among the eight features?',
            ['clear boundaries', 'ownership', 'graduated sanctions',
             'nesting'], 1,

@@ -454,9 +454,11 @@ UNIT = dict(
           ('In the second year a van moved bicycles ____________ '
            'times a day.', None, 'four',
            'Following a list from the previous week.'),
-          ('The third year made journeys under ____________ minutes '
+          (
+           'The third year made journeys under ____________ minutes '
            'free.', None, 'twenty',
-           'After which journeys doubled again.'),
+           'Paragraph 3: free under twenty minutes, and journeys '
+           'doubled.'),
           ('Most of the new journeys were between the station and the '
            '____________.', None, 'centre',
            'And many were by first-time users.'),
@@ -501,9 +503,11 @@ UNIT = dict(
           ('The van worked from last ____________ numbers.', None,
            'week’s', 'Moving bicycles from full stands to empty '
            'ones.'),
-          ('In year three, journeys under twenty minutes became '
+          (
+           'In year three, journeys under twenty minutes became '
            '____________.', None, 'free',
-           'After which journeys doubled again.'),
+           'The speaker gives year three as the year fares were '
+           'dropped.'),
           ('The figure the speaker would publish is cost per '
            '____________.', None, 'journey',
            'Which fell from four pounds twenty to thirty-five '
@@ -685,8 +689,7 @@ UNIT = dict(
            ['the approach', 'emptying the lock',
             'filling the lock', 'leaving the lock'], 2,
            'Paragraph 3: about five minutes in an ordinary lock.'),
-          ('Why are the upper paddles opened a little at a time?',
-           None, 'fast water throws a boat about',
+          ('Fast water throws a ____________ about.', None, 'boat',
            'Paragraph 3, which is where damage happens.'),
           ('A lock built in ____________ works in the same way as a '
            'new one.', None, '1790',
@@ -883,9 +886,8 @@ UNIT = dict(
           ('The share of journeys by car fell by about ____________ '
            'per cent.', None, 'three',
            'Paragraph 2: a real fall and a small one.'),
-          ('Why did boarding become faster?', None,
-           'because nobody was paying',
-           'Paragraph 3, which cut journey times.'),
+          ('Boarding became faster because nobody was ____________.',
+           None, 'paying', 'Paragraph 3, which cut journey times.'),
           ('Journey times fell by about ____________ per cent on the '
            'busiest routes.', None, 'ten',
            'Paragraph 3, which helped the service most.'),

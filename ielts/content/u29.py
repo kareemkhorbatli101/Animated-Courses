@@ -1184,11 +1184,11 @@ UNIT = dict(
           ('Attaching a correction to the original item raises the '
            'proportion corrected to over ____________.', None, 'half',
            'Paragraph 5, from under a tenth.'),
-          ('What does the writer say nobody has designed a study large '
-           'enough to answer?', None,
-           'the effect of living among many corrections',
-           'The final paragraph, which calls it probably the most important '
-           'question.')])],
+          (
+           'Nobody has measured the effect of living among many '
+           '____________.', None, 'corrections',
+           'The final paragraph, which calls it probably the most '
+           'important question.')])],
    listen=[
     dict(heading='A platform officer and a researcher disagree',
          part='Part 4', task='A recorded exchange', band='l4',

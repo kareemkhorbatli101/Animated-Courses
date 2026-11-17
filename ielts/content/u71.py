@@ -161,8 +161,7 @@ UNIT = dict(
           ('The total is ____________ pounds.', None, 'twenty-three',
            'One full ticket and one student ticket.'),
           ('There are ____________ works in the exhibition.', None,
-           'a hundred and twelve',
-           'And most people look properly at forty.')])],
+           '112', 'And most people look properly at forty.')])],
    speak=dict(
     part='Part 1', focus='Art you have seen',
     intro='Two or three sentences. Name something specific rather than '
@@ -284,8 +283,9 @@ UNIT = dict(
           ('Several thousand ____________ were taken from the '
            'blocks.', None, 'impressions',
            'They were taken during the artist’s lifetime.'),
-          ('What was the original price compared to?', None,
-           'a double helping of noodles',
+          (
+           'The original price was compared to a double helping of '
+           '____________.', None, 'noodles',
            'It was a cheap, popular image.'),
           ('Where did the idea that it is a masterpiece come from?',
            ['Japan', 'Europe', 'the artist', 'the gallery'], 1,
@@ -339,9 +339,8 @@ UNIT = dict(
            'Since thousands of impressions exist.'),
           ('Mia admits she has never actually ____________ at it.',
            None, 'looked', 'Although she has seen it many times.'),
-          ('What does Jon notice about the boats?', None,
-           'they are not in trouble',
-           'The men are rowing in time, Mia agrees.'),
+          ('Jon notices that the boats are not in ____________.', None,
+           'trouble', 'The men are rowing in time, Mia agrees.'),
           ('They agree the drama comes from ____________ rather than '
            'danger.', None, 'scale',
            'Everything moving in the print is water.')])],
@@ -549,11 +548,13 @@ UNIT = dict(
            'together are the design problem, and a chair designed '
            'without the desk is a sculpture.')],
          items=[
-          ('A chair must hold between forty and ____________ '
-           'kilograms.', None, 'a hundred and fifty',
+          (
+           'A chair must hold between forty and ____________ '
+           'kilograms.', None, '150',
            'For between two minutes and eight hours.'),
-          ('The seat height that suits an average person is '
-           '____________ millimetres.', None, 'four hundred and fifty',
+          (
+           'The seat height that suits an average person is '
+           '____________ millimetres.', None, '450',
            'Which the speaker calls the hardest number.'),
           ('For a shorter person the weight moves onto the back of '
            'the ____________.', None, 'thigh',

@@ -119,6 +119,35 @@ PAPER_BY_VOL = {1: dict(passage=(430, 580), total=(1400, 1700)),
                         qs=(7, 9), total_q=24, litems=6)}
 MIN_WHY = 30            # an explanation shorter than this explains nothing
 MAX_UNTAUGHT = 14       # untaught word types in one academic passage
+MAX_ANSWER = 3          # the most generous rubric the real paper uses is
+                        # NO MORE THAN THREE WORDS AND/OR A NUMBER, so three
+                        # is the ceiling and the block's own rubric states
+                        # the true limit for its answers
+MIN_WRONG = 25          # a line that says why a wrong option is wrong
+SPEAK_FLOOR = 12.0      # per cent of a unit's teaching text
+
+# Phases turn these on as the content lands, so the gate is written first
+# and goes green when the work it governs is done. Set by main() from the
+# file PHASE, which is the single place a phase is declared finished.
+PHASE = dict(rubric=False, wrongs=0)    # wrongs: 0 none, 3 three-option, 4 all
+
+
+def _limit_for(items):
+    """The rubric a block's own answers imply."""
+    gaps = [str(it[2]) for it in items if not it[1]]
+    if not gaps:
+        return None
+    words = max(len(a.split()) for a in gaps)
+    anynum = any(any(ch.isdigit() for ch in a) for a in gaps)
+    allnum = all(any(ch.isdigit() for ch in a) for a in gaps)
+    if allnum:
+        return 'Write A NUMBER for each answer.'
+    if words <= 1:
+        return ('Write ONE WORD AND/OR A NUMBER for each answer.' if anynum
+                else 'Write ONE WORD ONLY for each answer.')
+    cap = 'TWO' if words <= 2 else 'THREE'
+    return ('Write NO MORE THAN %s WORDS AND/OR A NUMBER for each answer.' % cap
+            if anynum else 'Write NO MORE THAN %s WORDS for each answer.' % cap)
 
 
 def wc(paras):
@@ -129,18 +158,72 @@ def _items_ok(items, tag, n_lo, n_hi, out):
     if not (n_lo <= len(items) <= n_hi):
         out.append('%s: %d items, want %d-%d' % (tag, len(items), n_lo, n_hi))
     pos = set()
+    lettered = any(it[1] for it in items)
     for i, it in enumerate(items):
-        if len(it) == 4:
-            stem, opts, ans, why = it
-            if opts:
-                if not (0 <= ans < len(opts)):
-                    out.append('%s item %d: answer out of range' % (tag, i + 1))
-                else:
-                    pos.add(ans)
-            if len(why) < MIN_WHY:
-                out.append('%s item %d: explanation %d chars, want %d+'
-                           % (tag, i + 1, len(why), MIN_WHY))
+        stem, opts, ans, why = it[0], it[1], it[2], it[3]
+        if opts:
+            if not (0 <= ans < len(opts)):
+                out.append('%s item %d: answer out of range' % (tag, i + 1))
+            else:
+                pos.add(ans)
+            # the promise on the answer-key page: every wrong option explained
+            want = PHASE['wrongs']
+            if want and (want == 4 or len(opts) <= 3):
+                wrongs = it[4] if len(it) > 4 else {}
+                for k in range(len(opts)):
+                    if k == ans:
+                        continue
+                    line = (wrongs or {}).get(k, '')
+                    if len(line) < MIN_WRONG:
+                        out.append('%s item %d: option %s has no line'
+                                   % (tag, i + 1, 'ABCDEFGH'[k]))
+        else:
+            a = str(ans).strip()
+            # A gap answer that is a bare letter is a question whose option
+            # list went missing: Foundation 2 unit 6 shipped two of them.
+            # A legitimate answer can still BE a letter (band C, zone D),
+            # so only a block that letters its other items is suspect.
+            if lettered and re.fullmatch(r'[A-H]', a):
+                out.append('%s item %d: answer %r is a bare letter but the '
+                           'item shows no options' % (tag, i + 1, a))
+            if len(a.split()) > MAX_ANSWER:
+                out.append('%s item %d: answer is %d words, the paper allows '
+                           '%d' % (tag, i + 1, len(a.split()), MAX_ANSWER))
+        if len(why) < MIN_WHY:
+            out.append('%s item %d: explanation %d chars, want %d+'
+                       % (tag, i + 1, len(why), MIN_WHY))
     return pos
+
+
+def speak_share(U):
+    """What proportion of a unit's teaching text is the speaking strand."""
+    rd = li = wr = sp = gv = 0
+    for c in U['cycles']:
+        for r in c['read']:
+            rd += wc(r['paras'])
+        for l in c['listen']:
+            li += sum(len(t.split()) for _, t in l['script'])
+        for w in c['write']:
+            wr += sum(len(x.split()) for x in w.get('model', []))
+            wr += sum(len(x.split()) for x in w.get('notes', []))
+            for m2 in w.get('model65', []):
+                wr += len(m2.split())
+        s = c.get('speak') or {}
+        sp += len(s.get('intro', '').split())
+        sp += sum(len(q.split()) for q in s.get('qs', []))
+        sp += sum(len(t.split()) for _, t in s.get('shape', []))
+        sp += len(' '.join(s.get('longturn', [])).split())
+        sp += sum(len(x.split()) for x in s.get('sounds', []))
+        sp += sum(len(a.split()) + len(b.split())
+                  for a, b in s.get('followup', []))
+        g = c.get('gram') or {}
+        gv += len(g.get('explain', '').split())
+        gv += sum(len(x.split()) for x in g.get('examples', []))
+        gv += sum(len(a.split()) + len(b.split())
+                  for a, b in g.get('fix', []))
+        gv += sum(len(d.split()) for _, d in c.get('vocab', []))
+    tot = rd + li + wr + sp + gv
+    return 100.0 * sp / tot if tot else 0.0
 
 
 def check_unit(U, out, heads):
@@ -171,6 +254,9 @@ def check_unit(U, out, heads):
                                % (ct, r['heading'][:34], w, band[0], band[1]))
             allpos |= _items_ok(r['items'], '%s %s' % (ct, r['heading'][:22]),
                                 3, 8, out)
+            if PHASE['rubric'] and _limit_for(r['items']) and not r.get('limit'):
+                out.append('%s "%s": no word limit on the exercise'
+                           % (ct, r['heading'][:30]))
         for l in c['listen']:
             m = re.match(r'Part (\d)', l['part'])
             if m:
@@ -183,6 +269,9 @@ def check_unit(U, out, heads):
                                % (ct, l['heading'][:30], w, band[0], band[1]))
             allpos |= _items_ok(l['items'], '%s %s' % (ct, l['heading'][:22]),
                                 3, 8, out)
+            if PHASE['rubric'] and _limit_for(l['items']) and not l.get('limit'):
+                out.append('%s listening "%s": no word limit on the exercise'
+                           % (ct, l['heading'][:30]))
         sp = c['speak']
         for m in re.finditer(r'Part (\d)', sp['part']):
             sparts.add(int(m.group(1)))
@@ -234,6 +323,13 @@ def check_unit(U, out, heads):
                    % (tag, len(allpos)))
     if not U.get('technique') or not U.get('outlining'):
         out.append('%s: missing a strand' % tag)
+    # Speaking was 6.2 to 13.6 per cent of a unit and falling as the books
+    # got harder: flat at about 5,000 words a book while reading went from
+    # 7,000 to 29,000. The floor stops it drifting back.
+    sh = speak_share(U)
+    if sh < SPEAK_FLOOR:
+        out.append('%s: speaking is %.1f%% of the unit, want %.1f%%+'
+                   % (tag, sh, SPEAK_FLOOR))
 
 
 def check_numbering(U, out):
@@ -483,6 +579,24 @@ def main(argv):
         check_numbering(m.UNIT, out)
     if got:
         seam(heads, list(ns), out)
+    # An explanation written twice was not written for its item: Volume 2
+    # shipped one sentence five times, each on question 16 of a different
+    # unit.
+    seen = {}
+    for n in ns:
+        try:
+            m = importlib.import_module('content.u%02d' % n)
+        except ModuleNotFoundError:
+            continue
+        for ci, c in enumerate(m.UNIT['cycles'], 1):
+            for blk in list(c['read']) + list(c['listen']):
+                for it in blk['items']:
+                    seen.setdefault(it[3], []).append('u%d c%d'
+                                                      % (m.UNIT['n'], ci))
+    for why, where in sorted(seen.items()):
+        if len(where) > 1:
+            out.append('explanation used %d times (%s): %r'
+                       % (len(where), ', '.join(where[:4]), why[:52]))
     npaper = 0
     try:
         pm = importlib.import_module('content.paper%d' % vol_of(ns[0]))
@@ -516,7 +630,7 @@ def main(argv):
           % (got, len(heads), npaper))
     if out:
         print('\n%d problem(s):' % len(out))
-        for p in out[:60]:
+        for p in out[:400]:
             print('  ' + p)
         return 1
     print('all checks pass')

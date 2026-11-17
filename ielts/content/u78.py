@@ -79,8 +79,9 @@ UNIT = dict(
            'eight', 'Which is a condition of the licence.'),
           ('Tickets are exchanged at the gate for a ____________.',
            None, 'wristband', 'Which must stay on all weekend.'),
-          ('What is not accepted as identification?', None,
-           'a photograph of a document',
+          (
+           'A ____________ of a document is not accepted as '
+           'identification.', None, 'photograph',
            'The commonest reason people are refused.'),
           ('Where does the firm path run from?', None,
            'the main gate', 'To the stages, for anybody who needs '
@@ -258,8 +259,9 @@ UNIT = dict(
           ('The Lindqvist walk is about ____________ kilometres.',
            None, 'eleven',
            'On the first Sunday of September.'),
-          ('What does the second daughter value about the walk?',
-           None, 'it has no words in it',
+          (
+           'The second daughter values that the walk has no '
+           '____________ in it.', None, 'words',
            'Nobody has to say anything or be sad on schedule.'),
           ('Who proposed ending the Haddad tradition?', None,
            'the grandmother', 'Who had begun it thirty years '
@@ -851,8 +853,9 @@ UNIT = dict(
          items=[
           ('The procession had run for ____________ and forty years.',
            None, 'a hundred', 'Paragraph 1: it ran until 2019 in the streets.'),
-          ('Why was the route declared unsafe?', None,
-           'the crowd had grown and the street was narrow',
+          (
+           'The route was declared unsafe because the crowd had '
+           '____________.', None, 'grown',
            'Paragraph 1, and insurance could not be obtained.'),
           ('Those who stopped coming said it had become something the '
            'town ____________.', None, 'watched',
@@ -868,8 +871,8 @@ UNIT = dict(
            None, 'exclude',
            'Paragraph 4: the street and the hall each exclude '
            'somebody.'),
-          ('What did the committee consider the honest result?', None,
-           'that it could not get agreement',
+          ('The committee could not get ____________ on an answer.',
+           None, 'agreement',
            'Paragraph 4, on which exclusion the town preferred.')])],
    listen=[
     dict(heading='Two residents disagree about a changed custom',

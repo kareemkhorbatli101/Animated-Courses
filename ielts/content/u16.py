@@ -172,7 +172,8 @@ UNIT = dict(
            None, 'sixth',
            'After fourteen days plus five working days.'),
           ('Reference: T-____________', None, '963',
-           'Spelled out at the end of the call.')])],
+           'The transfer reference is read back digit by digit at the '
+           'end.')])],
    speak=dict(
     part='Part 1', focus='Energy use at home',
     intro=('Two or three sentences each. A real figure helps if you have '
@@ -867,10 +868,12 @@ UNIT = dict(
            'output is unpredictable.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 3 says forecasting is good and that is not the '
            'difficulty.'),
-          ('The writer believes these difficulties are an argument '
+          (
+           'The writer believes these difficulties are an argument '
            'against building wind and solar.',
            ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says the opposite explicitly.'),
+           'The final paragraph calls them an argument for planning, '
+           'not against building.'),
           ('Supply and demand on a grid are matched ____________ by '
            'second.', None, 'second',
            'Paragraph 1, from which everything else follows.'),

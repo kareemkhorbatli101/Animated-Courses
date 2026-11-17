@@ -1246,10 +1246,10 @@ UNIT = dict(
           ('The writer believes the gaming objection is without merit.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 8 calls it a real objection before limiting it.'),
-          ('What does the writer say an auditor can test?', None,
-           'the cases they think to test',
-           'Paragraph 3, which is why audits find suspected problems and miss '
-           'the others.'),
+          ('An auditor can test the cases they think to ____________.',
+           None, 'test',
+           'Paragraph 3, which is why audits find suspected problems '
+           'and miss the others.'),
           ('Instead of certifying fairness, the writer recommends '
            '____________.', None, 'publication',
            'Paragraph 7: the criterion, the threshold, the training date and '

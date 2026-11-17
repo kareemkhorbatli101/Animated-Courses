@@ -112,8 +112,9 @@ UNIT = dict(
           'use the Annexe at lunchtime should say so when booking, as the '
           'space is also used for workshops.'],
          items=[
-          ('What happens to a group of more than thirty-five pupils?',
-           None, 'split across two sessions',
+          (
+           'A group of more than thirty-five pupils is split across '
+           'two ____________.', None, 'sessions',
            'Paragraph 1, on the same morning rather than refused.'),
           ('What is the adult ratio for pupils under seven?', None,
            'one to six', 'Paragraph 2, rather than one to eight.'),
@@ -173,7 +174,8 @@ UNIT = dict(
           ('Risk assessment due by ____________ February', None, '26',
            'Ten working days before the visit.'),
           ('Booking reference: S-____________', None, '417',
-           'Spelled out at the end of the call.')])],
+           'The schools reference is spelled out in the closing '
+           'exchange.')])],
    speak=dict(
     part='Part 1', focus='Science you find interesting',
     intro=('Two or three sentences each. One real example beats a '

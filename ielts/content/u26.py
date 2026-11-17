@@ -1179,8 +1179,9 @@ UNIT = dict(
           ('In the second town, the enforcement team has ____________ '
            'inspectors.', None, 'two',
            'Paragraph 3, for nine thousand properties.'),
-          ('What did the fourth town use its tax revenue for?', None,
-           'housing for key workers',
+          (
+           'The fourth town used its tax revenue for housing for '
+           '____________ workers.', None, 'key',
            'Paragraph 5: ninety homes in six years.')])],
    listen=[
     dict(heading='A mayor and an economist disagree', part='Part 4',

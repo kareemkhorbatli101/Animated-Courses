@@ -125,8 +125,8 @@ LPAPER = dict(
          'nothing two streets away. These paths change a corridor, not a '
          'town.')],
        items=[
-        ('Length of the path: ____________ kilometres', None, 'four '
-         'and a half', 'From the station to the hospital.'),
+        ('Length of the path: ____________ kilometres', None, '4.5',
+         'From the station to the hospital.'),
         ('Opening: ____________ rather than June', None, 'September',
          'Delayed because of the bridge.'),
         ('____________ kilometres follow the old railway.', None,

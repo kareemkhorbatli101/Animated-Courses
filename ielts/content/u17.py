@@ -181,7 +181,8 @@ UNIT = dict(
            None, 'seventy',
            'Which is outside the fifty-kilometre limit.'),
           ('Entry reference: M-____________', None, '284',
-           'Spelled out at the end of the call.')])],
+           'The entry reference is given letter by letter before '
+           'goodbye.')])],
    speak=dict(
     part='Part 1', focus='Making things',
     intro=('Two or three sentences each. A specific thing you made is '

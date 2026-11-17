@@ -1327,10 +1327,11 @@ UNIT = dict(
           ('Studies using device-measured use find ____________ '
            'associations than self-report studies.', None, 'smaller',
            'Paragraph 5, which is what measurement error would predict.'),
-          ('What does the writer say the evidence licenses?', None,
-           'precautionary action aimed at the minority',
-           'The final paragraph, and not the claim that a generation has '
-           'been damaged.')])],
+          (
+           'The evidence licenses precautionary action aimed at the '
+           '____________.', None, 'minority',
+           'The final paragraph, and not the claim that a generation '
+           'has been damaged.')])],
    listen=[
     dict(heading='Two psychologists disagree about harm', part='Part 4',
          task='A recorded exchange', band='l4', qtype='Questions 67-72',

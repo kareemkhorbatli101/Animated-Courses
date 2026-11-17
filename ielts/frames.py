@@ -68,26 +68,36 @@ def cue_card(title, bullets):
 
 
 def answer_shape(shape):
-    """The two-to-five rule drawn: answer, supports, follow-ups."""
-    h = 190
+    """The shape of a spoken answer: one box a move.
+
+    The box used to be 96px whatever it held, so a five-column shape with
+    a long move ran its text out of the bottom of the box and on to the
+    caption: 333 of the 400 speaking figures in the series were drawn that
+    way. The lines are wrapped first now and the box is built around them,
+    which is also why gate8 exists.
+    """
+    cols = len(shape)
+    bw = (W - 80 - (cols - 1) * 16) / float(cols)
+    wrapped = [(k, fit(t, bw - 20, 15)) for k, t in shape]
+    deep = max(len(l) for _, l in wrapped)
+    box = max(96, 56 + 19 * deep)          # 48 above the first line, 8 below
+    h = 64 + box + 44
     g = [R(0, 0, W, h, PAPER)]
     g.append(TFIT(W / 2, 36, 'The shape of this answer', 21, W - 80,
                   INDIGO, bold=True, anchor='middle'))
-    cols = len(shape)
-    bw = (W - 80 - (cols - 1) * 16) / float(cols)
     x = 40
-    for i, (kind, text) in enumerate(shape):
+    for kind, lines in wrapped:
         col = {'answer': TEAL, 'support': INDIGO, 'follow-up': PERI}.get(kind, GREY)
-        g.append(R(x, 64, bw, 96, PAPER, col, 2, 10))
+        g.append(R(x, 64, bw, box, PAPER, col, 2, 10))
         g.append(R(x, 64, bw, 28, col, rx=10))
         g.append(R(x, 80, bw, 12, col))
         g.append(TFIT(x + bw / 2, 85, kind, 14, bw - 16, PAPER,
                       bold=True, anchor='middle'))
         blk, _, _ = TBLOCK(x + bw / 2, 112, None, 15, bw - 20, 19, INK,
-                           anchor='middle', lines=fit(text, bw - 20, 15))
+                           anchor='middle', lines=lines)
         g.append(blk)
         x += bw + 16
-    g.append(TFIT(W / 2, 180, '%d sentences · a model, not a quota'
+    g.append(TFIT(W / 2, 64 + box + 28, '%d sentences \u00b7 a model, not a quota'
                   % len(shape), 15, W - 120, GREY, anchor='middle'))
     return render(''.join(g), W, h, PAPER)
 

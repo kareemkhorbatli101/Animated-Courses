@@ -597,8 +597,8 @@ UNIT = dict(
            None, 'chain',
            'So that somebody can be telephoned if anything is '
            'wrong.'),
-          ('One tanker collects from ____________ farms.', None,
-           'six', 'And the silo holds a hundred loads.'),
+          ('One tanker collects from ____________ farms.', None, 'six',
+           'Six farms on one round, before the tanker returns.'),
           ('Testing before mixing means one bad load costs them',
            ['a hundred loads', 'one load', 'a day of production',
             'the whole silo'], 1,
@@ -644,8 +644,9 @@ UNIT = dict(
           ('The milk belongs to the farmer until the tanker empties '
            'the ____________.', None, 'tank',
            'Which is where the first boundary falls.'),
-          ('One tanker can hold the milk of ____________ farms.',
-           None, 'six', 'And the silo holds a hundred loads.'),
+          ('One tanker can hold the milk of ____________ farms.', None,
+           'six',
+           'The manager gives six, and the silo holds a hundred loads.'),
           ('If they mixed before testing, one problem farm would cost '
            'them ____________ loads.', None, 'a hundred',
            'Instead of costing them a single load.'),
@@ -1085,8 +1086,8 @@ UNIT = dict(
           ('The writer believes subsidies should be abolished.',
            ['True', 'False', 'Not Given'], 2,
            'Only how they are calculated is discussed.'),
-          ('What two things can now be measured instead?', None,
-           'soil carbon and water-holding capacity',
+          ('Besides soil carbon, what can now be measured?', None,
+           'water-holding capacity',
            'Paragraph 5, both of which cost money and time.'),
           ('The measure that is easy to take drives out the measure '
            'that ____________.', None, 'matters',

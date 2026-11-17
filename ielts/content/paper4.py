@@ -415,10 +415,11 @@ PAPER = dict(
          'units that can be counted, compared and ____________.', None,
          'conserved',
          'Paragraph 6, which is the core of the writer’s own position.'),
-        ('What does the writer say determines which facts should set a '
-         'boundary?', None, 'what the boundary is for',
-         'Paragraph 7, which is how the writer separates the position from '
-         'relativism.'),
+        (
+         'Which facts should set a boundary depends on what the '
+         'boundary is ____________.', None, 'for',
+         'Paragraph 7, which is how the writer separates the position '
+         'from relativism.'),
         ('A decision mistaken for a ____________ cannot be argued with.',
          None, 'discovery',
          'The final sentence, which is why the writer wants the convention '

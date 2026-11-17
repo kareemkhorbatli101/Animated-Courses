@@ -69,8 +69,9 @@ UNIT = dict(
            'Paragraph 3, along with garden waste.'),
           ('Lids must be removed from ____________.', None, 'jars',
            'Paragraph 2, though they may be left on bottles.'),
-          ('Why is window glass not accepted?', None,
-           'it melts at a different temperature',
+          (
+           'Window glass is not accepted because it melts at a '
+           'different ____________.', None, 'temperature',
            'Paragraph 2, which also excludes drinking glasses.'),
           ('By what time must bins be at the kerbside?', None,
            '6.30 a.m.', 'Paragraph 5, and brought in by 8 p.m.'),

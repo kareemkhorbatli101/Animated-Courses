@@ -58,24 +58,49 @@ def wanted(U):
             for i, it in enumerate(r['items'], 1):
                 out.append(('u%d c%d r%d q%d' % (n, ci, ri, i), it[0]))
                 out.append(('u%d c%d r%d q%d why' % (n, ci, ri, i), it[3]))
+                for k, line in sorted((it[4] if len(it) > 4 and it[4]
+                                       else {}).items()):
+                    out.append(('u%d c%d r%d q%d wrong %s'
+                                % (n, ci, ri, i, 'ABCDEFGH'[k]), line))
+            out.append(('u%d c%d r%d rubric' % (n, ci, ri), B.rubric(r)))
         for li, l in enumerate(c['listen'], 1):
             for i, (_, t) in enumerate(l['script'], 1):
                 out.append(('u%d c%d l%d turn %d' % (n, ci, li, i), t))
             for i, it in enumerate(l['items'], 1):
                 out.append(('u%d c%d l%d q%d' % (n, ci, li, i), it[0]))
                 out.append(('u%d c%d l%d q%d why' % (n, ci, li, i), it[3]))
+                for k, line in sorted((it[4] if len(it) > 4 and it[4]
+                                       else {}).items()):
+                    out.append(('u%d c%d l%d q%d wrong %s'
+                                % (n, ci, li, i, 'ABCDEFGH'[k]), line))
+            out.append(('u%d c%d l%d rubric' % (n, ci, li), B.rubric(l)))
         sp = c['speak']
         out.append(('u%d c%d speak intro' % (n, ci), sp['intro']))
+        for i, ln in enumerate(sp.get('longturn') or [], 1):
+            out.append(('u%d c%d speak longturn %d' % (n, ci, i), ln))
+        for i, ln in enumerate(sp.get('sounds') or [], 1):
+            out.append(('u%d c%d speak sounds %d' % (n, ci, i), ln))
+        for i, qa in enumerate(sp.get('followup') or [], 1):
+            out.append(('u%d c%d speak follow q%d' % (n, ci, i), qa[0]))
+            out.append(('u%d c%d speak follow a%d' % (n, ci, i), qa[1]))
         for i, q in enumerate(sp['qs'], 1):
             out.append(('u%d c%d speak q%d' % (n, ci, i), q))
         for wi, w in enumerate(c['write'], 1):
             out.append(('u%d c%d w%d prompt' % (n, ci, wi), w['prompt']))
             for i, ln in enumerate(w.get('model') or [], 1):
                 out.append(('u%d c%d w%d model %d' % (n, ci, wi, i), ln))
+            for i, ln in enumerate(w.get('model65') or [], 1):
+                out.append(('u%d c%d w%d model65 %d' % (n, ci, wi, i), ln))
+            for i, ln in enumerate(w.get('gap65') or [], 1):
+                out.append(('u%d c%d w%d gap65 %d' % (n, ci, wi, i), ln))
             for i, nt in enumerate(w['notes'], 1):
                 out.append(('u%d c%d w%d note %d' % (n, ci, wi, i), nt))
         g = c['gram']
         out.append(('u%d c%d gram explain' % (n, ci), g['explain']))
+        for i, fx in enumerate(c.get('fix') or [], 1):
+            out.append(('u%d c%d fix %d wrong' % (n, ci, i), fx[0]))
+            out.append(('u%d c%d fix %d right' % (n, ci, i), fx[1]))
+            out.append(('u%d c%d fix %d why' % (n, ci, i), fx[2]))
         # g['examples'] is drawn into the pattern box, which is a figure by
         # the time it reaches the .docx; gate6 checks those.
         for i, (a, b) in enumerate(g['items'], 1):

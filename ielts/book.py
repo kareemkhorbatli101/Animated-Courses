@@ -122,16 +122,53 @@ def _figure(d, spec):
 def _items(d, items, start, key, skill):
     n = start
     for it in items:
-        stem, opts, ans, why = it
+        stem, opts, ans, why = it[0], it[1], it[2], it[3]
+        wrongs = it[4] if len(it) > 4 else None
         if opts:
             d.mcq(n, stem, opts)
-            key.append((n, chr(65 + ans), why))
+            key.append((n, chr(65 + ans), why, wrongs, opts))
         else:
             d.item('%d.  ' % n, stem)
             d.lines(1, 520)
-            key.append((n, ans, why))
+            key.append((n, ans, why, None, None))
         n += 1
     return n
+
+
+def rubric(blk):
+    """The exercise line: the task, and the word limit its answers imply.
+
+    Both existed only as pixels before - the task type inside a figure, the
+    limit nowhere at all. 918 unit exercises carried no rubric, and the real
+    paper never asks a question without one.
+    """
+    items = blk['items']
+    gaps = [str(it[2]) for it in items if not it[1]]
+    mc = [it for it in items if it[1]]
+    bits = []
+    if mc:
+        sizes = {len(it[1]) for it in mc}
+        if len(sizes) == 1:
+            n = sizes.pop()
+            letters = ', '.join('ABCDEFGH'[:n - 1]) + ' or ' + 'ABCDEFGH'[n - 1]
+            bits.append('Choose the correct letter, %s.' % letters)
+        else:
+            bits.append('Choose the correct letter for each question.')
+    if gaps:
+        words = max(len(a.split()) for a in gaps)
+        anynum = any(any(ch.isdigit() for ch in a) for a in gaps)
+        allnum = all(any(ch.isdigit() for ch in a) for a in gaps)
+        if allnum:
+            bits.append('Write A NUMBER for each answer.')
+        elif words <= 1:
+            bits.append('Write ONE WORD AND/OR A NUMBER for each answer.'
+                        if anynum else 'Write ONE WORD ONLY for each answer.')
+        else:
+            cap = 'TWO' if words <= 2 else 'THREE'
+            bits.append('Write NO MORE THAN %s WORDS AND/OR A NUMBER for '
+                        'each answer.' % cap if anynum else
+                        'Write NO MORE THAN %s WORDS for each answer.' % cap)
+    return '  '.join(bits)
 
 
 SPEED = {1: (100, 120), 2: (110, 130), 3: (125, 140), 4: (150, 165),
@@ -211,7 +248,8 @@ def render_cycle(d, U, c, ci, key, nq=1):
             _figure(d, r['figure3'])
         d.passage(r['heading'], r['paras'],
                   sum(len(p.split()) for p in r['paras']))
-        d.ex('Exercise  %s' % r['qtype'], 'reading')
+        d.ex('Exercise  %s \u00b7 %s' % (r['qtype'], r['task']), 'reading')
+        d.cefr(rubric(r))
         nq = _items(d, r['items'], nq, key.setdefault('reading', []), 'reading')
         d.page_break_section()
 
@@ -226,8 +264,10 @@ def render_cycle(d, U, c, ci, key, nq=1):
             _figure(d, l['figure3'])
         if l.get('skill'):
             d.skillbox(l['skill'][0], l['skill'][1], 'listening')
-        d.ex('Exercise  %s   The recording is played once.' % l['qtype'],
+        d.ex('Exercise  %s \u00b7 %s   The recording is played once.'
+             % (l['qtype'], l['task']),
              'listening')
+        d.cefr(rubric(l))
         nq = _items(d, l['items'], nq, key.setdefault('listening', []),
                     'listening')
         d.body_p('Audio script: at the back of the book. Do not read it '
@@ -498,7 +538,8 @@ def render_paper(d, P):
         d.body_p(ps['blurb'], i=True)
         d.passage(ps['heading'], ps['paras'],
                   sum(len(x.split()) for x in ps['paras']))
-        d.ex('Exercise  %s' % ps['qtype'], 'reading')
+        d.ex('Exercise  %s \u00b7 %s' % (ps['qtype'], ps.get('task') or ps.get('kind', '')), 'reading')
+        d.cefr(rubric(ps))
         _items(d, ps['items'], ps['first'], key, 'reading')
         d.page_break_section()
     return key
@@ -521,8 +562,10 @@ def render_lpaper(d, L):
     for pt in L['parts']:
         d.figure(*F.skill_bar('listening', pt['no'], pt['part'], pt['task']))
         d.body_p(pt['blurb'], i=True)
-        d.ex('Exercise  %s   The recording is played once.' % pt['qtype'],
+        d.ex('Exercise  %s \u00b7 %s   The recording is played once.'
+             % (pt['qtype'], pt.get('task', pt.get('part', ''))),
              'listening')
+        d.cefr(rubric(pt))
         _items(d, pt['items'], pt['first'], key, 'listening')
         d.body_p('Audio script: at the back of the book. Do not read it '
                  'before you listen.', i=True)
@@ -541,10 +584,15 @@ def lpaper_key(d, L, key):
            'told where it was.')
     d.page_break_section()
     d.keybar('Listening Paper')
-    d.keygrid([a for _, a, _ in key], 5)
-    for num, ans, why in key:
+    d.keygrid([e[1] for e in key], 5)
+    for ent in key:
+        num, ans, why = ent[0], ent[1], ent[2]
         if why:
             d.why(num, ans, why)
+        wrongs, opts = (ent[3], ent[4]) if len(ent) > 4 else (None, None)
+        if wrongs:
+            for k in sorted(wrongs):
+                d.wrongline('ABCDEFGH'[k], wrongs[k])
     d.page_break_section()
 
 
@@ -560,10 +608,15 @@ def paper_key(d, P, key):
            'way will not survive the next paper.')
     d.page_break_section()
     d.keybar('Reading Paper \u00b7 Academic')
-    d.keygrid([a for _, a, _ in key], 5)
-    for num, ans, why in key:
+    d.keygrid([e[1] for e in key], 5)
+    for ent in key:
+        num, ans, why = ent[0], ent[1], ent[2]
         if why:
             d.why(num, ans, why)
+        wrongs, opts = (ent[3], ent[4]) if len(ent) > 4 else (None, None)
+        if wrongs:
+            for k in sorted(wrongs):
+                d.wrongline('ABCDEFGH'[k], wrongs[k])
     d.body_p('Use the Reading conversion table earlier in this section to '
              'turn your raw score into an approximate band, and note the '
              'number rather than the band: the number moves sooner.')
@@ -672,8 +725,7 @@ def back_matter(d, vol, units, ukeys):
     d.unit_title('Answer key')
     d.strapline('%s · Units %d–%d'
                 % (vol, units[0]['n'], units[-1]['n']))
-    d.cefr('Every wrong option is explained, because a letter on its own '
-           'teaches nothing.')
+    d.cefr('Where a wrong option is tempting, the explanation says why.')
     d.page_break_section()
     for u in units:
         k = ukeys[u['n']]
@@ -682,10 +734,15 @@ def back_matter(d, vol, units, ukeys):
             if not k.get(sec):
                 continue
             d.h3(sec.title(), col)
-            d.keygrid([a for _, a, _ in k[sec]], 5)
-            for num, ans, why in k[sec]:
+            d.keygrid([e[1] for e in k[sec]], 5)
+            for ent in k[sec]:
+                num, ans, why = ent[0], ent[1], ent[2]
                 if why:
                     d.why(num, ans, why)
+                wrongs = ent[3] if len(ent) > 3 else None
+                if wrongs:
+                    for kk in sorted(wrongs):
+                        d.wrongline('ABCDEFGH'[kk], wrongs[kk])
         if k.get('grammar'):
             d.h3('Grammar', D_PLUM)
             for num, ans, _ in k['grammar']:

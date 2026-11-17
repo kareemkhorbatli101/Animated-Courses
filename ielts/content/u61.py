@@ -212,9 +212,9 @@ UNIT = dict(
            'Paragraph 1, the same price as last week.'),
           ('A bunch of bananas costs ____________.', None,
            'one pound twenty', 'Paragraph 2, the first item in it.'),
-          ('A bag of apples holds roughly ____________ kilograms.', None,
-           'one and a half', 'Paragraph 2: roughly a kilogram and a '
-           'half.'),
+          ('A bag of apples holds roughly ____________ kilograms.',
+           None, '1.5',
+           'Paragraph 2: roughly a kilogram and a half, so 1.5.'),
           ('The card machine is slow on ____________ morning.', None,
            'Saturday', 'Paragraph 3, when the queue is long.')])],
    listen=[

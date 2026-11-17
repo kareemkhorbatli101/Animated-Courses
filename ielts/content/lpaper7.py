@@ -143,8 +143,7 @@ LPAPER = dict(
         ('Omar says those caught at eight have a ____________ o clock '
          'class.', None, 'nine',
          'So the sample would miss later students.'),
-        ('Nina wants ____________ answers in total.', None,
-         'a hundred and twenty',
+        ('Nina wants ____________ answers in total.', None, '120',
          'About one student in nine, she says.')]),
   dict(no=4, first=16, part='Part 4', band='l4',
        heading='A talk about how a library chooses its books',

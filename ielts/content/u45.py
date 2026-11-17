@@ -1321,9 +1321,9 @@ UNIT = dict(
           ('When a prevented activity relocates, the effect is called '
            '____________.', None, 'leakage',
            'Paragraph 5, documented in logging and fishing studies.'),
-          ('What does the writer say is the only serious objection to '
-           'condition-based targets?', None,
-           'they are harder to report',
+          (
+           'The only serious objection is that they are harder to '
+           '____________.', None, 'report',
            'The final paragraph, which is also why they are not '
            'adopted.')])],
    listen=[

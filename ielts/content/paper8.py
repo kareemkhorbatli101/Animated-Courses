@@ -209,6 +209,7 @@ PAPER = dict(
          'Paragraph 4, instead of telling them.'),
         ('That question cut misses by about a ____________.', None,
          'quarter', 'Paragraph 4, at no cost at all.'),
-        ('What does the report claim?', None,
-         'the cheapest measure was the most effective',
+        (
+         'The report claims the ____________ measure was the most '
+         'effective.', None, 'cheapest',
          'Paragraph 5, the opposite of what was expected.')])])
