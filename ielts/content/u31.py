@@ -994,7 +994,16 @@ UNIT = dict(
           'proportion of those chosen actually answered. Only when both of '
           'those have satisfactory answers does the sample size become '
           'interesting, and by then it usually turns out that a thousand was '
-          'plenty.'],
+          'plenty.',
+                ('There is one further consequence worth drawing out, because '
+                 'it runs against the usual advice. A larger sample does not '
+                 'repair a bad one. Doubling the number of people asked halves '
+                 'nothing if the people who refuse differ systematically from '
+                 'those who answer, and in that case the extra respondents '
+                 'simply make a biased estimate more precise. This is why a '
+                 'careful survey of a thousand can be worth more than a '
+                 'careless one of fifty thousand, and why the sample size is '
+                 'the figure most often quoted and least often decisive.')],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['A rule with one condition', 'The spoonful and the pot',

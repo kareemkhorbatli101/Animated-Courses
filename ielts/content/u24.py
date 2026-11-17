@@ -910,7 +910,17 @@ UNIT = dict(
           'to decide such questions is a separate argument, but they '
           'will no longer be prevented from doing so by the absence of '
           'a number, because the number exists and is improving each '
-          'year.'],
+          'year.',
+                ('There is a cost to the method that its advocates mention '
+                 'less often. An attribution study takes months, and the '
+                 'public argument about a flood is settled in days. By the '
+                 'time the figure arrives, the question has moved on and the '
+                 'newspapers that carried the original claim do not carry the '
+                 'correction. The result is a body of careful work that is '
+                 'read by lawyers and insurers and almost nobody else. Whether '
+                 'that matters depends on which audience you think the science '
+                 'is for, and the two audiences want the answer on quite '
+                 'different timescales.')],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['The old answer', 'A better question', 'How the method works',

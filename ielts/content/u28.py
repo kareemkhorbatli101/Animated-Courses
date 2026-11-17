@@ -916,7 +916,17 @@ UNIT = dict(
           'preferable depends on how long a period you are measuring over and '
           'on whether the land spared by higher yields is in fact spared, '
           'which is an empirical question about policy and not about '
-          'agronomy.'],
+          'agronomy.',
+                ('It is worth adding what would be needed to settle the '
+                 'question, since the answer is not more argument. A '
+                 'comparison of two systems over a single season measures '
+                 'revenue. A comparison over thirty years, on the same soil, '
+                 'with the organic carbon measured at the start and the end, '
+                 'measures something closer to profit. Fewer than a dozen such '
+                 'experiments exist anywhere, and most of them were begun for '
+                 'other reasons by people who are no longer alive. That is the '
+                 'real constraint on this literature, and no amount of '
+                 'modelling removes it.')],
          items=[
           ('Choose the best heading for paragraph 3.',
            ['What a soil is', 'Organic matter', 'Structure',

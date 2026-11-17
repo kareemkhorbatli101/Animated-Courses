@@ -404,7 +404,7 @@
     "worn down",
     "wrong material"
    ],
-   "images": 436,
+   "images": 441,
    "items": {
     "lpaper1 Part 1 i1": {
      "ans": "main",
@@ -686,6 +686,286 @@
      "why": "bba508a32b0a",
      "wrongs": 0
     },
+    "lpaper1a Part 1 i1": {
+     "ans": "Oak",
+     "opts": 0,
+     "stem": "7ccbd17e1d87",
+     "why": "dfa2d1472267",
+     "wrongs": 0
+    },
+    "lpaper1a Part 1 i10": {
+     "ans": "seven",
+     "opts": 0,
+     "stem": "fd1d8fd03fd7",
+     "why": "23f0ef1c8d9c",
+     "wrongs": 0
+    },
+    "lpaper1a Part 1 i2": {
+     "ans": "45",
+     "opts": 0,
+     "stem": "2c736dc85585",
+     "why": "52d6bb7e7433",
+     "wrongs": 0
+    },
+    "lpaper1a Part 1 i3": {
+     "ans": "Wednesday",
+     "opts": 0,
+     "stem": "c6f4b8c19120",
+     "why": "75d0c91530f8",
+     "wrongs": 0
+    },
+    "lpaper1a Part 1 i4": {
+     "ans": "6.45",
+     "opts": 0,
+     "stem": "2c5e4d6346ac",
+     "why": "f985ce098188",
+     "wrongs": 0
+    },
+    "lpaper1a Part 1 i5": {
+     "ans": "9",
+     "opts": 0,
+     "stem": "c5b87c40d4a5",
+     "why": "1b134c1eb8b9",
+     "wrongs": 0
+    },
+    "lpaper1a Part 1 i6": {
+     "ans": "20.25",
+     "opts": 0,
+     "stem": "3ef04bd9c419",
+     "why": "1beab2f41357",
+     "wrongs": 0
+    },
+    "lpaper1a Part 1 i7": {
+     "ans": "transfer",
+     "opts": 0,
+     "stem": "d65ca30ae9ad",
+     "why": "ebccf2ae5b9d",
+     "wrongs": 0
+    },
+    "lpaper1a Part 1 i8": {
+     "ans": "18",
+     "opts": 0,
+     "stem": "1e62270041f4",
+     "why": "7fcfa8d876bc",
+     "wrongs": 0
+    },
+    "lpaper1a Part 1 i9": {
+     "ans": "10.30",
+     "opts": 0,
+     "stem": "dc255bad895f",
+     "why": "5d7e57d8bd2c",
+     "wrongs": 0
+    },
+    "lpaper1a Part 2 i1": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "eabc29d9ef3b",
+     "why": "e1a82c281d63",
+     "wrongs": 0
+    },
+    "lpaper1a Part 2 i10": {
+     "ans": "two",
+     "opts": 0,
+     "stem": "f75d41ec0719",
+     "why": "924f00709c39",
+     "wrongs": 0
+    },
+    "lpaper1a Part 2 i2": {
+     "ans": "28",
+     "opts": 0,
+     "stem": "6e0cf5c77139",
+     "why": "2096a1a5dd9c",
+     "wrongs": 0
+    },
+    "lpaper1a Part 2 i3": {
+     "ans": "2",
+     "opts": 3,
+     "stem": "3c6d5b3c77b3",
+     "why": "5cab32252fd6",
+     "wrongs": 0
+    },
+    "lpaper1a Part 2 i4": {
+     "ans": "three",
+     "opts": 0,
+     "stem": "774ce218c988",
+     "why": "b6b9388fde7b",
+     "wrongs": 0
+    },
+    "lpaper1a Part 2 i5": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "8a6d15b39186",
+     "why": "b10c581efb50",
+     "wrongs": 0
+    },
+    "lpaper1a Part 2 i6": {
+     "ans": "upstairs",
+     "opts": 0,
+     "stem": "0bb15f74f19c",
+     "why": "aec9bbb36ea8",
+     "wrongs": 0
+    },
+    "lpaper1a Part 2 i7": {
+     "ans": "2",
+     "opts": 3,
+     "stem": "47569fa15424",
+     "why": "2020c099f875",
+     "wrongs": 0
+    },
+    "lpaper1a Part 2 i8": {
+     "ans": "four",
+     "opts": 0,
+     "stem": "00ede9b7bbe0",
+     "why": "a81b51941863",
+     "wrongs": 0
+    },
+    "lpaper1a Part 2 i9": {
+     "ans": "2",
+     "opts": 3,
+     "stem": "f3e7b33220fe",
+     "why": "6f54dc27549b",
+     "wrongs": 0
+    },
+    "lpaper1a Part 3 i1": {
+     "ans": "26",
+     "opts": 0,
+     "stem": "d83e73788f91",
+     "why": "c8837d52582c",
+     "wrongs": 0
+    },
+    "lpaper1a Part 3 i10": {
+     "ans": "six",
+     "opts": 0,
+     "stem": "7e9510f8c070",
+     "why": "12b5711399ad",
+     "wrongs": 0
+    },
+    "lpaper1a Part 3 i2": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "5f9bfd2d6c1e",
+     "why": "74cc62c749d5",
+     "wrongs": 0
+    },
+    "lpaper1a Part 3 i3": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "90dc732eb793",
+     "why": "eeee0753bf04",
+     "wrongs": 0
+    },
+    "lpaper1a Part 3 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "196d403bc7da",
+     "why": "b0f0b2b0a949",
+     "wrongs": 0
+    },
+    "lpaper1a Part 3 i5": {
+     "ans": "four",
+     "opts": 0,
+     "stem": "3c194f52d650",
+     "why": "143985ac4be9",
+     "wrongs": 0
+    },
+    "lpaper1a Part 3 i6": {
+     "ans": "2",
+     "opts": 3,
+     "stem": "1b23f41e9b34",
+     "why": "ad4bf1d9a8a6",
+     "wrongs": 0
+    },
+    "lpaper1a Part 3 i7": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "92f44aaeced9",
+     "why": "18999c788914",
+     "wrongs": 0
+    },
+    "lpaper1a Part 3 i8": {
+     "ans": "essay",
+     "opts": 0,
+     "stem": "b3c4f8d6467e",
+     "why": "394b8a5af783",
+     "wrongs": 0
+    },
+    "lpaper1a Part 3 i9": {
+     "ans": "conclusion",
+     "opts": 0,
+     "stem": "ed134dbc5c9d",
+     "why": "162e5cc8b90a",
+     "wrongs": 0
+    },
+    "lpaper1a Part 4 i1": {
+     "ans": "nine",
+     "opts": 0,
+     "stem": "1776ccbf9a57",
+     "why": "8d322dc20368",
+     "wrongs": 0
+    },
+    "lpaper1a Part 4 i10": {
+     "ans": "access",
+     "opts": 0,
+     "stem": "6d3a9a70be78",
+     "why": "ee903a7f476a",
+     "wrongs": 0
+    },
+    "lpaper1a Part 4 i2": {
+     "ans": "two",
+     "opts": 0,
+     "stem": "5d5c16d2d850",
+     "why": "0f082996661e",
+     "wrongs": 0
+    },
+    "lpaper1a Part 4 i3": {
+     "ans": "lane",
+     "opts": 0,
+     "stem": "427e97841497",
+     "why": "464df9697b79",
+     "wrongs": 0
+    },
+    "lpaper1a Part 4 i4": {
+     "ans": "predicted",
+     "opts": 0,
+     "stem": "01288231dc83",
+     "why": "bf4beb889924",
+     "wrongs": 0
+    },
+    "lpaper1a Part 4 i5": {
+     "ans": "drainage",
+     "opts": 0,
+     "stem": "d40251ab8a3a",
+     "why": "cc97aa5867fb",
+     "wrongs": 0
+    },
+    "lpaper1a Part 4 i6": {
+     "ans": "half",
+     "opts": 0,
+     "stem": "d5e05d2125c9",
+     "why": "3ac453445139",
+     "wrongs": 0
+    },
+    "lpaper1a Part 4 i7": {
+     "ans": "five to ten",
+     "opts": 0,
+     "stem": "2559d3f3c1de",
+     "why": "532682883f1f",
+     "wrongs": 0
+    },
+    "lpaper1a Part 4 i8": {
+     "ans": "cheap",
+     "opts": 0,
+     "stem": "35ffeccbdb09",
+     "why": "ad88ec814cf2",
+     "wrongs": 0
+    },
+    "lpaper1a Part 4 i9": {
+     "ans": "1967",
+     "opts": 0,
+     "stem": "8819e6c73e89",
+     "why": "45bcc3d2c8e2",
+     "wrongs": 0
+    },
     "paper1 p1 i1": {
      "ans": "0",
      "opts": 3,
@@ -964,6 +1244,286 @@
      "opts": 4,
      "stem": "7e6e9d492ca1",
      "why": "ee5363cbe289",
+     "wrongs": 0
+    },
+    "paper1a p1 i1": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "90680b2a1543",
+     "why": "a0ae768779b9",
+     "wrongs": 0
+    },
+    "paper1a p1 i10": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "0dfedaf5c428",
+     "why": "c20700cd03da",
+     "wrongs": 0
+    },
+    "paper1a p1 i11": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "2062cc9705d7",
+     "why": "797f7d14ecda",
+     "wrongs": 0
+    },
+    "paper1a p1 i12": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "0644b6f38d6a",
+     "why": "90143e7455d4",
+     "wrongs": 0
+    },
+    "paper1a p1 i13": {
+     "ans": "works",
+     "opts": 0,
+     "stem": "eae8254c6245",
+     "why": "ace50566705d",
+     "wrongs": 0
+    },
+    "paper1a p1 i2": {
+     "ans": "1924",
+     "opts": 0,
+     "stem": "a4ae5e6ad6eb",
+     "why": "f868fe86a540",
+     "wrongs": 0
+    },
+    "paper1a p1 i3": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "61339143a37b",
+     "why": "d2bbc8b6dcfd",
+     "wrongs": 0
+    },
+    "paper1a p1 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "ee1493f3c955",
+     "why": "0bebc0ae4827",
+     "wrongs": 0
+    },
+    "paper1a p1 i5": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "d94082a20db1",
+     "why": "04b4d15fa615",
+     "wrongs": 0
+    },
+    "paper1a p1 i6": {
+     "ans": "four hundred",
+     "opts": 0,
+     "stem": "882ff4f18c3d",
+     "why": "5c31e18584e6",
+     "wrongs": 0
+    },
+    "paper1a p1 i7": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "eeef5992b57f",
+     "why": "2c99f8cad264",
+     "wrongs": 0
+    },
+    "paper1a p1 i8": {
+     "ans": "3",
+     "opts": 4,
+     "stem": "42916c550dfd",
+     "why": "110bca4ada84",
+     "wrongs": 0
+    },
+    "paper1a p1 i9": {
+     "ans": "turn",
+     "opts": 0,
+     "stem": "766700bb3bc1",
+     "why": "fd40cde2f014",
+     "wrongs": 0
+    },
+    "paper1a p2 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "2e5e1b03a0fb",
+     "why": "ea7964bd640c",
+     "wrongs": 0
+    },
+    "paper1a p2 i10": {
+     "ans": "Australia",
+     "opts": 0,
+     "stem": "ee10a31fd88a",
+     "why": "e96adc5c9fba",
+     "wrongs": 0
+    },
+    "paper1a p2 i11": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "f9d527cf29e3",
+     "why": "49512d6b6f6e",
+     "wrongs": 0
+    },
+    "paper1a p2 i12": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "9557d8e67c9c",
+     "why": "c71a7483a7aa",
+     "wrongs": 0
+    },
+    "paper1a p2 i13": {
+     "ans": "notice",
+     "opts": 0,
+     "stem": "94364d986a08",
+     "why": "b2f52b68a9ee",
+     "wrongs": 0
+    },
+    "paper1a p2 i2": {
+     "ans": "east",
+     "opts": 0,
+     "stem": "ee19ef207a57",
+     "why": "2438d54fde87",
+     "wrongs": 0
+    },
+    "paper1a p2 i3": {
+     "ans": "south",
+     "opts": 0,
+     "stem": "8b144eedec44",
+     "why": "46b52ea7caf6",
+     "wrongs": 0
+    },
+    "paper1a p2 i4": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "522ba5910711",
+     "why": "d7c4ccd30c44",
+     "wrongs": 0
+    },
+    "paper1a p2 i5": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "c36e416382ad",
+     "why": "cb986bb73ae9",
+     "wrongs": 0
+    },
+    "paper1a p2 i6": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "1f8a284ca4b5",
+     "why": "b74b1520e134",
+     "wrongs": 0
+    },
+    "paper1a p2 i7": {
+     "ans": "3",
+     "opts": 4,
+     "stem": "4cab904d0eeb",
+     "why": "0863d6ebae2e",
+     "wrongs": 0
+    },
+    "paper1a p2 i8": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "fe33549c573a",
+     "why": "43979f872b30",
+     "wrongs": 0
+    },
+    "paper1a p2 i9": {
+     "ans": "picture",
+     "opts": 0,
+     "stem": "2a4fb45d913f",
+     "why": "fd46c43a1f88",
+     "wrongs": 0
+    },
+    "paper1a p3 i1": {
+     "ans": "1954",
+     "opts": 0,
+     "stem": "b65c5195856d",
+     "why": "2d494aa21e28",
+     "wrongs": 0
+    },
+    "paper1a p3 i10": {
+     "ans": "3",
+     "opts": 4,
+     "stem": "772e723f9377",
+     "why": "3a9618495115",
+     "wrongs": 0
+    },
+    "paper1a p3 i11": {
+     "ans": "punched",
+     "opts": 0,
+     "stem": "8d55d0ad1e63",
+     "why": "5f3b4ffd298f",
+     "wrongs": 0
+    },
+    "paper1a p3 i12": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "18a518c6c19a",
+     "why": "14b21a9ab93b",
+     "wrongs": 0
+    },
+    "paper1a p3 i13": {
+     "ans": "appear",
+     "opts": 0,
+     "stem": "3ffffbda9fb9",
+     "why": "e4e12f3589bf",
+     "wrongs": 0
+    },
+    "paper1a p3 i14": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "f2de1a80c508",
+     "why": "0e65b9c68ffd",
+     "wrongs": 0
+    },
+    "paper1a p3 i2": {
+     "ans": "0",
+     "opts": 4,
+     "stem": "c16995522bbb",
+     "why": "e706eba91a5e",
+     "wrongs": 0
+    },
+    "paper1a p3 i3": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "46d6830cb222",
+     "why": "c939fac8325d",
+     "wrongs": 0
+    },
+    "paper1a p3 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "af43a60c679b",
+     "why": "997b962f11b7",
+     "wrongs": 0
+    },
+    "paper1a p3 i5": {
+     "ans": "a wooden frame",
+     "opts": 0,
+     "stem": "3fb30b765ce5",
+     "why": "a7b891a07d57",
+     "wrongs": 0
+    },
+    "paper1a p3 i6": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "b7e83fd70512",
+     "why": "fe29dc3eaadd",
+     "wrongs": 0
+    },
+    "paper1a p3 i7": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "c1b4fea0f753",
+     "why": "71838b90f9e4",
+     "wrongs": 0
+    },
+    "paper1a p3 i8": {
+     "ans": "a window corner",
+     "opts": 0,
+     "stem": "66758d1ab3c6",
+     "why": "83bec41019f8",
+     "wrongs": 0
+    },
+    "paper1a p3 i9": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "8f840fe7d8eb",
+     "why": "38cefa204a67",
      "wrongs": 0
     },
     "u1 c1 L0 i1": {
@@ -1916,6 +2476,62 @@
      "opts": 0,
      "stem": "539780c3a97c",
      "why": "f6581bbe046e",
+     "wrongs": 0
+    },
+    "u10 c5 R1 i1": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "7446b9abdd01",
+     "why": "585df9741b58",
+     "wrongs": 3
+    },
+    "u10 c5 R1 i2": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "4c9b2facfa67",
+     "why": "e2ba3426337e",
+     "wrongs": 3
+    },
+    "u10 c5 R1 i3": {
+     "ans": "2",
+     "opts": 3,
+     "stem": "da6c2a902796",
+     "why": "fa7693ed1dc1",
+     "wrongs": 2
+    },
+    "u10 c5 R1 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "be44498dcc0f",
+     "why": "1246199f26c9",
+     "wrongs": 2
+    },
+    "u10 c5 R1 i5": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "62edc6d645e3",
+     "why": "a981300086ce",
+     "wrongs": 2
+    },
+    "u10 c5 R1 i6": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "5da71a891e25",
+     "why": "56ae26673087",
+     "wrongs": 2
+    },
+    "u10 c5 R1 i7": {
+     "ans": "2014",
+     "opts": 0,
+     "stem": "96b3a512cc8a",
+     "why": "dfbe4775bc4a",
+     "wrongs": 0
+    },
+    "u10 c5 R1 i8": {
+     "ans": "still",
+     "opts": 0,
+     "stem": "dacd741e4a16",
+     "why": "eaf239c1c579",
      "wrongs": 0
     },
     "u2 c1 L0 i1": {
@@ -5812,11 +6428,11 @@
     }
    },
    "measure": {
-    "beyond": 13.41,
-    "k1": 69.77,
-    "longest": 37,
-    "nominal": 3.03,
-    "sent": 20.2
+    "beyond": 13.44,
+    "k1": 70.0,
+    "longest": 39,
+    "nominal": 2.87,
+    "sent": 19.6
    },
    "prose": {
     "lpaper1 Part 1 blurb": {
@@ -5841,6 +6457,30 @@
     },
     "lpaper1 intro": {
      "sha": "f87237dbdfb6",
+     "w": 51
+    },
+    "lpaper1a Part 1 blurb": {
+     "sha": "8f436a7fda46",
+     "w": 14
+    },
+    "lpaper1a Part 2 blurb": {
+     "sha": "af0a890a8c32",
+     "w": 20
+    },
+    "lpaper1a Part 3 blurb": {
+     "sha": "89d435d6c2b6",
+     "w": 20
+    },
+    "lpaper1a Part 4 blurb": {
+     "sha": "a296d1fe1d0a",
+     "w": 17
+    },
+    "lpaper1a instruct": {
+     "sha": "0c3935954649",
+     "w": 127
+    },
+    "lpaper1a intro": {
+     "sha": "9d0b71307ddf",
      "w": 51
     },
     "paper1 instruct": {
@@ -5874,6 +6514,38 @@
     "paper1 p3 heading": {
      "sha": "fbba237ada9c",
      "w": 6
+    },
+    "paper1a instruct": {
+     "sha": "4b6f089b15b9",
+     "w": 131
+    },
+    "paper1a intro": {
+     "sha": "39f1f937be19",
+     "w": 47
+    },
+    "paper1a p1 blurb": {
+     "sha": "4876052f3c12",
+     "w": 17
+    },
+    "paper1a p1 heading": {
+     "sha": "8e75a5748af9",
+     "w": 3
+    },
+    "paper1a p2 blurb": {
+     "sha": "36f921da4709",
+     "w": 17
+    },
+    "paper1a p2 heading": {
+     "sha": "f70507743206",
+     "w": 7
+    },
+    "paper1a p3 blurb": {
+     "sha": "76b0900ffffd",
+     "w": 17
+    },
+    "paper1a p3 heading": {
+     "sha": "f6db5990120c",
+     "w": 5
     },
     "u1 c1 G examples": {
      "sha": "4ba9cc8f3be0",
@@ -6426,6 +7098,10 @@
     "u10 c5 R0 heading": {
      "sha": "b43fc8d26ea2",
      "w": 6
+    },
+    "u10 c5 R1 heading": {
+     "sha": "cabe7598dbfc",
+     "w": 3
     },
     "u10 c5 S intro": {
      "sha": "607df12aadce",
@@ -9021,6 +9697,22 @@
      "sha": "64110cbfd8e5",
      "w": 343
     },
+    "lpaper1a Part 1": {
+     "sha": "82fdc0c6cbee",
+     "w": 192
+    },
+    "lpaper1a Part 2": {
+     "sha": "db145a54d261",
+     "w": 215
+    },
+    "lpaper1a Part 3": {
+     "sha": "e570bcecbdde",
+     "w": 213
+    },
+    "lpaper1a Part 4": {
+     "sha": "3dd2de4d09dd",
+     "w": 281
+    },
     "paper1 p1": {
      "sha": "f07619957215",
      "w": 453
@@ -9032,6 +9724,18 @@
     "paper1 p3": {
      "sha": "d09c154716fd",
      "w": 507
+    },
+    "paper1a p1": {
+     "sha": "10a5f560902d",
+     "w": 465
+    },
+    "paper1a p2": {
+     "sha": "c66e50a8b272",
+     "w": 460
+    },
+    "paper1a p3": {
+     "sha": "ffa6cf3bcedb",
+     "w": 496
     },
     "u1 c1 L0": {
      "sha": "8eef2ee6ae7c",
@@ -9120,6 +9824,10 @@
     "u10 c5 R0": {
      "sha": "be78729aaa9c",
      "w": 405
+    },
+    "u10 c5 R1": {
+     "sha": "a898baab2a17",
+     "w": 685
     },
     "u2 c1 L0": {
      "sha": "52339fd46bbe",
@@ -9887,7 +10595,7 @@
     "write-up",
     "written reasons"
    ],
-   "images": 438,
+   "images": 443,
    "items": {
     "lpaper2 Part 1 i1": {
      "ans": "Oyelaran",
@@ -10169,6 +10877,286 @@
      "why": "3a462056e468",
      "wrongs": 0
     },
+    "lpaper2a Part 1 i1": {
+     "ans": "50",
+     "opts": 0,
+     "stem": "5755511fbfe1",
+     "why": "09ccafa62e20",
+     "wrongs": 0
+    },
+    "lpaper2a Part 1 i10": {
+     "ans": "utility",
+     "opts": 0,
+     "stem": "9825ae498a48",
+     "why": "b11f9342f76d",
+     "wrongs": 0
+    },
+    "lpaper2a Part 1 i2": {
+     "ans": "84",
+     "opts": 0,
+     "stem": "361d733fd330",
+     "why": "35c0366fe92e",
+     "wrongs": 0
+    },
+    "lpaper2a Part 1 i3": {
+     "ans": "225",
+     "opts": 0,
+     "stem": "b27365268800",
+     "why": "659e71cf92c8",
+     "wrongs": 0
+    },
+    "lpaper2a Part 1 i4": {
+     "ans": "6",
+     "opts": 0,
+     "stem": "6f303a38e8ae",
+     "why": "014e6e721034",
+     "wrongs": 0
+    },
+    "lpaper2a Part 1 i5": {
+     "ans": "6",
+     "opts": 0,
+     "stem": "c3122dab8c41",
+     "why": "631dd169cd7c",
+     "wrongs": 0
+    },
+    "lpaper2a Part 1 i6": {
+     "ans": "trolley",
+     "opts": 0,
+     "stem": "66df387b5218",
+     "why": "e21b6b223ffe",
+     "wrongs": 0
+    },
+    "lpaper2a Part 1 i7": {
+     "ans": "food",
+     "opts": 0,
+     "stem": "d5d20c965cca",
+     "why": "9e76630282ec",
+     "wrongs": 0
+    },
+    "lpaper2a Part 1 i8": {
+     "ans": "seal",
+     "opts": 0,
+     "stem": "901a7516b829",
+     "why": "915a3f92f76c",
+     "wrongs": 0
+    },
+    "lpaper2a Part 1 i9": {
+     "ans": "fourteen",
+     "opts": 0,
+     "stem": "0e51e6d495e3",
+     "why": "f75408caaec7",
+     "wrongs": 0
+    },
+    "lpaper2a Part 2 i1": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "384184ea46ee",
+     "why": "8fab5b8cb99b",
+     "wrongs": 0
+    },
+    "lpaper2a Part 2 i10": {
+     "ans": "medical",
+     "opts": 0,
+     "stem": "8c39ba916102",
+     "why": "c1c1f642a6d3",
+     "wrongs": 0
+    },
+    "lpaper2a Part 2 i2": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "1078415f236e",
+     "why": "78937029d62b",
+     "wrongs": 0
+    },
+    "lpaper2a Part 2 i3": {
+     "ans": "fourteen",
+     "opts": 0,
+     "stem": "4ee8e5018927",
+     "why": "1d6517bec3fa",
+     "wrongs": 0
+    },
+    "lpaper2a Part 2 i4": {
+     "ans": "23 litres",
+     "opts": 0,
+     "stem": "1c6938b7cad1",
+     "why": "bf9c47279ef7",
+     "wrongs": 0
+    },
+    "lpaper2a Part 2 i5": {
+     "ans": "September",
+     "opts": 0,
+     "stem": "d89a70f33153",
+     "why": "562158e8f70f",
+     "wrongs": 0
+    },
+    "lpaper2a Part 2 i6": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "39907bc8bca1",
+     "why": "7b67ddd021c1",
+     "wrongs": 0
+    },
+    "lpaper2a Part 2 i7": {
+     "ans": "load",
+     "opts": 0,
+     "stem": "d24132f9faff",
+     "why": "53711249a071",
+     "wrongs": 0
+    },
+    "lpaper2a Part 2 i8": {
+     "ans": "36",
+     "opts": 0,
+     "stem": "7a3694a79381",
+     "why": "f65e95f4ab39",
+     "wrongs": 0
+    },
+    "lpaper2a Part 2 i9": {
+     "ans": "2",
+     "opts": 3,
+     "stem": "5ab1fa3e7680",
+     "why": "6bf1e537f0c8",
+     "wrongs": 0
+    },
+    "lpaper2a Part 3 i1": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "c27bff9f931c",
+     "why": "4e748e6d7644",
+     "wrongs": 0
+    },
+    "lpaper2a Part 3 i10": {
+     "ans": "nine",
+     "opts": 0,
+     "stem": "c4f433e1bdbf",
+     "why": "7b2658864126",
+     "wrongs": 0
+    },
+    "lpaper2a Part 3 i2": {
+     "ans": "150",
+     "opts": 0,
+     "stem": "9318e2a836de",
+     "why": "0776aa58b121",
+     "wrongs": 0
+    },
+    "lpaper2a Part 3 i3": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "1278128f201f",
+     "why": "91383477dcbb",
+     "wrongs": 0
+    },
+    "lpaper2a Part 3 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "a77330ca7feb",
+     "why": "c5b6f762db00",
+     "wrongs": 0
+    },
+    "lpaper2a Part 3 i5": {
+     "ans": "two",
+     "opts": 0,
+     "stem": "4180021d403a",
+     "why": "4715448e4c3d",
+     "wrongs": 0
+    },
+    "lpaper2a Part 3 i6": {
+     "ans": "object",
+     "opts": 0,
+     "stem": "3599c523112b",
+     "why": "00338716ca26",
+     "wrongs": 0
+    },
+    "lpaper2a Part 3 i7": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "7a6b07c70c87",
+     "why": "aea30ea5dc56",
+     "wrongs": 0
+    },
+    "lpaper2a Part 3 i8": {
+     "ans": "two",
+     "opts": 0,
+     "stem": "b9bcc6536fb8",
+     "why": "586226a78f07",
+     "wrongs": 0
+    },
+    "lpaper2a Part 3 i9": {
+     "ans": "two",
+     "opts": 0,
+     "stem": "2db67a0ae660",
+     "why": "4d668199a6e1",
+     "wrongs": 0
+    },
+    "lpaper2a Part 4 i1": {
+     "ans": "grows",
+     "opts": 0,
+     "stem": "c56870f42983",
+     "why": "21d23f0d6e8c",
+     "wrongs": 0
+    },
+    "lpaper2a Part 4 i10": {
+     "ans": "easy",
+     "opts": 0,
+     "stem": "5f5438aac28b",
+     "why": "afe04bb40ada",
+     "wrongs": 0
+    },
+    "lpaper2a Part 4 i2": {
+     "ans": "variation",
+     "opts": 0,
+     "stem": "f982dedaf59d",
+     "why": "7a4fec072a6a",
+     "wrongs": 0
+    },
+    "lpaper2a Part 4 i3": {
+     "ans": "40",
+     "opts": 0,
+     "stem": "a6b2bd18358a",
+     "why": "37da7fdee99b",
+     "wrongs": 0
+    },
+    "lpaper2a Part 4 i4": {
+     "ans": "keep",
+     "opts": 0,
+     "stem": "d1c93f6a17e0",
+     "why": "d1750228470a",
+     "wrongs": 0
+    },
+    "lpaper2a Part 4 i5": {
+     "ans": "utilisation",
+     "opts": 0,
+     "stem": "6972e60b38ec",
+     "why": "18b2b41fe40f",
+     "wrongs": 0
+    },
+    "lpaper2a Part 4 i6": {
+     "ans": "95",
+     "opts": 0,
+     "stem": "476906f6a523",
+     "why": "71c799bb886b",
+     "wrongs": 0
+    },
+    "lpaper2a Part 4 i7": {
+     "ans": "inefficiency",
+     "opts": 0,
+     "stem": "eaa22db56194",
+     "why": "a7c70e1de9ce",
+     "wrongs": 0
+    },
+    "lpaper2a Part 4 i8": {
+     "ans": "four",
+     "opts": 0,
+     "stem": "ca5ebb4519f2",
+     "why": "675be051b588",
+     "wrongs": 0
+    },
+    "lpaper2a Part 4 i9": {
+     "ans": "indefensible",
+     "opts": 0,
+     "stem": "ee3f08ca40cd",
+     "why": "93579c124bea",
+     "wrongs": 0
+    },
     "paper2 p1 i1": {
      "ans": "0",
      "opts": 3,
@@ -10447,6 +11435,286 @@
      "opts": 4,
      "stem": "1d32bb7b81ac",
      "why": "49519231227a",
+     "wrongs": 0
+    },
+    "paper2a p1 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "b9d8e4e32914",
+     "why": "c30effbe5e75",
+     "wrongs": 0
+    },
+    "paper2a p1 i10": {
+     "ans": "a salary",
+     "opts": 0,
+     "stem": "1464203b66d7",
+     "why": "63310e9c7682",
+     "wrongs": 0
+    },
+    "paper2a p1 i11": {
+     "ans": "device",
+     "opts": 0,
+     "stem": "3c47f25e5dc8",
+     "why": "14cb3c75a8a2",
+     "wrongs": 0
+    },
+    "paper2a p1 i12": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "a7bcb8227ef6",
+     "why": "314616d1a489",
+     "wrongs": 0
+    },
+    "paper2a p1 i13": {
+     "ans": "one",
+     "opts": 0,
+     "stem": "ade6a39e2012",
+     "why": "ab32e10cbd78",
+     "wrongs": 0
+    },
+    "paper2a p1 i2": {
+     "ans": "eighteen-fifties",
+     "opts": 0,
+     "stem": "d4c17b8e813a",
+     "why": "f135d4a813f2",
+     "wrongs": 0
+    },
+    "paper2a p1 i3": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "ffd757bc62bb",
+     "why": "067806f751a8",
+     "wrongs": 0
+    },
+    "paper2a p1 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "ba072cb4fcc9",
+     "why": "b5cc09c0fa7f",
+     "wrongs": 0
+    },
+    "paper2a p1 i5": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "780482b4f40f",
+     "why": "4a804b99c103",
+     "wrongs": 0
+    },
+    "paper2a p1 i6": {
+     "ans": "eighteen-sixties and seventies",
+     "opts": 0,
+     "stem": "d748938cede6",
+     "why": "68c723f2dd2f",
+     "wrongs": 0
+    },
+    "paper2a p1 i7": {
+     "ans": "browsing",
+     "opts": 0,
+     "stem": "a9712a063212",
+     "why": "fd5509317c2e",
+     "wrongs": 0
+    },
+    "paper2a p1 i8": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "79d03edf0507",
+     "why": "9c5fb23dab79",
+     "wrongs": 0
+    },
+    "paper2a p1 i9": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "b19c48f55a08",
+     "why": "21d00cc0a080",
+     "wrongs": 0
+    },
+    "paper2a p2 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "3284dd9eeeba",
+     "why": "5a946aba26fc",
+     "wrongs": 0
+    },
+    "paper2a p2 i10": {
+     "ans": "nineteen-nineties",
+     "opts": 0,
+     "stem": "328fbaf2190b",
+     "why": "ba13c5b4dee0",
+     "wrongs": 0
+    },
+    "paper2a p2 i11": {
+     "ans": "2019",
+     "opts": 0,
+     "stem": "7ea8c2203819",
+     "why": "55d70f54f521",
+     "wrongs": 0
+    },
+    "paper2a p2 i12": {
+     "ans": "seeds",
+     "opts": 0,
+     "stem": "d71a689b28c2",
+     "why": "2be8f2810707",
+     "wrongs": 0
+    },
+    "paper2a p2 i13": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "bca5b1ccca41",
+     "why": "09e409323a81",
+     "wrongs": 0
+    },
+    "paper2a p2 i2": {
+     "ans": "a cutting",
+     "opts": 0,
+     "stem": "fca6e5d9dda7",
+     "why": "808ba692fc8f",
+     "wrongs": 0
+    },
+    "paper2a p2 i3": {
+     "ans": "Gros Michel",
+     "opts": 0,
+     "stem": "88712c62e477",
+     "why": "80e267772549",
+     "wrongs": 0
+    },
+    "paper2a p2 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "901521f06bf7",
+     "why": "bddb394e717d",
+     "wrongs": 0
+    },
+    "paper2a p2 i5": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "2f58b3cb2191",
+     "why": "f5655e8a8659",
+     "wrongs": 0
+    },
+    "paper2a p2 i6": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "7d0c0f43869d",
+     "why": "447e1e7ddfe0",
+     "wrongs": 0
+    },
+    "paper2a p2 i7": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "ce549f288321",
+     "why": "b4373ae3dc78",
+     "wrongs": 0
+    },
+    "paper2a p2 i8": {
+     "ans": "1965",
+     "opts": 0,
+     "stem": "b0d0b5517ce3",
+     "why": "bc9ac9cf82a5",
+     "wrongs": 0
+    },
+    "paper2a p2 i9": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "15e40e60d791",
+     "why": "727bbb84df6a",
+     "wrongs": 0
+    },
+    "paper2a p3 i1": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "b768bd3f265f",
+     "why": "fc5e966f3aee",
+     "wrongs": 0
+    },
+    "paper2a p3 i10": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "c3c550dda70f",
+     "why": "24437ed4f79e",
+     "wrongs": 0
+    },
+    "paper2a p3 i11": {
+     "ans": "finite",
+     "opts": 0,
+     "stem": "e07ae8f7accd",
+     "why": "e8b236364e31",
+     "wrongs": 0
+    },
+    "paper2a p3 i12": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "42e74c369bdf",
+     "why": "c5a20920141b",
+     "wrongs": 0
+    },
+    "paper2a p3 i13": {
+     "ans": "were",
+     "opts": 0,
+     "stem": "340ac7fdb7ec",
+     "why": "3984ae887aeb",
+     "wrongs": 0
+    },
+    "paper2a p3 i14": {
+     "ans": "3",
+     "opts": 4,
+     "stem": "2d0a134dbb28",
+     "why": "be17620d8166",
+     "wrongs": 0
+    },
+    "paper2a p3 i2": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "91e4607a9ae5",
+     "why": "ad5494b9c2e2",
+     "wrongs": 0
+    },
+    "paper2a p3 i3": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "3ab83376b8df",
+     "why": "acc65bd468ef",
+     "wrongs": 0
+    },
+    "paper2a p3 i4": {
+     "ans": "a corpus",
+     "opts": 0,
+     "stem": "2005de434425",
+     "why": "dff0f80f6fc0",
+     "wrongs": 0
+    },
+    "paper2a p3 i5": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "ad5e3d520ea3",
+     "why": "598581fed4cb",
+     "wrongs": 0
+    },
+    "paper2a p3 i6": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "28c97178556c",
+     "why": "0f66d215b313",
+     "wrongs": 0
+    },
+    "paper2a p3 i7": {
+     "ans": "know",
+     "opts": 0,
+     "stem": "40a9ae51dcb9",
+     "why": "c107fa00e900",
+     "wrongs": 0
+    },
+    "paper2a p3 i8": {
+     "ans": "nineteen-nineties",
+     "opts": 0,
+     "stem": "cb4921411870",
+     "why": "a172c211bbba",
+     "wrongs": 0
+    },
+    "paper2a p3 i9": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "bc7d70571efe",
+     "why": "654e7513a29c",
      "wrongs": 0
     },
     "u11 c1 L0 i1": {
@@ -15460,14 +16728,70 @@
      "stem": "b68d9f38c50d",
      "why": "9d34203356fe",
      "wrongs": 0
+    },
+    "u20 c5 R1 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "fcbd08332c23",
+     "why": "59b256dcfde7",
+     "wrongs": 3
+    },
+    "u20 c5 R1 i2": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "bc7f9509cd88",
+     "why": "fe985a9d35b5",
+     "wrongs": 3
+    },
+    "u20 c5 R1 i3": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "44e05cb5a151",
+     "why": "f2b51b8f487f",
+     "wrongs": 2
+    },
+    "u20 c5 R1 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "03541bc20153",
+     "why": "e26e4123a732",
+     "wrongs": 2
+    },
+    "u20 c5 R1 i5": {
+     "ans": "2",
+     "opts": 3,
+     "stem": "3cb6a0b50f99",
+     "why": "39b1f27f36ba",
+     "wrongs": 2
+    },
+    "u20 c5 R1 i6": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "dc576039dbde",
+     "why": "9375a94bfbb3",
+     "wrongs": 2
+    },
+    "u20 c5 R1 i7": {
+     "ans": "nine",
+     "opts": 0,
+     "stem": "00eb1bf3a226",
+     "why": "471c6cc8fce1",
+     "wrongs": 0
+    },
+    "u20 c5 R1 i8": {
+     "ans": "normalisation",
+     "opts": 0,
+     "stem": "abec0ffc45d3",
+     "why": "463b6da7bcb0",
+     "wrongs": 0
     }
    },
    "measure": {
-    "beyond": 14.79,
-    "k1": 69.28,
+    "beyond": 14.66,
+    "k1": 69.47,
     "longest": 46,
-    "nominal": 3.64,
-    "sent": 21.08
+    "nominal": 3.38,
+    "sent": 20.64
    },
    "prose": {
     "lpaper2 Part 1 blurb": {
@@ -15493,6 +16817,30 @@
     "lpaper2 intro": {
      "sha": "3ac32ef76c2e",
      "w": 51
+    },
+    "lpaper2a Part 1 blurb": {
+     "sha": "8f436a7fda46",
+     "w": 14
+    },
+    "lpaper2a Part 2 blurb": {
+     "sha": "af0a890a8c32",
+     "w": 20
+    },
+    "lpaper2a Part 3 blurb": {
+     "sha": "89d435d6c2b6",
+     "w": 20
+    },
+    "lpaper2a Part 4 blurb": {
+     "sha": "a296d1fe1d0a",
+     "w": 17
+    },
+    "lpaper2a instruct": {
+     "sha": "18e289504649",
+     "w": 101
+    },
+    "lpaper2a intro": {
+     "sha": "f8afe1ec2598",
+     "w": 38
     },
     "paper2 instruct": {
      "sha": "a764470c1cad",
@@ -15524,6 +16872,38 @@
     },
     "paper2 p3 heading": {
      "sha": "e21c5a842ec4",
+     "w": 7
+    },
+    "paper2a instruct": {
+     "sha": "a7e7fe3199b2",
+     "w": 114
+    },
+    "paper2a intro": {
+     "sha": "e9f06eace5fb",
+     "w": 47
+    },
+    "paper2a p1 blurb": {
+     "sha": "4876052f3c12",
+     "w": 17
+    },
+    "paper2a p1 heading": {
+     "sha": "d4297f4c546c",
+     "w": 3
+    },
+    "paper2a p2 blurb": {
+     "sha": "36f921da4709",
+     "w": 17
+    },
+    "paper2a p2 heading": {
+     "sha": "b3f180a775f8",
+     "w": 7
+    },
+    "paper2a p3 blurb": {
+     "sha": "76b0900ffffd",
+     "w": 17
+    },
+    "paper2a p3 heading": {
+     "sha": "094eccf7ed27",
      "w": 7
     },
     "u11 c1 G examples": {
@@ -18610,6 +19990,10 @@
      "sha": "f1aa1abf018b",
      "w": 8
     },
+    "u20 c5 R1 heading": {
+     "sha": "fd5578f12100",
+     "w": 3
+    },
     "u20 c5 S intro": {
      "sha": "a2406bc0b4aa",
      "w": 22
@@ -18700,6 +20084,22 @@
      "sha": "44fc5013ee87",
      "w": 393
     },
+    "lpaper2a Part 1": {
+     "sha": "8fcc2db6baa8",
+     "w": 262
+    },
+    "lpaper2a Part 2": {
+     "sha": "43d29e505e80",
+     "w": 251
+    },
+    "lpaper2a Part 3": {
+     "sha": "e60cbbeb87bc",
+     "w": 281
+    },
+    "lpaper2a Part 4": {
+     "sha": "e55daa3bd59e",
+     "w": 372
+    },
     "paper2 p1": {
      "sha": "bca1efd568f7",
      "w": 583
@@ -18711,6 +20111,18 @@
     "paper2 p3": {
      "sha": "17b47c3d2ccb",
      "w": 698
+    },
+    "paper2a p1": {
+     "sha": "983dabd206ff",
+     "w": 572
+    },
+    "paper2a p2": {
+     "sha": "012454766269",
+     "w": 588
+    },
+    "paper2a p3": {
+     "sha": "9c0697111e0e",
+     "w": 612
     },
     "u11 c1 L0": {
      "sha": "69357eae88f3",
@@ -19187,6 +20599,10 @@
     "u20 c5 R0": {
      "sha": "f3f2d0761e42",
      "w": 457
+    },
+    "u20 c5 R1": {
+     "sha": "98e37a3f716a",
+     "w": 718
     }
    }
   },
@@ -19594,7 +21010,7 @@
     "yield",
     "zone"
    ],
-   "images": 445,
+   "images": 449,
    "items": {
     "lpaper3 Part 1 i1": {
      "ans": "Achebe-Fontaine",
@@ -19876,6 +21292,286 @@
      "why": "c839cdb67abd",
      "wrongs": 0
     },
+    "lpaper3a Part 1 i1": {
+     "ans": "building",
+     "opts": 0,
+     "stem": "0335c18428e2",
+     "why": "5b8b78c750eb",
+     "wrongs": 0
+    },
+    "lpaper3a Part 1 i10": {
+     "ans": "thirty",
+     "opts": 0,
+     "stem": "2616d99fa019",
+     "why": "8c81496ddd52",
+     "wrongs": 0
+    },
+    "lpaper3a Part 1 i2": {
+     "ans": "1904",
+     "opts": 0,
+     "stem": "7e562d792686",
+     "why": "ccb6497ac551",
+     "wrongs": 0
+    },
+    "lpaper3a Part 1 i3": {
+     "ans": "860",
+     "opts": 0,
+     "stem": "e45789014275",
+     "why": "01a81e30cbbe",
+     "wrongs": 0
+    },
+    "lpaper3a Part 1 i4": {
+     "ans": "four",
+     "opts": 0,
+     "stem": "17b3c5eeab44",
+     "why": "293b2e2efcc1",
+     "wrongs": 0
+    },
+    "lpaper3a Part 1 i5": {
+     "ans": "forty",
+     "opts": 0,
+     "stem": "348f5baac12c",
+     "why": "e9a8cb1b3dfa",
+     "wrongs": 0
+    },
+    "lpaper3a Part 1 i6": {
+     "ans": "half hour",
+     "opts": 0,
+     "stem": "f21d6ff72c3b",
+     "why": "4c5dff8f9263",
+     "wrongs": 0
+    },
+    "lpaper3a Part 1 i7": {
+     "ans": "camera",
+     "opts": 0,
+     "stem": "2c779e1b8578",
+     "why": "66cd88970410",
+     "wrongs": 0
+    },
+    "lpaper3a Part 1 i8": {
+     "ans": "age",
+     "opts": 0,
+     "stem": "6a7c21358886",
+     "why": "1679e8ad6011",
+     "wrongs": 0
+    },
+    "lpaper3a Part 1 i9": {
+     "ans": "twenty-second",
+     "opts": 0,
+     "stem": "7e3aa84faa19",
+     "why": "89d8a0e03197",
+     "wrongs": 0
+    },
+    "lpaper3a Part 2 i1": {
+     "ans": "520",
+     "opts": 0,
+     "stem": "7cacbe193591",
+     "why": "c14ca0c5bc29",
+     "wrongs": 0
+    },
+    "lpaper3a Part 2 i10": {
+     "ans": "84 per cent",
+     "opts": 0,
+     "stem": "9e5f824bbbb7",
+     "why": "a0c6589f58cb",
+     "wrongs": 0
+    },
+    "lpaper3a Part 2 i2": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "d3c9415dad8b",
+     "why": "e54d033ba6f7",
+     "wrongs": 0
+    },
+    "lpaper3a Part 2 i3": {
+     "ans": "310",
+     "opts": 0,
+     "stem": "e4afb2d06c53",
+     "why": "a84e2740feda",
+     "wrongs": 0
+    },
+    "lpaper3a Part 2 i4": {
+     "ans": "18",
+     "opts": 0,
+     "stem": "bdc306a9ba8f",
+     "why": "a51c62d7b527",
+     "wrongs": 0
+    },
+    "lpaper3a Part 2 i5": {
+     "ans": "2",
+     "opts": 3,
+     "stem": "83830b914bbd",
+     "why": "ccdfd0173761",
+     "wrongs": 0
+    },
+    "lpaper3a Part 2 i6": {
+     "ans": "car",
+     "opts": 0,
+     "stem": "425af7fc935e",
+     "why": "a5d606897ceb",
+     "wrongs": 0
+    },
+    "lpaper3a Part 2 i7": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "368ce2e7eb8a",
+     "why": "82072ba68931",
+     "wrongs": 0
+    },
+    "lpaper3a Part 2 i8": {
+     "ans": "eleven",
+     "opts": 0,
+     "stem": "bfed77739ae7",
+     "why": "0aab7e8c23c1",
+     "wrongs": 0
+    },
+    "lpaper3a Part 2 i9": {
+     "ans": "docking",
+     "opts": 0,
+     "stem": "ad66d98d5725",
+     "why": "1079a0517b79",
+     "wrongs": 0
+    },
+    "lpaper3a Part 3 i1": {
+     "ans": "31",
+     "opts": 0,
+     "stem": "7d2257407de6",
+     "why": "fdf6746c6e10",
+     "wrongs": 0
+    },
+    "lpaper3a Part 3 i10": {
+     "ans": "four",
+     "opts": 0,
+     "stem": "d127357ad2e4",
+     "why": "aaefab12ef67",
+     "wrongs": 0
+    },
+    "lpaper3a Part 3 i2": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "be81410e5d9c",
+     "why": "0a56bbb1be7f",
+     "wrongs": 0
+    },
+    "lpaper3a Part 3 i3": {
+     "ans": "sentence",
+     "opts": 0,
+     "stem": "7215831283a2",
+     "why": "372d17eecff4",
+     "wrongs": 0
+    },
+    "lpaper3a Part 3 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "4a85328f1c88",
+     "why": "37a57cc4e501",
+     "wrongs": 0
+    },
+    "lpaper3a Part 3 i5": {
+     "ans": "direction",
+     "opts": 0,
+     "stem": "4d9fb0bfc5a2",
+     "why": "eaf3e9999654",
+     "wrongs": 0
+    },
+    "lpaper3a Part 3 i6": {
+     "ans": "one",
+     "opts": 0,
+     "stem": "5cc40f08c713",
+     "why": "5968952a5beb",
+     "wrongs": 0
+    },
+    "lpaper3a Part 3 i7": {
+     "ans": "hundred",
+     "opts": 0,
+     "stem": "ff0e85ba4fc0",
+     "why": "6050fab58855",
+     "wrongs": 0
+    },
+    "lpaper3a Part 3 i8": {
+     "ans": "120",
+     "opts": 0,
+     "stem": "ea28fc1ab76e",
+     "why": "1231441f3c93",
+     "wrongs": 0
+    },
+    "lpaper3a Part 3 i9": {
+     "ans": "11",
+     "opts": 0,
+     "stem": "528f8e766a7a",
+     "why": "091edc7e1dd3",
+     "wrongs": 0
+    },
+    "lpaper3a Part 4 i1": {
+     "ans": "network",
+     "opts": 0,
+     "stem": "b95bb93b152b",
+     "why": "3512ed00d0ec",
+     "wrongs": 0
+    },
+    "lpaper3a Part 4 i10": {
+     "ans": "five",
+     "opts": 0,
+     "stem": "b54e29db29bd",
+     "why": "f60800bc9033",
+     "wrongs": 0
+    },
+    "lpaper3a Part 4 i2": {
+     "ans": "permanent",
+     "opts": 0,
+     "stem": "085e40066266",
+     "why": "de5b6c370fa9",
+     "wrongs": 0
+    },
+    "lpaper3a Part 4 i3": {
+     "ans": "1878",
+     "opts": 0,
+     "stem": "e278b75f7497",
+     "why": "1311fa78e92e",
+     "wrongs": 0
+    },
+    "lpaper3a Part 4 i4": {
+     "ans": "weaker",
+     "opts": 0,
+     "stem": "17c24f414677",
+     "why": "903500d46945",
+     "wrongs": 0
+    },
+    "lpaper3a Part 4 i5": {
+     "ans": "two",
+     "opts": 0,
+     "stem": "04474b80ceb0",
+     "why": "154dfc0f05cd",
+     "wrongs": 0
+    },
+    "lpaper3a Part 4 i6": {
+     "ans": "broader",
+     "opts": 0,
+     "stem": "fe0e228eb479",
+     "why": "948adfe86d07",
+     "wrongs": 0
+    },
+    "lpaper3a Part 4 i7": {
+     "ans": "1846",
+     "opts": 0,
+     "stem": "e03195f53af3",
+     "why": "45cc444162f9",
+     "wrongs": 0
+    },
+    "lpaper3a Part 4 i8": {
+     "ans": "installed",
+     "opts": 0,
+     "stem": "4c43adf01211",
+     "why": "8aa7891271dd",
+     "wrongs": 0
+    },
+    "lpaper3a Part 4 i9": {
+     "ans": "nineteen-sixties",
+     "opts": 0,
+     "stem": "f8436847bc2d",
+     "why": "466f7e1d479c",
+     "wrongs": 0
+    },
     "paper3 p1 i1": {
      "ans": "1",
      "opts": 4,
@@ -20155,6 +21851,286 @@
      "stem": "d1723087e86c",
      "why": "d5aa25efcf8a",
      "wrongs": 2
+    },
+    "paper3a p1 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "eb270bed2548",
+     "why": "f9658741e923",
+     "wrongs": 0
+    },
+    "paper3a p1 i10": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "1b4621fb5403",
+     "why": "20775a8f770e",
+     "wrongs": 0
+    },
+    "paper3a p1 i11": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "99eae0e599a3",
+     "why": "2e151af34a99",
+     "wrongs": 0
+    },
+    "paper3a p1 i12": {
+     "ans": "the ports",
+     "opts": 0,
+     "stem": "0782d7a95a83",
+     "why": "9a179f179432",
+     "wrongs": 0
+    },
+    "paper3a p1 i13": {
+     "ans": "practice",
+     "opts": 0,
+     "stem": "b2c5e7fd0ca4",
+     "why": "58fb0615f531",
+     "wrongs": 0
+    },
+    "paper3a p1 i2": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "d0bbb7ad7904",
+     "why": "3c0b35fd3cbf",
+     "wrongs": 0
+    },
+    "paper3a p1 i3": {
+     "ans": "two hundred years",
+     "opts": 0,
+     "stem": "6cf1eebf745d",
+     "why": "ef58a670c1b6",
+     "wrongs": 0
+    },
+    "paper3a p1 i4": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "af37a203831c",
+     "why": "e10b52b559de",
+     "wrongs": 0
+    },
+    "paper3a p1 i5": {
+     "ans": "eighteen-forties",
+     "opts": 0,
+     "stem": "405884c03e39",
+     "why": "88e5360eca57",
+     "wrongs": 0
+    },
+    "paper3a p1 i6": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "1f57e8f8afe2",
+     "why": "4a9126a037f7",
+     "wrongs": 0
+    },
+    "paper3a p1 i7": {
+     "ans": "twenty",
+     "opts": 0,
+     "stem": "9023b9d9c0e3",
+     "why": "29a1c1bdcc61",
+     "wrongs": 0
+    },
+    "paper3a p1 i8": {
+     "ans": "1861",
+     "opts": 0,
+     "stem": "e9ab621ca71c",
+     "why": "009802ac07e8",
+     "wrongs": 0
+    },
+    "paper3a p1 i9": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "f582e92b5dcd",
+     "why": "a0257f1680a1",
+     "wrongs": 0
+    },
+    "paper3a p2 i1": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "66be3814aa51",
+     "why": "cb7df4d057b0",
+     "wrongs": 0
+    },
+    "paper3a p2 i10": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "17161d042b86",
+     "why": "4156cde06f8f",
+     "wrongs": 0
+    },
+    "paper3a p2 i11": {
+     "ans": "1956",
+     "opts": 0,
+     "stem": "6319baed6cc1",
+     "why": "e77c0bbb1525",
+     "wrongs": 0
+    },
+    "paper3a p2 i12": {
+     "ans": "fifteen",
+     "opts": 0,
+     "stem": "16846da54dbc",
+     "why": "20edd8e9b344",
+     "wrongs": 0
+    },
+    "paper3a p2 i13": {
+     "ans": "science",
+     "opts": 0,
+     "stem": "768a499f2244",
+     "why": "87bca1144717",
+     "wrongs": 0
+    },
+    "paper3a p2 i2": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "b8d8adeeb473",
+     "why": "7be7ef223b36",
+     "wrongs": 0
+    },
+    "paper3a p2 i3": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "e0a8b1c15cf5",
+     "why": "a808e4939145",
+     "wrongs": 0
+    },
+    "paper3a p2 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "fe4f9ce68e93",
+     "why": "7565ef4d42b0",
+     "wrongs": 0
+    },
+    "paper3a p2 i5": {
+     "ans": "eighteen-seventies",
+     "opts": 0,
+     "stem": "fa7b19bb2681",
+     "why": "899f2d523fcb",
+     "wrongs": 0
+    },
+    "paper3a p2 i6": {
+     "ans": "1881",
+     "opts": 0,
+     "stem": "3bb37d4366cf",
+     "why": "ff1ae2bb84f7",
+     "wrongs": 0
+    },
+    "paper3a p2 i7": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "f19ed730b649",
+     "why": "d9bb24b26e3d",
+     "wrongs": 0
+    },
+    "paper3a p2 i8": {
+     "ans": "five days",
+     "opts": 0,
+     "stem": "9962a5f05fd8",
+     "why": "c9991e6a638c",
+     "wrongs": 0
+    },
+    "paper3a p2 i9": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "993bc722c350",
+     "why": "329516e4ea93",
+     "wrongs": 0
+    },
+    "paper3a p3 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "da83e311037e",
+     "why": "08d16701f615",
+     "wrongs": 0
+    },
+    "paper3a p3 i10": {
+     "ans": "counts",
+     "opts": 0,
+     "stem": "a2c4dfa9b806",
+     "why": "a621078b61bc",
+     "wrongs": 0
+    },
+    "paper3a p3 i11": {
+     "ans": "twenty",
+     "opts": 0,
+     "stem": "1542fb91b97c",
+     "why": "9205cb6fef8c",
+     "wrongs": 0
+    },
+    "paper3a p3 i12": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "acfa8e0d4676",
+     "why": "0980a39ad19a",
+     "wrongs": 0
+    },
+    "paper3a p3 i13": {
+     "ans": "frequent",
+     "opts": 0,
+     "stem": "66dcfd3c5a94",
+     "why": "3d3c03fe3166",
+     "wrongs": 0
+    },
+    "paper3a p3 i14": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "a19c07c65870",
+     "why": "8ec73835791a",
+     "wrongs": 0
+    },
+    "paper3a p3 i2": {
+     "ans": "3",
+     "opts": 4,
+     "stem": "774379ecdd02",
+     "why": "14d8a7f1b9c9",
+     "wrongs": 0
+    },
+    "paper3a p3 i3": {
+     "ans": "3",
+     "opts": 4,
+     "stem": "5f8f7672ddf6",
+     "why": "953e6d048b1b",
+     "wrongs": 0
+    },
+    "paper3a p3 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "e9b9129d8da2",
+     "why": "f73f5802f40d",
+     "wrongs": 0
+    },
+    "paper3a p3 i5": {
+     "ans": "a second survey",
+     "opts": 0,
+     "stem": "320af1eb9b79",
+     "why": "5edb87baab0e",
+     "wrongs": 0
+    },
+    "paper3a p3 i6": {
+     "ans": "agnostics",
+     "opts": 0,
+     "stem": "ce556d877a29",
+     "why": "91162a6d7810",
+     "wrongs": 0
+    },
+    "paper3a p3 i7": {
+     "ans": "2001",
+     "opts": 0,
+     "stem": "335b5f84c7af",
+     "why": "9fecb4e4e5fe",
+     "wrongs": 0
+    },
+    "paper3a p3 i8": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "e73f8fa16f4c",
+     "why": "636eb6646940",
+     "wrongs": 0
+    },
+    "paper3a p3 i9": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "fc8bf429a3a9",
+     "why": "eaa12024d20f",
+     "wrongs": 0
     },
     "u21 c1 L0 i1": {
      "ans": "Okonjo",
@@ -24904,11 +26880,11 @@
     }
    },
    "measure": {
-    "beyond": 17.34,
-    "k1": 66.72,
+    "beyond": 17.04,
+    "k1": 66.98,
     "longest": 50,
-    "nominal": 3.9,
-    "sent": 21.8
+    "nominal": 3.84,
+    "sent": 21.53
    },
    "prose": {
     "lpaper3 Part 1 blurb": {
@@ -24934,6 +26910,30 @@
     "lpaper3 intro": {
      "sha": "3ac32ef76c2e",
      "w": 51
+    },
+    "lpaper3a Part 1 blurb": {
+     "sha": "8f436a7fda46",
+     "w": 14
+    },
+    "lpaper3a Part 2 blurb": {
+     "sha": "af0a890a8c32",
+     "w": 20
+    },
+    "lpaper3a Part 3 blurb": {
+     "sha": "89d435d6c2b6",
+     "w": 20
+    },
+    "lpaper3a Part 4 blurb": {
+     "sha": "a296d1fe1d0a",
+     "w": 17
+    },
+    "lpaper3a instruct": {
+     "sha": "cc014da99ea7",
+     "w": 89
+    },
+    "lpaper3a intro": {
+     "sha": "8d2d23d03498",
+     "w": 37
     },
     "paper3 instruct": {
      "sha": "a465fa283704",
@@ -24966,6 +26966,38 @@
     "paper3 p3 heading": {
      "sha": "57a475578100",
      "w": 8
+    },
+    "paper3a instruct": {
+     "sha": "e2575a8a3024",
+     "w": 97
+    },
+    "paper3a intro": {
+     "sha": "db1c9b21a171",
+     "w": 44
+    },
+    "paper3a p1 blurb": {
+     "sha": "4876052f3c12",
+     "w": 17
+    },
+    "paper3a p1 heading": {
+     "sha": "e0db5ddddb16",
+     "w": 4
+    },
+    "paper3a p2 blurb": {
+     "sha": "36f921da4709",
+     "w": 17
+    },
+    "paper3a p2 heading": {
+     "sha": "328cbcba32e9",
+     "w": 5
+    },
+    "paper3a p3 blurb": {
+     "sha": "76b0900ffffd",
+     "w": 17
+    },
+    "paper3a p3 heading": {
+     "sha": "a05f72d15a82",
+     "w": 4
     },
     "u21 c1 G examples": {
      "sha": "7a53a81e2e8c",
@@ -28193,6 +30225,22 @@
      "sha": "7c0d08830d40",
      "w": 425
     },
+    "lpaper3a Part 1": {
+     "sha": "4756283a3211",
+     "w": 313
+    },
+    "lpaper3a Part 2": {
+     "sha": "42084be25e77",
+     "w": 306
+    },
+    "lpaper3a Part 3": {
+     "sha": "1cb0cf4b595c",
+     "w": 325
+    },
+    "lpaper3a Part 4": {
+     "sha": "6f19ff76b23e",
+     "w": 407
+    },
     "paper3 p1": {
      "sha": "13145a7cdc32",
      "w": 694
@@ -28204,6 +30252,18 @@
     "paper3 p3": {
      "sha": "78d9506f5c47",
      "w": 740
+    },
+    "paper3a p1": {
+     "sha": "9daa7e784170",
+     "w": 702
+    },
+    "paper3a p2": {
+     "sha": "e73fa84458c9",
+     "w": 700
+    },
+    "paper3a p3": {
+     "sha": "b76db6ae949c",
+     "w": 686
     },
     "u21 c1 L0": {
      "sha": "819642b6b964",
@@ -28246,8 +30306,8 @@
      "w": 391
     },
     "u21 c4 R0": {
-     "sha": "8645e8869b7a",
-     "w": 651
+     "sha": "6e4c9264e377",
+     "w": 732
     },
     "u21 c5 L0": {
      "sha": "dace51cc0968",
@@ -28306,8 +30366,8 @@
      "w": 350
     },
     "u22 c5 R0": {
-     "sha": "02289ed217c6",
-     "w": 635
+     "sha": "a6b1f07a1ad9",
+     "w": 732
     },
     "u23 c1 L0": {
      "sha": "1778954d6ce5",
@@ -28346,8 +30406,8 @@
      "w": 385
     },
     "u23 c4 R0": {
-     "sha": "00aa69aff6fa",
-     "w": 615
+     "sha": "01ce32219331",
+     "w": 714
     },
     "u23 c5 L0": {
      "sha": "29fd7013f703",
@@ -28394,8 +30454,8 @@
      "w": 384
     },
     "u24 c4 R0": {
-     "sha": "4f8147239ea1",
-     "w": 621
+     "sha": "329e40b02437",
+     "w": 717
     },
     "u24 c5 L0": {
      "sha": "7d3d4c0887dc",
@@ -28442,8 +30502,8 @@
      "w": 422
     },
     "u25 c4 R0": {
-     "sha": "9afab42a161f",
-     "w": 631
+     "sha": "afb400b98626",
+     "w": 721
     },
     "u25 c5 L0": {
      "sha": "37ba4e2d6c42",
@@ -28498,8 +30558,8 @@
      "w": 383
     },
     "u26 c5 R0": {
-     "sha": "60fe978f9cc2",
-     "w": 616
+     "sha": "fead2f906be6",
+     "w": 709
     },
     "u27 c1 L0": {
      "sha": "a63bd4b11b74",
@@ -28538,8 +30598,8 @@
      "w": 359
     },
     "u27 c4 R0": {
-     "sha": "aef9a4100213",
-     "w": 605
+     "sha": "4d167ace25bf",
+     "w": 703
     },
     "u27 c5 L0": {
      "sha": "4ab67d12badd",
@@ -28586,8 +30646,8 @@
      "w": 380
     },
     "u28 c4 R0": {
-     "sha": "8ce47d409816",
-     "w": 620
+     "sha": "8bba4fc0ebab",
+     "w": 714
     },
     "u28 c5 L0": {
      "sha": "5d760fcf309a",
@@ -28634,8 +30694,8 @@
      "w": 390
     },
     "u29 c4 R0": {
-     "sha": "4868d1afbcd3",
-     "w": 620
+     "sha": "389512d9413e",
+     "w": 716
     },
     "u29 c5 L0": {
      "sha": "0c730cec2e73",
@@ -28682,8 +30742,8 @@
      "w": 387
     },
     "u30 c4 R0": {
-     "sha": "566ba4b51b68",
-     "w": 652
+     "sha": "8e42e23ab8b1",
+     "w": 723
     },
     "u30 c5 L0": {
      "sha": "1d49ad910415",
@@ -29099,7 +31159,7 @@
     "wind drought",
     "withdraw"
    ],
-   "images": 464,
+   "images": 468,
    "items": {
     "lpaper4 Part 1 i1": {
      "ans": "Delacroix",
@@ -29381,6 +31441,286 @@
      "why": "17be86f412a0",
      "wrongs": 0
     },
+    "lpaper4a Part 1 i1": {
+     "ans": "Kingsmead",
+     "opts": 0,
+     "stem": "a09a0945d3b5",
+     "why": "48b32fdcff71",
+     "wrongs": 0
+    },
+    "lpaper4a Part 1 i10": {
+     "ans": "twelve",
+     "opts": 0,
+     "stem": "5ad5026a7c8f",
+     "why": "8889b0d4114d",
+     "wrongs": 0
+    },
+    "lpaper4a Part 1 i2": {
+     "ans": "eleven",
+     "opts": 0,
+     "stem": "3b4c5c5dd440",
+     "why": "eae929d3fcef",
+     "wrongs": 0
+    },
+    "lpaper4a Part 1 i3": {
+     "ans": "125",
+     "opts": 0,
+     "stem": "b22d47bffcbc",
+     "why": "30b8c5f5980b",
+     "wrongs": 0
+    },
+    "lpaper4a Part 1 i4": {
+     "ans": "third",
+     "opts": 0,
+     "stem": "91073346552f",
+     "why": "e1618c14844c",
+     "wrongs": 0
+    },
+    "lpaper4a Part 1 i5": {
+     "ans": "48",
+     "opts": 0,
+     "stem": "9db1a5ea0a1c",
+     "why": "d79e783092f7",
+     "wrongs": 0
+    },
+    "lpaper4a Part 1 i6": {
+     "ans": "March",
+     "opts": 0,
+     "stem": "78e017d45f10",
+     "why": "a1bcef225cbc",
+     "wrongs": 0
+    },
+    "lpaper4a Part 1 i7": {
+     "ans": "April",
+     "opts": 0,
+     "stem": "b7e37ba12e2b",
+     "why": "61beaae2b134",
+     "wrongs": 0
+    },
+    "lpaper4a Part 1 i8": {
+     "ans": "twice",
+     "opts": 0,
+     "stem": "61ede3b6ca29",
+     "why": "cae68709b5da",
+     "wrongs": 0
+    },
+    "lpaper4a Part 1 i9": {
+     "ans": "three quarters",
+     "opts": 0,
+     "stem": "71223adc1eea",
+     "why": "65ebb669acd7",
+     "wrongs": 0
+    },
+    "lpaper4a Part 2 i1": {
+     "ans": "900",
+     "opts": 0,
+     "stem": "51c358ae0462",
+     "why": "9bb3f1d532dc",
+     "wrongs": 0
+    },
+    "lpaper4a Part 2 i10": {
+     "ans": "sixty",
+     "opts": 0,
+     "stem": "c96709d15ded",
+     "why": "3ef7589ad696",
+     "wrongs": 0
+    },
+    "lpaper4a Part 2 i2": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "04ed7768b98c",
+     "why": "7302e2bda2df",
+     "wrongs": 0
+    },
+    "lpaper4a Part 2 i3": {
+     "ans": "280",
+     "opts": 0,
+     "stem": "5ee6a35d8c00",
+     "why": "4ad41d858535",
+     "wrongs": 0
+    },
+    "lpaper4a Part 2 i4": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "3708bf8a4904",
+     "why": "7c7629b928c7",
+     "wrongs": 0
+    },
+    "lpaper4a Part 2 i5": {
+     "ans": "study",
+     "opts": 0,
+     "stem": "f3027014becc",
+     "why": "eded97ef59bb",
+     "wrongs": 0
+    },
+    "lpaper4a Part 2 i6": {
+     "ans": "seven",
+     "opts": 0,
+     "stem": "a50c9b82bc40",
+     "why": "c95b8103bbc3",
+     "wrongs": 0
+    },
+    "lpaper4a Part 2 i7": {
+     "ans": "60",
+     "opts": 0,
+     "stem": "c167a6e58dc2",
+     "why": "ae2569a82c0a",
+     "wrongs": 0
+    },
+    "lpaper4a Part 2 i8": {
+     "ans": "ten",
+     "opts": 0,
+     "stem": "590296fa1b3d",
+     "why": "06f208593860",
+     "wrongs": 0
+    },
+    "lpaper4a Part 2 i9": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "3f4c209e3db6",
+     "why": "f0f5313b59f0",
+     "wrongs": 0
+    },
+    "lpaper4a Part 3 i1": {
+     "ans": "50 minutes",
+     "opts": 0,
+     "stem": "3bf5d944eddc",
+     "why": "4d8d6a9799a6",
+     "wrongs": 0
+    },
+    "lpaper4a Part 3 i10": {
+     "ans": "nine",
+     "opts": 0,
+     "stem": "dd03c461f562",
+     "why": "6b5dbd10e17d",
+     "wrongs": 0
+    },
+    "lpaper4a Part 3 i2": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "a2a5b3d8152f",
+     "why": "e8e862f8d0de",
+     "wrongs": 0
+    },
+    "lpaper4a Part 3 i3": {
+     "ans": "six",
+     "opts": 0,
+     "stem": "56e78b19a1f8",
+     "why": "d83a7a32db04",
+     "wrongs": 0
+    },
+    "lpaper4a Part 3 i4": {
+     "ans": "regularly",
+     "opts": 0,
+     "stem": "5d012d6a862e",
+     "why": "2e31bde91977",
+     "wrongs": 0
+    },
+    "lpaper4a Part 3 i5": {
+     "ans": "number",
+     "opts": 0,
+     "stem": "e71e7a394f85",
+     "why": "2923d5a9fc0d",
+     "wrongs": 0
+    },
+    "lpaper4a Part 3 i6": {
+     "ans": "six hours",
+     "opts": 0,
+     "stem": "1324925ca3b3",
+     "why": "a14cdab89408",
+     "wrongs": 0
+    },
+    "lpaper4a Part 3 i7": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "e9eba1fa104d",
+     "why": "f840ab7d0f8d",
+     "wrongs": 0
+    },
+    "lpaper4a Part 3 i8": {
+     "ans": "twelve to fifteen",
+     "opts": 0,
+     "stem": "56c06165e535",
+     "why": "d14748703442",
+     "wrongs": 0
+    },
+    "lpaper4a Part 3 i9": {
+     "ans": "finding",
+     "opts": 0,
+     "stem": "d2d650c95227",
+     "why": "8d94e8d5425e",
+     "wrongs": 0
+    },
+    "lpaper4a Part 4 i1": {
+     "ans": "four",
+     "opts": 0,
+     "stem": "ecc893637a03",
+     "why": "1fc0f06dea32",
+     "wrongs": 0
+    },
+    "lpaper4a Part 4 i10": {
+     "ans": "rule",
+     "opts": 0,
+     "stem": "01cd9a8a3027",
+     "why": "d3be97530108",
+     "wrongs": 0
+    },
+    "lpaper4a Part 4 i2": {
+     "ans": "selection",
+     "opts": 0,
+     "stem": "b3686b46b50c",
+     "why": "ad1ae54733e4",
+     "wrongs": 0
+    },
+    "lpaper4a Part 4 i3": {
+     "ans": "champion",
+     "opts": 0,
+     "stem": "a2d547c1b46a",
+     "why": "cdc4408c498c",
+     "wrongs": 0
+    },
+    "lpaper4a Part 4 i4": {
+     "ans": "half",
+     "opts": 0,
+     "stem": "49eab73171b8",
+     "why": "7c3d127ee1e2",
+     "wrongs": 0
+    },
+    "lpaper4a Part 4 i5": {
+     "ans": "supply",
+     "opts": 0,
+     "stem": "5aa22f0930e3",
+     "why": "dccdf4524dfc",
+     "wrongs": 0
+    },
+    "lpaper4a Part 4 i6": {
+     "ans": "administrative",
+     "opts": 0,
+     "stem": "ce0e516ee224",
+     "why": "6fd39f7a5254",
+     "wrongs": 0
+    },
+    "lpaper4a Part 4 i7": {
+     "ans": "pilot",
+     "opts": 0,
+     "stem": "70fd9015cc0d",
+     "why": "2e86948a3083",
+     "wrongs": 0
+    },
+    "lpaper4a Part 4 i8": {
+     "ans": "volunteer",
+     "opts": 0,
+     "stem": "698008cf2be5",
+     "why": "b91dfff0dab5",
+     "wrongs": 0
+    },
+    "lpaper4a Part 4 i9": {
+     "ans": "ordinary",
+     "opts": 0,
+     "stem": "39037aafd0fe",
+     "why": "eab67585c439",
+     "wrongs": 0
+    },
     "paper4 p1 i1": {
      "ans": "1",
      "opts": 4,
@@ -29660,6 +32000,286 @@
      "stem": "ac138e6c55b5",
      "why": "e1fd59464252",
      "wrongs": 2
+    },
+    "paper4a p1 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "5f97ff01bce3",
+     "why": "77e674f8cd7b",
+     "wrongs": 0
+    },
+    "paper4a p1 i10": {
+     "ans": "1890",
+     "opts": 0,
+     "stem": "f11f18e652a1",
+     "why": "ef7c91a57675",
+     "wrongs": 0
+    },
+    "paper4a p1 i11": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "26a469a9c4b2",
+     "why": "157f8cc3fe0d",
+     "wrongs": 0
+    },
+    "paper4a p1 i12": {
+     "ans": "salt",
+     "opts": 0,
+     "stem": "60628f4b22b9",
+     "why": "a53632b0364a",
+     "wrongs": 0
+    },
+    "paper4a p1 i13": {
+     "ans": "technical",
+     "opts": 0,
+     "stem": "6b50209600ff",
+     "why": "42ea08044097",
+     "wrongs": 0
+    },
+    "paper4a p1 i2": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "40bc534b203d",
+     "why": "a653fb06ef78",
+     "wrongs": 0
+    },
+    "paper4a p1 i3": {
+     "ans": "freeboard",
+     "opts": 0,
+     "stem": "c2b7d654dcd7",
+     "why": "9f5447c15db6",
+     "wrongs": 0
+    },
+    "paper4a p1 i4": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "737a0610fb1a",
+     "why": "6016f03ca4a2",
+     "wrongs": 0
+    },
+    "paper4a p1 i5": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "dbb8e38e41b0",
+     "why": "704145bf7793",
+     "wrongs": 0
+    },
+    "paper4a p1 i6": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "2ee80155415e",
+     "why": "d0ca3a382305",
+     "wrongs": 0
+    },
+    "paper4a p1 i7": {
+     "ans": "coffin ships",
+     "opts": 0,
+     "stem": "b2db665f85d1",
+     "why": "3fa8e425d08d",
+     "wrongs": 0
+    },
+    "paper4a p1 i8": {
+     "ans": "1870",
+     "opts": 0,
+     "stem": "6497087c2555",
+     "why": "026897d9db62",
+     "wrongs": 0
+    },
+    "paper4a p1 i9": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "0806ce721704",
+     "why": "ca2e61d8b605",
+     "wrongs": 0
+    },
+    "paper4a p2 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "602810132dfa",
+     "why": "9a1308c2302f",
+     "wrongs": 0
+    },
+    "paper4a p2 i10": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "ef1135cdef18",
+     "why": "75736e9648fe",
+     "wrongs": 0
+    },
+    "paper4a p2 i11": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "cc34f8bb7de4",
+     "why": "fa74e49e8a12",
+     "wrongs": 0
+    },
+    "paper4a p2 i12": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "cb7df9fd4eb6",
+     "why": "4d14ffa934c6",
+     "wrongs": 0
+    },
+    "paper4a p2 i13": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "ec818af398b2",
+     "why": "5b6b94a21f09",
+     "wrongs": 0
+    },
+    "paper4a p2 i2": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "471d6f637abd",
+     "why": "90781d7b5efa",
+     "wrongs": 0
+    },
+    "paper4a p2 i3": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "8db1a0474957",
+     "why": "acd26cfc89a7",
+     "wrongs": 0
+    },
+    "paper4a p2 i4": {
+     "ans": "counted",
+     "opts": 0,
+     "stem": "08de8dd59964",
+     "why": "7d9006a3f56c",
+     "wrongs": 0
+    },
+    "paper4a p2 i5": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "f92210d12d55",
+     "why": "5671f1aedf59",
+     "wrongs": 0
+    },
+    "paper4a p2 i6": {
+     "ans": "sunk",
+     "opts": 0,
+     "stem": "d36c12383c07",
+     "why": "86cad20ae81c",
+     "wrongs": 0
+    },
+    "paper4a p2 i7": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "9c1aaf651348",
+     "why": "2129d5bc064e",
+     "wrongs": 0
+    },
+    "paper4a p2 i8": {
+     "ans": "patent",
+     "opts": 0,
+     "stem": "38fe3871fb3d",
+     "why": "70e9052e3056",
+     "wrongs": 0
+    },
+    "paper4a p2 i9": {
+     "ans": "quality",
+     "opts": 0,
+     "stem": "b57d126f53c5",
+     "why": "b921f82daeb1",
+     "wrongs": 0
+    },
+    "paper4a p3 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "5038f18435bc",
+     "why": "7f32cb4391a9",
+     "wrongs": 0
+    },
+    "paper4a p3 i10": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "c63c1811b672",
+     "why": "6926cc1616e5",
+     "wrongs": 0
+    },
+    "paper4a p3 i11": {
+     "ans": "winter",
+     "opts": 0,
+     "stem": "d77e181fc4e5",
+     "why": "f8be1c9c836d",
+     "wrongs": 0
+    },
+    "paper4a p3 i12": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "f43ffc730ca0",
+     "why": "2233b8c34270",
+     "wrongs": 0
+    },
+    "paper4a p3 i13": {
+     "ans": "honest",
+     "opts": 0,
+     "stem": "5f6d649a8a0f",
+     "why": "30c45d1e5de5",
+     "wrongs": 0
+    },
+    "paper4a p3 i14": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "60d875687770",
+     "why": "61a620a6fb57",
+     "wrongs": 0
+    },
+    "paper4a p3 i2": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "b47ee8e30a85",
+     "why": "2180ca751823",
+     "wrongs": 0
+    },
+    "paper4a p3 i3": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "4c5a9a77d5f9",
+     "why": "68e41abc8c40",
+     "wrongs": 0
+    },
+    "paper4a p3 i4": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "6f0c7ef70989",
+     "why": "62602a914168",
+     "wrongs": 0
+    },
+    "paper4a p3 i5": {
+     "ans": "ten thousand years",
+     "opts": 0,
+     "stem": "feef360c6eaf",
+     "why": "e88325784dc0",
+     "wrongs": 0
+    },
+    "paper4a p3 i6": {
+     "ans": "felled",
+     "opts": 0,
+     "stem": "ff787db8542c",
+     "why": "dce05e1fe928",
+     "wrongs": 0
+    },
+    "paper4a p3 i7": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "8694b04a97d0",
+     "why": "da3e04aae9ef",
+     "wrongs": 0
+    },
+    "paper4a p3 i8": {
+     "ans": "forgeries",
+     "opts": 0,
+     "stem": "dd4eb7109811",
+     "why": "54a3fd180e1d",
+     "wrongs": 0
+    },
+    "paper4a p3 i9": {
+     "ans": "atmosphere",
+     "opts": 0,
+     "stem": "20542ef95e74",
+     "why": "200e3e85871e",
+     "wrongs": 0
     },
     "u31 c1 L0 i1": {
      "ans": "four",
@@ -34458,11 +37078,11 @@
     }
    },
    "measure": {
-    "beyond": 19.41,
-    "k1": 64.85,
+    "beyond": 19.35,
+    "k1": 64.87,
     "longest": 54,
-    "nominal": 4.5,
-    "sent": 22.67
+    "nominal": 4.37,
+    "sent": 22.66
    },
    "prose": {
     "lpaper4 Part 1 blurb": {
@@ -34488,6 +37108,30 @@
     "lpaper4 intro": {
      "sha": "1bb6983c05f3",
      "w": 51
+    },
+    "lpaper4a Part 1 blurb": {
+     "sha": "8f436a7fda46",
+     "w": 14
+    },
+    "lpaper4a Part 2 blurb": {
+     "sha": "af0a890a8c32",
+     "w": 20
+    },
+    "lpaper4a Part 3 blurb": {
+     "sha": "89d435d6c2b6",
+     "w": 20
+    },
+    "lpaper4a Part 4 blurb": {
+     "sha": "a296d1fe1d0a",
+     "w": 17
+    },
+    "lpaper4a instruct": {
+     "sha": "257b347cde89",
+     "w": 79
+    },
+    "lpaper4a intro": {
+     "sha": "8d2d23d03498",
+     "w": 37
     },
     "paper4 instruct": {
      "sha": "1bdf31f975e3",
@@ -34520,6 +37164,38 @@
     "paper4 p3 heading": {
      "sha": "16d0efe9ae31",
      "w": 5
+    },
+    "paper4a instruct": {
+     "sha": "503e9e0134f5",
+     "w": 85
+    },
+    "paper4a intro": {
+     "sha": "d55ff19fa805",
+     "w": 44
+    },
+    "paper4a p1 blurb": {
+     "sha": "4876052f3c12",
+     "w": 17
+    },
+    "paper4a p1 heading": {
+     "sha": "b70ecb329b87",
+     "w": 8
+    },
+    "paper4a p2 blurb": {
+     "sha": "36f921da4709",
+     "w": 17
+    },
+    "paper4a p2 heading": {
+     "sha": "6f593bacf861",
+     "w": 6
+    },
+    "paper4a p3 blurb": {
+     "sha": "76b0900ffffd",
+     "w": 17
+    },
+    "paper4a p3 heading": {
+     "sha": "15ba63af50a1",
+     "w": 6
     },
     "u31 c1 G examples": {
      "sha": "e779610020d3",
@@ -37759,6 +40435,22 @@
      "sha": "e97b3e70fe31",
      "w": 450
     },
+    "lpaper4a Part 1": {
+     "sha": "ae0537fb3ef5",
+     "w": 314
+    },
+    "lpaper4a Part 2": {
+     "sha": "5080635a746c",
+     "w": 353
+    },
+    "lpaper4a Part 3": {
+     "sha": "abef9a727a7e",
+     "w": 341
+    },
+    "lpaper4a Part 4": {
+     "sha": "0d6a78830a18",
+     "w": 442
+    },
     "paper4 p1": {
      "sha": "0ab68509d0c2",
      "w": 819
@@ -37770,6 +40462,18 @@
     "paper4 p3": {
      "sha": "bd31468f3822",
      "w": 852
+    },
+    "paper4a p1": {
+     "sha": "06c808678735",
+     "w": 786
+    },
+    "paper4a p2": {
+     "sha": "fa8550f6eb4e",
+     "w": 719
+    },
+    "paper4a p3": {
+     "sha": "0635e4bb4cde",
+     "w": 729
     },
     "u31 c1 L0": {
      "sha": "9a0b4f737c5c",
@@ -37808,8 +40512,8 @@
      "w": 459
     },
     "u31 c4 R0": {
-     "sha": "6b173d44bc1b",
-     "w": 648
+     "sha": "a7370fd3ea6d",
+     "w": 740
     },
     "u31 c5 L0": {
      "sha": "7dfc971022c6",
@@ -37864,8 +40568,8 @@
      "w": 393
     },
     "u32 c5 R0": {
-     "sha": "de6f25e751c7",
-     "w": 645
+     "sha": "b2da82c12497",
+     "w": 732
     },
     "u33 c1 L0": {
      "sha": "8484086a64cc",
@@ -37912,8 +40616,8 @@
      "w": 406
     },
     "u33 c5 R0": {
-     "sha": "82b5a7648072",
-     "w": 681
+     "sha": "68c756a9e62c",
+     "w": 756
     },
     "u34 c1 L0": {
      "sha": "885807dc93b6",
@@ -37960,8 +40664,8 @@
      "w": 426
     },
     "u34 c5 R0": {
-     "sha": "cc5aff91f7df",
-     "w": 677
+     "sha": "81629c10b64e",
+     "w": 755
     },
     "u35 c1 L0": {
      "sha": "f793664a0ebf",
@@ -38048,8 +40752,8 @@
      "w": 433
     },
     "u36 c4 R0": {
-     "sha": "6c10b2a8f8aa",
-     "w": 691
+     "sha": "c9d65257f2b6",
+     "w": 759
     },
     "u36 c5 L0": {
      "sha": "e46d3518be21",
@@ -38152,8 +40856,8 @@
      "w": 419
     },
     "u38 c4 R0": {
-     "sha": "4cee1ef5b907",
-     "w": 669
+     "sha": "06c8997ab128",
+     "w": 741
     },
     "u38 c5 L0": {
      "sha": "99eb8f7548e2",
@@ -38212,8 +40916,8 @@
      "w": 406
     },
     "u39 c5 R0": {
-     "sha": "a13e6874e39a",
-     "w": 635
+     "sha": "2b95f0df21fe",
+     "w": 722
     },
     "u40 c1 L0": {
      "sha": "99cc0b80274d",
@@ -38260,8 +40964,8 @@
      "w": 447
     },
     "u40 c5 R0": {
-     "sha": "3ed1d4f73fca",
-     "w": 628
+     "sha": "63cda9ea1ebf",
+     "w": 707
     }
    }
   },
@@ -38669,7 +41373,7 @@
     "yardstick",
     "zero-sum"
    ],
-   "images": 430,
+   "images": 434,
    "items": {
     "lpaper5 Part 1 i1": {
      "ans": "Rushbrook",
@@ -38951,6 +41655,286 @@
      "why": "0a6c0bf6c1b2",
      "wrongs": 0
     },
+    "lpaper5a Part 1 i1": {
+     "ans": "Assembly",
+     "opts": 0,
+     "stem": "8572081f2606",
+     "why": "e17eb500a4c1",
+     "wrongs": 0
+    },
+    "lpaper5a Part 1 i10": {
+     "ans": "85",
+     "opts": 0,
+     "stem": "fc5320e27c16",
+     "why": "8bd3f7ede524",
+     "wrongs": 0
+    },
+    "lpaper5a Part 1 i2": {
+     "ans": "160",
+     "opts": 0,
+     "stem": "4577a0f99136",
+     "why": "8f3ac738fcd7",
+     "wrongs": 0
+    },
+    "lpaper5a Part 1 i3": {
+     "ans": "Bridge",
+     "opts": 0,
+     "stem": "27d384320f95",
+     "why": "693a95bb69ad",
+     "wrongs": 0
+    },
+    "lpaper5a Part 1 i4": {
+     "ans": "38",
+     "opts": 0,
+     "stem": "33f4b54b6fed",
+     "why": "7521b8d78cc5",
+     "wrongs": 0
+    },
+    "lpaper5a Part 1 i5": {
+     "ans": "100",
+     "opts": 0,
+     "stem": "28ade883f423",
+     "why": "26a376cc1a5c",
+     "wrongs": 0
+    },
+    "lpaper5a Part 1 i6": {
+     "ans": "ten",
+     "opts": 0,
+     "stem": "c1a637fc38bf",
+     "why": "363e39f40768",
+     "wrongs": 0
+    },
+    "lpaper5a Part 1 i7": {
+     "ans": "4",
+     "opts": 0,
+     "stem": "26ceb2c6f08b",
+     "why": "badd78b3a25d",
+     "wrongs": 0
+    },
+    "lpaper5a Part 1 i8": {
+     "ans": "20",
+     "opts": 0,
+     "stem": "015b6393f938",
+     "why": "ef7645372d42",
+     "wrongs": 0
+    },
+    "lpaper5a Part 1 i9": {
+     "ans": "8",
+     "opts": 0,
+     "stem": "6ec15ed4b206",
+     "why": "92f4a0d61cd5",
+     "wrongs": 0
+    },
+    "lpaper5a Part 2 i1": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "929310e6bd81",
+     "why": "d99b1b4ef6cc",
+     "wrongs": 0
+    },
+    "lpaper5a Part 2 i10": {
+     "ans": "seven",
+     "opts": 0,
+     "stem": "cccef238a421",
+     "why": "9c1c42f10184",
+     "wrongs": 0
+    },
+    "lpaper5a Part 2 i2": {
+     "ans": "doubled",
+     "opts": 0,
+     "stem": "96ec649bd875",
+     "why": "2799e35ac0e9",
+     "wrongs": 0
+    },
+    "lpaper5a Part 2 i3": {
+     "ans": "400",
+     "opts": 0,
+     "stem": "34db1c3e6a16",
+     "why": "c0a25a9bf6b8",
+     "wrongs": 0
+    },
+    "lpaper5a Part 2 i4": {
+     "ans": "112",
+     "opts": 0,
+     "stem": "a21bb714c0b8",
+     "why": "f965cf406403",
+     "wrongs": 0
+    },
+    "lpaper5a Part 2 i5": {
+     "ans": "two",
+     "opts": 0,
+     "stem": "d19cf11b6a3f",
+     "why": "0c367edb117c",
+     "wrongs": 0
+    },
+    "lpaper5a Part 2 i6": {
+     "ans": "half",
+     "opts": 0,
+     "stem": "58589b692930",
+     "why": "6a87aeb20232",
+     "wrongs": 0
+    },
+    "lpaper5a Part 2 i7": {
+     "ans": "2",
+     "opts": 3,
+     "stem": "59a57487c161",
+     "why": "20668d6d9017",
+     "wrongs": 0
+    },
+    "lpaper5a Part 2 i8": {
+     "ans": "scrub",
+     "opts": 0,
+     "stem": "d4ce1ae5d14c",
+     "why": "68a223eecf97",
+     "wrongs": 0
+    },
+    "lpaper5a Part 2 i9": {
+     "ans": "rotation",
+     "opts": 0,
+     "stem": "3cb3e728306d",
+     "why": "cfdd18bc4fef",
+     "wrongs": 0
+    },
+    "lpaper5a Part 3 i1": {
+     "ans": "250",
+     "opts": 0,
+     "stem": "c230923b1e1c",
+     "why": "5345138fa4b5",
+     "wrongs": 0
+    },
+    "lpaper5a Part 3 i10": {
+     "ans": "seventh",
+     "opts": 0,
+     "stem": "abacb71d03fa",
+     "why": "78cbef902fa1",
+     "wrongs": 0
+    },
+    "lpaper5a Part 3 i2": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "579ec6e8b4bc",
+     "why": "011207bc3eb3",
+     "wrongs": 0
+    },
+    "lpaper5a Part 3 i3": {
+     "ans": "second",
+     "opts": 0,
+     "stem": "5fb0acb4076b",
+     "why": "f98dc4ef031a",
+     "wrongs": 0
+    },
+    "lpaper5a Part 3 i4": {
+     "ans": "31",
+     "opts": 0,
+     "stem": "2745c0081efe",
+     "why": "86dbae8ee39e",
+     "wrongs": 0
+    },
+    "lpaper5a Part 3 i5": {
+     "ans": "concealment",
+     "opts": 0,
+     "stem": "56736edbde30",
+     "why": "b7916bb0094e",
+     "wrongs": 0
+    },
+    "lpaper5a Part 3 i6": {
+     "ans": "interval",
+     "opts": 0,
+     "stem": "0b05a9c683fb",
+     "why": "c52e8385aa51",
+     "wrongs": 0
+    },
+    "lpaper5a Part 3 i7": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "e53858285950",
+     "why": "6f552553c1f9",
+     "wrongs": 0
+    },
+    "lpaper5a Part 3 i8": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "f8439aa92d2c",
+     "why": "9d81719bd8a2",
+     "wrongs": 0
+    },
+    "lpaper5a Part 3 i9": {
+     "ans": "declaration",
+     "opts": 0,
+     "stem": "21877f24642e",
+     "why": "62ff5851434c",
+     "wrongs": 0
+    },
+    "lpaper5a Part 4 i1": {
+     "ans": "two",
+     "opts": 0,
+     "stem": "a632d13a8d2f",
+     "why": "169af1ef2c13",
+     "wrongs": 0
+    },
+    "lpaper5a Part 4 i10": {
+     "ans": "funding",
+     "opts": 0,
+     "stem": "d26ecd79bd2d",
+     "why": "7473554416b2",
+     "wrongs": 0
+    },
+    "lpaper5a Part 4 i2": {
+     "ans": "44",
+     "opts": 0,
+     "stem": "8dc14ae05210",
+     "why": "4e49235589b6",
+     "wrongs": 0
+    },
+    "lpaper5a Part 4 i3": {
+     "ans": "nineteen-thirties",
+     "opts": 0,
+     "stem": "a4368ffd8af1",
+     "why": "baa604a3744a",
+     "wrongs": 0
+    },
+    "lpaper5a Part 4 i4": {
+     "ans": "optimism",
+     "opts": 0,
+     "stem": "943f558868a9",
+     "why": "f35e3cd25bf1",
+     "wrongs": 0
+    },
+    "lpaper5a Part 4 i5": {
+     "ans": "misrepresentation",
+     "opts": 0,
+     "stem": "0e18b0956bd6",
+     "why": "e466111714fb",
+     "wrongs": 0
+    },
+    "lpaper5a Part 4 i6": {
+     "ans": "optimistic",
+     "opts": 0,
+     "stem": "c69635c37157",
+     "why": "1f6c86897d33",
+     "wrongs": 0
+    },
+    "lpaper5a Part 4 i7": {
+     "ans": "scope",
+     "opts": 0,
+     "stem": "bb763d8ffb60",
+     "why": "182ad26f28c8",
+     "wrongs": 0
+    },
+    "lpaper5a Part 4 i8": {
+     "ans": "reference",
+     "opts": 0,
+     "stem": "f9ceffb0c01b",
+     "why": "58f558fd4b6b",
+     "wrongs": 0
+    },
+    "lpaper5a Part 4 i9": {
+     "ans": "2004",
+     "opts": 0,
+     "stem": "7d4df06a61ff",
+     "why": "a9606e681069",
+     "wrongs": 0
+    },
     "paper5 p1 i1": {
      "ans": "1",
      "opts": 4,
@@ -39229,6 +42213,286 @@
      "opts": 0,
      "stem": "5db2f0301cb2",
      "why": "cb68f9a5ded9",
+     "wrongs": 0
+    },
+    "paper5a p1 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "d5c7272b3024",
+     "why": "1a7fedd42b5f",
+     "wrongs": 0
+    },
+    "paper5a p1 i10": {
+     "ans": "economics",
+     "opts": 0,
+     "stem": "60464a40d718",
+     "why": "a56fd18f4348",
+     "wrongs": 0
+    },
+    "paper5a p1 i11": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "ea330e4a571b",
+     "why": "b20a5973bce7",
+     "wrongs": 0
+    },
+    "paper5a p1 i12": {
+     "ans": "argument",
+     "opts": 0,
+     "stem": "5ef1c9a682c7",
+     "why": "d0933b3c5373",
+     "wrongs": 0
+    },
+    "paper5a p1 i13": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "c8d27c0275e7",
+     "why": "fb279638af45",
+     "wrongs": 0
+    },
+    "paper5a p1 i2": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "1f1d3300a27c",
+     "why": "997184c0d44b",
+     "wrongs": 0
+    },
+    "paper5a p1 i3": {
+     "ans": "3",
+     "opts": 4,
+     "stem": "35cd156abcc0",
+     "why": "29e3a05df198",
+     "wrongs": 0
+    },
+    "paper5a p1 i4": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "a1ca827be2c0",
+     "why": "29ffd0794aab",
+     "wrongs": 0
+    },
+    "paper5a p1 i5": {
+     "ans": "twelfth",
+     "opts": 0,
+     "stem": "4564ef026ce7",
+     "why": "f5222f965b02",
+     "wrongs": 0
+    },
+    "paper5a p1 i6": {
+     "ans": "hierarchy",
+     "opts": 0,
+     "stem": "ea5cac5e1aaf",
+     "why": "3bd5c70f3fd2",
+     "wrongs": 0
+    },
+    "paper5a p1 i7": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "b89a346e6b7b",
+     "why": "1aba158c3df6",
+     "wrongs": 0
+    },
+    "paper5a p1 i8": {
+     "ans": "twelve-thirties",
+     "opts": 0,
+     "stem": "fbd2ee9949ae",
+     "why": "b5d2bfa1e369",
+     "wrongs": 0
+    },
+    "paper5a p1 i9": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "4b9017c0e2d9",
+     "why": "740580a8510e",
+     "wrongs": 0
+    },
+    "paper5a p2 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "c7bd19150053",
+     "why": "5d5d5909df0e",
+     "wrongs": 0
+    },
+    "paper5a p2 i10": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "3ed8b24ad55e",
+     "why": "dd2b7e3beb38",
+     "wrongs": 0
+    },
+    "paper5a p2 i11": {
+     "ans": "immersion nurseries",
+     "opts": 0,
+     "stem": "f65b57c53c4d",
+     "why": "2ba72483eb40",
+     "wrongs": 0
+    },
+    "paper5a p2 i12": {
+     "ans": "school",
+     "opts": 0,
+     "stem": "92fc8eea0a36",
+     "why": "0e69f2744e2c",
+     "wrongs": 0
+    },
+    "paper5a p2 i13": {
+     "ans": "symbols",
+     "opts": 0,
+     "stem": "b1b9c133916b",
+     "why": "c5cdb7870b01",
+     "wrongs": 0
+    },
+    "paper5a p2 i2": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "42634791a2f2",
+     "why": "6c81a4f5e2fc",
+     "wrongs": 0
+    },
+    "paper5a p2 i3": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "4e5e5e381c72",
+     "why": "dfe644ad69d1",
+     "wrongs": 0
+    },
+    "paper5a p2 i4": {
+     "ans": "half",
+     "opts": 0,
+     "stem": "834c5609979b",
+     "why": "dfd0f92b5519",
+     "wrongs": 0
+    },
+    "paper5a p2 i5": {
+     "ans": "native",
+     "opts": 0,
+     "stem": "fc48459e18b4",
+     "why": "ed0de3c7ce6c",
+     "wrongs": 0
+    },
+    "paper5a p2 i6": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "3c03d842a23a",
+     "why": "a226b57ee076",
+     "wrongs": 0
+    },
+    "paper5a p2 i7": {
+     "ans": "children",
+     "opts": 0,
+     "stem": "a0254985742e",
+     "why": "37d191fdd7a5",
+     "wrongs": 0
+    },
+    "paper5a p2 i8": {
+     "ans": "0",
+     "opts": 3,
+     "stem": "2589ce628cd5",
+     "why": "94d38d71ed06",
+     "wrongs": 0
+    },
+    "paper5a p2 i9": {
+     "ans": "thirty years",
+     "opts": 0,
+     "stem": "521226d77c60",
+     "why": "fd50f62b3b80",
+     "wrongs": 0
+    },
+    "paper5a p3 i1": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "0bdd4b25ef6f",
+     "why": "83ac40cf5abf",
+     "wrongs": 0
+    },
+    "paper5a p3 i10": {
+     "ans": "ice",
+     "opts": 0,
+     "stem": "c3cd3156b1af",
+     "why": "9ce9e5a54cd1",
+     "wrongs": 0
+    },
+    "paper5a p3 i11": {
+     "ans": "mechanic",
+     "opts": 0,
+     "stem": "1b9fec6eac39",
+     "why": "44cbbb6d1a88",
+     "wrongs": 0
+    },
+    "paper5a p3 i12": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "ba5d278e0149",
+     "why": "16bf49020fa9",
+     "wrongs": 0
+    },
+    "paper5a p3 i13": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "1896bf2ca73b",
+     "why": "69c30f8a1e6d",
+     "wrongs": 0
+    },
+    "paper5a p3 i14": {
+     "ans": "entitlement",
+     "opts": 0,
+     "stem": "27204f22a40f",
+     "why": "f06954f55e99",
+     "wrongs": 0
+    },
+    "paper5a p3 i2": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "0e2605c0139d",
+     "why": "01ed17c6cedf",
+     "wrongs": 0
+    },
+    "paper5a p3 i3": {
+     "ans": "2",
+     "opts": 4,
+     "stem": "05e6631339eb",
+     "why": "1864d29a5740",
+     "wrongs": 0
+    },
+    "paper5a p3 i4": {
+     "ans": "eight",
+     "opts": 0,
+     "stem": "975f807f2f88",
+     "why": "7734d775b0a6",
+     "wrongs": 0
+    },
+    "paper5a p3 i5": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "f8f168131cd1",
+     "why": "2b153ed33c1e",
+     "wrongs": 0
+    },
+    "paper5a p3 i6": {
+     "ans": "1",
+     "opts": 3,
+     "stem": "67f181d37e37",
+     "why": "135ec3d8a7a9",
+     "wrongs": 0
+    },
+    "paper5a p3 i7": {
+     "ans": "administered",
+     "opts": 0,
+     "stem": "567196f0bc01",
+     "why": "7cdcffa0f098",
+     "wrongs": 0
+    },
+    "paper5a p3 i8": {
+     "ans": "1",
+     "opts": 4,
+     "stem": "2e12c9675e91",
+     "why": "4c9e93451e3c",
+     "wrongs": 0
+    },
+    "paper5a p3 i9": {
+     "ans": "batteries",
+     "opts": 0,
+     "stem": "e8107a622860",
+     "why": "fee8b1012487",
      "wrongs": 0
     },
     "u41 c1 L0 i1": {
@@ -44245,11 +47509,11 @@
     }
    },
    "measure": {
-    "beyond": 20.97,
-    "k1": 64.62,
+    "beyond": 20.83,
+    "k1": 64.68,
     "longest": 56,
-    "nominal": 4.86,
-    "sent": 23.25
+    "nominal": 4.69,
+    "sent": 23.24
    },
    "prose": {
     "lpaper5 Part 1 blurb": {
@@ -44275,6 +47539,30 @@
     "lpaper5 intro": {
      "sha": "c00edbca2210",
      "w": 63
+    },
+    "lpaper5a Part 1 blurb": {
+     "sha": "8f436a7fda46",
+     "w": 14
+    },
+    "lpaper5a Part 2 blurb": {
+     "sha": "af0a890a8c32",
+     "w": 20
+    },
+    "lpaper5a Part 3 blurb": {
+     "sha": "89d435d6c2b6",
+     "w": 20
+    },
+    "lpaper5a Part 4 blurb": {
+     "sha": "a296d1fe1d0a",
+     "w": 17
+    },
+    "lpaper5a instruct": {
+     "sha": "382af8d554fb",
+     "w": 76
+    },
+    "lpaper5a intro": {
+     "sha": "8d2d23d03498",
+     "w": 37
     },
     "paper5 instruct": {
      "sha": "de3638d84fb8",
@@ -44307,6 +47595,38 @@
     "paper5 p3 heading": {
      "sha": "a5d2a41b5aee",
      "w": 6
+    },
+    "paper5a instruct": {
+     "sha": "3e2d1b8f1e4a",
+     "w": 74
+    },
+    "paper5a intro": {
+     "sha": "4474810ec144",
+     "w": 44
+    },
+    "paper5a p1 blurb": {
+     "sha": "4876052f3c12",
+     "w": 17
+    },
+    "paper5a p1 heading": {
+     "sha": "2fcefd482bee",
+     "w": 5
+    },
+    "paper5a p2 blurb": {
+     "sha": "36f921da4709",
+     "w": 17
+    },
+    "paper5a p2 heading": {
+     "sha": "6626dd934d5b",
+     "w": 4
+    },
+    "paper5a p3 blurb": {
+     "sha": "76b0900ffffd",
+     "w": 17
+    },
+    "paper5a p3 heading": {
+     "sha": "5597d901b950",
+     "w": 3
     },
     "u41 c1 G examples": {
      "sha": "776fa209f5be",
@@ -47522,6 +50842,22 @@
      "sha": "ad4f6992fc3b",
      "w": 476
     },
+    "lpaper5a Part 1": {
+     "sha": "7bd53719f84b",
+     "w": 340
+    },
+    "lpaper5a Part 2": {
+     "sha": "37df902766a9",
+     "w": 315
+    },
+    "lpaper5a Part 3": {
+     "sha": "a4a4b6258aae",
+     "w": 351
+    },
+    "lpaper5a Part 4": {
+     "sha": "d0d11cf182ca",
+     "w": 406
+    },
     "paper5 p1": {
      "sha": "66eb94a5dae1",
      "w": 875
@@ -47533,6 +50869,18 @@
     "paper5 p3": {
      "sha": "b1e43e4b2b0f",
      "w": 904
+    },
+    "paper5a p1": {
+     "sha": "64121d19bb93",
+     "w": 833
+    },
+    "paper5a p2": {
+     "sha": "27f2cc31319a",
+     "w": 792
+    },
+    "paper5a p3": {
+     "sha": "2ea7270c619c",
+     "w": 776
     },
     "u41 c1 L0": {
      "sha": "4fd0ac8446be",

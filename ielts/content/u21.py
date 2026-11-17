@@ -934,7 +934,15 @@ UNIT = dict(
           'matter. They predict later results robustly, whatever they are '
           'measuring. It does suggest that the common policy inference, which '
           'is that we should intervene earlier and harder on the measured '
-          'skill, rests on reading a predictor as though it were a cause.'],
+          'skill, rests on reading a predictor as though it were a cause.',
+                ('A trial in one city followed four hundred children from the '
+                 'age of two to the age of eleven, with half offered a place '
+                 'in a staffed setting and half not. At five the difference in '
+                 'vocabulary was about four months of development. At eleven '
+                 'it was two months, and on reading it had gone altogether. '
+                 'The programme had not failed; the comparison group had '
+                 'caught up, which is a different result and a harder one to '
+                 'put in a headline.')],
          items=[
           ('Choose the best heading for paragraph 3.',
            ['What the vocabulary gap shows', 'Talk directed at a child',

@@ -1297,7 +1297,15 @@ UNIT = dict(
           'too. The question is rarely whether to have oversight but what '
           'kind of thing oversight can establish, and a great deal of '
           'disappointment in regulation comes from asking an institution to '
-          'certify a property that nothing can be certified as having.'],
+          'certify a property that nothing can be certified as having.',
+                ('A closing observation concerns what can be certified rather '
+                 'than what cannot. Nothing can certify that a system is fair, '
+                 'because fairness has several incompatible definitions and '
+                 'the system has to choose between them. Something can certify '
+                 'that a particular definition was chosen, written down, and '
+                 'tested against the live data on a stated date. That is a '
+                 'much smaller claim, and it is one an auditor can actually '
+                 'sign, which is more than the current regime asks for.')],
          items=[
           ('Which paragraph identifies the most easily fixed problem?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,

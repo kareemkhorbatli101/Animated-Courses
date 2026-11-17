@@ -884,7 +884,17 @@ UNIT = dict(
           'decline easy to predict and its cause nearly impossible to '
           'attribute. That combination is uncomfortable for policy, because '
           'the question policy asks is not whether the epidemic will end but '
-          'which of the things we did made it end sooner.'],
+          'which of the things we did made it end sooner.',
+                ('It is worth stating what this means for the next outbreak, '
+                 'since the practical question is not historical. A government '
+                 'that waits for the decline before acting will see one, and '
+                 'will be unable to show that its action produced it. A '
+                 'government that acts early will also see a decline, and will '
+                 'be unable to show that the decline would not have come '
+                 'anyway. Neither position is dishonest, and neither can be '
+                 'settled after the fact. The only way out is to collect the '
+                 'comparison while the outbreak is running, which is '
+                 'expensive, unpopular and almost never done.')],
          items=[
           ('Choose the best heading for paragraph 3.',
            ['The familiar account', 'A number that is not fixed',

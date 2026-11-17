@@ -996,7 +996,15 @@ UNIT = dict(
           'sizes alone. The defenders are right that a failed repetition is '
           'weak evidence about any individual finding. These claims are '
           'compatible, and the argument persists largely because each side '
-          'hears the other as making a claim about honesty.'],
+          'hears the other as making a claim about honesty.',
+                ('There is a practical test that cuts through most of the '
+                 'dispute, and it is unglamorous. Before believing an effect, '
+                 'look at the sample size and ask what effect would have been '
+                 'needed to reach significance with that many participants. '
+                 'Where the answer is implausibly large, the published '
+                 'estimate is almost certainly inflated whatever the '
+                 'repetition record says, and no further argument about the '
+                 'replication crisis is required to reach that conclusion.')],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['The failure rate was predictable',

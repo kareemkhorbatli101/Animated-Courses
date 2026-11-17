@@ -923,7 +923,17 @@ UNIT = dict(
           'individuals. They slow the resharing of unread links, '
           'attach the correction to the original item rather than '
           'publishing it separately, and decline to treat the number '
-          'of shares as a measure of anything except itself.'],
+          'of shares as a measure of anything except itself.',
+                ('There is a final consideration that complicates every '
+                 'proposal of this kind. The features that spread a false '
+                 'story are the same features that spread a true and urgent '
+                 'one, which is why a platform cannot simply slow novelty '
+                 'down. A flood warning is novel, emotive and simple, and it '
+                 'needs to travel as fast as the mechanism allows. Any '
+                 'intervention that acts on the form of a message rather than '
+                 'on its truth will therefore slow the warnings too, and the '
+                 'balance between those two costs is a judgement nobody has '
+                 'yet defended in public.')],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['The role of automated accounts', 'Novelty',

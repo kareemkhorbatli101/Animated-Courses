@@ -1191,11 +1191,159 @@ UNIT = dict(
           ('A recording is an edited object presented as an '
            '____________.', None, 'event',
            'The final paragraph, which listeners are entitled to '
-           'know.')])],
+           'know.')]),
+    dict(heading='The loudness war',
+         kind='Academic passage \u00b7 the stamina read',
+         task='Matching information, Yes/No/Not Given and short answer',
+         band='stamina',
+         qtype='Questions 67-74',
+         skill=('Reading a long passage without losing the thread',
+                ['This is the longest passage in the book, and it is '
+                 'shorter than the third passage of the real paper. Read '
+                 'it once, at your own speed, before you look at the '
+                 'questions.',
+                 'Mark in the margin where each question was answered. '
+                 'Finding your way back through eight hundred words is '
+                 'most of the time a candidate loses.',
+                 'If a sentence defeats you, read on. The questions are '
+                 'about the argument of the passage, and no single '
+                 'sentence carries it.']),
+         paras=[
+          'A recording has two loudnesses. There is the loudness you choose '
+          'with the volume control, and there is the loudness built into the '
+          'recording itself, which decides how far the volume control has to '
+          'be turned. The second one is set by an engineer during a stage '
+          'called mastering, and between about 1990 and 2008 it rose '
+          'steadily, album after album, across almost the whole of popular '
+          'music. The people who did it knew what they were doing and most '
+          'of them disliked it.',
+          'The reason is simple to state. A listener comparing two '
+          'recordings at the same setting of the volume control prefers the '
+          'louder one, and prefers it within a second or two, before '
+          'anything else about the music has been noticed. This has been '
+          'demonstrated many times, and it holds even when the louder '
+          'recording is worse by every other measure. A record company that '
+          'wanted its single to stand out on the radio therefore had a '
+          'direct interest in making it the loudest thing on the station.',
+          'The difficulty is that a recording cannot simply be made louder. '
+          'There is a ceiling, set by the format, above which a signal '
+          'cannot go, and the loudest moment of a piece of music is already '
+          'near it. To raise the average, the engineer has to pull the loud '
+          'moments down and push the quiet ones up, which reduces the '
+          'difference between them. That difference is what musicians call '
+          'dynamics, and it is a large part of how a drum sounds like a drum '
+          'being hit.',
+          'The result, by the middle of the two thousands, was a generation '
+          'of records with almost no dynamic range at all. Several famous '
+          'albums were released in versions where the waveform, seen on a '
+          'screen, is a solid block. One of them was remastered twice and '
+          'withdrawn after complaints from listeners who had bought it. '
+          'Measurements of chart recordings over the period show the average '
+          'level rising by about nine decibels, which is a very large change '
+          'for anything to do with hearing.',
+          'What makes this a useful example is that nobody involved wanted '
+          'the outcome. Engineers wrote about it in their trade press '
+          'throughout. Musicians objected, sometimes publicly. Listeners, '
+          'asked directly, preferred the older versions. But each individual '
+          'decision was rational for whoever took it, because a record that '
+          'was quieter than its competitors lost the comparison that '
+          'actually determined whether it was played.',
+          'The thing that stopped it was not an argument. In about 2008 the '
+          'large streaming services began to normalise playback, which means '
+          'adjusting every track to the same loudness before it reaches the '
+          'listener. A recording that had been squeezed to be loud was now '
+          'turned down automatically to the same level as everything else, '
+          'and arrived with its dynamics destroyed and no advantage to show '
+          'for it. The incentive reversed almost overnight.',
+          'Mastering levels have fallen since, although not to where they '
+          'were. Several producers now master two versions, one for '
+          'streaming and one for the formats where loudness still competes. '
+          'The engineers who argued against the practice for twenty years '
+          'were proved right, and it was not their arguments that settled '
+          'it. A change in how the music was delivered removed the reason '
+          'for doing it.',
+          'That pattern is worth holding on to, because it is not about '
+          'music. Where everybody involved can see that a practice is '
+          'harmful and everybody has a reason to continue it, persuasion '
+          'tends to fail and a change in the structure tends to work. The '
+          'useful question about such a practice is not who is to blame but '
+          'what comparison each participant is being judged on, and whether '
+          'anybody is in a position to change it.',
+                ('One more detail is worth adding, because it shows how long '
+                 'the practice had been understood. The measurement that '
+                 'streaming services use to set a common loudness was '
+                 'published in 2011, and it was developed by broadcasters, who '
+                 'had faced the same problem with advertisements for decades. '
+                 'An advertiser who could make a commercial louder than the '
+                 'programme around it had a reason to, and the complaints from '
+                 'viewers were constant. The broadcasting industry solved it '
+                 'with a standard and a regulator. The music industry had '
+                 'neither, and waited for a change in how recordings reached '
+                 'listeners to do the same work.')],
+         items=[
+          ('Which paragraph explains why a quieter recording was at a '
+           'disadvantage?',
+           ['Paragraph 1', 'Paragraph 2', 'Paragraph 4', 'Paragraph 7'], 1,
+           'Paragraph 2 reports the listener preference and what it meant '
+           'for a record company.',
+           {0: 'Paragraph 1 distinguishes the two loudnesses and states '
+               'that levels rose.',
+            2: 'Paragraph 4 gives the result of the practice rather than '
+               'the reason for it.',
+            3: 'Paragraph 7 describes what happened after the incentive '
+               'reversed.'}),
+          ('Which paragraph describes a change that was not the result of '
+           'persuasion?',
+           ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
+           'Paragraph 6 says the thing that stopped it was not an argument '
+           'but normalised playback.',
+           {0: 'Paragraph 3 explains the technical ceiling and what '
+               'raising the average costs.',
+            1: 'Paragraph 5 establishes that nobody wanted the outcome, '
+               'before the remedy appears.',
+            3: 'Paragraph 8 draws the general lesson from the change '
+               'rather than describing it.'}),
+          ('The writer believes the engineers who objected were right.',
+           ['Yes', 'No', 'Not Given'], 0,
+           'Paragraph 7 says they were proved right, in those words.',
+           {1: 'No contradicts the explicit statement in paragraph 7.',
+            2: 'Not Given is wrong because the writer states a view.'}),
+          ('The writer believes the engineers were to blame for what '
+           'happened.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 5 says nobody involved wanted the outcome, and the '
+           'last paragraph says the useful question is not who is to '
+           'blame.',
+           {0: 'Yes would need blame to be assigned, and the passage '
+               'declines to assign it.',
+            2: 'Not Given is wrong because the writer addresses blame '
+               'directly.'}),
+          ('The writer believes streaming has improved popular music.',
+           ['Yes', 'No', 'Not Given'], 2,
+           'The passage says normalisation removed one bad incentive and '
+           'makes no claim about the music as a whole.',
+           {0: 'Yes goes beyond a change in mastering levels.',
+            1: 'No would need the writer to argue that streaming made '
+               'things worse, which never appears.'}),
+          ('The writer believes persuasion rarely changes a practice of '
+           'this kind.',
+           ['Yes', 'No', 'Not Given'], 0,
+           'The last paragraph states that persuasion tends to fail and a '
+           'change in the structure tends to work.',
+           {1: 'No contradicts the generalisation the passage ends on.',
+            2: 'Not Given is wrong because that sentence is the '
+               'conclusion.'}),
+          ('By about how many decibels did the average level of chart '
+           'recordings rise?', None, 'nine',
+           'Paragraph 4 gives the figure from measurements over the '
+           'period.'),
+          ('The adjustment of every track to the same loudness before '
+           'playback is called ____________.', None, 'normalisation',
+           'Paragraph 6 names the practice and explains what it does.')])],
    listen=[
     dict(heading='A performer and a producer disagree', part='Part 4',
          task='A recorded discussion', band='l4',
-         qtype='Questions 67-72',
+         qtype='Questions 75-80',
          script=[
           ('Chair', 'Mr Szabo-Whitfield is a concert pianist. Ms '
            'Delacroix-Nnamdi produces classical recordings. Each begins '

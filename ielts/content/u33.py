@@ -1310,7 +1310,15 @@ UNIT = dict(
           'flexibility that every government finds useful. But it does clarify '
           'what the real disagreement is about, which is not how long '
           'sentences should be but what question the length is supposed to '
-          'answer.'],
+          'answer.',
+                ('One practical consequence follows, and it is modest. A '
+                 'sentencing decision that stated which purpose it was serving '
+                 'could be appealed on its own terms, and a body of such '
+                 'statements would eventually show what the system was '
+                 'actually doing rather than what its legislation said. No '
+                 'reform of principle would be required for that, only a line '
+                 'in a judgment, which is why the proposal is worth making '
+                 'even though its chances are poor.')],
          items=[
           ('Which paragraph describes a measure being defended on shifting '
            'grounds?',

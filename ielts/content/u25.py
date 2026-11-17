@@ -930,7 +930,17 @@ UNIT = dict(
           'currently asks for is a file that is anonymous, which invites the '
           'cheapest possible answer: delete the name, declare the problem '
           'solved, and leave the arithmetic to somebody who is not reading '
-          'the policy.'],
+          'the policy.',
+                ('A last observation concerns who bears the risk of being '
+                 'wrong. The institution releasing a file carries a '
+                 'reputational cost if it is re-identified, and the cost is '
+                 'bounded: an apology, an inquiry, a change of policy. The '
+                 'person in the file carries an unbounded one, because a '
+                 'medical record that has been linked to a name cannot be '
+                 'unlinked, and no apology restores it. A rule that balances '
+                 'the two interests has to notice that asymmetry, and the '
+                 'present arrangement, in which the releasing body decides '
+                 'alone, does not.')],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['Removing the name', 'Where identity actually lives',

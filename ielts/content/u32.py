@@ -1284,7 +1284,16 @@ UNIT = dict(
           'a useful public habit. It is an argument about proportion. The '
           'question a reader should ask of any waste policy is not how much '
           'was recycled but how much was never made, and that question is '
-          'answered upstream of every bin in the country, in rooms that no campaign has ever been organised to reach. A policy that improves a recycling rate while leaving those rooms untouched has moved a number without moving the thing the number was meant to stand for.'],
+          'answered upstream of every bin in the country, in rooms that no campaign has ever been organised to reach. A policy that improves a recycling rate while leaving those rooms untouched has moved a number without moving the thing the number was meant to stand for.',
+                ('A final remark concerns the direction of blame, which this '
+                 'literature has unusually clear evidence about. The idea that '
+                 'waste is primarily a problem of individual carelessness was '
+                 'promoted, in the best documented case, by the industries '
+                 'whose products were being thrown away. That history does not '
+                 'make the claim false, and it does explain why the claim is '
+                 'so familiar and why its alternative is not. A reader meeting '
+                 'a waste statistic should ask who paid to have it collected, '
+                 'as well as what it measures.')],
          items=[
           ('Which paragraph gives the share of total waste that households '
            'produce?',

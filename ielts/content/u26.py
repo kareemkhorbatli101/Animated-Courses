@@ -1225,7 +1225,17 @@ UNIT = dict(
           'about crowding, which was the grievance everybody began with. The '
           'four towns between them have demonstrated that the two '
           'grievances need two instruments, which nobody argued for in any '
-          'of the four consultations.'],
+          'of the four consultations.',
+                ('What none of the four towns did, and what the evidence '
+                 'suggests would have helped most, is state in advance what '
+                 'the cap was for. A cap defended as a response to crowding '
+                 'can be judged against crowding; one defended as a response '
+                 'to housing, noise or water cannot be judged at all, because '
+                 'nothing in the policy touches those things. Residents in '
+                 'three of the four towns reported that the scheme had failed, '
+                 'while the official evaluations reported that it had '
+                 'succeeded. Both were describing the same numbers against '
+                 'different, unstated purposes.')],
          items=[
           ('Which paragraph describes a scheme allocating licences by '
            'auction?', ['Paragraph 2', 'Paragraph 3', 'Paragraph 4',

@@ -15,7 +15,10 @@ An intent file:
      "item_fields": ["ans", "why", "wrongs"],   which fields of them may change
      "texts": ["u61 c1 R0"],                    texts whose words may change
      "prose": ["u1 c5 W1 model"],               prose slots that may change
-     "new_prose": ["u1 c5 W1 model65"],         slots that may appear
+     "new_prose": ["model65", "paper1a"],       slots that may appear: a
+                                                substring of the key is
+                                                enough, so a field name or
+                                                a module name both work
      "new_items": true,                         items may be added
      "new_texts": ["paper1a"],                  prefixes that may appear
      "heads": false,                            the head-word set may move
@@ -74,7 +77,11 @@ def main(argv):
                         bad.append('%s: %s.%s %r -> %r (undeclared)'
                                    % (vol, k, f, v0[f], v1[f]))
         for k in b1['items']:
-            if k not in b0['items'] and not new_items:
+            if k in b0['items']:
+                continue
+            if new_items:
+                declared += 1
+            else:
                 bad.append('%s: item %s added (undeclared)' % (vol, k))
         for k, t0 in b0['texts'].items():
             t1 = b1['texts'].get(k)
@@ -87,7 +94,11 @@ def main(argv):
                     bad.append('%s: text %s changed, %d -> %d words '
                                '(undeclared)' % (vol, k, t0['w'], t1['w']))
         for k in b1['texts']:
-            if k not in b0['texts'] and not k.startswith(new_texts or ('\0',)):
+            if k in b0['texts']:
+                continue
+            if k.startswith(new_texts or ('\0',)):
+                declared += 1
+            else:
                 bad.append('%s: text %s added (undeclared)' % (vol, k))
         for k, q0 in b0.get('prose', {}).items():
             q1 = b1['prose'].get(k)
@@ -102,7 +113,7 @@ def main(argv):
         for k in b1['prose']:
             if k in b0.get('prose', {}):
                 continue
-            if k.endswith(new_prose or ('\0',)):
+            if any(t in k for t in new_prose):
                 declared += 1
             else:
                 bad.append('%s: prose %s added (undeclared)' % (vol, k))

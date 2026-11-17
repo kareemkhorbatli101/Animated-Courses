@@ -148,7 +148,7 @@ def _load(name):
     return mod
 
 
-def texts(vol=4, bands=('acad', 'long')):
+def texts(vol=4, bands=('acad', 'long', 'stamina')):
     out, paper = [], []
     lo = 21 + (vol - 3) * 10
     for n in range(lo, lo + 10):
@@ -160,8 +160,13 @@ def texts(vol=4, bands=('acad', 'long')):
             for r in c['read']:
                 if r['band'] in bands:
                     out.append(' '.join(r['paras']))
-    pm = _load('paper%d' % vol)
-    if pm is not None:
+    # Every form of the timed paper, not only the first: a second paper is
+    # another two and a half thousand words of reading in the book, and
+    # prose that is not measured is prose that can drift.
+    for suf in ('', 'a', 'b'):
+        pm = _load('paper%d%s' % (vol, suf))
+        if pm is None:
+            continue
         for ps in pm.PAPER['passages']:
             paper.append(' '.join(ps['paras']))
     return out, paper

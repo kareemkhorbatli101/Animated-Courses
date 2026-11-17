@@ -1245,7 +1245,17 @@ UNIT = dict(
           'evidence is strong for the first, adequate for the second, '
           'patchy for the third and almost absent for the fourth, which is '
           'exactly the reverse of the order in which people argue about '
-          'them.'],
+          'them.',
+                ('One further point belongs here, because it is the part most '
+                 'often left out. The four objects are not equally expensive '
+                 'to measure. A total can be read from tax records that '
+                 'already exist; a distribution requires a survey; a person '
+                 'requires an interview that nobody commissions. The cheapest '
+                 'evidence therefore supports the broadest claim, and the '
+                 'claim a reader actually wants tested is the one for which no '
+                 'funder has ever paid. That is not a conspiracy. It is a '
+                 'budget, and it explains the shape of the literature better '
+                 'than any argument about ideology does.')],
          items=[
           ('Which paragraph explains why averaging destroys information?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 5'], 1,

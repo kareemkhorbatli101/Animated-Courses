@@ -24,7 +24,13 @@ BANDS_BY_VOL = {
     1: {'gt_short': (110, 185), 'gt_work': (175, 250), 'long': (290, 390),
         'acad': (400, 510), 'l1': (170, 245), 'l2': (180, 255),
         'l3': (210, 295), 'l4': (255, 345), 'model': (155, 255),
-        'essay': (255, 330)},
+        'essay': (255, 330),
+        # The stamina read. One a book in Volumes 1 and 2, deliberately
+        # longer than anything else in the book, because a candidate whose
+        # longest read is 500 words meets 900 for the first time in the
+        # exam hall. It is a length band of its own so that the ordinary
+        # academic band can stay where the plan put it.
+        'stamina': (580, 700)},
     # Volume 2 is the first book below Volume 3 to be written, so its bands
     # are a step down from Volume 3's and sit inside the plan's own V1-V2
     # row: short GT 130-180, workplace 200-280, long 320-420, academic
@@ -35,7 +41,7 @@ BANDS_BY_VOL = {
     2: {'gt_short': (130, 205), 'gt_work': (205, 290), 'long': (340, 450),
         'acad': (450, 580), 'l1': (200, 275), 'l2': (210, 285),
         'l3': (250, 330), 'l4': (300, 400), 'model': (155, 260),
-        'essay': (255, 340)},
+        'essay': (255, 340), 'stamina': (660, 790)},
     3: {'gt_short': (150, 240), 'gt_work': (250, 340), 'long': (420, 560),
         'acad': (600, 760), 'l1': (240, 320), 'l2': (250, 330),
         'l3': (300, 380), 'l4': (350, 430), 'model': (140, 300),
@@ -148,6 +154,18 @@ MIN_SOUNDS = 4          # lines on the pronunciation and fluency page
 FIX_FAULTS = 3
 FIX_TEXT = (40, 130)    # words in the faulty paragraph
 MIN_FIX_WHY = 25
+
+# Exam-length reading. The real Academic paper puts 2,150 to 2,750 words in
+# front of a candidate in sixty minutes, and the single thing that defeats
+# people is not vocabulary but the third passage. A book whose longest read
+# is 650 words has never asked for that, so from Volume 3 up a book must
+# carry at least six passages at exam length, and Volumes 1 and 2 must each
+# carry one stamina read, which has a band of its own above everything else
+# in the book.
+LONG_READ = 700
+MIN_LONG_READS = 6      # per book, Volume 3 and above
+STAMINA_FROM = 1        # Volumes 1 and 2 carry one each
+STAMINA_TO = 2
 
 # Phases turn these on as the content lands, so the gate is written first
 # and goes green when the work it governs is done. Set by main() from the
@@ -437,6 +455,33 @@ def check_unit(U, out, heads):
                    % (tag, sh, SPEAK_FLOOR))
 
 
+def check_long_reads(vol, units, out):
+    """Exam-length reading inside the book, not only in the timed paper."""
+    tag = 'Foundation %d' % (vol - 6) if vol > 6 else 'Volume %d' % vol
+    if vol > 6:
+        return                      # neither Foundation book sits the paper
+    longs, stam = [], []
+    for U in units:
+        for c in U['cycles']:
+            for r in c['read']:
+                w = sum(len(p.split()) for p in r['paras'])
+                if w >= LONG_READ:
+                    longs.append((U['n'], r['heading'][:30], w))
+                if r['band'] == 'stamina':
+                    stam.append((U['n'], w))
+    if STAMINA_FROM <= vol <= STAMINA_TO:
+        if len(stam) != 1:
+            out.append('%s: %d stamina reads, want exactly 1'
+                       % (tag, len(stam)))
+    elif stam:
+        out.append('%s: a stamina read, which belongs in Volumes 1-2 only'
+                   % tag)
+    else:
+        if len(longs) < MIN_LONG_READS:
+            out.append('%s: %d reads of %d+ words, want %d+'
+                       % (tag, len(longs), LONG_READ, MIN_LONG_READS))
+
+
 def check_numbering(U, out):
     """The Questions a-b headings must match the running count in the unit."""
     tag = 'u%d' % U['n']
@@ -461,7 +506,7 @@ def check_paper(P, out):
     global BANDS
     BANDS = BANDS_BY_VOL[P['vol']]
     """The timed paper: shape, length, numbering and answer spread."""
-    tag = 'paper%s' % P['vol']
+    tag = 'paper%s%s' % (P['vol'], P.get('form', ''))
     ps = P['passages']
     if len(ps) != 3:
         out.append('%s: %d passages, want 3' % (tag, len(ps)))
@@ -513,7 +558,7 @@ def check_lpaper(L, out):
     """The timed Listening paper: four parts, ten questions each, 1-40."""
     global BANDS
     BANDS = BANDS_BY_VOL[L['vol']]
-    tag = 'lpaper%s' % L['vol']
+    tag = 'lpaper%s%s' % (L['vol'], L.get('form', ''))
     parts = L['parts']
     if len(parts) != 4:
         out.append('%s: %d parts, want 4' % (tag, len(parts)))
@@ -702,30 +747,36 @@ def main(argv):
         if len(where) > 1:
             out.append('explanation used %d times (%s): %r'
                        % (len(where), ', '.join(where[:4]), why[:52]))
+    vol = vol_of(ns[0])
+    if got:
+        us = []
+        for n in ns:
+            try:
+                us.append(importlib.import_module('content.u%02d' % n).UNIT)
+            except ModuleNotFoundError:
+                continue
+        check_long_reads(vol, us, out)
     npaper = 0
+    for prefix, fn, attr in (('paper', check_paper, 'PAPER'),
+                             ('lpaper', check_lpaper, 'LPAPER')):
+        for suf in ('', 'a', 'b'):
+            try:
+                m = importlib.import_module('content.%s%d%s'
+                                            % (prefix, vol, suf))
+            except ModuleNotFoundError:
+                continue
+            importlib.reload(m)
+            fn(getattr(m, attr), out)
+            npaper += 1
     try:
-        pm = importlib.import_module('content.paper%d' % vol_of(ns[0]))
-        importlib.reload(pm)
-        check_paper(pm.PAPER, out)
-        npaper += 1
-    except ModuleNotFoundError:
-        pass
-    try:
-        lm = importlib.import_module('content.lpaper%d' % vol_of(ns[0]))
-        importlib.reload(lm)
-        check_lpaper(lm.LPAPER, out)
-        npaper += 1
-    except ModuleNotFoundError:
-        pass
-    try:
-        wm = importlib.import_module('content.wpaper%d' % vol_of(ns[0]))
+        wm = importlib.import_module('content.wpaper%d' % vol)
         importlib.reload(wm)
         check_wpaper(wm.WPAPER, out)
         npaper += 1
     except ModuleNotFoundError:
         pass
     try:
-        sm = importlib.import_module('content.spaper%d' % vol_of(ns[0]))
+        sm = importlib.import_module('content.spaper%d' % vol)
         importlib.reload(sm)
         check_spaper(sm.SPAPER, out)
         npaper += 1

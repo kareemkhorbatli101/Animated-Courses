@@ -1,0 +1,73 @@
+{
+ "note": "Phase 7 - B4/F: exam-length reading and the second timed papers. A second Reading paper and a second Listening paper for Volumes 1-5, ten papers and four hundred new questions, rendered by book.py which now loads every form of each paper rather than the first. One exam-length read in each unit of Volumes 3 and 4, made by adding a closing paragraph to the longest academic passage of each unit, which is why eighteen existing passages are longer and no sentence or question in them has changed. One stamina read in Volume 1 and one in Volume 2, with a length band of their own above everything else in those books, each carrying eight questions, which renumbers the Part 4 listening block that follows it. density.py now measures the stamina reads and every form of the timed paper, so the four measured numbers below moved; all eight books remain inside their own windows and the rising-step ladder still holds.",
+ "items": [],
+ "item_fields": [],
+ "texts": [
+  "u21 c4 R0",
+  "u22 c5 R0",
+  "u23 c4 R0",
+  "u24 c4 R0",
+  "u25 c4 R0",
+  "u26 c5 R0",
+  "u27 c4 R0",
+  "u28 c4 R0",
+  "u29 c4 R0",
+  "u30 c4 R0",
+  "u31 c4 R0",
+  "u32 c5 R0",
+  "u33 c5 R0",
+  "u34 c5 R0",
+  "u36 c4 R0",
+  "u38 c4 R0",
+  "u39 c5 R0",
+  "u40 c5 R0"
+ ],
+ "new_items": true,
+ "new_texts": [
+  "paper",
+  "lpaper",
+  "u10 c5 R1",
+  "u20 c5 R1"
+ ],
+ "prose": [],
+ "new_prose": [
+  "paper1a",
+  "paper2a",
+  "paper3a",
+  "paper4a",
+  "paper5a",
+  "lpaper1a",
+  "lpaper2a",
+  "lpaper3a",
+  "lpaper4a",
+  "lpaper5a",
+  "u10 c5 R1",
+  "u20 c5 R1"
+ ],
+ "heads": false,
+ "measure": {
+  "1": {
+   "sent": [
+    19.2,
+    20.6
+   ],
+   "longest": [
+    39,
+    39
+   ]
+  },
+  "2": {
+   "sent": [
+    20.3,
+    21.3
+   ]
+  },
+  "3": {
+   "beyond": [
+    16.7,
+    17.7
+   ]
+  }
+ },
+ "figures": {}
+}

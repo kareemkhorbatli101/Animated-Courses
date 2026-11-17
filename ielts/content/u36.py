@@ -927,7 +927,14 @@ UNIT = dict(
           'What follows practically is that the value of a storage asset '
           'cannot be read from its cost per kilowatt-hour, the figure that '
           'dominates the reporting. It depends on how often the asset will be '
-          'used, which depends on the shape of the gap it is filling, which is a property of the weather and the demand curve, where everybody looks for one of the technology.'],
+          'used, which depends on the shape of the gap it is filling, which is a property of the weather and the demand curve, where everybody looks for one of the technology.',
+                ('That last point has an awkward corollary for planning. The '
+                 'assets most valuable in a seasonal gap are the ones used '
+                 'least often, and an asset used twice a year cannot recover '
+                 'its cost from the market as markets are currently designed. '
+                 'Somebody has to pay for capacity that earns almost nothing '
+                 'and is indispensable for a fortnight, which is an argument '
+                 'about institutions rather than about technology.')],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['Hours: close to solved', 'Days: no answer at scale',

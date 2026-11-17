@@ -1114,11 +1114,154 @@ UNIT = dict(
            'one.'),
           ('Children who play several sports until fourteen acquire a '
            'wider range of ____________ skills.', None, 'movement',
-           'Paragraph 5, and those skills transfer.')])],
+           'Paragraph 5, and those skills transfer.')]),
+    dict(heading='The hour record',
+         kind='Academic passage \u00b7 the stamina read',
+         task='Matching information, True/False/Not Given and short answer',
+         band='stamina',
+         qtype='Questions 63-70',
+         skill=('Reading a long passage without losing the thread',
+                ['This passage is longer than anything else in this book, '
+                 'and that is the point. The paper gives you three of '
+                 'these in an hour.',
+                 'Read it once at your own pace, then answer. Do not stop '
+                 'to look words up; the questions are about the argument, '
+                 'not the vocabulary.',
+                 'Mark the paragraph that answers each question in the '
+                 'margin. On a long passage, finding your way back is '
+                 'most of the time you spend.']),
+         paras=[
+          'In 1893 a French cyclist called Henri Desgrange rode as far as he '
+          'could in one hour on a track in Paris. He covered a little over '
+          'thirty-five kilometres. The distance was written down, and in '
+          'writing it down the sport created a question that it has been '
+          'arguing about ever since: what exactly is being measured when a '
+          'rider tries to beat it?',
+          'The hour record is the simplest test in cycling. There is one '
+          'rider, one track and one hour. There is no tactics, no team and '
+          'no weather, because the track is indoors. The rider who goes '
+          'furthest wins, and nothing else counts. For most of the twentieth '
+          'century this made it the most respected record in the sport, and '
+          'the list of people who held it includes almost every great road '
+          'racer of the period.',
+          'The trouble began with the bicycle. A bicycle in 1893 was a steel '
+          'frame with two wheels, and so was a bicycle in 1950. By the '
+          'nineteen-eighties the machines being used for the hour were not '
+          'bicycles in any ordinary sense. They had solid wheels, handlebars '
+          'that put the rider almost flat, and frames made of carbon. In '
+          '1996 a British rider named Chris Boardman covered fifty-six '
+          'kilometres on a machine that had cost more than a small house. '
+          'The old record had been beaten by nine kilometres in thirty '
+          'years, and almost none of the gain had come from the riders.',
+          'In 2000 the governing body did something unusual. It ruled that '
+          'the record would only count if the rider used a bicycle of the '
+          'kind available in 1972, the year a Belgian called Eddy Merckx had '
+          'set a mark that many people regarded as the true one. Round '
+          'tubes, spoked wheels, ordinary handlebars. Everything set on the '
+          'newer machines was moved to a separate list called the best human '
+          'effort, which nobody paid much attention to.',
+          'The effect was immediate and strange. Merckx had ridden 49.4 '
+          'kilometres in 1972. Under the new rule, riders in 2000 were '
+          'trying to beat a thirty-year-old distance on thirty-year-old '
+          'equipment, and finding it extremely hard. Boardman himself came '
+          'back in 2000, on a 1972-style bicycle, and beat Merckx by ten '
+          'metres. Ten metres, after twenty-eight years of training '
+          'science, nutrition and testing.',
+          'That result is the interesting one, and it cuts both ways. One '
+          'reading is that almost all the improvement in the record had been '
+          'equipment, and that human performance had hardly moved. The other '
+          'is that Merckx was an extraordinary athlete who happened to ride '
+          'on a bad day for the record and still nearly stopped it being '
+          'broken for a generation. The figures cannot separate the two, '
+          'because only one rider rode both bicycles and he was eight years '
+          'older the second time.',
+          'In 2014 the rule was changed again. The record now allows any '
+          'bicycle that could be used in an ordinary track race, which is a '
+          'definition a judge can apply and which does not freeze the sport '
+          'in any particular year. The distance went up at once, and it has '
+          'gone up several times since. Nobody argues that the current '
+          'holder is a better rider than Merckx. They argue about whether '
+          'that question has an answer.',
+          'What the whole story shows is how much of a record is a '
+          'definition. The hour looks like the purest measurement in sport, '
+          'and it turns out to be a measurement of a rider, a machine, a '
+          'rule and an altitude all at once. Changing any one of them '
+          'changes the number, and the sport has changed all four at '
+          'different times, usually in order to make the record mean what '
+          'somebody thought it ought to mean.',
+          'The practical lesson has nothing to do with cycling. Whenever a '
+          'number is offered as a measure of how good something is, the '
+          'useful question is what else had to be held still for that '
+          'number to mean anything. In the hour record almost nothing was '
+          'held still for a hundred years, which is why the list of holders '
+          'is not a list of the fastest riders in history.'],
+         items=[
+          ('Which paragraph explains why the governing body returned to an '
+           'older kind of bicycle?',
+           ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 6'], 2,
+           'Paragraph 4 gives the 2000 ruling and the reason for choosing '
+           '1972 equipment.',
+           {0: 'Paragraph 2 describes the simplicity of the test and no '
+               'rule change.',
+            1: 'Paragraph 3 describes the machines, which is the problem '
+               'rather than the response to it.',
+            3: 'Paragraph 6 weighs two readings of the Boardman result, '
+               'after the rule had changed.'}),
+          ('Which paragraph states that one factor cannot be separated from '
+           'another?',
+           ['Paragraph 3', 'Paragraph 5', 'Paragraph 6', 'Paragraph 8'], 2,
+           'Paragraph 6 says the figures cannot separate the equipment '
+           'effect from how good Merckx was.',
+           {0: 'Paragraph 3 reports the change in machines without '
+               'discussing what cannot be separated.',
+            1: 'Paragraph 5 reports the ten-metre margin and leaves the '
+               'reading of it to the next paragraph.',
+            3: 'Paragraph 8 is about definitions in general, not about '
+               'this particular comparison.'}),
+          ('Desgrange rode further than any cyclist had ridden in an hour '
+           'before 1893.',
+           ['True', 'False', 'Not Given'], 2,
+           'Paragraph 1 says the distance was written down, and says '
+           'nothing about earlier attempts.',
+           {0: 'True would need the passage to compare him with earlier '
+               'riders, which it never does.',
+            1: 'False would need evidence that somebody had gone further, '
+               'and none is given.'}),
+          ('Most of the increase in the record between 1972 and 1996 came '
+           'from the riders.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 3 says almost none of the gain had come from the '
+           'riders.',
+           {0: 'True contradicts the last sentence of paragraph 3.',
+            2: 'Not Given is wrong because the passage states where the '
+               'gain came from.'}),
+          ('Boardman beat the Merckx distance by a large margin in 2000.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 5 gives the margin as ten metres, which the passage '
+           'treats as remarkably small.',
+           {0: 'True contradicts the figure given.',
+            2: 'Not Given is wrong because the margin is stated exactly.'}),
+          ('The writer thinks the question of who was the better rider can '
+           'be settled.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 7 says people argue about whether that question has '
+           'an answer, and paragraph 6 says the figures cannot settle it.',
+           {0: 'True would need the writer to offer a method, and the '
+               'passage says the comparison fails.',
+            2: 'Not Given is wrong because the writer addresses it '
+               'directly in the last two paragraphs.'}),
+          ('In which year was the rule changed to allow any track-racing '
+           'bicycle?', None, '2014',
+           'Paragraph 7 opens with the year of the second rule change.'),
+          ('According to the last paragraph, a reader should ask what else '
+           'had to be held ____________ for a number to mean anything.',
+           None, 'still',
+           'The final paragraph uses the phrase held still twice, and that '
+           'is the whole point of the passage.')])],
    listen=[
     dict(heading='Two coaches disagree about specialising',
          part='Part 4', task='A recorded discussion', band='l4',
-         qtype='Questions 63-68',
+         qtype='Questions 71-76',
          script=[
           ('Chair', 'Ms Oyelaran-Pike coaches a youth academy. Mr '
            'Halvorsen-Ruiz runs a multi-sport programme. Each begins '

@@ -1274,7 +1274,16 @@ UNIT = dict(
           'rests on an extrapolation from volunteers to non-volunteers that '
           'the evidence cannot license, and saying so is not scepticism about '
           'shorter hours. It is a statement about which question has been '
-          'answered.'],
+          'answered.',
+                ('It is worth noting how rarely this distinction survives '
+                 'translation into public argument. A trial of willing firms '
+                 'is reported as evidence about firms, and the qualification '
+                 'that the sample chose itself appears in the methods section '
+                 'and nowhere else. Anybody arguing against a mandate is then '
+                 'obliged to attack the finding, which is sound, rather than '
+                 'the extrapolation, which is not, and the argument becomes a '
+                 'dispute about the data between two parties who both accept '
+                 'it.')],
          items=[
           ('Which paragraph explains why random assignment has not been used?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,

@@ -954,7 +954,15 @@ UNIT = dict(
           'response to a reward structure somebody chose, and could be '
           'changed by changing it. That is a less satisfying explanation than '
           'a moral one, and it has the advantage of naming something that '
-          'can be altered by a committee.'],
+          'can be altered by a committee.',
+                ('One qualification should be stated, because the argument is '
+                 'easy to overextend. A reward structure explains the rate at '
+                 'which rules are broken, not the fact that they are. Sports '
+                 'with flat prizes still have cheats, and individuals still '
+                 'choose, and the explanation offered here removes no '
+                 'responsibility from anybody. What it does is identify the '
+                 'variable a governing body can actually move, which is not '
+                 'the character of its athletes.')],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['Prize structures as design', 'Risk and the gap between first '

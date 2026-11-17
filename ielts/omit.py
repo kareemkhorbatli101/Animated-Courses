@@ -210,16 +210,17 @@ def main(vol, path):
     want = []
     for U in units:
         want += wanted(U)
-    try:
-        want += paper_wanted(importlib.import_module('content.paper%d'
-                                                     % vol).PAPER)
-    except ModuleNotFoundError:
-        pass
-    try:
-        want += lpaper_wanted(importlib.import_module('content.lpaper%d'
-                                                      % vol).LPAPER)
-    except ModuleNotFoundError:
-        pass
+    for suf in ('', 'a', 'b'):
+        try:
+            want += paper_wanted(importlib.import_module(
+                'content.paper%d%s' % (vol, suf)).PAPER)
+        except ModuleNotFoundError:
+            pass
+        try:
+            want += lpaper_wanted(importlib.import_module(
+                'content.lpaper%d%s' % (vol, suf)).LPAPER)
+        except ModuleNotFoundError:
+            pass
     try:
         want += wpaper_wanted(importlib.import_module('content.wpaper%d'
                                                       % vol).WPAPER)

@@ -860,15 +860,17 @@ def audio_scripts(d, vol, units):
                      D_AMBER)
                 d.script(l['script'])
         d.page_break_section()
-    try:
-        L = importlib.import_module('content.lpaper%s' % vol).LPAPER
-    except ModuleNotFoundError:
-        return
-    d.keybar('Listening Paper')
-    for pt in L['parts']:
-        d.h3('%s · %s' % (pt['part'], pt['heading']), D_AMBER)
-        d.script(pt['script'])
-    d.page_break_section()
+    for suf in ('', 'a', 'b'):
+        try:
+            L = importlib.import_module('content.lpaper%s%s'
+                                        % (vol, suf)).LPAPER
+        except ModuleNotFoundError:
+            continue
+        d.keybar(L.get('title', 'Listening Paper'))
+        for pt in L['parts']:
+            d.h3('%s · %s' % (pt['part'], pt['heading']), D_AMBER)
+            d.script(pt['script'])
+        d.page_break_section()
 
 
 def glossary(d, vol, units):
@@ -1038,16 +1040,26 @@ def build(vol, out=None):
     ukeys = {}
     for u in units:
         ukeys[u['n']] = render_unit(d, u)
-    try:
-        pm = importlib.import_module('content.paper%d' % vol)
-        importlib.reload(pm)
-    except ModuleNotFoundError:
-        pm = None
-    try:
-        lm = importlib.import_module('content.lpaper%d' % vol)
-        importlib.reload(lm)
-    except ModuleNotFoundError:
-        lm = None
+    # A volume can carry more than one form of each timed paper. The second
+    # form exists so that the first can be marked, read and understood
+    # before the student sits another one; a single paper measures nothing
+    # that practice can then improve.
+    def forms(prefix):
+        out = []
+        for suf in ('', 'a', 'b'):
+            try:
+                m = importlib.import_module('content.%s%d%s'
+                                            % (prefix, vol, suf))
+            except ModuleNotFoundError:
+                continue
+            importlib.reload(m)
+            out.append(m)
+        return out
+
+    pms = forms('paper')
+    lms = forms('lpaper')
+    pm = pms[0] if pms else None
+    lm = lms[0] if lms else None
     try:
         wm = importlib.import_module('content.wpaper%d' % vol)
         importlib.reload(wm)
@@ -1058,17 +1070,17 @@ def build(vol, out=None):
         importlib.reload(sm)
     except ModuleNotFoundError:
         sm = None
-    pkey = render_paper(d, pm.PAPER) if pm else None
-    lkey = render_lpaper(d, lm.LPAPER) if lm else None
+    pkeys = [render_paper(d, m.PAPER) for m in pms]
+    lkeys = [render_lpaper(d, m.LPAPER) for m in lms]
     if wm:
         render_wpaper(d, wm.WPAPER)
     if sm:
         render_spaper(d, sm.SPAPER)
     back_matter(d, vol, units, ukeys)
-    if pm:
-        paper_key(d, pm.PAPER, pkey)
-    if lm:
-        lpaper_key(d, lm.LPAPER, lkey)
+    for m, k in zip(pms, pkeys):
+        paper_key(d, m.PAPER, k)
+    for m, k in zip(lms, lkeys):
+        lpaper_key(d, m.LPAPER, k)
     if wm:
         wpaper_key(d, wm.WPAPER)
     if sm:

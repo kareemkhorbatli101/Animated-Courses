@@ -941,7 +941,17 @@ UNIT = dict(
           'the public purse, decades later; building nothing puts it on '
           'people who do not yet live there and cannot object. Only the third '
           'option requires no decision, which is a large part of the '
-          'explanation for its popularity.'],
+          'explanation for its popularity.',
+                ('One asymmetry deserves a sentence of its own, because it '
+                 'explains why the third option is chosen so often. The costs '
+                 'of building upwards and outwards fall on identifiable people '
+                 'who can be interviewed, photographed and quoted. The cost of '
+                 'building nothing falls on households that do not yet exist '
+                 'in the constituency, and on young people who will form them '
+                 'somewhere else. A planning process that hears objections '
+                 'hears the first two and cannot hear the third, so the option '
+                 'with the least visible cost wins by a mechanism that has '
+                 'nothing to do with its merits.')],
          items=[
           ('Choose the best heading for paragraph 2.',
            ['Three options', 'Cheap to serve, expensive to build',

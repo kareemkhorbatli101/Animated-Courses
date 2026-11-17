@@ -1340,7 +1340,16 @@ UNIT = dict(
           'differ in other ways from those that did not. The pattern is '
           'suggestive and it is not identified, which is a sentence this '
           'volume has now used about four different literatures and will use '
-          'again.'],
+          'again.',
+                ('One more point should be added, since it affects how the '
+                 'whole argument is received. A person describing a full '
+                 'surgery and a full school is reporting an observation, not a '
+                 'theory, and telling them that the national data disagrees '
+                 'does not address what they said. The reply they are owed is '
+                 'about their town. Where that reply has been given, with '
+                 'figures for the town and funding attached to them, the '
+                 'argument has shifted from identity to capacity, which is a '
+                 'question that can be answered.')],
          items=[
           ('Which paragraph explains why the national average is near zero?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
