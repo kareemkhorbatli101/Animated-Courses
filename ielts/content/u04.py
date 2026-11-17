@@ -295,12 +295,19 @@ UNIT = dict(
           ('Which volunteer gives a social reason for taking part?',
            ['Anselm', 'Constance', 'Ibrahim', 'Marguerite'], 3,
            'Thirty people standing in a river and talking.'),
-          ('Ibrahim says the readings were more effective than the '
-           'rubbish collection.', ['True', 'False', 'Not Given'], 0,
-           'He compares one meeting with nine years of bags.'),
+          (
+           'Ibrahim says the readings were more effective than the '
+           'rubbish collection.',
+           ['True', 'False', 'Not Given'], 0,
+           'He compares one meeting with nine years of bags.',
+           {1: 'False would need him to rank them the other way; he '
+               'does not.', 2: 'Not Given is wrong because he compares the two '
+               'directly.'}),
           ('Constance has explained the problem to the water company.',
            ['True', 'False', 'Not Given'], 2,
-           'She mentions explaining it to new volunteers only.')])],
+           'She mentions explaining it to new volunteers only.',
+           {0: 'True would need the company; she names new volunteers.', 1: 'False would need the text to deny it, and the company '
+               'never appears.'})])],
    listen=[
     dict(heading='A volunteer group leader', part='Part 2',
          task='A talk to new volunteers', band='l2',
@@ -777,14 +784,24 @@ UNIT = dict(
           ('The writer believes reserves should no longer be created.',
            ['True', 'False', 'Not Given'], 1,
            'Paragraph 5 calls them the only reliable instrument '
-           'against building.'),
-          ('Effects from outside a wood can reach a hundred metres '
+           'against building.',
+           {0: 'Yes would need that view; paragraph 5 calls them the '
+               'only reliable instrument.', 2: 'Not Given is wrong because the writer states what '
+               'reserves are for.'}),
+          (
+           'Effects from outside a wood can reach a hundred metres '
            'inside it.', ['True', 'False', 'Not Given'], 0,
-           'Paragraph 2 states this about wind, light and '
-           'predators.'),
-          ('Most conservation bodies own the land around their '
+           'Paragraph 2 states this about wind, light and predators.',
+           {1: 'No would need a contradiction; paragraph 2 gives the '
+               'distance.', 2: 'Not Given is wrong because wind, light and predators '
+               'are measured.'}),
+          (
+           'Most conservation bodies own the land around their '
            'reserves.', ['True', 'False', 'Not Given'], 1,
-           'The final sentence says they usually do not.'),
+           'The final sentence says they usually do not.',
+           {0: 'True would need ownership; the final sentence says '
+               'they usually do not.', 2: 'Not Given is wrong because the question of surrounding '
+               'land is answered.'}),
           ('A one-square-kilometre reserve contains little that is more '
            'than ____________ metres from an edge.', None, 'four '
            'hundred', 'Paragraph 2, which is why small reserves are '
@@ -1017,17 +1034,27 @@ UNIT = dict(
            ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
             'Paragraph 6'], 2,
            'It says this is what a boundary is for, not an error.'),
-          ('The writer believes reserves are no longer worth '
-           'creating.', ['True', 'False', 'Not Given'], 1,
+          (
+           'The writer believes reserves are no longer worth creating.',
+           ['True', 'False', 'Not Given'], 1,
            'The final paragraph calls them necessary but not '
-           'sufficient.'),
-          ('Some protected wetlands have dried out while still legally '
+           'sufficient.',
+           {0: 'Yes would need dismissal; the final paragraph calls '
+               'them necessary.', 2: 'Not Given is wrong because the writer judges their '
+               'worth.'}),
+          (
+           'Some protected wetlands have dried out while still legally '
            'protected.', ['True', 'False', 'Not Given'], 0,
-           'Paragraph 2 states this about several famous '
-           'wetlands.'),
-          ('The writer believes conservation bodies should buy whole '
+           'Paragraph 2 states this about several famous wetlands.',
+           {1: 'False would need the protection to have held; '
+               'paragraph 2 names the wetlands.', 2: 'Not Given is wrong because the examples are given.'}),
+          (
+           'The writer believes conservation bodies should buy whole '
            'catchments.', ['True', 'False', 'Not Given'], 1,
-           'Paragraph 5 says no body could manage that.'),
+           'Paragraph 5 says no body could manage that.',
+           {0: 'Yes would need that proposal; paragraph 5 says no body '
+               'could manage it.', 2: 'Not Given is wrong because the option is considered '
+               'and rejected.'}),
           ('On which soils is extra nitrogen most damaging?', None,
            'poor soils', 'Paragraph 3, where many rare plants grow.'),
           ('The work that matters most is on land nobody is '

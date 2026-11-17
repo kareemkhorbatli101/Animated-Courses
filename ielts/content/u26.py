@@ -382,12 +382,16 @@ UNIT = dict(
            'Because of the rent, while saying nobody has behaved badly.'),
           ('Fenella wants fewer visitors to come.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says the same number spread across the year would end the '
-           'argument.'),
+           'She says the same number spread across the year would end '
+           'the argument.',
+           {0: 'Yes would need fewer; she asks for the same number '
+               'spread out.', 2: 'Not Given is wrong because she says what she wants.'}),
           ('Casimir has attended town meetings about tourism.',
            ['Yes', 'No', 'Not Given'], 2,
-           'He says people without complaints do not come; whether he has is '
-           'never stated.')])],
+           'He says people without complaints do not come; whether he '
+           'has is never stated.',
+           {0: 'Yes would need his attendance, which is never stated.', 1: 'No would need him to say he stays away, and he does '
+               'not.'})])],
    listen=[
     dict(heading='A public meeting on visitor numbers', part='Part 3',
          task='A discussion at a council meeting', band='l3',
@@ -897,15 +901,21 @@ UNIT = dict(
            ['Labour', 'The local multiplier', 'Further points',
             'The practical conclusion'], 1,
            'The number of times a euro changes hands before leaving.'),
-          ('The writer believes the headline spending figure is '
+          (
+           'The writer believes the headline spending figure is '
            'inaccurate.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 calls it accurate and almost useless, which is a '
-           'different objection.'),
-          ('The writer believes raising visitor numbers and raising the '
-           'local share require the same policies.',
+           'Paragraph 1 calls it accurate and almost useless, which is '
+           'a different objection.',
+           {0: 'Yes would need inaccuracy; paragraph 1 calls it '
+               'accurate and useless.', 2: 'Not Given is wrong because the figure is judged.'}),
+          (
+           'The writer believes raising visitor numbers and raising '
+           'the local share require the same policies.',
            ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph says they are different and sometimes '
-           'opposed.'),
+           'opposed.',
+           {0: 'Yes would need the same policies; the final paragraph '
+               'says they can oppose each other.', 2: 'Not Given is wrong because the two aims are compared.'}),
           ('The number of times a euro changes hands locally is called the '
            'local ____________.', None, 'multiplier',
            'Paragraph 6, typically between 1.2 and 1.9.'),
@@ -1172,10 +1182,17 @@ UNIT = dict(
           ('The writer believes the caps failed entirely.',
            ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph says they work in the narrow sense of '
-           'reducing what they cap.'),
-          ('The writer believes the fourth town solved the crowding '
+           'reducing what they cap.',
+           {0: 'Yes would need total failure; the final paragraph says '
+               'they reduce what they cap.', 2: 'Not Given is wrong because the caps are evaluated.'}),
+          (
+           'The writer believes the fourth town solved the crowding '
            'problem.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says it did nothing at all about crowding.'),
+           'The final paragraph says it did nothing at all about '
+           'crowding.',
+           {0: 'Yes would need a solution; the final paragraph says it '
+               'did nothing about crowding.', 2: 'Not Given is wrong because the fourth town is '
+               'assessed.'}),
           ('In the second town, the enforcement team has ____________ '
            'inspectors.', None, 'two',
            'Paragraph 3, for nine thousand properties.'),

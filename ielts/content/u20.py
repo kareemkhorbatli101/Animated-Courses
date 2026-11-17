@@ -323,10 +323,16 @@ UNIT = dict(
           ('Ambrose believes streaming pays musicians fairly.',
            ['Yes', 'No', 'Not Given'], 2,
            'He says the figure is small and that it is the wrong '
-           'argument; fairness is never addressed.'),
+           'argument; fairness is never addressed.',
+           {0: 'Yes would need a judgement of fairness; he argues '
+               'about the wrong figure.', 1: 'No would need him to call it unfair, and he avoids the '
+               'word.'}),
           ('Thelonius believes he is paid too little overall.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He says his complaint is about variance, not amount.')])],
+           'He says his complaint is about variance, not amount.',
+           {0: 'Yes would need the amount to be his complaint; he '
+               'names the variance.', 2: 'Not Given is wrong because he says what his complaint '
+               'is.'})])],
    listen=[
     dict(heading='A short talk: making a living from music',
          part='Part 2', task='A talk to music students', band='l2',
@@ -860,10 +866,15 @@ UNIT = dict(
           ('The writer believes recording has damaged music overall.',
            ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph calls it an exchange rather than a '
-           'decline.'),
-          ('The writer believes the narrowing of the repertoire was '
+           'decline.',
+           {0: 'Yes would need damage; the final paragraph calls it an '
+               'exchange.', 2: 'Not Given is wrong because the writer sums the gains '
+               'and losses.'}),
+          (
+           'The writer believes the narrowing of the repertoire was '
            'intended.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 3 says it was not intended.'),
+           'Paragraph 3 says it was not intended.',
+           {0: 'Yes would need intention; paragraph 3 says it was not.', 2: 'Not Given is wrong because intention is addressed.'}),
           ('The narrowing of the repertoire took about ____________ '
            'years to appear.', None, 'forty',
            'Paragraph 3, after recording began.'),
@@ -1120,11 +1131,17 @@ UNIT = dict(
            'version.'),
           ('The writer believes the dispute can be settled.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 says it probably cannot be.'),
+           'Paragraph 1 says it probably cannot be.',
+           {0: 'Yes would need a settlement; paragraph 1 says it '
+               'probably cannot be.', 2: 'Not Given is wrong because the writer gives his '
+               'expectation.'}),
           ('The writer believes editing a recording is wrong.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 4 states that the claim is not that editing is '
-           'wrong.'),
+           'wrong.',
+           {0: 'Yes would need that claim; paragraph 4 says it is not '
+               'the claim.', 2: 'Not Given is wrong because the writer states what is '
+               'and is not claimed.'}),
           ('Listeners told how a recording was assembled frequently '
            'report feeling ____________.', None, 'cheated',
            'Paragraph 5, unlike listeners told about films.'),

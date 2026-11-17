@@ -371,11 +371,16 @@ UNIT = dict(
            'Holding things loosely and waiting a week.'),
           ('Winnifred believes a trustworthy outlet makes no errors.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says explicitly that nobody is free of errors.'),
+           'She says explicitly that nobody is free of errors.',
+           {0: 'Yes would need error-free; she says nobody is.', 2: 'Not Given is wrong because she defines what she '
+               'trusts.'}),
           ('Abimbola thinks other people are wrong to trust the news.',
            ['Yes', 'No', 'Not Given'], 2,
-           'He describes his own position as rational; he says nothing about '
-           'others.')])],
+           'He describes his own position as rational; he says nothing '
+           'about others.',
+           {0: 'Yes would need a judgement of others; he describes '
+               'only his own position.', 1: 'No would need him to endorse their trust, which he '
+               'never does.'})])],
    listen=[
     dict(heading='Two editors disagree about balance', part='Part 3',
          task='A conversation in a newsroom', band='l3',
@@ -893,13 +898,20 @@ UNIT = dict(
             'A change of target', 'Simplicity'], 1,
            'Asking people to consider accuracy has a small, decaying '
            'effect.'),
-          ('The writer believes automated accounts are the main cause.',
+          (
+           'The writer believes automated accounts are the main cause.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 reports that removing them changes little.'),
-          ('The writer believes nothing can be done about the problem.',
+           'Paragraph 2 reports that removing them changes little.',
+           {0: 'Yes would need them to dominate; paragraph 2 says '
+               'removing them changes little.', 2: 'Not Given is wrong because their contribution is '
+               'measured.'}),
+          (
+           'The writer believes nothing can be done about the problem.',
            ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph proposes interventions on distribution '
-           'instead.'),
+           'instead.',
+           {0: 'Yes would need resignation; the final paragraph '
+               'proposes interventions.', 2: 'Not Given is wrong because remedies are named.'}),
           ('Corrections typically reach between a tenth and a ____________ '
            'of those who saw the original.', None, 'third',
            'Paragraph 6, because a correction is less novel and more '
@@ -1176,11 +1188,18 @@ UNIT = dict(
           ('The writer believes corrections strengthen false beliefs.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 reports that the backfire finding did not '
-           'reproduce.'),
-          ('The writer believes the reach problem is technically unsolved.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 and the conclusion call it solved and mostly not '
-           'implemented.'),
+           'reproduce.',
+           {0: 'Yes would need the backfire effect; paragraph 2 says '
+               'it did not reproduce.', 2: 'Not Given is wrong because the backfire claim is '
+               'tested.'}),
+          (
+           'The writer believes the reach problem is technically '
+           'unsolved.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 5 and the conclusion call it solved and mostly '
+           'not implemented.',
+           {0: 'Yes would need it unsolved; paragraph 5 calls it '
+               'solved and unimplemented.', 2: 'Not Given is wrong because the technical state is '
+               'stated.'}),
           ('Attaching a correction to the original item raises the '
            'proportion corrected to over ____________.', None, 'half',
            'Paragraph 5, from under a tenth.'),

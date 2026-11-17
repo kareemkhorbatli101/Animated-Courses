@@ -78,22 +78,40 @@ PAPER = dict(
         'narrower one: a standard that is widely used is evidence of having '
         'arrived early rather than evidence of having been well designed.'],
        items=[
-        ('Clocks run clockwise because of how sundial shadows move '
-         'north of the equator.', ['True', 'False', 'Not Given'], 0,
-         'Paragraphs 1 and 2 give exactly this explanation.'),
-        ('Mechanical clocks were first built in the southern half of '
+        (
+         'Clocks run clockwise because of how sundial shadows move '
+         'north of the equator.',
+         ['True', 'False', 'Not Given'], 0,
+         'Paragraphs 1 and 2 give exactly this explanation.',
+         {1: 'False would need a different cause; paragraphs 1 and 2 '
+             'give this one.', 2: 'Not Given is wrong because the explanation is the '
+             'passage\u2019s subject.'}),
+        (
+         'Mechanical clocks were first built in the southern half of '
          'the world.', ['True', 'False', 'Not Given'], 1,
-         'Paragraph 1 says they were built in the north.'),
+         'Paragraph 1 says they were built in the north.',
+         {0: 'True would need a southern origin; paragraph 1 places '
+             'them in the north.', 2: 'Not Given is wrong because where they were built is '
+             'stated.'}),
         ('Early clockmakers discussed which direction to use.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 3 says no record shows any discussion.'),
-        ('The clock at Münster still works today.',
+         'Paragraph 3 says no record shows any discussion.',
+         {0: 'True would need a record of discussion; paragraph 3 says '
+             'none exists.', 2: 'Not Given is wrong because the absence of any record is '
+             'itself stated.'}),
+        ('The clock at M\u00fcnster still works today.',
          ['True', 'False', 'Not Given'], 2,
-         'Its present condition is not mentioned.'),
+         'Its present condition is not mentioned.',
+         {0: 'True would need its present condition, which the passage '
+             'never gives.', 1: 'False would need it to say the clock has stopped, and it '
+             'does not.'}),
         ('The writer believes keyboard layouts should be changed.',
          ['True', 'False', 'Not Given'], 1,
          'The final paragraph says standards are not bad and better '
-         'layouts have failed.'),
+         'layouts have failed.',
+         {0: 'True would need that recommendation; the final paragraph '
+             'defends standards.', 2: 'Not Given is wrong because keyboards are the closing '
+             'example.'}),
         ('In the northern half of the world, a sundial shadow moves '
          'from west to north to ____________.', None, 'east',
          'Paragraph 2, which is the direction now called '
@@ -299,23 +317,40 @@ PAPER = dict(
         'whatever and changes what a jury is permitted to be told about it '
         'later.'],
        items=[
-        ('The writer believes juries are wrong to find confident '
+        (
+         'The writer believes juries are wrong to find confident '
          'witnesses credible.', ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 1 says they are right to find them credible.'),
+         'Paragraph 1 says they are right to find them credible.',
+         {0: 'Yes would need criticism; paragraph 1 says they are '
+             'right to.', 2: 'Not Given is wrong because the writer judges the jury\u2019s '
+             'instinct.'}),
         ('The writer believes memory works like a recording.',
          ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 2 says explicitly that it does not.'),
+         'Paragraph 2 says explicitly that it does not.',
+         {0: 'Yes would need the recording model; paragraph 2 rejects '
+             'it explicitly.', 2: 'Not Given is wrong because the model is named and '
+             'refused.'}),
         ('The writer believes witnesses often lie deliberately.',
          ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 1 describes witnesses with no reason to lie.'),
-        ('The writer believes identification parades should be '
+         'Paragraph 1 describes witnesses with no reason to lie.',
+         {0: 'Yes would need deliberate lying; paragraph 1 describes '
+             'honest witnesses.', 2: 'Not Given is wrong because the witnesses\u2019 motives are '
+             'described.'}),
+        (
+         'The writer believes identification parades should be '
          'abolished.', ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 5 describes how they should be conducted '
-         'instead.'),
-        ('The writer believes most police forces now record initial '
+         'Paragraph 5 describes how they should be conducted instead.',
+         {0: 'Yes would need abolition; paragraph 5 says how to run '
+             'them better.', 2: 'Not Given is wrong because the writer prescribes a '
+             'procedure.'}),
+        (
+         'The writer believes most police forces now record initial '
          'confidence.', ['Yes', 'No', 'Not Given'], 2,
          'Several countries require it; how many forces do so is not '
-         'stated.'),
+         'stated.',
+         {0: 'Yes would need a figure for forces; only several '
+             'countries are named.', 1: 'No would need him to say most do not, and he gives no '
+             'such count.'}),
         ('Which paragraph explains how a memory is rebuilt each time '
          'it is recalled?',
          ['Paragraph 1', 'Paragraph 2', 'Paragraph 3',

@@ -414,11 +414,17 @@ UNIT = dict(
            'Compared to knowing how a magic trick is done.'),
           ('Marguerite fully trusts her own account of the month.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says the result makes her suspicious of her own report.'),
+           'She says the result makes her suspicious of her own '
+           'report.',
+           {0: 'Yes would need trust; she says the result makes her '
+               'suspicious of it.', 2: 'Not Given is wrong because she rates her own report.'}),
           ('Ignatius believes designers are less affected than users.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He says he is as caught as anybody and has stopped thinking '
-           'that is a defence.')])],
+           'He says he is as caught as anybody and has stopped '
+           'thinking that is a defence.',
+           {0: 'Yes would need an exemption; he says he is as caught '
+               'as anybody.', 2: 'Not Given is wrong because he places himself among the '
+               'affected.'})])],
    listen=[
     dict(heading='Two designers disagree about engagement', part='Part 3',
          task='A conversation between two product designers', band='l3',
@@ -998,13 +1004,22 @@ UNIT = dict(
             'Why network effects prevent exit', 'Externalities'], 2,
            'Dissatisfaction does not produce exit as in an ordinary '
            'market.'),
-          ('The writer believes the subsidised side of a two-sided market '
-           'is necessarily cheated.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 3 says explicitly that it is not.'),
-          ('The writer believes this passage establishes that the harms are '
-           'large.', ['Yes', 'No', 'Not Given'], 1,
+          (
+           'The writer believes the subsidised side of a two-sided '
+           'market is necessarily cheated.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 3 says explicitly that it is not.',
+           {0: 'Yes would need cheating; paragraph 3 denies it '
+               'explicitly.', 2: 'Not Given is wrong because the subsidised side is '
+               'discussed.'}),
+          (
+           'The writer believes this passage establishes that the '
+           'harms are large.', ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph says that is a separate empirical '
-           'question.'),
+           'question.',
+           {0: 'Yes would need that conclusion; the final paragraph '
+               'calls it a separate question.', 2: 'Not Given is wrong because the writer states what the '
+               'passage shows.'}),
           ('What is sold is best described as a ____________ that a message '
            'will produce a behaviour.', None, 'probability',
            'Paragraph 1, which the writer calls the unit of trade.'),
@@ -1314,13 +1329,23 @@ UNIT = dict(
            ['Paragraph 6', 'Paragraph 7', 'Paragraph 8',
             'Paragraph 9'], 2,
            'The staggered arrival of high-speed internet by region.'),
-          ('The writer believes the association between use and wellbeing '
-           'does not exist.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 calls it robust across nearly every dataset.'),
-          ('The writer believes the historical record shows new media are '
-           'never harmful.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 says it is an argument about base rates, not about '
-           'never.'),
+          (
+           'The writer believes the association between use and '
+           'wellbeing does not exist.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 2 calls it robust across nearly every dataset.',
+           {0: 'Yes would need absence; paragraph 2 calls the '
+               'association robust.', 2: 'Not Given is wrong because the association is '
+               'reported.'}),
+          (
+           'The writer believes the historical record shows new media '
+           'are never harmful.', ['Yes', 'No', 'Not Given'],
+           1,
+           'Paragraph 7 says it is an argument about base rates, not '
+           'about never.',
+           {0: 'Yes would need never; paragraph 7 frames it as base '
+               'rates.', 2: 'Not Given is wrong because the historical argument is '
+               'characterised.'}),
           ('The association accounts for between 0.3 and ____________ per '
            'cent of the variation in wellbeing.', None, '0.9',
            'Paragraph 2, comparable to wearing spectacles.'),

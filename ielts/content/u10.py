@@ -312,11 +312,15 @@ UNIT = dict(
            'The cold changing room with no hooks.'),
           ('Olubunmi was told that reaching a plateau was normal.',
            ['True', 'False', 'Not Given'], 1,
-           'He says nobody told him, although everybody knew.'),
+           'He says nobody told him, although everybody knew.',
+           {0: 'True would need somebody to have told him; he says '
+               'nobody did.', 2: 'Not Given is wrong because he addresses exactly this.'}),
           ('Marguerite intends to start running again.',
            ['True', 'False', 'Not Given'], 2,
            'She says she never started again; her intentions are not '
-           'stated.')])],
+           'stated.',
+           {0: 'True would need a stated intention, and she gives '
+               'none.', 1: 'False would need her to rule it out, and she does not.'})])],
    listen=[
     dict(heading='A coach on keeping going', part='Part 2',
          task='A talk to new members', band='l2',
@@ -795,15 +799,25 @@ UNIT = dict(
             'Measuring performance'], 0,
            'Being told in advance makes people more likely to '
            'continue.'),
-          ('Performance falls measurably for a day or two after a hard '
+          (
+           'Performance falls measurably for a day or two after a hard '
            'session.', ['True', 'False', 'Not Given'], 0,
-           'Paragraph 2 states this about the day after a session.'),
+           'Paragraph 2 states this about the day after a session.',
+           {1: 'False would need no fall; paragraph 2 measures one.', 2: 'Not Given is wrong because the day after a session is '
+               'described.'}),
           ('An athlete who trains hard daily improves faster.',
            ['True', 'False', 'Not Given'], 1,
-           'Paragraph 3 says such an athlete accumulates damage.'),
-          ('The writer believes most coaches explain this to '
+           'Paragraph 3 says such an athlete accumulates damage.',
+           {0: 'True would need faster improvement; paragraph 3 says '
+               'damage accumulates.', 2: 'Not Given is wrong because daily training is compared '
+               'directly.'}),
+          (
+           'The writer believes most coaches explain this to '
            'beginners.', ['True', 'False', 'Not Given'], 2,
-           'What coaches do is not stated.'),
+           'What coaches do is not stated.',
+           {0: 'Yes would need a claim about coaches, and none is '
+               'made.', 1: 'No would need him to say they do not, which he never '
+               'says.'}),
           ('The body rebuilds slightly ____________ where it '
            'started.', None, 'beyond',
            'Paragraph 2, as a defence against the same load.'),
@@ -1041,15 +1055,26 @@ UNIT = dict(
            ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
             'Paragraph 6'], 2,
            'A wider range of movement skills, which transfer.'),
-          ('The writer believes early specialisation never produces '
-           'elite athletes.', ['True', 'False', 'Not Given'], 1,
-           'The final paragraph says the opposite.'),
-          ('Early specialisers are more likely to reach a high '
-           'standard by fifteen.', ['True', 'False', 'Not Given'], 0,
-           'Paragraph 4 states this from the whole-cohort studies.'),
+          (
+           'The writer believes early specialisation never produces '
+           'elite athletes.', ['True', 'False', 'Not Given'],
+           1, 'The final paragraph says the opposite.',
+           {0: 'Yes would need never; the final paragraph allows the '
+               'exceptions.', 2: 'Not Given is wrong because the writer addresses the '
+               'claim.'}),
+          (
+           'Early specialisers are more likely to reach a high '
+           'standard by fifteen.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 4 states this from the whole-cohort studies.',
+           {1: 'No would need a contradiction; paragraph 4 reports it '
+               'from the cohorts.', 2: 'Not Given is wrong because the fifteen-year-old '
+               'comparison is given.'}),
           ('The writer believes parents are mainly to blame.',
            ['True', 'False', 'Not Given'], 2,
-           'No attribution of blame to parents appears.'),
+           'No attribution of blame to parents appears.',
+           {0: 'Yes would need blame to be assigned, and it never is.', 1: 'No would need him to defend parents, which he does '
+               'not.'}),
           ('What is the name of the fault described in paragraph 3?',
            None, 'survivorship',
            'Studying a successful group without the unsuccessful '

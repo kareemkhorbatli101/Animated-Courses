@@ -330,11 +330,16 @@ UNIT = dict(
            'Almost nothing like her tenancy has been built since.'),
           ('Annika has moved because of rent increases.',
            ['True', 'False', 'Not Given'], 1,
-           'She says each move happened because the landlord sold.'),
+           'She says each move happened because the landlord sold.',
+           {0: 'True would need rent to be the cause; she names the '
+               'landlord selling.', 2: 'Not Given is wrong because she gives her reason for '
+               'each move.'}),
           ('Desmond has discussed the comparison with his son.',
            ['True', 'False', 'Not Given'], 2,
            'He says he finds it difficult to say so; whether he has is '
-           'not stated.')])],
+           'not stated.',
+           {0: 'True would need the conversation; he says only that he '
+               'finds it hard to say.', 1: 'False would need a denial, and none appears.'})])],
    listen=[
     dict(heading='Two neighbours on a changing street', part='Part 3',
          task='A discussion between two neighbours', band='l3',
@@ -800,16 +805,27 @@ UNIT = dict(
             'land'], 1,
            'Construction is nearly irrelevant, and the restriction is '
            'popular.'),
-          ('Building materials and labour account for about a quarter '
+          (
+           'Building materials and labour account for about a quarter '
            'of the price in an expensive city.',
            ['True', 'False', 'Not Given'], 0,
-           'Paragraph 1 states this about an expensive city.'),
-          ('The writer believes restrictions on building serve no '
+           'Paragraph 1 states this about an expensive city.',
+           {1: 'False would need a different share; paragraph 1 gives '
+               'about a quarter.', 2: 'Not Given is wrong because the expensive city is the '
+               'paragraph\u2019s example.'}),
+          (
+           'The writer believes restrictions on building serve no '
            'purpose.', ['True', 'False', 'Not Given'], 1,
-           'Paragraph 3 lists several real public benefits.'),
+           'Paragraph 3 lists several real public benefits.',
+           {0: 'Yes would need dismissal; paragraph 3 lists real '
+               'public benefits.', 2: 'Not Given is wrong because the writer weighs the '
+               'restrictions.'}),
           ('The writer believes committees are corrupt.',
            ['True', 'False', 'Not Given'], 2,
-           'No claim about corruption appears anywhere.'),
+           'No claim about corruption appears anywhere.',
+           {0: 'Yes would need a charge of corruption, which is never '
+               'made.', 1: 'No would need him to defend them against it, and the '
+               'subject never arises.'}),
           ('Land with permission sells for between fifty and '
            '____________ times the price of farmland.', None, 'a '
            'hundred', 'Paragraph 2, with nothing physical changed.'),
@@ -1059,17 +1075,26 @@ UNIT = dict(
            'Private building and public building together.'),
           ('The writer believes building more homes is pointless.',
            ['True', 'False', 'Not Given'], 1,
-           'Paragraph 5 says this is not an argument against '
-           'building.'),
-          ('Cities that permitted sustained building have lower rents '
-           'than comparable cities.', ['True', 'False', 'Not '
-            'Given'], 0,
-           'Paragraph 1 states this, after allowing for '
-           'differences.'),
-          ('The writer believes new flats should be prevented from '
+           'Paragraph 5 says this is not an argument against building.',
+           {0: 'Yes would need that conclusion; paragraph 5 says the '
+               'opposite.', 2: 'Not Given is wrong because the writer states what '
+               'building does and does not do.'}),
+          (
+           'Cities that permitted sustained building have lower rents '
+           'than comparable cities.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 1 states this, after allowing for differences.',
+           {1: 'No would need a contradiction; paragraph 1 makes the '
+               'comparison.', 2: 'Not Given is wrong because the comparison is given '
+               'with its controls.'}),
+          (
+           'The writer believes new flats should be prevented from '
            'being sold at market prices.',
            ['True', 'False', 'Not Given'], 2,
-           'No proposal about prices of that kind is made.'),
+           'No proposal about prices of that kind is made.',
+           {0: 'Yes would need a proposal about prices, and none is '
+               'made.', 1: 'No would need him to defend market pricing, which he '
+               'never discusses.'}),
           (
            'Housing takes three to ____________ years to move from a '
            'decision to a family living in it.', None,

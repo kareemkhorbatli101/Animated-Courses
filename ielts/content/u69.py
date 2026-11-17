@@ -385,12 +385,15 @@ UNIT = dict(
          items=[
           ('Who learned something new as an adult?',
            ['Ana', 'Bilal', 'Cora'], 2,
-           'Cora joined the band at fifty-one.'),
+           'Cora joined the band at fifty-one.',
+           {0: 'Ana repaired bicycles before she was an adult.', 1: 'Bilal has grown vegetables since childhood.'}),
           ('Who started because of a cost?', ['Ana', 'Bilal', 'Cora'],
-           0, 'Ana was charged thirty pounds for a cable.'),
-          ('Who values the hobby for the time rather than the '
-           'result?', ['Ana', 'Bilal', 'Cora'], 1,
-           'Bilal says the vegetables are not the point.'),
+           0, 'Ana was charged thirty pounds for a cable.',
+           {1: 'Bilal started for the time it gave him.', 2: 'Cora started to learn something new.'}),
+          ('Who values the hobby for the time rather than the result?',
+           ['Ana', 'Bilal', 'Cora'], 1,
+           'Bilal says the vegetables are not the point.',
+           {0: 'Ana values the money a repair saves.', 2: 'Cora values being taught something at fifty-one.'}),
           ('How often does Ana repair a bicycle?', None, 'one a week',
            'For friends, taking only the cost of parts.'),
           (
@@ -584,7 +587,9 @@ UNIT = dict(
            'training.'),
           ('Which paragraph explains why four sessions beat seven?',
            ['Paragraph 2', 'Paragraph 1', 'Paragraph 3'], 0,
-           'Because the rebuilding is allowed to happen.'),
+           'Because the rebuilding is allowed to happen.',
+           {1: 'Paragraph 1 is about the first gains, from the nervous '
+               'system.', 2: 'Paragraph 3 is about what changes between sessions.'}),
           ('The third change alters how the body uses ____________.',
            None, 'fuel', 'Paragraph 3, between sessions.'),
           ('These changes disappear more ____________ than strength '
@@ -767,7 +772,9 @@ UNIT = dict(
            'more.'),
           ('Which paragraph explains why the two sides disagree?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 1'], 2,
-           'They are usually counting different people.'),
+           'They are usually counting different people.',
+           {0: 'Paragraph 2 reports what the studies find.', 1: 'Paragraph 3 is about the sports where an early start '
+               'is real.'}),
           ('A child playing four sports develops a wider set of '
            'movement ____________.', None, 'strategies',
            'Paragraph 2, as well as general strength.'),

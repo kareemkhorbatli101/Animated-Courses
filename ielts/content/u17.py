@@ -338,11 +338,16 @@ UNIT = dict(
            'The spot with afternoon sun where the old people sat.'),
           ('Lysander dislikes the sculpture itself.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He says he has nothing against the sculpture.'),
+           'He says he has nothing against the sculpture.',
+           {0: 'Yes would need dislike; he says he has nothing against '
+               'it.', 2: 'Not Given is wrong because he distinguishes the object '
+               'from the process.'}),
           ('Ignatia believes the consultation was dishonest.',
            ['Yes', 'No', 'Not Given'], 1,
            'She calls it real and questions what consultation '
-           'produces.')])],
+           'produces.',
+           {0: 'Yes would need dishonesty; she calls the consultation '
+               'real.', 2: 'Not Given is wrong because she judges it directly.'})])],
    listen=[
     dict(heading='A short talk: public art', part='Part 2',
          task='A talk to a town forum', band='l2',
@@ -885,13 +890,19 @@ UNIT = dict(
             'Post-occupancy studies', 'Running costs'], 1,
            'A building failing the first two is bad whatever it looks '
            'like.'),
-          ('The writer believes the question of appearance should be '
+          (
+           'The writer believes the question of appearance should be '
            'ignored.', ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph says the opposite, with a '
-           'qualification.'),
-          ('The writer believes studies of buildings in use are '
+           'qualification.',
+           {0: 'Yes would need dismissal; the final paragraph keeps '
+               'it, with a condition.', 2: 'Not Given is wrong because appearance is addressed at '
+               'the end.'}),
+          (
+           'The writer believes studies of buildings in use are '
            'expensive.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 calls them cheap to run.'),
+           'Paragraph 2 calls them cheap to run.',
+           {0: 'Yes would need expense; paragraph 2 calls them cheap.', 2: 'Not Given is wrong because their cost is stated.'}),
           ('Studies returning to a building after opening are '
            'commissioned for about one building in ____________.', None,
            'twenty', 'Paragraph 2, despite being inexpensive.'),
@@ -1142,13 +1153,22 @@ UNIT = dict(
            ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
             'Paragraph 7'], 1,
            'The most disliked building being the most used.'),
-          ('The writer believes expert judgement is proved correct by the '
-           'prediction studies.', ['Yes', 'No', 'Not Given'], 1,
+          (
+           'The writer believes expert judgement is proved correct by '
+           'the prediction studies.',
+           ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 4 explains why the finding is weaker than it '
-           'sounds.'),
-          ('The writer believes a public vote is a reliable guide to how '
-           'a building will be used.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 says it does not guarantee use.'),
+           'sounds.',
+           {0: 'Yes would need proof; paragraph 4 weakens the finding.', 2: 'Not Given is wrong because the studies are '
+               'interpreted.'}),
+          (
+           'The writer believes a public vote is a reliable guide to '
+           'how a building will be used.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 6 says it does not guarantee use.',
+           {0: 'Yes would need reliability; paragraph 6 says a vote '
+               'guarantees nothing about use.', 2: 'Not Given is wrong because voting is assessed as a '
+               'method.'}),
           ('The two groups disagree only at the point of '
            '____________.', None, 'evaluation',
            'Paragraph 2, having described buildings almost '

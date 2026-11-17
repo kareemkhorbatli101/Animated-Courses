@@ -368,13 +368,21 @@ UNIT = dict(
           ('Which person says they chose the loss that reviewers would not '
            'notice?', ['Hyacinth', 'Casimir', 'Perpetua', 'Ignatius'], 3,
            'And now thinks another approach was right.'),
-          ('Perpetua claims her solution can be defended on theoretical '
-           'grounds.', ['Yes', 'No', 'Not Given'], 1,
+          (
+           'Perpetua claims her solution can be defended on '
+           'theoretical grounds.',
+           ['Yes', 'No', 'Not Given'], 1,
            'She calls it indefensible on any theory she could write '
-           'down.'),
-          ('Casimir believes readers of translated fiction can learn from '
-           'an untranslated word.', ['Yes', 'No', 'Not Given'], 0,
-           'He says a word in italics teaches them within two pages.')])],
+           'down.',
+           {0: 'Yes would need a defence; she calls it indefensible on '
+               'any theory.', 2: 'Not Given is wrong because she rates her own solution.'}),
+          (
+           'Casimir believes readers of translated fiction can learn '
+           'from an untranslated word.',
+           ['Yes', 'No', 'Not Given'], 0,
+           'He says a word in italics teaches them within two pages.',
+           {1: 'No would need doubt; he says a word in italics teaches '
+               'them in two pages.', 2: 'Not Given is wrong because he gives the mechanism.'})])],
    listen=[
     dict(heading='A short talk: what gets lost', part='Part 2',
          task='A talk at a literary festival', band='l2',
@@ -1018,13 +1026,22 @@ UNIT = dict(
             'An objection the minority view must answer',
             'The practical consequence'], 2,
            'What a translation would then be a translation of.'),
-          ('The writer believes the referential definition is too weak and '
-           'too strong at once.', ['Yes', 'No', 'Not Given'], 0,
-           'Paragraph 2 gives an example of each failing.'),
-          ('The writer believes evaluators adopted the fourth position '
+          (
+           'The writer believes the referential definition is too weak '
+           'and too strong at once.',
+           ['Yes', 'No', 'Not Given'], 0,
+           'Paragraph 2 gives an example of each failing.',
+           {1: 'No would need one failing only; paragraph 2 gives an '
+               'example of each.', 2: 'Not Given is wrong because both failings are '
+               'illustrated.'}),
+          (
+           'The writer believes evaluators adopted the fourth position '
            'deliberately.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 8 calls it a concession made by people who would not '
-           'have signed up to the theory.'),
+           'Paragraph 8 calls it a concession made by people who would '
+           'not have signed up to the theory.',
+           {0: 'Yes would need deliberation; paragraph 8 calls it a '
+               'concession.', 2: 'Not Given is wrong because how the position was '
+               'reached is described.'}),
           ('The referential definition makes "half full" equivalent to '
            '"half ____________".', None, 'empty',
            'Paragraph 2: both are true in the same circumstances.'),
@@ -1336,13 +1353,19 @@ UNIT = dict(
             'Paragraph 10'], 1,
            'A thriller translated for rhythm has chosen an unsupported '
            'standard.'),
-          ('The writer believes the three versions are three attempts at '
-           'the same thing.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 says they are three different things.'),
-          ('The writer believes judgement of translations is impossible.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7: impossible without a stated standard, which is '
-           'not the same.'),
+          (
+           'The writer believes the three versions are three attempts '
+           'at the same thing.', ['Yes', 'No', 'Not Given'],
+           1, 'Paragraph 7 says they are three different things.',
+           {0: 'Yes would need one aim; paragraph 7 says they are '
+               'three different things.', 2: 'Not Given is wrong because the three are compared.'}),
+          (
+           'The writer believes judgement of translations is '
+           'impossible.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 7: impossible without a stated standard, which '
+           'is not the same.',
+           {0: 'Yes would need impossibility; paragraph 7 makes it '
+               'conditional on a standard.', 2: 'Not Given is wrong because the condition is stated.'}),
           ('Readers who know the original language mostly prefer the '
            '____________ version.', None, '2019',
            'Paragraph 5, the one that preserves rhythm.'),

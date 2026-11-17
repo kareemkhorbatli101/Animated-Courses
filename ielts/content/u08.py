@@ -314,13 +314,19 @@ UNIT = dict(
           ('Which person deliberately changed a habit?',
            ['Rosalind', 'Kwabena', 'Delphine', 'Teodor'], 3,
            'He stopped eating standing up over the sink.'),
-          ('Rosalind believes her family deserves credit for eating '
+          (
+           'Rosalind believes her family deserves credit for eating '
            'together.', ['True', 'False', 'Not Given'], 1,
-           'She says she has stopped claiming any credit for it.'),
-          ('Teodor enjoys cooking.', ['True', 'False', 'Not '
-            'Given'], 2,
+           'She says she has stopped claiming any credit for it.',
+           {0: 'True would need the claim; she says she has stopped '
+               'making it.', 2: 'Not Given is wrong because she states her position on '
+               'credit.'}),
+          ('Teodor enjoys cooking.', ['True', 'False', 'Not Given'], 2,
            'He says he cooks properly four nights; whether he enjoys '
-           'it is not stated.')])],
+           'it is not stated.',
+           {0: 'True would need enjoyment; he gives only how often he '
+               'cooks.', 1: 'False would need him to dislike it, and he never says '
+               'so.'})])],
    listen=[
     dict(heading='A dietitian on family meals', part='Part 2',
          task='A talk at a community centre', band='l2',
@@ -836,15 +842,25 @@ UNIT = dict(
             'Centuries of soil', 'The limit removed'], 0,
            'Costs and benefits in different units at different '
            'times.'),
-          ('Cultivated land rose by about twelve per cent between 1960 '
+          (
+           'Cultivated land rose by about twelve per cent between 1960 '
            'and 2000.', ['True', 'False', 'Not Given'], 0,
-           'Paragraph 1 states this, against a doubling of population.'),
-          ('The writer disputes the size of the gains in food '
+           'Paragraph 1 states this, against a doubling of population.',
+           {1: 'False would need a different figure; paragraph 1 gives '
+               'twelve per cent.', 2: 'Not Given is wrong because the figure sits beside the '
+               'population one.'}),
+          (
+           'The writer disputes the size of the gains in food '
            'production.', ['True', 'False', 'Not Given'], 1,
-           'Paragraph 3 says they are not in dispute.'),
+           'Paragraph 3 says they are not in dispute.',
+           {0: 'True would need a dispute; paragraph 3 says the gains '
+               'are not in dispute.', 2: 'Not Given is wrong because the writer states where the '
+               'argument is.'}),
           ('The writer believes fertiliser should be banned.',
            ['True', 'False', 'Not Given'], 2,
-           'No proposal to ban fertiliser appears anywhere.'),
+           'No proposal to ban fertiliser appears anywhere.',
+           {0: 'True would need a ban to be proposed, and none is.', 1: 'False would need him to defend fertiliser against a '
+               'ban nobody raises.'}),
           ('New varieties put more of the plant into grain and less '
            'into ____________.', None, 'stem',
            'Paragraph 2, so shorter plants carried more food.'),
@@ -1076,16 +1092,26 @@ UNIT = dict(
            ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
             'Paragraph 6'], 3,
            'The easy measure drives out the one that matters.'),
-          ('The writer believes yield is the wrong measure of '
+          (
+           'The writer believes yield is the wrong measure of '
            'production.', ['True', 'False', 'Not Given'], 1,
-           'Paragraph 3 calls it the right measure of production.'),
-          ('Soil carbon has been shown to predict performance in a dry '
+           'Paragraph 3 calls it the right measure of production.',
+           {0: 'Yes would need rejection; paragraph 3 calls it the '
+               'right measure of production.', 2: 'Not Given is wrong because the writer says what yield '
+               'measures well.'}),
+          (
+           'Soil carbon has been shown to predict performance in a dry '
            'year better than average yield.',
            ['True', 'False', 'Not Given'], 0,
-           'Paragraph 5 states this about dry-year performance.'),
+           'Paragraph 5 states this about dry-year performance.',
+           {1: 'No would need a contradiction; paragraph 5 gives the '
+               'comparison.', 2: 'Not Given is wrong because dry-year performance is '
+               'measured.'}),
           ('The writer believes subsidies should be abolished.',
            ['True', 'False', 'Not Given'], 2,
-           'Only how they are calculated is discussed.'),
+           'Only how they are calculated is discussed.',
+           {0: 'Yes would need abolition; only the basis of '
+               'calculation is discussed.', 1: 'No would need him to defend them, which he does not.'}),
           ('Besides soil carbon, what can now be measured?', None,
            'water-holding capacity',
            'Paragraph 5, both of which cost money and time.'),

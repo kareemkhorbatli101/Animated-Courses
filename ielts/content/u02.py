@@ -307,11 +307,16 @@ UNIT = dict(
            'A long list of videos and no time to watch them.'),
           ('Kwabena thought his first week was slow at the time.',
            ['True', 'False', 'Not Given'], 0,
-           'He says it felt slow and he now values it.'),
+           'He says it felt slow and he now values it.',
+           {1: 'False would need him to say it felt fast; he says the '
+               'opposite.', 2: 'Not Given is wrong because he describes how it felt at '
+               'the time.'}),
           ('Teodor complained to his manager about the videos.',
            ['True', 'False', 'Not Given'], 2,
            'He says he stopped watching them; no complaint is '
-           'mentioned.')])],
+           'mentioned.',
+           {0: 'True would need a complaint; he only stopped watching.', 1: 'False would need the text to rule a complaint out, and '
+               'it is silent.'})])],
    listen=[
     dict(heading='A manager briefs a new starter', part='Part 2',
          task='A talk to a new employee', band='l2',
@@ -781,16 +786,29 @@ UNIT = dict(
             'What is different this time', 'Wages and regions',
             'A century of agriculture'], 1,
            'Software replacing work that requires judgement.'),
-          ('The writer believes employment has collapsed in previous '
-           'waves of automation.', ['True', 'False', 'Not Given'], 1,
-           'Paragraph 1 says the predicted collapse failed to '
-           'arrive.'),
-          ('The number of bank branches rose while the number of clerks '
-           'in each fell.', ['True', 'False', 'Not Given'], 0,
-           'Paragraph 2 states this about the cash machine.'),
-          ('The writer believes the present wave will reduce total '
+          (
+           'The writer believes employment has collapsed in previous '
+           'waves of automation.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 1 says the predicted collapse failed to arrive.',
+           {0: 'Yes would need agreement; paragraph 1 says the '
+               'collapse failed to arrive.', 2: 'Not Given is wrong because the writer states a view on '
+               'earlier waves.'}),
+          (
+           'The number of bank branches rose while the number of '
+           'clerks in each fell.',
+           ['True', 'False', 'Not Given'], 0,
+           'Paragraph 2 states this about the cash machine.',
+           {1: 'No would need a contradiction; paragraph 2 states both '
+               'movements.', 2: 'Not Given is wrong because the cash-machine example '
+               'gives both figures.'}),
+          (
+           'The writer believes the present wave will reduce total '
            'employment.', ['True', 'False', 'Not Given'], 2,
-           'Paragraph 5 says nobody honest claims to know.'),
+           'Paragraph 5 says nobody honest claims to know.',
+           {0: 'Yes would need a prediction; paragraph 5 declines to '
+               'make one.', 1: 'No would need him to rule it out, and he says nobody '
+               'honest knows.'}),
           ('Agricultural employment in Britain fell to under '
            '____________ per cent of all workers.', None, 'two',
            'Paragraph 3, from about a fifth.'),
@@ -1030,15 +1048,28 @@ UNIT = dict(
             'Paragraph 6'], 3,
            'A question about money and training rather than '
            'technology.'),
-          ('The writer believes previous predictions were entirely '
+          (
+           'The writer believes previous predictions were entirely '
            'wrong.', ['True', 'False', 'Not Given'], 1,
-           'Paragraph 1 says they were right about something else.'),
-          ('The writer believes the total number of jobs is likely to '
+           'Paragraph 1 says they were right about something else.',
+           {0: 'Yes would need the whole claim; he says they were '
+               'right about something else.', 2: 'Not Given is wrong because paragraph 1 judges the '
+               'predictions.'}),
+          (
+           'The writer believes the total number of jobs is likely to '
            'fall.', ['True', 'False', 'Not Given'], 1,
-           'Paragraph 5 says it is unlikely to fall.'),
-          ('The writer believes governments should slow down the '
-           'adoption of machines.', ['True', 'False', 'Not Given'], 2,
-           'No view on slowing adoption is expressed anywhere.'),
+           'Paragraph 5 says it is unlikely to fall.',
+           {0: 'Yes would need agreement; paragraph 5 calls a fall '
+               'unlikely.', 2: 'Not Given is wrong because the writer gives his '
+               'expectation.'}),
+          (
+           'The writer believes governments should slow down the '
+           'adoption of machines.',
+           ['True', 'False', 'Not Given'], 2,
+           'No view on slowing adoption is expressed anywhere.',
+           {0: 'Yes would need a recommendation about policy, and none '
+               'is made.', 1: 'No would need him to argue against slowing it, which '
+               'he never does.'}),
           ('The predictions treat the ____________ of work as fixed.',
            None, 'quantity',
            'Paragraph 4, which is where they go wrong.'),

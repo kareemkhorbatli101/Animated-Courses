@@ -415,12 +415,17 @@ UNIT = dict(
           ('Which person follows an individual because of a published '
            'record?', ['Teodora', 'Ignatius', 'Rosamund', 'Casimiro'], 3,
            'Including the years that record shows going badly wrong.'),
-          ('Teodora is confident the surveyor’s judgement was correct.',
+          (
+           'Teodora is confident the surveyor\u2019s judgement was correct.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says explicitly that she has no idea whether he was right.'),
+           'She says explicitly that she has no idea whether he was '
+           'right.',
+           {0: 'Yes would need confidence; she says she has no idea '
+               'whether he was right.', 2: 'Not Given is wrong because she says how sure she is.'}),
           ('Ignatius regrets ignoring the official warnings.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He calls it indefensible and says he would do it again.')])],
+           'He calls it indefensible and says he would do it again.',
+           {0: 'Yes would need regret; he says he would do it again.', 2: 'Not Given is wrong because he judges his own decision.'})])],
    listen=[
     dict(heading='Two advisers disagree about communicating risk',
          part='Part 3', task='A conversation between two advisers',
@@ -1008,15 +1013,22 @@ UNIT = dict(
            ['The limits of consensus', 'A better question to ask',
             'Different starting points', 'The easy explanations'], 1,
            'Asking what observation would move each disputant.'),
-          ('The writer believes most expert disagreement is caused by '
-           'corruption or incompetence.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 says those explanations account for a minority of '
-           'cases.'),
-          ('The writer believes requiring more evidence for surprising '
+          (
+           'The writer believes most expert disagreement is caused by '
+           'corruption or incompetence.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 1 says those explanations account for a minority '
+           'of cases.',
+           {0: 'Yes would need those causes to dominate; paragraph 1 '
+               'makes them a minority.', 2: 'Not Given is wrong because the causes are apportioned.'}),
+          (
+           'The writer believes requiring more evidence for surprising '
            'claims is always closed mindedness.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 6 calls it the correct procedure and locates the '
-           'failure as quantitative.'),
+           'failure as quantitative.',
+           {0: 'Yes would need it to be closed mindedness; paragraph 6 '
+               'calls it correct procedure.', 2: 'Not Given is wrong because the practice is judged.'}),
           ('A researcher with no priors would be moved by the most recent '
            '____________ they encountered.', None, 'study',
            'Paragraph 3, which is why priors are what make a specialist '
@@ -1327,11 +1339,16 @@ UNIT = dict(
            'reasons.'),
           ('The writer believes publication raised public trust.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 3: movements were indistinguishable from noise, and '
-           'downward where detectable.'),
+           'Paragraph 3: movements were indistinguishable from noise, '
+           'and downward where detectable.',
+           {0: 'Yes would need a rise; paragraph 3 finds noise or a '
+               'fall.', 2: 'Not Given is wrong because trust was measured.'}),
           ('The writer believes published advice became less honest.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 4 says it became less legible, not less honest.'),
+           'Paragraph 4 says it became less legible, not less honest.',
+           {0: 'Yes would need dishonesty; paragraph 4 says it became '
+               'less legible.', 2: 'Not Given is wrong because the change in the advice is '
+               'characterised.'}),
           ('After publication, dissent was recorded more often in private '
            '____________.', None, 'correspondence',
            'Paragraph 4, where the publication rules do not reach.'),

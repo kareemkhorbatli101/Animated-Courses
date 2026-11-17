@@ -93,26 +93,40 @@ PAPER = dict(
         'has outlasted almost every writing technology invented since '
         'with far more deliberation.'],
        items=[
-        ('The graphite at Borrowdale was discovered after a storm '
+        (
+         'The graphite at Borrowdale was discovered after a storm '
          'uprooted trees.', ['True', 'False', 'Not Given'], 0,
          'Paragraph 1 describes shepherds finding it beneath the roots '
-         'of a fallen tree.'),
-        ('Graphite deposits as pure as the one at Borrowdale have since '
-         'been found elsewhere.', ['True', 'False', 'Not Given'], 1,
+         'of a fallen tree.',
+         {1: 'False would need a different discovery; paragraph 1 '
+             'gives the fallen tree.', 2: 'Not Given is wrong because the circumstances are '
+             'described.'}),
+        (
+         'Graphite deposits as pure as the one at Borrowdale have '
+         'since been found elsewhere.',
+         ['True', 'False', 'Not Given'], 1,
          'Paragraph 2 states that no comparable deposit has been found '
-         'anywhere since.'),
+         'anywhere since.',
+         {0: 'True would need a comparable deposit; paragraph 2 says '
+             'none has been found.', 2: 'Not Given is wrong because later deposits are addressed.'}),
         ('The wooden pencil case was invented in England.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 3 says the wooden case came from Italy in the '
-         '1560s.'),
-        ('The Borrowdale mine was closed because its graphite ran out.',
+         '1560s.',
+         {0: 'True would need an English origin; paragraph 3 names '
+             'Italy.', 2: 'Not Given is wrong because the origin is stated.'}),
+        (
+         'The Borrowdale mine was closed because its graphite ran out.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 5 says the monopoly ended because of a war, not '
-         'exhaustion.'),
-        ('Conté was given his task by the French government.',
+         'exhaustion.',
+         {0: 'True would need exhaustion; paragraph 5 names a war.', 2: 'Not Given is wrong because the reason is given.'}),
+        ('Cont\u00e9 was given his task by the French government.',
          ['True', 'False', 'Not Given'], 2,
-         'He is described as an officer who was asked, but who asked him '
-         'is never stated.'),
+         'He is described as an officer who was asked, but who asked '
+         'him is never stated.',
+         {0: 'True would need the government named, and it is not.', 1: 'False would need the passage to deny it, and it says '
+             'only that he was asked.'}),
         ('What was wrapped around the earliest graphite sticks?', None,
          'string or sheepskin',
          'Paragraph 3, to keep the user’s hands clean.'),
@@ -350,29 +364,47 @@ PAPER = dict(
         'making the same kind of mistake with whatever technique it '
         'adopts next.'],
        items=[
-        ('The writer believes the claim that no two people have '
+        (
+         'The writer believes the claim that no two people have '
          'identical fingerprints is well supported.',
          ['Yes', 'No', 'Not Given'], 0,
-         'Paragraph 2 calls it not seriously disputed.'),
-        ('The writer believes fingerprint evidence should no longer be '
+         'Paragraph 2 calls it not seriously disputed.',
+         {1: 'No would need doubt; paragraph 2 calls the claim not '
+             'seriously disputed.', 2: 'Not Given is wrong because the writer rates the claim.'}),
+        (
+         'The writer believes fingerprint evidence should no longer be '
          'used in court.', ['Yes', 'No', 'Not Given'], 1,
          'The final paragraph says the lesson is not that fingerprints '
-         'should be distrusted.'),
-        ('The writer believes examiners who are influenced by case '
+         'should be distrusted.',
+         {0: 'Yes would need exclusion; the final paragraph refuses '
+             'that conclusion.', 2: 'Not Given is wrong because the writer says what the '
+             'lesson is not.'}),
+        (
+         'The writer believes examiners who are influenced by case '
          'information are being dishonest.',
          ['Yes', 'No', 'Not Given'], 1,
          'Paragraph 6 states explicitly that this is not a finding '
-         'about dishonesty.'),
-        ('The writer believes fingerprint evidence is less reliable '
+         'about dishonesty.',
+         {0: 'Yes would need dishonesty; paragraph 6 rules it out '
+             'explicitly.', 2: 'Not Given is wrong because the writer names what the '
+             'finding is about.'}),
+        (
+         'The writer believes fingerprint evidence is less reliable '
          'than most other expert evidence.',
          ['Yes', 'No', 'Not Given'], 1,
          'Paragraph 5 says the error rate is better than many other '
-         'forms.'),
-        ('The writer believes the new wording permitted in court has '
+         'forms.',
+         {0: 'Yes would need worse reliability; paragraph 5 says it is '
+             'better than many.', 2: 'Not Given is wrong because the comparison is made.'}),
+        (
+         'The writer believes the new wording permitted in court has '
          'reduced the number of convictions.',
          ['Yes', 'No', 'Not Given'], 2,
          'The effect of the change on conviction numbers is never '
-         'discussed.'),
+         'discussed.',
+         {0: 'Yes would need an effect on convictions, which is never '
+             'discussed.', 1: 'No would need him to say it has not, and the question '
+             'never arises.'}),
         ('Which paragraph lists the ways a scene mark differs from a '
          'controlled print?',
          ['Paragraph 2', 'Paragraph 3', 'Paragraph 5',

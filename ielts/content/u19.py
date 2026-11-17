@@ -340,13 +340,21 @@ UNIT = dict(
            'others?',
            ['Ondine', 'Thaddeus', 'Perpetua', 'Ignatius'], 3,
            'One roundabout, which is the whole reason.'),
-          ('Thaddeus’s employer has refused his request to start '
+          (
+           'Thaddeus\u2019s employer has refused his request to start '
            'later.', ['Yes', 'No', 'Not Given'], 2,
            'He says only that it is not offered, and no refusal is '
-           'ever mentioned.'),
-          ('Perpetua believes working from home has improved her '
-           'work.', ['Yes', 'No', 'Not Given'], 1,
-           'She says her journey is better and her work is worse.')])],
+           'ever mentioned.',
+           {0: 'Yes would need a refusal; he says only that it is not '
+               'offered.', 1: 'No would need the employer to have agreed, which is '
+               'never stated.'}),
+          (
+           'Perpetua believes working from home has improved her work.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'She says her journey is better and her work is worse.',
+           {0: 'Yes would need better work; she says her work is '
+               'worse.', 2: 'Not Given is wrong because she rates both the journey '
+               'and the work.'})])],
    listen=[
     dict(heading='Two planners on peak demand', part='Part 3',
          task='A discussion between two transport planners', band='l3',
@@ -838,10 +846,17 @@ UNIT = dict(
           ('The writer believes roads should never be widened.',
            ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph allows widening where the junction is '
-           'the constraint.'),
-          ('The writer believes the engineers calculated the capacity '
+           'the constraint.',
+           {0: 'Yes would need never; the final paragraph allows it at '
+               'a junction constraint.', 2: 'Not Given is wrong because widening is addressed at '
+               'the end.'}),
+          (
+           'The writer believes the engineers calculated the capacity '
            'wrongly.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 says they calculated it correctly.'),
+           'Paragraph 2 says they calculated it correctly.',
+           {0: 'Yes would need an error; paragraph 2 says the '
+               'calculation was right.', 2: 'Not Given is wrong because the calculation is '
+               'assessed.'}),
           ('The journey-time improvement decays over ____________ to '
            'five years.', None, 'three',
            'Paragraph 5, after one to two years of real benefit.'),
@@ -1096,10 +1111,15 @@ UNIT = dict(
            'What was done with the revenue.'),
           ('The writer believes charging fails to reduce traffic.',
            ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph calls the reduction reliable.'),
-          ('The writer believes the objection about income is '
+           'The final paragraph calls the reduction reliable.',
+           {0: 'Yes would need failure; the final paragraph calls the '
+               'reduction reliable.', 2: 'Not Given is wrong because charging is evaluated.'}),
+          (
+           'The writer believes the objection about income is '
            'unfounded.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 calls it a sound objection.'),
+           'Paragraph 5 calls it a sound objection.',
+           {0: 'Yes would need dismissal; paragraph 5 calls the '
+               'objection sound.', 2: 'Not Given is wrong because the objection is weighed.'}),
           ('In the first city, bus journey times improved by about a '
            '____________.', None, 'tenth',
            'Paragraph 2, alongside an eighteen per cent fall in '

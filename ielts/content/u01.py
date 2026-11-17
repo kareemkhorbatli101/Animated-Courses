@@ -309,11 +309,17 @@ UNIT = dict(
            'The phone, now in another room.'),
           ('Olumide and his friends now use a timer.',
            ['True', 'False', 'Not Given'], 0,
-           'He says they start with a timer because of the talking.'),
+           'He says they start with a timer because of the talking.',
+           {1: 'False would need the text to say they stopped or never '
+               'used one.', 2: 'Not Given is wrong because he says it in his own first '
+               'sentence.'}),
           ('Priya studies for three hours every day.',
            ['True', 'False', 'Not Given'], 2,
            'She mentions three hours once, describing the past; no '
-           'daily amount is given.')])],
+           'daily amount is given.',
+           {0: 'True would need a daily figure; the three hours '
+               'describe one past occasion.', 1: 'False would need the text to deny a daily amount, and '
+               'it says nothing.'})])],
    listen=[
     dict(heading='Two students compare revision habits', part='Part 3',
          task='A discussion between two students', band='l3',
@@ -768,13 +774,23 @@ UNIT = dict(
            'Class size matters less than who teaches.'),
           ('Schools with small classes are often in wealthier areas.',
            ['True', 'False', 'Not Given'], 0,
-           'Paragraph 2 says exactly this.'),
-          ('The study found no difference between the two class sizes.',
+           'Paragraph 2 says exactly this.',
+           {1: 'False would need a contradiction; paragraph 2 agrees '
+               'with the statement.', 2: 'Not Given is wrong because paragraph 2 addresses it '
+               'directly.'}),
+          (
+           'The study found no difference between the two class sizes.',
            ['True', 'False', 'Not Given'], 1,
-           'Paragraph 3 says the smaller classes did better.'),
+           'Paragraph 3 says the smaller classes did better.',
+           {0: 'True would need the study to find nothing; it found '
+               'the smaller classes ahead.', 2: 'Not Given is wrong because the result is stated in '
+               'paragraph 3.'}),
           ('Most parents have read the studies on class size.',
            ['True', 'False', 'Not Given'], 2,
-           'What parents have read is never mentioned.'),
+           'What parents have read is never mentioned.',
+           {0: 'True would need a statement about what parents read, '
+               'and there is none.', 1: 'False would need the text to deny it, and it never '
+               'raises it.'}),
           ('In the study, the difference was clearest in the first '
            '____________ years of school.', None, 'two',
            'Paragraph 3, and among the poorest pupils.'),
@@ -1004,15 +1020,27 @@ UNIT = dict(
           ('The writer believes class size is unimportant.',
            ['True', 'False', 'Not Given'], 1,
            'The final paragraph says the opposite in its first '
-           'sentence.'),
-          ('In two countries, pupils did slightly worse after class '
-           'sizes were reduced.', ['True', 'False', 'Not Given'], 0,
+           'sentence.',
+           {0: 'Yes would need agreement; the first sentence of the '
+               'final paragraph disagrees.', 2: 'Not Given is wrong because the writer states a view on '
+               'exactly this.'}),
+          (
+           'In two countries, pupils did slightly worse after class '
+           'sizes were reduced.',
+           ['True', 'False', 'Not Given'], 0,
            'Paragraph 3 states this about two of the countries '
-           'studied.'),
-          ('The writer thinks parents should be told about the lost '
+           'studied.',
+           {1: 'No would need the text to deny it; paragraph 3 asserts '
+               'it.', 2: 'Not Given is wrong because two countries are named and '
+               'counted.'}),
+          (
+           'The writer thinks parents should be told about the lost '
            'rooms.', ['True', 'False', 'Not Given'], 2,
-           'He says parents rarely see it, but recommends nothing about '
-           'telling them.'),
+           'He says parents rarely see it, but recommends nothing '
+           'about telling them.',
+           {0: 'Yes would need a recommendation; he reports what '
+               'parents see, not what should be done.', 1: 'No would need him to argue against telling them, which '
+               'he never does.'}),
           ('What is a reduction from twenty-three to fifteen described '
            'as, in terms of cost?', None, 'a doubling',
            'Paragraph 2, which also calls it a reduction of a '

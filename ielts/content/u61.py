@@ -693,18 +693,30 @@ UNIT = dict(
           'Sundays and holidays. That change had nothing to do with '
           'taste, and it happened almost everywhere at once.'],
          items=[
-          ('Which paragraph explains why rice is grown in some places '
+          (
+           'Which paragraph explains why rice is grown in some places '
            'and not others?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 0,
-           'The weather chose first, the text says.'),
-          ('Which paragraph is about keeping food through a cold '
+           'The weather chose first, the text says.',
+           {1: 'Paragraph 2 is about keeping food through a cold '
+               'season.', 2: 'Paragraph 3 is about a change that came later, in many '
+               'countries at once.'}),
+          (
+           'Which paragraph is about keeping food through a cold '
            'season?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 1,
-           'Dried fish, salted meat and hard cheese.'),
-          ('Which paragraph explains a change that happened in many '
+           'Dried fish, salted meat and hard cheese.',
+           {0: 'Paragraph 1 is about what the weather allows a country '
+               'to grow.', 2: 'Paragraph 3 is about people working away from the '
+               'house.'}),
+          (
+           'Which paragraph explains a change that happened in many '
            'countries at the same time?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 2,
-           'More people worked away from the house.'),
+           'More people worked away from the house.',
+           {0: 'Paragraph 1 is about climate, which does not change in '
+               'a generation.', 1: 'Paragraph 2 is about preserving food, not about who '
+               'cooks it.'}),
           ('Rice needs warm weather and a lot of ____________.', None,
            'water', 'Paragraph 1, which is why it follows the rain.'),
           ('Name one food invented to last the winter.', None,

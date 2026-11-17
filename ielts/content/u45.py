@@ -419,12 +419,18 @@ UNIT = dict(
            'Which he says was no scheme rather than a better one.'),
           ('Ottoline believes the payment scheme should be abolished.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says she would support it as income support if defended as '
-           'such.'),
+           'She says she would support it as income support if '
+           'defended as such.',
+           {0: 'Yes would need abolition; she would support it as '
+               'income support.', 2: 'Not Given is wrong because she says what she would '
+               'support.'}),
           ('Mirembe has asked whether the results are measured.',
            ['Yes', 'No', 'Not Given'], 0,
-           'She says she has asked twice and been told birds are not what '
-           'the payment is for.')])],
+           'She says she has asked twice and been told birds are not '
+           'what the payment is for.',
+           {1: 'No would need her not to have asked; she says she '
+               'asked twice.', 2: 'Not Given is wrong because she reports the answer she '
+               'got.'})])],
    listen=[
     dict(heading='Two officers disagree about payments', part='Part 3',
          task='A conversation between two scheme officers', band='l3',
@@ -993,13 +999,21 @@ UNIT = dict(
             'Prioritisation frameworks', 'Public reticence'], 1,
            'Intensive protection shows results in a political cycle; '
            'restoration does not.'),
-          ('The writer believes the fence project was carried out '
+          (
+           'The writer believes the fence project was carried out '
            'carelessly.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 3 states that nobody was negligent and the route was '
-           'mapped.'),
-          ('The writer believes the flagship argument is entirely false.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 calls its first half demonstrably true.'),
+           'Paragraph 3 states that nobody was negligent and the route '
+           'was mapped.',
+           {0: 'Yes would need carelessness; paragraph 3 says nobody '
+               'was negligent.', 2: 'Not Given is wrong because the conduct of the project '
+               'is described.'}),
+          (
+           'The writer believes the flagship argument is entirely '
+           'false.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 5 calls its first half demonstrably true.',
+           {0: 'Yes would need total falsity; paragraph 5 calls half '
+               'of it demonstrably true.', 2: 'Not Given is wrong because the argument is split and '
+               'rated.'}),
           ('The bird population rose from under forty pairs to over '
            '____________ within fifteen years.', None, 'three hundred',
            'Paragraph 2, while the wildebeest herd fell by two thirds.'),
@@ -1310,10 +1324,15 @@ UNIT = dict(
           ('The writer believes protected areas do not work.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 reports a real and measured effect on '
-           'conversion.'),
-          ('The writer believes targets should be abandoned rather than '
-           'rewritten.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph proposes changing what is counted.'),
+           'conversion.',
+           {0: 'Yes would need failure; paragraph 2 reports a measured '
+               'effect.', 2: 'Not Given is wrong because their effect is quantified.'}),
+          (
+           'The writer believes targets should be abandoned rather '
+           'than rewritten.', ['Yes', 'No', 'Not Given'], 1,
+           'The final paragraph proposes changing what is counted.',
+           {0: 'Yes would need abandonment; the final paragraph '
+               'proposes changing what is counted.', 2: 'Not Given is wrong because the remedy is stated.'}),
           ('A wetland’s water regime is determined by a catchment twenty '
            'to ____________ times the reserve’s area.', None, 'fifty',
            'Paragraph 4: the protection covers the twentieth and not the '

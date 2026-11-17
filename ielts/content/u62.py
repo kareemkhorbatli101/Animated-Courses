@@ -61,13 +61,18 @@ UNIT = dict(
           'Twelve months minimum.'],
          items=[
           ('Which room is the most expensive?', ['A', 'B', 'C'], 2,
-           'Advert C at 480 a month, with bills included.'),
+           'Advert C at 480 a month, with bills included.',
+           {0: 'Advert A is cheaper and excludes bills, so the total '
+               'is still lower.', 1: 'Advert B is the middle price of the three.'}),
           ('Which room does not include bills?', ['A', 'B', 'C'], 0,
-           'Advert A says bills are not included.'),
+           'Advert A says bills are not included.',
+           {1: 'Advert B includes bills in the rent it quotes.', 2: 'Advert C includes bills, which is why it looks dear.'}),
           ('Which room is noisy on some days?', ['A', 'B', 'C'], 1,
-           'Advert B, which is above a shop on a market street.'),
+           'Advert B, which is above a shop on a market street.',
+           {0: 'Advert A is on a quiet residential street.', 2: 'Advert C mentions no noise at all.'}),
           ('Which room asks for a written reference?', ['A', 'B', 'C'],
-           2, 'Advert C, which also wants the tenant to be in work.'),
+           2, 'Advert C, which also wants the tenant to be in work.',
+           {0: 'Advert A asks only for a deposit.', 1: 'Advert B asks for a month in advance, not a reference.'}),
           ('What is the minimum stay for room A?', None, 'six months',
            'The last line of advert A, and C asks for twelve.')])],
    listen=[
@@ -711,17 +716,26 @@ UNIT = dict(
           'to do it has moved away. Each place solves one half of the '
           'problem and leaves the other half to the weather.'],
          items=[
-          ('Which paragraph describes how a village decides about '
+          (
+           'Which paragraph describes how a village decides about '
            'building?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 0,
-           'A committee of neighbours, known by name.'),
+           'A committee of neighbours, known by name.',
+           {1: 'Paragraph 2 is about the city, where the decision is '
+               'anonymous.', 2: 'Paragraph 3 is about what happens after a decision '
+               'goes wrong.'}),
           ('Which paragraph explains why a city can build at all?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 1,
-           'A scheme every neighbour can stop is never built.'),
-          ('Which paragraph compares what happens when something goes '
+           'A scheme every neighbour can stop is never built.',
+           {0: 'Paragraph 1 explains why a village often cannot.', 2: 'Paragraph 3 compares the two when something goes '
+               'wrong.'}),
+          (
+           'Which paragraph compares what happens when something goes '
            'wrong?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 2,
-           'A named person within a day, against a queue.'),
+           'A named person within a day, against a queue.',
+           {0: 'Paragraph 1 is about who decides, not about what '
+               'follows.', 1: 'Paragraph 2 is about building, not about repair.'}),
           ('In a village, the council is a committee of '
            '____________.', None, 'neighbours',
            'Paragraph 1, whose members are known by name.'),

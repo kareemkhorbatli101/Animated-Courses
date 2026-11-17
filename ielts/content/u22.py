@@ -359,12 +359,18 @@ UNIT = dict(
            'earning.'),
           ('Kwabena believes free courses are a bad idea.',
            ['Yes', 'No', 'Not Given'], 2,
-           'He reports what happened to him; he never recommends charging '
-           'everybody.'),
+           'He reports what happened to him; he never recommends '
+           'charging everybody.',
+           {0: 'Yes would need that view; he reports his own case and '
+               'recommends nothing.', 1: 'No would need him to argue for free courses, which he '
+               'never does.'}),
           ('Marguerite thinks her experience is unusual.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says most of us stay still while the career moves, which is '
-           'the opposite.')])],
+           'She says most of us stay still while the career moves, '
+           'which is the opposite.',
+           {0: 'Yes would need it to be unusual; she says most of us '
+               'are in it.', 2: 'Not Given is wrong because she places herself among '
+               'the majority.'})])],
    listen=[
     dict(heading='A short talk: retraining', part='Part 2',
          task='A talk at a careers centre', band='l2',
@@ -928,12 +934,17 @@ UNIT = dict(
            'not.'),
           ('The writer believes machines reduce total employment.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1: total employment was higher twenty years later in '
-           'every episode.'),
+           'Paragraph 1: total employment was higher twenty years '
+           'later in every episode.',
+           {0: 'Yes would need a reduction; paragraph 1 finds '
+               'employment higher afterwards.', 2: 'Not Given is wrong because every episode is counted.'}),
           ('The writer believes the historical evidence is poor.',
            ['Yes', 'No', 'Not Given'], 1,
-           'The final sentence attributes the disagreement to a badly framed '
-           'question.'),
+           'The final sentence attributes the disagreement to a badly '
+           'framed question.',
+           {0: 'Yes would need poor evidence; the disagreement is '
+               'traced to the question.', 2: 'Not Given is wrong because the writer rates the '
+               'evidence.'}),
           ('Agricultural employment fell by more than ____________ per cent.',
            None, 'ninety',
            'Paragraph 4, in most industrial countries.'),
@@ -1189,11 +1200,16 @@ UNIT = dict(
           ('The writer believes the aggregate findings are wrong.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 6 says the error is in the inference and not the '
-           'measurement.'),
+           'measurement.',
+           {0: 'Yes would need the measurement to be wrong; paragraph '
+               '6 locates the error in the inference.', 2: 'Not Given is wrong because the findings are assessed.'}),
           ('The writer believes economists are being dishonest.',
            ['Yes', 'No', 'Not Given'], 2,
-           'He says the inference is usually made by people who would spot '
-           'it elsewhere; dishonesty is never alleged.'),
+           'He says the inference is usually made by people who would '
+           'spot it elsewhere; dishonesty is never alleged.',
+           {0: 'Yes would need a charge of dishonesty, which is never '
+               'made.', 1: 'No would need a defence against it, and the charge '
+               'never arises.'}),
           ('An aggregate is produced by adding, and adding destroys '
            '____________.', None, 'information',
            'Paragraph 3, which is the core of the argument.'),

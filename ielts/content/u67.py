@@ -578,11 +578,14 @@ UNIT = dict(
           ('Splitting study across three days is called '
            '____________.', None, 'spacing',
            'Paragraph 2, and each gap forces a recall.'),
-          ('Which paragraph explains why mixing helps in an '
+          (
+           'Which paragraph explains why mixing helps in an '
            'examination?',
            ['Paragraph 3', 'Paragraph 1', 'Paragraph 2'], 0,
            'An examination does not tell you which kind of problem it '
-           'is.'),
+           'is.',
+           {1: 'Paragraph 1 is about testing yourself rather than '
+               'mixing.', 2: 'Paragraph 2 is about spacing the practice out.'}),
           ('Mixing feels like ____________ while you do it.', None,
            'failure', 'Paragraph 3, which is why it is rarely used.')])],
    listen=[
@@ -758,7 +761,8 @@ UNIT = dict(
            'Paragraph 1, in several careful comparisons.'),
           ('Which paragraph explains why a late start may help?',
            ['Paragraph 1', 'Paragraph 3', 'Paragraph 2'], 2,
-           'Play is where a great deal of language is learned.'),
+           'Play is where a great deal of language is learned.',
+           {0: 'Paragraph 1 is about what the research agrees on.', 1: 'Paragraph 3 is about countries that moved the age.'}),
           ('An early start appears to ____________ the gap between '
            'children.', None, 'widen',
            'Paragraph 2, which changed the political argument.'),

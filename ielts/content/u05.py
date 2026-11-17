@@ -313,10 +313,15 @@ UNIT = dict(
            'Forgetting the one password that opens the manager.'),
           ('Casimir says his password was weak.',
            ['True', 'False', 'Not Given'], 1,
-           'He says it was not weak but repeated.'),
+           'He says it was not weak but repeated.',
+           {0: 'True would need weakness; he says it was strong but '
+               'repeated everywhere.', 2: 'Not Given is wrong because he describes the password '
+               'he used.'}),
           ('Lucinde keeps her notebook in a locked drawer.',
            ['True', 'False', 'Not Given'], 2,
-           'A drawer is mentioned; whether it locks is not.')])],
+           'A drawer is mentioned; whether it locks is not.',
+           {0: 'True would need the lock; only a drawer is mentioned.', 1: 'False would need the text to say it does not lock, and '
+               'it is silent.'})])],
    listen=[
     dict(heading='An IT officer on account security', part='Part 2',
          task='A talk to new staff', band='l2',
@@ -784,16 +789,26 @@ UNIT = dict(
             'Why links are hard to fake', 'Clicks and returns',
             'The design nobody notices'], 0,
            'Nobody can write a rule for accuracy.'),
-          ('The earliest ranking method counted how often a word '
+          (
+           'The earliest ranking method counted how often a word '
            'appeared.', ['True', 'False', 'Not Given'], 0,
-           'Paragraph 2 states this about the earliest engines.'),
+           'Paragraph 2 states this about the earliest engines.',
+           {1: 'False would need a different early method; paragraph 2 '
+               'names this one.', 2: 'Not Given is wrong because the earliest engines are '
+               'described.'}),
           ('The writer believes links are impossible to fake.',
            ['True', 'False', 'Not Given'], 1,
            'Paragraph 4 describes an industry devoted to producing '
-           'them.'),
-          ('Search companies publish the full details of their '
-           'rules.', ['True', 'False', 'Not Given'], 2,
-           'Publication is not discussed in this passage.'),
+           'them.',
+           {0: 'True would need that claim; paragraph 4 describes an '
+               'industry faking them.', 2: 'Not Given is wrong because the writer discusses how '
+               'links are manufactured.'}),
+          ('Search companies publish the full details of their rules.',
+           ['True', 'False', 'Not Given'], 2,
+           'Publication is not discussed in this passage.',
+           {0: 'True would need a statement that they publish; the '
+               'passage never says so.', 1: 'False would need a denial, and publication is not '
+               'raised at all.'}),
           ('A link bought in bulk from a site that links to everything '
            'counts for almost ____________.', None, 'nothing',
            'Paragraph 4, as a refinement of the rule.'),
@@ -1030,18 +1045,29 @@ UNIT = dict(
             'Paragraph 6'], 3,
            'What is measured should be public; the weightings need '
            'not.'),
-          ('The writer believes ranking systems fail on most '
+          (
+           'The writer believes ranking systems fail on most '
            'questions.', ['True', 'False', 'Not Given'], 1,
            'Paragraph 1 says they work well for most and fail for a '
-           'few.'),
-          ('The writer believes commercial secrecy is the main '
+           'few.',
+           {0: 'Yes would need failure on most; paragraph 1 says they '
+               'work well for most.', 2: 'Not Given is wrong because the writer measures where '
+               'they fail.'}),
+          (
+           'The writer believes commercial secrecy is the main '
            'argument against publishing rules.',
            ['True', 'False', 'Not Given'], 1,
            'Paragraph 5 says the real argument is something more '
-           'awkward.'),
-          ('The writer believes search companies should be broken '
-           'up.', ['True', 'False', 'Not Given'], 2,
-           'No view on company structure is expressed.'),
+           'awkward.',
+           {0: 'Yes would need secrecy to be the main reason; '
+               'paragraph 5 names a more awkward one.', 2: 'Not Given is wrong because the writer ranks the '
+               'arguments.'}),
+          ('The writer believes search companies should be broken up.',
+           ['True', 'False', 'Not Given'], 2,
+           'No view on company structure is expressed.',
+           {0: 'Yes would need a view on company structure, and none '
+               'is given.', 1: 'No would need him to argue against it, which he never '
+               'does.'}),
           (
            'An interested party invests in being seen where the '
            'question concerns a medicine, a legal right or a '

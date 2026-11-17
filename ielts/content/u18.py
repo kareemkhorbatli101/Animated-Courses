@@ -331,10 +331,16 @@ UNIT = dict(
            'Perhaps a third of each paper.'),
           ('Perpetua believes newspapers print untrue statements.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says her complaint is not that the papers lie.'),
-          ('Benedetta writes the headlines for the studies she '
+           'She says her complaint is not that the papers lie.',
+           {0: 'Yes would need untruth; she says her complaint is not '
+               'that they lie.', 2: 'Not Given is wrong because she defines her complaint.'}),
+          (
+           'Benedetta writes the headlines for the studies she '
            'reports.', ['Yes', 'No', 'Not Given'], 1,
-           'The headline writer is a different person.')])],
+           'The headline writer is a different person.',
+           {0: 'Yes would need her to write them; the headline writer '
+               'is somebody else.', 2: 'Not Given is wrong because the division of work is '
+               'stated.'})])],
    listen=[
     dict(heading='A short talk: how people hear about science',
          part='Part 2', task='A talk at a public library', band='l2',
@@ -891,12 +897,20 @@ UNIT = dict(
            ['The third explanation', 'What the journals changed',
             'Why small studies fail', 'A filtered record'], 1,
            'Lodging the question in advance, and the rate rising.'),
-          ('The writer believes the episode shows that science should be '
-           'distrusted.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says it is a poor argument for that.'),
-          ('The writer believes dishonesty explains most of the '
+          (
+           'The writer believes the episode shows that science should '
+           'be distrusted.', ['Yes', 'No', 'Not Given'], 1,
+           'The final paragraph says it is a poor argument for that.',
+           {0: 'Yes would need distrust; the final paragraph calls '
+               'that a poor conclusion.', 2: 'Not Given is wrong because the writer says what the '
+               'episode shows.'}),
+          (
+           'The writer believes dishonesty explains most of the '
            'failures.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 calls that explanation the weakest.'),
+           'Paragraph 2 calls that explanation the weakest.',
+           {0: 'Yes would need dishonesty to dominate; paragraph 2 '
+               'calls it the weakest explanation.', 2: 'Not Given is wrong because the explanations are '
+               'ranked.'}),
           ('Of the hundred findings, rather under ____________ produced '
            'the same result again.', None, 'forty',
            'Paragraph 1, when each study was run a second time.'),
@@ -1152,13 +1166,20 @@ UNIT = dict(
            ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
             'Paragraph 7'], 2,
            'A health authority that cannot wait five years.'),
-          ('The writer believes a failed repeat proves the first study '
+          (
+           'The writer believes a failed repeat proves the first study '
            'was wrong.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 distinguishes failure to detect from absence.'),
-          ('The writer believes agreement among findings is a sign of '
+           'Paragraph 1 distinguishes failure to detect from absence.',
+           {0: 'Yes would need proof; paragraph 1 separates failure to '
+               'detect from absence.', 2: 'Not Given is wrong because the inference is examined.'}),
+          (
+           'The writer believes agreement among findings is a sign of '
            'reliability.', ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph says it is frequently the mark of a '
-           'filtered literature.'),
+           'filtered literature.',
+           {0: 'Yes would need agreement to reassure; the final '
+               'paragraph calls it a warning.', 2: 'Not Given is wrong because the writer interprets '
+               'agreement.'}),
           ('What settles the question is the ____________ across all the '
            'attempts.', None, 'pattern',
            'Paragraph 4, including those never written up.'),

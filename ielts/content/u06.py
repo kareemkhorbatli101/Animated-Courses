@@ -311,13 +311,20 @@ UNIT = dict(
           ('Which resident admits to inconsistency?',
            ['Perpetua', 'Lysander', 'Oyelaran', 'Thomasina'], 3,
            'She moved there herself and complains about crowds.'),
-          ('Lysander says the council has refused to discuss the bus '
+          (
+           'Lysander says the council has refused to discuss the bus '
            'problem.', ['True', 'False', 'Not Given'], 2,
            'He says nobody will admit the two facts are connected; a '
-           'refusal to discuss is not stated.'),
+           'refusal to discuss is not stated.',
+           {0: 'True would need a refusal; he says nobody will admit '
+               'the connection.', 1: 'False would need him to say they have discussed it, '
+               'and he does not.'}),
           ('Perpetua earns most of her income in three months.',
            ['True', 'False', 'Not Given'], 0,
-           'Sixty per cent between July and September.')])],
+           'Sixty per cent between July and September.',
+           {1: 'False would need the earnings spread; she gives sixty '
+               'per cent in three months.', 2: 'Not Given is wrong because she gives the figure '
+               'herself.'})])],
    listen=[
     dict(heading='A town meeting on visitor numbers', part='Part 2',
          task='A talk at a town meeting', band='l2',
@@ -797,13 +804,22 @@ UNIT = dict(
           ('Tourism employs about one in five workers worldwide.',
            ['True', 'False', 'Not Given'], 1,
            'Paragraph 2 says one in ten worldwide and one in five in '
-           'small towns.'),
-          ('A house let to visitors earns more than one let to a '
+           'small towns.',
+           {0: 'True would need one in five worldwide; paragraph 2 '
+               'gives one in ten.', 2: 'Not Given is wrong because both figures are stated.'}),
+          (
+           'A house let to visitors earns more than one let to a '
            'resident.', ['True', 'False', 'Not Given'], 0,
-           'Paragraph 3 says three or four times as much.'),
-          ('The writer believes tourism should be discouraged in small '
+           'Paragraph 3 says three or four times as much.',
+           {1: 'False would need the reverse; paragraph 3 says three '
+               'or four times as much.', 2: 'Not Given is wrong because the comparison is made '
+               'directly.'}),
+          (
+           'The writer believes tourism should be discouraged in small '
            'towns.', ['True', 'False', 'Not Given'], 2,
-           'No recommendation of that kind is made.'),
+           'No recommendation of that kind is made.',
+           {0: 'Yes would need that recommendation, and none is made.', 1: 'No would need him to argue for tourism, which he does '
+               'not.'}),
           ('In several studied towns, a ____________ of the housing '
            'stock moved to visitor letting in a decade.', None,
            'fifth', 'Paragraph 3, with rents rising by a third.'),
@@ -1035,14 +1051,23 @@ UNIT = dict(
            'Parking prices, park-and-ride and advertising.'),
           ('All four measures achieved what was intended.',
            ['True', 'False', 'Not Given'], 1,
-           'Paragraph 3 says only one of the four did.'),
+           'Paragraph 3 says only one of the four did.',
+           {0: 'True would need all four to work; paragraph 3 says one '
+               'did.', 2: 'Not Given is wrong because each of the four is '
+               'assessed.'}),
           ('In the second town, overnight visitor numbers fell.',
            ['True', 'False', 'Not Given'], 1,
-           'Overnight numbers were unaffected by the charge.'),
-          ('The third town’s policy was unpopular with visitors.',
+           'Overnight numbers were unaffected by the charge.',
+           {0: 'True would need a fall; the charge left overnight '
+               'numbers unaffected.', 2: 'Not Given is wrong because the second town is reported '
+               'in detail.'}),
+          ('The third town\u2019s policy was unpopular with visitors.',
            ['True', 'False', 'Not Given'], 2,
            'It was unsustainable politically because of residents, not '
-           'visitors.'),
+           'visitors.',
+           {0: 'True would need visitor opinion; the objection came '
+               'from residents.', 1: 'False would need the text to say visitors liked it, '
+               'and it does not.'}),
           ('By how much did day numbers fall in the second town?',
            None, '11 per cent',
            'Paragraph 3, while total spending rose.'),

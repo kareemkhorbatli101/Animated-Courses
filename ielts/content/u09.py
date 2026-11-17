@@ -315,11 +315,16 @@ UNIT = dict(
            'Calls while driving, when both are trapped.'),
           ('Hyacinth writes letters because she misses the past.',
            ['True', 'False', 'Not Given'], 1,
-           'She says explicitly that it is not nostalgia.'),
+           'She says explicitly that it is not nostalgia.',
+           {0: 'True would need nostalgia; she rules it out in her own '
+               'words.', 2: 'Not Given is wrong because she gives her reason.'}),
           ('Anselm has rejoined the group chat he left.',
            ['True', 'False', 'Not Given'], 2,
            'He says he left it for a month; what happened next is not '
-           'stated.')])],
+           'stated.',
+           {0: 'True would need the return; he says only that he left '
+               'it for a month.', 1: 'False would need a statement that he has not, and none '
+               'appears.'})])],
    listen=[
     dict(heading='A short talk: talking at a distance', part='Part 2',
          task='A talk at an adult education class', band='l2',
@@ -844,15 +849,28 @@ UNIT = dict(
            ['Borrowed words', 'What a dictionary cannot convey',
             'A modest conclusion', 'Four words instead of one'], 1,
            'Register, history and the company a word keeps.'),
-          ('English speakers could not understand Schadenfreude before '
-           'borrowing the word.', ['True', 'False', 'Not Given'], 1,
-           'Paragraph 2 says they understood it perfectly well.'),
-          ('The writer believes lists of untranslatable words are '
+          (
+           'English speakers could not understand Schadenfreude before '
+           'borrowing the word.',
+           ['True', 'False', 'Not Given'], 1,
+           'Paragraph 2 says they understood it perfectly well.',
+           {0: 'True would need incomprehension; paragraph 2 says they '
+               'understood it.', 2: 'Not Given is wrong because the point is the '
+               'paragraph\u2019s example.'}),
+          (
+           'The writer believes lists of untranslatable words are '
            'inaccurate.', ['True', 'False', 'Not Given'], 1,
-           'Paragraph 1 says the lists are accurate.'),
-          ('The writer believes some languages are better for '
+           'Paragraph 1 says the lists are accurate.',
+           {0: 'Yes would need inaccuracy; paragraph 1 calls the lists '
+               'accurate.', 2: 'Not Given is wrong because the writer judges the '
+               'lists.'}),
+          (
+           'The writer believes some languages are better for '
            'philosophy.', ['True', 'False', 'Not Given'], 2,
-           'No comparison between languages of that kind is made.'),
+           'No comparison between languages of that kind is made.',
+           {0: 'Yes would need that ranking, and no comparison of the '
+               'kind is made.', 1: 'No would need him to reject it, and the question never '
+               'arises.'}),
           ('An idea expressed in one word is ____________ to use '
            'than one that needs a sentence.', None, 'cheaper',
            'Paragraph 3, so it is used more often.'),
@@ -1094,15 +1112,26 @@ UNIT = dict(
            ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
             'Paragraph 6'], 2,
            'Daily practice required by the grammar.'),
-          ('The strong version of the claim was supported by '
+          (
+           'The strong version of the claim was supported by '
            'experiment.', ['True', 'False', 'Not Given'], 1,
-           'Paragraph 2 says it was tested and failed.'),
-          ('Speakers of languages using compass directions can point '
-           'north indoors.', ['True', 'False', 'Not Given'], 0,
-           'Paragraph 4 states this about compass-direction languages.'),
-          ('The writer believes the weak version will also be '
+           'Paragraph 2 says it was tested and failed.',
+           {0: 'True would need support; paragraph 2 says the test '
+               'failed.', 2: 'Not Given is wrong because the testing is described.'}),
+          (
+           'Speakers of languages using compass directions can point '
+           'north indoors.', ['True', 'False', 'Not Given'],
+           0,
+           'Paragraph 4 states this about compass-direction languages.',
+           {1: 'False would need a contradiction; paragraph 4 reports '
+               'the finding.', 2: 'Not Given is wrong because the indoor pointing is the '
+               'example given.'}),
+          (
+           'The writer believes the weak version will also be '
            'abandoned.', ['True', 'False', 'Not Given'], 2,
-           'No prediction of that kind is made.'),
+           'No prediction of that kind is made.',
+           {0: 'Yes would need a prediction, and none is made.', 1: 'No would need him to defend its survival, which he '
+               'does not.'}),
           ('What does the weak version say a language makes '
            'obligatory?', None, 'certain distinctions',
            'Paragraph 3, and obligatory distinctions get noticed.'),

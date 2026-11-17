@@ -588,7 +588,9 @@ UNIT = dict(
            'Paragraph 2, which surprises most readers.'),
           ('Which paragraph says where the remaining gains are?',
            ['Paragraph 3', 'Paragraph 1', 'Paragraph 2'], 0,
-           'Vaccines and the treatment of heart disease.'),
+           'Vaccines and the treatment of heart disease.',
+           {1: 'Paragraph 1 is about drains, which did the earlier '
+               'work.', 2: 'Paragraph 2 is about the gap between districts.'}),
           ('The gap between rich and poor districts can be '
            '____________ years.', None, 'eighteen',
            'Paragraph 3, larger than between some countries.')])],
@@ -770,7 +772,9 @@ UNIT = dict(
            'insurance', 'Paragraph 1, often through an employer.'),
           ('Which paragraph says a waiting list is a hidden cost?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 1,
-           'Demand is managed by making people wait.'),
+           'Demand is managed by making people wait.',
+           {0: 'Paragraph 1 describes the tax system without its '
+               'costs.', 2: 'Paragraph 3 says what matters more than the system.'}),
           ('In the insurance system, illness can arrive with the loss '
            'of a ____________.', None, 'job',
            'Paragraph 2, which also provided the cover.'),

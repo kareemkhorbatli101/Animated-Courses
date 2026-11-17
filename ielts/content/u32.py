@@ -360,12 +360,18 @@ UNIT = dict(
            'decision.'),
           ('Oleksandr believes repairing things is a waste of time.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He repairs things because he enjoys it. His doubt is about the '
-           'environmental argument, not about the activity.'),
+           'He repairs things because he enjoys it. His doubt is about '
+           'the environmental argument, not about the activity.',
+           {0: 'Yes would need dismissal; he repairs things because he '
+               'enjoys it.', 2: 'Not Given is wrong because he says why he repairs and '
+               'what he doubts.'}),
           ('Marguerite has repaired an appliance herself.',
            ['Yes', 'No', 'Not Given'], 2,
-           'She says a repair only makes sense if you do it yourself and that '
-           'most people cannot. Whether she has is never said.')])],
+           'She says a repair only makes sense if you do it yourself '
+           'and that most people cannot. Whether she has is never '
+           'said.',
+           {0: 'Yes would need her own repair, which she never claims.', 1: 'No would need her to say she has not, and she does '
+               'not.'})])],
    listen=[
     dict(heading='Two engineers disagree about repairability', part='Part 3',
          task='A discussion after a design review', band='l3',
@@ -954,14 +960,23 @@ UNIT = dict(
             'Why the curve turns, and does not bend'], 1,
            'Not in household behaviour but in packaging design and collection '
            'economics.'),
-          ('The writer believes households have become less willing to '
+          (
+           'The writer believes households have become less willing to '
            'recycle.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 rejects this directly: the explanation is not that '
-           'the remaining households are uncooperative.'),
-          ('The writer thinks carbon-based targets should replace weight '
-           'targets everywhere.', ['Yes', 'No', 'Not Given'], 2,
-           'He reports that several countries have begun to and describes the '
-           'early evidence, without recommending it generally.'),
+           'Paragraph 2 rejects this directly: the explanation is not '
+           'that the remaining households are uncooperative.',
+           {0: 'Yes would need unwillingness; paragraph 2 rejects that '
+               'explanation.', 2: 'Not Given is wrong because the plateau is explained.'}),
+          (
+           'The writer thinks carbon-based targets should replace '
+           'weight targets everywhere.',
+           ['Yes', 'No', 'Not Given'], 2,
+           'He reports that several countries have begun to and '
+           'describes the early evidence, without recommending it '
+           'generally.',
+           {0: 'Yes would need a general recommendation; he reports '
+               'early adoption instead.', 1: 'No would need him to argue against them, which he does '
+               'not.'}),
           ('Beyond about ____________ per cent, each additional point costs '
            'more than the material is worth.', None, 'forty-five',
            'Paragraph 4, which also insists the curve turns and does not '
@@ -1225,14 +1240,23 @@ UNIT = dict(
            'than prevention?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4', 'Paragraph 6'], 1,
            'Visible, measurable, and it does not require anybody to buy less.'),
-          ('The writer accepts that moral licensing has been demonstrated '
-           'outside the laboratory.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 says the opposite: field studies are mixed and the '
-           'effect has not been shown to be large in the wild.'),
-          ('The writer argues that household recycling should be stopped.',
+          (
+           'The writer accepts that moral licensing has been '
+           'demonstrated outside the laboratory.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 explicitly denies this and calls the argument one '
-           'about proportion.'),
+           'Paragraph 5 says the opposite: field studies are mixed and '
+           'the effect has not been shown to be large in the wild.',
+           {0: 'Yes would need field evidence; paragraph 5 calls the '
+               'field studies mixed.', 2: 'Not Given is wrong because the field evidence is '
+               'assessed.'}),
+          (
+           'The writer argues that household recycling should be '
+           'stopped.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 7 explicitly denies this and calls the argument '
+           'one about proportion.',
+           {0: 'Yes would need that argument; paragraph 7 denies it '
+               'explicitly.', 2: 'Not Given is wrong because the writer says what his '
+               'argument is about.'}),
           ('In the waste hierarchy, recycling sits ____________.', None,
            'fourth', 'Paragraph 3: prevent, reduce, reuse, recycle, recover, '
            'dispose.'),

@@ -319,11 +319,17 @@ UNIT = dict(
            'When his daughter asked whose chair it was.'),
           ('Delphine regrets that the letters were kept.',
            ['Yes', 'No', 'Not Given'], 2,
-           'She gives the cost and the value and never says she regrets '
-           'it.'),
+           'She gives the cost and the value and never says she '
+           'regrets it.',
+           {0: 'Yes would need regret; she gives the cost and the '
+               'value and judges neither.', 1: 'No would need her to say she is glad, and she never '
+               'does.'}),
           ('Cormac now feels guilty about keeping nothing.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He says he used to and then stopped.')])],
+           'He says he used to and then stopped.',
+           {0: 'Yes would need present guilt; he says he used to feel '
+               'it and stopped.', 2: 'Not Given is wrong because he describes exactly this '
+               'change.'})])],
    listen=[
     dict(heading='A short talk: what people keep', part='Part 2',
          task='A talk at a local history society', band='l2',
@@ -867,12 +873,21 @@ UNIT = dict(
             'Techniques for reading through a filter',
             'The workhouse register'], 2,
            'Overlaps, calibration and the exception implying a rule.'),
-          ('The writer believes the filters make historical knowledge '
+          (
+           'The writer believes the filters make historical knowledge '
            'impossible.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 says the opposite and explains why.'),
-          ('The writer believes a workhouse register tells us a great '
-           'deal about its inmates.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 4 calls it a poor source about the people in it.'),
+           'Paragraph 6 says the opposite and explains why.',
+           {0: 'Yes would need impossibility; paragraph 6 argues the '
+               'opposite.', 2: 'Not Given is wrong because the writer answers the '
+               'objection.'}),
+          (
+           'The writer believes a workhouse register tells us a great '
+           'deal about its inmates.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 4 calls it a poor source about the people in it.',
+           {0: 'Yes would need richness; paragraph 4 calls it a poor '
+               'source about its inmates.', 2: 'Not Given is wrong because the register is assessed as '
+               'evidence.'}),
           ('A document is usually created because an ____________ '
            'required it.', None, 'institution',
            'Paragraph 2: courts, taxes, sales and charges.'),
@@ -1122,13 +1137,21 @@ UNIT = dict(
            ['Paragraph 5', 'Paragraph 6', 'Paragraph 7',
             'Paragraph 4'], 1,
            'Transfers of ownership with loans in the other direction.'),
-          ('The writer believes the museums’ case is entirely without '
+          (
+           'The writer believes the museums\u2019 case is entirely without '
            'merit.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 4 sets out real arguments and names only one weak '
-           'part.'),
-          ('The writer believes separating ownership from location '
-           'resolves the hard cases.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says it describes the easy cases.'),
+           'Paragraph 4 sets out real arguments and names only one '
+           'weak part.',
+           {0: 'Yes would need total rejection; paragraph 4 grants '
+               'real arguments.', 2: 'Not Given is wrong because the writer weighs the '
+               'museums\u2019 case.'}),
+          (
+           'The writer believes separating ownership from location '
+           'resolves the hard cases.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'The final paragraph says it describes the easy cases.',
+           {0: 'Yes would need resolution; the final paragraph says it '
+               'handles the easy cases.', 2: 'Not Given is wrong because the proposal is evaluated.'}),
           ('The objects were removed during a military ____________ in '
            '1897.', None, 'expedition',
            'Paragraph 2, which is why consent could not have been '

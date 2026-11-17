@@ -371,13 +371,21 @@ UNIT = dict(
           ('Which person says the design was aimed at people like them?',
            ['Clementine', 'Everard', 'Marguerite', 'Obadiah'], 3,
            'And that the alternatives have closed.'),
-          ('Clementine was consulted about the benches before they were '
-           'chosen.', ['Yes', 'No', 'Not Given'], 1,
-           'She was consulted after the design had been bought.'),
-          ('Everard believes the complaints he receives are '
+          (
+           'Clementine was consulted about the benches before they '
+           'were chosen.', ['Yes', 'No', 'Not Given'], 1,
+           'She was consulted after the design had been bought.',
+           {0: 'Yes would need consultation first; she was asked after '
+               'the purchase.', 2: 'Not Given is wrong because the order of events is '
+               'given.'}),
+          (
+           'Everard believes the complaints he receives are '
            'unreasonable.', ['Yes', 'No', 'Not Given'], 2,
            'He lists them and describes the trade-off without judging '
-           'them.')])],
+           'them.',
+           {0: 'Yes would need a judgement; he lists them without '
+               'judging.', 1: 'No would need him to call them reasonable, which he '
+               'does not.'})])],
    listen=[
     dict(heading='Two designers disagree about benches', part='Part 3',
          task='A discussion between two designers', band='l3',
@@ -942,15 +950,23 @@ UNIT = dict(
            ['Measurement', 'Displacement rather than resolution',
             'The claim of dwelling', 'Naming the loser'], 1,
            'A removed use moves somewhere less overlooked and less safe.'),
-          ('The writer believes those who cross a square are well '
+          (
+           'The writer believes those who cross a square are well '
            'represented in consultations.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 says their claim is systematically '
-           'under-represented.'),
-          ('The writer believes trade is usually to blame for poor '
+           'under-represented.',
+           {0: 'Yes would need representation; paragraph 2 says they '
+               'are systematically absent.', 2: 'Not Given is wrong because their representation is '
+               'assessed.'}),
+          (
+           'The writer believes trade is usually to blame for poor '
            'outcomes.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 4 says it is blamed for outcomes it did not ask '
-           'for.'),
+           'for.',
+           {0: 'Yes would need blame; paragraph 4 says trade is blamed '
+               'for what it did not ask for.', 2: 'Not Given is wrong because the writer allocates '
+               'responsibility.'}),
           ('The claim of ____________ is the only one that pays rent.',
            None, 'trade',
            'Paragraph 4, which gives it a reliable voice in decisions.'),
@@ -1261,14 +1277,23 @@ UNIT = dict(
            'key difference?', ['Paragraph 7', 'Paragraph 8',
             'Paragraph 9', 'Paragraph 10'], 2,
            'A number that must be published gets managed.'),
-          ('The writer believes the private manager is behaving badly.',
+          (
+           'The writer believes the private manager is behaving badly.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 9 says each body is managing what it is asked '
-           'about.'),
-          ('The writer believes the ownership question is the right one to '
-           'argue about.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph calls it considerably less interesting than '
-           'it looks.'),
+           'about.',
+           {0: 'Yes would need bad behaviour; paragraph 9 says each '
+               'body manages what it is asked about.', 2: 'Not Given is wrong because the manager\u2019s conduct is '
+               'explained.'}),
+          (
+           'The writer believes the ownership question is the right '
+           'one to argue about.', ['Yes', 'No', 'Not Given'],
+           1,
+           'The final paragraph calls it considerably less interesting '
+           'than it looks.',
+           {0: 'Yes would need it to be the right question; the final '
+               'paragraph calls it less interesting.', 2: 'Not Given is wrong because the question itself is '
+               'rated.'}),
           ('Median repair time on the private square: ____________ days',
            None, 'four',
            'Paragraph 3, against twenty-three on the council square.'),

@@ -384,12 +384,18 @@ UNIT = dict(
           ('Which person says the alternative is what existed before?',
            ['Hieronymus', 'Perpetua', 'Thaddeus', 'Winifred'], 3,
            'And that "use judgement" is not a measure.'),
-          ('Perpetua believes her service’s published figures are '
+          (
+           'Perpetua believes her service\u2019s published figures are '
            'inaccurate.', ['Yes', 'No', 'Not Given'], 1,
-           'She says both the figures and the survey are accurate.'),
-          ('Thaddeus believes the refusal pattern was intended by those who '
-           'designed the target.', ['Yes', 'No', 'Not Given'], 1,
-           'He says nobody designed it and everybody can see it.')])],
+           'She says both the figures and the survey are accurate.',
+           {0: 'Yes would need inaccuracy; she calls both sources '
+               'accurate.', 2: 'Not Given is wrong because she rates the figures.'}),
+          (
+           'Thaddeus believes the refusal pattern was intended by '
+           'those who designed the target.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'He says nobody designed it and everybody can see it.',
+           {0: 'Yes would need intent; he says nobody designed it.', 2: 'Not Given is wrong because he addresses intention.'})])],
    listen=[
     dict(heading='A short talk: what rules produce', part='Part 2',
          task='A talk at a public management seminar', band='l2',
@@ -1072,14 +1078,20 @@ UNIT = dict(
             'One measure for control and one for truth',
             'The gap between them'], 2,
            'The second measure attached to no consequence whatever.'),
-          ('The writer believes degradation shows the wrong measure was '
-           'chosen.', ['Yes', 'No', 'Not Given'], 1,
+          (
+           'The writer believes degradation shows the wrong measure '
+           'was chosen.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 3 says the best available proxy degrades for the '
-           'same reason.'),
+           'same reason.',
+           {0: 'Yes would need a wrong choice; paragraph 3 says the '
+               'best proxy degrades too.', 2: 'Not Given is wrong because degradation is explained.'}),
           ('The writer believes measurement should be abandoned.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 10 calls that a conclusion the argument does not '
-           'reach.'),
+           'reach.',
+           {0: 'Yes would need abandonment; paragraph 10 says the '
+               'argument does not reach it.', 2: 'Not Given is wrong because the writer states where the '
+               'argument stops.'}),
           ('A measure that is a ____________ of the outcome cannot detach '
            'from it entirely.', None, 'component',
            'Paragraph 4, unlike one that is merely correlated.'),
@@ -1413,14 +1425,20 @@ UNIT = dict(
             'Paragraph 10'], 1,
            'Towards different people, which comparing them requires '
            'facing.'),
-          ('The writer believes measurement improves performance '
+          (
+           'The writer believes measurement improves performance '
            'directly.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 4: it makes a distribution visible, and improvement '
-           'comes from acting on it.'),
-          ('The writer believes most services contain only one kind of '
+           'Paragraph 4: it makes a distribution visible, and '
+           'improvement comes from acting on it.',
+           {0: 'Yes would need a direct effect; paragraph 4 makes it '
+               'visibility plus action.', 2: 'Not Given is wrong because the mechanism is given.'}),
+          (
+           'The writer believes most services contain only one kind of '
            'work.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 10 says most contain both and are organised as '
-           'though they did not.'),
+           'though they did not.',
+           {0: 'Yes would need one kind; paragraph 10 says most '
+               'contain both.', 2: 'Not Given is wrong because the mixture is described.'}),
           ('In pre-measurement studies, the ____________ of the individual '
            'handling a case predicted the outcome better than the case '
            'did.', None, 'identity',

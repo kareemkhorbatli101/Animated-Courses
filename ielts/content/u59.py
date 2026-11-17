@@ -399,11 +399,16 @@ UNIT = dict(
            'Two clinicians differing by three points within an hour.'),
           ('Hollingbury believes the scale is a good instrument.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He calls it flawed and defends it against the alternative.'),
-          ('Nwachukwu-Beale reports that the disagreement found was larger '
-           'than the difference that changes care.',
+           'He calls it flawed and defends it against the alternative.',
+           {0: 'Yes would need approval; he calls it flawed and '
+               'defends it only comparatively.', 2: 'Not Given is wrong because he rates it.'}),
+          (
+           'Nwachukwu-Beale reports that the disagreement found was '
+           'larger than the difference that changes care.',
            ['Yes', 'No', 'Not Given'], 0,
-           'Three points, against the threshold for a change.')])],
+           'Three points, against the threshold for a change.',
+           {1: 'No would need it smaller; three points against the '
+               'threshold is larger.', 2: 'Not Given is wrong because both numbers are given.'})])],
    listen=[
     dict(heading='A short talk: what a score means', part='Part 2',
          task='A talk to trainee clinicians', band='l2',
@@ -1072,14 +1077,22 @@ UNIT = dict(
             'miss', 'The honest summary', 'Advice to the reader'], 1,
            'Each reply explains the intuition rather than the '
            'experience.'),
-          ('The writer believes the functional explanation of vision has '
-           'been unsuccessful.', ['Yes', 'No', 'Not Given'], 1,
+          (
+           'The writer believes the functional explanation of vision '
+           'has been unsuccessful.',
+           ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 says vision is understood well enough to be '
-           'built.'),
-          ('The writer believes the dispute is likely to be settled by '
+           'built.',
+           {0: 'Yes would need failure; paragraph 2 says vision is '
+               'understood well enough to build.', 2: 'Not Given is wrong because the state of the '
+               'explanation is given.'}),
+          (
+           'The writer believes the dispute is likely to be settled by '
            'experiment.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 11: neither side expects an experiment to settle '
-           'it.'),
+           'it.',
+           {0: 'Yes would need that expectation; paragraph 11 says '
+               'neither side has it.', 2: 'Not Given is wrong because the prospects are stated.'}),
           ('Standard biological explanation works by specifying a '
            '____________ and finding the mechanism that performs it.',
            None, 'function',
@@ -1408,13 +1421,20 @@ UNIT = dict(
            ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',
             'Paragraph 10'], 1,
            'Reflection revealing a limit, against a promissory note.'),
-          ('The writer believes the gap argument is merely a report of '
+          (
+           'The writer believes the gap argument is merely a report of '
            'puzzlement.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 6 says it is an argument about the form of '
-           'explanation.'),
-          ('The writer believes conscious experience will eventually be '
-           'explained.', ['Yes', 'No', 'Not Given'], 2,
-           'Paragraph 11 explicitly declines to argue for optimism.'),
+           'explanation.',
+           {0: 'Yes would need puzzlement; paragraph 6 calls it an '
+               'argument about explanation.', 2: 'Not Given is wrong because the argument is '
+               'characterised.'}),
+          (
+           'The writer believes conscious experience will eventually '
+           'be explained.', ['Yes', 'No', 'Not Given'], 2,
+           'Paragraph 11 explicitly declines to argue for optimism.',
+           {0: 'Yes would need optimism, which paragraph 11 declines '
+               'to offer.', 1: 'No would need pessimism, which he equally declines.'}),
           ('Devices designed to make an intuition vivid are called '
            'intuition ____________.', None, 'pumps',
            'Paragraph 4, which produce the feeling reliably.'),

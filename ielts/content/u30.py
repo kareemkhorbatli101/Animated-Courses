@@ -391,12 +391,17 @@ UNIT = dict(
            'Four evenings and a Saturday that nobody was enjoying.'),
           ('Matteus thinks the cost of sport should be reduced.',
            ['Yes', 'No', 'Not Given'], 2,
-           'He describes what it costs his family and says he would not '
-           'stop; he proposes nothing.'),
-          ('Oluwaseun’s daughter stopped playing because the fees rose.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'She stopped when the parent organising lifts moved away, with no '
-           'change in fees.')])],
+           'He describes what it costs his family and says he would '
+           'not stop; he proposes nothing.',
+           {0: 'Yes would need a proposal, and he makes none.', 1: 'No would need him to defend the cost, which he does '
+               'not.'}),
+          (
+           'Oluwaseun\u2019s daughter stopped playing because the fees '
+           'rose.', ['Yes', 'No', 'Not Given'], 1,
+           'She stopped when the parent organising lifts moved away, '
+           'with no change in fees.',
+           {0: 'Yes would need fees; she stopped when the '
+               'lift-organising parent moved.', 2: 'Not Given is wrong because the reason is given.'})])],
    listen=[
     dict(heading='Two coaches disagree about fees', part='Part 3',
          task='A conversation at a club committee', band='l3',
@@ -924,14 +929,22 @@ UNIT = dict(
             'Flattening the gradient', 'What the analysis establishes'], 1,
            'Punishment raises the cost of being caught while the prize '
            'raises the value of winning.'),
-          ('The writer believes doping is mainly a failure of character.',
+          (
+           'The writer believes doping is mainly a failure of '
+           'character.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 4 says the distribution follows the prize '
+           'structure rather than character.',
+           {0: 'Yes would need character; paragraph 4 follows the '
+               'prize structure instead.', 2: 'Not Given is wrong because the distribution is '
+               'explained.'}),
+          (
+           'The writer believes the objections to flattening prize '
+           'structures are unreasonable.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 4 says the distribution follows the prize structure '
-           'rather than character.'),
-          ('The writer believes the objections to flattening prize '
-           'structures are unreasonable.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 7 calls them serious rather than merely '
-           'self-interested.'),
+           'self-interested.',
+           {0: 'Yes would need dismissal; paragraph 7 calls them '
+               'serious.', 2: 'Not Given is wrong because the objections are weighed.'}),
           ('Detected doping clusters just ____________ the best '
            'competitors.', None, 'below',
            'Paragraph 4, among those for whom a small gain crosses a large '
@@ -1205,12 +1218,18 @@ UNIT = dict(
            'A club can never outspend one with four times the income.'),
           ('The writer believes clubs avoid spending rules illegally.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 says the structures are legal and advised on by '
-           'reputable firms.'),
+           'Paragraph 5 says the structures are legal and advised on '
+           'by reputable firms.',
+           {0: 'Yes would need illegality; paragraph 5 says the '
+               'structures are legal.', 2: 'Not Given is wrong because their legality is '
+               'addressed.'}),
           ('The writer believes hard caps never work anywhere.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 says they have largely worked with a single employer '
-           'controlling entry.'),
+           'Paragraph 2 says they have largely worked with a single '
+           'employer controlling entry.',
+           {0: 'Yes would need never; paragraph 2 names where they '
+               'have worked.', 2: 'Not Given is wrong because the conditions for working '
+               'are given.'}),
           ('A rule limiting spending to a share of income is called a '
            '____________ rule.', None, 'ratio',
            'Paragraph 4, the form most competitions have adopted.'),

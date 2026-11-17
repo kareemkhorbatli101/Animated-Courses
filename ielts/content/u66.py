@@ -62,9 +62,11 @@ UNIT = dict(
           'not essential.'],
          items=[
           ('Which job pays the most per hour?', ['A', 'B', 'C'], 1,
-           'Advert B, at thirteen pounds an hour.'),
+           'Advert B, at thirteen pounds an hour.',
+           {0: 'Advert A pays eleven pounds fifty.', 2: 'Advert C pays twelve pounds and asks for experience.'}),
           ('Which job needs no experience at all?', ['A', 'B', 'C'], 0,
-           'Advert A: training is given in the first week.'),
+           'Advert A: training is given in the first week.',
+           {1: 'Advert B asks for a year in a similar job.', 2: 'Advert C asks for experience with a till.'}),
           ('How many hours a week is the kitchen job?', None, 'twenty',
            'Advert A, and the hours are mostly evenings.'),
           ('For how long must a driver have held a licence?', None,
@@ -562,10 +564,14 @@ UNIT = dict(
           ('In 1900, ____________ per cent of workers were '
            'agricultural.', None, 'forty-one',
            'Paragraph 1, against two per cent in 2020.'),
-          ('Which paragraph explains what happened to the children of '
+          (
+           'Which paragraph explains what happened to the children of '
            'agricultural workers?',
            ['Paragraph 2', 'Paragraph 1', 'Paragraph 3'], 0,
-           'They took jobs that did not exist in 1900.'),
+           'They took jobs that did not exist in 1900.',
+           {1: 'Paragraph 1 is about the fall in agricultural work '
+               'itself.', 2: 'Paragraph 3 is about the most recent fall, in '
+               'factories.'}),
           ('The service share rose to ____________ per cent.', None,
            'eighty-six', 'Paragraph 2, from about a third.'),
           ('Factory work was thirty-six per cent in ____________.',
@@ -743,10 +749,13 @@ UNIT = dict(
            None, 'two', 'Paragraph 1, and stated confidently since.'),
           ('Printing destroyed the work of ____________.', None,
            'scribes', 'Paragraph 1, and created far more work.'),
-          ('Which paragraph explains why losses are more visible than '
+          (
+           'Which paragraph explains why losses are more visible than '
            'gains?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 1,
-           'A closed factory is a photograph.'),
+           'A closed factory is a photograph.',
+           {0: 'Paragraph 1 states the figures rather than explaining '
+               'them.', 2: 'Paragraph 3 is about what every honest account says.'}),
           ('Losses fall ____________ on few people.', None, 'heavily',
            'Paragraph 2, while gains are spread thinly.'),
           ('Earlier waves replaced ____________ work.', None,

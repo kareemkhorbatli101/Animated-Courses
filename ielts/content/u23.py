@@ -351,14 +351,21 @@ UNIT = dict(
           ('Which person says the advice assumes a different life?',
            ['Sigrun', 'Oluwafemi', 'Petra', 'Dawit'], 3,
            'Ten hours driving a van, home at nine.'),
-          ('Petra recommends that others wait for a shock before changing.',
-           ['Yes', 'No', 'Not Given'], 1,
+          (
+           'Petra recommends that others wait for a shock before '
+           'changing.', ['Yes', 'No', 'Not Given'], 1,
            'She says explicitly that it is not a strategy anybody can '
-           'recommend.'),
+           'recommend.',
+           {0: 'Yes would need a recommendation; she says it is not '
+               'one anybody can make.', 2: 'Not Given is wrong because she addresses whether it '
+               'generalises.'}),
           ('Dawit believes the advice is wrong.',
            ['Yes', 'No', 'Not Given'], 1,
            'He says he is not refusing it; his objection is about the '
-           'timetable it assumes.')])],
+           'timetable it assumes.',
+           {0: 'Yes would need rejection; he says he is not refusing '
+               'it.', 2: 'Not Given is wrong because he states what his '
+               'objection is.'})])],
    listen=[
     dict(heading='Two public health officers disagree', part='Part 3',
          task='A planning discussion', band='l3', qtype='Questions 25-29',
@@ -854,11 +861,17 @@ UNIT = dict(
            'Many respiratory diseases transmit better in cold, dry air.'),
           ('The writer believes the familiar account is wrong.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 calls it correct and incomplete.'),
-          ('The writer believes thresholds can be calculated reliably in '
-           'advance.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 2 calls it correct and incomplete.',
+           {0: 'Yes would need error; paragraph 2 calls it correct but '
+               'incomplete.', 2: 'Not Given is wrong because the account is rated.'}),
+          (
+           'The writer believes thresholds can be calculated reliably '
+           'in advance.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 4 says such thresholds have been wrong in both '
-           'directions almost every time.'),
+           'directions almost every time.',
+           {0: 'Yes would need reliability; paragraph 4 says they have '
+               'been wrong both ways.', 2: 'Not Given is wrong because the record of such '
+               'thresholds is given.'}),
           ('The people infected earliest tend to be those with the most '
            '____________.', None, 'contacts',
            'Paragraph 5, which is why their immunity slows the spread '
@@ -1122,13 +1135,22 @@ UNIT = dict(
            ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 2,
            'The number was converted into a usable form, and the conversion '
            'destroyed the information.'),
-          ('The writer believes the figure should never have been '
+          (
+           'The writer believes the figure should never have been '
            'calculated.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph calls it a reasonable summary with no better '
-           'alternative proposed.'),
-          ('The writer believes the people producing the estimates concealed '
-           'the uncertainty.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 says they stated it repeatedly and in writing.'),
+           'The final paragraph calls it a reasonable summary with no '
+           'better alternative proposed.',
+           {0: 'Yes would need that view; the final paragraph calls it '
+               'a reasonable summary.', 2: 'Not Given is wrong because the writer judges the '
+               'figure.'}),
+          (
+           'The writer believes the people producing the estimates '
+           'concealed the uncertainty.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 6 says they stated it repeatedly and in writing.',
+           {0: 'Yes would need concealment; paragraph 6 says they '
+               'stated it in writing.', 2: 'Not Given is wrong because what they published is '
+               'described.'}),
           ('A published value describes the situation about ____________ '
            'days earlier.', None, 'ten',
            'Paragraph 5, because of reporting delays and smoothing.'),

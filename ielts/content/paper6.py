@@ -158,21 +158,36 @@ PAPER = dict(
         ('Mortality in 1816 and 1817 rose measurably in regions dependent '
          'on local ____________.', None, 'cereals',
          'Paragraph 6, and barely at all where coastal trade reached.'),
-        ('The volume of rock ejected is a poor predictor of climatic '
+        (
+         'The volume of rock ejected is a poor predictor of climatic '
          'consequence.', ['True', 'False', 'Not Given'], 0,
          'Paragraph 3 states this directly, because altitude matters '
-         'more.'),
-        ('Contemporary observers in Europe suspected a volcanic cause.',
+         'more.',
+         {1: 'False would need volume to predict well; paragraph 3 '
+             'gives altitude.', 2: 'Not Given is wrong because the predictor is named.'}),
+        (
+         'Contemporary observers in Europe suspected a volcanic cause.',
          ['True', 'False', 'Not Given'], 1,
-         'Paragraph 5 says nobody connected the cold to an eruption.'),
-        ('The link between 1816 and westward migration has been firmly '
+         'Paragraph 5 says nobody connected the cold to an eruption.',
+         {0: 'True would need suspicion; paragraph 5 says nobody made '
+             'the connection.', 2: 'Not Given is wrong because what observers thought is '
+             'stated.'}),
+        (
+         'The link between 1816 and westward migration has been firmly '
          'established.', ['True', 'False', 'Not Given'], 1,
          'Paragraph 7 calls the evidence suggestive rather than '
-         'conclusive.'),
-        ('Tambora produced more deaths outside Indonesia than within it.',
-         ['True', 'False', 'Not Given'], 2,
+         'conclusive.',
+         {0: 'True would need firmness; paragraph 7 calls the evidence '
+             'suggestive.', 2: 'Not Given is wrong because the strength of the link is '
+             'rated.'}),
+        (
+         'Tambora produced more deaths outside Indonesia than within '
+         'it.', ['True', 'False', 'Not Given'], 2,
          'The passage gives figures for Indonesia but none for the '
-         'European total.'),
+         'European total.',
+         {0: 'True would need a European total, which the passage '
+             'never gives.', 1: 'False would need the comparison to be made, and it is '
+             'not.'}),
         ('Current models reproduce the cooling after a large eruption but '
          'not the pattern of ____________.', None, 'rainfall',
          'Paragraph 10, which is what the harvest depends on.'),
@@ -450,19 +465,32 @@ PAPER = dict(
          ['Paragraph 10', 'Paragraph 11', 'Paragraph 12',
           'Paragraph 13'], 3,
          'The 1974 paper is cited more often than it is read.'),
-        ('The writer believes the historical claims of the 1974 paper are '
-         'doubtful.', ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 4 says they are not seriously disputed.'),
+        (
+         'The writer believes the historical claims of the 1974 paper '
+         'are doubtful.', ['Yes', 'No', 'Not Given'], 1,
+         'Paragraph 4 says they are not seriously disputed.',
+         {0: 'Yes would need doubt; paragraph 4 says they are not '
+             'seriously disputed.', 2: 'Not Given is wrong because the claims are rated.'}),
         ('The writer believes the textbook example was simply wrong.',
          ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 7 says that conclusion overstates the finding.'),
-        ('The writer believes bundling could be used to fund improvements '
-         'in air quality.', ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 9 says there is no comparable chokepoint.'),
-        ('The writer believes the 1974 paper’s author overstated his own '
-         'conclusion.', ['Yes', 'No', 'Not Given'], 1,
-         'The final paragraph says he stated it more carefully than his '
-         'readers have.'),
+         'Paragraph 7 says that conclusion overstates the finding.',
+         {0: 'Yes would need simple error; paragraph 7 says that '
+             'overstates the finding.', 2: 'Not Given is wrong because the example is reassessed.'}),
+        (
+         'The writer believes bundling could be used to fund '
+         'improvements in air quality.',
+         ['Yes', 'No', 'Not Given'], 1,
+         'Paragraph 9 says there is no comparable chokepoint.',
+         {0: 'Yes would need a chokepoint; paragraph 9 says there is '
+             'none comparable.', 2: 'Not Given is wrong because the extension is tested.'}),
+        (
+         'The writer believes the 1974 paper\u2019s author overstated his '
+         'own conclusion.', ['Yes', 'No', 'Not Given'], 1,
+         'The final paragraph says he stated it more carefully than '
+         'his readers have.',
+         {0: 'Yes would need overstatement; the final paragraph says '
+             'his readers did it.', 2: 'Not Given is wrong because the author\u2019s care is '
+             'assessed.'}),
         ('Ships paid a charge based on their ____________ when entering a '
          'port.', None, 'tonnage',
          'Paragraph 5, levied by an agent and enforced by the port.'),

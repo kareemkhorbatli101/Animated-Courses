@@ -366,11 +366,17 @@ UNIT = dict(
           ('Ilse believes the sellers deliberately misled her.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says she does not think they knew either, which is the '
-           'opposite of deliberate.'),
+           'opposite of deliberate.',
+           {0: 'Yes would need intent; she says she doubts they knew '
+               'either.', 2: 'Not Given is wrong because she gives her view of their '
+               'knowledge.'}),
           ('Varsha has needed to use the plan she agreed.',
            ['Yes', 'No', 'Not Given'], 2,
-           'She describes making it and valuing it; whether it has been used '
-           'is never said.')])],
+           'She describes making it and valuing it; whether it has '
+           'been used is never said.',
+           {0: 'Yes would need a use; she describes making it and '
+               'valuing it only.', 1: 'No would need her to say it has never been used, and '
+               'she does not.'})])],
    listen=[
     dict(heading='Two residents disagree about moving', part='Part 3',
          task='A conversation between neighbours', band='l3',
@@ -882,14 +888,22 @@ UNIT = dict(
             'What the method delivers', 'A use in the courts'], 1,
            'Studies are run on events that made the news in countries able '
            'to study them.'),
-          ('The writer believes no single event can be attributed to climate '
-           'change.', ['Yes', 'No', 'Not Given'], 1,
+          (
+           'The writer believes no single event can be attributed to '
+           'climate change.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 1 calls that answer obsolete for about fifteen '
-           'years.'),
-          ('The writer believes attribution works equally well for all '
-           'kinds of weather.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5: far better for heat than for rainfall, and poorly '
-           'for storm tracks.'),
+           'years.',
+           {0: 'Yes would need that older position; paragraph 1 calls '
+               'it obsolete.', 2: 'Not Given is wrong because attribution of single '
+               'events is the subject.'}),
+          (
+           'The writer believes attribution works equally well for all '
+           'kinds of weather.', ['Yes', 'No', 'Not Given'],
+           1,
+           'Paragraph 5: far better for heat than for rainfall, and '
+           'poorly for storm tracks.',
+           {0: 'Yes would need parity; paragraph 5 ranks heat, '
+               'rainfall and storm tracks.', 2: 'Not Given is wrong because the differences are given.'}),
           ('The method compares the frequency of an event in two sets of '
            'simulated ____________.', None, 'worlds',
            'Paragraph 3, one with the extra greenhouse gases and one '
@@ -1145,11 +1159,17 @@ UNIT = dict(
            'Hazard, exposure and vulnerability.'),
           ('The writer believes attribution science is unsound.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 says none of this is an argument against it and '
-           'practitioners say the same.'),
+           'Paragraph 6 says none of this is an argument against it '
+           'and practitioners say the same.',
+           {0: 'Yes would need unsoundness; paragraph 6 says none of '
+               'this argues against it.', 2: 'Not Given is wrong because the writer states his '
+               'position.'}),
           ('The writer believes warming is not making hazards worse.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 states that both hold at once.'),
+           'Paragraph 7 states that both hold at once.',
+           {0: 'Yes would need denial; paragraph 7 says both things '
+               'hold at once.', 2: 'Not Given is wrong because the writer resolves the two '
+               'claims.'}),
           ('In the writer’s terms, the rain is the hazard and the houses '
            'are the ____________.', None, 'exposure',
            'Paragraph 6, with vulnerability as what the houses are made '

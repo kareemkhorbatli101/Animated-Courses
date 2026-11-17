@@ -682,11 +682,11 @@ UNIT = dict(
            'Paragraph 3, although it causes many complaints.'),
           ('An empty room earns ____________.', None, 'nothing',
            'Paragraph 4: it is worth nothing the next day.'),
-          ('Which paragraph explains why no simple booking rule '
-           'works?',
+          (
+           'Which paragraph explains why no simple booking rule works?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 2,
-           'Late booking is sometimes cheap and sometimes '
-           'impossible.'),
+           'Late booking is sometimes cheap and sometimes impossible.',
+           {0: 'Paragraph 2 explains why prices move at all.', 1: 'Paragraph 3 is about the cost of an empty room.'}),
           ('Booking early buys certainty and booking late buys a '
            '____________.', None, 'chance',
            'Paragraph 4, which the writer calls the honest advice.')])],
@@ -882,7 +882,9 @@ UNIT = dict(
            'Paragraph 3, rather than about how.'),
           ('Which paragraph gives the practical conclusion?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 2,
-           'Filling vehicles and taking fewer, longer trips.')])],
+           'Filling vehicles and taking fewer, longer trips.',
+           {0: 'Paragraph 2 gives the figures for each kind of '
+               'journey.', 1: 'Paragraph 3 is about distance rather than what to do.'})])],
    listen=[
     dict(heading='A researcher on aviation and emissions',
          part='Part 4',

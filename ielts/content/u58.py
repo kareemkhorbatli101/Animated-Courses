@@ -364,10 +364,15 @@ UNIT = dict(
           ('Casimir believes the seven-day forecast is unreliable.',
            ['Yes', 'No', 'Not Given'], 1,
            'He says his reason is about the cost of acting, not about '
-           'scepticism.'),
-          ('Winifred regards the twenty per cent figure as a failure of '
-           'the system.', ['Yes', 'No', 'Not Given'], 1,
-           'She calls it the threshold working rather than failing.')])],
+           'scepticism.',
+           {0: 'Yes would need scepticism; his reason is the cost of '
+               'acting.', 2: 'Not Given is wrong because he gives his reason.'}),
+          (
+           'Winifred regards the twenty per cent figure as a failure '
+           'of the system.', ['Yes', 'No', 'Not Given'], 1,
+           'She calls it the threshold working rather than failing.',
+           {0: 'Yes would need failure; she calls it the threshold '
+               'working.', 2: 'Not Given is wrong because she interprets the figure.'})])],
    listen=[
     dict(heading='A short talk: living with a forecast', part='Part 2',
          task='A talk to emergency planners', band='l2',
@@ -1019,12 +1024,18 @@ UNIT = dict(
            ['Designing around the rate', 'Telling people in advance',
             'Why the pressure runs one way', 'The question to ask'], 2,
            'Officials judged by people who do not know the base rate.'),
-          ('The writer believes a high false alarm rate indicates a faulty '
-           'detector.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 says it is not a defect in the system.'),
-          ('The writer believes raising the threshold costs less than '
+          (
+           'The writer believes a high false alarm rate indicates a '
+           'faulty detector.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 1 says it is not a defect in the system.',
+           {0: 'Yes would need a fault; paragraph 1 says it is not a '
+               'defect.', 2: 'Not Given is wrong because the rate is explained.'}),
+          (
+           'The writer believes raising the threshold costs less than '
            'people expect.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 says the trade is much worse than it looks.'),
+           'Paragraph 6 says the trade is much worse than it looks.',
+           {0: 'Yes would need a cheaper trade; paragraph 6 says it is '
+               'worse than it looks.', 2: 'Not Given is wrong because the trade is costed.'}),
           ('With a one-in-a-thousand event and a one per cent false alarm '
            'rate, ____________ per cent of alarms are false.', None,
            'ninety',
@@ -1353,13 +1364,20 @@ UNIT = dict(
            ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',
             'Paragraph 10'], 1,
            'With a stated case the reader can substitute into.'),
-          ('The writer believes a thirty per cent forecast is refuted by '
-           'the event occurring.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 and 2: it cannot be refuted by a single event.'),
-          ('The writer believes probabilistic forecasts should be '
+          (
+           'The writer believes a thirty per cent forecast is refuted '
+           'by the event occurring.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 1 and 2: it cannot be refuted by a single event.',
+           {0: 'Yes would need refutation; paragraphs 1 and 2 say a '
+               'single event cannot.', 2: 'Not Given is wrong because testability is discussed.'}),
+          (
+           'The writer believes probabilistic forecasts should be '
            'abolished.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 11 says they carry information a single answer '
-           'cannot.'),
+           'cannot.',
+           {0: 'Yes would need abolition; paragraph 11 says they carry '
+               'extra information.', 2: 'Not Given is wrong because their value is stated.'}),
           ('A forecaster whose thirty per cent forecasts were never '
            'followed by the event would be badly ____________.', None,
            'miscalibrated',

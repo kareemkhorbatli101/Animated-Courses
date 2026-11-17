@@ -317,10 +317,15 @@ UNIT = dict(
           ('Hesper believes the fine is unfair.',
            ['Yes', 'No', 'Not Given'], 2,
            'She treats it as rent; she never says whether it is '
-           'unfair.'),
+           'unfair.',
+           {0: 'Yes would need a judgement of fairness; she treats the '
+               'fine as rent.', 1: 'No would need her to call it fair, and she never says '
+               'so.'}),
           ('Wolfram stopped because he was afraid of being fined.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He stopped because of what it cost his friend.')])],
+           'He stopped because of what it cost his friend.',
+           {0: 'Yes would need fear of the fine; he names what it cost '
+               'his friend.', 2: 'Not Given is wrong because he gives his reason.'})])],
    listen=[
     dict(heading='A short talk: rules people break', part='Part 2',
          task='A talk to a community meeting', band='l2',
@@ -862,12 +867,20 @@ UNIT = dict(
             'Two aims, two different budgets',
             'Why the belief persists'], 2,
            'Detection and prison places compete for the same money.'),
-          ('The writer believes raising penalties reliably reduces '
+          (
+           'The writer believes raising penalties reliably reduces '
            'offending.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 says the effects are small and often absent.'),
-          ('The writer believes imprisonment has no preventive effect at '
-           'all.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 calls the removal effect real and measurable.'),
+           'Paragraph 2 says the effects are small and often absent.',
+           {0: 'Yes would need reliability; paragraph 2 calls the '
+               'effects small and often absent.', 2: 'Not Given is wrong because the writer weighs the '
+               'evidence on severity.'}),
+          (
+           'The writer believes imprisonment has no preventive effect '
+           'at all.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 6 calls the removal effect real and measurable.',
+           {0: 'Yes would need no effect; paragraph 6 calls the '
+               'removal effect real.', 2: 'Not Given is wrong because the writer separates the '
+               'two effects.'}),
           ('Offenders know how likely they are to be caught because that '
            'is ____________.', None, 'visible',
            'Paragraph 4, unlike the current sentence for the offence.'),
@@ -1124,12 +1137,20 @@ UNIT = dict(
             'Paragraph 7'], 1,
            'Long enough to cost a job and a tenancy, too short for a '
            'programme.'),
-          ('The writer believes the similar figures show prisons make no '
-           'difference.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 says the opposite, and explains why.'),
-          ('The writer believes prison conditions matter more than '
+          (
+           'The writer believes the similar figures show prisons make '
+           'no difference.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 2 says the opposite, and explains why.',
+           {0: 'Yes would need that reading; paragraph 2 explains why '
+               'it is wrong.', 2: 'Not Given is wrong because the figures are interpreted '
+               'for you.'}),
+          (
+           'The writer believes prison conditions matter more than '
            'sentence length.', ['Yes', 'No', 'Not Given'], 0,
-           'Paragraph 6 states this as reasonably well established.'),
+           'Paragraph 6 states this as reasonably well established.',
+           {1: 'No would need a contradiction; paragraph 6 states it '
+               'as established.', 2: 'Not Given is wrong because the comparison is made '
+               'explicitly.'}),
           ('Short sentences are defined in the research as under about '
            '____________ months.', None, 'six',
            'Paragraph 4, compared with community sentences.'),

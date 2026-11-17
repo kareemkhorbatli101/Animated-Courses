@@ -384,10 +384,15 @@ UNIT = dict(
            'What he agrees to sets what the next person is offered.'),
           ('Teodor believes the trade he accepts is a fair one.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He says explicitly that this is not why he accepts it.'),
+           'He says explicitly that this is not why he accepts it.',
+           {0: 'Yes would need fairness; he says that is not why he '
+               'accepts it.', 2: 'Not Given is wrong because he gives his reason.'}),
           ('Noor has read the whole privacy policy.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says the sharing paragraph is the only one she reads.')])],
+           'She says the sharing paragraph is the only one she reads.',
+           {0: 'Yes would need the whole policy; she names one '
+               'paragraph.', 2: 'Not Given is wrong because she says exactly how much '
+               'she reads.'})])],
    listen=[
     dict(heading='Two users disagree about tracking', part='Part 3',
          task='A conversation about a tracking setting', band='l3',
@@ -903,14 +908,22 @@ UNIT = dict(
             'Published demonstrations', 'The honest summary'], 1,
            'Aggregation, generalisation and noise addition, all of which '
            'reduce usefulness.'),
-          ('The writer believes removing names makes a file anonymous.',
+          (
+           'The writer believes removing names makes a file anonymous.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 calls that idea known to be wrong for about twenty '
-           'years.'),
-          ('The writer believes better engineering will solve the problem.',
-           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 1 calls that idea known to be wrong for about '
+           'twenty years.',
+           {0: 'Yes would need anonymity; paragraph 1 calls that known '
+               'to be wrong.', 2: 'Not Given is wrong because de-identification is the '
+               'subject.'}),
+          (
+           'The writer believes better engineering will solve the '
+           'problem.', ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph describes a curve nobody can escape by '
-           'better engineering.'),
+           'better engineering.',
+           {0: 'Yes would need a technical solution; the final '
+               'paragraph describes a curve nobody escapes.', 2: 'Not Given is wrong because the limits of engineering '
+               'are stated.'}),
           ('Fields that describe many people individually but one person '
            'jointly are called ____________.', None, 'quasi-identifiers',
            'Paragraph 3, where each added field multiplies the '
@@ -1182,13 +1195,20 @@ UNIT = dict(
             'Paragraph 8'], 2,
            'Consent is a document; a model requires access, skills and a '
            'reason to look.'),
-          ('The writer believes privacy law simply cannot keep up with '
+          (
+           'The writer believes privacy law simply cannot keep up with '
            'technology.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph rejects that fatalistic conclusion and names '
-           'four repairs.'),
-          ('The writer believes the technology-neutral strategy failed '
+           'The final paragraph rejects that fatalistic conclusion and '
+           'names four repairs.',
+           {0: 'Yes would need that fatalism; the final paragraph '
+               'names four repairs.', 2: 'Not Given is wrong because the writer answers the '
+               'fatalistic view.'}),
+          (
+           'The writer believes the technology-neutral strategy failed '
            'completely.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 says it half worked and explains which half.'),
+           'Paragraph 5 says it half worked and explains which half.',
+           {0: 'Yes would need total failure; paragraph 5 says half of '
+               'it worked.', 2: 'Not Given is wrong because the strategy is assessed.'}),
           ('According to the writer, the statutes regulate collection while '
            'the harm sits in ____________.', None, 'use',
            'Paragraph 6, which is diffuse, repeated and often invented '

@@ -453,14 +453,22 @@ UNIT = dict(
            ['Lioubov', 'Oyelaran', 'Siv', 'Tarquin'], 3,
            'He avoided people from home for eight months and would not do it '
            'again.'),
-          ('Oyelaran believes the recognition process should be faster.',
-           ['Yes', 'No', 'Not Given'], 2,
-           'He states how long it took without saying whether it should be '
-           'shorter.'),
-          ('Tarquin accepts that avoiding his own community helped his '
+          (
+           'Oyelaran believes the recognition process should be '
+           'faster.', ['Yes', 'No', 'Not Given'], 2,
+           'He states how long it took without saying whether it '
+           'should be shorter.',
+           {0: 'Yes would need a recommendation; he gives only how '
+               'long it took.', 1: 'No would need him to defend the delay, which he never '
+               'does.'}),
+          (
+           'Tarquin accepts that avoiding his own community helped his '
            'language.', ['Yes', 'No', 'Not Given'], 0,
-           'He says plainly that it does slow your language down, and then '
-           'gives the cost.')])],
+           'He says plainly that it does slow your language down, and '
+           'then gives the cost.',
+           {1: 'No would need denial; he says plainly that it does '
+               'help.', 2: 'Not Given is wrong because he weighs the benefit and '
+               'the cost.'})])],
    listen=[
     dict(heading='Two councillors on where newcomers settle', part='Part 3',
          task='A discussion about housing', band='l3',
@@ -993,11 +1001,19 @@ UNIT = dict(
            'same people.'),
           ('The writer believes immigration lowers wages overall.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1: the average effect is close to zero, and cannot be reliably distinguished from it.'),
-          ('The writer believes the disagreement among economists is '
+           'Paragraph 1: the average effect is close to zero, and '
+           'cannot be reliably distinguished from it.',
+           {0: 'Yes would need a fall; paragraph 1 puts the average '
+               'effect near zero.', 2: 'Not Given is wrong because the average effect is '
+               'given.'}),
+          (
+           'The writer believes the disagreement among economists is '
            'political.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 4 states that the disagreement is methodological, not '
-           'political.'),
+           'Paragraph 4 states that the disagreement is '
+           'methodological, not political.',
+           {0: 'Yes would need politics; paragraph 4 calls it '
+               'methodological.', 2: 'Not Given is wrong because the disagreement is '
+               'characterised.'}),
           ('Workers whose skills ____________ those of arrivals experience '
            'gains.', None, 'complement',
            'Paragraph 3, as against those whose skills substitute for '
@@ -1278,13 +1294,23 @@ UNIT = dict(
            ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 2,
            'Paragraph 7: residents misattribute, remember selectively and '
            'generalise.'),
-          ('The writer believes residents who reject national figures are '
-           'being irrational.', ['Yes', 'No', 'Not Given'], 1,
+          (
+           'The writer believes residents who reject national figures '
+           'are being irrational.',
+           ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 6 says they have rejected an inference about a '
-           'different unit, which is reasonable.'),
-          ('The writer believes the evidence on funding by turnover is '
+           'different unit, which is reasonable.',
+           {0: 'Yes would need irrationality; paragraph 6 calls their '
+               'rejection reasonable.', 2: 'Not Given is wrong because the writer judges the '
+               'residents\u2019 reasoning.'}),
+          (
+           'The writer believes the evidence on funding by turnover is '
            'conclusive.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says the pattern is suggestive, and stops short of calling it identified.'),
+           'The final paragraph says the pattern is suggestive, and '
+           'stops short of calling it identified.',
+           {0: 'Yes would need conclusiveness; the final paragraph '
+               'calls the pattern suggestive.', 2: 'Not Given is wrong because the strength of the '
+               'evidence is stated.'}),
           ('The mechanisms producing the national figure are all '
            '____________ mechanisms.', None, 'adjustment',
            'Paragraph 2, and adjustment takes time, which is the whole '

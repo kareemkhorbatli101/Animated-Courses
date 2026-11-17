@@ -377,13 +377,20 @@ UNIT = dict(
            'advance?',
            ['Vasquez-Oyelaran', 'Thaddeus', 'Perpetua', 'Ignatius'], 3,
            'Distinguishing a comparison from a control.'),
-          ('Thaddeus believes the people queueing at the bank were '
-           'potential customers.', ['Yes', 'No', 'Not Given'], 1,
-           'He calls them a crowd that was never custom.'),
+          (
+           'Thaddeus believes the people queueing at the bank were '
+           'potential customers.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'He calls them a crowd that was never custom.',
+           {0: 'Yes would need them to be custom; he says they never '
+               'were.', 2: 'Not Given is wrong because he classifies the crowd.'}),
           ('Ignatius believes the road closure had no effect.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He says it has no support in the data, which he distinguishes '
-           'from having no effect.')])],
+           'He says it has no support in the data, which he '
+           'distinguishes from having no effect.',
+           {0: 'Yes would need no effect; he says only that the data '
+               'does not support one.', 2: 'Not Given is wrong because he distinguishes the two '
+               'claims.'})])],
    listen=[
     dict(heading='A short talk: what people think caused what',
          part='Part 2', task='A talk to a council scrutiny committee',
@@ -1051,13 +1058,22 @@ UNIT = dict(
             'cover', 'Pre-registration', 'The missing world'], 1,
            'It describes sampling uncertainty, not assumption '
            'uncertainty.'),
-          ('The writer believes randomisation makes two groups identical.',
+          (
+           'The writer believes randomisation makes two groups '
+           'identical.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 3 says they will differ considerably.',
+           {0: 'Yes would need identity; paragraph 3 says they will '
+               'differ considerably.', 2: 'Not Given is wrong because what randomisation does is '
+               'stated.'}),
+          (
+           'The writer believes causal claims about policy are '
+           'generally unwarranted.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 3 says they will differ considerably.'),
-          ('The writer believes causal claims about policy are generally '
-           'unwarranted.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 10 says the surviving ones are better supported than '
-           'most claims people act on.'),
+           'Paragraph 10 says the surviving ones are better supported '
+           'than most claims people act on.',
+           {0: 'Yes would need general scepticism; paragraph 10 says '
+               'the survivors are well supported.', 2: 'Not Given is wrong because the writer rates the claims '
+               'that survive.'}),
           ('The assumption behind a comparison region is called the '
            '____________ trend assumption.', None, 'common',
            'Paragraph 5, concerning what would have happened after the '
@@ -1380,14 +1396,22 @@ UNIT = dict(
            'side?', ['Paragraph 6', 'Paragraph 7', 'Paragraph 8',
             'Paragraph 9'], 2,
            'And that few who cite it have done so.'),
-          ('The writer believes a decision taken on a mechanism argument is '
-           'arbitrary.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 9 says it is better supported than one taken on '
-           'nothing.'),
-          ('The writer believes the demand for proof is applied evenly to '
-           'existing and proposed arrangements.',
+          (
+           'The writer believes a decision taken on a mechanism '
+           'argument is arbitrary.',
            ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says it falls on one side only.'),
+           'Paragraph 9 says it is better supported than one taken on '
+           'nothing.',
+           {0: 'Yes would need arbitrariness; paragraph 9 ranks it '
+               'above deciding on nothing.', 2: 'Not Given is wrong because mechanism arguments are '
+               'evaluated.'}),
+          (
+           'The writer believes the demand for proof is applied evenly '
+           'to existing and proposed arrangements.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'The final paragraph says it falls on one side only.',
+           {0: 'Yes would need evenness; the final paragraph says it '
+               'falls on one side.', 2: 'Not Given is wrong because the asymmetry is named.'}),
           ('A question about whether a curriculum produces better thinkers '
            'fails on the ____________ rather than the data.', None,
            'construct',

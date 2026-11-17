@@ -426,14 +426,20 @@ UNIT = dict(
            'redevelopment?',
            ['Wilhelmina', 'Oluwaseun', 'Bartholomew', 'Chiedza'], 3,
            'She grew up going to the chapel and would vote for the flats.'),
-          ('Wilhelmina believes the chapel should be converted into housing.',
-           ['Yes', 'No', 'Not Given'], 2,
-           'She says only that she does not want it pulled down; conversion '
-           'is never addressed.'),
-          ('Bartholomew thinks a use for the building may take many years to '
-           'appear.', ['Yes', 'No', 'Not Given'], 0,
-           'He says let it to whoever wants it next, even if that is in '
-           'fifteen years.')])],
+          (
+           'Wilhelmina believes the chapel should be converted into '
+           'housing.', ['Yes', 'No', 'Not Given'], 2,
+           'She says only that she does not want it pulled down; '
+           'conversion is never addressed.',
+           {0: 'Yes would need conversion; she says only that it '
+               'should not be pulled down.', 1: 'No would need her to rule conversion out, and she '
+               'never raises it.'}),
+          (
+           'Bartholomew thinks a use for the building may take many '
+           'years to appear.', ['Yes', 'No', 'Not Given'], 0,
+           'He says let it to whoever wants it next, even if that is '
+           'in fifteen years.',
+           {1: 'No would need urgency; he allows fifteen years.', 2: 'Not Given is wrong because he gives a timescale.'})])],
    listen=[
     dict(heading='Two trustees disagree about a chapel', part='Part 3',
          task='A trustees’ meeting', band='l3',
@@ -950,14 +956,21 @@ UNIT = dict(
             'The strongest claim', 'A proposal for resolution'], 1,
            'The facts are agreed; the disagreement is about which principle '
            'governs.'),
-          ('The writer believes the holding museum has the strongest claim.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 calls stewardship the weakest of the four as a matter '
-           'of principle.'),
-          ('The writer believes the four claims could all be satisfied at '
-           'once.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 states that the four principles are not compatible '
-           'with one another.'),
+          (
+           'The writer believes the holding museum has the strongest '
+           'claim.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 7 calls stewardship the weakest of the four as a '
+           'matter of principle.',
+           {0: 'Yes would need stewardship to win; paragraph 7 calls '
+               'it the weakest in principle.', 2: 'Not Given is wrong because the four claims are ranked.'}),
+          (
+           'The writer believes the four claims could all be satisfied '
+           'at once.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 1 states that the four principles are not '
+           'compatible with one another.',
+           {0: 'Yes would need compatibility; paragraph 1 says they '
+               'are incompatible.', 2: 'Not Given is wrong because their relationship is '
+               'stated.'}),
           ('The claim based on continuity concerns only the ____________ '
            'objects.', None, 'funerary',
            'Paragraph 3: the two hundred funerary objects, and it is '
@@ -1229,14 +1242,21 @@ UNIT = dict(
            ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 2,
            'Paragraph 7: the documentary record stayed behind and was not '
            'discussed in two of the three negotiations.'),
-          ('The writer thinks the storage case shows the first return was a '
-           'mistake.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 says the panels are under the control of their own '
-           'curators, which is what was asked for.'),
+          (
+           'The writer thinks the storage case shows the first return '
+           'was a mistake.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 2 says the panels are under the control of their '
+           'own curators, which is what was asked for.',
+           {0: 'Yes would need a mistake; paragraph 2 says the panels '
+               'are where they were asked to be.', 2: 'Not Given is wrong because the storage case is '
+               'interpreted.'}),
           ('The writer believes all three returns should be reversed.',
            ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph declines to say whether any object should be '
-           'returned at all, and nothing suggests reversal.'),
+           'The final paragraph declines to say whether any object '
+           'should be returned at all, and nothing suggests reversal.',
+           {0: 'Yes would need reversal; the final paragraph declines '
+               'to say any object should move.', 2: 'Not Given is wrong because the writer states what he '
+               'will not conclude.'}),
           ('The third case included digitisation, conservation training and a '
            'reciprocal ____________ agreement.', None, 'loan',
            'Paragraph 4, which is why the former holder has since borrowed '

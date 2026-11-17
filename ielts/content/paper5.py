@@ -170,15 +170,21 @@ PAPER = dict(
         ('The writer says the container removed a ____________ rather than '
          'creating a tendency.', None, 'constraint',
          'Paragraph 9, the position he calls the honest one.'),
-        ('The writer believes the container alone caused late '
+        (
+         'The writer believes the container alone caused late '
          'twentieth-century globalisation.',
          ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 9 calls that attribution a category error.'),
-        ('The writer believes an agreed standard that is imperfect is '
+         'Paragraph 9 calls that attribution a category error.',
+         {0: 'Yes would need sole causation; paragraph 9 calls that a '
+             'category error.', 2: 'Not Given is wrong because the attribution is examined.'}),
+        (
+         'The writer believes an agreed standard that is imperfect is '
          'better than an unagreed optimal one.',
          ['Yes', 'No', 'Not Given'], 0,
          'The final paragraph states this and notes that later '
-         'improvements failed.')]),
+         'improvements failed.',
+         {1: 'No would need the optimum to win; the final paragraph '
+             'prefers agreement.', 2: 'Not Given is wrong because the comparison is made.'})]),
 
   dict(no=2, first=14,
        heading='How a lost script is read again',
@@ -321,10 +327,14 @@ PAPER = dict(
         ('The writer says Linear A is partly deciphered and wholly '
          '____________.', None, 'untranslated',
          'Paragraph 11: it can be pronounced but not understood.'),
-        ('The writer believes being able to read a text aloud shows that '
-         'its language is known.', ['Yes', 'No', 'Not Given'], 1,
-         'Paragraphs 11 and 12 separate the two claims '
-         'explicitly.')]),
+        (
+         'The writer believes being able to read a text aloud shows '
+         'that its language is known.',
+         ['Yes', 'No', 'Not Given'], 1,
+         'Paragraphs 11 and 12 separate the two claims explicitly.',
+         {0: 'Yes would need reading to prove knowledge; paragraphs 11 '
+             'and 12 separate them.', 2: 'Not Given is wrong because the distinction is drawn '
+             'explicitly.'})]),
 
   dict(no=3, first=27,
        heading='What the replication crisis actually showed',
@@ -480,12 +490,19 @@ PAPER = dict(
           'community organised the audit', 'its journals demanded it',
           'funders required it'], 1,
          'Paragraph 9, which blocks any inference about other fields.'),
-        ('The writer believes fields that have not been audited are '
+        (
+         'The writer believes fields that have not been audited are '
          'probably sounder.', ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 9 says that inference is unavailable.'),
-        ('The writer believes the error lay in treating publication as a '
-         'certification of truth.', ['Yes', 'No', 'Not Given'], 0,
-         'Paragraph 12 states this as the defensible conclusion.'),
+         'Paragraph 9 says that inference is unavailable.',
+         {0: 'Yes would need that inference; paragraph 9 says it is '
+             'unavailable.', 2: 'Not Given is wrong because the inference is addressed.'}),
+        (
+         'The writer believes the error lay in treating publication as '
+         'a certification of truth.',
+         ['Yes', 'No', 'Not Given'], 0,
+         'Paragraph 12 states this as the defensible conclusion.',
+         {1: 'No would need a different diagnosis; paragraph 12 gives '
+             'this one.', 2: 'Not Given is wrong because the conclusion is stated.'}),
         ('The writer says the episode is, by any reasonable standard, a '
          '____________ rather than a failure.', None, 'success',
          'The final paragraph, because the field measured and published '

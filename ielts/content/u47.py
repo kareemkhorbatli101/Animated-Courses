@@ -407,13 +407,20 @@ UNIT = dict(
            'misinformed?', ['Ignatius', 'Bernadette', 'Oluwafemi',
             'Perpetua'], 3,
            'Each told that their own right is the whole of the matter.'),
-          ('Bernadette believes her approach to the soil is the best one '
-           'for the land.', ['Yes', 'No', 'Not Given'], 1,
-           'She explains it as a response to the tenancy rather than as '
-           'good practice.'),
+          (
+           'Bernadette believes her approach to the soil is the best '
+           'one for the land.', ['Yes', 'No', 'Not Given'],
+           1,
+           'She explains it as a response to the tenancy rather than '
+           'as good practice.',
+           {0: 'Yes would need best practice; she explains it by the '
+               'tenancy.', 2: 'Not Given is wrong because she gives her reason.'}),
           ('Oluwafemi belongs to a walking organisation.',
            ['Yes', 'No', 'Not Given'], 0,
-           'He refers to the walking organisations he belongs to.')])],
+           'He refers to the walking organisations he belongs to.',
+           {1: 'No would need him to be outside them; he refers to the '
+               'ones he belongs to.', 2: 'Not Given is wrong because his membership is '
+               'mentioned.'})])],
    listen=[
     dict(heading='Two officers disagree about access', part='Part 3',
          task='A conversation between two council officers', band='l3',
@@ -988,14 +995,21 @@ UNIT = dict(
            ['Valuation difficulties', 'The cost of measurement',
             'The collateral objection', 'A narrower proposal'], 2,
            'An asset that can be valued can be borrowed against.'),
-          ('The writer believes farmers deliberately conceal soil '
+          (
+           'The writer believes farmers deliberately conceal soil '
            'decline.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 1 calls it a property of accounting conventions '
-           'rather than an oversight.'),
-          ('The writer believes full natural capital accounting should be '
-           'adopted.', ['Yes', 'No', 'Not Given'], 1,
+           'rather than an oversight.',
+           {0: 'Yes would need concealment; paragraph 1 blames '
+               'accounting conventions.', 2: 'Not Given is wrong because the invisibility is '
+               'explained.'}),
+          (
+           'The writer believes full natural capital accounting should '
+           'be adopted.', ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph proposes something deliberately '
-           'narrower.'),
+           'narrower.',
+           {0: 'Yes would need the full version; the final paragraph '
+               'proposes something narrower.', 2: 'Not Given is wrong because the proposal is stated.'}),
           ('No convention exists for ____________ a natural asset that '
            'nobody bought.', None, 'depreciating',
            'Paragraph 2, unlike machinery which is depreciated '
@@ -1304,13 +1318,19 @@ UNIT = dict(
             'Paragraph 10'], 2,
            'Actions as a base layer with outcome premiums where '
            'measurement is cheap.'),
-          ('The writer believes the first scheme failed because of '
+          (
+           'The writer believes the first scheme failed because of '
            'dishonesty.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 says the difficulty was noise rather than fraud.'),
-          ('The writer believes outcome payment is wrong in principle.',
+           'Paragraph 2 says the difficulty was noise rather than '
+           'fraud.',
+           {0: 'Yes would need fraud; paragraph 2 names noise.', 2: 'Not Given is wrong because the failure is diagnosed.'}),
+          (
+           'The writer believes outcome payment is wrong in principle.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 7 calls it better in principle and bounded by '
-           'measurement cost.'),
+           'measurement cost.',
+           {0: 'Yes would need a principled objection; paragraph 7 '
+               'calls it better in principle.', 2: 'Not Given is wrong because the principle is addressed.'}),
           ('In the second scheme, ____________ per cent of the improvement '
            'came from concentrating existing habitat.', None,
            'twenty-three',

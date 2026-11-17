@@ -386,12 +386,18 @@ UNIT = dict(
           ('Marguerite believes her original decision was wrong.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says nobody was wrong and both decisions were '
-           'defensible.'),
-          ('Thaddeus believes the definitions he writes reflect '
+           'defensible.',
+           {0: 'Yes would need error; she says both decisions were '
+               'defensible.', 2: 'Not Given is wrong because she judges them.'}),
+          (
+           'Thaddeus believes the definitions he writes reflect '
            'distinctions already present in the world.',
            ['Yes', 'No', 'Not Given'], 1,
            'He says the sharpness is his and the vagueness is the '
-           'world’s.')])],
+           'world\u2019s.',
+           {0: 'Yes would need the distinction to be in the world; he '
+               'says the sharpness is his.', 2: 'Not Given is wrong because he says where each part '
+               'comes from.'})])],
    listen=[
     dict(heading='A short talk: where a category ends', part='Part 2',
          task='A talk to trainee decision-makers', band='l2',
@@ -1061,12 +1067,19 @@ UNIT = dict(
             'Degrees of truth'], 1,
            'Like cases alike, reasoning recorded, departures '
            'explained.'),
-          ('The writer believes the conclusion of the sorites argument is '
-           'true.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 calls the conclusion false.'),
-          ('The writer believes vagueness generates as much dispute in '
-           'practice as in theory.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says it generates far less.'),
+          (
+           'The writer believes the conclusion of the sorites argument '
+           'is true.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 1 calls the conclusion false.',
+           {0: 'Yes would need truth; paragraph 1 calls the conclusion '
+               'false.', 2: 'Not Given is wrong because the conclusion is judged.'}),
+          (
+           'The writer believes vagueness generates as much dispute in '
+           'practice as in theory.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'The final paragraph says it generates far less.',
+           {0: 'Yes would need parity; the final paragraph says far '
+               'less.', 2: 'Not Given is wrong because the comparison is made.'}),
           ('The objection to degrees of truth is that it reproduces the '
            'problem one level ____________.', None, 'up',
            'Paragraph 5: the boundary between 0.49 and 0.51.'),
@@ -1397,13 +1410,20 @@ UNIT = dict(
            ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',
             'Paragraph 10'], 1,
            'Because associations are real effects on real people.'),
-          ('The writer believes most definitional disputes are merely '
+          (
+           'The writer believes most definitional disputes are merely '
            'verbal.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 says such cases are less common than the '
-           'complaint assumes.'),
-          ('The writer believes terminological change reliably alters how '
-           'people are treated.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 9 calls the evidence mixed and thin.'),
+           'complaint assumes.',
+           {0: 'Yes would need most; paragraph 2 says such cases are '
+               'less common than assumed.', 2: 'Not Given is wrong because the frequency is addressed.'}),
+          (
+           'The writer believes terminological change reliably alters '
+           'how people are treated.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 9 calls the evidence mixed and thin.',
+           {0: 'Yes would need reliability; paragraph 9 calls the '
+               'evidence mixed and thin.', 2: 'Not Given is wrong because the evidence is rated.'}),
           ('In medicine, separating conditions previously treated as one '
            'has produced distinct research ____________ within a decade.',
            None, 'literatures',

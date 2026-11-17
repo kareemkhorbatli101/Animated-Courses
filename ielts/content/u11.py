@@ -310,10 +310,14 @@ UNIT = dict(
            'Written at the start, and it has prevented arguments.'),
           ('Ndidi regrets leaving her job.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says she does not regret it, which is the opposite.'),
+           'She says she does not regret it, which is the opposite.',
+           {0: 'Yes would need regret; she says the opposite in her '
+               'own words.', 2: 'Not Given is wrong because she answers the question '
+               'directly.'}),
           ('Bronwen thinks four hours of respite is useless.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says it is not nothing, and also not enough.')])],
+           'She says it is not nothing, and also not enough.',
+           {0: 'Yes would need uselessness; she calls it not nothing.', 2: 'Not Given is wrong because she rates the four hours.'})])],
    listen=[
     dict(heading='A short talk: who looks after whom', part='Part 2',
          task='A talk to a local carers group', band='l2',
@@ -849,13 +853,21 @@ UNIT = dict(
            ['The fertility rate', 'Why pensions are affected',
             'Why cities matter', 'The fourth option'], 1,
            'This year’s pensions come from this year’s taxes.'),
-          ('The writer believes the fall in the birth rate is mainly bad '
-           'news.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 3 says the reasons are mostly good news.'),
-          ('The writer believes some country has found a fourth policy '
+          (
+           'The writer believes the fall in the birth rate is mainly '
+           'bad news.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 3 says the reasons are mostly good news.',
+           {0: 'Yes would need bad news; paragraph 3 calls the reasons '
+               'mostly good.', 2: 'Not Given is wrong because the writer assesses the '
+               'causes.'}),
+          (
+           'The writer believes some country has found a fourth policy '
            'option.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 7 says none has, although many have announced '
-           'one.'),
+           'one.',
+           {0: 'Yes would need a fourth option; paragraph 7 says none '
+               'has been found.', 2: 'Not Given is wrong because the search for one is '
+               'discussed.'}),
           ('A fertility rate of about ____________ keeps a population the '
            'same size.', None, '2.1',
            'Paragraph 2, below which each generation is smaller.'),
@@ -1092,10 +1104,16 @@ UNIT = dict(
            'They help the families who already exist.'),
           ('The writer believes cash payments have no effect at all.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 says they work, but on the timing.'),
-          ('The writer believes governments should stop supporting '
+           'Paragraph 2 says they work, but on the timing.',
+           {0: 'Yes would need no effect; paragraph 2 says they shift '
+               'the timing.', 2: 'Not Given is wrong because the payments are evaluated.'}),
+          (
+           'The writer believes governments should stop supporting '
            'families.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 says the opposite, with a different reason.'),
+           'Paragraph 7 says the opposite, with a different reason.',
+           {0: 'Yes would need withdrawal; paragraph 7 argues for '
+               'support on other grounds.', 2: 'Not Given is wrong because the writer states what '
+               'support is for.'}),
           ('A change in when children are born rather than how many is '
            'called a ____________ effect.', None, 'timing',
            'Paragraph 3, against completed family size.'),

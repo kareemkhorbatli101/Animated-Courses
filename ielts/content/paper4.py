@@ -137,22 +137,41 @@ PAPER = dict(
         ('The container was first used on a converted tanker in 1956.',
          ['True', 'False', 'Not Given'], 0,
          'Paragraph 1: a converted tanker left Newark with fifty-eight '
-         'boxes.'),
-        ('Standardisation of container sizes was completed within two years.',
-         ['True', 'False', 'Not Given'], 1,
-         'Paragraph 5 says it took most of the 1960s and was fought over '
-         'commercially.'),
-        ('Dock labour in every country accepted containerisation without '
-         'dispute.', ['True', 'False', 'Not Given'], 1,
-         'Paragraph 4: resistance was immediate and in several countries '
-         'delayed adoption by a decade.'),
+         'boxes.',
+         {1: 'False would need a different first use; paragraph 1 '
+             'gives the Newark sailing.', 2: 'Not Given is wrong because the first voyage is dated.'}),
+        (
+         'Standardisation of container sizes was completed within two '
+         'years.', ['True', 'False', 'Not Given'], 1,
+         'Paragraph 5 says it took most of the 1960s and was fought '
+         'over commercially.',
+         {0: 'True would need two years; paragraph 5 gives most of the '
+             '1960s.', 2: 'Not Given is wrong because the timetable is stated.'}),
+        (
+         'Dock labour in every country accepted containerisation '
+         'without dispute.', ['True', 'False', 'Not Given'], 1,
+         'Paragraph 4: resistance was immediate and in several '
+         'countries delayed adoption by a decade.',
+         {0: 'True would need acceptance; paragraph 4 describes a '
+             'decade of resistance.', 2: 'Not Given is wrong because the response of dock labour '
+             'is described.'}),
         ('Containers are now manufactured mainly in Asia.',
          ['True', 'False', 'Not Given'], 2,
          'Where containers are made is never mentioned anywhere in the '
-         'passage.'),
-        ('The container reduced the cost of long-distance trade more than '
-         'short-distance trade.', ['True', 'False', 'Not Given'], 0,
-         'Paragraph 9: the saving lay in handling, where distance was barely affected, which is the reverse of most transport improvements.')]),
+         'passage.',
+         {0: 'True would need a statement about manufacture, which '
+             'never appears.', 1: 'False would need the passage to place manufacture '
+             'elsewhere, and it does not.'}),
+        (
+         'The container reduced the cost of long-distance trade more '
+         'than short-distance trade.',
+         ['True', 'False', 'Not Given'], 0,
+         'Paragraph 9: the saving lay in handling, where distance was '
+         'barely affected, which is the reverse of most transport '
+         'improvements.',
+         {1: 'False would need the usual pattern; paragraph 9 gives '
+             'the reverse.', 2: 'Not Given is wrong because the comparison with distance '
+             'is made.'})]),
 
   dict(no=2, first=14,
        heading='The invention of standard time',
@@ -279,10 +298,14 @@ PAPER = dict(
          ['2022', '2030', '2035', '2100'], 2,
          'Paragraph 9, agreed in 2022, accepting a drift of a second or two '
          'per century.'),
-        ('Modern civil time is derived from the rotation of the earth.',
+        (
+         'Modern civil time is derived from the rotation of the earth.',
          ['True', 'False', 'Not Given'], 1,
          'Paragraph 9: it is derived from atomic clocks, and the two '
-         'diverge.')]),
+         'diverge.',
+         {0: 'True would need the earth; paragraph 9 names atomic '
+             'clocks.', 2: 'Not Given is wrong because the source of civil time is '
+             'stated.'})]),
 
   dict(no=3, first=27,
        heading='What counts as a species',
@@ -385,26 +408,46 @@ PAPER = dict(
          ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'], 2,
          'Protection, extinction counts and funding all operate at species '
          'level.'),
-        ('The writer believes the standard school definition is adequate for '
-         'most purposes.', ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 1 says most biologists regard it as unusable and the '
-         'failures are not marginal.'),
-        ('The writer believes species boundaries are entirely arbitrary.',
+        (
+         'The writer believes the standard school definition is '
+         'adequate for most purposes.',
          ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 7 explicitly says the position is not relativism and the '
-         'underlying facts are objective.'),
-        ('The writer believes taxonomists commonly split species to obtain '
-         'funding.', ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 9 calls the accusation almost always unfounded as a '
-         'description of motive.'),
-        ('The writer believes the category of species should be abandoned.',
-         ['Yes', 'No', 'Not Given'], 1,
+         'Paragraph 1 says most biologists regard it as unusable and '
+         'the failures are not marginal.',
+         {0: 'Yes would need adequacy; paragraph 1 says most '
+             'biologists find it unusable.', 2: 'Not Given is wrong because the definition is rated.'}),
+        (
+         'The writer believes species boundaries are entirely '
+         'arbitrary.', ['Yes', 'No', 'Not Given'], 1,
+         'Paragraph 7 explicitly says the position is not relativism '
+         'and the underlying facts are objective.',
+         {0: 'Yes would need arbitrariness; paragraph 7 says the '
+             'underlying facts are objective.', 2: 'Not Given is wrong because the writer separates the two '
+             'claims.'}),
+        (
+         'The writer believes taxonomists commonly split species to '
+         'obtain funding.', ['Yes', 'No', 'Not Given'], 1,
+         'Paragraph 9 calls the accusation almost always unfounded as '
+         'a description of motive.',
+         {0: 'Yes would need the motive; paragraph 9 calls the '
+             'accusation unfounded.', 2: 'Not Given is wrong because the accusation is addressed.'}),
+        (
+         'The writer believes the category of species should be '
+         'abandoned.', ['Yes', 'No', 'Not Given'], 1,
          'Paragraph 11 opens by saying none of this is an argument for '
-         'abandoning it.'),
-        ('The writer believes genetic data has made classification cheaper '
-         'and more contested.', ['Yes', 'No', 'Not Given'], 0,
+         'abandoning it.',
+         {0: 'Yes would need abandonment; paragraph 11 refuses it in '
+             'its first line.', 2: 'Not Given is wrong because the writer states what '
+             'follows from the difficulty.'}),
+        (
+         'The writer believes genetic data has made classification '
+         'cheaper and more contested.',
+         ['Yes', 'No', 'Not Given'], 0,
          'Paragraph 9: cheap genetic data frequently contradicts '
-         'classifications made on appearance.'),
+         'classifications made on appearance.',
+         {1: 'No would need a contradiction; paragraph 9 gives both '
+             'effects.', 2: 'Not Given is wrong because the effect of cheap '
+             'sequencing is described.'}),
         ('Approximately how many species definitions are in current use?',
          ['Six', 'Twelve', 'Twenty-six', 'Over a hundred'], 2,
          'Paragraph 5, each working well in the domain it was built for.'),

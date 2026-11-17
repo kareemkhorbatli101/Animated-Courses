@@ -372,12 +372,19 @@ UNIT = dict(
            'never tested.'),
           ('Nkechi believes the sample size was too small.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She calls two thousand perfectly respectable. The objection is to '
-           'the decimal place, not the size.'),
+           'She calls two thousand perfectly respectable. The '
+           'objection is to the decimal place, not the size.',
+           {0: 'Yes would need the size to be her objection; she calls '
+               'two thousand respectable.', 2: 'Not Given is wrong because she states what her '
+               'objection is.'}),
           ('Imelda thinks the original study was badly conducted.',
            ['Yes', 'No', 'Not Given'], 2,
-           'She says the figure may well be right and objects only to the '
-           'comparison. She says nothing about how the study was conducted.')])],
+           'She says the figure may well be right and objects only to '
+           'the comparison. She says nothing about how the study was '
+           'conducted.',
+           {0: 'Yes would need a criticism of conduct; she objects '
+               'only to the comparison.', 1: 'No would need her to defend the conduct, which she '
+               'never discusses.'})])],
    listen=[
     dict(heading='Two journalists disagree about a figure', part='Part 3',
          task='A newsroom discussion', band='l3', qtype='Questions 25-29',
@@ -962,14 +969,21 @@ UNIT = dict(
             'Reordering the reader’s questions', 'The spoonful and the pot'], 2,
            'The first question is not how many but how they were chosen, which '
            'is a reordering of what a reader usually asks.'),
-          ('To halve a margin of error, a survey needs twice as many '
+          (
+           'To halve a margin of error, a survey needs twice as many '
            'respondents.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 3 says the opposite and gives the reason: four times as '
-           'many, because of the square root.'),
-          ('The writer believes opinion polls should be reported less often.',
-           ['Yes', 'No', 'Not Given'], 2,
-           'The passage is about how to read a poll, not about how often polls '
-           'should appear. Nothing is said either way.'),
+           'Paragraph 3 says the opposite and gives the reason: four '
+           'times as many, because of the square root.',
+           {0: 'Yes would need twice; paragraph 3 gives four times, '
+               'from the square root.', 2: 'Not Given is wrong because the arithmetic is worked '
+               'through.'}),
+          (
+           'The writer believes opinion polls should be reported less '
+           'often.', ['Yes', 'No', 'Not Given'], 2,
+           'The passage is about how to read a poll, not about how '
+           'often polls should appear. Nothing is said either way.',
+           {0: 'Yes would need a view on frequency, and none appears.', 1: 'No would need him to defend the present frequency, '
+               'which he never does.'}),
           ('A sample of a thousand gives a margin of error of about '
            '____________ percentage points.', None, 'three',
            'Paragraph 3, given as about three either way, which is where the '
@@ -1243,14 +1257,23 @@ UNIT = dict(
            ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
            'Paragraph 6 says explicitly that the sceptical case is easy to '
            'overstate and that polls have a respectable record.'),
-          ('The writer believes the 1936 failure is fully explained by the '
-           'address list used.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 calls that explanation true but not sufficient, and '
-           'gives the response pattern as the larger factor.'),
-          ('The writer thinks polls should not be published before elections.',
-           ['Yes', 'No', 'Not Given'], 2,
-           'Publication timing is never discussed. Paragraph 6 defends polls '
-           'in general but says nothing about when they appear.'),
+          (
+           'The writer believes the 1936 failure is fully explained by '
+           'the address list used.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 2 calls that explanation true but not '
+           'sufficient, and gives the response pattern as the larger '
+           'factor.',
+           {0: 'Yes would need sufficiency; paragraph 2 calls the '
+               'address list true but not enough.', 2: 'Not Given is wrong because the failure is explained in '
+               'detail.'}),
+          (
+           'The writer thinks polls should not be published before '
+           'elections.', ['Yes', 'No', 'Not Given'], 2,
+           'Publication timing is never discussed. Paragraph 6 defends '
+           'polls in general but says nothing about when they appear.',
+           {0: 'Yes would need a view on timing, which is never given.', 1: 'No would need him to defend pre-election publication, '
+               'and he does not.'}),
           ('What cannot be corrected by weighting, according to paragraph 3?',
            None, 'differential response',
            'Because the thing determining whether somebody answers is the '

@@ -408,19 +408,29 @@ PAPER = dict(
          ['Paragraph 6', 'Paragraph 7', 'Paragraph 8', 'Paragraph 9'], 2,
          'Where caring for children is rated differently on the two '
          'measures.'),
-        ('The writer believes the single life-satisfaction question is '
+        (
+         'The writer believes the single life-satisfaction question is '
          'worthless.', ['Yes', 'No', 'Not Given'], 1,
-         'Paragraph 3 and the conclusion treat it as measuring something '
-         'real.'),
-        ('The writer believes the adaptation finding settles whether the '
-         'measure is adequate.', ['Yes', 'No', 'Not Given'], 1,
+         'Paragraph 3 and the conclusion treat it as measuring '
+         'something real.',
+         {0: 'Yes would need worthlessness; paragraph 3 treats it as '
+             'measuring something real.', 2: 'Not Given is wrong because the measure is rated.'}),
+        (
+         'The writer believes the adaptation finding settles whether '
+         'the measure is adequate.',
+         ['Yes', 'No', 'Not Given'], 1,
          'Paragraph 7 says the question is about purpose rather than '
-         'accuracy.'),
-        ('The writer believes wellbeing data is more useful for comparing '
-         'policies than for summarising a nation.',
+         'accuracy.',
+         {0: 'Yes would need a settlement; paragraph 7 makes it a '
+             'question of purpose.', 2: 'Not Given is wrong because adaptation is interpreted.'}),
+        (
+         'The writer believes wellbeing data is more useful for '
+         'comparing policies than for summarising a nation.',
          ['Yes', 'No', 'Not Given'], 0,
-         'The final paragraph states exactly this, calling it nearly the '
-         'opposite of how it was sold.'),
+         'The final paragraph states exactly this, calling it nearly '
+         'the opposite of how it was sold.',
+         {1: 'No would need the reverse ranking; the final paragraph '
+             'gives this one.', 2: 'Not Given is wrong because the two uses are compared.'}),
         ('Most national surveys now ask about satisfaction, happiness, '
          'anxiety and whether life feels ____________.', None,
          'worthwhile',

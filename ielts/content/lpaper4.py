@@ -130,23 +130,31 @@ LPAPER = dict(
        items=[
         ('The commonest reason a tenancy is ended is',
          ['neglect of the plot', 'failure to pay', 'an uncut hedge'], 2,
-         'He says explicitly that it is neither neglect nor non-payment.'),
+         'He says explicitly that it is neither neglect nor '
+         'non-payment.',
+         {0: 'Neglect is what listeners expect, and he rules it out.', 1: 'Non-payment is the other expectation, and he rules that '
+             'out too.'}),
         ('Hoses are forbidden because of',
-         ['a committee decision', 'a condition of the council lease',
-          'the cost of water'], 1,
-         'He stresses that this is not a committee preference.'),
+         ['a committee decision', 'a condition of the council lease', 'the cost of water'],
+         1, 'He stresses that this is not a committee preference.',
+         {0: 'A committee preference is exactly what he says it is '
+             'not.', 2: 'The cost of water is never mentioned as the reason.'}),
         ('Inspections take place',
          ['once a year', 'twice a year', 'four times a year'], 1,
-         'In June and in September, with twenty-eight days to put things '
-         'right.'),
+         'In June and in September, with twenty-eight days to put '
+         'things right.',
+         {0: 'Once a year would miss the September visit.', 2: 'Four times a year is more often than the two he names.'}),
         ('Bonfires are allowed',
-         ['all year after 4 p.m.', 'between November and February',
-          'only with permission'], 1,
-         'After four in the afternoon, and only of material from your own '
-         'plot.'),
+         ['all year after 4 p.m.', 'between November and February', 'only with permission'],
+         1,
+         'After four in the afternoon, and only of material from your '
+         'own plot.',
+         {0: 'All year would ignore the months he gives.', 2: 'Permission is not what he describes; the rule is about '
+             'time and material.'}),
         ('The shop does not sell', ['seed', 'compost', 'equipment'], 2,
-         'Seed, compost and canes only; he says not to come looking for a '
-         'spade.'),
+         'Seed, compost and canes only; he says not to come looking '
+         'for a spade.',
+         {0: 'Seed is one of the three things it does sell.', 1: 'Compost is also on the list he gives.'}),
         ('Standpipes are on from 1 April to 31 ____________.', None,
          'October', 'Seven months of the year, and hoses are forbidden throughout.'),
         ('____________ per cent of the plot must be cultivated.', None,
@@ -203,36 +211,45 @@ LPAPER = dict(
          'night.')],
        items=[
         ('What does the tutor say about their disagreement?',
-         ['Priya is right', 'Marcus is right',
-          'Both are arguing about time, not structure'], 2,
-         'He redirects them to what the presentation should leave behind.'),
+         ['Priya is right', 'Marcus is right', 'Both are arguing about time, not structure'],
+         2,
+         'He redirects them to what the presentation should leave '
+         'behind.',
+         {0: 'He does not rule for Priya.', 1: 'He does not rule for Marcus either.'}),
         ('How does he tell them to settle the opening?',
-         ['By timing both', 'By trying both on a friend',
-          'By asking the examiners'], 1,
-         'Keep the one that produces a question.'),
+         ['By timing both', 'By trying both on a friend', 'By asking the examiners'],
+         1, 'Keep the one that produces a question.',
+         {0: 'Timing both is not what he suggests.', 2: 'He does not send them to ask anybody.'}),
         ('Why does he tell them to swap the limitations?',
-         ['To balance the speaking time',
-          'So the person who chose the method states its limits',
-          'Because Marcus knows the method better'], 1,
-         'Otherwise Marcus will appear to be contradicting Priya.'),
-        ('How many charts does he recommend?',
-         ['One', 'Two', 'Four'], 1,
-         'A chart up for ninety seconds is a chart nobody reads.'),
+         ['To balance the speaking time', 'So the person who chose the method states its limits', 'Because Marcus knows the method better'],
+         1, 'Otherwise Marcus will appear to be contradicting Priya.',
+         {0: 'Balance of speaking time is not his reason.', 2: 'He is not protecting Marcus from the harder part.'}),
+        ('How many charts does he recommend?', ['One', 'Two', 'Four'],
+         1, 'A chart up for ninety seconds is a chart nobody reads.',
+         {0: 'One is fewer than he allows.', 2: 'Four is the number he warns against.'}),
         ('When does he want the slides?',
-         ['The night before', 'The Friday before', 'Three weeks before'], 1,
-         'He says he cannot usefully comment on something read at eleven at '
-         'night.'),
+         ['The night before', 'The Friday before', 'Three weeks before'],
+         1,
+         'He says he cannot usefully comment on something read at '
+         'eleven at night.',
+         {0: 'The night before is what he refuses.', 2: 'Three weeks is longer than he asks for.'}),
         ('Who will present the literature review?',
          ['Priya', 'Marcus', 'Both'], 0,
-         'She takes the literature and the method.'),
+         'She takes the literature and the method.',
+         {1: 'Marcus takes the case study.', 2: 'They do not share it.'}),
         ('Who will present the case study?',
          ['Priya', 'Marcus', 'Both'], 1,
-         'Along with, originally, the limitations.'),
-        ('Who will present the method?', ['Priya', 'Marcus', 'Both'], 0,
-         'Which is why the tutor moves the limitations to her as well.'),
-        ('Who will present the limitations after the tutor’s advice?',
+         'Along with, originally, the limitations.',
+         {0: 'Priya takes the literature and the method.', 2: 'It is not shared between them.'}),
+        ('Who will present the method?', ['Priya', 'Marcus', 'Both'],
+         0,
+         'Which is why the tutor moves the limitations to her as well.',
+         {1: 'Marcus does not take the method.', 2: 'The method is not shared.'}),
+        (
+         'Who will present the limitations after the tutor\u2019s advice?',
          ['Priya', 'Marcus', 'Both'], 0,
-         'The limitations of a method belong to whoever chose it.'),
+         'The limitations of a method belong to whoever chose it.',
+         {1: 'Marcus had them before the tutor spoke.', 2: 'They are not shared after the change.'}),
         ('The proposition the presentation must leave behind concerns '
          'published figures on ____________ distance.', None, 'commuting',
          'Priya states it when the tutor asks what the presentation is '
@@ -305,18 +322,22 @@ LPAPER = dict(
          'it.'),
         ('Phone data shows where a device went but not ____________.', None,
          'why', 'So a delivery driver and a commuter look the same.'),
-        ('Which group is least likely to be carrying a contract phone?',
+        (
+         'Which group is least likely to be carrying a contract phone?',
          ['Delivery drivers', 'Low-income travellers', 'Commuters'], 1,
-         'Which the lecturer calls the people policy is usually trying to '
-         'help.'),
+         'Which the lecturer calls the people policy is usually trying '
+         'to help.',
+         {0: 'Delivery drivers are carrying one constantly.', 2: 'Commuters are the best represented group of all.'}),
         ('After the bus lane, the loops showed crossings falling by',
          ['five per cent', 'eleven per cent', 'fifteen per cent'], 1,
          'While the phone data showed the same number of journeys '
-         'completed.'),
+         'completed.',
+         {0: 'Five per cent understates what the loops showed.', 2: 'Fifteen per cent overstates it.'}),
         ('The lecturer says the two results are',
          ['contradictory', 'both correct', 'both unreliable'], 1,
-         'They answer different questions, though the public argument treats '
-         'one side as lying.'),
+         'They answer different questions, though the public argument '
+         'treats one side as lying.',
+         {0: 'Contradictory is what the public argument assumes.', 2: 'He calls neither of them unreliable.'}),
         ('A city that counts journeys will tend to find that road schemes '
          '____________ traffic.', None, 'relocate',
          'Where a city counting crossings will find that they reduce it.'),

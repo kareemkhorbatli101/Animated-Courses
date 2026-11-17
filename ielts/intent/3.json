@@ -1,0 +1,14 @@
+{
+ "note": "Phase 3 - C1-1: a line for every wrong option on the 489 three-option items. Nothing else may change.",
+ "items": [
+  "*"
+ ],
+ "item_fields": [
+  "wrongs"
+ ],
+ "texts": [],
+ "new_items": false,
+ "heads": false,
+ "measure": {},
+ "figures": {}
+}

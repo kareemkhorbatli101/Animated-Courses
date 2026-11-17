@@ -684,14 +684,20 @@ UNIT = dict(
          items=[
           ('Which paragraph explains why families used to lose touch?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 0,
-           'The cost was higher than anybody could carry.'),
-          ('Which paragraph says the change helped poorer families '
+           'The cost was higher than anybody could carry.',
+           {1: 'Paragraph 2 is about who gained most from the change.', 2: 'Paragraph 3 is about a problem that is new.'}),
+          (
+           'Which paragraph says the change helped poorer families '
            'most?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 1,
-           'A rich family could always afford to visit.'),
+           'A rich family could always afford to visit.',
+           {0: 'Paragraph 1 is about the old cost, before the change.', 2: 'Paragraph 3 is about what the change cost, not what it '
+               'gave.'}),
           ('Which paragraph describes a new problem?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 2,
-           'People argue in writing, where nothing is forgotten.'),
+           'People argue in writing, where nothing is forgotten.',
+           {0: 'Paragraph 1 describes the old problem, which was '
+               'money.', 1: 'Paragraph 2 describes a gain rather than a problem.'}),
           ('A letter took ____________ weeks each way.', None, 'six',
            'Paragraph 1, and a translation cost money.'),
           ('What accumulates now is ordinary ____________.', None,

@@ -353,14 +353,20 @@ UNIT = dict(
           ('Which person changed their mind after a visit?',
            ['Teodora', 'Nnamdi', 'Isolde', 'Pavel'], 3,
            'Within an hour of an open day, because of the students.'),
-          ('Isolde believes her teacher should not have been the deciding '
-           'factor.', ['Yes', 'No', 'Not Given'], 0,
+          (
+           'Isolde believes her teacher should not have been the '
+           'deciding factor.', ['Yes', 'No', 'Not Given'], 0,
            'She says it should not have depended on one teacher having '
-           'time.'),
+           'time.',
+           {1: 'No would need her to accept it; she says it should not '
+               'have depended on one teacher.', 2: 'Not Given is wrong because she judges the arrangement.'}),
           ('Nnamdi regrets the university he chose.',
            ['Yes', 'No', 'Not Given'], 2,
-           'He regrets his method of choosing; he never says the place was '
-           'wrong.')])],
+           'He regrets his method of choosing; he never says the place '
+           'was wrong.',
+           {0: 'Yes would need regret about the place; his regret is '
+               'about the method.', 1: 'No would need him to defend the choice, which he never '
+               'does.'})])],
    listen=[
     dict(heading='A short talk: who gets in', part='Part 2',
          task='A talk at a parents’ evening', band='l2',
@@ -904,11 +910,17 @@ UNIT = dict(
            'Performance in an unfamiliar setting with an unfamiliar adult.'),
           ('The writer believes early differences do not matter.',
            ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says they predict later results robustly.'),
+           'The final paragraph says they predict later results '
+           'robustly.',
+           {0: 'Yes would need them not to matter; the final paragraph '
+               'says they predict robustly.', 2: 'Not Given is wrong because the writer weighs their '
+               'importance.'}),
           ('The writer believes fade-out proves such programmes fail.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 6 calls that reading too quick and offers an '
-           'alternative.'),
+           'alternative.',
+           {0: 'Yes would need proof of failure; paragraph 6 calls '
+               'that reading too quick.', 2: 'Not Given is wrong because fade-out is interpreted.'}),
           ('What predicts early language is not income but the quantity and '
            'kind of ____________ directed at a child.', None, 'talk',
            'Paragraph 3, which holds within income groups as well as '
@@ -1154,12 +1166,18 @@ UNIT = dict(
            'parents.'),
           ('The writer believes the original results were a fluke.',
            ['Yes', 'No', 'Not Given'], 1,
-           'The last paragraph says the argument denies the sceptics exactly '
-           'that claim.'),
+           'The last paragraph says the argument denies the sceptics '
+           'exactly that claim.',
+           {0: 'Yes would need a fluke; the argument is built to deny '
+               'the sceptics that.', 2: 'Not Given is wrong because the writer answers the '
+               'fluke objection.'}),
           ('The writer believes the question has one general answer.',
            ['Yes', 'No', 'Not Given'], 1,
-           'The final sentence says it has no general answer, because it '
-           'depends on the alternative.'),
+           'The final sentence says it has no general answer, because '
+           'it depends on the alternative.',
+           {0: 'Yes would need generality; the final sentence says it '
+               'depends on the alternative.', 2: 'Not Given is wrong because the writer says what kind '
+               'of answer exists.'}),
           ('In the third study, the intensive arm reproduced about '
            '____________ of the original effect.', None, 'two thirds',
            'Paragraph 4, where the diluted arm reproduced almost none.'),

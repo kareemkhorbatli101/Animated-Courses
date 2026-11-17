@@ -324,10 +324,17 @@ UNIT = dict(
            'Four beginner’s levels and no intermediate one.'),
           ('Ingeborg believes classroom study is a waste of time.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says the opposite, explicitly.'),
-          ('Marguerite’s husband thinks correcting her would be '
+           'She says the opposite, explicitly.',
+           {0: 'Yes would need dismissal; she argues the opposite '
+               'explicitly.', 2: 'Not Given is wrong because she states her view of '
+               'classroom study.'}),
+          (
+           'Marguerite\u2019s husband thinks correcting her would be '
            'impolite.', ['Yes', 'No', 'Not Given'], 0,
-           'She reports that he says it would be rude.')])],
+           'She reports that he says it would be rude.',
+           {1: 'No would need him to think correction proper; she '
+               'reports the opposite.', 2: 'Not Given is wrong because she reports what he says '
+               'about it.'})])],
    listen=[
     dict(heading='A teacher on adult learners', part='Part 2',
          task='A talk to new language teachers', band='l2',
@@ -869,14 +876,22 @@ UNIT = dict(
             'supported', 'How languages are counted',
             'Bilingualism'], 1,
            'Oral literature, local knowledge and identity.'),
-          ('The writer believes the strongest claim about lost ways of '
+          (
+           'The writer believes the strongest claim about lost ways of '
            'thinking is well supported.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 6 says it is not well supported and most '
-           'repeated.'),
-          ('The writer believes a ban is the usual way the process '
+           'repeated.',
+           {0: 'Yes would need support; paragraph 6 calls it the least '
+               'supported.', 2: 'Not Given is wrong because the writer ranks the claims '
+               'by evidence.'}),
+          (
+           'The writer believes a ban is the usual way the process '
            'begins.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 says it rarely begins with a ban.'),
+           'Paragraph 2 says it rarely begins with a ban.',
+           {0: 'Yes would need bans to be usual; paragraph 2 says they '
+               'rarely begin it.', 2: 'Not Given is wrong because how the process begins is '
+               'described.'}),
           ('The process usually begins when the smaller language becomes '
            '____________ for something.', None, 'useless',
            'Paragraph 2: a job, a market, a school.'),
@@ -1124,12 +1139,21 @@ UNIT = dict(
            ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
             'Paragraph 7'], 2,
            'Different projects requiring different instruments.'),
-          ('The writer believes Irish has failed because of insufficient '
-           'support.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 4 says the opposite explicitly.'),
-          ('The writer believes documentation should be funded '
+          (
+           'The writer believes Irish has failed because of '
+           'insufficient support.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 4 says the opposite explicitly.',
+           {0: 'Yes would need underfunding as the cause; paragraph 4 '
+               'denies it.', 2: 'Not Given is wrong because the Irish case is '
+               'explained.'}),
+          (
+           'The writer believes documentation should be funded '
            'everywhere.', ['Yes', 'No', 'Not Given'], 0,
-           'The final paragraph, because it cannot fail.'),
+           'The final paragraph, because it cannot fail.',
+           {1: 'No would need opposition; the final paragraph '
+               'recommends it.', 2: 'Not Given is wrong because the writer states what '
+               'documentation can achieve.'}),
           ('In the successful case, the revived language solved an '
            'immediate practical ____________.', None, 'problem',
            'Paragraph 2: a population with no shared language.'),

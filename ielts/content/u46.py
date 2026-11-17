@@ -426,13 +426,19 @@ UNIT = dict(
            'position?', ['Ottilie', 'Ferdinand', 'Beatriz',
             'Casimir'], 3,
            'The link road that removed four thousand lorries.'),
-          ('Ferdinand believes his team should have kept fewer records.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'He reports colleagues drawing that lesson and does not endorse '
-           'it.'),
+          (
+           'Ferdinand believes his team should have kept fewer '
+           'records.', ['Yes', 'No', 'Not Given'], 1,
+           'He reports colleagues drawing that lesson and does not '
+           'endorse it.',
+           {0: 'Yes would need endorsement; he reports colleagues '
+               'drawing that lesson.', 2: 'Not Given is wrong because he says what he makes of '
+               'it.'}),
           ('Beatriz is confident that her change was a good thing.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says she is still not sure whether to be pleased.')])],
+           'She says she is still not sure whether to be pleased.',
+           {0: 'Yes would need confidence; she says she is still not '
+               'sure.', 2: 'Not Given is wrong because she states her uncertainty.'})])],
    listen=[
     dict(heading='Two officers disagree about priorities', part='Part 3',
          task='A conversation between two council officers', band='l3',
@@ -1005,14 +1011,20 @@ UNIT = dict(
             'The limitation of publication', 'Horizon mismatch'], 2,
            'Better-documented decline where there is no money to '
            'reallocate.'),
-          ('The writer believes backlogs are caused mainly by '
+          (
+           'The writer believes backlogs are caused mainly by '
            'incompetence.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 says a phenomenon that general is unlikely to be '
-           'explained that way.'),
-          ('The writer believes publication of condition solves the '
+           'Paragraph 1 says a phenomenon that general is unlikely to '
+           'be explained that way.',
+           {0: 'Yes would need incompetence; paragraph 1 rejects it '
+               'for a general phenomenon.', 2: 'Not Given is wrong because the causes are discussed.'}),
+          (
+           'The writer believes publication of condition solves the '
            'problem.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 9 says it does nothing where there is no money to '
-           'reallocate.'),
+           'Paragraph 9 says it does nothing where there is no money '
+           'to reallocate.',
+           {0: 'Yes would need a solution; paragraph 9 names where it '
+               'does nothing.', 2: 'Not Given is wrong because publication is evaluated.'}),
           ('Maintenance is classified as ____________ and competes with '
            'salaries in an annual budget.', None, 'revenue',
            'Paragraph 3, whereas construction is capital.'),
@@ -1322,11 +1334,18 @@ UNIT = dict(
            'Deferral became legible inside the organisation.'),
           ('The writer believes the first rule was broken.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 reports complete compliance in every year.'),
-          ('The writer believes transparency is generally preferable to '
-           'regulation.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says it would be wrong to read the argument '
-           'that way.'),
+           'Paragraph 2 reports complete compliance in every year.',
+           {0: 'Yes would need a breach; paragraph 2 reports complete '
+               'compliance.', 2: 'Not Given is wrong because compliance is reported year '
+               'by year.'}),
+          (
+           'The writer believes transparency is generally preferable '
+           'to regulation.', ['Yes', 'No', 'Not Given'], 1,
+           'The final paragraph says it would be wrong to read the '
+           'argument that way.',
+           {0: 'Yes would need that preference; the final paragraph '
+               'warns against reading it so.', 2: 'Not Given is wrong because the writer says how not to '
+               'read him.'}),
           ('Under the first rule the backlog grew by ____________ per '
            'cent.', None, 'sixty',
            'Paragraph 2, while compliance was complete throughout.'),

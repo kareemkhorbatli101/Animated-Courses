@@ -419,11 +419,15 @@ UNIT = dict(
           ('Rosamund believes the suppliers are acting unlawfully.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says it is not a cartel and nobody is doing anything '
-           'wrong.'),
+           'wrong.',
+           {0: 'Yes would need unlawfulness; she says nobody is doing '
+               'anything wrong.', 2: 'Not Given is wrong because she judges their conduct.'}),
           ('Thaddeus has calculated the saving available to him.',
            ['Yes', 'No', 'Not Given'], 0,
            'He gives it as sixty pounds a year against the costs '
-           'involved.')])],
+           'involved.',
+           {1: 'No would need no calculation; he gives sixty pounds a '
+               'year.', 2: 'Not Given is wrong because the figure is his own.'})])],
    listen=[
     dict(heading='Two regulators disagree about competition',
          part='Part 3', task='A conversation between two regulators',
@@ -1012,12 +1016,20 @@ UNIT = dict(
             'The honest conclusion', 'Blood donation'], 1,
            'Crowding out is a minority finding and norm conversion needs a '
            'strong norm.'),
-          ('The writer believes crowding out occurs in most cases '
+          (
+           'The writer believes crowding out occurs in most cases '
            'studied.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 3 reports it in roughly a third of cases.'),
-          ('The writer believes the conceptual objection applies widely.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 says it applies to a very small number of goods.'),
+           'Paragraph 3 reports it in roughly a third of cases.',
+           {0: 'Yes would need most; paragraph 3 reports about a '
+               'third.', 2: 'Not Given is wrong because the frequency is given.'}),
+          (
+           'The writer believes the conceptual objection applies '
+           'widely.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 7 says it applies to a very small number of '
+           'goods.',
+           {0: 'Yes would need wide application; paragraph 7 says very '
+               'few goods.', 2: 'Not Given is wrong because the objection\u2019s reach is '
+               'stated.'}),
           ('An extrinsic reward displacing an intrinsic one is called '
            '____________ out.', None, 'crowding',
            'Paragraph 3, found in roughly a third of controlled studies.'),
@@ -1321,14 +1333,24 @@ UNIT = dict(
            ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',
             'Paragraph 10'], 2,
            'Supply, alternatives, constitution and external cost.'),
-          ('The writer believes the strong objection reaches the wrong '
+          (
+           'The writer believes the strong objection reaches the wrong '
            'conclusion about selling votes.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 says the application to votes is widely accepted.'),
-          ('The writer believes moral intuitions about particular cases are '
-           'worthless.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 8 calls them often more reliable than the principles '
-           'built afterwards.'),
+           'Paragraph 2 says the application to votes is widely '
+           'accepted.',
+           {0: 'Yes would need error on votes; paragraph 2 says that '
+               'application is accepted.', 2: 'Not Given is wrong because votes are the worked '
+               'example.'}),
+          (
+           'The writer believes moral intuitions about particular '
+           'cases are worthless.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 8 calls them often more reliable than the '
+           'principles built afterwards.',
+           {0: 'Yes would need worthlessness; paragraph 8 calls them '
+               'often more reliable.', 2: 'Not Given is wrong because intuitions are rated '
+               'against principles.'}),
           ('The empirical line does not reach the cases its proponents care '
            'about because paid organ markets would ____________ supply.',
            None, 'increase',

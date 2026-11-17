@@ -718,16 +718,24 @@ UNIT = dict(
           'said it plainly: confusion is not a side effect of a bad '
           'offer, it is the product being sold.'],
          items=[
-          ('Which paragraph explains why a false offer is usually '
+          (
+           'Which paragraph explains why a false offer is usually '
            'legal?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 0,
-           'A true price arranged to mislead.'),
+           'A true price arranged to mislead.',
+           {1: 'Paragraph 2 gives the feature every fake message '
+               'shares.', 2: 'Paragraph 3 is the defence, not the explanation.'}),
           ('Which paragraph gives one feature every fake message has?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 1,
-           'A reason why you must act now.'),
+           'A reason why you must act now.',
+           {0: 'Paragraph 1 is about prices that are true but '
+               'arranged.', 2: 'Paragraph 3 tells you what to do rather than what to '
+               'notice.'}),
           ('Which paragraph gives the defence?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 2,
-           'Go to the page yourself; check two shops.'),
+           'Go to the page yourself; check two shops.',
+           {0: 'Paragraph 1 explains the trick; it does not answer it.', 1: 'Paragraph 2 names the warning sign, which is not yet a '
+               'defence.'}),
           ('A price is often raised for ____________ weeks before it is '
            'cut.', None, 'six',
            'Paragraph 1, which makes the cut meaningless.'),

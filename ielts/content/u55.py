@@ -355,12 +355,18 @@ UNIT = dict(
            'outside?', ['Thaddeus', 'Marguerite', 'Hieronymus',
             'Perpetua'], 3,
            'One did something and the other did not.'),
-          ('Thaddeus believes he bears no responsibility for the '
+          (
+           'Thaddeus believes he bears no responsibility for the '
            'collapse.', ['Yes', 'No', 'Not Given'], 1,
-           'He says he was part of it while not being its villain.'),
-          ('Marguerite attributes her fishery’s recovery to the character '
-           'of its fleet.', ['Yes', 'No', 'Not Given'], 1,
-           'She credits the observers rather than being better people.')])],
+           'He says he was part of it while not being its villain.',
+           {0: 'Yes would need exemption; he says he was part of it.', 2: 'Not Given is wrong because he places himself in the '
+               'story.'}),
+          (
+           'Marguerite attributes her fishery\u2019s recovery to the '
+           'character of its fleet.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'She credits the observers rather than being better people.',
+           {0: 'Yes would need character; she credits the observers.', 2: 'Not Given is wrong because she gives the cause.'})])],
    listen=[
     dict(heading='A short talk: when everyone acts alone', part='Part 2',
          task='A talk to an environmental policy group', band='l2',
@@ -1030,14 +1036,21 @@ UNIT = dict(
            ['The nesting condition', 'What kind of finding this is',
             'The policy record', 'The original achievement'], 1,
            'A description of survivors, not a demonstration of cause.'),
-          ('The writer believes ownership is one of the eight features.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 says ownership does not appear.'),
-          ('The writer believes the original researcher confused '
+          (
+           'The writer believes ownership is one of the eight '
+           'features.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 5 says ownership does not appear.',
+           {0: 'Yes would need ownership on the list; paragraph 5 says '
+               'it is absent.', 2: 'Not Given is wrong because the list is enumerated.'}),
+          (
+           'The writer believes the original researcher confused '
            'description with prescription.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 10 says the author was consistently careful and the '
-           'later literature was not.'),
+           'Paragraph 10 says the author was consistently careful and '
+           'the later literature was not.',
+           {0: 'Yes would need the confusion; paragraph 10 says the '
+               'author was careful.', 2: 'Not Given is wrong because the writer separates author '
+               'from literature.'}),
           ('In the successful cases, monitoring was made a rotating paid '
            '____________ rather than a civic duty.', None, 'office',
            'Paragraph 7, answering the objection about reporting '
@@ -1376,13 +1389,21 @@ UNIT = dict(
            ['Paragraph 9', 'Paragraph 10', 'Paragraph 11',
             'Paragraph 12'], 1,
            'A proposal to find existing attempts and remove obstacles.'),
-          ('The writer believes the three cases establish the pattern '
+          (
+           'The writer believes the three cases establish the pattern '
            'firmly.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 5 says three cases support little and urges '
-           'caution.'),
-          ('The writer believes collective governance is worse than the '
-           'alternatives.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 11 says none of this bears on that question.'),
+           'caution.',
+           {0: 'Yes would need firmness; paragraph 5 says three cases '
+               'support little.', 2: 'Not Given is wrong because the strength of the '
+               'evidence is stated.'}),
+          (
+           'The writer believes collective governance is worse than '
+           'the alternatives.', ['Yes', 'No', 'Not Given'],
+           1, 'Paragraph 11 says none of this bears on that question.',
+           {0: 'Yes would need a comparison; paragraph 11 says none of '
+               'this bears on it.', 2: 'Not Given is wrong because the writer says what his '
+               'argument does not settle.'}),
           ('The second project describes its contribution as removing an '
            'external ____________ obstacle.', None, 'legal',
            'Paragraph 3, the seventh of the eight conditions.'),

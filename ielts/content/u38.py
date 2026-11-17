@@ -371,12 +371,18 @@ UNIT = dict(
            'Could transform public health advice.'),
           ('The Chronicle states that coffee reduces heart disease.',
            ['Yes', 'No', 'Not Given'], 1,
-           'It reports an association and says explicitly that causation '
-           'cannot be shown.'),
+           'It reports an association and says explicitly that '
+           'causation cannot be shown.',
+           {0: 'Yes would need a causal claim; it reports an '
+               'association and denies causation.', 2: 'Not Given is wrong because the Chronicle\u2019s wording is '
+               'given.'}),
           ('The Gazette gives the adjusted figure.',
            ['Yes', 'No', 'Not Given'], 1,
-           'It gives only the twenty-five per cent difference, which is the '
-           'unadjusted one.')])],
+           'It gives only the twenty-five per cent difference, which '
+           'is the unadjusted one.',
+           {0: 'Yes would need the adjusted one; it gives the '
+               'twenty-five per cent difference.', 2: 'Not Given is wrong because the figure it prints is '
+               'quoted.'})])],
    listen=[
     dict(heading='A short talk: reading a claim', part='Part 2',
          task='A talk on reading science reporting', band='l2',
@@ -969,14 +975,21 @@ UNIT = dict(
             'The honest summary', 'How publication bias works'], 1,
            'A repetition may fail because it differed in a way that '
            'matters.'),
-          ('The writer believes most published findings are fabricated.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5: a failed replication usually indicates an overstated '
-           'real effect, not a false one.'),
-          ('The writer believes the reforms adopted are the right ones.',
-           ['Yes', 'No', 'Not Given'], 0,
-           'Paragraph 6 says the remedy for badly measured real effects is '
-           'exactly what the fields have adopted.'),
+          (
+           'The writer believes most published findings are '
+           'fabricated.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 5: a failed replication usually indicates an '
+           'overstated real effect, not a false one.',
+           {0: 'Yes would need fabrication; paragraph 5 says the '
+               'effects are overstated, not invented.', 2: 'Not Given is wrong because the writer explains what a '
+               'failed repeat means.'}),
+          (
+           'The writer believes the reforms adopted are the right '
+           'ones.', ['Yes', 'No', 'Not Given'], 0,
+           'Paragraph 6 says the remedy for badly measured real '
+           'effects is exactly what the fields have adopted.',
+           {1: 'No would need criticism; paragraph 6 matches the '
+               'remedy to the diagnosis.', 2: 'Not Given is wrong because the reforms are judged.'}),
           ('About ____________ in ten psychology repetitions produced the '
            'original result.', None, 'four',
            'Paragraph 1, with fewer in cancer biology.'),
@@ -1255,14 +1268,22 @@ UNIT = dict(
             'Paragraph 8'], 2,
            'Paragraph 7: schools at both extremes, pre-specified comparison, '
            'powered for the difference.'),
-          ('The writer believes the original finding has been shown to be '
-           'false.', ['Yes', 'No', 'Not Given'], 1,
-           'The whole passage argues the question is still open and resists '
-           'every easy reading.'),
-          ('The writer believes the decisive study is unlikely to be '
+          (
+           'The writer believes the original finding has been shown to '
+           'be false.', ['Yes', 'No', 'Not Given'], 1,
+           'The whole passage argues the question is still open and '
+           'resists every easy reading.',
+           {0: 'Yes would need falsity; the passage keeps the question '
+               'open.', 2: 'Not Given is wrong because the status of the finding '
+               'is discussed throughout.'}),
+          (
+           'The writer believes the decisive study is unlikely to be '
            'conducted.', ['Yes', 'No', 'Not Given'], 0,
-           'Paragraph 7: it is expensive and nobody’s career is advanced by '
-           'running it, which is why it has not been run.'),
+           'Paragraph 7: it is expensive and nobody\u2019s career is '
+           'advanced by running it, which is why it has not been run.',
+           {1: 'No would need optimism; paragraph 7 explains why '
+               'nobody runs it.', 2: 'Not Given is wrong because the prospects for the study '
+               'are given.'}),
           ('In what year did the original authors publish the prediction '
            'about severity?', None, '2011',
            'Paragraph 4, before the replication was designed.'),

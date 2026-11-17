@@ -840,10 +840,12 @@ UNIT = dict(
            'Paragraph 1, too small to live in.'),
           ('A group in a small piece breeds only with ____________.',
            None, 'itself', 'Paragraph 2, and cannot be replaced.'),
-          ('Which paragraph explains change inside a habitat that '
+          (
+           'Which paragraph explains change inside a habitat that '
            'looks the same?',
            ['Paragraph 2', 'Paragraph 4', 'Paragraph 3'], 2,
-           'Autumn ploughing removes winter stubble.'),
+           'Autumn ploughing removes winter stubble.',
+           {0: 'Paragraph 2 is about habitat that is removed outright.', 1: 'Paragraph 4 is about what counting cannot see.'}),
           ('____________ from farmland changes a river without '
            'removing it.', None, 'Run-off',
            'Paragraph 3, and the photographs look identical.'),

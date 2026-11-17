@@ -326,10 +326,16 @@ UNIT = dict(
            'Thirteen years at sixty-eight.'),
           ('Ptolemy regrets having the work done.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He says he did it anyway and would do it for the house.'),
+           'He says he did it anyway and would do it for the house.',
+           {0: 'Yes would need regret; he says he would do it again '
+               'for the house.', 2: 'Not Given is wrong because he says how he feels about '
+               'it now.'}),
           ('Rasmus is unhappy that his bill rose.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He says he would make the same choice again.')])],
+           'He says he would make the same choice again.',
+           {0: 'Yes would need unhappiness; he says he would choose '
+               'the same again.', 2: 'Not Given is wrong because he comments on the higher '
+               'bill.'})])],
    listen=[
     dict(heading='An adviser on insulation', part='Part 2',
          task='A talk at a community energy advice session', band='l2',
@@ -864,16 +870,24 @@ UNIT = dict(
            ['Storage', 'Building more than is needed',
             'Forecasting', 'Demand prediction'], 1,
            'Which produces output nobody can use on good days.'),
-          ('The writer believes the main difficulty with wind is that its '
-           'output is unpredictable.', ['Yes', 'No', 'Not Given'], 1,
+          (
+           'The writer believes the main difficulty with wind is that '
+           'its output is unpredictable.',
+           ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 3 says forecasting is good and that is not the '
-           'difficulty.'),
+           'difficulty.',
+           {0: 'Yes would need unpredictability; paragraph 3 says '
+               'forecasting is good.', 2: 'Not Given is wrong because the real difficulty is '
+               'named.'}),
           (
            'The writer believes these difficulties are an argument '
            'against building wind and solar.',
            ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph calls them an argument for planning, '
-           'not against building.'),
+           'not against building.',
+           {0: 'Yes would need opposition; the final paragraph calls '
+               'them an argument for planning.', 2: 'Not Given is wrong because the writer says what the '
+               'difficulties argue for.'}),
           ('Supply and demand on a grid are matched ____________ by '
            'second.', None, 'second',
            'Paragraph 1, from which everything else follows.'),
@@ -1117,13 +1131,20 @@ UNIT = dict(
             'Paragraph 7'], 2,
            'Adding wind can reduce or raise costs depending on the '
            'system.'),
-          ('The writer believes the cost-per-unit figure is calculated '
+          (
+           'The writer believes the cost-per-unit figure is calculated '
            'incorrectly.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 2 calls it a sound and widely published '
-           'measure.'),
-          ('The writer believes both halves of the honest claim are '
-           'supported by evidence.', ['Yes', 'No', 'Not Given'], 0,
-           'The final paragraph states this directly.'),
+           'Paragraph 2 calls it a sound and widely published measure.',
+           {0: 'Yes would need an error; paragraph 2 calls the measure '
+               'sound.', 2: 'Not Given is wrong because the figure is examined.'}),
+          (
+           'The writer believes both halves of the honest claim are '
+           'supported by evidence.',
+           ['Yes', 'No', 'Not Given'], 0,
+           'The final paragraph states this directly.',
+           {1: 'No would need a contradiction; the final paragraph '
+               'states it.', 2: 'Not Given is wrong because the writer tests both '
+               'halves.'}),
           ('The published figure is calculated by dividing everything a '
            'station costs over its ____________ by everything it '
            'produces.', None, 'life',

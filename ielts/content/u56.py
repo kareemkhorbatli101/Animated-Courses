@@ -368,12 +368,20 @@ UNIT = dict(
            'incompatibly?',
            ['Hieronymus', 'Perpetua', 'Thaddeus', 'Winifred'], 3,
            'Four occasions in thirty years.'),
-          ('Hieronymus and Perpetua disagree about what is present in the '
-           'work.', ['Yes', 'No', 'Not Given'], 1,
-           'Perpetua says they agree about almost everything in it.'),
-          ('Thaddeus believes agreement among the judges is strong '
-           'evidence of quality.', ['Yes', 'No', 'Not Given'], 1,
-           'He says he has stopped claiming it means much.')])],
+          (
+           'Hieronymus and Perpetua disagree about what is present in '
+           'the work.', ['Yes', 'No', 'Not Given'], 1,
+           'Perpetua says they agree about almost everything in it.',
+           {0: 'Yes would need disagreement; Perpetua says they agree '
+               'about almost everything.', 2: 'Not Given is wrong because the extent of agreement is '
+               'stated.'}),
+          (
+           'Thaddeus believes agreement among the judges is strong '
+           'evidence of quality.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'He says he has stopped claiming it means much.',
+           {0: 'Yes would need strength; he says he has stopped '
+               'claiming it means much.', 2: 'Not Given is wrong because he rates the agreement.'})])],
    listen=[
     dict(heading='A short talk: agreeing about quality', part='Part 2',
          task='A talk at a cultural policy seminar', band='l2',
@@ -1048,14 +1056,21 @@ UNIT = dict(
             'Expertise in perception', 'The practical consequence'], 1,
            'Whether trained judgement predicts anything independent of '
            'itself.'),
-          ('The writer believes judges usually disagree about what is '
-           'present in a work.', ['Yes', 'No', 'Not Given'], 1,
+          (
+           'The writer believes judges usually disagree about what is '
+           'present in a work.', ['Yes', 'No', 'Not Given'],
+           1,
            'Paragraph 2: four occasions in thirty years out of several '
-           'thousand assessments.'),
-          ('The writer believes high inter-rater agreement establishes '
+           'thousand assessments.',
+           {0: 'Yes would need usual disagreement; paragraph 2 gives '
+               'four occasions in thirty years.', 2: 'Not Given is wrong because the frequency is counted.'}),
+          (
+           'The writer believes high inter-rater agreement establishes '
            'expertise.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 7 says the critic can accept the figure without '
-           'conceding anything.'),
+           'conceding anything.',
+           {0: 'Yes would need establishment; paragraph 7 says the '
+               'critic can accept the figure.', 2: 'Not Given is wrong because the inference is examined.'}),
           ('Two engineers may agree about a bridge and differ on weighing '
            'cost against ____________.', None, 'redundancy',
            'Paragraph 3, the parallel the argument turns on.'),
@@ -1394,13 +1409,21 @@ UNIT = dict(
             'Paragraph 12'], 1,
            'Whether a standard exists, can be written, and can be '
            'taught.'),
-          ('The writer believes the arbitrary interpretation is '
+          (
+           'The writer believes the arbitrary interpretation is '
            'correct.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 9 says it is too strong.'),
-          ('The writer believes a standard that cannot be written down '
-           'can still be transmitted.', ['Yes', 'No', 'Not Given'], 0,
+           'Paragraph 9 says it is too strong.',
+           {0: 'Yes would need correctness; paragraph 9 calls it too '
+               'strong.', 2: 'Not Given is wrong because the interpretation is '
+               'rated.'}),
+          (
+           'The writer believes a standard that cannot be written down '
+           'can still be transmitted.',
+           ['Yes', 'No', 'Not Given'], 0,
            'Paragraph 11: by apprenticeship, worked examples and many '
-           'cases with feedback.'),
+           'cases with feedback.',
+           {1: 'No would need transmission to fail; paragraph 11 gives '
+               'three ways it succeeds.', 2: 'Not Given is wrong because transmission is described.'}),
           ('Wine expertise predicts region identification above chance and '
            'fails at predicting price or later ____________.', None,
            'reputation',

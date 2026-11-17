@@ -384,10 +384,13 @@ UNIT = dict(
           ('Benedetta believes her practice was worthless.',
            ['Yes', 'No', 'Not Given'], 1,
            'She says it raised her speed at a particular kind of '
-           'question.'),
+           'question.',
+           {0: 'Yes would need worthlessness; she says it raised her '
+               'speed on one kind of question.', 2: 'Not Given is wrong because she says what it did.'}),
           ('Thandeka believes one of the two approaches is a trick.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says students want to hear that and neither is.')])],
+           'She says students want to hear that and neither is.',
+           {0: 'Yes would need a trick; she says neither is.', 2: 'Not Given is wrong because she rates both.'})])],
    listen=[
     dict(heading='A short talk: preparing and what it does', part='Part 2',
          task='A talk to a class beginning a course', band='l2',
@@ -1032,13 +1035,20 @@ UNIT = dict(
             'What the error of measurement means for a cut-off',
             'Washback'], 2,
            'A 7.0 requirement rejecting a candidate reported at 6.5.'),
-          ('The writer believes a test can be described as valid in '
+          (
+           'The writer believes a test can be described as valid in '
            'itself.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1: validity is a property of an inference.'),
-          ('The writer believes a correlation of 0.4 shows the test to be '
-           'worthless.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 1: validity is a property of an inference.',
+           {0: 'Yes would need validity in the test; paragraph 1 puts '
+               'it in the inference.', 2: 'Not Given is wrong because validity is defined.'}),
+          (
+           'The writer believes a correlation of 0.4 shows the test to '
+           'be worthless.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 7 calls it informative rather than '
-           'disappointing.'),
+           'disappointing.',
+           {0: 'Yes would need worthlessness; paragraph 7 calls the '
+               'figure informative.', 2: 'Not Given is wrong because the correlation is '
+               'interpreted.'}),
           ('The ability a test intends to measure is called the '
            '____________.', None, 'construct',
            'Paragraph 2, named as the first step in validation.'),
@@ -1371,14 +1381,19 @@ UNIT = dict(
            ['Paragraph 7', 'Paragraph 8', 'Paragraph 9',
             'Paragraph 10'], 1,
            'Explicit criteria with unannounced tasks.'),
-          ('The writer believes teaching to the test is caused by '
+          (
+           'The writer believes teaching to the test is caused by '
            'cynicism.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 calls it rational behaviour by everyone '
-           'involved.'),
-          ('The writer believes publishing detailed criteria has no '
+           'involved.',
+           {0: 'Yes would need cynicism; paragraph 2 calls the '
+               'behaviour rational.', 2: 'Not Given is wrong because the cause is given.'}),
+          (
+           'The writer believes publishing detailed criteria has no '
            'drawbacks.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 6: it tells preparers the minimum sufficient '
-           'performance.'),
+           'performance.',
+           {0: 'Yes would need none; paragraph 6 names the drawback.', 2: 'Not Given is wrong because publication is assessed.'}),
           ('Where a writing task can be satisfied by a learnable '
            '____________, teaching converges on it.', None,
            'shape',

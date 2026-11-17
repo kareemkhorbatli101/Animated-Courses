@@ -396,10 +396,15 @@ UNIT = dict(
           ('Mirembe wants recommendation systems to be banned.',
            ['Yes', 'No', 'Not Given'], 2,
            'She objects to a pretence, and says nothing about banning '
-           'anything.'),
+           'anything.',
+           {0: 'Yes would need a ban; she objects to a pretence '
+               'instead.', 1: 'No would need her to defend the systems, which she '
+               'does not.'}),
           ('Ndidi has changed the settings on the system she uses.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says she can change any setting and never does.')])],
+           'She says she can change any setting and never does.',
+           {0: 'Yes would need a change; she says she never does.', 2: 'Not Given is wrong because she says what she does with '
+               'the settings.'})])],
    listen=[
     dict(heading='Two designers disagree about defaults', part='Part 3',
          task='A product meeting', band='l3', qtype='Questions 25-29',
@@ -940,11 +945,20 @@ UNIT = dict(
            'No finite list of groups can be certified.'),
           ('The writer believes fairness is a meaningless idea.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 states explicitly that this is not the conclusion.'),
-          ('The writer believes publishing source code is the best form of '
-           'transparency.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 argues that publishing the criterion in a sentence is '
-           'more useful.'),
+           'Paragraph 6 states explicitly that this is not the '
+           'conclusion.',
+           {0: 'Yes would need meaninglessness; paragraph 6 denies '
+               'that conclusion.', 2: 'Not Given is wrong because the writer says what the '
+               'impossibility does not show.'}),
+          (
+           'The writer believes publishing source code is the best '
+           'form of transparency.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 7 argues that publishing the criterion in a '
+           'sentence is more useful.',
+           {0: 'Yes would need code to win; paragraph 7 prefers the '
+               'criterion in a sentence.', 2: 'Not Given is wrong because forms of transparency are '
+               'compared.'}),
           ('The first definition discussed is ____________.', None,
            'calibration',
            'Paragraph 2: a score meaning the same thing for everybody.'),
@@ -1241,11 +1255,17 @@ UNIT = dict(
            'unexplained systems in production.'),
           ('The writer believes audits should be abandoned.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 says explicitly that none of this means audits are '
-           'worthless.'),
-          ('The writer believes the gaming objection is without merit.',
+           'Paragraph 5 says explicitly that none of this means audits '
+           'are worthless.',
+           {0: 'Yes would need abandonment; paragraph 5 says audits '
+               'are not worthless.', 2: 'Not Given is wrong because the writer states what '
+               'audits can do.'}),
+          (
+           'The writer believes the gaming objection is without merit.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 8 calls it a real objection before limiting it.'),
+           'Paragraph 8 calls it a real objection before limiting it.',
+           {0: 'Yes would need dismissal; paragraph 8 calls it real '
+               'before limiting it.', 2: 'Not Given is wrong because the objection is weighed.'}),
           ('An auditor can test the cases they think to ____________.',
            None, 'test',
            'Paragraph 3, which is why audits find suspected problems '

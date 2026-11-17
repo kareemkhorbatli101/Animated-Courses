@@ -364,14 +364,20 @@ UNIT = dict(
           ('Which person benefited from being able to change suppliers?',
            ['Perpetua', 'Ruairi', 'Jacinta', 'Olamide'], 3,
            'A small business can switch and a supermarket cannot.'),
-          ('Ruairi believes other people are exaggerating what happened.',
-           ['Yes', 'No', 'Not Given'], 0,
+          (
+           'Ruairi believes other people are exaggerating what '
+           'happened.', ['Yes', 'No', 'Not Given'], 0,
            'He says everybody now remembers a crisis and wants his own '
-           'experience on record.'),
+           'experience on record.',
+           {1: 'No would need him to accept their account; he wants '
+               'his own on record.', 2: 'Not Given is wrong because he comments on what '
+               'everybody now remembers.'}),
           ('Jacinta complained to her shop about the eggs.',
            ['Yes', 'No', 'Not Given'], 2,
-           'She describes what she noticed and inferred; no complaint is '
-           'mentioned.')])],
+           'She describes what she noticed and inferred; no complaint '
+           'is mentioned.',
+           {0: 'Yes would need a complaint, and none is mentioned.', 1: 'No would need her to say she did not, and she never '
+               'raises it.'})])],
    listen=[
     dict(heading='Two buyers on supply problems', part='Part 3',
          task='A conversation between two food buyers', band='l3',
@@ -887,12 +893,17 @@ UNIT = dict(
            'Higher yields leave more land uncultivated.'),
           ('The writer believes yield is a useless measure.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 calls it a good measure of how much food left a '
-           'field.'),
-          ('The writer believes the comparison between the two systems is '
-           'settled.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 1 calls it a good measure of how much food left '
+           'a field.',
+           {0: 'Yes would need uselessness; paragraph 1 calls it a '
+               'good measure of one thing.', 2: 'Not Given is wrong because yield is defined and rated.'}),
+          (
+           'The writer believes the comparison between the two systems '
+           'is settled.', ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph makes it depend on the period and on '
-           'policy.'),
+           'policy.',
+           {0: 'Yes would need a settlement; the final paragraph makes '
+               'it depend on period and policy.', 2: 'Not Given is wrong because the comparison is weighed.'}),
           ('Comparing two systems by yield compares their revenues without '
            'their ____________ sheets.', None, 'balance',
            'Paragraph 7, which is why long-term trials report both.'),
@@ -1155,13 +1166,23 @@ UNIT = dict(
            ['Paragraph 6', 'Paragraph 7', 'Paragraph 8',
             'Paragraph 5'], 2,
            'Current population, land, diet and waste.'),
-          ('The writer believes organic farming matches intensive farming '
-           'on yield.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 3 reports seventy to ninety per cent per hectare.'),
-          ('The writer believes the question as usually asked can be '
+          (
+           'The writer believes organic farming matches intensive '
+           'farming on yield.', ['Yes', 'No', 'Not Given'],
+           1,
+           'Paragraph 3 reports seventy to ninety per cent per '
+           'hectare.',
+           {0: 'Yes would need parity; paragraph 3 gives seventy to '
+               'ninety per cent.', 2: 'Not Given is wrong because the yield gap is '
+               'quantified.'}),
+          (
+           'The writer believes the question as usually asked can be '
            'answered yes.', ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says the usual meaning of the question gets '
-           'the answer no.'),
+           'The final paragraph says the usual meaning of the question '
+           'gets the answer no.',
+           {0: 'Yes would need that answer; the final paragraph '
+               'answers no to the usual meaning.', 2: 'Not Given is wrong because the writer answers the '
+               'question.'}),
           ('The yield gap is smallest in legumes and in ____________ '
            'years.', None, 'dry',
            'Paragraph 3, because better soil structure partly compensates.'),

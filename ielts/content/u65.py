@@ -580,10 +580,12 @@ UNIT = dict(
           ('A car carrying one person needs about ____________ times '
            'the road space per passenger of a bus.', None, 'ten',
            'Paragraph 1, in a city with narrow streets.'),
-          ('Which paragraph explains why property near a tram line '
+          (
+           'Which paragraph explains why property near a tram line '
            'rises in value?',
            ['Paragraph 2', 'Paragraph 1', 'Paragraph 3'], 0,
-           'Because a tram line cannot be moved at all.'),
+           'Because a tram line cannot be moved at all.',
+           {1: 'Paragraph 1 is about the bus, which can be rerouted.', 2: 'Paragraph 3 is about walking and cycling.'}),
           ('A bus route can be moved in a ____________.', None, 'week',
            'Paragraph 2, which is why nobody builds because of one.'),
           ('Successful cycle schemes built a path safe enough for a '
@@ -760,10 +762,12 @@ UNIT = dict(
           ('Almost all the visitors come within ____________ weeks.',
            None, 'eleven',
            'Paragraph 1, which the writer calls the whole subject.'),
-          ('Which paragraph says the gains and the costs fall on '
+          (
+           'Which paragraph says the gains and the costs fall on '
            'different people?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 1,
-           'A shop cannot sell to residents in February.'),
+           'A shop cannot sell to residents in February.',
+           {0: 'Paragraph 1 counts the money visitors bring.', 2: 'Paragraph 3 is about what a town can do in response.'}),
           ('A house let for six weeks is empty for ____________.',
            None, 'forty-six', 'Paragraph 2, which raises prices.'),
           ('Successful towns tried to attract visitors at a different '

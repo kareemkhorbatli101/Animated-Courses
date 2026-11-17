@@ -311,10 +311,15 @@ UNIT = dict(
            'Coffee after four o’clock, noticed after years.'),
           ('Delphine writes her list on her telephone.',
            ['True', 'False', 'Not Given'], 1,
-           'She says she writes it on paper.'),
+           'She says she writes it on paper.',
+           {0: 'True would need the telephone; she names paper.', 2: 'Not Given is wrong because she says where she writes '
+               'it.'}),
           ('Rasheed has discussed his sleep with a doctor.',
            ['True', 'False', 'Not Given'], 2,
-           'No doctor is mentioned in his text.')])],
+           'No doctor is mentioned in his text.',
+           {0: 'True would need a doctor to appear in his text, and '
+               'none does.', 1: 'False would need him to say he has not, and he never '
+               'mentions it.'})])],
    listen=[
     dict(heading='A nurse on sleep', part='Part 2',
          task='A talk at a health centre', band='l2',
@@ -779,15 +784,25 @@ UNIT = dict(
            ['The first eighty per cent', 'Medicine arrives late',
             'Measuring nutrition', 'Life expectancy in 1850'], 1,
            'Vaccines and antibiotics, after the main improvement.'),
-          ('Most of the improvement in life expectancy happened before '
+          (
+           'Most of the improvement in life expectancy happened before '
            'antibiotics.', ['True', 'False', 'Not Given'], 0,
-           'Paragraph 1 states this directly.'),
-          ('The writer believes modern medicine has made no '
+           'Paragraph 1 states this directly.',
+           {1: 'False would need a contradiction; paragraph 1 states '
+               'the order.', 2: 'Not Given is wrong because the sequence is the '
+               'paragraph\u2019s subject.'}),
+          (
+           'The writer believes modern medicine has made no '
            'difference.', ['True', 'False', 'Not Given'], 1,
-           'Paragraph 5 says it mattered enormously.'),
+           'Paragraph 5 says it mattered enormously.',
+           {0: 'Yes would need dismissal; paragraph 5 says it mattered '
+               'enormously.', 2: 'Not Given is wrong because the writer weighs medicine '
+               'explicitly.'}),
           ('Historians agree about the size of the nutrition effect.',
            ['True', 'False', 'Not Given'], 1,
-           'Paragraph 4 says this is exactly what they argue about.'),
+           'Paragraph 4 says this is exactly what they argue about.',
+           {0: 'True would need agreement; paragraph 4 says this is '
+               'what they argue about.', 2: 'Not Given is wrong because the disagreement is named.'}),
           ('European cities completed their drainage between about '
            '1860 and ____________.', None, '1910',
            'Paragraph 3, with deaths falling in the matching decade.'),
@@ -1024,16 +1039,28 @@ UNIT = dict(
            ['Paragraph 3', 'Paragraph 4', 'Paragraph 5',
             'Paragraph 6'], 2,
            'Four years of life and three years of illness.'),
-          ('The writer believes national averages should not be '
+          (
+           'The writer believes national averages should not be '
            'published.', ['True', 'False', 'Not Given'], 1,
-           'The final paragraph says the average is not useless.'),
-          ('In some cities the variation can be seen between stops on '
-           'one bus route.', ['True', 'False', 'Not Given'], 0,
-           'Paragraph 2 states this about some cities.'),
-          ('The writer believes doctors should work in poorer districts '
-           'first.', ['True', 'False', 'Not Given'], 2,
-           'No recommendation about where doctors should work is '
-           'made.'),
+           'The final paragraph says the average is not useless.',
+           {0: 'Yes would need that recommendation; he calls the '
+               'average not useless.', 2: 'Not Given is wrong because the final paragraph takes a '
+               'position.'}),
+          (
+           'In some cities the variation can be seen between stops on '
+           'one bus route.', ['True', 'False', 'Not Given'],
+           0, 'Paragraph 2 states this about some cities.',
+           {1: 'No would need a contradiction; paragraph 2 gives '
+               'exactly this example.', 2: 'Not Given is wrong because the bus-route comparison is '
+               'stated.'}),
+          (
+           'The writer believes doctors should work in poorer '
+           'districts first.',
+           ['True', 'False', 'Not Given'], 2,
+           'No recommendation about where doctors should work is made.',
+           {0: 'Yes would need a recommendation about where doctors '
+               'work, and none appears.', 1: 'No would need him to argue against it, which he never '
+               'does.'}),
           ('By about how many years does life expectancy vary between '
            'the richest and poorest districts?', None, 'ten',
            'Paragraph 2, within a single country.'),

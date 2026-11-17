@@ -64,7 +64,7 @@ def main(argv):
                 continue
             for f in ('stem', 'ans', 'opts', 'why', 'wrongs'):
                 if v0[f] != v1[f]:
-                    if k in ok_items and f in ok_fields:
+                    if (k in ok_items or '*' in ok_items) and f in ok_fields:
                         declared += 1
                     else:
                         bad.append('%s: %s.%s %r -> %r (undeclared)'

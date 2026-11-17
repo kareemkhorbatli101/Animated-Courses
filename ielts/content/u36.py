@@ -323,12 +323,18 @@ UNIT = dict(
            'A minimum standard the landlord has to meet.'),
           ('Dermot opposes the transition to renewable energy.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He says he is completely in favour of all of it and objects only '
-           'to how it is paid for.'),
+           'He says he is completely in favour of all of it and '
+           'objects only to how it is paid for.',
+           {0: 'Yes would need opposition; he says he is in favour of '
+               'all of it.', 2: 'Not Given is wrong because he states his position and '
+               'his objection.'}),
           ('Sigurd now accepts that his bill should have risen.',
            ['Yes', 'No', 'Not Given'], 2,
-           'He says he is still angry about the rise, only no longer angry '
-           'about the wrong cause.')])],
+           'He says he is still angry about the rise, only no longer '
+           'angry about the wrong cause.',
+           {0: 'Yes would need acceptance; he is still angry about the '
+               'rise itself.', 1: 'No would need him to reject the explanation too, and '
+               'he accepts that part.'})])],
    listen=[
     dict(heading='A short talk: who pays for the change', part='Part 2',
          task='A talk at a public meeting', band='l2',
@@ -900,12 +906,17 @@ UNIT = dict(
            'Advocates cite one requirement and critics another.'),
           ('The writer believes storage is a solved problem.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7: the seasonal problem has no answer demonstrated at '
-           'scale.'),
+           'Paragraph 7: the seasonal problem has no answer '
+           'demonstrated at scale.',
+           {0: 'Yes would need a solution; paragraph 7 says the '
+               'seasonal problem has none at scale.', 2: 'Not Given is wrong because storage is assessed.'}),
           ('The writer believes renewable energy cannot work.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He attributes that claim to critics and says it rests on the '
-           'wrong requirement.'),
+           'He attributes that claim to critics and says it rests on '
+           'the wrong requirement.',
+           {0: 'Yes would need that conclusion; he attributes it to '
+               'critics and answers it.', 2: 'Not Given is wrong because the claim is named and '
+               'judged.'}),
           ('Battery costs have fallen by roughly ____________ per cent since '
            '2010.', None, 'ninety',
            'Paragraph 2, which is the figure commentators are quoting.'),
@@ -1178,14 +1189,20 @@ UNIT = dict(
            ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 2,
            'The same wind farm imposes different integration costs in '
            'different systems.'),
-          ('The writer believes the claim that renewables are cheapest is '
-           'false.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 says that conclusion is not right either and calls '
-           'the error symmetrical.'),
-          ('The writer believes levelised cost is calculated dishonestly.',
-           ['Yes', 'No', 'Not Given'], 1,
+          (
+           'The writer believes the claim that renewables are cheapest '
+           'is false.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 5 says that conclusion is not right either and '
+           'calls the error symmetrical.',
+           {0: 'Yes would need falsity; paragraph 5 calls that error '
+               'symmetrical with the first.', 2: 'Not Given is wrong because the claim is tested.'}),
+          (
+           'The writer believes levelised cost is calculated '
+           'dishonestly.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 2 calls it genuinely useful and honestly '
-           'calculated.'),
+           'calculated.',
+           {0: 'Yes would need dishonesty; paragraph 2 calls the '
+               'calculation honest.', 2: 'Not Given is wrong because the measure is rated.'}),
           ('Costs arising outside the generator’s boundary are known '
            'collectively as ____________ costs.', None, 'integration',
            'Paragraph 4, where estimates vary by more than an order of '

@@ -388,13 +388,19 @@ UNIT = dict(
            ['Okonjo-Lindqvist', 'Casimir', 'Thomasina', 'Ignatius'], 3,
            'Behaviour changed partly because the projection was '
            'published.'),
-          ('Okonjo-Lindqvist regards the 1998 projection as a good '
+          (
+           'Okonjo-Lindqvist regards the 1998 projection as a good '
            'forecast.', ['Yes', 'No', 'Not Given'], 1,
-           'She says being right by cancellation gives no reason to trust '
-           'it next time.'),
-          ('Thomasina’s range included what actually happened.',
+           'She says being right by cancellation gives no reason to '
+           'trust it next time.',
+           {0: 'Yes would need approval; she says being right by '
+               'cancellation earns no trust.', 2: 'Not Given is wrong because she judges the projection.'}),
+          ('Thomasina\u2019s range included what actually happened.',
            ['Yes', 'No', 'Not Given'], 0,
-           'She says it was wide enough to include the outturn.')])],
+           'She says it was wide enough to include the outturn.',
+           {1: 'No would need the outturn outside it; she says it was '
+               'inside.', 2: 'Not Given is wrong because she says where the outturn '
+               'fell.'})])],
    listen=[
     dict(heading='A short talk: forecasts people believed', part='Part 2',
          task='A talk at a forecasting seminar', band='l2',
@@ -1060,14 +1066,21 @@ UNIT = dict(
             'The reading test', 'Detecting dependency'], 1,
            'A model wrong in knowable ways beats an intuition wrong in '
            'unknowable ones.'),
-          ('The writer believes agreement among models is strong evidence '
-           'that an answer is right.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1: agreement among related models shows only that '
-           'they are related.'),
+          (
+           'The writer believes agreement among models is strong '
+           'evidence that an answer is right.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 1: agreement among related models shows only '
+           'that they are related.',
+           {0: 'Yes would need agreement to be evidence; paragraph 1 '
+               'says it shows relatedness.', 2: 'Not Given is wrong because agreement is interpreted.'}),
           ('The writer believes models should not be used for policy.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 10 calls that the conclusion drawn by people who had '
-           'reached it already.'),
+           'Paragraph 10 calls that the conclusion drawn by people who '
+           'had reached it already.',
+           {0: 'Yes would need that conclusion; paragraph 10 '
+               'attributes it to people who held it already.', 2: 'Not Given is wrong because the writer says who draws '
+               'it.'}),
           ('When two models share a wrong assumption the result is '
            '____________ error.', None, 'correlated',
            'Paragraph 3, which also makes the spread too narrow.'),
@@ -1395,12 +1408,20 @@ UNIT = dict(
             'Paragraph 11'], 2,
            'A report carrying the sentence is harder to commission work '
            'from.'),
-          ('The writer believes deep uncertainty makes planning '
+          (
+           'The writer believes deep uncertainty makes planning '
            'impossible.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 calls that a misreading.'),
-          ('The writer believes a robust plan outperforms an optimal one '
-           'where the model is correct.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 says it is reliably worse in that case.'),
+           'Paragraph 6 calls that a misreading.',
+           {0: 'Yes would need impossibility; paragraph 6 calls that a '
+               'misreading.', 2: 'Not Given is wrong because the objection is answered.'}),
+          (
+           'The writer believes a robust plan outperforms an optimal '
+           'one where the model is correct.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 7 says it is reliably worse in that case.',
+           {0: 'Yes would need robustness to win there; paragraph 7 '
+               'says it is reliably worse.', 2: 'Not Given is wrong because the comparison is made '
+               'explicitly.'}),
           ('Almost every published range represents ____________ '
            'uncertainty.', None, 'parametric',
            'Paragraph 2, built by varying the numbers inside a fixed '

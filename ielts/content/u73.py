@@ -911,10 +911,10 @@ UNIT = dict(
           ('What did the washing machine change besides the hours?',
            None, 'the standard',
            'Paragraph 3: clothes were washed far more often.'),
-          ('Which paragraph explains why savings were often '
-           'absorbed?',
+          ('Which paragraph explains why savings were often absorbed?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 2,
-           'Rising standards followed labour-saving machines.'),
+           'Rising standards followed labour-saving machines.',
+           {0: 'Paragraph 2 names the three machines that mattered.', 1: 'Paragraph 3 is about who did the work before.'}),
           (
            'The fridge removed a daily ____________ rather than '
            'raising a standard.', None, 'journey',

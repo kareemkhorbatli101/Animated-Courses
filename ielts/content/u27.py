@@ -398,11 +398,18 @@ UNIT = dict(
            'He says schemes promising everybody everything get withdrawn.'),
           ('Taavi now supports the widened pavement.',
            ['Yes', 'No', 'Not Given'], 0,
-           'He reports higher takings and says he has said so publicly.'),
+           'He reports higher takings and says he has said so '
+           'publicly.',
+           {1: 'No would need opposition; he reports higher takings '
+               'and says so publicly.', 2: 'Not Given is wrong because his present position is '
+               'stated.'}),
           ('Marguerite has objected at a consultation.',
            ['Yes', 'No', 'Not Given'], 2,
-           'She says nobody has asked her about eleven at night; whether she '
-           'objected is not said.')])],
+           'She says nobody has asked her about eleven at night; '
+           'whether she objected is not said.',
+           {0: 'Yes would need an objection; she says only that nobody '
+               'asked her.', 1: 'No would need her to say she stayed silent by choice, '
+               'which she does not.'})])],
    listen=[
     dict(heading='Two councillors disagree about parking', part='Part 3',
          task='A discussion before a committee vote', band='l3',
@@ -914,10 +921,15 @@ UNIT = dict(
           ('The writer believes building outwards is cheaper overall.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 3 and paragraph 6: construction is cheap and the '
-           'servicing liability lasts a century.'),
-          ('The writer believes density reliably creates a stronger sense of '
-           'community.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 calls the research weak in both directions.'),
+           'servicing liability lasts a century.',
+           {0: 'Yes would need it cheaper; paragraphs 3 and 6 set the '
+               'century-long liability against the cheap construction.', 2: 'Not Given is wrong because both costs are given.'}),
+          (
+           'The writer believes density reliably creates a stronger '
+           'sense of community.', ['Yes', 'No', 'Not Given'],
+           1, 'Paragraph 7 calls the research weak in both directions.',
+           {0: 'Yes would need reliability; paragraph 7 calls the '
+               'research weak both ways.', 2: 'Not Given is wrong because the claim is examined.'}),
           ('Kilometres of pipe and road per household are ____________ to '
            'four times higher at the edge.', None, 'two',
            'Paragraph 6, and must be renewed whatever happens to the '
@@ -1176,11 +1188,17 @@ UNIT = dict(
            'A trade between different people is not a calculation.'),
           ('The writer believes transport models are badly built.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 calls them sound, well-calibrated and competently '
-           'run.'),
-          ('The writer believes residents are good at predicting the effect '
-           'on trade.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 says their record on this is poor.'),
+           'Paragraph 1 calls them sound, well-calibrated and '
+           'competently run.',
+           {0: 'Yes would need bad models; paragraph 1 calls them '
+               'sound and well calibrated.', 2: 'Not Given is wrong because the models are rated.'}),
+          (
+           'The writer believes residents are good at predicting the '
+           'effect on trade.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 5 says their record on this is poor.',
+           {0: 'Yes would need accuracy; paragraph 5 calls their '
+               'record poor.', 2: 'Not Given is wrong because their predictions are '
+               'compared with outcomes.'}),
           ('Models are built from household surveys recording '
            '____________ journeys.', None, 'purposeful',
            'Paragraph 3: commuting, school, shopping and business.'),

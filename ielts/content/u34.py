@@ -352,14 +352,22 @@ UNIT = dict(
           ('Which person says relationships at work matter most?',
            ['Ingeborg', 'Rashid', 'Noor', 'Emeka'], 3,
            'He would leave within a year if the team changed completely.'),
-          ('Rashid believes his arrangement is a regrettable compromise.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'He calls it honourable, which is the opposite of '
-           'the statement.'),
-          ('Noor expected autonomy to be important before she experienced it.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'She says she could not have told you in advance that it was the '
-           'thing she was missing.')])],
+          (
+           'Rashid believes his arrangement is a regrettable '
+           'compromise.', ['Yes', 'No', 'Not Given'], 1,
+           'He calls it honourable, which is the opposite of the '
+           'statement.',
+           {0: 'Yes would need regret; he calls the arrangement '
+               'honourable.', 2: 'Not Given is wrong because he characterises it '
+               'himself.'}),
+          (
+           'Noor expected autonomy to be important before she '
+           'experienced it.', ['Yes', 'No', 'Not Given'], 1,
+           'She says she could not have told you in advance that it '
+           'was the thing she was missing.',
+           {0: 'Yes would need foresight; she says she could not have '
+               'named it in advance.', 2: 'Not Given is wrong because she says what she could and '
+               'could not have told you.'})])],
    listen=[
     dict(heading='Two employees disagree about ambition', part='Part 3',
          task='A conversation after a promotion round', band='l3',
@@ -930,12 +938,18 @@ UNIT = dict(
            'It states what the narrower claim covers and what it does not.'),
           ('The writer believes shorter working weeks do not work.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 says explicitly that the evidence for that proposition '
-           'is weaker still.'),
+           'Paragraph 6 says explicitly that the evidence for that '
+           'proposition is weaker still.',
+           {0: 'Yes would need that claim; paragraph 6 calls the '
+               'evidence for it weaker still.', 2: 'Not Given is wrong because the writer rates both '
+               'propositions.'}),
           ('The writer thinks the trials were dishonestly conducted.',
            ['Yes', 'No', 'Not Given'], 2,
-           'Nothing suggests dishonesty; the criticisms are of selection, '
-           'measurement and duration.'),
+           'Nothing suggests dishonesty; the criticisms are of '
+           'selection, measurement and duration.',
+           {0: 'Yes would need dishonesty; the criticisms are of '
+               'selection, measurement and duration.', 1: 'No would need a defence of their honesty, which is '
+               'never offered.'}),
           ('Most of the trials described ran for ____________ months.', None,
            'six', 'Paragraph 5, which is said to be too short to separate a '
            'durable change from an enthusiastic one.'),
@@ -1212,14 +1226,22 @@ UNIT = dict(
            ['Paragraph 4', 'Paragraph 5', 'Paragraph 6', 'Paragraph 7'], 1,
            'Feasibility in office work, and the revealed preference of firms '
            'not reversing.'),
-          ('The writer believes nothing useful can be concluded from the '
-           'trials.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 calls that conclusion a mistake and then lists what '
-           'can be known.'),
-          ('The writer believes shorter working weeks are undesirable.',
+          (
+           'The writer believes nothing useful can be concluded from '
+           'the trials.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 5 calls that conclusion a mistake and then lists '
+           'what can be known.',
+           {0: 'Yes would need nothing; paragraph 5 lists what can be '
+               'known.', 2: 'Not Given is wrong because the writer says what '
+               'survives the criticism.'}),
+          (
+           'The writer believes shorter working weeks are undesirable.',
            ['Yes', 'No', 'Not Given'], 1,
-           'The final paragraph says the case for permitting and encouraging '
-           'them is strong and well supported.'),
+           'The final paragraph says the case for permitting and '
+           'encouraging them is strong and well supported.',
+           {0: 'Yes would need opposition; the final paragraph calls '
+               'the case for them strong.', 2: 'Not Given is wrong because the writer states his '
+               'position.'}),
           ('Which design does the writer call the strongest available?',
            None, 'staggered rollout',
            'Paragraph 3, where later adopters serve as a comparison for '

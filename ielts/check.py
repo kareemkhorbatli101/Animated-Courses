@@ -129,7 +129,17 @@ SPEAK_FLOOR = 12.0      # per cent of a unit's teaching text
 # Phases turn these on as the content lands, so the gate is written first
 # and goes green when the work it governs is done. Set by main() from the
 # file PHASE, which is the single place a phase is declared finished.
-PHASE = dict(rubric=False, wrongs=0)    # wrongs: 0 none, 3 three-option, 4 all
+PHASE = dict(rubric=True, wrongs=3)    # wrongs: 0 none, 3 three-option, 4 all
+
+
+def _rubric_ok(blk):
+    """The exercise prints a rubric derived from its own answers.
+
+    book.rubric() builds it, so nothing is authored and nothing can drift;
+    this proves every block yields one.
+    """
+    import book
+    return bool(book.rubric(blk).strip())
 
 
 def _limit_for(items):
@@ -254,9 +264,9 @@ def check_unit(U, out, heads):
                                % (ct, r['heading'][:34], w, band[0], band[1]))
             allpos |= _items_ok(r['items'], '%s %s' % (ct, r['heading'][:22]),
                                 3, 8, out)
-            if PHASE['rubric'] and _limit_for(r['items']) and not r.get('limit'):
-                out.append('%s "%s": no word limit on the exercise'
-                           % (ct, r['heading'][:30]))
+            if PHASE['rubric'] and not _rubric_ok(r):
+                out.append('%s "%s": no rubric can be derived for the '
+                           'exercise' % (ct, r['heading'][:30]))
         for l in c['listen']:
             m = re.match(r'Part (\d)', l['part'])
             if m:
@@ -269,8 +279,8 @@ def check_unit(U, out, heads):
                                % (ct, l['heading'][:30], w, band[0], band[1]))
             allpos |= _items_ok(l['items'], '%s %s' % (ct, l['heading'][:22]),
                                 3, 8, out)
-            if PHASE['rubric'] and _limit_for(l['items']) and not l.get('limit'):
-                out.append('%s listening "%s": no word limit on the exercise'
+            if PHASE['rubric'] and not _rubric_ok(l):
+                out.append('%s listening "%s": no rubric can be derived'
                            % (ct, l['heading'][:30]))
         sp = c['speak']
         for m in re.finditer(r'Part (\d)', sp['part']):
@@ -377,7 +387,7 @@ def check_paper(P, out):
             out.append('%s p%d: %d questions, want %d-%d'
                        % (tag, x['no'], n, qlo, qhi))
         for i, it in enumerate(x['items']):
-            if len(it) != 4:
+            if len(it) not in (4, 5):
                 out.append('%s p%d item %d: malformed' % (tag, x['no'], i + 1))
                 continue
             if len(it[3]) < MIN_WHY:
@@ -432,7 +442,7 @@ def check_lpaper(L, out):
             out.append('%s %s: %d questions, want %d'
                        % (tag, p['part'], n, per))
         for i, it in enumerate(p['items']):
-            if len(it) != 4 or len(it[3]) < MIN_WHY:
+            if len(it) not in (4, 5) or len(it[3]) < MIN_WHY:
                 out.append('%s %s item %d: explanation too short'
                            % (tag, p['part'], p['first'] + i))
         nxt += n

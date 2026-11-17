@@ -604,10 +604,12 @@ UNIT = dict(
            'Paragraph 2, which is more regular than expected.'),
           ('What may a wetland in a valley add?', None, 'fog',
            'Paragraph 2, which keeps a cold morning cold.'),
-          ('Which paragraph explains why two slopes differ in '
+          (
+           'Which paragraph explains why two slopes differ in '
            'rainfall?',
            ['Paragraph 3', 'Paragraph 1', 'Paragraph 2'], 0,
-           'Because of the direction the wind comes from.'),
+           'Because of the direction the wind comes from.',
+           {1: 'Paragraph 1 is about the sea and the land.', 2: 'Paragraph 2 is about height rather than direction.'}),
           ('Rainfall on two slopes can differ by a factor of '
            '____________.', None, 'three',
            'Paragraph 3, depending which way each faces.')])],
@@ -798,10 +800,12 @@ UNIT = dict(
            'Paragraph 2, which is the second disagreement.'),
           ('A warmer summer contains more very ____________ days.',
            None, 'hot', 'Paragraph 2, remembered individually.'),
-          ('Which paragraph says each source is better evidence of '
+          (
+           'Which paragraph says each source is better evidence of '
            'something different?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 2,
-           'The records for the trend, people for the consequences.'),
+           'The records for the trend, people for the consequences.',
+           {0: 'Paragraph 1 gives the measured record.', 1: 'Paragraph 2 gives what people remember.'}),
           ('Disagreement between the two should be treated as '
            '____________.', None, 'information',
            'Paragraph 3, rather than as somebody being wrong.')])],

@@ -428,11 +428,15 @@ UNIT = dict(
            'wealth.'),
           ('Dominic believes the bursary was of no value.',
            ['Yes', 'No', 'Not Given'], 1,
-           'He says what he had was not mainly money, which is not the same '
-           'claim.'),
+           'He says what he had was not mainly money, which is not the '
+           'same claim.',
+           {0: 'Yes would need no value; he says what he had was not '
+               'mainly money.', 2: 'Not Given is wrong because he says what helped him.'}),
           ('Ingrid believes the completion figures are inaccurate.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She calls both numbers good and objects to what they omit.')])],
+           'She calls both numbers good and objects to what they omit.',
+           {0: 'Yes would need inaccuracy; she calls both numbers '
+               'good.', 2: 'Not Given is wrong because she rates the figures.'})])],
    listen=[
     dict(heading='Two teachers disagree about fairness', part='Part 3',
          task='A staffroom conversation', band='l3',
@@ -1020,13 +1024,21 @@ UNIT = dict(
             'Why results take decades', 'The underlying quantity'], 2,
            'Thirty to fifty years, with results attributed to a '
            'successor.'),
-          ('The writer believes high persistence shows intervention is '
+          (
+           'The writer believes high persistence shows intervention is '
            'futile.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 rejects that reading explicitly.'),
-          ('The writer believes Danish institutions could simply be '
-           'adopted elsewhere.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 says the mechanisms include things that are not '
-           'education policy.'),
+           'Paragraph 6 rejects that reading explicitly.',
+           {0: 'Yes would need futility; paragraph 6 rejects that '
+               'reading.', 2: 'Not Given is wrong because the inference is examined.'}),
+          (
+           'The writer believes Danish institutions could simply be '
+           'adopted elsewhere.', ['Yes', 'No', 'Not Given'],
+           1,
+           'Paragraph 7 says the mechanisms include things that are '
+           'not education policy.',
+           {0: 'Yes would need portability; paragraph 7 says the '
+               'mechanisms are not education policy.', 2: 'Not Given is wrong because transferability is '
+               'discussed.'}),
           ('Single-generation studies understate persistence because '
            'single-year income is a ____________ indicator.', None,
            'noisy',
@@ -1335,11 +1347,16 @@ UNIT = dict(
            'wanted.'),
           ('The writer believes relative mobility fell after 1980.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 4 reports it as broadly flat over the period.'),
-          ('The writer believes politicians avoid discussing downward '
+           'Paragraph 4 reports it as broadly flat over the period.',
+           {0: 'Yes would need a fall; paragraph 4 reports it broadly '
+               'flat.', 2: 'Not Given is wrong because the trend is given.'}),
+          (
+           'The writer believes politicians avoid discussing downward '
            'mobility purely out of cowardice.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 says there is no acceptable formulation of it.'),
+           'Paragraph 7 says there is no acceptable formulation of it.',
+           {0: 'Yes would need cowardice alone; paragraph 7 says no '
+               'acceptable formulation exists.', 2: 'Not Given is wrong because the silence is explained.'}),
           ('Absolute mobility fell from around 90 per cent to around '
            '____________ per cent between 1980 and 2015.', None, '50',
            'Paragraph 4, driven by slower growth and its distribution.'),

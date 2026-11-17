@@ -370,14 +370,20 @@ UNIT = dict(
             'The newspaper report', 'The oral history'], 3,
            'Several hundred and no charge in 1974; thousands and a charge '
            'in 1987.'),
-          ('The newspaper report describes events at the eastern gate.',
+          (
+           'The newspaper report describes events at the eastern gate.',
            ['Yes', 'No', 'Not Given'], 1,
            'It names the western gate and gives no account of the '
-           'eastern.'),
-          ('The interviewee offers an explanation for the change in their '
-           'account.', ['Yes', 'No', 'Not Given'], 1,
-           'They say they have none except how often the story has been '
-           'told.')])],
+           'eastern.',
+           {0: 'Yes would need the eastern gate; the report names the '
+               'western.', 2: 'Not Given is wrong because the gate is named.'}),
+          (
+           'The interviewee offers an explanation for the change in '
+           'their account.', ['Yes', 'No', 'Not Given'], 1,
+           'They say they have none except how often the story has '
+           'been told.',
+           {0: 'Yes would need an explanation; they say they have '
+               'none.', 2: 'Not Given is wrong because they are asked and answer.'})])],
    listen=[
     dict(heading='A short talk: four accounts of one event', part='Part 2',
          task='A talk to a local history society', band='l2',
@@ -1046,12 +1052,21 @@ UNIT = dict(
             'Techniques for reasoning through the distortions',
             'The reader’s habit', 'The moral version'], 1,
            'Overlapping administrations, complete series, exceptions.'),
-          ('The writer believes an archive is a sample of the society that '
-           'produced it.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 says the ways it is not are systematic.'),
-          ('The writer believes the distortions mean nothing can be known '
-           'about the past.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 calls that the response of a first encounter.'),
+          (
+           'The writer believes an archive is a sample of the society '
+           'that produced it.', ['Yes', 'No', 'Not Given'],
+           1, 'Paragraph 1 says the ways it is not are systematic.',
+           {0: 'Yes would need representativeness; paragraph 1 calls '
+               'the gaps systematic.', 2: 'Not Given is wrong because what an archive is is '
+               'defined.'}),
+          (
+           'The writer believes the distortions mean nothing can be '
+           'known about the past.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 7 calls that the response of a first encounter.',
+           {0: 'Yes would need nothing; paragraph 7 calls that a first '
+               'reaction.', 2: 'Not Given is wrong because the sceptical conclusion is '
+               'addressed.'}),
           ('An archive is described as the ____________ of an '
            'administration rather than a picture of a society.', None,
            'residue',
@@ -1387,14 +1402,21 @@ UNIT = dict(
            ['Paragraph 8', 'Paragraph 9', 'Paragraph 10',
             'Paragraph 11'], 2,
            'Ask whether the objection applies to its own evidence.'),
-          ('The writer believes the clauses of the sceptical argument are '
-           'false.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 says each clause is true and the conclusion does '
-           'not follow.'),
+          (
+           'The writer believes the clauses of the sceptical argument '
+           'are false.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 1 says each clause is true and the conclusion '
+           'does not follow.',
+           {0: 'Yes would need falsity; paragraph 1 says each clause '
+               'is true.', 2: 'Not Given is wrong because the argument is taken '
+               'apart.'}),
           ('The writer believes the sceptic has contributed nothing.',
            ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 7 calls the weaker version correct and '
-           'important.'),
+           'important.',
+           {0: 'Yes would need nothing; paragraph 7 calls the weaker '
+               'version important.', 2: 'Not Given is wrong because the contribution is '
+               'weighed.'}),
           ('The evidence for archival distortion is itself ____________.',
            None, 'archival',
            'Paragraph 2, which is why the argument disqualifies its own '

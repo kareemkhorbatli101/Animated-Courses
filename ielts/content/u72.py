@@ -925,10 +925,12 @@ UNIT = dict(
           ('The second explanation says those are the years of '
            '____________ times.', None, 'first',
            'Paragraph 2: a first job, a first city.'),
-          ('Which paragraph explains why music works better than a '
+          (
+           'Which paragraph explains why music works better than a '
            'photograph?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
-           'Because a recording is identical every time.'),
+           'Because a recording is identical every time.',
+           {0: 'Paragraph 2 is about when the memories were formed.', 2: 'Paragraph 4 is about what the effect is used for.'}),
           ('A song is a ____________ object, unlike a place or a '
            'smell.', None, 'fixed',
            'Paragraph 3, which appears to open the door.'),

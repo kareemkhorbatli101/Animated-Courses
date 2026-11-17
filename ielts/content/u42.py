@@ -423,13 +423,20 @@ UNIT = dict(
            'study?', ['Severin', 'Lucinde', 'Bartholomew', 'Ngozi'], 3,
            'Which showed people produce the same ranking given numbers and '
            'time.'),
-          ('Lucinde believes the risk of motorcycling fell after her '
-           'daughter was born.', ['Yes', 'No', 'Not Given'], 1,
-           'She states that nothing about the risk changed.'),
-          ('Bartholomew considers the offshore safety regime ineffective.',
-           ['Yes', 'No', 'Not Given'], 1,
+          (
+           'Lucinde believes the risk of motorcycling fell after her '
+           'daughter was born.', ['Yes', 'No', 'Not Given'],
+           1, 'She states that nothing about the risk changed.',
+           {0: 'Yes would need a fall; she says nothing about the risk '
+               'changed.', 2: 'Not Given is wrong because she addresses the risk '
+               'directly.'}),
+          (
+           'Bartholomew considers the offshore safety regime '
+           'ineffective.', ['Yes', 'No', 'Not Given'], 1,
            'He calls it the strictest he has encountered and says it '
-           'works.')])],
+           'works.',
+           {0: 'Yes would need ineffectiveness; he calls it the '
+               'strictest he has met.', 2: 'Not Given is wrong because he rates the regime.'})])],
    listen=[
     dict(heading='Two regulators disagree about proportionality',
          part='Part 3', task='A conversation between two regulators',
@@ -1036,14 +1043,19 @@ UNIT = dict(
             'Waiting behind a legislature', 'Exhortation and its limits'], 2,
            'A written rule awaiting a parliamentary slot is a different '
            'failure.'),
-          ('The writer believes regulators lag mainly through lack of '
+          (
+           'The writer believes regulators lag mainly through lack of '
            'urgency.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 1 attributes the lag to a trade-off rather than to '
-           'urgency.'),
+           'Paragraph 1 attributes the lag to a trade-off rather than '
+           'to urgency.',
+           {0: 'Yes would need urgency as the cause; paragraph 1 names '
+               'a trade-off.', 2: 'Not Given is wrong because the lag is explained.'}),
           ('The writer believes the hybrid regime has no drawbacks.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7: the safe harbours become the standard and the duty '
-           'stops working.'),
+           'Paragraph 7: the safe harbours become the standard and the '
+           'duty stops working.',
+           {0: 'Yes would need none; paragraph 7 names the one that '
+               'matters.', 2: 'Not Given is wrong because the regime is assessed.'}),
           ('Across twenty-four technologies the median interval before a '
            'binding rule was ____________ years.', None, 'six',
            'Paragraph 8, rising to eleven where a new statute was '
@@ -1359,14 +1371,22 @@ UNIT = dict(
             'Paragraph 8'], 1,
            'The distinction between reversible and irreversible '
            'outcomes.'),
-          ('The writer believes the precautionary principle should be '
+          (
+           'The writer believes the precautionary principle should be '
            'abandoned.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 says none of the criticism amounts to an argument '
-           'against it.'),
-          ('The writer believes officials who delay are acting '
+           'Paragraph 6 says none of the criticism amounts to an '
+           'argument against it.',
+           {0: 'Yes would need abandonment; paragraph 6 denies that '
+               'follows.', 2: 'Not Given is wrong because the writer says what his '
+               'criticism does not amount to.'}),
+          (
+           'The writer believes officials who delay are acting '
            'irrationally.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 4 calls the bias rational given the accountability '
-           'structure.'),
+           'Paragraph 4 calls the bias rational given the '
+           'accountability structure.',
+           {0: 'Yes would need irrationality; paragraph 4 calls the '
+               'bias rational.', 2: 'Not Given is wrong because the officials\u2019 incentives '
+               'are set out.'}),
           ('An official who approves too slowly faces no personal '
            '____________.', None, 'consequence',
            'Paragraph 4, while approving too quickly may end a career.'),

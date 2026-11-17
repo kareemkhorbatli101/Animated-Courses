@@ -665,11 +665,13 @@ UNIT = dict(
            None, 'four', 'Paragraph 1, and the church still stands.'),
           ('Growth began when the trains became ____________.', None,
            'frequent', 'Paragraph 2: this happened in the 1950s.'),
-          ('Which paragraph explains why the walk to the station is '
+          (
+           'Which paragraph explains why the walk to the station is '
            'long?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 4'], 1,
            'The estates were built outward rather than along the '
-           'railway.'),
+           'railway.',
+           {0: 'Paragraph 2 is about what the village had in 1930.', 2: 'Paragraph 4 is about where people shop now.'}),
           ('The orchard became the ____________.', None, 'school',
            'Paragraph 3, and the forge became shops.'),
           ('The bypass arrived in ____________.', None, '1998',

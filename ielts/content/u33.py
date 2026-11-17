@@ -358,14 +358,21 @@ UNIT = dict(
            ['Henrike', 'Camilo', 'Oluwaseun', 'Marguerite'], 0,
            'Two witnesses described the same four seconds and disagreed, and '
            'neither was lying.'),
-          ('Camilo believes juries are better because jurors are intelligent.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'He says explicitly not because we were clever but because there '
-           'were twelve of us.'),
-          ('Oluwaseun believes the judge’s direction was inadequate.',
+          (
+           'Camilo believes juries are better because jurors are '
+           'intelligent.', ['Yes', 'No', 'Not Given'], 1,
+           'He says explicitly not because we were clever but because '
+           'there were twelve of us.',
+           {0: 'Yes would need intelligence; he names the number '
+               'instead.', 2: 'Not Given is wrong because he gives his reason.'}),
+          (
+           'Oluwaseun believes the judge\u2019s direction was inadequate.',
            ['Yes', 'No', 'Not Given'], 2,
-           'He raises it as a possibility and says he still does not know. '
-           'That is not a belief either way.')])],
+           'He raises it as a possibility and says he still does not '
+           'know. That is not a belief either way.',
+           {0: 'Yes would need a judgement; he raises it and says he '
+               'does not know.', 1: 'No would need him to call it adequate, which he does '
+               'not.'})])],
    listen=[
     dict(heading='Two lawyers disagree about juries', part='Part 3',
          task='A seminar discussion', band='l3', qtype='Questions 25-29',
@@ -966,14 +973,21 @@ UNIT = dict(
            'Certainty is expensive and invisible; severity is cheap and '
            'legible, so the instrument that works is the one that is hard to '
            'deliver.'),
-          ('The writer believes sentence length serves no useful purpose.',
+          (
+           'The writer believes sentence length serves no useful '
+           'purpose.', ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 5 says the opposite: sentences incapacitate, '
+           'express condemnation and may support rehabilitation.',
+           {0: 'Yes would need no purpose; paragraph 5 lists three.', 2: 'Not Given is wrong because the purposes are set out.'}),
+          (
+           'The writer believes policymakers are unaware of the '
+           'evidence on deterrence.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 5 says the opposite: sentences incapacitate, express '
-           'condemnation and may support rehabilitation.'),
-          ('The writer believes policymakers are unaware of the evidence on '
-           'deterrence.', ['Yes', 'No', 'Not Given'], 1,
            'Paragraph 7 says explicitly that the reason is not that '
-           'policymakers are unaware of it.'),
+           'policymakers are unaware of it.',
+           {0: 'Yes would need ignorance; paragraph 7 rules it out '
+               'explicitly.', 2: 'Not Given is wrong because the writer explains why the '
+               'gap persists.'}),
           ('The three components of expected cost are certainty, severity and '
            '____________.', None, 'celerity',
            'Paragraph 1, and paragraph 2 notes that celerity is the least '
@@ -1254,14 +1268,20 @@ UNIT = dict(
            'Retribution places a ceiling where the others place a floor, and is '
            'the only '
            'backward-looking purpose.'),
-          ('The writer believes rehabilitation is the most important purpose.',
-           ['Yes', 'No', 'Not Given'], 2,
-           'He describes its claims and its vulnerability to evidence without '
-           'ranking it against the others.'),
+          (
+           'The writer believes rehabilitation is the most important '
+           'purpose.', ['Yes', 'No', 'Not Given'], 2,
+           'He describes its claims and its vulnerability to evidence '
+           'without ranking it against the others.',
+           {0: 'Yes would need a ranking, and he gives none.', 1: 'No would need him to rank it below the others, which '
+               'he does not.'}),
           ('The writer expects the proposed reform to be adopted.',
            ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 8 says it is unlikely to be adopted and gives two '
-           'reasons.'),
+           'Paragraph 8 says it is unlikely to be adopted and gives '
+           'two reasons.',
+           {0: 'Yes would need optimism; paragraph 8 calls adoption '
+               'unlikely.', 2: 'Not Given is wrong because the prospects are given '
+               'with two reasons.'}),
           ('Which purpose is described as the only backward-looking one?',
            None, 'retribution',
            'Paragraph 2, which also notes it places a ceiling on punishment.'),

@@ -319,10 +319,15 @@ UNIT = dict(
            'The mortgage payment became a savings payment.'),
           ('Rosalind knows what her savings are for.',
            ['Yes', 'No', 'Not Given'], 1,
-           'She says she could not tell you, and calls that the point.'),
-          ('Marisol believes her situation is caused by poor discipline.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'She says she is tired of being told that.')])],
+           'She says she could not tell you, and calls that the point.',
+           {0: 'Yes would need a purpose; she says she could not name '
+               'one.', 2: 'Not Given is wrong because she is asked and answers.'}),
+          (
+           'Marisol believes her situation is caused by poor '
+           'discipline.', ['Yes', 'No', 'Not Given'], 1,
+           'She says she is tired of being told that.',
+           {0: 'Yes would need her to accept that account; she rejects '
+               'being told it.', 2: 'Not Given is wrong because she responds to the charge.'})])],
    listen=[
     dict(heading='A short talk: saving and spending', part='Part 2',
          task='A talk at a community centre', band='l2',
@@ -865,12 +870,19 @@ UNIT = dict(
            ['How retailers benefit', 'Replacing the comparison',
             'Why warnings fail', 'The size of the effects'], 1,
            'Asking what else the money would buy this week.'),
-          ('The writer believes anchoring can be prevented by warning '
+          (
+           'The writer believes anchoring can be prevented by warning '
            'people about it.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 3 says the effect persists after a warning.'),
-          ('The writer believes scarcity notices are usually truthful '
+           'Paragraph 3 says the effect persists after a warning.',
+           {0: 'Yes would need warnings to work; paragraph 3 says the '
+               'effect survives them.', 2: 'Not Given is wrong because warning is tested in the '
+               'passage.'}),
+          (
+           'The writer believes scarcity notices are usually truthful '
            'online.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 4 says the shortage frequently is not real.'),
+           'Paragraph 4 says the shortage frequently is not real.',
+           {0: 'Yes would need truthfulness; paragraph 4 says the '
+               'shortage often is not real.', 2: 'Not Given is wrong because the notices are examined.'}),
           ('The comparison used to judge a price is supplied by the '
            '____________.', None, 'seller',
            'Paragraph 2, and need not match any genuine price.'),
@@ -1118,14 +1130,23 @@ UNIT = dict(
            ['Paragraph 4', 'Paragraph 5', 'Paragraph 6',
             'Paragraph 7'], 2,
            'Influencing people who have not agreed to be influenced.'),
-          ('The writer believes the approach has been accurately '
-           'described by its supporters.', ['Yes', 'No', 'Not Given'], 1,
+          (
+           'The writer believes the approach has been accurately '
+           'described by its supporters.',
+           ['Yes', 'No', 'Not Given'], 1,
            'The final paragraph says it has been sold as more than it '
-           'is.'),
-          ('The writer believes there is a neutral way to present a '
+           'is.',
+           {0: 'Yes would need accuracy; the final paragraph says it '
+               'was oversold.', 2: 'Not Given is wrong because the writer rates the claims '
+               'made for it.'}),
+          (
+           'The writer believes there is a neutral way to present a '
            'choice.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 6 reports the defenders’ point that there is '
-           'none.'),
+           'Paragraph 6 reports the defenders\u2019 point that there is '
+           'none.',
+           {0: 'Yes would need neutrality to exist; paragraph 6 '
+               'reports that it does not.', 2: 'Not Given is wrong because the question of neutrality '
+               'is argued.'}),
           ('Under the new rule, employees had to apply in order to '
            '____________.', None, 'leave',
            'Paragraph 2, the reverse of the earlier arrangement.'),

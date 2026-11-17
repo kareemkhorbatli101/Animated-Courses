@@ -907,10 +907,13 @@ UNIT = dict(
            None, 'owned', 'Paragraph 2, since it left the artist.'),
           ('A gap in the record is where a ____________ could hide.',
            None, 'forgery', 'Paragraph 2: a forgery or a theft.'),
-          ('Which paragraph explains art used as a way of holding '
+          (
+           'Which paragraph explains art used as a way of holding '
            'wealth?',
            ['Paragraph 1', 'Paragraph 2', 'Paragraph 3'], 2,
-           'It can be moved, stored and sold quietly.'),
+           'It can be moved, stored and sold quietly.',
+           {0: 'Paragraph 1 is about supply: how few works an artist '
+               'left.', 1: 'Paragraph 2 is about the record of ownership.'}),
           ('The top of the market moves with the number of '
            '____________ buyers.', None, 'wealthier',
            'Paragraph 3, rather than with events in art.'),

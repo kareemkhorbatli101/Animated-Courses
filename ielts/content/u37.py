@@ -371,13 +371,19 @@ UNIT = dict(
           ('Which person values the relationship with the maker above the '
            'object?', ['Casimir', 'Thandiwe', 'Ignatius', 'Bernadette'], 3,
            'Selling would end the relationship, which is what she was buying.'),
-          ('Thandiwe regrets her purchase.', ['Yes', 'No', 'Not Given'], 2,
-           'She says she has not asked herself whether she likes it, which is '
-           'not a statement about regret.'),
-          ('Bernadette has made a profit by selling works she bought early.',
-           ['Yes', 'No', 'Not Given'], 1,
-           'She says she has not sold one, to her accountant’s '
-           'exasperation.')])],
+          ('Thandiwe regrets her purchase.',
+           ['Yes', 'No', 'Not Given'], 2,
+           'She says she has not asked herself whether she likes it, '
+           'which is not a statement about regret.',
+           {0: 'Yes would need regret; she says she has not asked '
+               'herself the question.', 1: 'No would need satisfaction, which she also does not '
+               'claim.'}),
+          (
+           'Bernadette has made a profit by selling works she bought '
+           'early.', ['Yes', 'No', 'Not Given'], 1,
+           'She says she has not sold one, to her accountant\u2019s '
+           'exasperation.',
+           {0: 'Yes would need a sale; she says she has not sold one.', 2: 'Not Given is wrong because her selling is addressed.'})])],
    listen=[
     dict(heading='A short talk: what people pay for', part='Part 2',
          task='A talk at a collectors’ evening', band='l2',
@@ -982,14 +988,22 @@ UNIT = dict(
             'What the pigment settled'], 1,
            'Distributed expert judgement with no mechanism for pooling '
            'doubt.'),
-          ('The writer believes connoisseurship should be replaced by '
-           'scientific analysis.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 3 calls that conclusion too quick and gives the limits '
-           'of analysis.'),
+          (
+           'The writer believes connoisseurship should be replaced by '
+           'scientific analysis.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 3 calls that conclusion too quick and gives the '
+           'limits of analysis.',
+           {0: 'Yes would need replacement; paragraph 3 gives the '
+               'limits of analysis.', 2: 'Not Given is wrong because the relationship between '
+               'the two is argued.'}),
           ('The writer believes the gallery acted dishonestly.',
            ['Yes', 'No', 'Not Given'], 2,
-           'Nothing addresses the gallery’s honesty; the criticism is of '
-           'speed and of an unexamined assumption.'),
+           'Nothing addresses the gallery\u2019s honesty; the criticism is '
+           'of speed and of an unexamined assumption.',
+           {0: 'Yes would need dishonesty; the criticism is of speed '
+               'and an unexamined assumption.', 1: 'No would need a defence of the gallery, which is not '
+               'offered.'}),
           ('Doubts were recorded in print in 1974, 1988 and ____________.',
            None, '2004',
            'Paragraph 4, by three specialists, none of whom used the word '
@@ -1286,14 +1300,23 @@ UNIT = dict(
            ['Paragraph 5', 'Paragraph 6', 'Paragraph 7', 'Paragraph 8'], 3,
            'Paragraph 8: institutions respond to attribution, visitors to the '
            'object.'),
-          ('The writer believes one of the three accounts is correct and the '
-           'others wrong.', ['Yes', 'No', 'Not Given'], 1,
-           'Paragraph 7 says the accounts are not exclusive and the best '
-           'position uses all three.'),
-          ('The writer believes museums should never move a reattributed work '
-           'to storage.', ['Yes', 'No', 'Not Given'], 2,
-           'He describes the mismatch without saying what museums should '
-           'do.'),
+          (
+           'The writer believes one of the three accounts is correct '
+           'and the others wrong.',
+           ['Yes', 'No', 'Not Given'], 1,
+           'Paragraph 7 says the accounts are not exclusive and the '
+           'best position uses all three.',
+           {0: 'Yes would need exclusivity; paragraph 7 says the best '
+               'position uses all three.', 2: 'Not Given is wrong because the accounts are compared.'}),
+          (
+           'The writer believes museums should never move a '
+           'reattributed work to storage.',
+           ['Yes', 'No', 'Not Given'], 2,
+           'He describes the mismatch without saying what museums '
+           'should do.',
+           {0: 'Yes would need a rule; he describes the mismatch '
+               'without prescribing.', 1: 'No would need him to endorse moving them, which he '
+               'does not.'}),
           ('On the historical account, a painting is compared to a '
            '____________.', None, 'relic',
            'Paragraph 3, where the aesthetic experience is partly an '
