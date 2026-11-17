@@ -68,16 +68,22 @@ UNIT = dict(
           'pounds a session or twenty-one pounds for ten, and bats are '
           'provided.'],
          items=[
-          ('The swimming club meets on Tuesday and ____________.',
-           None, 'Thursday', 'From seven until eight in the evening.'),
-          ('Swimming is for ages eight to ____________.', None,
-           'sixteen', 'And membership is forty pounds a term.'),
+          ('The swimming club meets twice a week.',
+           ['True', 'False', 'Not Given'], 0,
+           'Tuesday and Thursday, seven until eight.',
+           {1: 'Two evenings are named in the entry itself.', 2: 'Both evenings are printed in the list.'}),
+          ('A child of seven may join the swimming club.',
+           ['True', 'False', 'Not Given'], 1,
+           'The entry says ages eight to sixteen.',
+           {0: 'Seven is below the lower age the entry gives.', 2: 'The ages are printed in the entry itself.'}),
           ('Where does the running group start?', None, 'reception',
            'At nine o clock on Saturday morning.'),
           ('The group waits for everybody who ____________ in.', None,
            'signed', 'It does not start until they have all arrived.'),
-          ('Ten table tennis sessions cost ____________ pounds.', None,
-           'twenty-one', 'Against four pounds for a single session.')])],
+          ('Ten table tennis sessions cost less than ten single ones.',
+           ['True', 'False', 'Not Given'], 0,
+           'Twenty-one pounds against forty, at four each.',
+           {1: 'Ten singles at four pounds come to forty.', 2: 'Both prices are given in the entry.'})])],
    listen=[
     dict(heading='Signing up for a club', part='Part 1',
          task='A conversation at a leisure centre · note completion', band='l1',
@@ -206,6 +212,25 @@ UNIT = dict(
     dict(heading='Match day: finding your way round the ground',
          kind='Ground notice', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 11-15',
+         bank=['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'],
+         banklabel='Write the letter from the plan of the ground',
+         figure={'kind': 'map',
+           'panels': [('The plan, with eight lettered parts',
+                       [(0.4, 0.03, 0.18, 0.09, 'A', 'new'),
+                        (0.17, 0.03, 0.18, 0.09, 'B', 'building'),
+                        (0.64, 0.03, 0.13, 0.09, 'H', 'new'),
+                        (0.04, 0.4, 0.12, 0.22, 'C', 'building'),
+                        (0.84, 0.36, 0.12, 0.3, 'D', 'building'),
+                        (0.26, 0.3, 0.48, 0.4, 'G', 'green'),
+                        (0.58, 0.78, 0.22, 0.13, 'E', 'new'),
+                        (0.84, 0.78, 0.13, 0.13, 'F', 'building')],
+                       [(0.0,
+                         0.96,
+                         1.0,
+                         0.96,
+                         'Footpath from the station')])],
+           'sub': 'north is at the top',
+           'title': 'The ground on a match day'},
          paras=[
           'The ticket office is at the north end, beside the north '
           'stand. Collect tickets there up to an hour before the start, '
@@ -218,18 +243,16 @@ UNIT = dict(
           'beside it, and the footpath from the station comes in along '
           'the south edge of the ground.'],
          items=[
-          ('The ticket office is at the ____________ end.', None,
-           'north', 'Beside the north stand, the notice says.'),
-          ('Tickets are collected at the ____________ after that '
-           'time.', None, 'gate',
-           'Up to an hour before, at the ticket office.'),
-          ('The club shop is on the ____________ side.', None, 'west',
-           'Next to the pitch, opposite the east stand.'),
-          ('Which building is new?', None, 'reception',
-           'In the south corner, with first aid and lost property.'),
-          ('The footpath from the station comes in along the '
-           '____________ edge.', None, 'south',
-           'Beside the car park and reception.')])],
+          ('The ticket office.', None, 'A',
+           'At the north end, beside the north stand.'),
+          ('Where tickets are collected in the last hour.', None, 'H',
+           'At the gate, once the ticket office has closed.'),
+          ('The club shop.', None, 'C',
+           'On the west side, next to the pitch.'),
+          ('The new building, with first aid in it.', None, 'E',
+           'Reception, in the south corner of the ground.'),
+          ('The car park.', None, 'F',
+           'Beside reception, by the southern footpath.')])],
    listen=[
     dict(heading='Finding your seat', part='Part 1',
          task='A conversation with a steward · note completion', band='l1',
@@ -393,23 +416,23 @@ UNIT = dict(
           'the hardest part was six weeks of being the worst person in '
           'the room.'],
          items=[
-          ('Who learned something new as an adult?',
-           ['Ana', 'Bilal', 'Cora'], 2,
-           'Cora joined the band at fifty-one.',
-           {0: 'Ana repaired bicycles before she was an adult.', 1: 'Bilal has grown vegetables since childhood.'}),
+          ('Which is the best heading for paragraph 1?',
+           ['A hobby that began as a cost', 'Two hours nobody can interrupt', 'Starting from nothing at fifty-one', 'A band that meets on Wednesdays'],
+           0, 'Thirty pounds for a cable, so she learned to do it.',
+           {1: 'Two hours nobody can interrupt is paragraph 2.', 2: 'Starting from nothing at fifty-one is paragraph 3.', 3: 'The band on Wednesdays is also paragraph 3.'}),
           ('Who started because of a cost?', ['Ana', 'Bilal', 'Cora'],
            0, 'Ana was charged thirty pounds for a cable.',
            {1: 'Bilal started for the time it gave him.', 2: 'Cora started to learn something new.'}),
-          ('Who values the hobby for the time rather than the result?',
-           ['Ana', 'Bilal', 'Cora'], 1,
-           'Bilal says the vegetables are not the point.',
-           {0: 'Ana values the money a repair saves.', 2: 'Cora values being taught something at fifty-one.'}),
+          ('Which is the best heading for paragraph 2?',
+           ['Repairs for friends', 'Time rather than vegetables', 'Six weeks of being the worst', 'The price of the parts'],
+           1, 'The point is two hours in which nothing can be hurried.',
+           {0: 'Repairs for friends is paragraph 1.', 2: 'Six weeks of being the worst is paragraph 3.', 3: 'The price of the parts is paragraph 1.'}),
           ('How often does Ana repair a bicycle?', None, 'one a week',
            'For friends, taking only the cost of parts.'),
-          (
-           'Cora found it hardest to be the worst person in the '
-           '____________.', None, 'room',
-           'For the first six weeks, she says.')])],
+          ('Which is the best heading for paragraph 3?',
+           ['An allotment ten minutes away', 'A kitchen full of bicycles', 'Learning an instrument late', 'Taking nothing for the work'],
+           2, 'She joined at fifty-one having never played anything.',
+           {0: 'The allotment is paragraph 2.', 1: 'The kitchen full of bicycles is paragraph 1.', 3: 'Taking nothing for the work is paragraph 1.'})])],
    listen=[
     dict(heading='A talk about starting a hobby', part='Part 2',
          task='One speaker giving advice · note completion', band='l2',
@@ -833,12 +856,19 @@ UNIT = dict(
           'will always tell you that whatever the survivors did is '
           'what works.'],
          items=[
-          ('Specialisers are ahead at twelve and behind at '
-           '____________.', None, 'twenty-one',
-           'Paragraph 2, and level at sixteen.'),
-          ('Specialisers drop out at about ____________ the rate.',
-           None, 'twice', 'Paragraph 2, as well as being injured '
-           'more.'),
+          (
+           'Studies that follow children forward find that '
+           'specialisers are',
+           ['ahead at every age', 'ahead at twelve and behind at twenty-one', 'behind from the start', 'level throughout'],
+           1,
+           'Ahead at twelve, level at sixteen, behind at twenty-one.',
+           {0: 'The same studies find them behind by twenty-one.', 2: 'They are ahead at twelve, so not behind from the '
+               'start.', 3: 'Level is the finding at sixteen only, between the two.'}),
+          ('Specialisers drop out of sport altogether at about',
+           ['the same rate as others', 'half the rate', 'twice the rate', 'ten times the rate'],
+           2, 'As well as being injured considerably more often.',
+           {0: 'The passage gives a difference, not the same rate.', 1: 'Half the rate would make specialising safer, not '
+               'riskier.', 3: 'Ten times is far more than the passage claims.'}),
           ('Which paragraph explains why the two sides disagree?',
            ['Paragraph 2', 'Paragraph 3', 'Paragraph 1'], 2,
            'They are usually counting different people.',
@@ -847,9 +877,12 @@ UNIT = dict(
           ('A child playing four sports develops a wider set of '
            'movement ____________.', None, 'strategies',
            'Paragraph 2, as well as general strength.'),
-          ('Early specialisation is genuinely needed where the career '
-           'is over by ____________.', None, 'twenty-five',
-           'Paragraph 3, in a small number of sports.'),
+          ('Early specialisation is genuinely needed in sports where',
+           ['the career is over by twenty-five', 'children are strongest', 'injuries are rare', 'four sports are played'],
+           0, 'A small number of sports, the passage says.',
+           {1: 'Strength in children is the argument for playing '
+               'several sports.', 2: 'Specialisers are injured more, not less, in this '
+               'passage.', 3: 'Playing four sports is the opposite of specialising.'}),
           (
            'What is wrong with studying only those who reached the '
            'top?',

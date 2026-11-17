@@ -59,8 +59,11 @@ UNIT = dict(
           'languages are spoken at home, and he answers in whichever '
           'language the question was asked in.'],
          items=[
-          ('How many adults live in the house?', None, 'four',
-           'Paragraph 1, with one child as well.'),
+          ('Five people live in the Okoro house.',
+           ['True', 'False', 'Not Given'], 0,
+           'Four adults and one child, the first line says.',
+           {1: 'Four adults and one child make five, so this is not '
+               'false.', 2: 'Both numbers are given, so this is not left out.'}),
           ('What is Grace’s job?', None, 'a nurse',
            'Paragraph 1, and she works nights.'),
           ('Where does Femi teach on Saturdays?', None, 'the library',
@@ -361,16 +364,24 @@ UNIT = dict(
           'job but a journey, because the machine is in the bathroom '
           'and the line is in the garden.'],
          items=[
-          ('Grace cooks on Monday and ____________.', None, 'Thursday',
-           'Those are the nights she does not work.'),
+          ('Which is the best heading for paragraph 2?',
+           ['Who cooks on which day', 'The card on the kitchen door', 'Daniel\'s jobs', 'The washing and where it goes'],
+           0, 'Grace, Femi, and the two of them at the weekend.',
+           {1: 'The card is paragraph 1, along with the rule.', 2: 'Daniel\'s jobs are the subject of paragraph 3.', 3: 'The washing and where it goes is paragraph 4.'}),
           ('Who cooks on Friday?', None, 'Femi',
            'Tuesday and Friday are his nights.'),
-          ('Daniel carries out the bins on ____________.', None,
-           'Wednesday', 'He also sets the table every day.'),
+          ('Which is the best heading for paragraph 3?',
+           ['The weekend', 'Bins, the table and the milk money', 'Who is at home', 'The machine and the line'],
+           1, 'Three jobs, one of them now serious.',
+           {0: 'The weekend is the last sentence of paragraph 2.', 2: 'Who is at home is the rule in paragraph 1.', 3: 'The machine and the line are paragraph 4.'}),
           ('What does Daniel keep the accounts for?', None,
            'the milk money', 'It began as a joke and is now serious.'),
-          ('Adaeze does the washing on ____________.', None, 'Tuesday',
-           'And anything else that cannot wait.')])],
+          ('Which is the best heading for paragraph 4?',
+           ['A job that is a journey', 'Cooking together', 'Setting the table', 'The rule on the card'],
+           0,
+           'The machine is in the bathroom and the line in the garden.',
+           {1: 'Cooking together is in paragraph 2.', 2: 'Setting the table is one of Daniel\'s jobs in paragraph '
+               '3.', 3: 'The rule on the card is paragraph 1.'})])],
    listen=[
     dict(heading='Sharing the jobs at home', part='Part 2',
          task='One speaker describing a system · short answer and sentence completion', band='l2',

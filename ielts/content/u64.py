@@ -62,15 +62,23 @@ UNIT = dict(
           ('Which till does not take cards?', ['A', 'B', 'C', 'D'], 0,
            'Notice A: the card machine is out of use.',
            {1: 'Notice B asks customers to have a card ready.', 2: 'Notice C limits the till to baskets of nine items.', 3: 'Notice D is about receipts for refunds.'}),
-          ('When does the new card machine arrive?', None, 'Friday',
-           'Notice A, which calls it a replacement.'),
-          ('What is the most items allowed at till C?', None, 'nine',
-           'Notice C: baskets only, nine items or fewer.'),
+          ('A new card machine is expected before the weekend.',
+           ['True', 'False', 'Not Given'], 0,
+           'Notice A says a replacement arrives on Friday.',
+           {1: 'The notice names a day, and Friday is before the '
+               'weekend.', 2: 'The day is printed on the notice, so it is not left '
+               'out.'}),
+          ('A customer with ten items may use till C.',
+           ['True', 'False', 'Not Given'], 1,
+           'Notice C allows nine items or fewer.',
+           {0: 'Ten is more than the nine the notice allows.', 2: 'The limit is printed on the notice itself.'}),
           ('Which till is the busiest?', ['A', 'B', 'C', 'D'], 1,
            'Notice B: twice as many customers as the others.',
            {0: 'Notice A is the till with no card machine.', 2: 'Notice C is the baskets-only till.', 3: 'Notice D is about receipts for refunds.'}),
-          ('What do you need for a refund?', None, 'a receipt',
-           'Notice D, which asks you to keep the page.')])],
+          ('A refund can be given without a receipt.',
+           ['True', 'False', 'Not Given'], 1,
+           'Notice D says receipts are needed for any refund.',
+           {0: 'The notice says the opposite of this.', 2: 'The notice states the rule, so it is not left out.'})])],
    listen=[
     dict(heading='Paying at the till', part='Part 1',
          task='A short exchange at a supermarket till · note completion', band='l1',
@@ -194,6 +202,7 @@ UNIT = dict(
     dict(heading='Half price this week: a sale poster',
          kind='Poster', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 11-15',
+         qkind=('note/table/flow-chart completion',),
          paras=[
           'Half price on all winter coats until Saturday. The price on '
           'the label is the price you pay: nothing is added at the '
@@ -364,16 +373,20 @@ UNIT = dict(
           'faulty. That is not our rule but the law, and the '
           'alternative every shop follows.'],
          items=[
-          ('Goods may be returned within ____________ days with a '
-           'receipt.', None, 'fourteen',
-           'Paragraph 1, and only exchanged without one.'),
-          ('Faulty goods may be returned within a ____________.', None,
-           'year', 'Paragraph 2, and the law decides, not the shop.'),
+          ('Which is the best heading for paragraph 1?',
+           ['Returning with a receipt, and without one', 'Faulty goods and the law', 'Electrical goods and their parts', 'Earrings and food'],
+           0, 'Fourteen days with a receipt; exchange without one.',
+           {1: 'Faulty goods are paragraph 2, where the law decides.', 2: 'Electrical goods and their parts are paragraph 3.', 3: 'Earrings and food are the subject of paragraph 4.'}),
+          ('Which is the best heading for paragraph 2?',
+           ['What cannot be returned at all', 'When the law overrides the shop policy', 'Keeping the guide and the cable', 'The fourteen-day rule'],
+           1, 'A year for faulty goods, whatever the policy says.',
+           {0: 'What cannot be returned at all is paragraph 4.', 2: 'The guide and the cable are paragraph 3.', 3: 'The fourteen-day rule is paragraph 1.'}),
           ('After thirty days, who chooses between repair and refund?',
            None, 'the shop', 'Paragraph 2: the choice is theirs.'),
-          ('Electrical goods must come back with the guide and any '
-           '____________.', None, 'cable',
-           'Paragraph 3: an item without its parts cannot be resold.'),
+          ('Which is the best heading for paragraph 3?',
+           ['Returning a coat', 'What must come back with the item', 'Refunds after thirty days', 'Goods that are never returnable'],
+           1, 'The guide and any cable, or it cannot be sold again.',
+           {0: 'No coat is mentioned anywhere in this text.', 2: 'The thirty days are in paragraph 2.', 3: 'Goods that are never returnable are paragraph 4.'}),
           ('Which cannot be returned unless faulty?',
            ['coats', 'electrical goods', 'food', 'books'], 2,
            'Paragraph 4, along with earrings.',

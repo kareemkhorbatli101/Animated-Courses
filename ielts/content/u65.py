@@ -78,18 +78,24 @@ UNIT = dict(
           'at night. There is no service on 25 or 26 December. Tickets '
           'bought on the train cost one pound more per journey.'],
          items=[
-          ('Trains to Kelbridge leave at ____________ minutes past the '
-           'hour.', None, 'twelve',
-           'Paragraph 1: every hour, at the same minute.'),
+          ('Trains to Kelbridge leave at the same minute every hour.',
+           ['True', 'False', 'Not Given'], 0,
+           'Twelve minutes past each hour, paragraph 1.',
+           {1: 'The board gives one departure minute for every hour.', 2: 'The pattern is printed on the board itself.'}),
           ('The journey to Kelbridge takes ____________ minutes.', None,
            'fifty-two', 'Paragraph 1, and a single costs eleven '
            'pounds.'),
-          ('A return to Kelbridge costs twelve pounds ____________.',
-           None, 'forty', 'Paragraph 1, against eleven for a single.'),
+          ('A return to Kelbridge costs less than two singles.',
+           ['True', 'False', 'Not Given'], 0,
+           'Twelve pounds forty against twenty-two pounds.',
+           {1: 'Two singles at eleven pounds come to more than the '
+               'return.', 2: 'Both fares are printed, so the comparison can be made.'}),
           ('The Marsden fare rose in ____________.', None, 'April',
            'Paragraph 2, to nine pounds eighty.'),
-          ('Tickets bought on the train cost ____________ pound more.',
-           None, 'one', 'Paragraph 3, for each journey.')])],
+          ('Tickets cost the same on the train as at the station.',
+           ['True', 'False', 'Not Given'], 1,
+           'One pound more per journey on the train.',
+           {0: 'The board says they cost more on the train.', 2: 'The difference is stated at the end of the board.'})])],
    listen=[
     dict(heading='Buying a return ticket', part='Part 1',
          task='A conversation at a ticket window · note completion', band='l1',
@@ -415,20 +421,27 @@ UNIT = dict(
           'for the smaller stations are taken on by taxi, which is '
           'arranged at the station and not by you.'],
          items=[
-          ('If your train is cancelled you may travel on the '
-           '____________ service.', None, 'next',
-           'Paragraph 1, at no extra cost.'),
+          ('Which is the best heading for paragraph 1?',
+           ['Travelling on the next train', 'Claiming money back', 'Buses and taxis', 'Buying a ticket in advance'],
+           0,
+           'The next service at no extra cost, with your ticket shown.',
+           {1: 'Claiming money back is paragraph 2.', 2: 'Buses and taxis are paragraph 3.', 3: 'Buying in advance is not the subject of this notice.'}),
           ('You must show your ticket and the cancellation '
            '____________.', None, 'message',
            'Paragraph 1, shown to the staff with the ticket.'),
-          ('Arriving more than thirty minutes late means '
-           '____________ the fare back.', None, 'half',
-           'Paragraph 2, or the whole fare after an hour.'),
+          ('Which is the best heading for paragraph 2?',
+           ['What the staff will do', 'How much you can claim, and when', 'Passengers for the smaller stations', 'Cancelled services'],
+           1, 'Half the fare, the whole fare, and twenty-eight days.',
+           {0: 'What the staff do is in paragraph 1, when you show the '
+               'ticket.', 2: 'The smaller stations are paragraph 3.', 3: 'Cancellation is the subject of the whole notice, not '
+               'of this paragraph.'}),
           ('Claims must be made within ____________ days.', None,
            'twenty-eight', 'Paragraph 2, after the journey.'),
-          ('Passengers for smaller stations are taken on by '
-           '____________.', None, 'taxi',
-           'Paragraph 3, arranged by the railway.')])],
+          ('Which is the best heading for paragraph 3?',
+           ['When no train runs at all', 'The thirty-minute rule', 'Showing your ticket to the staff', 'Tickets for a particular train'],
+           0, 'A bus, and a taxi for the smaller stations.',
+           {1: 'The thirty-minute rule is paragraph 2.', 2: 'Showing your ticket is paragraph 1.', 3: 'A ticket for a particular train is mentioned in '
+               'paragraph 1.'})])],
    listen=[
     dict(heading='A delayed bus', part='Part 2',
          task='An announcement at a bus station · note completion', band='l2',
@@ -618,6 +631,7 @@ UNIT = dict(
          kind='Short factual article',
          task='Short answer, sentence completion and matching information',
          band='acad', qtype='Questions 31-36',
+         qkind=('note/table/flow-chart completion',),
          paras=[
           'Every city solves the same problem with some mixture of '
           'four answers: buses, trams or trains, bicycles, and cars. '

@@ -60,17 +60,23 @@ UNIT = dict(
           'having difficulty breathing. That is an emergency and '
           'neither of the other numbers is right for it.'],
          items=[
-          ('The surgery closes at half past ____________.', None,
-           'six', 'It opens at eight, Monday to Friday.'),
-          ('Same-day appointments appear online at ____________.',
-           None, 'seven', 'And by telephone an hour later, at eight.'),
+          ('The surgery closes at the same time every weekday.',
+           ['True', 'False', 'Not Given'], 0,
+           'Half past six, Monday to Friday, in paragraph 1.',
+           {1: 'One closing time is given for all five days.', 2: 'The time and the days are both stated.'}),
+          (
+           'Same-day appointments appear online before they appear by '
+           'telephone.', ['True', 'False', 'Not Given'], 0,
+           'Seven in the morning online and eight by telephone.',
+           {1: 'Seven in the morning is earlier than eight.', 2: 'Both times are given in paragraph 2.'}),
           ('Which number should you ring when the surgery is closed?',
            None, '111', 'And 999 only in a real emergency.'),
           ('Name one reason to ring 999.', None, 'heavy bleeding',
            'Or unconsciousness, or difficulty breathing.'),
-          ('The busiest time on the telephone is the first '
-           '____________ minutes.', None, 'twenty',
-           'That is, from eight until twenty past.')])],
+          ('The telephone lines are busiest in the afternoon.',
+           ['True', 'False', 'Not Given'], 1,
+           'The first twenty minutes after eight are the busiest.',
+           {0: 'The busiest time given is the start of the morning.', 2: 'The busiest period is stated in paragraph 1.'})])],
    listen=[
     dict(heading='Making an appointment', part='Part 1',
          task='A telephone call to a surgery · note completion', band='l1',
@@ -384,17 +390,20 @@ UNIT = dict(
          items=[
           ('How many minutes of walking, five days a week?', None,
            'twenty', 'That produces most of the benefit available.'),
-          ('Brisk means you can speak but not ____________.', None,
-           'sing', 'A simple test of the right speed.'),
+          ('Which is the best heading for paragraph 1?',
+           ['How much, how often, and how fast', 'The first thing to improve', 'Two blocks instead of one', 'When to ask a nurse first'],
+           0, 'Twenty minutes, five days, and the speaking test.',
+           {1: 'The first thing to improve is paragraph 2.', 2: 'Two blocks instead of one is paragraph 3.', 3: 'When to ask a nurse is paragraph 4.'}),
           ('The first improvement usually appears in ____________.',
            None, 'sleep', 'Within a fortnight of starting.'),
-          ('Two blocks of ____________ minutes work as well as one of '
-           'twenty.', None, 'ten',
-           'Which fits into a working day more easily.'),
-          (
-           'Anybody with ____________ pain should speak to a nurse '
-           'first.', None, 'chest',
-           'Or anybody breathing harder than the leaflet describes.')])],
+          ('Which is the best heading for paragraph 3?',
+           ['Sleep before weight', 'Ten minutes twice over', 'Chest pain and what to do', 'The speaking test'],
+           1, 'Two tens work as well as one twenty, and fit a day.',
+           {0: 'Sleep before weight is paragraph 2.', 2: 'Chest pain is the subject of paragraph 4.', 3: 'The speaking test is in paragraph 1.'}),
+          ('Which is the best heading for paragraph 4?',
+           ['The one condition to check first', 'How long weight takes', 'Walking five days a week', 'Fitting it into a working day'],
+           0, 'Chest pain, and everything else can start today.',
+           {1: 'How long weight takes is paragraph 2.', 2: 'Walking five days a week is paragraph 1.', 3: 'Fitting it into a working day is paragraph 3.'})])],
    listen=[
     dict(heading='Joining the sports centre', part='Part 1',
          task='A conversation at a reception desk · note completion', band='l1',

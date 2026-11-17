@@ -66,8 +66,11 @@ UNIT = dict(
           'pence. Children under five eat free with an adult, and we '
           'have several high chairs.'],
          items=[
-          ('The cafe opens at ____________ on Sunday.', None, 'nine',
-           'Paragraph 1: seven on other days, nine on Sunday.'),
+          ('The cafe opens at the same time every day.',
+           ['True', 'False', 'Not Given'], 1,
+           'Seven on Monday to Saturday, and nine on Sunday.',
+           {0: 'The text gives two different opening times, not one.', 2: 'Both opening times are stated, so this is not left '
+               'out.'}),
           ('Breakfast is served until ____________.', None, 'eleven',
            'Paragraph 2, which is the first line about breakfast.'),
           ('How much is a bowl of soup with bread?', None, 'four pounds',
@@ -215,17 +218,23 @@ UNIT = dict(
           'payment, but a card machine is slow on Saturday morning, when '
           'the queue is long and the market is busy.'],
          items=[
-          ('Potatoes cost ____________ pence a kilogram this week.',
-           None, 'sixty', 'Paragraph 1: down from eighty.'),
+          ('Potatoes this week cost',
+           ['eighty pence a kilogram', 'sixty pence a kilogram', 'one pound twenty a kilogram', 'ninety pence a kilogram'],
+           1, 'Down from eighty, the first line says.',
+           {0: 'Eighty pence was last week\'s price, not this week\'s.', 2: 'One pound twenty is the price of a bunch of bananas.', 3: 'Ninety pence is not a price given in this text.'}),
           ('Which vegetable has not changed in price?', None, 'carrots',
            'Paragraph 1, the same price as last week.'),
-          ('A bunch of bananas costs ____________.', None,
-           'one pound twenty', 'Paragraph 2, the first item in it.'),
+          ('A bunch of bananas costs',
+           ['sixty pence', 'one pound twenty', 'two pounds', 'one pound fifty'],
+           1, 'Paragraph 2, the first item in it.',
+           {0: 'Sixty pence is the price of a kilogram of potatoes.', 2: 'Two pounds is the price of a bag of apples.', 3: 'One pound fifty is not a price in this text.'}),
           ('A bag of apples holds roughly ____________ kilograms.',
            None, '1.5',
            'Paragraph 2: roughly a kilogram and a half, so 1.5.'),
-          ('The card machine is slow on ____________ morning.', None,
-           'Saturday', 'Paragraph 3, when the queue is long.')])],
+          ('The card machine is slow',
+           ['every morning', 'on Saturday morning', 'when there is no minimum', 'on Sunday'],
+           1, 'When the queue is long and the market is busy.',
+           {0: 'The text names one morning, not every morning.', 2: 'Having no minimum is a separate fact about cards.', 3: 'Sunday is not mentioned in this text at all.'})])],
    listen=[
     dict(heading='At the market stall', part='Part 1',
          task='A conversation at a market · note completion', band='l1',
@@ -378,16 +387,23 @@ UNIT = dict(
           'Put the rice on two plates and the eggs on top. Eat it hot, '
           'and cook only what you need.'],
          items=[
-          ('The meal takes ____________ minutes.', None, 'twenty',
-           'Paragraph 1, the first line of the recipe.'),
+          ('Which is the best heading for paragraph 2?',
+           ['Cooking the rice', 'What you need', 'Serving the meal', 'How long it takes'],
+           0, 'Paragraph 2 washes the rice and boils it.',
+           {1: 'What you need is paragraph 1, before the method '
+               'begins.', 2: 'Serving the meal is the last paragraph.', 3: 'The time is given in paragraph 1 with the ingredients.'}),
           ('How many eggs do you need?', None, 'four',
            'Paragraph 1, in the list of what you need.'),
-          ('Wash the rice until the water is ____________.', None,
-           'clear', 'Paragraph 2, the first step of the method.'),
+          ('Which is the best heading for paragraph 3?',
+           ['Washing the rice', 'The tomatoes and the eggs', 'What to buy', 'Eating it hot'],
+           1, 'Paragraph 3 cuts, fries and mixes them.',
+           {0: 'Washing the rice is paragraph 2.', 2: 'What to buy is the list in paragraph 1.', 3: 'Eating it hot is the last line of paragraph 4.'}),
           ('Boil the rice for ____________ minutes.', None, 'twelve',
            'Paragraph 2, and the lid stays on.'),
-          ('Fry the tomatoes for ____________ minutes.', None, 'three',
-           'Paragraph 3, while the rice is cooking.')])],
+          ('Which is the best heading for paragraph 4?',
+           ['Putting it together', 'Boiling the rice', 'The list of ingredients', 'Frying the tomatoes'],
+           0, 'Paragraph 4 plates it and says to eat it hot.',
+           {1: 'Boiling the rice is paragraph 2.', 2: 'The list of ingredients is paragraph 1.', 3: 'Frying the tomatoes is paragraph 3.'})])],
    listen=[
     dict(heading='How I make my soup', part='Part 2',
          task='One speaker describing a method · sentence completion and short answer', band='l2',
@@ -560,6 +576,7 @@ UNIT = dict(
                  'They are the shape of the whole text.',
                  'Then read for the number beside each stage: days, '
                  'degrees, kilometres.']),
+         qkind=('note/table/flow-chart completion',),
          paras=[
           'Most of the food in a British supermarket has passed through '
           'four stages, and the whole journey is shorter than people '

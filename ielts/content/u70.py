@@ -70,17 +70,23 @@ UNIT = dict(
           'with ice on untreated roads and a strong wind from the '
           'north.'],
          items=[
-          ('Monday night falls to ____________ degree(s).', None,
-           'one', 'The high on Monday is twelve degrees.'),
+          ('Monday night is colder than Monday daytime.',
+           ['True', 'False', 'Not Given'], 0,
+           'A high of twelve and a night down to one.',
+           {1: 'One degree is colder than twelve degrees.', 2: 'Both figures are given for Monday.'}),
           ('Rain arrives on ____________.', None, 'Wednesday',
            'From the west, heavy at times.'),
           ('The rain reaches the coast by the middle of the '
            '____________.', None, 'morning',
            'And it clears away by the evening.'),
-          ('The warmest day is ____________.', None, 'Wednesday',
-           'At fifteen degrees, the day the rain comes.'),
-          ('The coldest night is ____________ night, at minus two.',
-           None, 'Thursday', 'With ice forming on untreated roads.')])],
+          ('Wednesday is the warmest day of the week.',
+           ['True', 'False', 'Not Given'], 0,
+           'Fifteen degrees, against twelve earlier in the week.',
+           {1: 'Fifteen is the highest figure in the forecast.', 2: 'Every day in the forecast carries a figure.'}),
+          ('There will be ice on every road on Thursday night.',
+           ['True', 'False', 'Not Given'], 1,
+           'The forecast says ice on untreated roads.',
+           {0: 'Only untreated roads are mentioned, not every road.', 2: 'The forecast says which roads, so it is not left out.'})])],
    listen=[
     dict(heading='What shall we wear?', part='Part 1',
          task='A conversation at home · note completion', band='l1',
@@ -215,6 +221,7 @@ UNIT = dict(
     dict(heading='What to pack: a list for a cold country',
          kind='Packing list', task='Short answer, sentence completion and matching features',
          band='gt_short', qtype='Questions 11-15',
+         qkind=('note/table/flow-chart completion',),
          paras=[
           'Three thin layers are warmer than one thick one and they can '
           'be taken off. The thin layer next to the skin matters most, '
@@ -398,17 +405,22 @@ UNIT = dict(
           'says it is safe, and photograph the damage before you '
           'remove anything.'],
          items=[
-          ('A warning means flooding is expected within ____________ '
-           'hours.', None, 'two',
-           'Which is why the car is moved beforehand.'),
-          ('____________ centimetres of moving water can take a person '
-           'off their feet.', None, 'fifteen',
-           'And thirty centimetres will float a car.'),
+          ('Which is the best heading for paragraph 1?',
+           ['What to do in the two hours you have', 'Why not to drive through water', 'Where to collect sandbags', 'What to do afterwards'],
+           0, 'Valuables up, medicines up, and the car moved first.',
+           {1: 'Why not to drive through water is paragraph 2.', 2: 'Where to collect sandbags is paragraph 3.', 3: 'What to do afterwards is paragraph 4.'}),
+          ('Which is the best heading for paragraph 2?',
+           ['Moving the car', 'How little water is dangerous', 'Free sandbags', 'The water supply'],
+           1, 'Fifteen centimetres for a person, thirty for a car.',
+           {0: 'Moving the car is in paragraph 1, before the water '
+               'comes.', 2: 'Free sandbags are paragraph 3.', 3: 'The water supply is paragraph 4.'}),
           ('Where do most deaths in floods happen?', None,
            'in vehicles',
            'Among people who thought the crossing was reasonable.'),
-          ('Sandbags are collected from the depot on ____________ '
-           'Lane.', None, 'Mill', 'The sandbags are free of charge.'),
+          ('Which is the best heading for paragraph 4?',
+           ['Before you remove anything', 'Within two hours', 'Deaths in vehicles', 'The depot on Mill Lane'],
+           0, 'Photograph the damage, and wait on the water supply.',
+           {1: 'Within two hours is the warning in paragraph 1.', 2: 'Deaths in vehicles are paragraph 2.', 3: 'The depot on Mill Lane is paragraph 3.'}),
           ('What should you do before removing anything afterwards?',
            None, 'photograph the damage',
            'And wait for the council on the water supply.')])],

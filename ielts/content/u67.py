@@ -61,16 +61,22 @@ UNIT = dict(
          items=[
           ('English for Work is on ____________.', None, 'Tuesday',
            'From six until eight, in room 12.'),
-          ('The English class is limited to ____________ students.',
-           None, 'fifteen', 'The last line of that entry in the list.'),
+          ('The English class takes more than fifteen students.',
+           ['True', 'False', 'Not Given'], 1,
+           'The list limits that class to fifteen students.',
+           {0: 'Fifteen is the limit, so more is not allowed.', 2: 'The limit is printed in the list itself.'}),
           ('Maths stage one is free to anybody who left school before '
            '____________.', None, 'sixteen',
            'Otherwise it costs twenty pounds.'),
-          ('The computing course costs ____________ pounds.', None,
-           'forty', 'And that price includes a book.'),
-          ('Absolute beginners should take the ____________ course.',
-           None, 'Saturday',
-           'Because the Thursday class assumes you can use a mouse.')])],
+          ('The price of the computing course includes a book.',
+           ['True', 'False', 'Not Given'], 0,
+           'Forty pounds, and the list says it includes a book.',
+           {1: 'The list says the price includes a book.', 2: 'The book is mentioned beside the price.'}),
+          (
+           'A complete beginner may join the Thursday computing class.',
+           ['True', 'False', 'Not Given'], 1,
+           'They are accepted on the Saturday course instead.',
+           {0: 'The Thursday class assumes you can use a mouse.', 2: 'The list says where absolute beginners should go.'})])],
    listen=[
     dict(heading='Enrolling on a course', part='Part 1',
          task='A conversation at a college desk · note completion', band='l1',
@@ -198,6 +204,7 @@ UNIT = dict(
     dict(heading='Classroom rules: a poster',
          kind='Poster', task='Sentence completion and short answer',
          band='gt_short', qtype='Questions 11-15',
+         qkind=('note/table/flow-chart completion',),
          paras=[
           'Telephones go in the box by the door. You may take yours out '
           'at the break. If you are expecting an urgent call, tell the '
@@ -386,19 +393,23 @@ UNIT = dict(
           'cannot be marked at all, because by then the whole class has '
           'seen the answers. This is the one rule with no exception.'],
          items=[
-          ('A request made before the deadline is treated as a change '
-           'of ____________.', None, 'plan',
-           'A plan, and it is almost always agreed.'),
+          ('Which is the best heading for paragraph 1?',
+           ['Asking before, and asking after', 'How many times you may ask', 'The rule with no exception', 'Sending it to the department'],
+           0, 'Before is a change of plan; after is an explanation.',
+           {1: 'How many times you may ask is paragraph 2.', 2: 'The rule with no exception is paragraph 3.', 3: 'The department appears in paragraph 2.'}),
           ('Work handed in late without asking is marked but not '
            '____________.', None, 'graded',
            'The request afterwards counts only as an explanation.'),
-          ('A new date may be agreed ____________ a term.', None,
-           'twice', 'A third request goes to the department.'),
+          ('Which is the best heading for paragraph 2?',
+           ['Work that cannot be marked', 'Twice a term, and then the department', 'Marking without grading', 'Speaking to a nurse first'],
+           1, 'Two new dates a term, and a third decided above.',
+           {0: 'Work that cannot be marked is paragraph 3.', 2: 'Marking without grading is in paragraph 1.', 3: 'No nurse appears anywhere in this text.'}),
           ('The new date is usually ____________ days later.', None,
            'seven', 'Agreed with the teacher directly.'),
-          ('Work more than ____________ days late cannot be marked.',
-           None, 'twenty-three',
-           'Because the class has seen the answers by then.')])],
+          ('Which is the best heading for paragraph 3?',
+           ['The twenty-three day limit', 'The seven-day extension', 'Asking before the deadline', 'What counts as a genuine reason'],
+           0, 'By then the whole class has seen the answers.',
+           {1: 'The seven-day extension is paragraph 2.', 2: 'Asking before the deadline is paragraph 1.', 3: 'A genuine reason is mentioned in paragraph 2.'})])],
    listen=[
     dict(heading='Asking for more time', part='Part 1',
          task='A conversation with a teacher · note completion', band='l1',
