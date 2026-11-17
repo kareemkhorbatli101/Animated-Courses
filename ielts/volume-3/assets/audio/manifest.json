@@ -1,0 +1,234 @@
+{
+ "v3/u21/teach/listening/c1p1": {
+  "base": "../assets/audio/v3_u21_teach_listening_c1p1",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": []
+ },
+ "v3/u21/teach/listening/c1p2": {
+  "base": "../assets/audio/v3_u21_teach_listening_c1p2",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": []
+ },
+ "v3/u21/teach/listening/c2p2": {
+  "base": "../assets/audio/v3_u21_teach_listening_c2p2",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": []
+ },
+ "v3/u21/teach/listening/c2p3": {
+  "base": "../assets/audio/v3_u21_teach_listening_c2p3",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": []
+ },
+ "v3/u21/teach/listening/c3p4": {
+  "base": "../assets/audio/v3_u21_teach_listening_c3p4",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": []
+ },
+ "v3/u21/teach/listening/c4p4": {
+  "base": "../assets/audio/v3_u21_teach_listening_c4p4",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": []
+ },
+ "v3/u21/teach/listening/c5p4": {
+  "base": "../assets/audio/v3_u21_teach_listening_c5p4",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": []
+ },
+ "v3/u21/teach/speaking/s1": {
+  "base": "../assets/audio/v3_u21_teach_speaking_s1",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": []
+ },
+ "v3/u21/teach/writing/w1": {
+  "base": "../assets/audio/v3_u21_teach_writing_w1",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": []
+ },
+ "v3/u21/teach/grammar/g1": {
+  "base": "../assets/audio/v3_u21_teach_grammar_g1",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": []
+ },
+ "v3/u21/teach/reading/p1": {
+  "base": "../assets/audio/v3_u21_teach_reading_p1",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": [
+   "read1.mp3",
+   "read2.mp3",
+   "read3.mp3",
+   "read4.mp3"
+  ]
+ },
+ "v3/u21/teach/reading/p2": {
+  "base": "../assets/audio/v3_u21_teach_reading_p2",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": [
+   "read1.mp3",
+   "read2.mp3",
+   "read3.mp3",
+   "read4.mp3"
+  ]
+ },
+ "v3/u21/teach/reading/p3": {
+  "base": "../assets/audio/v3_u21_teach_reading_p3",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": [
+   "read1.mp3",
+   "read2.mp3",
+   "read3.mp3",
+   "read4.mp3"
+  ]
+ },
+ "v3/u21/teach/reading/p4": {
+  "base": "../assets/audio/v3_u21_teach_reading_p4",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": [
+   "read1.mp3",
+   "read2.mp3",
+   "read3.mp3",
+   "read4.mp3",
+   "read5.mp3"
+  ]
+ },
+ "v3/u21/teach/reading/p5": {
+  "base": "../assets/audio/v3_u21_teach_reading_p5",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": [
+   "read1.mp3",
+   "read10.mp3",
+   "read11.mp3",
+   "read2.mp3",
+   "read3.mp3",
+   "read4.mp3",
+   "read5.mp3",
+   "read6.mp3",
+   "read7.mp3",
+   "read8.mp3",
+   "read9.mp3"
+  ]
+ },
+ "v3/u21/teach/reading/p6": {
+  "base": "../assets/audio/v3_u21_teach_reading_p6",
+  "steps": [
+   true,
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "reads": [
+   "read1.mp3",
+   "read10.mp3",
+   "read2.mp3",
+   "read3.mp3",
+   "read4.mp3",
+   "read5.mp3",
+   "read6.mp3",
+   "read7.mp3",
+   "read8.mp3",
+   "read9.mp3"
+  ]
+ }
+}
