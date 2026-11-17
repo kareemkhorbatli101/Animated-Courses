@@ -1,0 +1,3417 @@
+{
+ "v3/u21/teach/listening/c1p1": {
+  "id": "v3/u21/teach/listening/c1p1",
+  "kind": "listening",
+  "book": "v3",
+  "unit": 21,
+  "title": "Note completion: predict the form before the voice starts",
+  "one_line": "You can know the shape of every answer before you hear a word.",
+  "sources": {
+   "script": "21/1/1",
+   "passage": null,
+   "questions": [
+    "v3/u21/listening/10",
+    "v3/u21/listening/11",
+    "v3/u21/listening/12",
+    "v3/u21/listening/13",
+    "v3/u21/listening/14"
+   ],
+   "skill_box": null,
+   "quotes": []
+  },
+  "steps": [
+   {
+    "say": "This is a telephone enquiry and the task is note completion. Five gaps, one word or a number each, and they come in the order you hear them.",
+    "show": "form",
+    "anchor": null,
+    "seconds": 8
+   },
+   {
+    "say": "Before the recording starts you have time, and the only useful thing to do with it is predict the FORM of each answer. Not the word - the kind of word.",
+    "show": "predict",
+    "anchor": null,
+    "seconds": 9
+   },
+   {
+    "say": "A family name will be spelled out. A grade will be letters. A month will be a month. A number of weeks will be a small number. You now know four of five shapes.",
+    "show": "shapes",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "Why this matters: if you are listening for a month and you hear a month, you write it. If you are listening for anything at all, you hear everything and write nothing.",
+    "show": "why",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "One warning for this recording. A speaker who spells a name is telling you the answer is the name - but they often say it once before spelling it. Write it, then check the letters.",
+    "show": "spell",
+    "anchor": null,
+    "seconds": 11
+   },
+   {
+    "say": "And it is played once. If you miss one, leave it and move to the next gap. The commonest way to lose three marks is to spend the time hunting for one.",
+    "show": "once",
+    "anchor": null,
+    "seconds": 10
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 640 330",
+   "caption": "Five gaps, four shapes known in advance",
+   "parts": [
+    {
+     "id": "form",
+     "kind": "box",
+     "at": [
+      20,
+      20,
+      600,
+      46
+     ],
+     "text": "Note completion · ONE WORD AND/OR A NUMBER · in the order you hear them",
+     "tone": "listen"
+    },
+    {
+     "id": "predict",
+     "kind": "label",
+     "at": [
+      20,
+      80,
+      600,
+      30
+     ],
+     "text": "the time before the recording is for predicting the FORM",
+     "tone": "dim"
+    },
+    {
+     "id": "shapes",
+     "kind": "group",
+     "at": [
+      20,
+      120,
+      600,
+      76
+     ],
+     "text": "a name (spelled)   ·   a grade (letters)   ·   a month   ·   a small number",
+     "tone": "read"
+    },
+    {
+     "id": "why",
+     "kind": "arrow",
+     "at": [
+      20,
+      208,
+      600,
+      34
+     ],
+     "text": "listening for a KIND of word → you hear it   ·   listening for anything → you hear everything",
+     "tone": "navy"
+    },
+    {
+     "id": "spell",
+     "kind": "label",
+     "at": [
+      20,
+      252,
+      290,
+      36
+     ],
+     "text": "said once, then spelled — write, then check",
+     "tone": "part"
+    },
+    {
+     "id": "once",
+     "kind": "label",
+     "at": [
+      330,
+      252,
+      290,
+      36
+     ],
+     "text": "played once — leave a gap, keep moving",
+     "tone": "no"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "note completion",
+   "instruction": "What form must each answer take? Write ONE WORD for the KIND of answer.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "Family name: ____________  →  the answer will be a ____________",
+     "options": null,
+     "answer": "name",
+     "why": "A family-name gap takes a name, and in a recording it is normally spelled out for you.",
+     "wrongs": {}
+    },
+    {
+     "n": 2,
+     "stem": "Standard offer: ____________  →  the answer will be ____________",
+     "options": null,
+     "answer": "grades",
+     "why": "An offer in this context is expressed as letter grades, so the gap takes letters rather than a word.",
+     "wrongs": {}
+    },
+    {
+     "n": 3,
+     "stem": "Interviews are held in ____________  →  the answer will be a ____________",
+     "options": null,
+     "answer": "month",
+     "why": "'held in' before a blank points at a time, and for an admissions cycle that is a month.",
+     "wrongs": {}
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "the task type and its rubric",
+    "the unit's method pages",
+    "the methodology manifest"
+   ],
+   "refuse": "I will not tell you what is in the recording before you have listened to it. Ask me about the technique instead.",
+   "starters": [
+    "How do I predict the form of a gap?",
+    "What should I do when I miss one?",
+    "Why are answers spelled out in Part 1?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": false,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_listening_c1p1"
+ },
+ "v3/u21/teach/listening/c1p2": {
+  "id": "v3/u21/teach/listening/c1p2",
+  "kind": "listening",
+  "book": "v3",
+  "unit": 21,
+  "title": "A talk: short answer and the signposts that precede it",
+  "one_line": "A monologue tells you a list is coming. Count it.",
+  "sources": {
+   "script": "21/1/2",
+   "passage": null,
+   "questions": [
+    "v3/u21/listening/15",
+    "v3/u21/listening/16",
+    "v3/u21/listening/17",
+    "v3/u21/listening/18"
+   ],
+   "skill_box": null,
+   "quotes": []
+  },
+  "steps": [
+   {
+    "say": "A single speaker talking to an audience. The structure is nearly always the same: a frame, then a numbered list, then a closing point.",
+    "show": "shape",
+    "anchor": null,
+    "seconds": 9
+   },
+   {
+    "say": "The frame is the sentence that says how many things are coming. First, second, third. When you hear a number word at the start of a sentence, a point is beginning.",
+    "show": "signpost",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "Short-answer questions in a talk almost always sit on those numbered points, in order. So number your page before the audio starts.",
+    "show": "numbered",
+    "anchor": null,
+    "seconds": 9
+   },
+   {
+    "say": "Watch for the speaker who says a thing and then corrects it. In a talk the correction is the answer, because the examiner chose that moment on purpose.",
+    "show": "correct",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "And keep your answers short. A short-answer question with a three-word limit does not want the speaker's whole sentence; it wants the noun they landed on.",
+    "show": "short",
+    "anchor": null,
+    "seconds": 10
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 640 300",
+   "caption": "The shape of a talk",
+   "parts": [
+    {
+     "id": "shape",
+     "kind": "arrow",
+     "at": [
+      20,
+      24,
+      600,
+      36
+     ],
+     "text": "frame  →  first · second · third  →  closing point",
+     "tone": "listen"
+    },
+    {
+     "id": "signpost",
+     "kind": "box",
+     "at": [
+      20,
+      76,
+      290,
+      56
+     ],
+     "text": "a number word at the start of a sentence = a new point",
+     "tone": "read"
+    },
+    {
+     "id": "numbered",
+     "kind": "box",
+     "at": [
+      330,
+      76,
+      290,
+      56
+     ],
+     "text": "number your page before the audio starts",
+     "tone": "ok"
+    },
+    {
+     "id": "correct",
+     "kind": "group",
+     "at": [
+      20,
+      148,
+      600,
+      50
+     ],
+     "text": "when a speaker corrects themselves, the correction is the answer",
+     "tone": "part"
+    },
+    {
+     "id": "short",
+     "kind": "label",
+     "at": [
+      20,
+      212,
+      600,
+      34
+     ],
+     "text": "answer with the noun they landed on, not the sentence",
+     "tone": "dim"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "short answer",
+   "instruction": "Answer with ONE WORD describing the listening behaviour, not the content.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "A speaker says 'First, the time.' What does that word signal?",
+     "options": null,
+     "answer": "point",
+     "why": "An ordinal at the start of a sentence opens a new numbered point, which is where short-answer questions sit.",
+     "wrongs": {}
+    },
+    {
+     "n": 2,
+     "stem": "A speaker gives a figure, pauses, then gives a different one. Which do you write?",
+     "options": null,
+     "answer": "second",
+     "why": "The correction is the answer; the examiner placed the first figure to catch a candidate who stops listening.",
+     "wrongs": {}
+    },
+    {
+     "n": 3,
+     "stem": "You miss question 16 entirely. What do you do next?",
+     "options": null,
+     "answer": "continue",
+     "why": "The recording is played once and the questions run in order, so hunting for one lost answer costs the next two.",
+     "wrongs": {}
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "the task type and its rubric",
+    "the unit's method pages",
+    "the methodology manifest"
+   ],
+   "refuse": "I will not give you the content of the talk before you have heard it. Ask about how to listen to it.",
+   "starters": [
+    "How do I spot a new point in a monologue?",
+    "Why is the correction usually the answer?",
+    "How long should a short answer be?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": false,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_listening_c1p2"
+ },
+ "v3/u21/teach/listening/c2p2": {
+  "id": "v3/u21/teach/listening/c2p2",
+  "kind": "listening",
+  "book": "v3",
+  "unit": 21,
+  "title": "Sentence completion: the grammar of the gap",
+  "one_line": "The sentence around the gap tells you what part of speech must fill it.",
+  "sources": {
+   "script": "21/2/2",
+   "passage": null,
+   "questions": [
+    "v3/u21/listening/25",
+    "v3/u21/listening/26",
+    "v3/u21/listening/27",
+    "v3/u21/listening/28"
+   ],
+   "skill_box": null,
+   "quotes": []
+  },
+  "steps": [
+   {
+    "say": "Sentence completion looks like a memory test and is really a grammar test. The words around the gap decide what can go in it.",
+    "show": "grammar",
+    "anchor": null,
+    "seconds": 9
+   },
+   {
+    "say": "An article before the gap means a noun is coming. A preposition before it means a noun too. An adverb of degree means an adjective.",
+    "show": "rules",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "Do this in the preparation time and write the part of speech above each gap. Two seconds a gap, and it halves what you have to hold in your head.",
+    "show": "mark",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "Then the trap. The recording will paraphrase the sentence on your page. The words will not match; the meaning will. Listen for the idea, write the word you hear.",
+    "show": "para",
+    "anchor": null,
+    "seconds": 11
+   },
+   {
+    "say": "And check the sentence reads correctly afterwards. A gap-fill answer that makes the sentence ungrammatical is almost always the wrong word.",
+    "show": "check",
+    "anchor": null,
+    "seconds": 9
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 640 310",
+   "caption": "What can go in the gap",
+   "parts": [
+    {
+     "id": "grammar",
+     "kind": "box",
+     "at": [
+      20,
+      20,
+      600,
+      44
+     ],
+     "text": "sentence completion is a grammar test wearing a memory test's clothes",
+     "tone": "listen"
+    },
+    {
+     "id": "rules",
+     "kind": "group",
+     "at": [
+      20,
+      78,
+      600,
+      72
+     ],
+     "text": "the ___ → a noun      ·      in/on/at ___ → a noun      ·      very ___ → an adjective",
+     "tone": "read"
+    },
+    {
+     "id": "mark",
+     "kind": "label",
+     "at": [
+      20,
+      162,
+      290,
+      36
+     ],
+     "text": "write the part of speech above each gap",
+     "tone": "ok"
+    },
+    {
+     "id": "para",
+     "kind": "label",
+     "at": [
+      330,
+      162,
+      290,
+      36
+     ],
+     "text": "the audio paraphrases — the meaning matches, the words do not",
+     "tone": "part"
+    },
+    {
+     "id": "check",
+     "kind": "arrow",
+     "at": [
+      20,
+      212,
+      600,
+      36
+     ],
+     "text": "read the sentence back — if it is ungrammatical, it is wrong",
+     "tone": "navy"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "sentence completion",
+   "instruction": "What part of speech must fill the gap? Write ONE WORD.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "'The school was asked to supply a ____________ .'  The gap needs a ____________.",
+     "options": null,
+     "answer": "noun",
+     "why": "An indefinite article immediately before a gap can only be followed by a noun phrase.",
+     "wrongs": {}
+    },
+    {
+     "n": 2,
+     "stem": "'Attainment rose very ____________ in the second year.'  The gap needs an ____________.",
+     "options": null,
+     "answer": "adverb",
+     "why": "'very' modifies a gradable word and the slot follows a verb, so an adverb of degree fits.",
+     "wrongs": {}
+    },
+    {
+     "n": 3,
+     "stem": "'The decision depends on the ____________ of the report.'  The gap needs a ____________.",
+     "options": null,
+     "answer": "noun",
+     "why": "A preposition followed by 'the' can only introduce a noun.",
+     "wrongs": {}
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "the task type and its rubric",
+    "the unit's method pages",
+    "the methodology manifest"
+   ],
+   "refuse": "I will not tell you what the speaker says before you have listened. Ask about the technique.",
+   "starters": [
+    "How do I mark parts of speech quickly?",
+    "What does paraphrasing sound like in Part 2?",
+    "Should I write what I hear or what fits?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": false,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_listening_c2p2"
+ },
+ "v3/u21/teach/listening/c2p3": {
+  "id": "v3/u21/teach/listening/c2p3",
+  "kind": "listening",
+  "book": "v3",
+  "unit": 21,
+  "title": "Two people disagreeing: whose opinion does the question want?",
+  "one_line": "In a discussion, track the person as carefully as the point.",
+  "sources": {
+   "script": "21/2/3",
+   "passage": null,
+   "questions": [
+    "v3/u21/listening/29",
+    "v3/u21/listening/30",
+    "v3/u21/listening/31",
+    "v3/u21/listening/32",
+    "v3/u21/listening/33"
+   ],
+   "skill_box": null,
+   "quotes": []
+  },
+  "steps": [
+   {
+    "say": "Two speakers who disagree, and multiple choice. The question will name a person, and the wrong options are usually things the other person said.",
+    "show": "two",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "So before you listen, underline the name in each question. That one mark turns half the distractors off.",
+    "show": "underline",
+    "anchor": null,
+    "seconds": 8
+   },
+   {
+    "say": "Then listen for the moment of concession. In a disagreement both speakers agree about something first, and the question often sits on exactly that.",
+    "show": "concede",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "Beware agreement that is not agreement. 'I take that point, but' means the speaker is about to disagree, and the part after <i>but</i> is their view.",
+    "show": "but",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "And never choose an option because you heard the words in it. In a discussion, hearing the words is the trap; the question is about who meant them.",
+    "show": "trap",
+    "anchor": null,
+    "seconds": 10
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 640 310",
+   "caption": "Two voices, one question at a time",
+   "parts": [
+    {
+     "id": "two",
+     "kind": "box",
+     "at": [
+      20,
+      24,
+      290,
+      60
+     ],
+     "text": "speaker A\nholds a position",
+     "tone": "read"
+    },
+    {
+     "id": "two2",
+     "kind": "box",
+     "at": [
+      330,
+      24,
+      290,
+      60
+     ],
+     "text": "speaker B\nholds another",
+     "tone": "listen"
+    },
+    {
+     "id": "underline",
+     "kind": "label",
+     "at": [
+      20,
+      98,
+      600,
+      32
+     ],
+     "text": "underline the NAME in each question before the audio starts",
+     "tone": "ok"
+    },
+    {
+     "id": "concede",
+     "kind": "group",
+     "at": [
+      20,
+      142,
+      600,
+      48
+     ],
+     "text": "the concession — what they both accept — is where questions sit",
+     "tone": "speak"
+    },
+    {
+     "id": "but",
+     "kind": "label",
+     "at": [
+      20,
+      202,
+      290,
+      36
+     ],
+     "text": "'I take that point, but …' = disagreement",
+     "tone": "part"
+    },
+    {
+     "id": "trap",
+     "kind": "label",
+     "at": [
+      330,
+      202,
+      290,
+      36
+     ],
+     "text": "hearing the words ≠ the right option",
+     "tone": "no"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "multiple choice",
+   "instruction": "Choose the correct letter, A, B or C.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "A question asks what Grigor thinks. You hear the exact words of option B spoken by Marisol. What do you do?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Choose B — you heard it"
+      },
+      {
+       "letter": "B",
+       "text": "Rule B out and keep listening for Grigor"
+      },
+      {
+       "letter": "C",
+       "text": "Choose the option nobody said"
+      }
+     ],
+     "answer": "B",
+     "why": "In a two-speaker task the distractors are usually the other speaker's words, so hearing them is a reason to rule the option out.",
+     "wrongs": {
+      "A": "Hearing the words is the trap the task is built on.",
+      "C": "An option nobody says is not supported either; the answer will be said, by the named person."
+     }
+    },
+    {
+     "n": 2,
+     "stem": "A speaker says 'I take that point, but the number is still too low.' What is their view?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "They agree the number is fine"
+      },
+      {
+       "letter": "B",
+       "text": "They think the number is too low"
+      },
+      {
+       "letter": "C",
+       "text": "They have no view"
+      }
+     ],
+     "answer": "B",
+     "why": "The clause after 'but' carries the speaker's position; what precedes it is the concession.",
+     "wrongs": {
+      "A": "That is the point being conceded, not the view being held.",
+      "C": "A position is stated plainly in the second half of the sentence."
+     }
+    },
+    {
+     "n": 3,
+     "stem": "Why underline the name in each question first?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "To remember who is speaking"
+      },
+      {
+       "letter": "B",
+       "text": "Because half the distractors belong to the other speaker"
+      },
+      {
+       "letter": "C",
+       "text": "Because names are often the answer"
+      }
+     ],
+     "answer": "B",
+     "why": "Marking the person lets you discard options as soon as you hear who said them.",
+     "wrongs": {
+      "A": "The recording identifies the speakers; the problem is the options, not the voices.",
+      "C": "The names are in the questions, not in the answer set."
+     }
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "the task type and its rubric",
+    "the unit's method pages",
+    "the methodology manifest"
+   ],
+   "refuse": "I will not tell you what either speaker says before you have listened. Ask about how to follow a disagreement.",
+   "starters": [
+    "How do I keep two speakers apart?",
+    "What does a concession sound like?",
+    "Why is hearing the words a trap?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": false,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_listening_c2p3"
+ },
+ "v3/u21/teach/listening/c3p4": {
+  "id": "v3/u21/teach/listening/c3p4",
+  "kind": "listening",
+  "book": "v3",
+  "unit": 21,
+  "title": "A lecture: the sentence that tells you the answer is coming",
+  "one_line": "Academic speakers announce their points before they make them.",
+  "sources": {
+   "script": "21/3/4",
+   "passage": null,
+   "questions": [
+    "v3/u21/listening/40",
+    "v3/u21/listening/41",
+    "v3/u21/listening/42",
+    "v3/u21/listening/43",
+    "v3/u21/listening/44",
+    "v3/u21/listening/45"
+   ],
+   "skill_box": null,
+   "quotes": []
+  },
+  "steps": [
+   {
+    "say": "Part 4 is a lecture: one voice, no interruption, and the hardest listening in the paper. It is also the most predictable, because academic speakers signpost.",
+    "show": "lecture",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "Listen for the announcing sentence. 'What I want to do first is', 'the key distinction here is', 'and this is the part people find hardest'. Each one says: the next sentence matters.",
+    "show": "signal",
+    "anchor": null,
+    "seconds": 12
+   },
+   {
+    "say": "The questions for a lecture run in order and spread evenly through it. If you are on question 42 and the speaker is clearly past it, write something and move on.",
+    "show": "order",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "This lecture is about reading figures, so expect numbers you must not simply copy. A speaker who gives two numbers in a sentence is asking which one the question wants.",
+    "show": "numbers",
+    "anchor": null,
+    "seconds": 11
+   },
+   {
+    "say": "And note the qualifier. In an academic talk, 'tends to', 'on average' and 'in most cases' are not padding - they are often the difference between the right option and a near one.",
+    "show": "qualify",
+    "anchor": null,
+    "seconds": 12
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 660 310",
+   "caption": "A lecture announces itself",
+   "parts": [
+    {
+     "id": "lecture",
+     "kind": "box",
+     "at": [
+      20,
+      20,
+      620,
+      42
+     ],
+     "text": "Part 4 · one voice · no interruption · questions in order",
+     "tone": "listen"
+    },
+    {
+     "id": "signal",
+     "kind": "group",
+     "at": [
+      20,
+      76,
+      620,
+      60
+     ],
+     "text": "“what I want to do first…”   “the key distinction is…”   “the part people find hardest…”",
+     "tone": "read"
+    },
+    {
+     "id": "order",
+     "kind": "label",
+     "at": [
+      20,
+      148,
+      300,
+      36
+     ],
+     "text": "past it? write something, move on",
+     "tone": "ok"
+    },
+    {
+     "id": "numbers",
+     "kind": "label",
+     "at": [
+      340,
+      148,
+      300,
+      36
+     ],
+     "text": "two numbers in a sentence = a choice",
+     "tone": "part"
+    },
+    {
+     "id": "qualify",
+     "kind": "arrow",
+     "at": [
+      20,
+      198,
+      620,
+      40
+     ],
+     "text": "'tends to' · 'on average' · 'in most cases' — the qualifier is often the answer",
+     "tone": "navy"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "multiple choice",
+   "instruction": "Choose the correct letter, A, B or C.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "A lecturer says 'the key distinction here is'. What should you do?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Relax — background detail is coming"
+      },
+      {
+       "letter": "B",
+       "text": "Write — the next sentence is likely to be an answer"
+      },
+      {
+       "letter": "C",
+       "text": "Go back to the previous question"
+      }
+     ],
+     "answer": "B",
+     "why": "An announcing sentence in a lecture is a signpost that the point being tested is about to be made.",
+     "wrongs": {
+      "A": "Signposted material is the opposite of background.",
+      "C": "Questions run in order, so going back costs the one that is arriving."
+     }
+    },
+    {
+     "n": 2,
+     "stem": "The speaker says gains 'tend to shrink'. An option says gains 'always disappear'. Is it right?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Yes, it means the same"
+      },
+      {
+       "letter": "B",
+       "text": "No — 'tend to' is weaker than 'always'"
+      },
+      {
+       "letter": "C",
+       "text": "Only if a figure is given"
+      }
+     ],
+     "answer": "B",
+     "why": "The qualifier is what the option changes, and changing a qualifier changes the claim.",
+     "wrongs": {
+      "A": "'Tend to shrink' and 'always disappear' differ in both strength and outcome.",
+      "C": "The mismatch is in the wording, with or without a figure."
+     }
+    },
+    {
+     "n": 3,
+     "stem": "You realise at question 43 that the lecture has moved on. What is the cost of hunting backwards?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Nothing — you can catch up"
+      },
+      {
+       "letter": "B",
+       "text": "The questions still ahead of you"
+      },
+      {
+       "letter": "C",
+       "text": "Only the one you missed"
+      }
+     ],
+     "answer": "B",
+     "why": "The recording is played once and continues while you search, so the loss is the questions you are not listening for.",
+     "wrongs": {
+      "A": "There is no second playing to catch up with.",
+      "C": "The one you missed is already gone; what is at risk is the rest."
+     }
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "the task type and its rubric",
+    "the unit's method pages",
+    "the methodology manifest"
+   ],
+   "refuse": "I will not tell you what the lecture says before you have heard it. Ask about how to follow one.",
+   "starters": [
+    "What does a signposting sentence sound like?",
+    "How do I handle two numbers in one sentence?",
+    "Why do qualifiers decide multiple-choice options?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": false,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_listening_c3p4"
+ },
+ "v3/u21/teach/listening/c4p4": {
+  "id": "v3/u21/teach/listening/c4p4",
+  "kind": "listening",
+  "book": "v3",
+  "unit": 21,
+  "title": "Evidence in a lecture: claim, support, limit",
+  "one_line": "Research talks move in threes, and the limit is where the marks are.",
+  "sources": {
+   "script": "21/4/4",
+   "passage": null,
+   "questions": [
+    "v3/u21/listening/53",
+    "v3/u21/listening/54",
+    "v3/u21/listening/55",
+    "v3/u21/listening/56",
+    "v3/u21/listening/57",
+    "v3/u21/listening/58"
+   ],
+   "skill_box": null,
+   "quotes": []
+  },
+  "steps": [
+   {
+    "say": "A lecture about evidence has a rhythm: a claim, the support for it, and then the limit on it. Three beats, over and over.",
+    "show": "three",
+    "anchor": null,
+    "seconds": 9
+   },
+   {
+    "say": "Most candidates hear the claim and the support and stop listening at the limit, because it sounds like a digression. It is not. It is usually the question.",
+    "show": "limit",
+    "anchor": null,
+    "seconds": 11
+   },
+   {
+    "say": "The limit is announced by a small set of words: although, however, what this does not show, the difficulty is, that said. Write them on your page now.",
+    "show": "words",
+    "anchor": null,
+    "seconds": 11
+   },
+   {
+    "say": "The second habit worth having here is to separate what was measured from what it means. A speaker often gives you both, and the options test which is which.",
+    "show": "meas",
+    "anchor": null,
+    "seconds": 11
+   },
+   {
+    "say": "And if two options both sound true, choose the one the speaker actually said rather than the one you believe. This is a listening test, not a knowledge test.",
+    "show": "said",
+    "anchor": null,
+    "seconds": 10
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 660 300",
+   "caption": "Claim · support · limit",
+   "parts": [
+    {
+     "id": "three",
+     "kind": "arrow",
+     "at": [
+      20,
+      24,
+      620,
+      38
+     ],
+     "text": "claim  →  support  →  LIMIT",
+     "tone": "listen"
+    },
+    {
+     "id": "limit",
+     "kind": "group",
+     "at": [
+      20,
+      78,
+      620,
+      52
+     ],
+     "text": "the limit sounds like a digression and is usually the question",
+     "tone": "part"
+    },
+    {
+     "id": "words",
+     "kind": "box",
+     "at": [
+      20,
+      142,
+      620,
+      54
+     ],
+     "text": "although · however · what this does not show · the difficulty is · that said",
+     "tone": "read"
+    },
+    {
+     "id": "meas",
+     "kind": "label",
+     "at": [
+      20,
+      208,
+      300,
+      36
+     ],
+     "text": "what was MEASURED ≠ what it MEANS",
+     "tone": "ok"
+    },
+    {
+     "id": "said",
+     "kind": "label",
+     "at": [
+      340,
+      208,
+      300,
+      36
+     ],
+     "text": "choose what was said, not what is true",
+     "tone": "no"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "multiple choice",
+   "instruction": "Choose the correct letter, A, B or C.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "Which of these usually introduces the answer in an evidence lecture?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "'For example'"
+      },
+      {
+       "letter": "B",
+       "text": "'What this does not show is'"
+      },
+      {
+       "letter": "C",
+       "text": "'As I said earlier'"
+      }
+     ],
+     "answer": "B",
+     "why": "The limit on a claim is the part examiners build questions on, and it is announced by phrases of that kind.",
+     "wrongs": {
+      "A": "An example supports a claim already made and rarely carries a new testable point.",
+      "C": "A back-reference repeats; it does not add the qualification the question wants."
+     }
+    },
+    {
+     "n": 2,
+     "stem": "Two options both sound true, but you only heard one of them. Which do you choose?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "The one you heard"
+      },
+      {
+       "letter": "B",
+       "text": "The one you believe"
+      },
+      {
+       "letter": "C",
+       "text": "Neither — leave it blank"
+      }
+     ],
+     "answer": "A",
+     "why": "The task tests what the speaker said; outside knowledge is not evidence in a listening paper.",
+     "wrongs": {
+      "B": "Answering from your own knowledge is the commonest way to lose a mark you had.",
+      "C": "Never leave a blank — an unanswered question cannot be right."
+     }
+    },
+    {
+     "n": 3,
+     "stem": "A speaker reports a finding and then says 'although the sample was small'. What is that?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "The claim"
+      },
+      {
+       "letter": "B",
+       "text": "The support"
+      },
+      {
+       "letter": "C",
+       "text": "The limit"
+      }
+     ],
+     "answer": "C",
+     "why": "A qualification of how far the finding reaches is the third beat of the pattern.",
+     "wrongs": {
+      "A": "The claim is the finding itself, which came first.",
+      "B": "Support is the evidence for the claim, not the caution about it."
+     }
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "the task type and its rubric",
+    "the unit's method pages",
+    "the methodology manifest"
+   ],
+   "refuse": "I will not tell you what the lecture says before you have heard it. Ask about how to follow the argument.",
+   "starters": [
+    "How do I hear the limit on a claim?",
+    "Why is a measured figure not the same as its meaning?",
+    "What do I do when two options sound true?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": false,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_listening_c4p4"
+ },
+ "v3/u21/teach/listening/c5p4": {
+  "id": "v3/u21/teach/listening/c5p4",
+  "kind": "listening",
+  "book": "v3",
+  "unit": 21,
+  "title": "Mixed tasks in one recording: switch cleanly",
+  "one_line": "When the task type changes mid-recording, the way you listen must change with it.",
+  "sources": {
+   "script": "21/5/4",
+   "passage": null,
+   "questions": [
+    "v3/u21/listening/66",
+    "v3/u21/listening/67",
+    "v3/u21/listening/68",
+    "v3/u21/listening/69",
+    "v3/u21/listening/70",
+    "v3/u21/listening/71"
+   ],
+   "skill_box": null,
+   "quotes": []
+  },
+  "steps": [
+   {
+    "say": "This recording carries three task types at once - short answer, multiple choice and matching. That is normal in the real paper and it is the thing least practised.",
+    "show": "mixed",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "Each type wants a different kind of attention. Short answer wants a noun. Multiple choice wants a comparison. Matching wants a person or a category.",
+    "show": "modes",
+    "anchor": null,
+    "seconds": 11
+   },
+   {
+    "say": "So in the preparation time, mark where the type changes. A line across your page is enough. You are telling yourself when to switch.",
+    "show": "mark",
+    "anchor": null,
+    "seconds": 9
+   },
+   {
+    "say": "The commonest loss here is carrying the wrong attention across the line - still hunting for a single word while the task has become a comparison.",
+    "show": "carry",
+    "anchor": null,
+    "seconds": 11
+   },
+   {
+    "say": "And the second commonest: answering a matching question with a word from the recording instead of a letter from the list. Check the form of what you wrote.",
+    "show": "form",
+    "anchor": null,
+    "seconds": 10
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 660 310",
+   "caption": "Three task types, one recording",
+   "parts": [
+    {
+     "id": "mixed",
+     "kind": "box",
+     "at": [
+      20,
+      20,
+      620,
+      40
+     ],
+     "text": "short answer  |  multiple choice  |  matching",
+     "tone": "listen"
+    },
+    {
+     "id": "modes",
+     "kind": "group",
+     "at": [
+      20,
+      74,
+      620,
+      62
+     ],
+     "text": "a noun   ·   a comparison   ·   a person or category",
+     "tone": "read"
+    },
+    {
+     "id": "mark",
+     "kind": "label",
+     "at": [
+      20,
+      150,
+      300,
+      36
+     ],
+     "text": "draw a line where the type changes",
+     "tone": "ok"
+    },
+    {
+     "id": "carry",
+     "kind": "label",
+     "at": [
+      340,
+      150,
+      300,
+      36
+     ],
+     "text": "the loss: the wrong attention, carried across",
+     "tone": "no"
+    },
+    {
+     "id": "form",
+     "kind": "arrow",
+     "at": [
+      20,
+      202,
+      620,
+      38
+     ],
+     "text": "check the FORM of your answer — a letter where a letter is wanted",
+     "tone": "navy"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "short answer",
+   "instruction": "Answer with ONE WORD about the technique.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "The task changes from short answer to matching. What must change with it?",
+     "options": null,
+     "answer": "attention",
+     "why": "Each task type wants a different kind of listening, and carrying the previous one across is the commonest loss.",
+     "wrongs": {}
+    },
+    {
+     "n": 2,
+     "stem": "A matching question is answered with a word from the recording. What is wrong?",
+     "options": null,
+     "answer": "form",
+     "why": "A matching task wants a letter from the list, so an answer in the wrong form scores nothing even when the meaning is right.",
+     "wrongs": {}
+    },
+    {
+     "n": 3,
+     "stem": "What do you draw on the page in the preparation time?",
+     "options": null,
+     "answer": "line",
+     "why": "A line where the task type changes tells you when to switch how you are listening.",
+     "wrongs": {}
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "the task type and its rubric",
+    "the unit's method pages",
+    "the methodology manifest"
+   ],
+   "refuse": "I will not tell you what the recording contains before you have heard it. Ask about handling mixed tasks.",
+   "starters": [
+    "How do I switch between task types cleanly?",
+    "What form should a matching answer take?",
+    "Why is mixed-task listening the least practised?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": false,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_listening_c5p4"
+ },
+ "v3/u21/teach/speaking/s1": {
+  "id": "v3/u21/teach/speaking/s1",
+  "kind": "speaking",
+  "book": "v3",
+  "unit": 21,
+  "title": "The 2-to-5 shape, and where the stress lands",
+  "one_line": "Part 1 answers are two sentences. Part 3 answers are five, with a concession.",
+  "sources": {
+   "passage": null,
+   "script": null,
+   "questions": [],
+   "skill_box": "SKILL  ·  Pronunciation and fluency",
+   "quotes": [
+    "In a long answer the strong stress lands once a sentence, on the word carrying the point."
+   ]
+  },
+  "steps": [
+   {
+    "say": "Speaking is the part of the paper most candidates practise least and worry about most. The series gives it a shape, and the shape is the whole technique.",
+    "show": "frame",
+    "anchor": null,
+    "seconds": 9
+   },
+   {
+    "say": "Part 1 is two sentences. An answer, and a reason. Not one - one sounds like you have nothing to say. Not six - six sounds rehearsed.",
+    "show": "two",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "Part 3 is four or five. A position, a reason, an example, and then a concession: the thing somebody who disagreed with you would say.",
+    "show": "five",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "The concession is what moves a band. It shows you can hold two ideas at once, which is exactly what Fluency and Coherence is about at band 7.",
+    "show": "concede",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "Now the sound of it. The book's own rule: in a long answer the strong stress lands once a sentence, on the word carrying the point.",
+    "show": "stress",
+    "anchor": "In a long answer the strong stress lands once a sentence, on the word carrying the point.",
+    "seconds": 10
+   },
+   {
+    "say": "So practise one sentence at a time, deciding which single word carries it. Candidates who stress everything sound flat, and flat reads as uncertain.",
+    "show": "flat",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "And for Part 2, the card's bullets are the plan. Take them in order, give each roughly equal time, and you will fill two minutes without hurrying.",
+    "show": "card",
+    "anchor": null,
+    "seconds": 10
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 660 340",
+   "caption": "The shape of a spoken answer",
+   "parts": [
+    {
+     "id": "frame",
+     "kind": "box",
+     "at": [
+      20,
+      18,
+      620,
+      38
+     ],
+     "text": "Part 1 · short answers    Part 2 · the long turn    Part 3 · the discussion",
+     "tone": "speak"
+    },
+    {
+     "id": "two",
+     "kind": "bar",
+     "at": [
+      20,
+      72,
+      290,
+      54
+     ],
+     "text": "PART 1 — two sentences\nanswer + reason",
+     "tone": "speak",
+     "value": 2
+    },
+    {
+     "id": "five",
+     "kind": "bar",
+     "at": [
+      340,
+      72,
+      300,
+      54
+     ],
+     "text": "PART 3 — four or five\nposition · reason · example",
+     "tone": "read",
+     "value": 5
+    },
+    {
+     "id": "concede",
+     "kind": "group",
+     "at": [
+      20,
+      142,
+      620,
+      48
+     ],
+     "text": "…and a concession — what somebody who disagreed would say",
+     "tone": "ok"
+    },
+    {
+     "id": "stress",
+     "kind": "label",
+     "at": [
+      20,
+      204,
+      300,
+      40
+     ],
+     "text": "one strong stress a sentence, on the word carrying the point",
+     "tone": "part"
+    },
+    {
+     "id": "flat",
+     "kind": "label",
+     "at": [
+      340,
+      204,
+      300,
+      40
+     ],
+     "text": "stress everything → flat → reads as uncertain",
+     "tone": "no"
+    },
+    {
+     "id": "card",
+     "kind": "arrow",
+     "at": [
+      20,
+      258,
+      620,
+      38
+     ],
+     "text": "Part 2: four bullets, in order, equal weight — and two minutes fills itself",
+     "tone": "navy"
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "the unit's SKILL box on pronunciation and fluency",
+    "the unit's speaking sets",
+    "the methodology manifest"
+   ],
+   "refuse": "The course does not teach that. I can answer from this unit's speaking pages and the method it teaches.",
+   "starters": [
+    "What exactly is a concession in Part 3?",
+    "How do I decide which word to stress?",
+    "What do I do with the one minute before Part 2?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": false,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_speaking_s1"
+ },
+ "v3/u21/teach/writing/w1": {
+  "id": "v3/u21/teach/writing/w1",
+  "kind": "writing",
+  "book": "v3",
+  "unit": 21,
+  "title": "Two claims in one prompt: separate them before you plan",
+  "one_line": "Most Task 2 prompts hide two claims. Agreeing with one is not agreeing with both.",
+  "sources": {
+   "passage": "v3/u21/p6",
+   "script": null,
+   "questions": [],
+   "skill_box": null,
+   "quotes": [
+    "If the problem is scale, the policy conclusion is to stop. If the problem is dilution, the conclusion is to deliver fewer children the full programme, which is politically much harder,"
+   ]
+  },
+  "steps": [
+   {
+    "say": "The commonest Task 2 failure is not bad English. It is answering a question the prompt did not ask, because the prompt contained two claims and the candidate saw one.",
+    "show": "prompt",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "So before you plan, split it. Write the two claims as two separate sentences on your page. Now you can agree with one and disagree with the other, which is usually the honest position.",
+    "show": "split",
+    "anchor": null,
+    "seconds": 11
+   },
+   {
+    "say": "This unit's own reading does exactly that. The passage separates a problem of scale from a problem of dilution, and shows they point to opposite policies.",
+    "show": "example",
+    "anchor": "If the problem is scale, the policy conclusion is to stop. If the problem is dilution, the conclusion is to deliver fewer children the full programme, which is politically much harder,",
+    "seconds": 12
+   },
+   {
+    "say": "Your opening paragraph should do the separating. Three sentences: here is claim one, here is claim two, and here is which of them I accept.",
+    "show": "open",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "Then every body paragraph knows which claim it belongs to. That single move is most of Coherence and Cohesion, and it costs you thirty seconds at the start.",
+    "show": "body",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "And concede generously before you disagree. An essay that has first agreed properly is far stronger than one that concedes a little and grudgingly.",
+    "show": "conc",
+    "anchor": null,
+    "seconds": 10
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 660 330",
+   "caption": "Split the prompt before you plan",
+   "parts": [
+    {
+     "id": "prompt",
+     "kind": "box",
+     "at": [
+      20,
+      18,
+      620,
+      44
+     ],
+     "text": "one prompt, two claims hiding inside it",
+     "tone": "write"
+    },
+    {
+     "id": "split",
+     "kind": "bar",
+     "at": [
+      20,
+      78,
+      300,
+      52
+     ],
+     "text": "claim 1\nwritten out on its own",
+     "tone": "write",
+     "value": 1
+    },
+    {
+     "id": "split2",
+     "kind": "bar",
+     "at": [
+      340,
+      78,
+      300,
+      52
+     ],
+     "text": "claim 2\nwritten out on its own",
+     "tone": "read",
+     "value": 1
+    },
+    {
+     "id": "example",
+     "kind": "group",
+     "at": [
+      20,
+      146,
+      620,
+      46
+     ],
+     "text": "the passage does it: a problem of scale ≠ a problem of dilution",
+     "tone": "ok"
+    },
+    {
+     "id": "open",
+     "kind": "label",
+     "at": [
+      20,
+      206,
+      300,
+      42
+     ],
+     "text": "opening = claim 1 · claim 2 · which I accept",
+     "tone": "part"
+    },
+    {
+     "id": "body",
+     "kind": "label",
+     "at": [
+      340,
+      206,
+      300,
+      42
+     ],
+     "text": "every paragraph knows which claim it serves",
+     "tone": "dim"
+    },
+    {
+     "id": "conc",
+     "kind": "arrow",
+     "at": [
+      20,
+      262,
+      620,
+      38
+     ],
+     "text": "concede generously, then disagree — grudging agreement reads as reluctance",
+     "tone": "navy"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "short answer",
+   "instruction": "Plan, do not write. Answer in a few words each.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "“Governments should spend more on early years because it is the cheapest way to raise results.” What are the two claims?",
+     "options": null,
+     "answer": "spending early and cheapness",
+     "why": "One claim is about WHEN to spend, the other about whether early spending is the cheapest route; a candidate can accept the first and doubt the second.",
+     "wrongs": {}
+    },
+    {
+     "n": 2,
+     "stem": "Which of those two does this unit's reading cast doubt on?",
+     "options": null,
+     "answer": "cheapness",
+     "why": "The passage accepts that early differences predict later results, and questions whether the intensive programmes that work can be delivered cheaply.",
+     "wrongs": {}
+    },
+    {
+     "n": 3,
+     "stem": "What should the opening paragraph do, in one word?",
+     "options": null,
+     "answer": "separate",
+     "why": "Separating the two claims first is what lets every later paragraph know which one it belongs to.",
+     "wrongs": {}
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "passage v3/u21/p6",
+    "the unit's writing pages",
+    "the methodology manifest"
+   ],
+   "refuse": "The course does not say. I can answer from this unit's reading, its writing pages and the method it teaches.",
+   "starters": [
+    "How do I spot two claims in one prompt?",
+    "What does a generous concession look like?",
+    "How long should the opening paragraph be?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": false,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_writing_w1"
+ },
+ "v3/u21/teach/grammar/g1": {
+  "id": "v3/u21/teach/grammar/g1",
+  "kind": "grammar",
+  "book": "v3",
+  "unit": 21,
+  "title": "Asking politely: the indirect question",
+  "one_line": "A direct question in a formal letter sounds abrupt. A vague one gets a vague answer.",
+  "sources": {
+   "passage": "v3/u21/p1",
+   "script": null,
+   "questions": [],
+   "skill_box": null,
+   "quotes": []
+  },
+  "steps": [
+   {
+    "say": "This unit's grammar is one pattern with one job: asking a precise question without sounding blunt. It is the pattern a formal letter runs on.",
+    "show": "job",
+    "anchor": null,
+    "seconds": 9
+   },
+   {
+    "say": "A direct question - <i>Am I still being considered?</i> - is clear and abrupt. In a letter it reads as a demand.",
+    "show": "direct",
+    "anchor": null,
+    "seconds": 9
+   },
+   {
+    "say": "The indirect form wraps it: <i>I would be grateful if you could tell me whether I am still being considered.</i> Same question, no demand.",
+    "show": "indirect",
+    "anchor": null,
+    "seconds": 10
+   },
+   {
+    "say": "Notice two things the wrapping does to the grammar. The word order goes back to normal - <i>I am</i>, not <i>am I</i> - and a yes-no question needs <i>whether</i> or <i>if</i>.",
+    "show": "rules",
+    "anchor": null,
+    "seconds": 11
+   },
+   {
+    "say": "The trap is over-wrapping. Three polite layers make a sentence nobody can answer. One opener, then the question, straight.",
+    "show": "over",
+    "anchor": null,
+    "seconds": 9
+   },
+   {
+    "say": "And stay precise. <i>Please let me know what is happening</i> is polite and useless. Ask for the thing you actually want to be told.",
+    "show": "precise",
+    "anchor": null,
+    "seconds": 9
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 660 320",
+   "caption": "Direct → indirect, without losing the question",
+   "parts": [
+    {
+     "id": "job",
+     "kind": "box",
+     "at": [
+      20,
+      18,
+      620,
+      38
+     ],
+     "text": "precise and polite at the same time",
+     "tone": "write"
+    },
+    {
+     "id": "direct",
+     "kind": "bar",
+     "at": [
+      20,
+      72,
+      300,
+      50
+     ],
+     "text": "Am I still being considered?",
+     "tone": "no",
+     "value": 1
+    },
+    {
+     "id": "indirect",
+     "kind": "bar",
+     "at": [
+      340,
+      72,
+      300,
+      50
+     ],
+     "text": "I would be grateful if you could tell me\nwhether I am still being considered.",
+     "tone": "ok",
+     "value": 1
+    },
+    {
+     "id": "rules",
+     "kind": "group",
+     "at": [
+      20,
+      138,
+      620,
+      48
+     ],
+     "text": "word order returns to normal   ·   a yes-no question takes whether / if",
+     "tone": "read"
+    },
+    {
+     "id": "over",
+     "kind": "label",
+     "at": [
+      20,
+      200,
+      300,
+      40
+     ],
+     "text": "three polite layers = unanswerable",
+     "tone": "part"
+    },
+    {
+     "id": "precise",
+     "kind": "label",
+     "at": [
+      340,
+      200,
+      300,
+      40
+     ],
+     "text": "“let me know what is happening” asks for nothing",
+     "tone": "dim"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "sentence completion",
+   "instruction": "Complete the indirect question. Write ONE WORD for each answer.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "Direct: Did you get my reference?  →  Could you confirm ____________ my reference has been received?",
+     "options": null,
+     "answer": "that",
+     "why": "A confirmation of a fact takes 'that'; 'whether' would turn it into a question about which of two things is true.",
+     "wrongs": {}
+    },
+    {
+     "n": 2,
+     "stem": "Direct: When will you decide?  →  Could you confirm the date ____________ which a decision will be made?",
+     "options": null,
+     "answer": "by",
+     "why": "A deadline takes 'by which'; 'on which' would ask for one exact day rather than the limit.",
+     "wrongs": {}
+    },
+    {
+     "n": 3,
+     "stem": "Direct: Am I still being considered?  →  I should like to know ____________ I am still being considered.",
+     "options": null,
+     "answer": "whether",
+     "why": "A yes-no question becomes an indirect clause with 'whether' or 'if', and 'whether' is the formal choice.",
+     "wrongs": {}
+    },
+    {
+     "n": 4,
+     "stem": "In the indirect form, the word order of the original question becomes ____________.",
+     "options": null,
+     "answer": "normal",
+     "why": "Inversion belongs to the direct question only; the embedded clause takes ordinary subject-verb order.",
+     "wrongs": {}
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "the unit's grammar page",
+    "passage v3/u21/p1",
+    "the methodology manifest"
+   ],
+   "refuse": "The course does not cover that. I can answer from this unit's grammar page and its reading.",
+   "starters": [
+    "When do I use whether rather than that?",
+    "How polite is too polite in a formal letter?",
+    "Why does the word order change?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": false,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_grammar_g1"
+ },
+ "v3/u21/teach/reading/p1": {
+  "id": "v3/u21/teach/reading/p1",
+  "kind": "reading",
+  "book": "v3",
+  "unit": 21,
+  "title": "Reading an offer: every <i>if</i> is a question",
+  "one_line": "A page of conditions is a list of questions in disguise.",
+  "sources": {
+   "passage": "v3/u21/p1",
+   "questions": [
+    "v3/u21/reading/1",
+    "v3/u21/reading/2",
+    "v3/u21/reading/3",
+    "v3/u21/reading/4",
+    "v3/u21/reading/5"
+   ],
+   "skill_box": "SKILL  ·  An offer with conditions is a list of questions",
+   "quotes": [
+    "The standard offer for this course is BBB at A level, or an equivalent qualification.",
+    "We make contextual offers, normally one grade below the standard offer, to applicants who meet at least one of our contextual criteria.",
+    "A contextual offer is made automatically.",
+    "An offer is only withdrawn where the shortfall is substantial or where a required subject has not been passed."
+   ]
+  },
+  "steps": [
+   {
+    "say": "This is a university offer page. Before you read a word of it, notice what kind of text it is: it sets out conditions, and conditions are questions waiting to be asked.",
+    "show": "page",
+    "anchor": null,
+    "seconds": 7
+   },
+   {
+    "say": "The first paragraph gives the baseline. One offer, three grades. Everything after this is a change to that baseline, so hold it.",
+    "show": "standard",
+    "anchor": "The standard offer for this course is BBB at A level, or an equivalent qualification.",
+    "seconds": 7
+   },
+   {
+    "say": "Here is the first change. A contextual offer is lower - one grade, not two - and it is given to people who meet at least one criterion. Not all of them. One.",
+    "show": "contextual",
+    "anchor": "We make contextual offers, normally one grade below the standard offer, to applicants who meet at least one of our contextual criteria.",
+    "seconds": 9
+   },
+   {
+    "say": "Now the sentence a careless reader skips. It is made automatically. You do not ask. Three of the five questions on this page turn on small words like that one.",
+    "show": "auto",
+    "anchor": "A contextual offer is made automatically.",
+    "seconds": 8
+   },
+   {
+    "say": "The last paragraph is the one with the word <i>if</i> in it, and that is where the conditions live. Narrowly miss, and you are still considered. Miss badly, or fail a required subject, and the offer goes.",
+    "show": "withdraw",
+    "anchor": "An offer is only withdrawn where the shortfall is substantial or where a required subject has not been passed.",
+    "seconds": 10
+   },
+   {
+    "say": "So the page is a ladder: a standard offer, a lower one for some people, given without asking, and withdrawn only in two named cases. Four facts. Five questions.",
+    "show": "ladder",
+    "anchor": null,
+    "seconds": 8
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 640 360",
+   "caption": "The offer, as a ladder of conditions",
+   "parts": [
+    {
+     "id": "page",
+     "kind": "box",
+     "at": [
+      20,
+      16,
+      600,
+      40
+     ],
+     "text": "Entry requirements and contextual offers",
+     "tone": "navy"
+    },
+    {
+     "id": "standard",
+     "kind": "bar",
+     "at": [
+      60,
+      86,
+      300,
+      44
+     ],
+     "text": "Standard offer  ·  BBB",
+     "tone": "read",
+     "value": 3
+    },
+    {
+     "id": "contextual",
+     "kind": "bar",
+     "at": [
+      60,
+      146,
+      250,
+      44
+     ],
+     "text": "Contextual offer  ·  one grade lower",
+     "tone": "speak",
+     "value": 2
+    },
+    {
+     "id": "auto",
+     "kind": "label",
+     "at": [
+      330,
+      152,
+      290,
+      34
+     ],
+     "text": "given automatically — you do not apply",
+     "tone": "dim"
+    },
+    {
+     "id": "withdraw",
+     "kind": "group",
+     "at": [
+      60,
+      212,
+      560,
+      60
+     ],
+     "text": "withdrawn only if: the shortfall is substantial  ·  a required subject is not passed",
+     "tone": "no"
+    },
+    {
+     "id": "ladder",
+     "kind": "arrow",
+     "at": [
+      60,
+      288,
+      560,
+      40
+     ],
+     "text": "baseline → exception → how it is given → when it is lost",
+     "tone": "navy"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "identifying information (True/False/Not Given)",
+   "instruction": "Do the statements agree with the information in the passage? Write TRUE, FALSE or NOT GIVEN.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "An applicant must mention a contextual criterion in the personal statement.",
+     "options": [
+      {
+       "letter": "A",
+       "text": "True"
+      },
+      {
+       "letter": "B",
+       "text": "False"
+      },
+      {
+       "letter": "C",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "B",
+     "why": "Paragraph 3 says the opposite: you do not need to mention it, and the data comes from the application and the school.",
+     "wrongs": {
+      "A": "The passage states the position directly, and it is the reverse of this.",
+      "C": "The passage is not silent - paragraph 3 addresses exactly this point."
+     }
+    },
+    {
+     "n": 2,
+     "stem": "Most applicants who narrowly miss their conditions are still admitted.",
+     "options": [
+      {
+       "letter": "A",
+       "text": "True"
+      },
+      {
+       "letter": "B",
+       "text": "False"
+      },
+      {
+       "letter": "C",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "A",
+     "why": "Paragraph 4: in practice a majority of near misses are confirmed.",
+     "wrongs": {
+      "B": "The passage says a majority are confirmed, which agrees rather than conflicts.",
+      "C": "The phrase 'in practice we confirm a majority of near misses' is the statement."
+     }
+    },
+    {
+     "n": 3,
+     "stem": "The university publishes the number of contextual offers it makes each year.",
+     "options": [
+      {
+       "letter": "A",
+       "text": "True"
+      },
+      {
+       "letter": "B",
+       "text": "False"
+      },
+      {
+       "letter": "C",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "C",
+     "why": "The passage says applicants are told in the offer letter, but never says the totals are published. Nothing here supports or contradicts it.",
+     "wrongs": {
+      "A": "Nothing on the page mentions publication of these figures.",
+      "B": "The passage does not deny it either - silence is Not Given, not False."
+     }
+    },
+    {
+     "n": 4,
+     "stem": "A vocational qualification at merit is acceptable.",
+     "options": [
+      {
+       "letter": "A",
+       "text": "True"
+      },
+      {
+       "letter": "B",
+       "text": "False"
+      },
+      {
+       "letter": "C",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "A",
+     "why": "Paragraph 1 accepts vocational qualifications at merit or above.",
+     "wrongs": {
+      "B": "'at merit or above' includes merit itself.",
+      "C": "Paragraph 1 names vocational qualifications explicitly."
+     }
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "passage v3/u21/p1",
+    "the key's explanations for questions 1-5",
+    "the unit's SKILL box on conditions",
+    "the methodology manifest"
+   ],
+   "refuse": "This page does not say. I can only answer from the passage, its answer key and the course's own method.",
+   "starters": [
+    "Why is question 3 not about the personal statement?",
+    "What is the difference between 'held' and 'rejected' here?",
+    "How would I spot a condition quickly in a text like this?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": true,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_reading_p1"
+ },
+ "v3/u21/teach/reading/p2": {
+  "id": "v3/u21/teach/reading/p2",
+  "kind": "reading",
+  "book": "v3",
+  "unit": 21,
+  "title": "A process text: follow the application, not the sentences",
+  "one_line": "When a text describes a process, draw the process.",
+  "sources": {
+   "passage": "v3/u21/p2",
+   "questions": [
+    "v3/u21/reading/6",
+    "v3/u21/reading/7",
+    "v3/u21/reading/8",
+    "v3/u21/reading/9"
+   ],
+   "skill_box": null,
+   "quotes": [
+    "An application missing a reference or a predicted grade is held, and the applicant is contacted;",
+    "Complete applications are read by two assessors working independently.",
+    "Where the two assessors disagree by more than three points, the application goes to a third reader, whose decision is final.",
+    "Decisions are released on a single date for all applicants, which is why an early application does not receive an early answer."
+   ]
+  },
+  "steps": [
+   {
+    "say": "This passage describes a journey, and the questions follow the journey. So read it as a chain of stages, not as four paragraphs.",
+    "show": "chain",
+    "anchor": null,
+    "seconds": 7
+   },
+   {
+    "say": "Stage one: the application arrives and is checked for completeness. Notice the careful word - an incomplete one is <i>held</i>, not rejected. It stops; it does not die.",
+    "show": "s1",
+    "anchor": "An application missing a reference or a predicted grade is held, and the applicant is contacted;",
+    "seconds": 10
+   },
+   {
+    "say": "Stage two: two assessors read it independently, each giving two scores. The word <i>independently</i> is doing work - they cannot see each other.",
+    "show": "s2",
+    "anchor": "Complete applications are read by two assessors working independently.",
+    "seconds": 9
+   },
+   {
+    "say": "Stage three happens only sometimes. If the two disagree by more than three points, a third reader decides, and that decision is final.",
+    "show": "s3",
+    "anchor": "Where the two assessors disagree by more than three points, the application goes to a third reader, whose decision is final.",
+    "seconds": 9
+   },
+   {
+    "say": "Stage four: everyone hears on one date. This is why applying early buys you nothing, which the passage says outright.",
+    "show": "s4",
+    "anchor": "Decisions are released on a single date for all applicants, which is why an early application does not receive an early answer.",
+    "seconds": 9
+   },
+   {
+    "say": "Four stages, one of them conditional. Draw that chain in the margin and every completion question has a place to sit.",
+    "show": "chain",
+    "anchor": null,
+    "seconds": 7
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 660 300",
+   "caption": "The application, stage by stage",
+   "parts": [
+    {
+     "id": "s1",
+     "kind": "box",
+     "at": [
+      20,
+      60,
+      140,
+      62
+     ],
+     "text": "arrives\nchecked for completeness",
+     "tone": "read"
+    },
+    {
+     "id": "s2",
+     "kind": "box",
+     "at": [
+      190,
+      60,
+      140,
+      62
+     ],
+     "text": "two assessors\nindependently",
+     "tone": "read"
+    },
+    {
+     "id": "s3",
+     "kind": "box",
+     "at": [
+      360,
+      60,
+      140,
+      62
+     ],
+     "text": "third reader\nif they differ by >3",
+     "tone": "part"
+    },
+    {
+     "id": "s4",
+     "kind": "box",
+     "at": [
+      530,
+      60,
+      110,
+      62
+     ],
+     "text": "one decision\ndate",
+     "tone": "ok"
+    },
+    {
+     "id": "chain",
+     "kind": "arrow",
+     "at": [
+      20,
+      150,
+      620,
+      30
+     ],
+     "text": "held ≠ rejected   ·   one in nine takes the third-reader route",
+     "tone": "navy"
+    },
+    {
+     "id": "hold",
+     "kind": "label",
+     "at": [
+      20,
+      196,
+      300,
+      34
+     ],
+     "text": "incomplete → held, applicant contacted",
+     "tone": "dim"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "flow-chart completion",
+   "instruction": "Complete the flow-chart. Write ONE WORD AND/OR A NUMBER for each answer.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "Application arrives → checked for ____________",
+     "options": null,
+     "answer": "completeness",
+     "why": "Paragraph 1, the first stage of the chain.",
+     "wrongs": {}
+    },
+    {
+     "n": 2,
+     "stem": "Complete application → read by ____________ assessors",
+     "options": null,
+     "answer": "two",
+     "why": "Paragraph 2, and each gives two scores.",
+     "wrongs": {}
+    },
+    {
+     "n": 3,
+     "stem": "Disagreement of more than ____________ points → third reader",
+     "options": null,
+     "answer": "three",
+     "why": "Paragraph 3, which also says the third reader is final.",
+     "wrongs": {}
+    },
+    {
+     "n": 4,
+     "stem": "About one application in ____________ takes that route",
+     "options": null,
+     "answer": "nine",
+     "why": "Paragraph 3, and the rate is published each year.",
+     "wrongs": {}
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "passage v3/u21/p2",
+    "the key's explanations for questions 6-9",
+    "the methodology manifest"
+   ],
+   "refuse": "The passage does not say. I can answer only from it, its key and the course's method.",
+   "starters": [
+    "Why does the passage say 'held' rather than 'rejected'?",
+    "What does 'independently' change about the second stage?",
+    "How do I know which stage a gap belongs to?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": true,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_reading_p2"
+ },
+ "v3/u21/teach/reading/p3": {
+  "id": "v3/u21/teach/reading/p3",
+  "kind": "reading",
+  "book": "v3",
+  "unit": 21,
+  "title": "Four people, four positions: matching without re-reading",
+  "one_line": "Give each speaker one word before you look at the questions.",
+  "sources": {
+   "passage": "v3/u21/p3",
+   "questions": [
+    "v3/u21/reading/19",
+    "v3/u21/reading/20",
+    "v3/u21/reading/21",
+    "v3/u21/reading/22",
+    "v3/u21/reading/23",
+    "v3/u21/reading/24"
+   ],
+   "skill_box": null,
+   "quotes": [
+    "I chose the course because of the city, and I would say that out loud to anybody who asked.",
+    "I picked by employment figures and I now think that was a mistake.",
+    "Nobody in my family had been, so I applied to the one I had heard of.",
+    "I went to an open day at a place I had already decided against and changed my mind within an hour."
+   ]
+  },
+  "steps": [
+   {
+    "say": "Matching questions punish re-reading. Four people, six questions - if you go back to the text for each one, you read the passage six times.",
+    "show": "cost",
+    "anchor": null,
+    "seconds": 8
+   },
+   {
+    "say": "So do this first. Read each person once and give them one word in the margin. Teodora: city.",
+    "show": "a",
+    "anchor": "I chose the course because of the city, and I would say that out loud to anybody who asked.",
+    "seconds": 8
+   },
+   {
+    "say": "Nnamdi: numbers. And he regrets the method, not the place - that distinction is worth a mark later.",
+    "show": "b",
+    "anchor": "I picked by employment figures and I now think that was a mistake.",
+    "seconds": 9
+   },
+   {
+    "say": "Isolde: no family. She applied to the only one she had heard of, and a teacher showed her the other forty.",
+    "show": "c",
+    "anchor": "Nobody in my family had been, so I applied to the one I had heard of.",
+    "seconds": 9
+   },
+   {
+    "say": "Pavel: the visit. He changed his mind in an hour, and it was the students who did it.",
+    "show": "d",
+    "anchor": "I went to an open day at a place I had already decided against and changed my mind within an hour.",
+    "seconds": 9
+   },
+   {
+    "say": "Four words - city, numbers, no family, visit. Now the questions are a lookup, not a search. That is the whole technique.",
+    "show": "grid",
+    "anchor": null,
+    "seconds": 8
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 640 330",
+   "caption": "One word each, written before the questions are read",
+   "parts": [
+    {
+     "id": "cost",
+     "kind": "label",
+     "at": [
+      20,
+      14,
+      600,
+      34
+     ],
+     "text": "six questions × re-reading the passage = reading it six times",
+     "tone": "no"
+    },
+    {
+     "id": "a",
+     "kind": "box",
+     "at": [
+      20,
+      64,
+      140,
+      76
+     ],
+     "text": "A Teodora\ncity",
+     "tone": "read"
+    },
+    {
+     "id": "b",
+     "kind": "box",
+     "at": [
+      180,
+      64,
+      140,
+      76
+     ],
+     "text": "B Nnamdi\nnumbers",
+     "tone": "listen"
+    },
+    {
+     "id": "c",
+     "kind": "box",
+     "at": [
+      340,
+      64,
+      140,
+      76
+     ],
+     "text": "C Isolde\nno family",
+     "tone": "speak"
+    },
+    {
+     "id": "d",
+     "kind": "box",
+     "at": [
+      500,
+      64,
+      120,
+      76
+     ],
+     "text": "D Pavel\nthe visit",
+     "tone": "write"
+    },
+    {
+     "id": "grid",
+     "kind": "group",
+     "at": [
+      20,
+      168,
+      600,
+      96
+     ],
+     "text": "location · out-of-date information · no family experience · changed by a visit",
+     "tone": "navy"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "matching features",
+   "instruction": "Which person says this? Choose the correct letter, A, B, C or D.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "Which person would repeat their reason publicly?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Teodora"
+      },
+      {
+       "letter": "B",
+       "text": "Nnamdi"
+      },
+      {
+       "letter": "C",
+       "text": "Isolde"
+      },
+      {
+       "letter": "D",
+       "text": "Pavel"
+      }
+     ],
+     "answer": "A",
+     "why": "She says she would say it out loud to anybody who asked.",
+     "wrongs": {
+      "B": "Nnamdi calls his own method a mistake rather than defending it.",
+      "C": "Isolde describes being shown a better way, not defending her first choice.",
+      "D": "Pavel recommends going to open days; he does not defend his original reason."
+     }
+    },
+    {
+     "n": 2,
+     "stem": "Which person was helped by somebody at their school?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Teodora"
+      },
+      {
+       "letter": "B",
+       "text": "Nnamdi"
+      },
+      {
+       "letter": "C",
+       "text": "Isolde"
+      },
+      {
+       "letter": "D",
+       "text": "Pavel"
+      }
+     ],
+     "answer": "C",
+     "why": "Her teacher spent an afternoon showing her the alternatives.",
+     "wrongs": {
+      "A": "Teodora chose on her own criterion and names nobody who helped.",
+      "B": "Nnamdi used published figures, not advice from a person.",
+      "D": "Pavel was changed by students at an open day, not by his school."
+     }
+    },
+    {
+     "n": 3,
+     "stem": "Which person's reason was sound but based on the wrong period?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Teodora"
+      },
+      {
+       "letter": "B",
+       "text": "Nnamdi"
+      },
+      {
+       "letter": "C",
+       "text": "Isolde"
+      },
+      {
+       "letter": "D",
+       "text": "Pavel"
+      }
+     ],
+     "answer": "B",
+     "why": "The numbers were real but described people who finished five years earlier, in a different economy.",
+     "wrongs": {
+      "A": "Teodora's reason was the city, which does not go out of date in that way.",
+      "C": "Isolde's problem was how little she knew, not the age of her information.",
+      "D": "Pavel's information came from a visit on the day."
+     }
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "passage v3/u21/p3",
+    "the key's explanations for questions 19-24",
+    "the methodology manifest"
+   ],
+   "refuse": "The passage does not say that. I can answer from these four accounts, the key and the course's method.",
+   "starters": [
+    "Why is Nnamdi's regret about his method and not his university?",
+    "How do I avoid re-reading on a matching task?",
+    "What makes a one-word margin note a good one?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": true,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_reading_p3"
+ },
+ "v3/u21/teach/reading/p4": {
+  "id": "v3/u21/teach/reading/p4",
+  "kind": "reading",
+  "book": "v3",
+  "unit": 21,
+  "title": "A chart has a job, and so does its caption",
+  "one_line": "Read the numbers, then read what the writer says the numbers cannot do.",
+  "sources": {
+   "passage": "v3/u21/p4",
+   "questions": [
+    "v3/u21/reading/34",
+    "v3/u21/reading/35",
+    "v3/u21/reading/36",
+    "v3/u21/reading/37",
+    "v3/u21/reading/38",
+    "v3/u21/reading/39"
+   ],
+   "skill_box": null,
+   "quotes": [
+    "The chart shows median earnings five years after graduation, by subject group and by sex.",
+    "The gap between the sexes is present in every subject shown and is widest in economics, at seven thousand.",
+    "What a chart of this kind cannot show is what the same people would have earned without the degree.",
+    "A chart published next year describes a different cohort, and the subject order has in fact changed twice in the past fifteen years, with engineering rising and law falling."
+   ]
+  },
+  "steps": [
+   {
+    "say": "This passage has two halves and the questions come from both. The first half reads the chart. The second half argues about what the chart cannot tell you.",
+    "show": "halves",
+    "anchor": null,
+    "seconds": 8
+   },
+   {
+    "say": "The chart itself: median earnings, five years out, by subject and by sex. Medicine at the top, creative arts at the bottom.",
+    "show": "bars",
+    "anchor": "The chart shows median earnings five years after graduation, by subject group and by sex.",
+    "seconds": 9
+   },
+   {
+    "say": "The gap between men and women is in every subject. Widest in economics at seven thousand, narrowest in creative arts. Watch for which figure a question wants.",
+    "show": "gap",
+    "anchor": "The gap between the sexes is present in every subject shown and is widest in economics, at seven thousand.",
+    "seconds": 10
+   },
+   {
+    "say": "Now the turn. The writer says the chart cannot show what those people would have earned without the degree. Part of medicine's figure is the students, not the teaching.",
+    "show": "counter",
+    "anchor": "What a chart of this kind cannot show is what the same people would have earned without the degree.",
+    "seconds": 11
+   },
+   {
+    "say": "And the second limit: this is one cohort in one labour market. Next year's chart describes different people - and the subject order has already changed twice in fifteen years.",
+    "show": "cohort",
+    "anchor": "A chart published next year describes a different cohort, and the subject order has in fact changed twice in the past fifteen years, with engineering rising and law falling.",
+    "seconds": 9
+   },
+   {
+    "say": "So when a question asks what the chart shows, answer from the first half. When it asks what it proves, answer from the second. Most lost marks here are answers from the wrong half.",
+    "show": "halves",
+    "anchor": null,
+    "seconds": 9
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 660 350",
+   "caption": "Median earnings five years on — and the two things the chart cannot say",
+   "parts": [
+    {
+     "id": "bars",
+     "kind": "bar",
+     "at": [
+      40,
+      40,
+      90,
+      160
+     ],
+     "text": "medicine\n£52k / £48k",
+     "tone": "read",
+     "value": 52
+    },
+    {
+     "id": "bars2",
+     "kind": "bar",
+     "at": [
+      150,
+      92,
+      90,
+      108
+     ],
+     "text": "economics\ngap £7k",
+     "tone": "listen",
+     "value": 36
+    },
+    {
+     "id": "bars3",
+     "kind": "bar",
+     "at": [
+      260,
+      150,
+      90,
+      50
+     ],
+     "text": "creative arts\n£22k / £21k",
+     "tone": "speak",
+     "value": 22
+    },
+    {
+     "id": "gap",
+     "kind": "label",
+     "at": [
+      40,
+      210,
+      310,
+      30
+     ],
+     "text": "a gap in every subject — widest in economics",
+     "tone": "dim"
+    },
+    {
+     "id": "counter",
+     "kind": "group",
+     "at": [
+      380,
+      40,
+      260,
+      80
+     ],
+     "text": "cannot show: what these people would have earned without the degree",
+     "tone": "no"
+    },
+    {
+     "id": "cohort",
+     "kind": "group",
+     "at": [
+      380,
+      134,
+      260,
+      66
+     ],
+     "text": "cannot show: next year's cohort, or a fixed order",
+     "tone": "no"
+    },
+    {
+     "id": "halves",
+     "kind": "arrow",
+     "at": [
+      40,
+      262,
+      600,
+      36
+     ],
+     "text": "what it SHOWS  |  what it cannot PROVE",
+     "tone": "navy"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "multiple choice",
+   "instruction": "Choose the correct letter, A, B, C or D.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "Why does the writer mention who studies medicine?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "To explain why medicine pays well"
+      },
+      {
+       "letter": "B",
+       "text": "To show part of the figure is selection, not teaching"
+      },
+      {
+       "letter": "C",
+       "text": "To argue medicine should pay less"
+      },
+      {
+       "letter": "D",
+       "text": "To compare medicine with creative arts"
+      }
+     ],
+     "answer": "B",
+     "why": "Paragraph 3: medicine attracts students who would have done well in many fields, so part of the figure is the students.",
+     "wrongs": {
+      "A": "The passage is questioning that reading, not supporting it.",
+      "C": "No argument about what anyone should be paid appears anywhere.",
+      "D": "The comparison is made in paragraph 1 for a different purpose."
+     }
+    },
+    {
+     "n": 2,
+     "stem": "What does the writer conclude about the figures overall?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "They are useless"
+      },
+      {
+       "letter": "B",
+       "text": "They are a reasonable guide, with two cautions"
+      },
+      {
+       "letter": "C",
+       "text": "They should be published more often"
+      },
+      {
+       "letter": "D",
+       "text": "They prove a subject causes an income"
+      }
+     ],
+     "answer": "B",
+     "why": "The last paragraph says none of this makes the figures useless and names the two things to hold in mind.",
+     "wrongs": {
+      "A": "The passage says the opposite in so many words.",
+      "C": "Publication frequency is never discussed.",
+      "D": "That is the inference the passage spends two paragraphs resisting."
+     }
+    },
+    {
+     "n": 3,
+     "stem": "In which subject is the difference between the sexes smallest?",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Medicine"
+      },
+      {
+       "letter": "B",
+       "text": "Economics"
+      },
+      {
+       "letter": "C",
+       "text": "Creative arts"
+      },
+      {
+       "letter": "D",
+       "text": "It is the same in all"
+      }
+     ],
+     "answer": "C",
+     "why": "Paragraph 2 gives economics as the widest and creative arts as the narrowest.",
+     "wrongs": {
+      "A": "Medicine has the highest earnings, which is a different measure.",
+      "B": "Economics is named as the widest gap, not the narrowest.",
+      "D": "The passage says the gap varies by subject."
+     }
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "passage v3/u21/p4",
+    "the key's explanations for questions 34-39",
+    "the methodology manifest"
+   ],
+   "refuse": "The passage does not say. I can answer from it, its key and the course's method.",
+   "starters": [
+    "What is the difference between what the chart shows and what it proves?",
+    "Why can't the chart answer the 'without the degree' question?",
+    "Which questions here come from the second half of the passage?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": true,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_reading_p4"
+ },
+ "v3/u21/teach/reading/p5": {
+  "id": "v3/u21/teach/reading/p5",
+  "kind": "reading",
+  "book": "v3",
+  "unit": 21,
+  "title": "A 732-word argument: find the turn in every paragraph",
+  "one_line": "Long passages are not harder. They are longer. Work paragraph by paragraph.",
+  "sources": {
+   "passage": "v3/u21/p5",
+   "questions": [
+    "v3/u21/reading/46",
+    "v3/u21/reading/47",
+    "v3/u21/reading/48",
+    "v3/u21/reading/49",
+    "v3/u21/reading/50",
+    "v3/u21/reading/51",
+    "v3/u21/reading/52"
+   ],
+   "skill_box": null,
+   "quotes": [
+    "Most public argument about educational inequality concerns schools, and most of the gap that argument is about exists before a child has attended one.",
+    "What predicts a child's early language is not income itself but the quantity and kind of talk directed at them.",
+    "Fade-out is often reported as failure and that reading is too quick.",
+    "They predict later results robustly, whatever they are measuring."
+   ]
+  },
+  "steps": [
+   {
+    "say": "Seven hundred and thirty-two words, eleven paragraphs, seven questions. This is exam length. The method does not change - it just runs longer.",
+    "show": "scale",
+    "anchor": null,
+    "seconds": 8
+   },
+   {
+    "say": "Paragraph one states the whole argument in one sentence: the gap people blame schools for already exists before school. Everything after this defends or qualifies that.",
+    "show": "thesis",
+    "anchor": "Most public argument about educational inequality concerns schools, and most of the gap that argument is about exists before a child has attended one.",
+    "seconds": 11
+   },
+   {
+    "say": "The middle paragraphs make a distinction, and distinctions earn marks. It is not income that predicts language. It is the amount and kind of talk aimed at the child.",
+    "show": "talk",
+    "anchor": "What predicts a child's early language is not income itself but the quantity and kind of talk directed at them.",
+    "seconds": 11
+   },
+   {
+    "say": "Then the complication. Programmes work, and the gains shrink. The writer gives that shrinking a name - fade-out - and immediately says the obvious reading of it is too quick.",
+    "show": "fade",
+    "anchor": "Fade-out is often reported as failure and that reading is too quick.",
+    "seconds": 11
+   },
+   {
+    "say": "Notice what the writer never says. They never say early differences do not matter. They say the differences predict later results robustly, whatever they measure.",
+    "show": "robust",
+    "anchor": "They predict later results robustly, whatever they are measuring.",
+    "seconds": 10
+   },
+   {
+    "say": "That is where Yes, No and Not Given questions live on this passage. The writer qualifies almost everything, so a statement that sounds too flat is usually No.",
+    "show": "ynng",
+    "anchor": null,
+    "seconds": 9
+   },
+   {
+    "say": "One label per paragraph, two words each. Thesis. Vocabulary. Talk. What can be done. Fade-out. Too quick. Practised, not skill. And the questions become a lookup.",
+    "show": "labels",
+    "anchor": null,
+    "seconds": 10
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 680 380",
+   "caption": "Eleven paragraphs, one label each",
+   "parts": [
+    {
+     "id": "scale",
+     "kind": "label",
+     "at": [
+      20,
+      12,
+      640,
+      30
+     ],
+     "text": "732 words · 11 paragraphs · 7 questions · exam length",
+     "tone": "dim"
+    },
+    {
+     "id": "thesis",
+     "kind": "box",
+     "at": [
+      20,
+      54,
+      200,
+      56
+     ],
+     "text": "1 · the gap is there\nbefore school",
+     "tone": "navy"
+    },
+    {
+     "id": "talk",
+     "kind": "box",
+     "at": [
+      240,
+      54,
+      200,
+      56
+     ],
+     "text": "3 · talk, not income,\npredicts language",
+     "tone": "read"
+    },
+    {
+     "id": "fade",
+     "kind": "box",
+     "at": [
+      460,
+      54,
+      200,
+      56
+     ],
+     "text": "5 · gains fade\n— too quick a reading",
+     "tone": "part"
+    },
+    {
+     "id": "robust",
+     "kind": "box",
+     "at": [
+      20,
+      128,
+      200,
+      56
+     ],
+     "text": "10 · they predict\nrobustly",
+     "tone": "ok"
+    },
+    {
+     "id": "ynng",
+     "kind": "group",
+     "at": [
+      240,
+      128,
+      420,
+      56
+     ],
+     "text": "the writer qualifies almost everything — a flat statement is usually NO",
+     "tone": "no"
+    },
+    {
+     "id": "labels",
+     "kind": "arrow",
+     "at": [
+      20,
+      202,
+      640,
+      40
+     ],
+     "text": "label each paragraph in two words before you answer anything",
+     "tone": "navy"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "identifying the writer's views (Yes/No/Not Given)",
+   "instruction": "Do the statements agree with the views of the writer? Write YES, NO or NOT GIVEN.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "The writer believes schools are the main cause of educational inequality.",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Yes"
+      },
+      {
+       "letter": "B",
+       "text": "No"
+      },
+      {
+       "letter": "C",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "B",
+     "why": "The first sentence says most of the gap exists before school, which is the opposite view.",
+     "wrongs": {
+      "A": "The passage opens by separating the public argument from where the gap actually begins.",
+      "C": "The writer states a position on this directly, so it is not silence."
+     }
+    },
+    {
+     "n": 2,
+     "stem": "The writer thinks fade-out proves such programmes fail.",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Yes"
+      },
+      {
+       "letter": "B",
+       "text": "No"
+      },
+      {
+       "letter": "C",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "B",
+     "why": "The writer calls that reading too quick and offers an alternative account.",
+     "wrongs": {
+      "A": "The passage reports that view in order to disagree with it.",
+      "C": "The writer addresses it explicitly."
+     }
+    },
+    {
+     "n": 3,
+     "stem": "The writer believes governments currently spend too little on early years.",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Yes"
+      },
+      {
+       "letter": "B",
+       "text": "No"
+      },
+      {
+       "letter": "C",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "C",
+     "why": "The passage argues about what the evidence shows, never about the level of spending.",
+     "wrongs": {
+      "A": "No view on spending levels is given anywhere in the passage.",
+      "B": "The passage does not argue against more spending either."
+     }
+    },
+    {
+     "n": 4,
+     "stem": "The writer accepts that early differences predict later results.",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Yes"
+      },
+      {
+       "letter": "B",
+       "text": "No"
+      },
+      {
+       "letter": "C",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "A",
+     "why": "Paragraph 10 says they predict later results robustly, whatever they are measuring.",
+     "wrongs": {
+      "B": "The writer states this agreement plainly before qualifying the policy inference.",
+      "C": "The sentence is explicit, so it is not Not Given."
+     }
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "passage v3/u21/p5",
+    "the key's explanations for questions 46-52",
+    "the methodology manifest"
+   ],
+   "refuse": "The passage does not say that. I can answer from it, its key and the course's own method.",
+   "starters": [
+    "Why is a flat statement usually NO on this passage?",
+    "What is the difference between a gap in skill and a gap in practice here?",
+    "How should I label eleven paragraphs without losing time?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": true,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_reading_p5"
+ },
+ "v3/u21/teach/reading/p6": {
+  "id": "v3/u21/teach/reading/p6",
+  "kind": "reading",
+  "book": "v3",
+  "unit": 21,
+  "title": "Three programmes: when a comparison is the argument",
+  "one_line": "The writer sets up three cases so the difference between them can do the work.",
+  "sources": {
+   "passage": "v3/u21/p6",
+   "questions": [
+    "v3/u21/reading/59",
+    "v3/u21/reading/60",
+    "v3/u21/reading/61",
+    "v3/u21/reading/62",
+    "v3/u21/reading/63",
+    "v3/u21/reading/64",
+    "v3/u21/reading/65"
+   ],
+   "skill_box": null,
+   "quotes": [
+    "The first was small, intensive and expensive: a few dozen children, daily sessions, trained staff, home visits.",
+    "The second was the same idea at national scale.",
+    "The intensive arm reproduced roughly two thirds of the original effect.",
+    "If the problem is scale, the policy conclusion is to stop. If the problem is dilution, the conclusion is to deliver fewer children the full programme, which is politically much harder,"
+   ]
+  },
+  "steps": [
+   {
+    "say": "Three programmes, and they are not three examples. They are an argument. Each one exists to make the next one mean something.",
+    "show": "three",
+    "anchor": null,
+    "seconds": 8
+   },
+   {
+    "say": "The first: small, intensive, expensive. Daily sessions, trained staff, home visits, a few dozen children. These are the famous results.",
+    "show": "one",
+    "anchor": "The first was small, intensive and expensive: a few dozen children, daily sessions, trained staff, home visits.",
+    "seconds": 10
+   },
+   {
+    "say": "The second: the same idea nationally. Thousands of settings, existing staff, an hour instead of a morning. The gains were much smaller.",
+    "show": "two",
+    "anchor": "The second was the same idea at national scale.",
+    "seconds": 9
+   },
+   {
+    "say": "The third exists to explain the distance between the other two. It ran both models side by side in one city, and the intensive arm reproduced about two thirds of the effect.",
+    "show": "three2",
+    "anchor": "The intensive arm reproduced roughly two thirds of the original effect.",
+    "seconds": 11
+   },
+   {
+    "say": "Here is the sentence the whole passage was built to reach. Scale and dilution are different problems, and they point to opposite policies.",
+    "show": "turn",
+    "anchor": "If the problem is scale, the policy conclusion is to stop. If the problem is dilution, the conclusion is to deliver fewer children the full programme, which is politically much harder,",
+    "seconds": 12
+   },
+   {
+    "say": "When a passage compares three things, find the sentence that says why the comparison was made. It is usually the answer to the hardest question.",
+    "show": "rule",
+    "anchor": null,
+    "seconds": 9
+   }
+  ],
+  "scene": {
+   "viewbox": "0 0 680 350",
+   "caption": "Three programmes, and the distinction they were set up to make",
+   "parts": [
+    {
+     "id": "one",
+     "kind": "box",
+     "at": [
+      20,
+      50,
+      190,
+      80
+     ],
+     "text": "1 · small, intensive\ndaily, home visits\nlarge effect",
+     "tone": "read"
+    },
+    {
+     "id": "two",
+     "kind": "box",
+     "at": [
+      240,
+      50,
+      190,
+      80
+     ],
+     "text": "2 · national scale\nan hour, existing staff\nsmall effect",
+     "tone": "listen"
+    },
+    {
+     "id": "three2",
+     "kind": "box",
+     "at": [
+      460,
+      50,
+      190,
+      80
+     ],
+     "text": "3 · both, side by side\nintensive ≈ two thirds\ndiluted ≈ none",
+     "tone": "speak"
+    },
+    {
+     "id": "turn",
+     "kind": "group",
+     "at": [
+      20,
+      154,
+      630,
+      70
+     ],
+     "text": "scale → stop   ·   dilution → give fewer children the whole thing",
+     "tone": "navy"
+    },
+    {
+     "id": "rule",
+     "kind": "arrow",
+     "at": [
+      20,
+      244,
+      630,
+      36
+     ],
+     "text": "find the sentence that says why the comparison was made",
+     "tone": "ok"
+    },
+    {
+     "id": "three",
+     "kind": "label",
+     "at": [
+      20,
+      14,
+      630,
+      28
+     ],
+     "text": "three cases, one argument",
+     "tone": "dim"
+    }
+   ]
+  },
+  "practice": {
+   "task_type": "matching information",
+   "instruction": "Which paragraph contains the following information? Write the correct letter.",
+   "questions": [
+    {
+     "n": 1,
+     "stem": "a description of what the three programmes all measured",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Paragraph 1"
+      },
+      {
+       "letter": "B",
+       "text": "Paragraph 4"
+      },
+      {
+       "letter": "C",
+       "text": "Paragraph 6"
+      },
+      {
+       "letter": "D",
+       "text": "Paragraph 8"
+      }
+     ],
+     "answer": "D",
+     "why": "The paragraph that names school completion, employment and contact with the criminal justice system.",
+     "wrongs": {
+      "A": "Paragraph 1 introduces the question, not the outcome measures.",
+      "B": "Paragraph 4 is about the intensive and diluted arms.",
+      "C": "Paragraph 6 distinguishes scale from dilution."
+     }
+    },
+    {
+     "n": 2,
+     "stem": "the claim that the comparison group has changed since the 1960s",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Paragraph 2"
+      },
+      {
+       "letter": "B",
+       "text": "Paragraph 5"
+      },
+      {
+       "letter": "C",
+       "text": "Paragraph 7"
+      },
+      {
+       "letter": "D",
+       "text": "Paragraph 9"
+      }
+     ],
+     "answer": "C",
+     "why": "The paragraph noting that a modern comparison group has nursery places and television.",
+     "wrongs": {
+      "A": "Paragraph 2 describes the first programme itself.",
+      "B": "Paragraph 5 is the usual conclusion and its misleading word.",
+      "D": "Paragraph 9 is about siblings."
+     }
+    },
+    {
+     "n": 3,
+     "stem": "an effect on children who were not in the programme",
+     "options": [
+      {
+       "letter": "A",
+       "text": "Paragraph 3"
+      },
+      {
+       "letter": "B",
+       "text": "Paragraph 6"
+      },
+      {
+       "letter": "C",
+       "text": "Paragraph 8"
+      },
+      {
+       "letter": "D",
+       "text": "Paragraph 9"
+      }
+     ],
+     "answer": "D",
+     "why": "The sibling question, where two small studies found gains in siblings.",
+     "wrongs": {
+      "A": "Paragraph 3 is the national-scale programme.",
+      "B": "Paragraph 6 is the practical consequence of the distinction.",
+      "C": "Paragraph 8 lists what all three measured."
+     }
+    }
+   ]
+  },
+  "ask": {
+   "grounds": [
+    "passage v3/u21/p6",
+    "the key's explanations for questions 59-65",
+    "the methodology manifest"
+   ],
+   "refuse": "The passage does not say. I can answer from it, its key and the course's method.",
+   "starters": [
+    "What is the difference between scale and dilution here?",
+    "Why does the writer call the usual conclusion misleading?",
+    "Which sentence is the passage's real claim?"
+   ]
+  },
+  "audio": {
+   "reads_the_passage": true,
+   "lines": []
+  },
+  "audioBase": "../assets/audio/v3_u21_teach_reading_p6"
+ }
+}
