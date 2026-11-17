@@ -1508,6 +1508,39 @@ UNIT = dict(
           'what is said in its name. Separating a body of evidence from its '
           'public use is a sophisticated close and is available in any '
           'science-and-society prompt.'],
+         model65=[
+                  'Some people say social media is damaging young '
+                  'people. I think the evidence shows an association, '
+                  'and that the cause is still unclear.',
+                  'The association is well established. Across many '
+                  'datasets, young people who use social media heavily '
+                  'report lower wellbeing. The pattern appears in '
+                  'different countries and has been found repeatedly, '
+                  'which is more than can be said for many claims '
+                  'about young people.',
+                  'But association is not cause. Unhappy young people '
+                  'may use these services more rather than being made '
+                  'unhappy by them, and the studies that can separate '
+                  'the two are rare. Historically, every new medium '
+                  'from novels to television has been blamed for '
+                  'harming the young, and those claims were mostly '
+                  'wrong.',
+                  'I think the sensible response is to act where the '
+                  'harm is specific and measurable, such as sleep lost '
+                  'to night-time use, rather than on the general '
+                  'claim. That reflects the evidence without waiting '
+                  'for a certainty that may never arrive.',
+                  ],
+         gap65=[
+                'It states what the base-rate argument from earlier '
+                'media does and does not license, instead of using it '
+                'to dismiss the claim.',
+                'It names the particular harms that are measurable '
+                'now, which is where the recommendation gets its '
+                'force.',
+                'It separates the empirical question from the design '
+                'question about two-sided markets.',
+                ],
          criterion=[('Specifying what the evidence carries rather than '
                      'splitting the difference', 'Task Response'),
                     ('Explaining why your own best evidence is weaker than '

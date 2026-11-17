@@ -1427,6 +1427,39 @@ UNIT = dict(
           'a position on one question to a claim about a kind of question. '
           'That is the last thing to add and only when the specific case has '
           'been made.'],
+         model65=[
+                  'Some people believe companies should be required to '
+                  'explain automated decisions. I agree, provided that '
+                  'explanation means the right thing.',
+                  'The case is strong. These systems decide who gets a '
+                  'loan, an interview or a place, and a person refused '
+                  'has no way of knowing whether the decision used '
+                  'information it should not have. An explanation also '
+                  'allows mistakes to be found, which benefits the '
+                  'company.',
+                  'But explanation is harder than it sounds. '
+                  'Publishing the code tells almost nobody anything, '
+                  'and a system may use hundreds of factors with no '
+                  'single reason for a decision. There is also a real '
+                  'risk that a published rule will simply be gamed by '
+                  'applicants who can afford advice.',
+                  'I think the requirement should be to publish the '
+                  'criterion in a sentence a person can check: what '
+                  'the system is trying to predict, and what it is '
+                  'allowed to use. That is more useful than the code, '
+                  'and it lets a regulator test whether the system '
+                  'does what the sentence says.',
+                  ],
+         gap65=[
+                'It shows that the impossibility result limits which '
+                'fairness definitions can hold together, instead of '
+                'treating fairness as one idea.',
+                'It explains why the criterion in a sentence is more '
+                'auditable than the code, rather than asserting that '
+                'it is.',
+                'It gives the gaming objection its weight and then '
+                'bounds it.',
+                ],
          criterion=[('Replacing the object of the dispute with something '
                      'concrete', 'Task Response'),
                     ('Conceding the opposing technical point at full '

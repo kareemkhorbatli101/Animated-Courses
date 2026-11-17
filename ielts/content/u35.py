@@ -1423,6 +1423,39 @@ UNIT = dict(
           'argued about, which leaves the reader with a sharper statement than '
           'a summary would. A conclusion should add the final turn, not repeat '
           'the essay.'],
+         model65=[
+                  'Some people argue that museums should return '
+                  'objects to their countries of origin. I think many '
+                  'should be returned, but the decision cannot be made '
+                  'by one rule.',
+                  'The case for return is strong where objects were '
+                  'taken by force. A country that lost its objects '
+                  'while it had no power to refuse has a claim that '
+                  'does not expire, and objects often mean more where '
+                  'they were made than in a case abroad.',
+                  'Museums make arguments that are not only '
+                  'self-interested. They have conserved objects for a '
+                  'long time, and a large collection allows comparison '
+                  'that a single national museum cannot. They also '
+                  'warn that one return may become a rule that empties '
+                  'their shelves.',
+                  'I think the strongest claims are those of origin '
+                  'and of consent: where an object was taken without '
+                  'consent and is asked for, it should go back. '
+                  'Stewardship is the weakest claim, because care can '
+                  'now be provided in most countries. Loans in both '
+                  'directions would keep much of what the museums '
+                  'value.',
+                  ],
+         gap65=[
+                'It tests each of the four principles separately and '
+                'says which is weakest and why, instead of weighing '
+                'two sides.',
+                'It reports what happened to objects that were '
+                'returned, which is evidence rather than prediction.',
+                'It refuses the general rule and says what a decision '
+                'would need in each case.',
+                ],
          criterion=[('A position that orders the questions instead of '
                      'picking a side', 'Task Response'),
                     ('Accepting opposing evidence and reclassifying it',

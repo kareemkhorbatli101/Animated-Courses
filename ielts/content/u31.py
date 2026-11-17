@@ -1447,6 +1447,39 @@ UNIT = dict(
           'called stronger than it is usually given credit for, and then '
           'answered. A straw man costs marks on Task Response even when the '
           'English is good.'],
+         model65=[
+                  'Some people believe that no government policy '
+                  'should be introduced without evidence of public '
+                  'support. I partly agree.',
+                  'There is a good case for requiring such evidence. A '
+                  'policy that most people oppose is hard to maintain, '
+                  'and governments that ignore opinion lose the trust '
+                  'they need for the next decision. Asking also brings '
+                  'information that officials do not have, because the '
+                  'people affected know things the department cannot '
+                  'measure.',
+                  'But public support is a weak test on its own. '
+                  'Opinion on a new idea is often unformed, and '
+                  'answers change with the wording of the question. '
+                  'Many measures that are now popular, such as seat '
+                  'belts and smoking bans, were unpopular before they '
+                  'were introduced and approved afterwards.',
+                  'I think governments should be required to consult, '
+                  'to publish what they heard and to say why they '
+                  'decided as they did. That is different from '
+                  'requiring majority support in advance. The duty '
+                  'should be to explain, because a policy that cannot '
+                  'be explained is usually a bad one.',
+                  ],
+         gap65=[
+                'It distinguishes a majority from an informed majority '
+                'and says which one the question is really about.',
+                'It explains why support measured before a policy and '
+                'after it differ systematically, instead of giving '
+                'examples.',
+                'It proposes a duty that can be audited, where this '
+                'answer proposes a practice.',
+                ],
          criterion=[('A third position that is not a compromise',
                      'Task Response'),
                     ('A genuine concession before the objection',

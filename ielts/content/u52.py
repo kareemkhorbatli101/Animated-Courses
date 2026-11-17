@@ -1600,6 +1600,38 @@ UNIT = dict(
           'procurement and says plainly that this is uncomfortable. An '
           'essay that notices where its own argument has ended up is doing '
           'something very few do.'],
+         model65=[
+                  'Some say computer models are the best guide we have '
+                  'to the future. In my view they are the best guide we '
+                  'have in some fields and a poor one in others, and '
+                  'the difference is not random.',
+                  'Models do things no other method can. They hold '
+                  'more variables than anybody can keep in mind, they '
+                  'render assumptions explicit, and they can be run '
+                  'again with those assumptions changed. A model that '
+                  'is wrong in public is more useful than an intuition '
+                  'that is never written down.',
+                  'However, a model is only as good as the system it '
+                  'represents. Where the mechanism is well understood, '
+                  'as in the movement of planets or of heat, models '
+                  'are extremely accurate. Where behaviour responds to '
+                  'the forecast, as in markets and in epidemics, the '
+                  'model\'s own publication changes what it predicted.',
+                  'I think the honest position is that models are the '
+                  'best guide where feedback from the forecast is '
+                  'weak, and one guide among many where it is '
+                  'strong. What should be published is not the single '
+                  'number but the range, with the assumptions that '
+                  'produced it.',
+                  ],
+         gap65=[
+                'It distinguishes the two kinds of system by whether '
+                'the forecast feeds back, instead of listing fields.',
+                'It explains why the published range is the useful '
+                'output, which follows from that distinction.',
+                'It says what a model gives you that an unwritten '
+                'judgement does not.',
+                ],
          criterion=[('Correcting the comparison the question assumed',
                      'Task Response'),
                     ('Two distinct failures rather than one repeated',

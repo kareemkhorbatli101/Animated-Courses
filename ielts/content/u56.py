@@ -1598,6 +1598,37 @@ UNIT = dict(
           'about weighting, recording weightings makes it inspectable. An '
           'essay whose practical proposal is entailed by its argument is '
           'doing what very few do.'],
+         model65=[
+                  'Some say judgements about art are purely personal. '
+                  'In my view taste is personal and judgement is not, and '
+                  'the two are regularly confused.',
+                  'The personal element is evident. Nobody can be '
+                  'argued into enjoying a piece of music, and a work '
+                  'that moves one person leaves another unaffected. '
+                  'Attempts to legislate taste have always looked '
+                  'ridiculous within a generation.',
+                  'However, we do not treat all judgements as equal. A '
+                  'critic who can show what a painting is doing, and '
+                  'how it relates to what came before, is understood '
+                  'to know something that an untutored viewer does '
+                  'not. Across different cultures and centuries, some '
+                  'works are repeatedly revisited, which is hard to '
+                  'explain if judgement is merely preference.',
+                  'I think the defensible position is that judgements '
+                  'of value are arguable while responses are not. A '
+                  'judgement can be supported by evidence about the '
+                  'work, and can be revised. That is a weaker claim '
+                  'than objective beauty, and it is enough to explain '
+                  'why the argument continues.',
+                  ],
+         gap65=[
+                'It separates response from judgement and keeps the '
+                'distinction doing work in every paragraph.',
+                'It uses persistence across cultures as evidence '
+                'rather than as an appeal to authority.',
+                'It states exactly how strong the conclusion is, which '
+                'stops it claiming more than the argument supports.',
+                ],
          criterion=[('An extent that is a boundary, not a point on a '
                      'scale', 'Task Response'),
                     ('The opposing case given its strongest evidence',

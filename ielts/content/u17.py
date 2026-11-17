@@ -1312,6 +1312,39 @@ UNIT = dict(
           'The last paragraph says where the vote belongs rather than '
           'repeating whether there should be one. Moving an argument to a '
           'different stage of a process is a sophisticated close.'],
+         model65=[
+                  'Some people say the public should decide what '
+                  'public buildings look like. I partly agree.',
+                  'There are good arguments for this. Public buildings '
+                  'are paid for by the public and lived with for '
+                  'decades. People who dislike a building cannot avoid '
+                  'it. A vote or a consultation also gives a decision '
+                  'legitimacy, so that complaints afterwards are '
+                  'weaker.',
+                  'But there are problems. A public vote tends to '
+                  'choose familiar designs, and some buildings that '
+                  'were unpopular when built are now admired. More '
+                  'importantly, appearance is only one thing a '
+                  'building has to do. A building that is beautiful '
+                  'but dark, cold or hard to clean will be disliked '
+                  'within five years.',
+                  'I think the public should be consulted about what a '
+                  'building must do rather than about how it should '
+                  'look. Questions about light, noise, entrances and '
+                  'running costs can be answered by anybody who will '
+                  'use the building, and the evidence shows these '
+                  'things matter more to satisfaction than style does.',
+                  ],
+         gap65=[
+                'It replaces the question rather than balancing it, '
+                'and gives the evidence for the replacement.',
+                'It reports what studies of buildings in use measure, '
+                'and how cheap that measurement is, instead of '
+                'appealing to it in general.',
+                'It keeps the appearance question rather than '
+                'dismissing it, and says the condition under which it '
+                'should be asked.',
+                ],
          criterion=[('A third position that divides rather than '
                      'compromises', 'Task Response'),
                     ('An objection resting on evidence, not distrust',

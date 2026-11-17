@@ -1353,6 +1353,39 @@ UNIT = dict(
           'resisting change — before giving the one they hold. Naming what '
           'you are not arguing protects a position from the easiest '
           'objection.'],
+         model65=[
+                  'New technology is said to create as many jobs as it '
+                  'destroys. I agree that it has so far, but the claim '
+                  'hides something important.',
+                  'The historical evidence supports it. In every major '
+                  'episode, from mechanised weaving to the cash '
+                  'machine, total employment was higher twenty years '
+                  'later. Jobs that nobody could have described '
+                  'appeared, and people moved into them. Predictions '
+                  'of permanent mass unemployment have been made in '
+                  'every generation and have not come true.',
+                  'But the total is not what people experience. The '
+                  'jobs disappear quickly and the new ones appear '
+                  'slowly, often in different places and requiring '
+                  'different skills. A worker of fifty whose job is '
+                  'automated may never find equivalent work, and for '
+                  'that person the national total is irrelevant.',
+                  'I think the claim is true about the total and '
+                  'misleading about the individual. Governments should '
+                  'so accept the technology and spend seriously '
+                  'on the transition, because the cost falls on a few '
+                  'people while the gain is spread across everybody.',
+                  ],
+         gap65=[
+                'It locates the error in the inference from the '
+                'aggregate to the individual, and names it, instead of '
+                'observing that the total hides something.',
+                'It explains why the gap between the two timescales '
+                'opens, which turns a complaint into a mechanism.',
+                'It says what the historical record can and cannot '
+                'support, rather than using it as a single block of '
+                'evidence.',
+                ],
          criterion=[('Separating two claims the prompt has merged',
                      'Task Response'),
                     ('Conceding fully and with evidence before disagreeing',

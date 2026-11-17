@@ -1196,6 +1196,39 @@ UNIT = dict(
           'Numbers do most of the work here: eleven per cent, six, '
           'nineteen, forty kilometres. A discussion essay with figures '
           'reads as knowledge rather than as opinion.'],
+         model65=[
+                  'Some towns have limited the number of visitors they '
+                  'accept. I will look at both sides of this question '
+                  'and give my own opinion.',
+                  'Those who support limits point to the cost of '
+                  'tourism for residents. Houses are bought to let to '
+                  'visitors, which raises prices for local people. '
+                  'Shops that sold ordinary goods become souvenir '
+                  'shops. Streets are crowded for three months and '
+                  'empty for nine, and the people who gain are not '
+                  'always the people who pay.',
+                  'Those who oppose limits argue that tourism brings '
+                  'employment and money. In many small towns it is the '
+                  'main industry, and without it young people would '
+                  'have to leave. A limit also reduces the income that '
+                  'pays for the services everybody uses.',
+                  'I think towns should manage tourism rather '
+                  'than simply limit it. Spreading visitors across the '
+                  'year is better than reducing their number, because '
+                  'the same income arrives without the crowding. '
+                  'Limits on holiday lets are also more useful than '
+                  'limits on visitors, because housing is the cost '
+                  'residents feel most.',
+                  ],
+         gap65=[
+                'It separates the number of visitors from their '
+                'distribution across the year, which is what the '
+                'evidence from the four towns actually shows.',
+                'It reports what each measure achieved rather than '
+                'what it was intended to achieve.',
+                'It says which of the four measures did what was '
+                'intended, and why that one did.',
+                ],
          criterion=[('A third position built from evidence',
                      'Task Response'),
                     ('The opponents’ best argument conceded and '

@@ -1350,6 +1350,39 @@ UNIT = dict(
           'The conclusion names a question it is leaving open. Admitting what '
           'your own resolution does not solve is a mark of a band 7 or above '
           'answer and costs two sentences.'],
+         model65=[
+                  'Some people say social media companies should '
+                  'remove false information. I agree in limited cases, '
+                  'but I think removal is the wrong main instrument.',
+                  'There is a case for removing some material. Where '
+                  'false information causes direct harm, such as a '
+                  'false claim about a medicine, the cost of leaving '
+                  'it up is high. Companies already remove other '
+                  'categories of material, so this is not a new power.',
+                  'But removal has problems. Deciding what is false is '
+                  'often difficult and sometimes contested, and a '
+                  'company that removes material becomes an editor of '
+                  'public debate. Removal is also slow: a false story '
+                  'usually reaches most of its audience in the first '
+                  'hours.',
+                  'I think the better instruments act on distribution '
+                  'rather than on existence. Slowing the resharing of '
+                  'articles nobody has opened, attaching corrections '
+                  'to the original item rather than publishing them '
+                  'separately, and not treating share counts as '
+                  'evidence of value would reduce the reach of false '
+                  'stories without anybody deciding what is true.',
+                  ],
+         gap65=[
+                'It explains why speed makes removal a weak '
+                'instrument, which is the reason the alternatives are '
+                'better rather than merely safer.',
+                'It reports what happened when automated accounts were '
+                'removed, so the reader can see which cause has been '
+                'tested.',
+                'It says what the backfire research actually found '
+                'after it failed to replicate.',
+                ],
          criterion=[('Announcing a third option in the introduction',
                      'Task Response'),
                     ('Refusing a weak framing and supplying a better '

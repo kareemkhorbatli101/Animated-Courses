@@ -14,6 +14,8 @@ An intent file:
      "items": ["u61 c1 R0 i4", "..."],          exact item keys that may change
      "item_fields": ["ans", "why", "wrongs"],   which fields of them may change
      "texts": ["u61 c1 R0"],                    texts whose words may change
+     "prose": ["u1 c5 W1 model"],               prose slots that may change
+     "new_prose": ["u1 c5 W1 model65"],         slots that may appear
      "new_items": true,                         items may be added
      "new_texts": ["paper1a"],                  prefixes that may appear
      "heads": false,                            the head-word set may move
@@ -46,6 +48,8 @@ def main(argv):
     ok_texts = set(intent.get('texts', []))
     new_items = bool(intent.get('new_items'))
     new_texts = tuple(intent.get('new_texts', []))
+    ok_prose = set(intent.get('prose', []))
+    new_prose = tuple(intent.get('new_prose', []))
     ok_heads = bool(intent.get('heads'))
     ok_meas = intent.get('measure', {})
     ok_figs = intent.get('figures', {})
@@ -85,6 +89,23 @@ def main(argv):
         for k in b1['texts']:
             if k not in b0['texts'] and not k.startswith(new_texts or ('\0',)):
                 bad.append('%s: text %s added (undeclared)' % (vol, k))
+        for k, q0 in b0.get('prose', {}).items():
+            q1 = b1['prose'].get(k)
+            if q1 is None:
+                bad.append('%s: prose %s removed' % (vol, k))
+            elif q0['sha'] != q1['sha']:
+                if k in ok_prose or '*' in ok_prose:
+                    declared += 1
+                else:
+                    bad.append('%s: prose %s changed, %d -> %d words '
+                               '(undeclared)' % (vol, k, q0['w'], q1['w']))
+        for k in b1['prose']:
+            if k in b0.get('prose', {}):
+                continue
+            if k.endswith(new_prose or ('\0',)):
+                declared += 1
+            else:
+                bad.append('%s: prose %s added (undeclared)' % (vol, k))
         if b0['heads'] != b1['heads'] and not ok_heads:
             lost = set(b0['heads']) - set(b1['heads'])
             got = set(b1['heads']) - set(b0['heads'])

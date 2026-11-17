@@ -1527,6 +1527,39 @@ UNIT = dict(
           'returning to the premise. Conceding a rebuttal and showing your '
           'position survives it is more convincing than winning every '
           'exchange.'],
+         model65=[
+                  'Some people say equality of opportunity is enough, '
+                  'and that outcomes do not matter. I think '
+                  'opportunity alone is not sufficient.',
+                  'The argument for opportunity is attractive. If '
+                  'everybody has the same chance, differences in '
+                  'outcome reflect effort and choice, and a society '
+                  'that equalises outcomes directly removes the reward '
+                  'for both. Mobility, on this view, is the right '
+                  'measure.',
+                  'But opportunity is hard to separate from outcome. '
+                  'The outcome of one generation is the starting point '
+                  'of the next: a child\'s school, housing and '
+                  'expectations come from a parent\'s income. Where '
+                  'persistence is high, the promise of opportunity is '
+                  'formally true and practically empty.',
+                  'I think a society needs both, and that the honest '
+                  'version of the opportunity argument accepts a limit '
+                  'on inequality of outcome. Otherwise each generation '
+                  'inherits the inequality of the last, and equality '
+                  'of opportunity becomes a description of a race in '
+                  'which everybody starts from a different line.',
+                  ],
+         gap65=[
+                'It makes persistence across generations the link '
+                'between the two, rather than asserting that they are '
+                'connected.',
+                'It explains why high persistence does not show '
+                'intervention to be futile, which is the inference the '
+                'evidence invites and does not support.',
+                'It says what the Danish comparison does and does not '
+                'transfer.',
+                ],
          criterion=[('A thesis containing both halves and their connection',
                      'Task Response'),
                     ('Making the opposing claim self-undermining',

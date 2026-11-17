@@ -1513,6 +1513,37 @@ UNIT = dict(
           'final clause names the cost of the writer’s own position. An '
           'essay that admits its conclusion is harder to campaign with is '
           'describing the world rather than recruiting.'],
+         model65=[
+                  'Some people say certain goods and services should '
+                  'never be sold for profit. I agree in a small number '
+                  'of cases, and I think the usual arguments are too '
+                  'broad.',
+                  'The strongest argument is that selling something '
+                  'can change what it is. A gift of blood and a sale '
+                  'of blood are not the same act, and where payment '
+                  'reduces the supply of what is wanted, the market '
+                  'has defeated its own purpose.',
+                  'But the argument is often stretched. Most goods are '
+                  'not changed by being sold, and the objection then '
+                  'rests on inequality: the worry is not the sale but '
+                  'that one party has no alternative. That is a reason '
+                  'to improve the alternatives rather than to forbid '
+                  'the transaction.',
+                  'I think the test should be whether the payment '
+                  'destroys what is being bought, or whether one party '
+                  'is acting only because they have no choice. Votes '
+                  'fail the first test and much low-paid work fails '
+                  'the second. Most other goods pass both, and should '
+                  'be left alone.',
+                  ],
+         gap65=[
+                'It gives the two tests as questions anybody can '
+                'apply, and shows which case fails which.',
+                'It reports how often crowding out is actually found, '
+                'instead of relying on the famous examples.',
+                'It treats the intuition about particular cases as '
+                'evidence rather than as sentiment.',
+                ],
          criterion=[('Agreeing with a conclusion and rejecting its route',
                      'Task Response'),
                     ('Holding the reductio until after the evidence',

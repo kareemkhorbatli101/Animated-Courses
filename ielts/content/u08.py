@@ -1242,6 +1242,42 @@ UNIT = dict(
           'The conclusion names a specific, recent and checkable fact — '
           'the fall in measurement costs — which converts the position '
           'into a proposal somebody could act on.'],
+         model65=[
+                  'Some people argue that modern farming methods do '
+                  'more harm than good. I will look at both sides '
+                  'before giving my view.',
+                  'The achievements are large and should not be '
+                  'forgotten. Between 1960 and 2000 the world '
+                  'population doubled while cultivated land rose by '
+                  'only about twelve per cent. New varieties and '
+                  'fertiliser produced far more food from each '
+                  'hectare, which prevented famines that were widely '
+                  'predicted.',
+                  'The costs are also real. Fertiliser that is not '
+                  'taken up runs into rivers, where it causes damage. '
+                  'Soil structure declines in ways that yield figures '
+                  'do not show, because yield measures what leaves a '
+                  'field rather than what the field has left. Some of '
+                  'these costs appear only after decades.',
+                  'I think modern methods have done more good '
+                  'than harm so far, because the alternative was '
+                  'hunger. But the measurement needs to change. '
+                  'If governments measured soil carbon and '
+                  'water-holding capacity as well as yield, farmers '
+                  'who protect their land would no longer be penalised '
+                  'for a slightly smaller harvest.',
+                  ],
+         gap65=[
+                'It shows that the measurement problem is the cause of '
+                'the farming problem, rather than treating them as two '
+                'separate points.',
+                'It explains why a farm can be profitable for forty '
+                'years and worth less at the end, which makes the '
+                'invisible cost concrete.',
+                'It names the two measurable substitutes and says what '
+                'each predicts, where this answer names them without '
+                'evidence.',
+                ],
          criterion=[('A third position that relocates the problem',
                      'Task Response'),
                     ('Both cases stated with figures',

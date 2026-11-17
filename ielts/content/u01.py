@@ -1173,6 +1173,45 @@ UNIT = dict(
           'studies, the doubling of cost, the less experienced teachers, '
           'the rooms. That is what the twelve-minute plan in cycle 4 was '
           'for.'],
+         model65=[
+                  'I agree that governments should spend more money on '
+                  'reducing class sizes, but only to a point. In this '
+                  'essay I will look at the advantages and then at the '
+                  'problems.',
+                  'The main advantage is that a teacher with fewer '
+                  'children can give more attention to each one. In a '
+                  'class of thirty, a child who does not understand '
+                  'can stay silent for a whole lesson. In a class of '
+                  'twenty, the teacher notices. Research also shows '
+                  'that the effect is biggest for younger children and '
+                  'for children who are behind, so the money is not '
+                  'wasted.',
+                  'But there are problems. Smaller classes need '
+                  'more teachers, and if a school cannot find '
+                  'experienced teachers it must employ weaker ones. '
+                  'Some studies show that the benefit then disappears '
+                  'completely. Schools also need more rooms, and the '
+                  'rooms they take are often the library or the music '
+                  'room.',
+                  'I think class size matters less than the '
+                  'quality of the teacher. So I think '
+                  'governments should spend the money on training and '
+                  'paying teachers first, and reduce class sizes only '
+                  'where there are enough good teachers available. '
+                  'This is a more useful way to use a limited budget.',
+                  ],
+         gap65=[
+                'It compares the two purchases directly, asking which '
+                'buys more learning for the same money, instead of '
+                'listing advantages and then problems.',
+                'It names the mechanism that makes the smaller class '
+                'fail - the inexperienced teacher - and uses it to '
+                'reach the conclusion, rather than mentioning it as '
+                'one problem among several.',
+                'Its final paragraph adds a test anybody could apply, '
+                'where this one repeats the opinion in different '
+                'words.',
+                ],
          criterion=[('An objection stated at its strongest',
                      'Task Response'),
                     ('A divided position with a named exception',

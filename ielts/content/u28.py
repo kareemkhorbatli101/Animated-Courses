@@ -1332,6 +1332,37 @@ UNIT = dict(
           'statement. For "to what extent" prompts, specifying the conditions '
           'under which the claim holds is the highest-scoring kind of '
           'answer.'],
+         model65=[
+                  'Some people say organic farming cannot feed the '
+                  'world. I think this is true as the question is '
+                  'usually asked, but the question is not a good one.',
+                  'The yield evidence is reasonably clear. Organic '
+                  'systems produce about seventy to ninety per cent of '
+                  'the output of intensive systems per hectare, with '
+                  'the gap larger for cereals. If the world ate as it '
+                  'does now, a complete switch would require more '
+                  'land, and land is what forests and wetlands occupy.',
+                  'But food supply is not only about yield. A large '
+                  'share of what is grown is fed to animals or wasted. '
+                  'Diet and waste change the arithmetic more than '
+                  'farming method does, and intensive farming carries '
+                  'costs, such as declining soil and polluted water, '
+                  'that yield figures do not show.',
+                  'I think organic farming cannot replace intensive '
+                  'farming at present diets, but the honest answer is '
+                  'that the question depends on what we eat and how '
+                  'much we waste. Those are the variables with the '
+                  'largest effect, and they are rarely included in the '
+                  'comparison.',
+                  ],
+         gap65=[
+                'It states what the comparison holds constant, which '
+                'is where the usual answer goes wrong.',
+                'It quantifies the two larger variables rather than '
+                'naming them.',
+                'It says what each system measures well, so the reader '
+                'can see why the two sides cite different numbers.',
+                ],
          criterion=[('Conceding the strongest evidence without hedging',
                      'Task Response'),
                     ('Reframing with a quantity larger than the gap',

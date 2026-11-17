@@ -1521,6 +1521,40 @@ UNIT = dict(
           'from those offered and then names the arrangement that follows. '
           '"To the extent that I agree, it is on different grounds" is a '
           'band 7-and-above move worth having ready.'],
+         model65=[
+                  'Some people say that publishing scientific advice '
+                  'to government increases public trust. I think the '
+                  'effect is smaller than expected, and not always in '
+                  'the direction intended.',
+                  'The argument for publication is clear. If advice is '
+                  'secret, a minister can describe it as they wish and '
+                  'critics can only dispute the description. '
+                  'Publication lets anybody check what was actually '
+                  'recommended, and it makes it harder to claim '
+                  'support that was never given.',
+                  'But the measured effects are disappointing. Where '
+                  'advice has been published, surveys show movements '
+                  'in trust that are small and sometimes downward. '
+                  'Advice written for publication also becomes more '
+                  'careful and harder to read, so the public gains a '
+                  'document it cannot easily use.',
+                  'I think advice should still be published, but for '
+                  'accountability rather than for trust. It allows the '
+                  'argument to be conducted on what was said, which is '
+                  'valuable even if no survey shows a change. '
+                  'Expecting it to raise trust sets a test that it '
+                  'will fail.',
+                  ],
+         gap65=[
+                'It separates legibility from honesty, which is what '
+                'actually changed when advice began to be written for '
+                'publication.',
+                'It reports the direction and the size of the measured '
+                'movement, so the reader can see why the expectation '
+                'was wrong.',
+                'It names the benefit that does survive the evidence '
+                'and says who it is for.',
+                ],
          criterion=[('Attacking the premise rather than the conclusion',
                      'Task Response'),
                     ('Conceding that the opposing premise also failed',

@@ -1548,6 +1548,37 @@ UNIT = dict(
           'for a bare probability protects the forecaster, which is a '
           'reason to doubt the justification offered for it. Noticing '
           'whose interest a stated principle serves is a band 9 move.'],
+         model65=[
+                  'Some say forecasters should give a single answer '
+                  'rather than a probability. In my view a single answer '
+                  'is easier to use and harder to judge, and that this '
+                  'is an unfavourable exchange.',
+                  'The argument for one figure is pragmatic. A '
+                  'decision has to be made, and a range cannot be '
+                  'acted on directly: somebody must choose a point in '
+                  'it. Audiences also comprehend a single figure, '
+                  'whereas a probability is commonly misinterpreted.',
+                  'However, a single answer hides what the forecaster does '
+                  'not know, and makes the forecast impossible to '
+                  'score. A forecast of rain tomorrow is either right '
+                  'or wrong once; a forecast of seventy per cent, '
+                  'repeated a hundred times, can be checked against '
+                  'how often it rained. Probabilistic forecasts can '
+                  'so improve, and point forecasts cannot.',
+                  'I think forecasters should publish the probability '
+                  'and, where a decision needs one, the point they '
+                  'would act on and why. That gives the user what they '
+                  'need without obliterating the record that makes the '
+                  'forecast worth having.',
+                  ],
+         gap65=[
+                'It explains why only the probabilistic form can be '
+                'scored, which is the reason the trade is a poor one.',
+                'It concedes the usability argument and then meets it '
+                'in the recommendation rather than dismissing it.',
+                'It says what the forecaster owes the user in addition '
+                'to the number.',
+                ],
          criterion=[('Disagreeing with a proposal while granting its '
                      'complaint', 'Task Response'),
                     ('Reinterpreting what the objection is about',

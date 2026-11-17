@@ -1588,6 +1588,39 @@ UNIT = dict(
           'would change your mind and the date on which you will look" is '
           'the kind of sentence that separates a band 8 answer from a band '
           '7 one: it could be adopted tomorrow.'],
+         model65=[
+                  'Some people say governments should not act until '
+                  'the evidence is conclusive. In my view this sets a '
+                  'standard that would preclude most useful intervention.',
+                  'There is a real argument behind the claim. Acting '
+                  'on weak evidence squanders resources, and a government '
+                  'that intervenes early and wrongly loses the '
+                  'authority to intervene later. Where the cost of '
+                  'acting is high and the harm is small, waiting is '
+                  'right.',
+                  'However, conclusive evidence is rare, and it usually '
+                  'arrives after the decision has been forced. Waiting '
+                  'is itself a choice, with its own costs, and these '
+                  'are rarely quantified because nobody is responsible '
+                  'for them. The delay also tends to favour whoever '
+                  'benefits from the current arrangement.',
+                  'I think the test should be the balance of harms '
+                  'rather than the strength of the evidence. Where a '
+                  'harm is irreversible, act on an uncertain case and '
+                  'be ready to stop; where it is not, wait and gather '
+                  'more. Demanding certainty first simply hides the '
+                  'decision instead of improving it.',
+                  ],
+         gap65=[
+                'It makes the balance of harms the criterion, so the '
+                'recommendation follows from the argument rather than '
+                'sitting beside it.',
+                'It names who gains from delay, which is why the '
+                'evidential standard is argued for so often and by '
+                'whom.',
+                'It says what reversibility changes about the cost of '
+                'being wrong.',
+                ],
          criterion=[('Naming what the extent depends on',
                      'Task Response'),
                     ('The opposing case stated as a mechanism',

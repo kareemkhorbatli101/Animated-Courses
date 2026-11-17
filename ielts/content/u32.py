@@ -1415,6 +1415,40 @@ UNIT = dict(
           'The conclusion proposes an alternative instrument instead of '
           'repeating the objection, and gives it a practical advantage. A '
           'conclusion that only restates is a wasted paragraph.'],
+         model65=[
+                  'Some authorities fine households that put the wrong '
+                  'material in a recycling bin. I think fines are the '
+                  'wrong instrument here.',
+                  'There is an argument for them. Contaminated loads '
+                  'can be rejected in their entirety, so one household '
+                  'can waste the effort of a street. A fine makes the '
+                  'cost visible to the person causing it, and it is '
+                  'cheaper than inspecting every bin.',
+                  'But fines assume the problem is unwillingness. The '
+                  'evidence suggests it is mainly confusion: rules '
+                  'differ between councils, packaging is often made of '
+                  'two materials that cannot be separated, and even '
+                  'careful households get it wrong. Fining somebody '
+                  'for a mistake they could not avoid damages the '
+                  'willingness that recycling depends on.',
+                  'I think authorities should make the rules the same '
+                  'across areas, label packaging clearly and collect '
+                  'the materials people actually have. Where a '
+                  'household repeatedly and deliberately contaminates '
+                  'a load, a fine is reasonable, but it should be the '
+                  'last step rather than the first.',
+                  ],
+         gap65=[
+                'It uses the measured composition of what is left in '
+                'the bin, so the diagnosis is evidence rather than '
+                'assumption.',
+                'It explains why the plateau is not a fall in '
+                'willingness, which is the misreading the policy is '
+                'built on.',
+                'It says which share of the remaining material no '
+                'household could sort, and what follows for the design '
+                'of the system.',
+                ],
          criterion=[('Stating the opposing case at its strongest',
                      'Task Response'),
                     ('Two genuinely distinct reasons, not one repeated',

@@ -1186,6 +1186,43 @@ UNIT = dict(
           'The last sentence is direct and slightly uncomfortable, which '
           'is appropriate: a conclusion that refuses to please both sides '
           'reads as a view rather than a summary.'],
+         model65=[
+                  'Some people argue that conservation should protect '
+                  'habitats rather than individual species. I will '
+                  'consider both positions before giving my own.',
+                  'The argument for habitats is strong. A species '
+                  'cannot survive without the place it lives in, and '
+                  'protecting a wood protects everything in it, '
+                  'including species nobody has studied. It is also '
+                  'more efficient: one decision protects thousands of '
+                  'organisms instead of one.',
+                  'But the species approach also has advantages. '
+                  'A well-known animal attracts money and public '
+                  'attention, which a habitat alone does not. '
+                  'Campaigns for large mammals have raised funds that '
+                  'then paid for the land around them. Also, '
+                  'some species need particular help that habitat '
+                  'protection does not give, such as controlling a '
+                  'predator.',
+                  'I think the two approaches should be combined. '
+                  'Habitats should be the main focus because they '
+                  'protect more with the same money, but famous '
+                  'species are useful for raising the funds that make '
+                  'habitat protection possible. The most important '
+                  'thing is that reserves are large enough and '
+                  'connected to each other.',
+                  ],
+         gap65=[
+                'It uses the edge-effect arithmetic to show WHY a '
+                'small reserve fails, instead of asserting that '
+                'reserves should be large.',
+                'It treats the flagship species as a funding mechanism '
+                'and says what the evidence for it is, rather than '
+                'listing it as an advantage.',
+                'Its conclusion names what would have to be measured '
+                'to settle the question, where this one combines both '
+                'views without a test.',
+                ],
          criterion=[('A third position that separates by function',
                      'Task Response'),
                     ('Each side given the kind of reason it has',

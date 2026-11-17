@@ -1550,6 +1550,39 @@ UNIT = dict(
           'replaces severity with reversibility as the criterion. The last '
           'sentence explains why a cheap reform is resisted, which is a '
           'stronger finish than recommending it again.'],
+         model65=[
+                  'Some people say it is better to regulate too early '
+                  'than too late. I think neither error is free, and '
+                  'the question is which one a system is already '
+                  'biased towards.',
+                  'Regulating early has obvious attractions. Harms '
+                  'prevented cost nothing to repair, and a rule '
+                  'written before an industry is large is easier to '
+                  'pass. Where a harm would be irreversible, acting '
+                  'early is clearly right.',
+                  'But early rules are written in ignorance. A '
+                  'regulator who does not yet know how a technology '
+                  'will be used may prohibit the useful version and '
+                  'permit the harmful one. Rules also freeze: once '
+                  'written, they become the standard that everybody '
+                  'designs around.',
+                  'I think the balance depends on reversibility. Where '
+                  'a harm cannot be undone, act early and accept the '
+                  'cost of being wrong. Where it can, write a duty '
+                  'rather than a rule, so that the obligation survives '
+                  'changes in the technology. The important thing is '
+                  'to notice which error your own institution is more '
+                  'likely to make.',
+                  ],
+         gap65=[
+                'It explains why the accountability structure makes '
+                'one error far more visible than the other, and so why '
+                'officials lean the way they do.',
+                'It names what happens to a safe harbour once it '
+                'exists, which is the drawback of the hybrid regime.',
+                'It states the reversibility test as a criterion '
+                'rather than as a preference.',
+                ],
          criterion=[('Describing how the argument is conducted before '
                      'entering it', 'Task Response'),
                     ('Replacing the opposing case with a better version',

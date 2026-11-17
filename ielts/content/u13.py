@@ -1293,6 +1293,40 @@ UNIT = dict(
           'Paragraph 4 carries the method as well as the number: similar '
           'defendants, different judges. Saying briefly how a figure was '
           'produced is rare at this band and is noticed.'],
+         model65=[
+                  'People disagree about whether prison should punish '
+                  'offenders or prepare them to return to society. I '
+                  'will discuss both views.',
+                  'Those who favour punishment argue that a sentence '
+                  'expresses how seriously society takes a crime, and '
+                  'that victims deserve this. They also point out that '
+                  'an offender in prison cannot commit further '
+                  'offences outside, which protects the public '
+                  'directly.',
+                  'Those who favour rehabilitation point to what '
+                  'happens afterwards. Most prisoners are released, '
+                  'and if they have no skills and no housing they are '
+                  'likely to offend again. Programmes that provide '
+                  'education and work have been shown to reduce '
+                  'reoffending, which protects the public too, but '
+                  'later.',
+                  'I think prison must do both, but the balance is '
+                  'wrong in many countries. Longer sentences have been '
+                  'shown to have little deterrent effect, while the '
+                  'certainty of being caught has a large one. So I '
+                  'would spend more on policing and on rehabilitation, '
+                  'and less on simply increasing sentence length.',
+                  ],
+         gap65=[
+                'It separates certainty from severity with the '
+                'evidence for each, which is the distinction the whole '
+                'question turns on.',
+                'It names the three purposes a sentence serves and '
+                'shows that they can be met in different proportions, '
+                'rather than choosing between two.',
+                'It explains why the cheap instrument is the one that '
+                'gets used, which is why the imbalance persists.',
+                ],
          criterion=[('Refusing the either-or and naming where it bites',
                      'Task Response'),
                     ('The opposing view in its best form',

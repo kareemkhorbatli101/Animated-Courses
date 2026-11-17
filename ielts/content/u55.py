@@ -1584,6 +1584,39 @@ UNIT = dict(
           'with no existing attempt are the ones that need it most. '
           'Finishing on the discomfort rather than resolving it is the '
           'mark of a writer who has not flinched.'],
+         model65=[
+                  'Some say shared resources are best managed by the '
+                  'people who use them. In my view the evidence supports '
+                  'this more often than the conventional theory anticipated, '
+                  'but not always.',
+                  'The argument for users is now well supported. '
+                  'Studies of fisheries, grazing land and irrigation '
+                  'have found long-lived local arrangements that '
+                  'averted the collapse the textbook prediction. Users '
+                  'know the resource, can see each other, and have '
+                  'most to lose from ruin.',
+                  'However, these successes share conditions that cannot be '
+                  'assumed. The group is small enough to monitor '
+                  'itself, the boundary is clear, and outsiders can be '
+                  'excluded. Where any of these fails, as with the '
+                  'open ocean or the atmosphere, local management '
+                  'cannot work, however willing the participants are.',
+                  'I think the right conclusion is a test rather than '
+                  'a preference. Where a user group can see and '
+                  'exclude, give it the authority and an enforceable '
+                  'right. Where it cannot, no amount of community '
+                  'spirit substitutes for a broader agreement, and '
+                  'pretending otherwise postpones the agreement that is required.',
+                  ],
+         gap65=[
+                'It states the enabling conditions and then uses them '
+                'as a test, which is what turns the finding into a '
+                'recommendation.',
+                'It names the cases where local management is '
+                'impossible rather than merely difficult.',
+                'It says what the textbook forecast got wrong and why '
+                'the counter-examples matter.',
+                ],
          criterion=[('Separating two claims the debate treats as one',
                      'Task Response'),
                     ('Giving the opposing case a real domain',

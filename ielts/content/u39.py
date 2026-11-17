@@ -1471,6 +1471,39 @@ UNIT = dict(
           'rewards at this band.',
           'The conclusion ranks its own three proposals. Saying which of your '
           'recommendations matters most is a small move that makes a position sound held, where a list of three sounds assembled.'],
+         model65=[
+                  'Some countries select immigrants according to their '
+                  'skills. I think this is reasonable, although it is '
+                  'often defended for the wrong reasons.',
+                  'The usual argument is economic. A country that '
+                  'chooses people with skills it lacks fills vacancies '
+                  'quickly, and those workers pay more tax than they '
+                  'cost in services. Several countries that select '
+                  'this way have strong public support for immigration '
+                  'as a result.',
+                  'But the economic case is weaker than it sounds. The '
+                  'measured effect of immigration on average wages is '
+                  'close to zero either way, so selection is not '
+                  'rescuing wages. Points systems also leave shortages '
+                  'in work they score poorly, such as care work, which '
+                  'is essential and badly paid.',
+                  'I think selection is defensible as a way of '
+                  'planning services and keeping public consent, '
+                  'rather than as a way of raising wages. A country '
+                  'that selects should be honest that it is choosing '
+                  'who arrives, not improving the economy, and should '
+                  'design the system around the work it actually '
+                  'needs.',
+                  ],
+         gap65=[
+                'It reports what the wage literature measures and what '
+                'it cannot, instead of reporting its headline.',
+                'It explains why national averages and local '
+                'experience diverge, which is why the public argument '
+                'is so bitter.',
+                'It names the kind of work a points system reliably '
+                'misses and why.',
+                ],
          criterion=[('Framing on what both sides concede',
                      'Task Response'),
                     ('A specific mechanism in the strongest body paragraph',

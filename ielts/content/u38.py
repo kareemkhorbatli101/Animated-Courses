@@ -1435,6 +1435,38 @@ UNIT = dict(
           'reframing: the filter should be on power, not on direction. '
           'Finishing on the objection instead of a summary leaves the '
           'argument at its strongest point.'],
+         model65=[
+                  'Scientists are sometimes told they should publish '
+                  'all results, including those that find nothing. I '
+                  'agree, with a qualification about how.',
+                  'The reason is that a literature of successes is '
+                  'misleading. If ten groups test an idea and only the '
+                  'two that found an effect publish, a reader sees two '
+                  'successes and no failures and concludes the effect '
+                  'is real. This is how whole fields have come to '
+                  'believe things that later could not be repeated.',
+                  'The qualification is that publication alone is not '
+                  'enough. A result that found nothing is hard to '
+                  'interpret if the study was small, because failing '
+                  'to detect an effect is not the same as showing '
+                  'there is none. What is needed is the plan '
+                  'registered in advance, so that a reader can see '
+                  'what was intended.',
+                  'I think all results should be published together '
+                  'with the plan that produced them. That turns a '
+                  'shelf of failures into evidence, and it removes the '
+                  'incentive to search for a result after the data has '
+                  'been collected.',
+                  ],
+         gap65=[
+                'It distinguishes failure to detect from absence, '
+                'which is the inference that makes unpublished nulls '
+                'dangerous.',
+                'It explains why a literature that agrees too well is '
+                'a warning sign.',
+                'It matches the remedy to the diagnosis: registration '
+                'answers the specific error it names.',
+                ],
          criterion=[('A position stated immediately and held',
                      'Task Response'),
                     ('A worked mechanism in place of an assertion',

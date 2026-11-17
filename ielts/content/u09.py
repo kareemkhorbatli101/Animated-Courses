@@ -1268,6 +1268,39 @@ UNIT = dict(
           'The last sentence explains why the wrong version is the '
           'famous one. Accounting for a misconception, rather than '
           'merely correcting it, is a mark of control.'],
+         model65=[
+                  'Some people say that learning another language '
+                  'changes the way you think. I agree that it does, '
+                  'but much less dramatically than is often claimed.',
+                  'The strong version of this claim is not supported. '
+                  'It was once argued that people cannot think about '
+                  'ideas their language has no word for, but '
+                  'experiments did not support this. Speakers of '
+                  'languages with only two colour words sort colours '
+                  'in the same way as everybody else, and people '
+                  'regularly understand ideas for which they have no '
+                  'single word.',
+                  'A weaker version is better supported. Languages '
+                  'differ in what they make easy rather than in what '
+                  'they make possible. If an idea takes one word '
+                  'rather than a sentence, it is used more often and '
+                  'comes to mind faster, especially when people speak '
+                  'quickly.',
+                  'I think learning a language does change how '
+                  'you think, but mainly by making certain ideas more '
+                  'available, not by making others impossible. It also '
+                  'gives the learner a second way of describing the '
+                  'same situation, which is valuable in itself.',
+                  ],
+         gap65=[
+                'It states where the boundary between the strong and '
+                'weak versions lies, and says what evidence moved it.',
+                'It gives the situations in which the weak effect '
+                'matters - speed, translation under pressure, argument '
+                '- instead of asserting that it matters.',
+                'It explains why the borrowed word is evidence against '
+                'the strong claim rather than for it.',
+                ],
          criterion=[('Two versions of the claim stated precisely',
                      'Task Response'),
                     ('A rebuttal that concedes and then limits',

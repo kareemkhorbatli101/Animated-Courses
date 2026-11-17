@@ -1282,6 +1282,39 @@ UNIT = dict(
           'one number is being used for two questions. Explaining a '
           'disagreement rather than joining it is a band 7 move available '
           'to a careful candidate at 5.5.'],
+         model65=[
+                  'Some people say renewable energy is now the '
+                  'cheapest option. I agree that it is cheapest to '
+                  'build, but I think the claim needs a condition.',
+                  'The evidence for the claim is strong. The cost of '
+                  'solar panels and wind turbines has fallen '
+                  'dramatically, and in most countries a new wind or '
+                  'solar farm now produces electricity more cheaply '
+                  'per unit than a new coal or gas station. This is '
+                  'measured carefully and is not seriously disputed.',
+                  'But electricity has to be available when people '
+                  'want it. The sun sets and the wind drops, and '
+                  'demand peaks in the early evening. A system '
+                  'so needs storage, or gas stations kept '
+                  'ready, and these costs are not included in the '
+                  'usual comparison.',
+                  'I think renewable energy is the cheapest way to '
+                  'generate electricity, but not yet the cheapest way '
+                  'to supply it reliably at every hour. Both '
+                  'statements are true at once, and arguments usually '
+                  'go wrong because each side quotes only one of them.',
+                  ],
+         gap65=[
+                'It names the measure - levelised cost - and says '
+                'exactly what it includes and excludes, instead of '
+                'referring to the usual comparison.',
+                'It shows that the error is symmetrical, so that both '
+                'sides are making the same mistake with opposite '
+                'signs.',
+                'It gives the seasonal problem separately from the '
+                'daily one, because only one of them has a '
+                'demonstrated answer.',
+                ],
          criterion=[('Naming the circumstances rather than hedging',
                      'Task Response'),
                     ('Granting the opposing claim everything it proves',

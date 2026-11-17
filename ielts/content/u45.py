@@ -1502,6 +1502,38 @@ UNIT = dict(
           'predicts the objection to its own proposal. Naming why your '
           'solution will be resisted is a stronger close than claiming it '
           'is obvious.'],
+         model65=[
+                  'Some people say protected areas are the best way to '
+                  'conserve wildlife. I think they are needed but '
+                  'not sufficient.',
+                  'The evidence for protection is real. Land inside '
+                  'reserves is measurably less likely to be converted '
+                  'to farming or building, which is the largest single '
+                  'cause of species loss. A reserve is also a decision '
+                  'that can be made once and enforced for decades.',
+                  'But a fence does not stop the threats that matter '
+                  'most now. Water is extracted upstream, pollution '
+                  'arrives on the wind, and the climate inside a '
+                  'reserve changes with the climate outside it. '
+                  'Several famous wetlands have dried out while '
+                  'remaining fully protected in law.',
+                  'I think protection should continue and should be '
+                  'judged differently. What is counted at present is '
+                  'the area protected, which is easy to measure and '
+                  'says nothing about condition. Measuring the '
+                  'condition of what is inside would show where '
+                  'protection is working, and where a reserve exists '
+                  'only on a map.',
+                  ],
+         gap65=[
+                'It explains why area is the measure that gets '
+                'counted, which is the reason the target rewards the '
+                'wrong thing.',
+                'It says what the flagship argument gets right before '
+                'showing where it fails.',
+                'It names the objection to condition-based measurement '
+                'and answers it.',
+                ],
          criterion=[('Replacing the question with a better one',
                      'Task Response'),
                     ('A third position arrived at by diagnosis, not '

@@ -1210,6 +1210,40 @@ UNIT = dict(
           'The final sentence names the cost that nobody measures, which '
           'is both the strongest point in the essay and the right thing '
           'to leave with a reader.'],
+         model65=[
+                  'People disagree about whether children should '
+                  'specialise in one sport early or play several. I '
+                  'will discuss both views and then give my opinion.',
+                  'Those who support early specialisation argue that '
+                  'the best performers start young. Many professional '
+                  'athletes began training at six or seven, and in '
+                  'some sports, such as gymnastics, the career is over '
+                  'by twenty-five, so an early start is needed.',
+                  'Those who support playing many sports point to '
+                  'the research. Studies that follow whole groups of '
+                  'children find that early specialisers are ahead at '
+                  'twelve and no further ahead at twenty-one. They are '
+                  'also injured more often and leave sport altogether '
+                  'at about twice the rate of children who played '
+                  'many sports.',
+                  'I think children should play many sports '
+                  'until they are about fourteen. The evidence '
+                  'suggests that they lose nothing in the long term '
+                  'and are far less likely to be injured or to stop '
+                  'completely. Specialisation can come later, when the '
+                  'child is able to choose it.',
+                  ],
+         gap65=[
+                'It explains why the two sides disagree - they are '
+                'counting different groups of children - instead of '
+                'presenting two sets of facts.',
+                'It separates the sports where an early start is '
+                'genuinely required and says what makes them '
+                'different.',
+                'It uses the drop-out rate as the decisive number and '
+                'says why it matters more than the performance '
+                'figures.',
+                ],
          criterion=[('An argument about the evidence, not the topic',
                      'Task Response'),
                     ('An exception granted precisely',

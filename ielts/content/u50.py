@@ -1531,6 +1531,39 @@ UNIT = dict(
           'relation between two texts and the worth of one of them — and '
           'then asks for something concrete and cheap. A to-what-extent '
           'answer is strongest when it says what the question conflated.'],
+         model65=[
+                  'Some people say a translation can never be as good '
+                  'as the original. I think this depends entirely on '
+                  'what good is taken to mean.',
+                  'There is something in the claim. A poem depends on '
+                  'the sound of particular words, and no other '
+                  'language has words with the same sound and meaning '
+                  'together. Something is always chosen and something '
+                  'always lost, and a reader of the translation cannot '
+                  'know which.',
+                  'But the claim assumes there is one standard. A '
+                  'translation intended for a student of the original '
+                  'aims at literal fidelity; one intended for a reader '
+                  'who will never learn the language aims at the '
+                  'effect the original had on its first audience. '
+                  'These are different tasks, and a version can '
+                  'succeed at one while failing at the other.',
+                  'I think a translation cannot be the same as the '
+                  'original, but it can be as good, once the standard '
+                  'is stated. The honest version of the question is '
+                  'which standard a particular translation was trying '
+                  'to meet, and whether it met it.',
+                  ],
+         gap65=[
+                'It defines the standards first and then judges, which '
+                'is the move that makes the question answerable at '
+                'all.',
+                'It explains why readers who know the original and '
+                'readers who do not prefer different versions, rather '
+                'than reporting that they do.',
+                'It says what evaluators actually do when they concede '
+                'the fourth position.',
+                ],
          criterion=[('Naming the dividing line in the first sentence',
                      'Task Response'),
                     ('One case reported precisely instead of three '

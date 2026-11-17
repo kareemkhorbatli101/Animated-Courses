@@ -1339,6 +1339,38 @@ UNIT = dict(
           'The conclusion takes the appeal of the rejected option — '
           'visibility — and keeps it by another route. Rescuing what was good '
           'about the view you reject is a reliable way to end.'],
+         model65=[
+                  'Some people think tourists should pay a tax that '
+                  'goes directly to local residents. I think a tax is '
+                  'reasonable but that paying it to residents '
+                  'individually is not the best use of it.',
+                  'The argument for the tax is strong. Visitors use '
+                  'roads, bins and emergency services that residents '
+                  'pay for, and in a crowded town the cost of those '
+                  'services rises in the season. A charge per night is '
+                  'easy to collect and is normal in many cities '
+                  'already.',
+                  'Paying it directly to residents has some appeal. It '
+                  'makes the benefit visible, and it reaches the '
+                  'people who bear the crowding rather than only the '
+                  'businesses that profit. But the sums per person are '
+                  'small, and once the money is divided it cannot be '
+                  'used for anything large.',
+                  'I think the tax should be spent where the costs '
+                  'fall: on housing for local workers, on transport '
+                  'and on keeping ordinary shops in the centre. These '
+                  'are things individual payments cannot buy, and they '
+                  'address the complaint residents actually make.',
+                  ],
+         gap65=[
+                'It reports what the four towns measured, including '
+                'the measure that did what it was designed to do.',
+                'It separates the number of visitors from the share of '
+                'their spending that stays in the town, which the '
+                'usual argument confuses.',
+                'It gives the condition under which a tax changes '
+                'behaviour rather than simply raising money.',
+                ],
          criterion=[('Narrowing the question before answering it',
                      'Task Response'),
                     ('An objection found inside the proposal',

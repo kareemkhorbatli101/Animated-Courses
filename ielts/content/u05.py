@@ -1201,6 +1201,43 @@ UNIT = dict(
           'The final sentence adds a consequence the question did not '
           'ask about: companies having to defend their value judgements. '
           'One extra idea at the end lifts a Task 2 answer.'],
+         model65=[
+                  'Some people say technology companies should be '
+                  'required to publish how their systems work. I '
+                  'partly agree, although I think full publication '
+                  'would cause problems.',
+                  'There are clear reasons to support publication. '
+                  'These systems decide what millions of people read, '
+                  'and people cannot judge a decision they cannot see. '
+                  'If a company ranks results in a way that favours '
+                  'its own products, users have no way of knowing. '
+                  'Publication would also allow researchers to study '
+                  'the effects.',
+                  'But there are good arguments against it. If the '
+                  'exact rules were published, the people who want to '
+                  'manipulate them would read them first. An industry '
+                  'already exists to push websites up the rankings, '
+                  'and complete transparency would make this far '
+                  'easier. Companies also argue that their methods are '
+                  'commercial secrets.',
+                  'I think companies should publish the '
+                  'principles rather than the code: which factors '
+                  'count, and in what order of importance. This would '
+                  'allow the public to judge the system without giving '
+                  'the manipulators a manual. An independent regulator '
+                  'could examine the full details without publishing '
+                  'them.',
+                  ],
+         gap65=[
+                'It distinguishes publishing the criterion from '
+                'publishing the code in its first sentence, and uses '
+                'that distinction to structure the whole answer.',
+                'It gives the awkward argument - that the rules are '
+                'gamed the moment they are known - its full weight '
+                'before answering it.',
+                'It ends with a mechanism, the independent examiner, '
+                'rather than a preference.',
+                ],
          criterion=[('A distinction stated in the first paragraph',
                      'Task Response'),
                     ('An objection given real evidence',

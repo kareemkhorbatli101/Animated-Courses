@@ -1517,6 +1517,39 @@ UNIT = dict(
           'The final clause states the limitation of the writer’s own '
           'recommendation. Ending on a caveat rather than a flourish is '
           'what distinguishes an assessment from an advocacy piece.'],
+         model65=[
+                  'Some say governments should be legally required to '
+                  'maintain what they have before building anything '
+                  'new. I agree with the principle, though a law is a '
+                  'blunt instrument.',
+                  'The case is strong. Maintenance delayed is more '
+                  'expensive later, and a bridge or a school allowed '
+                  'to decay has to be replaced at many times the '
+                  'cost of keeping it. Yet budgets are annual and '
+                  'openings are photographed, so maintenance is the '
+                  'first thing cut.',
+                  'But a legal requirement has problems. Condition is '
+                  'hard to define in a way a court could enforce, and '
+                  'a government that cannot afford either maintenance '
+                  'or building would simply be in breach. A rule that '
+                  'forbids new building also freezes a city that is '
+                  'still growing.',
+                  'I think the better answer is to publish condition '
+                  'every year, in a form that cannot be presented '
+                  'selectively, and to require a maintenance plan to '
+                  'be funded before a new project is approved. That '
+                  'changes the incentive without removing the '
+                  'judgement.',
+                  ],
+         gap65=[
+                'It explains why the asymmetry of visibility produces '
+                'the backlog, so the remedy follows from the '
+                'diagnosis.',
+                'It says where publication does nothing, which is the '
+                'limit of the transparency argument.',
+                'It distinguishes a duty that can be audited from a '
+                'prohibition that cannot.',
+                ],
          criterion=[('Separating aim from instrument on evidential '
                      'grounds', 'Task Response'),
                     ('Answering the rebuttal by showing a failure is '

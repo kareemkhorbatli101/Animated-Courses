@@ -1439,6 +1439,38 @@ UNIT = dict(
           'The conclusion attaches three conditions. A qualified position '
           'reads as judgement; an unqualified one at this level reads as a '
           'position taken before the evidence was examined.'],
+         model65=[
+                  'Some people believe repeat offenders should receive '
+                  'longer sentences. I think this is understandable '
+                  'but largely ineffective.',
+                  'The argument has force. Somebody who offends '
+                  'repeatedly has already been given a chance, and a '
+                  'longer sentence keeps them away from the public for '
+                  'longer. Victims also feel that repeated offending '
+                  'deserves a stronger response.',
+                  'But the evidence on deterrence is clear in a '
+                  'different direction. What deters offending is the '
+                  'probability of being caught, not the length of the '
+                  'sentence. Most offenders do not expect to be caught '
+                  'at all, so a longer sentence does not enter the '
+                  'calculation. Longer sentences are also expensive '
+                  'and make reintegration harder.',
+                  'I think the money would be better spent on the '
+                  'certainty of detection: more investigation, faster '
+                  'cases and better evidence. Where somebody is '
+                  'genuinely dangerous, a long sentence protects the '
+                  'public, and that is a different justification from '
+                  'deterrence.',
+                  ],
+         gap65=[
+                'It separates the three jobs a sentence does and says '
+                'which of them length actually serves.',
+                'It explains why the cheap instrument is the one that '
+                'gets legislated, which is why the evidence has had so '
+                'little effect.',
+                'It states what a government that wanted deterrence '
+                'would have to buy instead.',
+                ],
          criterion=[('Testing two justifications separately',
                      'Task Response'),
                     ('Strengthening the opposing case before answering it',

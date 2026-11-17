@@ -1246,6 +1246,42 @@ UNIT = dict(
           'The last sentence says what happens next rather than repeating '
           'what was said. A conclusion that makes one new step is worth '
           'more than one that summarises three paragraphs.'],
+         model65=[
+                  'Some governments pay families who have more '
+                  'children. I will look at both views and then give '
+                  'my own.',
+                  'Supporters say these payments help families with '
+                  'the real cost of raising a child. Children are '
+                  'expensive, and many couples say they would like '
+                  'another child but cannot afford one. The payments '
+                  'also recognise that parents are doing something the '
+                  'whole country benefits from, because somebody has '
+                  'to pay for pensions later.',
+                  'But critics say the payments do not work. Studies '
+                  'show that cash mainly changes when people have '
+                  'children rather than how many they have in total. '
+                  'Birth rates in many countries rose for a few '
+                  'years after a payment was introduced and then '
+                  'returned to the previous level. The money may be '
+                  'better spent on childcare or housing.',
+                  'I think governments should support families, but '
+                  'not mainly through cash payments for extra '
+                  'children. Support should go to the things that make '
+                  'a second child possible, such as affordable '
+                  'childcare and secure housing. This helps families '
+                  'whatever they decide, so the money is not wasted if '
+                  'the birth rate does not change.',
+                  ],
+         gap65=[
+                'It separates a change in timing from a change in '
+                'total number, which is the finding that makes most of '
+                'the policy debate beside the point.',
+                'It says what each kind of support is actually buying, '
+                'instead of recommending the alternatives in general '
+                'terms.',
+                'It ends by naming what the policy would have to '
+                'achieve to count as working.',
+                ],
          criterion=[('A third position that is not a compromise',
                      'Task Response'),
                     ('A mechanism, not just an opinion',

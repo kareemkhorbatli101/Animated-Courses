@@ -1456,6 +1456,38 @@ UNIT = dict(
           'costed. An essay that ends with something a council could put in '
           'an agreement is answering the question; one that ends with a '
           'value is restating it.'],
+         model65=[
+                  'Some people say privately managed public spaces are '
+                  'better managed. I think they are better at some '
+                  'things and worse at others, and that the argument '
+                  'is usually about the wrong question.',
+                  'The case for private management is practical. '
+                  'Privately managed squares are typically cleaner, '
+                  'better maintained and better policed, because '
+                  'somebody has a direct interest in their condition '
+                  'and a budget to act on it.',
+                  'But management serves whoever is paying. Private '
+                  'managers commonly discourage uses that produce no '
+                  'custom: sitting for a long time, skateboarding, '
+                  'protest. A space can be immaculate and still be '
+                  'unavailable to the people who most need somewhere '
+                  'to be.',
+                  'I think the question of ownership is less important '
+                  'than the question of what the manager is asked to '
+                  'deliver. A public authority with a cleanliness '
+                  'target behaves like a private one. What matters is '
+                  'whether anybody is accountable for the uses that '
+                  'bring no revenue.',
+                  ],
+         gap65=[
+                'It shows that the contest is between uses rather than '
+                'between owners, which is why the ownership question '
+                'is less interesting than it looks.',
+                'It names the uses that are systematically '
+                'under-represented in consultation and explains why.',
+                'It says what each body is actually being asked about, '
+                'instead of blaming the private manager.',
+                ],
          criterion=[('Granting both views and saying why that is not a '
                      'fudge', 'Task Response'),
                     ('Holding the third position until both cases are '

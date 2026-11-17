@@ -1401,6 +1401,38 @@ UNIT = dict(
           'The conclusion is three specific measures, not a sentiment. '
           'Compare it with a conclusion that said in conclusion, both sides '
           'have valid points.'],
+         model65=[
+                  'Some people argue that a four-day working week '
+                  'should become standard. I think the case is '
+                  'promising but not yet proved.',
+                  'The trials that have been run are encouraging. '
+                  'Workers report less exhaustion, absence falls and '
+                  'many firms report the same output in fewer hours. '
+                  'If this holds generally, both sides gain, which is '
+                  'unusual in a question about working time.',
+                  'But the evidence has limits that are easy to miss. '
+                  'The firms that volunteered were mostly ones that '
+                  'expected it to work, the output measures were often '
+                  'chosen by the firms themselves, and most trials ran '
+                  'for six months, which is long enough for enthusiasm '
+                  'and not for the effect to settle.',
+                  'I think a four-day week should be permitted and '
+                  'encouraged rather than made standard. For work '
+                  'where output is tied to hours present, such as '
+                  'nursing, the arithmetic is different and the trials '
+                  'say little about it. The honest position is that it '
+                  'works in some settings and has not been tested in '
+                  'others.',
+                  ],
+         gap65=[
+                'It names which claim the evidence supports and which '
+                'it does not, instead of giving the limits as a '
+                'caution.',
+                'It explains why volunteer firms bias the result in a '
+                'particular direction.',
+                'It says what a trial would have to look like to '
+                'settle the question, and why nobody has run one.',
+                ],
          criterion=[('Relocating the disagreement onto a definition',
                      'Task Response'),
                     ('Arguing the opposing case at full strength',

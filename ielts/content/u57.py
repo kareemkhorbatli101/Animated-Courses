@@ -1605,6 +1605,39 @@ UNIT = dict(
           'is specific about what is and is not a sufficient reason. '
           'To-what-extent answers are built out of concessions of exactly '
           'this shape.'],
+         model65=[
+                  'Some say arguments about definitions are a waste of '
+                  'time. In my view most are, and that a few decide '
+                  'everything that follows.',
+                  'The impatience is comprehensible. Two people who '
+                  'agree on the facts can argue for hours about '
+                  'whether to call something a recession or a reform, '
+                  'and nothing in the world is altered when one of them '
+                  'gives in. These disputes often substitute for the '
+                  'harder argument underneath.',
+                  'However, some definitions carry consequences. Whether a '
+                  'worker is an employee or a contractor decides their '
+                  'pay, their hours and their protection. Whether a '
+                  'condition counts as a disability decides who gets '
+                  'support. Here the definition is not a label on the '
+                  'argument; it is the argument, conducted in the only '
+                  'place where it has an effect.',
+                  'I think the test is simple: ask what would change '
+                  'if the definition changed. If the answer is '
+                  'nothing, the dispute is about words and can be set '
+                  'aside by agreeing on terms. If something follows, '
+                  'the argument deserves the time, and calling it '
+                  'semantic is a strategy for evading it.',
+                  ],
+         gap65=[
+                'It gives a single test and applies it to both kinds '
+                'of case, so the position is usable rather than '
+                'balanced.',
+                'It names what is at stake in the consequential '
+                'definitions instead of asserting that something is.',
+                'It explains what dismissing a dispute as semantic '
+                'achieves for whoever says it.',
+                ],
          criterion=[('Identifying a circularity rather than '
                      'disagreeing', 'Task Response'),
                     ('A test stated and then performed',

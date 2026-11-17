@@ -1345,6 +1345,39 @@ UNIT = dict(
           'accuracy argument at all, and the conclusion divides the decision '
           'by type of question rather than by person. Splitting a question '
           'in two is usually available and almost always scores.'],
+         model65=[
+                  'Some people say planning decisions should be made '
+                  'by experts rather than by residents. I think both '
+                  'are needed, for different parts of the decision.',
+                  'Experts have knowledge residents do not. Traffic '
+                  'models, drainage calculations and the long-term '
+                  'cost of servicing new areas require training to '
+                  'produce and to read. Residents also tend to '
+                  'underestimate how much new building a growing town '
+                  'needs.',
+                  'But residents know things experts do not. They know '
+                  'where a junction is dangerous at four in the '
+                  'afternoon and which street floods. Their knowledge '
+                  'is local and specific, and plans made without it '
+                  'often fail in small ways that could have been '
+                  'avoided.',
+                  'I think experts should decide what the options are '
+                  'and what each would cost, and residents should '
+                  'decide which option the town prefers. Keeping the '
+                  'two separate also makes the decision honest: '
+                  'residents cannot be blamed for a technical error, '
+                  'and experts cannot present a preference as a '
+                  'calculation.',
+                  ],
+         gap65=[
+                'It says which predictions residents are reliably good '
+                'at and which they are reliably poor at, rather than '
+                'crediting local knowledge in general.',
+                'It identifies what the models do not model, which is '
+                'where the two kinds of knowledge actually meet.',
+                'It explains why the division of labour it proposes '
+                'makes the decision auditable.',
+                ],
          criterion=[('Rejecting the premise both sides share',
                      'Task Response'),
                     ('Concessions that cost something', 'Task Response'),

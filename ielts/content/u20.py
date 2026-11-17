@@ -1286,6 +1286,40 @@ UNIT = dict(
           'narrow, unevenly borne. Qualifying your own agreement '
           'precisely is what distinguishes this structure from a '
           'compromise.'],
+         model65=[
+                  'Some people say recordings have made audiences '
+                  'expect perfection from live performers. I agree '
+                  'that expectations have changed, although I think '
+                  'the effect is more complicated.',
+                  'The argument is easy to see. A recording can be '
+                  'edited until every note is correct, and listeners '
+                  'hear these versions hundreds of times. A live '
+                  'performance cannot be edited, so an audience raised '
+                  'on recordings may notice small mistakes that '
+                  'earlier audiences would have accepted.',
+                  'But recordings have also brought benefits. Music '
+                  'that was once available only to people living near '
+                  'a concert hall can now be heard anywhere. '
+                  'Performers also learn from recordings of the best '
+                  'players in the world, which has raised technical '
+                  'standards everywhere.',
+                  'I think recordings have raised both expectations '
+                  'and standards, and that the two are connected. '
+                  'Audiences expect more because performers can '
+                  'deliver more. What has been lost is the sense that '
+                  'a performance is a single unrepeatable event, and '
+                  'that loss is real even though the gain is larger.',
+                  ],
+         gap65=[
+                'It calls the change an exchange and says what was '
+                'given up on each side, instead of balancing a benefit '
+                'against a cost.',
+                'It explains why the repertoire narrowed without '
+                'anybody intending it, which is the part audiences '
+                'never see.',
+                'It states what the argument is not about, so the '
+                'reader can see which objection it answers.',
+                ],
          criterion=[('A thesis naming both circumstances',
                      'Task Response'),
                     ('A group the question did not anticipate',

@@ -1285,6 +1285,40 @@ UNIT = dict(
           'The conclusion names the comparison that should be made. Having '
           'spent the essay saying what does not work, the ending has to say '
           'what does, or the reader is left with a complaint.'],
+         model65=[
+                  'Some people say governments should be judged on how '
+                  'well they handled an epidemic. I agree, but the '
+                  'judgement has to be made carefully.',
+                  'There are good reasons to judge. Governments make '
+                  'decisions that affect how many people die, and if '
+                  'they are never judged they have little reason to '
+                  'prepare. Comparing countries also shows which '
+                  'measures worked, which is how preparations improve.',
+                  'But comparison is harder than it looks. Countries '
+                  'differ in age, density and how deaths are counted, '
+                  'so a simple league table may compare measurement '
+                  'rather than performance. Decisions also had to be '
+                  'made quickly, with incomplete information, and a '
+                  'decision can be reasonable at the time and wrong '
+                  'afterwards.',
+                  'I think governments should be judged on their '
+                  'decisions rather than on their outcomes: whether '
+                  'they acted on the information available, prepared '
+                  'in advance, and corrected course when evidence '
+                  'changed. Judging outcomes alone rewards luck, and a '
+                  'government that was lucky learns nothing.',
+                  ],
+         gap65=[
+                'It separates the quality of a decision from the '
+                'quality of its outcome and applies that distinction '
+                'throughout.',
+                'It explains what happens to uncertainty as it travels '
+                'through an institution, which is why the published '
+                'numbers looked firmer than they were.',
+                'It says what a fair comparison between countries '
+                'would require, instead of noting that comparison is '
+                'difficult.',
+                ],
          criterion=[('Agreeing with the question and rejecting the method',
                      'Task Response'),
                     ('Checkable questions in place of rhetorical ones',

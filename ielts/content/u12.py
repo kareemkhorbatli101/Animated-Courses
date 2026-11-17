@@ -1287,6 +1287,41 @@ UNIT = dict(
           'something about it. At this band most essays either ignore the '
           'ethical question or end on it vaguely; naming one concrete '
           'remedy is worth more than either.'],
+         model65=[
+                  'Some people say governments should change behaviour '
+                  'by altering how choices are presented rather than '
+                  'by passing laws. I partly agree.',
+                  'There are advantages. Changing the default is cheap '
+                  'and leaves people free to choose. When a country '
+                  'makes organ donation the default option, donation '
+                  'rates rise sharply, and anybody who objects can '
+                  'still opt out. A law, by contrast, removes the '
+                  'choice completely.',
+                  'But there are limits. The effects are often small, '
+                  'and some disappear after a few months. There is '
+                  'also no neutral way to present a choice: something '
+                  'has to come first on the form. So the question is '
+                  'not whether to influence people but who decides '
+                  'how, and that should be open to debate.',
+                  'I think both tools are needed. Design is useful for '
+                  'small everyday decisions where the cost of a '
+                  'mistake is low. For serious harms, such as '
+                  'dangerous products, a law is the right instrument. '
+                  'Governments should also publish what they are '
+                  'doing, so that people can see how a choice has been '
+                  'arranged.',
+                  ],
+         gap65=[
+                'It states the defenders\' strongest point - that there '
+                'is no neutral presentation - and builds the '
+                'conclusion on it rather than listing it as a '
+                'limitation.',
+                'It gives the condition under which design is the '
+                'right instrument and the condition under which law '
+                'is, instead of recommending both.',
+                'It says what the published evidence actually shows '
+                'about the size and persistence of the effects.',
+                ],
          criterion=[('An objection taken seriously, not dismissed',
                      'Task Response'),
                     ('A rebuttal that relocates the fault',

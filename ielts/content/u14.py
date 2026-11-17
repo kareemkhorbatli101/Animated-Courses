@@ -1294,6 +1294,40 @@ UNIT = dict(
           'The last sentence names what the spending is: a bet. Ending '
           'with an honest word for something usually described in another '
           'way is a reliable way to finish at this band.'],
+         model65=[
+                  'Some people say governments should fund the revival '
+                  'of dying languages. I agree in part, although I '
+                  'think the aim should be chosen carefully.',
+                  'There are good reasons to support this. A language '
+                  'carries the history and culture of the people who '
+                  'speak it, and when it disappears that record is '
+                  'lost. Speakers often feel the loss personally. '
+                  'Documentation is also cheap compared with most '
+                  'government programmes, and once a language is '
+                  'recorded it cannot be lost completely.',
+                  'But reviving a language so that it is spoken daily '
+                  'is much harder. Ireland has supported Irish for a '
+                  'century with teaching, money and official status, '
+                  'and the number of daily speakers has still fallen. '
+                  'Money spent on revival may so produce '
+                  'disappointment, and it competes with health and '
+                  'education.',
+                  'I think governments should always fund '
+                  'documentation, because it is cheap and cannot fail, '
+                  'and should fund revival where a community is '
+                  'actively asking for it. Support that a community '
+                  'does not want will not succeed, however much is '
+                  'spent.',
+                  ],
+         gap65=[
+                'It separates documentation from revival and gives the '
+                'different success condition for each, where this '
+                'answer treats them as degrees of the same policy.',
+                'It explains why the Irish case is evidence about the '
+                'method rather than about the effort.',
+                'It states what a community asking for revival '
+                'supplies that money cannot.',
+                ],
          criterion=[('Splitting one question into two',
                      'Task Response'),
                     ('Conceding what makes the other side strong',

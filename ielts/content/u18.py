@@ -1322,6 +1322,41 @@ UNIT = dict(
           'contribution rather than a point from the prompt. One idea the '
           'question did not ask for lifts a Task 2 answer at this '
           'band.'],
+         model65=[
+                  'Some people say science corrects its own mistakes '
+                  'and needs no outside check. I agree that it '
+                  'corrects itself, but I think it needs help to do '
+                  'so.',
+                  'The self-correcting argument has real support. '
+                  'Findings are published so that others can test '
+                  'them, and when large studies repeated famous '
+                  'experiments, many failed to produce the original '
+                  'result. That discovery came from within science, '
+                  'not from outside it.',
+                  'But the correction was slow and did not happen '
+                  'automatically. The incentives work against it: '
+                  'journals prefer new findings to repeats, and '
+                  'careers are built on publication. Studies that fail '
+                  'to find an effect are harder to publish, so the '
+                  'published literature agrees more than the evidence '
+                  'does.',
+                  'I think science does correct itself, but only when '
+                  'somebody is paid to do the checking. So I would '
+                  'fund replication directly and require study plans '
+                  'to be registered in advance. These are outside '
+                  'checks in the sense that they are not left to '
+                  'individual scientists, but they are part of science '
+                  'rather than imposed on it.',
+                  ],
+         gap65=[
+                'It distinguishes failure to detect an effect from the '
+                'absence of one, which is the inference most reporting '
+                'gets wrong.',
+                'It explains why a literature that agrees should make '
+                'a reader more suspicious, not less.',
+                'It matches each proposed reform to the specific '
+                'failure it repairs.',
+                ],
          criterion=[('A position that concedes before objecting',
                      'Task Response'),
                     ('A rebuttal that substitutes a narrower fix',

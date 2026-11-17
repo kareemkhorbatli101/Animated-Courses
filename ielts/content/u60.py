@@ -1572,6 +1572,40 @@ UNIT = dict(
           'Ending on the distribution of a cost rather than on a summary '
           'is the most reliable way to close a band 9 essay on a policy '
           'question.'],
+         model65=[
+                  'Some people say that international language tests '
+                  'distort what is taught. I agree, and I think the '
+                  'distortion follows from the design rather than from '
+                  'misuse.',
+                  'The mechanism is transparent. A test that must '
+                  'be marked reliably across many countries has to use '
+                  'tasks that can be scored consistently, which '
+                  'favours brief written answers and limited speaking. '
+                  'Teaching then is oriented towards those tasks, because that is '
+                  'what the student is paid to pass.',
+                  'However, distortion has to be measured against '
+                  'something. In many places the alternative was not '
+                  'better teaching but no coherent standard at all, and '
+                  'the test rendered progress visible to students who had '
+                  'no other way of showing it. A distorted target can '
+                  'still be an improvement on none.',
+                  'I think the answer is to change what the test asks '
+                  'rather than to abandon it. Longer speaking, writing '
+                  'that responds to a source, and tasks that cannot be '
+                  'prepared by formulaic rehearsal would pull teaching in a better '
+                  'direction. The test will be taught to; that is why '
+                  'its content matters so much.',
+                  ],
+         gap65=[
+                'It traces the distortion to the reliability '
+                'requirement, so the design is the cause rather than '
+                'the users.',
+                'It states what the comparison is, which is what keeps '
+                'the concession from being a throwaway.',
+                'It makes the recommendation follow from the '
+                'mechanism: change the task, because the task is what '
+                'gets taught.',
+                ],
          criterion=[('The objection given in its winning form',
                      'Task Response'),
                     ('Turning the standard remedy against itself',

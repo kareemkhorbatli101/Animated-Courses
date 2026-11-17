@@ -1500,6 +1500,39 @@ UNIT = dict(
           'inelegant. Preferring what has survived to what is clean is a '
           'defensible position and should be stated as a choice rather than '
           'smuggled in.'],
+         model65=[
+                  'Some people say farmers should be paid for looking '
+                  'after the environment rather than for producing '
+                  'food. I think they should be paid for both, and '
+                  'that the difficulty is measurement.',
+                  'The argument for environmental payment is sound. '
+                  'Clean water, healthy soil and habitat are things '
+                  'everybody benefits from and nobody buys, so a '
+                  'farmer who provides them is working for free. '
+                  'Paying for them makes the public good visible in '
+                  'the accounts.',
+                  'But these things are hard to measure. Paying for '
+                  'actions, such as planting a hedge, is cheap to '
+                  'administer but rewards effort rather than result. '
+                  'Paying for outcomes, such as the number of birds, '
+                  'is better in principle but expensive to measure and '
+                  'noisy from year to year.',
+                  'I think payments should be mostly for actions, with '
+                  'outcome payments where measurement is cheap '
+                  'relative to the benefit, and with soil and water '
+                  'measured at the points where land changes hands. '
+                  'Paying for food should continue, because food is '
+                  'also a public good when supply is interrupted.',
+                  ],
+         gap65=[
+                'It states the measurement cost as the criterion for '
+                'choosing between action and outcome payments, rather '
+                'than listing the two.',
+                'It explains why the first outcome scheme failed, and '
+                'why noise rather than fraud was the cause.',
+                'It names the transaction points where measurement is '
+                'already being paid for by somebody else.',
+                ],
          criterion=[('Making what both sides treat as easy the subject',
                      'Task Response'),
                     ('Reading evidence carefully rather than pejoratively',

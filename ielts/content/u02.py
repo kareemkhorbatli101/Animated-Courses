@@ -1207,6 +1207,43 @@ UNIT = dict(
           'obligation rather than prediction, which is where the '
           'argument actually matters and where the reader is left with '
           'something to think about.'],
+         model65=[
+                  'People disagree about whether automation will '
+                  'create more jobs than it destroys. Both sides have '
+                  'good arguments and I will look at them before '
+                  'giving my view.',
+                  'On one hand, history suggests that machines create '
+                  'work. In the nineteenth century many people '
+                  'predicted that machines would end employment, and '
+                  'this did not happen. Agricultural work fell from '
+                  'forty per cent to two per cent, but new jobs '
+                  'appeared in factories, offices and services. Today, '
+                  'far more people work than a hundred years ago.',
+                  'On the other hand, the people who lose their jobs '
+                  'are not usually the people who get the new ones. A '
+                  'worker of fifty who loses a factory job may never '
+                  'find similar work again. The new jobs often appear '
+                  'in a different city, and they may require different '
+                  'skills. For that person, the national figures are '
+                  'no comfort at all.',
+                  'I think automation will probably not reduce '
+                  'the total number of jobs, because this has never '
+                  'happened before. But governments should help '
+                  'the people who are affected, with training and '
+                  'support, because the cost falls on a small group '
+                  'while the benefit is spread across everybody.',
+                  ],
+         gap65=[
+                'It separates the total from the distribution in its '
+                'first paragraph and keeps them apart, instead of '
+                'letting the two arguments sit side by side as equals.',
+                'It explains why the gap between them opens - the jobs '
+                'vanish fast and the new ones appear slowly - which '
+                'turns two opinions into one mechanism.',
+                'It states what evidence would change its mind, which '
+                'is what moves an answer from a strong opinion to an '
+                'argument.',
+                ],
          criterion=[('A third position that separates two questions',
                      'Task Response'),
                     ('One concrete example in each body paragraph',

@@ -1234,6 +1234,41 @@ UNIT = dict(
           'which the prompt did not mention and which most candidates '
           'omit. One idea the question did not supply is the cheapest '
           'way to lift a Task 2 answer.'],
+         model65=[
+                  'Some people say that building more homes is the '
+                  'only way to make housing affordable. I agree that '
+                  'building is needed, but I do not think it is the '
+                  'only answer.',
+                  'Supply clearly matters. Where cities have allowed '
+                  'sustained building, rents have risen more slowly '
+                  'than in comparable cities that did not. The price '
+                  'of a house includes the land, and the price of land '
+                  'depends on how many homes are permitted on it. '
+                  'Restricting building so raises prices '
+                  'directly.',
+                  'But building alone works slowly. A decision '
+                  'today produces homes in three to eight years, and '
+                  'new flats are sold at the market price, so they '
+                  'first serve people with money. The benefit reaches '
+                  'poorer households only indirectly. In the meantime, '
+                  'prices continue to rise.',
+                  'I think building should be combined with '
+                  'other measures. Cities should permit far more '
+                  'building, but also build directly for people the '
+                  'market does not serve, on land the public already '
+                  'owns. Both are needed, because the first is slow '
+                  'and the second is limited by budgets.',
+                  ],
+         gap65=[
+                'It explains the chain by which new expensive flats '
+                'eventually help poorer households, instead of stating '
+                'that the benefit is indirect.',
+                'It identifies what makes that chain politically '
+                'poisonous, which is why the argument keeps recurring.',
+                'It gives the condition under which building alone '
+                'would be enough, and shows that the condition is not '
+                'met.',
+                ],
          criterion=[('Circumstances stated as scales',
                      'Task Response'),
                     ('The opposing case at full strength',

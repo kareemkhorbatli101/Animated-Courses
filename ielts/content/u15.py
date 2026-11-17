@@ -1295,6 +1295,39 @@ UNIT = dict(
           'The final sentence names the trick: transferring title on '
           'condition that nothing changes is not a transfer. Ending on a '
           'sharp, specific observation beats ending on a summary.'],
+         model65=[
+                  'Some people say museums should return objects to '
+                  'the countries they came from. I will consider both '
+                  'sides.',
+                  'Those in favour argue that many objects were taken '
+                  'without consent during a period when the people '
+                  'they belonged to had no power to refuse. Returning '
+                  'them corrects this. They also argue that objects '
+                  'mean more in the place they came from, where they '
+                  'are part of a living culture rather than one case '
+                  'among thousands.',
+                  'Museums reply that they have cared for these '
+                  'objects for a long time, often better than would '
+                  'have been possible elsewhere, and that a large '
+                  'collection lets visitors compare cultures in one '
+                  'building. They also warn that returning one object '
+                  'may lead to emptying whole museums.',
+                  'I think objects taken by force should be returned '
+                  'when the country of origin asks for them and can '
+                  'care for them. The argument about care is weaker '
+                  'than it was, because many countries now have '
+                  'excellent museums. Loans in both directions could '
+                  'keep the advantages of a large collection.',
+                  ],
+         gap65=[
+                'It tests each of the four claims separately instead '
+                'of grouping them into two sides.',
+                'It says what the storage evidence shows about the '
+                'care argument, rather than asserting that the '
+                'argument is weaker than it was.',
+                'It declines to settle the question in general and '
+                'says why a general answer is not available.',
+                ],
          criterion=[('Splitting the question and saying so',
                      'Task Response'),
                     ('Using the other side’s own concession',

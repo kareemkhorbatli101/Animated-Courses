@@ -1319,6 +1319,40 @@ UNIT = dict(
           'size of a fund, and deciding individual claims. Distinguishing two '
           'uses of one piece of evidence is a reliable way to end an essay '
           'about contested science.'],
+         model65=[
+                  'Some people believe wealthier countries should pay '
+                  'for climate damage in poorer ones. I agree, with '
+                  'conditions.',
+                  'The case is straightforward. Most of the greenhouse '
+                  'gases now in the atmosphere were released by a '
+                  'small number of countries during their industrial '
+                  'development, and the damage falls hardest on '
+                  'countries that released very little. Those '
+                  'countries also have least money to protect '
+                  'themselves.',
+                  'There are good arguments against it. It is hard to '
+                  'say which particular flood was caused by warming, '
+                  'and payments may go to governments rather than to '
+                  'the people harmed. Some also argue that the '
+                  'emissions were legal at the time and that today\'s '
+                  'citizens did not cause them.',
+                  'I think payment is justified, because the harm is '
+                  'real whoever is to blame, but it should be '
+                  'organised carefully. Money should be tied to '
+                  'specific projects such as flood defences and early '
+                  'warning systems, and the amounts should follow '
+                  'measurement rather than negotiation.',
+                  ],
+         gap65=[
+                'It uses attribution science to answer the objection '
+                'about individual events, with the limits of that '
+                'science stated.',
+                'It separates responsibility for emissions from '
+                'responsibility for protection, which the usual '
+                'argument runs together.',
+                'It names what would have to be measured for payments '
+                'to follow measurement rather than bargaining power.',
+                ],
          criterion=[('Opening on what both sides concede', 'Task Response'),
                     ('Reclassifying an objection as being about mechanism',
                      'Task Response'),

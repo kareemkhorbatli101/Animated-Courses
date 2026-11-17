@@ -1611,6 +1611,41 @@ UNIT = dict(
           'distinction compressed into eleven words. Ending on the real '
           'hinge of the argument rather than on a summary is a band 9 '
           'close.'],
+         model65=[
+                  'Some people say there are questions science can '
+                  'never answer. In my view this is true of some '
+                  'questions and a prediction about others, and the '
+                  'two are frequently conflated.',
+                  'Certain questions are not of the kind science '
+                  'answers at all. Whether an action is wrong, or what '
+                  'a life is for, cannot be adjudicated by measurement, '
+                  'because no observation would count as a result. '
+                  'Science can tell us what a practice does; it cannot '
+                  'tell us whether we should want that.',
+                  'However, the second group is different. Questions about '
+                  'the origin of life, the structure of the brain or '
+                  'the earliest universe are often called '
+                  'unanswerable, and many such questions have since '
+                  'been answered. The record of the claim is unimpressive, '
+                  'and the reasons given usually turn out to describe '
+                  'the limitations of current instrumentation.',
+                  'I think the distinction worth keeping is between '
+                  'questions outside the method and questions merely '
+                  'beyond it for now. The first will not yield however '
+                  'long we wait. For the second, the honest statement '
+                  'is that we do not know yet, which is a different '
+                  'thing from never.',
+                  ],
+         gap65=[
+                'It separates what the method cannot address from what '
+                'it has not yet reached, and uses the distinction to '
+                'sort the examples.',
+                'It cites the record of past unanswerable questions, '
+                'which is what makes the second paragraph more than a '
+                'hope.',
+                'It says why an observation could not settle a '
+                'question of value.',
+                ],
          criterion=[('Each position in its strongest form',
                      'Task Response'),
                     ('A third position that is not a compromise',

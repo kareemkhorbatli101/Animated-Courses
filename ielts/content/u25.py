@@ -1351,6 +1351,40 @@ UNIT = dict(
           'The last sentence does a lot of work in few words: it concedes '
           'the constraint and names its function in the argument. Ending on a '
           'reframing is more effective than ending on a summary.'],
+         model65=[
+                  'Some people say privacy laws cannot keep pace with '
+                  'technology. I agree that they lag, but I do not '
+                  'think this is unavoidable.',
+                  'The evidence for the lag is clear. Laws written for '
+                  'files in cabinets were applied to databases, and '
+                  'laws written for databases are now applied to '
+                  'systems that infer information rather than storing '
+                  'it. Removing names from a file no longer makes it '
+                  'anonymous, because a few ordinary facts are often '
+                  'enough to identify somebody.',
+                  'But the laws are not helpless. Writing them in '
+                  'terms of purposes rather than technologies has '
+                  'worked better: a rule about what may be done with '
+                  'information survives a change in how the '
+                  'information is held. Enforcement has also improved '
+                  'where regulators were given staff and money.',
+                  'I think the problem is less about speed than about '
+                  'design. Laws that describe technologies will always '
+                  'be out of date, and laws that describe purposes and '
+                  'harms will not. So I would write rules about what '
+                  'may be inferred and what may be sold, and fund the '
+                  'regulators properly.',
+                  ],
+         gap65=[
+                'It shows which half of the technology-neutral '
+                'strategy worked and which half did not, instead of '
+                'recommending it whole.',
+                'It explains the re-identification curve, so the '
+                'reader sees why anonymity is a matter of degree '
+                'rather than a property.',
+                'It names four specific repairs rather than one '
+                'general principle.',
+                ],
          criterion=[('Agreeing and disagreeing about different things',
                      'Task Response'),
                     ('Concrete repairs in answer to your own objection',

@@ -1383,6 +1383,39 @@ UNIT = dict(
           'the answer is easy. Ending on why the right policy is hard is '
           'stronger than ending on a recommendation nobody could '
           'implement.'],
+         model65=[
+                  'Some people say money has ruined professional '
+                  'sport. I think it has changed it, and that the '
+                  'damage is in particular places rather than '
+                  'everywhere.',
+                  'There is evidence for the complaint. The gap '
+                  'between rich and poor clubs has widened, and in '
+                  'many leagues the same few clubs win almost every '
+                  'year. Ticket prices have risen, so the people who '
+                  'supported a club for decades can no longer afford '
+                  'to attend.',
+                  'But money has also brought benefits. Players are '
+                  'paid properly and are no longer forced to retire '
+                  'into poverty. Facilities, coaching and medical care '
+                  'have improved enormously, and more sport is '
+                  'available to watch than ever before.',
+                  'I think the problem is not money itself but how the '
+                  'rewards are arranged. Where the prizes rise steeply '
+                  'at the top, clubs take risks and doping becomes '
+                  'more likely. Flatter prize structures and limits on '
+                  'spending have worked where one organisation '
+                  'controls entry, and those are the changes I would '
+                  'support.',
+                  ],
+         gap65=[
+                'It locates the harm in the shape of the reward '
+                'structure rather than in the presence of money, and '
+                'shows why that shape produces the behaviour.',
+                'It reports where spending limits have worked and what '
+                'condition made them work.',
+                'It treats the objections to flattening prizes as '
+                'serious rather than as self-interest.',
+                ],
          criterion=[('Agreeing and disagreeing about different things',
                      'Task Response'),
                     ('A paragraph on what money demonstrably improved',

@@ -1611,6 +1611,40 @@ UNIT = dict(
           'maintenance rather than a solution" is a sentence a band 9 '
           'examiner notices, because it is the writer applying their own '
           'scepticism to their own recommendation.'],
+         model65=[
+                  'Some say public services should be trusted rather '
+                  'than measured. In my view both positions describe a '
+                  'real failure, and that the choice as stated is '
+                  'false.',
+                  'The case for trust is strong where the work is hard '
+                  'to see. Teaching and medicine involve judgements '
+                  'that no indicator encapsulates, and a professional who '
+                  'is measured on the measurable will do the '
+                  'measurable. Targets have repeatedly produced the '
+                  'number without the result.',
+                  'However, the case for measurement comes from experience '
+                  'of trust. Where nothing was published, poor '
+                  'services continued for years, and the people who '
+                  'suffered were those least able to complain. '
+                  'Measurement at least makes the difference between '
+                  'one hospital and another visible.',
+                  'I think the answer depends on who the information '
+                  'is for. Measures used to inform those inside a '
+                  'service, and to prompt questions, work reasonably '
+                  'well. Measures used to rank and penalise distort '
+                  'behaviour quickly. The same numbers can do either, '
+                  'so the design that matters is not what is counted '
+                  'but the use to which it is put.',
+                  ],
+         gap65=[
+                'It locates the difference in the use made of a '
+                'measure rather than in the measure itself, which is '
+                'why the same indicator can help or distort.',
+                'It gives the history on both sides, so neither '
+                'position is only an assertion.',
+                'It explains why the unmeasured version failed the '
+                'people it was meant to protect.',
+                ],
          criterion=[('Diagnosing why the dispute persists',
                      'Task Response'),
                     ('Finding what neither side says',

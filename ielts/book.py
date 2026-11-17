@@ -308,6 +308,22 @@ def render_cycle(d, U, c, ci, key, nq=1):
         if w.get('notes'):
             d.h3('Why it works', D_PLUM)
             d.bullets(w['notes'])
+        # The second model: the same question answered at a band a B2
+        # student can reach this month. The models in this series are
+        # measurably PLAINER than the passages around them, so what is out
+        # of reach is not the vocabulary but the control, and naming the
+        # moves the lower answer does not make is the only way to show it.
+        if w.get('model65'):
+            d.h3('The same question at band 6.5', D_PLUM)
+            d.cefr('This answer would be marked around 6.5. It is not a bad '
+                   'answer. Read it before the one above, and then read the '
+                   'list underneath.')
+            for p in w['model65']:
+                d.body_p(p)
+        if w.get('gap65'):
+            d.h3('What the band 9 answer does that this one does not',
+                 D_PLUM)
+            d.bullets(w['gap65'])
         if w.get('criterion'):
             d.figure(*F.criterion_tag(w['criterion']))
         d.ex('Now write your own.%s' % w.get('instruct', ''), 'writing')

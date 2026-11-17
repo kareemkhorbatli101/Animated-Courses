@@ -1259,6 +1259,40 @@ UNIT = dict(
           'The conclusion states a condition rather than a preference, '
           'and supports it with what happened in the cities that did and '
           'did not meet it.'],
+         model65=[
+                  'Some cities charge drivers to enter the centre. I '
+                  'will look at the advantages and disadvantages '
+                  'before giving my view.',
+                  'The advantages are measurable. Where charges have '
+                  'been introduced, traffic has fallen reliably, '
+                  'journeys have become faster and air quality has '
+                  'improved. The money raised can be spent on buses '
+                  'and cycling, which gives people an alternative to '
+                  'driving.',
+                  'The disadvantages are also real. A flat charge '
+                  'takes a larger share of a low income than a high '
+                  'one, and some people cannot easily change how they '
+                  'travel, such as shift workers who finish when buses '
+                  'have stopped. Businesses in the centre often fear '
+                  'losing customers.',
+                  'I think charging is justified, but only if two '
+                  'conditions are met. Public transport must be good '
+                  'enough to use before the charge begins, not '
+                  'afterwards, and the money should be spent visibly '
+                  'on alternatives in the same city. Without these, '
+                  'the charge is simply a tax on people who have no '
+                  'other way of travelling.',
+                  ],
+         gap65=[
+                'It explains why building more road space does not '
+                'solve the problem, which is what makes charging the '
+                'serious option.',
+                'It treats the income objection as sound and answers '
+                'it with a mechanism rather than dismissing it.',
+                'It states the order of operations - transport first, '
+                'then the charge - as the condition the evidence '
+                'supports.',
+                ],
          criterion=[('A thesis holding two true things together',
                      'Task Response'),
                     ('One point the other side is right about',

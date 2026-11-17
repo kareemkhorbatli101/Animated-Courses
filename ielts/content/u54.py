@@ -1589,6 +1589,38 @@ UNIT = dict(
           'direction of an error is what makes it possible to reason '
           'through it" is the sentence that converts a rebuttal into a '
           'method.'],
+         model65=[
+                  'Some say we can never know what the past was really '
+                  'like. In my view this confuses two claims: that our '
+                  'knowledge is incomplete, and that it is unreliable.',
+                  'Incompleteness is indisputable. The record survives '
+                  'by accident and favours the literate, the wealthy '
+                  'and the recent. Most people who have lived left '
+                  'nothing at all, so any account of ordinary life is '
+                  'built from a skewed sample.',
+                  'However, incompleteness is not ignorance. Independent '
+                  'sources can be checked against each other, and some '
+                  'conclusions are now very secure: when a city was '
+                  'abandoned, what people ate, how long they lived. '
+                  'Archaeology and genetics have settled questions '
+                  'that documents alone could not.',
+                  'I think the sensible position is that we know some '
+                  'things about the past with confidence and many '
+                  'things not at all, and that the useful work is '
+                  'distinguishing the two. Saying we can never know '
+                  'collapses that distinction and makes careful '
+                  'history indistinguishable from fabrication.',
+                  ],
+         gap65=[
+                'It separates incompleteness from unreliability and '
+                'keeps them apart, which is what makes the conclusion '
+                'possible.',
+                'It names the specific claims that cross-checking has '
+                'made secure, so the second paragraph is evidence '
+                'rather than optimism.',
+                'It says what the sceptical position costs, which is '
+                'the reason for rejecting it.',
+                ],
          criterion=[('Distinguishing a strong from a weak version',
                      'Task Response'),
                     ('Applying the objection to its own evidence',

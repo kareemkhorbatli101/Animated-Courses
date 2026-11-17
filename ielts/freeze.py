@@ -72,6 +72,107 @@ def blocks(vol, rng):
                 yield ('%s %s' % (nm, p['part']), 'lpaper', p)
 
 
+def _j(x):
+    """One string for a slot, whatever shape it is stored in."""
+    if x is None:
+        return None
+    if isinstance(x, str):
+        return x
+    out = []
+    for e in x:
+        if isinstance(e, str):
+            out.append(e)
+        elif isinstance(e, (list, tuple)):
+            out += [str(y) for y in e]
+        else:
+            out.append(str(e))
+    return '\n'.join(out)
+
+
+def prose(vol, rng):
+    """(address, string) for every authored string that is not an item and
+    not a reading or listening text - the writing models, the speaking
+    prompts, the grammar slot, the vocabulary glosses, the unit front and
+    back matter, and the three single-skill papers. The item fields and the
+    passages have their own sections; everything else lives here, so that a
+    phase cannot quietly rewrite a model answer or a grammar explanation."""
+    out = []
+    for n in rng:
+        m = load('u%02d' % n)
+        if m is None:
+            continue
+        U = m.UNIT
+        u = 'u%d' % U['n']
+        out.append((u + ' opener', U['opener']))
+        for key in ('technique', 'outlining'):
+            d = U[key]
+            out.append(('%s %s body' % (u, key), d['body']))
+            out.append(('%s %s qs' % (u, key), _j(d['qs'])))
+            if d.get('answers'):
+                out.append(('%s %s answers' % (u, key), _j(d['answers'])))
+        out.append((u + ' tip', U['tip']))
+        for ci, c in enumerate(U['cycles'], 1):
+            a = '%s c%d' % (u, ci)
+            for bi, w in enumerate(c['write']):
+                for f in ('prompt', 'heading'):
+                    if w.get(f):
+                        out.append(('%s W%d %s' % (a, bi, f), w[f]))
+                for f in ('model', 'notes', 'model65', 'gap65', 'checks'):
+                    if w.get(f):
+                        out.append(('%s W%d %s' % (a, bi, f), _j(w[f])))
+            sp = c['speak']
+            for f in ('intro', 'qs', 'longturn', 'sounds', 'followup',
+                      'notes', 'checks'):
+                if sp.get(f):
+                    out.append(('%s S %s' % (a, f), _j(sp[f])))
+            g = c['gram']
+            for f in ('heading', 'explain', 'examples', 'items'):
+                if g.get(f):
+                    out.append(('%s G %s' % (a, f), _j(g[f])))
+            if c.get('fix'):
+                out.append(('%s fix' % a, _j(c['fix'])))
+            out.append((a + ' vocab', _j(c['vocab'])))
+            out.append((a + ' expr', _j(c['expr'])))
+            for bi, r in enumerate(c['read']):
+                out.append(('%s R%d heading' % (a, bi), r['heading']))
+            for bi, l in enumerate(c['listen']):
+                if l.get('heading'):
+                    out.append(('%s L%d heading' % (a, bi), l['heading']))
+    for nm in ('wpaper%d' % vol, 'spaper%d' % vol):
+        pm = load(nm)
+        if pm is None:
+            continue
+        P = getattr(pm, 'WPAPER', None) or getattr(pm, 'SPAPER')
+        out.append((nm + ' intro', P['intro']))
+        out.append((nm + ' instruct', _j(P['instruct'])))
+        out.append((nm + ' keyintro', P['keyintro']))
+        for t in P.get('tasks', []):
+            k = '%s t%s' % (nm, t['no'])
+            out.append((k + ' heading', t['heading']))
+            out.append((k + ' prompt', t['prompt']))
+            for f in ('model', 'notes', 'checks'):
+                out.append(('%s %s' % (k, f), _j(t[f])))
+        for pt in P.get('parts', []):
+            k = '%s %s' % (nm, pt['part'])
+            out.append((k + ' blurb', pt['blurb']))
+            for f in ('qs', 'notes', 'checks'):
+                out.append(('%s %s' % (k, f), _j(pt[f])))
+    for nm in ('paper%d' % vol, 'paper%da' % vol, 'paper%db' % vol,
+               'lpaper%d' % vol, 'lpaper%da' % vol, 'lpaper%db' % vol):
+        pm = load(nm)
+        if pm is None:
+            continue
+        P = getattr(pm, 'PAPER', None) or getattr(pm, 'LPAPER')
+        out.append((nm + ' intro', P['intro']))
+        out.append((nm + ' instruct', _j(P['instruct'])))
+        for x in P.get('passages', []):
+            out.append(('%s p%d heading' % (nm, x['no']), x['heading']))
+            out.append(('%s p%d blurb' % (nm, x['no']), x['blurb']))
+        for pt in P.get('parts', []):
+            out.append(('%s %s blurb' % (nm, pt['part']), pt['blurb']))
+    return [(k, v) for k, v in out if isinstance(v, str) and v.strip()]
+
+
 def text_of(blk, kind):
     if kind in ('read', 'paper'):
         return ' '.join(blk['paras'])
@@ -105,9 +206,13 @@ def snapshot():
                                     if b.get(k))
                 for w in c['write']:
                     figs += 1 if w.get('figure') else 0
+        pz = {}
+        for k, v in prose(vol, rng):
+            pz[k] = {'w': len(v.split()), 'sha': sha(v)}
         units, paper = D.texts(vol)
         pr = D.P.profile('x', units + paper, R)
-        rec = {'items': items, 'texts': texts, 'heads': sorted(heads),
+        rec = {'items': items, 'texts': texts, 'prose': pz,
+               'heads': sorted(heads),
                'figures': figs,
                'measure': {'k1': round(pr['bands']['1k'], 2),
                            'beyond': round(pr['over4k'], 2),
@@ -135,8 +240,10 @@ def main(argv):
     n_items = sum(len(b['items']) for b in snap['books'].values())
     n_texts = sum(len(b['texts']) for b in snap['books'].values())
     n_heads = sum(len(b['heads']) for b in snap['books'].values())
-    print('frozen: %d items, %d texts, %d head words, %d books -> %s'
-          % (n_items, n_texts, n_heads, len(snap['books']),
+    n_prose = sum(len(b['prose']) for b in snap['books'].values())
+    print('frozen: %d items, %d texts, %d prose slots, %d head words, '
+          '%d books -> %s'
+          % (n_items, n_texts, n_prose, n_heads, len(snap['books']),
              ', '.join(os.path.basename(p) for p in paths)))
     return 0
 

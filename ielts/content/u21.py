@@ -1316,6 +1316,41 @@ UNIT = dict(
           'The conclusion changes the unit of spending instead of repeating '
           'the position. Ending on a proposal the reader has not yet seen is '
           'worth more than a summary of what they have just read.'],
+         model65=[
+                  'Some people think governments should spend more on '
+                  'early years education than on universities. I '
+                  'agree, although the choice is not as simple as it '
+                  'looks.',
+                  'The argument for early years is well supported. '
+                  'Differences between children are already large when '
+                  'they start school, and they predict later results. '
+                  'Programmes for young children from poorer families '
+                  'have been followed for decades, and the adults in '
+                  'those studies earn more and are less likely to be '
+                  'arrested.',
+                  'But the picture has a complication. The test score '
+                  'advantage usually fades within a few years, which '
+                  'some people take as proof that the programmes fail. '
+                  'The long-term results suggest something else: the '
+                  'children gained habits and confidence that tests do '
+                  'not measure.',
+                  'I think the money should go to early years first, '
+                  'because the same amount buys more there and the '
+                  'benefits reach the children who need them most. '
+                  'Universities also matter, but students who arrive '
+                  'well prepared gain more from them, so the two are '
+                  'not really in competition.',
+                  ],
+         gap65=[
+                'It explains the fade-out properly - why a result can '
+                'disappear from the tests and still be present in the '
+                'adults - instead of reporting it as a complication.',
+                'It says which comparison the spending decision '
+                'actually is, rather than treating early years and '
+                'universities as rival goods.',
+                'It names what would have to be true for the '
+                'early-years case to fail.',
+                ],
          criterion=[('A position stated in the first line and held',
                      'Task Response'),
                     ('Refusing a stronger claim than you need',

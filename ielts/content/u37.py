@@ -1473,6 +1473,36 @@ UNIT = dict(
           'The last sentence inverts the opponent’s own criterion: authority. '
           'Taking the value your opponent appeals to and showing it supports '
           'you is the strongest ending available in a discussion essay.'],
+         model65=[
+                  'Some people believe museums should remove works '
+                  'discovered to be forgeries. I think most should '
+                  'stay, with the label changed.',
+                  'The argument for removal is that a museum exists to '
+                  'show what it says it is showing. A visitor who '
+                  'looks at a painting believing it to be four hundred '
+                  'years old has been misled, and a museum that keeps '
+                  'it risks its reputation.',
+                  'But the object has not changed. If a work was '
+                  'admired for a century, the admiration was real, and '
+                  'the skill in the painting is still there. Forgeries '
+                  'also teach something no genuine work can: how '
+                  'judgement is formed, and how it fails.',
+                  'I think a museum should display such works '
+                  'honestly, in a room that explains what was '
+                  'believed, by whom and for how long. That is more '
+                  'useful to a visitor than quietly moving the '
+                  'painting to storage, which teaches nothing and '
+                  'hides a mistake the museum made in public.',
+                  ],
+         gap65=[
+                'It uses the two-canvases thought experiment to locate '
+                'exactly what changes when attribution changes, '
+                'instead of saying the object is unchanged.',
+                'It shows that the three accounts of value are not '
+                'exclusive and that the best position uses all three.',
+                'It reports what the earlier specialists wrote and '
+                'when, which makes the failure of judgement specific.',
+                ],
          criterion=[('Rebutting by changing a condition, not by denying',
                      'Task Response'),
                     ('One concrete case used precisely', 'Lexical Resource'),

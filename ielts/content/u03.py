@@ -1195,6 +1195,39 @@ UNIT = dict(
           'The final sentence gives a reason that is about politics '
           'rather than medicine, which is honest and is the kind of '
           'sentence an examiner remembers.'],
+         model65=[
+                  'Some people believe health money should be spent on '
+                  'prevention rather than treatment. I will look at '
+                  'both views and then give my opinion.',
+                  'Those who support prevention point to history. Life '
+                  'expectancy rose from about forty to about eighty, '
+                  'and most of this improvement came from clean water, '
+                  'drains and better food rather than from hospitals. '
+                  'Prevention is also cheaper. Vaccinating a child '
+                  'costs very little compared with treating the '
+                  'disease later, and it protects other people too.',
+                  'On the other hand, treatment cannot be refused. If '
+                  'somebody is seriously ill today, a government '
+                  'cannot tell them that the money has been spent on '
+                  'prevention. Treatment also produces visible '
+                  'results, which prevention does not: nobody can be '
+                  'photographed not having a heart attack.',
+                  'I think both are needed, but prevention is '
+                  'underfunded because its results are invisible and '
+                  'arrive after the next election. I so believe '
+                  'governments should protect a fixed share of the '
+                  'budget for prevention, so that it cannot be moved '
+                  'to treatment whenever there is a crisis.',
+                  ],
+         gap65=[
+                'It explains WHY prevention is underfunded in '
+                'structural terms, rather than observing that it is.',
+                'It makes one concrete proposal and tests it, instead '
+                'of recommending a balance in general terms.',
+                'It is precise about what the historical evidence '
+                'shows and does not show, where this answer uses it as '
+                'a single block.',
+                ],
          criterion=[('Both sides given a real claim',
                      'Task Response'),
                     ('An explanation that produces the recommendation',

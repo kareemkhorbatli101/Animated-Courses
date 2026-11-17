@@ -1362,6 +1362,38 @@ UNIT = dict(
           'objection was right — is the most confident sentence in the essay. '
           'A position that states its own defeat condition reads as '
           'thought-through.'],
+         model65=[
+                  'Some people argue that countries should close all '
+                  'fossil fuel power stations immediately. I think '
+                  'this would be unwise, although the direction is '
+                  'right.',
+                  'The reason for closing them is obvious and serious. '
+                  'Burning coal and gas is the largest single cause of '
+                  'the warming now being measured, and every year of '
+                  'delay adds to a total that cannot be removed '
+                  'easily.',
+                  'But electricity has to arrive when it is needed. '
+                  'Wind and solar are now the cheapest sources to '
+                  'build, yet demand peaks in the early evening when '
+                  'solar output has ended. Storage can cover hours but '
+                  'not a still, cold week, and no country has '
+                  'demonstrated a seasonal answer at scale.',
+                  'I think countries should build renewable capacity '
+                  'as fast as possible and keep a small number of gas '
+                  'stations available for the hours when nothing else '
+                  'can supply. Closing them before the replacement '
+                  'exists would cause failures that would turn opinion '
+                  'against the whole transition.',
+                  ],
+         gap65=[
+                'It separates the cost of generating electricity from '
+                'the cost of supplying it reliably, and shows that '
+                'both claims are true.',
+                'It distinguishes the daily storage problem from the '
+                'seasonal one, because only one of them is solved.',
+                'It says what the keeping of a gas station is actually '
+                'buying, so the recommendation is costed.',
+                ],
          criterion=[('Position, objection, rebuttal with the objection at '
                      'full strength', 'Task Response'),
                     ('A rebuttal that is a design, not a denial',
