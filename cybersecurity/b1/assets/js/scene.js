@@ -76,7 +76,15 @@
   Cine.mount = function (holder, sceneId, hooks) {
     var scene = CSB1.scenes[sceneId];
     if (!scene) {
-      holder.appendChild(el('div', 'verdict show no', 'Scene not found: ' + esc(sceneId)));
+      /* ANNOUNCED, like every other verdict. This one is written after the card
+         has been built, from a setTimeout, so buildCard's own pass over the card's
+         verdicts has already run and cannot reach it. 29 cards in
+         accountants-intl/b1 show this message and a screen reader was told nothing.
+         RESIDUALS FM-31. */
+      var sceneErr = el('div', 'verdict show no', 'Scene not found: ' + esc(sceneId));
+      sceneErr.setAttribute('role', 'status');
+      sceneErr.setAttribute('aria-live', 'polite');
+      holder.appendChild(sceneErr);
       return null;
     }
     hooks = hooks || {};

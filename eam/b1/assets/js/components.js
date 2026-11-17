@@ -2083,6 +2083,7 @@
       show: function () {
         api.reveal({
           title: 'The right row in each column',
+          note: 'The transcript is under the exercise, behind its own button.',
           rows: card.cols.map(function (c, ci) {
             var got = sel(ci);
             var name = function (i) {
@@ -2101,11 +2102,12 @@
                      why: c.why || '' };
           })
         });
-        /* The transcript used to be opened inside the card here. It is part of what
-           the reveal shows, so it belongs with the rest of it - and a reveal that
-           changes the card cannot be told apart from one that overwrites an answer,
-           by the gate or by the learner. */
-        transBox.style.display = 'block';
+        /* The transcript is NOT opened here. The card already gives the learner a
+           button for it, and a reveal that changes the card cannot be told apart
+           from one that overwrites an answer - by the gate, or by the learner.
+           An earlier version of this fix moved this line below the reveal and
+           explained in a comment that it belonged in the panel, while leaving it
+           doing exactly what it had always done. The gate was not fooled. */
       },
       getState: function () { return card.cols.map(function (c, i) { return sel(i); }); },
       setState: function (s) {

@@ -1086,6 +1086,24 @@
     }
     buildActivity();
 
+    /* EVERY VERDICT A CARD CAN SHOW IS ANNOUNCED, not only the card's own.
+       `.verdict` is built in four places - the card's footer verdict, "Unknown
+       activity type", "This activity failed to load", and the coach's "you have not
+       written much yet" - and a component may put one inside its activity as well.
+       Measured on accountants-intl/b1: 29 roleplay cards carry TWO, and the inner
+       one came first, so the card's announced verdict was shadowed by a silent one
+       and a screen reader was told nothing after all. Giving the attributes to all
+       of them is the only version of this that cannot be shadowed. */
+    function liveifyVerdicts() {
+      var vs = sec.querySelectorAll('.verdict');
+      for (var vi = 0; vi < vs.length; vi++) {
+        if (vs[vi].getAttribute('aria-live')) continue;
+        vs[vi].setAttribute('role', 'status');
+        vs[vi].setAttribute('aria-live', 'polite');
+        vs[vi].setAttribute('aria-atomic', 'true');
+      }
+    }
+
     /* a real start-over: the card comes back exactly as it loaded */
     function hardReset() {
       try { FMS.stopSpeak(); } catch (e) { }
@@ -1189,6 +1207,8 @@
     if (gate && rec.gate) { try { gate.force(); } catch (e) { } }
     if (inst && inst.setState && rec.state) { try { inst.setState(rec.state); } catch (e) { } }
     if (rec.done) sec.classList.add('is-ok');
+
+    liveifyVerdicts();
 
     card._inst = inst;
     return sec;
