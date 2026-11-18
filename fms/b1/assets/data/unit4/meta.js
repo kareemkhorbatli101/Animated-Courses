@@ -19,7 +19,7 @@ FMS.unitMeta.unit4 = {
     'I can choose the right future form for a ministry plan - a decision, an '
       + 'arrangement, an intention or a prediction - give the ministry example for '
       + 'each, correct future-form errors in a planning memo, and speak about '
-      + 'commitments with the degree of certainty you actually mean.',
+      + 'commitments with the degree of certainty I actually mean.',
     'I can predict the future language a formal cooperation context will use, '
       + 'follow four excerpts from bilateral events and planning sessions, choose a '
       + 'correct formal response, and write down five cooperation phrases.',

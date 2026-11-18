@@ -23,8 +23,8 @@ FMS.unitMeta.unit3 = {
       + 'excerpts from press briefings and bilateral statements, choose a correct '
       + 'professional answer to a difficult question from a journalist or diplomat, '
       + 'and write down five official phrases.',
-    'I can answer questions at a press conference without conceding more than '
-      + 'you intend, deliver an investment briefing, and stay both honest and '
+    'I can answer questions at a press conference without conceding more than I '
+      + 'intend, deliver an investment briefing, and stay both honest and '
       + 'forward-looking when a question is uncomfortable.',
     'I can read an account of a ministry\'s diplomatic year for its figures and '
       + 'its achievements, discuss what the numbers do and do not show, and use the '

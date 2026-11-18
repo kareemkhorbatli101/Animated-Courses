@@ -28,7 +28,7 @@ FMS.unitMeta.unit2 = {
       + 'held to its agenda and its time.',
     'I can read an account of a bilateral working group session for its '
       + 'preparation steps, its structure and its outcomes, discuss why each step '
-      + 'was taken, and use modal verbs correctly when you set out a procedure.',
+      + 'was taken, and use modal verbs correctly when I set out a procedure.',
     'I can recognise the five sections of a meeting agenda and what each one is '
       + 'for, write an agenda for a bilateral session, and write a meeting '
       + 'confirmation email of 80 to 100 words.',

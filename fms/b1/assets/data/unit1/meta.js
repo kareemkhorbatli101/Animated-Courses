@@ -24,7 +24,7 @@ FMS.unitMeta.unit1 = {
     'I can predict what a visitor at the reception desk will say, follow four '
       + 'arrival conversations closely enough to identify each visitor, their '
       + 'purpose and the department they need, choose a correct staff response to '
-      + 'an opening line, and write down five reception phrases you can use myself.',
+      + 'an opening line, and write down five reception phrases I can use myself.',
     'I can perform a complete reception script from greeting to handover, '
       + 'introduce myself and my role at a formal reception, and say what makes a '
       + 'good first impression and what damages one.',
