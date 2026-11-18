@@ -23,6 +23,57 @@ HSP.page('u5-s04', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 5 · P2',
+      type: 'study',
+      title: 'The grammar, as the book gives it',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The grammar, as the book gives it',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'We use the PAST SIMPLE to talk about actions that finished in the '
+            + 'past — for example, what a guest ordered last night. For most '
+            + '(REGULAR) verbs, we add -ed: order → ordered, serve → served, cook → '
+            + 'cooked, arrive → arrived. Some verbs are IRREGULAR and change their '
+            + 'form: eat → ate, drink → drank, have → had, take → took, come → came, '
+            + 'go → went.',
+          say: 'We use the PAST SIMPLE to talk about actions that finished in the '
+            + 'past — for example, what a guest ordered last night. For most '
+            + '(REGULAR) verbs, we add -ed: order → ordered, serve → served, cook → '
+            + 'cooked, arrive → arrived. Some verbs are IRREGULAR and change their '
+            + 'form: eat → ate, drink → drank, have → had, take → took, come → came, '
+            + 'go → went.',
+          role: 'course'
+        },
+        {
+          h: 'For NEGATIVES and QUESTIONS, we use did / didn\'t with the base verb '
+            + '(no -ed). Question: Did you enjoy the meal? Short answer: Yes, I did. '
+            + '/ No, I didn\'t. Negative: The guest didn\'t order dessert. Time '
+            + 'words: yesterday, last night, an hour ago, this morning.',
+          say: 'For NEGATIVES and QUESTIONS, we use did / didn\'t with the base verb '
+            + '(no -ed). Question: Did you enjoy the meal? Short answer: Yes, I did. '
+            + '/ No, I didn\'t. Negative: The guest didn\'t order dessert. Time '
+            + 'words: yesterday, last night, an hour ago, this morning.',
+          role: 'course'
+        },
+        {
+          h: 'Form',
+          say: 'Form',
+          role: 'course'
+        },
+        {
+          h: 'Positive: subject + verb-ed / irregular past Question: Did + subject '
+            + '+ base verb…? Negative: subject + didn\'t + base verb',
+          say: 'Positive: subject + verb-ed / irregular past Question: Did + subject '
+            + '+ base verb…? Negative: subject + didn\'t + base verb',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 5 · P2 A',
       type: 'cloze',
@@ -52,7 +103,7 @@ HSP.page('u5-s04', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 5 · P2 B',
       type: 'cloze',
@@ -82,7 +133,7 @@ HSP.page('u5-s04', {
       }
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'C',
       bookRef: 'Unit 5 · P2 C',
       type: 'cloze',

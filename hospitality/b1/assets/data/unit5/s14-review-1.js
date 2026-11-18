@@ -68,6 +68,21 @@ HSP.page('u5-s14', {
       id: 'c3',
       ref: 'C',
       bookRef: 'Unit 5 · P10 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Yesterday, a group of ten guests came to the restaurant for lunch. '
+              + 'They ordered a lot of mezze to share, and then grilled meat and fish. '
+              + 'They stayed for two hours and enjoyed the food. At the end, they left '
+              + 'a kind message: \'Thank you for a wonderful meal.\'',
+            say: 'Yesterday, a group of ten guests came to the restaurant for lunch. '
+              + 'They ordered a lot of mezze to share, and then grilled meat and fish. '
+              + 'They stayed for two hours and enjoyed the food. At the end, they left '
+              + 'a kind message: \'Thank you for a wonderful meal.\'',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Reading',
       instruction: 'Reading. Read the short text and answer.',

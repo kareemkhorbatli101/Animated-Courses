@@ -12,6 +12,17 @@ HSP.page('u1-s15', {
       id: 'c1',
       ref: 'D',
       bookRef: 'Unit 1 · P10 D',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: '[Teacher reads] \'Good afternoon, and welcome to the Orient Rose '
+              + 'Hotel. My name is Lina. Do you have a reservation?\'',
+            say: '[Teacher reads] \'Good afternoon, and welcome to the Orient Rose '
+              + 'Hotel. My name is Lina. Do you have a reservation?\'',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Listening',
       instruction: 'Listening. Listen and answer. (Teacher reads.)',
@@ -54,6 +65,40 @@ HSP.page('u1-s15', {
       id: 'c3',
       ref: 'F',
       bookRef: 'Unit 1 · P10 F',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Can-Do check. Tick what you can do.',
+            say: 'Can-Do check. Tick what you can do.',
+            role: 'course'
+          },
+          {
+            h: 'I can greet guests and colleagues.',
+            say: 'I can greet guests and colleagues.',
+            role: 'course'
+          },
+          {
+            h: 'I can introduce myself and my role.',
+            say: 'I can introduce myself and my role.',
+            role: 'course'
+          },
+          {
+            h: 'I can describe my daily tasks.',
+            say: 'I can describe my daily tasks.',
+            role: 'course'
+          },
+          {
+            h: 'I can talk about what is happening now.',
+            say: 'I can talk about what is happening now.',
+            role: 'course'
+          },
+          {
+            h: 'I can name the departments and people of a hotel.',
+            say: 'I can name the departments and people of a hotel.',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Writing',
       instruction: 'Writing. Write two sentences: one about what you do every day, one '

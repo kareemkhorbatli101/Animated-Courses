@@ -12,6 +12,19 @@ HSP.page('u3-s15', {
       id: 'c1',
       ref: 'D',
       bookRef: 'Unit 3 · P10 D',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: '[Teacher reads] \'Good afternoon, Orient Rose Hotel. Could I take '
+              + 'your name, please? … Thank you. Would you like a single or a double '
+              + 'room?\'',
+            say: '[Teacher reads] \'Good afternoon, Orient Rose Hotel. Could I take '
+              + 'your name, please? … Thank you. Would you like a single or a double '
+              + 'room?\'',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Listening',
       instruction: 'Listening. Listen and answer. (Teacher reads.)',
@@ -55,6 +68,40 @@ HSP.page('u3-s15', {
       id: 'c3',
       ref: 'F',
       bookRef: 'Unit 3 · P10 F',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Can-Do check. Tick what you can do.',
+            say: 'Can-Do check. Tick what you can do.',
+            role: 'course'
+          },
+          {
+            h: 'I can take a booking politely, on the phone and at the desk.',
+            say: 'I can take a booking politely, on the phone and at the desk.',
+            role: 'course'
+          },
+          {
+            h: 'I can ask for and give reservation details.',
+            say: 'I can ask for and give reservation details.',
+            role: 'course'
+          },
+          {
+            h: 'I can make polite requests and offers.',
+            say: 'I can make polite requests and offers.',
+            role: 'course'
+          },
+          {
+            h: 'I can spell names and say dates and numbers.',
+            say: 'I can spell names and say dates and numbers.',
+            role: 'course'
+          },
+          {
+            h: 'I can confirm a booking and check the details.',
+            say: 'I can confirm a booking and check the details.',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Writing',
       instruction: 'Writing. Write two polite sentences: one request to a guest, one '

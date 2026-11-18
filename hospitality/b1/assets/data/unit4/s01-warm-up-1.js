@@ -10,6 +10,78 @@ HSP.page('u4-s01', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 4 · Warm-Up',
+      type: 'study',
+      title: 'Before you read',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you read',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Look at Figure 4.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          say: 'Look at Figure 4.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          role: 'course'
+        },
+        {
+          h: '1. What is the first step of a check-in?',
+          say: '1. What is the first step of a check-in?',
+          role: 'course'
+        },
+        {
+          h: '2. What does a guest sign at the desk?',
+          say: '2. What does a guest sign at the desk?',
+          role: 'course'
+        },
+        {
+          h: '3. What information does a guest need about their room?',
+          say: '3. What information does a guest need about their room?',
+          role: 'course'
+        },
+        {
+          h: 'After a long journey, the guest finally arrives at the hotel. This '
+            + 'moment — the check-in — is very important. It is the guest\'s first '
+            + 'real experience inside the hotel. A slow or cold check-in makes a bad '
+            + 'start; a warm, quick check-in makes the guest feel at home at once.',
+          say: 'After a long journey, the guest finally arrives at the hotel. This '
+            + 'moment — the check-in — is very important. It is the guest\'s first '
+            + 'real experience inside the hotel. A slow or cold check-in makes a bad '
+            + 'start; a warm, quick check-in makes the guest feel at home at once.',
+          role: 'course'
+        },
+        {
+          h: 'At check-in, the receptionist does several things. She welcomes the '
+            + 'guest and finds the reservation. She asks for a passport or an ID '
+            + 'card, and the guest signs the registration card. She gives the guest '
+            + 'a key card and explains the room number, the floor, and the wifi. She '
+            + 'also tells the guest about breakfast and the facilities. Often, she '
+            + 'makes arrangements too: a wake-up call, a taxi for the morning, or '
+            + 'help with the luggage.',
+          say: 'At check-in, the receptionist does several things. She welcomes the '
+            + 'guest and finds the reservation. She asks for a passport or an ID '
+            + 'card, and the guest signs the registration card. She gives the guest '
+            + 'a key card and explains the room number, the floor, and the wifi. She '
+            + 'also tells the guest about breakfast and the facilities. Often, she '
+            + 'makes arrangements too: a wake-up call, a taxi for the morning, or '
+            + 'help with the luggage.',
+          role: 'course'
+        },
+        {
+          h: 'Today, a guest is arriving at the Orient Rose Hotel, and Lina is '
+            + 'checking him in. “Remember,” says Mr. Nabil, “you are not only giving '
+            + 'a key. You are opening the door to a happy stay.”',
+          say: 'Today, a guest is arriving at the Orient Rose Hotel, and Lina is '
+            + 'checking him in. “Remember,” says Mr. Nabil, “you are not only giving '
+            + 'a key. You are opening the door to a happy stay.”',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 4 · Warm-Up A',
       type: 'discuss',
@@ -58,7 +130,7 @@ HSP.page('u4-s01', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 4 · Warm-Up B',
       type: 'quizset',

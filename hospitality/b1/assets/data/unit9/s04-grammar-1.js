@@ -23,6 +23,66 @@ HSP.page('u9-s04', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 9 · P2',
+      type: 'study',
+      title: 'The grammar, as the book gives it',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The grammar, as the book gives it',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'We use the FIRST CONDITIONAL to talk about a real possible situation '
+            + 'and its result. The form is: If + present simple, … will + verb. We '
+            + 'use it to offer solutions to a guest: “If you give me your room '
+            + 'number, I\'ll send someone up.” “If the noise continues, we\'ll move '
+            + 'you to another room.” “If you\'re not happy, we\'ll give you a '
+            + 'refund.” The \'if\' part is the condition; the \'will\' part is what '
+            + 'we promise to do.',
+          say: 'We use the FIRST CONDITIONAL to talk about a real possible situation '
+            + 'and its result. The form is: If + present simple, … will + verb. We '
+            + 'use it to offer solutions to a guest: “If you give me your room '
+            + 'number, I\'ll send someone up.” “If the noise continues, we\'ll move '
+            + 'you to another room.” “If you\'re not happy, we\'ll give you a '
+            + 'refund.” The \'if\' part is the condition; the \'will\' part is what '
+            + 'we promise to do.',
+          role: 'course'
+        },
+        {
+          h: 'We use SHOULD to give advice or say what is a good idea: “You should '
+            + 'call reception if there is a problem.” “We should replace the lamp '
+            + 'immediately.” The negative is shouldn\'t: “You shouldn\'t wait — '
+            + 'please tell us at once.”',
+          say: 'We use SHOULD to give advice or say what is a good idea: “You should '
+            + 'call reception if there is a problem.” “We should replace the lamp '
+            + 'immediately.” The negative is shouldn\'t: “You shouldn\'t wait — '
+            + 'please tell us at once.”',
+          role: 'course'
+        },
+        {
+          h: 'Note: in the \'if\' part, we use the present simple, NOT will. We '
+            + 'say: If you wait, I\'ll help — not \'If you will wait\'.',
+          say: 'Note: in the \'if\' part, we use the present simple, NOT will. We '
+            + 'say: If you wait, I\'ll help — not \'If you will wait\'.',
+          role: 'course'
+        },
+        {
+          h: 'Form',
+          say: 'Form',
+          role: 'course'
+        },
+        {
+          h: 'First conditional: If + present simple, … subject + will + base verb '
+            + 'Advice: subject + should / shouldn\'t + base verb',
+          say: 'First conditional: If + present simple, … subject + will + base verb '
+            + 'Advice: subject + should / shouldn\'t + base verb',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 9 · P2 A',
       type: 'cloze',
@@ -52,7 +112,7 @@ HSP.page('u9-s04', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 9 · P2 B',
       type: 'cloze',
@@ -82,7 +142,7 @@ HSP.page('u9-s04', {
       }
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'C',
       bookRef: 'Unit 9 · P2 C',
       type: 'cloze',

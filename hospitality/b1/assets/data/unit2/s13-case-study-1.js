@@ -17,9 +17,16 @@ HSP.page('u2-s13', {
       instruction: 'What does Lina do? Choose the best action and say why.',
       passage: {
       title: 'The case',
-      paras: ['A guest is walking around the ground floor. He looks confused. He is '
-          + 'trying to find the spa, but he is going the wrong way, towards the '
-          + 'kitchen. Lina is at the desk, and she can see him.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest is walking around the ground floor. He looks confused. He is '
+            + 'trying to find the spa, but he is going the wrong way, towards the '
+            + 'kitchen. Lina is at the desk, and she can see him.',
+          say: 'A guest is walking around the ground floor. He looks confused. He is '
+            + 'trying to find the spa, but he is going the wrong way, towards the '
+            + 'kitchen. Lina is at the desk, and she can see him.',
+          role: 'course'
+        }]
     },
       before: '<b>What would you do?</b><ul><li>Wait for the guest to ask for '
       + 'help.</li><li>Call across the lobby: “Wrong way!”</li><li>Go to the '
@@ -39,9 +46,16 @@ HSP.page('u2-s13', {
       instruction: 'Read the case, then answer the questions.',
       passage: {
       title: 'The case',
-      paras: ['An older guest has a room on the third floor. She has two heavy bags. '
-          + 'But this morning, the lift is not working. The guest cannot carry the '
-          + 'bags up the stairs, and she is worried.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'An older guest has a room on the third floor. She has two heavy bags. '
+            + 'But this morning, the lift is not working. The guest cannot carry the '
+            + 'bags up the stairs, and she is worried.',
+          say: 'An older guest has a room on the third floor. She has two heavy bags. '
+            + 'But this morning, the lift is not working. The guest cannot carry the '
+            + 'bags up the stairs, and she is worried.',
+          role: 'course'
+        }]
     },
       minWords: 25,
       placeholder: 'I would… because…',

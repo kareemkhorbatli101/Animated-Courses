@@ -10,6 +10,78 @@ HSP.page('u6-s01', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 6 · Warm-Up',
+      type: 'study',
+      title: 'Before you read',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you read',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Look at Figure 6.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          say: 'Look at Figure 6.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          role: 'course'
+        },
+        {
+          h: '1. Which places on the map do you know?',
+          say: '1. Which places on the map do you know?',
+          role: 'course'
+        },
+        {
+          h: '2. Which place would you most like to visit? Why?',
+          say: '2. Which place would you most like to visit? Why?',
+          role: 'course'
+        },
+        {
+          h: '3. Who in a hotel helps guests plan their days out?',
+          say: '3. Who in a hotel helps guests plan their days out?',
+          role: 'course'
+        },
+        {
+          h: 'Many guests at the Orient Rose Hotel are visitors to Syria, and they '
+            + 'want to see the country. This is where the concierge helps. The '
+            + 'concierge — at our hotel, this is Rana — knows the city and the '
+            + 'country well. She recommends places to visit, gives directions, and '
+            + 'helps guests plan their days. A good recommendation can turn a simple '
+            + 'trip into an unforgettable holiday.',
+          say: 'Many guests at the Orient Rose Hotel are visitors to Syria, and they '
+            + 'want to see the country. This is where the concierge helps. The '
+            + 'concierge — at our hotel, this is Rana — knows the city and the '
+            + 'country well. She recommends places to visit, gives directions, and '
+            + 'helps guests plan their days. A good recommendation can turn a simple '
+            + 'trip into an unforgettable holiday.',
+          role: 'course'
+        },
+        {
+          h: 'Syria has some of the most famous and beautiful places in the world. '
+            + 'In Damascus, the Old City and the great Umayyad Mosque are more than '
+            + 'a thousand years old. Further north, Aleppo has a mighty citadel on a '
+            + 'hill. In the desert stand the ancient columns of Palmyra, and near '
+            + 'the coast rises the huge castle of Krak des Chevaliers. On the west '
+            + 'coast, Latakia offers sea, sun and sandy beaches.',
+          say: 'Syria has some of the most famous and beautiful places in the world. '
+            + 'In Damascus, the Old City and the great Umayyad Mosque are more than '
+            + 'a thousand years old. Further north, Aleppo has a mighty citadel on a '
+            + 'hill. In the desert stand the ancient columns of Palmyra, and near '
+            + 'the coast rises the huge castle of Krak des Chevaliers. On the west '
+            + 'coast, Latakia offers sea, sun and sandy beaches.',
+          role: 'course'
+        },
+        {
+          h: 'Today, a guest asks Rana, “Where is the best place to visit?” Rana '
+            + 'smiles. “That depends on you,” she says. “Let me help you choose.”',
+          say: 'Today, a guest asks Rana, “Where is the best place to visit?” Rana '
+            + 'smiles. “That depends on you,” she says. “Let me help you choose.”',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 6 · Warm-Up A',
       type: 'discuss',
@@ -56,7 +128,7 @@ HSP.page('u6-s01', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 6 · Warm-Up B',
       type: 'quizset',

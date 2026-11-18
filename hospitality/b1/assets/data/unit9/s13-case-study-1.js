@@ -17,9 +17,16 @@ HSP.page('u9-s13', {
       instruction: 'What should the receptionist do? Choose the best action and say why.',
       passage: {
       title: 'The case',
-      paras: ['A guest is standing in the middle of the busy lobby, speaking very '
-          + 'loudly and angrily about a problem with his room. Other guests are '
-          + 'watching, and some look uncomfortable. The guest is clearly upset.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest is standing in the middle of the busy lobby, speaking very '
+            + 'loudly and angrily about a problem with his room. Other guests are '
+            + 'watching, and some look uncomfortable. The guest is clearly upset.',
+          say: 'A guest is standing in the middle of the busy lobby, speaking very '
+            + 'loudly and angrily about a problem with his room. Other guests are '
+            + 'watching, and some look uncomfortable. The guest is clearly upset.',
+          role: 'course'
+        }]
     },
       before: '<b>What would you do?</b><ul><li>Argue back loudly to defend the '
       + 'hotel.</li><li>Stay calm, apologise, and invite the guest to a '
@@ -40,10 +47,18 @@ HSP.page('u9-s13', {
       instruction: 'Read the case, then answer the questions.',
       passage: {
       title: 'The case',
-      paras: ['A guest complains that his whole stay was ruined by a small problem, '
-          + 'and demands a completely free stay — no payment at all. The problem '
-          + 'was real, but small, and the hotel has already apologised and fixed '
-          + 'it. A completely free stay is not fair or possible.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest complains that his whole stay was ruined by a small problem, '
+            + 'and demands a completely free stay — no payment at all. The problem '
+            + 'was real, but small, and the hotel has already apologised and fixed '
+            + 'it. A completely free stay is not fair or possible.',
+          say: 'A guest complains that his whole stay was ruined by a small problem, '
+            + 'and demands a completely free stay — no payment at all. The problem '
+            + 'was real, but small, and the hotel has already apologised and fixed '
+            + 'it. A completely free stay is not fair or possible.',
+          role: 'course'
+        }]
     },
       minWords: 25,
       placeholder: 'I would… because…',

@@ -10,6 +10,43 @@ HSP.page('u8-s10', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 8 · P6',
+      type: 'study',
+      title: 'Before you write',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you write',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Dear Mr. and Mrs. Karam, thank you for your requests. We have put a '
+            + 'cot in your room for the baby, and we\'ve left extra pillows and a '
+            + 'blanket. I\'ll send an adapter up this evening, and I\'ll arrange '
+            + 'your taxi for eight o\'clock tomorrow morning. If you need anything '
+            + 'else, please call reception. We hope you have a lovely stay. Kind '
+            + 'regards, Lina.',
+          say: 'Dear Mr. and Mrs. Karam, thank you for your requests. We have put a '
+            + 'cot in your room for the baby, and we\'ve left extra pillows and a '
+            + 'blanket. I\'ll send an adapter up this evening, and I\'ll arrange '
+            + 'your taxi for eight o\'clock tomorrow morning. If you need anything '
+            + 'else, please call reception. We hope you have a lovely stay. Kind '
+            + 'regards, Lina.',
+          role: 'course'
+        },
+        {
+          h: 'Hi Salma, room 402 has a guest with a nut allergy. Please make sure '
+            + 'the kitchen prepares only allergy-safe meals for them, and put a note '
+            + 'on their file. I\'ll tell the restaurant team too. Thanks, Lina.',
+          say: 'Hi Salma, room 402 has a guest with a nut allergy. Please make sure '
+            + 'the kitchen prepares only allergy-safe meals for them, and put a note '
+            + 'on their file. I\'ll tell the restaurant team too. Thanks, Lina.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 8 · P6 A',
       visual: { img: '../assets/figures/fig-8.5.png', caption: 'A guest-request log: room, request, action, done.' },
@@ -41,9 +78,20 @@ HSP.page('u8-s10', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 8 · P6 B',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Plan: 1) thank the guest 2) what you have already done 3) what you '
+              + 'will do (use will) 4) a warm closing',
+            say: 'Plan: 1) thank the guest 2) what you have already done 3) what you '
+              + 'will do (use will) 4) a warm closing',
+            role: 'course'
+          }]
+      },
       type: 'writer',
       title: 'Now you write',
       instruction: 'Now you write. A guest has made two requests and has one special '

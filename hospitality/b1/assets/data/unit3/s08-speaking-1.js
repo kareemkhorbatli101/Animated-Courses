@@ -12,6 +12,37 @@ HSP.page('u3-s08', {
       id: 'c1',
       ref: 'A',
       bookRef: 'Unit 3 · P4 A',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'A: Say you would like to book a room. Say how many nights.',
+            say: 'A: Say you would like to book a room. Say how many nights.',
+            role: 'course'
+          },
+          {
+            h: 'B: Greet, and ask politely for the name (Could I…?). Ask the guest to '
+              + 'spell it.',
+            say: 'B: Greet, and ask politely for the name (Could I…?). Ask the guest to '
+              + 'spell it.',
+            role: 'course'
+          },
+          {
+            h: 'A: Give and spell your name. Give your dates.',
+            say: 'A: Give and spell your name. Give your dates.',
+            role: 'course'
+          },
+          {
+            h: 'B: Offer a room type and a view (Would you like…?). Confirm the booking.',
+            say: 'B: Offer a room type and a view (Would you like…?). Confirm the booking.',
+            role: 'course'
+          },
+          {
+            h: 'A: Say thank you.',
+            say: 'A: Say thank you.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Role-play: take a booking',
       instruction: 'Role-play: take a booking. Student A is the guest; Student B is the '

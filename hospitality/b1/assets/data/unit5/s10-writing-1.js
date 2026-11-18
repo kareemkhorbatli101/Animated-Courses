@@ -9,6 +9,41 @@ HSP.page('u5-s10', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 5 · P6',
+      type: 'study',
+      title: 'Before you write',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you write',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Last night I ate at the Orient Rose restaurant. I started with '
+            + 'hummus, and then I had the kebab. My friend chose the grilled fish. '
+            + 'The food was fresh and delicious, and the waiter was very friendly. '
+            + 'We drank mint tea after dinner. We had a wonderful evening, and we '
+            + 'will come again.',
+          say: 'Last night I ate at the Orient Rose restaurant. I started with '
+            + 'hummus, and then I had the kebab. My friend chose the grilled fish. '
+            + 'The food was fresh and delicious, and the waiter was very friendly. '
+            + 'We drank mint tea after dinner. We had a wonderful evening, and we '
+            + 'will come again.',
+          role: 'course'
+        },
+        {
+          h: 'Shish taouk — tender pieces of chicken, cooked over the grill and '
+            + 'served with garlic sauce, warm bread and a fresh salad. A favourite '
+            + 'with our guests.',
+          say: 'Shish taouk — tender pieces of chicken, cooked over the grill and '
+            + 'served with garlic sauce, warm bread and a fresh salad. A favourite '
+            + 'with our guests.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 5 · P6 A',
       type: 'discuss',
@@ -39,9 +74,20 @@ HSP.page('u5-s10', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 5 · P6 B',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Plan: 1) where and when you ate 2) what you ordered / had 3) what the '
+              + 'food and service were like 4) a closing sentence',
+            say: 'Plan: 1) where and when you ate 2) what you ordered / had 3) what the '
+              + 'food and service were like 4) a closing sentence',
+            role: 'course'
+          }]
+      },
       type: 'writer',
       title: 'Now you write',
       instruction: 'Now you write. Write a short review (40–60 words) of a meal you had. '

@@ -17,9 +17,16 @@ HSP.page('u7-s13', {
       instruction: 'What should the team do? Choose the best action and say why.',
       passage: {
       title: 'The case',
-      paras: ['A guest checks in and goes up to the room. But the room has not been '
-          + 'cleaned yet — the bed is not made, and there are no fresh towels. The '
-          + 'guest comes back down to reception, tired and unhappy.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest checks in and goes up to the room. But the room has not been '
+            + 'cleaned yet — the bed is not made, and there are no fresh towels. The '
+            + 'guest comes back down to reception, tired and unhappy.',
+          say: 'A guest checks in and goes up to the room. But the room has not been '
+            + 'cleaned yet — the bed is not made, and there are no fresh towels. The '
+            + 'guest comes back down to reception, tired and unhappy.',
+          role: 'course'
+        }]
     },
       before: '<b>What would you do?</b><ul><li>Tell the guest to wait in the room '
       + 'until it is cleaned.</li><li>Apologise, offer the guest a coffee, and '
@@ -40,9 +47,16 @@ HSP.page('u7-s13', {
       instruction: 'Read the case, then answer the questions.',
       passage: {
       title: 'The case',
-      paras: ['A guest hangs a \'Do Not Disturb\' sign on the door in the morning. '
-          + 'The housekeeper respects it and does not clean the room. But in the '
-          + 'evening, the guest complains: “My room hasn\'t been cleaned all day!”']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest hangs a \'Do Not Disturb\' sign on the door in the morning. '
+            + 'The housekeeper respects it and does not clean the room. But in the '
+            + 'evening, the guest complains: “My room hasn\'t been cleaned all day!”',
+          say: 'A guest hangs a \'Do Not Disturb\' sign on the door in the morning. '
+            + 'The housekeeper respects it and does not clean the room. But in the '
+            + 'evening, the guest complains: “My room hasn\'t been cleaned all day!”',
+          role: 'course'
+        }]
     },
       minWords: 25,
       placeholder: 'I would… because…',

@@ -12,6 +12,19 @@ HSP.page('u7-s15', {
       id: 'c1',
       ref: 'D',
       bookRef: 'Unit 7 · P10 D',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: '[Teacher reads] \'Room service! I\'ve just brought your dinner. I\'ve '
+              + 'also brought some extra water. Have you finished with your breakfast '
+              + 'tray? I can take it away.\'',
+            say: '[Teacher reads] \'Room service! I\'ve just brought your dinner. I\'ve '
+              + 'also brought some extra water. Have you finished with your breakfast '
+              + 'tray? I can take it away.\'',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Listening',
       instruction: 'Listening. Listen and answer. (Teacher reads.)',
@@ -55,6 +68,40 @@ HSP.page('u7-s15', {
       id: 'c3',
       ref: 'F',
       bookRef: 'Unit 7 · P10 F',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Can-Do check. Tick what you can do.',
+            say: 'Can-Do check. Tick what you can do.',
+            role: 'course'
+          },
+          {
+            h: 'I can name housekeeping tasks and room-service items.',
+            say: 'I can name housekeeping tasks and room-service items.',
+            role: 'course'
+          },
+          {
+            h: 'I can say what has been done and what still needs doing.',
+            say: 'I can say what has been done and what still needs doing.',
+            role: 'course'
+          },
+          {
+            h: 'I can take a room-service order and deliver it politely.',
+            say: 'I can take a room-service order and deliver it politely.',
+            role: 'course'
+          },
+          {
+            h: 'I can report the state of a room.',
+            say: 'I can report the state of a room.',
+            role: 'course'
+          },
+          {
+            h: 'I can respond to a guest\'s housekeeping request.',
+            say: 'I can respond to a guest\'s housekeeping request.',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Writing',
       instruction: 'Writing. Write two sentences with the present perfect: one thing you '

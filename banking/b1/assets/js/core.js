@@ -36,7 +36,7 @@
      AN UNSET MEDIA BASE FALLS BACK TO THE PAGE BASE, so a checkout that still carries its own
      assets/audio plays the folder beside it exactly as before - which is what keeps this
      course working offline, from a stick, with no media host at all. */
-  var MEDIA = w.FMS_MEDIA ? w.FMS_MEDIA : BASE;
+  var MEDIA = w.BNK_MEDIA ? w.BNK_MEDIA : BASE;
   BNK.media = MEDIA;
 
   /* ------------------------------------------------------------

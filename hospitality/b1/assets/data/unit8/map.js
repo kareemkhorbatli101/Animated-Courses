@@ -5,7 +5,7 @@ HSP.unitMap('unit8', [{
       part: '0',
       lesson: 'Warm Up',
       label: '§1 Warm Up',
-      n: 2
+      n: 3
     },
     {
       id: 'u8-s02',
@@ -29,7 +29,7 @@ HSP.unitMap('unit8', [{
       part: '2',
       lesson: 'Grammar — \'will\' and \'going to\' for Offers and Promises',
       label: '§4 Grammar — \'will\' and \'going to\' for Offers and Promises',
-      n: 4
+      n: 5
     },
     {
       id: 'u8-s05',
@@ -45,7 +45,7 @@ HSP.unitMap('unit8', [{
       part: '3',
       lesson: 'Listening and Dialogue',
       label: '§6 Listening and Dialogue',
-      n: 4
+      n: 5
     },
     {
       id: 'u8-s07',
@@ -69,7 +69,7 @@ HSP.unitMap('unit8', [{
       part: '5',
       lesson: 'Extended Reading',
       label: '§9 Extended Reading',
-      n: 3
+      n: 4
     },
     {
       id: 'u8-s10',
@@ -77,7 +77,7 @@ HSP.unitMap('unit8', [{
       part: '6',
       lesson: 'Writing',
       label: '§10 Writing',
-      n: 2
+      n: 3
     },
     {
       id: 'u8-s11',
@@ -85,7 +85,7 @@ HSP.unitMap('unit8', [{
       part: '7',
       lesson: 'Guest-Care & Service Track',
       label: '§11 Guest-Care & Service Track',
-      n: 2
+      n: 3
     },
     {
       id: 'u8-s12',
@@ -93,7 +93,7 @@ HSP.unitMap('unit8', [{
       part: '8',
       lesson: 'Consolidation',
       label: '§12 Consolidation',
-      n: 3
+      n: 4
     },
     {
       id: 'u8-s13',
@@ -125,5 +125,5 @@ HSP.unitMap('unit8', [{
       part: '11',
       lesson: 'Foundations for Further Study',
       label: '§16 Foundations for Further Study',
-      n: 3
+      n: 4
     }]);

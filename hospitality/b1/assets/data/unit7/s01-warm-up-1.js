@@ -10,6 +10,82 @@ HSP.page('u7-s01', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 7 · Warm-Up',
+      type: 'study',
+      title: 'Before you read',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you read',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Look at Figure 7.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          say: 'Look at Figure 7.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          role: 'course'
+        },
+        {
+          h: '1. What tasks are on the room checklist?',
+          say: '1. What tasks are on the room checklist?',
+          role: 'course'
+        },
+        {
+          h: '2. Which tasks are done, and which are still \'to do\'?',
+          say: '2. Which tasks are done, and which are still \'to do\'?',
+          role: 'course'
+        },
+        {
+          h: '3. When did you last order food to your room? What did you order?',
+          say: '3. When did you last order food to your room? What did you order?',
+          role: 'course'
+        },
+        {
+          h: 'Behind every clean, comfortable room is the hard work of the '
+            + 'housekeeping team. Housekeeping is the heart of a good hotel. Every '
+            + 'day, the housekeepers clean the rooms, change the sheets and towels, '
+            + 'and make everything fresh and tidy. When a guest walks into a clean, '
+            + 'sweet-smelling room, they feel welcome and safe — even if they never '
+            + 'see the person who cleaned it.',
+          say: 'Behind every clean, comfortable room is the hard work of the '
+            + 'housekeeping team. Housekeeping is the heart of a good hotel. Every '
+            + 'day, the housekeepers clean the rooms, change the sheets and towels, '
+            + 'and make everything fresh and tidy. When a guest walks into a clean, '
+            + 'sweet-smelling room, they feel welcome and safe — even if they never '
+            + 'see the person who cleaned it.',
+          role: 'course'
+        },
+        {
+          h: 'The hotel also offers room service. Sometimes a guest is tired and '
+            + 'does not want to go down to the restaurant. They simply call '
+            + 'reception and order food to their room. A few minutes later, a member '
+            + 'of the team brings a tray with a warm meal, a smile, and a wish for a '
+            + 'pleasant evening.',
+          say: 'The hotel also offers room service. Sometimes a guest is tired and '
+            + 'does not want to go down to the restaurant. They simply call '
+            + 'reception and order food to their room. A few minutes later, a member '
+            + 'of the team brings a tray with a warm meal, a smile, and a wish for a '
+            + 'pleasant evening.',
+          role: 'course'
+        },
+        {
+          h: 'This week, Lina is learning about housekeeping and room service with '
+            + 'Salma, the head housekeeper. “A guest may forget many things,” says '
+            + 'Salma, “but they always remember a clean room and a kind meal. We '
+            + 'have cleaned this room a thousand times, and every time, we do it '
+            + 'with the same care.”',
+          say: 'This week, Lina is learning about housekeeping and room service with '
+            + 'Salma, the head housekeeper. “A guest may forget many things,” says '
+            + 'Salma, “but they always remember a clean room and a kind meal. We '
+            + 'have cleaned this room a thousand times, and every time, we do it '
+            + 'with the same care.”',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 7 · Warm-Up A',
       type: 'discuss',
@@ -57,7 +133,7 @@ HSP.page('u7-s01', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 7 · Warm-Up B',
       type: 'quizset',

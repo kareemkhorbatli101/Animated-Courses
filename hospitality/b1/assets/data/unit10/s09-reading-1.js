@@ -10,6 +10,87 @@ HSP.page('u10-s09', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 10 · P5',
+      type: 'study',
+      title: 'The reading',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The reading',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Psychologists have a name for a curious fact about memory: the '
+            + '\'peak-end rule\'. People judge an experience most of all by its best '
+            + 'moment (the peak) and its final moment (the end). This is why the '
+            + 'farewell matters so much in a hotel. Even after a perfect stay, a '
+            + 'cold or careless goodbye can leave a sour taste. And even after a '
+            + 'small problem, a warm, generous farewell can send the guest home '
+            + 'smiling. The last impression becomes the lasting impression.',
+          say: 'Psychologists have a name for a curious fact about memory: the '
+            + '\'peak-end rule\'. People judge an experience most of all by its best '
+            + 'moment (the peak) and its final moment (the end). This is why the '
+            + 'farewell matters so much in a hotel. Even after a perfect stay, a '
+            + 'cold or careless goodbye can leave a sour taste. And even after a '
+            + 'small problem, a warm, generous farewell can send the guest home '
+            + 'smiling. The last impression becomes the lasting impression.',
+          role: 'course'
+        },
+        {
+          h: 'A great farewell has three parts. First, thanks: “Thank you for '
+            + 'staying with us.” Second, care: “I hope you had a wonderful stay,” '
+            + 'and a genuine interest in the guest\'s answer. Third, an invitation: '
+            + '“We would love to welcome you back.” These few sincere words, with a '
+            + 'real smile, cost nothing — and they are worth more than any '
+            + 'advertisement. A guest who leaves feeling valued will remember the '
+            + 'hotel warmly, tell their friends, and return.',
+          say: 'A great farewell has three parts. First, thanks: “Thank you for '
+            + 'staying with us.” Second, care: “I hope you had a wonderful stay,” '
+            + 'and a genuine interest in the guest\'s answer. Third, an invitation: '
+            + '“We would love to welcome you back.” These few sincere words, with a '
+            + 'real smile, cost nothing — and they are worth more than any '
+            + 'advertisement. A guest who leaves feeling valued will remember the '
+            + 'hotel warmly, tell their friends, and return.',
+          role: 'course'
+        },
+        {
+          h: 'The farewell is also the moment for feedback. A wise receptionist '
+            + 'gently asks how the stay was, and listens carefully to the answer. '
+            + 'Praise is lovely to hear, but honest criticism is a gift: it shows '
+            + 'the hotel how to improve. Today, much feedback also appears online, '
+            + 'in reviews that thousands of future guests will read. A hotel that '
+            + 'thanks its reviewers, learns from them, and replies with grace turns '
+            + 'even a critical review into a chance to show its character.',
+          say: 'The farewell is also the moment for feedback. A wise receptionist '
+            + 'gently asks how the stay was, and listens carefully to the answer. '
+            + 'Praise is lovely to hear, but honest criticism is a gift: it shows '
+            + 'the hotel how to improve. Today, much feedback also appears online, '
+            + 'in reviews that thousands of future guests will read. A hotel that '
+            + 'thanks its reviewers, learns from them, and replies with grace turns '
+            + 'even a critical review into a chance to show its character.',
+          role: 'course'
+        },
+        {
+          h: 'And so the guest\'s journey comes full circle. It began with a warm '
+            + 'welcome and a promise; it ends with a grateful farewell and an '
+            + 'invitation. If every stage has been handled with skill and care — the '
+            + 'booking, the arrival, the room, the meals, the little requests, and '
+            + 'even the problems — then the last words, “We hope to see you again,” '
+            + 'are not just polite. They are a true beginning: the first step of the '
+            + 'guest\'s next visit.',
+          say: 'And so the guest\'s journey comes full circle. It began with a warm '
+            + 'welcome and a promise; it ends with a grateful farewell and an '
+            + 'invitation. If every stage has been handled with skill and care — the '
+            + 'booking, the arrival, the room, the meals, the little requests, and '
+            + 'even the problems — then the last words, “We hope to see you again,” '
+            + 'are not just polite. They are a true beginning: the first step of the '
+            + 'guest\'s next visit.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 10 · P5 A',
       type: 'discuss',
@@ -57,7 +138,7 @@ HSP.page('u10-s09', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 10 · P5 B',
       type: 'cloze',
@@ -91,7 +172,7 @@ HSP.page('u10-s09', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 10 · P5 C',
       type: 'cloze',

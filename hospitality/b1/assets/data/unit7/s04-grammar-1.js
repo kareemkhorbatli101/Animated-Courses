@@ -23,6 +23,70 @@ HSP.page('u7-s04', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 7 · P2',
+      type: 'study',
+      title: 'The grammar, as the book gives it',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The grammar, as the book gives it',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'We use the PRESENT PERFECT (have / has + past participle) to talk '
+            + 'about an action that finished in the past, when the RESULT is '
+            + 'important now. “I have cleaned the room.” (So the room is clean now.) '
+            + '“She has made the beds.” (So the beds are ready now.) For regular '
+            + 'verbs, the past participle is the same as the past simple: clean → '
+            + 'cleaned, change → changed. Some verbs are irregular: make → made, do '
+            + '→ done, bring → brought, take → taken.',
+          say: 'We use the PRESENT PERFECT (have / has + past participle) to talk '
+            + 'about an action that finished in the past, when the RESULT is '
+            + 'important now. “I have cleaned the room.” (So the room is clean now.) '
+            + '“She has made the beds.” (So the beds are ready now.) For regular '
+            + 'verbs, the past participle is the same as the past simple: clean → '
+            + 'cleaned, change → changed. Some verbs are irregular: make → made, do '
+            + '→ done, bring → brought, take → taken.',
+          role: 'course'
+        },
+        {
+          h: 'Three small words often go with the present perfect. ALREADY means '
+            + '\'before now\', in positive sentences: “I\'ve already changed the '
+            + 'towels.” YET means \'up to now\', in questions and negatives: “Have '
+            + 'you cleaned the room yet?” “I haven\'t finished yet.” JUST means \'a '
+            + 'very short time ago\': “I\'ve just brought your breakfast.”',
+          say: 'Three small words often go with the present perfect. ALREADY means '
+            + '\'before now\', in positive sentences: “I\'ve already changed the '
+            + 'towels.” YET means \'up to now\', in questions and negatives: “Have '
+            + 'you cleaned the room yet?” “I haven\'t finished yet.” JUST means \'a '
+            + 'very short time ago\': “I\'ve just brought your breakfast.”',
+          role: 'course'
+        },
+        {
+          h: 'We also use the present perfect for experience, with ever and never: '
+            + '“Have you ever worked in a hotel?” “I have never dropped a tray.”',
+          say: 'We also use the present perfect for experience, with ever and never: '
+            + '“Have you ever worked in a hotel?” “I have never dropped a tray.”',
+          role: 'course'
+        },
+        {
+          h: 'Form',
+          say: 'Form',
+          role: 'course'
+        },
+        {
+          h: 'Positive: I / you / we / they have + participle · he / she / it has + '
+            + 'participle Question: Have / Has + subject + participle? Negative: '
+            + 'haven\'t / hasn\'t + participle',
+          say: 'Positive: I / you / we / they have + participle · he / she / it has + '
+            + 'participle Question: Have / Has + subject + participle? Negative: '
+            + 'haven\'t / hasn\'t + participle',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 7 · P2 A',
       type: 'cloze',
@@ -52,7 +116,7 @@ HSP.page('u7-s04', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 7 · P2 B',
       type: 'cloze',
@@ -82,7 +146,7 @@ HSP.page('u7-s04', {
       }
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'C',
       bookRef: 'Unit 7 · P2 C',
       type: 'cloze',

@@ -9,6 +9,41 @@ HSP.page('u7-s10', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 7 · P6',
+      type: 'study',
+      title: 'Before you write',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you write',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Dear Mr. Sayed, your room is now ready. We have cleaned it, made the '
+            + 'bed with fresh linen, and restocked the tea and coffee. We have also '
+            + 'left extra towels and water for you. If you need anything else, '
+            + 'please call housekeeping on 9. We hope you have a restful stay. Kind '
+            + 'regards, Salma — Housekeeping.',
+          say: 'Dear Mr. Sayed, your room is now ready. We have cleaned it, made the '
+            + 'bed with fresh linen, and restocked the tea and coffee. We have also '
+            + 'left extra towels and water for you. If you need anything else, '
+            + 'please call housekeeping on 9. We hope you have a restful stay. Kind '
+            + 'regards, Salma — Housekeeping.',
+          role: 'course'
+        },
+        {
+          h: 'Room 305 — one grilled chicken, one fresh salad, one pot of mint tea. '
+            + 'Time ordered: 8:15 p.m. Delivered by: Lina. Note: guest is tired — '
+            + 'please deliver quietly and quickly.',
+          say: 'Room 305 — one grilled chicken, one fresh salad, one pot of mint tea. '
+            + 'Time ordered: 8:15 p.m. Delivered by: Lina. Note: guest is tired — '
+            + 'please deliver quietly and quickly.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 7 · P6 A',
       type: 'discuss',
@@ -40,9 +75,20 @@ HSP.page('u7-s10', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 7 · P6 B',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Plan: 1) tell the guest the room is ready 2) two or three things you '
+              + 'have done 3) one thing you have left for them 4) a warm closing',
+            say: 'Plan: 1) tell the guest the room is ready 2) two or three things you '
+              + 'have done 3) one thing you have left for them 4) a warm closing',
+            role: 'course'
+          }]
+      },
       type: 'writer',
       title: 'Now you write',
       instruction: 'Now you write. Write a short \'your room is ready\' message for a '

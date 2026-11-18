@@ -12,6 +12,35 @@ HSP.page('u7-s08', {
       id: 'c1',
       ref: 'A',
       bookRef: 'Unit 7 · P4 A',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'B: Answer the call and offer to help.',
+            say: 'B: Answer the call and offer to help.',
+            role: 'course'
+          },
+          {
+            h: 'A: Say you\'d like to eat in your room and order a main dish and a drink.',
+            say: 'A: Say you\'d like to eat in your room and order a main dish and a drink.',
+            role: 'course'
+          },
+          {
+            h: 'B: Repeat the order to check it, and say how long it will take.',
+            say: 'B: Repeat the order to check it, and say how long it will take.',
+            role: 'course'
+          },
+          {
+            h: 'A: Say thank you.',
+            say: 'A: Say thank you.',
+            role: 'course'
+          },
+          {
+            h: 'B: Wish the guest a pleasant evening.',
+            say: 'B: Wish the guest a pleasant evening.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Role-play: order room service',
       instruction: 'Role-play: order room service. Student A is the guest; Student B is '

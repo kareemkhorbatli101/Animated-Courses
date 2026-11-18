@@ -10,6 +10,44 @@ HSP.page('u4-s11', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 4 · P7',
+      type: 'study',
+      title: 'Guest-care and service',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Guest-care and service',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Not every guest has a reservation. Sometimes a guest simply walks in '
+            + 'and asks for a room. This is a “walk-in.” A good receptionist '
+            + 'welcomes a walk-in guest warmly, checks availability, and, if there '
+            + 'is a room, checks them in like any other guest. Other times, a guest '
+            + 'arrives early, before the room is ready. The receptionist cannot give '
+            + 'the room yet, but she can still care for the guest: she keeps the '
+            + 'luggage safely, offers a seat or a coffee in the café, and says '
+            + 'clearly when the room is going to be ready. In both cases, the golden '
+            + 'rule is the same: never make the guest feel like a problem. Every '
+            + 'guest — with or without a reservation, early or on time — deserves a '
+            + 'warm welcome.',
+          say: 'Not every guest has a reservation. Sometimes a guest simply walks in '
+            + 'and asks for a room. This is a “walk-in.” A good receptionist '
+            + 'welcomes a walk-in guest warmly, checks availability, and, if there '
+            + 'is a room, checks them in like any other guest. Other times, a guest '
+            + 'arrives early, before the room is ready. The receptionist cannot give '
+            + 'the room yet, but she can still care for the guest: she keeps the '
+            + 'luggage safely, offers a seat or a coffee in the café, and says '
+            + 'clearly when the room is going to be ready. In both cases, the golden '
+            + 'rule is the same: never make the guest feel like a problem. Every '
+            + 'guest — with or without a reservation, early or on time — deserves a '
+            + 'warm welcome.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 4 · P7 A',
       type: 'discuss',
@@ -50,7 +88,7 @@ HSP.page('u4-s11', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 4 · P7 B',
       type: 'cloze',

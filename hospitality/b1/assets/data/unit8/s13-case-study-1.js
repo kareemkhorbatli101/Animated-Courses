@@ -17,10 +17,18 @@ HSP.page('u8-s13', {
       instruction: 'What should Lina do? Choose the best action and say why.',
       passage: {
       title: 'The case',
-      paras: ['A guest who uses a wheelchair has booked an accessible room on the '
-          + 'ground floor. But today, part of the ground floor is closed for '
-          + 'repairs, and the only free accessible room is on the first floor — '
-          + 'and the lift is being fixed until the afternoon.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest who uses a wheelchair has booked an accessible room on the '
+            + 'ground floor. But today, part of the ground floor is closed for '
+            + 'repairs, and the only free accessible room is on the first floor — '
+            + 'and the lift is being fixed until the afternoon.',
+          say: 'A guest who uses a wheelchair has booked an accessible room on the '
+            + 'ground floor. But today, part of the ground floor is closed for '
+            + 'repairs, and the only free accessible room is on the first floor — '
+            + 'and the lift is being fixed until the afternoon.',
+          role: 'course'
+        }]
     },
       before: '<b>What would you do?</b><ul><li>Tell the guest there is no room and '
       + 'send them away.</li><li>Apologise, explain the problem honestly, and '
@@ -40,9 +48,16 @@ HSP.page('u8-s13', {
       instruction: 'Read the case, then answer the questions.',
       passage: {
       title: 'The case',
-      paras: ['A guest asks for a special dish that the kitchen does not make, and '
-          + 'the ingredients are not in the hotel. The guest really wants it, but '
-          + 'it is simply not possible tonight.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest asks for a special dish that the kitchen does not make, and '
+            + 'the ingredients are not in the hotel. The guest really wants it, but '
+            + 'it is simply not possible tonight.',
+          say: 'A guest asks for a special dish that the kitchen does not make, and '
+            + 'the ingredients are not in the hotel. The guest really wants it, but '
+            + 'it is simply not possible tonight.',
+          role: 'course'
+        }]
     },
       minWords: 25,
       placeholder: 'I would… because…',

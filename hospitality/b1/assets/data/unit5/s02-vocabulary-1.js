@@ -25,6 +25,15 @@ HSP.page('u5-s02', {
       id: 'c2',
       ref: 'A',
       bookRef: 'Unit 5 · P1 A',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Groups: a) starter (mezze) b) main dish c) drink d) dessert',
+            say: 'Groups: a) starter (mezze) b) main dish c) drink d) dessert',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Match each dish (1–6) with its group (a–d)',
       instruction: 'Match each dish (1–6) with its group (a–d). You will use some groups '

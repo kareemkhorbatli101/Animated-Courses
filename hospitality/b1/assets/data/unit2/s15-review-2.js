@@ -13,6 +13,19 @@ HSP.page('u2-s15', {
       id: 'c1',
       ref: 'D',
       bookRef: 'Unit 2 · P10 D',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: '[Teacher reads] \'The gym is on the first floor, opposite the pool. '
+              + 'It opens at six o\'clock in the morning. There are a lot of machines '
+              + 'and free water.\'',
+            say: '[Teacher reads] \'The gym is on the first floor, opposite the pool. '
+              + 'It opens at six o\'clock in the morning. There are a lot of machines '
+              + 'and free water.\'',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Listening',
       instruction: 'Listening. Listen and answer. (Teacher reads.)',
@@ -55,6 +68,40 @@ HSP.page('u2-s15', {
       id: 'c3',
       ref: 'F',
       bookRef: 'Unit 2 · P10 F',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Can-Do check. Tick what you can do.',
+            say: 'Can-Do check. Tick what you can do.',
+            role: 'course'
+          },
+          {
+            h: 'I can describe the facilities of a hotel.',
+            say: 'I can describe the facilities of a hotel.',
+            role: 'course'
+          },
+          {
+            h: 'I can say where things are with there is / there are.',
+            say: 'I can say where things are with there is / there are.',
+            role: 'course'
+          },
+          {
+            h: 'I can use prepositions of place.',
+            say: 'I can use prepositions of place.',
+            role: 'course'
+          },
+          {
+            h: 'I can use some, any, a lot of, a few.',
+            say: 'I can use some, any, a lot of, a few.',
+            role: 'course'
+          },
+          {
+            h: 'I can give simple directions inside a building.',
+            say: 'I can give simple directions inside a building.',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Writing',
       instruction: 'Writing. Write two sentences about your workplace or home: one with '

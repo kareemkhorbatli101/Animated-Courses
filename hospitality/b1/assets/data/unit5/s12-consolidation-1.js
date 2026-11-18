@@ -10,6 +10,60 @@ HSP.page('u5-s12', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 5 · P8',
+      type: 'study',
+      title: 'Consolidation',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Consolidation',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'On Tuesday evening, the restaurant was busy. A couple came in and sat '
+            + 'by the window, and Rashid gave the table to Lina. It was her first '
+            + 'order alone. Her hands shook a little, but she smiled and said, “Good '
+            + 'evening. Welcome. Are you ready to order?”',
+          say: 'On Tuesday evening, the restaurant was busy. A couple came in and sat '
+            + 'by the window, and Rashid gave the table to Lina. It was her first '
+            + 'order alone. Her hands shook a little, but she smiled and said, “Good '
+            + 'evening. Welcome. Are you ready to order?”',
+          role: 'course'
+        },
+        {
+          h: 'The woman asked for a recommendation, and Lina remembered Rashid\'s '
+            + 'advice. “The fattoush is wonderful,” she said, “and the shish taouk '
+            + 'is our most popular main dish.” The couple ordered the fattoush, the '
+            + 'shish taouk, and the grilled fish. Lina wrote everything down and '
+            + 'repeated the order carefully. Then she took it to the kitchen. Twenty '
+            + 'minutes later, she served the food, hot and fresh.',
+          say: 'The woman asked for a recommendation, and Lina remembered Rashid\'s '
+            + 'advice. “The fattoush is wonderful,” she said, “and the shish taouk '
+            + 'is our most popular main dish.” The couple ordered the fattoush, the '
+            + 'shish taouk, and the grilled fish. Lina wrote everything down and '
+            + 'repeated the order carefully. Then she took it to the kitchen. Twenty '
+            + 'minutes later, she served the food, hot and fresh.',
+          role: 'course'
+        },
+        {
+          h: 'After the meal, Lina asked, “Did you enjoy your dinner?” “It was '
+            + 'delicious,” said the man. “Thank you.” Lina brought the bill and '
+            + 'wished them a good evening. When the couple left, they thanked her by '
+            + 'name. Rashid watched from across the room and gave a small nod. “Well '
+            + 'done, Lina,” he said. “You didn\'t rush, you listened, and you '
+            + 'smiled. That is good service.”',
+          say: 'After the meal, Lina asked, “Did you enjoy your dinner?” “It was '
+            + 'delicious,” said the man. “Thank you.” Lina brought the bill and '
+            + 'wished them a good evening. When the couple left, they thanked her by '
+            + 'name. Rashid watched from across the room and gave a small nod. “Well '
+            + 'done, Lina,” he said. “You didn\'t rush, you listened, and you '
+            + 'smiled. That is good service.”',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 5 · P8 A',
       type: 'discuss',
@@ -48,7 +102,7 @@ HSP.page('u5-s12', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 5 · P8 B',
       type: 'cloze',
@@ -82,7 +136,7 @@ HSP.page('u5-s12', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 5 · P8 C',
       type: 'report',

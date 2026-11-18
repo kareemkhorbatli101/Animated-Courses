@@ -17,9 +17,16 @@ HSP.page('u3-s13', {
       instruction: 'What does Lina do? Choose the best action and say why.',
       passage: {
       title: 'The case',
-      paras: ['A guest calls and asks for a room for tonight. But tonight the hotel '
-          + 'is completely full — there are no free rooms. The guest sounds tired '
-          + 'and really wants to stay.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest calls and asks for a room for tonight. But tonight the hotel '
+            + 'is completely full — there are no free rooms. The guest sounds tired '
+            + 'and really wants to stay.',
+          say: 'A guest calls and asks for a room for tonight. But tonight the hotel '
+            + 'is completely full — there are no free rooms. The guest sounds tired '
+            + 'and really wants to stay.',
+          role: 'course'
+        }]
     },
       before: '<b>What would you do?</b><ul><li>Say “No. Goodbye.” and end the '
       + 'call.</li><li>Say sorry, and offer another date or the resort in '
@@ -39,10 +46,18 @@ HSP.page('u3-s13', {
       instruction: 'Read the case, then answer the questions.',
       passage: {
       title: 'The case',
-      paras: ['On the phone, a guest gives his name quickly, and Lina is not sure of '
-          + 'the spelling. He also says a date that is not clear — “the 13th or '
-          + 'the 30th?” If Lina writes the wrong name or date, there will be a big '
-          + 'problem when the guest arrives.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'On the phone, a guest gives his name quickly, and Lina is not sure of '
+            + 'the spelling. He also says a date that is not clear — “the 13th or '
+            + 'the 30th?” If Lina writes the wrong name or date, there will be a big '
+            + 'problem when the guest arrives.',
+          say: 'On the phone, a guest gives his name quickly, and Lina is not sure of '
+            + 'the spelling. He also says a date that is not clear — “the 13th or '
+            + 'the 30th?” If Lina writes the wrong name or date, there will be a big '
+            + 'problem when the guest arrives.',
+          role: 'course'
+        }]
     },
       minWords: 25,
       placeholder: 'I would… because…',

@@ -10,6 +10,48 @@ HSP.page('u8-s11', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 8 · P7',
+      type: 'study',
+      title: 'Guest-care and service',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Guest-care and service',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Inclusive hospitality means that every guest, whatever their age or '
+            + 'ability, is truly welcome. This takes thought and preparation. For '
+            + 'guests who use a wheelchair, the hotel prepares accessible rooms with '
+            + 'ramps, wide doors and special bathrooms. For families, it keeps cots '
+            + 'and high chairs ready. For guests with allergies, the kitchen knows '
+            + 'every ingredient in every dish. For elderly guests, staff offer a '
+            + 'little extra time and help. The best hotels do not see these as '
+            + 'problems, but as chances to show real care. Yet there are limits. '
+            + 'Sometimes a request truly cannot be met. Then a good member of staff '
+            + 'never just says “no”. She apologises, explains the reason simply and '
+            + 'honestly, and offers the best alternative she can — always with a '
+            + 'promise she can keep. A kind, honest “no” protects both the guest and '
+            + 'the hotel.',
+          say: 'Inclusive hospitality means that every guest, whatever their age or '
+            + 'ability, is truly welcome. This takes thought and preparation. For '
+            + 'guests who use a wheelchair, the hotel prepares accessible rooms with '
+            + 'ramps, wide doors and special bathrooms. For families, it keeps cots '
+            + 'and high chairs ready. For guests with allergies, the kitchen knows '
+            + 'every ingredient in every dish. For elderly guests, staff offer a '
+            + 'little extra time and help. The best hotels do not see these as '
+            + 'problems, but as chances to show real care. Yet there are limits. '
+            + 'Sometimes a request truly cannot be met. Then a good member of staff '
+            + 'never just says “no”. She apologises, explains the reason simply and '
+            + 'honestly, and offers the best alternative she can — always with a '
+            + 'promise she can keep. A kind, honest “no” protects both the guest and '
+            + 'the hotel.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 8 · P7 A',
       type: 'discuss',
@@ -48,7 +90,7 @@ HSP.page('u8-s11', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 8 · P7 B',
       type: 'cloze',

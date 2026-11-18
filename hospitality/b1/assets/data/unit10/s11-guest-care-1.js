@@ -23,6 +23,50 @@ HSP.page('u10-s11', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 10 · P7',
+      type: 'study',
+      title: 'Guest-care and service',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Guest-care and service',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'A guest\'s feedback is one of the most valuable things a hotel '
+            + 'receives. At checkout, a good receptionist gently invites it: “How '
+            + 'was your stay? Is there anything we could do better?” She listens to '
+            + 'the answer without defending the hotel, thanks the guest sincerely, '
+            + 'and passes useful comments to the manager. Much feedback now lives '
+            + 'online, in star ratings and reviews. A wise hotel reads its reviews, '
+            + 'thanks the reviewers, and replies to criticism with calm and grace — '
+            + 'never with excuses or anger. It knows that future guests are reading. '
+            + 'Above all, the hotel remembers that the goal of every warm farewell '
+            + 'is a returning guest. A loyal, returning guest is worth far more than '
+            + 'a new one: they already trust the hotel, they spend more, and they '
+            + 'bring their friends. This is why the last impression is really an '
+            + 'investment in the next visit — and why \'goodbye\' in a great hotel '
+            + 'always means \'see you again\'.',
+          say: 'A guest\'s feedback is one of the most valuable things a hotel '
+            + 'receives. At checkout, a good receptionist gently invites it: “How '
+            + 'was your stay? Is there anything we could do better?” She listens to '
+            + 'the answer without defending the hotel, thanks the guest sincerely, '
+            + 'and passes useful comments to the manager. Much feedback now lives '
+            + 'online, in star ratings and reviews. A wise hotel reads its reviews, '
+            + 'thanks the reviewers, and replies to criticism with calm and grace — '
+            + 'never with excuses or anger. It knows that future guests are reading. '
+            + 'Above all, the hotel remembers that the goal of every warm farewell '
+            + 'is a returning guest. A loyal, returning guest is worth far more than '
+            + 'a new one: they already trust the hotel, they spend more, and they '
+            + 'bring their friends. This is why the last impression is really an '
+            + 'investment in the next visit — and why \'goodbye\' in a great hotel '
+            + 'always means \'see you again\'.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 10 · P7 A',
       type: 'discuss',
@@ -61,7 +105,7 @@ HSP.page('u10-s11', {
         + 'beside your own.'
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 10 · P7 B',
       type: 'cloze',

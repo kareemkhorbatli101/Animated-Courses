@@ -12,6 +12,19 @@ HSP.page('u1-s08', {
       id: 'c1',
       ref: 'A',
       bookRef: 'Unit 1 · P4 A',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Hello. My name is ____________. I am a ____________ at the '
+              + '____________ Hotel. I work in the ____________ department. I usually '
+              + 'work the ____________ shift. Nice to meet you.',
+            say: 'Hello. My name is ____________. I am a ____________ at the '
+              + '____________ Hotel. I work in the ____________ department. I usually '
+              + 'work the ____________ shift. Nice to meet you.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Introduce yourself',
       instruction: 'Introduce yourself. Work in pairs. Use these sentences.',
@@ -23,6 +36,35 @@ HSP.page('u1-s08', {
       id: 'c2',
       ref: 'B',
       bookRef: 'Unit 1 · P4 B',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'A: Greet the guest and welcome them to the hotel.',
+            say: 'A: Greet the guest and welcome them to the hotel.',
+            role: 'course'
+          },
+          {
+            h: 'B: Say good morning and give your name and reservation.',
+            say: 'B: Say good morning and give your name and reservation.',
+            role: 'course'
+          },
+          {
+            h: 'A: Welcome the guest by name and give the room number.',
+            say: 'A: Welcome the guest by name and give the room number.',
+            role: 'course'
+          },
+          {
+            h: 'B: Ask where the restaurant is.',
+            say: 'B: Ask where the restaurant is.',
+            role: 'course'
+          },
+          {
+            h: 'A: Answer politely and wish the guest a nice stay.',
+            say: 'A: Answer politely and wish the guest a nice stay.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Role-play: Welcome a guest',
       instruction: 'Role-play: Welcome a guest. Student A is the receptionist. Student B '

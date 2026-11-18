@@ -12,6 +12,19 @@ HSP.page('u10-s15', {
       id: 'c1',
       ref: 'D',
       bookRef: 'Unit 10 · P10 D',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: '[Teacher reads] \'Here is your bill; the total is 258 dollars. How '
+              + 'would you like to pay? … Thank you. Here is your receipt. We hope to '
+              + 'see you again very soon. Have a safe journey!\'',
+            say: '[Teacher reads] \'Here is your bill; the total is 258 dollars. How '
+              + 'would you like to pay? … Thank you. Here is your receipt. We hope to '
+              + 'see you again very soon. Have a safe journey!\'',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Listening',
       instruction: 'Listening. Listen and answer. (Teacher reads.)',
@@ -55,6 +68,40 @@ HSP.page('u10-s15', {
       id: 'c3',
       ref: 'F',
       bookRef: 'Unit 10 · P10 F',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Can-Do check. Tick what you can do.',
+            say: 'Can-Do check. Tick what you can do.',
+            role: 'course'
+          },
+          {
+            h: 'I can prepare and explain a guest\'s bill.',
+            say: 'I can prepare and explain a guest\'s bill.',
+            role: 'course'
+          },
+          {
+            h: 'I can process checkout and payment.',
+            say: 'I can process checkout and payment.',
+            role: 'course'
+          },
+          {
+            h: 'I can report what a guest said.',
+            say: 'I can report what a guest said.',
+            role: 'course'
+          },
+          {
+            h: 'I can give a warm farewell and invite a return.',
+            say: 'I can give a warm farewell and invite a return.',
+            role: 'course'
+          },
+          {
+            h: 'I can ask for and respond to feedback.',
+            say: 'I can ask for and respond to feedback.',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Writing',
       instruction: 'Writing. Write two sentences: report one thing a guest said (reported '

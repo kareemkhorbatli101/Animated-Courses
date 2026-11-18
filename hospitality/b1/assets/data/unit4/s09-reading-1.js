@@ -10,6 +10,71 @@ HSP.page('u4-s09', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 4 · P5',
+      type: 'study',
+      title: 'The reading',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The reading',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'A guest may travel for many hours to reach the hotel. When they '
+            + 'finally arrive, they are often tired and want just one thing: to feel '
+            + 'welcome and to rest. The check-in is the moment when the hotel keeps '
+            + 'its promise. A perfect check-in is warm, quick and clear.',
+          say: 'A guest may travel for many hours to reach the hotel. When they '
+            + 'finally arrive, they are often tired and want just one thing: to feel '
+            + 'welcome and to rest. The check-in is the moment when the hotel keeps '
+            + 'its promise. A perfect check-in is warm, quick and clear.',
+          role: 'course'
+        },
+        {
+          h: 'It begins with a smile and the guest\'s name. The receptionist '
+            + 'welcomes the guest, finds the reservation, and says what is '
+            + 'happening: “I\'m checking you in now.” She asks for the passport, and '
+            + 'the guest signs the card. She keeps this part short, because the '
+            + 'guest is tired. Then she gives the key card and explains the '
+            + 'important things: the room number, the floor, the wifi, and the time '
+            + 'of breakfast. She does not give too much information at once.',
+          say: 'It begins with a smile and the guest\'s name. The receptionist '
+            + 'welcomes the guest, finds the reservation, and says what is '
+            + 'happening: “I\'m checking you in now.” She asks for the passport, and '
+            + 'the guest signs the card. She keeps this part short, because the '
+            + 'guest is tired. Then she gives the key card and explains the '
+            + 'important things: the room number, the floor, the wifi, and the time '
+            + 'of breakfast. She does not give too much information at once.',
+          role: 'course'
+        },
+        {
+          h: 'Next, the receptionist thinks about the guest\'s plans. “Are you '
+            + 'going to need a taxi in the morning?” she asks. “The porter is '
+            + 'bringing your bags now.” Small arrangements like these show the guest '
+            + 'that the hotel is thinking about them. They turn a simple check-in '
+            + 'into real care.',
+          say: 'Next, the receptionist thinks about the guest\'s plans. “Are you '
+            + 'going to need a taxi in the morning?” she asks. “The porter is '
+            + 'bringing your bags now.” Small arrangements like these show the guest '
+            + 'that the hotel is thinking about them. They turn a simple check-in '
+            + 'into real care.',
+          role: 'course'
+        },
+        {
+          h: 'Finally, the receptionist hands over the room with a warm wish: '
+            + '“Enjoy your stay.” In less than five minutes, the guest has gone from '
+            + 'a tired traveller to a welcome guest. That is the power of a perfect '
+            + 'check-in — and it is a skill that every great hotel values highly.',
+          say: 'Finally, the receptionist hands over the room with a warm wish: '
+            + '“Enjoy your stay.” In less than five minutes, the guest has gone from '
+            + 'a tired traveller to a welcome guest. That is the power of a perfect '
+            + 'check-in — and it is a skill that every great hotel values highly.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 4 · P5 A',
       type: 'discuss',
@@ -55,7 +120,7 @@ HSP.page('u4-s09', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 4 · P5 B',
       type: 'cloze',
@@ -89,7 +154,7 @@ HSP.page('u4-s09', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 4 · P5 C',
       type: 'cloze',

@@ -10,6 +10,60 @@ HSP.page('u7-s12', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 7 · P8',
+      type: 'study',
+      title: 'Consolidation',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Consolidation',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'It is a busy Friday afternoon, and many guests are checking out. '
+            + 'Salma and Lina must prepare the rooms for the new guests arriving '
+            + 'this evening. “Let\'s work together,” says Salma. “I\'ll take this '
+            + 'side of the corridor; you take the other.”',
+          say: 'It is a busy Friday afternoon, and many guests are checking out. '
+            + 'Salma and Lina must prepare the rooms for the new guests arriving '
+            + 'this evening. “Let\'s work together,” says Salma. “I\'ll take this '
+            + 'side of the corridor; you take the other.”',
+          role: 'course'
+        },
+        {
+          h: 'An hour later, Salma asks, “How are you doing?” Lina looks at her '
+            + 'checklist. “I\'ve finished rooms 201 and 202,” she says. “I\'ve made '
+            + 'the beds, changed the towels, and cleaned the bathrooms. I\'ve just '
+            + 'started on 203. But I haven\'t restocked the tea and coffee yet.” '
+            + '“That\'s very good work,” says Salma. “Don\'t forget the water, too.”',
+          say: 'An hour later, Salma asks, “How are you doing?” Lina looks at her '
+            + 'checklist. “I\'ve finished rooms 201 and 202,” she says. “I\'ve made '
+            + 'the beds, changed the towels, and cleaned the bathrooms. I\'ve just '
+            + 'started on 203. But I haven\'t restocked the tea and coffee yet.” '
+            + '“That\'s very good work,” says Salma. “Don\'t forget the water, too.”',
+          role: 'course'
+        },
+        {
+          h: 'Then the phone rings. A guest in room 305 would like a pot of coffee '
+            + 'and some baklava. “I\'ll take it,” says Lina. She prepares a '
+            + 'beautiful tray, knocks gently, and says with a smile, “Room service! '
+            + 'I\'ve brought your coffee and baklava.” The guest is delighted. “That '
+            + 'was so quick! Thank you.” When Lina returns, Salma smiles. “You\'ve '
+            + 'had a hard day,” she says, “and you\'ve done it all with a smile. '
+            + 'That is the spirit of housekeeping.”',
+          say: 'Then the phone rings. A guest in room 305 would like a pot of coffee '
+            + 'and some baklava. “I\'ll take it,” says Lina. She prepares a '
+            + 'beautiful tray, knocks gently, and says with a smile, “Room service! '
+            + 'I\'ve brought your coffee and baklava.” The guest is delighted. “That '
+            + 'was so quick! Thank you.” When Lina returns, Salma smiles. “You\'ve '
+            + 'had a hard day,” she says, “and you\'ve done it all with a smile. '
+            + 'That is the spirit of housekeeping.”',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 7 · P8 A',
       type: 'discuss',
@@ -48,7 +102,7 @@ HSP.page('u7-s12', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 7 · P8 B',
       type: 'cloze',
@@ -82,7 +136,7 @@ HSP.page('u7-s12', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 7 · P8 C',
       type: 'report',

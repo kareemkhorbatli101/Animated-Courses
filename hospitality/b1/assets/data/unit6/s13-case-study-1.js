@@ -17,10 +17,18 @@ HSP.page('u6-s13', {
       instruction: 'What does Rana do? Choose the best action and say why.',
       passage: {
       title: 'The case',
-      paras: ['A guest has only one day in Syria and wants to see “the most amazing '
-          + 'place.” She loves ancient history, but Palmyra is three hours away by '
-          + 'car — six hours there and back. There is not enough time to enjoy it '
-          + 'and return the same day.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest has only one day in Syria and wants to see “the most amazing '
+            + 'place.” She loves ancient history, but Palmyra is three hours away by '
+            + 'car — six hours there and back. There is not enough time to enjoy it '
+            + 'and return the same day.',
+          say: 'A guest has only one day in Syria and wants to see “the most amazing '
+            + 'place.” She loves ancient history, but Palmyra is three hours away by '
+            + 'car — six hours there and back. There is not enough time to enjoy it '
+            + 'and return the same day.',
+          role: 'course'
+        }]
     },
       before: '<b>What would you do?</b><ul><li>Send the guest to Palmyra anyway, '
       + 'with no warning.</li><li>Explain that Palmyra is too far for one day, '
@@ -40,10 +48,18 @@ HSP.page('u6-s13', {
       instruction: 'Read the case, then answer the questions.',
       passage: {
       title: 'The case',
-      paras: ['Two guests ask for advice at the same time. One is a father with two '
-          + 'small children. The other is a young man who loves history and '
-          + 'museums. They want the same thing — “the best place” — but the best '
-          + 'place is different for each of them.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'Two guests ask for advice at the same time. One is a father with two '
+            + 'small children. The other is a young man who loves history and '
+            + 'museums. They want the same thing — “the best place” — but the best '
+            + 'place is different for each of them.',
+          say: 'Two guests ask for advice at the same time. One is a father with two '
+            + 'small children. The other is a young man who loves history and '
+            + 'museums. They want the same thing — “the best place” — but the best '
+            + 'place is different for each of them.',
+          role: 'course'
+        }]
     },
       minWords: 25,
       placeholder: 'I would… because…',

@@ -68,6 +68,21 @@ HSP.page('u10-s14', {
       id: 'c3',
       ref: 'C',
       bookRef: 'Unit 10 · P10 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'A loyalty programme rewards guests who return. Each time a guest '
+              + 'stays, they earn points. After several stays, they receive a free '
+              + 'night, a room upgrade, or a special gift. Loyalty programmes work '
+              + 'because a returning guest is more valuable to a hotel than a new one.',
+            say: 'A loyalty programme rewards guests who return. Each time a guest '
+              + 'stays, they earn points. After several stays, they receive a free '
+              + 'night, a room upgrade, or a special gift. Loyalty programmes work '
+              + 'because a returning guest is more valuable to a hotel than a new one.',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Reading',
       instruction: 'Reading. Read the short text and answer.',

@@ -10,6 +10,80 @@ HSP.page('u3-s01', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 3 · Warm-Up',
+      type: 'study',
+      title: 'Before you read',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you read',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Look at Figure 3.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          say: 'Look at Figure 3.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          role: 'course'
+        },
+        {
+          h: '1. How do guests book a room? (name two ways)',
+          say: '1. How do guests book a room? (name two ways)',
+          role: 'course'
+        },
+        {
+          h: '2. What information does a receptionist need for a booking?',
+          say: '2. What information does a receptionist need for a booking?',
+          role: 'course'
+        },
+        {
+          h: '3. Why is polite English important on the telephone?',
+          say: '3. Why is polite English important on the telephone?',
+          role: 'course'
+        },
+        {
+          h: 'Every day, people book rooms at the Orient Rose Hotel. Some guests '
+            + 'come to the desk and ask for a room. Others send an email or use the '
+            + 'hotel website. But many guests still telephone the hotel to make a '
+            + 'reservation. On the phone, the guest cannot see your face — so your '
+            + 'voice and your words are very important. Polite, clear English makes '
+            + 'the guest feel welcome, even before they arrive.',
+          say: 'Every day, people book rooms at the Orient Rose Hotel. Some guests '
+            + 'come to the desk and ask for a room. Others send an email or use the '
+            + 'hotel website. But many guests still telephone the hotel to make a '
+            + 'reservation. On the phone, the guest cannot see your face — so your '
+            + 'voice and your words are very important. Polite, clear English makes '
+            + 'the guest feel welcome, even before they arrive.',
+          role: 'course'
+        },
+        {
+          h: 'Taking a booking is an important skill. The receptionist must ask for '
+            + 'the right information: the guest\'s name, the dates, the room type, '
+            + 'and the number of nights. She must check that the hotel has a free '
+            + 'room. Then she confirms everything and says thank you. A small '
+            + 'mistake — a wrong date or a wrong name — can cause a big problem '
+            + 'later.',
+          say: 'Taking a booking is an important skill. The receptionist must ask for '
+            + 'the right information: the guest\'s name, the dates, the room type, '
+            + 'and the number of nights. She must check that the hotel has a free '
+            + 'room. Then she confirms everything and says thank you. A small '
+            + 'mistake — a wrong date or a wrong name — can cause a big problem '
+            + 'later.',
+          role: 'course'
+        },
+        {
+          h: 'This week, Lina is learning to take reservations. Mr. Nabil says, “Be '
+            + 'polite, speak slowly, and always check the details. A good booking is '
+            + 'the start of a happy stay.”',
+          say: 'This week, Lina is learning to take reservations. Mr. Nabil says, “Be '
+            + 'polite, speak slowly, and always check the details. A good booking is '
+            + 'the start of a happy stay.”',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 3 · Warm-Up A',
       type: 'discuss',
@@ -57,7 +131,7 @@ HSP.page('u3-s01', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 3 · Warm-Up B',
       type: 'quizset',

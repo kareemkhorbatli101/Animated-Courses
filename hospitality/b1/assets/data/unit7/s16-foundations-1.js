@@ -9,6 +9,50 @@ HSP.page('u7-s16', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 7 · P11',
+      type: 'study',
+      title: 'Foundations for further study',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Foundations for further study',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Cleanliness is the invisible foundation of hospitality. A guest may '
+            + 'enjoy a beautiful lobby, a friendly welcome and a delicious meal — '
+            + 'but if the room is dirty, all of that is spoiled in a moment. This is '
+            + 'why housekeeping standards are so strict, and why they are the same '
+            + 'in every room, every day. A standard is a clear rule about how clean '
+            + 'and ready a room must be: the bed made in a certain way, the bathroom '
+            + 'disinfected, the towels folded, the supplies restocked. Standards '
+            + 'protect the guest\'s health and the hotel\'s good name. They also '
+            + 'build trust: when a guest sees one perfectly clean room, they believe '
+            + 'every room is clean. Housekeeping teams work hard, often unseen, to '
+            + 'keep that trust — day after day, room after room. The language of '
+            + 'tasks, results and reporting — the language of the present perfect in '
+            + 'this unit — is exactly how housekeeping teams communicate, and it is '
+            + 'central to every hospitality qualification.',
+          say: 'Cleanliness is the invisible foundation of hospitality. A guest may '
+            + 'enjoy a beautiful lobby, a friendly welcome and a delicious meal — '
+            + 'but if the room is dirty, all of that is spoiled in a moment. This is '
+            + 'why housekeeping standards are so strict, and why they are the same '
+            + 'in every room, every day. A standard is a clear rule about how clean '
+            + 'and ready a room must be: the bed made in a certain way, the bathroom '
+            + 'disinfected, the towels folded, the supplies restocked. Standards '
+            + 'protect the guest\'s health and the hotel\'s good name. They also '
+            + 'build trust: when a guest sees one perfectly clean room, they believe '
+            + 'every room is clean. Housekeeping teams work hard, often unseen, to '
+            + 'keep that trust — day after day, room after room. The language of '
+            + 'tasks, results and reporting — the language of the present perfect in '
+            + 'this unit — is exactly how housekeeping teams communicate, and it is '
+            + 'central to every hospitality qualification.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 7 · P11 A',
       type: 'discuss',
@@ -40,9 +84,22 @@ HSP.page('u7-s16', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 7 · P11 B',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'You are a housekeeper and a supervisor. The supervisor asks, “Is room '
+              + '210 ready?” The housekeeper reports what they have done and what they '
+              + 'haven\'t done yet, using the present perfect. Then change roles.',
+            say: 'You are a housekeeper and a supervisor. The supervisor asks, “Is room '
+              + '210 ready?” The housekeeper reports what they have done and what they '
+              + 'haven\'t done yet, using the present perfect. Then change roles.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Apply it',
       instruction: 'Apply it. Do this task with a partner.',
@@ -51,9 +108,22 @@ HSP.page('u7-s16', {
       stems: ['Say it, then write what you said.']
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 7 · P11 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Write 40–60 words about a time you stayed somewhere very clean or '
+              + 'very dirty. How did it make you feel? Use the present perfect at '
+              + 'least once.',
+            say: 'Write 40–60 words about a time you stayed somewhere very clean or '
+              + 'very dirty. How did it make you feel? Use the present perfect at '
+              + 'least once.',
+            role: 'course'
+          }]
+      },
       type: 'writer',
       title: 'Micro-writing (optional)',
       instruction: 'Micro-writing (optional).',

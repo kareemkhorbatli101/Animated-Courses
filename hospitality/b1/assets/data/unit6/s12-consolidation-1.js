@@ -23,6 +23,64 @@ HSP.page('u6-s12', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 6 · P8',
+      type: 'study',
+      title: 'Consolidation',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Consolidation',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'A young couple came to the concierge desk. “We have one day in '
+            + 'Damascus,” they said, “and we love history and good food. What do you '
+            + 'recommend?” Rana smiled and thought for a moment. “The Old City is '
+            + 'perfect for you,” she said. “It\'s the most beautiful part of the '
+            + 'city, and everything is close together.”',
+          say: 'A young couple came to the concierge desk. “We have one day in '
+            + 'Damascus,” they said, “and we love history and good food. What do you '
+            + 'recommend?” Rana smiled and thought for a moment. “The Old City is '
+            + 'perfect for you,” she said. “It\'s the most beautiful part of the '
+            + 'city, and everything is close together.”',
+          role: 'course'
+        },
+        {
+          h: 'Rana drew a simple plan on a map. “In the morning, when it is '
+            + 'quieter, visit the Umayyad Mosque — it is one of the oldest and most '
+            + 'famous mosques in the world. Then walk through the old souq; it is '
+            + 'busier at midday, but it is more colourful and much cheaper than the '
+            + 'shops near the hotel. Have lunch in a traditional restaurant inside '
+            + 'the Old City.”',
+          say: 'Rana drew a simple plan on a map. “In the morning, when it is '
+            + 'quieter, visit the Umayyad Mosque — it is one of the oldest and most '
+            + 'famous mosques in the world. Then walk through the old souq; it is '
+            + 'busier at midday, but it is more colourful and much cheaper than the '
+            + 'shops near the hotel. Have lunch in a traditional restaurant inside '
+            + 'the Old City.”',
+          role: 'course'
+        },
+        {
+          h: '“In the afternoon,” Rana continued, “visit a beautiful old house with '
+            + 'a courtyard, and in the evening, sit in a café by a fountain and '
+            + 'drink Arabic coffee. It is the best way to end the day.” The couple '
+            + 'were delighted. “Thank you,” said the woman. “That sounds better than '
+            + 'any tour!” That evening, they returned tired and happy. “It was the '
+            + 'best day of our holiday,” they told Rana. She was very glad. A good '
+            + 'recommendation, given with care, had made their trip unforgettable.',
+          say: '“In the afternoon,” Rana continued, “visit a beautiful old house with '
+            + 'a courtyard, and in the evening, sit in a café by a fountain and '
+            + 'drink Arabic coffee. It is the best way to end the day.” The couple '
+            + 'were delighted. “Thank you,” said the woman. “That sounds better than '
+            + 'any tour!” That evening, they returned tired and happy. “It was the '
+            + 'best day of our holiday,” they told Rana. She was very glad. A good '
+            + 'recommendation, given with care, had made their trip unforgettable.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 6 · P8 A',
       type: 'discuss',
@@ -61,7 +119,7 @@ HSP.page('u6-s12', {
         + 'beside your own.'
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 6 · P8 B',
       type: 'cloze',
@@ -95,7 +153,7 @@ HSP.page('u6-s12', {
       }
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'C',
       bookRef: 'Unit 6 · P8 C',
       type: 'report',

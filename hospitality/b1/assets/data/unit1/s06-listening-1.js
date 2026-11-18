@@ -25,6 +25,117 @@ HSP.page('u1-s06', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 1 · P3',
+      type: 'study',
+      title: 'The conversation',
+      instruction: 'Listen and read. Each person has their own voice.',
+      passage: {
+      title: 'The conversation',
+      listenLabel: 'Play the conversation',
+      paras: [{
+          h: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          say: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          role: 'course'
+        },
+        {
+          h: '<b>Lina:</b> Good morning, and welcome to the Orient Rose Hotel. How '
+            + 'can I help you?',
+          say: 'Good morning, and welcome to the Orient Rose Hotel. How can I help you?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Good morning. Thank you. I have a reservation for '
+            + 'tonight. My name is Karim Sayed.',
+          say: 'Good morning. Thank you. I have a reservation for tonight. My name is '
+            + 'Karim Sayed.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Welcome, Mr. Sayed. Let me check. Yes — one room for two '
+            + 'nights. Is that correct?',
+          say: 'Welcome, Mr. Sayed. Let me check. Yes — one room for two nights. Is '
+            + 'that correct?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> That\'s right.',
+          say: 'That\'s right.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Wonderful. Here is your key card. Your room is 210, on '
+            + 'the second floor.',
+          say: 'Wonderful. Here is your key card. Your room is 210, on the second floor.',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Thank you. And where is the restaurant, please?',
+          say: 'Thank you. And where is the restaurant, please?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> It is on the ground floor, next to the lobby. Breakfast '
+            + 'is from seven to ten. Enjoy your stay!',
+          say: 'It is on the ground floor, next to the lobby. Breakfast is from seven '
+            + 'to ten. Enjoy your stay!',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Mr. Nabil:</b> Lina, let me introduce the team. This is Sami. He '
+            + 'is a porter. He helps guests with their bags.',
+          say: 'Lina, let me introduce the team. This is Sami. He is a porter. He '
+            + 'helps guests with their bags.',
+          role: 'nabil',
+          who: 'Mr. Nabil'
+        },
+        {
+          h: 'Sami: Nice to meet you, Lina.',
+          say: 'Sami: Nice to meet you, Lina.',
+          role: 'course'
+        },
+        {
+          h: '<b>Mr. Nabil:</b> And this is Rana. She is our concierge. She books '
+            + 'tours and gives information about the city.',
+          say: 'And this is Rana. She is our concierge. She books tours and gives '
+            + 'information about the city.',
+          role: 'nabil',
+          who: 'Mr. Nabil'
+        },
+        {
+          h: '<b>Rana:</b> Welcome to the team!',
+          say: 'Welcome to the team!',
+          role: 'rana',
+          who: 'Rana'
+        },
+        {
+          h: '<b>Lina:</b> Thank you. It\'s nice to meet you all.',
+          say: 'Thank you. It\'s nice to meet you all.',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Mr. Nabil:</b> We work together. When the desk is busy, we help '
+            + 'each other. That is the most important rule here.',
+          say: 'We work together. When the desk is busy, we help each other. That is '
+            + 'the most important rule here.',
+          role: 'nabil',
+          who: 'Mr. Nabil'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 1 · P3 A',
       type: 'discuss',
@@ -63,7 +174,7 @@ HSP.page('u1-s06', {
         + 'beside your own.'
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 1 · P3 B',
       type: 'cloze',
@@ -93,7 +204,7 @@ HSP.page('u1-s06', {
       }
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'A',
       bookRef: 'Unit 1 · P3 A',
       type: 'discuss',

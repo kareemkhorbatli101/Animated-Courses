@@ -10,6 +10,60 @@ HSP.page('u1-s12', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 1 · P8',
+      type: 'study',
+      title: 'Consolidation',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Consolidation',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'It is seven o\'clock in the morning, and the Orient Rose Hotel is '
+            + 'waking up. Lina arrives and puts on her uniform. She says good '
+            + 'morning to her colleagues. Mr. Nabil, the duty manager, is reading '
+            + 'the guest list. Sami, the porter, is cleaning the front door. In the '
+            + 'restaurant, the waiters are preparing breakfast.',
+          say: 'It is seven o\'clock in the morning, and the Orient Rose Hotel is '
+            + 'waking up. Lina arrives and puts on her uniform. She says good '
+            + 'morning to her colleagues. Mr. Nabil, the duty manager, is reading '
+            + 'the guest list. Sami, the porter, is cleaning the front door. In the '
+            + 'restaurant, the waiters are preparing breakfast.',
+          role: 'course'
+        },
+        {
+          h: 'At half past seven, the first guest comes to the desk. He is a '
+            + 'businessman from Beirut, and he is in a hurry. Lina smiles and greets '
+            + 'him. \'Good morning, and welcome,\' she says. She finds his '
+            + 'reservation, gives him his key card, and tells him about breakfast. '
+            + 'The guest says thank you and goes to his room. Lina feels happy. Her '
+            + 'first guest is easy and kind.',
+          say: 'At half past seven, the first guest comes to the desk. He is a '
+            + 'businessman from Beirut, and he is in a hurry. Lina smiles and greets '
+            + 'him. \'Good morning, and welcome,\' she says. She finds his '
+            + 'reservation, gives him his key card, and tells him about breakfast. '
+            + 'The guest says thank you and goes to his room. Lina feels happy. Her '
+            + 'first guest is easy and kind.',
+          role: 'course'
+        },
+        {
+          h: 'The morning is busy. The telephone rings, guests arrive, and the '
+            + 'lobby is full of voices. But the team works together, and every guest '
+            + 'gets a warm welcome. At three o\'clock, Lina\'s shift finishes. She '
+            + 'is tired, but she is smiling. Today she learned the most important '
+            + 'lesson: in hospitality, a warm welcome is everything.',
+          say: 'The morning is busy. The telephone rings, guests arrive, and the '
+            + 'lobby is full of voices. But the team works together, and every guest '
+            + 'gets a warm welcome. At three o\'clock, Lina\'s shift finishes. She '
+            + 'is tired, but she is smiling. Today she learned the most important '
+            + 'lesson: in hospitality, a warm welcome is everything.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 1 · P8 A',
       type: 'discuss',
@@ -49,7 +103,7 @@ HSP.page('u1-s12', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 1 · P8 B',
       type: 'cloze',
@@ -83,7 +137,7 @@ HSP.page('u1-s12', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 1 · P8 C',
       type: 'report',

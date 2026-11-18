@@ -23,6 +23,66 @@ HSP.page('u6-s04', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 6 · P2',
+      type: 'study',
+      title: 'The grammar, as the book gives it',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The grammar, as the book gives it',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'We use COMPARATIVES to compare TWO things. For short adjectives, add '
+            + '-er and use than: old → older than, big → bigger than, cheap → '
+            + 'cheaper than. For long adjectives (two syllables or more), use more … '
+            + 'than: beautiful → more beautiful than, famous → more famous than. '
+            + 'Example: Palmyra is older than the citadel. The Old City is more '
+            + 'beautiful than the new town.',
+          say: 'We use COMPARATIVES to compare TWO things. For short adjectives, add '
+            + '-er and use than: old → older than, big → bigger than, cheap → '
+            + 'cheaper than. For long adjectives (two syllables or more), use more … '
+            + 'than: beautiful → more beautiful than, famous → more famous than. '
+            + 'Example: Palmyra is older than the citadel. The Old City is more '
+            + 'beautiful than the new town.',
+          role: 'course'
+        },
+        {
+          h: 'We use SUPERLATIVES to compare THREE or more things — to say which is '
+            + 'the \'most\'. For short adjectives, add the …-est: old → the oldest, '
+            + 'big → the biggest. For long adjectives, use the most …: the most '
+            + 'beautiful, the most famous. Example: Aleppo is the biggest city in '
+            + 'the north. Palmyra is the most famous ruin in Syria.',
+          say: 'We use SUPERLATIVES to compare THREE or more things — to say which is '
+            + 'the \'most\'. For short adjectives, add the …-est: old → the oldest, '
+            + 'big → the biggest. For long adjectives, use the most …: the most '
+            + 'beautiful, the most famous. Example: Aleppo is the biggest city in '
+            + 'the north. Palmyra is the most famous ruin in Syria.',
+          role: 'course'
+        },
+        {
+          h: 'Some adjectives are IRREGULAR: good → better → the best; bad → worse '
+            + '→ the worst.',
+          say: 'Some adjectives are IRREGULAR: good → better → the best; bad → worse '
+            + '→ the worst.',
+          role: 'course'
+        },
+        {
+          h: 'Form',
+          say: 'Form',
+          role: 'course'
+        },
+        {
+          h: 'Comparative: short adj + -er + than · more + long adj + than '
+            + 'Superlative: the + short adj + -est · the most + long adj',
+          say: 'Comparative: short adj + -er + than · more + long adj + than '
+            + 'Superlative: the + short adj + -est · the most + long adj',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 6 · P2 A',
       type: 'cloze',
@@ -52,7 +112,7 @@ HSP.page('u6-s04', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 6 · P2 B',
       type: 'cloze',
@@ -82,7 +142,7 @@ HSP.page('u6-s04', {
       }
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'C',
       bookRef: 'Unit 6 · P2 C',
       type: 'cloze',

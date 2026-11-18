@@ -12,6 +12,19 @@ HSP.page('u4-s15', {
       id: 'c1',
       ref: 'D',
       bookRef: 'Unit 4 · P10 D',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: '[Teacher reads] \'Welcome, Mrs. Haddad. I\'m checking you in now. '
+              + 'Your room is 118, on the first floor. Breakfast is from seven to ten. '
+              + 'Would you like a wake-up call?\'',
+            say: '[Teacher reads] \'Welcome, Mrs. Haddad. I\'m checking you in now. '
+              + 'Your room is 118, on the first floor. Breakfast is from seven to ten. '
+              + 'Would you like a wake-up call?\'',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Listening',
       instruction: 'Listening. Listen and answer. (Teacher reads.)',
@@ -55,6 +68,40 @@ HSP.page('u4-s15', {
       id: 'c3',
       ref: 'F',
       bookRef: 'Unit 4 · P10 F',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Can-Do check. Tick what you can do.',
+            say: 'Can-Do check. Tick what you can do.',
+            role: 'course'
+          },
+          {
+            h: 'I can check a guest in and complete the registration.',
+            say: 'I can check a guest in and complete the registration.',
+            role: 'course'
+          },
+          {
+            h: 'I can explain room details and hotel information.',
+            say: 'I can explain room details and hotel information.',
+            role: 'course'
+          },
+          {
+            h: 'I can talk about arrangements and plans.',
+            say: 'I can talk about arrangements and plans.',
+            role: 'course'
+          },
+          {
+            h: 'I can offer and arrange services.',
+            say: 'I can offer and arrange services.',
+            role: 'course'
+          },
+          {
+            h: 'I can hand over the room and wish a good stay.',
+            say: 'I can hand over the room and wish a good stay.',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Writing',
       instruction: 'Writing. Write two sentences: one arrangement (present continuous) '

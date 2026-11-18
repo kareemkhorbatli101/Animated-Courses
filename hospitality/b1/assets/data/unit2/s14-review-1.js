@@ -69,6 +69,19 @@ HSP.page('u2-s14', {
       id: 'c3',
       ref: 'C',
       bookRef: 'Unit 2 · P10 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'The spa is on the ground floor, behind the reception. It is quiet and '
+              + 'warm. There are three treatment rooms and a small waiting area. Right '
+              + 'now, a guest is relaxing in the spa after a long journey.',
+            say: 'The spa is on the ground floor, behind the reception. It is quiet and '
+              + 'warm. There are three treatment rooms and a small waiting area. Right '
+              + 'now, a guest is relaxing in the spa after a long journey.',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Reading',
       instruction: 'Reading. Read the short text and answer.',

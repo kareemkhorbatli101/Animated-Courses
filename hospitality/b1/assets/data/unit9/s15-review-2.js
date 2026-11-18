@@ -12,6 +12,19 @@ HSP.page('u9-s15', {
       id: 'c1',
       ref: 'D',
       bookRef: 'Unit 9 · P10 D',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: '[Teacher reads] \'I\'m so sorry about the cold food. That\'s not our '
+              + 'standard. If you give me a moment, I\'ll bring you a fresh, hot meal, '
+              + 'and your dessert will be with our compliments.\'',
+            say: '[Teacher reads] \'I\'m so sorry about the cold food. That\'s not our '
+              + 'standard. If you give me a moment, I\'ll bring you a fresh, hot meal, '
+              + 'and your dessert will be with our compliments.\'',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Listening',
       instruction: 'Listening. Listen and answer. (Teacher reads.)',
@@ -55,6 +68,40 @@ HSP.page('u9-s15', {
       id: 'c3',
       ref: 'F',
       bookRef: 'Unit 9 · P10 F',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Can-Do check. Tick what you can do.',
+            say: 'Can-Do check. Tick what you can do.',
+            role: 'course'
+          },
+          {
+            h: 'I can understand and respond to a guest complaint.',
+            say: 'I can understand and respond to a guest complaint.',
+            role: 'course'
+          },
+          {
+            h: 'I can apologise sincerely.',
+            say: 'I can apologise sincerely.',
+            role: 'course'
+          },
+          {
+            h: 'I can offer solutions with the first conditional.',
+            say: 'I can offer solutions with the first conditional.',
+            role: 'course'
+          },
+          {
+            h: 'I can give advice using should.',
+            say: 'I can give advice using should.',
+            role: 'course'
+          },
+          {
+            h: 'I can turn an unhappy guest into a happy one.',
+            say: 'I can turn an unhappy guest into a happy one.',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Writing',
       instruction: 'Writing. Write two sentences: one apology, and one solution using the '

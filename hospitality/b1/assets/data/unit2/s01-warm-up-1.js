@@ -10,6 +10,80 @@ HSP.page('u2-s01', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 2 · Warm-Up',
+      type: 'study',
+      title: 'Before you read',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you read',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Look at Figure 2.0 and the tour picture above. Think about these '
+            + 'questions before you read.',
+          say: 'Look at Figure 2.0 and the tour picture above. Think about these '
+            + 'questions before you read.',
+          role: 'course'
+        },
+        {
+          h: '1. How many floors does the hotel have?',
+          say: '1. How many floors does the hotel have?',
+          role: 'course'
+        },
+        {
+          h: '2. What is on the ground floor?',
+          say: '2. What is on the ground floor?',
+          role: 'course'
+        },
+        {
+          h: '3. Where are the guest rooms?',
+          say: '3. Where are the guest rooms?',
+          role: 'course'
+        },
+        {
+          h: 'The Orient Rose Hotel is a large hotel in the centre of Damascus. It '
+            + 'has four floors. On the ground floor, there is a big lobby, the '
+            + 'reception desk, a restaurant, a café and a spa. There is also a '
+            + 'beautiful garden behind the hotel. On the first, second and third '
+            + 'floors, there are the guest rooms — more than fifty rooms in total. '
+            + 'There is a lift next to the reception, and there are stairs beside '
+            + 'it.',
+          say: 'The Orient Rose Hotel is a large hotel in the centre of Damascus. It '
+            + 'has four floors. On the ground floor, there is a big lobby, the '
+            + 'reception desk, a restaurant, a café and a spa. There is also a '
+            + 'beautiful garden behind the hotel. On the first, second and third '
+            + 'floors, there are the guest rooms — more than fifty rooms in total. '
+            + 'There is a lift next to the reception, and there are stairs beside '
+            + 'it.',
+          role: 'course'
+        },
+        {
+          h: 'The hotel has many facilities for its guests. There is a gym on the '
+            + 'first floor, and there is free wifi everywhere. There is a car park '
+            + 'under the building. The hotel even has a second home by the sea: the '
+            + 'Orient Rose Resort in Latakia, on the coast. There, guests can swim, '
+            + 'relax on the beach, and enjoy the sun.',
+          say: 'The hotel has many facilities for its guests. There is a gym on the '
+            + 'first floor, and there is free wifi everywhere. There is a car park '
+            + 'under the building. The hotel even has a second home by the sea: the '
+            + 'Orient Rose Resort in Latakia, on the coast. There, guests can swim, '
+            + 'relax on the beach, and enjoy the sun.',
+          role: 'course'
+        },
+        {
+          h: 'Today, Mr. Nabil is showing Lina around the hotel. “A good '
+            + 'receptionist knows every corner of the hotel,” he says. “When a guest '
+            + 'asks a question, you must know the answer.”',
+          say: 'Today, Mr. Nabil is showing Lina around the hotel. “A good '
+            + 'receptionist knows every corner of the hotel,” he says. “When a guest '
+            + 'asks a question, you must know the answer.”',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 2 · Warm-Up A',
       type: 'discuss',
@@ -56,7 +130,7 @@ HSP.page('u2-s01', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 2 · Warm-Up B',
       type: 'quizset',

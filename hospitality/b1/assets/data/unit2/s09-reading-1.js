@@ -10,6 +10,71 @@ HSP.page('u2-s09', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 2 · P5',
+      type: 'study',
+      title: 'The reading',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The reading',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Welcome to the Orient Rose Hotel. Let us take a short tour, floor by '
+            + 'floor. We start on the ground floor, in the lobby. The lobby is large '
+            + 'and bright, with comfortable sofas and green plants. On the right, '
+            + 'there is the reception desk, where our team welcomes every guest. '
+            + 'Behind reception, there is a lift and, next to it, the stairs.',
+          say: 'Welcome to the Orient Rose Hotel. Let us take a short tour, floor by '
+            + 'floor. We start on the ground floor, in the lobby. The lobby is large '
+            + 'and bright, with comfortable sofas and green plants. On the right, '
+            + 'there is the reception desk, where our team welcomes every guest. '
+            + 'Behind reception, there is a lift and, next to it, the stairs.',
+          role: 'course'
+        },
+        {
+          h: 'Still on the ground floor, there is our main restaurant, which serves '
+            + 'breakfast, lunch and dinner. Opposite the restaurant, there is a '
+            + 'small café for coffee and snacks. At the back of the hotel, there is '
+            + 'a quiet garden and a modern spa. Under the building, there is a car '
+            + 'park for guests.',
+          say: 'Still on the ground floor, there is our main restaurant, which serves '
+            + 'breakfast, lunch and dinner. Opposite the restaurant, there is a '
+            + 'small café for coffee and snacks. At the back of the hotel, there is '
+            + 'a quiet garden and a modern spa. Under the building, there is a car '
+            + 'park for guests.',
+          role: 'course'
+        },
+        {
+          h: 'Now let us go up. On the first floor, there is a gym with new '
+            + 'machines, and there is a swimming pool next to it. On the first, '
+            + 'second and third floors, there are the guest rooms — more than fifty '
+            + 'in total. Every room has a comfortable bed, a desk, a television and '
+            + 'a private bathroom. Some rooms have a lovely view of the city.',
+          say: 'Now let us go up. On the first floor, there is a gym with new '
+            + 'machines, and there is a swimming pool next to it. On the first, '
+            + 'second and third floors, there are the guest rooms — more than fifty '
+            + 'in total. Every room has a comfortable bed, a desk, a television and '
+            + 'a private bathroom. Some rooms have a lovely view of the city.',
+          role: 'course'
+        },
+        {
+          h: 'Finally, the hotel has a second home by the sea. The Orient Rose '
+            + 'Resort in Latakia is right on the beach. There are eighty rooms, two '
+            + 'restaurants, a big pool, and a lot of activities for families. '
+            + 'Wherever our guests stay — in the city or by the sea — we want them '
+            + 'to feel at home.',
+          say: 'Finally, the hotel has a second home by the sea. The Orient Rose '
+            + 'Resort in Latakia is right on the beach. There are eighty rooms, two '
+            + 'restaurants, a big pool, and a lot of activities for families. '
+            + 'Wherever our guests stay — in the city or by the sea — we want them '
+            + 'to feel at home.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 2 · P5 A',
       type: 'discuss',
@@ -55,7 +120,7 @@ HSP.page('u2-s09', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 2 · P5 B',
       type: 'cloze',
@@ -89,7 +154,7 @@ HSP.page('u2-s09', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 2 · P5 C',
       type: 'cloze',

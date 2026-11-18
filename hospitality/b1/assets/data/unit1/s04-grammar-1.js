@@ -24,6 +24,69 @@ HSP.page('u1-s04', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 1 · P2',
+      type: 'study',
+      title: 'The grammar, as the book gives it',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The grammar, as the book gives it',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'This unit uses two present tenses. We use the PRESENT SIMPLE for '
+            + 'routines, habits and facts — things that are generally true and '
+            + 'happen again and again. Lina works at the front desk. She greets '
+            + 'every guest. The hotel opens at seven o\'clock. Breakfast starts at '
+            + 'seven.',
+          say: 'This unit uses two present tenses. We use the PRESENT SIMPLE for '
+            + 'routines, habits and facts — things that are generally true and '
+            + 'happen again and again. Lina works at the front desk. She greets '
+            + 'every guest. The hotel opens at seven o\'clock. Breakfast starts at '
+            + 'seven.',
+          role: 'course'
+        },
+        {
+          h: 'We use the PRESENT CONTINUOUS (am / is / are + verb-ing) for actions '
+            + 'that are happening NOW, at the moment of speaking. Right now, Lina is '
+            + 'greeting a guest. Mr. Nabil is checking the emails. The waiters are '
+            + 'serving breakfast.',
+          say: 'We use the PRESENT CONTINUOUS (am / is / are + verb-ing) for actions '
+            + 'that are happening NOW, at the moment of speaking. Right now, Lina is '
+            + 'greeting a guest. Mr. Nabil is checking the emails. The waiters are '
+            + 'serving breakfast.',
+          role: 'course'
+        },
+        {
+          h: 'Time words help you choose. Present simple often uses: every day, '
+            + 'usually, always, sometimes, at seven o\'clock. Present continuous '
+            + 'often uses: now, right now, at the moment, look!, listen!',
+          say: 'Time words help you choose. Present simple often uses: every day, '
+            + 'usually, always, sometimes, at seven o\'clock. Present continuous '
+            + 'often uses: now, right now, at the moment, look!, listen!',
+          role: 'course'
+        },
+        {
+          h: 'Form',
+          say: 'Form',
+          role: 'course'
+        },
+        {
+          h: 'Present simple: I / you / we / they work · he / she / it works (add -s)',
+          say: 'Present simple: I / you / we / they work · he / she / it works (add -s)',
+          role: 'course'
+        },
+        {
+          h: 'Present continuous: I am working · he / she / it is working · you / '
+            + 'we / they are working',
+          say: 'Present continuous: I am working · he / she / it is working · you / '
+            + 'we / they are working',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 1 · P2 A',
       type: 'cloze',
@@ -57,7 +120,7 @@ HSP.page('u1-s04', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 1 · P2 B',
       type: 'cloze',
@@ -91,7 +154,7 @@ HSP.page('u1-s04', {
       }
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'C',
       bookRef: 'Unit 1 · P2 C',
       visual: { img: '../assets/figures/fig-1.5.png', caption: 'Lina\'s working day.' },

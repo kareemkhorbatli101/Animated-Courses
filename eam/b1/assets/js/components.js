@@ -900,26 +900,48 @@
 
   function plain(s) { return String(s).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim(); }
 
+  /* A PARAGRAPH MAY BE A LINE OF DIALOGUE. Lifted verbatim from the
+     accountants course, where these four have been in service since its
+     own dialogues were built: `h` is what is shown, `say` what is
+     spoken, `role` who speaks it, `speak: false` a stage direction. */
+  function paraHTML(x) { return (x && typeof x === 'object') ? (x.h || '') : String(x || ''); }
+  function paraSay(x) { return (x && typeof x === 'object') ? (x.say || plain(x.h || '')) : plain(x); }
+  function paraRole(x) { return (x && typeof x === 'object') ? (x.role || 'narrator') : null; }
+  function paraSpeaks(x) { return !(x && typeof x === 'object' && x.speak === false); }
+
   function passageNode(p) {
     var box = mk('div', 'reading ' + (p.style || ''));
     var h = '';
     if (p.title) h += '<h4>' + esc(p.title) + '</h4>';
-    (p.paras || []).forEach(function (t, i) { h += '<p data-pi="' + i + '">' + t + '</p>'; });
+    (p.paras || []).forEach(function (t, i) {
+      h += '<p data-pi="' + i + '">' + paraHTML(t) + '</p>';
+    });
     if (p.html) h += p.html;
     box.innerHTML = h;
 
     var voice = castVoice(p.say);
 
     /* one small play button per paragraph, inside the text */
-    if (voice && (p.paras || []).length > 1) {
+    if ((p.paras || []).length > 1) {
       var ps = box.querySelectorAll('p[data-pi]');
       for (var i = 0; i < ps.length; i++) {
         (function (el, ix) {
+          var src = p.paras[ix];
+          if (!paraSpeaks(src)) return;   /* a stage direction is not a line */
           var b = mk('button', 'para-say no-print', art.icon('sound', 14));
           b.type = 'button';
-          b.title = 'Hear paragraph ' + (ix + 1);
-          b.setAttribute('aria-label', 'Hear paragraph ' + (ix + 1));
-          b.onclick = function () { EAM.say(plain(p.paras[ix]), null, { voice: voice, fallback: p.voice || 'f' }); };
+          var who = (src && typeof src === 'object' && src.who) ? src.who : '';
+          var lbl = who ? ('Hear ' + who + '\u2019s line')
+                        : ('Hear paragraph ' + (ix + 1));
+          b.title = lbl;
+          b.setAttribute('aria-label', lbl);
+          b.onclick = function () {
+            var role = paraRole(src);
+            if (role && role !== 'narrator') EAM.say(paraSay(src), role);
+            else if (voice) EAM.say(paraSay(src), null,
+              { voice: voice, fallback: p.voice || 'f' });
+            else EAM.say(paraSay(src), 'narrator');
+          };
           el.appendChild(b);
         })(ps[i], i);
       }
@@ -933,11 +955,16 @@
       /* paragraph by paragraph, so the recordings line up with the
          text rather than one long clip that cannot be re-found */
       b2.onclick = function () {
-        var k = 0, list = (p.paras || []).map(plain);
+        /* Each paragraph in its own voice, in order. Flattening them with
+           plain() and playing them in one voice is how a two-person
+           conversation came out sounding like one person reading. */
+        var list = (p.paras || []).filter(paraSpeaks);
+        var k = 0;
         (function next() {
           if (k >= list.length) return;
-          var txt = list[k++];
-          if (voice) EAM.say(txt, null, { voice: voice, fallback: p.voice || 'f', onend: next });
+          var src = list[k++], txt = paraSay(src), role = paraRole(src);
+          if (role && role !== 'narrator') EAM.say(txt, role, { onend: next });
+          else if (voice) EAM.say(txt, null, { voice: voice, fallback: p.voice || 'f', onend: next });
           else EAM.speak(txt, { voice: p.voice || 'f', onend: next });
         })();
       };

@@ -12,6 +12,35 @@ HSP.page('u9-s08', {
       id: 'c1',
       ref: 'A',
       bookRef: 'Unit 9 · P4 A',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'A: Explain your problem (a noisy room / broken AC / a wrong bill).',
+            say: 'A: Explain your problem (a noisy room / broken AC / a wrong bill).',
+            role: 'course'
+          },
+          {
+            h: 'B: Listen, and apologise sincerely.',
+            say: 'B: Listen, and apologise sincerely.',
+            role: 'course'
+          },
+          {
+            h: 'B: Offer a solution with the first conditional (If…, I\'ll…).',
+            say: 'B: Offer a solution with the first conditional (If…, I\'ll…).',
+            role: 'course'
+          },
+          {
+            h: 'A: Accept, or ask one more question.',
+            say: 'A: Accept, or ask one more question.',
+            role: 'course'
+          },
+          {
+            h: 'B: Thank the guest for their patience, and offer something extra.',
+            say: 'B: Thank the guest for their patience, and offer something extra.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Role-play: handle a complaint',
       instruction: 'Role-play: handle a complaint. Student A is an unhappy guest; Student '

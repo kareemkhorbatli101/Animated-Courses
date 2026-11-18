@@ -12,6 +12,37 @@ HSP.page('u4-s08', {
       id: 'c1',
       ref: 'A',
       bookRef: 'Unit 4 · P4 A',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'B: Welcome the guest and say you are checking them in.',
+            say: 'B: Welcome the guest and say you are checking them in.',
+            role: 'course'
+          },
+          {
+            h: 'A: Give your name and reservation.',
+            say: 'A: Give your name and reservation.',
+            role: 'course'
+          },
+          {
+            h: 'B: Ask for the passport and the signature; give the key and room number.',
+            say: 'B: Ask for the passport and the signature; give the key and room number.',
+            role: 'course'
+          },
+          {
+            h: 'A: Ask about breakfast.',
+            say: 'A: Ask about breakfast.',
+            role: 'course'
+          },
+          {
+            h: 'B: Explain breakfast and one arrangement (bags / wake-up call). Wish '
+              + 'a good stay.',
+            say: 'B: Explain breakfast and one arrangement (bags / wake-up call). Wish '
+              + 'a good stay.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Role-play: check a guest in',
       instruction: 'Role-play: check a guest in. Student A is the guest; Student B is the '

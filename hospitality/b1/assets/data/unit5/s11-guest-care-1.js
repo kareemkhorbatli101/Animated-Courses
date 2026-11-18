@@ -10,6 +10,40 @@ HSP.page('u5-s11', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 5 · P7',
+      type: 'study',
+      title: 'Guest-care and service',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Guest-care and service',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Great table service follows clear steps: greet and seat the guests, '
+            + 'bring the menu, take the order, serve the food, check back once, '
+            + 'bring the bill, and say a warm farewell. But a great waiter also '
+            + 'listens for special needs. Some guests cannot eat certain foods: a '
+            + 'guest may have an allergy to nuts, may not eat meat, or may need food '
+            + 'without sugar. When a guest tells you about a dietary need, you must '
+            + 'take it seriously, check with the kitchen, and never guess. A wrong '
+            + 'dish can make a guest ill. Good service is not only fast and friendly '
+            + '— it is also safe.',
+          say: 'Great table service follows clear steps: greet and seat the guests, '
+            + 'bring the menu, take the order, serve the food, check back once, '
+            + 'bring the bill, and say a warm farewell. But a great waiter also '
+            + 'listens for special needs. Some guests cannot eat certain foods: a '
+            + 'guest may have an allergy to nuts, may not eat meat, or may need food '
+            + 'without sugar. When a guest tells you about a dietary need, you must '
+            + 'take it seriously, check with the kitchen, and never guess. A wrong '
+            + 'dish can make a guest ill. Good service is not only fast and friendly '
+            + '— it is also safe.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 5 · P7 A',
       type: 'discuss',
@@ -48,7 +82,7 @@ HSP.page('u5-s11', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 5 · P7 B',
       type: 'cloze',

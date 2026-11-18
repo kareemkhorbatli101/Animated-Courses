@@ -23,6 +23,121 @@ HSP.page('u6-s06', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 6 · P3',
+      type: 'study',
+      title: 'The conversation',
+      instruction: 'Listen and read. Each person has their own voice.',
+      passage: {
+      title: 'The conversation',
+      listenLabel: 'Play the conversation',
+      paras: [{
+          h: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          say: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          role: 'course'
+        },
+        {
+          h: '<b>Guest:</b> Good morning. I have only one day in Damascus. What\'s '
+            + 'the best place to visit?',
+          say: 'Good morning. I have only one day in Damascus. What\'s the best place '
+            + 'to visit?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Rana:</b> Good morning. For one day, I recommend the Old City. '
+            + 'It\'s the most beautiful part of Damascus, and it\'s very close to '
+            + 'the hotel.',
+          say: 'Good morning. For one day, I recommend the Old City. It\'s the most '
+            + 'beautiful part of Damascus, and it\'s very close to the hotel.',
+          role: 'rana',
+          who: 'Rana'
+        },
+        {
+          h: '<b>Guest:</b> That sounds perfect. Is it far?',
+          say: 'That sounds perfect. Is it far?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Rana:</b> No, it\'s closer than you think — about ten minutes by '
+            + 'taxi. You can see the Umayyad Mosque, walk through the old souq, and '
+            + 'have lunch there.',
+          say: 'No, it\'s closer than you think — about ten minutes by taxi. You can '
+            + 'see the Umayyad Mosque, walk through the old souq, and have lunch '
+            + 'there.',
+          role: 'rana',
+          who: 'Rana'
+        },
+        {
+          h: '<b>Guest:</b> Wonderful. Is the souq expensive?',
+          say: 'Wonderful. Is the souq expensive?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Rana:</b> No, it\'s cheaper than the shops near the hotel, and '
+            + 'much more interesting. Here is a small map for you.',
+          say: 'No, it\'s cheaper than the shops near the hotel, and much more '
+            + 'interesting. Here is a small map for you.',
+          role: 'rana',
+          who: 'Rana'
+        },
+        {
+          h: '<b>Guest:</b> Thank you so much. That\'s a great help.',
+          say: 'Thank you so much. That\'s a great help.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Guest:</b> We have two days. Should we go to Palmyra or to Aleppo?',
+          say: 'We have two days. Should we go to Palmyra or to Aleppo?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Rana:</b> Both are wonderful. Palmyra is more famous for its '
+            + 'ancient ruins, but it is further away — about three hours by car.',
+          say: 'Both are wonderful. Palmyra is more famous for its ancient ruins, but '
+            + 'it is further away — about three hours by car.',
+          role: 'rana',
+          who: 'Rana'
+        },
+        {
+          h: '<b>Guest:</b> And Aleppo?',
+          say: 'And Aleppo?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Rana:</b> Aleppo is closer and has the biggest citadel in Syria, '
+            + 'plus a huge old souq. For two days, I think Aleppo is easier.',
+          say: 'Aleppo is closer and has the biggest citadel in Syria, plus a huge '
+            + 'old souq. For two days, I think Aleppo is easier.',
+          role: 'rana',
+          who: 'Rana'
+        },
+        {
+          h: '<b>Guest:</b> Which one is more beautiful?',
+          say: 'Which one is more beautiful?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Rana:</b> That\'s difficult! Palmyra has the most amazing sunset '
+            + 'in the desert. But for a shorter trip, Aleppo is the better choice.',
+          say: 'That\'s difficult! Palmyra has the most amazing sunset in the desert. '
+            + 'But for a shorter trip, Aleppo is the better choice.',
+          role: 'rana',
+          who: 'Rana'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 6 · P3 A',
       type: 'discuss',
@@ -61,7 +176,7 @@ HSP.page('u6-s06', {
         + 'beside your own.'
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 6 · P3 B',
       visual: { img: '../assets/figures/fig-6.4.png', caption: 'Comparing two places for a trip.' },
@@ -123,7 +238,7 @@ HSP.page('u6-s06', {
         }]
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'A',
       bookRef: 'Unit 6 · P3 A',
       type: 'discuss',

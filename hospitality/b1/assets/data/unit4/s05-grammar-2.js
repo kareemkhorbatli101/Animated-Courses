@@ -12,6 +12,15 @@ HSP.page('u4-s05', {
       id: 'c1',
       ref: 'D',
       bookRef: 'Unit 4 · P2 D',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Schedule: 6:00 wake-up call · 7:30 breakfast · 9:00 taxi to the Old City',
+            say: 'Schedule: 6:00 wake-up call · 7:30 breakfast · 9:00 taxi to the Old City',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Look at the guest\'s schedule',
       instruction: 'Look at the guest\'s schedule. Write two sentences about the '

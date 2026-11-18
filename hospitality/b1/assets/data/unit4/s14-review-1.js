@@ -68,6 +68,21 @@ HSP.page('u4-s14', {
       id: 'c3',
       ref: 'C',
       bookRef: 'Unit 4 · P10 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Check-in at the Orient Rose Hotel is from two o\'clock in the '
+              + 'afternoon. Check-out is by twelve o\'clock noon. If a guest arrives '
+              + 'early, reception keeps the luggage until the room is ready. If a '
+              + 'guest wants to stay later, they can ask for a late check-out.',
+            say: 'Check-in at the Orient Rose Hotel is from two o\'clock in the '
+              + 'afternoon. Check-out is by twelve o\'clock noon. If a guest arrives '
+              + 'early, reception keeps the luggage until the room is ready. If a '
+              + 'guest wants to stay later, they can ask for a late check-out.',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Reading',
       instruction: 'Reading. Read the short text and answer.',

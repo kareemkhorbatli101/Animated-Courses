@@ -10,6 +10,66 @@ HSP.page('u9-s12', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 9 · P8',
+      type: 'study',
+      title: 'Consolidation',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Consolidation',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'One evening, a guest came to the desk, very upset. “This is '
+            + 'unacceptable!” he said loudly. “I booked a quiet room with a city '
+            + 'view, and I have a noisy room facing the car park!” Some other guests '
+            + 'turned to look. Lina stayed calm. “I\'m so sorry, sir,” she said '
+            + 'gently. “You\'re absolutely right to tell me. Please, come and sit '
+            + 'here for a moment, and I\'ll put this right.”',
+          say: 'One evening, a guest came to the desk, very upset. “This is '
+            + 'unacceptable!” he said loudly. “I booked a quiet room with a city '
+            + 'view, and I have a noisy room facing the car park!” Some other guests '
+            + 'turned to look. Lina stayed calm. “I\'m so sorry, sir,” she said '
+            + 'gently. “You\'re absolutely right to tell me. Please, come and sit '
+            + 'here for a moment, and I\'ll put this right.”',
+          role: 'course'
+        },
+        {
+          h: 'She led him to a quiet corner and listened to the whole story without '
+            + 'interrupting. Then she checked the computer. “I can see the mistake, '
+            + 'and I apologise,” she said. “If you give me five minutes, I\'ll move '
+            + 'you to a quiet room with a beautiful view of the Old City. The porter '
+            + 'will carry your bags, so you don\'t have to do anything.” The guest '
+            + 'began to relax. “And,” Lina added, “please accept dinner this evening '
+            + 'with our compliments, to say sorry for the trouble.”',
+          say: 'She led him to a quiet corner and listened to the whole story without '
+            + 'interrupting. Then she checked the computer. “I can see the mistake, '
+            + 'and I apologise,” she said. “If you give me five minutes, I\'ll move '
+            + 'you to a quiet room with a beautiful view of the Old City. The porter '
+            + 'will carry your bags, so you don\'t have to do anything.” The guest '
+            + 'began to relax. “And,” Lina added, “please accept dinner this evening '
+            + 'with our compliments, to say sorry for the trouble.”',
+          role: 'course'
+        },
+        {
+          h: 'Twenty minutes later, the guest was settled in his new room, looking '
+            + 'out at the lights of the Old City. He came down once more — but this '
+            + 'time to thank Lina. “You turned a terrible start into a wonderful '
+            + 'evening,” he said. “I\'ll certainly come back.” Mr. Nabil, who had '
+            + 'watched everything, smiled. “That,” he said quietly, “is how a '
+            + 'complaint becomes a friend.”',
+          say: 'Twenty minutes later, the guest was settled in his new room, looking '
+            + 'out at the lights of the Old City. He came down once more — but this '
+            + 'time to thank Lina. “You turned a terrible start into a wonderful '
+            + 'evening,” he said. “I\'ll certainly come back.” Mr. Nabil, who had '
+            + 'watched everything, smiled. “That,” he said quietly, “is how a '
+            + 'complaint becomes a friend.”',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 9 · P8 A',
       type: 'discuss',
@@ -52,7 +112,7 @@ HSP.page('u9-s12', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 9 · P8 B',
       type: 'cloze',
@@ -86,7 +146,7 @@ HSP.page('u9-s12', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 9 · P8 C',
       type: 'report',

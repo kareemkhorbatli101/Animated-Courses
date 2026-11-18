@@ -68,6 +68,21 @@ HSP.page('u6-s14', {
       id: 'c3',
       ref: 'C',
       bookRef: 'Unit 6 · P10 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Krak des Chevaliers is one of the biggest and best-kept castles in '
+              + 'the world. It stands on a high hill near the coast, and from its '
+              + 'walls there is a wonderful view of the green valley. It is further '
+              + 'from Damascus than the Old City, but it is well worth the journey.',
+            say: 'Krak des Chevaliers is one of the biggest and best-kept castles in '
+              + 'the world. It stands on a high hill near the coast, and from its '
+              + 'walls there is a wonderful view of the green valley. It is further '
+              + 'from Damascus than the Old City, but it is well worth the journey.',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Reading',
       instruction: 'Reading. Read the short text and answer.',

@@ -10,6 +10,75 @@ HSP.page('u6-s09', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 6 · P5',
+      type: 'study',
+      title: 'The reading',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The reading',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'A good concierge does not simply say, “Go here.” She listens first, '
+            + 'and then she matches the place to the guest. The best recommendation '
+            + 'for one guest is the worst for another. A family with young children, '
+            + 'a couple who love history, and a traveller who wants to relax all '
+            + 'need different advice.',
+          say: 'A good concierge does not simply say, “Go here.” She listens first, '
+            + 'and then she matches the place to the guest. The best recommendation '
+            + 'for one guest is the worst for another. A family with young children, '
+            + 'a couple who love history, and a traveller who wants to relax all '
+            + 'need different advice.',
+          role: 'course'
+        },
+        {
+          h: 'Syria offers something for everyone. For history-lovers, Palmyra has '
+            + 'the most famous ancient ruins in the country, and the castle of Krak '
+            + 'des Chevaliers is one of the greatest in the world. These places are '
+            + 'further away, so they are best for guests with more time. For a '
+            + 'shorter visit, the Old City of Damascus is closer and just as '
+            + 'beautiful, with the Umayyad Mosque, the old souq, and countless quiet '
+            + 'courtyards.',
+          say: 'Syria offers something for everyone. For history-lovers, Palmyra has '
+            + 'the most famous ancient ruins in the country, and the castle of Krak '
+            + 'des Chevaliers is one of the greatest in the world. These places are '
+            + 'further away, so they are best for guests with more time. For a '
+            + 'shorter visit, the Old City of Damascus is closer and just as '
+            + 'beautiful, with the Umayyad Mosque, the old souq, and countless quiet '
+            + 'courtyards.',
+          role: 'course'
+        },
+        {
+          h: 'For guests who want to relax, the coast is the answer. Latakia has '
+            + 'the finest beaches in the country, where the sea is warmer and the '
+            + 'days are slower. And for families, a walk in a green garden or a '
+            + 'visit to a busy, colourful souq is often more fun than a long museum '
+            + 'tour.',
+          say: 'For guests who want to relax, the coast is the answer. Latakia has '
+            + 'the finest beaches in the country, where the sea is warmer and the '
+            + 'days are slower. And for families, a walk in a green garden or a '
+            + 'visit to a busy, colourful souq is often more fun than a long museum '
+            + 'tour.',
+          role: 'course'
+        },
+        {
+          h: 'When Rana recommends a place, she also gives practical help: how far '
+            + 'it is, how to get there, how much it costs, and the best time to go. '
+            + 'A great recommendation is not only about the most beautiful place — '
+            + 'it is about the right place, at the right time, for the right guest. '
+            + 'That is the real art of the concierge.',
+          say: 'When Rana recommends a place, she also gives practical help: how far '
+            + 'it is, how to get there, how much it costs, and the best time to go. '
+            + 'A great recommendation is not only about the most beautiful place — '
+            + 'it is about the right place, at the right time, for the right guest. '
+            + 'That is the real art of the concierge.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 6 · P5 A',
       type: 'discuss',
@@ -57,7 +126,7 @@ HSP.page('u6-s09', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 6 · P5 B',
       type: 'cloze',
@@ -90,7 +159,7 @@ HSP.page('u6-s09', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 6 · P5 C',
       type: 'cloze',

@@ -23,6 +23,66 @@ HSP.page('u8-s04', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 8 · P2',
+      type: 'study',
+      title: 'The grammar, as the book gives it',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The grammar, as the book gives it',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'We use WILL (\'ll) to make an OFFER or a PROMISE at the moment of '
+            + 'speaking — a decision we make right now to help. When a guest asks '
+            + 'for something, we answer with will: “I\'ll bring it right away.” '
+            + '“I\'ll make sure your room is ready.” “Don\'t worry, I\'ll take care '
+            + 'of it.” We also use Shall I…? to offer: “Shall I call a taxi for '
+            + 'you?”',
+          say: 'We use WILL (\'ll) to make an OFFER or a PROMISE at the moment of '
+            + 'speaking — a decision we make right now to help. When a guest asks '
+            + 'for something, we answer with will: “I\'ll bring it right away.” '
+            + '“I\'ll make sure your room is ready.” “Don\'t worry, I\'ll take care '
+            + 'of it.” We also use Shall I…? to offer: “Shall I call a taxi for '
+            + 'you?”',
+          role: 'course'
+        },
+        {
+          h: 'We use GOING TO for a PLAN or intention we decided BEFORE now: '
+            + '“We\'re going to add a new ramp next month.” “I\'m going to check the '
+            + 'store for more pillows.” The difference: will = I decide to help now; '
+            + 'going to = I already had this plan.',
+          say: 'We use GOING TO for a PLAN or intention we decided BEFORE now: '
+            + '“We\'re going to add a new ramp next month.” “I\'m going to check the '
+            + 'store for more pillows.” The difference: will = I decide to help now; '
+            + 'going to = I already had this plan.',
+          role: 'course'
+        },
+        {
+          h: 'A promise with will is powerful. When you say “I\'ll do it,” the '
+            + 'guest trusts you — so only promise what you can really do, and then '
+            + 'do it.',
+          say: 'A promise with will is powerful. When you say “I\'ll do it,” the '
+            + 'guest trusts you — so only promise what you can really do, and then '
+            + 'do it.',
+          role: 'course'
+        },
+        {
+          h: 'Form',
+          say: 'Form',
+          role: 'course'
+        },
+        {
+          h: 'Offer / promise: I / we + will (\'ll) + base verb · Shall I + base '
+            + 'verb? Plan: I am / we are + going to + base verb',
+          say: 'Offer / promise: I / we + will (\'ll) + base verb · Shall I + base '
+            + 'verb? Plan: I am / we are + going to + base verb',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 8 · P2 A',
       type: 'cloze',
@@ -53,7 +113,7 @@ HSP.page('u8-s04', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 8 · P2 B',
       type: 'discuss',
@@ -92,7 +152,7 @@ HSP.page('u8-s04', {
         + 'beside your own.'
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'C',
       bookRef: 'Unit 8 · P2 C',
       type: 'cloze',

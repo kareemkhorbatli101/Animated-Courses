@@ -12,6 +12,19 @@ HSP.page('u6-s15', {
       id: 'c1',
       ref: 'D',
       bookRef: 'Unit 6 · P10 D',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: '[Teacher reads] \'For one day, the Old City is the best choice. It\'s '
+              + 'closer than Palmyra and more beautiful than the new town. The best '
+              + 'time to go is the morning.\'',
+            say: '[Teacher reads] \'For one day, the Old City is the best choice. It\'s '
+              + 'closer than Palmyra and more beautiful than the new town. The best '
+              + 'time to go is the morning.\'',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Listening',
       instruction: 'Listening. Listen and answer. (Teacher reads.)',
@@ -55,6 +68,40 @@ HSP.page('u6-s15', {
       id: 'c3',
       ref: 'F',
       bookRef: 'Unit 6 · P10 F',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Can-Do check. Tick what you can do.',
+            say: 'Can-Do check. Tick what you can do.',
+            role: 'course'
+          },
+          {
+            h: 'I can recommend places to visit.',
+            say: 'I can recommend places to visit.',
+            role: 'course'
+          },
+          {
+            h: 'I can compare options with comparatives &amp; superlatives.',
+            say: 'I can compare options with comparatives & superlatives.',
+            role: 'course'
+          },
+          {
+            h: 'I can give simple tourist information.',
+            say: 'I can give simple tourist information.',
+            role: 'course'
+          },
+          {
+            h: 'I can describe places with adjectives.',
+            say: 'I can describe places with adjectives.',
+            role: 'course'
+          },
+          {
+            h: 'I can help a guest plan a day out.',
+            say: 'I can help a guest plan a day out.',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Writing',
       instruction: 'Writing. Write two sentences: one comparative and one superlative '

@@ -68,6 +68,21 @@ HSP.page('u8-s14', {
       id: 'c3',
       ref: 'C',
       bookRef: 'Unit 8 · P10 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'An accessible room is a room designed for guests with special needs. '
+              + 'It has a wide door for a wheelchair, a low bed, and a bathroom with '
+              + 'handrails and a seat in the shower. Many hotels keep one or two '
+              + 'accessible rooms ready at all times, so every guest is welcome.',
+            say: 'An accessible room is a room designed for guests with special needs. '
+              + 'It has a wide door for a wheelchair, a low bed, and a bathroom with '
+              + 'handrails and a seat in the shower. Many hotels keep one or two '
+              + 'accessible rooms ready at all times, so every guest is welcome.',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Reading',
       instruction: 'Reading. Read the short text and answer.',

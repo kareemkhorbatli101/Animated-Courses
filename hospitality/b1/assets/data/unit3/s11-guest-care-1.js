@@ -10,6 +10,40 @@ HSP.page('u3-s11', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 3 · P7',
+      type: 'study',
+      title: 'Guest-care and service',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Guest-care and service',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Guests often make special requests: a quiet room, a room on a low '
+            + 'floor, a cot for a baby, or an early check-in. A good receptionist '
+            + 'listens and tries to help. When she can, she says “Yes, of course.” '
+            + 'But sometimes the answer must be “no” — for example, if the hotel is '
+            + 'full or the room is not ready. Then she never says a hard “no.” '
+            + 'Instead, she says sorry, gives a reason, and offers another choice: '
+            + '“I\'m sorry, an early check-in isn\'t possible today, but I can keep '
+            + 'your bags and offer you a coffee in the café.” A kind “no” with a '
+            + 'helpful offer keeps the guest happy.',
+          say: 'Guests often make special requests: a quiet room, a room on a low '
+            + 'floor, a cot for a baby, or an early check-in. A good receptionist '
+            + 'listens and tries to help. When she can, she says “Yes, of course.” '
+            + 'But sometimes the answer must be “no” — for example, if the hotel is '
+            + 'full or the room is not ready. Then she never says a hard “no.” '
+            + 'Instead, she says sorry, gives a reason, and offers another choice: '
+            + '“I\'m sorry, an early check-in isn\'t possible today, but I can keep '
+            + 'your bags and offer you a coffee in the café.” A kind “no” with a '
+            + 'helpful offer keeps the guest happy.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 3 · P7 A',
       type: 'discuss',
@@ -47,7 +81,7 @@ HSP.page('u3-s11', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 3 · P7 B',
       type: 'cloze',

@@ -23,6 +23,44 @@ HSP.page('u7-s11', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 7 · P7',
+      type: 'study',
+      title: 'Guest-care and service',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Guest-care and service',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'A good housekeeper respects the guest\'s wishes and privacy. If a '
+            + 'guest hangs a \'Do Not Disturb\' sign on the door, the housekeeper '
+            + 'never knocks or enters — the guest wants rest or privacy. If the sign '
+            + 'says \'Please Make Up Room\', the housekeeper cleans the room while '
+            + 'the guest is out. In the evening, some hotels offer a \'turn-down\' '
+            + 'service: the housekeeper prepares the bed for sleep, dims the lights, '
+            + 'and sometimes leaves a small sweet on the pillow. And when a guest '
+            + 'leaves something behind — a phone, a book, a jacket — the housekeeper '
+            + 'takes it to \'lost property\', where it is kept safely until the '
+            + 'guest returns for it. All of this is part of one idea: care for the '
+            + 'guest, seen or unseen, present or away.',
+          say: 'A good housekeeper respects the guest\'s wishes and privacy. If a '
+            + 'guest hangs a \'Do Not Disturb\' sign on the door, the housekeeper '
+            + 'never knocks or enters — the guest wants rest or privacy. If the sign '
+            + 'says \'Please Make Up Room\', the housekeeper cleans the room while '
+            + 'the guest is out. In the evening, some hotels offer a \'turn-down\' '
+            + 'service: the housekeeper prepares the bed for sleep, dims the lights, '
+            + 'and sometimes leaves a small sweet on the pillow. And when a guest '
+            + 'leaves something behind — a phone, a book, a jacket — the housekeeper '
+            + 'takes it to \'lost property\', where it is kept safely until the '
+            + 'guest returns for it. All of this is part of one idea: care for the '
+            + 'guest, seen or unseen, present or away.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 7 · P7 A',
       type: 'discuss',
@@ -61,7 +99,7 @@ HSP.page('u7-s11', {
         + 'beside your own.'
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 7 · P7 B',
       type: 'cloze',

@@ -69,6 +69,23 @@ HSP.page('u7-s14', {
       id: 'c3',
       ref: 'C',
       bookRef: 'Unit 7 · P10 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Housekeeping works from early morning until evening. First, the team '
+              + 'cleans the rooms of the guests who have checked out. Then they tidy '
+              + 'the rooms of the guests who are staying. They have a strict checklist '
+              + 'for every room, and a supervisor checks their work before a new guest '
+              + 'arrives.',
+            say: 'Housekeeping works from early morning until evening. First, the team '
+              + 'cleans the rooms of the guests who have checked out. Then they tidy '
+              + 'the rooms of the guests who are staying. They have a strict checklist '
+              + 'for every room, and a supervisor checks their work before a new guest '
+              + 'arrives.',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Reading',
       instruction: 'Reading. Read the short text and answer.',

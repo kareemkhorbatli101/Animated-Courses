@@ -10,6 +10,81 @@ HSP.page('u7-s09', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 7 · P5',
+      type: 'study',
+      title: 'The reading',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The reading',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'The housekeeping team is sometimes called the \'invisible team\'. '
+            + 'Guests rarely see them at work, and yet their work is everywhere. It '
+            + 'is in the fresh, clean sheets, the folded towels, the shining '
+            + 'bathroom, and the sweet smell of a well-kept room. When everything is '
+            + 'perfect, the guest simply feels comfortable — and does not think '
+            + 'about it at all. That is the true sign of great housekeeping: it is '
+            + 'felt, not seen.',
+          say: 'The housekeeping team is sometimes called the \'invisible team\'. '
+            + 'Guests rarely see them at work, and yet their work is everywhere. It '
+            + 'is in the fresh, clean sheets, the folded towels, the shining '
+            + 'bathroom, and the sweet smell of a well-kept room. When everything is '
+            + 'perfect, the guest simply feels comfortable — and does not think '
+            + 'about it at all. That is the true sign of great housekeeping: it is '
+            + 'felt, not seen.',
+          role: 'course'
+        },
+        {
+          h: 'Housekeeping is also very hard work. A housekeeper may clean fifteen '
+            + 'or twenty rooms in a single day. Each room follows a careful '
+            + 'checklist: strip the old sheets, make the bed with fresh linen, '
+            + 'change the towels, clean the bathroom, empty the bins, vacuum the '
+            + 'floor, and restock the tea, coffee and water. When the checklist is '
+            + 'complete, the housekeeper checks the room one last time before she '
+            + 'says, “This room is ready.”',
+          say: 'Housekeeping is also very hard work. A housekeeper may clean fifteen '
+            + 'or twenty rooms in a single day. Each room follows a careful '
+            + 'checklist: strip the old sheets, make the bed with fresh linen, '
+            + 'change the towels, clean the bathroom, empty the bins, vacuum the '
+            + 'floor, and restock the tea, coffee and water. When the checklist is '
+            + 'complete, the housekeeper checks the room one last time before she '
+            + 'says, “This room is ready.”',
+          role: 'course'
+        },
+        {
+          h: 'Good housekeeping is not only about cleaning. It is about hygiene and '
+            + 'health. A clean room protects guests from germs and keeps them safe. '
+            + 'This is why hotels have such high standards, and why housekeepers are '
+            + 'trained so carefully. A single dirty glass or an old towel can spoil '
+            + 'a guest\'s whole opinion of the hotel.',
+          say: 'Good housekeeping is not only about cleaning. It is about hygiene and '
+            + 'health. A clean room protects guests from germs and keeps them safe. '
+            + 'This is why hotels have such high standards, and why housekeepers are '
+            + 'trained so carefully. A single dirty glass or an old towel can spoil '
+            + 'a guest\'s whole opinion of the hotel.',
+          role: 'course'
+        },
+        {
+          h: 'Room service is part of the same care. Late at night, when the '
+            + 'restaurant is closed and a guest is hungry, room service brings '
+            + 'comfort to the door. A warm meal, delivered with a smile, tells the '
+            + 'guest: even now, we are looking after you. The invisible team may '
+            + 'work quietly and unseen — but their care is at the very heart of the '
+            + 'guest\'s experience.',
+          say: 'Room service is part of the same care. Late at night, when the '
+            + 'restaurant is closed and a guest is hungry, room service brings '
+            + 'comfort to the door. A warm meal, delivered with a smile, tells the '
+            + 'guest: even now, we are looking after you. The invisible team may '
+            + 'work quietly and unseen — but their care is at the very heart of the '
+            + 'guest\'s experience.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 7 · P5 A',
       type: 'discuss',
@@ -57,7 +132,7 @@ HSP.page('u7-s09', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 7 · P5 B',
       type: 'cloze',
@@ -91,7 +166,7 @@ HSP.page('u7-s09', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 7 · P5 C',
       type: 'cloze',

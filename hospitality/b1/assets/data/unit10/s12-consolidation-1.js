@@ -10,6 +10,70 @@ HSP.page('u10-s12', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 10 · P8',
+      type: 'study',
+      title: 'Consolidation',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Consolidation',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'One morning, a smiling man came to the desk. “Do you remember me?” he '
+            + 'asked. Lina looked, and then she smiled too. “Mr. Deeb! Of course. '
+            + 'You stayed with us a year ago.” “I did,” he said. “And you looked '
+            + 'after me so well that I promised I would come back. So here I am.” '
+            + 'Lina felt a warm glow of pride. This was the greatest reward of all: '
+            + 'a guest who had returned.',
+          say: 'One morning, a smiling man came to the desk. “Do you remember me?” he '
+            + 'asked. Lina looked, and then she smiled too. “Mr. Deeb! Of course. '
+            + 'You stayed with us a year ago.” “I did,” he said. “And you looked '
+            + 'after me so well that I promised I would come back. So here I am.” '
+            + 'Lina felt a warm glow of pride. This was the greatest reward of all: '
+            + 'a guest who had returned.',
+          role: 'course'
+        },
+        {
+          h: 'Mr. Deeb stayed for three happy nights. On the last morning, he came '
+            + 'to check out. Lina prepared his bill and explained each charge '
+            + 'clearly. “The total is 380 dollars,” she said. He paid by card, and '
+            + 'she gave him a receipt. “Did you enjoy your stay?” she asked. “Very '
+            + 'much,” he said. “The room was perfect, and the food was even better '
+            + 'than last year.” Lina thanked him and wrote his kind words down for '
+            + 'the chef.',
+          say: 'Mr. Deeb stayed for three happy nights. On the last morning, he came '
+            + 'to check out. Lina prepared his bill and explained each charge '
+            + 'clearly. “The total is 380 dollars,” she said. He paid by card, and '
+            + 'she gave him a receipt. “Did you enjoy your stay?” she asked. “Very '
+            + 'much,” he said. “The room was perfect, and the food was even better '
+            + 'than last year.” Lina thanked him and wrote his kind words down for '
+            + 'the chef.',
+          role: 'course'
+        },
+        {
+          h: 'As he left, Mr. Deeb turned at the door. “Thank you for everything,” '
+            + 'he said. “I\'ll be back again.” “We\'ll be waiting for you,” said '
+            + 'Lina, with a warm smile. Later, Mr. Nabil came over. “A year ago,” he '
+            + 'said, “you were a nervous new trainee. Today, a guest travelled back '
+            + 'across the country just to see you. You have learned everything I '
+            + 'hoped to teach you. Well done, Lina.” And Lina understood: the '
+            + 'journey that had begun with her first shy \'welcome\' had come, at '
+            + 'last, full circle.',
+          say: 'As he left, Mr. Deeb turned at the door. “Thank you for everything,” '
+            + 'he said. “I\'ll be back again.” “We\'ll be waiting for you,” said '
+            + 'Lina, with a warm smile. Later, Mr. Nabil came over. “A year ago,” he '
+            + 'said, “you were a nervous new trainee. Today, a guest travelled back '
+            + 'across the country just to see you. You have learned everything I '
+            + 'hoped to teach you. Well done, Lina.” And Lina understood: the '
+            + 'journey that had begun with her first shy \'welcome\' had come, at '
+            + 'last, full circle.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 10 · P8 A',
       type: 'discuss',
@@ -50,7 +114,7 @@ HSP.page('u10-s12', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 10 · P8 B',
       type: 'cloze',
@@ -84,7 +148,7 @@ HSP.page('u10-s12', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 10 · P8 C',
       type: 'report',

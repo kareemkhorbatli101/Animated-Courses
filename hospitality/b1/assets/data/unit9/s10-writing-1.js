@@ -9,6 +9,45 @@ HSP.page('u9-s10', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 9 · P6',
+      type: 'study',
+      title: 'Before you write',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you write',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Dear Mr. Sayed, please accept my sincere apologies for the noise in '
+            + 'your room last night. I have now moved you to a quiet corner room, '
+            + '402. If you have any more trouble, please call me directly, and I '
+            + 'will come at once. As a small apology, breakfast tomorrow is with our '
+            + 'compliments. Thank you for your patience and understanding. Kind '
+            + 'regards, Lina — Front Office.',
+          say: 'Dear Mr. Sayed, please accept my sincere apologies for the noise in '
+            + 'your room last night. I have now moved you to a quiet corner room, '
+            + '402. If you have any more trouble, please call me directly, and I '
+            + 'will come at once. As a small apology, breakfast tomorrow is with our '
+            + 'compliments. Thank you for your patience and understanding. Kind '
+            + 'regards, Lina — Front Office.',
+          role: 'course'
+        },
+        {
+          h: 'Complaint report. Room 210. Problem: noisy neighbours, guest could '
+            + 'not sleep. Action taken: apologised, moved guest to room 402, spoke '
+            + 'to neighbours, offered free breakfast. Guest now satisfied. Note: we '
+            + 'should check the soundproofing between rooms 208–212.',
+          say: 'Complaint report. Room 210. Problem: noisy neighbours, guest could '
+            + 'not sleep. Action taken: apologised, moved guest to room 402, spoke '
+            + 'to neighbours, offered free breakfast. Guest now satisfied. Note: we '
+            + 'should check the soundproofing between rooms 208–212.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 9 · P6 A',
       type: 'discuss',
@@ -39,9 +78,20 @@ HSP.page('u9-s10', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 9 · P6 B',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Plan: 1) apologise sincerely 2) say what you have done / will do 3) '
+              + 'offer something (a fresh meal, a discount) 4) a warm closing',
+            say: 'Plan: 1) apologise sincerely 2) say what you have done / will do 3) '
+              + 'offer something (a fresh meal, a discount) 4) a warm closing',
+            role: 'course'
+          }]
+      },
       type: 'writer',
       title: 'Now you write',
       instruction: 'Now you write. A guest complained about a cold meal in the '

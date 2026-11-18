@@ -10,6 +10,71 @@ HSP.page('u3-s09', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 3 · P5',
+      type: 'study',
+      title: 'The reading',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The reading',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Taking a good booking is an art. It follows the same clear steps '
+            + 'every time, and it always uses polite, friendly English. The first '
+            + 'step is the greeting. On the phone, you say the name of the hotel and '
+            + 'offer help: “Good morning, Orient Rose Hotel. How can I help you?” A '
+            + 'warm greeting tells the guest they are welcome.',
+          say: 'Taking a good booking is an art. It follows the same clear steps '
+            + 'every time, and it always uses polite, friendly English. The first '
+            + 'step is the greeting. On the phone, you say the name of the hotel and '
+            + 'offer help: “Good morning, Orient Rose Hotel. How can I help you?” A '
+            + 'warm greeting tells the guest they are welcome.',
+          role: 'course'
+        },
+        {
+          h: 'The second step is to check availability. Before you promise a room, '
+            + 'you look at the computer to see if a room is free for those dates. If '
+            + 'there is a room, you continue. If not, you must tell the guest '
+            + 'politely and offer another date or another room type.',
+          say: 'The second step is to check availability. Before you promise a room, '
+            + 'you look at the computer to see if a room is free for those dates. If '
+            + 'there is a room, you continue. If not, you must tell the guest '
+            + 'politely and offer another date or another room type.',
+          role: 'course'
+        },
+        {
+          h: 'The third step is to take the details. You ask for the guest\'s name, '
+            + 'the dates, the room type, and the number of nights. You use polite '
+            + 'requests: “Could I take your name?” and “Could you spell that, '
+            + 'please?” Names and dates are easy to get wrong, so you repeat them '
+            + 'and check. This is the most important step.',
+          say: 'The third step is to take the details. You ask for the guest\'s name, '
+            + 'the dates, the room type, and the number of nights. You use polite '
+            + 'requests: “Could I take your name?” and “Could you spell that, '
+            + 'please?” Names and dates are easy to get wrong, so you repeat them '
+            + 'and check. This is the most important step.',
+          role: 'course'
+        },
+        {
+          h: 'The fourth step is to confirm. You say the whole booking back to the '
+            + 'guest: “So that\'s a double room for two nights, the 14th and 15th of '
+            + 'June.” Then you offer to send a confirmation. Finally, you thank the '
+            + 'guest and say goodbye warmly. Follow these steps, speak slowly, and '
+            + 'always be polite — and every booking will be the happy start of a '
+            + 'happy stay.',
+          say: 'The fourth step is to confirm. You say the whole booking back to the '
+            + 'guest: “So that\'s a double room for two nights, the 14th and 15th of '
+            + 'June.” Then you offer to send a confirmation. Finally, you thank the '
+            + 'guest and say goodbye warmly. Follow these steps, speak slowly, and '
+            + 'always be polite — and every booking will be the happy start of a '
+            + 'happy stay.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 3 · P5 A',
       type: 'discuss',
@@ -55,7 +120,7 @@ HSP.page('u3-s09', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 3 · P5 B',
       type: 'cloze',
@@ -89,7 +154,7 @@ HSP.page('u3-s09', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 3 · P5 C',
       type: 'cloze',

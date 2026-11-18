@@ -10,6 +10,83 @@ HSP.page('u8-s09', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 8 · P5',
+      type: 'study',
+      title: 'The reading',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The reading',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'In the best hotels, the staff have a special attitude. Whenever a '
+            + 'guest asks for something, their first thought is not “Can we do '
+            + 'this?” but “How can we do this?” This is the power of “yes”. A guest '
+            + 'who hears “yes” feels valued and safe. A guest who hears “no” — even '
+            + 'for a small thing — feels like a problem. So a great receptionist '
+            + 'says “yes” whenever she possibly can, and she says it with a smile '
+            + 'and a promise: “Of course. I\'ll take care of it.”',
+          say: 'In the best hotels, the staff have a special attitude. Whenever a '
+            + 'guest asks for something, their first thought is not “Can we do '
+            + 'this?” but “How can we do this?” This is the power of “yes”. A guest '
+            + 'who hears “yes” feels valued and safe. A guest who hears “no” — even '
+            + 'for a small thing — feels like a problem. So a great receptionist '
+            + 'says “yes” whenever she possibly can, and she says it with a smile '
+            + 'and a promise: “Of course. I\'ll take care of it.”',
+          role: 'course'
+        },
+        {
+          h: 'But “yes” must always be true. A promise is only good if you keep it. '
+            + 'If you say “I\'ll bring your towels in five minutes,” the towels must '
+            + 'arrive in five minutes. A hotel that keeps its small promises earns '
+            + 'the trust to be forgiven for bigger problems. A hotel that breaks '
+            + 'even a small promise loses that trust. This is why good staff promise '
+            + 'only what they can really do — and then they do it, every time.',
+          say: 'But “yes” must always be true. A promise is only good if you keep it. '
+            + 'If you say “I\'ll bring your towels in five minutes,” the towels must '
+            + 'arrive in five minutes. A hotel that keeps its small promises earns '
+            + 'the trust to be forgiven for bigger problems. A hotel that breaks '
+            + 'even a small promise loses that trust. This is why good staff promise '
+            + 'only what they can really do — and then they do it, every time.',
+          role: 'course'
+        },
+        {
+          h: 'Special needs deserve special care. A guest in a wheelchair, a family '
+            + 'with a baby, an elderly visitor, or a guest with an allergy all need '
+            + 'a little extra thought. The best hotels do not wait to be asked; they '
+            + 'anticipate. They prepare an accessible room in advance, keep a cot '
+            + 'ready, and check every dish for allergens. When a hotel welcomes '
+            + 'every guest — of every age and ability — it shows the very best of '
+            + 'hospitality.',
+          say: 'Special needs deserve special care. A guest in a wheelchair, a family '
+            + 'with a baby, an elderly visitor, or a guest with an allergy all need '
+            + 'a little extra thought. The best hotels do not wait to be asked; they '
+            + 'anticipate. They prepare an accessible room in advance, keep a cot '
+            + 'ready, and check every dish for allergens. When a hotel welcomes '
+            + 'every guest — of every age and ability — it shows the very best of '
+            + 'hospitality.',
+          role: 'course'
+        },
+        {
+          h: 'Sometimes, of course, the true answer is “no.” The hotel may be full, '
+            + 'or a request may be impossible. Then the skill is to say “no” kindly: '
+            + 'apologise, give a reason, and offer an alternative. “I\'m sorry, we '
+            + 'can\'t do that today, but I\'ll do this instead.” Even a “no”, said '
+            + 'with care and a helpful offer, can keep a guest happy. That is the '
+            + 'real art of handling requests.',
+          say: 'Sometimes, of course, the true answer is “no.” The hotel may be full, '
+            + 'or a request may be impossible. Then the skill is to say “no” kindly: '
+            + 'apologise, give a reason, and offer an alternative. “I\'m sorry, we '
+            + 'can\'t do that today, but I\'ll do this instead.” Even a “no”, said '
+            + 'with care and a helpful offer, can keep a guest happy. That is the '
+            + 'real art of handling requests.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 8 · P5 A',
       type: 'discuss',
@@ -57,7 +134,7 @@ HSP.page('u8-s09', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 8 · P5 B',
       type: 'cloze',
@@ -91,7 +168,7 @@ HSP.page('u8-s09', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 8 · P5 C',
       type: 'cloze',

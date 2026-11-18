@@ -10,6 +10,50 @@ HSP.page('u6-s16', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 6 · P11',
+      type: 'study',
+      title: 'Foundations for further study',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Foundations for further study',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Great hospitality does not stop at the hotel door. A guest\'s '
+            + 'experience of a city — and of a whole country — is often shaped by '
+            + 'the advice they receive at the concierge desk. This is why local '
+            + 'knowledge is one of the most valuable skills in the industry. A '
+            + 'concierge who knows the city well, who compares options honestly, and '
+            + 'who matches each recommendation to the guest, becomes a trusted '
+            + 'friend and guide. Guests remember the hotel that helped them discover '
+            + 'the best café, the most beautiful view, or the quiet corner that was '
+            + 'not in any guidebook. In this way, the concierge extends the welcome '
+            + 'of the hotel out into the streets, the markets and the landmarks of '
+            + 'the city. The language of recommending, comparing and describing '
+            + 'places — the language of this unit — is central to that role, and to '
+            + 'every hospitality qualification. It turns a place to sleep into a '
+            + 'doorway to a country.',
+          say: 'Great hospitality does not stop at the hotel door. A guest\'s '
+            + 'experience of a city — and of a whole country — is often shaped by '
+            + 'the advice they receive at the concierge desk. This is why local '
+            + 'knowledge is one of the most valuable skills in the industry. A '
+            + 'concierge who knows the city well, who compares options honestly, and '
+            + 'who matches each recommendation to the guest, becomes a trusted '
+            + 'friend and guide. Guests remember the hotel that helped them discover '
+            + 'the best café, the most beautiful view, or the quiet corner that was '
+            + 'not in any guidebook. In this way, the concierge extends the welcome '
+            + 'of the hotel out into the streets, the markets and the landmarks of '
+            + 'the city. The language of recommending, comparing and describing '
+            + 'places — the language of this unit — is central to that role, and to '
+            + 'every hospitality qualification. It turns a place to sleep into a '
+            + 'doorway to a country.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 6 · P11 A',
       type: 'discuss',
@@ -42,9 +86,22 @@ HSP.page('u6-s16', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 6 · P11 B',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'You are the concierge. Your partner is a guest with one free day. Ask '
+              + 'what they like, then recommend the best place, compare it with one '
+              + 'other, and give practical information. Then change roles.',
+            say: 'You are the concierge. Your partner is a guest with one free day. Ask '
+              + 'what they like, then recommend the best place, compare it with one '
+              + 'other, and give practical information. Then change roles.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Apply it',
       instruction: 'Apply it. Do this task with a partner.',
@@ -53,9 +110,20 @@ HSP.page('u6-s16', {
       stems: ['Say it, then write what you said.']
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 6 · P11 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Write 40–60 words recommending your favourite place in the world. Use '
+              + 'at least one comparative and one superlative.',
+            say: 'Write 40–60 words recommending your favourite place in the world. Use '
+              + 'at least one comparative and one superlative.',
+            role: 'course'
+          }]
+      },
       type: 'writer',
       title: 'Micro-writing (optional)',
       instruction: 'Micro-writing (optional).',

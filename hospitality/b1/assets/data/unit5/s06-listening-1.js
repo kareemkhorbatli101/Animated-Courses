@@ -23,6 +23,110 @@ HSP.page('u5-s06', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 5 · P3',
+      type: 'study',
+      title: 'The conversation',
+      instruction: 'Listen and read. Each person has their own voice.',
+      passage: {
+      title: 'The conversation',
+      listenLabel: 'Play the conversation',
+      paras: [{
+          h: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          say: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          role: 'course'
+        },
+        {
+          h: '<b>Waiter:</b> Good evening. Welcome to the Orient Rose restaurant. '
+            + 'Are you ready to order?',
+          say: 'Good evening. Welcome to the Orient Rose restaurant. Are you ready to order?',
+          role: 'waiter',
+          who: 'Waiter'
+        },
+        {
+          h: '<b>Guest:</b> Yes, thank you. What do you recommend?',
+          say: 'Yes, thank you. What do you recommend?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Waiter:</b> The mezze are very popular. The hummus and the '
+            + 'fattoush are excellent.',
+          say: 'The mezze are very popular. The hummus and the fattoush are excellent.',
+          role: 'waiter',
+          who: 'Waiter'
+        },
+        {
+          h: '<b>Guest:</b> Lovely. I\'ll have the hummus to start, and then the '
+            + 'kebab, please.',
+          say: 'Lovely. I\'ll have the hummus to start, and then the kebab, please.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Waiter:</b> An excellent choice. And to drink?',
+          say: 'An excellent choice. And to drink?',
+          role: 'waiter',
+          who: 'Waiter'
+        },
+        {
+          h: '<b>Guest:</b> A mint tea, please.',
+          say: 'A mint tea, please.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Waiter:</b> Of course. So that\'s hummus, then the kebab, with a '
+            + 'mint tea. I\'ll bring your starter right away.',
+          say: 'Of course. So that\'s hummus, then the kebab, with a mint tea. I\'ll '
+            + 'bring your starter right away.',
+          role: 'waiter',
+          who: 'Waiter'
+        },
+        {
+          h: '<b>Waiter:</b> Did you enjoy your meal?',
+          say: 'Did you enjoy your meal?',
+          role: 'waiter',
+          who: 'Waiter'
+        },
+        {
+          h: '<b>Guest:</b> Yes, it was delicious. The kebab was wonderful.',
+          say: 'Yes, it was delicious. The kebab was wonderful.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Waiter:</b> I\'m very glad. Would you like a dessert or a coffee?',
+          say: 'I\'m very glad. Would you like a dessert or a coffee?',
+          role: 'waiter',
+          who: 'Waiter'
+        },
+        {
+          h: '<b>Guest:</b> Just the bill, please. We had a lovely evening.',
+          say: 'Just the bill, please. We had a lovely evening.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Waiter:</b> Of course. Here you are. Thank you for coming, and '
+            + 'please come again.',
+          say: 'Of course. Here you are. Thank you for coming, and please come again.',
+          role: 'waiter',
+          who: 'Waiter'
+        },
+        {
+          h: '<b>Guest:</b> We will. Everything was perfect.',
+          say: 'We will. Everything was perfect.',
+          role: 'guest',
+          who: 'Guest'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 5 · P3 A',
       type: 'discuss',
@@ -61,7 +165,7 @@ HSP.page('u5-s06', {
         + 'beside your own.'
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 5 · P3 B',
       type: 'quizset',
@@ -122,7 +226,7 @@ HSP.page('u5-s06', {
         }]
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'A',
       bookRef: 'Unit 5 · P3 A',
       type: 'discuss',

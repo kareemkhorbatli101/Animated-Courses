@@ -12,6 +12,35 @@ HSP.page('u8-s08', {
       id: 'c1',
       ref: 'A',
       bookRef: 'Unit 8 · P4 A',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'A: Make two requests (for example, extra towels and an adapter).',
+            say: 'A: Make two requests (for example, extra towels and an adapter).',
+            role: 'course'
+          },
+          {
+            h: 'B: Say yes, and promise action with I\'ll for each.',
+            say: 'B: Say yes, and promise action with I\'ll for each.',
+            role: 'course'
+          },
+          {
+            h: 'A: Ask for one special need (a cot, a ramp, an allergy-safe meal).',
+            say: 'A: Ask for one special need (a cot, a ramp, an allergy-safe meal).',
+            role: 'course'
+          },
+          {
+            h: 'B: Reassure the guest and promise to arrange it.',
+            say: 'B: Reassure the guest and promise to arrange it.',
+            role: 'course'
+          },
+          {
+            h: 'A: Say thank you.',
+            say: 'A: Say thank you.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Role-play: handle a request',
       instruction: 'Role-play: handle a request. Student A is a guest; Student B is the '

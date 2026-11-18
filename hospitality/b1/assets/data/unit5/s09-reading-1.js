@@ -10,6 +10,71 @@ HSP.page('u5-s09', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 5 · P5',
+      type: 'study',
+      title: 'The reading',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The reading',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Last Friday evening, a family came to the Orient Rose restaurant to '
+            + 'celebrate a birthday. There were six people: two grandparents, a '
+            + 'mother and father, and two children. Rashid, the head waiter, '
+            + 'welcomed them warmly and showed them to a big table near the window. '
+            + 'Lina worked with him that night, and she felt a little nervous.',
+          say: 'Last Friday evening, a family came to the Orient Rose restaurant to '
+            + 'celebrate a birthday. There were six people: two grandparents, a '
+            + 'mother and father, and two children. Rashid, the head waiter, '
+            + 'welcomed them warmly and showed them to a big table near the window. '
+            + 'Lina worked with him that night, and she felt a little nervous.',
+          role: 'course'
+        },
+        {
+          h: 'First, Rashid brought the menus and gave the family a few minutes to '
+            + 'choose. Then Lina took the order. The grandmother ordered the '
+            + 'fattoush, and the father chose the mixed grill. The children wanted '
+            + 'shish taouk with chips, and the mother asked for the grilled fish. '
+            + 'Lina wrote everything down carefully and repeated the order. She did '
+            + 'not make a single mistake.',
+          say: 'First, Rashid brought the menus and gave the family a few minutes to '
+            + 'choose. Then Lina took the order. The grandmother ordered the '
+            + 'fattoush, and the father chose the mixed grill. The children wanted '
+            + 'shish taouk with chips, and the mother asked for the grilled fish. '
+            + 'Lina wrote everything down carefully and repeated the order. She did '
+            + 'not make a single mistake.',
+          role: 'course'
+        },
+        {
+          h: 'The food arrived hot and fresh. The family ate slowly and talked and '
+            + 'laughed. The grandfather said the hummus was the best in Damascus. At '
+            + 'the end, Rashid brought a small cake with a candle, and the whole '
+            + 'restaurant sang for the birthday. The children\'s faces shone with '
+            + 'happiness.',
+          say: 'The food arrived hot and fresh. The family ate slowly and talked and '
+            + 'laughed. The grandfather said the hummus was the best in Damascus. At '
+            + 'the end, Rashid brought a small cake with a candle, and the whole '
+            + 'restaurant sang for the birthday. The children\'s faces shone with '
+            + 'happiness.',
+          role: 'course'
+        },
+        {
+          h: 'When the family left, the mother thanked Lina and Rashid. “You made '
+            + 'this evening special,” she said. “We will come again.” Lina smiled. '
+            + 'She was tired, but she was proud. That night, she understood '
+            + 'Rashid\'s words at last: a good meal really is a happy memory.',
+          say: 'When the family left, the mother thanked Lina and Rashid. “You made '
+            + 'this evening special,” she said. “We will come again.” Lina smiled. '
+            + 'She was tired, but she was proud. That night, she understood '
+            + 'Rashid\'s words at last: a good meal really is a happy memory.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 5 · P5 A',
       type: 'discuss',
@@ -55,7 +120,7 @@ HSP.page('u5-s09', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 5 · P5 B',
       type: 'cloze',
@@ -87,7 +152,7 @@ HSP.page('u5-s09', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 5 · P5 C',
       type: 'cloze',

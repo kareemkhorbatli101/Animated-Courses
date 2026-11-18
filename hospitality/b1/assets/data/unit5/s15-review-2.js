@@ -12,6 +12,19 @@ HSP.page('u5-s15', {
       id: 'c1',
       ref: 'D',
       bookRef: 'Unit 5 · P10 D',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: '[Teacher reads] \'Good evening. Are you ready to order? … An '
+              + 'excellent choice. So that\'s the fattoush and the kebab, with a fresh '
+              + 'juice. I\'ll bring your starter now.\'',
+            say: '[Teacher reads] \'Good evening. Are you ready to order? … An '
+              + 'excellent choice. So that\'s the fattoush and the kebab, with a fresh '
+              + 'juice. I\'ll bring your starter now.\'',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Listening',
       instruction: 'Listening. Listen and answer. (Teacher reads.)',
@@ -55,6 +68,40 @@ HSP.page('u5-s15', {
       id: 'c3',
       ref: 'F',
       bookRef: 'Unit 5 · P10 F',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Can-Do check. Tick what you can do.',
+            say: 'Can-Do check. Tick what you can do.',
+            role: 'course'
+          },
+          {
+            h: 'I can welcome and seat guests.',
+            say: 'I can welcome and seat guests.',
+            role: 'course'
+          },
+          {
+            h: 'I can take a food and drink order politely.',
+            say: 'I can take a food and drink order politely.',
+            role: 'course'
+          },
+          {
+            h: 'I can describe dishes and make recommendations.',
+            say: 'I can describe dishes and make recommendations.',
+            role: 'course'
+          },
+          {
+            h: 'I can talk about what happened, using the past simple.',
+            say: 'I can talk about what happened, using the past simple.',
+            role: 'course'
+          },
+          {
+            h: 'I can serve guests and bring the bill.',
+            say: 'I can serve guests and bring the bill.',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Writing',
       instruction: 'Writing. Write two sentences about a meal you had, using the past simple.',

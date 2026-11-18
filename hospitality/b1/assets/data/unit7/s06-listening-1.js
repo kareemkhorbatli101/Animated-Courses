@@ -23,6 +23,118 @@ HSP.page('u7-s06', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 7 · P3',
+      type: 'study',
+      title: 'The conversation',
+      instruction: 'Listen and read. Each person has their own voice.',
+      passage: {
+      title: 'The conversation',
+      listenLabel: 'Play the conversation',
+      paras: [{
+          h: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          say: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          role: 'course'
+        },
+        {
+          h: '<b>Lina:</b> Good evening, room service. How can I help you?',
+          say: 'Good evening, room service. How can I help you?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Hello. I\'m very tired, so I\'d like to eat in my room. '
+            + 'Could I order some dinner?',
+          say: 'Hello. I\'m very tired, so I\'d like to eat in my room. Could I order '
+            + 'some dinner?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Of course. What would you like?',
+          say: 'Of course. What would you like?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> The grilled chicken, please, and a fresh salad. And a '
+            + 'pot of mint tea.',
+          say: 'The grilled chicken, please, and a fresh salad. And a pot of mint tea.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Certainly. That\'s grilled chicken, a salad and a pot of '
+            + 'mint tea. It will be about twenty minutes.',
+          say: 'Certainly. That\'s grilled chicken, a salad and a pot of mint tea. It '
+            + 'will be about twenty minutes.',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Perfect. Thank you.',
+          say: 'Perfect. Thank you.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> You\'re welcome. We\'ll bring it up to your room very '
+            + 'soon. Enjoy your evening.',
+          say: 'You\'re welcome. We\'ll bring it up to your room very soon. Enjoy '
+            + 'your evening.',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Excuse me. I\'ve just arrived, but there are no clean '
+            + 'towels in my bathroom.',
+          say: 'Excuse me. I\'ve just arrived, but there are no clean towels in my bathroom.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Salma:</b> Oh, I\'m very sorry. I\'ll bring some fresh towels '
+            + 'right away. Has the room been cleaned today?',
+          say: 'Oh, I\'m very sorry. I\'ll bring some fresh towels right away. Has '
+            + 'the room been cleaned today?',
+          role: 'salma',
+          who: 'Salma'
+        },
+        {
+          h: '<b>Guest:</b> Yes, the room is lovely and clean. Only the towels are '
+            + 'missing.',
+          say: 'Yes, the room is lovely and clean. Only the towels are missing.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Salma:</b> Thank you for telling me. I\'ve just checked, and we '
+            + 'have fresh towels ready. Here you are — is there anything else you '
+            + 'need?',
+          say: 'Thank you for telling me. I\'ve just checked, and we have fresh '
+            + 'towels ready. Here you are — is there anything else you need?',
+          role: 'salma',
+          who: 'Salma'
+        },
+        {
+          h: '<b>Guest:</b> No, that\'s everything. Thank you very much.',
+          say: 'No, that\'s everything. Thank you very much.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Salma:</b> You\'re very welcome. Enjoy your stay.',
+          say: 'You\'re very welcome. Enjoy your stay.',
+          role: 'salma',
+          who: 'Salma'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 7 · P3 A',
       type: 'discuss',
@@ -61,7 +173,7 @@ HSP.page('u7-s06', {
         + 'beside your own.'
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 7 · P3 B',
       type: 'quizset',
@@ -122,7 +234,7 @@ HSP.page('u7-s06', {
         }]
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'A',
       bookRef: 'Unit 7 · P3 A',
       type: 'discuss',

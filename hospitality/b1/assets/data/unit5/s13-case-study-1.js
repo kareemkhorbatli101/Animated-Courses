@@ -17,10 +17,18 @@ HSP.page('u5-s13', {
       instruction: 'What should the waiter do? Choose the best action and say why.',
       passage: {
       title: 'The case',
-      paras: ['A guest ordered the grilled fish, but the kitchen sent the chicken by '
-          + 'mistake. The waiter did not check, and put the wrong dish in front of '
-          + 'the guest. The guest is surprised and a little unhappy: “Excuse me, I '
-          + 'ordered the fish.”']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest ordered the grilled fish, but the kitchen sent the chicken by '
+            + 'mistake. The waiter did not check, and put the wrong dish in front of '
+            + 'the guest. The guest is surprised and a little unhappy: “Excuse me, I '
+            + 'ordered the fish.”',
+          say: 'A guest ordered the grilled fish, but the kitchen sent the chicken by '
+            + 'mistake. The waiter did not check, and put the wrong dish in front of '
+            + 'the guest. The guest is surprised and a little unhappy: “Excuse me, I '
+            + 'ordered the fish.”',
+          role: 'course'
+        }]
     },
       before: '<b>What would you do?</b><ul><li>Say “No, you ordered the chicken” '
       + 'and walk away.</li><li>Apologise, take the wrong dish back, and bring '
@@ -39,9 +47,16 @@ HSP.page('u5-s13', {
       instruction: 'Read the case, then answer the questions.',
       passage: {
       title: 'The case',
-      paras: ['A guest tells the waiter, “I have an allergy to nuts.” The waiter is '
-          + 'not sure if the dessert the guest wants contains nuts. If the guest '
-          + 'eats nuts, they could become very ill.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest tells the waiter, “I have an allergy to nuts.” The waiter is '
+            + 'not sure if the dessert the guest wants contains nuts. If the guest '
+            + 'eats nuts, they could become very ill.',
+          say: 'A guest tells the waiter, “I have an allergy to nuts.” The waiter is '
+            + 'not sure if the dessert the guest wants contains nuts. If the guest '
+            + 'eats nuts, they could become very ill.',
+          role: 'course'
+        }]
     },
       minWords: 25,
       placeholder: 'I would… because…',

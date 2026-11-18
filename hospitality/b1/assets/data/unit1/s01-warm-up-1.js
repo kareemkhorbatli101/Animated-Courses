@@ -11,6 +11,80 @@ HSP.page('u1-s01', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 1 · Warm-Up',
+      type: 'study',
+      title: 'Before you read',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you read',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Look at Figure 1.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          say: 'Look at Figure 1.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          role: 'course'
+        },
+        {
+          h: '1. Which departments can you see in the hotel?',
+          say: '1. Which departments can you see in the hotel?',
+          role: 'course'
+        },
+        {
+          h: '2. In which department does Lina work?',
+          say: '2. In which department does Lina work?',
+          role: 'course'
+        },
+        {
+          h: '3. What do you say to a guest when they arrive in the morning?',
+          say: '3. What do you say to a guest when they arrive in the morning?',
+          role: 'course'
+        },
+        {
+          h: 'Every day, all around the world, people stay in hotels, eat in '
+            + 'restaurants, and drink coffee in cafés. This is the world of '
+            + 'hospitality. Hospitality means making guests feel welcome and '
+            + 'comfortable. In Syria, hospitality is very old and very important. '
+            + 'For hundreds of years, Syrian people have welcomed travellers with '
+            + 'warm words, good food, and a place to rest.',
+          say: 'Every day, all around the world, people stay in hotels, eat in '
+            + 'restaurants, and drink coffee in cafés. This is the world of '
+            + 'hospitality. Hospitality means making guests feel welcome and '
+            + 'comfortable. In Syria, hospitality is very old and very important. '
+            + 'For hundreds of years, Syrian people have welcomed travellers with '
+            + 'warm words, good food, and a place to rest.',
+          role: 'course'
+        },
+        {
+          h: 'Today, hospitality is also a big industry and a good job. Hotels, '
+            + 'restaurants, resorts and cafés need many workers: receptionists, '
+            + 'waiters, housekeepers, cooks and managers. These workers meet people '
+            + 'from many countries, so English is very useful.',
+          say: 'Today, hospitality is also a big industry and a good job. Hotels, '
+            + 'restaurants, resorts and cafés need many workers: receptionists, '
+            + 'waiters, housekeepers, cooks and managers. These workers meet people '
+            + 'from many countries, so English is very useful.',
+          role: 'course'
+        },
+        {
+          h: 'The Orient Rose Hotel is a busy hotel in Damascus. It has rooms, a '
+            + 'restaurant, a café and a garden. Today, a new trainee starts work '
+            + 'there. Her name is Lina Haddad. She is nineteen years old, and she is '
+            + 'a little nervous. But she is ready to learn, and she loves meeting '
+            + 'people. This is where her story begins.',
+          say: 'The Orient Rose Hotel is a busy hotel in Damascus. It has rooms, a '
+            + 'restaurant, a café and a garden. Today, a new trainee starts work '
+            + 'there. Her name is Lina Haddad. She is nineteen years old, and she is '
+            + 'a little nervous. But she is ready to learn, and she loves meeting '
+            + 'people. This is where her story begins.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 1 · Warm-Up A',
       type: 'discuss',
@@ -57,7 +131,7 @@ HSP.page('u1-s01', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 1 · Warm-Up B',
       type: 'quizset',

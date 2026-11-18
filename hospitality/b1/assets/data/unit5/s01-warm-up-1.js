@@ -10,6 +10,80 @@ HSP.page('u5-s01', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 5 · Warm-Up',
+      type: 'study',
+      title: 'Before you read',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you read',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Look at Figure 5.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          say: 'Look at Figure 5.0 and the picture above. Think about these questions '
+            + 'before you read.',
+          role: 'course'
+        },
+        {
+          h: '1. What is the first step of restaurant service?',
+          say: '1. What is the first step of restaurant service?',
+          role: 'course'
+        },
+        {
+          h: '2. What food do you know from Syria? (name two dishes)',
+          say: '2. What food do you know from Syria? (name two dishes)',
+          role: 'course'
+        },
+        {
+          h: '3. What makes a meal in a restaurant feel special?',
+          say: '3. What makes a meal in a restaurant feel special?',
+          role: 'course'
+        },
+        {
+          h: 'This week, Lina is working in the hotel restaurant. It is a new '
+            + 'department and a new challenge. In the restaurant, the team welcomes '
+            + 'guests, shows them to a table, takes their orders, and serves the '
+            + 'food with a smile. Good service makes a meal special — and it brings '
+            + 'guests back again.',
+          say: 'This week, Lina is working in the hotel restaurant. It is a new '
+            + 'department and a new challenge. In the restaurant, the team welcomes '
+            + 'guests, shows them to a table, takes their orders, and serves the '
+            + 'food with a smile. Good service makes a meal special — and it brings '
+            + 'guests back again.',
+          role: 'course'
+        },
+        {
+          h: 'The Orient Rose restaurant serves Syrian and international food. In '
+            + 'the morning, there is breakfast. In the evening, guests enjoy mezze — '
+            + 'small plates like hummus, tabbouleh and fattoush — and main dishes '
+            + 'like kebab and shish taouk. The hotel also has a small café in the '
+            + 'Old City of Damascus, in a beautiful old house with a quiet '
+            + 'courtyard. There, guests drink Arabic coffee and eat sweet baklava.',
+          say: 'The Orient Rose restaurant serves Syrian and international food. In '
+            + 'the morning, there is breakfast. In the evening, guests enjoy mezze — '
+            + 'small plates like hummus, tabbouleh and fattoush — and main dishes '
+            + 'like kebab and shish taouk. The hotel also has a small café in the '
+            + 'Old City of Damascus, in a beautiful old house with a quiet '
+            + 'courtyard. There, guests drink Arabic coffee and eat sweet baklava.',
+          role: 'course'
+        },
+        {
+          h: 'Last night, Lina watched the waiters work. Today, she is going to '
+            + 'take her first order. “Listen carefully, smile, and never rush the '
+            + 'guest,” says Rashid, the head waiter. “A good meal is a happy '
+            + 'memory.”',
+          say: 'Last night, Lina watched the waiters work. Today, she is going to '
+            + 'take her first order. “Listen carefully, smile, and never rush the '
+            + 'guest,” says Rashid, the head waiter. “A good meal is a happy '
+            + 'memory.”',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 5 · Warm-Up A',
       type: 'discuss',
@@ -57,7 +131,7 @@ HSP.page('u5-s01', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 5 · Warm-Up B',
       type: 'quizset',

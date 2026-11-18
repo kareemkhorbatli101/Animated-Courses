@@ -69,6 +69,21 @@ HSP.page('u3-s14', {
       id: 'c3',
       ref: 'C',
       bookRef: 'Unit 3 · P10 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'A deposit is money that a guest pays in advance to hold a room. It is '
+              + 'common for large bookings and for busy times, like summer at the '
+              + 'resort. When the guest arrives, the deposit is part of the payment '
+              + 'for the room.',
+            say: 'A deposit is money that a guest pays in advance to hold a room. It is '
+              + 'common for large bookings and for busy times, like summer at the '
+              + 'resort. When the guest arrives, the deposit is part of the payment '
+              + 'for the room.',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Reading',
       instruction: 'Reading. Read the short text and answer.',

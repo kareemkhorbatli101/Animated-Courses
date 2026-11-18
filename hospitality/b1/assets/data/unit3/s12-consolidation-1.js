@@ -10,6 +10,62 @@ HSP.page('u3-s12', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 3 · P8',
+      type: 'study',
+      title: 'Consolidation',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Consolidation',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'It is a quiet afternoon, and the telephone rings. It is Lina\'s first '
+            + 'booking alone, and her heart beats fast. She takes a breath and '
+            + 'smiles. “Good afternoon, Orient Rose Hotel. How can I help you?”',
+          say: 'It is a quiet afternoon, and the telephone rings. It is Lina\'s first '
+            + 'booking alone, and her heart beats fast. She takes a breath and '
+            + 'smiles. “Good afternoon, Orient Rose Hotel. How can I help you?”',
+          role: 'course'
+        },
+        {
+          h: '“Hello,” says a woman. “I\'d like to book a family room for three '
+            + 'nights, please.” “Of course,” says Lina. “Could I take your name, '
+            + 'please?” “It\'s Mona Khalil.” “Could you spell your family name?” '
+            + '“K-H-A-L-I-L.” Lina writes it down carefully. Then she asks for the '
+            + 'dates and checks the computer. “Yes, we have a family room for those '
+            + 'nights,” she says. “Would you like a room with a garden view?” “That '
+            + 'sounds lovely,” says Mrs. Khalil.',
+          say: '“Hello,” says a woman. “I\'d like to book a family room for three '
+            + 'nights, please.” “Of course,” says Lina. “Could I take your name, '
+            + 'please?” “It\'s Mona Khalil.” “Could you spell your family name?” '
+            + '“K-H-A-L-I-L.” Lina writes it down carefully. Then she asks for the '
+            + 'dates and checks the computer. “Yes, we have a family room for those '
+            + 'nights,” she says. “Would you like a room with a garden view?” “That '
+            + 'sounds lovely,” says Mrs. Khalil.',
+          role: 'course'
+        },
+        {
+          h: 'Lina repeats the whole booking: “So that\'s a family room with a '
+            + 'garden view, for three nights, for Mrs. Mona Khalil.” “That\'s '
+            + 'right,” says the guest. “Wonderful. I\'ll send you a confirmation by '
+            + 'email. Thank you for calling, Mrs. Khalil. We look forward to '
+            + 'welcoming you.” Lina puts down the phone and smiles. Her first '
+            + 'booking is perfect. Mr. Nabil, near the desk, gives her a quiet nod. '
+            + '“Well done,” he says.',
+          say: 'Lina repeats the whole booking: “So that\'s a family room with a '
+            + 'garden view, for three nights, for Mrs. Mona Khalil.” “That\'s '
+            + 'right,” says the guest. “Wonderful. I\'ll send you a confirmation by '
+            + 'email. Thank you for calling, Mrs. Khalil. We look forward to '
+            + 'welcoming you.” Lina puts down the phone and smiles. Her first '
+            + 'booking is perfect. Mr. Nabil, near the desk, gives her a quiet nod. '
+            + '“Well done,” he says.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 3 · P8 A',
       type: 'discuss',
@@ -49,7 +105,7 @@ HSP.page('u3-s12', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 3 · P8 B',
       type: 'cloze',
@@ -83,7 +139,7 @@ HSP.page('u3-s12', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 3 · P8 C',
       type: 'report',

@@ -10,6 +10,78 @@ HSP.page('u10-s01', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 10 · Warm-Up',
+      type: 'study',
+      title: 'Before you read',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you read',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Look at Figure 10.0 and the picture above. Think about these '
+            + 'questions before you read.',
+          say: 'Look at Figure 10.0 and the picture above. Think about these '
+            + 'questions before you read.',
+          role: 'course'
+        },
+        {
+          h: '1. What are the main stages of a guest\'s journey?',
+          say: '1. What are the main stages of a guest\'s journey?',
+          role: 'course'
+        },
+        {
+          h: '2. What happens at checkout?',
+          say: '2. What happens at checkout?',
+          role: 'course'
+        },
+        {
+          h: '3. Why is the last moment of a stay so important?',
+          say: '3. Why is the last moment of a stay so important?',
+          role: 'course'
+        },
+        {
+          h: 'The check-in is the guest\'s first impression; the checkout is the '
+            + 'last. And people remember first and last moments most of all. A warm, '
+            + 'smooth checkout — with a correct bill and a genuine farewell — sends '
+            + 'the guest home happy and makes them want to return.',
+          say: 'The check-in is the guest\'s first impression; the checkout is the '
+            + 'last. And people remember first and last moments most of all. A warm, '
+            + 'smooth checkout — with a correct bill and a genuine farewell — sends '
+            + 'the guest home happy and makes them want to return.',
+          role: 'course'
+        },
+        {
+          h: 'At checkout, the receptionist prepares the bill, explains each charge '
+            + 'clearly, and takes the payment. She checks that the guest enjoyed '
+            + 'their stay and asks for any feedback. Then comes the most important '
+            + 'part: the farewell. A good farewell is more than a quick “goodbye”. '
+            + 'It is a sincere “thank you for staying with us,” a warm “we hope to '
+            + 'see you again,” and a smile the guest will remember.',
+          say: 'At checkout, the receptionist prepares the bill, explains each charge '
+            + 'clearly, and takes the payment. She checks that the guest enjoyed '
+            + 'their stay and asks for any feedback. Then comes the most important '
+            + 'part: the farewell. A good farewell is more than a quick “goodbye”. '
+            + 'It is a sincere “thank you for staying with us,” a warm “we hope to '
+            + 'see you again,” and a smile the guest will remember.',
+          role: 'course'
+        },
+        {
+          h: 'This week, Lina reaches the end of the guest\'s journey — and the end '
+            + 'of her own training. “You have learned to welcome, to serve, and to '
+            + 'solve problems,” says Mr. Nabil. “Now, learn to say goodbye well. A '
+            + 'guest who leaves with a smile is a guest who will come back.”',
+          say: 'This week, Lina reaches the end of the guest\'s journey — and the end '
+            + 'of her own training. “You have learned to welcome, to serve, and to '
+            + 'solve problems,” says Mr. Nabil. “Now, learn to say goodbye well. A '
+            + 'guest who leaves with a smile is a guest who will come back.”',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 10 · Warm-Up A',
       type: 'discuss',
@@ -57,7 +129,7 @@ HSP.page('u10-s01', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 10 · Warm-Up B',
       type: 'quizset',

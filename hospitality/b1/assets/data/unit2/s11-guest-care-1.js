@@ -10,6 +10,36 @@ HSP.page('u2-s11', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 2 · P7',
+      type: 'study',
+      title: 'Guest-care and service',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Guest-care and service',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'A good hotel is easy for every guest to use. Clear signs show the way '
+            + 'to the restaurant, the lift and the rooms. For guests who cannot use '
+            + 'the stairs, there is a lift and there are rooms on the ground floor. '
+            + 'There is also a ramp at the entrance for guests in a wheelchair or '
+            + 'with heavy bags. When a guest looks lost, a good receptionist does '
+            + 'not only point — she stands up, smiles, and gives clear, simple '
+            + 'directions. Sometimes, she walks with the guest to show the way.',
+          say: 'A good hotel is easy for every guest to use. Clear signs show the way '
+            + 'to the restaurant, the lift and the rooms. For guests who cannot use '
+            + 'the stairs, there is a lift and there are rooms on the ground floor. '
+            + 'There is also a ramp at the entrance for guests in a wheelchair or '
+            + 'with heavy bags. When a guest looks lost, a good receptionist does '
+            + 'not only point — she stands up, smiles, and gives clear, simple '
+            + 'directions. Sometimes, she walks with the guest to show the way.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 2 · P7 A',
       type: 'discuss',
@@ -48,7 +78,7 @@ HSP.page('u2-s11', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 2 · P7 B',
       type: 'cloze',

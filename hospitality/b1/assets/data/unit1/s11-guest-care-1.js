@@ -10,6 +10,36 @@ HSP.page('u1-s11', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 1 · P7',
+      type: 'study',
+      title: 'Guest-care and service',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Guest-care and service',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'A hotel is a team. Lina works at the front desk, but she never works '
+            + 'alone. When a guest arrives, the porter carries the bags, the '
+            + 'receptionist checks the guest in, and the housekeeper makes sure the '
+            + 'room is ready. If the guest is hungry, the restaurant team is ready. '
+            + 'When everyone helps each other, the guest feels welcome. This is the '
+            + 'golden rule of hospitality: the guest comes first, and the team works '
+            + 'together.',
+          say: 'A hotel is a team. Lina works at the front desk, but she never works '
+            + 'alone. When a guest arrives, the porter carries the bags, the '
+            + 'receptionist checks the guest in, and the housekeeper makes sure the '
+            + 'room is ready. If the guest is hungry, the restaurant team is ready. '
+            + 'When everyone helps each other, the guest feels welcome. This is the '
+            + 'golden rule of hospitality: the guest comes first, and the team works '
+            + 'together.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 1 · P7 A',
       type: 'discuss',
@@ -47,7 +77,7 @@ HSP.page('u1-s11', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 1 · P7 B',
       type: 'cloze',

@@ -10,6 +10,48 @@ HSP.page('u4-s16', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 4 · P11',
+      type: 'study',
+      title: 'Foundations for further study',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Foundations for further study',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'In hospitality, people call the check-in a “moment of truth.” A '
+            + 'moment of truth is any point where the guest forms a strong opinion '
+            + 'about the hotel. The check-in is one of the most important, because '
+            + 'it is the guest\'s first experience inside the building. In just a '
+            + 'few minutes, the guest decides whether the hotel is warm or cold, '
+            + 'organised or messy, caring or careless. A great check-in cannot save '
+            + 'a bad hotel, but a poor check-in can spoil a great one. This is why '
+            + 'hotels train their front-desk teams so carefully, and why the '
+            + 'language of welcome, registration and arrangements matters so much. '
+            + 'When you check a guest in well — warmly, quickly and clearly — you '
+            + 'are protecting the hotel\'s most valuable thing: the guest\'s trust. '
+            + 'This idea of \'moments of truth\' returns throughout the course and '
+            + 'in every hospitality qualification.',
+          say: 'In hospitality, people call the check-in a “moment of truth.” A '
+            + 'moment of truth is any point where the guest forms a strong opinion '
+            + 'about the hotel. The check-in is one of the most important, because '
+            + 'it is the guest\'s first experience inside the building. In just a '
+            + 'few minutes, the guest decides whether the hotel is warm or cold, '
+            + 'organised or messy, caring or careless. A great check-in cannot save '
+            + 'a bad hotel, but a poor check-in can spoil a great one. This is why '
+            + 'hotels train their front-desk teams so carefully, and why the '
+            + 'language of welcome, registration and arrangements matters so much. '
+            + 'When you check a guest in well — warmly, quickly and clearly — you '
+            + 'are protecting the hotel\'s most valuable thing: the guest\'s trust. '
+            + 'This idea of \'moments of truth\' returns throughout the course and '
+            + 'in every hospitality qualification.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 4 · P11 A',
       type: 'discuss',
@@ -40,9 +82,22 @@ HSP.page('u4-s16', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 4 · P11 B',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'One of you is a tired guest arriving after a long journey. The other '
+              + 'checks them in — warmly, quickly and clearly, in five steps. Then '
+              + 'talk: what made the check-in feel caring?',
+            say: 'One of you is a tired guest arriving after a long journey. The other '
+              + 'checks them in — warmly, quickly and clearly, in five steps. Then '
+              + 'talk: what made the check-in feel caring?',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Apply it',
       instruction: 'Apply it. Do this task with a partner.',
@@ -51,9 +106,20 @@ HSP.page('u4-s16', {
       stems: ['Say it, then write what you said.']
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 4 · P11 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Write 40–60 words describing the perfect check-in for a tired guest. '
+              + 'Use present continuous or going to at least once.',
+            say: 'Write 40–60 words describing the perfect check-in for a tired guest. '
+              + 'Use present continuous or going to at least once.',
+            role: 'course'
+          }]
+      },
       type: 'writer',
       title: 'Micro-writing (optional)',
       instruction: 'Micro-writing (optional).',

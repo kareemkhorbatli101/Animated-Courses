@@ -10,6 +10,42 @@ HSP.page('u6-s11', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 6 · P7',
+      type: 'study',
+      title: 'Guest-care and service',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Guest-care and service',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'The secret of a great recommendation is simple: match the place to '
+            + 'the guest. Before you recommend, ask a few kind questions. How much '
+            + 'time do they have? Do they like history, nature, shopping, or rest? '
+            + 'Are they travelling with children? A family with small children will '
+            + 'be happier in a garden or a lively souq than in a long, quiet museum. '
+            + 'A history-lover will treasure a trip to Palmyra, even if it is far. A '
+            + 'tired traveller may prefer a slow day by the sea. Always give '
+            + 'practical information too — the distance, the cost, how to get there, '
+            + 'and whether it is safe and open. When you match the place to the '
+            + 'person, every recommendation feels like a gift.',
+          say: 'The secret of a great recommendation is simple: match the place to '
+            + 'the guest. Before you recommend, ask a few kind questions. How much '
+            + 'time do they have? Do they like history, nature, shopping, or rest? '
+            + 'Are they travelling with children? A family with small children will '
+            + 'be happier in a garden or a lively souq than in a long, quiet museum. '
+            + 'A history-lover will treasure a trip to Palmyra, even if it is far. A '
+            + 'tired traveller may prefer a slow day by the sea. Always give '
+            + 'practical information too — the distance, the cost, how to get there, '
+            + 'and whether it is safe and open. When you match the place to the '
+            + 'person, every recommendation feels like a gift.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 6 · P7 A',
       type: 'discuss',
@@ -47,7 +83,7 @@ HSP.page('u6-s11', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 6 · P7 B',
       type: 'cloze',

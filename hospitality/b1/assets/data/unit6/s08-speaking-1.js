@@ -12,6 +12,35 @@ HSP.page('u6-s08', {
       id: 'c1',
       ref: 'A',
       bookRef: 'Unit 6 · P4 A',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'A: Say how much time you have and ask for a recommendation.',
+            say: 'A: Say how much time you have and ask for a recommendation.',
+            role: 'course'
+          },
+          {
+            h: 'B: Recommend a place. Say why (use a superlative).',
+            say: 'B: Recommend a place. Say why (use a superlative).',
+            role: 'course'
+          },
+          {
+            h: 'A: Ask if it is far / expensive.',
+            say: 'A: Ask if it is far / expensive.',
+            role: 'course'
+          },
+          {
+            h: 'B: Compare it with another option (use a comparative).',
+            say: 'B: Compare it with another option (use a comparative).',
+            role: 'course'
+          },
+          {
+            h: 'A: Say thank you.',
+            say: 'A: Say thank you.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Role-play: recommend a place',
       instruction: 'Role-play: recommend a place. Student A is a guest; Student B is the '

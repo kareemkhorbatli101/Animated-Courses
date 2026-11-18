@@ -17,10 +17,18 @@ HSP.page('u10-s13', {
       instruction: 'What should Lina do? Choose the best action and say why.',
       passage: {
       title: 'The case',
-      paras: ['At checkout, a guest looks at the bill and frowns. “This is wrong,” '
-          + 'she says. “There\'s a charge for the minibar, but I never touched '
-          + 'it.” The charge is on the bill, but the guest is sure she did not use '
-          + 'the minibar, and she is starting to feel upset.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'At checkout, a guest looks at the bill and frowns. “This is wrong,” '
+            + 'she says. “There\'s a charge for the minibar, but I never touched '
+            + 'it.” The charge is on the bill, but the guest is sure she did not use '
+            + 'the minibar, and she is starting to feel upset.',
+          say: 'At checkout, a guest looks at the bill and frowns. “This is wrong,” '
+            + 'she says. “There\'s a charge for the minibar, but I never touched '
+            + 'it.” The charge is on the bill, but the guest is sure she did not use '
+            + 'the minibar, and she is starting to feel upset.',
+          role: 'course'
+        }]
     },
       before: '<b>What would you do?</b><ul><li>Insist the guest must pay, and '
       + 'argue.</li><li>Apologise, check calmly, and if there is any doubt, '
@@ -39,10 +47,18 @@ HSP.page('u10-s13', {
       instruction: 'Read the case, then answer the questions.',
       passage: {
       title: 'The case',
-      paras: ['After checkout, a guest writes an online review. They praise the '
-          + 'friendly staff, but they say the room was too noisy and the wifi was '
-          + 'slow. Thousands of future guests will read this review. The manager '
-          + 'asks Lina to help write a reply.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'After checkout, a guest writes an online review. They praise the '
+            + 'friendly staff, but they say the room was too noisy and the wifi was '
+            + 'slow. Thousands of future guests will read this review. The manager '
+            + 'asks Lina to help write a reply.',
+          say: 'After checkout, a guest writes an online review. They praise the '
+            + 'friendly staff, but they say the room was too noisy and the wifi was '
+            + 'slow. Thousands of future guests will read this review. The manager '
+            + 'asks Lina to help write a reply.',
+          role: 'course'
+        }]
     },
       minWords: 25,
       placeholder: 'I would… because…',

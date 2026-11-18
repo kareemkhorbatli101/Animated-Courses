@@ -23,6 +23,64 @@ HSP.page('u4-s04', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 4 · P2',
+      type: 'study',
+      title: 'The grammar, as the book gives it',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The grammar, as the book gives it',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'We already use the PRESENT CONTINUOUS (am/is/are + -ing) for actions '
+            + 'happening now. We also use it for a fixed ARRANGEMENT — something we '
+            + 'have already planned, often with a time or a person. “I\'m checking '
+            + 'you in now.” “The manager is meeting you at three o\'clock.” “The '
+            + 'porter is bringing your bags in a moment.”',
+          say: 'We already use the PRESENT CONTINUOUS (am/is/are + -ing) for actions '
+            + 'happening now. We also use it for a fixed ARRANGEMENT — something we '
+            + 'have already planned, often with a time or a person. “I\'m checking '
+            + 'you in now.” “The manager is meeting you at three o\'clock.” “The '
+            + 'porter is bringing your bags in a moment.”',
+          role: 'course'
+        },
+        {
+          h: 'We use GOING TO (am/is/are + going to + verb) for a PLAN or an '
+            + 'INTENTION — what we have decided to do in the future. “We\'re going '
+            + 'to clean the room now.” “I\'m going to send someone up with extra '
+            + 'towels.” “It\'s going to be a lovely stay.”',
+          say: 'We use GOING TO (am/is/are + going to + verb) for a PLAN or an '
+            + 'INTENTION — what we have decided to do in the future. “We\'re going '
+            + 'to clean the room now.” “I\'m going to send someone up with extra '
+            + 'towels.” “It\'s going to be a lovely stay.”',
+          role: 'course'
+        },
+        {
+          h: 'Both forms talk about the future. Use the present continuous when '
+            + 'there is a fixed time or arrangement; use going to for a plan or '
+            + 'intention.',
+          say: 'Both forms talk about the future. Use the present continuous when '
+            + 'there is a fixed time or arrangement; use going to for a plan or '
+            + 'intention.',
+          role: 'course'
+        },
+        {
+          h: 'Form',
+          say: 'Form',
+          role: 'course'
+        },
+        {
+          h: 'Arrangement: I am / he is / we are + verb-ing … (+ time) Plan: I am / '
+            + 'he is / we are + going to + verb …',
+          say: 'Arrangement: I am / he is / we are + verb-ing … (+ time) Plan: I am / '
+            + 'he is / we are + going to + verb …',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 4 · P2 A',
       type: 'cloze',
@@ -52,7 +110,7 @@ HSP.page('u4-s04', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 4 · P2 B',
       type: 'cloze',
@@ -82,7 +140,7 @@ HSP.page('u4-s04', {
       }
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'C',
       bookRef: 'Unit 4 · P2 C',
       type: 'cloze',

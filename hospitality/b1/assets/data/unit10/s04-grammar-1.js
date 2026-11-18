@@ -23,6 +23,72 @@ HSP.page('u10-s04', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 10 · P2',
+      type: 'study',
+      title: 'The grammar, as the book gives it',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The grammar, as the book gives it',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'We use REPORTED SPEECH to tell someone what another person said, '
+            + 'without their exact words. We often use say or tell. (Use tell + a '
+            + 'person: She told me… Use say without a person: She said that…) When '
+            + 'we report, the verb usually \'moves back\' one tense: present becomes '
+            + 'past. “The room is lovely.” → She said (that) the room was lovely. “I '
+            + 'enjoyed my stay.” → He said he had enjoyed his stay. Also: will → '
+            + 'would, can → could, am/is/are → was/were.',
+          say: 'We use REPORTED SPEECH to tell someone what another person said, '
+            + 'without their exact words. We often use say or tell. (Use tell + a '
+            + 'person: She told me… Use say without a person: She said that…) When '
+            + 'we report, the verb usually \'moves back\' one tense: present becomes '
+            + 'past. “The room is lovely.” → She said (that) the room was lovely. “I '
+            + 'enjoyed my stay.” → He said he had enjoyed his stay. Also: will → '
+            + 'would, can → could, am/is/are → was/were.',
+          role: 'course'
+        },
+        {
+          h: 'To report a QUESTION, we use asked. For yes/no questions, use asked '
+            + 'if or asked whether: “Is breakfast included?” → He asked if breakfast '
+            + 'was included. For wh-questions, keep the question word: “What time is '
+            + 'checkout?” → She asked what time checkout was. Note that in reported '
+            + 'questions, the word order is like a normal sentence (checkout was, '
+            + 'not \'was checkout\').',
+          say: 'To report a QUESTION, we use asked. For yes/no questions, use asked '
+            + 'if or asked whether: “Is breakfast included?” → He asked if breakfast '
+            + 'was included. For wh-questions, keep the question word: “What time is '
+            + 'checkout?” → She asked what time checkout was. Note that in reported '
+            + 'questions, the word order is like a normal sentence (checkout was, '
+            + 'not \'was checkout\').',
+          role: 'course'
+        },
+        {
+          h: 'Pronouns and time words may also change: I → he/she, my → his/her, '
+            + 'today → that day, tomorrow → the next day.',
+          say: 'Pronouns and time words may also change: I → he/she, my → his/her, '
+            + 'today → that day, tomorrow → the next day.',
+          role: 'course'
+        },
+        {
+          h: 'Form',
+          say: 'Form',
+          role: 'course'
+        },
+        {
+          h: 'Statement: He said (that) + past-tense clause · She told me (that) + '
+            + 'past-tense clause Question: He asked if / what / when + subject + '
+            + 'verb (past)',
+          say: 'Statement: He said (that) + past-tense clause · She told me (that) + '
+            + 'past-tense clause Question: He asked if / what / when + subject + '
+            + 'verb (past)',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 10 · P2 A',
       type: 'cloze',
@@ -53,7 +119,7 @@ HSP.page('u10-s04', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 10 · P2 B',
       type: 'cloze',
@@ -85,7 +151,7 @@ HSP.page('u10-s04', {
       }
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'C',
       bookRef: 'Unit 10 · P2 C',
       type: 'cloze',

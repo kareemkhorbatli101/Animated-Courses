@@ -10,6 +10,73 @@ HSP.page('u1-s09', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 1 · P5',
+      type: 'study',
+      title: 'The reading',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The reading',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'When guests arrive at a hotel, the first place they see is the front '
+            + 'desk. For this reason, people often call the front desk \'the heart '
+            + 'of the hotel\'. It is the first contact and the last contact between '
+            + 'the guest and the hotel. A good first minute can make the whole stay '
+            + 'feel happy and safe.',
+          say: 'When guests arrive at a hotel, the first place they see is the front '
+            + 'desk. For this reason, people often call the front desk \'the heart '
+            + 'of the hotel\'. It is the first contact and the last contact between '
+            + 'the guest and the hotel. A good first minute can make the whole stay '
+            + 'feel happy and safe.',
+          role: 'course'
+        },
+        {
+          h: 'The receptionist has a busy and important job. She greets each guest '
+            + 'with a smile and, when she can, she uses the guest\'s name. She '
+            + 'speaks clearly and politely. She listens carefully to what the guest '
+            + 'needs. At the same time, she works at the computer, finds the '
+            + 'reservation, and prepares the room key. It is fast work, but it is '
+            + 'also friendly work.',
+          say: 'The receptionist has a busy and important job. She greets each guest '
+            + 'with a smile and, when she can, she uses the guest\'s name. She '
+            + 'speaks clearly and politely. She listens carefully to what the guest '
+            + 'needs. At the same time, she works at the computer, finds the '
+            + 'reservation, and prepares the room key. It is fast work, but it is '
+            + 'also friendly work.',
+          role: 'course'
+        },
+        {
+          h: 'Every guest is different. Some guests are on holiday and want to '
+            + 'relax and enjoy the city. Other guests are here for business and are '
+            + 'often in a hurry. A skilled receptionist understands this difference '
+            + 'and helps each guest in the right way. She stays calm when the lobby '
+            + 'is busy, and she never forgets to smile.',
+          say: 'Every guest is different. Some guests are on holiday and want to '
+            + 'relax and enjoy the city. Other guests are here for business and are '
+            + 'often in a hurry. A skilled receptionist understands this difference '
+            + 'and helps each guest in the right way. She stays calm when the lobby '
+            + 'is busy, and she never forgets to smile.',
+          role: 'course'
+        },
+        {
+          h: 'Good English helps her to do all of this. Many guests come from other '
+            + 'countries and use English as a common language. With clear, polite '
+            + 'English, the receptionist can welcome the world to her hotel — and to '
+            + 'her city. Lina knows this. Today she is watching and learning. '
+            + 'Tomorrow, she will welcome her first guest alone.',
+          say: 'Good English helps her to do all of this. Many guests come from other '
+            + 'countries and use English as a common language. With clear, polite '
+            + 'English, the receptionist can welcome the world to her hotel — and to '
+            + 'her city. Lina knows this. Today she is watching and learning. '
+            + 'Tomorrow, she will welcome her first guest alone.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 1 · P5 A',
       type: 'discuss',
@@ -57,7 +124,7 @@ HSP.page('u1-s09', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 1 · P5 B',
       type: 'cloze',
@@ -91,7 +158,7 @@ HSP.page('u1-s09', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 1 · P5 C',
       type: 'cloze',

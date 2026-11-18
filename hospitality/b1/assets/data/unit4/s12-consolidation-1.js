@@ -10,6 +10,64 @@ HSP.page('u4-s12', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 4 · P8',
+      type: 'study',
+      title: 'Consolidation',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Consolidation',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'It is two o\'clock, and a taxi stops at the door of the Orient Rose '
+            + 'Hotel. A man gets out with two heavy bags. He looks tired after a '
+            + 'long journey from Aleppo. Sami the porter opens the door and carries '
+            + 'the bags, and the guest walks to the desk. Lina smiles. “Good '
+            + 'afternoon, and welcome,” she says.',
+          say: 'It is two o\'clock, and a taxi stops at the door of the Orient Rose '
+            + 'Hotel. A man gets out with two heavy bags. He looks tired after a '
+            + 'long journey from Aleppo. Sami the porter opens the door and carries '
+            + 'the bags, and the guest walks to the desk. Lina smiles. “Good '
+            + 'afternoon, and welcome,” she says.',
+          role: 'course'
+        },
+        {
+          h: '“Good afternoon,” says the guest. “I have a reservation. My name is '
+            + 'Omar Deeb.” “Welcome, Mr. Deeb. I\'m checking you in now,” says Lina. '
+            + '“Could I see your passport, please?” The guest gives his passport, '
+            + 'and Lina asks him to sign the card. Then she gives him the key card. '
+            + '“Your room is 305, on the third floor. Breakfast is from seven to '
+            + 'ten, in the restaurant. The wifi password is \'welcome\'.”',
+          say: '“Good afternoon,” says the guest. “I have a reservation. My name is '
+            + 'Omar Deeb.” “Welcome, Mr. Deeb. I\'m checking you in now,” says Lina. '
+            + '“Could I see your passport, please?” The guest gives his passport, '
+            + 'and Lina asks him to sign the card. Then she gives him the key card. '
+            + '“Your room is 305, on the third floor. Breakfast is from seven to '
+            + 'ten, in the restaurant. The wifi password is \'welcome\'.”',
+          role: 'course'
+        },
+        {
+          h: '“Thank you,” says Mr. Deeb. “I have an early meeting tomorrow.” '
+            + '“Would you like a wake-up call?” asks Lina. “Yes, at six o\'clock, '
+            + 'please.” “Of course. I\'m arranging a wake-up call for six, and the '
+            + 'porter is taking your bags up now. Enjoy your stay, Mr. Deeb.” The '
+            + 'guest smiles for the first time. “Thank you. You\'ve made a tiring '
+            + 'day much easier.” Lina feels proud. This is what a warm welcome '
+            + 'means.',
+          say: '“Thank you,” says Mr. Deeb. “I have an early meeting tomorrow.” '
+            + '“Would you like a wake-up call?” asks Lina. “Yes, at six o\'clock, '
+            + 'please.” “Of course. I\'m arranging a wake-up call for six, and the '
+            + 'porter is taking your bags up now. Enjoy your stay, Mr. Deeb.” The '
+            + 'guest smiles for the first time. “Thank you. You\'ve made a tiring '
+            + 'day much easier.” Lina feels proud. This is what a warm welcome '
+            + 'means.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 4 · P8 A',
       type: 'discuss',
@@ -48,7 +106,7 @@ HSP.page('u4-s12', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 4 · P8 B',
       type: 'cloze',
@@ -82,7 +140,7 @@ HSP.page('u4-s12', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 4 · P8 C',
       type: 'report',

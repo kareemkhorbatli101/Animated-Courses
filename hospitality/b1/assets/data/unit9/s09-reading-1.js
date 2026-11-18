@@ -10,6 +10,81 @@ HSP.page('u9-s09', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 9 · P5',
+      type: 'study',
+      title: 'The reading',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The reading',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'It seems strange, but a guest with a problem can become the hotel\'s '
+            + 'most loyal customer. This surprising truth is known as the \'service '
+            + 'recovery paradox\'. When a guest has a problem and the hotel solves '
+            + 'it brilliantly, the guest often ends up happier and more loyal than a '
+            + 'guest who had no problem at all. Why? Because a well-handled '
+            + 'complaint shows the guest something they could never see otherwise: '
+            + 'that when things go wrong, this hotel truly cares.',
+          say: 'It seems strange, but a guest with a problem can become the hotel\'s '
+            + 'most loyal customer. This surprising truth is known as the \'service '
+            + 'recovery paradox\'. When a guest has a problem and the hotel solves '
+            + 'it brilliantly, the guest often ends up happier and more loyal than a '
+            + 'guest who had no problem at all. Why? Because a well-handled '
+            + 'complaint shows the guest something they could never see otherwise: '
+            + 'that when things go wrong, this hotel truly cares.',
+          role: 'course'
+        },
+        {
+          h: 'The key is how the staff respond. Good service recovery follows clear '
+            + 'steps. First, LISTEN — let the guest speak, and do not interrupt or '
+            + 'argue. Second, APOLOGISE — say sorry sincerely, even if the problem '
+            + 'was not your fault. Third, SOLVE — fix the problem quickly, and offer '
+            + 'something extra where you can. Fourth, FOLLOW UP — check later that '
+            + 'the guest is now happy. These four steps can turn an angry face into '
+            + 'a smiling one.',
+          say: 'The key is how the staff respond. Good service recovery follows clear '
+            + 'steps. First, LISTEN — let the guest speak, and do not interrupt or '
+            + 'argue. Second, APOLOGISE — say sorry sincerely, even if the problem '
+            + 'was not your fault. Third, SOLVE — fix the problem quickly, and offer '
+            + 'something extra where you can. Fourth, FOLLOW UP — check later that '
+            + 'the guest is now happy. These four steps can turn an angry face into '
+            + 'a smiling one.',
+          role: 'course'
+        },
+        {
+          h: 'Just as important is what NOT to do. Never argue with the guest, even '
+            + 'if you think they are wrong. Never make excuses or blame a colleague. '
+            + 'Never say “That\'s not my job.” And never take the complaint '
+            + 'personally — the guest is angry at the problem, not at you. Stay '
+            + 'calm, stay kind, and keep your voice gentle. Your calm can calm the '
+            + 'guest.',
+          say: 'Just as important is what NOT to do. Never argue with the guest, even '
+            + 'if you think they are wrong. Never make excuses or blame a colleague. '
+            + 'Never say “That\'s not my job.” And never take the complaint '
+            + 'personally — the guest is angry at the problem, not at you. Stay '
+            + 'calm, stay kind, and keep your voice gentle. Your calm can calm the '
+            + 'guest.',
+          role: 'course'
+        },
+        {
+          h: 'Every complaint is a chance. A guest who complains is giving the '
+            + 'hotel a second chance to earn their trust — and their return. Handle '
+            + 'it well, and you will not only solve a problem; you will make a '
+            + 'friend. That is why the best hotels welcome complaints, learn from '
+            + 'them, and treat every unhappy guest as a chance to shine.',
+          say: 'Every complaint is a chance. A guest who complains is giving the '
+            + 'hotel a second chance to earn their trust — and their return. Handle '
+            + 'it well, and you will not only solve a problem; you will make a '
+            + 'friend. That is why the best hotels welcome complaints, learn from '
+            + 'them, and treat every unhappy guest as a chance to shine.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 9 · P5 A',
       type: 'discuss',
@@ -57,7 +132,7 @@ HSP.page('u9-s09', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 9 · P5 B',
       type: 'cloze',
@@ -91,7 +166,7 @@ HSP.page('u9-s09', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 9 · P5 C',
       type: 'cloze',

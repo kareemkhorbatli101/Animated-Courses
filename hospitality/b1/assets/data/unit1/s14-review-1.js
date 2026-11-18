@@ -69,6 +69,21 @@ HSP.page('u1-s14', {
       id: 'c3',
       ref: 'C',
       bookRef: 'Unit 1 · P10 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Rana is the concierge at the Orient Rose Hotel. She helps guests '
+              + 'enjoy the city. Every day she books tours, gives directions, and '
+              + 'recommends restaurants. Right now she is telling a guest about the '
+              + 'Old City of Damascus.',
+            say: 'Rana is the concierge at the Orient Rose Hotel. She helps guests '
+              + 'enjoy the city. Every day she books tours, gives directions, and '
+              + 'recommends restaurants. Right now she is telling a guest about the '
+              + 'Old City of Damascus.',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Reading',
       instruction: 'Reading. Read the short text and answer.',

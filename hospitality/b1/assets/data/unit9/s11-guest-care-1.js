@@ -23,6 +23,44 @@ HSP.page('u9-s11', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 9 · P7',
+      type: 'study',
+      title: 'Guest-care and service',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Guest-care and service',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'Sometimes a guest is not just unhappy — they are very angry. They may '
+            + 'speak loudly, even in front of other guests. In this moment, the most '
+            + 'important tool is your own calm. If you stay calm, the guest will '
+            + 'usually calm down too. Speak gently and slowly. Listen to the whole '
+            + 'complaint without interrupting. Show that you understand: “I can see '
+            + 'why you are upset, and you are right to tell me.” Never argue, never '
+            + 'raise your voice, and never take it personally. If the lobby is busy, '
+            + 'you should invite the guest to a quieter place to talk, away from '
+            + 'other guests. Then follow the steps: listen, apologise, solve, and '
+            + 'follow up. An angry guest who is treated with patience and respect '
+            + 'very often leaves as a friend of the hotel.',
+          say: 'Sometimes a guest is not just unhappy — they are very angry. They may '
+            + 'speak loudly, even in front of other guests. In this moment, the most '
+            + 'important tool is your own calm. If you stay calm, the guest will '
+            + 'usually calm down too. Speak gently and slowly. Listen to the whole '
+            + 'complaint without interrupting. Show that you understand: “I can see '
+            + 'why you are upset, and you are right to tell me.” Never argue, never '
+            + 'raise your voice, and never take it personally. If the lobby is busy, '
+            + 'you should invite the guest to a quieter place to talk, away from '
+            + 'other guests. Then follow the steps: listen, apologise, solve, and '
+            + 'follow up. An angry guest who is treated with patience and respect '
+            + 'very often leaves as a friend of the hotel.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 9 · P7 A',
       type: 'discuss',
@@ -60,7 +98,7 @@ HSP.page('u9-s11', {
         + 'beside your own.'
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 9 · P7 B',
       type: 'cloze',

@@ -12,6 +12,35 @@ HSP.page('u5-s08', {
       id: 'c1',
       ref: 'A',
       bookRef: 'Unit 5 · P4 A',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'A: Welcome the guest and ask if they are ready to order.',
+            say: 'A: Welcome the guest and ask if they are ready to order.',
+            role: 'course'
+          },
+          {
+            h: 'B: Ask for a recommendation.',
+            say: 'B: Ask for a recommendation.',
+            role: 'course'
+          },
+          {
+            h: 'A: Recommend a starter and a main dish.',
+            say: 'A: Recommend a starter and a main dish.',
+            role: 'course'
+          },
+          {
+            h: 'B: Order a starter, a main, and a drink.',
+            say: 'B: Order a starter, a main, and a drink.',
+            role: 'course'
+          },
+          {
+            h: 'A: Repeat the order to check it, and say you will bring the starter.',
+            say: 'A: Repeat the order to check it, and say you will bring the starter.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Role-play: take an order',
       instruction: 'Role-play: take an order. Student A is the waiter; Student B is the '

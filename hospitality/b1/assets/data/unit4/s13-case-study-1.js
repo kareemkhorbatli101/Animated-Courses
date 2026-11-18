@@ -17,10 +17,18 @@ HSP.page('u4-s13', {
       instruction: 'What does Lina do? Choose the best action and say why.',
       passage: {
       title: 'The case',
-      paras: ['A guest arrives at ten o\'clock in the morning, but check-in is at '
-          + 'two o\'clock, and her room is not ready. She is tired after a night '
-          + 'on the train, and she has two heavy bags. She is polite, but she '
-          + 'really wants to rest.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest arrives at ten o\'clock in the morning, but check-in is at '
+            + 'two o\'clock, and her room is not ready. She is tired after a night '
+            + 'on the train, and she has two heavy bags. She is polite, but she '
+            + 'really wants to rest.',
+          say: 'A guest arrives at ten o\'clock in the morning, but check-in is at '
+            + 'two o\'clock, and her room is not ready. She is tired after a night '
+            + 'on the train, and she has two heavy bags. She is polite, but she '
+            + 'really wants to rest.',
+          role: 'course'
+        }]
     },
       before: '<b>What would you do?</b><ul><li>Tell the guest to come back at two '
       + 'o\'clock and say nothing else.</li><li>Give the guest a room that '
@@ -40,9 +48,16 @@ HSP.page('u4-s13', {
       instruction: 'Read the case, then answer the questions.',
       passage: {
       title: 'The case',
-      paras: ['A guest walks in with no reservation and asks for a room for one '
-          + 'night. The hotel is nearly full, but there is one single room free. '
-          + 'The guest looks tired and hopeful.']
+      listenLabel: 'Listen to the case',
+      paras: [{
+          h: 'A guest walks in with no reservation and asks for a room for one '
+            + 'night. The hotel is nearly full, but there is one single room free. '
+            + 'The guest looks tired and hopeful.',
+          say: 'A guest walks in with no reservation and asks for a room for one '
+            + 'night. The hotel is nearly full, but there is one single room free. '
+            + 'The guest looks tired and hopeful.',
+          role: 'course'
+        }]
     },
       minWords: 25,
       placeholder: 'I would… because…',

@@ -12,6 +12,19 @@ HSP.page('u8-s15', {
       id: 'c1',
       ref: 'D',
       bookRef: 'Unit 8 · P10 D',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: '[Teacher reads] \'Of course we have a cot. I\'ll put it in your room '
+              + 'right away. And I\'ll bring some extra towels too. Shall I arrange a '
+              + 'high chair for the restaurant?\'',
+            say: '[Teacher reads] \'Of course we have a cot. I\'ll put it in your room '
+              + 'right away. And I\'ll bring some extra towels too. Shall I arrange a '
+              + 'high chair for the restaurant?\'',
+            role: 'course'
+          }]
+      },
       type: 'discuss',
       title: 'Listening',
       instruction: 'Listening. Listen and answer. (Teacher reads.)',
@@ -55,6 +68,40 @@ HSP.page('u8-s15', {
       id: 'c3',
       ref: 'F',
       bookRef: 'Unit 8 · P10 F',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Can-Do check. Tick what you can do.',
+            say: 'Can-Do check. Tick what you can do.',
+            role: 'course'
+          },
+          {
+            h: 'I can understand and respond to guest requests.',
+            say: 'I can understand and respond to guest requests.',
+            role: 'course'
+          },
+          {
+            h: 'I can make offers and promises with will.',
+            say: 'I can make offers and promises with will.',
+            role: 'course'
+          },
+          {
+            h: 'I can help guests with special needs.',
+            say: 'I can help guests with special needs.',
+            role: 'course'
+          },
+          {
+            h: 'I can reassure a guest and promise action.',
+            say: 'I can reassure a guest and promise action.',
+            role: 'course'
+          },
+          {
+            h: 'I can explain politely what I can and cannot do.',
+            say: 'I can explain politely what I can and cannot do.',
+            role: 'course'
+          }]
+      },
       type: 'cloze',
       title: 'Writing',
       instruction: 'Writing. Write two promises for a guest, using I\'ll — one small '

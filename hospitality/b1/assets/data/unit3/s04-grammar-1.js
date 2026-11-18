@@ -23,6 +23,57 @@ HSP.page('u3-s04', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 3 · P2',
+      type: 'study',
+      title: 'The grammar, as the book gives it',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The grammar, as the book gives it',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'In hospitality, we ask for things and offer help many times a day. We '
+            + 'use MODAL VERBS to sound polite and friendly. To ask for something (a '
+            + 'REQUEST), use Can I…?, Could I…?, or Could you…? Could is more polite '
+            + 'than can. Examples: Can I have your name, please? Could you spell '
+            + 'that for me? Could I take your telephone number?',
+          say: 'In hospitality, we ask for things and offer help many times a day. We '
+            + 'use MODAL VERBS to sound polite and friendly. To ask for something (a '
+            + 'REQUEST), use Can I…?, Could I…?, or Could you…? Could is more polite '
+            + 'than can. Examples: Can I have your name, please? Could you spell '
+            + 'that for me? Could I take your telephone number?',
+          role: 'course'
+        },
+        {
+          h: 'To OFFER something, use Would you like…?, I\'ll…, or Shall I…? '
+            + 'Examples: Would you like a room with a sea view? I\'ll send you a '
+            + 'confirmation by email. Shall I book a taxi for you? Always add please '
+            + 'and thank you. A smile in your voice makes every request and offer '
+            + 'sound warmer.',
+          say: 'To OFFER something, use Would you like…?, I\'ll…, or Shall I…? '
+            + 'Examples: Would you like a room with a sea view? I\'ll send you a '
+            + 'confirmation by email. Shall I book a taxi for you? Always add please '
+            + 'and thank you. A smile in your voice makes every request and offer '
+            + 'sound warmer.',
+          role: 'course'
+        },
+        {
+          h: 'Form',
+          say: 'Form',
+          role: 'course'
+        },
+        {
+          h: 'Request: Could / Can + I / you + verb…? Offer: Would you like + noun '
+            + '/ to + verb…? · I\'ll + verb… · Shall I + verb…?',
+          say: 'Request: Could / Can + I / you + verb…? Offer: Would you like + noun '
+            + '/ to + verb…? · I\'ll + verb… · Shall I + verb…?',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 3 · P2 A',
       type: 'cloze',
@@ -52,7 +103,7 @@ HSP.page('u3-s04', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 3 · P2 B',
       type: 'cloze',
@@ -82,7 +133,7 @@ HSP.page('u3-s04', {
       }
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'C',
       bookRef: 'Unit 3 · P2 C',
       type: 'quizset',

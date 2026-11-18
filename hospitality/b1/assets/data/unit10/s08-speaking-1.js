@@ -12,6 +12,35 @@ HSP.page('u10-s08', {
       id: 'c1',
       ref: 'A',
       bookRef: 'Unit 10 · P4 A',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'B: Greet the guest and give the bill. Say you hope they enjoyed their stay.',
+            say: 'B: Greet the guest and give the bill. Say you hope they enjoyed their stay.',
+            role: 'course'
+          },
+          {
+            h: 'A: Ask about one charge on the bill.',
+            say: 'A: Ask about one charge on the bill.',
+            role: 'course'
+          },
+          {
+            h: 'B: Explain it, give the total, and take the payment.',
+            say: 'B: Explain it, give the total, and take the payment.',
+            role: 'course'
+          },
+          {
+            h: 'A: Say how your stay was.',
+            say: 'A: Say how your stay was.',
+            role: 'course'
+          },
+          {
+            h: 'B: Thank the guest, give a warm farewell, and invite them to return.',
+            say: 'B: Thank the guest, give a warm farewell, and invite them to return.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Role-play: check a guest out',
       instruction: 'Role-play: check a guest out. Student A is the guest; Student B is '

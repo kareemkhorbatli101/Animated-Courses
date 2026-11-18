@@ -10,6 +10,43 @@ HSP.page('u2-s10', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 2 · P6',
+      type: 'study',
+      title: 'Before you write',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you write',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'The Orient Rose Hotel has excellent facilities. On the ground floor, '
+            + 'there is a restaurant, a café and a spa. There is also a beautiful '
+            + 'garden behind the hotel. On the first floor, there is a gym and a '
+            + 'swimming pool. There are more than fifty comfortable rooms. There is '
+            + 'free wifi everywhere, and there is a car park under the building.',
+          say: 'The Orient Rose Hotel has excellent facilities. On the ground floor, '
+            + 'there is a restaurant, a café and a spa. There is also a beautiful '
+            + 'garden behind the hotel. On the first floor, there is a gym and a '
+            + 'swimming pool. There are more than fifty comfortable rooms. There is '
+            + 'free wifi everywhere, and there is a car park under the building.',
+          role: 'course'
+        },
+        {
+          h: 'Dear Guest, welcome to the Orient Rose Hotel. There is a restaurant '
+            + 'and a café on the ground floor. Breakfast is from seven to ten. There '
+            + 'is a gym and a pool on the first floor. If you need anything, '
+            + 'reception is next to the lift. Enjoy your stay!',
+          say: 'Dear Guest, welcome to the Orient Rose Hotel. There is a restaurant '
+            + 'and a café on the ground floor. Breakfast is from seven to ten. There '
+            + 'is a gym and a pool on the first floor. If you need anything, '
+            + 'reception is next to the lift. Enjoy your stay!',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 2 · P6 A',
       type: 'discuss',
@@ -40,9 +77,20 @@ HSP.page('u2-s10', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 2 · P6 B',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Plan: 1) the place and its size 2) what there is on each floor / in '
+              + 'each part 3) where two things are (use prepositions)',
+            say: 'Plan: 1) the place and its size 2) what there is on each floor / in '
+              + 'each part 3) where two things are (use prepositions)',
+            role: 'course'
+          }]
+      },
       type: 'writer',
       title: 'Now you write',
       instruction: 'Now you write. Describe a place you know (your hotel, home, or '

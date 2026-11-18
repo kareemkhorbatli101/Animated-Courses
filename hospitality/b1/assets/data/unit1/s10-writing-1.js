@@ -10,6 +10,41 @@ HSP.page('u1-s10', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 1 · P6',
+      type: 'study',
+      title: 'Before you write',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Before you write',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'My name is Lina Haddad. I am a receptionist at the Orient Rose Hotel '
+            + 'in Damascus. I work in the front office. Every morning I start at '
+            + 'seven o\'clock. I greet the guests, I answer the telephone, and I '
+            + 'check people in. I like my job because I meet new people every day.',
+          say: 'My name is Lina Haddad. I am a receptionist at the Orient Rose Hotel '
+            + 'in Damascus. I work in the front office. Every morning I start at '
+            + 'seven o\'clock. I greet the guests, I answer the telephone, and I '
+            + 'check people in. I like my job because I meet new people every day.',
+          role: 'course'
+        },
+        {
+          h: 'Dear Mr. Sayed, welcome to the Orient Rose Hotel. Your room is 210, '
+            + 'on the second floor. Breakfast is in the restaurant, from seven to '
+            + 'ten. If you need anything, please call reception. We hope you enjoy '
+            + 'your stay. Kind regards, Lina — Front Office.',
+          say: 'Dear Mr. Sayed, welcome to the Orient Rose Hotel. Your room is 210, '
+            + 'on the second floor. Breakfast is in the restaurant, from seven to '
+            + 'ten. If you need anything, please call reception. We hope you enjoy '
+            + 'your stay. Kind regards, Lina — Front Office.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 1 · P6 A',
       type: 'discuss',
@@ -40,9 +75,20 @@ HSP.page('u1-s10', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 1 · P6 B',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Plan: 1) your name and job 2) your department 3) two things you do '
+              + 'every day 4) why you like your job',
+            say: 'Plan: 1) your name and job 2) your department 3) two things you do '
+              + 'every day 4) why you like your job',
+            role: 'course'
+          }]
+      },
       type: 'writer',
       title: 'Now you write',
       instruction: 'Now you write. Write a short self-introduction for the hotel '

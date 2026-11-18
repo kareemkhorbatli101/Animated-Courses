@@ -10,6 +10,54 @@ HSP.page('u8-s16', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 8 · P11',
+      type: 'study',
+      title: 'Foundations for further study',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Foundations for further study',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'The very best hospitality does not wait to be asked. It anticipates. '
+            + 'A great hotel notices that a guest is travelling with a baby and '
+            + 'quietly prepares a cot before the guest reaches the desk. It sees a '
+            + 'guest arrive in the rain and has a warm towel and a hot drink ready. '
+            + 'This is called anticipating needs, and it turns good service into '
+            + 'unforgettable service. Closely linked to this idea is inclusive '
+            + 'hospitality — the principle that every guest, of every age, ability '
+            + 'and background, has an equal right to a warm welcome and a '
+            + 'comfortable stay. Inclusive hospitality is not a special favour; it '
+            + 'is a basic promise. Ramps, accessible rooms, allergy-safe menus and '
+            + 'patient, respectful staff are not extras — they are the mark of a '
+            + 'truly professional hotel. When you learn to anticipate needs and to '
+            + 'include everyone, you move from simply doing your job to practising '
+            + 'hospitality at its highest level. The language of offers and promises '
+            + '— the language of this unit — is how that care is delivered, guest by '
+            + 'guest, and it lies at the heart of every hospitality qualification.',
+          say: 'The very best hospitality does not wait to be asked. It anticipates. '
+            + 'A great hotel notices that a guest is travelling with a baby and '
+            + 'quietly prepares a cot before the guest reaches the desk. It sees a '
+            + 'guest arrive in the rain and has a warm towel and a hot drink ready. '
+            + 'This is called anticipating needs, and it turns good service into '
+            + 'unforgettable service. Closely linked to this idea is inclusive '
+            + 'hospitality — the principle that every guest, of every age, ability '
+            + 'and background, has an equal right to a warm welcome and a '
+            + 'comfortable stay. Inclusive hospitality is not a special favour; it '
+            + 'is a basic promise. Ramps, accessible rooms, allergy-safe menus and '
+            + 'patient, respectful staff are not extras — they are the mark of a '
+            + 'truly professional hotel. When you learn to anticipate needs and to '
+            + 'include everyone, you move from simply doing your job to practising '
+            + 'hospitality at its highest level. The language of offers and promises '
+            + '— the language of this unit — is how that care is delivered, guest by '
+            + 'guest, and it lies at the heart of every hospitality qualification.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 8 · P11 A',
       type: 'discuss',
@@ -43,9 +91,24 @@ HSP.page('u8-s16', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 8 · P11 B',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'One of you is a guest with a special need (a wheelchair user, a '
+              + 'parent with a baby, a guest with an allergy). The other anticipates '
+              + 'the need, offers help, and makes a promise with I\'ll. Then change '
+              + 'roles.',
+            say: 'One of you is a guest with a special need (a wheelchair user, a '
+              + 'parent with a baby, a guest with an allergy). The other anticipates '
+              + 'the need, offers help, and makes a promise with I\'ll. Then change '
+              + 'roles.',
+            role: 'course'
+          }]
+      },
       type: 'report',
       title: 'Apply it',
       instruction: 'Apply it. Do this task with a partner.',
@@ -54,9 +117,22 @@ HSP.page('u8-s16', {
       stems: ['Say it, then write what you said.']
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 8 · P11 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'Write 40–60 words about how a hotel can make every guest feel '
+              + 'welcome. Use will at least once and give one example of a special '
+              + 'need.',
+            say: 'Write 40–60 words about how a hotel can make every guest feel '
+              + 'welcome. Use will at least once and give one example of a special '
+              + 'need.',
+            role: 'course'
+          }]
+      },
       type: 'writer',
       title: 'Micro-writing (optional)',
       instruction: 'Micro-writing (optional).',

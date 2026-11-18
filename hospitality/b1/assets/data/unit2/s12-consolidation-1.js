@@ -10,6 +10,60 @@ HSP.page('u2-s12', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 2 · P8',
+      type: 'study',
+      title: 'Consolidation',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Consolidation',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'It is Lina\'s second week, and today she gives her first tour. A '
+            + 'family from Aleppo arrives: a mother, a father, and two children. '
+            + 'They are tired, but they are excited to see the hotel. Lina smiles '
+            + 'and says, “Welcome. Let me show you around.”',
+          say: 'It is Lina\'s second week, and today she gives her first tour. A '
+            + 'family from Aleppo arrives: a mother, a father, and two children. '
+            + 'They are tired, but they are excited to see the hotel. Lina smiles '
+            + 'and says, “Welcome. Let me show you around.”',
+          role: 'course'
+        },
+        {
+          h: '“On the ground floor, there is the restaurant and a café,” says Lina. '
+            + '“Breakfast is from seven to ten. Behind the hotel, there is a garden, '
+            + 'and the children can play there.” The children are happy. “Is there a '
+            + 'swimming pool?” asks the boy. “Yes,” says Lina. “There is a pool on '
+            + 'the first floor, next to the gym. There are a lot of towels there, so '
+            + 'you don\'t need to bring one.”',
+          say: '“On the ground floor, there is the restaurant and a café,” says Lina. '
+            + '“Breakfast is from seven to ten. Behind the hotel, there is a garden, '
+            + 'and the children can play there.” The children are happy. “Is there a '
+            + 'swimming pool?” asks the boy. “Yes,” says Lina. “There is a pool on '
+            + 'the first floor, next to the gym. There are a lot of towels there, so '
+            + 'you don\'t need to bring one.”',
+          role: 'course'
+        },
+        {
+          h: 'Lina takes the family to the lift. “Your rooms are on the second '
+            + 'floor,” she says. “There are two rooms, next to each other, with a '
+            + 'view of the city.” The family is very happy. “Thank you,” says the '
+            + 'mother. “You know every corner of the hotel!” Lina smiles. Mr. '
+            + 'Nabil\'s words are true: a good receptionist really does know the '
+            + 'answer to every question.',
+          say: 'Lina takes the family to the lift. “Your rooms are on the second '
+            + 'floor,” she says. “There are two rooms, next to each other, with a '
+            + 'view of the city.” The family is very happy. “Thank you,” says the '
+            + 'mother. “You know every corner of the hotel!” Lina smiles. Mr. '
+            + 'Nabil\'s words are true: a good receptionist really does know the '
+            + 'answer to every question.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 2 · P8 A',
       type: 'discuss',
@@ -48,7 +102,7 @@ HSP.page('u2-s12', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 2 · P8 B',
       type: 'cloze',
@@ -82,7 +136,7 @@ HSP.page('u2-s12', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 2 · P8 C',
       type: 'report',

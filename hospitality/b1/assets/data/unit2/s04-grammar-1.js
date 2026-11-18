@@ -24,6 +24,57 @@ HSP.page('u2-s04', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 2 · P2',
+      type: 'study',
+      title: 'The grammar, as the book gives it',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'The grammar, as the book gives it',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'We use THERE IS with one thing (singular): There is a pool. There is '
+            + 'a lift next to reception. We use THERE ARE with more than one thing '
+            + '(plural): There are two restaurants. There are fifty rooms.',
+          say: 'We use THERE IS with one thing (singular): There is a pool. There is '
+            + 'a lift next to reception. We use THERE ARE with more than one thing '
+            + '(plural): There are two restaurants. There are fifty rooms.',
+          role: 'course'
+        },
+        {
+          h: 'Negative: There isn\'t a gym on this floor. There aren\'t any shops '
+            + 'in the hotel. Questions: Is there a spa? Are there any rooms free '
+            + 'tonight?',
+          say: 'Negative: There isn\'t a gym on this floor. There aren\'t any shops '
+            + 'in the hotel. Questions: Is there a spa? Are there any rooms free '
+            + 'tonight?',
+          role: 'course'
+        },
+        {
+          h: 'QUANTIFIERS tell us how many or how much. Use some in positive '
+            + 'sentences (There are some towels in the room). Use any in negatives '
+            + 'and questions (There aren\'t any windows. Are there any cafés near '
+            + 'here?). Use a lot of for a big number (There are a lot of rooms). Use '
+            + 'a few for a small number (There are a few chairs).',
+          say: 'QUANTIFIERS tell us how many or how much. Use some in positive '
+            + 'sentences (There are some towels in the room). Use any in negatives '
+            + 'and questions (There aren\'t any windows. Are there any cafés near '
+            + 'here?). Use a lot of for a big number (There are a lot of rooms). Use '
+            + 'a few for a small number (There are a few chairs).',
+          role: 'course'
+        },
+        {
+          h: 'PREPOSITIONS OF PLACE tell us where: in, on, under, next to, '
+            + 'opposite, near, behind, in front of, between, above, below.',
+          say: 'PREPOSITIONS OF PLACE tell us where: in, on, under, next to, '
+            + 'opposite, near, behind, in front of, between, above, below.',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 2 · P2 A',
       type: 'cloze',
@@ -57,7 +108,7 @@ HSP.page('u2-s04', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 2 · P2 B',
       type: 'cloze',
@@ -91,7 +142,7 @@ HSP.page('u2-s04', {
       }
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'C',
       bookRef: 'Unit 2 · P2 C',
       type: 'cloze',

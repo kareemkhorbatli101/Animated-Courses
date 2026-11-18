@@ -68,6 +68,23 @@ HSP.page('u9-s14', {
       id: 'c3',
       ref: 'C',
       bookRef: 'Unit 9 · P10 C',
+      passage: {
+        title: 'Read this first',
+        listenLabel: 'Listen',
+        paras: [{
+            h: 'A good complaint policy helps the whole hotel. When a guest '
+              + 'complains, the staff write a short report: the room, the problem, and '
+              + 'the action taken. Managers read these reports and look for patterns. '
+              + 'If the same problem happens again and again, they fix the real cause '
+              + '— not just the single complaint.',
+            say: 'A good complaint policy helps the whole hotel. When a guest '
+              + 'complains, the staff write a short report: the room, the problem, and '
+              + 'the action taken. Managers read these reports and look for patterns. '
+              + 'If the same problem happens again and again, they fix the real cause '
+              + '— not just the single complaint.',
+            role: 'course'
+          }]
+      },
       type: 'writer',
       title: 'Reading',
       instruction: 'Reading. Read the short text and answer.',

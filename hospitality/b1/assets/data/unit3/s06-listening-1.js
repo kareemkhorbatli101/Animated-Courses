@@ -23,6 +23,146 @@ HSP.page('u3-s06', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 3 · P3',
+      type: 'study',
+      title: 'The conversation',
+      instruction: 'Listen and read. Each person has their own voice.',
+      passage: {
+      title: 'The conversation',
+      listenLabel: 'Play the conversation',
+      paras: [{
+          h: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          say: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          role: 'course'
+        },
+        {
+          h: '<b>Lina:</b> Good morning, Orient Rose Hotel. How can I help you?',
+          say: 'Good morning, Orient Rose Hotel. How can I help you?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Good morning. I\'d like to book a room for two nights, please.',
+          say: 'Good morning. I\'d like to book a room for two nights, please.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Of course. Could I take your name, please?',
+          say: 'Of course. Could I take your name, please?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Yes, it\'s Karim Sayed.',
+          say: 'Yes, it\'s Karim Sayed.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Thank you, Mr. Sayed. Could you spell your family name for me?',
+          say: 'Thank you, Mr. Sayed. Could you spell your family name for me?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> S-A-Y-E-D.',
+          say: 'S-A-Y-E-D.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Thank you. And what dates would you like?',
+          say: 'Thank you. And what dates would you like?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> The 14th and the 15th of June.',
+          say: 'The 14th and the 15th of June.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> A double room for two nights. Would you like a room with '
+            + 'a city view?',
+          say: 'A double room for two nights. Would you like a room with a city view?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Yes, please.',
+          say: 'Yes, please.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Wonderful. I\'ll send you a confirmation by email. Thank '
+            + 'you for calling, Mr. Sayed.',
+          say: 'Wonderful. I\'ll send you a confirmation by email. Thank you for '
+            + 'calling, Mr. Sayed.',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Hello. Do you have a table free in the restaurant this '
+            + 'evening?',
+          say: 'Hello. Do you have a table free in the restaurant this evening?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Let me check, sir. For how many people?',
+          say: 'Let me check, sir. For how many people?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> For four, at eight o\'clock.',
+          say: 'For four, at eight o\'clock.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Yes, we have a table. Could I have your room number, please?',
+          say: 'Yes, we have a table. Could I have your room number, please?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Room 210.',
+          say: 'Room 210.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Thank you. Would you like a table by the window?',
+          say: 'Thank you. Would you like a table by the window?',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Yes, that would be lovely.',
+          say: 'Yes, that would be lovely.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Perfect. I\'ll book a table for four at eight o\'clock, '
+            + 'by the window. Enjoy your evening!',
+          say: 'Perfect. I\'ll book a table for four at eight o\'clock, by the '
+            + 'window. Enjoy your evening!',
+          role: 'lina',
+          who: 'Lina'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 3 · P3 A',
       type: 'discuss',
@@ -61,7 +201,7 @@ HSP.page('u3-s06', {
         + 'beside your own.'
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 3 · P3 B',
       type: 'quizset',
@@ -122,7 +262,7 @@ HSP.page('u3-s06', {
         }]
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'A',
       bookRef: 'Unit 3 · P3 A',
       type: 'discuss',

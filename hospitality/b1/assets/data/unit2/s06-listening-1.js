@@ -24,6 +24,115 @@ HSP.page('u2-s06', {
     },
     {
       id: 'c2',
+      ref: 'Text',
+      bookRef: 'Unit 2 · P3',
+      type: 'study',
+      title: 'The conversation',
+      instruction: 'Listen and read. Each person has their own voice.',
+      passage: {
+      title: 'The conversation',
+      listenLabel: 'Play the conversation',
+      paras: [{
+          h: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          say: 'Listen and read. (Your teacher will play the audio, or read the '
+            + 'dialogue aloud.)',
+          role: 'course'
+        },
+        {
+          h: '<b>Guest:</b> Excuse me. Where is the swimming pool, please?',
+          say: 'Excuse me. Where is the swimming pool, please?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> It\'s on the first floor, next to the gym. Take the '
+            + 'lift, and turn left.',
+          say: 'It\'s on the first floor, next to the gym. Take the lift, and turn left.',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Thank you. And is there a café near the pool?',
+          say: 'Thank you. And is there a café near the pool?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Yes, there is a small café opposite the gym. It opens at '
+            + 'nine o\'clock.',
+          say: 'Yes, there is a small café opposite the gym. It opens at nine o\'clock.',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Wonderful. And are there towels at the pool?',
+          say: 'Wonderful. And are there towels at the pool?',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Lina:</b> Yes, there are a lot of towels there. You don\'t need to '
+            + 'bring one from your room.',
+          say: 'Yes, there are a lot of towels there. You don\'t need to bring one '
+            + 'from your room.',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Guest:</b> Perfect. Thank you very much.',
+          say: 'Perfect. Thank you very much.',
+          role: 'guest',
+          who: 'Guest'
+        },
+        {
+          h: '<b>Caller:</b> Hello. I\'d like some information about your resort in '
+            + 'Latakia, please.',
+          say: 'Hello. I\'d like some information about your resort in Latakia, please.',
+          role: 'caller',
+          who: 'Caller'
+        },
+        {
+          h: '<b>Lina:</b> Of course. The Orient Rose Resort is right on the beach. '
+            + 'There are eighty rooms, and there is a big swimming pool.',
+          say: 'Of course. The Orient Rose Resort is right on the beach. There are '
+            + 'eighty rooms, and there is a big swimming pool.',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Caller:</b> Is there a restaurant at the resort?',
+          say: 'Is there a restaurant at the resort?',
+          role: 'caller',
+          who: 'Caller'
+        },
+        {
+          h: '<b>Lina:</b> Yes, there are two restaurants and a beach café. There '
+            + 'are a lot of activities for families, too.',
+          say: 'Yes, there are two restaurants and a beach café. There are a lot of '
+            + 'activities for families, too.',
+          role: 'lina',
+          who: 'Lina'
+        },
+        {
+          h: '<b>Caller:</b> And are there rooms with a sea view?',
+          say: 'And are there rooms with a sea view?',
+          role: 'caller',
+          who: 'Caller'
+        },
+        {
+          h: '<b>Lina:</b> Yes, there are some rooms with a beautiful sea view. '
+            + 'They are very popular in summer.',
+          say: 'Yes, there are some rooms with a beautiful sea view. They are very '
+            + 'popular in summer.',
+          role: 'lina',
+          who: 'Lina'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c3',
       ref: 'A',
       bookRef: 'Unit 2 · P3 A',
       type: 'discuss',
@@ -62,7 +171,7 @@ HSP.page('u2-s06', {
         + 'beside your own.'
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'B',
       bookRef: 'Unit 2 · P3 B',
       type: 'quizset',
@@ -123,7 +232,7 @@ HSP.page('u2-s06', {
         }]
     },
     {
-      id: 'c4',
+      id: 'c5',
       ref: 'A',
       bookRef: 'Unit 2 · P3 A',
       type: 'discuss',

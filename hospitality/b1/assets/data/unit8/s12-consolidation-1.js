@@ -10,6 +10,62 @@ HSP.page('u8-s12', {
   cards: [
     {
       id: 'c1',
+      ref: 'Text',
+      bookRef: 'Unit 8 · P8',
+      type: 'study',
+      title: 'Consolidation',
+      instruction: 'Read it, and listen as many times as you like.',
+      passage: {
+      title: 'Consolidation',
+      listenLabel: 'Listen to the whole text',
+      paras: [{
+          h: 'It is a busy morning, and the requests come one after another. First, '
+            + 'a businessman leans over the desk. “I have an important meeting,” he '
+            + 'says. “Could someone iron my suit?” “Of course,” says Lina. “I\'ll '
+            + 'send someone to collect it in five minutes, and it will be ready in '
+            + 'half an hour.”',
+          say: 'It is a busy morning, and the requests come one after another. First, '
+            + 'a businessman leans over the desk. “I have an important meeting,” he '
+            + 'says. “Could someone iron my suit?” “Of course,” says Lina. “I\'ll '
+            + 'send someone to collect it in five minutes, and it will be ready in '
+            + 'half an hour.”',
+          role: 'course'
+        },
+        {
+          h: 'Next, a young mother arrives with a baby and a lot of bags. “We\'re '
+            + 'exhausted,” she says. “Do you have a cot?” “We do,” says Lina warmly. '
+            + '“I\'ll put a cot in your room now, and I\'ll ask the porter to carry '
+            + 'your bags. Please, sit and rest for a moment.” The mother almost '
+            + 'cries with relief.',
+          say: 'Next, a young mother arrives with a baby and a lot of bags. “We\'re '
+            + 'exhausted,” she says. “Do you have a cot?” “We do,” says Lina warmly. '
+            + '“I\'ll put a cot in your room now, and I\'ll ask the porter to carry '
+            + 'your bags. Please, sit and rest for a moment.” The mother almost '
+            + 'cries with relief.',
+          role: 'course'
+        },
+        {
+          h: 'Then an elderly couple approach slowly. “We\'d love to see the Old '
+            + 'City,” they say, “but we walk slowly.” “Don\'t worry at all,” says '
+            + 'Lina. “I\'ll arrange a car with a driver who knows the quiet, easy '
+            + 'streets. He\'ll wait for you and bring you back whenever you\'re '
+            + 'ready.” By midday, Lina has kept every promise. Mr. Nabil watches '
+            + 'with a smile. “You said \'I\'ll\',” he tells her, “and every time, '
+            + 'you did. That is why guests trust us.”',
+          say: 'Then an elderly couple approach slowly. “We\'d love to see the Old '
+            + 'City,” they say, “but we walk slowly.” “Don\'t worry at all,” says '
+            + 'Lina. “I\'ll arrange a car with a driver who knows the quiet, easy '
+            + 'streets. He\'ll wait for you and bring you back whenever you\'re '
+            + 'ready.” By midday, Lina has kept every promise. Mr. Nabil watches '
+            + 'with a smile. “You said \'I\'ll\',” he tells her, “and every time, '
+            + 'you did. That is why guests trust us.”',
+          role: 'course'
+        }]
+    },
+      doneLabel: 'I have read this'
+    },
+    {
+      id: 'c2',
       ref: 'A',
       bookRef: 'Unit 8 · P8 A',
       type: 'discuss',
@@ -50,7 +106,7 @@ HSP.page('u8-s12', {
         + 'beside your own.'
     },
     {
-      id: 'c2',
+      id: 'c3',
       ref: 'B',
       bookRef: 'Unit 8 · P8 B',
       type: 'cloze',
@@ -84,7 +140,7 @@ HSP.page('u8-s12', {
       }
     },
     {
-      id: 'c3',
+      id: 'c4',
       ref: 'C',
       bookRef: 'Unit 8 · P8 C',
       type: 'report',
