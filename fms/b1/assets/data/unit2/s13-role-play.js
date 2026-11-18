@@ -116,20 +116,54 @@ FMS.page('u2-s13', {
           + 'bilateral meeting?',
         'How do you politely and professionally manage a meeting that is running '
           + 'significantly over time?'],
-        example: ['The visiting delegation knows a meeting is well managed when the room is '
-            + 'ready, the agenda is followed, and the interpretation works. They also '
-            + 'notice whether someone is clearly in charge of the time. Small failures '
-            + 'are what they remember.',
-          'First, confirm room readiness and the AV setup early in the morning — not '
-            + 'just the day before. Second, check that the protocol brief and the seating '
-            + 'plan reflect the final participant list. Third, never forget the '
-            + 'interpretation — if it fails, nothing else in the day works. And confirm '
-            + 'the final participant list on the morning — because a late addition '
-            + 'changes the seating, the badges, and the catering at once.',
-          'The liaison officer monitors the time and signals the delegation lead '
-            + 'discreetly, never interrupting the discussion directly. The lead can then '
-            + 'propose moving an item to the next session. The language should be '
-            + 'neutral: "I suggest we return to the agenda."'],
+        example: ['B1 target — The visiting delegation knows a meeting is well managed when '
+            + 'the room is ready, the agenda is followed, and the interpretation works. '
+            + 'They also notice whether someone is clearly in charge of the time. Small '
+            + 'failures are what they remember.',
+          'B2 extension — A: The visiting delegation reads the quality of management '
+            + 'from details they are not supposed to notice — the room ready before they '
+            + 'arrive, their names spelled correctly, the interpretation booth tested, '
+            + 'the agenda actually followed. B: They also notice whether someone is '
+            + 'visibly responsible for the clock — because a session that drifts tells '
+            + 'them the host side has not thought about outcomes. C: What they remember '
+            + 'afterwards is never the substance of agenda item three; it is whether the '
+            + 'day felt controlled. D: And they read it from the parts nobody prepared — '
+            + 'whether the coffee arrived during the break, whether their names were '
+            + 'spelled correctly on the cards, whether somebody met them at the entrance. '
+            + 'The agenda is assumed; the details are the evidence. E: Which is why the '
+            + 'liaison officer\'s work is invisible when it succeeds.',
+          'B1 target — First, confirm room readiness and the AV setup early in the '
+            + 'morning — not just the day before. Second, check that the protocol brief '
+            + 'and the seating plan reflect the final participant list. Third, never '
+            + 'forget the interpretation — if it fails, nothing else in the day works. '
+            + 'And confirm the final participant list on the morning — because a late '
+            + 'addition changes the seating, the badges, and the catering at once.',
+          'B2 extension — A: First, confirm room readiness and test the AV in the '
+            + 'morning — not only the day before — overnight is when projectors stop '
+            + 'working. B: Second, reconcile the seating plan and the protocol brief '
+            + 'against the final participant list — because a late addition on either '
+            + 'side changes both. C: Third, confirm the interpretation arrangement '
+            + 'personally with the booth — because interpretation is the one failure that '
+            + 'stops the meeting entirely rather than merely embarrassing the host. D: '
+            + 'The fourth thing, which is not on most checklists, is to know who on the '
+            + 'host side can authorize a change during the session — because if the '
+            + 'answer is nobody, the officer will be making decisions they do not have '
+            + 'the standing to make.',
+          'B1 target — The liaison officer monitors the time and signals the '
+            + 'delegation lead discreetly, never interrupting the discussion directly. '
+            + 'The lead can then propose moving an item to the next session. The language '
+            + 'should be neutral: "I suggest we return to the agenda."',
+          'B2 extension — A: The liaison officer watches the clock and signals the '
+            + 'delegation lead privately — a note — not an interruption. B: The lead then '
+            + 'makes the intervention — because only the lead has the standing to '
+            + 'redirect a counterpart: "I propose we take the remaining point on water '
+            + 'infrastructure at our next session, so that we can conclude today with the '
+            + 'committee framework agreed." C: The phrasing matters: a neutral, level '
+            + 'tone makes it a scheduling decision rather than a criticism of whoever was '
+            + 'speaking. D: What does not work is the officer intervening directly. '
+            + 'However polite the wording, a liaison officer stopping a visiting '
+            + 'delegation lead mid-sentence is a protocol error that will be remembered '
+            + 'longer than the overrun would have been.'],
         criteria: [{ t: 'What makes a meeting feel professionally managed from the perspective of a '
             + 'visiting delegation?' },
           { t: 'What are three things a liaison officer must never forget on the day of a '

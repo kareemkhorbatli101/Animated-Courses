@@ -133,16 +133,53 @@ FMS.page('u4-s13', {
           + 'how does it create both challenge and opportunity?',
         'What is one concrete commitment you are going to make to improving your '
           + 'English for this work? Use future forms in your answer.'],
-        example: ['I think reliability is the most important quality. If you do what you said '
-            + 'you would do, by the day you said, everything else becomes possible. '
-            + 'Without it, curiosity and emotional intelligence have nothing to build on.',
-          'Kazakhstan sits between Europe, Russia, China, and the Turkic world. This '
-            + 'creates opportunity — because we can host conversations that would be '
-            + 'difficult elsewhere. It also creates challenge — because every partner '
-            + 'watches how we deal with the others.',
-          'I am going to write one formal document in English every week, and I will '
-            + 'ask a colleague to check it. I am also going to keep a list of the stress '
-            + 'patterns I get wrong.'],
+        example: ['B1 target — I think reliability is the most important quality. If you do '
+            + 'what you said you would do, by the day you said, everything else becomes '
+            + 'possible. Without it, curiosity and emotional intelligence have nothing to '
+            + 'build on.',
+          'B2 extension — A: Reliability is the foundation — because it is the only '
+            + 'one of the five that a counterpart can verify independently. Everything '
+            + 'else they have to take on trust, and reliability is what earns that trust. '
+            + 'B: I would put precision first. Getting a name or a title wrong undoes a '
+            + 'year of goodwill in a single document, and the damage is disproportionate '
+            + 'to the effort of checking. C: My choice is patience. Diplomatic work has '
+            + 'long flat periods where nothing visible happens, and the people who '
+            + 'sustain engagement through those periods are the ones who are there when '
+            + 'something becomes possible. D: What is striking is that nobody chose '
+            + 'genuine curiosity, although all of us think it matters. Perhaps because it '
+            + 'cannot be demanded of anyone — it is either there or it is not. E: What '
+            + 'the ranking exercise really reveals is that four of the five can be '
+            + 'trained and one cannot, which is worth knowing when you are recruiting.',
+          'B1 target — Kazakhstan sits between Europe, Russia, China, and the Turkic '
+            + 'world. This creates opportunity — because we can host conversations that '
+            + 'would be difficult elsewhere. It also creates challenge — because every '
+            + 'partner watches how we deal with the others.',
+          'B2 extension — A: Kazakhstan sits at a genuine crossroads — between '
+            + 'Europe, Russia, China, and the Turkic world — and that creates a '
+            + 'diplomatic opportunity no amount of effort could manufacture: we can '
+            + 'convene conversations that would be awkward or impossible in other '
+            + 'capitals. B: The challenge is the same fact seen from the other side. '
+            + 'Every partner reads our relationship with every other partner, so a '
+            + 'framework signed with one is assessed by all of them. C: That means our '
+            + 'diplomacy has to be unusually consistent. A country in this position '
+            + 'cannot say different things in different rooms — because the rooms compare '
+            + 'notes. D: Handled well it makes us a bridge; handled carelessly it makes '
+            + 'us a country that nobody fully trusts. The margin between the two is '
+            + 'narrower than it looks. E: The practical discipline is to keep one version '
+            + 'of every substantive position, written down, and to use it in every room — '
+            + 'adapting the register and nothing else.',
+          'B1 target — I am going to write one formal document in English every week, '
+            + 'and I will ask a colleague to check it. I am also going to keep a list of '
+            + 'the stress patterns I get wrong.',
+          'B2 extension — A: I am going to practise one note verbale a week against a '
+            + 'real scenario and have a colleague check it — three passes, as the unit '
+            + 'recommends, with the third for formulas only. B: I will record myself '
+            + 'delivering a formal welcome once a week and listen only to the endings of '
+            + 'sentences — because that is my weakest point. C: I am going to keep a '
+            + 'working list of the words whose stress I get wrong, and add to it rather '
+            + 'than hoping to remember. D: And the one that is hardest: I am going to say '
+            + '"I do not have that figure" when I do not have it, rather than estimating. '
+            + 'That is a habit — not a skill, and it will take the longest to build.'],
         criteria: [{ t: 'Rank these five qualities of an effective bridge-builder from most to '
             + 'least important for diplomatic work. Explain your top choice in 2–3 '
             + 'sentences.' },

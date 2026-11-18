@@ -52,13 +52,30 @@ FMS.page('u3-s01', {
         'Complete this sentence with your partner: "My country\'s most important '
           + 'message to the world right now is that ___." Then give ONE specific '
           + 'example in 1–2 sentences that supports your sentence.'],
-        example: ['The most important change is that our international engagement has become '
-            + 'practical. Agreements are being signed, committees are meeting, and '
-            + 'programs are being implemented. Five years ago we talked about intentions; '
-            + 'now we report on results.',
-          'Honesty and forward momentum are not in conflict. You name the difficulty '
-            + 'precisely, then describe what is being done about it and by when. A vague '
-            + 'answer sounds like evasion; a precise one sounds like competence.',
+        example: ['B1 target — The most important change is that our international engagement '
+            + 'has become practical. Agreements are being signed, committees are meeting, '
+            + 'and programs are being implemented. Five years ago we talked about '
+            + 'intentions; now we report on results.',
+          'B2 extension — The most important change is that our international '
+            + 'engagement has moved from declarations to implementation. Diplomatic '
+            + 'contacts have been established or upgraded with more than twenty '
+            + 'countries, bilateral frameworks have been signed in infrastructure, '
+            + 'education, and trade, and joint technical committees are now required to '
+            + 'report quarterly. The difference a journalist should be able to verify is '
+            + 'that there is now a paper trail of obligations — not only a record of good '
+            + 'intentions.',
+          'B1 target — Honesty and forward momentum are not in conflict. You name the '
+            + 'difficulty precisely, then describe what is being done about it and by '
+            + 'when. A vague answer sounds like evasion; a precise one sounds like '
+            + 'competence.',
+          'B2 extension — Honesty and forward momentum are not in conflict — in fact '
+            + 'the forward-looking part is only credible if the acknowledgment is '
+            + 'specific. The formula I use is three steps: name the difficulty in '
+            + 'concrete terms, state the mechanism that is addressing it, and give a '
+            + 'timeline or a reporting point. "Implementation is slower than we '
+            + 'projected; the joint committees now report quarterly and the first public '
+            + 'report is due in March" is both honest and constructive. A general '
+            + 'reassurance is neither.',
           'My country\'s most important message to the world right now is that its '
             + 'institutions are working and verifiable. For example, implementation of '
             + 'the bilateral frameworks is overseen by joint technical committees that '

@@ -118,19 +118,45 @@ FMS.page('u1-s13', {
           + 'or too informal?',
         'How does body language — eye contact, posture, and a calm manner — affect '
           + 'the visitor\'s experience even before any words are spoken?'],
-        example: ['The best interactions were the ones where the officer gave the visitor a '
-            + 'clear next step immediately. Using the visitor\'s name — for example, '
-            + '"Thank you, Ms. Martin" — sounded much more professional than just "Okay." '
-            + 'Offering to call the contact person right away removed all uncertainty.',
-          '"Welcome to the Ministry of Foreign Affairs. How may I help you?" sounded '
-            + 'professional because it names the institution and offers help immediately. '
-            + 'Phrases like "Okay, go ahead" sounded unprofessional because they give no '
-            + 'useful information. The most effective phrases showed both warmth and '
-            + 'structure.',
-          'If a reception officer looks at a screen and does not make eye contact, '
-            + 'the visitor feels unwelcome immediately. Good posture and a direct '
-            + 'greeting show the officer is ready and glad to help. In a diplomatic '
-            + 'context, this first impression is very important.'],
+        example: ['B1 target — The best interactions were the ones where the officer gave the '
+            + 'visitor a clear next step immediately. Using the visitor\'s name — for '
+            + 'example, "Thank you, Ms. Martin" — sounded much more professional than '
+            + 'just "Okay." Offering to call the contact person right away removed all '
+            + 'uncertainty.',
+          'B2 extension — A: The interactions that worked best were the ones where '
+            + 'the officer made the visitor feel expected and welcomed immediately — even '
+            + 'in the case of Mr. Chaiyaporn, who had no appointment. The best officers '
+            + 'offered a clear next step right away rather than leaving the visitor to '
+            + 'guess. B: Using the visitor\'s name and title consistently was the single '
+            + 'most professional habit. C: Offering to notify the relevant officer '
+            + 'immediately removed all uncertainty from the interaction and signalled '
+            + 'that the institution was organized. D: What all three have in common is '
+            + 'that none of them required extra time. The officer who used the visitor\'s '
+            + 'name and offered a next step was not slower than the one who said "Okay" — '
+            + 'only better prepared.',
+          'B1 target — "Welcome to the Ministry of Foreign Affairs. How may I help '
+            + 'you?" sounded professional because it names the institution and offers '
+            + 'help immediately. Phrases like "Okay, go ahead" sounded unprofessional '
+            + 'because they give no useful information. The most effective phrases showed '
+            + 'both warmth and structure.',
+          'B2 extension — A: "Welcome to the Ministry of Foreign Affairs. How may I '
+            + 'help you?" sounds professional because it names the institution and '
+            + 'immediately offers assistance. B: "Okay, go ahead" sounds unprofessional — '
+            + 'it gives no useful information and seems dismissive of the visitor. C: The '
+            + 'most effective phrases combine institutional warmth with a concrete next '
+            + 'step, which is exactly what a diplomatic visitor expects. D: The phrases '
+            + 'that failed were not rude; they were simply empty, and an empty phrase in '
+            + 'a diplomatic setting is read as indifference rather than as brevity.',
+          'B1 target — If a reception officer looks at a screen and does not make eye '
+            + 'contact, the visitor feels unwelcome immediately. Good posture and a '
+            + 'direct greeting show the officer is ready and glad to help. In a '
+            + 'diplomatic context, this first impression is very important.',
+          'B2 extension — A: If a reception officer looks distracted or keeps looking '
+            + 'at a screen, the visitor immediately feels like an inconvenience. B: Good '
+            + 'posture, a genuine greeting, and direct eye contact communicate that the '
+            + 'officer is present, ready, and glad to help. C: In a diplomatic context '
+            + 'the visitor reads these signals as evidence of how the whole ministry '
+            + 'works, which is why body language matters before a single word is spoken.'],
         criteria: [{ t: 'Which reception interactions felt most natural and professional? What '
             + 'specifically made them work?' },
           { t: 'What phrases sounded genuinely professional? What made some sound awkward '

@@ -51,20 +51,48 @@ FMS.page('u5-s05', {
           + 'to bring?',
         'How is Mr. Chen\'s visit different from the commercial investors\' visits, '
           + 'and what does it require from the Ministry?'],
-        example: ['Klaus Richter should be handled by the Economic Affairs Office with the '
-            + 'Investment Promotion Agency. He needs the investment law, the free zone '
-            + 'regulations, the profit repatriation provisions, and the arbitration '
-            + 'clause — in writing. He also needs a named case officer and a processing '
-            + 'timeline.',
-          'Ms. Al-Sayed also goes to Economic Affairs, but with the Ministry of '
-            + 'Agriculture involved from the first meeting. She needs the water rights '
-            + 'framework and the land tenure position in law. Her concerns will be '
-            + 'political stability over a long horizon and whether the water guarantee '
-            + 'survives a change of government.',
-          'Mr. Chen is different because UNDP is not investing. He needs a policy '
-            + 'counterpart — not an investment officer, and a conversation about '
+        example: ['B1 target — Klaus Richter should be handled by the Economic Affairs Office '
+            + 'with the Investment Promotion Agency. He needs the investment law, the '
+            + 'free zone regulations, the profit repatriation provisions, and the '
+            + 'arbitration clause — in writing. He also needs a named case officer and a '
+            + 'processing timeline.',
+          'B2 extension — Klaus Richter goes to the Economic Affairs Office working '
+            + 'directly with the Investment Promotion Agency. What he needs is '
+            + 'documentary: the investment law, the free zone regulations, the profit '
+            + 'repatriation guarantee, and the arbitration clause, supplied in writing '
+            + 'and in advance. He also needs a named case officer and a stated processing '
+            + 'target — because his board will not approve against a verbal assurance. '
+            + 'His concern is not whether the opportunity is real but whether the process '
+            + 'is predictable, and the answer to that is paperwork rather than '
+            + 'persuasion.',
+          'B1 target — Ms. Al-Sayed also goes to Economic Affairs, but with the '
+            + 'Ministry of Agriculture involved from the first meeting. She needs the '
+            + 'water rights framework and the land tenure position in law. Her concerns '
+            + 'will be political stability over a long horizon and whether the water '
+            + 'guarantee survives a change of government.',
+          'B2 extension — Ms. Al-Sayed\'s visit should be handled by Economic Affairs '
+            + 'with the Ministry of Agriculture present from the first meeting — because '
+            + 'her question is sectoral and nobody in Economic Affairs can answer it '
+            + 'alone. She needs the water rights framework, the land tenure position, and '
+            + 'the agricultural investment incentives — all in law rather than in policy. '
+            + 'Her concerns will be the fifteen-year horizon: political stability, '
+            + 'whether the water guarantee is statutory, and whether the institution is '
+            + 'reliable independently of the officials she meets. The '
+            + 'relationship-building is not a courtesy in her case; it is part of the due '
+            + 'diligence.',
+          'B1 target — Mr. Chen is different because UNDP is not investing. He needs '
+            + 'a policy counterpart — not an investment officer, and a conversation about '
             + 'framework design rather than about sectors. Routing him through the '
-            + 'commercial process wastes his time and ours.'],
+            + 'commercial process wastes his time and ours.',
+          'B2 extension — Mr. Chen\'s visit is categorically different: UNDP brings '
+            + 'design capacity and convening power — not capital, so the commercial '
+            + 'pathway is the wrong one entirely. What he requires is a policy '
+            + 'counterpart — someone with the authority to discuss how a facilitation '
+            + 'framework would be structured and who would govern it — and a willingness '
+            + 'on our side to treat the framework itself as the deliverable. The risk is '
+            + 'that we route him through the Investment Promotion Agency, which is built '
+            + 'to process applications, and he concludes that the Ministry has not '
+            + 'understood the offer.'],
         criteria: [{ t: 'Which office handles Klaus Richter and what does he specifically need?' },
           { t: 'What does Ms. Al-Sayed specifically need and what concerns is she likely '
             + 'to bring?' },

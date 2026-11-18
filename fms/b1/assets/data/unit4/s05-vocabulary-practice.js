@@ -50,19 +50,53 @@ FMS.page('u4-s05', {
           + 'should never appear in a coordination email?',
         'What mistakes should never be made in a note verbale, and what do they '
           + 'signal if they occur?'],
-        example: ['Formal correspondence, such as a note verbale, is third-person and uses '
-            + 'fixed formulas; it is the institution speaking. Semi-formal '
+        example: ['B1 target — Formal correspondence, such as a note verbale, is third-person '
+            + 'and uses fixed formulas; it is the institution speaking. Semi-formal '
             + 'correspondence, such as a coordination email to a counterpart, is '
             + 'first-person and functional. A note verbale invites an ambassador; an '
             + 'email confirms a room booking.',
-          'Some phrases are only for very formal correspondence: "presents its '
-            + 'compliments," "has the honor to," "avails itself of this opportunity to '
-            + 'renew the assurances of its highest consideration." They should never '
-            + 'appear in a coordination email, where they would look like parody.',
-          'The most serious mistakes are a wrong name or title, a lapse into the '
-            + 'first person, and a missing closing formula. Each signals that the '
-            + 'ministry did not check its own document, which is the impression a note '
-            + 'verbale exists to prevent.'],
+          'B2 extension — Formal diplomatic correspondence is third-person, '
+            + 'formulaic, and institutional — the note verbale, the aide-mémoire, the '
+            + 'formal invitation. Semi-formal correspondence is first-person and '
+            + 'operational: the coordination emails and logistics notes that make the '
+            + 'formal instruments possible. An example of each: a note verbale inviting '
+            + 'His Excellency the Ambassador to a signing ceremony, against an email to '
+            + 'the embassy\'s logistics officer confirming that twelve seats and German '
+            + 'interpretation are arranged. Both are necessary and neither substitutes '
+            + 'for the other. The error that matters is mixing the registers inside one '
+            + 'document. The second error, which is subtler, is sending a note verbale '
+            + 'where an email would have done — it reads as an attempt to add weight the '
+            + 'subject does not carry.',
+          'B1 target — Some phrases are only for very formal correspondence: '
+            + '"presents its compliments," "has the honor to," "avails itself of this '
+            + 'opportunity to renew the assurances of its highest consideration." They '
+            + 'should never appear in a coordination email, where they would look like '
+            + 'parody.',
+          'B2 extension — "Presents its compliments," "has the honor to," and "avails '
+            + 'itself of this opportunity to renew to the Embassy the assurances of its '
+            + 'highest consideration" belong exclusively to the note verbale register. So '
+            + 'do "Your Excellency" as a written form of address and "it is the honor of '
+            + 'this Ministry to inform." None of them should appear in a coordination '
+            + 'email: in that context they read either as parody or as evidence that the '
+            + 'writer has learned formulas without understanding what they are for. The '
+            + 'register signals the weight of the communication, so using the heaviest '
+            + 'register for a room booking devalues it for the occasions that need it.',
+          'B1 target — The most serious mistakes are a wrong name or title, a lapse '
+            + 'into the first person, and a missing closing formula. Each signals that '
+            + 'the ministry did not check its own document, which is the impression a '
+            + 'note verbale exists to prevent.',
+          'B2 extension — Three critical errors. First, an incorrect name, title, or '
+            + 'form of address — this is the one the receiving ministry will remember, '
+            + 'and it is read as a judgement about how seriously the relationship is '
+            + 'taken. Second, slipping into the first person, which means the document is '
+            + 'no longer a note verbale at all. Third, omitting or mangling the closing '
+            + 'compliments formula — which looks like carelessness in the one part of the '
+            + 'document that is entirely within the drafter\'s control. All three signal '
+            + 'the same thing: that the document was not checked. A note verbale is a '
+            + 'demonstration of institutional competence, so a sloppy one actively '
+            + 'damages the message it carries. The practical safeguard is the three-pass '
+            + 'check, and it should be done by someone other than the drafter wherever '
+            + 'the document is going outside the building.'],
         criteria: [{ t: 'What distinguishes formal diplomatic correspondence from semi-formal '
             + 'correspondence? Can you give an example of each?' },
           { t: 'What phrases are used only in very formal diplomatic correspondence and '

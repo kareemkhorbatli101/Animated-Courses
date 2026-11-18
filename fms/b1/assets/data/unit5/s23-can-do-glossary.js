@@ -49,18 +49,43 @@ FMS.page('u5-s23', {
           + 'relationship-building to specific investment discussion in a Gulf meeting?',
         'Write down two or three phrases from this unit that you will use in your '
           + 'next investor meeting. Share them with the class.'],
-        example: ['With a German investor, the most important adaptation is precision — '
-            + 'specific answers, documents, and dates. With a Gulf investor, it is '
-            + 'patience: the relationship is part of the due diligence — not a courtesy '
-            + 'before it.',
-          'The signal usually comes from the visitor — not the clock. They ask a '
-            + 'specific question, or they refer to a document, or their adviser opens a '
-            + 'folder. When that happens, move to specifics immediately and do not return '
-            + 'to the social register.',
-          '"If you submit your application through the Investment Promotion Agency, '
-            + 'we will fast-track the review." "That is exactly the right question to '
-            + 'ask." "I would rather give you the accurate figure than an approximate one '
-            + '— I will send it today."'],
+        example: ['B1 target — With a German investor, the most important adaptation is '
+            + 'precision — specific answers, documents, and dates. With a Gulf investor, '
+            + 'it is patience: the relationship is part of the due diligence — not a '
+            + 'courtesy before it.',
+          'B2 extension — With a German investor the adaptation is precision and '
+            + 'pace: move to the agenda quickly, answer narrow questions narrowly, and '
+            + 'never estimate a figure. With a Gulf investor the adaptation is patience '
+            + 'and genuine hospitality — because the relationship is part of the '
+            + 'assessment rather than a preliminary to it. What does not change is the '
+            + 'content — the same legal framework, the same arbitration clause, the same '
+            + 'honest admission of what has not been tested. Only the sequence and the '
+            + 'register change, and treating either adaptation as optional is how a '
+            + 'meeting is lost.',
+          'B1 target — The signal usually comes from the visitor — not the clock. '
+            + 'They ask a specific question, or they refer to a document, or their '
+            + 'adviser opens a folder. When that happens, move to specifics immediately '
+            + 'and do not return to the social register.',
+          'B2 extension — The transition signal almost always comes from the guest '
+            + 'rather than from the agenda. It may be a specific question, a reference to '
+            + 'a document, an adviser opening a file, or simply a change in posture. When '
+            + 'it comes, move to the specifics without hesitating and without going back '
+            + 'to the social register — because retreating into courtesies at that point '
+            + 'reads as unpreparedness. If no signal comes and time is genuinely short, '
+            + 'the professional move is to offer rather than to switch: "whenever you '
+            + 'would like to turn to specifics, I am ready" leaves the decision where it '
+            + 'belongs.',
+          'B1 target — "If you submit your application through the Investment '
+            + 'Promotion Agency, we will fast-track the review." "That is exactly the '
+            + 'right question to ask." "I would rather give you the accurate figure than '
+            + 'an approximate one — I will send it today."',
+          'B2 extension — "If you submit your application through the Investment '
+            + 'Promotion Agency, we will fast-track the review — our target is thirty '
+            + 'days." "That is exactly the right question to ask, and I respect your '
+            + 'directness." "Aspirational, and I will not pretend otherwise." The third '
+            + 'is the one I will have to practise hardest — because the instinct in a '
+            + 'meeting is always to make the answer better than it is, and the investors '
+            + 'in this unit all responded better to the honest version.'],
         criteria: [{ t: 'What is the most important adaptation you need to make when hosting a '
             + 'German investor compared to a Gulf investor?' },
           { t: 'How can a ministry officer know when it is the right moment to move from '

@@ -55,13 +55,27 @@ FMS.page('u5-s01', {
         'Complete with your partner: "My country has the potential to attract '
           + 'significant investment in ___, ___, and ___ because ___." Then share your '
           + 'reasoning with the class.'],
-        example: ['My country has opportunities in infrastructure, energy, and agriculture. '
-            + 'Agriculture is the clearest: we have land, water, and a growing domestic '
-            + 'market, and processing capacity is still very limited.',
-          'The biggest challenge is legal certainty. Investors want to know what '
-            + 'happens if something goes wrong — not only what is promised. The ministry '
-            + 'can address it by providing the legal framework in writing, early, before '
-            + 'being asked.',
+        example: ['B1 target — My country has opportunities in infrastructure, energy, and '
+            + 'agriculture. Agriculture is the clearest: we have land, water, and a '
+            + 'growing domestic market, and processing capacity is still very limited.',
+          'B2 extension — My country has significant potential in infrastructure and '
+            + 'transportation, energy — both conventional and renewable — and agriculture '
+            + 'and food security. Agriculture is the strongest case: the land and water '
+            + 'exist, domestic demand is growing, and almost no value is added locally, '
+            + 'so a processing investment captures a margin that currently leaves the '
+            + 'country entirely.',
+          'B1 target — The biggest challenge is legal certainty. Investors want to '
+            + 'know what happens if something goes wrong — not only what is promised. The '
+            + 'ministry can address it by providing the legal framework in writing, '
+            + 'early, before being asked.',
+          'B2 extension — The most significant challenge is not opportunity but '
+            + 'predictability — an investor\'s first question is what happens if '
+            + 'something goes wrong. The ministry can address it concretely: provide the '
+            + 'investment law, the free zone regulations, the profit repatriation '
+            + 'provisions, and the arbitration clause in writing at the first meeting '
+            + 'rather than on request. Sending the documents before they are asked for '
+            + 'changes the whole character of the conversation — because it signals that '
+            + 'we expect to be checked.',
           'My country has the potential to attract significant investment in '
             + 'agriculture, energy, and transport infrastructure because the demand is '
             + 'domestic and growing, the inputs already exist here, and the regulatory '

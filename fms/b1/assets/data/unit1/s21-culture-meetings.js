@@ -59,18 +59,50 @@ FMS.page('u1-s21', {
           + 'these two contexts?',
         'What non-verbal behaviors — handshake, eye contact, posture — do you '
           + 'expect in each context?'],
-        example: ['French diplomats are usually formal but direct. They appreciate titles '
-            + 'like "Mr." or "Ms." and move to professional conversation fairly quickly. '
-            + 'Gulf Arab officials expect more formality and ceremony — using "Your '
-            + 'Excellency" is required — not optional.',
-          'With the French attaché, a direct greeting works well: "Good morning, Mr. '
-            + 'Moreau. Welcome to the Ministry." With the Gulf Arab official, the '
-            + 'language is much more ceremonial: "Your Excellency, it is a great honor to '
-            + 'welcome you." The language shows more respect for rank.',
-          'With a French visitor, a firm handshake and direct eye contact show '
-            + 'confidence and professionalism. With a Gulf Arab official, the handshake '
-            + 'may be gentler and longer — this shows warmth and respect. A male officer '
-            + 'should not extend his hand to a female guest first.'],
+        example: ['B1 target — French diplomats are usually formal but direct. They '
+            + 'appreciate titles like "Mr." or "Ms." and move to professional '
+            + 'conversation fairly quickly. Gulf Arab officials expect more formality and '
+            + 'ceremony — using "Your Excellency" is required — not optional.',
+          'B2 extension — Speaker A: French diplomats are usually formal but not '
+            + 'ceremonial. They appreciate being addressed by their full title or name — '
+            + '"Mr. Moreau" or "Ms. Martin" — but they generally move to professional '
+            + 'conversation relatively quickly. They value directness combined with '
+            + 'correct form. Speaker B: Gulf Arab officials expect a far more ceremonial '
+            + 'opening, and rank is central: "Your Excellency" is obligatory, and the '
+            + 'social exchange before business is part of the relationship — not a delay. '
+            + 'Speaker D: The practical consequence for a reception officer is that the '
+            + 'French visitor measures you by efficiency and the Gulf visitor measures '
+            + 'you by attentiveness, and neither reading is wrong — they are simply '
+            + 'looking at different evidence of the same professionalism.',
+          'B1 target — With the French attaché, a direct greeting works well: "Good '
+            + 'morning, Mr. Moreau. Welcome to the Ministry." With the Gulf Arab '
+            + 'official, the language is much more ceremonial: "Your Excellency, it is a '
+            + 'great honor to welcome you." The language shows more respect for rank.',
+          'B2 extension — Speaker A: With the French attaché, a confident, direct '
+            + 'English greeting works well: "Good morning, Mr. Moreau. Welcome to the '
+            + 'Ministry. We are pleased to have you." It is formal but efficient. Speaker '
+            + 'B: With the Gulf Arab deputy minister, you would use far more elevated '
+            + 'language — honour, privilege, gratitude — and you would convey the '
+            + 'minister\'s own greetings before anything practical is mentioned. Speaker '
+            + 'C: What is identical in both cases is the information conveyed — who you '
+            + 'are, that they are expected, and what happens next. Only the quantity of '
+            + 'ceremony around it changes, and judging that quantity correctly is the '
+            + 'whole skill.',
+          'B1 target — With a French visitor, a firm handshake and direct eye contact '
+            + 'show confidence and professionalism. With a Gulf Arab official, the '
+            + 'handshake may be gentler and longer — this shows warmth and respect. A '
+            + 'male officer should not extend his hand to a female guest first.',
+          'B2 extension — Speaker A: With the French visitor, a firm handshake and '
+            + 'direct eye contact are expected and signal confidence and professionalism. '
+            + 'Good posture is important. Speaker B: With the Gulf Arab official, the '
+            + 'handshake may be gentler and can last longer — in Gulf culture a longer '
+            + 'handshake communicates warmth rather than hesitation, and the hand placed '
+            + 'briefly over the heart afterwards is a respectful gesture. Follow the '
+            + 'guest\'s lead where gender is concerned. Speaker C: The common rule is to '
+            + 'follow the visitor\'s lead rather than to apply a remembered formula — '
+            + 'because individuals vary far more than cultural generalizations suggest, '
+            + 'and a visitor who is treated as a type rather than as a person notices '
+            + 'immediately.'],
         criteria: [{ t: 'What do you already know about French and Gulf Arab diplomatic customs in '
             + 'terms of greetings, titles, and first-meeting conversation?' },
           { t: 'How might the language of the greeting and introduction differ between '

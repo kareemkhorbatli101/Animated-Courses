@@ -46,15 +46,43 @@ FMS.page('u4-s01', {
           + 'does this distinction matter for ministry staff?',
         'What should your country communicate most clearly to foreign partners in '
           + '2025 and beyond?'],
-        example: ['My country is open and ready to work. We are a reliable partner that keeps '
-            + 'its commitments and reports on them honestly. That is the message.',
-          'A note verbale is written entirely in the third person and uses fixed '
-            + 'formulas. A business email uses the first person and ordinary professional '
-            + 'language. Using the wrong one tells the recipient that the sender does not '
-            + 'know diplomatic practice.',
-          'My country should show that its institutions work, that its commitments '
-            + 'are specific — and that it reports honestly on progress. Partners can '
-            + 'check all three.'],
+        example: ['B1 target — My country is open and ready to work. We are a reliable '
+            + 'partner that keeps its commitments and reports on them honestly. That is '
+            + 'the message.',
+          'B2 extension — My country is open — for partnership, for investment, and '
+            + 'for scrutiny. The message I would send is not that we are ambitious but '
+            + 'that we are reliable: frameworks are signed, committees meet on schedule, '
+            + 'and reports are published whether or not the news is good. Ambition is '
+            + 'cheap in diplomacy and every country claims it. Reliability is scarce, and '
+            + 'it is the only claim a partner can verify before committing capital.',
+          'B1 target — A note verbale is written entirely in the third person and '
+            + 'uses fixed formulas. A business email uses the first person and ordinary '
+            + 'professional language. Using the wrong one tells the recipient that the '
+            + 'sender does not know diplomatic practice.',
+          'B2 extension — A note verbale is a formal communication between '
+            + 'governments, written entirely in the third person — never "I" or "we" — '
+            + 'and opening and closing with fixed compliment formulas. A business email '
+            + 'is first-person and functional. The distinction matters because the form '
+            + 'carries institutional meaning: a note verbale is the ministry speaking as '
+            + 'an institution, and it creates a record in both chanceries. Sending a '
+            + 'first-person letter where a note verbale is required does not merely look '
+            + 'informal; it changes the legal and institutional weight of the '
+            + 'communication, and the receiving ministry will notice. The reverse error '
+            + 'is just as visible to the recipient.',
+          'B1 target — My country should show that its institutions work, that its '
+            + 'commitments are specific — and that it reports honestly on progress. '
+            + 'Partners can check all three.',
+          'B2 extension — Three things above all. First, that the institutions '
+            + 'function independently of individuals — committees with fixed reporting '
+            + 'cycles rather than relationships with particular officials. Second, that '
+            + 'commitments are specific enough to be checked: dates, sectors, named '
+            + 'mechanisms. Third, that the reporting is honest when the news is bad — '
+            + 'because that is the only evidence a partner has that the good reports are '
+            + 'true. Everything else a ministry communicates — the ceremonies, the '
+            + 'frameworks, the visions — is read through those three. The fourth thing, '
+            + 'which is harder to communicate, is that the institutions are not dependent '
+            + 'on the individuals currently running them — because a partner is '
+            + 'committing to a five-year framework — not to a minister.'],
         criteria: [{ t: 'If you could send one message about your country\'s future to the world in '
             + 'English, what would it be?' },
           { t: 'What is the difference between a note verbale and a business email? Why '

@@ -49,18 +49,46 @@ FMS.page('u5-s08', {
           + 'projects in your country?',
         'What will you personally do differently in investor meetings after '
           + 'studying this unit?'],
-        example: ['If my country completes its first major infrastructure joint venture with '
-            + 'a European company, other investors will follow. The first one is the '
-            + 'hardest — because it has no precedent to point to.',
-          'If I could change one thing about the investment process, it would be the '
-            + 'number of offices an investor has to visit. A single window would make the '
-            + 'biggest difference — because delay is what loses investors.',
-          'If Gulf sovereign funds committed to agricultural projects here, the scale '
-            + 'would change everything. Their horizon is long enough to build processing '
-            + 'capacity — not only to export raw product.',
-          'If I prepare a clear briefing document before every investor meeting, the '
-            + 'conversation will be shorter and better. I will also send the legal '
-            + 'framework before it is requested.']
+        example: ['B1 target — If my country completes its first major infrastructure joint '
+            + 'venture with a European company, other investors will follow. The first '
+            + 'one is the hardest — because it has no precedent to point to.',
+          'B2 extension — If my country successfully completes its first major '
+            + 'infrastructure joint venture with a European partner, the effect on '
+            + 'everyone else\'s risk assessment will be larger than the project itself. '
+            + 'The first investor has to price the absence of precedent; the second can '
+            + 'point to a working case. That is why the first joint venture should be '
+            + 'chosen for its chance of visible success rather than for its size.',
+          'B1 target — If I could change one thing about the investment process, it '
+            + 'would be the number of offices an investor has to visit. A single window '
+            + 'would make the biggest difference — because delay is what loses investors.',
+          'B2 extension — If I could change one thing it would be the number of '
+            + 'separate offices an investor must deal with before a decision. A fully '
+            + 'functional single-window centre would cut processing time more than any '
+            + 'tax incentive would increase interest — because what loses an investor is '
+            + 'not cost but uncertainty about how long a decision takes. If we had that '
+            + 'centre, I believe we would attract substantially more mid-sized investors, '
+            + 'who are the ones least able to absorb delay.',
+          'B1 target — If Gulf sovereign funds committed to agricultural projects '
+            + 'here, the scale would change everything. Their horizon is long enough to '
+            + 'build processing capacity — not only to export raw product.',
+          'B2 extension — If Gulf sovereign funds committed seriously to agriculture '
+            + 'here, the character of the sector would change rather than just its size. '
+            + 'Their investment horizon is long enough to justify processing and storage '
+            + 'infrastructure, which commercial investors on a five-year view will not '
+            + 'build. The risk — which we should be honest about, is that a '
+            + 'land-and-production joint venture at that scale raises water allocation '
+            + 'questions that have to be settled in law before the first agreement — not '
+            + 'after it.',
+          'B1 target — If I prepare a clear briefing document before every investor '
+            + 'meeting, the conversation will be shorter and better. I will also send the '
+            + 'legal framework before it is requested.',
+          'B2 extension — If I prepare a clear sector briefing and send the legal '
+            + 'framework before the meeting rather than after it, the meeting itself '
+            + 'becomes a discussion of specifics instead of an exchange of generalities. '
+            + 'I am also going to stop estimating processing times. If I do not know the '
+            + 'current figure I will say so and send it the same day — because an '
+            + 'investor who discovers that one of my numbers was approximate will '
+            + 'discount all of them.']
       }
     }
   ]

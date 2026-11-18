@@ -44,20 +44,41 @@ FMS.page('u3-s08', {
           + 'continuous passive.',
         'Explain one past achievement and one ongoing action using passive voice, '
           + 'then invite a partner to add two more using their own words.'],
-        example: ['Diplomatic ties have been established or upgraded with more than twenty '
-            + 'partner countries since 2024. Bilateral cooperation frameworks have been '
-            + 'signed with European, Asian, and American partners in infrastructure, '
-            + 'trade, and cultural exchange. A multilateral coordination committee has '
-            + 'been established to oversee priority programs.',
-          'Development programs in road networks and water infrastructure are '
-            + 'currently being coordinated with German and French partners. '
+        example: ['B1 target — Diplomatic ties have been established or upgraded with more '
+            + 'than twenty partner countries since 2024. Bilateral cooperation frameworks '
+            + 'have been signed with European, Asian, and American partners in '
+            + 'infrastructure, trade, and cultural exchange. A multilateral coordination '
+            + 'committee has been established to oversee priority programs.',
+          'B2 extension — Diplomatic ties have been established or upgraded with more '
+            + 'than twenty partner countries since 2024. A series of bilateral '
+            + 'cooperation frameworks have been signed with European, Asian, and American '
+            + 'partners in areas including rural infrastructure, trade facilitation, and '
+            + 'cultural exchange. A multilateral coordination committee has been '
+            + 'established with the participation of international development '
+            + 'institutions to oversee priority development programs.',
+          'B1 target — Development programs in road networks and water infrastructure '
+            + 'are currently being coordinated with German and French partners. '
             + 'Returning-citizen documentation is being processed by the Consular Affairs '
             + 'Section in partnership with IOM. A new investment facilitation framework '
             + 'is being developed by the Economic Affairs Office.',
-          'Past achievement: The bilateral Infrastructure Cooperation Agreement with '
-            + 'Germany was signed in March 2025. Ongoing action: The ministry\'s '
-            + 'diplomatic visa processing system is currently being upgraded to reduce '
-            + 'waiting times. [Partner continues with their own examples.]']
+          'B2 extension — Development programs in road networks and water '
+            + 'infrastructure are currently being coordinated with German and French '
+            + 'development partners. Returning-citizen documentation is being processed '
+            + 'by the Consular Affairs Section in partnership with IOM offices in Spain, '
+            + 'Italy, and Chile. A new investment facilitation framework is being '
+            + 'developed by the Economic Affairs Office to attract foreign investment in '
+            + 'priority infrastructure sectors.',
+          'B1 target — Past achievement: The bilateral Infrastructure Cooperation '
+            + 'Agreement with Germany was signed in March 2025. Ongoing action: The '
+            + 'ministry\'s diplomatic visa processing system is currently being upgraded '
+            + 'to reduce waiting times. [Partner continues with their own examples.]',
+          'B2 extension — Past achievement (passive): The bilateral Infrastructure '
+            + 'Cooperation Agreement with Germany was signed in March 2025, establishing '
+            + 'a joint technical working committee for priority development programs. '
+            + 'Ongoing action (passive): The ministry\'s diplomatic visa processing '
+            + 'system is currently being upgraded to reduce waiting times for foreign '
+            + 'nationals and diplomatic applicants. [Partner continues with their own '
+            + 'examples.]']
       }
     }
   ]

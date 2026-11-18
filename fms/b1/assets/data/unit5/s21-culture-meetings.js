@@ -66,21 +66,52 @@ FMS.page('u5-s21', {
         'How might the language and the meeting flow differ between these two '
           + 'contexts?',
         'What does "yes" mean in each business culture, and what does silence mean?'],
-        example: ['German business culture is direct and data-driven: specific questions '
-            + 'expect specific answers, and decisions follow documentation. Gulf business '
-            + 'culture is relationship-driven: trust is established before commitment, '
-            + 'and decisions involve senior consultation over a longer period.',
-          'With Klaus, the meeting opens briefly and moves to the agenda within two '
-            + 'minutes; the language is precise and the answers are specific. With Ms. '
-            + 'Al-Sayed, the opening is ceremonial, refreshments come before business, '
-            + 'and the specifics arrive only when she signals she is ready. Rushing the '
-            + 'second is as damaging as padding the first.',
-          'In German business culture, "yes" is a firm, binding commitment and is '
-            + 'expected to be honoured precisely. In Gulf business culture, "yes" often '
-            + 'signals interest or acknowledgement rather than a final commitment, so you '
-            + 'follow up to confirm. Silence in a German meeting usually means the point '
-            + 'is being considered; in a Gulf meeting it may signal a reservation '
-            + 'expressed politely.'],
+        example: ['B1 target — German business culture is direct and data-driven: specific '
+            + 'questions expect specific answers, and decisions follow documentation. '
+            + 'Gulf business culture is relationship-driven: trust is established before '
+            + 'commitment, and decisions involve senior consultation over a longer '
+            + 'period.',
+          'B2 extension — German business culture is direct, precise, and '
+            + 'documentary. The meeting moves to the agenda quickly, specific questions '
+            + 'expect specific answers, and the decision follows a review of legal '
+            + 'analysis rather than a conversation. Gulf business culture is '
+            + 'relationship-driven on a longer timescale: trust must be established '
+            + 'before any commitment, decisions involve consultation at senior levels '
+            + 'that the visitor may not describe, and the quality of the hospitality is '
+            + 'read as evidence about the institution. Neither is slower in substance — a '
+            + 'Gulf fund can move very fast once the relationship is settled — but the '
+            + 'order of the stages is reversed.',
+          'B1 target — With Klaus, the meeting opens briefly and moves to the agenda '
+            + 'within two minutes; the language is precise and the answers are specific. '
+            + 'With Ms. Al-Sayed, the opening is ceremonial, refreshments come before '
+            + 'business, and the specifics arrive only when she signals she is ready. '
+            + 'Rushing the second is as damaging as padding the first.',
+          'B2 extension — With Klaus, the meeting opens briefly, moves to the agenda '
+            + 'within a few minutes, and succeeds or fails on the precision of the '
+            + 'answers. Long courtesies would read as time-wasting. With Ms. Al-Sayed, '
+            + 'the opening is ceremonial, hospitality precedes business, and the '
+            + 'specifics arrive when she indicates readiness rather than when the agenda '
+            + 'says so. The mistake in each direction is symmetrical and equally costly: '
+            + 'padding a German meeting looks evasive, and rushing a Gulf meeting looks '
+            + 'transactional. The same facts are delivered in both; only the sequence '
+            + 'changes.',
+          'B1 target — In German business culture, "yes" is a firm, binding '
+            + 'commitment and is expected to be honoured precisely. In Gulf business '
+            + 'culture, "yes" often signals interest or acknowledgement rather than a '
+            + 'final commitment, so you follow up to confirm. Silence in a German meeting '
+            + 'usually means the point is being considered; in a Gulf meeting it may '
+            + 'signal a reservation expressed politely.',
+          'B2 extension — In German business culture a "yes" is a binding commitment '
+            + 'and will be honoured to the letter, which also means it is given carefully '
+            + 'and later than you might expect. In Gulf business culture a "yes" '
+            + 'frequently signals interest, goodwill, or acknowledgement rather than a '
+            + 'final decision — not out of evasiveness but because the decision genuinely '
+            + 'rests with a wider circle — so the professional response is a written '
+            + 'follow-up that confirms what was understood, phrased as a courtesy rather '
+            + 'than a challenge. Silence differs too: in a German meeting it generally '
+            + 'means the proposal is being weighed, whereas in a Gulf meeting it may be '
+            + 'carrying a reservation that politeness prevents stating, and the right '
+            + 'move is to open a door rather than to repeat the proposal.'],
         criteria: [{ t: 'What do you already know about German and Gulf business culture in terms '
             + 'of meeting style, decision-making pace, and the role of personal '
             + 'relationships?' },

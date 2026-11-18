@@ -50,20 +50,47 @@ FMS.page('u3-s05', {
           + 'authority — without appearing to evade it?',
         'What language helps you acknowledge a difficult reality while remaining '
           + 'forward-looking and constructive?'],
-        example: ['Careful language acknowledges the question and then gives the most '
-            + 'accurate answer available, even when that answer is incomplete. Evasive '
-            + 'language avoids the question and fills the space with general statements. '
-            + 'The test is whether the listener learns something specific.',
-          'The cleanest redirect is to name the right authority and offer to connect '
-            + 'the person to it: "That question falls to our spokesperson\'s office, and '
-            + 'I can facilitate that for you today." This is not evasion because it gives '
-            + 'the questioner a route to the answer rather than closing the subject. What '
-            + 'makes a redirect look evasive is giving no route at all.',
-          'Several formulations work well. "That is a real challenge, and here is '
-            + 'what is being done about it." "Progress has been slower than we projected; '
-            + 'the mechanism to address it is now in place." "I would rather give you the '
-            + 'accurate picture than an optimistic one." Each acknowledges the difficulty '
-            + 'and then moves forward.'],
+        example: ['B1 target — Careful language acknowledges the question and then gives the '
+            + 'most accurate answer available, even when that answer is incomplete. '
+            + 'Evasive language avoids the question and fills the space with general '
+            + 'statements. The test is whether the listener learns something specific.',
+          'B2 extension — Careful language acknowledges the question, names what is '
+            + 'known precisely, and is explicit about where knowledge ends. Evasive '
+            + 'language substitutes general reassurance for specific content and hopes '
+            + 'the questioner will move on. The practical test is simple: after the '
+            + 'answer, can the listener write down one new verifiable fact? If yes, the '
+            + 'answer was careful. If no, it was evasive, however polite the phrasing — '
+            + 'and an experienced journalist will identify that within one sentence. The '
+            + 'same test applies to your own answers before you give them.',
+          'B1 target — The cleanest redirect is to name the right authority and offer '
+            + 'to connect the person to it: "That question falls to our spokesperson\'s '
+            + 'office, and I can facilitate that for you today." This is not evasion '
+            + 'because it gives the questioner a route to the answer rather than closing '
+            + 'the subject. What makes a redirect look evasive is giving no route at all.',
+          'B2 extension — The cleanest redirect names the correct authority and '
+            + 'provides the route: "For a question of that scope I would direct you to '
+            + 'the Political Affairs Directorate, and I can arrange that introduction '
+            + 'today." Three elements make it professional rather than evasive. You '
+            + 'acknowledge the question as legitimate. You identify who can answer it, '
+            + 'which shows you know your own institution. And you take on the work of '
+            + 'connecting them. A redirect that stops at "that is not my area" is an '
+            + 'evasion in everything but wording — because the questioner is left exactly '
+            + 'where they started.',
+          'B1 target — Several formulations work well. "That is a real challenge, and '
+            + 'here is what is being done about it." "Progress has been slower than we '
+            + 'projected; the mechanism to address it is now in place." "I would rather '
+            + 'give you the accurate picture than an optimistic one." Each acknowledges '
+            + 'the difficulty and then moves forward.',
+          'B2 extension — Several formulations do this well, and they share a '
+            + 'structure: acknowledgment, mechanism, timeline. "That is a genuine '
+            + 'challenge — the joint technical committee was established precisely to '
+            + 'address it and reports for the first time in March." "Implementation has '
+            + 'been slower than projected; the delay is in document replacement and the '
+            + 'legal assistance capacity is being expanded now." "I would rather give you '
+            + 'the accurate picture than an optimistic one — because you will check it." '
+            + 'What makes all three credible is that the acknowledgment is specific '
+            + 'enough to be uncomfortable. A difficulty that costs nothing to admit does '
+            + 'not buy any trust.'],
         criteria: [{ t: 'What is the difference between "careful" and "evasive" language when '
             + 'answering difficult questions about your country\'s situation?' },
           { t: 'How do you redirect a question that is genuinely outside your area of '

@@ -49,17 +49,34 @@ FMS.page('u1-s05', {
         'Which department handles Ms. Osei and what steps are needed?',
         'Which department handles Mr. Watanabe and what specific process does he '
           + 'need to follow?'],
-        example: ['Pierre Moreau visits the Economic Affairs Office. The officer checks his '
-            + 'name against the appointment list and asks for his embassy ID. Then the '
-            + 'officer issues a visitor badge and contacts an escort from Economic '
-            + 'Affairs.',
-          'Ms. Osei visits the Humanitarian Liaison team, under Political Affairs. '
-            + 'The officer checks her UNHCR ID and gives her a visitor badge. Then the '
-            + 'officer notifies the Humanitarian Liaison Officer and offers her a '
-            + 'comfortable place to wait.',
-          'Mr. Watanabe visits the Press and Information Office. He must submit his '
-            + 'press credentials and a letter from NHK. The reception officer gives him '
-            + 'the accreditation form and directs him to the Press Office.'],
+        example: ['B1 target — Pierre Moreau visits the Economic Affairs Office. The officer '
+            + 'checks his name against the appointment list and asks for his embassy ID. '
+            + 'Then the officer issues a visitor badge and contacts an escort from '
+            + 'Economic Affairs.',
+          'B2 extension — Economic Affairs Office. The officer checks his name '
+            + 'against the appointment log, requests his embassy ID, issues a visitor '
+            + 'badge, and either calls an escort from Economic Affairs or accompanies him '
+            + 'to the correct floor. French Embassy credentials are noted in the visitor '
+            + 'register.',
+          'B1 target — Ms. Osei visits the Humanitarian Liaison team, under Political '
+            + 'Affairs. The officer checks her UNHCR ID and gives her a visitor badge. '
+            + 'Then the officer notifies the Humanitarian Liaison Officer and offers her '
+            + 'a comfortable place to wait.',
+          'B2 extension — Humanitarian Liaison, under Political Affairs. As a UN '
+            + 'official, her security procedure involves ID verification and a visitor '
+            + 'badge. The reception officer should notify the Humanitarian Liaison '
+            + 'Officer and offer a comfortable waiting area with refreshments — UN '
+            + 'coordination meetings are institutionally important.',
+          'B1 target — Mr. Watanabe visits the Press and Information Office. He must '
+            + 'submit his press credentials and a letter from NHK. The reception officer '
+            + 'gives him the accreditation form and directs him to the Press Office.',
+          'B2 extension — Press and Information Office. Journalists require a '
+            + 'specific accreditation process — he must submit his press credentials, a '
+            + 'letter from NHK confirming his assignment, and a list of the events he '
+            + 'intends to cover. The reception officer should give him the press '
+            + 'accreditation form and direct him to the second floor. He should also be '
+            + 'told clearly that accreditation is processed by the Press Office itself — '
+            + 'not at reception, so he knows where the decision will be taken.'],
         criteria: [{ t: 'Which department handles Pierre Moreau and what does the reception officer '
             + 'need to do?' },
           { t: 'Which department handles Ms. Osei and what steps are needed?' },

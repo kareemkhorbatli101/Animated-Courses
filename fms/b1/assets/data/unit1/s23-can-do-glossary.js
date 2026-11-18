@@ -50,18 +50,32 @@ FMS.page('u1-s23', {
           + 'ministry?',
         'Write down two or three phrases you want to remember. Share them with the '
           + 'class.'],
-        example: ['The biggest difference is the pace and the language. With a European '
-            + 'visitor, you are efficient and move quickly to the purpose of the visit. '
-            + 'With a Gulf Arab official, the welcome itself is an important part of the '
-            + 'relationship — the language and the offer of refreshments matter as much '
-            + 'as the schedule.',
-          'I will use "Welcome to the Ministry of Foreign Affairs. How may I help '
-            + 'you?" — it works for any visitor. I also want to use "Please take a seat. '
-            + 'I will notify the relevant officer immediately." This gives the visitor '
-            + 'confidence that the next step is happening.',
-          '1. "Your Excellency, it is a great honor to welcome you." 2. "May I see '
-            + 'your identification, please?" 3. "I will arrange an escort to the correct '
-            + 'department."'],
+        example: ['B1 target — The biggest difference is the pace and the language. With a '
+            + 'European visitor, you are efficient and move quickly to the purpose of the '
+            + 'visit. With a Gulf Arab official, the welcome itself is an important part '
+            + 'of the relationship — the language and the offer of refreshments matter as '
+            + 'much as the schedule.',
+          'B2 extension — The pace and the level of ceremonial language are '
+            + 'completely different. With a European visitor, you move efficiently and '
+            + 'professionally toward the purpose of the visit. With a Gulf Arab official, '
+            + 'the welcome itself is an important part of the relationship — the '
+            + 'language, the refreshments, and the unhurried manner are the substance — '
+            + 'not the preliminaries.',
+          'B1 target — I will use "Welcome to the Ministry of Foreign Affairs. How '
+            + 'may I help you?" — it works for any visitor. I also want to use "Please '
+            + 'take a seat. I will notify the relevant officer immediately." This gives '
+            + 'the visitor confidence that the next step is happening.',
+          'B2 extension — I will definitely use "Welcome to the Ministry of Foreign '
+            + 'Affairs. How may I help you?" — it is professional, complete, and works '
+            + 'for any visitor. I also want to use "Please take a seat. I will notify the '
+            + 'relevant officer immediately." — it gives the visitor confidence that '
+            + 'something is already in motion on their behalf.',
+          'B1 target — 1. "Your Excellency, it is a great honor to welcome you." 2. '
+            + '"May I see your identification, please?" 3. "I will arrange an escort to '
+            + 'the correct department."',
+          'B2 extension — 1. "Your Excellency, it is a great honor to welcome you." '
+            + '2. "May I see your identification, please?" 3. "I will arrange an escort '
+            + 'to take you directly to the correct department."'],
         criteria: [{ t: 'What is the biggest difference you noticed between welcoming a Western '
             + 'visitor and welcoming a senior Gulf Arab official?' },
           { t: 'What phrases from this unit will you use in your daily work at the '

@@ -50,12 +50,28 @@ FMS.page('u2-s01', {
         'Complete this sentence with your partner: "A visiting delegation feels '
           + 'well-coordinated when they arrive and find ___." Then explain ONE thing on '
           + 'your list in 1–2 sentences. Why does this detail matter?'],
-        example: ['The hardest part is managing changes at the last minute. A room becomes '
-            + 'unavailable, a flight is delayed, or an extra participant joins. You must '
-            + 'inform everybody quickly and keep the visiting side calm.',
-          'Poor preparation signals that the partner is not important to us. If the '
-            + 'agenda arrives late or the room is wrong, the visiting delegation starts '
-            + 'the meeting with doubts. That doubt is hard to repair later.',
+        example: ['B1 target — The hardest part is managing changes at the last minute. A '
+            + 'room becomes unavailable, a flight is delayed, or an extra participant '
+            + 'joins. You must inform everybody quickly and keep the visiting side calm.',
+          'B2 extension — The hardest part is managing late changes without the '
+            + 'visiting delegation ever feeling the disruption. A conference room becomes '
+            + 'unavailable, a flight is delayed by two hours, or two additional '
+            + 'participants need interpretation. The coordination work is invisible when '
+            + 'it is done well, and painfully visible when it is not. The second '
+            + 'difficulty is that almost none of this work is visible in a job '
+            + 'description, so a liaison officer is judged on the one occasion when '
+            + 'something is not absorbed.',
+          'B1 target — Poor preparation signals that the partner is not important to '
+            + 'us. If the agenda arrives late or the room is wrong, the visiting '
+            + 'delegation starts the meeting with doubts. That doubt is hard to repair '
+            + 'later.',
+          'B2 extension — Poor preparation signals, however unintentionally, that the '
+            + 'partnership is not a priority. A late agenda, an unprepared protocol '
+            + 'brief, or a missing interpreter tells the visiting delegation something '
+            + 'about the institution before a single substantive word is spoken — and '
+            + 'that impression travels back to their capital in the post-visit report. '
+            + 'The repair cost is also asymmetric: a good impression takes a year to '
+            + 'build and a late agenda takes an afternoon to undo.',
           'A visiting delegation feels well-coordinated when they arrive and find the '
             + 'room ready, their names printed correctly on the seating cards, and a '
             + 'liaison officer waiting for them at the entrance. The seating cards matter '

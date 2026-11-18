@@ -50,19 +50,38 @@ FMS.page('u2-s05', {
           + 'problems arise if it is sent too late?',
         'What problems can arise from last-minute coordination failures, and how '
           + 'should a liaison officer respond professionally?'],
-        example: ['A useful protocol brief must include the full names, correct titles, and '
-            + 'nationalities of everyone attending. It should also state the key '
-            + 'positions of the other side and any sensitive points to avoid. The '
+        example: ['B1 target — A useful protocol brief must include the full names, correct '
+            + 'titles, and nationalities of everyone attending. It should also state the '
+            + 'key positions of the other side and any sensitive points to avoid. The '
             + 'delegation lead needs it the evening before the meeting — not on the '
             + 'morning.',
-          'The agenda should be sent at least five days before the session, and the '
-            + 'final version at least 48 hours before. If it arrives too late, the '
-            + 'visiting delegation cannot prepare their technical positions and the '
-            + 'meeting becomes a general discussion instead of a working session.',
-          'Common last-minute failures are room changes, interpretation that was not '
-            + 'booked, and security clearances that were not processed in time. The '
-            + 'officer should inform the other side immediately, always with a proposed '
-            + 'solution, and then confirm in writing.'],
+          'B2 extension — A useful protocol brief must give the full names, exact '
+            + 'titles, and nationalities of every participant on the visiting side, the '
+            + 'seniority order for seating and for speaking, the other side\'s known '
+            + 'positions on each agenda item, and any subject that should be handled '
+            + 'carefully. It must be short enough to be read in ten minutes — a brief '
+            + 'nobody reads is worse than no brief — because it creates a false sense of '
+            + 'preparation.',
+          'B1 target — The agenda should be sent at least five days before the '
+            + 'session, and the final version at least 48 hours before. If it arrives too '
+            + 'late, the visiting delegation cannot prepare their technical positions and '
+            + 'the meeting becomes a general discussion instead of a working session.',
+          'B2 extension — The agenda should be circulated at least five days ahead, '
+            + 'with the final version confirmed no later than 48 hours before the '
+            + 'session. A late agenda forces the visiting delegation to arrive '
+            + 'unprepared, which turns a working group into a general exchange of '
+            + 'positions — and it also signals that the host side was itself disorganized '
+            + '— which is the more lasting damage.',
+          'B1 target — Common last-minute failures are room changes, interpretation '
+            + 'that was not booked, and security clearances that were not processed in '
+            + 'time. The officer should inform the other side immediately, always with a '
+            + 'proposed solution, and then confirm in writing.',
+          'B2 extension — The most common last-minute failures are a room that '
+            + 'becomes unavailable, interpretation that was requested too late, and a '
+            + 'clearance that was not processed. The professional response is the same in '
+            + 'all three cases: inform the other side at once, never let them discover it '
+            + 'themselves, always present a solution alongside the problem, and confirm '
+            + 'the agreed fix in writing so there is a record.'],
         criteria: [{ t: 'What must a protocol brief include to be genuinely useful for a delegation '
             + 'lead?' },
           { t: 'When should the agenda be sent to the visiting delegation, and what '

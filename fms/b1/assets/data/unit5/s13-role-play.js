@@ -128,20 +128,44 @@ FMS.page('u5-s13', {
           + 'professional when answering investor concerns?',
         'What is the biggest mistake a ministry officer can make when pitching to a '
           + 'hesitant investor?'],
-        example: ['The briefings that worked were the specific ones. A named case officer, a '
-            + 'processing target, and a document the investor could take to a board are '
-            + 'worth more than any description of potential. The pitches that failed '
-            + 'described opportunity without describing process. The difference was '
-            + 'always specificity rather than confidence, and specificity is the part '
+        example: ['B1 target — The briefings that worked were the specific ones. A named case '
+            + 'officer, a processing target, and a document the investor could take to a '
+            + 'board are worth more than any description of potential. The pitches that '
+            + 'failed described opportunity without describing process. The difference '
+            + 'was always specificity rather than confidence, and specificity is the part '
             + 'that can be prepared in advance.',
-          'Conditional language shows that you understand the investor\'s decision '
-            + 'has conditions attached. "If you submit the application, we will '
+          'B2 extension — The most persuasive briefings answered the question the '
+            + 'investor actually asked, which was almost never about opportunity. They '
+            + 'named the case officer, stated the processing target, and offered a '
+            + 'document that could be shown to a board without translation. The weakest '
+            + 'ones described the country\'s potential at length — which every competing '
+            + 'country also does, and left the investor with nothing to take away. An '
+            + 'investor who leaves with nothing in their hands has effectively not had '
+            + 'the meeting.',
+          'B1 target — Conditional language shows that you understand the investor\'s '
+            + 'decision has conditions attached. "If you submit the application, we will '
             + 'fast-track it" commits to something precise without over-promising. It '
             + 'also makes clear what depends on them and what depends on us.',
-          'The biggest mistake is over-promising to a hesitant investor. A hesitant '
-            + 'investor is testing your reliability, so an answer that is too good '
-            + 'confirms their doubt rather than removing it. The right response to '
-            + 'hesitation is more specificity — not more enthusiasm.'],
+          'B2 extension — Conditional language lets you make a firm commitment '
+            + 'without claiming to control what you do not control. "If the feasibility '
+            + 'study confirms viability, we will assign a case officer within thirty '
+            + 'days" is precise, honest, and checkable. It also divides the obligations '
+            + 'visibly: this is your step, this is ours. An unconditional promise sounds '
+            + 'stronger in the room and is weaker on paper — because the investor knows '
+            + 'it cannot be guaranteed and begins to discount everything else.',
+          'B1 target — The biggest mistake is over-promising to a hesitant investor. '
+            + 'A hesitant investor is testing your reliability, so an answer that is too '
+            + 'good confirms their doubt rather than removing it. The right response to '
+            + 'hesitation is more specificity — not more enthusiasm.',
+          'B2 extension — The biggest mistake is responding to hesitation with '
+            + 'enthusiasm. A hesitant investor is not short of encouragement; they are '
+            + 'testing whether what you say can be relied on, so an answer that is better '
+            + 'than they expected increases their suspicion rather than reducing it. The '
+            + 'correct response is more specificity: a date, a clause, a name, an honest '
+            + 'acknowledgment of what has not yet been tested. Meron\'s answer in Part 3 '
+            + 'is the model — she conceded that the arbitration framework had never been '
+            + 'challenged — and that concession is precisely what made the rest of her '
+            + 'answer credible.'],
         criteria: [{ t: 'Which briefings felt most persuasive? What specifically made them work?' },
           { t: 'How does using conditional language make a ministry officer sound more '
             + 'professional when answering investor concerns?' },

@@ -48,13 +48,23 @@ FMS.page('u1-s01', {
         'Complete this sentence with your partner: "A ministry feels welcoming '
           + 'without being informal when it has ___, ___, and ___." Then explain ONE of '
           + 'your three choices in 1–2 sentences. Why is it important?'],
-        example: ['Five years ago, the ministry mainly received officials from a small number '
-            + 'of neighbouring countries. Now we expect many more types of visitors: '
-            + 'diplomats, investors, journalists, and UN staff. The biggest change is the '
-            + 'variety.',
-          'Every staff member should be professional, welcoming, and calm. We '
-            + 'represent the country\'s international face. A visitor\'s first impression '
-            + 'of the ministry is very important.',
+        example: ['B1 target — Five years ago, the ministry mainly received officials from a '
+            + 'small number of neighbouring countries. Now we expect many more types of '
+            + 'visitors: diplomats, investors, journalists, and UN staff. The biggest '
+            + 'change is the variety.',
+          'B2 extension — Five years ago, visits were mostly limited to officials '
+            + 'from a narrow group of regional partners and a handful of development '
+            + 'agencies. Now we expect a much wider range: European diplomats, EU '
+            + 'officials, investors from Japan and Korea, journalists from international '
+            + 'broadcasters, World Bank representatives, citizens returning from abroad, '
+            + 'and UN agency staff.',
+          'B1 target — Every staff member should be professional, welcoming, and '
+            + 'calm. We represent the country\'s international face. A visitor\'s first '
+            + 'impression of the ministry is very important.',
+          'B2 extension — Professional, welcoming, and calm. We represent the whole '
+            + 'institution in the first thirty seconds. A visitor\'s first interaction at '
+            + 'the ministry shapes their impression of the entire institution — and, in a '
+            + 'sense, of the country\'s professionalism as a whole.',
           'A ministry feels welcoming without being informal when it has clear '
             + 'English signs, friendly staff, and short waiting times. For example, clear '
             + 'signs help visitors feel confident immediately. This is important because '
