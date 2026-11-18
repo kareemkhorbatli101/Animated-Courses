@@ -951,20 +951,24 @@ def main(argv):
             importlib.reload(m)
             fn(getattr(m, attr), out)
             npaper += 1
-    try:
-        wm = importlib.import_module('content.wpaper%d' % vol)
-        importlib.reload(wm)
-        check_wpaper(wm.WPAPER, out)
-        npaper += 1
-    except ModuleNotFoundError:
-        pass
-    try:
-        sm = importlib.import_module('content.spaper%d' % vol)
-        importlib.reload(sm)
-        check_spaper(sm.SPAPER, out)
-        npaper += 1
-    except ModuleNotFoundError:
-        pass
+    # A volume can carry a second form of the Writing and Speaking papers,
+    # because each half of a split edition needs a complete practice test
+    # of its own. Both forms are checked against the same rules.
+    for suf in ('', 'b'):
+        try:
+            wm = importlib.import_module('content.wpaper%d%s' % (vol, suf))
+            importlib.reload(wm)
+            check_wpaper(wm.WPAPER, out)
+            npaper += 1
+        except ModuleNotFoundError:
+            pass
+        try:
+            sm = importlib.import_module('content.spaper%d%s' % (vol, suf))
+            importlib.reload(sm)
+            check_spaper(sm.SPAPER, out)
+            npaper += 1
+        except ModuleNotFoundError:
+            pass
     print('%d unit(s) checked, %d head words, %d timed paper(s)'
           % (got, len(heads), npaper))
     if out:

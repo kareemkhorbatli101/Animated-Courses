@@ -194,7 +194,12 @@ def prose(vol, rng):
                     out.append((at + ' task', b['task']))
                     if b.get('bank'):
                         out.append((at + ' bank', _j(b['bank'])))
-    for nm in ('wpaper%d' % vol, 'spaper%d' % vol):
+    # Both forms of each, where a second form exists: the split edition
+    # gives each half-book its own complete practice test, and a paper the
+    # baseline cannot see is a paper that can change without anybody
+    # noticing.
+    for nm in ('wpaper%d' % vol, 'wpaper%db' % vol,
+               'spaper%d' % vol, 'spaper%db' % vol):
         pm = load(nm)
         if pm is None:
             continue

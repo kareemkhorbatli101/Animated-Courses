@@ -230,16 +230,17 @@ def main(vol, path):
                 'content.lpaper%d%s' % (vol, suf)).LPAPER)
         except ModuleNotFoundError:
             pass
-    try:
-        want += wpaper_wanted(importlib.import_module('content.wpaper%d'
-                                                      % vol).WPAPER)
-    except ModuleNotFoundError:
-        pass
-    try:
-        want += spaper_wanted(importlib.import_module('content.spaper%d'
-                                                      % vol).SPAPER)
-    except ModuleNotFoundError:
-        pass
+    for suf in ('', 'b'):
+        try:
+            want += wpaper_wanted(importlib.import_module(
+                'content.wpaper%d%s' % (vol, suf)).WPAPER)
+        except ModuleNotFoundError:
+            pass
+        try:
+            want += spaper_wanted(importlib.import_module(
+                'content.spaper%d%s' % (vol, suf)).SPAPER)
+        except ModuleNotFoundError:
+            pass
 
     missing = []
     for label, s in want:

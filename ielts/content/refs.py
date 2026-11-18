@@ -1053,5 +1053,588 @@ LANG = {
   seen=[]),
 }
 
-WRITING = {}
-SPEAKING = {}
+WRITING = {
+
+ 'W1': dict(
+  title='Task 1 General Training: the letter',
+  also='formal letter, semi-formal letter, letter of request, letter of complaint',
+  pattern=[
+   'Read the three bullet points before you read the situation. They are '
+   'the mark scheme. An answer that covers two of them fully and the '
+   'third in half a sentence cannot reach band 6 on Task Achievement, '
+   'however well it is written, and this is the commonest reason a good '
+   'letter is marked at 5.5.',
+   'Decide the relationship, because it fixes everything else. You know '
+   'the name and you have dealt with them: semi-formal, Dear Dr Ahmed, '
+   'contractions avoided but not hunted. You do not know the name: '
+   'formal, Dear Sir or Madam, Yours faithfully. A friend: informal, and '
+   'in this volume that is the rarest of the three.',
+   'Open with the purpose in one sentence - I am writing to ask whether, '
+   'I am writing to complain about, I am writing to apply for. Do not '
+   'open by explaining who you are: the next sentence does that, and the '
+   'reader of a complaint wants the complaint first.',
+   'Give one paragraph to each bullet, in the order the bullets give '
+   'them. The examiner reads with the bullets beside them, so a '
+   'reordered answer costs nothing but the time it takes them to check, '
+   'and an answer in order costs nothing at all.',
+   'Close by saying what you want to happen. A complaint that asks for '
+   'nothing has not complained; a request that does not say what a reply '
+   'should contain invites a reply that does not contain it.',
+   'Sign off to match the opening. Dear Sir or Madam goes with Yours '
+   'faithfully; a name goes with Yours sincerely; a friend goes with '
+   'Best wishes. One hundred and fifty words is the minimum and about a '
+   'hundred and eighty is comfortable.'],
+  errors=[
+   'Covering the third bullet in half a sentence. It is usually the '
+   'bullet that asks for something awkward - what you want done, or what '
+   'you would accept instead - which is exactly why it is there.',
+   'Mixing registers: Dear Sir or Madam followed by I was gutted. An '
+   'examiner reads tone as one decision, so a single informal phrase in '
+   'a formal letter is more visible than six grammar slips.',
+   'Writing the situation back to the reader. The reader was there. Half '
+   'a page restating it is half a page not spent on the bullets.'],
+  items=[
+   ('You do not know the reader’s name. Open and close.',
+    'Dear Sir or Madam ... Yours faithfully'),
+   ('You know the name. Close.', 'Yours sincerely'),
+   ('Open formally: you want to know whether a refund is possible.',
+    'I am writing to ask whether a refund is possible in these '
+    'circumstances.'),
+   ('Open a complaint about a delivery three weeks late.',
+    'I am writing to complain about a delivery that is now three weeks '
+    'overdue.'),
+   ('How many bullets must be covered, and how?',
+    'all three, each with its own paragraph'),
+   ('Rewrite informally: I should be grateful if you could advise me.',
+    'Could you let me know?'),
+   ('Rewrite formally: I want my money back.',
+    'I should be grateful if the fee could be refunded.'),
+   ('Close by saying what you want to happen.',
+    'I should be grateful if you would confirm in writing that the '
+    'charge has been cancelled.')],
+  seen=[]),
+
+ 'W2': dict(
+  title='Task 1 Academic: a chart or a table',
+  also='bar chart, line graph, pie chart, table, describing data',
+  pattern=[
+   'Spend the first two minutes on the axes, not on the shape. What is '
+   'measured, in what units, over what period, for which groups. A '
+   'confident answer about the wrong units scores below a hesitant '
+   'answer about the right ones.',
+   'Write four paragraphs. One: what the visual shows, in your own '
+   'words, with no numbers at all. Two: the overview, which is the '
+   'largest pattern and the paragraph that decides the band. Three and '
+   'four: support, two or three figures each, chosen because they '
+   'illustrate the overview rather than because they come first on the '
+   'page.',
+   'An overview is never a list. It is one of four shapes: everything '
+   'rose and one thing did not; two groups diverged; the ranking held '
+   'while the totals changed; the gap closed. Find the shape, write it '
+   'in one sentence, and the rest of the answer has somewhere to go.',
+   'Quote selectively. About six well-chosen figures read as a '
+   'description; twenty read as a transcription, and Coherence is marked '
+   'down for it. Round where rounding is honest - just over a third, '
+   'nearly twice as many - and be exact where the exact figure is the '
+   'point.',
+   'Use the language of change for a time series (rose, fell, levelled '
+   'off, more than doubled) and the language of comparison for a '
+   'snapshot (twice as many, the largest share, roughly equal). Mixing '
+   'them is the clearest sign a candidate has not read the axis.',
+   'Never explain why. Task 1 Academic asks what the data shows. A '
+   'sentence beginning This is probably because earns nothing and costs '
+   'the words the overview needed.'],
+  errors=[
+   'No overview. An answer accurate in every detail and without an '
+   'overview paragraph is capped at band 5 on Task Achievement, and it '
+   'is the commonest capped answer in the paper.',
+   'Describing each series in turn, one paragraph each. It feels '
+   'organised and reads as a list, because nothing in it says what the '
+   'data as a whole does.',
+   'Confusing per cent with percentage point. A share moving from 20 to '
+   '25 has risen by five percentage points and by a quarter; both are '
+   'true and they are not interchangeable.'],
+  items=[
+   ('How many paragraphs, and what are they?',
+    'four: what it shows, the overview, two of support'),
+   ('Which paragraph decides the band?', 'the overview'),
+   ('A share moves from 20% to 25%. Two correct descriptions.',
+    'up five percentage points; up by a quarter'),
+   ('Rewrite with the language of change: the figure was higher in 2020.',
+    'the figure rose to a peak in 2020'),
+   ('Rewrite with the language of comparison: Spain 40, France 20.',
+    'Spain had twice as many as France'),
+   ('Should you explain the cause?',
+    'no - Task 1 Academic asks what the data shows'),
+   ('Write the overview shape: all rose except one.',
+    'every category rose over the period, with the single exception of X'),
+   ('About how many figures belong in one answer?',
+    'about six, chosen to illustrate the overview')],
+  seen=[]),
+
+ 'W3': dict(
+  title='Task 1 Academic: a process, a map or a hybrid',
+  also='diagram, flow chart, plan, two visuals, mixed visuals',
+  pattern=[
+   'A process has no numbers and so no overview of size. Its overview is '
+   'the count and the kind: a six-stage process running from raw '
+   'material to finished product, of which four stages are mechanical '
+   'and two are manual.',
+   'Describe a process in the present simple passive, because the agent '
+   'is not the point: the pulp is heated, the sheets are pressed, the '
+   'product is stored. Sequence it with the plain markers - first, next, '
+   'once this is complete, finally - and do not promote them to '
+   'subsequently and thereupon, which read as decoration.',
+   'A map or plan is a before and after, so its overview is the single '
+   'largest change: the site changed from agricultural to residential '
+   'use, with the two farm buildings retained. Then take one frame - the '
+   'compass, or a landmark - and keep it: to the north, along the '
+   'eastern boundary, opposite the station.',
+   'A hybrid gives two or three visuals of different kinds. One '
+   'paragraph each produces three accurate descriptions and no answer. '
+   'The overview of a hybrid is a relationship between the visuals, and '
+   'relationships are not visible: ask what the second visual tells you '
+   'about the first, and write the answer to that as your overview.',
+   'In a hybrid, attribute every figure to its source - according to the '
+   'table, the chart shows, while the diagram gives. It costs four words '
+   'a sentence and it is the clearest signal that you have understood '
+   'the task rather than described the page.',
+   'Tenses follow the labels, not the task. A map dated 1990 and 2020 '
+   'takes the past for both; a plan labelled now and proposed takes the '
+   'present and will or is to be.'],
+  errors=[
+   'Writing a process in the active with an invented agent: workers then '
+   'heat the pulp. Nothing on the diagram says who does it, and the '
+   'passive is the structure that lets you avoid inventing.',
+   'Giving each visual of a hybrid its own paragraph and stopping. Three '
+   'descriptions are not an answer to a question asked once.',
+   'Changing frame halfway through a map - two sentences by compass, then '
+   'two by what is near the river. The reader loses the site, and the '
+   'Coherence mark goes with it.'],
+  items=[
+   ('Rewrite in the passive: workers heat the pulp.',
+    'the pulp is heated'),
+   ('Rewrite in the passive: the machine presses the sheets.',
+    'the sheets are pressed'),
+   ('What is the overview of a process?',
+    'the number of stages and their kind, from input to output'),
+   ('What is the overview of a map?',
+    'the single largest change between the two states'),
+   ('What is the overview of a hybrid?',
+    'a relationship between the two visuals'),
+   ('Attribute a figure to a table in four words.',
+    'according to the table'),
+   ('A plan is labelled now and proposed. Which tenses?',
+    'present for now, will or is to be for proposed'),
+   ('Sequence four stages without decoration.',
+    'first, next, once this is complete, finally')],
+  seen=[]),
+
+ 'W4': dict(
+  title='Task 2: the five question forms, and what each one asks',
+  also='essay types, opinion, discussion, problem and solution, two-part, '
+       'evaluate a claim',
+  pattern=[
+   'Every Task 2 question is one of five forms, and the form tells you '
+   'the shape of the answer. Read the instruction line, not the topic: '
+   'the topic decides your content and the instruction decides your '
+   'structure, and candidates who read only the topic write the same '
+   'essay every time.',
+   'To what extent do you agree or disagree - an opinion essay. Take a '
+   'position in the introduction, hold it for both body paragraphs, and '
+   'concede one point to the other side inside your own argument rather '
+   'than in a paragraph of its own. A balanced answer to this form is an '
+   'answer that has not answered.',
+   'Discuss both views and give your own opinion - a discussion essay. '
+   'One body paragraph for each view, fairly, and then your own opinion '
+   'in the conclusion, where it must be one of the two or a stated third '
+   'position. The commonest failure is giving no opinion at all, because '
+   'the first two paragraphs felt like the whole task.',
+   'What are the causes and what can be done - a problem and solution '
+   'essay. One paragraph of causes and one of solutions, with the '
+   'solutions matched to the causes you named. A solution that answers a '
+   'cause you did not mention reads as a list of good ideas.',
+   'A two-part question asks two things in two sentences - why is this '
+   'happening, and is it a positive development. Answer both, give each '
+   'a paragraph, and in the conclusion say which of the two answers '
+   'matters more. Answering one of the two is capped at band 5 on Task '
+   'Response however good the answer is.',
+   'Evaluate this claim - the form this volume ends on. The claim is not '
+   'true or false in itself: it is true relative to a standard. Name the '
+   'standard in the introduction, follow one standard in each body '
+   'paragraph, and in the conclusion say which standard you adopt and '
+   'why. Your position is a position about the standard.',
+   'Two hundred and fifty words is the minimum for every form. Between '
+   'two hundred and seventy and three hundred is comfortable; four '
+   'hundred is a Coherence risk, not a bonus.'],
+  errors=[
+   'Writing a balanced essay for an agree-or-disagree question. The form '
+   'asks for a position and the band descriptors ask for a clear '
+   'position throughout; two fair paragraphs and a fence-sitting '
+   'conclusion is the single commonest band-5.5 essay.',
+   'Answering only the first half of a two-part question. The second '
+   'sentence of the prompt is a separate task and it carries the same '
+   'weight.',
+   'Giving the conclusion a new idea. A conclusion restates the position '
+   'and says what follows from it. A new argument in the last three '
+   'lines has nowhere to be developed and reads as an answer that ran '
+   'out of plan.'],
+  items=[
+   ('To what extent do you agree? What shape?',
+    'take one position and hold it; concede inside your own argument'),
+   ('Discuss both views and give your own opinion. Where does the '
+    'opinion go?', 'in the conclusion, and it must be stated'),
+   ('Causes and solutions: what must match?',
+    'each solution must answer a cause you named'),
+   ('A two-part question. What is capped at band 5?',
+    'answering only one of the two parts'),
+   ('Evaluate this claim: what goes in the introduction?',
+    'the standard, or the two standards, the claim can be judged by'),
+   ('What is the minimum length?', '250 words'),
+   ('What belongs in a conclusion?',
+    'the position restated and what follows from it - no new idea'),
+   ('Which line of the prompt decides your structure?',
+    'the instruction line, not the topic')],
+  seen=[]),
+
+ 'W5': dict(
+  title='Task 2: the paragraph that develops',
+  also='body paragraph, topic sentence, development, examples',
+  pattern=[
+   'A body paragraph has four moves and they are always in this order: '
+   'the claim, the reason, the illustration, and the link back to the '
+   'question. Four sentences is enough and six is plenty. A paragraph '
+   'that is missing the fourth move is the commonest thing in a '
+   'band-5.5 essay, because the writer can see the link and assumes the '
+   'reader can.',
+   'The claim is one sentence and it is the paragraph in miniature. If '
+   'your topic sentence could open any paragraph in the essay, it is not '
+   'a claim; it is a heading.',
+   'The reason is the sentence candidates skip. It answers why the claim '
+   'is true, and it is where the marks for development are: an example '
+   'with no reason in front of it is evidence for something unstated.',
+   'The illustration can be specific without being verifiable. For '
+   'instance, a city that introduced a congestion charge is better than '
+   'for instance, London in 2003, if you are not sure of the year, '
+   'because an invented fact that is wrong does more damage than a '
+   'general one that is right.',
+   'The link back uses the question’s own words once. Not in '
+   'conclusion, not therefore we can see, but which is why the cost '
+   'falls on the people least able to carry it - the phrase from the '
+   'prompt, put to work.',
+   'Two developed paragraphs beat three thin ones at every band. If you '
+   'are running out of time, finish the paragraph you are in rather than '
+   'starting another.'],
+  errors=[
+   'A topic sentence that is a topic: Another important point is '
+   'education. That names the subject and makes no claim, so nothing in '
+   'the paragraph can support it.',
+   'Example without reason. Three sentences of example after a claim '
+   'look like development and are marked as repetition, because the '
+   'paragraph never says why.',
+   'Listing. Four short claims in one paragraph, none developed, is the '
+   'shape that produces a long essay and a 5.5: the descriptors reward '
+   'development, not coverage.'],
+  items=[
+   ('Name the four moves of a body paragraph.',
+    'claim, reason, illustration, link back'),
+   ('Which move do candidates most often skip?', 'the reason'),
+   ('Rewrite as a claim: Another important point is education.',
+    'Education is the lever that works fastest, because it changes '
+    'behaviour before the next generation inherits it.'),
+   ('How specific should an illustration be?',
+    'specific in kind, and only as specific in fact as you are sure of'),
+   ('How does the link back avoid sounding mechanical?',
+    'it uses the question’s own words once, inside a sentence of '
+    'your own'),
+   ('Two developed paragraphs or three thin ones?',
+    'two developed, at every band'),
+   ('You have four minutes left and are mid-paragraph. What do you do?',
+    'finish that paragraph rather than start another'),
+   ('How long is a body paragraph, in sentences?',
+    'four is enough, six is plenty')],
+  seen=[]),
+
+ 'W6': dict(
+  title='Task 2: five minutes of planning',
+  also='brainstorming, outlining, idea selection, time management',
+  pattern=[
+   'Spend five of the forty minutes planning and you will finish. Spend '
+   'none and you will write two paragraphs twice. The plan is not an '
+   'essay in note form: it is four decisions.',
+   'Decision one, the form. Read the instruction line and name the form - '
+   'opinion, discussion, causes and solutions, two-part, evaluate. '
+   'Everything else follows from it.',
+   'Decision two, generate. Write down every idea you have, badly, for '
+   'ninety seconds. Six to ten is normal. Do not judge them while you '
+   'are generating, because the judging stops the generating, and the '
+   'idea you need is usually the fifth.',
+   'Decision three, discard. Apply six tests and keep two ideas. Does it '
+   'answer the question as asked? Can I give a reason for it? Can I '
+   'illustrate it? Is it different from my other idea, not a restatement '
+   'of it? Can it be developed in four sentences? Is it one I can write '
+   'in English I control? An idea that fails any of the six costs more '
+   'than it is worth.',
+   'Decision four, order. Put the stronger idea second, because the '
+   'reader finishes there and the conclusion is next to it. The only '
+   'exception is where the first idea is a premise the second needs.',
+   'Write the plan as four lines in the margin and then do not look at '
+   'it again until you reach the conclusion. A plan consulted every '
+   'paragraph becomes an outline you are transcribing, and transcription '
+   'reads flat.'],
+  errors=[
+   'Judging while generating. Two ideas, both cautious, and a stuck '
+   'writer at minute eight. Generate first and badly; discard second and '
+   'ruthlessly.',
+   'Keeping two ideas that are one idea. People would be healthier and '
+   'the health service would cost less is one idea twice, and the second '
+   'paragraph will repeat the first with different nouns.',
+   'Planning content and not form. A list of ideas with no decision '
+   'about the shape of the answer leaves the hardest decision for minute '
+   'thirty-five, when there is no time to take it.'],
+  items=[
+   ('How long should planning take?', 'about five minutes of the forty'),
+   ('Name the four decisions.', 'form, generate, discard, order'),
+   ('How many ideas should you generate?', 'six to ten, quickly and badly'),
+   ('How many do you keep?', 'two'),
+   ('Give three of the six discard tests.',
+    'does it answer the question; can I give a reason; is it different '
+    'from my other idea'),
+   ('Where does the stronger idea go?',
+    'second, next to the conclusion'),
+   ('When is the weaker idea first legitimately?',
+    'when it is a premise the stronger one needs'),
+   ('Why is "people would be healthier and the service would cost less" '
+    'a bad pair?', 'it is one idea stated twice')],
+  seen=[]),
+}
+
+SPEAKING = {
+
+ 'S1': dict(
+  title='Part 1: the two-sentence answer',
+  also='introduction, familiar topics, short questions, four to five minutes',
+  pattern=[
+   'Part 1 lasts four to five minutes and asks about you - where you '
+   'live, what you do, what you like. The questions are easy and that '
+   'is the trap: a candidate who answers them in three words sounds '
+   'like a candidate who cannot say more, and a candidate who answers '
+   'them for ninety seconds is interrupted.',
+   'Answer in two sentences. The first answers the question directly. '
+   'The second adds a reason, a detail or a contrast. Do you enjoy '
+   'cooking? Not really, no. I can manage about four dishes and I make '
+   'all four of them too often.',
+   'Do not rehearse. Part 1 answers that have been learnt are '
+   'recognisable within two sentences, because they are fluent in a way '
+   'the rest of the test is not, and an examiner who hears a rehearsed '
+   'answer discounts the fluency it shows.',
+   'Say I do not know when you do not, and then say something anyway: I '
+   'have never thought about it, but I suppose it would be the quiet. '
+   'That sentence is worth more than a confident irrelevance, because '
+   'it is a sentence nobody could have prepared.',
+   'The examiner will not help you. If a question does not land, say '
+   'sorry, do you mean X or Y - once. This is a legitimate move in Part '
+   '1 and it is not a mark against you.',
+   'Vocabulary from your own life beats vocabulary from a list. Name '
+   'the dish, the street, the subject. A specific noun in Part 1 is the '
+   'cheapest Lexical Resource mark in the test.'],
+  errors=[
+   'The three-word answer. Yes, I do. The question is answered and '
+   'nothing has been shown, and Part 1 is four minutes of nothing if '
+   'every answer is like that.',
+   'The ninety-second answer. The examiner has nine questions to ask '
+   'and will interrupt, and being interrupted twice costs you the '
+   'Fluency mark you were trying to earn.',
+   'The rehearsed paragraph. It is audible, and the examiner '
+   'compensates by weighting Parts 2 and 3 more heavily, which is the '
+   'opposite of what the candidate wanted.'],
+  items=[
+   ('How long is Part 1?', 'four to five minutes'),
+   ('How long should an answer be?',
+    'two sentences: the answer, then a reason or detail'),
+   ('Answer in two sentences: Do you enjoy cooking?',
+    'Not really. I can manage about four dishes and I make all four of '
+    'them too often.'),
+   ('You do not understand the question. What do you say?',
+    'Sorry, do you mean X or Y? - once'),
+   ('You have no opinion. What do you say?',
+    'I have never thought about it, but I suppose...'),
+   ('Why is a rehearsed answer a problem?',
+    'it is audible, and it makes the examiner discount the fluency'),
+   ('What is the cheapest vocabulary mark in Part 1?',
+    'a specific noun from your own life'),
+   ('Will the examiner help you if you dry up?',
+    'no - they move to the next question')],
+  seen=[]),
+
+ 'S2': dict(
+  title='Part 2: the long turn',
+  also='the card, two minutes, one minute to prepare, cue card',
+  pattern=[
+   'You get a card, one minute with paper and pencil, and then you talk '
+   'for one to two minutes without interruption. The examiner stops you '
+   'at two minutes. Talking for seventy seconds is the commonest Part 2 '
+   'and it costs a band on Fluency.',
+   'Use the minute on the last line of the card, not the first. The '
+   'card has three bullets and then a line beginning and explain why, or '
+   'and say how you felt. That last line is where the development marks '
+   'are and it is the line candidates run out of time to reach.',
+   'Write four words, not sentences. One per bullet and one for the last '
+   'line. Sentences written in the minute get read aloud, and read-aloud '
+   'English is flat and slow.',
+   'Choose a real example, even if it is not the best one. The card asks '
+   'you to describe a time you helped someone, and a small real occasion '
+   'you remember produces specific detail; an impressive invented one '
+   'produces generalities and runs dry at forty seconds.',
+   'Narrate in the past and signpost plainly: this was about three years '
+   'ago, the reason I remember it, the thing I did not expect. Four '
+   'signposts in two minutes is enough structure for the examiner to '
+   'follow and for you to find your way back if you lose the thread.',
+   'If you reach the end of the card with time left, answer the last '
+   'line again at greater depth, or say what you would do differently. '
+   'Do not stop early and do not ask whether that is enough.'],
+  errors=[
+   'Finishing at seventy seconds. The descriptors reward a sustained '
+   'long turn, and the one skill Part 2 tests is keeping going.',
+   'Spending the minute on the first bullet. The last line of the card '
+   'carries the development, and an answer that never reaches it has '
+   'answered the easy part of the question.',
+   'Choosing an impressive topic over a remembered one. Invented '
+   'examples have no detail in them, and detail is what two minutes '
+   'needs.'],
+  items=[
+   ('How long do you speak?', 'one to two minutes, until the examiner '
+    'stops you'),
+   ('What do you do with the preparation minute?',
+    'write four words, one per bullet and one for the last line'),
+   ('Which line of the card matters most?',
+    'the last one - and explain why, or and say how you felt'),
+   ('Why write words and not sentences?',
+    'sentences get read aloud, and read-aloud English is flat'),
+   ('Real example or impressive example?',
+    'real - it has detail in it'),
+   ('You reach the end of the card at ninety seconds. What now?',
+    'answer the last line again at greater depth'),
+   ('Give three plain signposts for a narrative.',
+    'this was about three years ago; the reason I remember it; the thing '
+    'I did not expect'),
+   ('What is the one skill Part 2 tests?', 'keeping going'),
+   ],
+  seen=[]),
+
+ 'S3': dict(
+  title='Part 3: the abstract discussion',
+  also='follow-up questions, four to five minutes, half-agreement, '
+       'speculation',
+  pattern=[
+   'Part 3 moves from your life to the general question behind it, '
+   'lasts four to five minutes, and is where the band is decided, '
+   'because it is the only part where you have to think in English '
+   'rather than remember in it.',
+   'Answer in three moves: position, reason, example or limit. Do you '
+   'think governments should fund sport? Up to a point, yes. The '
+   'argument that persuades me is the public health one, because it is '
+   'the only benefit that reaches people who never watch. Where I would '
+   'stop is stadium funding.',
+   'Half-agreement is the most useful habit in Part 3 and the one '
+   'candidates arrive without. Up to a point; in some contexts; that is '
+   'true of X but not of Y. It shows the grammar of qualification and it '
+   'keeps you honest, which is easier to sustain than a position you do '
+   'not hold.',
+   'Speculate when asked to. Many Part 3 questions are about the future '
+   'or about what would happen, and they want the conditional: I imagine '
+   'what would happen is, my guess is that, it would depend on whether. '
+   'A flat present-tense answer to a hypothetical question reads as a '
+   'misunderstanding.',
+   'Say what the question depends on when it depends on something. It '
+   'depends what you mean by successful - and then answer for each '
+   'meaning. That is four words of qualification and a whole band of '
+   'difference, and it is the Part 3 version of the Task 2 standard.',
+   'You may disagree with the examiner, and in Part 3 it is often the '
+   'better answer. They are not stating a view; they are giving you '
+   'something to push against.'],
+  errors=[
+   'Answering a general question with a personal anecdote. Part 3 has '
+   'left your life behind; an answer that returns to it is answering '
+   'Part 1 again.',
+   'Taking a strong position you cannot defend for ninety seconds, '
+   'because it sounded decisive. Half-agreement is both easier and '
+   'better marked.',
+   'Answering a hypothetical in the present simple. If sport were free, '
+   'more children play is a grammar error in the one place the examiner '
+   'is listening for the structure.'],
+  items=[
+   ('Name the three moves of a Part 3 answer.',
+    'position, reason, example or limit'),
+   ('Give three ways to half-agree.',
+    'up to a point; in some contexts; that is true of X but not of Y'),
+   ('The question is hypothetical. Which structures?',
+    'the conditional: it would depend on whether; I imagine what would '
+    'happen is'),
+   ('The question turns on a vague word. What do you say?',
+    'It depends what you mean by X - and then answer for each meaning'),
+   ('May you disagree with the examiner?',
+    'yes, and it is often the better answer'),
+   ('Why is a personal anecdote wrong here?',
+    'Part 3 asks the general question, not your experience'),
+   ('Correct: If sport were free, more children play.',
+    'If sport were free, more children would play'),
+   ('Which part decides the band, and why?',
+    'Part 3 - it is the only part where you think in English rather than '
+    'remember in it')],
+  seen=[]),
+
+ 'S4': dict(
+  title='Across all three parts: fluency, repair and pronunciation',
+  also='hesitation, self-correction, intonation, stress, recording yourself',
+  pattern=[
+   'Fluency is not speed. It is the absence of the kind of pause that '
+   'makes a listener work. A slow speaker who pauses between sentences '
+   'is fluent; a fast speaker who pauses in the middle of every clause '
+   'is not, and the second is the commoner problem at band 6.',
+   'Learn two repair phrases and use them: what I mean is, or rather. '
+   'A self-correction made out loud and finished is marked as range, '
+   'not as error. An abandoned sentence is marked as a breakdown, and '
+   'the difference between them is four words.',
+   'Buy time with content, not with noise. The honest answer is that I '
+   'am not sure, but is a sentence. Er, hmm, how can I say is not, and '
+   'three of them in a minute is what the descriptors call noticeable '
+   'hesitation.',
+   'Pronunciation is marked on whether you are understood without '
+   'effort, not on whether you sound British. Two things carry most of '
+   'it: word stress on long words, because the wrong stress makes a '
+   'known word unrecognisable, and sentence stress, because stressing '
+   'the content words is what makes a long sentence followable.',
+   'Intonation does grammatical work in English. A rising tone on a '
+   'statement turns it into a question, which in Part 3 makes a position '
+   'sound like a guess. Fall at the end of a statement you mean.',
+   'Record yourself once a week and listen to the whole thing. Nobody '
+   'can rate their own speaking from memory, and the gap between what '
+   'you meant to say and what you said is exactly what the examiner '
+   'hears. It is the single most useful hour in a week of preparation.'],
+  errors=[
+   'Abandoning sentences. Starting again from the subject three times in '
+   'a minute is marked as breakdown even when each attempt is better '
+   'than the last. Finish the sentence, then correct it with what I mean '
+   'is.',
+   'Filling pauses with noise. Er and hmm are heard as hesitation; a '
+   'sentence about not being sure is heard as language.',
+   'Speaking faster to sound fluent. It increases mid-clause pausing and '
+   'damages pronunciation at the same time, which is two criteria for '
+   'the price of one.'],
+  items=[
+   ('Is fluency speed?', 'no - it is the absence of pauses that make a '
+    'listener work'),
+   ('Give two repair phrases.', 'what I mean is; or rather'),
+   ('How is a finished self-correction marked?', 'as range, not error'),
+   ('How is an abandoned sentence marked?', 'as a breakdown'),
+   ('Buy two seconds with content.',
+    'The honest answer is that I am not sure, but...'),
+   ('Which two kinds of stress carry pronunciation?',
+    'word stress on long words, and sentence stress on content words'),
+   ('What does a rising tone do to a statement?',
+    'turns it into a question, so a position sounds like a guess'),
+   ('What is the single most useful preparation hour in a week?',
+    'recording yourself and listening to the whole thing')],
+  seen=[]),
+}

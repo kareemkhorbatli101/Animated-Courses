@@ -45,8 +45,47 @@ VOLS = {1: dict(units=UN.units(1), level='B1', band='5.0',
                 short='Foundation 2', foundation=True)}
 
 
+# ---------------------------------------------------------------------------
+# The split edition.
+#
+# Volume 3 measures about 650 pages as one book, which is a book nobody
+# carries. Cambridge ships a 250-page Student's Book and puts the rest in a
+# workbook; we ship the same content as two half-volumes of about 330 pages
+# each, 3A and 3B, and each half carries a complete practice test rather
+# than half of one. A practice test with no Writing paper in it is not a
+# practice test, which is why 3B has its own Writing and Speaking forms
+# instead of inheriting the first book's.
+#
+# Nothing about the units changes. The split is a packaging decision taken
+# in this table and nowhere else, so a teacher who wants the single volume
+# still gets it from `book.py 3`.
+SPLIT = {
+ 3: [dict(part='A', units=[21, 22, 23, 24, 25],
+          paper=[''], lpaper=[''], wpaper='', spaper='',
+          blurb=['The first half of the band-6.0 volume: units 21 to 25,',
+                 'education, work, health, climate and data, with a',
+                 'complete practice test at the back. Each unit is five',
+                 'cycles, each cycle teaches one sub-skill nothing else in',
+                 'the series teaches, and every figure on every page has a',
+                 'job that is written down.']),
+     dict(part='B', units=[26, 27, 28, 29, 30],
+          paper=['a'], lpaper=['a'], wpaper='b', spaper='b',
+          blurb=['The second half of the band-6.0 volume: units 26 to 30,',
+                 'tourism, the built environment, food, information and',
+                 'sport, with its own complete practice test - a second',
+                 'form of every paper, not the same one again. Finish 3A',
+                 'first: the sub-skill syllabus runs across both halves and',
+                 'unit 30 answers unit 26.'])],
+}
+
+PART_LABEL = None       # set by build() for a half-volume, else None
+PART_SPEC = None        # the SPLIT entry in force, for the audio scripts
+
+
 def vlabel(vol):
-    """What this book calls itself: 'Volume 3', or 'Foundation 1'."""
+    """What this book calls itself: 'Volume 3', 'Volume 3A', 'Foundation 1'."""
+    if PART_LABEL:
+        return PART_LABEL
     return VOLS[vol].get('short', 'Volume %s' % vol)
 
 # what the band on the cover is actually for, per volume
@@ -227,10 +266,16 @@ def _items(d, items, start, key, skill, prefix=''):
         if opts:
             d.mcq(lab, stem, opts)
             key.append((lab, chr(65 + ans), why, wrongs, opts))
+            if TEACHER:
+                _tanswer(d, chr(65 + ans) + '   ' + str(opts[ans]), why,
+                         wrongs, opts)
         else:
             d.item('%s.  ' % lab, stem)
-            d.lines(1, 520)
+            if not TEACHER:
+                d.lines(1, 520)
             key.append((lab, ans, why, None, None))
+            if TEACHER:
+                _tanswer(d, ans, why, None, None)
         n += 1
     return n
 
@@ -356,6 +401,49 @@ def _figures(d, spec):
 
 
 
+
+# ---------------------------------------------------------------------------
+# The Teacher's Edition.
+#
+# Benchmark factor 31 scored 0 against Cambridge's 3. A Teacher's Edition is
+# not a second book: it is the same book with three things made visible on
+# the page where they are needed - why this cycle exists, what the answers
+# are, and what the recording says. A teacher who has to hold three
+# documents open has in practice one.
+#
+# TEACHER is a module flag rather than a parameter threaded through fifteen
+# render functions. The alternative was an argument on every one of them,
+# and an argument that is False in every call but one is a parameter nobody
+# reads. Set it in build() and nowhere else.
+TEACHER = False
+
+
+def _tnotes(d, c, ci):
+    """Teacher's Edition only. Why this cycle exists, at the head of it.
+
+    The six fields were written for gate 11, which requires every cycle to
+    declare what exam task it serves and why that task needs this
+    sub-skill. They were written as an audit trail and they turn out to be
+    exactly what a teacher wants at the top of a lesson, which is a happier
+    accident than it sounds: a note that had to pass a gate cannot be
+    vague.
+    """
+    n = c.get('notes')
+    if not n:
+        return
+    d.partbar('Teacher\u2019s notes \u00b7 cycle %d' % ci,
+              n.get('time', ''), 'writing')
+    rows = [['Serves', n.get('serves', '')],
+            ['Because', n.get('because', '')],
+            ['Sub-skill', n.get('skill', '')],
+            ['Evidence', n.get('evidence', '')],
+            ['Watch for', n.get('watch', '')]]
+    d.table(['', ''], rows, D_PLUM, [14, 86])
+    d.body_p('Answers are printed under each question on these pages, and '
+             'the audio script follows each listening task. The '
+             'Student\u2019s Book has neither.', sz=19, i=True)
+
+
 def _qa(seq):
     """(stem, answer) from a practice item written either way.
 
@@ -372,6 +460,43 @@ def _qa(seq):
         else:
             out.append((it, ''))
     return out
+
+
+def _tanswer(d, ans, why, wrongs, opts):
+    """Teacher's Edition only. The answer, the reason, and the distractors.
+
+    The wrong-option lines were written in phase 8 for the answer key, and
+    the key is at the back where nobody reads it until the mark is lost.
+    On a teacher's page they belong under the question, because the thing a
+    teacher needs at the moment a student says "but B is also true" is the
+    sentence that says why B is not.
+    """
+    d.body_p('   Answer:  %s' % ans, sz=20)
+    if why:
+        d.body_p('   Why:  %s' % why, sz=19, i=True)
+    if wrongs:
+        for k in sorted(wrongs):
+            d.body_p('   %s:  %s' % ('ABCDEFGH'[k], wrongs[k]), sz=18,
+                     i=True)
+
+
+def _tqa(d, qa):
+    """A teaching exercise, with its answers where the edition wants them.
+
+    The vocabulary work, the Skills builder practice and the two grammar
+    exercises are all (stem, answer) once _qa has normalised them. The
+    Student's Book prints the stems and keys the answers at the back; the
+    Teacher's Edition prints the answer in bold after the stem, because a
+    teacher checking eight gaps with a class cannot be turning to page 480
+    between each one.
+    """
+    if not TEACHER:
+        d.items([q for q, _ in qa])
+        return
+    for i, (q, a) in enumerate(qa, 1):
+        d.item('%d.  ' % i, q)
+        if a:
+            d.body_p('        %s' % a, sz=20)
 
 
 def _leadin(d, c, ci):
@@ -406,7 +531,7 @@ def _vocabwork(d, c, ci, key):
     _figures(d, vw.get('figure2'))
     qa = _qa(vw['items'])
     d.ex('Exercise  %s' % vw['task'], 'reading')
-    d.items([q for q, _ in qa])
+    _tqa(d, qa)
     key.setdefault('vocabulary', []).extend(
         [('%d.%d' % (ci, i), a, '') for i, (_, a) in enumerate(qa, 1)])
 
@@ -441,7 +566,7 @@ def _builder(d, c, ci, key):
     if b.get('bank'):
         d.letterbank(b.get('banklabel', 'Choose from'), b['bank'], D_BLUE)
     qa = _qa(b['items'])
-    d.items([q for q, _ in qa])
+    _tqa(d, qa)
     key.setdefault('skills', []).extend(
         [('%d.%d' % (ci, i), a, '') for i, (_, a) in enumerate(qa, 1)])
 
@@ -488,6 +613,8 @@ def render_cycle(d, U, c, ci, key, nq=1):
     # The rebuilt cycle runs lead-in, preview input, vocabulary, Skills
     # builder, and only then the exam task. A cycle written before phase 19
     # has none of the first four and starts where it always did.
+    if TEACHER:
+        _tnotes(d, c, ci)
     _leadin(d, c, ci)
     previews = [b for b in c['read'] if b.get('preview')]
     previews += [b for b in c['listen'] if b.get('preview')]
@@ -566,8 +693,12 @@ def render_cycle(d, U, c, ci, key, nq=1):
         nq = _items(d, l['items'], nq, key.setdefault('listening', []),
                     'listening')
         _debrief(d, c, 'listen')
-        d.body_p('Audio script: at the back of the book. Do not read it '
-                 'before you listen.', i=True)
+        if TEACHER:
+            d.h3('Audio script', D_AMBER)
+            d.script(l['script'])
+        else:
+            d.body_p('Audio script: at the back of the book. Do not read it '
+                     'before you listen.', i=True)
         d.page_break_section()
 
     # ---- speaking ---------------------------------------------------------
@@ -665,7 +796,7 @@ def render_cycle(d, U, c, ci, key, nq=1):
                                     'Neither can be answered without '
                                     'seeing the structure.'), 'writing')
         nqa = _qa(g['notice'])
-        d.items([q for q, _ in nqa])
+        _tqa(d, nqa)
         key.setdefault('grammar', []).extend(
             [('%d.n%d' % (ci, i), a, '') for i, (_, a) in
              enumerate(nqa, 1)])
@@ -674,7 +805,7 @@ def render_cycle(d, U, c, ci, key, nq=1):
     if g.get('contrast'):
         d.watchout(g['contrast'])
     d.ex('Exercise  %s' % g['task'], 'writing')
-    d.items([q for q, _ in g['items']])
+    _tqa(d, _qa(g['items']))
     # Two more exercises: controlled production, then a short free
     # production tied to this unit's own topic. Recognition alone does not
     # become use.
@@ -687,7 +818,7 @@ def render_cycle(d, U, c, ci, key, nq=1):
             d.lines(extra)
         else:
             xqa = _qa(extra)
-            d.items([q for q, _ in xqa])
+            _tqa(d, xqa)
             key.setdefault('grammar', []).extend(
                 [('%d.x%d' % (ci, i), a, '') for i, (_, a) in
                  enumerate(xqa, 1)])
@@ -778,11 +909,382 @@ def render_unit(d, U):
 
 
 # ------------------------------------------------------------ front matter --
+def _cycle_types(c, skill):
+    """The official task types a cycle's exam blocks hold, previews aside.
+
+    A preview is ninety seconds of orientation addressed P1-P3 and is not a
+    task type the contents should promise: a learner who looks up matching
+    headings and is sent to a three-question warm-up has been misled by
+    their own book.
+    """
+    out = []
+    for b in c.get('read' if skill == 'read' else 'listen') or []:
+        if not isinstance(b, dict) or b.get('preview'):
+            continue
+        for t in QT.types_of(b, skill):
+            if t not in out:
+                out.append(t)
+    return out
+
+
+DIAG_VOLS = {3}          # volumes whose diagnostic has been written
+
+
+def contents(d, vol, units):
+    """Three ways into the same ten units.
+
+    Benchmark factor 11. Cambridge gives one contents table and we gave
+    none; one is not enough for a book a teacher plans from. A teacher
+    looking for Thursday's lesson wants the unit list. A teacher whose
+    class cannot do matching headings wants the task list. A teacher whose
+    class cannot do the passive wants the language list. The same fifty
+    cycles, indexed three ways, and all three generated from the content so
+    none of them can drift from it.
+    """
+    gram = {}
+    for u in units:
+        for ci, c in enumerate(u['cycles'], 1):
+            ref = (c.get('gram') or {}).get('ref')
+            if ref:
+                gram.setdefault(ref, []).append((u['n'], ci))
+
+    # A volume whose units have not been rebuilt has no Skills builder and
+    # no reference pointer, so the table drops those two columns rather
+    # than printing ten pages of em dashes.
+    rebuilt = any(c.get('builder') for u in units for c in u['cycles'])
+    d.unit_title('Contents')
+    d.strapline('%s · by unit' % vlabel(vol))
+    if rebuilt:
+        d.cefr('Ten units, five cycles each. The sub-skill column is what '
+               'the Skills builder teaches in that cycle: no sub-skill is '
+               'taught twice in this volume, which is the difference '
+               'between a syllabus and a sequence.')
+    else:
+        d.cefr('Ten units, five cycles each, taken through all four skills '
+               'in the order read, listen, speak, write.')
+    d.page_break_section()
+    for u in units:
+        d.keybar('Unit %d · %s' % (u['n'], u['theme']))
+        rows = []
+        for ci, c in enumerate(u['cycles'], 1):
+            rt = ', '.join(_cycle_types(c, 'read')) or '—'
+            lt = ', '.join(_cycle_types(c, 'listen')) or '—'
+            if rebuilt:
+                sk = (c.get('builder') or {}).get('skill', '')
+                rows.append([str(ci),
+                             (c.get('notes') or {}).get('skill', sk) or sk,
+                             rt, lt,
+                             (c.get('gram') or {}).get('ref', '—')])
+            else:
+                rows.append([str(ci), rt, lt])
+        if rebuilt:
+            d.table(['Cycle', 'Sub-skill taught', 'Reading tasks',
+                     'Listening tasks', 'Lang'], rows, D_INDIGO,
+                    [7, 31, 27, 27, 8])
+        else:
+            d.table(['Cycle', 'Reading tasks', 'Listening tasks'],
+                    rows, D_INDIGO, [9, 45, 46])
+    d.page_break_section()
+
+    # ----------------------------------------------------------- by task
+    d.unit_title('Contents by exam task')
+    d.strapline('%s · every question type, and where it is taught' % vlabel(vol))
+    d.cefr('Find the task your class cannot do, and this table says which '
+           'cycles teach it. Read 23.4 as unit 23, cycle 4. A type with one '
+           'entry is a type this volume meets once; the distribution gate '
+           'keeps every type above its floor and below its ceiling, so a '
+           'short row here is a deliberate decision rather than an '
+           'oversight.')
+    d.page_break_section()
+    for label, skill, names, col in (
+            ('Reading', 'read', QT.READING, D_BLUE),
+            ('Listening', 'listen', QT.LISTENING, D_AMBER)):
+        d.partbar(label, '%d official task types' % len(names),
+                  'reading' if skill == 'read' else 'listening')
+        rows = []
+        for t in names:
+            where = []
+            for u in units:
+                for ci, c in enumerate(u['cycles'], 1):
+                    if t in _cycle_types(c, skill):
+                        where.append('%d.%d' % (u['n'], ci))
+            rows.append([t, '%d' % len(where), ', '.join(where) or '—'])
+        d.table(['Task type', 'Cycles', 'Where'], rows, col, [30, 9, 61])
+    d.page_break_section()
+
+    # ------------------------------------------------------- by language
+    if not gram:
+        return
+    d.unit_title('Contents by language')
+    d.strapline('%s · the grammar syllabus, and the reference it points at'
+                % vlabel(vol))
+    d.cefr('Every cycle teaches one grammar point from its own texts and '
+           'ends with a pointer to the Language reference at the back. This '
+           'table reads the pointers the other way round: find the '
+           'structure, and it tells you which cycle teaches it and which '
+           'entry carries the full pattern.')
+    d.page_break_section()
+    try:
+        R = importlib.import_module('content.refs')
+        importlib.reload(R)
+        LANG = R.LANG
+    except ModuleNotFoundError:
+        LANG = {}
+    rows = []
+    for key in sorted(gram, key=_refkey):
+        e = LANG.get(key) or {}
+        rows.append([key, e.get('title', '—'),
+                     ', '.join('%d.%d' % w for w in gram[key])])
+    d.table(['Entry', 'Structure', 'Taught in'], rows, D_PLUM, [9, 46, 45])
+    d.body_p('The Writing and Speaking references at the back are not keyed '
+             'to single cycles, because they describe the tasks rather than '
+             'points of grammar: every writing cycle in the book uses all '
+             'six writing entries.', i=True)
+    d.page_break_section()
+
+
+# The diagnostic. Benchmark factor 9 scored 0: Complete IELTS opens with an
+# entry test that sends a learner to the units they need. Ours asks twenty
+# questions, one per pair of cycles, and every question names the cycle
+# that teaches what it tests - so a wrong answer is a reading instruction
+# rather than a score.
+#
+# The questions are written against this volume's own content, which is why
+# they live here and not in a content module: they are a map of the book,
+# and a map that can fall out of step with the territory is worse than no
+# map. Each entry is (question, options, answer index, the cycle it sends
+# you to, what that cycle teaches).
+_DIAG_R = [
+ ('A passage says: “The scheme was adopted in 1994, though the evidence '
+  'for it was not published until 1996.” The statement to judge is: The '
+  'evidence was published before the scheme was adopted. The answer is:',
+  ['True', 'False', 'Not Given'], 1, '21.1',
+  'True/False/Not Given, and why False is not Not Given'),
+ ('Four paragraphs mention cost. The question asks which paragraph '
+  'contains “a comparison of two costs”. Your first move is to:',
+  ['read all four paragraphs properly',
+   'find the paragraph with two figures in one sentence',
+   'choose the paragraph where cost appears most often'], 1, '22.3',
+  'matching information: the question wording is the search key'),
+ ('A heading reads “The consequences of the change”. The paragraph you '
+  'should give it:',
+  ['describes how the change was arranged',
+   'has people doing things in the past tense',
+   'is the longest paragraph about the change'], 1, '30.4',
+  'matching headings: telling an incentive from its consequence'),
+ ('Two options are both true according to the passage. The correct one is:',
+  ['the one that appears first',
+   'the one that answers the question actually asked',
+   'the longer of the two'], 1, '30.1',
+  'multiple choice when two options are both true'),
+ ('The statement to judge contains the word “all”. In the passage the '
+  'writer says “most”. The answer is:',
+  ['Yes', 'No', 'Not Given'], 1, '25.5',
+  'scope words, and the band they cost'),
+ ('A sentence-completion gap reads “The committee asked for a '
+  '____________ before approving the plan.” Before looking, you should '
+  'decide:',
+  ['what the answer means', 'what part of speech the answer must be',
+   'how many words are allowed only'], 1, '21.3',
+  'sentence completion by word class'),
+ ('A matching-features question gives five researchers and eight '
+  'statements. The fastest route is to:',
+  ['read the statements, then scan for the names',
+   'read the passage and remember who said what',
+   'read the names, then scan for each in turn'], 0, '23.2',
+  'matching features: who said it, and the reported voice'),
+ ('The passage says a finding “has not replicated”. A statement says the '
+  'finding is false. The answer is:',
+  ['Yes', 'No', 'Not Given'], 1, '29.4',
+  'the difference between unsupported and disproved'),
+ ('You have twenty minutes left and eighteen questions. You should:',
+  ['read the remaining passage properly, then answer',
+   'load the questions, then read one paragraph at a time',
+   'guess the remaining answers and check the earlier ones'], 1, '24.1',
+  'reading one detail against the clock'),
+ ('A short-answer question says NO MORE THAN THREE WORDS. Your answer is '
+  '“in the second half of the century”. You should:',
+  ['write it as it is', 'cut it to three words from the passage',
+   'write a paraphrase of three words'], 1, '27.3',
+  'short answer, and why a paraphrase is marked wrong'),
+]
+
+_DIAG_L = [
+ ('A speaker says “I was going to say eighty, but it is nearer ninety.” '
+  'The answer is:', ['eighty', 'ninety', 'both'], 1, '22.2',
+  'self-correction in Part 1 and Part 2'),
+ ('Two speakers disagree. The question asks what the man thinks. You '
+  'should listen for:', ['the first opinion given',
+   'the opinion after “actually” or “well”, which is usually his',
+   'the louder speaker'], 1, '26.2',
+  'who said it, when two voices overlap'),
+ ('A note-completion gap follows the heading “Cost per person”. You '
+  'should expect:', ['a number with a currency', 'a name', 'a date'], 0,
+  '24.2', 'predicting the form of an answer, not its content'),
+ ('In Part 4 the lecturer says “three factors, and the third is the one '
+  'people forget”. You should:',
+  ['write all three', 'wait for the third and note it',
+   'note the first, which is usually tested'], 0, '28.4',
+  'listening shape: a signposted list'),
+ ('A map-labelling task gives eight letters and five gaps. Before the '
+  'recording you should:', ['read the gaps',
+   'orient the map: what is north, where the entrance is',
+   'memorise the eight letters'], 1, '27.2',
+  'plan and map labelling, and the orientation that makes it possible'),
+ ('The speaker says a figure, then “sorry, that is the annual one”. The '
+  'answer is:', ['the first figure', 'the second figure',
+   'the annual figure, whichever that is'], 2, '25.2',
+  'repair, and listening for which figure the question wants'),
+ ('A multiple-choice option is true but is not the reason the speaker '
+  'gives. It is:', ['correct', 'a distractor',
+   'correct if no better option exists'], 1, '30.2',
+  'the option that is true and not the reason'),
+ ('Part 3 is a tutorial. Two of the four options are mentioned. The '
+  'answer is usually:', ['the first mentioned',
+   'the one the speakers agree on', 'the last mentioned'], 1, '23.4',
+  'agreement and half-agreement in a tutorial'),
+ ('You miss an answer. You should:', ['stop and think about it',
+   'move to the next question at once and come back at the end',
+   'guess immediately'], 1, '21.2',
+  'the recording plays once, and what that costs'),
+ ('Sentence completion in Part 2 gives the gap at the end of the '
+  'sentence. The words before it are:',
+  ['filler', 'the signal that the answer is coming',
+   'usually paraphrased, so unreliable'], 1, '29.2',
+  'the lag between the signal and the answer'),
+]
+
+
+def diagnostic(d, vol, units):
+    """Twenty questions that send a learner to a cycle, not to a score."""
+    d.unit_title('Where to start')
+    d.strapline('%s · a twenty-question diagnostic' % vlabel(vol))
+    d.cefr('This is not a test and it has no band. Twenty questions, ten '
+           'about Reading and ten about Listening, each one taken from a '
+           'skill this volume teaches. Answer them, check them against the '
+           'table at the end, and read the cycle named beside every one you '
+           'got wrong before you start unit %d. Forty minutes, and it will '
+           'save you more than that.' % units[0]['n'])
+    d.page_break_section()
+    for label, skill, bank, col in (
+            ('Reading', 'reading', _DIAG_R, D_BLUE),
+            ('Listening', 'listening', _DIAG_L, D_AMBER)):
+        d.partbar(label, 'ten questions', skill)
+        start = 1 if bank is _DIAG_R else 11
+        for i, (stem, opts, _a, _c, _t) in enumerate(bank):
+            d.mcq(str(start + i), stem, opts)
+        d.page_break_section()
+
+    d.unit_title('What your answers mean')
+    d.strapline('%s · the diagnostic, keyed to cycles' % vlabel(vol))
+    d.cefr('Read the cycle named beside each question you got wrong. If you '
+           'got more than six wrong in one skill, work the volume in order '
+           'rather than selectively: a pattern that wide is not a gap in '
+           'one sub-skill.')
+    d.page_break_section()
+    for label, bank, col in (('Reading', _DIAG_R, D_BLUE),
+                             ('Listening', _DIAG_L, D_AMBER)):
+        d.h3(label, col)
+        rows = []
+        start = 1 if bank is _DIAG_R else 11
+        for i, (_s, opts, a, cyc, teach) in enumerate(bank):
+            rows.append(['%d' % (start + i), 'ABC'[a], opts[a], cyc, teach])
+        d.table(['Q', '', 'The answer', 'Go to', 'What it teaches'],
+                rows, col, [5, 5, 30, 8, 52])
+    d.body_p('A diagnostic that gives a band tells you what you already '
+             'know. One that gives you five cycle numbers tells you what to '
+             'do on Monday.', i=True)
+    d.page_break_section()
+
+
+def progress_record(d, vol, units):
+    """One page the learner fills in, and the only page they write on.
+
+    Benchmark factor 68. Self-assessment that lives on paper, with a date
+    beside it, is the only kind anybody goes back to - and the only honest
+    way to see a half band move, which takes about six weeks and is
+    invisible day to day.
+    """
+    d.unit_title('Your progress record')
+    d.strapline('%s · ten units, one row each' % vlabel(vol))
+    d.cefr('Fill this in as you finish each unit, and put the date in the '
+           'last column. Tick means you could do it unprompted; half means '
+           'you could do it with the book open; cross means not yet. Three '
+           'crosses in one column is a reading instruction: go back to the '
+           'Skills builders in that column’s cycles.')
+    d.page_break_section()
+    d.figure(*teach.tracker(
+        'What you can do, unit by unit',
+        [('Unit %d · %s' % (u['n'], u['theme']), ['', '', '', '', ''])
+         for u in units],
+        ['c1', 'c2', 'c3', 'c4', 'c5'],
+        sub='one row a unit · tick, half-tick or cross, and the date',
+        note='The five columns are the five cycles, so a column is a kind '
+             'of lesson rather than a kind of question: c1 is reading '
+             'detail and the letter, c2 is opinion and Task 2, c3 is data '
+             'and Task 1, c4 is structure and planning, c5 is the long '
+             'passage and the full essay. A pattern down one column is the '
+             'useful thing this page can show you.'))
+    d.h3('The four section bands', D_INDIGO)
+    d.body_p('Take these from the practice papers at the back of this '
+             'volume, not from the units: a band from an untimed exercise '
+             'is not a band. Record them twice, six weeks apart, and '
+             'compare. A half band inside six weeks is inside the '
+             'measurement error; a whole band is real.')
+    d.table(['Section', 'First sitting', 'Date', 'Second sitting', 'Date'],
+            [['Listening', '', '', '', ''], ['Reading', '', '', '', ''],
+             ['Writing', '', '', '', ''], ['Speaking', '', '', '', ''],
+             ['Overall', '', '', '', '']],
+            D_INDIGO, [24, 19, 19, 19, 19])
+    d.page_break_section()
+
+
+def _teacher_page(d, vol, units):
+    """What this edition adds, and the one thing it does not."""
+    d.partbar('About this edition', 'What is on the page that is not in the '
+              'Student’s Book', 'writing')
+    d.body_p('This is the Student’s Book, page for page, with three '
+             'things printed where they are needed rather than at the back.')
+    d.bullets([
+        'Teacher’s notes at the head of every cycle: what exam task the '
+        'cycle serves, why that task needs this sub-skill, what the '
+        'sub-skill is, what earlier cycle it builds on, the error to expect, '
+        'and how long the cycle takes with and without the free writing.',
+        'Answers under every question, with the reason, and - for multiple '
+        'choice - a line on each wrong option saying why a learner was '
+        'tempted by it. Those lines exist because the commonest question in '
+        'a feedback session is not what the answer is but why B is wrong.',
+        'The audio script after each listening task, instead of a pointer to '
+        'the back of the book.'])
+    d.h3('What this edition does not do', D_PLUM)
+    d.body_p('It does not tell you how to teach the cycle. The notes say '
+             'what the cycle is for and what to watch for, and the rest is '
+             'yours: a book that scripts a lesson is a book that assumes the '
+             'class in front of you is the one it imagined.')
+    d.h3('Timings', D_PLUM)
+    d.body_p('Each cycle’s notes carry two figures - the full cycle, '
+             'and the cycle without the free productive task. The second '
+             'figure is the one to use when the writing will be set as '
+             'homework, which in a ninety-minute class it usually is. Five '
+             'cycles a unit, so a unit is a week at three sessions or a '
+             'fortnight at two.')
+    d.h3('The diagnostic', D_PLUM)
+    d.body_p('The twenty-question diagnostic a few pages on is keyed to '
+             'cycles rather than to a band. Set it in the first session, '
+             'mark it together, and let the class see which cycles they have '
+             'been sent to. A diagnostic whose result is a number tells a '
+             'class what they already suspected; one whose result is five '
+             'cycle numbers gives them a reason to open the book.')
+    d.page_break_section()
+
+
 def front_matter(d, vol, cfg, units):
     band, lvl = cfg['band'], cfg['level']
     strap = ['Reading · Listening · Speaking · Writing',
              'Every task type in the test, five times a unit']
-    d.figure(*F.cover_front(cfg.get('label', 'VOLUME %s' % vol),
+    d.figure(*F.cover_front(cfg.get('label',
+                                    'VOLUME %s' % (PART_LABEL.split()[-1]
+                                                   if PART_LABEL else vol)),
                             'Units %d–%d' % (units[0]['n'], units[-1]['n']),
                             lvl, band, strap), cover=True)
     d.page_break_section(zero=True)
@@ -817,6 +1319,10 @@ def front_matter(d, vol, cfg, units):
     d.keyline('This volume', 'Units %d–%d, answer key, audio scripts, band '
               'descriptors, glossary' % (units[0]['n'], units[-1]['n']))
     d.page_break_section()
+
+    if TEACHER:
+        _teacher_page(d, vol, units)
+    contents(d, vol, units)
 
     d.partbar('How to use this book', 'Five cycles, four skills')
     d.body_p('Every unit is built the same way, and every skill runs to five '
@@ -892,6 +1398,13 @@ def front_matter(d, vol, cfg, units):
     d.table(['When', 'What', 'Focus'], weeks, D_INDIGO, [16, 44, 40])
     d.page_break_section()
     speed_page(d, vol, cfg, units)
+    # The diagnostic is written against this volume's own cycles and names
+    # them, so it exists only where those cycles exist. A diagnostic that
+    # sent a learner to a cycle that teaches something else would be worse
+    # than no diagnostic.
+    if vol in DIAG_VOLS:
+        diagnostic(d, vol, units)
+    progress_record(d, vol, units)
 
 
 # ------------------------------------------------------------- back matter --
@@ -1249,7 +1762,9 @@ def audio_scripts(d, vol, units):
                      D_AMBER)
                 d.script(l['script'])
         d.page_break_section()
-    for suf in ('', 'a', 'b'):
+    # A half-volume carries one listening form, so its scripts section
+    # must carry that one and not the other half's.
+    for suf in (PART_SPEC['lpaper'] if PART_SPEC else ('', 'a', 'b')):
         try:
             L = importlib.import_module('content.lpaper%s%s'
                                         % (vol, suf)).LPAPER
@@ -1289,6 +1804,109 @@ def glossary(d, vol, units):
     if buf:
         d.wordlist(buf, 1, D_INDIGO)
     d.page_break_section()
+
+
+def references(d, vol, units):
+    """The three back-matter references: language, writing, speaking.
+
+    Benchmark factor 23 scored this 0 against Cambridge's 3. Every grammar
+    box in the rebuilt units ends with a pointer - see Language reference
+    L17 - and until this function existed the pointer pointed at nothing,
+    which is worse than having no pointer at all.
+
+    Three decisions worth stating:
+
+    Only the entries this volume's cycles point at are printed. A reference
+    that carries the whole series is a reference a learner cannot navigate,
+    and content/refs.py is shared by eight books.
+
+    The practice is printed with its answers, not keyed to the answer key
+    at the front of the back matter, because a reference is consulted after
+    the lesson by somebody working alone and a second lookup is a reason
+    not to do the exercise.
+
+    The errors come before the practice. The three mistakes named in each
+    entry are the ones learners at THIS band make, so the entry corrects
+    rather than merely informs, and a learner who reads only the errors has
+    still had the most useful part of the page.
+    """
+    try:
+        R = importlib.import_module('content.refs')
+        importlib.reload(R)
+    except ModuleNotFoundError:
+        return
+
+    # Which Language entries does this volume actually point at, and from
+    # where. Built from the units rather than from refs.py's own 'seen'
+    # field, so an entry cannot claim a cycle that dropped its pointer.
+    pointed = {}
+    for u in units:
+        for ci, c in enumerate(u['cycles'], 1):
+            ref = (c.get('gram') or {}).get('ref')
+            if ref:
+                pointed.setdefault(ref, []).append('%d.%d' % (u['n'], ci))
+
+    def entry(key, e, col, back):
+        d.h3('%s  ·  %s' % (key, e['title']), col)
+        if e.get('also'):
+            d.body_p('Also called: %s' % e['also'], sz=19, i=True)
+        if back.get(key):
+            d.body_p('Taught in %s' % ', '.join(back[key]), sz=19, i=True)
+        d.bullets(e['pattern'])
+        d.ex('The three mistakes learners make here')
+        d.bullets(e['errors'], sz=19)
+        d.ex('More practice, with answers')
+        d.wordlist([(q, '   ' + a) for q, a in e['items']], 1, col)
+
+    lang = [(k, R.LANG[k]) for k in sorted(pointed, key=_refkey)
+            if k in R.LANG]
+    if lang:
+        d.unit_title('Language reference')
+        d.strapline('%s · %d entries, each with the full pattern'
+                    % (vlabel(vol), len(lang)))
+        d.cefr('Every grammar box in these units ends with a pointer to one '
+               'of these entries. The cycle gives you the slice of the '
+               'pattern its texts needed; this gives you the pattern. Eight '
+               'further questions with answers follow each one, for the '
+               'learner who got the cycle’s six wrong.')
+        d.page_break_section()
+        for key, e in lang:
+            entry(key, e, D_PLUM, pointed)
+        d.page_break_section()
+
+    if getattr(R, 'WRITING', None):
+        d.unit_title('Writing reference')
+        d.strapline('%s · the two tasks, and five minutes of planning'
+                    % vlabel(vol))
+        d.cefr('These are not model answers. A model answer teaches a '
+               'learner one essay; the shape of the task, the three errors '
+               'that cost the band and the decisions a plan is made of '
+               'teach them the next forty.')
+        d.page_break_section()
+        for key in sorted(R.WRITING):
+            entry(key, R.WRITING[key], D_PLUM, {})
+        d.page_break_section()
+
+    if getattr(R, 'SPEAKING', None):
+        d.unit_title('Speaking reference')
+        d.strapline('%s · the three parts, and what each one tests'
+                    % vlabel(vol))
+        d.cefr('The three parts ask for three different lengths of answer, '
+               'and most of the marks lost in Speaking are lost by giving '
+               'one part the length that belongs to another. The last entry '
+               'is about repair, which is the skill nobody practises and '
+               'everybody needs.')
+        d.page_break_section()
+        for key in sorted(R.SPEAKING):
+            entry(key, R.SPEAKING[key], D_TEAL, {})
+        d.page_break_section()
+
+
+def _refkey(k):
+    """L17 sorts after L9, not before it."""
+    head = k.rstrip('0123456789')
+    tail = k[len(head):]
+    return (head, int(tail) if tail else 0)
 
 
 def expression_bank(d, vol, units):
@@ -1413,17 +2031,37 @@ BULLETS_BY_VOL = {
 }
 
 
-def build(vol, out=None):
+def build(vol, out=None, teacher=False, part=None):
+    global TEACHER, PART_LABEL
+    TEACHER = bool(teacher)
     cfg = VOLS[vol]
+    # A half-volume is the same volume with a shorter unit list and one
+    # form of each paper. Everything downstream reads `units`, `vlabel`
+    # and the `forms` closure, so this is the only place that knows.
+    spec = None
+    if part:
+        for cand in SPLIT.get(vol, ()):
+            if cand['part'].upper() == str(part).upper():
+                spec = cand
+        if spec is None:
+            raise SystemExit('no part %r of volume %d' % (part, vol))
+    PART_LABEL = ('Volume %d%s' % (vol, spec['part'])) if spec else None
+    global PART_SPEC
+    PART_SPEC = spec
+    want = set(spec['units']) if spec else None
     units = []
     for n in cfg['units']:
+        if want is not None and n not in want:
+            continue
         try:
             m = importlib.import_module('content.u%02d' % n)
         except ModuleNotFoundError:
             continue          # a volume under construction still builds
         importlib.reload(m)
         units.append(m.UNIT)
-    d = Doc('IELTS Preparation Course · %s' % vlabel(vol),
+    d = Doc('IELTS Preparation Course · %s%s'
+            % (vlabel(vol), ' · Teacher’s Edition'
+               if TEACHER else ''),
             'CEFR %s · band %s' % (cfg['level'], cfg['band']))
     front_matter(d, vol, cfg, units)
     ukeys = {}
@@ -1435,7 +2073,8 @@ def build(vol, out=None):
     # that practice can then improve.
     def forms(prefix):
         out = []
-        for suf in ('', 'a', 'b'):
+        sufs = spec[prefix] if spec else ('', 'a', 'b')
+        for suf in sufs:
             try:
                 m = importlib.import_module('content.%s%d%s'
                                             % (prefix, vol, suf))
@@ -1449,48 +2088,70 @@ def build(vol, out=None):
     lms = forms('lpaper')
     pm = pms[0] if pms else None
     lm = lms[0] if lms else None
-    try:
-        wm = importlib.import_module('content.wpaper%d' % vol)
-        importlib.reload(wm)
-    except ModuleNotFoundError:
-        wm = None
-    try:
-        sm = importlib.import_module('content.spaper%d' % vol)
-        importlib.reload(sm)
-    except ModuleNotFoundError:
-        sm = None
+    # The single volume carries every form it has; a half-volume carries
+    # the one its own practice test is built from.
+    def one_form(prefix, attr):
+        out = []
+        sufs = ((spec[prefix],) if spec else ('', 'b'))
+        for suf in sufs:
+            try:
+                m = importlib.import_module('content.%s%d%s'
+                                            % (prefix, vol, suf))
+            except ModuleNotFoundError:
+                continue
+            importlib.reload(m)
+            out.append(m)
+        return out
+
+    wms = one_form('wpaper', 'WPAPER')
+    sms = one_form('spaper', 'SPAPER')
     pkeys = [render_paper(d, m.PAPER) for m in pms]
     lkeys = [render_lpaper(d, m.LPAPER) for m in lms]
-    if wm:
-        render_wpaper(d, wm.WPAPER)
-    if sm:
-        render_spaper(d, sm.SPAPER)
+    for m in wms:
+        render_wpaper(d, m.WPAPER)
+    for m in sms:
+        render_spaper(d, m.SPAPER)
     back_matter(d, vol, units, ukeys)
     for m, k in zip(pms, pkeys):
         paper_key(d, m.PAPER, k)
     for m, k in zip(lms, lkeys):
         lpaper_key(d, m.LPAPER, k)
-    if wm:
-        wpaper_key(d, wm.WPAPER)
-    if sm:
-        spaper_key(d, sm.SPAPER)
+    for m in wms:
+        wpaper_key(d, m.WPAPER)
+    for m in sms:
+        spaper_key(d, m.SPAPER)
+    references(d, vol, units)
     audio_scripts(d, vol, units)
     glossary(d, vol, units)
     expression_bank(d, vol, units)
-    d.figure(*F.cover_back(vlabel(vol), BLURB_BY_VOL[vol], BULLETS_BY_VOL[vol],
+    d.figure(*F.cover_back(vlabel(vol),
+                           spec['blurb'] if spec else BLURB_BY_VOL[vol],
+                           BULLETS_BY_VOL[vol],
                            ['%d  %s' % (u['n'], u['theme']) for u in units]),
              cover=True)
     lvl = VOLS[vol]['cefr'].replace('+', 'plus')
     if cfg.get('foundation'):
         stem = 'IELTS_2026_%s_%s' % (lvl, cfg['short'].replace(' ', '_'))
     else:
-        stem = 'IELTS_2026_%s_Volume_%d' % (lvl, vol)
+        stem = 'IELTS_2026_%s_Volume_%d%s' % (lvl, vol,
+                                              spec['part'] if spec else '')
+    if TEACHER:
+        stem += '_Teachers_Edition'
     out = out or '/home/user/Animated-Courses/%s.docx' % stem
     d.save(out)
     return out, len(d.images)
 
 
 if __name__ == '__main__':
-    v = int(sys.argv[1]) if len(sys.argv) > 1 else 4
-    p, n = build(v, sys.argv[2] if len(sys.argv) > 2 else None)
+    # book.py 3            the single volume
+    # book.py 3A           the first half of the split edition
+    # book.py 3B --teacher the second half, Teacher's Edition
+    args = sys.argv[1:]
+    teach_mode = '--teacher' in args
+    argv = [a for a in args if a != '--teacher']
+    spec = argv[0] if argv else '4'
+    part = spec[-1].upper() if spec[-1:].isalpha() else None
+    v = int(spec[:-1] if part else spec)
+    p, n = build(v, argv[1] if len(argv) > 1 else None,
+                 teacher=teach_mode, part=part)
     print('wrote', p, os.path.getsize(p), 'bytes,', n, 'images')

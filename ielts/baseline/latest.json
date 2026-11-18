@@ -22328,7 +22328,7 @@
     "yield",
     "zone"
    ],
-   "images": 580,
+   "images": 709,
    "items": {
     "lpaper3 Part 1 i1": {
      "ans": "Achebe-Fontaine",
@@ -26509,6 +26509,27 @@
      "why": "0d6cf9bd0ae8",
      "wrongs": 3
     },
+    "u26 c1 PR0 i1": {
+     "ans": "short-term",
+     "opts": 0,
+     "stem": "6a27a2635ad3",
+     "why": "6caadbb8e5ee",
+     "wrongs": 0
+    },
+    "u26 c1 PR0 i2": {
+     "ans": "trigger",
+     "opts": 0,
+     "stem": "f7ab40f4e7f1",
+     "why": "a343a8464e74",
+     "wrongs": 0
+    },
+    "u26 c1 PR0 i3": {
+     "ans": "substantiated",
+     "opts": 0,
+     "stem": "72d7054cbbee",
+     "why": "830bd4d23546",
+     "wrongs": 0
+    },
     "u26 c1 R0 i1": {
      "ans": "1",
      "opts": 4,
@@ -26607,6 +26628,27 @@
      "why": "6e31da32f541",
      "wrongs": 0
     },
+    "u26 c2 PL0 i1": {
+     "ans": "her",
+     "opts": 0,
+     "stem": "fae77ed0658a",
+     "why": "e26c983f31b5",
+     "wrongs": 0
+    },
+    "u26 c2 PL0 i2": {
+     "ans": "hours",
+     "opts": 0,
+     "stem": "97db228499f5",
+     "why": "8e3b1853a3d9",
+     "wrongs": 0
+    },
+    "u26 c2 PL0 i3": {
+     "ans": "counted",
+     "opts": 0,
+     "stem": "6968ec7d8aa6",
+     "why": "c40ee5731608",
+     "wrongs": 0
+    },
     "u26 c2 R0 i1": {
      "ans": "0",
      "opts": 4,
@@ -26691,6 +26733,27 @@
      "why": "8d6c28c4bf68",
      "wrongs": 3
     },
+    "u26 c3 PR0 i1": {
+     "ans": "arrivals",
+     "opts": 0,
+     "stem": "3b0f99155601",
+     "why": "793a784847fb",
+     "wrongs": 0
+    },
+    "u26 c3 PR0 i2": {
+     "ans": "bed-nights",
+     "opts": 0,
+     "stem": "8f228215d3a3",
+     "why": "67caf68b7379",
+     "wrongs": 0
+    },
+    "u26 c3 PR0 i3": {
+     "ans": "use",
+     "opts": 0,
+     "stem": "2a6fd68fee12",
+     "why": "85019a4e0adb",
+     "wrongs": 0
+    },
     "u26 c3 R0 i1": {
      "ans": "1",
      "opts": 4,
@@ -26774,6 +26837,27 @@
      "stem": "156c3a16eee2",
      "why": "bfb10ed544f2",
      "wrongs": 3
+    },
+    "u26 c4 PL0 i1": {
+     "ans": "leakage",
+     "opts": 0,
+     "stem": "e33ec5864801",
+     "why": "bb02200a238f",
+     "wrongs": 0
+    },
+    "u26 c4 PL0 i2": {
+     "ans": "nineteen",
+     "opts": 0,
+     "stem": "e6f70de36a6d",
+     "why": "501467da53c3",
+     "wrongs": 0
+    },
+    "u26 c4 PL0 i3": {
+     "ans": "net",
+     "opts": 0,
+     "stem": "16ea9c8b95ca",
+     "why": "4b3f70eb2b56",
+     "wrongs": 0
     },
     "u26 c4 R0 i1": {
      "ans": "1",
@@ -26865,6 +26949,27 @@
      "stem": "b201219b9b06",
      "why": "b137a3abd628",
      "wrongs": 3
+    },
+    "u26 c5 PR0 i1": {
+     "ans": "displacement",
+     "opts": 0,
+     "stem": "4a91559b1cea",
+     "why": "b01192e3c230",
+     "wrongs": 0
+    },
+    "u26 c5 PR0 i2": {
+     "ans": "profitable",
+     "opts": 0,
+     "stem": "fea33b906128",
+     "why": "f3547d064b7d",
+     "wrongs": 0
+    },
+    "u26 c5 PR0 i3": {
+     "ans": "question",
+     "opts": 0,
+     "stem": "e861a3175f5d",
+     "why": "598c39c1ed59",
+     "wrongs": 0
     },
     "u26 c5 R0 i1": {
      "ans": "2",
@@ -26978,6 +27083,27 @@
      "why": "81947615efc2",
      "wrongs": 3
     },
+    "u27 c1 PR0 i1": {
+     "ans": "local",
+     "opts": 0,
+     "stem": "4e905c975dd3",
+     "why": "b74115909567",
+     "wrongs": 0
+    },
+    "u27 c1 PR0 i2": {
+     "ans": "representation",
+     "opts": 0,
+     "stem": "2d7e2aa11229",
+     "why": "e516f73eda0f",
+     "wrongs": 0
+    },
+    "u27 c1 PR0 i3": {
+     "ans": "soundness",
+     "opts": 0,
+     "stem": "d57e5e890837",
+     "why": "5a468146217a",
+     "wrongs": 0
+    },
     "u27 c1 R0 i1": {
      "ans": "1",
      "opts": 4,
@@ -27076,6 +27202,27 @@
      "why": "471b9210ff31",
      "wrongs": 3
     },
+    "u27 c2 PL0 i1": {
+     "ans": "roadworks",
+     "opts": 0,
+     "stem": "de181fa879bf",
+     "why": "016a8daffcf6",
+     "wrongs": 0
+    },
+    "u27 c2 PL0 i2": {
+     "ans": "shops",
+     "opts": 0,
+     "stem": "743389698ca8",
+     "why": "e3e2e769ac6a",
+     "wrongs": 0
+    },
+    "u27 c2 PL0 i3": {
+     "ans": "afternoon",
+     "opts": 0,
+     "stem": "f0f1e59eb556",
+     "why": "5f49bc5e5839",
+     "wrongs": 0
+    },
     "u27 c2 R0 i1": {
      "ans": "0",
      "opts": 4,
@@ -27160,6 +27307,27 @@
      "why": "c0a6b6bc63df",
      "wrongs": 3
     },
+    "u27 c3 PR0 i1": {
+     "ans": "massing",
+     "opts": 0,
+     "stem": "7c010266e121",
+     "why": "2f314fa8e17e",
+     "wrongs": 0
+    },
+    "u27 c3 PR0 i2": {
+     "ans": "phasing",
+     "opts": 0,
+     "stem": "beacfebf74fe",
+     "why": "8e1996d585f6",
+     "wrongs": 0
+    },
+    "u27 c3 PR0 i3": {
+     "ans": "realm",
+     "opts": 0,
+     "stem": "106ff28b7c8d",
+     "why": "9f0e1cdd664b",
+     "wrongs": 0
+    },
     "u27 c3 R0 i1": {
      "ans": "0",
      "opts": 4,
@@ -27243,6 +27411,27 @@
      "stem": "462d898764a0",
      "why": "e866be0906e2",
      "wrongs": 3
+    },
+    "u27 c4 PL0 i1": {
+     "ans": "hectare",
+     "opts": 0,
+     "stem": "172c0577e1e0",
+     "why": "0479ee1dded8",
+     "wrongs": 0
+    },
+    "u27 c4 PL0 i2": {
+     "ans": "six",
+     "opts": 0,
+     "stem": "c5b9f28d6d34",
+     "why": "d756fb3f0b3a",
+     "wrongs": 0
+    },
+    "u27 c4 PL0 i3": {
+     "ans": "measurable",
+     "opts": 0,
+     "stem": "fe594660a734",
+     "why": "1d599a0f8ffd",
+     "wrongs": 0
     },
     "u27 c4 R0 i1": {
      "ans": "1",
@@ -27334,6 +27523,27 @@
      "stem": "eb54c3905914",
      "why": "c87587cc39b5",
      "wrongs": 3
+    },
+    "u27 c5 PR0 i1": {
+     "ans": "boundary",
+     "opts": 0,
+     "stem": "bd6c36e0ca22",
+     "why": "ddf81fd73057",
+     "wrongs": 0
+    },
+    "u27 c5 PR0 i2": {
+     "ans": "delay",
+     "opts": 0,
+     "stem": "2a6c951ca4f6",
+     "why": "c47d35bf3d60",
+     "wrongs": 0
+    },
+    "u27 c5 PR0 i3": {
+     "ans": "boundary",
+     "opts": 0,
+     "stem": "8d7808432ea1",
+     "why": "6b41347e6b2b",
+     "wrongs": 0
     },
     "u27 c5 R0 i1": {
      "ans": "1",
@@ -27447,6 +27657,27 @@
      "why": "0f3d4d95b536",
      "wrongs": 3
     },
+    "u28 c1 PR0 i1": {
+     "ans": "rods",
+     "opts": 0,
+     "stem": "094d3118ed87",
+     "why": "99d50231338d",
+     "wrongs": 0
+    },
+    "u28 c1 PR0 i2": {
+     "ans": "autumn",
+     "opts": 0,
+     "stem": "35d35d5add2c",
+     "why": "b1c483c0c2bc",
+     "wrongs": 0
+    },
+    "u28 c1 PR0 i3": {
+     "ans": "cultivation",
+     "opts": 0,
+     "stem": "42f762b6ccd7",
+     "why": "19e79e119814",
+     "wrongs": 0
+    },
     "u28 c1 R0 i1": {
      "ans": "1",
      "opts": 4,
@@ -27545,6 +27776,27 @@
      "why": "deaf64a994ed",
      "wrongs": 0
     },
+    "u28 c2 PL0 i1": {
+     "ans": "bags",
+     "opts": 0,
+     "stem": "f170bdf9671c",
+     "why": "cabd0e6867f8",
+     "wrongs": 0
+    },
+    "u28 c2 PL0 i2": {
+     "ans": "sixteen",
+     "opts": 0,
+     "stem": "b0fcdf967392",
+     "why": "534f16861275",
+     "wrongs": 0
+    },
+    "u28 c2 PL0 i3": {
+     "ans": "slack",
+     "opts": 0,
+     "stem": "97f22dc07e88",
+     "why": "74e80ee0e03c",
+     "wrongs": 0
+    },
     "u28 c2 R0 i1": {
      "ans": "0",
      "opts": 4,
@@ -27629,6 +27881,27 @@
      "why": "d780bb1dea04",
      "wrongs": 3
     },
+    "u28 c3 PR0 i1": {
+     "ans": "produces",
+     "opts": 0,
+     "stem": "73448c11519e",
+     "why": "0c462a2dc7e4",
+     "wrongs": 0
+    },
+    "u28 c3 PR0 i2": {
+     "ans": "calories",
+     "opts": 0,
+     "stem": "16e853e15696",
+     "why": "798d73174165",
+     "wrongs": 0
+    },
+    "u28 c3 PR0 i3": {
+     "ans": "calorie",
+     "opts": 0,
+     "stem": "fac98fb0af1a",
+     "why": "3f3304b9c1f1",
+     "wrongs": 0
+    },
     "u28 c3 R0 i1": {
      "ans": "0",
      "opts": 4,
@@ -27712,6 +27985,27 @@
      "stem": "b1648d5166ce",
      "why": "5d5f9dc2bf3a",
      "wrongs": 3
+    },
+    "u28 c4 PL0 i1": {
+     "ans": "long",
+     "opts": 0,
+     "stem": "a3f307f10a67",
+     "why": "753f1d893410",
+     "wrongs": 0
+    },
+    "u28 c4 PL0 i2": {
+     "ans": "stock",
+     "opts": 0,
+     "stem": "6753c1301fc4",
+     "why": "cde753014745",
+     "wrongs": 0
+    },
+    "u28 c4 PL0 i3": {
+     "ans": "answer",
+     "opts": 0,
+     "stem": "34f782cc7735",
+     "why": "eb92fa0dc6dc",
+     "wrongs": 0
     },
     "u28 c4 R0 i1": {
      "ans": "1",
@@ -27803,6 +28097,27 @@
      "stem": "5bf65184540a",
      "why": "e623b83ffbd9",
      "wrongs": 3
+    },
+    "u28 c5 PR0 i1": {
+     "ans": "field",
+     "opts": 0,
+     "stem": "dd8888d8a84e",
+     "why": "d832a1a04ed7",
+     "wrongs": 0
+    },
+    "u28 c5 PR0 i2": {
+     "ans": "once",
+     "opts": 0,
+     "stem": "fdbdf4e17ac6",
+     "why": "81f9db68e9e5",
+     "wrongs": 0
+    },
+    "u28 c5 PR0 i3": {
+     "ans": "small",
+     "opts": 0,
+     "stem": "3f0898f7f642",
+     "why": "880e0f21ae5f",
+     "wrongs": 0
     },
     "u28 c5 R0 i1": {
      "ans": "1",
@@ -27916,6 +28231,27 @@
      "why": "975750aeec9f",
      "wrongs": 3
     },
+    "u29 c1 PR0 i1": {
+     "ans": "evidence",
+     "opts": 0,
+     "stem": "d5adb8690371",
+     "why": "d8ce46a14394",
+     "wrongs": 0
+    },
+    "u29 c1 PR0 i2": {
+     "ans": "prominence",
+     "opts": 0,
+     "stem": "01004e83ae2d",
+     "why": "d8e47cb49816",
+     "wrongs": 0
+    },
+    "u29 c1 PR0 i3": {
+     "ans": "resolved",
+     "opts": 0,
+     "stem": "b37f88b855f9",
+     "why": "5a3e8878de69",
+     "wrongs": 0
+    },
     "u29 c1 R0 i1": {
      "ans": "1",
      "opts": 4,
@@ -28014,6 +28350,27 @@
      "why": "8e0626589114",
      "wrongs": 3
     },
+    "u29 c2 PL0 i1": {
+     "ans": "science",
+     "opts": 0,
+     "stem": "5e05b6ddfaef",
+     "why": "19276d88fb74",
+     "wrongs": 0
+    },
+    "u29 c2 PL0 i2": {
+     "ans": "presentation",
+     "opts": 0,
+     "stem": "7f00da4cc522",
+     "why": "8a3d96b1dfae",
+     "wrongs": 0
+    },
+    "u29 c2 PL0 i3": {
+     "ans": "clock",
+     "opts": 0,
+     "stem": "35e47268a2f6",
+     "why": "662900352af6",
+     "wrongs": 0
+    },
     "u29 c2 R0 i1": {
      "ans": "0",
      "opts": 4,
@@ -28098,6 +28455,27 @@
      "why": "9a58c35cc770",
      "wrongs": 3
     },
+    "u29 c3 PR0 i1": {
+     "ans": "reach",
+     "opts": 0,
+     "stem": "a1389dffea11",
+     "why": "79094bb3cb12",
+     "wrongs": 0
+    },
+    "u29 c3 PR0 i2": {
+     "ans": "dwell",
+     "opts": 0,
+     "stem": "a721053cb523",
+     "why": "1c57ce98fadb",
+     "wrongs": 0
+    },
+    "u29 c3 PR0 i3": {
+     "ans": "read-through",
+     "opts": 0,
+     "stem": "1e69f4c9ea24",
+     "why": "1c623842ce78",
+     "wrongs": 0
+    },
     "u29 c3 R0 i1": {
      "ans": "1",
      "opts": 4,
@@ -28181,6 +28559,27 @@
      "stem": "ed8caf267782",
      "why": "5b3652abd1fa",
      "wrongs": 3
+    },
+    "u29 c4 PL0 i1": {
+     "ans": "surprising",
+     "opts": 0,
+     "stem": "f334c2b92539",
+     "why": "66015d579bf6",
+     "wrongs": 0
+    },
+    "u29 c4 PL0 i2": {
+     "ans": "happened",
+     "opts": 0,
+     "stem": "c2e8e1f291ed",
+     "why": "36cd5307cf44",
+     "wrongs": 0
+    },
+    "u29 c4 PL0 i3": {
+     "ans": "twelfth",
+     "opts": 0,
+     "stem": "fd65d07f4c55",
+     "why": "8fd572803d14",
+     "wrongs": 0
     },
     "u29 c4 R0 i1": {
      "ans": "0",
@@ -28272,6 +28671,27 @@
      "stem": "14c8b87a304f",
      "why": "e725c0d052cc",
      "wrongs": 3
+    },
+    "u29 c5 PR0 i1": {
+     "ans": "detected",
+     "opts": 0,
+     "stem": "040a9c70ed90",
+     "why": "5dfe24ce79a2",
+     "wrongs": 0
+    },
+    "u29 c5 PR0 i2": {
+     "ans": "size",
+     "opts": 0,
+     "stem": "a04cdcc50d66",
+     "why": "a0555c10cbd6",
+     "wrongs": 0
+    },
+    "u29 c5 PR0 i3": {
+     "ans": "power",
+     "opts": 0,
+     "stem": "4a4776fb5c15",
+     "why": "c791b0fac6fe",
+     "wrongs": 0
     },
     "u29 c5 R0 i1": {
      "ans": "1",
@@ -28385,6 +28805,27 @@
      "why": "c8b997da0929",
      "wrongs": 3
     },
+    "u30 c1 PR0 i1": {
+     "ans": "subscription",
+     "opts": 0,
+     "stem": "685904838b56",
+     "why": "99aadb185a06",
+     "wrongs": 0
+    },
+    "u30 c1 PR0 i2": {
+     "ans": "safeguarding",
+     "opts": 0,
+     "stem": "6cbab93d0214",
+     "why": "845dbb8a37cf",
+     "wrongs": 0
+    },
+    "u30 c1 PR0 i3": {
+     "ans": "qualifying",
+     "opts": 0,
+     "stem": "cc356ea84126",
+     "why": "b2262a50277c",
+     "wrongs": 0
+    },
     "u30 c1 R0 i1": {
      "ans": "2",
      "opts": 4,
@@ -28483,6 +28924,27 @@
      "why": "b66196512895",
      "wrongs": 0
     },
+    "u30 c2 PL0 i1": {
+     "ans": "sum",
+     "opts": 0,
+     "stem": "6960a19e932c",
+     "why": "8f8cbdb715ae",
+     "wrongs": 0
+    },
+    "u30 c2 PL0 i2": {
+     "ans": "september",
+     "opts": 0,
+     "stem": "a7bc33ef0f8c",
+     "why": "fd70c0aa3de9",
+     "wrongs": 0
+    },
+    "u30 c2 PL0 i3": {
+     "ans": "frighten",
+     "opts": 0,
+     "stem": "5541978b2b66",
+     "why": "9f0abffa5e71",
+     "wrongs": 0
+    },
     "u30 c2 R0 i1": {
      "ans": "0",
      "opts": 4,
@@ -28565,6 +29027,27 @@
      "opts": 0,
      "stem": "dd3f86792c14",
      "why": "d385ae46ccdc",
+     "wrongs": 0
+    },
+    "u30 c3 PR0 i1": {
+     "ans": "fixed",
+     "opts": 0,
+     "stem": "1db0c11b0dfd",
+     "why": "0219a0be6533",
+     "wrongs": 0
+    },
+    "u30 c3 PR0 i2": {
+     "ans": "ratio",
+     "opts": 0,
+     "stem": "dc6644816744",
+     "why": "0294de9055a7",
+     "wrongs": 0
+    },
+    "u30 c3 PR0 i3": {
+     "ans": "formula",
+     "opts": 0,
+     "stem": "4c6257f4f823",
+     "why": "b26596d3bafa",
      "wrongs": 0
     },
     "u30 c3 R0 i1": {
@@ -28650,6 +29133,27 @@
      "stem": "fd70730f2a05",
      "why": "026638db4496",
      "wrongs": 3
+    },
+    "u30 c4 PL0 i1": {
+     "ans": "rewards",
+     "opts": 0,
+     "stem": "7c56d013b694",
+     "why": "473ad457168f",
+     "wrongs": 0
+    },
+    "u30 c4 PL0 i2": {
+     "ans": "up",
+     "opts": 0,
+     "stem": "786fb8336813",
+     "why": "8ce46bd3fdb5",
+     "wrongs": 0
+    },
+    "u30 c4 PL0 i3": {
+     "ans": "gradient",
+     "opts": 0,
+     "stem": "51245a718bc2",
+     "why": "115147ccf932",
+     "wrongs": 0
     },
     "u30 c4 R0 i1": {
      "ans": "1",
@@ -28741,6 +29245,27 @@
      "stem": "d2a243e81095",
      "why": "a1c675ee1679",
      "wrongs": 3
+    },
+    "u30 c5 PR0 i1": {
+     "ans": "False",
+     "opts": 0,
+     "stem": "a5639661d8a4",
+     "why": "3036e0bb728c",
+     "wrongs": 0
+    },
+    "u30 c5 PR0 i2": {
+     "ans": "True",
+     "opts": 0,
+     "stem": "abfdcba1eafb",
+     "why": "9c04e9157e8e",
+     "wrongs": 0
+    },
+    "u30 c5 PR0 i3": {
+     "ans": "Not Given",
+     "opts": 0,
+     "stem": "2d7100d5537d",
+     "why": "1722c5b300a2",
+     "wrongs": 0
     },
     "u30 c5 R0 i1": {
      "ans": "1",
@@ -28971,6 +29496,66 @@
     "spaper3 keyintro": {
      "sha": "585967181f03",
      "w": 52
+    },
+    "spaper3b Part 1 blurb": {
+     "sha": "05c3a4ce7e4a",
+     "w": 22
+    },
+    "spaper3b Part 1 checks": {
+     "sha": "ca5f23bfb223",
+     "w": 97
+    },
+    "spaper3b Part 1 notes": {
+     "sha": "73552e9fd970",
+     "w": 125
+    },
+    "spaper3b Part 1 qs": {
+     "sha": "7dc248939bee",
+     "w": 55
+    },
+    "spaper3b Part 2 blurb": {
+     "sha": "53fb5e49d8f4",
+     "w": 25
+    },
+    "spaper3b Part 2 checks": {
+     "sha": "3fef5f650d9a",
+     "w": 108
+    },
+    "spaper3b Part 2 notes": {
+     "sha": "e6f2df931b8f",
+     "w": 138
+    },
+    "spaper3b Part 2 qs": {
+     "sha": "0d9a5e563e83",
+     "w": 22
+    },
+    "spaper3b Part 3 blurb": {
+     "sha": "148387af0bca",
+     "w": 22
+    },
+    "spaper3b Part 3 checks": {
+     "sha": "f63104c30236",
+     "w": 113
+    },
+    "spaper3b Part 3 notes": {
+     "sha": "6513978c84da",
+     "w": 155
+    },
+    "spaper3b Part 3 qs": {
+     "sha": "01c9758c1f13",
+     "w": 52
+    },
+    "spaper3b instruct": {
+     "sha": "1f992f3af280",
+     "w": 133
+    },
+    "spaper3b intro": {
+     "sha": "47bf26542402",
+     "w": 81
+    },
+    "spaper3b keyintro": {
+     "sha": "41c24121f2b3",
+     "w": 47
     },
     "u21 c1 G context": {
      "sha": "6c771fb05ac6",
@@ -34296,6 +34881,14 @@
      "sha": "688ce5f85552",
      "w": 28
     },
+    "u26 c1 G context": {
+     "sha": "497f64c2c1f8",
+     "w": 70
+    },
+    "u26 c1 G contrast": {
+     "sha": "481565a8e093",
+     "w": 95
+    },
     "u26 c1 G examples": {
      "sha": "8eadda3bbf90",
      "w": 45
@@ -34307,6 +34900,26 @@
     "u26 c1 G items": {
      "sha": "5a49a85106eb",
      "w": 96
+    },
+    "u26 c1 G items2": {
+     "sha": "f9c08c27b231",
+     "w": 74
+    },
+    "u26 c1 G notice": {
+     "sha": "f86a3118a9a3",
+     "w": 56
+    },
+    "u26 c1 G ref": {
+     "sha": "3b29639774fd",
+     "w": 1
+    },
+    "u26 c1 G task2": {
+     "sha": "fb5193146df1",
+     "w": 9
+    },
+    "u26 c1 G task3": {
+     "sha": "ae2408f8c901",
+     "w": 43
     },
     "u26 c1 L0 heading": {
      "sha": "36735bc3fdcd",
@@ -34323,6 +34936,14 @@
     "u26 c1 L1 task": {
      "sha": "ae43b3f70ee3",
      "w": 14
+    },
+    "u26 c1 PR0 heading": {
+     "sha": "79389cbfd052",
+     "w": 6
+    },
+    "u26 c1 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u26 c1 R0 heading": {
      "sha": "1bf79d3ea3f7",
@@ -34364,13 +34985,121 @@
      "sha": "6721ace79d6f",
      "w": 40
     },
+    "u26 c1 advice": {
+     "sha": "35e9d139bb81",
+     "w": 65
+    },
+    "u26 c1 builder explain": {
+     "sha": "e4fa86c7287b",
+     "w": 185
+    },
+    "u26 c1 builder items": {
+     "sha": "756f7474adc5",
+     "w": 57
+    },
+    "u26 c1 builder note": {
+     "sha": "28a58611cd8b",
+     "w": 39
+    },
+    "u26 c1 builder skill": {
+     "sha": "81fe75bbc259",
+     "w": 11
+    },
+    "u26 c1 builder task": {
+     "sha": "feb4f8e7df18",
+     "w": 9
+    },
+    "u26 c1 builder worked": {
+     "sha": "c43bcf6b98e5",
+     "w": 112
+    },
+    "u26 c1 debrief listen": {
+     "sha": "f550b9cac3cd",
+     "w": 41
+    },
+    "u26 c1 debrief read": {
+     "sha": "4364dc65e5e8",
+     "w": 62
+    },
     "u26 c1 expr": {
      "sha": "be763e9628c0",
      "w": 56
     },
+    "u26 c1 lead body": {
+     "sha": "d3c36b9b8be4",
+     "w": 77
+    },
+    "u26 c1 lead qs": {
+     "sha": "7b7eaccdaf04",
+     "w": 56
+    },
+    "u26 c1 lead task": {
+     "sha": "393bb5f42c48",
+     "w": 16
+    },
+    "u26 c1 lead title": {
+     "sha": "bc348c7ae903",
+     "w": 5
+    },
+    "u26 c1 notes because": {
+     "sha": "b25fc72fb751",
+     "w": 42
+    },
+    "u26 c1 notes evidence": {
+     "sha": "1924d0fd49fa",
+     "w": 28
+    },
+    "u26 c1 notes serves": {
+     "sha": "d80b24103195",
+     "w": 14
+    },
+    "u26 c1 notes skill": {
+     "sha": "37b81e27486c",
+     "w": 12
+    },
+    "u26 c1 notes time": {
+     "sha": "430162c409ab",
+     "w": 9
+    },
+    "u26 c1 notes watch": {
+     "sha": "4f7c324a62ae",
+     "w": 25
+    },
+    "u26 c1 outside": {
+     "sha": "6768b4174726",
+     "w": 41
+    },
+    "u26 c1 recycled": {
+     "sha": "6ed720dd1ed3",
+     "w": 6
+    },
     "u26 c1 vocab": {
      "sha": "3daa5fb002ec",
      "w": 57
+    },
+    "u26 c1 vocabwork body": {
+     "sha": "e035495e66a0",
+     "w": 49
+    },
+    "u26 c1 vocabwork items": {
+     "sha": "c007943ee0a8",
+     "w": 90
+    },
+    "u26 c1 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u26 c1 vocabwork title": {
+     "sha": "2a6c7107ce80",
+     "w": 5
+    },
+    "u26 c2 G context": {
+     "sha": "7e41d93783d3",
+     "w": 78
+    },
+    "u26 c2 G contrast": {
+     "sha": "4c400c7bfe30",
+     "w": 104
     },
     "u26 c2 G examples": {
      "sha": "68100a4f5640",
@@ -34384,6 +35113,26 @@
      "sha": "27a84cc62a94",
      "w": 100
     },
+    "u26 c2 G items2": {
+     "sha": "a38e8dc6049c",
+     "w": 83
+    },
+    "u26 c2 G notice": {
+     "sha": "929d659d4c59",
+     "w": 53
+    },
+    "u26 c2 G ref": {
+     "sha": "ee45f3566b15",
+     "w": 1
+    },
+    "u26 c2 G task2": {
+     "sha": "3d32a5422add",
+     "w": 6
+    },
+    "u26 c2 G task3": {
+     "sha": "345cef9d426a",
+     "w": 44
+    },
     "u26 c2 L0 heading": {
      "sha": "c5bfbbb911c2",
      "w": 6
@@ -34391,6 +35140,14 @@
     "u26 c2 L0 task": {
      "sha": "0975c86b0013",
      "w": 9
+    },
+    "u26 c2 PL0 heading": {
+     "sha": "40dc05b66341",
+     "w": 8
+    },
+    "u26 c2 PL0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u26 c2 R0 heading": {
      "sha": "09e7d588c74a",
@@ -34428,13 +35185,121 @@
      "sha": "7e413bd1fc79",
      "w": 32
     },
+    "u26 c2 advice": {
+     "sha": "e23b32f99fc9",
+     "w": 69
+    },
+    "u26 c2 builder explain": {
+     "sha": "d69f17cee619",
+     "w": 169
+    },
+    "u26 c2 builder items": {
+     "sha": "ceb39d38b6c1",
+     "w": 77
+    },
+    "u26 c2 builder note": {
+     "sha": "df7a169705bc",
+     "w": 36
+    },
+    "u26 c2 builder skill": {
+     "sha": "ae106122921c",
+     "w": 8
+    },
+    "u26 c2 builder task": {
+     "sha": "4f32b2efaeea",
+     "w": 9
+    },
+    "u26 c2 builder worked": {
+     "sha": "d0912a49ba58",
+     "w": 96
+    },
+    "u26 c2 debrief listen": {
+     "sha": "142c6b4d2ad2",
+     "w": 38
+    },
+    "u26 c2 debrief read": {
+     "sha": "a934c1008a47",
+     "w": 60
+    },
     "u26 c2 expr": {
      "sha": "7a0aa8f7bab2",
      "w": 60
     },
+    "u26 c2 lead body": {
+     "sha": "661f6ce7fd16",
+     "w": 76
+    },
+    "u26 c2 lead qs": {
+     "sha": "23e8e03267d2",
+     "w": 50
+    },
+    "u26 c2 lead task": {
+     "sha": "cf26a7a9460c",
+     "w": 17
+    },
+    "u26 c2 lead title": {
+     "sha": "2ec66b8cb4ba",
+     "w": 5
+    },
+    "u26 c2 notes because": {
+     "sha": "29674ae57eef",
+     "w": 30
+    },
+    "u26 c2 notes evidence": {
+     "sha": "3357db0580f2",
+     "w": 25
+    },
+    "u26 c2 notes serves": {
+     "sha": "08c217d1708b",
+     "w": 16
+    },
+    "u26 c2 notes skill": {
+     "sha": "3176629ea8b5",
+     "w": 14
+    },
+    "u26 c2 notes time": {
+     "sha": "d064764da018",
+     "w": 9
+    },
+    "u26 c2 notes watch": {
+     "sha": "62fb9996d646",
+     "w": 24
+    },
+    "u26 c2 outside": {
+     "sha": "71d8731f38fc",
+     "w": 39
+    },
+    "u26 c2 recycled": {
+     "sha": "b6a231810cb2",
+     "w": 7
+    },
     "u26 c2 vocab": {
      "sha": "f86032fc00d0",
      "w": 67
+    },
+    "u26 c2 vocabwork body": {
+     "sha": "7f113583b53b",
+     "w": 43
+    },
+    "u26 c2 vocabwork items": {
+     "sha": "a9daa56ffe0c",
+     "w": 89
+    },
+    "u26 c2 vocabwork task": {
+     "sha": "e98c83e84963",
+     "w": 11
+    },
+    "u26 c2 vocabwork title": {
+     "sha": "e6778ff08919",
+     "w": 8
+    },
+    "u26 c3 G context": {
+     "sha": "5ed42bb5451f",
+     "w": 69
+    },
+    "u26 c3 G contrast": {
+     "sha": "d429b867f116",
+     "w": 89
     },
     "u26 c3 G examples": {
      "sha": "66c3b189d8ea",
@@ -34456,6 +35321,26 @@
      "sha": "2a6688b33d3d",
      "w": 98
     },
+    "u26 c3 G items2": {
+     "sha": "d64662bc0636",
+     "w": 82
+    },
+    "u26 c3 G notice": {
+     "sha": "4875dc04dc84",
+     "w": 56
+    },
+    "u26 c3 G ref": {
+     "sha": "6e78ba4ef61d",
+     "w": 1
+    },
+    "u26 c3 G task2": {
+     "sha": "460b09b0f4ca",
+     "w": 8
+    },
+    "u26 c3 G task3": {
+     "sha": "a659f1a76a80",
+     "w": 40
+    },
     "u26 c3 L0 heading": {
      "sha": "62ac940e5f6b",
      "w": 6
@@ -34463,6 +35348,14 @@
     "u26 c3 L0 task": {
      "sha": "e7a84e46e892",
      "w": 12
+    },
+    "u26 c3 PR0 heading": {
+     "sha": "358f50d7f466",
+     "w": 6
+    },
+    "u26 c3 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u26 c3 R0 heading": {
      "sha": "44b97a1cabb8",
@@ -34496,13 +35389,121 @@
      "sha": "5e7444251cf2",
      "w": 46
     },
+    "u26 c3 advice": {
+     "sha": "7f5dd866790f",
+     "w": 68
+    },
+    "u26 c3 builder explain": {
+     "sha": "315d98c355b2",
+     "w": 163
+    },
+    "u26 c3 builder items": {
+     "sha": "7b5cb91fc32e",
+     "w": 80
+    },
+    "u26 c3 builder note": {
+     "sha": "ea485dd8dddf",
+     "w": 47
+    },
+    "u26 c3 builder skill": {
+     "sha": "2016cd6f6a71",
+     "w": 6
+    },
+    "u26 c3 builder task": {
+     "sha": "606950c499bc",
+     "w": 12
+    },
+    "u26 c3 builder worked": {
+     "sha": "c95346c318f7",
+     "w": 129
+    },
+    "u26 c3 debrief listen": {
+     "sha": "a911dbec4d16",
+     "w": 35
+    },
+    "u26 c3 debrief read": {
+     "sha": "930940598480",
+     "w": 59
+    },
     "u26 c3 expr": {
      "sha": "0b6bee373693",
      "w": 58
     },
+    "u26 c3 lead body": {
+     "sha": "dd3d1a4bf6be",
+     "w": 71
+    },
+    "u26 c3 lead qs": {
+     "sha": "bf2195a4ca88",
+     "w": 47
+    },
+    "u26 c3 lead task": {
+     "sha": "7bdb9750e8e4",
+     "w": 8
+    },
+    "u26 c3 lead title": {
+     "sha": "2aefb08b5c3a",
+     "w": 6
+    },
+    "u26 c3 notes because": {
+     "sha": "2d0049481186",
+     "w": 38
+    },
+    "u26 c3 notes evidence": {
+     "sha": "797d2bf83ac8",
+     "w": 27
+    },
+    "u26 c3 notes serves": {
+     "sha": "75b21ee9046c",
+     "w": 17
+    },
+    "u26 c3 notes skill": {
+     "sha": "b491d768aeab",
+     "w": 10
+    },
+    "u26 c3 notes time": {
+     "sha": "221d7b4188a7",
+     "w": 9
+    },
+    "u26 c3 notes watch": {
+     "sha": "3c3b2e751cda",
+     "w": 29
+    },
+    "u26 c3 outside": {
+     "sha": "092b2ee43423",
+     "w": 48
+    },
+    "u26 c3 recycled": {
+     "sha": "547cef6dc8d4",
+     "w": 7
+    },
     "u26 c3 vocab": {
      "sha": "d9d4e2112c6b",
      "w": 64
+    },
+    "u26 c3 vocabwork body": {
+     "sha": "de6bc5f3ff78",
+     "w": 62
+    },
+    "u26 c3 vocabwork items": {
+     "sha": "3d3d1ae051bd",
+     "w": 88
+    },
+    "u26 c3 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u26 c3 vocabwork title": {
+     "sha": "cdd5b188930e",
+     "w": 5
+    },
+    "u26 c4 G context": {
+     "sha": "b9f22f84f9d6",
+     "w": 77
+    },
+    "u26 c4 G contrast": {
+     "sha": "bbbd92a878ae",
+     "w": 98
     },
     "u26 c4 G examples": {
      "sha": "c118779e46a2",
@@ -34516,6 +35517,26 @@
      "sha": "d497dd970987",
      "w": 109
     },
+    "u26 c4 G items2": {
+     "sha": "1a11ed21c655",
+     "w": 61
+    },
+    "u26 c4 G notice": {
+     "sha": "bf3aa5e24935",
+     "w": 43
+    },
+    "u26 c4 G ref": {
+     "sha": "82f6311d1a92",
+     "w": 1
+    },
+    "u26 c4 G task2": {
+     "sha": "26981f20f850",
+     "w": 7
+    },
+    "u26 c4 G task3": {
+     "sha": "808fc7d722a6",
+     "w": 38
+    },
     "u26 c4 L0 heading": {
      "sha": "4ad9d0f67602",
      "w": 5
@@ -34523,6 +35544,14 @@
     "u26 c4 L0 task": {
      "sha": "f4d76fb23177",
      "w": 13
+    },
+    "u26 c4 PL0 heading": {
+     "sha": "ed19e8fcc4ae",
+     "w": 6
+    },
+    "u26 c4 PL0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u26 c4 R0 heading": {
      "sha": "806962ee8d8e",
@@ -34556,13 +35585,121 @@
      "sha": "dadd849eb108",
      "w": 29
     },
+    "u26 c4 advice": {
+     "sha": "9b86153e0b66",
+     "w": 69
+    },
+    "u26 c4 builder explain": {
+     "sha": "b787c9dfc2ef",
+     "w": 155
+    },
+    "u26 c4 builder items": {
+     "sha": "e4b8f6770ada",
+     "w": 63
+    },
+    "u26 c4 builder note": {
+     "sha": "f894eb93825c",
+     "w": 41
+    },
+    "u26 c4 builder skill": {
+     "sha": "6bf1701129bf",
+     "w": 5
+    },
+    "u26 c4 builder task": {
+     "sha": "ae2703d07690",
+     "w": 13
+    },
+    "u26 c4 builder worked": {
+     "sha": "3e2c9ea9b1f2",
+     "w": 98
+    },
+    "u26 c4 debrief listen": {
+     "sha": "48fbc6a106c6",
+     "w": 36
+    },
+    "u26 c4 debrief read": {
+     "sha": "d1946aee88f2",
+     "w": 79
+    },
     "u26 c4 expr": {
      "sha": "8b296220457c",
      "w": 56
     },
+    "u26 c4 lead body": {
+     "sha": "07bc5651f0d7",
+     "w": 83
+    },
+    "u26 c4 lead qs": {
+     "sha": "69858686dea8",
+     "w": 54
+    },
+    "u26 c4 lead task": {
+     "sha": "e8e68a759622",
+     "w": 15
+    },
+    "u26 c4 lead title": {
+     "sha": "d7292cb09c77",
+     "w": 8
+    },
+    "u26 c4 notes because": {
+     "sha": "8cbb3cf1c0bd",
+     "w": 40
+    },
+    "u26 c4 notes evidence": {
+     "sha": "4f247917e9a8",
+     "w": 34
+    },
+    "u26 c4 notes serves": {
+     "sha": "719e62244d10",
+     "w": 18
+    },
+    "u26 c4 notes skill": {
+     "sha": "d583276dbb9f",
+     "w": 14
+    },
+    "u26 c4 notes time": {
+     "sha": "a8bbed4eabbe",
+     "w": 9
+    },
+    "u26 c4 notes watch": {
+     "sha": "061d0ba5929d",
+     "w": 19
+    },
+    "u26 c4 outside": {
+     "sha": "c049c4bd0cc7",
+     "w": 38
+    },
+    "u26 c4 recycled": {
+     "sha": "5c78a332dc08",
+     "w": 7
+    },
     "u26 c4 vocab": {
      "sha": "6c40449d9db9",
      "w": 62
+    },
+    "u26 c4 vocabwork body": {
+     "sha": "4dc359bb89f8",
+     "w": 53
+    },
+    "u26 c4 vocabwork items": {
+     "sha": "e98c118f6af5",
+     "w": 101
+    },
+    "u26 c4 vocabwork task": {
+     "sha": "758d3af3aeae",
+     "w": 10
+    },
+    "u26 c4 vocabwork title": {
+     "sha": "d2423c3ff986",
+     "w": 6
+    },
+    "u26 c5 G context": {
+     "sha": "faa18f32e1a5",
+     "w": 75
+    },
+    "u26 c5 G contrast": {
+     "sha": "6a214b92d196",
+     "w": 109
     },
     "u26 c5 G examples": {
      "sha": "1116b42412ce",
@@ -34576,6 +35713,26 @@
      "sha": "2d11c1082589",
      "w": 89
     },
+    "u26 c5 G items2": {
+     "sha": "33133fc9daf1",
+     "w": 77
+    },
+    "u26 c5 G notice": {
+     "sha": "84733186b66c",
+     "w": 37
+    },
+    "u26 c5 G ref": {
+     "sha": "d0d45365a7bb",
+     "w": 1
+    },
+    "u26 c5 G task2": {
+     "sha": "30356b440f05",
+     "w": 6
+    },
+    "u26 c5 G task3": {
+     "sha": "b3ba4c059d84",
+     "w": 41
+    },
     "u26 c5 L0 heading": {
      "sha": "9ec3ba4d7d0e",
      "w": 6
@@ -34583,6 +35740,14 @@
     "u26 c5 L0 task": {
      "sha": "adab2ce8b507",
      "w": 9
+    },
+    "u26 c5 PR0 heading": {
+     "sha": "d2658e2e777d",
+     "w": 8
+    },
+    "u26 c5 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u26 c5 R0 heading": {
      "sha": "c8fc5a240393",
@@ -34628,13 +35793,117 @@
      "sha": "87cb12678548",
      "w": 37
     },
+    "u26 c5 advice": {
+     "sha": "d918f3114eea",
+     "w": 71
+    },
+    "u26 c5 builder explain": {
+     "sha": "75b2d7507664",
+     "w": 186
+    },
+    "u26 c5 builder items": {
+     "sha": "a354808efa2b",
+     "w": 81
+    },
+    "u26 c5 builder note": {
+     "sha": "f22ea4316a17",
+     "w": 88
+    },
+    "u26 c5 builder skill": {
+     "sha": "6d70a6f99f05",
+     "w": 6
+    },
+    "u26 c5 builder task": {
+     "sha": "7ec42d16f4e8",
+     "w": 14
+    },
+    "u26 c5 builder worked": {
+     "sha": "fcb1b232c6e3",
+     "w": 125
+    },
+    "u26 c5 debrief listen": {
+     "sha": "e72cee29efd2",
+     "w": 37
+    },
+    "u26 c5 debrief read": {
+     "sha": "22ff2d78748d",
+     "w": 118
+    },
     "u26 c5 expr": {
      "sha": "029413e5b17e",
      "w": 49
     },
+    "u26 c5 lead body": {
+     "sha": "a3f134004cd7",
+     "w": 90
+    },
+    "u26 c5 lead qs": {
+     "sha": "f9f12c74436a",
+     "w": 58
+    },
+    "u26 c5 lead task": {
+     "sha": "809c9d415429",
+     "w": 18
+    },
+    "u26 c5 lead title": {
+     "sha": "47d7853d6445",
+     "w": 4
+    },
+    "u26 c5 notes because": {
+     "sha": "6c136b1bcd9f",
+     "w": 41
+    },
+    "u26 c5 notes evidence": {
+     "sha": "19b6c9c56942",
+     "w": 27
+    },
+    "u26 c5 notes serves": {
+     "sha": "ad8af2e05677",
+     "w": 16
+    },
+    "u26 c5 notes skill": {
+     "sha": "b2d4b0793203",
+     "w": 13
+    },
+    "u26 c5 notes time": {
+     "sha": "20253cd012fe",
+     "w": 9
+    },
+    "u26 c5 notes watch": {
+     "sha": "1361d5894a68",
+     "w": 22
+    },
+    "u26 c5 outside": {
+     "sha": "48bf9ea34305",
+     "w": 57
+    },
+    "u26 c5 recycled": {
+     "sha": "0c803badbad8",
+     "w": 8
+    },
     "u26 c5 vocab": {
      "sha": "2ac076d84c42",
      "w": 63
+    },
+    "u26 c5 vocabwork body": {
+     "sha": "3edadce3ac9e",
+     "w": 52
+    },
+    "u26 c5 vocabwork items": {
+     "sha": "1c1840a0b102",
+     "w": 88
+    },
+    "u26 c5 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u26 c5 vocabwork title": {
+     "sha": "9dc64d2fee15",
+     "w": 9
+    },
+    "u26 field": {
+     "sha": "7d8710ce7c45",
+     "w": 1
     },
     "u26 opener": {
      "sha": "9aa883bd57fc",
@@ -34652,6 +35921,10 @@
      "sha": "d76066e7b56d",
      "w": 37
     },
+    "u26 sceneintro": {
+     "sha": "6b64e8de3d48",
+     "w": 40
+    },
     "u26 technique body": {
      "sha": "305444fce9da",
      "w": 110
@@ -34664,6 +35937,14 @@
      "sha": "7c5b3bca5db4",
      "w": 33
     },
+    "u27 c1 G context": {
+     "sha": "9543fd170f9d",
+     "w": 70
+    },
+    "u27 c1 G contrast": {
+     "sha": "6c5f742bc17c",
+     "w": 93
+    },
     "u27 c1 G examples": {
      "sha": "2747ac1458ea",
      "w": 47
@@ -34675,6 +35956,26 @@
     "u27 c1 G items": {
      "sha": "8b0d14c43d06",
      "w": 101
+    },
+    "u27 c1 G items2": {
+     "sha": "db61de320d24",
+     "w": 89
+    },
+    "u27 c1 G notice": {
+     "sha": "938863657bf5",
+     "w": 39
+    },
+    "u27 c1 G ref": {
+     "sha": "3b29639774fd",
+     "w": 1
+    },
+    "u27 c1 G task2": {
+     "sha": "9f6033ac03dc",
+     "w": 15
+    },
+    "u27 c1 G task3": {
+     "sha": "0a07be78fc0a",
+     "w": 37
     },
     "u27 c1 L0 heading": {
      "sha": "1e65d1fe92e7",
@@ -34691,6 +35992,14 @@
     "u27 c1 L1 task": {
      "sha": "be4f227dc171",
      "w": 13
+    },
+    "u27 c1 PR0 heading": {
+     "sha": "880f140cebe7",
+     "w": 6
+    },
+    "u27 c1 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u27 c1 R0 heading": {
      "sha": "c42771cae1af",
@@ -34732,13 +36041,121 @@
      "sha": "5f1e74eab519",
      "w": 36
     },
+    "u27 c1 advice": {
+     "sha": "4a64c20a6c82",
+     "w": 66
+    },
+    "u27 c1 builder explain": {
+     "sha": "43111e96ca5a",
+     "w": 167
+    },
+    "u27 c1 builder items": {
+     "sha": "b39829122683",
+     "w": 53
+    },
+    "u27 c1 builder note": {
+     "sha": "0c1ba5158a6c",
+     "w": 40
+    },
+    "u27 c1 builder skill": {
+     "sha": "0d1ce8f18c16",
+     "w": 7
+    },
+    "u27 c1 builder task": {
+     "sha": "90cc734d4108",
+     "w": 11
+    },
+    "u27 c1 builder worked": {
+     "sha": "67254b2de22d",
+     "w": 84
+    },
+    "u27 c1 debrief listen": {
+     "sha": "d31d6a9fd0f8",
+     "w": 42
+    },
+    "u27 c1 debrief read": {
+     "sha": "0467724719b2",
+     "w": 70
+    },
     "u27 c1 expr": {
      "sha": "10fd20781e15",
      "w": 61
     },
+    "u27 c1 lead body": {
+     "sha": "1ae7ff0755be",
+     "w": 72
+    },
+    "u27 c1 lead qs": {
+     "sha": "26de7e51dfe2",
+     "w": 46
+    },
+    "u27 c1 lead task": {
+     "sha": "2a666cc0148a",
+     "w": 11
+    },
+    "u27 c1 lead title": {
+     "sha": "7436eb2e97f7",
+     "w": 6
+    },
+    "u27 c1 notes because": {
+     "sha": "cf38638621a0",
+     "w": 41
+    },
+    "u27 c1 notes evidence": {
+     "sha": "a8a3f1d47d92",
+     "w": 23
+    },
+    "u27 c1 notes serves": {
+     "sha": "ae848ca35577",
+     "w": 14
+    },
+    "u27 c1 notes skill": {
+     "sha": "f4f7263134cc",
+     "w": 13
+    },
+    "u27 c1 notes time": {
+     "sha": "430162c409ab",
+     "w": 9
+    },
+    "u27 c1 notes watch": {
+     "sha": "6fdc718e6cdc",
+     "w": 20
+    },
+    "u27 c1 outside": {
+     "sha": "4b74466762de",
+     "w": 44
+    },
+    "u27 c1 recycled": {
+     "sha": "7dce2ef03581",
+     "w": 6
+    },
     "u27 c1 vocab": {
      "sha": "2e7ab04d78b3",
      "w": 64
+    },
+    "u27 c1 vocabwork body": {
+     "sha": "c5a8f4cc10f0",
+     "w": 62
+    },
+    "u27 c1 vocabwork items": {
+     "sha": "cfdf8f86d4ff",
+     "w": 84
+    },
+    "u27 c1 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u27 c1 vocabwork title": {
+     "sha": "f20218919a5a",
+     "w": 5
+    },
+    "u27 c2 G context": {
+     "sha": "f8efe994dcc9",
+     "w": 78
+    },
+    "u27 c2 G contrast": {
+     "sha": "91d974afe553",
+     "w": 107
     },
     "u27 c2 G examples": {
      "sha": "e2af62f5a187",
@@ -34752,6 +36169,26 @@
      "sha": "ccab4499c978",
      "w": 97
     },
+    "u27 c2 G items2": {
+     "sha": "7b4bd4504641",
+     "w": 83
+    },
+    "u27 c2 G notice": {
+     "sha": "3b4f5ac6d86f",
+     "w": 44
+    },
+    "u27 c2 G ref": {
+     "sha": "353ed35a814a",
+     "w": 1
+    },
+    "u27 c2 G task2": {
+     "sha": "1d9c90c29bc7",
+     "w": 10
+    },
+    "u27 c2 G task3": {
+     "sha": "a7e6f37254cf",
+     "w": 33
+    },
     "u27 c2 L0 heading": {
      "sha": "78d2e70a099d",
      "w": 5
@@ -34759,6 +36196,14 @@
     "u27 c2 L0 task": {
      "sha": "d59ed86fa8bb",
      "w": 12
+    },
+    "u27 c2 PL0 heading": {
+     "sha": "3a4d0b68d4c3",
+     "w": 5
+    },
+    "u27 c2 PL0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u27 c2 R0 heading": {
      "sha": "08b6cbd0c14f",
@@ -34796,13 +36241,121 @@
      "sha": "1bded025b500",
      "w": 33
     },
+    "u27 c2 advice": {
+     "sha": "15749d7d4c84",
+     "w": 71
+    },
+    "u27 c2 builder explain": {
+     "sha": "9044895e8bd1",
+     "w": 178
+    },
+    "u27 c2 builder items": {
+     "sha": "22a5f4763673",
+     "w": 74
+    },
+    "u27 c2 builder note": {
+     "sha": "3575007f9540",
+     "w": 58
+    },
+    "u27 c2 builder skill": {
+     "sha": "d5268558570d",
+     "w": 5
+    },
+    "u27 c2 builder task": {
+     "sha": "2e851b2aab76",
+     "w": 12
+    },
+    "u27 c2 builder worked": {
+     "sha": "4ae26b51dc1b",
+     "w": 94
+    },
+    "u27 c2 debrief listen": {
+     "sha": "0b549127ed02",
+     "w": 31
+    },
+    "u27 c2 debrief read": {
+     "sha": "0af58cf2fc1d",
+     "w": 65
+    },
     "u27 c2 expr": {
      "sha": "c48f923c1c78",
      "w": 58
     },
+    "u27 c2 lead body": {
+     "sha": "f6b350cc36a2",
+     "w": 79
+    },
+    "u27 c2 lead qs": {
+     "sha": "d7bc55323ceb",
+     "w": 50
+    },
+    "u27 c2 lead task": {
+     "sha": "cf26a7a9460c",
+     "w": 17
+    },
+    "u27 c2 lead title": {
+     "sha": "3e6144f23eeb",
+     "w": 5
+    },
+    "u27 c2 notes because": {
+     "sha": "8ea9df7ebfbb",
+     "w": 31
+    },
+    "u27 c2 notes evidence": {
+     "sha": "47af1c6f1123",
+     "w": 23
+    },
+    "u27 c2 notes serves": {
+     "sha": "c38724d05d67",
+     "w": 14
+    },
+    "u27 c2 notes skill": {
+     "sha": "955c7e65efd3",
+     "w": 10
+    },
+    "u27 c2 notes time": {
+     "sha": "d064764da018",
+     "w": 9
+    },
+    "u27 c2 notes watch": {
+     "sha": "329020918ba7",
+     "w": 21
+    },
+    "u27 c2 outside": {
+     "sha": "f79086b4038b",
+     "w": 35
+    },
+    "u27 c2 recycled": {
+     "sha": "1f292c5b789c",
+     "w": 6
+    },
     "u27 c2 vocab": {
      "sha": "a7e272caed0b",
      "w": 61
+    },
+    "u27 c2 vocabwork body": {
+     "sha": "ce6932af1c34",
+     "w": 47
+    },
+    "u27 c2 vocabwork items": {
+     "sha": "e124f7461dfe",
+     "w": 96
+    },
+    "u27 c2 vocabwork task": {
+     "sha": "758d3af3aeae",
+     "w": 10
+    },
+    "u27 c2 vocabwork title": {
+     "sha": "0bbc2fa71a90",
+     "w": 5
+    },
+    "u27 c3 G context": {
+     "sha": "d008208a2d0b",
+     "w": 61
+    },
+    "u27 c3 G contrast": {
+     "sha": "a3125308a054",
+     "w": 90
     },
     "u27 c3 G examples": {
      "sha": "7863025268e0",
@@ -34824,6 +36377,26 @@
      "sha": "e30de47e157f",
      "w": 85
     },
+    "u27 c3 G items2": {
+     "sha": "8bee9be58e65",
+     "w": 68
+    },
+    "u27 c3 G notice": {
+     "sha": "b7aab66f5e80",
+     "w": 48
+    },
+    "u27 c3 G ref": {
+     "sha": "4d7baae8a834",
+     "w": 1
+    },
+    "u27 c3 G task2": {
+     "sha": "c853e9d144fe",
+     "w": 12
+    },
+    "u27 c3 G task3": {
+     "sha": "993574c33881",
+     "w": 38
+    },
     "u27 c3 L0 heading": {
      "sha": "1d663c7151da",
      "w": 5
@@ -34831,6 +36404,14 @@
     "u27 c3 L0 task": {
      "sha": "c4a31741429e",
      "w": 13
+    },
+    "u27 c3 PR0 heading": {
+     "sha": "ef03ffb6e708",
+     "w": 5
+    },
+    "u27 c3 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u27 c3 R0 heading": {
      "sha": "e0608fb598ba",
@@ -34864,13 +36445,121 @@
      "sha": "54e812e25ea9",
      "w": 33
     },
+    "u27 c3 advice": {
+     "sha": "ee8f96ca777d",
+     "w": 50
+    },
+    "u27 c3 builder explain": {
+     "sha": "10798a054fe8",
+     "w": 165
+    },
+    "u27 c3 builder items": {
+     "sha": "cc6e036db0e4",
+     "w": 80
+    },
+    "u27 c3 builder note": {
+     "sha": "02f04e364073",
+     "w": 43
+    },
+    "u27 c3 builder skill": {
+     "sha": "42727bedc14a",
+     "w": 5
+    },
+    "u27 c3 builder task": {
+     "sha": "cd51250ef4c9",
+     "w": 12
+    },
+    "u27 c3 builder worked": {
+     "sha": "f93d8f5f7ee8",
+     "w": 118
+    },
+    "u27 c3 debrief listen": {
+     "sha": "25cdc5559cae",
+     "w": 40
+    },
+    "u27 c3 debrief read": {
+     "sha": "8a81943880df",
+     "w": 67
+    },
     "u27 c3 expr": {
      "sha": "e8fb99a06db9",
      "w": 50
     },
+    "u27 c3 lead body": {
+     "sha": "5e29d27bdb64",
+     "w": 83
+    },
+    "u27 c3 lead qs": {
+     "sha": "9f65817d0bf2",
+     "w": 59
+    },
+    "u27 c3 lead task": {
+     "sha": "723644442880",
+     "w": 8
+    },
+    "u27 c3 lead title": {
+     "sha": "3cf07c48ad69",
+     "w": 5
+    },
+    "u27 c3 notes because": {
+     "sha": "31b8f6a0f925",
+     "w": 44
+    },
+    "u27 c3 notes evidence": {
+     "sha": "9eb095aa961a",
+     "w": 37
+    },
+    "u27 c3 notes serves": {
+     "sha": "68381123ade4",
+     "w": 14
+    },
+    "u27 c3 notes skill": {
+     "sha": "54b6d04c05a6",
+     "w": 12
+    },
+    "u27 c3 notes time": {
+     "sha": "221d7b4188a7",
+     "w": 9
+    },
+    "u27 c3 notes watch": {
+     "sha": "48091044e5ec",
+     "w": 31
+    },
+    "u27 c3 outside": {
+     "sha": "0a5ed635ac6a",
+     "w": 44
+    },
+    "u27 c3 recycled": {
+     "sha": "bd7aecbaa237",
+     "w": 7
+    },
     "u27 c3 vocab": {
      "sha": "6fce22f18b7d",
      "w": 58
+    },
+    "u27 c3 vocabwork body": {
+     "sha": "01e2e2fd902f",
+     "w": 55
+    },
+    "u27 c3 vocabwork items": {
+     "sha": "58bd0eac0c2c",
+     "w": 92
+    },
+    "u27 c3 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u27 c3 vocabwork title": {
+     "sha": "58f2c6072f68",
+     "w": 5
+    },
+    "u27 c4 G context": {
+     "sha": "b476aab5bfd4",
+     "w": 73
+    },
+    "u27 c4 G contrast": {
+     "sha": "7c8d3b10dcde",
+     "w": 103
     },
     "u27 c4 G examples": {
      "sha": "2be352cee707",
@@ -34884,6 +36573,26 @@
      "sha": "98106d65ccd7",
      "w": 86
     },
+    "u27 c4 G items2": {
+     "sha": "cae40995de8a",
+     "w": 92
+    },
+    "u27 c4 G notice": {
+     "sha": "0d845e2a278e",
+     "w": 46
+    },
+    "u27 c4 G ref": {
+     "sha": "208db5dbd893",
+     "w": 1
+    },
+    "u27 c4 G task2": {
+     "sha": "3a503b6bc9cb",
+     "w": 9
+    },
+    "u27 c4 G task3": {
+     "sha": "4b1b7810e64d",
+     "w": 47
+    },
     "u27 c4 L0 heading": {
      "sha": "a1236716422b",
      "w": 6
@@ -34891,6 +36600,14 @@
     "u27 c4 L0 task": {
      "sha": "47b97a0ee070",
      "w": 13
+    },
+    "u27 c4 PL0 heading": {
+     "sha": "35f37431fac6",
+     "w": 6
+    },
+    "u27 c4 PL0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u27 c4 R0 heading": {
      "sha": "0624f54034d9",
@@ -34924,13 +36641,121 @@
      "sha": "3cd5f578bb64",
      "w": 28
     },
+    "u27 c4 advice": {
+     "sha": "3fedac413c72",
+     "w": 69
+    },
+    "u27 c4 builder explain": {
+     "sha": "4aa840b7d5d0",
+     "w": 190
+    },
+    "u27 c4 builder items": {
+     "sha": "475df99d0c41",
+     "w": 79
+    },
+    "u27 c4 builder note": {
+     "sha": "1c6dca03cfd9",
+     "w": 39
+    },
+    "u27 c4 builder skill": {
+     "sha": "589a51c91309",
+     "w": 7
+    },
+    "u27 c4 builder task": {
+     "sha": "c518e4953402",
+     "w": 11
+    },
+    "u27 c4 builder worked": {
+     "sha": "9fe113d519f9",
+     "w": 125
+    },
+    "u27 c4 debrief listen": {
+     "sha": "c24bdc652acc",
+     "w": 34
+    },
+    "u27 c4 debrief read": {
+     "sha": "0a286cecb418",
+     "w": 75
+    },
     "u27 c4 expr": {
      "sha": "431c82c7bf22",
      "w": 56
     },
+    "u27 c4 lead body": {
+     "sha": "c14ad5b39741",
+     "w": 83
+    },
+    "u27 c4 lead qs": {
+     "sha": "6151d7b2e6c3",
+     "w": 63
+    },
+    "u27 c4 lead task": {
+     "sha": "decfd4423c81",
+     "w": 12
+    },
+    "u27 c4 lead title": {
+     "sha": "1aa6a8bb397b",
+     "w": 5
+    },
+    "u27 c4 notes because": {
+     "sha": "65bbe774b2a0",
+     "w": 40
+    },
+    "u27 c4 notes evidence": {
+     "sha": "216b52148fe7",
+     "w": 27
+    },
+    "u27 c4 notes serves": {
+     "sha": "3af30ce2ce30",
+     "w": 18
+    },
+    "u27 c4 notes skill": {
+     "sha": "0d6273ed395b",
+     "w": 14
+    },
+    "u27 c4 notes time": {
+     "sha": "a8bbed4eabbe",
+     "w": 9
+    },
+    "u27 c4 notes watch": {
+     "sha": "be115e531744",
+     "w": 26
+    },
+    "u27 c4 outside": {
+     "sha": "ede86cf8c322",
+     "w": 34
+    },
+    "u27 c4 recycled": {
+     "sha": "623860a25a6d",
+     "w": 7
+    },
     "u27 c4 vocab": {
      "sha": "ab97d681254f",
      "w": 64
+    },
+    "u27 c4 vocabwork body": {
+     "sha": "a014c04c4100",
+     "w": 47
+    },
+    "u27 c4 vocabwork items": {
+     "sha": "e8383d3ded21",
+     "w": 83
+    },
+    "u27 c4 vocabwork task": {
+     "sha": "6672f21e1e11",
+     "w": 11
+    },
+    "u27 c4 vocabwork title": {
+     "sha": "4e2ed24c7acb",
+     "w": 7
+    },
+    "u27 c5 G context": {
+     "sha": "cad2243465b0",
+     "w": 72
+    },
+    "u27 c5 G contrast": {
+     "sha": "48f33df34821",
+     "w": 115
     },
     "u27 c5 G examples": {
      "sha": "a7162743f64d",
@@ -34944,6 +36769,26 @@
      "sha": "c316294f1604",
      "w": 85
     },
+    "u27 c5 G items2": {
+     "sha": "e02ded541c6a",
+     "w": 76
+    },
+    "u27 c5 G notice": {
+     "sha": "f6a77d2d3143",
+     "w": 42
+    },
+    "u27 c5 G ref": {
+     "sha": "27ce21c32397",
+     "w": 1
+    },
+    "u27 c5 G task2": {
+     "sha": "5f2acf24a863",
+     "w": 4
+    },
+    "u27 c5 G task3": {
+     "sha": "13e3c130d16c",
+     "w": 41
+    },
     "u27 c5 L0 heading": {
      "sha": "2e647d2ffcf1",
      "w": 6
@@ -34951,6 +36796,14 @@
     "u27 c5 L0 task": {
      "sha": "adab2ce8b507",
      "w": 9
+    },
+    "u27 c5 PR0 heading": {
+     "sha": "7eedc3549a4b",
+     "w": 5
+    },
+    "u27 c5 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u27 c5 R0 heading": {
      "sha": "6acde3cce075",
@@ -34996,13 +36849,117 @@
      "sha": "ce2c52ca6f96",
      "w": 39
     },
+    "u27 c5 advice": {
+     "sha": "4a3de139c42c",
+     "w": 69
+    },
+    "u27 c5 builder explain": {
+     "sha": "c450e851f3d6",
+     "w": 190
+    },
+    "u27 c5 builder items": {
+     "sha": "d60e5e6e23d6",
+     "w": 85
+    },
+    "u27 c5 builder note": {
+     "sha": "8386dd93b779",
+     "w": 40
+    },
+    "u27 c5 builder skill": {
+     "sha": "e1efe3dc2739",
+     "w": 5
+    },
+    "u27 c5 builder task": {
+     "sha": "70e759618924",
+     "w": 13
+    },
+    "u27 c5 builder worked": {
+     "sha": "ee8b3ce68c36",
+     "w": 132
+    },
+    "u27 c5 debrief listen": {
+     "sha": "34661376b9b5",
+     "w": 32
+    },
+    "u27 c5 debrief read": {
+     "sha": "15e4ee867b34",
+     "w": 79
+    },
     "u27 c5 expr": {
      "sha": "cbde2d6c8793",
      "w": 56
     },
+    "u27 c5 lead body": {
+     "sha": "abe451b1061a",
+     "w": 87
+    },
+    "u27 c5 lead qs": {
+     "sha": "822a2fb3361d",
+     "w": 54
+    },
+    "u27 c5 lead task": {
+     "sha": "8f89e6dd3ff8",
+     "w": 23
+    },
+    "u27 c5 lead title": {
+     "sha": "eca53156b913",
+     "w": 6
+    },
+    "u27 c5 notes because": {
+     "sha": "dbd449bad203",
+     "w": 38
+    },
+    "u27 c5 notes evidence": {
+     "sha": "ba0a56e31f2b",
+     "w": 32
+    },
+    "u27 c5 notes serves": {
+     "sha": "89be93100e07",
+     "w": 18
+    },
+    "u27 c5 notes skill": {
+     "sha": "0c34557478bf",
+     "w": 16
+    },
+    "u27 c5 notes time": {
+     "sha": "20253cd012fe",
+     "w": 9
+    },
+    "u27 c5 notes watch": {
+     "sha": "cea8cb73a954",
+     "w": 22
+    },
+    "u27 c5 outside": {
+     "sha": "dc120284432e",
+     "w": 54
+    },
+    "u27 c5 recycled": {
+     "sha": "4fb6533ea59a",
+     "w": 8
+    },
     "u27 c5 vocab": {
      "sha": "c5d43d9594e4",
      "w": 65
+    },
+    "u27 c5 vocabwork body": {
+     "sha": "2133f2596fb3",
+     "w": 57
+    },
+    "u27 c5 vocabwork items": {
+     "sha": "abd9ec4049eb",
+     "w": 95
+    },
+    "u27 c5 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u27 c5 vocabwork title": {
+     "sha": "dad38b271511",
+     "w": 8
+    },
+    "u27 field": {
+     "sha": "bdf5c73d18f4",
+     "w": 1
     },
     "u27 opener": {
      "sha": "1fef8ca7f802",
@@ -35020,6 +36977,10 @@
      "sha": "1a7c24233162",
      "w": 33
     },
+    "u27 sceneintro": {
+     "sha": "110bad990936",
+     "w": 34
+    },
     "u27 technique body": {
      "sha": "cd73a31a2d36",
      "w": 117
@@ -35032,6 +36993,14 @@
      "sha": "268903f3cb39",
      "w": 37
     },
+    "u28 c1 G context": {
+     "sha": "6cd6c5765e86",
+     "w": 74
+    },
+    "u28 c1 G contrast": {
+     "sha": "18a9fd0555e8",
+     "w": 104
+    },
     "u28 c1 G examples": {
      "sha": "58734f552adf",
      "w": 49
@@ -35043,6 +37012,26 @@
     "u28 c1 G items": {
      "sha": "3835885d7af6",
      "w": 97
+    },
+    "u28 c1 G items2": {
+     "sha": "3ae851ba5aaf",
+     "w": 75
+    },
+    "u28 c1 G notice": {
+     "sha": "4b66f5d570ec",
+     "w": 65
+    },
+    "u28 c1 G ref": {
+     "sha": "ae7e92672a52",
+     "w": 1
+    },
+    "u28 c1 G task2": {
+     "sha": "68ee1f672fd5",
+     "w": 17
+    },
+    "u28 c1 G task3": {
+     "sha": "ea4dede73b4d",
+     "w": 38
     },
     "u28 c1 L0 heading": {
      "sha": "7b97f56fd9e7",
@@ -35059,6 +37048,14 @@
     "u28 c1 L1 task": {
      "sha": "dfeac55228d0",
      "w": 13
+    },
+    "u28 c1 PR0 heading": {
+     "sha": "94f88156a0aa",
+     "w": 6
+    },
+    "u28 c1 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u28 c1 R0 heading": {
      "sha": "120d855b0bd6",
@@ -35100,13 +37097,121 @@
      "sha": "aeef1b057890",
      "w": 41
     },
+    "u28 c1 advice": {
+     "sha": "2b502d2b7241",
+     "w": 65
+    },
+    "u28 c1 builder explain": {
+     "sha": "46b6d8bfc9d5",
+     "w": 171
+    },
+    "u28 c1 builder items": {
+     "sha": "7e735265608c",
+     "w": 54
+    },
+    "u28 c1 builder note": {
+     "sha": "a56364c04def",
+     "w": 34
+    },
+    "u28 c1 builder skill": {
+     "sha": "b43738f76df0",
+     "w": 10
+    },
+    "u28 c1 builder task": {
+     "sha": "4f6b369d9377",
+     "w": 10
+    },
+    "u28 c1 builder worked": {
+     "sha": "054cb67d3b0f",
+     "w": 90
+    },
+    "u28 c1 debrief listen": {
+     "sha": "e4878d6f61cc",
+     "w": 39
+    },
+    "u28 c1 debrief read": {
+     "sha": "20ab8981bb30",
+     "w": 66
+    },
     "u28 c1 expr": {
      "sha": "3e4362f5df68",
      "w": 51
     },
+    "u28 c1 lead body": {
+     "sha": "bcb65b796d19",
+     "w": 73
+    },
+    "u28 c1 lead qs": {
+     "sha": "c539dbf8bc6e",
+     "w": 49
+    },
+    "u28 c1 lead task": {
+     "sha": "2a666cc0148a",
+     "w": 11
+    },
+    "u28 c1 lead title": {
+     "sha": "c273c0c67d5c",
+     "w": 9
+    },
+    "u28 c1 notes because": {
+     "sha": "d56bc6d36831",
+     "w": 38
+    },
+    "u28 c1 notes evidence": {
+     "sha": "637856a4cf7f",
+     "w": 24
+    },
+    "u28 c1 notes serves": {
+     "sha": "21a1ec3f4b6c",
+     "w": 16
+    },
+    "u28 c1 notes skill": {
+     "sha": "5dd0e481f2ab",
+     "w": 20
+    },
+    "u28 c1 notes time": {
+     "sha": "430162c409ab",
+     "w": 9
+    },
+    "u28 c1 notes watch": {
+     "sha": "531133534e62",
+     "w": 19
+    },
+    "u28 c1 outside": {
+     "sha": "973b8ea925f5",
+     "w": 48
+    },
+    "u28 c1 recycled": {
+     "sha": "bd347427a0c0",
+     "w": 6
+    },
     "u28 c1 vocab": {
      "sha": "a2a47e9e59e7",
      "w": 64
+    },
+    "u28 c1 vocabwork body": {
+     "sha": "67097beb3c56",
+     "w": 43
+    },
+    "u28 c1 vocabwork items": {
+     "sha": "f4f1e6ede1d1",
+     "w": 96
+    },
+    "u28 c1 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u28 c1 vocabwork title": {
+     "sha": "435e04409251",
+     "w": 5
+    },
+    "u28 c2 G context": {
+     "sha": "4e7bbe1f5f88",
+     "w": 76
+    },
+    "u28 c2 G contrast": {
+     "sha": "eaa91ba956d6",
+     "w": 100
     },
     "u28 c2 G examples": {
      "sha": "e72ff9ca98d5",
@@ -35120,6 +37225,26 @@
      "sha": "36095a185af8",
      "w": 120
     },
+    "u28 c2 G items2": {
+     "sha": "ae5baae22b61",
+     "w": 78
+    },
+    "u28 c2 G notice": {
+     "sha": "73710be35a97",
+     "w": 52
+    },
+    "u28 c2 G ref": {
+     "sha": "d0d45365a7bb",
+     "w": 1
+    },
+    "u28 c2 G task2": {
+     "sha": "c5383fbcc1ce",
+     "w": 12
+    },
+    "u28 c2 G task3": {
+     "sha": "f0ee771e5593",
+     "w": 41
+    },
     "u28 c2 L0 heading": {
      "sha": "a90ad8360d18",
      "w": 5
@@ -35127,6 +37252,14 @@
     "u28 c2 L0 task": {
      "sha": "3d17aa3852ab",
      "w": 12
+    },
+    "u28 c2 PL0 heading": {
+     "sha": "8fc6abfbcf5d",
+     "w": 8
+    },
+    "u28 c2 PL0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u28 c2 R0 heading": {
      "sha": "70fc4a6d16a2",
@@ -35164,13 +37297,121 @@
      "sha": "c2b3485c794e",
      "w": 37
     },
+    "u28 c2 advice": {
+     "sha": "54befb69ba8a",
+     "w": 60
+    },
+    "u28 c2 builder explain": {
+     "sha": "56eaeed65c09",
+     "w": 168
+    },
+    "u28 c2 builder items": {
+     "sha": "83e4c7649733",
+     "w": 67
+    },
+    "u28 c2 builder note": {
+     "sha": "1747b34da62e",
+     "w": 41
+    },
+    "u28 c2 builder skill": {
+     "sha": "9d43c77cfb68",
+     "w": 8
+    },
+    "u28 c2 builder task": {
+     "sha": "2cc02b78e411",
+     "w": 15
+    },
+    "u28 c2 builder worked": {
+     "sha": "03ad2bbac1da",
+     "w": 131
+    },
+    "u28 c2 debrief listen": {
+     "sha": "d698515afe16",
+     "w": 34
+    },
+    "u28 c2 debrief read": {
+     "sha": "5e71fb3e04e7",
+     "w": 62
+    },
     "u28 c2 expr": {
      "sha": "356b1ed8f81c",
      "w": 67
     },
+    "u28 c2 lead body": {
+     "sha": "8d70573d0e3c",
+     "w": 78
+    },
+    "u28 c2 lead qs": {
+     "sha": "ed270c2141a7",
+     "w": 52
+    },
+    "u28 c2 lead task": {
+     "sha": "cf26a7a9460c",
+     "w": 17
+    },
+    "u28 c2 lead title": {
+     "sha": "8be353af4018",
+     "w": 8
+    },
+    "u28 c2 notes because": {
+     "sha": "a37afc262e6d",
+     "w": 35
+    },
+    "u28 c2 notes evidence": {
+     "sha": "3391eb2c1d18",
+     "w": 33
+    },
+    "u28 c2 notes serves": {
+     "sha": "4a41d234d8c1",
+     "w": 17
+    },
+    "u28 c2 notes skill": {
+     "sha": "721978975e89",
+     "w": 15
+    },
+    "u28 c2 notes time": {
+     "sha": "d064764da018",
+     "w": 9
+    },
+    "u28 c2 notes watch": {
+     "sha": "4dfe0394bcfd",
+     "w": 21
+    },
+    "u28 c2 outside": {
+     "sha": "86f2943cbdac",
+     "w": 39
+    },
+    "u28 c2 recycled": {
+     "sha": "58d576fc86e6",
+     "w": 6
+    },
     "u28 c2 vocab": {
      "sha": "c02cc3aa64da",
      "w": 53
+    },
+    "u28 c2 vocabwork body": {
+     "sha": "5c5766cdec65",
+     "w": 49
+    },
+    "u28 c2 vocabwork items": {
+     "sha": "6ab6a948f579",
+     "w": 90
+    },
+    "u28 c2 vocabwork task": {
+     "sha": "758d3af3aeae",
+     "w": 10
+    },
+    "u28 c2 vocabwork title": {
+     "sha": "e42a5a998bbe",
+     "w": 7
+    },
+    "u28 c3 G context": {
+     "sha": "0908e1937c18",
+     "w": 71
+    },
+    "u28 c3 G contrast": {
+     "sha": "ae5003004782",
+     "w": 89
     },
     "u28 c3 G examples": {
      "sha": "3a570c6f5b93",
@@ -35192,6 +37433,26 @@
      "sha": "aa3bac0860e3",
      "w": 105
     },
+    "u28 c3 G items2": {
+     "sha": "14e86b616bc9",
+     "w": 93
+    },
+    "u28 c3 G notice": {
+     "sha": "907ac288e872",
+     "w": 45
+    },
+    "u28 c3 G ref": {
+     "sha": "6e78ba4ef61d",
+     "w": 1
+    },
+    "u28 c3 G task2": {
+     "sha": "8007ae3decf4",
+     "w": 10
+    },
+    "u28 c3 G task3": {
+     "sha": "fa72be590f43",
+     "w": 46
+    },
     "u28 c3 L0 heading": {
      "sha": "6c0248602cea",
      "w": 4
@@ -35199,6 +37460,14 @@
     "u28 c3 L0 task": {
      "sha": "eff3492c1f4f",
      "w": 13
+    },
+    "u28 c3 PR0 heading": {
+     "sha": "48e999d8dd83",
+     "w": 8
+    },
+    "u28 c3 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u28 c3 R0 heading": {
      "sha": "06cd04fa5031",
@@ -35232,13 +37501,121 @@
      "sha": "8e5d51aac400",
      "w": 42
     },
+    "u28 c3 advice": {
+     "sha": "2a3846bfdc75",
+     "w": 51
+    },
+    "u28 c3 builder explain": {
+     "sha": "16f84c734164",
+     "w": 182
+    },
+    "u28 c3 builder items": {
+     "sha": "e1b00044851d",
+     "w": 67
+    },
+    "u28 c3 builder note": {
+     "sha": "9c8af98ab8f9",
+     "w": 63
+    },
+    "u28 c3 builder skill": {
+     "sha": "b0e178860dbf",
+     "w": 8
+    },
+    "u28 c3 builder task": {
+     "sha": "33f72d1ae5c9",
+     "w": 16
+    },
+    "u28 c3 builder worked": {
+     "sha": "838029337bc7",
+     "w": 122
+    },
+    "u28 c3 debrief listen": {
+     "sha": "5b61b1e9176c",
+     "w": 33
+    },
+    "u28 c3 debrief read": {
+     "sha": "473ee802c859",
+     "w": 59
+    },
     "u28 c3 expr": {
      "sha": "fc5d20bd2805",
      "w": 49
     },
+    "u28 c3 lead body": {
+     "sha": "ace85872e8d3",
+     "w": 82
+    },
+    "u28 c3 lead qs": {
+     "sha": "05233cc99124",
+     "w": 48
+    },
+    "u28 c3 lead task": {
+     "sha": "ec3aadc347e4",
+     "w": 8
+    },
+    "u28 c3 lead title": {
+     "sha": "5d765342b424",
+     "w": 5
+    },
+    "u28 c3 notes because": {
+     "sha": "dc28ab7e9da2",
+     "w": 36
+    },
+    "u28 c3 notes evidence": {
+     "sha": "63db788a35ee",
+     "w": 28
+    },
+    "u28 c3 notes serves": {
+     "sha": "554a33bbd30e",
+     "w": 17
+    },
+    "u28 c3 notes skill": {
+     "sha": "403398fc066e",
+     "w": 15
+    },
+    "u28 c3 notes time": {
+     "sha": "221d7b4188a7",
+     "w": 9
+    },
+    "u28 c3 notes watch": {
+     "sha": "6bb2c37e1bc7",
+     "w": 22
+    },
+    "u28 c3 outside": {
+     "sha": "bdb260db806d",
+     "w": 38
+    },
+    "u28 c3 recycled": {
+     "sha": "5fea45ca55ef",
+     "w": 6
+    },
     "u28 c3 vocab": {
      "sha": "2e8b83787a55",
      "w": 58
+    },
+    "u28 c3 vocabwork body": {
+     "sha": "e177c33faccf",
+     "w": 53
+    },
+    "u28 c3 vocabwork items": {
+     "sha": "338688fa7e71",
+     "w": 93
+    },
+    "u28 c3 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u28 c3 vocabwork title": {
+     "sha": "089e00806849",
+     "w": 7
+    },
+    "u28 c4 G context": {
+     "sha": "90aef4f4baaf",
+     "w": 65
+    },
+    "u28 c4 G contrast": {
+     "sha": "bd0774ec8280",
+     "w": 112
     },
     "u28 c4 G examples": {
      "sha": "836a56466feb",
@@ -35252,6 +37629,26 @@
      "sha": "a54ce1cc52a9",
      "w": 96
     },
+    "u28 c4 G items2": {
+     "sha": "1c145e956aec",
+     "w": 88
+    },
+    "u28 c4 G notice": {
+     "sha": "2b39e66700bb",
+     "w": 48
+    },
+    "u28 c4 G ref": {
+     "sha": "e7977205d0c4",
+     "w": 1
+    },
+    "u28 c4 G task2": {
+     "sha": "5926548ba9b5",
+     "w": 6
+    },
+    "u28 c4 G task3": {
+     "sha": "40c0bb7a5b19",
+     "w": 44
+    },
     "u28 c4 L0 heading": {
      "sha": "0f6d0c036fee",
      "w": 6
@@ -35259,6 +37656,14 @@
     "u28 c4 L0 task": {
      "sha": "9f429d43d9f4",
      "w": 15
+    },
+    "u28 c4 PL0 heading": {
+     "sha": "1394f3c9fc22",
+     "w": 7
+    },
+    "u28 c4 PL0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u28 c4 R0 heading": {
      "sha": "3b7b1ebe8b5d",
@@ -35292,13 +37697,121 @@
      "sha": "36fa4716d6c6",
      "w": 31
     },
+    "u28 c4 advice": {
+     "sha": "b4a3e75fed53",
+     "w": 65
+    },
+    "u28 c4 builder explain": {
+     "sha": "796a7c2ee978",
+     "w": 171
+    },
+    "u28 c4 builder items": {
+     "sha": "5c3ff785fbb8",
+     "w": 63
+    },
+    "u28 c4 builder note": {
+     "sha": "5645d250d588",
+     "w": 36
+    },
+    "u28 c4 builder skill": {
+     "sha": "bdc16c59a0be",
+     "w": 7
+    },
+    "u28 c4 builder task": {
+     "sha": "2c91483a1c04",
+     "w": 9
+    },
+    "u28 c4 builder worked": {
+     "sha": "3e4245328ac9",
+     "w": 122
+    },
+    "u28 c4 debrief listen": {
+     "sha": "8f3f9a66c873",
+     "w": 45
+    },
+    "u28 c4 debrief read": {
+     "sha": "10ad69e519a9",
+     "w": 85
+    },
     "u28 c4 expr": {
      "sha": "ecb915e0274e",
      "w": 54
     },
+    "u28 c4 lead body": {
+     "sha": "60c844d5d495",
+     "w": 89
+    },
+    "u28 c4 lead qs": {
+     "sha": "d6dbe7be0662",
+     "w": 39
+    },
+    "u28 c4 lead task": {
+     "sha": "decfd4423c81",
+     "w": 12
+    },
+    "u28 c4 lead title": {
+     "sha": "25a1346bd8b6",
+     "w": 8
+    },
+    "u28 c4 notes because": {
+     "sha": "a8ec7270e95b",
+     "w": 41
+    },
+    "u28 c4 notes evidence": {
+     "sha": "421cc41f6741",
+     "w": 27
+    },
+    "u28 c4 notes serves": {
+     "sha": "39c5238910e3",
+     "w": 21
+    },
+    "u28 c4 notes skill": {
+     "sha": "739bbbe9791d",
+     "w": 19
+    },
+    "u28 c4 notes time": {
+     "sha": "a8bbed4eabbe",
+     "w": 9
+    },
+    "u28 c4 notes watch": {
+     "sha": "baaca28169af",
+     "w": 24
+    },
+    "u28 c4 outside": {
+     "sha": "867c6e26c404",
+     "w": 47
+    },
+    "u28 c4 recycled": {
+     "sha": "61138a979324",
+     "w": 7
+    },
     "u28 c4 vocab": {
      "sha": "185674a4bfd3",
      "w": 62
+    },
+    "u28 c4 vocabwork body": {
+     "sha": "6e0fcc7c2119",
+     "w": 49
+    },
+    "u28 c4 vocabwork items": {
+     "sha": "efd608775c6b",
+     "w": 88
+    },
+    "u28 c4 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u28 c4 vocabwork title": {
+     "sha": "9d10f998755c",
+     "w": 8
+    },
+    "u28 c5 G context": {
+     "sha": "ca374bd29833",
+     "w": 75
+    },
+    "u28 c5 G contrast": {
+     "sha": "7d68ab79da9a",
+     "w": 109
     },
     "u28 c5 G examples": {
      "sha": "53ad34d1648a",
@@ -35312,6 +37825,26 @@
      "sha": "f2b09c88f9f5",
      "w": 104
     },
+    "u28 c5 G items2": {
+     "sha": "58a24f4e0fa0",
+     "w": 75
+    },
+    "u28 c5 G notice": {
+     "sha": "c767017ec797",
+     "w": 54
+    },
+    "u28 c5 G ref": {
+     "sha": "d63d3109f633",
+     "w": 1
+    },
+    "u28 c5 G task2": {
+     "sha": "6e0bd9c08290",
+     "w": 7
+    },
+    "u28 c5 G task3": {
+     "sha": "55caf6583f6a",
+     "w": 40
+    },
     "u28 c5 L0 heading": {
      "sha": "0152b1e60c48",
      "w": 3
@@ -35319,6 +37852,14 @@
     "u28 c5 L0 task": {
      "sha": "adab2ce8b507",
      "w": 9
+    },
+    "u28 c5 PR0 heading": {
+     "sha": "dd0f8a603536",
+     "w": 5
+    },
+    "u28 c5 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u28 c5 R0 heading": {
      "sha": "2de2470cea78",
@@ -35364,13 +37905,117 @@
      "sha": "ad369b40f6cd",
      "w": 32
     },
+    "u28 c5 advice": {
+     "sha": "f38553a063ba",
+     "w": 65
+    },
+    "u28 c5 builder explain": {
+     "sha": "df1d550ca282",
+     "w": 171
+    },
+    "u28 c5 builder items": {
+     "sha": "a185e1977565",
+     "w": 55
+    },
+    "u28 c5 builder note": {
+     "sha": "9b17d231321a",
+     "w": 104
+    },
+    "u28 c5 builder skill": {
+     "sha": "fd894d506f3b",
+     "w": 6
+    },
+    "u28 c5 builder task": {
+     "sha": "67e0fb206d3e",
+     "w": 10
+    },
+    "u28 c5 builder worked": {
+     "sha": "d548974b2704",
+     "w": 127
+    },
+    "u28 c5 debrief listen": {
+     "sha": "7c8f0ebf001c",
+     "w": 33
+    },
+    "u28 c5 debrief read": {
+     "sha": "56e9d4b5b3d9",
+     "w": 122
+    },
     "u28 c5 expr": {
      "sha": "18a8e104e66c",
      "w": 59
     },
+    "u28 c5 lead body": {
+     "sha": "0683519e0325",
+     "w": 89
+    },
+    "u28 c5 lead qs": {
+     "sha": "1ada1d299e1f",
+     "w": 55
+    },
+    "u28 c5 lead task": {
+     "sha": "809c9d415429",
+     "w": 18
+    },
+    "u28 c5 lead title": {
+     "sha": "607b2cd3bbf5",
+     "w": 6
+    },
+    "u28 c5 notes because": {
+     "sha": "b87da749928b",
+     "w": 33
+    },
+    "u28 c5 notes evidence": {
+     "sha": "0b2361429135",
+     "w": 32
+    },
+    "u28 c5 notes serves": {
+     "sha": "57c5e1644e86",
+     "w": 18
+    },
+    "u28 c5 notes skill": {
+     "sha": "c9fc1f408afd",
+     "w": 16
+    },
+    "u28 c5 notes time": {
+     "sha": "20253cd012fe",
+     "w": 9
+    },
+    "u28 c5 notes watch": {
+     "sha": "27801a82e8d6",
+     "w": 25
+    },
+    "u28 c5 outside": {
+     "sha": "92665298db7f",
+     "w": 46
+    },
+    "u28 c5 recycled": {
+     "sha": "dc6e9e82274f",
+     "w": 12
+    },
     "u28 c5 vocab": {
      "sha": "284ed2d5d006",
      "w": 74
+    },
+    "u28 c5 vocabwork body": {
+     "sha": "b84de805a200",
+     "w": 49
+    },
+    "u28 c5 vocabwork items": {
+     "sha": "61f64fc0e9b4",
+     "w": 93
+    },
+    "u28 c5 vocabwork task": {
+     "sha": "9c6c4f9eeecd",
+     "w": 8
+    },
+    "u28 c5 vocabwork title": {
+     "sha": "fb2137ba0bd9",
+     "w": 6
+    },
+    "u28 field": {
+     "sha": "39ccb32d95ed",
+     "w": 1
     },
     "u28 opener": {
      "sha": "ecc11a0969a0",
@@ -35388,6 +38033,10 @@
      "sha": "d1b9ce78fe94",
      "w": 41
     },
+    "u28 sceneintro": {
+     "sha": "1e12cc9be6e0",
+     "w": 35
+    },
     "u28 technique body": {
      "sha": "e2979f091da2",
      "w": 100
@@ -35400,6 +38049,14 @@
      "sha": "467450d21a85",
      "w": 33
     },
+    "u29 c1 G context": {
+     "sha": "17a11ec0f756",
+     "w": 64
+    },
+    "u29 c1 G contrast": {
+     "sha": "ba4f494ca32f",
+     "w": 87
+    },
     "u29 c1 G examples": {
      "sha": "3e74b3f608c5",
      "w": 43
@@ -35411,6 +38068,26 @@
     "u29 c1 G items": {
      "sha": "feca29ef0576",
      "w": 115
+    },
+    "u29 c1 G items2": {
+     "sha": "aed5901ad524",
+     "w": 82
+    },
+    "u29 c1 G notice": {
+     "sha": "4037f0acd5c5",
+     "w": 53
+    },
+    "u29 c1 G ref": {
+     "sha": "3b29639774fd",
+     "w": 1
+    },
+    "u29 c1 G task2": {
+     "sha": "421452b58d0d",
+     "w": 13
+    },
+    "u29 c1 G task3": {
+     "sha": "71cf250fc99e",
+     "w": 32
     },
     "u29 c1 L0 heading": {
      "sha": "54feeb47dfa3",
@@ -35427,6 +38104,14 @@
     "u29 c1 L1 task": {
      "sha": "1263486d82af",
      "w": 11
+    },
+    "u29 c1 PR0 heading": {
+     "sha": "f9b4ce52c083",
+     "w": 6
+    },
+    "u29 c1 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u29 c1 R0 heading": {
      "sha": "8b7daad42819",
@@ -35468,13 +38153,121 @@
      "sha": "15e7eb40b61a",
      "w": 34
     },
+    "u29 c1 advice": {
+     "sha": "4446ff71fbf5",
+     "w": 59
+    },
+    "u29 c1 builder explain": {
+     "sha": "15400f941564",
+     "w": 156
+    },
+    "u29 c1 builder items": {
+     "sha": "115097594a20",
+     "w": 69
+    },
+    "u29 c1 builder note": {
+     "sha": "c790192a6a8e",
+     "w": 38
+    },
+    "u29 c1 builder skill": {
+     "sha": "53c8ae7018a8",
+     "w": 7
+    },
+    "u29 c1 builder task": {
+     "sha": "ed6fb86c9615",
+     "w": 9
+    },
+    "u29 c1 builder worked": {
+     "sha": "1e365b51ddee",
+     "w": 101
+    },
+    "u29 c1 debrief listen": {
+     "sha": "d4e186b7935a",
+     "w": 35
+    },
+    "u29 c1 debrief read": {
+     "sha": "ea06b9861bc6",
+     "w": 63
+    },
     "u29 c1 expr": {
      "sha": "67f23ad54cf5",
      "w": 61
     },
+    "u29 c1 lead body": {
+     "sha": "fea39cdffeff",
+     "w": 77
+    },
+    "u29 c1 lead qs": {
+     "sha": "2f45181ca40a",
+     "w": 54
+    },
+    "u29 c1 lead task": {
+     "sha": "9ed5495d67dd",
+     "w": 13
+    },
+    "u29 c1 lead title": {
+     "sha": "282bedd5b2dd",
+     "w": 5
+    },
+    "u29 c1 notes because": {
+     "sha": "aa8f95e6c8b8",
+     "w": 41
+    },
+    "u29 c1 notes evidence": {
+     "sha": "27ca4596ca1c",
+     "w": 28
+    },
+    "u29 c1 notes serves": {
+     "sha": "1648a72b880e",
+     "w": 14
+    },
+    "u29 c1 notes skill": {
+     "sha": "309e204cb4ad",
+     "w": 17
+    },
+    "u29 c1 notes time": {
+     "sha": "430162c409ab",
+     "w": 9
+    },
+    "u29 c1 notes watch": {
+     "sha": "cda44ac96c6f",
+     "w": 30
+    },
+    "u29 c1 outside": {
+     "sha": "6ce0d9108c1b",
+     "w": 34
+    },
+    "u29 c1 recycled": {
+     "sha": "fd7858d91aba",
+     "w": 6
+    },
     "u29 c1 vocab": {
      "sha": "7fca3f57641f",
      "w": 58
+    },
+    "u29 c1 vocabwork body": {
+     "sha": "95b905725e91",
+     "w": 50
+    },
+    "u29 c1 vocabwork items": {
+     "sha": "6f1a8f088956",
+     "w": 91
+    },
+    "u29 c1 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u29 c1 vocabwork title": {
+     "sha": "8b9905ea88fa",
+     "w": 8
+    },
+    "u29 c2 G context": {
+     "sha": "5e60941fb26a",
+     "w": 65
+    },
+    "u29 c2 G contrast": {
+     "sha": "5c738a819643",
+     "w": 99
     },
     "u29 c2 G examples": {
      "sha": "d51471abd741",
@@ -35488,6 +38281,26 @@
      "sha": "8562b786baf7",
      "w": 94
     },
+    "u29 c2 G items2": {
+     "sha": "4b04a99ef216",
+     "w": 74
+    },
+    "u29 c2 G notice": {
+     "sha": "ab015da68741",
+     "w": 45
+    },
+    "u29 c2 G ref": {
+     "sha": "4efd49024bfa",
+     "w": 1
+    },
+    "u29 c2 G task2": {
+     "sha": "b8da524b71b0",
+     "w": 10
+    },
+    "u29 c2 G task3": {
+     "sha": "a7c7ed656cdf",
+     "w": 39
+    },
     "u29 c2 L0 heading": {
      "sha": "b7d6fb56b5f6",
      "w": 5
@@ -35495,6 +38308,14 @@
     "u29 c2 L0 task": {
      "sha": "6fb90bbc5f34",
      "w": 11
+    },
+    "u29 c2 PL0 heading": {
+     "sha": "26bef12497d4",
+     "w": 7
+    },
+    "u29 c2 PL0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u29 c2 R0 heading": {
      "sha": "e1f0a16143c6",
@@ -35532,13 +38353,121 @@
      "sha": "bf71e0cd06a0",
      "w": 35
     },
+    "u29 c2 advice": {
+     "sha": "dce8e5ef2b2e",
+     "w": 64
+    },
+    "u29 c2 builder explain": {
+     "sha": "808de690e0f5",
+     "w": 170
+    },
+    "u29 c2 builder items": {
+     "sha": "08603696089f",
+     "w": 57
+    },
+    "u29 c2 builder note": {
+     "sha": "908f1edbb141",
+     "w": 38
+    },
+    "u29 c2 builder skill": {
+     "sha": "e659d21d7bdb",
+     "w": 8
+    },
+    "u29 c2 builder task": {
+     "sha": "1ddbce645efc",
+     "w": 8
+    },
+    "u29 c2 builder worked": {
+     "sha": "e3613d60b093",
+     "w": 82
+    },
+    "u29 c2 debrief listen": {
+     "sha": "dc2bea061baf",
+     "w": 49
+    },
+    "u29 c2 debrief read": {
+     "sha": "edf84e8ea548",
+     "w": 65
+    },
     "u29 c2 expr": {
      "sha": "932fbd649031",
      "w": 63
     },
+    "u29 c2 lead body": {
+     "sha": "fb22af9cea74",
+     "w": 78
+    },
+    "u29 c2 lead qs": {
+     "sha": "1a1a7eb1afd9",
+     "w": 54
+    },
+    "u29 c2 lead task": {
+     "sha": "08ac35839c9f",
+     "w": 14
+    },
+    "u29 c2 lead title": {
+     "sha": "deb259b6b30e",
+     "w": 5
+    },
+    "u29 c2 notes because": {
+     "sha": "61d83d0d66f7",
+     "w": 45
+    },
+    "u29 c2 notes evidence": {
+     "sha": "0ceac7c5afa8",
+     "w": 35
+    },
+    "u29 c2 notes serves": {
+     "sha": "c38724d05d67",
+     "w": 14
+    },
+    "u29 c2 notes skill": {
+     "sha": "f2c79bc2fb18",
+     "w": 8
+    },
+    "u29 c2 notes time": {
+     "sha": "d064764da018",
+     "w": 9
+    },
+    "u29 c2 notes watch": {
+     "sha": "d0a6fbe60d15",
+     "w": 20
+    },
+    "u29 c2 outside": {
+     "sha": "fd11b1e4472f",
+     "w": 39
+    },
+    "u29 c2 recycled": {
+     "sha": "523892099cd8",
+     "w": 6
+    },
     "u29 c2 vocab": {
      "sha": "e808758de582",
      "w": 61
+    },
+    "u29 c2 vocabwork body": {
+     "sha": "040763e21ffd",
+     "w": 40
+    },
+    "u29 c2 vocabwork items": {
+     "sha": "a8de6c84d0ed",
+     "w": 92
+    },
+    "u29 c2 vocabwork task": {
+     "sha": "97787ba75e57",
+     "w": 11
+    },
+    "u29 c2 vocabwork title": {
+     "sha": "a86bdd5626db",
+     "w": 6
+    },
+    "u29 c3 G context": {
+     "sha": "bb3c241d2233",
+     "w": 58
+    },
+    "u29 c3 G contrast": {
+     "sha": "ea4fe12da552",
+     "w": 81
     },
     "u29 c3 G examples": {
      "sha": "54b3e7df8308",
@@ -35560,6 +38489,26 @@
      "sha": "e7b15d9f2011",
      "w": 108
     },
+    "u29 c3 G items2": {
+     "sha": "3dc07f43db9e",
+     "w": 82
+    },
+    "u29 c3 G notice": {
+     "sha": "baea9a60396f",
+     "w": 46
+    },
+    "u29 c3 G ref": {
+     "sha": "6e78ba4ef61d",
+     "w": 1
+    },
+    "u29 c3 G task2": {
+     "sha": "178d41ce9c4c",
+     "w": 8
+    },
+    "u29 c3 G task3": {
+     "sha": "f85dd5df8309",
+     "w": 36
+    },
     "u29 c3 L0 heading": {
      "sha": "dcd105bc677f",
      "w": 5
@@ -35567,6 +38516,14 @@
     "u29 c3 L0 task": {
      "sha": "388b0aae30cd",
      "w": 12
+    },
+    "u29 c3 PR0 heading": {
+     "sha": "10668b749526",
+     "w": 6
+    },
+    "u29 c3 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u29 c3 R0 heading": {
      "sha": "3cd7704197e6",
@@ -35600,13 +38557,121 @@
      "sha": "2207f1ff56a2",
      "w": 48
     },
+    "u29 c3 advice": {
+     "sha": "3d66f83d1a10",
+     "w": 54
+    },
+    "u29 c3 builder explain": {
+     "sha": "45ed345eea4a",
+     "w": 161
+    },
+    "u29 c3 builder items": {
+     "sha": "e92bc8f5b0fc",
+     "w": 89
+    },
+    "u29 c3 builder note": {
+     "sha": "af517aed6eba",
+     "w": 37
+    },
+    "u29 c3 builder skill": {
+     "sha": "a4ec51c05f8a",
+     "w": 8
+    },
+    "u29 c3 builder task": {
+     "sha": "8e434d30139b",
+     "w": 12
+    },
+    "u29 c3 builder worked": {
+     "sha": "e607217cd942",
+     "w": 92
+    },
+    "u29 c3 debrief listen": {
+     "sha": "d07d6fafe349",
+     "w": 35
+    },
+    "u29 c3 debrief read": {
+     "sha": "274a29400d84",
+     "w": 53
+    },
     "u29 c3 expr": {
      "sha": "95d39dcaa8bc",
      "w": 49
     },
+    "u29 c3 lead body": {
+     "sha": "b139093a651e",
+     "w": 77
+    },
+    "u29 c3 lead qs": {
+     "sha": "55cf104c2dfa",
+     "w": 49
+    },
+    "u29 c3 lead task": {
+     "sha": "0deb58dbdb63",
+     "w": 8
+    },
+    "u29 c3 lead title": {
+     "sha": "8faf35fb5a55",
+     "w": 6
+    },
+    "u29 c3 notes because": {
+     "sha": "e5a1921d3eb5",
+     "w": 34
+    },
+    "u29 c3 notes evidence": {
+     "sha": "1e234d9375e4",
+     "w": 30
+    },
+    "u29 c3 notes serves": {
+     "sha": "98dd37be8270",
+     "w": 16
+    },
+    "u29 c3 notes skill": {
+     "sha": "19d47a391e3f",
+     "w": 9
+    },
+    "u29 c3 notes time": {
+     "sha": "221d7b4188a7",
+     "w": 9
+    },
+    "u29 c3 notes watch": {
+     "sha": "f190b244d59a",
+     "w": 19
+    },
+    "u29 c3 outside": {
+     "sha": "7bef31f136b5",
+     "w": 32
+    },
+    "u29 c3 recycled": {
+     "sha": "d03776cdac0c",
+     "w": 6
+    },
     "u29 c3 vocab": {
      "sha": "f86753e30760",
      "w": 58
+    },
+    "u29 c3 vocabwork body": {
+     "sha": "94197ed3ce50",
+     "w": 37
+    },
+    "u29 c3 vocabwork items": {
+     "sha": "1e4aad579ab4",
+     "w": 82
+    },
+    "u29 c3 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u29 c3 vocabwork title": {
+     "sha": "97a3f28d1e77",
+     "w": 4
+    },
+    "u29 c4 G context": {
+     "sha": "972099cbd559",
+     "w": 75
+    },
+    "u29 c4 G contrast": {
+     "sha": "f77bce0a724b",
+     "w": 106
     },
     "u29 c4 G examples": {
      "sha": "4f07dc90a892",
@@ -35620,6 +38685,26 @@
      "sha": "c2f1ffdabd28",
      "w": 136
     },
+    "u29 c4 G items2": {
+     "sha": "3215985bccb4",
+     "w": 90
+    },
+    "u29 c4 G notice": {
+     "sha": "b7e270514dd6",
+     "w": 32
+    },
+    "u29 c4 G ref": {
+     "sha": "fd4dcf8891d6",
+     "w": 1
+    },
+    "u29 c4 G task2": {
+     "sha": "4170845e7009",
+     "w": 12
+    },
+    "u29 c4 G task3": {
+     "sha": "ae5c65bbd86e",
+     "w": 48
+    },
     "u29 c4 L0 heading": {
      "sha": "93dba109e44d",
      "w": 4
@@ -35627,6 +38712,14 @@
     "u29 c4 L0 task": {
      "sha": "0f093f7dc40a",
      "w": 16
+    },
+    "u29 c4 PL0 heading": {
+     "sha": "4dceacb911fe",
+     "w": 6
+    },
+    "u29 c4 PL0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u29 c4 R0 heading": {
      "sha": "87b3c8d87f2e",
@@ -35660,13 +38753,121 @@
      "sha": "2b7c83b6adc4",
      "w": 30
     },
+    "u29 c4 advice": {
+     "sha": "4dfd1750d994",
+     "w": 59
+    },
+    "u29 c4 builder explain": {
+     "sha": "07b748833e66",
+     "w": 158
+    },
+    "u29 c4 builder items": {
+     "sha": "015b340f0d49",
+     "w": 94
+    },
+    "u29 c4 builder note": {
+     "sha": "2f420aa2d5a4",
+     "w": 36
+    },
+    "u29 c4 builder skill": {
+     "sha": "74b7a37b9033",
+     "w": 5
+    },
+    "u29 c4 builder task": {
+     "sha": "442613e70eb2",
+     "w": 10
+    },
+    "u29 c4 builder worked": {
+     "sha": "de4eebe0ceef",
+     "w": 112
+    },
+    "u29 c4 debrief listen": {
+     "sha": "dc3e9b2b406e",
+     "w": 34
+    },
+    "u29 c4 debrief read": {
+     "sha": "da2da20e5e7a",
+     "w": 81
+    },
     "u29 c4 expr": {
      "sha": "97c74e0dddc3",
      "w": 52
     },
+    "u29 c4 lead body": {
+     "sha": "590f27934519",
+     "w": 81
+    },
+    "u29 c4 lead qs": {
+     "sha": "a9a2cc05ab9e",
+     "w": 49
+    },
+    "u29 c4 lead task": {
+     "sha": "decfd4423c81",
+     "w": 12
+    },
+    "u29 c4 lead title": {
+     "sha": "3d275d4286d0",
+     "w": 5
+    },
+    "u29 c4 notes because": {
+     "sha": "6eabae7b2ffc",
+     "w": 41
+    },
+    "u29 c4 notes evidence": {
+     "sha": "8f5c4826dca6",
+     "w": 24
+    },
+    "u29 c4 notes serves": {
+     "sha": "39c5238910e3",
+     "w": 21
+    },
+    "u29 c4 notes skill": {
+     "sha": "829d18ea7801",
+     "w": 16
+    },
+    "u29 c4 notes time": {
+     "sha": "a8bbed4eabbe",
+     "w": 9
+    },
+    "u29 c4 notes watch": {
+     "sha": "bc58dc71a852",
+     "w": 28
+    },
+    "u29 c4 outside": {
+     "sha": "b0cdd72cb46c",
+     "w": 36
+    },
+    "u29 c4 recycled": {
+     "sha": "0af465e2c901",
+     "w": 7
+    },
     "u29 c4 vocab": {
      "sha": "68cfaf18381f",
      "w": 57
+    },
+    "u29 c4 vocabwork body": {
+     "sha": "41741c87f251",
+     "w": 43
+    },
+    "u29 c4 vocabwork items": {
+     "sha": "377ac8562082",
+     "w": 90
+    },
+    "u29 c4 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u29 c4 vocabwork title": {
+     "sha": "97b82af53a55",
+     "w": 6
+    },
+    "u29 c5 G context": {
+     "sha": "4150f76e6146",
+     "w": 78
+    },
+    "u29 c5 G contrast": {
+     "sha": "71b4b28479ad",
+     "w": 95
     },
     "u29 c5 G examples": {
      "sha": "4129e666246e",
@@ -35680,6 +38881,26 @@
      "sha": "8af80707eb23",
      "w": 110
     },
+    "u29 c5 G items2": {
+     "sha": "fa3b68fd7c10",
+     "w": 62
+    },
+    "u29 c5 G notice": {
+     "sha": "2d0acb5fd2b5",
+     "w": 39
+    },
+    "u29 c5 G ref": {
+     "sha": "d2f342b277d8",
+     "w": 1
+    },
+    "u29 c5 G task2": {
+     "sha": "d88a3513848b",
+     "w": 9
+    },
+    "u29 c5 G task3": {
+     "sha": "7d1549d0ebc1",
+     "w": 43
+    },
     "u29 c5 L0 heading": {
      "sha": "94c72494e23d",
      "w": 7
@@ -35687,6 +38908,14 @@
     "u29 c5 L0 task": {
      "sha": "adab2ce8b507",
      "w": 9
+    },
+    "u29 c5 PR0 heading": {
+     "sha": "a18bb4445489",
+     "w": 5
+    },
+    "u29 c5 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u29 c5 R0 heading": {
      "sha": "bd5ebc1a31e5",
@@ -35732,13 +38961,117 @@
      "sha": "96a6552eb4ce",
      "w": 35
     },
+    "u29 c5 advice": {
+     "sha": "8183a2d87c57",
+     "w": 61
+    },
+    "u29 c5 builder explain": {
+     "sha": "0dbf56b54129",
+     "w": 177
+    },
+    "u29 c5 builder items": {
+     "sha": "3b48be307995",
+     "w": 58
+    },
+    "u29 c5 builder note": {
+     "sha": "aecf582228a3",
+     "w": 39
+    },
+    "u29 c5 builder skill": {
+     "sha": "b5d01fde0f8f",
+     "w": 5
+    },
+    "u29 c5 builder task": {
+     "sha": "d4d75c05cf00",
+     "w": 8
+    },
+    "u29 c5 builder worked": {
+     "sha": "c48bf5ec36a9",
+     "w": 136
+    },
+    "u29 c5 debrief listen": {
+     "sha": "a8254a04eb77",
+     "w": 39
+    },
+    "u29 c5 debrief read": {
+     "sha": "c23c90e3957d",
+     "w": 90
+    },
     "u29 c5 expr": {
      "sha": "5849a9958bbf",
      "w": 61
     },
+    "u29 c5 lead body": {
+     "sha": "f13191b5bd64",
+     "w": 88
+    },
+    "u29 c5 lead qs": {
+     "sha": "4aafb49618cb",
+     "w": 54
+    },
+    "u29 c5 lead task": {
+     "sha": "809c9d415429",
+     "w": 18
+    },
+    "u29 c5 lead title": {
+     "sha": "bd8f9e83c255",
+     "w": 4
+    },
+    "u29 c5 notes because": {
+     "sha": "57903de503cb",
+     "w": 45
+    },
+    "u29 c5 notes evidence": {
+     "sha": "20e854eb5dc7",
+     "w": 36
+    },
+    "u29 c5 notes serves": {
+     "sha": "ad8af2e05677",
+     "w": 16
+    },
+    "u29 c5 notes skill": {
+     "sha": "b627e36a0602",
+     "w": 14
+    },
+    "u29 c5 notes time": {
+     "sha": "20253cd012fe",
+     "w": 9
+    },
+    "u29 c5 notes watch": {
+     "sha": "d60b58c649d9",
+     "w": 26
+    },
+    "u29 c5 outside": {
+     "sha": "690fbd67151f",
+     "w": 44
+    },
+    "u29 c5 recycled": {
+     "sha": "bca896dcbf72",
+     "w": 10
+    },
     "u29 c5 vocab": {
      "sha": "dab4f4cbfdb1",
      "w": 64
+    },
+    "u29 c5 vocabwork body": {
+     "sha": "2780ff8f5618",
+     "w": 54
+    },
+    "u29 c5 vocabwork items": {
+     "sha": "e443cf185446",
+     "w": 96
+    },
+    "u29 c5 vocabwork task": {
+     "sha": "6672f21e1e11",
+     "w": 11
+    },
+    "u29 c5 vocabwork title": {
+     "sha": "bdf5360b320d",
+     "w": 6
+    },
+    "u29 field": {
+     "sha": "bb362a46a483",
+     "w": 1
     },
     "u29 opener": {
      "sha": "036c5ad44c53",
@@ -35756,6 +39089,10 @@
      "sha": "a2ba0cdb1c60",
      "w": 29
     },
+    "u29 sceneintro": {
+     "sha": "0656fbca87e2",
+     "w": 41
+    },
     "u29 technique body": {
      "sha": "f2991779e245",
      "w": 106
@@ -35768,6 +39105,14 @@
      "sha": "de50173b3b92",
      "w": 28
     },
+    "u30 c1 G context": {
+     "sha": "a595aa4352e2",
+     "w": 62
+    },
+    "u30 c1 G contrast": {
+     "sha": "f2e4876e658d",
+     "w": 101
+    },
     "u30 c1 G examples": {
      "sha": "d35702230e73",
      "w": 47
@@ -35779,6 +39124,26 @@
     "u30 c1 G items": {
      "sha": "65430a6ea25b",
      "w": 112
+    },
+    "u30 c1 G items2": {
+     "sha": "d544c33354b4",
+     "w": 90
+    },
+    "u30 c1 G notice": {
+     "sha": "87f0e03dc5cc",
+     "w": 54
+    },
+    "u30 c1 G ref": {
+     "sha": "ae7e92672a52",
+     "w": 1
+    },
+    "u30 c1 G task2": {
+     "sha": "93fbbad6e751",
+     "w": 15
+    },
+    "u30 c1 G task3": {
+     "sha": "3742db40ba7e",
+     "w": 36
     },
     "u30 c1 L0 heading": {
      "sha": "76cdfcbfd1c3",
@@ -35795,6 +39160,14 @@
     "u30 c1 L1 task": {
      "sha": "558157b822bb",
      "w": 13
+    },
+    "u30 c1 PR0 heading": {
+     "sha": "849a5de78b28",
+     "w": 6
+    },
+    "u30 c1 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u30 c1 R0 heading": {
      "sha": "020e0b459433",
@@ -35836,13 +39209,121 @@
      "sha": "16315daf1ba2",
      "w": 48
     },
+    "u30 c1 advice": {
+     "sha": "599f66f640ae",
+     "w": 48
+    },
+    "u30 c1 builder explain": {
+     "sha": "936835864d3b",
+     "w": 174
+    },
+    "u30 c1 builder items": {
+     "sha": "d47df20c0ebe",
+     "w": 91
+    },
+    "u30 c1 builder note": {
+     "sha": "4e0035988e95",
+     "w": 42
+    },
+    "u30 c1 builder skill": {
+     "sha": "71b409d2dfb6",
+     "w": 7
+    },
+    "u30 c1 builder task": {
+     "sha": "3ab9b816064e",
+     "w": 18
+    },
+    "u30 c1 builder worked": {
+     "sha": "fb380093a245",
+     "w": 86
+    },
+    "u30 c1 debrief listen": {
+     "sha": "a2a73b9bc5f8",
+     "w": 31
+    },
+    "u30 c1 debrief read": {
+     "sha": "2bb530614686",
+     "w": 66
+    },
     "u30 c1 expr": {
      "sha": "80b4755b1b98",
      "w": 54
     },
+    "u30 c1 lead body": {
+     "sha": "37563541c469",
+     "w": 70
+    },
+    "u30 c1 lead qs": {
+     "sha": "500ea8d6b2ab",
+     "w": 52
+    },
+    "u30 c1 lead task": {
+     "sha": "94da863b8c88",
+     "w": 11
+    },
+    "u30 c1 lead title": {
+     "sha": "5803800c0891",
+     "w": 5
+    },
+    "u30 c1 notes because": {
+     "sha": "041850b4a752",
+     "w": 34
+    },
+    "u30 c1 notes evidence": {
+     "sha": "85e8d91293da",
+     "w": 33
+    },
+    "u30 c1 notes serves": {
+     "sha": "51e1fbac7595",
+     "w": 14
+    },
+    "u30 c1 notes skill": {
+     "sha": "e8246793f960",
+     "w": 9
+    },
+    "u30 c1 notes time": {
+     "sha": "430162c409ab",
+     "w": 9
+    },
+    "u30 c1 notes watch": {
+     "sha": "6db2c285d9b5",
+     "w": 29
+    },
+    "u30 c1 outside": {
+     "sha": "aa5d7032f52b",
+     "w": 45
+    },
+    "u30 c1 recycled": {
+     "sha": "72778657a0f4",
+     "w": 6
+    },
     "u30 c1 vocab": {
      "sha": "af4391cf0085",
      "w": 62
+    },
+    "u30 c1 vocabwork body": {
+     "sha": "d6464aaddd73",
+     "w": 47
+    },
+    "u30 c1 vocabwork items": {
+     "sha": "d26630293e7d",
+     "w": 95
+    },
+    "u30 c1 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u30 c1 vocabwork title": {
+     "sha": "731b845ac3b2",
+     "w": 6
+    },
+    "u30 c2 G context": {
+     "sha": "e722b1384324",
+     "w": 81
+    },
+    "u30 c2 G contrast": {
+     "sha": "e3783633b432",
+     "w": 98
     },
     "u30 c2 G examples": {
      "sha": "5e101d6482f8",
@@ -35856,6 +39337,26 @@
      "sha": "fc41205003e4",
      "w": 99
     },
+    "u30 c2 G items2": {
+     "sha": "862248e8aadc",
+     "w": 74
+    },
+    "u30 c2 G notice": {
+     "sha": "17a90575c12c",
+     "w": 36
+    },
+    "u30 c2 G ref": {
+     "sha": "4226255bf3d2",
+     "w": 1
+    },
+    "u30 c2 G task2": {
+     "sha": "3d32a5422add",
+     "w": 6
+    },
+    "u30 c2 G task3": {
+     "sha": "ba286b6c954f",
+     "w": 47
+    },
     "u30 c2 L0 heading": {
      "sha": "5b120a3191ff",
      "w": 5
@@ -35863,6 +39364,14 @@
     "u30 c2 L0 task": {
      "sha": "cd5543366dc0",
      "w": 12
+    },
+    "u30 c2 PL0 heading": {
+     "sha": "95faa5be812e",
+     "w": 11
+    },
+    "u30 c2 PL0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u30 c2 R0 heading": {
      "sha": "7a5e6b999868",
@@ -35900,13 +39409,121 @@
      "sha": "9678feb26ac5",
      "w": 28
     },
+    "u30 c2 advice": {
+     "sha": "357312ecfb86",
+     "w": 51
+    },
+    "u30 c2 builder explain": {
+     "sha": "efde56864094",
+     "w": 185
+    },
+    "u30 c2 builder items": {
+     "sha": "7f3b617b2380",
+     "w": 69
+    },
+    "u30 c2 builder note": {
+     "sha": "0f2d3f981c81",
+     "w": 42
+    },
+    "u30 c2 builder skill": {
+     "sha": "1399f4b6d8ed",
+     "w": 8
+    },
+    "u30 c2 builder task": {
+     "sha": "10f92a87acf9",
+     "w": 10
+    },
+    "u30 c2 builder worked": {
+     "sha": "642fed2dc418",
+     "w": 102
+    },
+    "u30 c2 debrief listen": {
+     "sha": "105c5e8cfea8",
+     "w": 36
+    },
+    "u30 c2 debrief read": {
+     "sha": "fc939069683d",
+     "w": 73
+    },
     "u30 c2 expr": {
      "sha": "b113c8e1307d",
      "w": 55
     },
+    "u30 c2 lead body": {
+     "sha": "710a5a26252e",
+     "w": 80
+    },
+    "u30 c2 lead qs": {
+     "sha": "15a198cab566",
+     "w": 52
+    },
+    "u30 c2 lead task": {
+     "sha": "08ac35839c9f",
+     "w": 14
+    },
+    "u30 c2 lead title": {
+     "sha": "abac87e48cd9",
+     "w": 7
+    },
+    "u30 c2 notes because": {
+     "sha": "9e2bb8bf7fd4",
+     "w": 35
+    },
+    "u30 c2 notes evidence": {
+     "sha": "2a46e58e5430",
+     "w": 32
+    },
+    "u30 c2 notes serves": {
+     "sha": "927e46c1828a",
+     "w": 16
+    },
+    "u30 c2 notes skill": {
+     "sha": "436233d86355",
+     "w": 12
+    },
+    "u30 c2 notes time": {
+     "sha": "d064764da018",
+     "w": 9
+    },
+    "u30 c2 notes watch": {
+     "sha": "621e563c676a",
+     "w": 27
+    },
+    "u30 c2 outside": {
+     "sha": "6c1c1293a224",
+     "w": 34
+    },
+    "u30 c2 recycled": {
+     "sha": "d05a387e5564",
+     "w": 7
+    },
     "u30 c2 vocab": {
      "sha": "1168ba067eca",
      "w": 59
+    },
+    "u30 c2 vocabwork body": {
+     "sha": "f7850ae1f3c3",
+     "w": 51
+    },
+    "u30 c2 vocabwork items": {
+     "sha": "852dbf6f1654",
+     "w": 96
+    },
+    "u30 c2 vocabwork task": {
+     "sha": "758d3af3aeae",
+     "w": 10
+    },
+    "u30 c2 vocabwork title": {
+     "sha": "e87ef09e4ea7",
+     "w": 6
+    },
+    "u30 c3 G context": {
+     "sha": "475a7e13dc9c",
+     "w": 63
+    },
+    "u30 c3 G contrast": {
+     "sha": "ba57a2f5d586",
+     "w": 91
     },
     "u30 c3 G examples": {
      "sha": "499b529e1daf",
@@ -35928,6 +39545,26 @@
      "sha": "51e4479d80b0",
      "w": 106
     },
+    "u30 c3 G items2": {
+     "sha": "06cf6ef10e95",
+     "w": 105
+    },
+    "u30 c3 G notice": {
+     "sha": "e886953824b7",
+     "w": 35
+    },
+    "u30 c3 G ref": {
+     "sha": "6e78ba4ef61d",
+     "w": 1
+    },
+    "u30 c3 G task2": {
+     "sha": "236fae1e462d",
+     "w": 14
+    },
+    "u30 c3 G task3": {
+     "sha": "1f0ee1be5094",
+     "w": 38
+    },
     "u30 c3 L0 heading": {
      "sha": "2420edf576a5",
      "w": 5
@@ -35935,6 +39572,14 @@
     "u30 c3 L0 task": {
      "sha": "a6455480e8c6",
      "w": 13
+    },
+    "u30 c3 PR0 heading": {
+     "sha": "c162fe9fc281",
+     "w": 8
+    },
+    "u30 c3 PR0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u30 c3 R0 heading": {
      "sha": "b45f26b37fd3",
@@ -35968,13 +39613,121 @@
      "sha": "4b3542c975fc",
      "w": 42
     },
+    "u30 c3 advice": {
+     "sha": "b4a239e55add",
+     "w": 56
+    },
+    "u30 c3 builder explain": {
+     "sha": "a80ea8ebc835",
+     "w": 327
+    },
+    "u30 c3 builder items": {
+     "sha": "5bfa052d0c9e",
+     "w": 63
+    },
+    "u30 c3 builder note": {
+     "sha": "8e454b013e8c",
+     "w": 31
+    },
+    "u30 c3 builder skill": {
+     "sha": "418a4f926a0d",
+     "w": 10
+    },
+    "u30 c3 builder task": {
+     "sha": "cedd2cdeaf98",
+     "w": 11
+    },
+    "u30 c3 builder worked": {
+     "sha": "a66134563268",
+     "w": 121
+    },
+    "u30 c3 debrief listen": {
+     "sha": "89532037a04e",
+     "w": 29
+    },
+    "u30 c3 debrief read": {
+     "sha": "c8194a6444a7",
+     "w": 54
+    },
     "u30 c3 expr": {
      "sha": "186363446f8e",
      "w": 54
     },
+    "u30 c3 lead body": {
+     "sha": "82473c267c94",
+     "w": 64
+    },
+    "u30 c3 lead qs": {
+     "sha": "d4ae2847905b",
+     "w": 43
+    },
+    "u30 c3 lead task": {
+     "sha": "7bdb9750e8e4",
+     "w": 8
+    },
+    "u30 c3 lead title": {
+     "sha": "86b3d34fd91a",
+     "w": 5
+    },
+    "u30 c3 notes because": {
+     "sha": "5a74b6f31a72",
+     "w": 38
+    },
+    "u30 c3 notes evidence": {
+     "sha": "e87b774c4a26",
+     "w": 30
+    },
+    "u30 c3 notes serves": {
+     "sha": "e848b4abbf0d",
+     "w": 17
+    },
+    "u30 c3 notes skill": {
+     "sha": "2913787ba13f",
+     "w": 17
+    },
+    "u30 c3 notes time": {
+     "sha": "221d7b4188a7",
+     "w": 9
+    },
+    "u30 c3 notes watch": {
+     "sha": "d03f1d7e9bb0",
+     "w": 23
+    },
+    "u30 c3 outside": {
+     "sha": "3a4b2b7a0df4",
+     "w": 41
+    },
+    "u30 c3 recycled": {
+     "sha": "63ed0f63c682",
+     "w": 8
+    },
     "u30 c3 vocab": {
      "sha": "d97c36262215",
      "w": 62
+    },
+    "u30 c3 vocabwork body": {
+     "sha": "2b6b2d6c2182",
+     "w": 38
+    },
+    "u30 c3 vocabwork items": {
+     "sha": "a72d030176c6",
+     "w": 85
+    },
+    "u30 c3 vocabwork task": {
+     "sha": "4d3164f0cfac",
+     "w": 13
+    },
+    "u30 c3 vocabwork title": {
+     "sha": "3928f3b116fd",
+     "w": 7
+    },
+    "u30 c4 G context": {
+     "sha": "faa5a199942c",
+     "w": 65
+    },
+    "u30 c4 G contrast": {
+     "sha": "98bd43d8c803",
+     "w": 98
     },
     "u30 c4 G examples": {
      "sha": "942f0e8779b9",
@@ -35988,6 +39741,26 @@
      "sha": "484808885d75",
      "w": 110
     },
+    "u30 c4 G items2": {
+     "sha": "1ddd9509f4d6",
+     "w": 78
+    },
+    "u30 c4 G notice": {
+     "sha": "8d935e78b649",
+     "w": 48
+    },
+    "u30 c4 G ref": {
+     "sha": "d0d45365a7bb",
+     "w": 1
+    },
+    "u30 c4 G task2": {
+     "sha": "5513f2293122",
+     "w": 13
+    },
+    "u30 c4 G task3": {
+     "sha": "4aa70d5f38ee",
+     "w": 40
+    },
     "u30 c4 L0 heading": {
      "sha": "24c8ebc3c7ac",
      "w": 6
@@ -35995,6 +39768,14 @@
     "u30 c4 L0 task": {
      "sha": "ee6bbd49c51f",
      "w": 11
+    },
+    "u30 c4 PL0 heading": {
+     "sha": "03c401dc16d4",
+     "w": 7
+    },
+    "u30 c4 PL0 task": {
+     "sha": "69732d9250a1",
+     "w": 2
     },
     "u30 c4 R0 heading": {
      "sha": "3a42ff214d87",
@@ -36028,13 +39809,121 @@
      "sha": "76c0c4d1b52a",
      "w": 32
     },
+    "u30 c4 advice": {
+     "sha": "0b1c5f8e3af0",
+     "w": 61
+    },
+    "u30 c4 builder explain": {
+     "sha": "f2e0c16a8e01",
+     "w": 165
+    },
+    "u30 c4 builder items": {
+     "sha": "5f0bdc93c80c",
+     "w": 67
+    },
+    "u30 c4 builder note": {
+     "sha": "e4b19b0e1f7d",
+     "w": 41
+    },
+    "u30 c4 builder skill": {
+     "sha": "ed36387eebda",
+     "w": 7
+    },
+    "u30 c4 builder task": {
+     "sha": "ddf8a8e5b25b",
+     "w": 11
+    },
+    "u30 c4 builder worked": {
+     "sha": "f91075283565",
+     "w": 114
+    },
+    "u30 c4 debrief listen": {
+     "sha": "1133f6a74fb8",
+     "w": 32
+    },
+    "u30 c4 debrief read": {
+     "sha": "b73d2c18ce76",
+     "w": 84
+    },
     "u30 c4 expr": {
      "sha": "94b1871e6a7c",
      "w": 52
     },
+    "u30 c4 lead body": {
+     "sha": "a8642798b1f4",
+     "w": 73
+    },
+    "u30 c4 lead qs": {
+     "sha": "f42868c2b413",
+     "w": 48
+    },
+    "u30 c4 lead task": {
+     "sha": "decfd4423c81",
+     "w": 12
+    },
+    "u30 c4 lead title": {
+     "sha": "cf339ef7ad12",
+     "w": 7
+    },
+    "u30 c4 notes because": {
+     "sha": "0656bc383b0b",
+     "w": 33
+    },
+    "u30 c4 notes evidence": {
+     "sha": "8437e91c748d",
+     "w": 27
+    },
+    "u30 c4 notes serves": {
+     "sha": "3af30ce2ce30",
+     "w": 18
+    },
+    "u30 c4 notes skill": {
+     "sha": "c0acd27d9edc",
+     "w": 14
+    },
+    "u30 c4 notes time": {
+     "sha": "a8bbed4eabbe",
+     "w": 9
+    },
+    "u30 c4 notes watch": {
+     "sha": "7afc26fd402b",
+     "w": 27
+    },
+    "u30 c4 outside": {
+     "sha": "8b2be353aa4c",
+     "w": 47
+    },
+    "u30 c4 recycled": {
+     "sha": "aae5b03e84c9",
+     "w": 7
+    },
     "u30 c4 vocab": {
      "sha": "9a0c531610e0",
      "w": 63
+    },
+    "u30 c4 vocabwork body": {
+     "sha": "96a27dad320b",
+     "w": 42
+    },
+    "u30 c4 vocabwork items": {
+     "sha": "b49e484333a4",
+     "w": 93
+    },
+    "u30 c4 vocabwork task": {
+     "sha": "1aef205e2bfb",
+     "w": 9
+    },
+    "u30 c4 vocabwork title": {
+     "sha": "c6df55359cce",
+     "w": 5
+    },
+    "u30 c5 G context": {
+     "sha": "98b70e21e285",
+     "w": 71
+    },
+    "u30 c5 G contrast": {
+     "sha": "50220da2576e",
+     "w": 132
     },
     "u30 c5 G examples": {
      "sha": "9683d20a7062",
@@ -36048,12 +39937,40 @@
      "sha": "75f4e22c0220",
      "w": 112
     },
+    "u30 c5 G items2": {
+     "sha": "a2bc66b76c85",
+     "w": 73
+    },
+    "u30 c5 G notice": {
+     "sha": "a86a9179ac63",
+     "w": 44
+    },
+    "u30 c5 G ref": {
+     "sha": "64ce718fbf6f",
+     "w": 1
+    },
+    "u30 c5 G task2": {
+     "sha": "67a75fe94992",
+     "w": 10
+    },
+    "u30 c5 G task3": {
+     "sha": "7a3ca9384d96",
+     "w": 55
+    },
     "u30 c5 L0 heading": {
      "sha": "782f5a1c4e21",
      "w": 6
     },
     "u30 c5 L0 task": {
      "sha": "529e215cc8e7",
+     "w": 6
+    },
+    "u30 c5 PR0 heading": {
+     "sha": "1fe5a9db91a0",
+     "w": 8
+    },
+    "u30 c5 PR0 task": {
+     "sha": "ca6b33784c92",
      "w": 6
     },
     "u30 c5 R0 heading": {
@@ -36100,13 +40017,117 @@
      "sha": "4462ec2bdb6d",
      "w": 31
     },
+    "u30 c5 advice": {
+     "sha": "c32186096e7f",
+     "w": 61
+    },
+    "u30 c5 builder explain": {
+     "sha": "853b8b611cf4",
+     "w": 152
+    },
+    "u30 c5 builder items": {
+     "sha": "0d6579b82913",
+     "w": 76
+    },
+    "u30 c5 builder note": {
+     "sha": "a777906e58f2",
+     "w": 37
+    },
+    "u30 c5 builder skill": {
+     "sha": "2c1cf1ff2ea3",
+     "w": 7
+    },
+    "u30 c5 builder task": {
+     "sha": "1e755f2109a5",
+     "w": 12
+    },
+    "u30 c5 builder worked": {
+     "sha": "05a84ecb97f9",
+     "w": 107
+    },
+    "u30 c5 debrief speak": {
+     "sha": "4844b43a6b07",
+     "w": 23
+    },
+    "u30 c5 debrief write": {
+     "sha": "57ba661f1c25",
+     "w": 84
+    },
     "u30 c5 expr": {
      "sha": "5e1edc26ccf5",
      "w": 59
     },
+    "u30 c5 lead body": {
+     "sha": "fc036b567df5",
+     "w": 87
+    },
+    "u30 c5 lead qs": {
+     "sha": "720772128ecf",
+     "w": 41
+    },
+    "u30 c5 lead task": {
+     "sha": "97f5560a6bbd",
+     "w": 9
+    },
+    "u30 c5 lead title": {
+     "sha": "457d080e18d4",
+     "w": 4
+    },
+    "u30 c5 notes because": {
+     "sha": "edee466bf759",
+     "w": 38
+    },
+    "u30 c5 notes evidence": {
+     "sha": "a63bcbaf214a",
+     "w": 31
+    },
+    "u30 c5 notes serves": {
+     "sha": "f10a8f968d3a",
+     "w": 25
+    },
+    "u30 c5 notes skill": {
+     "sha": "066a17fa54b5",
+     "w": 12
+    },
+    "u30 c5 notes time": {
+     "sha": "4cad8b3c27bd",
+     "w": 5
+    },
+    "u30 c5 notes watch": {
+     "sha": "149911c3d558",
+     "w": 26
+    },
+    "u30 c5 outside": {
+     "sha": "0ba5c66a6a8b",
+     "w": 57
+    },
+    "u30 c5 recycled": {
+     "sha": "150112479928",
+     "w": 6
+    },
     "u30 c5 vocab": {
      "sha": "75f8a0530994",
      "w": 63
+    },
+    "u30 c5 vocabwork body": {
+     "sha": "70cbd1181149",
+     "w": 36
+    },
+    "u30 c5 vocabwork items": {
+     "sha": "341b3a3fc1bf",
+     "w": 91
+    },
+    "u30 c5 vocabwork task": {
+     "sha": "6672f21e1e11",
+     "w": 11
+    },
+    "u30 c5 vocabwork title": {
+     "sha": "0c828155d308",
+     "w": 4
+    },
+    "u30 field": {
+     "sha": "8ab6a8a0cf06",
+     "w": 1
     },
     "u30 opener": {
      "sha": "ade59e8f63d1",
@@ -36123,6 +40144,10 @@
     "u30 outlining qs": {
      "sha": "e025b821cb2b",
      "w": 41
+    },
+    "u30 sceneintro": {
+     "sha": "fbf39b98755a",
+     "w": 32
     },
     "u30 technique body": {
      "sha": "c9c90a78919b",
@@ -36207,6 +40232,78 @@
     "wpaper3 t3 prompt": {
      "sha": "25fbaee7edcd",
      "w": 39
+    },
+    "wpaper3b instruct": {
+     "sha": "0dee61b3d90b",
+     "w": 164
+    },
+    "wpaper3b intro": {
+     "sha": "99bd0448c378",
+     "w": 74
+    },
+    "wpaper3b keyintro": {
+     "sha": "e09b1ba52fab",
+     "w": 63
+    },
+    "wpaper3b t1 checks": {
+     "sha": "1174a0d2a938",
+     "w": 129
+    },
+    "wpaper3b t1 heading": {
+     "sha": "20c0e9f91e41",
+     "w": 9
+    },
+    "wpaper3b t1 model": {
+     "sha": "07ce38636cc9",
+     "w": 196
+    },
+    "wpaper3b t1 notes": {
+     "sha": "e7caad243543",
+     "w": 152
+    },
+    "wpaper3b t1 prompt": {
+     "sha": "5365822d0bc3",
+     "w": 49
+    },
+    "wpaper3b t2 checks": {
+     "sha": "7c28a2ff934c",
+     "w": 99
+    },
+    "wpaper3b t2 heading": {
+     "sha": "620ca08be28b",
+     "w": 9
+    },
+    "wpaper3b t2 model": {
+     "sha": "9ae17479cef6",
+     "w": 226
+    },
+    "wpaper3b t2 notes": {
+     "sha": "c863b6695e49",
+     "w": 148
+    },
+    "wpaper3b t2 prompt": {
+     "sha": "bee67f191920",
+     "w": 73
+    },
+    "wpaper3b t3 checks": {
+     "sha": "8ca089d65bb0",
+     "w": 139
+    },
+    "wpaper3b t3 heading": {
+     "sha": "1b0f286335d4",
+     "w": 9
+    },
+    "wpaper3b t3 model": {
+     "sha": "87ec48c3f839",
+     "w": 389
+    },
+    "wpaper3b t3 notes": {
+     "sha": "25819e63d556",
+     "w": 206
+    },
+    "wpaper3b t3 prompt": {
+     "sha": "fbab41bfe339",
+     "w": 52
     }
    },
    "texts": {
@@ -36630,6 +40727,10 @@
      "sha": "d34bf39db7b3",
      "w": 318
     },
+    "u26 c1 PR0": {
+     "sha": "436a8856ae45",
+     "w": 174
+    },
     "u26 c1 R0": {
      "sha": "c8b4aacfd8a5",
      "w": 214
@@ -36642,6 +40743,10 @@
      "sha": "54b1d9b19edd",
      "w": 301
     },
+    "u26 c2 PL0": {
+     "sha": "0a536b9bb8ef",
+     "w": 160
+    },
     "u26 c2 R0": {
      "sha": "164b96d0cbb9",
      "w": 232
@@ -36649,6 +40754,10 @@
     "u26 c3 L0": {
      "sha": "7e6c4772398f",
      "w": 367
+    },
+    "u26 c3 PR0": {
+     "sha": "e8414895f516",
+     "w": 190
     },
     "u26 c3 R0": {
      "sha": "61a240953c81",
@@ -36658,6 +40767,10 @@
      "sha": "d733e710e0e4",
      "w": 390
     },
+    "u26 c4 PL0": {
+     "sha": "c68335e8c413",
+     "w": 163
+    },
     "u26 c4 R0": {
      "sha": "f39630ff92af",
      "w": 612
@@ -36665,6 +40778,10 @@
     "u26 c5 L0": {
      "sha": "684dc7a14c99",
      "w": 383
+    },
+    "u26 c5 PR0": {
+     "sha": "38a1f4c8a01a",
+     "w": 183
     },
     "u26 c5 R0": {
      "sha": "fead2f906be6",
@@ -36678,6 +40795,10 @@
      "sha": "e0d48ab73791",
      "w": 284
     },
+    "u27 c1 PR0": {
+     "sha": "4fa03bbb932b",
+     "w": 176
+    },
     "u27 c1 R0": {
      "sha": "c2a30f25cc5d",
      "w": 218
@@ -36690,6 +40811,10 @@
      "sha": "2ef2b0069e25",
      "w": 342
     },
+    "u27 c2 PL0": {
+     "sha": "0bdfae82a63f",
+     "w": 191
+    },
     "u27 c2 R0": {
      "sha": "2a05cbe1ab7d",
      "w": 228
@@ -36697,6 +40822,10 @@
     "u27 c3 L0": {
      "sha": "3d4100dcdd2a",
      "w": 407
+    },
+    "u27 c3 PR0": {
+     "sha": "4d6412a956d3",
+     "w": 185
     },
     "u27 c3 R0": {
      "sha": "a94b08432367",
@@ -36706,6 +40835,10 @@
      "sha": "e85d4d786dd8",
      "w": 359
     },
+    "u27 c4 PL0": {
+     "sha": "6ae4abd9aeb1",
+     "w": 167
+    },
     "u27 c4 R0": {
      "sha": "4d167ace25bf",
      "w": 703
@@ -36713,6 +40846,10 @@
     "u27 c5 L0": {
      "sha": "4ab67d12badd",
      "w": 371
+    },
+    "u27 c5 PR0": {
+     "sha": "b0734fbd60ea",
+     "w": 179
     },
     "u27 c5 R0": {
      "sha": "1435ae0cd333",
@@ -36726,6 +40863,10 @@
      "sha": "cf19abd26a69",
      "w": 324
     },
+    "u28 c1 PR0": {
+     "sha": "7d59fa49d625",
+     "w": 186
+    },
     "u28 c1 R0": {
      "sha": "e61e839f81b0",
      "w": 236
@@ -36738,6 +40879,10 @@
      "sha": "f2dd59a068f8",
      "w": 326
     },
+    "u28 c2 PL0": {
+     "sha": "317f689800f5",
+     "w": 155
+    },
     "u28 c2 R0": {
      "sha": "84ad5fffe9c3",
      "w": 210
@@ -36745,6 +40890,10 @@
     "u28 c3 L0": {
      "sha": "08a3287589f5",
      "w": 392
+    },
+    "u28 c3 PR0": {
+     "sha": "4761e9168e9b",
+     "w": 193
     },
     "u28 c3 R0": {
      "sha": "88063f8d0615",
@@ -36754,6 +40903,10 @@
      "sha": "691ec0bc1197",
      "w": 380
     },
+    "u28 c4 PL0": {
+     "sha": "4c023d579cf2",
+     "w": 183
+    },
     "u28 c4 R0": {
      "sha": "8bba4fc0ebab",
      "w": 714
@@ -36761,6 +40914,10 @@
     "u28 c5 L0": {
      "sha": "5d760fcf309a",
      "w": 375
+    },
+    "u28 c5 PR0": {
+     "sha": "83e4f4431777",
+     "w": 181
     },
     "u28 c5 R0": {
      "sha": "36180edee7d8",
@@ -36774,6 +40931,10 @@
      "sha": "6ea1b721d991",
      "w": 291
     },
+    "u29 c1 PR0": {
+     "sha": "bb6105182fcc",
+     "w": 182
+    },
     "u29 c1 R0": {
      "sha": "895575a4a66e",
      "w": 233
@@ -36786,6 +40947,10 @@
      "sha": "10956c9fd4fc",
      "w": 314
     },
+    "u29 c2 PL0": {
+     "sha": "ec49d8a5ccfe",
+     "w": 173
+    },
     "u29 c2 R0": {
      "sha": "bc5d17dc87fe",
      "w": 214
@@ -36793,6 +40958,10 @@
     "u29 c3 L0": {
      "sha": "7eea61bc49bc",
      "w": 389
+    },
+    "u29 c3 PR0": {
+     "sha": "17abc37a742d",
+     "w": 207
     },
     "u29 c3 R0": {
      "sha": "9e2c743c96b3",
@@ -36802,6 +40971,10 @@
      "sha": "614d4b932069",
      "w": 390
     },
+    "u29 c4 PL0": {
+     "sha": "229c04c240e6",
+     "w": 177
+    },
     "u29 c4 R0": {
      "sha": "389512d9413e",
      "w": 716
@@ -36809,6 +40982,10 @@
     "u29 c5 L0": {
      "sha": "0c730cec2e73",
      "w": 401
+    },
+    "u29 c5 PR0": {
+     "sha": "e6ac6271bdbf",
+     "w": 184
     },
     "u29 c5 R0": {
      "sha": "5392520b391a",
@@ -36822,6 +40999,10 @@
      "sha": "c398bd920e42",
      "w": 305
     },
+    "u30 c1 PR0": {
+     "sha": "aa2f8412644e",
+     "w": 176
+    },
     "u30 c1 R0": {
      "sha": "156a410029bd",
      "w": 231
@@ -36834,6 +41015,10 @@
      "sha": "9112216b0758",
      "w": 344
     },
+    "u30 c2 PL0": {
+     "sha": "85170b02d5b7",
+     "w": 184
+    },
     "u30 c2 R0": {
      "sha": "01beea047417",
      "w": 225
@@ -36841,6 +41026,10 @@
     "u30 c3 L0": {
      "sha": "4391a5e2c6ab",
      "w": 364
+    },
+    "u30 c3 PR0": {
+     "sha": "7716f7f9de80",
+     "w": 189
     },
     "u30 c3 R0": {
      "sha": "77f8dae08d15",
@@ -36850,6 +41039,10 @@
      "sha": "c09a018047fe",
      "w": 387
     },
+    "u30 c4 PL0": {
+     "sha": "d34149f3aedb",
+     "w": 181
+    },
     "u30 c4 R0": {
      "sha": "8e42e23ab8b1",
      "w": 723
@@ -36857,6 +41050,10 @@
     "u30 c5 L0": {
      "sha": "1d49ad910415",
      "w": 384
+    },
+    "u30 c5 PR0": {
+     "sha": "72704b03d586",
+     "w": 221
     },
     "u30 c5 R0": {
      "sha": "8669659857bc",

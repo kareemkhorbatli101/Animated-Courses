@@ -1,0 +1,19 @@
+{
+ "note": "Phase 23 to 26 - the apparatus that makes Volume 3 a book rather than fifty cycles, and the split edition. No unit content is touched: this phase adds two timed papers and changes only tooling. content/refs.py gains WRITING (six entries: the General Training letter, a chart or table, a process or map or hybrid, the five Task 2 question forms, the paragraph that develops, and five minutes of planning) and SPEAKING (four entries: Part 1's two-sentence answer, Part 2's long turn, Part 3's abstract discussion, and fluency, repair and pronunciation across all three). Each has the same four fields as a Language entry: the full pattern, the three errors learners at this band make, eight practice questions with answers, and the cycles that point at it. content/wpaper3b.py and content/spaper3b.py are new: a second complete form of the Writing and Speaking papers, set on the subjects units 26 to 30 teach, so that each half of the split edition carries a whole practice test rather than half of one. Task 2 of the second form is the evaluate-this-claim question unit 30 cycle 5 teaches and the first form does not set. book.py gains: references() rendering all three back-matter references; contents() rendering three contents tables (by unit, by exam task, by language), all three generated from the content so none can drift from it; diagnostic(), a twenty-question entry test whose result is five cycle numbers rather than a band; progress_record(), the one page the learner writes on; a Teacher's Edition behind --teacher, which prints the gate-11 notes at the head of every cycle, the answer and the wrong-option lines under every question, and the audio script after every listening task; and the SPLIT table, which packages Volume 3 as 3A (units 21 to 25) and 3B (units 26 to 30). check.py and omit.py now check both forms of the Writing and Speaking papers.",
+ "items": [],
+ "item_fields": [],
+ "texts": [],
+ "new_items": true,
+ "new_texts": [
+  "wpaper3b",
+  "spaper3b"
+ ],
+ "prose": [],
+ "new_prose": [
+  "wpaper3b",
+  "spaper3b"
+ ],
+ "heads": false,
+ "measure": {},
+ "figures": {}
+}
