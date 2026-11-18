@@ -967,3 +967,254 @@ def timeline(title, events, sub='', note=''):
                anchor='middle')
     _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
+
+
+# ------------------------------------------------------------------ route
+def route(title, waypoints, legs, sub='', note='', key=()):
+    """A journey on a schematic map: named waypoints, legs with a figure on
+    each, and an optional key.
+
+    waypoints = [(name, x, y, when), ...]  x and y on a 0-1 grid, origin
+                top left; `when` prints under the name, or '' for none
+    legs      = [(from, to, label), ...] or [(from, to, label, bow), ...]
+                where bow bends the leg sideways - needed for a return
+                leg, which would otherwise be drawn on top of the outward
+                one and read as a single line
+    key       = [(label, colour index), ...]
+
+    Written for unit 81, where the passage is about migration and the
+    questions are about distances and dates - but the figure is not a
+    decoration for that passage. Both Reading and Listening set plan, map
+    and diagram labelling, and that task is unteachable from prose: a
+    learner has to have met a schematic map with a compass on it and been
+    shown that the labels are the answer bank. Volume 3 had four such
+    items in 435, which is why this exists.
+
+    **On the label placement.** The first version put each waypoint's
+    label above or below its disc and each leg's figure at the midpoint of
+    its line. Every gate passed - each run was inside the box it had asked
+    for - and the figure was unreadable, because gate 6 measures a run
+    against its own box and nothing in the series measures one box against
+    another. Five labels on a diagonal chain sat on top of each other and
+    on top of three leg figures. So this draws nothing until it has placed
+    everything: candidate positions are tried in order and the first that
+    collides with no box already placed is taken. It is the only figure in
+    the family that needs it, because it is the only one whose content
+    decides where the ink goes.
+    """
+    h = 54 + 430 + (34 if key else 0) + noteh(note)
+    g = [R(0, 0, W, h, PAPER, GREEN, 2, 12)]
+    y = _head(g, title, sub, GREEN)
+    x0, y0 = 150, y + 30
+    x1, y1 = W - 150, y + 30 + 370
+    frame = (60, y0 - 20, W - 60, y1 + 20)
+    g.append(R(frame[0], frame[1], frame[2] - frame[0], frame[3] - frame[1],
+               '#fbfdfb', GREY_L, 1.4, 8))
+
+    def at(i):
+        _nm, px, py, _wh = waypoints[i]
+        return (x0 + (x1 - x0) * float(px), y0 + (y1 - y0) * float(py))
+
+    placed = []            # boxes already committed: (x, y, w, h)
+
+    def clear(bx, by, bw, bh, pad=6):
+        if bx < frame[0] or by < frame[1]:
+            return False
+        if bx + bw > frame[2] or by + bh > frame[3]:
+            return False
+        for px, py, pw, ph in placed:
+            if (bx < px + pw + pad and px < bx + bw + pad
+                    and by < py + ph + pad and py < by + bh + pad):
+                return False
+        return True
+
+    def put(cands, bw, bh):
+        """First candidate position that collides with nothing."""
+        for bx, by in cands:
+            if clear(bx, by, bw, bh):
+                placed.append((bx, by, bw, bh))
+                return bx, by
+        bx, by = cands[-1]
+        placed.append((bx, by, bw, bh))
+        return bx, by
+
+    # The discs are obstacles for every label, so they go down first - and
+    # so is the compass, which is drawn last but occupies its corner from
+    # the start. Leaving it out of this list put "southern Ontario" on top
+    # of it the first time this figure was looked at.
+    for i in range(len(waypoints)):
+        cx, cy = at(i)
+        placed.append((cx - 11, cy - 11, 22, 22))
+    placed.append((frame[2] - 44, frame[1] + 8, 36, 36))
+
+    # ---- the lines, and where each leg's figure will go ------------------
+    legdraw = []
+    for li, leg in enumerate(legs):
+        a, b, lab = leg[0], leg[1], leg[2]
+        bow = float(leg[3]) if len(leg) > 3 else 0.0
+        ax, ay = at(a)
+        bx_, by_ = at(b)
+        col = BRANCH_COLOURS[li % len(BRANCH_COLOURS)]
+        mx, my = (ax + bx_) / 2.0, (ay + by_) / 2.0
+        dx, dy = bx_ - ax, by_ - ay
+        d = (dx * dx + dy * dy) ** 0.5 or 1.0
+        nx, ny = -dy / d, dx / d          # unit normal to the leg
+        if bow:
+            # a quadratic through a control point pushed off the chord, so
+            # a return leg is visibly its own line
+            ctrlx, ctrly = mx + nx * bow, my + ny * bow
+            g.append(P('M%g %g Q%g %g %g %g' % (ax, ay, ctrlx, ctrly,
+                                                bx_, by_), 'none', col, 3.2))
+            # the curve's own midpoint, which is halfway to the control
+            mx, my = (mx + ctrlx) / 2.0, (my + ctrly) / 2.0
+            hx, hy = ctrlx, ctrly         # the head points along the tangent
+        else:
+            g.append(L(ax, ay, bx_, by_, col, 3.2))
+            hx, hy = ax, ay
+        g.append(_arrowhead(hx, hy, bx_, by_, col))
+        legdraw.append((mx, my, nx, ny, lab, col))
+
+    # ---- the leg figures, nudged off their own line ---------------------
+    for mx, my, nx, ny, lab, col in legdraw:
+        if not lab:
+            continue
+        bw = tw(lab, 13, True) + 16
+        bh = 21
+        cands = []
+        for off in (15, 26, 38, 52, -15, -26, -38, -52):
+            cands.append((mx + nx * off - bw / 2, my + ny * off - bh / 2))
+        cands.append((mx - bw / 2, my - bh / 2))
+        bx, by = put(cands, bw, bh)
+        g.append(R(bx, by, bw, bh, PAPER, col, 1.1, 5))
+        g.append(TFIT(bx + bw / 2, by + 15, lab, 13, bw - 12, col,
+                      bold=True, anchor='middle'))
+
+    # ---- the waypoints, labelled away from their own legs ---------------
+    for i, (nm, _px, _py, when) in enumerate(waypoints):
+        cx, cy = at(i)
+        g.append(C(cx, cy, 9, PAPER, INDIGO, 3))
+        g.append(C(cx, cy, 4, INDIGO))
+        bw, bh = 152, (40 if when else 26)
+        # the mean direction of the legs touching this waypoint; the label
+        # wants to be opposite it
+        vx = vy = 0.0
+        for leg in legs:
+            if leg[0] == i:
+                ox, oy = at(leg[1])
+            elif leg[1] == i:
+                ox, oy = at(leg[0])
+            else:
+                continue
+            d = ((ox - cx) ** 2 + (oy - cy) ** 2) ** 0.5 or 1.0
+            vx += (ox - cx) / d
+            vy += (oy - cy) / d
+        d = (vx * vx + vy * vy) ** 0.5
+        order = []
+        if d > 0.01:
+            order.append((-vx / d, -vy / d))
+        order += [(-1, 0), (1, 0), (0, 1), (0, -1),
+                  (-0.7, 0.7), (-0.7, -0.7), (0.7, 0.7), (0.7, -0.7)]
+        cands = []
+        for r in (34, 50, 68, 90):
+            for ux, uy in order:
+                ex = cx + ux * (r + bw / 2 - 20)
+                ey = cy + uy * (r + bh / 2)
+                cands.append((ex - bw / 2, ey - bh / 2))
+        cands.append((min(max(cx - bw / 2, frame[0]), frame[2] - bw),
+                      cy + 16))
+        bx, by = put(cands, bw, bh)
+        g.append(R(bx, by, bw, bh, PAPER, INDIGO, 1.3, 6))
+        g.append(TFIT(bx + bw / 2, by + 18, nm, 14, bw - 12, INK, bold=True,
+                      anchor='middle'))
+        if when:
+            g.append(TFIT(bx + bw / 2, by + 34, when, 12, bw - 12, GREY,
+                          anchor='middle'))
+        # a hairline from the disc to its label, so a nudged label still
+        # says which waypoint it belongs to
+        lx = min(max(cx, bx), bx + bw)
+        ly = min(max(cy, by), by + bh)
+        if (lx - cx) ** 2 + (ly - cy) ** 2 > 196:
+            g.append(L(cx, cy, lx, ly, GREY_L, 1.2))
+
+    g.append(C(frame[2] - 26, frame[1] + 26, 15, PAPER, GREY, 1.3))
+    g.append(T(frame[2] - 26, frame[1] + 31, 'N', 14, GREY, bold=True))
+    if key:
+        ky = frame[3] + 26
+        kx = frame[0]
+        for lab, ci in key:
+            col = BRANCH_COLOURS[int(ci) % len(BRANCH_COLOURS)]
+            g.append(L(kx, ky - 5, kx + 26, ky - 5, col, 3.2))
+            g.append(T(kx + 34, ky, lab, 14, INK, anchor='start'))
+            kx += 34 + tw(lab, 14) + 28
+    _note(g, h - noteh(note) + 14, note)
+    return render(''.join(g), W, h, PAPER)
+
+
+def _arrowhead(ax, ay, bx, by, col, size=11.0):
+    """A filled head at the b end of a-b, pointing along the leg."""
+    import math
+    dx, dy = bx - ax, by - ay
+    d = math.hypot(dx, dy) or 1.0
+    ux, uy = dx / d, dy / d
+    tipx, tipy = bx - ux * 11.0, by - uy * 11.0
+    lx, ly = -uy, ux
+    return P('M%g %g L%g %g L%g %g Z'
+             % (tipx, tipy,
+                tipx - ux * size + lx * size * 0.5,
+                tipy - uy * size + ly * size * 0.5,
+                tipx - ux * size - lx * size * 0.5,
+                tipy - uy * size - ly * size * 0.5), col, col, 1)
+
+
+# ---------------------------------------------------------------- section
+def section(title, layers, sub='', note='', finds_head='What was in it'):
+    """A cross-section through stratified ground: layers top to bottom,
+    each with a depth, a name, what was found in it and a date.
+
+    layers = [(depth, name, finds, date), ...]  topmost first
+
+    This is the one figure in the family that teaches a whole idea rather
+    than a word or a shape, and the idea is the law of superposition:
+    deeper is older, so a vertical section is a timeline standing on its
+    end. A learner who has seen it drawn can answer a stratigraphy passage
+    from the diagram; one who has not reads nine paragraphs and still does
+    not know which layer came first.
+
+    Drawn with the date column on the right and the depth on the left so
+    that the eye crosses the finds on the way between them, which is the
+    reading the questions ask for.
+    """
+    rowh = 62
+    labw, datew = 92, 150
+    h = 54 + 34 + rowh * len(layers) + 26 + noteh(note)
+    g = [R(0, 0, W, h, PAPER, PLUM, 2, 12)]
+    y = _head(g, title, sub, PLUM)
+    hy = y + 24
+    g.append(TFIT(28, hy, 'DEPTH', 12, labw, PLUM, bold=True,
+                  anchor='start'))
+    g.append(TFIT(28 + labw + 14, hy, finds_head.upper(), 12, 320, PLUM,
+                  bold=True, anchor='start'))
+    g.append(TFIT(W - 28, hy, 'WHEN IT WAS LAID DOWN', 12, datew + 120,
+                  PLUM, bold=True, anchor='end'))
+    top = hy + 12
+    bandx = 28 + labw + 14
+    bandw = W - 28 - datew - 14 - bandx
+    for i, (depth, name, finds, date) in enumerate(layers):
+        ry = top + i * rowh
+        # a stack, so the layers touch: ground has no gaps in it
+        fill = [SOFT, CREAM, '#f2eef6', '#eef2f6', '#f6f1ea'][i % 5]
+        g.append(R(bandx, ry, bandw, rowh, fill, GREY_L, 1.2, 0))
+        g.append(TFIT(28, ry + 26, depth, 14, labw, GREY, anchor='start'))
+        g.append(TFIT(bandx + 12, ry + 24, name, 15, bandw - 24, INK,
+                      bold=True, anchor='start'))
+        _block(g, bandx + 12, ry + 42, finds, 13, bandw - 24, 15, GREY, 1)
+        g.append(R(W - 28 - datew, ry + 14, datew, rowh - 28, PAPER, PLUM,
+                   1.2, 6))
+        g.append(TFIT(W - 28 - datew / 2, ry + rowh / 2 + 5, date, 13, datew - 12,
+                      PLUM, bold=True, anchor='middle'))
+    # the arrow that says which way time runs, down the left margin
+    ybot = top + rowh * len(layers)
+    g.append(L(18, top + 6, 18, ybot - 6, PLUM, 2.2))
+    g.append(_arrowhead(18, top + 6, 18, ybot - 2, PLUM, 9.0))
+    _note(g, h - noteh(note) + 14, note)
+    return render(''.join(g), W, h, PAPER)

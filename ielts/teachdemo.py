@@ -305,6 +305,48 @@ TIMELINE = dict(
     note='Questions 7 to 11 are a matching-dates task. Draw this before you '
          'answer them, not after.')
 
+# Two figures written for units 81 and 82, at the lengths those units use.
+# The route is the longest-labelled one in the book - five waypoints with a
+# date under each and a leg figure between - and the section is the deepest,
+# five layers with a find list in each.
+ROUTE = dict(
+ title='The monarch butterfly: four generations north, one south',
+ sub='unit 81 cycle 4 \u00b7 the return leg is one insect',
+ waypoints=[('Michoac\u00e1n, Mexico', 0.15, 0.86, 'overwinters Nov\u2013Mar'),
+            ('central Texas', 0.34, 0.63, 'generation 1 \u00b7 March'),
+            ('Kansas', 0.52, 0.45, 'generation 2 \u00b7 May'),
+            ('the Great Lakes', 0.71, 0.27, 'generation 3 \u00b7 June'),
+            ('southern Ontario', 0.87, 0.11, 'generation 4 \u00b7 August')],
+ legs=[(0, 1, '1,200 km'), (1, 2, '900 km'), (2, 3, '1,100 km'),
+       (3, 4, '400 km'), (4, 0, '4,000 km in one flight', 150)],
+ key=[('northward, a new generation each leg', 0),
+      ('the return, flown by a single insect', 4)],
+ note='The last leg is the whole puzzle. The insect that flies south has '
+      'never been to Mexico, and the last one in its family that had was '
+      'its great-great-grandparent.')
+
+SECTION = dict(
+ title='A section through trench 4, the Brackwell dig',
+ sub='unit 82 cycle 1 \u00b7 deeper is older, every time',
+ layers=[('0\u20130.3 m', 'Topsoil and modern disturbance',
+          'plough scars, a 1974 coin, fragments of plastic sheet',
+          'after 1900'),
+         ('0.3\u20130.9 m', 'Dark loam with charcoal',
+          'a hearth, animal bone, two iron nails, coarse pottery',
+          'c. 1150\u20131300'),
+         ('0.9\u20131.4 m', 'Yellow clay, sterile',
+          'nothing at all: no bone, no charcoal, no worked stone',
+          'c. 700\u20131150'),
+         ('1.4\u20132.1 m', 'Occupation layer',
+          'post-holes, fine pottery, a bronze pin, a grain store',
+          'c. 100\u2013400'),
+         ('2.1 m and below', 'Undisturbed subsoil',
+          'no human material of any kind', 'before people')],
+ note='Read the dates upwards and the site\u2019s history is in order without '
+      'a word of prose. The sterile clay is not a gap in the record: it is '
+      'the record of four hundred years in which nobody lived here.')
+
+
 def build(path):
     d = Doc('IELTS · the pedagogic figure family',
             'teach.py, proved before any unit uses it')
@@ -378,6 +420,12 @@ def build(path):
     d.h3('20 · timeline — events on a scale')
     d.figure(*teach.timeline(TIMELINE['title'], TIMELINE['events'],
                              TIMELINE['sub'], TIMELINE['note']))
+    d.h3('21 \u00b7 route \u2014 a journey, with a figure on every leg')
+    d.figure(*teach.route(ROUTE['title'], ROUTE['waypoints'], ROUTE['legs'],
+                          ROUTE['sub'], ROUTE['note'], ROUTE['key']))
+    d.h3('22 \u00b7 section \u2014 a timeline standing on its end')
+    d.figure(*teach.section(SECTION['title'], SECTION['layers'],
+                            SECTION['sub'], SECTION['note']))
     d.save(path)
     return path
 

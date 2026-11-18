@@ -75,6 +75,11 @@ KIND_TEACHES = {
     'clock': ('timing',),
     'tracker': ('self-assessment',),
     'timeline': ('timeline',),
+    # Two figures written for units 81 and 82. A route is a map, so it
+    # declares 'plan'; a stratigraphic section is a timeline standing on
+    # its end, which is the whole thing it teaches, so it declares that.
+    'route': ('plan',),
+    'section': ('timeline',),
 }
 # Where a figure hangs. `figure`, `figure2` and `figure3` are the three a
 # block has always been able to carry; `figures` is the list a rebuilt

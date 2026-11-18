@@ -250,6 +250,17 @@ def _figure(d, spec):
         return d.figure(*teach.timeline(spec['title'], spec['events'],
                                         spec.get('sub', ''),
                                         spec.get('note', '')))
+    if k == 'route':
+        return d.figure(*teach.route(spec['title'], spec['waypoints'],
+                                     spec['legs'], spec.get('sub', ''),
+                                     spec.get('note', ''),
+                                     spec.get('key', ())))
+    if k == 'section':
+        return d.figure(*teach.section(spec['title'], spec['layers'],
+                                       spec.get('sub', ''),
+                                       spec.get('note', ''),
+                                       spec.get('finds_head',
+                                                'What was in it')))
     raise ValueError('unknown figure kind %r' % k)
 
 

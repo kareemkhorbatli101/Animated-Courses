@@ -112,7 +112,7 @@ def audit_vol(vol, rng, allfields):
         for _, V in us[i + 1:]:
             rest |= prose_words(V)
         later[n] = rest
-    for n, U in us:
+    for i, (n, U) in enumerate(us):
         tg = targets(U)
         if not tg:
             continue
@@ -126,6 +126,12 @@ def audit_vol(vol, rng, allfields):
         # still the old content would fail a unit for somebody else's
         # unfinished work. The last unit in a book is exempt for the same
         # reason: nothing comes after it.
+        # `i` is this unit's index. It used to be read from the loop
+        # above, which had already run to the end, so `us[i + 1:]` was
+        # empty for every unit and rule 1 silently never fired - a gate
+        # that printed PASS for a rule it was not applying. Found by
+        # measuring the shares by hand while adding units 81 and 82 and
+        # getting numbers the gate said did not exist.
         later_units = [m for m, _ in us[i + 1:]]
         judgeable = (later_units
                      and all(m in BINDING_UNITS for m in later_units))
