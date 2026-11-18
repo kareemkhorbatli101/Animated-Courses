@@ -1,0 +1,182 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-warm-up-1",
+  "part": 0,
+  "title": "Warm-Up",
+  "track": "warmup",
+  "label": "In-class starter · speak before you read",
+  "n": 2
+ },
+ {
+  "ord": 2,
+  "sid": "s02-vocabulary-1",
+  "part": 1,
+  "title": "Vocabulary",
+  "track": "operator",
+  "label": "Pre-class input",
+  "n": 3
+ },
+ {
+  "ord": 3,
+  "sid": "s03-vocabulary-2",
+  "part": 1,
+  "title": "Vocabulary",
+  "track": "operator",
+  "label": "Pre-class input",
+  "n": 2
+ },
+ {
+  "ord": 4,
+  "sid": "s04-grammar-1",
+  "part": 2,
+  "title": "Grammar — Indirect Questions",
+  "track": "operator",
+  "label": "Pre-class input",
+  "n": 4
+ },
+ {
+  "ord": 5,
+  "sid": "s05-grammar-2",
+  "part": 2,
+  "title": "Grammar — Indirect Questions",
+  "track": "operator",
+  "label": "Pre-class input",
+  "n": 2
+ },
+ {
+  "ord": 6,
+  "sid": "s06-listening-1",
+  "part": 3,
+  "title": "Listening",
+  "track": "operator",
+  "label": "Pre-class input · scripts printed below",
+  "n": 5
+ },
+ {
+  "ord": 7,
+  "sid": "s07-listening-2",
+  "part": 3,
+  "title": "Listening",
+  "track": "operator",
+  "label": "Pre-class input · scripts printed below",
+  "n": 3
+ },
+ {
+  "ord": 8,
+  "sid": "s08-speaking-1",
+  "part": 4,
+  "title": "Speaking",
+  "track": "operator",
+  "label": "In-class output",
+  "n": 3
+ },
+ {
+  "ord": 9,
+  "sid": "s09-speaking-2",
+  "part": 4,
+  "title": "Speaking",
+  "track": "operator",
+  "label": "In-class output",
+  "n": 2
+ },
+ {
+  "ord": 10,
+  "sid": "s10-reading-1",
+  "part": 5,
+  "title": "Reading",
+  "track": "operator",
+  "label": "Pre-class input",
+  "n": 3
+ },
+ {
+  "ord": 11,
+  "sid": "s11-reading-2",
+  "part": 5,
+  "title": "Reading",
+  "track": "operator",
+  "label": "Pre-class input",
+  "n": 1
+ },
+ {
+  "ord": 12,
+  "sid": "s12-writing-1",
+  "part": 6,
+  "title": "Writing",
+  "track": "operator",
+  "label": "In-class / homework output",
+  "n": 3
+ },
+ {
+  "ord": 13,
+  "sid": "s13-writing-2",
+  "part": 6,
+  "title": "Writing",
+  "track": "operator",
+  "label": "In-class / homework output",
+  "n": 1
+ },
+ {
+  "ord": 14,
+  "sid": "s14-management-1",
+  "part": 7,
+  "title": "Management File — Handling a Rate Query",
+  "track": "practitioner",
+  "label": "Practitioner track (optional for beginners) · experienced staff",
+  "n": 4
+ },
+ {
+  "ord": 15,
+  "sid": "s15-management-2",
+  "part": 7,
+  "title": "Management File — Handling a Rate Query",
+  "track": "practitioner",
+  "label": "Practitioner track (optional for beginners) · experienced staff",
+  "n": 2
+ },
+ {
+  "ord": 16,
+  "sid": "s16-global-case-1",
+  "part": 8,
+  "title": "Global Case Study — How Money Crosses Borders",
+  "track": "practitioner",
+  "label": "Practitioner track · read then discuss",
+  "n": 3
+ },
+ {
+  "ord": 17,
+  "sid": "s17-global-case-2",
+  "part": 8,
+  "title": "Global Case Study — How Money Crosses Borders",
+  "track": "practitioner",
+  "label": "Practitioner track · read then discuss",
+  "n": 1
+ },
+ {
+  "ord": 18,
+  "sid": "s18-branch-case-1",
+  "part": 9,
+  "title": "Branch Case Study — Manila in Focus: Money from Abroad",
+  "track": "practitioner",
+  "label": "Practitioner track · read then decide",
+  "n": 2
+ },
+ {
+  "ord": 19,
+  "sid": "s19-part-1",
+  "part": 11,
+  "title": "Syria in Focus — Money from Abroad",
+  "track": "syria",
+  "label": "Syria edition · compare with where you work",
+  "n": 3
+ },
+ {
+  "ord": 20,
+  "sid": "s20-review-1",
+  "part": 10,
+  "title": "Review & Can-Do",
+  "track": "review",
+  "label": "Homework / self-study",
+  "n": 3
+ }
+]

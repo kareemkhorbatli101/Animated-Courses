@@ -1,0 +1,49 @@
+/* ============================================================
+   English for Banking B1 — bank.css
+
+   THE COURSE'S OWN LAYER, loaded after app.css. app.css is the canonical engine
+   stylesheet, materialised from canon and identical across courses; anything this
+   course needs differently belongs here, so the engine copy stays diffable against
+   canon and the drift gate stays meaningful.
+   ============================================================ */
+
+/* A DRAWING IS SOMETHING YOU GLANCE AT, NOT SOMETHING YOU SCROLL PAST.
+   The engine renders a card visual at the full card width. These drawings are
+   200x140, so at a desktop card width that is about 770px tall - taller than the
+   viewport, pushing the exercise itself below the fold on every screen of the
+   course. Capped, and centred. */
+.card .vis-art,
+.card [class*="visual"] > svg,
+.card .vis-art > svg {
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* the printed listening scripts */
+.card .script p {
+  margin: 4px 0;
+  line-height: 1.6;
+}
+.card .script b {
+  color: var(--ink, #1f3d2b);
+}
+
+/* the unit glossary list */
+.card ul.gloss {
+  columns: 2;
+  column-gap: 26px;
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+.card ul.gloss li {
+  break-inside: avoid;
+  margin: 3px 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 720px) {
+  .card ul.gloss { columns: 1; }
+  .card .vis-art, .card .vis-art > svg { max-width: 100%; }
+}
