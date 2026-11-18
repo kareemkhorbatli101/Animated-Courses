@@ -22,12 +22,12 @@ FMS.page('u1-s21', {
       bookRef: 'Unit 1 · Part 8 · 8A',
       type: 'discuss',
       title: 'Understanding Cultural Differences in First Meetings',
-      instruction: 'You are receiving two important visitors at the ministry today:1. A French '
-        + 'cultural attaché — representing a major Western European partner2. A '
-        + 'senior Gulf Arab deputy foreign minister — representing a key Gulf '
-        + 'partnerBoth visits are important. Both require excellent first '
-        + 'impressions. But the cultural expectations are very different.In small '
-        + 'groups, discuss the following questions: (Aim for 3–4 sentences per '
+      instruction: 'You are receiving two important visitors at the ministry today:<br>1. A '
+        + 'French cultural attaché — representing a major Western European '
+        + 'partner<br>2. A senior Gulf Arab deputy foreign minister — representing a '
+        + 'key Gulf partner<br>Both visits are important. Both require excellent '
+        + 'first impressions. But the cultural expectations are very different.<br>In '
+        + 'small groups, discuss the following questions: (Aim for 3–4 sentences per '
         + 'answer.)',
       minWords: 12,
       questions: [{ q: 'What do you already know about French and Gulf Arab diplomatic customs in '
@@ -46,11 +46,11 @@ FMS.page('u1-s21', {
       coach: {
         title: 'Compare with the book',
         target: 'Present simple and present continuous',
-        task: 'You are receiving two important visitors at the ministry today:1. A French '
-        + 'cultural attaché — representing a major Western European partner2. A '
-        + 'senior Gulf Arab deputy foreign minister — representing a key Gulf '
-        + 'partnerBoth visits are important. Both require excellent first '
-        + 'impressions. But the cultural expectations are very different.In small '
+        task: 'You are receiving two important visitors at the ministry today: 1. A '
+        + 'French cultural attaché — representing a major Western European partner 2. '
+        + 'A senior Gulf Arab deputy foreign minister — representing a key Gulf '
+        + 'partner Both visits are important. Both require excellent first '
+        + 'impressions. But the cultural expectations are very different. In small '
         + 'groups, discuss the following questions: (Aim for 3–4 sentences per '
         + 'answer.)',
         parts: ['What do you already know about French and Gulf Arab diplomatic customs in '

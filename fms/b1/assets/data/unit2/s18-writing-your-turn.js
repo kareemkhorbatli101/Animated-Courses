@@ -20,22 +20,23 @@ FMS.page('u2-s18', {
       bookRef: 'Unit 2 · Part 6 · 6D',
       type: 'writer',
       title: 'Your Turn: Write a Meeting Confirmation Email (80–100 words)',
-      instruction: 'Before You Write — Plan in three steps before you start:Step 1: Decide on '
-        + 'your context. Choose a meeting you are coordinating — use a name from this '
-        + 'unit (e.g., Morocco–France Cultural, Morocco–Sweden Environment) or create '
-        + 'your own.Step 2: List the key details — recipient\'s name, meeting date, '
-        + 'time, location, one requirement (use a modal verb), and one next step you '
-        + 'will take.Step 3: Choose your closing — what action do you want the '
-        + 'recipient to take? (e.g., confirm receipt, reply with participant list, '
-        + 'check clearance)Now write your confirmation email. Your email must '
-        + 'include:• Subject line• Formal greeting with the officer\'s name• '
-        + 'Confirmation of meeting date, time, and location• A key requirement using '
-        + 'a modal verb (must / should / may / can)• A next step you will take before '
-        + 'the meeting• A professional closingPeer Feedback Activity:Exchange your '
-        + 'email with a partner and check:• Is the tone formal and professional '
-        + 'throughout?• Are modal verbs used correctly?• Are all key details clearly '
-        + 'stated (date, time, location)?• Is there a clear next step or action '
-        + 'point?• Are there any spelling or punctuation errors?',
+      instruction: 'Before You Write — Plan in three steps before you start:<br>Step 1: Decide '
+        + 'on your context. Choose a meeting you are coordinating — use a name from '
+        + 'this unit (e.g., Morocco–France Cultural, Morocco–Sweden Environment) or '
+        + 'create your own.<br>Step 2: List the key details — recipient\'s name, '
+        + 'meeting date, time, location, one requirement (use a modal verb), and one '
+        + 'next step you will take.<br>Step 3: Choose your closing — what action do '
+        + 'you want the recipient to take? (e.g., confirm receipt, reply with '
+        + 'participant list, check clearance)<br>Now write your confirmation email. '
+        + 'Your email must include:<br>• Subject line<br>• Formal greeting with the '
+        + 'officer\'s name<br>• Confirmation of meeting date, time, and location<br>• '
+        + 'A key requirement using a modal verb (must / should / may / can)<br>• A '
+        + 'next step you will take before the meeting<br>• A professional '
+        + 'closing<br>Peer Feedback Activity:<br>Exchange your email with a partner '
+        + 'and check:<br>• Is the tone formal and professional throughout?<br>• Are '
+        + 'modal verbs used correctly?<br>• Are all key details clearly stated (date, '
+        + 'time, location)?<br>• Is there a clear next step or action point?<br>• Are '
+        + 'there any spelling or punctuation errors?',
       paras: [{ label: 'How you open',
             purpose: 'One sentence that says who you are.' },
         { label: 'The body',
@@ -44,22 +45,22 @@ FMS.page('u2-s18', {
             purpose: 'One sentence that says what happens next.' }],
       minWords: 40,
       scaffold: {
-        task: 'Before You Write — Plan in three steps before you start:Step 1: Decide on '
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Decide on '
         + 'your context. Choose a meeting you are coordinating — use a name from this '
         + 'unit (e.g., Morocco–France Cultural, Morocco–Sweden Environment) or create '
-        + 'your own.Step 2: List the key details — recipient\'s name, meeting date, '
+        + 'your own. Step 2: List the key details — recipient\'s name, meeting date, '
         + 'time, location, one requirement (use a modal verb), and one next step you '
-        + 'will take.Step 3: Choose your closing — what action do you want the '
+        + 'will take. Step 3: Choose your closing — what action do you want the '
         + 'recipient to take? (e.g., confirm receipt, reply with participant list, '
-        + 'check clearance)Now write your confirmation email. Your email must '
-        + 'include:• Subject line• Formal greeting with the officer\'s name• '
-        + 'Confirmation of meeting date, time, and location• A key requirement using '
-        + 'a modal verb (must / should / may / can)• A next step you will take before '
-        + 'the meeting• A professional closingPeer Feedback Activity:Exchange your '
-        + 'email with a partner and check:• Is the tone formal and professional '
-        + 'throughout?• Are modal verbs used correctly?• Are all key details clearly '
-        + 'stated (date, time, location)?• Is there a clear next step or action '
-        + 'point?• Are there any spelling or punctuation errors?',
+        + 'check clearance) Now write your confirmation email. Your email must '
+        + 'include: • Subject line • Formal greeting with the officer\'s name • '
+        + 'Confirmation of meeting date, time, and location • A key requirement using '
+        + 'a modal verb (must / should / may / can) • A next step you will take '
+        + 'before the meeting • A professional closing Peer Feedback Activity: '
+        + 'Exchange your email with a partner and check: • Is the tone formal and '
+        + 'professional throughout? • Are modal verbs used correctly? • Are all key '
+        + 'details clearly stated (date, time, location)? • Is there a clear next '
+        + 'step or action point? • Are there any spelling or punctuation errors?',
         words: ['Your Turn: Write a Meeting Confirmation Email (80–100 words)'],
         must: ['opens with who you are?',
           'uses this unit\'s vocabulary?',
@@ -75,22 +76,22 @@ FMS.page('u2-s18', {
       bookRef: 'Unit 2 · Part 6 · 6E',
       type: 'writer',
       title: 'Optional Extension: Write a Post-Meeting Summary',
-      instruction: 'Before You Write — Plan in three steps before you start:Step 1: Choose '
+      instruction: 'Before You Write — Plan in three steps before you start:<br>Step 1: Choose '
         + 'your meeting. Use the Morocco–Germany session from the reading, or create '
         + 'a new bilateral session (e.g., Morocco–France, Morocco–Italy). Decide on: '
-        + 'meeting name, date, two or three participants from each side.Step 2: List '
-        + 'the content — two or three topics discussed, one formal outcome (a signed '
-        + 'document, a decision, or a commitment), and two next steps with a '
-        + 'responsible person for each.Step 3: Choose your tone — formal and neutral. '
-        + 'This is an official record. Do not write "I think" or "we felt." Write '
-        + '"Both sides agreed..." or "The session concluded with..."Now write your '
-        + 'post-meeting summary (5–7 sentences). Your summary should include:• '
-        + 'Meeting name, date, and participants (abbreviated)• The main topics '
-        + 'discussed• At least one formal outcome (agreement, decision, signed '
-        + 'document, or commitment)• Next steps and who is responsible for each• The '
-        + 'date by which the next communication is expectedUse formal, neutral '
-        + 'language — a post-meeting summary is an official record, not a personal '
-        + 'account.',
+        + 'meeting name, date, two or three participants from each side.<br>Step 2: '
+        + 'List the content — two or three topics discussed, one formal outcome (a '
+        + 'signed document, a decision, or a commitment), and two next steps with a '
+        + 'responsible person for each.<br>Step 3: Choose your tone — formal and '
+        + 'neutral. This is an official record. Do not write "I think" or "we felt." '
+        + 'Write "Both sides agreed..." or "The session concluded with..."<br>Now '
+        + 'write your post-meeting summary (5–7 sentences). Your summary should '
+        + 'include:<br>• Meeting name, date, and participants (abbreviated)<br>• The '
+        + 'main topics discussed<br>• At least one formal outcome (agreement, '
+        + 'decision, signed document, or commitment)<br>• Next steps and who is '
+        + 'responsible for each<br>• The date by which the next communication is '
+        + 'expected<br>Use formal, neutral language — a post-meeting summary is an '
+        + 'official record, not a personal account.',
       paras: [{ label: 'How you open',
             purpose: 'One sentence that says who you are.' },
         { label: 'The body',
@@ -99,20 +100,20 @@ FMS.page('u2-s18', {
             purpose: 'One sentence that says what happens next.' }],
       minWords: 40,
       scaffold: {
-        task: 'Before You Write — Plan in three steps before you start:Step 1: Choose '
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Choose '
         + 'your meeting. Use the Morocco–Germany session from the reading, or create '
         + 'a new bilateral session (e.g., Morocco–France, Morocco–Italy). Decide on: '
-        + 'meeting name, date, two or three participants from each side.Step 2: List '
+        + 'meeting name, date, two or three participants from each side. Step 2: List '
         + 'the content — two or three topics discussed, one formal outcome (a signed '
         + 'document, a decision, or a commitment), and two next steps with a '
-        + 'responsible person for each.Step 3: Choose your tone — formal and neutral. '
-        + 'This is an official record. Do not write "I think" or "we felt." Write '
-        + '"Both sides agreed..." or "The session concluded with..."Now write your '
-        + 'post-meeting summary (5–7 sentences). Your summary should include:• '
-        + 'Meeting name, date, and participants (abbreviated)• The main topics '
-        + 'discussed• At least one formal outcome (agreement, decision, signed '
-        + 'document, or commitment)• Next steps and who is responsible for each• The '
-        + 'date by which the next communication is expectedUse formal, neutral '
+        + 'responsible person for each. Step 3: Choose your tone — formal and '
+        + 'neutral. This is an official record. Do not write "I think" or "we felt." '
+        + 'Write "Both sides agreed..." or "The session concluded with..." Now write '
+        + 'your post-meeting summary (5–7 sentences). Your summary should include: • '
+        + 'Meeting name, date, and participants (abbreviated) • The main topics '
+        + 'discussed • At least one formal outcome (agreement, decision, signed '
+        + 'document, or commitment) • Next steps and who is responsible for each • '
+        + 'The date by which the next communication is expected Use formal, neutral '
         + 'language — a post-meeting summary is an official record, not a personal '
         + 'account.',
         words: ['Optional Extension: Write a Post-Meeting Summary'],

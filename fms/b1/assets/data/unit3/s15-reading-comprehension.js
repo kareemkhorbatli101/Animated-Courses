@@ -97,7 +97,7 @@ FMS.page('u3-s15', {
         + 'construction. Complete each sentence with the correct word. Notice how '
         + 'passive voice focuses on the action and outcome rather than the person who '
         + 'acted — this is the register you will use in your press statement in Part '
-        + '6. Word list',
+        + '6.<br>Word list',
       text: '<div style="font-size:16px;line-height:2.5">'
         + '1. Within the first twelve months, diplomatic contacts were [[1]] or '
           + 'upgraded with more than twenty countries, including partners from Europe, '

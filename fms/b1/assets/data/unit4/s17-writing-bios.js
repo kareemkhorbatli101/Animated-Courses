@@ -22,15 +22,15 @@ FMS.page('u4-s17', {
       title: 'Write a Formal Invitation',
       instruction: 'Write a formal English invitation (80–100 words) from the Kazakh Ministry '
         + 'of Foreign Affairs to the German Ambassador, inviting him to a Cultural '
-        + 'Heritage Cooperation signing ceremony.Given information:• Host: Kazakh '
-        + 'Ministry of Foreign Affairs• Guest: His Excellency the Ambassador of the '
-        + 'Federal Republic of Germany, Astana• Event: Signing ceremony of the '
-        + 'Kazakhstan–Germany Cultural Heritage Cooperation Protocol• Date: '
-        + 'Wednesday, 25 June 2025• Time: 11:00 a.m.• Venue: Reception Hall, Ministry '
-        + 'of Foreign Affairs, Astana• Additional: Formal reception to follow; '
-        + 'interpretation availableFormat: You may write this as a note verbale '
-        + '(third person) or as a formal letter (first person) — state your choice at '
-        + 'the top.',
+        + 'Heritage Cooperation signing ceremony.<br>Given information:<br>• Host: '
+        + 'Kazakh Ministry of Foreign Affairs<br>• Guest: His Excellency the '
+        + 'Ambassador of the Federal Republic of Germany, Astana<br>• Event: Signing '
+        + 'ceremony of the Kazakhstan–Germany Cultural Heritage Cooperation '
+        + 'Protocol<br>• Date: Wednesday, 25 June 2025<br>• Time: 11:00 a.m.<br>• '
+        + 'Venue: Reception Hall, Ministry of Foreign Affairs, Astana<br>• '
+        + 'Additional: Formal reception to follow; interpretation '
+        + 'available<br>Format: You may write this as a note verbale (third person) '
+        + 'or as a formal letter (first person) — state your choice at the top.',
       paras: [{ label: 'How you open',
             purpose: 'One sentence that says who you are.' },
         { label: 'The body',
@@ -41,15 +41,15 @@ FMS.page('u4-s17', {
       scaffold: {
         task: 'Write a formal English invitation (80–100 words) from the Kazakh Ministry '
         + 'of Foreign Affairs to the German Ambassador, inviting him to a Cultural '
-        + 'Heritage Cooperation signing ceremony.Given information:• Host: Kazakh '
-        + 'Ministry of Foreign Affairs• Guest: His Excellency the Ambassador of the '
-        + 'Federal Republic of Germany, Astana• Event: Signing ceremony of the '
-        + 'Kazakhstan–Germany Cultural Heritage Cooperation Protocol• Date: '
-        + 'Wednesday, 25 June 2025• Time: 11:00 a.m.• Venue: Reception Hall, Ministry '
-        + 'of Foreign Affairs, Astana• Additional: Formal reception to follow; '
-        + 'interpretation availableFormat: You may write this as a note verbale '
-        + '(third person) or as a formal letter (first person) — state your choice at '
-        + 'the top.',
+        + 'Heritage Cooperation signing ceremony. Given information: • Host: Kazakh '
+        + 'Ministry of Foreign Affairs • Guest: His Excellency the Ambassador of the '
+        + 'Federal Republic of Germany, Astana • Event: Signing ceremony of the '
+        + 'Kazakhstan–Germany Cultural Heritage Cooperation Protocol • Date: '
+        + 'Wednesday, 25 June 2025 • Time: 11:00 a.m. • Venue: Reception Hall, '
+        + 'Ministry of Foreign Affairs, Astana • Additional: Formal reception to '
+        + 'follow; interpretation available Format: You may write this as a note '
+        + 'verbale (third person) or as a formal letter (first person) — state your '
+        + 'choice at the top.',
         words: ['Write a Formal Invitation'],
         must: ['opens with who you are?',
           'uses this unit\'s vocabulary?',

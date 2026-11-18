@@ -35,39 +35,40 @@ FMS.page('u5-s20', {
       bookRef: 'Unit 5 · Part 7 · 7D',
       type: 'report',
       title: 'Practice and Record',
-      instruction: 'Record your investment briefing opening (30–40 seconds). Include:• Welcome '
-        + 'the investor delegation• Introduce yourself and your role• State the key '
-        + 'investment opportunity in one sentence• Use at least one First Conditional '
-        + 'to offer a clear next stepListen back and check:• Did you stress key '
-        + 'content words clearly — especially in conditional clauses?• Was your '
-        + 'rise-fall rhythm on conditionals natural and confident?• Did you pause '
-        + 'between the if-clause and the result clause?• Did you sound confident and '
-        + 'professional — not rushed or flat?Record a second version if needed. '
-        + 'Compare the two and identify the specific improvement.',
+      instruction: 'Record your investment briefing opening (30–40 seconds). Include:<br>• '
+        + 'Welcome the investor delegation<br>• Introduce yourself and your role<br>• '
+        + 'State the key investment opportunity in one sentence<br>• Use at least one '
+        + 'First Conditional to offer a clear next step<br>Listen back and '
+        + 'check:<br>• Did you stress key content words clearly — especially in '
+        + 'conditional clauses?<br>• Was your rise-fall rhythm on conditionals '
+        + 'natural and confident?<br>• Did you pause between the if-clause and the '
+        + 'result clause?<br>• Did you sound confident and professional — not rushed '
+        + 'or flat?<br>Record a second version if needed. Compare the two and '
+        + 'identify the specific improvement.',
       minWords: 40,
       placeholder: 'I would like to say that…',
       stems: ['I would like to say that…'],
       coach: {
         title: 'Compare with the book',
         target: 'Conditionals and the language of commitment',
-        task: 'Record your investment briefing opening (30–40 seconds). Include:• Welcome '
-        + 'the investor delegation• Introduce yourself and your role• State the key '
-        + 'investment opportunity in one sentence• Use at least one First Conditional '
-        + 'to offer a clear next stepListen back and check:• Did you stress key '
-        + 'content words clearly — especially in conditional clauses?• Was your '
-        + 'rise-fall rhythm on conditionals natural and confident?• Did you pause '
-        + 'between the if-clause and the result clause?• Did you sound confident and '
-        + 'professional — not rushed or flat?Record a second version if needed. '
-        + 'Compare the two and identify the specific improvement.',
-        parts: ['Record your investment briefing opening (30–40 seconds). Include:• Welcome '
-          + 'the investor delegation• Introduce yourself and your role• State the key '
-          + 'investment opportunity in one sentence• Use at least one First Conditional '
-          + 'to offer a clear next stepListen back and check:• Did you stress key '
-          + 'content words clearly — especially in conditional clauses?• Was your '
-          + 'rise-fall rhythm on conditionals natural and confident?• Did you pause '
-          + 'between the if-clause and the result clause?• Did you sound confident and '
-          + 'professional — not rushed or flat?Record a second version if needed. '
-          + 'Compare the two and identify the specific improvement.'],
+        task: 'Record your investment briefing opening (30–40 seconds). Include: • '
+        + 'Welcome the investor delegation • Introduce yourself and your role • State '
+        + 'the key investment opportunity in one sentence • Use at least one First '
+        + 'Conditional to offer a clear next step Listen back and check: • Did you '
+        + 'stress key content words clearly — especially in conditional clauses? • '
+        + 'Was your rise-fall rhythm on conditionals natural and confident? • Did you '
+        + 'pause between the if-clause and the result clause? • Did you sound '
+        + 'confident and professional — not rushed or flat? Record a second version '
+        + 'if needed. Compare the two and identify the specific improvement.',
+        parts: ['Record your investment briefing opening (30–40 seconds). Include: • '
+          + 'Welcome the investor delegation • Introduce yourself and your role • State '
+          + 'the key investment opportunity in one sentence • Use at least one First '
+          + 'Conditional to offer a clear next step Listen back and check: • Did you '
+          + 'stress key content words clearly — especially in conditional clauses? • '
+          + 'Was your rise-fall rhythm on conditionals natural and confident? • Did you '
+          + 'pause between the if-clause and the result clause? • Did you sound '
+          + 'confident and professional — not rushed or flat? Record a second version '
+          + 'if needed. Compare the two and identify the specific improvement.'],
         example: ['Stress: WEL-come, your NAME, your ROLE, the SEC-tor, and the conditional '
             + 'verb. Warm on the welcome, falling on the declarations, rise-then-fall on '
             + 'the conditional. Pace: steady, with a real pause before the next step you '

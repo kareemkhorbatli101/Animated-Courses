@@ -24,30 +24,30 @@ FMS.page('u5-s16', {
       instruction: 'Press a paragraph button to hear it read.',
       html: '<div class="reading" style="font-size:16.5px;line-height:1.95">'
         + '<p>' + 'Formal Invitation Letter to a Business Delegation' + '</p>'
-        + '<p>' + 'Word list: a) honour b) explore c) attends' + '</p>'
-        + '<p>' + 'Follow-Up Email After an Investment Meeting' + '</p>'
-        + '<p>' + 'Word list: a) discussion b) document c) hesitate' + '</p>'
-        + '<p>' + 'Briefing Note Introduction – Priority Investment Sectors' + '</p>'
-        + '<p>' + 'Word list: a) presents b) contains c) detailed' + '</p>'
-        + '<p>' + 'Dear Mr. Richter, On behalf of the Ministry of Foreign Affairs, I have the '
-          + '____________________ of inviting you and your delegation to participate in '
-          + 'the National Development and Investment Forum, to be held in Addis Ababa '
-          + 'on 14–15 October 2025. The Forum will bring together international '
-          + 'investors, development partners, and government officials to '
+        + '<p>' + '1. Dear Mr. Richter, On behalf of the Ministry of Foreign Affairs, I have '
+          + 'the ____________________ of inviting you and your delegation to '
+          + 'participate in the National Development and Investment Forum, to be held '
+          + 'in Addis Ababa on 14–15 October 2025. The Forum will bring together '
+          + 'international investors, development partners, and government officials to '
           + '____________________ investment opportunities across the country\'s '
           + 'priority development sectors. We believe that if your delegation '
           + '____________________ the Forum, you will find the conversations highly '
           + 'productive and the investment landscape more advanced than you may expect. '
           + 'We look forward to welcoming you to Addis Ababa. Yours sincerely, Dawit '
           + 'Bekele' + '</p>'
-        + '<p>' + 'Dear Ms. Al-Sayed, Thank you for your visit to the Ministry yesterday and '
-          + 'for the constructive ____________________ we had regarding agricultural '
-          + 'investment opportunities in our country. As agreed, I am attaching the '
-          + 'full legal framework ____________________ for the Awash Valley joint '
-          + 'venture zone. If you have any questions after reviewing it, please do not '
-          + '____________________ to contact me directly. I look forward to arranging '
-          + 'your meeting with the Investment Promotion Agency at a time that is '
-          + 'convenient for you. Best regards, Dawit Bekele' + '</p>'
+        + '<p>' + 'Word list: a) honour b) explore c) attends' + '</p>'
+        + '<p>' + 'Follow-Up Email After an Investment Meeting' + '</p>'
+        + '<p>' + '2. Dear Ms. Al-Sayed, Thank you for your visit to the Ministry yesterday '
+          + 'and for the constructive ____________________ we had regarding '
+          + 'agricultural investment opportunities in our country. As agreed, I am '
+          + 'attaching the full legal framework ____________________ for the Awash '
+          + 'Valley joint venture zone. If you have any questions after reviewing it, '
+          + 'please do not ____________________ to contact me directly. I look forward '
+          + 'to arranging your meeting with the Investment Promotion Agency at a time '
+          + 'that is convenient for you. Best regards, Dawit Bekele' + '</p>'
+        + '<p>' + 'Word list: a) discussion b) document c) hesitate' + '</p>'
+        + '<p>' + 'Briefing Note Introduction – Priority Investment Sectors' + '</p>'
+        + '<p>' + 'Word list: a) presents b) contains c) detailed' + '</p>'
         + '<p>' + 'This briefing note ____________________ an overview of the country\'s '
           + 'three highest-priority investment sectors for the 2025–2026 period: '
           + 'infrastructure, energy, and agriculture. Each sector ____________________ '
@@ -58,9 +58,19 @@ FMS.page('u5-s16', {
         + '</div>',
       doneLabel: 'I have read this',
       playable: ['Formal Invitation Letter to a Business Delegation',
+        '1. Dear Mr. Richter, On behalf of the Ministry of Foreign Affairs, I have '
+          + 'the ____________________ of inviting you and your delegation to '
+          + 'participate in the National Development and Investment Forum, to be held '
+          + 'in Addis Ababa on 14–15 October 2025. The Forum will bring together '
+          + 'international investors, development partners, and government officials to '
+          + '____________________ investment opportunities across the country\'s '
+          + 'priority development sectors. We believe that if your delegation '
+          + '____________________ the Forum, you will find the conversations highly '
+          + 'productive and the investment landscape more advanced than you may expect. '
+          + 'We look forward to welcoming you to Addis Ababa. Yours sincerely, Dawit '
+          + 'Bekele',
         'Word list: a) honour b) explore c) attends',
-        'Follow-Up Email After an Investment Meeting',
-        'Word list: a) discussion b) document c) hesitate'],
+        'Follow-Up Email After an Investment Meeting'],
       visual: { spot: 'email-anatomy', wide: true }
     },
     {

@@ -23,15 +23,15 @@ FMS.page('u3-s22', {
       title: 'Role-Play: Three Questions from a Foreign Correspondent',
       instruction: 'Work in pairs. Student A is Valentina Restrepo, Ministry Press Attaché. '
         + 'Student B is a Spanish correspondent from El País. Handle three successive '
-        + 'challenging questions professionally, using phrases from this unit.The '
-        + 'correspondent asks:Question 1: "Your ministry says it has signed many '
+        + 'challenging questions professionally, using phrases from this unit.<br>The '
+        + 'correspondent asks:<br>Question 1: "Your ministry says it has signed many '
         + 'bilateral agreements. But are these real partnerships or just paper '
-        + 'deals?"Question 2: "Your returning-citizens program — how many people have '
-        + 'actually returned, not just applied?"Question 3: "Some civil society '
-        + 'organizations say the consultation process is not genuine. How do you '
-        + 'respond?"Guidance: Acknowledge the question, use passive voice where '
-        + 'appropriate, provide a specific answer, and never become defensive or '
-        + 'emotional.',
+        + 'deals?"<br>Question 2: "Your returning-citizens program — how many people '
+        + 'have actually returned, not just applied?"<br>Question 3: "Some civil '
+        + 'society organizations say the consultation process is not genuine. How do '
+        + 'you respond?"<br>Guidance: Acknowledge the question, use passive voice '
+        + 'where appropriate, provide a specific answer, and never become defensive '
+        + 'or emotional.',
       scene: 'u3-8c',
       roles: [{ who: 'visitor', label: 'Card A · the visitor' },
         { who: 'valentina', label: 'Card B · Valentina' }],
@@ -93,17 +93,18 @@ FMS.page('u3-s22', {
       title: 'Role-Play: Briefing a Gulf Arab Diplomatic Official',
       instruction: 'Work in pairs. Student A is Andrés Gaviria, Economic Affairs Specialist. '
         + 'Student B is a senior Gulf Arab diplomatic official visiting for a private '
-        + 'bilateral briefing on investment opportunities.Context: The meeting is in '
-        + 'the ministry\'s formal reception room. The official is accompanied by one '
-        + 'adviser. The atmosphere is warm and formal. The official begins with '
+        + 'bilateral briefing on investment opportunities.<br>Context: The meeting is '
+        + 'in the ministry\'s formal reception room. The official is accompanied by '
+        + 'one adviser. The atmosphere is warm and formal. The official begins with '
         + 'social conversation before moving to business — Andrés must follow his '
-        + 'lead.Practice:1. Welcome the official with appropriate formal language and '
-        + 'warmth2. Allow the official to set the pace — do not rush to the agenda3. '
-        + 'When the official moves to business, present the investment framework with '
-        + 'clarity and confidence4. The official asks one direct private question: '
-        + '"Tell me honestly — is the regulatory environment stable enough for major '
-        + 'investment right now?"Guidance: Andrés gives an honest but forward-looking '
-        + 'private answer — not evasion, not promotion.',
+        + 'lead.<br>Practice:<br>1. Welcome the official with appropriate formal '
+        + 'language and warmth<br>2. Allow the official to set the pace — do not rush '
+        + 'to the agenda<br>3. When the official moves to business, present the '
+        + 'investment framework with clarity and confidence<br>4. The official asks '
+        + 'one direct private question: "Tell me honestly — is the regulatory '
+        + 'environment stable enough for major investment right now?"<br>Guidance: '
+        + 'Andrés gives an honest but forward-looking private answer — not evasion, '
+        + 'not promotion.',
       minWords: 40,
       placeholder: 'I would like to say that…',
       stems: ['I would like to say that…']

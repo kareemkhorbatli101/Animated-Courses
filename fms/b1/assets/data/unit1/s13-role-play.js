@@ -26,17 +26,17 @@ FMS.page('u1-s13', {
         + 'foreign delegates before the official program begins. Introduce yourself '
         + 'to two other participants. Use your real position or one of the ministry '
         + 'staff cards below. Take brief notes on who you meet and what they do. '
-        + '(Each introduction: 3–4 sentences.)Self-Introduction Template:"Good '
-        + 'evening. My name is ___. I am a ___ at the Vietnamese Ministry of Foreign '
-        + 'Affairs. I work in ___. Right now, I am ___. It is a pleasure to meet '
-        + 'you."Card 1: Le Quang Huy — Economic Affairs Specialist, Vietnamese MFA — '
-        + 'currently coordinating the national investment facilitation frameworkCard '
-        + '2: Pham Thi Mai — Protocol Officer, Vietnamese MFA — organizing the '
-        + 'Forum\'s official events and all delegation schedulesCard 3: Tran Thu Ha — '
-        + 'Press Attaché, Vietnamese MFA — managing media coverage and international '
-        + 'press access for the ForumCard 4: Nguyen Van Duc — Consular Affairs '
-        + 'Officer, Vietnamese MFA — managing diplomatic visa processing for all '
-        + 'Forum participants',
+        + '(Each introduction: 3–4 sentences.)<br>Self-Introduction '
+        + 'Template:<br>"Good evening. My name is ___. I am a ___ at the Vietnamese '
+        + 'Ministry of Foreign Affairs. I work in ___. Right now, I am ___. It is a '
+        + 'pleasure to meet you."<br>Card 1: Le Quang Huy — Economic Affairs '
+        + 'Specialist, Vietnamese MFA — currently coordinating the national '
+        + 'investment facilitation framework<br>Card 2: Pham Thi Mai — Protocol '
+        + 'Officer, Vietnamese MFA — organizing the Forum\'s official events and all '
+        + 'delegation schedules<br>Card 3: Tran Thu Ha — Press Attaché, Vietnamese '
+        + 'MFA — managing media coverage and international press access for the '
+        + 'Forum<br>Card 4: Nguyen Van Duc — Consular Affairs Officer, Vietnamese MFA '
+        + '— managing diplomatic visa processing for all Forum participants',
       scene: 'u1-4b',
       roles: [{ who: 'huy', label: 'Card A · Huy' },
         { who: 'mai', label: 'Card B · Mai' }],

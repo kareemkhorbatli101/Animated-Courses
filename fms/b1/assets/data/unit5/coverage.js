@@ -45,7 +45,7 @@ FMS.coverage('unit5', [
     keyed: true, scene: false, title: 'Reading Comprehension: Discussion Questions' },
   { code: '5C', ord: 22, type: 'cloze', kind: 'full', items: 6,
     keyed: true, scene: false, title: 'Language in Context: Conditional Structures in Investment Writing' },
-  { code: '6A', ord: 23, type: 'study', kind: 'full', items: 3,
+  { code: '6A', ord: 23, type: 'study', kind: 'full', items: 1,
     keyed: true, scene: false, title: 'Model Writing – Sample Investment Correspondence' },
   { code: '6C', ord: 25, type: 'dragmatch', kind: 'full', items: 0,
     keyed: false, scene: false, title: 'Analyse the Parts of a Formal Investment Letter' },

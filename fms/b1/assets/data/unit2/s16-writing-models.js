@@ -23,12 +23,7 @@ FMS.page('u2-s16', {
       instruction: 'Press a paragraph button to hear it read.',
       html: '<div class="reading" style="font-size:16.5px;line-height:1.95">'
         + '<p>' + 'Document 1: Meeting Confirmation Email' + '</p>'
-        + '<p>' + 'Word list: a) note b) session c) must' + '</p>'
-        + '<p>' + 'Document 2: Rescheduling Request' + '</p>'
-        + '<p>' + 'Word list: a) propose b) convenience c) scheduled' + '</p>'
-        + '<p>' + 'Document 3: Post-Meeting Summary Excerpt' + '</p>'
-        + '<p>' + 'Word list: a) delegation b) committed c) grants' + '</p>'
-        + '<p>' + 'Dear Ms. Braun, I am writing to confirm the arrangements for the '
+        + '<p>' + '1. Dear Ms. Braun, I am writing to confirm the arrangements for the '
           + 'Morocco–Germany Infrastructure Cooperation Working Group '
           + '____________________ on Tuesday, 14 March 2025, at 10:00 a.m., in '
           + 'Conference Room B, Ministry of Foreign Affairs, Rabat. All participants '
@@ -37,15 +32,19 @@ FMS.page('u2-s16', {
           + 'technical session in the afternoon. I will send a final logistics '
           + '____________________ by Monday morning. Yours sincerely, Salma Benali, '
           + 'Protocol and Liaison Officer' + '</p>'
-        + '<p>' + 'Dear Mr. Richter, I am writing to inform you that the working group '
+        + '<p>' + 'Word list: a) note b) session c) must' + '</p>'
+        + '<p>' + 'Document 2: Rescheduling Request' + '</p>'
+        + '<p>' + '2. Dear Mr. Richter, I am writing to inform you that the working group '
           + 'session originally ____________________ for Tuesday at ten o\'clock must '
           + 'be rescheduled due to an urgent ministerial commitment on our side. We '
           + '____________________ the session to take place on Wednesday at the same '
           + 'time and in the same location. We apologize for any inconvenience and are '
           + 'grateful for your understanding. Please confirm at your earliest '
           + '____________________. Best regards, Salma Benali' + '</p>'
-        + '<p>' + 'Post-Meeting Summary — Morocco–Germany Infrastructure Working Group Date: '
-          + 'Tuesday, 14 March 2025 Participants: [see attached list] The session '
+        + '<p>' + 'Word list: a) propose b) convenience c) scheduled' + '</p>'
+        + '<p>' + 'Document 3: Post-Meeting Summary Excerpt' + '</p>'
+        + '<p>' + '3. Post-Meeting Summary — Morocco–Germany Infrastructure Working Group '
+          + 'Date: Tuesday, 14 March 2025 Participants: [see attached list] The session '
           + 'opened at 10:00 a.m. with formal statements from both ____________________ '
           + 'leads. The morning session addressed rail network modernization in '
           + 'priority regions. The afternoon session covered water infrastructure '
@@ -53,12 +52,21 @@ FMS.page('u2-s16', {
           + 'leads signed an aide-mémoire establishing the joint technical monitoring '
           + 'committee. Both sides ____________________ to hold a second working group '
           + 'session within three months.' + '</p>'
+        + '<p>' + 'Word list: a) delegation b) committed c) grants' + '</p>'
         + '</div>',
       doneLabel: 'I have read this',
       playable: ['Document 1: Meeting Confirmation Email',
+        '1. Dear Ms. Braun, I am writing to confirm the arrangements for the '
+          + 'Morocco–Germany Infrastructure Cooperation Working Group '
+          + '____________________ on Tuesday, 14 March 2025, at 10:00 a.m., in '
+          + 'Conference Room B, Ministry of Foreign Affairs, Rabat. All participants '
+          + '____________________ present a valid form of official identification at '
+          + 'the security desk. Interpretation into German will be available for the '
+          + 'technical session in the afternoon. I will send a final logistics '
+          + '____________________ by Monday morning. Yours sincerely, Salma Benali, '
+          + 'Protocol and Liaison Officer',
         'Word list: a) note b) session c) must',
-        'Document 2: Rescheduling Request',
-        'Word list: a) propose b) convenience c) scheduled'],
+        'Document 2: Rescheduling Request'],
       visual: { spot: 'email-anatomy', wide: true }
     },
     {

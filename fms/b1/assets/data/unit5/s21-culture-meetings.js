@@ -21,17 +21,17 @@ FMS.page('u5-s21', {
       bookRef: 'Unit 5 · Part 8 · 8A',
       type: 'discuss',
       title: 'Understanding Business Culture Differences in Investment Meetings',
-      instruction: 'You are hosting two important investment meetings today:1. Klaus Richter — '
-        + 'German investor, Richter Infrastructure GmbH — data-driven, direct, '
-        + 'experienced in East African and Middle Eastern markets2. Ms. Fatima '
-        + 'Al-Sayed — Investment Director, Gulf Development Fund, Kuwait — first '
-        + 'visit, relationship-oriented, representing a sovereign fund with a long '
-        + 'investment horizonBoth meetings are important. Both require excellent '
-        + 'preparation. But the cultural expectations are very different. Note: the '
-        + 'tendencies below are useful generalisations — individual people vary '
-        + 'within any culture, and the most effective officers adapt to the specific '
-        + 'person in front of them, not just to a cultural profile. In small groups, '
-        + 'discuss the following: (Aim for 3–4 sentences per answer.)',
+      instruction: 'You are hosting two important investment meetings today:<br>1. Klaus '
+        + 'Richter — German investor, Richter Infrastructure GmbH — data-driven, '
+        + 'direct, experienced in East African and Middle Eastern markets<br>2. Ms. '
+        + 'Fatima Al-Sayed — Investment Director, Gulf Development Fund, Kuwait — '
+        + 'first visit, relationship-oriented, representing a sovereign fund with a '
+        + 'long investment horizon<br>Both meetings are important. Both require '
+        + 'excellent preparation. But the cultural expectations are very different. '
+        + 'Note: the tendencies below are useful generalisations — individual people '
+        + 'vary within any culture, and the most effective officers adapt to the '
+        + 'specific person in front of them, not just to a cultural profile. In small '
+        + 'groups, discuss the following: (Aim for 3–4 sentences per answer.)',
       minWords: 12,
       questions: [{ q: 'What do you already know about German and Gulf business culture in terms '
           + 'of meeting style, decision-making pace, and the role of personal '
@@ -49,12 +49,12 @@ FMS.page('u5-s21', {
       coach: {
         title: 'Compare with the book',
         target: 'Conditionals and the language of commitment',
-        task: 'You are hosting two important investment meetings today:1. Klaus Richter — '
-        + 'German investor, Richter Infrastructure GmbH — data-driven, direct, '
-        + 'experienced in East African and Middle Eastern markets2. Ms. Fatima '
+        task: 'You are hosting two important investment meetings today: 1. Klaus Richter '
+        + '— German investor, Richter Infrastructure GmbH — data-driven, direct, '
+        + 'experienced in East African and Middle Eastern markets 2. Ms. Fatima '
         + 'Al-Sayed — Investment Director, Gulf Development Fund, Kuwait — first '
         + 'visit, relationship-oriented, representing a sovereign fund with a long '
-        + 'investment horizonBoth meetings are important. Both require excellent '
+        + 'investment horizon Both meetings are important. Both require excellent '
         + 'preparation. But the cultural expectations are very different. Note: the '
         + 'tendencies below are useful generalisations — individual people vary '
         + 'within any culture, and the most effective officers adapt to the specific '

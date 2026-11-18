@@ -48,7 +48,7 @@ FMS.coverage('unit4', [
     keyed: true, scene: false, title: 'Reading Comprehension: Discussion Questions' },
   { code: '5C', ord: 22, type: 'cloze', kind: 'full', items: 6,
     keyed: true, scene: false, title: 'Language in Context: Future Forms in a Cooperation Framework' },
-  { code: '6A', ord: 23, type: 'study', kind: 'full', items: 3,
+  { code: '6A', ord: 23, type: 'study', kind: 'full', items: 2,
     keyed: true, scene: false, title: 'Model Writing – Formal Diplomatic Documents' },
   { code: '6C', ord: 25, type: 'dragmatch', kind: 'full', items: 0,
     keyed: false, scene: false, title: 'Analyze the Elements of a Note Verbale' },

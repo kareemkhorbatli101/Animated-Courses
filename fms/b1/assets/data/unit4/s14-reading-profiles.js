@@ -22,14 +22,15 @@ FMS.page('u4-s14', {
       type: 'highlighter',
       title: 'Read: The Kazakhstan–France Bilateral Cooperation Framework',
       instruction: 'Quick Vocabulary Check — Check the meanings of these words before you '
-        + 'read:• bi-LAT-er-al — between two specific countries only• FRAME-work — a '
-        + 'system of rules and institutions to organize cooperation• COM-mis-sion — '
-        + 'an official committee with a regular, ongoing task• re-NEW-able EN-er-gy — '
-        + 'energy from natural sources like sun and wind that do not run out• '
-        + 'road-MAP — a plan showing key steps and a timeline to reach a goalRead the '
-        + 'following description of a fictional but realistic Kazakhstan–France '
-        + 'bilateral cooperation framework. Pay attention to the scope, the '
-        + 'institutional structure, and the expected outcomes.',
+        + 'read:<br>• bi-LAT-er-al — between two specific countries only<br>• '
+        + 'FRAME-work — a system of rules and institutions to organize '
+        + 'cooperation<br>• COM-mis-sion — an official committee with a regular, '
+        + 'ongoing task<br>• re-NEW-able EN-er-gy — energy from natural sources like '
+        + 'sun and wind that do not run out<br>• road-MAP — a plan showing key steps '
+        + 'and a timeline to reach a goal<br>Read the following description of a '
+        + 'fictional but realistic Kazakhstan–France bilateral cooperation framework. '
+        + 'Pay attention to the scope, the institutional structure, and the expected '
+        + 'outcomes.',
       textTitle: 'Read: The Kazakhstan–France Bilateral Cooperation Framework',
       hintText: 'Click a line to underline it. Click it again to remove it.',
       paras: [[{ i: 0, t: 'The Kazakhstan–France Bilateral Cooperation Framework, signed in Astana in '

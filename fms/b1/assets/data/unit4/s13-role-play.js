@@ -24,14 +24,15 @@ FMS.page('u4-s13', {
         + 'Specialist. Students B, C, and D are a French trade delegation. Daniyar '
         + 'presents the Kazakhstan–France Digital Infrastructure Cooperation '
         + 'framework and handles three follow-up questions. (Aim for 3–4 sentences '
-        + 'per speaking turn.)French delegation role cards:Student B: Ask about the '
-        + 'timeline for the first operational digital projects.Student C: Ask about '
-        + 'the technical requirements for French companies wishing to participate in '
-        + 'the program.Student D: Ask what Kazakhstan expects from France in return — '
-        + 'what does Kazakhstan bring to the partnership?Guidance: Daniyar uses a mix '
-        + 'of future forms — will for predictions and announcements, going to for '
-        + 'existing plans, Present Continuous for confirmed arrangements, shall for '
-        + 'formal institutional commitments.',
+        + 'per speaking turn.)<br>French delegation role cards:<br>Student B: Ask '
+        + 'about the timeline for the first operational digital projects.<br>Student '
+        + 'C: Ask about the technical requirements for French companies wishing to '
+        + 'participate in the program.<br>Student D: Ask what Kazakhstan expects from '
+        + 'France in return — what does Kazakhstan bring to the '
+        + 'partnership?<br>Guidance: Daniyar uses a mix of future forms — will for '
+        + 'predictions and announcements, going to for existing plans, Present '
+        + 'Continuous for confirmed arrangements, shall for formal institutional '
+        + 'commitments.',
       scene: 'u4-4b',
       roles: [{ who: 'daniyar', label: 'Card A · Daniyar Suleimenov' },
         { who: 'dawit', label: 'Card B · Dawit' }],
@@ -94,11 +95,11 @@ FMS.page('u4-s13', {
       type: 'discuss',
       title: 'Discussion: Bridge-Builders and Future Vision',
       instruction: 'Discuss the following questions in a small group to close this unit and '
-        + 'the course. Reliability — doing what you say you will do, when you said '
-        + 'you would do it Patience — sustaining engagement and commitment through '
-        + 'slow periods Genuine curiosity — real interest in other cultures and '
-        + 'people, not just transactions Emotional intelligence — knowing when to '
-        + 'speak and when to listen Precision — getting names, titles, and details '
+        + 'the course.<br>Reliability — doing what you say you will do, when you said '
+        + 'you would do it<br>Patience — sustaining engagement and commitment through '
+        + 'slow periods<br>Genuine curiosity — real interest in other cultures and '
+        + 'people, not just transactions<br>Emotional intelligence — knowing when to '
+        + 'speak and when to listen<br>Precision — getting names, titles, and details '
         + 'exactly right',
       minWords: 12,
       questions: [{ q: 'Rank these five qualities of an effective bridge-builder from most to '

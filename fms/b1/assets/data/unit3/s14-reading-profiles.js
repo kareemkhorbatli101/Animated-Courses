@@ -22,12 +22,13 @@ FMS.page('u3-s14', {
       title: 'Read: A Ministry\'s Diplomatic Year, 2024–2025',
       instruction: 'Read the following four-paragraph text about one ministry\'s diplomatic '
         + 'year. Pay attention to passive voice constructions and the key '
-        + 'developments described.Key terms from the text (check meanings before you '
-        + 'read):• en-GAGE-ment — active participation and contact with partners• '
-        + 'PLEDGE — a formal promise to provide money or support• mul-ti-LAT-er-al — '
-        + 'involving three or more countries or organizations• di-AS-po-ra — people '
-        + 'who have left their home country and live abroad• fa-cil-i-TA-tion — the '
-        + 'process of making something easier or providing official assistance',
+        + 'developments described.<br>Key terms from the text (check meanings before '
+        + 'you read):<br>• en-GAGE-ment — active participation and contact with '
+        + 'partners<br>• PLEDGE — a formal promise to provide money or support<br>• '
+        + 'mul-ti-LAT-er-al — involving three or more countries or organizations<br>• '
+        + 'di-AS-po-ra — people who have left their home country and live abroad<br>• '
+        + 'fa-cil-i-TA-tion — the process of making something easier or providing '
+        + 'official assistance',
       textTitle: 'Read: A Ministry\'s Diplomatic Year, 2024–2025',
       hintText: 'Click a line to underline it. Click it again to remove it.',
       paras: [[{ i: 0, t: 'Following a change of government in late 2024, the ministry\'s '

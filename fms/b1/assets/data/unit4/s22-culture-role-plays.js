@@ -23,13 +23,14 @@ FMS.page('u4-s22', {
       title: 'Role-Play: Formal Toast at a Bilateral Dinner',
       instruction: 'Work in pairs. Student A is the host (Daniyar Suleimenov, hosting a dinner '
         + 'for the French and German delegations). Student B plays the most senior '
-        + 'European guest, responding to the toast.Practice:1. Daniyar delivers a '
-        + 'formal dinner toast — warm, dignified, forward-looking, using at least one '
-        + 'future form2. The European guest responds — brief, gracious, reciprocal3. '
-        + 'Swap rolesGuidance for the toast:• Address the guest(s) first: "Your '
-        + 'Excellency, distinguished colleagues..."• Acknowledge what has been '
-        + 'achieved today (signing, cooperation)• Use one future form to express what '
-        + 'is coming• Propose the toast with a clear invitation',
+        + 'European guest, responding to the toast.<br>Practice:<br>1. Daniyar '
+        + 'delivers a formal dinner toast — warm, dignified, forward-looking, using '
+        + 'at least one future form<br>2. The European guest responds — brief, '
+        + 'gracious, reciprocal<br>3. Swap roles<br>Guidance for the toast:<br>• '
+        + 'Address the guest(s) first: "Your Excellency, distinguished '
+        + 'colleagues..."<br>• Acknowledge what has been achieved today (signing, '
+        + 'cooperation)<br>• Use one future form to express what is coming<br>• '
+        + 'Propose the toast with a clear invitation',
       scene: 'u4-8c',
       roles: [{ who: 'daniyar', label: 'Card A · Daniyar Suleimenov' },
         { who: 'valentina', label: 'Card B · Valentina' }],
@@ -80,16 +81,16 @@ FMS.page('u4-s22', {
       instruction: 'Work in pairs. Student A is Aigerim Dosanova, welcoming His Excellency '
         + 'Sheikh Mohammed Al-Rashidi, Deputy Foreign Minister of a Gulf state, to a '
         + 'formal ministry reception before a dinner. Student B plays His '
-        + 'Excellency.Context: His Excellency is accompanied by two senior advisers. '
-        + 'The reception is in the ministry\'s formal reception room. Non-alcoholic '
-        + 'refreshments are available. The dinner will follow in thirty '
-        + 'minutes.Practice:1. Welcome His Excellency with full formal language, '
-        + 'warmth, and patience2. Offer hospitality before any business reference3. '
-        + 'Follow His Excellency\'s lead on when to move toward the formal room4. One '
-        + 'of His Excellency\'s advisers offers Aigerim a small wrapped gift — how '
-        + 'does she receive it?Guidance: Show genuine warmth, not performed protocol. '
-        + 'His Excellency will test whether his hosts are comfortable in this '
-        + 'register — not whether they have memorized a script.',
+        + 'Excellency.<br>Context: His Excellency is accompanied by two senior '
+        + 'advisers. The reception is in the ministry\'s formal reception room. '
+        + 'Non-alcoholic refreshments are available. The dinner will follow in thirty '
+        + 'minutes.<br>Practice:<br>1. Welcome His Excellency with full formal '
+        + 'language, warmth, and patience<br>2. Offer hospitality before any business '
+        + 'reference<br>3. Follow His Excellency\'s lead on when to move toward the '
+        + 'formal room<br>4. One of His Excellency\'s advisers offers Aigerim a small '
+        + 'wrapped gift — how does she receive it?<br>Guidance: Show genuine warmth, '
+        + 'not performed protocol. His Excellency will test whether his hosts are '
+        + 'comfortable in this register — not whether they have memorized a script.',
       scene: 'u4-8d',
       roles: [{ who: 'aigerim', label: 'Card A · Aigerim' },
         { who: 'daniyar', label: 'Card B · Daniyar Suleimenov' }],

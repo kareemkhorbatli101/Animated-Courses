@@ -98,7 +98,7 @@ FMS.page('u2-s05', {
       type: 'cloze',
       title: 'Vocabulary Practice: Using the Words in Sentences',
       instruction: 'Complete each sentence with the correct word or phrase from the list '
-        + 'below. Word Bank:',
+        + 'below.<br>Word Bank:',
       text: '<div style="font-size:16px;line-height:2.5">'
         + '1. The liaison officer circulated the meeting [[1]] to all participants '
           + 'two days before the session.'

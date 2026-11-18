@@ -108,7 +108,7 @@ FMS.page('u5-s05', {
       type: 'cloze',
       title: 'Vocabulary Practice: Using the Words in Sentences',
       instruction: 'Complete each sentence with the correct word or phrase from the list '
-        + 'below. Word Bank:',
+        + 'below.<br>Word Bank:',
       text: '<div style="font-size:16px;line-height:2.5">'
         + '1. Before signing any agreement, Richter Infrastructure GmbH carried out a '
           + 'comprehensive [[1]] of the country\'s legal and regulatory environment.'

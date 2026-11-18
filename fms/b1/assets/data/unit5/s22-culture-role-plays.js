@@ -24,15 +24,15 @@ FMS.page('u5-s22', {
       instruction: 'Work in pairs. One student is Dawit Bekele (Economic Affairs Specialist). '
         + 'The other is Klaus Richter (Managing Director, Richter Infrastructure '
         + 'GmbH). Klaus is data-driven, direct, and wants specific answers. (Each '
-        + 'turn: 2–3 sentences per speaker.)Context: This is the second meeting. '
+        + 'turn: 2–3 sentences per speaker.)<br>Context: This is the second meeting. '
         + 'Klaus has received the legal framework document. He has three direct '
-        + 'questions.Key language tips: Be precise and direct. Answer his questions '
-        + 'with specific conditional language. Offer a clear next step. Do not be '
-        + 'vague.Useful phrases:• "If you submit the application, we will ___."• "The '
-        + 'legal framework provides ___ — here is the specific clause."• "If the '
-        + 'board approves on Monday, I will arrange ___ for Tuesday."• "I understand '
-        + 'the concern. Here is exactly what happens if ___."• "We are ready to move '
-        + 'quickly. The next step is ___."',
+        + 'questions.<br>Key language tips: Be precise and direct. Answer his '
+        + 'questions with specific conditional language. Offer a clear next step. Do '
+        + 'not be vague.<br>Useful phrases:<br>• "If you submit the application, we '
+        + 'will ___."<br>• "The legal framework provides ___ — here is the specific '
+        + 'clause."<br>• "If the board approves on Monday, I will arrange ___ for '
+        + 'Tuesday."<br>• "I understand the concern. Here is exactly what happens if '
+        + '___."<br>• "We are ready to move quickly. The next step is ___."',
       scene: 'u5-8c',
       roles: [{ who: 'klaus', label: 'Card A · Klaus Richter' },
         { who: 'dawit', label: 'Card B · Dawit' }],
@@ -86,16 +86,17 @@ FMS.page('u5-s22', {
         + 'The other is Ms. Fatima Al-Sayed (Investment Director, Gulf Development '
         + 'Fund). Ms. Al-Sayed is on her first visit. She is warm but formal, and she '
         + 'needs to feel respected and confident before she will move to specific '
-        + 'details.Context: This is the first meeting. The meeting should begin with '
-        + 'warmth and gradually move toward specifics.Key language tips: Begin with a '
-        + 'ceremonial welcome. Do not rush to figures or legal documents immediately. '
-        + 'Build comfort. When she signals readiness to discuss specifics, use '
-        + 'conditional language to give her a clear pathway.Ceremonial Language '
-        + 'Bank:• "It is a great honour to welcome you to the Ministry."• "We deeply '
-        + 'appreciate your visit and your interest in our country."• "Our country and '
-        + 'the Gulf share a long history of partnership."• "If there is anything we '
-        + 'can do to make your visit more productive, please tell us."• "We believe '
-        + 'that if we work together, we can build something of lasting value."',
+        + 'details.<br>Context: This is the first meeting. The meeting should begin '
+        + 'with warmth and gradually move toward specifics.<br>Key language tips: '
+        + 'Begin with a ceremonial welcome. Do not rush to figures or legal documents '
+        + 'immediately. Build comfort. When she signals readiness to discuss '
+        + 'specifics, use conditional language to give her a clear '
+        + 'pathway.<br>Ceremonial Language Bank:<br>• "It is a great honour to '
+        + 'welcome you to the Ministry."<br>• "We deeply appreciate your visit and '
+        + 'your interest in our country."<br>• "Our country and the Gulf share a long '
+        + 'history of partnership."<br>• "If there is anything we can do to make your '
+        + 'visit more productive, please tell us."<br>• "We believe that if we work '
+        + 'together, we can build something of lasting value."',
       scene: 'u5-8d',
       roles: [{ who: 'dawit', label: 'Card A · Dawit' },
         { who: 'salma', label: 'Card B · Salma' }],

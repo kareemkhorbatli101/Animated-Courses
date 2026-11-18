@@ -21,17 +21,18 @@ FMS.page('u2-s17', {
       type: 'writer',
       title: 'Write a Meeting Agenda',
       instruction: 'Using the information below, write a formal two-hour meeting agenda for '
-        + 'the Morocco–France Cultural Cooperation Working Group.Given information:• '
-        + 'Date: Wednesday, 22 April 2025, 10:00 a.m.–12:00 p.m.• Venue: Conference '
-        + 'Room A, Ministry of Foreign Affairs, Rabat• Host participants: Youssef El '
-        + 'Amrani (delegation lead), Nadia Tazi, two cultural affairs officers• '
-        + 'French participants: Ms. Claire Dupont (delegation lead, French Institute '
-        + 'Rabat), two cultural cooperation officers• Agenda items: (1) Review of the '
-        + 'Morocco–France Cultural Exchange Protocol signed in 2024, (2) Progress '
-        + 'update on the joint cultural heritage exhibition for European capitals, '
-        + '(3) Proposal for a new annual Morocco–France Film and Literature Festival, '
-        + '(4) Any other business and next steps• Format: Each item allocated 25 '
-        + 'minutes; 5-minute transition break at 11:00 a.m.',
+        + 'the Morocco–France Cultural Cooperation Working Group.<br>Given '
+        + 'information:<br>• Date: Wednesday, 22 April 2025, 10:00 a.m.–12:00 '
+        + 'p.m.<br>• Venue: Conference Room A, Ministry of Foreign Affairs, '
+        + 'Rabat<br>• Host participants: Youssef El Amrani (delegation lead), Nadia '
+        + 'Tazi, two cultural affairs officers<br>• French participants: Ms. Claire '
+        + 'Dupont (delegation lead, French Institute Rabat), two cultural cooperation '
+        + 'officers<br>• Agenda items: (1) Review of the Morocco–France Cultural '
+        + 'Exchange Protocol signed in 2024, (2) Progress update on the joint '
+        + 'cultural heritage exhibition for European capitals, (3) Proposal for a new '
+        + 'annual Morocco–France Film and Literature Festival, (4) Any other business '
+        + 'and next steps<br>• Format: Each item allocated 25 minutes; 5-minute '
+        + 'transition break at 11:00 a.m.',
       paras: [{ label: 'How you open',
             purpose: 'One sentence that says who you are.' },
         { label: 'The body',
@@ -41,17 +42,17 @@ FMS.page('u2-s17', {
       minWords: 40,
       scaffold: {
         task: 'Using the information below, write a formal two-hour meeting agenda for '
-        + 'the Morocco–France Cultural Cooperation Working Group.Given information:• '
-        + 'Date: Wednesday, 22 April 2025, 10:00 a.m.–12:00 p.m.• Venue: Conference '
-        + 'Room A, Ministry of Foreign Affairs, Rabat• Host participants: Youssef El '
-        + 'Amrani (delegation lead), Nadia Tazi, two cultural affairs officers• '
-        + 'French participants: Ms. Claire Dupont (delegation lead, French Institute '
-        + 'Rabat), two cultural cooperation officers• Agenda items: (1) Review of the '
-        + 'Morocco–France Cultural Exchange Protocol signed in 2024, (2) Progress '
-        + 'update on the joint cultural heritage exhibition for European capitals, '
-        + '(3) Proposal for a new annual Morocco–France Film and Literature Festival, '
-        + '(4) Any other business and next steps• Format: Each item allocated 25 '
-        + 'minutes; 5-minute transition break at 11:00 a.m.',
+        + 'the Morocco–France Cultural Cooperation Working Group. Given information: '
+        + '• Date: Wednesday, 22 April 2025, 10:00 a.m.–12:00 p.m. • Venue: '
+        + 'Conference Room A, Ministry of Foreign Affairs, Rabat • Host participants: '
+        + 'Youssef El Amrani (delegation lead), Nadia Tazi, two cultural affairs '
+        + 'officers • French participants: Ms. Claire Dupont (delegation lead, French '
+        + 'Institute Rabat), two cultural cooperation officers • Agenda items: (1) '
+        + 'Review of the Morocco–France Cultural Exchange Protocol signed in 2024, '
+        + '(2) Progress update on the joint cultural heritage exhibition for European '
+        + 'capitals, (3) Proposal for a new annual Morocco–France Film and Literature '
+        + 'Festival, (4) Any other business and next steps • Format: Each item '
+        + 'allocated 25 minutes; 5-minute transition break at 11:00 a.m.',
         words: ['Write a Meeting Agenda'],
         must: ['opens with who you are?',
           'uses this unit\'s vocabulary?',

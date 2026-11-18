@@ -35,11 +35,12 @@ FMS.page('u1-s20', {
       type: 'report',
       title: 'Practice and Record',
       instruction: 'Record your professional reception greeting and self-introduction. '
-        + 'Include:• Welcome the visitor to the ministry• Give your name and '
-        + 'position• Ask how you can helpListen back and check:• Did you stress your '
-        + 'name and job title clearly?• Did your linking sound natural — not word by '
-        + 'word?• Was your pace steady and calm — not rushed?• Did you sound both '
-        + 'welcoming and professional?Record a second version if needed and compare.',
+        + 'Include:<br>• Welcome the visitor to the ministry<br>• Give your name and '
+        + 'position<br>• Ask how you can help<br>Listen back and check:<br>• Did you '
+        + 'stress your name and job title clearly?<br>• Did your linking sound '
+        + 'natural — not word by word?<br>• Was your pace steady and calm — not '
+        + 'rushed?<br>• Did you sound both welcoming and professional?<br>Record a '
+        + 'second version if needed and compare.',
       minWords: 40,
       placeholder: 'I would like to say that…',
       stems: ['I would like to say that…'],
@@ -47,17 +48,19 @@ FMS.page('u1-s20', {
         title: 'Compare with the book',
         target: 'Present simple and present continuous',
         task: 'Record your professional reception greeting and self-introduction. '
-        + 'Include:• Welcome the visitor to the ministry• Give your name and '
-        + 'position• Ask how you can helpListen back and check:• Did you stress your '
-        + 'name and job title clearly?• Did your linking sound natural — not word by '
-        + 'word?• Was your pace steady and calm — not rushed?• Did you sound both '
-        + 'welcoming and professional?Record a second version if needed and compare.',
+        + 'Include: • Welcome the visitor to the ministry • Give your name and '
+        + 'position • Ask how you can help Listen back and check: • Did you stress '
+        + 'your name and job title clearly? • Did your linking sound natural — not '
+        + 'word by word? • Was your pace steady and calm — not rushed? • Did you '
+        + 'sound both welcoming and professional? Record a second version if needed '
+        + 'and compare.',
         parts: ['Record your professional reception greeting and self-introduction. '
-          + 'Include:• Welcome the visitor to the ministry• Give your name and '
-          + 'position• Ask how you can helpListen back and check:• Did you stress your '
-          + 'name and job title clearly?• Did your linking sound natural — not word by '
-          + 'word?• Was your pace steady and calm — not rushed?• Did you sound both '
-          + 'welcoming and professional?Record a second version if needed and compare.'],
+          + 'Include: • Welcome the visitor to the ministry • Give your name and '
+          + 'position • Ask how you can help Listen back and check: • Did you stress '
+          + 'your name and job title clearly? • Did your linking sound natural — not '
+          + 'word by word? • Was your pace steady and calm — not rushed? • Did you '
+          + 'sound both welcoming and professional? Record a second version if needed '
+          + 'and compare.'],
         example: ['Stress: MORN-ing, MIN-is-try, your NAME, your TI-tle. Link: '
             + '\'Wel-come_to.\' Tone: warm and welcoming, falling slightly at the end of '
             + 'each sentence. Pace: steady — not rushed. One breath per sentence.',

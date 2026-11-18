@@ -97,7 +97,7 @@ FMS.page('u2-s15', {
         + 'sentence with the correct modal verb. Think about whether each situation '
         + 'requires a firm obligation (must), an institutional commitment (shall), a '
         + 'recommendation (should), or a permission (may). You will use these same '
-        + 'modal verbs in your coordination emails in Part 6. Word list',
+        + 'modal verbs in your coordination emails in Part 6.<br>Word list',
       text: '<div style="font-size:16px;line-height:2.5">'
         + '1. The agenda [[1]] be circulated to both delegations at least five days '
           + 'before the session — this is standard ministry protocol.'

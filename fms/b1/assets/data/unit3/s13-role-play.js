@@ -23,14 +23,15 @@ FMS.page('u3-s13', {
       instruction: 'Work in groups of four. Student A is Andrés Gaviria, Economic Affairs '
         + 'Specialist. Students B, C, and D are members of a Korean trade delegation. '
         + 'Andrés presents the national infrastructure investment framework, then '
-        + 'handles three follow-up questions.Korean delegation role cards:Student B: '
-        + 'Ask about the timeline for the first viable investment '
-        + 'opportunities.Student C: Ask about legal protections for foreign investors '
-        + '— specifically what happens if there is a dispute.Student D: Ask about the '
-        + 'sectors with the fastest return on investment from the ministry\'s '
-        + 'perspective.Guidance: Andrés uses passive voice throughout where '
-        + 'appropriate ("frameworks have been established," "protections are '
-        + 'guaranteed by") and remains concise, factual, and forward-looking.',
+        + 'handles three follow-up questions.<br>Korean delegation role '
+        + 'cards:<br>Student B: Ask about the timeline for the first viable '
+        + 'investment opportunities.<br>Student C: Ask about legal protections for '
+        + 'foreign investors — specifically what happens if there is a '
+        + 'dispute.<br>Student D: Ask about the sectors with the fastest return on '
+        + 'investment from the ministry\'s perspective.<br>Guidance: Andrés uses '
+        + 'passive voice throughout where appropriate ("frameworks have been '
+        + 'established," "protections are guaranteed by") and remains concise, '
+        + 'factual, and forward-looking.',
       minWords: 40,
       placeholder: 'I would like to say that…',
       stems: ['I would like to say that…']

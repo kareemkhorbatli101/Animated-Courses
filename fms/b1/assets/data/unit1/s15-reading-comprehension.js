@@ -86,7 +86,7 @@ FMS.page('u1-s15', {
       instruction: 'The sentences below are adapted from the staff profiles you read in '
         + 'exercises 5A and 5B. Complete each sentence with the best word. The '
         + 'collocations you practise here are the same ones you will need when you '
-        + 'write your professional introduction email in Part 6. Word list',
+        + 'write your professional introduction email in Part 6.<br>Word list',
       text: '<div style="font-size:16px;line-height:2.5">'
         + '1. Pham Thi Mai is [[1]] for managing the arrival and reception of '
           + 'visiting diplomats and ensuring that all diplomatic formalities are '

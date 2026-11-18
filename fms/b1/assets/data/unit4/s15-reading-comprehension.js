@@ -90,7 +90,7 @@ FMS.page('u4-s15', {
         + 'sentence with the correct future form. Think about what each form signals: '
         + 'will (projected outcome), going to (already planned and decided), shall '
         + '(binding institutional commitment). You will use these same future forms '
-        + 'in your diplomatic correspondence in Part 6. Word list',
+        + 'in your diplomatic correspondence in Part 6.<br>Word list',
       text: '<div style="font-size:16px;line-height:2.5">'
         + '1. A Joint Cultural Commission [[1]] meet annually to design and oversee '
           + 'cultural exchange programs between Kazakhstan and France.'

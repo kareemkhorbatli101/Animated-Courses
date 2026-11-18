@@ -34,33 +34,36 @@ FMS.page('u2-s20', {
       bookRef: 'Unit 2 · Part 7 · 7D',
       type: 'report',
       title: 'Practice and Record',
-      instruction: 'Record a 30-second formal meeting opening statement. Include:• A formal '
-        + 'welcome to the visiting delegation• Your name and role• A brief statement '
-        + 'of the meeting\'s purpose• An invitation to beginListen back and check:• '
-        + 'Was your intonation falling at the end of declarative statements?• Did you '
-        + 'stress key content words: names, dates, the meeting title?• Was your pace '
-        + 'steady and calm — not rushed?• Did you sound both authoritative and '
-        + 'welcoming?Record a second version if needed and compare.',
+      instruction: 'Record a 30-second formal meeting opening statement. Include:<br>• A '
+        + 'formal welcome to the visiting delegation<br>• Your name and role<br>• A '
+        + 'brief statement of the meeting\'s purpose<br>• An invitation to '
+        + 'begin<br>Listen back and check:<br>• Was your intonation falling at the '
+        + 'end of declarative statements?<br>• Did you stress key content words: '
+        + 'names, dates, the meeting title?<br>• Was your pace steady and calm — not '
+        + 'rushed?<br>• Did you sound both authoritative and welcoming?<br>Record a '
+        + 'second version if needed and compare.',
       minWords: 40,
       placeholder: 'I would like to say that…',
       stems: ['I would like to say that…'],
       coach: {
         title: 'Compare with the book',
         target: 'Modal verbs for requests and arrangements',
-        task: 'Record a 30-second formal meeting opening statement. Include:• A formal '
-        + 'welcome to the visiting delegation• Your name and role• A brief statement '
-        + 'of the meeting\'s purpose• An invitation to beginListen back and check:• '
-        + 'Was your intonation falling at the end of declarative statements?• Did you '
-        + 'stress key content words: names, dates, the meeting title?• Was your pace '
-        + 'steady and calm — not rushed?• Did you sound both authoritative and '
-        + 'welcoming?Record a second version if needed and compare.',
-        parts: ['Record a 30-second formal meeting opening statement. Include:• A formal '
-          + 'welcome to the visiting delegation• Your name and role• A brief statement '
-          + 'of the meeting\'s purpose• An invitation to beginListen back and check:• '
-          + 'Was your intonation falling at the end of declarative statements?• Did you '
-          + 'stress key content words: names, dates, the meeting title?• Was your pace '
-          + 'steady and calm — not rushed?• Did you sound both authoritative and '
-          + 'welcoming?Record a second version if needed and compare.'],
+        task: 'Record a 30-second formal meeting opening statement. Include: • A formal '
+        + 'welcome to the visiting delegation • Your name and role • A brief '
+        + 'statement of the meeting\'s purpose • An invitation to begin Listen back '
+        + 'and check: • Was your intonation falling at the end of declarative '
+        + 'statements? • Did you stress key content words: names, dates, the meeting '
+        + 'title? • Was your pace steady and calm — not rushed? • Did you sound both '
+        + 'authoritative and welcoming? Record a second version if needed and '
+        + 'compare.',
+        parts: ['Record a 30-second formal meeting opening statement. Include: • A formal '
+          + 'welcome to the visiting delegation • Your name and role • A brief '
+          + 'statement of the meeting\'s purpose • An invitation to begin Listen back '
+          + 'and check: • Was your intonation falling at the end of declarative '
+          + 'statements? • Did you stress key content words: names, dates, the meeting '
+          + 'title? • Was your pace steady and calm — not rushed? • Did you sound both '
+          + 'authoritative and welcoming? Record a second version if needed and '
+          + 'compare.'],
         example: ['Stress: your INSTITUTION, the PARTNER\'S name, the MEETING title, and the '
             + 'word BEGIN. Link: \'on_be-half_of.\' Tone: authoritative and welcoming at '
             + 'the same time. Pace: slower than conversation. One breath per sentence, '

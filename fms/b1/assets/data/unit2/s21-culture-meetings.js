@@ -21,13 +21,13 @@ FMS.page('u2-s21', {
       bookRef: 'Unit 2 · Part 8 · 8A',
       type: 'discuss',
       title: 'Understanding Cultural Differences in Meeting Behavior',
-      instruction: 'You are coordinating two very different meetings this week:1. A working '
-        + 'session with a Swedish environmental NGO team — three members, informal '
-        + 'structure, first-name basis2. A formal bilateral session with a Gulf Arab '
-        + 'ministerial delegation — six members, strict hierarchy, social '
-        + 'conversation before agendaBoth require professional management. But the '
-        + 'cultural expectations are very different.In small groups, discuss the '
-        + 'following questions: (Aim for 3–4 sentences per answer.)',
+      instruction: 'You are coordinating two very different meetings this week:<br>1. A '
+        + 'working session with a Swedish environmental NGO team — three members, '
+        + 'informal structure, first-name basis<br>2. A formal bilateral session with '
+        + 'a Gulf Arab ministerial delegation — six members, strict hierarchy, social '
+        + 'conversation before agenda<br>Both require professional management. But '
+        + 'the cultural expectations are very different.<br>In small groups, discuss '
+        + 'the following questions: (Aim for 3–4 sentences per answer.)',
       minWords: 12,
       questions: [{ q: 'What do you expect about punctuality, speaking order, and note-taking '
           + 'norms in a meeting with a Scandinavian professional team compared to a '
@@ -49,12 +49,12 @@ FMS.page('u2-s21', {
       coach: {
         title: 'Compare with the book',
         target: 'Modal verbs for requests and arrangements',
-        task: 'You are coordinating two very different meetings this week:1. A working '
+        task: 'You are coordinating two very different meetings this week: 1. A working '
         + 'session with a Swedish environmental NGO team — three members, informal '
-        + 'structure, first-name basis2. A formal bilateral session with a Gulf Arab '
+        + 'structure, first-name basis 2. A formal bilateral session with a Gulf Arab '
         + 'ministerial delegation — six members, strict hierarchy, social '
-        + 'conversation before agendaBoth require professional management. But the '
-        + 'cultural expectations are very different.In small groups, discuss the '
+        + 'conversation before agenda Both require professional management. But the '
+        + 'cultural expectations are very different. In small groups, discuss the '
         + 'following questions: (Aim for 3–4 sentences per answer.)',
         parts: ['What do you expect about punctuality, speaking order, and note-taking '
           + 'norms in a meeting with a Scandinavian professional team compared to a '

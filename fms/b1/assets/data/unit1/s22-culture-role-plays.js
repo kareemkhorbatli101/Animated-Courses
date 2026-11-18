@@ -25,15 +25,15 @@ FMS.page('u1-s22', {
       instruction: 'Work in pairs. One student is the ministry reception officer. The other is '
         + 'Sophie Martin, French cultural attaché, arriving for her 11 a.m. '
         + 'appointment with the Cultural Relations Division. (Each turn: 2–3 '
-        + 'sentences.)Context: Sophie is visiting for the first time. She has a '
-        + 'confirmed appointment.Key language tips: Use polite, clear English. '
+        + 'sentences.)<br>Context: Sophie is visiting for the first time. She has a '
+        + 'confirmed appointment.<br>Key language tips: Use polite, clear English. '
         + 'Address her by name and title. Maintain a firm, confident handshake and '
         + 'eye contact. Be efficient — she is on a schedule. Avoid personal questions '
-        + 'unrelated to her visit.Useful phrases:• "Welcome to the Ministry, Ms. '
-        + 'Martin."• "May I see your identification, please?"• "Please sign the '
-        + 'visitor register here."• "I will let the Cultural Relations Division know '
-        + 'you have arrived right away."• "Please follow me — the Cultural Relations '
-        + 'Division is on the third floor."',
+        + 'unrelated to her visit.<br>Useful phrases:<br>• "Welcome to the Ministry, '
+        + 'Ms. Martin."<br>• "May I see your identification, please?"<br>• "Please '
+        + 'sign the visitor register here."<br>• "I will let the Cultural Relations '
+        + 'Division know you have arrived right away."<br>• "Please follow me — the '
+        + 'Cultural Relations Division is on the third floor."',
       scene: 'u1-8c',
       roles: [{ who: 'linh', label: 'Card A · Linh' },
         { who: 'valentina', label: 'Card B · Valentina' }],
@@ -72,23 +72,23 @@ FMS.page('u1-s22', {
       title: 'Role Play: Welcoming a Senior Gulf Arab Official',
       instruction: 'Work in pairs. One student is the ministry protocol officer. The other is '
         + 'His Excellency Abdullah Al-Rashidi, Deputy Foreign Minister of a Gulf '
-        + 'state, arriving for an official visit.Context: This is a high-protocol '
-        + 'occasion. His Excellency is accompanied by two aides.Key language tips: '
-        + 'Use "Your Excellency" throughout. Open with a warm, ceremonial welcome. Do '
-        + 'not rush anything. Allow His Excellency to set the pace. Offer '
+        + 'state, arriving for an official visit.<br>Context: This is a high-protocol '
+        + 'occasion. His Excellency is accompanied by two aides.<br>Key language '
+        + 'tips: Use "Your Excellency" throughout. Open with a warm, ceremonial '
+        + 'welcome. Do not rush anything. Allow His Excellency to set the pace. Offer '
         + 'refreshments before escorting him anywhere. Express honor and gratitude '
-        + 'sincerely.Ceremonial Language Bank:• Expressing honor: "It is a great '
-        + 'honor / a privilege / a pleasure to welcome you, Your Excellency."• '
-        + 'Expressing gratitude: "We are deeply grateful / honored / thankful for '
-        + 'your visit to Hanoi."• Offering refreshments: "May I offer you some Arabic '
-        + 'coffee or tea?"• Escorting: "Please allow me to escort you / accompany you '
-        + 'to ___."• Conveying the minister\'s regards: "On behalf of His Excellency '
-        + 'the Foreign Minister, I extend our warmest greetings."Useful phrases:• '
-        + '"Your Excellency, it is a great honor to welcome you to the Ministry of '
-        + 'Foreign Affairs of Viet Nam."• "We are deeply grateful for your visit."• '
-        + '"Please allow me to escort you to the minister\'s reception room."• "May I '
-        + 'offer you some Arabic coffee or tea while we await His Excellency the '
-        + 'Minister?"',
+        + 'sincerely.<br>Ceremonial Language Bank:<br>• Expressing honor: "It is a '
+        + 'great honor / a privilege / a pleasure to welcome you, Your '
+        + 'Excellency."<br>• Expressing gratitude: "We are deeply grateful / honored '
+        + '/ thankful for your visit to Hanoi."<br>• Offering refreshments: "May I '
+        + 'offer you some Arabic coffee or tea?"<br>• Escorting: "Please allow me to '
+        + 'escort you / accompany you to ___."<br>• Conveying the minister\'s '
+        + 'regards: "On behalf of His Excellency the Foreign Minister, I extend our '
+        + 'warmest greetings."<br>Useful phrases:<br>• "Your Excellency, it is a '
+        + 'great honor to welcome you to the Ministry of Foreign Affairs of Viet '
+        + 'Nam."<br>• "We are deeply grateful for your visit."<br>• "Please allow me '
+        + 'to escort you to the minister\'s reception room."<br>• "May I offer you '
+        + 'some Arabic coffee or tea while we await His Excellency the Minister?"',
       scene: 'u1-8d',
       roles: [{ who: 'mai', label: 'Card A · Mai' },
         { who: 'official', label: 'Card B · the ministry officer' }],

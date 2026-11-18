@@ -25,16 +25,16 @@ FMS.page('u5-s13', {
         + 'presenting and responding to questions about the country\'s priority '
         + 'investment sectors. Choose one role card and prepare a 3–4 sentence '
         + 'contribution. Use conditional language in at least one '
-        + 'sentence.Self-Introduction Template:"Good morning. My name is ___. I am a '
-        + '___ at / from ___. Our main interest today is ___. If ___, we ___."Card 1: '
-        + 'Dawit Bekele — Moderator and Economic Affairs Specialist, Ministry of '
-        + 'Foreign Affairs — opens the panel and invites contributionsCard 2: Klaus '
-        + 'Richter — Managing Director, Richter Infrastructure GmbH — presents his '
-        + 'company\'s investment interestCard 3: Ms. Fatima Al-Sayed — Investment '
-        + 'Director, Gulf Development Fund — presents Gulf interest in '
-        + 'agricultureCard 4: Selamawit Tesfaye — Investment Facilitation Officer, '
-        + 'Ministry of Foreign Affairs — manages the logistics and keeps the panel on '
-        + 'schedule',
+        + 'sentence.<br>Self-Introduction Template:<br>"Good morning. My name is ___. '
+        + 'I am a ___ at / from ___. Our main interest today is ___. If ___, we '
+        + '___."<br>Card 1: Dawit Bekele — Moderator and Economic Affairs Specialist, '
+        + 'Ministry of Foreign Affairs — opens the panel and invites '
+        + 'contributions<br>Card 2: Klaus Richter — Managing Director, Richter '
+        + 'Infrastructure GmbH — presents his company\'s investment interest<br>Card '
+        + '3: Ms. Fatima Al-Sayed — Investment Director, Gulf Development Fund — '
+        + 'presents Gulf interest in agriculture<br>Card 4: Selamawit Tesfaye — '
+        + 'Investment Facilitation Officer, Ministry of Foreign Affairs — manages the '
+        + 'logistics and keeps the panel on schedule',
       scene: 'u5-4b',
       roles: [{ who: 'dawit', label: 'Card A · Dawit' },
         { who: 'klaus', label: 'Card B · Klaus Richter' }],

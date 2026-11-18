@@ -93,8 +93,8 @@ FMS.page('u5-s15', {
         + 'with the correct word or phrase. Think about whether the situation is real '
         + 'and likely (First Conditional: if + Present Simple + will) or hypothetical '
         + '(Second Conditional: if + Past Simple + would). These structures are '
-        + 'essential for the investment correspondence you will write in Part 6. Word '
-        + 'list',
+        + 'essential for the investment correspondence you will write in Part '
+        + '6.<br>Word list',
       text: '<div style="font-size:16px;line-height:2.5">'
         + '1. If you confirm your attendance by 1 June, our Economic Affairs team '
           + '[[1]] arrange a dedicated bilateral meeting to discuss your specific '

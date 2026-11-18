@@ -24,13 +24,13 @@ FMS.page('u3-s21', {
       instruction: 'You represent the Ministry of Foreign Affairs in four different '
         + 'conversations today. Each person asks about your country\'s current '
         + 'situation — but what they need, how they ask it, and what they will do '
-        + 'with the answer is completely different.Visitor 1: A Spanish journalist '
-        + 'from El País — investigating reform progressVisitor 2: A senior Gulf state '
-        + 'minister — privately interested in bilateral investmentVisitor 3: A UN '
-        + 'human rights official — concerned about transparency and civic '
-        + 'participationVisitor 4: A Korean infrastructure investor — focused on '
-        + 'opportunity and riskIn small groups, discuss the following questions: (Aim '
-        + 'for 3–4 sentences per answer.)',
+        + 'with the answer is completely different.<br>Visitor 1: A Spanish '
+        + 'journalist from El País — investigating reform progress<br>Visitor 2: A '
+        + 'senior Gulf state minister — privately interested in bilateral '
+        + 'investment<br>Visitor 3: A UN human rights official — concerned about '
+        + 'transparency and civic participation<br>Visitor 4: A Korean infrastructure '
+        + 'investor — focused on opportunity and risk<br>In small groups, discuss the '
+        + 'following questions: (Aim for 3–4 sentences per answer.)',
       minWords: 12,
       questions: [{ q: 'How does the journalist\'s question differ from the Gulf minister\'s, even '
           + 'if they ask about the same topic?' },
@@ -51,13 +51,13 @@ FMS.page('u3-s21', {
         task: 'You represent the Ministry of Foreign Affairs in four different '
         + 'conversations today. Each person asks about your country\'s current '
         + 'situation — but what they need, how they ask it, and what they will do '
-        + 'with the answer is completely different.Visitor 1: A Spanish journalist '
-        + 'from El País — investigating reform progressVisitor 2: A senior Gulf state '
-        + 'minister — privately interested in bilateral investmentVisitor 3: A UN '
-        + 'human rights official — concerned about transparency and civic '
-        + 'participationVisitor 4: A Korean infrastructure investor — focused on '
-        + 'opportunity and riskIn small groups, discuss the following questions: (Aim '
-        + 'for 3–4 sentences per answer.)',
+        + 'with the answer is completely different. Visitor 1: A Spanish journalist '
+        + 'from El País — investigating reform progress Visitor 2: A senior Gulf '
+        + 'state minister — privately interested in bilateral investment Visitor 3: A '
+        + 'UN human rights official — concerned about transparency and civic '
+        + 'participation Visitor 4: A Korean infrastructure investor — focused on '
+        + 'opportunity and risk In small groups, discuss the following questions: '
+        + '(Aim for 3–4 sentences per answer.)',
         parts: ['How does the journalist\'s question differ from the Gulf minister\'s, even '
           + 'if they ask about the same topic?',
         'What does the UN human rights official need to hear that is different from '

@@ -22,7 +22,7 @@ FMS.page('u3-s17', {
       title: 'Write an Official Summary',
       instruction: 'Write a 4–5 sentence official summary of the following fictional event. '
         + 'Use passive voice where appropriate and maintain a formal, institutional '
-        + 'tone.Event: The Academic Cooperation Framework with France was signed '
+        + 'tone.<br>Event: The Academic Cooperation Framework with France was signed '
         + 'yesterday in Paris. Present at the signing: both foreign ministers. The '
         + 'framework covers student exchange programs, joint research in renewable '
         + 'energy, and collaboration between national and French universities. '
@@ -38,7 +38,7 @@ FMS.page('u3-s17', {
       scaffold: {
         task: 'Write a 4–5 sentence official summary of the following fictional event. '
         + 'Use passive voice where appropriate and maintain a formal, institutional '
-        + 'tone.Event: The Academic Cooperation Framework with France was signed '
+        + 'tone. Event: The Academic Cooperation Framework with France was signed '
         + 'yesterday in Paris. Present at the signing: both foreign ministers. The '
         + 'framework covers student exchange programs, joint research in renewable '
         + 'energy, and collaboration between national and French universities. '

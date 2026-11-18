@@ -25,6 +25,15 @@ FMS.page('u4-s16', {
         + '<p>' + 'Document 1: Note Verbale — Formal Invitation' + '</p>'
         + '<p>' + 'Word list: a) invite b) presents c) assurances' + '</p>'
         + '<p>' + 'Document 2: Formal Invitation Letter' + '</p>'
+        + '<p>' + '2. Your Excellency, On behalf of the Kazakh Ministry of Foreign Affairs, I '
+          + 'have the honor to ____________________ Your Excellency to the signing '
+          + 'ceremony of the Kazakhstan–Germany Bilateral Cooperation Framework, '
+          + 'scheduled for Tuesday, 18 June 2025, at eleven o\'clock in the morning at '
+          + 'the Ministry of Foreign Affairs in Astana. The ceremony will be attended '
+          + 'by both Foreign ____________________. A formal reception will '
+          + '____________________ at the Ministry following the ceremony. We look '
+          + 'forward to your distinguished presence. Yours sincerely, Aigerim Dosanova, '
+          + 'Protocol Department' + '</p>'
         + '<p>' + 'Word list: a) follow b) Ministers c) invite' + '</p>'
         + '<p>' + 'Document 3: Congratulatory Note' + '</p>'
         + '<p>' + 'Word list: a) appointment b) congratulations c) strengthen' + '</p>'
@@ -36,15 +45,6 @@ FMS.page('u4-s16', {
           + 'Foreign Affairs, Astana, on Thursday, 19 June 2025, at ten o\'clock in the '
           + 'morning. The Ministry avails itself of this opportunity to renew to the '
           + 'Embassy the ____________________ of its highest consideration.' + '</p>'
-        + '<p>' + 'Your Excellency, On behalf of the Kazakh Ministry of Foreign Affairs, I '
-          + 'have the honor to ____________________ Your Excellency to the signing '
-          + 'ceremony of the Kazakhstan–Germany Bilateral Cooperation Framework, '
-          + 'scheduled for Tuesday, 18 June 2025, at eleven o\'clock in the morning at '
-          + 'the Ministry of Foreign Affairs in Astana. The ceremony will be attended '
-          + 'by both Foreign ____________________. A formal reception will '
-          + '____________________ at the Ministry following the ceremony. We look '
-          + 'forward to your distinguished presence. Yours sincerely, Aigerim Dosanova, '
-          + 'Protocol Department' + '</p>'
         + '<p>' + 'His Excellency the Minister of Foreign Affairs of the Republic of '
           + 'Kazakhstan presents his warmest ____________________ to His Excellency the '
           + 'newly appointed Minister of Foreign Affairs of Japan upon his '
@@ -57,7 +57,15 @@ FMS.page('u4-s16', {
       playable: ['Document 1: Note Verbale — Formal Invitation',
         'Word list: a) invite b) presents c) assurances',
         'Document 2: Formal Invitation Letter',
-        'Word list: a) follow b) Ministers c) invite'],
+        '2. Your Excellency, On behalf of the Kazakh Ministry of Foreign Affairs, I '
+          + 'have the honor to ____________________ Your Excellency to the signing '
+          + 'ceremony of the Kazakhstan–Germany Bilateral Cooperation Framework, '
+          + 'scheduled for Tuesday, 18 June 2025, at eleven o\'clock in the morning at '
+          + 'the Ministry of Foreign Affairs in Astana. The ceremony will be attended '
+          + 'by both Foreign ____________________. A formal reception will '
+          + '____________________ at the Ministry following the ceremony. We look '
+          + 'forward to your distinguished presence. Yours sincerely, Aigerim Dosanova, '
+          + 'Protocol Department'],
       visual: { spot: 'email-anatomy', wide: true }
     },
     {

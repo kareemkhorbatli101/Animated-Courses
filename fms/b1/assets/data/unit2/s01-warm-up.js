@@ -97,14 +97,15 @@ FMS.page('u2-s01', {
       instruction: 'In small groups, categorize the liaison officer\'s tasks below, then '
         + 'discuss your answers. Sort each task into Before, During, or After the '
         + 'bilateral meeting. Share your answers with the class. (Aim for 3–4 '
-        + 'sentences when you share.)Tasks to categorize:• Confirm date, time, and '
-        + 'venue with both sides• Prepare and circulate the agenda to both sides• '
-        + 'Monitor the agenda to keep discussions on track• Arrange security '
-        + 'clearances for all foreign participants• Prepare a protocol brief for the '
-        + 'delegation lead• Coordinate with interpreters during the session• Write '
-        + 'the post-meeting summary within 24 hours• Confirm room setup — seating, '
-        + 'AV, and translation booths• Follow up on action items agreed in the '
-        + 'meeting• Take careful notes for the official record',
+        + 'sentences when you share.)<br>Tasks to categorize:<br>• Confirm date, '
+        + 'time, and venue with both sides<br>• Prepare and circulate the agenda to '
+        + 'both sides<br>• Monitor the agenda to keep discussions on track<br>• '
+        + 'Arrange security clearances for all foreign participants<br>• Prepare a '
+        + 'protocol brief for the delegation lead<br>• Coordinate with interpreters '
+        + 'during the session<br>• Write the post-meeting summary within 24 '
+        + 'hours<br>• Confirm room setup — seating, AV, and translation booths<br>• '
+        + 'Follow up on action items agreed in the meeting<br>• Take careful notes '
+        + 'for the official record',
       scene: 'u2-wb',
       quiz: {
         type: 'shortanswer',
@@ -112,14 +113,15 @@ FMS.page('u2-s01', {
         instruction: 'In small groups, categorize the liaison officer\'s tasks below, then '
         + 'discuss your answers. Sort each task into Before, During, or After the '
         + 'bilateral meeting. Share your answers with the class. (Aim for 3–4 '
-        + 'sentences when you share.)Tasks to categorize:• Confirm date, time, and '
-        + 'venue with both sides• Prepare and circulate the agenda to both sides• '
-        + 'Monitor the agenda to keep discussions on track• Arrange security '
-        + 'clearances for all foreign participants• Prepare a protocol brief for the '
-        + 'delegation lead• Coordinate with interpreters during the session• Write '
-        + 'the post-meeting summary within 24 hours• Confirm room setup — seating, '
-        + 'AV, and translation booths• Follow up on action items agreed in the '
-        + 'meeting• Take careful notes for the official record',
+        + 'sentences when you share.)<br>Tasks to categorize:<br>• Confirm date, '
+        + 'time, and venue with both sides<br>• Prepare and circulate the agenda to '
+        + 'both sides<br>• Monitor the agenda to keep discussions on track<br>• '
+        + 'Arrange security clearances for all foreign participants<br>• Prepare a '
+        + 'protocol brief for the delegation lead<br>• Coordinate with interpreters '
+        + 'during the session<br>• Write the post-meeting summary within 24 '
+        + 'hours<br>• Confirm room setup — seating, AV, and translation booths<br>• '
+        + 'Follow up on action items agreed in the meeting<br>• Take careful notes '
+        + 'for the official record',
         items: [{ q: '1. What must a liaison officer do before the meeting?',
               accept: ['Before the meeting, the liaison officer must confirm the date, time, and '
                   + 'venue with both sides, circulate the agenda, arrange security clearances '

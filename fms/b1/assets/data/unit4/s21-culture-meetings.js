@@ -22,17 +22,18 @@ FMS.page('u4-s21', {
       type: 'discuss',
       title: 'One Dinner, Three Cultures',
       instruction: 'You are hosting a formal ministry dinner in Astana. Three delegations are '
-        + 'at the table simultaneously:1. A European (French/German) delegation — '
-        + 'egalitarian, wine-serving culture, first-name basis after first meeting2. '
-        + 'A Gulf Arab delegation — formal titles, no alcohol, social warmth before '
-        + 'business, strict seniority protocol3. An East Asian (Japanese/Korean) '
-        + 'delegation — strict hierarchical seating, ceremonial gift exchange, '
-        + 'reserved social style, no direct refusalYou must manage the seating, the '
-        + 'toasts, the conversation, the gifts, and the closing — in a way that '
-        + 'respects all three cultures simultaneously.Discussion Starters:• "I think '
-        + 'the most important preparation is..."• "One thing that might cause a '
-        + 'problem is..."• "In this situation, I would..."In small groups, discuss '
-        + 'the following questions: (Aim for 3–4 sentences per answer.)',
+        + 'at the table simultaneously:<br>1. A European (French/German) delegation — '
+        + 'egalitarian, wine-serving culture, first-name basis after first '
+        + 'meeting<br>2. A Gulf Arab delegation — formal titles, no alcohol, social '
+        + 'warmth before business, strict seniority protocol<br>3. An East Asian '
+        + '(Japanese/Korean) delegation — strict hierarchical seating, ceremonial '
+        + 'gift exchange, reserved social style, no direct refusal<br>You must manage '
+        + 'the seating, the toasts, the conversation, the gifts, and the closing — in '
+        + 'a way that respects all three cultures simultaneously.<br>Discussion '
+        + 'Starters:<br>• "I think the most important preparation is..."<br>• "One '
+        + 'thing that might cause a problem is..."<br>• "In this situation, I '
+        + 'would..."<br>In small groups, discuss the following questions: (Aim for '
+        + '3–4 sentences per answer.)',
       minWords: 12,
       questions: [{ q: 'Who sits where? How do you arrange the seating to respect seniority across '
           + 'three different hierarchical cultures simultaneously?' },
@@ -53,17 +54,17 @@ FMS.page('u4-s21', {
         title: 'Compare with the book',
         target: 'Formal written structures and conditionals',
         task: 'You are hosting a formal ministry dinner in Astana. Three delegations are '
-        + 'at the table simultaneously:1. A European (French/German) delegation — '
-        + 'egalitarian, wine-serving culture, first-name basis after first meeting2. '
+        + 'at the table simultaneously: 1. A European (French/German) delegation — '
+        + 'egalitarian, wine-serving culture, first-name basis after first meeting 2. '
         + 'A Gulf Arab delegation — formal titles, no alcohol, social warmth before '
-        + 'business, strict seniority protocol3. An East Asian (Japanese/Korean) '
+        + 'business, strict seniority protocol 3. An East Asian (Japanese/Korean) '
         + 'delegation — strict hierarchical seating, ceremonial gift exchange, '
-        + 'reserved social style, no direct refusalYou must manage the seating, the '
+        + 'reserved social style, no direct refusal You must manage the seating, the '
         + 'toasts, the conversation, the gifts, and the closing — in a way that '
-        + 'respects all three cultures simultaneously.Discussion Starters:• "I think '
-        + 'the most important preparation is..."• "One thing that might cause a '
-        + 'problem is..."• "In this situation, I would..."In small groups, discuss '
-        + 'the following questions: (Aim for 3–4 sentences per answer.)',
+        + 'respects all three cultures simultaneously. Discussion Starters: • "I '
+        + 'think the most important preparation is..." • "One thing that might cause '
+        + 'a problem is..." • "In this situation, I would..." In small groups, '
+        + 'discuss the following questions: (Aim for 3–4 sentences per answer.)',
         parts: ['Who sits where? How do you arrange the seating to respect seniority across '
           + 'three different hierarchical cultures simultaneously?',
         'How do you manage the toasts in a way that does not offend the Gulf Arab '

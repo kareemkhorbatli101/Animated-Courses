@@ -23,16 +23,16 @@ FMS.page('u3-s20', {
       instruction: 'Partner activity: One student plays the ministry spokesperson; the other '
         + 'plays a journalist. Read the exchange below with correct intonation, then '
         + 'repeat with your own questions and answers on a topic of your '
-        + 'choice.Journalist: The ministry announced an MoU with Germany today. What '
-        + 'specifically has been agreed?Spokesperson: A comprehensive infrastructure '
-        + 'framework has been signed. The framework covers road networks, water '
-        + 'systems, and education. A joint technical committee has been established '
-        + 'and will convene within sixty days.Journalist: And is this a binding '
-        + 'agreement?Spokesperson: Both governments have signed. The framework is '
-        + 'fully binding and subject to quarterly implementation reviews.Focus on:• '
-        + 'Falling intonation on all declarative answers• Stress on key policy words: '
-        + 'framework, signed, established, binding• A steady, calm pace — do not rush '
-        + 'to fill silence',
+        + 'choice.<br>Journalist: The ministry announced an MoU with Germany today. '
+        + 'What specifically has been agreed?<br>Spokesperson: A comprehensive '
+        + 'infrastructure framework has been signed. The framework covers road '
+        + 'networks, water systems, and education. A joint technical committee has '
+        + 'been established and will convene within sixty days.<br>Journalist: And is '
+        + 'this a binding agreement?<br>Spokesperson: Both governments have signed. '
+        + 'The framework is fully binding and subject to quarterly implementation '
+        + 'reviews.<br>Focus on:<br>• Falling intonation on all declarative '
+        + 'answers<br>• Stress on key policy words: framework, signed, established, '
+        + 'binding<br>• A steady, calm pace — do not rush to fill silence',
       minWords: 40,
       placeholder: 'I would like to say that…',
       stems: ['I would like to say that…'],
@@ -41,30 +41,30 @@ FMS.page('u3-s20', {
         target: 'Explaining and describing: the passive and reporting verbs',
         task: 'Partner activity: One student plays the ministry spokesperson; the other '
         + 'plays a journalist. Read the exchange below with correct intonation, then '
-        + 'repeat with your own questions and answers on a topic of your '
-        + 'choice.Journalist: The ministry announced an MoU with Germany today. What '
-        + 'specifically has been agreed?Spokesperson: A comprehensive infrastructure '
+        + 'repeat with your own questions and answers on a topic of your choice. '
+        + 'Journalist: The ministry announced an MoU with Germany today. What '
+        + 'specifically has been agreed? Spokesperson: A comprehensive infrastructure '
         + 'framework has been signed. The framework covers road networks, water '
         + 'systems, and education. A joint technical committee has been established '
-        + 'and will convene within sixty days.Journalist: And is this a binding '
-        + 'agreement?Spokesperson: Both governments have signed. The framework is '
-        + 'fully binding and subject to quarterly implementation reviews.Focus on:• '
-        + 'Falling intonation on all declarative answers• Stress on key policy words: '
-        + 'framework, signed, established, binding• A steady, calm pace — do not rush '
-        + 'to fill silence',
+        + 'and will convene within sixty days. Journalist: And is this a binding '
+        + 'agreement? Spokesperson: Both governments have signed. The framework is '
+        + 'fully binding and subject to quarterly implementation reviews. Focus on: • '
+        + 'Falling intonation on all declarative answers • Stress on key policy '
+        + 'words: framework, signed, established, binding • A steady, calm pace — do '
+        + 'not rush to fill silence',
         parts: ['Partner activity: One student plays the ministry spokesperson; the other '
           + 'plays a journalist. Read the exchange below with correct intonation, then '
-          + 'repeat with your own questions and answers on a topic of your '
-          + 'choice.Journalist: The ministry announced an MoU with Germany today. What '
-          + 'specifically has been agreed?Spokesperson: A comprehensive infrastructure '
+          + 'repeat with your own questions and answers on a topic of your choice. '
+          + 'Journalist: The ministry announced an MoU with Germany today. What '
+          + 'specifically has been agreed? Spokesperson: A comprehensive infrastructure '
           + 'framework has been signed. The framework covers road networks, water '
           + 'systems, and education. A joint technical committee has been established '
-          + 'and will convene within sixty days.Journalist: And is this a binding '
-          + 'agreement?Spokesperson: Both governments have signed. The framework is '
-          + 'fully binding and subject to quarterly implementation reviews.Focus on:• '
-          + 'Falling intonation on all declarative answers• Stress on key policy words: '
-          + 'framework, signed, established, binding• A steady, calm pace — do not rush '
-          + 'to fill silence'],
+          + 'and will convene within sixty days. Journalist: And is this a binding '
+          + 'agreement? Spokesperson: Both governments have signed. The framework is '
+          + 'fully binding and subject to quarterly implementation reviews. Focus on: • '
+          + 'Falling intonation on all declarative answers • Stress on key policy '
+          + 'words: framework, signed, established, binding • A steady, calm pace — do '
+          + 'not rush to fill silence'],
         example: ['Journalist delivery: professional and neutral, with a slight rise on the '
             + 'question itself. Stress: an-NOUNCED, GER-man-y, SPE-ci-fic-ally, a-GREED. '
             + 'Do not sound combative; the question is already pointed enough.',
@@ -89,13 +89,14 @@ FMS.page('u3-s20', {
       type: 'report',
       title: 'Practice and Record',
       instruction: 'Record a 30-second official press statement about one real or fictional '
-        + 'national program. Include:• An announcement of what has been done (present '
-        + 'perfect passive)• A description of what is currently being done (present '
-        + 'continuous passive)• A forward-looking sentence about what will happen '
-        + 'nextListen back and check:• Did you stress key policy vocabulary '
-        + 'correctly?• Was your intonation falling on declarative sentences?• Was '
-        + 'your pace steady — authoritative but not rushed?• Did you sound confident '
-        + 'and credible?Record a second version if needed and compare.',
+        + 'national program. Include:<br>• An announcement of what has been done '
+        + '(present perfect passive)<br>• A description of what is currently being '
+        + 'done (present continuous passive)<br>• A forward-looking sentence about '
+        + 'what will happen next<br>Listen back and check:<br>• Did you stress key '
+        + 'policy vocabulary correctly?<br>• Was your intonation falling on '
+        + 'declarative sentences?<br>• Was your pace steady — authoritative but not '
+        + 'rushed?<br>• Did you sound confident and credible?<br>Record a second '
+        + 'version if needed and compare.',
       minWords: 40,
       placeholder: 'I would like to say that…',
       stems: ['I would like to say that…'],
@@ -103,21 +104,21 @@ FMS.page('u3-s20', {
         title: 'Compare with the book',
         target: 'Explaining and describing: the passive and reporting verbs',
         task: 'Record a 30-second official press statement about one real or fictional '
-        + 'national program. Include:• An announcement of what has been done (present '
-        + 'perfect passive)• A description of what is currently being done (present '
-        + 'continuous passive)• A forward-looking sentence about what will happen '
-        + 'nextListen back and check:• Did you stress key policy vocabulary '
-        + 'correctly?• Was your intonation falling on declarative sentences?• Was '
-        + 'your pace steady — authoritative but not rushed?• Did you sound confident '
-        + 'and credible?Record a second version if needed and compare.',
+        + 'national program. Include: • An announcement of what has been done '
+        + '(present perfect passive) • A description of what is currently being done '
+        + '(present continuous passive) • A forward-looking sentence about what will '
+        + 'happen next Listen back and check: • Did you stress key policy vocabulary '
+        + 'correctly? • Was your intonation falling on declarative sentences? • Was '
+        + 'your pace steady — authoritative but not rushed? • Did you sound confident '
+        + 'and credible? Record a second version if needed and compare.',
         parts: ['Record a 30-second official press statement about one real or fictional '
-          + 'national program. Include:• An announcement of what has been done (present '
-          + 'perfect passive)• A description of what is currently being done (present '
-          + 'continuous passive)• A forward-looking sentence about what will happen '
-          + 'nextListen back and check:• Did you stress key policy vocabulary '
-          + 'correctly?• Was your intonation falling on declarative sentences?• Was '
-          + 'your pace steady — authoritative but not rushed?• Did you sound confident '
-          + 'and credible?Record a second version if needed and compare.'],
+          + 'national program. Include: • An announcement of what has been done '
+          + '(present perfect passive) • A description of what is currently being done '
+          + '(present continuous passive) • A forward-looking sentence about what will '
+          + 'happen next Listen back and check: • Did you stress key policy vocabulary '
+          + 'correctly? • Was your intonation falling on declarative sentences? • Was '
+          + 'your pace steady — authoritative but not rushed? • Did you sound confident '
+          + 'and credible? Record a second version if needed and compare.'],
         example: ['Stress: the key program verb (SIGNED, es-TAB-lished, UP-grad-ed), the '
             + 'named partner, and the timeline. Tone: settled and declarative — falling '
             + 'at the end of every sentence. Pace: slower than conversation, with a real '

@@ -92,7 +92,7 @@ FMS.page('u1-s05', {
       type: 'cloze',
       title: 'Vocabulary Practice: Using the Words in Sentences',
       instruction: 'Complete each sentence with the correct word or phrase from the list '
-        + 'below. Word Bank:',
+        + 'below.<br>Word Bank:',
       text: '<div style="font-size:16px;line-height:2.5">'
         + '1. The [[1]] greeted the ambassador at the entrance and escorted her to '
           + 'the minister\'s reception room.'
