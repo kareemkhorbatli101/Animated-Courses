@@ -64,7 +64,12 @@ FRAME = {'table': ('note/table/flow-chart completion', 'Table completion'),
          'process': ('note/table/flow-chart completion',
                      'Flow-chart completion'),
          'map': ('plan/map/diagram labelling', 'Plan labelling'),
-         'device': ('plan/map/diagram labelling', 'Diagram labelling')}
+         'device': ('plan/map/diagram labelling', 'Diagram labelling'),
+         # The two frames written for units 81 and 82. A route is a map
+         # and a section is a diagram, and a question set against either
+         # is the same official task as one set against the two above.
+         'route': ('plan/map/diagram labelling', 'Map labelling'),
+         'section': ('plan/map/diagram labelling', 'Diagram labelling')}
 
 PRETTY = {
     'multiple choice': 'Multiple choice',

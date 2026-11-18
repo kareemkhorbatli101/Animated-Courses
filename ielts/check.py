@@ -895,9 +895,21 @@ def seam(heads, ns, out):
 
 
 def main(argv):
+    """`check.py 21-30` for a range, `check.py v3` for a whole book.
+
+    The v form exists because a book's units are no longer contiguous:
+    Volume 3 is 21-30 plus 81 and 82, and a range cannot say that without
+    dragging in three other volumes. unitmap.py holds the membership, so
+    the v form asks it rather than repeating the list here.
+    """
     spec = argv[0] if argv else '31-40'
-    a, _, b = spec.partition('-')
-    ns = range(int(a), int(b or a) + 1)
+    if spec[:1] in 'vV' and spec[1:].isdigit():
+        ns = UN.units(int(spec[1:]))
+    elif ',' in spec:
+        ns = [int(x) for x in spec.split(',') if x.strip()]
+    else:
+        a, _, b = spec.partition('-')
+        ns = list(range(int(a), int(b or a) + 1))
     out, heads = [], {}
     got = 0
     for n in ns:

@@ -1051,6 +1051,569 @@ LANG = {
    ('Make an evaluation arguable in ten words.',
     'Judged by access rather than revenue, the scheme has failed.')],
   seen=[]),
+ 'L32': dict(
+  title='The passive for a mechanism',
+  also='agentless passive, naming passive, scientific passive',
+  pattern=[
+   'The passive is be plus the past participle: is detected, was '
+   'measured, has been shown, will be reported. The tense sits on be '
+   'and the participle never changes.',
+   'Use it when the agent is unknown, unimportant, or obvious. In a '
+   'description of how something works all three are usually true at '
+   'once, which is why mechanism paragraphs are full of passives and '
+   'why an active version of the same paragraph reads as a story about '
+   'researchers rather than an account of a process.',
+   'Add the agent with by only where it is informative: the ring is '
+   'fitted by somebody who holds a permit tells you something; the '
+   'sample was measured by scientists tells you nothing and costs four '
+   'words.',
+   'The naming passive introduces a technical term after you have '
+   'described the thing: that event is called a recovery; this process '
+   'is known as imprinting; the result is referred to as the raw age. '
+   'It is the single most useful structure in a science answer, '
+   'because it lets you define once and then use the term.',
+   'The passive with a reporting verb hedges as well as describes: it '
+   'is thought to be, it is believed that, it has been suggested that. '
+   'These let you report a claim without owning it, which Task 2 needs '
+   'constantly.',
+   'Keep the chain readable by putting the known thing first. The '
+   'light splits a molecule; the molecule is then held at an angle. '
+   'Each sentence begins with what the last one ended on, and the '
+   'passive is what lets you do that without inventing a subject.'],
+  errors=[
+   'Supplying an agent that carries no information: by scientists, by '
+   'researchers, by experts. Three of these in a paragraph is the '
+   'commonest way a band 6 answer reads as padded, and removing them '
+   'costs nothing.',
+   'Leaving out be: the compass thought to be in the eye. The '
+   'participle cannot carry the tense on its own, and this slip is '
+   'noticed immediately because the sentence has no finite verb.',
+   'Using the passive where the agent is the point. Three groups have '
+   'reported results is stronger than results have been reported, '
+   'because the number of groups is the evidence.'],
+  items=[
+   ('Something guides the bird. → passive', 'The bird is guided.'),
+   ('A cell detects direction. → passive, agent kept',
+    'Direction is detected by a cell.'),
+   ('Scientists call this orientation. → naming passive',
+    'This is called orientation.'),
+   ('They know this as the clock-shift experiment.',
+    'This is known as the clock-shift experiment.'),
+   ('Correct: The effect thought to be small.',
+    'The effect is thought to be small.'),
+   ('Correct: This is call magnetoreception.',
+    'This is called magnetoreception.'),
+   ('Remove the empty agent: the sample was measured by scientists.',
+    'the sample was measured'),
+   ('Report without owning: the molecule is the right one.',
+    'The molecule is thought to be the right one.')],
+  seen=[]),
+
+ 'L33': dict(
+  title='Hedging a scientific claim',
+  also='epistemic modality, evidentials, reporting verbs',
+  pattern=[
+   'A hedge marks how far the evidence goes, and in academic English '
+   'it is information rather than politeness. Removing the hedges from '
+   'a science paragraph does not make it stronger; it makes it false.',
+   'Three families. Modal: may, might, could, is likely to. These say '
+   'how probable. Reporting: is thought to, is believed to, appears '
+   'to, seems to. These say who thinks so, without naming them. '
+   'Evidential: suggests, indicates, demonstrates, is consistent with. '
+   'These say what the evidence does.',
+   'The evidential family is ordered and the order is worth learning: '
+   'is consistent with is weakest, then suggests, then indicates, then '
+   'shows, then demonstrates. Moving one step up that list without '
+   'more evidence is the commonest overclaim in a candidate essay.',
+   'Is consistent with means the evidence would look like this if the '
+   'claim were true, and would also look like this under other claims. '
+   'It is not weak agreement; it is an explicit refusal to decide, and '
+   'a Yes/No/Not Given statement that turns it into shows is NO.',
+   'Hedges stack, and stacking is normal: it may be that the effect is '
+   'too small to be used. Two hedges in one clause is not clumsy in '
+   'this register. Four is.',
+   'Where a thing has been shown, say so without a hedge. A paragraph '
+   'in which everything is hedged equally tells the reader nothing '
+   'about which parts are secure, and that distinction is the whole '
+   'value of hedging.'],
+  errors=[
+   'Using prove. Almost nothing outside mathematics is proved, and the '
+   'word signals to an examiner that the candidate has not understood '
+   'how evidence works. Show, indicate and demonstrate are all '
+   'available and all safer.',
+   'Treating is consistent with as agreement. The phrase allows the '
+   'claim and removes its force at the same time, and a reader who '
+   'misses the second half will misread the paragraph and two '
+   'questions.',
+   'Hedging the thing that is certain and asserting the thing that is '
+   'not. The usual cause is hedging by habit rather than by evidence, '
+   'and the result reads as uniformly vague.'],
+  items=[
+   ('Add the hedge: the chemistry works in a living eye. (not shown)',
+    'The chemistry may work in a living eye.'),
+   ('Add the hedge: magnetite is a sensor. (disputed)',
+    'Magnetite is thought to be a sensor.'),
+   ('Three studies fit. What verb?',
+    'The results are consistent with the claim.'),
+   ('Strong evidence, not proof. What verb?',
+    'The evidence indicates that...'),
+   ('Correct: The result is consistent to the theory.',
+    'The result is consistent with the theory.'),
+   ('Correct: This experiment proves the mechanism.',
+    'This experiment indicates that the mechanism may operate.'),
+   ('Order these: shows, is consistent with, suggests.',
+    'is consistent with < suggests < shows'),
+   ('Remove the force without disputing: attendance rose after the '
+    'campaign.',
+    'attendance rose after the campaign, which is consistent with '
+    'several explanations')],
+  seen=[]),
+
+ 'L34': dict(
+  title='Sequence and simultaneity',
+  also='time clauses, as, while, once, by the time',
+  pattern=[
+   'Four conjunctions do most of the work. As and while join things '
+   'that happen together; once and by the time join things that happen '
+   'in order, with the second depending on the first.',
+   'The tense after a time conjunction is never the future, even when '
+   'the meaning is: once the ant reaches the nest, the count will be '
+   'reset. Reaches, not will reach. This is the single most frequent '
+   'error at this band in time clauses and it is entirely mechanical.',
+   'By the time takes the perfect in the clause that follows it, '
+   'because it means at the point when that had already happened: by '
+   'the time the stilts were fitted, the outward count had already '
+   'been made.',
+   'As has two meanings and the context separates them. As the ant '
+   'walks out is time; as the ground is hot is reason. If both '
+   'readings are possible, use while for time and since for reason.',
+   'A time clause can come first or second, and the comma follows the '
+   'position: Once it reaches the nest, the count is reset. The count '
+   'is reset once it reaches the nest. Front it when the time is the '
+   'point; leave it at the end when the event is.',
+   'For a process description, the plain markers are better than the '
+   'elaborate ones. First, next, once this is complete, finally. '
+   'Subsequently and thereupon read as decoration and an examiner has '
+   'seen them four hundred times this week.'],
+  errors=[
+   'Will after a time conjunction: once it will reach the nest. The '
+   'future is carried by the main clause and never by the time clause.',
+   'Using by the time with a simple past where the perfect is needed: '
+   'by the time the stilts were fitted, the count was made. The '
+   'perfect is what says the count came first, which is the whole '
+   'meaning.',
+   'Using as for reason in a sentence where a time reading is also '
+   'available. As the sample was taken from an open context, it was '
+   'rejected - is that when, or because? Since removes the ambiguity '
+   'at no cost.'],
+  items=[
+   ('Join with as: The ant walks out. It counts strides.',
+    'As the ant walks out, it counts its strides.'),
+   ('Join with once: It reaches the nest. The count is reset.',
+    'Once it reaches the nest, the count is reset.'),
+   ('Join with by the time: It has gone 200 m. The error is small.',
+    'By the time it has gone 200 metres, the error is still small.'),
+   ('Correct: Once the recording will start, you cannot go back.',
+    'Once the recording starts, you cannot go back.'),
+   ('Correct: By the time we arrived, the tour left.',
+    'By the time we arrived, the tour had left.'),
+   ('Join with while: The count runs. Direction comes from the sky.',
+    'While the count runs, the direction comes from the sky.'),
+   ('Disambiguate: As the soil was acid, the bone was lost.',
+    'Since the soil was acid, the bone was lost.'),
+   ('Four plain markers for a process.',
+    'first, next, once this is complete, finally')],
+  seen=[]),
+
+ 'L35': dict(
+  title='Quantity, approximation and the limits of a figure',
+  also='approximators, ranges, proportions, hedged superlatives',
+  pattern=[
+   'Four devices. Approximators: about, roughly, approximately, some, '
+   'of the order of, in the region of. Ranges: between X and Y, from X '
+   'to Y, X to Y. Proportions: a high proportion of, close to half, '
+   'rather under a quarter, the majority of. Hedged superlatives: '
+   'among the longest, one of the few, arguably the largest.',
+   'Of the order of is the most useful and least used. It claims the '
+   'right power of ten and nothing more - of the order of three '
+   'thousand kilometres - and it is exactly right when you know the '
+   'scale and not the figure.',
+   'A range means the true value is somewhere inside it, and the '
+   'probability belongs with it where you have one: between 1040 and '
+   '1160 at 95 per cent confidence. A range without a probability is '
+   'still honest; a point estimate without one is usually not.',
+   'Per cent and percentage point are different measures and both are '
+   'often needed in one sentence. A share rising from 20 to 25 has '
+   'risen by five percentage points and by a quarter.',
+   'Use a proportion when you do not know the count and a count when '
+   'you do. A high proportion of salmon return is honest where nobody '
+   'has counted; 83 per cent of salmon return is a claim about a '
+   'measurement.',
+   'Hedge the superlative unless you have checked. Among the longest '
+   'migrations costs two words and cannot be wrong; the longest '
+   'migration can be, and an examiner who knows the subject will '
+   'notice.'],
+  errors=[
+   'False precision. Writing 15 days where the evidence supports ten '
+   'to twenty is marked as inaccuracy, not as confidence, and it is '
+   'the commonest Task 1 error at band 6.',
+   'Confusing per cent with percentage point, usually in the direction '
+   'that makes the change sound larger.',
+   'Stacking approximators: about roughly fifty. One is information '
+   'and two is a writer who has not decided.'],
+  items=[
+   ('Estimates run from 10 to 20 days. Write it.',
+    'between ten and twenty days'),
+   ('You know the scale, not the figure: 2,900 km.',
+    'of the order of three thousand kilometres'),
+   ('Most do, nobody has counted.',
+    'a high proportion of them'),
+   ('20% to 25%: two correct descriptions.',
+    'up five percentage points; up by a quarter'),
+   ('Hedge: it is the longest migration of any fish.',
+    'it is among the longest migrations of any fish'),
+   ('Correct: about roughly fifty per cent.', 'about fifty per cent'),
+   ('Slightly under half failed.', 'close to half failed'),
+   ('A range with its probability.',
+    '1040 to 1160 at 95 per cent confidence')],
+  seen=[]),
+
+ 'L36': dict(
+  title='The argument from mechanism',
+  also='if-then, falsifiability, hypothetical conditionals',
+  pattern=[
+   'An argument from mechanism says that because a thing works in a '
+   'particular way, a consequence follows whether anybody wants it or '
+   'not. It needs three structures and they do different jobs.',
+   'The mechanism itself goes in the present simple, in both clauses, '
+   'because it is a general truth: if a route is learned by making '
+   'decisions, removing the decisions removes the learning. No will '
+   'anywhere.',
+   'The prediction goes in the first conditional: if the ant counts '
+   'strides, it will overshoot. Present in the if-clause, will in the '
+   'main clause. This is the form that makes a claim about the actual '
+   'world and can therefore be tested.',
+   'The test - what would have to be true for the argument to fail - '
+   'goes in the second conditional: if the loss reversed within a '
+   'month, nothing would have been lost. The past form here is '
+   'distance, not time: you are naming a possibility without claiming '
+   'it happens.',
+   'Finish the test by saying what follows from it. I hold my position '
+   'less firmly because of it. A test that stops at the admission is a '
+   'concession; a test that states its own consequence is an argument '
+   'about how much to believe, and examiners see almost none of them.',
+   'The mechanism sentence should be one your opponent could accept. '
+   'If it is already your conclusion, you have not found the '
+   'mechanism, and the essay will read as an opinion with connectives '
+   'in it.'],
+  errors=[
+   'Writing will in the if-clause: if the ant will count strides. The '
+   'condition never takes will in any of the three forms above.',
+   'Mixing the second conditional: if the loss would reverse, nothing '
+   'is lost. The if-clause takes the past form and the main clause '
+   'takes would: if the loss reversed, nothing would have been lost.',
+   'Offering a concession where a test was needed. Some people '
+   'disagree names no evidence and cannot change anybody’s mind; '
+   'if X were found, my argument would fail does both.'],
+  items=[
+   ('Mechanism: routes are learned by junction decisions.',
+    'If routes are learned by making decisions, a driver who makes '
+    'none learns nothing.'),
+   ('Prediction: the ant counts strides, stilts fitted.',
+    'If the ant counts strides, it will overshoot.'),
+   ('Test: the loss might reverse.',
+    'If the loss reversed, nothing would have been lost.'),
+   ('Correct: If the ant will count strides, it overshoots.',
+    'If the ant counts strides, it will overshoot.'),
+   ('Correct: If the loss would reverse, nothing is lost.',
+    'If the loss reversed, nothing would have been lost.'),
+   ('Say what follows from: nobody has tested this.',
+    'so I hold the claim provisionally and would change it on one '
+    'good study'),
+   ('Turn into a test: some people disagree.',
+    'If it were shown that the effect reverses, my argument would '
+    'fail.'),
+   ('Is this a mechanism? Satellite navigation is bad for us.',
+    'No - it is the conclusion. The mechanism is that a skill not '
+    'exercised decays.')],
+  seen=[]),
+
+ 'L37': dict(
+  title='Dating, and degrees of certainty about time',
+  also='approximate dates, ranges, bounds, relative dating',
+  pattern=[
+   'Four kinds of date and they make four different claims. The '
+   'approximate date: c. 1200, about the twelfth century, around the '
+   'year 500. The c. stands for circa and is read as about; it is '
+   'written before the figure and takes a full stop.',
+   'The range: between 1150 and 1300, from the second to the fourth '
+   'century. A range says the true date lies inside it, and in '
+   'scientific dating it comes with a probability attached.',
+   'The bound: no earlier than 1974, not before the twelfth century, '
+   'after 1900. A bound fixes one end and leaves the other open, and '
+   'it is what a dated object gives you about the layer it sits in - '
+   'the earliest the layer can be, never the latest.',
+   'The relative date: later than the layer beneath it, earlier than '
+   'the wall it is cut by, contemporary with the hearth. Relative '
+   'dates commit to an order and to nothing else, and most of '
+   'archaeology, geology and manuscript study runs on them.',
+   'State the condition inside the claim where one exists: the lower '
+   'layer is earlier, provided neither has been disturbed. Writing '
+   'the limit into the sentence that makes the claim is marked as '
+   'precision, and writing it in a separate sentence afterwards reads '
+   'as retreat.',
+   'Prepositions. Date to, not date at: the hearth dates to c. 1200. '
+   'In the twelfth century, not at. Between X and Y, not between X to '
+   'Y.'],
+  errors=[
+   'Using a single figure where the evidence gives a range, which '
+   'claims a precision nobody has and is marked as inaccuracy.',
+   'Taking a dated object as dating the layer it was found in. A coin '
+   'of 1106 says the layer is no earlier than 1106 and says nothing '
+   'at all about how much later it is.',
+   'Dates at: the hearth dates at 1200. The verb takes to, and this '
+   'is a preposition error an examiner notices because the sentence '
+   'is otherwise technical.'],
+  items=[
+   ('Approximately 1200. Write it.', 'c. 1200'),
+   ('Twelfth or thirteenth century. Write it as a range.',
+    'between 1100 and 1300'),
+   ('The topsoil contains a 1974 coin. What date does that give?',
+    'no earlier than 1974'),
+   ('The clay lies above the occupation layer.',
+    'The clay is later than the occupation layer.'),
+   ('Correct: The hearth dates at c. 1200.',
+    'The hearth dates to c. 1200.'),
+   ('Correct: between 1150 to 1300.', 'between 1150 and 1300'),
+   ('Add the condition: the lower layer is earlier.',
+    'the lower layer is earlier, provided neither has been disturbed'),
+   ('A layer takes the date of which object in it?',
+    'the latest one')],
+  seen=[]),
+
+ 'L38': dict(
+  title='Relative clauses that identify',
+  also='defining and non-defining clauses, reduced relatives',
+  pattern=[
+   'A defining relative clause says which one and takes no commas: '
+   'the layer that contains the hearth. Remove it and the reader no '
+   'longer knows which layer you mean.',
+   'A non-defining clause adds information about something already '
+   'identified and takes a comma at both ends: context 412, which '
+   'contained the hearth, was sampled three times. Remove it and the '
+   'sentence still identifies its subject.',
+   'That cannot introduce a non-defining clause in standard written '
+   'English. Which can do both jobs; that can only define. Where you '
+   'have put a comma, use which.',
+   'The reduced relative drops the relative pronoun and the verb be, '
+   'and it is the form technical writing prefers: the samples taken '
+   'from an open context, the curve running flat across that period. '
+   'It is shorter, and it is available whenever the full clause would '
+   'be passive or progressive.',
+   'The verb agrees with the thing the clause describes, not with the '
+   'nearest noun: the samples which were taken, not which was taken. '
+   'This is the commonest agreement error at band 6 and it happens '
+   'because the writer has lost the subject by the time they reach '
+   'the verb.',
+   'Where and when are relatives too, for places and times: the '
+   'context where the hearth was found, the season when the barn was '
+   'excavated. They save an awkward in which and at which.'],
+  errors=[
+   'Comma plus that. A non-defining clause cannot begin with that, '
+   'and this is one of the few rules in English that is genuinely '
+   'absolute in writing.',
+   'One comma instead of two. A non-defining clause needs closing as '
+   'well as opening, and a missing second comma leaves the reader '
+   'looking for the main verb.',
+   'Agreement with the nearest noun rather than with the subject: a '
+   'collection of samples which was taken. The samples were taken, '
+   'whatever the collection did.'],
+  items=[
+   ('Join, defining: The layer contains the hearth. It is 60 cm '
+    'thick.',
+    'The layer that contains the hearth is 60 cm thick.'),
+   ('Join, non-defining: Context 412 was sampled. It had the hearth.',
+    'Context 412, which contained the hearth, was sampled.'),
+   ('Reduce: the samples that were taken from an open context.',
+    'the samples taken from an open context'),
+   ('Reduce: the curve that runs flat across that period.',
+    'the curve running flat across that period'),
+   ('Correct: The samples, that were taken from 412, were charcoal.',
+    'The samples that were taken from 412 were charcoal.'),
+   ('Correct: The samples which was taken were charcoal.',
+    'The samples which were taken were charcoal.'),
+   ('Correct: The range, which is 1040 to 1160 was narrowed.',
+    'The range, which is 1040 to 1160, was narrowed.'),
+   ('Use where: the context in which the hearth was found.',
+    'the context where the hearth was found')],
+  seen=[]),
+
+ 'L39': dict(
+  title='Reporting an interval',
+  also='elapse, separate, it was not until, fronted time phrases',
+  pattern=[
+   'Four structures, and the choice between them decides whether your '
+   'sentence is about an event or about a gap. Elapse and pass take '
+   'the interval as subject: four years elapsed between the end of '
+   'fieldwork and publication.',
+   'Separate takes the interval as subject and the two events as '
+   'objects: three years separate the scatter from the survey. Note '
+   'the plural verb after a plural interval, and note from rather '
+   'than and.',
+   'It was not until X that Y is the cleft for a delayed event, and '
+   'it puts the emphasis on how long the wait was: it was not until '
+   '2019 that a trench was opened. The that is obligatory.',
+   'A fronted time phrase sets a point and then says what had already '
+   'happened by it, which needs the perfect: by the end of season '
+   'three, the barn had been excavated.',
+   'Making the interval the subject is what turns a caption into an '
+   'analysis. The survey took place three years later is about the '
+   'survey; three years separate them is about the gap, and on a '
+   'timeline the gaps are the subject.',
+   'Hang the comparison off the interval once you have fronted it: '
+   'five years pass before the first trench, which is the single '
+   'longest interval on the diagram. A writer whose subjects are '
+   'events has nowhere natural to put that clause.'],
+  errors=[
+   'Elapse with a passive: four years were elapsed. Elapse is '
+   'intransitive and has no passive.',
+   'Separate with and instead of from: three years separate X and Y '
+   'is understood and is not the collocation; separate X from Y is.',
+   'Omitting that from the cleft: it was not until 2019 a trench was '
+   'opened. The that is not optional in this structure.'],
+  items=[
+   ('Survey 2014, trench 2019. Interval as subject.',
+    'Five years separate the survey from the trench.'),
+   ('Fieldwork ended 2021, report 2025.',
+    'Four years elapsed between the end of fieldwork and the report.'),
+   ('A trench was only opened in 2019. Use a cleft.',
+    'It was not until 2019 that a trench was opened.'),
+   ('By season three the barn was dug. Use the perfect.',
+    'By the end of season three the barn had been excavated.'),
+   ('Correct: Four years were elapsed.', 'Four years elapsed.'),
+   ('Correct: Three years separate the scatter and the survey.',
+    'Three years separate the scatter from the survey.'),
+   ('Correct: It was not until 2019 a trench was opened.',
+    'It was not until 2019 that a trench was opened.'),
+   ('Add a comparison: three years separate the first two stages.',
+    'three years separate the first two stages, the shortest gap in '
+    'the project')],
+  seen=[]),
+
+ 'L40': dict(
+  title='Reporting an absence without overclaiming',
+  also='negative evidence, inverted conditionals, argument from '
+       'silence',
+  pattern=[
+   'Four statements about the same absence, in order of strength. '
+   'There is no evidence of X. X is absent from the record. No X was '
+   'recovered. Had X been present, it would have survived. Only the '
+   'last is an argument, and it needs the other three to have been '
+   'established first.',
+   'The weakest form says nothing about the world: there is no '
+   'evidence of textile production is a statement about the evidence '
+   'and is compatible with a great deal of textile production.',
+   'The method form - no fish bone was recovered, although the soil '
+   'was not sieved - is the honest default, because it reports what '
+   'was done as well as what was found, and the reader can judge.',
+   'The strong form uses the inverted conditional: had it been there, '
+   'it would have survived. Had replaces if and the subject follows '
+   'it; there is no comma before had and there is one after the '
+   'clause. The main clause takes would have plus the participle.',
+   'Three questions turn an absence into evidence, and they are '
+   'ordered because each assumes the last: would it have survived, '
+   'would the excavation have recovered it, would it have been '
+   'recognised? State which of the three you are relying on.',
+   'Absence of evidence is not evidence of absence is a slogan and is '
+   'sometimes false. The accurate version is that an absence is '
+   'evidence exactly when the three questions can be answered, which '
+   'is longer and is what you should write.'],
+  errors=[
+   'Jumping to the strong form without the argument. Nobody found any '
+   'textile, therefore they had none - the sentence needs a clause '
+   'about what would have survived and does not have one.',
+   'Is not evidence rather than is no evidence: there is not evidence '
+   'of textile production. No is the determiner English uses here.',
+   'Using the ordinary conditional where the inverted one is wanted '
+   'in formal writing. If it had been there is correct and plainer; '
+   'had it been there is the register this kind of argument is '
+   'written in, and a Part 3 passage will use it.'],
+  items=[
+   ('No bone found, no sieving. Report it honestly.',
+    'No fish bone was recovered, although the soil was not sieved.'),
+   ('Nothing organic survives here. Report the absence of cloth.',
+    'No textile survives, as would be expected in this soil.'),
+   ('Sterile layer, material would have survived. Strong form.',
+    'Had the site been occupied, material would have survived.'),
+   ('Correct: There is not evidence of textile production.',
+    'There is no evidence of textile production.'),
+   ('Invert: If it had been there, it would have survived.',
+    'Had it been there, it would have survived.'),
+   ('Correct: Had it been there, it would survive.',
+    'Had it been there, it would have survived.'),
+   ('Name the three questions.',
+    'would it survive, would it be recovered, would it be recognised'),
+   ('Why is the slogan sometimes false?',
+    'because a well-posed absence is real evidence')],
+  seen=[]),
+
+ 'L41': dict(
+  title='Attributing a position and distancing yourself from it',
+  also='attributive frames, concession, denial of entailment',
+  pattern=[
+   'Four devices, and together they let you give an opposing case its '
+   'full strength without being read as holding it.',
+   'The attributive frame opens a paragraph and governs everything '
+   'after it: on this view, proponents argue, the case rests on, as '
+   'its holders would put it. One frame covers five sentences, which '
+   'is why it is the most economical device in argumentative English.',
+   'The strongest version promises accuracy rather than agreement: a '
+   'case that deserves to be stated as they state it. It buys the '
+   'reader’s trust for the disagreement that comes later, and it '
+   'costs one clause.',
+   'The concession plus denial of entailment is the pair that does '
+   'the real work: the acquisition was lawful, and it does not follow '
+   'that the object is in the right place. You accept the fact and '
+   'refuse the conclusion, which is much harder to answer than '
+   'disputing the fact.',
+   'The priority claim says which question has to be settled first: '
+   'the dispute is prior to the question of title; the question of '
+   'purpose comes before the question of entitlement. It is how you '
+   'reframe without changing the subject.',
+   'Punctuation matters here. According to them, title passed - comma '
+   'after the frame. On this view, the museum is a trustee - comma '
+   'again. The frame is an adverbial and takes one.'],
+  errors=[
+   'Omitting the frame, so that an examiner cannot tell whose view is '
+   'being read and marks the whole paragraph as the candidate’s '
+   'own. This is the single commonest reason a discussion essay reads '
+   'as self-contradictory.',
+   'According to them say that - a frame followed by a reporting '
+   'verb. According to them takes a clause directly: according to '
+   'them, title passed.',
+   'Stating the opposing case as nobody holds it. We like having it '
+   'is not the museums’ case, and an essay that answers it is '
+   'arguing against nobody.'],
+  items=[
+   ('Attribute: Museums are trustees for everybody.',
+    'On this view, museums are trustees for everybody.'),
+   ('Attribute: The transfer was not consensual.',
+    'Proponents of return argue that the transfer was not '
+    'consensual.'),
+   ('Concede and deny the entailment: it was legal.',
+    'It was lawful, and it does not follow that it was right.'),
+   ('Reframe: the real question is what a museum is for.',
+    'The question of purpose is prior to the question of title.'),
+   ('Correct: According to them say the title passed.',
+    'According to them, title passed.'),
+   ('Promise accuracy, not agreement.',
+    'a case that deserves to be stated as they state it'),
+   ('Attribute a safety claim to a museum.',
+    'The holding institutions argue that the object is safer where '
+    'it is.'),
+   ('Why frame at all?',
+    'so the reader can tell whose view they are reading')],
+  seen=[]),
 }
 
 WRITING = {

@@ -1,0 +1,32 @@
+{
+ "note": "Phase 27 - units 81 and 82, which completes Volume 3 against its own plan. Unit 81, How Animals Find Their Way, and unit 82, What the Ground Remembers: the two subject units the plan specified and the pilot did not build. Both are complete at five cycles with the eleven beats, and both were written to carry the three task types the volume under-used - plan, map and diagram labelling went from four items in 435 to a real set in each unit, note and flow-chart completion from three, and matching sentence endings from five. Two new renderers, both named in the plan: teach.route draws a journey with a figure on every leg, and teach.section draws a stratigraphic cross-section. route's first version passed every gate and was unreadable, because gate 6 measures a run against its own box and nothing measured one box against another; it now places nothing until it has placed everything. qtypes.FRAME learns both so a question set against either is classified as labelling. content/refs.py gains ten Language entries, L32 to L41, one for each new grammar point, taking it to thirty-four. Three tooling fixes, each found by this phase rather than designed into it. gate13's recycling rule had never fired: the loop that decides which units follow a given unit read a leftover index, so the later-units list was empty for every unit and the 50 per cent floor was never applied. With it fixed, five units of Volume 3 were below the floor; units 81 and 82 were written to repair that and the volume now passes. check.py takes v3 for a whole book, because a book's units are no longer contiguous and a range cannot say 21-30 plus 81 and 82 without dragging in three other volumes; checking the volume as one set immediately found three head words taught twice within it and one explanation used twice. gate12 gains rule 7, which renders every declared figure to find out whether it can be drawn: six specs in the new units named the right kind and the wrong keys and crashed the build one key at a time. book.py's SPLIT puts unit 81 in 3A and unit 82 in 3B, as the plan specifies, and its grammar answer key now goes through _qa so a cycle written in either item convention is keyed correctly. The eighty new head words, the two drifted density measures and the extra figures are all the two new units arriving in the book; nothing in units 21 to 30 is touched except the three head words and the one explanation the whole-volume check found duplicated.",
+ "items": [],
+ "item_fields": [],
+ "texts": [],
+ "new_items": true,
+ "new_texts": [
+  "u81",
+  "u82"
+ ],
+ "prose": [],
+ "new_prose": [
+  "u81",
+  "u82"
+ ],
+ "heads": true,
+ "measure": {
+  "3": {
+   "longest": [
+    50,
+    70
+   ],
+   "sent": [
+    20.5,
+    22.5
+   ]
+  }
+ },
+ "figures": {
+  "3": 8
+ }
+}

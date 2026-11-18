@@ -115,9 +115,12 @@ def wanted(U):
                 out.append(('u%d c%d fix %d why' % (n, ci, i), wy))
         # g['examples'] is drawn into the pattern box, which is a figure by
         # the time it reaches the .docx; gate6 checks those.
-        for i, (a, b) in enumerate(g['items'], 1):
-            out.append(('u%d c%d gram item %d' % (n, ci, i), a))
-            out.append(('u%d c%d gram answer %d' % (n, ci, i), b))
+        # A grammar exercise is (stem, answer) in the units written
+        # before phase 19 and (stem, None, answer) in the ones written
+        # after it. Take the first and the last, as book.py's _qa does.
+        for i, it in enumerate(g['items'], 1):
+            out.append(('u%d c%d gram item %d' % (n, ci, i), it[0]))
+            out.append(('u%d c%d gram answer %d' % (n, ci, i), it[-1]))
         for i, (w_, d_) in enumerate(c['vocab'], 1):
             out.append(('u%d c%d vocab %d' % (n, ci, i), d_))
         for i, (e, d_) in enumerate(c['expr'], 1):

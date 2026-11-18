@@ -232,8 +232,8 @@ C1 = dict(
   body='Fourteen words, and the first six are the apparatus: a mist net, a '
        'ring, a balance, a logbook, a recovery, a displacement. The other '
        'eight are what the words do in a question - a recovery is the '
-       'event that produces a datum, and a displacement is an experiment '
-       'rather than an accident.',
+       'event that produces a datum, and a displacement - formally a '
+       'translocation - is an experiment rather than an accident.',
   figure=dict(kind='field', teaches='vocabulary',
     centre='tracking an animal',
     sub='cycle 1 · the apparatus and the events',
@@ -316,24 +316,22 @@ C1 = dict(
           'you leave, which reverses everything. Hold the direction of '
           'travel, not the side.'],
   figure=dict(kind='listenmap', teaches='listening-shape',
-    title='Part 2, labelling a plan: where the thirty seconds go',
-    sub='cycle 1 · before the recording, not during it',
-    stages=[('0–10 sec', 'Find the entrance and the compass',
-             'Everything the speaker says will be relative to one of '
-             'them.'),
-            ('10–20 sec', 'Read the features already named',
-             'The speaker uses them as anchors: past the X, opposite '
-             'the Y.'),
-            ('20–30 sec', 'Say the layout in one sentence',
-             'You come in at the south, a path runs north, huts on '
-             'both sides.'),
-            ('during', 'Follow the walk, do not hunt letters',
-             'The answers arrive in the order of the walk, almost '
-             'always.')],
-    note='The order of the answers in a labelling task follows the '
-         'speaker’s route, not the alphabet. A candidate who loses '
-         'one answer and starts hunting has lost the next two as well, '
-         'because the walk has moved on.'),
+    title='Part 2, labelling a plan: the shape of the walk',
+    sub='cycle 1 · shaded turns carry an answer',
+    speakers=['Warden'],
+    turns=[(0, 'the layout', False),
+           (0, 'ringing hut', True),
+           (0, 'disused', True),
+           (0, 'the store', True),
+           (0, 'drying room', False),
+           (0, 'kitchen', True),
+           (0, 'common room', True),
+           (0, 'bedrooms', False)],
+    note='Eight turns, five of them answers, and they arrive in the '
+         'order of the walk rather than in the order of the letters. '
+         'A candidate who loses one answer and starts hunting '
+         'backwards has lost the next two as well, because the walk '
+         'has moved on. Jump to where the speaker now is.'),
   task='For each thing the speaker says, write the letter you would '
        'choose on the plan described in the worked example above.',
   items=[('"The ringing hut is the second one on your right as you walk '
@@ -772,7 +770,8 @@ C1 = dict(
  vocab=[
   ('mist net', 'a fine net that catches birds without hurting them'),
   ('recapture', 'the finding of a ringed bird a second time'),
-  ('displacement', 'moving an animal and releasing it somewhere else'),
+  ('translocation', 'moving an animal and releasing it somewhere '
+   'else'),
   ('bearing', 'the direction of a place from where you stand'),
   ('heading', 'the direction something is pointing or moving'),
   ('orientation', 'working out which direction you are facing'),
@@ -784,11 +783,11 @@ C1 = dict(
   ('relative to', 'saying what a position is measured from'),
   ('as you come in from', 'anchoring a description to the entrance')],
  trans=[
-  ('To begin with the right-hand side', 'taking one half of a plan '
-   'first'),
-  ('Keeping going north', 'continuing along the same line'),
-  ('The one after that', 'the next in a sequence already started'),
-  ('Directly opposite', 'across from, on the other side')])
+  'To begin with the right-hand side',
+  'Keeping going north',
+  'The one after that',
+  'Directly opposite',
+  ])
 
 
 # ===================================================================== c2
@@ -1026,7 +1025,7 @@ C2 = dict(
         'magnetic field is far too weak to move anything mechanically, '
         'but it is not too weak to change how the two spins relate to '
         'each other, and that relationship governs how much of one '
-        'chemical product is formed rather than another.',
+        'photoproduct is formed rather than another.',
         'The yield, in other words, depends on the angle between the '
         'molecule and the field. Because the molecules are held at '
         'different angles in different parts of the retina, the amount '
@@ -1391,7 +1390,8 @@ C2 = dict(
         'would settle it. Use a different hedge in each sentence.',
   items3=8),
  vocab=[
-  ('yield', 'how much of something a process produces'),
+  ('photoproduct', 'a chemical made when light acts on a '
+   'molecule'),
   ('trigger', 'the event that starts a chain'),
   ('unpaired', 'not matched with another of its kind'),
   ('superimposed', 'laid over the top of something else'),
@@ -1408,11 +1408,11 @@ C2 = dict(
   ('would also be consistent with', 'removing force without disputing '
    'a fact')],
  trans=[
-  ('The chain begins when', 'opening a mechanism description'),
-  ('Because of this', 'marking a consequence inside a chain'),
-  ('At which point', 'arriving at the end of a sequence'),
-  ('Three of those stages', 'turning from the account to its '
-   'weaknesses')])
+  'The chain begins when',
+  'Because of this',
+  'At which point',
+  'Three of those stages',
+  ])
 
 
 # ===================================================================== c3
@@ -1487,7 +1487,7 @@ C3 = dict(
          'it counted on the way out; an ant on stumps undershoots for '
          'the same reason in reverse.'),
   figure2=dict(kind='collocation', teaches='collocation',
-    title='What goes with these four words',
+    node='distance',
     sub='cycle 3 · the combinations a Task 1 answer needs',
     groups=[('distance',
              ['cover a distance', 'a considerable distance',
@@ -1557,23 +1557,33 @@ C3 = dict(
           'between 900 and 1,200 km, while the final stage north is '
           'less than half the shortest of them."'],
   figure=dict(kind='taskread', teaches='task-analysis',
-    title='What this Task 1 is actually asking',
-    sub='cycle 3 · the prompt, taken apart',
-    parts=[('The map below shows',
-            'a map, so the overview is about movement, not quantity'),
-           ('the migration route of the monarch butterfly',
-            'one thing moving, repeatedly: look for the shape'),
-           ('Summarise the information',
-            'select; the map has more on it than 150 words can hold'),
-           ('by selecting and reporting the main features',
-            'the main feature of a route is the shape of the whole'),
-           ('and make comparisons where relevant',
+    prompt='The map below shows the annual migration route of the '
+           'monarch butterfly between Mexico and southern Canada, with '
+           'the distance of each stage and the month in which it is '
+           'flown.',
+    sub='cycle 3 · the prompt, taken apart before a word is written',
+    parts=[('THE VISUAL', 'the map below shows',
+            'a map, so the overview is about movement and not about '
+            'quantity'),
+           ('THE SUBJECT', 'the annual migration route',
+            'one thing moving, repeatedly: look for the shape of the '
+            'whole'),
+           ('THE DATA', 'the distance of each stage and the month',
+            'two measures, so the comparison can be of length or of '
+            'timing'),
+           ('THE TASK', 'selecting and reporting the main features',
+            'select: the map holds more than 150 words can carry'),
+           ('THE SECOND TASK', 'make comparisons where relevant',
             'compare the legs to each other, which is where the '
             'grouping comes from')],
-    note='Nothing in the prompt asks why the butterfly does this, and '
-         'the passage in this cycle will tempt you, because it is '
-         'interesting. A sentence of explanation in a Task 1 is unmarked '
-         'at best and off-task at worst.'),
+    misreadings=['An essay explaining why the butterfly migrates, '
+                 'which the prompt never asks for.',
+                 'Four sentences, one per leg, with no sentence about '
+                 'the journey as a whole.'],
+    note='Nothing in the prompt asks why, and the passage in this '
+         'cycle will tempt you because it is interesting. A sentence '
+         'of explanation in a Task 1 is unmarked at best and off-task '
+         'at worst.'),
   task='For each route, write the shape in one sentence.',
   items=[('Out by four legs, back by one.',
           None, 'made outward in stages and returned in a single leg'),
@@ -1714,7 +1724,8 @@ C3 = dict(
         'the trip were walked on long strides, arrived at the nest '
         'correctly. It is the mismatch between the count and the stride '
         'that produces the error, and not the stilts themselves.',
-        'F. What the ant is therefore carrying is a running total of '
+        'F. What the ant is therefore carrying is a pedometer: a '
+        'running total of '
         'strides, reset at the nest, and updated continuously. The '
         'count is combined with a direction taken from polarised light '
         'to give a vector home at every point of the foraging run. '
@@ -2005,7 +2016,7 @@ C3 = dict(
   ('forage', 'to go out looking for food'),
   ('stride', 'one step, measured from one foot to the same foot again'),
   ('tally', 'a running count kept as you go'),
-  ('overshoot', 'to go past the point you were aiming for'),
+  ('pedometer', 'a device, or a sense, that counts steps'),
   ('undershoot', 'to stop before reaching the point you were aiming '
    'for'),
   ('vector', 'a direction and a distance taken together'),
@@ -2018,12 +2029,11 @@ C3 = dict(
   ('longer than all four combined', 'a comparison the reader can check'),
   ('which rules out', 'saying what a control eliminates')],
  trans=[
-  ('Taking the northward journey first', 'ordering a two-part '
-   'description'),
-  ('whereas the entire return', 'the contrast that carries an '
-   'overview'),
-  ('Three of them', 'opening a group inside a list'),
-  ('and the fourth', 'separating the exception from the group')])
+  'Taking the northward journey first',
+  'whereas the entire return',
+  'Three of them',
+  'and the fourth',
+  ])
 
 
 # ===================================================================== c4
@@ -2031,12 +2041,11 @@ _SALMON = dict(
  kind='route', teaches='plan',
  title='One salmon, four years, and the river it was born in',
  sub='cycle 4 · the return is to a tributary, not to the coast',
- waypoints=[('Hatching gravel,\nthe Allt Buidhe', 0.12, 0.18,
+ waypoints=[('The hatching gravel', 0.12, 0.18,
              'year 0 · spring'),
             ('The river mouth', 0.30, 0.52, 'year 2 · May'),
-            ('Coastal shelf', 0.50, 0.70, 'year 2 · June'),
-            ('Feeding ground,\nwest of Greenland', 0.84, 0.80,
-             'years 2–3')],
+            ('The coastal shelf', 0.50, 0.70, 'year 2 · June'),
+            ('West of Greenland', 0.84, 0.80, 'years 2–3')],
  legs=[(0, 1, '64 km downstream'), (1, 2, '120 km'),
        (2, 3, '2,900 km'), (3, 0, '3,084 km back, to the same gravel',
                             -170)],
@@ -2174,22 +2183,24 @@ C4 = dict(
           'effect. It was never grammatically impossible, which is why '
           'you had to find the stem.'],
   figure=dict(kind='anatomy', teaches='question-anatomy',
-    title='A matching-sentence-endings question, taken apart',
-    sub='cycle 4 · what each part is for',
+    qtype='Matching sentence endings',
+    sub='cycle 4 · two of the four die on grammar alone',
     stem='Young salmon learn the smell of their home stream',
-    opts=['during a short period early in life.',
-          'because they return to it as adults.',
-          'a process known as olfactory imprinting.',
-          'more accurately than any other fish studied.'],
-    labels=[('the stem', 'comes from the passage; find it first'),
-            ('A', 'an adverbial of time - grammatically possible'),
-            ('B', 'a reason - possible, and reverses the causation'),
-            ('C', 'a noun phrase - cannot follow a complete clause'),
-            ('D', 'a comparison - possible, and not in the passage')],
-    note='Two of the four were eliminated before any reading: C on '
-         'grammar, D on the fact that the passage makes no comparison '
-         'with other fish. That is the task done in a third of the '
-         'time, and the remaining decision is a real one.'),
+    options=['during a short period early in life.',
+             'because they return to it as adults.',
+             'a process known as olfactory imprinting.',
+             'more accurately than any other fish studied.'],
+    answer=0,
+    why='The stem has a complete verb, so it takes an adverbial; the '
+        'passage puts the learning in a window before the downstream '
+        'migration.',
+    trap=(1, 'True of the passage and backwards: they do not learn '
+             'the smell because they return, they return because they '
+             'learned it.'),
+    note='C is a noun phrase and cannot follow a clause that already '
+         'has a verb; D is a comparison the passage never makes. Both '
+         'were eliminated before any reading, which is the task done '
+         'in a third of the time.'),
   task='For each stem, say what kind of ending must follow it.',
   items=[('The fish is thought to store the smell',
           None, 'adverbial or noun phrase - the verb is complete'),
@@ -2686,11 +2697,11 @@ C4 = dict(
   ('at close to random', 'describing a failure of discrimination'),
   ('came with them', 'saying something was not learned')],
  trans=[
-  ('That final precision', 'naming the thing that needs explaining'),
-  ('The window is what makes', 'turning to why a claim is testable'),
-  ('That distinction organises', 'using one contrast to order a '
-   'passage'),
-  ('If that is right', 'opening a consequence of an unproved claim')])
+  'That final precision',
+  'The window is what makes',
+  'That distinction organises',
+  'If that is right',
+  ])
 
 
 # ===================================================================== c5
@@ -3042,7 +3053,7 @@ C5 = dict(
         'G. The real objection is narrower than the usual one and is '
         'not about laziness. A population that cannot navigate without '
         'a working signal has introduced a single point of failure into '
-        'something that did not have one, and the failures are not '
+        'something that did not have one. The failures are not '
         'hypothetical: signal loss in tunnels and cities, jamming near '
         'airports and borders, and the routine case of a device sending '
         'traffic down a lane it should not. The answer is not to '
@@ -3468,12 +3479,10 @@ C5 = dict(
    'your own case'),
   ('a single point of failure', 'naming the real risk precisely')],
  trans=[
-  ('The mechanism is simple enough that', 'introducing a claim both '
-   'sides can accept'),
-  ('The experimental work agrees', 'bringing evidence to a stated '
-   'mechanism'),
-  ('My conclusion is therefore narrower', 'signalling that you are '
-   'about to limit your own claim'),
-  ('and the fix is', 'ending on a recommendation that follows')])
+  'The mechanism is simple enough that',
+  'The experimental work agrees',
+  'My conclusion is therefore narrower',
+  'and the fix is',
+  ])
 
 UNIT['cycles'] = [C1, C2, C3, C4, C5]

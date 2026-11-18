@@ -60,22 +60,22 @@ VOLS = {1: dict(units=UN.units(1), level='B1', band='5.0',
 # in this table and nowhere else, so a teacher who wants the single volume
 # still gets it from `book.py 3`.
 SPLIT = {
- 3: [dict(part='A', units=[21, 22, 23, 24, 25],
+ 3: [dict(part='A', units=[21, 22, 23, 24, 25, 81],
           paper=[''], lpaper=[''], wpaper='', spaper='',
-          blurb=['The first half of the band-6.0 volume: units 21 to 25,',
-                 'education, work, health, climate and data, with a',
-                 'complete practice test at the back. Each unit is five',
-                 'cycles, each cycle teaches one sub-skill nothing else in',
-                 'the series teaches, and every figure on every page has a',
-                 'job that is written down.']),
-     dict(part='B', units=[26, 27, 28, 29, 30],
+          blurb=['The first half of the band-6.0 volume: units 21 to 25',
+                 'and unit 81, on education, work, health, climate, data',
+                 'and animal navigation, with a complete practice test at',
+                 'the back. Each unit is five cycles, each cycle teaches',
+                 'one sub-skill nothing else in the series teaches, and',
+                 'every figure on every page has a job written down.']),
+     dict(part='B', units=[26, 27, 28, 29, 30, 82],
           paper=['a'], lpaper=['a'], wpaper='b', spaper='b',
-          blurb=['The second half of the band-6.0 volume: units 26 to 30,',
-                 'tourism, the built environment, food, information and',
-                 'sport, with its own complete practice test - a second',
-                 'form of every paper, not the same one again. Finish 3A',
-                 'first: the sub-skill syllabus runs across both halves and',
-                 'unit 30 answers unit 26.'])],
+          blurb=['The second half of the band-6.0 volume: units 26 to 30',
+                 'and unit 82, on tourism, the built environment, food,',
+                 'information, sport and archaeology, with its own',
+                 'complete practice test - a second form of every paper,',
+                 'not the same one again. Finish 3A first: the sub-skill',
+                 'syllabus runs across both halves.'])],
 }
 
 PART_LABEL = None       # set by build() for a half-volume, else None
@@ -847,8 +847,12 @@ def render_cycle(d, U, c, ci, key, nq=1):
         d.cefr('Three things in this paragraph would cost a mark. Find them '
                'before you read the table.')
         d.faultline(g['fix']['text'], g['fix']['faults'])
+    # Through _qa, because a grammar exercise is written either as
+    # (stem, answer) or as (stem, None, answer) depending on which phase
+    # wrote the unit, and the answer key does not care which.
     key.setdefault('grammar', []).extend(
-        [('%d.%d' % (ci, i), a, '') for i, (_, a) in enumerate(g['items'], 1)])
+        [('%d.%d' % (ci, i), a, '')
+         for i, (_, a) in enumerate(_qa(g['items']), 1)])
     _outside(d, c)
     d.h3('Vocabulary from this cycle', D_INDIGO)
     d.wordlist(c['vocab'], 2, D_INDIGO)
