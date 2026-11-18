@@ -99,6 +99,212 @@ COLLOC = dict(
          'wordlist cannot stop and a collocation panel can.')
 
 
+# ----------------------------------------------------------- phase 18 set
+SKELETON = dict(
+    title='Unit 21 cycle 3 · what each paragraph does',
+    sub='the passage on page 14',
+    paras=[('A', 'context', 'Who applies, and how the numbers have moved'),
+           ('B', 'claim', 'Contextual offers widen access without lowering it'),
+           ('C', 'evidence', 'Three universities, five years, the outcome data'),
+           ('D', 'concession', 'The gap in the first year is real and costly'),
+           ('E', 'counter-claim', 'Critics say the measure flatters the school'),
+           ('F', 'consequence', 'What the regulator now requires of everybody')],
+    note='Paragraph D mentions money four times and is not about money. '
+         'That is the whole lesson, and it is why heading 3 is wrong.')
+
+BRIDGE = dict(
+    sub='Unit 21 · the six moves this unit tests',
+    pairs=[('turned down a place', 'declined an offer', 'synonym'),
+           ('decide who gets in', 'the admissions decision', 'nominalisation'),
+           ('the university lowered it', 'the requirement was lowered',
+            'voice'),
+           ('few students withdraw', 'withdrawal is rare', 'nominalisation'),
+           ('is not unusual', 'is common', 'negation'),
+           ('bursaries and fee waivers', 'financial support', 'hypernym')],
+    note='Every pair comes from questions 14 to 19 on page 16. Cover the '
+         'right column and say what the text will have used instead.')
+
+SIGNPOST = dict(
+    title='Where the passage turns',
+    sub='the same passage, with everything but the markers removed',
+    markers=[('At first sight', 'the view about to be dismantled'),
+             ('In practice', 'what actually happens'),
+             ('Admittedly', 'a concession, and a trap'),
+             ('Even so', 'the concession is overruled'),
+             ('It follows that', 'the claim, at last'),
+             ('Yet', 'one more turn before the end')],
+    note='Four of the eight answers sit in the sentence immediately after '
+         'one of these six words.')
+
+ANATOMY = dict(
+    qtype='Matching headings',
+    sub='Unit 21 cycle 1, question 3',
+    stem='Paragraph D: which heading says what this paragraph does?',
+    options=['A  The cost of the first year',
+             'B  Why some students arrive less prepared',
+             'C  Support that works, and support that does not',
+             'D  How three universities changed their offers'],
+    answer=2,
+    why='The paragraph names two kinds of support and judges each. That is '
+        'what it does; the money is the evidence, not the point.',
+    trap=(0, 'The paragraph says "cost" four times. A learner matching on '
+             'repeated words picks A and never reads the verbs.'),
+    note='Three of the four headings name something the paragraph mentions. '
+         'Only one names what it does.')
+
+DECIDE = dict(
+    title='True, False or Not Given — in this order, every time',
+    sub='Unit 21 · the procedure, not the feeling',
+    nodes=[('Does the passage say anything at all about this exact thing?',
+            'go to test 2', 'NOT GIVEN. Stop.'),
+           ('Does what it says agree with the statement, all of it?',
+            'TRUE. Stop.', 'go to test 3'),
+           ('Does the passage state the opposite, or rule the statement out?',
+            'FALSE. Stop.', 'NOT GIVEN — you are guessing from outside')],
+    note='Most lost marks here are TRUE given to a statement the passage '
+         'merely does not contradict. Test 1 is the one people skip.')
+
+LISTENMAP = dict(
+    title='Part 3 · the shape of the discussion',
+    sub='Unit 21 cycle 4, questions 25 to 30',
+    speakers=['Tutor', 'Marta', 'Josef'],
+    turns=[(0, 'sets it up', False), (1, 'first view', False),
+           (2, 'half-agrees', False), (1, 'concedes', False),
+           (2, 'states it', True), (0, 'checks', False),
+           (1, 'changes mind', True), (0, 'closes', False)],
+    note='Marta speaks first and is wrong first. The answer to 27 is in '
+         'Josef\'s fifth turn and the answer to 29 is Marta changing her mind.')
+
+TASKREAD = dict(
+    sub='Unit 21 cycle 5 · Task 2',
+    prompt='Some people think universities should admit students only on '
+           'examination results. Others believe background should also be '
+           'considered. Discuss both views and give your own opinion.',
+    parts=[('THE TOPIC', 'university admissions',
+            'what you write about — not what you argue'),
+           ('VIEW ONE', 'results only', 'must be given fairly, with a reason'),
+           ('VIEW TWO', 'background too', 'must be given fairly, with a reason'),
+           ('YOUR TASK', 'discuss both and give your own opinion',
+            'all three, or Task Response caps at 5')],
+    misreadings=['An essay on whether university is worth the money.',
+                 'An essay arguing one side and never naming the other.'],
+    note='The word that costs most marks here is "both". Two paragraphs of '
+         'your own opinion and none of view one is a band 5 for Task '
+         'Response however well it is written.')
+
+LANGBANK = dict(
+    title='Useful language · discussing two views',
+    sub='Unit 21 cycle 5',
+    groups=[('giving a view fairly',
+             ['The case for X is that', 'Those who argue X point to',
+              'X is defended on the ground that', 'Supporters of X note'],
+             'The case for results-only admission is that it is the one '
+             'measure every candidate meets on the same day.'),
+            ('conceding, then moving',
+             ['There is something in this', 'This is true as far as it goes',
+              'Granted, X', 'While X is right about Y'],
+             'This is true as far as it goes, but it treats an identical '
+             'score as evidence of identical effort.'),
+            ('quantifying carefully',
+             ['a substantial minority', 'in a small number of cases',
+              'rather more than', 'nowhere near'],
+             'A substantial minority of entrants arrive from schools that '
+             'send nobody else.')])
+
+LADDER = dict(
+    criterion='Grammatical Range and Accuracy',
+    sub='Unit 21 · the same idea, three bands',
+    rungs=[('5.5', 'Many students are poor. They can not pay the fee. So '
+                   'the university helps them.',
+            ''),
+           ('6.5', 'Many students cannot afford the fee, so the university '
+                   'offers them support.',
+            'two sentences joined, and the register lifted'),
+           ('7.5', 'Where students cannot meet the fee, support is offered '
+                   'on the strength of household income rather than need '
+                   'as the student reports it.',
+            'a subordinate clause, the passive used on purpose, and a '
+            'contrast carried inside one sentence')],
+    note='Nothing here is longer for the sake of it. Each rung does one '
+         'thing the rung below could not.')
+
+MATRIX = dict(
+    title='Two views, four questions — fill the blanks before you write',
+    sub='Unit 21 cycle 5 · Task 2 planning frame',
+    cols=['Results only', 'Background too'],
+    rows=['What it claims is fair',
+          'Who it helps most',
+          'What it cannot see',
+          'The strongest objection'],
+    cells=[['The same test on the same day', 'The same chance from an '
+            'unequal start'],
+           ['Candidates from schools that teach to the test', ''],
+           ['', 'How hard the result itself was to reach'],
+           ['', '']],
+    note='The four blank cells are yours. An essay written from a full grid '
+         'cannot be one view repeated louder, which is the commonest band-5 '
+         'essay there is.')
+
+UNITMAP = dict(
+    n=21, theme='Education: Access and Outcomes',
+    rows=[('Applying to university',
+           'Matching headings: what a paragraph does',
+           'Matching headings · note completion · Part 1'),
+          ('Paying for it',
+           'Listening for a correction and a confirmed number',
+           'Form completion · multiple choice · Part 2'),
+          ('Who gets in, and how it is decided',
+           'Paraphrase: nominalisation and the passive',
+           'True/False/Not Given · matching features'),
+          ('What a degree is worth',
+           'Part 3: following a speaker who changes position',
+           'Part 3 multiple choice · Task 1 bar chart'),
+          ('Spending on schools',
+           'Reading a Task 2 question before answering it',
+           'Task 2 discuss-both-views · Part 3')],
+    note='Cycles 1, 3 and 5 build reading; 2 and 4 build listening. The '
+         'writing load sits in 4 and 5, where the language to do it has '
+         'already been met twice.')
+
+CLOCK = dict(
+    title='Where the Reading hour goes',
+    speed='your measured speed: 190 words a minute, page 9',
+    segments=[('Passage 1 and its questions', 17,
+               'the easiest text. Finish early and bank the time.'),
+              ('Passage 2 and its questions', 20,
+               'the longest. This is where the hour is won or lost.'),
+              ('Passage 3 and its questions', 20,
+               'the hardest. Answer what you can, guess the rest.'),
+              ('Transfer and check', 3,
+               'there is no extra transfer time in Reading.')],
+    note='Nobody is given a warning at minute 37. Practise the first '
+         'passage against a clock until seventeen minutes feels like '
+         'something rather than a number.')
+
+TRACKER = dict(
+    title='Unit 21 · what I can do now',
+    sub='tick, half-tick or cross — and come back in a fortnight',
+    rows=[('Read a condition on an offer as a question', ['✓', '', '']),
+          ('Match a heading to what a paragraph does', ['', '', '']),
+          ('Hear a correction and write the corrected number', ['', '', '']),
+          ('Name the paraphrase move between question and text', ['', '', '']),
+          ('Give both views fairly before giving my own', ['', '', ''])],
+    cols=['first try', 'after review', 'two weeks on'],
+    note='The first row is filled in as an example. The point of the third '
+         'column is that the second column lies.')
+
+TIMELINE = dict(
+    title='How the offer system got here',
+    sub='Unit 21 cycle 3 · the passage covers 1963 to now',
+    events=[('1963', 'Robbins: places for all who qualify', 0.02),
+            ('1992', 'Polytechnics become universities', 0.3),
+            ('1998', 'Tuition fees introduced', 0.45),
+            ('2012', 'The fee trebles; applications dip, then recover', 0.66),
+            ('2019', 'Contextual offers become general', 0.86),
+            ('Now', 'The regulator requires outcome data', 0.99)],
+    note='Questions 7 to 11 are a matching-dates task. Draw this before you '
+         'answer them, not after.')
+
 def build(path):
     d = Doc('IELTS · the pedagogic figure family',
             'teach.py, proved before any unit uses it')
@@ -125,6 +331,53 @@ def build(path):
     d.h3('6 · collocation — what actually goes with the word')
     d.figure(*teach.collocation(COLLOC['node'], COLLOC['groups'],
                                 COLLOC['sub'], COLLOC['note']))
+
+    d.h3('7 · skeleton — what a paragraph does, not what it mentions')
+    d.figure(*teach.skeleton(SKELETON['title'], SKELETON['paras'],
+                             SKELETON['sub'], SKELETON['note']))
+    d.h3('8 · bridge — paraphrase, with the move named')
+    d.figure(*teach.bridge(BRIDGE['pairs'], BRIDGE['sub'], BRIDGE['note']))
+    d.h3('9 · signpost — the passage reduced to its turns')
+    d.figure(*teach.signpost(SIGNPOST['markers'], SIGNPOST['sub'],
+                             SIGNPOST['note'], SIGNPOST['title']))
+    d.h3('10 · anatomy — one question taken apart, trap named')
+    d.figure(*teach.anatomy(ANATOMY['qtype'], ANATOMY['stem'],
+                            ANATOMY['options'], ANATOMY['answer'],
+                            ANATOMY['why'], ANATOMY['trap'],
+                            ANATOMY['sub'], ANATOMY['note']))
+    d.h3('11 · decide — the procedure, in a fixed order')
+    d.figure(*teach.decide(DECIDE['title'], DECIDE['nodes'],
+                           DECIDE['sub'], DECIDE['note']))
+    d.h3('12 · listenmap — the shape of a Part 3 before you hear it')
+    d.figure(*teach.listenmap(LISTENMAP['title'], LISTENMAP['speakers'],
+                              LISTENMAP['turns'], LISTENMAP['sub'],
+                              LISTENMAP['note']))
+    d.h3('13 · taskread — the Task 2 question, dissected')
+    d.figure(*teach.taskread(TASKREAD['prompt'], TASKREAD['parts'],
+                             TASKREAD['misreadings'], TASKREAD['sub'],
+                             TASKREAD['note']))
+    d.h3('14 · langbank — useful language, one phrase already at work')
+    d.figure(*teach.langbank(LANGBANK['title'], LANGBANK['groups'],
+                             LANGBANK['sub']))
+    d.h3('15 · ladder — the same sentence at three bands')
+    d.figure(*teach.ladder(LADDER['criterion'], LADDER['rungs'],
+                           LADDER['sub'], LADDER['note']))
+    d.h3('16 · matrix — two views, four questions, four blanks')
+    d.figure(*teach.matrix(MATRIX['title'], MATRIX['cols'], MATRIX['rows'],
+                           MATRIX['cells'], MATRIX['sub'], MATRIX['note']))
+    d.h3('17 · unitmap — the unit before you enter it')
+    d.figure(*teach.unitmap(UNITMAP['n'], UNITMAP['theme'],
+                            UNITMAP['rows'], UNITMAP['note']))
+    d.h3('18 · clock — where the hour goes')
+    d.figure(*teach.clock(CLOCK['title'], CLOCK['segments'],
+                          CLOCK['speed'], CLOCK['note']))
+    d.h3('19 · tracker — what I can do now, and in a fortnight')
+    d.figure(*teach.tracker(TRACKER['title'], TRACKER['rows'],
+                            TRACKER['cols'], TRACKER['sub'],
+                            TRACKER['note']))
+    d.h3('20 · timeline — events on a scale')
+    d.figure(*teach.timeline(TIMELINE['title'], TIMELINE['events'],
+                             TIMELINE['sub'], TIMELINE['note']))
     d.save(path)
     return path
 

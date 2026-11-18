@@ -1,0 +1,10 @@
+{
+ "note": "Phase 18 - the remaining fourteen pedagogic renderers, and still not one line of content. teach.py gains skeleton, bridge, signpost, anatomy, decide, listenmap, taskread, langbank, ladder, matrix, unitmap, clock, tracker and timeline, bringing the family to twenty; book.py dispatches all twenty; gate12 learns what each renderer is allowed to claim it teaches, so a word-family table cannot declare it teaches data and a bridge cannot declare it teaches a process. teachdemo.py renders all twenty at real Unit 21 lengths - 380 fitted runs of text - and gate 6 and gate 8 pass on every one. Five defects were found by rendering and looking rather than by the gates: TBLOCK returns a tuple and takes a pre-wrapped list rather than a line cap, so eleven call sites were appending tuples into an SVG string list and asking for two lines; the truncation ellipsis was itself unmeasured and overran its box; the anatomy panel printed every option letter twice; the ladder band-move line sat on the second line of its own sentence; and the timeline capped every label at one line and truncated all six. NO CONTENT CHANGES: this file declares nothing and regress.py must find no difference whatsoever.",
+ "items": [],
+ "item_fields": [],
+ "texts": [],
+ "prose": [],
+ "heads": false,
+ "measure": {},
+ "figures": {}
+}

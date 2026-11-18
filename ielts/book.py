@@ -149,6 +149,68 @@ def _figure(d, spec):
         return d.figure(*teach.collocation(spec['node'], spec['groups'],
                                            spec.get('sub', ''),
                                            spec.get('note', '')))
+    if k == 'skeleton':
+        return d.figure(*teach.skeleton(spec.get('title', ''),
+                                        spec['paras'], spec.get('sub', ''),
+                                        spec.get('note', '')))
+    if k == 'bridge':
+        return d.figure(*teach.bridge(spec['pairs'], spec.get('sub', ''),
+                                      spec.get('note', ''),
+                                      spec.get('left', 'THE QUESTION SAYS'),
+                                      spec.get('right', 'THE TEXT SAYS')))
+    if k == 'signpost':
+        return d.figure(*teach.signpost(spec['markers'],
+                                        spec.get('sub', ''),
+                                        spec.get('note', ''),
+                                        spec.get('title',
+                                                 'Where the text turns')))
+    if k == 'anatomy':
+        return d.figure(*teach.anatomy(spec['qtype'], spec['stem'],
+                                       spec['options'], spec['answer'],
+                                       spec['why'], spec.get('trap'),
+                                       spec.get('sub', ''),
+                                       spec.get('note', '')))
+    if k == 'decide':
+        return d.figure(*teach.decide(spec['title'], spec['nodes'],
+                                      spec.get('sub', ''),
+                                      spec.get('note', '')))
+    if k == 'listenmap':
+        return d.figure(*teach.listenmap(spec['title'], spec['speakers'],
+                                         spec['turns'], spec.get('sub', ''),
+                                         spec.get('note', '')))
+    if k == 'taskread':
+        return d.figure(*teach.taskread(spec['prompt'], spec['parts'],
+                                        spec.get('misreadings', ()),
+                                        spec.get('sub', ''),
+                                        spec.get('note', '')))
+    if k == 'langbank':
+        return d.figure(*teach.langbank(spec['title'], spec['groups'],
+                                        spec.get('sub', ''),
+                                        spec.get('note', '')))
+    if k == 'ladder':
+        return d.figure(*teach.ladder(spec['criterion'], spec['rungs'],
+                                      spec.get('sub', ''),
+                                      spec.get('note', '')))
+    if k == 'matrix':
+        return d.figure(*teach.matrix(spec['title'], spec['cols'],
+                                      spec['rows'], spec['cells'],
+                                      spec.get('sub', ''),
+                                      spec.get('note', '')))
+    if k == 'unitmap':
+        return d.figure(*teach.unitmap(spec['n'], spec['theme'],
+                                       spec['rows'], spec.get('note', '')))
+    if k == 'clock':
+        return d.figure(*teach.clock(spec['title'], spec['segments'],
+                                     spec.get('speed', ''),
+                                     spec.get('note', '')))
+    if k == 'tracker':
+        return d.figure(*teach.tracker(spec['title'], spec['rows'],
+                                       spec['cols'], spec.get('sub', ''),
+                                       spec.get('note', '')))
+    if k == 'timeline':
+        return d.figure(*teach.timeline(spec['title'], spec['events'],
+                                        spec.get('sub', ''),
+                                        spec.get('note', '')))
     raise ValueError('unknown figure kind %r' % k)
 
 

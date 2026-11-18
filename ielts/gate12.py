@@ -61,6 +61,20 @@ KIND_TEACHES = {
     'family': ('word-formation',),
     'cline': ('scale',),
     'collocation': ('collocation',),
+    'skeleton': ('text-structure',),
+    'bridge': ('paraphrase',),
+    'signpost': ('signposting',),
+    'anatomy': ('question-anatomy',),
+    'decide': ('decision',),
+    'listenmap': ('listening-shape',),
+    'taskread': ('task-analysis',),
+    'langbank': ('useful-language',),
+    'ladder': ('band-move',),
+    'matrix': ('comparison',),
+    'unitmap': ('navigation',),
+    'clock': ('timing',),
+    'tracker': ('self-assessment',),
+    'timeline': ('timeline',),
 }
 LONG_PASSAGE = 600        # words; above this a text-structure figure is due
 MIN_FIGS_CYCLE = 4
