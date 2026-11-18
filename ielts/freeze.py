@@ -19,13 +19,12 @@ import sys
 import zipfile
 
 import _base                                            # noqa: F401
+import unitmap as UN
 import density as D
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BASE = os.path.join(HERE, 'baseline')
-BOOKS = [(7, range(61, 71)), (8, range(71, 81)), (1, range(1, 11)),
-         (2, range(11, 21)), (3, range(21, 31)), (4, range(31, 41)),
-         (5, range(41, 51)), (6, range(51, 61))]
+BOOKS = UN.books()
 DOCX = {1: 'IELTS_2026_B1_Volume_1.docx', 2: 'IELTS_2026_B1plus_Volume_2.docx',
         3: 'IELTS_2026_B2_Volume_3.docx', 4: 'IELTS_2026_B2_Volume_4.docx',
         5: 'IELTS_2026_B2plus_Volume_5.docx', 6: 'IELTS_2026_C1_Volume_6.docx',

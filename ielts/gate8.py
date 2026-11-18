@@ -51,7 +51,18 @@ def audit(vol):
     book.build(vol, OUT % vol)
     log, rects = art.FITLOG, art.RECTLOG
     art.FITLOG = art.RECTLOG = None
+    return audit_log(log, rects)
 
+
+def audit_log(log=None, rects=None):
+    """The measurement, separated from the build that produced the logs.
+
+    A new renderer family has to be proved before any unit uses it, and
+    that proof renders six specimen figures rather than a whole book. Both
+    callers want the same arithmetic, so it lives here once.
+    """
+    if log is None:
+        log, rects = art.FITLOG or [], art.RECTLOG or []
     by_fig = collections.defaultdict(list)
     for r in rects:
         by_fig[r['fig']].append(r)

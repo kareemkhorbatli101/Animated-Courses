@@ -56,6 +56,7 @@ import importlib.util
 import sys
 
 import _base                                            # noqa: F401
+import unitmap as UN
 
 # `import profile` would find the standard library's profiler, because this
 # package puts the TOEFL directory at the END of sys.path (see _base.py), so
@@ -150,8 +151,7 @@ def _load(name):
 
 def texts(vol=4, bands=('acad', 'long', 'stamina')):
     out, paper = [], []
-    lo = 21 + (vol - 3) * 10
-    for n in range(lo, lo + 10):
+    for n in UN.units(vol):
         m = _load('u%02d' % n)
         if m is None:
             continue
@@ -213,8 +213,7 @@ def measure(vol, R):
 def models(vol):
     """Every model answer in a book, and every band-6.5 second model."""
     nine, sixfive = [], []
-    lo = 21 + (vol - 3) * 10
-    for n in range(lo, lo + 10):
+    for n in UN.units(vol):
         m = _load('u%02d' % n)
         if m is None:
             continue

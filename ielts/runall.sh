@@ -20,5 +20,17 @@ python3 density.py --ladder 2>&1 | tail -1
 python3 gate8.py all 2>&1 | tail -1
 python3 readiness.py 2>&1 | tail -1
 python3 gate10.py 2>&1 | tail -1
+# Gates 11-13 were written before the content they check (phase 17). They
+# report an OPEN count for every book and fail the suite only for the books
+# bound to them, so the rebuild cannot hide a regression in the other seven.
+for g in 11 12 13; do
+  python3 gate$g.py 2>&1 | tail -1
+  [ ${PIPESTATUS[0]:-0} = 0 ] || fail=1
+done
+# The pedagogic figure family is proved on specimen figures at real content
+# lengths, because no unit uses it yet and a renderer nothing renders is a
+# renderer nobody has checked.
+python3 teachdemo.py 2>&1 | tail -1
+[ ${PIPESTATUS[0]:-0} = 0 ] || fail=1
 python3 regress.py ${1:-0} 2>&1 | tail -1
 echo "SUITE: $([ $fail = 0 ] && echo ok || echo FAIL)"

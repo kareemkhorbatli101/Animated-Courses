@@ -20,13 +20,14 @@ import io
 import os
 import re
 
+import unitmap as UN
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 WIDTH = 72             # the right margin the content files are wrapped to
 
 
 def _files(vol):
-    lo = 21 + (vol - 3) * 10
-    names = ['u%02d' % n for n in range(lo, lo + 10)]
+    names = ['u%02d' % n for n in UN.units(vol)]
     names += ['paper%d' % vol, 'lpaper%d' % vol,
               'paper%da' % vol, 'paper%db' % vol]
     out = []

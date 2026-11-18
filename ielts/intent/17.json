@@ -1,0 +1,10 @@
+{
+ "note": "Phase 17 - the machinery before the rebuild, and nothing else. Three parts. One, the ten-unit arithmetic that was written into seven files (book.py VOLS, check.py vol_of and the vocabulary seam, density.py texts and models, freeze.py BOOKS, gate10.py BOOKS, rewrap.py, syntax.py) becomes one VOL_UNITS table in unitmap.py, a module deliberately free of every dependency so check.py can ask which book a unit belongs to without importing the drawing layer. Volume 3 declares units 81 and 82 in that table; neither module exists yet, and every loader already tolerates a declared unit that is not written. Two, gates 11, 12 and 13 are written BEFORE the content they check, which is the only order that works and the order the last fifteen phases used. They report 2,635, 1,363 and 528 open items across the eight books and fail the suite for no book at all, because a gate written before its content must not turn the whole suite red for the length of the rebuild and hide every real regression behind it; each book joins its BINDING set as its own rebuild lands, Volume 3 at phase 26. Three, the first six renderers of the pedagogic figure family (teach.py: scene, puzzle, field, family, cline, collocation), each proved by teachdemo.py on real Volume 3 content at real lengths under gate 6 and gate 8 before any unit uses one. NO CONTENT CHANGES AT ALL: not one stem, option, answer, explanation, wrong-option line, passage, script, label or figure moves, so this file declares nothing and regress.py must find no difference whatsoever.",
+ "items": [],
+ "item_fields": [],
+ "texts": [],
+ "prose": [],
+ "heads": false,
+ "measure": {},
+ "figures": {}
+}

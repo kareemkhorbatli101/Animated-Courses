@@ -27,3 +27,10 @@ from docxw import (INDIGO as D_INDIGO, BLUE as D_BLUE, AMBER as D_AMBER,  # noqa
 
 W = 900      # full-width figure, as in the TOEFL series
 HW = 440
+
+
+# The unit map lives in its own dependency-free module so that check.py can
+# import it without the drawing layer; re-exported here because most of the
+# tools already import _base and nothing else.
+from unitmap import (VOL_UNITS, BOOK_ORDER, units, units_present,   # noqa: E402,F401
+                     vol_of, books)

@@ -17,28 +17,30 @@ from _base import Doc, D_INDIGO, D_BLUE, D_AMBER, D_TEAL, D_PLUM, D_GREY, D_PERI
 import charts
 import diagrams
 import frames as F
+import teach
 import qtypes as QT
+import unitmap as UN
 
-VOLS = {1: dict(units=range(1, 11), level='B1', band='5.0',
+VOLS = {1: dict(units=UN.units(1), level='B1', band='5.0',
                 cefr='B1', title='Volume 1'),
-        2: dict(units=range(11, 21), level='B1+', band='5.5',
+        2: dict(units=UN.units(2), level='B1+', band='5.5',
                 cefr='B1+', title='Volume 2'),
-        3: dict(units=range(21, 31), level='B2', band='6.0',
+        3: dict(units=UN.units(3), level='B2', band='6.0',
                 cefr='B2', title='Volume 3'),
-        4: dict(units=range(31, 41), level='B2', band='6.5',
+        4: dict(units=UN.units(4), level='B2', band='6.5',
                 cefr='B2', title='Volume 4'),
-        5: dict(units=range(41, 51), level='B2+/C1', band='7.0',
+        5: dict(units=UN.units(5), level='B2+/C1', band='7.0',
                 cefr='B2+', title='Volume 5'),
-        6: dict(units=range(51, 61), level='C1', band='7.5',
+        6: dict(units=UN.units(6), level='C1', band='7.5',
                 cefr='C1', title='Volume 6'),
         # The two Foundation books. Their key continues upwards because the
         # key is also the arithmetic that maps a unit module to a book, but
         # they sit BELOW Volume 1 on the ladder, their units print 1-10,
         # and their covers say Foundation rather than Volume.
-        7: dict(units=range(61, 71), level='A1-A2', band='below 4.0',
+        7: dict(units=UN.units(7), level='A1-A2', band='below 4.0',
                 cefr='A1-A2', title='Foundation 1', label='FOUNDATION 1',
                 short='Foundation 1', foundation=True),
-        8: dict(units=range(71, 81), level='A2-B1', band='4.0-4.5',
+        8: dict(units=UN.units(8), level='A2-B1', band='4.0-4.5',
                 cefr='A2-B1', title='Foundation 2', label='FOUNDATION 2',
                 short='Foundation 2', foundation=True)}
 
@@ -117,6 +119,36 @@ def _figure(d, spec):
     if k == 'map':
         return d.figure(*diagrams.site_map(spec['title'], spec['panels'],
                                            spec.get('sub', ''), spec.get('key')))
+    # The pedagogic family (teach.py). These differ from everything above
+    # in one way that matters: their subject is not the data they carry but
+    # the thing the learner is meant to be able to do afterwards. gate12
+    # checks that each one's `teaches` matches the kind.
+    if k == 'scene':
+        return d.figure(*teach.scene(spec['title'], spec['cells'],
+                                     spec['bank'], spec.get('instr', ''),
+                                     spec.get('note', '')))
+    if k == 'puzzle':
+        return d.figure(*teach.puzzle(spec['title'], spec['question'],
+                                      spec['bars'], spec['mark'],
+                                      spec.get('ylab', ''),
+                                      spec.get('note', '')))
+    if k == 'field':
+        return d.figure(*teach.field(spec['centre'], spec['branches'],
+                                     spec.get('sub', ''),
+                                     spec.get('note', '')))
+    if k == 'family':
+        return d.figure(*teach.family(spec['rows'], spec.get('sub', ''),
+                                      spec.get('note', ''),
+                                      spec.get('cols', teach.FAMILY_COLS)))
+    if k == 'cline':
+        return d.figure(*teach.cline(spec['title'], spec['left'],
+                                     spec['right'], spec['items'],
+                                     spec.get('sub', ''),
+                                     spec.get('note', '')))
+    if k == 'collocation':
+        return d.figure(*teach.collocation(spec['node'], spec['groups'],
+                                           spec.get('sub', ''),
+                                           spec.get('note', '')))
     raise ValueError('unknown figure kind %r' % k)
 
 

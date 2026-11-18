@@ -10,6 +10,7 @@ their Listening coverage before anything was counting.
 import importlib
 import re
 import sys
+import unitmap as UN
 
 # Per-volume text bands, from section 9.2 of the plan. A volume's texts are
 # shorter and its scripts slower than the volume above it, and the ladder is
@@ -96,8 +97,7 @@ def vol_of(n):
     print as 1-10, because each Foundation book stands alone, so this
     takes the MODULE number and never the unit's own n.
     """
-    return max(min(BANDS_BY_VOL),
-               min(max(BANDS_BY_VOL), 3 + (n - 21) // 10))
+    return UN.vol_of(n)
 
 
 # the module-level name the rest of this file uses; set per unit as it runs
@@ -846,8 +846,7 @@ def seam(heads, ns, out):
         # two-way conditionals, which silently gave every volume past the
         # fourth volume 4's own units: `check.py 31-40` then reported unit 39
         # colliding with itself under the name of Volume 5.
-        lo = 21 + (other - 3) * 10
-        for n in range(lo, lo + 10):
+        for n in UN.units(other):
             try:
                 m = importlib.import_module('content.u%02d' % n)
             except ModuleNotFoundError:

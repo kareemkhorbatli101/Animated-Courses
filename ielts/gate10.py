@@ -36,11 +36,10 @@ import sys
 
 import _base                                            # noqa: F401
 import qtypes
+import unitmap as UN
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BOOKS = [(7, range(61, 71)), (8, range(71, 81)), (1, range(1, 11)),
-         (2, range(11, 21)), (3, range(21, 31)), (4, range(31, 41)),
-         (5, range(41, 51)), (6, range(51, 61))]
+BOOKS = UN.books()
 # COVERAGE is a set, not a share. The first version of this gate asked
 # every type for 2% of a book's reading items and 3% of its listening
 # items, and that was the wrong shape of rule twice over. A real paper

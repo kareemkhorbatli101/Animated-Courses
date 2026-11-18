@@ -20,6 +20,7 @@ import re
 import sys
 
 import density as D
+import unitmap as UN
 
 
 def sentences(text):
@@ -29,8 +30,7 @@ def sentences(text):
 def inventory(vol):
     """Every sentence of a book's gated prose, with its address."""
     out = []
-    lo = 21 + (vol - 3) * 10
-    for n in range(lo, lo + 10):
+    for n in UN.units(vol):
         m = D._load('u%02d' % n)
         if m is None:
             continue
@@ -61,8 +61,7 @@ def pairs(vol):
     a pair is only a candidate if it sits inside one paragraph.
     """
     out = []
-    lo = 21 + (vol - 3) * 10
-    mods = [D._load('u%02d' % n) for n in range(lo, lo + 10)]
+    mods = [D._load('u%02d' % n) for n in UN.units(vol)]
     paras = []
     for m in mods:
         if m is None:
