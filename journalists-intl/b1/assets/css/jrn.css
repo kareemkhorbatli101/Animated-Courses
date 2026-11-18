@@ -1,0 +1,78 @@
+/* ============================================================
+   English for International Journalists B1 — jrn.css
+
+   THE COURSE'S OWN LAYER, loaded after app.css. app.css is the canonical engine
+   stylesheet, materialised from canon and identical across courses; anything this
+   course needs differently belongs here, so the engine copy stays diffable
+   against canon and the drift gate stays meaningful.
+   ============================================================ */
+
+/* A DRAWING IS SOMETHING YOU GLANCE AT, NOT SOMETHING YOU SCROLL PAST.
+   The engine renders a card visual at the full card width. These drawings are
+   200x140, so at a desktop card width that is about 770px tall - taller than the
+   viewport, pushing the exercise itself below the fold on every screen of the
+   course. Capped, and centred. */
+.card .vis-art,
+.card [class*="visual"] > svg,
+.card .vis-art > svg {
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* the printed listening scripts */
+.card .script p {
+  margin: 4px 0;
+  line-height: 1.6;
+}
+.card .script b {
+  color: var(--ink, #2b3440);
+}
+
+/* THE PRINTED TEXTS. This course prints every text it questions - the agency
+   profile, the staff profile, both case studies, the three newsroom sketches.
+   They are set as a single measured column, because that is how a reader reads
+   prose, and the exercise beneath them is read differently. */
+.card .article {
+  max-width: 62ch;
+  /* left-aligned with the instruction above it, not centred in the card: a
+     printed text in a coursebook sits in the column, it does not float. */
+  margin: 8px 0 0;
+  padding: 14px 18px;
+  border-left: 3px solid var(--accent, #9e2b25);
+  background: var(--panel, rgba(127, 127, 127, 0.06));
+  border-radius: 4px;
+}
+.card .article h4 {
+  margin: 0 0 8px;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: var(--accent, #9e2b25);
+}
+.card .article p {
+  margin: 0 0 10px;
+  line-height: 1.68;
+}
+.card .article p:last-child { margin-bottom: 0; }
+.card .article b { font-weight: 700; }
+
+/* the unit glossary list */
+.card ul.gloss {
+  columns: 2;
+  column-gap: 26px;
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+.card ul.gloss li {
+  break-inside: avoid;
+  margin: 3px 0;
+  line-height: 1.5;
+}
+
+@media (max-width: 720px) {
+  .card ul.gloss { columns: 1; }
+  .card .vis-art, .card .vis-art > svg { max-width: 100%; }
+  .card .article { padding: 12px 14px; }
+}
