@@ -29,82 +29,52 @@ FMS.page('u5-s11', {
       items: [{
           q: '1. If we decide to invest, how long will it take to get all the necessary '
             + 'approvals?',
-          options: [{ t: 'If you submit through the Investment Promotion Agency, we will fast-track '
+          options: [{ t: 'It depends. Maybe two or three months.', ok: false,
+              why: 'It gives a timescale with no condition attached, so the investor cannot '
+              + 'act on it. The first conditional is the tool the question is asking for: '
+              + 'name the route, and the timescale that follows from taking it.' },
+            { t: 'If you submit through the Investment Promotion Agency, we will fast-track '
               + 'the process and target a 30-day review.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 5.15.' },
-            { t: 'What happens if the legal situation changes after we have committed?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'If you sign a registered agreement, you are protected by an international '
-              + 'arbitration clause that guarantees full legal recourse regardless of any '
-              + 'domestic changes.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'We would commit more capital if the incentive package were stronger. Is '
-              + 'there flexibility?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 5.15 - and it does the two things the situation needs.' }]
         },
         {
           q: '2. What happens if the legal situation changes after we have committed?',
-          options: [{ t: 'If you sign a registered agreement, you are protected by an international '
+          options: [{ t: 'We cannot predict the future.', ok: false,
+              why: 'The investor is not asking for a prediction - he is asking what protects '
+              + 'him. "We cannot predict the future" declines a question that has a '
+              + 'concrete answer: the instrument that applies if he signs.' },
+            { t: 'If you sign a registered agreement, you are protected by an international '
               + 'arbitration clause that guarantees full legal recourse regardless of any '
               + 'domestic changes.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 5.15.' },
-            { t: 'If we decide to invest, how long will it take to get all the necessary '
-              + 'approvals?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'If you submit through the Investment Promotion Agency, we will fast-track '
-              + 'the process and target a 30-day review.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'We would commit more capital if the incentive package were stronger. Is '
-              + 'there flexibility?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 5.15 - and it does the two things the situation needs.' }]
         },
         {
           q: '3. We would commit more capital if the incentive package were stronger. Is '
             + 'there flexibility?',
-          options: [{ t: 'If you are investing above a certain threshold, additional incentives may '
+          options: [{ t: 'The incentive package is fixed. We cannot change it.', ok: false,
+              why: 'It states a flat rule where the book states a condition, and it is '
+              + 'inaccurate as well as unhelpful: incentives do vary with the size of the '
+              + 'investment, which is precisely what the investor needs to hear.' },
+            { t: 'If you are investing above a certain threshold, additional incentives may '
               + 'apply. I would like to arrange a meeting with our Investment Promotion '
               + 'Agency to discuss your specific situation.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 5.15.' },
-            { t: 'If we decide to invest, how long will it take to get all the necessary '
-              + 'approvals?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'If you submit through the Investment Promotion Agency, we will fast-track '
-              + 'the process and target a 30-day review.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'What happens if the legal situation changes after we have committed?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 5.15 - and it does the two things the situation needs.' }]
         },
         {
           q: '4. If we sign a letter of intent now, what exactly does that commit us to?',
-          options: [{ t: 'A letter of intent is a statement of serious intention — it does not '
+          options: [{ t: 'It means you are serious about investing.', ok: false,
+              why: 'It restates the investor\'s own words instead of defining the instrument. '
+              + 'What he needs to know is what a letter of intent does - and, just as '
+              + 'importantly, what it does not bind him to.' },
+            { t: 'A letter of intent is a statement of serious intention — it does not '
               + 'commit you to a financial obligation, but it confirms your intent to '
               + 'proceed to feasibility study and signals that both sides will work in good '
               + 'faith toward a final agreement.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 5.15.' },
-            { t: 'If we decide to invest, how long will it take to get all the necessary '
-              + 'approvals?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'If you submit through the Investment Promotion Agency, we will fast-track '
-              + 'the process and target a 30-day review.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'What happens if the legal situation changes after we have committed?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 5.15 - and it does the two things the situation needs.' }]
         }]
     },
     {

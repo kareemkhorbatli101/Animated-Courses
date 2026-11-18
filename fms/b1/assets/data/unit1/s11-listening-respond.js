@@ -29,74 +29,52 @@ FMS.page('u1-s11', {
       items: [{
           q: '1. Good morning. I have an appointment with the Protocol Department at ten '
             + 'o\'clock.',
-          options: [{ t: 'Good morning. Welcome. May I have your name and identification, please?', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 1.15.' },
-            { t: 'I am here to collect my diplomatic visa. My name is Carlos Mendez.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Thank you, Mr. Mendez. Visa collection is handled at the Consular Section. '
-              + 'Please follow me to window three.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Hello, I am a journalist. I would like to speak with the ministry '
-              + 'spokesperson about the regional investment conference.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+          options: [{ t: 'Okay, go ahead to the second floor.', ok: false,
+              why: 'It sends the visitor upstairs without finding out who he is. Even a '
+              + 'visitor who has an appointment is identified at the desk first - that is '
+              + 'what the appointment log and the security list are for. "Okay" is also too '
+              + 'casual for a first contact at the ministry.' },
+            { t: 'Good morning. Welcome. May I have your name and identification, please?', ok: true,
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 1.15 - and it does the two things the situation needs.' }]
         },
         {
           q: '2. I am here to collect my diplomatic visa. My name is Carlos Mendez.',
-          options: [{ t: 'Thank you, Mr. Mendez. Visa collection is handled at the Consular Section. '
+          options: [{ t: 'Do you already have a Vietnamese visa?', ok: false,
+              why: 'He has just told you he is collecting a diplomatic visa, so this asks for '
+              + 'something he has already said. It also leaves him standing at the desk: '
+              + 'nothing in it tells him where visa collection happens or who will take him '
+              + 'there.' },
+            { t: 'Thank you, Mr. Mendez. Visa collection is handled at the Consular Section. '
               + 'Please follow me to window three.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 1.15.' },
-            { t: 'Good morning. I have an appointment with the Protocol Department at ten '
-              + 'o\'clock.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Good morning. Welcome. May I have your name and identification, please?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Hello, I am a journalist. I would like to speak with the ministry '
-              + 'spokesperson about the regional investment conference.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 1.15 - and it does the two things the situation needs.' }]
         },
         {
           q: '3. Hello, I am a journalist. I would like to speak with the ministry '
             + 'spokesperson about the regional investment conference.',
           options: [{ t: 'Welcome. All media inquiries are handled by the Press and Information '
               + 'Office on the second floor. May I have your press credentials, please?', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 1.15.' },
-            { t: 'Good morning. I have an appointment with the Protocol Department at ten '
-              + 'o\'clock.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Good morning. Welcome. May I have your name and identification, please?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'I am here to collect my diplomatic visa. My name is Carlos Mendez.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 1.15 - and it does the two things the situation needs.' },
+            { t: 'The spokesperson is not available right now. Please call tomorrow.', ok: false,
+              why: 'It closes the door instead of opening the right one. Media enquiries have '
+              + 'an office of their own, and a journalist turned away at a first official '
+              + 'contact - with no route, no name and no accreditation step - is how a '
+              + 'small problem becomes a published one.' }]
         },
         {
           q: '4. Good afternoon. I am Dr. Mensah from the World Health Organization. I '
             + 'am scheduled to meet the Humanitarian Liaison Officer.',
-          options: [{ t: 'Good afternoon, Dr. Mensah. Welcome to the ministry. Please allow me to '
+          options: [{ t: 'Is that meeting confirmed?', ok: false,
+              why: 'It puts the doubt on the visitor. He has said the meeting is scheduled; '
+              + 'checking that is the ministry\'s job, not his. The reception officer '
+              + 'verifies identity and notifies the officer, rather than questioning '
+              + 'whether a WHO representative is expected.' },
+            { t: 'Good afternoon, Dr. Mensah. Welcome to the ministry. Please allow me to '
               + 'see your identification and I will notify the officer immediately.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 1.15.' },
-            { t: 'Good morning. I have an appointment with the Protocol Department at ten '
-              + 'o\'clock.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Good morning. Welcome. May I have your name and identification, please?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'I am here to collect my diplomatic visa. My name is Carlos Mendez.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 1.15 - and it does the two things the situation needs.' }]
         }]
     },
     {

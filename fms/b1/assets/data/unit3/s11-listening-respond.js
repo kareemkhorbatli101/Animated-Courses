@@ -28,54 +28,34 @@ FMS.page('u3-s11', {
       items: [{
           q: '1. Your development plans sound impressive on paper. But who is actually '
             + 'monitoring whether international funds are being used correctly?',
-          options: [{ t: 'That is an important question. A joint technical monitoring committee has '
-              + 'been established, which includes both government representatives and '
-              + 'international partner observers. Quarterly implementation reports are '
-              + 'published and available through the ministry\'s official communications. '
-              + 'We welcome accountability — it strengthens the programs.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 3.15.' },
-            { t: 'There are reports that the returning-citizens program is very slow and '
-              + 'that people are being turned away without explanation.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'We take that feedback seriously. The return program has been established '
-              + 'and is being expanded, but we acknowledge that processing times need to '
-              + 'improve. Applications are handled by the Consular Section, and anyone who '
-              + 'has experienced a difficulty is welcome to contact our return assistance '
-              + 'office directly — I can provide that contact information.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'What is your government doing about transparency in the territorial '
-              + 'development programs? Is any independent process being established?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
-        },
-        {
-          q: '2. There are reports that the returning-citizens program is very slow and '
-            + 'that people are being turned away without explanation.',
-          options: [{ t: 'We take that feedback seriously. The return program has been established '
-              + 'and is being expanded, but we acknowledge that processing times need to '
-              + 'improve. Applications are handled by the Consular Section, and anyone who '
-              + 'has experienced a difficulty is welcome to contact our return assistance '
-              + 'office directly — I can provide that contact information.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 3.15.' },
-            { t: 'Your development plans sound impressive on paper. But who is actually '
-              + 'monitoring whether international funds are being used correctly?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
+          options: [{ t: 'That is not something we can discuss publicly. These are internal matters.', ok: false,
+              why: 'Refusing the question outright reads as concealment, which is the opposite '
+              + 'of what it intends. The passive exists so that a ministry can state what '
+              + 'has been established without naming individuals; being careful is not the '
+              + 'same as saying nothing.' },
             { t: 'That is an important question. A joint technical monitoring committee has '
               + 'been established, which includes both government representatives and '
               + 'international partner observers. Quarterly implementation reports are '
               + 'published and available through the ministry\'s official communications. '
-              + 'We welcome accountability — it strengthens the programs.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'What is your government doing about transparency in the territorial '
-              + 'development programs? Is any independent process being established?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              + 'We welcome accountability — it strengthens the programs.', ok: true,
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 3.15 - and it does the two things the situation needs.' }]
+        },
+        {
+          q: '2. There are reports that the returning-citizens program is very slow and '
+            + 'that people are being turned away without explanation.',
+          options: [{ t: 'Those reports are incorrect. The program is working very well.', ok: false,
+              why: 'A flat denial invites the journalist to produce the evidence, and the '
+              + 'exchange is then about the evidence rather than the policy. Acknowledging '
+              + 'the concern and describing the mechanism answers the question without '
+              + 'accepting the premise.' },
+            { t: 'We take that feedback seriously. The return program has been established '
+              + 'and is being expanded, but we acknowledge that processing times need to '
+              + 'improve. Applications are handled by the Consular Section, and anyone who '
+              + 'has experienced a difficulty is welcome to contact our return assistance '
+              + 'office directly — I can provide that contact information.', ok: true,
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 3.15 - and it does the two things the situation needs.' }]
         },
         {
           q: '3. What is your government doing about transparency in the territorial '
@@ -85,48 +65,26 @@ FMS.page('u3-s11', {
               + 'happy to direct you to that statement. For details beyond the official '
               + 'position, I would recommend submitting a formal inquiry to the '
               + 'spokesperson\'s office, which I can help facilitate.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 3.15.' },
-            { t: 'Your development plans sound impressive on paper. But who is actually '
-              + 'monitoring whether international funds are being used correctly?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'That is an important question. A joint technical monitoring committee has '
-              + 'been established, which includes both government representatives and '
-              + 'international partner observers. Quarterly implementation reports are '
-              + 'published and available through the ministry\'s official communications. '
-              + 'We welcome accountability — it strengthens the programs.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'There are reports that the returning-citizens program is very slow and '
-              + 'that people are being turned away without explanation.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 3.15 - and it does the two things the situation needs.' },
+            { t: 'We do not discuss that subject. Please ask a different question.', ok: false,
+              why: 'Telling a correspondent to ask something else is itself the story. A '
+              + 'legitimate question gets the official position - even when the position is '
+              + 'that the matter is still under procedure.' }]
         },
         {
           q: '4. When will the new trade preference scheme be ratified by all parties?',
-          options: [{ t: 'Ratification follows established parliamentary procedure, and that process '
+          options: [{ t: 'Very soon. We expect the agreement to be ratified this year.', ok: false,
+              why: 'It promises a date the ministry does not control. Ratification follows '
+              + 'parliamentary procedure, and "this year", once said on the record, is a '
+              + 'commitment somebody will quote back when the year ends.' },
+            { t: 'Ratification follows established parliamentary procedure, and that process '
               + 'is ongoing. I cannot speculate on timelines — that would be premature. '
               + 'What I can say is that we are committed to demonstrating through concrete '
               + 'actions — the programs you have heard about today — that the conditions '
               + 'for a durable partnership are being built.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 3.15.' },
-            { t: 'Your development plans sound impressive on paper. But who is actually '
-              + 'monitoring whether international funds are being used correctly?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'That is an important question. A joint technical monitoring committee has '
-              + 'been established, which includes both government representatives and '
-              + 'international partner observers. Quarterly implementation reports are '
-              + 'published and available through the ministry\'s official communications. '
-              + 'We welcome accountability — it strengthens the programs.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'There are reports that the returning-citizens program is very slow and '
-              + 'that people are being turned away without explanation.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 3.15 - and it does the two things the situation needs.' }]
         }]
     },
     {

@@ -29,44 +29,28 @@ FMS.page('u2-s11', {
       items: [{
           q: '1. We have two additional participants joining the delegation. Can the '
             + 'room accommodate fourteen instead of twelve?',
-          options: [{ t: 'I will check the room capacity immediately and confirm within the hour. If '
+          options: [{ t: 'That is too many. You should have told us earlier.', ok: false,
+              why: 'It tells the embassy it is at fault, which settles nothing. A liaison '
+              + 'officer\'s first move is to find out what is actually possible - the '
+              + 'room\'s capacity - and come back with an answer and a time. Note that the '
+              + 'correct reply commits to both.' },
+            { t: 'I will check the room capacity immediately and confirm within the hour. If '
               + 'needed, we can consider an alternative room setup.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 2.15.' },
-            { t: 'Our delegation lead needs the agenda in German, not just English. Is that '
-              + 'possible?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Of course. I will coordinate with our translation team and send you the '
-              + 'German version by tomorrow morning — the meeting is in three days, so this '
-              + 'is very manageable.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'We need to confirm: does our delegation lead need to bring the signed '
-              + 'authorization letter to the meeting tomorrow?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 2.15 - and it does the two things the situation needs.' }]
         },
         {
           q: '2. Our delegation lead needs the agenda in German, not just English. Is '
             + 'that possible?',
-          options: [{ t: 'Of course. I will coordinate with our translation team and send you the '
+          options: [{ t: 'The agenda is already in English. We cannot change it now.', ok: false,
+              why: 'It refuses without offering anything instead. "We cannot change it now" '
+              + 'ends the exchange; the professional answer accepts the request, names who '
+              + 'will do the work, and says when it will arrive.' },
+            { t: 'Of course. I will coordinate with our translation team and send you the '
               + 'German version by tomorrow morning — the meeting is in three days, so this '
               + 'is very manageable.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 2.15.' },
-            { t: 'We have two additional participants joining the delegation. Can the room '
-              + 'accommodate fourteen instead of twelve?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'I will check the room capacity immediately and confirm within the hour. If '
-              + 'needed, we can consider an alternative room setup.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'We need to confirm: does our delegation lead need to bring the signed '
-              + 'authorization letter to the meeting tomorrow?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 2.15 - and it does the two things the situation needs.' }]
         },
         {
           q: '3. We need to confirm: does our delegation lead need to bring the signed '
@@ -74,42 +58,29 @@ FMS.page('u2-s11', {
           options: [{ t: 'Yes, all delegation leads must bring their signed authorization letter — '
               + 'this is required for the official record. I will include a reminder in the '
               + 'logistics note I send you today.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 2.15.' },
-            { t: 'We have two additional participants joining the delegation. Can the room '
-              + 'accommodate fourteen instead of twelve?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'I will check the room capacity immediately and confirm within the hour. If '
-              + 'needed, we can consider an alternative room setup.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Our delegation lead needs the agenda in German, not just English. Is that '
-              + 'possible?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 2.15 - and it does the two things the situation needs.' },
+            { t: 'No, you do not need to bring anything official. Just come and we will '
+              + 'handle it.', ok: false,
+              why: 'It waives a protocol requirement that a liaison officer has no authority '
+              + 'to waive. Telling a delegation that nothing official is needed produces '
+              + 'exactly the problem it was trying to avoid - at the door, on the morning, '
+              + 'in front of the delegation lead.' }]
         },
         {
           q: '4. I am calling to confirm the time and location of tomorrow\'s working '
             + 'group. Can you please verify?',
-          options: [{ t: 'Certainly. The Morocco–Germany Infrastructure Working Group is confirmed '
+          options: [{ t: 'Yes it is tomorrow. I believe it is in the morning.', ok: false,
+              why: '"I believe it is in the morning" is not a confirmation. Coordination '
+              + 'language has to be exact - the name of the session, the date, the time - '
+              + 'because the other side will book flights and interpreters on the strength '
+              + 'of it.' },
+            { t: 'Certainly. The Morocco–Germany Infrastructure Working Group is confirmed '
               + 'for tomorrow, Tuesday the fourteenth, at ten o\'clock in Conference Room B '
               + 'on the second floor of the main ministry building. I will send you the '
               + 'final logistics note by end of today.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 2.15.' },
-            { t: 'We have two additional participants joining the delegation. Can the room '
-              + 'accommodate fourteen instead of twelve?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'I will check the room capacity immediately and confirm within the hour. If '
-              + 'needed, we can consider an alternative room setup.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Our delegation lead needs the agenda in German, not just English. Is that '
-              + 'possible?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 2.15 - and it does the two things the situation needs.' }]
         }]
     },
     {

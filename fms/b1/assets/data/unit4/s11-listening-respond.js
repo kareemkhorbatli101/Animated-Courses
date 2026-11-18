@@ -28,54 +28,32 @@ FMS.page('u4-s11', {
       items: [{
           q: '1. We are very glad to sign this cooperation framework today. We look '
             + 'forward to seeing concrete results within the year.',
-          options: [{ t: 'Thank you, Your Excellency. The joint technical committee is going to meet '
+          options: [{ t: 'Thank you. We will try our best to make something happen.', ok: false,
+              why: '"We will try our best" commits to nothing that can be checked. At a '
+              + 'signing ceremony the other delegation is listening for the mechanism and '
+              + 'the timetable - a committee, a date - not for goodwill.' },
+            { t: 'Thank you, Your Excellency. The joint technical committee is going to meet '
               + 'within sixty days to begin implementation planning — concrete results will '
               + 'follow that process. Kazakhstan is committed to demonstrating through '
               + 'action that this partnership is more than a signature.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 4.15.' },
-            { t: 'Kazakhstan has signed many agreements. What guarantees do partners have '
-              + 'that these will actually be implemented?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 4.15 - and it does the two things the situation needs.' }]
+        },
+        {
+          q: '2. Kazakhstan has signed many agreements. What guarantees do partners have '
+            + 'that these will actually be implemented?',
+          options: [{ t: 'We guarantee everything. Do not worry about implementation.', ok: false,
+              why: 'It over-promises. No ministry can guarantee everything, and an investor '
+              + 'who hears a guarantee that broad discounts the rest of what you say. The '
+              + 'correct reply treats the question as reasonable and answers it.' },
             { t: 'That is the right question to ask, and it is one we take seriously. Each '
               + 'framework includes a joint monitoring committee with quarterly reporting '
               + 'obligations. The first progress reports will be published within ninety '
               + 'days of each committee\'s inaugural session. We are also meeting with all '
               + 'partner delegations at this conference specifically to review '
-              + 'implementation timelines — accountability is built into the architecture.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'We are proposing a joint research program in renewable energy. Are you '
-              + 'interested in exploring this?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
-        },
-        {
-          q: '2. Kazakhstan has signed many agreements. What guarantees do partners have '
-            + 'that these will actually be implemented?',
-          options: [{ t: 'That is the right question to ask, and it is one we take seriously. Each '
-              + 'framework includes a joint monitoring committee with quarterly reporting '
-              + 'obligations. The first progress reports will be published within ninety '
-              + 'days of each committee\'s inaugural session. We are also meeting with all '
-              + 'partner delegations at this conference specifically to review '
               + 'implementation timelines — accountability is built into the architecture.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 4.15.' },
-            { t: 'We are very glad to sign this cooperation framework today. We look forward '
-              + 'to seeing concrete results within the year.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Thank you, Your Excellency. The joint technical committee is going to meet '
-              + 'within sixty days to begin implementation planning — concrete results will '
-              + 'follow that process. Kazakhstan is committed to demonstrating through '
-              + 'action that this partnership is more than a signature.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'We are proposing a joint research program in renewable energy. Are you '
-              + 'interested in exploring this?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 4.15 - and it does the two things the situation needs.' }]
         },
         {
           q: '3. We are proposing a joint research program in renewable energy. Are you '
@@ -84,47 +62,27 @@ FMS.page('u4-s11', {
               + 'going to be one of our central modernization priorities. I would like to '
               + 'schedule a follow-up session with our Energy Affairs team. We are meeting '
               + 'on Thursday — are you available to join us then?', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 4.15.' },
-            { t: 'We are very glad to sign this cooperation framework today. We look forward '
-              + 'to seeing concrete results within the year.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Thank you, Your Excellency. The joint technical committee is going to meet '
-              + 'within sixty days to begin implementation planning — concrete results will '
-              + 'follow that process. Kazakhstan is committed to demonstrating through '
-              + 'action that this partnership is more than a signature.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Kazakhstan has signed many agreements. What guarantees do partners have '
-              + 'that these will actually be implemented?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 4.15 - and it does the two things the situation needs.' },
+            { t: 'I am not sure. Send me an email and I will think about it.', ok: false,
+              why: 'It hands the question back at the moment it was asked. A ministry '
+              + 'representative at an international conference is expected to be able to '
+              + 'state a national priority without checking first.' }]
         },
         {
           q: '4. We would like to invite Kazakhstan to participate in the International '
             + 'Investment Forum in Berlin next March. Will Kazakhstan be represented?',
-          options: [{ t: 'Kazakhstan is committed to participating in the Berlin Forum. Our Economic '
+          options: [{ t: 'Yes, someone will probably go. We will let you know closer to the date.', ok: false,
+              why: '"Someone" and "probably" leave the other side unable to plan. Commitment '
+              + 'language names who is coming, what they will do and when - which is '
+              + 'exactly what the future forms in this unit are for.' },
+            { t: 'Kazakhstan is committed to participating in the Berlin Forum. Our Economic '
               + 'Affairs team is going to lead the delegation, and the ministry shall '
               + 'communicate our participation officially through formal channels. I will '
               + 'ensure you receive a formal confirmation letter within the next ten '
               + 'working days.', ok: true,
-              why: 'Right — this is the reply the book records for that visitor, in Appendix '
-              + 'A, track 4.15.' },
-            { t: 'We are very glad to sign this cooperation framework today. We look forward '
-              + 'to seeing concrete results within the year.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Thank you, Your Excellency. The joint technical committee is going to meet '
-              + 'within sixty days to begin implementation planning — concrete results will '
-              + 'follow that process. Kazakhstan is committed to demonstrating through '
-              + 'action that this partnership is more than a signature.', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' },
-            { t: 'Kazakhstan has signed many agreements. What guarantees do partners have '
-              + 'that these will actually be implemented?', ok: false,
-              why: 'Not this one. It is a real line from the same recording, but it answers a '
-              + 'different visitor.' }]
+              why: 'Right. This is the reply the recording actually contains - Appendix A, '
+              + 'track 4.15 - and it does the two things the situation needs.' }]
         }]
     },
     {
