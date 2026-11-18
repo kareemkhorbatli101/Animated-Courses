@@ -78,7 +78,31 @@ FMS.page('u1-s17', {
           '40 words or more?',
           'closes with a next step?'],
         planPlaceholder: 'Dear …, My name is … I am writing to …'
-      }
+      },
+      model: ['Dear Ms. Hoffmann, My name is Nguyen Van Duc, and I am a Consular Affairs '
+          + 'Officer at the Vietnamese Ministry of Foreign Affairs. My primary '
+          + '____________________ include processing diplomatic visas, managing travel '
+          + 'documentation, and assisting foreign nationals with consular matters in '
+          + 'Viet Nam. I am currently ____________________ a review of our visa '
+          + 'processing procedures to reduce waiting times for diplomatic applicants. I '
+          + 'welcome the opportunity to ____________________ closely with your embassy '
+          + 'on any documentation and consular matters. Yours sincerely, Nguyen Van Duc',
+        'Dear Mr. Watanabe, I am writing to introduce myself. My name is Tran Thu '
+          + 'Ha, and I ____________________ as Press Attaché at the Vietnamese Ministry '
+          + 'of Foreign Affairs. I manage media accreditation, official press '
+          + 'statements, and press conferences at the ministry. At the moment, I am '
+          + '____________________ the full media program for the upcoming regional '
+          + 'investment conference in Hanoi. I am glad to ____________________ you with '
+          + 'all the information and accreditation you need for your coverage. Best '
+          + 'regards, Tran Thu Ha',
+        'Dear Ms. Fischer, My name is Le Quang Huy, and I am an '
+          + '____________________ Specialist at the Vietnamese Ministry of Foreign '
+          + 'Affairs. I focus on trade diplomacy and international investment '
+          + 'facilitation. I am currently ____________________ Viet Nam\'s '
+          + 'participation in the upcoming regional investment forum and look forward '
+          + 'to discussing our bilateral economic cooperation framework with your team. '
+          + 'I would welcome the opportunity to ____________________ a preliminary '
+          + 'meeting at your earliest convenience. Kind regards, Le Quang Huy']
     }
   ]
 });

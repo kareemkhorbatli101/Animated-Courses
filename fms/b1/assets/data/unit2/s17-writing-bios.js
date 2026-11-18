@@ -59,7 +59,32 @@ FMS.page('u2-s17', {
           '40 words or more?',
           'closes with a next step?'],
         planPlaceholder: 'Dear …, My name is … I am writing to …'
-      }
+      },
+      model: ['Dear Ms. Braun, I am writing to confirm the arrangements for the '
+          + 'Morocco–Germany Infrastructure Cooperation Working Group '
+          + '____________________ on Tuesday, 14 March 2025, at 10:00 a.m., in '
+          + 'Conference Room B, Ministry of Foreign Affairs, Rabat. All participants '
+          + '____________________ present a valid form of official identification at '
+          + 'the security desk. Interpretation into German will be available for the '
+          + 'technical session in the afternoon. I will send a final logistics '
+          + '____________________ by Monday morning. Yours sincerely, Salma Benali, '
+          + 'Protocol and Liaison Officer',
+        'Dear Mr. Richter, I am writing to inform you that the working group '
+          + 'session originally ____________________ for Tuesday at ten o\'clock must '
+          + 'be rescheduled due to an urgent ministerial commitment on our side. We '
+          + '____________________ the session to take place on Wednesday at the same '
+          + 'time and in the same location. We apologize for any inconvenience and are '
+          + 'grateful for your understanding. Please confirm at your earliest '
+          + '____________________. Best regards, Salma Benali',
+        'Post-Meeting Summary — Morocco–Germany Infrastructure Working Group Date: '
+          + 'Tuesday, 14 March 2025 Participants: [see attached list] The session '
+          + 'opened at 10:00 a.m. with formal statements from both ____________________ '
+          + 'leads. The morning session addressed rail network modernization in '
+          + 'priority regions. The afternoon session covered water infrastructure '
+          + '____________________. At the conclusion of the session, both delegation '
+          + 'leads signed an aide-mémoire establishing the joint technical monitoring '
+          + 'committee. Both sides ____________________ to hold a second working group '
+          + 'session within three months.']
     }
   ]
 });

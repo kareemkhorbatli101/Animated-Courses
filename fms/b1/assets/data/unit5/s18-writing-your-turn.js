@@ -66,7 +66,33 @@ FMS.page('u5-s18', {
           '40 words or more?',
           'closes with a next step?'],
         planPlaceholder: 'Dear …, My name is … I am writing to …'
-      }
+      },
+      model: ['This briefing note ____________________ an overview of the country\'s '
+          + 'three highest-priority investment sectors for the 2025–2026 period: '
+          + 'infrastructure, energy, and agriculture. Each sector ____________________ '
+          + 'significant opportunities for both commercial investors and development '
+          + 'finance institutions. If you require more ____________________ information '
+          + 'on any specific sector, the Investment Promotion Agency can provide a '
+          + 'detailed sector profile on request.',
+        'Dear Mr. Richter, On behalf of the Ministry of Foreign Affairs, I have the '
+          + '____________________ of inviting you and your delegation to participate in '
+          + 'the National Development and Investment Forum, to be held in Addis Ababa '
+          + 'on 14–15 October 2025. The Forum will bring together international '
+          + 'investors, development partners, and government officials to '
+          + '____________________ investment opportunities across the country\'s '
+          + 'priority development sectors. We believe that if your delegation '
+          + '____________________ the Forum, you will find the conversations highly '
+          + 'productive and the investment landscape more advanced than you may expect. '
+          + 'We look forward to welcoming you to Addis Ababa. Yours sincerely, Dawit '
+          + 'Bekele',
+        'Dear Ms. Al-Sayed, Thank you for your visit to the Ministry yesterday and '
+          + 'for the constructive ____________________ we had regarding agricultural '
+          + 'investment opportunities in our country. As agreed, I am attaching the '
+          + 'full legal framework ____________________ for the Awash Valley joint '
+          + 'venture zone. If you have any questions after reviewing it, please do not '
+          + '____________________ to contact me directly. I look forward to arranging '
+          + 'your meeting with the Investment Promotion Agency at a time that is '
+          + 'convenient for you. Best regards, Dawit Bekele']
     },
     {
       id: 'c2',
@@ -123,7 +149,33 @@ FMS.page('u5-s18', {
           '60 words or more?',
           'closes with a next step?'],
         planPlaceholder: 'Dear …, My name is … I am writing to …'
-      }
+      },
+      model: ['This briefing note ____________________ an overview of the country\'s '
+          + 'three highest-priority investment sectors for the 2025–2026 period: '
+          + 'infrastructure, energy, and agriculture. Each sector ____________________ '
+          + 'significant opportunities for both commercial investors and development '
+          + 'finance institutions. If you require more ____________________ information '
+          + 'on any specific sector, the Investment Promotion Agency can provide a '
+          + 'detailed sector profile on request.',
+        'Dear Mr. Richter, On behalf of the Ministry of Foreign Affairs, I have the '
+          + '____________________ of inviting you and your delegation to participate in '
+          + 'the National Development and Investment Forum, to be held in Addis Ababa '
+          + 'on 14–15 October 2025. The Forum will bring together international '
+          + 'investors, development partners, and government officials to '
+          + '____________________ investment opportunities across the country\'s '
+          + 'priority development sectors. We believe that if your delegation '
+          + '____________________ the Forum, you will find the conversations highly '
+          + 'productive and the investment landscape more advanced than you may expect. '
+          + 'We look forward to welcoming you to Addis Ababa. Yours sincerely, Dawit '
+          + 'Bekele',
+        'Dear Ms. Al-Sayed, Thank you for your visit to the Ministry yesterday and '
+          + 'for the constructive ____________________ we had regarding agricultural '
+          + 'investment opportunities in our country. As agreed, I am attaching the '
+          + 'full legal framework ____________________ for the Awash Valley joint '
+          + 'venture zone. If you have any questions after reviewing it, please do not '
+          + '____________________ to contact me directly. I look forward to arranging '
+          + 'your meeting with the Investment Promotion Agency at a time that is '
+          + 'convenient for you. Best regards, Dawit Bekele']
     }
   ]
 });

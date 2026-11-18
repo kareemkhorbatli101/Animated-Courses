@@ -50,7 +50,28 @@ FMS.page('u3-s17', {
           '40 words or more?',
           'closes with a next step?'],
         planPlaceholder: 'Dear …, My name is … I am writing to …'
-      }
+      },
+      model: ['The Ministry of Foreign Affairs announces that a Memorandum of '
+          + 'Understanding on Bilateral Cooperation has been ____________________ today '
+          + 'between our country and the Federal Republic of Germany. The MoU was '
+          + '____________________ by both foreign ministers at a ceremony held at the '
+          + 'Ministry of Foreign Affairs in Bogotá. A joint technical committee will be '
+          + '____________________ to oversee implementation, with the first session '
+          + 'scheduled within 60 days.',
+        'The Ministry of Foreign Affairs confirms that the National '
+          + 'Returning-Citizens Program has been formally ____________________ and is '
+          + 'now accepting applications from nationals residing abroad. The program is '
+          + 'being ____________________ in partnership with the International '
+          + 'Organization for Migration. Priority will be ____________________ to '
+          + 'applications from qualified professionals in medicine, engineering, '
+          + 'education, and public administration. Applications may be submitted '
+          + 'through embassies and consulates.',
+        'The International Investment Conference, ____________________ in Madrid, '
+          + 'brought together representatives from forty-three countries and twelve '
+          + 'international organizations. Funding ____________________ totaling four '
+          + 'billion dollars were made for infrastructure, education, and social '
+          + 'programs. A multilateral coordination committee was ____________________ '
+          + 'to oversee the conversion of pledges into implemented projects.']
     }
   ]
 });

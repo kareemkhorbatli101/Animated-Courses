@@ -56,7 +56,31 @@ FMS.page('u4-s17', {
           '60 words or more?',
           'closes with a next step?'],
         planPlaceholder: 'Dear …, My name is … I am writing to …'
-      }
+      },
+      model: ['The Ministry of Foreign Affairs of the Republic of Kazakhstan '
+          + '____________________ its compliments to the Embassy of the Italian '
+          + 'Republic and has the honor to ____________________ His Excellency the '
+          + 'Ambassador of Italy to the signing ceremony of the Kazakhstan–Italy '
+          + 'Cultural Heritage Cooperation Protocol, to be held at the Ministry of '
+          + 'Foreign Affairs, Astana, on Thursday, 19 June 2025, at ten o\'clock in the '
+          + 'morning. The Ministry avails itself of this opportunity to renew to the '
+          + 'Embassy the ____________________ of its highest consideration.',
+        'His Excellency the Minister of Foreign Affairs of the Republic of '
+          + 'Kazakhstan presents his warmest ____________________ to His Excellency the '
+          + 'newly appointed Minister of Foreign Affairs of Japan upon his '
+          + '____________________ to this distinguished office, and expresses his '
+          + 'sincere confidence that the ties of friendship and cooperation between '
+          + 'Kazakhstan and Japan will continue to ____________________ under his '
+          + 'distinguished leadership.',
+        'Your Excellency, On behalf of the Kazakh Ministry of Foreign Affairs, I '
+          + 'have the honor to ____________________ Your Excellency to the signing '
+          + 'ceremony of the Kazakhstan–Germany Bilateral Cooperation Framework, '
+          + 'scheduled for Tuesday, 18 June 2025, at eleven o\'clock in the morning at '
+          + 'the Ministry of Foreign Affairs in Astana. The ceremony will be attended '
+          + 'by both Foreign ____________________. A formal reception will '
+          + '____________________ at the Ministry following the ceremony. We look '
+          + 'forward to your distinguished presence. Yours sincerely, Aigerim Dosanova, '
+          + 'Protocol Department']
     }
   ]
 });
