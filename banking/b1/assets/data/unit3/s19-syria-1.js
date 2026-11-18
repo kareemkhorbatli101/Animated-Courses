@@ -12,7 +12,7 @@ BNK.page('u3-s19', {
       id: 'c1',
       ref: 'S-A',
       bookRef: 'Unit 3 · S-A',
-      visual: { spot: 'rate-board' },
+      visual: { spot: 'redenomination' },
       type: 'study',
       title: 'Read the case',
       instruction: 'On 1 January 2026 Syria changed its currency. Two zeros were removed: '
