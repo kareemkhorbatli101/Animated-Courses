@@ -69,11 +69,31 @@ def _block(g, x, y, text, size, max_w, lead, fill, maxlines,
     return used
 
 
+NOTE_SIZE, NOTE_LEAD = 15, 19
+
+
+def noteh(s):
+    """How tall a figure must be to carry its note.
+
+    The note is where a figure says what to DO with it, so it is often two
+    or three lines long - and a one-line slot either overran the box (gate
+    6 caught three) or would have silently thrown the sentence away. The
+    height is measured from the wrapped text, before anything is drawn,
+    because a figure's height is fixed at creation.
+    """
+    if not s:
+        return 0
+    return 12 + NOTE_LEAD * len(fit(s, W - 56, NOTE_SIZE, False, False))
+
+
 def _note(g, y, s, col=GREY):
     if not s:
         return 0
-    g.append(TFIT(28, y, s, 15, W - 56, col, anchor='start', italic=True))
-    return 26
+    lns = fit(s, W - 56, NOTE_SIZE, False, False)
+    svg, n, used = TBLOCK(28, y, '', NOTE_SIZE, W - 56, lead=NOTE_LEAD,
+                          fill=col, anchor='start', italic=True, lines=lns)
+    g.append(svg)
+    return used + NOTE_LEAD
 
 
 # ------------------------------------------------------------------ scene
@@ -102,7 +122,7 @@ def scene(title, cells, bank, instr='', note=''):
         bx += pw + 8
     bankh = 44 + 30 * (blines - 1) + 48
     h = (54 + (34 if instr else 10) + rows * (ch + 16) + bankh
-         + (26 if note else 0) + 4)
+         + noteh(note) + 4)
     g = [R(0, 0, W, h, PAPER, INDIGO, 2, 12)]
     y = _head(g, title, 'Name the eight things')
     if instr:
@@ -153,11 +173,11 @@ def puzzle(title, question, bars, mark, ylab='', note=''):
     and the question are the whole figure: a learner who wants to know why
     reads the passage differently from one who has been told to read it.
     """
-    h = 356 + (26 if note else 0)
+    h = 356 + noteh(note)
     g = [R(0, 0, W, h, PAPER, AMBER, 2, 12)]
     y = _head(g, title, '', AMBER)
     x0, x1 = 92, W - 48
-    y0, y1 = y + 44, h - 118 - (26 if note else 0)
+    y0, y1 = y + 44, h - 118 - noteh(note)
     top = max(v for _, v in bars) * 1.18 or 1.0
     g.append(L(x0, y1, x1, y1, GREY_L, 2))
     if ylab:
@@ -179,9 +199,9 @@ def puzzle(title, question, bars, mark, ylab='', note=''):
             # number outside the thing it was marking.
             g.append(R(cx - bw / 2 - 15, y1 - bh - 32, bw + 30, bh + 34,
                        'none', RED, 2.4, 14))
-    g.append(TFIT(28, h - 46 - (26 if note else 0), question, 18, W - 56,
+    g.append(TFIT(28, h - 46 - noteh(note), question, 18, W - 56,
                   INDIGO_D, bold=True, anchor='start'))
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -198,7 +218,7 @@ def field(centre, branches, sub='', note=''):
     n = len(branches)
     deep = max(len(ws) for _, ws in branches)
     colw = (W - 56 - (n - 1) * 14) / float(n)
-    h = 54 + 96 + 44 + deep * 30 + 24 + (26 if note else 0)
+    h = 54 + 96 + 44 + deep * 30 + 24 + noteh(note)
     g = [R(0, 0, W, h, PAPER, TEAL, 2, 12)]
     y = _head(g, 'Word field', sub or centre, TEAL)
     cy = y + 46
@@ -220,7 +240,7 @@ def field(centre, branches, sub='', note=''):
             g.append(C(x + 12, wy - 5, 3, col))
             g.append(TFIT(x + 24, wy, wd, 16, colw - 34, INK, anchor='start'))
             wy += 30
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -250,7 +270,7 @@ def family(rows, sub='', note='', cols=FAMILY_COLS):
     """
     colw = (W - 48) / float(len(cols))
     rowh = 44
-    h = 54 + 40 + rowh * len(rows) + 22 + (26 if note else 0)
+    h = 54 + 40 + rowh * len(rows) + 22 + noteh(note)
     g = [R(0, 0, W, h, PAPER, PLUM, 2, 12)]
     y = _head(g, 'Word family', sub or 'the dot marks the stress', PLUM)
     hy = y + 32
@@ -280,7 +300,7 @@ def family(rows, sub='', note='', cols=FAMILY_COLS):
                            ry + rowh / 2 - 13, 3.2, PLUM))
         ry += rowh
     g.append(L(24, ry, W - 24, ry, RULE, 1.2))
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -295,7 +315,7 @@ def cline(title, left, right, items, sub='', note=''):
     cline is the only honest way to draw that, and labels alternate above
     and below the axis so none of them collides.
     """
-    h = 232 + (26 if note else 0)
+    h = 232 + noteh(note)
     g = [R(0, 0, W, h, PAPER, BLUE, 2, 12)]
     y = _head(g, title, sub, BLUE)
     ax = y + 92
@@ -319,7 +339,7 @@ def cline(title, left, right, items, sub='', note=''):
                    BLUE, 1.2, 6))
         g.append(TFIT(x, ty if up else ty + 2, lab, 16, wd - 12, INK,
                       anchor='middle'))
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -336,7 +356,7 @@ def collocation(node, groups, sub='', note=''):
     n = len(groups)
     colw = (W - 56 - (n - 1) * 16) / float(n)
     deep = max(len(ws) for _, ws in groups)
-    h = 54 + 92 + 40 + deep * 28 + 22 + (26 if note else 0)
+    h = 54 + 92 + 40 + deep * 28 + 22 + noteh(note)
     g = [R(0, 0, W, h, PAPER, GREEN, 2, 12)]
     y = _head(g, 'Words that go together', sub or node, GREEN)
     cy = y + 44
@@ -356,7 +376,7 @@ def collocation(node, groups, sub='', note=''):
         for wd in words:
             g.append(TFIT(x + 10, wy, wd, 16, colw - 20, INK, anchor='start'))
             wy += 28
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -380,7 +400,7 @@ def skeleton(title, paras, sub='', note=''):
     factor 60 found that neither series draws one.
     """
     rowh = 46
-    h = 54 + 34 + rowh * len(paras) + 20 + (26 if note else 0)
+    h = 54 + 34 + rowh * len(paras) + 20 + noteh(note)
     g = [R(0, 0, W, h, PAPER, INDIGO, 2, 12)]
     y = _head(g, title or 'What each paragraph does', sub, INDIGO)
     g.append(TFIT(84, y + 24, 'DOES', 12, 150, GREY, bold=True, anchor='start'))
@@ -398,7 +418,7 @@ def skeleton(title, paras, sub='', note=''):
         g.append(TFIT(286, ry + rowh / 2 + 6, gist, 17, W - 316, INK,
                       anchor='start'))
         ry += rowh
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -420,7 +440,7 @@ def bridge(pairs, sub='', note='', left='THE QUESTION SAYS',
     Naming the move is what turns a lucky match into a procedure.
     """
     rowh = 54
-    h = 54 + 36 + rowh * len(pairs) + 20 + (26 if note else 0)
+    h = 54 + 36 + rowh * len(pairs) + 20 + noteh(note)
     g = [R(0, 0, W, h, PAPER, PLUM, 2, 12)]
     y = _head(g, 'Paraphrase bridge', sub, PLUM)
     cw = 330
@@ -444,7 +464,7 @@ def bridge(pairs, sub='', note='', left='THE QUESTION SAYS',
         g.append(TFIT((mx0 + mx1) / 2, my + 20, move, 12,
                       mx1 - mx0 - 4, col, bold=True, anchor='middle'))
         ry += rowh
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -460,7 +480,7 @@ def signpost(markers, sub='', note='', title='Where the text turns'):
     """
     n = len(markers)
     colw = (W - 56 - (n - 1) * 10) / float(n)
-    h = 54 + 128 + (26 if note else 0)
+    h = 54 + 128 + noteh(note)
     g = [R(0, 0, W, h, PAPER, AMBER, 2, 12)]
     y = _head(g, title, sub, AMBER)
     track = y + 48
@@ -473,7 +493,7 @@ def signpost(markers, sub='', note='', title='Where the text turns'):
                       bold=True, anchor='middle'))
         _block(g, x + colw / 2, track + 26, means, 14, colw - 6, 17,
                GREY, 3, anchor='middle')
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -490,7 +510,7 @@ def anatomy(qtype, stem, options, answer, why, trap, sub='', note=''):
     untaught.
     """
     rowh = 40
-    h = (54 + 74 + rowh * len(options) + 124 + (26 if note else 0))
+    h = (54 + 74 + rowh * len(options) + 124 + noteh(note))
     g = [R(0, 0, W, h, PAPER, RED, 2, 12)]
     y = _head(g, 'Question anatomy · %s' % qtype, sub, RED)
     g.append(R(28, y + 16, W - 56, 44, SOFT, PERI, 1.2, 8))
@@ -531,7 +551,7 @@ def anatomy(qtype, stem, options, answer, why, trap, sub='', note=''):
     g.append(TFIT(W - 12 - pw, ry + 22, 'WHY THE TRAP WORKS', 11,
                   200, RED, bold=True, anchor='start'))
     _block(g, W - 12 - pw, ry + 44, twhat, 14, pw - 32, 18, INK, 3)
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -547,7 +567,7 @@ def decide(title, nodes, sub='', note=''):
     they are answering. Three tests in a fixed order settles it.
     """
     nodeh, gap = 86, 26
-    h = 54 + 24 + len(nodes) * (nodeh + gap) + 18 + (26 if note else 0)
+    h = 54 + 24 + len(nodes) * (nodeh + gap) + 18 + noteh(note)
     g = [R(0, 0, W, h, PAPER, TEAL, 2, 12)]
     y = _head(g, title, sub, TEAL)
     ry = y + 24
@@ -575,7 +595,7 @@ def decide(title, nodes, sub='', note=''):
                        % (52, ry + nodeh + gap, 46, ry + nodeh + gap - 8,
                           58, ry + nodeh + gap - 8), GREY_L))
         ry += nodeh + gap
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -594,7 +614,7 @@ def listenmap(title, speakers, turns, sub='', note=''):
     laneh = 54
     n = len(turns)
     colw = (W - 180 - 20) / float(max(n, 1))
-    h = 54 + 28 + lanes * laneh + 44 + (26 if note else 0)
+    h = 54 + 28 + lanes * laneh + 44 + noteh(note)
     g = [R(0, 0, W, h, PAPER, AMBER, 2, 12)]
     y = _head(g, title, sub, AMBER)
     top = y + 28
@@ -616,7 +636,7 @@ def listenmap(title, speakers, turns, sub='', note=''):
             g.append(TFIT(x + (colw - 8) / 2, top + lanes * laneh + 16,
                           '↑ answer', 12, colw, GREEN, bold=True,
                           anchor='middle'))
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -632,7 +652,7 @@ def taskread(prompt, parts, misreadings, sub='', note=''):
     """
     rowh = 62
     h = (54 + 70 + rowh * len(parts) + 30 + 26 * len(misreadings) + 24
-         + (26 if note else 0))
+         + noteh(note))
     g = [R(0, 0, W, h, PAPER, PLUM, 2, 12)]
     y = _head(g, 'Read the task before you answer it', sub, PLUM)
     g.append(R(28, y + 14, W - 56, 48, SOFT, PERI, 1.2, 8))
@@ -655,7 +675,7 @@ def taskread(prompt, parts, misreadings, sub='', note=''):
         g.append(C(38, ry + 8, 3.5, RED))
         g.append(TFIT(52, ry + 13, m, 15, W - 86, GREY, anchor='start'))
         ry += 26
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -671,7 +691,7 @@ def langbank(title, groups, sub='', note=''):
     n = len(groups)
     colw = (W - 56 - (n - 1) * 14) / float(n)
     deep = max(len(ph) for _, ph, _ in groups)
-    h = 54 + 30 + 32 + deep * 26 + 64 + (26 if note else 0)
+    h = 54 + 30 + 32 + deep * 26 + 64 + noteh(note)
     g = [R(0, 0, W, h, PAPER, TEAL, 2, 12)]
     y = _head(g, title, sub, TEAL)
     top = y + 24
@@ -688,7 +708,7 @@ def langbank(title, groups, sub='', note=''):
         g.append(R(x, top + 30 + 14 + deep * 26, colw, 54, SOFT, col, 1.2, 8))
         _block(g, x + 10, top + 30 + 34 + deep * 26, worked, 13,
                colw - 20, 16, GREY, 2, italic=True)
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -703,7 +723,7 @@ def ladder(criterion, rungs, sub='', note=''):
     sentence at 5.5, 6.5 and 7.5, with the move named between them, is.
     """
     rowh = 94
-    h = 54 + 24 + rowh * len(rungs) + 20 + (26 if note else 0)
+    h = 54 + 24 + rowh * len(rungs) + 20 + noteh(note)
     g = [R(0, 0, W, h, PAPER, BLUE, 2, 12)]
     y = _head(g, 'Band ladder · %s' % criterion, sub, BLUE)
     ry = y + 24
@@ -721,7 +741,7 @@ def ladder(criterion, rungs, sub='', note=''):
         if move:
             g.append(TFIT(148, top + rowh - 18, '↑ ' + move, 13, W - 192,
                           BLUE, bold=True, anchor='start'))
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -737,7 +757,7 @@ def matrix(title, cols, rows, cells, sub='', note=''):
     labw = 190
     colw = (W - 56 - labw) / float(len(cols))
     rowh = 64
-    h = 54 + 30 + 34 + rowh * len(rows) + 20 + (26 if note else 0)
+    h = 54 + 30 + 34 + rowh * len(rows) + 20 + noteh(note)
     g = [R(0, 0, W, h, PAPER, INDIGO, 2, 12)]
     y = _head(g, title, sub, INDIGO)
     hy = y + 24
@@ -766,7 +786,7 @@ def matrix(title, cols, rows, cells, sub='', note=''):
                 g.append(L(x + 16, ry + rowh / 2 + 4, x + colw - 20,
                            ry + rowh / 2 + 4, GREY_L, 1.2))
         ry += rowh
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -783,7 +803,7 @@ def unitmap(n, theme, rows, note=''):
     assumed.
     """
     rowh = 52
-    h = 112 + 30 + rowh * len(rows) + 20 + (26 if note else 0)
+    h = 112 + 30 + rowh * len(rows) + 20 + noteh(note)
     g = [R(0, 0, W, h, PAPER, INDIGO, 2, 12)]
     g.append(R(0, 0, W, 104, INDIGO, rx=12))
     g.append(R(0, 90, W, 14, INDIGO))
@@ -809,7 +829,7 @@ def unitmap(n, theme, rows, note=''):
         _block(g, 392, ry + rowh / 2 - 2, skill, 14, 250, 17, GREY, 2)
         _block(g, 656, ry + rowh / 2 - 2, tasks, 13, 216, 16, INDIGO, 2)
         ry += rowh
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -826,7 +846,7 @@ def clock(title, segments, speed='', note=''):
     import math
     total = float(sum(m for _, m, _ in segments)) or 1.0
     cx, cy, rad = 190, 196, 118
-    h = 54 + 300 + (26 if note else 0)
+    h = 54 + 300 + noteh(note)
     g = [R(0, 0, W, h, PAPER, TEAL, 2, 12)]
     _head(g, title, speed, TEAL)
     g.append(C(cx, cy, rad + 10, SOFT))
@@ -856,7 +876,7 @@ def clock(title, segments, speed='', note=''):
                       bold=True, anchor='start'))
         g.append(TFIT(380, ly + 22, nt, 14, 490, GREY, anchor='start'))
         ly += 48
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -872,7 +892,7 @@ def tracker(title, rows, cols, sub='', note=''):
     labw = 300
     colw = (W - 56 - labw - 120) / float(len(cols))
     rowh = 46
-    h = 54 + 30 + 36 + rowh * len(rows) + 20 + (26 if note else 0)
+    h = 54 + 30 + 36 + rowh * len(rows) + 20 + noteh(note)
     g = [R(0, 0, W, h, PAPER, GREEN, 2, 12)]
     y = _head(g, title, sub or 'tick · half-tick · cross, and the date',
               GREEN)
@@ -904,7 +924,7 @@ def tracker(title, rows, cols, sub='', note=''):
         g.append(L(W - 138, ry + rowh - 10, W - 34, ry + rowh - 10,
                    GREY_L, 1.2))
         ry += rowh
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)
 
 
@@ -918,7 +938,7 @@ def timeline(title, events, sub='', note=''):
     Part 2 answer, which learners get wrong because they have never seen
     the order drawn.
     """
-    h = 54 + 258 + (34 if note else 0)
+    h = 54 + 258 + noteh(note)
     g = [R(0, 0, W, h, PAPER, AMBER, 2, 12)]
     y = _head(g, title, sub, AMBER)
     ax = y + 128
@@ -938,5 +958,5 @@ def timeline(title, events, sub='', note=''):
                       bold=True, anchor='middle'))
         _block(g, bx + bw2 / 2, ty + 38, what, 12, bw2 - 16, 15, INK, 2,
                anchor='middle')
-    _note(g, h - 18, note)
+    _note(g, h - noteh(note) + 14, note)
     return render(''.join(g), W, h, PAPER)

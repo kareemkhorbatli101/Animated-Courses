@@ -1,0 +1,13 @@
+{
+ "note": "Phase 19 - Unit 21 rebuilt completely, as the pilot's pilot, and nothing else in the series touched. The unit now runs the eleven beats in the order the plan fixes: lead-in, preview input, vocabulary work, Skills builder, exam task, exam-advice box, debrief, outside-the-exam line, rebuilt grammar, productive slot, word list with its recycling marked. Five preview inputs are added - a short reading in cycles 1, 3 and 5 and a short recording in 2 and 4 - each with three questions of its own, numbered P1-P3 in their own series and excluded from the question-type census, because a warm-up met before the exam-length text is not exam practice and counting it would let the book claim coverage it has not given. Every existing item, passage, script, model, speaking prompt and grammar explanation in unit 21 is byte-identical: this phase ADDS and changes nothing, which is why the declaration below names only additions. The three gates written failing in phase 17 are bound to unit 21 alone (BINDING_UNITS) and all three now pass for it, while the other eleven units of the book and the other seven books stay open. Teaching prose in the five cycles measures 35.0 to 36.3 per cent against the 15.1 per cent the audit found, and against a 35 per cent floor. freeze.py now addresses a preview as PR0 or PL0 in its own series so that inserting one does not renumber the exam blocks under it, and it records the new teaching prose - the lead-in, the Skills builder, the teacher's notes, the debrief, the advice box and the rebuilt grammar fields - so that none of it can be rewritten in a later phase without a declaration.",
+ "items": [],
+ "item_fields": [],
+ "texts": [],
+ "new_items": true,
+ "new_texts": ["u21"],
+ "prose": [],
+ "new_prose": ["u21"],
+ "heads": false,
+ "measure": {},
+ "figures": {"3": 24}
+}

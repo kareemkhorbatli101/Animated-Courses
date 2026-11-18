@@ -22,7 +22,13 @@ BANDS_BY_VOL = {
     # except the two productive bands, which cannot: a model has to satisfy
     # the rubric at any band, so Task 1 still starts at 155 words and Task 2
     # at 255, above the floor the instructions demand.
-    1: {'gt_short': (110, 185), 'gt_work': (175, 250), 'long': (290, 390),
+    # 'pre' and 'lpre' are the preview input the rebuild adds: a short
+    # text or recording on the same sub-topic, met BEFORE the exam-length
+    # one, so that the long input is not the first time a learner meets
+    # either the idea or the words. A preview is not exam practice and
+    # the question-type census in gate10 excludes it.
+    1: {'pre': (120, 190), 'lpre': (110, 180),
+        'gt_short': (110, 185), 'gt_work': (175, 250), 'long': (290, 390),
         'acad': (400, 510), 'l1': (170, 245), 'l2': (180, 255),
         'l3': (210, 295), 'l4': (255, 345), 'model': (155, 255),
         'essay': (255, 330),
@@ -39,23 +45,28 @@ BANDS_BY_VOL = {
     # exception: a model answer has to satisfy the rubric whatever the
     # band on the cover, so Task 1 starts at 155 words and Task 2 at 255,
     # both above the floor the instructions demand.
-    2: {'gt_short': (130, 205), 'gt_work': (205, 290), 'long': (340, 450),
+    2: {'pre': (140, 220), 'lpre': (130, 200),
+        'gt_short': (130, 205), 'gt_work': (205, 290), 'long': (340, 450),
         'acad': (450, 580), 'l1': (200, 275), 'l2': (210, 285),
         'l3': (250, 330), 'l4': (300, 400), 'model': (155, 260),
         'essay': (255, 340), 'stamina': (660, 790)},
-    3: {'gt_short': (150, 240), 'gt_work': (250, 340), 'long': (420, 560),
+    3: {'pre': (170, 260), 'lpre': (150, 230),
+        'gt_short': (150, 240), 'gt_work': (250, 340), 'long': (420, 560),
         'acad': (600, 760), 'l1': (240, 320), 'l2': (250, 330),
         'l3': (300, 380), 'l4': (350, 430), 'model': (140, 300),
         'essay': (240, 390)},
-    4: {'gt_short': (180, 260), 'gt_work': (280, 380), 'long': (480, 640),
+    4: {'pre': (190, 280), 'lpre': (170, 250),
+        'gt_short': (180, 260), 'gt_work': (280, 380), 'long': (480, 640),
         'acad': (620, 800), 'l1': (260, 340), 'l2': (280, 360),
         'l3': (330, 400), 'l4': (380, 460), 'model': (150, 320),
         'essay': (260, 430)},
-    5: {'gt_short': (190, 285), 'gt_work': (300, 400), 'long': (520, 700),
+    5: {'pre': (210, 310), 'lpre': (180, 270),
+        'gt_short': (190, 285), 'gt_work': (300, 400), 'long': (520, 700),
         'acad': (780, 960), 'l1': (280, 360), 'l2': (300, 390),
         'l3': (350, 430), 'l4': (400, 490), 'model': (160, 340),
         'essay': (280, 470)},
-    6: {'gt_short': (200, 300), 'gt_work': (320, 430), 'long': (560, 760),
+    6: {'pre': (230, 330), 'lpre': (190, 290),
+        'gt_short': (200, 300), 'gt_work': (320, 430), 'long': (560, 760),
         'acad': (860, 1000), 'l1': (290, 380), 'l2': (290, 400),
         'l3': (360, 450), 'l4': (400, 510), 'model': (170, 360),
         'essay': (300, 500)},
@@ -73,11 +84,13 @@ BANDS_BY_VOL = {
     # sit the paper and Foundation 1 says so on its own cover. Asking an
     # A1 writer for 150 words teaches padding, which is the one habit the
     # graded books then have to undo.
-    7: {'gt_short': (55, 100), 'gt_work': (70, 125), 'long': (110, 175),
+    7: {'pre': (55, 110), 'lpre': (50, 100),
+        'gt_short': (55, 100), 'gt_work': (70, 125), 'long': (110, 175),
         'acad': (170, 250), 'l1': (115, 165), 'l2': (125, 180),
         'l3': (135, 195), 'l4': (145, 205), 'model': (80, 150),
         'essay': (130, 210)},
-    8: {'gt_short': (90, 150), 'gt_work': (120, 195), 'long': (180, 265),
+    8: {'pre': (80, 150), 'lpre': (75, 140),
+        'gt_short': (90, 150), 'gt_work': (120, 195), 'long': (180, 265),
         'acad': (250, 355), 'l1': (155, 225), 'l2': (170, 240),
         'l3': (185, 255), 'l4': (195, 270), 'model': (110, 200),
         'essay': (185, 285)},
@@ -612,6 +625,26 @@ def check_numbering(U, out):
     n = 1
     for ci, c in enumerate(U['cycles'], 1):
         for blk in list(c['read']) + list(c['listen']):
+            # A preview input is met before the exam task and is not part
+            # of the exam set, so it carries its own P1-Pn numbering and
+            # consumes none of the unit's running count. Numbering it with
+            # the exam questions would renumber every heading in the unit
+            # for the sake of three warm-up gaps.
+            if blk.get('preview'):
+                pm = re.match(r'Questions P(\d+)-P(\d+)$',
+                              blk.get('qtype', ''))
+                k = len(blk['items'])
+                if not pm:
+                    out.append('%s c%d "%s": a preview is numbered '
+                               '"Questions P1-P%d", not %r'
+                               % (tag, ci, blk['heading'][:24], k,
+                                  blk.get('qtype')))
+                elif (int(pm.group(1)), int(pm.group(2))) != (1, k):
+                    out.append('%s c%d "%s": preview heading says P%s-P%s, '
+                               'prints P1-P%d'
+                               % (tag, ci, blk['heading'][:24],
+                                  pm.group(1), pm.group(2), k))
+                continue
             m = re.match(r'Questions (\d+)-(\d+)$', blk.get('qtype', ''))
             if not m:
                 out.append('%s c%d "%s": qtype %r is not "Questions a-b"'

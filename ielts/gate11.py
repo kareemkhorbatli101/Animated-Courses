@@ -48,6 +48,11 @@ PREVIEW = 'preview'
 # opted in. Volume 3 joins at phase 26, Volume 4 at 31, and so on, each one
 # as its rebuild lands.
 BINDING = set()
+# Phase 19 builds ONE unit completely before the other ninety-five
+# copy it, so the gate has to be bindable at unit granularity too.
+# A unit in BINDING_UNITS fails the build on its own account even
+# while its book is still open.
+BINDING_UNITS = {21}
 
 
 def load(n):
@@ -65,19 +70,20 @@ def cycle_words(c):
     return PED.wc([c.get(k) for k in
                    ('sub', 'read', 'listen', 'speak', 'write', 'gram',
                     'vocab', 'expr', 'trans', 'lead', 'advice', 'outside',
-                    'builder', 'notes')])
+                    'builder', 'notes', 'debrief', 'vocabwork')])
 
 
 def teach_words(c):
     """The words that teach rather than test."""
     out = 0
-    for k in ('lead', 'advice', 'outside', 'builder'):
+    for k in ('lead', 'advice', 'outside', 'builder', 'vocabwork'):
         out += PED.wc(c.get(k))
     g = c.get('gram') or {}
     out += PED.wc([g.get('explain'), g.get('context'), g.get('notice'),
                    g.get('examples')])
+    out += PED.wc(c.get('debrief'))
     for b in (c.get('read') or []) + (c.get('listen') or []):
-        out += PED.wc([b.get('skillbox'), b.get('debrief')])
+        out += PED.wc([b.get('skill'), b.get('why')])
     for w in (c.get('write') or []):
         out += PED.wc([w.get('notes'), w.get('plan'), w.get('instruct')])
     return out
@@ -199,7 +205,10 @@ def report(only=None, detail=False):
             if m is None:
                 continue
             cycles += len(m.UNIT['cycles'])
-            fails += audit_unit(m.UNIT)
+            mine = audit_unit(m.UNIT)
+            fails += mine
+            if n in BINDING_UNITS:
+                binding += mine
         print('%-14s %2d cycles  %4d failure(s)' % (name, cycles, len(fails)))
         for f in (fails if detail else fails[:4]):
             print('     ' + f)
@@ -217,8 +226,10 @@ def main(argv):
     if binding:
         state = 'FAIL - %d in %s' % (len(binding), sorted(BINDING))
     elif bad:
-        state = ('OPEN - %d item(s); binding for %s'
-                 % (len(bad), sorted(BINDING) or 'no book yet'))
+        bound = (['book %d' % v for v in sorted(BINDING)]
+                 + ['unit %d' % n for n in sorted(BINDING_UNITS)])
+        state = ('OPEN - %d item(s); green and binding for %s'
+                 % (len(bad), ', '.join(bound) or 'nothing yet'))
     else:
         state = 'PASS'
     print('\nGATE 11 (teach before you test, and say why): %s' % state)

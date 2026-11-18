@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """Unit 21 - Education: Access and Outcomes. IELTS Volume 3, band 6.0."""
 
-_EARN = dict(kind='bar', title='Median earnings five years after graduating',
+_EARN = dict(kind='bar', teaches='data',
+             title='Median earnings five years after graduating',
              sub='by subject group, thousands a year', ylab='£000s',
              cats=['Medicine', 'Economics', 'Engineering', 'Law',
                    'Humanities', 'Creative arts'],
@@ -18,11 +19,316 @@ UNIT = dict(
    'a degree is worth, which turns out to depend on what you compare it '
    'with.'),
 
+ field='education',
+ unitmap=dict(kind='unitmap', teaches='navigation', n=21,
+              theme='Education: Access and Outcomes',
+              rows=[
+               ('Applying to university',
+                'Multiple choice: read the option as a claim',
+                'Multiple choice · sentence completion · note '
+                'completion · Part 1'),
+               ('Who gets in',
+                'Yes/No/Not Given: three tests, in a fixed order',
+                'Matching features · Yes/No/Not Given · Part 3'),
+               ('What a degree is worth',
+                'Task 1: choose three comparisons, not twelve numbers',
+                'Matching information · True/False/Not Given · Task 1 '
+                'Academic'),
+               ('Why the gap opens early',
+                'Matching headings: what a paragraph does',
+                'Matching headings · Yes/No/Not Given · Part 4'),
+               ('Whether spending can close it',
+                'Task 2: read the question as four obligations',
+                'Matching information · Task 2 discuss both views · '
+                'Part 3')],
+              note='Cycles 1, 3 and 5 build reading and open with a '
+                   'reading preview; 2 and 4 build listening and open '
+                   'with a listening one. The writing load sits in 3 '
+                   'and 5, by which point the language to carry it has '
+                   'been met twice.'),
+ sceneintro='Eight things from an admissions office, and the words for '
+            'them. Every one of these words is used in cycle 1, and six '
+            'of them come back in cycle 2. Two minutes here will save '
+            'you ten on the page after next, which is the only honest '
+            'argument for any vocabulary exercise.',
+ scene=dict(kind='scene', teaches='activate',
+            title='Unit 21 · in the admissions office',
+            instr='Write the number of each thing beside its word. Two '
+                  'words in the bank are not in the picture at all.',
+            cells=[('book', 'prospectus'),
+                   ('laptop', 'application portal'),
+                   ('envelope', 'offer letter'),
+                   ('clock', 'deadline'),
+                   ('cap', 'open day'),
+                   ('coin', 'tuition fee'),
+                   ('people', 'admissions tutor'),
+                   ('chart', 'entry profile')],
+            bank=['prospectus', 'deadline', 'offer letter', 'tuition fee',
+                  'open day', 'entry profile', 'admissions tutor',
+                  'application portal', 'bursary', 'transcript'],
+            answers=['prospectus', 'application portal', 'offer letter',
+                     'deadline', 'open day', 'tuition fee',
+                     'admissions tutor', 'entry profile'],
+            note='Answers: 1 prospectus · 2 application portal · '
+                 '3 offer letter · 4 deadline · 5 open day · '
+                 '6 tuition fee · 7 admissions tutor · 8 entry profile. '
+                 'Not in the picture: bursary, transcript.'),
+ puzzle=dict(kind='puzzle', teaches='curiosity',
+             title='One of these is not what you would expect',
+             question='Which group is most likely to turn down an offer '
+                      'it has already accepted - and why might that be?',
+             bars=[('Medicine', 4), ('Law', 7), ('Engineering', 9),
+                   ('Humanities', 11), ('Creative arts', 26),
+                   ('Education', 8)],
+             mark=4, ylab='% of accepted offers later declined',
+             note='The passage in cycle 3 answers this one. Write your '
+                  'guess in the margin now and check it then; a guess '
+                  'you have committed to is read very differently from '
+                  'a question you have been handed.'),
  cycles=[
   dict(
    sub='Applying to university',
    step=1,
+   notes=dict(
+    serves='Multiple choice and sentence completion, Reading Parts 1-3; '
+           'note completion in Listening Part 1',
+    because='Band 6 readers choose the multiple-choice option that shares '
+            'a word with the passage rather than the one that answers the '
+            'question, and nothing in this book had ever shown them the '
+            'difference',
+    skill='Reading an option as a claim, then finding the one sentence '
+          'that settles it',
+    evidence='Audit: 113 of the 124 inputs in this volume were set with no '
+             'preparation at all. This cycle prepares both of its own',
+    watch='Learners will choose the option carrying the word deadline, '
+          'because the passage says deadline. Expect it, and ask what the '
+          'option actually claims',
+    time='75 minutes, or 55 without the free grammar production'),
+   lead=dict(
+    title='What an offer actually is',
+    body='An offer from a university is not a yes. It is a conditional '
+         'promise: a short list of things that must be true by August for '
+         'the place to exist at all. Everything in this cycle turns on '
+         'that one word, conditional - the page you are about to read, '
+         'the telephone call you are about to hear, and the letter you '
+         'are about to write. Before you read anyone else’s conditions, '
+         'say what yours were.',
+    task='Answer these from your own experience. Three or four sentences '
+         'each is enough, and there are no right answers.',
+    qs=['What did you have to do, or prove, to get onto the course you '
+        'are on now?',
+        'Who decided, and did you ever find out how the decision was '
+        'made?',
+        'Is it fair to ask the same grades of everyone, whatever school '
+        'they went to?',
+        'What is the one thing you would want to know before applying '
+        'anywhere?']),
+   vocabwork=dict(
+    title='The words an admissions page is made of',
+    body='Sixteen words, in four groups. Every one of them is in the page '
+         'on the next spread, and nine of them come back in unit 23 when '
+         'the subject is public health rather than education, because '
+         'this is the language of any institution deciding who is '
+         'eligible for something.',
+    figure=dict(kind='field', teaches='vocabulary', centre='admission',
+                sub='cycle 1 · sixteen words you are about to need',
+                branches=[
+                 ('getting in', ['offer', 'place', 'entry requirement',
+                                 'conditional']),
+                 ('paying for it', ['tuition fee', 'bursary',
+                                    'means-tested', 'waive']),
+                 ('who decides', ['admissions tutor', 'criteria',
+                                  'discretion', 'appeal']),
+                 ('what you send', ['transcript', 'reference',
+                                    'personal statement',
+                                    'predicted grade'])],
+                note='Cover the four groups and say which one each word '
+                     'belongs to. A word you can place is a word you have '
+                     'half learned.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 1 · the dot marks the stress',
+                 rows=[(('ap-ply', 2), ('ap-pli-ca-tion', 2),
+                        ('ap-pli-cant', 1), '', ''),
+                       (('ad-mit', 2), ('ad-mis-sion', 2), '',
+                        ('ad-mis-si-ble', 2), ''),
+                       (('qua-li-fy', 1), ('qua-li-fi-ca-tion', 4), '',
+                        ('qua-li-fied', 1), ''),
+                       ('', ('e-li-gi-bi-li-ty', 4), '',
+                        ('e-li-gi-ble', 1), ''),
+                       (('as-sess', 2), ('as-sess-ment', 2),
+                        ('as-ses-sor', 2), '', '')],
+                 note='A Reading gap will ask for one of the nouns where '
+                      'the passage used the verb. That is the whole '
+                      'reason this table is here, and the stress mark is '
+                      'the reason you will be understood when you say '
+                      'the word out loud.'),
+    task='Complete each sentence with one word from the field map or the '
+         'family table. Change the form where you have to.',
+    items=[
+     ('An offer that can be lowered for some applicants is called a '
+      '____________ offer.', None, 'contextual'),
+     ('The people who read and score an application are ____________.',
+      None, 'assessors'),
+     ('To be eligible is to meet the ____________ the university has set.',
+      None, 'criteria'),
+     ('If a fee is ____________, the university has agreed not to charge '
+      'it.', None, 'waived'),
+     ('The document listing the modules you have passed is a '
+      '____________.', None, 'transcript'),
+     ('A grade your teacher expects you to get is a ____________ grade.',
+      None, 'predicted'),
+     ('Support worked out from household income is ____________.',
+      None, 'means-tested'),
+     ('The noun from qualify is ____________.', None, 'qualification')]),
+   builder=dict(
+    skill='Multiple choice: read the option as a claim',
+    qkind='skill',
+    explain='A multiple-choice option is not a topic. It is a claim, and '
+            'exactly one of the four claims is true of this passage. The '
+            'habit that loses marks at band 6 is matching: you see the '
+            'word deadline in option C and the word deadline in the '
+            'passage, and you choose C without ever asking what C says. '
+            'The habit that gains them is this. Read the option. Turn it '
+            'into a sentence beginning The passage says that. Then go '
+            'looking for the one sentence that would make it true, and '
+            'read that sentence to its end. If you cannot find such a '
+            'sentence, the option is wrong however many of its words you '
+            'have just seen. Shared words are evidence of nothing: the '
+            'wrong options are built out of them on purpose, because a '
+            'test that could be passed by matching would measure typing '
+            'speed.',
+    worked=[
+     'The passage says: “An offer is only withdrawn where the shortfall '
+     'is substantial or where a required subject has not been passed.”',
+     'Option A: offers are withdrawn when a student misses a grade. '
+     'As a claim: the passage says that any missed grade loses the '
+     'place. The sentence says the opposite - only a substantial '
+     'shortfall does. A is wrong, and it is wrong even though it shares '
+     'the words offer, withdrawn and grade.',
+     'Option B: a near miss is usually accepted. As a claim: the passage '
+     'says that most students who narrowly miss are still taken. The '
+     'sentence before it says exactly that, in the words “we confirm a '
+     'majority of near misses”. B is right, and it shares almost no '
+     'vocabulary with the passage at all.'],
+    task='Each line below gives a sentence from a text and an option. '
+         'Write YES if the sentence makes the option true, and NO if it '
+         'does not. Say in four words why.',
+    items=[
+     ('TEXT: Interviews are held only for courses with a professional '
+      'registration requirement.  OPTION: all applicants are '
+      'interviewed.', None, 'no'),
+     ('TEXT: Decisions are released on a single date for all applicants.  '
+      'OPTION: applying early brings an earlier answer.', None, 'no'),
+     ('TEXT: About one application in nine goes to a third reader.  '
+      'OPTION: a minority of applications are read three times.',
+      None, 'yes'),
+     ('TEXT: A contextual offer is made automatically.  OPTION: students '
+      'must ask for a contextual offer.', None, 'no'),
+     ('TEXT: We also accept the International Baccalaureate at 30 points.  '
+      'OPTION: more than one qualification is accepted.', None, 'yes'),
+     ('TEXT: The data comes from your application and from your school.  '
+      'OPTION: the university gathers the information itself.',
+      None, 'yes')],
+    note='Four of the six are built from shared words and three of those '
+         'four are false. That ratio is not an accident; it is how the '
+         'paper is written.'),
+   figures=[
+    dict(kind='anatomy', teaches='question-anatomy',
+         qtype='Multiple choice', sub='cycle 1, question 2',
+         stem='According to the page, a near miss is usually',
+         options=['dealt with by a deadline',
+                  'considered and often accepted',
+                  'referred to a third assessor',
+                  'automatically rejected'],
+         answer=1,
+         why='“In practice we confirm a majority of near misses.” A '
+             'majority is usually, and confirm is accept.',
+         trap=(0, 'The page uses the word deadline twice and this option '
+                  'reuses it. It is the only option that shares a word '
+                  'with the paragraph, and it says nothing about what '
+                  'happens to a near miss.'),
+         note='Cover the two panels, choose, and then check whether you '
+              'chose from a shared word or from a sentence.'),
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 1 · what the questions will have done to the page',
+         pairs=[('turned down a place', 'declined an offer', 'synonym'),
+                ('decide who gets in', 'the admissions decision',
+                 'nominalisation'),
+                ('the university lowered it',
+                 'the requirement was lowered', 'voice'),
+                ('most people who just miss out',
+                 'a majority of near misses', 'reformulation'),
+                ('is not unusual', 'is common', 'negation'),
+                ('bursaries and fee waivers', 'financial support',
+                 'hypernym')],
+         note='Cover the right-hand column. Say what the page is likely '
+              'to have written instead, and name the move. Then read the '
+              'page and see how close you were.')],
+   advice='The examiner is not testing whether you noticed a word. Every '
+          'wrong option in Reading Part 1 is built from words that are in '
+          'the passage, and that is deliberate. Answer from a sentence '
+          'you can point at, not from a word you recognise. If you cannot '
+          'point at the sentence, you have not answered yet.',
+   debrief=dict(
+    read=['Option A in question 2 carries the word deadline, and so does '
+          'the paragraph. It is the only option that does. Notice that it '
+          'makes no claim at all about what happens to a near miss.',
+     'Question 4 tempts you with “automatically”, which is in the page - '
+     'but it is the contextual offer that is automatic, not the decision.',
+     'In question 5 two options are true of the page and only one answers '
+     'the question asked. Read the stem again before you choose.'],
+    listen=['The caller gives a date and then corrects it. The first date '
+            'is always the wrong answer, and you will hear the correction '
+            'coming: it begins “sorry, no”.',
+     'Question 12 asks for the subject, not the grade. Both are said, in '
+     'that order, and the grade is louder.']),
+   outside='Every institution that decides who is eligible for something '
+           'writes in this language - a clinic, a council, an insurer, a '
+           'visa office. Reading a condition as a question rather than as '
+           'a wall is a skill you will use long after this exam.',
+   recycled=['offer', 'criteria', 'eligible', 'assessor', 'application'],
    read=[
+    dict(preview=True,
+         heading='Three words on every offer letter',
+         kind='Glossary box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='Two hundred words before seven hundred. Meet the three words '
+             'the long page is built out of, and the long page stops being '
+             'about vocabulary and starts being about reading.',
+         paras=[
+          'An offer is conditional when the university has said yes to '
+          'something that has not happened yet. Almost every offer made to '
+          'a school-leaver is conditional, because it is made in January '
+          'and the results arrive in August. The conditions are the grades, '
+          'and sometimes a particular subject.',
+          'An offer is unconditional when nothing is left to prove. A '
+          'student who already holds their results, or who is transferring '
+          'from another course, may be given one. Unconditional offers are '
+          'a small minority and some universities make none at all.',
+          'A contextual offer is a conditional offer set lower than the '
+          'standard one, because of something the university knows about '
+          'the applicant that is not an exam grade: the school they '
+          'attended, the area they live in, time spent in care. It is '
+          'still conditional. It is simply conditional on less.',
+          'The three words are often confused, and the confusion is '
+          'expensive. A student who reads contextual as unconditional '
+          'stops working in February, and discovers in August that the '
+          'condition was still there all along. The letter will have said '
+          'so plainly. It is simply that nobody reads a letter that '
+          'appears to be good news twice, which is the one habit this '
+          'cycle is trying to break.'],
+         items=[
+          ('An offer is ____________ when the university is waiting for '
+           'results that have not arrived.', None, 'conditional',
+           'Paragraph 1: the offer is made in January and the results come '
+           'in August, so something is still to be proved.'),
+          ('An ____________ offer is given where nothing is left to prove.',
+           None, 'unconditional',
+           'Paragraph 2, and the passage says such offers are a small '
+           'minority.'),
+          ('A ____________ offer is set lower because of what the '
+           'university knows about the applicant.', None, 'contextual',
+           'Paragraph 3, which also insists that it is still conditional.')]),
     dict(heading='Entry requirements and contextual offers',
          kind='Admissions page', task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-5',
@@ -277,6 +583,50 @@ UNIT = dict(
          instruct='  Write at least 150 words in about 20 minutes.',
          lines=14)],
    gram=dict(
+    ref='L4',
+    context=[
+     'Dear Admissions Office,',
+     'I am writing about my application for the BSc in Physiotherapy, '
+     'reference 4471-G. My offer letter sets a condition in biology, and '
+     'I would be grateful if you could tell me whether the grade required '
+     'is the one printed on the letter or the one quoted on the course '
+     'page, since the two differ. I should also be glad to know by what '
+     'date a resit result would need to reach you.'],
+    notice=[
+     ('The writer asks two questions. Neither of them has a question '
+      'mark. Copy out the words that begin each one.', 'I would be '
+      'grateful if you could tell me whether; I should also be glad to '
+      'know'),
+     ('Why is “whether” used rather than “if” after tell me?',
+      'whether introduces a choice between two stated alternatives')],
+    noticetask='Answer both from the letter above. Neither can be '
+               'answered without looking at how the questions are built.',
+    contrast='A direct question inside a formal letter - Which grade do '
+             'you want? - is not rude in itself, but it reads as a demand '
+             'and it invites a one-word answer. The embedded form asks '
+             'the same thing and leaves room for an explanation, which is '
+             'what you actually wanted. Note the word order: after tell '
+             'me whether, the subject comes before the verb, exactly as '
+             'in a statement. Writing “tell me whether is the grade '
+             'correct” is the commonest error at this band.',
+    task2='Rewrite each direct question as an embedded one, beginning '
+          'with the words given. Watch the word order.',
+    items2=[
+     ('When will the decision be released? → I would be grateful if you '
+      'could tell me ____________.', None,
+      'when the decision will be released'),
+     ('Is a resit acceptable? → I should be glad to know ____________.',
+      None, 'whether a resit is acceptable'),
+     ('Who assesses the personal statement? → Could you let me know '
+      '____________?', None, 'who assesses the personal statement'),
+     ('Has my transcript arrived? → I am writing to ask ____________.',
+      None, 'whether my transcript has arrived')],
+    task3='Now write the whole thing. You have been made a conditional '
+          'offer and one of its conditions is unclear. Write the opening '
+          'paragraph of your letter and two embedded questions, about '
+          'sixty words in all. Use one pattern from the box and one of '
+          'your own.',
+    items3=8,
     point='Asking for information in a formal letter',
     explain=('A direct question in a formal letter sounds abrupt, and a vague '
              'one gets a vague answer. These patterns ask precisely and '
@@ -325,6 +675,211 @@ UNIT = dict(
   dict(
    sub='Who gets in',
    step=2,
+   figures=[
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 2 · how the four texts will have said it',
+         left='THE STATEMENT SAYS', right='THE WRITER WROTE',
+         pairs=[('it is a quota', 'no number is set and no place is '
+                 'reserved', 'negation'),
+                ('the standard has fallen', 'the entry requirement is '
+                 'unchanged', 'negation'),
+                ('they let in weaker students', 'the intake has widened',
+                 'reformulation'),
+                ('help with the fees', 'financial support', 'hypernym'),
+                ('the university decides', 'the decision rests with the '
+                 'institution', 'nominalisation'),
+                ('most of them finish', 'completion rates are '
+                 'comparable', 'reformulation')],
+         note='Six of the eight questions in this cycle turn on one of '
+              'these six moves. Cover the right column and predict.'),
+   ],
+   notes=dict(
+    serves='Matching features and Yes/No/Not Given, Reading Parts 2-3; '
+           'multiple choice in Listening Part 3',
+    because='Yes/No/Not Given is lost on NOT GIVEN, which learners award '
+            'to anything they did not understand and withhold from '
+            'anything whose words they recognise - a problem of procedure, '
+            'not of reading',
+    skill='Deciding what a writer has actually claimed, as against what a '
+          'reader agrees with',
+    evidence='gate10 census: Yes/No/Not Given is the third commonest type '
+             'in this book and the only one with no taught procedure '
+             'anywhere in the volume before this cycle',
+    watch='Learners will mark NOT GIVEN for statement 21 because the word '
+          'quota is absent, although the writer rejects the idea twice in '
+          'different words. Expect it, and go back to the paraphrase '
+          'bridge from cycle 1',
+    time='80 minutes, or 60 without the free grammar production'),
+   lead=dict(
+    title='The same word, two meanings',
+    body='Almost every argument about admissions is an argument about one '
+         'word, and the word is fair. Two people can both want a fair '
+         'system and want opposite things, because one of them means '
+         'everybody takes the same test and the other means everybody has '
+         'the same chance of passing it. Neither is lying. Before you read '
+         'four people arguing about it, decide which one you are.',
+    task='Answer these honestly. Then listen to the preview recording and '
+         'see which of the two speakers you agree with.',
+    qs=['Is a test fair if everyone sits the same paper on the same day?',
+        'Does it matter what happened to the candidates in the four years '
+        'before that day?',
+        'If a university lowers its offer for some applicants, what has it '
+        'done - corrected something, or lowered a standard?',
+        'Who should decide what fair means here: the universities, the '
+        'government, or the applicants?']),
+   vocabwork=dict(
+    title='How certain is the claim?',
+    body='The four texts you are about to read agree about almost all the '
+         'facts and disagree about what follows from them. The difference '
+         'lives in a handful of words, and those words are what the '
+         'matching-features questions are really asking about. In cycle 1 '
+         'you met the vocabulary of a process; this is the vocabulary of '
+         'a position.',
+    figure=dict(kind='cline', teaches='scale',
+                title='How strongly is this being claimed?',
+                sub='cycle 2 · the seven degrees the four texts use',
+                left='barely a suggestion', right='flatly asserted',
+                items=[('it may be that', 0.03),
+                       ('there is a case for', 0.17),
+                       ('the evidence points to', 0.34),
+                       ('it is reasonable to conclude', 0.5),
+                       ('it is clear that', 0.68),
+                       ('there can be no doubt', 0.85),
+                       ('it is simply wrong to', 0.98)],
+                note='A matching-features question rarely asks who '
+                     'mentioned a thing. It asks who was sure about it. '
+                     'That is this line.'),
+    figure2=dict(kind='collocation', teaches='collocation',
+                 node='criteria', sub='cycle 2',
+                 groups=[('verb + criteria',
+                          ['meet the criteria', 'set criteria',
+                           'apply criteria', 'relax the criteria',
+                           'fail to meet the criteria']),
+                         ('adjective + criteria',
+                          ['contextual criteria', 'strict criteria',
+                           'published criteria', 'objective criteria']),
+                         ('criteria + preposition',
+                          ['criteria for entry', 'criteria used by',
+                           'criteria set out in'])],
+                 note='Not one of these is "do the criteria" or "reach '
+                      'the criteria". You meet them.'),
+    task='Choose the phrase from the cline that matches the strength of '
+         'each claim, and the collocation that completes each sentence.',
+    items=[
+     ('The writer is almost certain but will not say so outright: '
+      '____________ points to a rise.', None, 'the evidence'),
+     ('The writer thinks the opposite view is not merely weak but '
+      'mistaken: it is simply ____________ to call this a quota.',
+      None, 'wrong'),
+     ('The writer offers it as one possibility among several: '
+      '____________ be that the effect fades.', None, 'it may'),
+     ('An applicant who satisfies the conditions has ____________ the '
+      'criteria.', None, 'met'),
+     ('When a university makes its conditions easier it ____________ the '
+      'criteria.', None, 'relaxes'),
+     ('Conditions anyone can read are ____________ criteria.',
+      None, 'published'),
+     ('Conditions that do not depend on who is judging are ____________ '
+      'criteria.', None, 'objective'),
+     ('The phrase that introduces the conditions themselves: criteria '
+      '____________ entry.', None, 'for')]),
+   builder=dict(
+    skill='Yes / No / Not Given: three tests, in this order',
+    qkind='skill',
+    explain='Not Given does not mean you did not understand it. It means '
+            'the writer took no position on it, and that is a fact about '
+            'the text rather than about you. The mark is lost in two '
+            'directions and both are procedural. A learner awards NOT '
+            'GIVEN because the statement contains a word the passage '
+            'never used, although the writer argued against the idea '
+            'twice in other words. Or a learner awards YES because the '
+            'passage mentions the topic and the statement sounds '
+            'sensible, although the writer said nothing either way. Run '
+            'the three tests below in order and neither can happen. Test '
+            'one is the one people skip, and it is the one that catches '
+            'most of the errors, because it asks a question about the '
+            'text rather than about the statement.',
+    worked=[
+     'STATEMENT: contextual offers are a form of quota.',
+     'Test 1 - does the writer take a position on this at all? Yes. '
+     'Paragraph 3 of text B is about exactly this.',
+     'Test 2 - does what the writer says agree with it? No. Text B says '
+     '“no place is reserved and no number is set”, which is what a quota '
+     'is.',
+     'Test 3 - does the writer state the opposite? Yes, twice. So the '
+     'answer is NO, not NOT GIVEN, and the absence of the word quota '
+     'from the passage is beside the point.'],
+    figure=dict(kind='decide', teaches='decision',
+                title='Yes, No or Not Given - in this order, every time',
+                sub='cycle 2 · the procedure, not the feeling',
+                nodes=[
+                 ('Does the writer take a position on this exact thing, '
+                  'in any words at all?',
+                  'go to test 2', 'NOT GIVEN. Stop.'),
+                 ('Does the position agree with the statement, all of it?',
+                  'YES. Stop.', 'go to test 3'),
+                 ('Does the writer state the opposite, or rule the '
+                  'statement out?',
+                  'NO. Stop.', 'NOT GIVEN - and check test 1 again')],
+                note='Most lost marks here are NOT GIVEN awarded to a '
+                     'statement the writer argued against in words the '
+                     'reader did not recognise.'),
+    task='For each statement, write which test settles it (1, 2 or 3) and '
+         'what the answer therefore is. This is not an exam task; the '
+         'exam task is three pages further on.',
+    items=[
+     ('TEXT: We set no number and reserve no place.  STATEMENT: the '
+      'scheme is a quota.', None, '3 no'),
+     ('TEXT: (the writer never mentions cost)  STATEMENT: the scheme is '
+      'expensive.', None, '1 not given'),
+     ('TEXT: Offers are lowered by one grade and no more.  STATEMENT: '
+      'the reduction is limited.', None, '2 yes'),
+     ('TEXT: The intake has widened without the entry standard moving.  '
+      'STATEMENT: standards have fallen.', None, '3 no'),
+     ('TEXT: Most recipients complete the degree.  STATEMENT: most '
+      'recipients get a first.', None, '1 not given'),
+     ('TEXT: A foundation year is a corrective, not a concession.  '
+      'STATEMENT: the writer regards a foundation year as a favour.',
+      None, '3 no')],
+    note='Two of the six are NOT GIVEN and both are settled by test 1. '
+         'Neither has anything to do with how hard the sentence was, and '
+         'that is the point worth taking away: the test that catches most '
+         'of the errors is the one that asks a question about the text '
+         'rather than about the statement, and it is the one every '
+         'learner skips because it feels like it is not doing anything. '
+         'Run it anyway. It costs four seconds and it is the difference '
+         'between a procedure and a hunch.'),
+   advice='Yes / No / Not Given asks what the WRITER thinks, not what is '
+          'true and not what you think. The examiner has written at least '
+          'one statement whose words are all in the passage and whose '
+          'claim the writer rejects, and at least one that is perfectly '
+          'true and that the writer never addresses. If you find yourself '
+          'agreeing with a statement, that is the moment to go and find '
+          'the sentence, because agreement is not evidence. Three marks '
+          'in a typical set turn on this and they are the cheapest three '
+          'marks in the paper to recover, since recovering them needs no '
+          'new vocabulary at all - only the order of the three tests.',
+   debrief=dict(
+    read=['Statement 21 never uses the writer’s words, and the writer '
+          'never uses the statement’s word. Both say the same thing. That '
+          'is what the paraphrase bridge in cycle 1 was for.',
+     'In the matching-features questions two writers mention the '
+     'foundation year and only one commits to a view about it. Mentioning '
+     'is not claiming.',
+     'Statement 23 is true, and the passage does not say it. Being true '
+     'is not one of the three tests.'],
+    listen=['The speaker says “I would not go that far”, which is a '
+            'rejection, and then says something that sounds like '
+            'agreement. The rejection is the answer.',
+     'Two numbers are given in question 31 and the second is a '
+     'correction of the first.']),
+   outside='Deciding what somebody has actually claimed, as against what '
+           'you took them to mean, is most of what reading a contract, a '
+           'diagnosis or a news report consists of, and all of what '
+           'arguing well consists of. The three tests work outside this '
+           'exam without any modification whatever.',
+   recycled=['criteria', 'contextual offer', 'eligible', 'intake',
+             'conditional'],
    read=[
     dict(heading='Four students on how they chose',
          kind='Four short texts', task='Matching features and Yes/No/Not Given',
@@ -380,6 +935,50 @@ UNIT = dict(
                'about the method.', 1: 'No would need him to defend the choice, which he never '
                'does.'})])],
    listen=[
+    dict(preview=True,
+         heading='Two people disagreeing about one word',
+         part='Preview', task='Sentence completion',
+         band='lpre', qtype='Questions P1-P3',
+         why='Ninety seconds before five minutes. You will hear the same '
+             'argument again in Part 3, at speed and with a third voice '
+             'in it. Meet the disagreement first and the Part 3 stops '
+             'being a race.',
+         script=[
+          ('Rafi', 'Can I ask you something about the word fair? Because '
+                   'you and I keep using it and I think we mean different '
+                   'things.'),
+          ('Nadia', 'Go on.'),
+          ('Rafi', 'When I say a fair process I mean everyone faces the '
+                   'same test. Same paper, same day, same marking. That is '
+                   'it.'),
+          ('Nadia', 'And when I say fair I mean everyone has the same '
+                    'chance of passing it. Which is not the same thing at '
+                    'all, because they did not have the same four years '
+                    'beforehand.'),
+          ('Rafi', 'So you would move the pass mark.'),
+          ('Nadia', 'I would take account of the start. That is not the '
+                    'same as moving the mark, though I can see why it '
+                    'sounds like it.'),
+          ('Rafi', 'And I would say the moment you do that, nobody knows '
+                   'what the grade means any more.'),
+          ('Nadia', 'Nobody knows now. A B from one school is four years '
+                    'of teaching and from another it is four years of '
+                    'teaching plus a tutor three evenings a week. The '
+                    'letter is the same. The thing behind it is not.'),
+          ('Rafi', 'That I will grant you. I still want one measure.'),
+          ('Nadia', 'One measure, read with what you know about where it '
+                    'came from. That is all I am asking for.')],
+         items=[
+          ('For Rafi, a fair process is one in which everyone faces the '
+           'same ____________.', None, 'test',
+           'His first turn: same paper, same day, same marking.'),
+          ('For Nadia, fairness means the same ____________ of passing.',
+           None, 'chance',
+           'Her second turn, where she says this is not the same thing at '
+           'all.'),
+          ('Nadia says she wants one measure read with knowledge of where '
+           'it ____________ from.', None, 'came',
+           'Her last turn, which is the concession Rafi half accepts.')]),
     dict(heading='A short talk: who gets in', part='Part 2',
          task='A talk at a parents’ evening · sentence completion', band='l2',
          qtype='Questions 25-28',
@@ -587,6 +1186,51 @@ UNIT = dict(
          instruct='  Write at least 250 words in about 40 minutes.',
          lines=18)],
    gram=dict(
+    ref='L12',
+    context=[
+     'From text C, which you have just read:',
+     'What the entry grade measures is not ability. It is four years of '
+     'teaching, a household, and a particular week in August. It is the '
+     'school as much as the pupil. None of that makes the grade useless; '
+     'it makes it a measurement of something, and the something has a '
+     'name.'],
+    notice=[
+     ('The writer could have written “The entry grade does not measure '
+      'ability.” What does the what-clause let the writer do that the '
+      'plain sentence does not?',
+      'it names the thing being measured and then corrects it, so the '
+      'correction lands at the end of the sentence'),
+     ('Why is the verb “is” and not “are”, when three things follow it?',
+      'the subject is the whole clause What the entry grade measures, '
+      'which is singular')],
+    noticetask='Answer both from the paragraph above. Neither can be '
+               'answered without looking at how the first sentence is '
+               'built.',
+    contrast='Compare “The grade does not measure ability” with “What the '
+             'grade measures is not ability”. The first denies. The '
+             'second names, and then denies, and leaves the real answer '
+             'in the position an English sentence gives its weight to - '
+             'the end. In an argument about measurement that difference '
+             'is the whole argument, which is why this structure turns up '
+             'in almost every Academic Reading passage about data.',
+    task2='Rewrite each sentence with a what-clause, keeping the '
+          'correction at the end.',
+    items2=[
+     ('The test does not measure intelligence; it measures practice. '
+      '____________',
+      'What the test measures is not intelligence but practice.'),
+     ('The figure describes the school, not the pupil. ____________',
+      'What the figure describes is the school, not the pupil.'),
+     ('He wants a clear criterion, not a lower one. ____________',
+      'What he wants is a clear criterion, not a lower one.'),
+     ('Correct: What these numbers show are a single trend. ____________',
+      'What these numbers show is a single trend.')],
+    task3='Now use it in your own argument. Take one measure from this '
+          'cycle - the entry grade, the contextual flag, the completion '
+          'rate - and write forty to sixty words saying what it actually '
+          'measures and what it is often taken to measure. Use the '
+          'structure once, and once only.',
+    items3=8,
     point='Saying what a measure actually measures',
     explain=('Essays about tests, grades and figures improve immediately when '
              'you say what the number includes. These patterns do it in one '
@@ -634,7 +1278,239 @@ UNIT = dict(
   dict(
    sub='What a degree is worth',
    step=3,
+   notes=dict(
+    serves='Matching information and True/False/Not Given, Reading Part '
+           '3; Task 1 Academic, a bar chart with two series',
+    because='A band 6 Task 1 answer lists every bar in the chart and '
+            'compares none of them, because nobody has ever shown the '
+            'writer which three of twelve numbers carry the information',
+    skill='Choosing what to compare, and saying the comparison in one '
+          'sentence rather than two',
+    evidence='Phase 4 measured the band 6.5 models against the band 9 '
+             'ones across six volumes: the single commonest gap is '
+             'enumeration where a comparison was wanted',
+    watch='Learners will write all twelve figures of the bar chart in '
+          'order. Stop them at the fourth and ask which two they would '
+          'keep if they were allowed four',
+    time='85 minutes, or 65 without the free grammar production'),
+   lead=dict(
+    title='Worth what, compared with what?',
+    body='Everybody has heard that some degrees are worth more than '
+         'others. Almost nobody has been asked the second half of the '
+         'sentence: worth more than what. More than the same person '
+         'without the degree? More than a different person with a '
+         'different degree? More in the first year, or in the twentieth? '
+         'The figures in this cycle answer one of those questions and '
+         'are routinely quoted as if they answered all four.',
+    task='Decide what you think before you see the numbers. You will be '
+         'asked again at the end of the cycle.',
+    qs=['What do you think a degree is for? Give the honest answer, not '
+        'the respectable one.',
+        'If one subject earns twice what another earns, has it taught '
+        'twice as much?',
+        'Would you choose a subject you disliked because it paid more? '
+        'What would change your mind?',
+        'Who should be told these figures - applicants, schools, '
+        'governments - and when?']),
+   vocabwork=dict(
+    title='The language of a comparison',
+    body='You met the vocabulary of a process in cycle 1 and the '
+         'vocabulary of a position in cycle 2. This is the vocabulary of '
+         'a measurement, and it is the one Task 1 is marked on. Note how '
+         'narrow the band of useful words is: eight verbs and a dozen '
+         'ways of saying roughly.',
+    figure=dict(kind='cline', teaches='scale',
+                title='How close is close?',
+                sub='cycle 3 · approximation, from tight to loose',
+                left='almost exactly', right='nowhere near',
+                items=[('just over', 0.04), ('a little over', 0.16),
+                       ('about', 0.33), ('roughly', 0.46),
+                       ('nearly', 0.58), ('well over', 0.76),
+                       ('more than twice', 0.95)],
+                note='Examiners read “about” on a figure that is exact '
+                     'as a failure of accuracy, not of vocabulary. '
+                     'Choose from the left of this line wherever the '
+                     'data allows it.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 3 · the words a Task 1 answer is built from',
+                 rows=[(('com-pare', 2), ('com-pa-ri-son', 2), '',
+                        ('com-pa-ra-ble', 1), ''),
+                       (('ex-ceed', 2), ('ex-cess', 1), '',
+                        ('ex-ces-sive', 2), ('ex-ces-sive-ly', 2)),
+                       (('va-ry', 1), ('va-ri-a-tion', 3), '',
+                        ('va-ri-a-ble', 1), ''),
+                       ('', ('pro-por-tion', 2), '',
+                        ('pro-por-tio-nal', 3), ('pro-por-tio-nal-ly', 3)),
+                       (('e-qual', 1), ('e-qua-li-ty', 2), '',
+                        ('e-qual', 1), ('e-qual-ly', 1))],
+                 note='Comparable is not compatible, and proportional is '
+                      'not proportionate in every context. Both pairs '
+                      'are marked wrong every session.'),
+    task='Complete each sentence with one word from the table, in the '
+         'right form, or one phrase from the cline.',
+    items=[
+     ('Law and engineering pay ____________ amounts.', None, 'comparable'),
+     ('Medicine pays ____________ twice what creative arts pays.',
+      None, 'well over'),
+     ('The noun from vary is ____________.', None, 'variation'),
+     ('Economics at 49 and law at 36 are not ____________.',
+      None, 'equal'),
+     ('The figure is 52 exactly, so write ____________ 52, not about 52.',
+      None, 'just over'),
+     ('Earnings rise ____________ with experience in three of the six '
+      'groups.', None, 'proportionally'),
+     ('The adjective from excess is ____________.', None, 'excessive'),
+     ('A ____________ between two figures is what the examiner is '
+      'looking for.', None, 'comparison')]),
+   builder=dict(
+    skill='Task 1: choose three comparisons, not twelve numbers',
+    qkind='skill',
+    explain='A bar chart with six categories and two series contains '
+            'twelve numbers and perhaps sixty possible comparisons. A '
+            'band 6 answer writes out the twelve numbers in the order '
+            'they appear and makes none of the comparisons. A band 7 '
+            'answer makes three or four and leaves most of the numbers '
+            'out, and this is why it is shorter and scores higher. The '
+            'selection is the skill. Three questions choose for you, and '
+            'they work on every chart in the paper. First, what is the '
+            'biggest single gap on the chart. Second, what is the '
+            'pattern that holds across the whole chart - the thing true '
+            'of every category. Third, what breaks that pattern, because '
+            'the exception is always the most interesting sentence in '
+            'the answer and most candidates never write it.',
+    worked=[
+     'The chart: median earnings five years after graduating, six '
+     'subject groups, men and women.',
+     'Biggest gap: medicine at 52 against creative arts at 22. That is '
+     'the first sentence, and it is a ratio, not a subtraction - well '
+     'over twice.',
+     'Pattern across the whole chart: men are ahead in every group '
+     'without exception. That is the second sentence, and it needs no '
+     'numbers at all.',
+     'What breaks it: the size of the gap does not follow the size of '
+     'the earnings. Economics pays less than medicine and has the wider '
+     'gap between men and women. That is the third sentence, and it is '
+     'the one almost nobody writes.'],
+    figure=dict(kind='matrix', teaches='comparison',
+                title='Three questions that choose for you',
+                sub='cycle 3 · fill the right-hand column from the chart',
+                cols=['What it asks', 'Your answer from this chart'],
+                rows=['The biggest single gap',
+                      'The pattern true of every category',
+                      'The category that breaks the pattern',
+                      'The numbers you will therefore leave out'],
+                cells=[['Which two bars are furthest apart?',
+                        'medicine 52, creative arts 22'],
+                       ['What is true of all six?', ''],
+                       ['Where does that stop being neat?', ''],
+                       ['Everything not needed by rows 1 to 3', '']],
+                note='Three sentences from three rows. The fourth row is '
+                     'the one that makes the answer short, and short is '
+                     'what a band 7 Task 1 answer is.'),
+    task='Here are four pairs of figures from the chart. For each, write '
+         'the single comparison sentence you would use - not both '
+         'numbers, one sentence.',
+    items=[
+     ('Medicine 52, creative arts 22.', None, 'well over twice'),
+     ('Law 36, engineering 38.', None, 'much the same'),
+     ('Men 49, women 42 in economics.', None, 'seven points higher'),
+     ('Humanities 27, creative arts 22.', None, 'a little over'),
+     ('Men ahead in all six groups.', None, 'without exception'),
+     ('Medicine 52 and economics 49.', None, 'close behind')],
+    note='Not one of these answers is a list of two numbers, and that is '
+         'the only thing the exercise is testing. If you wrote two '
+         'numbers anywhere, go back and write the sentence that makes '
+         'them mean something: the examiner can see the chart, so the '
+         'figures are not news. What you noticed about them is.'),
+   figures=[
+    dict(kind='skeleton', teaches='text-structure',
+         title='What each paragraph of the article does',
+         sub='cycle 3 · read this before the article, not after',
+         paras=[('A', 'context', 'Where the figures come from and who '
+                 'collected them'),
+                ('B', 'claim', 'The subject gap is real and large'),
+                ('C', 'evidence', 'Six groups, five years out, both '
+                 'sexes'),
+                ('D', 'qualification', 'What a median cannot tell you '
+                 'about spread'),
+                ('E', 'counter-claim', 'The gap may be the student, not '
+                 'the subject'),
+                ('F', 'implication', 'What an applicant should do with '
+                 'any of this')],
+         note='Paragraph D mentions earnings nine times and is not about '
+              'earnings. It is about measurement, which is why the '
+              'preview box on the previous page was about the median.'),
+   ],
+   advice='Task 1 is marked on selection as much as on accuracy. An '
+          'answer that reports every figure correctly and compares '
+          'nothing is capped around 6 for Task Achievement, however '
+          'clean the grammar is, and the marker reaches that judgement '
+          'in the first thirty seconds. Write the overview first, make '
+          'three comparisons, leave numbers out on purpose, and stop at '
+          'about a hundred and seventy words. A longer Task 1 answer is '
+          'almost always a longer list.',
+   debrief=dict(
+    read=['The matching-information questions ask which paragraph '
+          'contains a thing, and two paragraphs mention it. Only one '
+          'makes it the business of the paragraph.',
+     'Statement 37 is about the average and the passage is about the '
+     'median. The preview box told you these are different; the question '
+     'is checking whether you believed it.',
+     'The True/False/Not Given statement about women in medicine is '
+     'true of the chart and not stated in the passage. The chart is not '
+     'the passage.'],
+    listen=['The lecturer gives a figure, pauses, and gives a second '
+            'figure for a different year. The question asks for the '
+            'year, not the figure.',
+     'Question 44 is a matching task and the speaker changes her mind '
+     'about one of the three. The second attribution is the answer.']),
+   outside='Reading a chart for the three sentences that matter, rather '
+           'than for all of it, is how anyone gets through a report, a '
+           'bill, a diagnosis or a set of accounts. Most of the numbers '
+           'you will meet in your life are there to be left out.',
+   recycled=['median', 'criteria', 'threshold grade', 'graduate',
+             'attainment'],
    read=[
+    dict(preview=True,
+         heading='What a median is, and what it hides',
+         kind='Explainer box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='The article on the next page is built on one word. If the '
+             'word is not secure, the article is a wall of numbers; if '
+             'it is, the article is an argument you can disagree with.',
+         paras=[
+          'Put every graduate of a subject in a line, poorest on the '
+          'left, richest on the right. The median is whoever is standing '
+          'in the middle. Half earn less, half earn more, and that is the '
+          'whole definition.',
+          'It is not the average. The average adds everything up and '
+          'divides, so one graduate earning two million moves it and '
+          'moves nobody’s actual life. The median does not move at all, '
+          'because the person in the middle is still the person in the '
+          'middle. Where earnings are very unequal, the average is '
+          'higher than the median, and the gap between them is itself a '
+          'measure of how unequal the spread is.',
+          'What the median hides is that spread. Two subjects can have '
+          'the same median and look nothing alike: in one, almost '
+          'everybody earns near it; in the other, half earn very little '
+          'and half earn a great deal. The middle person is identical '
+          'and the subject is not.',
+          'So a table of medians answers one question well - what '
+          'happens to a typical graduate - and refuses to answer the '
+          'question most readers actually have, which is what might '
+          'happen to them.'],
+         items=[
+          ('The median is the value in the ____________ when everyone is '
+           'put in order.', None, 'middle',
+           'Paragraph 1: half earn less and half earn more.'),
+          ('Unlike the average, the median is not moved by one very '
+           '____________ figure.', None, 'high',
+           'Paragraph 2, where one graduate earning two million moves '
+           'the average and not the median.'),
+          ('What a median cannot show you is the ____________ of the '
+           'figures.', None, 'spread',
+           'Paragraph 3: two subjects with the same median can look '
+           'nothing alike.')]),
     dict(heading='Earnings by subject, five years on',
          kind='Data article',
          task='Matching features, matching information and True/False/Not Given',
@@ -856,6 +1732,48 @@ UNIT = dict(
          instruct='  Write at least 150 words in about 20 minutes.',
          lines=14)],
    gram=dict(
+    ref='L6',
+    context=[
+     'From the article you have just read:',
+     'Medicine pays well over twice what creative arts pays, and that '
+     'ratio has held for a decade. Law and engineering are much the '
+     'same, at 36 and 38. The gap between men and women is seven points '
+     'in economics and one in creative arts - which is to say that the '
+     'better-paid the subject, the wider the gap inside it, with the '
+     'single exception of medicine.'],
+    notice=[
+     ('The writer compares medicine with creative arts using a ratio '
+      'rather than a subtraction. Why?',
+      'the two figures are far apart, so the relation is more '
+      'informative than the difference'),
+     ('Find the phrase that compares without giving either number.',
+      'much the same')],
+    noticetask='Answer both from the paragraph above, which is from the '
+               'passage you read earlier in this cycle.',
+    contrast='A difference and a ratio are not alternatives, they are '
+             'answers to different questions. Use a difference where the '
+             'two figures are close and the gap is the news - seven '
+             'points. Use a ratio where they are far apart and the gap '
+             'is unreadable as a number - well over twice. And keep '
+             'percentage points away from per cent: a move from 40 to 44 '
+             'is four percentage points and ten per cent, and writing '
+             'the second where you meant the first costs a mark for '
+             'accuracy every time.',
+    task2='Write one comparison sentence for each pair. Choose the '
+          'difference, the ratio or the approximation, whichever fits.',
+    items2=[
+     ('52 and 22. ____________',
+      'Medicine pays well over twice what creative arts pays.'),
+     ('36 and 38. ____________', 'Law and engineering pay much the same.'),
+     ('49 and 42. ____________',
+      'Men earn seven points more than women in economics.'),
+     ('40% rising to 44%. ____________',
+      'a rise of four percentage points')],
+    task3='Now write the opening of a Task 1 answer from the chart in '
+          'this cycle: one overview sentence and two comparisons, about '
+          'fifty words. Use one ratio and one difference, and give no '
+          'figure you do not need.',
+    items3=8,
     point='Comparing pairs of figures',
     fix=dict(
      text=('The table compares two pairs of figures. In 2010 the rate for boys '
@@ -920,6 +1838,211 @@ UNIT = dict(
   dict(
    sub='Why the gap opens early',
    step=4,
+   notes=dict(
+    serves='Matching headings and Yes/No/Not Given, Reading Part 3, on a '
+           'seven-hundred-word academic passage; multiple choice in '
+           'Listening Part 4',
+    because='Matching headings is answered at band 6 by finding the '
+            'heading that shares a noun with the paragraph, which is '
+            'exactly what the distractors are built for, and the right '
+            'answer usually shares no vocabulary at all',
+    skill='Reading a paragraph for its function - claim, evidence, '
+          'concession, consequence - rather than for its subject',
+    evidence='gate10 census: matching headings appears in every book in '
+             'the series and had no taught procedure anywhere in Volume '
+             '3 before this cycle',
+    watch='In the heading task, learners will give paragraph D the '
+          'heading containing the word cost, because D says cost four '
+          'times. D is a concession about evidence. Expect it',
+    time='90 minutes, or 70 without the free grammar production'),
+   lead=dict(
+    title='How early is early?',
+    body='Every argument about university admissions eventually runs '
+         'backwards. If the gap is already there at eighteen, was it '
+         'there at eleven? At five? And if it was there at five, what '
+         'exactly is a university supposed to do about it in January of '
+         'the applicant’s final year? This cycle is where the subject '
+         'stops being about admissions and starts being about evidence, '
+         'which is also where the reading gets harder.',
+    task='Answer these before you read. Keep your answers; you are asked '
+         'to revisit them in the unit review.',
+    qs=['At what age do you think differences between children in '
+        'school first become visible?',
+        'Does knowing that something predicts an outcome tell you how to '
+        'change the outcome?',
+        'If a programme raises test scores but not later earnings, has '
+        'it worked?',
+        'Whose job is it to close a gap that opens at five - schools, '
+        'parents, governments, universities?']),
+   vocabwork=dict(
+    title='The words that separate a finding from a claim',
+    body='This passage is the first in the unit written by researchers '
+         'for researchers, and its caution is in the verbs. Learn the '
+         'ladder below and the passage changes from difficult to '
+         'careful, which is a different thing. You met the strength of a '
+         'position in cycle 2; this is the strength of a finding.',
+    figure=dict(kind='cline', teaches='scale',
+                title='From moving together to making happen',
+                sub='cycle 4 · the ladder this passage climbs and will '
+                    'not finish climbing',
+                left='they merely co-occur', right='one makes the other',
+                items=[('is associated with', 0.05),
+                       ('is linked to', 0.17),
+                       ('predicts', 0.3),
+                       ('appears to contribute to', 0.5),
+                       ('may account for part of', 0.62),
+                       ('leads to', 0.82),
+                       ('causes', 0.97)],
+                note='The passage uses the left half nineteen times and '
+                     'the right half twice, both times in reported '
+                     'speech belonging to somebody else. That is not '
+                     'style. It is the finding.'),
+    figure2=dict(kind='collocation', teaches='collocation',
+                 node='evidence', sub='cycle 4',
+                 groups=[('verb + evidence',
+                          ['the evidence suggests', 'the evidence points to',
+                           'evidence is lacking', 'the evidence is mixed']),
+                         ('adjective + evidence',
+                          ['strong evidence', 'thin evidence',
+                           'direct evidence', 'anecdotal evidence']),
+                         ('evidence + preposition',
+                          ['evidence for the claim', 'evidence of a gap',
+                           'evidence from three cohorts'])],
+                 note='Evidence is uncountable. “An evidence” and '
+                      '“evidences” are both marked wrong, and both are '
+                      'extremely common at this band.'),
+    task='Choose the phrase that matches the strength of each finding, '
+         'and complete the collocations.',
+    items=[
+     ('Two things move together and the study says no more: vocabulary '
+      '____________ reading.', None, 'predicts'),
+     ('An experiment with a control group, large and repeated: this is '
+      '____________ evidence.', None, 'strong'),
+     ('One school, one year, one teacher’s impression: ____________ '
+      'evidence.', None, 'anecdotal'),
+     ('Some studies find it and others do not: the evidence is '
+      '____________.', None, 'mixed'),
+     ('The careful middle of the ladder: the programme ____________ '
+      'contribute to the gain.', None, 'appears to'),
+     ('Evidence ____________ the claim, not evidence to the claim.',
+      None, 'for'),
+     ('No study has looked: evidence is ____________.', None, 'lacking'),
+     ('Correct the error: there are three evidences. ____________',
+      None, 'three pieces')]),
+   builder=dict(
+    skill='Matching headings: what the paragraph does, not what it says',
+    qkind='skill',
+    explain='A heading names a paragraph’s job. A paragraph can mention '
+            'money four times and be about evidence; it can never '
+            'mention the word evidence and be about nothing else. The '
+            'band 6 method is to find the heading that shares a noun '
+            'with the paragraph, and the examiner has written three '
+            'such headings on purpose. The method that works takes '
+            'twenty seconds a paragraph. Read the first sentence and the '
+            'last sentence, and ignore the middle, which is almost '
+            'always the evidence for one of the two. Then say, in three '
+            'or four words and without using any noun from the '
+            'paragraph, what the paragraph is doing: making a claim, '
+            'backing one up, admitting something, drawing a consequence, '
+            'defining a term. Now look at the headings. The one that '
+            'matches your three words is the answer, and it will often '
+            'share no vocabulary with the paragraph at all.',
+    worked=[
+     'Paragraph D of the passage begins “None of this is cheap.” and '
+     'ends “...which is why the question has not been settled.”',
+     'First sentence: a concession about cost. Last sentence: the '
+     'question is open. Middle: three studies and their price tags.',
+     'In four words, without its nouns: admitting the evidence is '
+     'incomplete.',
+     'Heading “The cost of early intervention” shares the word cost and '
+     'names the middle. Heading “Why the matter remains unsettled” '
+     'shares nothing and names the job. The second is the answer.'],
+    figure=dict(kind='signpost', teaches='signposting',
+                title='Where this passage turns',
+                sub='cycle 4 · the passage with everything but the '
+                    'markers removed',
+                markers=[('At first sight',
+                          'the view about to be taken apart'),
+                         ('In practice', 'what actually happens'),
+                         ('None of this', 'a concession, and a trap'),
+                         ('Even so', 'the concession is overruled'),
+                         ('It follows that', 'the claim, at last'),
+                         ('Yet', 'one more turn before the end')],
+                note='Four of the seven answers in this cycle sit in the '
+                     'sentence immediately after one of these six '
+                     'phrases.'),
+    task='Each paragraph opening and closing is given. Say in four words '
+         'what the paragraph DOES, using none of its own nouns.',
+    items=[
+     ('Opens: “The effect is largest in the first year.” Closes: '
+      '“...and smaller every year after that.”', None, 'reporting a '
+      'fading result'),
+     ('Opens: “None of this is cheap.” Closes: “...which is why the '
+      'question has not been settled.”', None, 'admitting incomplete '
+      'evidence'),
+     ('Opens: “A predictor is not a cause.” Closes: “...and the two call '
+      'for different policies.”', None, 'defining a distinction'),
+     ('Opens: “Three cohorts were followed.” Closes: “...in all three '
+      'the pattern held.”', None, 'presenting the evidence'),
+     ('Opens: “It follows that money alone will not do it.” Closes: '
+      '“...nor will exhortation.”', None, 'drawing a consequence'),
+     ('Opens: “Critics say the sample was unusual.” Closes: '
+      '“...a reasonable objection, so far unanswered.”',
+      None, 'reporting an objection')],
+    note='Not one of the six answers contains a noun from its own '
+         'paragraph. That is the test of whether you have named the job '
+         'or repeated the subject, and it is worth applying to your own '
+         'answers before you look at anyone else’s. If your four words '
+         'reuse the paragraph’s vocabulary, you have summarised it, '
+         'which feels like understanding and does not answer the '
+         'question. The headings are written by somebody who knows that '
+         'summarising is the easier thing to do.'),
+   figures=[
+    dict(kind='skeleton', teaches='text-structure',
+         title='The seven hundred words, in six boxes',
+         sub='cycle 4 · build this before you answer anything',
+         paras=[('A', 'definition', 'What a predictor is, and is not'),
+                ('B', 'claim', 'The gap is visible long before eighteen'),
+                ('C', 'evidence', 'Three cohorts, followed to eleven'),
+                ('D', 'concession', 'None of it is cheap, or settled'),
+                ('E', 'counter-claim', 'Critics: the sample was unusual'),
+                ('F', 'consequence', 'What follows for policy, and what '
+                 'does not')],
+         note='Fill in your own version from the first and last sentence '
+              'of each paragraph, then compare. If your box D says '
+              'anything about cost, read the Skills builder again.'),
+   ],
+   advice='Matching headings is answered paragraph by paragraph, and the '
+          'headings are read last, not first. Reading them first plants '
+          'their nouns in your mind and you then go and find those nouns '
+          'in the passage, which is precisely the trap the question is '
+          'built around. Two headings are always unused, and at least '
+          'one of the two will look extremely plausible against some '
+          'paragraph you have already assigned. Do them in the order the '
+          'paragraphs come, write your four words first, and do not go '
+          'back and change an answer because a later heading looked '
+          'tempting.',
+   debrief=dict(
+    read=['The heading with the word cost in it belongs to no paragraph, '
+          'and paragraph D is the one that says cost four times. That is '
+          'the whole design of the question.',
+     'Two headings mention children and three paragraphs are about '
+     'children. Function, not subject.',
+     'The Yes/No/Not Given statement about funding is true, obviously '
+     'true, and the writer takes no position on it anywhere. Test 1 from '
+     'cycle 2 settles it in four seconds.'],
+    listen=['The lecturer says “the honest answer is a bit of both”, '
+            'which is the answer to question 55, and she says it after a '
+            'long pause that sounds like the end of the section.',
+     'Question 57 offers an option containing a number the lecturer '
+     'says. She says it about a different study.']),
+   outside='The difference between a predictor and a cause decides '
+           'whether a medicine works, whether a policy is worth money, '
+           'and whether the thing you were told about your own schooling '
+           'was true. It is the single most useful idea in this book and '
+           'it is tested, here, as a reading question.',
+   recycled=['predictor', 'evidence', 'cohort', 'criteria',
+             'attainment', 'median'],
    read=[
     dict(heading='What is already different at five',
          kind='Academic passage',
@@ -1041,6 +2164,49 @@ UNIT = dict(
            'Paragraph 5, common enough in education research to have a '
            'name.')])],
    listen=[
+    dict(preview=True,
+         heading='A researcher explains one word to an interviewer',
+         part='Preview', task='Sentence completion',
+         band='lpre', qtype='Questions P1-P3',
+         why='The lecture you are about to hear uses the word predictor '
+             'nineteen times and never defines it. Ninety seconds here '
+             'and the lecture becomes followable.',
+         script=[
+          ('Interviewer', 'You keep saying predictor and I keep wanting '
+                          'to hear cause. Are they the same thing?'),
+          ('Dr Owusu', 'They are not, and the difference is the whole '
+                       'study. A predictor is anything that improves my '
+                       'guess. If I know a child’s vocabulary at five, I '
+                       'guess their reading at eleven better than if I '
+                       'did not know it. That is all I have claimed.'),
+          ('Interviewer', 'But surely the vocabulary is doing something.'),
+          ('Dr Owusu', 'It may be. Or the thing that produced the '
+                       'vocabulary is also producing the reading, and the '
+                       'vocabulary is simply the first place we can see '
+                       'it. Those two possibilities look identical in my '
+                       'data and they call for completely different '
+                       'policies.'),
+          ('Interviewer', 'Give me the practical difference.'),
+          ('Dr Owusu', 'If vocabulary is the cause, teaching words at '
+                       'five fixes the problem. If vocabulary is only the '
+                       'symptom, teaching words at five raises the score '
+                       'I am measuring and changes nothing underneath. We '
+                       'have run that experiment, incidentally, and the '
+                       'answer is uncomfortable: a bit of both.'),
+          ('Interviewer', 'So what should a government do?'),
+          ('Dr Owusu', 'Act on the predictor while you find out about the '
+                       'cause. But say which one you are doing.')],
+         items=[
+          ('A predictor is anything that improves the researcher’s '
+           '____________.', None, 'guess',
+           'Dr Owusu’s first full answer, which is also the whole '
+           'definition she offers.'),
+          ('If vocabulary is only a ____________, teaching words raises '
+           'the score and changes nothing underneath.', None, 'symptom',
+           'Her fourth turn, where she gives the practical difference.'),
+          ('She advises acting on the predictor while finding out about '
+           'the ____________.', None, 'cause',
+           'Her last turn, and the sentence the lecture ends on too.')]),
     dict(heading='A lecture on early years and attainment', part='Part 4',
          task='A lecture on reading early-years evidence · multiple choice and sentence completion', band='l4',
          qtype='Questions 53-58',
@@ -1186,6 +2352,57 @@ UNIT = dict(
                   'will write it in cycle 5.',
          lines=12)],
    gram=dict(
+    ref='L9',
+    context=[
+     'From the passage you have just read:',
+     'Vocabulary at five predicts reading at eleven, robustly and in '
+     'every cohort examined. It does not follow that teaching vocabulary '
+     'at five would move reading at eleven. The vocabulary may be the '
+     'first visible sign of something else - a household, a nursery, a '
+     'thousand hours of being talked to - and raising the sign need not '
+     'raise the thing. On the present evidence the measure appears to '
+     'contribute to the outcome in part, and anyone claiming more than '
+     'that is claiming more than the data allows.'],
+    notice=[
+     ('The writer uses one verb of association and one of hedged '
+      'causation. Copy both out.',
+      'predicts; appears to contribute to'),
+     ('How many hedges are there in the last sentence, and what are '
+      'they doing?',
+      'two - on the present evidence, and in part - and they limit the '
+      'claim rather than weaken it')],
+    noticetask='Answer both from the paragraph above, which you met '
+               'earlier in this cycle.',
+    contrast='English puts five or six rungs between X and Y move '
+             'together and X makes Y happen, and an academic passage '
+             'spends almost all of its time in the middle. Predicts '
+             'claims nothing about mechanism. Appears to contribute to '
+             'claims a mechanism and admits the evidence is partial. '
+             'Causes claims both outright. Choosing the wrong rung is '
+             'not a vocabulary slip, it is a different finding, and in '
+             'Task 2 it is the commonest way of losing marks for Task '
+             'Response while writing excellent English.',
+    task2='Rewrite each claim at the strength the evidence given '
+          'supports.',
+    items2=[
+     ('Two surveys find the same correlation; no experiment. '
+      '“Nursery attendance ____________ later attainment.”',
+      None, 'predicts'),
+     ('One randomised trial, modest effect, not yet replicated. '
+      '“The programme ____________ the gain.”',
+      None, 'appears to contribute to'),
+     ('Many trials, large effects, replicated worldwide. '
+      '“Early reading instruction ____________ later fluency.”',
+      None, 'leads to'),
+     ('Correct the overclaim: “The study proves that nursery causes '
+      'higher attainment.” ____________',
+      None, 'suggests that nursery contributes to')],
+    task3='Now write the claim yourself. Take one finding from this '
+          'cycle - the vocabulary result, the fade-out, the cost '
+          'objection - and write forty to sixty words stating it at '
+          'exactly the strength the passage supports. Use one hedge, not '
+          'two.',
+    items3=8,
     point='Separating a predictor from a cause',
     explain=('This distinction appears in half the academic passages in this '
              'volume and candidates lose marks by collapsing it. These '
@@ -1231,7 +2448,316 @@ UNIT = dict(
   dict(
    sub='Whether spending can close it',
    step=5,
+   notes=dict(
+    serves='Matching information and Yes/No/Not Given, Reading Part 3; '
+           'Task 2, discuss both views and give your own opinion',
+    because='The Task 2 marks lost at band 6 are lost before a word is '
+            'written: the writer answers the topic instead of the task, '
+            'gives one view fully and the other in a sentence, and '
+            'reaches a conclusion the essay has not earned',
+    skill='Reading a Task 2 question as four separate obligations, and '
+          'planning both views before choosing between them',
+    evidence='Phase 4 measured band 6.5 against band 9 models across six '
+             'volumes; the gap at Task Response is almost always a view '
+             'given in one sentence and then abandoned',
+    watch='Learners will write two paragraphs of their own opinion and '
+          'half a paragraph on the view they disagree with. Ask them to '
+          'count the sentences before they count the words',
+    time='95 minutes, or 70 without the free grammar production'),
+   lead=dict(
+    title='Where would you put the money?',
+    body='This is the last cycle of the unit and the argument has moved '
+         'a long way. Cycle 1 was an admissions page. By cycle 4 the '
+         'question had run back to the age of five, and the obvious '
+         'conclusion was that universities are the wrong place to fix '
+         'anything. That conclusion is what this cycle tests, because '
+         'the money is finite and somebody has to decide.',
+    task='Answer these before you read, and write your answers down. The '
+         'unit review asks you to compare them with what you thought at '
+         'the start.',
+    qs=['If a government had one budget and had to choose between '
+        'nursery places and university bursaries, what should it do?',
+        'Is it acceptable to withhold a programme you believe works, '
+        'from children who need it, in order to find out whether it '
+        'works?',
+        'What would change your mind about any of this? Name the '
+        'evidence.',
+        'Has anything you thought at the start of this unit changed? '
+        'Which cycle changed it?']),
+   vocabwork=dict(
+    title='The language of a trial, and of an objection to one',
+    body='The last vocabulary set of the unit is the smallest and the '
+         'most reusable: it is the language of saying that something was '
+         'tested properly, or that it was not. Every one of these words '
+         'returns in unit 23, where the subject is public health rather '
+         'than schools, and the arguments have the same shape.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='a trial, and its critics',
+                sub='cycle 5 · sixteen words, and nine of them return '
+                    'in unit 23',
+                branches=[('doing it',
+                           ['control group', 'at random', 'cohort',
+                            'fidelity']),
+                          ('what it found',
+                           ['effect size', 'fade-out', 'replicate',
+                            'robust']),
+                          ('doing it elsewhere',
+                           ['scale up', 'dilute', 'generalise',
+                            'context']),
+                          ('objecting to it',
+                           ['withhold', 'unrepresentative', 'cherry-pick',
+                            'falsify'])],
+                note='Cover the four headings. A word you can place is a '
+                     'word you half know; a word you can place and use '
+                     'in a sentence about a different subject is a word '
+                     'you have.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 5 · the stress moves, and so does the '
+                     'meaning',
+                 rows=[(('in-ter-vene', 3), ('in-ter-ven-tion', 3), '',
+                        '', ''),
+                       (('e-va-lu-ate', 2), ('e-va-lu-a-tion', 4),
+                        ('e-va-lu-a-tor', 2), '', ''),
+                       (('ge-ne-ra-lise', 1), ('ge-ne-ra-li-sa-tion', 5),
+                        '', ('ge-ne-ral', 1), ('ge-ne-ral-ly', 1)),
+                       (('re-pli-cate', 1), ('re-pli-ca-tion', 3), '',
+                        ('re-pli-ca-ble', 1), ''),
+                       ('', ('ro-bust-ness', 2), '', ('ro-bust', 2),
+                        ('ro-bust-ly', 2))],
+                 note='Intervention has no adjective in this sense, and '
+                      'learners invent one. Say a programme, or an '
+                      'intervention, and never an interventional '
+                      'measure.'),
+    task='Complete each sentence with a word from the field map or the '
+         'family table, in the right form.',
+    items=[
+     ('The children who got nothing were the ____________ group.',
+      None, 'control'),
+     ('The gain shrank each year until it disappeared: this is '
+      '____________.', None, 'fade-out'),
+     ('A result found again by somebody else has been ____________.',
+      None, 'replicated'),
+     ('A programme that works in one city and not in twenty does not '
+      '____________.', None, 'generalise'),
+     ('Running it everywhere at once is to ____________ it up.',
+      None, 'scale'),
+     ('The noun from evaluate is ____________.', None, 'evaluation'),
+     ('Choosing only the schools that did well is to ____________.',
+      None, 'cherry-pick'),
+     ('A finding that survives every test you can throw at it is '
+      '____________.', None, 'robust')]),
+   builder=dict(
+    skill='Task 2: read the question as four obligations',
+    qkind='skill',
+    explain='Most of the marks lost at Task Response are lost before the '
+            'first sentence is written, and they are lost by answering '
+            'the topic instead of the task. A discuss-both-views '
+            'question contains four separate obligations and an essay '
+            'that meets three of them is capped, however good the '
+            'English is. The topic is what the essay is about. View one '
+            'and view two are two positions that must each be given '
+            'fairly, with a reason, in roughly equal space - and fairly '
+            'means as its own supporters would state it, not as you '
+            'would caricature it. Your own opinion is the fourth '
+            'obligation and it must be present, must be clear, and must '
+            'not simply be one of the two views repeated louder. Take '
+            'sixty seconds before you write. Underline the four parts, '
+            'count the sentences you intend to give each view, and if '
+            'the counts are four and one, change them before you start '
+            'rather than after.',
+    worked=[
+     'QUESTION: Some people think governments should spend on early '
+     'years education rather than on universities. Others believe both '
+     'should be funded equally. Discuss both views and give your own '
+     'opinion.',
+     'Topic: where a finite education budget goes. Not whether '
+     'university is worth it, which is a different essay.',
+     'View one: early years first - and the reason its supporters give '
+     'is that the gap is already open at five.',
+     'View two: both equally - and the reason is that a university '
+     'place is the thing that actually changes an individual life.',
+     'Your task: both, fairly, plus a position of your own. An essay '
+     'that argues only for early years has answered half the question '
+     'and will be marked as having done so.'],
+    figure=dict(kind='taskread', teaches='task-analysis',
+                sub='cycle 5 · the Task 2 question, taken apart',
+                prompt='Some people think governments should spend on '
+                       'early years education rather than on '
+                       'universities. Others believe both should be '
+                       'funded equally. Discuss both views and give '
+                       'your own opinion.',
+                parts=[('THE TOPIC', 'where a finite budget goes',
+                        'what you write about, not what you argue'),
+                       ('VIEW ONE', 'early years first',
+                        'must be given fairly, with its own reason'),
+                       ('VIEW TWO', 'fund both equally',
+                        'must be given fairly, with its own reason'),
+                       ('YOUR TASK', 'discuss both and give your own '
+                        'opinion',
+                        'all three, or Task Response is capped at 5')],
+                misreadings=['An essay on whether university is worth '
+                             'the money.',
+                             'An essay arguing one side and naming the '
+                             'other in a single clause.'],
+                note='The word that costs most marks here is "both". '
+                     'Two paragraphs of your own opinion and none of '
+                     'view one is a band 5 for Task Response however '
+                     'well it is written.'),
+    task='For each question opening, write the four parts: topic, view '
+         'one, view two, and what you must supply. Four short phrases, '
+         'not sentences.',
+    items=[
+     ('Some say exams should be abolished. Others say they are the '
+      'fairest measure we have. Discuss both views and give your own '
+      'opinion.', None, 'exams; abolish; fairest; both plus mine'),
+     ('To what extent do you agree that early intervention is better '
+      'than later support?', None, 'intervention timing; agree; '
+      'disagree; a position'),
+     ('What are the advantages and disadvantages of free university '
+      'tuition?', None, 'free tuition; advantages; disadvantages; no '
+      'opinion'),
+     ('Some think schools should select by ability. Others disagree. '
+      'Discuss both views and give your own opinion.',
+      None, 'selection; select; do not; both plus mine'),
+     ('Why do some students drop out, and what can be done about it?',
+      None, 'dropping out; causes; solutions; no opinion'),
+     ('Governments should fund the arts. Do you agree or disagree?',
+      None, 'arts funding; agree; disagree; one position')],
+    note='Two of the six ask for no opinion at all, and supplying one '
+         'wastes a paragraph you needed for something else. Reading the '
+         'last sentence of the prompt is worth more than any phrase you '
+         'could memorise, and it takes about eight seconds. Notice also '
+         'that three of the six give you the two views and three make '
+         'you supply them. The second kind is harder and nothing on the '
+         'page tells you which kind you have been given, so the sixty '
+         'seconds of planning are not optional - they are where you '
+         'find out what the question is.'),
+   figures=[
+    dict(kind='skeleton', teaches='text-structure',
+         title='Six hundred words, in six boxes',
+         sub='cycle 5 · the last passage of the unit',
+         paras=[('A', 'context', 'The budget is finite and must be '
+                 'split'),
+                ('B', 'claim', 'The early-years case, at its strongest'),
+                ('C', 'evidence', 'Two trials, and what happened after '
+                 'them'),
+                ('D', 'concession', 'Fade-out is real and is not the '
+                 'end of it'),
+                ('E', 'counter-claim', 'The university case, also at '
+                 'its strongest'),
+                ('F', 'consequence', 'Why the author refuses to choose')],
+         note='Paragraph F is the one students misread. The writer '
+              'declines to choose and gives a reason for declining; '
+              'that is a position, not an absence of one. A passage '
+              'that ends without picking a side has not failed to '
+              'finish. It has argued that the question is wrongly put, '
+              'which is itself an argument and is examined as one.'),
+    dict(kind='ladder', teaches='band-move',
+         criterion='Task Response, on the second view',
+         sub='cycle 5 · the same obligation, three bands',
+         rungs=[('5.5', 'Other people think both should be funded. But I '
+                 'think early years is more important.', ''),
+                ('6.5', 'Others argue that both should be funded '
+                 'equally, since a university place changes an '
+                 'individual life in a way a nursery place cannot.',
+                 'the view is given a reason, so it is a view rather '
+                 'than a label'),
+                ('7.5', 'The case for funding both rests on something '
+                 'the early-years argument cannot supply: a nursery '
+                 'place improves the odds for a cohort, whereas a '
+                 'bursary changes the life of the person who receives '
+                 'it, and a government is answerable to both.',
+                 'the view is given its strongest form, and the '
+                 'contrast is carried inside one sentence')],
+         note='Only the third rung states the opposing view as its own '
+              'supporters would. That is what "discuss both views" '
+              'actually asks for, and it is why the band 7 answer '
+              'spends longer on the side it disagrees with.'),
+   ],
+   advice='In a discuss-both-views question the examiner notices, '
+          'roughly, how much space you gave each view. Two full '
+          'paragraphs for your own side and three lines for the other '
+          'is the commonest band 6 essay there is, and no amount of '
+          'vocabulary lifts it out of band 6, because what is missing '
+          'is not language. Give the view you disagree with its best '
+          'argument - the one its own supporters would give - and then '
+          'answer that argument rather than a weaker one. It costs you '
+          'nothing, it is what the rubric asked for, and it is also, '
+          'incidentally, how arguments are actually won outside '
+          'examinations.',
+   debrief=dict(
+    read=['The matching-information question about cost has two '
+          'candidate paragraphs. One mentions money and one is about '
+          'what the money buys.',
+     'Statement 63 says the author prefers early years. The author '
+     'declines to choose and says why. Declining is a position, and '
+     'test 2 from cycle 2 settles the statement as NO rather than NOT '
+     'GIVEN.',
+     'One statement is a fair summary of paragraph E and attributes it '
+     'to the author. Paragraph E is the author reporting somebody else, '
+     'and the giveaway is a single reporting verb in its first line. '
+     'This is the commonest Yes/No/Not Given trap in Part 3 and it '
+     'catches strong readers rather than weak ones, because a strong '
+     'reader follows the argument and stops tracking whose argument it '
+     'is. Every time a passage says critics argue, it has stopped '
+     'speaking for itself until it says something like even so.'],
+    listen=['The lecturer lists four objections and says the third is '
+            'the only serious one. Questions 68 and 69 both hang on '
+            'that word.',
+     'In the matching task two of the three names are mentioned in the '
+     'first minute and the attributions are settled in the last. The '
+     'recording is built that way on purpose: an answer written down '
+     'early is an answer written before the speaker had finished '
+     'changing her mind.']),
+   outside='Reading a question for what it actually obliges you to do - '
+           'rather than for what it reminds you of - is the skill that '
+           'decides essays, job applications, grant forms, tenders and '
+           'most arguments held across a table. The habit of giving the '
+           'other side its best version is rarer and worth more: it is '
+           'the difference between a person who can be argued with and '
+           'a person who cannot, and almost nobody is taught it on '
+           'purpose.',
+   recycled=['control group', 'evidence', 'cohort', 'robust',
+             'intervention', 'criteria', 'median'],
    read=[
+    dict(preview=True,
+         heading='What a control group is for',
+         kind='Explainer box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='The passage on the next page turns on one piece of method. '
+             'Two hundred words here and the argument in it becomes an '
+             'argument you can take a side in.',
+         paras=[
+          'Suppose a school runs an extra reading hour and the children '
+          'improve. Did the hour do it? They also grew five months older, '
+          'read other things, and were taught by somebody who had just '
+          'been told they were part of an experiment. Any of those could '
+          'have produced the improvement, and the figures cannot tell '
+          'them apart.',
+          'A control group is the answer to that problem and it is a '
+          'crude one. Take the same children, split them at random, give '
+          'half the extra hour and half nothing. Both halves grow older '
+          'and read other things. Only one half gets the hour. Whatever '
+          'difference is left at the end is what the hour did.',
+          'The word at random is doing the work. If the teachers choose '
+          'who gets the hour, they will choose the children they think '
+          'will benefit, and the result will tell you about the '
+          'teachers’ judgement rather than about the hour.',
+          'Nothing about this is free. A control group means deliberately '
+          'withholding something you believe works, from children who '
+          'need it, for a year. That is the objection the passage spends '
+          'two paragraphs on, and it is a serious one.'],
+         items=[
+          ('Without a control group, improvement might be explained by '
+           'the children simply growing ____________.', None, 'older',
+           'Paragraph 1, which lists three rival explanations.'),
+          ('In a controlled trial the children are split at '
+           '____________.', None, 'random',
+           'Paragraph 2, and paragraph 3 says why that word matters.'),
+          ('If teachers choose who takes part, the result measures their '
+           '____________.', None, 'judgement',
+           'Paragraph 3: it would tell you about the teachers rather '
+           'than the hour.')]),
     dict(heading='Three programmes and what happened next',
          kind='Academic passage',
          task='Matching information, Yes/No/Not Given and sentence completion',
@@ -1550,6 +3076,57 @@ UNIT = dict(
                   'outline.',
          lines=18)],
    gram=dict(
+    ref='L10',
+    context=[
+     'From the passage you have just read, which you met earlier in this '
+     'cycle:',
+     'Granted, the early gains fade. Three of the four trials show a '
+     'measurable advantage at seven and almost none at eleven, and no '
+     'honest account of this literature can leave that out. Even so, '
+     'fade-out on a test is not the same as fade-out in a life: the '
+     'children who went through these programmes were likelier to '
+     'finish school and likelier to be employed at thirty, long after '
+     'the test score had stopped showing anything at all.'],
+    notice=[
+     ('Find the two places where the writer concedes something to the '
+      'other side. What word begins each?', 'Granted; and no honest '
+      'account... which concedes inside the same sentence'),
+     ('Which clause does the writer actually believe - the one before '
+      '“Even so” or the one after it?',
+      'the one after, because an English sentence puts its weight at '
+      'the end')],
+    noticetask='Answer both from the paragraph above. The second '
+               'question is the whole of this grammar point.',
+    contrast='A concession is two halves and the second half is the one '
+             'you mean. Put the admission first and your own claim '
+             'second - Although the gains fade, the life outcomes do '
+             'not - and the reader ends holding your point. Reverse '
+             'them and the reader ends holding theirs, which is why a '
+             'paragraph that finishes on a concession reads as a '
+             'surrender even when every sentence in it is true. Two '
+             'traps: Although never takes but in the same sentence, and '
+             'However joins sentences rather than clauses, so “However '
+             'it is expensive, it works” is wrong where “Although it is '
+             'expensive, it works” is right.',
+    task2='Join each pair so that the second idea is the one the reader '
+          'is left holding. Use the word given.',
+    items2=[
+     ('The gains fade. The life outcomes do not. (Although) '
+      '____________',
+      'Although the gains fade, the life outcomes do not.'),
+     ('It is expensive. It is cheaper than the alternative. (Even so) '
+      '____________',
+      'It is expensive. Even so, it is cheaper than the alternative.'),
+     ('Correct: Although it is costly, but the gain is real. '
+      '____________', 'Although it is costly, the gain is real.'),
+     ('Correct: However the sample was small, the result held. '
+      '____________', 'Although the sample was small, the result held.')],
+    task3='Now concede and answer. Take the objection you find hardest '
+          'to dismiss in this cycle - fade-out, cost, or withholding a '
+          'programme from children who need it - state it as its '
+          'defenders would, and then answer it, in sixty to eighty '
+          'words. Concede first, argue second.',
+    items3=10,
     point='Conceding an objection without losing the argument',
     explain=('An essay that ignores the obvious objection reads as if the '
              'writer has not thought about it. These patterns admit the '

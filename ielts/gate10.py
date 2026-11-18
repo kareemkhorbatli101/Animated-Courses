@@ -120,6 +120,12 @@ def blocks(vol, rng, skill):
             continue
         for c in m.UNIT['cycles']:
             for b in c[skill]:
+                # A preview input is a warm-up, not exam practice: it is met
+                # before the exam-length text on the same sub-topic, and
+                # counting its three or four questions in the type census
+                # would let a book claim coverage it has not given.
+                if b.get('preview'):
+                    continue
                 yield b
     names = (('paper%d' % vol, 'paper%da' % vol) if skill == 'read'
              else ('lpaper%d' % vol, 'lpaper%da' % vol))

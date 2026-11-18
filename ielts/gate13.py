@@ -47,6 +47,11 @@ WORD = re.compile(r"[A-Za-z][A-Za-z'-]+")
 # opted in. Volume 3 joins at phase 26, Volume 4 at 31, and so on, each one
 # as its rebuild lands.
 BINDING = set()
+# Phase 19 builds ONE unit completely before the other ninety-five
+# copy it, so the gate has to be bindable at unit granularity too.
+# A unit in BINDING_UNITS fails the build on its own account even
+# while its book is still open.
+BINDING_UNITS = {21}
 
 
 def load(name):
@@ -209,6 +214,12 @@ def report(only=None, detail=False):
         bad += fails
         if vol in BINDING:
             binding += fails
+        else:
+            # a bound unit answers for its own failures even while the rest
+            # of its book is still open
+            pre = tuple('u%d:' % n for n in BINDING_UNITS) + \
+                  tuple('u%d ' % n for n in BINDING_UNITS)
+            binding += [f for f in fails if f.startswith(pre)]
     return bad, binding
 
 
@@ -218,8 +229,10 @@ def main(argv):
     if binding:
         state = 'FAIL - %d in %s' % (len(binding), sorted(BINDING))
     elif bad:
-        state = ('OPEN - %d item(s); binding for %s'
-                 % (len(bad), sorted(BINDING) or 'no book yet'))
+        bound = (['book %d' % v for v in sorted(BINDING)]
+                 + ['unit %d' % n for n in sorted(BINDING_UNITS)])
+        state = ('OPEN - %d item(s); green and binding for %s'
+                 % (len(bad), ', '.join(bound) or 'nothing yet'))
     else:
         state = 'PASS'
     print('\nGATE 13 (a syllabus, not a sequence): %s' % state)

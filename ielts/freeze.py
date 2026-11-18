@@ -55,10 +55,24 @@ def blocks(vol, rng):
             continue
         U = m.UNIT
         for ci, c in enumerate(U['cycles'], 1):
-            for bi, r in enumerate(c['read']):
-                yield ('u%d c%d R%d' % (U['n'], ci, bi), 'read', r)
-            for bi, l in enumerate(c['listen']):
-                yield ('u%d c%d L%d' % (U['n'], ci, bi), 'listen', l)
+            # A preview input is addressed PR0, PL0 and numbered in its own
+            # series, so that adding one to a cycle does not renumber the
+            # exam blocks beneath it. Numbering them together would have
+            # shifted every address in a rebuilt unit by one and buried the
+            # real changes under a hundred and forty spurious ones - the
+            # invariance contract is only worth having while its diff is
+            # readable.
+            for tag, key in (('R', 'read'), ('L', 'listen')):
+                ei = pi = 0
+                for b in c[key]:
+                    if b.get('preview'):
+                        yield ('u%d c%d P%s%d' % (U['n'], ci, tag, pi),
+                               key, b)
+                        pi += 1
+                    else:
+                        yield ('u%d c%d %s%d' % (U['n'], ci, tag, ei),
+                               key, b)
+                        ei += 1
     for nm in ('paper%d' % vol, 'paper%da' % vol, 'paper%db' % vol):
         pm = load(nm)
         if pm:
@@ -110,6 +124,10 @@ def prose(vol, rng):
             if d.get('answers'):
                 out.append(('%s %s answers' % (u, key), _j(d['answers'])))
         out.append((u + ' tip', U['tip']))
+        if U.get('sceneintro'):
+            out.append((u + ' sceneintro', U['sceneintro']))
+        if U.get('field'):
+            out.append((u + ' field', U['field']))
         for ci, c in enumerate(U['cycles'], 1):
             a = '%s c%d' % (u, ci)
             for bi, w in enumerate(c['write']):
@@ -133,17 +151,49 @@ def prose(vol, rng):
                 out.append(('%s G fix faults' % a, _j(g['fix']['faults'])))
             out.append((a + ' vocab', _j(c['vocab'])))
             out.append((a + ' expr', _j(c['expr'])))
-            for bi, r in enumerate(c['read']):
-                out.append(('%s R%d heading' % (a, bi), r['heading']))
-                out.append(('%s R%d task' % (a, bi), r['task']))
-                if r.get('bank'):
-                    out.append(('%s R%d bank' % (a, bi), _j(r['bank'])))
-            for bi, l in enumerate(c['listen']):
-                if l.get('heading'):
-                    out.append(('%s L%d heading' % (a, bi), l['heading']))
-                out.append(('%s L%d task' % (a, bi), l['task']))
-                if l.get('bank'):
-                    out.append(('%s L%d bank' % (a, bi), _j(l['bank'])))
+            # The rebuilt cycle's own teaching. Without these the beats
+            # that the whole rebuild is about - the lead-in, the Skills
+            # builder, the teacher's justification - would be the only
+            # prose in the book a later phase could rewrite in silence.
+            for f in ('advice', 'outside', 'recycled'):
+                if c.get(f):
+                    out.append(('%s %s' % (a, f), _j(c[f])))
+            for f, keys in (('lead', ('title', 'body', 'task', 'qs')),
+                            ('vocabwork', ('title', 'body', 'task',
+                                           'items')),
+                            ('builder', ('skill', 'explain', 'worked',
+                                         'task', 'items', 'note')),
+                            ('notes', ('serves', 'because', 'skill',
+                                       'evidence', 'watch', 'time'))):
+                d = c.get(f)
+                if not d:
+                    continue
+                for kk in keys:
+                    if d.get(kk):
+                        out.append(('%s %s %s' % (a, f, kk), _j(d[kk])))
+            if c.get('debrief'):
+                for kk in sorted(c['debrief']):
+                    out.append(('%s debrief %s' % (a, kk),
+                                _j(c['debrief'][kk])))
+            for f in ('context', 'notice', 'contrast', 'ref',
+                      'task2', 'items2', 'task3'):
+                if g.get(f):
+                    out.append(('%s G %s' % (a, f), _j(g[f])))
+            # Previews are addressed PR0 / PL0 here too, for the reason
+            # given in blocks(): an address scheme that renumbers when a
+            # block is inserted turns every real change into noise.
+            for tag, key in (('R', 'read'), ('L', 'listen')):
+                ei = pi = 0
+                for b in c[key]:
+                    if b.get('preview'):
+                        at, pi = '%s P%s%d' % (a, tag, pi), pi + 1
+                    else:
+                        at, ei = '%s %s%d' % (a, tag, ei), ei + 1
+                    if b.get('heading'):
+                        out.append((at + ' heading', b['heading']))
+                    out.append((at + ' task', b['task']))
+                    if b.get('bank'):
+                        out.append((at + ' bank', _j(b['bank'])))
     for nm in ('wpaper%d' % vol, 'spaper%d' % vol):
         pm = load(nm)
         if pm is None:

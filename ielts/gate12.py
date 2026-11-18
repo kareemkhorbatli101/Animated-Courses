@@ -76,6 +76,13 @@ KIND_TEACHES = {
     'tracker': ('self-assessment',),
     'timeline': ('timeline',),
 }
+# Where a figure hangs. `figure`, `figure2` and `figure3` are the three a
+# block has always been able to carry; `figures` is the list a rebuilt
+# cycle carries; and `scene`, `puzzle` and `unitmap` are the three the
+# rebuilt unit opener carries, each named for what it is because a unit
+# has exactly one of each.
+FIG_KEYS = ('figure', 'figure2', 'figure3', 'figures',
+            'scene', 'puzzle', 'unitmap')
 LONG_PASSAGE = 600        # words; above this a text-structure figure is due
 MIN_FIGS_CYCLE = 4
 MIN_PARAPHRASE_UNIT = 2
@@ -88,6 +95,11 @@ MIN_PARAPHRASE_UNIT = 2
 # opted in. Volume 3 joins at phase 26, Volume 4 at 31, and so on, each one
 # as its rebuild lands.
 BINDING = set()
+# Phase 19 builds ONE unit completely before the other ninety-five
+# copy it, so the gate has to be bindable at unit granularity too.
+# A unit in BINDING_UNITS fails the build on its own account even
+# while its book is still open.
+BINDING_UNITS = {21}
 
 
 def load(n):
@@ -104,11 +116,15 @@ def figures(o, at='', out=None):
 
     A figure is a dict carrying `kind`; `kind` is overloaded in this content
     - a reading block uses it for the text's genre ('Academic passage') -
-    so a figure is only what hangs off a `figure` or `figures` key.
+    so a figure is only what hangs off a `figure`, `figure2`, `figure3` or
+    `figures` key. The numbered variants are not decoration: book.py has
+    rendered up to three figures per block since the series began, and a
+    gate that looked only at `figure` would have let two of every three
+    pass undeclared.
     """
     out = [] if out is None else out
     if isinstance(o, dict):
-        for k in ('figure', 'figures'):
+        for k in FIG_KEYS:
             v = o.get(k)
             if isinstance(v, dict):
                 out.append((at, v))
@@ -117,7 +133,7 @@ def figures(o, at='', out=None):
                     if isinstance(f, dict):
                         out.append(('%s[%d]' % (at, i), f))
         for k, v in o.items():
-            if k not in ('figure', 'figures'):
+            if k not in FIG_KEYS:
                 figures(v, '%s.%s' % (at, k) if at else str(k), out)
     elif isinstance(o, (list, tuple)):
         for i, v in enumerate(o):
@@ -170,26 +186,29 @@ def audit_unit(U):
         # 4. a cycle grows the learner's words
         if not any(t in VOCAB_FAMILY for t in cyc):
             bad.append('%s: no vocabulary figure' % at)
-        # 3. a long passage gets its skeleton
-        for j, b in enumerate(c.get('read') or []):
-            w = passage_words(b)
-            if w >= LONG_PASSAGE:
-                here = [f.get('teaches') for _, f in figures(b, at)]
-                if 'text-structure' not in here:
-                    bad.append('%s R%d: %d-word passage, no text-structure '
-                               'figure' % (at, j, w))
+        # 3. a long passage gets its skeleton. Asked of the CYCLE, not of
+        # the block: the figure is drawn before the passage, where it is
+        # any use, rather than after it where it would be a summary.
+        longest = max([passage_words(b) for b in (c.get('read') or [])
+                       if not b.get('preview')] or [0])
+        if longest >= LONG_PASSAGE and 'text-structure' not in cyc:
+            bad.append('%s: %d-word passage, no text-structure figure'
+                       % (at, longest))
     return bad
 
 
 def audit_vol(vol, rng, detail=False):
-    bad, nfig, taught, anatomy = [], 0, set(), set()
+    bad, bound, nfig, taught, anatomy = [], [], 0, set(), set()
     for n in rng:
         m = load(n)
         if m is None:
             continue
         U = m.UNIT
         nfig += len(figures(U, 'u%d' % n))
-        bad += audit_unit(U)
+        mine = audit_unit(U)
+        bad += mine
+        if n in BINDING_UNITS:
+            bound += mine
         for i, c in enumerate(U['cycles'], 1):
             for skill in ('read', 'listen'):
                 for b in (c.get(skill) or []):
@@ -202,7 +221,7 @@ def audit_vol(vol, rng, detail=False):
     for t in sorted(taught):
         if not any(t.lower() in (a or '').lower() for a in anatomy):
             bad.append('vol %d: %s is tested but never anatomised' % (vol, t))
-    return bad, nfig
+    return bad, bound, nfig
 
 
 def report(only=None, detail=False):
@@ -211,7 +230,7 @@ def report(only=None, detail=False):
         if only and vol != only:
             continue
         name = ('Foundation %d' % (vol - 6)) if vol > 6 else 'Volume %d' % vol
-        fails, nfig = audit_vol(vol, rng, detail)
+        fails, bound, nfig = audit_vol(vol, rng, detail)
         print('%-14s %4d declared figures  %4d failure(s)'
               % (name, nfig, len(fails)))
         for f in (fails if detail else fails[:4]):
@@ -219,8 +238,9 @@ def report(only=None, detail=False):
         if not detail and len(fails) > 4:
             print('     ... and %d more' % (len(fails) - 4))
         bad += fails
+        binding += bound
         if vol in BINDING:
-            binding += fails
+            binding += [f for f in fails if f not in bound]
     return bad, binding
 
 
@@ -230,8 +250,10 @@ def main(argv):
     if binding:
         state = 'FAIL - %d in %s' % (len(binding), sorted(BINDING))
     elif bad:
-        state = ('OPEN - %d item(s); binding for %s'
-                 % (len(bad), sorted(BINDING) or 'no book yet'))
+        bound = (['book %d' % v for v in sorted(BINDING)]
+                 + ['unit %d' % n for n in sorted(BINDING_UNITS)])
+        state = ('OPEN - %d item(s); green and binding for %s'
+                 % (len(bad), ', '.join(bound) or 'nothing yet'))
     else:
         state = 'PASS'
     print('\nGATE 12 (no figure without a job): %s' % state)

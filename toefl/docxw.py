@@ -189,8 +189,13 @@ class Doc:
 
     # ---------- exam furniture ----------
     def mcq(self, n, stem, options):
-        """A four-option item exactly as the 2026 paper lays it out."""
-        self.body.append(para([run('%d.  ' % n, b=True, sz=21), run(stem, b=True, sz=21)],
+        """A four-option item exactly as the 2026 paper lays it out.
+
+        `n` may be a string: a preview question is numbered P1, P2, P3
+        rather than taking a number out of the exam set.
+        """
+        lab = n if isinstance(n, str) else '%d' % n
+        self.body.append(para([run('%s.  ' % lab, b=True, sz=21), run(stem, b=True, sz=21)],
                               '<w:spacing w:after="30" w:before="70"/><w:ind w:left="200"/>'))
         for k, opt in enumerate(options):
             self.body.append(para(
@@ -402,7 +407,7 @@ class Doc:
 
     def why(self, n, right, because):
         """The explained key: not just the letter."""
-        self.body.append(para([run('%d  ' % n, b=True, color=INDIGO, sz=20),
+        self.body.append(para([run('%s  ' % n, b=True, color=INDIGO, sz=20),
                                run('(%s)  ' % right, b=True, color=GREEN, sz=20),
                                run(because, sz=20)],
                               '<w:spacing w:after="46"/><w:ind w:left="200"/>'))

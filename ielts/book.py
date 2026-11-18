@@ -214,18 +214,23 @@ def _figure(d, spec):
     raise ValueError('unknown figure kind %r' % k)
 
 
-def _items(d, items, start, key, skill):
+def _items(d, items, start, key, skill, prefix=''):
+    """`prefix` is 'P' for a preview, whose questions are numbered P1, P2,
+    P3 and take none of the unit's exam numbers: a preview is a warm-up,
+    and numbering it with the exam set would renumber every heading in the
+    unit for the sake of three gaps."""
     n = start
     for it in items:
         stem, opts, ans, why = it[0], it[1], it[2], it[3]
         wrongs = it[4] if len(it) > 4 else None
+        lab = '%s%d' % (prefix, n)
         if opts:
-            d.mcq(n, stem, opts)
-            key.append((n, chr(65 + ans), why, wrongs, opts))
+            d.mcq(lab, stem, opts)
+            key.append((lab, chr(65 + ans), why, wrongs, opts))
         else:
-            d.item('%d.  ' % n, stem)
+            d.item('%s.  ' % lab, stem)
             d.lines(1, 520)
-            key.append((n, ans, why, None, None))
+            key.append((lab, ans, why, None, None))
         n += 1
     return n
 
@@ -335,13 +340,188 @@ def speed_page(d, vol, cfg, units):
     d.page_break_section()
 
 
+# ----------------------------------------------- the rebuilt cycle's beats
+# Every one of these is optional. A unit written before phase 19 carries
+# none of them and renders exactly as it did, which is what lets gate 11
+# bind one unit at a time while the other ninety-five wait their turn.
+
+def _figures(d, spec):
+    """A block may carry one figure, or a list of them."""
+    if isinstance(spec, dict):
+        _figure(d, spec)
+    elif isinstance(spec, (list, tuple)):
+        for f in spec:
+            if isinstance(f, dict):
+                _figure(d, f)
+
+
+
+def _qa(seq):
+    """(stem, answer) from a practice item written either way.
+
+    The exam items in this content are (stem, options, answer, why) and
+    the new teaching exercises - the vocabulary work, the Skills builder,
+    the extra grammar practice - are mostly (stem, None, answer), because
+    writing them in the exam shape keeps one convention in the file. Both
+    end with the answer, so take the first and the last and stop caring.
+    """
+    out = []
+    for it in seq or ():
+        if isinstance(it, (list, tuple)) and len(it) >= 2:
+            out.append((it[0], it[-1]))
+        else:
+            out.append((it, ''))
+    return out
+
+
+def _leadin(d, c, ci):
+    """Beat 1. Three or four questions from the learner's own life.
+
+    The audit found 113 of 124 inputs set cold. This is the cheapest half
+    of the fix: nobody reads well about something they have not yet
+    thought about once.
+    """
+    lead = c.get('lead')
+    if not lead:
+        return
+    d.partbar('Before you start \u00b7 cycle %d' % ci,
+              lead.get('title', 'Think first'), 'reading')
+    d.body_p(lead['body'])
+    d.ex('Exercise  %s' % lead.get('task', 'Answer these with a partner, '
+                                   'or in writing if you are working '
+                                   'alone.'), 'reading')
+    d.items(lead['qs'])
+
+
+def _vocabwork(d, c, ci, key):
+    """Beat 3. The words the main input needs, before it needs them."""
+    vw = c.get('vocabwork')
+    if not vw:
+        return
+    d.partbar('The words first \u00b7 cycle %d' % ci,
+              vw.get('title', 'Vocabulary'), 'reading')
+    if vw.get('body'):
+        d.body_p(vw['body'])
+    _figures(d, vw.get('figure'))
+    _figures(d, vw.get('figure2'))
+    qa = _qa(vw['items'])
+    d.ex('Exercise  %s' % vw['task'], 'reading')
+    d.items([q for q, _ in qa])
+    key.setdefault('vocabulary', []).extend(
+        [('%d.%d' % (ci, i), a, '') for i, (_, a) in enumerate(qa, 1)])
+
+
+def _builder(d, c, ci, key):
+    """Beat 4, and the reason this whole rebuild exists.
+
+    Benchmark factor 15: Complete IELTS teaches a sub-skill, practises it
+    on a short text, and only then sets the exam task. Our cycles went
+    straight to the exam task, so a learner answered eight
+    matching-headings questions having never been taught to match a
+    heading. The practice items here are deliberately NOT in exam format -
+    they carry qkind='skill' and the item census excludes them - because
+    an exam-format exercise is another test, not a lesson.
+    """
+    b = c.get('builder')
+    if not b:
+        return
+    d.partbar('Skills builder \u00b7 cycle %d' % ci, b['skill'], 'reading')
+    d.body_p(b['explain'])
+    _figures(d, b.get('figure'))
+    if b.get('worked'):
+        d.h3('Worked example', D_BLUE)
+        if isinstance(b['worked'], dict):
+            _figure(d, b['worked'])
+        else:
+            for ln in b['worked']:
+                d.body_p(ln)
+    d.ex('Exercise  %s' % b['task'], 'reading')
+    d.cefr('This is not an exam task and it is not marked like one. Do it '
+           'to build the habit; the exam task is on the next page.')
+    if b.get('bank'):
+        d.letterbank(b.get('banklabel', 'Choose from'), b['bank'], D_BLUE)
+    qa = _qa(b['items'])
+    d.items([q for q, _ in qa])
+    key.setdefault('skills', []).extend(
+        [('%d.%d' % (ci, i), a, '') for i, (_, a) in enumerate(qa, 1)])
+
+
+def _advice(d, c):
+    """Beat 6. Forty words on what the examiner rewards here."""
+    if c.get('advice'):
+        d.watchout(c['advice'])
+
+
+def _debrief(d, c, skill):
+    """Beat 7. Why the wrong answers were tempting.
+
+    The wrong-option lines were written in phase 8 and have been sitting in
+    the answer key, where nobody reads them until after they have lost the
+    mark. This brings the reasoning forward onto the page, while the
+    learner still remembers which one tempted them.
+
+    Keyed by skill at cycle level rather than hung on each block: a cycle
+    has one exam reading and one or two exam listenings, and a debrief per
+    block would be four of them a cycle and twenty a unit.
+    """
+    db = (c.get('debrief') or {}).get(skill)
+    if db:
+        d.h3('Why the other answers looked right', D_BLUE)
+        d.bullets(db)
+
+
+def _outside(d, c):
+    """Beat 8. One line on a life that is not an exam.
+
+    Benchmark factor 51. The test is a proxy for something, and a learner
+    who is told what the proxy is for works differently from one who is
+    being drilled.
+    """
+    if c.get('outside'):
+        d.tip('Outside the exam \u00b7 ' + c['outside'])
+
 def render_cycle(d, U, c, ci, key, nq=1):
     """Render one cycle. `nq` is the unit's running question number, so the
     printed numbers match the Questions 30-35 headings the data carries."""
     d.figure(*F.cycle_bar(ci, c['sub'], c['step'], STEP[c['step']]))
 
+    # The rebuilt cycle runs lead-in, preview input, vocabulary, Skills
+    # builder, and only then the exam task. A cycle written before phase 19
+    # has none of the first four and starts where it always did.
+    _leadin(d, c, ci)
+    previews = [b for b in c['read'] if b.get('preview')]
+    previews += [b for b in c['listen'] if b.get('preview')]
+    for b in previews:
+        skill = 'reading' if b in c['read'] else 'listening'
+        d.figure(*F.skill_bar(skill, ci,
+                              b.get('kind') or b.get('part', ''),
+                              'Preview \u00b7 ' + QT.bar_label(
+                                  b, 'read' if skill == 'reading'
+                                  else 'listen')))
+        d.cefr(b.get('why', 'A short text on the same subject as the long '
+                      'one, to meet the idea and some of the words before '
+                      'the exam task asks you to use them.'))
+        _figures(d, b.get('figure'))
+        if skill == 'reading':
+            d.passage(b['heading'], b['paras'],
+                      sum(len(p.split()) for p in b['paras']))
+        else:
+            d.body_p('Listen once. You will hear it again after the exam '
+                     'task if you want it.', i=True)
+        d.ex('Exercise  %s' % b['task'], skill)
+        if b.get('bank'):
+            d.letterbank(b.get('banklabel', 'Choose from'), b['bank'],
+                         D_BLUE if skill == 'reading' else D_AMBER)
+        _items(d, b['items'], 1, key.setdefault('preview', []), skill,
+               prefix='P')
+        d.page_break_section()
+    _vocabwork(d, c, ci, key)
+    _builder(d, c, ci, key)
+    if c.get('figures'):
+        _figures(d, c['figures'])
+
     # ---- reading ----------------------------------------------------------
-    for r in c['read']:
+    for r in [b for b in c['read'] if not b.get('preview')]:
         d.figure(*F.skill_bar('reading', ci, r['kind'],
                                QT.bar_label(r, 'read')))
         if r.get('skill'):
@@ -359,11 +539,13 @@ def render_cycle(d, U, c, ci, key, nq=1):
         if r.get('bank'):
             d.letterbank(r.get('banklabel', 'Choose from'), r['bank'],
                          D_BLUE)
+        _advice(d, c)
         nq = _items(d, r['items'], nq, key.setdefault('reading', []), 'reading')
+        _debrief(d, c, 'read')
         d.page_break_section()
 
     # ---- listening --------------------------------------------------------
-    for l in c['listen']:
+    for l in [b for b in c['listen'] if not b.get('preview')]:
         d.figure(*F.skill_bar('listening', ci, l['part'],
                                QT.bar_label(l, 'listen')))
         if l.get('figure'):
@@ -383,6 +565,7 @@ def render_cycle(d, U, c, ci, key, nq=1):
                          D_AMBER)
         nq = _items(d, l['items'], nq, key.setdefault('listening', []),
                     'listening')
+        _debrief(d, c, 'listen')
         d.body_p('Audio script: at the back of the book. Do not read it '
                  'before you listen.', i=True)
         d.page_break_section()
@@ -466,10 +649,53 @@ def render_cycle(d, U, c, ci, key, nq=1):
     # ---- the language this cycle teaches ----------------------------------
     g = c['gram']
     d.partbar('Grammar · cycle %d' % ci, g['point'], 'writing')
+    # In context, then noticed, then explained, then practised three times.
+    # The old slot was explanation (61 words on average) straight to six
+    # test items, with no text the structure had come out of and nothing
+    # between the pattern and the test.
+    if g.get('context'):
+        d.h3('In context', D_PLUM)
+        d.cefr('This is from the passage or the recording you have just '
+               'met. Read it before you read anything about it.')
+        for para in g['context']:
+            d.body_p(para)
+    if g.get('notice'):
+        d.ex('Exercise  %s' % g.get('noticetask',
+                                    'Answer these from the text above. '
+                                    'Neither can be answered without '
+                                    'seeing the structure.'), 'writing')
+        nqa = _qa(g['notice'])
+        d.items([q for q, _ in nqa])
+        key.setdefault('grammar', []).extend(
+            [('%d.n%d' % (ci, i), a, '') for i, (_, a) in
+             enumerate(nqa, 1)])
     d.body_p(g['explain'])
     d.figure(*F.pattern_box(g['point'], g['examples']))
+    if g.get('contrast'):
+        d.watchout(g['contrast'])
     d.ex('Exercise  %s' % g['task'], 'writing')
     d.items([q for q, _ in g['items']])
+    # Two more exercises: controlled production, then a short free
+    # production tied to this unit's own topic. Recognition alone does not
+    # become use.
+    for extra, head in ((g.get('items2'), g.get('task2')),
+                        (g.get('items3'), g.get('task3'))):
+        if not extra:
+            continue
+        d.ex('Exercise  %s' % head, 'writing')
+        if isinstance(extra, int):
+            d.lines(extra)
+        else:
+            xqa = _qa(extra)
+            d.items([q for q, _ in xqa])
+            key.setdefault('grammar', []).extend(
+                [('%d.x%d' % (ci, i), a, '') for i, (_, a) in
+                 enumerate(xqa, 1)])
+    if g.get('ref'):
+        d.body_p('\u2192 Language reference, entry %s, at the back of this '
+                 'book: the full pattern, the three mistakes people make '
+                 'with it at this band, and eight more questions with '
+                 'answers.' % g['ref'], i=True)
     # Error correction. The paragraph is written at about band 6 and has
     # three faults in it. Finding somebody else's error is the step between
     # knowing the rule and using it, and it is the exercise this series had
@@ -481,8 +707,12 @@ def render_cycle(d, U, c, ci, key, nq=1):
         d.faultline(g['fix']['text'], g['fix']['faults'])
     key.setdefault('grammar', []).extend(
         [('%d.%d' % (ci, i), a, '') for i, (_, a) in enumerate(g['items'], 1)])
+    _outside(d, c)
     d.h3('Vocabulary from this cycle', D_INDIGO)
     d.wordlist(c['vocab'], 2, D_INDIGO)
+    if c.get('recycled'):
+        d.wordbank('Met again from earlier in this book:', c['recycled'],
+                   D_TEAL)
     d.h3('Expressions', D_TEAL)
     d.wordlist(c['expr'], 1, D_TEAL)
     d.wordbank('Transitions used in this cycle:', c['trans'], D_PERI)
@@ -499,6 +729,26 @@ def render_unit(d, U):
            % U['level'])
     d.figure(*F.unit_opener(U['n'], U['theme'], [c['sub'] for c in U['cycles']]))
     d.body_p(U['opener'])
+    # The unit opener, rebuilt: what is in the unit, something to name
+    # before anything is read, and one number worth being curious about.
+    # A reader could previously not see what was in front of them at all -
+    # there is no contents page in any of the eight books, and no unit in
+    # the series says what it contains.
+    if U.get('unitmap'):
+        _figure(d, U['unitmap'])
+    if U.get('scene'):
+        d.partbar('Before the unit', 'What is in this picture', 'reading')
+        d.body_p(U.get('sceneintro',
+                       'Eight things, and the words for them. You will '
+                       'meet every one of these words in the next five '
+                       'cycles, so two minutes here saves ten later.'))
+        _figure(d, U['scene'])
+        if U['scene'].get('answers'):
+            key.setdefault('opener', []).extend(
+                [(i, a, '') for i, a in
+                 enumerate(U['scene']['answers'], 1)])
+    if U.get('puzzle'):
+        _figure(d, U['puzzle'])
     d.page_break_section()
     nq = 1
     for ci, c in enumerate(U['cycles'], 1):
@@ -903,6 +1153,30 @@ def back_matter(d, vol, units, ukeys):
                 if wrongs:
                     for kk in sorted(wrongs):
                         d.wrongline('ABCDEFGH'[kk], wrongs[kk])
+        # The rebuilt cycle's own exercises. Their answers belong in the
+        # same key as everything else: an exercise whose answers are
+        # nowhere is an exercise a learner working alone cannot do, and
+        # most learners using this book are working alone.
+        if k.get('preview'):
+            d.h3('Preview input', D_TEAL)
+            for ent in k['preview']:
+                num, ans, why = ent[0], ent[1], ent[2]
+                if why:
+                    d.why(num, ans, why)
+                else:
+                    d.keyline(str(num), ans)
+        if k.get('opener'):
+            d.h3('Unit opener · the picture', D_INDIGO)
+            for num, ans, _ in k['opener']:
+                d.keyline(str(num), ans)
+        if k.get('vocabulary'):
+            d.h3('Vocabulary work', D_INDIGO)
+            for num, ans, _ in k['vocabulary']:
+                d.keyline(str(num), ans)
+        if k.get('skills'):
+            d.h3('Skills builder', D_BLUE)
+            for num, ans, _ in k['skills']:
+                d.keyline(str(num), ans)
         if k.get('grammar'):
             d.h3('Grammar', D_PLUM)
             for num, ans, _ in k['grammar']:
