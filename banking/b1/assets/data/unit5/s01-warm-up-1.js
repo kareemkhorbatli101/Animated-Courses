@@ -13,43 +13,45 @@ BNK.page('u5-s01', {
       ref: 'W-A',
       bookRef: 'Unit 5 · W-A',
       visual: { spot: 'atm' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Digital banking (discussion)',
       instruction: 'In small groups, talk about how you use banking on a phone or computer.',
-      items: [{ q: '1. What do you do on the app, and what do you still do at the branch?',
-          accept: ['What do you do on the app, and what do you still do at the branch?'],
-          keys: ['still',
-              'branch'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What do your customers find hardest about the app?',
-          accept: ['What do your customers find hardest about the app?'],
-          keys: ['customers',
-              'hardest'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on',
-      model: ['I check my balance on the app every morning. I pay my bills online, '
-        + 'but I still go to the branch for cash.']
+      questions: [{
+            q: 'What do you do on the app, and what do you still do at the branch?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What do your customers find hardest about the app?',
+            minWords: 6,
+            rows: 2
+          }],
+      ideas: ['I check my balance on the app every morning. I pay my bills online, '
+        + 'but I still go to the branch for cash.'],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
       ref: 'W-B',
       bookRef: 'Unit 5 · W-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Quick survey',
       instruction: 'Ask three classmates and note their answers. Two minutes '
   + 'only.<br>Useful words: Use the words log in, password, code, app and '
   + 'transfer in your answers.',
-      items: [{ q: '1. Do you use the app every day, every week, or rarely?',
-          accept: ['Do you use the app every day, every week, or rarely?'],
-          keys: ['every',
-              'every'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What is the one thing you wish the app could do?',
-          accept: ['What is the one thing you wish the app could do?'],
-          keys: ['thing',
-              'could'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Do you use the app every day, every week, or rarely?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the one thing you wish the app could do?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

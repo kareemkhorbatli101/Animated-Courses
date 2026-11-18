@@ -68,24 +68,26 @@ BNK.page('u4-s14', {
       id: 'c3',
       ref: '7B',
       bookRef: 'Unit 4 · 7B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Listening — briefing the team',
       instruction: 'Answer the questions.',
-      items: [{ q: '1. What is the main difference from the Step Saver?',
-          accept: ['What is the main difference from the Step Saver?'],
-          keys: ['difference',
-              'saver'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What is the team’s target?',
-          accept: ['What is the team’s target?'],
-          keys: ['target'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What should staff say if a customer asks about fees?',
-          accept: ['What should staff say if a customer asks about fees?'],
-          keys: ['should',
-              'staff'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What is the main difference from the Step Saver?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the team’s target?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What should staff say if a customer asks about fees?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',

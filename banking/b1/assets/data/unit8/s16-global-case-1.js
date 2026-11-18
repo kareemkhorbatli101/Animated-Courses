@@ -14,29 +14,31 @@ BNK.page('u8-s16', {
       ref: '8A',
       bookRef: 'Unit 8 · 8A',
       visual: { spot: 'kyc-check' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. Why did one customer have to prove who he was twice?',
-          accept: ['Why did one customer have to prove who he was twice?'],
-          keys: ['customer',
-              'prove'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why could the bank not build a single identity check?',
-          accept: ['Why could the bank not build a single identity check?'],
-          keys: ['could',
-              'build'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What did the bank build instead?',
-          accept: ['What did the bank build instead?'],
-          keys: ['build',
-              'instead'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What is the lesson of the case?',
-          accept: ['What is the lesson of the case?'],
-          keys: ['lesson'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Why did one customer have to prove who he was twice?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why could the bank not build a single identity check?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What did the bank build instead?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the lesson of the case?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -71,21 +73,22 @@ BNK.page('u8-s16', {
       id: 'c3',
       ref: '8C',
       bookRef: 'Unit 8 · 8C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Discussion',
       instruction: 'Frames: “In my country the regulator requires ___.” “This would be '
   + 'easier if ___.”',
-      items: [{ q: '1. Do your customers ever bank in more than one country?',
-          accept: ['Do your customers ever bank in more than one country?'],
-          keys: ['customers',
-              'country'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What document is accepted everywhere, in your experience?',
-          accept: ['What document is accepted everywhere, in your experience?'],
-          keys: ['document',
-              'accepted'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Do your customers ever bank in more than one country?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What document is accepted everywhere, in your experience?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

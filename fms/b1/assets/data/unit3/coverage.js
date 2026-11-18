@@ -47,7 +47,7 @@ FMS.coverage('unit3', [
     keyed: true, scene: false, title: 'Discussion: Staying Honest and Forward-Looking' },
   { code: '5A', ord: 20, type: 'highlighter', kind: 'full', items: 4,
     keyed: true, scene: false, title: 'Read: A Ministry\'s Diplomatic Year, 2024–2025' },
-  { code: '5B', ord: 21, type: 'shortanswer', kind: 'full', items: 4,
+  { code: '5B', ord: 21, type: 'discuss', kind: 'full', items: 4,
     keyed: true, scene: false, title: 'Reading Comprehension: Discussion Questions' },
   { code: '5C', ord: 22, type: 'cloze', kind: 'full', items: 6,
     keyed: true, scene: false, title: 'Language in Context: Passive Voice in Diplomatic Writing' },

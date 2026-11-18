@@ -167,29 +167,31 @@ BNK.page('u2-s10', {
       id: 'c3',
       ref: '5C',
       bookRef: 'Unit 2 · 5C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'A training dialogue',
       instruction: 'Read the short training dialogue between a manager and a new teller.',
-      items: [{ q: '1. What should Ana do first with every customer?',
-          accept: ['What should Ana do first with every customer?'],
-          keys: ['should',
-              'first'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What should she do if a customer is angry?',
-          accept: ['What should she do if a customer is angry?'],
-          keys: ['should',
-              'customer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What can she say if she does not know the answer?',
-          accept: ['What can she say if she does not know the answer?'],
-          keys: ['answer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What is more important, being correct or being fast?',
-          accept: ['What is more important, being correct or being fast?'],
-          keys: ['important',
-              'being'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What should Ana do first with every customer?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What should she do if a customer is angry?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What can she say if she does not know the answer?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is more important, being correct or being fast?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

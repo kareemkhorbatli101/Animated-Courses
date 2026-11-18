@@ -14,25 +14,26 @@ BNK.page('u8-s18', {
       ref: '9A',
       bookRef: 'Unit 8 · 9A',
       visual: { spot: 'branch-plan' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. Where does Mr de Groot say the money came from?',
-          accept: ['Where does Mr de Groot say the money came from?'],
-          keys: ['where',
-              'groot'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What cannot he provide?',
-          accept: ['What cannot he provide?'],
-          keys: ['cannot',
-              'provide'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why can Sanne not ask the compliance officer now?',
-          accept: ['Why can Sanne not ask the compliance officer now?'],
-          keys: ['sanne',
-              'compliance'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Where does Mr de Groot say the money came from?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What cannot he provide?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why can Sanne not ask the compliance officer now?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

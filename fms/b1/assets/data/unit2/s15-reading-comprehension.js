@@ -15,76 +15,61 @@ FMS.page('u2-s15', {
   next: 's16-writing-models', nextLabel: 'Part 6 - Writing, the models',
   cards: [
     {
-      id: 'c1',
-      covers: ['Part 5'],
-      ref: '5B',
-      bookRef: 'Unit 2 · Part 5 · 5B',
-      type: 'shortanswer',
-      title: 'Reading Comprehension: Discussion Questions',
-      instruction: 'In pairs or small groups, discuss the questions below about the working '
+    id: 'c1',
+    covers: ['Part 5'],
+    ref: '5B',
+    bookRef: 'Unit 2 · Part 5 · 5B',
+    type: 'discuss',
+    title: 'Reading Comprehension: Discussion Questions',
+    instruction: 'In pairs or small groups, discuss the questions below about the working '
         + 'group session. (Aim for 3–4 sentences per answer.)',
-      items: [{ q: '1. What made this working group session successful, and which factor do '
-            + 'you think was most important?',
-          accept: ['The six weeks of preparation made the session successful. The agenda was '
-              + 'circulated five days in advance, so both sides came prepared. The most '
-              + 'important factor was that the coordination problems were solved before the '
-              + 'delegation arrived. Preparation here means the unglamorous part — the '
-              + 'agenda, the clearances, the room — rather than the substantive briefing.'],
-          keys: ['working',
-            'group'], need: 1,
-          evidence: 'The book\'s own answer is: “The six weeks of preparation made the session '
-            + 'successful. The agenda was circulated five days in advance, so both sides '
-            + 'came prepared. The most important factor was that the coordination '
-            + 'problems were solved before the delegation arrived. Preparation here means '
-            + 'the unglamorous part — the agenda, the clearances, the room — rather than '
-            + 'the substantive briefing.”' },
-        { q: '2. What was Salma Benali\'s specific contribution to the session\'s '
-            + 'success? What qualities did her role require?',
-          accept: ['Salma\'s contribution was to solve both coordination problems quietly and '
-              + 'to distribute the summary within 24 hours. Her role required attention to '
-              + 'detail, quick decisions, and the ability to communicate problems '
-              + 'professionally without alarming the other side. She also had to keep the '
-              + 'Director informed without escalating every detail to him.'],
-          keys: ['salma',
-            'benali'], need: 1,
-          evidence: 'The book\'s own answer is: “Salma\'s contribution was to solve both '
-            + 'coordination problems quietly and to distribute the summary within 24 '
-            + 'hours. Her role required attention to detail, quick decisions, and the '
-            + 'ability to communicate problems professionally without alarming the other '
-            + 'side. She also had to keep the Director informed without escalating every '
-            + 'detail to him.”' },
-        { q: '3. What would you have done differently in the coordination of this '
-            + 'session?',
-          accept: ['I would have confirmed the interpretation requirements in the very first '
-              + 'coordination call instead of waiting. I would also have built a one-hour '
-              + 'buffer into the schedule for overruns. And I would have prepared a '
-              + 'contingency room plan from week one rather than after the problem '
-              + 'appeared.'],
-          keys: ['would',
-            'differently'], need: 1,
-          evidence: 'The book\'s own answer is: “I would have confirmed the interpretation '
-            + 'requirements in the very first coordination call instead of waiting. I '
-            + 'would also have built a one-hour buffer into the schedule for overruns. '
-            + 'And I would have prepared a contingency room plan from week one rather '
-            + 'than after the problem appeared.”' },
-        { q: '4. What does this working group session signal about the ministry\'s '
-            + 'capacity to manage serious bilateral partnerships?',
-          accept: ['This session signals that the ministry has trained professionals who can '
-              + 'manage high-level bilateral sessions. The country is engaging '
-              + 'substantively on infrastructure priorities — not just exchanging '
-              + 'declarations. The signed document with a timeline signals institutional '
-              + 'follow-through. It also signals that the ministry can absorb a problem '
-              + 'without the partner noticing.'],
-          keys: ['working',
-            'group'], need: 1,
-          evidence: 'The book\'s own answer is: “This session signals that the ministry has '
-            + 'trained professionals who can manage high-level bilateral sessions. The '
-            + 'country is engaging substantively on infrastructure priorities — not just '
-            + 'exchanging declarations. The signed document with a timeline signals '
-            + 'institutional follow-through. It also signals that the ministry can absorb '
-            + 'a problem without the partner noticing.”' }],
-      whyTitle: 'What each answer rests on'
-    },
+    questions: [{
+          q: 'What made this working group session successful, and which factor do you '
+            + 'think was most important?',
+          model: 'The six weeks of preparation made the session successful. The agenda was '
+            + 'circulated five days in advance, so both sides came prepared. The most '
+            + 'important factor was that the coordination problems were solved before the '
+            + 'delegation arrived. Preparation here means the unglamorous part — the '
+            + 'agenda, the clearances, the room — rather than the substantive briefing.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'What was Salma Benali\'s specific contribution to the session\'s success? '
+            + 'What qualities did her role require?',
+          model: 'Salma\'s contribution was to solve both coordination problems quietly and '
+            + 'to distribute the summary within 24 hours. Her role required attention to '
+            + 'detail, quick decisions, and the ability to communicate problems '
+            + 'professionally without alarming the other side. She also had to keep the '
+            + 'Director informed without escalating every detail to him.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'What would you have done differently in the coordination of this session?',
+          model: 'I would have confirmed the interpretation requirements in the very first '
+            + 'coordination call instead of waiting. I would also have built a one-hour '
+            + 'buffer into the schedule for overruns. And I would have prepared a '
+            + 'contingency room plan from week one rather than after the problem '
+            + 'appeared.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'What does this working group session signal about the ministry\'s capacity '
+            + 'to manage serious bilateral partnerships?',
+          model: 'This session signals that the ministry has trained professionals who can '
+            + 'manage high-level bilateral sessions. The country is engaging '
+            + 'substantively on infrastructure priorities — not just exchanging '
+            + 'declarations. The signed document with a timeline signals institutional '
+            + 'follow-through. It also signals that the ministry can absorb a problem '
+            + 'without the partner noticing.',
+          minWords: 6,
+          rows: 3
+        }],
+    okMsg: 'Your answers are saved. Press “Show me” to put the book\'s answer beside '
+      + 'your own.'
+  },
     {
       id: 'c2',
       covers: ['Part 5'],

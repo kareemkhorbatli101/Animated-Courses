@@ -14,24 +14,26 @@ BNK.page('u5-s18', {
       ref: '9A',
       bookRef: 'Unit 5 · 9A',
       visual: { spot: 'branch-plan' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. Why is the policy not working in the villages?',
-          accept: ['Why is the policy not working in the villages?'],
-          keys: ['policy',
-              'working'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What happened to the first customer’s payment?',
-          accept: ['What happened to the first customer’s payment?'],
-          keys: ['happened',
-              'first'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why does the bank want payments made in the app?',
-          accept: ['Why does the bank want payments made in the app?'],
-          keys: ['payments'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Why is the policy not working in the villages?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What happened to the first customer’s payment?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does the bank want payments made in the app?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

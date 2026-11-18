@@ -13,25 +13,26 @@ BNK.page('u6-s18', {
       ref: '9A',
       bookRef: 'Unit 6 · 9A',
       visual: { spot: 'branch-plan' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. Why has the correspondent bank not released the money?',
-          accept: ['Why has the correspondent bank not released the money?'],
-          keys: ['correspondent',
-              'released'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Who has to ask for the payment to be fixed?',
-          accept: ['Who has to ask for the payment to be fixed?'],
-          keys: ['payment',
-              'fixed'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why can Priya not use the hardship fund straight away?',
-          accept: ['Why can Priya not use the hardship fund straight away?'],
-          keys: ['priya',
-              'hardship'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Why has the correspondent bank not released the money?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Who has to ask for the payment to be fixed?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why can Priya not use the hardship fund straight away?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

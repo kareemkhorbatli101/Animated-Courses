@@ -38,41 +38,44 @@ BNK.page('u1-s01', {
       id: 'c2',
       ref: 'W-B',
       bookRef: 'Unit 1 · W-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Banking where you live (discussion)',
       instruction: 'Talk about banking where you live. Useful frame: “In my city there '
   + 'are ___ banks, such as ___.”',
-      items: [{ q: '1. What kinds of banks are there in your country?',
-          accept: ['What kinds of banks are there in your country?'],
-          keys: ['kinds',
-              'banks'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Do you or your family use any banking services? Which ones?',
-          accept: ['Do you or your family use any banking services? Which ones?'],
-          keys: ['family',
-              'banking'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What kinds of banks are there in your country?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Do you or your family use any banking services? Which ones?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',
       ref: 'W-C',
       bookRef: 'Unit 1 · W-C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'My Banking Experience (pairs)',
       instruction: 'Share a recent visit to a bank (in person or online).',
-      items: [{ q: '1. Was it a good or bad experience? Why?',
-          accept: ['Was it a good or bad experience? Why?'],
-          keys: ['experience'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What was the job title of the person who helped you?',
-          accept: ['What was the job title of the person who helped you?'],
-          keys: ['title',
-              'person'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on',
-      model: ['Last week I visited my bank to pay a bill. A teller helped me, and it '
-        + 'was a good experience.']
+      questions: [{
+            q: 'Was it a good or bad experience? Why?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What was the job title of the person who helped you?',
+            minWords: 6,
+            rows: 2
+          }],
+      ideas: ['Last week I visited my bank to pay a bill. A teller helped me, and it '
+        + 'was a good experience.'],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

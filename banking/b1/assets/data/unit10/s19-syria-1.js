@@ -31,24 +31,26 @@ BNK.page('u10-s19', {
       id: 'c2',
       ref: 'S-B',
       bookRef: 'Unit 10 · S-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Answer the questions',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What does the workshop need the bank for?',
-          accept: ['What does the workshop need the bank for?'],
-          keys: ['workshop'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does the bank itself depend on?',
-          accept: ['What does the bank itself depend on?'],
-          keys: ['itself',
-              'depend'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What three things does the meeting note record?',
-          accept: ['What three things does the meeting note record?'],
-          keys: ['three',
-              'things'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What does the workshop need the bank for?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does the bank itself depend on?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What three things does the meeting note record?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',

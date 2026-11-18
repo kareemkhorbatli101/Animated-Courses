@@ -14,36 +14,37 @@ BNK.page('u8-s10', {
       ref: '5A',
       bookRef: 'Unit 8 · 5A',
       visual: { spot: 'kyc-check' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'A staff compliance guide',
       instruction: 'Read the staff guide. Notice must, mustn’t and don’t have '
   + 'to.<br>Answer the questions.',
-      items: [{ q: '1. What must you do if an international rule and a local rule differ?',
-          accept: ['What must you do if an international rule and a local rule differ?'],
-          keys: ['international',
-              'local'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What two things must be done before an account is opened?',
-          accept: ['What two things must be done before an account is opened?'],
-          keys: ['things',
-              'before'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. When don’t you have to ask for a second document?',
-          accept: ['When don’t you have to ask for a second document?'],
-          keys: ['second',
-              'document'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What must you do if you are unsure whether something is unusual?',
-          accept: ['What must you do if you are unsure whether something is unusual?'],
-          keys: ['unsure',
-              'whether'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. Why mustn’t staff tell a customer that a report has been made?',
-          accept: ['Why mustn’t staff tell a customer that a report has been made?'],
-          keys: ['mustn',
-              'staff'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What must you do if an international rule and a local rule differ?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What two things must be done before an account is opened?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'When don’t you have to ask for a second document?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What must you do if you are unsure whether something is unusual?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why mustn’t staff tell a customer that a report has been made?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -89,25 +90,26 @@ BNK.page('u8-s10', {
       id: 'c3',
       ref: '5C',
       bookRef: 'Unit 8 · 5C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Why the rules protect you',
       instruction: 'Read the short note. Who do the rules protect?',
-      items: [{ q: '1. Who do new staff think the rules protect?',
-          accept: ['Who do new staff think the rules protect?'],
-          keys: ['staff',
-              'think'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What happens if you escalate something that turns out to be nothing?',
-          accept: ['What happens if you escalate something that turns out to be nothing?'],
-          keys: ['happens',
-              'escalate'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. How do the rules protect staff from pressure?',
-          accept: ['How do the rules protect staff from pressure?'],
-          keys: ['rules',
-              'protect'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Who do new staff think the rules protect?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What happens if you escalate something that turns out to be nothing?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How do the rules protect staff from pressure?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

@@ -70,27 +70,27 @@ BNK.page('u7-s14', {
       id: 'c3',
       ref: '7B',
       bookRef: 'Unit 7 · 7B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Listening — a staff briefing',
       instruction: 'Answer the questions.',
-      items: [{ q: '1. What does the caller ask the customer to do?',
-          accept: ['What does the caller ask the customer to do?'],
-          keys: ['caller',
-              'customer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What should staff do if a customer wants to move everything to a '
-              + 'new account?',
-          accept: ['What should staff do if a customer wants to move everything to a new '
-                + 'account?'],
-          keys: ['should',
-              'staff'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What is the rule for amounts over five thousand?',
-          accept: ['What is the rule for amounts over five thousand?'],
-          keys: ['amounts',
-              'thousand'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What does the caller ask the customer to do?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What should staff do if a customer wants to move everything to a new '
+              + 'account?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the rule for amounts over five thousand?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',
@@ -100,12 +100,33 @@ BNK.page('u7-s14', {
       title: 'Controlled practice — advice with conditionals',
       instruction: 'Rewrite each note as advice for a colleague. Use a zero or first '
   + 'conditional.',
-      minWords: 12,
-      questions: [{ q: 'Caller claims to be from the fraud team.' },
-      { q: 'Customer wants to move everything to a new account.' },
-      { q: 'Transfer is over five thousand.' },
-      { q: 'Customer has already shared a one-time code.' },
-      { q: 'Staff member is not sure whether it is fraud.' }]
+      questions: [{
+            q: 'Caller claims to be from the fraud team.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Customer wants to move everything to a new account.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Transfer is over five thousand.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Customer has already shared a one-time code.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Staff member is not sure whether it is fraud.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

@@ -33,25 +33,26 @@ BNK.page('u1-s19', {
       id: 'c2',
       ref: 'S-B',
       bookRef: 'Unit 1 · S-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Answer the questions',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. How many staff at the Damascus branch face customers directly?',
-          accept: ['How many staff at the Damascus branch face customers directly?'],
-          keys: ['staff',
-              'damascus'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why does Rana want English at the branch when customers speak Arabic?',
-          accept: ['Why does Rana want English at the branch when customers speak Arabic?'],
-          keys: ['english',
-              'branch'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Which two groups of staff does Rana treat differently, and why?',
-          accept: ['Which two groups of staff does Rana treat differently, and why?'],
-          keys: ['which',
-              'groups'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'How many staff at the Damascus branch face customers directly?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does Rana want English at the branch when customers speak Arabic?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Which two groups of staff does Rana treat differently, and why?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',

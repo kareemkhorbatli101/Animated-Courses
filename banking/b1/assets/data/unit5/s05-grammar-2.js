@@ -18,10 +18,23 @@ BNK.page('u5-s05', {
       type: 'discuss',
       title: 'Active to passive',
       instruction: 'Rewrite these three notices in the passive, so they sound official.',
-      minWords: 12,
-      questions: [{ q: 'We check all transfers over 1,000.' },
-      { q: 'We sent your new card yesterday.' },
-      { q: 'We do not accept payments after 23:00.' }]
+      questions: [{
+            q: 'We check all transfers over 1,000.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'We sent your new card yesterday.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'We do not accept payments after 23:00.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

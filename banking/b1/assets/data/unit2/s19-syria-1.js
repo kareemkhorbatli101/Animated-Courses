@@ -30,24 +30,26 @@ BNK.page('u2-s19', {
       id: 'c2',
       ref: 'S-B',
       bookRef: 'Unit 2 · S-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Answer the questions',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What does Abu Samir say he wants to know?',
-          accept: ['What does Abu Samir say he wants to know?'],
-          keys: ['samir',
-              'wants'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does Lina offer that makes the first step smaller?',
-          accept: ['What does Lina offer that makes the first step smaller?'],
-          keys: ['offer',
-              'makes'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why does Lina not argue with him?',
-          accept: ['Why does Lina not argue with him?'],
-          keys: ['argue'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What does Abu Samir say he wants to know?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does Lina offer that makes the first step smaller?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does Lina not argue with him?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',

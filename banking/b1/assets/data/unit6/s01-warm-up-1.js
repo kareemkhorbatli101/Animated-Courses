@@ -13,22 +13,23 @@ BNK.page('u6-s01', {
       ref: 'W-A',
       bookRef: 'Unit 6 · W-A',
       visual: { spot: 'rate-board' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Changing and sending money (discussion)',
       instruction: 'In small groups, talk about moving money between countries.',
-      items: [{ q: '1. Who in your country receives money from abroad, and why?',
-          accept: ['Who in your country receives money from abroad, and why?'],
-          keys: ['country',
-              'receives'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What do people worry about most: the rate, the fee, or the time?',
-          accept: ['What do people worry about most: the rate, the fee, or the time?'],
-          keys: ['people',
-              'worry'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on',
-      model: ['My cousin works abroad and sends money home every month. He uses the '
-        + 'bank because it is safer, even though it is a little slower.']
+      questions: [{
+            q: 'Who in your country receives money from abroad, and why?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What do people worry about most: the rate, the fee, or the time?',
+            minWords: 6,
+            rows: 2
+          }],
+      ideas: ['My cousin works abroad and sends money home every month. He uses the '
+        + 'bank because it is safer, even though it is a little slower.'],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -38,10 +39,19 @@ BNK.page('u6-s01', {
       title: 'Polite questions (think–pair)',
       instruction: 'Think for one minute, then compare with a partner.<br>Useful words: '
   + 'Use the words rate, fee, transfer and exchange in your answers.',
-      minWords: 12,
-      questions: [{ q: 'Which sounds better to a customer: “What is the rate?” or “Could you '
-            + 'tell me what the rate is?”' },
-      { q: 'Why does a bank use longer, politer questions?' }]
+      questions: [{
+            q: 'Which sounds better to a customer: “What is the rate?” or “Could you '
+              + 'tell me what the rate is?”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does a bank use longer, politer questions?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

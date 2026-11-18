@@ -14,35 +14,36 @@ BNK.page('u2-s16', {
       ref: '8A',
       bookRef: 'Unit 2 · 8A',
       visual: { spot: 'queue' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. Why does using a customer’s name help?',
-          accept: ['Why does using a customer’s name help?'],
-          keys: ['using',
-              'customer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does ‘first-contact resolution’ mean?',
-          accept: ['What does ‘first-contact resolution’ mean?'],
-          keys: ['first',
-              'contact'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What happened to complaints after one year?',
-          accept: ['What happened to complaints after one year?'],
-          keys: ['happened',
-              'complaints'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. How did the bank find out customers’ opinions?',
-          accept: ['How did the bank find out customers’ opinions?'],
-          keys: ['customers',
-              'opinions'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. What lesson did the bank learn?',
-          accept: ['What lesson did the bank learn?'],
-          keys: ['lesson',
-              'learn'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Why does using a customer’s name help?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does ‘first-contact resolution’ mean?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What happened to complaints after one year?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How did the bank find out customers’ opinions?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What lesson did the bank learn?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -77,21 +78,22 @@ BNK.page('u2-s16', {
       id: 'c3',
       ref: '8C',
       bookRef: 'Unit 2 · 8C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Discussion',
       instruction: 'Frames: “This is similar to a bank in my country because ___.” “This '
   + 'is different because ___.”',
-      items: [{ q: '1. Would greeting customers by name work in your bank? Why / why not?',
-          accept: ['Would greeting customers by name work in your bank? Why / why not?'],
-          keys: ['would',
-              'greeting'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Which of the three rules is easiest to start today?',
-          accept: ['Which of the three rules is easiest to start today?'],
-          keys: ['which',
-              'three'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Would greeting customers by name work in your bank? Why / why not?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Which of the three rules is easiest to start today?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

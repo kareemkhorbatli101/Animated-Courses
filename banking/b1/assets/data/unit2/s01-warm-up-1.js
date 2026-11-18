@@ -14,29 +14,29 @@ BNK.page('u2-s01', {
       ref: 'W-A',
       bookRef: 'Unit 2 · W-A',
       visual: { spot: 'queue' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Good and bad service (discussion)',
       instruction: 'In small groups, talk about customer service you have received.',
-      items: [{ q: '1. Think of good service you received at a bank or shop. What did the '
+      questions: [{
+            q: 'Think of good service you received at a bank or shop. What did the '
               + 'person do well?',
-          accept: ['Think of good service you received at a bank or shop. What did the '
-                + 'person do well?'],
-          keys: ['think',
-              'service'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Think of poor service. What went wrong?',
-          accept: ['Think of poor service. What went wrong?'],
-          keys: ['think',
-              'service'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What are three things a good bank employee should always do?',
-          accept: ['What are three things a good bank employee should always do?'],
-          keys: ['three',
-              'things'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on',
-      model: ['“The teller smiled, used my name, and explained each step. It was '
-        + 'very good service.”']
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Think of poor service. What went wrong?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What are three things a good bank employee should always do?',
+            minWords: 6,
+            rows: 2
+          }],
+      ideas: ['“The teller smiled, used my name, and explained each step. It was '
+        + 'very good service.”'],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

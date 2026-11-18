@@ -13,33 +13,36 @@ BNK.page('u5-s16', {
       ref: '8A',
       bookRef: 'Unit 5 · 8A',
       visual: { spot: 'atm' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. How was a customer’s identity confirmed?',
-          accept: ['How was a customer’s identity confirmed?'],
-          keys: ['customer',
-              'identity'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why were the bank’s rates better than those of older banks?',
-          accept: ['Why were the bank’s rates better than those of older banks?'],
-          keys: ['rates',
-              'better'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What were the complaints about, and what were they not about?',
-          accept: ['What were the complaints about, and what were they not about?'],
-          keys: ['complaints',
-              'about'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What two changes did the bank make?',
-          accept: ['What two changes did the bank make?'],
-          keys: ['changes'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. What did the bank learn?',
-          accept: ['What did the bank learn?'],
-          keys: ['learn'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'How was a customer’s identity confirmed?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why were the bank’s rates better than those of older banks?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What were the complaints about, and what were they not about?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What two changes did the bank make?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What did the bank learn?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -74,21 +77,22 @@ BNK.page('u5-s16', {
       id: 'c3',
       ref: '8C',
       bookRef: 'Unit 5 · 8C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Discussion',
       instruction: 'Frames: “This would suit customers in my country because ___.” “It '
   + 'would not suit ___ because ___.”',
-      items: [{ q: '1. Which of your customers could not use an app-only bank?',
-          accept: ['Which of your customers could not use an app-only bank?'],
-          keys: ['which',
-              'customers'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What is the one thing a branch does that an app cannot?',
-          accept: ['What is the one thing a branch does that an app cannot?'],
-          keys: ['thing',
-              'branch'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Which of your customers could not use an app-only bank?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the one thing a branch does that an app cannot?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

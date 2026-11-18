@@ -32,25 +32,26 @@ BNK.page('u8-s19', {
       id: 'c2',
       ref: 'S-B',
       bookRef: 'Unit 8 · S-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Answer the questions',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What two things is a bank expected to establish about a customer?',
-          accept: ['What two things is a bank expected to establish about a customer?'],
-          keys: ['things',
-              'expected'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does the officer offer the customer?',
-          accept: ['What does the officer offer the customer?'],
-          keys: ['officer',
-              'offer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why does she not promise an outcome?',
-          accept: ['Why does she not promise an outcome?'],
-          keys: ['promise',
-              'outcome'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What two things is a bank expected to establish about a customer?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does the officer offer the customer?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does she not promise an outcome?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',

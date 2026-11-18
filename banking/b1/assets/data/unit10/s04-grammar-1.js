@@ -84,12 +84,33 @@ BNK.page('u10-s04', {
       type: 'discuss',
       title: 'Controlled practice (report what they said)',
       instruction: 'Report each sentence. Use said, told or asked.',
-      minWords: 12,
-      questions: [{ q: '“I need a facility.” (he)' },
-      { q: '“We have paid the invoice.” (she)' },
-      { q: '“Can you decide by Friday?” (she, to me)' },
-      { q: '“We are opening a second shop.” (they)' },
-      { q: '“I will send the figures tomorrow.” (he, to us)' }]
+      questions: [{
+            q: '“I need a facility.” (he)',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“We have paid the invoice.” (she)',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“Can you decide by Friday?” (she, to me)',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“We are opening a second shop.” (they)',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“I will send the figures tomorrow.” (he, to us)',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',

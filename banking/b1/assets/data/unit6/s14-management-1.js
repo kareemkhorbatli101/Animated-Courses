@@ -69,57 +69,62 @@ BNK.page('u6-s14', {
       id: 'c3',
       ref: '7B',
       bookRef: 'Unit 6 · 7B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Listening — coaching on a rate query',
       instruction: 'Answer the questions.',
-      items: [{ q: '1. What did Zeynep tell the customer?',
-          accept: ['What did Zeynep tell the customer?'],
-          keys: ['zeynep',
-              'customer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why does Kerem say that answer is not enough?',
-          accept: ['Why does Kerem say that answer is not enough?'],
-          keys: ['kerem',
-              'answer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What should Zeynep give the customer instead?',
-          accept: ['What should Zeynep give the customer instead?'],
-          keys: ['should',
-              'zeynep'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What did Zeynep tell the customer?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does Kerem say that answer is not enough?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What should Zeynep give the customer instead?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',
       ref: '7C',
       bookRef: 'Unit 6 · 7C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Controlled practice — make the question polite',
       instruction: 'Rewrite each blunt question as an indirect question a colleague could '
   + 'use with a customer.',
-      items: [{ q: '1. What is the beneficiary’s name?',
-          accept: ['What is the beneficiary’s name?'],
-          keys: ['beneficiary'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Where does the money go?',
-          accept: ['Where does the money go?'],
-          keys: ['where',
-              'money'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Do you have the BIC?',
-          accept: ['Do you have the BIC?'],
-          keys: [], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. When do you need it there?',
-          accept: ['When do you need it there?'],
-          keys: ['there'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. Why are you sending this amount?',
-          accept: ['Why are you sending this amount?'],
-          keys: ['sending',
-              'amount'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What is the beneficiary’s name?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Where does the money go?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Do you have the BIC?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'When do you need it there?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why are you sending this amount?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

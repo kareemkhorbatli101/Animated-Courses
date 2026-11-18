@@ -68,25 +68,26 @@ BNK.page('u5-s14', {
       id: 'c3',
       ref: '7B',
       bookRef: 'Unit 5 · 7B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Listening — reassuring the team',
       instruction: 'Answer the questions.',
-      items: [{ q: '1. What has been done with every record?',
-          accept: ['What has been done with every record?'],
-          keys: ['every',
-              'record'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. How long can the old screens still be opened?',
-          accept: ['How long can the old screens still be opened?'],
-          keys: ['screens',
-              'still'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What should staff do with questions before Thursday?',
-          accept: ['What should staff do with questions before Thursday?'],
-          keys: ['should',
-              'staff'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What has been done with every record?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How long can the old screens still be opened?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What should staff do with questions before Thursday?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',
@@ -95,13 +96,38 @@ BNK.page('u5-s14', {
       type: 'discuss',
       title: 'Controlled practice — rewrite the customer notice',
       instruction: 'Rewrite each blunt line so it sounds calm and official. Use the passive.',
-      minWords: 12,
-      questions: [{ q: 'We changed your login screen.' },
-      { q: 'We blocked your card.' },
-      { q: 'We will send you a new card.' },
-      { q: 'We are checking your payment.' },
-      { q: 'We don’t keep your password.' },
-      { q: 'We will tell you when it arrives.' }]
+      questions: [{
+            q: 'We changed your login screen.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'We blocked your card.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'We will send you a new card.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'We are checking your payment.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'We don’t keep your password.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'We will tell you when it arrives.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

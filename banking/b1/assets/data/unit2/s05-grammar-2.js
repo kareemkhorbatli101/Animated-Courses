@@ -19,10 +19,23 @@ BNK.page('u2-s05', {
       type: 'discuss',
       title: 'Make the command polite',
       instruction: 'Change each direct command into a polite request with can, could, or may.',
-      minWords: 12,
-      questions: [{ q: '“Show me your card.”' },
-      { q: '“Type your PIN.”' },
-      { q: '“Come back tomorrow.”' }]
+      questions: [{
+            q: '“Show me your card.”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“Type your PIN.”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“Come back tomorrow.”',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

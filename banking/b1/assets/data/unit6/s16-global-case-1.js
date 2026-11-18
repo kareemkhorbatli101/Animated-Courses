@@ -14,30 +14,31 @@ BNK.page('u6-s16', {
       ref: '8A',
       bookRef: 'Unit 6 · 8A',
       visual: { spot: 'rate-board' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. Why is a flat fee a bigger problem on a small transfer?',
-          accept: ['Why is a flat fee a bigger problem on a small transfer?'],
-          keys: ['bigger',
-              'problem'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What target did the international body set?',
-          accept: ['What target did the international body set?'],
-          keys: ['target',
-              'international'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why could the bank not simply cut the fee?',
-          accept: ['Why could the bank not simply cut the fee?'],
-          keys: ['could',
-              'simply'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What did the bank change instead, and what was the result?',
-          accept: ['What did the bank change instead, and what was the result?'],
-          keys: ['change',
-              'instead'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Why is a flat fee a bigger problem on a small transfer?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What target did the international body set?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why could the bank not simply cut the fee?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What did the bank change instead, and what was the result?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -72,21 +73,22 @@ BNK.page('u6-s16', {
       id: 'c3',
       ref: '8C',
       bookRef: 'Unit 6 · 8C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Discussion',
       instruction: 'Frames: “In my country the cost of sending money is ___.” “This idea '
   + 'would help because ___.”',
-      items: [{ q: '1. Do your customers send the same amount to the same person each month?',
-          accept: ['Do your customers send the same amount to the same person each month?'],
-          keys: ['customers',
-              'amount'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What would make a standing transfer hard to sell?',
-          accept: ['What would make a standing transfer hard to sell?'],
-          keys: ['would',
-              'standing'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Do your customers send the same amount to the same person each month?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What would make a standing transfer hard to sell?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

@@ -28,56 +28,59 @@ FMS.page('u2-s10', {
         + 'Embassy. For each call, answer the questions that follow.',
       scene: 'u2-3b',
       quiz: {
-        type: 'shortanswer',
+        id: 'c1-quiz',
+        ref: '3B',
+        bookRef: 'Unit 2 · Part 3 · 3B',
+        type: 'discuss',
         title: 'After you listen',
         instruction: 'Listen to four short phone calls between Salma Benali at the Moroccan '
         + 'Ministry of Foreign Affairs and coordination contacts at the German '
         + 'Embassy. For each call, answer the questions that follow.',
-        items: [{ q: '1. What is the problem in each dialogue and what is agreed or proposed?',
-              accept: ['Dialogue 1: The original conference room is unavailable because of an '
-                  + 'urgent ministerial meeting; Salma informs the German side proactively and '
-                  + 'confirms that the new room still seats twelve, and she commits to an '
-                  + 'updated logistics note by midday. Dialogue 2: Dr. Braun\'s flight is '
-                  + 'delayed, so Thomas asks to move the session to three o\'clock; Salma '
-                  + 'checks with the Director and confirms, with a revised logistics note '
-                  + 'within the hour. Dialogue 3: Two German-speaking specialists need '
-                  + 'interpretation; Salma says she should be able to arrange it through the '
-                  + 'Language Services Unit and will call back within the hour. Dialogue 4: Dr. '
-                  + 'Hoffman\'s security clearance is incomplete; Salma states the 48-hour rule '
-                  + 'and proposes a video link as a fallback. In all four calls the pattern is '
-                  + 'identical: the problem is reported by whoever discovers it, a solution is '
-                  + 'proposed in the same breath, and a written note follows.'],
-              keys: ['problem',
-                'dialogue'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' },
-            { q: '2. How does Salma use modal verbs in each call to communicate what is '
+        questions: [{
+              q: 'What is the problem in each dialogue and what is agreed or proposed?',
+              model: 'Dialogue 1: The original conference room is unavailable because of an '
+                + 'urgent ministerial meeting; Salma informs the German side proactively and '
+                + 'confirms that the new room still seats twelve, and she commits to an '
+                + 'updated logistics note by midday. Dialogue 2: Dr. Braun\'s flight is '
+                + 'delayed, so Thomas asks to move the session to three o\'clock; Salma '
+                + 'checks with the Director and confirms, with a revised logistics note '
+                + 'within the hour. Dialogue 3: Two German-speaking specialists need '
+                + 'interpretation; Salma says she should be able to arrange it through the '
+                + 'Language Services Unit and will call back within the hour. Dialogue 4: Dr. '
+                + 'Hoffman\'s security clearance is incomplete; Salma states the 48-hour rule '
+                + 'and proposes a video link as a fallback. In all four calls the pattern is '
+                + 'identical: the problem is reported by whoever discovers it, a solution is '
+                + 'proposed in the same breath, and a written note follows.',
+              minWords: 6,
+              rows: 3
+            },
+        {
+              q: 'How does Salma use modal verbs in each call to communicate what is '
                 + 'required, possible, or recommended?',
-              accept: ['Salma uses must to state the non-negotiable institutional rules: "All '
-                  + 'foreign nationals must submit the clearance form 48 hours before entry" '
-                  + 'and "interpretation must be requested at least four hours before the '
-                  + 'session." She uses should for what she expects to be possible but has not '
-                  + 'yet confirmed: "We should be able to arrange German interpretation." She '
-                  + 'uses can to ask for and to offer practical possibilities: "Can Dr. Hoffman '
-                  + 'submit the form today?" And she uses will for her own firm commitments: "I '
-                  + 'will send written confirmation before noon." The pattern is consistent: '
-                  + 'must for the rules, should for the likely, can for the possible, will for '
-                  + 'what she personally undertakes.'],
-              keys: ['salma',
-                'modal'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' },
-            { q: '3. What does Salma\'s handling of these calls tell us about the '
-                + 'professional qualities of an effective liaison officer?',
-              accept: ['Salma communicates problems early and never waits for them to become '
-                  + 'worse. She always offers a solution with the problem. She is careful to '
-                  + 'separate what she can confirm now from what she needs to check, and she '
-                  + 'sets a clear deadline for every call-back.'],
-              keys: ['salma',
-                'handling'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' }],
-        whyTitle: 'What each answer rests on'
+              model: 'Salma uses must to state the non-negotiable institutional rules: "All '
+                + 'foreign nationals must submit the clearance form 48 hours before entry" '
+                + 'and "interpretation must be requested at least four hours before the '
+                + 'session." She uses should for what she expects to be possible but has not '
+                + 'yet confirmed: "We should be able to arrange German interpretation." She '
+                + 'uses can to ask for and to offer practical possibilities: "Can Dr. Hoffman '
+                + 'submit the form today?" And she uses will for her own firm commitments: "I '
+                + 'will send written confirmation before noon." The pattern is consistent: '
+                + 'must for the rules, should for the likely, can for the possible, will for '
+                + 'what she personally undertakes.',
+              minWords: 6,
+              rows: 3
+            },
+        {
+              q: 'What does Salma\'s handling of these calls tell us about the professional '
+                + 'qualities of an effective liaison officer?',
+              model: 'Salma communicates problems early and never waits for them to become '
+                + 'worse. She always offers a solution with the problem. She is careful to '
+                + 'separate what she can confirm now from what she needs to check, and she '
+                + 'sets a clear deadline for every call-back.',
+              minWords: 6,
+              rows: 3
+            }],
+        okMsg: 'Saved. Press “Show me” to compare with the book\'s answers.'
       },
       after: '<b>Thinking guide.</b> Salma does not wait for problems to get worse — she '
         + 'communicates them ___. She always offers a ___ alongside the problem. She '

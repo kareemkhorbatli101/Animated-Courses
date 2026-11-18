@@ -12,43 +12,46 @@ BNK.page('u9-s01', {
       ref: 'W-A',
       bookRef: 'Unit 9 · W-A',
       visual: { spot: 'savings-goal' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Why we save (discussion)',
       instruction: 'In small groups, talk about why people save money.',
-      items: [{ q: '1. What do people in your country save for most often?',
-          accept: ['What do people in your country save for most often?'],
-          keys: ['people',
-              'country'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What stops people from saving?',
-          accept: ['What stops people from saving?'],
-          keys: ['stops',
-              'people'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on',
-      model: ['Some people save for something they want, like a car. Others save '
+      questions: [{
+            q: 'What do people in your country save for most often?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What stops people from saving?',
+            minWords: 6,
+            rows: 2
+          }],
+      ideas: ['Some people save for something they want, like a car. Others save '
         + 'because they are worried about losing their job. Both are good '
-        + 'reasons, but they need different accounts.']
+        + 'reasons, but they need different accounts.'],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
       ref: 'W-B',
       bookRef: 'Unit 9 · W-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'A saving goal (think–pair)',
       instruction: 'Think of one goal, then tell your partner three things about '
   + 'it.<br>Useful words: Use the words goal, amount, monthly and interest '
   + 'in your answers.',
-      items: [{ q: '1. How much is the goal, and when do you want to reach it?',
-          accept: ['How much is the goal, and when do you want to reach it?'],
-          keys: ['reach'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. How much would you need to put aside each month?',
-          accept: ['How much would you need to put aside each month?'],
-          keys: ['would',
-              'aside'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'How much is the goal, and when do you want to reach it?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How much would you need to put aside each month?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

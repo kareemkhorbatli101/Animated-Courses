@@ -14,41 +14,42 @@ BNK.page('u3-s10', {
       ref: '5A',
       bookRef: 'Unit 3 · 5A',
       visual: { spot: 'bank-counter' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Teller guidelines',
       instruction: 'Read the counter guidelines. Notice the quantifiers (much, many, a '
   + 'few, a little).<br>Answer the questions.',
-      items: [{ q: '1. What should you do if the amount is large?',
-          accept: ['What should you do if the amount is large?'],
-          keys: ['should',
-              'amount'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. How many times should you count notes?',
-          accept: ['How many times should you count notes?'],
-          keys: ['times',
-              'should'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why do some customers want large notes?',
-          accept: ['Why do some customers want large notes?'],
-          keys: ['customers',
-              'large'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. When do most mistakes happen?',
-          accept: ['When do most mistakes happen?'],
-          keys: ['mistakes',
-              'happen'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. What should you say if you feel rushed?',
-          accept: ['What should you say if you feel rushed?'],
-          keys: ['should',
-              'rushed'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '6. Who do these guidelines apply to?',
-          accept: ['Who do these guidelines apply to?'],
-          keys: ['these',
-              'guidelines'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What should you do if the amount is large?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How many times should you count notes?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why do some customers want large notes?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'When do most mistakes happen?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What should you say if you feel rushed?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Who do these guidelines apply to?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -94,29 +95,31 @@ BNK.page('u3-s10', {
       id: 'c3',
       ref: '5C',
       bookRef: 'Unit 3 · 5C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'A customer’s bank statement',
       instruction: 'Read the short statement note. What does each line show?',
-      items: [{ q: '1. What four things does each line of a statement show?',
-          accept: ['What four things does each line of a statement show?'],
-          keys: ['things',
-              'statement'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does DD mean?',
-          accept: ['What does DD mean?'],
-          keys: [], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why did the customer call the branch?',
-          accept: ['Why did the customer call the branch?'],
-          keys: ['customer',
-              'branch'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. How should you explain a line to a customer?',
-          accept: ['How should you explain a line to a customer?'],
-          keys: ['should',
-              'explain'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What four things does each line of a statement show?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does DD mean?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why did the customer call the branch?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How should you explain a line to a customer?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

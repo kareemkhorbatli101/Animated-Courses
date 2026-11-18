@@ -14,30 +14,31 @@ BNK.page('u7-s16', {
       ref: '8A',
       bookRef: 'Unit 7 · 8A',
       visual: { spot: 'phishing' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. Which two parts of the campaign did almost nothing?',
-          accept: ['Which two parts of the campaign did almost nothing?'],
-          keys: ['which',
-              'parts'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What was the one question staff were taught to ask?',
-          accept: ['What was the one question staff were taught to ask?'],
-          keys: ['question',
-              'staff'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What happened if the answer was a phone call?',
-          accept: ['What happened if the answer was a phone call?'],
-          keys: ['happened',
-              'answer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What two things did the bank learn?',
-          accept: ['What two things did the bank learn?'],
-          keys: ['things',
-              'learn'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Which two parts of the campaign did almost nothing?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What was the one question staff were taught to ask?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What happened if the answer was a phone call?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What two things did the bank learn?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -72,21 +73,22 @@ BNK.page('u7-s16', {
       id: 'c3',
       ref: '8C',
       bookRef: 'Unit 7 · 8C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Discussion',
       instruction: 'Frames: “In my branch this question would work because ___.” “It '
   + 'would be difficult because ___.”',
-      items: [{ q: '1. How would customers in your country react to being stopped?',
-          accept: ['How would customers in your country react to being stopped?'],
-          keys: ['would',
-              'customers'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Is a poster ever worth the wall space? Why, or why not?',
-          accept: ['Is a poster ever worth the wall space? Why, or why not?'],
-          keys: ['poster',
-              'worth'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'How would customers in your country react to being stopped?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Is a poster ever worth the wall space? Why, or why not?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

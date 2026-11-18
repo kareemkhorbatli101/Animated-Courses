@@ -14,33 +14,36 @@ BNK.page('u6-s10', {
       ref: '5A',
       bookRef: 'Unit 6 · 5A',
       visual: { spot: 'rate-board' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Common questions about transfers (FAQ)',
       instruction: 'Read the FAQ page. Notice the indirect questions.<br>Answer the questions.',
-      items: [{ q: '1. What is the most common reason a payment is delayed?',
-          accept: ['What is the most common reason a payment is delayed?'],
-          keys: ['common',
-              'reason'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why might a Friday payment not move until Monday?',
-          accept: ['Why might a Friday payment not move until Monday?'],
-          keys: ['might',
-              'friday'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What is the spread, and what is it for?',
-          accept: ['What is the spread, and what is it for?'],
-          keys: ['spread'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What is the fee for a transfer of 1,500?',
-          accept: ['What is the fee for a transfer of 1,500?'],
-          keys: ['transfer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. What should a customer bring if they want to trace a payment?',
-          accept: ['What should a customer bring if they want to trace a payment?'],
-          keys: ['should',
-              'customer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What is the most common reason a payment is delayed?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why might a Friday payment not move until Monday?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the spread, and what is it for?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the fee for a transfer of 1,500?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What should a customer bring if they want to trace a payment?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -86,24 +89,26 @@ BNK.page('u6-s10', {
       id: 'c3',
       ref: '5C',
       bookRef: 'Unit 6 · 5C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'How a transfer moves',
       instruction: 'Read the short note. Which banks touch the money?',
-      items: [{ q: '1. How many banks usually touch an international payment?',
-          accept: ['How many banks usually touch an international payment?'],
-          keys: ['banks',
-              'usually'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does the correspondent bank do?',
-          accept: ['What does the correspondent bank do?'],
-          keys: ['correspondent'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why is a missing BIC serious?',
-          accept: ['Why is a missing BIC serious?'],
-          keys: ['missing',
-              'serious'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'How many banks usually touch an international payment?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does the correspondent bank do?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why is a missing BIC serious?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

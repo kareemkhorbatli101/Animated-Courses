@@ -13,23 +13,24 @@ BNK.page('u7-s01', {
       ref: 'W-A',
       bookRef: 'Unit 7 · W-A',
       visual: { spot: 'phishing' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Staying safe (discussion)',
       instruction: 'In small groups, talk about how people lose money to fraud.',
-      items: [{ q: '1. What scams have you heard about where you live?',
-          accept: ['What scams have you heard about where you live?'],
-          keys: ['scams',
-              'heard'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why do people believe a message that is clearly false?',
-          accept: ['Why do people believe a message that is clearly false?'],
-          keys: ['people',
-              'believe'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on',
-      model: ['My neighbour got a message saying her account was blocked. She '
+      questions: [{
+            q: 'What scams have you heard about where you live?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why do people believe a message that is clearly false?',
+            minWords: 6,
+            rows: 2
+          }],
+      ideas: ['My neighbour got a message saying her account was blocked. She '
         + 'clicked the link and typed her password. The money was gone in ten '
-        + 'minutes.']
+        + 'minutes.'],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

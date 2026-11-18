@@ -13,30 +13,31 @@ BNK.page('u10-s16', {
       ref: '8A',
       bookRef: 'Unit 10 · 8A',
       visual: { spot: 'letter-of-credit' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What happened in the company’s worst year?',
-          accept: ['What happened in the company’s worst year?'],
-          keys: ['happened',
-              'company'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What had the relationship manager written down nine years earlier?',
-          accept: ['What had the relationship manager written down nine years earlier?'],
-          keys: ['relationship',
-              'manager'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What did the committee decide?',
-          accept: ['What did the committee decide?'],
-          keys: ['committee',
-              'decide'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What lesson did the bank draw, and what lesson did it refuse to draw?',
-          accept: ['What lesson did the bank draw, and what lesson did it refuse to draw?'],
-          keys: ['lesson',
-              'lesson'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What happened in the company’s worst year?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What had the relationship manager written down nine years earlier?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What did the committee decide?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What lesson did the bank draw, and what lesson did it refuse to draw?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -71,21 +72,22 @@ BNK.page('u10-s16', {
       id: 'c3',
       ref: '8C',
       bookRef: 'Unit 10 · 8C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Discussion',
       instruction: 'Frames: “In my bank this decision would be made by ___.” “A long '
   + 'relationship matters because ___.”',
-      items: [{ q: '1. Should a long relationship count in a lending decision?',
-          accept: ['Should a long relationship count in a lending decision?'],
-          keys: ['should',
-              'relationship'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What is in your files that a future colleague would thank you for?',
-          accept: ['What is in your files that a future colleague would thank you for?'],
-          keys: ['files',
-              'future'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Should a long relationship count in a lending decision?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is in your files that a future colleague would thank you for?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

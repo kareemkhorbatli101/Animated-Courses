@@ -13,28 +13,31 @@ BNK.page('u2-s18', {
       ref: '9A',
       bookRef: 'Unit 2 · 9A',
       visual: { spot: 'branch-plan' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. How long is the wait?',
-          accept: ['How long is the wait?'],
-          keys: [], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why is Liza a little slow?',
-          accept: ['Why is Liza a little slow?'],
-          keys: ['little'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What does Liza remember from her training?',
-          accept: ['What does Liza remember from her training?'],
-          keys: ['remember',
-              'training'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. Who is the experienced teller?',
-          accept: ['Who is the experienced teller?'],
-          keys: ['experienced',
-              'teller'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'How long is the wait?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why is Liza a little slow?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does Liza remember from her training?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Who is the experienced teller?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

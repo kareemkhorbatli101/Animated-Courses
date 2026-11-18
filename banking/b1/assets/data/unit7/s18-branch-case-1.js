@@ -14,25 +14,26 @@ BNK.page('u7-s18', {
       ref: '9A',
       bookRef: 'Unit 7 · 9A',
       visual: { spot: 'branch-plan' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What did the caller tell Mr Şahin, and what did he already know?',
-          accept: ['What did the caller tell Mr Şahin, and what did he already know?'],
-          keys: ['caller',
-              'already'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What is the branch rule for amounts over five thousand?',
-          accept: ['What is the branch rule for amounts over five thousand?'],
-          keys: ['branch',
-              'amounts'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why is the situation becoming difficult for the branch?',
-          accept: ['Why is the situation becoming difficult for the branch?'],
-          keys: ['situation',
-              'becoming'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What did the caller tell Mr Şahin, and what did he already know?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the branch rule for amounts over five thousand?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why is the situation becoming difficult for the branch?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

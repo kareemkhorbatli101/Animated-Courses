@@ -27,49 +27,52 @@ FMS.page('u1-s10', {
         + 'For each dialogue, answer the questions that follow.',
       scene: 'u1-3b',
       quiz: {
-        type: 'shortanswer',
+        id: 'c1-quiz',
+        ref: '3B',
+        bookRef: 'Unit 1 · Part 3 · 3B',
+        type: 'discuss',
         title: 'After you listen',
         instruction: 'Listen carefully to the four conversations at the ministry reception desk. '
         + 'For each dialogue, answer the questions that follow.',
-        items: [{ q: '1. Why is each visitor at the ministry? What is their specific purpose?',
-              accept: ['Dialogue 1: Laura Fischer has a scheduled meeting with the Economic '
-                  + 'Affairs Office. As an economic adviser at the German Embassy, she is '
-                  + 'likely discussing bilateral economic cooperation or a specific investment '
-                  + 'programme. Dialogue 2: Omar Diallo is meeting the Humanitarian Liaison '
-                  + 'Officer to coordinate a UNICEF programme. Dialogue 3: Somsak Chaiyaporn '
-                  + 'wants to discuss investment but has no appointment. Dialogue 4: Elena '
-                  + 'Popescu needs press accreditation for the regional investment forum. Taken '
-                  + 'together, the four dialogues cover the three standard cases — a confirmed '
-                  + 'appointment, a programme coordination visit, and an accreditation request '
-                  + '— plus the one that tests the system, which is the visitor who arrives '
-                  + 'with no appointment at all.'],
-              keys: ['visitor',
-                'ministry'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' },
-            { q: '2. Which department does each visitor need?',
-              accept: ['Dialogue 1: Economic Affairs Office. Dialogue 2: Humanitarian Liaison, '
-                  + 'under Political Affairs. Dialogue 3: Economic Affairs Office. Dialogue 4: '
-                  + 'Press and Information Office.'],
-              keys: ['which',
-                'department'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' },
-            { q: '3. How does Linh handle the visitor who has no appointment? What does this '
+        questions: [{
+              q: 'Why is each visitor at the ministry? What is their specific purpose?',
+              model: 'Dialogue 1: Laura Fischer has a scheduled meeting with the Economic '
+                + 'Affairs Office. As an economic adviser at the German Embassy, she is '
+                + 'likely discussing bilateral economic cooperation or a specific investment '
+                + 'programme. Dialogue 2: Omar Diallo is meeting the Humanitarian Liaison '
+                + 'Officer to coordinate a UNICEF programme. Dialogue 3: Somsak Chaiyaporn '
+                + 'wants to discuss investment but has no appointment. Dialogue 4: Elena '
+                + 'Popescu needs press accreditation for the regional investment forum. Taken '
+                + 'together, the four dialogues cover the three standard cases — a confirmed '
+                + 'appointment, a programme coordination visit, and an accreditation request '
+                + '— plus the one that tests the system, which is the visitor who arrives '
+                + 'with no appointment at all.',
+              minWords: 6,
+              rows: 3
+            },
+        {
+              q: 'Which department does each visitor need?',
+              model: 'Dialogue 1: Economic Affairs Office. Dialogue 2: Humanitarian Liaison, '
+                + 'under Political Affairs. Dialogue 3: Economic Affairs Office. Dialogue 4: '
+                + 'Press and Information Office.',
+              minWords: 6,
+              rows: 3
+            },
+        {
+              q: 'How does Linh handle the visitor who has no appointment? What does this '
                 + 'tell us about professional reception practice?',
-              accept: ['Linh does not turn Mr. Chaiyaporn away or show any sign of frustration. '
-                  + 'She responds positively ("No problem at all"), gives him a clear next step '
-                  + '(completing a visitor inquiry form), and arranges a brief introductory '
-                  + 'meeting with the duty officer. This shows that a good reception system has '
-                  + 'a procedure for visitors who arrive without an appointment. It also shows '
-                  + 'that the procedure has to exist in advance — because an officer '
-                  + 'improvising under pressure will either turn the visitor away or promise '
-                  + 'something the ministry cannot deliver.'],
-              keys: ['handle',
-                'visitor'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' }],
-        whyTitle: 'What each answer rests on'
+              model: 'Linh does not turn Mr. Chaiyaporn away or show any sign of frustration. '
+                + 'She responds positively ("No problem at all"), gives him a clear next step '
+                + '(completing a visitor inquiry form), and arranges a brief introductory '
+                + 'meeting with the duty officer. This shows that a good reception system has '
+                + 'a procedure for visitors who arrive without an appointment. It also shows '
+                + 'that the procedure has to exist in advance — because an officer '
+                + 'improvising under pressure will either turn the visitor away or promise '
+                + 'something the ministry cannot deliver.',
+              minWords: 6,
+              rows: 3
+            }],
+        okMsg: 'Saved. Press “Show me” to compare with the book\'s answers.'
       },
       after: '<b>Thinking guide.</b> Linh does not ___ Mr. Chaiyaporn away. Instead, she '
         + 'says "___ problem at all" and gives him a clear ___. This tells us that a '

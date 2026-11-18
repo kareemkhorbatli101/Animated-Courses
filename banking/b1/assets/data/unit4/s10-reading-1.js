@@ -14,36 +14,37 @@ BNK.page('u4-s10', {
       ref: '5A',
       bookRef: 'Unit 4 · 5A',
       visual: { spot: 'bank-card' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Our products, compared',
       instruction: 'Read the product page. Notice the comparatives and '
   + 'superlatives.<br>Answer the questions.',
-      items: [{ q: '1. Which account is the most flexible, and why does it pay less?',
-          accept: ['Which account is the most flexible, and why does it pay less?'],
-          keys: ['which',
-              'account'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. How many withdrawals a year does the Step Saver allow?',
-          accept: ['How many withdrawals a year does the Step Saver allow?'],
-          keys: ['withdrawals',
-              'saver'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What happens if you take money out of the Fixed 12 early?',
-          accept: ['What happens if you take money out of the Fixed 12 early?'],
-          keys: ['happens',
-              'money'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. Why is the rate not the same in every country?',
-          accept: ['Why is the rate not the same in every country?'],
-          keys: ['every',
-              'country'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. What does the page suggest if a customer is not sure?',
-          accept: ['What does the page suggest if a customer is not sure?'],
-          keys: ['suggest',
-              'customer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Which account is the most flexible, and why does it pay less?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How many withdrawals a year does the Step Saver allow?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What happens if you take money out of the Fixed 12 early?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why is the rate not the same in every country?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does the page suggest if a customer is not sure?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -90,25 +91,26 @@ BNK.page('u4-s10', {
       id: 'c3',
       ref: '5C',
       bookRef: 'Unit 4 · 5C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Meet a customer',
       instruction: 'Read the short customer profile. Which account would you recommend?',
-      items: [{ q: '1. What does Rafael do, and where?',
-          accept: ['What does Rafael do, and where?'],
-          keys: ['rafael',
-              'where'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why does he keep two thousand separate?',
-          accept: ['Why does he keep two thousand separate?'],
-          keys: ['thousand',
-              'separate'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What does Rafael think would suit him better than one account?',
-          accept: ['What does Rafael think would suit him better than one account?'],
-          keys: ['rafael',
-              'think'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What does Rafael do, and where?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does he keep two thousand separate?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does Rafael think would suit him better than one account?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

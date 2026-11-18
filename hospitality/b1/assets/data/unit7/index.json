@@ -1,0 +1,130 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-warm-up-1",
+  "part": 0,
+  "title": "Warm Up",
+  "label": "Warm Up",
+  "n": 2
+ },
+ {
+  "ord": 2,
+  "sid": "s02-vocabulary-1",
+  "part": 1,
+  "title": "Vocabulary and Terminology",
+  "label": "Part 1  ·  Vocabulary and Terminology",
+  "n": 4
+ },
+ {
+  "ord": 3,
+  "sid": "s03-vocabulary-2",
+  "part": 1,
+  "title": "Vocabulary and Terminology (2)",
+  "label": "Part 1  ·  Vocabulary and Terminology",
+  "n": 2
+ },
+ {
+  "ord": 4,
+  "sid": "s04-grammar-1",
+  "part": 2,
+  "title": "Grammar — The Present Perfect",
+  "label": "Part 2  ·  Grammar — The Present Perfect",
+  "n": 4
+ },
+ {
+  "ord": 5,
+  "sid": "s05-grammar-2",
+  "part": 2,
+  "title": "Grammar — The Present Perfect (2)",
+  "label": "Part 2  ·  Grammar — The Present Perfect",
+  "n": 1
+ },
+ {
+  "ord": 6,
+  "sid": "s06-listening-1",
+  "part": 3,
+  "title": "Listening and Dialogue",
+  "label": "Part 3  ·  Listening and Dialogue",
+  "n": 4
+ },
+ {
+  "ord": 7,
+  "sid": "s07-listening-2",
+  "part": 3,
+  "title": "Listening and Dialogue (2)",
+  "label": "Part 3  ·  Listening and Dialogue",
+  "n": 1
+ },
+ {
+  "ord": 8,
+  "sid": "s08-speaking-1",
+  "part": 4,
+  "title": "Speaking",
+  "label": "Part 4  ·  Speaking",
+  "n": 3
+ },
+ {
+  "ord": 9,
+  "sid": "s09-reading-1",
+  "part": 5,
+  "title": "Extended Reading",
+  "label": "Part 5  ·  Extended Reading",
+  "n": 3
+ },
+ {
+  "ord": 10,
+  "sid": "s10-writing-1",
+  "part": 6,
+  "title": "Writing",
+  "label": "Part 6  ·  Writing",
+  "n": 2
+ },
+ {
+  "ord": 11,
+  "sid": "s11-guest-care-1",
+  "part": 7,
+  "title": "Guest-Care & Service Track",
+  "label": "Part 7  ·  Guest-Care & Service Track",
+  "n": 3
+ },
+ {
+  "ord": 12,
+  "sid": "s12-consolidation-1",
+  "part": 8,
+  "title": "Consolidation",
+  "label": "Part 8  ·  Consolidation",
+  "n": 3
+ },
+ {
+  "ord": 13,
+  "sid": "s13-case-study-1",
+  "part": 9,
+  "title": "Case Studies and Decisions",
+  "label": "Part 9  ·  Case Studies and Decisions",
+  "n": 1
+ },
+ {
+  "ord": 14,
+  "sid": "s14-review-1",
+  "part": 10,
+  "title": "Review and Can-Do",
+  "label": "Part 10  ·  Review and Can-Do",
+  "n": 3
+ },
+ {
+  "ord": 15,
+  "sid": "s15-review-2",
+  "part": 10,
+  "title": "Review and Can-Do (2)",
+  "label": "Part 10  ·  Review and Can-Do",
+  "n": 3
+ },
+ {
+  "ord": 16,
+  "sid": "s16-foundations-1",
+  "part": 11,
+  "title": "Foundations for Further Study",
+  "label": "Part 11  ·  Foundations for Further Study",
+  "n": 3
+ }
+]

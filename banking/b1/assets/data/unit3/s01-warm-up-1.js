@@ -14,23 +14,24 @@ BNK.page('u3-s01', {
       ref: 'W-A',
       bookRef: 'Unit 3 · W-A',
       visual: { spot: 'bank-counter' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Daily transactions (brainstorm)',
       instruction: 'With a partner, list everything a customer can do at a bank counter '
   + 'in one day.',
-      items: [{ q: '1. Which of these do you do most often?',
-          accept: ['Which of these do you do most often?'],
-          keys: ['which',
-              'these'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Which one takes the longest? Why?',
-          accept: ['Which one takes the longest? Why?'],
-          keys: ['which',
-              'takes'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on',
-      model: ['Deposit cash. Withdraw cash. Pay a bill. Transfer money to another '
-        + 'account. Change one currency for another.']
+      questions: [{
+            q: 'Which of these do you do most often?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Which one takes the longest? Why?',
+            minWords: 6,
+            rows: 2
+          }],
+      ideas: ['Deposit cash. Withdraw cash. Pay a bill. Transfer money to another '
+        + 'account. Change one currency for another.'],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

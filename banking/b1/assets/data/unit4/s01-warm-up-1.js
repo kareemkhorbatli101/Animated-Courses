@@ -13,23 +13,25 @@ BNK.page('u4-s01', {
       ref: 'W-A',
       bookRef: 'Unit 4 · W-A',
       visual: { spot: 'bank-card' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'What do customers need? (discussion)',
       instruction: 'In small groups, think of three different customers and what each one '
   + 'needs from a bank.',
-      items: [{ q: '1. Who are the three most common customers at your branch?',
-          accept: ['Who are the three most common customers at your branch?'],
-          keys: ['three',
-              'common'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does each of them ask for first?',
-          accept: ['What does each of them ask for first?'],
-          keys: ['first'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on',
-      model: ['A student needs a simple account with no fees. A shop owner needs a '
+      questions: [{
+            q: 'Who are the three most common customers at your branch?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does each of them ask for first?',
+            minWords: 6,
+            rows: 2
+          }],
+      ideas: ['A student needs a simple account with no fees. A shop owner needs a '
         + 'business account and a small loan. A family saving for a house needs '
-        + 'a savings account with a good rate.']
+        + 'a savings account with a good rate.'],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

@@ -108,7 +108,10 @@ FMS.page('u2-s01', {
         + 'for the official record',
       scene: 'u2-wb',
       quiz: {
-        type: 'shortanswer',
+        id: 'c2-quiz',
+        ref: 'W-B',
+        bookRef: 'Unit 2 · Warm Up · W-B',
+        type: 'discuss',
         title: 'After you listen',
         instruction: 'In small groups, categorize the liaison officer\'s tasks below, then '
         + 'discuss your answers. Sort each task into Before, During, or After the '
@@ -122,33 +125,33 @@ FMS.page('u2-s01', {
         + 'hours<br>• Confirm room setup — seating, AV, and translation booths<br>• '
         + 'Follow up on action items agreed in the meeting<br>• Take careful notes '
         + 'for the official record',
-        items: [{ q: '1. What must a liaison officer do before the meeting?',
-              accept: ['Before the meeting, the liaison officer must confirm the date, time, and '
-                  + 'venue with both sides, circulate the agenda, arrange security clearances '
-                  + 'for all foreign participants, prepare the protocol brief, and confirm the '
-                  + 'room setup.'],
-              keys: ['liaison',
-                'officer'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' },
-            { q: '2. What must the liaison officer manage during the meeting?',
-              accept: ['During the meeting, the officer monitors the agenda to keep the discussion '
-                  + 'on track, coordinates with the interpreters, and takes careful notes for '
-                  + 'the official record. The officer also watches the time and signals the '
-                  + 'delegation lead discreetly when a session is running over.'],
-              keys: ['liaison',
-                'officer'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' },
-            { q: '3. What does the liaison officer do after the meeting?',
-              accept: ['After the meeting, the officer writes the post-meeting summary within 24 '
-                  + 'hours and follows up on the action items agreed in the session. The '
-                  + 'summary becomes the official record, so it must be accurate and complete.'],
-              keys: ['liaison',
-                'officer'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' }],
-        whyTitle: 'What each answer rests on'
+        questions: [{
+              q: 'What must a liaison officer do before the meeting?',
+              model: 'Before the meeting, the liaison officer must confirm the date, time, and '
+                + 'venue with both sides, circulate the agenda, arrange security clearances '
+                + 'for all foreign participants, prepare the protocol brief, and confirm the '
+                + 'room setup.',
+              minWords: 6,
+              rows: 3
+            },
+        {
+              q: 'What must the liaison officer manage during the meeting?',
+              model: 'During the meeting, the officer monitors the agenda to keep the discussion '
+                + 'on track, coordinates with the interpreters, and takes careful notes for '
+                + 'the official record. The officer also watches the time and signals the '
+                + 'delegation lead discreetly when a session is running over.',
+              minWords: 6,
+              rows: 3
+            },
+        {
+              q: 'What does the liaison officer do after the meeting?',
+              model: 'After the meeting, the officer writes the post-meeting summary within 24 '
+                + 'hours and follows up on the action items agreed in the session. The '
+                + 'summary becomes the official record, so it must be accurate and complete.',
+              minWords: 6,
+              rows: 3
+            }],
+        okMsg: 'Saved. Press “Show me” to compare with the book\'s answers.'
       }
     }
   ]

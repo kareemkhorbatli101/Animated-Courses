@@ -104,22 +104,25 @@ FMS.page('u5-s01', {
         + 'the class. (Aim for 3–4 sentences when you share.)',
       scene: 'u5-wb',
       quiz: {
-        type: 'shortanswer',
+        id: 'c2-quiz',
+        ref: 'W-B',
+        bookRef: 'Unit 5 · Warm Up · W-B',
+        type: 'discuss',
         title: 'After you listen',
         instruction: 'In small groups, discuss and list the following. Share your findings with '
         + 'the class. (Aim for 3–4 sentences when you share.)',
-        items: [{ q: '1. Name five types of foreign investor or partner who might come to your '
+        questions: [{
+              q: 'Name five types of foreign investor or partner who might come to your '
                 + 'country now and what each one is primarily looking for.',
-              accept: ['1. Infrastructure companies — looking for legal certainty and a clear '
-                  + 'approval timeline. 2. Sovereign funds — looking for scale and a long '
-                  + 'horizon. 3. Development banks — looking for oversight and measurable '
-                  + 'impact. 4. Technology companies — looking for a digital regulatory '
-                  + 'framework. 5. UN agencies — looking for co-design — not commercial return.'],
-              keys: ['types',
-                'foreign'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' }],
-        whyTitle: 'What each answer rests on'
+              model: '1. Infrastructure companies — looking for legal certainty and a clear '
+                + 'approval timeline. 2. Sovereign funds — looking for scale and a long '
+                + 'horizon. 3. Development banks — looking for oversight and measurable '
+                + 'impact. 4. Technology companies — looking for a digital regulatory '
+                + 'framework. 5. UN agencies — looking for co-design — not commercial return.',
+              minWords: 6,
+              rows: 3
+            }],
+        okMsg: 'Saved. Press “Show me” to compare with the book\'s answers.'
       }
     }
   ]

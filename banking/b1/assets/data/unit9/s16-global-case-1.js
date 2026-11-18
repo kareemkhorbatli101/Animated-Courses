@@ -14,29 +14,31 @@ BNK.page('u9-s16', {
       ref: '8A',
       bookRef: 'Unit 9 · 8A',
       visual: { spot: 'savings-goal' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What was the small change the bank made?',
-          accept: ['What was the small change the bank made?'],
-          keys: ['small',
-              'change'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What happened to most customers who left the box ticked?',
-          accept: ['What happened to most customers who left the box ticked?'],
-          keys: ['happened',
-              'customers'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why did the bank move the box to its own line?',
-          accept: ['Why did the bank move the box to its own line?'],
-          keys: [], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What principle did the bank accept at the end?',
-          accept: ['What principle did the bank accept at the end?'],
-          keys: ['principle',
-              'accept'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What was the small change the bank made?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What happened to most customers who left the box ticked?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why did the bank move the box to its own line?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What principle did the bank accept at the end?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -71,20 +73,22 @@ BNK.page('u9-s16', {
       id: 'c3',
       ref: '8C',
       bookRef: 'Unit 9 · 8C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Discussion',
       instruction: 'Frames: “A default like this would work in my country because ___.” '
   + '“It would be unfair if ___.”',
-      items: [{ q: '1. Is a pre-ticked box fair? Why, or why not?',
-          accept: ['Is a pre-ticked box fair? Why, or why not?'],
-          keys: ['ticked'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What default would help your customers most?',
-          accept: ['What default would help your customers most?'],
-          keys: ['default',
-              'would'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Is a pre-ticked box fair? Why, or why not?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What default would help your customers most?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

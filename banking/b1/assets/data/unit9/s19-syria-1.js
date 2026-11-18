@@ -30,25 +30,26 @@ BNK.page('u9-s19', {
       id: 'c2',
       ref: 'S-B',
       bookRef: 'Unit 9 · S-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Answer the questions',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What question did customers start asking after the redenomination?',
-          accept: ['What question did customers start asking after the redenomination?'],
-          keys: ['question',
-              'customers'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What three things does the officer help the teacher decide?',
-          accept: ['What three things does the officer help the teacher decide?'],
-          keys: ['three',
-              'things'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What is the officer careful not to do?',
-          accept: ['What is the officer careful not to do?'],
-          keys: ['officer',
-              'careful'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What question did customers start asking after the redenomination?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What three things does the officer help the teacher decide?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the officer careful not to do?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',

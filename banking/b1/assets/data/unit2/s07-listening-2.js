@@ -42,25 +42,26 @@ BNK.page('u2-s07', {
       id: 'c2',
       ref: '3D',
       bookRef: 'Unit 2 · 3D',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'A customer inquiry about online banking (longer)',
       instruction: 'Answer the questions.',
-      items: [{ q: '1. What two documents does the banker ask for?',
-          accept: ['What two documents does the banker ask for?'],
-          keys: ['documents',
-              'banker'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does the bank send to Mrs Oyelaran’s phone?',
-          accept: ['What does the bank send to Mrs Oyelaran’s phone?'],
-          keys: ['oyelaran',
-              'phone'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. How does Mrs Oyelaran feel about the service?',
-          accept: ['How does Mrs Oyelaran feel about the service?'],
-          keys: ['oyelaran',
-              'about'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What two documents does the banker ask for?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does the bank send to Mrs Oyelaran’s phone?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How does Mrs Oyelaran feel about the service?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',

@@ -67,24 +67,26 @@ BNK.page('u9-s14', {
       id: 'c3',
       ref: '7B',
       bookRef: 'Unit 9 · 7B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Listening — coaching a customer',
       instruction: 'Answer the questions.',
-      items: [{ q: '1. What got in the way in July?',
-          accept: ['What got in the way in July?'],
-          keys: [], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does Johanna say was missing from the plan?',
-          accept: ['What does Johanna say was missing from the plan?'],
-          keys: ['johanna',
-              'missing'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What two changes does Johanna suggest?',
-          accept: ['What two changes does Johanna suggest?'],
-          keys: ['changes',
-              'johanna'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What got in the way in July?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does Johanna say was missing from the plan?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What two changes does Johanna suggest?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',

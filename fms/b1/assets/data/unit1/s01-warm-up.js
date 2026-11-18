@@ -89,23 +89,26 @@ FMS.page('u1-s01', {
         + 'the class. (Aim for 3–4 sentences when you share.)',
       scene: 'u1-wb',
       quiz: {
-        type: 'shortanswer',
+        id: 'c2-quiz',
+        ref: 'W-B',
+        bookRef: 'Unit 1 · Warm Up · W-B',
+        type: 'discuss',
         title: 'After you listen',
         instruction: 'In small groups, discuss and list the following. Share your findings with '
         + 'the class. (Aim for 3–4 sentences when you share.)',
-        items: [{ q: '1. Five types of foreign visitor who might come to the Ministry of Foreign '
+        questions: [{
+              q: 'Five types of foreign visitor who might come to the Ministry of Foreign '
                 + 'Affairs, the department that handles each, and the main thing each visitor '
                 + 'needs when they arrive.',
-              accept: ['1. Diplomat — Protocol Department — formal reception and escort. 2. '
-                  + 'Journalist — Press Office — press accreditation. 3. Investor — Economic '
-                  + 'Affairs — meeting with the relevant officer. 4. UN official — Humanitarian '
-                  + 'Liaison — a coordination meeting. 5. Citizen living abroad — Consular '
-                  + 'Section — passport or document service.'],
-              keys: ['types',
-                'foreign'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' }],
-        whyTitle: 'What each answer rests on'
+              model: '1. Diplomat — Protocol Department — formal reception and escort. 2. '
+                + 'Journalist — Press Office — press accreditation. 3. Investor — Economic '
+                + 'Affairs — meeting with the relevant officer. 4. UN official — Humanitarian '
+                + 'Liaison — a coordination meeting. 5. Citizen living abroad — Consular '
+                + 'Section — passport or document service.',
+              minWords: 6,
+              rows: 3
+            }],
+        okMsg: 'Saved. Press “Show me” to compare with the book\'s answers.'
       }
     }
   ]

@@ -72,14 +72,43 @@ BNK.page('u5-s04', {
       title: 'Controlled practice (make it passive)',
       instruction: 'Rewrite each sentence in the passive. Leave out the doer where it is '
   + 'obvious.',
-      minWords: 12,
-      questions: [{ q: 'We check every login.' },
-      { q: 'The system blocked the card.' },
-      { q: 'We will send a notification.' },
-      { q: 'Someone reset the password this morning.' },
-      { q: 'The bank must verify your identity.' },
-      { q: 'We update the app every month.' },
-      { q: 'We do not store your password.' }]
+      questions: [{
+            q: 'We check every login.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'The system blocked the card.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'We will send a notification.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Someone reset the password this morning.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'The bank must verify your identity.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'We update the app every month.',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'We do not store your password.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',

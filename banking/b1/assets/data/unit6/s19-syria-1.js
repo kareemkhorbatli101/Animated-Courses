@@ -32,25 +32,26 @@ BNK.page('u6-s19', {
       id: 'c2',
       ref: 'S-B',
       bookRef: 'Unit 6 · S-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Answer the questions',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What happened on 20 November 2025?',
-          accept: ['What happened on 20 November 2025?'],
-          keys: ['happened',
-              'november'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does a payment still need besides a connection?',
-          accept: ['What does a payment still need besides a connection?'],
-          keys: ['payment',
-              'still'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What does the officer explain to the waiting customer?',
-          accept: ['What does the officer explain to the waiting customer?'],
-          keys: ['officer',
-              'explain'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What happened on 20 November 2025?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does a payment still need besides a connection?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does the officer explain to the waiting customer?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',

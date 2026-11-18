@@ -66,34 +66,36 @@ BNK.page('u6-s04', {
       id: 'c3',
       ref: '2B',
       bookRef: 'Unit 6 · 2B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Controlled practice (make it indirect)',
       instruction: 'Rewrite each direct question as an indirect question.',
-      items: [{ q: '1. How much does it cost?',
-          accept: ['How much does it cost?'],
-          keys: [], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Where is the beneficiary’s bank?',
-          accept: ['Where is the beneficiary’s bank?'],
-          keys: ['where',
-              'beneficiary'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. When will the money arrive?',
-          accept: ['When will the money arrive?'],
-          keys: ['money',
-              'arrive'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. Does the rate change today?',
-          accept: ['Does the rate change today?'],
-          keys: ['change',
-              'today'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. What is your account number?',
-          accept: ['What is your account number?'],
-          keys: ['account',
-              'number'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'How much does it cost?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Where is the beneficiary’s bank?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'When will the money arrive?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Does the rate change today?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is your account number?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',

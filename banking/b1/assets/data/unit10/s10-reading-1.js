@@ -14,35 +14,36 @@ BNK.page('u10-s10', {
       ref: '5A',
       bookRef: 'Unit 10 · 5A',
       visual: { spot: 'letter-of-credit' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Banking for business',
       instruction: 'Read the business page. Notice the reported speech.<br>Answer the questions.',
-      items: [{ q: '1. What problem did the coffee importer describe?',
-          accept: ['What problem did the coffee importer describe?'],
-          keys: ['problem',
-              'coffee'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What is a facility, and what problem does it solve?',
-          accept: ['What is a facility, and what problem does it solve?'],
-          keys: ['facility',
-              'problem'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What is a letter of credit, and who does it reassure?',
-          accept: ['What is a letter of credit, and who does it reassure?'],
-          keys: ['letter',
-              'credit'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What three other services are mentioned?',
-          accept: ['What three other services are mentioned?'],
-          keys: ['three',
-              'other'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. What do customers say the useful part is?',
-          accept: ['What do customers say the useful part is?'],
-          keys: ['customers',
-              'useful'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What problem did the coffee importer describe?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is a facility, and what problem does it solve?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is a letter of credit, and who does it reassure?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What three other services are mentioned?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What do customers say the useful part is?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -88,23 +89,26 @@ BNK.page('u10-s10', {
       id: 'c3',
       ref: '5C',
       bookRef: 'Unit 10 · 5C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'The relationship manager',
       instruction: 'Read the short profile. What does a relationship manager actually do?',
-      items: [{ q: '1. How many business customers does Priya have?',
-          accept: ['How many business customers does Priya have?'],
-          keys: ['business',
-              'customers'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What did the builder tell her?',
-          accept: ['What did the builder tell her?'],
-          keys: ['builder'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What does Priya say her job is?',
-          accept: ['What does Priya say her job is?'],
-          keys: ['priya'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'How many business customers does Priya have?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What did the builder tell her?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does Priya say her job is?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

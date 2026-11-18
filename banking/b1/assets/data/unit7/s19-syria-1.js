@@ -30,25 +30,26 @@ BNK.page('u7-s19', {
       id: 'c2',
       ref: 'S-B',
       bookRef: 'Unit 7 · S-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Answer the questions',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What does the caller claim, and what do they ask for?',
-          accept: ['What does the caller claim, and what do they ask for?'],
-          keys: ['caller',
-              'claim'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What single sentence does every member of staff say?',
-          accept: ['What single sentence does every member of staff say?'],
-          keys: ['single',
-              'sentence'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why does the compliance officer report it upward?',
-          accept: ['Why does the compliance officer report it upward?'],
-          keys: ['compliance',
-              'officer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What does the caller claim, and what do they ask for?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What single sentence does every member of staff say?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does the compliance officer report it upward?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',

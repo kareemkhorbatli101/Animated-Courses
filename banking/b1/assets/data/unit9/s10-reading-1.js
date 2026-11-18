@@ -14,36 +14,37 @@ BNK.page('u9-s10', {
       ref: '5A',
       bookRef: 'Unit 9 · 5A',
       visual: { spot: 'savings-goal' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Simple ways to save',
       instruction: 'Read the customer leaflet. Notice the present perfect and the past '
   + 'simple.<br>Answer the questions.',
-      items: [{ q: '1. What does “paying yourself first” mean in practice?',
-          accept: ['What does “paying yourself first” mean in practice?'],
-          keys: ['paying',
-              'yourself'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why is an emergency fund important for a saver?',
-          accept: ['Why is an emergency fund important for a saver?'],
-          keys: ['emergency',
-              'important'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What is the difference between a good goal and a bad one?',
-          accept: ['What is the difference between a good goal and a bad one?'],
-          keys: ['difference',
-              'between'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What did the customer do when she missed her target?',
-          accept: ['What did the customer do when she missed her target?'],
-          keys: ['customer',
-              'missed'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. What does the leaflet say the real habit is?',
-          accept: ['What does the leaflet say the real habit is?'],
-          keys: ['leaflet',
-              'habit'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What does “paying yourself first” mean in practice?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why is an emergency fund important for a saver?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the difference between a good goal and a bad one?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What did the customer do when she missed her target?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does the leaflet say the real habit is?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -84,25 +85,26 @@ BNK.page('u9-s10', {
       id: 'c3',
       ref: '5C',
       bookRef: 'Unit 9 · 5C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Saving and investing — the simple idea',
       instruction: 'Read the short note. What is the one question that decides?',
-      items: [{ q: '1. What is the difference between saving and investing, in one line each?',
-          accept: ['What is the difference between saving and investing, in one line each?'],
-          keys: ['difference',
-              'between'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What is the one question that decides?',
-          accept: ['What is the one question that decides?'],
-          keys: ['question',
-              'decides'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What should the answer be if a customer cannot sleep?',
-          accept: ['What should the answer be if a customer cannot sleep?'],
-          keys: ['should',
-              'answer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What is the difference between saving and investing, in one line each?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the one question that decides?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What should the answer be if a customer cannot sleep?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

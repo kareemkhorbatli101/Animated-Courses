@@ -30,25 +30,26 @@ BNK.page('u3-s19', {
       id: 'c2',
       ref: 'S-B',
       bookRef: 'Unit 3 · S-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Answer the questions',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. How many old pounds equal one new pound?',
-          accept: ['How many old pounds equal one new pound?'],
-          keys: ['pounds',
-              'equal'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. How long did the two kinds of note circulate together?',
-          accept: ['How long did the two kinds of note circulate together?'],
-          keys: ['kinds',
-              'circulate'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why did a teller need to say one amount in two ways?',
-          accept: ['Why did a teller need to say one amount in two ways?'],
-          keys: ['teller',
-              'amount'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'How many old pounds equal one new pound?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How long did the two kinds of note circulate together?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why did a teller need to say one amount in two ways?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',

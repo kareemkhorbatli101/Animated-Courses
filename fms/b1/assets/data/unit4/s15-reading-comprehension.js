@@ -15,69 +15,60 @@ FMS.page('u4-s15', {
   next: 's16-writing-models', nextLabel: 'Part 6 - Writing, the models',
   cards: [
     {
-      id: 'c1',
-      covers: ['Part 5'],
-      ref: '5B',
-      bookRef: 'Unit 4 · Part 5 · 5B',
-      type: 'shortanswer',
-      title: 'Reading Comprehension: Discussion Questions',
-      instruction: 'In pairs or small groups, discuss the questions below about the '
+    id: 'c1',
+    covers: ['Part 5'],
+    ref: '5B',
+    bookRef: 'Unit 4 · Part 5 · 5B',
+    type: 'discuss',
+    title: 'Reading Comprehension: Discussion Questions',
+    instruction: 'In pairs or small groups, discuss the questions below about the '
         + 'Kazakhstan–France Bilateral Cooperation Framework. (Aim for 3–4 sentences '
         + 'per answer.)',
-      items: [{ q: '1. Is this kind of framework realistic for Kazakhstan in 2025? What makes '
-            + 'it credible or not?',
-          accept: ['This framework is credible because it is specific. It names the bodies, '
-              + 'the numbers, and the dates: fifty students a year, a roadmap by December '
-              + '2025, a review at three years. A framework without those would be a '
-              + 'declaration.'],
-          keys: ['framework',
-            'realistic'], need: 1,
-          evidence: 'The book\'s own answer is: “This framework is credible because it is '
-            + 'specific. It names the bodies, the numbers, and the dates: fifty students '
-            + 'a year, a roadmap by December 2025, a review at three years. A framework '
-            + 'without those would be a declaration.”' },
-        { q: '2. What does Kazakhstan bring to this partnership as an equal partner — '
-            + 'not just as a recipient of French expertise?',
-          accept: ['Kazakhstan brings its cultural heritage, its universities, and its '
-              + 'position between Europe and Asia. It also brings an existing e-government '
-              + 'platform, which gives French partners a working environment to build on '
-              + 'rather than a blank sheet.'],
-          keys: ['kazakhstan',
-            'bring'], need: 1,
-          evidence: 'The book\'s own answer is: “Kazakhstan brings its cultural heritage, its '
-            + 'universities, and its position between Europe and Asia. It also brings an '
-            + 'existing e-government platform, which gives French partners a working '
-            + 'environment to build on rather than a blank sheet.”' },
-        { q: '3. How does the formal language of this framework and the use of future '
-            + 'forms (will / going to / shall) contribute to the sense of institutional '
+    questions: [{
+          q: 'Is this kind of framework realistic for Kazakhstan in 2025? What makes it '
+            + 'credible or not?',
+          model: 'This framework is credible because it is specific. It names the bodies, '
+            + 'the numbers, and the dates: fifty students a year, a roadmap by December '
+            + '2025, a review at three years. A framework without those would be a '
+            + 'declaration.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'What does Kazakhstan bring to this partnership as an equal partner — not '
+            + 'just as a recipient of French expertise?',
+          model: 'Kazakhstan brings its cultural heritage, its universities, and its '
+            + 'position between Europe and Asia. It also brings an existing e-government '
+            + 'platform, which gives French partners a working environment to build on '
+            + 'rather than a blank sheet.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'How does the formal language of this framework and the use of future forms '
+            + '(will / going to / shall) contribute to the sense of institutional '
             + 'credibility?',
-          accept: ['The word \'shall\' signals a binding obligation. \'Going to\' signals that '
-              + 'the planning has already happened. \'Will\' is used for projected '
-              + 'outcomes. Together they create a graduated scale of certainty, and a '
-              + 'careful reader can see exactly how firm each commitment is.'],
-          keys: ['formal',
-            'language'], need: 1,
-          evidence: 'The book\'s own answer is: “The word \'shall\' signals a binding '
-            + 'obligation. \'Going to\' signals that the planning has already happened. '
-            + '\'Will\' is used for projected outcomes. Together they create a graduated '
-            + 'scale of certainty, and a careful reader can see exactly how firm each '
-            + 'commitment is.”' },
-        { q: '4. What other areas of bilateral cooperation would you prioritize for your '
+          model: 'The word \'shall\' signals a binding obligation. \'Going to\' signals that '
+            + 'the planning has already happened. \'Will\' is used for projected '
+            + 'outcomes. Together they create a graduated scale of certainty, and a '
+            + 'careful reader can see exactly how firm each commitment is.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'What other areas of bilateral cooperation would you prioritize for your '
             + 'country\'s future, and why?',
-          accept: ['I would prioritize healthcare cooperation and environmental '
-              + 'rehabilitation. Both affect people directly and both need expertise we do '
-              + 'not yet have at scale. Vocational training is the third — because every '
-              + 'framework in this unit assumes a workforce that can maintain what it '
-              + 'builds.'],
-          keys: ['other',
-            'areas'], need: 1,
-          evidence: 'The book\'s own answer is: “I would prioritize healthcare cooperation and '
-            + 'environmental rehabilitation. Both affect people directly and both need '
-            + 'expertise we do not yet have at scale. Vocational training is the third — '
-            + 'because every framework in this unit assumes a workforce that can maintain '
-            + 'what it builds.”' }],
-      whyTitle: 'What each answer rests on'
-    },
+          model: 'I would prioritize healthcare cooperation and environmental '
+            + 'rehabilitation. Both affect people directly and both need expertise we do '
+            + 'not yet have at scale. Vocational training is the third — because every '
+            + 'framework in this unit assumes a workforce that can maintain what it '
+            + 'builds.',
+          minWords: 6,
+          rows: 3
+        }],
+    okMsg: 'Your answers are saved. Press “Show me” to put the book\'s answer beside '
+      + 'your own.'
+  },
     {
       id: 'c2',
       covers: ['Part 5'],

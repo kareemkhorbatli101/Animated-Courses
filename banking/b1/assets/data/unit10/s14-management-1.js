@@ -70,25 +70,26 @@ BNK.page('u10-s14', {
       id: 'c3',
       ref: '7B',
       bookRef: 'Unit 10 · 7B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Listening — reporting a client meeting',
       instruction: 'Answer the questions.',
-      items: [{ q: '1. What had the largest buyer done?',
-          accept: ['What had the largest buyer done?'],
-          keys: ['largest',
-              'buyer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does Marta say should go in the note?',
-          accept: ['What does Marta say should go in the note?'],
-          keys: ['marta',
-              'should'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What did Priya promise, and what did she not promise?',
-          accept: ['What did Priya promise, and what did she not promise?'],
-          keys: ['priya',
-              'promise'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What had the largest buyer done?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does Marta say should go in the note?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What did Priya promise, and what did she not promise?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',
@@ -97,12 +98,33 @@ BNK.page('u10-s14', {
       type: 'discuss',
       title: 'Controlled practice — the relationship report',
       instruction: 'Report each sentence for the credit file. Use said, told or asked.',
-      minWords: 12,
-      questions: [{ q: '“Three invoices are overdue.”' },
-      { q: '“My largest buyer has moved to ninety-day terms.”' },
-      { q: '“We have never missed a payment.” (she, to me)' },
-      { q: '“Can you decide by Friday?”' },
-      { q: '“I will send the statements today.” (she)' }]
+      questions: [{
+            q: '“Three invoices are overdue.”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“My largest buyer has moved to ninety-day terms.”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“We have never missed a payment.” (she, to me)',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“Can you decide by Friday?”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“I will send the statements today.” (she)',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

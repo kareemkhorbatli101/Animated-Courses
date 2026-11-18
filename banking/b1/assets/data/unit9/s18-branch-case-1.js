@@ -15,25 +15,26 @@ BNK.page('u9-s18', {
       ref: '9A',
       bookRef: 'Unit 9 · 9A',
       visual: { spot: 'branch-plan' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. Why does Mrs Wanjiru feel she has less than before?',
-          accept: ['Why does Mrs Wanjiru feel she has less than before?'],
-          keys: ['wanjiru',
-              'before'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What has her neighbour told her about?',
-          accept: ['What has her neighbour told her about?'],
-          keys: ['neighbour',
-              'about'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What two things does Grace know at the same time?',
-          accept: ['What two things does Grace know at the same time?'],
-          keys: ['things',
-              'grace'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Why does Mrs Wanjiru feel she has less than before?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What has her neighbour told her about?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What two things does Grace know at the same time?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

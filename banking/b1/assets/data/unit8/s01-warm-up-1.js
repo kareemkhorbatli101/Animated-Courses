@@ -13,23 +13,24 @@ BNK.page('u8-s01', {
       ref: 'W-A',
       bookRef: 'Unit 8 · W-A',
       visual: { spot: 'kyc-check' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Rules at the bank (discussion)',
       instruction: 'In small groups, list the rules a bank asks its customers to follow.',
-      items: [{ q: '1. Which rule do customers find hardest to accept?',
-          accept: ['Which rule do customers find hardest to accept?'],
-          keys: ['which',
-              'customers'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Which rule protects the customer rather than the bank?',
-          accept: ['Which rule protects the customer rather than the bank?'],
-          keys: ['which',
-              'protects'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on',
-      model: ['You must show ID to open an account. You must not let anyone else use '
+      questions: [{
+            q: 'Which rule do customers find hardest to accept?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Which rule protects the customer rather than the bank?',
+            minWords: 6,
+            rows: 2
+          }],
+      ideas: ['You must show ID to open an account. You must not let anyone else use '
         + 'your card. You do not have to come to the branch for a small '
-        + 'transfer.']
+        + 'transfer.'],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

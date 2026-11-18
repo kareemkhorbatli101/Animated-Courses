@@ -64,24 +64,26 @@ BNK.page('u1-s14', {
       id: 'c3',
       ref: '7B',
       bookRef: 'Unit 1 · 7B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Listening — Day one for a new colleague',
       instruction: 'Answer the questions.',
-      items: [{ q: '1. What does Ana do on her first day?',
-          accept: ['What does Ana do on her first day?'],
-          keys: ['first'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. When does she try the counter system?',
-          accept: ['When does she try the counter system?'],
-          keys: ['counter',
-              'system'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Who supports Ana in her first week?',
-          accept: ['Who supports Ana in her first week?'],
-          keys: ['supports',
-              'first'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What does Ana do on her first day?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'When does she try the counter system?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Who supports Ana in her first week?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',

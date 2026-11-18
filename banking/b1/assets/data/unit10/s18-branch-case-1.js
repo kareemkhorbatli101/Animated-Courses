@@ -15,25 +15,26 @@ BNK.page('u10-s18', {
       ref: '9A',
       bookRef: 'Unit 10 · 9A',
       visual: { spot: 'branch-plan' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. Why is there a gap of eleven weeks?',
-          accept: ['Why is there a gap of eleven weeks?'],
-          keys: ['there',
-              'eleven'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does the paper supplier want, and why?',
-          accept: ['What does the paper supplier want, and why?'],
-          keys: ['paper',
-              'supplier'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What are the three options Beatriz is weighing?',
-          accept: ['What are the three options Beatriz is weighing?'],
-          keys: ['three',
-              'options'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Why is there a gap of eleven weeks?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does the paper supplier want, and why?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What are the three options Beatriz is weighing?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

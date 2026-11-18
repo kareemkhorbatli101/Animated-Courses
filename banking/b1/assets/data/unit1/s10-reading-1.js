@@ -79,26 +79,27 @@ BNK.page('u1-s10', {
       id: 'c3',
       ref: '5C',
       bookRef: 'Unit 1 · 5C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Meet a team member',
       instruction: 'Read the short profile. What does Priya do every day, and what is she '
   + 'doing this week?',
-      items: [{ q: '1. Where does Priya work, and what is her job?',
-          accept: ['Where does Priya work, and what is her job?'],
-          keys: ['where',
-              'priya'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What is Priya’s main job with business clients?',
-          accept: ['What is Priya’s main job with business clients?'],
-          keys: ['priya',
-              'business'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What two things is Priya doing this week?',
-          accept: ['What two things is Priya doing this week?'],
-          keys: ['things',
-              'priya'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Where does Priya work, and what is her job?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is Priya’s main job with business clients?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What two things is Priya doing this week?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

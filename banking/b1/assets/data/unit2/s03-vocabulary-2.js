@@ -19,12 +19,33 @@ BNK.page('u2-s03', {
       title: 'Make it polite (rewrite)',
       instruction: 'These sentences are too direct. Rewrite each one to be polite and '
   + 'professional.',
-      minWords: 12,
-      questions: [{ q: '“Sign it now.”' },
-      { q: '“Wait.”' },
-      { q: '“What do you want?”' },
-      { q: '“I need your phone number.”' },
-      { q: '“You’re wrong. That’s not the rule.”' }]
+      questions: [{
+            q: '“Sign it now.”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“Wait.”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“What do you want?”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“I need your phone number.”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“You’re wrong. That’s not the rule.”',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

@@ -15,72 +15,60 @@ FMS.page('u5-s15', {
   next: 's16-writing-models', nextLabel: 'Part 6 - Writing, the models',
   cards: [
     {
-      id: 'c1',
-      covers: ['Part 5'],
-      ref: '5B',
-      bookRef: 'Unit 5 · Part 5 · 5B',
-      type: 'shortanswer',
-      title: 'Reading Comprehension: Discussion Questions',
-      instruction: 'In pairs or small groups, discuss the questions below about the Forum '
+    id: 'c1',
+    covers: ['Part 5'],
+    ref: '5B',
+    bookRef: 'Unit 5 · Part 5 · 5B',
+    type: 'discuss',
+    title: 'Reading Comprehension: Discussion Questions',
+    instruction: 'In pairs or small groups, discuss the questions below about the Forum '
         + 'profile. (Aim for 3–4 sentences per answer.)',
-      items: [{ q: '1. What does the participation of 24 countries and 87 companies tell us '
-            + 'about the country\'s investment position in 2025?',
-          accept: ['Twenty-four countries sending delegations suggests the diplomatic '
-              + 're-engagement is working. Eighty-seven companies means the interest is '
-              + 'commercial — not only political. And the presence of the World Bank and '
-              + 'the regional development banks signals that multilateral institutions now '
-              + 'treat the country as a serious partner.'],
-          keys: ['participation',
-            'countries'], need: 1,
-          evidence: 'The book\'s own answer is: “Twenty-four countries sending delegations '
-            + 'suggests the diplomatic re-engagement is working. Eighty-seven companies '
-            + 'means the interest is commercial — not only political. And the presence of '
-            + 'the World Bank and the regional development banks signals that '
-            + 'multilateral institutions now treat the country as a serious partner.”' },
-        { q: '2. Why are the three letters of intent signed at the 2025 Forum '
-            + 'significant, even though they are not yet full investment agreements?',
-          accept: ['Letters of intent are significant because they commit both sides to a next '
-              + 'step with a named counterpart. They are not investment agreements, but '
-              + 'they move a conversation into a process. They also create a record that '
-              + 'someone can be held to. And they create an obligation on our own side — '
-              + 'because a letter of intent with no study six months later is a visible '
-              + 'failure rather than a quiet one.'],
-          keys: ['three',
-            'letters'], need: 1,
-          evidence: 'The book\'s own answer is: “Letters of intent are significant because they '
-            + 'commit both sides to a next step with a named counterpart. They are not '
-            + 'investment agreements, but they move a conversation into a process. They '
-            + 'also create a record that someone can be held to. And they create an '
-            + 'obligation on our own side — because a letter of intent with no study six '
-            + 'months later is a visible failure rather than a quiet one.”' },
-        { q: '3. What role does the Ministry of Foreign Affairs play in the Forum that '
-            + 'goes beyond its typical diplomatic function?',
-          accept: ['The Ministry of Foreign Affairs is not only hosting an event — it is '
-              + 'facilitating investment. It brings the investors, the other government '
-              + 'ministries, and the development banks into one room. That makes the '
-              + 'Ministry a bridge between the country\'s diplomacy and its development.'],
-          keys: ['ministry',
-            'foreign'], need: 1,
-          evidence: 'The book\'s own answer is: “The Ministry of Foreign Affairs is not only '
-            + 'hosting an event — it is facilitating investment. It brings the investors, '
-            + 'the other government ministries, and the development banks into one room. '
-            + 'That makes the Ministry a bridge between the country\'s diplomacy and its '
-            + 'development.”' },
-        { q: '4. If you were advising the Ministry on the 2026 Forum, what one change '
-            + 'would you recommend and why?',
-          accept: ['I would recommend that every delegation leave with a named case officer '
-              + 'and a scheduled follow-up date. The Forum generates interest well; what it '
-              + 'does not do is convert it. A site visit programme is useful, but follow-up '
-              + 'is what turns a letter of intent into a study.'],
-          keys: ['advising',
-            'ministry'], need: 1,
-          evidence: 'The book\'s own answer is: “I would recommend that every delegation leave '
-            + 'with a named case officer and a scheduled follow-up date. The Forum '
-            + 'generates interest well; what it does not do is convert it. A site visit '
-            + 'programme is useful, but follow-up is what turns a letter of intent into a '
-            + 'study.”' }],
-      whyTitle: 'What each answer rests on'
-    },
+    questions: [{
+          q: 'What does the participation of 24 countries and 87 companies tell us about '
+            + 'the country\'s investment position in 2025?',
+          model: 'Twenty-four countries sending delegations suggests the diplomatic '
+            + 're-engagement is working. Eighty-seven companies means the interest is '
+            + 'commercial — not only political. And the presence of the World Bank and '
+            + 'the regional development banks signals that multilateral institutions now '
+            + 'treat the country as a serious partner.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'Why are the three letters of intent signed at the 2025 Forum significant, '
+            + 'even though they are not yet full investment agreements?',
+          model: 'Letters of intent are significant because they commit both sides to a next '
+            + 'step with a named counterpart. They are not investment agreements, but '
+            + 'they move a conversation into a process. They also create a record that '
+            + 'someone can be held to. And they create an obligation on our own side — '
+            + 'because a letter of intent with no study six months later is a visible '
+            + 'failure rather than a quiet one.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'What role does the Ministry of Foreign Affairs play in the Forum that goes '
+            + 'beyond its typical diplomatic function?',
+          model: 'The Ministry of Foreign Affairs is not only hosting an event — it is '
+            + 'facilitating investment. It brings the investors, the other government '
+            + 'ministries, and the development banks into one room. That makes the '
+            + 'Ministry a bridge between the country\'s diplomacy and its development.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'If you were advising the Ministry on the 2026 Forum, what one change would '
+            + 'you recommend and why?',
+          model: 'I would recommend that every delegation leave with a named case officer '
+            + 'and a scheduled follow-up date. The Forum generates interest well; what it '
+            + 'does not do is convert it. A site visit programme is useful, but follow-up '
+            + 'is what turns a letter of intent into a study.',
+          minWords: 6,
+          rows: 3
+        }],
+    okMsg: 'Your answers are saved. Press “Show me” to put the book\'s answer beside '
+      + 'your own.'
+  },
     {
       id: 'c2',
       covers: ['Part 5'],

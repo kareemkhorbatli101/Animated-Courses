@@ -105,29 +105,32 @@ FMS.page('u3-s01', {
         + 'findings with the class. (Aim for 3–4 sentences when you share.)',
       scene: 'u3-wb',
       quiz: {
-        type: 'shortanswer',
+        id: 'c2-quiz',
+        ref: 'W-B',
+        bookRef: 'Unit 3 · Warm Up · W-B',
+        type: 'discuss',
         title: 'After you listen',
         instruction: 'In small groups, list the five most common questions foreign visitors ask '
         + 'about your country at ministry meetings. For each question, identify which '
         + 'department handles it and what kind of answer is appropriate. Share your '
         + 'findings with the class. (Aim for 3–4 sentences when you share.)',
-        items: [{ q: '1. What are the five most common questions, and how should each be handled '
+        questions: [{
+              q: 'What are the five most common questions, and how should each be handled '
                 + 'professionally?',
-              accept: ['1. "What is the security situation in the regions?" — Political Affairs — '
-                  + 'a region-specific, factual answer, never a generalization. 2. "Are the '
-                  + 'reforms real or only on paper?" — Press and Information Office — name '
-                  + 'signed agreements and established committees. 3. "What protections exist '
-                  + 'for foreign investors?" — Economic Affairs — the legal framework and '
-                  + 'dispute resolution, with a referral to qualified advisers. 4. "How does '
-                  + 'the returning-citizens program actually work?" — Consular Affairs — who it '
-                  + 'covers, how applications are processed, what support is provided. 5. "Who '
-                  + 'monitors the use of international funds?" — Political Affairs — the '
-                  + 'oversight mechanisms and the reporting requirements.'],
-              keys: ['common',
-                'questions'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' }],
-        whyTitle: 'What each answer rests on'
+              model: '1. "What is the security situation in the regions?" — Political Affairs — '
+                + 'a region-specific, factual answer, never a generalization. 2. "Are the '
+                + 'reforms real or only on paper?" — Press and Information Office — name '
+                + 'signed agreements and established committees. 3. "What protections exist '
+                + 'for foreign investors?" — Economic Affairs — the legal framework and '
+                + 'dispute resolution, with a referral to qualified advisers. 4. "How does '
+                + 'the returning-citizens program actually work?" — Consular Affairs — who it '
+                + 'covers, how applications are processed, what support is provided. 5. "Who '
+                + 'monitors the use of international funds?" — Political Affairs — the '
+                + 'oversight mechanisms and the reporting requirements.',
+              minWords: 6,
+              rows: 3
+            }],
+        okMsg: 'Saved. Press “Show me” to compare with the book\'s answers.'
       }
     }
   ]

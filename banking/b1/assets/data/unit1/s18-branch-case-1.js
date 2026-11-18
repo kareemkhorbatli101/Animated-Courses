@@ -14,25 +14,26 @@ BNK.page('u1-s18', {
       ref: '9A',
       bookRef: 'Unit 1 · 9A',
       visual: { spot: 'branch-plan' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. Why do the new tellers work slowly?',
-          accept: ['Why do the new tellers work slowly?'],
-          keys: ['tellers',
-              'slowly'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What two things does Amina want at the same time?',
-          accept: ['What two things does Amina want at the same time?'],
-          keys: ['things',
-              'amina'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Who is the one experienced teller?',
-          accept: ['Who is the one experienced teller?'],
-          keys: ['experienced',
-              'teller'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Why do the new tellers work slowly?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What two things does Amina want at the same time?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Who is the one experienced teller?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

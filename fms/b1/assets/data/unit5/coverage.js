@@ -41,7 +41,7 @@ FMS.coverage('unit5', [
     keyed: true, scene: false, title: 'Group Discussion: What Makes an Investment Pitch Work?' },
   { code: '5A', ord: 20, type: 'highlighter', kind: 'full', items: 5,
     keyed: true, scene: false, title: 'Read the National Development and Investment Forum Profile' },
-  { code: '5B', ord: 21, type: 'shortanswer', kind: 'full', items: 4,
+  { code: '5B', ord: 21, type: 'discuss', kind: 'full', items: 4,
     keyed: true, scene: false, title: 'Reading Comprehension: Discussion Questions' },
   { code: '5C', ord: 22, type: 'cloze', kind: 'full', items: 6,
     keyed: true, scene: false, title: 'Language in Context: Conditional Structures in Investment Writing' },

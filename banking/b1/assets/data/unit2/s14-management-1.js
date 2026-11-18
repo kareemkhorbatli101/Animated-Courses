@@ -66,23 +66,26 @@ BNK.page('u2-s14', {
       id: 'c3',
       ref: '7B',
       bookRef: 'Unit 2 · 7B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Listening — giving feedback after a hard customer',
       instruction: 'Answer the questions.',
-      items: [{ q: '1. What did Ana do well?',
-          accept: ['What did Ana do well?'],
-          keys: [], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. How did Ana feel during the conversation?',
-          accept: ['How did Ana feel during the conversation?'],
-          keys: ['during',
-              'conversation'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What should Ana try next time?',
-          accept: ['What should Ana try next time?'],
-          keys: ['should'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What did Ana do well?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How did Ana feel during the conversation?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What should Ana try next time?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',
@@ -91,11 +94,28 @@ BNK.page('u2-s14', {
       type: 'discuss',
       title: 'Turn blunt feedback into supportive feedback',
       instruction: 'Rewrite each blunt comment so it is supportive and kind.',
-      minWords: 12,
-      questions: [{ q: '“You were too slow.”' },
-      { q: '“You forgot to greet the customer.”' },
-      { q: '“Your explanation was confusing.”' },
-      { q: '“You didn’t listen to the customer.”' }]
+      questions: [{
+            q: '“You were too slow.”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“You forgot to greet the customer.”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“Your explanation was confusing.”',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: '“You didn’t listen to the customer.”',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

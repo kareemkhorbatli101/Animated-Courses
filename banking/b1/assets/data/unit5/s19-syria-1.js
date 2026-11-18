@@ -31,24 +31,26 @@ BNK.page('u5-s19', {
       id: 'c2',
       ref: 'S-B',
       bookRef: 'Unit 5 · S-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Answer the questions',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What is the branch\'s hardest problem with the new application?',
-          accept: ['What is the branch\'s hardest problem with the new application?'],
-          keys: ['branch',
-              'hardest'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What do customers most want to know?',
-          accept: ['What do customers most want to know?'],
-          keys: ['customers'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why does the branch make every member of staff say the same sentences?',
-          accept: ['Why does the branch make every member of staff say the same sentences?'],
-          keys: ['branch',
-              'every'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What is the branch\'s hardest problem with the new application?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What do customers most want to know?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does the branch make every member of staff say the same sentences?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',

@@ -14,24 +14,26 @@ BNK.page('u4-s18', {
       ref: '9A',
       bookRef: 'Unit 4 · 9A',
       visual: { spot: 'branch-plan' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What does Rafael want to buy, and why?',
-          accept: ['What does Rafael want to buy, and why?'],
-          keys: ['rafael'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does Beatriz notice about the shop’s income?',
-          accept: ['What does Beatriz notice about the shop’s income?'],
-          keys: ['beatriz',
-              'notice'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What is the problem with the three-year loan?',
-          accept: ['What is the problem with the three-year loan?'],
-          keys: ['problem',
-              'three'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What does Rafael want to buy, and why?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does Beatriz notice about the shop’s income?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the problem with the three-year loan?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

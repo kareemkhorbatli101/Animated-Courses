@@ -14,29 +14,31 @@ BNK.page('u1-s16', {
       ref: '8A',
       bookRef: 'Unit 1 · 8A',
       visual: { spot: 'branch-plan' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What do new staff do in the first week?',
-          accept: ['What do new staff do in the first week?'],
-          keys: ['staff',
-              'first'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. How does a buddy help?',
-          accept: ['How does a buddy help?'],
-          keys: ['buddy'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What happens during probation?',
-          accept: ['What happens during probation?'],
-          keys: ['happens',
-              'during'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. Why does the bank think a careful start is worth the time?',
-          accept: ['Why does the bank think a careful start is worth the time?'],
-          keys: ['think',
-              'careful'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What do new staff do in the first week?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How does a buddy help?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What happens during probation?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does the bank think a careful start is worth the time?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -67,20 +69,22 @@ BNK.page('u1-s16', {
       id: 'c3',
       ref: '8C',
       bookRef: 'Unit 1 · 8C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Discussion',
       instruction: 'Frames: “This is similar to a bank in my country because ___.” “This '
   + 'is different because ___.”',
-      items: [{ q: '1. Would a two-week start work in your bank? Why / why not?',
-          accept: ['Would a two-week start work in your bank? Why / why not?'],
-          keys: ['would',
-              'start'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What is one idea here you would use?',
-          accept: ['What is one idea here you would use?'],
-          keys: ['would'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Would a two-week start work in your bank? Why / why not?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is one idea here you would use?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

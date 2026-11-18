@@ -1,0 +1,83 @@
+/* ============================================================
+   English for the Hospitality Industry — hosp.css
+
+   THE COURSE'S OWN LAYER, loaded after app.css. app.css is the canonical engine
+   stylesheet, materialised from canon and identical across courses; anything this
+   course needs differently belongs here, so the engine copy stays diffable against
+   canon and `course_engine --drift` stays meaningful.
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   THE BOOK'S PRINTED FIGURES.
+
+   This is the first course on the site that ships image files: the other six draw
+   every picture in code. These are the book's own 60 figures, measured 1180px wide
+   and 300-620px tall, and the exercises refer to them by number - "write the word
+   from Figure 1.2" - so the picture is part of the question, not decoration.
+
+   Capped rather than full-width: at a desktop card width the widest would stand
+   about 560px tall and push the exercise itself below the fold, which is the same
+   mistake the banking drawings made before bank.css capped them.
+   ------------------------------------------------------------ */
+.card .vis-art > .vis-img,
+.card .vis-img {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 8px;
+  background: #fff;
+  /* The figures are line art on white. On a dark card that would float with no
+     edge, so it keeps a hairline of its own rather than relying on the page. */
+  border: 1px solid var(--line, #d8d2c6);
+}
+
+.card figure.vis > figcaption {
+  text-align: center;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--text-2, #5b5445);
+  margin-top: 7px;
+}
+
+/* the printed listening dialogues and case studies */
+.card .script p,
+.card .note p {
+  margin: 4px 0;
+  line-height: 1.65;
+}
+.card .script b {
+  color: var(--ink, #134e4a);
+}
+
+/* the unit glossary list */
+.card ul.gloss {
+  columns: 2;
+  column-gap: 26px;
+  margin: 6px 0 0;
+  padding-left: 18px;
+}
+.card ul.gloss li {
+  break-inside: avoid;
+  margin: 3px 0;
+  line-height: 1.5;
+}
+
+/* A HUB THAT IS TWELVE PARTS LONG NEEDS ITS PARTS TO READ AS PARTS.
+   The unit hub groups its screens under the book's own part headings, so each
+   heading gets a rule above it and the objective under it is set apart from the
+   tiles that follow. */
+.hub-wrap h2.hub-head {
+  border-top: 1px solid var(--line, #d8d2c6);
+  padding-top: 14px;
+}
+.hub-wrap h2.hub-head + .hub-sub {
+  font-style: italic;
+  margin: 2px 0 10px;
+}
+
+@media (max-width: 720px) {
+  .card ul.gloss { columns: 1; }
+  .card .vis-img { max-width: 100%; }
+}

@@ -71,23 +71,26 @@ BNK.page('u8-s14', {
       id: 'c3',
       ref: '7B',
       bookRef: 'Unit 8 · 7B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Listening — handling the escalation',
       instruction: 'Answer the questions.',
-      items: [{ q: '1. What does Elif ask Ana to write down?',
-          accept: ['What does Elif ask Ana to write down?'],
-          keys: ['write'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. How should Ana behave if the customer returns?',
-          accept: ['How should Ana behave if the customer returns?'],
-          keys: ['should',
-              'behave'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Who will file the report?',
-          accept: ['Who will file the report?'],
-          keys: ['report'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What does Elif ask Ana to write down?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How should Ana behave if the customer returns?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Who will file the report?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',
@@ -97,12 +100,33 @@ BNK.page('u8-s14', {
       title: 'Controlled practice — write the procedure',
       instruction: 'Write each step of the escalation procedure as a rule. Use must, '
   + 'mustn’t or don’t have to.',
-      minWords: 12,
-      questions: [{ q: 'write down what you saw, with times' },
-      { q: 'tell the customer' },
-      { q: 'change how you serve the customer' },
-      { q: 'decide alone whether it is serious' },
-      { q: 'file the report yourself' }]
+      questions: [{
+            q: 'write down what you saw, with times',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'tell the customer',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'change how you serve the customer',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'decide alone whether it is serious',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'file the report yourself',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

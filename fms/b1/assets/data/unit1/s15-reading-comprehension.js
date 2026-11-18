@@ -15,67 +15,57 @@ FMS.page('u1-s15', {
   next: 's16-writing-models', nextLabel: 'Part 6 - Writing, the models',
   cards: [
     {
-      id: 'c1',
-      covers: ['Part 5'],
-      ref: '5B',
-      bookRef: 'Unit 1 · Part 5 · 5B',
-      type: 'shortanswer',
-      title: 'Reading Comprehension: Discussion Questions',
-      instruction: 'In pairs or small groups, discuss the questions below about the four '
+    id: 'c1',
+    covers: ['Part 5'],
+    ref: '5B',
+    bookRef: 'Unit 1 · Part 5 · 5B',
+    type: 'discuss',
+    title: 'Reading Comprehension: Discussion Questions',
+    instruction: 'In pairs or small groups, discuss the questions below about the four '
         + 'profiles. (Aim for 3–4 sentences per answer.)',
-      items: [{ q: '1. Which of the four roles do you think is most important for the '
-            + 'ministry\'s international engagement right now, and why?',
-          accept: ['I think Huy\'s role is most important right now. Viet Nam needs foreign '
-              + 'investment to keep growing, and his work helps make that possible. Without '
-              + 'economic diplomacy, political progress does not have a real impact.'],
-          keys: ['which',
-            'roles'], need: 1,
-          evidence: 'The book\'s own answer is: “I think Huy\'s role is most important right '
-            + 'now. Viet Nam needs foreign investment to keep growing, and his work helps '
-            + 'make that possible. Without economic diplomacy, political progress does '
-            + 'not have a real impact.”' },
-        { q: '2. How do Mai\'s and Ha\'s responsibilities complement each other?',
-          accept: ['Mai manages the formal arrival and protocol — the physical and logistical '
-              + 'side of official visits. Ha manages what gets reported and communicated '
-              + 'about those same events. They work together to make sure visits are both '
-              + 'well-organized and well-presented to the international public.'],
-          keys: ['responsibilities',
-            'complement'], need: 1,
-          evidence: 'The book\'s own answer is: “Mai manages the formal arrival and protocol — '
-            + 'the physical and logistical side of official visits. Ha manages what gets '
-            + 'reported and communicated about those same events. They work together to '
-            + 'make sure visits are both well-organized and well-presented to the '
-            + 'international public.”' },
-        { q: '3. What skills do all four profiles share that are essential for working '
-            + 'at a foreign ministry?',
-          accept: ['All four people need strong organizational skills and professional '
-              + 'communication in English. They all work with time-sensitive tasks — a '
-              + 'delayed visa or a poorly organized event can have real diplomatic '
-              + 'consequences. They also need attention to detail and the ability to stay '
-              + 'calm.'],
-          keys: ['skills',
-            'profiles'], need: 1,
-          evidence: 'The book\'s own answer is: “All four people need strong organizational '
-            + 'skills and professional communication in English. They all work with '
-            + 'time-sensitive tasks — a delayed visa or a poorly organized event can have '
-            + 'real diplomatic consequences. They also need attention to detail and the '
-            + 'ability to stay calm.”' },
-        { q: '4. What does working at the Ministry of Foreign Affairs mean for the '
+    questions: [{
+          q: 'Which of the four roles do you think is most important for the ministry\'s '
+            + 'international engagement right now, and why?',
+          model: 'I think Huy\'s role is most important right now. Viet Nam needs foreign '
+            + 'investment to keep growing, and his work helps make that possible. Without '
+            + 'economic diplomacy, political progress does not have a real impact.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'How do Mai\'s and Ha\'s responsibilities complement each other?',
+          model: 'Mai manages the formal arrival and protocol — the physical and logistical '
+            + 'side of official visits. Ha manages what gets reported and communicated '
+            + 'about those same events. They work together to make sure visits are both '
+            + 'well-organized and well-presented to the international public.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'What skills do all four profiles share that are essential for working at a '
+            + 'foreign ministry?',
+          model: 'All four people need strong organizational skills and professional '
+            + 'communication in English. They all work with time-sensitive tasks — a '
+            + 'delayed visa or a poorly organized event can have real diplomatic '
+            + 'consequences. They also need attention to detail and the ability to stay '
+            + 'calm.',
+          minWords: 6,
+          rows: 3
+        },
+    {
+          q: 'What does working at the Ministry of Foreign Affairs mean for the '
             + 'country\'s international position, based on these four profiles?',
-          accept: ['These profiles show that the ministry\'s international engagement is real '
-              + 'and active — it is not just political speeches. The ministry is doing '
-              + 'professional work every day, from visa processing to investment '
-              + 'facilitation. This sends a strong message that the country has capable '
-              + 'institutions.'],
-          keys: ['working',
-            'ministry'], need: 1,
-          evidence: 'The book\'s own answer is: “These profiles show that the ministry\'s '
-            + 'international engagement is real and active — it is not just political '
-            + 'speeches. The ministry is doing professional work every day, from visa '
-            + 'processing to investment facilitation. This sends a strong message that '
-            + 'the country has capable institutions.”' }],
-      whyTitle: 'What each answer rests on'
-    },
+          model: 'These profiles show that the ministry\'s international engagement is real '
+            + 'and active — it is not just political speeches. The ministry is doing '
+            + 'professional work every day, from visa processing to investment '
+            + 'facilitation. This sends a strong message that the country has capable '
+            + 'institutions.',
+          minWords: 6,
+          rows: 3
+        }],
+    okMsg: 'Your answers are saved. Press “Show me” to put the book\'s answer beside '
+      + 'your own.'
+  },
     {
       id: 'c2',
       covers: ['Part 5'],

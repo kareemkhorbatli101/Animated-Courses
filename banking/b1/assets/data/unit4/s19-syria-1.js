@@ -32,25 +32,26 @@ BNK.page('u4-s19', {
       id: 'c2',
       ref: 'S-B',
       bookRef: 'Unit 4 · S-B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Answer the questions',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What three kinds of bank does the case name?',
-          accept: ['What three kinds of bank does the case name?'],
-          keys: ['three',
-              'kinds'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. In a murabaha, what does the bank do before the customer pays?',
-          accept: ['In a murabaha, what does the bank do before the customer pays?'],
-          keys: ['murabaha',
-              'before'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why does the loan officer not tell the customer which to choose?',
-          accept: ['Why does the loan officer not tell the customer which to choose?'],
-          keys: ['officer',
-              'customer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What three kinds of bank does the case name?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'In a murabaha, what does the bank do before the customer pays?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does the loan officer not tell the customer which to choose?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c3',

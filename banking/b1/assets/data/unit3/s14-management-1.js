@@ -68,24 +68,26 @@ BNK.page('u3-s14', {
       id: 'c3',
       ref: '7B',
       bookRef: 'Unit 3 · 7B',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Listening — the shift handover',
       instruction: 'Answer the questions.',
-      items: [{ q: '1. How much is in the float?',
-          accept: ['How much is in the float?'],
-          keys: ['float'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why should Tomasz order more large notes?',
-          accept: ['Why should Tomasz order more large notes?'],
-          keys: ['should',
-              'tomasz'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What is happening at three o’clock?',
-          accept: ['What is happening at three o’clock?'],
-          keys: ['happening',
-              'three'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'How much is in the float?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why should Tomasz order more large notes?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is happening at three o’clock?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c4',

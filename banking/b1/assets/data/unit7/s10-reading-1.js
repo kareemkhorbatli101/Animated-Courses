@@ -14,37 +14,37 @@ BNK.page('u7-s10', {
       ref: '5A',
       bookRef: 'Unit 7 · 5A',
       visual: { spot: 'phishing' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Stay safe: security tips',
       instruction: 'Read the customer leaflet. Notice the conditionals.<br>Answer the questions.',
-      items: [{ q: '1. What does the leaflet say about anyone who asks for a code?',
-          accept: ['What does the leaflet say about anyone who asks for a code?'],
-          keys: ['leaflet',
-              'about'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why does fraud work on hurry?',
-          accept: ['Why does fraud work on hurry?'],
-          keys: ['fraud',
-              'hurry'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Which number should a customer call to check a call?',
-          accept: ['Which number should a customer call to check a call?'],
-          keys: ['which',
-              'number'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. Why should a customer look at the statement each week?',
-          accept: ['Why should a customer look at the statement each week?'],
-          keys: ['should',
-              'customer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. What is the difference between reporting in the first hour and '
+      questions: [{
+            q: 'What does the leaflet say about anyone who asks for a code?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why does fraud work on hurry?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Which number should a customer call to check a call?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why should a customer look at the statement each week?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the difference between reporting in the first hour and '
               + 'waiting a week?',
-          accept: ['What is the difference between reporting in the first hour and '
-                + 'waiting a week?'],
-          keys: ['difference',
-              'between'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -90,24 +90,26 @@ BNK.page('u7-s10', {
       id: 'c3',
       ref: '5C',
       bookRef: 'Unit 7 · 5C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'A close call',
       instruction: 'Read the short story. What stopped the fraud?',
-      items: [{ q: '1. What did the caller already know about her?',
-          accept: ['What did the caller already know about her?'],
-          keys: ['caller',
-              'already'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What one question did she ask?',
-          accept: ['What one question did she ask?'],
-          keys: ['question'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What was the caller’s answer, and why did it matter?',
-          accept: ['What was the caller’s answer, and why did it matter?'],
-          keys: ['caller',
-              'answer'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What did the caller already know about her?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What one question did she ask?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What was the caller’s answer, and why did it matter?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

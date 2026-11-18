@@ -14,34 +14,36 @@ BNK.page('u3-s16', {
       ref: '8A',
       bookRef: 'Unit 3 · 8A',
       visual: { spot: 'bank-counter' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What did the bank find about the people in the queue?',
-          accept: ['What did the bank find about the people in the queue?'],
-          keys: ['about',
-              'people'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What does a greeter do?',
-          accept: ['What does a greeter do?'],
-          keys: ['greeter'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. Why did the bank move bill payments to a separate desk?',
-          accept: ['Why did the bank move bill payments to a separate desk?'],
-          keys: ['payments',
-              'separate'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. How long was the average wait after three months?',
-          accept: ['How long was the average wait after three months?'],
-          keys: ['average',
-              'after'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. How many extra tellers did the bank add?',
-          accept: ['How many extra tellers did the bank add?'],
-          keys: ['extra',
-              'tellers'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What did the bank find about the people in the queue?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does a greeter do?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why did the bank move bill payments to a separate desk?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How long was the average wait after three months?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How many extra tellers did the bank add?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -76,21 +78,22 @@ BNK.page('u3-s16', {
       id: 'c3',
       ref: '8C',
       bookRef: 'Unit 3 · 8C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Discussion',
       instruction: 'Frames: “This would work in my branch because ___.” “This would be '
   + 'difficult because ___.”',
-      items: [{ q: '1. Would a greeter work in your branch? Why / why not?',
-          accept: ['Would a greeter work in your branch? Why / why not?'],
-          keys: ['would',
-              'greeter'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Which of the three changes is easiest to start tomorrow?',
-          accept: ['Which of the three changes is easiest to start tomorrow?'],
-          keys: ['which',
-              'three'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Would a greeter work in your branch? Why / why not?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Which of the three changes is easiest to start tomorrow?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

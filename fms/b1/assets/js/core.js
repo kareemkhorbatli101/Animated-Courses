@@ -205,6 +205,21 @@
   };
   U.accepts = function (input, accepted) {
     var n = U.norm(input);
+    /* EXACT MATCH FIRST, BEFORE NORMALISING. U.norm deletes the articles,
+       so an answer of "a" or "an" or "the" normalises to nothing and
+       loses to the `if (!n) return false` below. An exact match is never
+       ambiguous, so it is decided here. */
+    var rawIn = String(input === undefined || input === null ? '' : input)
+      .trim().toLowerCase();
+    if (rawIn) {
+      var exList = Array.isArray(accepted) ? accepted : [accepted];
+      for (var xi = 0; xi < exList.length; xi++) {
+        var ex = exList[xi];
+        if (ex instanceof RegExp) continue;
+        if (String(ex === undefined || ex === null ? '' : ex)
+            .trim().toLowerCase() === rawIn) return true;
+      }
+    }
     if (!n) return false;
     var list = Array.isArray(accepted) ? accepted : [accepted];
     for (var i = 0; i < list.length; i++) {
@@ -452,7 +467,13 @@
       b.setAttribute('aria-pressed', PREFS[k] ? 'true' : 'false');
       if (FMS.cine) FMS.cine.applySubPrefs();
     });
-    wrap.appendChild(sub);
+    /* ONLY WHERE THERE IS A SCENE TO SUBTITLE. These two buttons drive
+       cine.applySubPrefs() and nothing else, so on a course with no scene
+       cards they promise a translation that cannot arrive. */
+    var subsUseful = !!(def && (def.cards || []).some(function (c) {
+      return c && (c.type === 'scene' || c.type === 'roleplay' || c.scene
+                   || (c.quiz && c.quiz.scene)); }));
+    if (subsUseful) wrap.appendChild(sub);
 
     if (def && (def.prev || def.next)) {
       var nav = U.el('div', 'btn-row');
@@ -775,6 +796,18 @@
       if (card.pictureCaption) body.appendChild(U.el('div', 'wc pic-cap', card.pictureCaption));
     }
     if (card.passage && card.type !== 'scene') body.appendChild(FMS.passageNode(card.passage));
+
+    /* ----------------------------------------------------------
+       `before` is the book's WORKED EXAMPLE and every card type gets
+       it. It was drawn by EX.cloze alone, so a card of any other type
+       that carried one printed the exercise with the example missing -
+       39 of them in one course, each of which looked complete. The
+       cloze exception is there because EX.cloze still draws its own,
+       which keeps that component's output unchanged.
+       ---------------------------------------------------------- */
+    if (card.before && card.type !== 'cloze') {
+      body.appendChild(U.el('div', 'note', card.before));
+    }
 
     /* ----------------------------------------------------------
        An exercise must not ask about something it does not show.
@@ -1733,6 +1766,16 @@
     else if (v.mouth) inner = FMS.art.mouthDiagram(v.mouth);
     else if (v.pie) inner = FMS.art.pie(v.pie, v.arg);
     else if (v.html) inner = v.html;
+    else if (v.img) {
+      /* The alt text is the book's own figure caption unless the card
+         gives a better one. It is deliberately not left empty: this is
+         not decoration - the exercise cannot be answered without the
+         picture, so a learner using a screen reader needs to be told
+         what is in it, even at the cost of repeating the caption. */
+      inner = '<img class="vis-img" loading="lazy" src="'
+        + U.esc(v.img) + '" alt="' + U.esc(v.alt || v.caption || '')
+        + '">';
+    }
     fig.innerHTML = '<div class="vis-art">' + inner + '</div>';
     /* captions are authored content, like instructions, so light
        markup (<b>, <i>) is rendered rather than printed */

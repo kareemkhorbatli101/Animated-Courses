@@ -14,29 +14,31 @@ BNK.page('u3-s18', {
       ref: '9A',
       bookRef: 'Unit 3 · 9A',
       visual: { spot: 'branch-plan' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. Why do many customers want to change money this morning?',
-          accept: ['Why do many customers want to change money this morning?'],
-          keys: ['customers',
-              'change'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What one question do most of them have?',
-          accept: ['What one question do most of them have?'],
-          keys: ['question'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What are a few customers angry about?',
-          accept: ['What are a few customers angry about?'],
-          keys: ['customers',
-              'angry'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. How many staff and desks does Kerem have?',
-          accept: ['How many staff and desks does Kerem have?'],
-          keys: ['staff',
-              'desks'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Why do many customers want to change money this morning?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What one question do most of them have?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What are a few customers angry about?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'How many staff and desks does Kerem have?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',

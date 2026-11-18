@@ -112,7 +112,10 @@ FMS.page('u4-s01', {
         + 'institutions)',
       scene: 'u4-wb',
       quiz: {
-        type: 'shortanswer',
+        id: 'c2-quiz',
+        ref: 'W-B',
+        bookRef: 'Unit 4 · Warm Up · W-B',
+        type: 'discuss',
         title: 'After you listen',
         instruction: 'In small groups, sort the nine types of ministry written communication '
         + 'below into three categories. Then add who writes it and its main purpose '
@@ -125,32 +128,32 @@ FMS.page('u4-s01', {
         + 'documents (sent to international press or the public)<br>C — Internal or '
         + 'coordination documents (sent inside the ministry or to partner '
         + 'institutions)',
-        items: [{ q: '1. What types of English written communication does your ministry produce '
-                + 'or receive, and what are the key details for each?',
-              accept: ['1. Note verbale — Category A — written by the Protocol or Political '
-                  + 'Affairs Directorate, signed institutionally rather than personally; its '
-                  + 'purpose is formal inter-governmental communication, in the third person '
-                  + 'throughout. 2. Memorandum of Understanding — Category A — drafted jointly '
-                  + 'by the relevant technical directorate and the Legal Directorate; it '
-                  + 'records agreed intentions and establishes the institutional machinery. 3. '
-                  + 'Aide-mémoire — Category A — prepared by the liaison officer after a '
-                  + 'meeting; it records what both sides understood to have been agreed. 4. '
-                  + 'Bilateral communiqué — Category B — drafted jointly and cleared at '
-                  + 'ministerial level; it is the public statement of a meeting\'s outcome. 5. '
-                  + 'Formal invitation — Category A — issued by Protocol, in the note verbale '
-                  + 'register for inter-governmental events. 6. Congratulatory note — Category '
-                  + 'A — from the minister to a counterpart, in the third person, on an '
-                  + 'appointment or a national day. 7. Circular — Category C — internal, from a '
-                  + 'directorate to ministry staff and missions, conveying procedure. 8. Press '
-                  + 'statement — Category B — Press and Information Office, for international '
-                  + 'media. 9. Annual report — Category B and C — prepared across directorates, '
-                  + 'published for partners and the public and used internally as the record of '
-                  + 'the year.'],
-              keys: ['types',
-                'english'], need: 1,
-              evidence: 'The answer is in the conversation above — play it again and listen for '
-                + 'that turn.' }],
-        whyTitle: 'What each answer rests on'
+        questions: [{
+              q: 'What types of English written communication does your ministry produce or '
+                + 'receive, and what are the key details for each?',
+              model: '1. Note verbale — Category A — written by the Protocol or Political '
+                + 'Affairs Directorate, signed institutionally rather than personally; its '
+                + 'purpose is formal inter-governmental communication, in the third person '
+                + 'throughout. 2. Memorandum of Understanding — Category A — drafted jointly '
+                + 'by the relevant technical directorate and the Legal Directorate; it '
+                + 'records agreed intentions and establishes the institutional machinery. 3. '
+                + 'Aide-mémoire — Category A — prepared by the liaison officer after a '
+                + 'meeting; it records what both sides understood to have been agreed. 4. '
+                + 'Bilateral communiqué — Category B — drafted jointly and cleared at '
+                + 'ministerial level; it is the public statement of a meeting\'s outcome. 5. '
+                + 'Formal invitation — Category A — issued by Protocol, in the note verbale '
+                + 'register for inter-governmental events. 6. Congratulatory note — Category '
+                + 'A — from the minister to a counterpart, in the third person, on an '
+                + 'appointment or a national day. 7. Circular — Category C — internal, from a '
+                + 'directorate to ministry staff and missions, conveying procedure. 8. Press '
+                + 'statement — Category B — Press and Information Office, for international '
+                + 'media. 9. Annual report — Category B and C — prepared across directorates, '
+                + 'published for partners and the public and used internally as the record of '
+                + 'the year.',
+              minWords: 6,
+              rows: 3
+            }],
+        okMsg: 'Saved. Press “Show me” to compare with the book\'s answers.'
       }
     }
   ]

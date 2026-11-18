@@ -44,7 +44,7 @@ FMS.coverage('unit4', [
     keyed: true, scene: false, title: 'Discussion: Bridge-Builders and Future Vision' },
   { code: '5A', ord: 20, type: 'highlighter', kind: 'full', items: 4,
     keyed: true, scene: false, title: 'Read: The Kazakhstan–France Bilateral Cooperation Framework' },
-  { code: '5B', ord: 21, type: 'shortanswer', kind: 'full', items: 4,
+  { code: '5B', ord: 21, type: 'discuss', kind: 'full', items: 4,
     keyed: true, scene: false, title: 'Reading Comprehension: Discussion Questions' },
   { code: '5C', ord: 22, type: 'cloze', kind: 'full', items: 6,
     keyed: true, scene: false, title: 'Language in Context: Future Forms in a Cooperation Framework' },

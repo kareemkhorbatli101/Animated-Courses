@@ -14,28 +14,31 @@ BNK.page('u4-s16', {
       ref: '8A',
       bookRef: 'Unit 4 · 8A',
       visual: { spot: 'bank-card' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Comprehension',
       instruction: 'Answer from the text, in your own words.',
-      items: [{ q: '1. What did the bank offer in exchange for fewer withdrawals?',
-          accept: ['What did the bank offer in exchange for fewer withdrawals?'],
-          keys: ['offer',
-              'exchange'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Why did the account fail in three countries?',
-          accept: ['Why did the account fail in three countries?'],
-          keys: ['account',
-              'three'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What one change did the bank make?',
-          accept: ['What one change did the bank make?'],
-          keys: ['change'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What is the lesson of the case?',
-          accept: ['What is the lesson of the case?'],
-          keys: ['lesson'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What did the bank offer in exchange for fewer withdrawals?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why did the account fail in three countries?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What one change did the bank make?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is the lesson of the case?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -70,21 +73,22 @@ BNK.page('u4-s16', {
       id: 'c3',
       ref: '8C',
       bookRef: 'Unit 4 · 8C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Discussion',
       instruction: 'Frames: “In my country this would work because ___.” “It would be '
   + 'harder because ___.”',
-      items: [{ q: '1. Are most customers in your country paid into an account, or in cash?',
-          accept: ['Are most customers in your country paid into an account, or in cash?'],
-          keys: ['customers',
-              'country'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. Which rule would you change for your market?',
-          accept: ['Which rule would you change for your market?'],
-          keys: ['which',
-              'would'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'Are most customers in your country paid into an account, or in cash?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Which rule would you change for your market?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });

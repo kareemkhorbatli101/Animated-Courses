@@ -542,6 +542,26 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
 .meter i { display:block; height:100%; background:linear-gradient(90deg,var(--primary),var(--teal-500)); width:0; transition:width .5s; }
 
 /* ---------- hub / index ---------- */
+/* THE HUB CLASSES THE SHELLS ACTUALLY USE. Lifted verbatim from the
+   inline block fms_unit_hub.py was carrying, so an fms hub renders
+   exactly as before (its own copy still wins, being later in the
+   cascade) and every other course's hub renders at all. */
+.hub-wrap{max-width:1080px;margin:0 auto;padding:28px 18px 64px}
+.hub-head{margin:0 0 6px;font:800 30px/1.2 var(--ui);color:var(--text)}
+.hub-sub{margin:0 0 22px;font:500 16px/1.5 var(--ui);color:var(--text-2)}
+.hub-meta{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 26px}
+.hub-chip{background:var(--surface-2);border:1px solid var(--line);border-radius:999px;padding:5px 13px;font:600 13px var(--ui);color:var(--text-2)}
+.hub-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(236px,1fr));gap:12px}
+.hub-card{display:block;background:var(--surface);border:1px solid var(--card-line);border-radius:12px;padding:13px 15px;text-decoration:none;box-shadow:var(--sh-1)}
+.hub-card:hover{box-shadow:var(--sh-2)}
+.hub-n{font:700 12px var(--ui);color:var(--accent);letter-spacing:.04em}
+.hub-t{margin:3px 0 0;font:700 15px/1.35 var(--ui);color:var(--text)}
+.hub-c{margin:5px 0 0;font:500 12px var(--ui);color:var(--text-2)}
+.hub-back{display:inline-block;margin:0 0 18px;font:600 14px var(--ui);color:var(--primary)}
+.hub-note{margin:28px 0 0;padding:14px 16px;background:var(--hint-bg);border:1px solid var(--line);border-radius:10px;font:500 14px/1.6 var(--ui);color:var(--text)}
+.hub-cando{margin:22px 0 0;padding:0;list-style:none}
+.hub-cando li{margin:0 0 7px;padding-left:22px;position:relative;font:500 14.5px/1.55 var(--ui);color:var(--text)}
+.hub-cando li:before{content:'';position:absolute;left:4px;top:7px;width:8px;height:8px;border-radius:2px;background:var(--primary)}
 .grid-cards { display:grid; gap:var(--s-4); grid-template-columns:repeat(auto-fill,minmax(270px,1fr)); }
 .ucard {
   display:block; text-decoration:none; color:inherit; background:var(--surface);

@@ -14,34 +14,36 @@ BNK.page('u5-s10', {
       ref: '5A',
       bookRef: 'Unit 5 · 5A',
       visual: { spot: 'atm' },
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'The new Harbour app (a leaflet)',
       instruction: 'Read the leaflet. Notice the passive verbs.<br>Answer the questions.',
-      items: [{ q: '1. What three steps are a payment made in?',
-          accept: ['What three steps are a payment made in?'],
-          keys: ['three',
-              'steps'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What are the two checks in two-factor authentication?',
-          accept: ['What are the two checks in two-factor authentication?'],
-          keys: ['checks',
-              'factor'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What is shown before you confirm an international transfer?',
-          accept: ['What is shown before you confirm an international transfer?'],
-          keys: ['shown',
-              'before'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '4. What can be done if a card is lost?',
-          accept: ['What can be done if a card is lost?'],
-          keys: [], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '5. Why is your money safe if the phone is lost?',
-          accept: ['Why is your money safe if the phone is lost?'],
-          keys: ['money',
-              'phone'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What three steps are a payment made in?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What are the two checks in two-factor authentication?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What is shown before you confirm an international transfer?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What can be done if a card is lost?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'Why is your money safe if the phone is lost?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     },
     {
       id: 'c2',
@@ -92,25 +94,27 @@ BNK.page('u5-s10', {
       id: 'c3',
       ref: '5C',
       bookRef: 'Unit 5 · 5C',
-      type: 'shortanswer',
+      type: 'discuss',
       title: 'Should you trust the advert?',
       instruction: 'Read the short note. What is the difference between a bank message '
   + 'and a scam message?',
-      items: [{ q: '1. What did the first message say had happened?',
-          accept: ['What did the first message say had happened?'],
-          keys: ['first',
-              'message'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '2. What two things made the second message false?',
-          accept: ['What two things made the second message false?'],
-          keys: ['things',
-              'second'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' },
-      { q: '3. What does a bank never ask for?',
-          accept: ['What does a bank never ask for?'],
-          keys: ['never'], need: 0,
-          evidence: 'The answer is in the text above — read that part again.' }],
-      whyTitle: 'What each answer rests on'
+      questions: [{
+            q: 'What did the first message say had happened?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What two things made the second message false?',
+            minWords: 6,
+            rows: 2
+          },
+      {
+            q: 'What does a bank never ask for?',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Your answers are saved — this one is a discussion, so the book prints '
+        + 'no single answer.'
     }
   ]
 });
