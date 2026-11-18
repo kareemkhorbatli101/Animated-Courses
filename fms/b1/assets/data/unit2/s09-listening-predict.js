@@ -50,6 +50,8 @@ FMS.page('u2-s09', {
           + 'two additional participants speaking only German will join unexpectedly. '
           + 'What should the officer arrange, and what can they promise?'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
+      visual: { spot: 'predict-coordination', wide: true,
+          caption: 'The four are numbered to match the questions below.' },
       coach: {
         title: 'Compare with the book',
         target: 'Modal verbs for requests and arrangements',

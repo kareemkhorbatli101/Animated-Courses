@@ -45,6 +45,8 @@ FMS.page('u3-s09', {
         'Speaker 3: German Ambassador — opening remarks at a bilateral meeting. '
           + 'What tone and level of formality do you expect?'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
+      visual: { spot: 'predict-speakers', wide: true,
+          caption: 'The four are numbered to match the questions below.' },
       coach: {
         title: 'Compare with the book',
         target: 'Explaining and describing: the passive and reporting verbs',

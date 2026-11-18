@@ -49,6 +49,8 @@ FMS.page('u5-s09', {
           + 'Klaus says his board needs the legal framework summary in writing before '
           + 'they will approve the next step. What does Dawit say?'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
+      visual: { spot: 'predict-investment', wide: true,
+          caption: 'The four are numbered to match the questions below.' },
       coach: {
         title: 'Compare with the book',
         target: 'Conditionals and the language of commitment',

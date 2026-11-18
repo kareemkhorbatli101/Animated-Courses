@@ -45,6 +45,8 @@ FMS.page('u4-s09', {
         'Context 3: A formal dinner toast at a bilateral event in Astana. What '
           + 'future language is appropriate? How formal will the language be?'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
+      visual: { spot: 'predict-contexts', wide: true,
+          caption: 'The four are numbered to match the questions below.' },
       coach: {
         title: 'Compare with the book',
         target: 'Formal written structures and conditionals',

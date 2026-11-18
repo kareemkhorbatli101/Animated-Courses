@@ -45,6 +45,8 @@ FMS.page('u1-s09', {
           + 'first time. What is his likely purpose? What difficulties might he face '
           + 'without an appointment?'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
+      visual: { spot: 'predict-visitors', wide: true,
+          caption: 'The four are numbered to match the questions below.' },
       coach: {
         title: 'Compare with the book',
         target: 'Present simple and present continuous',

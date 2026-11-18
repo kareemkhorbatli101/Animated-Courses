@@ -279,6 +279,148 @@
   });
 
   /* ============================================================
+     "BEFORE YOU LISTEN" - the five 3A cards.
+
+     Every unit's Part 3 opens by telling the learner to LOOK: "Look at these four
+     visitors who are arriving at the Ministry today", "Look at these four coordination
+     situations", "...four speakers", "...four diplomatic contexts", "...four investment
+     scenarios". The card then lists them in words and the page drew nothing at all -
+     six of the seven cards in the course whose text says "look at" had no drawing over
+     eight nodes.
+
+     THE FOUR ARE NUMBERED, and the numbers are the card's own 1-4. That is the point:
+     the picture is not decoration beside the questions, it is the thing the questions
+     are about, so a learner can look at figure 3 and answer question 3. It also makes
+     one visual in the course ANSWERABLE, which none were.
+
+     THE FIVE ARE DIFFERENT because the four things are different in each unit - people
+     at a desk in unit 1, problems to solve in unit 2, speakers at a microphone in unit
+     3, formal occasions in unit 4, stages of an investment conversation in unit 5. One
+     drawing reused five times would be the stock-icon mistake in a larger size.
+     ============================================================ */
+
+  /* a standing figure, 0.5 scale-ish: head, shoulders, body. `tone` is the clothing. */
+  function person(x, y, tone, skin) {
+    var s = p('M ' + (x - 9) + ' ' + y + ' q 0 -17 9 -17 q 9 0 9 17 z', tone);
+    s += r(x - 9, y, 18, 2, tone, 1);
+    s += c(x, y - 21, 6, skin || '#d7b494');
+    return s;
+  }
+
+  /* the little numeral that ties a figure to its question */
+  function tag(x, y, n) {
+    return c(x, y, 7.5, GOLD2) + t(x, y + 3.4, 9, String(n), '#fff', 'middle', 700);
+  }
+
+  function counter(y) {
+    return r(10, y, 180, 16, STONE2, 3) + stroke('M 10 ' + y + ' h 180', STONE3, 1.5);
+  }
+
+  /* 3A unit 1 - four visitors arriving at the ministry reception desk.
+
+     THE VISITORS STAND IN FRONT OF THE COUNTER. The first version put the desk at y=96,
+     below their feet, so four people who have just walked in appeared to be standing
+     behind the reception desk - which is where the STAFF stand. The desk is the thing
+     they are approaching, so it sits behind them. */
+  A.addSpot('predict-visitors', function () {
+    var s = r(0, 0, 200, 140, SKY);
+    s += portico(48, 8, 104, 44);
+    var xs = [32, 78, 124, 170];
+    var tones = [NAVY, GREEN, INK, SEAL];
+    s += counter(60);
+    /* 1 a diplomat with a briefcase, 2 a field coordinator with a clipboard,
+       3 a businessman with no appointment, 4 a journalist with a microphone */
+    s += person(xs[0], 108, tones[0]) + r(xs[0] + 9, 100, 9, 8, NAVY2, 1);
+    s += person(xs[1], 108, tones[1]) + sheet(xs[1] + 8, 92, 11, 14, 2);
+    s += person(xs[2], 108, tones[2]) + r(xs[2] + 9, 100, 9, 8, '#7a6a52', 1)
+      + t(xs[2] + 17, 90, 11, '?', NAVY, 'middle', 700);
+    s += person(xs[3], 108, tones[3])
+      + stroke('M ' + (xs[3] + 10) + ' 102 v -10', NAVY, 1.6)
+      + c(xs[3] + 10, 90, 3.4, NAVY);
+    for (var i = 0; i < 4; i++) { s += tag(xs[i], 124, i + 1); }
+    return frame(s, SKY);
+  });
+
+  /* 3A unit 2 - the four things that go wrong before a bilateral meeting */
+  A.addSpot('predict-coordination', function () {
+    var s = r(0, 0, 200, 140, SKY);
+    function cell(cx, cy, n, body) {
+      var o = r(cx - 44, cy - 27, 88, 54, PAPER, 4)
+        + stroke('M ' + (cx - 44) + ' ' + (cy - 27) + ' h 88 v 54 h -88 z', STONE3, 1.2);
+      return o + body + tag(cx - 36, cy - 19, n);
+    }
+    /* 1 a delayed arrival, 2 a room that failed, 3 interpretation, 4 a clearance */
+    s += cell(52, 36, 1, ring(62, 38, 12, NAVY2, 2) +
+      stroke('M 62 38 v -7 M 62 38 h 6', NAVY2, 1.8) + dash('M 76 46 h 14', INK, 1.4, '3 2'));
+    s += cell(148, 36, 2, r(140, 26, 26, 22, STONE2, 2) +
+      stroke('M 140 26 l 26 22 M 166 26 l -26 22', SEAL, 2));
+    s += cell(52, 104, 3, bubble(30, 88, 26, 16, NAVY2) + bubble(50, 100, 26, 16, GREEN));
+    s += cell(148, 104, 4, badge(140, 86));
+    return frame(s, SKY);
+  });
+
+  /* 3A unit 3 - four people saying official things, at four levels of formality */
+  A.addSpot('predict-speakers', function () {
+    var s = r(0, 0, 200, 140, SKY);
+    s += counter(104);
+    var xs = [30, 76, 124, 170];
+    var tones = [NAVY, GREEN, NAVY2, INK];
+    for (var i = 0; i < 4; i++) {
+      s += person(xs[i], 100, tones[i]);
+      /* a microphone on a stand - taller for the two most formal speakers */
+      var h = [22, 14, 20, 10][i];
+      s += stroke('M ' + (xs[i] + 11) + ' 94 v -' + h, NAVY, 1.5)
+        + c(xs[i] + 11, 94 - h, 3, NAVY);
+      s += tag(xs[i], 126, i + 1);
+    }
+    /* two flags behind the most official of them */
+    s += flag(14, 30, 20, GREEN) + flag(188, 30, 20, SEAL, true);
+    return frame(s, SKY);
+  });
+
+  /* 3A unit 4 - four formal occasions where future language is used */
+  A.addSpot('predict-contexts', function () {
+    var s = r(0, 0, 200, 140, SKY);
+    function cell(cx, cy, n, body) {
+      var o = r(cx - 44, cy - 27, 88, 54, PAPER2, 4)
+        + stroke('M ' + (cx - 44) + ' ' + (cy - 27) + ' h 88 v 54 h -88 z', STONE3, 1.2);
+      return o + body + tag(cx - 36, cy - 19, n);
+    }
+    /* 1 a signing, 2 a conference, 3 a dinner toast, 4 a planning table */
+    s += cell(52, 36, 1, sheet(44, 22, 28, 26, 4) + seal(68, 44, 6, SEAL));
+    s += cell(148, 36, 2, r(126, 24, 44, 18, STONE2, 2)
+      + stroke('M 148 42 v 8', STONE3, 2) + flag(170, 20, 12, GREEN));
+    s += cell(52, 104, 3, p('M 40 112 q 6 -14 12 0 z', GOLD)
+      + stroke('M 46 112 v 8', GOLD2, 1.6)
+      + p('M 60 112 q 6 -14 12 0 z', GOLD) + stroke('M 66 112 v 8', GOLD2, 1.6));
+    s += cell(148, 104, 4, r(124, 96, 48, 4, STONE3, 2)
+      + person(134, 94, NAVY) + person(162, 94, GREEN));
+    return frame(s, SKY);
+  });
+
+  /* 3A unit 5 - four moments of an investment conversation */
+  A.addSpot('predict-investment', function () {
+    var s = r(0, 0, 200, 140, SKY);
+    function cell(cx, cy, n, body) {
+      var o = r(cx - 44, cy - 27, 88, 54, PAPER, 4)
+        + stroke('M ' + (cx - 44) + ' ' + (cy - 27) + ' h 88 v 54 h -88 z', STONE3, 1.2);
+      return o + body + tag(cx - 36, cy - 19, n);
+    }
+    /* 1 a delegation arriving, 2 a question from the floor, 3 a phone call,
+       4 a letter of intent being signed */
+    s += cell(52, 36, 1, handshake(52, 42, 0.8));
+    s += cell(148, 36, 2, bubble(122, 20, 30, 16, NAVY2)
+      + t(137, 31, 10, '?', '#fff', 'middle', 700)
+      + person(166, 48, GREEN));
+    s += cell(52, 104, 3, person(30, 112, NAVY)
+      + stroke('M 40 100 q 16 -10 32 0', INK, 1.6)
+      + person(74, 112, SEAL));
+    s += cell(148, 104, 4, sheet(130, 88, 30, 28, 4)
+      + stroke('M 160 112 l 10 -10', NAVY, 2) + seal(140, 112, 5, SEAL));
+    return frame(s, SKY);
+  });
+
+  /* ============================================================
      THE PHRASE BOXES - one diorama per unit, behind the Useful Phrases cards.
      Each is the room that unit's phrases are said in, so the five differ.
      ============================================================ */
