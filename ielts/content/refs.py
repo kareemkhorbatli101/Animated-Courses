@@ -594,6 +594,463 @@ LANG = {
    ('Place also: the scheme covers staff and contractors. '
     '____________', 'The scheme covers contractors as well as staff.')],
   seen=[]),
+ 'L21': dict(
+  title='Grounds and evidence in a formal objection',
+  also='complaints, representations, substantiation',
+  pattern=[
+   'An objection that states a feeling is filed; one that states a ground '
+   'and attaches a checkable fact has to be answered. The shape is fixed.',
+   'Announce the number: I am writing to object on two grounds.',
+   'Number them: The first is... The second is...',
+   'Attach evidence to each: I have kept a dated log, which I am happy to '
+   'supply. / This is recorded in the published minutes of 14 March.',
+   'Hedge where you are unsure of a detail, so a small error cannot sink '
+   'the whole: the conditions appear to forbid, as I understand the '
+   'procedure.',
+   'Close with what you want: I would ask the committee to refuse the '
+   'application, or in the alternative to impose a condition.'],
+  errors=[
+   'on the ground OF that it is noisy. Either on the ground THAT, or on '
+   'the grounds of NOISE - a that-clause or a noun, not both.',
+   'Writing the strongest sentence first. An objection is read by somebody '
+   'with forty of them; the grounds go at the top and the feeling, if it '
+   'appears at all, goes last.',
+   'Asserting what you cannot show. One unsupported claim invites the '
+   'reply that the whole objection is unsupported.'],
+  items=[
+   ('The noise is unbearable. (give a ground with evidence)',
+    'On eleven occasions since March I have recorded arrivals after '
+    'midnight.'),
+   ('Correct: I object on the ground of that it is unsafe.',
+    'I object on the ground that it is unsafe.'),
+   ('Announce two grounds in eight words.',
+    'I am writing to object on two grounds.'),
+   ('Hedge a detail you are unsure of.',
+    'The conditions appear to forbid this, as I understand them.'),
+   ('Nobody consulted us. (make it checkable)',
+    'No notice was displayed in this street, contrary to the published '
+    'procedure.'),
+   ('Correct: I demand that you to refuse it.',
+    'I would ask the committee to refuse it.'),
+   ('Add an alternative request.',
+    'or in the alternative to impose a condition limiting occupancy'),
+   ('Offer your evidence without sending it.',
+    'I have kept a dated log, which I am happy to supply.')],
+  seen=[]),
+
+ 'L22': dict(
+  title='Parallel and correlative structures',
+  also='not only but, both and, either or, neither nor',
+  pattern=[
+   'Correlatives come in pairs and both halves must be the same kind of '
+   'thing: both the gain AND the loss, not only the rent BUT ALSO the '
+   'supply.',
+   'not only... but (also): after not only at the start of a sentence the '
+   'subject and verb MUST invert. Not only has the street changed, but...',
+   'The same inversion follows no sooner, rarely, seldom, at no point and '
+   'under no circumstances, all of which are useful in a Task 2 opening.',
+   'both... and takes a plural verb: both the gain and the loss ARE real.',
+   'either... or and neither... nor take the verb from the NEARER subject: '
+   'neither the council nor the residents WERE consulted.',
+   'A plain parallel needs no correlative at all and is often better: it '
+   'has gained a bakery and lost a butcher.'],
+  errors=[
+   'Not only the rent has risen - no inversion. Write Not only HAS the '
+   'rent risen.',
+   'Unbalanced halves: not only a shortage of money but it takes time. '
+   'Both halves must be the same grammatical shape.',
+   'both the gain and the loss IS real. Both takes a plural verb.'],
+  items=[
+   ('The street changed. The objectors left. (not only)',
+    'Not only has the street changed, but the objectors have left.'),
+   ('Correct: Not only the rent has risen.',
+    'Not only has the rent risen.'),
+   ('Correct: both the gain and the loss is real.',
+    'both the gain and the loss are real'),
+   ('The council was not consulted. The residents were not consulted. '
+    '(neither)',
+    'Neither the council nor the residents were consulted.'),
+   ('It gained a bakery. It lost a butcher. (plain parallel)',
+    'It has gained a bakery and lost a butcher.'),
+   ('Correct: not only a shortage of money but it takes time.',
+    'not only a shortage of money but a shortage of time'),
+   ('Nothing was said at any stage. (at no point)',
+    'At no point was anything said.'),
+   ('Correct: neither the operator or the owner was informed.',
+    'neither the operator nor the owner was informed')],
+  seen=[]),
+
+ 'L23': dict(
+  title='Where a benefit falls, and who bears a cost',
+  also='distribution, incidence, accrue, be borne by',
+  pattern=[
+   'Benefits accrue TO somebody; costs are borne BY somebody. The two '
+   'prepositions are fixed and are reversed by learners constantly.',
+   'Other verbs of distribution: fall on, be captured by, be concentrated '
+   'in, be spread across, flow to.',
+   'The useful pairing is conceding size while disputing distribution: the '
+   'benefit is real and is concentrated where it is least needed.',
+   'Incidence is the technical noun: the incidence of the tax falls on '
+   'tenants rather than on landlords.',
+   'A gross figure is before deductions, a net figure after. Quoting the '
+   'gross and spending the net is the commonest sleight in any public '
+   'argument about money.'],
+  errors=[
+   'the benefit accrues the shareholders - the preposition to is '
+   'obligatory.',
+   'the cost is borne to residents - costs are borne BY.',
+   'Treating a distribution argument as a size argument. Saying the gain '
+   'is smaller than claimed and saying it goes to the wrong people are '
+   'different objections and need different evidence.'],
+  items=[
+   ('The operator gets a third.', 'A third accrues to the operator.'),
+   ('Residents pay for it.', 'The cost is borne by residents.'),
+   ('Correct: the benefit accrues the owners.',
+    'the benefit accrues to the owners'),
+   ('The gain is real but badly placed.',
+    'The benefit is real and is concentrated where it is least needed.'),
+   ('Tenants end up paying the tax. (incidence)',
+    'The incidence of the tax falls on tenants.'),
+   ('Correct: the cost is borne to the taxpayer.',
+    'the cost is borne by the taxpayer'),
+   ('Before deductions / after deductions.', 'gross / net'),
+   ('Most of it goes to a few people. (concentrated)',
+    'The benefit is concentrated in a small number of hands.')],
+  seen=[]),
+
+ 'L24': dict(
+  title='Conditionals, inverted and counterfactual',
+  also='were, had, unintended consequences',
+  pattern=[
+   'The inverted conditional drops if and inverts: Were a cap imposed, '
+   'some supply would move. Had the premium been general, the objection '
+   'would have been decisive.',
+   'Were is used for the unreal present and future; Had for the unreal '
+   'past. Should is used for a remote possibility: Should the measure '
+   'fail, little will have been lost.',
+   'No if is used and none may be added: If were a cap imposed is wrong.',
+   'The form is formal and unmistakably band 7 when correct, which is '
+   'exactly why it should be used twice in an essay and not six times.',
+   'It is the natural grammar for a counterfactual - what would have '
+   'happened otherwise - and therefore for any argument about unintended '
+   'effects.'],
+  errors=[
+   'If were a cap imposed. The if and the inversion are alternatives, '
+   'never both.',
+   'Were a cap would be imposed. The inverted clause takes the bare past '
+   'subjunctive, not would.',
+   'Mixing the times: Had a cap been imposed, some supply would move - the '
+   'past condition needs would have moved.'],
+  items=[
+   ('If a cap were imposed, supply would move.',
+    'Were a cap imposed, supply would move.'),
+   ('If the premium had been general, the objection would have held.',
+    'Had the premium been general, the objection would have held.'),
+   ('Correct: If were the measure introduced, nothing would change.',
+    'Were the measure introduced, nothing would change.'),
+   ('Correct: Had a cap been imposed, supply would move.',
+    'Had a cap been imposed, supply would have moved.'),
+   ('If the council measures it, we will know. (should)',
+    'Should the council measure it, we will know.'),
+   ('If I were you. (inverted)', 'Were I you.'),
+   ('Correct: Were the policy would fail, we would learn something.',
+    'Were the policy to fail, we would learn something.'),
+   ('If it had not rained, nothing would have flooded.',
+    'Had it not rained, nothing would have flooded.')],
+  seen=[]),
+
+ 'L25': dict(
+  title='Describing a place: zones, not dates',
+  also='maps, plans, spatial organisation',
+  pattern=[
+   'A map or plan is organised in space and a chart in time, so the '
+   'ordering words are different: to the north of, beyond, adjoining, '
+   'set back from, at the junction of, bounded by.',
+   'Choose one direction and hold it - clockwise, or north to south, or '
+   'from the entrance inwards - and say which you have chosen.',
+   'Relative position needs a fixed reference: the library stands opposite '
+   'the station, rather than the library is on the right.',
+   'For a before-and-after pair, the organising principle is what changed, '
+   'not where things are: the woodland was cleared and replaced by '
+   'housing, while the lake was retained.',
+   'Retained, demolished, converted, extended and relocated are the five '
+   'verbs a plan comparison is mostly made of, and all five take the '
+   'passive.'],
+  errors=[
+   'On the right and on the left, which depend on where the reader is '
+   'standing. Use compass directions or named features.',
+   'Describing a plan chronologically when nothing has changed, or '
+   'spatially when the task is a before-and-after.',
+   'in the north of the site vs to the north of the site - the first is '
+   'inside it, the second outside. Both are tested.'],
+  items=[
+   ('The library is near the station. (fixed reference)',
+    'The library stands opposite the station.'),
+   ('Correct: the car park is on the right of the site.',
+    'the car park is to the east of the site'),
+   ('The woodland went and houses came. (passive)',
+    'The woodland was cleared and replaced by housing.'),
+   ('The lake stayed.', 'The lake was retained.'),
+   ('Inside the northern part of the site.', 'in the north of the site'),
+   ('Outside it, further north.', 'to the north of the site'),
+   ('Say your direction of travel.',
+    'Moving clockwise from the main entrance...'),
+   ('The old hall became flats.',
+    'The hall was converted into flats.')],
+  seen=[]),
+
+ 'L26': dict(
+  title='Metadiscourse: telling the reader the shape',
+  also='signposting your own argument',
+  pattern=[
+   'Metadiscourse is writing about your own writing, and in an essay a '
+   'little is worth a great deal: it tells a marker you have a structure '
+   'before they have read it.',
+   'Announcing: This essay argues that X. Two considerations are '
+   'decisive. I shall take them in turn.',
+   'Positioning: The first of these is... / Having established X, I turn '
+   'to Y. / The remaining objection is...',
+   'Limiting: I leave aside the question of X, which is a separate '
+   'argument. / Nothing here turns on Y.',
+   'The limiting move is the one nobody uses and the one that most '
+   'impresses, because it shows you can see the boundary of your own '
+   'claim.'],
+  errors=[
+   'Overdoing it. Three metadiscourse sentences in a 260-word essay is '
+   'plenty; eight reads as a candidate describing an essay rather than '
+   'writing one.',
+   'In this essay I will discuss about the topic - discuss takes no '
+   'preposition.',
+   'Announcing a structure you then do not follow, which is worse than '
+   'announcing nothing.'],
+  items=[
+   ('State your thesis in six words.', 'This essay argues that X.'),
+   ('Correct: I will discuss about two reasons.',
+    'I will discuss two reasons.'),
+   ('Say you will take two things in order.',
+    'Two considerations are decisive, and I shall take them in turn.'),
+   ('Move from the first to the second.',
+    'Having established X, I turn to Y.'),
+   ('Set something aside explicitly.',
+    'I leave aside the question of cost, which is a separate '
+    'argument.'),
+   ('Say that nothing depends on a detail.',
+    'Nothing here turns on the exact figure.'),
+   ('Introduce the last objection.',
+    'The remaining objection is that...'),
+   ('Correct: Firstly, secondly, thirdly, fourthly, fifthly.',
+    'use two or three, not five')],
+  seen=[]),
+
+ 'L27': dict(
+  title='Proposing something in a formal letter',
+  also='requests, justification, offers',
+  pattern=[
+   'A proposal letter has four parts and they are always in this order: '
+   'what you want, why it is reasonable, what you will do, what you are '
+   'asking the reader to do.',
+   'What you want: I am writing to propose / to request / to ask whether '
+   'the committee would consider.',
+   'Why: because the present arrangement does X; a comparable scheme at Y '
+   'has done Z.',
+   'What you offer: I would be willing to / members of the group have '
+   'agreed to / we would undertake to.',
+   'The ask: I would be grateful if you could let me know whether / I '
+   'should be happy to discuss this at the next meeting.',
+   'Offering something is the part learners omit and the part that moves '
+   'a proposal from a request to a partnership.'],
+  errors=[
+   'I am writing for propose - the infinitive is to propose.',
+   'Asking without offering, which reads as a demand however politely it '
+   'is phrased.',
+   'I would be grateful if you could to let me know - no to after could.'],
+  items=[
+   ('Say what you want in eight words.',
+    'I am writing to propose a change to the letting policy.'),
+   ('Correct: I am writing for request a meeting.',
+    'I am writing to request a meeting.'),
+   ('Justify with a comparison.',
+    'A comparable scheme in the next district has cut the waiting list '
+    'by half.'),
+   ('Offer something.',
+    'Members of the association would be willing to clear the plots '
+    'themselves.'),
+   ('Correct: we would undertake clearing the site.',
+    'we would undertake to clear the site'),
+   ('Make the ask.',
+    'I would be grateful if you could let me know whether this could be '
+    'considered.'),
+   ('Offer to discuss.',
+    'I should be happy to discuss this at the next meeting.'),
+   ('Correct: I would be grateful if you could to reply.',
+    'I would be grateful if you could reply.')],
+  seen=[]),
+
+ 'L28': dict(
+  title='Other things equal, and the honest comparison',
+  also='ceteris paribus, scope statements, like for like',
+  pattern=[
+   'Almost every comparison worth making needs a clause saying what was '
+   'held constant, and the clause is short: other things being equal, on '
+   'comparable land, in the same year, like for like.',
+   'Other things being equal is a participle clause and takes no verb of '
+   'its own: not other things are being equal.',
+   'The scope statement names what the comparison does NOT cover: this '
+   'holds for cereals and has not been tested for livestock.',
+   'A comparison without a scope statement is read as a universal claim, '
+   'which is almost never what the evidence supports.',
+   'Useful pairs: on the same soil / across different soils; within a '
+   'single year / over a rotation; per hectare / per calorie.'],
+  errors=[
+   'other things are equal - it is a participle clause: other things '
+   'being equal.',
+   'Comparing per hectare and per calorie as though they were the same '
+   'measure, which is the error the whole of unit 28 cycle 5 is about.',
+   'Omitting the scope and then defending the universal claim you did not '
+   'mean to make.'],
+  items=[
+   ('Add the clause: organic yields are lower.',
+    'Other things being equal, organic yields are lower.'),
+   ('Correct: other things are being equal, the costs are similar.',
+    'other things being equal, the costs are similar'),
+   ('Name what is not covered.',
+    'This holds for cereals and has not been tested for livestock.'),
+   ('Make the comparison like for like.',
+    'On comparable soil and in the same season, the difference is about '
+    'a fifth.'),
+   ('Correct: it yields more per hectare and per calorie than the '
+    'other.', 'say which measure you mean'),
+   ('Limit to one year.',
+    'Within a single year; over a full rotation the gap narrows.'),
+   ('State the unit.', 'measured per hectare rather than per calorie'),
+   ('Correct: organic farming is worse.',
+    'Other things being equal, organic yields are lower per hectare.')],
+  seen=[]),
+
+ 'L29': dict(
+  title='Reporting what somebody claims',
+  also='reporting verbs, stance, attribution',
+  pattern=[
+   'A reporting verb carries your opinion of the claim whether you meant '
+   'it to or not, and examiners read it exactly.',
+   'Neutral: says, states, reports, notes, observes.',
+   'Sympathetic: argues, shows, demonstrates, points out, establishes.',
+   'Distancing: claims, asserts, alleges, maintains, purports to show.',
+   'Points out and shows both concede that the thing is true. Claims and '
+   'alleges both suggest it is not. Choosing wrongly attributes to '
+   'yourself an opinion you did not intend.',
+   'The grammar: most take a that-clause; a few take an object plus to be '
+   '(regarded it as, held it to be); allege and claim are followed by '
+   'that in careful writing.'],
+  errors=[
+   'Using claims for a view you accept, which tells the reader you do '
+   'not.',
+   'Using shows or demonstrates for a view you are about to reject, '
+   'which concedes the argument in the verb.',
+   'He said about the policy - say takes no about; say that, or speak '
+   'about.'],
+  items=[
+   ('Report neutrally: the committee found no breach.',
+    'The committee reported that it had found no breach.'),
+   ('Report with agreement: the study found an effect.',
+    'The study shows that there is an effect.'),
+   ('Report with distance: the company says it is safe.',
+    'The company claims that it is safe.'),
+   ('Correct: he said about the new rule.',
+    'he spoke about the new rule'),
+   ('Concede a true point from the other side.',
+    'As the editor points out, the timecode confirms it.'),
+   ('Correct: the paper claims, and I agree, that the effect is real.',
+    'the paper shows that the effect is real'),
+   ('Report a view you will reject.',
+    'It is maintained that correction is futile.'),
+   ('Correct: critics alleges the figure is wrong.',
+    'critics allege that the figure is wrong')],
+  seen=[]),
+
+ 'L30': dict(
+  title='Hedging where the disagreement is real',
+  also='calibrated claims, epistemic modality',
+  pattern=[
+   'Hedging is not softening. It is saying exactly how much you are '
+   'claiming, and in a genuinely contested question that is the whole '
+   'skill.',
+   'Quantity: in part, to some degree, in most cases, in the cases so far '
+   'examined.',
+   'Confidence: on the present evidence, as far as the data allow, it '
+   'appears that, the balance of evidence suggests.',
+   'Scope: for this population, in the short term, where X holds.',
+   'One hedge per claim. Two reads as evasion and costs you more than no '
+   'hedge at all.',
+   'The strongest move in a contested question is to hedge the claim and '
+   'then say what would settle it: this is what a testable position looks '
+   'like.'],
+  errors=[
+   'Stacking: it may possibly perhaps be the case that.',
+   'Hedging the body and dropping the hedge in the conclusion, which is '
+   'where examiners look for overclaiming.',
+   'Hedging a fact. On the present evidence the sun rises in the east is '
+   'not caution, it is noise.'],
+  items=[
+   ('The correction worked. (hedge the quantity)',
+    'The correction worked in part.'),
+   ('Hedge the confidence.',
+    'On the present evidence, the correction appears to work.'),
+   ('Hedge the scope.',
+    'The correction works for readers who saw the original.'),
+   ('Correct: it may possibly perhaps help.', 'it may help'),
+   ('Say what would settle it.',
+    'A trial with a delayed correction would settle this.'),
+   ('Correct: the effect is definitely real, probably.',
+    'the effect appears to be real'),
+   ('Hedge a strong claim without weakening it.',
+    'The balance of evidence supports this, and no study yet '
+    'contradicts it.'),
+   ('Correct: on the present evidence, water boils at 100 degrees.',
+    'water boils at 100 degrees')],
+  seen=[]),
+
+ 'L31': dict(
+  title='Evaluative claims and the evidence for them',
+  also='value judgements, criteria, by what standard',
+  pattern=[
+   'An evaluative claim - this is unfair, that is better, the rule works - '
+   'is not settled by evidence alone, because it needs a standard as well. '
+   'Saying the standard is what makes it arguable.',
+   'The shape: X is unfair BY THE STANDARD OF Y. / Judged by competitive '
+   'balance, the rule has failed. / If the test is participation rather '
+   'than excellence, the picture reverses.',
+   'Naming the criterion first turns a disagreement about values into a '
+   'disagreement about facts, which is the only kind that can be settled.',
+   'Useful frames: on what standard? / better for whom? / over what '
+   'period? / compared with what alternative?',
+   'The strongest evaluative paragraphs name the standard, apply it, and '
+   'then name the standard that would give the opposite answer.'],
+  errors=[
+   'Asserting an evaluation without a criterion, which cannot be argued '
+   'with and is therefore marked as undeveloped.',
+   'Changing criterion mid-essay without saying so, so that the '
+   'conclusion does not follow from the body.',
+   'Treating better as though it were a fact about the world rather than a '
+   'relation between a thing and a standard.'],
+  items=[
+   ('The rule is unfair. (name the standard)',
+    'The rule is unfair by the standard of competitive balance.'),
+   ('The scheme worked. (for whom, over what period)',
+    'The scheme worked for established clubs, over a single season.'),
+   ('Correct: this policy is simply better.',
+    'this policy is better if the test is participation'),
+   ('Give the standard that reverses it.',
+    'If the test is excellence rather than participation, the picture '
+    'reverses.'),
+   ('Ask the right question of a claim.',
+    'Better compared with what alternative?'),
+   ('Correct: the rule failed, therefore it was wrong.',
+    'the rule failed by its own stated criterion'),
+   ('Name a period.', 'over three seasons rather than one'),
+   ('Make an evaluation arguable in ten words.',
+    'Judged by access rather than revenue, the scheme has failed.')],
+  seen=[]),
 }
 
 WRITING = {}
