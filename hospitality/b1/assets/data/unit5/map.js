@@ -101,7 +101,7 @@ HSP.unitMap('unit5', [{
       part: '9',
       lesson: 'Case Studies and Decisions',
       label: '§13 Case Studies and Decisions',
-      n: 1
+      n: 2
     },
     {
       id: 'u5-s14',

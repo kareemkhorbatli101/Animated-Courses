@@ -10,29 +10,42 @@ HSP.page('u5-s13', {
   cards: [
     {
       id: 'c1',
-      ref: 'Case',
+      ref: 'Case 1',
       bookRef: 'Unit 5 · P9',
       type: 'report',
       title: 'Case study and decision',
-      html: '<p>A guest ordered the grilled fish, but the kitchen sent the chicken '
-      + 'by mistake. The waiter did not check, and put the wrong dish in front '
-      + 'of the guest. The guest is surprised and a little unhappy: “Excuse '
-      + 'me, I ordered the fish.”</p><p>What should the waiter do? Choose the '
-      + 'best action and say why.</p><p>Write one polite sentence the waiter '
-      + 'can say to the '
-      + 'guest.</p><p>______________________________________________</p><p>A '
-      + 'guest tells the waiter, “I have an allergy to nuts.” The waiter is '
-      + 'not sure if the dessert the guest wants contains nuts. If the guest '
-      + 'eats nuts, they could become very ill.</p><p>Answer the '
-      + 'questions.</p>',
-      instruction: 'Read the case, then decide. Say why.',
+      instruction: 'What should the waiter do? Choose the best action and say why.',
+      passage: {
+      title: 'The case',
+      paras: ['A guest ordered the grilled fish, but the kitchen sent the chicken by '
+          + 'mistake. The waiter did not check, and put the wrong dish in front of '
+          + 'the guest. The guest is surprised and a little unhappy: “Excuse me, I '
+          + 'ordered the fish.”']
+    },
+      before: '<b>What would you do?</b><ul><li>Say “No, you ordered the chicken” '
+      + 'and walk away.</li><li>Apologise, take the wrong dish back, and bring '
+      + 'the correct one quickly.</li><li>Tell the guest to eat the '
+      + 'chicken.</li><li>Argue with the guest about the order.</li></ul>',
+      minWords: 20,
+      placeholder: 'I would… because…',
+      stems: ['Write one polite sentence the waiter can say to the guest.']
+    },
+    {
+      id: 'c2',
+      ref: 'Case 2',
+      bookRef: 'Unit 5 · P9',
+      type: 'report',
+      title: 'Case study: answer the questions',
+      instruction: 'Read the case, then answer the questions.',
+      passage: {
+      title: 'The case',
+      paras: ['A guest tells the waiter, “I have an allergy to nuts.” The waiter is '
+          + 'not sure if the dessert the guest wants contains nuts. If the guest '
+          + 'eats nuts, they could become very ill.']
+    },
       minWords: 25,
-      placeholder: 'I think… because…',
-      stems: ['Say “No, you ordered the chicken” and walk away.',
-      'Apologise, take the wrong dish back, and bring the correct one quickly.',
-      'Tell the guest to eat the chicken.',
-      'Argue with the guest about the order.',
-      '1. What is the problem?',
+      placeholder: 'I would… because…',
+      stems: ['1. What is the problem?',
       '2. What should the waiter do before serving the dessert?',
       '3. Write one polite sentence the waiter can say to the guest.']
     }

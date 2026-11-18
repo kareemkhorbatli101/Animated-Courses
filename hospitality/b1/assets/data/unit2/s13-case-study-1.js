@@ -10,27 +10,42 @@ HSP.page('u2-s13', {
   cards: [
     {
       id: 'c1',
-      ref: 'Case',
+      ref: 'Case 1',
       bookRef: 'Unit 2 · P9',
       type: 'report',
       title: 'Case study and decision',
-      html: '<p>A guest is walking around the ground floor. He looks confused. He '
-      + 'is trying to find the spa, but he is going the wrong way, towards the '
-      + 'kitchen. Lina is at the desk, and she can see him.</p><p>What does '
-      + 'Lina do? Choose the best action and say why.</p><p>A good '
-      + 'receptionist notices a lost guest and helps before the guest has to '
-      + 'ask. Do you agree? Why?</p><p>An older guest has a room on the third '
-      + 'floor. She has two heavy bags. But this morning, the lift is not '
-      + 'working. The guest cannot carry the bags up the stairs, and she is '
-      + 'worried.</p><p>Answer the questions.</p>',
-      instruction: 'Read the case, then decide. Say why.',
+      instruction: 'What does Lina do? Choose the best action and say why.',
+      passage: {
+      title: 'The case',
+      paras: ['A guest is walking around the ground floor. He looks confused. He is '
+          + 'trying to find the spa, but he is going the wrong way, towards the '
+          + 'kitchen. Lina is at the desk, and she can see him.']
+    },
+      before: '<b>What would you do?</b><ul><li>Wait for the guest to ask for '
+      + 'help.</li><li>Call across the lobby: “Wrong way!”</li><li>Go to the '
+      + 'guest, smile, and give clear directions to the spa.</li><li>Point '
+      + 'quickly and go back to the computer.</li></ul>',
+      minWords: 20,
+      placeholder: 'I would… because…',
+      stems: ['A good receptionist notices a lost guest and helps before the guest '
+        + 'has to ask. Do you agree? Why?']
+    },
+    {
+      id: 'c2',
+      ref: 'Case 2',
+      bookRef: 'Unit 2 · P9',
+      type: 'report',
+      title: 'Case study: answer the questions',
+      instruction: 'Read the case, then answer the questions.',
+      passage: {
+      title: 'The case',
+      paras: ['An older guest has a room on the third floor. She has two heavy bags. '
+          + 'But this morning, the lift is not working. The guest cannot carry the '
+          + 'bags up the stairs, and she is worried.']
+    },
       minWords: 25,
-      placeholder: 'I think… because…',
-      stems: ['Wait for the guest to ask for help.',
-      'Call across the lobby: “Wrong way!”',
-      'Go to the guest, smile, and give clear directions to the spa.',
-      'Point quickly and go back to the computer.',
-      '1. What is the problem?',
+      placeholder: 'I would… because…',
+      stems: ['1. What is the problem?',
       '2. What can Lina say to the guest? Write one polite sentence.',
       '3. What can the hotel do to help? (give one idea — think about the '
         + 'porter or a ground-floor room)']

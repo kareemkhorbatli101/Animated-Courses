@@ -10,30 +10,43 @@ HSP.page('u7-s13', {
   cards: [
     {
       id: 'c1',
-      ref: 'Case',
+      ref: 'Case 1',
       bookRef: 'Unit 7 · P9',
       type: 'report',
       title: 'Case study and decision',
-      html: '<p>A guest checks in and goes up to the room. But the room has not '
-      + 'been cleaned yet — the bed is not made, and there are no fresh '
-      + 'towels. The guest comes back down to reception, tired and '
-      + 'unhappy.</p><p>What should the team do? Choose the best action and '
-      + 'say why.</p><p>Write one polite sentence the team can say, using the '
-      + 'present perfect (for example, with \'sorry\' and \'haven\'t … '
-      + 'yet\').</p><p>______________________________________________</p><p>A '
-      + 'guest hangs a \'Do Not Disturb\' sign on the door in the morning. The '
-      + 'housekeeper respects it and does not clean the room. But in the '
-      + 'evening, the guest complains: “My room hasn\'t been cleaned all '
-      + 'day!”</p><p>Answer the questions.</p>',
-      instruction: 'Read the case, then decide. Say why.',
+      instruction: 'What should the team do? Choose the best action and say why.',
+      passage: {
+      title: 'The case',
+      paras: ['A guest checks in and goes up to the room. But the room has not been '
+          + 'cleaned yet — the bed is not made, and there are no fresh towels. The '
+          + 'guest comes back down to reception, tired and unhappy.']
+    },
+      before: '<b>What would you do?</b><ul><li>Tell the guest to wait in the room '
+      + 'until it is cleaned.</li><li>Apologise, offer the guest a coffee, and '
+      + 'clean the room as quickly as possible (or give another ready '
+      + 'room).</li><li>Say it is not the receptionist\'s '
+      + 'problem.</li><li>Argue that the room is clean enough.</li></ul>',
+      minWords: 20,
+      placeholder: 'I would… because…',
+      stems: ['Write one polite sentence the team can say, using the present perfect '
+        + '(for example, with \'sorry\' and \'haven\'t … yet\').']
+    },
+    {
+      id: 'c2',
+      ref: 'Case 2',
+      bookRef: 'Unit 7 · P9',
+      type: 'report',
+      title: 'Case study: answer the questions',
+      instruction: 'Read the case, then answer the questions.',
+      passage: {
+      title: 'The case',
+      paras: ['A guest hangs a \'Do Not Disturb\' sign on the door in the morning. '
+          + 'The housekeeper respects it and does not clean the room. But in the '
+          + 'evening, the guest complains: “My room hasn\'t been cleaned all day!”']
+    },
       minWords: 25,
-      placeholder: 'I think… because…',
-      stems: ['Tell the guest to wait in the room until it is cleaned.',
-      'Apologise, offer the guest a coffee, and clean the room as quickly as '
-        + 'possible (or give another ready room).',
-      'Say it is not the receptionist\'s problem.',
-      'Argue that the room is clean enough.',
-      '1. Why didn\'t the housekeeper clean the room?',
+      placeholder: 'I would… because…',
+      stems: ['1. Why didn\'t the housekeeper clean the room?',
       '2. Was the housekeeper right to respect the sign? Why?',
       '3. What can the team do now to help the guest? Write one polite sentence.']
     }
