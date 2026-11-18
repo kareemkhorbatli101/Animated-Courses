@@ -181,7 +181,11 @@ def puzzle(title, question, bars, mark, ylab='', note=''):
     top = max(v for _, v in bars) * 1.18 or 1.0
     g.append(L(x0, y1, x1, y1, GREY_L, 2))
     if ylab:
-        g.append(TFIT(x0 - 10, y0 - 14, ylab, 14, 150, GREY, anchor='start'))
+        # the caption sits above the plot with the whole width free; the
+        # 150px box it used to promise was narrower than any real axis
+        # label and gate 6 caught three of them at once
+        g.append(TFIT(x0 - 10, y0 - 14, ylab, 14, x1 - x0 + 10, GREY,
+                      anchor='start'))
     slot = (x1 - x0) / float(len(bars))
     bw = min(64.0, slot - 24)
     for i, (lab, v) in enumerate(bars):
@@ -319,14 +323,17 @@ def cline(title, left, right, items, sub='', note=''):
     g = [R(0, 0, W, h, PAPER, BLUE, 2, 12)]
     y = _head(g, title, sub, BLUE)
     ax = y + 92
-    x0, x1 = 120, W - 120
+    x0, x1 = 156, W - 156
     g.append(L(x0, ax, x1, ax, BLUE, 3))
     g.append(P('M%g %g L%g %g L%g %g Z'
                % (x1, ax, x1 - 14, ax - 7, x1 - 14, ax + 7), BLUE))
     g.append(P('M%g %g L%g %g L%g %g Z'
                % (x0, ax, x0 + 14, ax - 7, x0 + 14, ax + 7), BLUE))
-    g.append(TFIT(x0 - 14, ax + 6, left, 15, 96, GREY, anchor='end'))
-    g.append(TFIT(x1 + 14, ax + 6, right, 15, 96, GREY, anchor='start'))
+    # a pole label is a phrase, not a word: 'virtually impossible before'
+    # is a real one from unit 25 and it needs 136px at 15px
+    g.append(TFIT(x0 - 14, ax + 6, left, 15, x0 - 24, GREY, anchor='end'))
+    g.append(TFIT(x1 + 14, ax + 6, right, 15, W - x1 - 24, GREY,
+                  anchor='start'))
     for i, (lab, pos) in enumerate(items):
         x = x0 + 18 + (x1 - x0 - 36) * max(0.0, min(1.0, float(pos)))
         up = (i % 2 == 0)

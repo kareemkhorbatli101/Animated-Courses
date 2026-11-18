@@ -32,11 +32,333 @@ UNIT = dict(
    'anonymous, and why a law written about files struggles with a system that '
    'produces guesses.'),
 
+ field='privacy',
+ unitmap=dict(kind='unitmap', teaches='navigation', n=25,
+              theme='Technology and Privacy',
+              rows=[('Data and your rights',
+                     'Reading for one detail against the clock',
+                     'Multiple choice · sentence completion · note '
+                     'completion · Parts 1-2'),
+                    ('What people will trade',
+                     'Task 2: the opinion essay is not the discussion '
+                     'essay',
+                     'Yes/No/Not Given · matching features · Part 2'),
+                    ('What a profile is built from',
+                     'Task 1: a process, and the verbs it needs',
+                     'True/False/Not Given · matching information · '
+                     'plan labelling · Task 1 Academic'),
+                    ('Why anonymised data is not anonymous',
+                     'Task 2 planning: generate, then discard',
+                     'Matching headings · Yes/No/Not Given · Part 4'),
+                    ('Whether rules can keep up',
+                     'Task 2: one paragraph, one job',
+                     'Matching information · Yes/No/Not Given · Task '
+                     '2')],
+              note='This is the last unit of the first half of the '
+                   'book and the one that gathers the writing strand: '
+                   'cycle 2 sorts the question types, cycle 4 plans, '
+                   'cycle 5 builds the paragraph. The reading skills '
+                   'are revision at speed, which is what they should '
+                   'be by unit 25.'),
+ sceneintro='Eight things from the apparatus that watches people, and '
+            'the words for them. Six are used in cycle 1 and five come '
+            'back in cycle 3, where the subject is how they are joined '
+            'together.',
+ scene=dict(kind='scene', teaches='activate',
+            title='Unit 25 · the apparatus',
+            instr='Write the number of each thing beside its word. Two '
+                  'words in the bank are not in the picture.',
+            cells=[('brief', 'privacy notice'),
+                   ('laptop', 'subject access request'),
+                   ('clock', 'retention period'),
+                   ('people', 'data controller'),
+                   ('chart', 'profile'),
+                   ('cpu', 'inferred data'),
+                   ('envelope', 'breach notification'),
+                   ('note', 'consent record')],
+            bank=['privacy notice', 'subject access request',
+                  'retention period', 'data controller', 'profile',
+                  'inferred data', 'breach notification',
+                  'consent record', 'regulator', 'third party'],
+            answers=['privacy notice', 'subject access request',
+                     'retention period', 'data controller', 'profile',
+                     'inferred data', 'breach notification',
+                     'consent record'],
+            note='Answers: 1 privacy notice · 2 subject access '
+                 'request · 3 retention period · 4 data controller · '
+                 '5 profile · 6 inferred data · 7 breach notification '
+                 '· 8 consent record. Not in the picture: regulator, '
+                 'third party.'),
+ puzzle=dict(kind='puzzle', teaches='curiosity',
+             title='What people say, and what people do',
+             question='The same people were asked how much they cared '
+                      'about privacy and then watched while they chose. '
+                      'Which bar is what they said?',
+             bars=[('Said they cared', 82), ('Read the notice', 11),
+                   ('Changed a setting', 17), ('Refused cookies', 23),
+                   ('Paid to avoid ads', 4)],
+             mark=0, ylab='% of the same 2,000 people',
+             note='Cycle 2 is about this gap and about the three '
+                  'explanations for it, only one of which is '
+                  '"people are hypocrites". Write your guess in the '
+                  'margin before you read.'),
  cycles=[
   dict(
    sub='Data and your rights',
    step=1,
+   notes=dict(
+    serves='Multiple choice and sentence completion, Reading Parts '
+           '1-2; note completion in Listening Parts 1-2',
+    because='By unit 25 the reading sub-skills are known and the thing '
+            'that is still lost is time: candidates read a 230-word '
+            'notice three times for four questions, which at the pace '
+            'of the real paper is a third of Part 1 gone',
+    skill='Finding one stated detail in a dense document without '
+          'reading the document',
+    evidence='The speed page measures 190 to 210 words a minute; Part '
+             '1 gives about seventeen minutes for two texts and '
+             'thirteen questions, so a text read three times cannot '
+             'fit',
+    watch='Learners will read the privacy notice from the top. Give '
+          'them the four questions first and time both methods on the '
+          'same text',
+    time='75 minutes, or 55 without the free grammar production'),
+   lead=dict(
+    title='The document nobody reads',
+    body='A privacy notice is the most-presented and least-read '
+         'document in the world: eighty-two per cent of people in the '
+         'survey at the front of this unit said privacy mattered to '
+         'them and eleven per cent had read one. That is not simply '
+         'laziness. These documents are long, they are written to be '
+         'legally safe rather than clear, and the thing you actually '
+         'want from one is almost always a single sentence buried in '
+         'the middle. This cycle is about getting that sentence out in '
+         'ninety seconds.',
+    task='Answer these honestly before you read anything.',
+    qs=['When did you last read a privacy notice? What made you?',
+        'What would you want to know from one, if you could ask three '
+        'questions?',
+        'Is consent meaningful when nobody reads what they consent '
+        'to?',
+        'Should a notice be allowed to be longer than one page?']),
+   vocabwork=dict(
+    title='The vocabulary of a right and a duty',
+    body='Sixteen words from data protection, and the register will be '
+         'familiar: it is the same institutional language you met in '
+         'unit 21 cycle 1 and unit 23 cycle 1, which is why six of '
+         'these words are ones you already have. What is new is that '
+         'here the institution owes you something, and the vocabulary '
+         'of entitlement is worth having in any language.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='your data, and who holds it',
+                sub='cycle 1 · and six of these are from unit 21',
+                branches=[('who is who',
+                           ['data subject', 'controller', 'processor',
+                            'regulator']),
+                          ('what you may demand',
+                           ['subject access', 'erasure',
+                            'rectification', 'portability']),
+                          ('what they must do',
+                           ['privacy notice', 'retention period',
+                            'breach notification', 'lawful basis']),
+                          ('how it goes wrong',
+                           ['repurpose', 'third party', 'profiling',
+                            'inferred data'])],
+                note='Inferred data is data about you that nobody '
+                     'gave anybody: your likely age, your probable '
+                     'income, whether you are moving house. It is the '
+                     'category the whole of cycle 3 is about and the '
+                     'one the law handles least well.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 1 · and note the two with no verb',
+                 rows=[(('con-sent', 2), ('con-sent', 2), '', '', ''),
+                       (('e-rase', 2), ('e-ra-sure', 2), '', '', ''),
+                       (('pro-cess', 1), ('pro-ces-sing', 1),
+                        ('pro-ces-sor', 1), '', ''),
+                       (('re-tain', 2), ('re-ten-tion', 2), '', '',
+                        ''),
+                       (('in-fer', 2), ('in-fe-rence', 1), '',
+                        ('in-ferred', 2), '')],
+                 note='Consent is both noun and verb with the same '
+                      'stress. Infer and inference move the stress, '
+                      'and you met that pair in unit 22 cycle 5 where '
+                      'the subject was arguing rather than data.'),
+    task='Complete each sentence with a word from this cycle, in the '
+         'right form.',
+    items=[
+     ('The organisation that decides why data is held is the '
+      '____________.', None, 'controller'),
+     ('A demand to see what is held about you is a subject '
+      '____________ request.', None, 'access'),
+     ('Data about you that nobody supplied is ____________ data.',
+      None, 'inferred'),
+     ('How long a record may be kept is the ____________ period.',
+      None, 'retention'),
+     ('The noun from erase is ____________.', None, 'erasure'),
+     ('Using data for something it was not collected for is to '
+      '____________ it.', None, 'repurpose'),
+     ('The person the data is about is the data ____________.',
+      None, 'subject'),
+     ('The legal reason an organisation may hold it is its lawful '
+      '____________.', None, 'basis')]),
+   builder=dict(
+    skill='Finding one detail without reading the document',
+    qkind='skill',
+    explain='Part 1 of the Reading paper gives you about seventeen '
+            'minutes for two texts and thirteen questions, and the '
+            'texts are deliberately dense: a notice, a set of '
+            'conditions, a page of regulations. Read one of those '
+            'three times and Part 1 is gone. The method is the same '
+            'retrieval skill you met in unit 24 cycle 5 and it is '
+            'faster here, because these documents are structured. Read '
+            'the questions first and note what KIND of thing each '
+            'wants - a number, a period, a person, a condition, an '
+            'exception. Then look at the document’s own furniture: '
+            'headings, bold terms, numbered clauses, the word if, and '
+            'the word unless. Almost every question in Part 1 is '
+            'answered in a sentence containing if, unless, except, '
+            'must, may or within, because those are the words that '
+            'make a condition, and a condition is the only thing a '
+            'document like this contains worth asking about. Scan for '
+            'the word, not for the meaning. Then read one sentence.',
+    worked=[
+     'QUESTION: how long does the controller have to respond to a '
+     'subject access request?',
+     'The kind of thing: a period. Scan for within, days, month, and '
+     'for digits.',
+     'The notice contains “within one calendar month” in clause 7 and '
+     '“within 72 hours” in clause 11.',
+     'Two candidates in six seconds. Read those two sentences only: '
+     'clause 11 is about breaches, clause 7 is about access '
+     'requests.',
+     'The answer is one calendar month, and the trap is 72 hours, '
+     'which is a real period in the same document for a different '
+     'duty. You never read clauses 1 to 6 or 8 to 10 at all.'],
+    figure=dict(kind='anatomy', teaches='question-anatomy',
+                qtype='Multiple choice', sub='cycle 1, question 3',
+                stem='A controller must notify the regulator of a '
+                     'breach',
+                options=['within 72 hours of becoming aware of it',
+                         'within one calendar month',
+                         'only if individuals are at risk',
+                         'before informing the individuals '
+                         'concerned'],
+                answer=0,
+                why='Clause 11 says within 72 hours of becoming aware. '
+                    'The phrase of becoming aware is in the clause and '
+                    'in the option, and it is what makes A exactly '
+                    'right rather than nearly right.',
+                trap=(1, 'One calendar month is in the same notice, '
+                         'in clause 7, and applies to subject access '
+                         'requests. A candidate who scanned for a '
+                         'period and stopped at the first one found '
+                         'this.'),
+                note='Both A and B are periods stated in the document. '
+                     'Scanning gets you to the shortlist in seconds; '
+                     'the last step is always reading one sentence '
+                     'properly.'),
+    task='For each question write the KIND of thing and the word you '
+         'would scan for.',
+    items=[
+     ('How long may the data be kept?', None, 'period, retained for'),
+     ('Who may make a request on a child’s behalf?',
+      None, 'person, on behalf'),
+     ('In what circumstances may consent be refused?',
+      None, 'condition, unless'),
+     ('What must be included in the notification?',
+      None, 'list, must include'),
+     ('When does the right not apply?', None, 'exception, except'),
+     ('How much may be charged for a copy?', None, 'number, fee')],
+    note='Five of the six scan words are if, unless, except, must and '
+         'within. A document of this kind is almost entirely made of '
+         'conditions, and the questions are made out of the same '
+         'material, which is why this works.'),
+   figures=[
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 1 · six moves the questions make',
+         pairs=[('ask to see what is held',
+                 'make a subject access request', 'nominalisation'),
+                ('tell the regulator', 'notify the supervisory '
+                 'authority', 'synonym'),
+                ('the company that decides', 'the data controller',
+                 'reformulation'),
+                ('they may not keep it forever',
+                 'a retention period applies', 'negation'),
+                ('a copy must be given free',
+                 'no fee may be charged', 'voice'),
+                ('names, addresses and card numbers',
+                 'personal data', 'hypernym')],
+         note='The fifth is the pattern worth knowing: a duty in the '
+              'question becomes a prohibition in the text, and the '
+              'two are the same rule seen from opposite ends.'),
+   ],
+   advice='In Reading Part 1 read the questions before the text, '
+          'always. These are not passages, they are documents, and '
+          'nobody reads a document end to end for information - you '
+          'look things up in it. The paper is modelling real reading '
+          'and candidates who treat it as literature run out of time '
+          'in Part 3, which is where the difficult marks are.',
+   debrief=dict(
+    read=['Question 3 has two periods to choose between and both are '
+          'in the notice. The phrase of becoming aware is in the '
+          'clause and in the right option.',
+     'Question 6 asks what the controller must do and an option '
+     'describes what it may do. Must and may are four lines apart in '
+     'the same clause.',
+     'The gap in question 9 wants the noun and the notice uses the '
+     'verb. The word-family table in this cycle has it.'],
+    listen=['The caller gives a reference, is asked to confirm it, and '
+            'repeats it differently. The second version is the answer, '
+            'as always.',
+     'Question 13 asks for a period and two are said. The words '
+     'either side of the gap say which.']),
+   outside='Everything an organisation owes you is written in a '
+           'document somebody assumed you would not read, and all of '
+           'it is findable in about two minutes if you know to scan '
+           'for if, unless, within and must. That is worth more in '
+           'ordinary life than almost anything else in this book.',
+   recycled=['eligible', 'criteria', 'notify', 'retention', 'risk',
+             'liability'],
    read=[
+    dict(preview=True,
+         heading='Three words from a privacy notice',
+         kind='Glossary box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='Two hundred words before four hundred. These three words '
+             'decide what everything else in the notice means, and two '
+             'of them are not what most people assume.',
+         paras=[
+          'A data controller is whoever decides why data is collected '
+          'and what happens to it. It is not whoever physically holds '
+          'it - a company that stores records for somebody else is a '
+          'processor and has far fewer duties. When a notice says the '
+          'controller is responsible, that is who it means.',
+          'Personal data is anything that identifies a living person, '
+          'directly or in combination with something else. A postcode '
+          'is not personal data; a postcode plus a date of birth often '
+          'is, because very few people share both. This is the idea '
+          'cycle 4 is built on.',
+          'Inferred data is data about a person that nobody supplied: '
+          'a guess at their income, their likely health, whether they '
+          'are about to move house. It is produced rather than '
+          'collected, it is personal data in law, and it is the part '
+          'of the system that people are least aware of and that '
+          'cycle 3 is about.',
+          'The three words are the skeleton of every notice you will '
+          'ever meet. The controller is who is liable, personal data '
+          'is what the duties attach to, and inferred data is the part '
+          'that was never anybody’s to give away.'],
+         items=[
+          ('Whoever decides why data is collected is the '
+           '____________.', None, 'controller',
+           'Paragraph 1: a company that merely stores it is a '
+           'processor.'),
+          ('A postcode plus a date of birth is usually '
+           '____________ data.', None, 'personal',
+           'Paragraph 2, because very few people share both.'),
+          ('Data produced rather than collected is ____________ '
+           'data.', None, 'inferred',
+           'Paragraph 3, which is what cycle 3 is about.')]),
     dict(heading='How we use your data',
          kind='Privacy notice', task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-5',
@@ -302,6 +624,50 @@ UNIT = dict(
          instruct='  Write at least 150 words in about 20 minutes.',
          lines=14)],
    gram=dict(
+    ref='L18',
+    context=[
+     'From the letter in this cycle:',
+     'I am writing to make a subject access request under Article 15. '
+     'I am entitled to a copy of the personal data you hold about me, '
+     'and you are required to respond within one calendar month of '
+     'receipt. I should be grateful if you would confirm that this '
+     'request has been received, and I look forward to your response '
+     'within the statutory period.'],
+    notice=[
+     ('The writer states a right and an obligation in two consecutive '
+      'clauses. Copy out the first words of each.',
+      'I am entitled to; you are required to'),
+     ('What preposition follows entitled, and what follows required?',
+      'entitled TO; required TO plus a verb')],
+    noticetask='Answer both from the letter above, which you read '
+               'earlier in this cycle.',
+    contrast='Asserting a right has a fixed register and getting it '
+             'wrong is expensive in a General Training Task 1. Compare '
+             '"I demand you send me my data" with "I am entitled to a '
+             'copy of the personal data you hold about me, and you are '
+             'required to respond within one calendar month". The '
+             'second is firmer, not softer: it states what is owed '
+             'rather than what is wanted, names the instrument, and '
+             'puts a deadline on the page. Note the prepositions, '
+             'which are the most-marked error here: entitled TO a '
+             'thing, entitled TO DO something, required TO DO '
+             'something, and within one calendar month and not within '
+             'one month calendar.',
+    task2='Rewrite each in the register of a right asserted.',
+    items2=[
+     ('Send me my data. ____________',
+      None, 'I am entitled to a copy of the data you hold about me.'),
+     ('You have to answer in a month. ____________',
+      None, 'You are required to respond within one calendar month.'),
+     ('Correct: I am entitled for a copy. ____________',
+      None, 'I am entitled to a copy.'),
+     ('Correct: I demand you to erase it. ____________',
+      None, 'I am requesting that the data be erased.')],
+    task3='Now write the whole request. You want to see what an '
+          'organisation holds about you and you want one thing '
+          'corrected. Write the opening and the two requests, about '
+          'eighty words, naming the instrument and the deadline.',
+    items3=8,
     point='Asserting a right you have been given',
     explain=('Where a right comes from a policy or a law, the strongest '
              'formulation cites the source and then states the action. These '
@@ -351,6 +717,232 @@ UNIT = dict(
   dict(
    sub='What people will trade',
    step=2,
+   notes=dict(
+    serves='Yes/No/Not Given and matching features, Reading Part 2; '
+           'multiple choice in Listening Part 2; Task 2, agree or '
+           'disagree',
+    because='Candidates lose Task Response before writing by answering '
+            'the wrong kind of question: a discuss-both-views prompt '
+            'answered as an opinion essay, or an agree-or-disagree '
+            'prompt answered as a balanced survey with no position in '
+            'it',
+    skill='Sorting a Task 2 prompt into its kind, and knowing what '
+          'each kind obliges',
+    evidence='Unit 21 cycle 5 taught the four obligations of a '
+             'discuss-both-views question; the census shows five '
+             'distinct Task 2 forms in this book and the other four '
+             'had no taught procedure',
+    watch='Learners will write a balanced essay for "to what extent do '
+          'you agree". Balance is not a position, and the rubric asked '
+          'for an extent',
+    time='80 minutes, or 60 without the free grammar production'),
+   lead=dict(
+    title='Eighty-two per cent and eleven per cent',
+    body='The chart at the front of this unit is the most-replicated '
+         'finding in the field: people say privacy matters enormously '
+         'and behave as though it did not. The lazy reading is that '
+         'people are hypocrites. There are two better explanations - '
+         'that consent is asked for at the worst possible moment, and '
+         'that the cost of refusing is immediate while the cost of '
+         'agreeing is invisible and years away - and this cycle is '
+         'four writers disagreeing about which of the three it is.',
+    task='Answer these before you read, and look again at the guess on '
+         'the puzzle chart.',
+    qs=['Have you ever agreed to something online you would have '
+        'refused if asked at a different moment?',
+        'Is it consent if refusing means not getting the thing?',
+        'Whose job is it to fix this - the companies, the regulator, '
+        'or the user?',
+        'Which of the three explanations do you believe, and what '
+        'would change your mind?']),
+   vocabwork=dict(
+    title='The vocabulary of a trade',
+    body='Twelve words about exchange and cost. The structure is the '
+         'one you met in unit 24 cycle 2 - a benefit falling on one '
+         'party and a cost on another - and five of these words are '
+         'the same. What is new is the language of a cost that is '
+         'deferred and invisible, which is the whole of the privacy '
+         'argument and a good deal of the climate one.',
+    figure=dict(kind='collocation', teaches='collocation',
+                node='consent', sub='cycle 2',
+                groups=[('verb + consent',
+                         ['give consent', 'withdraw consent',
+                          'obtain consent', 'imply consent',
+                          'manufacture consent']),
+                        ('adjective + consent',
+                         ['informed consent', 'explicit consent',
+                          'freely given consent', 'implied consent']),
+                        ('consent + preposition',
+                         ['consent to processing',
+                          'consent for marketing',
+                          'consent from the user'])],
+                note='Freely given is a term of art: consent obtained '
+                     'by making refusal costly is not freely given, '
+                     'and that single phrase is what three of the '
+                     'four texts in this cycle are arguing about.'),
+    figure2=dict(kind='cline', teaches='scale',
+                 title='How real is the choice?',
+                 sub='cycle 2 · and compare the cline in unit 24 cycle '
+                     '2',
+                 left='no choice in practice',
+                 right='a considered decision',
+                 items=[('clicked through to get the thing', 0.04),
+                        ('accepted the default', 0.2),
+                        ('did not change the setting', 0.36),
+                        ('agreed to the terms', 0.56),
+                        ('weighed it up', 0.76),
+                        ('read the notice and consented', 0.95)],
+                 note='The same person doing the same thing can be '
+                      'described by any phrase on this line, and the '
+                      'matching-features questions in this cycle are '
+                      'about which phrase each writer chooses. That '
+                      'is the same exercise as unit 24 cycle 2 with '
+                      'a different subject.'),
+    task='Complete each with a collocation or a phrase from the cline.',
+    items=[
+     ('Consent obtained by making refusal costly is not '
+      '____________ given.', None, 'freely'),
+     ('Consent that can be shown by a positive act is '
+      '____________.', None, 'explicit'),
+     ('To stop consenting is to ____________ consent.',
+      None, 'withdraw'),
+     ('The preposition before the activity: consent ____________ '
+      'processing.', None, 'to'),
+     ('Consent assumed from silence is ____________ consent.',
+      None, 'implied'),
+     ('The weakest phrase on the cline: clicked ____________.',
+      None, 'through'),
+     ('Consent given with a real understanding of what follows is '
+      '____________.', None, 'informed'),
+     ('A cost that arrives years later and invisibly is '
+      '____________.', None, 'deferred')]),
+   builder=dict(
+    skill='Task 2: five kinds of question, five obligations',
+    qkind='skill',
+    explain='There are five Task 2 forms and each obliges something '
+            'different, and more Task Response marks are lost to '
+            'answering the wrong kind than to anything else. Discuss '
+            'both views and give your own opinion: both views fairly, '
+            'in roughly equal space, plus your own position - that is '
+            'unit 21 cycle 5. To what extent do you agree: a position '
+            'with a degree attached, which means fully, largely or '
+            'only in part, and a balanced survey with no extent in it '
+            'is not an answer. Advantages and disadvantages: both, and '
+            'no opinion is wanted unless the prompt asks - supplying '
+            'one wastes a paragraph. Problem and solution, or cause '
+            'and solution: two halves, and the solution half must '
+            'answer the problem you actually named rather than a '
+            'general one. And the two-part question, which gives you '
+            'two direct questions and obliges you to answer both, '
+            'where the commonest failure is answering the first at '
+            'length and the second in a clause. Read the last sentence '
+            'of the prompt twice. It is where the form is declared, '
+            'and it takes eight seconds.',
+    worked=[
+     'PROMPT: “Some people believe privacy online is already lost. To '
+     'what extent do you agree?”',
+     'The form is declared in the last sentence: to what extent.',
+     'The obligation is a position with a degree. Not both sides '
+     'weighed; not a survey. Largely, or only in part, or scarcely at '
+     'all - and then the reason for that degree.',
+     'A balanced essay here would be a band 5 or 6 for Task Response '
+     'however good the English, because the rubric asked for an '
+     'extent and received a survey.',
+     'A good opening: “Largely, though not for the reason usually '
+     'given.” That sentence commits to a degree and promises an '
+     'argument, in nine words.'],
+    figure=dict(kind='taskread', teaches='task-analysis',
+                sub='cycle 2 · the five forms, and what each obliges',
+                prompt='Some people believe that privacy online is '
+                       'already lost and that regulation cannot '
+                       'recover it. To what extent do you agree?',
+                parts=[('THE TOPIC', 'online privacy and regulation',
+                        'what you write about, not what you argue'),
+                       ('THE CLAIM', 'privacy is lost and cannot be '
+                        'recovered',
+                        'two claims, and you may agree with one'),
+                       ('THE FORM', 'to what extent do you agree',
+                        'a position WITH A DEGREE, not a balance'),
+                       ('YOUR TASK', 'state the degree, then earn it',
+                        'largely / in part / scarcely, plus the '
+                        'reason')],
+                misreadings=['A balanced essay surveying both sides '
+                             'and declining to say how far.',
+                             'An essay on whether privacy matters, '
+                             'which is a different prompt.'],
+                note='The two claims in the prompt can be separated: '
+                     'you may agree that privacy is largely lost and '
+                     'deny that regulation cannot recover it. That is '
+                     'the division from unit 22 cycle 2, used on a '
+                     'rubric.'),
+    task='For each prompt write the FORM and what it obliges, in six '
+         'words.',
+    items=[
+     ('Discuss both views and give your own opinion.',
+      None, 'both fairly plus a position'),
+     ('To what extent do you agree?', None, 'a position with a '
+      'degree'),
+     ('What are the advantages and disadvantages?',
+      None, 'both, no opinion wanted'),
+     ('What problems does this cause and how can they be solved?',
+      None, 'two halves, matched to each other'),
+     ('Why is this happening, and what should be done?',
+      None, 'causes then measures, both fully'),
+     ('Some say X. Others say Y. Discuss.',
+      None, 'both fairly, opinion optional')],
+    note='Two of the six want no opinion at all and one of them '
+         'wants a degree rather than a side. Supplying the wrong '
+         'thing is not a small error: Task Response is a quarter of '
+         'the mark for Writing Task 2, and it is the criterion an '
+         'examiner settles first.'),
+   figures=[
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 2 · the matching-features set turns on these',
+         pairs=[('people do not read it',
+                 'the notice goes unread', 'voice'),
+                ('agreeing without thinking',
+                 'consent at the point of need', 'nominalisation'),
+                ('the cost comes much later',
+                 'a deferred cost', 'reformulation'),
+                ('it is not really a choice',
+                 'consent is not freely given', 'negation'),
+                ('firms, regulators and users',
+                 'the parties involved', 'hypernym'),
+                ('the default setting', 'what happens if you do '
+                 'nothing', 'synonym')],
+         note='The fourth is a term of art in the text and an '
+              'ordinary phrase in the question. That pairing is '
+              'where most of this set’s marks are.'),
+   ],
+   advice='Read the last sentence of a Task 2 prompt twice before you '
+          'plan anything. It declares the form, and the form decides '
+          'what a complete answer is. An examiner marking Task '
+          'Response is asking one question first - has this candidate '
+          'done what was asked - and an essay that answers a different '
+          'kind of question is capped before a word of its English is '
+          'considered.',
+   debrief=dict(
+    read=['Two writers use the phrase "freely given" and only one of '
+          'them is using it as the legal term. The other means it '
+          'loosely, and the matching question is about the '
+          'difference.',
+     'The Yes/No/Not Given statement about hypocrisy is one the '
+     'passage reports and rejects. It is the voice problem from unit '
+     '23 cycle 2 and the handover is four words.',
+     'Statement 24 is stronger than the passage: the passage says '
+     '"most people most of the time" and the statement says '
+     '"people". That is the scope problem from unit 23 cycle 4.'],
+    listen=['Suki concedes Dev’s joke and then reverses it. The '
+            'answer is after the reversal.',
+     'Question 31 offers an option built from the pound example, '
+     'which she uses to make the opposite point.']),
+   outside='Knowing what kind of question you have been asked is the '
+           'whole of answering it, in an exam, in an interview and in '
+           'an argument. Most people answer the question they wish '
+           'they had been asked, and nobody notices they have done it '
+           'except the person marking.',
+   recycled=['consent', 'risk', 'deferred', 'evidence', 'liability',
+             'exposure'],
    read=[
     dict(heading='Four people on privacy and convenience',
          kind='Four short texts',
@@ -410,6 +1002,49 @@ UNIT = dict(
                'paragraph.', 2: 'Not Given is wrong because she says exactly how much '
                'she reads.'})])],
    listen=[
+    dict(preview=True,
+         heading='Two people and a free torch',
+         part='Preview', task='Sentence completion',
+         band='lpre', qtype='Questions P1-P3',
+         why='Ninety seconds before five minutes. The Part 2 you are '
+             'about to hear argues about the same gap, with figures '
+             'attached.',
+         script=[
+          ('Dev', 'I downloaded a torch app and it wanted my contacts. '
+                  'A torch.'),
+          ('Suki', 'And did you give them?'),
+          ('Dev', 'Of course I did. It was dark.'),
+          ('Suki', 'That is the whole research finding in one '
+                   'sentence, you know. People do not trade privacy '
+                   'for value. They trade it for immediacy.'),
+          ('Dev', 'That sounds like a polite way of saying we are '
+                  'stupid.'),
+          ('Suki', 'It is the opposite. If you offered somebody a '
+                   'pound to hand over their contacts they would '
+                   'refuse, and the pound is worth more than the '
+                   'torch. What they will not do is stop and think at '
+                   'the moment they want the thing.'),
+          ('Dev', 'So the problem is the moment.'),
+          ('Suki', 'The problem is that consent is asked for at '
+                   'exactly the instant a person is least able to '
+                   'give it. Change the moment and the behaviour '
+                   'changes. We have tested that.'),
+          ('Dev', 'And nobody designs it that way.'),
+          ('Suki', 'Nobody designs it that way because the people '
+                   'designing it are paid for the yes.')],
+         items=[
+          ('Suki says people do not trade privacy for value but for '
+           '____________.', None, 'immediacy',
+           'Her second turn, which she calls the whole research '
+           'finding.'),
+          ('Consent is asked for at the instant a person is least '
+           'able to ____________ it.', None, 'give',
+           'Her fourth turn, which is the argument of the whole '
+           'cycle.'),
+          ('She says the designers are paid for the ____________.',
+           None, 'yes',
+           'Her last turn, and it is the sentence the Part 2 comes '
+           'back to.')]),
     dict(heading='Two users disagree about tracking', part='Part 3',
          task='A conversation about a tracking setting · sentence completion and multiple choice', band='l3',
          qtype='Questions 25-29',
@@ -573,6 +1208,55 @@ UNIT = dict(
          instruct='  Write at least 250 words in about 40 minutes.',
          lines=18)],
    gram=dict(
+    ref='L19',
+    context=[
+     'From text C, which you have just read:',
+     'The exchange is real but it is not the one people imagine. A user '
+     'gives up a quantity of future, invisible risk in return for an '
+     'immediate and very small convenience, and the more immediate the '
+     'convenience, the less carefully the risk is weighed. That is not '
+     'a bad bargain struck by foolish people. It is a bargain struck at '
+     'the cost of the only thing that could have made it a good one, '
+     'which is a moment to think.'],
+    notice=[
+     ('Find the phrase that names what is given and what is received.',
+      'gives up ... in return for'),
+     ('Find the structure that links two quantities moving together.',
+      'the more immediate the convenience, the less carefully the risk '
+      'is weighed')],
+    noticetask='Answer both from the paragraph above, which you met '
+               'earlier in this cycle.',
+    contrast='A trade-off is one of the few ideas that has its own '
+             'grammar in English, and the two structures do different '
+             'work. In return for and in exchange for name the two '
+             'sides of a single swap. The more X, the more Y names a '
+             'relationship that holds across many cases, which is a '
+             'stronger claim and needs evidence. At the cost of names '
+             'the price of something you are recommending anyway, '
+             'which is the most useful of the three in Task 2 because '
+             'it concedes and argues in one phrase. Note the '
+             'prepositions - in return FOR, in exchange FOR, at the '
+             'cost OF - and note that the more... the more pattern '
+             'needs the in both halves and a comma between them.',
+    task2='Rewrite each with the structure named.',
+    items2=[
+     ('People give data and get a free service. (in return for) '
+      '____________',
+      None, 'People give up data in return for a free service.'),
+     ('More convenience, less care. (the more) ____________',
+      None, 'The more immediate the convenience, the less carefully '
+      'the risk is weighed.'),
+     ('Correct: in exchange of a discount. ____________',
+      None, 'in exchange for a discount'),
+     ('Convenience is worth having and privacy is the price. (at the '
+      'cost of) ____________',
+      None, 'Convenience is bought at the cost of privacy.')],
+    task3='Now write it. Take any trade in this unit - data for a '
+          'torch, convenience for risk, a free service for a profile - '
+          'and write sixty to eighty words that name both sides of it, '
+          'use the more... the more once, and concede with at the cost '
+          'of.',
+    items3=8,
     point='Trade-off and exchange structures',
     explain=('An exchange has two sides and a price. English has a set of '
              'structures for holding both sides in one sentence, and using '
@@ -623,7 +1307,270 @@ UNIT = dict(
   dict(
    sub='What a profile is built from',
    step=3,
+   notes=dict(
+    serves='Matching information and True/False/Not Given, Reading '
+           'Part 3; plan and diagram labelling; Task 1 Academic, a '
+           'process',
+    because='A process diagram is the Task 1 that band 6 answers '
+            'describe as a list of boxes, with no agent, no passive '
+            'and no sequence markers - the three things a process '
+            'description is actually made of',
+    skill='Describing a process: the passive, the sequence, and what '
+          'to do when nobody is named',
+    evidence='Phase 4: the band 6.5 models for process diagrams in '
+             'this series average four passive constructions against '
+             'eleven in the band 9 models, and the difference is '
+             'almost the whole band',
+    watch='Learners will write "then the system makes a profile" five '
+          'times. Ask who is named on the diagram, and what that '
+          'implies about the voice',
+    time='85 minutes, or 65 without the free grammar production'),
+   lead=dict(
+    title='Nobody wrote this down about you',
+    body='Everything in your file that you gave somebody is the small '
+         'part. The large part was produced: inferred from how long '
+         'you looked, what you scrolled past, when you opened the app, '
+         'which of two headlines you chose. In cycle 1 you learned '
+         'what a data controller owes you; this cycle is about the '
+         'material those duties were not written for, because nobody '
+         'supplied it and so nobody can be said to have given it '
+         'away.',
+    task='Answer these before you look at the diagram.',
+    qs=['What could somebody work out about you from the times of day '
+        'you use a phone?',
+        'Is a guess about you personal data? Should it be?',
+        'If a system predicts you will like something and then shows '
+        'it to you, who chose?',
+        'What would you want the right to see - the data, or the '
+        'conclusions?']),
+   vocabwork=dict(
+    title='The vocabulary of a process',
+    body='Twelve words, and half of them are the vocabulary of any '
+         'process rather than of this one - stage, input, output, '
+         'feed, derive, loop. That half is what Task 1 Academic needs '
+         'whenever it gives you a diagram instead of a chart, which is '
+         'roughly one time in four.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='how a profile is built',
+                sub='cycle 3 · half of these work on any process',
+                branches=[('what goes in',
+                           ['signal', 'input', 'raw event',
+                            'scroll depth']),
+                          ('what happens to it',
+                           ['aggregate', 'derive', 'weight',
+                            'compress']),
+                          ('what comes out',
+                           ['feature', 'profile', 'prediction',
+                            'confidence']),
+                          ('and back again',
+                           ['feedback loop', 'downstream',
+                            'reinforce', 'drift'])],
+                note='Downstream is worth having in any subject: it '
+                     'means at a later stage of the process, and the '
+                     'metaphor works in English for supply chains, '
+                     'rivers, software and consequences.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 3 · the verbs a process description needs',
+                 rows=[(('ag-gre-gate', 1), ('ag-gre-ga-tion', 3), '',
+                        ('ag-gre-ga-ted', 1), ''),
+                       (('de-rive', 2), ('de-ri-va-tion', 3), '',
+                        ('de-rived', 2), ''),
+                       (('pre-dict', 2), ('pre-dic-tion', 2), '',
+                        ('pre-dic-tive', 2), ''),
+                       (('in-fer', 2), ('in-fe-rence', 1), '',
+                        ('in-ferred', 2), ''),
+                       (('re-in-force', 3), ('re-in-force-ment', 3),
+                        '', '', '')],
+                 note='Every one of these is used in the passive in '
+                      'the model answer, and that is not an accident: '
+                      'a process diagram names stages and not agents, '
+                      'so English puts the stage in the subject and '
+                      'the verb in the passive.'),
+    task='Complete each sentence with a word from this cycle, in the '
+         'right form.',
+    items=[
+     ('An observable thing the system treats as evidence is a '
+      '____________.', None, 'signal'),
+     ('Many raw events combined into one number have been '
+      '____________.', None, 'aggregated'),
+     ('A number worked out from others is ____________ from them.',
+      None, 'derived'),
+     ('The noun from infer is ____________.', None, 'inference'),
+     ('At a later stage of the process is ____________.',
+      None, 'downstream'),
+     ('When the output becomes the next input, a ____________ loop '
+      'has formed.', None, 'feedback'),
+     ('The adjective from predict is ____________.',
+      None, 'predictive'),
+     ('How sure the system is of its guess is its ____________.',
+      None, 'confidence')]),
+   builder=dict(
+    skill='Task 1: describing a process',
+    qkind='skill',
+    explain='About one Task 1 in four is a process rather than a '
+            'chart, and it is the one candidates most often describe '
+            'as a list. The reason is that the diagram gives you boxes '
+            'and arrows and no people, so there is nobody to put in '
+            'the subject of a sentence - and the English answer to that '
+            'is the passive, which is why a process description '
+            'contains more passives than anything else you will write '
+            'in the exam. Three things make the difference. Use the '
+            'passive wherever the diagram names no agent: the signals '
+            'are aggregated, a profile is derived, the prediction is '
+            'fed back. Mark the sequence explicitly, because the '
+            'reader cannot see your diagram: first, once this has '
+            'happened, at the next stage, finally. And say how many '
+            'stages there are in your overview, because a process '
+            'overview is a statement of shape - linear, cyclical, '
+            'branching - and "the diagram shows a six-stage cycle '
+            'which returns to its starting point" is worth more than '
+            'any description of a single box.',
+    worked=[
+     'The diagram: six boxes, five arrows, and one arrow going back '
+     'from the last box to the second.',
+     'The overview, as shape: “The diagram shows a six-stage process '
+     'which is cyclical rather than linear, since the output of the '
+     'final stage is returned as an input to the second.”',
+     'A stage, in the passive: “Raw events are first aggregated into '
+     'features, which are then weighted according to how recent they '
+     'are.”',
+     'Sequence marked: “Once a profile has been assembled, '
+     'predictions are generated and served to the user.”',
+     'What not to write: “The system collects data. Then the system '
+     'makes features. Then the system makes a profile.” Three '
+     'sentences, one verb, no sequence, and an agent the diagram '
+     'never named.'],
+    figure=dict(kind='ladder', teaches='band-move',
+                criterion='Grammatical Range, on a process',
+                sub='cycle 3 · the same stage, three bands',
+                rungs=[('5.5', 'The system takes the signals. Then the '
+                        'system makes them into features.', ''),
+                       ('6.5', 'The signals are collected and then '
+                        'turned into features.',
+                        'the passive, and the two steps joined'),
+                       ('7.5', 'Once the raw signals have been '
+                        'aggregated, they are weighted by recency '
+                        'before being converted into the features from '
+                        'which the profile is derived.',
+                        'a time clause, two passives and a relative '
+                        'clause, with the sequence carried inside one '
+                        'sentence')],
+                note='The third rung names no agent at all, which is '
+                     'correct, because the diagram names none. Writing '
+                     '"the system" five times is an invention, and an '
+                     'examiner reads it as one.'),
+    task='Rewrite each in the passive, with no agent.',
+    items=[
+     ('The system collects the signals.',
+      None, 'the signals are collected'),
+     ('Then it combines them into features.',
+      None, 'they are then combined into features'),
+     ('After that it builds a profile.',
+      None, 'a profile is then built'),
+     ('The system sends the prediction to the user.',
+      None, 'the prediction is served to the user'),
+     ('It uses the result as a new signal.',
+      None, 'the result is used as a new signal'),
+     ('The system does this again and again.',
+      None, 'the cycle is repeated')],
+    note='Six sentences, six passives, no agent in any of them. Read '
+         'them in order and notice that they are also a complete '
+         'description of the diagram, which is what a process answer '
+         'is: a sequence of stages, in the passive, with the sequence '
+         'marked. One caution. The passive is right here because the '
+         'diagram names nobody, and it is wrong in a Task 2 essay '
+         'where you are the one making the claim - "it is believed '
+         'that" is a way of not saying who believes it, and examiners '
+         'read it as evasion. Use the passive where the agent is '
+         'genuinely absent and the active where it is you.'),
+   figures=[
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 3 · what the questions do to the article',
+         pairs=[('worked out rather than collected',
+                 'inferred', 'nominalisation'),
+                ('the system shows you more of it',
+                 'the prediction is reinforced', 'voice'),
+                ('at a later stage', 'downstream', 'synonym'),
+                ('nobody supplied it',
+                 'it was produced rather than given', 'negation'),
+                ('time of day, scroll depth, dwell time',
+                 'behavioural signals', 'hypernym'),
+                ('how sure the system is',
+                 'the confidence attached to the prediction',
+                 'reformulation')],
+         note='The fourth decides two questions and it is the whole '
+              'legal argument of the passage in one pair.'),
+   ],
+   advice='On a process diagram, count the stages and say how many '
+          'there are, then say whether the process is linear or '
+          'cyclical. That is your overview and it takes one sentence. '
+          'Then describe the stages in order, in the passive, with the '
+          'sequence marked. Do not invent an agent the diagram does '
+          'not name, and do not describe every arrow - about six '
+          'stages is what 170 words will carry.',
+   debrief=dict(
+    read=['The True/False/Not Given statement about consent is FALSE '
+          'rather than NOT GIVEN, because the passage addresses '
+          'inferred data and consent explicitly in paragraph D.',
+     'Two paragraphs describe the feedback loop and only one explains '
+     'why it is a problem. Matching information asks for the '
+     'explanation.',
+     'In the diagram-labelling task two boxes could be called '
+     '"profile". The arrow directions decide which, and the labels '
+     'are in the passage rather than on the diagram.'],
+    listen=['The speaker describes the stages out of order and then '
+            'corrects herself. The corrected order is the answer.',
+     'In the labelling task she says "before that" once, and it '
+     'reverses two stages you have already written down.']),
+   outside='Almost everything is a process with stages and no named '
+           'agent - a planning application, a visa, a diagnosis, a '
+           'complaint. Being able to describe one in the passive, with '
+           'the sequence marked, is how you write a clear account of '
+           'what happened to you.',
+   recycled=['inferred', 'signal', 'evidence', 'confidence',
+             'aggregate', 'consent'],
    read=[
+    dict(preview=True,
+         heading='What a signal is',
+         kind='Explainer box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='The diagram in this cycle has the word signal on it nine '
+             'times and nobody ever explains it. Two hundred words.',
+         paras=[
+          'A signal is any observable thing a system treats as evidence '
+          'about a person. How long you looked at something, whether '
+          'you scrolled past it, what time of day you opened the app, '
+          'which of two headlines you chose. None of these is '
+          'information about you in the ordinary sense and all of them '
+          'are used as if they were.',
+          'Signals are weak individually and strong in combination. '
+          'That you paused on one article tells almost nothing. That '
+          'you paused on forty articles sharing a subject, at the same '
+          'hour, over three weeks, is a conclusion - and it is a '
+          'conclusion nobody told anybody.',
+          'A feature is a signal that has been processed into a number '
+          'the system can use. Scroll depth is a signal; average scroll '
+          'depth on political content over thirty days is a feature. '
+          'The distinction matters because the law was written about '
+          'data people supply, and features are produced.',
+          'A feedback loop closes when the system’s own output becomes '
+          'the next signal. It shows you more of something, you look at '
+          'more of it, and the profile that predicted the behaviour has '
+          'now caused it. Almost nothing in the apparatus is designed '
+          'to notice when this has happened.'],
+         items=[
+          ('Anything a system treats as evidence about a person is a '
+           '____________.', None, 'signal',
+           'Paragraph 1: how long you looked, what time you opened '
+           'it.'),
+          ('A signal processed into a number the system can use is a '
+           '____________.', None, 'feature',
+           'Paragraph 3: scroll depth against average scroll depth '
+           'over thirty days.'),
+          ('When the system’s output becomes the next signal, a '
+           '____________ loop has closed.', None, 'feedback',
+           'Paragraph 4: the profile that predicted the behaviour has '
+           'now caused it.')]),
     dict(heading='Signals, inference and the picture they make',
          kind='Article', task='Matching information, diagram labelling and True/False/Not Given',
          band='gt_work', qtype='Questions 30-35',
@@ -848,6 +1795,56 @@ UNIT = dict(
          instruct='  Write at least 150 words in about 20 minutes.',
          lines=14)],
    gram=dict(
+    ref='L20',
+    context=[
+     'From the article you have just read:',
+     'Only the aggregated features are retained. The raw events '
+     'themselves are discarded within thirty days, which sounds '
+     'reassuring and is not, because the features are the part that '
+     'describes you. The notice says the company retains only what is '
+     'necessary; it does not say that only the company may see it, nor '
+     'that it retains it only for the stated purpose.'],
+    notice=[
+     ('The word only appears four times and in different positions. '
+      'Copy out two of them and say what each limits.',
+      'Only the aggregated features - limits WHICH data; retains only '
+      'what is necessary - limits HOW MUCH'),
+     ('What is the difference between "only the company may see it" '
+      'and "the company may only see it"?',
+      'the first limits who, the second limits what may be done')],
+    noticetask='Answer both from the paragraph above, which is from '
+               'the passage you read earlier in this cycle.',
+    contrast='Only, even, just and at least attach to whatever follows '
+             'them, and moving one moves the meaning of the whole '
+             'sentence. Only the regulator may inspect the data means '
+             'nobody else may. The regulator may only inspect the data '
+             'means they may do nothing else with it. The regulator may '
+             'inspect only the data means not the code and not the '
+             'staff. All three are grammatical and they are three '
+             'different rules. In speech, stress does this work; in '
+             'writing, position does, and a misplaced only is one of '
+             'the few errors that changes what you have promised '
+             'rather than merely how you sound.',
+    task2='Rewrite each so that only limits the thing named in '
+          'brackets.',
+    items2=[
+     ('The regulator may inspect the data. (nobody else may) '
+      '____________',
+      None, 'Only the regulator may inspect the data.'),
+     ('The regulator may inspect the data. (and do nothing else) '
+      '____________',
+      None, 'The regulator may only inspect the data.'),
+     ('The regulator may inspect the data. (not the code) '
+      '____________',
+      None, 'The regulator may inspect only the data.'),
+     ('Correct: I only read the first page. (I read nothing else) '
+      '____________', None, 'I read only the first page.')],
+    task3='Now write it carefully. Draft three sentences about what an '
+          'organisation may do with your data, using only in three '
+          'different positions so that each sentence makes a different '
+          'promise. Then write one sentence saying which of the three '
+          'you would want in a notice, and why. About seventy words.',
+    items3=8,
     point='Qualification and scope: only, even, at least',
     fix=dict(
      text=('Only the figure for 2019 was published, so the earlier years '
@@ -909,6 +1906,231 @@ UNIT = dict(
   dict(
    sub='Why anonymised data is not anonymous',
    step=4,
+   notes=dict(
+    serves='Matching headings and Yes/No/Not Given, Reading Part 3, on '
+           'a seven-hundred-word passage; Task 2 planning',
+    because='Band 6 essays are planned by writing down the first two '
+            'ideas that arrive and arguing them; the band 7 difference '
+            'is a plan with more ideas than the essay needs and a '
+            'deliberate discarding',
+    skill='Generating ideas fast and then throwing most of them away '
+          'on a stated criterion',
+    evidence='Unit 21 cycle 5 taught reading the question; unit 25 '
+             'cycle 2 taught sorting it by form; what remains between '
+             'the rubric and the first sentence is the plan, and the '
+             'audit found it taught in one cycle of the ten',
+    watch='Learners will plan three ideas and use three. Ask for ten '
+          'in four minutes and then ask which two survive, and why '
+          'those two',
+    time='90 minutes, or 70 without the free grammar production'),
+   lead=dict(
+    title='Eighty-seven per cent, from three facts',
+    body='A postcode, a date of birth and a sex identify most people '
+         'in most countries, and none of the three is a name. That '
+         'single finding is why anonymised data is a weaker promise '
+         'than it sounds, and it is the subject of the hardest reading '
+         'in this unit. It is also an unusually good Task 2 subject, '
+         'because the obvious positions - publish nothing, publish '
+         'everything - are both clearly wrong, and the interesting '
+         'answers are in between.',
+    task='Answer these before you read, and write quickly: you will be '
+         'asked to do the same thing against a clock later in the '
+         'cycle.',
+    qs=['What could be worked out about you from your postcode, your '
+        'birthday and nothing else?',
+        'Should medical records be published for research if names are '
+        'removed?',
+        'Who should decide what counts as anonymous enough?',
+        'If making data safe makes it useless, what should be done '
+        'with it?']),
+   vocabwork=dict(
+    title='The vocabulary of identifying somebody',
+    body='Twelve words, and the first four are a framework rather than '
+         'a list: identifier, quasi-identifier, linkage, '
+         're-identification. Learn those four and the whole passage '
+         'opens, because every paragraph in it is about one of them. '
+         'Three of the remaining eight you met in unit 23 cycle 5, '
+         'where the subject was a summary hiding a spread.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='identifying a person in a dataset',
+                sub='cycle 4 · four of these are the framework',
+                branches=[('what identifies',
+                           ['identifier', 'quasi-identifier',
+                            'linkage', 're-identification']),
+                          ('making it safer',
+                           ['aggregation', 'generalisation', 'noise',
+                            'suppression']),
+                          ('what is lost',
+                           ['granularity', 'utility', 'accuracy',
+                            'resolution']),
+                          ('the arithmetic',
+                           ['combinatorial', 'group size',
+                            'uniqueness', 'electoral register'])],
+                note='Linkage is the operation that does the damage: '
+                     'joining two harmless datasets so that each '
+                     'supplies what the other lacks. Nothing in '
+                     'either file was identifying and the join is.'),
+    figure2=dict(kind='cline', teaches='scale',
+                 title='How anonymous is it?',
+                 sub='cycle 4 · the words the passage uses, in order',
+                 left='fully identified', right='mathematically safe',
+                 items=[('named', 0.02),
+                        ('pseudonymised', 0.2),
+                        ('de-identified', 0.36),
+                        ('aggregated to groups of five', 0.56),
+                        ('generalised and noised', 0.76),
+                        ('provably private', 0.96)],
+                 note='Only the last of these is a guarantee and only '
+                      'the first two are in common use. Everything '
+                      'between is a judgement about how much risk is '
+                      'acceptable, which is why the argument never '
+                      'ends.'),
+    task='Complete each sentence with a word from this cycle.',
+    items=[
+     ('A fact that identifies nobody alone but does in combination is '
+      'a ____________.', None, 'quasi-identifier'),
+     ('Joining two datasets so each supplies what the other lacks is '
+      '____________.', None, 'linkage'),
+     ('Replacing an exact age with a ten-year band is '
+      '____________.', None, 'generalisation'),
+     ('Deliberately adding small errors is adding ____________.',
+      None, 'noise'),
+     ('How much detail survives the process is its '
+      '____________.', None, 'granularity'),
+     ('How useful the data still is afterwards is its '
+      '____________.', None, 'utility'),
+     ('Replacing a name with a code, reversibly, is '
+      '____________.', None, 'pseudonymisation'),
+     ('Being the only person in the data with a combination is '
+      '____________.', None, 'uniqueness')]),
+   builder=dict(
+    skill='Task 2 planning: generate, then discard',
+    qkind='skill',
+    explain='The four minutes between reading a Task 2 prompt and '
+            'writing the first sentence decide more of the mark than '
+            'any four minutes afterwards, and most candidates spend '
+            'them writing down the first two ideas that arrive and '
+            'then arguing those. The trouble with your first two ideas '
+            'is not that they are bad; it is that they are the two '
+            'everybody has, so an essay built on them is competent and '
+            'ordinary. The method is to separate generating from '
+            'choosing, because doing both at once does neither well. '
+            'Spend ninety seconds writing down as many ideas as you '
+            'can without judging any of them - eight or ten, bad ones '
+            'included, in note form. Then spend ninety seconds '
+            'discarding on a stated criterion: which two can I '
+            'actually support with an example, which two does my '
+            'position need, which two are different from each other '
+            'rather than the same idea twice. Keep two, or three for '
+            'a longer essay. The discarded six are not wasted: they '
+            'are what makes the kept two the strongest rather than '
+            'merely the first.',
+    worked=[
+     'PROMPT: anonymised data should be published freely for research. '
+     'To what extent do you agree?',
+     'Ninety seconds of generating: research gains; privacy loss; '
+     're-identification risk; who audits; consent was never given; '
+     'the poor are over-represented in public datasets; anonymity is '
+     'not binary; researchers are not the threat; commercial reuse; '
+     'medicine has saved lives this way.',
+     'Ten ideas, written badly, in ninety seconds. Now the criterion: '
+     'which can I support with something concrete from this unit, and '
+     'which two are genuinely different?',
+     'Keep: anonymity is not binary - supported by the eighty-seven '
+     'per cent finding. And commercial reuse - supported by the '
+     'linkage example. Discard the rest.',
+     'Notice that "research gains" and "medicine has saved lives" are '
+     'the same idea, and that both were in the first three I thought '
+     'of. That is what the discarding step is for.'],
+    figure=dict(kind='matrix', teaches='comparison',
+                title='Ten ideas, two survivors',
+                sub='cycle 4 · the criterion, applied',
+                cols=['Can I support it?', 'Is it distinct?',
+                      'Keep or discard?'],
+                rows=['Anonymity is not binary',
+                      'Research saves lives',
+                      'Commercial reuse',
+                      'Consent was never given'],
+                cells=[['yes - the 87% finding', 'yes', 'keep'],
+                       ['yes - but general', '', ''],
+                       ['yes - the linkage case', 'yes', 'keep'],
+                       ['', '', '']],
+                note='Five blanks. Fill them before you look at the '
+                     'worked example, and notice how often "is it '
+                     'distinct?" is the column that does the '
+                     'discarding.'),
+    task='For each pair of ideas, say whether they are DISTINCT or '
+         'THE SAME IDEA TWICE.',
+    items=[
+     ('Research saves lives / medicine has advanced this way.',
+      None, 'same idea twice'),
+     ('Anonymity is not binary / re-identification is possible.',
+      None, 'same idea twice'),
+     ('Consent was never given / the poor are over-represented.',
+      None, 'distinct'),
+     ('Commercial reuse / who audits the researchers.',
+      None, 'distinct'),
+     ('Privacy is a right / people care about privacy.',
+      None, 'same idea twice'),
+     ('Noise costs accuracy / safe data is useless data.',
+      None, 'same idea twice')],
+    note='Four of the six pairs are the same idea wearing two coats, '
+         'and in each case both halves would have arrived in the '
+         'first thirty seconds of planning. An essay with two body '
+         'paragraphs making one point is the commonest band 6 essay '
+         'there is, and this exercise is the only reliable way to '
+         'catch it before it is written.'),
+   figures=[
+    dict(kind='skeleton', teaches='text-structure',
+         title='Seven hundred words, six functions',
+         sub='cycle 4 · build your own from first and last lines',
+         paras=[('A', 'claim', 'Anonymous is not a property of a '
+                 'file'),
+                ('B', 'definition', 'Identifier, quasi-identifier, '
+                 'linkage'),
+                ('C', 'evidence', 'Eighty-seven per cent, from three '
+                 'fields'),
+                ('D', 'example', 'Two public datasets, joined'),
+                ('E', 'concession', 'What generalisation and noise '
+                 'can do'),
+                ('F', 'consequence', 'Why the question is one of '
+                 'degree')],
+         note='B defines and D illustrates, and both are full of '
+              'datasets - the pair from unit 22 cycle 4. C is the '
+              'paragraph to read whole, because every other '
+              'paragraph points at its number.'),
+   ],
+   advice='Spend four minutes planning a Task 2 and split them in '
+          'half: ninety seconds generating without judging, ninety '
+          'seconds discarding on a criterion you can state. The '
+          'commonest planning failure is not having too few ideas, it '
+          'is keeping the first two - which are the two every other '
+          'candidate also had, so the essay is correct and '
+          'indistinguishable.',
+   debrief=dict(
+    read=['The heading naming the two public datasets belongs to '
+          'paragraph D and not to paragraph B, which defines linkage '
+          'and uses them as its example. That is unit 22 cycle 4 '
+          'again, and it is the pair that costs most.',
+     'The Yes/No/Not Given statement about researchers is one the '
+     'passage reports from a critic and answers in the same '
+     'paragraph.',
+     'Statement 54 says anonymisation "cannot work" and the passage '
+     'says it is a matter of degree. Scope, not content - which is '
+     'unit 23 cycle 4.'],
+    listen=['Dr Rossi gives the figure eighty-seven and then a second '
+            'figure for a different country. The question names the '
+            'country.',
+     'She says "anyone who tells you otherwise is selling something", '
+     'which is her view and sounds like a report. There is no '
+     'handover phrase.']),
+   outside='Generating and then discarding is how any decision with '
+           'more than two options should be made, and almost nobody '
+           'does it, because the first idea arrives with a feeling of '
+           'rightness that the eighth does not. The eighth is often '
+           'better.',
+   recycled=['linkage', 'aggregate', 'spread', 'evidence',
+             'granularity', 'inferred'],
    read=[
     dict(heading='Three fields and a name',
          kind='Academic passage',
@@ -1036,6 +2258,52 @@ UNIT = dict(
            'Paragraph 6, because something unrelated may be published in '
            'between.')])],
    listen=[
+    dict(preview=True,
+         heading='A statistician on the word anonymous',
+         part='Preview', task='Sentence completion',
+         band='lpre', qtype='Questions P1-P3',
+         why='The lecture you are about to hear takes the word '
+             'anonymous apart. Ninety seconds now and it stops being a '
+             'surprise.',
+         script=[
+          ('Student', 'If they take the names off, it is anonymous. '
+                      'That is what anonymous means.'),
+          ('Dr Rossi', 'It is what the word means and it is not what '
+                       'the data is. Give me a postcode, a date of '
+                       'birth and a sex and I will identify about '
+                       'eighty-seven per cent of the population of this '
+                       'country.'),
+          ('Student', 'From three things that are not names.'),
+          ('Dr Rossi', 'From three things nobody thinks of as '
+                       'identifying. We call them quasi-identifiers, '
+                       'and the arithmetic is simple: each one divides '
+                       'the population, and three divisions leave very '
+                       'small groups. Often a group of one.'),
+          ('Student', 'So what would make it actually anonymous?'),
+          ('Dr Rossi', 'Removing enough that the smallest group is '
+                       'still large. Which means removing the detail '
+                       'that made the data worth publishing, and that '
+                       'is the trade nobody wants to make out loud.'),
+          ('Student', 'Can you not add noise?'),
+          ('Dr Rossi', 'You can, and it works, and it costs accuracy '
+                       'in proportion. There is no version of this '
+                       'where you keep the usefulness and lose the '
+                       'risk. Anyone who tells you otherwise is '
+                       'selling something.')],
+         items=[
+          ('Dr Rossi says a postcode, a date of birth and a sex '
+           'identify about ____________ per cent of the population.',
+           None, 'eighty-seven',
+           'Her first long answer, and it is the figure the lecture '
+           'returns to.'),
+          ('Things nobody thinks of as identifying are called '
+           '____________.', None, 'quasi-identifiers',
+           'Her second answer, with the arithmetic of dividing the '
+           'population.'),
+          ('Adding noise works but costs ____________ in proportion.',
+           None, 'accuracy',
+           'Her last turn: there is no version where you keep the '
+           'usefulness and lose the risk.')]),
     dict(heading='A lecture on re-identification', part='Part 4',
          task='A lecture on anonymised data · matching, sentence completion and multiple choice', band='l4',
          qtype='Questions 49-54',
@@ -1205,6 +2473,59 @@ UNIT = dict(
                   'will write it in cycle 5.',
          lines=12)],
    gram=dict(
+    ref='L9',
+    context=[
+     'From the passage you have just read:',
+     'No study has yet shown that a properly generalised dataset can be '
+     're-identified at scale. That is a negative result and it licenses '
+     'less than it is usually taken to license. It does not show that '
+     'such a dataset is safe; it shows that nobody has published a '
+     'method, which is a fact about the literature rather than about '
+     'the data. The honest summary is that the risk is unquantified, '
+     'not that it is low.'],
+    notice=[
+     ('Find the sentence that says what the negative result does NOT '
+      'establish.',
+      'It does not show that such a dataset is safe'),
+     ('What does the writer say the result is a fact about?',
+      'the literature, rather than the data')],
+    noticetask='Answer both from the paragraph above, which you met '
+               'earlier in this cycle.',
+    contrast='A negative result - no study has shown, no evidence was '
+             'found, the trial found no effect - is one of the most '
+             'misquoted things in English, and the misquotation is '
+             'always the same: absence of evidence read as evidence of '
+             'absence. The structures that keep it honest are worth '
+             'memorising. No study has shown X; it does not follow '
+             'that X is false. The trial found no effect, which is '
+             'consistent with a small effect it was too small to '
+             'detect. The risk is unquantified rather than low. You '
+             'met the parent of this move in unit 22 cycle 4 - it does '
+             'not follow that - and this is the version for evidence '
+             'rather than for aggregates.',
+    task2='Rewrite each so that the negative result licenses only what '
+          'it should.',
+    items2=[
+     ('No study has found a risk, so it is safe. ____________',
+      None, 'No study has found a risk; it does not follow that there '
+      'is none.'),
+     ('The trial found no effect, so the drug does not work. '
+      '____________',
+      None, 'The trial found no effect, which is consistent with an '
+      'effect too small for it to detect.'),
+     ('Nobody has re-identified it, so it cannot be done. '
+      '____________',
+      None, 'Nobody has published a method; the risk is unquantified '
+      'rather than low.'),
+     ('Correct: there is no evidence of harm, therefore there is '
+      'evidence of no harm. ____________',
+      None, 'absence of evidence is not evidence of absence')],
+    task3='Now write it. Take the negative result in this cycle - no '
+          'published method for re-identifying generalised data - '
+          'state it fairly, say exactly what it does and does not '
+          'license, and give the honest summary. Eighty to a hundred '
+          'words.',
+    items3=10,
     point='Negative results and what they license',
     explain=('A result showing that something cannot be done supports some '
              'conclusions and not others. These patterns state a negative '
@@ -1257,7 +2578,303 @@ UNIT = dict(
   dict(
    sub='Whether rules can keep up',
    step=5,
+   notes=dict(
+    serves='Matching information and Yes/No/Not Given, Reading Part 3; '
+           'Task 2, discuss both views and give your own opinion',
+    because='Band 6 body paragraphs do two or three jobs at once - '
+            'they argue, concede, illustrate and digress inside eight '
+            'lines - and Coherence and Cohesion is marked on whether a '
+            'reader can say what each paragraph was for',
+    skill='Building a paragraph that does one job, with a topic '
+          'sentence that names the job',
+    evidence='Phase 4: the band 6.5 models average 2.4 distinct jobs '
+             'per body paragraph against 1.1 in the band 9 models, '
+             'which is most of the Coherence gap',
+    watch='Learners will write a paragraph that starts on regulation '
+          'and ends on consent. Ask them to write its topic sentence '
+          'afterwards and watch them need two',
+    time='95 minutes, or 70 without the free grammar production'),
+   lead=dict(
+    title='Precise and obsolete, or durable and unclear',
+    body='This is the last cycle of the first half of the book, and '
+         'the argument in it is one you have now met three times in '
+         'three subjects: a genuine trade-off where both options are '
+         'defensible and the usual public debate pretends one of them '
+         'is obviously right. In unit 22 it was the market and the '
+         'worker; in unit 24 it was the hazard and the exposure; here '
+         'it is a rule you can understand and a rule that survives. '
+         'The writing task is correspondingly the hardest in the book '
+         'so far, which is why this cycle is about the paragraph '
+         'rather than the essay.',
+    task='Answer these before you read. Look back at what you wrote at '
+         'the start of cycle 1, and at unit 22 cycle 5.',
+    qs=['Would you rather have a rule you can understand or one that '
+        'will still apply in ten years?',
+        'Who benefits from a vague rule? Who from a precise one?',
+        'Is "we will decide in court" an acceptable way to run a '
+        'system?',
+        'Has anything in this unit changed what you thought at the '
+        'start of it? Which cycle did it?']),
+   vocabwork=dict(
+    title='The vocabulary of rules and their limits',
+    body='The last vocabulary set of the first half of the book. '
+         'Twelve words about how rules are written, enforced and '
+         'avoided, and they transfer to any regulated activity - '
+         'building, medicine, finance, food. Five of them you met in '
+         'unit 24 cycle 5, where the subject was liability for a '
+         'flood.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='a rule, and the gap around it',
+                sub='cycle 5 · five of these are from unit 24 cycle 5',
+                branches=[('how it is written',
+                           ['statute', 'technology-neutral',
+                            'drafting', 'definition']),
+                          ('how it is applied',
+                           ['enforcement', 'guidance', 'inspect',
+                            'test case']),
+                          ('how it is avoided',
+                           ['loophole', 'workaround',
+                            'letter of the law', 'forum shopping']),
+                          ('what it costs',
+                           ['compliance burden', 'legal certainty',
+                            'chilling effect', 'diffuse harm'])],
+                note='A diffuse harm is one spread so thinly across so '
+                     'many people that nobody has enough at stake to '
+                     'complain. It is the reason privacy law is '
+                     'enforced by regulators rather than by '
+                     'individuals, and it applies equally to pollution '
+                     'and to small overcharging.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 5 · and the last word family of the half',
+                 rows=[(('en-force', 2), ('en-force-ment', 2), '',
+                        ('en-force-a-ble', 2), ''),
+                       (('com-ply', 2), ('com-pli-ance', 2), '',
+                        ('com-pli-ant', 2), ''),
+                       (('reg-u-late', 1), ('reg-u-la-tion', 3),
+                        ('reg-u-la-tor', 1), ('reg-u-la-to-ry', 1),
+                        ''),
+                       (('in-ter-pret', 2), ('in-ter-pre-ta-tion', 4),
+                        '', '', ''),
+                       ('', ('cer-tain-ty', 1), '', ('cer-tain', 1),
+                        ('cer-tain-ly', 1))],
+                 note='Comply takes with: comply with the rule, never '
+                      'comply the rule. Regulate takes a direct '
+                      'object. Both are tested and the first is '
+                      'wrong about half the time at this band.'),
+    task='Complete each sentence with a word from this cycle, in the '
+         'right form.',
+    items=[
+     ('A rule describing conduct rather than a mechanism is '
+      '____________.', None, 'technology-neutral'),
+     ('A gap that lets somebody obey the words and defeat the purpose '
+      'is a ____________.', None, 'loophole'),
+     ('Knowing in advance whether you have broken a rule is legal '
+      '____________.', None, 'certainty'),
+     ('A harm spread so thinly nobody complains is ____________.',
+      None, 'diffuse'),
+     ('The noun from comply is ____________.', None, 'compliance'),
+     ('The preposition after comply is ____________.', None, 'with'),
+     ('The cost to everybody of obeying a rule is the compliance '
+      '____________.', None, 'burden'),
+     ('A case brought deliberately to settle what a rule means is a '
+      '____________ case.', None, 'test')]),
+   builder=dict(
+    skill='Task 2: one paragraph, one job',
+    qkind='skill',
+    explain='Coherence and Cohesion is a quarter of the Task 2 mark '
+            'and it is not mainly about linking words, which is what '
+            'most candidates spend their effort on. It is about '
+            'whether a reader can say, after each paragraph, what that '
+            'paragraph was for. A band 6 body paragraph typically does '
+            'two or three jobs: it states a view, concedes something, '
+            'gives an example and then drifts into the next point, and '
+            'because every sentence is relevant nothing feels wrong '
+            'while writing it. The test is brutal and takes ten '
+            'seconds. After you have written a paragraph, try to write '
+            'its topic sentence in one clause. If you need two clauses '
+            'joined by and, the paragraph was two paragraphs. The '
+            'discipline that prevents it: decide the job before you '
+            'write - argue, concede, illustrate, compare, qualify - '
+            'write the topic sentence naming it, and then let every '
+            'other sentence in the paragraph serve that job or go '
+            'somewhere else. Four body paragraphs each doing one job '
+            'is clearer than three doing two, and shorter.',
+    worked=[
+     'A band 6 paragraph: “Regulation is necessary because companies '
+     'will not restrain themselves, although it is true that rules '
+     'become outdated, and for example the cookie rules did nothing '
+     'about fingerprinting, which shows that we should think about '
+     'how rules are written.”',
+     'Try the topic sentence: “Regulation is necessary AND rules '
+     'become outdated AND the drafting matters.” Three clauses, so '
+     'three jobs.',
+     'Rewritten as one job: “Regulation is necessary because the harm '
+     'here is diffuse: no individual loses enough to sue, so no '
+     'individual will. The whole of privacy law follows from that '
+     'single fact about the shape of the damage.”',
+     'One claim, one reason, one consequence. The concession about '
+     'obsolescence is a real point and it is the next paragraph’s '
+     'job, where it will get the space it deserves.'],
+    figure=dict(kind='langbank', teaches='useful-language',
+                title='Topic sentences that name the job',
+                sub='cycle 5 · one clause each, on purpose',
+                groups=[('arguing',
+                         ['The case for X rests on',
+                          'X is necessary because',
+                          'The decisive consideration is',
+                          'What settles this is'],
+                         'Regulation is necessary because the harm '
+                         'here is diffuse.'),
+                        ('conceding',
+                         ['There is real force in the objection that',
+                          'The strongest case against is',
+                          'This is true as far as it goes',
+                          'Granted'],
+                         'There is real force in the objection that '
+                         'rules naming a technology are obsolete '
+                         'within a decade.'),
+                        ('qualifying',
+                         ['This holds only where',
+                          'The claim is narrower than it looks',
+                          'Two conditions limit this',
+                          'It does not follow that'],
+                         'This holds only where a regulator exists '
+                         'and is funded to act.')]),
+    task='For each paragraph opening, write how many jobs it promises '
+         'and what they are.',
+    items=[
+     ('“Regulation is necessary because the harm is diffuse.”',
+      None, 'one, arguing'),
+     ('“Regulation is necessary, although rules go out of date.”',
+      None, 'two, arguing and conceding'),
+     ('“There is real force in the objection that rules age.”',
+      None, 'one, conceding'),
+     ('“Firms resist rules and users do not read notices, so '
+      'something must change.”', None, 'two, two claims'),
+     ('“This holds only where a regulator is funded.”',
+      None, 'one, qualifying'),
+     ('“For example, the cookie rules failed, which shows drafting '
+      'matters and that neutrality is better.”',
+      None, 'two, illustrating and arguing')],
+    note='Three of the six promise two jobs, and all three would read '
+         'perfectly well in an essay. That is what makes this hard to '
+         'catch: nothing is wrong with the sentences, only with how '
+         'many things the paragraph is about to try to do.'),
+   figures=[
+    dict(kind='skeleton', teaches='text-structure',
+         title='The last passage of the half, in six boxes',
+         sub='cycle 5 · one job each, which is the lesson',
+         paras=[('A', 'context', 'How the last thirty years were '
+                 'written'),
+                ('B', 'claim', 'The choice is a trade, not a '
+                 'mistake'),
+                ('C', 'evidence', 'Cookies, fingerprinting, and ten '
+                 'years'),
+                ('D', 'concession', 'What vagueness costs the '
+                 'cautious'),
+                ('E', 'qualification', 'Where neutrality works '
+                 'anyway'),
+                ('F', 'consequence', 'What to write instead')],
+         note='Six paragraphs, six jobs, one each. Read the first '
+              'sentence of each and notice that you can name its job '
+              'from that sentence alone. That is what your own '
+              'paragraphs should do, and it is Coherence and Cohesion '
+              'in one observation.'),
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 5 · the matching-information set turns on these',
+         left='THE QUESTION SAYS', right='THE PASSAGE WROTE',
+         pairs=[('a rule that names a machine',
+                 'technology-specific drafting', 'nominalisation'),
+                ('nobody knows if they have broken it',
+                 'the absence of legal certainty', 'reformulation'),
+                ('firms move to easier countries',
+                 'forum shopping', 'hypernym'),
+                ('it is not a problem to be fixed',
+                 'a trade to be made deliberately', 'negation'),
+                ('the law was overtaken',
+                 'the statute was outpaced', 'synonym'),
+                ('small losses spread widely',
+                 'diffuse harm', 'reformulation')],
+         note='The fourth is the claim of the whole passage and the '
+              'answer to two questions. The passage refuses the '
+              'question’s own framing, which is the move you met in '
+              'unit 24 cycle 4.'),
+   ],
+   advice='Before each body paragraph, decide its job in one word - '
+          'argue, concede, illustrate, qualify - and write a topic '
+          'sentence that names it. After writing, try to summarise '
+          'the paragraph in one clause; if you need an and, you have '
+          'written two paragraphs stuck together, and Coherence and '
+          'Cohesion is where that is paid for. Four paragraphs doing '
+          'one job each beats three doing two.',
+   debrief=dict(
+    read=['The matching-information question about forum shopping has '
+          'two candidate paragraphs. One names the practice and one '
+          'gives an instance of it.',
+     'The statement that the writer prefers precise rules is NO: the '
+     'writer says explicitly that this is a trade rather than a '
+     'problem with a right answer, which is the fourth pair on the '
+     'bridge.',
+     'One statement is a fair summary of paragraph D and presents it '
+     'as the writer’s conclusion. D is a concession - the same trap '
+     'as unit 24 cycle 5, and the third time this book has set it.'],
+    listen=['The speaker lists three remedies and says the second is '
+            'the only one that has been tried. The question asks what '
+            'has been tried.',
+     'In the matching task two of the three positions are described '
+     'before anybody is named, which is why the names come last and '
+     'the answers with them.']),
+   outside='A paragraph that does one job is how anything gets read: '
+           'a report, an email that needs an answer, a complaint that '
+           'gets acted on. Most writing that fails at work fails here '
+           'rather than at the level of the sentence, and nobody '
+           'teaches it.',
+   recycled=['enforcement', 'liability', 'evidence', 'diffuse',
+             'certainty', 'compliance', 'loophole'],
    read=[
+    dict(preview=True,
+         heading='What technology-neutral means',
+         kind='Explainer box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='The last passage of the unit is an argument about how '
+             'laws are written, and it turns on one phrase that sounds '
+             'like jargon and is not.',
+         paras=[
+          'A technology-neutral rule describes what may not be done '
+          'rather than what machine may not do it. "You may not use '
+          'personal data for a purpose the person would not expect" is '
+          'technology-neutral. "You may not use cookies for tracking" '
+          'is not, because it names a mechanism, and mechanisms are '
+          'replaced every few years.',
+          'The argument for neutrality is obvious: a rule naming a '
+          'technology is obsolete the moment the technology is, and '
+          'the last thirty years have replaced the mechanism about '
+          'once a decade. A rule about cookies did nothing about '
+          'fingerprinting.',
+          'The argument against is less obvious and is the subject of '
+          'this passage. A technology-neutral rule is vague by '
+          'construction, so nobody knows whether they have broken it '
+          'until a regulator or a court says so, which can take years. '
+          'Meanwhile the cautious comply more than they need to and '
+          'the aggressive do as they like.',
+          'So the choice is between a rule that is precise and '
+          'obsolete and a rule that is durable and unclear, and the '
+          'passage argues that this is not a problem to be solved but '
+          'a trade to be made deliberately - which is the structure '
+          'you met in cycle 2 of this unit.'],
+         items=[
+          ('A technology-neutral rule describes what may not be '
+           '____________ rather than naming a mechanism.',
+           None, 'done',
+           'Paragraph 1, with the cookie example.'),
+          ('The argument for neutrality is that a rule naming a '
+           'technology becomes ____________.', None, 'obsolete',
+           'Paragraph 2: the mechanism has been replaced about once a '
+           'decade.'),
+          ('The argument against is that such a rule is '
+           '____________ by construction.', None, 'vague',
+           'Paragraph 3, so nobody knows whether they have broken it '
+           'until a court says so.')]),
     dict(heading='A law written for files, applied to inferences',
          kind='Academic passage',
          task='Matching information, Yes/No/Not Given and sentence completion',
@@ -1564,6 +3181,58 @@ UNIT = dict(
                   'outline.',
          lines=18)],
    gram=dict(
+    ref='L20',
+    context=[
+     'From the passage you have just read:',
+     'The statute says that data may be processed only for the purpose '
+     'for which it was collected. It does not say that it may be '
+     'collected only for a stated purpose, nor that only the collector '
+     'may process it. Three sentences, three different rules, and the '
+     'drafter chose one of them - which is why a case about this took '
+     'four years to reach a court and why the answer surprised '
+     'everybody when it arrived.'],
+    notice=[
+     ('The writer gives three positions for the word only. Copy out '
+      'the first two and say what each limits.',
+      'processed only for the purpose - limits the USE; collected '
+      'only for a stated purpose - limits the COLLECTION'),
+     ('Why does the writer say the drafter chose?',
+      'because the three sentences are three different rules and the '
+      'wording settles which')],
+    noticetask='Answer both from the paragraph above, which is from '
+               'the passage you read earlier in this cycle.',
+    contrast='You met the scope of only in cycle 3 of this unit, in a '
+             'privacy notice. Here it is doing the same work in a '
+             'statute, where the consequences are measured in years of '
+             'litigation. The repair, when you find an ambiguous one '
+             'in your own writing, is the same in both cases: move the '
+             'word so that it stands immediately before what it '
+             'limits, or rewrite with a cleft - it is only the '
+             'collector who may process it. The cleft is longer and '
+             'completely unambiguous, which is why legal drafting '
+             'uses it and why it is worth having in a Task 2 sentence '
+             'whose meaning matters.',
+    task2='Rewrite each so the scope is unambiguous, using a cleft '
+          'where the position alone will not do it.',
+    items2=[
+     ('The company may only process your data. (and do nothing else '
+      'with it) ____________',
+      None, 'The company may only process your data, and may not '
+      'share or sell it.'),
+     ('Only the company may process your data. (use a cleft) '
+      '____________',
+      None, 'It is only the company that may process your data.'),
+     ('Correct: I only gave them my email. (nothing else) '
+      '____________', None, 'I gave them only my email.'),
+     ('The data may be used only for research. (use a cleft) '
+      '____________',
+      None, 'It is only for research that the data may be used.')],
+    task3='Now write it where it matters. Draft the one sentence you '
+          'would want in a privacy notice, limiting what an '
+          'organisation may do with data about you. Then write the '
+          'same sentence with only in a different position, and one '
+          'sentence saying what changed. About eighty words.',
+    items3=10,
     point='Scope ambiguity and its repair',
     explain=('A sentence whose scope is unclear is the commonest way a '
              'careful argument reads as a loose one. Repair it by saying what '

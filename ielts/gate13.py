@@ -51,7 +51,7 @@ BINDING = set()
 # copy it, so the gate has to be bindable at unit granularity too.
 # A unit in BINDING_UNITS fails the build on its own account even
 # while its book is still open.
-BINDING_UNITS = {21, 22, 23}
+BINDING_UNITS = {21, 22, 23, 24, 25}
 
 
 def load(name):
@@ -105,6 +105,7 @@ def audit_vol(vol, rng, allfields):
     refs = load(REFS)
 
     # ---- 1. recycling: half of a unit's words come back later in the book
+    open_now = []
     later = {}
     for i, (n, U) in enumerate(us):
         rest = set()
@@ -118,9 +119,25 @@ def audit_vol(vol, rng, allfields):
         back = sum(1 for w in tg
                    if any(p in later[n] for p in WORD.findall(w.lower())))
         share = 100.0 * back / len(tg)
-        if share < RECYCLE_FLOOR and n != us[-1][0]:
+        # A unit's recycling is measured against the units that come
+        # AFTER it, so it cannot be judged until those units carry their
+        # rebuilt teaching prose - which is where a word gets used again.
+        # Measuring unit 24 against units 25 to 30 while 26 to 30 are
+        # still the old content would fail a unit for somebody else's
+        # unfinished work. The last unit in a book is exempt for the same
+        # reason: nothing comes after it.
+        later_units = [m for m, _ in us[i + 1:]]
+        judgeable = (later_units
+                     and all(m in BINDING_UNITS for m in later_units))
+        if share < RECYCLE_FLOOR and judgeable:
             bad.append('u%d: %.1f%% of %d target words reappear later, '
                        'want %.0f%%' % (n, share, len(tg), RECYCLE_FLOOR))
+        elif share < RECYCLE_FLOOR and later_units:
+            open_now.append('u%d: %.1f%% recycling, not yet judgeable - '
+                            'units %s are not rebuilt'
+                            % (n, share,
+                               ', '.join(str(m) for m in later_units
+                                         if m not in BINDING_UNITS)))
 
     # ---- 2 and 3. the grammar syllabus and its reference
     seen = {}
@@ -189,7 +206,7 @@ def audit_vol(vol, rng, allfields):
     if len(own) < MIN_OWN_FIELDS:
         bad.append('vol %d owns %d topic field(s) found nowhere else in the '
                    'series, want %d' % (vol, len(own), MIN_OWN_FIELDS))
-    return bad
+    return bad + ['(not yet judgeable) ' + o for o in open_now]
 
 
 def report(only=None, detail=False):
@@ -212,14 +229,16 @@ def report(only=None, detail=False):
         if not detail and len(fails) > 4:
             print('     ... and %d more' % (len(fails) - 4))
         bad += fails
+        fails_bind = [f for f in fails
+                      if not f.startswith('(not yet judgeable)')]
         if vol in BINDING:
-            binding += fails
+            binding += fails_bind
         else:
             # a bound unit answers for its own failures even while the rest
             # of its book is still open
             pre = tuple('u%d:' % n for n in BINDING_UNITS) + \
                   tuple('u%d ' % n for n in BINDING_UNITS)
-            binding += [f for f in fails if f.startswith(pre)]
+            binding += [f for f in fails_bind if f.startswith(pre)]
     return bad, binding
 
 

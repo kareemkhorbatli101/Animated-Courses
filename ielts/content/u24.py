@@ -19,11 +19,323 @@ UNIT = dict(
    'less than campaigners claim and a great deal more than it was ten years '
    'ago.'),
 
+ field='climate',
+ unitmap=dict(kind='unitmap', teaches='navigation', n=24,
+              theme='Climate and Adaptation',
+              rows=[('Flood protection where you live',
+                     'Listening: what gets repeated is what gets asked',
+                     'Matching features · multiple choice · note '
+                     'completion · Parts 1-2'),
+                    ('What people do about it',
+                     'Part 3: following two speakers who half agree',
+                     'Yes/No/Not Given · matching features · Part 3'),
+                    ('A warming record',
+                     'Task 1: two series, two units, one answer',
+                     'True/False/Not Given · matching information · '
+                     'Task 1 Academic'),
+                    ('Attributing one event',
+                     'Finding information fast in seven hundred words',
+                     'Matching headings · Yes/No/Not Given · Part 4'),
+                    ('What attribution cannot settle',
+                     'Matching information: scanning a paragraph for '
+                     'its job',
+                     'Matching information · Yes/No/Not Given · Task '
+                     '2')],
+              note='The unit runs from an airbrick to a courtroom. '
+                   'Cycles 1, 3 and 5 open with a reading preview and '
+                   '2 and 4 with a listening one, and the vocabulary '
+                   'of evidence from unit 23 is used throughout '
+                   'without being retaught.'),
+ sceneintro='Eight things from a house at risk of flooding, and the '
+            'words for them. Six are used in cycle 1 and five come back '
+            'in cycle 2, where the subject is who pays for them.',
+ scene=dict(kind='scene', teaches='activate',
+            title='Unit 24 · a house on a floodplain',
+            instr='Write the number of each thing beside its word. Two '
+                  'words in the bank are not in the picture.',
+            cells=[('city', 'embankment'), ('leaf', 'watercourse'),
+                   ('brief', 'search document'),
+                   ('envelope', 'sale particulars'),
+                   ('clock', 'warning time'),
+                   ('note', 'flood plan'), ('chart', 'risk map'),
+                   ('cpu', 'airbrick')],
+            bank=['embankment', 'watercourse', 'search document',
+                  'sale particulars', 'warning time', 'flood plan',
+                  'risk map', 'airbrick', 'gully', 'sandbag'],
+            answers=['embankment', 'watercourse', 'search document',
+                     'sale particulars', 'warning time', 'flood plan',
+                     'risk map', 'airbrick'],
+            note='Answers: 1 embankment · 2 watercourse · 3 search '
+                 'document · 4 sale particulars · 5 warning time · '
+                 '6 flood plan · 7 risk map · 8 airbrick. Not in the '
+                 'picture: gully, sandbag.'),
+ puzzle=dict(kind='puzzle', teaches='curiosity',
+             title='Who moves, and who does not',
+             question='The group most likely to be flooded is the '
+                      'least likely to move. Which group is it, and '
+                      'what would you need to know before deciding '
+                      'why?',
+             bars=[('Owners, high risk', 9), ('Owners, low risk', 4),
+                   ('Renters, high risk', 31), ('Renters, low risk', 26),
+                   ('Social tenants', 3)],
+             mark=4, ylab='% who moved within five years of a flood',
+             note='Cycle 2 answers this. The answer has almost nothing '
+                  'to do with how much anybody minds being flooded, '
+                  'which is why it is worth guessing at before you '
+                  'read.'),
  cycles=[
   dict(
    sub='Flood protection where you live',
    step=1,
+   notes=dict(
+    serves='Matching features and multiple choice, Reading Parts 1-2; '
+           'note and table completion in Listening Parts 1-2',
+    because='Listening note completion is lost on the gap the candidate '
+            'was not ready for: the speaker says the answer once, in '
+            'the middle of a sentence, and the candidate is still '
+            'writing the previous one',
+    skill='Using the repetition in a recording - what is said twice, '
+          'spelled, or corrected is what is being asked',
+    evidence='gate10 census: note, table and flow-chart completion is '
+             'the commonest listening type in this book and the audit '
+             'found no cycle teaching how to prepare for one',
+    watch='In question 11 the speaker gives a measurement and then '
+          'repeats it as a comparison. Learners write the first form '
+          'and the gap wants the second',
+    time='75 minutes, or 55 without the free grammar production'),
+   lead=dict(
+    title='Water does not come from the river',
+    body='Most flooding in built-up places is not a river bursting. It '
+         'is rain falling on ground that cannot absorb it and running '
+         'downhill into the lowest building, which is usually somebody '
+         'who was never told they were at risk because the risk maps '
+         'show rivers. The documents in this cycle are the ones a '
+         'person actually meets - a council notice, a survey, a letter '
+         'about an airbrick - and the vocabulary in them is the '
+         'vocabulary of being warned.',
+    task='Answer these from where you live, or where you grew up.',
+    qs=['Where does the rain go where you live? Can you say?',
+        'Has anywhere you know been flooded? What was blamed?',
+        'If a map said your house was at risk, what would you do '
+        'first?',
+        'Who should pay to protect a house that was built somewhere '
+        'it should not have been?']),
+   vocabwork=dict(
+    title='The words a warning is written in',
+    body='Sixteen words from documents about water. Half of them are '
+         'physical and half are legal, and the legal half is the one '
+         'that matters: a search document and sale particulars are the '
+         'two pieces of paper that decide whether a buyer knew. You met '
+         'the register of an institution warning somebody in unit 21 '
+         'and unit 23; this is the same register with water in it.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='a house, and the water near it',
+                sub='cycle 1 · eight physical words and eight legal '
+                    'ones',
+                branches=[('where the water is',
+                           ['watercourse', 'surface water', 'gully',
+                            'floodplain']),
+                          ('what holds it back',
+                           ['embankment', 'airbrick', 'flood gate',
+                            'property-level protection']),
+                          ('the paperwork',
+                           ['search document', 'sale particulars',
+                            'risk map', 'flood plan']),
+                          ('what happens next',
+                           ['overtop', 'inundate', 'warning time',
+                            'irreplaceable'])],
+                note='Overtop is a verb and takes an object: the water '
+                     'overtopped the embankment. Learners write "the '
+                     'embankment overtopped", which reverses the '
+                     'agent and is the kind of error a listening gap '
+                     'punishes.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 1 · and note which have no verb',
+                 rows=[(('flood', 1), ('flood-ing', 1), '',
+                        ('floo-ded', 1), ''),
+                       (('pro-tect', 2), ('pro-tec-tion', 2), '',
+                        ('pro-tec-tive', 2), ''),
+                       (('in-un-date', 1), ('in-un-da-tion', 3), '',
+                        '', ''),
+                       ('', ('vul-ne-ra-bi-li-ty', 4), '',
+                        ('vul-ne-ra-ble', 1), ''),
+                       (('mi-ti-gate', 1), ('mi-ti-ga-tion', 3), '',
+                        '', '')],
+                 note='Flooding is both the event and the activity, '
+                      'and a flood is one event. A gap asking for the '
+                      'noun may want either, and the article before it '
+                      'tells you which: "a ____" wants flood, "the '
+                      'risk of ____" wants flooding.'),
+    task='Complete each sentence with a word from this cycle, in the '
+         'right form.',
+    items=[
+     ('A ditch or stream, natural or artificial, is a '
+      '____________.', None, 'watercourse'),
+     ('Rain that runs over the ground rather than into it is '
+      '____________ water.', None, 'surface'),
+     ('A vent at the base of a wall is an ____________.',
+      None, 'airbrick'),
+     ('The legal paper that should disclose flood risk to a buyer is '
+      'the ____________ document.', None, 'search'),
+     ('The verb for water rising above a barrier is to '
+      '____________ it.', None, 'overtop'),
+     ('The noun from vulnerable is ____________.',
+      None, 'vulnerability'),
+     ('Measures that reduce the damage without stopping the water are '
+      '____________.', None, 'mitigation'),
+     ('The minutes or hours between a forecast and the water is the '
+      '____________ time.', None, 'warning')]),
+   builder=dict(
+    skill='Listening: what gets repeated is what gets asked',
+    qkind='skill',
+    explain='Listening note completion is the only task in the paper '
+            'where you cannot go back, and that changes the skill '
+            'entirely: the work is done before the recording starts and '
+            'in the gaps between answers. Two habits carry most of the '
+            'marks. First, read the notes and predict - every gap has a '
+            'word class and a kind of thing, exactly as in unit 22 '
+            'cycle 1, and a gap preceded by "on" wants a day or a '
+            'surface and nothing else. Second, use the recording’s own '
+            'signals. A speaker who is about to give an answer slows '
+            'down, repeats, spells, or corrects, and those four things '
+            'are not decoration - they are there because the test is '
+            'fair and the information has to be gettable. A number said '
+            'once in the middle of a clause is usually not the answer; '
+            'a number said twice, or said and then rephrased as a '
+            'comparison, usually is. And when a speaker corrects '
+            'themselves, the second version is always the one wanted, '
+            'without exception, in every paper ever set.',
+    worked=[
+     'The notes: “Protection offered up to ____________ above floor '
+     'level.”',
+     'Predict: a measurement, probably in centimetres or metres.',
+     'The recording: “...we can protect up to six hundred millimetres, '
+     'that is about sixty centimetres, roughly knee height on most '
+     'people.”',
+     'Three forms of the same fact, which is the signal. The gap is '
+     'preceded by no unit, so it wants the whole measurement: six '
+     'hundred millimetres. Had the notes read "____ cm", the answer '
+     'would be sixty.',
+     'Notice that nothing about this required fast listening. It '
+     'required reading the gap first.'],
+    figure=dict(kind='listenmap', teaches='listening-shape',
+                title='Part 2 · where the answers sit',
+                sub='cycle 1 · one speaker, eight gaps',
+                speakers=['Officer'],
+                turns=[(0, 'welcome', False), (0, 'the risk', True),
+                       (0, 'aside', False), (0, 'the scheme', True),
+                       (0, 'a joke', False), (0, 'the cost', True),
+                       (0, 'how to apply', True), (0, 'close', False)],
+                note='Half the turns carry no answer at all. A '
+                     'monologue is not evenly loaded and the empty '
+                     'stretches are where you read the next three '
+                     'gaps.'),
+    task='For each extract, write what the answer is and which signal '
+         'told you.',
+    items=[
+     ('“...on the fourteenth - sorry, no, the fifteenth.”',
+      None, 'fifteenth, correction'),
+     ('“...that is B-R-A-C-K-E-N, Bracken.”', None, 'bracken, spelling'),
+     ('“...six hundred millimetres, about sixty centimetres.”',
+      None, 'both, rephrasing'),
+     ('“...it costs, oh, I should say around two thousand.”',
+      None, 'two thousand, slowing'),
+     ('“...Tuesdays and Thursdays, Thursdays especially.”',
+      None, 'thursdays, repetition'),
+     ('“...the gully, which as I say is the gully not the drain.”',
+      None, 'gully, contrast repeated')],
+    note='Every one of the six is a signal a speaker uses in ordinary '
+         'conversation without thinking about it. The test did not '
+         'invent them; it relies on them, which is why they are '
+         'reliable.'),
+   figures=[
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 1 · six moves the questions make',
+         pairs=[('water from the sky, not the river',
+                 'surface water flooding', 'reformulation'),
+                ('people were told', 'residents were notified',
+                 'voice'),
+                ('a house that cannot be rebuilt the same',
+                 'irreplaceable', 'hypernym'),
+                ('the wall was not high enough',
+                 'the embankment was overtopped', 'negation'),
+                ('paperwork a buyer gets', 'the search document',
+                 'nominalisation'),
+                ('time between the warning and the water',
+                 'warning time', 'synonym')],
+         note='The fourth is the one worth practising: the question '
+              'uses a negative and the passage uses a technical verb, '
+              'which is how a fifth of Reading gaps are built.'),
+   ],
+   advice='In Listening, write the answer in the gap as you hear it and '
+          'then move your eye to the next gap immediately. Candidates '
+          'lose the second answer while admiring the first. If you miss '
+          'one, leave it blank and go on - the single commonest '
+          'catastrophe in this paper is a candidate who is one gap '
+          'behind for the remaining six questions, which costs six '
+          'marks rather than one.',
+   debrief=dict(
+    read=['Two of the sources mention the embankment and only one '
+          'takes a view on whether it should be raised. That is the '
+          'matching-features problem from unit 23 cycle 1.',
+     'Question 6 asks what the notice requires and offers an option '
+     'describing what it recommends. The two verbs are four lines '
+     'apart.',
+     'The word irreplaceable appears once in the passage and the '
+     'question says "cannot be replaced like for like". That is the '
+     'third pair on the bridge.'],
+    listen=['The officer gives a date, a correction and then a '
+            'deadline. All three are dates and only the deadline is '
+            'asked for.',
+     'In question 11 the measurement is given in millimetres and then '
+     'in centimetres. The unit printed beside the gap decides which '
+     'you write, and it is printed.']),
+   outside='Reading a gap before listening for the answer is the same '
+           'habit as reading a form before filling it in, and it is '
+           'what makes the difference between an appointment kept and '
+           'an appointment missed. The signals - repetition, spelling, '
+           'correction - are how all careful speech works, not just '
+           'examinations.',
+   recycled=['eligible', 'criteria', 'notify', 'risk', 'evidence'],
    read=[
+    dict(preview=True,
+         heading='Three words from a flood notice',
+         kind='Glossary box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='Two hundred words before three hundred and fifty. These '
+             'three words are in every document in this cycle and two '
+             'of them decide, legally, who knew.',
+         paras=[
+          'Surface water flooding is rain that falls on ground it '
+          'cannot soak into and runs downhill. It has nothing to do '
+          'with a river and it is the commonest kind of flooding in '
+          'towns, which is why a house far from any water can be at '
+          'high risk and its owner be the last to know.',
+          'A floodplain is the flat land beside a watercourse that the '
+          'water occupies when there is too much of it. Building on one '
+          'is legal in most places and the word on a map is a '
+          'description, not a prohibition.',
+          'A search document is the paperwork a buyer’s solicitor '
+          'obtains before a sale. It should disclose known flood risk. '
+          'If it does not, and the risk was recorded somewhere it '
+          'should have been looked for, the question of who is liable '
+          'becomes the question the whole of cycle 2 is about.',
+          'The three words are often used as though they were one '
+          'thing. They are a cause, a place and a piece of paper, and '
+          'keeping them apart is most of what reading these documents '
+          'requires.'],
+         items=[
+          ('Rain running over ground it cannot soak into is '
+           '____________ water flooding.', None, 'surface',
+           'Paragraph 1: it has nothing to do with a river.'),
+          ('The flat land a watercourse occupies when there is too '
+           'much water is the ____________.', None, 'floodplain',
+           'Paragraph 2, which adds that the word is a description '
+           'rather than a prohibition.'),
+          ('The paperwork that should disclose known risk to a buyer '
+           'is the ____________ document.', None, 'search',
+           'Paragraph 3, and if it does not, liability is the subject '
+           'of cycle 2.')]),
     dict(heading='Flood risk and what the council will do',
          kind='Public notice', task='Multiple choice, matching features and sentence completion',
          band='gt_short', qtype='Questions 1-5',
@@ -288,6 +600,51 @@ UNIT = dict(
          instruct='  Write at least 150 words in about 20 minutes.',
          lines=14)],
    gram=dict(
+    ref='L17',
+    context=[
+     'From the council notice in this cycle:',
+     'The problem on Brack Lane is not the river. The river has not '
+     'risen above its banks in forty years and is not expected to. What '
+     'floods Brack Lane is rain falling on the new estate above it, '
+     'running off hard surfaces into a gully that was built for a '
+     'field. The remedy is therefore not a higher embankment but a '
+     'different gully.'],
+    notice=[
+     ('The notice says what the problem is not, twice, before saying '
+      'what it is. Copy out both halves of the first pair.',
+      'is not the river; What floods Brack Lane is rain falling on the '
+      'new estate'),
+     ('Why is "therefore not... but" stronger than "the remedy is a '
+      'different gully"?',
+      'because it corrects the remedy the reader was expecting')],
+    noticetask='Answer both from the notice above, which you read '
+               'earlier in this cycle.',
+    contrast='Defining by exclusion is how you correct an expectation '
+             'the reader already has, and it is worth more than a '
+             'direct statement whenever the reader is likely to be '
+             'wrong. The patterns: X is not Y, it is Z. X is not so '
+             'much Y as Z - for when Y is partly true. Not Y but Z, '
+             'where both halves must be the same grammatical shape. The '
+             'commonest error at this band is an unbalanced pair: "not '
+             'a shortage of money but it takes a long time". Make the '
+             'halves match and the sentence does the work by itself.',
+    task2='Rewrite each as a negative definition with balanced halves.',
+    items2=[
+     ('The cause is drainage, not the river. ____________',
+      None, 'The problem is not the river but the drainage.'),
+     ('Partly money, mostly time. ____________',
+      None, 'It is not so much a question of money as of time.'),
+     ('Correct: not a shortage of staff but it takes training. '
+      '____________',
+      None, 'not a shortage of staff but a shortage of training'),
+     ('Correct: it is not so much a flood than a failure to drain. '
+      '____________', None, 'not so much a flood as a failure to '
+      'drain')],
+    task3='Now write it. Take the problem on Brack Lane, or any problem '
+          'in this cycle, and write sixty to eighty words that correct '
+          'the expected explanation before giving the real one. Use the '
+          'pattern twice and balance both pairs.',
+    items3=8,
     point='Saying what a problem is not',
     explain=('A letter about a problem the reader thinks they understand has '
              'to correct them early. These patterns do it without sounding '
@@ -333,6 +690,213 @@ UNIT = dict(
   dict(
    sub='What people do about it',
    step=2,
+   notes=dict(
+    serves='Yes/No/Not Given and matching features, Reading Part 2; '
+           'multiple choice in Listening Part 3',
+    because='Part 3 is three voices half agreeing, and band 6 '
+            'candidates answer from the first thing a speaker says '
+            'because they are still deciding who is who when the '
+            'answer goes past',
+    skill='Tracking a Part 3 discussion: who concedes, who shifts, and '
+          'which sentence the answer is actually in',
+    evidence='gate10 census: Part 3 carries a quarter of the Listening '
+             'items in this book, and the audit found no cycle in '
+             'Volume 3 teaching its shape',
+    watch='In question 30 both speakers say the same thing and only '
+          'one of them means it. The other is restating it in order to '
+          'object. Expect the wrong attribution',
+    time='80 minutes, or 60 without the free grammar production'),
+   lead=dict(
+    title='Who chooses, and who pays?',
+    body='The chart at the front of this unit shows that the people '
+         'most likely to be flooded are the least likely to move, and '
+         'the reason is not stubbornness. It is that moving costs money '
+         'and choosing costs choices, and a household with neither has '
+         'neither. Cycle 1 was about the water; this cycle is about the '
+         'decisions around it, which turn out to be decisions about '
+         'money wearing the clothes of decisions about risk.',
+    task='Answer these before you read, and look again at the guess you '
+         'wrote on the puzzle chart.',
+    qs=['Should somebody who buys a house on a floodplain be insured '
+        'at the same price as everybody else?',
+        'Does your answer change if they did not know? If they could '
+        'not have known?',
+        'Who should pay to protect a street - the householders, the '
+        'council, or everybody?',
+        'Is there a difference between choosing a risk and accepting '
+        'one?']),
+   vocabwork=dict(
+    title='The vocabulary of choosing and paying',
+    body='Thirteen words about who decides and who bears the cost. '
+         'Nine of them are the same words you used about funding in '
+         'unit 22 cycle 2, because the structure of the argument is '
+         'identical - a benefit that falls on one party and a cost '
+         'that falls on another - and that is the point of meeting '
+         'them again here.',
+    figure=dict(kind='collocation', teaches='collocation',
+                node='risk', sub='cycle 2',
+                groups=[('verb + risk',
+                         ['bear the risk', 'price the risk',
+                          'transfer the risk', 'underwrite the risk',
+                          'disclose the risk']),
+                        ('adjective + risk',
+                         ['residual risk', 'known risk',
+                          'acceptable risk', 'uninsurable risk']),
+                        ('risk + preposition',
+                         ['risk to property', 'risk of flooding',
+                          'at risk from surface water'])],
+                note='Risk OF the event, risk TO the thing, at risk '
+                     'FROM the cause. Three prepositions, and the exam '
+                     'will use all three in the same set of questions.'),
+    figure2=dict(kind='cline', teaches='scale',
+                 title='How free is the choice?',
+                 sub='cycle 2 · the language the two sides use about '
+                     'the same household',
+                 left='no choice at all', right='a free decision',
+                 items=[('had nowhere else to go', 0.03),
+                        ('had little practical alternative', 0.18),
+                        ('chose from what was available', 0.38),
+                        ('accepted the risk', 0.58),
+                        ('took a view on the risk', 0.74),
+                        ('chose to live there', 0.92)],
+                 note='Every phrase on this line describes the same '
+                      'household in the same street. Which one a '
+                      'writer picks is their whole argument, and the '
+                      'matching-features questions are about exactly '
+                      'that choice.'),
+    task='Complete each with a collocation or a phrase from the cline.',
+    items=[
+     ('The party who suffers the loss is said to ____________ the '
+      'risk.', None, 'bear'),
+     ('An insurer who agrees to cover a risk ____________ it.',
+      None, 'underwrites'),
+     ('Risk that remains after protection is ____________ risk.',
+      None, 'residual'),
+     ('The preposition before the event: risk ____________ flooding.',
+      None, 'of'),
+     ('The preposition before the cause: at risk ____________ surface '
+      'water.', None, 'from'),
+     ('The weakest phrase on the cline: had nowhere else to '
+      '____________.', None, 'go'),
+     ('The phrase that implies a deliberate judgement: took a '
+      '____________ on the risk.', None, 'view'),
+     ('To tell a buyer about a known problem is to ____________ it.',
+      None, 'disclose')]),
+   builder=dict(
+    skill='Part 3: two or three voices, half agreeing',
+    qkind='skill',
+    explain='Part 3 is the hardest four minutes in the Listening paper '
+            'and it is hard for a structural reason rather than a '
+            'linguistic one. Two or three people are discussing '
+            'something they mostly agree about, so the disagreement is '
+            'small, late and polite, and the questions are all about '
+            'the disagreement. Four habits carry it. Know who is '
+            'speaking before the content starts: the first ten seconds '
+            'are introductions and they are free. Expect the '
+            'concession, because it always comes - that is fair, there '
+            'is something in that, I take the point - and expect it to '
+            'be followed immediately by the speaker’s real position, '
+            'which is where the answer is. Treat the first thing '
+            'anybody says as provisional, because Part 3 is built on '
+            'people changing their minds, and the examiner asks about '
+            'the settled view and not the opening one. And watch for '
+            'the restating objection: a speaker who repeats what the '
+            'other just said, in slightly different words, is almost '
+            'always about to disagree with it.',
+    worked=[
+     'The exchange: “MARCUS: Nobody should buy a house they know '
+     'floods. IFE: Nor should they, if they have a choice. The people '
+     'in my casework do not.”',
+     'The question: what does Ife think about buying on a floodplain?',
+     'The wrong answer is that she agrees with Marcus, because she '
+     'opens by agreeing.',
+     'The structure is concession then position. Nor should they is '
+     'the concession and the three words that follow - if they have a '
+     'choice - carry the whole of her view. The answer is in the '
+     'subordinate clause, as it usually is.'],
+    figure=dict(kind='listenmap', teaches='listening-shape',
+                title='Part 3 · the shape of the discussion',
+                sub='cycle 2 · three speakers, six questions',
+                speakers=['Tutor', 'Marcus', 'Ife'],
+                turns=[(0, 'sets it up', False),
+                       (1, 'first view', False),
+                       (2, 'concedes', False),
+                       (2, 'then objects', True),
+                       (1, 'restates it', False),
+                       (1, 'shifts', True),
+                       (0, 'tests them', False),
+                       (2, 'settles it', True)],
+                note='Marcus speaks first and is answered second; his '
+                     'settled view is five turns later. Almost no '
+                     'answer in a Part 3 is in a speaker’s opening '
+                     'turn, and the exam relies on candidates not '
+                     'knowing that.'),
+    task='For each exchange, say whose view is being asked for and '
+         'which clause carries it.',
+    items=[
+     ('“Nor should they, if they have a choice.”',
+      None, 'ife, the if-clause'),
+     ('“That is fair. It is a question about sequence.”',
+      None, 'marcus, the second sentence'),
+     ('“I agree with the principle. I am asking what happens on the '
+      'Monday.”', None, 'ife, the second sentence'),
+     ('“So the state should not permit letting there at all.”',
+      None, 'marcus, the whole turn'),
+     ('“Which removes the three flats and supplies nothing.”',
+      None, 'ife, the objection'),
+     ('“We agree about everything except who moves first.”',
+      None, 'ife, the exception')],
+    note='Five of the six carry the view in a subordinate clause or a '
+         'second sentence, and none of them in an opening statement. '
+         'That is not a coincidence in this exercise; it is how '
+         'educated people in English disagree, and the paper is '
+         'written by people who do it themselves.'),
+   figures=[
+    dict(kind='matrix', teaches='comparison',
+         title='Who chooses, who pays, who decides',
+         sub='cycle 2 · fill the blanks before the matching set',
+         cols=['Marcus', 'Ife', 'The notice'],
+         rows=['Who should bear the cost?',
+               'How free is the household’s choice?',
+               'What does each concede?',
+               'What would change their mind?'],
+         cells=[['the buyer', '', 'the council, in part'],
+                ['chose to live there', '', ''],
+                ['', 'the principle', ''],
+                ['', '', '']],
+         note='Seven blanks, and four of them are answered in '
+              'subordinate clauses rather than in anybody’s opening '
+              'sentence.'),
+   ],
+   advice='In Part 3 the questions follow the recording in order and '
+          'the answers are rarely in the first thing a speaker says. '
+          'Keep your eye one question ahead, and when you hear a '
+          'concession - that is fair, up to a point, I take that - '
+          'get ready, because the speaker’s real position is in the '
+          'next sentence and that is what you are being asked for.',
+   debrief=dict(
+    read=['Two sources say the household chose to live there and one '
+          'says it had little practical alternative. Both are '
+          'describing the same street, and that is the whole of the '
+          'disagreement.',
+     'The Yes/No/Not Given statement about insurance is one the '
+     'passage reports from an industry body and does not endorse. The '
+     'voice test from unit 23 cycle 2 settles it.',
+     'Question 26 asks what the writer thinks should happen and two '
+     'paragraphs say what does happen. Description is not '
+     'prescription.'],
+    listen=['Marcus states a principle and shifts five turns later. '
+            'The question asks what he concludes, and the word "that '
+            'is fair" is where the shift starts.',
+     'Both speakers use the phrase "no choice" and one of them is '
+     'quoting the other in order to object to it.']),
+   outside='Most disagreements you will have are between people who '
+           'agree about the facts and differ on one word. Finding the '
+           'word - choice, fair, deserve - ends more arguments than '
+           'winning them does, and it is a listening skill before it '
+           'is anything else.',
+   recycled=['risk', 'funding', 'eligible', 'disclose', 'evidence',
+             'floodplain'],
    read=[
     dict(heading='Four households that prepared',
          kind='Four short texts', task='Matching features and Yes/No/Not Given',
@@ -395,6 +959,50 @@ UNIT = dict(
                'valuing it only.', 1: 'No would need her to say it has never been used, and '
                'she does not.'})])],
    listen=[
+    dict(preview=True,
+         heading='Two people who nearly agree',
+         part='Preview', task='Sentence completion',
+         band='lpre', qtype='Questions P1-P3',
+         why='Ninety seconds before five minutes. The Part 3 you are '
+             'about to hear has three voices and the same shape as '
+             'this: two people agreeing about the facts and splitting '
+             'on one word.',
+         script=[
+          ('Marcus', 'If you know the house floods, you should not buy '
+                     'it. I do not see what is complicated.'),
+          ('Ife', 'Nor do I, for a buyer with a choice. The people in '
+                  'my casework do not have one.'),
+          ('Marcus', 'Everybody has a choice about where they live.'),
+          ('Ife', 'They have a choice between three flats, all in the '
+                  'same low-lying quarter, because that is where the '
+                  'rent is affordable. The risk map is identical for '
+                  'all three.'),
+          ('Marcus', 'Then the state should not permit letting there at '
+                     'all.'),
+          ('Ife', 'Which removes the three flats and supplies nothing. '
+                  'I agree with the principle. I am asking what happens '
+                  'on the Monday after you apply it.'),
+          ('Marcus', 'That is fair. It is a question about sequence '
+                     'rather than about principle.'),
+          ('Ife', 'It usually is. And the sequence is where the money '
+                  'has to be, which is why nobody likes the question.'),
+          ('Marcus', 'So we agree about everything except what to do.'),
+          ('Ife', 'We agree about everything except who moves first. '
+                  'That is not nothing, but it is less than it '
+                  'sounds.')],
+         items=[
+          ('Ife says the people in her casework have a choice between '
+           'three flats in the same low-lying ____________.',
+           None, 'quarter',
+           'Her second turn, where she says the risk map is identical '
+           'for all three.'),
+          ('Marcus concedes that it is a question about '
+           '____________ rather than principle.', None, 'sequence',
+           'His fourth turn, which accepts Ife’s reframing.'),
+          ('Ife says they agree about everything except who moves '
+           '____________.', None, 'first',
+           'Her last turn, and it is the sentence the Part 3 comes '
+           'back to.')]),
     dict(heading='Two residents disagree about moving', part='Part 3',
          task='A conversation between neighbours · sentence completion and multiple choice', band='l3',
          qtype='Questions 25-29',
@@ -559,6 +1167,53 @@ UNIT = dict(
          instruct='  Write at least 250 words in about 40 minutes.',
          lines=18)],
    gram=dict(
+    ref='L13',
+    context=[
+     'From the passage you have just read:',
+     'Two things are being run together in this argument and they have '
+     'different answers. The first is who chooses to live on a '
+     'floodplain, which is a question about information and alternatives. '
+     'The second is who should pay when the water arrives, which is a '
+     'question about insurance and about what we think a community owes '
+     'its members. A household may have chosen freely and still have a '
+     'claim; it may have had no choice at all and still be the cheapest '
+     'party to insure.'],
+    notice=[
+     ('Find the four words that announce the division.',
+      'Two things are being run together'),
+     ('The last sentence makes a point about the two questions being '
+      'independent. State it in your own words.',
+      'the answer to one does not settle the answer to the other')],
+    noticetask='Answer both from the paragraph above, which you met '
+               'earlier in this cycle.',
+    contrast='You met this division in unit 22 cycle 2 and unit 23 '
+             'cycle 2, and here it earns its third appearance by doing '
+             'something the first two did not: the final sentence '
+             'states that the two questions are independent, and '
+             'demonstrates it with both combinations. That sentence is '
+             'what stops the division from being decorative. If you '
+             'can divide a subject and then show that the two halves '
+             'can come apart in either direction, you have an argument '
+             'nobody can collapse back into one question.',
+    task2='Divide each and then write the sentence showing the halves '
+          'are independent.',
+    items2=[
+     ('Who chooses to live there, and who pays? ____________',
+      None, 'a free choice may still deserve help, and no choice may '
+      'still be cheap to insure'),
+     ('Did the programme work, and should it be funded? '
+      '____________',
+      None, 'a programme may work and not deserve the money, or fail '
+      'and deserve another year'),
+     ('Correct: Two thing are being run together. ____________',
+      None, 'Two things are being run together.'),
+     ('Correct: The second is that who should pay. ____________',
+      None, 'The second is who should pay.')],
+    task3='Now use it. Take the chart at the front of this unit - the '
+          'people most at risk move least - announce the division, '
+          'state the two questions, and show in one sentence that they '
+          'come apart. Sixty to eighty words.',
+    items3=8,
     point='Separating who chooses from who pays',
     explain=('A large share of policy essays turn on this distinction, and '
              'stating it plainly is often the whole argument.'),
@@ -610,7 +1265,271 @@ UNIT = dict(
   dict(
    sub='A warming record',
    step=3,
+   notes=dict(
+    serves='Matching information and True/False/Not Given, Reading Part '
+           '3; Task 1 Academic, two series measured in different units',
+    because='A chart with two vertical axes is the one Task 1 band 6 '
+            'answers get wrong in a specific way: they compare the two '
+            'lines as though the numbers were on the same scale, which '
+            'is meaningless, instead of describing how the two move '
+            'together',
+    skill='Describing two series in different units: naming each axis, '
+          'and talking about shape rather than size',
+    evidence='Phase 4: in every two-axis chart in the series the band '
+             '6.5 model contains at least one sentence comparing a '
+             'degree with a part per million',
+    watch='Learners will write "carbon dioxide is much higher than '
+          'temperature". Four hundred and one point two are not '
+          'comparable quantities. Expect it',
+    time='85 minutes, or 65 without the free grammar production'),
+   lead=dict(
+    title='Two measurements of one thing',
+    body='The record of a warming world is kept in two very different '
+         'kinds of number: the concentration of a gas, measured in '
+         'parts per million, and the departure of a year’s temperature '
+         'from a long average, measured in degrees. They are not the '
+         'same quantity, they cannot be added, and a chart that puts '
+         'them on one picture is asking you to look at their shapes '
+         'rather than their sizes. That is a reading skill as much as '
+         'a writing one, and it is the subject of this cycle.',
+    task='Answer these before you look at the chart.',
+    qs=['If two things rise together for a century, what does that '
+        'establish? You answered a version of this in unit 21 cycle 4.',
+        'What would you need in addition to be confident one caused '
+        'the other?',
+        'Why might a chart with two different vertical axes be '
+        'misleading as well as useful?',
+        'Who decides what the baseline is, and does it matter?']),
+   vocabwork=dict(
+    title='The words a record is kept in',
+    body='Twelve words about measurement over time. They are the '
+         'vocabulary of any long record - of temperatures, of prices, '
+         'of sea level, of exam results - and five of them you met in '
+         'unit 23 cycle 3, where the record was of a disease. The '
+         'problems are identical: what was counted, how it was '
+         'smoothed, and what changed about the counting.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='a long record',
+                sub='cycle 3 · five of these are from unit 23 cycle 3',
+                branches=[('the measurement',
+                           ['anomaly', 'baseline', 'instrumental '
+                            'record', 'station']),
+                          ('smoothing it',
+                           ['ten-year mean', 'trend', 'noise',
+                            'homogenisation']),
+                          ('its shape',
+                           ['step', 'tail', 'plateau', 'acceleration']),
+                          ('what can go wrong',
+                           ['artefact', 'drift', 'gap', 'bias'])],
+                note='Homogenisation is the adjusting of a record for '
+                     'changes in how it was taken - a station moved, '
+                     'an instrument replaced. It is routine, it is '
+                     'published, and it is the thing most often '
+                     'misdescribed as tampering.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 3 · and two have no verb at all',
+                 rows=[('', ('a-nom-a-ly', 2), '',
+                        ('a-nom-a-lous', 2), ''),
+                       (('ac-ce-le-rate', 2), ('ac-ce-le-ra-tion', 4),
+                        '', '', ''),
+                       (('va-ry', 1), ('va-ri-a-bi-li-ty', 4), '',
+                        ('va-ri-a-ble', 1), ''),
+                       ('', ('bi-as', 1), '', ('bi-ased', 1), ''),
+                       (('ad-just', 2), ('ad-just-ment', 2), '',
+                        ('ad-jus-ted', 2), '')],
+                 note='Anomalous means departing from the pattern and '
+                      'is neutral; learners use it to mean wrong, '
+                      'which it does not. An anomalous year is simply '
+                      'an unusual one.'),
+    task='Complete each sentence with a word from this cycle.',
+    items=[
+     ('The average period a difference is measured against is the '
+      '____________.', None, 'baseline'),
+     ('A sudden jump in a record caused by a change of instrument is '
+      'an ____________.', None, 'artefact'),
+     ('Adjusting a record for a station that moved is '
+      '____________.', None, 'homogenisation'),
+     ('The adjective from anomaly is ____________.',
+      None, 'anomalous'),
+     ('A period where a rising line flattens is a ____________.',
+      None, 'plateau'),
+     ('The short-term wobble around a long-run direction is '
+      '____________.', None, 'noise'),
+     ('A systematic error in one direction is a ____________.',
+      None, 'bias'),
+     ('An increase in the rate of increase is ____________.',
+      None, 'acceleration')]),
+   builder=dict(
+    skill='Task 1: two series, two units, one answer',
+    qkind='skill',
+    explain='Some Task 1 charts put two series on one picture with two '
+            'different vertical axes, and the instruction is always the '
+            'same: describe the main features. The trap is built into '
+            'the picture. One line sits above the other, and it is '
+            'natural to say so, and saying so is meaningless when one '
+            'line is in degrees and the other in parts per million. '
+            'Four hundred is not bigger than one point two; they are '
+            'not the same kind of thing. So the whole answer is about '
+            'shape. Name both axes in your first sentence, with their '
+            'units, because an examiner wants to see that you noticed '
+            'there were two. Then describe each line’s shape in its own '
+            'units - rose steadily, flattened, accelerated after 1980 - '
+            'and never compare their heights. Then give the '
+            'relationship, which is the overview: do they move '
+            'together, does one lead, does the relationship hold '
+            'throughout. And be careful with the last step, because '
+            'moving together is a description and not a cause, which '
+            'you established for yourself in unit 21 cycle 4.',
+    worked=[
+     'The chart: carbon dioxide concentration in parts per million, '
+     'left axis; global temperature anomaly in degrees, right axis; '
+     '1880 to 2020.',
+     'Naming both axes: “The chart shows carbon dioxide concentration '
+     'in parts per million against the global temperature anomaly in '
+     'degrees Celsius, from 1880 to 2020.”',
+     'Each shape in its own units: “Concentration rose from about 290 '
+     'to just over 410 parts per million, the rise accelerating after '
+     '1950. The anomaly moved from roughly minus 0.2 to plus 1.0 '
+     'degrees, with a plateau between 1940 and 1975.”',
+     'The relationship, as the overview: “The two series rise '
+     'together over the period as a whole, though the temperature '
+     'series is markedly noisier and contains a flat stretch the '
+     'concentration series does not.”',
+     'What not to write: “carbon dioxide is far higher than '
+     'temperature”, which compares a gas with a difference and says '
+     'nothing at all.'],
+    figure=dict(kind='anatomy', teaches='question-anatomy',
+                qtype='True/False/Not Given', sub='cycle 3, question '
+                      '37',
+                stem='The chart shows that carbon dioxide caused the '
+                     'temperature rise.',
+                options=['TRUE - both lines rise together',
+                         'FALSE - the chart shows no cause',
+                         'NOT GIVEN - the chart is about '
+                         'concentration',
+                         'TRUE - the acceleration matches'],
+                answer=1,
+                why='A chart shows what moved with what. The passage '
+                    'states explicitly that the figure cannot '
+                    'establish causation, so the statement contradicts '
+                    'it and the answer is FALSE rather than NOT '
+                    'GIVEN.',
+                trap=(0, 'Both lines do rise together, so the reason '
+                         'given in option A is a true observation. It '
+                         'supports a claim the passage refuses, which '
+                         'is exactly how a True/False/Not Given '
+                         'distractor is built.'),
+                note='The difference between FALSE and NOT GIVEN here '
+                     'depends on the passage having addressed it. It '
+                     'does, in one sentence, and that sentence is the '
+                     'whole question.'),
+    task='For each sentence write OK or WRONG, and why in three words.',
+    items=[
+     ('Carbon dioxide is much higher than temperature.',
+      None, 'wrong, different units'),
+     ('Concentration rose from 290 to 410 parts per million.',
+      None, 'ok'),
+     ('The anomaly plateaued between 1940 and 1975.', None, 'ok'),
+     ('The two lines are the same distance apart throughout.',
+      None, 'wrong, different units'),
+     ('Both series rise over the period as a whole.', None, 'ok'),
+     ('Temperature follows carbon dioxide exactly.',
+      None, 'wrong, overstated')],
+    note='Three of the six are wrong and two of those three compare '
+         'quantities that cannot be compared. That is the single error '
+         'this cycle exists to prevent, and it costs a band on Task '
+         'Achievement every time.'),
+   figures=[
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 3 · what the questions do to the article',
+         pairs=[('how far above the average',
+                 'the anomaly', 'nominalisation'),
+                ('the record was adjusted',
+                 'homogenisation was applied', 'voice'),
+                ('a sudden jump that is not real',
+                 'an artefact', 'hypernym'),
+                ('it did not rise for thirty years',
+                 'a mid-century plateau', 'negation'),
+                ('getting faster', 'accelerating', 'synonym'),
+                ('the thirty years it is measured against',
+                 'the baseline period', 'reformulation')],
+         note='The fourth is the one that decides two questions: a '
+              'negative in the stem and a noun in the passage.'),
+   ],
+   advice='On a two-axis chart, name both axes with their units in '
+          'the first sentence and then never compare the two numbers '
+          'again. Everything after that is shape: steady, '
+          'accelerating, flat, noisy. An answer that says one line is '
+          'higher than the other has told the examiner it did not '
+          'notice there were two scales, and that judgement is made '
+          'in one sentence.',
+   debrief=dict(
+    read=['The True/False/Not Given statement about causation is '
+          'FALSE rather than NOT GIVEN, because the passage addresses '
+          'it in one sentence and refuses it. Test 1 from unit 21 '
+          'asks whether the writer takes a position; here the writer '
+          'does.',
+     'Two paragraphs mention the mid-century plateau and only one '
+     'explains it. Matching information asks for the explanation.',
+     'The statement about homogenisation says the record was '
+     '"altered", which the passage calls adjustment and describes as '
+     'routine. Scope and connotation, not content.'],
+    listen=['The lecturer gives two figures for the same year on two '
+            'different baselines. The question names the baseline.',
+     'In the matching task the speaker attributes a claim to a '
+     'colleague and then disagrees with it, which is the voice '
+     'problem from unit 23 cycle 2 inside a lecture.']),
+   outside='Two numbers on one picture are the commonest way to '
+           'mislead honestly: nobody lied, the scales were printed, '
+           'and the reader compared heights. Looking for the axis '
+           'labels before looking at the lines is a two-second habit '
+           'with a lifetime of uses.',
+   recycled=['anomaly', 'baseline', 'artefact', 'smooth', 'evidence',
+             'trend'],
    read=[
+    dict(preview=True,
+         heading='What an anomaly is',
+         kind='Explainer box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='The chart in this cycle plots one line in degrees and '
+             'another in parts per million, and the first of the two '
+             'is not a temperature. Two hundred words.',
+         paras=[
+          'A temperature anomaly is not a temperature. It is a '
+          'difference: how far this year sat above or below an average '
+          'taken over some agreed period, usually thirty years. An '
+          'anomaly of plus one point two does not mean the world was '
+          'one point two degrees; it means it was that much warmer than '
+          'the baseline.',
+          'Anomalies are used because temperatures cannot be averaged '
+          'across places honestly. A station on a mountain and a '
+          'station on a coast have different absolute temperatures for '
+          'reasons that have nothing to do with the climate, but they '
+          'warm and cool together, and the amount each departs from its '
+          'own long-run average is comparable when the raw readings are '
+          'not.',
+          'The baseline therefore matters enormously and is almost '
+          'never stated in a headline. The same year can be an anomaly '
+          'of plus one point two against one baseline and plus nought '
+          'point eight against another, with nothing whatever having '
+          'changed in the world.',
+          'For a Task 1 answer the rule is short: say what the baseline '
+          'is in your first sentence if the chart gives it, and if it '
+          'does not, write "relative to the baseline shown" and never '
+          'call an anomaly a temperature.'],
+         items=[
+          ('An anomaly is not a temperature but a ____________.',
+           None, 'difference',
+           'Paragraph 1: how far a year sat above or below an '
+           'average.'),
+          ('Anomalies are used because raw temperatures from different '
+           'places cannot honestly be ____________.',
+           None, 'averaged',
+           'Paragraph 2, where a mountain and a coast differ for '
+           'reasons unrelated to climate.'),
+          ('The ____________ is almost never stated in a headline and '
+           'changes the figure.', None, 'baseline',
+           'Paragraph 3: the same year can be plus 1.2 or plus 0.8.')]),
     dict(heading='What a hundred years of readings show',
          kind='Data article',
          task='Multiple choice, matching information, sentence completion and True/False/Not Given',
@@ -837,6 +1756,54 @@ UNIT = dict(
          instruct='  Write at least 150 words in about 20 minutes.',
          lines=14)],
    gram=dict(
+    ref='L6',
+    context=[
+     'From the article you have just read:',
+     'Concentration rose from about 290 parts per million in 1880 to '
+     'just over 410 in 2020, accelerating sharply after 1950. Over the '
+     'same period the temperature anomaly moved from roughly minus '
+     'nought point two degrees to plus one, with a plateau between the '
+     'war and the mid-seventies that the concentration record does not '
+     'share. The two rise together across the century as a whole, which '
+     'is a statement about shape and not about cause.'],
+    notice=[
+     ('The writer compares the two series without comparing their '
+      'numbers. What is compared instead?',
+      'their shapes - the direction, the acceleration, the plateau'),
+     ('Find the clause that refuses an inference the reader might '
+      'draw.', 'which is a statement about shape and not about cause')],
+    noticetask='Answer both from the paragraph above, which is from the '
+               'passage you read earlier in this cycle.',
+    contrast='Comparing two series measured in the same unit uses the '
+             'tools from unit 21 cycle 3 - a difference, a ratio, an '
+             'approximation. Comparing two series in different units '
+             'can use none of them, because there is no difference and '
+             'no ratio between a gas concentration and a temperature '
+             'difference. What is left is the language of shape: rose '
+             'steadily, accelerated, flattened, moved together, does '
+             'not share. It is a smaller vocabulary and it has to be '
+             'used precisely, and the sentence that saves the answer '
+             'is the one that says which kind of comparison you are '
+             'making.',
+    task2='Rewrite each so that it compares shape rather than size.',
+    items2=[
+     ('Carbon dioxide is higher than temperature. ____________',
+      None, 'The two are measured in different units and cannot be '
+      'compared directly.'),
+     ('Both went up a lot. ____________',
+      None, 'Both rose over the period, the concentration series more '
+      'smoothly.'),
+     ('Temperature is noisy and carbon dioxide is not. ____________',
+      None, 'The temperature series is markedly noisier than the '
+      'concentration series.'),
+     ('They go up together so one causes the other. ____________',
+      None, 'They rise together, which is a statement about shape '
+      'rather than cause.')],
+    task3='Now write the opening of a Task 1 answer from the chart in '
+          'this cycle: one sentence naming both axes with their units, '
+          'one overview sentence about the relationship, and one '
+          'sentence on the shape of each line. About sixty words.',
+    items3=8,
     point='Comparing two series with different units',
     fix=dict(
      text=('The left axis shows temperature in degrees and the right axis '
@@ -901,6 +1868,224 @@ UNIT = dict(
   dict(
    sub='Attributing one event',
    step=4,
+   notes=dict(
+    serves='Matching headings and Yes/No/Not Given, Reading Part 3, on '
+           'a seven-hundred-word passage; multiple choice and matching '
+           'in Listening Part 4',
+    because='Part 3 of the Reading paper gives twenty minutes for a '
+            'passage most candidates cannot finish, and the marks are '
+            'lost to reading every word rather than to not knowing '
+            'words',
+    skill='Locating information in a long passage without reading all '
+          'of it: first lines, last lines, names, numbers and the one '
+          'paragraph that must be read whole',
+    evidence='The speed page in the front matter measures reading at '
+             '190 to 210 words a minute; at that rate a 700-word '
+             'passage read twice consumes the whole twenty minutes '
+             'and leaves none for the questions',
+    watch='Learners will start at the first word and read to the end '
+          'before looking at a question. Time them, and then time them '
+          'doing it the other way',
+    time='90 minutes, or 70 without the free grammar production'),
+   lead=dict(
+    title='Did climate change cause this flood?',
+    body='It is the question every reporter asks and the one every '
+         'scientist used to refuse. What changed is not the physics but '
+         'the arithmetic: it became possible to run a climate model '
+         'thousands of times with two different atmospheres and count '
+         'how often a given storm turns up in each. That replaces a '
+         'yes-or-no question with a how-much-likelier question, which '
+         'is the move you will meet again in the grammar slot and which '
+         'is worth more than anything else in this cycle.',
+    task='Answer these before you read.',
+    qs=['Can a single event have a single cause? You met this in unit '
+        '23 cycle 4.',
+        'If something is three times likelier than it was, has it been '
+        'caused by whatever made it likelier?',
+        'Would a court accept "three times likelier" as evidence? '
+        'Should it?',
+        'What would you want to know before believing a number like '
+        'that?']),
+   vocabwork=dict(
+    title='The words of a model and a likelihood',
+    body='Twelve words about simulation and probability. Half are from '
+         'the vocabulary of evidence you built in unit 23 and half are '
+         'new, and the new half is the technical core of the passage: '
+         'ensemble, simulation, counterfactual, likelihood. Learn them '
+         'and the passage becomes straightforward; skip them and no '
+         'amount of reading speed will help.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='attributing one event',
+                sub='cycle 4 · six of these come back in cycle 5',
+                branches=[('the method',
+                           ['ensemble', 'simulation', 'model grid',
+                            'run']),
+                          ('the comparison',
+                           ['counterfactual', 'pre-industrial',
+                            'with and without', 'baseline world']),
+                          ('the result',
+                           ['likelihood', 'return period',
+                            'three times likelier', 'fraction '
+                            'attributable']),
+                          ('the caution',
+                           ['testable', 'uncertainty range',
+                            'model dependence', 'not proof'])],
+                note='A return period of one in a hundred years does '
+                     'not mean it happens every hundred years. It '
+                     'means a one per cent chance each year, and two '
+                     'can fall in consecutive years without anything '
+                     'being wrong.'),
+    figure2=dict(kind='cline', teaches='scale',
+                 title='How much likelier?',
+                 sub='cycle 4 · the language of attribution results',
+                 left='no detectable change', right='virtually '
+                      'impossible before',
+                 items=[('no significant change', 0.03),
+                        ('slightly more likely', 0.18),
+                        ('about twice as likely', 0.4),
+                        ('three times likelier', 0.55),
+                        ('an order of magnitude likelier', 0.76),
+                        ('essentially impossible without', 0.96)],
+                 note='The passage uses the middle of this line and '
+                      'the press release quoted in paragraph E uses '
+                      'the right-hand end. Comparing the two is one of '
+                      'the questions.'),
+    task='Complete each sentence with a word or phrase from this '
+         'cycle.',
+    items=[
+     ('Thousands of runs of the same model make up an '
+      '____________.', None, 'ensemble'),
+     ('The imagined world without the extra gases is the '
+      '____________.', None, 'counterfactual'),
+     ('A one per cent annual chance is a one in a hundred year '
+      '____________ period.', None, 'return'),
+     ('The share of the risk that can be assigned to warming is the '
+      'fraction ____________.', None, 'attributable'),
+     ('A claim that can be checked against data is ____________.',
+      None, 'testable'),
+     ('The spread of answers across the runs is the uncertainty '
+      '____________.', None, 'range'),
+     ('The phrase in the middle of the cline: about twice as '
+      '____________.', None, 'likely'),
+     ('The result depending on which model was used is model '
+      '____________.', None, 'dependence')]),
+   builder=dict(
+    skill='Finding information fast in seven hundred words',
+    qkind='skill',
+    explain='Part 3 of the Reading paper gives you about twenty '
+            'minutes, and at a comfortable 200 words a minute a '
+            'seven-hundred-word passage takes three and a half. Read it '
+            'twice and you have spent seven of your twenty minutes '
+            'before answering anything, which is survivable; read it '
+            'slowly, looking up words, and you have spent fifteen, '
+            'which is not. The method that works is not speed reading '
+            'and does not require you to be fast. Read the first and '
+            'last sentence of every paragraph, which is about a fifth '
+            'of the passage and tells you what each paragraph does - '
+            'exactly the skeleton you built in unit 21 and unit 22. '
+            'Mark the names, dates and numbers as you go, because '
+            'questions are built on them and they are findable without '
+            'reading. Then go to the questions and read whole only the '
+            'paragraphs they send you to. Most passages contain one '
+            'paragraph that must be read in full, usually the one that '
+            'defines something, and you will know which because the '
+            'rest of the passage keeps pointing at it.',
+    worked=[
+     'Paragraph openings in this passage: “The question is badly '
+     'formed.” / “An ensemble is simply...” / “In the 2021 case...” / '
+     '“None of this is free of assumptions.” / “A press release is '
+     'not a paper.” / “What follows for a court is...”',
+     'Six sentences, about seventy words, and the shape of the whole '
+     'argument is now visible: a refusal, a definition, a worked case, '
+     'a caveat, a complaint, a consequence.',
+     'The definition paragraph is the one to read whole, because the '
+     'other five all use the word ensemble.',
+     'The questions about 2021 go to paragraph three and nowhere '
+     'else. You have not read paragraphs five or six at all yet, and '
+     'you may not need to.'],
+    figure=dict(kind='skeleton', teaches='text-structure',
+                title='Seven hundred words from twelve sentences',
+                sub='cycle 4 · built from first and last lines only',
+                paras=[('A', 'claim', 'The question as asked cannot be '
+                        'answered'),
+                       ('B', 'definition', 'What an ensemble is and '
+                        'does'),
+                       ('C', 'example', 'The 2021 downpour, run both '
+                        'ways'),
+                       ('D', 'concession', 'The assumptions the method '
+                        'rests on'),
+                       ('E', 'counter-claim', 'What the press release '
+                        'said instead'),
+                       ('F', 'consequence', 'What a court could do '
+                        'with this')],
+                note='B is the paragraph to read whole. C is where '
+                     'four of the seven questions live. You can finish '
+                     'this passage having read about half of it, and '
+                     'that is not cheating - it is what the twenty '
+                     'minutes assumes.'),
+    task='For each question, say which paragraph you would go to and '
+         'whether you would read it whole.',
+    items=[
+     ('What is an ensemble?', None, 'b whole'),
+     ('How much likelier was the 2021 downpour?', None, 'c part'),
+     ('What does the writer think of the press release?',
+      None, 'e part'),
+     ('What assumption does the method rest on?', None, 'd part'),
+     ('Could a court use this evidence?', None, 'f part'),
+     ('Why does the writer reject the original question?',
+      None, 'a part')],
+    note='One paragraph of six is read whole. If your answers send '
+         'you to four or five paragraphs in full, you are reading the '
+         'passage with extra steps, and the twenty minutes will not '
+         'be enough.'),
+   figures=[
+    dict(kind='clock', teaches='timing',
+         title='Where the twenty minutes of Part 3 goes',
+         speed='at 200 words a minute, the passage itself is 3.5 '
+               'minutes',
+         segments=[('First and last lines, marking names', 3,
+                    'about a fifth of the passage, and the whole '
+                    'skeleton'),
+                   ('Reading the questions', 3,
+                    'underline the scope word in each, as in unit 23 '
+                    'cycle 4'),
+                   ('Reading the paragraphs you need, whole', 9,
+                    'usually three of the six, one of them twice'),
+                   ('Answering and transferring', 5,
+                    'there is no extra transfer time in Reading')],
+         note='Nobody warns you at minute twelve. Practise the first '
+              'three minutes against a clock until three minutes '
+              'feels like something rather than a number.'),
+   ],
+   advice='Do not read Part 3 twice. Read the first and last sentence '
+          'of each paragraph, mark the names and numbers, then let the '
+          'questions send you back. The passage is designed to be '
+          'answerable without reading all of it, and candidates who '
+          'read every word are not more careful - they are answering '
+          'the last four questions in ninety seconds.',
+   debrief=dict(
+    read=['The heading naming the press release belongs to paragraph '
+          'E and not to the paragraph that mentions journalists, which '
+          'is C. Function, not subject - and then neighbouring '
+          'function, which is unit 22 cycle 4.',
+     'The Yes/No/Not Given statement about courts is answered in the '
+     'last paragraph, which most candidates never reach. Reading the '
+     'last line of every paragraph takes nine seconds and would have '
+     'found it.',
+     'The statement that attribution proves causation is FALSE: the '
+     'passage says explicitly that it changes a likelihood, and the '
+     'cline in this cycle is what the difference looks like.'],
+    listen=['Dr Halvorsen gives the number three and then repeats it '
+            'with the word roughly. The gap wants the number.',
+     'In the matching task two colleagues are named in the first '
+     'minute and their positions are given in the last, which is the '
+     'standard shape and the reason not to answer early.']),
+   outside='Nearly everything you will ever need to find in a long '
+           'document is findable from first lines, last lines and '
+           'numbers. Reading a contract, a report or a set of minutes '
+           'end to end is a choice, and usually the wrong one.',
+   recycled=['counterfactual', 'evidence', 'likelihood', 'anomaly',
+             'attribute', 'testable'],
    read=[
     dict(heading='How a single flood is linked to a changing climate',
          kind='Academic passage',
@@ -1027,6 +2212,53 @@ UNIT = dict(
            'Paragraph 6, and in countries with the capacity to study '
            'them.')])],
    listen=[
+    dict(preview=True,
+         heading='A climate scientist on a single storm',
+         part='Preview', task='Sentence completion',
+         band='lpre', qtype='Questions P1-P3',
+         why='The lecture you are about to hear spends twenty minutes '
+             'refusing a question and then answering a different one. '
+             'Ninety seconds here and the refusal makes sense.',
+         script=[
+          ('Reporter', 'Was last week’s flood caused by climate '
+                       'change?'),
+          ('Dr Halvorsen', 'I cannot answer that and nor can anybody '
+                           'else, but not for the reason you think.'),
+          ('Reporter', 'Which is?'),
+          ('Dr Halvorsen', 'The question assumes a flood has one cause. '
+                           'It has rain, a catchment, a drain, a '
+                           'decision made in 1974 about where to build. '
+                           'Climate change is in there. Asking whether '
+                           'it is the cause is like asking which of '
+                           'your parents you are descended from.'),
+          ('Reporter', 'So you cannot say anything.'),
+          ('Dr Halvorsen', 'I can say something quite precise. We run '
+                           'the climate model thousands of times with '
+                           'today’s atmosphere and thousands of times '
+                           'with the atmosphere of 1900, and we count '
+                           'how often a downpour like that one turns '
+                           'up in each.'),
+          ('Reporter', 'And?'),
+          ('Dr Halvorsen', 'Roughly three times more often now. So the '
+                           'honest sentence is not that climate change '
+                           'caused the flood. It is that a flood of '
+                           'this size has become about three times '
+                           'likelier, and that is a number you can '
+                           'argue with, which the other sentence is '
+                           'not.'),
+          ('Reporter', 'Three times likelier. That is a headline.'),
+          ('Dr Halvorsen', 'It is, and it is the first honest one I '
+                           'have been offered in a fortnight.')],
+         items=[
+          ('Dr Halvorsen says the question wrongly assumes a flood has '
+           'one ____________.', None, 'cause',
+           'Her second answer, with the comparison about parents.'),
+          ('The method runs the model with today’s atmosphere and with '
+           'the atmosphere of ____________.', None, '1900',
+           'Her third answer, which describes the whole technique.'),
+          ('A downpour like that one is about ____________ times '
+           'likelier now.', None, 'three',
+           'Her last long turn, where she gives the honest sentence.')]),
     dict(heading='A lecture on attribution studies', part='Part 4',
          task='A lecture on linking events to warming · multiple choice, sentence completion and matching', band='l4',
          qtype='Questions 49-54',
@@ -1181,6 +2413,56 @@ UNIT = dict(
                   'You will write it in cycle 5.',
          lines=12)],
    gram=dict(
+    ref='L16',
+    context=[
+     'From the passage you have just read:',
+     'The question is not whether climate change caused the flood. It '
+     'is how much likelier climate change made a flood of that size, '
+     'and that question has an answer: about three times, with an '
+     'uncertainty range of roughly two to five. Replacing the first '
+     'question with the second is not an evasion. It is the difference '
+     'between a sentence nobody can test and a sentence anybody with '
+     'the model can.'],
+    notice=[
+     ('Copy out the structure that replaces one question with '
+      'another.', 'The question is not whether... It is how much...'),
+     ('What does the writer say the replacement buys?',
+      'a sentence that can be tested rather than one that cannot')],
+    noticetask='Answer both from the paragraph above, which you met '
+               'earlier in this cycle.',
+    contrast='Replacing a yes-or-no question with a how-much question '
+             'is the single most useful argumentative move in this '
+             'book, and it rescues almost any argument stuck between '
+             'two absolutes. The shape is fixed: The question is not '
+             'whether X but how far / how much / how often Y. Both '
+             'halves must be the same kind of clause - not whether... '
+             'but how much..., never not whether... but if... And '
+             'there is a condition attached. Having replaced the '
+             'question you must answer the new one, with a number or a '
+             'range, or Task Response will read the move as the evasion '
+             'it can easily be.',
+    task2='Replace each yes-or-no question with a how-much question '
+          'and give the answer the passage supports.',
+    items2=[
+     ('Did climate change cause the flood? ____________',
+      None, 'not whether it caused it but how much likelier it made '
+      'it - about three times'),
+     ('Is the model reliable? ____________',
+      None, 'not whether it is reliable but how much the answer moves '
+      'between models'),
+     ('Correct: the question is not whether it caused it but if it '
+      'was likelier. ____________',
+      None, 'not whether it caused it but how much likelier it made '
+      'it'),
+     ('Is the house at risk? ____________',
+      None, 'not whether it is at risk but what the annual '
+      'probability is')],
+    task3='Now use it. Take a yes-or-no question from anywhere in this '
+          'unit - was the flood caused by climate change, should the '
+          'council have raised the embankment, did the buyer know - '
+          'replace it with a how-much question, and answer the new '
+          'one. Eighty to a hundred words.',
+    items3=10,
     point='Replacing a yes-or-no question with a how-much question',
     explain=('Many arguments stall because the question asked has no '
              'answer. Converting it into a question of degree is often the '
@@ -1227,7 +2509,301 @@ UNIT = dict(
   dict(
    sub='What attribution cannot settle',
    step=5,
+   notes=dict(
+    serves='Matching information and Yes/No/Not Given, Reading Part 3; '
+           'Task 2, discuss both views and give your own opinion',
+    because='Matching information is the type candidates lose most '
+            'time on, because they re-read paragraphs looking for a '
+            'topic when the question asks which paragraph CONTAINS a '
+            'thing - a different and much faster search',
+    skill='Scanning a paragraph for its job rather than reading it for '
+          'its content',
+    evidence='gate10 census: matching information appears in every '
+             'Part 3 in this book, and the audit found no cycle in '
+             'Volume 3 distinguishing it from matching headings',
+    watch='Learners will answer matching information from the '
+          'skeleton they built for matching headings. The two types '
+          'ask opposite questions and the same skeleton serves both '
+          'only if you know which way round it is being used',
+    time='95 minutes, or 70 without the free grammar production'),
+   lead=dict(
+    title='Three times likelier, and still mostly our fault',
+    body='This is the last cycle of the unit and it is where the '
+         'science of cycle 4 meets the decisions of cycles 1 and 2. '
+         'Attribution tells you what climate change did to the hazard. '
+         'It tells you nothing about exposure, which is where we built, '
+         'or about vulnerability, which is what we did or did not do to '
+         'the buildings - and those two account for most of the rise in '
+         'damage over fifty years. The honest position is '
+         'uncomfortable for both sides of the usual argument, which is '
+         'why it makes a good Task 2.',
+    task='Answer these before you read. You answered versions of these '
+         'at the start of cycle 1 and cycle 4 - compare all three.',
+    qs=['If a flood is three times likelier and the damage is ten '
+        'times greater, what explains the other seven?',
+        'Is it reasonable to sue an oil company for a flood? For '
+        'which part of it?',
+        'Who should pay for a house that was built on a floodplain in '
+        '1974 with full planning permission?',
+        'Has anything in this unit changed what you thought at the '
+        'start of it? Which cycle did it?']),
+   vocabwork=dict(
+    title='The vocabulary of blame and of cost',
+    body='The last set of the unit, and the one with the widest reach '
+         'outside it. Hazard, exposure and vulnerability are a '
+         'framework rather than three words, and they apply to '
+         'epidemics, to cyber-attacks, to supply chains and to almost '
+         'anything that can go wrong with people in the way. Four of '
+         'them you met in unit 23 cycle 4, where the subject was '
+         'causes acting together.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='why the damage rose',
+                sub='cycle 5 · a framework, not a word list',
+                branches=[('the three parts',
+                           ['hazard', 'exposure', 'vulnerability',
+                            'residual risk']),
+                          ('assigning it',
+                           ['attributable fraction', 'necessary',
+                            'sufficient', 'contribution']),
+                          ('arguing about it',
+                           ['litigation', 'liability', 'duty of care',
+                            'foreseeable']),
+                          ('paying for it',
+                           ['assessed contribution', 'levy',
+                            'discretionary', 'loss and damage'])],
+                note='Foreseeable is the word a court turns on, and it '
+                     'is not the same as foreseen. Something nobody '
+                     'actually predicted may still have been '
+                     'foreseeable, and the risk maps in cycle 1 are '
+                     'the reason why.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 5 · and the legal half of this unit',
+                 rows=[(('ex-pose', 2), ('ex-po-sure', 2), '',
+                        ('ex-posed', 2), ''),
+                       ('', ('vul-ne-ra-bi-li-ty', 4), '',
+                        ('vul-ne-ra-ble', 1), ''),
+                       (('at-tri-bute', 2), ('at-tri-bu-tion', 3), '',
+                        ('at-tri-bu-ta-ble', 2), ''),
+                       (('fore-see', 2), '', '',
+                        ('fore-see-a-ble', 2), ''),
+                       (('li-a-ble', 1), ('li-a-bi-li-ty', 3), '',
+                        ('li-a-ble', 1), '')],
+                 note='Attributable takes to: the fraction '
+                      'attributable to warming. Liable takes for: '
+                      'liable for the damage. Both prepositions are '
+                      'tested and both are regularly reversed.'),
+    task='Complete each sentence with a word from this cycle, in the '
+         'right form.',
+    items=[
+     ('The storm itself, with nobody in the way, is the '
+      '____________.', None, 'hazard'),
+     ('How much of what we value sits in its path is the '
+      '____________.', None, 'exposure'),
+     ('The share of the risk assignable to warming is the fraction '
+      '____________.', None, 'attributable'),
+     ('A harm that could have been predicted, whether or not it was, '
+      'is ____________.', None, 'foreseeable'),
+     ('The noun from liable is ____________.', None, 'liability'),
+     ('The preposition after attributable is ____________.',
+      None, 'to'),
+     ('The preposition after liable is ____________.', None, 'for'),
+     ('Risk left over after all protection is ____________ risk.',
+      None, 'residual')]),
+   builder=dict(
+    skill='Matching information: which paragraph CONTAINS it',
+    qkind='skill',
+    explain='Matching information and matching headings look alike and '
+            'ask opposite questions, and confusing them costs more time '
+            'than any other mistake in Part 3. Matching headings asks '
+            'what a paragraph is ABOUT, and every paragraph gets one '
+            'heading. Matching information asks which paragraph '
+            'CONTAINS a particular thing - a definition, an example, a '
+            'reference to a date, a comparison - and a paragraph may '
+            'contain two of them or none, which is why the instruction '
+            'says you may use any letter more than once. That changes '
+            'the search completely. You are not asking what this '
+            'paragraph is about; you are asking where that thing is. So '
+            'read the question for the KIND of thing: an example, a '
+            'reason, a criticism, a figure, a definition. Then scan for '
+            'the shape of that kind - an example has a name or a date, '
+            'a definition has is or means, a criticism has a reporting '
+            'verb, a figure has digits. You are looking for a shape on '
+            'the page, not for a meaning, and that is why it can be '
+            'done at four times reading speed.',
+    worked=[
+     'QUESTION: which paragraph contains an example of a cost that '
+     'would have arisen without climate change?',
+     'The kind of thing: an example. Scan for names, dates, places, '
+     'not for the words cost or climate.',
+     'Paragraph C has “the 1974 permissions at Brack Lane” and '
+     'paragraph E has “a town in Queensland”. Two candidates in four '
+     'seconds, without reading either.',
+     'Now read those two sentences only. C is about permissions '
+     'granted before the risk was known; E is about damage that would '
+     'have happened anyway. E is the answer, and you have read about '
+     'thirty words of a seven-hundred-word passage.'],
+    figure=dict(kind='decide', teaches='decision',
+                title='Headings or information? They ask opposite '
+                      'questions',
+                sub='cycle 5 · decide which you are doing before you '
+                    'start',
+                nodes=[('Does every paragraph get exactly one answer?',
+                        'matching headings - ask what each is ABOUT',
+                        'matching information - ask where the thing '
+                        'IS'),
+                       ('For headings: have you named the function in '
+                        'four words without the paragraph’s nouns?',
+                        'now look at the heading list',
+                        'do that first - it is unit 21 cycle 4'),
+                       ('For information: do you know what KIND of '
+                        'thing you are looking for?',
+                        'scan for its shape, not its meaning',
+                        're-read the question - the kind is always '
+                        'stated')],
+                note='The instruction line tells you which type you '
+                     'have: "you may use any letter more than once" '
+                     'means information, every time.'),
+    task='For each question write the KIND of thing and the shape you '
+         'would scan for.',
+    items=[
+     ('Which paragraph contains a definition of exposure?',
+      None, 'definition, is or means'),
+     ('Which paragraph gives an example of a successful claim?',
+      None, 'example, a name or date'),
+     ('Which paragraph contains a criticism of the method?',
+      None, 'criticism, a reporting verb'),
+     ('Which paragraph gives the size of the attributable fraction?',
+      None, 'figure, digits'),
+     ('Which paragraph refers to a decision made in the 1970s?',
+      None, 'date, four digits'),
+     ('Which paragraph contains a comparison between two countries?',
+      None, 'comparison, two place names')],
+    note='Not one of the six requires you to understand the '
+         'paragraph, and that is the whole point. Understanding comes '
+         'after you have found the candidate, and only for the two or '
+         'three sentences that matter. This feels wrong the first '
+         'few times, because every reading lesson you have ever had '
+         'told you to read for meaning. Matching information is not a '
+         'reading task in that sense: it is a retrieval task, and the '
+         'twenty minutes assumes you know the difference. Practise '
+         'it with a timer on a passage you have already read, where '
+         'you cannot be tempted to understand anything, and the '
+         'habit comes in about three attempts.'),
+   figures=[
+    dict(kind='skeleton', teaches='text-structure',
+         title='The last passage, in six boxes',
+         sub='cycle 5 · and notice what it is NOT for',
+         paras=[('A', 'definition', 'Hazard, exposure, vulnerability'),
+                ('B', 'claim', 'Most of the rise in damage is '
+                 'exposure'),
+                ('C', 'evidence', 'Fifty years, and where we built'),
+                ('D', 'concession', 'Attribution is real and does '
+                 'matter'),
+                ('E', 'example', 'Queensland, and a claim that '
+                 'failed'),
+                ('F', 'consequence', 'What a court could and could '
+                 'not do')],
+         note='Build this for matching HEADINGS. For matching '
+              'INFORMATION you want something different - a note of '
+              'where the names, dates and figures are - and that is '
+              'the distinction this cycle exists to make.'),
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 5 · the Yes/No/Not Given set turns on these',
+         left='THE STATEMENT SAYS', right='THE PASSAGE WROTE',
+         pairs=[('the company is to blame',
+                 'liability attaches to the operator',
+                 'nominalisation'),
+                ('they could have known',
+                 'the risk was foreseeable', 'reformulation'),
+                ('building in the wrong place',
+                 'the growth of exposure', 'hypernym'),
+                ('attribution settles the question',
+                 'attribution acts on the hazard alone', 'negation'),
+                ('the claim was rejected',
+                 'the action did not succeed', 'voice'),
+                ('most of the increase', 'the larger share',
+                 'synonym')],
+         note='The fourth decides three questions, and it is the '
+              'argument of the whole passage compressed into one '
+              'pair.'),
+   ],
+   advice='Read the instruction line to find out which matching task '
+          'you have. "You may use any letter more than once" means '
+          'matching information, and you should stop trying to '
+          'summarise paragraphs and start hunting for shapes. The two '
+          'tasks look identical on the page and reward opposite '
+          'methods, and candidates who use the wrong one do not run '
+          'out of ability, they run out of minutes. One more thing '
+          'worth knowing: in matching information the answers are '
+          'not in passage order and never will be, so working '
+          'through the questions from the top means jumping about '
+          'the passage. Do them in whatever order the shapes '
+          'suggest - all the date questions together, all the figure '
+          'questions together - and the jumping stops.',
+   debrief=dict(
+    read=['The matching-information question about the 1970s decision '
+          'has two paragraphs containing dates. Only one of them is '
+          'about a decision.',
+     'The statement that attribution settles who should pay is NO. '
+     'The passage says attribution acts on the hazard and that most '
+     'of the rise is exposure, which is the fourth pair on the '
+     'bridge.',
+     'One statement is a fair summary of paragraph D and attributes '
+     'it to the author as a conclusion. D is a concession, and a '
+     'concession is not a conclusion - which is unit 22 cycle 5 in '
+     'reverse.'],
+    listen=['The speaker describes two legal actions and says one '
+            'succeeded. Both are described at length and the verb '
+            'that distinguishes them is said once.',
+     'Question 70 asks what the speaker recommends and three '
+     'proposals are mentioned, two of them by other people.']),
+   outside='Hazard, exposure and vulnerability is a framework for '
+           'anything that can go wrong where people are in the way - '
+           'an epidemic, a power cut, a cyber-attack, a harvest. '
+           'Almost every argument about a disaster is two people '
+           'discussing different thirds of it.',
+   recycled=['exposure', 'attributable', 'counterfactual', 'evidence',
+             'liability', 'residual risk', 'foreseeable'],
    read=[
+    dict(preview=True,
+         heading='Hazard, exposure, vulnerability',
+         kind='Explainer box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='The last passage of the unit uses these three words '
+             'forty times between them and defines none of them. Two '
+             'hundred words now.',
+         paras=[
+          'A hazard is the dangerous thing itself: the rain, the wave, '
+          'the heat. It has nothing to do with people. A hazard in an '
+          'empty desert is still a hazard and harms nobody.',
+          'Exposure is how much of what we care about is in the way. '
+          'The same storm crossing farmland and crossing a city of two '
+          'million is the same hazard and a hundred times the '
+          'exposure, and exposure is the thing that has risen fastest '
+          'everywhere in the last fifty years, because that is where '
+          'people have built.',
+          'Vulnerability is how badly the exposed thing is damaged when '
+          'the hazard arrives. Two identical houses in the same street, '
+          'one with airbricks sealed and a flood plan and one without, '
+          'have the same hazard, the same exposure and quite different '
+          'vulnerability.',
+          'A disaster needs all three. Change any one of them and the '
+          'damage changes, which is why attribution of a flood to '
+          'climate change can be correct and still leave most of the '
+          'policy question untouched - climate change acts on the '
+          'hazard, and the last fifty years of rising damage is mostly '
+          'exposure.'],
+         items=[
+          ('The dangerous thing itself, with no people involved, is '
+           'the ____________.', None, 'hazard',
+           'Paragraph 1: a hazard in an empty desert harms nobody.'),
+          ('How much of what we value is in the way is the '
+           '____________.', None, 'exposure',
+           'Paragraph 2, which says it has risen fastest of the '
+           'three.'),
+          ('How badly the exposed thing is damaged is its '
+           '____________.', None, 'vulnerability',
+           'Paragraph 3, with the two identical houses.')]),
     dict(heading='The limits of a counterfactual world',
          kind='Academic passage',
          task='Matching information, Yes/No/Not Given and sentence completion',
@@ -1562,6 +3138,56 @@ UNIT = dict(
                   'outline.',
          lines=18)],
    gram=dict(
+    ref='L9',
+    context=[
+     'From the passage you have just read:',
+     'Neither the rain nor the planning decision is sufficient on its '
+     'own. A downpour on empty farmland damages nothing, and a street '
+     'built in a hollow stays dry in a dry decade. Both are necessary '
+     'and neither is sufficient, which is why the honest account of the '
+     'last fifty years gives climate change the hazard and gives us the '
+     'exposure, and why a claim that one of them is the cause is a '
+     'claim about politics rather than about water.'],
+    notice=[
+     ('Find the sentence that says each cause is necessary but not '
+      'sufficient.',
+      'Both are necessary and neither is sufficient'),
+     ('What two examples does the writer use to show each one failing '
+      'alone?',
+      'a downpour on empty farmland; a street in a hollow in a dry '
+      'decade')],
+    noticetask='Answer both from the paragraph above, which you met '
+               'earlier in this cycle.',
+    contrast='In unit 23 cycle 4 several causes were each SUFFICIENT, '
+             'so removing any one changed nothing. Here two causes are '
+             'each NECESSARY and neither is sufficient, so removing '
+             'either changes everything. These are opposite situations '
+             'and they take opposite language, and mixing them up is '
+             'the commonest reasoning error in Task 2 essays about '
+             'blame. Overdetermined: each alone would have been '
+             'enough. Jointly necessary: neither alone would have been '
+             'enough. The test in both cases is the same '
+             'counterfactual - remove one and see - and only the '
+             'answer differs.',
+    task2='For each pair, say whether the causes are jointly necessary '
+          'or each sufficient, and write the counterfactual.',
+    items2=[
+     ('Rain and a hollow street. ____________',
+      None, 'jointly necessary - remove either and there is no '
+      'flood'),
+     ('Four factors, each of which would have ended the outbreak. '
+      '____________',
+      None, 'each sufficient - remove any one and it still ends'),
+     ('Correct: both are necessary and both are sufficient. '
+      '____________',
+      None, 'both are necessary and neither is sufficient'),
+     ('A fire needs fuel and oxygen. ____________',
+      None, 'jointly necessary - remove either and nothing burns')],
+    task3='Now write it. Take the rise in flood damage over fifty '
+          'years, state which causes are jointly necessary, give the '
+          'counterfactual for each, and say what follows for who '
+          'should pay. Eighty to a hundred words.',
+    items3=10,
     point='Saying that two causes are both necessary',
     explain=('Where an outcome needs two things at once, English has to say '
              'so carefully, or a reader hears you choosing one. These '

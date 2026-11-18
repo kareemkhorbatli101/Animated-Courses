@@ -1,0 +1,27 @@
+{
+ "note": "Phase 20 - units 22, 23, 24 and 25 rebuilt on the architecture unit 21 proved, and nothing else in the series touched. Each unit gains the eleven beats: a lead-in, a preview input (reading in cycles 1, 3 and 5, a recording in 2 and 4), vocabulary work with its own figures, a Skills builder whose practice items are not in exam format, an exam-advice box, a debrief, an outside-the-exam line, a rebuilt grammar slot with a context text, a noticing exercise, a contrast, two further practice exercises and a reference pointer, and a word list marking what is recycled. Every existing item, passage, script, model, speaking prompt and grammar explanation in all four units is byte-identical: this phase adds and changes nothing, so the declaration below names only additions. The twenty Skills builders follow a syllabus rather than repeating: the five cycle shapes recur in every unit, so the sub-skill taught at each slot differs by unit - sentence completion by word class, matching features by position, shares that add to a whole, defining against illustrating, concede then answer; who said it, the writer against a reported voice, two lines with a lag, scope words at length, the conclusion the essay earned; what gets repeated gets asked, Part 3 half-agreement, two series in two units, finding information fast, scanning for a job; reading one detail against the clock, sorting the five Task 2 forms, describing a process in the passive, generate then discard, one paragraph one job. content/refs.py gains eight more Language reference entries, taking it to thirteen, each with the full pattern, the three errors learners make at this band, and eight more questions. Two renderer boxes were widened after gate 6 found three real labels overrunning them. Teaching prose measures 35.0 to 39.1 per cent across all twenty-five rebuilt cycles, against the 15.1 per cent the audit measured. This file also covers unit 21, because the baseline was last frozen at phase 16 and phase 19 was verified against it with intent/19.json rather than re-frozen; freeze.py runs at the end of this phase, so phase 21 will diff against a baseline containing all five rebuilt units.",
+ "items": [],
+ "item_fields": [],
+ "texts": [],
+ "new_items": true,
+ "new_texts": [
+  "u21",
+  "u22",
+  "u23",
+  "u24",
+  "u25"
+ ],
+ "prose": [],
+ "new_prose": [
+  "u21",
+  "u22",
+  "u23",
+  "u24",
+  "u25"
+ ],
+ "heads": false,
+ "measure": {},
+ "figures": {
+  "3": 100
+ }
+}
