@@ -1,0 +1,29 @@
+{
+ "note": "Phase 21 - units 26, 27, 28, 29 and 30 rebuilt on the architecture unit 21 proved, completing Volume 3's ten units. Nothing else in the series is touched. Each unit gains the eleven beats: a lead-in, a preview input (reading in cycles 1, 3 and 5, a recording in 2 and 4), vocabulary work with its own figures, a Skills builder whose practice items are not in exam format, an exam-advice box, a debrief, an outside-the-exam line, a rebuilt grammar slot with a context text, a noticing exercise, a contrast, two further practice exercises and a reference pointer, and a word list marking what is recycled. Every existing item, passage, script, model, speaking prompt and grammar explanation in all five units is byte-identical except for three declared changes: the data figures already in units 26 to 30 gained a teaches tag so gate 12 can see what job each does; unit 30's cycle 2 preview script gained two turns to clear the lpre band floor; and unit 30 cycle 3's Skills builder explanation gained a paragraph on where a hybrid's overview sentence comes from, to clear gate 11's teaching-prose floor. content/refs.py gains eleven more Language reference entries, taking it to twenty-four, each with the full pattern, the three errors learners make at this band, and eight questions. The fifty Skills builders across the ten units follow a syllabus rather than repeating: the five cycle shapes recur in every unit, so the sub-skill taught at each slot differs by unit. Teaching prose measures 35.0 per cent or better in all fifty cycles of the volume, against the 15.1 per cent the audit measured. Gates 11, 12 and 13 are now green and binding for all ten units of Volume 3.",
+ "items": [],
+ "item_fields": [],
+ "texts": [],
+ "new_items": true,
+ "new_texts": [
+  "u26",
+  "u27",
+  "u28",
+  "u29",
+  "u30"
+ ],
+ "prose": [
+  "u30"
+ ],
+ "new_prose": [
+  "u26",
+  "u27",
+  "u28",
+  "u29",
+  "u30"
+ ],
+ "heads": false,
+ "measure": {},
+ "figures": {
+  "3": 120
+ }
+}

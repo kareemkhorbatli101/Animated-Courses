@@ -51,7 +51,7 @@ BINDING = set()
 # copy it, so the gate has to be bindable at unit granularity too.
 # A unit in BINDING_UNITS fails the build on its own account even
 # while its book is still open.
-BINDING_UNITS = {21, 22, 23, 24, 25, 26, 27, 28}
+BINDING_UNITS = {21, 22, 23, 24, 25, 26, 27, 28, 29, 30}
 
 
 def load(name):
