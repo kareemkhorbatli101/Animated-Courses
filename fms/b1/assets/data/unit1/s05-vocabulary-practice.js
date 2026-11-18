@@ -7,7 +7,10 @@
 FMS.page('u1-s05', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 1 - Practice', part: '1', section: '5',
           lesson: 'Part 1 - Practice', title: 'Part 1 - Practice' },
-  objective: 'Work through Part 1 - Practice of unit 1.',
+  objective: 'By the end of Part 1 you can use this unit\'s seven reception and protocol '
+        + 'terms correctly, read a visitor\'s role card to work out which department '
+        + 'should receive them and what they need before they proceed, and complete a '
+        + 'professional sentence with the right term.',
   prev: 's04-role-cards', prevLabel: 'Part 1 - Role cards',
   next: 's06-grammar-notice', nextLabel: 'Part 2 - Grammar, notice',
   cards: [

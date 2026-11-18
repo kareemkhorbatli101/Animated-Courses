@@ -7,7 +7,10 @@
 FMS.page('u4-s11', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 3 - Responding', part: '3', section: '11',
           lesson: 'Part 3 - Responding', title: 'Part 3 - Responding' },
-  objective: 'Work through Part 3 - Responding of unit 4.',
+  objective: 'By the end of Part 3 you can predict the future language a formal '
+        + 'cooperation context will use, follow four excerpts from bilateral events '
+        + 'and planning sessions, choose a correct formal response, and write down '
+        + 'five cooperation phrases.',
   prev: 's10-listening-understand', prevLabel: 'Part 3 - Listening',
   next: 's12-dialogue-script', nextLabel: 'Part 4 - The script',
   cards: [

@@ -7,7 +7,11 @@
 FMS.page('u3-s07', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 2 - Grammar, practice', part: '2', section: '7',
           lesson: 'Part 2 - Grammar, practice', title: 'Part 2 - Grammar, practice' },
-  objective: 'Work through Part 2 - Grammar, practice of unit 3.',
+  objective: 'By the end of Part 2 you can tell the active voice from the passive in '
+        + 'official writing, form the passive in the tenses this unit uses, correct '
+        + 'passive errors - including recognising the sentence that is already '
+        + 'correct and explaining why - and use the passive to say what a ministry '
+        + 'has done without naming who did it.',
   prev: 's06-grammar-notice', prevLabel: 'Part 2 - Grammar, notice',
   next: 's08-grammar-speaking', nextLabel: 'Part 2 - Grammar, speaking',
   cards: [

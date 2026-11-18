@@ -7,7 +7,10 @@
 FMS.page('u5-s23', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 8 - Can-Do and glossary', part: '8', section: '23',
           lesson: 'Part 8 - Can-Do and glossary', title: 'Part 8 - Can-Do and glossary' },
-  objective: 'Work through Part 8 - Can-Do and glossary of unit 5.',
+  objective: 'By the end of Part 8 you can describe how business culture shapes an '
+        + 'investment meeting, compare directness, relationship-building and the pace '
+        + 'of decisions in a table, and host both a German and a Gulf investor '
+        + 'meeting appropriately.',
   prev: 's22-culture-role-plays', prevLabel: 'Part 8 - Role plays',
   cards: [
     {

@@ -7,7 +7,9 @@
 FMS.page('u3-s12', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 4 - The script', part: '4', section: '12',
           lesson: 'Part 4 - The script', title: 'Part 4 - The script' },
-  objective: 'Work through Part 4 - The script of unit 3.',
+  objective: 'By the end of Part 4 you can answer questions at a press conference '
+        + 'without conceding more than you intend, deliver an investment briefing, '
+        + 'and stay both honest and forward-looking when a question is uncomfortable.',
   prev: 's11-listening-respond', prevLabel: 'Part 3 - Responding',
   next: 's13-role-play', nextLabel: 'Part 4 - Role play',
   cards: [

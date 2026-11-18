@@ -7,7 +7,9 @@
 FMS.page('u3-s16', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 6 - Writing, the models', part: '6', section: '16',
           lesson: 'Part 6 - Writing, the models', title: 'Part 6 - Writing, the models' },
-  objective: 'Work through Part 6 - Writing, the models of unit 3.',
+  objective: 'By the end of Part 6 you can recognise the five elements of a press '
+        + 'release and what each one is for, write an official summary, and write a '
+        + 'ministry press statement of 80 to 100 words.',
   prev: 's15-reading-comprehension', prevLabel: 'Part 5 - Comprehension',
   next: 's17-writing-bios', nextLabel: 'Part 6 - Writing, bios',
   cards: [

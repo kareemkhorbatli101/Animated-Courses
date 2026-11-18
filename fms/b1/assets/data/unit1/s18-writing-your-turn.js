@@ -7,7 +7,10 @@
 FMS.page('u1-s18', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 6 - Writing, your turn', part: '6', section: '18',
           lesson: 'Part 6 - Writing, your turn', title: 'Part 6 - Writing, your turn' },
-  objective: 'Work through Part 6 - Writing, your turn of unit 1.',
+  objective: 'By the end of Part 6 you can recognise the five parts of a professional '
+        + 'introduction email and what each one is for, write a short professional '
+        + 'bio, and write your own introduction email of 80 to 100 words in a formal '
+        + 'register.',
   prev: 's17-writing-bios', prevLabel: 'Part 6 - Writing, bios',
   next: 's19-stress', nextLabel: 'Part 7 - Word stress',
   cards: [

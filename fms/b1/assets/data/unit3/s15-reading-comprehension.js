@@ -7,7 +7,9 @@
 FMS.page('u3-s15', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 5 - Comprehension', part: '5', section: '15',
           lesson: 'Part 5 - Comprehension', title: 'Part 5 - Comprehension' },
-  objective: 'Work through Part 5 - Comprehension of unit 3.',
+  objective: 'By the end of Part 5 you can read an account of a ministry\'s diplomatic '
+        + 'year for its figures and its achievements, discuss what the numbers do and '
+        + 'do not show, and use the passive the way diplomatic writing uses it.',
   prev: 's14-reading-profiles', prevLabel: 'Part 5 - Reading',
   next: 's16-writing-models', nextLabel: 'Part 6 - Writing, the models',
   cards: [

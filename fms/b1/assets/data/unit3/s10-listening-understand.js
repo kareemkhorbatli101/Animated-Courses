@@ -7,7 +7,10 @@
 FMS.page('u3-s10', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 3 - Listening', part: '3', section: '10',
           lesson: 'Part 3 - Listening', title: 'Part 3 - Listening' },
-  objective: 'Work through Part 3 - Listening of unit 3.',
+  objective: 'By the end of Part 3 you can predict the tone and formality of an official '
+        + 'statement, follow four excerpts from press briefings and bilateral '
+        + 'statements, choose a correct professional answer to a difficult question '
+        + 'from a journalist or diplomat, and write down five official phrases.',
   prev: 's09-listening-predict', prevLabel: 'Part 3 - Before you listen',
   next: 's11-listening-respond', nextLabel: 'Part 3 - Responding',
   cards: [

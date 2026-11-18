@@ -7,7 +7,9 @@
 FMS.page('u3-s01', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Warm Up', part: '0', section: '1',
           lesson: 'Warm Up', title: 'Warm Up' },
-  objective: 'Work through Warm Up of unit 3.',
+  objective: 'By the end of this Warm Up you can tell your country\'s story in English '
+        + 'in a few clear sentences, anticipate the questions foreign visitors ask '
+        + 'most often, and use modal verbs accurately again after Unit 2.',
   next: 's02-fluency', nextLabel: 'Warm Up - fluency',
   cards: [
     {

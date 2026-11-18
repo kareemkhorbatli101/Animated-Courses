@@ -7,7 +7,11 @@
 FMS.page('u2-s10', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 3 - Listening', part: '3', section: '10',
           lesson: 'Part 3 - Listening', title: 'Part 3 - Listening' },
-  objective: 'Work through Part 3 - Listening of unit 2.',
+  objective: 'By the end of Part 3 you can predict the modal language a coordination '
+        + 'call will use, follow four calls between a protocol officer and an embassy '
+        + 'closely enough to extract each decision and deadline, choose a correct '
+        + 'professional response to a request, and write down five coordination '
+        + 'phrases.',
   prev: 's09-listening-predict', prevLabel: 'Part 3 - Before you listen',
   next: 's11-listening-respond', nextLabel: 'Part 3 - Responding',
   cards: [

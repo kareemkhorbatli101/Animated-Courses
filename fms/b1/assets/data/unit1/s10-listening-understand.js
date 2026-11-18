@@ -7,7 +7,11 @@
 FMS.page('u1-s10', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 3 - Listening', part: '3', section: '10',
           lesson: 'Part 3 - Listening', title: 'Part 3 - Listening' },
-  objective: 'Work through Part 3 - Listening of unit 1.',
+  objective: 'By the end of Part 3 you can predict what a visitor at the reception desk '
+        + 'will say, follow four arrival conversations closely enough to identify '
+        + 'each visitor, their purpose and the department they need, choose a correct '
+        + 'staff response to an opening line, and write down five reception phrases '
+        + 'you can use yourself.',
   prev: 's09-listening-predict', prevLabel: 'Part 3 - Before you listen',
   next: 's11-listening-respond', nextLabel: 'Part 3 - Responding',
   cards: [

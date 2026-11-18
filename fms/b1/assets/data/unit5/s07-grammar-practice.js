@@ -7,7 +7,10 @@
 FMS.page('u5-s07', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 2 - Grammar, practice', part: '2', section: '7',
           lesson: 'Part 2 - Grammar, practice', title: 'Part 2 - Grammar, practice' },
-  objective: 'Work through Part 2 - Grammar, practice of unit 5.',
+  objective: 'By the end of Part 2 you can tell a real possibility from a hypothetical '
+        + 'one, form the first and second conditional correctly, correct conditional '
+        + 'errors in investment talk, and answer an investor\'s questions using each '
+        + 'conditional for what it is for.',
   prev: 's06-grammar-notice', prevLabel: 'Part 2 - Grammar, notice',
   next: 's08-grammar-speaking', nextLabel: 'Part 2 - Grammar, speaking',
   cards: [

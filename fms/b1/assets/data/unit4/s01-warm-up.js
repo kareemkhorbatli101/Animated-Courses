@@ -7,7 +7,9 @@
 FMS.page('u4-s01', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Warm Up', part: '0', section: '1',
           lesson: 'Warm Up', title: 'Warm Up' },
-  objective: 'Work through Warm Up of unit 4.',
+  objective: 'By the end of this Warm Up you can describe your country\'s future '
+        + 'direction in English, name the kinds of written communication a ministry '
+        + 'produces, and use the passive accurately again after Unit 3.',
   next: 's02-fluency', nextLabel: 'Warm Up - fluency',
   cards: [
     {

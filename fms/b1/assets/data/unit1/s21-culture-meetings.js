@@ -7,7 +7,11 @@
 FMS.page('u1-s21', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 8 - First meetings', part: '8', section: '21',
           lesson: 'Part 8 - First meetings', title: 'Part 8 - First meetings' },
-  objective: 'Work through Part 8 - First meetings of unit 1.',
+  objective: 'By the end of Part 8 you can describe how first meetings differ across the '
+        + 'cultures your ministry receives, compare greeting, small talk and '
+        + 'business-card norms in a table, and adapt your welcome for a European '
+        + 'cultural attache and for a senior Gulf Arab official without losing your '
+        + 'own professional manner.',
   prev: 's20-pronunciation-practice', prevLabel: 'Part 7 - Pronunciation',
   next: 's22-culture-role-plays', nextLabel: 'Part 8 - Role plays',
   cards: [

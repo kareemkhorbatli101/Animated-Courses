@@ -7,7 +7,10 @@
 FMS.page('u1-s13', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 4 - Role play', part: '4', section: '13',
           lesson: 'Part 4 - Role play', title: 'Part 4 - Role play' },
-  objective: 'Work through Part 4 - Role play of unit 1.',
+  objective: 'By the end of Part 4 you can perform a complete reception script from '
+        + 'greeting to handover, introduce yourself and your role at a formal '
+        + 'reception, and say what makes a good first impression and what damages '
+        + 'one.',
   prev: 's12-dialogue-script', prevLabel: 'Part 4 - The script',
   next: 's14-reading-profiles', nextLabel: 'Part 5 - Reading',
   cards: [

@@ -7,7 +7,10 @@
 FMS.page('u1-s19', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 7 - Word stress', part: '7', section: '19',
           lesson: 'Part 7 - Word stress', title: 'Part 7 - Word stress' },
-  objective: 'Work through Part 7 - Word stress of unit 1.',
+  objective: 'By the end of Part 7 you can place the stress correctly in this unit\'s '
+        + 'diplomatic vocabulary, link words so that your speech sounds natural '
+        + 'rather than word by word, and record a reception dialogue using your own '
+        + 'name and position.',
   prev: 's18-writing-your-turn', prevLabel: 'Part 6 - Writing, your turn',
   next: 's20-pronunciation-practice', nextLabel: 'Part 7 - Pronunciation',
   cards: [

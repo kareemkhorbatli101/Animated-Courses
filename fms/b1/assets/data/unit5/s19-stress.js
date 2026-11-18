@@ -7,7 +7,10 @@
 FMS.page('u5-s19', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 7 - Word stress', part: '7', section: '19',
           lesson: 'Part 7 - Word stress', title: 'Part 7 - Word stress' },
-  objective: 'Work through Part 7 - Word stress of unit 5.',
+  objective: 'By the end of Part 7 you can stress this unit\'s investment and legal '
+        + 'vocabulary correctly, use the rise-and-fall rhythm that makes a '
+        + 'conditional sentence sound confident rather than hesitant, and record a '
+        + 'dialogue using a real investment question from your own work.',
   prev: 's18-writing-your-turn', prevLabel: 'Part 6 - Writing, your turn',
   next: 's20-pronunciation-practice', nextLabel: 'Part 7 - Pronunciation',
   cards: [

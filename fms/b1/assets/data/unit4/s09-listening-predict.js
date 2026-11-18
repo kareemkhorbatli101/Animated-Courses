@@ -7,7 +7,10 @@
 FMS.page('u4-s09', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 3 - Before you listen', part: '3', section: '9',
           lesson: 'Part 3 - Before you listen', title: 'Part 3 - Before you listen' },
-  objective: 'Work through Part 3 - Before you listen of unit 4.',
+  objective: 'By the end of Part 3 you can predict the future language a formal '
+        + 'cooperation context will use, follow four excerpts from bilateral events '
+        + 'and planning sessions, choose a correct formal response, and write down '
+        + 'five cooperation phrases.',
   prev: 's08-grammar-speaking', prevLabel: 'Part 2 - Grammar, speaking',
   next: 's10-listening-understand', nextLabel: 'Part 3 - Listening',
   cards: [

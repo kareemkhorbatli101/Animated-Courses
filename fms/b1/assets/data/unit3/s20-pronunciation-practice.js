@@ -7,7 +7,9 @@
 FMS.page('u3-s20', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 7 - Pronunciation', part: '7', section: '20',
           lesson: 'Part 7 - Pronunciation', title: 'Part 7 - Pronunciation' },
-  objective: 'Work through Part 7 - Pronunciation of unit 3.',
+  objective: 'By the end of Part 7 you can stress this unit\'s policy and sovereignty '
+        + 'vocabulary correctly, use intonation that carries authority without '
+        + 'sounding harsh, and record an official statement in your own voice.',
   prev: 's19-stress', prevLabel: 'Part 7 - Word stress',
   next: 's21-culture-meetings', nextLabel: 'Part 8 - First meetings',
   cards: [

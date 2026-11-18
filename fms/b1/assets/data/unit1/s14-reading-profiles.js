@@ -7,7 +7,10 @@
 FMS.page('u1-s14', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 5 - Reading', part: '5', section: '14',
           lesson: 'Part 5 - Reading', title: 'Part 5 - Reading' },
-  objective: 'Work through Part 5 - Reading of unit 1.',
+  objective: 'By the end of Part 5 you can read a set of ministry staff profiles for '
+        + 'each person\'s role, length of service and current work, discuss who is '
+        + 'responsible for what, and use this unit\'s professional collocations in '
+        + 'your own writing.',
   prev: 's13-role-play', prevLabel: 'Part 4 - Role play',
   next: 's15-reading-comprehension', nextLabel: 'Part 5 - Comprehension',
   cards: [

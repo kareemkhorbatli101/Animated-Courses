@@ -7,7 +7,9 @@
 FMS.page('u4-s16', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 6 - Writing, the models', part: '6', section: '16',
           lesson: 'Part 6 - Writing, the models', title: 'Part 6 - Writing, the models' },
-  objective: 'Work through Part 6 - Writing, the models of unit 4.',
+  objective: 'By the end of Part 6 you can recognise the elements of a note verbale and '
+        + 'what each one is for, write a formal invitation, and write a '
+        + 'congratulatory note of 60 to 80 words.',
   prev: 's15-reading-comprehension', prevLabel: 'Part 5 - Comprehension',
   next: 's17-writing-bios', nextLabel: 'Part 6 - Writing, bios',
   cards: [

@@ -7,7 +7,11 @@
 FMS.page('u2-s07', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 2 - Grammar, practice', part: '2', section: '7',
           lesson: 'Part 2 - Grammar, practice', title: 'Part 2 - Grammar, practice' },
-  objective: 'Work through Part 2 - Grammar, practice of unit 2.',
+  objective: 'By the end of Part 2 you can choose the right modal verb for an '
+        + 'obligation, a recommendation, a possibility and a polite request, give the '
+        + 'ministry example for each, correct modal errors in coordination writing, '
+        + 'and make a request of a counterpart at the level of politeness the '
+        + 'situation needs.',
   prev: 's06-grammar-notice', prevLabel: 'Part 2 - Grammar, notice',
   next: 's08-grammar-speaking', nextLabel: 'Part 2 - Grammar, speaking',
   cards: [

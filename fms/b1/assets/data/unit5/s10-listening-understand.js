@@ -7,7 +7,11 @@
 FMS.page('u5-s10', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 3 - Listening', part: '3', section: '10',
           lesson: 'Part 3 - Listening', title: 'Part 3 - Listening' },
-  objective: 'Work through Part 3 - Listening of unit 5.',
+  objective: 'By the end of Part 3 you can predict how an investment conversation will '
+        + 'go, follow four investment diplomacy scenarios closely enough to identify '
+        + 'each investor\'s interest and what the officer commits to, choose a '
+        + 'correct officer response to an investor\'s question, and write down five '
+        + 'investment phrases.',
   prev: 's09-listening-predict', prevLabel: 'Part 3 - Before you listen',
   next: 's11-listening-respond', nextLabel: 'Part 3 - Responding',
   cards: [

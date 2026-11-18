@@ -7,7 +7,10 @@
 FMS.page('u4-s15', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 5 - Comprehension', part: '5', section: '15',
           lesson: 'Part 5 - Comprehension', title: 'Part 5 - Comprehension' },
-  objective: 'Work through Part 5 - Comprehension of unit 4.',
+  objective: 'By the end of Part 5 you can read a bilateral cooperation framework for '
+        + 'its areas, its mechanisms and its timetable, discuss how the commitments '
+        + 'are meant to work in practice, and use future forms the way a framework '
+        + 'document uses them.',
   prev: 's14-reading-profiles', prevLabel: 'Part 5 - Reading',
   next: 's16-writing-models', nextLabel: 'Part 6 - Writing, the models',
   cards: [

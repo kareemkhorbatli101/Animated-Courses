@@ -7,7 +7,9 @@
 FMS.page('u3-s13', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 4 - Role play', part: '4', section: '13',
           lesson: 'Part 4 - Role play', title: 'Part 4 - Role play' },
-  objective: 'Work through Part 4 - Role play of unit 3.',
+  objective: 'By the end of Part 4 you can answer questions at a press conference '
+        + 'without conceding more than you intend, deliver an investment briefing, '
+        + 'and stay both honest and forward-looking when a question is uncomfortable.',
   prev: 's12-dialogue-script', prevLabel: 'Part 4 - The script',
   next: 's14-reading-profiles', nextLabel: 'Part 5 - Reading',
   cards: [

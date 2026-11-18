@@ -7,7 +7,10 @@
 FMS.page('u5-s22', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 8 - Role plays', part: '8', section: '22',
           lesson: 'Part 8 - Role plays', title: 'Part 8 - Role plays' },
-  objective: 'Work through Part 8 - Role plays of unit 5.',
+  objective: 'By the end of Part 8 you can describe how business culture shapes an '
+        + 'investment meeting, compare directness, relationship-building and the pace '
+        + 'of decisions in a table, and host both a German and a Gulf investor '
+        + 'meeting appropriately.',
   prev: 's21-culture-meetings', prevLabel: 'Part 8 - First meetings',
   next: 's23-can-do-glossary', nextLabel: 'Part 8 - Can-Do and glossary',
   cards: [

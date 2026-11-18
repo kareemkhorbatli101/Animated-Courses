@@ -7,7 +7,11 @@
 FMS.page('u4-s08', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 2 - Grammar, speaking', part: '2', section: '8',
           lesson: 'Part 2 - Grammar, speaking', title: 'Part 2 - Grammar, speaking' },
-  objective: 'Work through Part 2 - Grammar, speaking of unit 4.',
+  objective: 'By the end of Part 2 you can choose the right future form for a ministry '
+        + 'plan - a decision, an arrangement, an intention or a prediction - give the '
+        + 'ministry example for each, correct future-form errors in a planning memo, '
+        + 'and speak about commitments with the degree of certainty you actually '
+        + 'mean.',
   prev: 's07-grammar-practice', prevLabel: 'Part 2 - Grammar, practice',
   next: 's09-listening-predict', nextLabel: 'Part 3 - Before you listen',
   cards: [

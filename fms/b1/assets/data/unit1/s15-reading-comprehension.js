@@ -7,7 +7,10 @@
 FMS.page('u1-s15', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 5 - Comprehension', part: '5', section: '15',
           lesson: 'Part 5 - Comprehension', title: 'Part 5 - Comprehension' },
-  objective: 'Work through Part 5 - Comprehension of unit 1.',
+  objective: 'By the end of Part 5 you can read a set of ministry staff profiles for '
+        + 'each person\'s role, length of service and current work, discuss who is '
+        + 'responsible for what, and use this unit\'s professional collocations in '
+        + 'your own writing.',
   prev: 's14-reading-profiles', prevLabel: 'Part 5 - Reading',
   next: 's16-writing-models', nextLabel: 'Part 6 - Writing, the models',
   cards: [

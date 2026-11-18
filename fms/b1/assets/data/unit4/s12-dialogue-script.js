@@ -7,7 +7,9 @@
 FMS.page('u4-s12', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 4 - The script', part: '4', section: '12',
           lesson: 'Part 4 - The script', title: 'Part 4 - The script' },
-  objective: 'Work through Part 4 - The script of unit 4.',
+  objective: 'By the end of Part 4 you can propose a toast at a formal dinner, present a '
+        + 'bilateral cooperation framework, and speak about a shared future in the '
+        + 'register the occasion requires.',
   prev: 's11-listening-respond', prevLabel: 'Part 3 - Responding',
   next: 's13-role-play', nextLabel: 'Part 4 - Role play',
   cards: [

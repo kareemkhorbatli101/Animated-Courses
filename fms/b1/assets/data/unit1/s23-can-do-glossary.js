@@ -7,7 +7,11 @@
 FMS.page('u1-s23', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 8 - Can-Do and glossary', part: '8', section: '23',
           lesson: 'Part 8 - Can-Do and glossary', title: 'Part 8 - Can-Do and glossary' },
-  objective: 'Work through Part 8 - Can-Do and glossary of unit 1.',
+  objective: 'By the end of Part 8 you can describe how first meetings differ across the '
+        + 'cultures your ministry receives, compare greeting, small talk and '
+        + 'business-card norms in a table, and adapt your welcome for a European '
+        + 'cultural attache and for a senior Gulf Arab official without losing your '
+        + 'own professional manner.',
   prev: 's22-culture-role-plays', prevLabel: 'Part 8 - Role plays',
   cards: [
     {

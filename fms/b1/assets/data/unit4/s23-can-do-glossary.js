@@ -7,7 +7,10 @@
 FMS.page('u4-s23', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 8 - Can-Do and glossary', part: '8', section: '23',
           lesson: 'Part 8 - Can-Do and glossary', title: 'Part 8 - Can-Do and glossary' },
-  objective: 'Work through Part 8 - Can-Do and glossary of unit 4.',
+  objective: 'By the end of Part 8 you can describe how one formal dinner is read '
+        + 'differently in three cultures, compare seating, toasting and hospitality '
+        + 'norms in a table, and handle both a toast at a bilateral dinner and the '
+        + 'welcome of a Gulf Arab official at a formal reception.',
   prev: 's22-culture-role-plays', prevLabel: 'Part 8 - Role plays',
   cards: [
     {

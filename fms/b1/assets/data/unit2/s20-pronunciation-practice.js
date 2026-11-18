@@ -7,7 +7,10 @@
 FMS.page('u2-s20', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 7 - Pronunciation', part: '7', section: '20',
           lesson: 'Part 7 - Pronunciation', title: 'Part 7 - Pronunciation' },
-  objective: 'Work through Part 7 - Pronunciation of unit 2.',
+  objective: 'By the end of Part 7 you can stress this unit\'s meeting and coordination '
+        + 'vocabulary correctly, use the intonation that keeps meeting-room language '
+        + 'formal rather than abrupt, and record a meeting opening on a topic from '
+        + 'your own work.',
   prev: 's19-stress', prevLabel: 'Part 7 - Word stress',
   next: 's21-culture-meetings', nextLabel: 'Part 8 - First meetings',
   cards: [

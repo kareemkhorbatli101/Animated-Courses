@@ -7,7 +7,9 @@
 FMS.page('u5-s12', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 4 - The script', part: '4', section: '12',
           lesson: 'Part 4 - The script', title: 'Part 4 - The script' },
-  objective: 'Work through Part 4 - The script of unit 5.',
+  objective: 'By the end of Part 4 you can deliver an investment briefing script, take '
+        + 'part in a panel discussion at a national investment forum, and say what '
+        + 'makes an investment pitch work and what makes one fail.',
   prev: 's11-listening-respond', prevLabel: 'Part 3 - Responding',
   next: 's13-role-play', nextLabel: 'Part 4 - Role play',
   cards: [

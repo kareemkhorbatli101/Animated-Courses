@@ -7,7 +7,9 @@
 FMS.page('u3-s14', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 5 - Reading', part: '5', section: '14',
           lesson: 'Part 5 - Reading', title: 'Part 5 - Reading' },
-  objective: 'Work through Part 5 - Reading of unit 3.',
+  objective: 'By the end of Part 5 you can read an account of a ministry\'s diplomatic '
+        + 'year for its figures and its achievements, discuss what the numbers do and '
+        + 'do not show, and use the passive the way diplomatic writing uses it.',
   prev: 's13-role-play', prevLabel: 'Part 4 - Role play',
   next: 's15-reading-comprehension', nextLabel: 'Part 5 - Comprehension',
   cards: [

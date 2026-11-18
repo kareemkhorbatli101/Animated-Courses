@@ -7,7 +7,10 @@
 FMS.page('u1-s04', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 1 - Role cards', part: '1', section: '4',
           lesson: 'Part 1 - Role cards', title: 'Part 1 - Role cards' },
-  objective: 'Work through Part 1 - Role cards of unit 1.',
+  objective: 'By the end of Part 1 you can use this unit\'s seven reception and protocol '
+        + 'terms correctly, read a visitor\'s role card to work out which department '
+        + 'should receive them and what they need before they proceed, and complete a '
+        + 'professional sentence with the right term.',
   prev: 's03-vocabulary-match', prevLabel: 'Part 1 - Vocabulary',
   next: 's05-vocabulary-practice', nextLabel: 'Part 1 - Practice',
   cards: [

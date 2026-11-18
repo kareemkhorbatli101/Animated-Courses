@@ -7,7 +7,10 @@
 FMS.page('u3-s23', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 8 - Can-Do and glossary', part: '8', section: '23',
           lesson: 'Part 8 - Can-Do and glossary', title: 'Part 8 - Can-Do and glossary' },
-  objective: 'Work through Part 8 - Can-Do and glossary of unit 3.',
+  objective: 'By the end of Part 8 you can describe how four different audiences need '
+        + 'the same facts put differently, decide from an audience sensitivity matrix '
+        + 'what to emphasise and what to acknowledge only briefly, and brief both a '
+        + 'foreign correspondent and a Gulf Arab official on the same policy.',
   prev: 's22-culture-role-plays', prevLabel: 'Part 8 - Role plays',
   cards: [
     {

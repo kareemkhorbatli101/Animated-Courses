@@ -7,7 +7,9 @@
 FMS.page('u5-s13', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 4 - Role play', part: '4', section: '13',
           lesson: 'Part 4 - Role play', title: 'Part 4 - Role play' },
-  objective: 'Work through Part 4 - Role play of unit 5.',
+  objective: 'By the end of Part 4 you can deliver an investment briefing script, take '
+        + 'part in a panel discussion at a national investment forum, and say what '
+        + 'makes an investment pitch work and what makes one fail.',
   prev: 's12-dialogue-script', prevLabel: 'Part 4 - The script',
   next: 's14-reading-profiles', nextLabel: 'Part 5 - Reading',
   cards: [

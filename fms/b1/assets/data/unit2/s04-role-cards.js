@@ -7,7 +7,10 @@
 FMS.page('u2-s04', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 1 - Role cards', part: '1', section: '4',
           lesson: 'Part 1 - Role cards', title: 'Part 1 - Role cards' },
-  objective: 'Work through Part 1 - Role cards of unit 2.',
+  objective: 'By the end of Part 1 you can use this unit\'s seven coordination and '
+        + 'protocol terms correctly, arrange a room, interpretation and equipment '
+        + 'from the details on a scenario card, and say what a protocol brief must '
+        + 'contain.',
   prev: 's03-vocabulary-match', prevLabel: 'Part 1 - Vocabulary',
   next: 's05-vocabulary-practice', nextLabel: 'Part 1 - Practice',
   cards: [

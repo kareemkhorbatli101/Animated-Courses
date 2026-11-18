@@ -7,7 +7,9 @@
 FMS.page('u4-s13', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 4 - Role play', part: '4', section: '13',
           lesson: 'Part 4 - Role play', title: 'Part 4 - Role play' },
-  objective: 'Work through Part 4 - Role play of unit 4.',
+  objective: 'By the end of Part 4 you can propose a toast at a formal dinner, present a '
+        + 'bilateral cooperation framework, and speak about a shared future in the '
+        + 'register the occasion requires.',
   prev: 's12-dialogue-script', prevLabel: 'Part 4 - The script',
   next: 's14-reading-profiles', nextLabel: 'Part 5 - Reading',
   cards: [

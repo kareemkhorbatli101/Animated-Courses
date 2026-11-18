@@ -7,7 +7,10 @@
 FMS.page('u4-s22', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 8 - Role plays', part: '8', section: '22',
           lesson: 'Part 8 - Role plays', title: 'Part 8 - Role plays' },
-  objective: 'Work through Part 8 - Role plays of unit 4.',
+  objective: 'By the end of Part 8 you can describe how one formal dinner is read '
+        + 'differently in three cultures, compare seating, toasting and hospitality '
+        + 'norms in a table, and handle both a toast at a bilateral dinner and the '
+        + 'welcome of a Gulf Arab official at a formal reception.',
   prev: 's21-culture-meetings', prevLabel: 'Part 8 - First meetings',
   next: 's23-can-do-glossary', nextLabel: 'Part 8 - Can-Do and glossary',
   cards: [

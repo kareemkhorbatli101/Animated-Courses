@@ -7,7 +7,9 @@
 FMS.page('u2-s12', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 4 - The script', part: '4', section: '12',
           lesson: 'Part 4 - The script', title: 'Part 4 - The script' },
-  objective: 'Work through Part 4 - The script of unit 2.',
+  objective: 'By the end of Part 4 you can make a coordination call that settles date, '
+        + 'venue, interpretation and equipment, open a bilateral meeting formally, '
+        + 'and say how a meeting is held to its agenda and its time.',
   prev: 's11-listening-respond', prevLabel: 'Part 3 - Responding',
   next: 's13-role-play', nextLabel: 'Part 4 - Role play',
   cards: [

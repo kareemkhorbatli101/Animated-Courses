@@ -7,7 +7,10 @@
 FMS.page('u4-s03', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 1 - Vocabulary', part: '1', section: '3',
           lesson: 'Part 1 - Vocabulary', title: 'Part 1 - Vocabulary' },
-  objective: 'Work through Part 1 - Vocabulary of unit 4.',
+  objective: 'By the end of Part 1 you can use this unit\'s seven correspondence and '
+        + 'cooperation terms correctly, complete a formal correspondence formula from '
+        + 'the details on a scenario card, and state the norms that formal diplomatic '
+        + 'correspondence follows.',
   prev: 's02-fluency', prevLabel: 'Warm Up - fluency',
   next: 's04-role-cards', nextLabel: 'Part 1 - Role cards',
   cards: [

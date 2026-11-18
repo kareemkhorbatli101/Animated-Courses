@@ -7,7 +7,10 @@
 FMS.page('u5-s21', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 8 - First meetings', part: '8', section: '21',
           lesson: 'Part 8 - First meetings', title: 'Part 8 - First meetings' },
-  objective: 'Work through Part 8 - First meetings of unit 5.',
+  objective: 'By the end of Part 8 you can describe how business culture shapes an '
+        + 'investment meeting, compare directness, relationship-building and the pace '
+        + 'of decisions in a table, and host both a German and a Gulf investor '
+        + 'meeting appropriately.',
   prev: 's20-pronunciation-practice', prevLabel: 'Part 7 - Pronunciation',
   next: 's22-culture-role-plays', nextLabel: 'Part 8 - Role plays',
   cards: [

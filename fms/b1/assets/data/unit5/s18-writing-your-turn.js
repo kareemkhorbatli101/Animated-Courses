@@ -7,7 +7,10 @@
 FMS.page('u5-s18', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 6 - Writing, your turn', part: '6', section: '18',
           lesson: 'Part 6 - Writing, your turn', title: 'Part 6 - Writing, your turn' },
-  objective: 'Work through Part 6 - Writing, your turn of unit 5.',
+  objective: 'By the end of Part 6 you can recognise the parts of a formal investment '
+        + 'letter and what each one is for, write investment correspondence from a '
+        + 'table of data, and write a formal investment invitation letter of 100 to '
+        + '120 words.',
   prev: 's17-writing-bios', prevLabel: 'Part 6 - Writing, bios',
   next: 's19-stress', nextLabel: 'Part 7 - Word stress',
   cards: [

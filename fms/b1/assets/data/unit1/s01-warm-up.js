@@ -7,7 +7,11 @@
 FMS.page('u1-s01', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Warm Up', part: '0', section: '1',
           lesson: 'Warm Up', title: 'Warm Up' },
-  objective: 'Work through Warm Up of unit 1.',
+  objective: 'By the end of this Warm Up you can describe the kinds of foreign visitor '
+        + 'your ministry now receives, say what first impression every staff member '
+        + 'should aim to make, and carry out a short reception sequence - greeting a '
+        + 'visitor, asking who they have come to see, and directing them to the right '
+        + 'office.',
   next: 's02-fluency', nextLabel: 'Warm Up - fluency',
   cards: [
     {

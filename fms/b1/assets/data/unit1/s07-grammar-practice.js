@@ -7,7 +7,10 @@
 FMS.page('u1-s07', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 2 - Grammar, practice', part: '2', section: '7',
           lesson: 'Part 2 - Grammar, practice', title: 'Part 2 - Grammar, practice' },
-  objective: 'Work through Part 2 - Grammar, practice of unit 1.',
+  objective: 'By the end of Part 2 you can tell a permanent fact about the ministry from '
+        + 'a temporary situation, choose present simple or present continuous for '
+        + 'each, correct the most common mistakes between the two, and use both to '
+        + 'answer questions about your own work.',
   prev: 's06-grammar-notice', prevLabel: 'Part 2 - Grammar, notice',
   next: 's08-grammar-speaking', nextLabel: 'Part 2 - Grammar, speaking',
   cards: [

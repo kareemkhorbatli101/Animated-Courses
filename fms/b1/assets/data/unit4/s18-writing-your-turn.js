@@ -7,7 +7,9 @@
 FMS.page('u4-s18', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 6 - Writing, your turn', part: '6', section: '18',
           lesson: 'Part 6 - Writing, your turn', title: 'Part 6 - Writing, your turn' },
-  objective: 'Work through Part 6 - Writing, your turn of unit 4.',
+  objective: 'By the end of Part 6 you can recognise the elements of a note verbale and '
+        + 'what each one is for, write a formal invitation, and write a '
+        + 'congratulatory note of 60 to 80 words.',
   prev: 's17-writing-bios', prevLabel: 'Part 6 - Writing, bios',
   next: 's19-stress', nextLabel: 'Part 7 - Word stress',
   cards: [

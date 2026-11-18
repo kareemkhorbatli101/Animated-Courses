@@ -7,7 +7,10 @@
 FMS.page('u4-s04', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 1 - Role cards', part: '1', section: '4',
           lesson: 'Part 1 - Role cards', title: 'Part 1 - Role cards' },
-  objective: 'Work through Part 1 - Role cards of unit 4.',
+  objective: 'By the end of Part 1 you can use this unit\'s seven correspondence and '
+        + 'cooperation terms correctly, complete a formal correspondence formula from '
+        + 'the details on a scenario card, and state the norms that formal diplomatic '
+        + 'correspondence follows.',
   prev: 's03-vocabulary-match', prevLabel: 'Part 1 - Vocabulary',
   next: 's05-vocabulary-practice', nextLabel: 'Part 1 - Practice',
   cards: [

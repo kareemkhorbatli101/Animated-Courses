@@ -7,7 +7,10 @@
 FMS.page('u2-s15', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 5 - Comprehension', part: '5', section: '15',
           lesson: 'Part 5 - Comprehension', title: 'Part 5 - Comprehension' },
-  objective: 'Work through Part 5 - Comprehension of unit 2.',
+  objective: 'By the end of Part 5 you can read an account of a bilateral working group '
+        + 'session for its preparation steps, its structure and its outcomes, discuss '
+        + 'why each step was taken, and use modal verbs correctly when you set out a '
+        + 'procedure.',
   prev: 's14-reading-profiles', prevLabel: 'Part 5 - Reading',
   next: 's16-writing-models', nextLabel: 'Part 6 - Writing, the models',
   cards: [

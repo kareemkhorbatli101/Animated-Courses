@@ -7,7 +7,9 @@
 FMS.page('u2-s17', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 6 - Writing, bios', part: '6', section: '17',
           lesson: 'Part 6 - Writing, bios', title: 'Part 6 - Writing, bios' },
-  objective: 'Work through Part 6 - Writing, bios of unit 2.',
+  objective: 'By the end of Part 6 you can recognise the five sections of a meeting '
+        + 'agenda and what each one is for, write an agenda for a bilateral session, '
+        + 'and write a meeting confirmation email of 80 to 100 words.',
   prev: 's16-writing-models', prevLabel: 'Part 6 - Writing, the models',
   next: 's18-writing-your-turn', nextLabel: 'Part 6 - Writing, your turn',
   cards: [

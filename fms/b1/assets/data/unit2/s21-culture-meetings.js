@@ -7,7 +7,10 @@
 FMS.page('u2-s21', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 8 - First meetings', part: '8', section: '21',
           lesson: 'Part 8 - First meetings', title: 'Part 8 - First meetings' },
-  objective: 'Work through Part 8 - First meetings of unit 2.',
+  objective: 'By the end of Part 8 you can describe how meeting behaviour differs across '
+        + 'three cultural contexts, compare punctuality, turn-taking and '
+        + 'decision-making in a table, and open a meeting appropriately for a '
+        + 'European environmental NGO and for a Gulf Arab ministerial delegation.',
   prev: 's20-pronunciation-practice', prevLabel: 'Part 7 - Pronunciation',
   next: 's22-culture-role-plays', nextLabel: 'Part 8 - Role plays',
   cards: [

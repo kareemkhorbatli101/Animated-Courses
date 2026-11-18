@@ -7,7 +7,10 @@
 FMS.page('u2-s19', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 7 - Word stress', part: '7', section: '19',
           lesson: 'Part 7 - Word stress', title: 'Part 7 - Word stress' },
-  objective: 'Work through Part 7 - Word stress of unit 2.',
+  objective: 'By the end of Part 7 you can stress this unit\'s meeting and coordination '
+        + 'vocabulary correctly, use the intonation that keeps meeting-room language '
+        + 'formal rather than abrupt, and record a meeting opening on a topic from '
+        + 'your own work.',
   prev: 's18-writing-your-turn', prevLabel: 'Part 6 - Writing, your turn',
   next: 's20-pronunciation-practice', nextLabel: 'Part 7 - Pronunciation',
   cards: [

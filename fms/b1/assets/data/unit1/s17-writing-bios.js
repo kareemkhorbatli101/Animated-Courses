@@ -7,7 +7,10 @@
 FMS.page('u1-s17', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 6 - Writing, bios', part: '6', section: '17',
           lesson: 'Part 6 - Writing, bios', title: 'Part 6 - Writing, bios' },
-  objective: 'Work through Part 6 - Writing, bios of unit 1.',
+  objective: 'By the end of Part 6 you can recognise the five parts of a professional '
+        + 'introduction email and what each one is for, write a short professional '
+        + 'bio, and write your own introduction email of 80 to 100 words in a formal '
+        + 'register.',
   prev: 's16-writing-models', prevLabel: 'Part 6 - Writing, the models',
   next: 's18-writing-your-turn', nextLabel: 'Part 6 - Writing, your turn',
   cards: [

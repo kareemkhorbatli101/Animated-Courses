@@ -7,7 +7,10 @@
 FMS.page('u3-s04', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 1 - Role cards', part: '1', section: '4',
           lesson: 'Part 1 - Role cards', title: 'Part 1 - Role cards' },
-  objective: 'Work through Part 1 - Role cards of unit 3.',
+  objective: 'By the end of Part 1 you can use this unit\'s seven policy and programme '
+        + 'terms correctly, present one of your ministry\'s programmes from a role '
+        + 'card, and choose professional language for a sensitive topic rather than '
+        + 'avoiding it.',
   prev: 's03-vocabulary-match', prevLabel: 'Part 1 - Vocabulary',
   next: 's05-vocabulary-practice', nextLabel: 'Part 1 - Practice',
   cards: [

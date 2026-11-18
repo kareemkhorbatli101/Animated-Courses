@@ -7,7 +7,10 @@
 FMS.page('u5-s17', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 6 - Writing, bios', part: '6', section: '17',
           lesson: 'Part 6 - Writing, bios', title: 'Part 6 - Writing, bios' },
-  objective: 'Work through Part 6 - Writing, bios of unit 5.',
+  objective: 'By the end of Part 6 you can recognise the parts of a formal investment '
+        + 'letter and what each one is for, write investment correspondence from a '
+        + 'table of data, and write a formal investment invitation letter of 100 to '
+        + '120 words.',
   prev: 's16-writing-models', prevLabel: 'Part 6 - Writing, the models',
   next: 's18-writing-your-turn', nextLabel: 'Part 6 - Writing, your turn',
   cards: [

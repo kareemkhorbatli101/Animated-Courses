@@ -7,7 +7,10 @@
 FMS.page('u5-s05', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 1 - Practice', part: '1', section: '5',
           lesson: 'Part 1 - Practice', title: 'Part 1 - Practice' },
-  objective: 'Work through Part 1 - Practice of unit 5.',
+  objective: 'By the end of Part 1 you can use this unit\'s seven investment and '
+        + 'facilitation terms correctly, read an investor\'s role card to identify '
+        + 'their sector and what they need from the ministry, and match an investor '
+        + 'to the ministry resources that can actually help them.',
   prev: 's04-role-cards', prevLabel: 'Part 1 - Role cards',
   next: 's06-grammar-notice', nextLabel: 'Part 2 - Grammar, notice',
   cards: [

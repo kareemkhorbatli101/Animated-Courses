@@ -7,7 +7,10 @@
 FMS.page('u2-s14', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 5 - Reading', part: '5', section: '14',
           lesson: 'Part 5 - Reading', title: 'Part 5 - Reading' },
-  objective: 'Work through Part 5 - Reading of unit 2.',
+  objective: 'By the end of Part 5 you can read an account of a bilateral working group '
+        + 'session for its preparation steps, its structure and its outcomes, discuss '
+        + 'why each step was taken, and use modal verbs correctly when you set out a '
+        + 'procedure.',
   prev: 's13-role-play', prevLabel: 'Part 4 - Role play',
   next: 's15-reading-comprehension', nextLabel: 'Part 5 - Comprehension',
   cards: [

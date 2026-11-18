@@ -7,7 +7,10 @@
 FMS.page('u3-s11', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 3 - Responding', part: '3', section: '11',
           lesson: 'Part 3 - Responding', title: 'Part 3 - Responding' },
-  objective: 'Work through Part 3 - Responding of unit 3.',
+  objective: 'By the end of Part 3 you can predict the tone and formality of an official '
+        + 'statement, follow four excerpts from press briefings and bilateral '
+        + 'statements, choose a correct professional answer to a difficult question '
+        + 'from a journalist or diplomat, and write down five official phrases.',
   prev: 's10-listening-understand', prevLabel: 'Part 3 - Listening',
   next: 's12-dialogue-script', nextLabel: 'Part 4 - The script',
   cards: [

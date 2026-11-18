@@ -7,7 +7,9 @@
 FMS.page('u5-s02', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Warm Up - fluency', part: '0', section: '2',
           lesson: 'Warm Up - fluency', title: 'Warm Up - fluency' },
-  objective: 'Work through Warm Up - fluency of unit 5.',
+  objective: 'By the end of this Warm Up you can say what economic diplomacy opens doors '
+        + 'to, name your country\'s main investment partners and priority sectors, '
+        + 'and use future forms accurately again after Unit 4.',
   prev: 's01-warm-up', prevLabel: 'Warm Up',
   next: 's03-vocabulary-match', nextLabel: 'Part 1 - Vocabulary',
   cards: [

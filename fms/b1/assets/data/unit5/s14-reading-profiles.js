@@ -7,7 +7,10 @@
 FMS.page('u5-s14', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 5 - Reading', part: '5', section: '14',
           lesson: 'Part 5 - Reading', title: 'Part 5 - Reading' },
-  objective: 'Work through Part 5 - Reading of unit 5.',
+  objective: 'By the end of Part 5 you can read an investment forum profile for its '
+        + 'purpose, its sectors, its delegations and its outcomes, discuss what the '
+        + 'forum achieved, and use conditional structures the way investment writing '
+        + 'uses them.',
   prev: 's13-role-play', prevLabel: 'Part 4 - Role play',
   next: 's15-reading-comprehension', nextLabel: 'Part 5 - Comprehension',
   cards: [

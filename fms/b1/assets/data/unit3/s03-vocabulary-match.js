@@ -7,7 +7,10 @@
 FMS.page('u3-s03', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 1 - Vocabulary', part: '1', section: '3',
           lesson: 'Part 1 - Vocabulary', title: 'Part 1 - Vocabulary' },
-  objective: 'Work through Part 1 - Vocabulary of unit 3.',
+  objective: 'By the end of Part 1 you can use this unit\'s seven policy and programme '
+        + 'terms correctly, present one of your ministry\'s programmes from a role '
+        + 'card, and choose professional language for a sensitive topic rather than '
+        + 'avoiding it.',
   prev: 's02-fluency', prevLabel: 'Warm Up - fluency',
   next: 's04-role-cards', nextLabel: 'Part 1 - Role cards',
   cards: [

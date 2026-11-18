@@ -7,7 +7,10 @@
 FMS.page('u3-s22', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 8 - Role plays', part: '8', section: '22',
           lesson: 'Part 8 - Role plays', title: 'Part 8 - Role plays' },
-  objective: 'Work through Part 8 - Role plays of unit 3.',
+  objective: 'By the end of Part 8 you can describe how four different audiences need '
+        + 'the same facts put differently, decide from an audience sensitivity matrix '
+        + 'what to emphasise and what to acknowledge only briefly, and brief both a '
+        + 'foreign correspondent and a Gulf Arab official on the same policy.',
   prev: 's21-culture-meetings', prevLabel: 'Part 8 - First meetings',
   next: 's23-can-do-glossary', nextLabel: 'Part 8 - Can-Do and glossary',
   cards: [

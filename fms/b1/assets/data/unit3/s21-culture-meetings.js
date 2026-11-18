@@ -7,7 +7,10 @@
 FMS.page('u3-s21', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 8 - First meetings', part: '8', section: '21',
           lesson: 'Part 8 - First meetings', title: 'Part 8 - First meetings' },
-  objective: 'Work through Part 8 - First meetings of unit 3.',
+  objective: 'By the end of Part 8 you can describe how four different audiences need '
+        + 'the same facts put differently, decide from an audience sensitivity matrix '
+        + 'what to emphasise and what to acknowledge only briefly, and brief both a '
+        + 'foreign correspondent and a Gulf Arab official on the same policy.',
   prev: 's20-pronunciation-practice', prevLabel: 'Part 7 - Pronunciation',
   next: 's22-culture-role-plays', nextLabel: 'Part 8 - Role plays',
   cards: [

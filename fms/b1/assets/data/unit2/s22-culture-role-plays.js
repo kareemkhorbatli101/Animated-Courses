@@ -7,7 +7,10 @@
 FMS.page('u2-s22', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 8 - Role plays', part: '8', section: '22',
           lesson: 'Part 8 - Role plays', title: 'Part 8 - Role plays' },
-  objective: 'Work through Part 8 - Role plays of unit 2.',
+  objective: 'By the end of Part 8 you can describe how meeting behaviour differs across '
+        + 'three cultural contexts, compare punctuality, turn-taking and '
+        + 'decision-making in a table, and open a meeting appropriately for a '
+        + 'European environmental NGO and for a Gulf Arab ministerial delegation.',
   prev: 's21-culture-meetings', prevLabel: 'Part 8 - First meetings',
   next: 's23-can-do-glossary', nextLabel: 'Part 8 - Can-Do and glossary',
   cards: [

@@ -7,7 +7,10 @@
 FMS.page('u2-s23', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 8 - Can-Do and glossary', part: '8', section: '23',
           lesson: 'Part 8 - Can-Do and glossary', title: 'Part 8 - Can-Do and glossary' },
-  objective: 'Work through Part 8 - Can-Do and glossary of unit 2.',
+  objective: 'By the end of Part 8 you can describe how meeting behaviour differs across '
+        + 'three cultural contexts, compare punctuality, turn-taking and '
+        + 'decision-making in a table, and open a meeting appropriately for a '
+        + 'European environmental NGO and for a Gulf Arab ministerial delegation.',
   prev: 's22-culture-role-plays', prevLabel: 'Part 8 - Role plays',
   cards: [
     {

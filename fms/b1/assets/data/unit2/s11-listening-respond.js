@@ -7,7 +7,11 @@
 FMS.page('u2-s11', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 3 - Responding', part: '3', section: '11',
           lesson: 'Part 3 - Responding', title: 'Part 3 - Responding' },
-  objective: 'Work through Part 3 - Responding of unit 2.',
+  objective: 'By the end of Part 3 you can predict the modal language a coordination '
+        + 'call will use, follow four calls between a protocol officer and an embassy '
+        + 'closely enough to extract each decision and deadline, choose a correct '
+        + 'professional response to a request, and write down five coordination '
+        + 'phrases.',
   prev: 's10-listening-understand', prevLabel: 'Part 3 - Listening',
   next: 's12-dialogue-script', nextLabel: 'Part 4 - The script',
   cards: [

@@ -7,7 +7,11 @@
 FMS.page('u4-s06', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 2 - Grammar, notice', part: '2', section: '6',
           lesson: 'Part 2 - Grammar, notice', title: 'Part 2 - Grammar, notice' },
-  objective: 'Work through Part 2 - Grammar, notice of unit 4.',
+  objective: 'By the end of Part 2 you can choose the right future form for a ministry '
+        + 'plan - a decision, an arrangement, an intention or a prediction - give the '
+        + 'ministry example for each, correct future-form errors in a planning memo, '
+        + 'and speak about commitments with the degree of certainty you actually '
+        + 'mean.',
   prev: 's05-vocabulary-practice', prevLabel: 'Part 1 - Practice',
   next: 's07-grammar-practice', nextLabel: 'Part 2 - Grammar, practice',
   cards: [

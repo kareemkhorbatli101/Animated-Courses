@@ -7,7 +7,10 @@
 FMS.page('u2-s05', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Part 1 - Practice', part: '1', section: '5',
           lesson: 'Part 1 - Practice', title: 'Part 1 - Practice' },
-  objective: 'Work through Part 1 - Practice of unit 2.',
+  objective: 'By the end of Part 1 you can use this unit\'s seven coordination and '
+        + 'protocol terms correctly, arrange a room, interpretation and equipment '
+        + 'from the details on a scenario card, and say what a protocol brief must '
+        + 'contain.',
   prev: 's04-role-cards', prevLabel: 'Part 1 - Role cards',
   next: 's06-grammar-notice', nextLabel: 'Part 2 - Grammar, notice',
   cards: [

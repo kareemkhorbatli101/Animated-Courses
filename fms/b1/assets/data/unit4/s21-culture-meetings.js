@@ -7,7 +7,10 @@
 FMS.page('u4-s21', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 8 - First meetings', part: '8', section: '21',
           lesson: 'Part 8 - First meetings', title: 'Part 8 - First meetings' },
-  objective: 'Work through Part 8 - First meetings of unit 4.',
+  objective: 'By the end of Part 8 you can describe how one formal dinner is read '
+        + 'differently in three cultures, compare seating, toasting and hospitality '
+        + 'norms in a table, and handle both a toast at a bilateral dinner and the '
+        + 'welcome of a Gulf Arab official at a formal reception.',
   prev: 's20-pronunciation-practice', prevLabel: 'Part 7 - Pronunciation',
   next: 's22-culture-role-plays', nextLabel: 'Part 8 - Role plays',
   cards: [

@@ -7,7 +7,10 @@
 FMS.page('u2-s01', {
   book: { source: 'FMS B1.1', ref: 'Unit 2 · Warm Up', part: '0', section: '1',
           lesson: 'Warm Up', title: 'Warm Up' },
-  objective: 'Work through Warm Up of unit 2.',
+  objective: 'By the end of this Warm Up you can say what work goes on behind a '
+        + 'successful bilateral meeting, describe what a liaison officer actually '
+        + 'does, and use present simple and present continuous accurately again after '
+        + 'Unit 1.',
   next: 's02-fluency', nextLabel: 'Warm Up - fluency',
   cards: [
     {

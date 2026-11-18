@@ -7,7 +7,10 @@
 FMS.page('u1-s12', {
   book: { source: 'FMS B1.1', ref: 'Unit 1 · Part 4 - The script', part: '4', section: '12',
           lesson: 'Part 4 - The script', title: 'Part 4 - The script' },
-  objective: 'Work through Part 4 - The script of unit 1.',
+  objective: 'By the end of Part 4 you can perform a complete reception script from '
+        + 'greeting to handover, introduce yourself and your role at a formal '
+        + 'reception, and say what makes a good first impression and what damages '
+        + 'one.',
   prev: 's11-listening-respond', prevLabel: 'Part 3 - Responding',
   next: 's13-role-play', nextLabel: 'Part 4 - Role play',
   cards: [

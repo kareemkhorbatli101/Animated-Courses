@@ -7,7 +7,10 @@
 FMS.page('u5-s15', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 5 - Comprehension', part: '5', section: '15',
           lesson: 'Part 5 - Comprehension', title: 'Part 5 - Comprehension' },
-  objective: 'Work through Part 5 - Comprehension of unit 5.',
+  objective: 'By the end of Part 5 you can read an investment forum profile for its '
+        + 'purpose, its sectors, its delegations and its outcomes, discuss what the '
+        + 'forum achieved, and use conditional structures the way investment writing '
+        + 'uses them.',
   prev: 's14-reading-profiles', prevLabel: 'Part 5 - Reading',
   next: 's16-writing-models', nextLabel: 'Part 6 - Writing, the models',
   cards: [

@@ -7,7 +7,9 @@
 FMS.page('u3-s18', {
   book: { source: 'FMS B1.1', ref: 'Unit 3 · Part 6 - Writing, your turn', part: '6', section: '18',
           lesson: 'Part 6 - Writing, your turn', title: 'Part 6 - Writing, your turn' },
-  objective: 'Work through Part 6 - Writing, your turn of unit 3.',
+  objective: 'By the end of Part 6 you can recognise the five elements of a press '
+        + 'release and what each one is for, write an official summary, and write a '
+        + 'ministry press statement of 80 to 100 words.',
   prev: 's17-writing-bios', prevLabel: 'Part 6 - Writing, bios',
   next: 's19-stress', nextLabel: 'Part 7 - Word stress',
   cards: [

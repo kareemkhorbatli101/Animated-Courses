@@ -7,7 +7,10 @@
 FMS.page('u4-s14', {
   book: { source: 'FMS B1.1', ref: 'Unit 4 · Part 5 - Reading', part: '5', section: '14',
           lesson: 'Part 5 - Reading', title: 'Part 5 - Reading' },
-  objective: 'Work through Part 5 - Reading of unit 4.',
+  objective: 'By the end of Part 5 you can read a bilateral cooperation framework for '
+        + 'its areas, its mechanisms and its timetable, discuss how the commitments '
+        + 'are meant to work in practice, and use future forms the way a framework '
+        + 'document uses them.',
   prev: 's13-role-play', prevLabel: 'Part 4 - Role play',
   next: 's15-reading-comprehension', nextLabel: 'Part 5 - Comprehension',
   cards: [

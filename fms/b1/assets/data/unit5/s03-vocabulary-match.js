@@ -7,7 +7,10 @@
 FMS.page('u5-s03', {
   book: { source: 'FMS B1.1', ref: 'Unit 5 · Part 1 - Vocabulary', part: '1', section: '3',
           lesson: 'Part 1 - Vocabulary', title: 'Part 1 - Vocabulary' },
-  objective: 'Work through Part 1 - Vocabulary of unit 5.',
+  objective: 'By the end of Part 1 you can use this unit\'s seven investment and '
+        + 'facilitation terms correctly, read an investor\'s role card to identify '
+        + 'their sector and what they need from the ministry, and match an investor '
+        + 'to the ministry resources that can actually help them.',
   prev: 's02-fluency', prevLabel: 'Warm Up - fluency',
   next: 's04-role-cards', nextLabel: 'Part 1 - Role cards',
   cards: [
