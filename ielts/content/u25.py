@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """Unit 25 - Technology and Privacy. IELTS Volume 3, band 6.0."""
 
-_REC = dict(kind='device', title='How a recommendation system builds a profile',
+_REC = dict(kind='device', teaches='device',
+            title='How a recommendation system builds a profile',
             sub='the components, and the path a single click takes through '
                 'them',
             parts=[('act', 0.02, 0.02, 0.25, 0.17, 'Actions you take'),

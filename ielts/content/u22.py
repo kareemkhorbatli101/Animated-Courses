@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 """Unit 22 - Work: Automation and Skills. IELTS Volume 3, band 6.0."""
 
-_TASKS = dict(kind='bar', title='Share of working time by task type',
+_TASKS = dict(kind='bar', teaches='data',
+              title='Share of working time by task type',
               sub='four occupations compared, percentage of hours',
               ylab='% of hours',
               cats=['Checkout\noperator', 'Warehouse\npicker',
@@ -20,11 +21,319 @@ UNIT = dict(
    'and the same statement applied to one worker in it, which is where most '
    'arguments about automation go wrong.'),
 
+ field='work',
+ unitmap=dict(kind='unitmap', teaches='navigation', n=22,
+              theme='Work: Automation and Skills',
+              rows=[('Changing roles at work',
+                     'Sentence completion: let the gap tell you the word '
+                     'class',
+                     'Multiple choice · sentence completion · matching · '
+                     'Part 1'),
+                    ('Retraining',
+                     'Matching features: the writer against the people '
+                     'the writer quotes',
+                     'Yes/No/Not Given · matching features · Part 2'),
+                    ('Which tasks machines take',
+                     'Task 1: shares that add to a whole',
+                     'True/False/Not Given · matching information · '
+                     'Task 1 Academic'),
+                    ('What happened the last four times',
+                     'Matching headings: defining against illustrating',
+                     'Matching headings · Yes/No/Not Given · Part 4'),
+                    ('True of the market, false of the worker',
+                     'Task 2: concede, then answer',
+                     'Matching information · matching sentence endings · '
+                     'Task 2')],
+              note='The unit runs from one person’s job description to a '
+                   'two-hundred-year argument and back to one person '
+                   'again, which is the shape the argument itself has. '
+                   'Cycles 1, 3 and 5 open with a reading preview and 2 '
+                   'and 4 with a listening one.'),
+ sceneintro='Eight things from a workplace in the middle of changing, '
+            'and the words for them. Six are used in cycle 1 and four '
+            'come back in cycle 5. As in unit 21, two minutes here is '
+            'worth ten later.',
+ scene=dict(kind='scene', teaches='activate',
+            title='Unit 22 · a department being reorganised',
+            instr='Write the number of each thing beside its word. Two '
+                  'words in the bank are not in the picture.',
+            cells=[('brief', 'role profile'), ('laptop', 'rota'),
+                   ('people', 'handover'), ('clock', 'release date'),
+                   ('chart', 'headcount'), ('note', 'secondment'),
+                   ('cpu', 'automation'), ('envelope', 'notice period')],
+            bank=['role profile', 'rota', 'handover', 'release date',
+                  'headcount', 'secondment', 'automation',
+                  'notice period', 'redundancy', 'appraisal'],
+            answers=['role profile', 'rota', 'handover', 'release date',
+                     'headcount', 'secondment', 'automation',
+                     'notice period'],
+            note='Answers: 1 role profile · 2 rota · 3 handover · '
+                 '4 release date · 5 headcount · 6 secondment · '
+                 '7 automation · 8 notice period. Not in the picture: '
+                 'redundancy, appraisal.'),
+ puzzle=dict(kind='puzzle', teaches='curiosity',
+             title='Four waves of automation, four results',
+             question='Which of these decades lost the most jobs to '
+                      'machines - and which of them had the lowest '
+                      'unemployment at the end of it?',
+             bars=[('1810s', 18), ('1880s', 24), ('1950s', 31),
+                   ('1980s', 27), ('2010s', 22)],
+             mark=2, ylab='% of tasks mechanised in the decade',
+             note='The answer to the first half is on this chart. The '
+                  'answer to the second half is in cycle 4, and the two '
+                  'together are the whole argument of this unit.'),
  cycles=[
   dict(
    sub='Changing roles at work',
    step=1,
+   notes=dict(
+    serves='Sentence completion, Reading Parts 1-2; note and table '
+           'completion in Listening Parts 1-2',
+    because='A sentence-completion gap is answered at band 6 by copying '
+            'the nearest plausible word, and the answer is wrong because '
+            'it is the wrong part of speech - a fault the learner could '
+            'have caught from the gap itself without reading anything',
+    skill='Reading the gap before reading for the answer: what word '
+          'class, how many words, and what the sentence around it '
+          'already rules out',
+    evidence='Phase 11 reclassified 542 items headed short answer as '
+             'sentence completion; it is the commonest single item type '
+             'in this book and had no taught procedure anywhere',
+    watch='In question 4 learners will write an adjective where the gap '
+          'needs a noun, because the adjective is the word standing '
+          'next to the clue. Expect it and ask what follows the gap',
+    time='75 minutes, or 55 without the free grammar production'),
+   lead=dict(
+    title='A job that is not the job you were hired for',
+    body='Almost nobody ends a career doing what they were hired to do. '
+         'Roles grow, shed parts of themselves, absorb a piece of '
+         'somebody else’s job, and are occasionally handed wholesale to '
+         'a machine. In unit 21 the argument was about who gets in; in '
+         'this one it is about what happens afterwards, and it starts '
+         'with the dullest document in any organisation - the role '
+         'profile - because that is where a change becomes visible '
+         'first, usually to the person it is about to happen to.',
+    task='Answer these from your own experience, or from somebody '
+         'else’s. Three or four sentences each.',
+    qs=['Has a job you have done ever changed underneath you? What '
+        'changed it?',
+        'What part of your work could a machine do tomorrow, and what '
+        'part could it not?',
+        'If your employer automated half your job, what would you want '
+        'them to do about the other half?',
+        'Who should pay for the retraining - the worker, the employer, '
+        'or the state?']),
+   vocabwork=dict(
+    title='The language of a role, and of changing one',
+    body='Eighteen words from the private language organisations use '
+         'about their own people. It is worth learning for its own sake, '
+         'because it is the register of every letter you will ever get '
+         'from an employer, and because Listening Parts 1 and 2 are '
+         'almost always set inside an institution talking about itself.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='a role, and a change to it',
+                sub='cycle 1 · the register of an institution talking '
+                    'about its own staff',
+                branches=[('the job itself',
+                           ['role profile', 'substantive post',
+                            'duties', 'grade']),
+                          ('a temporary move',
+                           ['secondment', 'cover', 'acting up',
+                            'release date']),
+                          ('leaving the job',
+                           ['notice period', 'handover',
+                            'redundancy', 'settlement']),
+                          ('who fills it',
+                           ['internal candidate', 'open competition',
+                            'ring-fenced', 'at risk'])],
+                note='Ring-fenced and at risk are the two that catch '
+                     'learners out, and they are opposites: ring-fenced '
+                     'means protected, at risk means the post may go.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 1 · and note where the stress moves',
+                 rows=[(('em-ploy', 2), ('em-ploy-ment', 2),
+                        ('em-ploy-er', 2), '', ''),
+                       (('re-dep-loy', 3), ('re-dep-loy-ment', 3),
+                        '', '', ''),
+                       (('au-to-mate', 1), ('au-to-ma-tion', 3), '',
+                        ('au-to-ma-ted', 1), ''),
+                       (('re-train', 2), ('re-train-ing', 2), '', '', ''),
+                       (('ne-go-ti-ate', 2), ('ne-go-ti-a-tion', 4),
+                        ('ne-go-ti-a-tor', 2), '', '')],
+                 note='Employment and unemployment take the same stress '
+                      'and mean opposite things; automate and automation '
+                      'do not, and mispronouncing the second is one of '
+                      'the few vocabulary errors an examiner will hear '
+                      'rather than read.'),
+    task='Complete each sentence with a word from the map or the table, '
+         'in the right form.',
+    items=[
+     ('Her permanent job, as against the one she is covering, is her '
+      '____________ post.', None, 'substantive'),
+     ('A temporary move to another team is a ____________.',
+      None, 'secondment'),
+     ('The weeks between resigning and leaving are the ____________ '
+      'period.', None, 'notice'),
+     ('A post only existing staff may apply for is ____________.',
+      None, 'ring-fenced'),
+     ('Passing your work to your successor is the ____________.',
+      None, 'handover'),
+     ('The noun from automate is ____________.', None, 'automation'),
+     ('Moving staff to different work rather than dismissing them is '
+      '____________.', None, 'redeployment'),
+     ('The person who conducts a negotiation is a ____________.',
+      None, 'negotiator')]),
+   builder=dict(
+    skill='Sentence completion: let the gap tell you the word',
+    qkind='skill',
+    explain='Half the marks lost on sentence completion are lost before '
+            'the passage is opened, and they are recoverable without '
+            'reading a word of it. A gap is not a hole; it is a '
+            'specification. Three things are written on it. The '
+            'instruction says how many words you may use, and ONE WORD '
+            'ONLY means one word, so a two-word answer is wrong even '
+            'when it is right. The grammar around the gap says what '
+            'class of word must go in it: after an article you need a '
+            'noun, after a modal you need a bare verb, after a '
+            'preposition you need a noun or a gerund and never an '
+            'adjective. And the rest of the sentence says what kind of '
+            'thing it must be - a time, a person, a material, a reason. '
+            'Spend ten seconds writing those three things beside each '
+            'gap and you will reject half the tempting wrong answers '
+            'before you meet them, because the tempting wrong answer is '
+            'almost always the right idea in the wrong word class.',
+    worked=[
+     'GAP: Applicants are asked to confirm their ____________ before '
+     'the panel meets.  (ONE WORD ONLY)',
+     'The specification: one word; after a possessive adjective, so a '
+     'noun; something an applicant has and can confirm.',
+     'The passage says “candidates must tell us if they are still '
+     'available”. The tempting answer is available, which is the word '
+     'actually printed. It is an adjective and the gap needs a noun.',
+     'The answer is availability. Notice that you could have ruled out '
+     'available from the gap alone, and that the word-family table two '
+     'pages back is where that noun came from.'],
+    figure=dict(kind='anatomy', teaches='question-anatomy',
+                qtype='Sentence completion', sub='cycle 1, question 4',
+                stem='Staff on secondment keep their ____________ post '
+                     'for the duration.  (ONE WORD ONLY)',
+                options=['permanently', 'substantive', 'substantively',
+                         'substantiate'],
+                answer=1,
+                why='The gap sits between a possessive and a noun, so '
+                    'it needs an adjective, and the passage calls the '
+                    'permanent job the substantive post.',
+                trap=(0, 'Permanently is in the passage, one line above, '
+                         'and it is an adverb. An adverb cannot modify '
+                         'the noun post. The gap ruled this out before '
+                         'the passage was read.'),
+                note='Three of the four options are the same root in '
+                     'the wrong class. That is what this question type '
+                     'is for.'),
+    task='For each gap write the specification only - how many words, '
+         'what class, what kind of thing. Do not answer it.',
+    items=[
+     ('The scheme was suspended because of a ____________ in funding. '
+      '(ONE WORD)', None, 'one, noun, a problem'),
+     ('Staff must ____________ the form before the deadline. (ONE '
+      'WORD)', None, 'one, bare verb, an action'),
+     ('Training is offered to ____________ candidates only. (ONE '
+      'WORD)', None, 'one, adjective, a kind of candidate'),
+     ('The handover takes place in ____________. (NO MORE THAN TWO '
+      'WORDS)', None, 'one or two, noun, a time or place'),
+     ('Managers are expected to act ____________ in such cases. (ONE '
+      'WORD)', None, 'one, adverb, a manner'),
+     ('The post is ring-fenced for ____________ candidates. (ONE '
+      'WORD)', None, 'one, adjective, a kind of candidate')],
+    note='Not one of these asks you to find an answer, and doing them '
+         'properly will make finding answers roughly twice as fast. The '
+         'specification is free; the search is what costs time.'),
+   figures=[
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 1 · the six moves the questions make',
+         pairs=[('let somebody know', 'notify', 'synonym'),
+                ('say yes to the move', 'accept the secondment',
+                 'reformulation'),
+                ('when they can start', 'the release date',
+                 'nominalisation'),
+                ('the company decided', 'a decision was taken',
+                 'voice'),
+                ('is not permanent', 'is temporary', 'negation'),
+                ('training, mentoring and shadowing',
+                 'development activity', 'hypernym')],
+         note='Cover the right column. Say what an institution would '
+              'have written instead, and name the move.'),
+   ],
+   advice='Read the instruction line before you read the questions. ONE '
+          'WORD ONLY and NO MORE THAN THREE WORDS are different tasks '
+          'and the instruction changes within a single paper, often '
+          'between one set of questions and the next on the same page. '
+          'An answer over the limit scores zero however right it is, '
+          'and this is the single most expensive avoidable error in the '
+          'Reading paper. Count the words you have written. It takes '
+          'two seconds.',
+   debrief=dict(
+    read=['Question 4 prints permanently one line above the answer. It '
+          'is an adverb and the gap needs an adjective; the gap told '
+          'you that before you looked.',
+     'Question 7 can be answered with two words that are both in the '
+     'passage, and the instruction says ONE WORD ONLY. One of the two '
+     'is the answer.',
+     'In question 9 the passage uses the verb and the gap needs the '
+     'noun. The word-family table in this cycle has the noun.'],
+    listen=['The speaker spells a name and then corrects one letter. '
+            'The correction always comes after the spelling, never '
+            'before it.',
+     'Question 13 asks for a date and two dates are given - the date of '
+     'the meeting and the date of the handover. The sentence around the '
+     'gap says which.']),
+   outside='Every form you will ever be asked to fill in is a set of '
+           'gaps with specifications on them, and most of the time '
+           'nobody tells you what they are. Reading the gap before '
+           'reading for the answer is the habit that gets a visa '
+           'application accepted first time.',
+   recycled=['criteria', 'eligible', 'application', 'assessor',
+             'conditional'],
    read=[
+    dict(preview=True,
+         heading='Three words from a reorganisation',
+         kind='Glossary box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='Two hundred words before four hundred. These three words '
+             'are in every document in this cycle and in half the '
+             'letters you will meet in Listening Part 2.',
+         paras=[
+          'A substantive post is the job you actually hold. It is the '
+          'one your contract names, the one your pay is set against, and '
+          'the one you go back to when anything temporary ends. Nothing '
+          'temporary changes it.',
+          'A secondment is a temporary move to different work, usually '
+          'in another team and sometimes in another organisation. The '
+          'person on secondment keeps their substantive post the whole '
+          'time, which is the point of the arrangement: it lets an '
+          'employer move somebody without anybody losing anything.',
+          'A handover is the passing of work from the person leaving a '
+          'role to the person taking it on. It is usually a document and '
+          'a conversation, and it happens in the last days before the '
+          'release date - the day the person is free to start the new '
+          'job.',
+          'The three words appear together constantly and mean quite '
+          'different things, and the commonest confusion is to read '
+          'secondment as promotion. It is not one. It may lead to one, '
+          'and it may equally lead back to exactly where the person '
+          'started.'],
+         items=[
+          ('The job named in your contract is your ____________ post.',
+           None, 'substantive',
+           'Paragraph 1: it is the one your pay is set against.'),
+          ('A temporary move to other work is a ____________.',
+           None, 'secondment',
+           'Paragraph 2, which also says the substantive post is kept '
+           'throughout.'),
+          ('Passing your work to your successor is the ____________.',
+           None, 'handover',
+           'Paragraph 3: a document and a conversation, before the '
+           'release date.')]),
     dict(heading='Internal transfers and secondments',
          kind='Policy page', task='Multiple choice and sentence completion',
          band='gt_short', qtype='Questions 1-5',
@@ -289,6 +598,50 @@ UNIT = dict(
          instruct='  Write at least 150 words in about 20 minutes.',
          lines=14)],
    gram=dict(
+    ref='L4',
+    context=[
+     'From the letter in this cycle:',
+     'I am writing to let you know that I have accepted a secondment '
+     'to the regional team, and that my last day in the department '
+     'will be the fourteenth. I wanted you to hear it from me rather '
+     'than from the rota. I should be glad to know whether you would '
+     'prefer me to brief Amina directly or to leave written notes.'],
+    notice=[
+     ('The writer gives news and asks a question. Which sentence does '
+      'which, and what is the first word of each?',
+      'I am writing to let you know gives the news; I should be glad '
+      'to know asks the question'),
+     ('Why “whether you would prefer” and not “if would you prefer”?',
+      'an embedded question keeps statement word order, so the subject '
+      'comes before the verb')],
+    noticetask='Answer both from the letter above. The second is the '
+               'same point you met in cycle 1 of unit 21, which is '
+               'where the reference entry for it is.',
+    contrast='Announcing before somebody else does is a register as '
+             'much as a structure. I am writing to let you know is '
+             'neutral and slightly formal; I wanted you to hear it from '
+             'me is warmer and implies the news might have travelled; I '
+             'am writing to inform you is colder and is what an '
+             'organisation writes to a person rather than a person to a '
+             'person. Choosing the wrong one of the three is not a '
+             'grammar mistake and it is the thing a General Training '
+             'Task 1 is actually marked on.',
+    task2='Rewrite each as an embedded question in a formal letter, '
+          'beginning with the words given.',
+    items2=[
+     ('When does the secondment start? → Could you tell me '
+      '____________?', None, 'when the secondment starts'),
+     ('Has the rota been published? → I should be glad to know '
+      '____________.', None, 'whether the rota has been published'),
+     ('Who will cover my duties? → I am writing to ask ____________.',
+      None, 'who will cover my duties'),
+     ('Do I keep my substantive post? → Please let me know '
+      '____________.', None, 'whether I keep my substantive post')],
+    task3='Now write the whole announcement. You have accepted a change '
+          'at work and one detail is still unsettled. Write the opening '
+          'paragraph and two embedded questions, about seventy words, '
+          'choosing your register deliberately.',
+    items3=8,
     point='Announcing something before somebody else does',
     explain=('A letter that brings news to a manager is easier to write if '
              'you say why you are writing first. These patterns do that '
@@ -335,6 +688,216 @@ UNIT = dict(
   dict(
    sub='Retraining',
    step=2,
+   notes=dict(
+    serves='Matching features and Yes/No/Not Given, Reading Part 2; '
+           'matching in Listening Part 2',
+    because='Matching features is answered at band 6 by matching a '
+            'topic to a name, and the question is almost never about '
+            'topic: two people mention the same thing and only one of '
+            'them commits to a view about it',
+    skill='Separating the writer’s own position from the positions the '
+          'writer is reporting',
+    evidence='The audit found two cross-references in 569 pages; a '
+             'learner who cannot track whose voice a sentence is in '
+             'cannot track an argument across a page either',
+    watch='Learners will attribute the strongest sentence in paragraph '
+          '3 to the writer. It is a quotation with the reporting verb '
+          'three lines earlier. Expect it',
+    time='80 minutes, or 60 without the free grammar production'),
+   lead=dict(
+    title='Who pays for the second career?',
+    body='Retraining is the answer everybody gives and almost nobody '
+         'funds. It is expensive, it takes a year that the person '
+         'cannot afford, and the benefit goes partly to an employer who '
+         'has not yet hired them. In cycle 1 you watched one role '
+         'change; here the question is what a person does when the role '
+         'does not come back, and four people answer it differently.',
+    task='Answer these before you read, and mark which of the four '
+         'texts you expect to agree with.',
+    qs=['Who benefits most when a worker retrains - the worker, the '
+        'next employer, or the country?',
+        'Would you spend a year’s income on learning something new at '
+        'forty? What would have to be true?',
+        'Should an employer who automates a job have to pay for the '
+        'retraining of the person who did it?',
+        'Is there any kind of work you would refuse to retrain into?']),
+   vocabwork=dict(
+    title='The vocabulary of a scheme, and of its critics',
+    body='A training scheme is argued about in a narrow and very '
+         'reusable set of words, and the four texts in this cycle use '
+         'almost all of them. You met the vocabulary of a position in '
+         'cycle 2 of unit 21 and this is the same job done for money '
+         'rather than for fairness; nine of these words return in unit '
+         '24, where the subject is flood defence.',
+    figure=dict(kind='collocation', teaches='collocation',
+                node='funding', sub='cycle 2',
+                groups=[('verb + funding',
+                         ['secure funding', 'withdraw funding',
+                          'ring-fence funding', 'match funding',
+                          'underfund a scheme']),
+                        ('adjective + funding',
+                         ['public funding', 'discretionary funding',
+                          'adequate funding', 'short-term funding']),
+                        ('funding + noun',
+                         ['funding gap', 'funding round',
+                          'funding formula', 'funding cut'])],
+                note='Note underfund, one word, as a verb: the scheme '
+                     'was underfunded from the start. Learners write '
+                     '"under-funding was done", which is grammatical '
+                     'and reads as a translation.'),
+    figure2=dict(kind='cline', teaches='scale',
+                 title='How committed is the promise?',
+                 sub='cycle 2 · what a government or employer actually '
+                     'said',
+                 left='no commitment at all', right='a binding promise',
+                 items=[('we are exploring', 0.03),
+                        ('we aim to', 0.18),
+                        ('we expect to', 0.33),
+                        ('we have budgeted for', 0.52),
+                        ('we are committed to', 0.68),
+                        ('we have undertaken to', 0.84),
+                        ('we are required to', 0.99)],
+                 note='Three of the four texts in this cycle make a '
+                      'promise and only one of the three is on the '
+                      'right-hand half of this line. The matching '
+                      'questions are about exactly that.'),
+    task='Choose the phrase or collocation that fits.',
+    items=[
+     ('Money protected so it cannot be spent on anything else has been '
+      '____________.', None, 'ring-fenced'),
+     ('A scheme given less money than it needs has been ____________.',
+      None, 'underfunded'),
+     ('The difference between what is needed and what is given is the '
+      'funding ____________.', None, 'gap'),
+     ('Money given only if the employer gives the same amount is '
+      '____________ funding.', None, 'match'),
+     ('The weakest promise on the cline: we are ____________.',
+      None, 'exploring'),
+     ('A promise with legal force: we are ____________ to.',
+      None, 'required'),
+     ('Money that may be given or withheld at the giver’s discretion '
+      'is ____________ funding.', None, 'discretionary'),
+     ('Winning money for a scheme is to ____________ funding.',
+      None, 'secure')]),
+   builder=dict(
+    skill='Matching features: the writer, or somebody the writer quotes',
+    qkind='skill',
+    explain='A matching-features question gives you names and '
+            'statements and asks who holds which view. Learners match '
+            'on subject - this person talked about cost, that statement '
+            'is about cost, done - and the question is almost never '
+            'about subject, because the examiner has made sure that '
+            'three of the four writers mention cost. What separates '
+            'them is commitment. One says cost is the main obstacle, '
+            'one says it has been exaggerated, one mentions it and '
+            'moves on without taking a side at all. So read for the '
+            'verb rather than the noun: argues, insists, concedes, '
+            'doubts, dismisses, notes. And watch for the second voice. '
+            'A text often quotes somebody in order to disagree with '
+            'them, and the strongest sentence on the page frequently '
+            'belongs to the person the writer is about to answer. The '
+            'reporting verb that gives it away is usually three or four '
+            'lines earlier, which is why you have to find it rather '
+            'than remember it.',
+    worked=[
+     'TEXT B says: “Employers, we are told, cannot be expected to fund '
+     'training that benefits a competitor. The claim is made with great '
+     'confidence and very little evidence.”',
+     'The strong sentence - employers cannot be expected to fund it - '
+     'is not the writer’s view. We are told hands it to somebody else.',
+     'The writer’s own view is in the second sentence, and it is a '
+     'rejection: confidence without evidence.',
+     'So a statement reading "employers should not have to pay" '
+     'matches NOT text B, even though text B contains that sentence '
+     'almost word for word. It matches whichever text says it and '
+     'means it.'],
+    figure=dict(kind='signpost', teaches='signposting',
+                title='Whose voice is this?',
+                sub='cycle 2 · the six phrases that hand a sentence to '
+                    'somebody else',
+                markers=[('we are told', 'somebody else, about to be '
+                          'answered'),
+                         ('it is often said', 'the same, and weaker'),
+                         ('critics argue', 'named opposition'),
+                         ('on this view', 'a position being summarised'),
+                         ('the claim is that', 'reported, not endorsed'),
+                         ('I would argue', 'the writer, at last')],
+                note='Everything between one of the first five and the '
+                     'writer’s own answer belongs to somebody else. '
+                     'Find the answer before you attribute anything.'),
+    task='For each extract, write WRITER or REPORTED, and give the two '
+         'or three words that told you.',
+    items=[
+     ('“Retraining works, say its defenders, and the figures do not '
+      'support them.”', None, 'reported, say its defenders'),
+     ('“I would argue that the gap is one of time rather than money.”',
+      None, 'writer, I would argue'),
+     ('“It is often said that older workers will not retrain. They '
+      'do.”', None, 'reported, it is often said'),
+     ('“The scheme has been underfunded since 2019.”',
+      None, 'writer, no reporting phrase'),
+     ('“On this view, the employer is simply the wrong payer.”',
+      None, 'reported, on this view'),
+     ('“Critics argue the completion rate is flattering, and they are '
+      'right.”', None, 'both, critics argue then endorsed')],
+    note='The last one is the hard case and it is the commonest: the '
+         'writer reports a view and then signs it, so from that '
+         'sentence onwards it is the writer’s view too. Watch for the '
+         'signature, because it is usually four words long - and they '
+         'are right, or so it proves, or this is correct. Without the '
+         'signature a reported view stays the property of the person '
+         'reported, however much of the page it occupies and however '
+         'vigorously it is put. Vigour is not endorsement: an honest '
+         'writer puts the opposition’s case forcefully precisely '
+         'because they intend to answer it.'),
+   figures=[
+    dict(kind='matrix', teaches='comparison',
+         title='Four texts, three questions - fill the blanks',
+         sub='cycle 2 · build this before you answer the matching set',
+         cols=['Text A', 'Text B', 'Text C', 'Text D'],
+         rows=['Who should pay?',
+               'How strong is the promise? (use the cline)',
+               'What does it concede?',
+               'Reporting somebody, or speaking?'],
+         cells=[['the state', '', '', 'the employer'],
+                ['we are committed to', '', 'we aim to', ''],
+                ['', 'the evidence is thin', '', ''],
+                ['speaking', '', '', 'speaking']],
+         note='Seven blanks. A matching-features set is almost always '
+              'answerable from a grid like this one, and almost never '
+              'answerable from memory of the four texts.'),
+   ],
+   advice='In matching features the names are given once and the '
+          'statements in a different order on purpose. Do not read the '
+          'statements first and then hunt for them: that method makes '
+          'you search four texts eight times. Read each text once and '
+          'write two words beside it saying what it holds and how '
+          'firmly, and the statements then take about a minute between '
+          'them. Note also that a name may be used twice, or not at '
+          'all, and the instruction line says which - a set where every '
+          'name is used exactly once is the easiest kind and you are '
+          'not always given it. Finally, the statements are not in '
+          'passage order and never will be, so there is no point '
+          'working through them as though they were.',
+   debrief=dict(
+    read=['The strongest sentence in text B is a quotation. We are told '
+          'is three words long and it changes who owns the sentence.',
+     'Two texts mention the completion rate and one of them merely '
+     'mentions it. Mentioning is not holding a view.',
+     'The Yes/No/Not Given statement about older workers is one the '
+     'writer reports and then rejects, so it is NO, and test 1 from '
+     'unit 21 cycle 2 is what gets you there.'],
+    listen=['The two speakers agree about the problem and disagree '
+            'about the cause, and the matching questions are all about '
+            'the cause.',
+     'One speaker says “that is fair” and then says but. Everything '
+     'before but is politeness.']),
+   outside='Knowing whose view you are reading is the difference '
+           'between being informed and being managed. Most news, most '
+           'advertising and nearly all political writing depends on the '
+           'reader not noticing where the reporting verb was.',
+   recycled=['criteria', 'funding', 'eligible', 'completion rate',
+             'evidence'],
    read=[
     dict(heading='Four workers who changed career',
          kind='Four short texts', task='Matching features and Yes/No/Not Given',
@@ -392,6 +955,53 @@ UNIT = dict(
                'are in it.', 2: 'Not Given is wrong because she places herself among '
                'the majority.'})])],
    listen=[
+    dict(preview=True,
+         heading='Two people who agree about the problem',
+         part='Preview', task='Sentence completion',
+         band='lpre', qtype='Questions P1-P3',
+         why='Ninety seconds before five minutes. The Part 2 you are '
+             'about to hear has the same two positions in it, faster '
+             'and with figures attached.',
+         script=[
+          ('Len', 'Nobody disagrees that people need retraining. That is '
+                  'not the argument.'),
+          ('Priya', 'No. The argument is who writes the cheque.'),
+          ('Len', 'And my answer is the employer, because the employer '
+                  'is the one who removed the job.'),
+          ('Priya', 'Except that the employer who removed it is usually '
+                    'not the employer who hires them next. You are '
+                    'asking one firm to train a worker for a '
+                    'competitor.'),
+          ('Len', 'Which is exactly why none of them does it, and why '
+                  'the state ends up paying anyway, only later and '
+                  'worse.'),
+          ('Priya', 'That I accept. I would just rather we decided to '
+                    'pay than discovered we had.'),
+          ('Len', 'Then we agree about more than I thought.'),
+          ('Priya', 'We agree about the bill. We do not agree about '
+                    'whose name is on it, and that is not a small '
+                    'thing when the sums are this size.'),
+          ('Len', 'Put a figure on it, then. What would it cost to '
+                  'retrain everybody displaced in a bad year?'),
+          ('Priya', 'For a cohort the size of last year’s, something '
+                    'in the region of four hundred million. Which '
+                    'sounds enormous until you set it against what we '
+                    'pay in benefits to the same people over the '
+                    'following decade, and then it sounds cheap.'),
+          ('Len', 'So the argument is not really about the money '
+                  'either.'),
+          ('Priya', 'The argument is about who decides. It usually '
+                    'is.')],
+         items=[
+          ('Len says the employer should pay because the employer '
+           'removed the ____________.', None, 'job',
+           'His second turn, which is the whole of his case.'),
+          ('Priya objects that the firm would be training a worker for '
+           'a ____________.', None, 'competitor',
+           'Her second turn, and it is the standard objection.'),
+          ('Len says the state pays anyway, only later and '
+           '____________.', None, 'worse',
+           'His third turn, which Priya then accepts.')]),
     dict(heading='A short talk: retraining', part='Part 2',
          task='A talk at a careers centre · matching',
          bank=['A', 'B', 'C', 'D'],
@@ -601,6 +1211,47 @@ UNIT = dict(
          instruct='  Write at least 250 words in about 40 minutes.',
          lines=18)],
    gram=dict(
+    ref='L13',
+    context=[
+     'From text C, which you have just read:',
+     'There are two separate questions here and they are routinely run '
+     'together. The first is whether retraining works, which is a '
+     'question about evidence. The second is who should pay for it, '
+     'which is a question about fairness and cannot be settled by any '
+     'amount of data. Conflating them is how both sides manage to think '
+     'the other is arguing in bad faith.'],
+    notice=[
+     ('How does the writer signal that a division is coming, before '
+      'making it?', 'There are two separate questions here'),
+     ('What are the two questions about, in the writer’s own words?',
+      'evidence; fairness')],
+    noticetask='Answer both from the paragraph above, which you met '
+               'earlier in this cycle.',
+    contrast='Dividing a subject before arguing about it is the single '
+             'most useful move available in Task 2, and it is almost '
+             'absent from band 6 essays. The pattern is announce, '
+             'number, separate: There are two questions here. The '
+             'first is... The second is... Compare it with the band 6 '
+             'alternative, which is to argue about both at once and '
+             'look as though you cannot tell them apart. Note the '
+             'grammar: the first and the second take a singular verb '
+             'and are followed by whether or a noun phrase, never by '
+             'a that-clause.',
+    task2='Divide each subject into two questions before arguing. Write '
+          'the two.',
+    items2=[
+     ('Should universities lower their offers? ____________',
+      None, 'whether it works; whether it is fair'),
+     ('Should employers fund retraining? ____________',
+      None, 'whether it helps; who should pay'),
+     ('Correct: There are two question here. ____________',
+      None, 'There are two questions here'),
+     ('Correct: The first is that whether it works. ____________',
+      None, 'The first is whether it works')],
+    task3='Now use it. Take the question in this cycle - who should pay '
+          'for retraining - announce the division, state the two '
+          'questions, and answer one of them in sixty to eighty words.',
+    items3=8,
     point='Dividing a subject before arguing about it',
     explain=('Many Task 2 prompts ask one question about something that is '
              'really several things. Splitting it in the introduction makes '
@@ -652,7 +1303,254 @@ UNIT = dict(
   dict(
    sub='Which tasks machines take',
    step=3,
+   notes=dict(
+    serves='Matching information and True/False/Not Given, Reading '
+           'Part 3; Task 1 Academic, a chart of shares',
+    because='A band 6 Task 1 answer describing shares reports the '
+            'percentages and never names the whole they are shares of, '
+            'so the reader cannot tell whether anything has grown',
+    skill='Describing proportions: naming the whole, using of, and '
+          'keeping a falling share apart from a falling number',
+    evidence='Phase 4 measured the 6.5 models against the 9 models; in '
+             'every share chart in the series the lower answer omits '
+             'the whole',
+    watch='Learners will write "routine tasks fell" where the chart '
+          'shows a falling share and a rising total. Expect it, and '
+          'point at the preview box',
+    time='85 minutes, or 65 without the free grammar production'),
+   lead=dict(
+    title='Which half of your job is the routine half?',
+    body='Machines do not take jobs. They take tasks, and a job is a '
+         'bundle of tasks held together by a job title. That is why the '
+         'honest question is never whether your occupation will '
+         'survive, but which parts of it will, and what the rest looks '
+         'like once the easy parts have gone. In cycle 1 you met a role '
+         'changing underneath somebody; this is the mechanism by which '
+         'it happens.',
+    task='Answer these before you look at the chart.',
+    qs=['Take a job you know well. Which three tasks in it are '
+        'routine?',
+        'Which task in that job would be hardest for a machine, and '
+        'why?',
+        'If the routine half went, would the job be better or worse to '
+        'do?',
+        'Would it need the same person, or a different one?']),
+   vocabwork=dict(
+    title='Shares, proportions and the words for them',
+    body='This is the smallest vocabulary set in the unit and the one '
+         'that earns the most marks, because almost every Task 1 '
+         'Academic question in the paper is a question about '
+         'proportions. Eight nouns, six verbs and four ways of saying '
+         'approximately, used precisely.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='a share of a whole',
+                sub='cycle 3 · the Task 1 vocabulary that pays',
+                branches=[('the parts',
+                           ['share', 'proportion', 'percentage',
+                            'fraction']),
+                          ('the whole',
+                           ['total', 'the workforce', 'all tasks',
+                            'the sample']),
+                          ('movement',
+                           ['rise to', 'fall to', 'rise by',
+                            'account for']),
+                          ('size',
+                           ['the largest', 'roughly a third',
+                            'just under half', 'a tenth'])],
+                note='Account for is the verb Task 1 most wants and '
+                     'learners least use: routine tasks account for '
+                     'forty per cent of the total.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 3 · four families a Task 1 answer needs',
+                 rows=[('', ('pro-por-tion', 2), '',
+                        ('pro-por-tio-nal', 3), ('pro-por-tio-nal-ly', 3)),
+                       (('dom-i-nate', 1), ('dom-i-nance', 1), '',
+                        ('dom-i-nant', 1), ''),
+                       (('ex-ceed', 2), ('ex-cess', 1), '',
+                        ('ex-ces-sive', 2), ''),
+                       (('ac-count', 2), '', '', '', ''),
+                       (('de-cline', 2), ('de-cline', 2), '', '', '')],
+                 note='Decline is both verb and noun with the same '
+                      'stress, which is unusual and useful: a decline '
+                      'in routine tasks, or routine tasks declined.'),
+    task='Complete each sentence. The chart in this cycle is the '
+         'subject of all eight.',
+    items=[
+     ('Routine tasks ____________ for forty per cent of the total.',
+      None, 'account'),
+     ('The largest ____________ is held by non-routine cognitive work.',
+      None, 'share'),
+     ('Non-routine manual work makes up just ____________ a tenth.',
+      None, 'under'),
+     ('The noun from proportion used as an adverb is ____________.',
+      None, 'proportionally'),
+     ('Cognitive work is the ____________ category throughout.',
+      None, 'dominant'),
+     ('There was a steady ____________ in routine work after 1990.',
+      None, 'decline'),
+     ('Thirty-three per cent is roughly ____________.',
+      None, 'a third'),
+     ('The whole this chart divides is all ____________ in the '
+      'economy.', None, 'tasks')]),
+   builder=dict(
+    skill='Task 1: describing shares that add to a whole',
+    qkind='skill',
+    explain='A share chart is the easiest Task 1 to describe badly. '
+            'Everything on it is a percentage, the percentages add to a '
+            'hundred, and a learner can write two hundred words of '
+            'perfectly correct sentences that leave the reader knowing '
+            'nothing. Four rules fix it, and they are the whole lesson. '
+            'First, name the whole in your opening sentence, because a '
+            'share of an unnamed thing is not information: these are '
+            'shares of all tasks in the economy, not of jobs and not of '
+            'workers. Second, give the overview as a rank, not as a '
+            'list - which share is largest, which is smallest, and '
+            'whether that order changed. Third, use of in every '
+            'comparison and keep the word share or proportion in the '
+            'sentence, because dropping it is what turns a share into a '
+            'number by accident. Fourth, if the chart gives you a total '
+            'as well as the shares, say explicitly when a share falls '
+            'while the number rises; if it does not give you the total, '
+            'say nothing about numbers at all.',
+    worked=[
+     'The chart: the task mix of the economy, four categories, 1980 '
+     'and 2020.',
+     'Opening, naming the whole: “The chart divides all tasks in the '
+     'economy into four kinds and shows the share held by each in 1980 '
+     'and 2020.”',
+     'Overview as a rank: “Routine manual work held the largest share '
+     'in 1980 and the smallest in 2020; non-routine cognitive work '
+     'moved the other way.”',
+     'A comparison with of kept in: “Routine tasks accounted for '
+     'forty-one per cent of the total in 1980 and twenty-two per cent '
+     'in 2020.”',
+     'What not to write: “routine tasks fell by nineteen”. Nineteen '
+     'what? The chart has not told you how many tasks there were.'],
+    figure=dict(kind='ladder', teaches='band-move',
+                criterion='Task Achievement, on a share chart',
+                sub='cycle 3 · the same fact, three bands',
+                rungs=[('5.5', 'Routine manual was 41 and then it was '
+                        '22. Non-routine cognitive was 19 and then it '
+                        'was 38.', ''),
+                       ('6.5', 'The share of routine manual work fell '
+                        'from 41 per cent to 22 per cent, while '
+                        'non-routine cognitive work rose from 19 to 38 '
+                        'per cent.',
+                        'share kept in, and the two moves joined into '
+                        'one sentence'),
+                       ('7.5', 'Routine manual work, which accounted '
+                        'for the largest share of all tasks in 1980 at '
+                        '41 per cent, had become the smallest by 2020 '
+                        'at 22 per cent, its place taken by non-routine '
+                        'cognitive work.',
+                        'the rank change carried as the sentence’s main '
+                        'point, with the figures subordinate to it')],
+                note='The third answer has the same four numbers in it '
+                     'as the first. What it adds is an order and a '
+                     'whole, and both were on the chart all along.'),
+    task='Rewrite each sentence so that it names the whole, or says '
+         'what is wrong with it. One line each.',
+    items=[
+     ('Routine tasks fell by 19.', None, 'the share fell, not the '
+      'number'),
+     ('Cognitive work was 38 per cent.', None, 'of all tasks'),
+     ('The biggest number is 41.', None, 'the largest share is 41 per '
+      'cent'),
+     ('Manual work went down a lot.', None, 'its share fell from 41 to '
+      '22'),
+     ('There were more cognitive tasks in 2020.', None, 'the chart '
+      'shows shares, not numbers'),
+     ('Non-routine manual stayed the same.', None, 'its share was '
+      'unchanged at about a tenth')],
+    note='Three of the six are wrong because they turned a share into '
+         'a number. That is the single error this whole cycle exists '
+         'to prevent.'),
+   figures=[
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 3 · what the questions will have done to the '
+             'article',
+         pairs=[('two in five', 'forty per cent', 'reformulation'),
+                ('tasks a machine can learn', 'routine work',
+                 'hypernym'),
+                ('the number of workers fell', 'employment declined',
+                 'nominalisation'),
+                ('firms replaced people with machines',
+                 'labour was substituted by capital', 'voice'),
+                ('not the largest', 'smaller than at least one other',
+                 'negation'),
+                ('thinking work', 'cognitive tasks', 'synonym')],
+         note='The second and the last are the two the matching '
+              'questions in this cycle turn on.'),
+   ],
+   advice='In Task 1 the overview is worth more than any other '
+          'sentence, and on a share chart it is a statement of rank '
+          'and change of rank. Write it second, after one sentence '
+          'naming what the chart divides, and never let it become a '
+          'list. A list of four shares is not an overview, it is the '
+          'chart again in words.',
+   debrief=dict(
+    read=['The True/False/Not Given statement about the number of '
+          'routine jobs is Not Given, because the article gives shares '
+          'throughout and never gives a total. The preview box warned '
+          'you this would happen.',
+     'Two paragraphs mention forecasting and only one is about it. The '
+     'matching-information question asks which paragraph contains the '
+     'explanation, not which mentions the word.',
+     'Question 38 uses two in five and the passage says forty per '
+     'cent. That is the first pair on the paraphrase bridge.'],
+    listen=['The speaker gives a share and then a raw number for a '
+            'different year. Both are in the recording and only one '
+            'answers the question.',
+     'In the matching task the third speaker revises her figure after '
+     'a pause. The revised one is the answer.']),
+   outside='Every argument conducted in percentages depends on somebody '
+           'knowing what the whole was, and most of the time nobody '
+           'checks. The habit of asking "of what?" is worth more '
+           'outside this exam than any other sentence in this unit.',
+   recycled=['proportion', 'median', 'share', 'forecast', 'evidence',
+             'occupation'],
    read=[
+    dict(preview=True,
+         heading='What a share is, and what it is not',
+         kind='Explainer box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='The chart in this cycle is about shares, and almost every '
+             'mistake made in describing it is the same mistake. Two '
+             'hundred words now.',
+         paras=[
+          'A share is a part of a whole, and the whole is always stated '
+          'somewhere. Forty per cent of tasks are routine means that if '
+          'you took every task in the economy and sorted them, two in '
+          'five would be of that kind. It says nothing whatever about '
+          'how many tasks there are.',
+          'This matters because a share can fall while the thing itself '
+          'grows. If routine tasks fall from forty per cent to thirty '
+          'while the total number of tasks doubles, there are more '
+          'routine tasks than there were, not fewer. The share fell. '
+          'The number rose. Both sentences are true and they sound like '
+          'contradictions.',
+          'In a chart, shares are usually the thing being drawn, '
+          'because shares are comparable between countries and years '
+          'and raw numbers are not. The cost is that the reader has to '
+          'remember what the whole was, and the chart often does not '
+          'say.',
+          'So the rule for writing about one: name the whole in your '
+          'first sentence, use of in every comparison, and never let a '
+          'falling share become a falling number unless the chart has '
+          'actually told you so.'],
+         items=[
+          ('A share is a part of a ____________, which is always stated '
+           'somewhere.', None, 'whole',
+           'Paragraph 1, which also warns that it says nothing about '
+           'the total.'),
+          ('A share can fall while the number itself ____________.',
+           None, 'grows',
+           'Paragraph 2, where forty per cent falling to thirty leaves '
+           'more tasks, not fewer.'),
+          ('Shares are drawn rather than raw numbers because shares are '
+           '____________ between countries and years.',
+           None, 'comparable',
+           'Paragraph 3, and the cost is given in the same sentence.')]),
     dict(heading='Routine, non-routine and the jobs in between',
          kind='Data article',
          task='Matching features, matching information, sentence completion and True/False/Not Given',
@@ -877,6 +1775,48 @@ UNIT = dict(
          instruct='  Write at least 150 words in about 20 minutes.',
          lines=14)],
    gram=dict(
+    ref='L6',
+    context=[
+     'From the article in this cycle:',
+     'Routine manual tasks accounted for forty-one per cent of all '
+     'tasks in 1980 and twenty-two per cent in 2020. Over the same '
+     'period the share held by non-routine cognitive work roughly '
+     'doubled, from nineteen per cent to thirty-eight. Nothing in '
+     'these figures tells us how many tasks there were in either year, '
+     'and a good deal of commentary has proceeded as though it did.'],
+    notice=[
+     ('Find the two different ways the writer expresses a change.',
+      'from forty-one per cent to twenty-two; roughly doubled'),
+     ('What does the last sentence stop the reader from concluding?',
+      'that the number of tasks rose or fell')],
+    noticetask='Answer both from the paragraph above, which is from the '
+               'passage you have just read.',
+    contrast='Describing shares needs the same three tools as comparing '
+             'any pair of figures - a difference, a ratio, an '
+             'approximation - with one extra rule on top: the word '
+             'share or proportion has to survive into the sentence. '
+             'Compare "routine work fell from 41 to 22" with "the share '
+             'of routine work fell from 41 to 22 per cent". The first '
+             'sentence says something the chart does not support, and '
+             'it is the commonest error in Task 1 Academic. The '
+             'reference entry on comparing figures has the full set; '
+             'this is the part of it that applies to shares.',
+    task2='Rewrite each so that it is true of a share chart.',
+    items2=[
+     ('Routine tasks fell by 19. ____________',
+      None, 'The share of routine tasks fell by 19 percentage points.'),
+     ('Cognitive work doubled. ____________',
+      None, 'The share held by cognitive work roughly doubled.'),
+     ('Manual work was the biggest. ____________',
+      None, 'Manual work accounted for the largest share.'),
+     ('Correct: a rise from 19% to 38% is a rise of 19 per cent. '
+      '____________',
+      None, 'a rise of 19 percentage points')],
+    task3='Now write the opening of a Task 1 answer from the chart in '
+          'this cycle: one sentence naming the whole, one overview '
+          'sentence giving the rank and its change, and one comparison. '
+          'About fifty words, and no figure you do not need.',
+    items3=8,
     point='Describing shares that add to a whole',
     fix=dict(
      text=('The chart shows four shares which together make up the whole. '
@@ -942,6 +1882,218 @@ UNIT = dict(
   dict(
    sub='What happened the last four times',
    step=4,
+   notes=dict(
+    serves='Matching headings and Yes/No/Not Given, Reading Part 3, on '
+           'a six-hundred-word historical passage; multiple choice in '
+           'Listening Part 4',
+    because='Unit 21 taught matching headings as function rather than '
+            'subject; this unit takes the next step, because the hard '
+            'pairs are not subject against function but one function '
+            'against a very similar one - the paragraph that defines a '
+            'term against the paragraph that gives an example of it',
+    skill='Telling a definition from an illustration, and a claim from '
+          'the evidence for it',
+    evidence='gate10 census: matching headings appears in every book, '
+             'and the audit found no unit in Volume 3 teaching the '
+             'distinctions the distractors are actually built on',
+    watch='Learners will give paragraph C the heading about the '
+          'Luddites, because C is full of Luddites. C defines '
+          'technological unemployment and uses them as its example',
+    time='90 minutes, or 70 without the free grammar production'),
+   lead=dict(
+    title='This has happened before. Four times.',
+    body='Every generation is told that this time the machines are '
+         'different. Sometimes that has been true. The useful question '
+         'is not whether the present wave is unprecedented but what '
+         'happened the last four times, how long the bad part lasted, '
+         'and who bore it - which is a historical question with an '
+         'answer rather than a prediction with an opinion. The puzzle '
+         'chart at the front of this unit is the evidence; this cycle '
+         'is the argument.',
+    task='Answer these before you read, and keep your answers for the '
+         'unit review.',
+    qs=['Name a technology that destroyed a kind of work in your '
+        'lifetime. What replaced it?',
+        'How long do you think it takes a labour market to absorb a '
+        'change like that - a year, a decade, a generation?',
+        'Who do you think bears the cost while it is happening?',
+        'Is the present wave different? What would count as evidence '
+        'either way?']),
+   vocabwork=dict(
+    title='The vocabulary of a transition',
+    body='Historians writing about technological change use a precise '
+         'and slightly cold set of words, and the precision is the '
+         'point: displaced is not the same as unemployed, and '
+         'reallocation is not the same as recovery. Seven of these '
+         'words return in cycle 5, where the subject is one worker '
+         'rather than a labour market.',
+    figure=dict(kind='cline', teaches='scale',
+                title='How long did it take?',
+                sub='cycle 4 · the words this passage uses for '
+                    'duration',
+                left='immediately', right='never, for those people',
+                items=[('within months', 0.04),
+                       ('over a few years', 0.2),
+                       ('within a decade', 0.36),
+                       ('over a generation', 0.56),
+                       ('only for their children', 0.76),
+                       ('not within their working lives', 0.95)],
+                note='The passage uses the right-hand half three times '
+                     'and the left-hand half once. That asymmetry is '
+                     'the argument, and two of the headings depend on '
+                     'noticing it.'),
+    figure2=dict(kind='collocation', teaches='collocation',
+                 node='labour', sub='cycle 4',
+                 groups=[('labour + noun',
+                          ['labour market', 'labour force',
+                           'labour costs', 'labour mobility']),
+                         ('verb + labour',
+                          ['displace labour', 'absorb labour',
+                           'substitute for labour', 'free up labour']),
+                         ('adjective + labour',
+                          ['skilled labour', 'cheap labour',
+                           'surplus labour'])],
+                 note='Labour is uncountable in all of these: '
+                      '"labours" means something else entirely, and '
+                      '"a labour" is a birth or a task in a myth.'),
+    task='Complete each with a word or phrase from this cycle.',
+    items=[
+     ('Workers whose jobs the machine took were ____________.',
+      None, 'displaced'),
+     ('The market eventually ____________ them into other work.',
+      None, 'absorbed'),
+     ('Moving workers between regions and trades is labour '
+      '____________.', None, 'mobility'),
+     ('A gain that arrives too late for the people who paid for it '
+      'arrives ____________ for their children.', None, 'only'),
+     ('Machines ____________ for labour in routine tasks.',
+      None, 'substitute'),
+     ('The total number employed across the country is the national '
+      '____________.', None, 'total'),
+     ('The splitting of work into very good and very bad jobs is '
+      '____________.', None, 'polarisation'),
+     ('The period between one settled state and the next is the '
+      '____________.', None, 'transition')]),
+   builder=dict(
+    skill='Matching headings: defining, illustrating, claiming, proving',
+    qkind='skill',
+    explain='In unit 21 you learned to name what a paragraph does '
+            'rather than what it mentions. This is the next difficulty '
+            'and it is where most of the remaining marks go. Once you '
+            'are naming functions, the headings that tempt you are no '
+            'longer the ones sharing a noun; they are the ones naming a '
+            'neighbouring function. A paragraph that defines '
+            'technological unemployment and a paragraph that gives the '
+            'Luddites as an example of it are both about the Luddites '
+            'and about unemployment, and only one of them is a '
+            'definition. The test is a question you ask the paragraph: '
+            'could this paragraph be true if the example in it were '
+            'replaced by a different example? If yes, it is a '
+            'definition or a claim, and the example is decoration. If '
+            'no - if removing the example removes the content - it is '
+            'an illustration or the evidence for something stated '
+            'elsewhere. Four functions, two pairs, and the pairs are '
+            'where the examiner works: define against illustrate, claim '
+            'against prove.',
+    worked=[
+     'Paragraph C opens “Technological unemployment is the gap between '
+     'a job disappearing and its replacement arriving” and spends six '
+     'lines on Nottingham in 1811.',
+     'Could the paragraph survive if Nottingham were replaced by '
+     'Detroit in 1975? Yes - the definition is unchanged.',
+     'So C defines, and Nottingham is its example. The heading '
+     '"Machine-breaking in Nottingham" names the decoration.',
+     'Paragraph D is six lines on Detroit with no definition in it at '
+     'all. Remove Detroit and nothing is left. D illustrates.'],
+    figure=dict(kind='skeleton', teaches='text-structure',
+                title='Six hundred words, six functions',
+                sub='cycle 4 · build your own before you look at this',
+                paras=[('A', 'context', 'Four waves, and why they are '
+                        'compared'),
+                       ('B', 'claim', 'The transition, not the machine, '
+                        'is the problem'),
+                       ('C', 'definition', 'What technological '
+                        'unemployment means'),
+                       ('D', 'example', 'Detroit, and what the decade '
+                        'cost'),
+                       ('E', 'evidence', 'Four episodes, four '
+                        'durations'),
+                       ('F', 'consequence', 'What follows for policy '
+                        'now')],
+                note='C and D are the pair this cycle is about. Both '
+                     'are full of places and dates; only one of them '
+                     'would survive having its place and date changed.'),
+    task='For each paragraph opening and closing, write DEFINE, '
+         'ILLUSTRATE, CLAIM or PROVE, and one word of reason.',
+    items=[
+     ('Opens: “Displacement is not unemployment.” Closes: “...the two '
+      'are routinely confused.”', None, 'define'),
+     ('Opens: “In Nottingham in 1811 the frames were broken at '
+      'night.” Closes: “...and the hangings followed in the spring.”',
+      None, 'illustrate'),
+     ('Opens: “Every one of the four episodes ended in higher '
+      'employment.” Closes: “...and in every case it took longer than '
+      'a decade.”', None, 'prove'),
+     ('Opens: “The machine is not the problem.” Closes: “...the '
+      'problem is the gap.”', None, 'claim'),
+     ('Opens: “Consider the weavers of Lancashire.” Closes: '
+      '“...their sons went into the mills.”', None, 'illustrate'),
+     ('Opens: “By polarisation economists mean the hollowing of the '
+      'middle.” Closes: “...with very good and very bad jobs at either '
+      'end.”', None, 'define')],
+    note='Two of the six are illustrations and both name a place in '
+         'their first line. That is a reliable tell and it is exactly '
+         'what makes their headings tempting, because a heading naming '
+         'the place is the easiest to match and the wrong one. Apply '
+         'the replacement test to anything with a proper noun in it: '
+         'could this paragraph be rewritten about somewhere else and '
+         'still say what it says? If yes, the proper noun is an '
+         'example and the paragraph is doing something more general. '
+         'If no, you are reading the illustration, and its heading '
+         'will be the one that sounds least like a heading.'),
+   figures=[
+    dict(kind='timeline', teaches='timeline',
+         title='Four waves, and how long each took',
+         sub='cycle 4 · the passage covers 1811 to now',
+         events=[('1811', 'Nottingham: frames broken', 0.02),
+                 ('1830s', 'Handloom weavers displaced', 0.18),
+                 ('1880s', 'Mechanised agriculture', 0.38),
+                 ('1950s', 'Automation of the line', 0.6),
+                 ('1980s', 'Computers enter the office', 0.78),
+                 ('Now', 'Routine cognitive work', 0.98)],
+         note='The matching-information questions in this cycle are a '
+              'dating task in disguise. Draw this before you answer '
+              'them, not after.'),
+   ],
+   advice='Do the headings paragraph by paragraph, in order, and write '
+          'your own four words before you look at the list. The '
+          'examiner provides two more headings than there are '
+          'paragraphs and at least one unused heading will fit a '
+          'paragraph you have already answered - that is what it is '
+          'for. A heading naming a place or a date is almost always '
+          'the decoration of a paragraph whose job is something else.',
+   debrief=dict(
+    read=['Paragraph C is full of Nottingham and is a definition. '
+          'Paragraph D is full of Detroit and is an illustration. The '
+          'heading naming a city belongs to D.',
+     'Two headings contain the word unemployment and three paragraphs '
+     'are about unemployment. Function, not subject - and then '
+     'function against neighbouring function.',
+     'The Yes/No/Not Given statement about wages is one the passage '
+     'reports from a named economist and then qualifies. It is the '
+     'reported-voice problem from cycle 2 of this unit, in a longer '
+     'passage.'],
+    listen=['Dr Hale gives four dates and asks you to remember one. '
+            'The one she repeats is the one the question wants, and '
+            'she repeats it twice.',
+     'Question 57 offers an option built from a phrase she uses about '
+     'a different episode.']),
+   outside='Knowing whether a writer is defining a term or giving you '
+           'an example of it decides whether you can argue with them. '
+           'Most bad public argument is two people trading examples '
+           'while believing they are disputing a definition.',
+   recycled=['displaced', 'transition', 'evidence', 'labour market',
+             'forecast', 'polarisation'],
    read=[
     dict(heading='Two centuries of machines and the jobs that followed',
          kind='Academic passage',
@@ -1054,6 +2206,46 @@ UNIT = dict(
            '____________.', None, 'polarisation',
            'Paragraph 5, in the episode of office computerisation.')])],
    listen=[
+    dict(preview=True,
+         heading='A historian on the word Luddite',
+         part='Preview', task='Sentence completion',
+         band='lpre', qtype='Questions P1-P3',
+         why='The lecture you are about to hear assumes you know what '
+             'the Luddites actually wanted. Almost nobody does, and the '
+             'lecture’s argument depends on it.',
+         script=[
+          ('Dr Hale', 'The word Luddite now means somebody who hates '
+                      'machines. That is not what they were, and the '
+                      'mistake is worth a minute of your time.'),
+          ('Student', 'They broke machines, though.'),
+          ('Dr Hale', 'They broke some machines and left others alone, '
+                      'in the same workshops, on the same nights. What '
+                      'they objected to was not the frame. It was being '
+                      'paid by the piece for work the frame had made '
+                      'faster, so that the same hours bought less '
+                      'bread.'),
+          ('Student', 'So it was about wages.'),
+          ('Dr Hale', 'It was about who captured the gain. The frame '
+                      'produced a gain. The question was whose it was, '
+                      'and the answer, given by Parliament rather than '
+                      'by the market, was not theirs.'),
+          ('Student', 'And that is the modern argument too.'),
+          ('Dr Hale', 'That is the argument in every one of the four '
+                      'episodes we are about to look at, and it is why '
+                      'calling somebody a Luddite is usually a way of '
+                      'avoiding it.')],
+         items=[
+          ('Dr Hale says the Luddites objected not to the frame but to '
+           'being paid by the ____________.', None, 'piece',
+           'Her second long turn, where she says the same hours bought '
+           'less bread.'),
+          ('The real question, she says, was who captured the '
+           '____________.', None, 'gain',
+           'Her third turn, which is also the thesis of the lecture.'),
+          ('The answer was given by ____________ rather than by the '
+           'market.', None, 'parliament',
+           'The same turn, and it is the detail the exam task comes '
+           'back to.')]),
     dict(heading='A lecture on technological unemployment', part='Part 4',
          task='A lecture on four historical episodes · multiple choice, sentence completion and short answer', band='l4',
          qtype='Questions 53-58',
@@ -1205,6 +2397,58 @@ UNIT = dict(
                   'it in cycle 5.',
          lines=12)],
    gram=dict(
+    ref='L14',
+    context=[
+     'From the passage you have just read:',
+     'Employment rose in every one of the four episodes. It does not '
+     'follow that the weavers found work. The national total is a '
+     'statement about a market; the weaver is a person, and a market '
+     'can absorb a shock in fifteen years while a working life lasts '
+     'forty. Both sentences are true, and almost every argument about '
+     'automation consists of one side stating the first and the other '
+     'side stating the second.'],
+    notice=[
+     ('Find the sentence that refuses to let one claim imply the '
+      'other.', 'It does not follow that the weavers found work'),
+     ('What two nouns does the writer put side by side to mark the '
+      'difference?', 'a market; a person')],
+    noticetask='Answer both from the paragraph above, which you met '
+               'earlier in this cycle.',
+    contrast='Keeping a claim about a total apart from a claim about a '
+             'person is a structure before it is an idea, and the '
+             'structure is simple: state the aggregate, deny the '
+             'inference with it does not follow that, then name the '
+             'two different subjects. Compare it with the band 6 '
+             'version, which is "employment rose but some people '
+             'suffered" - true, vague, and not an argument, because but '
+             'does not say why the first sentence fails to settle the '
+             'second. It does not follow that is doing logical work '
+             'that but cannot do.',
+    task2='Join each pair so that the aggregate claim does not swallow '
+          'the individual one. Use the phrase given.',
+    items2=[
+     ('Employment rose. The weavers did not find work. (it does not '
+      'follow) ____________',
+      None, 'Employment rose; it does not follow that the weavers '
+      'found work.'),
+     ('Average earnings rose. Most workers earned less. (which is '
+      'consistent with) ____________',
+      None, 'Average earnings rose, which is consistent with most '
+      'workers earning less.'),
+     ('The market adjusted in fifteen years. A working life is forty. '
+      '(so) ____________',
+      None, 'The market adjusted in fifteen years, so a working life '
+      'outlasts the adjustment.'),
+     ('Correct: employment rose but some people suffered, therefore '
+      'the policy failed. ____________',
+      None, 'employment rose; it does not follow that nobody bore a '
+      'cost')],
+    task3='Now write it yourself. Take any aggregate claim from this '
+          'unit - the rise in total employment, the fall in the share '
+          'of routine work, the growth of cognitive jobs - state it '
+          'fairly, and then say precisely what it does not establish '
+          'about an individual. Sixty to eighty words.',
+    items3=10,
     point='Keeping a claim about totals apart from a claim about people',
     explain=('This is the distinction the whole unit turns on, and it is worth '
              'a band on its own in an essay about economics or policy.'),
@@ -1253,7 +2497,356 @@ UNIT = dict(
   dict(
    sub='True of the market, false of the worker',
    step=5,
+   notes=dict(
+    serves='Matching information and matching sentence endings, '
+           'Reading Part 3; Task 2, agree or disagree with a statement',
+    because='Band 6 essays either accept a statement wholesale or '
+            'reject it wholesale, and the strongest Task 2 move - '
+            'granting that a statement is true and denying what it is '
+            'normally used to prove - is almost never attempted because '
+            'nobody has shown it being done',
+    skill='Conceding a claim and refusing the inference drawn from it, '
+          'in writing, in one paragraph',
+    evidence='Phase 4: the band 6.5 models in this series concede in '
+             'one clause and then abandon the concession; the band 9 '
+             'models concede in a sentence and answer in the next one',
+    watch='Learners will write "I agree but" and then argue as though '
+          'they disagreed. Ask them to underline what exactly they have '
+          'granted',
+    time='95 minutes, or 70 without the free grammar production'),
+   lead=dict(
+    title='Both of them are right',
+    body='This is the last cycle of the unit and it is the one where '
+         'the two halves of the argument meet. The historical record '
+         'says the market absorbed every previous wave of automation. '
+         'The same record says the people displaced in each wave '
+         'mostly never recovered. In cycle 4 you read the evidence for '
+         'the first; here you read the evidence for the second, and '
+         'then you have to write something that is honest about both. '
+         'That is harder than it sounds, and not because the facts are '
+         'in doubt. The difficulty is that the two sentences are about '
+         'different subjects - one about a market, which has no '
+         'lifespan, and one about people, who have about forty working '
+         'years - so neither can refute the other and an essay that '
+         'treats them as rival claims will be arguing with itself. '
+         'Most of what you have been taught in this unit comes '
+         'together here: the reported voice from cycle 2, the share '
+         'that is not a number from cycle 3, the aggregate that says '
+         'nothing about an individual from cycle 4.',
+    task='Answer these before you read. You wrote something similar at '
+         'the start of cycle 4 - compare.',
+    qs=['If a change makes a country richer and a hundred thousand '
+        'people poorer, has it worked?',
+        'Does it matter whether the hundred thousand can be identified '
+        'in advance?',
+        'What would a government owe those people, if anything?',
+        'Has anything in this unit changed what you thought at the '
+        'start of it? Which cycle?']),
+   vocabwork=dict(
+    title='The words for granting and refusing',
+    body='The last vocabulary set of the unit is the one you will use '
+         'most often in Writing and Speaking for the rest of the '
+         'course. It is the language of agreeing with somebody and '
+         'declining to go where they are going, which is a more useful '
+         'thing to be able to do than either agreeing or disagreeing.',
+    figure=dict(kind='field', teaches='vocabulary',
+                centre='granting, and refusing the inference',
+                sub='cycle 5 · and you will use all sixteen in Task 2',
+                branches=[('granting it',
+                           ['granted', 'admittedly', 'it is true that',
+                            'I accept that']),
+                          ('limiting it',
+                           ['as far as it goes', 'in that narrow sense',
+                            'on that reading', 'up to a point']),
+                          ('refusing the step',
+                           ['it does not follow', 'which proves nothing '
+                            'about', 'that is a different claim',
+                            'the inference is the problem']),
+                          ('replacing it',
+                           ['the real question is', 'what matters here',
+                            'the useful question', 'I would put it '
+                            'differently'])],
+                note='Every phrase in the third branch does logical '
+                     'work that but cannot do, which is why they are '
+                     'worth learning whole rather than assembled. But '
+                     'signals a contrast and says nothing about what '
+                     'kind; it does not follow names the fault '
+                     'precisely - that the step from evidence to '
+                     'conclusion has failed - and leaves the evidence '
+                     'standing. That is why the phrases in branch '
+                     'three are hard to answer: your opponent cannot '
+                     'reply with more evidence, because you have not '
+                     'disputed any.'),
+    figure2=dict(kind='family', teaches='word-formation',
+                 sub='cycle 5 · five families for conceding well',
+                 rows=[(('con-cede', 2), ('con-ces-sion', 2), '', '',
+                        ''),
+                       (('in-fer', 2), ('in-fe-rence', 1), '', '', ''),
+                       (('qua-li-fy', 1), ('qua-li-fi-ca-tion', 4), '',
+                        ('qua-li-fied', 1), ''),
+                       (('ac-knowl-edge', 2), ('ac-knowl-edge-ment', 2),
+                        '', '', ''),
+                       (('dis-tin-guish', 2), ('dis-tinc-tion', 2), '',
+                        ('dis-tinct', 2), ('dis-tinct-ly', 2))],
+                 note='Note the stress move in infer and inference: the '
+                      'verb takes it on the second syllable and the '
+                      'noun on the first. Learners say in-FER-ence and '
+                      'it is one of the few errors examiners comment '
+                      'on.'),
+    task='Complete each sentence with a word or phrase from this '
+         'cycle.',
+    items=[
+     ('The step from the evidence to the conclusion is the '
+      '____________.', None, 'inference'),
+     ('A statement accepted only in a narrow sense is accepted '
+      '____________ a point.', None, 'up to'),
+     ('The noun from concede is ____________.', None, 'concession'),
+     ('To separate two things that are being confused is to '
+      '____________ them.', None, 'distinguish'),
+     ('The phrase that grants the claim and refuses its use: it does '
+      'not ____________.', None, 'follow'),
+     ('The noun from acknowledge is ____________.',
+      None, 'acknowledgement'),
+     ('A claim accepted with a limit attached has been ____________.',
+      None, 'qualified'),
+     ('The phrase that replaces the question rather than answering it: '
+      'the real ____________ is.', None, 'question')]),
+   builder=dict(
+    skill='Task 2: concede, then answer',
+    qkind='skill',
+    explain='The strongest single move available in Task 2 is to grant '
+            'that a statement is true and deny what it is being used to '
+            'prove, and almost no band 6 essay attempts it, because the '
+            'only two moves most learners have are agreeing and '
+            'disagreeing. It works in three sentences and the order is '
+            'fixed. First, state the other side’s claim at its '
+            'strongest, in your own words - not a caricature, the '
+            'version its own supporters would sign. Second, grant it '
+            'explicitly and say exactly how far: granted, and then the '
+            'boundary. Third, refuse the inference and say why, which '
+            'means naming the gap between what has been shown and what '
+            'is being concluded. The commonest failure is to write I '
+            'agree but and then argue as though you disagreed, which '
+            'leaves the examiner unable to tell what you granted; the '
+            'second commonest is to concede in the last sentence of a '
+            'paragraph, so the reader finishes holding the other side’s '
+            'point rather than yours.',
+    worked=[
+     'The statement: automation has always created more jobs than it '
+     'destroyed, so fears about it are misplaced.',
+     'State it at its strongest: “In every previous episode employment '
+     'was higher a generation later, and this is the record rather '
+     'than a forecast.”',
+     'Grant it, with the boundary: “Granted - as a claim about '
+     'national totals over a generation, that is simply true.”',
+     'Refuse the inference, naming the gap: “It does not follow that '
+     'fears are misplaced, because the people who bore the cost were '
+     'not the people who collected the gain, and a worker displaced at '
+     'thirty-five does not have a generation to wait.”',
+     'Notice that nothing in the third sentence disputes the second. '
+     'That is what makes it hard to answer.'],
+    figure=dict(kind='langbank', teaches='useful-language',
+                title='Useful language · granting and refusing',
+                sub='cycle 5 · Task 2',
+                groups=[('stating it at its strongest',
+                         ['The case for X rests on',
+                          'At its strongest the claim is that',
+                          'Those who argue X point to',
+                          'There is real force in'],
+                         'At its strongest the claim is that every '
+                         'previous wave ended in higher employment, '
+                         'which is the record rather than a forecast.'),
+                        ('granting it, with a boundary',
+                         ['Granted, as far as X goes',
+                          'I accept this, in that narrow sense',
+                          'This is true on that reading',
+                          'Up to a point, yes'],
+                         'Granted - as a claim about national totals '
+                         'over a generation, this is simply true.'),
+                        ('refusing the inference',
+                         ['It does not follow that',
+                          'That establishes nothing about',
+                          'The inference is where it fails',
+                          'A different claim is being smuggled in'],
+                         'It does not follow that the fears are '
+                         'misplaced, because the gain and the cost fell '
+                         'on different people.')]),
+    task='For each claim, write the concession and the refusal - two '
+         'sentences, using one phrase from each of the last two '
+         'columns.',
+    items=[
+     ('Average wages rose, so workers are better off.',
+      None, 'granted about the average, not about most workers'),
+     ('The market always adjusts, so no action is needed.',
+      None, 'granted about the market, not within a working life'),
+     ('Retraining schemes have low completion rates, so they do not '
+      'work.', None, 'granted about completion, not about effect'),
+     ('Every previous panic was wrong, so this one is.',
+      None, 'granted about the record, not about this case'),
+     ('The share of routine work fell, so there is less routine work.',
+      None, 'granted about the share, not about the number'),
+     ('Firms will not fund training for competitors, so the state '
+      'must.', None, 'granted about firms, the conclusion needs more')],
+    note='The fifth is the one you met in cycle 3 and the second is '
+         'the one you met in cycle 4. A concession is a reading skill '
+         'before it is a writing one - you cannot grant a claim you '
+         'have not understood at its strongest - which is why they '
+         'come in that order in this book, and why four of these six '
+         'are drawn from passages you have already read. Notice too '
+         'that all six have the same shape underneath: a true '
+         'statement about one thing, used to settle a question about '
+         'a different thing. Once you can see that shape you will '
+         'find it three times a day outside this room, and it is the '
+         'reason it is the last thing the unit teaches.'),
+   figures=[
+    dict(kind='skeleton', teaches='text-structure',
+         title='The last passage, in six boxes',
+         sub='cycle 5 · and compare it with the one in cycle 4',
+         paras=[('A', 'context', 'The two sentences, and both are '
+                 'true'),
+                ('B', 'claim', 'The disagreement is about subject, not '
+                 'evidence'),
+                ('C', 'evidence', 'Lancashire: forty years, one '
+                 'lifetime'),
+                ('D', 'concession', 'The aggregate case, at its '
+                 'strongest'),
+                ('E', 'counter-claim', 'And why it settles nothing '
+                 'here'),
+                ('F', 'consequence', 'What a government could '
+                 'actually do')],
+         note='D is the concession this whole cycle is about. Read it '
+              'and ask how much it grants, because the answer is '
+              '"everything the other side has evidence for".'),
+    dict(kind='bridge', teaches='paraphrase',
+         sub='cycle 5 · the matching-information set turns on these',
+         left='THE QUESTION SAYS', right='THE PASSAGE WROTE',
+         pairs=[('people who lost their jobs',
+                 'the displaced', 'nominalisation'),
+                ('it does not prove', 'establishes nothing about',
+                 'synonym'),
+                ('the country as a whole', 'the national total',
+                 'reformulation'),
+                ('they never recovered',
+                 'the recovery arrived for their children',
+                 'reformulation'),
+                ('not a single episode was different',
+                 'every one of the four', 'negation'),
+                ('weavers, miners and clerks', 'displaced trades',
+                 'hypernym')],
+         note='The fourth pair is the one almost everybody misses and '
+              'it is worth two marks. "They never recovered" and "the '
+              'recovery arrived for their children" are the same '
+              'claim; the passage states it as a fact about timing '
+              'and the question states it as a fact about people, and '
+              'a reader scanning for never will not find it. Cover '
+              'the right-hand column and predict, because predicting '
+              'is the only way to practise a move you cannot see.'),
+   ],
+   advice='In an agree-or-disagree question you are allowed to do '
+          'neither, provided you say so and say why. What you are not '
+          'allowed to do is leave the examiner guessing, and a '
+          'conceding essay is the easiest kind to be unclear in, '
+          'because every paragraph of it contains a sentence agreeing '
+          'with the other side. So if you grant half the statement, '
+          'write one sentence saying exactly which half, and put it '
+          'where it can be found - at the end of the introduction, and '
+          'again at the start of the paragraph that does the work. '
+          'Examiners read fast and read for position: a thesis buried '
+          'in the middle of a body paragraph is a thesis that was not '
+          'found. And do not spend the conclusion restating the '
+          'concession. The conclusion is the one place in the essay '
+          'where only your own view should be standing.',
+   debrief=dict(
+    read=['The matching-information question about the weavers has two '
+          'candidate paragraphs. One tells their story and one uses '
+          'their story to make a point. The question asks which '
+          'contains the argument.',
+     'The sentence-endings task gives you two endings that are both '
+     'grammatical and only one that is true of the passage. Read for '
+     'sense, not for fit.',
+     'The statement that the author thinks automation should be '
+     'stopped is Not Given, and it is tempting because the author is '
+     'plainly sympathetic to the weavers. Sympathy is not a position, '
+     'and test 1 from unit 21 cycle 2 settles it in four seconds: does '
+     'the writer take a view on whether automation should be stopped '
+     'anywhere on the page? No. Then the statement is Not Given, '
+     'however obvious its answer feels.',
+     'Question 66 and question 69 are built from the same paragraph '
+     'and only one of them is answered in it. The other is answered '
+     'three paragraphs later, where the same point is made about a '
+     'different trade. A matching-information set is not in passage '
+     'order and the examiner uses that: two questions that look like '
+     'a pair are usually a pair on purpose, and usually not from the '
+     'same place.'],
+    listen=['The speaker concedes at length and then says "even so", '
+            'and the answers to two questions are after that phrase.',
+     'In the plan-labelling task the speaker describes the room '
+     'clockwise and then corrects one item. The correction is at the '
+     'end, which is the standard shape: a plan or map task almost '
+     'always moves in one direction and almost always doubles back '
+     'once. Mark the direction on the plan before the recording '
+     'starts, so that when the speaker says "actually, no" you '
+     'already know which label is in play.',
+     'Two of the options in the last question are things the speaker '
+     'mentions and one is a thing she recommends. The stem asks what '
+     'she advises, not what she describes, and the difference is one '
+     'verb.',
+     'The speaker uses the word "settled" twice, once about the '
+     'market and once about a family. Only one of the two is the '
+     'answer, and which one depends entirely on the subject of the '
+     'question stem - which is the distinction this whole cycle has '
+     'been about. A listening paper can test a reading skill, and '
+     'this one does.']),
+   outside='Granting what is true and refusing what is being smuggled '
+           'in beside it is the most useful thing in this book. It is '
+           'how you deal with a sales pitch, a political promise, a '
+           'medical statistic and most arguments with people you '
+           'respect.',
+   recycled=['displaced', 'inference', 'concession', 'evidence',
+             'transition', 'national total', 'labour market'],
    read=[
+    dict(preview=True,
+         heading='Two sentences that are both true',
+         kind='Explainer box', task='Sentence completion',
+         band='pre', qtype='Questions P1-P3',
+         why='The last passage of the unit is built on one distinction, '
+             'and the whole argument collapses into noise without it. '
+             'Two hundred words.',
+         paras=[
+          'The labour market absorbed every previous wave of '
+          'automation. Within a generation, employment was higher than '
+          'before, wages were higher, and the work people did was less '
+          'dangerous. This is not propaganda; it is what the records '
+          'show, in four separate episodes across two centuries.',
+          'The weavers of Lancashire did not benefit from any of it. '
+          'They were displaced in their thirties, worked at lower pay '
+          'for the rest of their lives, and the recovery arrived for '
+          'their children. This is also what the records show, and it '
+          'is recorded in the same books.',
+          'Neither sentence refutes the other, because they are about '
+          'different subjects. One is about a market, which is an '
+          'abstraction with no lifespan. The other is about people, who '
+          'have about forty working years and cannot wait out a '
+          'twenty-year adjustment.',
+          'Almost every public argument about automation consists of '
+          'one side repeating the first paragraph and the other side '
+          'repeating the second, each believing the other has not read '
+          'the evidence. Both have. The disagreement is about which '
+          'subject matters, and that is not a question evidence can '
+          'settle.'],
+         items=[
+          ('Within a ____________, employment was higher than before '
+           'in every previous episode.', None, 'generation',
+           'Paragraph 1, which also says this is what the records '
+           'show.'),
+          ('The weavers were displaced in their thirties and the '
+           'recovery arrived for their ____________.',
+           None, 'children',
+           'Paragraph 2, recorded in the same books as paragraph 1.'),
+          ('The two sentences do not conflict because they are about '
+           'different ____________.', None, 'subjects',
+           'Paragraph 3: a market has no lifespan and people have '
+           'forty working years.')]),
     dict(heading='The aggregate that hides the person',
          kind='Academic passage',
          task='Matching information, Yes/No/Not Given, sentence completion and short answer',
@@ -1545,6 +3138,7 @@ UNIT = dict(
          banklabel='Positions on the plan',
          bank=['A', 'B', 'C', 'D', 'E', 'F', 'G'],
          figure=dict(kind='map',
+                     teaches='plan',
                      title='Ground floor of the Brackmoor training centre',
                      sub='seven rooms, lettered A to G',
                      panels=[('Ground floor',
@@ -1749,6 +3343,58 @@ UNIT = dict(
                   'outline.',
          lines=18)],
    gram=dict(
+    ref='L10',
+    context=[
+     'From the passage you have just read:',
+     'Granted, and without qualification: in each of the four episodes '
+     'the number of people in work was higher a generation later than '
+     'it had been before. That is the record, not a forecast, and '
+     'anyone arguing about automation who has not absorbed it is not '
+     'yet in the conversation. It does not follow that the displaced '
+     'were made whole, and in three of the four episodes we can show '
+     'that they were not.'],
+    notice=[
+     ('The writer grants something and then refuses something. Copy '
+      'out the three words that begin each move.',
+      'Granted, and without; It does not follow'),
+     ('Why does the writer grant it "without qualification" rather '
+      'than hedging?',
+      'because the concession is stronger if it is complete, and the '
+      'refusal is about the inference rather than the fact')],
+    noticetask='Answer both from the paragraph above, which you met '
+               'earlier in this cycle.',
+    contrast='You met concession in unit 21, cycle 5, where the shape '
+             'was although X, Y. This is the harder and more useful '
+             'version: granting a claim completely and then refusing '
+             'what is inferred from it. The difference is what gets '
+             'denied. Although the gains fade, the outcomes do not '
+             'disputes a fact. Granted, employment rose; it does not '
+             'follow that the weavers recovered disputes a step. '
+             'Disputing a step is almost always the stronger move, '
+             'because your opponent has no evidence to answer it with - '
+             'the evidence was never the point.',
+    task2='Rewrite each so that the concession is complete and the '
+          'refusal is of the inference, not the fact.',
+    items2=[
+     ('Employment rose but the weavers suffered. ____________',
+      None, 'Granted, employment rose; it does not follow that the '
+      'weavers recovered.'),
+     ('Average pay went up, although not for everyone. ____________',
+      None, 'Granted, average pay rose; that establishes nothing about '
+      'the median worker.'),
+     ('Correct: I agree with this statement but I disagree with it. '
+      '____________',
+      None, 'I accept the claim and reject the conclusion drawn from '
+      'it'),
+     ('The market adjusted, but slowly. ____________',
+      None, 'Granted, the market adjusted; it did not adjust within a '
+      'working life.')],
+    task3='Now do it in full. Take the statement "automation has always '
+          'created more jobs than it destroyed, so present fears are '
+          'misplaced", state it at its strongest, grant it, and refuse '
+          'the inference. Eighty to a hundred words, three sentences or '
+          'four.',
+    items3=10,
     point='Agreeing with a statement and refusing its usual use',
     explain=('Some prompts are true as written and misleading as meant. These '
              'patterns let you accept the sentence and reject the argument '

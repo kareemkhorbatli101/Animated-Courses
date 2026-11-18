@@ -251,6 +251,349 @@ LANG = {
     'This is true as far as it goes, but it does not settle the '
     'question.')],
   seen=[]),
+
+ 'L13': dict(
+  title='Dividing a subject before arguing about it',
+  also='enumeration, separating questions',
+  pattern=[
+   'Announce, number, separate. There are two questions here. The first '
+   'is whether X. The second is who should Y.',
+   'The first and the second take a singular verb, and are followed by '
+   'whether, by a wh- word, or by a noun phrase - never by a that-clause: '
+   'The first is whether it works, not The first is that it works.',
+   'Other openings: Two things are being run together here. / It is worth '
+   'separating two claims. / This is really two arguments.',
+   'The payoff sentence names the kind of each question: one is a question '
+   'about evidence, the other a question about fairness. That is what '
+   'makes the division useful rather than decorative.',
+   'Having divided, answer one and say you are doing so. An essay that '
+   'divides and then argues about both at once has wasted the move.'],
+  errors=[
+   'There are two question here. The noun must agree: two questions.',
+   'The first is that whether it works. Whether already does the joining; '
+   'that is one word too many.',
+   'Dividing and then not using the division. If the two questions are not '
+   'answered separately, the reader is left wondering why they were '
+   'separated, and the examiner reads it as a memorised opening.'],
+  items=[
+   ('Should universities lower offers? Divide it. ____________',
+    'whether it widens access; whether it is fair to other applicants'),
+   ('Should employers fund retraining? Divide it. ____________',
+    'whether retraining works; who ought to pay for it'),
+   ('Correct: There are two question here. ____________',
+    'There are two questions here.'),
+   ('Correct: The first is that whether the policy works. ____________',
+    'The first is whether the policy works.'),
+   ('Name the kinds: does the drug work / should we fund it. '
+    '____________', 'one is about evidence, the other about priorities'),
+   ('Should we build on the floodplain? Divide it. ____________',
+    'whether it is safe; who bears the risk if it is not'),
+   ('Open the division in four words. ____________',
+    'Two things are being run together.'),
+   ('Correct: This is really two argument. ____________',
+    'This is really two arguments.')],
+  seen=[]),
+
+ 'L14': dict(
+  title='Aggregates and individuals',
+  also='it does not follow, composition and division',
+  pattern=[
+   'A claim about a total is not a claim about a member of it, and English '
+   'marks the refusal explicitly: It does not follow that...',
+   'The full shape is three parts. State the aggregate fairly. Deny the '
+   'inference with it does not follow that, or that establishes nothing '
+   'about. Name the two different subjects: a market is not a person; an '
+   'average is not a household.',
+   'Useful variants: which is consistent with X / that is a claim about Y, '
+   'not about Z / true of the market, false of the worker.',
+   'Note the tense: it does not follow is present simple and stays present '
+   'even when both claims are in the past.',
+   'The reverse error has its own shape: this person did badly, therefore '
+   'the policy failed. Deny it the same way.'],
+  errors=[
+   'Using but where it does not follow is wanted. But marks a contrast and '
+   'says nothing about why the first claim fails to settle the second; the '
+   'longer phrase is doing logical work that but cannot do.',
+   'It does not follow to the weavers found work. The phrase takes a '
+   'that-clause: it does not follow that the weavers found work.',
+   'Granting the aggregate and then disputing it anyway, which abandons '
+   'the move. The point is to leave the aggregate standing.'],
+  items=[
+   ('Employment rose. The weavers did not recover. ____________',
+    'Employment rose; it does not follow that the weavers recovered.'),
+   ('Average earnings rose. Most workers earned less. ____________',
+    'Average earnings rose, which is consistent with most workers '
+    'earning less.'),
+   ('Correct: it does not follow to the market adjusted. ____________',
+    'it does not follow that the market adjusted'),
+   ('The share fell. There were fewer of them. ____________',
+    'The share fell; it does not follow that the number fell.'),
+   ('Name the two subjects: the national total, the weaver. '
+    '____________', 'a market has no lifespan; a person has forty years'),
+   ('One school failed. The programme is useless. ____________',
+    'One school failed; that establishes nothing about the programme.'),
+   ('Rewrite with but removed: employment rose but people suffered. '
+    '____________',
+    'Employment rose; it does not follow that nobody bore a cost.'),
+   ('Correct: it did not follow that the weavers found work, in 1830. '
+    '____________', 'it does not follow that the weavers found work')],
+  seen=[]),
+
+ 'L15': dict(
+  title='Saying what prevented something',
+  also='prevent, stop, keep from, obstacles',
+  pattern=[
+   'Four patterns, and three of them trip learners on the preposition.',
+   'prevent somebody FROM doing something - and the from may be dropped: '
+   'the delay prevented us (from) attending.',
+   'stop somebody FROM doing something - here from may also be dropped.',
+   'keep somebody FROM doing something - from is obligatory.',
+   'A noun subject is normal and often better than a person: the lack of '
+   'transport prevented many from attending, not many people could not '
+   'attend because there was no transport.',
+   'For a softer, more formal version: made it difficult for us to attend '
+   '/ meant that we were unable to attend.'],
+  errors=[
+   'prevent somebody TO do something. The infinitive is wrong after '
+   'prevent, stop and keep; use the -ing form.',
+   'avoid to do. Avoid takes -ing as well: avoid attending.',
+   'Writing I could not come because I was ill in a formal letter, where '
+   'illness prevented me from attending is the register wanted. This is a '
+   'General Training Task 1 marking point rather than a grammar one.'],
+  items=[
+   ('The strike. We did not travel. (prevent) ____________',
+    'The strike prevented us from travelling.'),
+   ('Correct: the delay prevented us to attend. ____________',
+    'the delay prevented us from attending'),
+   ('No childcare. She did not take the course. (keep) ____________',
+    'The lack of childcare kept her from taking the course.'),
+   ('Correct: I avoided to answer. ____________', 'I avoided answering.'),
+   ('Formal register: I was ill so I did not come. ____________',
+    'Illness prevented me from attending.'),
+   ('The fee. Many did not apply. (stop) ____________',
+    'The fee stopped many from applying.'),
+   ('Softer: the deadline made attendance impossible. ____________',
+    'The deadline made it difficult for us to attend.'),
+   ('Correct: nothing prevented from us going. ____________',
+    'nothing prevented us from going')],
+  seen=[]),
+
+ 'L16': dict(
+  title='Judging a decision rather than an outcome',
+  also='hindsight, reasonable at the time, how-much questions',
+  pattern=[
+   'A decision can be right and turn out badly. English separates the two '
+   'with a cluster of fixed phrases, and they are worth learning whole.',
+   'On the information available at the time, the decision was '
+   'reasonable.',
+   'With hindsight it was wrong; that is not the same as saying it was '
+   'unreasonable.',
+   'The question is not whether it worked but whether it was defensible.',
+   'Replacing a yes-or-no question with a how-much question: The question '
+   'is not whether X but how far X / how much of Y is due to Z. This is '
+   'the move that rescues an argument stuck between two absolutes.',
+   'Note the structure: not whether... but how far..., with both halves '
+   'in the same grammatical form.'],
+  errors=[
+   'In hindsight. The idiom is with hindsight, or in retrospect.',
+   'The question is not whether it worked but if it was fair. Keep both '
+   'halves the same: not whether... but whether..., or not whether... but '
+   'how far...',
+   'Using this move to avoid answering. If you replace the question you '
+   'must answer the new one, or Task Response reads it as evasion.'],
+  items=[
+   ('It failed, but nobody could have known. ____________',
+    'On the information available at the time, the decision was '
+    'reasonable.'),
+   ('Correct: In hindsight it was wrong. ____________',
+    'With hindsight it was wrong.'),
+   ('Turn into a how-much question: did the policy cause the fall? '
+    '____________',
+    'The question is not whether it caused the fall but how much of it '
+    'it explains.'),
+   ('Correct: the question is not whether it worked but if it was fair. '
+    '____________',
+    'the question is not whether it worked but whether it was fair'),
+   ('A right decision, a bad result. ____________',
+    'The decision was defensible even though the outcome was poor.'),
+   ('Turn into a how-much question: is the drought due to climate '
+    'change? ____________',
+    'The question is not whether climate change caused it but how far '
+    'it made it likelier.'),
+   ('Correct: judged by hindsight, they were unreasonable. '
+    '____________',
+    'judged with hindsight the decision was wrong, which is not the '
+    'same as unreasonable'),
+   ('Name the standard: what should they have known? ____________',
+    'the information available at the time')],
+  seen=[]),
+
+ 'L17': dict(
+  title='Saying what something is not',
+  also='negative definition, contrastive definition',
+  pattern=[
+   'Defining by exclusion is often clearer than defining directly, and it '
+   'is how technical writing introduces a term the reader half knows.',
+   'X is not Y. It is Z. - the blunt, effective pair of sentences.',
+   'X is not so much Y as Z. - where Y is partly true.',
+   'Rather than Y, X is Z. / What X is not is Y.',
+   'The strongest version names the mistake being corrected: The problem '
+   'is not the water. It is where the water goes.',
+   'Keep the two halves parallel in form, or the contrast blurs: not a '
+   'question of money but a question of time, not not about money but it '
+   'is time.'],
+  errors=[
+   'It is not so much Y than Z. The comparative is as, not than.',
+   'Unbalanced halves: not a shortage of money but it takes a long time.',
+   'Negating without replacing. X is not Y, full stop, leaves the reader '
+   'with nothing; a negative definition must supply the positive.'],
+  items=[
+   ('The problem is water, no - it is drainage. ____________',
+    'The problem is not the water. It is where the water goes.'),
+   ('Correct: it is not so much a flood than a failure to drain. '
+    '____________', 'not so much a flood as a failure to drain'),
+   ('Money, partly; mostly time. ____________',
+    'It is not so much a question of money as of time.'),
+   ('Correct: not a shortage of staff but it takes training. '
+    '____________',
+    'not a shortage of staff but a shortage of training'),
+   ('Use What X is not: the scheme is not a subsidy. ____________',
+    'What the scheme is not is a subsidy.'),
+   ('Use Rather than: it is prevention, not treatment. ____________',
+    'Rather than treatment, it is prevention.'),
+   ('Name the mistake: people think it is the rain. ____________',
+    'The problem is not the rainfall but the hard ground it falls on.'),
+   ('Correct: this is not a quota. ____________',
+    'This is not a quota; it is a lower threshold applied case by '
+    'case.')],
+  seen=[]),
+
+ 'L18': dict(
+  title='Asserting a right',
+  also='entitlement, obligation, be entitled to',
+  pattern=[
+   'The grammar of a right is modal and the register is fixed, which makes '
+   'it one of the most learnable things in the language.',
+   'I am entitled to a copy. / I have the right to request it. / I am '
+   'requesting it under section 12.',
+   'The obligation on the other side: you are required to respond within '
+   'one calendar month. / the controller must provide the data.',
+   'Polite but firm is the register: I should be grateful if you would '
+   'confirm, not I demand.',
+   'Note the preposition: entitled TO a thing, entitled TO DO something; '
+   'and the quantifier: within one calendar month, not within one month '
+   'calendar.',
+   'A deadline sentence is standard and worth memorising: I look forward '
+   'to your response within the statutory period.'],
+  errors=[
+   'I am entitled for a copy, or entitled of. The preposition is to.',
+   'I demand / I insist you to send. Demand takes that plus the bare '
+   'subjunctive (I demand that it be sent) and is in any case the wrong '
+   'register for a Task 1 letter.',
+   'Confusing right with duty: you have the right to respond, said to the '
+   'organisation, grants them a permission you did not mean to grant.'],
+  items=[
+   ('Correct: I am entitled for a copy. ____________',
+    'I am entitled to a copy.'),
+   ('State the obligation: they have to reply in a month. ____________',
+    'You are required to respond within one calendar month.'),
+   ('Polite but firm: send it now. ____________',
+    'I should be grateful if you would confirm when it will be sent.'),
+   ('Correct: I demand you to erase the data. ____________',
+    'I am requesting that the data be erased.'),
+   ('Name the basis: section 12 of the Act. ____________',
+    'I am making this request under section 12 of the Act.'),
+   ('Correct: I have the right of request it. ____________',
+    'I have the right to request it.'),
+   ('A closing deadline sentence. ____________',
+    'I look forward to your response within the statutory period.'),
+   ('Correct: you have the right to answer me within a month. '
+    '____________', 'you are required to answer within a month')],
+  seen=[]),
+
+ 'L19': dict(
+  title='Trade-offs and exchanges',
+  also='at the cost of, in return for, the more... the more',
+  pattern=[
+   'A trade-off says that getting one thing costs another, and English has '
+   'half a dozen ways to say it precisely.',
+   'at the cost of / at the expense of: convenience at the cost of '
+   'privacy.',
+   'in return for / in exchange for: people give up data in return for a '
+   'free service.',
+   'The more... the more / the less: the more precise the profile, the '
+   'less anonymous the person.',
+   'There is a trade-off between X and Y. / X comes at a price, and the '
+   'price is Y.',
+   'Note the comma in the the more... the more pattern, and that both '
+   'halves invert nothing: the more data they hold, the better the '
+   'prediction is.'],
+  errors=[
+   'At the cost to privacy. The preposition is of.',
+   'More the profile is precise, less the person is anonymous. The pattern '
+   'needs the in both halves: the more precise..., the less anonymous...',
+   'In exchange of. The preposition is for.'],
+  items=[
+   ('Convenience, and privacy is lost. ____________',
+    'convenience at the cost of privacy'),
+   ('Correct: in exchange of a discount. ____________',
+    'in exchange for a discount'),
+   ('More data, better prediction. ____________',
+    'The more data they hold, the better the prediction.'),
+   ('Correct: at the cost to accuracy. ____________',
+    'at the cost of accuracy'),
+   ('Free service, data given up. ____________',
+    'People give up data in return for a free service.'),
+   ('Name it as a trade-off: speed against accuracy. ____________',
+    'There is a trade-off between speed and accuracy.'),
+   ('Correct: more it is precise, less it is private. ____________',
+    'the more precise it is, the less private it is'),
+   ('X has a price. ____________',
+    'Convenience comes at a price, and the price is privacy.')],
+  seen=[]),
+
+ 'L20': dict(
+  title='Scope: only, even, at least, and where they go',
+  also='focusing adverbs, scope ambiguity',
+  pattern=[
+   'Only, even, just, at least and also attach to whatever follows them, '
+   'and moving one moves the meaning of the sentence.',
+   'Only the regulator may inspect the data. (nobody else may)',
+   'The regulator may only inspect the data. (and may do nothing else '
+   'with it)',
+   'The regulator may inspect only the data. (not the code, not the '
+   'staff)',
+   'All three are grammatical, all three mean different things, and in '
+   'speech stress does the work the position does in writing.',
+   'Repairing an ambiguity: put the word immediately before what it '
+   'limits, or rewrite with it is only X that...'],
+  errors=[
+   'Putting only before the verb by habit, which is natural in speech and '
+   'ambiguous in writing: I only read the first page can mean I read '
+   'nothing else or I did nothing but read.',
+   'Even with a negative: he did not even read it is fine; he even did '
+   'not read it is not.',
+   'At least used as a hedge where a number is wanted. At least three '
+   'means three or more; at least, I think so means something quite '
+   'different and should not be in an academic sentence.'],
+  items=[
+   ('Nobody else may inspect it. ____________',
+    'Only the regulator may inspect the data.'),
+   ('They may do nothing else with it. ____________',
+    'The regulator may only inspect the data.'),
+   ('Not the code, just the data. ____________',
+    'The regulator may inspect only the data.'),
+   ('Correct: he even did not open the file. ____________',
+    'he did not even open the file'),
+   ('Remove the ambiguity: I only read the first page. ____________',
+    'I read only the first page.'),
+   ('Use a cleft to fix the scope: only the regulator. ____________',
+    'It is only the regulator that may inspect the data.'),
+   ('Correct: at least, three records were affected. ____________',
+    'at least three records were affected'),
+   ('Place also: the scheme covers staff and contractors. '
+    '____________', 'The scheme covers contractors as well as staff.')],
+  seen=[]),
 }
 
 WRITING = {}

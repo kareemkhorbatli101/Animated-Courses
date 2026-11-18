@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Unit 24 - Climate and Adaptation. IELTS Volume 3, band 6.0."""
 
-_WARM = dict(kind='line',
+_WARM = dict(kind='line', teaches='data',
              title='Temperature anomaly and number of hot days',
              sub='one station, 1900 to 2020, ten-year means',
              ylab='',

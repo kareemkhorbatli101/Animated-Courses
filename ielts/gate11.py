@@ -34,6 +34,32 @@ MIN_BECAUSE = 40           # characters; a one-word justification is not one
 PROSE_FLOOR = 35.0         # per cent of a cycle's words that must teach
 XREF_FLOOR = 6             # cross-references per unit
 SKILL_QKIND = 'skill'      # what marks a Skills builder item as not-exam
+# The `teaches` values that name a figure carrying subject matter rather
+# than instruction. Everything else in gate12's vocabulary names a figure
+# that is itself the lesson.
+CONTENT_FIGS = ('data', 'process', 'plan', 'device', 'timeline')
+
+
+def _figs(c):
+    """Every declared figure in a cycle, wherever it hangs."""
+    out = []
+    def walk(o):
+        if isinstance(o, dict):
+            for k in ('figure', 'figure2', 'figure3'):
+                if isinstance(o.get(k), dict):
+                    out.append(o[k])
+            for k in ('figures',):
+                for f in (o.get(k) or ()):
+                    if isinstance(f, dict):
+                        out.append(f)
+            for k, v in o.items():
+                if k not in ('figure', 'figure2', 'figure3', 'figures'):
+                    walk(v)
+        elif isinstance(o, (list, tuple)):
+            for v in o:
+                walk(v)
+    walk(c)
+    return out
 
 # A preview input is a short text or recording that warms the topic before
 # the exam-length one. It is declared, not guessed: `preview=True` on the
@@ -52,7 +78,7 @@ BINDING = set()
 # copy it, so the gate has to be bindable at unit granularity too.
 # A unit in BINDING_UNITS fails the build on its own account even
 # while its book is still open.
-BINDING_UNITS = {21}
+BINDING_UNITS = {21, 22, 23}
 
 
 def load(n):
@@ -70,18 +96,38 @@ def cycle_words(c):
     return PED.wc([c.get(k) for k in
                    ('sub', 'read', 'listen', 'speak', 'write', 'gram',
                     'vocab', 'expr', 'trans', 'lead', 'advice', 'outside',
-                    'builder', 'notes', 'debrief', 'vocabwork')])
+                    'builder', 'notes', 'debrief', 'vocabwork',
+                    'figures')])
 
 
 def teach_words(c):
     """The words that teach rather than test."""
     out = 0
-    for k in ('lead', 'advice', 'outside', 'builder', 'vocabwork'):
+    for k in ('lead', 'advice', 'outside'):
         out += PED.wc(c.get(k))
+    # the Skills builder and the vocabulary work minus their figures,
+    # which _figs picks up below and would otherwise count twice
+    for k in ('builder', 'vocabwork'):
+        d = c.get(k) or {}
+        out += sum(PED.wc(v) for kk, v in d.items()
+                   if kk not in ('figure', 'figure2', 'figure3',
+                                 'figures'))
     g = c.get('gram') or {}
     out += PED.wc([g.get('explain'), g.get('context'), g.get('notice'),
                    g.get('examples')])
     out += PED.wc(c.get('debrief'))
+    # A figure counts as teaching exactly when it says it teaches. The
+    # `teaches` field gate12 requires is a closed vocabulary, and the
+    # content values in it - data, process, plan, device, timeline - name
+    # the figures that carry subject matter; everything else names a
+    # figure whose whole content is instruction. A paraphrase bridge IS
+    # the lesson, labels and all; a bar chart for Task 1 is the thing the
+    # lesson is about. For a content figure only the note teaches.
+    for f in _figs(c):
+        if f.get('teaches') in CONTENT_FIGS:
+            out += PED.wc(f.get('note'))
+        else:
+            out += PED.wc(f)
     for b in (c.get('read') or []) + (c.get('listen') or []):
         out += PED.wc([b.get('skill'), b.get('why')])
     for w in (c.get('write') or []):
