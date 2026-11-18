@@ -408,7 +408,14 @@
     }
     /* 1 a delegation arriving, 2 a question from the floor, 3 a phone call,
        4 a letter of intent being signed */
-    s += cell(52, 36, 1, handshake(52, 42, 0.8));
+    /* THE SHARED handshake() PRIMITIVE DOES NOT READ AT THIS SIZE. In the culture-table
+       spot it sits alone at the foot of the frame; dropped into an 88x54 cell it came
+       out as a flat brown slab - checked on the deployed page, not guessed. An arriving
+       delegation is two people meeting, so it is drawn as two people meeting. */
+    s += cell(52, 36, 1,
+              person(36, 50, NAVY) + r(26, 42, 8, 7, NAVY2, 1)
+              + person(66, 50, GREEN)
+              + stroke('M 46 36 q 10 -7 20 0', GOLD2, 1.8));
     s += cell(148, 36, 2, bubble(122, 20, 30, 16, NAVY2)
       + t(137, 31, 10, '?', '#fff', 'middle', 700)
       + person(166, 48, GREEN));
