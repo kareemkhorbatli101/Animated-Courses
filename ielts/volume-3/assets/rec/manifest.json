@@ -1,0 +1,211 @@
+{
+ "u21_c1_p1": {
+  "unit": 21,
+  "cycle": 1,
+  "part": 1,
+  "title": "An admissions enquiry",
+  "turns": [
+   {
+    "n": 1,
+    "speaker": "Adviser",
+    "voice": "en-GB-SoniaNeural",
+    "text": "Admissions, Beatriz speaking.",
+    "file": "t001.mp3",
+    "ok": true
+   },
+   {
+    "n": 2,
+    "speaker": "Caller",
+    "voice": "en-GB-RyanNeural",
+    "text": "Hello. I wanted to ask about applying for the physiotherapy course.",
+    "file": "t002.mp3",
+    "ok": true
+   },
+   {
+    "n": 3,
+    "speaker": "Adviser",
+    "voice": "en-GB-SoniaNeural",
+    "text": "Of course. Are you applying this year or next?",
+    "file": "t003.mp3",
+    "ok": true
+   },
+   {
+    "n": 4,
+    "speaker": "Caller",
+    "voice": "en-GB-RyanNeural",
+    "text": "Next year. I am in my first year of A levels.",
+    "file": "t004.mp3",
+    "ok": true
+   },
+   {
+    "n": 5,
+    "speaker": "Adviser",
+    "voice": "en-GB-SoniaNeural",
+    "text": "Good, you have time. Can I take your name?",
+    "file": "t005.mp3",
+    "ok": true
+   },
+   {
+    "n": 6,
+    "speaker": "Caller",
+    "voice": "en-GB-RyanNeural",
+    "text": "It is Okonjo. O-K-O-N-J-O.",
+    "file": "t006.mp3",
+    "ok": true
+   },
+   {
+    "n": 7,
+    "speaker": "Adviser",
+    "voice": "en-GB-SoniaNeural",
+    "text": "Thank you. Now, physiotherapy asks for BBC, and it needs biology as one of the three. People miss that and it is the commonest reason we cannot make an offer.",
+    "file": "t007.mp3",
+    "ok": true
+   },
+   {
+    "n": 8,
+    "speaker": "Caller",
+    "voice": "en-GB-RyanNeural",
+    "text": "I am doing biology, chemistry and psychology.",
+    "file": "t008.mp3",
+    "ok": true
+   },
+   {
+    "n": 9,
+    "speaker": "Adviser",
+    "voice": "en-GB-SoniaNeural",
+    "text": "That is fine for us. One thing to mention: physiotherapy is one of our interview courses, because of the professional registration. Interviews are in February.",
+    "file": "t009.mp3",
+    "ok": true
+   },
+   {
+    "n": 10,
+    "speaker": "Caller",
+    "voice": "en-GB-RyanNeural",
+    "text": "What happens at the interview?",
+    "file": "t010.mp3",
+    "ok": true
+   },
+   {
+    "n": 11,
+    "speaker": "Adviser",
+    "voice": "en-GB-SoniaNeural",
+    "text": "Two members of staff, about twenty minutes, and it is not a test of knowledge. They are looking at whether you understand what the job actually involves, which is why we ask everyone to arrange some work experience first.",
+    "file": "t011.mp3",
+    "ok": true
+   },
+   {
+    "n": 12,
+    "speaker": "Caller",
+    "voice": "en-GB-RyanNeural",
+    "text": "How much do I need?",
+    "file": "t012.mp3",
+    "ok": true
+   },
+   {
+    "n": 13,
+    "speaker": "Adviser",
+    "voice": "en-GB-SoniaNeural",
+    "text": "Two weeks is the guideline, and it does not have to be in a hospital. A sports club or a care home counts, and we would rather see four days somewhere you reflected on than a month where you watched.",
+    "file": "t013.mp3",
+    "ok": true
+   },
+   {
+    "n": 14,
+    "speaker": "Caller",
+    "voice": "en-GB-RyanNeural",
+    "text": "Does the work experience need to be arranged before I apply?",
+    "file": "t014.mp3",
+    "ok": true
+   },
+   {
+    "n": 15,
+    "speaker": "Adviser",
+    "voice": "en-GB-SoniaNeural",
+    "text": "Before the interview, not before the application. If it is booked but not finished, say so on the form and give the dates, which is perfectly acceptable and tells us you have organised it.",
+    "file": "t015.mp3",
+    "ok": true
+   },
+   {
+    "n": 16,
+    "speaker": "Caller",
+    "voice": "en-GB-RyanNeural",
+    "text": "That is useful. Is there anything else?",
+    "file": "t016.mp3",
+    "ok": true
+   },
+   {
+    "n": 17,
+    "speaker": "Adviser",
+    "voice": "en-GB-SoniaNeural",
+    "text": "Check whether you qualify for a contextual offer. You do not apply for it, but it is worth knowing, because it would drop your offer to BCC.",
+    "file": "t017.mp3",
+    "ok": true
+   }
+  ],
+  "base": "../assets/rec/u21_c1_p1",
+  "cast": [
+   "en-GB-RyanNeural",
+   "en-GB-SoniaNeural"
+  ]
+ },
+ "u21_c1_p2": {
+  "unit": 21,
+  "cycle": 1,
+  "part": 2,
+  "title": "A short talk: what admissions staff actually read",
+  "turns": [
+   {
+    "n": 1,
+    "speaker": "Speaker",
+    "voice": "en-AU-NatashaNeural",
+    "text": "I have read about nine thousand personal statements and I want to spend fifteen minutes telling you what happens to yours, because almost everything you have been told about them is slightly wrong.",
+    "file": "t001.mp3",
+    "ok": true
+   },
+   {
+    "n": 2,
+    "speaker": "Speaker",
+    "voice": "en-AU-NatashaNeural",
+    "text": "First, the time. I give a statement about ninety seconds on a first read. That is not carelessness; it is four hundred applications in a fortnight, and ninety seconds is enough to answer the only question I am asking, which is whether this person understands the subject they have applied for.",
+    "file": "t002.mp3",
+    "ok": true
+   },
+   {
+    "n": 3,
+    "speaker": "Speaker",
+    "voice": "en-AU-NatashaNeural",
+    "text": "Second, the opening. Do not spend it on a quotation, and do not tell me you have been fascinated by medicine since you were four. I have read that sentence eleven hundred times. Start with something you did, and the more ordinary it is the better it reads.",
+    "file": "t003.mp3",
+    "ok": true
+   },
+   {
+    "n": 4,
+    "speaker": "Speaker",
+    "voice": "en-AU-NatashaNeural",
+    "text": "Third, and this is the part people find hardest to believe: your work experience matters far less than what you say about it. Two students write about the same hospital placement. One lists what she saw. The other says what surprised her and what she went away and read because of it. The second is the one I remember at the meeting.",
+    "file": "t004.mp3",
+    "ok": true
+   },
+   {
+    "n": 5,
+    "speaker": "Speaker",
+    "voice": "en-AU-NatashaNeural",
+    "text": "Fourth, length. You have four thousand characters and you do not have to use them. A short statement that is all substance beats a full one with three hundred words of enthusiasm at the front.",
+    "file": "t005.mp3",
+    "ok": true
+   },
+   {
+    "n": 6,
+    "speaker": "Speaker",
+    "voice": "en-AU-NatashaNeural",
+    "text": "And the last thing. The statement is one of two scores and the other is your grades. A brilliant statement will not rescue an application that misses the academic bar, and knowing that should make the whole thing less frightening, not more.",
+    "file": "t006.mp3",
+    "ok": true
+   }
+  ],
+  "base": "../assets/rec/u21_c1_p2",
+  "cast": [
+   "en-AU-NatashaNeural"
+  ]
+ }
+}

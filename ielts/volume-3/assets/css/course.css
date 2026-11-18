@@ -186,3 +186,85 @@ textarea{min-height:150px;resize:vertical}
 .tag.w{color:var(--write);border-color:var(--write)}
 .note{background:var(--partbg);border:1px solid var(--part);color:var(--part);
       border-radius:10px;padding:10px 14px;font-size:13.5px;margin:0 0 16px}
+
+/* ---------- the rebuilt cycle page ---------- */
+.cyclewrap{max-width:1180px;margin:0 auto;padding:18px 16px 90px}
+.cychead h1{margin:0 0 2px}
+.authored{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);
+          border:1px solid var(--gold);border-radius:999px;padding:1px 9px;margin-left:8px}
+.preview{border:1px solid var(--line);border-radius:11px;background:var(--panel);
+         padding:10px 14px;margin:12px 0 18px}
+.ptoggle{font:inherit;font-weight:600;background:none;border:0;color:var(--navy);
+         cursor:pointer;padding:0}
+.pbody{margin-top:9px;display:grid;gap:7px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+/* an author display rule beats the [hidden] attribute's user-agent style, so a
+   grid that is hidden is still a grid. Every element this engine hides by
+   attribute needs this, or the attribute silently does nothing. */
+[hidden]{display:none !important}
+.pbody div{font-size:13.5px;color:var(--dim)}
+.pbody b{color:var(--ink)}
+.strip{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 20px}
+.strip a{font-size:12.5px;text-decoration:none;color:var(--dim);border:1px solid var(--line);
+         border-radius:999px;padding:3px 11px}
+.strip a.done{border-color:var(--ok);color:var(--ok)}
+.strip a.part{border-color:var(--part);color:var(--part)}
+
+.part{border-top:1px solid var(--line);padding-top:22px;margin-top:26px}
+.part:first-of-type{border-top:0;margin-top:8px}
+.partno{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:var(--faint)}
+.part h2{font-size:18px;margin:3px 0 8px;color:var(--navy)}
+.tasktype{display:inline-block;font-size:12px;color:var(--dim);border:1px solid var(--line);
+          border-radius:999px;padding:2px 11px;margin:0 0 12px}
+/* each exercise is its own split, bounded, so both sides scroll and neither
+   leaves a column of dead space beside the other */
+.cyclewrap .cols{height:min(66vh,620px)}
+@media (max-width:880px){ .cyclewrap .cols{height:auto} }
+.thread{font-size:13px;color:var(--dim);background:var(--panel);border-left:3px solid var(--navy);
+        padding:7px 12px;border-radius:0 8px 8px 0;margin:0 0 14px}
+.skillbox{border:1px solid var(--read);border-radius:11px;background:rgba(43,108,176,.06);
+          padding:13px 16px;margin:0 0 16px}
+.skillbox h3{margin:0 0 6px;font-size:14.5px;color:var(--read)}
+.skillbox p{margin:0 0 6px;font-size:14.5px}
+.rubric{font-size:14px;color:var(--ink);background:var(--panel);border:1px dashed var(--line);
+        border-radius:8px;padding:7px 12px;margin:0 0 12px}
+.context{font-size:14px;color:var(--dim);margin:0 0 12px}
+
+.player{border:1px solid var(--listen);border-radius:11px;padding:12px 14px;
+        background:rgba(201,118,46,.06);margin:0 0 14px}
+.player .plrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.plwho{font-weight:600;color:var(--listen);min-width:90px}
+.plcast{font-size:12px;color:var(--dim);margin-left:auto}
+.plbar{height:6px;background:var(--line);border-radius:3px;margin-top:9px;overflow:hidden}
+.plbar span{display:block;height:100%;width:0;background:var(--listen);transition:width .3s}
+.scriptbox{border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-top:12px;
+           background:var(--panel)}
+.scriptbox h4{margin:0 0 8px;font-size:14px;color:var(--navy)}
+.scriptbody p{margin:0 0 7px;font-size:14px}
+
+.model{border:1px solid var(--write);border-radius:11px;background:rgba(109,63,126,.06);
+       padding:14px 16px;margin:0 0 12px}
+.model p{margin:0 0 9px}
+.whyworks{border-left:3px solid var(--write);padding:8px 13px;margin:0 0 12px;
+          background:var(--panel);border-radius:0 8px 8px 0}
+.whyworks li{font-size:14px;margin-bottom:5px}
+
+.gsteps{display:flex;gap:5px;margin:0 0 12px;flex-wrap:wrap}
+.gstep{font:inherit;font-size:13.5px;padding:6px 13px;border:1px solid var(--line);
+       border-radius:9px;background:var(--bg);color:var(--dim);cursor:pointer}
+.gstep[aria-selected=true]{background:var(--navy);border-color:var(--navy);color:#fff;font-weight:600}
+.matchwrap{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:700px){.matchwrap{grid-template-columns:1fr}}
+.mcol{display:flex;flex-direction:column;gap:7px}
+.mitem{font:inherit;font-size:14px;text-align:left;padding:9px 12px;border:1px solid var(--line);
+       border-radius:9px;background:var(--bg);color:var(--ink);cursor:pointer}
+.mitem.sel{border-color:var(--navy);box-shadow:0 0 0 2px rgba(53,58,124,.2)}
+.mitem.ok{border-color:var(--ok);background:var(--okbg)}
+.mitem.no{border-color:var(--no);background:var(--nobg)}
+
+.words{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.wordcard{border:1px solid var(--line);border-radius:10px;padding:12px 14px;background:var(--panel)}
+.wordcard h3{margin:0 0 8px;font-size:14px;color:var(--navy)}
+.wordcard dl{margin:0;font-size:14px}
+.wordcard dt{font-weight:600;margin-top:6px}
+.wordcard dd{margin:0 0 2px;color:var(--dim)}
+

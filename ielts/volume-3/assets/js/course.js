@@ -491,3 +491,244 @@ try{ var t=localStorage.getItem('ielts.theme');
      if(t) d.documentElement.setAttribute('data-theme',t); }catch(e){}
 
 })(window, document);
+
+
+(function(w,d){
+'use strict';
+var IE = w.IELTS = w.IELTS || {};
+
+/* ---------------------------------------------------- the player ------ */
+IE.mountPlayer = function(root, rec, exId){
+  var turns = (rec.turns||[]).filter(function(t){return t.ok;});
+  var i = 0, audio = null, playing = false;
+  var played = 0;
+  var btn = root.querySelector('[data-a=play]');
+  var rep = root.querySelector('[data-a=replay]');
+  var bar = root.querySelector('.plbar span');
+  var who = root.querySelector('.plwho');
+  var cast = root.querySelector('.plcast');
+  if (cast) cast.textContent = (rec.cast||[]).length + ' voices · ' +
+      turns.length + ' turns';
+  if (!turns.length){
+    if (btn){ btn.disabled = true; btn.textContent = 'No recording'; }
+    var warn = d.createElement('div'); warn.className='keyhint';
+    warn.textContent = 'This recording could not be generated. The questions still work, '+
+      'and the script opens once you have answered.';
+    root.querySelector('.player').appendChild(warn);
+    return;
+  }
+  function step(){
+    if (i >= turns.length){ stop(true); return; }
+    var t = turns[i];
+    if (who) who.textContent = t.speaker;
+    if (bar) bar.style.width = Math.round((i/turns.length)*100)+'%';
+    audio = new Audio(rec.base + '/' + t.file);
+    audio.onended = function(){ i++; if (playing) step(); };
+    audio.onerror = function(){ i++; if (playing) step(); };
+    audio.play().catch(function(){ i++; if (playing) setTimeout(step, 400); });
+  }
+  function stop(done){
+    playing = false;
+    if (audio){ audio.pause(); audio = null; }
+    if (btn) btn.textContent = done ? 'Played' : 'Play';
+    if (done){
+      played++;
+      if (btn) btn.disabled = true;
+      if (rep) rep.hidden = false;
+      if (bar) bar.style.width = '100%';
+    }
+  }
+  if (btn) btn.onclick = function(){
+    if (playing){ stop(false); return; }
+    playing = true; btn.textContent = 'Pause'; i = 0; step();
+  };
+  if (rep) rep.onclick = function(){
+    IE.record(exId, {helped:true});
+    rep.textContent = 'Replayed — recorded as help';
+    playing = true; i = 0; step();
+  };
+};
+
+/* the script stays shut until the attempt is in */
+IE.unlockScript = function(root, rec, answers){
+  var box = root.querySelector('.scriptbox');
+  if (!box) return;
+  box.hidden = false;
+  var html = (rec.turns||[]).map(function(t){
+    var line = IE.esc(t.text);
+    (answers||[]).forEach(function(a){
+      if (!a) return;
+      var re = new RegExp('('+a.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','ig');
+      line = line.replace(re, '<mark>$1</mark>');
+    });
+    return '<p><b>'+IE.esc(t.speaker)+':</b> '+line+'</p>';
+  }).join('');
+  box.querySelector('.scriptbody').innerHTML = html ||
+    '<p>The script for this recording is not available.</p>';
+};
+
+/* ---------------------------------------------------- grammar --------- */
+IE.mountGrammar = function(root, g){
+  var step = 0;
+  var pane = root.querySelector('.gbody');
+  var tabs = root.querySelectorAll('.gstep');
+  function show(n){
+    step = n;
+    tabs.forEach(function(t,k){ t.setAttribute('aria-selected', String(k===n)); });
+    pane.innerHTML = '';
+    if (n===0) notice();
+    if (n===1) match();
+    if (n===2) produce();
+  }
+  tabs.forEach(function(t,k){ t.onclick = function(){ show(k); }; });
+
+  function notice(){
+    var box = d.createElement('div');
+    box.innerHTML = '<p class="keyhint">'+IE.esc(g.prose.join(' '))+'</p>'+
+      '<p>Here is the pattern in the model answer you have just read:</p>'+
+      (g.notice||[]).map(function(n){
+        return '<div class="answer"><b>direct:</b> '+IE.esc(n.direct)+
+               '<br><b>in the letter:</b> '+n.indirect+'</div>'; }).join('');
+    pane.appendChild(box);
+  }
+
+  function match(){
+    var left = (g.pairs||[]).map(function(p,k){return {k:k,t:p.direct};});
+    var right = (g.pairs||[]).map(function(p,k){return {k:k,t:p.indirect};});
+    right.sort(function(){ return Math.random()-0.5; });
+    var chosen = {}, sel = null;
+    var wrap = d.createElement('div'); wrap.className='matchwrap';
+    wrap.innerHTML = '<div class="mcol"></div><div class="mcol"></div>';
+    var L = wrap.children[0], R = wrap.children[1];
+    left.forEach(function(x){
+      var b=d.createElement('button'); b.className='mitem'; b.textContent=x.t;
+      b.onclick=function(){ sel=x.k;
+        L.querySelectorAll('.mitem').forEach(function(y){y.classList.remove('sel');});
+        b.classList.add('sel'); };
+      L.appendChild(b);
+    });
+    right.forEach(function(x){
+      var b=d.createElement('button'); b.className='mitem';
+      b.innerHTML=IE.esc(x.t.replace(/<[^>]+>/g,''));
+      b.onclick=function(){
+        if (sel===null) return;
+        chosen[sel]=x.k;
+        b.classList.add(sel===x.k?'ok':'no');
+        L.querySelector('.mitem.sel').classList.add(sel===x.k?'ok':'no');
+        L.querySelector('.mitem.sel').classList.remove('sel');
+        sel=null;
+        var n=Object.keys(chosen).length;
+        if (n===left.length){
+          var right_n = Object.keys(chosen).filter(function(k){return chosen[k]==k;}).length;
+          vd.textContent = right_n+' of '+left.length+' matched correctly';
+        }
+      };
+      R.appendChild(b);
+    });
+    pane.appendChild(wrap);
+    var vd=d.createElement('div'); vd.className='verdict'; vd.setAttribute('role','status');
+    pane.appendChild(vd);
+  }
+
+  function produce(){
+    var h=d.createElement('div'); h.className='keyhint';
+    h.textContent = g.exercise.prompt;
+    pane.appendChild(h);
+    var state={};
+    (g.exercise.items||[]).forEach(function(it){
+      var box=d.createElement('div'); box.className='q';
+      box.innerHTML='<div class="stem"><span class="num">'+it.n+'.</span>'+
+        IE.esc(it.stem)+'</div><input type="text" aria-label="Rewrite '+it.n+'">'+
+        '<div class="mark" role="status" aria-live="polite"></div><div class="why"></div>';
+      box.querySelector('input').addEventListener('input',function(e){
+        state[it.n]=e.target.value; });
+      pane.appendChild(box);
+    });
+    var f=d.createElement('div'); f.className='foot';
+    f.innerHTML='<button class="btn primary" data-a="gcheck">Check</button>'+
+                '<button class="btn" data-a="gshow">Show the models</button>'+
+                '<span class="verdict" role="status" aria-live="polite"></span>';
+    pane.appendChild(f);
+    f.addEventListener('click',function(e){
+      var a=e.target.closest('button'); if(!a) return;
+      var boxes=pane.querySelectorAll('.q'), good=0, tried=0;
+      (g.exercise.items||[]).forEach(function(it,k){
+        var box=boxes[k], m=box.querySelector('.mark'), why=box.querySelector('.why');
+        var given=(state[it.n]||'').trim();
+        box.classList.remove('ok','no');
+        if (a.dataset.a==='gshow'){
+          m.textContent='A model answer:';
+          why.textContent=it.model || '(no model printed in the book)';
+          return;
+        }
+        if(!given){ m.textContent=''; why.textContent=''; return; }
+        tried++;
+        var v = IE.judgeOpen(given, it.model);
+        box.classList.add(v.ok?'ok':'no');
+        m.textContent = v.ok ? 'That works' : (v.near ? 'Nearly' : 'Not yet');
+        why.textContent = v.why;
+        if (v.ok) good++;
+      });
+      if (a.dataset.a==='gcheck')
+        f.querySelector('.verdict').textContent = tried ?
+          (good+' of '+tried+' match the pattern') : '';
+    });
+  }
+  show(0);
+};
+
+/* An open transformation is not one string. It is judged on whether the
+   learner used the pattern, not on reproducing the book's wording. */
+IE.judgeOpen = function(given, model){
+  var g = given.toLowerCase().replace(/\s+/g,' ').trim();
+  var m = (model||'').toLowerCase();
+  if (!g) return {ok:false, near:false, why:''};
+  var openers = ['i would be grateful','could you confirm','i should like to know',
+                 'please let me know','i am writing to ask','could you tell me',
+                 'i would like to know','would you be able to'];
+  var hasOpener = openers.some(function(o){ return g.indexOf(o)>=0; });
+  var hasLink = /\b(whether|if|that)\b/.test(g);
+  var noInversion = !/^(am|is|are|do|does|did|will|can|have|has)\b/.test(g);
+  if (hasOpener && hasLink && noInversion)
+    return {ok:true, near:false, why:'Polite opener, the right linking word, and the word order back to normal.'};
+  var why = [];
+  if (!hasOpener) why.push('start with a polite opener such as “I would be grateful if you could…”');
+  if (!hasLink) why.push('a yes-no question needs “whether” or “if”');
+  if (!noInversion) why.push('the word order goes back to normal inside the clause');
+  return {ok:false, near:(hasOpener||hasLink), why:why.join('; ')};
+};
+
+/* ---------------------------------------------------- the preview ----- */
+IE.mountPreview = function(){
+  var p = d.querySelector('.preview'); if(!p) return;
+  var k = 'ielts.preview.'+(d.body.dataset.cycle||'x');
+  var btn = p.querySelector('.ptoggle'), body = p.querySelector('.pbody');
+  var shut = false;
+  try{ shut = localStorage.getItem(k)==='shut'; }catch(e){}
+  function set(s){ shut=s; body.hidden=s; btn.setAttribute('aria-expanded',String(!s));
+    btn.textContent = s ? 'What this cycle teaches' : 'Hide';
+    try{ localStorage.setItem(k, s?'shut':'open'); }catch(e){} }
+  btn.onclick=function(){ set(!shut); };
+  set(shut);
+};
+
+/* ---------------------------------------------------- progress strip -- */
+IE.mountStrip = function(){
+  var s = d.querySelector('.strip'); if(!s) return;
+  s.querySelectorAll('a').forEach(function(a){
+    var id=a.dataset.part;
+    var r=(IE.progress||{})[id];
+    if(r && r.score!==undefined) a.classList.add(r.score===r.max?'done':'part');
+  });
+};
+
+/* course.js loads at the END of the body, so DOMContentLoaded has usually
+   fired already and a listener for it never runs. The preview's toggle then
+   has no handler and clicking it does nothing - which looks exactly like a
+   collapsible that will not collapse. */
+function ready(fn){
+  if (d.readyState === 'loading') d.addEventListener('DOMContentLoaded', fn);
+  else fn();
+}
+ready(function(){ IE.mountPreview(); IE.mountStrip(); });
+})(window, document);
