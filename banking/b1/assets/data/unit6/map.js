@@ -164,7 +164,7 @@ BNK.unitMap('unit6', [{
     },
     {
       id: 'u6-s19',
-      file: 's19-part-1',
+      file: 's19-syria-1',
       part: '11',
       lesson: 'Syria in Focus — Money from Abroad',
       label: '§19 Syria in Focus — Money from Abroad',

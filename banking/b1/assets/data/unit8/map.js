@@ -164,7 +164,7 @@ BNK.unitMap('unit8', [{
     },
     {
       id: 'u8-s19',
-      file: 's19-part-1',
+      file: 's19-syria-1',
       part: '11',
       lesson: 'Syria in Focus — Identity, and a Lost Document',
       label: '§19 Syria in Focus — Identity, and a Lost Document',

@@ -164,7 +164,7 @@ BNK.unitMap('unit10', [{
     },
     {
       id: 'u10-s19',
-      file: 's19-part-1',
+      file: 's19-syria-1',
       part: '11',
       lesson: 'Syria in Focus — A Workshop, a Bank, and a Correspondent',
       label: '§19 Syria in Focus — A Workshop, a Bank, and a Correspondent',
