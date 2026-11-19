@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="266" viewBox="0 0 980 266">
+<rect width="980" height="266" fill="#fff"/><g font-family="Calibri,Arial">
+<text x="490" y="20" text-anchor="middle" fill="#1F3864" font-size="17" font-weight="bold">HOW THE THREE TASK TYPES ROTATE — so every session contains all three, for every skill</text>
+<g font-size="14" font-weight="bold" fill="#1F3864"><text x="330" y="52" text-anchor="middle">CYCLE 1</text><text x="552" y="52" text-anchor="middle">CYCLE 2</text><text x="774" y="52" text-anchor="middle">CYCLE 3</text></g>
+<g font-size="15" font-weight="bold"><text x="14" y="90" fill="#1F3864">READING</text><text x="14" y="140" fill="#0F6E6E">LISTENING</text><text x="14" y="190" fill="#C55A11">WRITING</text><text x="14" y="240" fill="#C55A11">CASE STUDY</text></g>
+<g font-size="14">
+<rect x="220" y="68" width="220" height="32" rx="6" fill="#DEEAF6" stroke="#1F3864"/><text x="330" y="89" text-anchor="middle" fill="#1F3864">True / False</text>
+<rect x="442" y="68" width="220" height="32" rx="6" fill="#DEEAF6" stroke="#1F3864"/><text x="552" y="89" text-anchor="middle" fill="#1F3864">Gap-fill summary</text>
+<rect x="664" y="68" width="220" height="32" rx="6" fill="#DEEAF6" stroke="#1F3864"/><text x="774" y="89" text-anchor="middle" fill="#1F3864">Matching</text>
+<rect x="220" y="118" width="220" height="32" rx="6" fill="#E2F0EF" stroke="#0F6E6E"/><text x="330" y="139" text-anchor="middle" fill="#0F6E6E">Matching</text>
+<rect x="442" y="118" width="220" height="32" rx="6" fill="#E2F0EF" stroke="#0F6E6E"/><text x="552" y="139" text-anchor="middle" fill="#0F6E6E">True / False</text>
+<rect x="664" y="118" width="220" height="32" rx="6" fill="#E2F0EF" stroke="#0F6E6E"/><text x="774" y="139" text-anchor="middle" fill="#0F6E6E">Gap-fill notes</text>
+<rect x="220" y="168" width="220" height="32" rx="6" fill="#FFF2CC" stroke="#C55A11"/><text x="330" y="189" text-anchor="middle" fill="#C55A11">Matching + gapped model</text>
+<rect x="442" y="168" width="220" height="32" rx="6" fill="#FFF2CC" stroke="#C55A11"/><text x="552" y="189" text-anchor="middle" fill="#C55A11">True / False + gapped model</text>
+<rect x="664" y="168" width="220" height="32" rx="6" fill="#FFF2CC" stroke="#C55A11"/><text x="774" y="189" text-anchor="middle" fill="#C55A11">Gap-fill + gapped model</text>
+<rect x="220" y="218" width="664" height="32" rx="6" fill="#FBE5D6" stroke="#C55A11"/><text x="552" y="239" text-anchor="middle" fill="#C55A11">all three types, one per document in the pack · True / False · Matching · Gap-fill output template</text>
+</g>
+<text x="490" y="262" text-anchor="middle" fill="#595959" font-size="13">Two discussion questions in every cycle, three in the case study. A gapped writing model appears in EVERY cycle.</text>
+</g></svg>
