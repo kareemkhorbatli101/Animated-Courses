@@ -94,7 +94,12 @@ function renderCycle(cy, lvl, answers) {
   o.push(ROLE('Role play · ' + cy.role.setting, [
     '**Student A.** ' + cy.role.cardA,
     '**Student B.** ' + cy.role.cardB,
-    '**Use these, in this order:**', ...cy.role.strip.map(x => '☐ ' + x),
+    // the scaffold strips back as the courses rise: Course 1 is given the words and the order,
+    // Course 2 the points but not the order or the wording, Course 3 only the ground to cover.
+    ['', '**Use these, in this order:**',
+         '**Cover all of these. You choose the order and your own words:**',
+         '**Cover this ground. No phrases are given — find your own:**'][lvl],
+    ...cy.role.strip.map(x => '☐ ' + x),
     '⚠ **Now swap roles and do it again.** ' + cy.role.swap,
   ]));
   // WRITING

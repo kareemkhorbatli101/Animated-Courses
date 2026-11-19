@@ -9,12 +9,28 @@ const BAND = { 1: { read: [110, 190], write: [30, 60], turns: [8, 11] },
 const wc = a => (Array.isArray(a) ? a.join(' ') : String(a)).replace(/\*\*|_|⚠/g, '').split(/\s+/).filter(Boolean).length;
 const gapCount = a => ((Array.isArray(a) ? a.join(' ') : String(a)).match(/\{\d+\}/g) || []).length;
 
+// Stray characters. A single Chinese character once reached a can-do statement in a finished
+// session file and passed every structural check, because nothing here reads the prose as text.
+// Everything these books print is Latin script plus a short list of typographic marks.
+// Typographic marks and technical notation these books legitimately print. Superscripts and
+// the arrow were added when the water-engineering session needed m\u00b3 and a 'fell to' arrow;
+// anything outside this list is an accident, which is what the check is for.
+const ALLOWED_NON_ASCII = new Set([...'·—–⚠☐°\u2019\u201c\u201d\u2018…\u00a0\u00b2\u00b3\u2192\u00b1\u00d7', '\u{1F50A}']);
+function scanText(where, v) {
+  if (typeof v === 'string') {
+    const bad = [...v].filter(ch => ch.charCodeAt(0) > 127 && !ALLOWED_NON_ASCII.has(ch));
+    if (bad.length) fail(where, `stray character(s) ${[...new Set(bad)].join(' ')} in "${v.slice(0, 60)}"`);
+  } else if (Array.isArray(v)) v.forEach(x => scanText(where, x));
+  else if (v && typeof v === 'object') Object.values(v).forEach(x => scanText(where, x));
+}
+
 function check(lvl, S) {
   const B = BAND[lvl];
   const allVocab = [];
   const sectors = [];
   S.forEach(s => {
     const w = 'S' + s.n;
+    scanText(w, s);
     // 1 · structure
     if (s.cycles.length !== 3) fail(w, `${s.cycles.length} cycles, expected 3`);
     if (!s.caseStudy) fail(w, 'no case study');
@@ -48,6 +64,9 @@ function check(lvl, S) {
       // 35 of 36 cycles opened the field with 'Swap.' as well, so the printed page read
       // 'Now swap roles and do it again. Swap. The second time...'. Caught by eye, not by a check.
       if (cy.role && /^\s*swap\b/i.test(cy.role.swap || '')) fail(c, 'role.swap repeats the word the renderer already prints');
+      // the scaffold must strip back: Course 1 hands over the words, Courses 2 and 3 do not.
+      if (lvl > 1 && (cy.role.strip || []).some(x => /_{3,}/.test(x)))
+        fail(c, `Course ${lvl} role-play prompts must not hand over the wording (found a blank to fill)`);
       // 10 · lengths within band
       const rw = wc(cy.reading.lines);
       if (rw < B.read[0] || rw > B.read[1]) fail(c, `reading ${rw} words, band ${B.read[0]}–${B.read[1]}`);
@@ -60,9 +79,16 @@ function check(lvl, S) {
       if (tested.length !== cy.rTF.length) fail(c, 'every reading True/False item must name the line it tests');
       const dup = tested.filter((x, i) => tested.indexOf(x) !== i);
       if (new Set(tested).size < Math.min(3, lines)) warn(c, 'reading True/False items concentrate on too few lines');
-      // two "not said" items required
-      const notSaid = cy.rTF.filter(x => x.a === 'F' && /does not say|say(s)? (what|how|who|when)/i.test(x.s)).length;
-      if (notSaid < 1) warn(c, 'reading True/False should include an item about what the text does NOT say');
+      // Every reading battery must test what the text does NOT say — but the two levels express
+      // that differently, and the Course 1 form of this check fired on correct Course 2 work.
+      // Course 1 has no "Not given", so it asks a False question about an absent fact.
+      // Course 2 and 3 have NG, which is the better instrument; require that instead.
+      if (lvl === 1) {
+        const notSaid = cy.rTF.filter(x => x.a === 'F' && /does not say|say(s)? (what|how|who|when)/i.test(x.s)).length;
+        if (notSaid < 1) warn(c, 'reading True/False should include an item about what the text does NOT say');
+      } else if (!cy.rTF.some(x => x.a === 'NG')) {
+        warn(c, 'reading True/False should include at least one "Not given" item at this level');
+      }
       // gap integrity
       [['rGap', cy.rGap], ['wGapped', cy.wGapped]].forEach(([k, g]) => {
         const n = gapCount(g.text || g.lines), a = (g.answers || []).length;
@@ -80,6 +106,10 @@ function check(lvl, S) {
         if (rights.includes(m.extra)) fail(c, k + ': the distractor is also a correct answer');
       });
       // listening items must name the turn they test
+      // Two consecutive turns by the same speaker print as two rows with one name repeated,
+      // which reads as a broken table. Found by eye in 16.3 after the harness passed it.
+      cy.listen.turns.forEach((t, i) => { if (i && t[0] === cy.listen.turns[i - 1][0])
+        fail(c, `turns ${i} and ${i + 1} are both spoken by ${t[0]}`); });
       if (cy.lTF.some(x => !x.turn)) fail(c, 'every listening True/False item must name the turn it tests');
       if (cy.lTF.some(x => x.turn > cy.listen.turns.length)) fail(c, 'a listening item names a turn that does not exist');
       // T/F answer legality
