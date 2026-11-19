@@ -289,7 +289,7 @@
 
      Changing it starts this course's progress from empty rather than importing records
      that may belong to another course - the old data cannot be told apart per card. */
-  var KEY = 'fms.b1.progress.v1', PREF = 'fms.b1.prefs.v1';
+  var KEY = 'pbe.a1b1.progress.v1', PREF = 'pbe.a1b1.prefs.v1';
   function readJSON(k, fb) { try { var v = w.localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch (e) { return fb; } }
   function writeJSON(k, v) { try { w.localStorage.setItem(k, JSON.stringify(v)); } catch (e) { } }
 
