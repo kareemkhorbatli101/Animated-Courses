@@ -1,0 +1,25 @@
+/* Unit 3 — the unit's own word list, as the book declares it. */
+PBE1.glossary({
+  "day": { mean: 'day' },
+  "week": { mean: 'week' },
+  "Sunday": { mean: 'Sunday' },
+  "Monday": { mean: 'Monday' },
+  "Friday": { mean: 'Friday' },
+  "morning shift": { mean: 'morning shift' },
+  "afternoon shift": { mean: 'afternoon shift' },
+  "night shift": { mean: 'night shift' },
+  "to swap": { mean: 'to swap' },
+  "o'clock": { mean: 'o\'clock' },
+  "half past": { mean: 'half past' },
+  "quarter past": { mean: 'quarter past' },
+  "early": { mean: 'early' },
+  "late": { mean: 'late' },
+  "on time": { mean: 'on time' },
+  "day off": { mean: 'day off' },
+  "break": { mean: 'break' },
+  "every day": { mean: 'every day' },
+  "today": { mean: 'today' },
+  "tomorrow": { mean: 'tomorrow' },
+  "yesterday": { mean: 'yesterday' },
+  "shift board": { mean: 'shift board' }
+});

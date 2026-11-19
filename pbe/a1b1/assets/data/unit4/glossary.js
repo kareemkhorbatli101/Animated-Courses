@@ -1,0 +1,25 @@
+/* Unit 4 — the unit's own word list, as the book declares it. */
+PBE1.glossary({
+  "in": { mean: 'in' },
+  "on": { mean: 'on' },
+  "under": { mean: 'under' },
+  "behind": { mean: 'behind' },
+  "next to": { mean: 'next to' },
+  "between": { mean: 'between' },
+  "row": { mean: 'row' },
+  "shelf": { mean: 'shelf' },
+  "top shelf": { mean: 'top shelf' },
+  "bottom shelf": { mean: 'bottom shelf' },
+  "first": { mean: 'first' },
+  "second": { mean: 'second' },
+  "third": { mean: 'third' },
+  "where": { mean: 'where' },
+  "ladder": { mean: 'ladder' },
+  "to reach": { mean: 'to reach' },
+  "to put back": { mean: 'to put back' },
+  "gone": { mean: 'gone' },
+  "left": { mean: 'left' },
+  "right": { mean: 'right' },
+  "straight on": { mean: 'straight on' },
+  "loading door": { mean: 'loading door' }
+});

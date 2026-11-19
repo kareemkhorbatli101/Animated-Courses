@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sets proof &middot; Proactive Business English A1</title>
+<meta name="description" content="The five rooms of Sham Trading, drawn, beside the engine's own office.">
+<link rel="stylesheet" href="../assets/css/app.css">
+<style>
+  body { margin: 0; padding: 24px; font: 15px/1.5 system-ui, sans-serif; }
+  h1 { font: 800 26px/1.2 system-ui; margin: 0 0 4px; }
+  p.sub { color: #666; margin: 0 0 22px; }
+  .room { margin: 0 0 30px; }
+  .room h2 { font: 700 17px/1.3 system-ui; margin: 0 0 6px; }
+  .room .why { color: #666; font-size: 13.5px; margin: 0 0 8px; }
+  .stage { position: relative; width: 100%; max-width: 1000px; aspect-ratio: 16/9;
+           border: 1px solid #bbb; border-radius: 10px; overflow: hidden; background: #fff; }
+  .stage > div { position: absolute; inset: 0; }
+  .stage svg { width: 100%; height: 100%; display: block; }
+  .layers { display: flex; gap: 10px; margin-top: 8px; flex-wrap: wrap; }
+  .layers figure { margin: 0; width: 220px; }
+  .layers figcaption { font-size: 12px; color: #666; }
+  .layers .stage { max-width: 220px; }
+</style>
+</head>
+<body>
+<h1>The five rooms of Sham Trading</h1>
+<p class="sub">Drawn for this course, beside the engine&rsquo;s own <code>office</code> for comparison.
+Each room is three depth layers on a 1600&times;900 stage. Toggle the theme with the control your browser offers &mdash; both must work.</p>
+<p class="sub">This page is an authoring proof, not a lesson. It lives under
+<code>proof/</code> so the catalogue does not count it as a screen the learner can open.
+The rooms as the learner meets them are on the 42 cycle screens, with the cast standing in them.</p>
+<div id="out"></div>
+
+<script src="../assets/js/art.js"></script>
+<script src="../assets/js/art-pbe.js"></script>
+<script>
+(function () {
+  var A = window.PBE1.art;
+  var WHY = {
+    gate: 'Where A1 begins: the barrier, the gatehouse, and the gate book every name is written in.',
+    yard: 'Deliveries and the lorry — where pallets are counted, and miscounted.',
+    store: 'Shelves, a ladder and a clipboard. The back store is counted on Mondays.',
+    counter: 'The trade counter at the front: the bell, the pad, the price board.',
+    meeting: 'Where B1 and B2 live — a table, a screen, a supplier across it.',
+    office: "The engine's own room, for comparison. Not drawn for this course."
+  };
+  var names = (A.pbeSets || []).concat(['office']);
+  var out = document.getElementById('out');
+  names.forEach(function (n) {
+    var set = A.set(n);
+    var d = document.createElement('div');
+    d.className = 'room';
+    var layers = ['back', 'mid', 'fore'].filter(function (l) { return typeof set[l] === 'function'; });
+    var combined = '<div class="stage">' + layers.map(function (l) {
+      return '<div>' + set[l]() + '</div>';
+    }).join('') + '</div>';
+    var apart = '<div class="layers">' + layers.map(function (l) {
+      return '<figure><div class="stage"><div>' + set[l]() + '</div></div>' +
+             '<figcaption>' + l + '</figcaption></figure>';
+    }).join('') + '</div>';
+    d.innerHTML = '<h2>' + n + '</h2><p class="why">' + (WHY[n] || '') + '</p>' + combined + apart;
+    out.appendChild(d);
+  });
+  document.title = names.length + ' sets · PBE A1';
+}());
+</script>
+</body>
+</html>

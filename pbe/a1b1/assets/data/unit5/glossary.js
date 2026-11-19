@@ -1,0 +1,25 @@
+/* Unit 5 — the unit's own word list, as the book declares it. */
+PBE1.glossary({
+  "delivery note": { mean: 'delivery note' },
+  "date": { mean: 'date' },
+  "signature": { mean: 'signature' },
+  "to sign": { mean: 'to sign' },
+  "month": { mean: 'month' },
+  "January": { mean: 'January' },
+  "March": { mean: 'March' },
+  "box": { mean: 'box' },
+  "unit": { mean: 'unit' },
+  "quantity": { mean: 'quantity' },
+  "to copy": { mean: 'to copy' },
+  "missing": { mean: 'missing' },
+  "paper": { mean: 'paper' },
+  "to agree": { mean: 'to agree' },
+  "driver": { mean: 'driver' },
+  "lorry": { mean: 'lorry' },
+  "goods": { mean: 'goods' },
+  "to receive": { mean: 'to receive' },
+  "a line": { mean: 'a line' },
+  "to tick": { mean: 'to tick' },
+  "stamp": { mean: 'stamp' },
+  "to compare": { mean: 'to compare' }
+});

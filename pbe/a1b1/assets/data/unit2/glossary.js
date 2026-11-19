@@ -1,0 +1,25 @@
+/* Unit 2 — the unit's own word list, as the book declares it. */
+PBE1.glossary({
+  "to count": { mean: 'to count' },
+  "carton": { mean: 'carton' },
+  "pallet": { mean: 'pallet' },
+  "roll": { mean: 'roll' },
+  "packet": { mean: 'packet' },
+  "how many": { mean: 'how many' },
+  "a hundred": { mean: 'a hundred' },
+  "a thousand": { mean: 'a thousand' },
+  "digit": { mean: 'digit' },
+  "in words": { mean: 'in words' },
+  "count sheet": { mean: 'count sheet' },
+  "to recount": { mean: 'to recount' },
+  "wrong": { mean: 'wrong' },
+  "correct": { mean: 'correct' },
+  "the same": { mean: 'the same' },
+  "more": { mean: 'more' },
+  "less": { mean: 'less' },
+  "none": { mean: 'none' },
+  "to check": { mean: 'to check' },
+  "total": { mean: 'total' },
+  "empty": { mean: 'empty' },
+  "full": { mean: 'full' }
+});

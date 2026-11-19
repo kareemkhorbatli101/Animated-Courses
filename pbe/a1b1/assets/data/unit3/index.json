@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-3-1",
+  "cycle": "3.1",
+  "title": "Sunday, Monday, Tuesday",
+  "objective": "say the days of the week",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-3-2",
+  "cycle": "3.2",
+  "title": "Seven o'clock, half past four",
+  "objective": "say the time",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-3-3",
+  "cycle": "3.3",
+  "title": "I start at seven. I check the shelves.",
+  "objective": "say what you do every day",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-3-4",
+  "cycle": "3.4",
+  "title": "Fadi drives. Majd opens the counter.",
+  "objective": "say what another person does every day",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-3-5",
+  "cycle": "3.5",
+  "title": "Can I swap Thursday?",
+  "objective": "ask about the shift and ask to swap",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-3-6",
+  "cycle": "3.6",
+  "title": "I am late because the road was closed",
+  "objective": "say you are late, and why",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-3-7",
+  "cycle": "3.7",
+  "title": "Review: the shift board",
+  "objective": "Review: the shift board — and one problem to talk about together",
+  "n": 12,
+  "minutes": 98,
+  "stages": 11
+ }
+]

@@ -1,0 +1,399 @@
+/* Unit 1 · cycle 1.7 — Review: the gate book.
+
+   Built by tools/pbe_build_unit.py from the series' own pipeline.
+   Every question, line, table and model answer is the book's own. */
+PBE1.page('u1-s07', {
+  book: { source: 'Proactive Business English A1', ref: 'Unit 1 · 1.7', part: '1.7',
+          section: '7', lesson: 'Review: the gate book', title: 'Review: the gate book' },
+  objective: 'Review: the gate book — and one problem to talk about together',
+  cards: [
+    {
+      id: 'c1',
+      ref: '1.7.1',
+      bookRef: 'Unit 1 · 1.7 · Get ready – Unit 1 quiz',
+      type: 'discuss',
+      title: 'Get ready – Unit 1 quiz',
+      instruction: '',
+      passage: {
+        title: 'From the book',
+        html: '<table class=\'bk\'><tr><th>Say it in '
+          + 'English</th><th>✓</th></tr><tr><td><b>1.1</b> Your name and your '
+          + 'job.</td><td>&nbsp;</td></tr><tr><td><b>1.2</b> Spell your '
+          + 'surname.</td><td>&nbsp;</td></tr><tr><td><b>1.3</b> Point at '
+          + 'something near you, and something '
+          + 'far.</td><td>&nbsp;</td></tr><tr><td><b>1.4</b> Say who one person '
+          + 'at your work is.</td><td>&nbsp;</td></tr><tr><td><b>1.5</b> What do '
+          + 'you say at four o\'clock?</td><td>&nbsp;</td></tr><tr><td><b>1.6</b> '
+          + 'You did not hear. What do you say?</td><td>&nbsp;</td></tr></table>'
+      },
+      questions: [{
+            q: 'Write what you would say. Your own words.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+    },
+    {
+      id: 'c2',
+      ref: '1.7.2',
+      bookRef: 'Unit 1 · 1.7 · Listen and read',
+      type: 'scene',
+      title: 'Listen and read',
+      instruction: 'Listen and read. Each person has their own voice.',
+      scene: 'u1-1-7',
+      passage: {
+        title: 'Language box',
+        html: '<p><b>Review — the six things from this unit</b></p><table '
+          + 'class=\'bk\'><tr><th>Cycle</th><th>You can '
+          + 'say</th></tr><tr><td><b>1.1</b></td><td><i>My name is Ammar. I am '
+          + 'the new storeman.</i></td></tr><tr><td><b>1.2</b></td><td><i>Z, R, '
+          + 'E, I, K. Five letters. How do you spell '
+          + 'it?</i></td></tr><tr><td><b>1.3</b></td><td><i>This is the list. '
+          + 'That is my name. Number '
+          + 'seven.</i></td></tr><tr><td><b>1.4</b></td><td><i>He is the driver. '
+          + 'She is in the '
+          + 'office.</i></td></tr><tr><td><b>1.5</b></td><td><i>Good morning. '
+          + 'Goodbye. See you '
+          + 'tomorrow.</i></td></tr><tr><td><b>1.6</b></td><td><i>Sorry? Again, '
+          + 'please. Can you write it down?</i></td></tr></table><p>⚠ <b>The new '
+          + 'thing here: two people are both right.</b> Abu Raed is right — his '
+          + 'book is perfect and it is nine years old. Nour is right — the office '
+          + 'cannot read it. <b>Nobody is wrong.</b></p><p><b>Useful words:</b> I '
+          + 'can read it. · next to · not instead of · both · Nine years is nine '
+          + 'years.</p>'
+      },
+      quiz: {
+        type: 'quizset',
+        title: 'After you listen',
+        instruction: 'Choose the answer.',
+        items: [{
+            q: 'Books closed. Listen. What is the problem with the gate book?',
+            options: [{
+              t: 'it is full',
+              ok: false
+            },
+            {
+              t: 'only Abu Raed can read it',
+              ok: true
+            },
+            {
+              t: 'it is lost',
+              ok: false
+            }]
+          }],
+        say: true
+      }
+    },
+    {
+      id: 'c3',
+      ref: '1.7.2',
+      bookRef: 'Unit 1 · 1.7 · Listen and read',
+      type: 'discuss',
+      title: 'Listen and read — the questions',
+      instruction: 'Answer from what you heard. Play the scene again if you need to.',
+      questions: [{
+            q: 'Listen again. How long has Abu Raed kept the book?',
+            model: 'Nine years, every name, every day',
+            minWords: 2,
+            rows: 2
+          },
+      {
+            q: 'What does Nour want?',
+            model: 'The names from Tuesday, for the office',
+            minWords: 2,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+    },
+    {
+      id: 'c4',
+      ref: '1.7.3',
+      bookRef: 'Unit 1 · 1.7 · Practise',
+      type: 'discuss',
+      title: 'Practise',
+      instruction: 'Work in pairs. One person is Abu Raed. One person is Nour. Say why you are right.',
+      passage: {
+        title: 'From the book',
+        html: '<table class=\'bk\'><tr><th>Abu Raed says</th><th>Nour '
+          + 'says</th></tr><tr><td>Nine years. Every name. Every day. Not one day '
+          + 'missing. ⚠ <b>It is a perfect book.</b></td><td>The book is perfect. '
+          + '⚠ <b>But four people in the office cannot read one word of '
+          + 'it.</b></td></tr></table>'
+      },
+      questions: [{
+            q: 'Write what you said and what you heard.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+    },
+    {
+      id: 'c5',
+      ref: '1.7.3R',
+      bookRef: 'Unit 1 · 1.7 · Perform',
+      type: 'discuss',
+      title: 'Perform',
+      instruction: 'Two pairs say the two sides for the class — books closed.',
+      questions: [{
+            q: 'You listened to the other pair. Write the words you heard them use.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+    },
+    {
+      id: 'c6',
+      ref: '1.7.4',
+      bookRef: 'Unit 1 · 1.7 · Your turn',
+      type: 'discuss',
+      title: 'Your turn',
+      instruction: 'Think of something at your work that only one person can read or do. Tell '
+  + 'your partner. Write it.',
+      passage: {
+        title: 'From the book',
+        html: '<table class=\'bk\'><tr><th>The thing</th><th>Who can do '
+          + 'it</th><th>What if that person is '
+          + 'away</th></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table>'
+      },
+      questions: [{
+            q: 'Do the task, then write what you said and what you heard.',
+            model: 'The thing: the old stock book in the back store. Who: Abu '
+              + 'Khalil, and only him. If he is away: nobody can find anything '
+              + 'from before 2023 and we telephone him at home · The thing: the '
+              + 'key cupboard. Who: the supervisor. If he is away: the spare key '
+              + 'is with the gate, and three people do not know that',
+            minWords: 6,
+            rows: 3
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      aiCheck: {
+        task: 'Think of something at your work that only one person can read or do. '
+          + 'Tell your partner. Write it.',
+        grammar: 'Review — the six things from this unit',
+        focus: 'Whether the answer answers the question that was actually asked, and '
+          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
+        must: ['Exam practice — A2 Key Writing Part 6, at A1 length. You write a '
+          + 'short message. Three things, all three there.',
+        '⚠ At A1 we write four sentences, about 30 words. The real A2 exam '
+          + 'asks for 25 words and three things. Same shape, one step down.',
+        'The shape: who it is to → your name → what you want to say → the day '
+          + 'or the time.',
+        '⚠ Write the number twice if it can be read two ways. 14 (one four).']
+      }
+    },
+    {
+      id: 'c7',
+      ref: '1.7.4R',
+      bookRef: 'Unit 1 · 1.7 · Report – everybody is right',
+      type: 'discuss',
+      title: 'Report – everybody is right',
+      instruction: 'The problem. Abu Raed keeps a perfect book that only he can read. The office '
+  + 'needs the names and cannot read them. Ammar can read English.',
+      passage: {
+        title: 'From the book',
+        html: '<table class=\'bk\'><tr><th>Abu Raed is right</th><th>Nour is '
+          + 'right</th><th>So we do this</th></tr><tr><td>Nine years, every day, '
+          + 'not one day missing. ⚠ <b>A book that is never '
+          + 'wrong.</b></td><td>The office needs Tuesday\'s names today. ⚠ <b>A '
+          + 'book nobody can read is no help to them.</b></td><td>⚠ <b>Ammar '
+          + 'writes the name in English NEXT TO Abu Raed\'s, not instead of it. '
+          + 'Both names. Every day.</b> From Monday.</td></tr></table>'
+      },
+      questions: [{
+            q: 'Write what you told the class.',
+            model: 'The three positions, in full · Abu Raed is right because his '
+              + 'book has no missing day. Nour is right because the office cannot '
+              + 'read it. So Ammar writes the name in English next to Abu '
+              + 'Raed\'s, from Monday',
+            minWords: 6,
+            rows: 3
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      aiCheck: {
+        task: 'The problem. Abu Raed keeps a perfect book that only he can read. '
+          + 'The office needs the names and cannot read them. Ammar can read '
+          + 'English.',
+        grammar: 'Review — the six things from this unit',
+        focus: 'Whether you have named what EACH side is right about. Not who wins, '
+          + 'and not a compromise: one sentence for each person\'s reason.',
+        must: ['Exam practice — A2 Key Writing Part 6, at A1 length. You write a '
+          + 'short message. Three things, all three there.',
+        '⚠ At A1 we write four sentences, about 30 words. The real A2 exam '
+          + 'asks for 25 words and three things. Same shape, one step down.',
+        'The shape: who it is to → your name → what you want to say → the day '
+          + 'or the time.',
+        '⚠ Write the number twice if it can be read two ways. 14 (one four).']
+      }
+    },
+    {
+      id: 'c8',
+      ref: '1.7.5',
+      bookRef: 'Unit 1 · 1.7 · Read – exam practice (A2 Key Reading Part 1, at A1 length)',
+      type: 'discuss',
+      title: 'Read – exam practice (A2 Key Reading Part 1, at A1 length)',
+      instruction: 'Read the five notices. What does each one say? Choose A, B or C.',
+      passage: {
+        title: 'From the book',
+        html: '<p><b>1</b> <i>SIGN IN AND SIGN OUT — BOTH</i> <b>A</b> Sign your '
+          + 'name twice a day. <b>B</b> Sign your name once. <b>C</b> Do not '
+          + 'sign.</p><p><b>2</b> <i>SHIFT LIST — NEW EVERY WEEK</i> <b>A</b> The '
+          + 'list is always the same. <b>B</b> Read it every week. <b>C</b> The '
+          + 'list is in the office.</p><p><b>3</b> <i>VISITORS: NAME AT THE '
+          + 'GATE</i> <b>A</b> Visitors go in. <b>B</b> Visitors give a name at '
+          + 'the gate. <b>C</b> No visitors.</p><p><b>4</b> <i>14 BOXES (ONE FOUR '
+          + '— NOT 40)</i> <b>A</b> Forty boxes. <b>B</b> Four boxes. <b>C</b> '
+          + 'Fourteen boxes.</p><p><b>5</b> <i>ASK ABU YASSER ABOUT THE '
+          + 'SHELVES</i> <b>A</b> Ask him about the lorry. <b>B</b> Ask him about '
+          + 'the shelves. <b>C</b> Do not ask.</p><h4>Writer\'s '
+          + 'box</h4><p><b>Exam practice — A2 Key Writing Part 6, at A1 '
+          + 'length.</b> You write a short message. <b>Three things, all three '
+          + 'there.</b></p><p>⚠ At A1 we write <b>four sentences, about 30 '
+          + 'words</b>. The real A2 exam asks for 25 words and three things. '
+          + '<b>Same shape, one step down.</b></p><p><b>The shape:</b> who it is '
+          + 'to → your name → what you want to say → the day or the time.</p><p>⚠ '
+          + 'Write the <b>number twice</b> if it can be read two ways. <i>14 (one '
+          + 'four).</i></p>'
+      },
+      questions: [{
+            q: 'Write what you said and what you heard.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+    },
+    {
+      id: 'c9',
+      ref: '1.7.6',
+      bookRef: 'Unit 1 · 1.7 · Write with help',
+      type: 'writer',
+      title: 'Write with help',
+      instruction: 'You are new at work. Write a message to a colleague (<b>four sentences, '
+  + 'about 30 words</b>). Say your name, your job, where you work, and what time '
+  + 'you start.',
+      minWords: 15,
+      paras: [{
+          label: 'Your answer',
+          purpose: 'Write at least 15 words.',
+          rows: 4
+        }],
+      model: ['To: Hani',
+      'My name is Samih Qassar. I am the new storeman. I am in the back '
+        + 'store. I start at half past six'],
+      coach: {
+        title: 'What to include',
+        task: 'You are new at work. Write a message to a colleague (four sentences, about '
+  + '30 words). Say your name, your job, where you work, and what time you start.',
+        criteria: [{ t: 'Exam practice — A2 Key Writing Part 6, at A1 length. You write a '
+              + 'short message. Three things, all three there.' },
+            { t: '⚠ At A1 we write four sentences, about 30 words. The real A2 '
+              + 'exam asks for 25 words and three things. Same shape, one step '
+              + 'down.' },
+            { t: 'The shape: who it is to → your name → what you want to say → the '
+              + 'day or the time.' },
+            { t: '⚠ Write the number twice if it can be read two ways. 14 (one four).' }]
+      },
+      aiCheck: {
+        task: 'You are new at work. Write a message to a colleague (four sentences, '
+          + 'about 30 words). Say your name, your job, where you work, and what '
+          + 'time you start.',
+        grammar: 'Review — the six things from this unit',
+        must: ['Exam practice — A2 Key Writing Part 6, at A1 length. You write a '
+          + 'short message. Three things, all three there.',
+        '⚠ At A1 we write four sentences, about 30 words. The real A2 exam '
+          + 'asks for 25 words and three things. Same shape, one step down.',
+        'The shape: who it is to → your name → what you want to say → the day '
+          + 'or the time.',
+        '⚠ Write the number twice if it can be read two ways. 14 (one four).']
+      }
+    },
+    {
+      id: 'c10',
+      ref: '1.7.6P',
+      bookRef: 'Unit 1 · 1.7 · Check together',
+      type: 'discuss',
+      title: 'Check together',
+      instruction: 'Change books. Point at the line. Read it aloud. Say the one thing that is '
+  + 'missing. Count the sentences: four.',
+      questions: [{
+            q: 'You read your partner\'s work. Write the one thing you found.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      aiCheck: {
+        task: 'Change books. Point at the line. Read it aloud. Say the one thing '
+          + 'that is missing. Count the sentences: four.',
+        grammar: 'Review — the six things from this unit',
+        focus: 'Whether the feedback points at a line and names ONE thing that is '
+          + 'missing, which is what the book\'s own feedback box asks for. A '
+          + 'judgement with no line pointed at is not feedback.',
+        must: ['Exam practice — A2 Key Writing Part 6, at A1 length. You write a '
+          + 'short message. Three things, all three there.',
+        '⚠ At A1 we write four sentences, about 30 words. The real A2 exam '
+          + 'asks for 25 words and three things. Same shape, one step down.',
+        'The shape: who it is to → your name → what you want to say → the day '
+          + 'or the time.',
+        '⚠ Write the number twice if it can be read two ways. 14 (one four).']
+      }
+    },
+    {
+      id: 'c11',
+      ref: '1.7.7',
+      bookRef: 'Unit 1 · 1.7 · Write freely – exam practice (A2 Key Writing Part 6, at A1 length)',
+      type: 'writer',
+      title: 'Write freely – exam practice (A2 Key Writing Part 6, at A1 length)',
+      instruction: 'Write a message to a new colleague (<b>four sentences, about 30 words</b>). '
+  + 'Say hello, say who you are, say one thing about your work, and say one thing '
+  + 'they must do.',
+      minWords: 20,
+      paras: [{
+          label: 'Your answer',
+          purpose: 'Write at least 20 words.',
+          rows: 5
+        }],
+      passage: {
+        title: 'Homework',
+        html: '<p>Finish your message. Then write the <b>answer</b> your colleague '
+          + 'would send (20 words or more).</p>'
+      },
+      model: ['Hello. I am Samih, the new storeman in the back store. The key to the '
+        + 'back store is with me now, not at the gate. Please ask me for it'],
+      coach: {
+        title: 'What to include',
+        task: 'Write a message to a new colleague (four sentences, about 30 words). Say '
+  + 'hello, say who you are, say one thing about your work, and say one thing '
+  + 'they must do.',
+        criteria: [{ t: 'Exam practice — A2 Key Writing Part 6, at A1 length. You write a '
+              + 'short message. Three things, all three there.' },
+            { t: '⚠ At A1 we write four sentences, about 30 words. The real A2 '
+              + 'exam asks for 25 words and three things. Same shape, one step '
+              + 'down.' },
+            { t: 'The shape: who it is to → your name → what you want to say → the '
+              + 'day or the time.' },
+            { t: '⚠ Write the number twice if it can be read two ways. 14 (one four).' }]
+      },
+      aiCheck: {
+        task: 'Write a message to a new colleague (four sentences, about 30 words). '
+          + 'Say hello, say who you are, say one thing about your work, and say '
+          + 'one thing they must do.',
+        grammar: 'Review — the six things from this unit',
+        must: ['Exam practice — A2 Key Writing Part 6, at A1 length. You write a '
+          + 'short message. Three things, all three there.',
+        '⚠ At A1 we write four sentences, about 30 words. The real A2 exam '
+          + 'asks for 25 words and three things. Same shape, one step down.',
+        'The shape: who it is to → your name → what you want to say → the day '
+          + 'or the time.',
+        '⚠ Write the number twice if it can be read two ways. 14 (one four).']
+      }
+    },
+    {
+      id: 'c12',
+      ref: '1.7.✓',
+      bookRef: 'Unit 1 · 1.7 · Unit 1 check',
+      type: 'scene',
+      title: 'Unit 1 check',
+      instruction: 'Listen and read. Each person has their own voice.',
+      scene: 'u1-1-7'
+    }
+  ]
+});

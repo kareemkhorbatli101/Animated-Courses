@@ -1,0 +1,25 @@
+/* Unit 6 — the unit's own word list, as the book declares it. */
+PBE1.glossary({
+  "telephone": { mean: 'telephone' },
+  "to ring": { mean: 'to ring' },
+  "call": { mean: 'call' },
+  "caller": { mean: 'caller' },
+  "good morning": { mean: 'good morning' },
+  "hello": { mean: 'hello' },
+  "to wait": { mean: 'to wait' },
+  "one moment": { mean: 'one moment' },
+  "to hold": { mean: 'to hold' },
+  "message": { mean: 'message' },
+  "message slip": { mean: 'message slip' },
+  "to pass on": { mean: 'to pass on' },
+  "lunch break": { mean: 'lunch break' },
+  "upstairs": { mean: 'upstairs' },
+  "not here": { mean: 'not here' },
+  "to spell out": { mean: 'to spell out' },
+  "to read back": { mean: 'to read back' },
+  "telephone number": { mean: 'telephone number' },
+  "extension": { mean: 'extension' },
+  "to call back": { mean: 'to call back' },
+  "goodbye": { mean: 'goodbye' },
+  "desk": { mean: 'desk' }
+});

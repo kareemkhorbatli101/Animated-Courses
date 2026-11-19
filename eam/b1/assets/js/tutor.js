@@ -154,6 +154,9 @@
     L.push('TASK: ' + cfg.task);
     L.push('THE GRAMMAR THIS UNIT TEACHES: ' + cfg.grammar);
     if (cfg.reader) L.push('WRITTEN FOR: ' + cfg.reader);
+    /* ONE LINE THAT NARROWS THE PROMPT, never one that widens it. See
+       the patch note in tools/course_engine.py. */
+    if (cfg.focus) L.push('COMMENT ON THIS AND NOTHING ELSE: ' + cfg.focus);
     if (cfg.must && cfg.must.length) {
       L.push('THE PIECE MUST CONTAIN:');
       cfg.must.forEach(function (m) { L.push('  - ' + m); });

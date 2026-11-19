@@ -234,6 +234,18 @@
       host.appendChild(tog); host.appendChild(ideas);
     }
     function state() { return fields.map(function (f) { return f.getState(); }); }
+
+    /* ----------------------------------------------------------
+       WHAT THE WRITING TUTOR READS. `card._getText` is the one way
+       tutor.js gets the learner's words, and it was set by EX.writer
+       alone. A selection field is not writing, so it is left out; the
+       rest are joined in the order the card asked them.
+       ---------------------------------------------------------- */
+    card._getText = function () {
+      return fields.filter(function (f) { return f.kind !== 'sel'; })
+        .map(function (f) { return String(f.getState() || '').trim(); })
+        .filter(function (s) { return !!s; }).join('\n\n');
+    };
     var sels = fields.filter(function (f) { return f.kind === 'sel'; });
     return {
       check: function () {

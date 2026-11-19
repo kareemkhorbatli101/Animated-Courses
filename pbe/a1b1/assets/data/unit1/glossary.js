@@ -1,0 +1,25 @@
+/* Unit 1 — the unit's own word list, as the book declares it. */
+PBE1.glossary({
+  "gate": { mean: 'gate' },
+  "gate book": { mean: 'gate book' },
+  "badge": { mean: 'badge' },
+  "shift": { mean: 'shift' },
+  "shift list": { mean: 'shift list' },
+  "storeman": { mean: 'storeman' },
+  "supervisor": { mean: 'supervisor' },
+  "yard": { mean: 'yard' },
+  "store": { mean: 'store' },
+  "name": { mean: 'name' },
+  "surname": { mean: 'surname' },
+  "spell": { mean: 'spell' },
+  "letter": { mean: 'letter' },
+  "sign in": { mean: 'sign in' },
+  "sign out": { mean: 'sign out' },
+  "morning": { mean: 'morning' },
+  "afternoon": { mean: 'afternoon' },
+  "colleague": { mean: 'colleague' },
+  "start work": { mean: 'start work' },
+  "finish work": { mean: 'finish work' },
+  "visitor": { mean: 'visitor' },
+  "write down": { mean: 'write down' }
+});

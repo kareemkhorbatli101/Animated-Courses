@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-4-1",
+  "cycle": "4.1",
+  "title": "In the box, on the shelf, under the bench",
+  "objective": "say where a thing is — in, on, under, behind, next to",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-4-2",
+  "cycle": "4.2",
+  "title": "Row three, shelf two",
+  "objective": "say the row and the shelf",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-4-3",
+  "cycle": "4.3",
+  "title": "Where is the big roll?",
+  "objective": "ask where something is",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-4-4",
+  "cycle": "4.4",
+  "title": "It is not there. It is gone.",
+  "objective": "say it is not there",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-4-5",
+  "cycle": "4.5",
+  "title": "Straight on, then left at the bench",
+  "objective": "tell somebody how to walk to a place in the yard",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-4-6",
+  "cycle": "4.6",
+  "title": "I can reach it. I cannot reach that one.",
+  "objective": "say what you can and cannot reach",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-4-7",
+  "cycle": "4.7",
+  "title": "Review: the shelf map",
+  "objective": "Review: the shelf map — and one problem to talk about together",
+  "n": 12,
+  "minutes": 98,
+  "stages": 11
+ }
+]

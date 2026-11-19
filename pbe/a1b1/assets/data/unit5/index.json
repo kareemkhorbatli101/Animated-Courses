@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-5-1",
+  "cycle": "5.1",
+  "title": "Name, date, number, signature",
+  "objective": "name the four things on every delivery note",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-5-2",
+  "cycle": "5.2",
+  "title": "4 March, not 3 April",
+  "objective": "read a date, and not read it the wrong way round",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-5-3",
+  "cycle": "5.3",
+  "title": "Twelve boxes, not twelve",
+  "objective": "read a quantity and its unit",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-5-4",
+  "cycle": "5.4",
+  "title": "Sign here — and what you have just said",
+  "objective": "sign — and know what you have agreed to",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-5-5",
+  "cycle": "5.5",
+  "title": "Is it a six or an eight?",
+  "objective": "copy a number without changing it",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-5-6",
+  "cycle": "5.6",
+  "title": "There is no note",
+  "objective": "say a paper is missing",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-5-7",
+  "cycle": "5.7",
+  "title": "Review: a real delivery note",
+  "objective": "Review: a real delivery note — and one problem to talk about together",
+  "n": 12,
+  "minutes": 98,
+  "stages": 11
+ }
+]

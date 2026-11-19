@@ -153,13 +153,22 @@
     tp.appendChild(bTrans);
     S.shell.appendChild(tp);
 
+    /* A LINE'S ARABIC IS A LOOKUP ON ITS ENGLISH, not a second copy of
+       it. An authored `ar` wins; otherwise the engine's own normalised
+       table answers, and answers nothing when nothing was written. */
+    function arOf(ln) {
+      if (!ln) return '';
+      if (ln.ar) return ln.ar;
+      return (EAFM.ar && ln.en && EAFM.ar(ln.en)) || '';
+    }
     var transcript = el('div', 'lines-list no-print');
     transcript.style.display = 'none';
     lines.forEach(function (ln, i) {
       var b = el('button', '');
       b.type = 'button';
+      var lnAr = arOf(ln);
       b.innerHTML = '<span class="nm">' + esc(nameOf(ln.who)) + '</span>' + esc(ln.en) +
-        (ln.ar ? '<span class="ar">' + esc(ln.ar) + '</span>' : '');
+        (lnAr ? '<span class="ar">' + esc(lnAr) + '</span>' : '');
       b.onclick = function () { go(i); };
       transcript.appendChild(b);
     });
@@ -186,7 +195,7 @@
       en.innerHTML = line.en.split(/\s+/).map(function (wd, i) {
         return '<span class="w" data-wi="' + i + '">' + esc(wd) + '</span>';
       }).join(' ');
-      ar.textContent = line.ar || '';
+      ar.textContent = arOf(line);
     }
     function markWord(i) {
       var ws = S.subs.querySelectorAll('.sub-en .w');
@@ -274,7 +283,7 @@
       if (!cc) { S.card.classList.remove('in'); return; }
       S.card.innerHTML = (art.hasSpot(cc.img) ? art.spot(cc.img) : art.spot('take-notes')) +
         '<div class="cap">' + esc(cc.en) + '</div>' +
-        (cc.ar ? '<div class="cap-ar" dir="rtl">' + esc(cc.ar) + '</div>' : '');
+        (arOf(cc) ? '<div class="cap-ar" dir="rtl">' + esc(arOf(cc)) + '</div>' : '');
       S.card.classList.add('in');
       cardTimer = setTimeout(function () { S.card.classList.remove('in'); }, (cc.hold || 3800) / rate);
     }
