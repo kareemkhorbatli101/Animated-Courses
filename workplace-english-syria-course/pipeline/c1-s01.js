@@ -78,8 +78,13 @@ cycles: [
   wSkel: ['**Line 1** — your name, family name included.','**Line 2** — your job, your place, and when you started.','**Line 3** — two things you actually do, and who you report to.'],
   wTask: { brief: 'Write your own three-line profile for a noticeboard, for the job you have or the job you want.', words: '30 to 60 words',
     sample: ['**Lina Shamseddine**','Clinic receptionist, ground floor, Room 4. I started on 10 March.','I book the appointments and I keep the day-list. I tell the nurse who is waiting. I report to Dr Shamsi.'] },
-  discuss: ['On your first day, who told you what to do — and who should have?',
-            'Is it easier to introduce yourself, or to be introduced by somebody else? Why?'] },
+  elicit: [
+    { ask: 'On your first day at any job, who actually told you what to do?',
+      pair: 'Tell your partner the FIRST person who spoke to you, what they said, and whether it helped. If nobody did, say that — it is the more common answer.',
+      out: 'Each pair tells the class one thing a new person should be told in the first ten minutes. We keep the best four on the board.' },
+    { ask: 'Say your own three sentences now: who you are, what you do, where.',
+      pair: 'Say them to your partner. Your partner writes down ONLY what they heard — not what they guessed. Compare what you said with what they wrote.',
+      out: 'Each pair reports one thing that was said but not heard. That is the thing to say more slowly.' } ] },
 
 { code: '1.2', title: 'Saying what your work involves', seed: 14,
   reading: { title: 'TWO JOB CARDS — kept at reception', lines: [
@@ -136,7 +141,7 @@ cycles: [
     cardA: 'You are new. Ask your colleague what their work actually involves — not the title. Ask one more question when they answer.',
     cardB: 'Answer with two verbs, in the order you do them. Then say one thing that is NOT your job, and who deals with it.',
     strip: ['What do you do, exactly?','I ______ and I ______.','I am in charge of ______.','And what is not yours? / That is not mine — ______ deals with that.'],
-    swap: 'Swap. This time the new person asks about a job they would like to do one day.' },
+    swap: 'This time the new person asks about a job they would like to do one day.' },
   wModel: { title: 'four lines on what a job involves', lines: [
     '**Records clerk — what the job involves**',
     'I open the post and I enter every letter on the day-sheet.',
@@ -155,8 +160,13 @@ cycles: [
   wSkel: ['**Line 1** — the job title, as a heading.','**Line 2** — two things you do, in the order you do them.','**Line 3** — two more, and when they must be done.','**Line 4** — one thing that is NOT yours, and who deals with it.'],
   wTask: { brief: 'Write four lines on what your job involves — or the job you want.', words: '30 to 60 words',
     sample: ['**Clinic receptionist — what the job involves**','I open the desk at seven and I book the day\'s appointments.','I keep the day-list and I tell the nurse who is waiting, every hour.','Medicines are not mine. The pharmacy deals with that.'] },
-  discuss: ['Has anybody ever told you what your job does NOT include? Would it have helped?',
-            'Which is harder to explain to a stranger: what you do, or why it matters?'] },
+  elicit: [
+    { ask: 'Name two things you actually do in your work or your study — two verbs, in the order you do them.',
+      pair: 'Say your two verbs to your partner. Your partner must then say your job title back to you WITHOUT using the words you used.',
+      out: 'Each pair reports one job where the title and the two verbs did not match. Those are the jobs that have to be explained.' },
+    { ask: 'Name one thing people often think is your job and is not.',
+      pair: 'Tell your partner what it is, and who it really belongs to. If you do not know who it belongs to, say that — it is the useful half of the answer.',
+      out: 'Each pair gives the class one sentence in the form: "That is not mine — ______ deals with that."' } ] },
 
 { code: '1.3', title: 'Saying what you want from the job', seed: 17,
   reading: { title: 'FROM THE STAFF MAGAZINE — "Six months in"', lines: [
@@ -171,7 +181,7 @@ cycles: [
          { s: 'Hala has already asked for training.', a: 'T', line: 1 },
          { s: 'Marwan expected the paperwork when he took the job.', a: 'F', line: 2 },
          { s: 'Marwan says who taught him the paperwork.', a: 'F', line: 2 },
-         { s: 'Hala says how old her daughter is.', a: 'F', line: 1 } ],
+         { s: 'The magazine prints four of these every month.', a: 'T', line: 3 } ],
   rGap: { stem: 'Complete this summary. Use the word bank.',
     text: ['Hala took the job for the {1}, but what she wants now is the {2}, and she has already asked for the {3}. Marwan did not expect the {4}, but it is now the part he is good at, and he would like to show the new drivers.'],
     answers: ['hours','telephone','training','paperwork'], bank: ['hours','telephone','training','paperwork','drive'] },
@@ -206,7 +216,7 @@ cycles: [
     cardA: 'You are the manager. Ask what the person wants. If the first answer is vague, ask again — better. End by naming one action and a month.',
     cardB: 'You have been here a month. Give a vague answer first. Then name one thing you cannot do yet, and what is stopping you.',
     strip: ['What do you want from this job?','I want to keep it. / That is not an answer.','I want to be able to ______ .','What is stopping you? / Nobody has shown me ______ .','Then that is the training. I will put it on the list for ______ .'],
-    swap: 'Swap roles. The second time, the manager cannot promise the training — and must say so honestly.' },
+    swap: 'The second time, the manager cannot promise the training — and must say so honestly.' },
   wModel: { title: 'three lines for the staff magazine', lines: [
     '**Rana, stores assistant.**',
     'I took this job because it was near my home and I needed work.',
@@ -224,8 +234,13 @@ cycles: [
   wSkel: ['**Line 1** — your name and your job.','**Line 2** — why you took the job. The honest reason is allowed.','**Line 3** — one thing you want to be able to do, what is stopping you, and what you have already done about it.'],
   wTask: { brief: 'Write three lines for the staff magazine about the work you do or want to do.', words: '30 to 60 words',
     sample: ['**Fouad, records clerk.**','I took this job because I can walk to it and the hours are fixed.','What I want now is to answer the counter when reception is busy. Nobody has shown me which questions I may answer — so I have asked Nour to write me a list.'] },
-  discuss: ['What is one thing you cannot do yet at work, that you would like to be able to do?',
-            'Is it safe, where you work, to say what you want? Who would you say it to?'] }
+  elicit: [
+    { ask: 'Name ONE thing you cannot do yet at work or in your study that you want to be able to do.',
+      pair: 'Say it to your partner. Your partner has one job: ask "what is stopping you?" until the answer is something somebody could actually fix.',
+      out: 'Each pair reports the thing and what is stopping it. We sort them on the board into "needs training" and "needs permission".' },
+    { ask: 'Who in your workplace would you say that to — and who would you not?',
+      pair: 'Tell your partner the person you would ask, and one reason. Then the person you would avoid, and one reason. Do not use real names.',
+      out: 'Each pair gives the class one quality of a person who is safe to ask. The list we build is the list of what a good supervisor does.' } ] }
 ],
 caseStudy: {
   sector: 'Humanitarian / INGO field office',
@@ -258,9 +273,19 @@ caseStudy: {
            'Hala Mourad is not available until {4}, so she is not on this list.',
            'We have not put the same person on Store and {5}, because it has been tried before.'],
     answers: ['Rana Haddad','Fouad Tarabishi','Marwan Haddad','17 March','Field'], bank: [] },
-  discuss: ['Your group had to leave one person out. How would you tell them?',
-            'Document 3 is the only one that says what went wrong before. Should that kind of note be written down more often?',
-            'Which of the four recruits would you want to be, and why?'],
+  contest: [
+    { ask: 'Marwan says he does not like paperwork. Do you put him on Field anyway?',
+      a: 'Yes. He does it well, Field is two days a week, and the office cannot wait for somebody who enjoys it.',
+      b: 'No. A person who dislikes a task does it late, and Document 3 says late sheets already cost the office two days.',
+      out: 'Write your answer as one sentence in the staffing note, and say which document decided it.' },
+    { ask: 'Hala cannot start until 17 March. Do you hold Records open for her, or fill it now and move her later?',
+      a: 'Fill it now. Document 1 says all three must be covered from 3 March and names nobody as an exception.',
+      b: 'Hold it. Moving a person twice in a month costs more than two weeks of cover, and Hala is the best on the telephone.',
+      out: 'Say what your group will tell Hala on her first day. One sentence.' },
+    { ask: 'Document 3 is unsigned and names nobody. Should your group act on it?',
+      a: 'Yes. It is the only document that says what has already failed, and that is worth more than the other two.',
+      b: 'No. An unsigned note naming no one cannot be checked, and acting on it means acting on a rumour.',
+      out: 'If you act on it, write the line in your note that shows you did. If you do not, write the line that says why.' } ],
   sample: ['**STAFFING FROM 3 MARCH**',
            'Store: Rana Haddad. Records: Fouad Tarabishi. Field: Marwan Haddad.',
            'Hala Mourad is not available until 17 March, so she is not on this list. When she starts she takes Records, and Fouad moves to Field two days a week.',

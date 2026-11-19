@@ -34,7 +34,21 @@ process.argv.slice(2).forEach(file => {
     [...new Set([...doc.matchAll(/r:embed="([^"]+)"/g)].map(m => m[1]))].forEach(id => {
       if (!rels.includes(`Id="${id}"`)) bad.push('image relationship ' + id + ' is not declared');
     });
-    // 4 · required parts
+    // 4 · consecutive paragraphs with IDENTICAL borders.
+    // Word and LibreOffice merge these into one bordered block and draw the border once, so a
+    // run of five identical ruled lines prints as a single rule under a one-inch gap. This
+    // shipped silently through every structural check until a rendered page was looked at.
+    const paras = [...doc.matchAll(/<w:p\b[^>]*>[\s\S]*?<\/w:p>/g)].map(m => m[0]);
+    let prevBdr = null, runLen = 0, worst = 0;
+    paras.forEach(par => {
+      const b = (par.match(/<w:pBdr>[\s\S]*?<\/w:pBdr>/) || [null])[0];
+      if (b && b === prevBdr) { runLen++; worst = Math.max(worst, runLen); }
+      else runLen = b ? 1 : 0;
+      prevBdr = b;
+    });
+    if (worst > 1) bad.push(`${worst + 1} consecutive paragraphs share an identical border — they will print as ONE rule`);
+
+    // 5 · required parts
     ['word/document.xml', 'word/styles.xml', '[Content_Types].xml', '_rels/.rels'].forEach(r => {
       if (!fs.existsSync(path.join(dir, r))) bad.push('missing required part: ' + r);
     });

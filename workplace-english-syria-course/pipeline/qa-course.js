@@ -33,8 +33,10 @@ function check(lvl, S) {
        ['lMatch','listening structure'],['lTF','listening detail'],['lGap','listening whole'],
        ['wMatch','writing structure'],['wTF','writing rules'],['wGapped','writing whole']]
         .forEach(([k, label]) => { if (!cy[k]) fail(c, 'missing ' + label + ' task (' + k + ')'); });
-      // 12 · discussion present
-      if (!cy.discuss || cy.discuss.length !== 2) fail(c, 'needs exactly 2 discussion questions');
+      // 12 · the elicit block: two questions, each with a pairing AND an output
+      if (!cy.elicit || cy.elicit.length !== 2) fail(c, 'needs exactly 2 elicit questions');
+      else cy.elicit.forEach((e, i) => ['ask','pair','out'].forEach(k => {
+        if (!e[k] || e[k].length < 8) fail(c, `elicit ${i + 1} has no ${k === 'ask' ? 'question' : k === 'pair' ? 'pairing instruction' : 'output'}`); }));
       // 5 · writing scaffold complete
       ['wModel','wGapped','wSkel','wTask'].forEach(k => { if (!cy[k]) fail(c, 'writing scaffold missing ' + k); });
       if (!cy.wTask.sample || !cy.wTask.sample.length) fail(c, 'writing task has no sample answer');
@@ -42,6 +44,10 @@ function check(lvl, S) {
       // 6 · role play scaffold, four parts
       if (!cy.role) fail(c, 'no role play');
       else ['cardA','cardB','strip','swap'].forEach(k => { if (!cy.role[k] || !cy.role[k].length) fail(c, 'role play missing ' + k); });
+      // the renderer already prints 'Now swap roles and do it again.' before cy.role.swap.
+      // 35 of 36 cycles opened the field with 'Swap.' as well, so the printed page read
+      // 'Now swap roles and do it again. Swap. The second time...'. Caught by eye, not by a check.
+      if (cy.role && /^\s*swap\b/i.test(cy.role.swap || '')) fail(c, 'role.swap repeats the word the renderer already prints');
       // 10 · lengths within band
       const rw = wc(cy.reading.lines);
       if (rw < B.read[0] || rw > B.read[1]) fail(c, `reading ${rw} words, band ${B.read[0]}–${B.read[1]}`);
@@ -94,8 +100,10 @@ function check(lvl, S) {
     // case study
     const cs = s.caseStudy;
     if (cs.docs.length !== (lvl === 1 ? 2 : 3) && cs.docs.length !== 3) fail(w, `case study has ${cs.docs.length} documents`);
-    ['tf','match','gapOut','discuss','sample'].forEach(k => { if (!cs[k]) fail(w, 'case study missing ' + k); });
-    if (cs.discuss.length !== 3) fail(w, 'case study needs exactly 3 discussion questions');
+    ['tf','match','gapOut','contest','sample'].forEach(k => { if (!cs[k]) fail(w, 'case study missing ' + k); });
+    if (!cs.contest || cs.contest.length !== 3) fail(w, 'case study needs exactly 3 contested questions');
+    else cs.contest.forEach((q, i) => ['ask','a','b','out'].forEach(k => {
+      if (!q[k] || q[k].length < 8) fail(w, `contested question ${i + 1} has no ${k === 'ask' ? 'question' : k === 'out' ? 'output' : 'side ' + k}`); }));
     const cg = gapCount(cs.gapOut.text), ca = cs.gapOut.answers.length;
     if (cg !== ca) fail(w, `case output: ${cg} gaps but ${ca} answers`);
     if (!cs.sample.length) fail(w, 'case study has no sample output');

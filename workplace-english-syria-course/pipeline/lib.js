@@ -6,7 +6,7 @@ const { Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthT
 
 const FONT = 'Calibri';
 const W = 9906; // A4 portrait, 1000 DXA margins
-const C = { navy: '1F3864', teal: '0F6E6E', orange: 'C55A11', grey: 'F2F2F2', lteal: 'E2F0EF', lorange: 'FBE5D6', lblue: 'DEEAF6', lyellow: 'FFF2CC' };
+const C = { navy: '1F3864', teal: '0F6E6E', orange: 'C55A11', green: '375623', grey: 'F2F2F2', lteal: 'E2F0EF', lorange: 'FBE5D6', lblue: 'DEEAF6', lyellow: 'FFF2CC', lgreen: 'E2EFDA' };
 
 function runs(t, o = {}) {
   // o.raw: no markup parsing, monospace — for code and for showing the markup itself
@@ -31,9 +31,12 @@ function runs(t, o = {}) {
   parse(t, { bold: o.bold, italics: o.italics });
   return out;
 }
-const p = (t, o = {}) => new Paragraph({ spacing: { after: o.after ?? 100 }, alignment: o.align, indent: o.indent ? { left: o.indent } : undefined, children: runs(t, o) });
-const h1 = t => new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 120, after: 160 }, children: [new TextRun({ text: t, font: FONT })] });
-const h2 = t => new Paragraph({ heading: HeadingLevel.HEADING_2, spacing: { before: 240, after: 120 }, children: [new TextRun({ text: t, font: FONT })] });
+const p = (t, o = {}) => new Paragraph({ spacing: { after: o.after ?? 100 }, keepNext: !!o.keep, alignment: o.align, indent: o.indent ? { left: o.indent } : undefined, children: runs(t, o) });
+// o.brk starts the heading on a new page. Use this, NOT a standalone pb() paragraph:
+// an empty break paragraph that lands on an already-fresh page leaves a blank page behind it.
+// Four blank interior pages in the first full build came from exactly that.
+const h1 = (t, o = {}) => new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: !!o.brk, spacing: { before: 120, after: 160 }, children: [new TextRun({ text: t, font: FONT })] });
+const h2 = (t, o = {}) => new Paragraph({ heading: HeadingLevel.HEADING_2, pageBreakBefore: !!o.brk, spacing: { before: 240, after: 120 }, children: [new TextRun({ text: t, font: FONT })] });
 const h3 = t => new Paragraph({ heading: HeadingLevel.HEADING_3, spacing: { before: 200, after: 80 }, children: [new TextRun({ text: t, font: FONT })] });
 const pb = () => new Paragraph({ children: [new PageBreak()] });
 const sp = (n = 60) => new Paragraph({ spacing: { after: n }, children: [] });
@@ -84,8 +87,8 @@ function dlg(track, lines, note) {
   const rows = [];
   if (track) rows.push(new TableRow({ children: [new TableCell({
     columnSpan: 2, width: { size: W, type: WidthType.DXA }, borders: none(),
-    shading: { type: ShadingType.CLEAR, fill: C.lorange, color: 'auto' }, margins: { top: 40, bottom: 40, left: 120, right: 120 },
-    children: [new Paragraph({ children: [new TextRun({ text: `🔊 ${track}`, bold: true, color: C.orange, font: FONT, size: 20 }), ...(note ? [new TextRun({ text: `   ${note}`, italics: true, color: '595959', font: FONT, size: 18 })] : [])] })]
+    shading: { type: ShadingType.CLEAR, fill: C.lgreen, color: 'auto' }, margins: { top: 40, bottom: 40, left: 120, right: 120 },
+    children: [new Paragraph({ children: [new TextRun({ text: `🔊 ${track}`, bold: true, color: C.green, font: FONT, size: 20 }), ...(note ? [new TextRun({ text: `   ${note}`, italics: true, color: '595959', font: FONT, size: 18 })] : [])] })]
   })] }));
   lines.forEach(([s, t]) => rows.push(new TableRow({ children: [
     new TableCell({ width: { size: sw, type: WidthType.DXA }, borders: none(), margins: { top: 30, bottom: 30, left: 120, right: 60 }, children: [new Paragraph({ children: [new TextRun({ text: s, bold: true, font: FONT, size: 22, color: C.navy })] })] }),
@@ -112,8 +115,19 @@ function table(head, rows, weights, o = {}) {
 }
 // Writing lines
 function lines(n) {
+  // Two things are load-bearing here, both found by looking at a rendered page:
+  //
+  // 1. ALTERNATING COLOUR. Word and LibreOffice merge adjacent paragraphs whose borders are
+  //    IDENTICAL into one bordered block and draw the border once, at the bottom. Five identical
+  //    ruled paragraphs therefore printed as ONE rule under a one-inch gap — in all 36 writing
+  //    tasks of the first complete build. One imperceptible step of grey defeats the merge.
+  // 2. keepNext on all but the last rule holds the block together, so it never splits and
+  //    strands a single rule at the top of a page.
   const a = [];
-  for (let i = 0; i < n; i++) a.push(new Paragraph({ spacing: { before: 200, after: 0 }, border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: 'BFBFBF', space: 1 } }, children: [] }));
+  for (let i = 0; i < n; i++) a.push(new Paragraph({
+    spacing: { before: 400, after: 0 }, keepNext: i < n - 1, keepLines: true,
+    border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: i % 2 ? 'BEBEBE' : 'BFBFBF', space: 1 } },
+    children: [] }));
   return a;
 }
 const item = (n, t) => p(`**${n}**  ${t}`, { indent: 200, after: 60 });

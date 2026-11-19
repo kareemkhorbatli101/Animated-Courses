@@ -26,7 +26,8 @@ const LANG = (title, items) => box(title, items, C.lblue, C.navy);          // l
 const ROLE = (title, items) => box(title, items, C.lorange, C.orange);      // role-play card
 const MODEL = (title, items) => box(title, items, C.lyellow, C.orange);     // writing model
 const CASE = (title, items) => box(title, items, C.lyellow, C.orange);
-const DISC = items => box('Talk about it — there is no right answer here', items, C.grey, C.navy);
+const ELICIT = items => box('Your turn — this part is about YOUR work, not the text', items, C.grey, C.navy);
+const CONTEST = items => box('Decide together — two people could answer each of these differently', items, C.grey, C.navy);
 
 function taskHead(t) { return p('**' + t + '**', { color: C.navy, after: 60 }); }
 
@@ -80,6 +81,12 @@ function renderCycle(cy, lvl, answers) {
   o.push(...renderMatch(cy.lMatch, (cy.seed || 11) + 3, answers, 'L-structure'));
   o.push(...renderTF(cy.lTF, cy.lTFstem || 'True or False?', answers, 'L-detail', lvl > 1));
   o.push(...renderGapRows(cy.lGap, answers, 'L-whole'));
+  // ELICIT — moved here, between the input and the practice, where it has time and a job
+  o.push(h3('Your turn'));
+  o.push(ELICIT(cy.elicit.flatMap((e, i) => [
+    '**' + (i + 1) + '  ' + e.ask + '**',
+    '_In pairs:_ ' + e.pair,
+    '_Then:_ ' + e.out ])));
   // LANGUAGE
   o.push(LANG(cy.lang.title, cy.lang.items));
   // ROLE PLAY
@@ -99,17 +106,16 @@ function renderCycle(cy, lvl, answers) {
   cy.wGapped.answers.forEach((a, i) => answers.push({ q: Q - cy.wGapped.answers.length + 1 + i, a, tag: 'W-whole' }));
   if (cy.wGapped.bank) o.push(p('_Word bank:_  ' + shuffled(cy.wGapped.bank, 9).map(b => '**' + b + '**').join(' · '), { after: 140 }));
   o.push(box('The frame', cy.wSkel, C.grey, C.navy));
-  o.push(p('**Now write your own.** ' + cy.wTask.brief + '  _(' + cy.wTask.words + ')_'));
+  // keep the prompt with its ruled lines, or the lines move to the next page alone
+  o.push(p('**Now write your own.** ' + cy.wTask.brief + '  _(' + cy.wTask.words + ')_', { keep: true }));
   o.push(...L.lines(lvl === 1 ? 5 : lvl === 2 ? 7 : 9));
-  o.push(DISC(cy.discuss));
   return o;
 }
 
 function renderSession(s, lvl, answers) {
   const o = [];
   resetQ();
-  o.push(pb());
-  o.push(h1('Session ' + s.n + '  ' + s.title));
+  o.push(h1('Session ' + s.n + '  ' + s.title, { brk: true }));
   o.push(fig('cycle', 620, 87));
   o.push(box('In this session', [
     '**What it is for.** ' + s.aim,
@@ -121,17 +127,20 @@ function renderSession(s, lvl, answers) {
   o.push(box('Words for this session', [s.vocab.map(v => '**' + v + '**').join(' · ')], C.grey, C.navy));
   s.cycles.forEach(cy => o.push(...renderCycle(cy, lvl, answers)));
   // CASE STUDY
-  o.push(pb());
-  o.push(h2('Case study · ' + s.caseStudy.sector));
+  o.push(h2('Case study · ' + s.caseStudy.sector, { brk: true }));
   o.push(p('_Work in fours. You have three documents. Read them, decide, and write._', { color: '595959' }));
   o.push(CASE('The situation', [s.caseStudy.situation]));
   s.caseStudy.docs.forEach(d => o.push(DOC(d.title, d.lines)));
   o.push(...renderTF(s.caseStudy.tf, 'True or False, from the three documents?', answers, 'C-detail', lvl > 1));
   o.push(...renderMatch(s.caseStudy.match, 31, answers, 'C-structure'));
   o.push(...renderGap(s.caseStudy.gapOut, answers, 'C-whole'));
-  o.push(DISC(s.caseStudy.discuss));
+  o.push(CONTEST(s.caseStudy.contest.flatMap(c => [
+    '**' + c.ask + '**',
+    '_One view:_ ' + c.a,
+    '_The other:_ ' + c.b,
+    '⚠ _Your group must give **one** answer, and say what it costs you._ ' + c.out ])));
   o.push(box('Can you do these now?', s.canDo.map(c => '☐ ' + c), LFILL[lvl], SPINE[lvl]));
   o.push(box('Homework', [s.homework], C.grey, C.navy));
   return { children: o, count: Q };
 }
-module.exports = { renderSession, fig, SPINE, LFILL, DOC, AUDIO, LANG, ROLE, MODEL, CASE, DISC, shuffled };
+module.exports = { renderSession, fig, SPINE, LFILL, DOC, AUDIO, LANG, ROLE, MODEL, CASE, ELICIT, CONTEST, shuffled };
