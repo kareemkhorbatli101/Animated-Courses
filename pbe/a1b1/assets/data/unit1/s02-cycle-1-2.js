@@ -10,7 +10,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c1',
       ref: '1.2.1',
-      bookRef: 'Unit 1 · 1.2 · Get ready',
+      bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
       title: 'Get ready',
       instruction: '',
@@ -33,7 +33,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c2',
       ref: '1.2.2',
-      bookRef: 'Unit 1 · 1.2 · Listen and read',
+      bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
       instruction: 'Listen and read. Each person has their own voice.',
@@ -78,7 +78,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c3',
       ref: '1.2.2',
-      bookRef: 'Unit 1 · 1.2 · Listen and read',
+      bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
       title: 'Listen and read — the questions',
       instruction: 'Answer from what you heard. Play the scene again if you need to.',
@@ -99,7 +99,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c4',
       ref: '1.2.3',
-      bookRef: 'Unit 1 · 1.2 · Practise',
+      bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
       instruction: 'Work in pairs. Read the lines. Say it. Then change places.',
@@ -125,7 +125,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c5',
       ref: '1.2.3R',
-      bookRef: 'Unit 1 · 1.2 · Perform',
+      bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Perform',
       type: 'discuss',
       title: 'Perform',
       instruction: 'Two pairs say the lines for the class — books closed.',
@@ -145,7 +145,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c6',
       ref: '1.2.4',
-      bookRef: 'Unit 1 · 1.2 · Your turn',
+      bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Your turn',
       type: 'discuss',
       title: 'Your turn',
       instruction: 'Work in pairs. Ask your partner for four names. Write them. Then check them.',
@@ -177,7 +177,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c7',
       ref: '1.2.4R',
-      bookRef: 'Unit 1 · 1.2 · Report',
+      bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Report',
       type: 'discuss',
       title: 'Report',
       instruction: 'Tell the class: I wrote names. are right. The hard one was .',
@@ -204,7 +204,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c8',
       ref: '1.2.5',
-      bookRef: 'Unit 1 · 1.2 · Read',
+      bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Read',
       type: 'discuss',
       title: 'Read',
       instruction: 'Read the card. Then answer.',
@@ -242,7 +242,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c9',
       ref: '1.2.6',
-      bookRef: 'Unit 1 · 1.2 · Write with help',
+      bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
       instruction: 'Write your own badge (<b>15 words or more</b>).',
@@ -276,7 +276,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c10',
       ref: '1.2.6P',
-      bookRef: 'Unit 1 · 1.2 · Check together',
+      bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Check together',
       type: 'discuss',
       title: 'Check together',
       instruction: 'Change books. Point at the line. Read it aloud. Say the one thing that is missing.',
@@ -311,7 +311,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c11',
       ref: '1.2.6R',
-      bookRef: 'Unit 1 · 1.2 · Share',
+      bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Two students spell their surname for the class. The class writes it. Then '
@@ -326,7 +326,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c12',
       ref: '1.2.7',
-      bookRef: 'Unit 1 · 1.2 · Write freely',
+      bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
       instruction: 'Write about a name that is hard to spell (<b>20 to 35 words</b>). Whose name '
@@ -363,7 +363,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c13',
       ref: '1.2.7P',
-      bookRef: 'Unit 1 · 1.2 · Respond',
+      bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Respond',
       type: 'discuss',
       title: 'Respond',
       instruction: 'Read your partner\'s work. Ask your partner to spell the name aloud. Write '
@@ -390,7 +390,7 @@ PBE1.page('u1-s02', {
     {
       id: 'c14',
       ref: '1.2.7R',
-      bookRef: 'Unit 1 · 1.2 · Share',
+      bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Three students spell a name. The class writes. Count the right ones on the board.',

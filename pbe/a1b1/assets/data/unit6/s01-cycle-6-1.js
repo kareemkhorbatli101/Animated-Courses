@@ -10,7 +10,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c1',
       ref: '6.1.1',
-      bookRef: 'Unit 6 · 6.1 · Get ready',
+      bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Get ready',
       type: 'discuss',
       title: 'Get ready',
       instruction: '',
@@ -31,7 +31,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c2',
       ref: '6.1.2',
-      bookRef: 'Unit 6 · 6.1 · Listen and read',
+      bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
       instruction: 'Listen and read. Each person has their own voice.',
@@ -91,7 +91,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c3',
       ref: '6.1.2',
-      bookRef: 'Unit 6 · 6.1 · Listen and read',
+      bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
       title: 'Listen and read — the questions',
       instruction: 'Answer from what you heard. Play the scene again if you need to.',
@@ -113,7 +113,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c4',
       ref: '6.1.3',
-      bookRef: 'Unit 6 · 6.1 · Practise',
+      bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
       instruction: 'Work in pairs, back to back — you cannot see each other, like a real '
@@ -140,7 +140,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c5',
       ref: '6.1.3R',
-      bookRef: 'Unit 6 · 6.1 · Perform',
+      bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Perform',
       type: 'discuss',
       title: 'Perform',
       instruction: 'Two pairs say the lines for the class — back to back, books closed.',
@@ -160,7 +160,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c6',
       ref: '6.1.4',
-      bookRef: 'Unit 6 · 6.1 · Your turn',
+      bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Your turn',
       type: 'discuss',
       title: 'Your turn',
       instruction: 'Answer the telephone for your own work. Say it four times. Your partner '
@@ -204,7 +204,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c7',
       ref: '6.1.4R',
-      bookRef: 'Unit 6 · 6.1 · Report',
+      bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Report',
       type: 'discuss',
       title: 'Report',
       instruction: 'Tell the class your answer — once, slowly. Then: After twelve o\'clock I say .',
@@ -235,7 +235,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c8',
       ref: '6.1.5',
-      bookRef: 'Unit 6 · 6.1 · Read',
+      bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Read',
       type: 'discuss',
       title: 'Read',
       instruction: 'Read the card taped to the store telephone. Then answer.',
@@ -283,7 +283,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c9',
       ref: '6.1.6',
-      bookRef: 'Unit 6 · 6.1 · Write with help',
+      bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
       instruction: 'Write a telephone card for your own work (<b>15 words or more</b>).',
@@ -325,7 +325,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c10',
       ref: '6.1.6P',
-      bookRef: 'Unit 6 · 6.1 · Check together',
+      bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Check together',
       type: 'discuss',
       title: 'Check together',
       instruction: 'Change books. Point at the line. Read it aloud. Say the one thing that is missing.',
@@ -367,7 +367,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c11',
       ref: '6.1.6R',
-      bookRef: 'Unit 6 · 6.1 · Share',
+      bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Two students read their line 1 out loud. The class says if they could hear '
@@ -382,7 +382,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c12',
       ref: '6.1.7',
-      bookRef: 'Unit 6 · 6.1 · Write freely',
+      bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
       instruction: 'Write about the telephone at your work (<b>20 to 35 words</b>). Who answers '
@@ -428,7 +428,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c13',
       ref: '6.1.7P',
-      bookRef: 'Unit 6 · 6.1 · Respond',
+      bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Respond',
       type: 'discuss',
       title: 'Respond',
       instruction: 'Read your partner\'s work. Ask your partner: Who does not want to answer it? '
@@ -460,7 +460,7 @@ PBE1.page('u6-s01', {
     {
       id: 'c14',
       ref: '6.1.7R',
-      bookRef: 'Unit 6 · 6.1 · Share',
+      bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Read three papers. How many people are afraid of the telephone at work? '

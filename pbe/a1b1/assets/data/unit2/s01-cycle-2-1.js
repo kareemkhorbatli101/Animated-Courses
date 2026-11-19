@@ -10,7 +10,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c1',
       ref: '2.1.1',
-      bookRef: 'Unit 2 · 2.1 · Get ready',
+      bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Get ready',
       type: 'discuss',
       title: 'Get ready',
       instruction: '',
@@ -29,7 +29,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c2',
       ref: '2.1.2',
-      bookRef: 'Unit 2 · 2.1 · Listen and read',
+      bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
       instruction: 'Listen and read. Each person has their own voice.',
@@ -80,7 +80,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c3',
       ref: '2.1.2',
-      bookRef: 'Unit 2 · 2.1 · Listen and read',
+      bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
       title: 'Listen and read — the questions',
       instruction: 'Answer from what you heard. Play the scene again if you need to.',
@@ -101,7 +101,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c4',
       ref: '2.1.3',
-      bookRef: 'Unit 2 · 2.1 · Practise',
+      bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
       instruction: 'Work in pairs. One person counts. One person asks. Then change places.',
@@ -127,7 +127,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c5',
       ref: '2.1.3R',
-      bookRef: 'Unit 2 · 2.1 · Perform',
+      bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Perform',
       type: 'discuss',
       title: 'Perform',
       instruction: 'Two pairs say the lines for the class — books closed.',
@@ -147,7 +147,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c6',
       ref: '2.1.4',
-      bookRef: 'Unit 2 · 2.1 · Your turn',
+      bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Your turn',
       type: 'discuss',
       title: 'Your turn',
       instruction: 'Count four things in this room. Say the number. Write it in words and in numbers.',
@@ -180,7 +180,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c7',
       ref: '2.1.4R',
-      bookRef: 'Unit 2 · 2.1 · Report',
+      bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Report',
       type: 'discuss',
       title: 'Report',
       instruction: 'Tell the class: There are in this room.',
@@ -207,7 +207,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c8',
       ref: '2.1.5',
-      bookRef: 'Unit 2 · 2.1 · Read',
+      bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Read',
       type: 'discuss',
       title: 'Read',
       instruction: 'Read the count sheet. Then answer.',
@@ -248,7 +248,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c9',
       ref: '2.1.6',
-      bookRef: 'Unit 2 · 2.1 · Write with help',
+      bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
       instruction: 'Write a count sheet for your own work (<b>15 words or more</b>).',
@@ -284,7 +284,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c10',
       ref: '2.1.6P',
-      bookRef: 'Unit 2 · 2.1 · Check together',
+      bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Check together',
       type: 'discuss',
       title: 'Check together',
       instruction: 'Change books. Point at the line. Read it aloud. Say the one thing that is missing.',
@@ -319,7 +319,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c11',
       ref: '2.1.6R',
-      bookRef: 'Unit 2 · 2.1 · Share',
+      bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Two students read their total. The class adds up the lines. Is it the same?',
@@ -333,7 +333,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c12',
       ref: '2.1.7',
-      bookRef: 'Unit 2 · 2.1 · Write freely',
+      bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
       instruction: 'Write about counting at your work (<b>20 to 35 words</b>). What do you '
@@ -372,7 +372,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c13',
       ref: '2.1.7P',
-      bookRef: 'Unit 2 · 2.1 · Respond',
+      bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Respond',
       type: 'discuss',
       title: 'Respond',
       instruction: 'Read your partner\'s work. Ask your partner: Who reads that number? Write the answer.',
@@ -399,7 +399,7 @@ PBE1.page('u2-s01', {
     {
       id: 'c14',
       ref: '2.1.7R',
-      bookRef: 'Unit 2 · 2.1 · Share',
+      bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Read three papers. In how many does somebody read the number? Count them on the board.',

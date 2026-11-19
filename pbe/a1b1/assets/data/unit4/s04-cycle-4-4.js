@@ -10,7 +10,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c1',
       ref: '4.4.1',
-      bookRef: 'Unit 4 · 4.4 · Get ready',
+      bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
       title: 'Get ready',
       instruction: '',
@@ -31,7 +31,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c2',
       ref: '4.4.2',
-      bookRef: 'Unit 4 · 4.4 · Listen and read',
+      bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
       instruction: 'Listen and read. Each person has their own voice.',
@@ -88,7 +88,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c3',
       ref: '4.4.2',
-      bookRef: 'Unit 4 · 4.4 · Listen and read',
+      bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
       title: 'Listen and read — the questions',
       instruction: 'Answer from what you heard. Play the scene again if you need to.',
@@ -109,7 +109,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c4',
       ref: '4.4.3',
-      bookRef: 'Unit 4 · 4.4 · Practise',
+      bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
       instruction: 'Work in pairs. One reports. One asks. Then change places.',
@@ -135,7 +135,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c5',
       ref: '4.4.3R',
-      bookRef: 'Unit 4 · 4.4 · Perform',
+      bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Perform',
       type: 'discuss',
       title: 'Perform',
       instruction: 'Two pairs say the lines for the class — books closed.',
@@ -155,7 +155,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c6',
       ref: '4.4.4',
-      bookRef: 'Unit 4 · 4.4 · Your turn',
+      bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Your turn',
       type: 'discuss',
       title: 'Your turn',
       instruction: 'Think of two things that went missing at your work. Write it.',
@@ -192,7 +192,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c7',
       ref: '4.4.4R',
-      bookRef: 'Unit 4 · 4.4 · Report',
+      bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Report',
       type: 'discuss',
       title: 'Report',
       instruction: 'Tell the class: The was not there. I saw . I told .',
@@ -222,7 +222,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c8',
       ref: '4.4.5',
-      bookRef: 'Unit 4 · 4.4 · Read',
+      bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Read',
       type: 'discuss',
       title: 'Read',
       instruction: 'Read the note Ammar wrote. Then answer.',
@@ -265,7 +265,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c9',
       ref: '4.4.6',
-      bookRef: 'Unit 4 · 4.4 · Write with help',
+      bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
       instruction: 'Write a missing note for your own work (<b>15 words or more</b>).',
@@ -304,7 +304,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c10',
       ref: '4.4.6P',
-      bookRef: 'Unit 4 · 4.4 · Check together',
+      bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Check together',
       type: 'discuss',
       title: 'Check together',
       instruction: 'Change books. Point at the line. Read it aloud. Say the one thing that is missing.',
@@ -344,7 +344,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c11',
       ref: '4.4.6R',
-      bookRef: 'Unit 4 · 4.4 · Share',
+      bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Two students read their what I saw line. The class says how many facts are in it.',
@@ -358,7 +358,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c12',
       ref: '4.4.7',
-      bookRef: 'Unit 4 · 4.4 · Write freely',
+      bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
       instruction: 'Write about a thing that went missing at your work (<b>20 to 35 words</b>). '
@@ -401,7 +401,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c13',
       ref: '4.4.7P',
-      bookRef: 'Unit 4 · 4.4 · Respond',
+      bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Respond',
       type: 'discuss',
       title: 'Respond',
       instruction: 'Read your partner\'s work. Ask your partner: Did it come back? Write the answer.',
@@ -430,7 +430,7 @@ PBE1.page('u4-s04', {
     {
       id: 'c14',
       ref: '4.4.7R',
-      bookRef: 'Unit 4 · 4.4 · Share',
+      bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Read three papers. In how many did the thing come back the same day? Count '

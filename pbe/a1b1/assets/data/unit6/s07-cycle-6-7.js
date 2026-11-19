@@ -10,7 +10,7 @@ PBE1.page('u6-s07', {
     {
       id: 'c1',
       ref: '6.7.1',
-      bookRef: 'Unit 6 · 6.7 · Get ready – Unit 6 quiz',
+      bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Get ready – Unit 6 quiz',
       type: 'discuss',
       title: 'Get ready – Unit 6 quiz',
       instruction: '',
@@ -38,7 +38,7 @@ PBE1.page('u6-s07', {
     {
       id: 'c2',
       ref: '6.7.2',
-      bookRef: 'Unit 6 · 6.7 · Listen and read',
+      bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
       instruction: 'Listen and read. Each person has their own voice.',
@@ -91,7 +91,7 @@ PBE1.page('u6-s07', {
     {
       id: 'c3',
       ref: '6.7.2',
-      bookRef: 'Unit 6 · 6.7 · Listen and read',
+      bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
       title: 'Listen and read — the questions',
       instruction: 'Answer from what you heard. Play the scene again if you need to.',
@@ -113,7 +113,7 @@ PBE1.page('u6-s07', {
     {
       id: 'c4',
       ref: '6.7.3',
-      bookRef: 'Unit 6 · 6.7 · Practise',
+      bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Practise',
       type: 'discuss',
       title: 'Practise',
       instruction: 'Work in pairs. One is Ammar. One is Nour. Say why you did your job.',
@@ -135,7 +135,7 @@ PBE1.page('u6-s07', {
     {
       id: 'c5',
       ref: '6.7.3R',
-      bookRef: 'Unit 6 · 6.7 · Perform',
+      bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Perform',
       type: 'discuss',
       title: 'Perform',
       instruction: 'Two pairs say the two sides for the class — books closed.',
@@ -149,7 +149,7 @@ PBE1.page('u6-s07', {
     {
       id: 'c6',
       ref: '6.7.4',
-      bookRef: 'Unit 6 · 6.7 · Your turn',
+      bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Your turn',
       type: 'discuss',
       title: 'Your turn',
       instruction: 'Think of a message or a paper at your work that was lost between two people '
@@ -192,7 +192,7 @@ PBE1.page('u6-s07', {
     {
       id: 'c7',
       ref: '6.7.4R',
-      bookRef: 'Unit 6 · 6.7 · Report – everybody is right',
+      bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Report – everybody is right',
       type: 'discuss',
       title: 'Report – everybody is right',
       instruction: 'The problem. The slip was perfect. Ammar put it on the desk and told her as '
@@ -244,7 +244,8 @@ PBE1.page('u6-s07', {
     {
       id: 'c8',
       ref: '6.7.5',
-      bookRef: 'Unit 6 · 6.7 · Read – exam practice (A2 Key Reading Part 1, at A1 length)',
+      bookRef: 'Unit 6 · 6.7 · Lesson B · Writing · Read – exam practice (A2 Key Reading '
+  + 'Part 1, at A1 length)',
       type: 'discuss',
       title: 'Read – exam practice (A2 Key Reading Part 1, at A1 length)',
       instruction: 'Read the five notices. What does each one say? Choose A, B or C.',
@@ -281,7 +282,7 @@ PBE1.page('u6-s07', {
     {
       id: 'c9',
       ref: '6.7.6',
-      bookRef: 'Unit 6 · 6.7 · Write with help',
+      bookRef: 'Unit 6 · 6.7 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
       instruction: 'Write a message for your supervisor (<b>four sentences, about 30 words</b>). '
@@ -325,7 +326,7 @@ PBE1.page('u6-s07', {
     {
       id: 'c10',
       ref: '6.7.6P',
-      bookRef: 'Unit 6 · 6.7 · Check together',
+      bookRef: 'Unit 6 · 6.7 · Lesson B · Writing · Check together',
       type: 'discuss',
       title: 'Check together',
       instruction: 'Change books. Point at the line. Read it aloud. Say the one thing that is '
@@ -356,7 +357,8 @@ PBE1.page('u6-s07', {
     {
       id: 'c11',
       ref: '6.7.7',
-      bookRef: 'Unit 6 · 6.7 · Write freely – exam practice (A2 Key Writing Part 6, at A1 length)',
+      bookRef: 'Unit 6 · 6.7 · Lesson B · Writing · Write freely – exam practice (A2 Key '
+  + 'Writing Part 6, at A1 length)',
       type: 'writer',
       title: 'Write freely – exam practice (A2 Key Writing Part 6, at A1 length)',
       instruction: 'Write a message for somebody at your work (<b>four sentences, about 30 '
@@ -407,7 +409,7 @@ PBE1.page('u6-s07', {
     {
       id: 'c12',
       ref: '6.7.✓',
-      bookRef: 'Unit 6 · 6.7 · Unit 6 check',
+      bookRef: 'Unit 6 · 6.7 · Lesson B · Writing · Unit 6 check',
       type: 'scene',
       title: 'Unit 6 check',
       instruction: 'Listen and read. Each person has their own voice.',

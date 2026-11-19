@@ -10,7 +10,7 @@ PBE1.page('u3-s07', {
     {
       id: 'c1',
       ref: '3.7.1',
-      bookRef: 'Unit 3 · 3.7 · Get ready – Unit 3 quiz',
+      bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Get ready – Unit 3 quiz',
       type: 'discuss',
       title: 'Get ready – Unit 3 quiz',
       instruction: '',
@@ -37,7 +37,7 @@ PBE1.page('u3-s07', {
     {
       id: 'c2',
       ref: '3.7.2',
-      bookRef: 'Unit 3 · 3.7 · Listen and read',
+      bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
       instruction: 'Listen and read. Each person has their own voice.',
@@ -92,7 +92,7 @@ PBE1.page('u3-s07', {
     {
       id: 'c3',
       ref: '3.7.2',
-      bookRef: 'Unit 3 · 3.7 · Listen and read',
+      bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
       title: 'Listen and read — the questions',
       instruction: 'Answer from what you heard. Play the scene again if you need to.',
@@ -113,7 +113,7 @@ PBE1.page('u3-s07', {
     {
       id: 'c4',
       ref: '3.7.3',
-      bookRef: 'Unit 3 · 3.7 · Practise',
+      bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Practise',
       type: 'discuss',
       title: 'Practise',
       instruction: 'Work in pairs. One is Samih. One is Abu Yasser. Say why you are right.',
@@ -135,7 +135,7 @@ PBE1.page('u3-s07', {
     {
       id: 'c5',
       ref: '3.7.3R',
-      bookRef: 'Unit 3 · 3.7 · Perform',
+      bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Perform',
       type: 'discuss',
       title: 'Perform',
       instruction: 'Two pairs say the two sides for the class — books closed.',
@@ -149,7 +149,7 @@ PBE1.page('u3-s07', {
     {
       id: 'c6',
       ref: '3.7.4',
-      bookRef: 'Unit 3 · 3.7 · Your turn',
+      bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Your turn',
       type: 'discuss',
       title: 'Your turn',
       instruction: 'Think of something at your work that everybody knows and no paper says. Tell '
@@ -191,7 +191,7 @@ PBE1.page('u3-s07', {
     {
       id: 'c7',
       ref: '3.7.4R',
-      bookRef: 'Unit 3 · 3.7 · Report – everybody is right',
+      bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Report – everybody is right',
       type: 'discuss',
       title: 'Report – everybody is right',
       instruction: 'The problem. Hani swapped eleven times. He asked the right man every time. '
@@ -236,7 +236,8 @@ PBE1.page('u3-s07', {
     {
       id: 'c8',
       ref: '3.7.5',
-      bookRef: 'Unit 3 · 3.7 · Read – exam practice (A2 Key Reading Part 1, at A1 length)',
+      bookRef: 'Unit 3 · 3.7 · Lesson B · Writing · Read – exam practice (A2 Key Reading '
+  + 'Part 1, at A1 length)',
       type: 'discuss',
       title: 'Read – exam practice (A2 Key Reading Part 1, at A1 length)',
       instruction: 'Read the five notices. What does each one say? Choose A, B or C.',
@@ -271,7 +272,7 @@ PBE1.page('u3-s07', {
     {
       id: 'c9',
       ref: '3.7.6',
-      bookRef: 'Unit 3 · 3.7 · Write with help',
+      bookRef: 'Unit 3 · 3.7 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
       instruction: 'Write a message asking to swap a day (<b>four sentences, about 30 '
@@ -318,7 +319,7 @@ PBE1.page('u3-s07', {
     {
       id: 'c10',
       ref: '3.7.6P',
-      bookRef: 'Unit 3 · 3.7 · Check together',
+      bookRef: 'Unit 3 · 3.7 · Lesson B · Writing · Check together',
       type: 'discuss',
       title: 'Check together',
       instruction: 'Change books. Point at the line. Read it aloud. Say the one thing that is '
@@ -349,7 +350,8 @@ PBE1.page('u3-s07', {
     {
       id: 'c11',
       ref: '3.7.7',
-      bookRef: 'Unit 3 · 3.7 · Write freely – exam practice (A2 Key Writing Part 6, at A1 length)',
+      bookRef: 'Unit 3 · 3.7 · Lesson B · Writing · Write freely – exam practice (A2 Key '
+  + 'Writing Part 6, at A1 length)',
       type: 'writer',
       title: 'Write freely – exam practice (A2 Key Writing Part 6, at A1 length)',
       instruction: 'Write a message to your supervisor about a swap (<b>four sentences, about 30 '
@@ -398,7 +400,7 @@ PBE1.page('u3-s07', {
     {
       id: 'c12',
       ref: '3.7.✓',
-      bookRef: 'Unit 3 · 3.7 · Unit 3 check',
+      bookRef: 'Unit 3 · 3.7 · Lesson B · Writing · Unit 3 check',
       type: 'scene',
       title: 'Unit 3 check',
       instruction: 'Listen and read. Each person has their own voice.',

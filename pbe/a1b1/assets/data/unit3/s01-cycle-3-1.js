@@ -10,7 +10,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c1',
       ref: '3.1.1',
-      bookRef: 'Unit 3 · 3.1 · Get ready',
+      bookRef: 'Unit 3 · 3.1 · Lesson A · Speaking · Get ready',
       type: 'discuss',
       title: 'Get ready',
       instruction: '',
@@ -29,7 +29,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c2',
       ref: '3.1.2',
-      bookRef: 'Unit 3 · 3.1 · Listen and read',
+      bookRef: 'Unit 3 · 3.1 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
       instruction: 'Listen and read. Each person has their own voice.',
@@ -78,7 +78,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c3',
       ref: '3.1.2',
-      bookRef: 'Unit 3 · 3.1 · Listen and read',
+      bookRef: 'Unit 3 · 3.1 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
       title: 'Listen and read — the questions',
       instruction: 'Answer from what you heard. Play the scene again if you need to.',
@@ -99,7 +99,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c4',
       ref: '3.1.3',
-      bookRef: 'Unit 3 · 3.1 · Practise',
+      bookRef: 'Unit 3 · 3.1 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
       instruction: 'Work in pairs. Read the lines. Say it. Then change places.',
@@ -125,7 +125,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c5',
       ref: '3.1.3R',
-      bookRef: 'Unit 3 · 3.1 · Perform',
+      bookRef: 'Unit 3 · 3.1 · Lesson A · Speaking · Perform',
       type: 'discuss',
       title: 'Perform',
       instruction: 'Two pairs say the lines for the class — books closed.',
@@ -145,7 +145,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c6',
       ref: '3.1.4',
-      bookRef: 'Unit 3 · 3.1 · Your turn',
+      bookRef: 'Unit 3 · 3.1 · Lesson A · Speaking · Your turn',
       type: 'discuss',
       title: 'Your turn',
       instruction: 'Tell your partner about your week. Write it.',
@@ -178,7 +178,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c7',
       ref: '3.1.4R',
-      bookRef: 'Unit 3 · 3.1 · Report',
+      bookRef: 'Unit 3 · 3.1 · Lesson A · Speaking · Report',
       type: 'discuss',
       title: 'Report',
       instruction: 'Tell the class: I work to . My day off is . The busy day is .',
@@ -204,7 +204,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c8',
       ref: '3.1.5',
-      bookRef: 'Unit 3 · 3.1 · Read',
+      bookRef: 'Unit 3 · 3.1 · Lesson B · Writing · Read',
       type: 'discuss',
       title: 'Read',
       instruction: 'Read the board. Then answer.',
@@ -246,7 +246,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c9',
       ref: '3.1.6',
-      bookRef: 'Unit 3 · 3.1 · Write with help',
+      bookRef: 'Unit 3 · 3.1 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
       instruction: 'Write a week board for your own work (<b>15 words or more</b>).',
@@ -280,7 +280,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c10',
       ref: '3.1.6P',
-      bookRef: 'Unit 3 · 3.1 · Check together',
+      bookRef: 'Unit 3 · 3.1 · Lesson B · Writing · Check together',
       type: 'discuss',
       title: 'Check together',
       instruction: 'Change books. Point at the line. Read it aloud. Say the one thing that is missing.',
@@ -316,7 +316,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c11',
       ref: '3.1.6R',
-      bookRef: 'Unit 3 · 3.1 · Share',
+      bookRef: 'Unit 3 · 3.1 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Two students read their busy day. The class says which week looks hardest.',
@@ -330,7 +330,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c12',
       ref: '3.1.7',
-      bookRef: 'Unit 3 · 3.1 · Write freely',
+      bookRef: 'Unit 3 · 3.1 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
       instruction: 'Write about your week at work (<b>20 to 35 words</b>). Which days do you '
@@ -368,7 +368,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c13',
       ref: '3.1.7P',
-      bookRef: 'Unit 3 · 3.1 · Respond',
+      bookRef: 'Unit 3 · 3.1 · Lesson B · Writing · Respond',
       type: 'discuss',
       title: 'Respond',
       instruction: 'Read your partner\'s work. Ask your partner: Why is that day busy? Write the answer.',
@@ -394,7 +394,7 @@ PBE1.page('u3-s01', {
     {
       id: 'c14',
       ref: '3.1.7R',
-      bookRef: 'Unit 3 · 3.1 · Share',
+      bookRef: 'Unit 3 · 3.1 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Read three papers. Which day is busy for most people? Count them on the board.',

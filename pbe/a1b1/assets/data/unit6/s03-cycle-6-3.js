@@ -10,7 +10,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c1',
       ref: '6.3.1',
-      bookRef: 'Unit 6 · 6.3 · Get ready',
+      bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
       title: 'Get ready',
       instruction: '',
@@ -31,7 +31,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c2',
       ref: '6.3.2',
-      bookRef: 'Unit 6 · 6.3 · Listen and read',
+      bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
       instruction: 'Listen and read. Each person has their own voice.',
@@ -93,7 +93,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c3',
       ref: '6.3.2',
-      bookRef: 'Unit 6 · 6.3 · Listen and read',
+      bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
       title: 'Listen and read — the questions',
       instruction: 'Answer from what you heard. Play the scene again if you need to.',
@@ -114,7 +114,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c4',
       ref: '6.3.3',
-      bookRef: 'Unit 6 · 6.3 · Practise',
+      bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
       instruction: 'Work in pairs, back to back. One waits — really waits, counting. Then change places.',
@@ -140,7 +140,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c5',
       ref: '6.3.3R',
-      bookRef: 'Unit 6 · 6.3 · Perform',
+      bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Perform',
       type: 'discuss',
       title: 'Perform',
       instruction: 'Two pairs say the lines for the class — back to back, books closed. The '
@@ -161,7 +161,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c6',
       ref: '6.3.4',
-      bookRef: 'Unit 6 · 6.3 · Your turn',
+      bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Your turn',
       type: 'discuss',
       title: 'Your turn',
       instruction: 'How long do people wait at your work? Think of four times. Write it.',
@@ -202,7 +202,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c7',
       ref: '6.3.4R',
-      bookRef: 'Unit 6 · 6.3 · Report',
+      bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Report',
       type: 'discuss',
       title: 'Report',
       instruction: 'Tell the class: People wait for . Nobody tells them / Somebody says .',
@@ -233,7 +233,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c8',
       ref: '6.3.5',
-      bookRef: 'Unit 6 · 6.3 · Read',
+      bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Read',
       type: 'discuss',
       title: 'Read',
       instruction: 'Read the second card on the wall. Then answer.',
@@ -280,7 +280,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c9',
       ref: '6.3.6',
-      bookRef: 'Unit 6 · 6.3 · Write with help',
+      bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
       instruction: 'Write a waiting card for your own work (<b>15 words or more</b>).',
@@ -320,7 +320,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c10',
       ref: '6.3.6P',
-      bookRef: 'Unit 6 · 6.3 · Check together',
+      bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Check together',
       type: 'discuss',
       title: 'Check together',
       instruction: 'Change books. Point at the line. Read it aloud. Say the one thing that is missing.',
@@ -361,7 +361,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c11',
       ref: '6.3.6R',
-      bookRef: 'Unit 6 · 6.3 · Share',
+      bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Two students read their fix. The class says if it would stop the waiting.',
@@ -375,7 +375,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c12',
       ref: '6.3.7',
-      bookRef: 'Unit 6 · 6.3 · Write freely',
+      bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
       instruction: 'Write about waiting at your work (<b>20 to 35 words</b>). How long do people '
@@ -419,7 +419,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c13',
       ref: '6.3.7P',
-      bookRef: 'Unit 6 · 6.3 · Respond',
+      bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Respond',
       type: 'discuss',
       title: 'Respond',
       instruction: 'Read your partner\'s work. Ask your partner: Has anybody ever rung off? '
@@ -450,7 +450,7 @@ PBE1.page('u6-s03', {
     {
       id: 'c14',
       ref: '6.3.7R',
-      bookRef: 'Unit 6 · 6.3 · Share',
+      bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Read three papers. How many callers have rung off waiting? Count them on the board.',

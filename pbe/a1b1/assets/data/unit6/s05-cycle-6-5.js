@@ -10,7 +10,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c1',
       ref: '6.5.1',
-      bookRef: 'Unit 6 · 6.5 · Get ready',
+      bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Get ready',
       type: 'discuss',
       title: 'Get ready',
       instruction: '',
@@ -31,7 +31,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c2',
       ref: '6.5.2',
-      bookRef: 'Unit 6 · 6.5 · Listen and read',
+      bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
       instruction: 'Listen and read. Each person has their own voice.',
@@ -92,7 +92,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c3',
       ref: '6.5.2',
-      bookRef: 'Unit 6 · 6.5 · Listen and read',
+      bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
       title: 'Listen and read — the questions',
       instruction: 'Answer from what you heard. Play the scene again if you need to.',
@@ -113,7 +113,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c4',
       ref: '6.5.3',
-      bookRef: 'Unit 6 · 6.5 · Practise',
+      bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
       instruction: 'Work in pairs, back to back. One gives a number. One writes and reads it '
@@ -140,7 +140,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c5',
       ref: '6.5.3R',
-      bookRef: 'Unit 6 · 6.5 · Perform',
+      bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Perform',
       type: 'discuss',
       title: 'Perform',
       instruction: 'Two pairs say the lines for the class — back to back, books closed.',
@@ -160,7 +160,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c6',
       ref: '6.5.4',
-      bookRef: 'Unit 6 · 6.5 · Your turn',
+      bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Your turn',
       type: 'discuss',
       title: 'Your turn',
       instruction: 'Four numbers. Your partner says them over a telephone. You write and read '
@@ -200,7 +200,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c7',
       ref: '6.5.4R',
-      bookRef: 'Unit 6 · 6.5 · Report',
+      bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Report',
       type: 'discuss',
       title: 'Report',
       instruction: 'Tell the class: I wrote . I read it back. It was right / wrong in the group.',
@@ -231,7 +231,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c8',
       ref: '6.5.5',
-      bookRef: 'Unit 6 · 6.5 · Read',
+      bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Read',
       type: 'discuss',
       title: 'Read',
       instruction: 'Read the numbers Ammar wrote. Then answer.',
@@ -281,7 +281,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c9',
       ref: '6.5.6',
-      bookRef: 'Unit 6 · 6.5 · Write with help',
+      bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
       instruction: 'Write a numbers list for one morning at your own work (<b>15 words or more</b>).',
@@ -327,7 +327,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c10',
       ref: '6.5.6P',
-      bookRef: 'Unit 6 · 6.5 · Check together',
+      bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Check together',
       type: 'discuss',
       title: 'Check together',
       instruction: 'Change books. Point at the line. Read it aloud. Say the one thing that is missing.',
@@ -368,7 +368,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c11',
       ref: '6.5.6R',
-      bookRef: 'Unit 6 · 6.5 · Share',
+      bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Two students read one number back to the class. In groups. The class writes '
@@ -383,7 +383,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c12',
       ref: '6.5.7',
-      bookRef: 'Unit 6 · 6.5 · Write freely',
+      bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
       instruction: 'Write about a telephone number that went wrong at your work (<b>20 to 35 '
@@ -428,7 +428,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c13',
       ref: '6.5.7P',
-      bookRef: 'Unit 6 · 6.5 · Respond',
+      bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Respond',
       type: 'discuss',
       title: 'Respond',
       instruction: 'Read your partner\'s work. Ask your partner: Did you ever get hold of him? '
@@ -459,7 +459,7 @@ PBE1.page('u6-s05', {
     {
       id: 'c14',
       ref: '6.5.7R',
-      bookRef: 'Unit 6 · 6.5 · Share',
+      bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Read three papers. How many lost calls were never got back? Count them on the board.',

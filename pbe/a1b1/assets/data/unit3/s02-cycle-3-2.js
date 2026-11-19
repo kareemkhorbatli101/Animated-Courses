@@ -10,7 +10,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c1',
       ref: '3.2.1',
-      bookRef: 'Unit 3 · 3.2 · Get ready',
+      bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
       title: 'Get ready',
       instruction: '',
@@ -29,7 +29,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c2',
       ref: '3.2.2',
-      bookRef: 'Unit 3 · 3.2 · Listen and read',
+      bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
       instruction: 'Listen and read. Each person has their own voice.',
@@ -85,7 +85,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c3',
       ref: '3.2.2',
-      bookRef: 'Unit 3 · 3.2 · Listen and read',
+      bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
       title: 'Listen and read — the questions',
       instruction: 'Answer from what you heard. Play the scene again if you need to.',
@@ -106,7 +106,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c4',
       ref: '3.2.3',
-      bookRef: 'Unit 3 · 3.2 · Practise',
+      bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
       instruction: 'Work in pairs. Read the lines. Say it. Then change places.',
@@ -132,7 +132,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c5',
       ref: '3.2.3R',
-      bookRef: 'Unit 3 · 3.2 · Perform',
+      bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Perform',
       type: 'discuss',
       title: 'Perform',
       instruction: 'Two pairs say the lines for the class — books closed.',
@@ -152,7 +152,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c6',
       ref: '3.2.4',
-      bookRef: 'Unit 3 · 3.2 · Your turn',
+      bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Your turn',
       type: 'discuss',
       title: 'Your turn',
       instruction: 'Say four times from your own day. Your partner writes it both ways.',
@@ -187,7 +187,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c7',
       ref: '3.2.4R',
-      bookRef: 'Unit 3 · 3.2 · Report',
+      bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Report',
       type: 'discuss',
       title: 'Report',
       instruction: 'Tell the class: I start at . That is and . My break is at .',
@@ -216,7 +216,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c8',
       ref: '3.2.5',
-      bookRef: 'Unit 3 · 3.2 · Read',
+      bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Read',
       type: 'discuss',
       title: 'Read',
       instruction: 'Read the times on the store wall. Then answer.',
@@ -258,7 +258,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c9',
       ref: '3.2.6',
-      bookRef: 'Unit 3 · 3.2 · Write with help',
+      bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
       instruction: 'Write a times notice for your own work (<b>15 words or more</b>).',
@@ -294,7 +294,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c10',
       ref: '3.2.6P',
-      bookRef: 'Unit 3 · 3.2 · Check together',
+      bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Check together',
       type: 'discuss',
       title: 'Check together',
       instruction: 'Change books. Point at the line. Read it aloud. Say the one thing that is missing.',
@@ -333,7 +333,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c11',
       ref: '3.2.6R',
-      bookRef: 'Unit 3 · 3.2 · Share',
+      bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Two students read one line. The class says the time the other way.',
@@ -347,7 +347,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c12',
       ref: '3.2.7',
-      bookRef: 'Unit 3 · 3.2 · Write freely',
+      bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
       instruction: 'Write about your times at work (<b>20 to 35 words</b>). When do you start? '
@@ -386,7 +386,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c13',
       ref: '3.2.7P',
-      bookRef: 'Unit 3 · 3.2 · Respond',
+      bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Respond',
       type: 'discuss',
       title: 'Respond',
       instruction: 'Read your partner\'s work. Ask your partner: How long is your break? Write the answer.',
@@ -415,7 +415,7 @@ PBE1.page('u3-s02', {
     {
       id: 'c14',
       ref: '3.2.7R',
-      bookRef: 'Unit 3 · 3.2 · Share',
+      bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Share',
       type: 'discuss',
       title: 'Share',
       instruction: 'Read three papers. Who has the longest day? Count the hours on the board.',
