@@ -6,7 +6,7 @@ const { p, h1, h2, h3, pb, sp, box, table, C } = L;
 const SPINE = { 1: C.teal, 2: C.navy, 3: C.orange };
 const LFILL = { 1: C.lteal, 2: C.lblue, 3: C.lorange };
 const fig = (n, w, h) => new dx.Paragraph({ spacing: { before: 100, after: 140 }, children: [
-  new dx.ImageRun({ data: fs.readFileSync(path.join(__dirname, '../figures', n + '.png')), transformation: { width: w, height: h } }) ] });
+  new dx.ImageRun({ data: fs.readFileSync(path.join(__dirname, '../figures', n + '.png')), transformation: { width: w, height: h }, type: 'png' }) ] });
 
 const letters = 'abcdefgh';
 let Q = 0;                                   // running question number within a session

@@ -5,7 +5,7 @@ const { p, h1, h2, h3, pb, sp, box, table, bullet, C } = L;
 const out = [];
 const TITLE = 'English for the Workplace · Syria — Design Plan';
 const fig = (n, w, h) => new d.Paragraph({ spacing: { before: 120, after: 160 },
-  children: [new d.ImageRun({ data: fs.readFileSync(path.join(__dirname, '../figures', n + '.png')), transformation: { width: w, height: h } })] });
+  children: [new d.ImageRun({ data: fs.readFileSync(path.join(__dirname, '../figures', n + '.png')), transformation: { width: w, height: h }, type: 'png' })] });
 
 out.push(h1('English for the Workplace · Syria'));
 out.push(p('**Design plan for all three courses — for approval before Course 1 is written**', { color: C.teal }));
