@@ -19,58 +19,70 @@ out.push(box('What this document is for', [
 out.push(fig('ladder', 620, 146));
 
 // ============ 1 ============
-out.push(h2('1 · The honest constraint, and how the design answers it'));
-out.push(p('The brief asks for **three task types for each of reading, listening, writing and the case study, plus discussion questions**. Taken literally — all three types for every skill in every cycle — one session would carry more than thirty tasks. **In 120 minutes that is unteachable**, and the pair work, which is where the speaking happens, would be the first thing squeezed out.'));
-out.push(box('The design decision', [
-  '**The three types rotate across the three cycles instead of stacking inside each one.** Every session therefore contains all three types for every skill — True/False, gap-fill and matching — but a single cycle carries one of each skill, not three.',
-  '**Two things do appear in every cycle**, because the brief rightly insists on them: **a gapped writing model**, and **discussion questions**.',
-  '⚠ **This is the one place where I have interpreted rather than followed.** If you want all three types in every cycle, the session must go to three hours or drop to two cycles. Say which and I will re-plan.',
-], C.lorange, C.orange));
-out.push(fig('taskmap', 620, 168));
+out.push(h2('1 · The governing principle: one battery in three parts'));
+out.push(p('**All three task types appear in every cycle, for every skill.** They are not three exercises on the same thing — that would be redundant and would not fit the clock. **Each form has a fixed remit, and together they cover the text once.**'));
+out.push(table(['Form', 'Its remit', 'The reading operation it forces'], [
+  ['**Matching**', '**Structure** — what each part of the text is FOR', 'Skimming: seeing the shape of a document before its contents'],
+  ['**True / False**', '**Detail** — the dates, names, figures and, in two items, what is NOT said', 'Scanning: locating and verifying a specific claim'],
+  ['**Gap-fill**', '**The whole** — reconstructing the message as a summary or a completed form', 'Intensive reading: holding the entire text at once'],
+], [1.1, 3, 2.9]));
+out.push(p('⚠ **No fact is tested twice.** A date checked in True/False does not appear as a gap; a line matched to its purpose is not then summarised. The three tasks partition the text between them — which is why the battery costs about as much class time as one thorough comprehension exercise, not three.'));
+out.push(fig('taskmap', 620, 190));
+out.push(box('Worked example — a 150-word staff notice at Course 1', [
+  '**Matching (4 pairs, 1 distractor).** Match each of the four blocks of the notice to its job: _who it is from · what has changed · from when · what you must do_. **Tests structure. Touches no detail.**',
+  '**True / False (6).** _The change starts on Sunday. · The notice is signed by the warehouse manager. · Staff must sign the list before Thursday._ Two of the six are about something the notice does **not** say. **Tests detail. Touches no structure.**',
+  '**Gap-fill (5 gaps, word bank at this level).** A 50-word summary of the notice, reconstructed. **Tests the whole. Repeats nothing already asked.**',
+  '⚠ **Thirteen items in all, and every line of the notice is covered exactly once.**',
+], C.lteal, C.teal));
 
 // ============ 2 ============
 out.push(pb());
 out.push(h2('2 · The session clock'));
 out.push(p('**Every session is 120 minutes and has the same five parts.** The shape never varies across the 36.'));
 out.push(table(['Part', 'Min', 'What happens'], [
-  ['**Opening**', '5', 'Collect last session\'s homework · one-minute recap · today\'s aim read aloud from the page'],
-  ['**Cycle 1**', '28', 'Reading (True/False) · Listening (matching) · gapped writing model · pair role-play'],
-  ['**Cycle 2**', '28', 'Reading (gap-fill) · Listening (True/False) · gapped writing model · pair role-play'],
-  ['**Cycle 3**', '28', 'Reading (matching) · Listening (gap-fill) · gapped model — **this is the portfolio piece**'],
-  ['**Case study**', '28', 'A document pack in a named sector, worked in fours, with its own three task types'],
-  ['**Close**', '3', 'The can-do checklist · homework set: finish cycle 3\'s writing'],
+  ['**Opening**', '3', 'Collect last session\'s homework · today\'s aim read aloud from the page'],
+  ['**Cycle 1**', '31', 'Reading + its three tasks · listening + its three tasks · gapped model · pair role-play'],
+  ['**Cycle 2**', '31', 'The same shape, a second angle on the session aim'],
+  ['**Cycle 3**', '31', 'The same shape again — **this cycle\'s writing is the portfolio piece**'],
+  ['**Case study**', '22', 'A document pack in a named sector, worked in fours, with its own three tasks'],
+  ['**Close**', '2', 'The can-do checklist · homework: finish cycle 3\'s writing'],
 ], [1.1, 0.5, 5.4]));
-out.push(fig('cycle', 620, 84));
-out.push(box('Two consequences worth stating plainly', [
-  '⚠ **Full pieces of writing are finished as homework, not in class.** In 28 minutes a learner can complete a gapped model and draft two or three lines of their own. A 200-word B2 decision note cannot be written in that time by anybody. **In class: analyse the model, complete the gaps, start. At home: finish.**',
-  '**The case study loses the odd pair.** Ten learners make two fours and one pair; the teacher joins the pair. This is the only block that is not in pairs, because its document packs hold more than two positions.',
+out.push(p('**3 × 31 + 22 + 3 + 2 = 120.** The cycle breakdown below is measured against real item counts, not estimated.'));
+out.push(fig('cycle', 620, 87));
+out.push(box('Three consequences worth stating plainly', [
+  '⚠ **Full pieces of writing are finished as homework, not in class.** Six minutes completes a gapped model and starts a learner\'s own piece. A 200-word B2 decision note cannot be written in that time by anybody. **In class: complete the model, start. At home: finish.**',
+  '**The listening tasks are spread across the three playings** — one task after each play. This is why a three-part battery costs 7.5 minutes rather than 15, and it is also better listening practice than hearing everything three times with one task at the end.',
+  '**The case study loses the odd pair.** Ten learners make two fours and one pair; the teacher joins the pair. It is the only block not in pairs, because its packs hold more than two positions.',
+  '⚠ **At Course 3 the texts are longer but the scaffolding is lighter.** The minutes move: the role play drops to 3 and the elicit to 1, which buys the reading block the 4 extra minutes a 320-word text needs. **The session stays at 120 and the four blocks stay intact.**',
 ], C.grey, C.navy));
 
 // ============ 3 ============
 out.push(pb());
 out.push(h2('3 · The task typology'));
-out.push(h3('Reading — three types, one per cycle'));
+out.push(h3('Reading — all three, every cycle, partitioned'));
 out.push(table(['Type', 'What it looks like', 'What it actually tests'], [
   ['**True / False**', '6 statements about a short workplace document', 'Whether the learner read the document or guessed from the topic'],
   ['**Gap-fill**', 'A 60–80 word summary of the text with 6 gaps, or an excerpt with words removed', 'Whether they can hold the whole text, not only find a line'],
   ['**Matching**', 'Match 5 lines to 5 purposes, readers or outcomes — with one distractor', 'Whether they see what each part of a document is FOR'],
 ], [1.2, 3, 2.8]));
-out.push(h3('Listening — the same three types, offset by one cycle'));
-out.push(p('The conversation is **read aloud by the teacher or played**, three times, as in the published series. Offsetting the types means a learner never meets the same task shape twice in one cycle.'));
+out.push(h3('Listening — all three, one task after each playing'));
+out.push(p('The conversation is **read aloud by the teacher or played, three times**, as in the published series — and **one task follows each playing**. The learner therefore listens with a different purpose each time, which is both cheaper in minutes and better practice than three hearings and one task at the end.'));
 out.push(table(['Type', 'What it looks like'], [
   ['**Matching**', 'Match each speaker to what they want, or each turn to its function'],
   ['**True / False**', '6 statements about what was said — two of them about what was NOT said'],
   ['**Gap-fill**', 'Complete a real form from the conversation: a message slip, a booking, a set of notes'],
 ], [1.2, 5.8]));
-out.push(h3('Writing — a gapped model every time, plus a rotating analysis task'));
-out.push(table(['In every cycle', 'Plus, rotating by cycle'], [
-  ['**A model of the target text with gaps to complete.** The learner fills the gaps, then writes their own version of the same genre.', '**Cycle 1 — matching:** match each sentence of the model to the job it does (opening · fact · reason · ask · sign-off)\n**Cycle 2 — True/False:** 6 statements about the model\'s conventions\n**Cycle 3 — gap-fill:** complete a skeleton of the model\'s structure, then write'],
-], [3, 4]));
+out.push(h3('Writing — a gapped model every time, plus the same two analysis forms'));
+out.push(table(['Form', 'Its remit on the writing model'], [
+  ['**Matching**', 'Match each sentence of the model to the job it does: _opening · fact · reason · ask · sign-off_. **Structure.**'],
+  ['**True / False**', '6 statements about the genre\'s conventions — what this kind of document must and must not contain. **Rules.**'],
+  ['**Gap-fill**', 'The model itself, gapped, completed by the learner — then their own version. **Production.**'],
+], [1.2, 5.8]));
 out.push(h3('The case study — all three types, one per document'));
-out.push(table(['Document', 'Task'], [
-  ['Document 1', '**True / False** — 6 statements about what the pack does and does not establish'],
-  ['Document 2', '**Matching** — match each document to the single thing it proves'],
-  ['Document 3 + the output', '**Gap-fill** — complete the output template, then write the rest in fours'],
+out.push(table(['Remit', 'Task'], [
+  ['**Detail**', '**True / False** — 6 statements about the pack; two of them about what it does **not** establish'],
+  ['**Structure**', '**Matching** — match each document to the single thing it alone proves'],
+  ['**The whole**', '**Gap-fill** — complete the output template, then write the rest in fours'],
 ], [1.6, 5.4]));
 out.push(p('**Discussion questions:** two in every cycle, three in the case study. They are the only tasks with no right answer, and they are marked as such on the page.'));
 
@@ -180,11 +192,11 @@ out.push(table(['', 'Addition', 'Why'], [
 
 // ============ 10 ============
 out.push(h2('10 · The check passes before Course 1 is delivered'));
-out.push(p('**Fifteen passes, and the first twelve are machine-checked** by a harness written for this course, in the way the published series is checked.'));
+out.push(p('**Sixteen passes, and thirteen of them are machine-checked** by a harness written for this course, in the way the published series is checked.'));
 out.push(table(['', 'Pass', 'Automatic?'], [
   ['1', 'Every session has 3 cycles and 1 case study; every cycle has a reading, a listening and a writing task', 'yes'],
   ['2', 'Every session begins on a new page — page-break count equals session count', 'yes'],
-  ['3', 'Each session contains all three task types for each of reading, listening and writing', 'yes'],
+  ['3', 'Every cycle contains all three task types for each of reading, listening and writing', 'yes'],
   ['4', 'Every closed task has an answer in Appendix A; every open task is listed as having none', 'yes'],
   ['5', 'Every writing task has a gapped model AND a sample answer in Appendix B', 'yes'],
   ['6', 'Every role play has all four scaffold parts', 'yes'],
@@ -196,20 +208,21 @@ out.push(table(['', 'Pass', 'Automatic?'], [
   ['12', 'Every cross-reference to another session resolves', 'yes'],
   ['13', 'Read as a learner: can a task be answered without reading the text? If yes, the task is rewritten', 'no — read by hand'],
   ['14', 'Read as a teacher: can each session be taught from the page alone, without the plan?', 'no — read by hand'],
-  ['15', 'Read the built document, not the source: page count, page breaks, and every figure, in the PDF', 'no — read by hand'],
+  ['15', '⚠ **Coverage and non-overlap:** each item is tagged with the line or block it tests; the three tasks together cover the text once, and **no line is tested twice**', 'yes'],
+  ['16', 'Read the built document, not the source: page count, page breaks, and every figure, in the PDF', 'no — read by hand'],
 ], [0.4, 5.4, 1.2]));
-out.push(p('⚠ **Pass 15 is the one this project has learned to insist on.** Checking the source rather than the built document is how three separate faults reached finished books earlier in this work.'));
+out.push(p('⚠ **Pass 15 is the one that enforces the principle in section 1**, by tagging every item with the line it tests and asserting that the tags cover the text exactly once. **Pass 16 is the one this project has learned to insist on.** Checking the source rather than the built document is how three separate faults reached finished books earlier in this work.'));
 
 // ============ 11 ============
 out.push(h2('11 · What I am asking you to approve'));
 out.push(box('Approve, change or reject each of these', [
-  '**1 · The rotation decision** in section 1 — three task types spread across three cycles, rather than all three in every cycle.',
-  '**2 · The session clock** in section 2, and in particular that **full writing pieces are finished as homework**.',
+  '**1 · The partition principle** in section 1 — all three forms in every cycle, each with a fixed remit (structure · detail · whole), covering the text once between them. _This replaces the rotation I proposed in the first draft; you were right that different forms are not redundant._',
+  '**2 · The session clock** in section 2 — cycles of 31 minutes and a 22-minute case study — and in particular that **full writing pieces are finished as homework**.',
   '**3 · The colour system** in section 5 — three course colours, eight functional colours fixed across all three books.',
   '**4 · The level progression** in section 6 — how gap-fills, True/False, matching, role plays and case packs harden from Course 1 to Course 3.',
   '**5 · The appendix set** in section 8, and especially that **Appendix B carries a sample for every writing task, role play and case output**.',
   '**6 · The six additions** in section 9 — accept or strike each.',
-  '⚠ **On approval I will write Course 1 in full**: 12 sessions, 36 cycles, 12 case studies, 8 appendices, with the fifteen check passes run and reported before delivery.',
+  '⚠ **On approval I will write Course 1 in full**: 12 sessions, 36 cycles, 12 case studies, 8 appendices, with the sixteen check passes run and reported before delivery.',
 ], C.lorange, C.orange));
 out.push(sp());
 out.push(p('_Prepared by Mo (Mohamad Khorbatli)._', { color: '7F7F7F' }));
