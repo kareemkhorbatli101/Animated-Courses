@@ -186,7 +186,7 @@ out.push(table(['', 'Addition', 'Why'], [
   ['2', '**One pronunciation or intonation point a session**, 2 minutes inside cycle 2', 'The published B2 book already shows the value: a flat tone makes a sentence a delegation, a rising one makes it a hope. These are quick and they are memorable'],
   ['3', '**A can-do checklist at the end of every session** — three statements, ticked by the learner', 'Feeds the portfolio, gives the centre evidence, and takes ninety seconds'],
   ['4', '**Recycling checkpoints in sessions 6 and 12** of each course, inside the existing case study', 'Revision without spending a session on revision'],
-  ['5', '**An Arabic column in the vocabulary appendix only**', 'You asked earlier for English–Arabic work. In a mixed-sector class I would keep translation out of the tasks and put it where it helps most — the word list. ⚠ **No Arabic exists in any source material; this is new authoring**'],
+  ['5', '**A first-language column in the vocabulary appendix only**', 'In a mixed-sector class, translation stays out of the tasks and goes where it helps most — the word list. ⚠ **The column is printed empty, headed "In your language": no translation appears anywhere in the books, and filling it in Arabic is a decision for the centre**'],
   ['6', '**A one-page "how this book works" spread** at the front of each course, showing the colour legend', 'The colour system only pays if the learner is told it exists, once'],
 ], [0.4, 2.6, 4]));
 
