@@ -317,7 +317,10 @@ PBE1.page('u3-s01', {
       questions: [{
             q: 'You listened to the other pair. Write the words you heard them use.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write the words themselves, not what the exchange was about: the '
+              + 'actual phrases. Three is plenty. Working alone? Play the scene '
+              + 'again and write the phrases the actors use.'
           }],
       ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -348,7 +351,10 @@ PBE1.page('u3-s01', {
               + 'is: Monday · I work: Monday to Saturday My day off is: Sunday '
               + 'The busy day is: Thursday',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Two halves and you need both: your own lines, then the other '
+              + 'person\'s. Working alone, the engine plays the other part - '
+              + 'write what it said back to you.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -390,7 +396,9 @@ PBE1.page('u3-s01', {
             q: 'Write what you told the class.',
             model: 'I work Sunday to Thursday. My day off is Friday. The busy day is Monday',
             minWords: 5,
-            rows: 2
+            rows: 2,
+            hint: 'Write the sentences you actually said out loud, not a summary of '
+              + 'them. Said to an empty room still counts - write those.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -558,7 +566,10 @@ PBE1.page('u3-s01', {
             model: '(pointing) Here. (reading) "tuesday" · (pointing) Here. '
               + '(reading) "Wednesday —"',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            hint: 'Point at one line and name one thing: a missing word, a number '
+              + 'with no unit, a sentence worth copying. Alone, read your own '
+              + 'work from yesterday and do exactly that to it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -599,7 +610,10 @@ PBE1.page('u3-s01', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -685,7 +699,9 @@ PBE1.page('u3-s01', {
             q: 'Write what you asked your partner, and what you liked.',
             model: 'Why is Monday busy? — Because twelve pallets come and four men move them',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            hint: 'The question in your own words first, then one specific thing in '
+              + 'the answer. Alone, ask it of your own work and answer honestly.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -734,7 +750,10 @@ PBE1.page('u3-s01', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

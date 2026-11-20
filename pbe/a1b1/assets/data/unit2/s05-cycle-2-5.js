@@ -321,7 +321,10 @@ PBE1.page('u2-s05', {
       questions: [{
             q: 'You listened to the other pair. Write the words you heard them use.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write the words themselves, not what the exchange was about: the '
+              + 'actual phrases. Three is plenty. Working alone? Play the scene '
+              + 'again and write the phrases the actors use.'
           }],
       ideas: ['For: Homs',
       'On the lorry by: 11.00',
@@ -355,7 +358,10 @@ PBE1.page('u2-s05', {
               + '9.00 — ✗ (partner wrote 50) · 200 — packets — Hama — 14.00 — ✓ · '
               + '70 — cartons — Aleppo — 6.00 — ✓',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            hint: 'Two halves and you need both: your own lines, then the other '
+              + 'person\'s. Working alone, the engine plays the other part - '
+              + 'write what it said back to you.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -400,7 +406,9 @@ PBE1.page('u2-s05', {
             model: 'I gave four orders. My partner read three back right. The hard '
               + 'one was fifteen',
             minWords: 5,
-            rows: 2
+            rows: 2,
+            hint: 'Write the sentences you actually said out loud, not a summary of '
+              + 'them. Said to an empty room still counts - write those.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -564,7 +572,10 @@ PBE1.page('u2-s05', {
       questions: [{
             q: 'You read your partner\'s work. Write the one thing you found.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Point at one line and name one thing: a missing word, a number '
+              + 'with no unit, a sentence worth copying. Alone, read your own '
+              + 'work from yesterday and do exactly that to it.'
           }],
       ideas: ['For: Homs',
       'On the lorry by: 11.00',
@@ -613,7 +624,10 @@ PBE1.page('u2-s05', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['For: Homs',
       'On the lorry by: 11.00',
@@ -703,7 +717,9 @@ PBE1.page('u2-s05', {
             q: 'Write what you asked your partner, and what you liked.',
             model: '? Did you read it back? — No. Now I do, every time',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            hint: 'The question in your own words first, then one specific thing in '
+              + 'the answer. Alone, ask it of your own work and answer honestly.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -755,7 +771,10 @@ PBE1.page('u2-s05', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['For: Homs',
       'On the lorry by: 11.00',

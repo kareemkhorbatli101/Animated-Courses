@@ -326,7 +326,10 @@ PBE1.page('u2-s04', {
       questions: [{
             q: 'You listened to the other pair. Write the words you heard them use.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write the words themselves, not what the exchange was about: the '
+              + 'actual phrases. Three is plenty. Working alone? Play the scene '
+              + 'again and write the phrases the actors use.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
@@ -355,7 +358,10 @@ PBE1.page('u2-s04', {
             model: 'the back store — 14 — cartons · the cupboard — 0 — none · the '
               + 'yard — 2 — pallets · shelf 6 — 9 — rolls',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            hint: 'Two halves and you need both: your own lines, then the other '
+              + 'person\'s. Working alone, the engine plays the other part - '
+              + 'write what it said back to you.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -400,7 +406,9 @@ PBE1.page('u2-s04', {
             model: 'There are fourteen cartons in the back store. There are none in '
               + 'the cupboard',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            hint: 'Write the sentences you actually said out loud, not a summary of '
+              + 'them. Said to an empty room still counts - write those.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -565,7 +573,10 @@ PBE1.page('u2-s04', {
       questions: [{
             q: 'You read your partner\'s work. Write the one thing you found.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Point at one line and name one thing: a missing word, a number '
+              + 'with no unit, a sentence worth copying. Alone, read your own '
+              + 'work from yesterday and do exactly that to it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -609,7 +620,10 @@ PBE1.page('u2-s04', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
@@ -692,7 +706,9 @@ PBE1.page('u2-s04', {
             q: 'Write what you asked your partner, and what you liked.',
             model: '? Who said it first? — A driver, on the fourth day',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            hint: 'The question in your own words first, then one specific thing in '
+              + 'the answer. Alone, ask it of your own work and answer honestly.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -744,7 +760,10 @@ PBE1.page('u2-s04', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],

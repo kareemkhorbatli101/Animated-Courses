@@ -324,7 +324,10 @@ PBE1.page('u5-s03', {
       questions: [{
             q: 'You listened to the other pair. Write the words you heard them use.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write the words themselves, not what the exchange was about: the '
+              + 'actual phrases. Three is plenty. Working alone? Play the scene '
+              + 'again and write the phrases the actors use.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
@@ -354,7 +357,10 @@ PBE1.page('u5-s03', {
               + 'in a box · 1 · lorry · One lorry a week from Homs · 12 · boxes · '
               + 'Twelve boxes of labels · 6 · rolls · Six rolls of tape',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Two halves and you need both: your own lines, then the other '
+              + 'person\'s. Working alone, the engine plays the other part - '
+              + 'write what it said back to you.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -397,7 +403,9 @@ PBE1.page('u5-s03', {
             q: 'Write what you told the class.',
             model: 'We get forty trays every week. They come on four pallets, ten on each',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            hint: 'Write the sentences you actually said out loud, not a summary of '
+              + 'them. Said to an empty room still counts - write those.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -578,7 +586,10 @@ PBE1.page('u5-s03', {
             model: '(pointing) Here. (reading) "200" · (pointing) at the bottom. '
               + '(reading) "Total: 4"',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            hint: 'Point at one line and name one thing: a missing word, a number '
+              + 'with no unit, a sentence worth copying. Alone, read your own '
+              + 'work from yesterday and do exactly that to it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -623,7 +634,10 @@ PBE1.page('u5-s03', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
@@ -715,7 +729,9 @@ PBE1.page('u5-s03', {
             q: 'Write what you asked your partner, and what you liked.',
             model: 'How many in one of those? — Forty loaves in a tray. Ten trays on a rack',
             minWords: 5,
-            rows: 2
+            rows: 2,
+            hint: 'The question in your own words first, then one specific thing in '
+              + 'the answer. Alone, ask it of your own work and answer honestly.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -766,7 +782,10 @@ PBE1.page('u5-s03', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],

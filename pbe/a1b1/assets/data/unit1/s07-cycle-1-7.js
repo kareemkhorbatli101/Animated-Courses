@@ -129,7 +129,9 @@ PBE1.page('u1-s07', {
       questions: [{
             q: 'Write what you would say. Your own words.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say it out loud first, then write that down. Use the names, '
+              + 'numbers and places from your own workplace, not the book\'s.'
           }],
       ideas: ['1.4 say who another person is'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -289,7 +291,9 @@ PBE1.page('u1-s07', {
       questions: [{
             q: 'Write what you said and what you heard.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Both sides: your lines, then the other person\'s. Alone, the '
+              + 'engine is the other person - write what it said.'
           }],
       ideas: ['1.4 say who another person is'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -307,7 +311,10 @@ PBE1.page('u1-s07', {
       questions: [{
             q: 'You listened to the other pair. Write the words you heard them use.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write the words themselves, not what the exchange was about: the '
+              + 'actual phrases. Three is plenty. Working alone? Play the scene '
+              + 'again and write the phrases the actors use.'
           }],
       ideas: ['1.4 say who another person is'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -341,7 +348,10 @@ PBE1.page('u1-s07', {
               + 'key cupboard. Who: the supervisor. If he is away: the spare key '
               + 'is with the gate, and three people do not know that',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Two halves and you need both: your own lines, then the other '
+              + 'person\'s. Working alone, the engine plays the other part - '
+              + 'write what it said back to you.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -399,7 +409,9 @@ PBE1.page('u1-s07', {
               + 'read it. So Ammar writes the name in English next to Abu '
               + 'Raed\'s, from Monday',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Write the sentences you actually said out loud, not a summary of '
+              + 'them. Said to an empty room still counts - write those.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -467,7 +479,9 @@ PBE1.page('u1-s07', {
       questions: [{
             q: 'Write what you said and what you heard.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Both sides: your lines, then the other person\'s. Alone, the '
+              + 'engine is the other person - write what it said.'
           }],
       ideas: ['1.4 say who another person is'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -556,7 +570,10 @@ PBE1.page('u1-s07', {
       questions: [{
             q: 'You read your partner\'s work. Write the one thing you found.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Point at one line and name one thing: a missing word, a number '
+              + 'with no unit, a sentence worth copying. Alone, read your own '
+              + 'work from yesterday and do exactly that to it.'
           }],
       ideas: ['1.4 say who another person is'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

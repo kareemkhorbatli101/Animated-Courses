@@ -320,7 +320,10 @@ PBE1.page('u2-s06', {
       questions: [{
             q: 'You listened to the other pair. Write the words you heard them use.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write the words themselves, not what the exchange was about: the '
+              + 'actual phrases. Three is plenty. Working alone? Play the scene '
+              + 'again and write the phrases the actors use.'
           }],
       ideas: ['Saying a number is wrong'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -352,7 +355,10 @@ PBE1.page('u2-s06', {
               + 'The paper said 400 in the store It really was 370 I counted '
               + 'three times, with another man',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Two halves and you need both: your own lines, then the other '
+              + 'person\'s. Working alone, the engine plays the other part - '
+              + 'write what it said back to you.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -395,7 +401,9 @@ PBE1.page('u2-s06', {
             q: 'Write what you told the class.',
             model: 'The sheet said twelve. It is not twelve, it is nine. I counted two times',
             minWords: 5,
-            rows: 2
+            rows: 2,
+            hint: 'Write the sentences you actually said out loud, not a summary of '
+              + 'them. Said to an empty room still counts - write those.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -559,7 +567,10 @@ PBE1.page('u2-s06', {
       questions: [{
             q: 'You read your partner\'s work. Write the one thing you found.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Point at one line and name one thing: a missing word, a number '
+              + 'with no unit, a sentence worth copying. Alone, read your own '
+              + 'work from yesterday and do exactly that to it.'
           }],
       ideas: ['Saying a number is wrong'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -606,7 +617,10 @@ PBE1.page('u2-s06', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['Saying a number is wrong'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -696,7 +710,9 @@ PBE1.page('u2-s06', {
             q: 'Write what you asked your partner, and what you liked.',
             model: '? Did you count twice? — Twice, and the second time with Samih',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            hint: 'The question in your own words first, then one specific thing in '
+              + 'the answer. Alone, ask it of your own work and answer honestly.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -746,7 +762,10 @@ PBE1.page('u2-s06', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['Saying a number is wrong'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

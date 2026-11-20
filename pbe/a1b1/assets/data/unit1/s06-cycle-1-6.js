@@ -322,7 +322,10 @@ PBE1.page('u1-s06', {
       questions: [{
             q: 'You listened to the other pair. Write the words you heard them use.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write the words themselves, not what the exchange was about: the '
+              + 'actual phrases. Three is plenty. Working alone? Play the scene '
+              + 'again and write the phrases the actors use.'
           }],
       ideas: ['When you do not understand',
       'Row 3, shelf 2'],
@@ -354,7 +357,10 @@ PBE1.page('u1-s06', {
               + '✓ · I said 17 My partner wrote 17 ✓ · I said 40 My partner wrote '
               + '14 ✗',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Two halves and you need both: your own lines, then the other '
+              + 'person\'s. Working alone, the engine plays the other part - '
+              + 'write what it said back to you.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -398,7 +404,9 @@ PBE1.page('u1-s06', {
             model: 'I said four numbers. My partner wrote two right. The hard one '
               + 'was fifteen and fifty',
             minWords: 5,
-            rows: 2
+            rows: 2,
+            hint: 'Write the sentences you actually said out loud, not a summary of '
+              + 'them. Said to an empty room still counts - write those.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -565,7 +573,10 @@ PBE1.page('u1-s06', {
       questions: [{
             q: 'You read your partner\'s work. Write the one thing you found.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Point at one line and name one thing: a missing word, a number '
+              + 'with no unit, a sentence worth copying. Alone, read your own '
+              + 'work from yesterday and do exactly that to it.'
           }],
       ideas: ['When you do not understand',
       'Row 3, shelf 2'],
@@ -612,7 +623,10 @@ PBE1.page('u1-s06', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['When you do not understand',
       'Row 3, shelf 2'],
@@ -701,7 +715,9 @@ PBE1.page('u1-s06', {
             q: 'Write what you asked your partner, and what you liked.',
             model: '? Did you ask again? — No. Now I ask',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            hint: 'The question in your own words first, then one specific thing in '
+              + 'the answer. Alone, ask it of your own work and answer honestly.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -750,7 +766,10 @@ PBE1.page('u1-s06', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['When you do not understand',
       'Row 3, shelf 2'],

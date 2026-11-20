@@ -134,7 +134,9 @@ PBE1.page('u4-s07', {
       questions: [{
             q: 'Write what you would say. Your own words.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say it out loud first, then write that down. Use the names, '
+              + 'numbers and places from your own workplace, not the book\'s.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Good morning. My name is Samih Qassar. I am the storeman.',
@@ -297,7 +299,9 @@ PBE1.page('u4-s07', {
       questions: [{
             q: 'Write what you said and what you heard.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Both sides: your lines, then the other person\'s. Alone, the '
+              + 'engine is the other person - write what it said.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['A: Good morning. Your name, please. B: Good morning. My name is Samih '
@@ -314,7 +318,10 @@ PBE1.page('u4-s07', {
       questions: [{
             q: 'You listened to the other pair. Write the words you heard them use.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write the words themselves, not what the exchange was about: the '
+              + 'actual phrases. Three is plenty. Working alone? Play the scene '
+              + 'again and write the phrases the actors use.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
@@ -350,7 +357,10 @@ PBE1.page('u4-s07', {
               + 'are away: nobody can find them, because the folder is not on any '
               + 'list',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Two halves and you need both: your own lines, then the other '
+              + 'person\'s. Working alone, the engine plays the other part - '
+              + 'write what it said back to you.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -414,7 +424,9 @@ PBE1.page('u4-s07', {
               + 'day, new line written, old line crossed with a pencil line so '
               + 'the next man can see it moved',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Write the sentences you actually said out loud, not a summary of '
+              + 'them. Said to an empty room still counts - write those.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -483,7 +495,9 @@ PBE1.page('u4-s07', {
       questions: [{
             q: 'Write what you said and what you heard.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Both sides: your lines, then the other person\'s. Alone, the '
+              + 'engine is the other person - write what it said.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '
@@ -571,7 +585,10 @@ PBE1.page('u4-s07', {
       questions: [{
             q: 'You read your partner\'s work. Write the one thing you found.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Point at one line and name one thing: a missing word, a number '
+              + 'with no unit, a sentence worth copying. Alone, read your own '
+              + 'work from yesterday and do exactly that to it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {

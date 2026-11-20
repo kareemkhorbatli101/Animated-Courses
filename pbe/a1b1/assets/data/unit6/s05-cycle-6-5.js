@@ -337,7 +337,10 @@ PBE1.page('u6-s05', {
       questions: [{
             q: 'You listened to the other pair. Write the words you heard them use.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write the words themselves, not what the exchange was about: the '
+              + 'actual phrases. Three is plenty. Working alone? Play the scene '
+              + 'again and write the phrases the actors use.'
           }],
       ideas: ['Taking a telephone number'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -370,7 +373,10 @@ PBE1.page('u6-s05', {
               + '✗ it was 0932 445 616 · I wrote: 0988 300 410 Read back: ✓ ✓ '
               + 'correct',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Two halves and you need both: your own lines, then the other '
+              + 'person\'s. Working alone, the engine plays the other part - '
+              + 'write what it said back to you.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -414,7 +420,9 @@ PBE1.page('u6-s05', {
             model: 'I wrote 0932 445 661. I did not read it back. It was wrong in '
               + 'the last group — 616, not 661',
             minWords: 5,
-            rows: 2
+            rows: 2,
+            hint: 'Write the sentences you actually said out loud, not a summary of '
+              + 'them. Said to an empty room still counts - write those.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -604,7 +612,10 @@ PBE1.page('u6-s05', {
             model: '(pointing) Here. (reading) "0944112233" · (pointing) at this '
               + 'row. (reading) nothing in the last column',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            hint: 'Point at one line and name one thing: a missing word, a number '
+              + 'with no unit, a sentence worth copying. Alone, read your own '
+              + 'work from yesterday and do exactly that to it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -650,7 +661,10 @@ PBE1.page('u6-s05', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['Taking a telephone number'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -743,7 +757,9 @@ PBE1.page('u6-s05', {
             q: 'Write what you asked your partner, and what you liked.',
             model: 'Did you ever get hold of him? — No. He came in a week later and told us',
             minWords: 5,
-            rows: 2
+            rows: 2,
+            hint: 'The question in your own words first, then one specific thing in '
+              + 'the answer. Alone, ask it of your own work and answer honestly.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -793,7 +809,10 @@ PBE1.page('u6-s05', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['Taking a telephone number'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

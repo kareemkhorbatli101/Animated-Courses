@@ -330,7 +330,10 @@ PBE1.page('u5-s05', {
       questions: [{
             q: 'You listened to the other pair. Write the words you heard them use.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write the words themselves, not what the exchange was about: the '
+              + 'actual phrases. Three is plenty. Working alone? Play the scene '
+              + 'again and write the phrases the actors use.'
           }],
       ideas: ['Copying a number, and checking it'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -368,7 +371,10 @@ PBE1.page('u5-s05', {
               + 'asked: Is it a nought or a nine? The answer: A nought at the '
               + 'front, a nine at the end',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Two halves and you need both: your own lines, then the other '
+              + 'person\'s. Working alone, the engine plays the other part - '
+              + 'write what it said back to you.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -413,7 +419,9 @@ PBE1.page('u5-s05', {
             model: 'My partner could not tell a one from a seven. I read it back '
               + 'digit by digit: one, seven, one, one',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Write the sentences you actually said out loud, not a summary of '
+              + 'them. Said to an empty room still counts - write those.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -596,7 +604,10 @@ PBE1.page('u5-s05', {
             model: '(pointing) Here. (reading) "Read it twice" · (pointing) at the '
               + 'end. (reading) nothing',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            hint: 'Point at one line and name one thing: a missing word, a number '
+              + 'with no unit, a sentence worth copying. Alone, read your own '
+              + 'work from yesterday and do exactly that to it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -640,7 +651,10 @@ PBE1.page('u5-s05', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['Copying a number, and checking it'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -731,7 +745,9 @@ PBE1.page('u5-s05', {
             model: 'How did they find it in the end? — The customer at 11 telephoned '
               + 'and asked where his bread was',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'The question in your own words first, then one specific thing in '
+              + 'the answer. Alone, ask it of your own work and answer honestly.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
@@ -783,7 +799,10 @@ PBE1.page('u5-s05', {
       questions: [{
             q: 'Write the one word you would put on the work you liked best, and why.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One word first - clear, useful, careful, brave - then the line '
+              + 'that earned it. A reason with no line in it is a compliment, not '
+              + 'feedback.'
           }],
       ideas: ['Copying a number, and checking it'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
