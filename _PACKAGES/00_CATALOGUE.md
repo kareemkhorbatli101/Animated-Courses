@@ -9,6 +9,27 @@ a book lacks something a teacher would expect, it says so.
 
 ---
 
+## 0 · Also in this folder, and not counted in the figures above
+
+**English for Syria · Five Programmes — `English-for-Syria_Five-Programmes_15-Courses.zip`**
+
+**5 programmes · 15 courses · 180 two-hour sessions · 360 teaching hours · 4,267 pages.** Five
+separate ESP programmes written to one architecture and set in Syria: **Workplace English** (837 pp),
+**Banking English** (886 pp), **Foreign Ministry English** (846 pp), **Business Managers English**
+(850 pp) and **Hospitality English** (848 pp).
+
+Each programme is three course books — Pre-Intermediate, Intermediate, Upper-Intermediate, twelve
+two-hour sessions each — with eight appendices per book (answer key, sample answers, audio scripts,
+vocabulary, role-play cards, case-study packs, teacher's notes, progress record), plus four planning
+documents: a design plan, a programme overview for the centre, a full scheme of work and a specimen
+session. Everything is supplied twice, `.docx` and `.pdf`. A four-page `00_READ-ME_Five-Programmes`
+at the top of the archive indexes all of it.
+
+**These are courses, not units**, so they are deliberately kept out of the book, unit and page
+counts in the heading above, which describe the seventeen packages below.
+
+---
+
 ## 1 · Proactive Business English — the graded business series
 
 **8 books · A1 · A2 · B1 · B2 · 84 units · 5,442 pages.** This is the general business English
