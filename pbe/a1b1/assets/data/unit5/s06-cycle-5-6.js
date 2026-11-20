@@ -323,7 +323,17 @@ PBE1.page('u5-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying there is nothing there.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'nothing',
+        'thing',
+        'than',
+        'split',
+        'note',
+        'conversation',
+        'start',
+        'next',
+        'sentence']
       }
     },
     {
@@ -355,7 +365,18 @@ PBE1.page('u5-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying there is nothing there.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'nothing',
+        'thing',
+        'than',
+        'split',
+        'note',
+        'conversation',
+        'start',
+        'next',
+        'sentence'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -465,7 +486,17 @@ PBE1.page('u5-s06', {
           + 'something you could not see is worse than no paper.',
         '⚠ Driver says: — put his explanation in HIS words, not yours. You do '
           + 'not know whether the Homs office gave him a note. You know what he '
-          + 'said.']
+          + 'said.'],
+        vocab: ['saying',
+        'nothing',
+        'thing',
+        'than',
+        'split',
+        'note',
+        'conversation',
+        'start',
+        'next',
+        'sentence']
       }
     },
     {
@@ -510,7 +541,19 @@ PBE1.page('u5-s06', {
           + 'something you could not see is worse than no paper.',
         '⚠ Driver says: — put his explanation in HIS words, not yours. You do '
           + 'not know whether the Homs office gave him a note. You know what he '
-          + 'said.']
+          + 'said.'],
+        vocab: ['saying',
+        'nothing',
+        'thing',
+        'than',
+        'split',
+        'note',
+        'conversation',
+        'start',
+        'next',
+        'sentence'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -589,7 +632,17 @@ PBE1.page('u5-s06', {
           + 'something you could not see is worse than no paper.',
         '⚠ Driver says: — put his explanation in HIS words, not yours. You do '
           + 'not know whether the Homs office gave him a note. You know what he '
-          + 'said.']
+          + 'said.'],
+        vocab: ['saying',
+        'nothing',
+        'thing',
+        'than',
+        'split',
+        'note',
+        'conversation',
+        'start',
+        'next',
+        'sentence']
       }
     },
     {
@@ -620,7 +673,19 @@ PBE1.page('u5-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying there is nothing there.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'nothing',
+        'thing',
+        'than',
+        'split',
+        'note',
+        'conversation',
+        'start',
+        'next',
+        'sentence'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

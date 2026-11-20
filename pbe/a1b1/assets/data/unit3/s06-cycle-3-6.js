@@ -308,7 +308,17 @@ PBE1.page('u3-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying you are late.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'late',
+        'time',
+        'first',
+        'reason',
+        'supervisor',
+        'needs',
+        'know',
+        'long',
+        'move']
       }
     },
     {
@@ -340,7 +350,18 @@ PBE1.page('u3-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying you are late.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'late',
+        'time',
+        'first',
+        'reason',
+        'supervisor',
+        'needs',
+        'know',
+        'long',
+        'move'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -436,7 +457,17 @@ PBE1.page('u3-s06', {
         '⚠ Line three is the one people forget and it is the one the '
           + 'supervisor wants. Who did my job while I was not here?',
         '⚠ Line four is not an apology. It is a plan. Next time I telephone. '
-          + 'A plan is believed. I am very sorry is not.']
+          + 'A plan is believed. I am very sorry is not.'],
+        vocab: ['saying',
+        'late',
+        'time',
+        'first',
+        'reason',
+        'supervisor',
+        'needs',
+        'know',
+        'long',
+        'move']
       }
     },
     {
@@ -477,7 +508,19 @@ PBE1.page('u3-s06', {
         '⚠ Line three is the one people forget and it is the one the '
           + 'supervisor wants. Who did my job while I was not here?',
         '⚠ Line four is not an apology. It is a plan. Next time I telephone. '
-          + 'A plan is believed. I am very sorry is not.']
+          + 'A plan is believed. I am very sorry is not.'],
+        vocab: ['saying',
+        'late',
+        'time',
+        'first',
+        'reason',
+        'supervisor',
+        'needs',
+        'know',
+        'long',
+        'move'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -549,7 +592,17 @@ PBE1.page('u3-s06', {
         '⚠ Line three is the one people forget and it is the one the '
           + 'supervisor wants. Who did my job while I was not here?',
         '⚠ Line four is not an apology. It is a plan. Next time I telephone. '
-          + 'A plan is believed. I am very sorry is not.']
+          + 'A plan is believed. I am very sorry is not.'],
+        vocab: ['saying',
+        'late',
+        'time',
+        'first',
+        'reason',
+        'supervisor',
+        'needs',
+        'know',
+        'long',
+        'move']
       }
     },
     {
@@ -578,7 +631,19 @@ PBE1.page('u3-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying you are late.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'late',
+        'time',
+        'first',
+        'reason',
+        'supervisor',
+        'needs',
+        'know',
+        'long',
+        'move'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

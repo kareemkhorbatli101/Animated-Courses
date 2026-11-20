@@ -300,7 +300,17 @@ PBE1.page('u3-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The days, and on.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['days',
+        'before',
+        'monday',
+        'thursday',
+        'letter',
+        'time',
+        'practise',
+        'after',
+        'sunday',
+        'friday']
       }
     },
     {
@@ -331,7 +341,18 @@ PBE1.page('u3-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The days, and on.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['days',
+        'before',
+        'monday',
+        'thursday',
+        'letter',
+        'time',
+        'practise',
+        'after',
+        'sunday',
+        'friday'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -428,7 +449,17 @@ PBE1.page('u3-s01', {
         must: ['A week board has one line for every working day — including the normal ones.',
         '⚠ Write normal on the quiet days. A day with no line is a day nobody '
           + 'has thought about, and that is the day the lorry comes early.',
-        '⚠ Big letter on every day.']
+        '⚠ Big letter on every day.'],
+        vocab: ['days',
+        'before',
+        'monday',
+        'thursday',
+        'letter',
+        'time',
+        'practise',
+        'after',
+        'sunday',
+        'friday']
       }
     },
     {
@@ -467,7 +498,19 @@ PBE1.page('u3-s01', {
         must: ['A week board has one line for every working day — including the normal ones.',
         '⚠ Write normal on the quiet days. A day with no line is a day nobody '
           + 'has thought about, and that is the day the lorry comes early.',
-        '⚠ Big letter on every day.']
+        '⚠ Big letter on every day.'],
+        vocab: ['days',
+        'before',
+        'monday',
+        'thursday',
+        'letter',
+        'time',
+        'practise',
+        'after',
+        'sunday',
+        'friday'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -538,7 +581,17 @@ PBE1.page('u3-s01', {
         must: ['A week board has one line for every working day — including the normal ones.',
         '⚠ Write normal on the quiet days. A day with no line is a day nobody '
           + 'has thought about, and that is the day the lorry comes early.',
-        '⚠ Big letter on every day.']
+        '⚠ Big letter on every day.'],
+        vocab: ['days',
+        'before',
+        'monday',
+        'thursday',
+        'letter',
+        'time',
+        'practise',
+        'after',
+        'sunday',
+        'friday']
       }
     },
     {
@@ -567,7 +620,19 @@ PBE1.page('u3-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The days, and on.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['days',
+        'before',
+        'monday',
+        'thursday',
+        'letter',
+        'time',
+        'practise',
+        'after',
+        'sunday',
+        'friday'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

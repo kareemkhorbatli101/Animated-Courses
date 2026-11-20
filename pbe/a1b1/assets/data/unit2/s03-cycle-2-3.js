@@ -301,7 +301,17 @@ PBE1.page('u2-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: One, and more than one.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['than',
+        'cartons',
+        'carton',
+        'before',
+        'order',
+        'empty',
+        'shelf',
+        'word',
+        'number',
+        'twenty']
       }
     },
     {
@@ -332,7 +342,18 @@ PBE1.page('u2-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: One, and more than one.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['than',
+        'cartons',
+        'carton',
+        'before',
+        'order',
+        'empty',
+        'shelf',
+        'word',
+        'number',
+        'twenty'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -426,7 +447,17 @@ PBE1.page('u2-s03', {
           + 'the big thing. And what is inside each one.',
         '⚠ Every line has a number AND a word. 20 in a packet. Not 20.',
         '⚠ Put the card ON the shelf, not in the office. A card in the office '
-          + 'is a card for the office.']
+          + 'is a card for the office.'],
+        vocab: ['than',
+        'cartons',
+        'carton',
+        'before',
+        'order',
+        'empty',
+        'shelf',
+        'word',
+        'number',
+        'twenty']
       }
     },
     {
@@ -466,7 +497,19 @@ PBE1.page('u2-s03', {
           + 'the big thing. And what is inside each one.',
         '⚠ Every line has a number AND a word. 20 in a packet. Not 20.',
         '⚠ Put the card ON the shelf, not in the office. A card in the office '
-          + 'is a card for the office.']
+          + 'is a card for the office.'],
+        vocab: ['than',
+        'cartons',
+        'carton',
+        'before',
+        'order',
+        'empty',
+        'shelf',
+        'word',
+        'number',
+        'twenty'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -540,7 +583,17 @@ PBE1.page('u2-s03', {
           + 'the big thing. And what is inside each one.',
         '⚠ Every line has a number AND a word. 20 in a packet. Not 20.',
         '⚠ Put the card ON the shelf, not in the office. A card in the office '
-          + 'is a card for the office.']
+          + 'is a card for the office.'],
+        vocab: ['than',
+        'cartons',
+        'carton',
+        'before',
+        'order',
+        'empty',
+        'shelf',
+        'word',
+        'number',
+        'twenty']
       }
     },
     {
@@ -569,7 +622,19 @@ PBE1.page('u2-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: One, and more than one.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['than',
+        'cartons',
+        'carton',
+        'before',
+        'order',
+        'empty',
+        'shelf',
+        'word',
+        'number',
+        'twenty'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

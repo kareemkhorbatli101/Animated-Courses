@@ -315,7 +315,17 @@ PBE1.page('u4-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying a thing is not there.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'thing',
+        'cannot',
+        'find',
+        'about',
+        'shelf',
+        'think',
+        'clean',
+        'square',
+        'dust']
       }
     },
     {
@@ -347,7 +357,18 @@ PBE1.page('u4-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying a thing is not there.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'thing',
+        'cannot',
+        'find',
+        'about',
+        'shelf',
+        'think',
+        'clean',
+        'square',
+        'dust'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -455,7 +476,17 @@ PBE1.page('u4-s04', {
           + 'dust is three facts somebody else can use. I cannot find it is none.',
         '⚠ Put the TIME on the note, twice: when you saw it and when you told '
           + 'somebody. If the cartons come back at nine, the two times are what '
-          + 'prove you did your job at 7.40.']
+          + 'prove you did your job at 7.40.'],
+        vocab: ['saying',
+        'thing',
+        'cannot',
+        'find',
+        'about',
+        'shelf',
+        'think',
+        'clean',
+        'square',
+        'dust']
       }
     },
     {
@@ -498,7 +529,19 @@ PBE1.page('u4-s04', {
           + 'dust is three facts somebody else can use. I cannot find it is none.',
         '⚠ Put the TIME on the note, twice: when you saw it and when you told '
           + 'somebody. If the cartons come back at nine, the two times are what '
-          + 'prove you did your job at 7.40.']
+          + 'prove you did your job at 7.40.'],
+        vocab: ['saying',
+        'thing',
+        'cannot',
+        'find',
+        'about',
+        'shelf',
+        'think',
+        'clean',
+        'square',
+        'dust'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -575,7 +618,17 @@ PBE1.page('u4-s04', {
           + 'dust is three facts somebody else can use. I cannot find it is none.',
         '⚠ Put the TIME on the note, twice: when you saw it and when you told '
           + 'somebody. If the cartons come back at nine, the two times are what '
-          + 'prove you did your job at 7.40.']
+          + 'prove you did your job at 7.40.'],
+        vocab: ['saying',
+        'thing',
+        'cannot',
+        'find',
+        'about',
+        'shelf',
+        'think',
+        'clean',
+        'square',
+        'dust']
       }
     },
     {
@@ -604,7 +657,19 @@ PBE1.page('u4-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying a thing is not there.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'thing',
+        'cannot',
+        'find',
+        'about',
+        'shelf',
+        'think',
+        'clean',
+        'square',
+        'dust'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

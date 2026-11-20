@@ -305,7 +305,17 @@ PBE1.page('u2-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: There is, there are, there are none.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['none',
+        'than',
+        'zero',
+        'numbers',
+        'empty',
+        'number',
+        'supervisor',
+        'knows',
+        'looked',
+        'nothing']
       }
     },
     {
@@ -337,7 +347,18 @@ PBE1.page('u2-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: There is, there are, there are none.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['none',
+        'than',
+        'zero',
+        'numbers',
+        'empty',
+        'number',
+        'supervisor',
+        'knows',
+        'looked',
+        'nothing'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -433,7 +454,17 @@ PBE1.page('u2-s04', {
         '⚠ Write 0 for an empty shelf. An empty line means nobody looked. A 0 '
           + 'means somebody did. That is the whole difference.',
         '⚠ Number the shelves in order: 1, 2, 3, 4, 5. A check that skips '
-          + 'shelf 4 is a check with a hole in it.']
+          + 'shelf 4 is a check with a hole in it.'],
+        vocab: ['none',
+        'than',
+        'zero',
+        'numbers',
+        'empty',
+        'number',
+        'supervisor',
+        'knows',
+        'looked',
+        'nothing']
       }
     },
     {
@@ -471,7 +502,19 @@ PBE1.page('u2-s04', {
         '⚠ Write 0 for an empty shelf. An empty line means nobody looked. A 0 '
           + 'means somebody did. That is the whole difference.',
         '⚠ Number the shelves in order: 1, 2, 3, 4, 5. A check that skips '
-          + 'shelf 4 is a check with a hole in it.']
+          + 'shelf 4 is a check with a hole in it.'],
+        vocab: ['none',
+        'than',
+        'zero',
+        'numbers',
+        'empty',
+        'number',
+        'supervisor',
+        'knows',
+        'looked',
+        'nothing'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -541,7 +584,17 @@ PBE1.page('u2-s04', {
         '⚠ Write 0 for an empty shelf. An empty line means nobody looked. A 0 '
           + 'means somebody did. That is the whole difference.',
         '⚠ Number the shelves in order: 1, 2, 3, 4, 5. A check that skips '
-          + 'shelf 4 is a check with a hole in it.']
+          + 'shelf 4 is a check with a hole in it.'],
+        vocab: ['none',
+        'than',
+        'zero',
+        'numbers',
+        'empty',
+        'number',
+        'supervisor',
+        'knows',
+        'looked',
+        'nothing']
       }
     },
     {
@@ -571,7 +624,19 @@ PBE1.page('u2-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: There is, there are, there are none.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['none',
+        'than',
+        'zero',
+        'numbers',
+        'empty',
+        'number',
+        'supervisor',
+        'knows',
+        'looked',
+        'nothing'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

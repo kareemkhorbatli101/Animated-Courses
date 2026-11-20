@@ -302,7 +302,17 @@ PBE1.page('u3-s07', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Review — the six things from this unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everybody',
+        'right',
+        'paper',
+        'still',
+        'wrong',
+        'hani']
       }
     },
     {
@@ -347,7 +357,18 @@ PBE1.page('u3-s07', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Review — the six things from this unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everybody',
+        'right',
+        'paper',
+        'still',
+        'wrong',
+        'hani'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -449,7 +470,17 @@ PBE1.page('u3-s07', {
         '⚠ If you are asking for something, ask in the last sentence. The '
           + 'reader remembers the last thing.',
         'The shape: who it is to → the day and the time → why → what you are '
-          + 'asking for.']
+          + 'asking for.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everybody',
+        'right',
+        'paper',
+        'still',
+        'wrong',
+        'hani']
       }
     },
     {
@@ -484,7 +515,19 @@ PBE1.page('u3-s07', {
         '⚠ If you are asking for something, ask in the last sentence. The '
           + 'reader remembers the last thing.',
         'The shape: who it is to → the day and the time → why → what you are '
-          + 'asking for.']
+          + 'asking for.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everybody',
+        'right',
+        'paper',
+        'still',
+        'wrong',
+        'hani'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -551,7 +594,17 @@ PBE1.page('u3-s07', {
         '⚠ If you are asking for something, ask in the last sentence. The '
           + 'reader remembers the last thing.',
         'The shape: who it is to → the day and the time → why → what you are '
-          + 'asking for.']
+          + 'asking for.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everybody',
+        'right',
+        'paper',
+        'still',
+        'wrong',
+        'hani']
       }
     },
     {

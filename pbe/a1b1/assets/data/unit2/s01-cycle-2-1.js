@@ -296,7 +296,17 @@ PBE1.page('u2-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The numbers 0 to 20.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['numbers',
+        'asking',
+        'cartons',
+        'twelve',
+        'floor',
+        'things',
+        'count',
+        'rolls',
+        'people',
+        'days']
       }
     },
     {
@@ -327,7 +337,18 @@ PBE1.page('u2-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The numbers 0 to 20.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['numbers',
+        'asking',
+        'cartons',
+        'twelve',
+        'floor',
+        'things',
+        'count',
+        'rolls',
+        'people',
+        'days'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -417,7 +438,17 @@ PBE1.page('u2-s01', {
         '⚠ One line, one thing, one number. A line with two numbers on it is '
           + 'a line nobody can use.',
         '⚠ Write the TOTAL at the bottom. A sheet with no total is a sheet '
-          + 'somebody must add up again.']
+          + 'somebody must add up again.'],
+        vocab: ['numbers',
+        'asking',
+        'cartons',
+        'twelve',
+        'floor',
+        'things',
+        'count',
+        'rolls',
+        'people',
+        'days']
       }
     },
     {
@@ -456,7 +487,19 @@ PBE1.page('u2-s01', {
         '⚠ One line, one thing, one number. A line with two numbers on it is '
           + 'a line nobody can use.',
         '⚠ Write the TOTAL at the bottom. A sheet with no total is a sheet '
-          + 'somebody must add up again.']
+          + 'somebody must add up again.'],
+        vocab: ['numbers',
+        'asking',
+        'cartons',
+        'twelve',
+        'floor',
+        'things',
+        'count',
+        'rolls',
+        'people',
+        'days'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -530,7 +573,17 @@ PBE1.page('u2-s01', {
         '⚠ One line, one thing, one number. A line with two numbers on it is '
           + 'a line nobody can use.',
         '⚠ Write the TOTAL at the bottom. A sheet with no total is a sheet '
-          + 'somebody must add up again.']
+          + 'somebody must add up again.'],
+        vocab: ['numbers',
+        'asking',
+        'cartons',
+        'twelve',
+        'floor',
+        'things',
+        'count',
+        'rolls',
+        'people',
+        'days']
       }
     },
     {
@@ -559,7 +612,19 @@ PBE1.page('u2-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The numbers 0 to 20.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['numbers',
+        'asking',
+        'cartons',
+        'twelve',
+        'floor',
+        'things',
+        'count',
+        'rolls',
+        'people',
+        'days'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

@@ -302,7 +302,17 @@ PBE1.page('u6-s07', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Review — the six things from this unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everything',
+        'right',
+        'message',
+        'days',
+        'late',
+        'slip']
       }
     },
     {
@@ -354,7 +364,18 @@ PBE1.page('u6-s07', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Review — the six things from this unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everything',
+        'right',
+        'message',
+        'days',
+        'late',
+        'slip'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -454,7 +475,17 @@ PBE1.page('u6-s07', {
         '⚠ The last sentence is what the reader must DO, with a time in it. '
           + 'He rings back at four.',
         'The shape: who it is for → who called → what he wants → what happens '
-          + 'next, with a time.']
+          + 'next, with a time.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everything',
+        'right',
+        'message',
+        'days',
+        'late',
+        'slip']
       }
     },
     {
@@ -488,7 +519,19 @@ PBE1.page('u6-s07', {
         '⚠ The last sentence is what the reader must DO, with a time in it. '
           + 'He rings back at four.',
         'The shape: who it is for → who called → what he wants → what happens '
-          + 'next, with a time.']
+          + 'next, with a time.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everything',
+        'right',
+        'message',
+        'days',
+        'late',
+        'slip'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -557,7 +600,17 @@ PBE1.page('u6-s07', {
         '⚠ The last sentence is what the reader must DO, with a time in it. '
           + 'He rings back at four.',
         'The shape: who it is for → who called → what he wants → what happens '
-          + 'next, with a time.']
+          + 'next, with a time.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everything',
+        'right',
+        'message',
+        'days',
+        'late',
+        'slip']
       }
     },
     {

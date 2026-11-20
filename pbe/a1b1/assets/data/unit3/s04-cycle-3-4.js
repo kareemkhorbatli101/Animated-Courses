@@ -304,7 +304,17 @@ PBE1.page('u3-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: What HE does, what SHE does.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['start',
+        'wrong',
+        'starts',
+        'right',
+        'thing',
+        'unit',
+        'back',
+        'practise',
+        'verb',
+        'fadi']
       }
     },
     {
@@ -335,7 +345,18 @@ PBE1.page('u3-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: What HE does, what SHE does.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['start',
+        'wrong',
+        'starts',
+        'right',
+        'thing',
+        'unit',
+        'back',
+        'practise',
+        'verb',
+        'fadi'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -433,7 +454,17 @@ PBE1.page('u3-s04', {
           + 'time → what the person does, with -s.',
         '⚠ One person, one line. The same rule as Unit 1.4, and for the same reason.',
         '⚠ Put the time on every line. A page with jobs and no times cannot '
-          + 'tell you who is in the yard at half past six.']
+          + 'tell you who is in the yard at half past six.'],
+        vocab: ['start',
+        'wrong',
+        'starts',
+        'right',
+        'thing',
+        'unit',
+        'back',
+        'practise',
+        'verb',
+        'fadi']
       }
     },
     {
@@ -473,7 +504,19 @@ PBE1.page('u3-s04', {
           + 'time → what the person does, with -s.',
         '⚠ One person, one line. The same rule as Unit 1.4, and for the same reason.',
         '⚠ Put the time on every line. A page with jobs and no times cannot '
-          + 'tell you who is in the yard at half past six.']
+          + 'tell you who is in the yard at half past six.'],
+        vocab: ['start',
+        'wrong',
+        'starts',
+        'right',
+        'thing',
+        'unit',
+        'back',
+        'practise',
+        'verb',
+        'fadi'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -545,7 +588,17 @@ PBE1.page('u3-s04', {
           + 'time → what the person does, with -s.',
         '⚠ One person, one line. The same rule as Unit 1.4, and for the same reason.',
         '⚠ Put the time on every line. A page with jobs and no times cannot '
-          + 'tell you who is in the yard at half past six.']
+          + 'tell you who is in the yard at half past six.'],
+        vocab: ['start',
+        'wrong',
+        'starts',
+        'right',
+        'thing',
+        'unit',
+        'back',
+        'practise',
+        'verb',
+        'fadi']
       }
     },
     {
@@ -575,7 +628,19 @@ PBE1.page('u3-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: What HE does, what SHE does.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['start',
+        'wrong',
+        'starts',
+        'right',
+        'thing',
+        'unit',
+        'back',
+        'practise',
+        'verb',
+        'fadi'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

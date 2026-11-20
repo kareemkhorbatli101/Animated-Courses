@@ -311,7 +311,17 @@ PBE1.page('u4-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: can and cannot.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['cannot',
+        'even',
+        'cans',
+        'verb',
+        'book',
+        'after',
+        'bare',
+        'reach',
+        'reaching',
+        'whole']
       }
     },
     {
@@ -343,7 +353,18 @@ PBE1.page('u4-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: can and cannot.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['cannot',
+        'even',
+        'cans',
+        'verb',
+        'book',
+        'after',
+        'bare',
+        'reach',
+        'reaching',
+        'whole'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -452,7 +473,17 @@ PBE1.page('u4-s06', {
           + 'no answer for what if it is not here is a rule that gets broken by a '
           + 'man doing his job.',
         '⚠ The warning says what will happen, not just what not to do. A man '
-          + 'on a carton is a man in hospital. Nine words. Nobody forgets them.']
+          + 'on a carton is a man in hospital. Nine words. Nobody forgets them.'],
+        vocab: ['cannot',
+        'even',
+        'cans',
+        'verb',
+        'book',
+        'after',
+        'bare',
+        'reach',
+        'reaching',
+        'whole']
       }
     },
     {
@@ -496,7 +527,19 @@ PBE1.page('u4-s06', {
           + 'no answer for what if it is not here is a rule that gets broken by a '
           + 'man doing his job.',
         '⚠ The warning says what will happen, not just what not to do. A man '
-          + 'on a carton is a man in hospital. Nine words. Nobody forgets them.']
+          + 'on a carton is a man in hospital. Nine words. Nobody forgets them.'],
+        vocab: ['cannot',
+        'even',
+        'cans',
+        'verb',
+        'book',
+        'after',
+        'bare',
+        'reach',
+        'reaching',
+        'whole'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -576,7 +619,17 @@ PBE1.page('u4-s06', {
           + 'no answer for what if it is not here is a rule that gets broken by a '
           + 'man doing his job.',
         '⚠ The warning says what will happen, not just what not to do. A man '
-          + 'on a carton is a man in hospital. Nine words. Nobody forgets them.']
+          + 'on a carton is a man in hospital. Nine words. Nobody forgets them.'],
+        vocab: ['cannot',
+        'even',
+        'cans',
+        'verb',
+        'book',
+        'after',
+        'bare',
+        'reach',
+        'reaching',
+        'whole']
       }
     },
     {
@@ -606,7 +659,19 @@ PBE1.page('u4-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: can and cannot.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['cannot',
+        'even',
+        'cans',
+        'verb',
+        'book',
+        'after',
+        'bare',
+        'reach',
+        'reaching',
+        'whole'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

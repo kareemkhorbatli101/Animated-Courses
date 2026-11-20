@@ -316,7 +316,17 @@ PBE1.page('u5-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The four things, every time, in this order.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['things',
+        'time',
+        'order',
+        'look',
+        'before',
+        'touch',
+        'always',
+        'date',
+        'middle',
+        'bottom']
       }
     },
     {
@@ -350,7 +360,18 @@ PBE1.page('u5-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The four things, every time, in this order.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['things',
+        'time',
+        'order',
+        'look',
+        'before',
+        'touch',
+        'always',
+        'date',
+        'middle',
+        'bottom'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -457,7 +478,17 @@ PBE1.page('u5-s01', {
         '⚠ The escape line is the most useful line on the page: I have not '
           + 'counted it yet. Six words that stop a signature. Without it the list '
           + 'is advice; with it the list is a thing you can do while a driver '
-          + 'waits.']
+          + 'waits.'],
+        vocab: ['things',
+        'time',
+        'order',
+        'look',
+        'before',
+        'touch',
+        'always',
+        'date',
+        'middle',
+        'bottom']
       }
     },
     {
@@ -502,7 +533,19 @@ PBE1.page('u5-s01', {
         '⚠ The escape line is the most useful line on the page: I have not '
           + 'counted it yet. Six words that stop a signature. Without it the list '
           + 'is advice; with it the list is a thing you can do while a driver '
-          + 'waits.']
+          + 'waits.'],
+        vocab: ['things',
+        'time',
+        'order',
+        'look',
+        'before',
+        'touch',
+        'always',
+        'date',
+        'middle',
+        'bottom'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -579,7 +622,17 @@ PBE1.page('u5-s01', {
         '⚠ The escape line is the most useful line on the page: I have not '
           + 'counted it yet. Six words that stop a signature. Without it the list '
           + 'is advice; with it the list is a thing you can do while a driver '
-          + 'waits.']
+          + 'waits.'],
+        vocab: ['things',
+        'time',
+        'order',
+        'look',
+        'before',
+        'touch',
+        'always',
+        'date',
+        'middle',
+        'bottom']
       }
     },
     {
@@ -611,7 +664,19 @@ PBE1.page('u5-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The four things, every time, in this order.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['things',
+        'time',
+        'order',
+        'look',
+        'before',
+        'touch',
+        'always',
+        'date',
+        'middle',
+        'bottom'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

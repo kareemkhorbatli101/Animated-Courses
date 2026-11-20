@@ -309,7 +309,17 @@ PBE1.page('u4-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The five small words.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['small',
+        'words',
+        'word',
+        'before',
+        'thing',
+        'shelf',
+        'swapped',
+        'difference',
+        'money',
+        'inside']
       }
     },
     {
@@ -340,7 +350,18 @@ PBE1.page('u4-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The five small words.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['small',
+        'words',
+        'word',
+        'before',
+        'thing',
+        'shelf',
+        'swapped',
+        'difference',
+        'money',
+        'inside'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -450,7 +471,17 @@ PBE1.page('u4-s01', {
           + 'container is.',
         '⚠ End with the line that makes the note work: put it back where this '
           + 'paper says. A note that only tells you where to FIND a thing is out '
-          + 'of date the first time somebody moves it.']
+          + 'of date the first time somebody moves it.'],
+        vocab: ['small',
+        'words',
+        'word',
+        'before',
+        'thing',
+        'shelf',
+        'swapped',
+        'difference',
+        'money',
+        'inside']
       }
     },
     {
@@ -493,7 +524,19 @@ PBE1.page('u4-s01', {
           + 'container is.',
         '⚠ End with the line that makes the note work: put it back where this '
           + 'paper says. A note that only tells you where to FIND a thing is out '
-          + 'of date the first time somebody moves it.']
+          + 'of date the first time somebody moves it.'],
+        vocab: ['small',
+        'words',
+        'word',
+        'before',
+        'thing',
+        'shelf',
+        'swapped',
+        'difference',
+        'money',
+        'inside'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -570,7 +613,17 @@ PBE1.page('u4-s01', {
           + 'container is.',
         '⚠ End with the line that makes the note work: put it back where this '
           + 'paper says. A note that only tells you where to FIND a thing is out '
-          + 'of date the first time somebody moves it.']
+          + 'of date the first time somebody moves it.'],
+        vocab: ['small',
+        'words',
+        'word',
+        'before',
+        'thing',
+        'shelf',
+        'swapped',
+        'difference',
+        'money',
+        'inside']
       }
     },
     {
@@ -600,7 +653,19 @@ PBE1.page('u4-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The five small words.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['small',
+        'words',
+        'word',
+        'before',
+        'thing',
+        'shelf',
+        'swapped',
+        'difference',
+        'money',
+        'inside'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

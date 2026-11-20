@@ -297,7 +297,17 @@ PBE1.page('u1-s07', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Review — the six things from this unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'people',
+        'both',
+        'right',
+        'raed',
+        'book',
+        'perfect']
       }
     },
     {
@@ -342,7 +352,18 @@ PBE1.page('u1-s07', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Review — the six things from this unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'people',
+        'both',
+        'right',
+        'raed',
+        'book',
+        'perfect'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -443,7 +464,17 @@ PBE1.page('u1-s07', {
           + 'asks for 25 words and three things. Same shape, one step down.',
         'The shape: who it is to → your name → what you want to say → the day '
           + 'or the time.',
-        '⚠ Write the number twice if it can be read two ways. 14 (one four).']
+        '⚠ Write the number twice if it can be read two ways. 14 (one four).'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'people',
+        'both',
+        'right',
+        'raed',
+        'book',
+        'perfect']
       }
     },
     {
@@ -477,7 +508,19 @@ PBE1.page('u1-s07', {
           + 'asks for 25 words and three things. Same shape, one step down.',
         'The shape: who it is to → your name → what you want to say → the day '
           + 'or the time.',
-        '⚠ Write the number twice if it can be read two ways. 14 (one four).']
+        '⚠ Write the number twice if it can be read two ways. 14 (one four).'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'people',
+        'both',
+        'right',
+        'raed',
+        'book',
+        'perfect'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -545,7 +588,17 @@ PBE1.page('u1-s07', {
           + 'asks for 25 words and three things. Same shape, one step down.',
         'The shape: who it is to → your name → what you want to say → the day '
           + 'or the time.',
-        '⚠ Write the number twice if it can be read two ways. 14 (one four).']
+        '⚠ Write the number twice if it can be read two ways. 14 (one four).'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'people',
+        'both',
+        'right',
+        'raed',
+        'book',
+        'perfect']
       }
     },
     {

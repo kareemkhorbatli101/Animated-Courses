@@ -312,7 +312,17 @@ PBE1.page('u6-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Getting a name you have never heard.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['getting',
+        'name',
+        'never',
+        'heard',
+        'question',
+        'stranger',
+        'house',
+        'office',
+        'words',
+        'letters']
       }
     },
     {
@@ -344,7 +354,18 @@ PBE1.page('u6-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Getting a name you have never heard.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['getting',
+        'name',
+        'never',
+        'heard',
+        'question',
+        'stranger',
+        'house',
+        'office',
+        'words',
+        'letters'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -456,7 +477,17 @@ PBE1.page('u6-s02', {
           + 'a list is for finding a name in, and you find it by the surname.',
         '⚠ Write the LOST calls too. 11.05 — did not get it, he rang off. A '
           + 'list of three names from four calls is a lie by omission. A list '
-          + 'that says one got away is honest, and somebody may know who it was.']
+          + 'that says one got away is honest, and somebody may know who it was.'],
+        vocab: ['getting',
+        'name',
+        'never',
+        'heard',
+        'question',
+        'stranger',
+        'house',
+        'office',
+        'words',
+        'letters']
       }
     },
     {
@@ -497,7 +528,19 @@ PBE1.page('u6-s02', {
           + 'a list is for finding a name in, and you find it by the surname.',
         '⚠ Write the LOST calls too. 11.05 — did not get it, he rang off. A '
           + 'list of three names from four calls is a lie by omission. A list '
-          + 'that says one got away is honest, and somebody may know who it was.']
+          + 'that says one got away is honest, and somebody may know who it was.'],
+        vocab: ['getting',
+        'name',
+        'never',
+        'heard',
+        'question',
+        'stranger',
+        'house',
+        'office',
+        'words',
+        'letters'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -573,7 +616,17 @@ PBE1.page('u6-s02', {
           + 'a list is for finding a name in, and you find it by the surname.',
         '⚠ Write the LOST calls too. 11.05 — did not get it, he rang off. A '
           + 'list of three names from four calls is a lie by omission. A list '
-          + 'that says one got away is honest, and somebody may know who it was.']
+          + 'that says one got away is honest, and somebody may know who it was.'],
+        vocab: ['getting',
+        'name',
+        'never',
+        'heard',
+        'question',
+        'stranger',
+        'house',
+        'office',
+        'words',
+        'letters']
       }
     },
     {
@@ -603,7 +656,19 @@ PBE1.page('u6-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Getting a name you have never heard.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['getting',
+        'name',
+        'never',
+        'heard',
+        'question',
+        'stranger',
+        'house',
+        'office',
+        'words',
+        'letters'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

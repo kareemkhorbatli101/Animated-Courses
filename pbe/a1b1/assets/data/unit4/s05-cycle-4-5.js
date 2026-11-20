@@ -322,7 +322,17 @@ PBE1.page('u4-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Giving a direction inside the yard.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['giving',
+        'direction',
+        'inside',
+        'yard',
+        'order',
+        'front',
+        'straight',
+        'shorter',
+        'safer',
+        'name']
       }
     },
     {
@@ -354,7 +364,18 @@ PBE1.page('u4-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Giving a direction inside the yard.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['giving',
+        'direction',
+        'inside',
+        'yard',
+        'order',
+        'front',
+        'straight',
+        'shorter',
+        'safer',
+        'name'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -461,7 +482,17 @@ PBE1.page('u4-s05', {
           + 'the middle of order 2 is a warning nobody reads.',
         '⚠ The last line is an instruction to the READER, not about the way: '
           + 'say it back before you drive. It is the only line that checks '
-          + 'whether the other four worked.']
+          + 'whether the other four worked.'],
+        vocab: ['giving',
+        'direction',
+        'inside',
+        'yard',
+        'order',
+        'front',
+        'straight',
+        'shorter',
+        'safer',
+        'name']
       }
     },
     {
@@ -504,7 +535,19 @@ PBE1.page('u4-s05', {
           + 'the middle of order 2 is a warning nobody reads.',
         '⚠ The last line is an instruction to the READER, not about the way: '
           + 'say it back before you drive. It is the only line that checks '
-          + 'whether the other four worked.']
+          + 'whether the other four worked.'],
+        vocab: ['giving',
+        'direction',
+        'inside',
+        'yard',
+        'order',
+        'front',
+        'straight',
+        'shorter',
+        'safer',
+        'name'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -579,7 +622,17 @@ PBE1.page('u4-s05', {
           + 'the middle of order 2 is a warning nobody reads.',
         '⚠ The last line is an instruction to the READER, not about the way: '
           + 'say it back before you drive. It is the only line that checks '
-          + 'whether the other four worked.']
+          + 'whether the other four worked.'],
+        vocab: ['giving',
+        'direction',
+        'inside',
+        'yard',
+        'order',
+        'front',
+        'straight',
+        'shorter',
+        'safer',
+        'name']
       }
     },
     {
@@ -610,7 +663,19 @@ PBE1.page('u4-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Giving a direction inside the yard.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['giving',
+        'direction',
+        'inside',
+        'yard',
+        'order',
+        'front',
+        'straight',
+        'shorter',
+        'safer',
+        'name'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

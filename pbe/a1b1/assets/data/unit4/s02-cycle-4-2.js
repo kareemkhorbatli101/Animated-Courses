@@ -308,7 +308,17 @@ PBE1.page('u4-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Rows, shelves and the numbers.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['rows',
+        'shelves',
+        'numbers',
+        'first',
+        'second',
+        'third',
+        'fourth',
+        'shelf',
+        'number',
+        'after']
       }
     },
     {
@@ -340,7 +350,18 @@ PBE1.page('u4-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Rows, shelves and the numbers.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['rows',
+        'shelves',
+        'numbers',
+        'first',
+        'second',
+        'third',
+        'fourth',
+        'shelf',
+        'number',
+        'after'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -451,7 +472,17 @@ PBE1.page('u4-s02', {
           + 'a question.',
         '⚠ Write empty in an empty shelf. A blank square means nobody looked; '
           + 'empty means somebody did. Same rule as the week board in 3.1, and it '
-          + 'is the same reason.']
+          + 'is the same reason.'],
+        vocab: ['rows',
+        'shelves',
+        'numbers',
+        'first',
+        'second',
+        'third',
+        'fourth',
+        'shelf',
+        'number',
+        'after']
       }
     },
     {
@@ -495,7 +526,19 @@ PBE1.page('u4-s02', {
           + 'a question.',
         '⚠ Write empty in an empty shelf. A blank square means nobody looked; '
           + 'empty means somebody did. Same rule as the week board in 3.1, and it '
-          + 'is the same reason.']
+          + 'is the same reason.'],
+        vocab: ['rows',
+        'shelves',
+        'numbers',
+        'first',
+        'second',
+        'third',
+        'fourth',
+        'shelf',
+        'number',
+        'after'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -571,7 +614,17 @@ PBE1.page('u4-s02', {
           + 'a question.',
         '⚠ Write empty in an empty shelf. A blank square means nobody looked; '
           + 'empty means somebody did. Same rule as the week board in 3.1, and it '
-          + 'is the same reason.']
+          + 'is the same reason.'],
+        vocab: ['rows',
+        'shelves',
+        'numbers',
+        'first',
+        'second',
+        'third',
+        'fourth',
+        'shelf',
+        'number',
+        'after']
       }
     },
     {
@@ -603,7 +656,19 @@ PBE1.page('u4-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Rows, shelves and the numbers.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['rows',
+        'shelves',
+        'numbers',
+        'first',
+        'second',
+        'third',
+        'fourth',
+        'shelf',
+        'number',
+        'after'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

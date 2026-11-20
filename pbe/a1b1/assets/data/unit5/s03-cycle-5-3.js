@@ -306,7 +306,17 @@ PBE1.page('u5-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: A number is not a quantity until it has a unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['number',
+        'quantity',
+        'until',
+        'unit',
+        'after',
+        'than',
+        'boxes',
+        'pallets',
+        'roll',
+        'twelve']
       }
     },
     {
@@ -337,7 +347,18 @@ PBE1.page('u5-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: A number is not a quantity until it has a unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['number',
+        'quantity',
+        'until',
+        'unit',
+        'after',
+        'than',
+        'boxes',
+        'pallets',
+        'roll',
+        'twelve'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -447,7 +468,17 @@ PBE1.page('u5-s03', {
           + 'as a quantity of twelve-boxes. Two columns cannot be misread.',
         '⚠ Put the total at the bottom, and say WHICH total. Total lines: 4. '
           + 'Total boxes: 16. A note that says total: 4 has told you about its '
-          + 'own layout, not about the lorry.']
+          + 'own layout, not about the lorry.'],
+        vocab: ['number',
+        'quantity',
+        'until',
+        'unit',
+        'after',
+        'than',
+        'boxes',
+        'pallets',
+        'roll',
+        'twelve']
       }
     },
     {
@@ -491,7 +522,19 @@ PBE1.page('u5-s03', {
           + 'as a quantity of twelve-boxes. Two columns cannot be misread.',
         '⚠ Put the total at the bottom, and say WHICH total. Total lines: 4. '
           + 'Total boxes: 16. A note that says total: 4 has told you about its '
-          + 'own layout, not about the lorry.']
+          + 'own layout, not about the lorry.'],
+        vocab: ['number',
+        'quantity',
+        'until',
+        'unit',
+        'after',
+        'than',
+        'boxes',
+        'pallets',
+        'roll',
+        'twelve'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -567,7 +610,17 @@ PBE1.page('u5-s03', {
           + 'as a quantity of twelve-boxes. Two columns cannot be misread.',
         '⚠ Put the total at the bottom, and say WHICH total. Total lines: 4. '
           + 'Total boxes: 16. A note that says total: 4 has told you about its '
-          + 'own layout, not about the lorry.']
+          + 'own layout, not about the lorry.'],
+        vocab: ['number',
+        'quantity',
+        'until',
+        'unit',
+        'after',
+        'than',
+        'boxes',
+        'pallets',
+        'roll',
+        'twelve']
       }
     },
     {
@@ -598,7 +651,19 @@ PBE1.page('u5-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: A number is not a quantity until it has a unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['number',
+        'quantity',
+        'until',
+        'unit',
+        'after',
+        'than',
+        'boxes',
+        'pallets',
+        'roll',
+        'twelve'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

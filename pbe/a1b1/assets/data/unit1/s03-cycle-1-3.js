@@ -300,7 +300,17 @@ PBE1.page('u1-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Grammar — this and that.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['grammar',
+        'near',
+        'hand',
+        'away',
+        'thing',
+        'practise',
+        'shift',
+        'list',
+        'gate',
+        'boxes']
       }
     },
     {
@@ -331,7 +341,18 @@ PBE1.page('u1-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Grammar — this and that.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['grammar',
+        'near',
+        'hand',
+        'away',
+        'thing',
+        'practise',
+        'shift',
+        'list',
+        'gate',
+        'boxes'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -430,7 +451,17 @@ PBE1.page('u1-s03', {
         '⚠ The week is at the top. A list with no week is a list for no week. '
           + 'Always look at the top first.',
         '⚠ Names go surname first on some lists and first name first on '
-          + 'others. Read it. Check it. Do not guess.']
+          + 'others. Read it. Check it. Do not guess.'],
+        vocab: ['grammar',
+        'near',
+        'hand',
+        'away',
+        'thing',
+        'practise',
+        'shift',
+        'list',
+        'gate',
+        'boxes']
       }
     },
     {
@@ -469,7 +500,19 @@ PBE1.page('u1-s03', {
         '⚠ The week is at the top. A list with no week is a list for no week. '
           + 'Always look at the top first.',
         '⚠ Names go surname first on some lists and first name first on '
-          + 'others. Read it. Check it. Do not guess.']
+          + 'others. Read it. Check it. Do not guess.'],
+        vocab: ['grammar',
+        'near',
+        'hand',
+        'away',
+        'thing',
+        'practise',
+        'shift',
+        'list',
+        'gate',
+        'boxes'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -541,7 +584,17 @@ PBE1.page('u1-s03', {
         '⚠ The week is at the top. A list with no week is a list for no week. '
           + 'Always look at the top first.',
         '⚠ Names go surname first on some lists and first name first on '
-          + 'others. Read it. Check it. Do not guess.']
+          + 'others. Read it. Check it. Do not guess.'],
+        vocab: ['grammar',
+        'near',
+        'hand',
+        'away',
+        'thing',
+        'practise',
+        'shift',
+        'list',
+        'gate',
+        'boxes']
       }
     },
     {
@@ -570,7 +623,19 @@ PBE1.page('u1-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Grammar — this and that.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['grammar',
+        'near',
+        'hand',
+        'away',
+        'thing',
+        'practise',
+        'shift',
+        'list',
+        'gate',
+        'boxes'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

@@ -306,7 +306,17 @@ PBE1.page('u4-s07', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Review — the six things from this unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'right',
+        'about',
+        'shelf',
+        'findable',
+        'fouad',
+        'eleven']
       }
     },
     {
@@ -357,7 +367,18 @@ PBE1.page('u4-s07', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Review — the six things from this unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'right',
+        'about',
+        'shelf',
+        'findable',
+        'fouad',
+        'eleven'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -458,7 +479,17 @@ PBE1.page('u4-s07', {
         '⚠ If you moved something, say WHY in one short sentence. A move with '
           + 'a reason stays moved.',
         'The shape: who it is to → where the thing is now → why → what the '
-          + 'reader must do.']
+          + 'reader must do.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'right',
+        'about',
+        'shelf',
+        'findable',
+        'fouad',
+        'eleven']
       }
     },
     {
@@ -492,7 +523,19 @@ PBE1.page('u4-s07', {
         '⚠ If you moved something, say WHY in one short sentence. A move with '
           + 'a reason stays moved.',
         'The shape: who it is to → where the thing is now → why → what the '
-          + 'reader must do.']
+          + 'reader must do.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'right',
+        'about',
+        'shelf',
+        'findable',
+        'fouad',
+        'eleven'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -561,7 +604,17 @@ PBE1.page('u4-s07', {
         '⚠ If you moved something, say WHY in one short sentence. A move with '
           + 'a reason stays moved.',
         'The shape: who it is to → where the thing is now → why → what the '
-          + 'reader must do.']
+          + 'reader must do.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'right',
+        'about',
+        'shelf',
+        'findable',
+        'fouad',
+        'eleven']
       }
     },
     {

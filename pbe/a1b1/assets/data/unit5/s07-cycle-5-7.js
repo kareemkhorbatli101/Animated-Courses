@@ -298,7 +298,17 @@ PBE1.page('u5-s07', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Review — the six things from this unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'driver',
+        'right',
+        'ammar',
+        'both',
+        'about',
+        'something']
       }
     },
     {
@@ -350,7 +360,18 @@ PBE1.page('u5-s07', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Review — the six things from this unit.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'driver',
+        'right',
+        'ammar',
+        'both',
+        'about',
+        'something'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -451,7 +472,17 @@ PBE1.page('u5-s07', {
         '⚠ Name the LINE, not just the delivery. A note with four lines on it '
           + 'has four places to be wrong.',
         'The shape: who it is to → what the paper says → what you counted → '
-          + 'what you want done.']
+          + 'what you want done.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'driver',
+        'right',
+        'ammar',
+        'both',
+        'about',
+        'something']
       }
     },
     {
@@ -485,7 +516,19 @@ PBE1.page('u5-s07', {
         '⚠ Name the LINE, not just the delivery. A note with four lines on it '
           + 'has four places to be wrong.',
         'The shape: who it is to → what the paper says → what you counted → '
-          + 'what you want done.']
+          + 'what you want done.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'driver',
+        'right',
+        'ammar',
+        'both',
+        'about',
+        'something'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -554,7 +597,17 @@ PBE1.page('u5-s07', {
         '⚠ Name the LINE, not just the delivery. A note with four lines on it '
           + 'has four places to be wrong.',
         'The shape: who it is to → what the paper says → what you counted → '
-          + 'what you want done.']
+          + 'what you want done.'],
+        vocab: ['review',
+        'things',
+        'unit',
+        'thing',
+        'driver',
+        'right',
+        'ammar',
+        'both',
+        'about',
+        'something']
       }
     },
     {

@@ -315,7 +315,17 @@ PBE1.page('u4-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Asking where.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['asking',
+        'thing',
+        'than',
+        'split',
+        'unit',
+        'noun',
+        'question',
+        'down',
+        'roll',
+        'opposite']
       }
     },
     {
@@ -346,7 +356,18 @@ PBE1.page('u4-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Asking where.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['asking',
+        'thing',
+        'than',
+        'split',
+        'unit',
+        'noun',
+        'question',
+        'down',
+        'roll',
+        'opposite'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -452,7 +473,17 @@ PBE1.page('u4-s03', {
           + 'the shelf turns somebody\'s mistake into somebody\'s good decision, '
           + 'and a good decision does not get undone the next morning.',
         '⚠ Line four is the whole point. A correction that does not change '
-          + 'the paper is a complaint.']
+          + 'the paper is a complaint.'],
+        vocab: ['asking',
+        'thing',
+        'than',
+        'split',
+        'unit',
+        'noun',
+        'question',
+        'down',
+        'roll',
+        'opposite']
       }
     },
     {
@@ -495,7 +526,19 @@ PBE1.page('u4-s03', {
           + 'the shelf turns somebody\'s mistake into somebody\'s good decision, '
           + 'and a good decision does not get undone the next morning.',
         '⚠ Line four is the whole point. A correction that does not change '
-          + 'the paper is a complaint.']
+          + 'the paper is a complaint.'],
+        vocab: ['asking',
+        'thing',
+        'than',
+        'split',
+        'unit',
+        'noun',
+        'question',
+        'down',
+        'roll',
+        'opposite'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -571,7 +614,17 @@ PBE1.page('u4-s03', {
           + 'the shelf turns somebody\'s mistake into somebody\'s good decision, '
           + 'and a good decision does not get undone the next morning.',
         '⚠ Line four is the whole point. A correction that does not change '
-          + 'the paper is a complaint.']
+          + 'the paper is a complaint.'],
+        vocab: ['asking',
+        'thing',
+        'than',
+        'split',
+        'unit',
+        'noun',
+        'question',
+        'down',
+        'roll',
+        'opposite']
       }
     },
     {
@@ -601,7 +654,19 @@ PBE1.page('u4-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Asking where.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['asking',
+        'thing',
+        'than',
+        'split',
+        'unit',
+        'noun',
+        'question',
+        'down',
+        'roll',
+        'opposite'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

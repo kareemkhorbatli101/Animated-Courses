@@ -303,7 +303,17 @@ PBE1.page('u2-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying a number is wrong.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'number',
+        'wrong',
+        'talk',
+        'about',
+        'person',
+        'changed',
+        'cannot',
+        'argue',
+        'counted']
       }
     },
     {
@@ -334,7 +344,18 @@ PBE1.page('u2-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying a number is wrong.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'number',
+        'wrong',
+        'talk',
+        'about',
+        'person',
+        'changed',
+        'cannot',
+        'argue',
+        'counted'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -429,7 +450,17 @@ PBE1.page('u2-s06', {
           + 'beside it. A number that was changed once can be changed again, and '
           + 'somebody will want to see both.',
         '⚠ Write counted twice. Those two words are why the supervisor will '
-          + 'believe the new number.']
+          + 'believe the new number.'],
+        vocab: ['saying',
+        'number',
+        'wrong',
+        'talk',
+        'about',
+        'person',
+        'changed',
+        'cannot',
+        'argue',
+        'counted']
       }
     },
     {
@@ -470,7 +501,19 @@ PBE1.page('u2-s06', {
           + 'beside it. A number that was changed once can be changed again, and '
           + 'somebody will want to see both.',
         '⚠ Write counted twice. Those two words are why the supervisor will '
-          + 'believe the new number.']
+          + 'believe the new number.'],
+        vocab: ['saying',
+        'number',
+        'wrong',
+        'talk',
+        'about',
+        'person',
+        'changed',
+        'cannot',
+        'argue',
+        'counted'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -547,7 +590,17 @@ PBE1.page('u2-s06', {
           + 'beside it. A number that was changed once can be changed again, and '
           + 'somebody will want to see both.',
         '⚠ Write counted twice. Those two words are why the supervisor will '
-          + 'believe the new number.']
+          + 'believe the new number.'],
+        vocab: ['saying',
+        'number',
+        'wrong',
+        'talk',
+        'about',
+        'person',
+        'changed',
+        'cannot',
+        'argue',
+        'counted']
       }
     },
     {
@@ -576,7 +629,19 @@ PBE1.page('u2-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying a number is wrong.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'number',
+        'wrong',
+        'talk',
+        'about',
+        'person',
+        'changed',
+        'cannot',
+        'argue',
+        'counted'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

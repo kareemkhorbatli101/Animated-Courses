@@ -316,7 +316,17 @@ PBE1.page('u5-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Signing.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['signing',
+        'counted',
+        'useful',
+        'sentence',
+        'book',
+        'number',
+        'minutes',
+        'nobody',
+        'argues',
+        'wrong']
       }
     },
     {
@@ -349,7 +359,18 @@ PBE1.page('u5-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Signing.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['signing',
+        'counted',
+        'useful',
+        'sentence',
+        'book',
+        'number',
+        'minutes',
+        'nobody',
+        'argues',
+        'wrong'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -453,7 +474,17 @@ PBE1.page('u5-s04', {
           + 'facts.',
         '⚠ Get the driver to sign the note too. A short delivery with two '
           + 'signatures on it is a fact. A short delivery with one signature on '
-          + 'it is your word against his — and he left ten minutes ago.']
+          + 'it is your word against his — and he left ten minutes ago.'],
+        vocab: ['signing',
+        'counted',
+        'useful',
+        'sentence',
+        'book',
+        'number',
+        'minutes',
+        'nobody',
+        'argues',
+        'wrong']
       }
     },
     {
@@ -496,7 +527,19 @@ PBE1.page('u5-s04', {
           + 'facts.',
         '⚠ Get the driver to sign the note too. A short delivery with two '
           + 'signatures on it is a fact. A short delivery with one signature on '
-          + 'it is your word against his — and he left ten minutes ago.']
+          + 'it is your word against his — and he left ten minutes ago.'],
+        vocab: ['signing',
+        'counted',
+        'useful',
+        'sentence',
+        'book',
+        'number',
+        'minutes',
+        'nobody',
+        'argues',
+        'wrong'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -573,7 +616,17 @@ PBE1.page('u5-s04', {
           + 'facts.',
         '⚠ Get the driver to sign the note too. A short delivery with two '
           + 'signatures on it is a fact. A short delivery with one signature on '
-          + 'it is your word against his — and he left ten minutes ago.']
+          + 'it is your word against his — and he left ten minutes ago.'],
+        vocab: ['signing',
+        'counted',
+        'useful',
+        'sentence',
+        'book',
+        'number',
+        'minutes',
+        'nobody',
+        'argues',
+        'wrong']
       }
     },
     {
@@ -603,7 +656,19 @@ PBE1.page('u5-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Signing.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['signing',
+        'counted',
+        'useful',
+        'sentence',
+        'book',
+        'number',
+        'minutes',
+        'nobody',
+        'argues',
+        'wrong'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

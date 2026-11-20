@@ -306,7 +306,17 @@ PBE1.page('u2-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Say it, write it, read it back.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['back',
+        'digits',
+        'numbers',
+        'sound',
+        'zero',
+        'sixty',
+        'cannot',
+        'heard',
+        'wrong',
+        'whole']
       }
     },
     {
@@ -338,7 +348,18 @@ PBE1.page('u2-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Say it, write it, read it back.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['back',
+        'digits',
+        'numbers',
+        'sound',
+        'zero',
+        'sixty',
+        'cannot',
+        'heard',
+        'wrong',
+        'whole'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -434,7 +455,17 @@ PBE1.page('u2-s05', {
         '⚠ The tick is the important one. It says somebody checked. Without '
           + 'it, nobody knows.',
         '⚠ Write the number in digits beside it when it can be heard two '
-          + 'ways: 60 (six zero — NOT 16).']
+          + 'ways: 60 (six zero — NOT 16).'],
+        vocab: ['back',
+        'digits',
+        'numbers',
+        'sound',
+        'zero',
+        'sixty',
+        'cannot',
+        'heard',
+        'wrong',
+        'whole']
       }
     },
     {
@@ -476,7 +507,19 @@ PBE1.page('u2-s05', {
         '⚠ The tick is the important one. It says somebody checked. Without '
           + 'it, nobody knows.',
         '⚠ Write the number in digits beside it when it can be heard two '
-          + 'ways: 60 (six zero — NOT 16).']
+          + 'ways: 60 (six zero — NOT 16).'],
+        vocab: ['back',
+        'digits',
+        'numbers',
+        'sound',
+        'zero',
+        'sixty',
+        'cannot',
+        'heard',
+        'wrong',
+        'whole'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -554,7 +597,17 @@ PBE1.page('u2-s05', {
         '⚠ The tick is the important one. It says somebody checked. Without '
           + 'it, nobody knows.',
         '⚠ Write the number in digits beside it when it can be heard two '
-          + 'ways: 60 (six zero — NOT 16).']
+          + 'ways: 60 (six zero — NOT 16).'],
+        vocab: ['back',
+        'digits',
+        'numbers',
+        'sound',
+        'zero',
+        'sixty',
+        'cannot',
+        'heard',
+        'wrong',
+        'whole']
       }
     },
     {
@@ -584,7 +637,19 @@ PBE1.page('u2-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Say it, write it, read it back.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['back',
+        'digits',
+        'numbers',
+        'sound',
+        'zero',
+        'sixty',
+        'cannot',
+        'heard',
+        'wrong',
+        'whole'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

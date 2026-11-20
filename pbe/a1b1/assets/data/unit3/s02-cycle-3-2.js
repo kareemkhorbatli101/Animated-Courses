@@ -318,7 +318,17 @@ PBE1.page('u3-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The time, two ways.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['time',
+        'ways',
+        'before',
+        'half',
+        'past',
+        'both',
+        'work',
+        'thirty',
+        'need',
+        'ears']
       }
     },
     {
@@ -350,7 +360,18 @@ PBE1.page('u3-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The time, two ways.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['time',
+        'ways',
+        'before',
+        'half',
+        'past',
+        'both',
+        'work',
+        'thirty',
+        'need',
+        'ears'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -452,7 +473,17 @@ PBE1.page('u3-s02', {
           + 'Some men read numbers and some read words.',
         '⚠ Use 16.00 for four in the afternoon on a notice. A lorry at 4.00 '
           + 'could be morning or afternoon, and once a year somebody comes at the '
-          + 'wrong one.']
+          + 'wrong one.'],
+        vocab: ['time',
+        'ways',
+        'before',
+        'half',
+        'past',
+        'both',
+        'work',
+        'thirty',
+        'need',
+        'ears']
       }
     },
     {
@@ -494,7 +525,19 @@ PBE1.page('u3-s02', {
           + 'Some men read numbers and some read words.',
         '⚠ Use 16.00 for four in the afternoon on a notice. A lorry at 4.00 '
           + 'could be morning or afternoon, and once a year somebody comes at the '
-          + 'wrong one.']
+          + 'wrong one.'],
+        vocab: ['time',
+        'ways',
+        'before',
+        'half',
+        'past',
+        'both',
+        'work',
+        'thirty',
+        'need',
+        'ears'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -570,7 +613,17 @@ PBE1.page('u3-s02', {
           + 'Some men read numbers and some read words.',
         '⚠ Use 16.00 for four in the afternoon on a notice. A lorry at 4.00 '
           + 'could be morning or afternoon, and once a year somebody comes at the '
-          + 'wrong one.']
+          + 'wrong one.'],
+        vocab: ['time',
+        'ways',
+        'before',
+        'half',
+        'past',
+        'both',
+        'work',
+        'thirty',
+        'need',
+        'ears']
       }
     },
     {
@@ -600,7 +653,19 @@ PBE1.page('u3-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The time, two ways.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['time',
+        'ways',
+        'before',
+        'half',
+        'past',
+        'both',
+        'work',
+        'thirty',
+        'need',
+        'ears'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

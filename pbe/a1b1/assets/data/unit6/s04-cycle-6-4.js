@@ -312,7 +312,17 @@ PBE1.page('u6-s04', {
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying somebody is not there — and the '
           + 'second half.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'somebody',
+        'second',
+        'half',
+        'sentence',
+        'whole',
+        'cycle',
+        'ends',
+        'call',
+        'nothing']
       }
     },
     {
@@ -345,7 +355,18 @@ PBE1.page('u6-s04', {
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying somebody is not there — and the '
           + 'second half.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'somebody',
+        'second',
+        'half',
+        'sentence',
+        'whole',
+        'cycle',
+        'ends',
+        'call',
+        'nothing'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -455,7 +476,17 @@ PBE1.page('u6-s04', {
           + 'an answer.',
         '⚠ And the rule at the bottom: a board that is wrong is worse than no '
           + 'board. A caller told back at two from a board written yesterday '
-          + 'rings at two and is told the same thing again.']
+          + 'rings at two and is told the same thing again.'],
+        vocab: ['saying',
+        'somebody',
+        'second',
+        'half',
+        'sentence',
+        'whole',
+        'cycle',
+        'ends',
+        'call',
+        'nothing']
       }
     },
     {
@@ -502,7 +533,19 @@ PBE1.page('u6-s04', {
           + 'an answer.',
         '⚠ And the rule at the bottom: a board that is wrong is worse than no '
           + 'board. A caller told back at two from a board written yesterday '
-          + 'rings at two and is told the same thing again.']
+          + 'rings at two and is told the same thing again.'],
+        vocab: ['saying',
+        'somebody',
+        'second',
+        'half',
+        'sentence',
+        'whole',
+        'cycle',
+        'ends',
+        'call',
+        'nothing'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -581,7 +624,17 @@ PBE1.page('u6-s04', {
           + 'an answer.',
         '⚠ And the rule at the bottom: a board that is wrong is worse than no '
           + 'board. A caller told back at two from a board written yesterday '
-          + 'rings at two and is told the same thing again.']
+          + 'rings at two and is told the same thing again.'],
+        vocab: ['saying',
+        'somebody',
+        'second',
+        'half',
+        'sentence',
+        'whole',
+        'cycle',
+        'ends',
+        'call',
+        'nothing']
       }
     },
     {
@@ -614,7 +667,19 @@ PBE1.page('u6-s04', {
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Saying somebody is not there — and the '
           + 'second half.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['saying',
+        'somebody',
+        'second',
+        'half',
+        'sentence',
+        'whole',
+        'cycle',
+        'ends',
+        'call',
+        'nothing'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

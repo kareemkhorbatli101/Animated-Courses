@@ -320,7 +320,17 @@ PBE1.page('u6-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Making somebody wait, properly.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['making',
+        'somebody',
+        'wait',
+        'properly',
+        'before',
+        'answer',
+        'telephone',
+        'slip',
+        'live',
+        'next']
       }
     },
     {
@@ -352,7 +362,18 @@ PBE1.page('u6-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Making somebody wait, properly.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['making',
+        'somebody',
+        'wait',
+        'properly',
+        'before',
+        'answer',
+        'telephone',
+        'slip',
+        'live',
+        'next'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -463,7 +484,17 @@ PBE1.page('u6-s03', {
           + 'nothing and loses the call.',
         '⚠ Put the FIX on the card, not just the words. The pen lives next to '
           + 'the telephone. A card that only gives you apologies is a card for a '
-          + 'problem nobody is solving.']
+          + 'problem nobody is solving.'],
+        vocab: ['making',
+        'somebody',
+        'wait',
+        'properly',
+        'before',
+        'answer',
+        'telephone',
+        'slip',
+        'live',
+        'next']
       }
     },
     {
@@ -507,7 +538,19 @@ PBE1.page('u6-s03', {
           + 'nothing and loses the call.',
         '⚠ Put the FIX on the card, not just the words. The pen lives next to '
           + 'the telephone. A card that only gives you apologies is a card for a '
-          + 'problem nobody is solving.']
+          + 'problem nobody is solving.'],
+        vocab: ['making',
+        'somebody',
+        'wait',
+        'properly',
+        'before',
+        'answer',
+        'telephone',
+        'slip',
+        'live',
+        'next'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -583,7 +626,17 @@ PBE1.page('u6-s03', {
           + 'nothing and loses the call.',
         '⚠ Put the FIX on the card, not just the words. The pen lives next to '
           + 'the telephone. A card that only gives you apologies is a card for a '
-          + 'problem nobody is solving.']
+          + 'problem nobody is solving.'],
+        vocab: ['making',
+        'somebody',
+        'wait',
+        'properly',
+        'before',
+        'answer',
+        'telephone',
+        'slip',
+        'live',
+        'next']
       }
     },
     {
@@ -614,7 +667,19 @@ PBE1.page('u6-s03', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Making somebody wait, properly.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['making',
+        'somebody',
+        'wait',
+        'properly',
+        'before',
+        'answer',
+        'telephone',
+        'slip',
+        'live',
+        'next'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

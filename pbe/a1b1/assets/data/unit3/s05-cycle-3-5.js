@@ -305,7 +305,17 @@ PBE1.page('u3-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Asking about the shift, and asking to swap.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['asking',
+        'about',
+        'shift',
+        'swap',
+        'first',
+        'supervisor',
+        'between',
+        'only',
+        'board',
+        'words']
       }
     },
     {
@@ -337,7 +347,18 @@ PBE1.page('u3-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Asking about the shift, and asking to swap.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['asking',
+        'about',
+        'shift',
+        'swap',
+        'first',
+        'supervisor',
+        'between',
+        'only',
+        'board',
+        'words'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -441,7 +462,17 @@ PBE1.page('u3-s05', {
         '⚠ Write BOTH halves of the swap. One man off and one man on. A note '
           + 'with one half is a note that leaves a hole in the shift.',
         '⚠ Both men agreed is the line that matters. Without it the swap is '
-          + 'one man\'s idea, and on the day the other man will not be there.']
+          + 'one man\'s idea, and on the day the other man will not be there.'],
+        vocab: ['asking',
+        'about',
+        'shift',
+        'swap',
+        'first',
+        'supervisor',
+        'between',
+        'only',
+        'board',
+        'words']
       }
     },
     {
@@ -484,7 +515,19 @@ PBE1.page('u3-s05', {
         '⚠ Write BOTH halves of the swap. One man off and one man on. A note '
           + 'with one half is a note that leaves a hole in the shift.',
         '⚠ Both men agreed is the line that matters. Without it the swap is '
-          + 'one man\'s idea, and on the day the other man will not be there.']
+          + 'one man\'s idea, and on the day the other man will not be there.'],
+        vocab: ['asking',
+        'about',
+        'shift',
+        'swap',
+        'first',
+        'supervisor',
+        'between',
+        'only',
+        'board',
+        'words'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -556,7 +599,17 @@ PBE1.page('u3-s05', {
         '⚠ Write BOTH halves of the swap. One man off and one man on. A note '
           + 'with one half is a note that leaves a hole in the shift.',
         '⚠ Both men agreed is the line that matters. Without it the swap is '
-          + 'one man\'s idea, and on the day the other man will not be there.']
+          + 'one man\'s idea, and on the day the other man will not be there.'],
+        vocab: ['asking',
+        'about',
+        'shift',
+        'swap',
+        'first',
+        'supervisor',
+        'between',
+        'only',
+        'board',
+        'words']
       }
     },
     {
@@ -586,7 +639,19 @@ PBE1.page('u3-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Asking about the shift, and asking to swap.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['asking',
+        'about',
+        'shift',
+        'swap',
+        'first',
+        'supervisor',
+        'between',
+        'only',
+        'board',
+        'words'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

@@ -314,7 +314,17 @@ PBE1.page('u5-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The months, and the date.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['months',
+        'date',
+        'ways',
+        'only',
+        'safe',
+        'note',
+        'receive',
+        'work',
+        'name',
+        'sheet']
       }
     },
     {
@@ -345,7 +355,18 @@ PBE1.page('u5-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The months, and the date.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['months',
+        'date',
+        'ways',
+        'only',
+        'safe',
+        'note',
+        'receive',
+        'work',
+        'name',
+        'sheet'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -458,7 +479,17 @@ PBE1.page('u5-s02', {
           + 'out again — or work it out differently.',
         '⚠ Fill in BOTH empty lines. Received by and Date received. A note '
           + 'signed with no date received is a note that says you agreed, and '
-          + 'does not say when.']
+          + 'does not say when.'],
+        vocab: ['months',
+        'date',
+        'ways',
+        'only',
+        'safe',
+        'note',
+        'receive',
+        'work',
+        'name',
+        'sheet']
       }
     },
     {
@@ -502,7 +533,19 @@ PBE1.page('u5-s02', {
           + 'out again — or work it out differently.',
         '⚠ Fill in BOTH empty lines. Received by and Date received. A note '
           + 'signed with no date received is a note that says you agreed, and '
-          + 'does not say when.']
+          + 'does not say when.'],
+        vocab: ['months',
+        'date',
+        'ways',
+        'only',
+        'safe',
+        'note',
+        'receive',
+        'work',
+        'name',
+        'sheet'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -581,7 +624,17 @@ PBE1.page('u5-s02', {
           + 'out again — or work it out differently.',
         '⚠ Fill in BOTH empty lines. Received by and Date received. A note '
           + 'signed with no date received is a note that says you agreed, and '
-          + 'does not say when.']
+          + 'does not say when.'],
+        vocab: ['months',
+        'date',
+        'ways',
+        'only',
+        'safe',
+        'note',
+        'receive',
+        'work',
+        'name',
+        'sheet']
       }
     },
     {
@@ -612,7 +665,19 @@ PBE1.page('u5-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The months, and the date.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['months',
+        'date',
+        'ways',
+        'only',
+        'safe',
+        'note',
+        'receive',
+        'work',
+        'name',
+        'sheet'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

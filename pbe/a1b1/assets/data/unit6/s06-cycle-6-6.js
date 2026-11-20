@@ -316,7 +316,17 @@ PBE1.page('u6-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Promising to pass a message on.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['promising',
+        'pass',
+        'message',
+        'chunk',
+        'learn',
+        'whole',
+        'apart',
+        'need',
+        'know',
+        'able']
       }
     },
     {
@@ -348,7 +358,18 @@ PBE1.page('u6-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Promising to pass a message on.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['promising',
+        'pass',
+        'message',
+        'chunk',
+        'learn',
+        'whole',
+        'apart',
+        'need',
+        'know',
+        'able'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -468,7 +489,17 @@ PBE1.page('u6-s06', {
           + 'a number the reader should ring once and not trust.',
         '⚠ And the last line: what happens NEXT. He rings back at four. I '
           + 'told her at two as well. The slip is not the end of the job; it is '
-          + 'the record of a job that is still happening.']
+          + 'the record of a job that is still happening.'],
+        vocab: ['promising',
+        'pass',
+        'message',
+        'chunk',
+        'learn',
+        'whole',
+        'apart',
+        'need',
+        'know',
+        'able']
       }
     },
     {
@@ -515,7 +546,19 @@ PBE1.page('u6-s06', {
           + 'a number the reader should ring once and not trust.',
         '⚠ And the last line: what happens NEXT. He rings back at four. I '
           + 'told her at two as well. The slip is not the end of the job; it is '
-          + 'the record of a job that is still happening.']
+          + 'the record of a job that is still happening.'],
+        vocab: ['promising',
+        'pass',
+        'message',
+        'chunk',
+        'learn',
+        'whole',
+        'apart',
+        'need',
+        'know',
+        'able'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -599,7 +642,17 @@ PBE1.page('u6-s06', {
           + 'a number the reader should ring once and not trust.',
         '⚠ And the last line: what happens NEXT. He rings back at four. I '
           + 'told her at two as well. The slip is not the end of the job; it is '
-          + 'the record of a job that is still happening.']
+          + 'the record of a job that is still happening.'],
+        vocab: ['promising',
+        'pass',
+        'message',
+        'chunk',
+        'learn',
+        'whole',
+        'apart',
+        'need',
+        'know',
+        'able']
       }
     },
     {
@@ -630,7 +683,19 @@ PBE1.page('u6-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Promising to pass a message on.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['promising',
+        'pass',
+        'message',
+        'chunk',
+        'learn',
+        'whole',
+        'apart',
+        'need',
+        'know',
+        'able'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

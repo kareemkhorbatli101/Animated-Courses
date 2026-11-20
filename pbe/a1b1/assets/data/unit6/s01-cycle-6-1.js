@@ -330,7 +330,17 @@ PBE1.page('u6-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Answering: three things, in this order.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['answering',
+        'things',
+        'order',
+        'slowly',
+        'company',
+        'name',
+        'words',
+        'forty',
+        'times',
+        'caller']
       }
     },
     {
@@ -361,7 +371,18 @@ PBE1.page('u6-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Answering: three things, in this order.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['answering',
+        'things',
+        'order',
+        'slowly',
+        'company',
+        'name',
+        'words',
+        'forty',
+        'times',
+        'caller'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -471,7 +492,17 @@ PBE1.page('u6-s01', {
         '⚠ Put the warning in the line it belongs to, not at the bottom. '
           + 'SLOWLY next to line 1, where the man reading it will be looking.',
         '⚠ And the last line is the rule: do not invent a sixth. Five '
-          + 'sentences you can say beat fifty you are thinking about.']
+          + 'sentences you can say beat fifty you are thinking about.'],
+        vocab: ['answering',
+        'things',
+        'order',
+        'slowly',
+        'company',
+        'name',
+        'words',
+        'forty',
+        'times',
+        'caller']
       }
     },
     {
@@ -516,7 +547,19 @@ PBE1.page('u6-s01', {
         '⚠ Put the warning in the line it belongs to, not at the bottom. '
           + 'SLOWLY next to line 1, where the man reading it will be looking.',
         '⚠ And the last line is the rule: do not invent a sixth. Five '
-          + 'sentences you can say beat fifty you are thinking about.']
+          + 'sentences you can say beat fifty you are thinking about.'],
+        vocab: ['answering',
+        'things',
+        'order',
+        'slowly',
+        'company',
+        'name',
+        'words',
+        'forty',
+        'times',
+        'caller'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -597,7 +640,17 @@ PBE1.page('u6-s01', {
         '⚠ Put the warning in the line it belongs to, not at the bottom. '
           + 'SLOWLY next to line 1, where the man reading it will be looking.',
         '⚠ And the last line is the rule: do not invent a sixth. Five '
-          + 'sentences you can say beat fifty you are thinking about.']
+          + 'sentences you can say beat fifty you are thinking about.'],
+        vocab: ['answering',
+        'things',
+        'order',
+        'slowly',
+        'company',
+        'name',
+        'words',
+        'forty',
+        'times',
+        'caller']
       }
     },
     {
@@ -628,7 +681,19 @@ PBE1.page('u6-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Answering: three things, in this order.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['answering',
+        'things',
+        'order',
+        'slowly',
+        'company',
+        'name',
+        'words',
+        'forty',
+        'times',
+        'caller'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

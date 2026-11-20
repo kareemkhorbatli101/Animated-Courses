@@ -321,7 +321,17 @@ PBE1.page('u5-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Copying a number, and checking it.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['copying',
+        'number',
+        'checking',
+        'back',
+        'digit',
+        'thousand',
+        'hundred',
+        'seventeen',
+        'digits',
+        'checked']
       }
     },
     {
@@ -353,7 +363,18 @@ PBE1.page('u5-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Copying a number, and checking it.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['copying',
+        'number',
+        'checking',
+        'back',
+        'digit',
+        'thousand',
+        'hundred',
+        'seventeen',
+        'digits',
+        'checked'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -464,7 +485,17 @@ PBE1.page('u5-s05', {
           + 'yours is the one the office will read next week.',
         '⚠ The last warning is the whole page: a guessed digit looks exactly '
           + 'like a known one. That is why writing 4417 / 4477 — one digit '
-          + 'unclear is better than being right by luck.']
+          + 'unclear is better than being right by luck.'],
+        vocab: ['copying',
+        'number',
+        'checking',
+        'back',
+        'digit',
+        'thousand',
+        'hundred',
+        'seventeen',
+        'digits',
+        'checked']
       }
     },
     {
@@ -507,7 +538,19 @@ PBE1.page('u5-s05', {
           + 'yours is the one the office will read next week.',
         '⚠ The last warning is the whole page: a guessed digit looks exactly '
           + 'like a known one. That is why writing 4417 / 4477 — one digit '
-          + 'unclear is better than being right by luck.']
+          + 'unclear is better than being right by luck.'],
+        vocab: ['copying',
+        'number',
+        'checking',
+        'back',
+        'digit',
+        'thousand',
+        'hundred',
+        'seventeen',
+        'digits',
+        'checked'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -581,7 +624,17 @@ PBE1.page('u5-s05', {
           + 'yours is the one the office will read next week.',
         '⚠ The last warning is the whole page: a guessed digit looks exactly '
           + 'like a known one. That is why writing 4417 / 4477 — one digit '
-          + 'unclear is better than being right by luck.']
+          + 'unclear is better than being right by luck.'],
+        vocab: ['copying',
+        'number',
+        'checking',
+        'back',
+        'digit',
+        'thousand',
+        'hundred',
+        'seventeen',
+        'digits',
+        'checked']
       }
     },
     {
@@ -613,7 +666,19 @@ PBE1.page('u5-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Copying a number, and checking it.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['copying',
+        'number',
+        'checking',
+        'back',
+        'digit',
+        'thousand',
+        'hundred',
+        'seventeen',
+        'digits',
+        'checked'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

@@ -309,7 +309,17 @@ PBE1.page('u1-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Grammar — I am · you are.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['grammar',
+        'english',
+        'needs',
+        'sentence',
+        'ammar',
+        'before',
+        'words',
+        'storeman',
+        'driver',
+        'only']
       }
     },
     {
@@ -340,7 +350,18 @@ PBE1.page('u1-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Grammar — I am · you are.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['grammar',
+        'english',
+        'needs',
+        'sentence',
+        'ammar',
+        'before',
+        'words',
+        'storeman',
+        'driver',
+        'only'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -432,7 +453,17 @@ PBE1.page('u1-s01', {
           + 'job → the time in → the time out.',
         '⚠ Big letters for names: Ammar Zreik. For the city: Damascus. For '
           + 'the company: Sham Trading.',
-        '⚠ Write the surname too. There are two men called Ammar in this yard.']
+        '⚠ Write the surname too. There are two men called Ammar in this yard.'],
+        vocab: ['grammar',
+        'english',
+        'needs',
+        'sentence',
+        'ammar',
+        'before',
+        'words',
+        'storeman',
+        'driver',
+        'only']
       }
     },
     {
@@ -477,7 +508,19 @@ PBE1.page('u1-s01', {
           + 'job → the time in → the time out.',
         '⚠ Big letters for names: Ammar Zreik. For the city: Damascus. For '
           + 'the company: Sham Trading.',
-        '⚠ Write the surname too. There are two men called Ammar in this yard.']
+        '⚠ Write the surname too. There are two men called Ammar in this yard.'],
+        vocab: ['grammar',
+        'english',
+        'needs',
+        'sentence',
+        'ammar',
+        'before',
+        'words',
+        'storeman',
+        'driver',
+        'only'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       }
     },
     {
@@ -547,7 +590,17 @@ PBE1.page('u1-s01', {
           + 'job → the time in → the time out.',
         '⚠ Big letters for names: Ammar Zreik. For the city: Damascus. For '
           + 'the company: Sham Trading.',
-        '⚠ Write the surname too. There are two men called Ammar in this yard.']
+        '⚠ Write the surname too. There are two men called Ammar in this yard.'],
+        vocab: ['grammar',
+        'english',
+        'needs',
+        'sentence',
+        'ammar',
+        'before',
+        'words',
+        'storeman',
+        'driver',
+        'only']
       }
     },
     {
@@ -579,7 +632,19 @@ PBE1.page('u1-s01', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Grammar — I am · you are.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['grammar',
+        'english',
+        'needs',
+        'sentence',
+        'ammar',
+        'before',
+        'words',
+        'storeman',
+        'driver',
+        'only'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

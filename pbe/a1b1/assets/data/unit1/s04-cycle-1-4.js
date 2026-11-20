@@ -302,7 +302,17 @@ PBE1.page('u1-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Grammar — he · she · it.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['grammar',
+        'woman',
+        'thing',
+        'arabic',
+        'english',
+        'practise',
+        'fadi',
+        'driver',
+        'nour',
+        'office']
       }
     },
     {
@@ -333,7 +343,18 @@ PBE1.page('u1-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Grammar — he · she · it.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['grammar',
+        'woman',
+        'thing',
+        'arabic',
+        'english',
+        'practise',
+        'fadi',
+        'driver',
+        'nour',
+        'office'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -436,7 +457,17 @@ PBE1.page('u1-s04', {
           + 'or she is → what to ask about.',
         '⚠ Use him for a man and her for a woman: Ask him about the lorry. '
           + 'Ask her about the lists.',
-        '⚠ One person, one line. A line with two people is a line nobody can use.']
+        '⚠ One person, one line. A line with two people is a line nobody can use.'],
+        vocab: ['grammar',
+        'woman',
+        'thing',
+        'arabic',
+        'english',
+        'practise',
+        'fadi',
+        'driver',
+        'nour',
+        'office']
       }
     },
     {
@@ -475,7 +506,19 @@ PBE1.page('u1-s04', {
           + 'or she is → what to ask about.',
         '⚠ Use him for a man and her for a woman: Ask him about the lorry. '
           + 'Ask her about the lists.',
-        '⚠ One person, one line. A line with two people is a line nobody can use.']
+        '⚠ One person, one line. A line with two people is a line nobody can use.'],
+        vocab: ['grammar',
+        'woman',
+        'thing',
+        'arabic',
+        'english',
+        'practise',
+        'fadi',
+        'driver',
+        'nour',
+        'office'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -547,7 +590,17 @@ PBE1.page('u1-s04', {
           + 'or she is → what to ask about.',
         '⚠ Use him for a man and her for a woman: Ask him about the lorry. '
           + 'Ask her about the lists.',
-        '⚠ One person, one line. A line with two people is a line nobody can use.']
+        '⚠ One person, one line. A line with two people is a line nobody can use.'],
+        vocab: ['grammar',
+        'woman',
+        'thing',
+        'arabic',
+        'english',
+        'practise',
+        'fadi',
+        'driver',
+        'nour',
+        'office']
       }
     },
     {
@@ -575,7 +628,19 @@ PBE1.page('u1-s04', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Grammar — he · she · it.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['grammar',
+        'woman',
+        'thing',
+        'arabic',
+        'english',
+        'practise',
+        'fadi',
+        'driver',
+        'nour',
+        'office'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

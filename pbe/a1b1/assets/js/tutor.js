@@ -188,6 +188,25 @@
              'not a text to copy):');
       L.push(cfg.model);
     }
+    /* WHAT THE COURSE HAS TAUGHT. See the patch note in
+       tools/course_engine.py: without this the model reaches for the
+       first correct English it thinks of, which at A1 is usually
+       above the learner. */
+    if (cfg.vocab && cfg.vocab.length) {
+      L.push('');
+      L.push('THE WORDS THIS CYCLE TEACHES. Prefer these in any '
+           + 'correction, and do not introduce vocabulary the course '
+           + 'has not taught:');
+      L.push('  ' + cfg.vocab.join(', '));
+    }
+    if (cfg.example) {
+      L.push('');
+      L.push('AN EXAMPLE OF A GOOD ANSWER AT THIS LEVEL (the standard '
+           + 'to compare with - the learner is NOT expected to match '
+           + 'its content, only its shape and level):');
+      L.push(Array.isArray(cfg.example) ? cfg.example.join('\n')
+                                        : cfg.example);
+    }
     L.push('');
     L.push('WHAT THE LEARNER WROTE:');
     L.push(text);

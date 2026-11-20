@@ -305,7 +305,17 @@ PBE1.page('u1-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: When you do not understand.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['understand',
+        'sound',
+        'telephone',
+        'always',
+        'sorry',
+        'asking',
+        'doing',
+        'wrong',
+        'practise',
+        'spoke']
       }
     },
     {
@@ -337,7 +347,18 @@ PBE1.page('u1-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: When you do not understand.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['understand',
+        'sound',
+        'telephone',
+        'always',
+        'sorry',
+        'asking',
+        'doing',
+        'wrong',
+        'practise',
+        'spoke'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -435,7 +456,17 @@ PBE1.page('u1-s06', {
         '⚠ Write a number that can be read two ways twice: 14 (one four). It '
           + 'costs four words and it saves a day.',
         '⚠ Put your name at the end — even two letters. A paper from nobody '
-          + 'is a paper nobody will ask about.']
+          + 'is a paper nobody will ask about.'],
+        vocab: ['understand',
+        'sound',
+        'telephone',
+        'always',
+        'sorry',
+        'asking',
+        'doing',
+        'wrong',
+        'practise',
+        'spoke']
       }
     },
     {
@@ -476,7 +507,19 @@ PBE1.page('u1-s06', {
         '⚠ Write a number that can be read two ways twice: 14 (one four). It '
           + 'costs four words and it saves a day.',
         '⚠ Put your name at the end — even two letters. A paper from nobody '
-          + 'is a paper nobody will ask about.']
+          + 'is a paper nobody will ask about.'],
+        vocab: ['understand',
+        'sound',
+        'telephone',
+        'always',
+        'sorry',
+        'asking',
+        'doing',
+        'wrong',
+        'practise',
+        'spoke'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -552,7 +595,17 @@ PBE1.page('u1-s06', {
         '⚠ Write a number that can be read two ways twice: 14 (one four). It '
           + 'costs four words and it saves a day.',
         '⚠ Put your name at the end — even two letters. A paper from nobody '
-          + 'is a paper nobody will ask about.']
+          + 'is a paper nobody will ask about.'],
+        vocab: ['understand',
+        'sound',
+        'telephone',
+        'always',
+        'sorry',
+        'asking',
+        'doing',
+        'wrong',
+        'practise',
+        'spoke']
       }
     },
     {
@@ -581,7 +634,19 @@ PBE1.page('u1-s06', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: When you do not understand.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['understand',
+        'sound',
+        'telephone',
+        'always',
+        'sorry',
+        'asking',
+        'doing',
+        'wrong',
+        'practise',
+        'spoke'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {

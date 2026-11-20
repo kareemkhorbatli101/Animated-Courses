@@ -309,7 +309,17 @@ PBE1.page('u2-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The big numbers.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['numbers',
+        'hundred',
+        'never',
+        'hundreds',
+        'word',
+        'before',
+        'last',
+        'part',
+        'forty',
+        'practise']
       }
     },
     {
@@ -340,7 +350,18 @@ PBE1.page('u2-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The big numbers.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['numbers',
+        'hundred',
+        'never',
+        'hundreds',
+        'word',
+        'before',
+        'last',
+        'part',
+        'forty',
+        'practise'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -440,7 +461,17 @@ PBE1.page('u2-s02', {
           + 'number read from across the yard can be read wrong. Two forms '
           + 'cannot.',
         '⚠ Zero is a number. Write it. An empty line means nobody counted. 0 '
-          + 'means somebody did.']
+          + 'means somebody did.'],
+        vocab: ['numbers',
+        'hundred',
+        'never',
+        'hundreds',
+        'word',
+        'before',
+        'last',
+        'part',
+        'forty',
+        'practise']
       }
     },
     {
@@ -484,7 +515,19 @@ PBE1.page('u2-s02', {
           + 'number read from across the yard can be read wrong. Two forms '
           + 'cannot.',
         '⚠ Zero is a number. Write it. An empty line means nobody counted. 0 '
-          + 'means somebody did.']
+          + 'means somebody did.'],
+        vocab: ['numbers',
+        'hundred',
+        'never',
+        'hundreds',
+        'word',
+        'before',
+        'last',
+        'part',
+        'forty',
+        'practise'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -563,7 +606,17 @@ PBE1.page('u2-s02', {
           + 'number read from across the yard can be read wrong. Two forms '
           + 'cannot.',
         '⚠ Zero is a number. Write it. An empty line means nobody counted. 0 '
-          + 'means somebody did.']
+          + 'means somebody did.'],
+        vocab: ['numbers',
+        'hundred',
+        'never',
+        'hundreds',
+        'word',
+        'before',
+        'last',
+        'part',
+        'forty',
+        'practise']
       }
     },
     {
@@ -594,7 +647,19 @@ PBE1.page('u2-s02', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The big numbers.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['numbers',
+        'hundred',
+        'never',
+        'hundreds',
+        'word',
+        'before',
+        'last',
+        'part',
+        'forty',
+        'practise'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       },
       example: ['You wrote that you check the shelves first. I asked: who reads the '
         + 'sheet after you? You said Abu Yasser reads it at four.']

@@ -307,7 +307,17 @@ PBE1.page('u1-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Hello and goodbye at work.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['hello',
+        'goodbye',
+        'work',
+        'morning',
+        'afternoon',
+        'o\'clock',
+        'sign',
+        'both',
+        'practise',
+        'start']
       }
     },
     {
@@ -339,7 +349,18 @@ PBE1.page('u1-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Hello and goodbye at work.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['hello',
+        'goodbye',
+        'work',
+        'morning',
+        'afternoon',
+        'o\'clock',
+        'sign',
+        'both',
+        'practise',
+        'start'],
+        example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       }
     },
     {
@@ -437,7 +458,17 @@ PBE1.page('u1-s05', {
         '⚠ The last line is the one people read. Put the money part last: no '
           + 'name = no day of work.',
         '⚠ Write the times as numbers: 7.00, not seven. A number on a wall is '
-          + 'read from far away.']
+          + 'read from far away.'],
+        vocab: ['hello',
+        'goodbye',
+        'work',
+        'morning',
+        'afternoon',
+        'o\'clock',
+        'sign',
+        'both',
+        'practise',
+        'start']
       }
     },
     {
@@ -478,7 +509,19 @@ PBE1.page('u1-s05', {
         '⚠ The last line is the one people read. Put the money part last: no '
           + 'name = no day of work.',
         '⚠ Write the times as numbers: 7.00, not seven. A number on a wall is '
-          + 'read from far away.']
+          + 'read from far away.'],
+        vocab: ['hello',
+        'goodbye',
+        'work',
+        'morning',
+        'afternoon',
+        'o\'clock',
+        'sign',
+        'both',
+        'practise',
+        'start'],
+        example: ['Line 2: the number is there but not the word. It says “twenty” and '
+          + 'it should say “twenty packets”.']
       },
       example: ['Line 2: the number is there but not the word. It says “twenty” and it '
         + 'should say “twenty packets”.']
@@ -552,7 +595,17 @@ PBE1.page('u1-s05', {
         '⚠ The last line is the one people read. Put the money part last: no '
           + 'name = no day of work.',
         '⚠ Write the times as numbers: 7.00, not seven. A number on a wall is '
-          + 'read from far away.']
+          + 'read from far away.'],
+        vocab: ['hello',
+        'goodbye',
+        'work',
+        'morning',
+        'afternoon',
+        'o\'clock',
+        'sign',
+        'both',
+        'practise',
+        'start']
       }
     },
     {
@@ -582,7 +635,19 @@ PBE1.page('u1-s05', {
         mode: 'spoken',
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: Hello and goodbye at work.',
-        'Short enough to say in one breath, at A1.']
+        'Short enough to say in one breath, at A1.'],
+        vocab: ['hello',
+        'goodbye',
+        'work',
+        'morning',
+        'afternoon',
+        'o\'clock',
+        'sign',
+        'both',
+        'practise',
+        'start'],
+        example: ['You wrote that you check the shelves first. I asked: who reads the '
+          + 'sheet after you? You said Abu Yasser reads it at four.']
       }
     },
     {
