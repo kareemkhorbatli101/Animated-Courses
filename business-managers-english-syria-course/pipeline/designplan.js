@@ -30,8 +30,8 @@ out.push(p('⚠ **No fact is tested twice.** A date checked in True/False does n
 out.push(fig('taskmap', 620, 190));
 out.push(box('Worked example — a 150-word staff notice at Course 1', [
   '**Matching (4 pairs, 1 distractor).** Match each of the four blocks of the notice to its job: _who it is from · what has changed · from when · what you must do_. **Tests structure. Touches no detail.**',
-  '**True / False (6).** _The change starts on Sunday. · The notice is signed by the warehouse manager. · Staff must sign the list before Thursday._ Two of the six are about something the notice does **not** say. **Tests detail. Touches no structure.**',
-  '**Gap-fill (5 gaps, word bank at this level).** A 50-word summary of the notice, reconstructed. **Tests the whole. Repeats nothing already asked.**',
+  '**True / False (5).** _The change starts on Sunday. · The notice is signed by the warehouse manager. · Staff must sign the list before Thursday._ Two of the five are about something the notice does **not** say. **Tests detail. Touches no structure.**',
+  '**Gap-fill (4 gaps, word bank at this level).** A 50-word summary of the notice, reconstructed. **Tests the whole. Repeats nothing already asked.**',
   '⚠ **Thirteen items in all, and every line of the notice is covered exactly once.**',
 ], C.lteal, C.teal));
 
@@ -44,7 +44,7 @@ out.push(table(['Part', 'Min', 'What happens'], [
   ['**Cycle 1**', '31', 'Reading + its three tasks · listening + its three tasks · gapped model · pair role-play'],
   ['**Cycle 2**', '31', 'The same shape, a second angle on the session aim'],
   ['**Cycle 3**', '31', 'The same shape again — **this cycle\'s writing is the portfolio piece**'],
-  ['**Case study**', '22', 'A document pack in a named part of a bank, worked in fours, with its own three tasks'],
+  ['**Case study**', '22', 'A document pack in a named sector, worked in fours, with its own three tasks'],
   ['**Close**', '2', 'The can-do checklist · homework: finish cycle 3\'s writing'],
 ], [1.1, 0.5, 5.4]));
 out.push(p('**3 × 31 + 22 + 3 + 2 = 120.** The cycle breakdown below is measured against real item counts, not estimated.'));
@@ -61,9 +61,9 @@ out.push(pb());
 out.push(h2('3 · The task typology'));
 out.push(h3('Reading — all three, every cycle, partitioned'));
 out.push(table(['Type', 'What it looks like', 'What it actually tests'], [
-  ['**True / False**', '6 statements about a short banking document', 'Whether the learner read the document or guessed from the topic'],
-  ['**Gap-fill**', 'A 60–80 word summary of the text with 6 gaps, or an excerpt with words removed', 'Whether they can hold the whole text, not only find a line'],
-  ['**Matching**', 'Match 5 lines to 5 purposes, readers or outcomes — with one distractor', 'Whether they see what each part of a document is FOR'],
+  ['**True / False**', '5 statements about a short business document', 'Whether the learner read the document or guessed from the topic'],
+  ['**Gap-fill**', 'A 60–80 word summary of the text with 4 gaps, or an excerpt with words removed', 'Whether they can hold the whole text, not only find a line'],
+  ['**Matching**', 'Match 4 lines to 4 purposes, readers or outcomes — with one distractor', 'Whether they see what each part of a document is FOR'],
 ], [1.2, 3, 2.8]));
 out.push(h3('Listening — all three, one task after each playing'));
 out.push(p('The conversation is **read aloud by the teacher or played, three times**, as in the published series — and **one task follows each playing**. The learner therefore listens with a different purpose each time, which is both cheaper in minutes and better practice than three hearings and one task at the end.'));
@@ -131,7 +131,7 @@ out.push(table(['Element on the page', 'Fill', 'Rule / title', 'Never used for']
 out.push(sp());
 out.push(box('The visuals, and what each is for', [
   '**The cycle strip** — at the head of every session, in the course colour. Same figure, 36 times. It tells a learner where they are in the two hours.',
-  '**Context badges** — twelve small marks, one per banking context, on every case study. A learner recognises their own part of the bank before they read a word.',
+  '**Sector badges** — twelve small marks, one per sector, on every case study. A learner recognises their own kind of business before they read a word.',
   '**Document facsimiles** — readings are drawn as the thing itself: a form, a rota, a minute, an appraisal. **This is the highest-value visual in the course**, because recognising a genre on sight is half of reading it at work.',
   '**Concept diagrams** — about one per session, only where a structure is being taught: the four-line note, the chronology box, the decision question with two answers.',
   '⚠ **No decorative images.** Every figure in all three courses either shows a structure or identifies a document. A picture that only brightens the page is cut.',
@@ -142,15 +142,15 @@ out.push(pb());
 out.push(h2('6 · How each device changes level by level'));
 out.push(p('**Same device, three settings.** This is what makes the courses complement rather than repeat each other.'));
 out.push(table(['Device', 'Course 1', 'Course 2', 'Course 3'], [
-  ['**Gap-fill**', '6 gaps, **word bank given**', '8 gaps, no bank', '6 gaps, each a **whole clause**, no bank'],
-  ['**True / False**', 'True or False', 'True · False · **Not given**', 'True · False · Not given, **and quote the line that decides it**'],
-  ['**Matching**', '5 pairs, 1 distractor', '7 pairs, 2 distractors', '7 pairs where **two plausibly fit**; the learner chooses and justifies'],
-  ['**Role play**', 'Full language strip **with gaps**', 'Function prompts only', 'Blank card + **one hidden constraint**'],
-  ['**Writing model**', '**60% gapped**, word bank', '40% gapped', '25% gapped, **plus one weak sentence to improve**'],
-  ['**Case pack**', '2 documents that **agree**', '3 documents, one **incomplete**', '3 documents, two of which **contradict**'],
+  ['**Gap-fill**', '4 gaps, **word bank given**', '4 gaps, **no bank**', '4 gaps, no bank, and the gaps fall on the **judgement words**'],
+  ['**True / False**', 'True or False', 'True · False · **Not given**', 'True · False · Not given, with **at least one Not given in every battery**'],
+  ['**Matching**', '4 pairs, 1 distractor', '4 pairs, 1 **plausible** distractor', '4 pairs, 1 distractor that **nearly fits**'],
+  ['**Role play**', 'Full language strip **with gaps**', 'Function prompts only, **no wording given**', 'Function prompts, and the **swap removes the easy option**'],
+  ['**Writing model**', 'Model, then **4 blanks + word bank**', 'Model, then **4 blanks, no bank**', 'Model, then 4 blanks on the **judgement words**'],
+  ['**Case pack**', '**3 documents that agree**', '3 documents, one **incomplete**', '3 documents, two of which can **contradict**'],
   ['**Discussion**', 'About the learner\'s own work', 'About a judgement call', 'About a decision with **no good option**'],
-  ['**Reading length**', '120–180 words', '200–280 words', '280–350 words'],
-  ['**Writing length**', '30–60 words', '80–150 words', '150–250 words'],
+  ['**Reading length**', '125–190 words', '198–256 words', '271–359 words'],
+  ['**Writing length**', '33–75 words', '89–135 words', '158–214 words'],
 ], [1.3, 1.9, 1.9, 2.3]));
 
 // ============ 7 ============
@@ -186,7 +186,7 @@ out.push(table(['', 'Addition', 'Why'], [
   ['2', '**One pronunciation or intonation point a session**, 2 minutes inside cycle 2', 'The published B2 book already shows the value: a flat tone makes a sentence a delegation, a rising one makes it a hope. These are quick and they are memorable'],
   ['3', '**A can-do checklist at the end of every session** — three statements, ticked by the learner', 'Feeds the portfolio, gives the centre evidence, and takes ninety seconds'],
   ['4', '**Recycling checkpoints in sessions 6 and 12** of each course, inside the existing case study', 'Revision without spending a session on revision'],
-  ['5', '**An Arabic column in the vocabulary appendix only**', 'Banking terminology is where an Arabic gloss earns its place. Translation stays out of the tasks and goes where it helps most — the word list. ⚠ **No Arabic exists in any source material; this is new authoring**'],
+  ['5', '**An Arabic column in the vocabulary appendix only**', 'Commercial terminology is where an Arabic gloss earns its place. Translation stays out of the tasks and goes where it helps most — the word list. ⚠ **No Arabic exists in any source material; this is new authoring**'],
   ['6', '**A one-page "how this book works" spread** at the front of each course, showing the colour legend', 'The colour system only pays if the learner is told it exists, once'],
 ], [0.4, 2.6, 4]));
 
@@ -201,7 +201,7 @@ out.push(table(['', 'Pass', 'Automatic?'], [
   ['5', 'Every writing task has a gapped model AND a sample answer in Appendix B', 'yes'],
   ['6', 'Every role play has all four scaffold parts', 'yes'],
   ['7', 'Every functional colour is used for its one purpose and no other', 'yes'],
-  ['8', 'Twelve banking contexts, each used exactly once per course', 'yes'],
+  ['8', 'Twelve sectors, each used exactly once per course', 'yes'],
   ['9', 'No vocabulary item repeats; 12 per session, 144 in the course', 'yes'],
   ['10', 'Every reading and writing length falls inside the band for the level', 'yes'],
   ['11', 'Every figure referenced exists, embeds, and is not decorative', 'yes'],

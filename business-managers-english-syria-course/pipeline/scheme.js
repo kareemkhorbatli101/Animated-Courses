@@ -48,11 +48,11 @@ out.push(pb());
 out.push(h2('2 · Materials specification'));
 out.push(p('Each cycle needs three short texts. **These lengths are the specification** — writing to them keeps the timings honest.'));
 out.push(table(['', 'Course 1 · A2', 'Course 2 · B1', 'Course 3 · B2'], [
-  ['**Reading**', '120–180 words', '200–280 words', '280–350 words'],
+  ['**Reading**', '125–190 words', '198–256 words', '271–359 words'],
   ['**Conversation**', '8–10 turns', '10–12 turns', '12–16 turns'],
-  ['**Writing model**', '30–60 words', '80–150 words', '150–250 words'],
-  ['**What learners write**', '30–60 words', '80–150 words', '150–250 words'],
-  ['**Case-study pack**', '2 short documents', '2–3 documents', '3 documents, at least one of them contradicting another'],
+  ['**Writing model**', '33–75 words', '89–135 words', '158–214 words'],
+  ['**What learners write**', '33–75 words', '89–135 words', '158–214 words'],
+  ['**Case-study pack**', '3 short documents', '3 documents, one incomplete', '3 documents, at least one of them contradicting another'],
 ], [1.5, 1.8, 1.8, 2.4]));
 out.push(sp());
 out.push(p('⚠ **A reading longer than its band will eat the pair work.** The whole design depends on the text being short enough to discuss in seven minutes and still leave six for pairs.'));
@@ -90,13 +90,13 @@ out.push(h2('5 · Portfolio and progress'));
 const COURSES = [
   { from: 1, to: 12, h: 'COURSE 1 · Pre-Intermediate', sub: 'From new joiner to a colleague others depend on',
     arc: 'The learner arrives on a first day unable to operate, and leaves able to be relied on: to keep a record straight, answer for the organization on the telephone, account for their own day, hold a confidence and hand work over.',
-    role: 'Receptionist · records or data-entry clerk · ward or office clerk · store assistant · field assistant · counter and customer-facing staff · administrative assistant' },
+    role: 'Order clerk · stores and despatch assistant · counter and trade sales assistant · accounts assistant · reception and enquiries · production or line operative · office junior' },
   { from: 13, to: 24, h: 'COURSE 2 · Intermediate', sub: 'From dependable pair of hands to owning something',
     arc: 'The learner is given something of their own — a task, a file, a client — and learns the language that ownership requires: explaining what happened and why, showing somebody else how, advising with options, recommending with reasons, and reporting upward including what did not happen.',
     role: 'Project assistant rising to officer · logistics or procurement officer · loan officer · monitoring assistant · HR assistant · account handler · case or client officer' },
   { from: 25, to: 36, h: 'COURSE 3 · Upper-Intermediate', sub: 'From owning a task to supervising people',
     arc: 'The learner becomes answerable for other people\'s work. Three sessions are given to supervision itself — delegating, inducting, editing, praising, criticising, appraising and chairing — and the course ends with the learner arguing for their own next post.',
-    role: 'Team leader · shift or site supervisor · branch supervisor · project coordinator and junior project manager · office manager · unit head in a small organization' },
+    role: 'Supervisor or section head · shift or site supervisor · purchasing or stores controller · sales or claims officer · office manager · unit head in a small company' },
 ];
 
 COURSES.forEach(co => {
@@ -133,7 +133,7 @@ out.push(table(['For', 'Draw on'], [
   ['**Course 1**', 'Proactive Business English A2 Book 1; A1 Book 2 for weaker entrants'],
   ['**Course 2**', 'Proactive Business English B1 Books 1 and 2'],
   ['**Course 3**', 'Proactive Business English B2 Books 1 and 2'],
-  ['**Sector colour for case studies**', 'English for NGOs and International Organizations · Logistics Management · Office Managers · Quality Assurance · Banking and Finance · Accountants · Tour Guides · Tourism Police'],
+  ['**Sector colour for case studies**', 'Manufacturing and production · Retail and wholesale trade · Food and agribusiness · Energy, fuel and utilities · Pharmaceutical and medical supply · Transport and logistics · Textiles and garments · Professional services · Construction and contracting · Information technology · Real estate and property · Printing, media and events'],
 ], [1.4, 5]));
 out.push(sp());
 out.push(h3('The supervision sessions, checked line by line'));

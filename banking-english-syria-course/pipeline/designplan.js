@@ -30,8 +30,8 @@ out.push(p('⚠ **No fact is tested twice.** A date checked in True/False does n
 out.push(fig('taskmap', 620, 190));
 out.push(box('Worked example — a 150-word staff notice at Course 1', [
   '**Matching (4 pairs, 1 distractor).** Match each of the four blocks of the notice to its job: _who it is from · what has changed · from when · what you must do_. **Tests structure. Touches no detail.**',
-  '**True / False (6).** _The change starts on Sunday. · The notice is signed by the warehouse manager. · Staff must sign the list before Thursday._ Two of the six are about something the notice does **not** say. **Tests detail. Touches no structure.**',
-  '**Gap-fill (5 gaps, word bank at this level).** A 50-word summary of the notice, reconstructed. **Tests the whole. Repeats nothing already asked.**',
+  '**True / False (5).** _The change starts on Sunday. · The notice is signed by the warehouse manager. · Staff must sign the list before Thursday._ Two of the five are about something the notice does **not** say. **Tests detail. Touches no structure.**',
+  '**Gap-fill (4 gaps, word bank at this level).** A 50-word summary of the notice, reconstructed. **Tests the whole. Repeats nothing already asked.**',
   '⚠ **Thirteen items in all, and every line of the notice is covered exactly once.**',
 ], C.lteal, C.teal));
 
@@ -61,9 +61,9 @@ out.push(pb());
 out.push(h2('3 · The task typology'));
 out.push(h3('Reading — all three, every cycle, partitioned'));
 out.push(table(['Type', 'What it looks like', 'What it actually tests'], [
-  ['**True / False**', '6 statements about a short banking document', 'Whether the learner read the document or guessed from the topic'],
-  ['**Gap-fill**', 'A 60–80 word summary of the text with 6 gaps, or an excerpt with words removed', 'Whether they can hold the whole text, not only find a line'],
-  ['**Matching**', 'Match 5 lines to 5 purposes, readers or outcomes — with one distractor', 'Whether they see what each part of a document is FOR'],
+  ['**True / False**', '5 statements about a short banking document', 'Whether the learner read the document or guessed from the topic'],
+  ['**Gap-fill**', 'A 60–80 word summary of the text with 4 gaps, or an excerpt with words removed', 'Whether they can hold the whole text, not only find a line'],
+  ['**Matching**', 'Match 4 lines to 4 purposes, readers or outcomes — with one distractor', 'Whether they see what each part of a document is FOR'],
 ], [1.2, 3, 2.8]));
 out.push(h3('Listening — all three, one task after each playing'));
 out.push(p('The conversation is **read aloud by the teacher or played, three times**, as in the published series — and **one task follows each playing**. The learner therefore listens with a different purpose each time, which is both cheaper in minutes and better practice than three hearings and one task at the end.'));
@@ -142,12 +142,12 @@ out.push(pb());
 out.push(h2('6 · How each device changes level by level'));
 out.push(p('**Same device, three settings.** This is what makes the courses complement rather than repeat each other.'));
 out.push(table(['Device', 'Course 1', 'Course 2', 'Course 3'], [
-  ['**Gap-fill**', '6 gaps, **word bank given**', '8 gaps, no bank', '6 gaps, each a **whole clause**, no bank'],
-  ['**True / False**', 'True or False', 'True · False · **Not given**', 'True · False · Not given, **and quote the line that decides it**'],
-  ['**Matching**', '5 pairs, 1 distractor', '7 pairs, 2 distractors', '7 pairs where **two plausibly fit**; the learner chooses and justifies'],
-  ['**Role play**', 'Full language strip **with gaps**', 'Function prompts only', 'Blank card + **one hidden constraint**'],
-  ['**Writing model**', '**60% gapped**, word bank', '40% gapped', '25% gapped, **plus one weak sentence to improve**'],
-  ['**Case pack**', '2 documents that **agree**', '3 documents, one **incomplete**', '3 documents, two of which **contradict**'],
+  ['**Gap-fill**', '4 gaps, **word bank given**', '4 gaps, **no bank**', '4 gaps, no bank, and the gaps fall on the **judgement words**'],
+  ['**True / False**', 'True or False', 'True · False · **Not given**', 'True · False · Not given, with **at least one Not given in every battery**'],
+  ['**Matching**', '4 pairs, 1 distractor', '4 pairs, 1 **plausible** distractor', '4 pairs, 1 distractor that **nearly fits**'],
+  ['**Role play**', 'Full language strip **with gaps**', 'Function prompts only, **no wording given**', 'Function prompts, and the **swap removes the easy option**'],
+  ['**Writing model**', 'Model, then **4 blanks + word bank**', 'Model, then **4 blanks, no bank**', 'Model, then 4 blanks on the **judgement words**'],
+  ['**Case pack**', '**3 documents that agree**', '3 documents, one **incomplete**', '3 documents, two of which can **contradict**'],
   ['**Discussion**', 'About the learner\'s own work', 'About a judgement call', 'About a decision with **no good option**'],
   ['**Reading length**', '120–180 words', '200–280 words', '280–350 words'],
   ['**Writing length**', '30–60 words', '80–150 words', '150–250 words'],

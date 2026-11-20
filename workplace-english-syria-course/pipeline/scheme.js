@@ -52,7 +52,7 @@ out.push(table(['', 'Course 1 · A2', 'Course 2 · B1', 'Course 3 · B2'], [
   ['**Conversation**', '8–10 turns', '10–12 turns', '12–16 turns'],
   ['**Writing model**', '30–60 words', '80–150 words', '150–250 words'],
   ['**What learners write**', '30–60 words', '80–150 words', '150–250 words'],
-  ['**Case-study pack**', '2 short documents', '2–3 documents', '3 documents, at least one of them contradicting another'],
+  ['**Case-study pack**', '3 short documents', '3 documents, one incomplete', '3 documents, at least one of them contradicting another'],
 ], [1.5, 1.8, 1.8, 2.4]));
 out.push(sp());
 out.push(p('⚠ **A reading longer than its band will eat the pair work.** The whole design depends on the text being short enough to discuss in seven minutes and still leave six for pairs.'));
