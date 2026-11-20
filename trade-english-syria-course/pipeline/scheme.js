@@ -48,10 +48,10 @@ out.push(pb());
 out.push(h2('2 · Materials specification'));
 out.push(p('Each cycle needs three short texts. **These lengths are the specification** — writing to them keeps the timings honest.'));
 out.push(table(['', 'Course 1 · A2', 'Course 2 · B1', 'Course 3 · B2'], [
-  ['**Reading**', '132–190 words', '191–263 words', '271–360 words'],
-  ['**Conversation**', '10–11 turns', '12–13 turns', '14–17 turns'],
-  ['**Writing model**', '37–75 words', '101–163 words', '145–202 words'],
-  ['**What learners write**', '37–75 words', '101–163 words', '145–202 words'],
+  ['**Reading**', '134–182 words', '191–244 words', '289–359 words'],
+  ['**Conversation**', '9–11 turns', '11–13 turns', '15–16 turns'],
+  ['**Writing model**', '52–75 words', '92–124 words', '145–194 words'],
+  ['**What learners write**', '52–75 words', '92–124 words', '145–194 words'],
   ['**Case-study pack**', '3 short documents', '3 documents, one incomplete', '3 documents, at least one of them contradicting another'],
 ], [1.5, 1.8, 1.8, 2.4]));
 out.push(sp());
@@ -88,15 +88,15 @@ out.push(h2('5 · Portfolio and progress'));
 
 // ---- the sessions ----
 const COURSES = [
-  { from: 1, to: 12, h: 'COURSE 1 · Pre-Intermediate', sub: 'From your first shift to a colleague the shift depends on',
-    arc: 'The learner arrives on a first shift unable to operate, and leaves able to be relied on: to take a booking accurately, keep a board and a log a second person can trust, answer for the property on the telephone and at the desk, be trusted with keys and cash, say no to a guest without losing them, account for a shift and hand it on.',
-    role: 'Receptionist · housekeeping room attendant · night porter and door security · reservations clerk · restaurant or bar waiter · kitchen porter and commis · banqueting assistant · guesthouse all-rounder' },
-  { from: 13, to: 24, h: 'COURSE 2 · Intermediate', sub: 'From dependable pair of hands to owning a section and a guest',
-    arc: 'The learner is given something of their own — a section, a shift, a guest, a group — and learns the language that ownership requires: explaining what happened and why, training somebody else on the floor, offering options with their cost, recommending with a reservation, handling a complaint that has already been made worse, and reporting upward including what did not happen.',
-    role: 'Shift leader on the desk · housekeeping floor supervisor · reservations supervisor · restaurant or bar supervisor · head waiter · events coordinator · duty manager in a small property · guesthouse manager' },
-  { from: 25, to: 36, h: 'COURSE 3 · Upper-Intermediate', sub: 'From owning a section to running a department and answering to owners and inspectors',
-    arc: 'The learner becomes answerable for other people\'s work and for the property\'s word. Three sessions are given to supervision itself — delegating, inducting, appraising and chairing — and the course runs on through writing the rule a department follows, naming risk before it lands, negotiating with agents and suppliers, answering a licensing committee, and arguing for the learner\'s own next post.',
-    role: 'Front of house manager · head of housekeeping · food and beverage manager · rooms division manager · deputy general manager · general manager of a guesthouse or small hotel' },
+  { from: 1, to: 12, h: 'COURSE 1 · Pre-Intermediate', sub: 'From your first day at the freight desk to a clerk the office can rely on',
+    arc: 'The learner arrives in a brokerage office unable to operate, and leaves able to be relied on: to take an instruction accurately, keep a file and a register a second person can trust, answer for the office on the telephone, be trusted with documents and a counter, hold a rule under pressure when a client is shouting, account for a consignment and hand it on.',
+    role: 'Customs clerk · documentation assistant · delivery order clerk · shipping clerk · yard and warehouse clerk · haulage coordinator · agency trainee taking calls and messages' },
+  { from: 13, to: 24, h: 'COURSE 2 · Intermediate', sub: 'From dependable pair of hands to owning a consignment, a document and a deadline',
+    arc: 'The learner is given something of their own — a consignment, a credit, a customs file, a claim — and learns the language that ownership requires: explaining an error so that a reader who was not there can follow it, training somebody on a live file, explaining why a charge moved, pressing a claim on a carrier, recommending with a reservation, and reporting upward including what did not happen.',
+    role: 'Senior customs clerk · documentation supervisor · operations clerk · claims assistant · letter of credit clerk · port office assistant · agency account handler' },
+  { from: 25, to: 36, h: 'COURSE 3 · Upper-Intermediate', sub: 'From owning a consignment to running an office and speaking for it to lines, customs and foreign principals',
+    arc: 'The learner becomes answerable for other people\'s work and for the office\'s word. Three sessions are given to supervision itself — delegating, appraising and chairing — and the course runs on through writing the standard an office follows, naming risk before it lands, negotiating with lines, forwarders and insurers, answering a chamber of commerce, and arguing for the learner\'s own next post.',
+    role: 'Operations manager · documentation manager · branch or port office manager · claims manager · customs manager · agency manager · deputy principal' },
 ];
 
 COURSES.forEach(co => {
@@ -133,7 +133,7 @@ out.push(table(['For', 'Draw on'], [
   ['**Course 1**', 'Proactive Business English A2 Book 1; A1 Book 2 for weaker entrants'],
   ['**Course 2**', 'Proactive Business English B1 Books 1 and 2'],
   ['**Course 3**', 'Proactive Business English B2 Books 1 and 2'],
-  ['**Sector colour for case studies**', 'Front desk and reception · Housekeeping · Security and night duty · Reservations and revenue · Maintenance and engineering · Concierge and guest services · Restaurant service · Bar and café · Banqueting and events · Kitchen and food safety · Tours and excursions · Guesthouses and heritage properties'],
+  ['**Sector colour for case studies**', 'The shipping line and the bill of lading · Customs and clearance · Letters of credit and the bank · The freight forwarder and the haulier · Suppliers abroad and purchase orders · Buyers abroad and sales contracts · Certificates of origin and the chamber of commerce · Insurance and claims for damage · Port, warehouse and storage · Inspection, quality and pre-shipment · Licences, sanctions and restricted goods · Agency agreements and commission'],
 ], [1.4, 5]));
 out.push(sp());
 out.push(h3('The supervision sessions, checked line by line'));

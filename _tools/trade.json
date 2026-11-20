@@ -1,0 +1,80 @@
+{
+ "from": "a first month at a freight and customs desk",
+ "to": "running a brokerage office and speaking for it to lines, customs houses and foreign principals",
+ "case_setting": "a named part of a customs broking and freight forwarding office",
+ "field": "import and export",
+ "field_adj": "trade",
+ "field_title": "Import/Export Agents",
+ "unit": "part of the brokerage office",
+ "own_unit": "a consignment and a document",
+ "series_arc": "first month at the freight desk → **running an office and speaking for it abroad**",
+ "learners": "They work, or are about to work, in a Syrian customs broking house, freight forwarder, shipping agency or the import–export department of a trading company or factory — where English is the language of the bill of lading, the letter of credit, the certificate of origin and the messages that arrive from a shipping line in Istanbul, a buyer in Hamburg or a bank's documentary credits department.",
+ "neutral": "It is **desk-neutral within the trade**. One cohort can contain a customs clerk, a documentation assistant and a haulage coordinator, and all three practise the same skill on their own consignments.",
+ "contexts_intro": "The programme assumes learners work on different parts of a shipment, not one. Twelve trade contexts carry the case studies:",
+ "contexts": [
+  "The shipping line and the bill of lading",
+  "Customs and clearance",
+  "Letters of credit and the bank",
+  "The freight forwarder and the haulier",
+  "Suppliers abroad and purchase orders",
+  "Buyers abroad and sales contracts",
+  "Certificates of origin and the chamber of commerce",
+  "Insurance and claims for damage",
+  "Port, warehouse and storage",
+  "Inspection, quality and pre-shipment",
+  "Licences, sanctions and restricted goods",
+  "Agency agreements and commission"
+ ],
+ "upward": "**Upward and outward paper:** delivery orders and amendment requests, claim letters to carriers and insurers, decision papers for a principal, submissions to a chamber of commerce or a customs house, terms notes after a negotiation and briefings written for three readers at once — usually written, usually read by somebody who was not there.",
+ "contact": "**Line, customs and foreign-principal contact:** shipping lines and their agents, customs houses and inspectors, documentary credits departments, forwarders abroad, overseas buyers, suppliers and insurers, often where neither side is a native speaker.",
+ "reading_rows": [
+  "Notes, instructions, documents, messages, tariff pages — 134–182 words",
+  "Explanations, claims, options notes, reports — 191–244 words",
+  "Decision papers, standards, submissions, hearings — 289–359 words"
+ ],
+ "writing_rows": [
+  "Notes, slips, logs, a three-line handover — 52–75 words",
+  "Explanations, claims, recommendations, monthly packs — 92–124 words",
+  "Decision papers, standards, appraisals, submissions — 145–194 words"
+ ],
+ "move3": "Decide, supervise, and speak for the office",
+ "resp2": "a consignment, a document and a deadline",
+ "resp2b": "a consignment, a document and a deadline",
+ "arc2": "someone who owns a consignment, a document and a deadline",
+ "threads": "**being honest about what you did not do and cannot evidence** (Course 1 S9 → Course 2 S14 → Course 3 S28); **giving a figure its definition, basis and weakness** (C1 S4 → C2 S16 and S20 → C3 S27); and **writing so that the reader can act** (C1 S12 → C2 S19 → C3 S25).",
+ "h1": "from your first day at the freight desk to a clerk the office can rely on",
+ "h2": "from dependable pair of hands to owning a consignment, a document and a deadline",
+ "h3": "from owning a consignment to running an office and speaking for it to lines, customs and foreign principals",
+ "map_example": "A learner on the customs desk meets their own work in sessions 2, 14 and 26, each time at a higher level of responsibility.",
+ "posts1": "Customs clerk · documentation assistant · delivery order clerk · shipping clerk · yard and warehouse clerk · haulage coordinator · agency trainee taking calls and messages",
+ "gives1": "Being understood in the office and at a counter, taking an instruction accurately, keeping a file and a register a second person can trust, answering for the office on the telephone, holding a rule under pressure, accounting for a consignment and handing it on",
+ "posts2": "Senior customs clerk · documentation supervisor · operations clerk · claims assistant · letter of credit clerk · port office assistant · agency account handler",
+ "gives2": "Owning a consignment and a document: explaining an error so a reader who was not there can follow it, training somebody on a live file, explaining why a charge moved, pressing a claim on a carrier, recommending with a reservation, and reporting upward including what did not happen",
+ "posts3": "Operations manager · documentation manager · branch or port office manager · claims manager · customs manager · agency manager · deputy principal",
+ "gives3": "Other people's work and the office's word: delegating, appraising, chairing the operations review, writing the standard an office follows, naming risk before it lands, negotiating with lines and insurers, disagreeing upward, and answering a chamber of commerce",
+ "constraint": "a capable young broker at the clerk's grade",
+ "doc_adj": "office",
+ "terminology": "Shipping, customs and documentary credit",
+ "notice_signer": "principal",
+ "read_bands": [
+  "134–182",
+  "191–244",
+  "289–359"
+ ],
+ "write_bands": [
+  "52–75",
+  "92–124",
+  "145–194"
+ ],
+ "turn_bands": [
+  "9–11",
+  "11–13",
+  "15–16"
+ ],
+ "sub1": "From your first day at the freight desk to a clerk the office can rely on",
+ "sub2": "From dependable pair of hands to owning a consignment, a document and a deadline",
+ "sub3": "From owning a consignment to running an office and speaking for it to lines, customs and foreign principals",
+ "arc1_text": "The learner arrives in a brokerage office unable to operate, and leaves able to be relied on: to take an instruction accurately, keep a file and a register a second person can trust, answer for the office on the telephone, be trusted with documents and a counter, hold a rule under pressure when a client is shouting, account for a consignment and hand it on.",
+ "arc2_text": "The learner is given something of their own — a consignment, a credit, a customs file, a claim — and learns the language that ownership requires: explaining an error so that a reader who was not there can follow it, training somebody on a live file, explaining why a charge moved, pressing a claim on a carrier, recommending with a reservation, and reporting upward including what did not happen.",
+ "arc3_text": "The learner becomes answerable for other people's work and for the office's word. Three sessions are given to supervision itself — delegating, appraising and chairing — and the course runs on through writing the standard an office follows, naming risk before it lands, negotiating with lines, forwarders and insurers, answering a chamber of commerce, and arguing for the learner's own next post."
+}
