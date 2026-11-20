@@ -185,11 +185,13 @@ PBE1.page('u3-s01', {
         task: 'Tell your partner about your week. Write it.',
         grammar: 'The days, and on',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A week board has one line for every working day — including the normal ones.',
-        '⚠ Write normal on the quiet days. A day with no line is a day nobody '
-          + 'has thought about, and that is the day the lorry comes early.',
-        '⚠ Big letter on every day.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (3.1) teaches: The days, and on. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The days, and on.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -208,15 +210,19 @@ PBE1.page('u3-s01', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: I work to . My day off is . The busy day is .',
+        task: 'Tell the class: — I work — to —. My day off is —. The busy day is —. '
+          + '(The dashes are blanks the learner fills in with their own '
+          + 'workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'The days, and on',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A week board has one line for every working day — including the normal ones.',
-        '⚠ Write normal on the quiet days. A day with no line is a day nobody '
-          + 'has thought about, and that is the day the lorry comes early.',
-        '⚠ Big letter on every day.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (3.1) teaches: '
+          + 'The days, and on. Judge the language against THAT and against '
+          + 'nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The days, and on.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -335,7 +341,9 @@ PBE1.page('u3-s01', {
         grammar: 'The days, and on',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (3.1) '
+          + 'teaches: The days, and on. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
         must: ['A week board has one line for every working day — including the normal ones.',
         '⚠ Write normal on the quiet days. A day with no line is a day nobody '
           + 'has thought about, and that is the day the lorry comes early.',
@@ -421,11 +429,13 @@ PBE1.page('u3-s01', {
           + 'Write the answer.',
         grammar: 'The days, and on',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A week board has one line for every working day — including the normal ones.',
-        '⚠ Write normal on the quiet days. A day with no line is a day nobody '
-          + 'has thought about, and that is the day the lorry comes early.',
-        '⚠ Big letter on every day.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (3.1) teaches: The days, and on. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The days, and on.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

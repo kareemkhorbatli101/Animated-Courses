@@ -206,14 +206,14 @@ PBE1.page('u4-s05', {
           + 'you stand. Write it.',
         grammar: 'Giving a direction inside the yard',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A directions paper has three numbered orders, then one warning, then '
-          + 'one instruction to the reader.',
-        '⚠ Put the warning in a line of its own, in big letters. A warning in '
-          + 'the middle of order 2 is a warning nobody reads.',
-        '⚠ The last line is an instruction to the READER, not about the way: '
-          + 'say it back before you drive. It is the only line that checks '
-          + 'whether the other four worked.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (4.5) teaches: Giving a direction inside the yard. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Giving a direction inside the yard.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -233,18 +233,19 @@ PBE1.page('u4-s05', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: Go . Turn at the . It is on your . Do not .',
+        task: 'Tell the class: — Go —. Turn — at the —. It is on your —. Do not —. '
+          + '(The dashes are blanks the learner fills in with their own '
+          + 'workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'Giving a direction inside the yard',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A directions paper has three numbered orders, then one warning, then '
-          + 'one instruction to the reader.',
-        '⚠ Put the warning in a line of its own, in big letters. A warning in '
-          + 'the middle of order 2 is a warning nobody reads.',
-        '⚠ The last line is an instruction to the READER, not about the way: '
-          + 'say it back before you drive. It is the only line that checks '
-          + 'whether the other four worked.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (4.5) teaches: '
+          + 'Giving a direction inside the yard. Judge the language against THAT '
+          + 'and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Giving a direction inside the yard.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -374,7 +375,9 @@ PBE1.page('u4-s05', {
         grammar: 'Giving a direction inside the yard',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (4.5) '
+          + 'teaches: Giving a direction inside the yard. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
         must: ['A directions paper has three numbered orders, then one warning, then '
           + 'one instruction to the reader.',
         '⚠ Put the warning in a line of its own, in big letters. A warning in '
@@ -468,14 +471,14 @@ PBE1.page('u4-s05', {
           + 'wrong? Write the answer.',
         grammar: 'Giving a direction inside the yard',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A directions paper has three numbered orders, then one warning, then '
-          + 'one instruction to the reader.',
-        '⚠ Put the warning in a line of its own, in big letters. A warning in '
-          + 'the middle of order 2 is a warning nobody reads.',
-        '⚠ The last line is an instruction to the READER, not about the way: '
-          + 'say it back before you drive. It is the only line that checks '
-          + 'whether the other four worked.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (4.5) teaches: Giving a direction inside the yard. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Giving a direction inside the yard.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

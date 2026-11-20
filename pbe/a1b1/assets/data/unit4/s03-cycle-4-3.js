@@ -200,14 +200,13 @@ PBE1.page('u4-s03', {
         task: 'Ask your partner where four things at their work are. Write it.',
         grammar: 'Asking where',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A correction has four lines: what the paper says → where the thing '
-          + 'really is → why → what the paper says now.',
-        '⚠ Line three is the one that stops the argument. It is too long for '
-          + 'the shelf turns somebody\'s mistake into somebody\'s good decision, '
-          + 'and a good decision does not get undone the next morning.',
-        '⚠ Line four is the whole point. A correction that does not change '
-          + 'the paper is a complaint.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (4.3) teaches: Asking where. Judge the language against THAT '
+          + 'and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Asking where.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -226,18 +225,19 @@ PBE1.page('u4-s03', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: I asked where the was. It is .',
+        task: 'Tell the class: — I asked where the — was. It is —. (The dashes are '
+          + 'blanks the learner fills in with their own workplace. Judge what '
+          + 'they wrote in them, not the blanks.)',
         grammar: 'Asking where',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A correction has four lines: what the paper says → where the thing '
-          + 'really is → why → what the paper says now.',
-        '⚠ Line three is the one that stops the argument. It is too long for '
-          + 'the shelf turns somebody\'s mistake into somebody\'s good decision, '
-          + 'and a good decision does not get undone the next morning.',
-        '⚠ Line four is the whole point. A correction that does not change '
-          + 'the paper is a complaint.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (4.3) teaches: '
+          + 'Asking where. Judge the language against THAT and against nothing '
+          + 'the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Asking where.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -366,7 +366,9 @@ PBE1.page('u4-s03', {
         grammar: 'Asking where',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (4.3) '
+          + 'teaches: Asking where. Judge the language against THAT and against '
+          + 'nothing the course has not taught yet.',
         must: ['A correction has four lines: what the paper says → where the thing '
           + 'really is → why → what the paper says now.',
         '⚠ Line three is the one that stops the argument. It is too long for '
@@ -461,14 +463,13 @@ PBE1.page('u4-s03', {
           + 'paper? Write the answer.',
         grammar: 'Asking where',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A correction has four lines: what the paper says → where the thing '
-          + 'really is → why → what the paper says now.',
-        '⚠ Line three is the one that stops the argument. It is too long for '
-          + 'the shelf turns somebody\'s mistake into somebody\'s good decision, '
-          + 'and a good decision does not get undone the next morning.',
-        '⚠ Line four is the whole point. A correction that does not change '
-          + 'the paper is a complaint.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (4.3) teaches: Asking where. Judge the language against THAT '
+          + 'and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Asking where.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

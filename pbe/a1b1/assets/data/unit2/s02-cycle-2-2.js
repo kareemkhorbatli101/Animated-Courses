@@ -194,14 +194,13 @@ PBE1.page('u2-s02', {
           + 'check it together.',
         grammar: 'The big numbers',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A store board has three lines: in today → in store → out today. And '
-          + 'a total if there is one.',
-        '⚠ Write every number twice: in numbers and in words. 90 (ninety). A '
-          + 'number read from across the yard can be read wrong. Two forms '
-          + 'cannot.',
-        '⚠ Zero is a number. Write it. An empty line means nobody counted. 0 '
-          + 'means somebody did.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (2.2) teaches: The big numbers. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The big numbers.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -220,18 +219,19 @@ PBE1.page('u2-s02', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: I said numbers. were right. The hard one was .',
+        task: 'Tell the class: — I said — numbers. — were right. The hard one was '
+          + '—. (The dashes are blanks the learner fills in with their own '
+          + 'workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'The big numbers',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A store board has three lines: in today → in store → out today. And '
-          + 'a total if there is one.',
-        '⚠ Write every number twice: in numbers and in words. 90 (ninety). A '
-          + 'number read from across the yard can be read wrong. Two forms '
-          + 'cannot.',
-        '⚠ Zero is a number. Write it. An empty line means nobody counted. 0 '
-          + 'means somebody did.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (2.2) teaches: '
+          + 'The big numbers. Judge the language against THAT and against nothing '
+          + 'the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The big numbers.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -355,7 +355,9 @@ PBE1.page('u2-s02', {
         grammar: 'The big numbers',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (2.2) '
+          + 'teaches: The big numbers. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
         must: ['A store board has three lines: in today → in store → out today. And '
           + 'a total if there is one.',
         '⚠ Write every number twice: in numbers and in words. 90 (ninety). A '
@@ -452,14 +454,13 @@ PBE1.page('u2-s02', {
           + 'Write the answer.',
         grammar: 'The big numbers',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A store board has three lines: in today → in store → out today. And '
-          + 'a total if there is one.',
-        '⚠ Write every number twice: in numbers and in words. 90 (ninety). A '
-          + 'number read from across the yard can be read wrong. Two forms '
-          + 'cannot.',
-        '⚠ Zero is a number. Write it. An empty line means nobody counted. 0 '
-          + 'means somebody did.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (2.2) teaches: The big numbers. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The big numbers.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

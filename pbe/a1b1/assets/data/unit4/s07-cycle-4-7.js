@@ -202,15 +202,14 @@ PBE1.page('u4-s07', {
           + 'paper says. Tell your partner. Write it.',
         grammar: 'Review — the six things from this unit',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['Exam practice — A2 Key Writing Part 6, at A1 length. Four sentences, '
-          + 'about 30 words.',
-        '⚠ In a message about a place, the ADDRESS goes in the first two '
-          + 'sentences. Row, shelf, or the small word and the landmark.',
-        '⚠ If you moved something, say WHY in one short sentence. A move with '
-          + 'a reason stays moved.',
-        'The shape: who it is to → where the thing is now → why → what the '
-          + 'reader must do.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (4.7) teaches: Review — the six things from this unit. Judge '
+          + 'the language against THAT and against nothing the course has not '
+          + 'taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Review — the six things from this unit.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -254,15 +253,14 @@ PBE1.page('u4-s07', {
           + 'a man was sent to an empty shelf while Fouad was at lunch.',
         grammar: 'Review — the six things from this unit',
         focus: 'Whether you have named what EACH side is right about. Not who wins, '
-          + 'and not a compromise: one sentence for each person\'s reason.',
-        must: ['Exam practice — A2 Key Writing Part 6, at A1 length. Four sentences, '
-          + 'about 30 words.',
-        '⚠ In a message about a place, the ADDRESS goes in the first two '
-          + 'sentences. Row, shelf, or the small word and the landmark.',
-        '⚠ If you moved something, say WHY in one short sentence. A move with '
-          + 'a reason stays moved.',
-        'The shape: who it is to → where the thing is now → why → what the '
-          + 'reader must do.']
+          + 'and not a compromise: one sentence for each person\'s reason. This '
+          + 'cycle (4.7) teaches: Review — the six things from this unit. Judge '
+          + 'the language against THAT and against nothing the course has not '
+          + 'taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Review — the six things from this unit.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -374,7 +372,9 @@ PBE1.page('u4-s07', {
         grammar: 'Review — the six things from this unit',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (4.7) '
+          + 'teaches: Review — the six things from this unit. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
         must: ['Exam practice — A2 Key Writing Part 6, at A1 length. Four sentences, '
           + 'about 30 words.',
         '⚠ In a message about a place, the ADDRESS goes in the first two '

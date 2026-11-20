@@ -194,15 +194,14 @@ PBE1.page('u5-s07', {
           + 'careful. Tell your partner. Write it.',
         grammar: 'Review — the six things from this unit',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['Exam practice — A2 Key Writing Part 6, at A1 length. Four sentences, '
-          + 'about 30 words.',
-        '⚠ In a message about a delivery, the QUANTITY and the DIFFERENCE go '
-          + 'first. The paper says 16. I counted 15. Two sentences, two numbers.',
-        '⚠ Name the LINE, not just the delivery. A note with four lines on it '
-          + 'has four places to be wrong.',
-        'The shape: who it is to → what the paper says → what you counted → '
-          + 'what you want done.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (5.7) teaches: Review — the six things from this unit. Judge '
+          + 'the language against THAT and against nothing the course has not '
+          + 'taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Review — the six things from this unit.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -247,15 +246,14 @@ PBE1.page('u5-s07', {
           + 'came off his name. Four minutes is real to both of them.',
         grammar: 'Review — the six things from this unit',
         focus: 'Whether you have named what EACH side is right about. Not who wins, '
-          + 'and not a compromise: one sentence for each person\'s reason.',
-        must: ['Exam practice — A2 Key Writing Part 6, at A1 length. Four sentences, '
-          + 'about 30 words.',
-        '⚠ In a message about a delivery, the QUANTITY and the DIFFERENCE go '
-          + 'first. The paper says 16. I counted 15. Two sentences, two numbers.',
-        '⚠ Name the LINE, not just the delivery. A note with four lines on it '
-          + 'has four places to be wrong.',
-        'The shape: who it is to → what the paper says → what you counted → '
-          + 'what you want done.']
+          + 'and not a compromise: one sentence for each person\'s reason. This '
+          + 'cycle (5.7) teaches: Review — the six things from this unit. Judge '
+          + 'the language against THAT and against nothing the course has not '
+          + 'taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Review — the six things from this unit.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -367,7 +365,9 @@ PBE1.page('u5-s07', {
         grammar: 'Review — the six things from this unit',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (5.7) '
+          + 'teaches: Review — the six things from this unit. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
         must: ['Exam practice — A2 Key Writing Part 6, at A1 length. Four sentences, '
           + 'about 30 words.',
         '⚠ In a message about a delivery, the QUANTITY and the DIFFERENCE go '

@@ -192,13 +192,13 @@ PBE1.page('u1-s05', {
           + 'do you finish? What do you say?',
         grammar: 'Hello and goodbye at work',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A gate notice has three things: the times → what you must do → what '
-          + 'happens if you do not.',
-        '⚠ The last line is the one people read. Put the money part last: no '
-          + 'name = no day of work.',
-        '⚠ Write the times as numbers: 7.00, not seven. A number on a wall is '
-          + 'read from far away.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (1.5) teaches: Hello and goodbye at work. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Hello and goodbye at work.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -218,17 +218,19 @@ PBE1.page('u1-s05', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: I start at . I finish at . In the morning I say .',
+        task: 'Tell the class: — I start at —. I finish at —. In the morning I say '
+          + '—. (The dashes are blanks the learner fills in with their own '
+          + 'workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'Hello and goodbye at work',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A gate notice has three things: the times → what you must do → what '
-          + 'happens if you do not.',
-        '⚠ The last line is the one people read. Put the money part last: no '
-          + 'name = no day of work.',
-        '⚠ Write the times as numbers: 7.00, not seven. A number on a wall is '
-          + 'read from far away.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (1.5) teaches: '
+          + 'Hello and goodbye at work. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Hello and goodbye at work.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -348,7 +350,9 @@ PBE1.page('u1-s05', {
         grammar: 'Hello and goodbye at work',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (1.5) '
+          + 'teaches: Hello and goodbye at work. Judge the language against THAT '
+          + 'and against nothing the course has not taught yet.',
         must: ['A gate notice has three things: the times → what you must do → what '
           + 'happens if you do not.',
         '⚠ The last line is the one people read. Put the money part last: no '
@@ -438,13 +442,13 @@ PBE1.page('u1-s05', {
           + 'o\'clock? Write the answer.',
         grammar: 'Hello and goodbye at work',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A gate notice has three things: the times → what you must do → what '
-          + 'happens if you do not.',
-        '⚠ The last line is the one people read. Put the money part last: no '
-          + 'name = no day of work.',
-        '⚠ Write the times as numbers: 7.00, not seven. A number on a wall is '
-          + 'read from far away.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (1.5) teaches: Hello and goodbye at work. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Hello and goodbye at work.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

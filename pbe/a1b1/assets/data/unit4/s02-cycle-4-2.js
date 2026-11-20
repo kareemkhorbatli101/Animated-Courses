@@ -192,15 +192,14 @@ PBE1.page('u4-s02', {
           + 'address. Write it.',
         grammar: 'Rows, shelves and the numbers',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A shelf list is a table, and a table is read in two directions: the '
-          + 'row across, and the shelf down.',
-        '⚠ Write (bottom) and (top) in the heading. Without them the table is '
-          + 'a set of numbers and the reader has to ask somebody. Four words save '
-          + 'a question.',
-        '⚠ Write empty in an empty shelf. A blank square means nobody looked; '
-          + 'empty means somebody did. Same rule as the week board in 3.1, and it '
-          + 'is the same reason.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (4.2) teaches: Rows, shelves and the numbers. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Rows, shelves and the numbers.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -220,19 +219,19 @@ PBE1.page('u4-s02', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: The is in row , shelf . That is the row from the .',
+        task: 'Tell the class: — The — is in row , shelf —. That is the — row from '
+          + 'the —. (The dashes are blanks the learner fills in with their own '
+          + 'workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'Rows, shelves and the numbers',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A shelf list is a table, and a table is read in two directions: the '
-          + 'row across, and the shelf down.',
-        '⚠ Write (bottom) and (top) in the heading. Without them the table is '
-          + 'a set of numbers and the reader has to ask somebody. Four words save '
-          + 'a question.',
-        '⚠ Write empty in an empty shelf. A blank square means nobody looked; '
-          + 'empty means somebody did. Same rule as the week board in 3.1, and it '
-          + 'is the same reason.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (4.2) teaches: '
+          + 'Rows, shelves and the numbers. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Rows, shelves and the numbers.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -366,7 +365,9 @@ PBE1.page('u4-s02', {
         grammar: 'Rows, shelves and the numbers',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (4.2) '
+          + 'teaches: Rows, shelves and the numbers. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
         must: ['A shelf list is a table, and a table is read in two directions: the '
           + 'row across, and the shelf down.',
         '⚠ Write (bottom) and (top) in the heading. Without them the table is '
@@ -463,15 +464,14 @@ PBE1.page('u4-s02', {
           + 'most? Write the answer.',
         grammar: 'Rows, shelves and the numbers',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A shelf list is a table, and a table is read in two directions: the '
-          + 'row across, and the shelf down.',
-        '⚠ Write (bottom) and (top) in the heading. Without them the table is '
-          + 'a set of numbers and the reader has to ask somebody. Four words save '
-          + 'a question.',
-        '⚠ Write empty in an empty shelf. A blank square means nobody looked; '
-          + 'empty means somebody did. Same rule as the week board in 3.1, and it '
-          + 'is the same reason.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (4.2) teaches: Rows, shelves and the numbers. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Rows, shelves and the numbers.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

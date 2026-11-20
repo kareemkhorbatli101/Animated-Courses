@@ -194,12 +194,13 @@ PBE1.page('u1-s01', {
           + 'names here.',
         grammar: 'Grammar — I am · you are',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A line in the gate book has five things: the date → the name → the '
-          + 'job → the time in → the time out.',
-        '⚠ Big letters for names: Ammar Zreik. For the city: Damascus. For '
-          + 'the company: Sham Trading.',
-        '⚠ Write the surname too. There are two men called Ammar in this yard.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (1.1) teaches: Grammar — I am · you are. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Grammar — I am · you are.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -218,16 +219,19 @@ PBE1.page('u1-s01', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: This is . He is / She is the .',
+        task: 'Tell the class: — This is —. He is / She is the —. (The dashes are '
+          + 'blanks the learner fills in with their own workplace. Judge what '
+          + 'they wrote in them, not the blanks.)',
         grammar: 'Grammar — I am · you are',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A line in the gate book has five things: the date → the name → the '
-          + 'job → the time in → the time out.',
-        '⚠ Big letters for names: Ammar Zreik. For the city: Damascus. For '
-          + 'the company: Sham Trading.',
-        '⚠ Write the surname too. There are two men called Ammar in this yard.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (1.1) teaches: '
+          + 'Grammar — I am · you are. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Grammar — I am · you are.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -346,7 +350,9 @@ PBE1.page('u1-s01', {
         grammar: 'Grammar — I am · you are',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (1.1) '
+          + 'teaches: Grammar — I am · you are. Judge the language against THAT '
+          + 'and against nothing the course has not taught yet.',
         must: ['A line in the gate book has five things: the date → the name → the '
           + 'job → the time in → the time out.',
         '⚠ Big letters for names: Ammar Zreik. For the city: Damascus. For '
@@ -430,15 +436,18 @@ PBE1.page('u1-s01', {
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Read your partner\'s work. Ask your partner one question. Write it: '
-          + '★ I like… ? one question',
+          + '— ★ I like… —? one question (The dashes are blanks the learner fills '
+          + 'in with their own workplace. Judge what they wrote in them, not the '
+          + 'blanks.)',
         grammar: 'Grammar — I am · you are',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A line in the gate book has five things: the date → the name → the '
-          + 'job → the time in → the time out.',
-        '⚠ Big letters for names: Ammar Zreik. For the city: Damascus. For '
-          + 'the company: Sham Trading.',
-        '⚠ Write the surname too. There are two men called Ammar in this yard.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (1.1) teaches: Grammar — I am · you are. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Grammar — I am · you are.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

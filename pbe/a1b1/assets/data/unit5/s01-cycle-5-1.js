@@ -200,15 +200,14 @@ PBE1.page('u5-s01', {
         task: 'Find a real paper from your work, or draw one. Find the four things. Write it.',
         grammar: 'The four things, every time, in this order',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A before-you-sign list has four numbered lines and one escape line.',
-        '⚠ Every line is a QUESTION, not an instruction. Is it today? A '
-          + 'question makes the reader look at the paper. An instruction lets him '
-          + 'nod.',
-        '⚠ The escape line is the most useful line on the page: I have not '
-          + 'counted it yet. Six words that stop a signature. Without it the list '
-          + 'is advice; with it the list is a thing you can do while a driver '
-          + 'waits.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (5.1) teaches: The four things, every time, in this order. '
+          + 'Judge the language against THAT and against nothing the course has '
+          + 'not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The four things, every time, in this order.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -229,20 +228,20 @@ PBE1.page('u5-s01', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: My paper says at the top. The date is . The quantity '
-          + 'is . The line is .',
+        task: 'Tell the class: — My paper says — at the top. The date is —. The '
+          + 'quantity is —. The line is —. (The dashes are blanks the learner '
+          + 'fills in with their own workplace. Judge what they wrote in them, '
+          + 'not the blanks.)',
         grammar: 'The four things, every time, in this order',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A before-you-sign list has four numbered lines and one escape line.',
-        '⚠ Every line is a QUESTION, not an instruction. Is it today? A '
-          + 'question makes the reader look at the paper. An instruction lets him '
-          + 'nod.',
-        '⚠ The escape line is the most useful line on the page: I have not '
-          + 'counted it yet. Six words that stop a signature. Without it the list '
-          + 'is advice; with it the list is a thing you can do while a driver '
-          + 'waits.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (5.1) teaches: '
+          + 'The four things, every time, in this order. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The four things, every time, in this order.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -372,7 +371,10 @@ PBE1.page('u5-s01', {
         grammar: 'The four things, every time, in this order',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (5.1) '
+          + 'teaches: The four things, every time, in this order. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
         must: ['A before-you-sign list has four numbered lines and one escape line.',
         '⚠ Every line is a QUESTION, not an instruction. Is it today? A '
           + 'question makes the reader look at the paper. An instruction lets him '
@@ -470,15 +472,14 @@ PBE1.page('u5-s01', {
           + 'something you had not checked? Write the answer.',
         grammar: 'The four things, every time, in this order',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A before-you-sign list has four numbered lines and one escape line.',
-        '⚠ Every line is a QUESTION, not an instruction. Is it today? A '
-          + 'question makes the reader look at the paper. An instruction lets him '
-          + 'nod.',
-        '⚠ The escape line is the most useful line on the page: I have not '
-          + 'counted it yet. Six words that stop a signature. Without it the list '
-          + 'is advice; with it the list is a thing you can do while a driver '
-          + 'waits.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (5.1) teaches: The four things, every time, in this order. '
+          + 'Judge the language against THAT and against nothing the course has '
+          + 'not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The four things, every time, in this order.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

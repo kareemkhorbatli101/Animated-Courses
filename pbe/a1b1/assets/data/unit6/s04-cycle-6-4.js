@@ -195,17 +195,15 @@ PBE1.page('u6-s04', {
         task: 'Four people at your work. Where are they, and when are they back? Write it.',
         grammar: 'Saying somebody is not there — and the second half',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A who-is-where board has three columns and a TIME at the top.',
-        '⚠ The time at the top is what makes it readable. Monday 16 March, '
-          + '1.30. Without it nobody knows whether at lunch was written an hour '
-          + 'ago or yesterday.',
-        '⚠ Back must be a time or a day, never soon or later. Soon is the '
-          + 'same as nothing, and it is what the caller is being given instead of '
-          + 'an answer.',
-        '⚠ And the rule at the bottom: a board that is wrong is worse than no '
-          + 'board. A caller told back at two from a board written yesterday '
-          + 'rings at two and is told the same thing again.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (6.4) teaches: Saying somebody is not there — and the second '
+          + 'half. Judge the language against THAT and against nothing the course '
+          + 'has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Saying somebody is not there — and the '
+          + 'second half.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -224,21 +222,21 @@ PBE1.page('u6-s04', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: is not here. He / She is . He / She is back .',
+        task: 'Tell the class: — is not here. He / She is —. He / She is back —. '
+          + '(The dashes are blanks the learner fills in with their own '
+          + 'workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'Saying somebody is not there — and the second half',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A who-is-where board has three columns and a TIME at the top.',
-        '⚠ The time at the top is what makes it readable. Monday 16 March, '
-          + '1.30. Without it nobody knows whether at lunch was written an hour '
-          + 'ago or yesterday.',
-        '⚠ Back must be a time or a day, never soon or later. Soon is the '
-          + 'same as nothing, and it is what the caller is being given instead of '
-          + 'an answer.',
-        '⚠ And the rule at the bottom: a board that is wrong is worse than no '
-          + 'board. A caller told back at two from a board written yesterday '
-          + 'rings at two and is told the same thing again.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (6.4) teaches: '
+          + 'Saying somebody is not there — and the second half. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Saying somebody is not there — and the '
+          + 'second half.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -369,7 +367,10 @@ PBE1.page('u6-s04', {
         grammar: 'Saying somebody is not there — and the second half',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (6.4) '
+          + 'teaches: Saying somebody is not there — and the second half. Judge '
+          + 'the language against THAT and against nothing the course has not '
+          + 'taught yet.',
         must: ['A who-is-where board has three columns and a TIME at the top.',
         '⚠ The time at the top is what makes it readable. Monday 16 March, '
           + '1.30. Without it nobody knows whether at lunch was written an hour '
@@ -471,17 +472,15 @@ PBE1.page('u6-s04', {
           + 'meeting"? Write the answer.',
         grammar: 'Saying somebody is not there — and the second half',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A who-is-where board has three columns and a TIME at the top.',
-        '⚠ The time at the top is what makes it readable. Monday 16 March, '
-          + '1.30. Without it nobody knows whether at lunch was written an hour '
-          + 'ago or yesterday.',
-        '⚠ Back must be a time or a day, never soon or later. Soon is the '
-          + 'same as nothing, and it is what the caller is being given instead of '
-          + 'an answer.',
-        '⚠ And the rule at the bottom: a board that is wrong is worse than no '
-          + 'board. A caller told back at two from a board written yesterday '
-          + 'rings at two and is told the same thing again.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (6.4) teaches: Saying somebody is not there — and the second '
+          + 'half. Judge the language against THAT and against nothing the course '
+          + 'has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Saying somebody is not there — and the '
+          + 'second half.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

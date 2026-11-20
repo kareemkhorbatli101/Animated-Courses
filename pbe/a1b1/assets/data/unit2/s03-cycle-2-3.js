@@ -188,12 +188,13 @@ PBE1.page('u2-s03', {
           + 'partner writes it.',
         grammar: 'One, and more than one',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A shelf card has three lines: the small thing → the middle thing → '
-          + 'the big thing. And what is inside each one.',
-        '⚠ Every line has a number AND a word. 20 in a packet. Not 20.',
-        '⚠ Put the card ON the shelf, not in the office. A card in the office '
-          + 'is a card for the office.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (2.3) teaches: One, and more than one. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: One, and more than one.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -212,16 +213,19 @@ PBE1.page('u2-s03', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: There are on .',
+        task: 'Tell the class: — There are — on —. (The dashes are blanks the '
+          + 'learner fills in with their own workplace. Judge what they wrote in '
+          + 'them, not the blanks.)',
         grammar: 'One, and more than one',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A shelf card has three lines: the small thing → the middle thing → '
-          + 'the big thing. And what is inside each one.',
-        '⚠ Every line has a number AND a word. 20 in a packet. Not 20.',
-        '⚠ Put the card ON the shelf, not in the office. A card in the office '
-          + 'is a card for the office.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (2.3) teaches: '
+          + 'One, and more than one. Judge the language against THAT and against '
+          + 'nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: One, and more than one.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -337,7 +341,9 @@ PBE1.page('u2-s03', {
         grammar: 'One, and more than one',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (2.3) '
+          + 'teaches: One, and more than one. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
         must: ['A shelf card has three lines: the small thing → the middle thing → '
           + 'the big thing. And what is inside each one.',
         '⚠ Every line has a number AND a word. 20 in a packet. Not 20.',
@@ -425,12 +431,13 @@ PBE1.page('u2-s03', {
           + 'the answer.',
         grammar: 'One, and more than one',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A shelf card has three lines: the small thing → the middle thing → '
-          + 'the big thing. And what is inside each one.',
-        '⚠ Every line has a number AND a word. 20 in a packet. Not 20.',
-        '⚠ Put the card ON the shelf, not in the office. A card in the office '
-          + 'is a card for the office.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (2.3) teaches: One, and more than one. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: One, and more than one.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

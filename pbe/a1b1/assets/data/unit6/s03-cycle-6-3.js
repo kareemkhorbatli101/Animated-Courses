@@ -204,15 +204,14 @@ PBE1.page('u6-s03', {
         task: 'How long do people wait at your work? Think of four times. Write it.',
         grammar: 'Making somebody wait, properly',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A waiting card is a list with TIMES down the left. Not steps — times.',
-        '⚠ A time tells the reader when to say the line. Then say sorry does '
-          + 'not. At twenty seconds a man who has a card with 20 seconds on it '
-          + 'looks at his watch; a man with after a while on his card says '
-          + 'nothing and loses the call.',
-        '⚠ Put the FIX on the card, not just the words. The pen lives next to '
-          + 'the telephone. A card that only gives you apologies is a card for a '
-          + 'problem nobody is solving.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (6.3) teaches: Making somebody wait, properly. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Making somebody wait, properly.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -232,19 +231,19 @@ PBE1.page('u6-s03', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: People wait for . Nobody tells them / Somebody says .',
+        task: 'Tell the class: — People wait — for —. Nobody tells them / Somebody '
+          + 'says —. (The dashes are blanks the learner fills in with their own '
+          + 'workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'Making somebody wait, properly',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A waiting card is a list with TIMES down the left. Not steps — times.',
-        '⚠ A time tells the reader when to say the line. Then say sorry does '
-          + 'not. At twenty seconds a man who has a card with 20 seconds on it '
-          + 'looks at his watch; a man with after a while on his card says '
-          + 'nothing and loses the call.',
-        '⚠ Put the FIX on the card, not just the words. The pen lives next to '
-          + 'the telephone. A card that only gives you apologies is a card for a '
-          + 'problem nobody is solving.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (6.3) teaches: '
+          + 'Making somebody wait, properly. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Making somebody wait, properly.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -378,7 +377,9 @@ PBE1.page('u6-s03', {
         grammar: 'Making somebody wait, properly',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (6.3) '
+          + 'teaches: Making somebody wait, properly. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
         must: ['A waiting card is a list with TIMES down the left. Not steps — times.',
         '⚠ A time tells the reader when to say the line. Then say sorry does '
           + 'not. At twenty seconds a man who has a card with 20 seconds on it '
@@ -474,15 +475,14 @@ PBE1.page('u6-s03', {
           + 'off? Write the answer.',
         grammar: 'Making somebody wait, properly',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A waiting card is a list with TIMES down the left. Not steps — times.',
-        '⚠ A time tells the reader when to say the line. Then say sorry does '
-          + 'not. At twenty seconds a man who has a card with 20 seconds on it '
-          + 'looks at his watch; a man with after a while on his card says '
-          + 'nothing and loses the call.',
-        '⚠ Put the FIX on the card, not just the words. The pen lives next to '
-          + 'the telephone. A card that only gives you apologies is a card for a '
-          + 'problem nobody is solving.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (6.3) teaches: Making somebody wait, properly. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Making somebody wait, properly.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

@@ -196,13 +196,14 @@ PBE1.page('u6-s02', {
           + 'them and count. Write it.',
         grammar: 'Getting a name you have never heard',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A call list has a time, a name, the letter count and whether it was spelled.',
-        '⚠ Surname first on a list. Mouallem, Ghassan. It is Unit 1.3 again — '
-          + 'a list is for finding a name in, and you find it by the surname.',
-        '⚠ Write the LOST calls too. 11.05 — did not get it, he rang off. A '
-          + 'list of three names from four calls is a lie by omission. A list '
-          + 'that says one got away is honest, and somebody may know who it was.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (6.2) teaches: Getting a name you have never heard. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Getting a name you have never heard.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -222,18 +223,19 @@ PBE1.page('u6-s02', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: My partner said . I wrote . It was letters. It was '
-          + 'right / wrong.',
+        task: 'Tell the class: — My partner said —. I wrote —. It was — letters. It '
+          + 'was right / wrong. (The dashes are blanks the learner fills in with '
+          + 'their own workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'Getting a name you have never heard',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A call list has a time, a name, the letter count and whether it was spelled.',
-        '⚠ Surname first on a list. Mouallem, Ghassan. It is Unit 1.3 again — '
-          + 'a list is for finding a name in, and you find it by the surname.',
-        '⚠ Write the LOST calls too. 11.05 — did not get it, he rang off. A '
-          + 'list of three names from four calls is a lie by omission. A list '
-          + 'that says one got away is honest, and somebody may know who it was.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (6.2) teaches: '
+          + 'Getting a name you have never heard. Judge the language against THAT '
+          + 'and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Getting a name you have never heard.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -367,7 +369,9 @@ PBE1.page('u6-s02', {
         grammar: 'Getting a name you have never heard',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (6.2) '
+          + 'teaches: Getting a name you have never heard. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
         must: ['A call list has a time, a name, the letter count and whether it was spelled.',
         '⚠ Surname first on a list. Mouallem, Ghassan. It is Unit 1.3 again — '
           + 'a list is for finding a name in, and you find it by the surname.',
@@ -460,13 +464,14 @@ PBE1.page('u6-s02', {
           + 'the answer.',
         grammar: 'Getting a name you have never heard',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A call list has a time, a name, the letter count and whether it was spelled.',
-        '⚠ Surname first on a list. Mouallem, Ghassan. It is Unit 1.3 again — '
-          + 'a list is for finding a name in, and you find it by the surname.',
-        '⚠ Write the LOST calls too. 11.05 — did not get it, he rang off. A '
-          + 'list of three names from four calls is a lie by omission. A list '
-          + 'that says one got away is honest, and somebody may know who it was.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (6.2) teaches: Getting a name you have never heard. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Getting a name you have never heard.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

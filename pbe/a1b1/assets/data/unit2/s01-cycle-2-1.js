@@ -181,12 +181,13 @@ PBE1.page('u2-s01', {
           + 'and in numbers.',
         grammar: 'The numbers 0 to 20',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A count sheet has four things: the day → the place → the thing → the number.',
-        '⚠ One line, one thing, one number. A line with two numbers on it is '
-          + 'a line nobody can use.',
-        '⚠ Write the TOTAL at the bottom. A sheet with no total is a sheet '
-          + 'somebody must add up again.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (2.1) teaches: The numbers 0 to 20. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The numbers 0 to 20.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -205,16 +206,19 @@ PBE1.page('u2-s01', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: There are in this room.',
+        task: 'Tell the class: — There are — in this room. (The dashes are blanks '
+          + 'the learner fills in with their own workplace. Judge what they wrote '
+          + 'in them, not the blanks.)',
         grammar: 'The numbers 0 to 20',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A count sheet has four things: the day → the place → the thing → the number.',
-        '⚠ One line, one thing, one number. A line with two numbers on it is '
-          + 'a line nobody can use.',
-        '⚠ Write the TOTAL at the bottom. A sheet with no total is a sheet '
-          + 'somebody must add up again.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (2.1) teaches: '
+          + 'The numbers 0 to 20. Judge the language against THAT and against '
+          + 'nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The numbers 0 to 20.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -325,7 +329,9 @@ PBE1.page('u2-s01', {
         grammar: 'The numbers 0 to 20',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (2.1) '
+          + 'teaches: The numbers 0 to 20. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
         must: ['A count sheet has four things: the day → the place → the thing → the number.',
         '⚠ One line, one thing, one number. A line with two numbers on it is '
           + 'a line nobody can use.',
@@ -413,12 +419,13 @@ PBE1.page('u2-s01', {
           + 'Write the answer.',
         grammar: 'The numbers 0 to 20',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A count sheet has four things: the day → the place → the thing → the number.',
-        '⚠ One line, one thing, one number. A line with two numbers on it is '
-          + 'a line nobody can use.',
-        '⚠ Write the TOTAL at the bottom. A sheet with no total is a sheet '
-          + 'somebody must add up again.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (2.1) teaches: The numbers 0 to 20. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The numbers 0 to 20.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

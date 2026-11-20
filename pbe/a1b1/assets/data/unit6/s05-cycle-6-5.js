@@ -205,15 +205,13 @@ PBE1.page('u6-s05', {
           + 'read back. Write it.',
         grammar: 'Taking a telephone number',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A numbers list has a time, a name, the number and whether you read it back.',
-        '⚠ Write the number in GROUPS on the page too. 0944 112 233. A '
-          + 'twelve-digit string with no gaps is a number you will misread next '
-          + 'week — and you are the next week\'s reader.',
-        '⚠ Write the bad number with question marks in it: 0988 3?? 410. Nine '
-          + 'digits out of eleven is not nothing. Somebody in the office may '
-          + 'recognise it, and a blank line is the only version of it that is '
-          + 'certainly useless.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (6.5) teaches: Taking a telephone number. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Taking a telephone number.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -233,19 +231,19 @@ PBE1.page('u6-s05', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: I wrote . I read it back. It was right / wrong in the group.',
+        task: 'Tell the class: — I wrote —. I read it back. It was right / wrong in '
+          + 'the — group. (The dashes are blanks the learner fills in with their '
+          + 'own workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'Taking a telephone number',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A numbers list has a time, a name, the number and whether you read it back.',
-        '⚠ Write the number in GROUPS on the page too. 0944 112 233. A '
-          + 'twelve-digit string with no gaps is a number you will misread next '
-          + 'week — and you are the next week\'s reader.',
-        '⚠ Write the bad number with question marks in it: 0988 3?? 410. Nine '
-          + 'digits out of eleven is not nothing. Somebody in the office may '
-          + 'recognise it, and a blank line is the only version of it that is '
-          + 'certainly useless.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (6.5) teaches: '
+          + 'Taking a telephone number. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Taking a telephone number.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -387,7 +385,9 @@ PBE1.page('u6-s05', {
         grammar: 'Taking a telephone number',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (6.5) '
+          + 'teaches: Taking a telephone number. Judge the language against THAT '
+          + 'and against nothing the course has not taught yet.',
         must: ['A numbers list has a time, a name, the number and whether you read it back.',
         '⚠ Write the number in GROUPS on the page too. 0944 112 233. A '
           + 'twelve-digit string with no gaps is a number you will misread next '
@@ -485,15 +485,13 @@ PBE1.page('u6-s05', {
           + 'of him? Write the answer.',
         grammar: 'Taking a telephone number',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A numbers list has a time, a name, the number and whether you read it back.',
-        '⚠ Write the number in GROUPS on the page too. 0944 112 233. A '
-          + 'twelve-digit string with no gaps is a number you will misread next '
-          + 'week — and you are the next week\'s reader.',
-        '⚠ Write the bad number with question marks in it: 0988 3?? 410. Nine '
-          + 'digits out of eleven is not nothing. Somebody in the office may '
-          + 'recognise it, and a blank line is the only version of it that is '
-          + 'certainly useless.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (6.5) teaches: Taking a telephone number. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Taking a telephone number.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

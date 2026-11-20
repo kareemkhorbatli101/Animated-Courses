@@ -189,12 +189,13 @@ PBE1.page('u3-s04', {
         task: 'Think of two people at your work. Say three things each does. Write it.',
         grammar: 'What HE does, what SHE does',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A who-does-what page has three things on every line: the name → the '
-          + 'time → what the person does, with -s.',
-        '⚠ One person, one line. The same rule as Unit 1.4, and for the same reason.',
-        '⚠ Put the time on every line. A page with jobs and no times cannot '
-          + 'tell you who is in the yard at half past six.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (3.4) teaches: What HE does, what SHE does. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: What HE does, what SHE does.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -213,16 +214,19 @@ PBE1.page('u3-s04', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: starts at . He / She . Then he / she .',
+        task: 'Tell the class: — starts at —. He / She —. Then he / she —. (The '
+          + 'dashes are blanks the learner fills in with their own workplace. '
+          + 'Judge what they wrote in them, not the blanks.)',
         grammar: 'What HE does, what SHE does',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A who-does-what page has three things on every line: the name → the '
-          + 'time → what the person does, with -s.',
-        '⚠ One person, one line. The same rule as Unit 1.4, and for the same reason.',
-        '⚠ Put the time on every line. A page with jobs and no times cannot '
-          + 'tell you who is in the yard at half past six.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (3.4) teaches: '
+          + 'What HE does, what SHE does. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: What HE does, what SHE does.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -342,7 +346,9 @@ PBE1.page('u3-s04', {
         grammar: 'What HE does, what SHE does',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (3.4) '
+          + 'teaches: What HE does, what SHE does. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
         must: ['A who-does-what page has three things on every line: the name → the '
           + 'time → what the person does, with -s.',
         '⚠ One person, one line. The same rule as Unit 1.4, and for the same reason.',
@@ -431,12 +437,13 @@ PBE1.page('u3-s04', {
           + 'that? Write the answer.',
         grammar: 'What HE does, what SHE does',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A who-does-what page has three things on every line: the name → the '
-          + 'time → what the person does, with -s.',
-        '⚠ One person, one line. The same rule as Unit 1.4, and for the same reason.',
-        '⚠ Put the time on every line. A page with jobs and no times cannot '
-          + 'tell you who is in the yard at half past six.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (3.4) teaches: What HE does, what SHE does. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: What HE does, what SHE does.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

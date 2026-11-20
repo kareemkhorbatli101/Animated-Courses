@@ -162,6 +162,16 @@
     var L = [];
     cfg = cfg || {};
     if (!cfg.model && card && card.model) cfg.model = card.model;
+    /* SPEECH IS NOT WRITING. See the patch note in
+       tools/course_engine.py. */
+    if (cfg.mode === 'spoken') {
+      L.push('THIS TASK IS SPOKEN. The learner said it aloud to a '
+           + 'partner or to the class, and then wrote down what they '
+           + 'said. Judge WHAT THEY SAID. Say nothing about spelling, '
+           + 'punctuation, capital letters or paragraphing, and nothing '
+           + 'about handwriting or layout. Under Reader, judge whether '
+           + 'a listener would have followed it the first time.');
+    }
     L.push('TASK: ' + cfg.task);
     L.push('THE GRAMMAR THIS UNIT TEACHES: ' + cfg.grammar);
     if (cfg.reader) L.push('WRITTEN FOR: ' + cfg.reader);

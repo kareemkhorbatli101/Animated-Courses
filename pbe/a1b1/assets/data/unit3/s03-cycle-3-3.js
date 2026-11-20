@@ -200,13 +200,13 @@ PBE1.page('u3-s03', {
         task: 'Write it. Six things you do every day, in order. Then tell your partner.',
         grammar: 'What I do every day',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A what-I-do list has three things: a number on every line → one job '
-          + 'on every line → in order.',
-        '⚠ One job on one line. I check the shelves and write the numbers is '
-          + 'two jobs, and the second one gets forgotten.',
-        '⚠ Put your name and the day at the top. A list of jobs from nobody '
-          + 'is a list the office cannot ask about.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (3.3) teaches: What I do every day. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: What I do every day.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -228,17 +228,19 @@ PBE1.page('u3-s03', {
       '6 I sign out'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: First I . Then I . After that I .',
+        task: 'Tell the class: — First I . Then I . After that I . (The dashes are '
+          + 'blanks the learner fills in with their own workplace. Judge what '
+          + 'they wrote in them, not the blanks.)',
         grammar: 'What I do every day',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A what-I-do list has three things: a number on every line → one job '
-          + 'on every line → in order.',
-        '⚠ One job on one line. I check the shelves and write the numbers is '
-          + 'two jobs, and the second one gets forgotten.',
-        '⚠ Put your name and the day at the top. A list of jobs from nobody '
-          + 'is a list the office cannot ask about.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (3.3) teaches: '
+          + 'What I do every day. Judge the language against THAT and against '
+          + 'nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: What I do every day.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -360,7 +362,9 @@ PBE1.page('u3-s03', {
         grammar: 'What I do every day',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (3.3) '
+          + 'teaches: What I do every day. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
         must: ['A what-I-do list has three things: a number on every line → one job '
           + 'on every line → in order.',
         '⚠ One job on one line. I check the shelves and write the numbers is '
@@ -454,13 +458,13 @@ PBE1.page('u3-s03', {
           + 'job? Write the answer.',
         grammar: 'What I do every day',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A what-I-do list has three things: a number on every line → one job '
-          + 'on every line → in order.',
-        '⚠ One job on one line. I check the shelves and write the numbers is '
-          + 'two jobs, and the second one gets forgotten.',
-        '⚠ Put your name and the day at the top. A list of jobs from nobody '
-          + 'is a list the office cannot ask about.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (3.3) teaches: What I do every day. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: What I do every day.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

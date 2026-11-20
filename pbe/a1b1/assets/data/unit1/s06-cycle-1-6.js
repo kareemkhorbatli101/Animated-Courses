@@ -190,13 +190,13 @@ PBE1.page('u1-s06', {
           + 'Then check them.',
         grammar: 'When you do not understand',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A paper for one person has four things: the name → the number → the '
-          + 'place → what to do if there is a problem.',
-        '⚠ Write a number that can be read two ways twice: 14 (one four). It '
-          + 'costs four words and it saves a day.',
-        '⚠ Put your name at the end — even two letters. A paper from nobody '
-          + 'is a paper nobody will ask about.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (1.6) teaches: When you do not understand. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: When you do not understand.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -216,17 +216,19 @@ PBE1.page('u1-s06', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: I said numbers. My partner wrote right. The hard one was .',
+        task: 'Tell the class: — I said — numbers. My partner wrote — right. The '
+          + 'hard one was —. (The dashes are blanks the learner fills in with '
+          + 'their own workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'When you do not understand',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A paper for one person has four things: the name → the number → the '
-          + 'place → what to do if there is a problem.',
-        '⚠ Write a number that can be read two ways twice: 14 (one four). It '
-          + 'costs four words and it saves a day.',
-        '⚠ Put your name at the end — even two letters. A paper from nobody '
-          + 'is a paper nobody will ask about.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (1.6) teaches: '
+          + 'When you do not understand. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: When you do not understand.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -346,7 +348,9 @@ PBE1.page('u1-s06', {
         grammar: 'When you do not understand',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (1.6) '
+          + 'teaches: When you do not understand. Judge the language against THAT '
+          + 'and against nothing the course has not taught yet.',
         must: ['A paper for one person has four things: the name → the number → the '
           + 'place → what to do if there is a problem.',
         '⚠ Write a number that can be read two ways twice: 14 (one four). It '
@@ -437,13 +441,13 @@ PBE1.page('u1-s06', {
           + 'Write the answer.',
         grammar: 'When you do not understand',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A paper for one person has four things: the name → the number → the '
-          + 'place → what to do if there is a problem.',
-        '⚠ Write a number that can be read two ways twice: 14 (one four). It '
-          + 'costs four words and it saves a day.',
-        '⚠ Put your name at the end — even two letters. A paper from nobody '
-          + 'is a paper nobody will ask about.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (1.6) teaches: When you do not understand. Judge the language '
+          + 'against THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: When you do not understand.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

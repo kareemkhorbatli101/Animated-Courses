@@ -196,15 +196,13 @@ PBE1.page('u4-s06', {
         task: 'Say three things you can do at your work and three you cannot. Write it.',
         grammar: 'can and cannot',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A safety paper has four lines and one warning: where the thing lives '
-          + '→ who can use it → when you need it → what to do when it is not '
-          + 'there → the warning.',
-        '⚠ The fourth line is the one that makes the paper work. A rule with '
-          + 'no answer for what if it is not here is a rule that gets broken by a '
-          + 'man doing his job.',
-        '⚠ The warning says what will happen, not just what not to do. A man '
-          + 'on a carton is a man in hospital. Nine words. Nobody forgets them.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (4.6) teaches: can and cannot. Judge the language against THAT '
+          + 'and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: can and cannot.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -224,19 +222,19 @@ PBE1.page('u4-s06', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: I can . I cannot . So I .',
+        task: 'Tell the class: — I can —. I cannot —. So I . (The dashes are blanks '
+          + 'the learner fills in with their own workplace. Judge what they wrote '
+          + 'in them, not the blanks.)',
         grammar: 'can and cannot',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A safety paper has four lines and one warning: where the thing lives '
-          + '→ who can use it → when you need it → what to do when it is not '
-          + 'there → the warning.',
-        '⚠ The fourth line is the one that makes the paper work. A rule with '
-          + 'no answer for what if it is not here is a rule that gets broken by a '
-          + 'man doing his job.',
-        '⚠ The warning says what will happen, not just what not to do. A man '
-          + 'on a carton is a man in hospital. Nine words. Nobody forgets them.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (4.6) teaches: '
+          + 'can and cannot. Judge the language against THAT and against nothing '
+          + 'the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: can and cannot.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -368,7 +366,9 @@ PBE1.page('u4-s06', {
         grammar: 'can and cannot',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (4.6) '
+          + 'teaches: can and cannot. Judge the language against THAT and against '
+          + 'nothing the course has not taught yet.',
         must: ['A safety paper has four lines and one warning: where the thing lives '
           + '→ who can use it → when you need it → what to do when it is not '
           + 'there → the warning.',
@@ -468,15 +468,13 @@ PBE1.page('u4-s06', {
           + 'doing that? Write the answer.',
         grammar: 'can and cannot',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A safety paper has four lines and one warning: where the thing lives '
-          + '→ who can use it → when you need it → what to do when it is not '
-          + 'there → the warning.',
-        '⚠ The fourth line is the one that makes the paper work. A rule with '
-          + 'no answer for what if it is not here is a rule that gets broken by a '
-          + 'man doing his job.',
-        '⚠ The warning says what will happen, not just what not to do. A man '
-          + 'on a carton is a man in hospital. Nine words. Nobody forgets them.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (4.6) teaches: can and cannot. Judge the language against THAT '
+          + 'and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: can and cannot.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

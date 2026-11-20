@@ -200,18 +200,14 @@ PBE1.page('u6-s06', {
         task: 'Four messages you have taken. What did you promise? What did you do? Write it.',
         grammar: 'Promising to pass a message on',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A message slip has seven things: for → taken by → date → time → '
-          + 'from, spelled → number, read back → the message.',
-        '⚠ Taken by matters as much as for. A message with no taker is a '
-          + 'message nobody can ask a question about — and there is always a '
-          + 'question.',
-        '⚠ The tick after the number is the smallest and most useful mark on '
-          + 'the slip. It says the number was read back. A number with no tick is '
-          + 'a number the reader should ring once and not trust.',
-        '⚠ And the last line: what happens NEXT. He rings back at four. I '
-          + 'told her at two as well. The slip is not the end of the job; it is '
-          + 'the record of a job that is still happening.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (6.6) teaches: Promising to pass a message on. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Promising to pass a message on.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -231,23 +227,19 @@ PBE1.page('u6-s06', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: I said I would tell at . I wrote a slip and put it . '
-          + 'He got it .',
+        task: 'Tell the class: — I said I would tell — at —. I wrote a slip and put '
+          + 'it —. He got it —. (The dashes are blanks the learner fills in with '
+          + 'their own workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'Promising to pass a message on',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A message slip has seven things: for → taken by → date → time → '
-          + 'from, spelled → number, read back → the message.',
-        '⚠ Taken by matters as much as for. A message with no taker is a '
-          + 'message nobody can ask a question about — and there is always a '
-          + 'question.',
-        '⚠ The tick after the number is the smallest and most useful mark on '
-          + 'the slip. It says the number was read back. A number with no tick is '
-          + 'a number the reader should ring once and not trust.',
-        '⚠ And the last line: what happens NEXT. He rings back at four. I '
-          + 'told her at two as well. The slip is not the end of the job; it is '
-          + 'the record of a job that is still happening.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (6.6) teaches: '
+          + 'Promising to pass a message on. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Promising to pass a message on.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -390,7 +382,9 @@ PBE1.page('u6-s06', {
         grammar: 'Promising to pass a message on',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (6.6) '
+          + 'teaches: Promising to pass a message on. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
         must: ['A message slip has seven things: for → taken by → date → time → '
           + 'from, spelled → number, read back → the message.',
         '⚠ Taken by matters as much as for. A message with no taker is a '
@@ -497,18 +491,14 @@ PBE1.page('u6-s06', {
           + 'lost? Write the answer.',
         grammar: 'Promising to pass a message on',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A message slip has seven things: for → taken by → date → time → '
-          + 'from, spelled → number, read back → the message.',
-        '⚠ Taken by matters as much as for. A message with no taker is a '
-          + 'message nobody can ask a question about — and there is always a '
-          + 'question.',
-        '⚠ The tick after the number is the smallest and most useful mark on '
-          + 'the slip. It says the number was read back. A number with no tick is '
-          + 'a number the reader should ring once and not trust.',
-        '⚠ And the last line: what happens NEXT. He rings back at four. I '
-          + 'told her at two as well. The slip is not the end of the job; it is '
-          + 'the record of a job that is still happening.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (6.6) teaches: Promising to pass a message on. Judge the '
+          + 'language against THAT and against nothing the course has not taught '
+          + 'yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: Promising to pass a message on.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {

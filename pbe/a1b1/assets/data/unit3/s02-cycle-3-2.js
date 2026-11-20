@@ -203,13 +203,13 @@ PBE1.page('u3-s02', {
         task: 'Say four times from your own day. Your partner writes it both ways.',
         grammar: 'The time, two ways',
         focus: 'Whether the answer answers the question that was actually asked, and '
-          + 'whether it uses this cycle\'s grammar. Not style. Not length.',
-        must: ['A times notice has four lines: gate → the first job → break → finish.',
-        '⚠ Write the clock number AND the words. 7.15 (quarter past seven). '
-          + 'Some men read numbers and some read words.',
-        '⚠ Use 16.00 for four in the afternoon on a notice. A lorry at 4.00 '
-          + 'could be morning or afternoon, and once a year somebody comes at the '
-          + 'wrong one.']
+          + 'whether it uses this cycle\'s grammar. Not style. Not length. This '
+          + 'cycle (3.2) teaches: The time, two ways. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The time, two ways.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -229,17 +229,19 @@ PBE1.page('u3-s02', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
-        task: 'Tell the class: I start at . That is and . My break is at .',
+        task: 'Tell the class: — I start at —. That is — and —. My break is at —. '
+          + '(The dashes are blanks the learner fills in with their own '
+          + 'workplace. Judge what they wrote in them, not the blanks.)',
         grammar: 'The time, two ways',
-        focus: 'Whether the report says who the person is AND what their job is, in '
-          + 'two sentences that both have a verb. The verb going missing in the '
-          + 'second sentence is the commonest mistake in this unit.',
-        must: ['A times notice has four lines: gate → the first job → break → finish.',
-        '⚠ Write the clock number AND the words. 7.15 (quarter past seven). '
-          + 'Some men read numbers and some read words.',
-        '⚠ Use 16.00 for four in the afternoon on a notice. A lorry at 4.00 '
-          + 'could be morning or afternoon, and once a year somebody comes at the '
-          + 'wrong one.']
+        focus: 'Whether the report says the thing the task asks for, in sentences '
+          + 'that each have a verb. A verb going missing in the second sentence '
+          + 'is the commonest mistake at this level. This cycle (3.2) teaches: '
+          + 'The time, two ways. Judge the language against THAT and against '
+          + 'nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The time, two ways.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
@@ -364,7 +366,9 @@ PBE1.page('u3-s02', {
         grammar: 'The time, two ways',
         focus: 'Whether the feedback points at a line and names ONE thing that is '
           + 'missing, which is what the book\'s own feedback box asks for. A '
-          + 'judgement with no line pointed at is not feedback.',
+          + 'judgement with no line pointed at is not feedback. This cycle (3.2) '
+          + 'teaches: The time, two ways. Judge the language against THAT and '
+          + 'against nothing the course has not taught yet.',
         must: ['A times notice has four lines: gate → the first job → break → finish.',
         '⚠ Write the clock number AND the words. 7.15 (quarter past seven). '
           + 'Some men read numbers and some read words.',
@@ -458,13 +462,13 @@ PBE1.page('u3-s02', {
           + 'Write the answer.',
         grammar: 'The time, two ways',
         focus: 'Whether the reply addresses what the partner actually wrote, and '
-          + 'whether the question asked is a real question about that work.',
-        must: ['A times notice has four lines: gate → the first job → break → finish.',
-        '⚠ Write the clock number AND the words. 7.15 (quarter past seven). '
-          + 'Some men read numbers and some read words.',
-        '⚠ Use 16.00 for four in the afternoon on a notice. A lorry at 4.00 '
-          + 'could be morning or afternoon, and once a year somebody comes at the '
-          + 'wrong one.']
+          + 'whether the question asked is a real question about that work. This '
+          + 'cycle (3.2) teaches: The time, two ways. Judge the language against '
+          + 'THAT and against nothing the course has not taught yet.',
+        mode: 'spoken',
+        must: ['Say the whole thing the task asks for - every part of it.',
+        'Use this cycle\'s language: The time, two ways.',
+        'Short enough to say in one breath, at A1.']
       }
     },
     {
