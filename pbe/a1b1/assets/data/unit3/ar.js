@@ -14,14 +14,308 @@ PBE1.arabic({
     'اعملا في ثنائيات. اقرآ الجمل. قولاها. ثم تبادلا الدورين.',
   'Two pairs say the lines for the class — books closed.':
     'يقول ثنائيان الجمل أمام الصف — والكتب مغلقة.',
+  'Tell your partner about your week. Write it.':
+    'أخبر زميلك عن أسبوعك. ثم اكتبه.',
+  'Tell the class: I work to . My day off is . The busy day is .':
+    'قل للصف: أعمل من … إلى … . ويوم راحتي هو … . واليوم المزدحم هو … .',
+  'Read the board. Then answer.':
+    'اقرأ اللوح. ثم أجب.',
+  'Write a week board for your own work ( 15 words or more ).':
+    'اكتب لوح أسبوع لعملك أنت ( ١٥ كلمة أو أكثر ).',
   'Change books. Point at the line. Read it aloud. Say the one thing that is missing.':
     'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص فيه.',
+  'Two students read their busy day. The class says which week looks hardest.':
+    'يقرأ طالبان يومهما المزدحم. ويقول الصف أي أسبوع يبدو الأشقّ.',
+  'Write about your week at work ( 20 to 35 words ). Which days do you work? Which is the busy one? Which is your day off?':
+    'اكتب عن أسبوعك في العمل ( من ٢٠ إلى ٣٥ كلمة ). في أي الأيام تعمل؟ وأيها المزدحم؟ وأيها يوم راحتك؟',
+  'Read your partner\'s work. Ask your partner: Why is that day busy? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: لماذا ذلك اليوم مزدحم؟ ثم اكتب الجواب.',
+  'Read three papers. Which day is busy for most people? Count them on the board.':
+    'اقرأ ثلاث ورقات. أي يوم هو المزدحم عند أكثرهم؟ عُدّوها على اللوح.',
+  'Say four times from your own day. Your partner writes it both ways.':
+    'قل أربعة أوقات من يومك أنت. يكتبها زميلك بالطريقتين.',
+  'Tell the class: I start at . That is and . My break is at .':
+    'قل للصف: أبدأ في … . وهي … و… . واستراحتي في … .',
+  'Read the times on the store wall. Then answer.':
+    'اقرأ الأوقات على حائط المستودع. ثم أجب.',
+  'Write a times notice for your own work ( 15 words or more ).':
+    'اكتب إعلان أوقات لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read one line. The class says the time the other way.':
+    'يقرأ طالبان سطرًا واحدًا. ويقول الصف الوقت بالطريقة الأخرى.',
+  'Write about your times at work ( 20 to 35 words ). When do you start? When is your break? When do you finish?':
+    'اكتب عن أوقاتك في العمل ( من ٢٠ إلى ٣٥ كلمة ). متى تبدأ؟ ومتى استراحتك؟ ومتى تنتهي؟',
+  'Read your partner\'s work. Ask your partner: How long is your break? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: كم تطول استراحتك؟ ثم اكتب الجواب.',
+  'Read three papers. Who has the longest day? Count the hours on the board.':
+    'اقرأ ثلاث ورقات. مَن يومه الأطول؟ عُدّوا الساعات على اللوح.',
+  'Work in pairs. One asks. One says four things in order. Then change places.':
+    'اعملا في ثنائيات. أحدكما يسأل. والآخر يقول أربعة أمور بالترتيب. ثم تبادلا الدورين.',
+  'Write it. Six things you do every day, in order. Then tell your partner.':
+    'اكتبها. ستة أمور تفعلها كل يوم، بالترتيب. ثم أخبر زميلك.',
+  'Tell the class: First I . Then I . After that I .':
+    'قل للصف: أولًا … . ثم … . وبعد ذلك … .',
+  'Read what Nour wrote. Then answer.':
+    'اقرأ ما كتبته نور. ثم أجب.',
+  'Write a what-I-do list for your own job ( 15 words or more ).':
+    'اكتب قائمة «ما أفعله» لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read line 1 and line 6. The class says if the day starts and ends well.':
+    'يقرأ طالبان السطر ١ والسطر ٦. ويقول الصف هل يبدأ اليوم وينتهي على نحو جيد.',
+  'Write about your day at work ( 20 to 35 words ). What do you do first? What do you do last? What is the longest job?':
+    'اكتب عن يومك في العمل ( من ٢٠ إلى ٣٥ كلمة ). ما أول ما تفعله؟ وما آخر ما تفعله؟ وما أطول عمل فيه؟',
+  'Read your partner\'s work. Ask your partner: What is the longest job? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: ما أطول عمل عندك؟ ثم اكتب الجواب.',
+  'Read three papers. Which job takes the longest in this class? Count them on the board.':
+    'اقرأ ثلاث ورقات. أي عمل يأخذ أطول وقت في هذا الصف؟ عُدّوها على اللوح.',
+  'Work in pairs. One asks. One says what the person does. Then change places.':
+    'اعملا في ثنائيات. أحدكما يسأل. والآخر يقول ما يفعله الشخص. ثم تبادلا الدورين.',
+  'Think of two people at your work. Say three things each does. Write it.':
+    'فكّر في شخصين في عملك. قل ثلاثة أمور يفعلها كل منهما. واكتبها.',
+  'Tell the class: starts at . He / She . Then he / she .':
+    'قل للصف: … يبدأ في … . هو / هي … . ثم هو / هي … .',
+  'Read the page Nour wrote for the office. Then answer.':
+    'اقرأ الصفحة التي كتبتها نور للإدارة. ثم أجب.',
+  'Write a who-does-what page for your own work ( 15 words or more ).':
+    'اكتب صفحة «مَن يفعل ماذا» لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read one line. The class listens for the -s.':
+    'يقرأ طالبان سطرًا واحدًا. وينتبه الصف إلى السين في آخر الفعل.',
+  'Write about one person at your work ( 20 to 35 words ). What time do they start? What do they do first? What do they do that nobody else does?':
+    'اكتب عن شخص واحد في عملك ( من ٢٠ إلى ٣٥ كلمة ). في أي ساعة يبدأ؟ وما أول ما يفعله؟ وما الذي يفعله ولا يفعله أحد غيره؟',
+  'Read your partner\'s work. Ask your partner: Does anybody else do that? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل يفعل ذلك أحد غيره؟ ثم اكتب الجواب.',
+  'Read three papers. How many describe a job only one person can do? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم واحدة منها تصف عملًا لا يقدر عليه إلا شخص واحد؟ عُدّوها على اللوح.',
+  'Work in pairs. One asks. One answers. Then change places.':
+    'اعملا في ثنائيات. أحدكما يسأل. والآخر يجيب. ثم تبادلا الدورين.',
+  'Think of a day you want to change. Ask your partner for a swap. Then write it.':
+    'فكّر في يوم تريد تبديله. اطلب من زميلك التبديل. ثم اكتبه.',
+  'Tell the class: I want to swap because . I ask first. Then I tell .':
+    'قل للصف: أريد التبديل لأن … . أسأل … أولًا. ثم أخبر … .',
+  'Read the note on the board. Then answer.':
+    'اقرأ المذكرة على اللوح. ثم أجب.',
+  'Write a swap note for your own work ( 15 words or more ).':
+    'اكتب مذكرة تبديل لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their note. The class says if anybody is missing from the shift.':
+    'يقرأ طالبان مذكرتهما. ويقول الصف هل ينقص الدوام أحد.',
+  'Write about a day you needed off ( 20 to 35 words ). What day? Why? Who did you ask? What happened?':
+    'اكتب عن يوم احتجت فيه إلى راحة ( من ٢٠ إلى ٣٥ كلمة ). أي يوم؟ ولماذا؟ ومن سألت؟ وماذا حدث؟',
+  'Read your partner\'s work. Ask your partner: Who did you ask first? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: من سألت أولًا؟ ثم اكتب الجواب.',
+  'Read three papers. In how many did the writer ask the other worker first? Count them on the board.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها سأل الكاتب العامل الآخر أولًا؟ عُدّوها على اللوح.',
+  'Work in pairs. One is late. One is the supervisor. Then change places.':
+    'اعملا في ثنائيات. أحدكما متأخر. والآخر هو المشرف. ثم تبادلا الدورين.',
+  'Think of two times you were late. Write it. Time first, then the reason.':
+    'فكّر في مرتين تأخرت فيهما. اكتبهما. الوقت أولًا، ثم السبب.',
+  'Tell the class: I was minutes late. . Next time I .':
+    'قل للصف: تأخرتُ … دقيقة. … . وفي المرة القادمة … .',
+  'Read the note Ammar left on the table. Then answer.':
+    'اقرأ المذكرة التي تركها عمّار على الطاولة. ثم أجب.',
+  'Write a late note for your own work ( 15 words or more ).':
+    'اكتب مذكرة تأخّر لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their next time line. The class says if it is a plan or an apology.':
+    'يقرأ طالبان سطر «في المرة القادمة». ويقول الصف هل هو خطة أم اعتذار.',
+  'Write about a day you were late ( 20 to 35 words ). How late? Why? Who did your job? What do you do now?':
+    'اكتب عن يوم تأخرت فيه ( من ٢٠ إلى ٣٥ كلمة ). كم تأخرت؟ ولماذا؟ ومن قام بعملك؟ وماذا تفعل الآن؟',
+  'Read your partner\'s work. Ask your partner: Did you telephone? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل اتصلت؟ ثم اكتب الجواب.',
+  'Read three papers. In how many did somebody telephone? Count them on the board.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها اتصل أحدٌ بالهاتف؟ عُدّوها على اللوح.',
+  'Work in pairs. One is Samih. One is Abu Yasser. Say why you are right.':
+    'اعملا في ثنائيات. أحدكما سميح. والآخر أبو ياسر. وليقل كلٌّ لماذا هو محق.',
   'Two pairs say the two sides for the class — books closed.':
     'يعرض ثنائيان وجهتَي النظر أمام الصف — والكتب مغلقة.',
+  'Think of something at your work that everybody knows and no paper says. Tell your partner. Write it.':
+    'فكّر في شيء في عملك يعرفه الجميع ولا تذكره أي ورقة. أخبر زميلك. واكتبه.',
+  'The problem. Hani swapped eleven times. He asked the right man every time. He always came. Nobody wrote it on the board, and the office pays from the board.':
+    'المشكلة. هاني بدّل إحدى عشرة مرة. وسأل الرجل الصحيح في كل مرة. وجاء دائمًا. ولم يكتب أحد ذلك على اللوح، والإدارة تدفع بحسب اللوح.',
   'Read the five notices. What does each one say? Choose A, B or C.':
     'اقرأ الإعلانات الخمسة. ماذا يقول كل واحد منها؟ اختر A أو B أو C.',
+  'Write a message asking to swap a day ( four sentences, about 30 words ). Say the day, who you want to swap with, why, and what you are asking.':
+    'اكتب رسالة تطلب فيها تبديل يوم ( أربع جمل، نحو ٣٠ كلمة ). اذكر اليوم، ومن تريد التبديل معه، والسبب، وما الذي تطلبه.',
   'Change books. Point at the line. Read it aloud. Say the one thing that is missing. Count the sentences: four.':
     'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص. ثم عُدّ الجمل: أربع.',
+  'Write a message to your supervisor about a swap ( four sentences, about 30 words ). Say the day, who agreed, why, and ask for it to go on the board.':
+    'اكتب رسالة إلى مشرفك عن تبديل ( أربع جمل، نحو ٣٠ كلمة ). اذكر اليوم، ومن وافق، والسبب، واطلب أن يُكتب على اللوح.',
+  'You work Sunday to Thursday. Five days.':
+    'تعمل من الأحد إلى الخميس. خمسة أيام.',
+  'Sunday, Monday, Tuesday, Wednesday, Thursday. Five.':
+    'الأحد، الاثنين، الثلاثاء، الأربعاء، الخميس. خمسة.',
+  'Friday is your day off. Saturday too, this month.':
+    'الجمعة يوم راحتك. والسبت أيضًا، هذا الشهر.',
+  'And the big delivery?':
+    'وماذا عن الإرسالية الكبيرة؟',
+  'On Monday. Always on Monday. Twelve pallets.':
+    'يوم الاثنين. دائمًا يوم الاثنين. اثنتا عشرة منصّة.',
+  'On Monday. I will be here early.':
+    'يوم الاثنين. سأكون هنا مبكّرًا.',
+  'Good. On Monday everybody is here early.':
+    'جيد. يوم الاثنين يكون الجميع هنا مبكّرين.',
+  'And on Thursday?':
+    'وماذا عن الخميس؟',
+  'On Thursday we count. Every Thursday, the whole store.':
+    'يوم الخميس نعدّ. كل خميس، المستودع كله.',
+  'Sunday to Thursday. Five days.':
+    'من الأحد إلى الخميس. خمسة أيام.',
+  'Friday is your day off.':
+    'الجمعة يوم راحتك.',
+  'On Monday. Always on Monday.':
+    'يوم الاثنين. دائمًا يوم الاثنين.',
+  'The lorry comes at quarter past seven.':
+    'تأتي الشاحنة في السابعة والربع.',
+  'Quarter past seven. Seven fifteen.':
+    'السابعة والربع. السابعة وخمس عشرة دقيقة.',
+  'Seven fifteen. Say it both ways. Some men say one, some say the other.':
+    'السابعة وخمس عشرة دقيقة. قُلها بالطريقتين. بعض الرجال يقول هذه، وبعضهم يقول الأخرى.',
+  'And me?':
+    'وأنا؟',
+  'At the gate at seven. Not quarter past. Seven.':
+    'على البوابة في السابعة. لا السابعة والربع. السابعة.',
+  'Fifteen minutes early.':
+    'قبل الموعد بخمس عشرة دقيقة.',
+  'Fifteen minutes early. The break is at half past ten.':
+    'قبل الموعد بخمس عشرة دقيقة. والاستراحة في العاشرة والنصف.',
+  'Half past ten. Ten thirty.':
+    'العاشرة والنصف. العاشرة وثلاثون دقيقة.',
+  'Both ways. Good. You learn fast.':
+    'بالطريقتين. جيد. أنت تتعلّم بسرعة.',
+  'Say it both ways. And you?':
+    'قُلها بالطريقتين. وأنت؟',
+  'At the gate at seven.':
+    'على البوابة في السابعة.',
+  'Ammar, what do you do every day? The office needs it on paper.':
+    'عمّار، ماذا تفعل كل يوم؟ الإدارة تريده مكتوبًا على ورق.',
+  'I sign in at the gate. I read the shift board.':
+    'أوقّع الحضور على البوابة. وأقرأ لوح الدوام.',
+  'Then?':
+    'ثم؟',
+  'I check the shelves. I write the numbers on the sheet.':
+    'أتفقّد الرفوف. وأكتب الأرقام على الورقة.',
+  'Before the break?':
+    'قبل الاستراحة؟',
+  'Before the break. Four things. Then the lorry comes.':
+    'قبل الاستراحة. أربعة أمور. ثم تأتي الشاحنة.',
+  'And at the end?':
+    'وفي النهاية؟',
+  'I put the sheet on Abu Yasser\'s table. I sign out.':
+    'أضع الورقة على طاولة أبي ياسر. وأوقّع الخروج.',
+  'Good. Six things. I write them down.':
+    'جيد. ستة أمور. سأكتبها.',
+  'What do you do every day?':
+    'ماذا تفعل كل يوم؟',
+  'I sign in. I read the board.':
+    'أوقّع الحضور. وأقرأ اللوح.',
+  'I check the shelves. I write the numbers.':
+    'أتفقّد الرفوف. وأكتب الأرقام.',
+  'I put the sheet on the table. I sign out.':
+    'أضع الورقة على الطاولة. وأوقّع الخروج.',
+  'And Fadi? What does he do?':
+    'وفادي؟ ماذا يفعل هو؟',
+  'He starts at six. He checks the lorry. Then he drives to Homs.':
+    'يبدأ في السادسة. يتفقّد الشاحنة. ثم يسوق إلى حمص.',
+  'Six. Earlier than you.':
+    'السادسة. أبكر منك.',
+  'An hour earlier. He finishes later too.':
+    'أبكر بساعة. وينتهي متأخرًا أيضًا.',
   'And Majd?':
-    'ومجد؟'
+    'ومجد؟',
+  'He opens the counter at eight. He counts the money first. Then the customers come.':
+    'يفتح الكاونتر في الثامنة. يعدّ النقود أولًا. ثم يأتي الزبائن.',
+  'He counts the money before the customers?':
+    'يعدّ النقود قبل الزبائن؟',
+  'Before. Always before. He says you cannot count with people waiting.':
+    'قبلهم. دائمًا قبلهم. يقول إنك لا تستطيع العدّ والناس ينتظرون.',
+  'That is true. I write that down too.':
+    'هذا صحيح. سأكتب هذا أيضًا.',
+  'What does Fadi do?':
+    'ماذا يفعل فادي؟',
+  'He starts at six. He checks the lorry.':
+    'يبدأ في السادسة. يتفقّد الشاحنة.',
+  'Earlier than you?':
+    'أبكر منك؟',
+  'An hour earlier.':
+    'أبكر بساعة.',
+  'He opens the counter at eight.':
+    'يفتح الكاونتر في الثامنة.',
+  'Abu Yasser, when is the count this week?':
+    'أبا ياسر، متى العدّ هذا الأسبوع؟',
+  'Thursday. Every Thursday.':
+    'الخميس. كل خميس.',
+  'Can I swap Thursday? My brother is in hospital on Thursday.':
+    'هل أستطيع تبديل الخميس؟ أخي في المستشفى يوم الخميس.',
+  'Swap with who?':
+    'تبديل مع من؟',
+  'With Samih. He is off on Thursday.':
+    'مع سميح. هو في راحة يوم الخميس.',
+  'Then ask Samih first. Not me.':
+    'إذًا اسأل سميحًا أولًا. لا أنا.',
+  'And if he says yes?':
+    'وإن قال نعم؟',
+  'If he says yes, come and tell me and I write it on the board.':
+    'إن قال نعم، فتعال وأخبرني وأكتبها على اللوح.',
+  'I ask him today. Then I tell you.':
+    'أسأله اليوم. ثم أخبرك.',
+  'When is the count this week?':
+    'متى العدّ هذا الأسبوع؟',
+  'Can I swap Thursday? My brother is in hospital.':
+    'هل أستطيع تبديل الخميس؟ أخي في المستشفى.',
+  'With Samih.':
+    'مع سميح.',
+  'Abu Yasser. I am twenty minutes late. The road was closed at Jaramana.':
+    'أبا ياسر. تأخرتُ عشرين دقيقة. كان الطريق مغلقًا عند جرمانا.',
+  'Twenty minutes. All right.':
+    'عشرون دقيقة. حسنًا.',
+  'I am sorry.':
+    'أنا آسف.',
+  'Say the time and the reason. You did. That is enough.':
+    'قل الوقت والسبب. وقد فعلت. وهذا يكفي.',
+  'The lorry?':
+    'والشاحنة؟',
+  'The lorry came at quarter past. Samih took it.':
+    'جاءت الشاحنة في الربع. وتولّاها سميح.',
+  'I will tell Samih thank you.':
+    'سأشكر سميحًا.',
+  'Do. And next time, telephone. Two minutes on the telephone and I move a man.':
+    'افعل. وفي المرة القادمة، اتّصل. دقيقتان على الهاتف وأنقل رجلًا مكانك.',
+  'I telephone. From the road.':
+    'سأتّصل. من الطريق.',
+  'It came at quarter past. Samih took it.':
+    'جاءت في الربع. وتولّاها سميح.',
+  'And next time, telephone.':
+    'وفي المرة القادمة، اتّصل.',
+  'Hani has swapped eleven times this year. Nobody wrote one of them on the board.':
+    'هاني بدّل إحدى عشرة مرة هذا العام. ولم يكتب أحد واحدة منها على اللوح.',
+  'Eleven?':
+    'إحدى عشرة؟',
+  'I counted the sheets. Eleven.':
+    'عددتُ الورقات. إحدى عشرة.',
+  'He always asks me first. He never asks you.':
+    'هو يسألني أنا أولًا دائمًا. ولا يسألك أنت أبدًا.',
+  'That is the right order. 3.5. Ask the other man first.':
+    'وهذا هو الترتيب الصحيح. ٣.٥. اسأل الرجل الآخر أولًا.',
+  'And he always comes. He has never once not come.':
+    'وهو يأتي دائمًا. ولم يتخلّف مرة واحدة.',
+  'So where is the problem?':
+    'فأين المشكلة إذًا؟',
+  'The board says Hani on Thursday. The board is wrong eleven times.':
+    'اللوح يقول «هاني يوم الخميس». واللوح مخطئ إحدى عشرة مرة.',
+  'The men know. We all know.':
+    'الرجال يعرفون. كلنا نعرف.',
+  'The men know. The office does not. And the office pays.':
+    'الرجال يعرفون. والإدارة لا تعرف. والإدارة هي التي تدفع.',
+  'Samih, are you off on Tuesday?':
+    'سميح، هل أنت في راحة يوم الثلاثاء؟',
+  'Tuesday. Yes.':
+    'الثلاثاء. نعم.',
+  'Can I swap? My mother is in hospital on Tuesday.':
+    'هل أستطيع التبديل؟ أمي في المستشفى يوم الثلاثاء.',
+  'All right. I take your Tuesday, you take my Saturday.':
+    'حسنًا. آخذ أنا ثلاثاءك، وتأخذ أنت سبتي.',
+  'Thank you. I tell Abu Yasser today.':
+    'شكرًا لك. سأخبر أبا ياسر اليوم.',
+  'Tell him today. Not Monday.':
+    'أخبره اليوم. لا يوم الاثنين.',
+  'Today. And the lorry comes at quarter past seven, yes?':
+    'اليوم. والشاحنة تأتي في السابعة والربع، صحيح؟',
+  'Quarter past seven. You were thirty minutes late on Thursday. Do not be late again.':
+    'السابعة والربع. تأخرتَ ثلاثين دقيقة يوم الخميس. لا تتأخر مرة أخرى.'
 });

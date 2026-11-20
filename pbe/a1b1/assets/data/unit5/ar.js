@@ -10,14 +10,316 @@ PBE1.arabic({
     'اختر الجواب.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
+  'Work in pairs. One has the note. One asks. Then change places.':
+    'اعملا في ثنائيات. مع أحدكما المذكرة. والآخر يسأل. ثم تبادلا الدورين.',
   'Two pairs say the lines for the class — books closed.':
     'يقول ثنائيان الجمل أمام الصف — والكتب مغلقة.',
+  'Find a real paper from your work, or draw one. Find the four things. Write it.':
+    'أحضر ورقة حقيقية من عملك، أو ارسم واحدة. جد الأمور الأربعة فيها. واكتبها.',
+  'Tell the class: My paper says at the top. The date is . The quantity is . The line is .':
+    'قل للصف: ورقتي تقول … في الأعلى. والتاريخ … . والكمية … . والسطر … .',
+  'Read the note Nour put on the wall. Then answer.':
+    'اقرأ المذكرة التي علّقتها نور على الحائط. ثم أجب.',
+  'Write a before-you-sign list for your own work ( 15 words or more ).':
+    'اكتب قائمة «قبل أن توقّع» لعملك أنت ( ١٥ كلمة أو أكثر ).',
   'Change books. Point at the line. Read it aloud. Say the one thing that is missing.':
     'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص فيه.',
+  'Two students read their escape line. The class says if they could say it to a driver who is in a hurry.':
+    'يقرأ طالبان جملة الخروج التي كتباها. ويقول الصف هل يمكن قولها لسائق مستعجل.',
+  'Write about a paper you sign at work ( 20 to 35 words ). What is on it? Do you read it? What happens if it is wrong?':
+    'اكتب عن ورقة توقّعها في العمل ( من ٢٠ إلى ٣٥ كلمة ). ما المكتوب فيها؟ وهل تقرأها؟ وماذا يحدث إن كانت خاطئة؟',
+  'Read your partner\'s work. Ask your partner: Have you ever signed something you had not checked? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل وقّعتَ يومًا على شيء لم تتحقق منه؟ ثم اكتب الجواب.',
+  'Read three papers. How many people have signed something they had not checked? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم شخصًا وقّع على شيء لم يتحقق منه؟ عُدّوهم على اللوح.',
+  'Work in pairs. One asks. One answers. Then change places.':
+    'اعملا في ثنائيات. أحدكما يسأل. والآخر يجيب. ثم تبادلا الدورين.',
+  'Write four dates from your life in numbers. Give them to your partner. They write them in letters.':
+    'اكتب أربعة تواريخ من حياتك بالأرقام. أعطها لزميلك. فيكتبها هو بالحروف.',
+  'Tell the class: My partner wrote . In letters that is . It could also be .':
+    'قل للصف: كتب زميلي … . وبالحروف هي … . ويمكن أن تكون أيضًا … .',
+  'Read the top of the real note. Then answer.':
+    'اقرأ أعلى المذكرة الحقيقية. ثم أجب.',
+  'Write the top of a delivery note for your own work, and fill in the two empty lines ( 15 words or more ).':
+    'اكتب أعلى مذكرة تسليم لعملك أنت، واملأ السطرين الفارغين ( ١٥ كلمة أو أكثر ).',
+  'Two students read their pencil note. The class says if they could follow the reasoning.':
+    'يقرأ طالبان ملاحظتهما بالقلم. ويقول الصف هل أمكنهم تتبّع الاستدلال.',
+  'Write about dates at your work ( 20 to 35 words ). How are they written? Has a date ever been read the wrong way? What happened?':
+    'اكتب عن التواريخ في عملك ( من ٢٠ إلى ٣٥ كلمة ). كيف تُكتب؟ وهل قُرئ تاريخ يومًا على نحو خاطئ؟ وماذا حدث؟',
+  'Read your partner\'s work. Ask your partner: Which way does your company write them? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: بأي طريقة تكتبها شركتك؟ ثم اكتب الجواب.',
+  'Read three papers. How many companies write the month in letters? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم شركة تكتب الشهر بالحروف؟ عُدّوها على اللوح.',
+  'Work in pairs. One is the driver. One is the storeman. Then change places.':
+    'اعملا في ثنائيات. أحدكما السائق. والآخر أمين المستودع. ثم تبادلا الدورين.',
+  'Say six quantities from your work. Write it with the unit every time.':
+    'قل ست كميات من عملك. واكتبها مع وحدة القياس في كل مرة.',
+  'Tell the class: We get every week. They come on , on each.':
+    'قل للصف: نستلم … كل أسبوع. وتأتي على … ، على كل واحدة … .',
+  'Read the middle of the real note. Then answer.':
+    'اقرأ وسط المذكرة الحقيقية. ثم أجب.',
+  'Write the goods lines of a delivery note for your own work ( 15 words or more ).':
+    'اكتب سطور البضاعة في مذكرة تسليم لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read one line. The class asks what? if the unit is missing.':
+    'يقرأ طالبان سطرًا واحدًا. ويسأل الصف «ماذا؟» إن كانت وحدة القياس ناقصة.',
+  'Write about the quantities at your work ( 20 to 35 words ). What unit do you count in? Has a number ever been counted in the wrong unit? What happened?':
+    'اكتب عن الكميات في عملك ( من ٢٠ إلى ٣٥ كلمة ). بأي وحدة تعدّ؟ وهل عُدّ رقم يومًا بوحدة خاطئة؟ وماذا حدث؟',
+  'Read your partner\'s work. Ask your partner: How many in one of those? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: كم في الواحدة منها؟ ثم اكتب الجواب.',
+  'Read three papers. How many different units does this class count in? Count them on the board.':
+    'اقرأ ثلاث ورقات. بكم وحدة مختلفة يعدّ هذا الصف؟ عُدّوها على اللوح.',
+  'Work in pairs. One is the driver, in a hurry. One is the storeman. Then change places.':
+    'اعملا في ثنائيات. أحدكما السائق، وهو مستعجل. والآخر أمين المستودع. ثم تبادلا الدورين.',
+  'Your partner is a driver in a hurry. Ask your partner for two minutes. Then write it.':
+    'زميلك سائق مستعجل. اطلب منه دقيقتين. ثم اكتبها.',
+  'Tell the class: He said . I said . I asked for minutes. I wrote .':
+    'قل للصف: قال … . وقلتُ … . وطلبتُ … دقيقة. وكتبتُ … .',
+  'Read the bottom of the real note. Then answer.':
+    'اقرأ أسفل المذكرة الحقيقية. ثم أجب.',
+  'Write a signature block with a note on it ( 15 words or more ).':
+    'اكتب خانة توقيع وبجانبها ملاحظة ( ١٥ كلمة أو أكثر ).',
+  'Two students read their note. The class says if a man reading it next week would understand.':
+    'يقرأ طالبان ملاحظتهما. ويقول الصف هل سيفهمها رجل يقرأها الأسبوع القادم.',
+  'Write about signing at your work ( 20 to 35 words ). Who asks you to sign? Have you ever signed something wrong? What would you do now?':
+    'اكتب عن التوقيع في عملك ( من ٢٠ إلى ٣٥ كلمة ). من يطلب منك أن توقّع؟ وهل وقّعتَ يومًا على شيء خاطئ؟ وماذا تفعل الآن؟',
+  'Read your partner\'s work. Ask your partner: Did anybody ask you why you signed it? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل سألك أحدٌ لماذا وقّعتها؟ ثم اكتب الجواب.',
+  'Read three papers. In how many did somebody sign without counting? Count them on the board.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها وقّع أحدٌ دون أن يعدّ؟ عُدّوها على اللوح.',
+  'Work in pairs. One has a number they cannot read. One helps. Then change places.':
+    'اعملا في ثنائيات. مع أحدكما رقم لا يستطيع قراءته. والآخر يساعده. ثم تبادلا الدورين.',
+  'Write five numbers from your work badly, on purpose. Your partner asks about each one. Write it.':
+    'اكتب خمسة أرقام من عملك بخط سيّئ، متعمّدًا. ويسألك زميلك عن كل واحد منها. واكتبها.',
+  'Tell the class: My partner could not tell from . I read it back digit by digit: .':
+    'قل للصف: لم يستطع زميلي التمييز بين … و… . فأعدتُ قراءته رقمًا رقمًا: … .',
+  'Read what Nour wrote on the copy sheet. Then answer.':
+    'اقرأ ما كتبته نور على ورقة النسخ. ثم أجب.',
+  'Write a copying procedure for the numbers at your own work ( 15 words or more ).':
+    'اكتب طريقة لنسخ الأرقام في عملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their step 2. The class says whose handwriting it checks.':
+    'يقرأ طالبان الخطوة ٢ عندهما. ويقول الصف خطَّ مَن تتحقق منه.',
+  'Write about a number that was copied wrong at your work ( 20 to 35 words ). Which digit? Who found it? How long did it take?':
+    'اكتب عن رقم نُسخ خطأً في عملك ( من ٢٠ إلى ٣٥ كلمة ). أي خانة منه؟ ومن اكتشفه؟ وكم استغرق ذلك؟',
+  'Read your partner\'s work. Ask your partner: How did they find it in the end? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: كيف اكتشفوه في النهاية؟ ثم اكتب الجواب.',
+  'Read three papers. How many hours did wrong digits cost this class altogether? Add them up on the board.':
+    'اقرأ ثلاث ورقات. كم ساعة كلّفت الأرقام الخاطئة هذا الصف في المجموع؟ اجمعوها على اللوح.',
+  'Work in pairs. One is the driver with no paper. One is the storeman. Then change places.':
+    'اعملا في ثنائيات. أحدكما السائق الذي لا ورقة معه. والآخر أمين المستودع. ثم تبادلا الدورين.',
+  'Think of a paper that is sometimes missing at your work. Write it.':
+    'فكّر في ورقة تكون مفقودة أحيانًا في عملك. واكتبها.',
+  'Tell the class: Sometimes there is no . People . I could write .':
+    'قل للصف: أحيانًا لا يوجد … . والناس … . وكان يمكنني أن أكتب … .',
+  'Read the paper Ammar wrote himself. Then answer.':
+    'اقرأ الورقة التي كتبها عمّار بنفسه. ثم أجب.',
+  'Write a note for goods arriving with no paper ( 15 words or more ).':
+    'اكتب مذكرة لبضاعة تصل بلا ورقة ( ١٥ كلمة أو أكثر ).',
+  'Two students read their not checked line. The class says if it protects the writer.':
+    'يقرأ طالبان سطر «لم يُتحقق منه». ويقول الصف هل يحمي كاتبه.',
+  'Write about goods or a job that came with no paper ( 20 to 35 words ). What was missing? What did you do? What happened later?':
+    'اكتب عن بضاعة أو عمل وصل بلا ورقة ( من ٢٠ إلى ٣٥ كلمة ). ما الذي كان ناقصًا؟ وماذا فعلت؟ وماذا حدث لاحقًا؟',
+  'Read your partner\'s work. Ask your partner: Did anybody ask about it later? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل سأل أحدٌ عنه لاحقًا؟ ثم اكتب الجواب.',
+  'Read three papers. In how many was somebody asked about it weeks later? Count them on the board.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها سُئل أحدٌ عنه بعد أسابيع؟ عُدّوها على اللوح.',
+  'Work in pairs. One is the driver. One is Ammar. Say why you are right.':
+    'اعملا في ثنائيات. أحدكما السائق. والآخر عمّار. وليقل كلٌّ لماذا هو محق.',
   'Two pairs say the two sides for the class — books closed.':
     'يعرض ثنائيان وجهتَي النظر أمام الصف — والكتب مغلقة.',
+  'Think of a time somebody wanted you to be quick and you wanted to be careful. Tell your partner. Write it.':
+    'فكّر في مرة أرادك فيها أحدهم مسرعًا وأردتَ أنت أن تكون متأنيًا. أخبر زميلك. واكتبها.',
+  'The problem. The driver has four more stops and a road that closes at two. Ammar signed for sixteen last month, got fifteen, and it came off his name. Four minutes is real to both of them.':
+    'المشكلة. أمام السائق أربع محطات أخرى وطريق يُغلق في الثانية. وعمّار وقّع على ستة عشر الشهر الماضي، واستلم خمسة عشر، وحُسبت على اسمه. والأربع دقائق حقيقية عند كليهما.',
   'Read the five notices. What does each one say? Choose A, B or C.':
     'اقرأ الإعلانات الخمسة. ماذا يقول كل واحد منها؟ اختر A أو B أو C.',
+  'Write a message about a short delivery ( four sentences, about 30 words ). Say the paper number, what you counted, which line, and what you want.':
+    'اكتب رسالة عن إرسالية ناقصة ( أربع جمل، نحو ٣٠ كلمة ). اذكر رقم الورقة، وما عددته، وأي سطر، وما الذي تطلبه.',
   'Change books. Point at the line. Read it aloud. Say the one thing that is missing. Count the sentences: four.':
-    'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص. ثم عُدّ الجمل: أربع.'
+    'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص. ثم عُدّ الجمل: أربع.',
+  'Write a message to the office about a delivery that was wrong ( four sentences, about 30 words ). The note number, the two quantities, the line, and what you want done.':
+    'اكتب رسالة إلى الإدارة عن إرسالية كانت خاطئة ( أربع جمل، نحو ٣٠ كلمة ). رقم المذكرة، والكميتان، والسطر، وما تريد أن يُفعل.',
+  'Ammar. This is a delivery note. Look at it.':
+    'عمّار. هذه مذكرة تسليم. انظر فيها.',
+  'It is all English.':
+    'كلها بالإنجليزية.',
+  'Four things. Only four. The name at the top. The date. The quantity. And the line at the bottom.':
+    'أربعة أمور. أربعة فقط. الاسم في الأعلى. والتاريخ. والكمية. والسطر في الأسفل.',
+  'The name at the top is the company?':
+    'الاسم في الأعلى هو الشركة؟',
+  'The company that sent the goods. The date is when they sent them.':
+    'الشركة التي أرسلت البضاعة. والتاريخ هو موعد إرسالها.',
+  'And the quantity is how many.':
+    'والكمية هي العدد.',
+  'How many, and of what. Twelve boxes, not twelve.':
+    'العدد، ومن أي شيء. اثنا عشر صندوقًا، لا اثنا عشر فقط.',
+  'And the line at the bottom?':
+    'والسطر في الأسفل؟',
+  'That is for your signature. That is the dangerous one.':
+    'ذاك لتوقيعك. وهو الخطير منها.',
+  'Why dangerous?':
+    'لماذا خطير؟',
+  'Because when you sign it, you have said the other three are correct.':
+    'لأنك حين توقّعه تكون قد قلت إن الثلاثة الأخرى صحيحة.',
+  'This is a delivery note. Look at it.':
+    'هذه مذكرة تسليم. انظر فيها.',
+  'Four things. The name at the top. The date. The quantity. And the line.':
+    'أربعة أمور. الاسم في الأعلى. والتاريخ. والكمية. والسطر.',
+  'The date says 04/03. Is that the fourth of March?':
+    'التاريخ يقول 04/03. هل هذا الرابع من آذار؟',
+  'Here, yes. Day first, then month. 04/03 is the fourth of March.':
+    'هنا، نعم. اليوم أولًا، ثم الشهر. و04/03 هو الرابع من آذار.',
+  'And somewhere else?':
+    'وفي مكان آخر؟',
+  'In America the month is first. 04/03 there is the third of April.':
+    'في أمريكا الشهر أولًا. و04/03 هناك هو الثالث من نيسان.',
+  'The same six numbers. A different month.':
+    'الأرقام الستة نفسها. وشهر مختلف.',
+  'The same six numbers. And this note came from a company in Beirut, so it is the fourth of March.':
+    'الأرقام الستة نفسها. وهذه المذكرة جاءت من شركة في بيروت، فهي الرابع من آذار.',
+  'How do I know it is Beirut?':
+    'وكيف أعرف أنها من بيروت؟',
+  'The name at the top. Thing number one. You looked at it, I hope.':
+    'الاسم في الأعلى. الأمر الأول. أرجو أنك نظرتَ فيه.',
+  'I looked at it.':
+    'نظرتُ فيه.',
+  'Then write the month in letters on your own sheet. 4 March. Then nobody can read it two ways.':
+    'إذًا اكتب الشهر بالحروف على ورقتك أنت. ٤ آذار. فلا يستطيع أحد أن يقرأها على وجهين.',
+  'Here, yes. Day first, then month.':
+    'هنا، نعم. اليوم أولًا، ثم الشهر.',
+  'In America the month is first. It would be the third of April.':
+    'في أمريكا الشهر أولًا. فتكون الثالث من نيسان.',
+  'Write the month in letters on your own sheet.':
+    'اكتب الشهر بالحروف على ورقتك أنت.',
+  'Twelve. Sign here.':
+    'اثنا عشر. وقّع هنا.',
+  'Twelve what?':
+    'اثنا عشر ماذا؟',
+  'It says twelve on the paper.':
+    'الورقة تقول اثني عشر.',
+  'It says 12. Twelve boxes, or twelve pallets?':
+    'تقول 12. اثنا عشر صندوقًا، أم اثنتا عشرة منصّة؟',
+  'Boxes. Twelve boxes. Three pallets, four boxes on each.':
+    'صناديق. اثنا عشر صندوقًا. ثلاث منصّات، على كل واحدة أربعة صناديق.',
+  'Then the paper should say twelve boxes.':
+    'إذًا ينبغي أن تقول الورقة «اثنا عشر صندوقًا».',
+  'Everybody knows it is boxes.':
+    'الجميع يعرف أنها صناديق.',
+  'I am new. I do not know it is boxes. I count twelve boxes.':
+    'أنا جديد. لا أعرف أنها صناديق. سأعدّ اثني عشر صندوقًا.',
+  'Count them, then. I have four more stops.':
+    'عُدّها إذًا. أمامي أربع محطات أخرى.',
+  'Four more stops is not my problem. Twelve boxes is my problem.':
+    'أربع محطات أخرى ليست مشكلتي. اثنا عشر صندوقًا هي مشكلتي.',
+  'Twelve boxes, or twelve pallets?':
+    'اثنا عشر صندوقًا، أم اثنتا عشرة منصّة؟',
+  'Boxes. Three pallets, four on each.':
+    'صناديق. ثلاث منصّات، على كل واحدة أربعة.',
+  'Sign here. I am late.':
+    'وقّع هنا. أنا متأخر.',
+  'I have not counted it yet. Two minutes.':
+    'لم أعدّها بعد. دقيقتان.',
+  'Two minutes. Everybody says two minutes.':
+    'دقيقتان. الجميع يقول دقيقتان.',
+  'Two minutes. Sixteen boxes. One, two, three…':
+    'دقيقتان. ستة عشر صندوقًا. واحد، اثنان، ثلاثة…',
+  'And?':
+    'و؟',
+  'Fifteen. Fifteen boxes, not sixteen.':
+    'خمسة عشر. خمسة عشر صندوقًا، لا ستة عشر.',
+  'Then write fifteen and sign it.':
+    'إذًا اكتب خمسة عشر ووقّعها.',
+  'I write fifteen. I sign it. And I write one box short next to my name.':
+    'أكتب خمسة عشر. وأوقّعها. وأكتب «ناقص صندوق واحد» بجانب اسمي.',
+  'You are the first man this month who counted.':
+    'أنت أول رجل هذا الشهر يعدّ.',
+  'I am the first man this month who will not pay for a box he did not get.':
+    'أنا أول رجل هذا الشهر لن يدفع ثمن صندوق لم يستلمه.',
+  'Fifteen. Fifteen, not sixteen.':
+    'خمسة عشر. خمسة عشر، لا ستة عشر.',
+  'Nour. The note number. Is it 4417 or 4477?':
+    'نور. رقم المذكرة. هل هو 4417 أم 4477؟',
+  'Let me see. It is handwritten. Somebody wrote it in a hurry.':
+    'دعيني أرى. إنه بخط اليد. كتبه أحدهم على عجل.',
+  'The third digit. A one, or a seven?':
+    'الرقم الثالث. واحد، أم سبعة؟',
+  'I cannot tell. And the two numbers are two different deliveries.':
+    'لا أستطيع التمييز. والرقمان إرساليتان مختلفتان.',
+  'So I telephone Beirut and ask.':
+    'إذًا أتصل ببيروت وأسأل.',
+  'Telephone Beirut. Ask for the note number and the date together.':
+    'اتصل ببيروت. واطلب رقم المذكرة والتاريخ معًا.',
+  'Why both?':
+    'ولماذا كلاهما؟',
+  'Because if the number is wrong and the date is right, you know which delivery it is anyway.':
+    'لأنه إن كان الرقم خاطئًا والتاريخ صحيحًا، فستعرف أي إرسالية هي على كل حال.',
+  'Two facts are better than one.':
+    'معلومتان أفضل من واحدة.',
+  'Two facts are better than one. Last year a digit like that cost us three hours on the telephone.':
+    'معلومتان أفضل من واحدة. العام الماضي كلّفنا رقم كهذا ثلاث ساعات على الهاتف.',
+  'The note number. Is it 4417 or 4477?':
+    'رقم المذكرة. هل هو 4417 أم 4477؟',
+  'Let me see. It is handwritten.':
+    'دعيني أرى. إنه بخط اليد.',
+  'I cannot tell.':
+    'لا أستطيع التمييز.',
+  'Ask for the number and the date together.':
+    'اطلب الرقم والتاريخ معًا.',
+  'Six pallets. Where do they go?':
+    'ست منصّات. إلى أين تذهب؟',
+  'The note, please.':
+    'المذكرة، من فضلك.',
+  'There is no note. The office did not give me one.':
+    'لا توجد مذكرة. الإدارة لم تعطني واحدة.',
+  'There are no papers at all?':
+    'لا توجد أي ورقة على الإطلاق؟',
+  'Nothing. Just the pallets.':
+    'لا شيء. المنصّات فقط.',
+  'Then I write one. Your name, your lorry number, six pallets, today\'s date.':
+    'إذًا أكتب واحدة أنا. اسمك، ورقم شاحنتك، وست منصّات، وتاريخ اليوم.',
+  'You write it?':
+    'أنت تكتبها؟',
+  'I write it and you sign it. Then we both have a paper.':
+    'أكتبها أنا وتوقّعها أنت. فتكون لكلينا ورقة.',
+  'Nobody has ever done that.':
+    'لم يفعل أحد هذا من قبل.',
+  'Then today is a good day. Your name, please. Slowly.':
+    'إذًا اليوم يوم جيد. اسمك، من فضلك. ببطء.',
+  'Sign it now. I have four more stops and the Homs road closes at two.':
+    'وقّعها الآن. أمامي أربع محطات أخرى وطريق حمص يُغلق في الثانية.',
+  'Sixteen boxes. I count sixteen boxes first. Four minutes.':
+    'ستة عشر صندوقًا. سأعدّ ستة عشر صندوقًا أولًا. أربع دقائق.',
+  'Four minutes here, four minutes at the next place. That is my afternoon.':
+    'أربع دقائق هنا، وأربع في المكان التالي. هذا هو ظهري كله.',
+  'He is right about the road. It does close at two.':
+    'هو محق في أمر الطريق. إنه يُغلق في الثانية فعلًا.',
+  'And I signed for sixteen last month and got fifteen. It came off my name.':
+    'وأنا وقّعتُ على ستة عشر الشهر الماضي واستلمتُ خمسة عشر. وحُسبت على اسمي.',
+  'That is also true. I remember it.':
+    'وهذا صحيح أيضًا. أتذكّره.',
+  'I did not load it. I drive it.':
+    'أنا لم أحمّلها. أنا أسوقها.',
+  'I know you did not load it. I am not asking you to pay for it.':
+    'أعرف أنك لم تحمّلها. ولا أطلب منك أن تدفع ثمنها.',
+  'Then sign it.':
+    'إذًا وقّعها.',
+  'Then wait four minutes. Those are the only two things on the table.':
+    'إذًا انتظر أربع دقائق. هذان هما الخياران الوحيدان على الطاولة.',
+  'There is a third thing. Nobody has thought of it yet.':
+    'هناك خيار ثالث. لم يفكّر فيه أحد بعد.',
+  'Note number 4417. Fourth of March.':
+    'رقم المذكرة 4417. الرابع من آذار.',
+  'Four, four, one, seven. 4 March.':
+    'أربعة، أربعة، واحد، سبعة. ٤ آذار.',
+  'The paper says sixteen boxes.':
+    'الورقة تقول ستة عشر صندوقًا.',
+  'Sixteen boxes. How many did you count?':
+    'ستة عشر صندوقًا. وكم عددتَ أنت؟',
+  'Fifteen. Line one, the white labels.':
+    'خمسة عشر. السطر الأول، الملصقات البيضاء.',
+  'One box short, line one.':
+    'ناقص صندوق واحد، السطر الأول.',
+  'And the driver signed it as well. Marwan Haddad.':
+    'ووقّعها السائق أيضًا. مروان حدّاد.',
+  'Two signatures. Then it is a fact, not an argument.':
+    'توقيعان. فتصبح واقعة، لا خلافًا.'
 });

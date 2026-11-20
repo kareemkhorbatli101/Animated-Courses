@@ -10,16 +10,308 @@ PBE1.arabic({
     'اختر الجواب.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
+  'Work in pairs. One person counts. One person asks. Then change places.':
+    'اعملا في ثنائيات. أحدكما يعدّ. والآخر يسأل. ثم تبادلا الدورين.',
   'Two pairs say the lines for the class — books closed.':
     'يقول ثنائيان الجمل أمام الصف — والكتب مغلقة.',
+  'Count four things in this room. Say the number. Write it in words and in numbers.':
+    'عُدّ أربعة أشياء في هذه الغرفة. قل العدد. واكتبه بالكلمات وبالأرقام.',
+  'Tell the class: There are in this room.':
+    'قل للصف: يوجد … في هذه الغرفة.',
+  'Read the count sheet. Then answer.':
+    'اقرأ ورقة العدّ. ثم أجب.',
+  'Write a count sheet for your own work ( 15 words or more ).':
+    'اكتب ورقة عدّ لعملك أنت ( ١٥ كلمة أو أكثر ).',
   'Change books. Point at the line. Read it aloud. Say the one thing that is missing.':
     'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص فيه.',
+  'Two students read their total. The class adds up the lines. Is it the same?':
+    'يقرأ طالبان مجموعهما. ويجمع الصف السطور. هل النتيجة واحدة؟',
+  'Write about counting at your work ( 20 to 35 words ). What do you count? How often? Who reads the number?':
+    'اكتب عن العدّ في عملك ( من ٢٠ إلى ٣٥ كلمة ). ما الذي تعدّه؟ وكم مرة؟ ومن يقرأ الرقم؟',
+  'Read your partner\'s work. Ask your partner: Who reads that number? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: من يقرأ ذلك الرقم؟ ثم اكتب الجواب.',
+  'Read three papers. In how many does somebody read the number? Count them on the board.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها يقرأ أحدٌ الرقم؟ عُدّوها على اللوح.',
   'Work in pairs. Read the lines. Say it. Then change places.':
     'اعملا في ثنائيات. اقرآ الجمل. قولاها. ثم تبادلا الدورين.',
+  'Say four big numbers from your work. Your partner writes it. Then check it together.':
+    'قل أربعة أرقام كبيرة من عملك. يكتبها زميلك. ثم تحققا منها معًا.',
+  'Tell the class: I said numbers. were right. The hard one was .':
+    'قل للصف: قلتُ … رقمًا. وكان … منها صحيحًا. وأصعبها كان … .',
+  'Read the board in the store. Then answer.':
+    'اقرأ اللوح في المستودع. ثم أجب.',
+  'Write a store board for your own work ( 15 words or more ).':
+    'اكتب لوح مستودع لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read one line. The class says the number back. Is it the same?':
+    'يقرأ طالبان سطرًا واحدًا. ويعيد الصف الرقم. هل هو نفسه؟',
+  'Write about a number that was wrong at your work ( 20 to 35 words ). What was the number? What should it have been? What happened?':
+    'اكتب عن رقم كان خاطئًا في عملك ( من ٢٠ إلى ٣٥ كلمة ). ما كان الرقم؟ وما كان يجب أن يكون؟ وماذا حدث؟',
+  'Read your partner\'s work. Ask your partner: Who wrote that number? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: من كتب ذلك الرقم؟ ثم اكتب الجواب.',
+  'Read three papers. In how many was the number written only once? Count them on the board.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها كُتب الرقم مرة واحدة فقط؟ عُدّوها على اللوح.',
+  'Say four things at your work with the number and the word. Your partner writes it.':
+    'قل أربعة أشياء في عملك مع الرقم والكلمة. يكتبها زميلك.',
+  'Tell the class: There are on .':
+    'قل للصف: يوجد … على … .',
+  'Read the shelf card. Then answer.':
+    'اقرأ بطاقة الرف. ثم أجب.',
+  'Write a shelf card for your own work ( 15 words or more ).':
+    'اكتب بطاقة رف لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read one line. The class says what is inside. Is it clear?':
+    'يقرأ طالبان سطرًا واحدًا. ويقول الصف ما في داخله. هل الأمر واضح؟',
+  'Write about the things you count at your work ( 20 to 35 words ). What is the small one? What is the big one? How many inside?':
+    'اكتب عن الأشياء التي تعدّها في عملك ( من ٢٠ إلى ٣٥ كلمة ). ما الصغير منها؟ وما الكبير؟ وكم في داخله؟',
+  'Read your partner\'s work. Ask your partner: How many in one? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: كم في الواحد؟ ثم اكتب الجواب.',
+  'Read three papers. In how many is the word said with the number every time? Count them on the board.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها تُقال الكلمة مع الرقم في كل مرة؟ عُدّوها على اللوح.',
+  'Work in pairs. One asks about four shelves. One answers. Then change places.':
+    'اعملا في ثنائيات. أحدكما يسأل عن أربعة رفوف. والآخر يجيب. ثم تبادلا الدورين.',
+  'Think of four places at your work. Say what is there. Write it. One place must have none.':
+    'فكّر في أربعة أماكن في عملك. قل ما فيها. واكتبه. على أن يكون أحدها فارغًا.',
+  'Tell the class: There are in . There are none in .':
+    'قل للصف: يوجد … في … . ولا يوجد شيء في … .',
+  'Read the shelf check. Then answer.':
+    'اقرأ جولة تفقّد الرفوف. ثم أجب.',
+  'Write a shelf check for your own work ( 15 words or more ).':
+    'اكتب جولة تفقّد رفوف لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their empty lines. The class says if a 0 is there.':
+    'يقرأ طالبان سطورهما الفارغة. ويقول الصف هل الصفر مكتوب.',
+  'Write about something at your work that ran out ( 20 to 35 words ). What was it? When did somebody see? Who said it first?':
+    'اكتب عن شيء نَفِد في عملك ( من ٢٠ إلى ٣٥ كلمة ). ما كان؟ ومتى لاحظه أحد؟ ومن قاله أول مرة؟',
+  'Read your partner\'s work. Ask your partner: Who said it first? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: من قاله أول مرة؟ ثم اكتب الجواب.',
+  'Read three papers. In how many did somebody write the zero down? Count them on the board.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها كتب أحدٌ الصفر؟ عُدّوها على اللوح.',
+  'Work in pairs. A gives an order. B writes it and reads it back. Then change places.':
+    'اعملا في ثنائيات. (أ) يعطي طلبية. و(ب) يكتبها ثم يعيد قراءتها. ثم تبادلا الدورين.',
+  'Give your partner four orders. They write it and read it back. Check it together.':
+    'أعطِ زميلك أربع طلبيات. يكتبها ويعيد قراءتها. ثم تحققا منها معًا.',
+  'Tell the class: I gave orders. My partner read back right. The hard one was .':
+    'قل للصف: أعطيتُ … طلبية. وأعاد زميلي … منها بشكل صحيح. وأصعبها كان … .',
+  'Read what Ammar wrote. Then answer.':
+    'اقرأ ما كتبه عمّار. ثم أجب.',
+  'Write an order note for your own work ( 15 words or more ).':
+    'اكتب مذكرة طلبية لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their note aloud to a partner. The partner says it back. Is it the same?':
+    'يقرأ طالبان مذكرتهما بصوت عالٍ لزميل. فيعيدها الزميل. هل هي نفسها؟',
+  'Write about an order you took at your work ( 20 to 35 words ). Who gave it? What was the number? Did you read it back?':
+    'اكتب عن طلبية تلقّيتها في عملك ( من ٢٠ إلى ٣٥ كلمة ). من أعطاها؟ وما كان الرقم؟ وهل أعدتَ قراءتها؟',
+  'Read your partner\'s work. Ask your partner: Did you read it back? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل أعدتَ قراءتها؟ ثم اكتب الجواب.',
+  'Read three papers. In how many did somebody read the number back? Count them on the board.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها أعاد أحدٌ قراءة الرقم؟ عُدّوها على اللوح.',
+  'Work in pairs. A has the sheet. B counted again. Then change places.':
+    'اعملا في ثنائيات. مع (أ) الورقة. و(ب) عدّ مرة أخرى. ثم تبادلا الدورين.',
+  'Think of two numbers at your work that were wrong. Tell your partner. Write it without naming anybody.':
+    'فكّر في رقمين كانا خاطئين في عملك. أخبر زميلك. واكتبهما دون أن تسمّي أحدًا.',
+  'Tell the class: The sheet said . It is not , it is . I counted times.':
+    'قل للصف: الورقة قالت … . ليست … ، إنها … . عددتُ … مرة.',
+  'Read what Ammar wrote on the sheet. Then answer.':
+    'اقرأ ما كتبه عمّار على الورقة. ثم أجب.',
+  'Write a changed count for your own work ( 15 words or more ).':
+    'اكتب تصحيح عدّ لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their line. The class says if the old number can still be seen.':
+    'يقرأ طالبان سطرهما. ويقول الصف هل ما زال الرقم القديم ظاهرًا.',
+  'Write about a count that was wrong ( 20 to 35 words ). What did the paper say? What was it really? What did you do?':
+    'اكتب عن عدّ كان خاطئًا ( من ٢٠ إلى ٣٥ كلمة ). ماذا قالت الورقة؟ وما كان العدد حقًا؟ وماذا فعلت؟',
+  'Read your partner\'s work. Ask your partner: Did you count twice? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل عددتَ مرتين؟ ثم اكتب الجواب.',
+  'Read three papers. In how many did the writer name a person? The good number is none.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها سمّى الكاتب شخصًا؟ والعدد الجيد هو لا شيء.',
+  'Work in pairs. One is Ammar. One is Samih. Say why your number is right.':
+    'اعملا في ثنائيات. أحدكما عمّار. والآخر سميح. وليقل كلٌّ لماذا رقمه صحيح.',
   'Two pairs say the two sides for the class — books closed.':
     'يعرض ثنائيان وجهتَي النظر أمام الصف — والكتب مغلقة.',
+  'Think of something at your work that two people would count differently. Tell your partner. Write it.':
+    'فكّر في شيء في عملك يعدّه شخصان بطريقتين مختلفتين. أخبر زميلك. واكتبه.',
+  'The problem. Ammar counted nine. Samih counted twelve. Both men counted twice. The sheet says shelf 3 and nothing else.':
+    'المشكلة. عمّار عدّ تسعة. وسميح عدّ اثني عشر. وكلاهما عدّ مرتين. والورقة تقول «الرف ٣» ولا شيء غير ذلك.',
   'Read the five notices. What does each one say? Choose A, B or C.':
     'اقرأ الإعلانات الخمسة. ماذا يقول كل واحد منها؟ اختر A أو B أو C.',
+  'Write a message to a colleague about a count ( four sentences, about 30 words ). Say the number, the place, the day, and one thing they must do.':
+    'اكتب رسالة إلى زميل عن عدّ ( أربع جمل، نحو ٣٠ كلمة ). اذكر الرقم والمكان واليوم، وأمرًا واحدًا عليه أن يفعله.',
   'Change books. Point at the line. Read it aloud. Say the one thing that is missing. Count the sentences: four.':
-    'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص. ثم عُدّ الجمل: أربع.'
+    'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص. ثم عُدّ الجمل: أربع.',
+  'Write a message about a number that is wrong at your work ( four sentences, about 30 words ). Say the number on the paper, the real number, that you counted twice, and what the reader must do.':
+    'اكتب رسالة عن رقم خاطئ في عملك ( أربع جمل، نحو ٣٠ كلمة ). اذكر الرقم المكتوب على الورقة، والرقم الحقيقي، وأنك عددتَ مرتين، وما على القارئ أن يفعله.',
+  'Ammar. Count the cartons on the pallet.':
+    'عمّار. عُدّ الكراتين على المنصّة.',
+  'One, two, three… twelve. Twelve cartons.':
+    'واحد، اثنان، ثلاثة… اثنا عشر. اثنا عشر كرتونًا.',
+  'Twelve. And on the floor?':
+    'اثنا عشر. وعلى الأرض؟',
+  'On the floor… six.':
+    'على الأرض… ستة.',
+  'Twelve and six. How many is that?':
+    'اثنا عشر وستة. كم يصير المجموع؟',
+  'Eighteen.':
+    'ثمانية عشر.',
+  'Eighteen. Good. Now say it again and point at them.':
+    'ثمانية عشر. جيد. الآن قلها مرة أخرى وأشر إليها.',
+  'Twelve here. Six here. Eighteen.':
+    'اثنا عشر هنا. ستة هنا. ثمانية عشر.',
+  'Count the cartons.':
+    'عُدّ الكراتين.',
+  'Six.':
+    'ستة.',
+  'How many is that?':
+    'كم يصير المجموع؟',
+  'The board says three hundred and forty. Say it.':
+    'اللوح يقول ثلاثمئة وأربعين. قُلها.',
+  'Three hundred and forty.':
+    'ثلاثمئة وأربعون.',
+  'Good. Today ninety came in.':
+    'جيد. اليوم دخل تسعون.',
+  'Ninety. Nine zero.':
+    'تسعون. تسعة صفر.',
+  'Nine zero. Not nineteen. Three hundred and forty and ninety?':
+    'تسعة صفر. لا تسعة عشر. ثلاثمئة وأربعون وتسعون؟',
+  'Four hundred and thirty.':
+    'أربعمئة وثلاثون.',
+  'Four hundred and thirty. Write it on the board. Big.':
+    'أربعمئة وثلاثون. اكتبها على اللوح. بخط كبير.',
+  'Four, three, zero.':
+    'أربعة، ثلاثة، صفر.',
+  'And in words under it. Both. Always both.':
+    'وبالكلمات تحتها. الاثنتان. دائمًا الاثنتان.',
+  'Ninety. Nine zero. Not nineteen.':
+    'تسعون. تسعة صفر. لا تسعة عشر.',
+  'Three hundred and forty and ninety?':
+    'ثلاثمئة وأربعون وتسعون؟',
+  'Twenty on shelf two.':
+    'عشرون على الرف الثاني.',
+  'Twenty what? Cartons? Packets?':
+    'عشرون ماذا؟ كراتين؟ علب؟',
+  'Twenty… boxes.':
+    'عشرون… صندوقًا.',
+  'Come and look. This is a packet. Twenty in a packet.':
+    'تعال وانظر. هذه علبة. عشرون في العلبة.',
+  'And this big one?':
+    'وهذا الكبير؟',
+  'A carton. Ten packets in a carton. And this on the floor is a pallet.':
+    'كرتون. عشر علب في الكرتون. وهذه على الأرض منصّة.',
+  'So twenty packets, not twenty cartons.':
+    'إذًا عشرون علبة، لا عشرون كرتونًا.',
+  'Twenty packets. Say the word with the number. Always.':
+    'عشرون علبة. قل الكلمة مع الرقم. دائمًا.',
+  'Twenty packets on shelf two.':
+    'عشرون علبة على الرف الثاني.',
+  'Twenty what?':
+    'عشرون ماذا؟',
+  'Twenty packets.':
+    'عشرون علبة.',
+  'How many in a packet?':
+    'كم في العلبة؟',
+  'Twenty.':
+    'عشرون.',
+  'Say the word with the number.':
+    'قل الكلمة مع الرقم.',
+  'Shelf three?':
+    'الرف الثالث؟',
+  'There are six cartons on shelf three.':
+    'على الرف الثالث ستة كراتين.',
+  'Shelf four?':
+    'الرف الرابع؟',
+  'Shelf four is… empty.':
+    'الرف الرابع… فارغ.',
+  'Say it with a number.':
+    'قُلها برقم.',
+  'There are none on shelf four. Zero.':
+    'لا يوجد شيء على الرف الرابع. صفر.',
+  'Good. None is a number. I write zero.':
+    'جيد. «لا شيء» رقم. أنا أكتب صفرًا.',
+  'And if I say nothing about shelf four?':
+    'وإن لم أقل شيئًا عن الرف الرابع؟',
+  'Then I do not know if it is empty or if you did not look.':
+    'فلا أعرف هل هو فارغ أم أنك لم تنظر.',
+  'Shelf five?':
+    'الرف الخامس؟',
+  'There is one pallet.':
+    'هناك منصّة واحدة.',
+  'Sixty cartons for Homs. On the lorry by eleven.':
+    'ستون كرتونًا إلى حمص. على الشاحنة قبل الحادية عشرة.',
+  'Sixteen cartons. By eleven.':
+    'ستة عشر كرتونًا. قبل الحادية عشرة.',
+  'No. Sixty.':
+    'لا. ستون.',
+  'Sixty or sixteen? Six zero, or one six?':
+    'ستون أم ستة عشر؟ ستة صفر، أم واحد ستة؟',
+  'Six zero. Sixty.':
+    'ستة صفر. ستون.',
+  'Six zero. I write it. Sixty cartons for Homs, on the lorry by eleven.':
+    'ستة صفر. أكتبها. ستون كرتونًا إلى حمص، على الشاحنة قبل الحادية عشرة.',
+  'Correct. Read it back every time. Every time, Ammar.':
+    'صحيح. أعد قراءتها في كل مرة. في كل مرة، يا عمّار.',
+  'Every time.':
+    'في كل مرة.',
+  'Sixteen cartons would be nine thousand pounds short.':
+    'ستة عشر كرتونًا تعني نقصًا بتسعة آلاف ليرة.',
+  'Sixty cartons for Homs. By eleven.':
+    'ستون كرتونًا إلى حمص. قبل الحادية عشرة.',
+  'Six zero.':
+    'ستة صفر.',
+  'I write it. Sixty cartons for Homs, by eleven.':
+    'أكتبها. ستون كرتونًا إلى حمص، قبل الحادية عشرة.',
+  'Abu Yasser. The sheet says twelve on shelf three.':
+    'أبا ياسر. الورقة تقول اثني عشر على الرف الثالث.',
+  'Twelve. Yes.':
+    'اثنا عشر. نعم.',
+  'It is not twelve. It is nine. I counted again.':
+    'ليست اثني عشر. إنها تسعة. عددتُ مرة أخرى.',
+  'You counted twice?':
+    'عددتَ مرتين؟',
+  'Twice. Nine both times.':
+    'مرتين. تسعة في المرتين.',
+  'Then it is nine. Who wrote twelve?':
+    'إذًا هي تسعة. مَن كتب اثني عشر؟',
+  'I do not know. The sheet is from Monday.':
+    'لا أعرف. الورقة من يوم الاثنين.',
+  'Good. You did not say who. You said the number.':
+    'جيد. لم تقل مَن. قلتَ الرقم.',
+  'I write nine, and today\'s date.':
+    'أكتب تسعة، وتاريخ اليوم.',
+  'The sheet says twelve on shelf three.':
+    'الورقة تقول اثني عشر على الرف الثالث.',
+  'Who wrote twelve?':
+    'مَن كتب اثني عشر؟',
+  'I do not know.':
+    'لا أعرف.',
+  'Ammar says nine. Samih says twelve. Shelf three.':
+    'عمّار يقول تسعة. سميح يقول اثني عشر. الرف الثالث.',
+  'I counted twice. Nine.':
+    'عددتُ مرتين. تسعة.',
+  'I counted twice too. Twelve.':
+    'وأنا عددتُ مرتين أيضًا. اثنا عشر.',
+  'Two men, two counts, and both men counted twice.':
+    'رجلان، وعدّتان، وكلاهما عدّ مرتين.',
+  'I counted the cartons on the shelf.':
+    'عددتُ الكراتين التي على الرف.',
+  'I counted the cartons on the shelf and the three on the floor under it.':
+    'عددتُ الكراتين التي على الرف والثلاثة التي على الأرض تحته.',
+  'The three on the floor are not on the shelf.':
+    'الثلاثة التي على الأرض ليست على الرف.',
+  'They came off the shelf this morning. They go back tonight.':
+    'نزلت عن الرف هذا الصباح. وتعود إليه الليلة.',
+  'So nobody is wrong. The sheet does not say what to count.':
+    'إذًا لا أحد مخطئ. الورقة لا تقول ما الذي نعدّه.',
+  'Nine on the shelf. Three on the floor. Twelve in the place.':
+    'تسعة على الرف. ثلاثة على الأرض. اثنا عشر في المكان.',
+  'Seventy cartons for Hama. On the lorry by ten.':
+    'سبعون كرتونًا إلى حماة. على الشاحنة قبل العاشرة.',
+  'Seventy or seventeen? Seven zero, or one seven?':
+    'سبعون أم سبعة عشر؟ سبعة صفر، أم واحد سبعة؟',
+  'Seven zero. Seventy.':
+    'سبعة صفر. سبعون.',
+  'Seven zero. I write it. Seventy cartons for Hama, by ten.':
+    'سبعة صفر. أكتبها. سبعون كرتونًا إلى حماة، قبل العاشرة.',
+  'Correct. And shelf four?':
+    'صحيح. والرف الرابع؟',
+  'There are none on shelf four. Zero. I looked twice.':
+    'لا يوجد شيء على الرف الرابع. صفر. نظرتُ مرتين.',
+  'Write the zero.':
+    'اكتب الصفر.',
+  'I write the zero, and my name.':
+    'أكتب الصفر، واسمي.'
 });

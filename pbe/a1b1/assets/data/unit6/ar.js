@@ -10,12 +10,312 @@ PBE1.arabic({
     'اختر الجواب.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
+  'Work in pairs, back to back — you cannot see each other, like a real telephone. Then change places.':
+    'اعملا في ثنائيات، ظهرًا إلى ظهر — لا يرى أحدكما الآخر، كهاتف حقيقي. ثم تبادلا الدورين.',
+  'Two pairs say the lines for the class — back to back, books closed.':
+    'يقول ثنائيان الجمل أمام الصف — ظهرًا إلى ظهر، والكتب مغلقة.',
+  'Answer the telephone for your own work. Say it four times. Your partner writes what they heard. Write it.':
+    'أجب على الهاتف باسم عملك أنت. قُلها أربع مرات. ويكتب زميلك ما سمعه. واكتبها.',
+  'Tell the class your answer — once, slowly. Then: After twelve o\'clock I say .':
+    'قل للصف جملة الإجابة عندك — مرة واحدة، ببطء. ثم: بعد الثانية عشرة أقول … .',
+  'Read the card taped to the store telephone. Then answer.':
+    'اقرأ البطاقة الملصقة على هاتف المستودع. ثم أجب.',
+  'Write a telephone card for your own work ( 15 words or more ).':
+    'اكتب بطاقة هاتف لعملك أنت ( ١٥ كلمة أو أكثر ).',
   'Change books. Point at the line. Read it aloud. Say the one thing that is missing.':
     'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص فيه.',
+  'Two students read their line 1 out loud. The class says if they could hear the company name.':
+    'يقرأ طالبان السطر الأول بصوت عالٍ. ويقول الصف هل سمعوا اسم الشركة.',
+  'Write about the telephone at your work ( 20 to 35 words ). Who answers it? What do they say? What goes wrong?':
+    'اكتب عن الهاتف في عملك ( من ٢٠ إلى ٣٥ كلمة ). من يجيب عليه؟ وماذا يقول؟ وما الذي يسير على نحو خاطئ؟',
+  'Read your partner\'s work. Ask your partner: Who does not want to answer it? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: من لا يريد أن يجيب عليه؟ ثم اكتب الجواب.',
+  'Read three papers. How many people are afraid of the telephone at work? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم شخصًا يخاف من الهاتف في العمل؟ عُدّوهم على اللوح.',
+  'Work in pairs, back to back. One is the caller with a hard name. Then change places.':
+    'اعملا في ثنائيات، ظهرًا إلى ظهر. أحدكما المتصل وله اسم صعب. ثم تبادلا الدورين.',
+  'Four hard names. Your partner says them over a telephone. You write them and count. Write it.':
+    'أربعة أسماء صعبة. يقولها زميلك عبر الهاتف. وتكتبها أنت وتعدّ أحرفها. واكتبها.',
+  'Tell the class: My partner said . I wrote . It was letters. It was right / wrong.':
+    'قل للصف: قال زميلي … . وكتبتُ … . وكان … حرفًا. وكان صحيحًا / خاطئًا.',
+  'Read the names Ammar wrote on Monday. Then answer.':
+    'اقرأ الأسماء التي كتبها عمّار يوم الاثنين. ثم أجب.',
+  'Write a call list for one morning at your own work ( 15 words or more ).':
+    'اكتب قائمة اتصالات لصباح واحد في عملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their lost line. The class says if anybody could work out who it was.':
+    'يقرأ طالبان السطر المفقود عندهما. ويقول الصف هل يمكن لأحد أن يستنتج من كان.',
+  'Write about a name you could not get on the telephone ( 20 to 35 words ). What happened? What did you do? Did you find out who it was?':
+    'اكتب عن اسم لم تستطع فهمه على الهاتف ( من ٢٠ إلى ٣٥ كلمة ). ماذا حدث؟ وماذا فعلت؟ وهل عرفتَ من كان؟',
+  'Read your partner\'s work. Ask your partner: Did he ring back? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل اتصل مرة أخرى؟ ثم اكتب الجواب.',
+  'Read three papers. How many lost callers rang back? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم متصلًا مجهولًا اتصل مرة أخرى؟ عُدّوهم على اللوح.',
+  'Work in pairs, back to back. One waits — really waits, counting. Then change places.':
+    'اعملا في ثنائيات، ظهرًا إلى ظهر. أحدكما ينتظر — ينتظر فعلًا، ويعدّ. ثم تبادلا الدورين.',
+  'Two pairs say the lines for the class — back to back, books closed. The class counts the seconds out loud.':
+    'يقول ثنائيان الجمل أمام الصف — ظهرًا إلى ظهر، والكتب مغلقة. ويعدّ الصف الثواني بصوت مسموع.',
+  'How long do people wait at your work? Think of four times. Write it.':
+    'كم ينتظر الناس في عملك؟ فكّر في أربع مرات. واكتبها.',
+  'Tell the class: People wait for . Nobody tells them / Somebody says .':
+    'قل للصف: ينتظر الناس … . ولا أحد يخبرهم / ويقول أحدهم … .',
+  'Read the second card on the wall. Then answer.':
+    'اقرأ البطاقة الثانية على الحائط. ثم أجب.',
+  'Write a waiting card for your own work ( 15 words or more ).':
+    'اكتب بطاقة انتظار لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their fix. The class says if it would stop the waiting.':
+    'يقرأ طالبان الحل الذي كتباه. ويقول الصف هل يُنهي الانتظار.',
+  'Write about waiting at your work ( 20 to 35 words ). How long do people wait? Why? What would stop it?':
+    'اكتب عن الانتظار في عملك ( من ٢٠ إلى ٣٥ كلمة ). كم ينتظر الناس؟ ولماذا؟ وما الذي يُنهيه؟',
+  'Read your partner\'s work. Ask your partner: Has anybody ever rung off? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل أقفل أحدٌ الخط يومًا؟ ثم اكتب الجواب.',
+  'Read three papers. How many callers have rung off waiting? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم متصلًا أقفل الخط وهو ينتظر؟ عُدّوهم على اللوح.',
+  'Work in pairs, back to back. One asks for people. One says where they are. Then change places.':
+    'اعملا في ثنائيات، ظهرًا إلى ظهر. أحدكما يسأل عن أشخاص. والآخر يقول أين هم. ثم تبادلا الدورين.',
+  'Four people at your work. Where are they, and when are they back? Write it.':
+    'أربعة أشخاص في عملك. أين هم، ومتى يعودون؟ واكتبها.',
+  'Tell the class: is not here. He / She is . He / She is back .':
+    'قل للصف: إن … غير موجود. هو / هي … . ويعود / وتعود … .',
+  'Read the board by the store telephone. Then answer.':
+    'اقرأ اللوح الذي بجانب هاتف المستودع. ثم أجب.',
+  'Write a who-is-where board for your own work ( 15 words or more ).':
+    'اكتب لوح «مَن أين» لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their back column. The class says if a caller could use it.':
+    'يقرأ طالبان عمود «يعود» عندهما. ويقول الصف هل ينفع متصلًا.',
+  'Write about the people at your work and where they are ( 20 to 35 words ). Who is hardest to find? What do you tell a caller?':
+    'اكتب عن الأشخاص في عملك وأين هم ( من ٢٠ إلى ٣٥ كلمة ). من أصعبهم في العثور عليه؟ وماذا تقول لمتصل؟',
+  'Read your partner\'s work. Ask your partner: Do you ever say "in a meeting"? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل تقول «في اجتماع» أحيانًا؟ ثم اكتب الجواب.',
+  'Read three papers. How many people say in a meeting when it is not true? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم شخصًا يقول «في اجتماع» وهي ليست الحقيقة؟ عُدّوهم على اللوح.',
+  'Work in pairs, back to back. One gives a number. One writes and reads it back. Then change places.':
+    'اعملا في ثنائيات، ظهرًا إلى ظهر. أحدكما يعطي رقمًا. والآخر يكتبه ويعيد قراءته. ثم تبادلا الدورين.',
+  'Four numbers. Your partner says them over a telephone. You write and read back. Write it.':
+    'أربعة أرقام. يقولها زميلك عبر الهاتف. وتكتبها أنت وتعيد قراءتها. واكتبها.',
+  'Tell the class: I wrote . I read it back. It was right / wrong in the group.':
+    'قل للصف: كتبتُ … . وأعدتُ قراءته. وكان صحيحًا / خاطئًا في المجموعة.',
+  'Read the numbers Ammar wrote. Then answer.':
+    'اقرأ الأرقام التي كتبها عمّار. ثم أجب.',
+  'Write a numbers list for one morning at your own work ( 15 words or more ).':
+    'اكتب قائمة أرقام لصباح واحد في عملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read one number back to the class. In groups. The class writes it and checks.':
+    'يعيد طالبان قراءة رقم واحد أمام الصف. بمجموعات. ويكتبه الصف ويتحقق منه.',
+  'Write about a telephone number that went wrong at your work ( 20 to 35 words ). Which digits? Did anybody read it back? What happened?':
+    'اكتب عن رقم هاتف جاء خاطئًا في عملك ( من ٢٠ إلى ٣٥ كلمة ). أي خاناته؟ وهل أعاد أحدٌ قراءته؟ وماذا حدث؟',
+  'Read your partner\'s work. Ask your partner: Did you ever get hold of him? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل تمكنتَ من الوصول إليه يومًا؟ ثم اكتب الجواب.',
+  'Read three papers. How many lost calls were never got back? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم اتصالًا ضائعًا لم يُستدرك أبدًا؟ عُدّوها على اللوح.',
+  'Work in pairs, back to back. One is the caller. One promises. Then change places.':
+    'اعملا في ثنائيات، ظهرًا إلى ظهر. أحدكما المتصل. والآخر يَعِد. ثم تبادلا الدورين.',
+  'Four messages you have taken. What did you promise? What did you do? Write it.':
+    'أربع رسائل أخذتها. بماذا وعدت؟ وماذا فعلت؟ واكتبها.',
+  'Tell the class: I said I would tell at . I wrote a slip and put it . He got it .':
+    'قل للصف: قلتُ إنني سأخبر … في … . وكتبتُ ورقة ووضعتُها … . ووصلته … .',
+  'Read the slip Ammar left on Nour\'s desk. Then answer.':
+    'اقرأ الورقة التي تركها عمّار على مكتب نور. ثم أجب.',
+  'Write a message slip for your own work ( 15 words or more ).':
+    'اكتب ورقة رسالة لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their slip. The class says if they could act on it without asking a question.':
+    'يقرأ طالبان ورقتهما. ويقول الصف هل يمكن العمل بها دون طرح سؤال.',
+  'Write about a message at your work ( 20 to 35 words ). Who took it? Did it arrive? What happened if it did not?':
+    'اكتب عن رسالة في عملك ( من ٢٠ إلى ٣٥ كلمة ). من أخذها؟ وهل وصلت؟ وماذا حدث إن لم تصل؟',
+  'Read your partner\'s work. Ask your partner: Who found out it was lost? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: من اكتشف أنها ضاعت؟ ثم اكتب الجواب.',
+  'Read three papers. How many lost messages were found by the person who was waiting? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم رسالة ضائعة اكتشفها الشخص الذي كان ينتظرها؟ عُدّوها على اللوح.',
+  'Work in pairs. One is Ammar. One is Nour. Say why you did your job.':
+    'اعملا في ثنائيات. أحدكما عمّار. والآخر نور. وليقل كلٌّ لماذا أدّى عمله.',
   'Two pairs say the two sides for the class — books closed.':
     'يعرض ثنائيان وجهتَي النظر أمام الصف — والكتب مغلقة.',
+  'Think of a message or a paper at your work that was lost between two people who both did their job. Write it.':
+    'فكّر في رسالة أو ورقة في عملك ضاعت بين شخصين أدّى كلٌّ منهما عمله. واكتبها.',
+  'The problem. The slip was perfect. Ammar put it on the desk and told her as well. Nour was on the other telephone and put her pad on top of it. Three days, four boxes.':
+    'المشكلة. الورقة كانت كاملة. وعمّار وضعها على المكتب وأخبرها أيضًا. ونور كانت على الهاتف الآخر فوضعت دفترها فوقها. ثلاثة أيام، وأربعة صناديق.',
   'Read the five notices. What does each one say? Choose A, B or C.':
     'اقرأ الإعلانات الخمسة. ماذا يقول كل واحد منها؟ اختر A أو B أو C.',
+  'Write a message for your supervisor ( four sentences, about 30 words ). Who called, what about, what he wants, and when.':
+    'اكتب رسالة لمشرفك ( أربع جمل، نحو ٣٠ كلمة ). من اتصل، وفي أي شأن، وما الذي يريده، ومتى.',
   'Change books. Point at the line. Read it aloud. Say the one thing that is missing. Count the sentences: four.':
-    'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص. ثم عُدّ الجمل: أربع.'
+    'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص. ثم عُدّ الجمل: أربع.',
+  'Write a message for somebody at your work ( four sentences, about 30 words ). The caller, the subject, what he wants, and what happens next with a time.':
+    'اكتب رسالة لشخص في عملك ( أربع جمل، نحو ٣٠ كلمة ). المتصل، والموضوع، وما يريده، وما سيحدث بعد ذلك مع تحديد الوقت.',
+  'Ammar. The store telephone. You answer it this week.':
+    'عمّار. هاتف المستودع. أنت تجيب عليه هذا الأسبوع.',
+  'Me? I cannot talk on the telephone.':
+    'أنا؟ لا أستطيع التحدث على الهاتف.',
+  'Three things. Say the company. Say good morning. Then stop and listen.':
+    'ثلاثة أمور. قل اسم الشركة. وقل صباح الخير. ثم توقّف واستمع.',
+  'Sham Trading, good morning.':
+    'شام للتجارة، صباح الخير.',
+  'Slowly. Sham Trading is two words and the caller has never heard them.':
+    'ببطء. «شام للتجارة» كلمتان، والمتصل لم يسمعهما من قبل.',
+  'Sham… Trading. Good morning.':
+    'شام… للتجارة. صباح الخير.',
+  'Better. After twelve o\'clock say good afternoon.':
+    'أفضل. وبعد الثانية عشرة قل «مساء الخير».',
+  'And if I do not understand?':
+    'وإن لم أفهم؟',
+  'Sorry? Again, please. The same words as Unit one. They still work.':
+    'عفوًا؟ مرة أخرى، من فضلك. الكلمات نفسها من الوحدة الأولى. وهي ما زالت تنفع.',
+  'Sham Trading, good morning. Then stop and listen.':
+    'شام للتجارة، صباح الخير. ثم توقّف واستمع.',
+  'Then stop and listen. That is the hard part.':
+    'ثم توقّف واستمع. وهذا هو الجزء الصعب.',
+  '(ring ring)':
+    '(رنين رنين)',
+  'Is that Sham Trading?':
+    'هل هذه شام للتجارة؟',
+  'Yes. Sham Trading, good morning.':
+    'نعم. شام للتجارة، صباح الخير.',
+  'Sorry, I did not hear the name.':
+    'عفوًا، لم أسمع الاسم.',
+  'Sham… Trading. Good morning. (slowly)':
+    'شام… للتجارة. صباح الخير. (ببطء)',
+  'Good morning. Is Mr Khalil there?':
+    'صباح الخير. هل السيد خليل موجود؟',
+  'Your name, please.':
+    'اسمك، من فضلك.',
+  'Ghassan Mouallem.':
+    'غسان معلّم.',
+  'Sorry? Again, please.':
+    'عفوًا؟ مرة أخرى، من فضلك.',
+  'Mouallem.':
+    'معلّم.',
+  'Can you spell it, please?':
+    'هل يمكنك تهجئته، من فضلك؟',
+  'M, O, U, A, L, L, E, M.':
+    'M، O، U، A، L، L، E، M.',
+  'M, O, U, A, L, L, E, M. Eight letters. Mouallem.':
+    'M، O، U، A، L، L، E، M. ثمانية أحرف. معلّم.',
+  'That is it.':
+    'هذا هو.',
+  'Thank you. One moment, please.':
+    'شكرًا لك. لحظة واحدة، من فضلك.',
+  'Is Mr Khalil there?':
+    'هل السيد خليل موجود؟',
+  'One moment, please.':
+    'لحظة واحدة، من فضلك.',
+  'Yes.':
+    'نعم.',
+  '(ten seconds — he finds a pen and the slip pad) Thank you for waiting. Your name again, please.':
+    '(عشر ثوانٍ — يجد قلمًا ودفتر الرسائل) شكرًا لانتظارك. اسمك مرة أخرى، من فضلك.',
+  'Mr Khalil is not here. Can I take a message?':
+    'السيد خليل غير موجود. هل آخذ رسالة؟',
+  'How long was that?':
+    'كم استغرق ذلك؟',
+  'Ten seconds. I had no pen.':
+    'عشر ثوانٍ. لم يكن معي قلم.',
+  'Ten seconds is nothing. Last week somebody left me for four minutes.':
+    'عشر ثوانٍ لا تُذكر. الأسبوع الماضي تركني أحدهم أربع دقائق.',
+  'Four minutes is not one moment.':
+    'أربع دقائق ليست «لحظة واحدة».',
+  'Four minutes is not one moment. Write that on your wall.':
+    'أربع دقائق ليست «لحظة واحدة». اكتب هذا على حائطك.',
+  '(ten seconds, counted out loud) Thank you for waiting. Your name again, please.':
+    '(عشر ثوانٍ، تُعدّ بصوت مسموع) شكرًا لانتظارك. اسمك مرة أخرى، من فضلك.',
+  'He is not here. He is in Homs until Thursday.':
+    'هو غير موجود. إنه في حمص حتى الخميس.',
+  'Thursday. And Mrs Mansour?':
+    'الخميس. والسيدة منصور؟',
+  'She is here. She is at lunch. She is back at two.':
+    'هي موجودة. إنها على الغداء. وتعود في الثانية.',
+  'Two. Good. I ring back at two.':
+    'الثانية. جيد. سأتصل مرة أخرى في الثانية.',
+  'Or I take a message and she has it at two.':
+    'أو آخذ رسالة فتكون عندها في الثانية.',
+  'A message, then.':
+    'رسالة، إذًا.',
+  'One moment, please. I have the pad.':
+    'لحظة واحدة، من فضلك. الدفتر معي.',
+  'You did not say she was in a meeting.':
+    'لم تقل إنها في اجتماع.',
+  'She is at lunch. Why would I say a meeting?':
+    'هي على الغداء. فلماذا أقول اجتماعًا؟',
+  'Everybody says a meeting. Nobody is ever at lunch.':
+    'الجميع يقول اجتماعًا. ولا أحد يكون على الغداء أبدًا.',
+  'Two. I ring back at two.':
+    'الثانية. سأتصل مرة أخرى في الثانية.',
+  'My number is 0944 112 233.':
+    'رقمي هو 0944 112 233.',
+  'One moment, please. (he writes) Again, please.':
+    'لحظة واحدة، من فضلك. (يكتب) مرة أخرى، من فضلك.',
+  'Zero nine four four, one one two, two three three.':
+    'صفر تسعة أربعة أربعة، واحد واحد اثنان، اثنان ثلاثة ثلاثة.',
+  'The last part. Two three three, or two two three?':
+    'الجزء الأخير. اثنان ثلاثة ثلاثة، أم اثنان اثنان ثلاثة؟',
+  'Two, then double three.':
+    'اثنان، ثم ثلاثة مرتين.',
+  'Double three at the end. Zero nine four four, one one two, two three three.':
+    'ثلاثة مرتين في النهاية. صفر تسعة أربعة أربعة، واحد واحد اثنان، اثنان ثلاثة ثلاثة.',
+  'Correct. You are the first man here who read it back.':
+    'صحيح. أنت أول رجل هنا يعيد قراءته.',
+  'My supervisor says a number nobody read back is a number nobody has.':
+    'مشرفي يقول إن الرقم الذي لم يُعَد قراءته رقمٌ لا يملكه أحد.',
+  'One moment, please. Again, please.':
+    'لحظة واحدة، من فضلك. مرة أخرى، من فضلك.',
+  'Zero nine four four … one one two … two three three.':
+    'صفر تسعة أربعة أربعة… واحد واحد اثنان… اثنان ثلاثة ثلاثة.',
+  'So she has it at two?':
+    'إذًا تكون عندها في الثانية؟',
+  'I will tell her at two. And the slip goes on her desk now.':
+    'سأخبرها في الثانية. والورقة توضع على مكتبها الآن.',
+  'Both?':
+    'الاثنان؟',
+  'Both. The slip is if I forget. I am new and I might forget.':
+    'الاثنان. الورقة في حال نسيتُ. أنا جديد وقد أنسى.',
+  'You will not forget.':
+    'لن تنسى.',
+  'Last Tuesday I forgot one. Abu Yasser found the slip on Wednesday.':
+    'الثلاثاء الماضي نسيتُ واحدة. ووجد أبو ياسر الورقة يوم الأربعاء.',
+  'So the slip worked.':
+    'إذًا الورقة نفعت.',
+  'The slip worked. A day late.':
+    'الورقة نفعت. بعد يوم.',
+  'A day late is better than never.':
+    'يومٌ متأخرًا أفضل من أبدًا.',
+  'A day late lost us a lorry. So now I do both and I tell her twice.':
+    'يومٌ متأخرًا أضاع علينا شاحنة. فأنا الآن أفعل الاثنين وأخبرها مرتين.',
+  'Both. The slip is if I forget.':
+    'الاثنان. الورقة في حال نسيتُ.',
+  'Last Tuesday I forgot one. So now I do both.':
+    'الثلاثاء الماضي نسيتُ واحدة. فأنا الآن أفعل الاثنين.',
+  'Ammar. The Mouallem message. Three days ago.':
+    'عمّار. رسالة معلّم. منذ ثلاثة أيام.',
+  'I took it. Everything. The name spelled, the number read back, the invoice, the time he rings.':
+    'أخذتُها. كل شيء. الاسم مهجّأً، والرقم معادًا قراءته، والفاتورة، ووقت اتصاله.',
+  'I know. I am holding the slip. It is perfect.':
+    'أعرف. الورقة في يدي. إنها كاملة.',
+  'Then what is wrong?':
+    'فما الخطأ إذًا؟',
+  'It was under the slip pad. I found it this morning.':
+    'كانت تحت دفتر الرسائل. وجدتُها هذا الصباح.',
+  'I put it on your desk. I remember putting it on your desk.':
+    'وضعتُها على مكتبك. أتذكّر أنني وضعتُها على مكتبك.',
+  'You did. And I put the pad on top of it when I came back from lunch.':
+    'فعلتَ. وأنا وضعتُ الدفتر فوقها حين عدتُ من الغداء.',
+  'And I told you at two as well. I did both.':
+    'وأخبرتُك في الثانية أيضًا. فعلتُ الاثنين.',
+  'You told me at two and I was on the other telephone. I did not hear you.':
+    'أخبرتَني في الثانية وكنتُ على الهاتف الآخر. لم أسمعك.',
+  'So the slip was perfect, the man did both, and the message is three days late.':
+    'إذًا الورقة كانت كاملة، والرجل فعل الاثنين، والرسالة متأخرة ثلاثة أيام.',
+  'And the invoice is paid. Four boxes we did not get.':
+    'والفاتورة مدفوعة. أربعة صناديق لم نستلمها.',
+  'Good morning. Is Mrs Mansour there?':
+    'صباح الخير. هل السيدة منصور موجودة؟',
+  'She is at lunch. She is back at two. Your name, please.':
+    'هي على الغداء. وتعود في الثانية. اسمك، من فضلك.',
+  'Qassar. Q, A, S, S, A, R.':
+    'قصّار. Q، A، S، S، A، R.',
+  'Q, A, S, S, A, R. Six letters. Qassar. Your number, please.':
+    'Q، A، S، S، A، R. ستة أحرف. قصّار. رقمك، من فضلك.',
+  'Zero nine three two, four four five, six six one.':
+    'صفر تسعة ثلاثة اثنان، أربعة أربعة خمسة، ستة ستة واحد.',
+  'Zero nine three two, four four five, six six one. Is that it?':
+    'صفر تسعة ثلاثة اثنان، أربعة أربعة خمسة، ستة ستة واحد. هل هذا هو؟',
+  'That is it. Tell her I ring back at four.':
+    'هذا هو. أخبرها أنني سأتصل مرة أخرى في الرابعة.',
+  'I will tell her at two, and the slip goes on the spike now. Four o\'clock.':
+    'سأخبرها في الثانية، والورقة توضع على المشبك الآن. الساعة الرابعة.'
 });

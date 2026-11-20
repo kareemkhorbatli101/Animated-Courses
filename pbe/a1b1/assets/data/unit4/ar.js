@@ -10,14 +10,310 @@ PBE1.arabic({
     'اختر الجواب.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
+  'Work in pairs. One asks. One answers. Then change places.':
+    'اعملا في ثنائيات. أحدكما يسأل. والآخر يجيب. ثم تبادلا الدورين.',
   'Two pairs say the lines for the class — books closed.':
     'يقول ثنائيان الجمل أمام الصف — والكتب مغلقة.',
+  'Say where five things are at your work. Write it.':
+    'قل أين توجد خمسة أشياء في عملك. واكتبها.',
+  'Tell the class: The is the .':
+    'قل للصف: إن … هو … .',
+  'Read the note on the small store door. Then answer.':
+    'اقرأ المذكرة على باب المستودع الصغير. ثم أجب.',
+  'Write a where-things-are note for your own work ( 15 words or more ).':
+    'اكتب مذكرة «أين توجد الأشياء» لعملك أنت ( ١٥ كلمة أو أكثر ).',
   'Change books. Point at the line. Read it aloud. Say the one thing that is missing.':
     'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص فيه.',
+  'Two students read one line. The class says if they could find the thing.':
+    'يقرأ طالبان سطرًا واحدًا. ويقول الصف هل كان بإمكانهم العثور على الشيء.',
+  'Write about where you keep four things at work ( 20 to 35 words ). Which one is hardest to find? Why?':
+    'اكتب عن أماكن تحفظ فيها أربعة أشياء في العمل ( من ٢٠ إلى ٣٥ كلمة ). أيها أصعبها في العثور عليه؟ ولماذا؟',
+  'Read your partner\'s work. Ask your partner: Who else knows where that is? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: ومن غيرك يعرف مكانه؟ ثم اكتب الجواب.',
+  'Read three papers. How many things does only one person know the place of? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم شيئًا لا يعرف مكانه إلا شخص واحد؟ عُدّوها على اللوح.',
+  'Work in pairs. One gives an address. One says it back. Then change places.':
+    'اعملا في ثنائيات. أحدكما يعطي عنوانًا. والآخر يعيده. ثم تبادلا الدورين.',
+  'Draw your own store in the box. Put four things in it with an address. Write it.':
+    'ارسم مستودعك أنت في المربّع. ضع فيه أربعة أشياء مع عنوان كل منها. واكتبه.',
+  'Tell the class: The is in row , shelf . That is the row from the .':
+    'قل للصف: إن … في الصف … ، الرف … . وهو الصف … من … .',
+  'Read the shelf list. Then answer.':
+    'اقرأ قائمة الرفوف. ثم أجب.',
+  'Write a shelf list for your own store ( 15 words or more ). Use a table with the row down the side and the shelf across the top.':
+    'اكتب قائمة رفوف لمستودعك أنت ( ١٥ كلمة أو أكثر ). استخدم جدولًا، الصفوف على الجانب والرفوف في الأعلى.',
+  'Two students give one address. The class finds it in the other student\'s table.':
+    'يعطي طالبان عنوانًا واحدًا. ويجده الصف في جدول الطالب الآخر.',
+  'Write about your store ( 20 to 35 words ). How many rows? How many shelves? Which shelf is the heavy one? Which is empty?':
+    'اكتب عن مستودعك ( من ٢٠ إلى ٣٥ كلمة ). كم صفًا فيه؟ وكم رفًا؟ وأي رف هو الثقيل؟ وأيها فارغ؟',
+  'Read your partner\'s work. Ask your partner: Which shelf do you use most? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: أي رف تستخدمه أكثر؟ ثم اكتب الجواب.',
+  'Read three papers. Is the heavy shelf the bottom one in every store? Count them on the board.':
+    'اقرأ ثلاث ورقات. هل الرف الثقيل هو الأسفل في كل مستودع؟ عُدّوها على اللوح.',
+  'Ask your partner where four things at their work are. Write it.':
+    'اسأل زميلك عن أماكن أربعة أشياء في عمله. واكتبها.',
+  'Tell the class: I asked where the was. It is .':
+    'قل للصف: سألتُ أين … . وهو … .',
+  'Read what Nour wrote on the paper. Then answer.':
+    'اقرأ ما كتبته نور على الورقة. ثم أجب.',
+  'Write a correction for something at your own work ( 15 words or more ).':
+    'اكتب تصحيحًا لشيء في عملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their why line. The class says if it is a good reason.':
+    'يقرأ طالبان سطر «لماذا». ويقول الصف هل هو سبب وجيه.',
+  'Write about something at your work that is not where the paper says ( 20 to 35 words ). Where is it? Why? Who moved it?':
+    'اكتب عن شيء في عملك ليس في المكان الذي تقوله الورقة ( من ٢٠ إلى ٣٥ كلمة ). أين هو؟ ولماذا؟ ومن نقله؟',
+  'Read your partner\'s work. Ask your partner: Did anybody change the paper? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل غيّر أحدٌ الورقة؟ ثم اكتب الجواب.',
+  'Read three papers. In how many was the paper changed? Count them on the board.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها غُيّرت الورقة؟ عُدّوها على اللوح.',
+  'Work in pairs. One reports. One asks. Then change places.':
+    'اعملا في ثنائيات. أحدكما يبلّغ. والآخر يسأل. ثم تبادلا الدورين.',
+  'Think of two things that went missing at your work. Write it.':
+    'فكّر في شيئين فُقدا في عملك. واكتبهما.',
+  'Tell the class: The was not there. I saw . I told .':
+    'قل للصف: لم يكن … هناك. رأيتُ … . وأخبرتُ … .',
+  'Read the note Ammar wrote. Then answer.':
+    'اقرأ المذكرة التي كتبها عمّار. ثم أجب.',
+  'Write a missing note for your own work ( 15 words or more ).':
+    'اكتب مذكرة فقدان لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their what I saw line. The class says how many facts are in it.':
+    'يقرأ طالبان سطر «ما رأيته». ويقول الصف كم معلومة فيه.',
+  'Write about a thing that went missing at your work ( 20 to 35 words ). What did you see? Who did you tell? What happened?':
+    'اكتب عن شيء فُقد في عملك ( من ٢٠ إلى ٣٥ كلمة ). ماذا رأيت؟ ومن أخبرت؟ وماذا حدث؟',
+  'Read your partner\'s work. Ask your partner: Did it come back? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل عاد؟ ثم اكتب الجواب.',
+  'Read three papers. In how many did the thing come back the same day? Count them on the board.':
+    'اقرأ ثلاث ورقات. في كم واحدة منها عاد الشيء في اليوم نفسه؟ عُدّوها على اللوح.',
+  'Work in pairs. One is the driver. One gives directions. Then change places.':
+    'اعملا في ثنائيات. أحدكما السائق. والآخر يدلّه على الطريق. ثم تبادلا الدورين.',
+  'Tell your partner how to walk from the gate of your work to where you stand. Write it.':
+    'اشرح لزميلك كيف يمشي من بوابة عملك إلى المكان الذي تقف فيه. واكتبه.',
+  'Tell the class: Go . Turn at the . It is on your . Do not .':
+    'قل للصف: امشِ … . وانعطف عند … . وهو على … . ولا … .',
+  'Read the paper at the gate. Then answer.':
+    'اقرأ الورقة عند البوابة. ثم أجب.',
+  'Write a directions paper for your own work ( 15 words or more ).':
+    'اكتب ورقة إرشادات طريق لعملك أنت ( ١٥ كلمة أو أكثر ).',
+  'Two students read their paper. A third walks it across the room. The class says if they arrived.':
+    'يقرأ طالبان ورقتهما. ويمشيها ثالث في الغرفة. ويقول الصف هل وصل.',
+  'Write directions from the gate of your work to one place ( 20 to 35 words ). Which turn do people get wrong? What must they not do?':
+    'اكتب إرشادات الطريق من بوابة عملك إلى مكان واحد ( من ٢٠ إلى ٣٥ كلمة ). أي انعطاف يخطئ فيه الناس؟ وما الذي يجب ألا يفعلوه؟',
+  'Read your partner\'s work. Ask your partner: Has anybody ever got it wrong? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل أخطأ فيها أحد من قبل؟ ثم اكتب الجواب.',
+  'Read three papers. How many name a door that nobody should use? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم واحدة منها تسمّي بابًا لا ينبغي لأحد أن يستخدمه؟ عُدّوها على اللوح.',
+  'Work in pairs. One gives a job. One says what they can and cannot do. Then change places.':
+    'اعملا في ثنائيات. أحدكما يعطي عملًا. والآخر يقول ما يستطيع وما لا يستطيع. ثم تبادلا الدورين.',
+  'Say three things you can do at your work and three you cannot. Write it.':
+    'قل ثلاثة أمور تستطيع فعلها في عملك وثلاثة لا تستطيعها. واكتبها.',
+  'Tell the class: I can . I cannot . So I .':
+    'قل للصف: أستطيع … . ولا أستطيع … . لذلك … .',
+  'Read the paper on the ladder. Then answer.':
+    'اقرأ الورقة الملصقة على السُلّم. ثم أجب.',
+  'Write a safety paper for one thing at your work ( 15 words or more ).':
+    'اكتب ورقة سلامة لأمر واحد في عملك ( ١٥ كلمة أو أكثر ).',
+  'Two students read their warning. The class says which one they would remember.':
+    'يقرأ طالبان تحذيرهما. ويقول الصف أيهما يبقى في الذاكرة.',
+  'Write about something at your work you cannot do alone ( 20 to 35 words ). What is it? What do you need? What do people do instead when it is not there?':
+    'اكتب عن شيء في عملك لا تستطيع فعله وحدك ( من ٢٠ إلى ٣٥ كلمة ). ما هو؟ وما الذي تحتاجه؟ وماذا يفعل الناس بدلًا من ذلك عندما لا يكون موجودًا؟',
+  'Read your partner\'s work. Ask your partner: Has anybody been hurt doing that? Write the answer.':
+    'اقرأ ما كتبه زميلك. واسأله: هل أُصيب أحدٌ وهو يفعل ذلك؟ ثم اكتب الجواب.',
+  'Read three papers. How many describe something people do that is not safe? Count them on the board.':
+    'اقرأ ثلاث ورقات. كم واحدة منها تصف أمرًا يفعله الناس وهو غير آمن؟ عُدّوها على اللوح.',
+  'Work in pairs. One is Fouad. One is Nour. Say why you are right.':
+    'اعملا في ثنائيات. أحدكما فؤاد. والآخر نور. وليقل كلٌّ لماذا هو محق.',
   'Two pairs say the two sides for the class — books closed.':
     'يعرض ثنائيان وجهتَي النظر أمام الصف — والكتب مغلقة.',
+  'Think of somebody at your work who does a thing better than the paper says. Tell your partner. Write it.':
+    'فكّر في شخص في عملك يفعل أمرًا على نحو أفضل مما تقوله الورقة. أخبر زميلك. واكتبه.',
+  'The problem. Fouad has moved eleven things to better places. Every decision was right. The map still says the old place, and on Tuesday a man was sent to an empty shelf while Fouad was at lunch.':
+    'المشكلة. فؤاد نقل أحد عشر شيئًا إلى أماكن أفضل. وكل قرار كان صائبًا. والخريطة ما زالت تقول المكان القديم، ويوم الثلاثاء أُرسل رجل إلى رف فارغ وفؤاد على الغداء.',
   'Read the five notices. What does each one say? Choose A, B or C.':
     'اقرأ الإعلانات الخمسة. ماذا يقول كل واحد منها؟ اختر A أو B أو C.',
+  'Write a message saying you moved something ( four sentences, about 30 words ). Say what, where it is now, why, and what the reader must do.':
+    'اكتب رسالة تقول فيها إنك نقلت شيئًا ( أربع جمل، نحو ٣٠ كلمة ). اذكر ما هو، وأين هو الآن، والسبب، وما على القارئ أن يفعله.',
   'Change books. Point at the line. Read it aloud. Say the one thing that is missing. Count the sentences: four.':
-    'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص. ثم عُدّ الجمل: أربع.'
+    'تبادلوا الكتب. أشر إلى السطر. اقرأه بصوت عالٍ. وقل الشيء الواحد الناقص. ثم عُدّ الجمل: أربع.',
+  'Write a message to your supervisor about a thing you moved ( four sentences, about 30 words ). Say what, where, why, and ask for the map to be changed.':
+    'اكتب رسالة إلى مشرفك عن شيء نقلته ( أربع جمل، نحو ٣٠ كلمة ). اذكر ما هو، وأين، والسبب، واطلب تعديل الخريطة.',
+  'Ammar. The small box of labels. Where is it?':
+    'عمّار. علبة الملصقات الصغيرة. أين هي؟',
+  'On the shelf?':
+    'على الرف؟',
+  'Not on the shelf. I looked.':
+    'ليست على الرف. نظرتُ.',
+  'In the big box?':
+    'في الصندوق الكبير؟',
+  'Not in the big box. Look under the bench.':
+    'ليست في الصندوق الكبير. انظر تحت الطاولة.',
+  'Under the bench. Yes. Here it is.':
+    'تحت الطاولة. نعم. ها هي.',
+  'Next to the bench there is a ladder. Put the box on the top shelf.':
+    'بجانب الطاولة سُلّم. ضع العلبة على الرف الأعلى.',
+  'On the top shelf. Behind the paper?':
+    'على الرف الأعلى. خلف الورق؟',
+  'Not behind the paper. In front of it. So the next man can see it.':
+    'لا خلف الورق. أمامه. حتى يراها الرجل الذي يأتي بعدك.',
+  'The box of labels. Where is it?':
+    'علبة الملصقات. أين هي؟',
+  'No. I looked.':
+    'لا. نظرتُ.',
+  'Look under the bench.':
+    'انظر تحت الطاولة.',
+  'Yes. Here it is.':
+    'نعم. ها هي.',
+  'Ammar. The cartons from Monday. Row three, shelf two.':
+    'عمّار. كراتين يوم الاثنين. الصف الثالث، الرف الثاني.',
+  'Row three. Which one is row three?':
+    'الصف الثالث. أيّها الصف الثالث؟',
+  'From the door. One, two, three. The third row.':
+    'من الباب. واحد، اثنان، ثلاثة. الصف الثالث.',
+  'And shelf two?':
+    'والرف الثاني؟',
+  'Four shelves in a row. Shelf one is the bottom.':
+    'أربعة رفوف في الصف. والرف الأول هو الأسفل.',
+  'The bottom? Not the top?':
+    'الأسفل؟ لا الأعلى؟',
+  'The bottom. Shelf one is the bottom, shelf four is the top. Everybody asks.':
+    'الأسفل. الرف الأول هو الأسفل، والرف الرابع هو الأعلى. الجميع يسأل هذا السؤال.',
+  'Row three, shelf two. The second one up.':
+    'الصف الثالث، الرف الثاني. الثاني من الأسفل.',
+  'The second one up. Write it on the sheet like that.':
+    'الثاني من الأسفل. اكتبه على الورقة هكذا.',
+  'The cartons. Row three, shelf two.':
+    'الكراتين. الصف الثالث، الرف الثاني.',
+  'From the door. One, two, three.':
+    'من الباب. واحد، اثنان، ثلاثة.',
+  'Shelf one is the bottom.':
+    'الرف الأول هو الأسفل.',
+  'Ammar, where is the big roll? The office needs it today.':
+    'عمّار، أين اللفّة الكبيرة؟ الإدارة تحتاجها اليوم.',
+  'Row two, shelf one. It says so on the paper.':
+    'الصف الثاني، الرف الأول. هكذا تقول الورقة.',
+  'It is not in row two.':
+    'ليست في الصف الثاني.',
+  'Where are the other rolls?':
+    'وأين اللفّات الأخرى؟',
+  'Row two, shelf two. All four of them.':
+    'الصف الثاني، الرف الثاني. أربعتها.',
+  'Then the big one is somewhere sensible. Behind the door?':
+    'إذًا الكبيرة في مكان معقول. خلف الباب؟',
+  'Behind the door. Yes. Standing up.':
+    'خلف الباب. نعم. واقفة.',
+  'Standing up, because it does not go on a shelf.':
+    'واقفة، لأنها لا تُوضع على رف.',
+  'Somebody made a good decision and told nobody.':
+    'أحدهم اتخذ قرارًا صائبًا ولم يخبر أحدًا.',
+  'Where is the big roll?':
+    'أين اللفّة الكبيرة؟',
+  'Row two, shelf two.':
+    'الصف الثاني، الرف الثاني.',
+  'Then it is somewhere sensible. Behind the door?':
+    'إذًا هي في مكان معقول. خلف الباب؟',
+  'Abu Yasser. Row three, shelf two. The four cartons are not there.':
+    'أبا ياسر. الصف الثالث، الرف الثاني. الكراتين الأربعة ليست هناك.',
+  'Not there, or gone?':
+    'ليست هناك، أم أنها ذهبت؟',
+  'The space is empty. There is nothing in it.':
+    'المكان فارغ. لا شيء فيه.',
+  'Is there dust?':
+    'هل هناك غبار؟',
+  'No dust. A clean square.':
+    'لا غبار. مربّع نظيف.',
+  'Then they went today. Dust takes a week.':
+    'إذًا ذهبت اليوم. الغبار يحتاج أسبوعًا.',
+  'So somebody moved them this morning.':
+    'إذًا نقلها أحدهم هذا الصباح.',
+  'Or sold them. I ask the counter first, not the men.':
+    'أو باعها. أسأل الكاونتر أولًا، لا الرجال.',
+  'The counter first. Why?':
+    'الكاونتر أولًا. لماذا؟',
+  'Because four cartons going out of the front door is normal and nobody tells me.':
+    'لأن خروج أربعة كراتين من الباب الأمامي أمر عادي ولا يخبرني به أحد.',
+  'Row three, shelf two. The four cartons are not there.':
+    'الصف الثالث، الرف الثاني. الكراتين الأربعة ليست هناك.',
+  'Then they went today.':
+    'إذًا ذهبت اليوم.',
+  'The loading door. Where is it?':
+    'باب التحميل. أين هو؟',
+  'From the gate, go straight on. Past the small store.':
+    'من البوابة، امشِ إلى الأمام. وتجاوز المستودع الصغير.',
+  'Straight on. Past the small store.':
+    'إلى الأمام. وتجاوز المستودع الصغير.',
+  'Then turn left at the bench. The long bench, not the short one.':
+    'ثم انعطف يسارًا عند الطاولة. الطاولة الطويلة، لا القصيرة.',
+  'Left at the long bench.':
+    'يسارًا عند الطاولة الطويلة.',
+  'The loading door is on your left. The big grey door.':
+    'باب التحميل على يسارك. الباب الرمادي الكبير.',
+  'And the other door?':
+    'والباب الآخر؟',
+  'Do not use the other door. It is the office stairs. No lorries.':
+    'لا تستخدم الباب الآخر. إنه درج الإدارة. لا شاحنات.',
+  'Straight on, left at the long bench, grey door on the left.':
+    'إلى الأمام، ثم يسارًا عند الطاولة الطويلة، والباب الرمادي على اليسار.',
+  'Say it back like that every time. You got it right.':
+    'أعد قراءتها هكذا في كل مرة. لقد أصبتَ.',
+  'Then turn left at the long bench.':
+    'ثم انعطف يسارًا عند الطاولة الطويلة.',
+  'It is on your left. Do not use the other door.':
+    'إنه على يسارك. لا تستخدم الباب الآخر.',
+  'Ammar. Put the packets on shelf four.':
+    'عمّار. ضع العلب على الرف الرابع.',
+  'I can reach shelf three. I cannot reach shelf four.':
+    'أستطيع الوصول إلى الرف الثالث. ولا أستطيع الوصول إلى الرابع.',
+  'The ladder is next to the bench.':
+    'السُلّم بجانب الطاولة.',
+  'The ladder is not next to the bench. It is in the yard.':
+    'السُلّم ليس بجانب الطاولة. إنه في الساحة.',
+  'Then do not stand on a carton. Wait for the ladder.':
+    'إذًا لا تقف على كرتون. انتظر السُلّم.',
+  'I can put them on shelf three and move them later.':
+    'أستطيع وضعها على الرف الثالث ونقلها لاحقًا.',
+  'Better. Tell me you moved them.':
+    'هذا أفضل. وأخبرني أنك نقلتها.',
+  'I tell you. And I write it on the sheet.':
+    'أخبرك. وأكتبها على الورقة.',
+  'Good. A man on a carton is a man in hospital.':
+    'جيد. الرجل الذي يقف على كرتون رجلٌ في المستشفى.',
+  'Put the packets on shelf four.':
+    'ضع العلب على الرف الرابع.',
+  'Fouad has moved eleven things this month. Not one of them is where the map says.':
+    'فؤاد نقل أحد عشر شيئًا هذا الشهر. ولا واحد منها في المكان الذي تقوله الخريطة.',
+  'Where are they?':
+    'وأين هي؟',
+  'Somewhere sensible. Every time. The long rolls stand behind the door now.':
+    'في مكان معقول. في كل مرة. اللفّات الطويلة واقفة خلف الباب الآن.',
+  'They do not fit on shelf one. They bend. A bent roll is rubbish.':
+    'لا تتّسع على الرف الأول. فتنحني. واللفّة المنحنية نفاية.',
+  'That is true. I have thrown away bent rolls for nine years.':
+    'هذا صحيح. أرمي لفّات منحنية منذ تسع سنوات.',
+  'And I sent a man to row two for a roll on Tuesday. He came back with nothing.':
+    'وأنا أرسلتُ رجلًا إلى الصف الثاني ليأتي بلفّة يوم الثلاثاء. فعاد بلا شيء.',
+  'He should ask me.':
+    'كان عليه أن يسألني.',
+  'He did ask you. You were at lunch.':
+    'لقد سألك. كنتَ على الغداء.',
+  'Then he should ask Samih. Samih knows.':
+    'إذًا كان عليه أن يسأل سميحًا. سميح يعرف.',
+  'Samih knows. Fouad knows. I know. The map does not.':
+    'سميح يعرف. وفؤاد يعرف. وأنا أعرف. والخريطة لا تعرف.',
+  'Ammar. Row two, shelf three. The packets.':
+    'عمّار. الصف الثاني، الرف الثالث. العلب.',
+  'Row two. From the door?':
+    'الصف الثاني. من الباب؟',
+  'From the door, always. One, two.':
+    'من الباب، دائمًا. واحد، اثنان.',
+  'Shelf three. Row two, shelf three.':
+    'الرف الثالث. الصف الثاني، الرف الثالث.',
+  'Go on, then. Before the lorry.':
+    'هيا إذًا. قبل الشاحنة.',
+  'Samih. The packets are not there. Six packets.':
+    'سميح. العلب ليست هناك. ست علب.',
+  'Not there?':
+    'ليست هناك؟',
+  'An empty space. Thick dust. They went a long time ago.':
+    'مكان فارغ. وغبار كثيف. ذهبت منذ زمن بعيد.',
+  'Thick dust. Tell Abu Yasser, not me. He keeps the old sheets.':
+    'غبار كثيف. أخبر أبا ياسر، لا أنا. هو يحفظ الورقات القديمة.'
 });
