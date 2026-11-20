@@ -265,7 +265,9 @@ PBE1.page('u2-s03', {
           }],
       ideas: ['Packets: 20 in a packet',
       'Cartons: 10 packets in a carton'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
+        + 'the name twice.']
     },
     {
       id: 'c6',
@@ -465,7 +467,9 @@ PBE1.page('u2-s03', {
         '⚠ Every line has a number AND a word. 20 in a packet. Not 20.',
         '⚠ Put the card ON the shelf, not in the office. A card in the office '
           + 'is a card for the office.']
-      }
+      },
+      example: ['Line 2: the number is there but not the word. It says “twenty” and it '
+        + 'should say “twenty packets”.']
     },
     {
       id: 'c11',
@@ -482,7 +486,8 @@ PBE1.page('u2-s03', {
           }],
       ideas: ['Packets: 20 in a packet',
       'Cartons: 10 packets in a carton'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     },
     {
       id: 'c12',
@@ -588,7 +593,8 @@ PBE1.page('u2-s03', {
           }],
       ideas: ['Packets: 20 in a packet',
       'Cartons: 10 packets in a carton'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     }
   ]
 });

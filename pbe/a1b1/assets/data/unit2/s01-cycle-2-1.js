@@ -131,7 +131,9 @@ PBE1.page('u2-s01', {
             rows: 2
           }],
       ideas: ['The numbers 0 to 20'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
+      'I am the storeman. I work in the back store.']
     },
     {
       id: 'c2',
@@ -258,7 +260,9 @@ PBE1.page('u2-s01', {
             rows: 2
           }],
       ideas: ['The numbers 0 to 20'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
+        + 'the name twice.']
     },
     {
       id: 'c6',
@@ -453,7 +457,9 @@ PBE1.page('u2-s01', {
           + 'a line nobody can use.',
         '⚠ Write the TOTAL at the bottom. A sheet with no total is a sheet '
           + 'somebody must add up again.']
-      }
+      },
+      example: ['Line 2: the number is there but not the word. It says “twenty” and it '
+        + 'should say “twenty packets”.']
     },
     {
       id: 'c11',
@@ -469,7 +475,8 @@ PBE1.page('u2-s01', {
             rows: 2
           }],
       ideas: ['The numbers 0 to 20'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     },
     {
       id: 'c12',
@@ -574,7 +581,8 @@ PBE1.page('u2-s01', {
             rows: 2
           }],
       ideas: ['The numbers 0 to 20'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     }
   ]
 });

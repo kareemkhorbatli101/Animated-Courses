@@ -124,7 +124,9 @@ PBE1.page('u1-s07', {
             rows: 2
           }],
       ideas: ['1.4 say who another person is'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
+      'I am the storeman. I work in the back store.']
     },
     {
       id: 'c2',
@@ -235,7 +237,9 @@ PBE1.page('u1-s07', {
             rows: 2
           }],
       ideas: ['1.4 say who another person is'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['A: Good morning. Your name, please. B: Good morning. My name is Samih '
+        + 'Qassar. A: Can you spell it? B: Q, A, S, S, A, R.']
     },
     {
       id: 'c5',
@@ -251,7 +255,9 @@ PBE1.page('u1-s07', {
             rows: 2
           }],
       ideas: ['1.4 say who another person is'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
+        + 'the name twice.']
     },
     {
       id: 'c6',
@@ -376,7 +382,9 @@ PBE1.page('u1-s07', {
             rows: 2
           }],
       ideas: ['1.4 say who another person is'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Fourteen. It says fourteen twice - the number and the words - so it '
+        + 'cannot be read as forty.']
     },
     {
       id: 'c9',
@@ -470,7 +478,9 @@ PBE1.page('u1-s07', {
         'The shape: who it is to → your name → what you want to say → the day '
           + 'or the time.',
         '⚠ Write the number twice if it can be read two ways. 14 (one four).']
-      }
+      },
+      example: ['Line 2: the number is there but not the word. It says “twenty” and it '
+        + 'should say “twenty packets”.']
     },
     {
       id: 'c11',

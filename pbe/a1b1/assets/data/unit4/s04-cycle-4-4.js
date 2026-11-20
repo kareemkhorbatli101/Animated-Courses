@@ -134,7 +134,9 @@ PBE1.page('u4-s04', {
           }],
       ideas: ['Saying a thing is not there',
       'What: four cartons of labels'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
+      'I am the storeman. I work in the back store.']
     },
     {
       id: 'c2',
@@ -275,7 +277,9 @@ PBE1.page('u4-s04', {
           }],
       ideas: ['Saying a thing is not there',
       'What: four cartons of labels'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
+        + 'the name twice.']
     },
     {
       id: 'c6',
@@ -512,7 +516,8 @@ PBE1.page('u4-s04', {
           }],
       ideas: ['Saying a thing is not there',
       'What: four cartons of labels'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     },
     {
       id: 'c12',
@@ -623,7 +628,8 @@ PBE1.page('u4-s04', {
           }],
       ideas: ['Saying a thing is not there',
       'What: four cartons of labels'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     }
   ]
 });

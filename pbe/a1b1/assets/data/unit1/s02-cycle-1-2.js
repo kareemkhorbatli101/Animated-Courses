@@ -263,7 +263,9 @@ PBE1.page('u1-s02', {
       ideas: ['The letters',
       'Name: AMMAR ZREIK',
       'Job: Storeman'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
+        + 'the name twice.']
     },
     {
       id: 'c6',
@@ -455,7 +457,9 @@ PBE1.page('u1-s02', {
         '⚠ On a badge the name is in BIG LETTERS, every letter. AMMAR ZREIK.',
         '⚠ Count the letters before you write. Five is five. Say them, then '
           + 'write them, then Check it.']
-      }
+      },
+      example: ['Line 2: the number is there but not the word. It says “twenty” and it '
+        + 'should say “twenty packets”.']
     },
     {
       id: 'c11',
@@ -474,7 +478,8 @@ PBE1.page('u1-s02', {
       ideas: ['The letters',
       'Name: AMMAR ZREIK',
       'Job: Storeman'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     },
     {
       id: 'c12',
@@ -559,7 +564,9 @@ PBE1.page('u1-s02', {
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The letters.',
         'Short enough to say in one breath, at A1.']
-      }
+      },
+      example: ['You wrote that you check the shelves first. I asked: who reads the '
+        + 'sheet after you? You said Abu Yasser reads it at four.']
     },
     {
       id: 'c14',
@@ -582,7 +589,8 @@ PBE1.page('u1-s02', {
       ideas: ['The letters',
       'Name: AMMAR ZREIK',
       'Job: Storeman'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     }
   ]
 });

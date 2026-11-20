@@ -125,7 +125,9 @@ PBE1.page('u3-s07', {
             rows: 2
           }],
       ideas: ['3.2 say a time two ways'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
+      'I am the storeman. I work in the back store.']
     },
     {
       id: 'c2',
@@ -239,7 +241,9 @@ PBE1.page('u3-s07', {
             rows: 2
           }],
       ideas: ['3.2 say a time two ways'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['A: Good morning. Your name, please. B: Good morning. My name is Samih '
+        + 'Qassar. A: Can you spell it? B: Q, A, S, S, A, R.']
     },
     {
       id: 'c5',
@@ -255,7 +259,9 @@ PBE1.page('u3-s07', {
             rows: 2
           }],
       ideas: ['3.2 say a time two ways'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
+        + 'the name twice.']
     },
     {
       id: 'c6',
@@ -380,7 +386,9 @@ PBE1.page('u3-s07', {
             rows: 2
           }],
       ideas: ['3.2 say a time two ways'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Fourteen. It says fourteen twice - the number and the words - so it '
+        + 'cannot be read as forty.']
     },
     {
       id: 'c9',
@@ -477,7 +485,9 @@ PBE1.page('u3-s07', {
           + 'reader remembers the last thing.',
         'The shape: who it is to → the day and the time → why → what you are '
           + 'asking for.']
-      }
+      },
+      example: ['Line 2: the number is there but not the word. It says “twenty” and it '
+        + 'should say “twenty packets”.']
     },
     {
       id: 'c11',

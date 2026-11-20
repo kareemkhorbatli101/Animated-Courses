@@ -133,7 +133,9 @@ PBE1.page('u2-s02', {
       ideas: ['The big numbers',
       'IN TODAY: 90 (ninety)',
       'OUT TODAY: 0 (none)'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
+      'I am the storeman. I work in the back store.']
     },
     {
       id: 'c2',
@@ -270,7 +272,9 @@ PBE1.page('u2-s02', {
       ideas: ['The big numbers',
       'IN TODAY: 90 (ninety)',
       'OUT TODAY: 0 (none)'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
+        + 'the name twice.']
     },
     {
       id: 'c6',
@@ -481,7 +485,9 @@ PBE1.page('u2-s02', {
           + 'cannot.',
         '⚠ Zero is a number. Write it. An empty line means nobody counted. 0 '
           + 'means somebody did.']
-      }
+      },
+      example: ['Line 2: the number is there but not the word. It says “twenty” and it '
+        + 'should say “twenty packets”.']
     },
     {
       id: 'c11',
@@ -499,7 +505,8 @@ PBE1.page('u2-s02', {
       ideas: ['The big numbers',
       'IN TODAY: 90 (ninety)',
       'OUT TODAY: 0 (none)'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     },
     {
       id: 'c12',
@@ -588,7 +595,9 @@ PBE1.page('u2-s02', {
         must: ['Say the whole thing the task asks for - every part of it.',
         'Use this cycle\'s language: The big numbers.',
         'Short enough to say in one breath, at A1.']
-      }
+      },
+      example: ['You wrote that you check the shelves first. I asked: who reads the '
+        + 'sheet after you? You said Abu Yasser reads it at four.']
     },
     {
       id: 'c14',
@@ -612,7 +621,8 @@ PBE1.page('u2-s02', {
       ideas: ['The big numbers',
       'IN TODAY: 90 (ninety)',
       'OUT TODAY: 0 (none)'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     }
   ]
 });

@@ -264,7 +264,9 @@ PBE1.page('u2-s06', {
             rows: 2
           }],
       ideas: ['Saying a number is wrong'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
+        + 'the name twice.']
     },
     {
       id: 'c6',
@@ -469,7 +471,9 @@ PBE1.page('u2-s06', {
           + 'somebody will want to see both.',
         '⚠ Write counted twice. Those two words are why the supervisor will '
           + 'believe the new number.']
-      }
+      },
+      example: ['Line 2: the number is there but not the word. It says “twenty” and it '
+        + 'should say “twenty packets”.']
     },
     {
       id: 'c11',
@@ -485,7 +489,8 @@ PBE1.page('u2-s06', {
             rows: 2
           }],
       ideas: ['Saying a number is wrong'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     },
     {
       id: 'c12',
@@ -594,7 +599,8 @@ PBE1.page('u2-s06', {
             rows: 2
           }],
       ideas: ['Saying a number is wrong'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
     }
   ]
 });

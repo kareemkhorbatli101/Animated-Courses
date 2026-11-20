@@ -305,10 +305,23 @@
           }
         });
         if (!rows.length) {
+          /* A WORKED EXAMPLE, NOT AN ANSWER. See the patch note in
+             tools/course_engine.py. */
+          var exl = card.example
+            ? (Array.isArray(card.example) ? card.example
+                                           : [card.example])
+            : null;
           api.reveal({
             title: card.title || 'About this exercise',
-            note: 'The book prints no single answer for this discussion — it is yours to '
-                + 'make. Use the checklist below the exercise to judge your own answer.'
+            note: exl
+              ? 'The book prints no answer for this one — it is yours to make, about '
+                + 'your own work. Here is an EXAMPLE of what a good one looks like: '
+                + 'how long it is, and what it has in it. Yours will say something else.'
+              : 'The book prints no single answer for this discussion — it is yours to '
+                + 'make. Use the checklist below the exercise to judge your own answer.',
+            rows: exl ? exl.map(function (x) {
+              return { t: x, mine: '', ok: null, why: '' };
+            }) : null
           });
           return;
         }
