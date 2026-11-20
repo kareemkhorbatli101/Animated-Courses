@@ -15,7 +15,7 @@ const gapCount = a => ((Array.isArray(a) ? a.join(' ') : String(a)).match(/\{\d+
 // Typographic marks and technical notation these books legitimately print. Superscripts and
 // the arrow were added when the water-engineering session needed m\u00b3 and a 'fell to' arrow;
 // anything outside this list is an accident, which is what the check is for.
-const ALLOWED_NON_ASCII = new Set([...'·—–⚠☐°\u2019\u201c\u201d\u2018…\u00a0\u00b2\u00b3\u2192\u00b1\u00d7\u2212', '\u{1F50A}']);
+const ALLOWED_NON_ASCII = new Set([...'·—–⚠☐°\u2019\u201c\u201d\u2018…\u00a0\u00b2\u00b3\u2192\u00b1\u00d7\u2212\u00e1\u00e0\u00e2\u00e4\u00e9\u00e8\u00ea\u00eb\u00ed\u00ec\u00ee\u00ef\u00f3\u00f2\u00f4\u00f6\u00fa\u00f9\u00fb\u00fc\u00e7\u00f1\u00c9\u00c0\u00c7', '\u{1F50A}']);
 function scanText(where, v) {
   if (typeof v === 'string') {
     const bad = [...v].filter(ch => ch.charCodeAt(0) > 127 && !ALLOWED_NON_ASCII.has(ch));
