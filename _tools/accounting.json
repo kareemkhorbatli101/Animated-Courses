@@ -1,0 +1,80 @@
+{
+ "from": "a first month in the accounts office",
+ "to": "running a finance department and answering to auditors, banks and a foreign parent",
+ "case_setting": "a named part of a finance department",
+ "field": "accounting",
+ "field_adj": "finance",
+ "field_title": "Accounting Professionals",
+ "unit": "part of the finance department",
+ "own_unit": "a ledger and a figure",
+ "series_arc": "first month in the accounts office → **running a department and speaking for the company**",
+ "learners": "They work, or are about to work, in the finance department of a Syrian company, factory, trading house or organisation — where English is the language of the group pack, of the auditors' working papers and of the paper trail: bank facility letters, letters of credit, supplier claims, donor reports, audit confirmations and the messages that arrive from a parent company abroad.",
+ "neutral": "It is **desk-neutral within finance**. One cohort can contain a payables clerk, a payroll supervisor and a management accountant, and all three practise the same skill on their own part of the ledger.",
+ "contexts_intro": "The programme assumes learners work on different parts of the ledger, not one. Twelve finance contexts carry the case studies:",
+ "contexts": [
+  "Month-end and the ledger",
+  "Procurement and payments",
+  "The audit and the auditors",
+  "Receivables and collections",
+  "Internal control and fraud",
+  "Banks, letters of credit and transfers",
+  "Foreign currency and revaluation",
+  "Inventory and stock counts",
+  "Tax and the directorate of finance",
+  "Payroll and staff costs",
+  "Donor and grant reporting",
+  "Group reporting to a foreign parent"
+ ],
+ "upward": "**Upward and outward paper:** reconciliations and incident notes, monthly packs, variance explanations, decision papers for a director, claims on suppliers, submissions to a directorate of finance and replies to auditors — usually written, usually read by somebody who was not there.",
+ "contact": "**Bank, auditor and parent-company contact:** a foreign parent's reporting office, group and local auditors, correspondent banks, overseas suppliers and donors, often where neither side is a native speaker.",
+ "reading_rows": [
+  "Notes, slips, statements, messages, ledger pages — 138–190 words",
+  "Incident notes, variance explanations, options papers, claims — 208–288 words",
+  "Decision papers, standards, submissions, hearings — 290–358 words"
+ ],
+ "writing_rows": [
+  "Notes, slips, logs, a three-line handover — 45–71 words",
+  "Reports, explanations, claims, recommendations — 87–128 words",
+  "Decision papers, standards, appraisals, submissions — 151–232 words"
+ ],
+ "move3": "Decide, supervise, and speak for the company",
+ "resp2": "a ledger, a figure and a deadline",
+ "resp2b": "a ledger, a figure and a deadline",
+ "arc2": "someone who owns a ledger, a figure and a deadline",
+ "threads": "**being honest about what you did not do and cannot evidence** (Course 1 S9 → Course 2 S14 → Course 3 S28); **giving a number its unit, basis and source** (C1 S4 → C2 S16 and S20 → C3 S27); and **writing so that the reader can act** (C1 S12 → C2 S19 → C3 S25).",
+ "h1": "from your first day in the accounts office to a clerk the department can rely on",
+ "h2": "from dependable pair of hands to owning a ledger, a figure and a deadline",
+ "h3": "from owning a ledger to running a department and answering to auditors, banks and a foreign parent",
+ "map_example": "A learner on the payroll desk meets their own work in sessions 10, 17 and 32, each time at a higher level of responsibility.",
+ "posts1": "Accounts clerk · payables or receivables assistant · cashier · payroll assistant · stores and stock clerk · bank reconciliation clerk · audit trainee taking calls and messages",
+ "gives1": "Being understood in the office and at a counter, taking a figure accurately, keeping a ledger and a register a second person can trust, answering for the department on the telephone, holding a control under pressure, accounting for a month and handing it on",
+ "posts2": "Senior accounts clerk · payables or receivables supervisor · payroll supervisor · management accountant · cost accountant · treasury assistant · internal audit assistant",
+ "gives2": "Owning a ledger and a figure: explaining an error so a reader who was not there can follow it, training somebody on a live ledger, explaining why a figure moved, pressing a claim on a supplier, recommending with a reservation, and reporting upward including what did not happen",
+ "posts3": "Chief accountant · financial controller · head of payables or receivables · internal audit manager · finance manager · deputy finance director",
+ "gives3": "Other people's work and the company's word: delegating, appraising, chairing the month-end review, writing the standard a department follows, naming risk before it lands, negotiating with banks and suppliers, disagreeing upward, and answering a directorate of finance",
+ "constraint": "a capable young accountant at the staff grade",
+ "doc_adj": "company",
+ "terminology": "Accounting, banking and tax",
+ "notice_signer": "finance director",
+ "read_bands": [
+  "138–190",
+  "208–288",
+  "290–358"
+ ],
+ "write_bands": [
+  "45–71",
+  "87–128",
+  "151–232"
+ ],
+ "turn_bands": [
+  "9–11",
+  "11–13",
+  "13–17"
+ ],
+ "sub1": "From your first day in the accounts office to a clerk the department can rely on",
+ "sub2": "From dependable pair of hands to owning a ledger, a figure and a deadline",
+ "sub3": "From owning a ledger to running a department and answering to auditors, banks and a foreign parent",
+ "arc1_text": "The learner arrives in a finance department unable to operate, and leaves able to be relied on: to take a figure accurately, keep a ledger and a register a second person can trust, answer for the department on the telephone, be trusted with cash, documents and a bank mandate, hold a control under pressure, account for a month and hand it on.",
+ "arc2_text": "The learner is given something of their own — a ledger, a supplier account, a payroll, a figure — and learns the language that ownership requires: explaining an error so that a reader who was not there can follow it, training somebody on a live ledger, explaining why a figure moved, pressing a claim on a supplier, recommending with a reservation, and reporting upward including what did not happen.",
+ "arc3_text": "The learner becomes answerable for other people's work and for the company's word. Three sessions are given to supervision itself — delegating, appraising and chairing — and the course runs on through writing the standard a department follows, naming risk before it lands, negotiating with banks and suppliers, answering a directorate of finance, and arguing for the learner's own next post."
+}
