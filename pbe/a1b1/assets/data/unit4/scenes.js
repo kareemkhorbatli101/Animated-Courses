@@ -404,7 +404,7 @@ PBE1.scene('u4-4-7', {
   ]
 });
 
-PBE1.scene('u4-4-7', {
+PBE1.scene('u4-4-7-b', {
   set: 'counter',
   arr: 0,
   cast: {

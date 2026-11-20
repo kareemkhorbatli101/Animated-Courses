@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-9-1",
+  "cycle": "9.1",
+  "title": "Where everybody was at four o'clock",
+  "objective": "say where people were",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-9-2",
+  "cycle": "9.2",
+  "title": "Fifteen verbs, and what they do in the past",
+  "objective": "say what happened — fifteen verbs in the past",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-9-3",
+  "cycle": "9.3",
+  "title": "Last night, last week, on Monday",
+  "objective": "say when it happened",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-9-4",
+  "cycle": "9.4",
+  "title": "I did not count it",
+  "objective": "say what did NOT happen",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-9-5",
+  "cycle": "9.5",
+  "title": "What happened?",
+  "objective": "ask what happened",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-9-6",
+  "cycle": "9.6",
+  "title": "Three sentences, in order",
+  "objective": "tell it in order — three sentences",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-9-7",
+  "cycle": "9.7",
+  "title": "Review: the shift report",
+  "objective": "Review: the shift report — and one problem to talk about together",
+  "n": 12,
+  "minutes": 98,
+  "stages": 11
+ }
+]

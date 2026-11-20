@@ -46,3 +46,16 @@ cma/book*/source/
 .playwright-mcp/
 __pycache__/
 *.pyc
+
+# ---------------------------------------------------------------------------
+# RECORDINGS LIVE IN THEIR OWN MEDIA REPOSITORY, NEVER HERE.
+#
+# Each course's audio is served from its own GitHub Pages site - see
+# tools/course_media.py - and the build writes the mp3s into this tree first as
+# a staging area. They were kept out of this repository only by nobody having
+# run `git add -A`, which is not a rule: on 2026-11-20 one such run swept 279
+# fms recordings in and they had to be removed again.
+#
+# A rule costs nothing and does not forget.
+*/*/assets/audio/
+*/assets/audio/

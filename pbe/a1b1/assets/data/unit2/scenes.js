@@ -395,7 +395,7 @@ PBE1.scene('u2-2-7', {
   ]
 });
 
-PBE1.scene('u2-2-7', {
+PBE1.scene('u2-2-7-b', {
   set: 'store',
   arr: 0,
   cast: {

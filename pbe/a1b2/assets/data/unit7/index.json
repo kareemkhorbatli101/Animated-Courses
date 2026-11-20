@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-7-1",
+  "cycle": "7.1",
+  "title": "Big, small, heavy, light",
+  "objective": "describe a thing — big, small, heavy, light, full, empty",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-7-2",
+  "cycle": "7.2",
+  "title": "Broken, torn, wet",
+  "objective": "say something is damaged",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-7-3",
+  "cycle": "7.3",
+  "title": "Two of the ten",
+  "objective": "say how many are bad, not just that they are bad",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-7-4",
+  "cycle": "7.4",
+  "title": "It came like this",
+  "objective": "say it was like that when it came",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-7-5",
+  "cycle": "7.5",
+  "title": "What do I do?",
+  "objective": "ask what to do",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-7-6",
+  "cycle": "7.6",
+  "title": "One line, and somebody acts on it",
+  "objective": "write one line about it",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-7-7",
+  "cycle": "7.7",
+  "title": "Review: a damage note",
+  "objective": "Review: a damage note — and one problem to talk about together",
+  "n": 12,
+  "minutes": 98,
+  "stages": 11
+ }
+]

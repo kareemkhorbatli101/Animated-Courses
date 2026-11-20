@@ -420,7 +420,7 @@ PBE1.scene('u5-5-7', {
   ]
 });
 
-PBE1.scene('u5-5-7', {
+PBE1.scene('u5-5-7-b', {
   set: 'dock',
   arr: 0,
   cast: {

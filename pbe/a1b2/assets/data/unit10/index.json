@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-10-1",
+  "cycle": "10.1",
+  "title": "The six signs",
+  "objective": "read the six signs in this yard",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-10-2",
+  "cycle": "10.2",
+  "title": "Must and must not",
+  "objective": "say must and must not",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-10-3",
+  "cycle": "10.3",
+  "title": "STOP",
+  "objective": "stop somebody — in one word",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-10-4",
+  "cycle": "10.4",
+  "title": "The floor is wet",
+  "objective": "say something is dangerous",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-10-5",
+  "cycle": "10.5",
+  "title": "There is a light and it does not work",
+  "objective": "report something unsafe, to a person",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-10-6",
+  "cycle": "10.6",
+  "title": "I cannot do it alone",
+  "objective": "say you cannot do it alone",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-10-7",
+  "cycle": "10.7",
+  "title": "Review: the safety notice",
+  "objective": "Review: the safety notice — and one problem to talk about together",
+  "n": 12,
+  "minutes": 98,
+  "stages": 11
+ }
+]

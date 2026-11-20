@@ -709,7 +709,7 @@ PBE1.page('u4-s07', {
       title: 'Unit 4 check',
       kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
-      scene: 'u4-4-7'
+      scene: 'u4-4-7-b'
     }
   ]
 });

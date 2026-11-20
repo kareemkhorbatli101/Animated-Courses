@@ -399,7 +399,7 @@ PBE1.scene('u3-3-7', {
   ]
 });
 
-PBE1.scene('u3-3-7', {
+PBE1.scene('u3-3-7-b', {
   set: 'yard',
   arr: 0,
   cast: {

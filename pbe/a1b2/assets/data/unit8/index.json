@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-8-1",
+  "cycle": "8.1",
+  "title": "Can I have the tape, please?",
+  "objective": "ask for a thing",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-8-2",
+  "cycle": "8.2",
+  "title": "Here you are",
+  "objective": "give a thing, and take one",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-8-3",
+  "cycle": "8.3",
+  "title": "The same question, twice",
+  "objective": "say please — and find out what it is worth",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-8-4",
+  "cycle": "8.4",
+  "title": "Sorry, we have not got any",
+  "objective": "say no, politely",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-8-5",
+  "cycle": "8.5",
+  "title": "Do you want a hand?",
+  "objective": "offer to help before you are asked",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-8-6",
+  "cycle": "8.6",
+  "title": "Thank you for the ladder",
+  "objective": "thank somebody for a named thing",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-8-7",
+  "cycle": "8.7",
+  "title": "Review: the counter",
+  "objective": "Review: the counter — and one problem to talk about together",
+  "n": 12,
+  "minutes": 98,
+  "stages": 11
+ }
+]

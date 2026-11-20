@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-11-1",
+  "cycle": "11.1",
+  "title": "Good morning. Can I help you?",
+  "objective": "greet a customer",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-11-2",
+  "cycle": "11.2",
+  "title": "What would you like?",
+  "objective": "ask what they want",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-11-3",
+  "cycle": "11.3",
+  "title": "Eight hundred SYP each",
+  "objective": "read a price aloud",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-11-4",
+  "cycle": "11.4",
+  "title": "How many, and how much",
+  "objective": "ask how many and how much",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-11-5",
+  "cycle": "11.5",
+  "title": "Here is your receipt",
+  "objective": "give a receipt, and say what is on it",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-11-6",
+  "cycle": "11.6",
+  "title": "The last ten seconds",
+  "objective": "close well — the last ten seconds",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-11-7",
+  "cycle": "11.7",
+  "title": "Review: the price list",
+  "objective": "Review: the price list — and one problem to talk about together",
+  "n": 12,
+  "minutes": 98,
+  "stages": 11
+ }
+]

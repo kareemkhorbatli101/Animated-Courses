@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-12-1",
+  "cycle": "12.1",
+  "title": "Four lines",
+  "objective": "write the four-line note",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-12-2",
+  "cycle": "12.2",
+  "title": "To: Samih",
+  "objective": "say who it is for",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-12-3",
+  "cycle": "12.3",
+  "title": "I did rows one to three",
+  "objective": "say what you did",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-12-4",
+  "cycle": "12.4",
+  "title": "I did not, because",
+  "objective": "say what you did NOT do, and why",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-12-5",
+  "cycle": "12.5",
+  "title": "Please do row four",
+  "objective": "say what the next person must do",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-12-6",
+  "cycle": "12.6",
+  "title": "A. Zreik, Sunday, 16.00",
+  "objective": "sign it and date it",
+  "n": 14,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-12-7",
+  "cycle": "12.7",
+  "title": "Review: the note that saved a morning",
+  "objective": "Review: the note that saved a morning — and one problem to talk about together",
+  "n": 12,
+  "minutes": 98,
+  "stages": 11
+ }
+]

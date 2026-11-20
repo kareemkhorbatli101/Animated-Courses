@@ -104,7 +104,8 @@
     store:   [0.24, 0.62, 0.44],
     counter: [0.26, 0.68, 0.47],
     meeting: [0.24, 0.70, 0.47],
-    dock:    [0.22, 0.66, 0.44]
+    dock:    [0.22, 0.66, 0.44],
+    safety:  [0.19, 0.72, 0.45]
   };
   var ACTOR_HALF = 0.085 * W;          // half an actor box, in stage units
   var WAIST_Y = 0.56 * H;              // above this, a small prop is across a body
@@ -657,6 +658,108 @@
       s += line(G.spk + 48, TOP - 14, G.spk + 48, TOP - 120, STEEL, 7);
       s += rest(G.spk + 6, TOP - 44, 84, 30, PAPER, 2);
       s += rest(G.spk + 12, TOP - 70, 72, 26, '#f2ece0', 2);
+      return stage(s);
+    }
+  };
+
+  /* ---------------------------------------------------------- 7 · THE SAFETY WALL
+     Book 2, unit 10: the six signs, must and must not, STOP, the wet floor, and the
+     light over the loading door that does not work.
+
+     ⚠ THE UNIT NAMES ITS OWN SIGNS AND WHERE EACH ONE HANGS - NO SMOKING at the gate,
+     KEEP OUT on the paint store, DANGER on the loading door, FLAMMABLE in the paint
+     store, HARD HATS at the yard gate, and FIRE EXIT on the back door, which the book
+     calls "the one that matters". A unit about reading six signs taught in a room
+     with none would be the defect this course already had once, in a different
+     costume. So they are on the wall, in capitals, readable, and the FIRE EXIT is the
+     green one, because five of the six stop you and one saves you.
+
+     The plates sit ABOVE y=225 for their whole height, which is the top of the head
+     band, so a sign never lands on a speaker's face. The things that CAN be walked
+     into - the wet floor, the broken pallet - are floor furniture in the fore layer
+     and stand in the gaps between the actor columns at 19%, 72% and 45%.             */
+  MINE.safety = {
+    back: function (arr) {
+      var s = r(0, 0, W, H, '#dcd6ca') + r(0, 0, W, 200, '#cec7b8');
+      s += r(0, 620, W, 280, FLOOR) + r(0, 620, W, 16, FLOOR2);
+      /* THE SIX SIGNS, in the order the book's own table gives them. Five stop you
+         and are rust-on-paper; the sixth saves you and is green. */
+      var SIGNS = [['NO SMOKING', RUST], ['KEEP OUT', RUST], ['DANGER', RUST],
+                   ['FLAMMABLE', RUST], ['HARD HATS', RUST],
+                   ['FIRE EXIT', '#2f7d4f']];
+      for (var i = 0; i < SIGNS.length; i++) {
+        var x = 36 + i * 256, top = 44;
+        s += r(x, top, 232, 118, PAPER, 8);
+        s += r(x, top, 232, 118, 'none', 8).replace('fill="none"',
+              'fill="none" stroke="' + SIGNS[i][1] + '" stroke-width="9"');
+        s += r(x + 14, top + 14, 204, 34, SIGNS[i][1], 4);
+        s += text(x + 116, top + 88, SIGNS[i][0], 25, INK, 'middle', 800);
+      }
+      /* the arrow under FIRE EXIT - the sign that tells you to GO */
+      s += p('M 1300 196 L 1360 196 L 1360 184 L 1392 202 L 1360 220 L 1360 208 '
+             + 'L 1300 208 Z', '#2f7d4f');
+      /* which door is open is the room's arrangement */
+      var open = slot(arr, [0, 1, 2]);
+      /* the paint store door, with its own KEEP OUT plate at door height */
+      s += r(150, 300, 290, 322, open === 1 ? SKY2 : '#b9ae9c', 6);
+      s += r(150, 300, 290, 26, WOOD2, 4);
+      s += r(214, 246, 162, 46, PAPER, 4);
+      s += text(295, 278, 'KEEP OUT', 20, RUST, 'middle', 800);
+      /* the back door - the fire exit, green, and never blocked */
+      s += r(1160, 300, 300, 322, open === 2 ? '#cfe6d8' : '#b9c7bd', 6);
+      s += r(1160, 300, 300, 26, '#2f7d4f', 4);
+      s += r(1236, 246, 150, 46, PAPER, 4);
+      s += text(1311, 278, 'FIRE EXIT', 20, '#2f7d4f', 'middle', 800);
+      return stage(s);
+    },
+    mid: function (arr) {
+      /* THE LIGHT OVER THE LOADING DOOR, and whether it is working - cycle 10.5 is
+         one sentence long and the sentence is "there is a light over the loading
+         door and it does not work". */
+      var lit = slot(arr, [false, true, false]);
+      var s = r(620, 330, 360, 292, '#a9b3ba', 6) + r(620, 330, 360, 24, STEEL2, 4);
+      s += text(800, 310, 'LOADING', 22, STEEL2, 'middle', 700);
+      /* the fitting, on its bracket, above every head */
+      /* clear of the sign row above, which ends at y=162 */
+      s += r(770, 182, 60, 16, STEEL2, 3);
+      s += p('M 760 198 L 840 198 L 826 238 L 774 238 Z',
+             lit ? '#f6e9b8' : '#8e9aa3');
+      if (lit) {
+        s += '<ellipse cx="800" cy="282" rx="130" ry="74" fill="#f6e9b8"'
+           + ' opacity="0.3"/>';
+      } else {
+        s += text(800, 272, '✗', 30, RUST, 'middle', 800);
+      }
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* The wet floor and the broken pallet. The actor columns here are 19%, 72% and
+         45% => 304, 1152, 720, each 272 wide, so the gaps are 0..168, 440..584,
+         856..1016 and 1288..1600. The wet-floor sign stands as tall as a child, so
+         it takes a gap; the pallet is ankle height and may stand anywhere. */
+      var FLOOR_Y = 884, s = '';
+      var A = slot(arr, [{ wet: 40, pal: 1320 },
+                         { wet: 1340, pal: 460 },
+                         { wet: 880, pal: 40 }]);
+      /* the A-frame WET FLOOR sign - yellow, because it is the one thing in this
+         room that is a warning rather than a rule */
+      s += shadow(A.wet + 62, FLOOR_Y, 150);
+      s += p('M ' + (A.wet + 62) + ' ' + (FLOOR_Y - 196) + ' L ' + (A.wet + 8)
+             + ' ' + FLOOR_Y + ' L ' + (A.wet + 116) + ' ' + FLOOR_Y + ' Z',
+             '#e3b32a');
+      s += text(A.wet + 62, FLOOR_Y - 118, 'WET', 22, INK, 'middle', 800);
+      s += text(A.wet + 62, FLOOR_Y - 88, 'FLOOR', 20, INK, 'middle', 800);
+      /* and the wet itself, or the sign is a sign about nothing */
+      s += '<ellipse cx="' + (A.wet + 180) + '" cy="' + (FLOOR_Y - 6)
+         + '" rx="96" ry="22" fill="#8fb6cc" opacity="0.45"/>';
+      /* the broken pallet - one slat missing, which is what "broken" looks like */
+      s += shadow(A.pal + 100, FLOOR_Y, 210);
+      s += rest(A.pal, FLOOR_Y, 200, 24, WOOD2, 3);
+      for (var k = 0; k < 4; k++) {
+        if (k === 2) { continue; }            /* the missing slat */
+        s += rest(A.pal + 6 + k * 50, FLOOR_Y - 24, 42, 16, WOOD, 2);
+      }
+      s += text(A.pal + 100, FLOOR_Y - 62, 'BROKEN', 19, RUST, 'middle', 800);
       return stage(s);
     }
   };

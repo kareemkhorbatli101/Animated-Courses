@@ -419,7 +419,7 @@ PBE1.scene('u6-6-7', {
   ]
 });
 
-PBE1.scene('u6-6-7', {
+PBE1.scene('u6-6-7-b', {
   set: 'meeting',
   arr: 0,
   cast: {

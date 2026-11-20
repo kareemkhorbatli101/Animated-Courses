@@ -398,7 +398,7 @@ PBE1.scene('u1-1-7', {
   ]
 });
 
-PBE1.scene('u1-1-7', {
+PBE1.scene('u1-1-7-b', {
   set: 'gate',
   arr: 0,
   cast: {
