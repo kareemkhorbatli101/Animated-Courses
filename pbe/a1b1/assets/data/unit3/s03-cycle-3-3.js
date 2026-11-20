@@ -9,6 +9,7 @@ PBE1.page('u3-s03', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '3.3.1',
       bookRef: 'Unit 3 · 3.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -33,6 +34,7 @@ PBE1.page('u3-s03', {
       bookRef: 'Unit 3 · 3.3 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u3-3-3',
       passage: {
@@ -68,22 +70,27 @@ PBE1.page('u3-s03', {
             q: 'Books closed. Listen. How many things does Ammar do before the break?',
             options: [{
               t: 'two',
-              ok: false
+              ok: false,
+              why: 'He has said two when Abu Yasser says \'Then?\' - there is more.'
             },
             {
               t: 'four',
-              ok: true
+              ok: true,
+              why: 'He names four things and then the lorry comes.'
             },
             {
               t: 'six',
-              ok: false
-            }]
+              ok: false,
+              why: 'Six is everything he does all day, not what comes before the break.'
+            }],
+            evidence: 'Ammar\'s list, up to the words \'before the break\''
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '3.3.2',
       bookRef: 'Unit 3 · 3.3 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -93,13 +100,21 @@ PBE1.page('u3-s03', {
             q: 'Listen again. What is the first thing he does?',
             model: 'He signs in at the gate',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['signs',
+              'gate'],
+            need: 1
           },
       {
             q: 'What does he do at the end of the day?',
             model: 'He puts the sheet on Abu Yasser\'s table and signs out',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['sheet',
+              'abu',
+              'yasser\'s',
+              'table'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -109,6 +124,7 @@ PBE1.page('u3-s03', {
       bookRef: 'Unit 3 · 3.3 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One asks. One says four things in order. Then change places.',
       scene: 'u3-3-3-pair',
       roles: [{
@@ -131,6 +147,7 @@ PBE1.page('u3-s03', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '3.3.3R',
       bookRef: 'Unit 3 · 3.3 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -151,6 +168,7 @@ PBE1.page('u3-s03', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '3.3.4',
       bookRef: 'Unit 3 · 3.3 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -185,6 +203,7 @@ PBE1.page('u3-s03', {
     },
     {
       id: 'c7',
+      kind: 'own',
       ref: '3.3.4R',
       bookRef: 'Unit 3 · 3.3 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -212,6 +231,7 @@ PBE1.page('u3-s03', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '3.3.5',
       bookRef: 'Unit 3 · 3.3 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -236,19 +256,28 @@ PBE1.page('u3-s03', {
             q: 'What is number 3?',
             model: 'He checks the shelves',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['checks',
+              'shelves'],
+            need: 1
           },
       {
             q: 'What does he do after he checks the shelves?',
             model: 'He writes the numbers on the sheet',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['numbers',
+              'sheet'],
+            need: 1
           },
       {
             q: 'Who told the office this?',
             model: 'Ammar — on 13 March',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['ammar',
+              'march'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -258,6 +287,7 @@ PBE1.page('u3-s03', {
       bookRef: 'Unit 3 · 3.3 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a what-I-do list for your own job (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -290,6 +320,7 @@ PBE1.page('u3-s03', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '3.3.6P',
       bookRef: 'Unit 3 · 3.3 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -328,6 +359,7 @@ PBE1.page('u3-s03', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '3.3.6R',
       bookRef: 'Unit 3 · 3.3 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -346,6 +378,7 @@ PBE1.page('u3-s03', {
       bookRef: 'Unit 3 · 3.3 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about your day at work (<b>20 to 35 words</b>). What do you do first? '
   + 'What do you do last? What is the longest job?',
       minWords: 20,
@@ -382,6 +415,7 @@ PBE1.page('u3-s03', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '3.3.7P',
       bookRef: 'Unit 3 · 3.3 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -411,6 +445,7 @@ PBE1.page('u3-s03', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '3.3.7R',
       bookRef: 'Unit 3 · 3.3 · Lesson B · Writing · Share',
       type: 'discuss',

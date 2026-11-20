@@ -9,6 +9,7 @@ PBE1.page('u6-s05', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '6.5.1',
       bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u6-s05', {
       bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u6-6-5',
       passage: {
@@ -75,22 +77,26 @@ PBE1.page('u6-s05', {
             options: [{
               t: '0944 112 233',
               ok: true,
-              why: '0944 112 233'
+              why: 'Zero nine four four, one one two, two three three.'
             },
             {
               t: '0944 112 223',
-              ok: false
+              ok: false,
+              why: 'The doubled digits are at the end, not in the middle.'
             },
             {
               t: '0944 122 233',
-              ok: false
-            }]
+              ok: false,
+              why: 'The middle group is one one two, not one two two.'
+            }],
+            evidence: 'the number read back, and the \'double three\' at the end'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '6.5.2',
       bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -100,13 +106,21 @@ PBE1.page('u6-s05', {
             q: 'Listen again. How many times is the number said?',
             model: 'Three times — once by the caller, once again, and once read back',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            keys: ['once',
+              'caller',
+              'back',
+              'times'],
+            need: 1
           },
       {
             q: 'What does Ammar do when two digits are the same?',
             model: 'He asks whether it is two three three or two two three',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            keys: ['asks',
+              'whether'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -116,6 +130,7 @@ PBE1.page('u6-s05', {
       bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs, back to back. One gives a number. One writes and reads it '
   + 'back. Then change places.',
       scene: 'u6-6-5-pair',
@@ -139,6 +154,7 @@ PBE1.page('u6-s05', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '6.5.3R',
       bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -159,6 +175,7 @@ PBE1.page('u6-s05', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '6.5.4',
       bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -199,6 +216,7 @@ PBE1.page('u6-s05', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '6.5.4R',
       bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -230,6 +248,7 @@ PBE1.page('u6-s05', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '6.5.5',
       bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -267,14 +286,24 @@ PBE1.page('u6-s05', {
             q: 'What is wrong with the 11.05 number?',
             model: 'Two digits are missing — 0988 3?? 410',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['digits',
+              'missing',
+              '0988',
+              '410'],
+            need: 1
           },
       {
             q: 'Why did Ammar write the bad number down anyway?',
             model: 'Because nine digits out of eleven is not nothing, and somebody '
               + 'in the office may recognise it',
             minWords: 5,
-            rows: 2
+            rows: 2,
+            keys: ['because',
+              'digits',
+              'out',
+              'eleven'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -284,6 +313,7 @@ PBE1.page('u6-s05', {
       bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a numbers list for one morning at your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -326,6 +356,7 @@ PBE1.page('u6-s05', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '6.5.6P',
       bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -367,6 +398,7 @@ PBE1.page('u6-s05', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '6.5.6R',
       bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -386,6 +418,7 @@ PBE1.page('u6-s05', {
       bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a telephone number that went wrong at your work (<b>20 to 35 '
   + 'words</b>). Which digits? Did anybody read it back? What happened?',
       minWords: 20,
@@ -427,6 +460,7 @@ PBE1.page('u6-s05', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '6.5.7P',
       bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -458,6 +492,7 @@ PBE1.page('u6-s05', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '6.5.7R',
       bookRef: 'Unit 6 · 6.5 · Lesson B · Writing · Share',
       type: 'discuss',

@@ -9,6 +9,7 @@ PBE1.page('u4-s01', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '4.1.1',
       bookRef: 'Unit 4 · 4.1 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -33,6 +34,7 @@ PBE1.page('u4-s01', {
       bookRef: 'Unit 4 · 4.1 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u4-4-1',
       passage: {
@@ -71,23 +73,27 @@ PBE1.page('u4-s01', {
             q: 'Books closed. Listen. Where is the small box?',
             options: [{
               t: 'on the shelf',
-              ok: false
+              ok: false,
+              why: 'He looked on the shelf first and it was not there.'
             },
             {
               t: 'under the bench',
               ok: true,
-              why: 'under the bench'
+              why: 'Abu Yasser sends him under the bench, and it is there.'
             },
             {
               t: 'behind the door',
-              ok: false
-            }]
+              ok: false,
+              why: 'Behind the door is where the big roll stands, in a different cycle.'
+            }],
+            evidence: 'the line that tells Ammar where to look next'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'model',
       ref: '4.1.2',
       bookRef: 'Unit 4 · 4.1 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -113,6 +119,7 @@ PBE1.page('u4-s01', {
       bookRef: 'Unit 4 · 4.1 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One asks. One answers. Then change places.',
       scene: 'u4-4-1-pair',
       roles: [{
@@ -135,6 +142,7 @@ PBE1.page('u4-s01', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '4.1.3R',
       bookRef: 'Unit 4 · 4.1 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -155,6 +163,7 @@ PBE1.page('u4-s01', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '4.1.4',
       bookRef: 'Unit 4 · 4.1 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -194,6 +203,7 @@ PBE1.page('u4-s01', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '4.1.4R',
       bookRef: 'Unit 4 · 4.1 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -224,6 +234,7 @@ PBE1.page('u4-s01', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '4.1.5',
       bookRef: 'Unit 4 · 4.1 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -249,19 +260,33 @@ PBE1.page('u4-s01', {
             q: 'Where are the labels?',
             model: 'In the small box, on the top shelf',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['small',
+              'box',
+              'top',
+              'shelf'],
+            need: 1
           },
       {
             q: 'What is behind the door?',
             model: 'The spare key, on the hook',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['spare',
+              'key',
+              'hook'],
+            need: 1
           },
       {
             q: 'How many places have TWO small words?',
             model: 'Three — labels, count sheets and spare key',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['labels',
+              'count',
+              'sheets',
+              'spare'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -271,6 +296,7 @@ PBE1.page('u4-s01', {
       bookRef: 'Unit 4 · 4.1 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a where-things-are note for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -307,6 +333,7 @@ PBE1.page('u4-s01', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '4.1.6P',
       bookRef: 'Unit 4 · 4.1 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -347,6 +374,7 @@ PBE1.page('u4-s01', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '4.1.6R',
       bookRef: 'Unit 4 · 4.1 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -365,6 +393,7 @@ PBE1.page('u4-s01', {
       bookRef: 'Unit 4 · 4.1 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about where you keep four things at work (<b>20 to 35 words</b>). '
   + 'Which one is hardest to find? Why?',
       minWords: 20,
@@ -405,6 +434,7 @@ PBE1.page('u4-s01', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '4.1.7P',
       bookRef: 'Unit 4 · 4.1 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -436,6 +466,7 @@ PBE1.page('u4-s01', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '4.1.7R',
       bookRef: 'Unit 4 · 4.1 · Lesson B · Writing · Share',
       type: 'discuss',

@@ -9,6 +9,7 @@ PBE1.page('u2-s06', {
   cards: [
     {
       id: 'c1',
+      kind: 'model',
       ref: '2.6.1',
       bookRef: 'Unit 2 · 2.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -37,6 +38,7 @@ PBE1.page('u2-s06', {
       bookRef: 'Unit 2 · 2.6 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u2-2-6',
       passage: {
@@ -70,22 +72,27 @@ PBE1.page('u2-s06', {
             q: 'Books closed. Listen. What does Ammar do?',
             options: [{
               t: 'says nothing',
-              ok: false
+              ok: false,
+              why: 'He does speak - that is why the sheet is corrected.'
             },
             {
               t: 'counts again and says the new number',
-              ok: true
+              ok: true,
+              why: 'He counts twice and reports the number, not the person.'
             },
             {
               t: 'telephones the office',
-              ok: false
-            }]
+              ok: false,
+              why: 'No telephone is used here; he speaks to Abu Yasser directly.'
+            }],
+            evidence: 'what Ammar says he did, and how many times'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'model',
       ref: '2.6.2',
       bookRef: 'Unit 2 · 2.6 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -111,6 +118,7 @@ PBE1.page('u2-s06', {
       bookRef: 'Unit 2 · 2.6 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. A has the sheet. B counted again. Then change places.',
       scene: 'u2-2-6-pair',
       roles: [{
@@ -133,6 +141,7 @@ PBE1.page('u2-s06', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '2.6.3R',
       bookRef: 'Unit 2 · 2.6 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -153,6 +162,7 @@ PBE1.page('u2-s06', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '2.6.4',
       bookRef: 'Unit 2 · 2.6 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -191,6 +201,7 @@ PBE1.page('u2-s06', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '2.6.4R',
       bookRef: 'Unit 2 · 2.6 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -220,6 +231,7 @@ PBE1.page('u2-s06', {
     },
     {
       id: 'c8',
+      kind: 'model',
       ref: '2.6.5',
       bookRef: 'Unit 2 · 2.6 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -267,6 +279,7 @@ PBE1.page('u2-s06', {
       bookRef: 'Unit 2 · 2.6 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a changed count for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -301,6 +314,7 @@ PBE1.page('u2-s06', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '2.6.6P',
       bookRef: 'Unit 2 · 2.6 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -338,6 +352,7 @@ PBE1.page('u2-s06', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '2.6.6R',
       bookRef: 'Unit 2 · 2.6 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -356,6 +371,7 @@ PBE1.page('u2-s06', {
       bookRef: 'Unit 2 · 2.6 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a count that was wrong (<b>20 to 35 words</b>). What did the '
   + 'paper say? What was it really? What did you do?',
       minWords: 20,
@@ -394,6 +410,7 @@ PBE1.page('u2-s06', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '2.6.7P',
       bookRef: 'Unit 2 · 2.6 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -423,6 +440,7 @@ PBE1.page('u2-s06', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '2.6.7R',
       bookRef: 'Unit 2 · 2.6 · Lesson B · Writing · Share',
       type: 'discuss',

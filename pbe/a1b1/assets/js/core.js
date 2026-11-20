@@ -52,7 +52,15 @@
     full: 'Proactive Business English · A1 Book 1',
     book: 'PBE A1 Book 1',
     liveUnits: [1, 2, 3, 4, 5, 6],
-    totalUnits: 6
+    totalUnits: 6,
+    /* WHO THE LEARNER IS. tutor.js names this in the first line of every prompt it
+       sends, and until 2026-11-20 it named the one it was copied from: "a CEFR B1
+       learner of English who works in finance for an NGO". 246 cards of this course
+       sent their feedback under that description, which is wrong twice - the level
+       and the job - and an A1 learner who writes exactly what the book taught could
+       be told to write something this course has never taught. */
+    learner: 'a CEFR A1 learner of English who works in a store, a yard or on a '
+           + 'counter in Syria, and whose first language is Arabic'
   };
   PBE1.unitOf = function (pageId) {
     var m = /^u(\d+)-/.exec(String(pageId || ''));
@@ -740,6 +748,25 @@
     head.innerHTML = '<div class="card-letter">' + U.esc(card.ref || String.fromCharCode(65 + idx)) + '</div>' +
       '<div class="card-head-text"><h2>' + U.esc(card.title || '') + '</h2>' +
       (card.sub ? '<div class="sub">' + U.esc(card.sub) + '</div>' : '') + '</div>';
+
+    /* WHAT KIND OF CARD THIS IS, said out loud. See the patch note in
+       tools/course_engine.py. The learner cannot otherwise tell a card
+       that marks them from one that only saves what they typed. */
+    var KIND = {
+      answer: ['has a right answer', 'k-answer'],
+      model: ['compare with the model', 'k-model'],
+      own: ['your own answer', 'k-own']
+    };
+    if (card.kind && KIND[card.kind]) {
+      var kd = U.el('span', 'card-kind ' + KIND[card.kind][1],
+                    U.esc(KIND[card.kind][0]));
+      kd.setAttribute('title', 'This card ' + (card.kind === 'own'
+        ? 'saves what you write - there is no single right answer.'
+        : card.kind === 'model'
+          ? 'saves what you write, then shows the book\'s answer to compare with.'
+          : 'checks your answer against the book\'s.'));
+      head.querySelector('.card-head-text').appendChild(kd);
+    }
 
     /* Both heading buttons sit at the right-hand end, and ONE spacer
        pushes them there however many of them a card has. The Arabic

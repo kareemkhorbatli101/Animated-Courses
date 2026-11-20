@@ -9,6 +9,7 @@ PBE1.page('u3-s05', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '3.5.1',
       bookRef: 'Unit 3 · 3.5 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -33,6 +34,7 @@ PBE1.page('u3-s05', {
       bookRef: 'Unit 3 · 3.5 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u3-3-5',
       passage: {
@@ -67,23 +69,28 @@ PBE1.page('u3-s05', {
             q: 'Books closed. Listen. Does Abu Yasser say yes?',
             options: [{
               t: 'yes',
-              ok: false
+              ok: false,
+              why: 'Not on its own - he attaches a condition before he will write '
+                + 'it on the board.'
             },
             {
               t: 'no',
-              ok: false
+              ok: false,
+              why: 'He does not refuse. Listen again for what he asks Ammar to do first.'
             },
             {
               t: 'yes, if Samih agrees',
               ok: true,
-              why: 'yes, if Samih agrees'
-            }]
+              why: 'He sends Ammar to ask the other man first.'
+            }],
+            evidence: 'Abu Yasser\'s answer, and the condition in it'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '3.5.2',
       bookRef: 'Unit 3 · 3.5 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -99,7 +106,11 @@ PBE1.page('u3-s05', {
             q: 'What must he do first?',
             model: 'He must ask Samih first',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['ask',
+              'samih',
+              'first'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -109,6 +120,7 @@ PBE1.page('u3-s05', {
       bookRef: 'Unit 3 · 3.5 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One asks. One answers. Then change places.',
       scene: 'u3-3-5-pair',
       roles: [{
@@ -131,6 +143,7 @@ PBE1.page('u3-s05', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '3.5.3R',
       bookRef: 'Unit 3 · 3.5 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -151,6 +164,7 @@ PBE1.page('u3-s05', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '3.5.4',
       bookRef: 'Unit 3 · 3.5 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -186,6 +200,7 @@ PBE1.page('u3-s05', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '3.5.4R',
       bookRef: 'Unit 3 · 3.5 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -215,6 +230,7 @@ PBE1.page('u3-s05', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '3.5.5',
       bookRef: 'Unit 3 · 3.5 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -239,19 +255,31 @@ PBE1.page('u3-s05', {
             q: 'Who works on Thursday 21 March now?',
             model: 'Samih Qassar',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['samih',
+              'qassar'],
+            need: 1
           },
       {
             q: 'Who wrote the swap on the board?',
             model: 'The supervisor — Abu Yasser, on 18 March',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['supervisor',
+              'abu',
+              'yasser',
+              'march'],
+            need: 1
           },
       {
             q: 'What two words say the swap is agreed?',
             model: 'Both men agreed',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['both',
+              'men',
+              'agreed'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -261,6 +289,7 @@ PBE1.page('u3-s05', {
       bookRef: 'Unit 3 · 3.5 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a swap note for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -294,6 +323,7 @@ PBE1.page('u3-s05', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '3.5.6P',
       bookRef: 'Unit 3 · 3.5 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -333,6 +363,7 @@ PBE1.page('u3-s05', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '3.5.6R',
       bookRef: 'Unit 3 · 3.5 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -351,6 +382,7 @@ PBE1.page('u3-s05', {
       bookRef: 'Unit 3 · 3.5 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a day you needed off (<b>20 to 35 words</b>). What day? Why? Who '
   + 'did you ask? What happened?',
       minWords: 20,
@@ -388,6 +420,7 @@ PBE1.page('u3-s05', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '3.5.7P',
       bookRef: 'Unit 3 · 3.5 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -416,6 +449,7 @@ PBE1.page('u3-s05', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '3.5.7R',
       bookRef: 'Unit 3 · 3.5 · Lesson B · Writing · Share',
       type: 'discuss',

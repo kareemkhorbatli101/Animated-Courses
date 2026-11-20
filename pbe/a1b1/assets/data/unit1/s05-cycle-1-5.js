@@ -9,6 +9,7 @@ PBE1.page('u1-s05', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '1.5.1',
       bookRef: 'Unit 1 · 1.5 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u1-s05', {
       bookRef: 'Unit 1 · 1.5 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u1-1-5',
       passage: {
@@ -65,22 +67,27 @@ PBE1.page('u1-s05', {
             q: 'Books closed. Listen. How many times does Ammar say goodbye?',
             options: [{
               t: 'once',
-              ok: false
+              ok: false,
+              why: 'He says it again on his way out - listen to the very last line.'
             },
             {
               t: 'twice',
-              ok: true
+              ok: true,
+              why: 'He says it once to Abu Yasser and once at the gate.'
             },
             {
               t: 'four times',
-              ok: false
-            }]
+              ok: false,
+              why: 'More than he says. Count only the goodbyes, not the thank yous.'
+            }],
+            evidence: 'the end of the scene - listen for goodbye twice'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '1.5.2',
       bookRef: 'Unit 1 · 1.5 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -90,13 +97,21 @@ PBE1.page('u1-s05', {
             q: 'Listen again. What does Abu Yasser say at four o\'clock?',
             model: 'Four o\'clock. Good. Go home',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['good',
+              'home',
+              'o\'clock'],
+            need: 1
           },
       {
             q: 'What does Ammar forget?',
             model: 'He forgets to sign out',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['forgets',
+              'sign',
+              'out'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -106,6 +121,7 @@ PBE1.page('u1-s05', {
       bookRef: 'Unit 1 · 1.5 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. Read the lines. Say it. Then change places.',
       scene: 'u1-1-5-pair',
       roles: [{
@@ -128,6 +144,7 @@ PBE1.page('u1-s05', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '1.5.3R',
       bookRef: 'Unit 1 · 1.5 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -148,6 +165,7 @@ PBE1.page('u1-s05', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '1.5.4',
       bookRef: 'Unit 1 · 1.5 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -183,6 +201,7 @@ PBE1.page('u1-s05', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '1.5.4R',
       bookRef: 'Unit 1 · 1.5 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -212,6 +231,7 @@ PBE1.page('u1-s05', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '1.5.5',
       bookRef: 'Unit 1 · 1.5 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -240,13 +260,21 @@ PBE1.page('u1-s05', {
             q: 'What must you do twice every day?',
             model: 'Sign in and sign out',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['sign',
+              'out'],
+            need: 1
           },
       {
             q: 'What happens if your name is not in the book?',
             model: 'No day of work on the paper at the end of the month',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            keys: ['day',
+              'work',
+              'paper',
+              'end'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -256,6 +284,7 @@ PBE1.page('u1-s05', {
       bookRef: 'Unit 1 · 1.5 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a gate notice for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -289,6 +318,7 @@ PBE1.page('u1-s05', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '1.5.6P',
       bookRef: 'Unit 1 · 1.5 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -326,6 +356,7 @@ PBE1.page('u1-s05', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '1.5.6R',
       bookRef: 'Unit 1 · 1.5 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -344,6 +375,7 @@ PBE1.page('u1-s05', {
       bookRef: 'Unit 1 · 1.5 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about your own day at work (<b>20 to 35 words</b>). When do you come? '
   + 'When do you go? What do you say to people?',
       minWords: 20,
@@ -379,6 +411,7 @@ PBE1.page('u1-s05', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '1.5.7P',
       bookRef: 'Unit 1 · 1.5 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -408,6 +441,7 @@ PBE1.page('u1-s05', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '1.5.7R',
       bookRef: 'Unit 1 · 1.5 · Lesson B · Writing · Share',
       type: 'discuss',

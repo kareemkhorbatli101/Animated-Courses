@@ -9,6 +9,7 @@ PBE1.page('u5-s04', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '5.4.1',
       bookRef: 'Unit 5 · 5.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u5-s04', {
       bookRef: 'Unit 5 · 5.4 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u5-5-4',
       passage: {
@@ -74,23 +76,27 @@ PBE1.page('u5-s04', {
             q: 'Books closed. Listen. Does Ammar sign?',
             options: [{
               t: 'yes',
-              ok: false
+              ok: false,
+              why: 'Not before counting - the order is the whole lesson.'
             },
             {
               t: 'no',
-              ok: false
+              ok: false,
+              why: 'He does sign. Listen to what he writes beside his name.'
             },
             {
               t: 'yes, after he counts',
               ok: true,
-              why: 'yes, after he counts, and he signs the REAL number'
-            }]
+              why: 'He counts first, finds fifteen, writes that, and signs.'
+            }],
+            evidence: 'what Ammar does in the two minutes he asks for'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '5.4.2',
       bookRef: 'Unit 5 · 5.4 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -106,7 +112,10 @@ PBE1.page('u5-s04', {
             q: 'What does he write next to his name?',
             model: 'One box short',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['box',
+              'short'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -116,6 +125,7 @@ PBE1.page('u5-s04', {
       bookRef: 'Unit 5 · 5.4 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One is the driver, in a hurry. One is the storeman. Then change places.',
       scene: 'u5-5-4-pair',
       roles: [{
@@ -138,6 +148,7 @@ PBE1.page('u5-s04', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '5.4.3R',
       bookRef: 'Unit 5 · 5.4 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -158,6 +169,7 @@ PBE1.page('u5-s04', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '5.4.4',
       bookRef: 'Unit 5 · 5.4 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -197,6 +209,7 @@ PBE1.page('u5-s04', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '5.4.4R',
       bookRef: 'Unit 5 · 5.4 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -228,6 +241,7 @@ PBE1.page('u5-s04', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '5.4.5',
       bookRef: 'Unit 5 · 5.4 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -261,13 +275,20 @@ PBE1.page('u5-s04', {
             q: 'Which line was short?',
             model: 'Line 1 — the white labels',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['white',
+              'labels',
+              'line'],
+            need: 1
           },
       {
             q: 'Who else signed the note?',
             model: 'The driver, M. Haddad',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['driver',
+              'haddad'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -277,6 +298,7 @@ PBE1.page('u5-s04', {
       bookRef: 'Unit 5 · 5.4 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a signature block with a note on it (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -312,6 +334,7 @@ PBE1.page('u5-s04', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '5.4.6P',
       bookRef: 'Unit 5 · 5.4 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -352,6 +375,7 @@ PBE1.page('u5-s04', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '5.4.6R',
       bookRef: 'Unit 5 · 5.4 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -371,6 +395,7 @@ PBE1.page('u5-s04', {
       bookRef: 'Unit 5 · 5.4 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about signing at your work (<b>20 to 35 words</b>). Who asks you to '
   + 'sign? Have you ever signed something wrong? What would you do now?',
       minWords: 20,
@@ -410,6 +435,7 @@ PBE1.page('u5-s04', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '5.4.7P',
       bookRef: 'Unit 5 · 5.4 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -440,6 +466,7 @@ PBE1.page('u5-s04', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '5.4.7R',
       bookRef: 'Unit 5 · 5.4 · Lesson B · Writing · Share',
       type: 'discuss',

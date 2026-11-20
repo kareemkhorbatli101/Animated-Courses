@@ -9,6 +9,7 @@ PBE1.page('u2-s03', {
   cards: [
     {
       id: 'c1',
+      kind: 'model',
       ref: '2.3.1',
       bookRef: 'Unit 2 · 2.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u2-s03', {
       bookRef: 'Unit 2 · 2.3 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u2-2-3',
       passage: {
@@ -70,22 +72,27 @@ PBE1.page('u2-s03', {
             q: 'Books closed. Listen. What does Ammar get wrong?',
             options: [{
               t: 'the number',
-              ok: false
+              ok: false,
+              why: 'The number is right - twenty is what is there.'
             },
             {
               t: 'the word for the thing',
-              ok: true
+              ok: true,
+              why: 'He says twenty but not twenty OF WHAT, and the unit is the whole point.'
             },
             {
               t: 'the shelf',
-              ok: false
-            }]
+              ok: false,
+              why: 'He has the right shelf. It is the word after the number that is missing.'
+            }],
+            evidence: 'the line where Abu Yasser asks \'Twenty what?\''
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'model',
       ref: '2.3.2',
       bookRef: 'Unit 2 · 2.3 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -111,6 +118,7 @@ PBE1.page('u2-s03', {
       bookRef: 'Unit 2 · 2.3 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. Read the lines. Say it. Then change places.',
       scene: 'u2-2-3-pair',
       roles: [{
@@ -133,6 +141,7 @@ PBE1.page('u2-s03', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '2.3.3R',
       bookRef: 'Unit 2 · 2.3 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -153,6 +162,7 @@ PBE1.page('u2-s03', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '2.3.4',
       bookRef: 'Unit 2 · 2.3 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -186,6 +196,7 @@ PBE1.page('u2-s03', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '2.3.4R',
       bookRef: 'Unit 2 · 2.3 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -213,6 +224,7 @@ PBE1.page('u2-s03', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '2.3.5',
       bookRef: 'Unit 2 · 2.3 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -248,7 +260,12 @@ PBE1.page('u2-s03', {
             model: 'Because twenty does not say twenty of what, and three different '
               + 'things in this store are all boxes',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            keys: ['because',
+              'different',
+              'things',
+              'store'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -258,6 +275,7 @@ PBE1.page('u2-s03', {
       bookRef: 'Unit 2 · 2.3 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a shelf card for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -289,6 +307,7 @@ PBE1.page('u2-s03', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '2.3.6P',
       bookRef: 'Unit 2 · 2.3 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -324,6 +343,7 @@ PBE1.page('u2-s03', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '2.3.6R',
       bookRef: 'Unit 2 · 2.3 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -342,6 +362,7 @@ PBE1.page('u2-s03', {
       bookRef: 'Unit 2 · 2.3 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about the things you count at your work (<b>20 to 35 words</b>). What '
   + 'is the small one? What is the big one? How many inside?',
       minWords: 20,
@@ -376,6 +397,7 @@ PBE1.page('u2-s03', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '2.3.7P',
       bookRef: 'Unit 2 · 2.3 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -403,6 +425,7 @@ PBE1.page('u2-s03', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '2.3.7R',
       bookRef: 'Unit 2 · 2.3 · Lesson B · Writing · Share',
       type: 'discuss',

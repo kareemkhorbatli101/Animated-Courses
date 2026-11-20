@@ -9,6 +9,7 @@ PBE1.page('u6-s01', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '6.1.1',
       bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u6-s01', {
       bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u6-6-1',
       passage: {
@@ -73,23 +75,27 @@ PBE1.page('u6-s01', {
             q: 'Books closed. Listen. What does Ammar say first?',
             options: [{
               t: 'hello',
-              ok: false
+              ok: false,
+              why: 'Not hello on its own - the caller needs to know where they have reached.'
             },
             {
               t: 'the company name',
               ok: true,
-              why: 'the company name'
+              why: 'Say the company, then good morning, then stop and listen.'
             },
             {
               t: 'his own name',
-              ok: false
-            }]
+              ok: false,
+              why: 'His own name comes later, if at all. The caller wants the company first.'
+            }],
+            evidence: 'the three things Abu Yasser tells him to say, in order'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '6.1.2',
       bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -99,14 +105,24 @@ PBE1.page('u6-s01', {
             q: 'Listen again. What three things are in his answer?',
             model: 'The company, good morning, and then silence',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['company',
+              'good',
+              'morning',
+              'silence'],
+            need: 1
           },
       {
             q: 'Why does Nour say slowly?',
             model: 'Because Sham Trading is two words the caller has never heard, '
               + 'even though Ammar will say them forty times a day',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            keys: ['because',
+              'sham',
+              'trading',
+              'words'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -116,6 +132,7 @@ PBE1.page('u6-s01', {
       bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs, back to back — you cannot see each other, like a real '
   + 'telephone. Then change places.',
       scene: 'u6-6-1-pair',
@@ -139,6 +156,7 @@ PBE1.page('u6-s01', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '6.1.3R',
       bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -159,6 +177,7 @@ PBE1.page('u6-s01', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '6.1.4',
       bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -203,6 +222,7 @@ PBE1.page('u6-s01', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '6.1.4R',
       bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -234,6 +254,7 @@ PBE1.page('u6-s01', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '6.1.5',
       bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -264,13 +285,19 @@ PBE1.page('u6-s01', {
             q: 'What do you say after twelve o\'clock?',
             model: 'Good afternoon',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['good',
+              'afternoon'],
+            need: 1
           },
       {
             q: 'What is number 2?',
             model: 'Stop and listen',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['stop',
+              'listen'],
+            need: 1
           },
       {
             q: 'How many lines are on the card?',
@@ -286,6 +313,7 @@ PBE1.page('u6-s01', {
       bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a telephone card for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -324,6 +352,7 @@ PBE1.page('u6-s01', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '6.1.6P',
       bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -366,6 +395,7 @@ PBE1.page('u6-s01', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '6.1.6R',
       bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -385,6 +415,7 @@ PBE1.page('u6-s01', {
       bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about the telephone at your work (<b>20 to 35 words</b>). Who answers '
   + 'it? What do they say? What goes wrong?',
       minWords: 20,
@@ -427,6 +458,7 @@ PBE1.page('u6-s01', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '6.1.7P',
       bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -459,6 +491,7 @@ PBE1.page('u6-s01', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '6.1.7R',
       bookRef: 'Unit 6 · 6.1 · Lesson B · Writing · Share',
       type: 'discuss',

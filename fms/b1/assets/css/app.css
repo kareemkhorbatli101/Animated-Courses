@@ -158,6 +158,19 @@ p { margin:0 0 .9em; }
 }
 .card-head h2 { font-size:17.5px; margin:0 0 3px; letter-spacing:-.01em; }
 .card-head .sub { font-size:13px; color:var(--text-2); }
+/* ---------- what kind of card this is ----------
+   Orientation, not a badge: a learner cannot otherwise tell a card that
+   marks them from one that only saves what they typed. */
+.card-kind {
+  display:inline-block; margin-top:4px; padding:1px 8px;
+  border:1px solid var(--border); border-radius:999px;
+  font:600 11.5px/1.7 var(--ui); color:var(--text-2);
+  background:var(--surface-2); white-space:nowrap;
+}
+.card-kind.k-answer { border-color:var(--ok-line); color:var(--ok); }
+.card-kind.k-model  { border-color:var(--accent); color:var(--accent); }
+.card-kind.k-own    { border-color:var(--border); color:var(--text-2); }
+@media print { .card-kind { display:none; } }
 .card-body { padding:0 var(--s-5) var(--s-5); }
 .card-foot {
   display:flex; gap:var(--s-2); flex-wrap:wrap; align-items:center;

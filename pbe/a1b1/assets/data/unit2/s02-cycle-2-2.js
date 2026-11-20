@@ -9,6 +9,7 @@ PBE1.page('u2-s02', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '2.2.1',
       bookRef: 'Unit 2 · 2.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -32,6 +33,7 @@ PBE1.page('u2-s02', {
       bookRef: 'Unit 2 · 2.2 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u2-2-2',
       passage: {
@@ -66,22 +68,29 @@ PBE1.page('u2-s02', {
             q: 'Books closed. Listen. What is the number on the board?',
             options: [{
               t: '340',
-              ok: true
+              ok: true,
+              why: 'Three hundred and forty is read off the board.'
             },
             {
               t: '314',
-              ok: false
+              ok: false,
+              why: 'The digits are right but in the wrong order - listen again to '
+                + 'the middle one.'
             },
             {
               t: '430',
-              ok: false
-            }]
+              ok: false,
+              why: 'That is the total AFTER the ninety comes in, not what the '
+                + 'board said first.'
+            }],
+            evidence: 'the number on the board, said and then written'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '2.2.2',
       bookRef: 'Unit 2 · 2.2 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -97,7 +106,10 @@ PBE1.page('u2-s02', {
             q: 'What is the total in the store?',
             model: 'Four hundred and thirty',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['hundred',
+              'thirty'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -107,6 +119,7 @@ PBE1.page('u2-s02', {
       bookRef: 'Unit 2 · 2.2 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. Read the lines. Say it. Then change places.',
       scene: 'u2-2-2-pair',
       roles: [{
@@ -129,6 +142,7 @@ PBE1.page('u2-s02', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '2.2.3R',
       bookRef: 'Unit 2 · 2.2 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -149,6 +163,7 @@ PBE1.page('u2-s02', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '2.2.4',
       bookRef: 'Unit 2 · 2.2 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -185,6 +200,7 @@ PBE1.page('u2-s02', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '2.2.4R',
       bookRef: 'Unit 2 · 2.2 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -214,6 +230,7 @@ PBE1.page('u2-s02', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '2.2.5',
       bookRef: 'Unit 2 · 2.2 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -242,13 +259,21 @@ PBE1.page('u2-s02', {
             q: 'How many went out?',
             model: 'None — zero',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['none',
+              'zero'],
+            need: 1
           },
       {
             q: 'Why is every number written twice?',
             model: 'So a number read from across the yard cannot be read wrong',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            keys: ['across',
+              'yard',
+              'cannot',
+              'wrong'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -258,6 +283,7 @@ PBE1.page('u2-s02', {
       bookRef: 'Unit 2 · 2.2 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a store board for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -293,6 +319,7 @@ PBE1.page('u2-s02', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '2.2.6P',
       bookRef: 'Unit 2 · 2.2 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -331,6 +358,7 @@ PBE1.page('u2-s02', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '2.2.6R',
       bookRef: 'Unit 2 · 2.2 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -349,6 +377,7 @@ PBE1.page('u2-s02', {
       bookRef: 'Unit 2 · 2.2 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a number that was wrong at your work (<b>20 to 35 words</b>). '
   + 'What was the number? What should it have been? What happened?',
       minWords: 20,
@@ -387,6 +416,7 @@ PBE1.page('u2-s02', {
     },
     {
       id: 'c13',
+      kind: 'own',
       ref: '2.2.7P',
       bookRef: 'Unit 2 · 2.2 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -415,6 +445,7 @@ PBE1.page('u2-s02', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '2.2.7R',
       bookRef: 'Unit 2 · 2.2 · Lesson B · Writing · Share',
       type: 'discuss',

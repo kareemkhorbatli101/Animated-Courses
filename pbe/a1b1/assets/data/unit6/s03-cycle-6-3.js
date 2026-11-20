@@ -9,6 +9,7 @@ PBE1.page('u6-s03', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '6.3.1',
       bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u6-s03', {
       bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u6-6-3',
       passage: {
@@ -76,22 +78,26 @@ PBE1.page('u6-s03', {
             options: [{
               t: 'ten seconds',
               ok: true,
-              why: 'ten seconds'
+              why: 'Ten seconds, while he found a pen and the pad.'
             },
             {
               t: 'two minutes',
-              ok: false
+              ok: false,
+              why: 'Two minutes is in the scene, but it is what somebody else did last week.'
             },
             {
               t: 'he rings off',
-              ok: false
-            }]
+              ok: false,
+              why: 'He waits and is thanked for waiting.'
+            }],
+            evidence: 'Nour\'s question about how long that was'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '6.3.2',
       bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -101,7 +107,12 @@ PBE1.page('u6-s03', {
             q: 'Listen again. What does Ammar do while the caller waits?',
             model: 'He finds a pen and the slip pad',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['finds',
+              'pen',
+              'slip',
+              'pad'],
+            need: 1
           },
       {
             q: 'What does he say when he comes back?',
@@ -117,6 +128,7 @@ PBE1.page('u6-s03', {
       bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs, back to back. One waits — really waits, counting. Then change places.',
       scene: 'u6-6-3-pair',
       roles: [{
@@ -139,6 +151,7 @@ PBE1.page('u6-s03', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '6.3.3R',
       bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -160,6 +173,7 @@ PBE1.page('u6-s03', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '6.3.4',
       bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -201,6 +215,7 @@ PBE1.page('u6-s03', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '6.3.4R',
       bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -232,6 +247,7 @@ PBE1.page('u6-s03', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '6.3.5',
       bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -261,19 +277,30 @@ PBE1.page('u6-s03', {
             q: 'What do you say at twenty seconds?',
             model: 'I am sorry — one more moment',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['sorry',
+              'moment'],
+            need: 1
           },
       {
             q: 'Where do the pen and the pad live?',
             model: 'Next to the telephone',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['next',
+              'telephone'],
+            need: 1
           },
       {
             q: 'At sixty seconds, what do you ask for?',
             model: 'The caller\'s number, to call him back',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['caller\'s',
+              'number',
+              'call',
+              'back'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -283,6 +310,7 @@ PBE1.page('u6-s03', {
       bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a waiting card for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -319,6 +347,7 @@ PBE1.page('u6-s03', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '6.3.6P',
       bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -360,6 +389,7 @@ PBE1.page('u6-s03', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '6.3.6R',
       bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -378,6 +408,7 @@ PBE1.page('u6-s03', {
       bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about waiting at your work (<b>20 to 35 words</b>). How long do people '
   + 'wait? Why? What would stop it?',
       minWords: 20,
@@ -418,6 +449,7 @@ PBE1.page('u6-s03', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '6.3.7P',
       bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -449,6 +481,7 @@ PBE1.page('u6-s03', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '6.3.7R',
       bookRef: 'Unit 6 · 6.3 · Lesson B · Writing · Share',
       type: 'discuss',

@@ -9,6 +9,7 @@ PBE1.page('u2-s04', {
   cards: [
     {
       id: 'c1',
+      kind: 'model',
       ref: '2.4.1',
       bookRef: 'Unit 2 · 2.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -37,6 +38,7 @@ PBE1.page('u2-s04', {
       bookRef: 'Unit 2 · 2.4 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u2-2-4',
       passage: {
@@ -74,22 +76,27 @@ PBE1.page('u2-s04', {
             q: 'Books closed. Listen. What is on shelf four?',
             options: [{
               t: 'six cartons',
-              ok: false
+              ok: false,
+              why: 'Six are on shelf three, not shelf four.'
             },
             {
               t: 'nothing',
-              ok: true
+              ok: true,
+              why: 'There is none, and zero is the number he writes.'
             },
             {
               t: 'rolls',
-              ok: false
-            }]
+              ok: false,
+              why: 'The rolls are in another cycle, not on this shelf.'
+            }],
+            evidence: 'the exchange about shelf four, and the word Abu Yasser writes'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'model',
       ref: '2.4.2',
       bookRef: 'Unit 2 · 2.4 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -115,6 +122,7 @@ PBE1.page('u2-s04', {
       bookRef: 'Unit 2 · 2.4 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One asks about four shelves. One answers. Then change places.',
       scene: 'u2-2-4-pair',
       roles: [{
@@ -137,6 +145,7 @@ PBE1.page('u2-s04', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '2.4.3R',
       bookRef: 'Unit 2 · 2.4 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -157,6 +166,7 @@ PBE1.page('u2-s04', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '2.4.4',
       bookRef: 'Unit 2 · 2.4 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -191,6 +201,7 @@ PBE1.page('u2-s04', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '2.4.4R',
       bookRef: 'Unit 2 · 2.4 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -219,6 +230,7 @@ PBE1.page('u2-s04', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '2.4.5',
       bookRef: 'Unit 2 · 2.4 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -258,7 +270,11 @@ PBE1.page('u2-s04', {
             q: 'What does a shelf with no line mean?',
             model: 'That nobody looked at that shelf',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['nobody',
+              'looked',
+              'shelf'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -268,6 +284,7 @@ PBE1.page('u2-s04', {
       bookRef: 'Unit 2 · 2.4 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a shelf check for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -298,6 +315,7 @@ PBE1.page('u2-s04', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '2.4.6P',
       bookRef: 'Unit 2 · 2.4 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -333,6 +351,7 @@ PBE1.page('u2-s04', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '2.4.6R',
       bookRef: 'Unit 2 · 2.4 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -351,6 +370,7 @@ PBE1.page('u2-s04', {
       bookRef: 'Unit 2 · 2.4 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about something at your work that ran out (<b>20 to 35 words</b>). '
   + 'What was it? When did somebody see? Who said it first?',
       minWords: 20,
@@ -384,6 +404,7 @@ PBE1.page('u2-s04', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '2.4.7P',
       bookRef: 'Unit 2 · 2.4 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -411,6 +432,7 @@ PBE1.page('u2-s04', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '2.4.7R',
       bookRef: 'Unit 2 · 2.4 · Lesson B · Writing · Share',
       type: 'discuss',

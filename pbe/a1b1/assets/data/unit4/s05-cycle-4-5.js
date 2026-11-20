@@ -9,6 +9,7 @@ PBE1.page('u4-s05', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '4.5.1',
       bookRef: 'Unit 4 · 4.5 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -33,6 +34,7 @@ PBE1.page('u4-s05', {
       bookRef: 'Unit 4 · 4.5 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u4-4-5',
       passage: {
@@ -75,22 +77,26 @@ PBE1.page('u4-s05', {
             options: [{
               t: 'one',
               ok: true,
-              why: 'one'
+              why: 'Straight on, then one turn - left at the long bench.'
             },
             {
               t: 'two',
-              ok: false
+              ok: false,
+              why: 'Only one turn is named. Going straight on is not a turn.'
             },
             {
               t: 'three',
-              ok: false
-            }]
+              ok: false,
+              why: 'More turns than the directions contain.'
+            }],
+            evidence: 'the directions from the gate to the loading door'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '4.5.2',
       bookRef: 'Unit 4 · 4.5 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -100,13 +106,23 @@ PBE1.page('u4-s05', {
             q: 'Listen again. What is on the left at the end?',
             model: 'The loading door — the big grey door',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['loading',
+              'door',
+              'big',
+              'grey'],
+            need: 1
           },
       {
             q: 'What must the driver not do?',
             model: 'Use the other door, which is the office stairs',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['use',
+              'door',
+              'office',
+              'stairs'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -116,6 +132,7 @@ PBE1.page('u4-s05', {
       bookRef: 'Unit 4 · 4.5 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One is the driver. One gives directions. Then change places.',
       scene: 'u4-4-5-pair',
       roles: [{
@@ -138,6 +155,7 @@ PBE1.page('u4-s05', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '4.5.3R',
       bookRef: 'Unit 4 · 4.5 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -158,6 +176,7 @@ PBE1.page('u4-s05', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '4.5.4',
       bookRef: 'Unit 4 · 4.5 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -197,6 +216,7 @@ PBE1.page('u4-s05', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '4.5.4R',
       bookRef: 'Unit 4 · 4.5 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -227,6 +247,7 @@ PBE1.page('u4-s05', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '4.5.5',
       bookRef: 'Unit 4 · 4.5 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -259,13 +280,22 @@ PBE1.page('u4-s05', {
             q: 'Which bench do you turn at?',
             model: 'The long bench — not the short one by the wall',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['long',
+              'short',
+              'wall',
+              'bench'],
+            need: 1
           },
       {
             q: 'What must the driver do before driving?',
             model: 'Say it back to the gate man',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['back',
+              'gate',
+              'man'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -275,6 +305,7 @@ PBE1.page('u4-s05', {
       bookRef: 'Unit 4 · 4.5 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a directions paper for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -309,6 +340,7 @@ PBE1.page('u4-s05', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '4.5.6P',
       bookRef: 'Unit 4 · 4.5 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -349,6 +381,7 @@ PBE1.page('u4-s05', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '4.5.6R',
       bookRef: 'Unit 4 · 4.5 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -368,6 +401,7 @@ PBE1.page('u4-s05', {
       bookRef: 'Unit 4 · 4.5 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write directions from the gate of your work to one place (<b>20 to 35 '
   + 'words</b>). Which turn do people get wrong? What must they not do?',
       minWords: 20,
@@ -406,6 +440,7 @@ PBE1.page('u4-s05', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '4.5.7P',
       bookRef: 'Unit 4 · 4.5 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -436,6 +471,7 @@ PBE1.page('u4-s05', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '4.5.7R',
       bookRef: 'Unit 4 · 4.5 · Lesson B · Writing · Share',
       type: 'discuss',

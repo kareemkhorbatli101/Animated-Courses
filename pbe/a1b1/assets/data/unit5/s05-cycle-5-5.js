@@ -9,6 +9,7 @@ PBE1.page('u5-s05', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '5.5.1',
       bookRef: 'Unit 5 · 5.5 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u5-s05', {
       bookRef: 'Unit 5 · 5.5 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u5-5-5',
       passage: {
@@ -71,22 +73,27 @@ PBE1.page('u5-s05', {
             options: [{
               t: '4417',
               ok: true,
-              why: '4417'
+              why: 'Four, four, one, seven - confirmed with Beirut.'
             },
             {
               t: '4411',
-              ok: false
+              ok: false,
+              why: 'The last digit is not in doubt; the third one is.'
             },
             {
               t: '4477',
-              ok: false
-            }]
+              ok: false,
+              why: 'That is the other way the handwriting could be read, and it is '
+                + 'a different delivery.'
+            }],
+            evidence: 'the handwritten digit Nour cannot read'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '5.5.2',
       bookRef: 'Unit 5 · 5.5 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -96,13 +103,20 @@ PBE1.page('u5-s05', {
             q: 'Listen again. Which two digits are hard to read?',
             model: 'The third digit — a one or a seven',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['third',
+              'digit'],
+            need: 1
           },
       {
             q: 'What does Ammar do in the end?',
             model: 'He telephones Beirut and asks',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['telephones',
+              'beirut',
+              'asks'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -112,6 +126,7 @@ PBE1.page('u5-s05', {
       bookRef: 'Unit 5 · 5.5 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One has a number they cannot read. One helps. Then change places.',
       scene: 'u5-5-5-pair',
       roles: [{
@@ -134,6 +149,7 @@ PBE1.page('u5-s05', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '5.5.3R',
       bookRef: 'Unit 5 · 5.5 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -154,6 +170,7 @@ PBE1.page('u5-s05', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '5.5.4',
       bookRef: 'Unit 5 · 5.5 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -198,6 +215,7 @@ PBE1.page('u5-s05', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '5.5.4R',
       bookRef: 'Unit 5 · 5.5 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -229,6 +247,7 @@ PBE1.page('u5-s05', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '5.5.5',
       bookRef: 'Unit 5 · 5.5 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -257,19 +276,32 @@ PBE1.page('u5-s05', {
             q: 'How many times do you read the number?',
             model: 'Twice — theirs and then your own',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['twice',
+              'theirs'],
+            need: 1
           },
       {
             q: 'What do you write if nobody can tell you?',
             model: 'Both numbers, with one digit unclear',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['both',
+              'numbers',
+              'digit',
+              'unclear'],
+            need: 1
           },
       {
             q: 'Why is a guessed digit dangerous?',
             model: 'Because a guessed digit looks exactly like a known one',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['because',
+              'looks',
+              'exactly',
+              'like'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -279,6 +311,7 @@ PBE1.page('u5-s05', {
       bookRef: 'Unit 5 · 5.5 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a copying procedure for the numbers at your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -313,6 +346,7 @@ PBE1.page('u5-s05', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '5.5.6P',
       bookRef: 'Unit 5 · 5.5 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -353,6 +387,7 @@ PBE1.page('u5-s05', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '5.5.6R',
       bookRef: 'Unit 5 · 5.5 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -371,6 +406,7 @@ PBE1.page('u5-s05', {
       bookRef: 'Unit 5 · 5.5 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a number that was copied wrong at your work (<b>20 to 35 '
   + 'words</b>). Which digit? Who found it? How long did it take?',
       minWords: 20,
@@ -409,6 +445,7 @@ PBE1.page('u5-s05', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '5.5.7P',
       bookRef: 'Unit 5 · 5.5 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -440,6 +477,7 @@ PBE1.page('u5-s05', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '5.5.7R',
       bookRef: 'Unit 5 · 5.5 · Lesson B · Writing · Share',
       type: 'discuss',

@@ -9,6 +9,7 @@ PBE1.page('u6-s02', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '6.2.1',
       bookRef: 'Unit 6 · 6.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u6-s02', {
       bookRef: 'Unit 6 · 6.2 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u6-6-2',
       passage: {
@@ -72,23 +74,27 @@ PBE1.page('u6-s02', {
             q: 'Books closed. Listen. Does Ammar get the name?',
             options: [{
               t: 'yes',
-              ok: false
+              ok: false,
+              why: 'He does get it, but not first time.'
             },
             {
               t: 'no',
-              ok: false
+              ok: false,
+              why: 'He gets it in the end - he reads the eight letters back.'
             },
             {
               t: 'yes, after three tries',
               ok: true,
-              why: 'yes, after three tries'
-            }]
+              why: 'Sorry, again, spell it - three goes, and then he reads it back.'
+            }],
+            evidence: 'how many times the caller is asked to repeat or spell'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '6.2.2',
       bookRef: 'Unit 6 · 6.2 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -104,7 +110,12 @@ PBE1.page('u6-s02', {
             q: 'What does he do at the end?',
             model: 'He reads the letters back, says the number of letters, and says the name',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            keys: ['letters',
+              'back',
+              'number',
+              'name'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -114,6 +125,7 @@ PBE1.page('u6-s02', {
       bookRef: 'Unit 6 · 6.2 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs, back to back. One is the caller with a hard name. Then change places.',
       scene: 'u6-6-2-pair',
       roles: [{
@@ -136,6 +148,7 @@ PBE1.page('u6-s02', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '6.2.3R',
       bookRef: 'Unit 6 · 6.2 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -156,6 +169,7 @@ PBE1.page('u6-s02', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '6.2.4',
       bookRef: 'Unit 6 · 6.2 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -193,6 +207,7 @@ PBE1.page('u6-s02', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '6.2.4R',
       bookRef: 'Unit 6 · 6.2 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -223,6 +238,7 @@ PBE1.page('u6-s02', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '6.2.5',
       bookRef: 'Unit 6 · 6.2 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -258,13 +274,22 @@ PBE1.page('u6-s02', {
             q: 'Which name did he not need to spell?',
             model: 'Saeed, Fadi — he knows him',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['saeed',
+              'fadi',
+              'knows'],
+            need: 1
           },
       {
             q: 'What happened at 11.05?',
             model: 'The caller rang off before Ammar asked for his name',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['caller',
+              'rang',
+              'off',
+              'before'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -274,6 +299,7 @@ PBE1.page('u6-s02', {
       bookRef: 'Unit 6 · 6.2 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a call list for one morning at your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -313,6 +339,7 @@ PBE1.page('u6-s02', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '6.2.6P',
       bookRef: 'Unit 6 · 6.2 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -351,6 +378,7 @@ PBE1.page('u6-s02', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '6.2.6R',
       bookRef: 'Unit 6 · 6.2 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -370,6 +398,7 @@ PBE1.page('u6-s02', {
       bookRef: 'Unit 6 · 6.2 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a name you could not get on the telephone (<b>20 to 35 '
   + 'words</b>). What happened? What did you do? Did you find out who it was?',
       minWords: 20,
@@ -409,6 +438,7 @@ PBE1.page('u6-s02', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '6.2.7P',
       bookRef: 'Unit 6 · 6.2 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -437,6 +467,7 @@ PBE1.page('u6-s02', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '6.2.7R',
       bookRef: 'Unit 6 · 6.2 · Lesson B · Writing · Share',
       type: 'discuss',

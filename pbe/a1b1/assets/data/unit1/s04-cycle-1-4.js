@@ -9,6 +9,7 @@ PBE1.page('u1-s04', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '1.4.1',
       bookRef: 'Unit 1 · 1.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -33,6 +34,7 @@ PBE1.page('u1-s04', {
       bookRef: 'Unit 1 · 1.4 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u1-1-4',
       passage: {
@@ -68,22 +70,28 @@ PBE1.page('u1-s04', {
             q: 'Books closed. Listen. How many people does Abu Yasser name?',
             options: [{
               t: 'two',
-              ok: false
+              ok: false,
+              why: 'He has named two before he stops for breath - keep listening, '
+                + 'he goes on.'
             },
             {
               t: 'three',
-              ok: false
+              ok: false,
+              why: 'Close. One more name comes after the pause.'
             },
             {
               t: 'four',
-              ok: true
-            }]
+              ok: true,
+              why: 'He names four people, each with a job.'
+            }],
+            evidence: 'count the people as Abu Yasser names them, one by one'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '1.4.2',
       bookRef: 'Unit 1 · 1.4 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -99,7 +107,10 @@ PBE1.page('u1-s04', {
             q: 'Where is Nour?',
             model: 'In the office, upstairs',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['office',
+              'upstairs'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -109,6 +120,7 @@ PBE1.page('u1-s04', {
       bookRef: 'Unit 1 · 1.4 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. Read the lines. Say it. Then change places.',
       scene: 'u1-1-4-pair',
       roles: [{
@@ -131,6 +143,7 @@ PBE1.page('u1-s04', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '1.4.3R',
       bookRef: 'Unit 1 · 1.4 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -151,6 +164,7 @@ PBE1.page('u1-s04', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '1.4.4',
       bookRef: 'Unit 1 · 1.4 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -183,6 +197,7 @@ PBE1.page('u1-s04', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '1.4.4R',
       bookRef: 'Unit 1 · 1.4 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -210,6 +225,7 @@ PBE1.page('u1-s04', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '1.4.5',
       bookRef: 'Unit 1 · 1.4 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -235,19 +251,30 @@ PBE1.page('u1-s04', {
             q: 'Who do you ask about the lorry?',
             model: 'Fadi, the driver',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['fadi',
+              'driver'],
+            need: 1
           },
       {
             q: 'What do you ask Nour about?',
             model: 'Paper: notes, lists and numbers',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['paper',
+              'notes',
+              'lists',
+              'numbers'],
+            need: 1
           },
       {
             q: 'Who is the supervisor?',
             model: 'Abu Yasser',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['abu',
+              'yasser'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -257,6 +284,7 @@ PBE1.page('u1-s04', {
       bookRef: 'Unit 1 · 1.4 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a who-to-ask note for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -287,6 +315,7 @@ PBE1.page('u1-s04', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '1.4.6P',
       bookRef: 'Unit 1 · 1.4 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -323,6 +352,7 @@ PBE1.page('u1-s04', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '1.4.6R',
       bookRef: 'Unit 1 · 1.4 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -341,6 +371,7 @@ PBE1.page('u1-s04', {
       bookRef: 'Unit 1 · 1.4 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about one person at your work (<b>20 to 35 words</b>). Who is he or '
   + 'she? What is the job? What do you ask about?',
       minWords: 20,
@@ -375,6 +406,7 @@ PBE1.page('u1-s04', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '1.4.7P',
       bookRef: 'Unit 1 · 1.4 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -401,6 +433,7 @@ PBE1.page('u1-s04', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '1.4.7R',
       bookRef: 'Unit 1 · 1.4 · Lesson B · Writing · Share',
       type: 'discuss',

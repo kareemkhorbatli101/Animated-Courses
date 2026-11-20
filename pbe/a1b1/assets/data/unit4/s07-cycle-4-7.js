@@ -9,6 +9,7 @@ PBE1.page('u4-s07', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '4.7.1',
       bookRef: 'Unit 4 · 4.7 · Lesson A · Speaking · Get ready – Unit 4 quiz',
       type: 'discuss',
@@ -42,6 +43,7 @@ PBE1.page('u4-s07', {
       bookRef: 'Unit 4 · 4.7 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u4-4-7',
       passage: {
@@ -76,23 +78,27 @@ PBE1.page('u4-s07', {
             q: 'Books closed. Listen. What does Fouad do?',
             options: [{
               t: 'he loses things',
-              ok: false
+              ok: false,
+              why: 'Nothing is lost - every item is somewhere sensible.'
             },
             {
               t: 'he puts things where they fit, not where the map says',
               ok: true,
-              why: 'he puts things where they fit, not where the map says'
+              why: 'Every decision he made was right; the map simply never changed.'
             },
             {
               t: 'he cannot read the map',
-              ok: false
-            }]
+              ok: false,
+              why: 'He knows the map. He has improved on it and told nobody.'
+            }],
+            evidence: 'the line about the long rolls and why they stand behind the door'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '4.7.2',
       bookRef: 'Unit 4 · 4.7 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -103,18 +109,29 @@ PBE1.page('u4-s07', {
             model: 'It does not say, but he has been there long enough that Abu '
               + 'Yasser trusts his judgement',
             minWords: 5,
-            rows: 2
+            rows: 2,
+            keys: ['enough',
+              'abu',
+              'yasser',
+              'trusts'],
+            need: 1
           },
       {
             q: 'Why is his place for the long rolls better?',
             model: 'A long roll bends on shelf one, and a bent roll is rubbish',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            keys: ['roll',
+              'bends',
+              'shelf',
+              'bent'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c4',
+      kind: 'own',
       ref: '4.7.3',
       bookRef: 'Unit 4 · 4.7 · Lesson A · Speaking · Practise',
       type: 'discuss',
@@ -138,6 +155,7 @@ PBE1.page('u4-s07', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '4.7.3R',
       bookRef: 'Unit 4 · 4.7 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -152,6 +170,7 @@ PBE1.page('u4-s07', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '4.7.4',
       bookRef: 'Unit 4 · 4.7 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -196,6 +215,7 @@ PBE1.page('u4-s07', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '4.7.4R',
       bookRef: 'Unit 4 · 4.7 · Lesson A · Speaking · Report – everybody is right',
       type: 'discuss',
@@ -247,6 +267,7 @@ PBE1.page('u4-s07', {
     },
     {
       id: 'c8',
+      kind: 'own',
       ref: '4.7.5',
       bookRef: 'Unit 4 · 4.7 · Lesson B · Writing · Read – exam practice (A2 Key Reading '
   + 'Part 1, at A1 length)',
@@ -289,6 +310,7 @@ PBE1.page('u4-s07', {
       bookRef: 'Unit 4 · 4.7 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a message saying you moved something (<b>four sentences, about 30 '
   + 'words</b>). Say what, where it is now, why, and what the reader must do.',
       minWords: 15,
@@ -330,6 +352,7 @@ PBE1.page('u4-s07', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '4.7.6P',
       bookRef: 'Unit 4 · 4.7 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -366,6 +389,7 @@ PBE1.page('u4-s07', {
   + 'Writing Part 6, at A1 length)',
       type: 'writer',
       title: 'Write freely – exam practice (A2 Key Writing Part 6, at A1 length)',
+      kind: 'model',
       instruction: 'Write a message to your supervisor about a thing you moved (<b>four '
   + 'sentences, about 30 words</b>). Say what, where, why, and ask for the map to '
   + 'be changed.',
@@ -417,6 +441,7 @@ PBE1.page('u4-s07', {
       bookRef: 'Unit 4 · 4.7 · Lesson B · Writing · Unit 4 check',
       type: 'scene',
       title: 'Unit 4 check',
+      kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u4-4-7'
     }

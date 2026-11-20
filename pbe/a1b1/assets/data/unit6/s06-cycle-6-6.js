@@ -9,6 +9,7 @@ PBE1.page('u6-s06', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '6.6.1',
       bookRef: 'Unit 6 · 6.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u6-s06', {
       bookRef: 'Unit 6 · 6.6 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u6-6-6',
       passage: {
@@ -72,22 +74,26 @@ PBE1.page('u6-s06', {
             options: [{
               t: 'at two',
               ok: true,
-              why: 'at two'
+              why: 'He tells her at two, and the slip goes on her desk now.'
             },
             {
               t: 'tomorrow',
-              ok: false
+              ok: false,
+              why: 'He does not wait a day - she is back the same afternoon.'
             },
             {
               t: 'she will not',
-              ok: false
-            }]
+              ok: false,
+              why: 'She does get it. He does both things so that she does.'
+            }],
+            evidence: 'what Ammar promises to do, and when'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '6.6.2',
       bookRef: 'Unit 6 · 6.6 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -103,7 +109,10 @@ PBE1.page('u6-s06', {
             q: 'What does he say he will do as well?',
             model: 'Tell her at two as well — he does both',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['both',
+              'well'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -113,6 +122,7 @@ PBE1.page('u6-s06', {
       bookRef: 'Unit 6 · 6.6 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs, back to back. One is the caller. One promises. Then change places.',
       scene: 'u6-6-6-pair',
       roles: [{
@@ -135,6 +145,7 @@ PBE1.page('u6-s06', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '6.6.3R',
       bookRef: 'Unit 6 · 6.6 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -155,6 +166,7 @@ PBE1.page('u6-s06', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '6.6.4',
       bookRef: 'Unit 6 · 6.6 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -200,6 +212,7 @@ PBE1.page('u6-s06', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '6.6.4R',
       bookRef: 'Unit 6 · 6.6 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -235,6 +248,7 @@ PBE1.page('u6-s06', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '6.6.5',
       bookRef: 'Unit 6 · 6.6 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -266,19 +280,30 @@ PBE1.page('u6-s06', {
             q: 'Who is the message for, and who took it?',
             model: 'For Nour Mansour, taken by Ammar Zreik',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['nour',
+              'mansour',
+              'taken',
+              'ammar'],
+            need: 1
           },
       {
             q: 'What does the tick after the number mean?',
             model: 'That the number was read back',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['back',
+              'number'],
+            need: 1
           },
       {
             q: 'What two things did Ammar do?',
             model: 'He put the slip on her desk AND told her at two',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            keys: ['slip',
+              'desk'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -288,6 +313,7 @@ PBE1.page('u6-s06', {
       bookRef: 'Unit 6 · 6.6 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a message slip for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -330,6 +356,7 @@ PBE1.page('u6-s06', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '6.6.6P',
       bookRef: 'Unit 6 · 6.6 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -374,6 +401,7 @@ PBE1.page('u6-s06', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '6.6.6R',
       bookRef: 'Unit 6 · 6.6 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -393,6 +421,7 @@ PBE1.page('u6-s06', {
       bookRef: 'Unit 6 · 6.6 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a message at your work (<b>20 to 35 words</b>). Who took it? Did '
   + 'it arrive? What happened if it did not?',
       minWords: 20,
@@ -439,6 +468,7 @@ PBE1.page('u6-s06', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '6.6.7P',
       bookRef: 'Unit 6 · 6.6 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -473,6 +503,7 @@ PBE1.page('u6-s06', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '6.6.7R',
       bookRef: 'Unit 6 · 6.6 · Lesson B · Writing · Share',
       type: 'discuss',

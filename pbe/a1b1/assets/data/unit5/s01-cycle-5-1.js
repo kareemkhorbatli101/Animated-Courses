@@ -9,6 +9,7 @@ PBE1.page('u5-s01', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '5.1.1',
       bookRef: 'Unit 5 · 5.1 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -33,6 +34,7 @@ PBE1.page('u5-s01', {
       bookRef: 'Unit 5 · 5.1 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u5-5-1',
       passage: {
@@ -73,23 +75,27 @@ PBE1.page('u5-s01', {
             q: 'Books closed. Listen. How many things must Ammar look at?',
             options: [{
               t: 'two',
-              ok: false
+              ok: false,
+              why: 'Fewer than he lists - he says \'only four\' and then names them.'
             },
             {
               t: 'four',
               ok: true,
-              why: 'four'
+              why: 'The name, the date, the quantity and the line at the bottom.'
             },
             {
               t: 'six',
-              ok: false
-            }]
+              ok: false,
+              why: 'More than he lists.'
+            }],
+            evidence: 'Abu Yasser\'s first line about the delivery note'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '5.1.2',
       bookRef: 'Unit 5 · 5.1 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -99,13 +105,20 @@ PBE1.page('u5-s01', {
             q: 'Listen again. Which one does Nour say is the dangerous one?',
             model: 'The signature — the line at the bottom',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['signature',
+              'line',
+              'bottom'],
+            need: 1
           },
       {
             q: 'What is at the bottom of the paper?',
             model: 'The line for your signature',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['line',
+              'signature'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -115,6 +128,7 @@ PBE1.page('u5-s01', {
       bookRef: 'Unit 5 · 5.1 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One has the note. One asks. Then change places.',
       scene: 'u5-5-1-pair',
       roles: [{
@@ -137,6 +151,7 @@ PBE1.page('u5-s01', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '5.1.3R',
       bookRef: 'Unit 5 · 5.1 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -157,6 +172,7 @@ PBE1.page('u5-s01', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '5.1.4',
       bookRef: 'Unit 5 · 5.1 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -197,6 +213,7 @@ PBE1.page('u5-s01', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '5.1.4R',
       bookRef: 'Unit 5 · 5.1 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -230,6 +247,7 @@ PBE1.page('u5-s01', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '5.1.5',
       bookRef: 'Unit 5 · 5.1 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -256,19 +274,29 @@ PBE1.page('u5-s01', {
             q: 'What does your signature say?',
             model: 'That things 1, 2 and 3 are correct',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['things',
+              'correct'],
+            need: 1
           },
       {
             q: 'What do you say if you have not counted?',
             model: 'I have not counted it yet',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['yet',
+              'counted'],
+            need: 1
           },
       {
             q: 'Which of the four is a question about the past?',
             model: 'Number 3 — did you count it yourself?',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['number',
+              'count',
+              'yourself'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -278,6 +306,7 @@ PBE1.page('u5-s01', {
       bookRef: 'Unit 5 · 5.1 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a before-you-sign list for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -314,6 +343,7 @@ PBE1.page('u5-s01', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '5.1.6P',
       bookRef: 'Unit 5 · 5.1 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -355,6 +385,7 @@ PBE1.page('u5-s01', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '5.1.6R',
       bookRef: 'Unit 5 · 5.1 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -374,6 +405,7 @@ PBE1.page('u5-s01', {
       bookRef: 'Unit 5 · 5.1 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a paper you sign at work (<b>20 to 35 words</b>). What is on it? '
   + 'Do you read it? What happens if it is wrong?',
       minWords: 20,
@@ -414,6 +446,7 @@ PBE1.page('u5-s01', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '5.1.7P',
       bookRef: 'Unit 5 · 5.1 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -446,6 +479,7 @@ PBE1.page('u5-s01', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '5.1.7R',
       bookRef: 'Unit 5 · 5.1 · Lesson B · Writing · Share',
       type: 'discuss',

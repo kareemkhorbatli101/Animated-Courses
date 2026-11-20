@@ -9,6 +9,7 @@ PBE1.page('u6-s04', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '6.4.1',
       bookRef: 'Unit 6 · 6.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -33,6 +34,7 @@ PBE1.page('u6-s04', {
       bookRef: 'Unit 6 · 6.4 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u6-6-4',
       passage: {
@@ -74,23 +76,27 @@ PBE1.page('u6-s04', {
             q: 'Books closed. Listen. Where is Mr Khalil?',
             options: [{
               t: 'at lunch',
-              ok: false
+              ok: false,
+              why: 'Mrs Mansour is at lunch. Mr Khalil is further away than that.'
             },
             {
               t: 'at the gate',
-              ok: false
+              ok: false,
+              why: 'Nobody is at the gate in this scene.'
             },
             {
               t: 'in Homs until Thursday',
               ok: true,
-              why: 'in Homs until Thursday'
-            }]
+              why: 'Away, and the day he returns is given.'
+            }],
+            evidence: 'the answer about Mr Khalil, and the day he is back'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '6.4.2',
       bookRef: 'Unit 6 · 6.4 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -100,7 +106,10 @@ PBE1.page('u6-s04', {
             q: 'Listen again. What two things does Ammar add?',
             model: 'Where the person is, and when they are back',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['person',
+              'back'],
+            need: 1
           },
       {
             q: 'What does he NOT say?',
@@ -116,6 +125,7 @@ PBE1.page('u6-s04', {
       bookRef: 'Unit 6 · 6.4 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs, back to back. One asks for people. One says where they are. '
   + 'Then change places.',
       scene: 'u6-6-4-pair',
@@ -139,6 +149,7 @@ PBE1.page('u6-s04', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '6.4.3R',
       bookRef: 'Unit 6 · 6.4 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -159,6 +170,7 @@ PBE1.page('u6-s04', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '6.4.4',
       bookRef: 'Unit 6 · 6.4 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -198,6 +210,7 @@ PBE1.page('u6-s04', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '6.4.4R',
       bookRef: 'Unit 6 · 6.4 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -230,6 +243,7 @@ PBE1.page('u6-s04', {
     },
     {
       id: 'c8',
+      kind: 'own',
       ref: '6.4.5',
       bookRef: 'Unit 6 · 6.4 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -281,6 +295,7 @@ PBE1.page('u6-s04', {
       bookRef: 'Unit 6 · 6.4 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a who-is-where board for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -325,6 +340,7 @@ PBE1.page('u6-s04', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '6.4.6P',
       bookRef: 'Unit 6 · 6.4 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -368,6 +384,7 @@ PBE1.page('u6-s04', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '6.4.6R',
       bookRef: 'Unit 6 · 6.4 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -386,6 +403,7 @@ PBE1.page('u6-s04', {
       bookRef: 'Unit 6 · 6.4 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about the people at your work and where they are (<b>20 to 35 '
   + 'words</b>). Who is hardest to find? What do you tell a caller?',
       minWords: 20,
@@ -430,6 +448,7 @@ PBE1.page('u6-s04', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '6.4.7P',
       bookRef: 'Unit 6 · 6.4 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -464,6 +483,7 @@ PBE1.page('u6-s04', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '6.4.7R',
       bookRef: 'Unit 6 · 6.4 · Lesson B · Writing · Share',
       type: 'discuss',

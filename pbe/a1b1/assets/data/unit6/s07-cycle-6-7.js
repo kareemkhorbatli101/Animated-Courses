@@ -9,6 +9,7 @@ PBE1.page('u6-s07', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '6.7.1',
       bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Get ready – Unit 6 quiz',
       type: 'discuss',
@@ -41,6 +42,7 @@ PBE1.page('u6-s07', {
       bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u6-6-7',
       passage: {
@@ -73,23 +75,28 @@ PBE1.page('u6-s07', {
             q: 'Books closed. Listen. What happened to the message?',
             options: [{
               t: 'it was taken badly',
-              ok: false
+              ok: false,
+              why: 'It was taken perfectly - the name spelled, the number read back.'
             },
             {
               t: 'it was taken perfectly and never passed on',
               ok: true,
-              why: 'it was taken perfectly and never passed on'
+              why: 'Everything was done right and the message still arrived three '
+                + 'days late, under the pad.'
             },
             {
               t: 'it was never taken',
-              ok: false
-            }]
+              ok: false,
+              why: 'It was taken. Nour is holding the slip while she says so.'
+            }],
+            evidence: 'where the slip was found, and how many days later'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '6.7.2',
       bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -100,18 +107,29 @@ PBE1.page('u6-s07', {
             model: 'The name spelled, the number read back, the invoice problem, and '
               + 'the time he rings',
             minWords: 5,
-            rows: 2
+            rows: 2,
+            keys: ['name',
+              'spelled',
+              'number',
+              'back'],
+            need: 1
           },
       {
             q: 'Where was the slip for three days?',
             model: 'Under the slip pad, on Nour\'s desk',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['under',
+              'pad',
+              'nour\'s',
+              'desk'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c4',
+      kind: 'own',
       ref: '6.7.3',
       bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Practise',
       type: 'discuss',
@@ -134,6 +152,7 @@ PBE1.page('u6-s07', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '6.7.3R',
       bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -148,6 +167,7 @@ PBE1.page('u6-s07', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '6.7.4',
       bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -191,6 +211,7 @@ PBE1.page('u6-s07', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '6.7.4R',
       bookRef: 'Unit 6 · 6.7 · Lesson A · Speaking · Report – everybody is right',
       type: 'discuss',
@@ -243,6 +264,7 @@ PBE1.page('u6-s07', {
     },
     {
       id: 'c8',
+      kind: 'own',
       ref: '6.7.5',
       bookRef: 'Unit 6 · 6.7 · Lesson B · Writing · Read – exam practice (A2 Key Reading '
   + 'Part 1, at A1 length)',
@@ -285,6 +307,7 @@ PBE1.page('u6-s07', {
       bookRef: 'Unit 6 · 6.7 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a message for your supervisor (<b>four sentences, about 30 words</b>). '
   + 'Who called, what about, what he wants, and when.',
       minWords: 15,
@@ -325,6 +348,7 @@ PBE1.page('u6-s07', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '6.7.6P',
       bookRef: 'Unit 6 · 6.7 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -361,6 +385,7 @@ PBE1.page('u6-s07', {
   + 'Writing Part 6, at A1 length)',
       type: 'writer',
       title: 'Write freely – exam practice (A2 Key Writing Part 6, at A1 length)',
+      kind: 'model',
       instruction: 'Write a message for somebody at your work (<b>four sentences, about 30 '
   + 'words</b>). The caller, the subject, what he wants, and what happens next '
   + 'with a time.',
@@ -412,6 +437,7 @@ PBE1.page('u6-s07', {
       bookRef: 'Unit 6 · 6.7 · Lesson B · Writing · Unit 6 check',
       type: 'scene',
       title: 'Unit 6 check',
+      kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u6-6-7'
     }

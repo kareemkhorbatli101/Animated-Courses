@@ -9,6 +9,7 @@ PBE1.page('u2-s07', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '2.7.1',
       bookRef: 'Unit 2 · 2.7 · Lesson A · Speaking · Get ready – Unit 2 quiz',
       type: 'discuss',
@@ -40,6 +41,7 @@ PBE1.page('u2-s07', {
       bookRef: 'Unit 2 · 2.7 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u2-2-7',
       passage: {
@@ -71,22 +73,28 @@ PBE1.page('u2-s07', {
             q: 'Books closed. Listen. Why are the two counts different?',
             options: [{
               t: 'one man cannot count',
-              ok: false
+              ok: false,
+              why: 'Both men counted twice and both were careful. Neither made a mistake.'
             },
             {
               t: 'they counted different things',
-              ok: true
+              ok: true,
+              why: 'One counted the shelf, the other the shelf and the floor under it.'
             },
             {
               t: 'the sheet is old',
-              ok: false
-            }]
+              ok: false,
+              why: 'The sheet\'s age is mentioned, but it is not what makes the '
+                + 'two counts differ.'
+            }],
+            evidence: 'the line about the three cartons on the floor'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '2.7.2',
       bookRef: 'Unit 2 · 2.7 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -96,18 +104,27 @@ PBE1.page('u2-s07', {
             q: 'Listen again. What did Ammar count?',
             model: 'The cartons on the shelf',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['cartons',
+              'shelf'],
+            need: 1
           },
       {
             q: 'What did Samih count?',
             model: 'The cartons on the shelf and the three on the floor under it',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            keys: ['cartons',
+              'shelf',
+              'floor',
+              'under'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c4',
+      kind: 'own',
       ref: '2.7.3',
       bookRef: 'Unit 2 · 2.7 · Lesson A · Speaking · Practise',
       type: 'discuss',
@@ -130,6 +147,7 @@ PBE1.page('u2-s07', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '2.7.3R',
       bookRef: 'Unit 2 · 2.7 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -144,6 +162,7 @@ PBE1.page('u2-s07', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '2.7.4',
       bookRef: 'Unit 2 · 2.7 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -183,6 +202,7 @@ PBE1.page('u2-s07', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '2.7.4R',
       bookRef: 'Unit 2 · 2.7 · Lesson A · Speaking · Report – everybody is right',
       type: 'discuss',
@@ -225,6 +245,7 @@ PBE1.page('u2-s07', {
     },
     {
       id: 'c8',
+      kind: 'own',
       ref: '2.7.5',
       bookRef: 'Unit 2 · 2.7 · Lesson B · Writing · Read – exam practice (A2 Key Reading '
   + 'Part 1, at A1 length)',
@@ -265,6 +286,7 @@ PBE1.page('u2-s07', {
       bookRef: 'Unit 2 · 2.7 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a message to a colleague about a count (<b>four sentences, about 30 '
   + 'words</b>). Say the number, the place, the day, and one thing they must do.',
       minWords: 15,
@@ -305,6 +327,7 @@ PBE1.page('u2-s07', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '2.7.6P',
       bookRef: 'Unit 2 · 2.7 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -340,6 +363,7 @@ PBE1.page('u2-s07', {
   + 'Writing Part 6, at A1 length)',
       type: 'writer',
       title: 'Write freely – exam practice (A2 Key Writing Part 6, at A1 length)',
+      kind: 'model',
       instruction: 'Write a message about a number that is wrong at your work (<b>four '
   + 'sentences, about 30 words</b>). Say the number on the paper, the real '
   + 'number, that you counted twice, and what the reader must do.',
@@ -391,6 +415,7 @@ PBE1.page('u2-s07', {
       bookRef: 'Unit 2 · 2.7 · Lesson B · Writing · Unit 2 check',
       type: 'scene',
       title: 'Unit 2 check',
+      kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u2-2-7'
     }

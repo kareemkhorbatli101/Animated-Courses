@@ -9,6 +9,7 @@ PBE1.page('u3-s07', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '3.7.1',
       bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Get ready – Unit 3 quiz',
       type: 'discuss',
@@ -40,6 +41,7 @@ PBE1.page('u3-s07', {
       bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u3-3-7',
       passage: {
@@ -74,23 +76,28 @@ PBE1.page('u3-s07', {
             q: 'Books closed. Listen. What is the problem with Hani?',
             options: [{
               t: 'he is always late',
-              ok: false
+              ok: false,
+              why: 'He is never late. He always comes.'
             },
             {
               t: 'he swaps every week and never writes it down',
               ok: true,
-              why: 'he swaps every week and never writes it down'
+              why: 'He asks the right man every time and always comes - but the '
+                + 'board never says so, and the office pays from the board.'
             },
             {
               t: 'he cannot read the board',
-              ok: false
-            }]
+              ok: false,
+              why: 'Reading is not the difficulty; recording is.'
+            }],
+            evidence: 'the line about the board being wrong eleven times'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '3.7.2',
       bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -100,18 +107,27 @@ PBE1.page('u3-s07', {
             q: 'Listen again. How many times has Hani swapped?',
             model: 'Eleven times',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['eleven',
+              'times'],
+            need: 1
           },
       {
             q: 'Why does Samih not complain?',
             model: 'Because Hani always asks him first and always comes',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['because',
+              'hani',
+              'always',
+              'asks'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c4',
+      kind: 'own',
       ref: '3.7.3',
       bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Practise',
       type: 'discuss',
@@ -134,6 +150,7 @@ PBE1.page('u3-s07', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '3.7.3R',
       bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -148,6 +165,7 @@ PBE1.page('u3-s07', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '3.7.4',
       bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -190,6 +208,7 @@ PBE1.page('u3-s07', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '3.7.4R',
       bookRef: 'Unit 3 · 3.7 · Lesson A · Speaking · Report – everybody is right',
       type: 'discuss',
@@ -235,6 +254,7 @@ PBE1.page('u3-s07', {
     },
     {
       id: 'c8',
+      kind: 'own',
       ref: '3.7.5',
       bookRef: 'Unit 3 · 3.7 · Lesson B · Writing · Read – exam practice (A2 Key Reading '
   + 'Part 1, at A1 length)',
@@ -275,6 +295,7 @@ PBE1.page('u3-s07', {
       bookRef: 'Unit 3 · 3.7 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a message asking to swap a day (<b>four sentences, about 30 '
   + 'words</b>). Say the day, who you want to swap with, why, and what you are '
   + 'asking.',
@@ -318,6 +339,7 @@ PBE1.page('u3-s07', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '3.7.6P',
       bookRef: 'Unit 3 · 3.7 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -354,6 +376,7 @@ PBE1.page('u3-s07', {
   + 'Writing Part 6, at A1 length)',
       type: 'writer',
       title: 'Write freely – exam practice (A2 Key Writing Part 6, at A1 length)',
+      kind: 'model',
       instruction: 'Write a message to your supervisor about a swap (<b>four sentences, about 30 '
   + 'words</b>). Say the day, who agreed, why, and ask for it to go on the board.',
       minWords: 20,
@@ -403,6 +426,7 @@ PBE1.page('u3-s07', {
       bookRef: 'Unit 3 · 3.7 · Lesson B · Writing · Unit 3 check',
       type: 'scene',
       title: 'Unit 3 check',
+      kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u3-3-7'
     }

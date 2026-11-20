@@ -9,6 +9,7 @@ PBE1.page('u3-s02', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '3.2.1',
       bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -32,6 +33,7 @@ PBE1.page('u3-s02', {
       bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u3-3-2',
       passage: {
@@ -68,22 +70,27 @@ PBE1.page('u3-s02', {
             q: 'Books closed. Listen. What time does the lorry come?',
             options: [{
               t: '6.30',
-              ok: false
+              ok: false,
+              why: 'No half past six is mentioned anywhere in the scene.'
             },
             {
               t: '7.15',
-              ok: true
+              ok: true,
+              why: 'Quarter past seven, which he also says as seven fifteen.'
             },
             {
               t: '7.30',
-              ok: false
-            }]
+              ok: false,
+              why: 'Half past is in the scene, but it is the break, not the lorry.'
+            }],
+            evidence: 'the time said two ways, one after the other'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '3.2.2',
       bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -93,13 +100,21 @@ PBE1.page('u3-s02', {
             q: 'Listen again. What time must Ammar be at the gate?',
             model: 'Seven o\'clock — fifteen minutes before the lorry',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['o\'clock',
+              'fifteen',
+              'minutes',
+              'before'],
+            need: 1
           },
       {
             q: 'What time is the break?',
             model: 'Half past ten',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['half',
+              'past'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -109,6 +124,7 @@ PBE1.page('u3-s02', {
       bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. Read the lines. Say it. Then change places.',
       scene: 'u3-3-2-pair',
       roles: [{
@@ -131,6 +147,7 @@ PBE1.page('u3-s02', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '3.2.3R',
       bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -151,6 +168,7 @@ PBE1.page('u3-s02', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '3.2.4',
       bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -186,6 +204,7 @@ PBE1.page('u3-s02', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '3.2.4R',
       bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -215,6 +234,7 @@ PBE1.page('u3-s02', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '3.2.5',
       bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -239,19 +259,30 @@ PBE1.page('u3-s02', {
             q: 'What time is the break?',
             model: 'Half past ten',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['half',
+              'past'],
+            need: 1
           },
       {
             q: 'What time does the lorry come?',
             model: 'Quarter past seven',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['quarter',
+              'past'],
+            need: 1
           },
       {
             q: 'Why is every time written two ways?',
             model: 'Because some men read the numbers and some read the words',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['because',
+              'men',
+              'numbers',
+              'words'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -261,6 +292,7 @@ PBE1.page('u3-s02', {
       bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a times notice for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -293,6 +325,7 @@ PBE1.page('u3-s02', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '3.2.6P',
       bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -332,6 +365,7 @@ PBE1.page('u3-s02', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '3.2.6R',
       bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -350,6 +384,7 @@ PBE1.page('u3-s02', {
       bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about your times at work (<b>20 to 35 words</b>). When do you start? '
   + 'When is your break? When do you finish?',
       minWords: 20,
@@ -385,6 +420,7 @@ PBE1.page('u3-s02', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '3.2.7P',
       bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -414,6 +450,7 @@ PBE1.page('u3-s02', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '3.2.7R',
       bookRef: 'Unit 3 · 3.2 · Lesson B · Writing · Share',
       type: 'discuss',

@@ -686,6 +686,25 @@
       '<div class="card-head-text"><h2>' + U.esc(card.title || '') + '</h2>' +
       (card.sub ? '<div class="sub">' + U.esc(card.sub) + '</div>' : '') + '</div>';
 
+    /* WHAT KIND OF CARD THIS IS, said out loud. See the patch note in
+       tools/course_engine.py. The learner cannot otherwise tell a card
+       that marks them from one that only saves what they typed. */
+    var KIND = {
+      answer: ['has a right answer', 'k-answer'],
+      model: ['compare with the model', 'k-model'],
+      own: ['your own answer', 'k-own']
+    };
+    if (card.kind && KIND[card.kind]) {
+      var kd = U.el('span', 'card-kind ' + KIND[card.kind][1],
+                    U.esc(KIND[card.kind][0]));
+      kd.setAttribute('title', 'This card ' + (card.kind === 'own'
+        ? 'saves what you write - there is no single right answer.'
+        : card.kind === 'model'
+          ? 'saves what you write, then shows the book\'s answer to compare with.'
+          : 'checks your answer against the book\'s.'));
+      head.querySelector('.card-head-text').appendChild(kd);
+    }
+
     /* Both heading buttons sit at the right-hand end, and ONE spacer
        pushes them there however many of them a card has. The Arabic
        guide comes first and the worked example stays last, because

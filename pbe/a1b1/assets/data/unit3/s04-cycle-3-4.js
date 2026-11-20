@@ -9,6 +9,7 @@ PBE1.page('u3-s04', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '3.4.1',
       bookRef: 'Unit 3 · 3.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -33,6 +34,7 @@ PBE1.page('u3-s04', {
       bookRef: 'Unit 3 · 3.4 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u3-3-4',
       passage: {
@@ -67,23 +69,27 @@ PBE1.page('u3-s04', {
             q: 'Books closed. Listen. Who starts earliest?',
             options: [{
               t: 'Ammar',
-              ok: false
+              ok: false,
+              why: 'He is at the gate at seven - an hour after somebody else.'
             },
             {
               t: 'Fadi',
               ok: true,
-              why: 'Fadi, at six'
+              why: 'He starts at six, an hour before Ammar.'
             },
             {
               t: 'Majd',
-              ok: false
-            }]
+              ok: false,
+              why: 'Majd opens the counter at eight, the latest of the three.'
+            }],
+            evidence: 'the line comparing Fadi\'s start with Ammar\'s'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '3.4.2',
       bookRef: 'Unit 3 · 3.4 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -99,7 +105,10 @@ PBE1.page('u3-s04', {
             q: 'What does Majd do first?',
             model: 'He counts the money',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['counts',
+              'money'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -109,6 +118,7 @@ PBE1.page('u3-s04', {
       bookRef: 'Unit 3 · 3.4 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One asks. One says what the person does. Then change places.',
       scene: 'u3-3-4-pair',
       roles: [{
@@ -131,6 +141,7 @@ PBE1.page('u3-s04', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '3.4.3R',
       bookRef: 'Unit 3 · 3.4 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -151,6 +162,7 @@ PBE1.page('u3-s04', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '3.4.4',
       bookRef: 'Unit 3 · 3.4 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -185,6 +197,7 @@ PBE1.page('u3-s04', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '3.4.4R',
       bookRef: 'Unit 3 · 3.4 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -212,6 +225,7 @@ PBE1.page('u3-s04', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '3.4.5',
       bookRef: 'Unit 3 · 3.4 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -243,7 +257,10 @@ PBE1.page('u3-s04', {
             q: 'What does Majd do before he opens the counter?',
             model: 'He counts the money',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['counts',
+              'money'],
+            need: 1
           },
       {
             q: 'Which day does Samih count?',
@@ -259,6 +276,7 @@ PBE1.page('u3-s04', {
       bookRef: 'Unit 3 · 3.4 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a who-does-what page for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -290,6 +308,7 @@ PBE1.page('u3-s04', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '3.4.6P',
       bookRef: 'Unit 3 · 3.4 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -327,6 +346,7 @@ PBE1.page('u3-s04', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '3.4.6R',
       bookRef: 'Unit 3 · 3.4 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -345,6 +365,7 @@ PBE1.page('u3-s04', {
       bookRef: 'Unit 3 · 3.4 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about one person at your work (<b>20 to 35 words</b>). What time do '
   + 'they start? What do they do first? What do they do that nobody else does?',
       minWords: 20,
@@ -380,6 +401,7 @@ PBE1.page('u3-s04', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '3.4.7P',
       bookRef: 'Unit 3 · 3.4 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -408,6 +430,7 @@ PBE1.page('u3-s04', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '3.4.7R',
       bookRef: 'Unit 3 · 3.4 · Lesson B · Writing · Share',
       type: 'discuss',

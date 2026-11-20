@@ -68,9 +68,20 @@
     { k: 'fixes', t: 'The two or three corrections that matter most' }
   ];
 
+  /* WHO THE LEARNER IS, read from the course rather than fixed here.
+     See the patch note in tools/course_engine.py. */
+  var LEARNER_DEFAULT =
+    'a CEFR B1 learner of English who works in finance for an NGO';
+  function learner() {
+    var NS = w.FMS || {};
+    return (NS.COURSE && NS.COURSE.learner) || LEARNER_DEFAULT;
+  }
+  var LEVEL_RULE =
+    ' Never ask for language above that learner\'s level, and never rewrite their\n' +
+    'English into a higher level than the course teaches.';
   var SYSTEM =
-    'You are a careful, kind writing tutor for a CEFR B1 learner of English who works ' +
-    'in finance for an NGO. You are given a writing task, the grammar point the unit ' +
+    'You are a careful, kind writing tutor for ' + learner() + '.' +
+    LEVEL_RULE + ' You are given a writing task, the grammar point the unit ' +
     'teaches, who the piece is written for, a list of things the piece must contain, ' +
     'and often the coursebook’s own model answer. Then you are given what the ' +
     'learner wrote.\n\n' +

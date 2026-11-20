@@ -9,6 +9,7 @@ PBE1.page('u1-s02', {
   cards: [
     {
       id: 'c1',
+      kind: 'model',
       ref: '1.2.1',
       bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -36,6 +37,7 @@ PBE1.page('u1-s02', {
       bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u1-1-2',
       passage: {
@@ -61,22 +63,29 @@ PBE1.page('u1-s02', {
             q: 'Books closed. Listen. What is the problem?',
             options: [{
               t: 'Ammar is late',
-              ok: false
+              ok: false,
+              why: 'He arrives before seven - Abu Raed tells him he is early, and '
+                + 'that it is good.'
             },
             {
               t: 'Abu Raed cannot write the name',
-              ok: true
+              ok: true,
+              why: 'He hears it but cannot spell it, which is why he asks for the letters.'
             },
             {
               t: 'the gate is closed',
-              ok: false
-            }]
+              ok: false,
+              why: 'The gate is not mentioned as closed; the difficulty is the '
+                + 'name, not the gate.'
+            }],
+            evidence: 'the lines where Abu Raed asks for the name a second time'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '1.2.2',
       bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -92,7 +101,11 @@ PBE1.page('u1-s02', {
             q: 'What does Abu Raed write in the book?',
             model: 'He writes the name in Arabic letters',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['name',
+              'arabic',
+              'letters'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -102,6 +115,7 @@ PBE1.page('u1-s02', {
       bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. Read the lines. Say it. Then change places.',
       scene: 'u1-1-2-pair',
       roles: [{
@@ -124,6 +138,7 @@ PBE1.page('u1-s02', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '1.2.3R',
       bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -144,6 +159,7 @@ PBE1.page('u1-s02', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '1.2.4',
       bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -176,6 +192,7 @@ PBE1.page('u1-s02', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '1.2.4R',
       bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -203,6 +220,7 @@ PBE1.page('u1-s02', {
     },
     {
       id: 'c8',
+      kind: 'model',
       ref: '1.2.5',
       bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -245,6 +263,7 @@ PBE1.page('u1-s02', {
       bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write your own badge (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -275,6 +294,7 @@ PBE1.page('u1-s02', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '1.2.6P',
       bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -310,6 +330,7 @@ PBE1.page('u1-s02', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '1.2.6R',
       bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -329,6 +350,7 @@ PBE1.page('u1-s02', {
       bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a name that is hard to spell (<b>20 to 35 words</b>). Whose name '
   + 'is it? How many letters? Which letter is the problem?',
       minWords: 20,
@@ -362,6 +384,7 @@ PBE1.page('u1-s02', {
     },
     {
       id: 'c13',
+      kind: 'own',
       ref: '1.2.7P',
       bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -389,6 +412,7 @@ PBE1.page('u1-s02', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '1.2.7R',
       bookRef: 'Unit 1 · 1.2 · Lesson B · Writing · Share',
       type: 'discuss',

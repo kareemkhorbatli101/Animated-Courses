@@ -9,6 +9,7 @@ PBE1.page('u1-s03', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '1.3.1',
       bookRef: 'Unit 1 · 1.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u1-s03', {
       bookRef: 'Unit 1 · 1.3 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u1-1-3',
       passage: {
@@ -65,22 +67,27 @@ PBE1.page('u1-s03', {
             q: 'Books closed. Listen. What does Ammar find?',
             options: [{
               t: 'his badge',
-              ok: false
+              ok: false,
+              why: 'A badge is never mentioned in this scene.'
             },
             {
               t: 'his name on the shift list',
-              ok: true
+              ok: true,
+              why: 'He reads down the list and finds his own name on it.'
             },
             {
               t: 'the store key',
-              ok: false
-            }]
+              ok: false,
+              why: 'The key belongs to a different cycle - nobody hands one over here.'
+            }],
+            evidence: 'what Ammar looks at, and what he says when he sees it'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '1.3.2',
       bookRef: 'Unit 1 · 1.3 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -96,7 +103,10 @@ PBE1.page('u1-s03', {
             q: 'Which shift is Ammar on?',
             model: 'The morning shift, seven to four',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['morning',
+              'shift'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -106,6 +116,7 @@ PBE1.page('u1-s03', {
       bookRef: 'Unit 1 · 1.3 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One person points. One person says. Then change places.',
       scene: 'u1-1-3-pair',
       roles: [{
@@ -128,6 +139,7 @@ PBE1.page('u1-s03', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '1.3.3R',
       bookRef: 'Unit 1 · 1.3 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -148,6 +160,7 @@ PBE1.page('u1-s03', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '1.3.4',
       bookRef: 'Unit 1 · 1.3 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -180,6 +193,7 @@ PBE1.page('u1-s03', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '1.3.4R',
       bookRef: 'Unit 1 · 1.3 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -207,6 +221,7 @@ PBE1.page('u1-s03', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '1.3.5',
       bookRef: 'Unit 1 · 1.3 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -237,13 +252,21 @@ PBE1.page('u1-s03', {
             q: 'Who is on the afternoon shift?',
             model: 'Hani Deeb and Omar Sibai',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['hani',
+              'deeb',
+              'omar',
+              'sibai'],
+            need: 1
           },
       {
             q: 'Which week is this list for?',
             model: 'The week of 4 March',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['march',
+              'week'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -253,6 +276,7 @@ PBE1.page('u1-s03', {
       bookRef: 'Unit 1 · 1.3 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a shift list for four people at your work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -285,6 +309,7 @@ PBE1.page('u1-s03', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '1.3.6P',
       bookRef: 'Unit 1 · 1.3 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -320,6 +345,7 @@ PBE1.page('u1-s03', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '1.3.6R',
       bookRef: 'Unit 1 · 1.3 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -338,6 +364,7 @@ PBE1.page('u1-s03', {
       bookRef: 'Unit 1 · 1.3 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a list at your work (<b>20 to 35 words</b>). What list is it? '
   + 'Where is it? Is your name on it?',
       minWords: 20,
@@ -372,6 +399,7 @@ PBE1.page('u1-s03', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '1.3.7P',
       bookRef: 'Unit 1 · 1.3 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -399,6 +427,7 @@ PBE1.page('u1-s03', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '1.3.7R',
       bookRef: 'Unit 1 · 1.3 · Lesson B · Writing · Share',
       type: 'discuss',

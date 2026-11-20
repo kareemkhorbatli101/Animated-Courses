@@ -9,6 +9,7 @@ PBE1.page('u4-s02', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '4.2.1',
       bookRef: 'Unit 4 · 4.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -33,6 +34,7 @@ PBE1.page('u4-s02', {
       bookRef: 'Unit 4 · 4.2 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u4-4-2',
       passage: {
@@ -73,23 +75,27 @@ PBE1.page('u4-s02', {
             q: 'Books closed. Listen. Which row are the cartons in?',
             options: [{
               t: 'row 1',
-              ok: false
+              ok: false,
+              why: 'Row one is the first from the door - they walk past it.'
             },
             {
               t: 'row 3',
               ok: true,
-              why: 'row 3'
+              why: 'The third row counted from the door.'
             },
             {
               t: 'row 7',
-              ok: false
-            }]
+              ok: false,
+              why: 'There are four shelves in a row, and fewer rows than seven.'
+            }],
+            evidence: 'how the rows are counted, and from where'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'model',
       ref: '4.2.2',
       bookRef: 'Unit 4 · 4.2 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -115,6 +121,7 @@ PBE1.page('u4-s02', {
       bookRef: 'Unit 4 · 4.2 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One gives an address. One says it back. Then change places.',
       scene: 'u4-4-2-pair',
       roles: [{
@@ -137,6 +144,7 @@ PBE1.page('u4-s02', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '4.2.3R',
       bookRef: 'Unit 4 · 4.2 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -157,6 +165,7 @@ PBE1.page('u4-s02', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '4.2.4',
       bookRef: 'Unit 4 · 4.2 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -194,6 +203,7 @@ PBE1.page('u4-s02', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '4.2.4R',
       bookRef: 'Unit 4 · 4.2 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -225,6 +235,7 @@ PBE1.page('u4-s02', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '4.2.5',
       bookRef: 'Unit 4 · 4.2 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -264,7 +275,10 @@ PBE1.page('u4-s02', {
             q: 'Where are the rolls?',
             model: 'Row 2, shelves 1 and 2',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['row',
+              'shelves'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -274,6 +288,7 @@ PBE1.page('u4-s02', {
       bookRef: 'Unit 4 · 4.2 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a shelf list for your own store (<b>15 words or more</b>). Use a table '
   + 'with the row down the side and the shelf across the top.',
       minWords: 15,
@@ -320,6 +335,7 @@ PBE1.page('u4-s02', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '4.2.6P',
       bookRef: 'Unit 4 · 4.2 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -361,6 +377,7 @@ PBE1.page('u4-s02', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '4.2.6R',
       bookRef: 'Unit 4 · 4.2 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -379,6 +396,7 @@ PBE1.page('u4-s02', {
       bookRef: 'Unit 4 · 4.2 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about your store (<b>20 to 35 words</b>). How many rows? How many '
   + 'shelves? Which shelf is the heavy one? Which is empty?',
       minWords: 20,
@@ -419,6 +437,7 @@ PBE1.page('u4-s02', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '4.2.7P',
       bookRef: 'Unit 4 · 4.2 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -451,6 +470,7 @@ PBE1.page('u4-s02', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '4.2.7R',
       bookRef: 'Unit 4 · 4.2 · Lesson B · Writing · Share',
       type: 'discuss',

@@ -9,6 +9,7 @@ PBE1.page('u4-s06', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '4.6.1',
       bookRef: 'Unit 4 · 4.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -32,6 +33,7 @@ PBE1.page('u4-s06', {
       bookRef: 'Unit 4 · 4.6 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u4-4-6',
       passage: {
@@ -70,23 +72,28 @@ PBE1.page('u4-s06', {
             q: 'Books closed. Listen. Does Ammar use the ladder?',
             options: [{
               t: 'yes',
-              ok: false
+              ok: false,
+              why: 'He cannot - the ladder is not next to the bench.'
             },
             {
               t: 'no',
-              ok: false
+              ok: false,
+              why: 'True as far as it goes, but it misses what he does instead.'
             },
             {
               t: 'no, he asks for help',
               ok: true,
-              why: 'no, he asks for help, and in the end puts them lower'
-            }]
+              why: 'The ladder is in the yard, so he puts them lower and says he '
+                + 'will move them.'
+            }],
+            evidence: 'what Ammar says he will do instead of standing on a carton'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '4.6.2',
       bookRef: 'Unit 4 · 4.6 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -102,7 +109,11 @@ PBE1.page('u4-s06', {
             q: 'Where is the ladder?',
             model: 'In the yard — not next to the bench, where it should be',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            keys: ['yard',
+              'next',
+              'bench'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -112,6 +123,7 @@ PBE1.page('u4-s06', {
       bookRef: 'Unit 4 · 4.6 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One gives a job. One says what they can and cannot do. Then '
   + 'change places.',
       scene: 'u4-4-6-pair',
@@ -137,6 +149,7 @@ PBE1.page('u4-s06', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '4.6.3R',
       bookRef: 'Unit 4 · 4.6 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -157,6 +170,7 @@ PBE1.page('u4-s06', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '4.6.4',
       bookRef: 'Unit 4 · 4.6 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -193,6 +207,7 @@ PBE1.page('u4-s06', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '4.6.4R',
       bookRef: 'Unit 4 · 4.6 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -224,6 +239,7 @@ PBE1.page('u4-s06', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '4.6.5',
       bookRef: 'Unit 4 · 4.6 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -252,7 +268,11 @@ PBE1.page('u4-s06', {
             q: 'Where does the ladder live?',
             model: 'Next to the long bench',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['next',
+              'long',
+              'bench'],
+            need: 1
           },
       {
             q: 'How many men use it?',
@@ -264,7 +284,11 @@ PBE1.page('u4-s06', {
             q: 'What do you do if it is not there?',
             model: 'Put the thing on shelf 3 and tell the supervisor',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['thing',
+              'shelf',
+              'supervisor'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -274,6 +298,7 @@ PBE1.page('u4-s06', {
       bookRef: 'Unit 4 · 4.6 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a safety paper for one thing at your work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -311,6 +336,7 @@ PBE1.page('u4-s06', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '4.6.6P',
       bookRef: 'Unit 4 · 4.6 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -352,6 +378,7 @@ PBE1.page('u4-s06', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '4.6.6R',
       bookRef: 'Unit 4 · 4.6 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -370,6 +397,7 @@ PBE1.page('u4-s06', {
       bookRef: 'Unit 4 · 4.6 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about something at your work you cannot do alone (<b>20 to 35 '
   + 'words</b>). What is it? What do you need? What do people do instead when it '
   + 'is not there?',
@@ -414,6 +442,7 @@ PBE1.page('u4-s06', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '4.6.7P',
       bookRef: 'Unit 4 · 4.6 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -445,6 +474,7 @@ PBE1.page('u4-s06', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '4.6.7R',
       bookRef: 'Unit 4 · 4.6 · Lesson B · Writing · Share',
       type: 'discuss',

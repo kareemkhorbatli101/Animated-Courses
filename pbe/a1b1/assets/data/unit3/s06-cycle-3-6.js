@@ -9,6 +9,7 @@ PBE1.page('u3-s06', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '3.6.1',
       bookRef: 'Unit 3 · 3.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u3-s06', {
       bookRef: 'Unit 3 · 3.6 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u3-3-6',
       passage: {
@@ -67,23 +69,27 @@ PBE1.page('u3-s06', {
             q: 'Books closed. Listen. How late is Ammar?',
             options: [{
               t: 'ten minutes',
-              ok: false
+              ok: false,
+              why: 'Less than he says.'
             },
             {
               t: 'twenty minutes',
               ok: true,
-              why: 'twenty minutes'
+              why: 'He says twenty minutes and gives the reason in the same breath.'
             },
             {
               t: 'an hour',
-              ok: false
-            }]
+              ok: false,
+              why: 'Much more than he says - the lorry had only just been dealt with.'
+            }],
+            evidence: 'Ammar\'s first line, where he says the time and the reason'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '3.6.2',
       bookRef: 'Unit 3 · 3.6 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -93,13 +99,20 @@ PBE1.page('u3-s06', {
             q: 'Listen again. Why is he late?',
             model: 'The road was closed at Jaramana',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['road',
+              'closed',
+              'jaramana'],
+            need: 1
           },
       {
             q: 'What does Abu Yasser ask him to do next time?',
             model: 'Telephone — from the road',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['telephone',
+              'road'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -109,6 +122,7 @@ PBE1.page('u3-s06', {
       bookRef: 'Unit 3 · 3.6 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One is late. One is the supervisor. Then change places.',
       scene: 'u3-3-6-pair',
       roles: [{
@@ -131,6 +145,7 @@ PBE1.page('u3-s06', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '3.6.3R',
       bookRef: 'Unit 3 · 3.6 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -151,6 +166,7 @@ PBE1.page('u3-s06', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '3.6.4',
       bookRef: 'Unit 3 · 3.6 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -186,6 +202,7 @@ PBE1.page('u3-s06', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '3.6.4R',
       bookRef: 'Unit 3 · 3.6 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -215,6 +232,7 @@ PBE1.page('u3-s06', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '3.6.5',
       bookRef: 'Unit 3 · 3.6 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -237,7 +255,10 @@ PBE1.page('u3-s06', {
             q: 'How late was he?',
             model: 'Twenty-five minutes',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['twenty-five',
+              'minutes'],
+            need: 1
           },
       {
             q: 'Who took the lorry?',
@@ -249,7 +270,10 @@ PBE1.page('u3-s06', {
             q: 'What will he do next time?',
             model: 'Telephone from the road',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['telephone',
+              'road'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -259,6 +283,7 @@ PBE1.page('u3-s06', {
       bookRef: 'Unit 3 · 3.6 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a late note for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -291,6 +316,7 @@ PBE1.page('u3-s06', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '3.6.6P',
       bookRef: 'Unit 3 · 3.6 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -329,6 +355,7 @@ PBE1.page('u3-s06', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '3.6.6R',
       bookRef: 'Unit 3 · 3.6 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -347,6 +374,7 @@ PBE1.page('u3-s06', {
       bookRef: 'Unit 3 · 3.6 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a day you were late (<b>20 to 35 words</b>). How late? Why? Who '
   + 'did your job? What do you do now?',
       minWords: 20,
@@ -383,6 +411,7 @@ PBE1.page('u3-s06', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '3.6.7P',
       bookRef: 'Unit 3 · 3.6 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -411,6 +440,7 @@ PBE1.page('u3-s06', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '3.6.7R',
       bookRef: 'Unit 3 · 3.6 · Lesson B · Writing · Share',
       type: 'discuss',

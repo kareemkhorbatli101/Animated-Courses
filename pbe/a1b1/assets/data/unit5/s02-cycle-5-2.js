@@ -9,6 +9,7 @@ PBE1.page('u5-s02', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '5.2.1',
       bookRef: 'Unit 5 · 5.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -32,6 +33,7 @@ PBE1.page('u5-s02', {
       bookRef: 'Unit 5 · 5.2 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u5-5-2',
       passage: {
@@ -68,23 +70,27 @@ PBE1.page('u5-s02', {
             q: 'Books closed. Listen. What is the date on the note?',
             options: [{
               t: '3 April',
-              ok: false
+              ok: false,
+              why: 'That is how the same six numbers would read in America.'
             },
             {
               t: '4 March',
               ok: true,
-              why: '4 March'
+              why: 'The note came from Beirut, where the day is written first.'
             },
             {
               t: '4 April',
-              ok: false
-            }]
+              ok: false,
+              why: 'Neither reading gives April the fourth.'
+            }],
+            evidence: 'the exchange about day first or month first'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '5.2.2',
       bookRef: 'Unit 5 · 5.2 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -100,7 +106,11 @@ PBE1.page('u5-s02', {
             q: 'What does Nour tell Ammar to write?',
             model: 'The month in letters, on his own sheet',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['month',
+              'letters',
+              'sheet'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -110,6 +120,7 @@ PBE1.page('u5-s02', {
       bookRef: 'Unit 5 · 5.2 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One asks. One answers. Then change places.',
       scene: 'u5-5-2-pair',
       roles: [{
@@ -133,6 +144,7 @@ PBE1.page('u5-s02', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '5.2.3R',
       bookRef: 'Unit 5 · 5.2 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -153,6 +165,7 @@ PBE1.page('u5-s02', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '5.2.4',
       bookRef: 'Unit 5 · 5.2 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -191,6 +204,7 @@ PBE1.page('u5-s02', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '5.2.4R',
       bookRef: 'Unit 5 · 5.2 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -221,6 +235,7 @@ PBE1.page('u5-s02', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '5.2.5',
       bookRef: 'Unit 5 · 5.2 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -248,20 +263,31 @@ PBE1.page('u5-s02', {
             q: 'What date did the company send the goods?',
             model: '4 March 2026',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['march',
+              '2026'],
+            need: 1
           },
       {
             q: 'Why did Nour write on the back?',
             model: 'So the next reader knows HOW she worked the date out, and does '
               + 'not work it out differently',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            keys: ['next',
+              'reader',
+              'knows',
+              'worked'],
+            need: 1
           },
       {
             q: 'What two things are empty on this note?',
             model: 'Received by and Date received',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['received',
+              'date'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -271,6 +297,7 @@ PBE1.page('u5-s02', {
       bookRef: 'Unit 5 · 5.2 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write the top of a delivery note for your own work, and fill in the two '
   + 'empty lines (<b>15 words or more</b>).',
       minWords: 15,
@@ -310,6 +337,7 @@ PBE1.page('u5-s02', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '5.2.6P',
       bookRef: 'Unit 5 · 5.2 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -351,6 +379,7 @@ PBE1.page('u5-s02', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '5.2.6R',
       bookRef: 'Unit 5 · 5.2 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -370,6 +399,7 @@ PBE1.page('u5-s02', {
       bookRef: 'Unit 5 · 5.2 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about dates at your work (<b>20 to 35 words</b>). How are they '
   + 'written? Has a date ever been read the wrong way? What happened?',
       minWords: 20,
@@ -410,6 +440,7 @@ PBE1.page('u5-s02', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '5.2.7P',
       bookRef: 'Unit 5 · 5.2 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -442,6 +473,7 @@ PBE1.page('u5-s02', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '5.2.7R',
       bookRef: 'Unit 5 · 5.2 · Lesson B · Writing · Share',
       type: 'discuss',

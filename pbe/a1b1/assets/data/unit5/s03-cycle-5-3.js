@@ -9,6 +9,7 @@ PBE1.page('u5-s03', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '5.3.1',
       bookRef: 'Unit 5 · 5.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -33,6 +34,7 @@ PBE1.page('u5-s03', {
       bookRef: 'Unit 5 · 5.3 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u5-5-3',
       passage: {
@@ -69,23 +71,27 @@ PBE1.page('u5-s03', {
             q: 'Books closed. Listen. What came off the lorry?',
             options: [{
               t: '12 boxes',
-              ok: false
+              ok: false,
+              why: 'True but incomplete - the pallets are the part the paper left out.'
             },
             {
               t: '12 pallets',
-              ok: false
+              ok: false,
+              why: 'Twelve is the box count, not the pallet count.'
             },
             {
               t: '12 boxes on 3 pallets',
               ok: true,
-              why: '12 boxes on 3 pallets'
-            }]
+              why: 'Twelve boxes, four on each of three pallets.'
+            }],
+            evidence: 'the driver\'s answer when asked twelve WHAT'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '5.3.2',
       bookRef: 'Unit 5 · 5.3 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -101,7 +107,11 @@ PBE1.page('u5-s03', {
             q: 'What does Ammar count?',
             model: 'Twelve boxes — not the three pallets',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['twelve',
+              'boxes',
+              'pallets'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -111,6 +121,7 @@ PBE1.page('u5-s03', {
       bookRef: 'Unit 5 · 5.3 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One is the driver. One is the storeman. Then change places.',
       scene: 'u5-5-3-pair',
       roles: [{
@@ -133,6 +144,7 @@ PBE1.page('u5-s03', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '5.3.3R',
       bookRef: 'Unit 5 · 5.3 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -153,6 +165,7 @@ PBE1.page('u5-s03', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '5.3.4',
       bookRef: 'Unit 5 · 5.3 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -189,6 +202,7 @@ PBE1.page('u5-s03', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '5.3.4R',
       bookRef: 'Unit 5 · 5.3 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -218,6 +232,7 @@ PBE1.page('u5-s03', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '5.3.5',
       bookRef: 'Unit 5 · 5.3 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -249,14 +264,24 @@ PBE1.page('u5-s03', {
             q: 'How many boxes of labels altogether?',
             model: 'Sixteen — twelve white and four yellow',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['sixteen',
+              'twelve',
+              'white',
+              'yellow'],
+            need: 1
           },
       {
             q: 'Why does the note say count the boxes, not the lines?',
             model: 'Because four lines can hold sixteen boxes, and a man who counts '
               + 'the lines counts four',
             minWords: 5,
-            rows: 2
+            rows: 2,
+            keys: ['because',
+              'hold',
+              'sixteen',
+              'man'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -266,6 +291,7 @@ PBE1.page('u5-s03', {
       bookRef: 'Unit 5 · 5.3 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write the goods lines of a delivery note for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -305,6 +331,7 @@ PBE1.page('u5-s03', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '5.3.6P',
       bookRef: 'Unit 5 · 5.3 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -345,6 +372,7 @@ PBE1.page('u5-s03', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '5.3.6R',
       bookRef: 'Unit 5 · 5.3 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -363,6 +391,7 @@ PBE1.page('u5-s03', {
       bookRef: 'Unit 5 · 5.3 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about the quantities at your work (<b>20 to 35 words</b>). What unit '
   + 'do you count in? Has a number ever been counted in the wrong unit? What '
   + 'happened?',
@@ -404,6 +433,7 @@ PBE1.page('u5-s03', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '5.3.7P',
       bookRef: 'Unit 5 · 5.3 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -434,6 +464,7 @@ PBE1.page('u5-s03', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '5.3.7R',
       bookRef: 'Unit 5 · 5.3 · Lesson B · Writing · Share',
       type: 'discuss',

@@ -9,6 +9,7 @@ PBE1.page('u1-s06', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '1.6.1',
       bookRef: 'Unit 1 · 1.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u1-s06', {
       bookRef: 'Unit 1 · 1.6 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u1-1-6',
       passage: {
@@ -68,22 +70,27 @@ PBE1.page('u1-s06', {
             q: 'Books closed. Listen. What does Abu Yasser say at the end?',
             options: [{
               t: 'go home',
-              ok: false
+              ok: false,
+              why: 'Nobody is sent home - the day is still going on.'
             },
             {
               t: 'ask again, always',
-              ok: true
+              ok: true,
+              why: 'He tells him to keep asking rather than guess.'
             },
             {
               t: 'you are late',
-              ok: false
-            }]
+              ok: false,
+              why: 'He was early. Being late is a different cycle.'
+            }],
+            evidence: 'Abu Yasser\'s last line, after Ammar apologises'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'model',
       ref: '1.6.2',
       bookRef: 'Unit 1 · 1.6 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -109,6 +116,7 @@ PBE1.page('u1-s06', {
       bookRef: 'Unit 1 · 1.6 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. A speaks fast. B asks. Then change places.',
       scene: 'u1-1-6-pair',
       roles: [{
@@ -131,6 +139,7 @@ PBE1.page('u1-s06', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '1.6.3R',
       bookRef: 'Unit 1 · 1.6 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -151,6 +160,7 @@ PBE1.page('u1-s06', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '1.6.4',
       bookRef: 'Unit 1 · 1.6 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -187,6 +197,7 @@ PBE1.page('u1-s06', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '1.6.4R',
       bookRef: 'Unit 1 · 1.6 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -216,6 +227,7 @@ PBE1.page('u1-s06', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '1.6.5',
       bookRef: 'Unit 1 · 1.6 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -243,13 +255,22 @@ PBE1.page('u1-s06', {
             q: 'What must Ammar do if the shelf is full?',
             model: 'Ask Abu Yasser. Do not put them somewhere else',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['ask',
+              'abu',
+              'yasser',
+              'somewhere'],
+            need: 1
           },
       {
             q: 'Who wrote the paper?',
             model: 'Abu Yasser — the initials A.Y',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['abu',
+              'yasser',
+              'initials'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -259,6 +280,7 @@ PBE1.page('u1-s06', {
       bookRef: 'Unit 1 · 1.6 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a paper for one person at your work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -291,6 +313,7 @@ PBE1.page('u1-s06', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '1.6.6P',
       bookRef: 'Unit 1 · 1.6 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -327,6 +350,7 @@ PBE1.page('u1-s06', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '1.6.6R',
       bookRef: 'Unit 1 · 1.6 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -345,6 +369,7 @@ PBE1.page('u1-s06', {
       bookRef: 'Unit 1 · 1.6 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a time you did not understand at work (<b>20 to 35 words</b>). '
   + 'What was it? What did you do? What happened?',
       minWords: 20,
@@ -381,6 +406,7 @@ PBE1.page('u1-s06', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '1.6.7P',
       bookRef: 'Unit 1 · 1.6 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -409,6 +435,7 @@ PBE1.page('u1-s06', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '1.6.7R',
       bookRef: 'Unit 1 · 1.6 · Lesson B · Writing · Share',
       type: 'discuss',

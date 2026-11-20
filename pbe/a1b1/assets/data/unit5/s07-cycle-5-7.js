@@ -9,6 +9,7 @@ PBE1.page('u5-s07', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '5.7.1',
       bookRef: 'Unit 5 · 5.7 · Lesson A · Speaking · Get ready – Unit 5 quiz',
       type: 'discuss',
@@ -42,6 +43,7 @@ PBE1.page('u5-s07', {
       bookRef: 'Unit 5 · 5.7 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u5-5-7',
       passage: {
@@ -75,23 +77,27 @@ PBE1.page('u5-s07', {
             q: 'Books closed. Listen. What does the driver want?',
             options: [{
               t: 'to be paid',
-              ok: false
+              ok: false,
+              why: 'Money is never mentioned - he is a driver, not a seller.'
             },
             {
               t: 'a signature before the count',
               ok: true,
-              why: 'a signature before the count'
+              why: 'He wants it signed now; the count is what takes the four minutes.'
             },
             {
               t: 'to leave the pallets outside',
-              ok: false
-            }]
+              ok: false,
+              why: 'He wants to leave, but not to leave them outside.'
+            }],
+            evidence: 'the driver\'s first line, and the road that closes at two'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '5.7.2',
       bookRef: 'Unit 5 · 5.7 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -107,12 +113,18 @@ PBE1.page('u5-s07', {
             q: 'What has happened to Ammar before?',
             model: 'He signed for sixteen last month, got fifteen, and it came off his name',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            keys: ['signed',
+              'sixteen',
+              'last',
+              'month'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c4',
+      kind: 'own',
       ref: '5.7.3',
       bookRef: 'Unit 5 · 5.7 · Lesson A · Speaking · Practise',
       type: 'discuss',
@@ -136,6 +148,7 @@ PBE1.page('u5-s07', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '5.7.3R',
       bookRef: 'Unit 5 · 5.7 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -150,6 +163,7 @@ PBE1.page('u5-s07', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '5.7.4',
       bookRef: 'Unit 5 · 5.7 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -193,6 +207,7 @@ PBE1.page('u5-s07', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '5.7.4R',
       bookRef: 'Unit 5 · 5.7 · Lesson A · Speaking · Report – everybody is right',
       type: 'discuss',
@@ -245,6 +260,7 @@ PBE1.page('u5-s07', {
     },
     {
       id: 'c8',
+      kind: 'own',
       ref: '5.7.5',
       bookRef: 'Unit 5 · 5.7 · Lesson B · Writing · Read – exam practice (A2 Key Reading '
   + 'Part 1, at A1 length)',
@@ -287,6 +303,7 @@ PBE1.page('u5-s07', {
       bookRef: 'Unit 5 · 5.7 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a message about a short delivery (<b>four sentences, about 30 '
   + 'words</b>). Say the paper number, what you counted, which line, and what you '
   + 'want.',
@@ -330,6 +347,7 @@ PBE1.page('u5-s07', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '5.7.6P',
       bookRef: 'Unit 5 · 5.7 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -366,6 +384,7 @@ PBE1.page('u5-s07', {
   + 'Writing Part 6, at A1 length)',
       type: 'writer',
       title: 'Write freely – exam practice (A2 Key Writing Part 6, at A1 length)',
+      kind: 'model',
       instruction: 'Write a message to the office about a delivery that was wrong (<b>four '
   + 'sentences, about 30 words</b>). The note number, the two quantities, the '
   + 'line, and what you want done.',
@@ -419,6 +438,7 @@ PBE1.page('u5-s07', {
       bookRef: 'Unit 5 · 5.7 · Lesson B · Writing · Unit 5 check',
       type: 'scene',
       title: 'Unit 5 check',
+      kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u5-5-7'
     }

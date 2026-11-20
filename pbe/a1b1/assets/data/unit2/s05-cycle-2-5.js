@@ -9,6 +9,7 @@ PBE1.page('u2-s05', {
   cards: [
     {
       id: 'c1',
+      kind: 'model',
       ref: '2.5.1',
       bookRef: 'Unit 2 · 2.5 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -35,6 +36,7 @@ PBE1.page('u2-s05', {
       bookRef: 'Unit 2 · 2.5 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u2-2-5',
       passage: {
@@ -70,22 +72,27 @@ PBE1.page('u2-s05', {
             q: 'Books closed. Listen. What saves the order?',
             options: [{
               t: 'Ammar reads the number back',
-              ok: true
+              ok: true,
+              why: 'Reading it back catches sixty against sixteen before the lorry leaves.'
             },
             {
               t: 'Fadi writes it down',
-              ok: false
+              ok: false,
+              why: 'Writing it down alone would have written the wrong number down.'
             },
             {
               t: 'nothing',
-              ok: false
-            }]
+              ok: false,
+              why: 'Something does save it - listen to what Ammar says next.'
+            }],
+            evidence: 'what Ammar does after the order is given'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'model',
       ref: '2.5.2',
       bookRef: 'Unit 2 · 2.5 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -111,6 +118,7 @@ PBE1.page('u2-s05', {
       bookRef: 'Unit 2 · 2.5 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. A gives an order. B writes it and reads it back. Then change places.',
       scene: 'u2-2-5-pair',
       roles: [{
@@ -133,6 +141,7 @@ PBE1.page('u2-s05', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '2.5.3R',
       bookRef: 'Unit 2 · 2.5 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -153,6 +162,7 @@ PBE1.page('u2-s05', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '2.5.4',
       bookRef: 'Unit 2 · 2.5 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -190,6 +200,7 @@ PBE1.page('u2-s05', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '2.5.4R',
       bookRef: 'Unit 2 · 2.5 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -219,6 +230,7 @@ PBE1.page('u2-s05', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '2.5.5',
       bookRef: 'Unit 2 · 2.5 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -246,13 +258,21 @@ PBE1.page('u2-s05', {
             q: 'What time must they be on the lorry?',
             model: 'Eleven o\'clock',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['eleven',
+              'o\'clock'],
+            need: 1
           },
       {
             q: 'What does the tick mean?',
             model: 'That the number was read back to the person who gave it',
             minWords: 4,
-            rows: 2
+            rows: 2,
+            keys: ['number',
+              'back',
+              'person',
+              'gave'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -262,6 +282,7 @@ PBE1.page('u2-s05', {
       bookRef: 'Unit 2 · 2.5 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write an order note for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -294,6 +315,7 @@ PBE1.page('u2-s05', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '2.5.6P',
       bookRef: 'Unit 2 · 2.5 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -330,6 +352,7 @@ PBE1.page('u2-s05', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '2.5.6R',
       bookRef: 'Unit 2 · 2.5 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -349,6 +372,7 @@ PBE1.page('u2-s05', {
       bookRef: 'Unit 2 · 2.5 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about an order you took at your work (<b>20 to 35 words</b>). Who gave '
   + 'it? What was the number? Did you read it back?',
       minWords: 20,
@@ -385,6 +409,7 @@ PBE1.page('u2-s05', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '2.5.7P',
       bookRef: 'Unit 2 · 2.5 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -413,6 +438,7 @@ PBE1.page('u2-s05', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '2.5.7R',
       bookRef: 'Unit 2 · 2.5 · Lesson B · Writing · Share',
       type: 'discuss',

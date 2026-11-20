@@ -9,6 +9,7 @@ PBE1.page('u2-s01', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '2.1.1',
       bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -32,6 +33,7 @@ PBE1.page('u2-s01', {
       bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u2-2-1',
       passage: {
@@ -63,22 +65,27 @@ PBE1.page('u2-s01', {
             q: 'Books closed. Listen. What are they counting?',
             options: [{
               t: 'people',
-              ok: false
+              ok: false,
+              why: 'Nobody is counted - the pallet is.'
             },
             {
               t: 'cartons',
-              ok: true
+              ok: true,
+              why: 'He is told to count the cartons on the pallet.'
             },
             {
               t: 'lorries',
-              ok: false
-            }]
+              ok: false,
+              why: 'A lorry comes in another cycle. Here they are at the shelves.'
+            }],
+            evidence: 'the first line - what Abu Yasser tells Ammar to count'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'model',
       ref: '2.1.2',
       bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -104,6 +111,7 @@ PBE1.page('u2-s01', {
       bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One person counts. One person asks. Then change places.',
       scene: 'u2-2-1-pair',
       roles: [{
@@ -126,6 +134,7 @@ PBE1.page('u2-s01', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '2.1.3R',
       bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -146,6 +155,7 @@ PBE1.page('u2-s01', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '2.1.4',
       bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -179,6 +189,7 @@ PBE1.page('u2-s01', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '2.1.4R',
       bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -206,6 +217,7 @@ PBE1.page('u2-s01', {
     },
     {
       id: 'c8',
+      kind: 'model',
       ref: '2.1.5',
       bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -251,6 +263,7 @@ PBE1.page('u2-s01', {
       bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a count sheet for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -283,6 +296,7 @@ PBE1.page('u2-s01', {
     },
     {
       id: 'c10',
+      kind: 'own',
       ref: '2.1.6P',
       bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -318,6 +332,7 @@ PBE1.page('u2-s01', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '2.1.6R',
       bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -336,6 +351,7 @@ PBE1.page('u2-s01', {
       bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about counting at your work (<b>20 to 35 words</b>). What do you '
   + 'count? How often? Who reads the number?',
       minWords: 20,
@@ -371,6 +387,7 @@ PBE1.page('u2-s01', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '2.1.7P',
       bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -398,6 +415,7 @@ PBE1.page('u2-s01', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '2.1.7R',
       bookRef: 'Unit 2 · 2.1 · Lesson B · Writing · Share',
       type: 'discuss',

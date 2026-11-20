@@ -515,7 +515,11 @@
         var short = q.keys ? 'Mention the key points the source gives.'
           : 'A little short — aim for at least ' + (q.minWords || 4) + ' words.';
         inp._fb.className = 'q-fb ' + (k ? 'is-ok' : 'is-no');
-        inp._fb.textContent = k ? 'Answered.' : short;
+        /* A WORD COUNT CANNOT SAY 'ANSWERED'. See the patch note in
+           tools/course_engine.py: only a field with keys was checked
+           against anything, so only that field may claim to be right. */
+        inp._fb.textContent = k ? (q.keys ? 'Answered.' : 'Saved.')
+                                : short;
         inp.setAttribute('aria-describedby', inp._fb.id
           || (inp._fb.id = 'qfb' + Math.random().toString(36).slice(2, 8)));
         return k;

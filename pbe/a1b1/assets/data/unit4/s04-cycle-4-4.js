@@ -9,6 +9,7 @@ PBE1.page('u4-s04', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '4.4.1',
       bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u4-s04', {
       bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u4-4-4',
       passage: {
@@ -70,23 +72,27 @@ PBE1.page('u4-s04', {
             q: 'Books closed. Listen. What is gone?',
             options: [{
               t: 'one carton',
-              ok: false
+              ok: false,
+              why: 'More than one - listen to the number Ammar reports.'
             },
             {
               t: 'four cartons',
               ok: true,
-              why: 'four cartons'
+              why: 'Four are missing from row three, shelf two.'
             },
             {
               t: 'the whole shelf',
-              ok: false
-            }]
+              ok: false,
+              why: 'The shelf is still there; what was on part of it is not.'
+            }],
+            evidence: 'the line about the clean square and the dust'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '4.4.2',
       bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -96,13 +102,21 @@ PBE1.page('u4-s04', {
             q: 'Listen again. What is in the empty space?',
             model: 'Nothing — a clean square, no dust',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['nothing',
+              'clean',
+              'square',
+              'dust'],
+            need: 1
           },
       {
             q: 'What does Abu Yasser do first?',
             model: 'He asks the counter',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['asks',
+              'counter'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -112,6 +126,7 @@ PBE1.page('u4-s04', {
       bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One reports. One asks. Then change places.',
       scene: 'u4-4-4-pair',
       roles: [{
@@ -134,6 +149,7 @@ PBE1.page('u4-s04', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '4.4.3R',
       bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -154,6 +170,7 @@ PBE1.page('u4-s04', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '4.4.4',
       bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -191,6 +208,7 @@ PBE1.page('u4-s04', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '4.4.4R',
       bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -221,6 +239,7 @@ PBE1.page('u4-s04', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '4.4.5',
       bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -246,19 +265,30 @@ PBE1.page('u4-s04', {
             q: 'What is missing?',
             model: 'Four cartons of labels',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['cartons',
+              'labels'],
+            need: 1
           },
       {
             q: 'What did Ammar see?',
             model: 'An empty space, a clean square, no dust',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['empty',
+              'space',
+              'clean',
+              'square'],
+            need: 1
           },
       {
             q: 'Who did he tell, and when?',
             model: 'Abu Yasser, at 7.45',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['abu',
+              'yasser'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -268,6 +298,7 @@ PBE1.page('u4-s04', {
       bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a missing note for your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -303,6 +334,7 @@ PBE1.page('u4-s04', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '4.4.6P',
       bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -343,6 +375,7 @@ PBE1.page('u4-s04', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '4.4.6R',
       bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -361,6 +394,7 @@ PBE1.page('u4-s04', {
       bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about a thing that went missing at your work (<b>20 to 35 words</b>). '
   + 'What did you see? Who did you tell? What happened?',
       minWords: 20,
@@ -400,6 +434,7 @@ PBE1.page('u4-s04', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '4.4.7P',
       bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -429,6 +464,7 @@ PBE1.page('u4-s04', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '4.4.7R',
       bookRef: 'Unit 4 · 4.4 · Lesson B · Writing · Share',
       type: 'discuss',

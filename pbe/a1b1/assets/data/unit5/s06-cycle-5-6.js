@@ -9,6 +9,7 @@ PBE1.page('u5-s06', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '5.6.1',
       bookRef: 'Unit 5 · 5.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -34,6 +35,7 @@ PBE1.page('u5-s06', {
       bookRef: 'Unit 5 · 5.6 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u5-5-6',
       passage: {
@@ -73,23 +75,27 @@ PBE1.page('u5-s06', {
             q: 'Books closed. Listen. Does Ammar take the goods?',
             options: [{
               t: 'yes',
-              ok: false
+              ok: false,
+              why: 'True, but the point is what he does so that both men have a paper.'
             },
             {
               t: 'no',
-              ok: false
+              ok: false,
+              why: 'He does take them. Listen to what he writes.'
             },
             {
               t: 'yes, and he writes his own note',
               ok: true,
-              why: 'yes, and he writes his own note'
-            }]
+              why: 'He writes the note himself and has the driver sign it.'
+            }],
+            evidence: 'what Ammar offers to do when there is no paper at all'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '5.6.2',
       bookRef: 'Unit 5 · 5.6 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -99,13 +105,21 @@ PBE1.page('u5-s06', {
             q: 'Listen again. What does the driver say about the note?',
             model: 'The office did not give him one',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['office',
+              'give'],
+            need: 1
           },
       {
             q: 'What four things does Ammar write?',
             model: 'The driver\'s name, the lorry number, six pallets, today\'s date',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['driver\'s',
+              'name',
+              'lorry',
+              'number'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -115,6 +129,7 @@ PBE1.page('u5-s06', {
       bookRef: 'Unit 5 · 5.6 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One is the driver with no paper. One is the storeman. Then '
   + 'change places.',
       scene: 'u5-5-6-pair',
@@ -138,6 +153,7 @@ PBE1.page('u5-s06', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '5.6.3R',
       bookRef: 'Unit 5 · 5.6 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -158,6 +174,7 @@ PBE1.page('u5-s06', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '5.6.4',
       bookRef: 'Unit 5 · 5.6 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -200,6 +217,7 @@ PBE1.page('u5-s06', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '5.6.4R',
       bookRef: 'Unit 5 · 5.6 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -232,6 +250,7 @@ PBE1.page('u5-s06', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '5.6.5',
       bookRef: 'Unit 5 · 5.6 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -261,13 +280,21 @@ PBE1.page('u5-s06', {
             q: 'What is the lorry number?',
             model: '345 871',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['345',
+              '871'],
+            need: 1
           },
       {
             q: 'Why are the bags not counted?',
             model: 'The pallets are wrapped, so he could not see inside',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            keys: ['pallets',
+              'wrapped',
+              'see',
+              'inside'],
+            need: 1
           },
       {
             q: 'How many signatures are on this paper?',
@@ -283,6 +310,7 @@ PBE1.page('u5-s06', {
       bookRef: 'Unit 5 · 5.6 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a note for goods arriving with no paper (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -321,6 +349,7 @@ PBE1.page('u5-s06', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '5.6.6P',
       bookRef: 'Unit 5 · 5.6 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -363,6 +392,7 @@ PBE1.page('u5-s06', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '5.6.6R',
       bookRef: 'Unit 5 · 5.6 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -381,6 +411,7 @@ PBE1.page('u5-s06', {
       bookRef: 'Unit 5 · 5.6 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about goods or a job that came with no paper (<b>20 to 35 words</b>). '
   + 'What was missing? What did you do? What happened later?',
       minWords: 20,
@@ -423,6 +454,7 @@ PBE1.page('u5-s06', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '5.6.7P',
       bookRef: 'Unit 5 · 5.6 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -455,6 +487,7 @@ PBE1.page('u5-s06', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '5.6.7R',
       bookRef: 'Unit 5 · 5.6 · Lesson B · Writing · Share',
       type: 'discuss',

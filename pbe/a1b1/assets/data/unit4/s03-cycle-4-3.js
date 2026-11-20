@@ -9,6 +9,7 @@ PBE1.page('u4-s03', {
   cards: [
     {
       id: 'c1',
+      kind: 'own',
       ref: '4.3.1',
       bookRef: 'Unit 4 · 4.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -33,6 +34,7 @@ PBE1.page('u4-s03', {
       bookRef: 'Unit 4 · 4.3 · Lesson A · Speaking · Listen and read',
       type: 'scene',
       title: 'Listen and read',
+      kind: 'answer',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u4-4-3',
       passage: {
@@ -67,23 +69,27 @@ PBE1.page('u4-s03', {
             q: 'Books closed. Listen. Do they find the roll?',
             options: [{
               t: 'yes',
-              ok: false
+              ok: false,
+              why: 'True, but it misses the point of the scene - where was it?'
             },
             {
               t: 'no',
-              ok: false
+              ok: false,
+              why: 'They do find it. Listen to the end of the exchange.'
             },
             {
               t: 'yes, in the wrong place',
               ok: true,
-              why: 'yes, in the wrong place'
-            }]
+              why: 'They find it behind the door, not where the paper says.'
+            }],
+            evidence: 'where the big roll turns out to be standing'
           }],
         say: true
       }
     },
     {
       id: 'c3',
+      kind: 'answer',
       ref: '4.3.2',
       bookRef: 'Unit 4 · 4.3 · Lesson A · Speaking · Listen and read',
       type: 'discuss',
@@ -93,13 +99,20 @@ PBE1.page('u4-s03', {
             q: 'Listen again. Where should the roll be?',
             model: 'Row two, shelf one',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['row',
+              'shelf'],
+            need: 1
           },
       {
             q: 'Where is it?',
             model: 'Behind the door, standing up',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['behind',
+              'door',
+              'standing'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -109,6 +122,7 @@ PBE1.page('u4-s03', {
       bookRef: 'Unit 4 · 4.3 · Lesson A · Speaking · Practise',
       type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. One asks. One answers. Then change places.',
       scene: 'u4-4-3-pair',
       roles: [{
@@ -131,6 +145,7 @@ PBE1.page('u4-s03', {
     },
     {
       id: 'c5',
+      kind: 'own',
       ref: '4.3.3R',
       bookRef: 'Unit 4 · 4.3 · Lesson A · Speaking · Perform',
       type: 'discuss',
@@ -151,6 +166,7 @@ PBE1.page('u4-s03', {
     },
     {
       id: 'c6',
+      kind: 'model',
       ref: '4.3.4',
       bookRef: 'Unit 4 · 4.3 · Lesson A · Speaking · Your turn',
       type: 'discuss',
@@ -194,6 +210,7 @@ PBE1.page('u4-s03', {
     },
     {
       id: 'c7',
+      kind: 'model',
       ref: '4.3.4R',
       bookRef: 'Unit 4 · 4.3 · Lesson A · Speaking · Report',
       type: 'discuss',
@@ -223,6 +240,7 @@ PBE1.page('u4-s03', {
     },
     {
       id: 'c8',
+      kind: 'answer',
       ref: '4.3.5',
       bookRef: 'Unit 4 · 4.3 · Lesson B · Writing · Read',
       type: 'discuss',
@@ -248,19 +266,29 @@ PBE1.page('u4-s03', {
             q: 'Where does the paper say the roll is?',
             model: 'Row 2, shelf 1',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            keys: ['row',
+              'shelf'],
+            need: 1
           },
       {
             q: 'Where is it really?',
             model: 'Behind the door, standing up',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['behind',
+              'door',
+              'standing'],
+            need: 1
           },
       {
             q: 'Why is it not on the shelf?',
             model: 'It is too long for the shelf',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            keys: ['long',
+              'shelf'],
+            need: 1
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -270,6 +298,7 @@ PBE1.page('u4-s03', {
       bookRef: 'Unit 4 · 4.3 · Lesson B · Writing · Write with help',
       type: 'writer',
       title: 'Write with help',
+      kind: 'model',
       instruction: 'Write a correction for something at your own work (<b>15 words or more</b>).',
       minWords: 15,
       paras: [{
@@ -305,6 +334,7 @@ PBE1.page('u4-s03', {
     },
     {
       id: 'c10',
+      kind: 'model',
       ref: '4.3.6P',
       bookRef: 'Unit 4 · 4.3 · Lesson B · Writing · Check together',
       type: 'discuss',
@@ -345,6 +375,7 @@ PBE1.page('u4-s03', {
     },
     {
       id: 'c11',
+      kind: 'own',
       ref: '4.3.6R',
       bookRef: 'Unit 4 · 4.3 · Lesson B · Writing · Share',
       type: 'discuss',
@@ -363,6 +394,7 @@ PBE1.page('u4-s03', {
       bookRef: 'Unit 4 · 4.3 · Lesson B · Writing · Write freely',
       type: 'writer',
       title: 'Write freely',
+      kind: 'model',
       instruction: 'Write about something at your work that is not where the paper says (<b>20 '
   + 'to 35 words</b>). Where is it? Why? Who moved it?',
       minWords: 20,
@@ -402,6 +434,7 @@ PBE1.page('u4-s03', {
     },
     {
       id: 'c13',
+      kind: 'model',
       ref: '4.3.7P',
       bookRef: 'Unit 4 · 4.3 · Lesson B · Writing · Respond',
       type: 'discuss',
@@ -432,6 +465,7 @@ PBE1.page('u4-s03', {
     },
     {
       id: 'c14',
+      kind: 'own',
       ref: '4.3.7R',
       bookRef: 'Unit 4 · 4.3 · Lesson B · Writing · Share',
       type: 'discuss',
