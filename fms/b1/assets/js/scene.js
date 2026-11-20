@@ -132,19 +132,29 @@
       applySubPrefs();
       if (bWords) bWords.style.display = 'none';
     }
-    tpBtn('replay', 'Replay with the words hidden - a listening pass',
+    /* ONLY WHERE THE COURSE ASKED FOR IT - see the patch note for
+       a-course-declares-its-own-features. Off, this is the plain
+       Replay every course has always had. */
+    var plainReplay = !!(FMS.features || {}).replayPlain;
+    tpBtn('replay', plainReplay
+          ? 'Replay with the words hidden - a listening pass'
+          : 'Replay the whole scene',
           function () {
-      if (wasEn === null) wasEn = !!FMS.prefs.subEn;
-      FMS.prefs.subEn = false;
-      applySubPrefs();
-      if (bWords) bWords.style.display = '';
+      if (plainReplay) {
+        if (wasEn === null) wasEn = !!FMS.prefs.subEn;
+        FMS.prefs.subEn = false;
+        applySubPrefs();
+        if (bWords) bWords.style.display = '';
+      }
       idx = -1; play();
     });
-    bWords = tpBtn('book', 'Show the words again', function () {
-      restoreSubs();
-    });
-    bWords.style.display = 'none';
-    bWords.classList.add('tp-words');
+    if (plainReplay) {
+      bWords = tpBtn('book', 'Show the words again', function () {
+        restoreSubs();
+      });
+      bWords.style.display = 'none';
+      bWords.classList.add('tp-words');
+    }
     tpBtn('prev', 'Previous line', function () { go(Math.max(0, idx - 1)); });
     tpBtn('next', 'Next line', function () { go(Math.min(lines.length - 1, idx + 1)); });
     tpBtn('loop', 'Loop this line', function (on) { loopLine = on; }, true);

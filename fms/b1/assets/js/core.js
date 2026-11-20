@@ -10,6 +10,26 @@
 (function (w, d) {
   'use strict';
   var FMS = w.FMS = w.FMS || {};
+
+  /* ----------------------------------------------------------
+     WHAT THIS COURSE TURNS ON. See the patch note in
+     tools/course_engine.py. Each of these changes what a learner
+     sees, so each is a per-course decision rather than an engine
+     default, and `tools/course_engine.py --features` is what writes
+     this block. The names are read in exactly two places, which the
+     comments there point back at.
+
+       modelWaits  - the model answer's button is dimmed until the
+                     learner has typed something. OFF: it is
+                     available from the moment the card builds.
+       replayPlain - Replay plays the dialogue with the English
+                     subtitle hidden, with a button to bring it
+                     back. OFF: Replay is the same as Play.
+     ---------------------------------------------------------- */
+  FMS.features = {
+    modelWaits: false,
+    replayPlain: false
+  };
   FMS.pages = FMS.pages || {};
   FMS.scenes = FMS.scenes || {};
   FMS.glossaryData = FMS.glossaryData || {};

@@ -700,7 +700,10 @@
     if (q.model) {
       var mbx = EFA.ui.modelBox(q.model);
       var mbtn = mbx.querySelector('button');
-      if (mbtn) {
+      /* ONLY WHERE THE COURSE ASKED FOR IT. See the patch note for
+         a-course-declares-its-own-features: this changes what a
+         learner sees, so it is a per-course decision. */
+      if (mbtn && (EFA.features || {}).modelWaits) {
         var armModel = function () {
           if (!String(inp.value).trim()) return;
           mbtn.disabled = false;
