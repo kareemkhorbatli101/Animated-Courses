@@ -302,6 +302,17 @@ PBE1.page('u3-s05', {
         }],
       model: ['SWAP — THURSDAY 21 MARCH',
       'Was: Samih Qassar — morning · Now: Ammar Zreik — morning'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['asking',
+        'about',
+        'shift',
+        'swap',
+        'first',
+        'supervisor',
+        'between',
+        'only']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a swap note for your own work (15 words or more).',
@@ -403,6 +414,17 @@ PBE1.page('u3-s05', {
       stems: ['Last month I…',
       'I asked Hani…',
       'Then I told…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['asking',
+        'about',
+        'shift',
+        'swap',
+        'first',
+        'supervisor',
+        'between',
+        'only']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a day you needed off (20 to 35 words). What day? Why? Who did '

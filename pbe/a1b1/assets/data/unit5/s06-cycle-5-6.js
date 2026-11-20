@@ -321,6 +321,17 @@ PBE1.page('u5-s06', {
         }],
       model: ['GOODS RECEIVED — NO RETURN NOTE',
       'Date: 13 March 2026 Time: 6.40'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['saying',
+        'nothing',
+        'thing',
+        'than',
+        'split',
+        'note',
+        'conversation',
+        'start']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a note for goods arriving with no paper (15 words or more).',
@@ -431,6 +442,17 @@ PBE1.page('u5-s06', {
       stems: ['The stale bread…',
       'In November the bakery…',
       'We had sent…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['saying',
+        'nothing',
+        'thing',
+        'than',
+        'split',
+        'note',
+        'conversation',
+        'start']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about goods or a job that came with no paper (20 to 35 words). What '

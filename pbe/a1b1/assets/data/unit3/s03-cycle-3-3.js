@@ -311,6 +311,17 @@ PBE1.page('u3-s03', {
         }],
       model: ['WHAT I DO — from Samih Qassar, 14 March',
       '1 I open the back store. 2 I read the count sheet. 3 I check the top shelf'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['things',
+        'order',
+        'first',
+        'after',
+        'list',
+        'wrong',
+        'nobody',
+        'follow']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a what-I-do list for your own job (15 words or more).',
@@ -414,6 +425,17 @@ PBE1.page('u3-s03', {
       'Then I check…',
       'That is the longest…',
       'After that I…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['things',
+        'order',
+        'first',
+        'after',
+        'list',
+        'wrong',
+        'nobody',
+        'follow']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about your day at work (20 to 35 words). What do you do first? What do '

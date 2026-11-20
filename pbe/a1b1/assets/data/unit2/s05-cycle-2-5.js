@@ -298,6 +298,17 @@ PBE1.page('u2-s05', {
         }],
       model: ['ORDER — 12 MARCH — from Abu Yasser',
       '70 (seven zero — NOT 17) cartons For: Hama By: 10.00 Read back: ✓ S.Q'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['back',
+        'digits',
+        'numbers',
+        'sound',
+        'zero',
+        'sixty',
+        'cannot',
+        'heard']
+      },
       coach: {
         title: 'What to include',
         task: 'Write an order note for your own work (15 words or more).',
@@ -402,6 +413,17 @@ PBE1.page('u2-s05', {
       'I wrote fifty…',
       'I did not…',
       'We sent fifty…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['back',
+        'digits',
+        'numbers',
+        'sound',
+        'zero',
+        'sixty',
+        'cannot',
+        'heard']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about an order you took at your work (20 to 35 words). Who gave it? '

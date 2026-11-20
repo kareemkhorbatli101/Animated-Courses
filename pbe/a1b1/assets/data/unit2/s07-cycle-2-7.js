@@ -301,6 +301,17 @@ PBE1.page('u2-s07', {
       stems: ['I counted twice…',
       'The sheet says…',
       'Please change the…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['review',
+        'things',
+        'unit',
+        'thing',
+        'careful',
+        'different',
+        'numbers',
+        'neither']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a message to a colleague about a count (four sentences, about 30 '
@@ -389,6 +400,17 @@ PBE1.page('u2-s07', {
       stems: ['I counted twice…',
       'The old number…',
       'Please tell the office…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['review',
+        'things',
+        'unit',
+        'thing',
+        'careful',
+        'different',
+        'numbers',
+        'neither']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a message about a number that is wrong at your work (four sentences, '

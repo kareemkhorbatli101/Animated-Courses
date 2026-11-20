@@ -296,6 +296,17 @@ PBE1.page('u3-s04', {
       'He drives to Homs…',
       'He counts the back…',
       'She opens the office…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['start',
+        'wrong',
+        'starts',
+        'right',
+        'thing',
+        'unit',
+        'back',
+        'practise']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a who-does-what page for your own work (15 words or more).',
@@ -393,6 +404,17 @@ PBE1.page('u3-s04', {
       'He checks the lorry…',
       'Then he drives…',
       'Nobody else can…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['start',
+        'wrong',
+        'starts',
+        'right',
+        'thing',
+        'unit',
+        'back',
+        'practise']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about one person at your work (20 to 35 words). What time do they '

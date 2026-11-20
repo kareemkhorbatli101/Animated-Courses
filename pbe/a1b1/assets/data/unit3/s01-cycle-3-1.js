@@ -292,6 +292,17 @@ PBE1.page('u3-s01', {
         }],
       model: ['THE WEEK — BACK STORE, SHAM TRADING',
       'Sunday — normal · Monday — big delivery, 12 pallets · Tuesday — normal'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['days',
+        'before',
+        'monday',
+        'thursday',
+        'letter',
+        'time',
+        'practise',
+        'after']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a week board for your own work (15 words or more).',
@@ -388,6 +399,17 @@ PBE1.page('u3-s01', {
       'My day off…',
       'Monday is the busy…',
       'On Thursday we…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['days',
+        'before',
+        'monday',
+        'thursday',
+        'letter',
+        'time',
+        'practise',
+        'after']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about your week at work (20 to 35 words). Which days do you work? '

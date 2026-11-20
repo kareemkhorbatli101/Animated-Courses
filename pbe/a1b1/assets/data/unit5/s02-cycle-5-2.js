@@ -314,6 +314,17 @@ PBE1.page('u5-s02', {
         }],
       model: ['ALEPPO PAPER MILLS (company)',
       'Delivery note no. 2208 Date: 12/03/2026'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['months',
+        'date',
+        'ways',
+        'only',
+        'safe',
+        'note',
+        'receive',
+        'work']
+      },
       coach: {
         title: 'What to include',
         task: 'Write the top of a delivery note for your own work, and fill in the two '
@@ -425,6 +436,17 @@ PBE1.page('u5-s02', {
         + 'Last year we sent a lorry a month early'],
       stems: ['The Turkish papers…',
       'Last year we…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['months',
+        'date',
+        'ways',
+        'only',
+        'safe',
+        'note',
+        'receive',
+        'work']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about dates at your work (20 to 35 words). How are they written? Has a '

@@ -306,6 +306,17 @@ PBE1.page('u5-s03', {
           + 'class=\'bk\'><tr><th>Line</th><th>Goods</th><th>Quantity</th><th>Unit</th></tr><tr><td><b>1</b></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td><b>2</b></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td><b>3</b></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td><b>4</b></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table>'
       },
       model: ['Total lines: 4'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['number',
+        'quantity',
+        'until',
+        'unit',
+        'after',
+        'than',
+        'boxes',
+        'pallets']
+      },
       coach: {
         title: 'What to include',
         task: 'Write the goods lines of a delivery note for your own work (15 words or more).',
@@ -411,6 +422,17 @@ PBE1.page('u5-s03', {
       stems: ['We count in…',
       'The bakery counts…',
       'Once we ordered…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['number',
+        'quantity',
+        'until',
+        'unit',
+        'after',
+        'than',
+        'boxes',
+        'pallets']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about the quantities at your work (20 to 35 words). What unit do you '

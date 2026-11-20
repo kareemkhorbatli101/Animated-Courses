@@ -308,6 +308,17 @@ PBE1.page('u4-s01', {
         }],
       model: ['BACK STORE — WHERE THINGS ARE',
       'Count sheets — on the table, next to the window'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['small',
+        'words',
+        'word',
+        'before',
+        'thing',
+        'shelf',
+        'swapped',
+        'difference']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a where-things-are note for your own work (15 words or more).',
@@ -414,6 +425,17 @@ PBE1.page('u4-s01', {
       stems: ['The count sheets…',
       'The spare key…',
       'It is behind…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['small',
+        'words',
+        'word',
+        'before',
+        'thing',
+        'shelf',
+        'swapped',
+        'difference']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about where you keep four things at work (20 to 35 words). Which one '

@@ -315,6 +315,17 @@ PBE1.page('u5-s01', {
         }],
       model: ['BEFORE YOU SIGN — THE COUNTER',
       '1 Is the company on the paper a company we buy from?'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['things',
+        'time',
+        'order',
+        'look',
+        'before',
+        'touch',
+        'always',
+        'date']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a before-you-sign list for your own work (15 words or more).',
@@ -423,6 +434,17 @@ PBE1.page('u5-s01', {
       'It has the number…',
       'I do not…',
       'Last year I…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['things',
+        'time',
+        'order',
+        'look',
+        'before',
+        'touch',
+        'always',
+        'date']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a paper you sign at work (20 to 35 words). What is on it? Do you '

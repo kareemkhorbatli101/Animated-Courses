@@ -299,6 +299,17 @@ PBE1.page('u1-s05', {
       model: ['GATE — JARAMANA DEPOT',
       'Morning shift: sign in at 6.30. Sign out at 3.30. Afternoon shift: '
         + 'sign in at 3.00. Sign out at 11.00'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['hello',
+        'goodbye',
+        'work',
+        'morning',
+        'afternoon',
+        'o\'clock',
+        'sign',
+        'both']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a gate notice for your own work (15 words or more).',
@@ -398,6 +409,17 @@ PBE1.page('u1-s05', {
       'I say good…',
       'I finish at half…',
       'I say goodbye…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['hello',
+        'goodbye',
+        'work',
+        'morning',
+        'afternoon',
+        'o\'clock',
+        'sign',
+        'both']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about your own day at work (20 to 35 words). When do you come? When do '

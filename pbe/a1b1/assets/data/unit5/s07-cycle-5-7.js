@@ -315,6 +315,17 @@ PBE1.page('u5-s07', {
       'Note 4417 came today. The paper says 16 boxes. I counted 15, on line '
         + '1, the white labels. Please ask Beirut for the missing box'],
       stems: ['Please ask Beirut…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['review',
+        'things',
+        'unit',
+        'thing',
+        'driver',
+        'right',
+        'ammar',
+        'both']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a message about a short delivery (four sentences, about 30 words). Say '
@@ -404,6 +415,17 @@ PBE1.page('u5-s07', {
         + '38 and the driver signed to agree. Please take two trays off the '
         + 'invoice'],
       stems: ['Please take two…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['review',
+        'things',
+        'unit',
+        'thing',
+        'driver',
+        'right',
+        'ammar',
+        'both']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a message to the office about a delivery that was wrong (four '

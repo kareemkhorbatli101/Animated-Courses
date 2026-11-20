@@ -311,6 +311,17 @@ PBE1.page('u4-s03', {
       model: ['ROW 1 — CORRECTION, 18 MARCH',
       'The paper says: long ladder — row 1, shelf 1'],
       stems: ['It is next…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['asking',
+        'thing',
+        'than',
+        'split',
+        'unit',
+        'noun',
+        'question',
+        'down']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a correction for something at your own work (15 words or more).',
@@ -416,6 +427,17 @@ PBE1.page('u4-s03', {
       'It is next…',
       'Fouad moved it…',
       'Nobody changed the…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['asking',
+        'thing',
+        'than',
+        'split',
+        'unit',
+        'noun',
+        'question',
+        'down']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about something at your work that is not where the paper says (20 to '

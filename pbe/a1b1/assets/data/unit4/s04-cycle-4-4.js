@@ -314,6 +314,17 @@ PBE1.page('u4-s04', {
       'What: six packets of labels'],
       stems: ['A dirty square…',
       'He is asking…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['saying',
+        'thing',
+        'cannot',
+        'find',
+        'about',
+        'shelf',
+        'think',
+        'clean']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a missing note for your own work (15 words or more).',
@@ -420,6 +431,17 @@ PBE1.page('u4-s04', {
       'I saw thick…',
       'I told Samih…',
       'They were at the…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['saying',
+        'thing',
+        'cannot',
+        'find',
+        'about',
+        'shelf',
+        'think',
+        'clean']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a thing that went missing at your work (20 to 35 words). What '

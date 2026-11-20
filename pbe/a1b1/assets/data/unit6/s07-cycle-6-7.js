@@ -320,6 +320,17 @@ PBE1.page('u6-s07', {
       stems: ['He says the March…',
       'He wants a credit…',
       'He rings back…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everything',
+        'right',
+        'message',
+        'days']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a message for your supervisor (four sentences, about 30 words). Who '
@@ -409,6 +420,17 @@ PBE1.page('u6-s07', {
       stems: ['She says the Thursday…',
       'She has changed…',
       'She rings back…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['review',
+        'things',
+        'unit',
+        'thing',
+        'everything',
+        'right',
+        'message',
+        'days']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a message for somebody at your work (four sentences, about 30 words). '

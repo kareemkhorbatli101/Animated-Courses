@@ -297,6 +297,17 @@ PBE1.page('u1-s06', {
       model: ['FOR HANI — 11 MARCH',
       '15 rolls (one five — NOT 50) Place: row 6, shelf 1'],
       stems: ['Do not leave…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['understand',
+        'sound',
+        'telephone',
+        'always',
+        'sorry',
+        'asking',
+        'doing',
+        'wrong']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a paper for one person at your work (15 words or more).',
@@ -398,6 +409,17 @@ PBE1.page('u1-s06', {
       'I wrote sixteen…',
       'I did not…',
       'We sent sixteen…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['understand',
+        'sound',
+        'telephone',
+        'always',
+        'sorry',
+        'asking',
+        'doing',
+        'wrong']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a time you did not understand at work (20 to 35 words). What was '

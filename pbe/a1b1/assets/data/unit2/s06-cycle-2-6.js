@@ -291,6 +291,17 @@ PBE1.page('u2-s06', {
       model: ['COUNT SHEET — FRONT STORE — 12 MARCH',
       'Shelf 3 — old: 12 — new: 9 — 12 March'],
       stems: ['Nine both times…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['saying',
+        'number',
+        'wrong',
+        'talk',
+        'about',
+        'person',
+        'changed',
+        'cannot']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a changed count for your own work (15 words or more).',
@@ -393,6 +404,17 @@ PBE1.page('u2-s06', {
       'I counted three…',
       'I wrote the new…',
       'Nobody knows who…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['saying',
+        'number',
+        'wrong',
+        'talk',
+        'about',
+        'person',
+        'changed',
+        'cannot']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a count that was wrong (20 to 35 words). What did the paper say? '

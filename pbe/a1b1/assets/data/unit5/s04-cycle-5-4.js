@@ -312,6 +312,17 @@ PBE1.page('u5-s04', {
         }],
       model: ['Goods received by: Samih Qassar',
       'Date received: 12 March 2026 Time: 8.05'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['signing',
+        'counted',
+        'useful',
+        'sentence',
+        'book',
+        'number',
+        'minutes',
+        'nobody']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a signature block with a note on it (15 words or more).',
@@ -418,6 +429,17 @@ PBE1.page('u5-s04', {
       stems: ['The bread man…',
       'I signed for…',
       'Nobody asked me…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['signing',
+        'counted',
+        'useful',
+        'sentence',
+        'book',
+        'number',
+        'minutes',
+        'nobody']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about signing at your work (20 to 35 words). Who asks you to sign? '

@@ -298,6 +298,17 @@ PBE1.page('u3-s06', {
       model: ['FOR ABU YASSER — 15 MARCH',
       'I was 30 minutes late. The bus did not come'],
       stems: ['The bus did…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['saying',
+        'late',
+        'time',
+        'first',
+        'reason',
+        'supervisor',
+        'needs',
+        'know']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a late note for your own work (15 words or more).',
@@ -397,6 +408,17 @@ PBE1.page('u3-s06', {
       stems: ['The bus did…',
       'Hani opened the store…',
       'Now I take…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['saying',
+        'late',
+        'time',
+        'first',
+        'reason',
+        'supervisor',
+        'needs',
+        'know']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a day you were late (20 to 35 words). How late? Why? Who did '

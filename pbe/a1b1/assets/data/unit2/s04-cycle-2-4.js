@@ -299,6 +299,17 @@ PBE1.page('u2-s04', {
         }],
       model: ['SHELF CHECK — FRONT STORE — 12 MARCH',
       '1 — 6 — cartons 2 — 0 — none 3 — 11 — packets 4 — 0 — none 5 — 1 — pallet'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['none',
+        'than',
+        'zero',
+        'numbers',
+        'empty',
+        'number',
+        'supervisor',
+        'knows']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a shelf check for your own work (15 words or more).',
@@ -391,6 +402,17 @@ PBE1.page('u2-s04', {
       stems: ['We ran out…',
       'Nobody wrote it…',
       'The shelf was…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['none',
+        'than',
+        'zero',
+        'numbers',
+        'empty',
+        'number',
+        'supervisor',
+        'knows']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about something at your work that ran out (20 to 35 words). What was '

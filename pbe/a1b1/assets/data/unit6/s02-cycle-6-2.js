@@ -315,6 +315,17 @@ PBE1.page('u6-s02', {
           + 'first)</i></th><th>Letters</th><th>Spelled?</th></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table>'
       },
       model: ['CALLS — TUESDAY 17 MARCH'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['getting',
+        'name',
+        'never',
+        'heard',
+        'question',
+        'stranger',
+        'house',
+        'office']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a call list for one morning at your own work (15 words or more).',
@@ -418,6 +429,17 @@ PBE1.page('u6-s02', {
       'He said it…',
       'I was too…',
       'He never rang…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['getting',
+        'name',
+        'never',
+        'heard',
+        'question',
+        'stranger',
+        'house',
+        'office']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a name you could not get on the telephone (20 to 35 words). What '

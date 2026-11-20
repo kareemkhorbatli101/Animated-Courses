@@ -309,6 +309,17 @@ PBE1.page('u4-s06', {
       model: ['THE PALLET TRUCK — WHO, WHERE, WHEN',
       'Where it lives: by the loading door, against the wall'],
       stems: ['Nobody drags a full…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['cannot',
+        'even',
+        'cans',
+        'verb',
+        'book',
+        'after',
+        'bare',
+        'reach']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a safety paper for one thing at your work (15 words or more).',
@@ -417,6 +428,17 @@ PBE1.page('u4-s06', {
       stems: ['I cannot lift…',
       'I need the pallet…',
       'When the truck…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['cannot',
+        'even',
+        'cans',
+        'verb',
+        'book',
+        'after',
+        'bare',
+        'reach']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about something at your work you cannot do alone (20 to 35 words). '

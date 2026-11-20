@@ -307,6 +307,17 @@ PBE1.page('u6-s04', {
           + 'first)</i></th><th>Where</th><th>Back</th></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table>'
       },
       model: ['Written at: Tuesday 17 March, 9.15'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['saying',
+        'somebody',
+        'second',
+        'half',
+        'sentence',
+        'whole',
+        'cycle',
+        'ends']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a who-is-where board for your own work (15 words or more).',
@@ -419,6 +430,17 @@ PBE1.page('u6-s04', {
       stems: ['The manager is…',
       'He is at the…',
       'I tell callers…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['saying',
+        'somebody',
+        'second',
+        'half',
+        'sentence',
+        'whole',
+        'cycle',
+        'ends']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about the people at your work and where they are (20 to 35 words). Who '

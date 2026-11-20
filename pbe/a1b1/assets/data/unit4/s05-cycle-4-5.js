@@ -321,6 +321,17 @@ PBE1.page('u4-s05', {
       stems: ['Past the small…',
       '(Not the first…',
       'The yellow lines…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['giving',
+        'direction',
+        'inside',
+        'yard',
+        'order',
+        'front',
+        'straight',
+        'shorter']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a directions paper for your own work (15 words or more).',
@@ -425,6 +436,17 @@ PBE1.page('u4-s05', {
       stems: ['From our gate…',
       'They always turn…',
       'Do not reverse…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['giving',
+        'direction',
+        'inside',
+        'yard',
+        'order',
+        'front',
+        'straight',
+        'shorter']
+      },
       coach: {
         title: 'What to include',
         task: 'Write directions from the gate of your work to one place (20 to 35 words). '

@@ -300,6 +300,17 @@ PBE1.page('u2-s02', {
       model: ['BOARD — 11 MARCH',
       'IN TODAY: 70 (seventy) IN STORE: 510 (five hundred and ten) OUT TODAY: '
         + '0 (none) S.Q'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['numbers',
+        'hundred',
+        'never',
+        'hundreds',
+        'word',
+        'before',
+        'last',
+        'part']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a store board for your own work (15 words or more).',
@@ -407,6 +418,17 @@ PBE1.page('u2-s02', {
       'It was ninety…',
       'Nobody checked it…',
       'We told a customer…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['numbers',
+        'hundred',
+        'never',
+        'hundreds',
+        'word',
+        'before',
+        'last',
+        'part']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a number that was wrong at your work (20 to 35 words). What was '

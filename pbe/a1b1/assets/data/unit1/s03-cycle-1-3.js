@@ -293,6 +293,17 @@ PBE1.page('u1-s03', {
       model: ['Week of: 11 March',
       '1 Samih Qassar — morning 2 Hani Deeb — afternoon 3 Omar Sibai — '
         + 'morning 4 Rima Sibai — afternoon'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['grammar',
+        'near',
+        'hand',
+        'away',
+        'thing',
+        'practise',
+        'shift',
+        'list']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a shift list for four people at your work (15 words or more).',
@@ -388,6 +399,17 @@ PBE1.page('u1-s03', {
       stems: ['There is a list…',
       'It is the stock…',
       'My name is…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['grammar',
+        'near',
+        'hand',
+        'away',
+        'thing',
+        'practise',
+        'shift',
+        'list']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a list at your work (20 to 35 words). What list is it? Where is '

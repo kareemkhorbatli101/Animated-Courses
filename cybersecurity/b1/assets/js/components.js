@@ -2896,7 +2896,20 @@
       function upd() {
         var wds = U.words(ta.value);
         var past = U.pastVerbs(ta.value);
-        meta.innerHTML = wds + ' words' + (card.pastCheck ? ' · past-tense verbs found: ' +
+        /* THE CYCLE'S OWN WORDS, counted live. See the patch note in
+           tools/course_engine.py. */
+        var mtr = '';
+        if (card.meter && card.meter.words && card.meter.words.length) {
+          var low = ' ' + String(ta.value || '').toLowerCase() + ' ';
+          var got = card.meter.words.filter(function (k) {
+            return low.indexOf(String(k).toLowerCase()) >= 0; });
+          mtr = ' · ' + esc(card.meter.label || 'words from this lesson') + ': '
+              + (got.length
+                 ? '<b style="color:var(--ok)">' + got.map(esc).join(', ')
+                   + '</b>'
+                 : '<b style="color:var(--text-2)">none yet</b>');
+        }
+        meta.innerHTML = wds + ' words' + mtr + (card.pastCheck ? ' · past-tense verbs found: ' +
           (past.length ? '<b style="color:var(--ok)">' + past.map(esc).join(', ') + '</b>' : '<b style="color:var(--no)">none yet</b>') : '');
       }
       ta.addEventListener('input', upd);

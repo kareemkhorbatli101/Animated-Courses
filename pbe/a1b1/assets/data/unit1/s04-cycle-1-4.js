@@ -300,6 +300,17 @@ PBE1.page('u1-s04', {
       'Samih — he is the storeman. Ask him about the shelves'],
       stems: ['Ask him about…',
       'Ask her about…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['grammar',
+        'woman',
+        'thing',
+        'arabic',
+        'english',
+        'practise',
+        'fadi',
+        'driver']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a who-to-ask note for your own work (15 words or more).',
@@ -395,6 +406,17 @@ PBE1.page('u1-s04', {
       'She is the…',
       'She is there…',
       'I ask her…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['grammar',
+        'woman',
+        'thing',
+        'arabic',
+        'english',
+        'practise',
+        'fadi',
+        'driver']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about one person at your work (20 to 35 words). Who is he or she? What '

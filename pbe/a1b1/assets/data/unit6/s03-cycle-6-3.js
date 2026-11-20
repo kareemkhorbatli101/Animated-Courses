@@ -321,6 +321,17 @@ PBE1.page('u6-s03', {
         }],
       model: ['WAITING — THE COUNTER TELEPHONE',
       '0 seconds — One moment, please'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['making',
+        'somebody',
+        'wait',
+        'properly',
+        'before',
+        'answer',
+        'telephone',
+        'slip']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a waiting card for your own work (15 words or more).',
@@ -427,6 +438,17 @@ PBE1.page('u6-s03', {
       stems: ['Callers wait two…',
       'Two have rung…',
       'If the list…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['making',
+        'somebody',
+        'wait',
+        'properly',
+        'before',
+        'answer',
+        'telephone',
+        'slip']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about waiting at your work (20 to 35 words). How long do people wait? '

@@ -314,6 +314,17 @@ PBE1.page('u3-s02', {
         }],
       model: ['TIMES — BACK STORE',
       'Gate: 7.00 (seven o\'clock) · First job: 7.15 (quarter past seven)'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['time',
+        'ways',
+        'before',
+        'half',
+        'past',
+        'both',
+        'work',
+        'thirty']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a times notice for your own work (15 words or more).',
@@ -418,6 +429,17 @@ PBE1.page('u3-s02', {
       'That is early…',
       'My break is…',
       'I finish at four…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['time',
+        'ways',
+        'before',
+        'half',
+        'past',
+        'both',
+        'work',
+        'thirty']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about your times at work (20 to 35 words). When do you start? When is '

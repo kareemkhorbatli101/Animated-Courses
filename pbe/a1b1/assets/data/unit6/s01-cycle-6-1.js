@@ -327,6 +327,17 @@ PBE1.page('u6-s01', {
       model: ['THE COUNTER TELEPHONE — SAY THIS',
       '1 Barada Stores, good morning'],
       stems: ['One moment, please…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['answering',
+        'things',
+        'order',
+        'slowly',
+        'company',
+        'name',
+        'words',
+        'forty']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a telephone card for your own work (15 words or more).',
@@ -439,6 +450,17 @@ PBE1.page('u6-s01', {
       stems: ['At the shop…',
       'Everybody says hello…',
       'Callers ask twice…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['answering',
+        'things',
+        'order',
+        'slowly',
+        'company',
+        'name',
+        'words',
+        'forty']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about the telephone at your work (20 to 35 words). Who answers it? '

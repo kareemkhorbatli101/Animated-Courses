@@ -328,6 +328,17 @@ PBE1.page('u6-s05', {
           + 'back?</th></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table>'
       },
       model: ['NUMBERS TAKEN — TUESDAY 17 MARCH'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['taking',
+        'telephone',
+        'number',
+        'groups',
+        'string',
+        'zero',
+        'hear',
+        'twelve']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a numbers list for one morning at your own work (15 words or more).',
@@ -436,6 +447,17 @@ PBE1.page('u6-s05', {
       stems: ['A customer gave…',
       'I rang a stranger…',
       'He waited two…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['taking',
+        'telephone',
+        'number',
+        'groups',
+        'string',
+        'zero',
+        'hear',
+        'twelve']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a telephone number that went wrong at your work (20 to 35 '

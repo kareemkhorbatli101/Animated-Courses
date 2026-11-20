@@ -324,6 +324,17 @@ PBE1.page('u5-s05', {
       model: ['COPYING AN ORDER NUMBER — THE THREE STEPS',
       '1 Read the customer\'s number out loud, digit by digit'],
       stems: ['Then read back…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['copying',
+        'number',
+        'checking',
+        'back',
+        'digit',
+        'thousand',
+        'hundred',
+        'seventeen']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a copying procedure for the numbers at your own work (15 words or more).',
@@ -427,6 +438,17 @@ PBE1.page('u5-s05', {
       stems: ['Last year an order…',
       'We sent the bread…',
       'The office found…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['copying',
+        'number',
+        'checking',
+        'back',
+        'digit',
+        'thousand',
+        'hundred',
+        'seventeen']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a number that was copied wrong at your work (20 to 35 words). '

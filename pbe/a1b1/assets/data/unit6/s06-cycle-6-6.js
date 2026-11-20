@@ -320,6 +320,17 @@ PBE1.page('u6-s06', {
       model: ['MESSAGE',
       'For: Nadia Sayegh Taken by: Samih Qassar'],
       stems: ['She has changed…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['promising',
+        'pass',
+        'message',
+        'chunk',
+        'learn',
+        'whole',
+        'apart',
+        'need']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a message slip for your own work (15 words or more).',
@@ -437,6 +448,17 @@ PBE1.page('u6-s06', {
       stems: ['A man rang…',
       'The lorry came…',
       'The driver found…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['promising',
+        'pass',
+        'message',
+        'chunk',
+        'learn',
+        'whole',
+        'apart',
+        'need']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a message at your work (20 to 35 words). Who took it? Did it '

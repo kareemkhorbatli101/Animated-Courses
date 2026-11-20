@@ -307,6 +307,17 @@ PBE1.page('u4-s02', {
           + '3</b></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table>'
       },
       model: ['SMALL STORE — ROWS 1 TO 3'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['rows',
+        'shelves',
+        'numbers',
+        'first',
+        'second',
+        'third',
+        'fourth',
+        'shelf']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a shelf list for your own store (15 words or more). Use a table with '
@@ -415,6 +426,17 @@ PBE1.page('u4-s02', {
       stems: ['My store has…',
       'Shelf one is…',
       'Shelf four is…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['rows',
+        'shelves',
+        'numbers',
+        'first',
+        'second',
+        'third',
+        'fourth',
+        'shelf']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about your store (20 to 35 words). How many rows? How many shelves? '

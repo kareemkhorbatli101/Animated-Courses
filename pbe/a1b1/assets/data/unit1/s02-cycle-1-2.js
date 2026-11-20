@@ -281,6 +281,17 @@ PBE1.page('u1-s02', {
       model: ['Name: SAMIH QASSAR Job: Storeman Number: 38 Start: 4 March',
       'My surname is Qassar. It has six letters'],
       stems: ['It has six…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['letters',
+        'asking',
+        'spell',
+        'again',
+        'slowly',
+        'hard',
+        'ones',
+        'sound']
+      },
       coach: {
         title: 'What to include',
         task: 'Write your own badge (15 words or more).',
@@ -381,6 +392,17 @@ PBE1.page('u1-s02', {
       'It is a hard…',
       'People write Sibay…',
       'It is an…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['letters',
+        'asking',
+        'spell',
+        'again',
+        'slowly',
+        'hard',
+        'ones',
+        'sound']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about a name that is hard to spell (20 to 35 words). Whose name is it? '

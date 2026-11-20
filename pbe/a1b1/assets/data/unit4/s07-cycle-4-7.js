@@ -324,6 +324,17 @@ PBE1.page('u4-s07', {
       stems: ['They stand behind…',
       'They bend on the…',
       'Please change the map…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['review',
+        'things',
+        'unit',
+        'thing',
+        'right',
+        'about',
+        'shelf',
+        'findable']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a message saying you moved something (four sentences, about 30 words). '
@@ -413,6 +424,17 @@ PBE1.page('u4-s07', {
       stems: ['It is on the…',
       'It stuck out…',
       'Please change the…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['review',
+        'things',
+        'unit',
+        'thing',
+        'right',
+        'about',
+        'shelf',
+        'findable']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a message to your supervisor about a thing you moved (four sentences, '

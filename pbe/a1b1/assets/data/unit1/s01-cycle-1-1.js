@@ -296,6 +296,17 @@ PBE1.page('u1-s01', {
         }],
       model: ['Date: 4 March Name: Samih Qassar Job: storeman In: 7.00 Out: 4.00',
       'My name is Samih Qassar and I am the storeman'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['grammar',
+        'english',
+        'needs',
+        'sentence',
+        'ammar',
+        'before',
+        'words',
+        'storeman']
+      },
       coach: {
         title: 'What to include',
         task: 'Write your own line in the gate book (15 words or more). Use the words below.',
@@ -397,6 +408,17 @@ PBE1.page('u1-s01', {
       'I am the storeman…',
       'I start at seven…',
       'I finish at four…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['grammar',
+        'english',
+        'needs',
+        'sentence',
+        'ammar',
+        'before',
+        'words',
+        'storeman']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about your first day (20 to 35 words). Say your name, your job, the '

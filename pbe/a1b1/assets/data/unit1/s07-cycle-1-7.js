@@ -309,6 +309,17 @@ PBE1.page('u1-s07', {
       stems: ['I am the new…',
       'I am in the…',
       'I start at half…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['review',
+        'things',
+        'unit',
+        'thing',
+        'people',
+        'both',
+        'right',
+        'raed']
+      },
       coach: {
         title: 'What to include',
         task: 'You are new at work. Write a message to a colleague (four sentences, about '
@@ -397,6 +408,17 @@ PBE1.page('u1-s07', {
       stems: ['I am Samih…',
       'The key to the…',
       'Please ask me…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['review',
+        'things',
+        'unit',
+        'thing',
+        'people',
+        'both',
+        'right',
+        'raed']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a message to a new colleague (four sentences, about 30 words). Say '

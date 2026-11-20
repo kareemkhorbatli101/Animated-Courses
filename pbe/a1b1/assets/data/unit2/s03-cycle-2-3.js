@@ -292,6 +292,17 @@ PBE1.page('u2-s03', {
       model: ['SHELF 4 — WHAT IS HERE',
       'Packets: 25 in a packet. Cartons: 8 packets in a carton. Pallet: 36 '
         + 'cartons on a full pallet'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['than',
+        'cartons',
+        'carton',
+        'before',
+        'order',
+        'empty',
+        'shelf',
+        'word']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a shelf card for your own work (15 words or more).',
@@ -390,6 +401,17 @@ PBE1.page('u2-s03', {
       'A packet has…',
       'A carton has…',
       'The pallet is…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['than',
+        'cartons',
+        'carton',
+        'before',
+        'order',
+        'empty',
+        'shelf',
+        'word']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about the things you count at your work (20 to 35 words). What is the '

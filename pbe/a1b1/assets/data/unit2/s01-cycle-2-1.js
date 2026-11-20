@@ -280,6 +280,17 @@ PBE1.page('u2-s01', {
       model: ['COUNT — 11 MARCH — BACK STORE',
       'cartons, pallet 1 — 20 · cartons, floor — 4 · rolls, shelf 1 — 12 · '
         + 'TOTAL cartons — 24'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['numbers',
+        'asking',
+        'cartons',
+        'twelve',
+        'floor',
+        'things',
+        'count',
+        'rolls']
+      },
       coach: {
         title: 'What to include',
         task: 'Write a count sheet for your own work (15 words or more).',
@@ -377,6 +388,17 @@ PBE1.page('u2-s01', {
       'It takes about…',
       'I write the number…',
       'Abu Yasser reads…'],
+      meter: {
+        label: 'words from this lesson',
+        words: ['numbers',
+        'asking',
+        'cartons',
+        'twelve',
+        'floor',
+        'things',
+        'count',
+        'rolls']
+      },
       coach: {
         title: 'What to include',
         task: 'Write about counting at your work (20 to 35 words). What do you count? How '
