@@ -48,10 +48,10 @@ out.push(pb());
 out.push(h2('2 · Materials specification'));
 out.push(p('Each cycle needs three short texts. **These lengths are the specification** — writing to them keeps the timings honest.'));
 out.push(table(['', 'Course 1 · A2', 'Course 2 · B1', 'Course 3 · B2'], [
-  ['**Reading**', '132–190 words', '191–263 words', '271–360 words'],
-  ['**Conversation**', '10–11 turns', '12–13 turns', '14–17 turns'],
-  ['**Writing model**', '37–75 words', '101–163 words', '145–202 words'],
-  ['**What learners write**', '37–75 words', '101–163 words', '145–202 words'],
+  ['**Reading**', '137–190 words', '194–287 words', '272–359 words'],
+  ['**Conversation**', '10–11 turns', '12–13 turns', '12–17 turns'],
+  ['**Writing model**', '41–75 words', '90–121 words', '147–198 words'],
+  ['**What learners write**', '41–75 words', '90–121 words', '147–198 words'],
   ['**Case-study pack**', '3 short documents', '3 documents, one incomplete', '3 documents, at least one of them contradicting another'],
 ], [1.5, 1.8, 1.8, 2.4]));
 out.push(sp());
@@ -88,15 +88,15 @@ out.push(h2('5 · Portfolio and progress'));
 
 // ---- the sessions ----
 const COURSES = [
-  { from: 1, to: 12, h: 'COURSE 1 · Pre-Intermediate', sub: 'From your first shift to a colleague the shift depends on',
-    arc: 'The learner arrives on a first shift unable to operate, and leaves able to be relied on: to take a booking accurately, keep a board and a log a second person can trust, answer for the property on the telephone and at the desk, be trusted with keys and cash, say no to a guest without losing them, account for a shift and hand it on.',
-    role: 'Receptionist · housekeeping room attendant · night porter and door security · reservations clerk · restaurant or bar waiter · kitchen porter and commis · banqueting assistant · guesthouse all-rounder' },
-  { from: 13, to: 24, h: 'COURSE 2 · Intermediate', sub: 'From dependable pair of hands to owning a section and a guest',
-    arc: 'The learner is given something of their own — a section, a shift, a guest, a group — and learns the language that ownership requires: explaining what happened and why, training somebody else on the floor, offering options with their cost, recommending with a reservation, handling a complaint that has already been made worse, and reporting upward including what did not happen.',
-    role: 'Shift leader on the desk · housekeeping floor supervisor · reservations supervisor · restaurant or bar supervisor · head waiter · events coordinator · duty manager in a small property · guesthouse manager' },
-  { from: 25, to: 36, h: 'COURSE 3 · Upper-Intermediate', sub: 'From owning a section to running a department and answering to owners and inspectors',
-    arc: 'The learner becomes answerable for other people\'s work and for the property\'s word. Three sessions are given to supervision itself — delegating, inducting, appraising and chairing — and the course runs on through writing the rule a department follows, naming risk before it lands, negotiating with agents and suppliers, answering a licensing committee, and arguing for the learner\'s own next post.',
-    role: 'Front of house manager · head of housekeeping · food and beverage manager · rooms division manager · deputy general manager · general manager of a guesthouse or small hotel' },
+  { from: 1, to: 12, h: 'COURSE 1 · Pre-Intermediate', sub: 'From your first week in the network to a colleague the shift depends on',
+    arc: 'The learner arrives in a control room or a van unable to operate, and leaves able to be relied on: to take a fault report accurately, keep a log and a register a second person can trust, answer for the company on the telephone, be trusted with site access and spares, hold a safety rule under pressure, account for a shift and hand it on.',
+    role: 'Control-room operator · field technician (towers and power) · service desk agent · fibre and transmission assistant · retail and dealer channel assistant · stores and spares clerk · billing clerk' },
+  { from: 13, to: 24, h: 'COURSE 2 · Intermediate', sub: 'From dependable pair of hands to owning a site, a figure and a customer',
+    arc: 'The learner is given something of their own — a site, a figure, a customer, a project — and learns the language that ownership requires: explaining an outage so that a reader who was not there can follow it, training somebody on live equipment, explaining why a figure moved, pressing a claim on a vendor, recommending with a reservation, and reporting upward including what did not happen.',
+    role: 'Shift engineer · site owner in field maintenance · transmission or fibre supervisor · corporate account manager · revenue assurance analyst · dealer channel officer · customer care team leader' },
+  { from: 25, to: 36, h: 'COURSE 3 · Upper-Intermediate', sub: 'From owning a site to running a team and answering to vendors, carriers and the regulator',
+    arc: 'The learner becomes answerable for other people\'s work and for the operator\'s word. Three sessions are given to supervision itself — delegating, appraising and chairing — and the course runs on through writing the standard a team follows, naming risk before it lands, negotiating with vendors and carriers, answering a regulator, and arguing for the learner\'s own next post.',
+    role: 'Operations manager · transmission manager · head of customer care · commercial manager (international) · regulatory affairs manager · security and fraud manager · deputy technical director' },
 ];
 
 COURSES.forEach(co => {
@@ -133,7 +133,7 @@ out.push(table(['For', 'Draw on'], [
   ['**Course 1**', 'Proactive Business English A2 Book 1; A1 Book 2 for weaker entrants'],
   ['**Course 2**', 'Proactive Business English B1 Books 1 and 2'],
   ['**Course 3**', 'Proactive Business English B2 Books 1 and 2'],
-  ['**Sector colour for case studies**', 'Front desk and reception · Housekeeping · Security and night duty · Reservations and revenue · Maintenance and engineering · Concierge and guest services · Restaurant service · Bar and café · Banqueting and events · Kitchen and food safety · Tours and excursions · Guesthouses and heritage properties'],
+  ['**Sector colour for case studies**', 'Network operations centre · Field maintenance and towers · Customer care and complaints · Enterprise and corporate accounts · Fibre and transmission projects · Retail and the dealer channel · Interconnect and international roaming · Billing and revenue assurance · Information security and fraud · Spectrum, licensing and the regulator · Satellite and international capacity · Vendor and equipment procurement'],
 ], [1.4, 5]));
 out.push(sp());
 out.push(h3('The supervision sessions, checked line by line'));

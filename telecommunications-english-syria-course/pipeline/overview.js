@@ -10,17 +10,17 @@ out.push(p('**A 72-hour programme in three courses · Pre-Intermediate, Intermed
 out.push(p('_Programme overview for the head of centre_', { color: '7F7F7F' }));
 out.push(sp());
 out.push(box('The proposal in one paragraph', [
-  'Three courses of **12 two-hour sessions** take a young adult from a first shift on the floor to running a department and answering to owners and inspectors. Each session teaches **one job-shaped skill** through **three short cycles** — a reading, a conversation and a piece of writing — and closes with a **case study** set in a named department or kind of property. Every cycle is paired practice followed by a report to the class, so the learners talk for most of the two hours. Each session ends with something written that a learner could use at work the next morning.',
-  '**Total: 72 teaching hours · 36 sessions · 144 teaching blocks · 36 case studies across 12 areas of hospitality.**',
+  'Three courses of **12 two-hour sessions** take a young adult from a first week in a control room or a van to running a team and answering to vendors, carriers and the regulator. Each session teaches **one job-shaped skill** through **three short cycles** — a reading, a conversation and a piece of writing — and closes with a **case study** set in a named part of the network. Every cycle is paired practice followed by a report to the class, so the learners talk for most of the two hours. Each session ends with something written that a learner could use at work the next morning.',
+  '**Total: 72 teaching hours · 36 sessions · 144 teaching blocks · 36 case studies across 12 areas of telecommunications.**',
 ], C.lblue, C.navy));
 
 // ---------- 1 ----------
 out.push(h2('1 · The programme at a glance'));
 out.push(table(['Course', 'Level', 'Sessions', 'Hours', 'The learner goes from … to …'], [
   ['**Course 1**', 'Pre-Intermediate\n(CEFR A2)', '12', '24', 'new joiner on day one → **a colleague others depend on**'],
-  ['**Course 2**', 'Intermediate\n(CEFR B1)', '12', '24', 'dependable pair of hands → **someone who owns a section, a shift and a guest**'],
+  ['**Course 2**', 'Intermediate\n(CEFR B1)', '12', '24', 'dependable pair of hands → **someone who owns a site, a figure and a customer**'],
   ['**Course 3**', 'Upper-Intermediate\n(CEFR B2)', '12', '24', 'trusted owner → **a supervisor, and a manager of a small team**'],
-  ['**Series**', 'A2 → B2', '**36**', '**72**', 'first shift at work → **running a department and speaking for the property**'],
+  ['**Series**', 'A2 → B2', '**36**', '**72**', 'first week at work → **running a team and speaking for the operator**'],
 ], [1, 1.5, 0.8, 0.7, 4.5]));
 out.push(p('**Class size 10**, which gives **five pairs** — the unit the whole design rests on. Live, in person.'));
 
@@ -28,14 +28,14 @@ out.push(p('**Class size 10**, which gives **five pairs** — the unit the whole
 out.push(h2('2 · Who it benefits, and how'));
 out.push(h3('The learners'));
 [
- 'They are about to join, or have just joined, a hotel, a restaurant or a guesthouse — where English is the language of the guest and of the paper trail: bookings and rooming lists, handover logs and incident reports, agent contracts, supplier terms, inspection findings and the licensing committee.',
+ 'They are about to join, or have just joined, a Syrian operator or vendor — where English is the language of the paper trail and of every counterpart abroad: vendor contracts, interconnect and roaming agreements, incident reports, licence conditions, regulatory submissions and settlement files that arrive from eight countries.',
  'Each course answers a different problem. **Course 1:** *I can speak some English but I freeze at work.* **Course 2:** *I can cope, but I cannot explain, report or advise.* **Course 3:** *I am being given people and decisions, and my English is now the limit.*',
  'Nothing is taught in the abstract: every cycle elicits the learner\'s own job, study or intended job, and the pair practice runs on that.',
 ].forEach(t => out.push(bullet(t)));
 out.push(h3('The employers who take them'));
 [
  'The programme produces written evidence, not just fluency. A graduate arrives able to write a handover, an incident report, a recommendation or an appraisal in a form a manager can act on.',
- 'It is **department-neutral within hospitality**. One cohort can contain a receptionist, a housekeeping attendant and a restaurant waiter, and all three practise the same skill in their own department.',
+ 'It is **team-neutral within telecoms**. One cohort can contain a control-room engineer, a field technician and a billing analyst, and all three practise the same skill in their own part of the network.',
 ].forEach(t => out.push(bullet(t)));
 out.push(h3('The centre'));
 [
@@ -47,17 +47,17 @@ out.push(h3('The centre'));
 out.push(pb());
 // ---------- 3 ----------
 out.push(h2('3 · The business environment the learners enter'));
-out.push(p('The programme assumes learners work in different parts of a property, not one. Twelve hospitality contexts carry the case studies:'));
+out.push(p('The programme assumes learners work in different parts of an operator, not one. Twelve telecoms contexts carry the case studies:'));
 out.push(table(['', '', ''], [
-  ['Front desk and reception', 'Housekeeping', 'Security and night duty'],
-  ['Reservations and revenue', 'Maintenance and engineering', 'Concierge and guest services'],
-  ['Restaurant service', 'Bar and café', 'Banqueting and events'],
-  ['Kitchen and food safety', 'Tours and excursions', 'Guesthouses and heritage properties'],
+  ['Network operations centre', 'Field maintenance and towers', 'Customer care and complaints'],
+  ['Enterprise and corporate accounts', 'Fibre and transmission projects', 'Retail and the dealer channel'],
+  ['Interconnect and international roaming', 'Billing and revenue assurance', 'Information security and fraud'],
+  ['Spectrum, licensing and the regulator', 'Satellite and international capacity', 'Vendor and equipment procurement'],
 ], [1, 1, 1], { headFill: C.teal }));
 out.push(sp());
 out.push(box('What English is actually used FOR in these organizations', [
-  '**Upward and outward paper:** handover notes, incident and maintenance reports, decision papers for an owner, submissions to a licensing committee and responses to an inspection — usually written, usually read by someone who was not there.',
-  '**Guests and trade contact:** guests, travel agents, tour operators, suppliers and contractors, often where neither side is a native speaker.',
+  '**Upward and outward paper:** incident reports, monthly returns, decision papers for a director, claims on carriers and vendors, regulatory submissions and responses to an inspection — usually written, usually read by someone who was not there.',
+  '**Vendor and carrier contact:** equipment vendors, foreign carriers, contractors and the regulator, often where neither side is a native speaker.',
   '**The record:** forms, files, logs, minutes, specifications and handovers, which outlive the person who wrote them.',
   '**People:** inducting, instructing, correcting and appraising colleagues — the part that arrives with promotion and that most courses never teach.',
   '⚠ **This is why the programme is weighted towards writing that someone acts on**, rather than towards conversational fluency alone.',
@@ -68,9 +68,9 @@ out.push(h2('4 · How a session runs — the teaching style'));
 out.push(p('**Every one of the 36 sessions has the same four blocks.** The shape never changes, so learners stop needing instructions after week two and the time goes into the language instead.'));
 out.push(table(['Block', 'Minutes', 'What happens'], [
   ['**Cycle 1**', '26', 'One job-shaped sub-skill, through a reading, a conversation and a short piece of writing'],
-  ['**Cycle 2**', '26', 'The same skill, a second angle and a different department'],
+  ['**Cycle 2**', '26', 'The same skill, a second angle and a different part of the network'],
   ['**Cycle 3**', '26', 'The same skill, a third angle; this cycle\'s writing is the session\'s portfolio piece'],
-  ['**Case study**', '35', 'One scenario in a named department or property, worked in fours, ending in a decision and a document'],
+  ['**Case study**', '35', 'One scenario in a named part of the network, worked in fours, ending in a decision and a document'],
   ['Transitions', '7', 'Settling, regrouping into fours, collecting written work'],
   ['**Total**', '**120**', ''],
 ], [1.2, 0.8, 5]));
@@ -99,61 +99,61 @@ out.push(table(['What a learner experiences', 'Why it is built that way'], [
   ['"Every example is about my own work, or the work I want."', 'Phase 3 elicits from the learner before any practice begins, so the pair task runs on their material and not the book\'s.'],
   ['"I practise with one person before I speak in front of eleven."', 'Pair work always precedes the report. Nobody is exposed cold.'],
   ['"I leave with something I could actually send tomorrow."', 'Every cycle ends in writing; one piece per session goes into the portfolio.'],
-  ['"My own department keeps coming up."', 'Twelve hospitality contexts, each appearing once per course — so a learner meets their own work three times across the series, harder each time.'],
+  ['"My own part of the network keeps coming up."', 'Twelve telecoms contexts, each appearing once per course — so a learner meets their own work three times across the series, harder each time.'],
   ['"I can see what I could not do last month."', 'Session headings are written as capabilities, not topics. The learner reads the course outline as a list of things they will be able to do.'],
 ], [2.6, 3.4]));
 
 // ---------- 6 ----------
 out.push(h2('6 · How the skills build across the three courses'));
 out.push(table(['', 'Course 1 · A2', 'Course 2 · B1', 'Course 3 · B2'], [
-  ['**Reading**', 'Boards, notices, booking slips, short profiles — 132–190 words', 'Incident reports, procedures, handover logs, breakdowns — 191–263 words', 'Rules, clauses, submissions, inspection findings — 271–360 words'],
+  ['**Reading**', 'Tickets, logs, notices, short profiles — 137–190 words', 'Incident reports, procedures, options papers, breakdowns — 194–287 words', 'Standards, clauses, submissions, inspection findings — 272–359 words'],
   ['**Speaking**', 'Transactions and short exchanges; asking for repetition', 'Explaining, advising, pressing a case, reporting what others said', 'Chairing, delegating, giving feedback, negotiating, disagreeing upward'],
-  ['**Writing**', 'Notes, slips, logs, a four-line handover — 37–75 words', 'Reports, explanations, recommendations — 101–163 words', 'Decision notes, rules, appraisals, submissions — 145–202 words'],
-  ['**The move it teaches**', 'Be understood, and be reliable', 'Explain, report and advise — own a section', 'Decide, supervise, and speak for the property'],
-  ['**Responsibility**', 'Answerable for your own tasks', 'Answerable for a section, a shift and a guest', 'Answerable for other people\'s work'],
+  ['**Writing**', 'Notes, slips, logs, a three-line handover — 41–75 words', 'Reports, explanations, recommendations — 90–121 words', 'Decision papers, standards, appraisals, submissions — 147–198 words'],
+  ['**The move it teaches**', 'Be understood, and be reliable', 'Explain, report and advise — own a site and a figure', 'Decide, supervise, and speak for the operator'],
+  ['**Responsibility**', 'Answerable for your own tasks', 'Answerable for a site, a figure and a customer', 'Answerable for other people\'s work'],
 ], [1.3, 2.1, 2.1, 2.1]));
 out.push(p('⚠ **The build-up is deliberate and cumulative.** Three threads run the whole 72 hours and are revisited at rising difficulty: **being honest about what you did not do and cannot evidence** (Course 1 S9 → Course 2 S14 → Course 3 S28); **giving a number its unit, basis and source** (C1 S4 → C2 S16 and S20 → C3 S27); and **writing so that the reader can act** (C1 S12 → C2 S19 → C3 S25).'));
 
 out.push(pb());
 // ---------- 7 ----------
 out.push(h2('7 · The 36 session headings'));
-out.push(h3('Course 1 · Pre-Intermediate — from your first shift to a colleague the shift depends on'));
+out.push(h3('Course 1 · Pre-Intermediate — from your first week in the network to a colleague the shift depends on'));
 out.push(table(['#', 'Session', 'What the learner can do afterwards'],
   S.filter(x => x.n > 0 && x.n <= 12).map(x => [String(x.n), '**' + x.t + '**', x.aim]),
   [0.4, 3.1, 3.5]));
 
 out.push(sp());
-out.push(h3('Course 2 · Intermediate — from dependable pair of hands to owning a section and a guest'));
+out.push(h3('Course 2 · Intermediate — from dependable pair of hands to owning a site, a figure and a customer'));
 out.push(table(['#', 'Session', 'What the learner can do afterwards'],
   S.filter(x => x.n > 12 && x.n <= 24).map(x => [String(x.n), '**' + x.t + '**', x.aim]),
   [0.4, 3.1, 3.5]));
 
 out.push(sp());
-out.push(h3('Course 3 · Upper-Intermediate — from owning a section to running a department and answering to owners and inspectors'));
+out.push(h3('Course 3 · Upper-Intermediate — from owning a site to running a team and answering to vendors, carriers and the regulator'));
 out.push(table(['#', 'Session', 'What the learner can do afterwards'],
   S.filter(x => x.n > 24 && x.n <= 36).map(x => [String(x.n), '**' + x.t + '**', x.aim]),
   [0.4, 3.1, 3.5]));
 
 out.push(pb());
 // ---------- 8 ----------
-out.push(h2('8 · The context map — every learner meets their own department three times'));
-out.push(p('Each case study is set in one of the twelve hospitality contexts, and **each context appears exactly once per course**. A learner on night duty meets their own work in sessions 3, 24 and 28, each time at a higher level of responsibility.'));
+out.push(h2('8 · The context map — every learner meets their own part of the network three times'));
+out.push(p('Each case study is set in one of the twelve telecoms contexts, and **each context appears exactly once per course**. A learner in the control room meets their own work in sessions 1, 14 and 31, each time at a higher level of responsibility.'));
 // built from scheme-data so the map cannot drift from the books
 const CTX = []; const seen = {};
 S.forEach(x => { if (!(x.cs.sec in seen)) { seen[x.cs.sec] = [x.cs.sec]; CTX.push(seen[x.cs.sec]); } seen[x.cs.sec].push('S' + x.n); });
-out.push(table(['Hospitality context', 'Course 1', 'Course 2', 'Course 3'], CTX, [3.2, 1, 1, 1]));
+out.push(table(['Telecoms context', 'Course 1', 'Course 2', 'Course 3'], CTX, [3.2, 1, 1, 1]));
 
 // ---------- 9 ----------
-out.push(h2('9 · The hospitality posts each course supports'));
+out.push(h2('9 · The telecoms posts each course supports'));
 out.push(p('These are the **kinds of post the language level supports** — the English a learner needs in order to function in them. They are a statement about the course, not a prediction about any individual\'s employment.'));
 out.push(table(['After', 'Typical posts the level supports', 'What the learner can now be relied on for'], [
-  ['**Course 1**\nA2', 'Receptionist · housekeeping room attendant · night porter and door security · reservations clerk · restaurant or bar waiter · kitchen porter and commis · banqueting assistant · guesthouse all-rounder', 'Being understood at the desk and on the floor, taking a booking accurately, keeping a board and a log a second person can trust, answering for the property on the telephone, saying no to a guest without losing them, accounting for a shift and handing it on'],
-  ['**Course 2**\nB1', 'Shift leader on the desk · housekeeping floor supervisor · reservations supervisor · restaurant or bar supervisor · head waiter · events coordinator · duty manager in a small property · guesthouse manager', 'Owning a section and a guest: explaining why occupancy or covers moved, training somebody on the floor, offering options with their cost, recommending with a reservation, and being on the record at the morning meeting'],
-  ['**Course 3**\nB2', 'Front of house manager · head of housekeeping · food and beverage manager · rooms division manager · deputy general manager · general manager of a guesthouse or small hotel', 'Other people\'s work and the property\'s word: delegating, inducting, appraising, chairing the heads of department meeting, writing the standard a department follows, naming risk before it lands, negotiating with agents and suppliers, disagreeing upward, and answering a licensing committee'],
+  ['**Course 1**\nA2', 'Control-room operator · field technician (towers and power) · service desk agent · fibre and transmission assistant · retail and dealer channel assistant · stores and spares clerk · billing clerk', 'Being understood in the control room and on site, taking a fault report accurately, keeping a log a second person can trust, answering for the company on the telephone, holding a safety rule under pressure, accounting for a shift and handing it on'],
+  ['**Course 2**\nB1', 'Shift engineer · site owner in field maintenance · transmission or fibre supervisor · corporate account manager · revenue assurance analyst · dealer channel officer · customer care team leader', 'Owning a site and a figure: explaining an outage so a reader who was not there can follow it, training somebody on live equipment, explaining why a figure moved, pressing a claim on a vendor or carrier, recommending with a reservation, and being on the record at the morning meeting'],
+  ['**Course 3**\nB2', 'Operations manager · transmission manager · head of customer care · commercial manager (international) · regulatory affairs manager · security and fraud manager · deputy technical director', 'Other people\'s work and the operator\'s word: delegating, appraising, chairing an operations review, writing the standard a team follows, naming risk before it lands, negotiating with vendors and carriers, disagreeing upward, and answering a regulator'],
 ], [0.9, 3.3, 3]));
 out.push(sp());
 out.push(box('The series as a whole', [
-  'A learner who completes all three courses has moved **from being managed to managing** — and has done it in English, which is the constraint that usually stops a capable young hotel employee at the supervisor grade.',
+  'A learner who completes all three courses has moved **from being managed to managing** — and has done it in English, which is the constraint that usually stops a capable young engineer at the officer grade.',
   '⚠ **The distinctive claim is the last course.** It does not stop at writing *for* managers; it teaches the language of *being* one: delegating so work comes back right, inducting a newcomer, giving a criticism someone can act on, chairing an item to a close, and arguing against a decision already taken above them.',
   '**Evidence of it:** 36 portfolio pieces, one per session, which together form a written record an employer can read.',
 ], C.lblue, C.navy));
@@ -180,7 +180,7 @@ out.push(h3('How progress is evidenced'));
 // ---------- 11 ----------
 out.push(h2('11 · Scope and accuracy notes'));
 out.push(box('Please read these before quoting any figure in this document', [
-  '**The numbers here describe the course, and are exact:** 3 courses · 36 sessions · 72 teaching hours · 144 teaching blocks · 36 case studies · 12 hospitality contexts, each appearing once per course · 10 learners, 5 pairs · 432 distinct vocabulary items, none repeated.',
+  '**The numbers here describe the course, and are exact:** 3 courses · 36 sessions · 72 teaching hours · 144 teaching blocks · 36 case studies · 12 telecoms contexts, each appearing once per course · 10 learners, 5 pairs · 432 distinct vocabulary items, none repeated.',
   '**Levels are a design statement.** The three courses are written to the ground covered by CEFR A2, B1 and B2. **No external certification, accreditation or examination is part of this programme.**',
   '**The role lists in section 9 describe the posts the language level supports.** They are not employment outcomes and should not be presented to learners as such.',
   '**The timings in section 4 are the design model.** A teacher may move minutes between blocks; the programme assumes the four blocks are all present.',
