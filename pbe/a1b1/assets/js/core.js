@@ -341,7 +341,11 @@
     exportAll: function () { return JSON.stringify({ v: 1, saved: new Date().toISOString(), progress: this.all }, null, 2); }
   };
 
-  var PREFS = PBE1.prefs = readJSON(PREF, { theme: 'auto', subEn: true, subAr: false, speed: 1 });
+  /* `keyWords` added 2026-11-20: the picture that appears as a drawable word is
+   spoken. On by default - the support is for the learner who cannot yet catch
+   the word, and they are the ones least likely to go looking for a switch. */
+  var PREFS = PBE1.prefs = readJSON(PREF, { theme: 'auto', subEn: true, subAr: false,
+                                            speed: 1, keyWords: true });
   PBE1.savePrefs = function () { writeJSON(PREF, PREFS); };
 
   /* ============================================================
@@ -467,10 +471,12 @@
     var sub = U.el('div', 'tp-seg');
     sub.innerHTML =
       '<button type="button" data-sub="en" aria-pressed="' + (PREFS.subEn ? 'true' : 'false') + '">EN subs</button>' +
-      '<button type="button" data-sub="ar" aria-pressed="' + (PREFS.subAr ? 'true' : 'false') + '">AR ترجمة</button>';
+      '<button type="button" data-sub="ar" aria-pressed="' + (PREFS.subAr ? 'true' : 'false') + '">AR ترجمة</button>' +
+      '<button type="button" data-sub="kw" aria-pressed="' + (PREFS.keyWords ? 'true' : 'false') + '">Key words</button>';
     sub.addEventListener('click', function (ev) {
       var b = ev.target.closest('button[data-sub]'); if (!b) return;
-      var k = b.getAttribute('data-sub') === 'en' ? 'subEn' : 'subAr';
+      var w = b.getAttribute('data-sub');
+      var k = w === 'en' ? 'subEn' : (w === 'ar' ? 'subAr' : 'keyWords');
       PREFS[k] = !PREFS[k]; PBE1.savePrefs();
       b.setAttribute('aria-pressed', PREFS[k] ? 'true' : 'false');
       if (PBE1.cine) PBE1.cine.applySubPrefs();

@@ -27,6 +27,7 @@ PBE1.page('u3-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying you are late'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -162,6 +163,7 @@ PBE1.page('u3-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying you are late'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -293,6 +295,7 @@ PBE1.page('u3-s06', {
         }],
       model: ['FOR ABU YASSER — 15 MARCH',
       'I was 30 minutes late. The bus did not come'],
+      stems: ['The bus did…'],
       coach: {
         title: 'What to include',
         task: 'Write a late note for your own work (15 words or more).',
@@ -366,6 +369,7 @@ PBE1.page('u3-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying you are late'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -386,6 +390,9 @@ PBE1.page('u3-s06', {
       model: ['In February I was forty minutes late. The bus did not come and I '
         + 'waited at Mazzeh. Hani opened the store for me. Now I take the bus '
         + 'before it, every day'],
+      stems: ['The bus did…',
+      'Hani opened the store…',
+      'Now I take…'],
       coach: {
         title: 'What to include',
         task: 'Write about a day you were late (20 to 35 words). How late? Why? Who did '
@@ -456,6 +463,7 @@ PBE1.page('u3-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying you are late'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

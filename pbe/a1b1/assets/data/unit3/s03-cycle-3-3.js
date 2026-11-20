@@ -26,6 +26,10 @@ PBE1.page('u3-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['What I do every day',
+      '2 I read the shift board',
+      '3 I check the shelves',
+      '6 I sign out'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -164,6 +168,10 @@ PBE1.page('u3-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['What I do every day',
+      '2 I read the shift board',
+      '3 I check the shelves',
+      '6 I sign out'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -214,6 +222,10 @@ PBE1.page('u3-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['What I do every day',
+      '2 I read the shift board',
+      '3 I check the shelves',
+      '6 I sign out'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Tell the class: First I . Then I . After that I .',
@@ -370,6 +382,10 @@ PBE1.page('u3-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['What I do every day',
+      '2 I read the shift board',
+      '3 I check the shelves',
+      '6 I sign out'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -390,6 +406,10 @@ PBE1.page('u3-s03', {
       model: ['First I open the back store and read the count sheet. Then I check the '
         + 'shelves. That is the longest job, two hours. After that I write the '
         + 'numbers and lock the door'],
+      stems: ['First I open…',
+      'Then I check…',
+      'That is the longest…',
+      'After that I…'],
       coach: {
         title: 'What to include',
         task: 'Write about your day at work (20 to 35 words). What do you do first? What do '
@@ -462,6 +482,10 @@ PBE1.page('u3-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['What I do every day',
+      '2 I read the shift board',
+      '3 I check the shelves',
+      '6 I sign out'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

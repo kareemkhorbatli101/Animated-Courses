@@ -27,6 +27,8 @@ PBE1.page('u1-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['When you do not understand',
+      'Row 3, shelf 2'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -156,6 +158,8 @@ PBE1.page('u1-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['When you do not understand',
+      'Row 3, shelf 2'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -290,6 +294,7 @@ PBE1.page('u1-s06', {
         }],
       model: ['FOR HANI — 11 MARCH',
       '15 rolls (one five — NOT 50) Place: row 6, shelf 1'],
+      stems: ['Do not leave…'],
       coach: {
         title: 'What to include',
         task: 'Write a paper for one person at your work (15 words or more).',
@@ -332,6 +337,8 @@ PBE1.page('u1-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['When you do not understand',
+      'Row 3, shelf 2'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Change books. Point at the line. Read it aloud. Say the one thing '
@@ -361,6 +368,8 @@ PBE1.page('u1-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['When you do not understand',
+      'Row 3, shelf 2'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -381,6 +390,10 @@ PBE1.page('u1-s06', {
       model: ['A driver told me sixty cartons. I wrote sixteen. I did not ask again. '
         + 'We sent sixteen and the customer telephoned in the afternoon. Now I '
         + 'always say: is it sixteen or sixty?'],
+      stems: ['A driver told…',
+      'I wrote sixteen…',
+      'I did not…',
+      'We sent sixteen…'],
       coach: {
         title: 'What to include',
         task: 'Write about a time you did not understand at work (20 to 35 words). What was '
@@ -451,6 +464,8 @@ PBE1.page('u1-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['When you do not understand',
+      'Row 3, shelf 2'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

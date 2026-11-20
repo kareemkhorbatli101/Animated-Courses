@@ -27,6 +27,7 @@ PBE1.page('u6-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Making somebody wait, properly'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -169,6 +170,7 @@ PBE1.page('u6-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Making somebody wait, properly'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -400,6 +402,7 @@ PBE1.page('u6-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Making somebody wait, properly'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -420,6 +423,9 @@ PBE1.page('u6-s03', {
       model: ['Callers wait two or three minutes at our shop because the prices are '
         + 'in the office upstairs. Two have rung off this month. If the list was '
         + 'by the till nobody would wait'],
+      stems: ['Callers wait two…',
+      'Two have rung…',
+      'If the list…'],
       coach: {
         title: 'What to include',
         task: 'Write about waiting at your work (20 to 35 words). How long do people wait? '
@@ -497,6 +503,7 @@ PBE1.page('u6-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Making somebody wait, properly'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

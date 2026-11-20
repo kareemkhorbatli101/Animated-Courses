@@ -410,6 +410,10 @@ PBE1.page('u6-s02', {
       model: ['A man rang about a big order and I could not get his name. He said it '
         + 'four times. I was too embarrassed to ask for the letters. He never '
         + 'rang back'],
+      stems: ['A man rang…',
+      'He said it…',
+      'I was too…',
+      'He never rang…'],
       coach: {
         title: 'What to include',
         task: 'Write about a name you could not get on the telephone (20 to 35 words). What '

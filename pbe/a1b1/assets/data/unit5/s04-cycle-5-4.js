@@ -27,6 +27,8 @@ PBE1.page('u5-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Goods received by: Ammar Zreik',
+      'Signature: A. Zreik'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -165,6 +167,8 @@ PBE1.page('u5-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Goods received by: Ammar Zreik',
+      'Signature: A. Zreik'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -387,6 +391,8 @@ PBE1.page('u5-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Goods received by: Ammar Zreik',
+      'Signature: A. Zreik'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -407,6 +413,9 @@ PBE1.page('u5-s04', {
       model: ['The bread man asks me to sign every morning at six. I signed for forty '
         + 'trays in January and we had thirty-six. Nobody asked me about it, but '
         + 'it came off the shop'],
+      stems: ['The bread man…',
+      'I signed for…',
+      'Nobody asked me…'],
       coach: {
         title: 'What to include',
         task: 'Write about signing at your work (20 to 35 words). Who asks you to sign? '
@@ -483,6 +492,8 @@ PBE1.page('u5-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Goods received by: Ammar Zreik',
+      'Signature: A. Zreik'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

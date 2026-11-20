@@ -1,11 +1,11 @@
 /* Unit 5 — the acted dialogues. Every line is the book's own. */
 PBE1.scene('u5-5-1', {
-  set: 'store',
+  set: 'dock',
   cast: {
     nour: { rig: 'f-20s-a', name: 'Nour', voice: 'en-US-AriaNeural', shirt: '#b8527a', shirt2: '#95415f',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'nour', cam: { shot: 'wide' },
@@ -35,12 +35,12 @@ PBE1.scene('u5-5-1', {
 });
 
 PBE1.scene('u5-5-1-pair', {
-  set: 'store',
+  set: 'dock',
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -61,12 +61,12 @@ PBE1.scene('u5-5-1-pair', {
 });
 
 PBE1.scene('u5-5-2', {
-  set: 'store',
+  set: 'dock',
   cast: {
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     nour: { rig: 'f-20s-a', name: 'Nour', voice: 'en-US-AriaNeural', shirt: '#b8527a', shirt2: '#95415f',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'ammar', cam: { shot: 'wide' },
@@ -95,12 +95,12 @@ PBE1.scene('u5-5-2', {
 });
 
 PBE1.scene('u5-5-2-pair', {
-  set: 'store',
+  set: 'dock',
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -119,12 +119,12 @@ PBE1.scene('u5-5-2-pair', {
 });
 
 PBE1.scene('u5-5-3', {
-  set: 'store',
+  set: 'dock',
   cast: {
     driver: { rig: 'm-30s-a', name: 'Driver', voice: 'en-GB-RyanNeural', shirt: '#8a7a2f', shirt2: '#6e6125',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'driver', cam: { shot: 'wide' },
@@ -151,12 +151,12 @@ PBE1.scene('u5-5-3', {
 });
 
 PBE1.scene('u5-5-3-pair', {
-  set: 'store',
+  set: 'dock',
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -175,12 +175,12 @@ PBE1.scene('u5-5-3-pair', {
 });
 
 PBE1.scene('u5-5-4', {
-  set: 'store',
+  set: 'dock',
   cast: {
     driver: { rig: 'm-30s-a', name: 'Driver', voice: 'en-GB-RyanNeural', shirt: '#8a7a2f', shirt2: '#6e6125',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'driver', cam: { shot: 'wide' },
@@ -207,12 +207,12 @@ PBE1.scene('u5-5-4', {
 });
 
 PBE1.scene('u5-5-4-pair', {
-  set: 'store',
+  set: 'dock',
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -231,12 +231,12 @@ PBE1.scene('u5-5-4-pair', {
 });
 
 PBE1.scene('u5-5-5', {
-  set: 'store',
+  set: 'dock',
   cast: {
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     nour: { rig: 'f-20s-a', name: 'Nour', voice: 'en-US-AriaNeural', shirt: '#b8527a', shirt2: '#95415f',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'ammar', cam: { shot: 'wide' },
@@ -265,12 +265,12 @@ PBE1.scene('u5-5-5', {
 });
 
 PBE1.scene('u5-5-5-pair', {
-  set: 'store',
+  set: 'dock',
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -289,12 +289,12 @@ PBE1.scene('u5-5-5-pair', {
 });
 
 PBE1.scene('u5-5-6', {
-  set: 'store',
+  set: 'dock',
   cast: {
     driver: { rig: 'm-30s-a', name: 'Driver', voice: 'en-GB-RyanNeural', shirt: '#8a7a2f', shirt2: '#6e6125',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'driver', cam: { shot: 'wide' },
@@ -321,12 +321,12 @@ PBE1.scene('u5-5-6', {
 });
 
 PBE1.scene('u5-5-6-pair', {
-  set: 'store',
+  set: 'dock',
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -345,12 +345,12 @@ PBE1.scene('u5-5-6-pair', {
 });
 
 PBE1.scene('u5-5-7', {
-  set: 'store',
+  set: 'dock',
   cast: {
     driver: { rig: 'm-30s-a', name: 'Driver', voice: 'en-GB-RyanNeural', shirt: '#8a7a2f', shirt2: '#6e6125',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] },
     abu_yasser: { rig: 'm-50s-a', name: 'Abu Yasser', voice: 'en-US-ChristopherNeural', shirt: '#6b6256', shirt2: '#564e44',
       full: true, scale: 0.62, bottom: 30, at: [0.44, 0.62] }
   },
@@ -381,12 +381,12 @@ PBE1.scene('u5-5-7', {
 });
 
 PBE1.scene('u5-5-7', {
-  set: 'store',
+  set: 'dock',
   cast: {
     nour: { rig: 'f-20s-a', name: 'Nour', voice: 'en-US-AriaNeural', shirt: '#b8527a', shirt2: '#95415f',
-      full: true, scale: 0.62, bottom: 30, at: [0.24, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62] },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.62, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.66, 0.62] }
   },
   lines: [
     { who: 'nour', cam: { shot: 'wide' },

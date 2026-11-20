@@ -25,6 +25,10 @@ PBE1.page('u5-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The months, and the date',
+      'Delivery note no. 4417',
+      'To: Sham Trading, Damascus',
+      'Received by: Date received:'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -161,6 +165,10 @@ PBE1.page('u5-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The months, and the date',
+      'Delivery note no. 4417',
+      'To: Sham Trading, Damascus',
+      'Received by: Date received:'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -391,6 +399,10 @@ PBE1.page('u5-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The months, and the date',
+      'Delivery note no. 4417',
+      'To: Sham Trading, Damascus',
+      'Received by: Date received:'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -411,6 +423,8 @@ PBE1.page('u5-s02', {
       model: ['My company writes 12/03 and the Lebanese company writes 12/03 and they '
         + 'mean the same thing. The Turkish papers come with the month first. '
         + 'Last year we sent a lorry a month early'],
+      stems: ['The Turkish papers…',
+      'Last year we…'],
       coach: {
         title: 'What to include',
         task: 'Write about dates at your work (20 to 35 words). How are they written? Has a '
@@ -490,6 +504,10 @@ PBE1.page('u5-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The months, and the date',
+      'Delivery note no. 4417',
+      'To: Sham Trading, Damascus',
+      'Received by: Date received:'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

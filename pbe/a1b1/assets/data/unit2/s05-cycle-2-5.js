@@ -158,6 +158,9 @@ PBE1.page('u2-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['For: Homs',
+      'On the lorry by: 11.00',
+      'Read back to Fadi: ✓ A.Z'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -334,6 +337,9 @@ PBE1.page('u2-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['For: Homs',
+      'On the lorry by: 11.00',
+      'Read back to Fadi: ✓ A.Z'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Change books. Point at the line. Read it aloud. Say the one thing '
@@ -364,6 +370,9 @@ PBE1.page('u2-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['For: Homs',
+      'On the lorry by: 11.00',
+      'Read back to Fadi: ✓ A.Z'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -384,6 +393,10 @@ PBE1.page('u2-s05', {
       model: ['A driver told me fifteen rolls on the telephone. I wrote fifty. I did '
         + 'not read it back. We sent fifty and thirty-five came back on Thursday '
         + 'on the same lorry'],
+      stems: ['A driver told…',
+      'I wrote fifty…',
+      'I did not…',
+      'We sent fifty…'],
       coach: {
         title: 'What to include',
         task: 'Write about an order you took at your work (20 to 35 words). Who gave it? '
@@ -456,6 +469,9 @@ PBE1.page('u2-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['For: Homs',
+      'On the lorry by: 11.00',
+      'Read back to Fadi: ✓ A.Z'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

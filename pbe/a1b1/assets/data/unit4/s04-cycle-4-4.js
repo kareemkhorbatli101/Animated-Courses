@@ -27,6 +27,8 @@ PBE1.page('u4-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying a thing is not there',
+      'What: four cartons of labels'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -166,6 +168,8 @@ PBE1.page('u4-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying a thing is not there',
+      'What: four cartons of labels'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -308,6 +312,8 @@ PBE1.page('u4-s04', {
         }],
       model: ['MISSING — 18 MARCH, 8.10',
       'What: six packets of labels'],
+      stems: ['A dirty square…',
+      'He is asking…'],
       coach: {
         title: 'What to include',
         task: 'Write a missing note for your own work (15 words or more).',
@@ -386,6 +392,8 @@ PBE1.page('u4-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying a thing is not there',
+      'What: four cartons of labels'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -406,6 +414,10 @@ PBE1.page('u4-s04', {
       model: ['In January six packets went from row two. I saw thick dust in the '
         + 'space, so they went weeks before. I told Samih at eight. They were at '
         + 'the counter all the time'],
+      stems: ['In January six…',
+      'I saw thick…',
+      'I told Samih…',
+      'They were at the…'],
       coach: {
         title: 'What to include',
         task: 'Write about a thing that went missing at your work (20 to 35 words). What '
@@ -481,6 +493,8 @@ PBE1.page('u4-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying a thing is not there',
+      'What: four cartons of labels'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

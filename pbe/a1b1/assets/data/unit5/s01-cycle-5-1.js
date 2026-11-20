@@ -417,6 +417,10 @@ PBE1.page('u5-s01', {
       model: ['I sign the bread sheet every morning. It has the number of trays and '
         + 'the date. I do not always read it. Last year I signed for forty and '
         + 'there were thirty-six, and the shop paid'],
+      stems: ['I sign the bread…',
+      'It has the number…',
+      'I do not…',
+      'Last year I…'],
       coach: {
         title: 'What to include',
         task: 'Write about a paper you sign at work (20 to 35 words). What is on it? Do you '

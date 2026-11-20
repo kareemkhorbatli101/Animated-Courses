@@ -158,6 +158,7 @@ PBE1.page('u2-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying a number is wrong'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -289,6 +290,7 @@ PBE1.page('u2-s06', {
         }],
       model: ['COUNT SHEET — FRONT STORE — 12 MARCH',
       'Shelf 3 — old: 12 — new: 9 — 12 March'],
+      stems: ['Nine both times…'],
       coach: {
         title: 'What to include',
         task: 'Write a changed count for your own work (15 words or more).',
@@ -333,6 +335,7 @@ PBE1.page('u2-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying a number is wrong'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Change books. Point at the line. Read it aloud. Say the one thing '
@@ -363,6 +366,7 @@ PBE1.page('u2-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying a number is wrong'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -383,6 +387,10 @@ PBE1.page('u2-s06', {
       model: ['The stock sheet said four hundred. I counted three hundred and '
         + 'seventy, twice. I wrote the new number beside the old one. Nobody '
         + 'knows who wrote four hundred'],
+      stems: ['The stock sheet…',
+      'I counted three…',
+      'I wrote the new…',
+      'Nobody knows who…'],
       coach: {
         title: 'What to include',
         task: 'Write about a count that was wrong (20 to 35 words). What did the paper say? '
@@ -457,6 +465,7 @@ PBE1.page('u2-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying a number is wrong'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

@@ -381,6 +381,9 @@ PBE1.page('u2-s04', {
         }],
       model: ['We ran out of tape in February. Nobody wrote it down. The shelf was '
         + 'empty for four days and the sheet had a blank line, so nobody knew'],
+      stems: ['We ran out…',
+      'Nobody wrote it…',
+      'The shelf was…'],
       coach: {
         title: 'What to include',
         task: 'Write about something at your work that ran out (20 to 35 words). What was '

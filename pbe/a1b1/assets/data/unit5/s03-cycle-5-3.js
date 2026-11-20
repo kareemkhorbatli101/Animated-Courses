@@ -404,6 +404,9 @@ PBE1.page('u5-s03', {
       model: ['We count in trays. The bakery counts in loaves, forty loaves to a '
         + 'tray. Once we ordered two hundred and they sent two hundred loaves, '
         + 'not two hundred trays. Five trays'],
+      stems: ['We count in…',
+      'The bakery counts…',
+      'Once we ordered…'],
       coach: {
         title: 'What to include',
         task: 'Write about the quantities at your work (20 to 35 words). What unit do you '

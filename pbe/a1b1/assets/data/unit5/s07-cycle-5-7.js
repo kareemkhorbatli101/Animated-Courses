@@ -316,6 +316,7 @@ PBE1.page('u5-s07', {
       model: ['To: the office',
       'Note 4417 came today. The paper says 16 boxes. I counted 15, on line '
         + '1, the white labels. Please ask Beirut for the missing box'],
+      stems: ['Please ask Beirut…'],
       coach: {
         title: 'What to include',
         task: 'Write a message about a short delivery (four sentences, about 30 words). Say '
@@ -402,6 +403,7 @@ PBE1.page('u5-s07', {
       model: ['Note 2208 came on 12 March. The paper says 40 trays, line 2. I counted '
         + '38 and the driver signed to agree. Please take two trays off the '
         + 'invoice'],
+      stems: ['Please take two…'],
       coach: {
         title: 'What to include',
         task: 'Write a message to the office about a delivery that was wrong (four '

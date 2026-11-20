@@ -26,6 +26,8 @@ PBE1.page('u4-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The five small words',
+      'Ladder — next to the bench'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -159,6 +161,8 @@ PBE1.page('u4-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The five small words',
+      'Ladder — next to the bench'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -385,6 +389,8 @@ PBE1.page('u4-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The five small words',
+      'Ladder — next to the bench'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -405,6 +411,9 @@ PBE1.page('u4-s01', {
       model: ['The count sheets are on the table and the labels are in a small box on '
         + 'the top shelf. The spare key is the hardest. It is behind the door and '
         + 'only three men know'],
+      stems: ['The count sheets…',
+      'The spare key…',
+      'It is behind…'],
       coach: {
         title: 'What to include',
         task: 'Write about where you keep four things at work (20 to 35 words). Which one '
@@ -483,6 +492,8 @@ PBE1.page('u4-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The five small words',
+      'Ladder — next to the bench'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

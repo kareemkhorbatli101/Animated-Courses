@@ -26,6 +26,7 @@ PBE1.page('u4-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Rows, shelves and the numbers'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -161,6 +162,7 @@ PBE1.page('u4-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Rows, shelves and the numbers'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -388,6 +390,7 @@ PBE1.page('u4-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Rows, shelves and the numbers'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -408,6 +411,9 @@ PBE1.page('u4-s02', {
       model: ['My store has three rows and four shelves in each row. Shelf one is the '
         + 'bottom and it is the heavy one, because the pallets go there. Shelf '
         + 'four is empty in every row'],
+      stems: ['My store has…',
+      'Shelf one is…',
+      'Shelf four is…'],
       coach: {
         title: 'What to include',
         task: 'Write about your store (20 to 35 words). How many rows? How many shelves? '
@@ -487,6 +493,7 @@ PBE1.page('u4-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Rows, shelves and the numbers'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

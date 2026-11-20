@@ -26,6 +26,7 @@ PBE1.page('u4-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Giving a direction inside the yard'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -172,6 +173,7 @@ PBE1.page('u4-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Giving a direction inside the yard'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -315,6 +317,9 @@ PBE1.page('u4-s05', {
         }],
       model: ['FOR DRIVERS — THE WEIGHBRIDGE',
       '1 From the gate, go straight on. Past the small store'],
+      stems: ['Past the small…',
+      '(Not the first…',
+      'The yellow lines…'],
       coach: {
         title: 'What to include',
         task: 'Write a directions paper for your own work (15 words or more).',
@@ -393,6 +398,7 @@ PBE1.page('u4-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Giving a direction inside the yard'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -413,6 +419,9 @@ PBE1.page('u4-s05', {
       model: ['From our gate, drivers go straight on and turn right at the water '
         + 'tank. They always turn at the first tank, which is wrong, so we '
         + 'painted a number on the big one. Do not reverse past the office'],
+      stems: ['From our gate…',
+      'They always turn…',
+      'Do not reverse…'],
       coach: {
         title: 'What to include',
         task: 'Write directions from the gate of your work to one place (20 to 35 words). '
@@ -488,6 +497,7 @@ PBE1.page('u4-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Giving a direction inside the yard'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

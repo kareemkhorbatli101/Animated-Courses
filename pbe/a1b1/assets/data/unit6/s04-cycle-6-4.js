@@ -415,6 +415,9 @@ PBE1.page('u6-s04', {
       model: ['The manager is the hardest to find. He is at the market, or at the '
         + 'bank, or upstairs. I tell callers he is not here and they ring four '
         + 'times'],
+      stems: ['The manager is…',
+      'He is at the…',
+      'I tell callers…'],
       coach: {
         title: 'What to include',
         task: 'Write about the people at your work and where they are (20 to 35 words). Who '

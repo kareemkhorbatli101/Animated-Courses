@@ -25,6 +25,7 @@ PBE1.page('u2-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The numbers 0 to 20'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -151,6 +152,7 @@ PBE1.page('u2-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The numbers 0 to 20'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -315,6 +317,7 @@ PBE1.page('u2-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The numbers 0 to 20'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Change books. Point at the line. Read it aloud. Say the one thing '
@@ -343,6 +346,7 @@ PBE1.page('u2-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The numbers 0 to 20'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -363,6 +367,10 @@ PBE1.page('u2-s01', {
       model: ['I count the cartons in the back store every morning. It takes about '
         + 'twenty minutes. I write the number on the sheet. Abu Yasser reads it '
         + 'at four o\'clock'],
+      stems: ['I count the cartons…',
+      'It takes about…',
+      'I write the number…',
+      'Abu Yasser reads…'],
       coach: {
         title: 'What to include',
         task: 'Write about counting at your work (20 to 35 words). What do you count? How '
@@ -431,6 +439,7 @@ PBE1.page('u2-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The numbers 0 to 20'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

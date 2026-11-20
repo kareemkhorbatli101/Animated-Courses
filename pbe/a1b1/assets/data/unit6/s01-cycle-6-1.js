@@ -27,6 +27,9 @@ PBE1.page('u6-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Answering: three things, in this order',
+      '2 Then stop and listen',
+      '3 Not sure? Sorry? Again, please'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -173,6 +176,9 @@ PBE1.page('u6-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Answering: three things, in this order',
+      '2 Then stop and listen',
+      '3 Not sure? Sorry? Again, please'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -323,6 +329,7 @@ PBE1.page('u6-s01', {
         }],
       model: ['THE COUNTER TELEPHONE — SAY THIS',
       '1 Barada Stores, good morning'],
+      stems: ['One moment, please…'],
       coach: {
         title: 'What to include',
         task: 'Write a telephone card for your own work (15 words or more).',
@@ -407,6 +414,9 @@ PBE1.page('u6-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Answering: three things, in this order',
+      '2 Then stop and listen',
+      '3 Not sure? Sorry? Again, please'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -427,6 +437,9 @@ PBE1.page('u6-s01', {
       model: ['At the shop the telephone is by the till and whoever is nearest '
         + 'answers it. Everybody says hello and nothing else. Callers ask twice '
         + 'if it is the right shop'],
+      stems: ['At the shop…',
+      'Everybody says hello…',
+      'Callers ask twice…'],
       coach: {
         title: 'What to include',
         task: 'Write about the telephone at your work (20 to 35 words). Who answers it? '
@@ -508,6 +521,9 @@ PBE1.page('u6-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Answering: three things, in this order',
+      '2 Then stop and listen',
+      '3 Not sure? Sorry? Again, please'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

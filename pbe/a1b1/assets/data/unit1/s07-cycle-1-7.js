@@ -32,6 +32,7 @@ PBE1.page('u1-s07', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['1.4 say who another person is'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -142,6 +143,7 @@ PBE1.page('u1-s07', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['1.4 say who another person is'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -157,6 +159,7 @@ PBE1.page('u1-s07', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['1.4 say who another person is'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -281,6 +284,7 @@ PBE1.page('u1-s07', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['1.4 say who another person is'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -302,6 +306,9 @@ PBE1.page('u1-s07', {
       model: ['To: Hani',
       'My name is Samih Qassar. I am the new storeman. I am in the back '
         + 'store. I start at half past six'],
+      stems: ['I am the new…',
+      'I am in the…',
+      'I start at half…'],
       coach: {
         title: 'What to include',
         task: 'You are new at work. Write a message to a colleague (four sentences, about '
@@ -343,6 +350,7 @@ PBE1.page('u1-s07', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['1.4 say who another person is'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Change books. Point at the line. Read it aloud. Say the one thing '
@@ -384,6 +392,9 @@ PBE1.page('u1-s07', {
       },
       model: ['Hello. I am Samih, the new storeman in the back store. The key to the '
         + 'back store is with me now, not at the gate. Please ask me for it'],
+      stems: ['I am Samih…',
+      'The key to the…',
+      'Please ask me…'],
       coach: {
         title: 'What to include',
         task: 'Write a message to a new colleague (four sentences, about 30 words). Say '

@@ -25,6 +25,11 @@ PBE1.page('u3-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The time, two ways',
+      'Gate: 7.00 (seven o\'clock)',
+      'Lorry: 7.15 (quarter past seven)',
+      'Break: 10.30 (half past ten)',
+      'Finish: 16.00 (four o\'clock)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -164,6 +169,11 @@ PBE1.page('u3-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The time, two ways',
+      'Gate: 7.00 (seven o\'clock)',
+      'Lorry: 7.15 (quarter past seven)',
+      'Break: 10.30 (half past ten)',
+      'Finish: 16.00 (four o\'clock)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -376,6 +386,11 @@ PBE1.page('u3-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The time, two ways',
+      'Gate: 7.00 (seven o\'clock)',
+      'Lorry: 7.15 (quarter past seven)',
+      'Break: 10.30 (half past ten)',
+      'Finish: 16.00 (four o\'clock)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -395,6 +410,10 @@ PBE1.page('u3-s02', {
         }],
       model: ['I start at half past six in the morning. That is early, but the lorry '
         + 'comes at seven. My break is at ten o\'clock. I finish at four o\'clock'],
+      stems: ['I start at half…',
+      'That is early…',
+      'My break is…',
+      'I finish at four…'],
       coach: {
         title: 'What to include',
         task: 'Write about your times at work (20 to 35 words). When do you start? When is '
@@ -466,6 +485,11 @@ PBE1.page('u3-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The time, two ways',
+      'Gate: 7.00 (seven o\'clock)',
+      'Lorry: 7.15 (quarter past seven)',
+      'Break: 10.30 (half past ten)',
+      'Finish: 16.00 (four o\'clock)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

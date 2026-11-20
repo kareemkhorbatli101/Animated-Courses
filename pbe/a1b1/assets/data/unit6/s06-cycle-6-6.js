@@ -27,6 +27,8 @@ PBE1.page('u6-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Promising to pass a message on',
+      'From: Ghassan Mouallem (M-O-U-A-L-L-E-M)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -162,6 +164,8 @@ PBE1.page('u6-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Promising to pass a message on',
+      'From: Ghassan Mouallem (M-O-U-A-L-L-E-M)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -323,6 +327,7 @@ PBE1.page('u6-s06', {
         }],
       model: ['MESSAGE',
       'For: Nadia Sayegh Taken by: Samih Qassar'],
+      stems: ['She has changed…'],
       coach: {
         title: 'What to include',
         task: 'Write a message slip for your own work (15 words or more).',
@@ -413,6 +418,8 @@ PBE1.page('u6-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Promising to pass a message on',
+      'From: Ghassan Mouallem (M-O-U-A-L-L-E-M)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -433,6 +440,9 @@ PBE1.page('u6-s06', {
       model: ['A man rang about a lorry coming early and I said OK and forgot. The '
         + 'lorry came at six and waited an hour. The driver found me and told me '
         + 'himself'],
+      stems: ['A man rang…',
+      'The lorry came…',
+      'The driver found…'],
       coach: {
         title: 'What to include',
         task: 'Write about a message at your work (20 to 35 words). Who took it? Did it '
@@ -520,6 +530,8 @@ PBE1.page('u6-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Promising to pass a message on',
+      'From: Ghassan Mouallem (M-O-U-A-L-L-E-M)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

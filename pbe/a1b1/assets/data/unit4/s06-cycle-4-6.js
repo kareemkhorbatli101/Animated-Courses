@@ -25,6 +25,7 @@ PBE1.page('u4-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['can and cannot'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -166,6 +167,7 @@ PBE1.page('u4-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['can and cannot'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -308,6 +310,7 @@ PBE1.page('u4-s06', {
         }],
       model: ['THE PALLET TRUCK — WHO, WHERE, WHEN',
       'Where it lives: by the loading door, against the wall'],
+      stems: ['Nobody drags a full…'],
       coach: {
         title: 'What to include',
         task: 'Write a safety paper for one thing at your work (15 words or more).',
@@ -389,6 +392,7 @@ PBE1.page('u4-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['can and cannot'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -410,6 +414,9 @@ PBE1.page('u4-s06', {
       model: ['I cannot lift a full pallet alone. I need the pallet truck or a second '
         + 'man. When the truck is broken the men drag the pallets, and that is '
         + 'how two backs went'],
+      stems: ['I cannot lift…',
+      'I need the pallet…',
+      'When the truck…'],
       coach: {
         title: 'What to include',
         task: 'Write about something at your work you cannot do alone (20 to 35 words). '
@@ -491,6 +498,7 @@ PBE1.page('u4-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['can and cannot'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

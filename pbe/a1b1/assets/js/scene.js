@@ -65,12 +65,17 @@
     who.style.display = 'none';
     var subs = el('div', 'subs');
     subs.innerHTML = '<div class="sub-en"></div><div class="sub-ar" dir="rtl"></div>';
+    /* the word card's strip, at the TOP of the stage - the band that is empty in
+       every one of this course's rooms, so it covers no face */
+    var kw = el('div', 'kw-card');
 
-    outer.appendChild(stage); outer.appendChild(card); outer.appendChild(who); outer.appendChild(subs);
+    outer.appendChild(stage); outer.appendChild(card); outer.appendChild(who);
+    outer.appendChild(kw); outer.appendChild(subs);
     shell.appendChild(outer);
     holder.appendChild(shell);
 
-    return { shell: shell, outer: outer, stage: stage, actors: actors, card: card, who: who, subs: subs };
+    return { shell: shell, outer: outer, stage: stage, actors: actors, card: card,
+             who: who, subs: subs, kw: kw };
   }
   function cssId(s) { return s.replace(/[^A-Za-z0-9_-]/g, '-'); }
 
@@ -197,9 +202,49 @@
       }).join(' ');
       ar.textContent = arOf(line);
     }
+    /* ----------------------------------------------------------
+       THE WORD CARD. Every clip already carries the start time of every word, and
+       `markWord` has always lit the current one in the subtitle. This shows a
+       PICTURE of it at the same instant, when the course can draw that word.
+
+       Three channels carrying one item - the voice says it, the subtitle lights it,
+       the card draws it - is the one thing an animated course can do that a book
+       and a CD cannot, and at A1 the learner's difficulty is catching the word at
+       all rather than parsing the sentence around it.
+
+       It lives in a strip at the TOP of the stage because that band is empty in
+       every room (measured), so it covers nobody's face. It is off under
+       `prefers-reduced-motion` only in its movement, not in its existence - a
+       learner who cannot take motion still needs the word.
+       ---------------------------------------------------------- */
+    function clean(wd) {
+      return String(wd || '').toLowerCase().replace(/[^a-z'-]/g, '');
+    }
+    var kwTimer = null;
+    function showWordCard(wd) {
+      if (!S.kw || !PBE1.prefs.keyWords) return;
+      var art = PBE1.art.wordArt && PBE1.art.wordArt(clean(wd), 54);
+      if (!art) return;
+      S.kw.innerHTML = art + '<span>' + esc(String(wd).replace(/[^A-Za-z'-]/g, ''))
+                     + '</span>';
+      S.kw.classList.add('on');
+      if (kwTimer) clearTimeout(kwTimer);
+      kwTimer = setTimeout(function () { S.kw.classList.remove('on'); }, 1400);
+    }
+    function hideWordCard() {
+      if (kwTimer) { clearTimeout(kwTimer); kwTimer = null; }
+      if (S.kw) { S.kw.classList.remove('on'); S.kw.innerHTML = ''; }
+    }
+
+    var lastWi = -1;
     function markWord(i) {
       var ws = S.subs.querySelectorAll('.sub-en .w');
       for (var z = 0; z < ws.length; z++) ws[z].classList.toggle('on', z === i);
+      if (i !== lastWi) {
+        lastWi = i;
+        if (i >= 0 && ws[i]) showWordCard(ws[i].textContent);
+        else if (i < 0) hideWordCard();
+      }
     }
 
     /* ---------- faces ---------- */

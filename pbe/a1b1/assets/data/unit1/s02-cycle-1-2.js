@@ -155,6 +155,9 @@ PBE1.page('u1-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The letters',
+      'Name: AMMAR ZREIK',
+      'Job: Storeman'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -273,6 +276,7 @@ PBE1.page('u1-s02', {
         }],
       model: ['Name: SAMIH QASSAR Job: Storeman Number: 38 Start: 4 March',
       'My surname is Qassar. It has six letters'],
+      stems: ['It has six…'],
       coach: {
         title: 'What to include',
         task: 'Write your own badge (15 words or more).',
@@ -313,6 +317,9 @@ PBE1.page('u1-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The letters',
+      'Name: AMMAR ZREIK',
+      'Job: Storeman'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Change books. Point at the line. Read it aloud. Say the one thing '
@@ -342,6 +349,9 @@ PBE1.page('u1-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The letters',
+      'Name: AMMAR ZREIK',
+      'Job: Storeman'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -361,6 +371,10 @@ PBE1.page('u1-s02', {
         }],
       model: ['My cousin is called Sibai. It is a hard name. People write Sibay with '
         + 'a Y at the end. It is an I. I say it twice now'],
+      stems: ['My cousin is…',
+      'It is a hard…',
+      'People write Sibay…',
+      'It is an…'],
       coach: {
         title: 'What to include',
         task: 'Write about a name that is hard to spell (20 to 35 words). Whose name is it? '
@@ -396,6 +410,9 @@ PBE1.page('u1-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The letters',
+      'Name: AMMAR ZREIK',
+      'Job: Storeman'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Read your partner\'s work. Ask your partner to spell the name aloud. '
@@ -428,6 +445,9 @@ PBE1.page('u1-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The letters',
+      'Name: AMMAR ZREIK',
+      'Job: Storeman'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

@@ -158,6 +158,8 @@ PBE1.page('u2-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Packets: 20 in a packet',
+      'Cartons: 10 packets in a carton'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -326,6 +328,8 @@ PBE1.page('u2-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Packets: 20 in a packet',
+      'Cartons: 10 packets in a carton'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Change books. Point at the line. Read it aloud. Say the one thing '
@@ -354,6 +358,8 @@ PBE1.page('u2-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Packets: 20 in a packet',
+      'Cartons: 10 packets in a carton'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -374,6 +380,10 @@ PBE1.page('u2-s03', {
       model: ['We count packets, cartons and pallets. A packet has twenty-five '
         + 'inside. A carton has eight packets. The pallet is the wooden thing and '
         + 'it holds thirty-six cartons'],
+      stems: ['We count packets…',
+      'A packet has…',
+      'A carton has…',
+      'The pallet is…'],
       coach: {
         title: 'What to include',
         task: 'Write about the things you count at your work (20 to 35 words). What is the '
@@ -442,6 +452,8 @@ PBE1.page('u2-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Packets: 20 in a packet',
+      'Cartons: 10 packets in a carton'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

@@ -158,6 +158,19 @@ p { margin:0 0 .9em; }
 }
 .card-head h2 { font-size:17.5px; margin:0 0 3px; letter-spacing:-.01em; }
 .card-head .sub { font-size:13px; color:var(--text-2); }
+/* ---------- sentence openers ----------
+   Clickable starts for a learner facing an empty box. They look like
+   something to pick up, not like a verdict: dashed, quiet, and they
+   wrap rather than scroll. */
+.stems { display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 4px; }
+.stem {
+  border:1px dashed var(--border); background:var(--surface-2);
+  color:var(--text); border-radius:999px; padding:4px 11px;
+  font:500 13px/1.5 var(--ui); cursor:pointer;
+}
+.stem:hover { border-style:solid; border-color:var(--accent);
+              color:var(--accent); }
+@media print { .stems { display:none; } }
 /* ---------- what kind of card this is ----------
    Orientation, not a badge: a learner cannot otherwise tell a card that
    marks them from one that only saves what they typed. */

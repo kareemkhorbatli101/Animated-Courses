@@ -27,6 +27,7 @@ PBE1.page('u6-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Taking a telephone number'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -171,6 +172,7 @@ PBE1.page('u6-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Taking a telephone number'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -410,6 +412,7 @@ PBE1.page('u6-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Taking a telephone number'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -430,6 +433,9 @@ PBE1.page('u6-s05', {
       model: ['A customer gave me his number and I wrote 616 instead of 661. I rang a '
         + 'stranger twice. He waited two days for us and then bought the doors '
         + 'somewhere else'],
+      stems: ['A customer gave…',
+      'I rang a stranger…',
+      'He waited two…'],
       coach: {
         title: 'What to include',
         task: 'Write about a telephone number that went wrong at your work (20 to 35 '
@@ -509,6 +515,7 @@ PBE1.page('u6-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Taking a telephone number'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

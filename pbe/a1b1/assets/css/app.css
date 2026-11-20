@@ -158,6 +158,19 @@ p { margin:0 0 .9em; }
 }
 .card-head h2 { font-size:17.5px; margin:0 0 3px; letter-spacing:-.01em; }
 .card-head .sub { font-size:13px; color:var(--text-2); }
+/* ---------- sentence openers ----------
+   Clickable starts for a learner facing an empty box. They look like
+   something to pick up, not like a verdict: dashed, quiet, and they
+   wrap rather than scroll. */
+.stems { display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 4px; }
+.stem {
+  border:1px dashed var(--border); background:var(--surface-2);
+  color:var(--text); border-radius:999px; padding:4px 11px;
+  font:500 13px/1.5 var(--ui); cursor:pointer;
+}
+.stem:hover { border-style:solid; border-color:var(--accent);
+              color:var(--accent); }
+@media print { .stems { display:none; } }
 /* ---------- what kind of card this is ----------
    Orientation, not a badge: a learner cannot otherwise tell a card that
    marks them from one that only saves what they typed. */
@@ -484,6 +497,29 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
 .sub-en .w { opacity:.62; transition:opacity .12s, color .12s; }
 .sub-en .w.on { opacity:1; color:#ffd9a0; }
 .subs.hide-en .sub-en, .subs.hide-ar .sub-ar { display:none; }
+/* ---------- the word card ----------
+   A drawing of the word, shown at the instant it is spoken, from the word times
+   every clip already carries. It sits in the TOP strip because that band is empty
+   in every room of this course, so it covers no face. */
+.kw-card {
+  position:absolute; top:12px; right:14px; z-index:7; pointer-events:none;
+  display:flex; align-items:center; gap:10px;
+  background:rgba(255,255,255,.94); color:#1a1f24;
+  border-radius:14px; padding:8px 14px 8px 10px;
+  box-shadow:0 6px 18px rgba(0,0,0,.28);
+  opacity:0; transform:translateY(-8px) scale(.96);
+  transition:opacity .18s ease, transform .18s ease;
+}
+.kw-card.on { opacity:1; transform:none; }
+/* never a blank card: an empty one is a white box floating over the scene */
+.kw-card:empty { display:none; }
+.kw-card span { font:800 clamp(15px,1.7vw,21px)/1 var(--ui); letter-spacing:-.01em; }
+.kw-card svg { display:block; }
+@media (prefers-reduced-motion: reduce) {
+  /* the word still appears - only the movement goes */
+  .kw-card { transition:none; transform:none; }
+}
+@media print { .kw-card { display:none; } }
 .who-tag {
   position:absolute; left:14px; top:12px; z-index:6; background:rgba(8,16,20,.72); color:#fff;
   font:700 12px/1 var(--ui); padding:6px 10px; border-radius:var(--r-pill); letter-spacing:.04em;

@@ -323,6 +323,9 @@ PBE1.page('u4-s07', {
       'I moved the long rolls. They stand behind the door now, not on row two '
         + 'shelf one. They bend on the shelf and a bent roll is rubbish. Please '
         + 'change the map today'],
+      stems: ['They stand behind…',
+      'They bend on the…',
+      'Please change the map…'],
       coach: {
         title: 'What to include',
         task: 'Write a message saying you moved something (four sentences, about 30 words). '
@@ -407,6 +410,9 @@ PBE1.page('u4-s07', {
       model: ['Abu Yasser, I moved the long ladder. It is on the wall by the gate '
         + 'now, not row one shelf one. It stuck out into the walkway. Please '
         + 'change the map'],
+      stems: ['It is on the…',
+      'It stuck out…',
+      'Please change the…'],
       coach: {
         title: 'What to include',
         task: 'Write a message to your supervisor about a thing you moved (four sentences, '

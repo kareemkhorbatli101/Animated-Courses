@@ -27,6 +27,7 @@ PBE1.page('u5-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Copying a number, and checking it'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -166,6 +167,7 @@ PBE1.page('u5-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Copying a number, and checking it'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -321,6 +323,7 @@ PBE1.page('u5-s05', {
         }],
       model: ['COPYING AN ORDER NUMBER — THE THREE STEPS',
       '1 Read the customer\'s number out loud, digit by digit'],
+      stems: ['Then read back…'],
       coach: {
         title: 'What to include',
         task: 'Write a copying procedure for the numbers at your own work (15 words or more).',
@@ -398,6 +401,7 @@ PBE1.page('u5-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Copying a number, and checking it'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -418,6 +422,9 @@ PBE1.page('u5-s05', {
       model: ['Last year an order number had a bad one in it. We sent the bread to 17 '
         + 'Baghdad Street and the order was for 11. The office found it two days '
         + 'later'],
+      stems: ['Last year an order…',
+      'We sent the bread…',
+      'The office found…'],
       coach: {
         title: 'What to include',
         task: 'Write about a number that was copied wrong at your work (20 to 35 words). '
@@ -495,6 +502,7 @@ PBE1.page('u5-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Copying a number, and checking it'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

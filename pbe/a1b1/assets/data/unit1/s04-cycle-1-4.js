@@ -294,6 +294,8 @@ PBE1.page('u1-s04', {
         }],
       model: ['WHO TO ASK',
       'Samih — he is the storeman. Ask him about the shelves'],
+      stems: ['Ask him about…',
+      'Ask her about…'],
       coach: {
         title: 'What to include',
         task: 'Write a who-to-ask note for your own work (15 words or more).',
@@ -383,6 +385,10 @@ PBE1.page('u1-s04', {
       model: ['Rima is in the office. She is the accountant. She is there every day '
         + 'from eight. I ask her about the invoices and about my hours at the end '
         + 'of the month'],
+      stems: ['Rima is in the…',
+      'She is the…',
+      'She is there…',
+      'I ask her…'],
       coach: {
         title: 'What to include',
         task: 'Write about one person at your work (20 to 35 words). Who is he or she? What '

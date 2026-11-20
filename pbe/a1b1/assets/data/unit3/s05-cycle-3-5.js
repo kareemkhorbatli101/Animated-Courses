@@ -394,6 +394,9 @@ PBE1.page('u3-s05', {
       model: ['Last month I needed Friday off for a wedding in Homs. I asked Hani '
         + 'first and he said yes. Then I told the supervisor and he wrote it on '
         + 'the board'],
+      stems: ['Last month I…',
+      'I asked Hani…',
+      'Then I told…'],
       coach: {
         title: 'What to include',
         task: 'Write about a day you needed off (20 to 35 words). What day? Why? Who did '

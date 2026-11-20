@@ -25,6 +25,7 @@ PBE1.page('u3-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -154,6 +155,7 @@ PBE1.page('u3-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -353,6 +355,7 @@ PBE1.page('u3-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -373,6 +376,10 @@ PBE1.page('u3-s01', {
       model: ['I work five days, Sunday to Thursday. My day off is Friday. Monday is '
         + 'the busy day because the big delivery comes. On Thursday we count the '
         + 'whole store'],
+      stems: ['I work five…',
+      'My day off…',
+      'Monday is the busy…',
+      'On Thursday we…'],
       coach: {
         title: 'What to include',
         task: 'Write about your week at work (20 to 35 words). Which days do you work? '
@@ -439,6 +446,7 @@ PBE1.page('u3-s01', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

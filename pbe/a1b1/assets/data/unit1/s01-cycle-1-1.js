@@ -387,6 +387,10 @@ PBE1.page('u1-s01', {
       model: ['My name is Samih Qassar. I am the storeman at Sham Trading. I start at '
         + 'seven o\'clock in the morning. I finish at four o\'clock. Today is my '
         + 'first day'],
+      stems: ['My name is…',
+      'I am the storeman…',
+      'I start at seven…',
+      'I finish at four…'],
       coach: {
         title: 'What to include',
         task: 'Write about your first day (20 to 35 words). Say your name, your job, the '

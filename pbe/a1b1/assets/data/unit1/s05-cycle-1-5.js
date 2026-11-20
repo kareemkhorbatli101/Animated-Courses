@@ -27,6 +27,7 @@ PBE1.page('u1-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Hello and goodbye at work'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -161,6 +162,7 @@ PBE1.page('u1-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Hello and goodbye at work'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -338,6 +340,7 @@ PBE1.page('u1-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Hello and goodbye at work'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Change books. Point at the line. Read it aloud. Say the one thing '
@@ -367,6 +370,7 @@ PBE1.page('u1-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Hello and goodbye at work'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -386,6 +390,10 @@ PBE1.page('u1-s05', {
         }],
       model: ['I come to work at half past six. I say good morning to the man at the '
         + 'gate. I finish at half past three. I say goodbye to him and I sign out'],
+      stems: ['I come to work…',
+      'I say good…',
+      'I finish at half…',
+      'I say goodbye…'],
       coach: {
         title: 'What to include',
         task: 'Write about your own day at work (20 to 35 words). When do you come? When do '
@@ -457,6 +465,7 @@ PBE1.page('u1-s05', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Hello and goodbye at work'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

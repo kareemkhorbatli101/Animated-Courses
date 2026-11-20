@@ -319,6 +319,9 @@ PBE1.page('u6-s07', {
       model: ['For: Abu Yasser',
       'Mouallem rang at 1.35. He says the March invoice is wrong — 16 boxes, '
         + 'we paid for 12. He wants a credit note. He rings back at four'],
+      stems: ['He says the March…',
+      'He wants a credit…',
+      'He rings back…'],
       coach: {
         title: 'What to include',
         task: 'Write a message for your supervisor (four sentences, about 30 words). Who '
@@ -403,6 +406,9 @@ PBE1.page('u6-s07', {
       model: ['Shamseddine rang at 10.15. She says the Thursday order is six pallets, '
         + 'not four. She has changed it with the mill already. She rings back at '
         + 'three'],
+      stems: ['She says the Thursday…',
+      'She has changed…',
+      'She rings back…'],
       coach: {
         title: 'What to include',
         task: 'Write a message for somebody at your work (four sentences, about 30 words). '

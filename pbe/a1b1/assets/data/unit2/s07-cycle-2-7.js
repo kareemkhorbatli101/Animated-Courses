@@ -298,6 +298,9 @@ PBE1.page('u2-s07', {
       model: ['To: Abu Yasser',
       'There are nine cartons on shelf three. I counted twice. The sheet says '
         + 'twelve. Please change the sheet'],
+      stems: ['I counted twice…',
+      'The sheet says…',
+      'Please change the…'],
       coach: {
         title: 'What to include',
         task: 'Write a message to a colleague about a count (four sentences, about 30 '
@@ -381,6 +384,9 @@ PBE1.page('u2-s07', {
       model: ['There are 214 packets on shelf two, not 220. I counted twice, both '
         + 'times 214. The old number is still on the sheet. Please tell the '
         + 'office before the order goes'],
+      stems: ['I counted twice…',
+      'The old number…',
+      'Please tell the office…'],
       coach: {
         title: 'What to include',
         task: 'Write a message about a number that is wrong at your work (four sentences, '

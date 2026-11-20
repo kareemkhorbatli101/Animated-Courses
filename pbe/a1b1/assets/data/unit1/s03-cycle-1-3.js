@@ -27,6 +27,7 @@ PBE1.page('u1-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Grammar — this and that'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -156,6 +157,7 @@ PBE1.page('u1-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Grammar — this and that'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -328,6 +330,7 @@ PBE1.page('u1-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Grammar — this and that'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Change books. Point at the line. Read it aloud. Say the one thing '
@@ -356,6 +359,7 @@ PBE1.page('u1-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Grammar — this and that'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -375,6 +379,9 @@ PBE1.page('u1-s03', {
         }],
       model: ['There is a list on the door of the store. It is the stock list. My '
         + 'name is not on it. Only Abu Yasser writes on that list'],
+      stems: ['There is a list…',
+      'It is the stock…',
+      'My name is…'],
       coach: {
         title: 'What to include',
         task: 'Write about a list at your work (20 to 35 words). What list is it? Where is '
@@ -443,6 +450,7 @@ PBE1.page('u1-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Grammar — this and that'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

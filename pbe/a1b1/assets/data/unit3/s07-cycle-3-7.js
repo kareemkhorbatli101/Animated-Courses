@@ -33,6 +33,7 @@ PBE1.page('u3-s07', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['3.2 say a time two ways'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -146,6 +147,7 @@ PBE1.page('u3-s07', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['3.2 say a time two ways'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -161,6 +163,7 @@ PBE1.page('u3-s07', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['3.2 say a time two ways'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -287,6 +290,7 @@ PBE1.page('u3-s07', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['3.2 say a time two ways'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -309,6 +313,9 @@ PBE1.page('u3-s07', {
       'I am on the morning shift on Thursday. Samih is off that day and he '
         + 'has agreed to swap. My mother is in hospital. Can you put it on the '
         + 'board?'],
+      stems: ['Samih is off…',
+      'My mother is…',
+      'Can you put…'],
       coach: {
         title: 'What to include',
         task: 'Write a message asking to swap a day (four sentences, about 30 words). Say '
@@ -351,6 +358,7 @@ PBE1.page('u3-s07', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['3.2 say a time two ways'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Change books. Point at the line. Read it aloud. Say the one thing '
@@ -392,6 +400,9 @@ PBE1.page('u3-s07', {
       },
       model: ['Abu Yasser, I am swapping Thursday with Samih. He agreed this morning. '
         + 'My brother is in hospital that day. Please write it on the board today'],
+      stems: ['He agreed this…',
+      'My brother is…',
+      'Please write it…'],
       coach: {
         title: 'What to include',
         task: 'Write a message to your supervisor about a swap (four sentences, about 30 '

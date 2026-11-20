@@ -25,6 +25,9 @@ PBE1.page('u2-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The big numbers',
+      'IN TODAY: 90 (ninety)',
+      'OUT TODAY: 0 (none)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -159,6 +162,9 @@ PBE1.page('u2-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The big numbers',
+      'IN TODAY: 90 (ninety)',
+      'OUT TODAY: 0 (none)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -339,6 +345,9 @@ PBE1.page('u2-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The big numbers',
+      'IN TODAY: 90 (ninety)',
+      'OUT TODAY: 0 (none)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Change books. Point at the line. Read it aloud. Say the one thing '
@@ -369,6 +378,9 @@ PBE1.page('u2-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The big numbers',
+      'IN TODAY: 90 (ninety)',
+      'OUT TODAY: 0 (none)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -389,6 +401,10 @@ PBE1.page('u2-s02', {
       model: ['Last year the board said nineteen pallets. It was ninety. Nobody '
         + 'checked it for two days. We told a customer we had none and we had '
         + 'ninety in the back store'],
+      stems: ['Last year the board…',
+      'It was ninety…',
+      'Nobody checked it…',
+      'We told a customer…'],
       coach: {
         title: 'What to include',
         task: 'Write about a number that was wrong at your work (20 to 35 words). What was '
@@ -427,6 +443,9 @@ PBE1.page('u2-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The big numbers',
+      'IN TODAY: 90 (ninety)',
+      'OUT TODAY: 0 (none)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       aiCheck: {
         task: 'Read your partner\'s work. Ask your partner: Who wrote that number? '
@@ -462,6 +481,9 @@ PBE1.page('u2-s02', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['The big numbers',
+      'IN TODAY: 90 (ninety)',
+      'OUT TODAY: 0 (none)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

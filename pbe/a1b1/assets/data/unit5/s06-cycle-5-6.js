@@ -27,6 +27,8 @@ PBE1.page('u5-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying there is nothing there',
+      'Driver: Marwan Haddad Lorry: 345 871'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -170,6 +172,8 @@ PBE1.page('u5-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying there is nothing there',
+      'Driver: Marwan Haddad Lorry: 345 871'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -403,6 +407,8 @@ PBE1.page('u5-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying there is nothing there',
+      'Driver: Marwan Haddad Lorry: 345 871'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -423,6 +429,9 @@ PBE1.page('u5-s06', {
       model: ['The stale bread goes back every Friday with no paper. In November the '
         + 'bakery said we had sent nothing back for three weeks. We had sent '
         + 'twenty-seven trays and nobody could prove it'],
+      stems: ['The stale bread…',
+      'In November the bakery…',
+      'We had sent…'],
       coach: {
         title: 'What to include',
         task: 'Write about goods or a job that came with no paper (20 to 35 words). What '
@@ -505,6 +514,8 @@ PBE1.page('u5-s06', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Saying there is nothing there',
+      'Driver: Marwan Haddad Lorry: 345 871'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

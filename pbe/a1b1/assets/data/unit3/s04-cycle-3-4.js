@@ -26,6 +26,7 @@ PBE1.page('u3-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['What HE does, what SHE does'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -158,6 +159,7 @@ PBE1.page('u3-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['What HE does, what SHE does'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -286,6 +288,10 @@ PBE1.page('u3-s04', {
         }],
       model: ['WHO DOES WHAT — SHAM TRADING',
       'Fadi starts at 6.00. He checks the lorry. He drives to Homs on Wednesday'],
+      stems: ['He checks the…',
+      'He drives to Homs…',
+      'He counts the back…',
+      'She opens the office…'],
       coach: {
         title: 'What to include',
         task: 'Write a who-does-what page for your own work (15 words or more).',
@@ -357,6 +363,7 @@ PBE1.page('u3-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['What HE does, what SHE does'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -376,6 +383,10 @@ PBE1.page('u3-s04', {
         }],
       model: ['Fadi starts at six o\'clock, an hour before me. He checks the lorry '
         + 'first. Then he drives to Homs. Nobody else can drive the big lorry'],
+      stems: ['Fadi starts at six…',
+      'He checks the lorry…',
+      'Then he drives…',
+      'Nobody else can…'],
       coach: {
         title: 'What to include',
         task: 'Write about one person at your work (20 to 35 words). What time do they '
@@ -447,6 +458,7 @@ PBE1.page('u3-s04', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['What HE does, what SHE does'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]

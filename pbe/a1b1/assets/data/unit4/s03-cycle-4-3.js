@@ -26,6 +26,7 @@ PBE1.page('u4-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Asking where'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -162,6 +163,7 @@ PBE1.page('u4-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Asking where'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -308,6 +310,7 @@ PBE1.page('u4-s03', {
         }],
       model: ['ROW 1 — CORRECTION, 18 MARCH',
       'The paper says: long ladder — row 1, shelf 1'],
+      stems: ['It is next…'],
       coach: {
         title: 'What to include',
         task: 'Write a correction for something at your own work (15 words or more).',
@@ -386,6 +389,7 @@ PBE1.page('u4-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Asking where'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
@@ -406,6 +410,10 @@ PBE1.page('u4-s03', {
       model: ['The long ladder is not in row one. It is next to the gate, flat on the '
         + 'wall. Fouad moved it last year because it stuck out. Nobody changed '
         + 'the paper'],
+      stems: ['The long ladder…',
+      'It is next…',
+      'Fouad moved it…',
+      'Nobody changed the…'],
       coach: {
         title: 'What to include',
         task: 'Write about something at your work that is not where the paper says (20 to '
@@ -481,6 +489,7 @@ PBE1.page('u4-s03', {
             minWords: 6,
             rows: 2
           }],
+      ideas: ['Asking where'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]
