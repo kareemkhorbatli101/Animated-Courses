@@ -6,6 +6,111 @@ PBE1.page('u2-s06', {
   book: { source: 'Proactive Business English A1', ref: 'Unit 2 · 2.6', part: '2.6',
           section: '6', lesson: 'It is not twelve. It is nine.', title: 'It is not twelve. It is nine.' },
   objective: 'say that a count is wrong',
+  study: {
+    minutes: 90,
+    objective: 'say that a count is wrong',
+    steps: [{
+          title: 'Get ready',
+          mins: 6,
+          why: 'Waking the words up before you need them.',
+          todo: 'Answer in one or two words. Nothing here is marked and nothing is wrong.',
+          alone: 'Say your answers aloud to yourself, then write them.'
+        },
+        {
+          title: 'Listen and read',
+          mins: 12,
+          why: 'The lesson itself - everything after this practises what happens here.',
+          todo: 'Play it once with the subtitles ON and once with them OFF. Use '
+            + '0.6x if the voices are fast. Then answer the question under it.',
+          alone: 'Play the scene twice before you look at the question.'
+        },
+        {
+          title: 'Practise',
+          mins: 7,
+          why: 'Saying the lines yourself, with the other part played for you.',
+          todo: 'Pick your role; the engine mutes it and waits for you. Say the '
+            + 'line out loud - not in your head. Then swap roles and do it again.',
+          alone: 'This is designed for one person: the engine IS your partner.'
+        },
+        {
+          title: 'Perform',
+          mins: 5,
+          why: 'Doing it without the words in front of you.',
+          todo: 'Close the book - the table above - and say the exchange from '
+            + 'memory. Press Record yourself and listen back.',
+          alone: 'Record yourself, play it back, and mark your own against the table.'
+        },
+        {
+          title: 'Your turn',
+          mins: 9,
+          why: 'The same language, about YOUR workplace rather than the book\'s.',
+          todo: 'Use the real names, numbers and places from your own job. Press '
+            + 'Say it and speak your answer; it types itself.',
+          alone: 'Say it aloud first, then write. Speaking first is the point of the step.'
+        },
+        {
+          title: 'Report',
+          mins: 6,
+          why: 'Saying it to a room, which is harder than saying it to one person.',
+          todo: 'Stand up if you can. Say it once, slowly. Then write what you said.',
+          alone: 'Say it aloud to the empty room anyway - the difficulty is the '
+            + 'standing up and the once, not the audience.'
+        },
+        {
+          title: 'Read',
+          mins: 7,
+          why: 'Meeting the shape of the thing before you have to write one.',
+          todo: 'Read the page above the questions, then answer. The answers are IN '
+            + 'the page - if you cannot find one, read again rather than guess.',
+          alone: 'Cover your answer and read the page again before you check.'
+        },
+        {
+          title: 'Write with help',
+          mins: 9,
+          why: 'Writing it with the model beside you.',
+          todo: 'Look at the model, then write your own about your own work. Use '
+            + 'the openers if you are stuck, and watch the word counter.',
+          alone: 'Write it, leave it, come back and read it aloud before you check.'
+        },
+        {
+          title: 'Check together',
+          mins: 5,
+          why: 'Reading somebody else\'s work closely enough to help it.',
+          todo: 'Point at a LINE and name ONE thing. \'It is good\' is not feedback.',
+          alone: 'Check your own work against the checklist as if it were somebody '
+            + 'else\'s, a day later.'
+        },
+        {
+          title: 'Share',
+          mins: 3,
+          why: 'Seeing how five other people did the same job.',
+          todo: 'Put the work where it can be read. Read three. Say one specific thing.',
+          alone: 'Compare yours with the model and with the examples on the card.'
+        },
+        {
+          title: 'Write freely',
+          mins: 12,
+          why: 'The same writing, without the model.',
+          todo: 'Write first, check the model afterwards. Looking first turns it '
+            + 'into copying.',
+          alone: 'Set a timer for ten minutes and do not stop to correct anything.'
+        },
+        {
+          title: 'Respond',
+          mins: 5,
+          why: 'Answering what somebody actually wrote, which is a skill of its own.',
+          todo: 'Read their work, then ask a real question about it - one you do '
+            + 'not already know the answer to.',
+          alone: 'Ask the question of your own work and answer it honestly.'
+        },
+        {
+          title: 'Share',
+          mins: 4,
+          why: 'Seeing how five other people did the same job.',
+          todo: 'Put the work where it can be read. Read three. Say one specific thing.',
+          alone: 'Compare yours with the model and with the examples on the card.'
+        }]
+  },
   cards: [
     {
       id: 'c1',

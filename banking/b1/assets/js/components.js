@@ -491,7 +491,16 @@
     var inp = mk('textarea', 'ta');
     inp.rows = q.rows || 2;
     inp.placeholder = q.placeholder || 'Write your answer…';
+    /* HEAR IT, AND SAY IT. See the patch note in
+       tools/course_engine.py. The question is read out; the answer may
+       be spoken instead of typed. */
+    var tools = mk('div', 'q-tools');
+    var sb = BNK.ui.sayBtn && BNK.ui.sayBtn(q.q, { label: 'Listen' });
+    if (sb) tools.appendChild(sb);
     cEl.appendChild(inp);
+    var mb = BNK.ui.micBtn && BNK.ui.micBtn(inp);
+    if (mb) tools.appendChild(mb);
+    if (tools.childNodes.length) cEl.insertBefore(tools, inp);
     if (q.model) cEl.appendChild(BNK.ui.modelBox(q.model));
     return {
       kind: 'txt',
@@ -2976,7 +2985,16 @@
       }
       ta.addEventListener('input', upd);
       upd();
-      block.appendChild(ta); block.appendChild(meta);
+      block.appendChild(ta);
+      /* SAY IT INSTEAD OF TYPING IT - the longest pieces in the
+         course. See the patch note in tools/course_engine.py. */
+      var wmic = BNK.ui.micBtn && BNK.ui.micBtn(ta);
+      if (wmic) {
+        var wrow = mk('div', 'q-tools');
+        wrow.appendChild(wmic);
+        block.appendChild(wrow);
+      }
+      block.appendChild(meta);
       host.appendChild(block);
       tas.push(ta);
     });
@@ -4118,6 +4136,13 @@
     ta.placeholder = card.notePlaceholder || 'Write two lines you said in the role-play…';
     ta.style.marginTop = '12px';
     host.appendChild(ta);
+    /* they have just spoken it - let them speak it here too */
+    var rmic = BNK.ui.micBtn && BNK.ui.micBtn(ta);
+    if (rmic) {
+      var rrow = mk('div', 'q-tools');
+      rrow.appendChild(rmic);
+      host.appendChild(rrow);
+    }
 
     return {
       check: function () {

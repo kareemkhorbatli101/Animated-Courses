@@ -158,6 +158,30 @@ p { margin:0 0 .9em; }
 }
 .card-head h2 { font-size:17.5px; margin:0 0 3px; letter-spacing:-.01em; }
 .card-head .sub { font-size:13px; color:var(--text-2); }
+/* ---------- how to study this page ---------- */
+.study-obj { font-size:15.5px; margin:0 0 10px; }
+.study-steps { margin:14px 0 0; padding-left:22px; }
+.study-steps li { margin:0 0 14px; }
+.study-t { font:700 14.5px/1.4 var(--ui); }
+.study-why { margin:1px 0 3px; font-style:italic; }
+.study-do { font-size:14px; }
+.study-alone {
+  margin-top:3px; padding:5px 9px; border-radius:var(--r-2);
+  background:var(--surface-2); border-left:3px solid var(--accent);
+}
+@media print { .study-steps { break-inside:avoid; } }
+/* ---------- hear it, say it ---------- */
+.q-tools { display:flex; flex-wrap:wrap; gap:6px; margin:2px 0 6px; }
+.say-btn.say-tts { opacity:.82; border-style:dashed; }
+.mic-btn.is-live {
+  border-color:var(--no); color:var(--no);
+  animation:micpulse 1.1s ease-in-out infinite;
+}
+@keyframes micpulse { 0%,100% { opacity:1; } 50% { opacity:.55; } }
+@media (prefers-reduced-motion: reduce) {
+  .mic-btn.is-live { animation:none; text-decoration:underline; }
+}
+@media print { .q-tools { display:none; } }
 /* ---------- sentence openers ----------
    Clickable starts for a learner facing an empty box. They look like
    something to pick up, not like a verdict: dashed, quiet, and they

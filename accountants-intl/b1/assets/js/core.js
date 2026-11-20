@@ -439,6 +439,30 @@
     map.innerHTML = EFA.art.icon('map', 16) + '<span class="hide-sm">Unit map</span>';
     tools.appendChild(map);
 
+    /* ---------------------------------------------------------
+       HOW TO STUDY THIS PAGE. See the patch note in
+       tools/course_engine.py.
+       --------------------------------------------------------- */
+    if (def && def.study && (def.study.steps || []).length) {
+      var sg = U.el('button', 'btn btn-sm btn-ghost');
+      sg.type = 'button';
+      sg.innerHTML = EFA.art.icon('bulb', 16)
+        + '<span class="hide-sm">How to study this</span>';
+      sg.title = 'What this page is for, and how to work through it';
+      sg.onclick = function () { EFA.studyPanel(def); };
+      tools.appendChild(sg);
+      /* once, by itself, on a page never attempted - and remembered */
+      try {
+        var seen = EFA.prefs.studySeen || {};
+        if (!seen[def.id]) {
+          seen[def.id] = 1;
+          EFA.prefs.studySeen = seen;
+          EFA.savePrefs();
+          setTimeout(function () { EFA.studyPanel(def); }, 700);
+        }
+      } catch (e) { }
+    }
+
     var pr = U.el('button', 'btn btn-sm btn-ghost');
     pr.innerHTML = EFA.art.icon('print', 16);
     pr.title = 'Print this page as a worksheet';
@@ -1505,6 +1529,48 @@
      modal — one overlay dialog, focus-trapped
      ============================================================ */
   var openModal = null;
+  /* ----------------------------------------------------------
+     studyPanel - what this page is for, and how to work it.
+     Every line comes from the page's own `study` block; this
+     function invents nothing about the lesson.
+     ---------------------------------------------------------- */
+  EFA.studyPanel = function (def) {
+    var s = def && def.study;
+    if (!s) return null;
+    var h = [];
+    h.push('<p class="study-obj"><b>By the end of this page you can '
+         + '</b>' + U.esc(s.objective || '') + '.</p>');
+    if (s.minutes) {
+      h.push('<p class="wc">About <b>' + s.minutes + ' minutes</b> if '
+           + 'you do every step. You do not have to do it in one '
+           + 'sitting \u2014 the page remembers where you were.</p>');
+    }
+    h.push('<p class="wc">Each card says what kind it is: '
+         + '<b>has a right answer</b> \u2014 the course checks it; '
+         + '<b>compare with the model</b> \u2014 the book\'s own '
+         + 'answer is there when you want it; <b>your own answer</b> '
+         + '\u2014 it is saved, not marked.</p>');
+    h.push('<p class="wc">Anywhere you can type you can also speak: '
+         + 'press <b>Say it</b>. Anywhere there is a question you can '
+         + 'hear it: press <b>Listen</b>.</p>');
+    h.push('<ol class="study-steps">');
+    (s.steps || []).forEach(function (st) {
+      h.push('<li><div class="study-t">' + U.esc(st.title)
+           + (st.mins ? ' <span class="wc">' + st.mins + ' min</span>'
+                      : '') + '</div>'
+           + '<div class="wc study-why">' + U.esc(st.why) + '</div>'
+           + '<div class="study-do">' + U.esc(st.todo) + '</div>'
+           + '<div class="wc study-alone"><b>On your own:</b> '
+           + U.esc(st.alone) + '</div></li>');
+    });
+    h.push('</ol>');
+    return EFA.modal({
+      title: 'How to study this page',
+      wide: true,
+      html: h.join('')
+    });
+  };
+
   EFA.modal = function (opts) {
     if (openModal) openModal.close();
     var lastFocus = d.activeElement;
@@ -2974,6 +3040,78 @@
         onChange: function (v) { if (v) w.location.href = v + '.html'; }
       });
       return p.el;
+    },
+
+    /* ----------------------------------------------------------
+       sayBtn - hear this line, recorded or spoken.
+       The recording is preferred ALWAYS; the device voice is the
+       fallback and announces itself, because a learner who thinks
+       they are hearing the course's own actor should be right.
+       ---------------------------------------------------------- */
+    sayBtn: function (text, opts) {
+      var t = String(text || '').trim();
+      if (!t || !/[A-Za-z\u0600-\u06FF]/.test(t)) return null;
+      opts = opts || {};
+      var b = U.el('button', 'btn btn-sm btn-ghost say-btn',
+                   EFA.art.icon('sound', 15) + (opts.label || 'Listen'));
+      b.type = 'button';
+      var role = opts.role || 'course';
+      var voice = opts.voice
+        || (EFA.voiceFor ? EFA.voiceFor(role) : null);
+      var rec = (EFA.clip && voice) ? EFA.clip(t, voice) : null;
+      b.title = rec ? 'Recorded for this course'
+                    : (EFA.deviceVoiceNote || 'Read by your device');
+      if (!rec) b.classList.add('say-tts');
+      /* EFA.say already prefers the recording and falls back to the
+         device voice; this only decides what the BUTTON says it is. */
+      b.onclick = function () { EFA.say(t, role, opts.sayOpts || {}); };
+      return b;
+    },
+
+    /* ----------------------------------------------------------
+       micBtn - say the answer instead of typing it.
+       Returns null where the browser has no recogniser, so the
+       course never shows a control it cannot honour.
+       ---------------------------------------------------------- */
+    micBtn: function (target) {
+      var SR = w.SpeechRecognition || w.webkitSpeechRecognition;
+      if (!SR || !target) return null;
+      var b = U.el('button', 'btn btn-sm btn-ghost mic-btn',
+                   EFA.art.icon('mic', 15) + 'Say it');
+      b.type = 'button';
+      b.title = 'Speak your answer instead of typing it';
+      var rec = null;
+      b.onclick = function () {
+        if (rec) { try { rec.stop(); } catch (e) { } rec = null; return; }
+        try { rec = new SR(); } catch (e) { rec = null; }
+        if (!rec) { EFA.toast('Speech input is not available here'); return; }
+        rec.lang = 'en-GB';
+        rec.interimResults = true;
+        rec.continuous = false;
+        var start = target.value, said = '';
+        b.classList.add('is-live');
+        b.innerHTML = EFA.art.icon('x', 15) + 'Stop';
+        rec.onresult = function (ev) {
+          said = '';
+          for (var i = 0; i < ev.results.length; i++) {
+            said += ev.results[i][0].transcript;
+          }
+          target.value = (start ? start.replace(/\s*$/, '') + ' ' : '')
+                       + said.replace(/^\s+/, '');
+          target.dispatchEvent(new w.Event('input', { bubbles: true }));
+        };
+        rec.onerror = function () {
+          EFA.toast('I could not hear that \u2014 try again, or type it.');
+        };
+        rec.onend = function () {
+          rec = null;
+          b.classList.remove('is-live');
+          b.innerHTML = EFA.art.icon('mic', 15) + 'Say it';
+          target.focus();
+        };
+        try { rec.start(); } catch (e) { rec = null; }
+      };
+      return b;
     },
 
     recorder: function () {
