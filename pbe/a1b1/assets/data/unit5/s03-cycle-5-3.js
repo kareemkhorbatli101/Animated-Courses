@@ -111,6 +111,15 @@ PBE1.page('u5-s03', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write the quantity you received.',
+    weak: '12.',
+    change: ['Twelve what? Boxes and pallets are both on this delivery and they '
+          + 'are not the same number.',
+        'Show the arithmetic - pallets times boxes - so the twelve can be '
+          + 'checked without unloading it again.'],
+    better: 'Twelve boxes. Three pallets, four boxes on each. Not twelve pallets.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,12 +133,16 @@ PBE1.page('u5-s03', {
             q: 'Say five quantities from your work. A number and a thing. Three '
               + 'pallets. Twelve boxes.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Five, and each one must have the unit word in it. A number on '
+              + 'its own is the mistake this whole cycle is about.'
           },
       {
             q: 'Read the two lines. Which one can you count? 12 · 12 boxes',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Ask yourself: if somebody handed you this line, could you walk '
+              + 'out and check it? One of them you can.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Good morning. My name is Samih Qassar. I am the storeman.',
@@ -192,6 +205,47 @@ PBE1.page('u5-s03', {
               why: 'Twelve boxes, four on each of three pallets.'
             }],
             evidence: 'the driver\'s answer when asked twelve WHAT'
+          },
+        {
+            q: 'Listen again. How many boxes are on each pallet?',
+            options: [{
+              t: 'four',
+              ok: true,
+              why: '*Three pallets, four boxes on each* - which is where the '
+                + 'twelve comes from.'
+            },
+            {
+              t: 'twelve',
+              ok: false,
+              why: 'Twelve is the total on the paper, the number with no unit on it.'
+            },
+            {
+              t: 'three',
+              ok: false,
+              why: 'Three is the number of pallets, not what is on one.'
+            }],
+            evidence: 'the driver\'s line where he explains the twelve'
+          },
+        {
+            q: 'Why will Ammar not accept “everybody knows it is boxes”?',
+            options: [{
+              t: 'because he is new, so the paper has to say it',
+              ok: true,
+              why: '*I am new. I do not know it is boxes.* A paper that only works '
+                + 'for the people who already know is not a paper.'
+            },
+            {
+              t: 'because the driver is late and rushing him',
+              ok: false,
+              why: 'The driver\'s four more stops are mentioned, and Ammar brushes '
+                + 'them aside - but that is not his reason for asking.'
+            },
+            {
+              t: 'because twelve is the wrong number',
+              ok: false,
+              why: 'Twelve may well be right. What is missing is the word after it.'
+            }],
+            evidence: 'Ammar\'s last two lines'
           }],
         say: true
       }
@@ -208,7 +262,9 @@ PBE1.page('u5-s03', {
             q: 'Listen again. How many boxes on a pallet?',
             model: 'Four',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The driver breaks the twelve down into pallets and '
+              + 'boxes-per-pallet. You want the second number.'
           },
       {
             q: 'What does Ammar count?',
@@ -218,7 +274,9 @@ PBE1.page('u5-s03', {
             keys: ['twelve',
               'boxes',
               'pallets'],
-            need: 1
+            need: 1,
+            hint: 'Not the pallets - the thing the number on the paper is actually '
+              + 'about. Say the number and the unit.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -270,7 +328,11 @@ PBE1.page('u5-s03', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: A number is not a quantity until it has a unit.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -317,7 +379,11 @@ PBE1.page('u5-s03', {
         'pallets',
         'roll',
         'twelve']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: A number is not a quantity until it has a unit.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -359,7 +425,11 @@ PBE1.page('u5-s03', {
         'roll',
         'twelve'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: A number is not a quantity until it has a unit.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -389,7 +459,8 @@ PBE1.page('u5-s03', {
             q: 'How many rolls of tape?',
             model: 'Six',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The note above, the tape line. Read the quantity column.'
           },
       {
             q: 'How many boxes of labels altogether?',
@@ -400,7 +471,9 @@ PBE1.page('u5-s03', {
               'twelve',
               'white',
               'yellow'],
-            need: 1
+            need: 1,
+            hint: 'Add the two label lines on the note. Give the total, and the two '
+              + 'numbers it came from.'
           },
       {
             q: 'Why does the note say count the boxes, not the lines?',
@@ -412,7 +485,9 @@ PBE1.page('u5-s03', {
               'hold',
               'sixteen',
               'man'],
-            need: 1
+            need: 1,
+            hint: 'Count the lines on the note, then the boxes. The two numbers are '
+              + 'nothing like each other, and that is the answer.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -551,7 +626,11 @@ PBE1.page('u5-s03', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: A number is not a quantity until it has a unit.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -664,7 +743,11 @@ PBE1.page('u5-s03', {
         'twelve'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: A number is not a quantity until it has a unit.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -686,7 +769,11 @@ PBE1.page('u5-s03', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: A number is not a quantity until it has a unit.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

@@ -97,6 +97,17 @@ PBE1.page('u5-s07', {
           alone: 'Do it cold. The looking-back is the exercise.'
         }]
   },
+  worked: {
+    task: 'Write the line that records a short delivery.',
+    weak: 'One box missing.',
+    change: ['Say which line of the note was short and what is on it - a note has '
+          + 'several lines and only one of them was wrong.',
+        'Name both signatures. One name on a difference is a claim; two names '
+          + 'make it a record.'],
+    better: 'Note 4417, 4 March. Line 1, the white labels: paper says sixteen boxes, '
+      + 'I counted fifteen. One box short. Signed by me and by the driver, M. '
+      + 'Haddad.'
+  },
   cards: [
     {
       id: 'c1',
@@ -184,6 +195,50 @@ PBE1.page('u5-s07', {
               why: 'He wants to leave, but not to leave them outside.'
             }],
             evidence: 'the driver\'s first line, and the road that closes at two'
+          },
+        {
+            q: 'Listen again. How many boxes were counted, and how many does the '
+              + 'paper say?',
+            options: [{
+              t: 'fifteen counted, sixteen on the paper',
+              ok: true,
+              why: 'Which Ammar then states as *one box short, line one* - a '
+                + 'difference, with the line it is on.'
+            },
+            {
+              t: 'sixteen counted, fifteen on the paper',
+              ok: false,
+              why: 'The two numbers the other way round. The count is always the '
+                + 'smaller one here - that is what *short* means.'
+            },
+            {
+              t: 'fifteen on the paper and fifteen counted',
+              ok: false,
+              why: 'If they agreed there would be nothing to write, and no reason '
+                + 'for two signatures.'
+            }],
+            evidence: 'Nour\'s answer about line one'
+          },
+        {
+            q: 'Why does the driver\'s signature matter as well as Ammar\'s?',
+            options: [{
+              t: 'two signatures make it a fact instead of an argument',
+              ok: true,
+              why: 'One name on a difference is a claim. Two names on the same '
+                + 'difference is a record.'
+            },
+            {
+              t: 'because the driver has to be paid for the trip',
+              ok: false,
+              why: 'Payment is never mentioned in this scene.'
+            },
+            {
+              t: 'because the office will not accept one name',
+              ok: false,
+              why: 'No office rule is quoted. The reason Ammar gives is about what '
+                + 'the paper can later be used for.'
+            }],
+            evidence: 'Ammar\'s last line'
           }],
         say: true
       }
@@ -200,7 +255,9 @@ PBE1.page('u5-s07', {
             q: 'Listen again. How many stops has the driver got left?',
             model: 'Four',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'He says it as his reason for hurrying, and Ammar refuses to '
+              + 'accept it as one.'
           },
       {
             q: 'What has happened to Ammar before?',
@@ -211,7 +268,9 @@ PBE1.page('u5-s07', {
               'sixteen',
               'last',
               'month'],
-            need: 1
+            need: 1,
+            hint: 'A number signed for, a smaller number received, and a '
+              + 'consequence that landed on him. All three.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -256,7 +315,11 @@ PBE1.page('u5-s07', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -309,7 +372,11 @@ PBE1.page('u5-s07', {
         'both',
         'about',
         'something']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -372,7 +439,11 @@ PBE1.page('u5-s07', {
         'about',
         'something'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',

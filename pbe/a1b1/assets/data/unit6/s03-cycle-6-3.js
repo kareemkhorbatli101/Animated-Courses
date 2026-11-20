@@ -111,6 +111,15 @@ PBE1.page('u6-s03', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you say when you have to leave the caller for a moment.',
+    weak: 'Wait. [puts the telephone down for a minute]',
+    change: ['<i>One moment, please</i> - and ten seconds is what a moment means. '
+          + 'At twenty, say <i>I am sorry, one more moment</i>.',
+        'Thank them when you come back, and keep the pen and the pad next to '
+          + 'the telephone so the wait is short in the first place.'],
+    better: 'One moment, please. [ten seconds] Thank you for waiting. Your name again, please?'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +133,17 @@ PBE1.page('u6-s03', {
             q: 'You need to put the telephone down and find a pen. What do you '
               + 'say? Say it in Arabic, then in English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Three words will do it. Then look at what Ammar says when he '
+              + 'comes back - that part is just as important.'
           },
       {
             q: 'Count ten seconds in your head. That is how long one moment is. '
               + 'Count twenty. That is too long.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Actually count them, out loud, once. Ten seconds is longer than '
+              + 'it sounds and twenty is much longer than it feels.'
           }],
       ideas: ['Making somebody wait, properly'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -199,6 +212,48 @@ PBE1.page('u6-s03', {
               why: 'He waits and is thanked for waiting.'
             }],
             evidence: 'Nour\'s question about how long that was'
+          },
+        {
+            q: 'Listen again. How long did the caller actually wait?',
+            options: [{
+              t: 'ten seconds',
+              ok: true,
+              why: 'He says it himself, and he says why: he had no pen.'
+            },
+            {
+              t: 'four minutes',
+              ok: false,
+              why: 'Four minutes is what happened to this caller *last week*, with '
+                + 'somebody else - and it is the reason he asked.'
+            },
+            {
+              t: 'one minute',
+              ok: false,
+              why: '*One moment* is what Ammar said, and the scene is about the '
+                + 'gap between the phrase and the clock.'
+            }],
+            evidence: 'Ammar\'s answer to *How long was that?*'
+          },
+        {
+            q: 'Why was there a wait at all?',
+            options: [{
+              t: 'he had no pen and no pad ready',
+              ok: true,
+              why: 'The ten seconds were spent finding them - which is a thing you '
+                + 'can fix before the telephone rings.'
+            },
+            {
+              t: 'the line was bad',
+              ok: false,
+              why: 'Nothing is wrong with the line; both men hear each other perfectly.'
+            },
+            {
+              t: 'Mr Khalil was being fetched',
+              ok: false,
+              why: 'Mr Khalil is not there at all, which Ammar says only after he '
+                + 'comes back.'
+            }],
+            evidence: 'Ammar\'s own explanation'
           }],
         say: true
       }
@@ -220,13 +275,17 @@ PBE1.page('u6-s03', {
               'pen',
               'slip',
               'pad'],
-            need: 1
+            need: 1,
+            hint: 'Two objects, both on the desk - and the whole scene is an '
+              + 'argument for keeping them there.'
           },
       {
             q: 'What does he say when he comes back?',
             model: 'Thank you for waiting',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Four words, and he says them before anything else. The card '
+              + 'above has them too.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -280,7 +339,11 @@ PBE1.page('u6-s03', {
       ideas: ['Making somebody wait, properly'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Making somebody wait, properly.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -331,7 +394,11 @@ PBE1.page('u6-s03', {
         'slip',
         'live',
         'next']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Making somebody wait, properly.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -374,7 +441,11 @@ PBE1.page('u6-s03', {
         'live',
         'next'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Making somebody wait, properly.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -411,7 +482,9 @@ PBE1.page('u6-s03', {
             rows: 2,
             keys: ['sorry',
               'moment'],
-            need: 1
+            need: 1,
+            hint: 'The card above, the twenty-second row. It has an apology and a '
+              + 'request in it.'
           },
       {
             q: 'Where do the pen and the pad live?',
@@ -420,7 +493,8 @@ PBE1.page('u6-s03', {
             rows: 2,
             keys: ['next',
               'telephone'],
-            need: 1
+            need: 1,
+            hint: 'The card\'s rule. Three words, and it is the fix for the whole problem.'
           },
       {
             q: 'At sixty seconds, what do you ask for?',
@@ -431,7 +505,9 @@ PBE1.page('u6-s03', {
               'number',
               'call',
               'back'],
-            need: 1
+            need: 1,
+            hint: 'The card\'s last row. At a minute you stop making them wait and '
+              + 'do something else - say what.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -568,7 +644,11 @@ PBE1.page('u6-s03', {
           }],
       ideas: ['Making somebody wait, properly'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Making somebody wait, properly.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -680,7 +760,11 @@ PBE1.page('u6-s03', {
         'next'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Making somebody wait, properly.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -702,7 +786,11 @@ PBE1.page('u6-s03', {
           }],
       ideas: ['Making somebody wait, properly'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Making somebody wait, properly.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

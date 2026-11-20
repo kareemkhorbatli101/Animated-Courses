@@ -1,11 +1,14 @@
 /* Unit 1 — the acted dialogues. Every line is the book's own. */
 PBE1.scene('u1-1-1', {
   set: 'gate',
+  arr: 0,
   cast: {
     abu_raed: { rig: 'm-50s-b', name: 'Abu Raed', voice: 'en-US-RogerNeural', shirt: '#4a5a46', shirt2: '#3a4737',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62],
+      pose: 'write', hold: 'book' },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'abu_raed', cam: { shot: 'wide' },
@@ -29,11 +32,14 @@ PBE1.scene('u1-1-1', {
 
 PBE1.scene('u1-1-1-pair', {
   set: 'gate',
+  arr: 0,
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62],
+      pose: 'write', hold: 'book' },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -53,11 +59,14 @@ PBE1.scene('u1-1-1-pair', {
 
 PBE1.scene('u1-1-2', {
   set: 'gate',
+  arr: 1,
   cast: {
     abu_raed: { rig: 'm-50s-b', name: 'Abu Raed', voice: 'en-US-RogerNeural', shirt: '#4a5a46', shirt2: '#3a4737',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62],
+      pose: 'write', hold: 'book' },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.45, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'abu_raed', cam: { shot: 'wide' },
@@ -83,11 +92,14 @@ PBE1.scene('u1-1-2', {
 
 PBE1.scene('u1-1-2-pair', {
   set: 'gate',
+  arr: 1,
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62],
+      pose: 'write', hold: 'book' },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.45, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -107,11 +119,14 @@ PBE1.scene('u1-1-2-pair', {
 
 PBE1.scene('u1-1-3', {
   set: 'gate',
+  arr: 2,
   cast: {
     abu_yasser: { rig: 'm-50s-a', name: 'Abu Yasser', voice: 'en-US-ChristopherNeural', shirt: '#6b6256', shirt2: '#564e44',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62],
+      pose: 'write', hold: 'book' },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.45, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'abu_yasser', cam: { shot: 'wide' },
@@ -137,11 +152,14 @@ PBE1.scene('u1-1-3', {
 
 PBE1.scene('u1-1-3-pair', {
   set: 'gate',
+  arr: 2,
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62],
+      pose: 'write', hold: 'book' },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.45, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -161,11 +179,14 @@ PBE1.scene('u1-1-3-pair', {
 
 PBE1.scene('u1-1-4', {
   set: 'gate',
+  arr: 0,
   cast: {
     abu_yasser: { rig: 'm-50s-a', name: 'Abu Yasser', voice: 'en-US-ChristopherNeural', shirt: '#6b6256', shirt2: '#564e44',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62],
+      pose: 'write', hold: 'book' },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'abu_yasser', cam: { shot: 'wide' },
@@ -191,11 +212,14 @@ PBE1.scene('u1-1-4', {
 
 PBE1.scene('u1-1-4-pair', {
   set: 'gate',
+  arr: 0,
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62],
+      pose: 'write', hold: 'book' },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -215,13 +239,17 @@ PBE1.scene('u1-1-4-pair', {
 
 PBE1.scene('u1-1-5', {
   set: 'gate',
+  arr: 1,
   cast: {
     abu_yasser: { rig: 'm-50s-a', name: 'Abu Yasser', voice: 'en-US-ChristopherNeural', shirt: '#6b6256', shirt2: '#564e44',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62],
+      pose: 'write', hold: 'book' },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62],
+      pose: 'rest' },
     abu_raed: { rig: 'm-50s-b', name: 'Abu Raed', voice: 'en-US-RogerNeural', shirt: '#4a5a46', shirt2: '#3a4737',
-      full: true, scale: 0.62, bottom: 30, at: [0.45, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.45, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'abu_yasser', cam: { shot: 'wide' },
@@ -247,11 +275,14 @@ PBE1.scene('u1-1-5', {
 
 PBE1.scene('u1-1-5-pair', {
   set: 'gate',
+  arr: 1,
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62],
+      pose: 'write', hold: 'book' },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.45, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -271,11 +302,14 @@ PBE1.scene('u1-1-5-pair', {
 
 PBE1.scene('u1-1-6', {
   set: 'gate',
+  arr: 2,
   cast: {
     abu_yasser: { rig: 'm-50s-a', name: 'Abu Yasser', voice: 'en-US-ChristopherNeural', shirt: '#6b6256', shirt2: '#564e44',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62],
+      pose: 'write', hold: 'book' },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.45, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'abu_yasser', cam: { shot: 'wide' },
@@ -301,11 +335,14 @@ PBE1.scene('u1-1-6', {
 
 PBE1.scene('u1-1-6-pair', {
   set: 'gate',
+  arr: 2,
   cast: {
     a: { rig: 'm-20s-a', name: 'A', voice: 'en-US-AndrewNeural', shirt: '#3f6f8f', shirt2: '#315a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62],
+      pose: 'write', hold: 'book' },
     b: { rig: 'f-20s-b', name: 'B', voice: 'en-US-AvaNeural', shirt: '#a85270', shirt2: '#86415a',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.45, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'a', cam: { shot: 'wide' },
@@ -325,13 +362,17 @@ PBE1.scene('u1-1-6-pair', {
 
 PBE1.scene('u1-1-7', {
   set: 'gate',
+  arr: 0,
   cast: {
     nour: { rig: 'f-20s-a', name: 'Nour', voice: 'en-US-AriaNeural', shirt: '#b8527a', shirt2: '#95415f',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62],
+      pose: 'write', hold: 'book' },
     abu_raed: { rig: 'm-50s-b', name: 'Abu Raed', voice: 'en-US-RogerNeural', shirt: '#4a5a46', shirt2: '#3a4737',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62],
+      pose: 'rest' },
     ammar: { rig: 'm-20s-a', name: 'Ammar', voice: 'en-US-AndrewNeural', shirt: '#2f6f8f', shirt2: '#255a74',
-      full: true, scale: 0.62, bottom: 30, at: [0.45, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.45, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'nour', cam: { shot: 'wide' },
@@ -359,11 +400,14 @@ PBE1.scene('u1-1-7', {
 
 PBE1.scene('u1-1-7', {
   set: 'gate',
+  arr: 0,
   cast: {
     abu_raed: { rig: 'm-50s-b', name: 'Abu Raed', voice: 'en-US-RogerNeural', shirt: '#4a5a46', shirt2: '#3a4737',
-      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62] },
+      full: true, scale: 0.62, bottom: 30, at: [0.17, 0.62],
+      pose: 'write', hold: 'book' },
     majd: { rig: 'm-20s-b', name: 'Majd', voice: 'en-US-BrianNeural', shirt: '#7a5ea8', shirt2: '#624b86',
-      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62] }
+      full: true, scale: 0.62, bottom: 30, at: [0.74, 0.62],
+      pose: 'rest' }
   },
   lines: [
     { who: 'abu_raed', cam: { shot: 'wide' },

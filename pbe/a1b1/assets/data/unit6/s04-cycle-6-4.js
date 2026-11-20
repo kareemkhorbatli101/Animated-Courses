@@ -111,6 +111,16 @@ PBE1.page('u6-s04', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you say when the person the caller wants is not there.',
+    weak: 'He is not here.',
+    change: ['Add where and when - <i>in Homs until Thursday</i>, <i>back at '
+          + 'two</i>. Without that the caller has nothing to do next.',
+        'Offer the message, and say the true reason rather than the polite '
+          + 'one. <i>At lunch</i> is believed; <i>in a meeting</i> is not.'],
+    better: 'He is not here. He is in Homs until Thursday. Mrs Mansour is here but '
+      + 'she is at lunch - she is back at two. Can I take a message?'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,13 +133,17 @@ PBE1.page('u6-s04', {
       questions: [{
             q: 'Where are the people at your work right now? Say it: He is . She is .',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Two things each time: where they are, and when they are back. '
+              + 'The second is what the caller actually needs.'
           },
       {
             q: 'Read the two lines. Which helps the caller? He is not here · He '
               + 'is not here. He is back at two.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One of them ends the call with nothing. The other gives the '
+              + 'caller something to do next.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Good morning. My name is Samih Qassar. I am the storeman.',
@@ -197,6 +211,47 @@ PBE1.page('u6-s04', {
               why: 'Away, and the day he returns is given.'
             }],
             evidence: 'the answer about Mr Khalil, and the day he is back'
+          },
+        {
+            q: 'Listen again. When is Mrs Mansour back?',
+            options: [{
+              t: 'at two',
+              ok: true,
+              why: '*She is here. She is at lunch. She is back at two.* - here, '
+                + 'but not now, and a time to ring.'
+            },
+            {
+              t: 'on Thursday',
+              ok: false,
+              why: 'Thursday is Mr Khalil\'s return - he is in Homs until then.'
+            },
+            {
+              t: 'she is not coming back today',
+              ok: false,
+              why: 'The opposite: the two o\'clock is the whole reason the caller '
+                + 'accepts a message.'
+            }],
+            evidence: 'Ammar\'s second line'
+          },
+        {
+            q: 'What does the caller notice about Ammar\'s answer?',
+            options: [{
+              t: 'he said she was at lunch, which is the truth',
+              ok: true,
+              why: '*Everybody says a meeting. Nobody is ever at lunch.* The true '
+                + 'reason is rarer, and more useful, than the polite one.'
+            },
+            {
+              t: 'he did not offer to take a message',
+              ok: false,
+              why: 'He offers one twice, and the offer is what the caller takes.'
+            },
+            {
+              t: 'he did not say where Mr Khalil was',
+              ok: false,
+              why: 'He says it in his first line: in Homs until Thursday.'
+            }],
+            evidence: 'the last three lines'
           }],
         say: true
       }
@@ -216,13 +271,16 @@ PBE1.page('u6-s04', {
             rows: 2,
             keys: ['person',
               'back'],
-            need: 1
+            need: 1,
+            hint: 'Beyond *he is not here*: one is a place, one is a time.'
           },
       {
             q: 'What does he NOT say?',
             model: 'He does not say in a meeting',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            hint: 'The caller points it out at the very end, and says everybody '
+              + 'else says it. Three words.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -275,7 +333,12 @@ PBE1.page('u6-s04', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying somebody is not there — and the '
+        + 'second half.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -323,7 +386,12 @@ PBE1.page('u6-s04', {
         'ends',
         'call',
         'nothing']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying somebody is not there — and the '
+        + 'second half.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -367,7 +435,12 @@ PBE1.page('u6-s04', {
         'call',
         'nothing'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying somebody is not there — and the '
+        + 'second half.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -403,17 +476,21 @@ PBE1.page('u6-s04', {
       questions: [{
             q: 'When is Abu Yasser back?',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'The board above, Abu Yasser\'s row - read across to the *back* column.'
           },
       {
             q: 'Who is here all day?',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'The board above: the row with no going-out time against it.'
           },
       {
             q: 'Why is a wrong board worse than no board?',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Think about what you do with each one. A missing board makes you '
+              + 'ask somebody; a wrong board makes you confident.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '
@@ -562,7 +639,12 @@ PBE1.page('u6-s04', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying somebody is not there — and the '
+        + 'second half.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -680,7 +762,12 @@ PBE1.page('u6-s04', {
         'nothing'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying somebody is not there — and the '
+        + 'second half.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -702,7 +789,12 @@ PBE1.page('u6-s04', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying somebody is not there — and the '
+        + 'second half.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

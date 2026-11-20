@@ -111,6 +111,15 @@ PBE1.page('u1-s02', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write how you give your family name to somebody who has to write it down.',
+    weak: 'My name is Zreik.',
+    change: ['Say the letters one at a time after the name - the other person has '
+          + 'to write it, and has never seen it.',
+        'Add the number of letters at the end. It is how the writer knows '
+          + 'nothing was dropped.'],
+    better: 'My name is Zreik. Z, R, E, I, K. Five letters.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,7 +133,9 @@ PBE1.page('u1-s02', {
             q: 'Say the letters you know in English. Your teacher writes them on '
               + 'the board.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Start with the letters in your own name - those are the ones you '
+              + 'will need first and most often.'
           },
       {
             q: 'Which letters are in your name? Say them. Write them here:',
@@ -132,7 +143,10 @@ PBE1.page('u1-s02', {
               + 'the first thing most of them will ever spell aloud in English '
               + 'and it should be theirs',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Say each letter aloud as you write it. If two of them sound '
+              + 'alike to you, mark those two - they are the ones a listener will '
+              + 'get wrong.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -184,6 +198,49 @@ PBE1.page('u1-s02', {
                 + 'name, not the gate.'
             }],
             evidence: 'the lines where Abu Raed asks for the name a second time'
+          },
+        {
+            q: 'Listen again. How many letters does Ammar say there are?',
+            options: [{
+              t: 'five',
+              ok: true,
+              why: 'He spells it and then counts it for Abu Raed: five letters.'
+            },
+            {
+              t: 'four',
+              ok: false,
+              why: 'Z-R-E-I-K is one more than four. Count the letters as he says them.'
+            },
+            {
+              t: 'nine',
+              ok: false,
+              why: 'Nine is in this dialogue, but it is nine *years* of writing '
+                + 'names in the book - not the letters in one name.'
+            }],
+            evidence: 'the line where Ammar says the letters the second time, slowly'
+          },
+        {
+            q: 'Who reads what Abu Raed writes in his book?',
+            options: [{
+              t: 'nobody but Abu Raed himself',
+              ok: true,
+              why: 'He says it plainly at the end, and it is the joke of the '
+                + 'scene: he has written every name for nine years and he is the '
+                + 'only reader.'
+            },
+            {
+              t: 'the office, every morning',
+              ok: false,
+              why: 'An office appears in other cycles. In this one, nobody is said '
+                + 'to collect or check the book.'
+            },
+            {
+              t: 'the men at the gate',
+              ok: false,
+              why: 'The men give their names to the book; that is not the same as '
+                + 'reading it. Listen to Abu Raed\'s very last line.'
+            }],
+            evidence: 'the last two lines of the dialogue'
           }],
         say: true
       }
@@ -200,7 +257,9 @@ PBE1.page('u1-s02', {
             q: 'Listen again. How many letters in Zreik?',
             model: 'Five',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Count them with him the second time, when he says them slowly - '
+              + 'and he says the total himself at the end of that line.'
           },
       {
             q: 'What does Abu Raed write in the book?',
@@ -210,7 +269,9 @@ PBE1.page('u1-s02', {
             keys: ['name',
               'arabic',
               'letters'],
-            need: 1
+            need: 1,
+            hint: 'He says what he writes, and then says what he does *not* write. '
+              + 'Your answer needs the script he uses, not just *the name*.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -265,7 +326,11 @@ PBE1.page('u1-s02', {
       'Job: Storeman'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The letters.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -309,7 +374,11 @@ PBE1.page('u1-s02', {
         'sound',
         'people',
         'practise']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The letters.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -351,7 +420,11 @@ PBE1.page('u1-s02', {
         'people',
         'practise'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The letters.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -376,19 +449,25 @@ PBE1.page('u1-s02', {
             q: 'How do you spell the surname?',
             model: 'Z, R, E, I, K',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            hint: 'Five letters, said one at a time. Write them separated, the way '
+              + 'he says them, not as a word.'
           },
       {
             q: 'What is the number?',
             model: '41',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'From the gate book above, not the dialogue - the number in the '
+              + 'column next to the name.'
           },
       {
             q: 'How many letters are in the first name?',
             model: 'Five',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Count the letters of the first name in the book\'s own spelling. '
+              + 'A-M-M-A-R, on your fingers.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -522,7 +601,11 @@ PBE1.page('u1-s02', {
       'Name: AMMAR ZREIK',
       'Job: Storeman'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The letters.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -631,7 +714,11 @@ PBE1.page('u1-s02', {
           + 'sheet after you? You said Abu Yasser reads it at four.']
       },
       example: ['You wrote that you check the shelves first. I asked: who reads the '
-        + 'sheet after you? You said Abu Yasser reads it at four.']
+        + 'sheet after you? You said Abu Yasser reads it at four.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The letters.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -655,7 +742,11 @@ PBE1.page('u1-s02', {
       'Name: AMMAR ZREIK',
       'Job: Storeman'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The letters.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

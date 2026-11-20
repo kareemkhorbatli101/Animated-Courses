@@ -111,6 +111,16 @@ PBE1.page('u5-s05', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you do with a number you cannot read.',
+    weak: 'I think it is 4417 so I wrote 4417.',
+    change: ['Do not guess. A guessed digit looks exactly like a known one afterwards.',
+        'Say what you did instead, and ask for a second fact - the date as '
+          + 'well as the number - so one can check the other.'],
+    better: 'The third digit is a one or a seven - 4417 or 4477. I telephoned Beirut '
+      + 'and asked for the note number and the date together. Two facts are '
+      + 'better than one.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +134,17 @@ PBE1.page('u5-s05', {
             q: 'Write 4417 on a piece of paper. Give it to your partner. They '
               + 'read it back. Check it.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write it quickly, the way a busy person would. Alone, write it, '
+              + 'leave it an hour, and read your own handwriting back.'
           },
       {
             q: 'Which pairs of numbers look the same in bad handwriting? Say it. '
               + '6 and 8 · 1 and 7 · 5 and 6 · 3 and 8 · 0 and 6',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write each pair quickly yourself and look at your own hand. The '
+              + 'pairs that worry you are the ones to read back aloud at work.'
           }],
       ideas: ['Copying a number, and checking it'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -195,6 +209,46 @@ PBE1.page('u5-s05', {
                 + 'a different delivery.'
             }],
             evidence: 'the handwritten digit Nour cannot read'
+          },
+        {
+            q: 'Listen again. Which digit cannot be read?',
+            options: [{
+              t: 'the third one',
+              ok: true,
+              why: '*The third digit. A one, or a seven?* - which is what makes '
+                + '4417 and 4477 the same handwriting.'
+            },
+            {
+              t: 'the first one',
+              ok: false,
+              why: 'Both readings start four, four - the trouble is further in.'
+            },
+            {
+              t: 'the last one',
+              ok: false,
+              why: 'Both readings end in seven. Listen for which position Ammar names.'
+            }],
+            evidence: 'Ammar\'s second question to Nour'
+          },
+        {
+            q: 'Why does Nour tell him to ask for the number AND the date?',
+            options: [{
+              t: 'because if one is wrong, the other still finds the delivery',
+              ok: true,
+              why: '*Two facts are better than one.* Two facts about one thing can '
+                + 'check each other; one cannot.'
+            },
+            {
+              t: 'because Beirut keeps two separate books',
+              ok: false,
+              why: 'Nothing is said about how Beirut files anything.'
+            },
+            {
+              t: 'because the date proves who signed it',
+              ok: false,
+              why: 'A date says when, not who. The signature is a different cycle.'
+            }],
+            evidence: 'Nour\'s answer to *Why both?*'
           }],
         say: true
       }
@@ -214,7 +268,9 @@ PBE1.page('u5-s05', {
             rows: 2,
             keys: ['third',
               'digit'],
-            need: 1
+            need: 1,
+            hint: 'Ammar names the *position* in the number, and then the two '
+              + 'digits it might be.'
           },
       {
             q: 'What does Ammar do in the end?',
@@ -224,7 +280,9 @@ PBE1.page('u5-s05', {
             keys: ['telephones',
               'beirut',
               'asks'],
-            need: 1
+            need: 1,
+            hint: 'He does not guess. Say who he contacts, and - if you can - the '
+              + 'two things he asks for.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -277,7 +335,11 @@ PBE1.page('u5-s05', {
       ideas: ['Copying a number, and checking it'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Copying a number, and checking it.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -332,7 +394,11 @@ PBE1.page('u5-s05', {
         'seventeen',
         'digits',
         'checked']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Copying a number, and checking it.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -375,7 +441,11 @@ PBE1.page('u5-s05', {
         'digits',
         'checked'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Copying a number, and checking it.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -411,7 +481,9 @@ PBE1.page('u5-s05', {
             rows: 2,
             keys: ['twice',
               'theirs'],
-            need: 1
+            need: 1,
+            hint: 'The rule on the card above. Two readings, and they belong to two '
+              + 'different people.'
           },
       {
             q: 'What do you write if nobody can tell you?',
@@ -422,7 +494,9 @@ PBE1.page('u5-s05', {
               'numbers',
               'digit',
               'unclear'],
-            need: 1
+            need: 1,
+            hint: 'The card\'s rule for an unresolved digit. You write more, not '
+              + 'less - and you mark what is uncertain.'
           },
       {
             q: 'Why is a guessed digit dangerous?',
@@ -433,7 +507,9 @@ PBE1.page('u5-s05', {
               'looks',
               'exactly',
               'like'],
-            need: 1
+            need: 1,
+            hint: 'Because of how it *looks* on the paper afterwards. Nothing marks '
+              + 'it as a guess.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -568,7 +644,11 @@ PBE1.page('u5-s05', {
           }],
       ideas: ['Copying a number, and checking it'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Copying a number, and checking it.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -679,7 +759,11 @@ PBE1.page('u5-s05', {
         'checked'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Copying a number, and checking it.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -703,7 +787,11 @@ PBE1.page('u5-s05', {
           }],
       ideas: ['Copying a number, and checking it'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Copying a number, and checking it.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

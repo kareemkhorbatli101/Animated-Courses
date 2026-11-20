@@ -111,6 +111,17 @@ PBE1.page('u4-s05', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write directions from the gate to the loading door.',
+    weak: 'Go straight then left then it is there.',
+    change: ['Give each landmark a name: <i>past the small store</i>, <i>at the '
+          + 'long bench</i> - there are two benches.',
+        'Describe the door itself, and say which door not to use. A wrong '
+          + 'door with a lorry in it costs a morning.'],
+    better: 'From the gate, go straight on past the small store. Turn left at the '
+      + 'long bench. The loading door is on your left - the big grey one. Do not '
+      + 'use the other door; it is the office stairs.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,12 +135,17 @@ PBE1.page('u4-s05', {
             q: 'Tell your partner how to walk from the door of this room to your '
               + 'chair. Three orders.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Three orders, each starting with a verb: *go, turn, stop*. Then '
+              + 'have them say it back - that is the part this cycle is really '
+              + 'teaching.'
           },
       {
             q: 'Which hand is your left? Hold it up. Say it.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Hold it up and say *this is my left* out loud. Under pressure, '
+              + 'people say one and point at the other.'
           }],
       ideas: ['Giving a direction inside the yard'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -198,6 +214,49 @@ PBE1.page('u4-s05', {
               why: 'More turns than the directions contain.'
             }],
             evidence: 'the directions from the gate to the loading door'
+          },
+        {
+            q: 'Listen again. Which door must the driver NOT use?',
+            options: [{
+              t: 'the one to the office stairs',
+              ok: true,
+              why: '*Do not use the other door. It is the office stairs. No lorries.*'
+            },
+            {
+              t: 'the big grey door',
+              ok: false,
+              why: 'The grey door is the loading door - the one he is being sent to.'
+            },
+            {
+              t: 'the small store door',
+              ok: false,
+              why: 'The small store is a landmark on the way - *go straight on, '
+                + 'past the small store* - not a door he is offered.'
+            }],
+            evidence: 'Ammar\'s warning near the end'
+          },
+        {
+            q: 'Why does Ammar say “You got it right”?',
+            options: [{
+              t: 'because the driver said the whole route back to him',
+              ok: true,
+              why: 'The driver repeats it as one sentence - straight on, left at '
+                + 'the long bench, grey door on the left - and Ammar says to do '
+                + 'that every time. Reading back is this course\'s one safety '
+                + 'habit.'
+            },
+            {
+              t: 'because the driver found the door on his own',
+              ok: false,
+              why: 'The driver has not moved yet. Everything in the scene is spoken.'
+            },
+            {
+              t: 'because the driver turned left at the right bench',
+              ok: false,
+              why: 'He names the long bench, which matters - but what Ammar '
+                + 'praises is that he said the *whole thing* back.'
+            }],
+            evidence: 'the driver\'s last line, and Ammar\'s reply to it'
           }],
         say: true
       }
@@ -219,7 +278,9 @@ PBE1.page('u4-s05', {
               'door',
               'big',
               'grey'],
-            need: 1
+            need: 1,
+            hint: 'The destination, described twice - by what it is for, and by its '
+              + 'colour and size.'
           },
       {
             q: 'What must the driver not do?',
@@ -230,7 +291,9 @@ PBE1.page('u4-s05', {
               'door',
               'office',
               'stairs'],
-            need: 1
+            need: 1,
+            hint: 'Ammar\'s warning near the end: a door, and what is behind it. '
+              + 'Say why as well as what.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -283,7 +346,11 @@ PBE1.page('u4-s05', {
       ideas: ['Giving a direction inside the yard'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Giving a direction inside the yard.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -333,7 +400,11 @@ PBE1.page('u4-s05', {
         'shorter',
         'safer',
         'name']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Giving a direction inside the yard.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -376,7 +447,11 @@ PBE1.page('u4-s05', {
         'safer',
         'name'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Giving a direction inside the yard.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -407,7 +482,9 @@ PBE1.page('u4-s05', {
             q: 'How many orders are there before the warning?',
             model: 'Three',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Count Ammar\'s instructions - the *go*, the *turn*, the *it is '
+              + 'on your left* - and stop at the *do not*.'
           },
       {
             q: 'Which bench do you turn at?',
@@ -418,7 +495,9 @@ PBE1.page('u4-s05', {
               'short',
               'wall',
               'bench'],
-            need: 1
+            need: 1,
+            hint: 'There are two benches and Ammar distinguishes them. Say which, '
+              + 'and what the other one is.'
           },
       {
             q: 'What must the driver do before driving?',
@@ -428,7 +507,9 @@ PBE1.page('u4-s05', {
             keys: ['back',
               'gate',
               'man'],
-            need: 1
+            need: 1,
+            hint: 'The last line of the dialogue. It is the habit this whole course '
+              + 'keeps coming back to.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -566,7 +647,11 @@ PBE1.page('u4-s05', {
           }],
       ideas: ['Giving a direction inside the yard'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Giving a direction inside the yard.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -676,7 +761,11 @@ PBE1.page('u4-s05', {
         'name'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Giving a direction inside the yard.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -699,7 +788,11 @@ PBE1.page('u4-s05', {
           }],
       ideas: ['Giving a direction inside the yard'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Giving a direction inside the yard.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

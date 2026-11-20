@@ -111,6 +111,15 @@ PBE1.page('u5-s02', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write the date from a note onto your own sheet.',
+    weak: '04/03.',
+    change: ['Four digits can be read two ways round. Write the month in letters '
+          + 'so it cannot.',
+        'Say which way you read it and why - where the note came from is the reason.'],
+    better: '4 March. The note is from Beirut, so the day is written first: 04/03 is '
+      + 'the fourth of March, not the third of April.'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,12 +132,16 @@ PBE1.page('u5-s02', {
       questions: [{
             q: 'Say the twelve months with your teacher. Start with January.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say them twice, then say only the three before and after this '
+              + 'month - those are the ones that turn up on paper.'
           },
       {
             q: 'What is today\'s date? Write it three ways:',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Figures day-first, figures month-first, and the month in '
+              + 'letters. Compare the three: one of them cannot be misread.'
           }],
       ideas: ['The months, and the date',
       'Delivery note no. 4417',
@@ -195,6 +208,49 @@ PBE1.page('u5-s02', {
               why: 'Neither reading gives April the fourth.'
             }],
             evidence: 'the exchange about day first or month first'
+          },
+        {
+            q: 'Listen again. What date is 04/03 on THIS note?',
+            options: [{
+              t: 'the fourth of March',
+              ok: true,
+              why: 'Day first, then month - and the note came from Beirut, which settles it.'
+            },
+            {
+              t: 'the third of April',
+              ok: false,
+              why: 'That is what the same six numbers mean in America, which Nour '
+                + 'says in the middle of the dialogue.'
+            },
+            {
+              t: 'the fourth of April',
+              ok: false,
+              why: 'A mix of the two readings: it takes the day from one and the '
+                + 'month from the other.'
+            }],
+            evidence: 'Nour\'s first answer, and her reason at the end'
+          },
+        {
+            q: 'How does Ammar stop a date being read two ways?',
+            options: [{
+              t: 'write the month in letters: 4 March',
+              ok: true,
+              why: '*Then nobody can read it two ways.* Letters cannot be '
+                + 'reordered the way two digits can.'
+            },
+            {
+              t: 'always write the day first',
+              ok: false,
+              why: 'That is the rule here - but it is the rule the other country '
+                + 'breaks, so it cannot protect a paper that travels.'
+            },
+            {
+              t: 'telephone and ask every time',
+              ok: false,
+              why: 'The telephone is the answer to the unreadable digit, two '
+                + 'cycles later. A date can be fixed with a pen.'
+            }],
+            evidence: 'Nour\'s last line'
           }],
         say: true
       }
@@ -211,7 +267,8 @@ PBE1.page('u5-s02', {
             q: 'Listen again. Which country writes the month first?',
             model: 'America',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Nour names it when she explains how the same six numbers change meaning.'
           },
       {
             q: 'What does Nour tell Ammar to write?',
@@ -221,7 +278,9 @@ PBE1.page('u5-s02', {
             keys: ['month',
               'letters',
               'sheet'],
-            need: 1
+            need: 1,
+            hint: 'Her last line: a part of the date, in a particular form, on a '
+              + 'particular piece of paper.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -278,7 +337,11 @@ PBE1.page('u5-s02', {
       'Received by: Date received:'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The months, and the date.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -325,7 +388,11 @@ PBE1.page('u5-s02', {
         'work',
         'name',
         'sheet']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The months, and the date.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -367,7 +434,11 @@ PBE1.page('u5-s02', {
         'name',
         'sheet'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The months, and the date.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -402,7 +473,9 @@ PBE1.page('u5-s02', {
             rows: 2,
             keys: ['march',
               '2026'],
-            need: 1
+            need: 1,
+            hint: 'The note above, the date field - read it day-first, because of '
+              + 'where the note came from. Write the month in letters.'
           },
       {
             q: 'Why did Nour write on the back?',
@@ -414,7 +487,9 @@ PBE1.page('u5-s02', {
               'reader',
               'knows',
               'worked'],
-            need: 1
+            need: 1,
+            hint: 'Not to record the date - to record how she *worked it out*. The '
+              + 'reason is about the next person who reads it.'
           },
       {
             q: 'What two things are empty on this note?',
@@ -423,7 +498,9 @@ PBE1.page('u5-s02', {
             rows: 2,
             keys: ['received',
               'date'],
-            need: 1
+            need: 1,
+            hint: 'Look for the fields with nothing in them, near the bottom. They '
+              + 'are the two that would say the goods were accepted.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -567,7 +644,11 @@ PBE1.page('u5-s02', {
       'To: Sham Trading, Damascus',
       'Received by: Date received:'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The months, and the date.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -678,7 +759,11 @@ PBE1.page('u5-s02', {
         'sheet'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The months, and the date.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -704,7 +789,11 @@ PBE1.page('u5-s02', {
       'To: Sham Trading, Damascus',
       'Received by: Date received:'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The months, and the date.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

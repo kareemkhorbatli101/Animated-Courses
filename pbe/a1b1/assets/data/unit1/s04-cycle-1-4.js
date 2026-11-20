@@ -111,6 +111,15 @@ PBE1.page('u1-s04', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write about three people at your work and what each one does.',
+    weak: 'Fadi driver. Majd counter. Nour office.',
+    change: ['Each one needs <i>he is</i> or <i>she is</i> - and <i>she</i> for Nour.',
+        'Add where each person works, not only the job. That is what makes it '
+          + 'useful to somebody new.'],
+    better: 'Fadi is the driver. He is in the yard. Majd is on the counter. Nour is '
+      + 'in the office. She is upstairs.'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,13 +132,17 @@ PBE1.page('u1-s04', {
       questions: [{
             q: 'Say the names of three people at your work. What is each one\'s job?',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Three sentences, all the same shape: a name, then *he is* or '
+              + '*she is*, then the job. The shape is the lesson.'
           },
       {
             q: 'Read the four jobs. Which are in the yard, and which are in the '
               + 'office? driver · storeman · accountant · counter',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Ask of each one: does this person work with things, or with '
+              + 'paper? That sorts all four.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Good morning. My name is Samih Qassar. I am the storeman.',
@@ -192,6 +205,49 @@ PBE1.page('u1-s04', {
               why: 'He names four people, each with a job.'
             }],
             evidence: 'count the people as Abu Yasser names them, one by one'
+          },
+        {
+            q: 'Listen again. Who is in the office?',
+            options: [{
+              t: 'Nour',
+              ok: true,
+              why: 'Ammar asks about the woman on the stairs and Abu Yasser names '
+                + 'her and says where she works.'
+            },
+            {
+              t: 'Majd',
+              ok: false,
+              why: 'Majd is named in this dialogue, but he is on the counter, and '
+                + 'he is good with the customers.'
+            },
+            {
+              t: 'Fadi',
+              ok: false,
+              why: 'Fadi is named first of all - he is the driver, out by the lorry.'
+            }],
+            evidence: 'the lines about the woman on the stairs'
+          },
+        {
+            q: 'What is the same about Ammar and Nour?',
+            options: [{
+              t: 'it is the first day for both of them',
+              ok: true,
+              why: 'Abu Yasser says she is new too, and today is her first day - '
+                + 'which is why Ammar repeats it back as a question.'
+            },
+            {
+              t: 'they both work upstairs',
+              ok: false,
+              why: 'Half right is wrong here. She is upstairs; Ammar is told in '
+                + 'the same breath that he is *down here*.'
+            },
+            {
+              t: 'they are both new drivers',
+              ok: false,
+              why: 'Neither of them drives. The driver in this dialogue is Fadi, '
+                + 'and he is not new.'
+            }],
+            evidence: 'Abu Yasser\'s line about Nour, and Ammar\'s surprised question after it'
           }],
         say: true
       }
@@ -208,7 +264,9 @@ PBE1.page('u1-s04', {
             q: 'Listen again. Who is Fadi?',
             model: 'The driver',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The first man Abu Yasser points out, and he is identified by '
+              + 'what he does and where he is standing.'
           },
       {
             q: 'Where is Nour?',
@@ -217,7 +275,9 @@ PBE1.page('u1-s04', {
             rows: 2,
             keys: ['office',
               'upstairs'],
-            need: 1
+            need: 1,
+            hint: 'Two words: the room, and which floor. Abu Yasser gives both in '
+              + 'the same line, and then says it again as *upstairs*.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -269,7 +329,11 @@ PBE1.page('u1-s04', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: he · she · it.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -313,7 +377,11 @@ PBE1.page('u1-s04', {
         'driver',
         'nour',
         'office']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: he · she · it.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -355,7 +423,11 @@ PBE1.page('u1-s04', {
         'nour',
         'office'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: he · she · it.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -388,7 +460,9 @@ PBE1.page('u1-s04', {
             rows: 2,
             keys: ['fadi',
               'driver'],
-            need: 1
+            need: 1,
+            hint: 'The person whose job is the lorry. Give the name and the job - '
+              + 'the job is what makes the answer useful to somebody new.'
           },
       {
             q: 'What do you ask Nour about?',
@@ -399,7 +473,9 @@ PBE1.page('u1-s04', {
               'notes',
               'lists',
               'numbers'],
-            need: 1
+            need: 1,
+            hint: 'Her work is not things, it is what things are written on. The '
+              + 'card above lists the kinds.'
           },
       {
             q: 'Who is the supervisor?',
@@ -408,7 +484,8 @@ PBE1.page('u1-s04', {
             rows: 2,
             keys: ['abu',
               'yasser'],
-            need: 1
+            need: 1,
+            hint: 'One name, and it is the man who has been showing Ammar round all cycle.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -537,7 +614,11 @@ PBE1.page('u1-s04', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: he · she · it.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -641,7 +722,11 @@ PBE1.page('u1-s04', {
         'office'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: he · she · it.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -662,7 +747,11 @@ PBE1.page('u1-s04', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: he · she · it.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

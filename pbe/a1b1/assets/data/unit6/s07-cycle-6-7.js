@@ -97,6 +97,17 @@ PBE1.page('u6-s07', {
           alone: 'Do it cold. The looking-back is the exercise.'
         }]
   },
+  worked: {
+    task: 'Write a message slip that will still work if you forget.',
+    weak: 'Qassar rang. He will ring back.',
+    change: ['Spell the name, write the number in groups with a read-back tick, '
+          + 'and say what the call was about.',
+        'Put the time he rings back on it, and put the slip somewhere it '
+          + 'cannot sit under the pad for three days.'],
+    better: 'For: Nour Mansour. From: Qassar - Q, A, S, S, A, R, six letters. 0932 '
+      + '445 661, read back ✓. About the invoice. He rings back at four o\'clock. '
+      + 'Taken by Ammar Zreik, 11.20. Slip on the spike.'
+  },
   cards: [
     {
       id: 'c1',
@@ -183,6 +194,49 @@ PBE1.page('u6-s07', {
               why: 'It was taken. Nour is holding the slip while she says so.'
             }],
             evidence: 'where the slip was found, and how many days later'
+          },
+        {
+            q: 'Listen again. What is the caller\'s number?',
+            options: [{
+              t: 'zero nine three two, four four five, six six one',
+              ok: true,
+              why: 'He reads all three groups back and then asks *is that it?* '
+                + 'before he writes anything else.'
+            },
+            {
+              t: 'zero nine four four, one one two, two three three',
+              ok: false,
+              why: 'That is Mr Mouallem\'s number, from the earlier cycle in this unit.'
+            },
+            {
+              t: 'zero nine three two, four four five, six six two',
+              ok: false,
+              why: 'One digit out at the very end - which is exactly the digit a '
+                + 'read-back is for.'
+            }],
+            evidence: 'Ammar\'s read-back, in three groups'
+          },
+        {
+            q: 'When will the caller ring back, and when will Mrs Mansour hear?',
+            options: [{
+              t: 'he rings back at four; she hears at two',
+              ok: true,
+              why: 'Ammar tells her at two and the slip goes on the spike now, so '
+                + 'the message is waiting two hours before the second call.'
+            },
+            {
+              t: 'he rings back at two, and she hears at two',
+              ok: false,
+              why: 'Two o\'clock is when she is back, which is when Ammar tells '
+                + 'her. The caller names a later hour.'
+            },
+            {
+              t: 'he rings back at four, and she hears at four',
+              ok: false,
+              why: 'If she only heard at four the message would arrive with the '
+                + 'call, and the slip would have been pointless.'
+            }],
+            evidence: 'the last two lines of the dialogue'
           }],
         say: true
       }
@@ -205,7 +259,10 @@ PBE1.page('u6-s07', {
               'spelled',
               'number',
               'back'],
-            need: 1
+            need: 1,
+            hint: 'Four things. Two of them are the name and the number, done '
+              + 'properly; the other two are what the call was about and when he '
+              + 'rings.'
           },
       {
             q: 'Where was the slip for three days?',
@@ -216,7 +273,9 @@ PBE1.page('u6-s07', {
               'pad',
               'nour\'s',
               'desk'],
-            need: 1
+            need: 1,
+            hint: 'A place, and it is underneath something on somebody\'s desk. The '
+              + 'slip was never lost - it was invisible.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -260,7 +319,11 @@ PBE1.page('u6-s07', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -313,7 +376,11 @@ PBE1.page('u6-s07', {
         'days',
         'late',
         'slip']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -376,7 +443,11 @@ PBE1.page('u6-s07', {
         'late',
         'slip'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',

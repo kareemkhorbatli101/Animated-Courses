@@ -111,6 +111,16 @@ PBE1.page('u6-s06', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you promise the caller about the message.',
+    weak: 'OK, I will tell her.',
+    change: ['Put a time in it. <i>I will tell her</i> with no time is the version '
+          + 'nobody believes, including you.',
+        'Do both halves: the slip now, and the spoken word later. Either one '
+          + 'alone has failed before.'],
+    better: 'I will tell her at two, when she is back from lunch - and the slip goes '
+      + 'on her desk now. Both.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +134,17 @@ PBE1.page('u6-s06', {
             q: 'Somebody gives you a message for your supervisor. What do you '
               + 'say? Say it in Arabic, then in English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say what you will do and when. *I will tell him* with no time in '
+              + 'it is the version nobody believes.'
           },
       {
             q: 'Read the two lines. Which one would you believe? OK · I will '
               + 'tell him at two, when he is back from lunch.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One of them tells the caller that you understood, that you know '
+              + 'where he is, and when it will happen.'
           }],
       ideas: ['Promising to pass a message on',
       'From: Ghassan Mouallem (M-O-U-A-L-L-E-M)'],
@@ -196,6 +210,49 @@ PBE1.page('u6-s06', {
               why: 'She does get it. He does both things so that she does.'
             }],
             evidence: 'what Ammar promises to do, and when'
+          },
+        {
+            q: 'Listen again. What two things does Ammar do with the message?',
+            options: [{
+              t: 'tells her at two, and puts the slip on her desk now',
+              ok: true,
+              why: '*Both.* One is a person remembering; the other works if the '
+                + 'person forgets.'
+            },
+            {
+              t: 'tells her at two, and nothing more',
+              ok: false,
+              why: 'That is the half that failed him last Tuesday.'
+            },
+            {
+              t: 'leaves the slip and says nothing',
+              ok: false,
+              why: 'That is the other half on its own - and in his own story, the '
+                + 'slip alone was found a day late.'
+            }],
+            evidence: 'Ammar\'s first line'
+          },
+        {
+            q: 'Why does he do both?',
+            options: [{
+              t: 'he forgot one before, and the day\'s delay cost a lorry',
+              ok: true,
+              why: 'The slip worked - *a day late*. A day late is better than '
+                + 'never, and still not good enough, so he does both and tells '
+                + 'her twice.'
+            },
+            {
+              t: 'because Nour told him to do both',
+              ok: false,
+              why: 'Nour hands him the telephone in the first cycle; this habit is '
+                + 'his own, and he explains where it came from.'
+            },
+            {
+              t: 'because slips get lost on a desk',
+              ok: false,
+              why: 'In his story the slip was *found*. What failed was the person.'
+            }],
+            evidence: 'the end of the dialogue, where he says what happened before'
           }],
         say: true
       }
@@ -212,7 +269,9 @@ PBE1.page('u6-s06', {
             q: 'Listen again. Where does Ammar put the slip?',
             model: 'On her desk',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'A place, two words - and he says *now*, which matters as much as '
+              + 'the place.'
           },
       {
             q: 'What does he say he will do as well?',
@@ -221,7 +280,9 @@ PBE1.page('u6-s06', {
             rows: 2,
             keys: ['both',
               'well'],
-            need: 1
+            need: 1,
+            hint: 'The spoken half, with its time. The whole scene is about doing '
+              + 'both halves.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -275,7 +336,11 @@ PBE1.page('u6-s06', {
       'From: Ghassan Mouallem (M-O-U-A-L-L-E-M)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Promising to pass a message on.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -327,7 +392,11 @@ PBE1.page('u6-s06', {
         'need',
         'know',
         'able']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Promising to pass a message on.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -370,7 +439,11 @@ PBE1.page('u6-s06', {
         'know',
         'able'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Promising to pass a message on.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -411,7 +484,8 @@ PBE1.page('u6-s06', {
               'mansour',
               'taken',
               'ammar'],
-            need: 1
+            need: 1,
+            hint: 'The top and the bottom of the slip above. Two names, both in full.'
           },
       {
             q: 'What does the tick after the number mean?',
@@ -420,7 +494,9 @@ PBE1.page('u6-s06', {
             rows: 2,
             keys: ['back',
               'number'],
-            need: 1
+            need: 1,
+            hint: 'The same thing it meant in Unit 2 and in 6.5 - something that '
+              + 'happened out loud between two people.'
           },
       {
             q: 'What two things did Ammar do?',
@@ -429,7 +505,9 @@ PBE1.page('u6-s06', {
             rows: 2,
             keys: ['slip',
               'desk'],
-            need: 1
+            need: 1,
+            hint: 'Both halves, joined with *and*. Either one on its own is the '
+              + 'version that failed him before.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -578,7 +656,11 @@ PBE1.page('u6-s06', {
       ideas: ['Promising to pass a message on',
       'From: Ghassan Mouallem (M-O-U-A-L-L-E-M)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Promising to pass a message on.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -696,7 +778,11 @@ PBE1.page('u6-s06', {
         'able'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Promising to pass a message on.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -720,7 +806,11 @@ PBE1.page('u6-s06', {
       ideas: ['Promising to pass a message on',
       'From: Ghassan Mouallem (M-O-U-A-L-L-E-M)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Promising to pass a message on.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

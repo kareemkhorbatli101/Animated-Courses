@@ -111,6 +111,15 @@ PBE1.page('u4-s04', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write a report that something is missing.',
+    weak: 'I cannot find the cartons.',
+    change: ['Say where you looked. It saves the next person the same walk, and it '
+          + 'is the difference between a report and a complaint.',
+        'Describe the empty space - dust or no dust. That is what dates the loss.'],
+    better: 'The four cartons are not in row three, shelf two. The space is empty and '
+      + 'clean - no dust - so they went today. I told Abu Yasser at 7.45.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +133,17 @@ PBE1.page('u4-s04', {
             q: 'You cannot find a thing. What do you say? Say it in Arabic, then '
               + 'in English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say where you looked and what you saw there. *I cannot find it* '
+              + 'tells the supervisor nothing he can use.'
           },
       {
             q: 'Read the two lines. Which tells the supervisor more? I cannot '
               + 'find it · It is not in row two. The space is empty.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One of them says where you have already looked. That saves '
+              + 'somebody else the same walk.'
           }],
       ideas: ['Saying a thing is not there',
       'What: four cartons of labels'],
@@ -195,6 +208,47 @@ PBE1.page('u4-s04', {
               why: 'The shelf is still there; what was on part of it is not.'
             }],
             evidence: 'the line about the clean square and the dust'
+          },
+        {
+            q: 'Listen again. How many cartons are missing?',
+            options: [{
+              t: 'four',
+              ok: true,
+              why: '*Row three, shelf two. The four cartons are not there.*'
+            },
+            {
+              t: 'three',
+              ok: false,
+              why: 'Three is the row, not the count.'
+            },
+            {
+              t: 'six',
+              ok: false,
+              why: 'Six packets are the loss in the review cycle at the end of '
+                + 'this unit - a different scene, a different number.'
+            }],
+            evidence: 'Ammar\'s first line, where he gives the place and the number'
+          },
+        {
+            q: 'How does Abu Yasser know they went TODAY?',
+            options: [{
+              t: 'the empty square is clean, and dust takes a week',
+              ok: true,
+              why: 'He asks about dust before he asks about anything else, because '
+                + 'dust is a clock.'
+            },
+            {
+              t: 'the sheet is from Monday',
+              ok: false,
+              why: 'The Monday sheet is the clue in a different cycle. Here he '
+                + 'reads the shelf, not the paper.'
+            },
+            {
+              t: 'the counter told him so',
+              ok: false,
+              why: 'He says he will *ask* the counter first - which means he has not yet.'
+            }],
+            evidence: 'the exchange about dust'
           }],
         say: true
       }
@@ -216,7 +270,9 @@ PBE1.page('u4-s04', {
               'clean',
               'square',
               'dust'],
-            need: 1
+            need: 1,
+            hint: 'Nothing - but Ammar describes the nothing, in three words, and '
+              + 'the description is what dates the loss.'
           },
       {
             q: 'What does Abu Yasser do first?',
@@ -225,7 +281,9 @@ PBE1.page('u4-s04', {
             rows: 2,
             keys: ['asks',
               'counter'],
-            need: 1
+            need: 1,
+            hint: 'He goes to the paper people before the men, and he says why. '
+              + 'Name where he goes.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -279,7 +337,11 @@ PBE1.page('u4-s04', {
       'What: four cartons of labels'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a thing is not there.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -326,7 +388,11 @@ PBE1.page('u4-s04', {
         'clean',
         'square',
         'dust']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a thing is not there.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -369,7 +435,11 @@ PBE1.page('u4-s04', {
         'square',
         'dust'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a thing is not there.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -402,7 +472,8 @@ PBE1.page('u4-s04', {
             rows: 2,
             keys: ['cartons',
               'labels'],
-            need: 1
+            need: 1,
+            hint: 'The report above: how many, and of what. Both halves.'
           },
       {
             q: 'What did Ammar see?',
@@ -413,7 +484,9 @@ PBE1.page('u4-s04', {
               'space',
               'clean',
               'square'],
-            need: 1
+            need: 1,
+            hint: 'The report\'s own words for the empty space. Three details, one '
+              + 'of them about dust.'
           },
       {
             q: 'Who did he tell, and when?',
@@ -422,7 +495,8 @@ PBE1.page('u4-s04', {
             rows: 2,
             keys: ['abu',
               'yasser'],
-            need: 1
+            need: 1,
+            hint: 'The bottom of the report - a name and a time. Give both.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -560,7 +634,11 @@ PBE1.page('u4-s04', {
       ideas: ['Saying a thing is not there',
       'What: four cartons of labels'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a thing is not there.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -670,7 +748,11 @@ PBE1.page('u4-s04', {
         'dust'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a thing is not there.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -694,7 +776,11 @@ PBE1.page('u4-s04', {
       ideas: ['Saying a thing is not there',
       'What: four cartons of labels'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a thing is not there.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

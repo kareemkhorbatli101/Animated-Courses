@@ -111,6 +111,14 @@ PBE1.page('u3-s01', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write which days you work and what happens on them.',
+    weak: 'I work five days. Friday no.',
+    change: ['Name the days: <i>Sunday to Thursday</i>. Five is a count, not a timetable.',
+        'Add what makes a day different - the delivery day, the counting day.'],
+    better: 'I work Sunday to Thursday. Friday is my day off. The big delivery is on '
+      + 'Monday and we count the store on Thursday.'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,12 +131,16 @@ PBE1.page('u3-s01', {
       questions: [{
             q: 'Say the days of the week with your teacher. Start with Sunday.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Start with Sunday because the working week here does. Say them '
+              + 'twice, then say only your working days.'
           },
       {
             q: 'Which days do you work? Write it here:',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write the first day and the last day joined by *to*, then the '
+              + 'days off separately. That is how a shift list says it.'
           }],
       ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -185,6 +197,47 @@ PBE1.page('u3-s01', {
               why: 'Thursday is the counting day - the busiest, not the quietest.'
             }],
             evidence: 'the line that names the day off'
+          },
+        {
+            q: 'Listen again. Which day is the big delivery?',
+            options: [{
+              t: 'Monday',
+              ok: true,
+              why: '*On Monday. Always on Monday. Twelve pallets.*'
+            },
+            {
+              t: 'Thursday',
+              ok: false,
+              why: 'Thursday is in the dialogue - it is the day the whole store is counted.'
+            },
+            {
+              t: 'Friday',
+              ok: false,
+              why: 'Friday is Ammar\'s day off, so it is the one day he is '
+                + 'certainly not there for a delivery.'
+            }],
+            evidence: 'the lines after Ammar asks about it'
+          },
+        {
+            q: 'What happens every Thursday?',
+            options: [{
+              t: 'the whole store is counted',
+              ok: true,
+              why: '*On Thursday we count. Every Thursday, the whole store.*'
+            },
+            {
+              t: 'twelve pallets arrive',
+              ok: false,
+              why: 'Twelve pallets arrive, but on the other named day. Listen for '
+                + 'which day carries which event.'
+            },
+            {
+              t: 'everybody comes in early',
+              ok: false,
+              why: 'Everybody is early on the delivery day, which Abu Yasser says '
+                + 'in the middle of the dialogue.'
+            }],
+            evidence: 'the last line of the dialogue'
           }],
         say: true
       }
@@ -201,7 +254,9 @@ PBE1.page('u3-s01', {
             q: 'Listen again. How many days does Ammar work?',
             model: 'Five days',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Abu Yasser gives the first day, the last day, and then the '
+              + 'count. Ammar repeats all five back.'
           },
       {
             q: 'Which day is the big delivery?',
@@ -212,7 +267,9 @@ PBE1.page('u3-s01', {
               'twelve',
               'pallets',
               'big'],
-            need: 1
+            need: 1,
+            hint: 'The day Abu Yasser says *always*. Give the day and the number of '
+              + 'pallets - the number is what makes it big.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -265,7 +322,11 @@ PBE1.page('u3-s01', {
       ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The days, and on.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -311,7 +372,11 @@ PBE1.page('u3-s01', {
         'after',
         'sunday',
         'friday']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The days, and on.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -353,7 +418,11 @@ PBE1.page('u3-s01', {
         'sunday',
         'friday'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The days, and on.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -387,13 +456,17 @@ PBE1.page('u3-s01', {
               'delivery',
               'twelve',
               'pallets'],
-            need: 1
+            need: 1,
+            hint: 'Read across the shift list to the Monday column, or listen for '
+              + 'the day Abu Yasser says everybody is early.'
           },
       {
             q: 'Which day is the count?',
             model: 'Thursday',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The last line of the dialogue names it, and says how much of the '
+              + 'store it covers.'
           },
       {
             q: 'Which two days are normal?',
@@ -402,7 +475,9 @@ PBE1.page('u3-s01', {
             rows: 2,
             keys: ['sunday',
               'tuesday'],
-            need: 1
+            need: 1,
+            hint: 'From the shift list: the two days with nothing special written '
+              + 'against them - no delivery, no count, not a day off.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -528,7 +603,11 @@ PBE1.page('u3-s01', {
           }],
       ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The days, and on.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -633,7 +712,11 @@ PBE1.page('u3-s01', {
         'friday'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The days, and on.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -655,7 +738,11 @@ PBE1.page('u3-s01', {
           }],
       ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The days, and on.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

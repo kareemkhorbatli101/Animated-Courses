@@ -111,6 +111,16 @@ PBE1.page('u4-s01', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write where you put something so the next person can find it.',
+    weak: 'I put the box on the shelf.',
+    change: ['Say which shelf, and in what order the shelves are counted. <i>The '
+          + 'shelf</i> is only clear to the person standing there.',
+        'Add the second small word if there is one - <i>in front of the '
+          + 'paper</i>, not just <i>on the top shelf</i>.'],
+    better: 'I put the small box of labels on the top shelf, in front of the paper, '
+      + 'so it can be seen from the floor.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,12 +134,17 @@ PBE1.page('u4-s01', {
             q: 'Put your pen in your book. on your book. under your book. Say '
               + 'what you are doing.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say the whole sentence each time, not just the little word. The '
+              + 'little word only means anything with the thing after it.'
           },
       {
             q: 'Where is your bag? Say it with one of the five words.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'The five are *in, on, under, behind, next to*. If two of them '
+              + 'fit, say both - *under the table, next to the wall* is better '
+              + 'than either.'
           }],
       ideas: ['The five small words',
       'Ladder — next to the bench'],
@@ -196,6 +211,47 @@ PBE1.page('u4-s01', {
               why: 'Behind the door is where the big roll stands, in a different cycle.'
             }],
             evidence: 'the line that tells Ammar where to look next'
+          },
+        {
+            q: 'Listen again. Where is the small box of labels?',
+            options: [{
+              t: 'under the bench',
+              ok: true,
+              why: 'Two guesses are ruled out before it: *look under the bench* - '
+                + 'and there it is.'
+            },
+            {
+              t: 'on the shelf',
+              ok: false,
+              why: 'Ammar\'s first guess, and Abu Yasser has already looked there.'
+            },
+            {
+              t: 'in the big box',
+              ok: false,
+              why: 'Ammar\'s second guess, also ruled out before the answer arrives.'
+            }],
+            evidence: 'the three guesses, and which one Abu Yasser sends him to'
+          },
+        {
+            q: 'Why must the box go in FRONT of the paper, not behind it?',
+            options: [{
+              t: 'so the next man can see it',
+              ok: true,
+              why: '*In front of it. So the next man can see it.* Where a thing '
+                + 'goes is decided by who looks for it next.'
+            },
+            {
+              t: 'because behind the paper is dusty',
+              ok: false,
+              why: 'Dust is the clue in a later cycle of this unit, about things '
+                + 'that have gone. Nothing is dusty here.'
+            },
+            {
+              t: 'because the shelf is full at the back',
+              ok: false,
+              why: 'Nothing is said about the shelf being full.'
+            }],
+            evidence: 'Abu Yasser\'s last line'
           }],
         say: true
       }
@@ -212,13 +268,16 @@ PBE1.page('u4-s01', {
             q: 'Listen again. What is next to the bench?',
             model: 'A ladder',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Abu Yasser mentions it in the same line as the top shelf, as the '
+              + 'way to reach it.'
           },
       {
             q: 'Where does Ammar look first?',
             model: 'On the shelf',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'His first guess, which Abu Yasser has already ruled out himself.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -272,7 +331,11 @@ PBE1.page('u4-s01', {
       'Ladder — next to the bench'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The five small words.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -320,7 +383,11 @@ PBE1.page('u4-s01', {
         'difference',
         'money',
         'inside']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The five small words.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -362,7 +429,11 @@ PBE1.page('u4-s01', {
         'money',
         'inside'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The five small words.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -397,7 +468,9 @@ PBE1.page('u4-s01', {
               'box',
               'top',
               'shelf'],
-            need: 1
+            need: 1,
+            hint: 'Two places in one answer: which box, and which shelf. The table '
+              + 'above has both.'
           },
       {
             q: 'What is behind the door?',
@@ -407,7 +480,9 @@ PBE1.page('u4-s01', {
             keys: ['spare',
               'key',
               'hook'],
-            need: 1
+            need: 1,
+            hint: 'The table above, the *behind the door* row. Give the thing and '
+              + 'what it hangs on.'
           },
       {
             q: 'How many places have TWO small words?',
@@ -418,7 +493,10 @@ PBE1.page('u4-s01', {
               'count',
               'sheets',
               'spare'],
-            need: 1
+            need: 1,
+            hint: 'Count the rows of the table whose place needs two prepositions '
+              + 'to say it - *in the box, on the shelf*. Name them as well as '
+              + 'counting them.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -555,7 +633,11 @@ PBE1.page('u4-s01', {
       ideas: ['The five small words',
       'Ladder — next to the bench'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The five small words.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -666,7 +748,11 @@ PBE1.page('u4-s01', {
         'inside'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The five small words.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -690,7 +776,11 @@ PBE1.page('u4-s01', {
       ideas: ['The five small words',
       'Ladder — next to the bench'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The five small words.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

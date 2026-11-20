@@ -111,6 +111,15 @@ PBE1.page('u6-s01', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you say when you pick up the telephone at work.',
+    weak: 'Hello? Who is this?',
+    change: ['Say the company first and then the time of day - the caller needs to '
+          + 'know they reached the right place.',
+        'Then stop. Asking who it is comes after you have given them '
+          + 'something to answer.'],
+    better: 'Sham Trading, good morning. [then stop and listen]'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +133,18 @@ PBE1.page('u6-s01', {
             q: 'How do you answer the telephone at work now? Say it in Arabic. '
               + 'Your teacher writes the English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say exactly what you say now, even if it is one word. Then '
+              + 'compare it with Nour\'s three things.'
           },
       {
             q: 'Say your company name slowly, three times. Your partner writes '
               + 'it. Check it.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Slower than feels natural - the caller has never heard it. '
+              + 'Alone, say it into your telephone\'s voice memo and play it '
+              + 'back.'
           }],
       ideas: ['Answering: three things, in this order',
       '2 Then stop and listen',
@@ -199,6 +213,49 @@ PBE1.page('u6-s01', {
               why: 'His own name comes later, if at all. The caller wants the company first.'
             }],
             evidence: 'the three things Abu Yasser tells him to say, in order'
+          },
+        {
+            q: 'Listen again. What are the three things Nour gives him?',
+            options: [{
+              t: 'say the company, say good morning, then stop and listen',
+              ok: true,
+              why: 'And the third is the hard one - she says so herself at the end '
+                + 'of the scene.'
+            },
+            {
+              t: 'say the company, your name, and the time',
+              ok: false,
+              why: 'Your name belongs to the caller\'s side of this call: *your '
+                + 'name, please* is the next cycle.'
+            },
+            {
+              t: 'say good morning, ask the name, take a message',
+              ok: false,
+              why: 'Those are all real steps in this unit, spread over three '
+                + 'cycles. These three are what you do in the first five seconds.'
+            }],
+            evidence: 'Nour\'s second line'
+          },
+        {
+            q: 'What does Ammar say after twelve o\'clock?',
+            options: [{
+              t: 'good afternoon',
+              ok: true,
+              why: '*After twelve o\'clock say good afternoon* - the one change to '
+                + 'the opening, and it is on the clock, not the mood.'
+            },
+            {
+              t: 'good evening',
+              ok: false,
+              why: 'Nothing in the dialogue reaches the evening.'
+            },
+            {
+              t: 'good morning, all day',
+              ok: false,
+              why: 'That is what the greeting would be if nobody told him, which '
+                + 'is why she does.'
+            }],
+            evidence: 'Nour\'s line after she tells him it is better'
           }],
         say: true
       }
@@ -220,7 +277,9 @@ PBE1.page('u6-s01', {
               'good',
               'morning',
               'silence'],
-            need: 1
+            need: 1,
+            hint: 'Nour counts them off, and the third one is not something he says '
+              + '- it is something he does.'
           },
       {
             q: 'Why does Nour say slowly?',
@@ -232,7 +291,9 @@ PBE1.page('u6-s01', {
               'sham',
               'trading',
               'words'],
-            need: 1
+            need: 1,
+            hint: 'The reason is about the caller, not about Ammar. He will say '
+              + 'those words forty times today; the caller never has.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -288,7 +349,11 @@ PBE1.page('u6-s01', {
       '3 Not sure? Sorry? Again, please'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Answering: three things, in this order.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -341,7 +406,11 @@ PBE1.page('u6-s01', {
         'forty',
         'times',
         'caller']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Answering: three things, in this order.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -383,7 +452,11 @@ PBE1.page('u6-s01', {
         'times',
         'caller'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Answering: three things, in this order.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -421,7 +494,9 @@ PBE1.page('u6-s01', {
             rows: 2,
             keys: ['good',
               'afternoon'],
-            need: 1
+            need: 1,
+            hint: 'Two words, and they replace two other words. Nour says it near '
+              + 'the end of the dialogue.'
           },
       {
             q: 'What is number 2?',
@@ -430,13 +505,15 @@ PBE1.page('u6-s01', {
             rows: 2,
             keys: ['stop',
               'listen'],
-            need: 1
+            need: 1,
+            hint: 'The card above, line 2. It is the part Nour calls the hard part.'
           },
       {
             q: 'How many lines are on the card?',
             model: 'Five',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Count the lines of the telephone card above, including the last one.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -580,7 +657,11 @@ PBE1.page('u6-s01', {
       '2 Then stop and listen',
       '3 Not sure? Sorry? Again, please'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Answering: three things, in this order.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -694,7 +775,11 @@ PBE1.page('u6-s01', {
         'caller'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Answering: three things, in this order.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -719,7 +804,11 @@ PBE1.page('u6-s01', {
       '2 Then stop and listen',
       '3 Not sure? Sorry? Again, please'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Answering: three things, in this order.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

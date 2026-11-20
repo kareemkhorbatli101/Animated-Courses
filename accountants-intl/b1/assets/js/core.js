@@ -1564,6 +1564,32 @@
            + U.esc(st.alone) + '</div></li>');
     });
     h.push('</ol>');
+    /* ----------------------------------------------------------
+       THE WORKED REVISION for this cycle, if one was authored. A model
+       says where to ARRIVE; this says what the two moves were. It goes
+       last, because it is what to do once you have written something.
+       See the patch note in tools/course_engine.py.
+       ---------------------------------------------------------- */
+    var wk = def && def.worked;
+    if (wk && wk.weak && wk.better) {
+      h.push('<div class="worked">');
+      h.push('<h4>One worked answer, and the two moves that fix '
+           + 'it</h4>');
+      if (wk.task) h.push('<p class="wc">' + U.esc(wk.task)
+           + '</p>');
+      h.push('<div class="wk-row wk-weak"><span>A weak '
+           + 'answer</span><p>' + U.esc(wk.weak) + '</p></div>');
+      h.push('<div class="wk-row wk-change"><span>What to '
+           + 'change</span><ol><li>'
+           + (wk.change || []).join('</li><li>')
+           + '</li></ol></div>');
+      h.push('<div class="wk-row wk-better"><span>After those two '
+           + 'changes</span><p>' + wk.better + '</p></div>');
+      h.push('<p class="wc">Both answers are about the same task. '
+           + 'The distance between them is two moves wide, not a '
+           + 'rewrite.</p>');
+      h.push('</div>');
+    }
     return EFA.modal({
       title: 'How to study this page',
       wide: true,
@@ -3064,7 +3090,17 @@
       if (!rec) b.classList.add('say-tts');
       /* EFA.say already prefers the recording and falls back to the
          device voice; this only decides what the BUTTON says it is. */
-      b.onclick = function () { EFA.say(t, role, opts.sayOpts || {}); };
+      /* THE VOICE IT PROMISED. See the patch note in
+         tools/course_engine.py: the tooltip was resolved with `voice`
+         and the click threw it away. */
+      b.onclick = function () {
+        var so = opts.sayOpts || {};
+        if (voice && !so.voice) {
+          so = { voice: voice, rate: so.rate, onend: so.onend,
+                 fallback: so.fallback };
+        }
+        EFA.say(t, role, so);
+      };
       return b;
     },
 
@@ -3114,9 +3150,34 @@
       return b;
     },
 
-    recorder: function () {
+    /* ----------------------------------------------------------
+       A RECORDING THAT SURVIVES THE PAGE. See the patch note in
+       tools/course_engine.py. The audio stays in this browser, in
+       IndexedDB, under the key the card gives - never uploaded, and
+       every path wrapped, because private mode refuses the database
+       outright and a refused store must not take the button with it.
+       ---------------------------------------------------------- */
+    recorder: function (key) {
       var box = U.el('div', 'btn-row');
       if (!(navigator.mediaDevices && w.MediaRecorder)) return box;
+      function withStore(mode, fn) {
+        if (!key || !w.indexedDB) return;
+        var rq;
+        try { rq = w.indexedDB.open('EFA-takes', 1); }
+        catch (e) { return; }
+        rq.onupgradeneeded = function () {
+          try { rq.result.createObjectStore('takes'); }
+          catch (e) { }
+        };
+        rq.onsuccess = function () {
+          try {
+            var db = rq.result;
+            if (!db.objectStoreNames.contains('takes')) return;
+            fn(db.transaction('takes', mode).objectStore('takes'));
+          } catch (e) { }
+        };
+        rq.onerror = function () { };
+      }
       var btn = U.el('button', 'btn btn-sm', EFA.art.icon('mic', 15) + 'Record yourself');
       btn.type = 'button';
       var audio = U.el('audio');
@@ -3128,7 +3189,11 @@
           chunks = []; rec = new w.MediaRecorder(stream);
           rec.ondataavailable = function (e) { chunks.push(e.data); };
           rec.onstop = function () {
-            audio.src = URL.createObjectURL(new Blob(chunks));
+            var blob = new Blob(chunks);
+            withStore('readwrite', function (st) {
+              try { st.put(blob, key); } catch (e) { }
+            });
+            audio.src = URL.createObjectURL(blob);
             audio.style.display = 'inline-block';
             btn.innerHTML = EFA.art.icon('mic', 15) + 'Record again';
             stream.getTracks().forEach(function (t) { t.stop(); });
@@ -3138,6 +3203,22 @@
         }).catch(function () { EFA.toast('Microphone not available — this step is optional.'); });
       };
       box.appendChild(btn); box.appendChild(audio);
+      /* and the last take, if this browser still has one */
+      withStore('readonly', function (st) {
+        var g;
+        try { g = st.get(key); } catch (e) { return; }
+        g.onsuccess = function () {
+          if (!g.result) return;
+          try {
+            audio.src = URL.createObjectURL(g.result);
+            audio.style.display = 'inline-block';
+            btn.innerHTML = EFA.art.icon('mic', 15)
+                          + 'Record again';
+            box.appendChild(U.el('span', 'wc',
+              'Your last take, kept in this browser.'));
+          } catch (e) { }
+        };
+      });
       return box;
     }
   };

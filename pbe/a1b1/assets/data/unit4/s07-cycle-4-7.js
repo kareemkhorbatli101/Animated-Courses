@@ -97,6 +97,16 @@ PBE1.page('u4-s07', {
           alone: 'Do it cold. The looking-back is the exercise.'
         }]
   },
+  worked: {
+    task: 'Write what the dust on an empty shelf tells you.',
+    weak: 'The packets are gone.',
+    change: ['Give the number and the address - six packets, row two, shelf three.',
+        'Say what the dust means, and who to take it to. Thick dust is an old '
+          + 'loss, so the man with the old sheets is the one who can date it.'],
+    better: 'Six packets are not in row two, shelf three. The space has thick dust in '
+      + 'it, so they went a long time ago. I will tell Abu Yasser - he keeps the '
+      + 'old sheets.'
+  },
   cards: [
     {
       id: 'c1',
@@ -185,6 +195,47 @@ PBE1.page('u4-s07', {
               why: 'He knows the map. He has improved on it and told nobody.'
             }],
             evidence: 'the line about the long rolls and why they stand behind the door'
+          },
+        {
+            q: 'Listen again. How many packets are missing?',
+            options: [{
+              t: 'six',
+              ok: true,
+              why: '*The packets are not there. Six packets.*'
+            },
+            {
+              t: 'two',
+              ok: false,
+              why: 'Two is the row.'
+            },
+            {
+              t: 'three',
+              ok: false,
+              why: 'Three is the shelf. Both numbers in the instruction are '
+                + 'places, not counts.'
+            }],
+            evidence: 'Ammar\'s line after he goes to look'
+          },
+        {
+            q: 'What does the thick dust tell them?',
+            options: [{
+              t: 'the packets went a long time ago',
+              ok: true,
+              why: '*Thick dust. They went a long time ago.* - the opposite '
+                + 'reading from the clean square earlier in the unit.'
+            },
+            {
+              t: 'they went this morning',
+              ok: false,
+              why: 'A clean square means today. Dust means the opposite, which is '
+                + 'why Samih sends him to the man who keeps the old sheets.'
+            },
+            {
+              t: 'nobody has ever counted row two',
+              ok: false,
+              why: 'The dust dates the packets\' leaving, not the counting.'
+            }],
+            evidence: 'Ammar\'s description of the empty space'
           }],
         say: true
       }
@@ -207,7 +258,9 @@ PBE1.page('u4-s07', {
               'abu',
               'yasser',
               'trusts'],
-            need: 1
+            need: 1,
+            hint: 'The dialogue does not give a number. Say what it *does* tell '
+              + 'you, which is about how far Abu Yasser trusts him.'
           },
       {
             q: 'Why is his place for the long rolls better?',
@@ -218,7 +271,9 @@ PBE1.page('u4-s07', {
               'bends',
               'shelf',
               'bent'],
-            need: 1
+            need: 1,
+            hint: 'The reason is about what happens to a long roll on a short '
+              + 'shelf, and what it is worth afterwards.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -263,7 +318,11 @@ PBE1.page('u4-s07', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -317,7 +376,11 @@ PBE1.page('u4-s07', {
         'findable',
         'fouad',
         'eleven']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -379,7 +442,11 @@ PBE1.page('u4-s07', {
         'fouad',
         'eleven'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',

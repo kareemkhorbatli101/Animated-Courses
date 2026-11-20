@@ -111,6 +111,16 @@ PBE1.page('u2-s06', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you found when the sheet and the shelf did not agree.',
+    weak: 'The sheet is wrong. Somebody did it badly.',
+    change: ['Put the numbers in, both of them. A correction without numbers '
+          + 'cannot be checked, only argued with.',
+        'Leave the person out. Say the number, add how many times you '
+          + 'counted, and date it.'],
+    better: 'The sheet says twelve on shelf three. I counted nine, twice. I have '
+      + 'written nine and today\'s date.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,7 +134,9 @@ PBE1.page('u2-s06', {
             q: 'Somebody counted wrong. What do you say? Say it in Arabic. Then '
               + 'in English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Build your sentence round the number, not round the person. Look '
+              + 'at how Ammar opens his second line.'
           },
       {
             q: 'Read the two lines. Which one is better at work? you are wrong · '
@@ -133,7 +145,9 @@ PBE1.page('u2-s06', {
               + 'with. The second is about a number and it can be checked in '
               + 'ninety seconds',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'One of them can be checked in ninety seconds. The other can only '
+              + 'be argued with.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -191,6 +205,48 @@ PBE1.page('u2-s06', {
               why: 'No telephone is used here; he speaks to Abu Yasser directly.'
             }],
             evidence: 'what Ammar says he did, and how many times'
+          },
+        {
+            q: 'Listen again. How many are really on shelf three?',
+            options: [{
+              t: 'nine',
+              ok: true,
+              why: 'He counted twice and got nine both times, which is what lets '
+                + 'him say it to a supervisor.'
+            },
+            {
+              t: 'twelve',
+              ok: false,
+              why: 'Twelve is what the *sheet* says - the number he is correcting, '
+                + 'not the number he found.'
+            },
+            {
+              t: 'three',
+              ok: false,
+              why: 'Three here is the shelf, not a count.'
+            }],
+            evidence: 'Ammar\'s second line, and how many times he counted'
+          },
+        {
+            q: 'What does Abu Yasser praise Ammar for?',
+            options: [{
+              t: 'giving the number without naming a person',
+              ok: true,
+              why: '*You did not say who. You said the number.* A count is a fact; '
+                + 'who wrote it is an accusation.'
+            },
+            {
+              t: 'counting it quickly, once',
+              ok: false,
+              why: 'He counted twice, and that is the part that makes nine believable.'
+            },
+            {
+              t: 'finding out who wrote twelve',
+              ok: false,
+              why: 'He says he does not know who wrote it - and that is exactly '
+                + 'what is praised.'
+            }],
+            evidence: 'Abu Yasser\'s last question and the line after it'
           }],
         say: true
       }
@@ -207,13 +263,16 @@ PBE1.page('u2-s06', {
             q: 'Listen again. What was on the sheet?',
             model: 'Twelve',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The number Ammar is correcting - the one he read before he counted.'
           },
       {
             q: 'What is the real number?',
             model: 'Nine',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'What he got when he counted, and he got it twice. That '
+              + 'repetition is what makes it sayable to a supervisor.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -266,7 +325,11 @@ PBE1.page('u2-s06', {
       ideas: ['Saying a number is wrong'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a number is wrong.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -314,7 +377,11 @@ PBE1.page('u2-s06', {
         'cannot',
         'argue',
         'counted']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a number is wrong.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -356,7 +423,11 @@ PBE1.page('u2-s06', {
         'argue',
         'counted'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a number is wrong.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -386,19 +457,25 @@ PBE1.page('u2-s06', {
             q: 'What did Monday\'s sheet say for shelf 3?',
             model: 'Twelve',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The old sheet above, shelf 3. It is the figure that turned out '
+              + 'to be wrong.'
           },
       {
             q: 'What is the number now?',
             model: 'Nine',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The new figure on the corrected sheet - the counted one, with '
+              + 'today\'s date beside it.'
           },
       {
             q: 'How many times did Ammar count?',
             model: 'Twice',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'He says it in answer to a direct question from Abu Yasser, and '
+              + 'the same word tells you why nine is believable.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -533,7 +610,11 @@ PBE1.page('u2-s06', {
           }],
       ideas: ['Saying a number is wrong'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a number is wrong.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -642,7 +723,11 @@ PBE1.page('u2-s06', {
         'counted'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a number is wrong.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -665,7 +750,11 @@ PBE1.page('u2-s06', {
           }],
       ideas: ['Saying a number is wrong'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying a number is wrong.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

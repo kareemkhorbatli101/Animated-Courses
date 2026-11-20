@@ -129,8 +129,38 @@
    * actor(id, rigName, opts) -> svg <g> markup, sized in a 200x300 local box.
    * Named parts: {id}-head {id}-brows {id}-lidL {id}-lidR {id}-mouth {id}-armL {id}-armR {id}-torso
    */
+  /* ------------------------------------------------------------
+     POSES AND HELD OBJECTS. See the patch note in
+     tools/course_engine.py. Angles are degrees about the shoulder,
+     positive swinging the arm forward; the hand sits at the far end
+     of the arm path, which is why a prop is translated there and not
+     to a y chosen by eye.
+     ------------------------------------------------------------ */
+  var POSES = {
+    rest:    { l: 0, r: 0 },
+    hold:    { l: 0, r: -42 },   /* something carried at the waist */
+    write:   { l: -14, r: -48 }, /* a pen on a surface */
+    read:    { l: -34, r: -40 }, /* both hands up, paper between */
+    point:   { l: 0, r: -84 },   /* arm out, at a shelf */
+    phone:   { l: 0, r: -108 },  /* a handset at the ear */
+    greet:   { l: 0, r: -34 }
+  };
+  /** the hand end of each arm, in the rig's own 200x300 box */
+  var HAND = { L: [40, 272], R: [160, 272] };
+  A.poseNames = function () { return Object.keys(POSES); };
+
   A.actor = function (id, rigName, opts) {
     opts = opts || {};
+    var pose = POSES[opts.pose] || POSES.rest;
+    var holdArm = opts.holdArm === 'L' ? 'L' : 'R';
+    var held = '';
+    if (opts.hold && A.heldProp) {
+      var hp = A.heldProp(opts.hold);
+      if (hp) {
+        held = '<g transform="translate(' + HAND[holdArm][0] + ','
+             + HAND[holdArm][1] + ')">' + hp + '</g>';
+      }
+    }
     var g = RIGS[rigName] || RIGS['m-30s-a'];
     var sh = opts.shirt || g.shirt, sh2 = opts.shirt2 || g.shirt2;
     var s = '';
@@ -139,8 +169,14 @@
     s += p('M 100 168 q -58 10 -66 62 q -5 34 -5 70 h 142 q 0 -36 -5 -70 q -8 -52 -66 -62 Z', sh);
     s += p('M 100 168 q -20 4 -24 16 q 12 12 24 12 q 12 0 24 -12 q -4 -12 -24 -16 Z', sh2);
     s += '</g>';
-    s += '<g id="' + id + '-armL" style="transform-origin:46px 196px">' + p('M 44 186 q -16 26 -14 72 q 1 20 10 22 q 10 2 12 -18 q 3 -44 10 -64 Z', sh2) + '</g>';
-    s += '<g id="' + id + '-armR" style="transform-origin:154px 196px">' + p('M 156 186 q 16 26 14 72 q -1 20 -10 22 q -10 2 -12 -18 q -3 -44 -10 -64 Z', sh2) + '</g>';
+    /* the arm groups carry the pose, and whichever one holds the
+       object carries the object - so it rotates with the arm */
+    s += '<g id="' + id + '-armL" style="transform-origin:46px 196px;transform:rotate(' + pose.l + 'deg)">'
+       + p('M 44 186 q -16 26 -14 72 q 1 20 10 22 q 10 2 12 -18 q 3 -44 10 -64 Z', sh2)
+       + (holdArm === 'L' ? held : '') + '</g>';
+    s += '<g id="' + id + '-armR" style="transform-origin:154px 196px;transform:rotate(' + pose.r + 'deg)">'
+       + p('M 156 186 q 16 26 14 72 q -1 20 -10 22 q -10 2 -12 -18 q -3 -44 -10 -64 Z', sh2)
+       + (holdArm === 'R' ? held : '') + '</g>';
     /* neck */
     s += p('M 86 140 h 28 v 34 q -14 10 -28 0 Z', g.skin2);
     /* head group */

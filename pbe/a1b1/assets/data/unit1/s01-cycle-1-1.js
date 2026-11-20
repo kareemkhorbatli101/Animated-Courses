@@ -111,6 +111,14 @@ PBE1.page('u1-s01', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you say on your first day: who you are and what you do.',
+    weak: 'I Ammar. storeman.',
+    change: ['English needs <i>am</i> in the sentence - <i>I am</i>, not <i>I</i>.',
+        'Put a small word before the job: <i>a storeman</i> if there are '
+          + 'several, <i>the storeman</i> if there is only one.'],
+    better: 'Good morning. My name is Ammar. I am the new storeman.'
+  },
   cards: [
     {
       id: 'c1',
@@ -130,13 +138,18 @@ PBE1.page('u1-s01', {
             q: 'It is your first day. What do you say? Say it in Arabic. Then '
               + 'say it in English. Your teacher writes it on the board.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Two sentences is enough: who you are, and what you do. Say the '
+              + 'Arabic out loud first - the English is easier when you already '
+              + 'know what you mean.'
           },
       {
             q: 'Read the four jobs. Which one is yours? storeman · driver · '
               + 'counter · office',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'If none of the four is yours, take the closest and say what is '
+              + 'different about yours - that answer is better than a tick.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Good morning. My name is Samih Qassar. I am the storeman.',
@@ -198,6 +211,51 @@ PBE1.page('u1-s01', {
                 + 'not stayed at home.'
             }],
             evidence: 'the first two lines - who speaks first, and what he asks for'
+          },
+        {
+            q: 'Listen again. What time is it?',
+            options: [{
+              t: 'ten to seven',
+              ok: true,
+              why: 'He reads the clock out loud, and that is why he can tell Ammar '
+                + 'he is early.'
+            },
+            {
+              t: 'ten past seven',
+              ok: false,
+              why: 'The same two words in the other order. *To* seven is before '
+                + 'seven; *past* seven is after it - and Abu Raed says Ammar is '
+                + 'early.'
+            },
+            {
+              t: 'seven o\'clock exactly',
+              ok: false,
+              why: 'Seven is the hour the shift starts, which is why *early* means '
+                + 'before it. The clock in this scene does not say seven.'
+            }],
+            evidence: 'Abu Raed\'s last long line, where he reads the clock'
+          },
+        {
+            q: 'Abu Raed says “That is good.” What is good?',
+            options: [{
+              t: 'that Ammar has come before seven',
+              ok: true,
+              why: 'He says the time, then that Ammar is early, then that it is '
+                + 'good - in that order.'
+            },
+            {
+              t: 'that Ammar is the new storeman',
+              ok: false,
+              why: 'He does welcome the job - *the new storeman, welcome* - but '
+                + '*that is good* comes later, after something else.'
+            },
+            {
+              t: 'that Ammar said his name clearly',
+              ok: false,
+              why: 'The name is asked for and given at the start. Listen to what '
+                + 'Abu Raed has just said when the words *that is good* arrive.'
+            }],
+            evidence: 'the line immediately before he says it'
           }],
         say: true
       }
@@ -217,13 +275,18 @@ PBE1.page('u1-s01', {
             rows: 2,
             keys: ['new',
               'storeman'],
-            need: 1
+            need: 1,
+            hint: 'It is in his second answer at the gate, and he says one word '
+              + 'about it that Abu Raed then repeats back. Both words belong in '
+              + 'your answer.'
           },
       {
             q: 'What time is it?',
             model: 'Ten to seven in the morning',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            hint: 'A time, said once, in Abu Raed\'s longest line. It is the reason '
+              + 'he calls Ammar early.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -275,7 +338,11 @@ PBE1.page('u1-s01', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: I am · you are.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -320,7 +387,11 @@ PBE1.page('u1-s01', {
         'storeman',
         'driver',
         'only']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: I am · you are.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -362,7 +433,11 @@ PBE1.page('u1-s01', {
         'driver',
         'only'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: I am · you are.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -391,13 +466,16 @@ PBE1.page('u1-s01', {
             q: 'What is Ammar\'s job?',
             model: 'He is a storeman',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Two words. It is the answer he gives to the question *and your job?*'
           },
       {
             q: 'What time does Fadi come in?',
             model: 'At 7.10',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The gate book, not the dialogue: find Fadi\'s row and read '
+              + 'across to the *in* column.'
           },
       {
             q: 'Who is out at 4.05?',
@@ -406,7 +484,10 @@ PBE1.page('u1-s01', {
             rows: 2,
             keys: ['ammar',
               'zreik'],
-            need: 1
+            need: 1,
+            hint: 'Read down the *out* column of the gate book for 4.05, then read '
+              + 'back along that row to the name. Give both names as they are '
+              + 'written.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -537,7 +618,11 @@ PBE1.page('u1-s01', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: I am · you are.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -645,7 +730,11 @@ PBE1.page('u1-s01', {
         'only'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: I am · you are.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -666,7 +755,11 @@ PBE1.page('u1-s01', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: I am · you are.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

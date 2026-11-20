@@ -111,6 +111,15 @@ PBE1.page('u6-s05', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write how you take a telephone number.',
+    weak: '0944112233.',
+    change: ['Write it in groups, the way it is said, and read the whole thing back.',
+        'Where two digits repeat, ask: <i>two three three, or two two '
+          + 'three?</i> Then mark that you read it back.'],
+    better: '0944 112 233 - zero nine four four, one one two, two three three. I '
+      + 'asked about the end: two, then double three. Read back ✓'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +133,17 @@ PBE1.page('u6-s05', {
             q: 'Say your own telephone number slowly, in groups. Your partner '
               + 'writes it. Check it.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Three groups, with a breath between them. Then have it read back '
+              + '- a number nobody read back is a number nobody has.'
           },
       {
             q: 'How do you say on a telephone? zero · nought · oh — all three '
               + 'are used. Learn to hear all three.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say your own number three times, once with each word for the '
+              + 'digit. Hearing all three is the skill; saying one is enough.'
           }],
       ideas: ['Taking a telephone number'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -198,6 +211,49 @@ PBE1.page('u6-s05', {
               why: 'The middle group is one one two, not one two two.'
             }],
             evidence: 'the number read back, and the \'double three\' at the end'
+          },
+        {
+            q: 'Listen again. What is the last part of the number?',
+            options: [{
+              t: 'two three three',
+              ok: true,
+              why: 'The caller settles it as *two, then double three* - and Ammar '
+                + 'reads the whole number back after that.'
+            },
+            {
+              t: 'two two three',
+              ok: false,
+              why: 'That is the alternative Ammar offers to be corrected on - and '
+                + 'he is corrected.'
+            },
+            {
+              t: 'three three two',
+              ok: false,
+              why: 'The right digits in the wrong order. Listen for where the double falls.'
+            }],
+            evidence: 'the exchange about *two three three, or two two three?*'
+          },
+        {
+            q: 'What does Ammar\'s supervisor say about numbers?',
+            options: [{
+              t: 'a number nobody read back is a number nobody has',
+              ok: true,
+              why: 'A number you were told and did not repeat has not arrived '
+                + 'anywhere - which is why the caller says Ammar is the first man '
+                + 'there to read one back.'
+            },
+            {
+              t: 'write every number down twice',
+              ok: false,
+              why: 'Writing it twice would catch a slip of the pen, not a '
+                + 'mishearing. The habit the course teaches is spoken.'
+            },
+            {
+              t: 'never take a number by telephone',
+              ok: false,
+              why: 'The whole cycle is about taking one by telephone, properly.'
+            }],
+            evidence: 'Ammar\'s last line'
           }],
         say: true
       }
@@ -219,7 +275,9 @@ PBE1.page('u6-s05', {
               'caller',
               'back',
               'times'],
-            need: 1
+            need: 1,
+            hint: 'Count the sayings: the caller\'s first, the caller\'s repeat, '
+              + 'and Ammar\'s. Say who said each.'
           },
       {
             q: 'What does Ammar do when two digits are the same?',
@@ -228,7 +286,9 @@ PBE1.page('u6-s05', {
             rows: 2,
             keys: ['asks',
               'whether'],
-            need: 1
+            need: 1,
+            hint: 'He offers the caller a choice between two readings. Say what the '
+              + 'two readings were.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -282,7 +342,11 @@ PBE1.page('u6-s05', {
       ideas: ['Taking a telephone number'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Taking a telephone number.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -331,7 +395,11 @@ PBE1.page('u6-s05', {
         'twelve',
         'digits',
         'breath']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Taking a telephone number.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -374,7 +442,11 @@ PBE1.page('u6-s05', {
         'digits',
         'breath'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Taking a telephone number.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -410,7 +482,8 @@ PBE1.page('u6-s05', {
             q: 'How many numbers were read back?',
             model: 'Three',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The log above - count the rows with a tick beside the number.'
           },
       {
             q: 'What is wrong with the 11.05 number?',
@@ -421,7 +494,9 @@ PBE1.page('u6-s05', {
               'missing',
               '0988',
               '410'],
-            need: 1
+            need: 1,
+            hint: 'Look at the 11.05 row and count the digits against the others. '
+              + 'Something is written there to mark the gap.'
           },
       {
             q: 'Why did Ammar write the bad number down anyway?',
@@ -433,7 +508,9 @@ PBE1.page('u6-s05', {
               'digits',
               'out',
               'eleven'],
-            need: 1
+            need: 1,
+            hint: 'Because of what nine digits out of eleven is still worth to '
+              + 'somebody who knows the customer.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -577,7 +654,11 @@ PBE1.page('u6-s05', {
           }],
       ideas: ['Taking a telephone number'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Taking a telephone number.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -689,7 +770,11 @@ PBE1.page('u6-s05', {
         'breath'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Taking a telephone number.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -712,7 +797,11 @@ PBE1.page('u6-s05', {
           }],
       ideas: ['Taking a telephone number'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Taking a telephone number.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

@@ -111,6 +111,17 @@ PBE1.page('u5-s04', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you do when a driver wants a signature and you have not counted.',
+    weak: 'He was in a hurry so I signed it.',
+    change: ['Ask for a length of time instead - <i>two minutes</i> is hard to '
+          + 'refuse and long enough to count.',
+        'If the count is short, write the real number, sign that, and write '
+          + 'the difference next to your name.'],
+    better: 'I said: I have not counted it yet - two minutes. The paper said sixteen '
+      + 'boxes; I counted fifteen. I wrote fifteen, signed it, and wrote <i>one '
+      + 'box short</i> beside my name.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +135,17 @@ PBE1.page('u5-s04', {
             q: 'A driver says sign here and you have not counted. What do you '
               + 'say? Say it in Arabic, then in English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Do not refuse - ask for a length of time. Two minutes is hard to '
+              + 'argue with. Look at Ammar\'s first line.'
           },
       {
             q: 'Read the two lines. Which one can you say to a driver in a '
               + 'hurry? No · I have not counted it yet. Two minutes.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One of them stops the conversation, and one of them tells him '
+              + 'exactly how long his wait is.'
           }],
       ideas: ['Goods received by: Ammar Zreik',
       'Signature: A. Zreik'],
@@ -199,6 +214,49 @@ PBE1.page('u5-s04', {
               why: 'He counts first, finds fifteen, writes that, and signs.'
             }],
             evidence: 'what Ammar does in the two minutes he asks for'
+          },
+        {
+            q: 'Listen again. How many boxes does Ammar count?',
+            options: [{
+              t: 'fifteen',
+              ok: true,
+              why: 'He counts up expecting sixteen and stops at fifteen, which is '
+                + 'the whole reason the two minutes were worth taking.'
+            },
+            {
+              t: 'sixteen',
+              ok: false,
+              why: 'Sixteen is what the paper says - the number he was asked to agree to.'
+            },
+            {
+              t: 'twelve',
+              ok: false,
+              why: 'Twelve belongs to the cycle before this one, about the missing '
+                + 'unit word.'
+            }],
+            evidence: 'Ammar\'s count, and the number he says after it'
+          },
+        {
+            q: 'What does Ammar write next to his name?',
+            options: [{
+              t: 'one box short',
+              ok: true,
+              why: 'He writes fifteen, signs it, *and* writes one box short - so '
+                + 'the difference is on the paper and not just in his memory.'
+            },
+            {
+              t: 'fifteen boxes, and nothing else',
+              ok: false,
+              why: 'He does write fifteen. He also writes something that says the '
+                + 'fifteen is not what was promised.'
+            },
+            {
+              t: 'the driver\'s name',
+              ok: false,
+              why: 'The driver\'s name is what he takes in the cycle where there '
+                + 'is no note at all.'
+            }],
+            evidence: 'Ammar\'s second-to-last line'
           }],
         say: true
       }
@@ -215,7 +273,9 @@ PBE1.page('u5-s04', {
             q: 'Listen again. How long does he ask for?',
             model: 'Two minutes',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'A length of time, in his first line - and the driver repeats it '
+              + 'back sarcastically.'
           },
       {
             q: 'What does he write next to his name?',
@@ -224,7 +284,9 @@ PBE1.page('u5-s04', {
             rows: 2,
             keys: ['box',
               'short'],
-            need: 1
+            need: 1,
+            hint: 'Three words, after he has written the number and signed. It is '
+              + 'what makes the signature safe.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -278,7 +340,11 @@ PBE1.page('u5-s04', {
       'Signature: A. Zreik'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Signing.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -327,7 +393,11 @@ PBE1.page('u5-s04', {
         'nobody',
         'argues',
         'wrong']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Signing.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -371,7 +441,11 @@ PBE1.page('u5-s04', {
         'argues',
         'wrong'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Signing.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -403,7 +477,8 @@ PBE1.page('u5-s04', {
             q: 'How many boxes did Ammar count?',
             model: 'Fifteen',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'His own count, which stops one short of what the paper claims.'
           },
       {
             q: 'Which line was short?',
@@ -413,7 +488,9 @@ PBE1.page('u5-s04', {
             keys: ['white',
               'labels',
               'line'],
-            need: 1
+            need: 1,
+            hint: 'The note above: find the line where the counted figure is less '
+              + 'than the stated one. Give the line number and what is on it.'
           },
       {
             q: 'Who else signed the note?',
@@ -422,7 +499,9 @@ PBE1.page('u5-s04', {
             rows: 2,
             keys: ['driver',
               'haddad'],
-            need: 1
+            need: 1,
+            hint: 'The second signature at the bottom. Give the role and the name '
+              + 'as it is written.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -559,7 +638,11 @@ PBE1.page('u5-s04', {
       ideas: ['Goods received by: Ammar Zreik',
       'Signature: A. Zreik'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Signing.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -669,7 +752,11 @@ PBE1.page('u5-s04', {
         'wrong'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Signing.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -693,7 +780,11 @@ PBE1.page('u5-s04', {
       ideas: ['Goods received by: Ammar Zreik',
       'Signature: A. Zreik'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Signing.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

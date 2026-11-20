@@ -111,6 +111,15 @@ PBE1.page('u2-s03', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what is on shelf two.',
+    weak: 'Twenty on shelf two.',
+    change: ['Say twenty <i>of what</i>. Three different things in this store are '
+          + 'all called boxes.',
+        'If you know what the packets sit in, say that too - it tells the '
+          + 'next person how much space is used.'],
+    better: 'Twenty packets on shelf two. Two cartons, ten packets in each.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +133,18 @@ PBE1.page('u2-s03', {
             q: 'Say four things you count at your work. One of each, then many.',
             model: 'Open. Four things, singular and plural',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            hint: 'Four pairs: *one box, six boxes*. The change at the end of the '
+              + 'word is the thing being practised, so say both halves of each '
+              + 'pair.'
           },
       {
             q: 'Read the four words. Which is big and which is small? carton · '
               + 'pallet · roll · packet',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Put them in order of size rather than sorting them into two '
+              + 'heaps - the dialogue says what fits inside what.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -191,6 +205,47 @@ PBE1.page('u2-s03', {
               why: 'He has the right shelf. It is the word after the number that is missing.'
             }],
             evidence: 'the line where Abu Yasser asks \'Twenty what?\''
+          },
+        {
+            q: 'Listen again. How many packets are in a carton?',
+            options: [{
+              t: 'ten',
+              ok: true,
+              why: '*A carton. Ten packets in a carton.* - said as he shows him one.'
+            },
+            {
+              t: 'twenty',
+              ok: false,
+              why: 'Twenty is in the dialogue, but twenty is what is in a '
+                + '*packet*, which is the smaller thing.'
+            },
+            {
+              t: 'two',
+              ok: false,
+              why: 'Two appears here only as *shelf two*, which is a place, not a quantity.'
+            }],
+            evidence: 'Abu Yasser\'s line about the big one'
+          },
+        {
+            q: 'What is the rule Abu Yasser gives at the end?',
+            options: [{
+              t: 'say the unit word with the number, always',
+              ok: true,
+              why: '*Say the word with the number. Always.* Twenty on its own is '
+                + 'not a quantity - twenty packets is.'
+            },
+            {
+              t: 'count everything twice',
+              ok: false,
+              why: 'Counting twice is a rule in this course, but it belongs to a '
+                + 'later cycle. This one is about the missing word.'
+            },
+            {
+              t: 'write the number on the shelf',
+              ok: false,
+              why: 'Nothing is written in this dialogue. The whole exchange is spoken.'
+            }],
+            evidence: 'the last two lines of the dialogue'
           }],
         say: true
       }
@@ -207,13 +262,17 @@ PBE1.page('u2-s03', {
             q: 'Listen again. How many in a packet?',
             model: 'Twenty',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Abu Yasser holds one up and gives its count. That is the '
+              + 'smallest of the three containers in this scene.'
           },
       {
             q: 'How many packets in a carton?',
             model: 'Ten',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Said in the line where he shows Ammar *this big one*. Careful: '
+              + 'there is a different number for what is inside a packet.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -267,7 +326,11 @@ PBE1.page('u2-s03', {
       'Cartons: 10 packets in a carton'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: One, and more than one.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -312,7 +375,11 @@ PBE1.page('u2-s03', {
         'word',
         'number',
         'twenty']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: One, and more than one.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -354,7 +421,11 @@ PBE1.page('u2-s03', {
         'number',
         'twenty'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: One, and more than one.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -381,13 +452,16 @@ PBE1.page('u2-s03', {
             q: 'How many packets in a carton?',
             model: 'Ten',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Said in the line where he shows Ammar *this big one*. Careful: '
+              + 'there is a different number for what is inside a packet.'
           },
       {
             q: 'How many cartons on a full pallet?',
             model: 'Forty',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'From the table above, not the dialogue. The pallet row.'
           },
       {
             q: 'Why is twenty not an answer?',
@@ -399,7 +473,9 @@ PBE1.page('u2-s03', {
               'different',
               'things',
               'store'],
-            need: 1
+            need: 1,
+            hint: 'Because of what is missing after it. The store has three '
+              + 'different things that a person might call a box.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -530,7 +606,11 @@ PBE1.page('u2-s03', {
       ideas: ['Packets: 20 in a packet',
       'Cartons: 10 packets in a carton'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: One, and more than one.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -635,7 +715,11 @@ PBE1.page('u2-s03', {
         'twenty'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: One, and more than one.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -659,7 +743,11 @@ PBE1.page('u2-s03', {
       ideas: ['Packets: 20 in a packet',
       'Cartons: 10 packets in a carton'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: One, and more than one.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

@@ -170,6 +170,63 @@ p { margin:0 0 .9em; }
   background:var(--surface-2); border-left:3px solid var(--accent);
 }
 @media print { .study-steps { break-inside:avoid; } }
+
+/* ---------- a hint, where one was written for this question ----- */
+.hint-box {
+  margin:6px 0 2px; padding:8px 11px; border-radius:var(--r-2);
+  background:var(--surface-2); border-left:3px solid var(--accent);
+  font-size:14px; line-height:1.5; color:var(--text);
+}
+
+/* ---------- the tick-list that marks a spoken task -------------- */
+.rub-wrap h4 { display:flex; align-items:center; gap:6px; }
+.rubric { margin:8px 0 2px; }
+.rub-row {
+  display:flex; align-items:flex-start; gap:9px;
+  padding:5px 0; font-size:14.5px; line-height:1.45; cursor:pointer;
+}
+.rub-row + .rub-row { border-top:1px solid var(--line); }
+.rub-row input { margin:3px 0 0; flex:0 0 auto; width:16px; height:16px; }
+.rub-row:hover { color:var(--primary); }
+.rub-note {
+  margin:9px 0 2px; font-size:13px; color:var(--text-2);
+  font-style:italic;
+}
+
+/* ---------- the lines the learner has to say -------------------- */
+.my-lines { margin-top:12px; }
+.my-line {
+  display:flex; align-items:center; gap:10px; flex-wrap:wrap;
+  padding:7px 0; font-size:15px;
+}
+.my-line + .my-line { border-top:1px solid var(--line); }
+.my-line > span:first-child { flex:1 1 60%; min-width:200px; }
+
+/* ---------- one worked revision per cycle ----------------------- */
+.worked { margin-top:18px; padding-top:14px; border-top:2px solid var(--line); }
+.worked h4 { margin:0 0 8px; }
+.wk-row {
+  margin:0 0 9px; padding:9px 12px; border-radius:var(--r-2);
+  background:var(--surface-2); border-left:3px solid var(--line);
+}
+.wk-row > span {
+  display:block; font:700 12px/1.4 var(--ui); letter-spacing:.04em;
+  text-transform:uppercase; color:var(--text-2); margin-bottom:3px;
+}
+.wk-row p, .wk-row ol { margin:0; font-size:15px; line-height:1.55; }
+.wk-row ol { padding-left:20px; }
+.wk-row ol li + li { margin-top:4px; }
+.wk-weak { border-left-color:var(--no); background:var(--no-bg); }
+.wk-better { border-left-color:var(--ok); background:var(--ok-bg); }
+.wk-change { border-left-color:var(--accent); }
+
+/* ---------- a model that waits for an attempt ------------------- */
+.btn.is-waiting { opacity:.5; cursor:not-allowed; }
+
+/* ---------- the subtitle's Arabic, by clause -------------------- */
+.sub-ar .c { opacity:.62; transition:opacity .18s; }
+.sub-ar .c.on { opacity:1; font-weight:700; }
+
 /* ---------- hear it, say it ---------- */
 .q-tools { display:flex; flex-wrap:wrap; gap:6px; margin:2px 0 6px; }
 .say-btn.say-tts { opacity:.82; border-style:dashed; }

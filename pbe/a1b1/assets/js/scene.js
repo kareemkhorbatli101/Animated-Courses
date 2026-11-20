@@ -29,10 +29,21 @@
     var stage = el('div', 'stage');
 
     var set = art.set(scene.set);
-    var back = el('div', 'layer l-back', set.back());
-    var mid = el('div', 'layer l-mid', set.mid());
+    /* WHICH ARRANGEMENT OF THIS ROOM. See the patch note in
+       tools/course_engine.py. Derived from the id when the scene does
+       not say, so it is stable across reloads rather than random. */
+    var arr = scene.arr;
+    if (arr === undefined || arr === null) {
+      var hsh = 0, sid = String(scene.id || '');
+      for (var hi = 0; hi < sid.length; hi++) {
+        hsh = (hsh * 31 + sid.charCodeAt(hi)) % 9973;
+      }
+      arr = hsh % 3;
+    }
+    var back = el('div', 'layer l-back', set.back(arr));
+    var mid = el('div', 'layer l-mid', set.mid(arr));
     var actLayer = el('div', 'layer l-act');
-    var fore = el('div', 'layer l-fore', set.fore());
+    var fore = el('div', 'layer l-fore', set.fore(arr));
     stage.appendChild(back); stage.appendChild(mid); stage.appendChild(actLayer); stage.appendChild(fore);
 
     /* actors */
@@ -115,7 +126,30 @@
       return b;
     }
     var bPlay = tpBtn('play', 'Play / pause  (space)', function () { playing ? pause() : play(); });
-    tpBtn('replay', 'Replay the whole scene', function () { idx = -1; play(); });
+    /* REPLAY IS A LISTENING PASS. See the patch note in
+       tools/course_engine.py. */
+    var wasEn = null;
+    var bWords = null;
+    function restoreSubs() {
+      if (wasEn === null) return;
+      PBE1.prefs.subEn = wasEn;
+      wasEn = null;
+      applySubPrefs();
+      if (bWords) bWords.style.display = 'none';
+    }
+    tpBtn('replay', 'Replay with the words hidden - a listening pass',
+          function () {
+      if (wasEn === null) wasEn = !!PBE1.prefs.subEn;
+      PBE1.prefs.subEn = false;
+      applySubPrefs();
+      if (bWords) bWords.style.display = '';
+      idx = -1; play();
+    });
+    bWords = tpBtn('book', 'Show the words again', function () {
+      restoreSubs();
+    });
+    bWords.style.display = 'none';
+    bWords.classList.add('tp-words');
     tpBtn('prev', 'Previous line', function () { go(Math.max(0, idx - 1)); });
     tpBtn('next', 'Next line', function () { go(Math.min(lines.length - 1, idx + 1)); });
     tpBtn('loop', 'Loop this line', function (on) { loopLine = on; }, true);
@@ -200,7 +234,18 @@
       en.innerHTML = line.en.split(/\s+/).map(function (wd, i) {
         return '<span class="w" data-wi="' + i + '">' + esc(wd) + '</span>';
       }).join(' ');
-      ar.textContent = arOf(line);
+      /* THE ARABIC FOLLOWS BY CLAUSE, not word for word. See the patch
+         note in tools/course_engine.py. */
+      var arTxt = arOf(line);
+      var arCl = String(arTxt).split(/(?<=[\u060c\u061b\u061f.!?])\s+/)
+        .filter(function (x) { return x.trim(); });
+      if (arCl.length < 2) { ar.textContent = arTxt; }
+      else {
+        ar.innerHTML = arCl.map(function (cl, i) {
+          return '<span class="c" data-ci="' + i + '">'
+               + esc(cl) + '</span>';
+        }).join(' ');
+      }
     }
     /* ----------------------------------------------------------
        THE WORD CARD. Every clip already carries the start time of every word, and
@@ -240,6 +285,18 @@
     function markWord(i) {
       var ws = S.subs.querySelectorAll('.sub-en .w');
       for (var z = 0; z < ws.length; z++) ws[z].classList.toggle('on', z === i);
+      /* THE ARABIC CLAUSE HOLDING THE SAME SHARE OF THE LINE lifts
+         with it - see the patch note in tools/course_engine.py */
+      var cls = S.subs.querySelectorAll('.sub-ar .c');
+      if (cls.length > 1) {
+        var ci = i < 0 ? -1
+          : Math.min(cls.length - 1,
+                     Math.floor(i / Math.max(1, ws.length)
+                                * cls.length));
+        for (var y = 0; y < cls.length; y++) {
+          cls[y].classList.toggle('on', y === ci);
+        }
+      }
       if (i !== lastWi) {
         lastWi = i;
         if (i >= 0 && ws[i]) showWordCard(ws[i].textContent);

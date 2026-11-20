@@ -111,6 +111,17 @@ PBE1.page('u5-s01', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you check on a delivery note before you sign it.',
+    weak: 'I read the paper and I sign it.',
+    change: ['Name the four things: the company at the top, the date, the quantity '
+          + 'with its unit, and the signature line.',
+        'Say what your signature means. It is not <i>the goods arrived</i>; '
+          + 'it is <i>the other three are correct</i>.'],
+    better: 'I check four things: the company name at the top, the date, the quantity '
+      + 'and its unit, and then the line at the bottom. When I sign that line I '
+      + 'have said the first three are correct.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,12 +135,16 @@ PBE1.page('u5-s01', {
             q: 'Have you ever signed a paper you could not read? Say it in '
               + 'Arabic. Your teacher writes the English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One sentence of what happened, one of what you would do now. '
+              + 'There is no wrong answer here - almost everybody has.'
           },
       {
             q: 'Look at any paper on your table. Find a name and a date. Point at them.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Point first, then say where each one sits - *the name is at the '
+              + 'top, the date is under it*. Position is half of reading a form.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Good morning. My name is Samih Qassar. I am the storeman.',
@@ -196,6 +211,52 @@ PBE1.page('u5-s01', {
               why: 'More than he lists.'
             }],
             evidence: 'Abu Yasser\'s first line about the delivery note'
+          },
+        {
+            q: 'Listen again. Which of the four things is the dangerous one?',
+            options: [{
+              t: 'the line at the bottom, for your signature',
+              ok: true,
+              why: 'Nour calls it dangerous and then says why, and the why is the '
+                + 'whole unit.'
+            },
+            {
+              t: 'the date',
+              ok: false,
+              why: 'The date is thing number two, and it has its own cycle - but '
+                + 'Nour does not call it dangerous.'
+            },
+            {
+              t: 'the quantity',
+              ok: false,
+              why: 'The quantity is thing number three, and the next cycle is '
+                + 'about it. The dangerous one is the one that makes you '
+                + 'responsible for the other three.'
+            }],
+            evidence: 'the last four lines of the dialogue'
+          },
+        {
+            q: 'What have you said when you sign a delivery note?',
+            options: [{
+              t: 'that the other three things are correct',
+              ok: true,
+              why: '*Because when you sign it, you have said the other three are '
+                + 'correct.* A signature is a claim about the name, the date and '
+                + 'the quantity.'
+            },
+            {
+              t: 'that the goods have arrived',
+              ok: false,
+              why: 'That is what most people think they are signing, which is '
+                + 'exactly why Nour spells out the rest.'
+            },
+            {
+              t: 'that you have read the English on the note',
+              ok: false,
+              why: 'Ammar\'s first complaint is that it is all English - but '
+                + 'reading is not what a signature promises.'
+            }],
+            evidence: 'Nour\'s very last line'
           }],
         say: true
       }
@@ -216,7 +277,9 @@ PBE1.page('u5-s01', {
             keys: ['signature',
               'line',
               'bottom'],
-            need: 1
+            need: 1,
+            hint: 'She calls it dangerous and then explains why in her very last '
+              + 'line. It is at the bottom of the note.'
           },
       {
             q: 'What is at the bottom of the paper?',
@@ -225,7 +288,9 @@ PBE1.page('u5-s01', {
             rows: 2,
             keys: ['line',
               'signature'],
-            need: 1
+            need: 1,
+            hint: 'Thing number four of Nour\'s four. It is a line, and it is for '
+              + 'something of yours.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -277,7 +342,11 @@ PBE1.page('u5-s01', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The four things, every time, in this order.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -327,7 +396,11 @@ PBE1.page('u5-s01', {
         'date',
         'middle',
         'bottom']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The four things, every time, in this order.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -372,7 +445,11 @@ PBE1.page('u5-s01', {
         'middle',
         'bottom'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The four things, every time, in this order.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -406,7 +483,9 @@ PBE1.page('u5-s01', {
             rows: 2,
             keys: ['things',
               'correct'],
-            need: 1
+            need: 1,
+            hint: 'Not that the goods came - something stronger, about the other '
+              + 'three things on the note. Nour\'s last line.'
           },
       {
             q: 'What do you say if you have not counted?',
@@ -415,7 +494,9 @@ PBE1.page('u5-s01', {
             rows: 2,
             keys: ['yet',
               'counted'],
-            need: 1
+            need: 1,
+            hint: 'A short sentence with *yet* in it, from the card above. It buys '
+              + 'you two minutes without refusing anybody.'
           },
       {
             q: 'Which of the four is a question about the past?',
@@ -425,7 +506,9 @@ PBE1.page('u5-s01', {
             keys: ['number',
               'count',
               'yourself'],
-            need: 1
+            need: 1,
+            hint: 'Read the four questions on the card and look at the verbs. One '
+              + 'of them asks about something already done.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -563,7 +646,11 @@ PBE1.page('u5-s01', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The four things, every time, in this order.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -677,7 +764,11 @@ PBE1.page('u5-s01', {
         'bottom'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The four things, every time, in this order.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -699,7 +790,11 @@ PBE1.page('u5-s01', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The four things, every time, in this order.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

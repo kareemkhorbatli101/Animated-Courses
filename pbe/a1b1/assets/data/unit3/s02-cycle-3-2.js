@@ -111,6 +111,16 @@ PBE1.page('u3-s02', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write the times of your morning.',
+    weak: 'Gate 7. Lorry 7.15. Break 10.30.',
+    change: ['Write each time in words as well as figures. Some men read the '
+          + 'figures and some read the words.',
+        'Say which time is yours and which belongs to something else - '
+          + 'otherwise three times look equally like instructions.'],
+    better: 'I am at the gate at seven o\'clock - 7.00. The lorry comes at quarter '
+      + 'past seven - 7.15. The break is at half past ten - 10.30.'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,12 +133,16 @@ PBE1.page('u3-s02', {
       questions: [{
             q: 'What time is it now? Say it. Write it here:',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say it both ways - the numbers, and the words with *past* or '
+              + '*to*. This cycle wants both every time.'
           },
       {
             q: 'What time do you start work? What time do you finish? Tell your partner.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Two times, said both ways each. Alone, say them to the empty '
+              + 'room and then write them as the shift list would.'
           }],
       ideas: ['The time, two ways',
       'Gate: 7.00 (seven o\'clock)',
@@ -196,6 +210,48 @@ PBE1.page('u3-s02', {
               why: 'Half past is in the scene, but it is the break, not the lorry.'
             }],
             evidence: 'the time said two ways, one after the other'
+          },
+        {
+            q: 'Listen again. What time is the break?',
+            options: [{
+              t: 'half past ten',
+              ok: true,
+              why: 'Abu Yasser gives it as half past ten and Ammar says it back as '
+                + 'ten thirty - both ways, which is the lesson.'
+            },
+            {
+              t: 'quarter past seven',
+              ok: false,
+              why: 'That is when the lorry comes - the first time in the dialogue.'
+            },
+            {
+              t: 'seven o\'clock',
+              ok: false,
+              why: 'Seven is when Ammar must be at the gate, fifteen minutes '
+                + 'before the lorry.'
+            }],
+            evidence: 'the second half of the dialogue, after the gate time'
+          },
+        {
+            q: 'Why does Abu Yasser want both ways of saying a time?',
+            options: [{
+              t: 'because different men say it differently',
+              ok: true,
+              why: '*Some men say one, some say the other.* You cannot choose '
+                + 'which version arrives at you, so you need both.'
+            },
+            {
+              t: 'because the store clock is wrong',
+              ok: false,
+              why: 'No clock is said to be wrong in this scene.'
+            },
+            {
+              t: 'because the office writes both on the board',
+              ok: false,
+              why: 'The board carries the shift in other cycles, but nothing here '
+                + 'says times are written twice.'
+            }],
+            evidence: 'his line right after Ammar says *seven fifteen*'
           }],
         say: true
       }
@@ -217,7 +273,9 @@ PBE1.page('u3-s02', {
               'fifteen',
               'minutes',
               'before'],
-            need: 1
+            need: 1,
+            hint: 'Not the lorry\'s time - his own, which is earlier. Abu Yasser '
+              + 'says how much earlier, and Ammar says it back as minutes.'
           },
       {
             q: 'What time is the break?',
@@ -226,7 +284,9 @@ PBE1.page('u3-s02', {
             rows: 2,
             keys: ['half',
               'past'],
-            need: 1
+            need: 1,
+            hint: 'Near the end of the dialogue, and it is given one way and then '
+              + 'repeated the other way.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -283,7 +343,11 @@ PBE1.page('u3-s02', {
       'Finish: 16.00 (four o\'clock)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The time, two ways.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -329,7 +393,11 @@ PBE1.page('u3-s02', {
         'thirty',
         'need',
         'ears']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The time, two ways.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -372,7 +440,11 @@ PBE1.page('u3-s02', {
         'need',
         'ears'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The time, two ways.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -404,7 +476,9 @@ PBE1.page('u3-s02', {
             rows: 2,
             keys: ['half',
               'past'],
-            need: 1
+            need: 1,
+            hint: 'Near the end of the dialogue, and it is given one way and then '
+              + 'repeated the other way.'
           },
       {
             q: 'What time does the lorry come?',
@@ -413,7 +487,8 @@ PBE1.page('u3-s02', {
             rows: 2,
             keys: ['quarter',
               'past'],
-            need: 1
+            need: 1,
+            hint: 'The first time in the dialogue, said in words and then in numbers.'
           },
       {
             q: 'Why is every time written two ways?',
@@ -424,7 +499,9 @@ PBE1.page('u3-s02', {
               'men',
               'numbers',
               'words'],
-            need: 1
+            need: 1,
+            hint: 'The reason is about the men who read it, not about the clock. '
+              + 'Read the note under the board.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -559,7 +636,11 @@ PBE1.page('u3-s02', {
       'Break: 10.30 (half past ten)',
       'Finish: 16.00 (four o\'clock)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The time, two ways.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -666,7 +747,11 @@ PBE1.page('u3-s02', {
         'ears'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The time, two ways.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -692,7 +777,11 @@ PBE1.page('u3-s02', {
       'Break: 10.30 (half past ten)',
       'Finish: 16.00 (four o\'clock)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The time, two ways.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

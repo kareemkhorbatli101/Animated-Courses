@@ -111,6 +111,14 @@ PBE1.page('u2-s02', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write the day\'s figures for the board.',
+    weak: '430.',
+    change: ['Write the number in words as well as figures. Both, always - a '
+          + 'figure read from across the yard can be read wrong.',
+        'Show what came in, so the total has a reason.'],
+    better: 'In today: 90 - ninety. Total in the store: 430 - four hundred and thirty.'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,12 +131,16 @@ PBE1.page('u2-s02', {
       questions: [{
             q: 'Say these numbers: 20 · 30 · 40 · 50 · 60. Now say: 13 · 14 · 15 · 16.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say them in pairs - thirty then thirteen - and listen to where '
+              + 'the stress falls. That difference is the whole trick.'
           },
       {
             q: 'What is the biggest number at your work? Write it here:',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say it out loud as words, then write it in figures underneath. '
+              + 'Both, the way Abu Yasser insists on in this cycle.'
           }],
       ideas: ['The big numbers',
       'IN TODAY: 90 (ninety)',
@@ -194,6 +206,49 @@ PBE1.page('u2-s02', {
                 + 'board said first.'
             }],
             evidence: 'the number on the board, said and then written'
+          },
+        {
+            q: 'Listen again. What is the new total?',
+            options: [{
+              t: 'four hundred and thirty',
+              ok: true,
+              why: 'Three hundred and forty plus ninety, which Ammar then writes '
+                + 'on the board as four, three, zero.'
+            },
+            {
+              t: 'three hundred and forty',
+              ok: false,
+              why: 'That is what the board said *before* the ninety came in.'
+            },
+            {
+              t: 'ninety',
+              ok: false,
+              why: 'Ninety is what arrived today - one of the two numbers being '
+                + 'added, not the answer.'
+            }],
+            evidence: 'Ammar\'s answer after Abu Yasser adds the two numbers'
+          },
+        {
+            q: 'What must Ammar always write on the board?',
+            options: [{
+              t: 'the figures, and the words under them',
+              ok: true,
+              why: '*And in words under it. Both. Always both.* Two ways of '
+                + 'writing one number is how a nine stops becoming a four.'
+            },
+            {
+              t: 'the figures only, written big',
+              ok: false,
+              why: 'Big is asked for, but it is not all that is asked for. Listen '
+                + 'to the line after it.'
+            },
+            {
+              t: 'the words only, so nobody misreads a digit',
+              ok: false,
+              why: 'Words alone would solve the digit problem and lose the quick '
+                + 'read. He asks for something stricter than either.'
+            }],
+            evidence: 'Abu Yasser\'s last line'
           }],
         say: true
       }
@@ -210,7 +265,9 @@ PBE1.page('u2-s02', {
             q: 'Listen again. How many cartons came today?',
             model: 'Ninety',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The number Abu Yasser adds to what the board already said. He '
+              + 'makes Ammar separate it from a similar-sounding one.'
           },
       {
             q: 'What is the total in the store?',
@@ -219,7 +276,9 @@ PBE1.page('u2-s02', {
             rows: 2,
             keys: ['hundred',
               'thirty'],
-            need: 1
+            need: 1,
+            hint: 'Add what the board said to what came in. Ammar says the answer, '
+              + 'and then writes it as three digits.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -274,7 +333,11 @@ PBE1.page('u2-s02', {
       'OUT TODAY: 0 (none)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The big numbers.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -320,7 +383,11 @@ PBE1.page('u2-s02', {
         'part',
         'forty',
         'practise']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The big numbers.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -362,7 +429,11 @@ PBE1.page('u2-s02', {
         'forty',
         'practise'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The big numbers.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -389,7 +460,9 @@ PBE1.page('u2-s02', {
             q: 'How many came in today?',
             model: 'Ninety',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'From the board above, the *in* line. One number, and Ammar '
+              + 'spells it out digit by digit in the dialogue.'
           },
       {
             q: 'How many went out?',
@@ -398,7 +471,9 @@ PBE1.page('u2-s02', {
             rows: 2,
             keys: ['none',
               'zero'],
-            need: 1
+            need: 1,
+            hint: 'The *out* line of the board. It is a number even when it is '
+              + 'nothing - and this unit has two words for that number.'
           },
       {
             q: 'Why is every number written twice?',
@@ -409,7 +484,9 @@ PBE1.page('u2-s02', {
               'yard',
               'cannot',
               'wrong'],
-            need: 1
+            need: 1,
+            hint: 'The reason is about distance and reading, not about arithmetic. '
+              + 'Look at the note under the board.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -549,7 +626,11 @@ PBE1.page('u2-s02', {
       'IN TODAY: 90 (ninety)',
       'OUT TODAY: 0 (none)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The big numbers.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -662,7 +743,11 @@ PBE1.page('u2-s02', {
           + 'sheet after you? You said Abu Yasser reads it at four.']
       },
       example: ['You wrote that you check the shelves first. I asked: who reads the '
-        + 'sheet after you? You said Abu Yasser reads it at four.']
+        + 'sheet after you? You said Abu Yasser reads it at four.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The big numbers.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -687,7 +772,11 @@ PBE1.page('u2-s02', {
       'IN TODAY: 90 (ninety)',
       'OUT TODAY: 0 (none)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The big numbers.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

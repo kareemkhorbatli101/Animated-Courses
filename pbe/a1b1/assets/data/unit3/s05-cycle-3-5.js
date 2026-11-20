@@ -111,6 +111,16 @@ PBE1.page('u3-s05', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write how you ask to change a shift.',
+    weak: 'I am not coming on Thursday. My brother is in hospital.',
+    change: ['Ask, do not announce - <i>can I swap Thursday?</i> - and name who '
+          + 'would take it.',
+        'Say what you will do next, so the supervisor has one thing to '
+          + 'approve instead of a hole to fill.'],
+    better: 'Can I swap Thursday? My brother is in hospital that day. Samih is off on '
+      + 'Thursday - I will ask him today, and then I will tell you.'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,13 +133,17 @@ PBE1.page('u3-s05', {
       questions: [{
             q: 'You need a day off. What do you say? Say it in Arabic, then in English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Ask, do not announce - and name the day. Look at how Ammar '
+              + 'opens: a question with *can I*, then the reason.'
           },
       {
             q: 'Read the two lines. Which one is better at work? I am not coming '
               + 'on Thursday · Can I swap Thursday with Samih?',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One of them leaves a hole in the shift and one of them fills it. '
+              + 'Which one gives the supervisor something to say yes to?'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Good morning. My name is Samih Qassar. I am the storeman.',
@@ -191,6 +205,49 @@ PBE1.page('u3-s05', {
               why: 'He sends Ammar to ask the other man first.'
             }],
             evidence: 'Abu Yasser\'s answer, and the condition in it'
+          },
+        {
+            q: 'Listen again. Who does Ammar want to swap with?',
+            options: [{
+              t: 'Samih',
+              ok: true,
+              why: '*With Samih. He is off on Thursday.* - which is what makes the '
+                + 'swap possible at all.'
+            },
+            {
+              t: 'Abu Yasser',
+              ok: false,
+              why: 'Abu Yasser is the man he is asking, not the man he would swap '
+                + 'with - and his answer is that he is the wrong man to ask '
+                + 'first.'
+            },
+            {
+              t: 'his brother',
+              ok: false,
+              why: 'His brother is the *reason* for the swap: he is in hospital on Thursday.'
+            }],
+            evidence: 'Ammar\'s answer to *Swap with who?*'
+          },
+        {
+            q: 'What must Ammar do first, and in what order?',
+            options: [{
+              t: 'ask Samih, then come and tell Abu Yasser',
+              ok: true,
+              why: '*Then ask Samih first. Not me* - and if Samih says yes, then '
+                + 'come back and it goes on the board.'
+            },
+            {
+              t: 'ask Abu Yasser, who writes the board',
+              ok: false,
+              why: 'That is what Ammar tries, and it is the thing Abu Yasser sends '
+                + 'him away from. The board is the last step, not the first.'
+            },
+            {
+              t: 'write it on the board himself',
+              ok: false,
+              why: 'Abu Yasser writes the board. Ammar\'s job is to bring him a yes.'
+            }],
+            evidence: 'Abu Yasser\'s two answers near the end'
           }],
         say: true
       }
@@ -207,7 +264,8 @@ PBE1.page('u3-s05', {
             q: 'Listen again. Which day does Ammar want?',
             model: 'Thursday',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The day the count falls on - which is why swapping it is not simple.'
           },
       {
             q: 'What must he do first?',
@@ -217,7 +275,9 @@ PBE1.page('u3-s05', {
             keys: ['ask',
               'samih',
               'first'],
-            need: 1
+            need: 1,
+            hint: 'Abu Yasser sends him somewhere before he will discuss it. Name '
+              + 'the person, and that it comes first.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -269,7 +329,11 @@ PBE1.page('u3-s05', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking about the shift, and asking to swap.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -316,7 +380,11 @@ PBE1.page('u3-s05', {
         'only',
         'board',
         'words']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking about the shift, and asking to swap.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -359,7 +427,11 @@ PBE1.page('u3-s05', {
         'board',
         'words'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking about the shift, and asking to swap.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -391,7 +463,8 @@ PBE1.page('u3-s05', {
             rows: 2,
             keys: ['samih',
               'qassar'],
-            need: 1
+            need: 1,
+            hint: 'The board above, after the swap was written on it. One name.'
           },
       {
             q: 'Who wrote the swap on the board?',
@@ -402,7 +475,9 @@ PBE1.page('u3-s05', {
               'abu',
               'yasser',
               'march'],
-            need: 1
+            need: 1,
+            hint: 'The bottom of the board - a role, a name and a date. Give the '
+              + 'name and the date.'
           },
       {
             q: 'What two words say the swap is agreed?',
@@ -412,7 +487,9 @@ PBE1.page('u3-s05', {
             keys: ['both',
               'men',
               'agreed'],
-            need: 1
+            need: 1,
+            hint: 'Look for the short phrase written on the board that means '
+              + 'neither man can later say he did not know.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -544,7 +621,11 @@ PBE1.page('u3-s05', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking about the shift, and asking to swap.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -652,7 +733,11 @@ PBE1.page('u3-s05', {
         'words'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking about the shift, and asking to swap.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -674,7 +759,11 @@ PBE1.page('u3-s05', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking about the shift, and asking to swap.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

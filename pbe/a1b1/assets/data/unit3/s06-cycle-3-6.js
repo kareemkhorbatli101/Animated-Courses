@@ -111,6 +111,16 @@ PBE1.page('u3-s06', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you say when you are late.',
+    weak: 'Sorry, I am very late, there was a big problem on the road.',
+    change: ['Open with the number of minutes. That is the fact your supervisor '
+          + 'needs in order to move somebody.',
+        'Give the reason in one short clause with a place in it, and drop the '
+          + 'repeated apology.'],
+    better: 'I am twenty minutes late. The road was closed at Jaramana. I am sorry. '
+      + 'Next time I will telephone from the road.'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,14 +133,18 @@ PBE1.page('u3-s06', {
       questions: [{
             q: 'You are late. What do you say first? Say it in Arabic, then in English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Two facts in your first breath: how late, and why. Everything '
+              + 'else - including sorry - can wait.'
           },
       {
             q: 'Read the two lines. Which is better at work? sorry sorry sorry, '
               + 'there was a big problem · I am twenty minutes late. The road was '
               + 'closed.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One of them tells the supervisor how long he has to find a '
+              + 'replacement. The other tells him how you feel.'
           }],
       ideas: ['Saying you are late'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -191,6 +205,50 @@ PBE1.page('u3-s06', {
               why: 'Much more than he says - the lorry had only just been dealt with.'
             }],
             evidence: 'Ammar\'s first line, where he says the time and the reason'
+          },
+        {
+            q: 'Listen again. How late is Ammar?',
+            options: [{
+              t: 'twenty minutes',
+              ok: true,
+              why: 'He opens with it: *I am twenty minutes late. The road was '
+                + 'closed at Jaramana.*'
+            },
+            {
+              t: 'fifteen minutes',
+              ok: false,
+              why: 'Quarter past is in the dialogue - it is when the lorry came, '
+                + 'not how late he is.'
+            },
+            {
+              t: 'thirty minutes',
+              ok: false,
+              why: 'Thirty minutes late is the review cycle at the end of the '
+                + 'unit, where Samih reminds him of it.'
+            }],
+            evidence: 'Ammar\'s first line, where he says the time and the reason together'
+          },
+        {
+            q: 'What does Abu Yasser want Ammar to do next time?',
+            options: [{
+              t: 'telephone from the road',
+              ok: true,
+              why: '*Next time, telephone. Two minutes on the telephone and I move '
+                + 'a man.* A call that early is worth twenty minutes of lateness.'
+            },
+            {
+              t: 'apologise at the gate',
+              ok: false,
+              why: 'Ammar does apologise, and Abu Yasser tells him the apology was '
+                + 'not the useful part - the time and the reason were.'
+            },
+            {
+              t: 'write it on the sheet',
+              ok: false,
+              why: 'The sheet carries counts in this course, not arrivals. The '
+                + 'gate book carries times.'
+            }],
+            evidence: 'Abu Yasser\'s last line'
           }],
         say: true
       }
@@ -211,7 +269,9 @@ PBE1.page('u3-s06', {
             keys: ['road',
               'closed',
               'jaramana'],
-            need: 1
+            need: 1,
+            hint: 'The reason is in his first line, straight after the number of '
+              + 'minutes, and it has a place name in it.'
           },
       {
             q: 'What does Abu Yasser ask him to do next time?',
@@ -220,7 +280,8 @@ PBE1.page('u3-s06', {
             rows: 2,
             keys: ['telephone',
               'road'],
-            need: 1
+            need: 1,
+            hint: 'His last line. It takes two minutes and it lets him move a man.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -273,7 +334,11 @@ PBE1.page('u3-s06', {
       ideas: ['Saying you are late'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying you are late.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -319,7 +384,11 @@ PBE1.page('u3-s06', {
         'know',
         'long',
         'move']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying you are late.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -362,7 +431,11 @@ PBE1.page('u3-s06', {
         'long',
         'move'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying you are late.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -392,13 +465,18 @@ PBE1.page('u3-s06', {
             rows: 2,
             keys: ['twenty-five',
               'minutes'],
-            need: 1
+            need: 1,
+            hint: 'Read the gate book above rather than the dialogue - the book '
+              + 'records what the clock said, which is not always what was '
+              + 'spoken.'
           },
       {
             q: 'Who took the lorry?',
             model: 'Samih — at 7.15',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The dialogue names him, and the gate book gives the time he took '
+              + 'it. Give both if you can.'
           },
       {
             q: 'What will he do next time?',
@@ -407,7 +485,9 @@ PBE1.page('u3-s06', {
             rows: 2,
             keys: ['telephone',
               'road'],
-            need: 1
+            need: 1,
+            hint: 'The same answer Abu Yasser asked for - and Ammar says where he '
+              + 'will do it from.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -538,7 +618,11 @@ PBE1.page('u3-s06', {
           }],
       ideas: ['Saying you are late'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying you are late.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -644,7 +728,11 @@ PBE1.page('u3-s06', {
         'move'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying you are late.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -666,7 +754,11 @@ PBE1.page('u3-s06', {
           }],
       ideas: ['Saying you are late'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying you are late.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

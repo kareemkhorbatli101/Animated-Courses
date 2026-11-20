@@ -111,6 +111,15 @@ PBE1.page('u1-s06', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you say when you did not catch an instruction.',
+    weak: 'Sorry sorry. I did not hear. Please help me.',
+    change: ['One <i>sorry</i>, then the actual request: <i>again, please</i>, or '
+          + '<i>slowly, please</i>.',
+        'Say back the part you <i>did</i> catch. It shows what still has to '
+          + 'be repeated, and it is half the instruction already safe.'],
+    better: 'Sorry? Again, please. Slowly. I heard row three, shelf two - how many boxes?'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +133,17 @@ PBE1.page('u1-s06', {
             q: 'Somebody speaks fast. You do not understand. What do you do now? '
               + 'Say it in Arabic.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say what you do *now*, in this second - not what you wish you '
+              + 'could do. Then look at what Ammar says, twice, in the dialogue.'
           },
       {
             q: 'Read the two lines. Which one is better at work? I say nothing '
               + 'and I do it wrong · I say "Sorry — again, please"',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Ask which line ends with the work done right. One of them costs '
+              + 'five seconds; the other costs a morning.'
           }],
       ideas: ['When you do not understand',
       'Row 3, shelf 2'],
@@ -193,6 +206,48 @@ PBE1.page('u1-s06', {
               why: 'He was early. Being late is a different cycle.'
             }],
             evidence: 'Abu Yasser\'s last line, after Ammar apologises'
+          },
+        {
+            q: 'Listen again. How many boxes, and where do they go?',
+            options: [{
+              t: 'fourteen boxes, row three, shelf two',
+              ok: true,
+              why: 'He says it twice and then writes it, which is the whole point '
+                + 'of the scene.'
+            },
+            {
+              t: 'forty boxes, row three, shelf two',
+              ok: false,
+              why: '*Fourteen* and *forty* are exactly the confusion this cycle is '
+                + 'about - Abu Yasser separates them himself: *four-teen, one '
+                + 'four*.'
+            },
+            {
+              t: 'fourteen boxes, row two, shelf three',
+              ok: false,
+              why: 'The right number with the row and shelf swapped. Listen again '
+                + 'for which comes first.'
+            }],
+            evidence: 'Abu Yasser\'s first line, and the line where he writes it down'
+          },
+        {
+            q: 'What does Abu Yasser tell Ammar to stop doing?',
+            options: [{
+              t: 'saying sorry - he should ask instead',
+              ok: true,
+              why: 'His last line is *do not say sorry. Ask. Always ask. Ask me ten times.*'
+            },
+            {
+              t: 'asking so many questions',
+              ok: false,
+              why: 'The opposite of what he says. He invites ten questions.'
+            },
+            {
+              t: 'writing things down',
+              ok: false,
+              why: 'He writes it down for Ammar himself, so he can hardly be against it.'
+            }],
+            evidence: 'the very last line of the dialogue'
           }],
         say: true
       }
@@ -209,13 +264,17 @@ PBE1.page('u1-s06', {
             q: 'Listen again. How many boxes?',
             model: 'Fourteen',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Abu Yasser separates the number into two halves to be sure of '
+              + 'it: *four-teen, one four*. That is the number.'
           },
       {
             q: 'What does Ammar not understand — the number or the place?',
             model: 'The number',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'He repeats the place back correctly the first time. Whatever he '
+              + 'repeats correctly is not the trouble.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -269,7 +328,11 @@ PBE1.page('u1-s06', {
       'Row 3, shelf 2'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: When you do not understand.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -316,7 +379,11 @@ PBE1.page('u1-s06', {
         'wrong',
         'practise',
         'spoke']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: When you do not understand.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -359,7 +426,11 @@ PBE1.page('u1-s06', {
         'practise',
         'spoke'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: When you do not understand.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -385,7 +456,9 @@ PBE1.page('u1-s06', {
             q: 'How many boxes?',
             model: 'Fourteen',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'From the written note above, where Abu Yasser wrote it down for '
+              + 'him - and it agrees with what he said.'
           },
       {
             q: 'What must Ammar do if the shelf is full?',
@@ -396,7 +469,9 @@ PBE1.page('u1-s06', {
               'abu',
               'yasser',
               'somewhere'],
-            need: 1
+            need: 1,
+            hint: 'Read the rule under the note. It has two halves: one thing to '
+              + 'do, and one thing not to do.'
           },
       {
             q: 'Who wrote the paper?',
@@ -406,7 +481,9 @@ PBE1.page('u1-s06', {
             keys: ['abu',
               'yasser',
               'initials'],
-            need: 1
+            need: 1,
+            hint: 'Look at the two letters at the bottom of the note. Initials '
+              + 'stand for a name you already know in this cycle.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -540,7 +617,11 @@ PBE1.page('u1-s06', {
       ideas: ['When you do not understand',
       'Row 3, shelf 2'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: When you do not understand.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -647,7 +728,11 @@ PBE1.page('u1-s06', {
         'spoke'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: When you do not understand.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -670,7 +755,11 @@ PBE1.page('u1-s06', {
       ideas: ['When you do not understand',
       'Row 3, shelf 2'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: When you do not understand.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

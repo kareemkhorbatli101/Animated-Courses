@@ -187,6 +187,26 @@
       pic.style.marginBottom = '14px';
       host.appendChild(pic);
     }
+    /* ----------------------------------------------------------
+       A SPOKEN CARD IS MARKED BY ITS LIST, not by its typing box.
+       See the patch note in tools/course_engine.py. The list comes
+       first because it is the task; the box below it is a note the
+       learner may type, speak or leave empty.
+       ---------------------------------------------------------- */
+    var rub = null;
+    if (card.rubric && card.rubric.length) {
+      var rw = mk('div', 'note rub-wrap');
+      rw.innerHTML = '<h4>' + art.icon('mic', 15)
+        + 'Say it, then tick what you did</h4>';
+      rub = rubricList(card.rubric,
+        'Nothing here heard you \u2014 this is your own honest '
+        + 'tick. Record yourself and play it back if you are not '
+        + 'sure.');
+      rw.appendChild(rub.el);
+      if (EAFM.ui.recorder) rw.appendChild(
+        EAFM.ui.recorder(takeKey(card)));
+      host.appendChild(rw);
+    }
     card.questions.forEach(function (q, i) {
       var row = mk('div', 'q-row');
       row.innerHTML = '<div class="qn">' + (i + 1) + '.</div>';
@@ -209,7 +229,14 @@
       tog.onclick = function () { ideas.style.display = ideas.style.display === 'none' ? 'block' : 'none'; };
       host.appendChild(tog); host.appendChild(ideas);
     }
-    function state() { return fields.map(function (f) { return f.getState(); }); }
+    function state() {
+      var st = fields.map(function (f) { return f.getState(); });
+      /* the ticks ride at the END of the array: setState walks
+         fields[i] and ignores an extra, so a record saved before
+         this patch still restores and this one still saves */
+      if (rub) st.push(rub.getState());
+      return st;
+    }
 
     /* ----------------------------------------------------------
        WHAT THE WRITING TUTOR READS. `card._getText` is the one way
@@ -243,6 +270,20 @@
           api.result(sels.length, sels.length);
           return;
         }
+        /* THE LIST IS THE VERDICT on a spoken card, and it never
+           says 'correct' - nothing in a browser heard them. */
+        if (rub) {
+          if (rub.done()) {
+            api.complete('All four ticked. That is your own mark on '
+              + 'your own speaking \u2014 the course did not hear '
+              + 'it.');
+          } else {
+            api.verdict('part', 'Say it out loud first, then tick '
+              + 'what you actually did (' + rub.count() + ' of '
+              + rub.total() + ').');
+          }
+          return;
+        }
         if (txtOk >= txtN) api.complete(card.okMsg || 'Good — your answers are saved.');
         else api.verdict('part', progressLine(txtOk, txtN, 'answers',
           'answer the ' + (txtN - txtOk) + ' still to go, in at least '
@@ -257,7 +298,20 @@
             return;
           }
         }
-        EAFM.toast('Use the model answers to compare once you have written your own.');
+        /* THE FIRST UNANSWERED QUESTION'S OWN HINT. See the patch note
+           in tools/course_engine.py - the old fallback named a model
+           that half these cards do not have. */
+        for (var j = 0; j < fields.length; j++) {
+          var qj = card.questions[j] || {};
+          var hj = qj.hint || (qj.evidence
+            ? 'Where to look: ' + qj.evidence : '');
+          if (hj && !fields[j].ok()) {
+            EAFM.toast((fields.length > 1
+              ? 'Question ' + (j + 1) + ': ' : '') + hj, 6000);
+            return;
+          }
+        }
+        EAFM.toast('Answer it in your own words first \u2014 then press Show me to compare.');
       },
       /* THE 30 DISCUSSION CARDS OF THIS COURSE SHOWED NOTHING AT ALL.
          Measured 2026-11-17: every question on all 30 is authored with only its
@@ -313,7 +367,15 @@
           .map(function (f) { return f.text(); }).filter(Boolean).join('\n\n');
       },
       getState: state,
-      setState: function (s) { if (Array.isArray(s)) s.forEach(function (v, i) { if (fields[i]) fields[i].setState(v); }); }
+      setState: function (s) {
+        if (!Array.isArray(s)) return;
+        s.forEach(function (v, i) {
+          if (fields[i]) fields[i].setState(v);
+        });
+        if (rub && s.length > fields.length) {
+          rub.setState(s[fields.length]);
+        }
+      }
     };
   };
 
@@ -454,6 +516,64 @@
      is the learner's own, so it is a text box and it is scaffolded
      instead of scored.
      ============================================================ */
+  /* ============================================================
+     THE TICK-LIST THAT MARKS A SPOKEN TASK.
+     See the patch note in tools/course_engine.py. Four facts a
+     learner can know about themselves. Nothing here heard them, and
+     the panel says so, because a self-mark dressed as a mark teaches
+     a learner to distrust every other verdict in the course.
+     ============================================================ */
+  function rubricList(ticks, note, onChange) {
+    var box = mk('div', 'rubric');
+    box.setAttribute('role', 'group');
+    box.setAttribute('aria-label', 'Mark your own spoken answer');
+    var boxes = [];
+    (ticks || []).forEach(function (t, i) {
+      var row = mk('label', 'rub-row');
+      var cb = mk('input');
+      cb.type = 'checkbox';
+      var sp = mk('span', '', esc(t));
+      row.appendChild(cb); row.appendChild(sp);
+      cb.onchange = function () { if (onChange) onChange(); };
+      boxes.push(cb);
+      box.appendChild(row);
+    });
+    if (note) box.appendChild(mk('p', 'rub-note', esc(note)));
+    return {
+      el: box,
+      done: function () {
+        return boxes.length > 0 && boxes.every(function (c) {
+          return c.checked;
+        });
+      },
+      count: function () {
+        var n = 0;
+        boxes.forEach(function (c) { if (c.checked) n++; });
+        return n;
+      },
+      total: function () { return boxes.length; },
+      getState: function () {
+        return boxes.map(function (c) { return !!c.checked; });
+      },
+      setState: function (v) {
+        if (!Array.isArray(v)) return;
+        boxes.forEach(function (c, i) { c.checked = !!v[i]; });
+      }
+    };
+  }
+  EAFM.ui.rubricList = rubricList;
+
+  /* A KEY FOR A KEPT RECORDING. A card's id is 'c4' on every screen
+     of the course, so a key built from it alone would have every
+     unit's fourth card overwriting one take. The path makes it the
+     screen's own, and nothing but this browser ever sees it. */
+  function takeKey(card) {
+    if (!card || !card.id) return null;
+    return String(d.location.pathname)
+      .replace(/[^a-z0-9]+/gi, '-').replace(/^-|-$/g, '')
+      + '-' + card.id;
+  }
+
   function qField(q, cEl) {
     if (q.options) {
       var wdg = EAFM.ui.radioCards({
@@ -514,7 +634,56 @@
     var mb = EAFM.ui.micBtn && EAFM.ui.micBtn(inp);
     if (mb) tools.appendChild(mb);
     if (tools.childNodes.length) cEl.insertBefore(tools, inp);
-    if (q.model) cEl.appendChild(EAFM.ui.modelBox(q.model));
+    /* ----------------------------------------------------------
+       A HINT, WHERE ONE WAS WRITTEN FOR THIS QUESTION.
+       See the patch note in tools/course_engine.py. A hint points,
+       names the shape of the answer, and does not contain it - the
+       answer is behind Show me, which is a separate press. No hint
+       authored, no button: an affordance that cannot be honoured is
+       worse than its absence.
+       ---------------------------------------------------------- */
+    var hintTxt = q.hint
+      || (q.evidence ? 'Where to look: ' + q.evidence : '');
+    if (hintTxt) {
+      var hb = mk('button', 'btn btn-sm btn-ghost hint-btn',
+                  art.icon('bulb', 15) + 'Hint');
+      hb.type = 'button';
+      var hx = mk('div', 'hint-box');
+      hx.style.display = 'none';
+      hx.innerHTML = hintTxt;
+      hx.setAttribute('role', 'note');
+      hb.setAttribute('aria-expanded', 'false');
+      hb.onclick = function () {
+        var on = hx.style.display !== 'none';
+        hx.style.display = on ? 'none' : 'block';
+        hb.setAttribute('aria-expanded', on ? 'false' : 'true');
+      };
+      tools.appendChild(hb);
+      cEl.appendChild(hx);
+    }
+    /* THE MODEL WAITS FOR AN ATTEMPT. See the patch note in
+       tools/course_engine.py: it used to sit open-able above the empty
+       box, which is the one place it teaches nothing. */
+    if (q.model) {
+      var mbx = EAFM.ui.modelBox(q.model);
+      var mbtn = mbx.querySelector('button');
+      if (mbtn) {
+        var armModel = function () {
+          if (!String(inp.value).trim()) return;
+          mbtn.disabled = false;
+          mbtn.title = '';
+          mbtn.classList.remove('is-waiting');
+          inp.removeEventListener('input', armModel);
+        };
+        mbtn.disabled = true;
+        mbtn.classList.add('is-waiting');
+        mbtn.title = 'Write something first - even one line. Then '
+                   + 'compare.';
+        inp.addEventListener('input', armModel);
+        armModel();
+      }
+      cEl.appendChild(mbx);
+    }
     return {
       kind: 'txt',
       text: function () { return inp.value; },
@@ -593,6 +762,29 @@
       var cEl = mk('div', 'qc');
       var qt = mk('div', 'qt', esc(it.q));
       cEl.appendChild(qt);
+      /* A HINT BEFORE THE ANSWER, not only after a wrong one. See the
+         patch note in tools/course_engine.py. */
+      var ih = it.hint || (it.evidence
+        ? 'Listen again to ' + it.evidence : '');
+      if (ih) {
+        var ihb = mk('button', 'btn btn-sm btn-ghost hint-btn',
+                     art.icon('bulb', 15) + 'Hint');
+        ihb.type = 'button';
+        var ihx = mk('div', 'hint-box');
+        ihx.style.display = 'none';
+        ihx.innerHTML = ih;
+        ihx.setAttribute('role', 'note');
+        ihb.setAttribute('aria-expanded', 'false');
+        ihb.onclick = function () {
+          var on = ihx.style.display !== 'none';
+          ihx.style.display = on ? 'none' : 'block';
+          ihb.setAttribute('aria-expanded', on ? 'false' : 'true');
+        };
+        var ihr = mk('div', 'btn-row');
+        ihr.appendChild(ihb);
+        cEl.appendChild(ihr);
+        cEl.appendChild(ihx);
+      }
       if (it.say !== false && card.say) {
         var sp = mk('button', 'btn btn-sm btn-ghost', art.icon('sound', 15) + 'Hear the question');
         sp.type = 'button';
@@ -4058,6 +4250,7 @@
         for (var z = 0; z < bs.length; z++) bs[z].setAttribute('aria-pressed', 'false');
         b.setAttribute('aria-pressed', 'true');
         if (ctl) ctl.setMute(rr.who);
+        showMyLines(rr.who, rr.label);
         EAFM.toast('You are ' + rr.label + ' — the scene will pause for your lines.');
       };
       seg.appendChild(b);
@@ -4065,6 +4258,41 @@
     roleRow.appendChild(seg);
     host.appendChild(roleRow);
     setTimeout(function () { if (ctl) ctl.setMute(card.roles[0].who); }, 50);
+    /* ----------------------------------------------------------
+       THE LINES THE LEARNER HAS TO SAY. See the patch note in
+       tools/course_engine.py: the engine plays the other part, so
+       without this the learner's own half of a pair exercise exists
+       nowhere on the page.
+       ---------------------------------------------------------- */
+    var mine = mk('div', 'note my-lines');
+    host.appendChild(mine);
+    function showMyLines(who, label) {
+      var sc = EAFM.scenes && EAFM.scenes[card.scene];
+      var ls = (sc && sc.lines || []).filter(function (ln) {
+        return ln.who === who && ln.en;
+      });
+      mine.innerHTML = '';
+      if (!ls.length) { mine.style.display = 'none'; return; }
+      mine.style.display = '';
+      mine.appendChild(mk('h4', '', 'Your lines as '
+        + esc(label || who) + ' \u2014 say these'));
+      var voice = (sc.cast && sc.cast[who] && sc.cast[who].voice)
+                  || null;
+      ls.forEach(function (ln) {
+        var row = mk('div', 'my-line');
+        row.appendChild(mk('span', '', esc(ln.en)));
+        var sb = EAFM.ui.sayBtn && EAFM.ui.sayBtn(ln.en, {
+          label: 'Listen', voice: voice
+        });
+        if (sb) row.appendChild(sb);
+        mine.appendChild(row);
+      });
+      mine.appendChild(mk('p', 'wc', 'Read them once, then press '
+        + 'Play and say them in the gaps. Then swap roles.'));
+    }
+    setTimeout(function () {
+      showMyLines(card.roles[0].who, card.roles[0].label);
+    }, 60);
 
     if (card.remember) {
       var rem = mk('div', 'note warm');
@@ -4072,7 +4300,9 @@
       host.appendChild(rem);
     }
     if (card.table) host.appendChild(EAFM.renderTable(card.table));
-    host.appendChild(EAFM.ui.recorder());
+    /* keyed, so the take is still there next time - see the patch
+       note for a-recording-that-survives-the-page */
+    host.appendChild(EAFM.ui.recorder(takeKey(card)));
 
     var ta = mk('textarea', 'ta');
     ta.placeholder = card.notePlaceholder || 'Write two lines you said in the role-play…';

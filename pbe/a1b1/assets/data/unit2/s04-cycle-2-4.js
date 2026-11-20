@@ -111,6 +111,16 @@ PBE1.page('u2-s04', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write your count for shelves three and four.',
+    weak: 'Shelf three six. Shelf four nothing.',
+    change: ['Use the pattern: <i>there are six cartons on shelf three</i>. The '
+          + 'number needs its thing and its place.',
+        'Write a zero for the empty shelf, not a word like <i>nothing</i>. A '
+          + 'zero says you looked; a blank says nobody knows.'],
+    better: 'There are six cartons on shelf three. There are none on shelf four - '
+      + 'zero. I counted both.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,7 +134,10 @@ PBE1.page('u2-s04', {
             q: 'Look at the room. Say three things that are here. Say one thing '
               + 'that is not here.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Use *there is* and *there are* for what is here, and *there are '
+              + 'none* for what is not. The last one is the pattern worth the '
+              + 'practice.'
           },
       {
             q: 'Read the two lines. Which one helps the supervisor? the shelf is '
@@ -133,7 +146,9 @@ PBE1.page('u2-s04', {
               + 'four is about the stock, and it is a thing somebody can act on '
               + 'this morning',
             minWords: 6,
-            rows: 3
+            rows: 3,
+            hint: 'Ask which line somebody could act on this morning without asking '
+              + 'you a second question.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -195,6 +210,48 @@ PBE1.page('u2-s04', {
               why: 'The rolls are in another cycle, not on this shelf.'
             }],
             evidence: 'the exchange about shelf four, and the word Abu Yasser writes'
+          },
+        {
+            q: 'Listen again. How many cartons are on shelf three?',
+            options: [{
+              t: 'six',
+              ok: true,
+              why: '*There are six cartons on shelf three* - the pattern the cycle '
+                + 'is teaching, with its number.'
+            },
+            {
+              t: 'none',
+              ok: false,
+              why: 'None is the answer to the *other* shelf, shelf four, which is empty.'
+            },
+            {
+              t: 'four',
+              ok: false,
+              why: 'Four is the shelf number in the second half of the dialogue, '
+                + 'not a count of anything.'
+            }],
+            evidence: 'Ammar\'s first full sentence'
+          },
+        {
+            q: 'Why is saying nothing about shelf four worse than saying none?',
+            options: [{
+              t: 'because nobody can tell an empty shelf from an unchecked one',
+              ok: true,
+              why: '*Then I do not know if it is empty or if you did not look.* A '
+                + 'zero is a report; a silence is not.'
+            },
+            {
+              t: 'because none is not a number',
+              ok: false,
+              why: 'He says the opposite in the same breath: *none is a number. I '
+                + 'write zero.*'
+            },
+            {
+              t: 'because the sheet has no space for a zero',
+              ok: false,
+              why: 'He writes the zero himself, so the space exists.'
+            }],
+            evidence: 'Abu Yasser\'s very last line'
           }],
         say: true
       }
@@ -211,13 +268,17 @@ PBE1.page('u2-s04', {
             q: 'Listen again. What is on shelf three?',
             model: 'Six cartons',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Ammar\'s first full sentence, which has the number and the thing '
+              + 'in it. Both belong in your answer.'
           },
       {
             q: 'What does Abu Yasser write down?',
             model: 'Zero',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'He writes a figure for the empty shelf, and he says in the same '
+              + 'breath why it is allowed to be a number at all.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -269,7 +330,11 @@ PBE1.page('u2-s04', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: There is, there are, there are none.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -316,7 +381,11 @@ PBE1.page('u2-s04', {
         'knows',
         'looked',
         'nothing']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: There is, there are, there are none.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -359,7 +428,11 @@ PBE1.page('u2-s04', {
         'looked',
         'nothing'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: There is, there are, there are none.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -391,13 +464,17 @@ PBE1.page('u2-s04', {
             q: 'Which shelves have none?',
             model: 'Shelves 2 and 4',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Read down the count sheet for the rows with nothing in them. '
+              + 'There is more than one.'
           },
       {
             q: 'What is on shelf five?',
             model: 'One pallet',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The count sheet, shelf 5 row - and give the unit word, not just '
+              + 'the figure.'
           },
       {
             q: 'What does a shelf with no line mean?',
@@ -407,7 +484,9 @@ PBE1.page('u2-s04', {
             keys: ['nobody',
               'looked',
               'shelf'],
-            need: 1
+            need: 1,
+            hint: 'The note under the sheet. The answer is about the *person*, not '
+              + 'the stock - and it is why a zero is better than a blank.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -533,7 +612,11 @@ PBE1.page('u2-s04', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: There is, there are, there are none.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -637,7 +720,11 @@ PBE1.page('u2-s04', {
         'nothing'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: There is, there are, there are none.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -660,7 +747,11 @@ PBE1.page('u2-s04', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: There is, there are, there are none.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

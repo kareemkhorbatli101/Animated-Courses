@@ -111,6 +111,16 @@ PBE1.page('u2-s05', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write the order you have just been given.',
+    weak: '60 for Homs by 11.',
+    change: ['Add the unit after the number, and write the time in a form nobody '
+          + 'can shorten.',
+        'Say that you read it back. An order nobody repeated is an order that '
+          + 'may be sixteen.'],
+    better: 'Sixty cartons for Homs, on the lorry by eleven o\'clock. I read it back '
+      + 'to Fadi: six zero, sixty.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,14 +134,19 @@ PBE1.page('u2-s05', {
             q: 'Your teacher says four numbers fast. Write it. Then check it '
               + 'with your partner.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Write digits, not words - faster. Alone? Play any scene at 0.6× '
+              + 'and write every number you hear, then check against the '
+              + 'transcript.'
           },
       {
             q: 'Which numbers sound the same? Say them in pairs: 13 · 30 · 15 · '
               + '50 · 16 · 60',
             model: '13/30, 15/50, 16/60. Put the other four pairs up beside them from 2.2',
             minWords: 3,
-            rows: 2
+            rows: 2,
+            hint: 'Pair each teen with its ten. Then say each pair aloud and notice '
+              + 'which syllable you push on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -191,6 +206,49 @@ PBE1.page('u2-s05', {
               why: 'Something does save it - listen to what Ammar says next.'
             }],
             evidence: 'what Ammar does after the order is given'
+          },
+        {
+            q: 'Listen again. How many cartons go to Homs?',
+            options: [{
+              t: 'sixty',
+              ok: true,
+              why: 'Fadi says it, Ammar hears sixteen, and they settle it digit by '
+                + 'digit: six zero.'
+            },
+            {
+              t: 'sixteen',
+              ok: false,
+              why: 'Sixteen is what Ammar heard first - and the mistake the whole '
+                + 'cycle is built on. Listen for *six zero, or one six?*'
+            },
+            {
+              t: 'eleven',
+              ok: false,
+              why: 'Eleven is in the order, but as a time: on the lorry *by eleven*.'
+            }],
+            evidence: 'Fadi\'s correction, and the digits he gives after it'
+          },
+        {
+            q: 'What does Fadi say the mistake would have cost?',
+            options: [{
+              t: 'nine thousand pounds short',
+              ok: true,
+              why: 'He puts a price on it at the end, which is why *read it back '
+                + 'every time* is not fussiness.'
+            },
+            {
+              t: 'one lorry',
+              ok: false,
+              why: 'A lorry is in the order, and a lost lorry is the cost in a '
+                + 'different cycle. Here the cost is money.'
+            },
+            {
+              t: 'an hour',
+              ok: false,
+              why: 'An hour on the telephone is the cost of the unreadable digit '
+                + 'in Unit 5, not of this one.'
+            }],
+            evidence: 'the last line of the dialogue'
           }],
         say: true
       }
@@ -207,13 +265,15 @@ PBE1.page('u2-s05', {
             q: 'Listen again. What did Ammar hear first?',
             model: 'Sixteen',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The wrong one - he says it back to Fadi and Fadi corrects him immediately.'
           },
       {
             q: 'What was the number?',
             model: 'Sixty',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The one Fadi confirms digit by digit: *six zero*. Write it as a word.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -268,7 +328,11 @@ PBE1.page('u2-s05', {
       'Read back to Fadi: ✓ A.Z'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Say it, write it, read it back.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -317,7 +381,11 @@ PBE1.page('u2-s05', {
         'heard',
         'wrong',
         'whole']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Say it, write it, read it back.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -360,7 +428,11 @@ PBE1.page('u2-s05', {
         'wrong',
         'whole'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Say it, write it, read it back.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -386,7 +458,9 @@ PBE1.page('u2-s05', {
             q: 'How many cartons?',
             model: 'Sixty',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'From the written order above. It matches what Fadi said after '
+              + 'the digit-by-digit check, not what Ammar heard first.'
           },
       {
             q: 'What time must they be on the lorry?',
@@ -395,7 +469,8 @@ PBE1.page('u2-s05', {
             rows: 2,
             keys: ['eleven',
               'o\'clock'],
-            need: 1
+            need: 1,
+            hint: 'A time, in Fadi\'s first line, right after the destination.'
           },
       {
             q: 'What does the tick mean?',
@@ -406,7 +481,9 @@ PBE1.page('u2-s05', {
               'back',
               'person',
               'gave'],
-            need: 1
+            need: 1,
+            hint: 'Read the note under the order. The tick is about something that '
+              + 'happened out loud, between two people.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -542,7 +619,11 @@ PBE1.page('u2-s05', {
       'On the lorry by: 11.00',
       'Read back to Fadi: ✓ A.Z'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Say it, write it, read it back.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -650,7 +731,11 @@ PBE1.page('u2-s05', {
         'whole'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Say it, write it, read it back.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -676,7 +761,11 @@ PBE1.page('u2-s05', {
       'On the lorry by: 11.00',
       'Read back to Fadi: ✓ A.Z'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Say it, write it, read it back.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

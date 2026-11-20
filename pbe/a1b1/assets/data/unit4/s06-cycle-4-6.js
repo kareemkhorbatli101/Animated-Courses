@@ -111,6 +111,16 @@ PBE1.page('u4-s06', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you do when you cannot reach a shelf.',
+    weak: 'I cannot reach shelf four so I put them on a carton and climb.',
+    change: ['Never stand on a carton - say what you do instead, and where the ladder is.',
+        'Add who you tell. A thing moved to a different shelf and not '
+          + 'reported is a thing lost.'],
+    better: 'I cannot reach shelf four. The ladder is in the yard, so I have put the '
+      + 'packets on shelf three and I will move them when it comes back. I told '
+      + 'Samih and I wrote it on the sheet.'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,12 +133,16 @@ PBE1.page('u4-s06', {
       questions: [{
             q: 'Which shelf in this room can you reach? Which cannot you reach? Say it.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Two sentences, one with *can* and one with *cannot*. Say them '
+              + 'standing up, with your arm up - the words come easier.'
           },
       {
             q: 'Hold your hand up. Say I can reach here. I cannot reach there.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say both out loud. *Cannot* is the one you will actually need at '
+              + 'work, so say it twice.'
           }],
       ideas: ['can and cannot'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -195,6 +209,50 @@ PBE1.page('u4-s06', {
                 + 'will move them.'
             }],
             evidence: 'what Ammar says he will do instead of standing on a carton'
+          },
+        {
+            q: 'Listen again. Where is the ladder?',
+            options: [{
+              t: 'in the yard',
+              ok: true,
+              why: 'Samih thinks it is by the bench; Ammar has looked: *it is in the yard*.'
+            },
+            {
+              t: 'next to the bench',
+              ok: false,
+              why: 'That is where Samih says it is, and the correction is the '
+                + 'first useful thing Ammar does in the scene.'
+            },
+            {
+              t: 'on shelf four',
+              ok: false,
+              why: 'Shelf four is the shelf he cannot reach - the reason the '
+                + 'ladder is wanted.'
+            }],
+            evidence: 'Ammar\'s correction of Samih'
+          },
+        {
+            q: 'What does Ammar do instead of waiting?',
+            options: [{
+              t: 'puts them on shelf three, moves them later, and says so',
+              ok: true,
+              why: 'The move is half the answer; telling Samih and writing it on '
+                + 'the sheet is the other half, and it is the half that makes it '
+                + 'safe.'
+            },
+            {
+              t: 'stands on a carton to reach',
+              ok: false,
+              why: 'Samih forbids it, and gives the reason: *a man on a carton is '
+                + 'a man in hospital*.'
+            },
+            {
+              t: 'waits and does nothing until the ladder comes',
+              ok: false,
+              why: 'Waiting for the ladder is what Samih suggests. Ammar finds '
+                + 'something better and keeps it visible.'
+            }],
+            evidence: 'his last two lines'
           }],
         say: true
       }
@@ -211,7 +269,9 @@ PBE1.page('u4-s06', {
             q: 'Listen again. Which shelf can he reach?',
             model: 'Shelf three',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'He names the one he can and the one he cannot in the same '
+              + 'breath. The lower number is the one he can.'
           },
       {
             q: 'Where is the ladder?',
@@ -221,7 +281,9 @@ PBE1.page('u4-s06', {
             keys: ['yard',
               'next',
               'bench'],
-            need: 1
+            need: 1,
+            hint: 'Ammar corrects Samih about this. Say where it is *and* where it '
+              + 'was supposed to be - the gap between those is the problem.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -277,7 +339,11 @@ PBE1.page('u4-s06', {
       ideas: ['can and cannot'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: can and cannot.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -322,7 +388,11 @@ PBE1.page('u4-s06', {
         'reach',
         'reaching',
         'whole']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: can and cannot.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -365,7 +435,11 @@ PBE1.page('u4-s06', {
         'reaching',
         'whole'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: can and cannot.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -402,13 +476,16 @@ PBE1.page('u4-s06', {
             keys: ['next',
               'long',
               'bench'],
-            need: 1
+            need: 1,
+            hint: 'The safety note above. And note *which* bench - there are two in '
+              + 'this unit.'
           },
       {
             q: 'How many men use it?',
             model: 'Two — one up, one holding',
             minWords: 2,
-            rows: 2
+            rows: 2,
+            hint: 'The note above says a number and then what each of them does. Give both.'
           },
       {
             q: 'What do you do if it is not there?',
@@ -418,7 +495,9 @@ PBE1.page('u4-s06', {
             keys: ['thing',
               'shelf',
               'supervisor'],
-            need: 1
+            need: 1,
+            hint: 'The note\'s own rule, in two halves: where to put the thing, and '
+              + 'who to tell. Both halves, or it is not the rule.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -557,7 +636,11 @@ PBE1.page('u4-s06', {
           }],
       ideas: ['can and cannot'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: can and cannot.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -672,7 +755,11 @@ PBE1.page('u4-s06', {
         'whole'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: can and cannot.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -695,7 +782,11 @@ PBE1.page('u4-s06', {
           }],
       ideas: ['can and cannot'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: can and cannot.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

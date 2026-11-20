@@ -111,6 +111,16 @@ PBE1.page('u1-s05', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you say when you arrive and what you say when you leave.',
+    weak: 'Hello. Goodbye.',
+    change: ['Use the time of day: <i>good morning</i> when you come at seven, not '
+          + '<i>hello</i>.',
+        'Add the thing you do as well as the thing you say - the book, with '
+          + 'your name and the time.'],
+    better: 'Good morning. I sign in with my name and the time. At four o\'clock I '
+      + 'say goodbye and I sign out.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +134,18 @@ PBE1.page('u1-s05', {
             q: 'What do you say when you come to work? What do you say when you '
               + 'go home? Say it in Arabic, then in English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Two short lines, and they are not the same line. One is for '
+              + 'seven in the morning, one is for four in the afternoon.'
           },
       {
             q: 'Read the four words. Which is the morning and which is the '
               + 'afternoon? 7.00 · 11.00 · 14.00 · 16.00',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Twelve is the line. Anything under it is the morning; anything '
+              + 'over it is the afternoon - which is also the rule for *good '
+              + 'morning* and *good afternoon*.'
           }],
       ideas: ['Hello and goodbye at work'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -189,6 +204,50 @@ PBE1.page('u1-s05', {
               why: 'More than he says. Count only the goodbyes, not the thank yous.'
             }],
             evidence: 'the end of the scene - listen for goodbye twice'
+          },
+        {
+            q: 'Listen again. What time is Ammar back tomorrow?',
+            options: [{
+              t: 'seven o\'clock',
+              ok: true,
+              why: 'Abu Yasser says *see you tomorrow morning, seven o\'clock*, '
+                + 'and Ammar says it back.'
+            },
+            {
+              t: 'four o\'clock',
+              ok: false,
+              why: 'Four o\'clock is in the dialogue twice - it is the end of '
+                + 'today, and the time he writes in the gate book.'
+            },
+            {
+              t: 'quarter past seven',
+              ok: false,
+              why: 'Quarter past seven is a lorry time from a later unit. Nobody '
+                + 'says it here.'
+            }],
+            evidence: 'Abu Yasser\'s goodbye, where he names the hour'
+          },
+        {
+            q: 'Why does Abu Raed call Ammar back?',
+            options: [{
+              t: 'to sign out - his name and the time',
+              ok: true,
+              why: 'Abu Raed says *sign out, your name and the time*, and adds '
+                + 'that it is every day, in and out.'
+            },
+            {
+              t: 'to say goodbye properly',
+              ok: false,
+              why: 'Ammar has already said goodbye twice. What he has not done is '
+                + 'written anything down.'
+            },
+            {
+              t: 'to take his book home',
+              ok: false,
+              why: 'The book stays at the gate - it is Abu Raed\'s, and the scene '
+                + 'is about what goes into it.'
+            }],
+            evidence: 'the three lines after Abu Raed shouts his name'
           }],
         say: true
       }
@@ -209,7 +268,9 @@ PBE1.page('u1-s05', {
             keys: ['good',
               'home',
               'o\'clock'],
-            need: 1
+            need: 1,
+            hint: 'Three short pieces in one line: the time, a judgement, and an '
+              + 'instruction. Write all three.'
           },
       {
             q: 'What does Ammar forget?',
@@ -219,7 +280,9 @@ PBE1.page('u1-s05', {
             keys: ['forgets',
               'sign',
               'out'],
-            need: 1
+            need: 1,
+            hint: 'Abu Raed shouts his name for it. It is not a goodbye - he said '
+              + 'that twice - it is something with a pen.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -272,7 +335,11 @@ PBE1.page('u1-s05', {
       ideas: ['Hello and goodbye at work'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Hello and goodbye at work.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -318,7 +385,11 @@ PBE1.page('u1-s05', {
         'both',
         'practise',
         'start']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Hello and goodbye at work.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -361,7 +432,11 @@ PBE1.page('u1-s05', {
         'practise',
         'start'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Hello and goodbye at work.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -388,7 +463,9 @@ PBE1.page('u1-s05', {
             q: 'What time does the afternoon shift finish?',
             model: 'Nine o\'clock',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'From the gate book or the shift list above, not the dialogue. '
+              + 'Find the afternoon row and read its finishing time.'
           },
       {
             q: 'What must you do twice every day?',
@@ -397,7 +474,9 @@ PBE1.page('u1-s05', {
             rows: 2,
             keys: ['sign',
               'out'],
-            need: 1
+            need: 1,
+            hint: 'Abu Raed says it as four words: *every day, in and out*. The '
+              + 'thing itself is what he calls Ammar back for.'
           },
       {
             q: 'What happens if your name is not in the book?',
@@ -408,7 +487,9 @@ PBE1.page('u1-s05', {
               'work',
               'paper',
               'end'],
-            need: 1
+            need: 1,
+            hint: 'Read the note under the gate book. The consequence is not at the '
+              + 'gate - it arrives at the end of the month.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -541,7 +622,11 @@ PBE1.page('u1-s05', {
           }],
       ideas: ['Hello and goodbye at work'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Hello and goodbye at work.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -648,7 +733,11 @@ PBE1.page('u1-s05', {
         'start'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Hello and goodbye at work.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -670,7 +759,11 @@ PBE1.page('u1-s05', {
           }],
       ideas: ['Hello and goodbye at work'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Hello and goodbye at work.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

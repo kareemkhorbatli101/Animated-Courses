@@ -111,6 +111,16 @@ PBE1.page('u6-s02', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write how you take a caller\'s name.',
+    weak: 'He said his name. I think it was Moalem.',
+    change: ['Ask twice if you have to: <i>sorry? again, please</i>, and then '
+          + '<i>can you spell it, please?</i>',
+        'Read the letters back and say how many there are. A guessed name on '
+          + 'a slip is worse than no slip.'],
+    better: 'Your name, please. Sorry? Again, please. Can you spell it, please? M, O, '
+      + 'U, A, L, L, E, M - eight letters. Mouallem. Thank you.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +134,16 @@ PBE1.page('u6-s02', {
             q: 'Say your surname letter by letter. Your partner writes it. Check '
               + 'it. How many letters?',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Say the letters, then say the total - the total is what lets the '
+              + 'other person know they have it all.'
           },
       {
             q: 'Read the two lines. Which is better on a telephone? Who are you? '
               + '· Your name, please.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Both get a name. Only one of them can be said to a customer.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Good morning. My name is Samih Qassar. I am the storeman.',
@@ -195,6 +208,48 @@ PBE1.page('u6-s02', {
               why: 'Sorry, again, spell it - three goes, and then he reads it back.'
             }],
             evidence: 'how many times the caller is asked to repeat or spell'
+          },
+        {
+            q: 'Listen again. How many letters are in the caller\'s name?',
+            options: [{
+              t: 'eight',
+              ok: true,
+              why: 'M-O-U-A-L-L-E-M, and he counts them back before he accepts the name.'
+            },
+            {
+              t: 'seven',
+              ok: false,
+              why: 'There are two Ls in the middle - one of the places a name gets '
+                + 'shortened by a listener.'
+            },
+            {
+              t: 'nine',
+              ok: false,
+              why: 'One too many. Count them with him as he reads them back.'
+            }],
+            evidence: 'Ammar\'s read-back of the spelling'
+          },
+        {
+            q: 'What does Ammar do when he cannot catch the name?',
+            options: [{
+              t: 'asks again, then asks him to spell it',
+              ok: true,
+              why: '*Sorry? Again, please.* and then *Can you spell it, please?* - '
+                + 'two steps, and the second one is the one that gets it right.'
+            },
+            {
+              t: 'writes down what he thought he heard',
+              ok: false,
+              why: 'A guessed name on a message slip is worse than no slip at all, '
+                + 'which is why he asks twice instead.'
+            },
+            {
+              t: 'passes the call to somebody else',
+              ok: false,
+              why: 'He does say *one moment, please* at the very end, but only '
+                + 'after he has the name.'
+            }],
+            evidence: 'the three lines after the caller first says it'
           }],
         say: true
       }
@@ -211,7 +266,8 @@ PBE1.page('u6-s02', {
             q: 'Listen again. What does he ask the caller to do?',
             model: 'Spell it',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Two words. It is his second attempt - the first was simply asking again.'
           },
       {
             q: 'What does he do at the end?',
@@ -222,7 +278,9 @@ PBE1.page('u6-s02', {
               'back',
               'number',
               'name'],
-            need: 1
+            need: 1,
+            hint: 'Three things in one line: the letters, a number, and then the '
+              + 'name. All three are the read-back.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -274,7 +332,11 @@ PBE1.page('u6-s02', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Getting a name you have never heard.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -323,7 +385,11 @@ PBE1.page('u6-s02', {
         'office',
         'words',
         'letters']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Getting a name you have never heard.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -366,7 +432,11 @@ PBE1.page('u6-s02', {
         'words',
         'letters'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Getting a name you have never heard.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -400,7 +470,9 @@ PBE1.page('u6-s02', {
             q: 'How many names did Ammar get?',
             model: 'Three',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Count the filled name rows in the log above. One call has a gap '
+              + 'where a name should be.'
           },
       {
             q: 'Which name did he not need to spell?',
@@ -410,7 +482,8 @@ PBE1.page('u6-s02', {
             keys: ['saeed',
               'fadi',
               'knows'],
-            need: 1
+            need: 1,
+            hint: 'The log above, the row with no spelling beside it - and the note says why.'
           },
       {
             q: 'What happened at 11.05?',
@@ -421,7 +494,8 @@ PBE1.page('u6-s02', {
               'rang',
               'off',
               'before'],
-            need: 1
+            need: 1,
+            hint: 'The 11.05 row of the log. Something ended before Ammar got what he needed.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -558,7 +632,11 @@ PBE1.page('u6-s02', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Getting a name you have never heard.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -669,7 +747,11 @@ PBE1.page('u6-s02', {
         'letters'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Getting a name you have never heard.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -690,7 +772,11 @@ PBE1.page('u6-s02', {
             rows: 2
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Getting a name you have never heard.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

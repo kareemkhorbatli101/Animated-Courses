@@ -111,6 +111,15 @@ PBE1.page('u2-s01', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you counted and how many.',
+    weak: '18.',
+    change: ['Say what the eighteen <i>are</i>. A number with nothing after it '
+          + 'cannot be checked by anybody.',
+        'Show the two counts it came from. Then a second person can find the '
+          + 'mistake instead of recounting everything.'],
+    better: 'Twelve cartons on the pallet and six on the floor. Eighteen cartons altogether.'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,12 +132,17 @@ PBE1.page('u2-s01', {
       questions: [{
             q: 'Count to twenty with your teacher. Then count backwards from ten.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Backwards is the half that catches people out. Do it slowly, out '
+              + 'loud, twice - speed comes later.'
           },
       {
             q: 'How many chairs are in this room? Say the number. Write it here:',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Count them by pointing. Then say the number *with* the word - '
+              + '*nine chairs*, not *nine* - because that is the habit this unit '
+              + 'is built on.'
           }],
       ideas: ['The numbers 0 to 20'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -187,6 +201,49 @@ PBE1.page('u2-s01', {
               why: 'A lorry comes in another cycle. Here they are at the shelves.'
             }],
             evidence: 'the first line - what Abu Yasser tells Ammar to count'
+          },
+        {
+            q: 'Listen again. How many cartons are on the floor?',
+            options: [{
+              t: 'six',
+              ok: true,
+              why: 'Twelve are on the pallet; the floor count is six.'
+            },
+            {
+              t: 'twelve',
+              ok: false,
+              why: 'Twelve is the first count - the cartons on the pallet, not the '
+                + 'ones on the floor.'
+            },
+            {
+              t: 'eighteen',
+              ok: false,
+              why: 'Eighteen is the two counts added together, which is the last '
+                + 'number said and so the easiest to grab.'
+            }],
+            evidence: 'Ammar\'s second count, after Abu Yasser asks about the floor'
+          },
+        {
+            q: 'Why does Abu Yasser make him say it again and point?',
+            options: [{
+              t: 'so each number is tied to the things it counts',
+              ok: true,
+              why: 'Pointing while he says *twelve here, six here, eighteen* is '
+                + 'what stops a number floating free of what it counted.'
+            },
+            {
+              t: 'because Ammar counted wrongly',
+              ok: false,
+              why: 'Abu Yasser says *good* before he asks for it again, so nothing '
+                + 'needs correcting.'
+            },
+            {
+              t: 'because Abu Yasser did not hear him',
+              ok: false,
+              why: 'He repeats the numbers back correctly before he asks, so he '
+                + 'heard perfectly well.'
+            }],
+            evidence: 'the last two lines'
           }],
         say: true
       }
@@ -203,13 +260,16 @@ PBE1.page('u2-s01', {
             q: 'Listen again. How many on the pallet?',
             model: 'Twelve',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Ammar\'s first count, the one he does out loud from one. The '
+              + 'floor count comes afterwards and is a different number.'
           },
       {
             q: 'How many on the floor?',
             model: 'Six',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The second of his two counts, after Abu Yasser asks *and on the floor?*'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -262,7 +322,11 @@ PBE1.page('u2-s01', {
       ideas: ['The numbers 0 to 20'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The numbers 0 to 20.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -307,7 +371,11 @@ PBE1.page('u2-s01', {
         'rolls',
         'people',
         'days']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The numbers 0 to 20.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -349,7 +417,11 @@ PBE1.page('u2-s01', {
         'people',
         'days'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The numbers 0 to 20.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -377,19 +449,25 @@ PBE1.page('u2-s01', {
             q: 'How many cartons on pallet 1?',
             model: 'Twelve',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'From the count sheet above, not the dialogue. Find the pallet 1 '
+              + 'row and read its figure.'
           },
       {
             q: 'What is the total?',
             model: 'Eighteen',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Add the two counts. The number is also said out loud in the '
+              + 'dialogue, once - but do the addition yourself first.'
           },
       {
             q: 'What is on shelf 3?',
             model: 'Nine rolls',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The count sheet, shelf 3 row. Give the number *and* what is '
+              + 'being counted - the unit word is half the answer in this unit.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -519,7 +597,11 @@ PBE1.page('u2-s01', {
           }],
       ideas: ['The numbers 0 to 20'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The numbers 0 to 20.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -625,7 +707,11 @@ PBE1.page('u2-s01', {
         'days'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The numbers 0 to 20.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -647,7 +733,11 @@ PBE1.page('u2-s01', {
           }],
       ideas: ['The numbers 0 to 20'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: The numbers 0 to 20.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

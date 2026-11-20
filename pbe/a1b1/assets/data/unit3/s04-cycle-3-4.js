@@ -111,6 +111,16 @@ PBE1.page('u3-s04', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what another person at your work does every day.',
+    weak: 'Fadi start six. He check the lorry. He drive to Homs.',
+    change: ['For <i>he</i> and <i>she</i>, every verb takes an -s: <i>starts, '
+          + 'checks, drives</i>.',
+        'Add one thing that is true of him and not of you - it is what makes '
+          + 'the description worth reading.'],
+    better: 'Fadi starts at six o\'clock. He checks the lorry, then he drives to '
+      + 'Homs. He starts an hour earlier than I do.'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,13 +133,17 @@ PBE1.page('u3-s04', {
       questions: [{
             q: 'Say what one person at your work does every day. Three things.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Three sentences about somebody else, so every verb takes an -s: '
+              + '*he starts, he checks, he drives*. That -s is the lesson.'
           },
       {
             q: 'Read the two lines. Which is correct? Fadi drive the lorry · '
               + 'Fadi drives the lorry',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Ask what changes when the person is *he* or *she* rather than '
+              + '*I*. One letter.'
           }],
       ideas: ['What HE does, what SHE does'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -191,6 +205,47 @@ PBE1.page('u3-s04', {
               why: 'Majd opens the counter at eight, the latest of the three.'
             }],
             evidence: 'the line comparing Fadi\'s start with Ammar\'s'
+          },
+        {
+            q: 'Listen again. What time does Majd open the counter?',
+            options: [{
+              t: 'eight',
+              ok: true,
+              why: '*He opens the counter at eight. He counts the money first.*'
+            },
+            {
+              t: 'six',
+              ok: false,
+              why: 'Six is Fadi\'s start - the earliest of the three, which is the '
+                + 'point of the first half.'
+            },
+            {
+              t: 'seven',
+              ok: false,
+              why: 'Seven is Ammar\'s own start, and the time he is compared against.'
+            }],
+            evidence: 'Ammar\'s answer to *And Majd?*'
+          },
+        {
+            q: 'Why does Majd count the money before the customers come?',
+            options: [{
+              t: 'because you cannot count with people waiting',
+              ok: true,
+              why: 'Ammar quotes him: *he says you cannot count with people '
+                + 'waiting*, and Nour writes it down because it is true of '
+                + 'counting anything.'
+            },
+            {
+              t: 'because the office asks for the figure at eight',
+              ok: false,
+              why: 'Nobody asks him for a figure at a time in this dialogue.'
+            },
+            {
+              t: 'because the money is locked away later',
+              ok: false,
+              why: 'Nothing is said about a safe or a lock here.'
+            }],
+            evidence: 'Ammar\'s last long line'
           }],
         say: true
       }
@@ -207,7 +262,9 @@ PBE1.page('u3-s04', {
             q: 'Listen again. What time does Fadi start?',
             model: 'Six o\'clock',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The earliest time in the dialogue - Nour remarks on it being '
+              + 'earlier than Ammar\'s.'
           },
       {
             q: 'What does Majd do first?',
@@ -216,7 +273,9 @@ PBE1.page('u3-s04', {
             rows: 2,
             keys: ['counts',
               'money'],
-            need: 1
+            need: 1,
+            hint: 'Before the counter opens, and before the customers arrive. Ammar '
+              + 'says it twice.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -269,7 +328,11 @@ PBE1.page('u3-s04', {
       ideas: ['What HE does, what SHE does'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What HE does, what SHE does.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -315,7 +378,11 @@ PBE1.page('u3-s04', {
         'practise',
         'verb',
         'fadi']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What HE does, what SHE does.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -357,7 +424,11 @@ PBE1.page('u3-s04', {
         'verb',
         'fadi'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What HE does, what SHE does.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -387,7 +458,9 @@ PBE1.page('u3-s04', {
             q: 'Who starts earliest?',
             model: 'Fadi — 6.00',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Compare the three starting times in the dialogue, or read the '
+              + 'times column of the table above. Give the name and the time.'
           },
       {
             q: 'What does Majd do before he opens the counter?',
@@ -396,13 +469,16 @@ PBE1.page('u3-s04', {
             rows: 2,
             keys: ['counts',
               'money'],
-            need: 1
+            need: 1,
+            hint: 'The same answer as *what does he do first* - and the reason he '
+              + 'gives for it is worth adding.'
           },
       {
             q: 'Which day does Samih count?',
             model: 'Monday',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The table above, Samih\'s row, the day column.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -534,7 +610,11 @@ PBE1.page('u3-s04', {
           }],
       ideas: ['What HE does, what SHE does'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What HE does, what SHE does.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -641,7 +721,11 @@ PBE1.page('u3-s04', {
         'fadi'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What HE does, what SHE does.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -664,7 +748,11 @@ PBE1.page('u3-s04', {
           }],
       ideas: ['What HE does, what SHE does'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What HE does, what SHE does.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

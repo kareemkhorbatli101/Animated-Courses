@@ -111,6 +111,15 @@ PBE1.page('u4-s03', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write a question asking where something is, and the answer.',
+    weak: 'Where is the rolls? On the shelf.',
+    change: ['More than one roll needs <i>where are</i>. The verb agrees with the thing.',
+        'Give the answer as a place somebody can walk to, and say how it is '
+          + 'standing if that is why it is not on a shelf.'],
+    better: 'Where are the rolls? Four of them are in row two, shelf two. The big one '
+      + 'is behind the door, standing up - it is too long for a shelf.'
+  },
   cards: [
     {
       id: 'c1',
@@ -123,13 +132,17 @@ PBE1.page('u4-s03', {
       questions: [{
             q: 'Ask your partner where three things in this room are.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: '*Where is* for one thing, *where are* for more than one. Getting '
+              + 'that right is the point; the three things barely matter.'
           },
       {
             q: 'Read the two questions. Which is correct? Where is the rolls? · '
               + 'Where are the rolls?',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Look at the end of the noun. If it is more than one thing, the '
+              + 'verb has to agree with it.'
           }],
       ideas: ['Asking where'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -191,6 +204,47 @@ PBE1.page('u4-s03', {
               why: 'They find it behind the door, not where the paper says.'
             }],
             evidence: 'where the big roll turns out to be standing'
+          },
+        {
+            q: 'Listen again. Where is the big roll in the end?',
+            options: [{
+              t: 'behind the door, standing up',
+              ok: true,
+              why: 'And standing up for a reason: *because it does not go on a shelf*.'
+            },
+            {
+              t: 'row two, shelf one',
+              ok: false,
+              why: 'That is where the *paper* says it is - the whole problem of the scene.'
+            },
+            {
+              t: 'row two, shelf two',
+              ok: false,
+              why: 'That is where the other four rolls are, which is what makes '
+                + 'the paper look nearly right.'
+            }],
+            evidence: 'Nour\'s answer near the end, and what she adds about how it stands'
+          },
+        {
+            q: 'What was wrong with the way the roll was moved?',
+            options: [{
+              t: 'it was a good decision that nobody wrote down',
+              ok: true,
+              why: '*Somebody made a good decision and told nobody.* The decision '
+                + 'was right and the paper was left lying.'
+            },
+            {
+              t: 'it was put in the wrong place',
+              ok: false,
+              why: 'Nour\'s line says the opposite - standing it behind the door '
+                + 'was sensible.'
+            },
+            {
+              t: 'it was left lying flat and damaged',
+              ok: false,
+              why: 'It is standing up, and no damage is mentioned.'
+            }],
+            evidence: 'Nour\'s last line'
           }],
         say: true
       }
@@ -210,7 +264,9 @@ PBE1.page('u4-s03', {
             rows: 2,
             keys: ['row',
               'shelf'],
-            need: 1
+            need: 1,
+            hint: 'Where the paper says - two parts, a row and a shelf. That is not '
+              + 'where it is.'
           },
       {
             q: 'Where is it?',
@@ -220,7 +276,9 @@ PBE1.page('u4-s03', {
             keys: ['behind',
               'door',
               'standing'],
-            need: 1
+            need: 1,
+            hint: 'Two parts again: the place, and how it stands there. The second '
+              + 'part is why it is not on a shelf at all.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -273,7 +331,11 @@ PBE1.page('u4-s03', {
       ideas: ['Asking where'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking where.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -326,7 +388,11 @@ PBE1.page('u4-s03', {
         'down',
         'roll',
         'opposite']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking where.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -368,7 +434,11 @@ PBE1.page('u4-s03', {
         'roll',
         'opposite'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking where.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -401,7 +471,8 @@ PBE1.page('u4-s03', {
             rows: 2,
             keys: ['row',
               'shelf'],
-            need: 1
+            need: 1,
+            hint: 'From the stock list above. Row and shelf, as the paper writes them.'
           },
       {
             q: 'Where is it really?',
@@ -411,7 +482,8 @@ PBE1.page('u4-s03', {
             keys: ['behind',
               'door',
               'standing'],
-            need: 1
+            need: 1,
+            hint: 'Nour\'s answer near the end, with the detail about how it is standing.'
           },
       {
             q: 'Why is it not on the shelf?',
@@ -420,7 +492,9 @@ PBE1.page('u4-s03', {
             rows: 2,
             keys: ['long',
               'shelf'],
-            need: 1
+            need: 1,
+            hint: 'Ammar works it out himself in his last line. It is about the '
+              + 'size of the roll, not about a mistake.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -556,7 +630,11 @@ PBE1.page('u4-s03', {
           }],
       ideas: ['Asking where'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking where.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -667,7 +745,11 @@ PBE1.page('u4-s03', {
         'opposite'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking where.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -689,7 +771,11 @@ PBE1.page('u4-s03', {
           }],
       ideas: ['Asking where'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Asking where.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

@@ -111,6 +111,15 @@ PBE1.page('u1-s03', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you found when you read the shift list.',
+    weak: 'I am on the list.',
+    change: ['Say <i>where</i> on the list - the line or number, so somebody else '
+          + 'can find it too.',
+        'Add the shift and its hours. Being on a list is not information; '
+          + 'which shift is.'],
+    better: 'I am number seven on the list. I am on the morning shift, seven to four.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +133,18 @@ PBE1.page('u1-s03', {
             q: 'What lists are at your work? Say them in Arabic. Your teacher '
               + 'writes the English on the board.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Think of paper on a wall: shifts, names, deliveries, telephone '
+              + 'numbers. Two is a good answer; one with where it hangs is '
+              + 'better.'
           },
       {
             q: 'Look at a list on the wall. Where is your name — near the top or '
               + 'near the bottom?',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Near the top or near the bottom is all that is asked - then add '
+              + 'why, if you know. Lists are usually ordered by something.'
           }],
       ideas: ['Grammar — this and that'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -189,6 +203,50 @@ PBE1.page('u1-s03', {
               why: 'The key belongs to a different cycle - nobody hands one over here.'
             }],
             evidence: 'what Ammar looks at, and what he says when he sees it'
+          },
+        {
+            q: 'Listen again. Which number is Ammar on the shift list?',
+            options: [{
+              t: 'number seven',
+              ok: true,
+              why: 'Abu Yasser counts down the list and puts him at seven.'
+            },
+            {
+              t: 'number eleven',
+              ok: false,
+              why: 'Eleven is said - it is how many names are on the list '
+                + 'altogether, not Ammar\'s place in it.'
+            },
+            {
+              t: 'number four',
+              ok: false,
+              why: 'Four is in the dialogue as the end of his shift, *seven to '
+                + 'four*. It is a time, not a line on the list.'
+            }],
+            evidence: 'the line where Abu Yasser points at the list'
+          },
+        {
+            q: 'How often must Ammar read the shift list?',
+            options: [{
+              t: 'every morning, because it changes',
+              ok: true,
+              why: 'Abu Yasser tells him to read it every morning and says the '
+                + 'list changes - which is the reason, and the reason is the '
+                + 'lesson.'
+            },
+            {
+              t: 'once a week, on Monday',
+              ok: false,
+              why: 'It changes every week, so that is the right word in the wrong '
+                + 'place: the change is weekly, the *reading* is daily.'
+            },
+            {
+              t: 'only when Abu Yasser tells him to',
+              ok: false,
+              why: 'The opposite: his last words in the scene are *do not ask me*. '
+                + 'Reading it is Ammar\'s own job.'
+            }],
+            evidence: 'the last three lines, where Abu Yasser says what to do and what not to do'
           }],
         say: true
       }
@@ -205,7 +263,9 @@ PBE1.page('u1-s03', {
             q: 'Listen again. How many names are on the list?',
             model: 'Eleven',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Abu Yasser says the number before he points at Ammar\'s line. Do '
+              + 'not confuse it with Ammar\'s own position on the list.'
           },
       {
             q: 'Which shift is Ammar on?',
@@ -214,7 +274,9 @@ PBE1.page('u1-s03', {
             rows: 2,
             keys: ['morning',
               'shift'],
-            need: 1
+            need: 1,
+            hint: 'He is told the shift and then the hours. Both go in the answer - '
+              + 'the name of the shift, and what time to what time.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -267,7 +329,11 @@ PBE1.page('u1-s03', {
       ideas: ['Grammar — this and that'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: this and that.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -311,7 +377,11 @@ PBE1.page('u1-s03', {
         'list',
         'gate',
         'boxes']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: this and that.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -353,7 +423,11 @@ PBE1.page('u1-s03', {
         'gate',
         'boxes'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: this and that.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -382,7 +456,8 @@ PBE1.page('u1-s03', {
             q: 'What number is Ammar?',
             model: 'Number 7',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'One number, from the line where Abu Yasser points: *that is you*.'
           },
       {
             q: 'Who is on the afternoon shift?',
@@ -393,7 +468,9 @@ PBE1.page('u1-s03', {
               'deeb',
               'omar',
               'sibai'],
-            need: 1
+            need: 1,
+            hint: 'Read the shift list, not the dialogue. Two names, and give them '
+              + 'the way the list writes them.'
           },
       {
             q: 'Which week is this list for?',
@@ -402,7 +479,9 @@ PBE1.page('u1-s03', {
             rows: 2,
             keys: ['march',
               'week'],
-            need: 1
+            need: 1,
+            hint: 'The top of the shift list, above the names - lists say which '
+              + 'week they are for, and this one changes every week.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -532,7 +611,11 @@ PBE1.page('u1-s03', {
           }],
       ideas: ['Grammar — this and that'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: this and that.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -636,7 +719,11 @@ PBE1.page('u1-s03', {
         'boxes'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: this and that.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -658,7 +745,11 @@ PBE1.page('u1-s03', {
           }],
       ideas: ['Grammar — this and that'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: this and that.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

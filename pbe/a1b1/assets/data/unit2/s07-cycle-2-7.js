@@ -97,6 +97,13 @@ PBE1.page('u2-s07', {
           alone: 'Do it cold. The looking-back is the exercise.'
         }]
   },
+  worked: {
+    task: 'Write your line on the count sheet, including an empty shelf.',
+    weak: 'Shelf 4 -',
+    change: ['A dash is a blank, and a blank means nobody looked. Write the figure.',
+        'Sign it. A zero with no name on it cannot be asked about later.'],
+    better: 'Shelf 4: 0 - none. Counted twice. Ammar Zreik.'
+  },
   cards: [
     {
       id: 'c1',
@@ -181,6 +188,48 @@ PBE1.page('u2-s07', {
                 + 'two counts differ.'
             }],
             evidence: 'the line about the three cartons on the floor'
+          },
+        {
+            q: 'Listen again. How many cartons for Hama, and by when?',
+            options: [{
+              t: 'seventy, on the lorry by ten',
+              ok: true,
+              why: 'Ammar reads the whole order back - the number and the time together.'
+            },
+            {
+              t: 'seventeen, by ten',
+              ok: false,
+              why: 'Seventeen is what Ammar checks against: *seven zero, or one seven?*'
+            },
+            {
+              t: 'seventy, by eleven',
+              ok: false,
+              why: 'Eleven was the time in the Homs order earlier in the unit. '
+                + 'This load is an hour earlier.'
+            }],
+            evidence: 'Fadi\'s first line and Ammar\'s read-back'
+          },
+        {
+            q: 'What does Ammar write beside the zero on shelf four?',
+            options: [{
+              t: 'his own name',
+              ok: true,
+              why: '*I write the zero, and my name.* A zero nobody signed is a '
+                + 'zero nobody can be asked about.'
+            },
+            {
+              t: 'the date, and nothing else',
+              ok: false,
+              why: 'A date is what he adds in the earlier cycle about the wrong '
+                + 'count. Here he adds something that says who looked.'
+            },
+            {
+              t: 'nothing - the zero is enough',
+              ok: false,
+              why: 'The zero is the first half of what Fadi asked for. Listen to '
+                + 'the end of Ammar\'s last line.'
+            }],
+            evidence: 'the last line of the dialogue'
           }],
         say: true
       }
@@ -200,7 +249,9 @@ PBE1.page('u2-s07', {
             rows: 2,
             keys: ['cartons',
               'shelf'],
-            need: 1
+            need: 1,
+            hint: 'Say where he looked, not just what he counted. The difference '
+              + 'between the two men is a place.'
           },
       {
             q: 'What did Samih count?',
@@ -211,7 +262,9 @@ PBE1.page('u2-s07', {
               'shelf',
               'floor',
               'under'],
-            need: 1
+            need: 1,
+            hint: 'The same things as Ammar, plus somewhere Ammar did not look. '
+              + 'Your answer needs that second place.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -255,7 +308,11 @@ PBE1.page('u2-s07', {
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -305,7 +362,11 @@ PBE1.page('u2-s07', {
         'neither',
         'wrong',
         'problem']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -359,7 +420,11 @@ PBE1.page('u2-s07', {
         'wrong',
         'problem'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',

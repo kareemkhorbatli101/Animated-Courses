@@ -111,6 +111,16 @@ PBE1.page('u4-s02', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write an address for a shelf on the sheet.',
+    weak: 'Third row, second shelf.',
+    change: ['Write it the way the store does: <i>row three, shelf two</i>, in that order.',
+        'Say where the counting starts - from the door for rows, from the '
+          + 'bottom for shelves. Without that, half the addresses are upside '
+          + 'down.'],
+    better: 'Row three, shelf two - counting the rows from the door, and shelf one is '
+      + 'the bottom. So it is the second one up.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,12 +134,16 @@ PBE1.page('u4-s02', {
             q: 'Count the rows in this room. Say the first row, the second row, '
               + 'the third row.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Pick a starting point and say it out loud first - *from the '
+              + 'door*. A row number means nothing without it.'
           },
       {
             q: 'Which shelf in your store is the hardest to reach? Say it with a number.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Number the shelves from the bottom, the way Samih does, and then '
+              + 'say whether you need the ladder for it.'
           }],
       ideas: ['Rows, shelves and the numbers'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -197,6 +211,47 @@ PBE1.page('u4-s02', {
               why: 'There are four shelves in a row, and fewer rows than seven.'
             }],
             evidence: 'how the rows are counted, and from where'
+          },
+        {
+            q: 'Listen again. Which shelf is the bottom one?',
+            options: [{
+              t: 'shelf one',
+              ok: true,
+              why: '*Shelf one is the bottom, shelf four is the top. Everybody asks.*'
+            },
+            {
+              t: 'shelf four',
+              ok: false,
+              why: 'Shelf four is the top - the other end of the same answer. This '
+                + 'is the thing Samih says everybody gets wrong.'
+            },
+            {
+              t: 'shelf two',
+              ok: false,
+              why: 'Shelf two is the one the cartons go on: the second one up.'
+            }],
+            evidence: 'Samih\'s line that begins *Four shelves in a row*'
+          },
+        {
+            q: 'Where do you start counting the rows from?',
+            options: [{
+              t: 'from the door',
+              ok: true,
+              why: '*From the door. One, two, three. The third row.* - and in the '
+                + 'review cycle he says *from the door, always*.'
+            },
+            {
+              t: 'from the bench',
+              ok: false,
+              why: 'The bench is a landmark for directions in the yard, not for the rows.'
+            },
+            {
+              t: 'from the office end',
+              ok: false,
+              why: 'No office end is mentioned in the store. The counting has one '
+                + 'agreed starting point and it is the way everybody comes in.'
+            }],
+            evidence: 'Samih\'s answer to *Which one is row three?*'
           }],
         say: true
       }
@@ -213,13 +268,17 @@ PBE1.page('u4-s02', {
             q: 'Listen again. How many shelves in a row?',
             model: 'Four',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Samih gives the number in the line where he starts explaining '
+              + 'which one is which.'
           },
       {
             q: 'Which shelf is number 1?',
             model: 'The bottom',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The answer surprises most people, and Samih says so: *everybody '
+              + 'asks*. One word.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -272,7 +331,11 @@ PBE1.page('u4-s02', {
       ideas: ['Rows, shelves and the numbers'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Rows, shelves and the numbers.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -319,7 +382,11 @@ PBE1.page('u4-s02', {
         'shelf',
         'number',
         'after']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Rows, shelves and the numbers.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -362,7 +429,11 @@ PBE1.page('u4-s02', {
         'number',
         'after'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Rows, shelves and the numbers.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -394,13 +465,16 @@ PBE1.page('u4-s02', {
             q: 'What is in row 3, shelf 3?',
             model: 'Labels',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'The shelf map above. Find row 3, then count up to shelf 3 - '
+              + 'remember which end the counting starts from.'
           },
       {
             q: 'Which row has the most empty shelves?',
             model: 'Row 4 — three empty shelves',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Count the blanks in each row of the map, then give the row and how many.'
           },
       {
             q: 'Where are the rolls?',
@@ -409,7 +483,8 @@ PBE1.page('u4-s02', {
             rows: 2,
             keys: ['row',
               'shelves'],
-            need: 1
+            need: 1,
+            hint: 'The map above: one row, two shelves. Give both shelf numbers.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -556,7 +631,11 @@ PBE1.page('u4-s02', {
           }],
       ideas: ['Rows, shelves and the numbers'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Rows, shelves and the numbers.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -669,7 +748,11 @@ PBE1.page('u4-s02', {
         'after'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Rows, shelves and the numbers.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -692,7 +775,11 @@ PBE1.page('u4-s02', {
           }],
       ideas: ['Rows, shelves and the numbers'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Rows, shelves and the numbers.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

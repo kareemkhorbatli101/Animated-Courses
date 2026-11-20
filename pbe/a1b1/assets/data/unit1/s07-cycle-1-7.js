@@ -97,6 +97,14 @@ PBE1.page('u1-s07', {
           alone: 'Do it cold. The looking-back is the exercise.'
         }]
   },
+  worked: {
+    task: 'Write your line in the gate book for this morning.',
+    weak: 'Ammar. Morning.',
+    change: ['A book entry needs a time, not a part of the day. Write the clock time.',
+        'Give the family name as well. There may be two Ammars; there is one '
+          + 'Ammar Zreik.'],
+    better: 'Ammar Zreik. Storeman. In at 6.50.'
+  },
   cards: [
     {
       id: 'c1',
@@ -181,6 +189,49 @@ PBE1.page('u1-s07', {
               why: 'The book is in front of them - they are reading it.'
             }],
             evidence: 'what Nour says about the handwriting in the book'
+          },
+        {
+            q: 'Listen again. What time does Majd sign in?',
+            options: [{
+              t: 'seven twenty',
+              ok: true,
+              why: 'Abu Raed says *time in - seven twenty* as he writes it.'
+            },
+            {
+              t: 'seven o\'clock',
+              ok: false,
+              why: 'Seven is when the shift starts. The gate book records when the '
+                + 'man actually arrived, which is not the same thing.'
+            },
+            {
+              t: 'four o\'clock',
+              ok: false,
+              why: 'Four is the time *out*, which Majd asks about and Abu Raed confirms.'
+            }],
+            evidence: 'the line where Abu Raed reads the time into the book'
+          },
+        {
+            q: 'What does Majd do that makes his name easy to write?',
+            options: [{
+              t: 'he spells it and says how many letters',
+              ok: true,
+              why: '*Majd Bitar. B, I, T, A, R. Five letters.* He gives the '
+                + 'letters and the count without being asked - and Abu Raed, who '
+                + 'writes every name by hand, gets it right first time.'
+            },
+            {
+              t: 'he writes it in the book himself',
+              ok: false,
+              why: 'The book is Abu Raed\'s and he does the writing. Majd makes '
+                + 'that writing easier; he does not take it over.'
+            },
+            {
+              t: 'he says it in Arabic first',
+              ok: false,
+              why: 'Abu Raed writes the names in Arabic, from an earlier cycle - '
+                + 'but Majd says nothing in Arabic here.'
+            }],
+            evidence: 'Majd\'s first answer, after good morning'
           }],
         say: true
       }
@@ -201,7 +252,9 @@ PBE1.page('u1-s07', {
             keys: ['years',
               'name',
               'day'],
-            need: 1
+            need: 1,
+            hint: 'A number of years, and then two phrases that say how completely. '
+              + 'All three are in one short line near the end.'
           },
       {
             q: 'What does Nour want?',
@@ -211,7 +264,9 @@ PBE1.page('u1-s07', {
             keys: ['names',
               'tuesday',
               'office'],
-            need: 1
+            need: 1,
+            hint: 'Something out of the gate book, for a particular day, and for a '
+              + 'particular room. Your answer needs the day as well as the thing.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -257,7 +312,11 @@ PBE1.page('u1-s07', {
       ideas: ['1.4 say who another person is'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -308,7 +367,11 @@ PBE1.page('u1-s07', {
         'raed',
         'book',
         'perfect']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -364,7 +427,11 @@ PBE1.page('u1-s07', {
         'book',
         'perfect'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',

@@ -111,6 +111,16 @@ PBE1.page('u3-s03', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you do every day, in order.',
+    weak: 'I work in the store. I do many things.',
+    change: ['Break it into separate actions, each with its own verb: <i>I sign '
+          + 'in. I read the board. I check the shelves.</i>',
+        'Put them in clock order, and say where the break falls. Order is the '
+          + 'information.'],
+    better: 'I sign in at the gate. I read the shift board. I check the shelves. I '
+      + 'write the numbers on the sheet. That is before the break.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,12 +134,16 @@ PBE1.page('u3-s03', {
             q: 'Say three things you do every day at work. Say them in Arabic. '
               + 'Your teacher writes the English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Three sentences, each starting with *I* and a verb in the '
+              + 'present: *I sign in. I check. I write.* Order them by the clock.'
           },
       {
             q: 'Put these in order for your day: start · count · break · finish',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Put them on a clock rather than in a list. One of the four may '
+              + 'happen more than once in your day - say so if it does.'
           }],
       ideas: ['What I do every day',
       '2 I read the shift board',
@@ -195,6 +209,47 @@ PBE1.page('u3-s03', {
               why: 'Six is everything he does all day, not what comes before the break.'
             }],
             evidence: 'Ammar\'s list, up to the words \'before the break\''
+          },
+        {
+            q: 'Listen again. What is the first thing Ammar does?',
+            options: [{
+              t: 'he signs in at the gate',
+              ok: true,
+              why: 'His list starts there: *I sign in at the gate. I read the shift board.*'
+            },
+            {
+              t: 'he checks the shelves',
+              ok: false,
+              why: 'That comes after the gate and the board - third in his own list.'
+            },
+            {
+              t: 'he reads the shift board',
+              ok: false,
+              why: 'Very close: the board is second. Something happens before he '
+                + 'can even reach it.'
+            }],
+            evidence: 'Ammar\'s first answer to Nour'
+          },
+        {
+            q: 'How many things does Nour write down in the end?',
+            options: [{
+              t: 'six',
+              ok: true,
+              why: 'Ammar counts four before the break, then adds two more at the '
+                + 'end, and Nour totals them: six.'
+            },
+            {
+              t: 'four',
+              ok: false,
+              why: 'Four is Ammar\'s own count of the things before the break - '
+                + 'the dialogue does not stop there.'
+            },
+            {
+              t: 'two',
+              ok: false,
+              why: 'Two is what he adds at the end of the day, not the whole list.'
+            }],
+            evidence: 'Nour\'s last line'
           }],
         say: true
       }
@@ -214,7 +269,9 @@ PBE1.page('u3-s03', {
             rows: 2,
             keys: ['signs',
               'gate'],
-            need: 1
+            need: 1,
+            hint: 'The first item in Ammar\'s own list, and it happens at the gate '
+              + 'before he is inside the store at all.'
           },
       {
             q: 'What does he do at the end of the day?',
@@ -225,7 +282,9 @@ PBE1.page('u3-s03', {
               'abu',
               'yasser\'s',
               'table'],
-            need: 1
+            need: 1,
+            hint: 'Two things, both in his last line - one with a piece of paper, '
+              + 'one with a pen.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -281,7 +340,11 @@ PBE1.page('u3-s03', {
       '6 I sign out'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What I do every day.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -326,7 +389,11 @@ PBE1.page('u3-s03', {
         'follow',
         'start',
         'check']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What I do every day.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -372,7 +439,11 @@ PBE1.page('u3-s03', {
         'check'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
       },
-      example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
+      example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What I do every day.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -404,7 +475,9 @@ PBE1.page('u3-s03', {
             rows: 2,
             keys: ['checks',
               'shelves'],
-            need: 1
+            need: 1,
+            hint: 'Count down the list on the sheet above. Number 3 comes after the '
+              + 'board and before the writing.'
           },
       {
             q: 'What does he do after he checks the shelves?',
@@ -413,7 +486,9 @@ PBE1.page('u3-s03', {
             rows: 2,
             keys: ['numbers',
               'sheet'],
-            need: 1
+            need: 1,
+            hint: 'The item straight after the shelves in his own list. It is what '
+              + 'the checking is *for*.'
           },
       {
             q: 'Who told the office this?',
@@ -422,7 +497,8 @@ PBE1.page('u3-s03', {
             rows: 2,
             keys: ['ammar',
               'march'],
-            need: 1
+            need: 1,
+            hint: 'The bottom of the sheet above - a name, and a date beside it. Give both.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -555,7 +631,11 @@ PBE1.page('u3-s03', {
       '3 I check the shelves',
       '6 I sign out'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What I do every day.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -663,7 +743,11 @@ PBE1.page('u3-s03', {
         'check'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What I do every day.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -689,7 +773,11 @@ PBE1.page('u3-s03', {
       '3 I check the shelves',
       '6 I sign out'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: What I do every day.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

@@ -97,6 +97,16 @@ PBE1.page('u3-s07', {
           alone: 'Do it cold. The looking-back is the exercise.'
         }]
   },
+  worked: {
+    task: 'Write the swap for the shift board.',
+    weak: 'Me and Samih swapped.',
+    change: ['Name both days and say which way round they go: <i>he takes my '
+          + 'Tuesday, I take his Saturday.</i>',
+        'Write that both men agreed, and the date you told the supervisor. '
+          + 'That is what stops it being disputed on the day.'],
+    better: 'Samih takes my Tuesday, I take his Saturday. Both men agreed. Told Abu '
+      + 'Yasser on Sunday.'
+  },
   cards: [
     {
       id: 'c1',
@@ -185,6 +195,50 @@ PBE1.page('u3-s07', {
               why: 'Reading is not the difficulty; recording is.'
             }],
             evidence: 'the line about the board being wrong eleven times'
+          },
+        {
+            q: 'Listen again. Which day does Samih take?',
+            options: [{
+              t: 'Tuesday - and Ammar takes his Saturday',
+              ok: true,
+              why: '*I take your Tuesday, you take my Saturday.* A swap is two '
+                + 'days moving, not one.'
+            },
+            {
+              t: 'Thursday',
+              ok: false,
+              why: 'Thursday was the swap in the earlier cycle of this unit. This '
+                + 'one is a different day.'
+            },
+            {
+              t: 'Saturday',
+              ok: false,
+              why: 'Saturday is the day Ammar takes, not the one Samih takes. '
+                + 'Listen for *your* and *my*.'
+            }],
+            evidence: 'Samih\'s line where he agrees'
+          },
+        {
+            q: 'What does Samih tell Ammar to do today rather than Monday?',
+            options: [{
+              t: 'tell Abu Yasser about the swap',
+              ok: true,
+              why: '*Tell him today. Not Monday.* A swap nobody has written down '
+                + 'is not a swap.'
+            },
+            {
+              t: 'come in early',
+              ok: false,
+              why: 'Being early belongs to the delivery day in the first cycle of this unit.'
+            },
+            {
+              t: 'telephone the office',
+              ok: false,
+              why: 'The telephone is Unit 6\'s instrument, and Abu Yasser\'s '
+                + 'advice in the lateness cycle. Here Samih asks for something '
+                + 'simpler.'
+            }],
+            evidence: 'Samih\'s second-to-last line'
           }],
         say: true
       }
@@ -204,7 +258,8 @@ PBE1.page('u3-s07', {
             rows: 2,
             keys: ['eleven',
               'times'],
-            need: 1
+            need: 1,
+            hint: 'A number, said once. It is large enough to be the point of the review.'
           },
       {
             q: 'Why does Samih not complain?',
@@ -215,7 +270,9 @@ PBE1.page('u3-s07', {
               'hani',
               'always',
               'asks'],
-            need: 1
+            need: 1,
+            hint: 'Two reasons, joined by *and* - one about asking, one about '
+              + 'turning up. Both are needed.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -261,7 +318,11 @@ PBE1.page('u3-s07', {
       ideas: ['3.2 say a time two ways'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -313,7 +374,11 @@ PBE1.page('u3-s07', {
         'still',
         'wrong',
         'hani']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -369,7 +434,11 @@ PBE1.page('u3-s07', {
         'wrong',
         'hani'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Review — the six things from this unit.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',

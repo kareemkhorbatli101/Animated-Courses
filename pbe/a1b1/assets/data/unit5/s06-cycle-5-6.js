@@ -111,6 +111,17 @@ PBE1.page('u5-s06', {
           alone: 'Compare yours with the model and with the examples on the card.'
         }]
   },
+  worked: {
+    task: 'Write what you do when a delivery arrives with no note.',
+    weak: 'There was no paper so I took the pallets.',
+    change: ['Write a note yourself: the driver\'s name, the lorry number, the '
+          + 'quantity, today\'s date.',
+        'Get the driver to sign it. Then both of you have a paper, which is '
+          + 'the whole purpose of a note.'],
+    better: 'There was no delivery note. I wrote one: Marwan Haddad, lorry 345 871, '
+      + 'six pallets, 4 March. He signed it and so did I. The pallets are '
+      + 'wrapped, so I could not count inside them and I wrote that too.'
+  },
   cards: [
     {
       id: 'c1',
@@ -124,13 +135,17 @@ PBE1.page('u5-s06', {
             q: 'A lorry comes with no paper. What do you do? Say it in Arabic, '
               + 'then in English.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'Do not send it away and do not take it silently. There is a '
+              + 'third thing, and Ammar does it with a pen.'
           },
       {
             q: 'Read the two lines. Which is better? He did not bring the paper '
               + '· There is no delivery note. I wrote one myself.',
             minWords: 6,
-            rows: 2
+            rows: 2,
+            hint: 'One reports a problem. The other reports a problem and what was '
+              + 'done about it.'
           }],
       ideas: ['Saying there is nothing there',
       'Driver: Marwan Haddad Lorry: 345 871'],
@@ -198,6 +213,47 @@ PBE1.page('u5-s06', {
               why: 'He writes the note himself and has the driver sign it.'
             }],
             evidence: 'what Ammar offers to do when there is no paper at all'
+          },
+        {
+            q: 'Listen again. How many pallets arrive?',
+            options: [{
+              t: 'six',
+              ok: true,
+              why: '*Six pallets. Where do they go?* - and six is what Ammar '
+                + 'writes on the note he makes himself.'
+            },
+            {
+              t: 'four',
+              ok: false,
+              why: 'Four is nowhere in this dialogue; it is the carton count in Unit 4.'
+            },
+            {
+              t: 'twelve',
+              ok: false,
+              why: 'Twelve pallets is the Monday delivery in Unit 3.'
+            }],
+            evidence: 'the driver\'s first line'
+          },
+        {
+            q: 'What does Ammar do about the missing note?',
+            options: [{
+              t: 'writes one himself and has the driver sign it',
+              ok: true,
+              why: '*I write it and you sign it. Then we both have a paper.* A '
+                + 'paper made on the spot by two people is still a paper.'
+            },
+            {
+              t: 'refuses to take the pallets',
+              ok: false,
+              why: 'He takes them. Refusing would stop the goods; what he wants is a record.'
+            },
+            {
+              t: 'telephones the office for a copy',
+              ok: false,
+              why: 'The office is said to have given the driver nothing. Ammar '
+                + 'does not wait for them.'
+            }],
+            evidence: 'Ammar\'s last three lines'
           }],
         say: true
       }
@@ -217,7 +273,8 @@ PBE1.page('u5-s06', {
             rows: 2,
             keys: ['office',
               'give'],
-            need: 1
+            need: 1,
+            hint: 'He blames somewhere, not somebody. Name the place he blames.'
           },
       {
             q: 'What four things does Ammar write?',
@@ -228,7 +285,9 @@ PBE1.page('u5-s06', {
               'name',
               'lorry',
               'number'],
-            need: 1
+            need: 1,
+            hint: 'He lists them in one line. Two are about the driver and his '
+              + 'lorry, one is the quantity, one is the date.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -283,7 +342,11 @@ PBE1.page('u5-s06', {
       'Driver: Marwan Haddad Lorry: 345 871'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['I heard: “Can you spell it, please?” and “Again, please.” They said '
-        + 'the name twice.']
+        + 'the name twice.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying there is nothing there.',
+      'I covered the table and said it from memory.',
+      'I did it a second time, in the other role.']
     },
     {
       id: 'c6',
@@ -334,7 +397,11 @@ PBE1.page('u5-s06', {
         'start',
         'next',
         'sentence']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying there is nothing there.',
+      'I used my own names, numbers and places - not the book\'s.',
+      'I said the whole thing the task asks for, not just the first part.']
     },
     {
       id: 'c7',
@@ -377,7 +444,11 @@ PBE1.page('u5-s06', {
         'next',
         'sentence'],
         example: ['This is Samih. He is the storeman. He starts at seven and he finishes at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying there is nothing there.',
+      'I stood up, or sat up straight, and said it to the room.',
+      'I said it once, slowly, without stopping to correct myself.']
     },
     {
       id: 'c8',
@@ -414,7 +485,8 @@ PBE1.page('u5-s06', {
             rows: 2,
             keys: ['345',
               '871'],
-            need: 1
+            need: 1,
+            hint: 'The note Ammar wrote, above - the lorry field. Copy it digit for digit.'
           },
       {
             q: 'Why are the bags not counted?',
@@ -425,13 +497,16 @@ PBE1.page('u5-s06', {
               'wrapped',
               'see',
               'inside'],
-            need: 1
+            need: 1,
+            hint: 'The note says what stopped him. It is about what was round the pallets.'
           },
       {
             q: 'How many signatures are on this paper?',
             model: 'Two',
             minWords: 1,
-            rows: 2
+            rows: 2,
+            hint: 'Count the names at the bottom of Ammar\'s own note. The point of '
+              + 'the scene is that there is more than one.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -572,7 +647,11 @@ PBE1.page('u5-s06', {
       ideas: ['Saying there is nothing there',
       'Driver: Marwan Haddad Lorry: 345 871'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying there is nothing there.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     },
     {
       id: 'c12',
@@ -686,7 +765,11 @@ PBE1.page('u5-s06', {
         'sentence'],
         example: ['You wrote that you check the shelves first. I asked: who reads the '
           + 'sheet after you? You said Abu Yasser reads it at four.']
-      }
+      },
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying there is nothing there.',
+      'I asked a real question - one I did not already know the answer to.',
+      'My question was about what they actually said, not about the topic.']
     },
     {
       id: 'c14',
@@ -711,7 +794,11 @@ PBE1.page('u5-s06', {
       ideas: ['Saying there is nothing there',
       'Driver: Marwan Haddad Lorry: 345 871'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.']
+      example: ['Clear. I liked the times - I knew exactly when he starts and when he finishes.'],
+      rubric: ['I said it out loud, not in my head.',
+      'I used this cycle\'s language: Saying there is nothing there.',
+      'I read three other answers before I said anything about one.',
+      'What I said named one line, not the whole piece.']
     }
   ]
 });

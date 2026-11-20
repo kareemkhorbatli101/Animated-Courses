@@ -118,6 +118,33 @@
     return '<ellipse cx="' + cx + '" cy="' + floorY + '" rx="' + (wd / 2) +
       '" ry="' + Math.max(6, wd / 12) + '" fill="#000" opacity="0.13"/>';
   }
+  /* ------------------------------------------------------------------
+     THREE ARRANGEMENTS OF EACH ROOM.
+
+     A unit is seven cycles and fourteen scenes, drawn in ONE room, and the room
+     was the same picture every time - the same props at the same x, the same
+     stack on the same shelf. A set that never changes stops being looked at,
+     and a learner's eye had nothing to tell cycle 1.1 from cycle 1.6.
+
+     `scene.js` now hands each layer an arrangement number, 0 1 or 2, derived
+     from the scene's own id so it is stable across reloads. What it may change
+     is deliberately narrow:
+
+       * WHERE the loose props stand - rotated between positions that are each
+         already inside a gap between the actor columns, so `clearOf` is
+         satisfied by construction and not by luck;
+       * what is stacked on which shelf, and where the lorry or the pallet sits.
+
+     What it may NOT change is the viewBox. The actors are positioned on the
+     stage in PER CENT, outside the SVG, so narrowing the room's viewBox would
+     scale the room and leave every actor standing in the wrong place - a
+     "closer camera" done this way would put a man through a wall. The closer
+     framing is a camera matter and lives in the scene's own `cam`.
+     ------------------------------------------------------------------ */
+  function slot(arr, list) {
+    return list[((arr | 0) % list.length + list.length) % list.length];
+  }
+
   /** Is this small prop clear of every actor column, at this height? */
   function clearOf(room, x, wd, topY) {
     if (topY >= WAIST_Y) return true;            // below the waist: furniture territory
@@ -128,9 +155,20 @@
     }
     return true;
   }
+  /* ⚠ A PROP ON A SURFACE MUST BE OVER THE SURFACE. `rest` puts a prop's base on
+     a given y and says nothing about x, and in the office the telephone sat at
+     x=150 on a desk that begins at x=180: its base was exactly on the desk's top
+     edge and it was hanging in the air beside it. The gate measured the actor
+     bands, found the prop nowhere near a face, and passed. So the rooms that have
+     one declare the SPAN of their surface here, and the gate asserts that nothing
+     in the fore layer is painted outside it. */
+  var SURFACES = {
+    counter: { x0: 120, x1: 1480, top: 560 },
+    meeting: { x0: 180, x1: 1420, top: 560 }
+  };
   //: exported so gates/pbe_art.py can ask the page the same question it measures
   A.pbeContract = { spots: SPOTS, actorHalf: ACTOR_HALF, waistY: WAIST_Y,
-                    clearOf: clearOf };
+                    clearOf: clearOf, surfaces: SURFACES };
 
   /* Damascus daylight: warm stone, dusty blue sky, olive and rust. The palette is
      fixed here so the rooms, built on different days, look like one company. */
@@ -163,7 +201,7 @@
       for (var i = 0; i < 7; i++) s += r(120 + i * 230, 790, 120, 12, PAPER, 6);
       return stage(s);
     },
-    mid: function () {
+    mid: function (arr) {
       /* the gatehouse, sized to a person */
       var s = shadow(255, 648, 360);
       s += r(80, 318, 350, 330, STONE2, 6) + r(80, 318, 350, 40, WOOD2, 4);
@@ -175,15 +213,21 @@
          225) for its whole run. */
       s += shadow(497, 650, 70);
       s += r(474, 300, 26, 350, STEEL2, 6);
-      s += p('M 487 300 L 1250 150', 'none',
+      /* HOW FAR THE BARRIER IS RAISED is the gate's own arrangement: fully up,
+         half up, or just lifting. Every one of the three ends ABOVE the head
+         band (0.25H = 225) along its whole run, which is the constraint that
+         produced it - see the note on the room above. */
+      var tipY = slot(arr, [150, 196, 178]);
+      s += p('M 487 300 L 1250 ' + tipY, 'none',
              ' stroke="' + RUST + '" stroke-width="18" stroke-linecap="round"');
       for (var j = 0; j < 5; j++) {
-        s += p('M ' + (560 + j * 140) + ' ' + (286 - j * 27) + ' l 48 -9', 'none',
+        var fy = 300 - (300 - tipY) * ((j + 1) / 6);
+        s += p('M ' + (560 + j * 140) + ' ' + (fy - 14) + ' l 48 -9', 'none',
                ' stroke="' + PAPER + '" stroke-width="16"');
       }
       return stage(s);
     },
-    fore: function () {
+    fore: function (arr) {
       /* THE GATE BOOK, open on a lectern, BETWEEN the two men and below the waist.
          It is the first artefact of the course and the one a learner must
          recognise - Abu Raed writes every name in it in cycle 1.1. It stands in the
@@ -215,7 +259,12 @@
       s += p('M 846 770 L 930 742', 'none',
              ' stroke="' + INK + '" stroke-width="8" stroke-linecap="round"');
       s += c(934, 741, 6, RUST);
-      return stage(s);
+      /* THE LECTERN STANDS IN A DIFFERENT PLACE in each arrangement. It is
+         furniture - its top at 694 is below WAIST_Y - so it is clear of the
+         actor columns at every one of the three, and all three keep its full
+         352-wide span inside the 1600 stage. */
+      var dx = slot(arr, [0, -208, 176]);
+      return stage('<g transform="translate(' + dx + ',0)">' + s + '</g>');
     }
   };
 
@@ -241,13 +290,16 @@
       }
       return stage(s);
     },
-    mid: function () {
+    mid: function (arr) {
       var s = '';
       var cols = ['#b4885c', '#a8714a', '#c49a68', '#9c8f80'];
       for (var b = 0; b < 4; b++) {
         for (var shelf = 0; shelf < 4; shelf++) {
           var surface = 170 + shelf * 112 + 14;      // the shelf's own top edge
-          var n = 2 + ((b + shelf) % 3);
+          /* WHAT IS ON WHICH SHELF is the store's arrangement: the stock moves
+             between cycles, which is the one thing this unit says about a store
+             out loud - *read it every morning, it changes*. */
+          var n = 2 + ((b + shelf + (arr | 0)) % 3);
           for (var i = 0; i < n; i++) {
             /* THREE SIZES, because that is the lesson. A packet is small, ten
                packets make a carton, and the carton is visibly bigger. */
@@ -259,36 +311,49 @@
         }
       }
       /* the shelf card, on the front of row 3 - an address in the unit's own form */
+      var card = slot(arr, [['ROW 3 · SHELF 2', '10 packets = 1 carton'],
+                            ['ROW 2 · SHELF 1', 'shelf 1 is the BOTTOM'],
+                            ['ROW 4 · SHELF 3', '36 cartons = 1 pallet']]);
       s += r(820, 300, 190, 64, PAPER, 5);
-      s += text(828, 326, 'ROW 3 · SHELF 2', 21, INK, 'start', 700);
-      s += text(828, 352, '10 packets = 1 carton', 17, STEEL2, 'start', 500);
+      s += text(828, 326, card[0], 21, INK, 'start', 700);
+      s += text(828, 352, card[1], 17, STEEL2, 'start', 500);
       return stage(s);
     },
-    fore: function () {
+    fore: function (arr) {
       /* A PALLET OF CARTONS, A CARTON, AND A PACKET, side by side and named - the
          size contrast the unit is about, in one glance. They stand in the gap
          between the actor columns (24%, 44%, 62% => 384, 704, 992) at the left edge
          and far right, and everything rests on the floor line. */
       var FLOOR_Y = 884, s = '';
-      /* far left: the pallet, with cartons stacked on it */
-      s += shadow(150, FLOOR_Y, 250);
-      s += rest(40, FLOOR_Y, 220, 30, WOOD2, 3);
+      /* THE THREE ARRANGEMENTS OF THIS FLOOR. The pallet and the carton are
+         furniture height - their tops are below WAIST_Y - so they may stand
+         anywhere, including between two speakers. The LADDER may not: it
+         reaches y=300, which is inside the chest band, so its two positions
+         are the only two gaps 150 wide that no actor column touches
+         (0..248 and 1128..1600, from SPOTS.store = 24%, 62%, 44%). */
+      var A = slot(arr, [{ pal: 40, car: 1390, lad: 1252 },
+                         { pal: 1330, car: 40, lad: 1150 },
+                         { pal: 40, car: 300, lad: 1252 }]);
+      /* the pallet, with cartons stacked on it */
+      s += shadow(A.pal + 110, FLOOR_Y, 250);
+      s += rest(A.pal, FLOOR_Y, 220, 30, WOOD2, 3);
       for (var k = 0; k < 3; k++) {
-        s += rest(52 + k * 70, FLOOR_Y - 30, 64, 62, '#a8714a', 4);
+        s += rest(A.pal + 12 + k * 70, FLOOR_Y - 30, 64, 62, '#a8714a', 4);
       }
-      s += text(150, FLOOR_Y - 118, 'PALLET', 20, INK, 'middle', 700);
-      /* far right: a single carton, and a packet on top of it */
-      s += shadow(1455, FLOOR_Y, 150);
-      s += rest(1390, FLOOR_Y, 130, 104, '#b4885c', 4);
-      s += rest(1420, FLOOR_Y - 104, 60, 44, '#c49a68', 3);
-      s += text(1455, FLOOR_Y - 164, 'CARTON · PACKET', 19, INK, 'middle', 700);
+      s += text(A.pal + 110, FLOOR_Y - 118, 'PALLET', 20, INK, 'middle', 700);
+      /* a single carton, and a packet on top of it */
+      s += shadow(A.car + 65, FLOOR_Y, 150);
+      s += rest(A.car, FLOOR_Y, 130, 104, '#b4885c', 4);
+      s += rest(A.car + 30, FLOOR_Y - 104, 60, 44, '#c49a68', 3);
+      s += text(A.car + 65, FLOOR_Y - 164, 'CARTON · PACKET', 19, INK,
+                'middle', 700);
       /* the ladder, leaning on the shelving rather than floating beside it */
-      s += shadow(1300, FLOOR_Y, 110);
-      s += line(1252, FLOOR_Y, 1330, 300, WOOD2, 13);
-      s += line(1330, FLOOR_Y, 1402, 300, WOOD2, 13);
+      s += shadow(A.lad + 48, FLOOR_Y, 110);
+      s += line(A.lad, FLOOR_Y, A.lad + 78, 300, WOOD2, 13);
+      s += line(A.lad + 78, FLOOR_Y, A.lad + 150, 300, WOOD2, 13);
       for (var i = 0; i < 6; i++) {
-        s += line(1264 + i * 13, FLOOR_Y - 20 - i * 95, 1342 + i * 12,
-                  FLOOR_Y - 28 - i * 95, WOOD, 9);
+        s += line(A.lad + 12 + i * 13, FLOOR_Y - 20 - i * 95,
+                  A.lad + 90 + i * 12, FLOOR_Y - 28 - i * 95, WOOD, 9);
       }
       return stage(s);
     }
@@ -322,30 +387,47 @@
       s += r(0, 560, W, 340, FLOOR) + r(0, 560, W, 16, FLOOR2);
       return stage(s);
     },
-    mid: function () {
+    mid: function (arr) {
       /* THE LORRY, AT LORRY SCALE. It used to be about as tall as a man; a box body
-         is around twice a person, and the wheels now meet the floor line at 700. */
+         is around twice a person, and the wheels now meet the floor line at 700.
+
+         WHERE IT IS PARKED is the yard's arrangement - backed right up to the
+         door, standing off, or gone, which is also the three states a yard is
+         ever in. Gone means gone: the arrangement with no lorry has an empty
+         bay, not a lorry drawn somewhere silly. */
       var FLOOR_Y = 700;
-      var s = shadow(1120, FLOOR_Y + 8, 620);
-      s += rest(840, FLOOR_Y, 520, 300, '#cfd7dc', 10);
-      s += rest(840, FLOOR_Y - 264, 520, 36, STEEL2, 6);
-      s += rest(1360, FLOOR_Y, 200, 220, RUST, 10);
-      s += rest(1398, FLOOR_Y - 120, 124, 78, SKY2, 4);
-      s += c(940, FLOOR_Y - 6, 56, INK) + c(940, FLOOR_Y - 6, 24, STEEL);
-      s += c(1430, FLOOR_Y - 6, 56, INK) + c(1430, FLOOR_Y - 6, 24, STEEL);
+      var bx = slot(arr, [840, 700, null]);
+      if (bx === null) {
+        /* the empty bay: the marked-out ground a lorry stands on */
+        var e = '';
+        for (var m = 0; m < 6; m++) {
+          e += r(880 + m * 110, FLOOR_Y - 4, 64, 10, PAPER, 5);
+        }
+        return stage(e);
+      }
+      var s = shadow(bx + 280, FLOOR_Y + 8, 620);
+      s += rest(bx, FLOOR_Y, 520, 300, '#cfd7dc', 10);
+      s += rest(bx, FLOOR_Y - 264, 520, 36, STEEL2, 6);
+      s += rest(bx + 520, FLOOR_Y, 200, 220, RUST, 10);
+      s += rest(bx + 558, FLOOR_Y - 120, 124, 78, SKY2, 4);
+      s += c(bx + 100, FLOOR_Y - 6, 56, INK) + c(bx + 100, FLOOR_Y - 6, 24, STEEL);
+      s += c(bx + 590, FLOOR_Y - 6, 56, INK) + c(bx + 590, FLOOR_Y - 6, 24, STEEL);
       return stage(s);
     },
-    fore: function () {
+    fore: function (arr) {
       /* pallets at the left edge and far right, clear of the three actor columns
          (20%, 46%, 68% => 320, 736, 1088) and standing on the floor */
       var FLOOR_Y = 886, s = '';
-      s += shadow(118, FLOOR_Y, 210);
-      s += rest(20, FLOOR_Y, 196, 26, WOOD2, 3);
-      s += rest(34, FLOOR_Y - 26, 168, 92, WOOD, 4);
-      s += line(54, FLOOR_Y - 76, 182, FLOOR_Y - 76, PAPER, 5);
-      s += shadow(1512, FLOOR_Y, 190);
-      s += rest(1422, FLOOR_Y, 180, 26, WOOD2, 3);
-      s += rest(1436, FLOOR_Y - 26, 152, 86, WOOD, 4);
+      /* two pallets, at two of three floor positions. All three are furniture
+         height, so any of them is clear of the actor columns. */
+      var P = slot(arr, [[20, 1422], [20, 540], [900, 1422]]);
+      s += shadow(P[0] + 98, FLOOR_Y, 210);
+      s += rest(P[0], FLOOR_Y, 196, 26, WOOD2, 3);
+      s += rest(P[0] + 14, FLOOR_Y - 26, 168, 92, WOOD, 4);
+      s += line(P[0] + 34, FLOOR_Y - 76, P[0] + 162, FLOOR_Y - 76, PAPER, 5);
+      s += shadow(P[1] + 90, FLOOR_Y, 190);
+      s += rest(P[1], FLOOR_Y, 180, 26, WOOD2, 3);
+      s += rest(P[1] + 14, FLOOR_Y - 26, 152, 86, WOOD, 4);
       return stage(s);
     }
   };
@@ -386,22 +468,35 @@
       s += r(160, TOP + 120, 1280, 200, WOOD2, 6);
       return stage(s);
     },
-    fore: function () {
-      /* the three things a counter needs, each RESTING on the counter top at 560 and
-         each in a gap between the actor columns (26%, 47%, 68% => 416, 752, 1088) */
+    fore: function (arr) {
+      /* THE THREE THINGS A COUNTER NEEDS, each RESTING on the counter top at
+         560. The three gaps between the actor columns (26%, 47%, 68% => 416,
+         752, 1088, each 272 wide) are 0..280, 552..616 and 1224..1600, and the
+         arrangement rotates the three objects between them - so the same
+         counter is laid out differently in each cycle and nothing ever lands on
+         a speaker. The pen pot is the narrow one, so it takes the narrow gap. */
       var TOP = 560, s = '';
-      /* the bell, near the left edge */
-      s += rest(150, TOP, 76, 18, '#a8861c', 4);
-      s += '<ellipse cx="188" cy="' + (TOP - 18) + '" rx="36" ry="30" fill="#c9a227"/>';
-      s += c(188, TOP - 52, 9, '#a8861c');
-      /* the delivery note and the invoice, lying flat between the speakers */
-      s += rest(890, TOP, 200, 12, PAPER, 3);
-      s += rest(906, TOP - 12, 168, 10, '#f2ece0', 3);
-      s += text(906, TOP - 26, 'DELIVERY NOTE  4417', 17, STEEL2, 'start', 600);
+      /* ⚠ ALL THREE STAND ON THE COUNTER, which spans 120..1480 - see SURFACES
+         above. The PEN POT is the one that reaches above WAIST_Y, so it takes
+         one of the gaps the counter also covers (120..280, 552..616, 888..952,
+         1224..1480); the bell and the papers are furniture height. */
+      var G = slot(arr, [{ bell: 180, note: 890, pen: 1290 },
+                         { bell: 1340, note: 700, pen: 160 },
+                         { bell: 1000, note: 300, pen: 560 }]);
+      /* the bell */
+      s += rest(G.bell, TOP, 76, 18, '#a8861c', 4);
+      s += '<ellipse cx="' + (G.bell + 38) + '" cy="' + (TOP - 18)
+         + '" rx="36" ry="24" fill="#c9a227"/>';
+      s += c(G.bell + 38, TOP - 44, 8, '#a8861c');
+      /* the delivery note and the invoice, lying flat */
+      s += rest(G.note, TOP, 200, 12, PAPER, 3);
+      s += rest(G.note + 16, TOP - 12, 168, 10, '#f2ece0', 3);
+      s += text(G.note + 16, TOP - 26, 'DELIVERY NOTE  4417', 17, STEEL2,
+                'start', 600);
       /* the pen, IN A POT - it used to float */
-      s += rest(1290, TOP, 54, 66, STEEL, 6);
-      s += line(1308, TOP - 60, 1318, TOP - 112, INK, 7);
-      s += line(1326, TOP - 60, 1336, TOP - 106, RUST, 7);
+      s += rest(G.pen, TOP, 54, 66, STEEL, 6);
+      s += line(G.pen + 18, TOP - 60, G.pen + 28, TOP - 112, INK, 7);
+      s += line(G.pen + 36, TOP - 60, G.pen + 46, TOP - 106, RUST, 7);
       return stage(s);
     }
   };
@@ -437,20 +532,25 @@
       s += r(0, 570, W, 330, FLOOR) + r(0, 570, W, 16, FLOOR2);
       return stage(s);
     },
-    mid: function () {
-      /* the tail-lift platform, and the pallet half off it */
+    mid: function (arr) {
+      /* the tail-lift platform, and the pallet half off it.
+
+         HOW FAR THROUGH THE UNLOADING is this dock's arrangement: three boxes
+         still on the pallet, two, or one - which is what the unit's own
+         counting scenes are about. */
       var FLOOR_Y = 700, s = '';
+      var left = slot(arr, [3, 2, 1]);
       s += shadow(1250, FLOOR_Y + 6, 420);
       s += rest(1060, FLOOR_Y, 400, 30, STEEL2, 4);
       s += rest(1080, FLOOR_Y - 30, 40, 130, STEEL, 4);
       s += rest(1400, FLOOR_Y - 30, 40, 130, STEEL, 4);
       s += rest(1130, FLOOR_Y - 30, 240, 26, WOOD2, 3);
-      for (var k = 0; k < 3; k++) {
+      for (var k = 0; k < left; k++) {
         s += rest(1140 + k * 78, FLOOR_Y - 56, 70, 66, '#b4885c', 4);
       }
       return stage(s);
     },
-    fore: function () {
+    fore: function (arr) {
       /* THE CLIPBOARD, large and readable, standing in the gap at the left of the
          three actor columns (22%, 44%, 66% => 352, 704, 1056). The whole unit is
          about being able to read these four things off one piece of paper. */
@@ -464,16 +564,24 @@
       var TOP = FLOOR_Y - 290;
       s += r(10, TOP - 240, 190, 240, '#8f98a1', 8);
       s += r(24, TOP - 226, 162, 212, PAPER, 4);
-      s += text(36, TOP - 196, 'BEIRUT CO.', 17, INK, 'start', 700);
-      s += text(36, TOP - 170, '4 March', 16, STEEL2, 'start', 500);
-      s += text(36, TOP - 138, '16 boxes', 19, INK, 'start', 700);
-      s += text(36, TOP - 110, 'counted 15', 16, RUST, 'start', 600);
+      /* WHAT THE NOTE SAYS changes with the arrangement: the unit's three real
+         notes. A learner who has read the same four lines fourteen times has
+         read them once. */
+      var N = slot(arr, [['BEIRUT CO.', '4 March', '16 boxes', 'counted 15'],
+                         ['HOMS DEPOT', '11 March', '6 pallets', 'no note!'],
+                         ['BEIRUT CO.', '18 March', '12 boxes', 'counted 12']]);
+      s += text(36, TOP - 196, N[0], 17, INK, 'start', 700);
+      s += text(36, TOP - 170, N[1], 16, STEEL2, 'start', 500);
+      s += text(36, TOP - 138, N[2], 19, INK, 'start', 700);
+      s += text(36, TOP - 110, N[3], 16, RUST, 'start', 600);
       s += line(36, TOP - 54, 174, TOP - 54, '#c9c0ae', 3);
       s += text(36, TOP - 28, 'sign here', 15, STEEL2, 'start', 500);
-      /* a single carton at the far right, FULLY in frame - the first draft ran it
-         off the edge at x=1574 of a 1600 stage */
-      s += shadow(1452, FLOOR_Y, 160);
-      s += rest(1380, FLOOR_Y, 144, 112, '#a8714a', 4);
+      /* a carton on the floor, FULLY in frame - the first draft ran it off the
+         edge at x=1574 of a 1600 stage. It is furniture height, so the three
+         positions are all clear of the actor columns. */
+      var cx2 = slot(arr, [1380, 420, 1180]);
+      s += shadow(cx2 + 72, FLOOR_Y, 160);
+      s += rest(cx2, FLOOR_Y, 144, 112, '#a8714a', 4);
       return stage(s);
     }
   };
@@ -516,25 +624,39 @@
       s += r(300, TOP + 150, 60, 150, WOOD2, 6) + r(1240, TOP + 150, 60, 150, WOOD2, 6);
       return stage(s);
     },
-    fore: function () {
+    fore: function (arr) {
       /* THE TELEPHONE, THE PAD AND THE SPIKE, resting on the desk at 560.
-         Actor columns are 24%, 47%, 70% => 384, 752, 1120, so these sit at the far
-         left, in the 520-620 gap and at the far right. */
+         Actor columns are 24%, 47%, 70% => 384, 752, 1120, so the gaps are
+         0..248, 520..616 and 1256..1600, and the arrangement rotates the three
+         objects between them. The telephone and the pad live NEXT TO EACH OTHER
+         in every arrangement, because that is the rule the unit teaches out
+         loud - *where do the pen and the pad live? next to the telephone* - and
+         a set that contradicts its own lesson is worse than a dull one. */
       var TOP = 560, s = '';
+      /* ⚠ EVERY ONE OF THESE SITS ON THE DESK, which spans 180..1420 - see
+         SURFACES above and the defect that produced it. The SPIKE is the only
+         one of the three that reaches above WAIST_Y, so its positions are the
+         two gaps between the actor columns that the desk also covers
+         (520..616 and 1256..1420). The telephone was redrawn lower, so the
+         whole of it - cradle and handset - is furniture height and may stand
+         anywhere the desk reaches. */
+      var G = slot(arr, [{ tel: 230, pad: 400, spk: 1264 },
+                         { tel: 1240, pad: 1060, spk: 520 },
+                         { tel: 700, pad: 880, spk: 1300 }]);
       /* the telephone */
-      s += rest(150, TOP, 150, 40, INK, 6);
-      s += rest(166, TOP - 40, 118, 22, '#4b545f', 5);
-      s += p('M 160 ' + (TOP - 62) + ' q 70 -34 140 0', 'none',
-             ' stroke="' + INK + '" stroke-width="20" stroke-linecap="round"');
-      /* the message pad, with a slip on it */
-      s += rest(560, TOP, 150, 14, PAPER, 3);
-      s += rest(574, TOP - 14, 122, 10, '#f2ece0', 3);
-      s += text(574, TOP - 30, 'MESSAGE', 15, STEEL2, 'start', 700);
+      s += rest(G.tel, TOP, 150, 34, INK, 6);
+      s += rest(G.tel + 16, TOP - 34, 118, 14, '#4b545f', 5);
+      s += p('M ' + (G.tel + 10) + ' ' + (TOP - 48) + ' q 70 -8 140 0', 'none',
+             ' stroke="' + INK + '" stroke-width="16" stroke-linecap="round"');
+      /* the message pad, with a slip on it - beside the telephone, always */
+      s += rest(G.pad, TOP, 150, 14, PAPER, 3);
+      s += rest(G.pad + 14, TOP - 14, 122, 10, '#f2ece0', 3);
+      s += text(G.pad + 14, TOP - 30, 'MESSAGE', 15, STEEL2, 'start', 700);
       /* the spike, with slips on it - where the message should have gone */
-      s += rest(1350, TOP, 96, 14, STEEL2, 3);
-      s += line(1398, TOP - 14, 1398, TOP - 120, STEEL, 7);
-      s += rest(1356, TOP - 44, 84, 30, PAPER, 2);
-      s += rest(1362, TOP - 70, 72, 26, '#f2ece0', 2);
+      s += rest(G.spk, TOP, 96, 14, STEEL2, 3);
+      s += line(G.spk + 48, TOP - 14, G.spk + 48, TOP - 120, STEEL, 7);
+      s += rest(G.spk + 6, TOP - 44, 84, 30, PAPER, 2);
+      s += rest(G.spk + 12, TOP - 70, 72, 26, '#f2ece0', 2);
       return stage(s);
     }
   };
@@ -641,6 +763,95 @@
 
   /** The drawing for a word, or null. The word is lower-cased and stripped of
       punctuation by the caller. */
+  /* ============================================================
+     WHAT A HAND CAN HOLD.
+
+     `art.js` draws the arms as groups that rotate about the shoulder and, given
+     `opts.hold`, asks the COURSE for the object - this function - and draws it
+     inside the holding arm's group, so it travels with the arm. The origin here
+     is the HAND, not the stage: (0,0) is the point at the end of the arm, which
+     is why every prop is drawn around it and not at a y chosen by eye. It is
+     the same contract the rooms follow with `rest`.
+
+     They are the course's own objects, in the rooms' own palette. No stock
+     icons: the clipboard in a man's hand is the clipboard on the dock stand,
+     and the whole point of a held prop is that a learner recognises it.
+     ============================================================ */
+  var HELD = {
+    /* the gate book - open, held across the forearm */
+    book: function () {
+      return p('M -26 -4 L 0 -12 L 26 -4 L 26 16 L 0 24 L -26 16 Z', PAPER)
+        + p('M 0 -12 L 0 24', 'none',
+            ' stroke="' + WOOD2 + '" stroke-width="3"')
+        + p('M -26 -4 L 0 -12 L 26 -4', 'none',
+            ' stroke="' + WOOD2 + '" stroke-width="3"')
+        + p('M -19 4 L -6 1', 'none', ' stroke="#c9c0ae" stroke-width="2"')
+        + p('M 7 1 L 20 4', 'none', ' stroke="#c9c0ae" stroke-width="2"');
+    },
+    pen: function () {
+      return p('M -2 -2 L 6 -26', 'none',
+               ' stroke="' + INK + '" stroke-width="5" stroke-linecap="round"')
+        + c(7, -28, 2.6, RUST);
+    },
+    /* the dock clipboard, the course's most-read object */
+    clipboard: function () {
+      return r(-15, -6, 30, 40, '#8f98a1', 3)
+        + r(-12, -2, 24, 33, PAPER, 2)
+        + r(-7, -9, 14, 6, STEEL2, 2)
+        + p('M -8 6 L 6 6', 'none', ' stroke="' + INK + '" stroke-width="2"')
+        + p('M -8 13 L 8 13', 'none', ' stroke="#c9c0ae" stroke-width="2"')
+        + p('M -8 20 L 4 20', 'none', ' stroke="#c9c0ae" stroke-width="2"');
+    },
+    /* a single sheet, held up to be read */
+    sheet: function () {
+      return r(-13, -8, 26, 34, PAPER, 2)
+        + p('M -9 0 L 7 0', 'none', ' stroke="' + INK + '" stroke-width="2"')
+        + p('M -9 7 L 9 7', 'none', ' stroke="#c9c0ae" stroke-width="2"')
+        + p('M -9 14 L 5 14', 'none', ' stroke="#c9c0ae" stroke-width="2"');
+    },
+    note: function () { return HELD.sheet(); },
+    /* the message slip - smaller than a sheet, which is the point of it */
+    slip: function () {
+      return r(-9, -5, 18, 22, '#f6f0e2', 2)
+        + p('M -6 2 L 4 2', 'none', ' stroke="' + INK + '" stroke-width="2"')
+        + p('M -6 8 L 6 8', 'none', ' stroke="#c9c0ae" stroke-width="2"');
+    },
+    carton: function () {
+      return r(-20, -4, 40, 34, '#b4885c', 3)
+        + r(-20, -4, 40, 7, WOOD2, 2)
+        + p('M 0 3 L 0 30', 'none', ' stroke="#9c7046" stroke-width="2"');
+    },
+    box: function () { return HELD.carton(); },
+    packet: function () {
+      return r(-13, -2, 26, 20, '#c49a68', 3)
+        + r(-13, -2, 26, 5, WOOD2, 2);
+    },
+    roll: function () {
+      return '<ellipse cx="0" cy="2" rx="11" ry="7" fill="#d8cdb6"/>'
+        + r(-11, 2, 22, 30, '#cbbfa6', 2)
+        + c(0, 2, 4, '#a99c82');
+    },
+    /* the office handset, held at the ear - the whole of unit 6 */
+    phone: function () {
+      return p('M -7 -8 q 14 -10 22 2 l -6 6 q -6 -7 -12 -2 Z', INK)
+        + p('M 9 20 q -14 10 -22 -2 l 6 -6 q 6 7 12 2 Z', INK)
+        + p('M 8 2 L -1 12', 'none', ' stroke="' + INK + '" stroke-width="7"');
+    },
+    /* a key on a ring - the spare key on the hook, unit 4 */
+    key: function () {
+      return c(0, -2, 6, 'none').replace('fill="none"',
+        'fill="none" stroke="' + STEEL2 + '" stroke-width="3"')
+        + r(-1.5, 4, 3, 18, STEEL2, 1)
+        + r(1.5, 14, 6, 3, STEEL2, 1)
+        + r(1.5, 19, 5, 3, STEEL2, 1);
+    }
+  };
+  A.heldProp = function (name) {
+    var f = HELD[String(name || '').toLowerCase()];
+    return f ? f() : '';
+  };
+  A.heldPropNames = function () { return Object.keys(HELD); };
+
   A.wordArt = function (word, size) {
     var f = WORDS[String(word || '').toLowerCase()];
     if (!f) return null;
