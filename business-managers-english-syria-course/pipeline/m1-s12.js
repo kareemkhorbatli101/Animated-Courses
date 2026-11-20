@@ -195,10 +195,10 @@ cycles: [
              '**Float:** counted, bagged, **figure on the bag — 15,000.**',
              '**Handover page:** **on the counter under the stapler.**'] },
   elicit: [
-    { ask: 'What does the first person in your workplace look for?',
+    { ask: 'What does the first person in your own business look for?',
       pair: 'Tell your partner three things. Your partner asks where they are now.',
       out: 'Each pair names one thing that is not where it is looked for.' },
-    { ask: 'How long does the morning take to start where you work?',
+    { ask: 'How long does the morning take to start in your business?',
       pair: 'Tell your partner. Your partner asks what the delay is.',
       out: 'The class compares. Most delays are searching.' } ] },
 
