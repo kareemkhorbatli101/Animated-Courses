@@ -125,6 +125,16 @@ jobs:
       # So: ask whether the artifact can be seen before handing it to the
       # deployer. Up to ninety seconds, then go anyway - if the index is still
       # cold the deploy fails as it did before and nothing is worse.
+      #
+      # ⚠ WHAT IS AND IS NOT PROVEN. On the first run with this step in place
+      # the deploy succeeded and the step printed "artifact visible after 0s" -
+      # so the step's own mechanics are proven (the permission is right, the
+      # query works, it reads a positive answer correctly) and the RESCUE is
+      # not: the race simply did not happen that time, and that deploy would
+      # have succeeded without this step. Do not read a green run as evidence
+      # that this fixed anything. The thing to look for is a run where the log
+      # says "not visible yet (5s) - waiting" and then deploys anyway; until
+      # one of those appears, this is a measured guess and no more.
       - name: Wait for the artifact to be listable
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
