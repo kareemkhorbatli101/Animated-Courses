@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-16-1",
+  "cycle": "16.1",
+  "title": "We used to write every order by hand",
+  "objective": "say what you used to do and no longer do",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-16-2",
+  "cycle": "16.2",
+  "title": "The company has grown to nineteen",
+  "objective": "describe what has changed up to now",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-16-3",
+  "cycle": "16.3",
+  "title": "It is not as quiet as it used to be",
+  "objective": "compare then and now with as … as",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-16-4",
+  "cycle": "16.4",
+  "title": "Prices have not moved since March",
+  "objective": "measure a period with since and for",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-16-5",
+  "cycle": "16.5",
+  "title": "There was one van and one telephone",
+  "objective": "describe the old way, with there was and there were",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-16-6",
+  "cycle": "16.6",
+  "title": "We changed it because of the rain",
+  "objective": "explain why something changed",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-16-7",
+  "cycle": "16.7",
+  "title": "Review & Mediate: the company history",
+  "objective": "Review & Mediate: tell a colleague what the company history says",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

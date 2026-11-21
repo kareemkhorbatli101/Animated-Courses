@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-18-1",
+  "cycle": "18.1",
+  "title": "Please find attached",
+  "objective": "write the fixed phrases of a work email",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-18-2",
+  "cycle": "18.2",
+  "title": "First open the order screen",
+  "objective": "give instructions in order, so somebody can follow them",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-18-3",
+  "cycle": "18.3",
+  "title": "The system is down",
+  "objective": "describe something that is not working",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-18-4",
+  "cycle": "18.4",
+  "title": "The book is slower and it is never down",
+  "objective": "compare two ways of doing the same job",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-18-5",
+  "cycle": "18.5",
+  "title": "It is in the shared folder, under Suppliers",
+  "objective": "say where a file is kept, and name it so it can be found",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-18-6",
+  "cycle": "18.6",
+  "title": "Do not click it",
+  "objective": "give a safe-working rule about a message nobody expected",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-18-7",
+  "cycle": "18.7",
+  "title": "Review & Mediate: the IT notice",
+  "objective": "Review & Mediate: tell a colleague what the IT notice says",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

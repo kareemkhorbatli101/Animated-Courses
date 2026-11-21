@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-20-1",
+  "cycle": "20.1",
+  "title": "The shutter needs adjusting",
+  "objective": "say that something needs work",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-20-2",
+  "cycle": "20.2",
+  "title": "When can you come?",
+  "objective": "arrange a visit, and pin down the time",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-20-3",
+  "cycle": "20.3",
+  "title": "It is still not working",
+  "objective": "follow up when it is still not working",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-20-4",
+  "cycle": "20.4",
+  "title": "It was repaired on Wednesday",
+  "objective": "say what was done, and by whom",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-20-5",
+  "cycle": "20.5",
+  "title": "How much will it cost?",
+  "objective": "ask what it will cost, before the work starts",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-20-6",
+  "cycle": "20.6",
+  "title": "Thank you for coming so quickly",
+  "objective": "thank somebody properly, and confirm what happens next",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-20-7",
+  "cycle": "20.7",
+  "title": "Review & Mediate: the service request",
+  "objective": "Review & Mediate: tell a colleague what the service request says",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

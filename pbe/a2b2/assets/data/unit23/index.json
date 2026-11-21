@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-23-1",
+  "cycle": "23.1",
+  "title": "We were founded in 1998",
+  "objective": "say when a company was founded, and how long it has been here",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-23-2",
+  "cycle": "23.2",
+  "title": "There is a generator, but there is no lift",
+  "objective": "describe what there is in a place, and what there is not",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-23-3",
+  "cycle": "23.3",
+  "title": "Cheaper than Damascus, further from the port",
+  "objective": "compare two cities, or two districts, without exaggerating",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-23-4",
+  "cycle": "23.4",
+  "title": "It is made here and sent to Beirut",
+  "objective": "use the simple passive: it is made here · they are sent to Beirut",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-23-5",
+  "cycle": "23.5",
+  "title": "Because of the power cut, not because we forgot",
+  "objective": "explain a difficulty with because of",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-23-6",
+  "cycle": "23.6",
+  "title": "Did you read about the new rule?",
+  "objective": "talk about something you read in the business news",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-23-7",
+  "cycle": "23.7",
+  "title": "Review & Mediate: the local business page",
+  "objective": "Review & Mediate: tell a visitor what the local business page says",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

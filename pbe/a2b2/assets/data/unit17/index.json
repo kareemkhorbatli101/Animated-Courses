@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-17-1",
+  "cycle": "17.1",
+  "title": "I would like to learn the accounts system",
+  "objective": "say what you would like to learn, and why",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-17-2",
+  "cycle": "17.2",
+  "title": "Three weeks, Tuesdays and Thursdays, five to seven",
+  "objective": "talk about a course: how long, which days, what it costs",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-17-3",
+  "cycle": "17.3",
+  "title": "You need to bring your badge",
+  "objective": "say what somebody needs to do",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-17-4",
+  "cycle": "17.4",
+  "title": "It is easy once you have done it twice",
+  "objective": "say that something is easy or hard — and for whom",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-17-5",
+  "cycle": "17.5",
+  "title": "I am good at numbers and bad at letters",
+  "objective": "describe what you are good at and what you are not",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-17-6",
+  "cycle": "17.6",
+  "title": "Could you show me how to do it?",
+  "objective": "ask somebody to show you how to do something",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-17-7",
+  "cycle": "17.7",
+  "title": "Review & Mediate: the course notice",
+  "objective": "Review & Mediate: tell a colleague what the course notice says",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

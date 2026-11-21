@@ -139,7 +139,14 @@
     returnsdesk:   [0.26, 0.69, 0.47],
     writingdesk:   [0.24, 0.63, 0.43],
     rooftop:       [0.20, 0.47, 0.72],
-    newbranch:     [0.21, 0.66, 0.45]
+    newbranch:     [0.21, 0.66, 0.45],
+    /* B1 Book 1's four rooms of its own. Four rows and not twelve, because the
+       other eight units use rooms already in this table - see the long note
+       above MINE.accountdesk. */
+    accountdesk:   [0.20, 0.72, 0.46],
+    workbench:     [0.18, 0.74, 0.47],
+    stocktake:     [0.17, 0.75, 0.46],
+    signingdesk:   [0.24, 0.68, 0.46]
   };
   var ACTOR_HALF = 0.085 * W;          // half an actor box, in stage units
   var WAIST_Y = 0.56 * H;              // above this, a small prop is across a body
@@ -236,7 +243,13 @@
     itcorner:      { x0: 320, x1: 1280, top: 552 },
     showroom:      { x0: 200, x1: 1400, top: 560 },
     returnsdesk:   { x0: 260, x1: 1340, top: 556 },
-    writingdesk:   { x0: 460, x1: 1140, top: 558 }
+    writingdesk:   { x0: 460, x1: 1140, top: 558 },
+    /* B1 Book 1. `stocktake` is deliberately absent: its fore layer stands on
+       the floor of an aisle, below the waist line, and a surface span would be
+       a fight with the floor - the same reason `warehouse` is absent. */
+    accountdesk:   { x0: 400, x1: 1200, top: 560 },
+    workbench:     { x0: 240, x1: 1360, top: 556 },
+    signingdesk:   { x0: 440, x1: 1160, top: 558 }
   };
   //: exported so gates/pbe_art.py can ask the page the same question it measures
   A.pbeContract = { spots: SPOTS, actorHalf: ACTOR_HALF, waistY: WAIST_Y,
@@ -3223,6 +3236,379 @@
       s += r(P.pl - 16, 672, 32, 112, PAPER, 6);
       s += '<ellipse cx="' + P.pl + '" cy="672" rx="16" ry="7" fill="#e6dfd0"/>';
       s += line(P.pl - 16, 712, P.pl + 16, 712, '#cfc6b2', 4);
+      return stage(s);
+    }
+  };
+
+  /* ============================================================
+     B1 BOOK 1 — FOUR MORE ROOMS, AND EIGHT THE SERIES ALREADY HAS.
+
+     B1's units are named after grammar: cause and effect, the second conditional,
+     reported speech. A room cannot draw a tense. What it CAN draw is the document
+     the unit turns on, and that is how this level's rooms are chosen - unit 7 is
+     the written explanation, so it happens at the writing desk the series already
+     has; unit 10 is reporting what was said, so it happens in the meeting room
+     where it was said.
+
+     Eight of the twelve are therefore rooms already drawn for A1 or A2. That is
+     the rule in tools/pbe_build_unit.py working as intended rather than being
+     dodged: a unit's room is the room the unit is ABOUT, and a near-duplicate of
+     the canteen invented for "telling the story of a working day" would teach a
+     learner nothing and cost them one more room to hold in their head. Reuse
+     ACROSS books has always been allowed and A1 Book 2 did it five times out of
+     six; what is forbidden is two units of the SAME book sharing a room, and no
+     two of these twelve do.
+
+     Four units have a world of their own, and get it:
+
+        1  accountdesk  the account file, and the card of names behind it
+        5  workbench    where the thing is actually done, and the card saying how
+        9  stocktake    the half-counted aisle, where "about" is the honest word
+       12  signingdesk  one page, two pens, and the log it is written into
+
+     Mr Attar, the external auditor, is this book's recurring reader - he is in
+     six of the twelve units - so he is deliberately NOT given a room. He comes
+     to where the work is, which is the whole point of him.
+
+     ⚠ AND THIS IS THE CANONICAL COPY. `course_engine --series-art pbe-a2b1`
+     pushes this file to every other book of the series. The argument is the
+     SOURCE: running it with any other book as the source overwrites this copy
+     with that one, which is how these four rooms were written once and lost
+     before they were ever committed. Edit here, then sync from here.
+     ============================================================ */
+
+  /* ------------------------------------------------- B1·1 · THE ACCOUNT DESK
+     Unit 1: an account is not a company, it is a person who answers for it. The
+     board on the wall is the lesson - three accounts, each with the name of who
+     to speak to, and one name crossed out and replaced, which is why the unit
+     exists at all. */
+  MINE.accountdesk = {
+    back: function (arr) {
+      var s = r(0, 0, W, H, STONE) + r(0, 0, W, 184, STONE2);
+      s += r(0, 648, W, 252, FLOOR) + r(0, 648, W, 16, FLOOR2);
+      /* WHO TO SPEAK TO. The crossing-out is drawn, not implied: the unit's
+         first cycle is about an account whose contact has changed. */
+      s += r(150, 214, 540, 326, PAPER, 8);
+      s += r(150, 214, 540, 50, STEEL2, 4);
+      s += text(420, 248, 'WHO TO SPEAK TO', 22, PAPER, 'middle', 800);
+      var ROWS = [['JABER FREIGHT', 'Mr Jaber'],
+                  ['SHAMSI PACKAGING', 'Ms Shamsi'],
+                  ['NAHHAS STEEL', 'Mr Nahhas']];
+      for (var i = 0; i < ROWS.length; i++) {
+        var y = 308 + i * 74;
+        s += text(174, y, ROWS[i][0], 19, INK, 'start', 700);
+        s += text(174, y + 28, ROWS[i][1], 19, OLIVE, 'start', 600);
+        s += line(174, y + 44, 666, y + 44, '#e2dacb', 3);
+      }
+      /* the one that changed: the old name struck through, the new one beside it */
+      s += text(430, 456, 'Samira', 19, STEEL2, 'start', 600);
+      s += line(428, 450, 520, 450, RUST, 4);
+      s += text(534, 456, '→ Mr Jaber', 19, RUST, 'start', 700);
+      /* and a window, because this desk is in the office and not in a cupboard */
+      s += r(1040, 206, 400, 300, SKY, 8);
+      s += r(1040, 206, 400, 54, SKY2, 6);
+      s += line(1240, 206, 1240, 506, STONE2, 10);
+      s += line(1040, 356, 1440, 356, STONE2, 10);
+      s += r(1024, 190, 432, 24, STEEL2, 6);
+      return stage(s);
+    },
+    mid: function (arr) {
+      /* the desk, top at the declared y=560, and the drawer unit beside it with
+         one drawer open - the account files live in it and the unit opens one */
+      var side = slot(arr, [0, 1, 2]);
+      var s = shadow(800, 740, 860);
+      s += r(400, 560, 800, 160, WOOD, 6) + r(400, 548, 800, 20, WOOD2, 4);
+      s += r(436, 608, 728, 10, '#8a6540', 3);
+      s += shadow(1296, 744, 240);
+      s += r(1196, 556, 200, 188, STEEL, 6);
+      for (var i = 0; i < 3; i++) {
+        var out = (i === side) ? 34 : 0;
+        s += r(1204 - out, 566 + i * 60, 184, 50,
+               (i === side) ? STEEL2 : '#9aa6ae', 4);
+        s += r(1264 - out, 584 + i * 60, 60, 10, '#c6ced3', 3);
+        if (i === side) {
+          s += r(1216 - out, 542 + i * 60, 40, 30, PAPER, 2);
+          s += r(1262 - out, 542 + i * 60, 40, 30, '#f2ece0', 2);
+        }
+      }
+      var inx = slot(arr, [0, 30, -24]);
+      s += shadow(700 + inx, 760, 160);
+      s += r(636 + inx, 500, 128, 22, WOOD2, 6);
+      s += r(646 + inx, 522, 108, 120, '#b08a5e', 4);
+      s += r(692 + inx, 642, 16, 112, WOOD2, 3);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE DESK: the account file open, the card of names, the telephone.
+         Surface 400..1200, top 560. Everything here is 46 or less, so its top is
+         at or above y=514 - below the waist line at 504 is NEVER crossed, which
+         is what keeps a page off a speaker's chest without depending on where
+         the three arrangements happen to put it. */
+      var TOP = 560, s = '';
+      var P = slot(arr, [{ fl: 470, cd: 830, ph: 1060 },
+                         { fl: 620, cd: 480, ph: 1080 },
+                         { fl: 790, cd: 530, ph: 1040 }]);
+      s += sit(P.fl + 108, TOP, 240);
+      s += rest(P.fl, TOP, 216, 14, '#e8dfcc', 2);
+      s += rest(P.fl + 4, TOP - 14, 100, 10, PAPER, 1);
+      s += rest(P.fl + 112, TOP - 14, 100, 10, '#f4eee2', 1);
+      s += text(P.fl + 108, TOP - 30, 'ACCOUNT 3318', 14, STEEL2, 'middle', 700);
+      s += sit(P.cd + 56, TOP, 130);
+      s += rest(P.cd, TOP, 112, 12, PAPER, 2);
+      s += text(P.cd + 56, TOP - 18, 'NAMES', 13, OLIVE, 'middle', 700);
+      s += sit(P.ph + 52, TOP, 120);
+      s += rest(P.ph, TOP, 104, 26, INK, 5);
+      s += rest(P.ph + 10, TOP - 26, 84, 18, '#4b545f', 4);
+      s += p('M ' + (P.ph + 8) + ' ' + (TOP - 46) + ' q 44 -14 88 0', 'none',
+             ' stroke="' + INK + '" stroke-width="11" stroke-linecap="round"');
+      return stage(s);
+    }
+  };
+
+  /* --------------------------------------------------- B1·5 · THE WORKBENCH
+     Unit 5: how it is done here - the passive, and a procedure that exists
+     whether or not anybody has written it down. Here somebody has: the card on
+     the wall is five numbered steps, and the tool board has an outline for every
+     tool so a missing one is visible from the door. */
+  MINE.workbench = {
+    back: function (arr) {
+      var s = r(0, 0, W, H, '#dcd6c8') + r(0, 0, W, 176, '#cbc3b1');
+      s += r(0, 648, W, 252, '#bfb49f') + r(0, 648, W, 16, FLOOR2);
+      /* THE PROCEDURE, in five numbered steps, laminated and screwed to the wall */
+      s += r(140, 206, 470, 334, PAPER, 6);
+      s += r(140, 206, 470, 48, OLIVE, 4);
+      s += text(375, 240, 'HOW IT IS DONE', 21, PAPER, 'middle', 800);
+      var ST = ['1  The part is checked', '2  The jig is set',
+                '3  The bolt is torqued', '4  It is signed for',
+                '5  The sheet goes in the file'];
+      for (var i = 0; i < ST.length; i++) {
+        s += text(164, 296 + i * 48, ST[i], 18, INK, 'start', 600);
+      }
+      s += c(160, 222, 7, STEEL2) + c(590, 222, 7, STEEL2);
+      s += c(160, 524, 7, STEEL2) + c(590, 524, 7, STEEL2);
+      /* THE TOOL BOARD: an outline for every tool, and two of them empty, which
+         is the only way a board like this ever says anything */
+      s += r(1000, 196, 460, 300, '#b9a98c', 8);
+      s += r(1016, 212, 428, 268, '#a08f72', 4);
+      var TL = [[1052, 250], [1148, 250], [1244, 250], [1340, 250],
+                [1052, 360], [1148, 360], [1244, 360], [1340, 360]];
+      for (var j = 0; j < TL.length; j++) {
+        var has = !(j === 2 || j === 5);
+        s += r(TL[j][0], TL[j][1], 68, 86, '#8d7d62', 4);
+        if (has) {
+          s += r(TL[j][0] + 24, TL[j][1] + 10, 20, 54, STEEL2, 3);
+          s += c(TL[j][0] + 34, TL[j][1] + 72, 12, STEEL);
+        }
+      }
+      s += text(1230, 468, 'EVERY TOOL HAS A PLACE', 16, PAPER, 'middle', 700);
+      return stage(s);
+    },
+    mid: function (arr) {
+      /* the bench, top at the declared y=556, with a vice bolted to one end */
+      var s = shadow(800, 756, 1040);
+      s += r(240, 556, 1120, 44, WOOD2, 4) + r(240, 556, 1120, 14, '#9b7347', 3);
+      s += r(276, 600, 40, 150, STEEL2, 4) + r(1284, 600, 40, 150, STEEL2, 4);
+      s += r(300, 666, 1000, 20, STEEL, 3);
+      var vx = slot(arr, [300, 1216, 300]);
+      s += r(vx, 500, 84, 56, STEEL2, 5);
+      s += r(vx + 14, 476, 56, 30, STEEL, 4);
+      s += c(vx + 42, 470, 13, RUST);
+      var sx = slot(arr, [640, 900, 760]);
+      s += shadow(sx, 772, 130);
+      s += r(sx - 54, 630, 108, 20, WOOD2, 5);
+      s += r(sx - 8, 650, 16, 112, STEEL2, 3);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE BENCH: the step card lying flat, the wrench lying down, and the
+         two parts - one done and stamped, one not. Surface 240..1360, top 556.
+         Nothing is taller than 40, so no top reaches the waist line at 504. */
+      var TOP = 556, s = '';
+      var P = slot(arr, [{ cd: 330, wr: 700, a: 1060, b: 1180 },
+                         { cd: 560, wr: 300, a: 980, b: 1100 },
+                         { cd: 900, wr: 420, a: 1200, b: 1080 }]);
+      s += sit(P.cd + 94, TOP, 210);
+      s += rest(P.cd, TOP, 188, 12, PAPER, 2);
+      s += line(P.cd + 12, TOP - 8, P.cd + 170, TOP - 8, '#d8d0bd', 2);
+      s += text(P.cd + 94, TOP - 20, 'STEPS 1-5', 13, OLIVE, 'middle', 700);
+      s += sit(P.wr + 90, TOP, 200);
+      s += rest(P.wr, TOP, 180, 16, STEEL2, 6);
+      s += rest(P.wr + 150, TOP, 44, 30, STEEL, 5);
+      s += text(P.wr + 90, TOP - 36, 'TORQUE', 12, '#7f8a92', 'middle', 700);
+      s += sit(P.a + 30, TOP, 76);
+      s += rest(P.a, TOP, 64, 40, '#9aa6ae', 4);
+      s += c(P.a + 32, TOP - 20, 9, OLIVE);
+      s += sit(P.b + 30, TOP, 76);
+      s += rest(P.b, TOP, 64, 40, '#b2bcc3', 4);
+      return stage(s);
+    }
+  };
+
+  /* ---------------------------------------------------- B1·9 · THE STOCKTAKE
+     Unit 9: deduction, doubt and the honest estimate. The aisle is half counted -
+     the bays ticked in chalk, one with a question mark - because the unit is
+     about the difference between "there are 240" and "there are about 240, and
+     here is what the difference would cost".
+     ⚠ NOT IN `SURFACES`, deliberately: everything this room's fore layer paints
+     stands on the FLOOR, where `clearOf` exempts it for being below the waist. A
+     declared surface span would be a fight with the floor, exactly as the note on
+     `warehouse` says. */
+  MINE.stocktake = {
+    back: function (arr) {
+      var s = r(0, 0, W, H, '#d7d2c6') + r(0, 0, W, 150, '#c4bdac');
+      s += r(0, 620, W, 280, FLOOR) + r(0, 620, W, 18, FLOOR2);
+      var BAY = ['A1', 'A2', 'A3', 'A4', 'A5', 'A6'];
+      var done = slot(arr, [4, 3, 5]);
+      for (var i = 0; i < BAY.length; i++) {
+        var x = 110 + i * 232;
+        s += r(x, 170, 212, 452, '#b9b1a0', 5);
+        s += r(x + 8, 178, 196, 436, '#a9a08d', 3);
+        for (var k = 0; k < 3; k++) {
+          s += r(x + 8, 250 + k * 124, 196, 14, STEEL2, 3);
+          s += r(x + 22, 194 + k * 124, 74, 56, '#b4885c', 3);
+          s += r(x + 108, 206 + k * 124, 74, 44, '#c49a68', 3);
+        }
+        s += r(x + 66, 596, 80, 30, PAPER, 3);
+        s += text(x + 106, 618, BAY[i], 18, INK, 'middle', 800);
+        if (i < done) {
+          s += p('M ' + (x + 80) + ' 160 l 22 22 l 40 -46', 'none',
+                 ' stroke="' + OLIVE + '" stroke-width="9" stroke-linecap="round"'
+                 + ' stroke-linejoin="round"');
+        } else if (i === done) {
+          s += text(x + 106, 168, '?', 44, RUST, 'middle', 800);
+        }
+      }
+      return stage(s);
+    },
+    mid: function (arr) {
+      /* the stepladder and the trolley - where they are in the aisle is the
+         arrangement, and both stand on the floor */
+      var P = slot(arr, [{ ld: 420, tr: 1140 },
+                         { ld: 1180, tr: 400 },
+                         { ld: 760, tr: 1240 }]);
+      var s = shadow(P.ld, 790, 220);
+      s += line(P.ld - 60, 786, P.ld - 6, 516, STEEL2, 16);
+      s += line(P.ld + 60, 786, P.ld + 6, 516, STEEL2, 16);
+      for (var i = 0; i < 3; i++) {
+        s += r(P.ld - 52 + i * 8, 700 - i * 62, 104 - i * 16, 14, STEEL, 3);
+      }
+      s += shadow(P.tr, 796, 260);
+      s += r(P.tr - 118, 690, 236, 22, STEEL2, 5);
+      s += line(P.tr + 110, 690, P.tr + 110, 500, STEEL2, 14);
+      s += r(P.tr + 56, 492, 110, 18, STEEL, 4);
+      s += c(P.tr - 90, 778, 20, INK) + c(P.tr + 90, 778, 20, INK);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE FLOOR, below the waist line: two stacks pulled out to be counted
+         and the tally on a clipboard leaning against one. The tallest thing here
+         tops out at y=626, which is far below the 504 waist line - and that is
+         why this room needs no surface span. */
+      var s = '';
+      var P = slot(arr, [{ a: 210, b: 1240, cl: 360 },
+                         { a: 560, b: 180, cl: 700 },
+                         { a: 1180, b: 620, cl: 1320 }]);
+      s += shadow(P.a + 78, 792, 200);
+      for (var i = 0; i < 3; i++) {
+        s += r(P.a + (i % 2) * 9, 750 - i * 42, 156, 42,
+               i % 2 ? '#b4885c' : '#c49a68', 3);
+        s += line(P.a + 20 + (i % 2) * 9, 770 - i * 42,
+                  P.a + 120 + (i % 2) * 9, 770 - i * 42, '#9b7347', 3);
+      }
+      s += text(P.a + 78, 786, 'COUNTED', 14, '#6f7a83', 'middle', 700);
+      s += shadow(P.b + 70, 792, 180);
+      for (var j = 0; j < 2; j++) {
+        s += r(P.b + (j % 2) * 7, 750 - j * 42, 140, 42,
+               j % 2 ? '#c49a68' : '#b4885c', 3);
+      }
+      s += text(P.b + 70, 786, 'NOT YET', 14, RUST, 'middle', 700);
+      s += shadow(P.cl, 790, 90);
+      s += r(P.cl - 44, 646, 88, 144, '#8d7d62', 4);
+      s += r(P.cl - 36, 656, 72, 124, PAPER, 2);
+      for (var k = 0; k < 4; k++) {
+        s += line(P.cl - 26, 692 + k * 24, P.cl + 26, 692 + k * 24, '#cfc6b2', 3);
+      }
+      s += text(P.cl, 678, 'TALLY', 13, OLIVE, 'middle', 700);
+      return stage(s);
+    }
+  };
+
+  /* -------------------------------------------------- B1·12 · THE SIGNING DESK
+     Unit 12: opinions, agreement and the decision. The log on the wall is the
+     unit's argument in one picture - two decisions dated and signed, and a third
+     line still empty, which is what the seven cycles are for. */
+  MINE.signingdesk = {
+    back: function (arr) {
+      var s = r(0, 0, W, H, '#e2dbcd') + r(0, 0, W, 190, '#d0c8b6');
+      s += r(0, 648, W, 252, FLOOR) + r(0, 648, W, 16, FLOOR2);
+      s += r(170, 212, 560, 330, PAPER, 8);
+      s += r(170, 212, 560, 50, INK, 4);
+      s += text(450, 246, 'DECISIONS', 22, PAPER, 'middle', 800);
+      var D = [['14 Mar', 'Book kept for the daily close', 'K.A.'],
+               ['02 Jun', 'Saturdays: Mezzeh only, 6 weeks', 'K.A.'],
+               ['', '', '']];
+      for (var i = 0; i < D.length; i++) {
+        var y = 310 + i * 76;
+        s += line(190, y + 26, 710, y + 26, '#ded6c4', 3);
+        if (D[i][0]) {
+          s += text(192, y, D[i][0], 18, RUST, 'start', 700);
+          s += text(290, y, D[i][1], 17, INK, 'start', 600);
+          s += text(690, y, D[i][2], 17, OLIVE, 'end', 700);
+        } else {
+          s += text(192, y, '—', 18, '#c3bcab', 'start', 700);
+        }
+      }
+      /* the clock, because this unit ends in a decision and decisions are timed */
+      s += c(1230, 330, 108, PAPER);
+      s += c(1230, 330, 98, '#f4eee2') + c(1230, 330, 9, INK);
+      for (var h = 0; h < 12; h++) {
+        var a = h * Math.PI / 6;
+        s += c(1230 + Math.sin(a) * 80, 330 - Math.cos(a) * 80, 5, STEEL2);
+      }
+      s += line(1230, 330, 1230, 268, INK, 8);
+      s += line(1230, 330, 1278, 356, INK, 6);
+      return stage(s);
+    },
+    mid: function (arr) {
+      /* the table, top at the declared y=558, and two chairs turned towards each
+         other rather than towards the camera - this is a conversation, not a desk */
+      var inx = slot(arr, [0, 28, -20]);
+      var s = shadow(560 + inx, 724, 150);
+      s += r(498 + inx, 502, 124, 22, WOOD2, 6);
+      s += r(508 + inx, 524, 104, 114, '#b08a5e', 4);
+      s += r(552 + inx, 638, 16, 78, WOOD2, 3);
+      s += shadow(1050 - inx, 724, 150);
+      s += r(988 - inx, 502, 124, 22, WOOD2, 6);
+      s += r(998 - inx, 524, 104, 114, '#b08a5e', 4);
+      s += r(1042 - inx, 638, 16, 78, WOOD2, 3);
+      s += shadow(800, 736, 760);
+      s += r(440, 558, 720, 152, WOOD, 6) + r(440, 546, 720, 20, WOOD2, 4);
+      s += r(472, 604, 656, 10, '#8a6540', 3);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE TABLE: the one page, two pens, and the date stamp. Surface
+         440..1160, top 558. The stamp is the tallest at 46, so its top is 512 -
+         below the waist line at 504 - and the page lies FLAT, as a page on a
+         table does. The first draft of the interview room stood its CV up in a
+         stand and failed all three arrangements; it is written down in both
+         places on purpose, because it is the mistake this layer invites. */
+      var TOP = 558, s = '';
+      var P = slot(arr, [{ pg: 520, p1: 800, p2: 860, st: 1060 },
+                         { pg: 660, p1: 500, p2: 560, st: 1080 },
+                         { pg: 800, p1: 520, p2: 1100, st: 580 }]);
+      s += sit(P.pg + 108, TOP, 236);
+      s += rest(P.pg, TOP, 212, 12, PAPER, 2);
+      s += line(P.pg + 16, TOP - 8, P.pg + 196, TOP - 8, '#d8d0bd', 3);
+      s += text(P.pg + 108, TOP - 20, 'ONE PAGE', 13, STEEL2, 'middle', 700);
+      s += sit(P.p1 + 22, TOP, 60);
+      s += rest(P.p1, TOP, 44, 10, INK, 4);
+      s += sit(P.p2 + 22, TOP, 60);
+      s += rest(P.p2, TOP, 44, 10, RUST, 4);
+      s += sit(P.st + 34, TOP, 86);
+      s += rest(P.st, TOP, 68, 24, '#4b545f', 4);
+      s += rest(P.st + 18, TOP - 24, 32, 22, INK, 3);
+      s += text(P.st + 34, TOP - 52, 'DATE', 12, '#9aa4ac', 'middle', 700);
       return stage(s);
     }
   };

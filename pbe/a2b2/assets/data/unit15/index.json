@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-15-1",
+  "cycle": "15.1",
+  "title": "The printer is jamming again",
+  "objective": "describe a problem exactly, so that somebody can act on it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-15-2",
+  "cycle": "15.2",
+  "title": "Why don't we send it with the Homs lorry?",
+  "objective": "suggest three ways round it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-15-3",
+  "cycle": "15.3",
+  "title": "If we wait, we will lose the order",
+  "objective": "say what will happen if nothing is done",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-15-4",
+  "cycle": "15.4",
+  "title": "It was delivered on Tuesday",
+  "objective": "say what was done, without saying who did it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-15-5",
+  "cycle": "15.5",
+  "title": "I am afraid your order is one line short",
+  "objective": "break bad news to a customer",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-15-6",
+  "cycle": "15.6",
+  "title": "Let me check and telephone you back",
+  "objective": "buy time on the telephone without losing the customer",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-15-7",
+  "cycle": "15.7",
+  "title": "Review & Mediate: the problem report",
+  "objective": "Review & Mediate: tell a colleague what the problem report says",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

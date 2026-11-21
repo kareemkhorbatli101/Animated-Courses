@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-22-1",
+  "cycle": "22.1",
+  "title": "Dear Mr Ayoub, Dear Sir or Madam, Hello Hala",
+  "objective": "open an email correctly, to anybody",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-22-2",
+  "cycle": "22.2",
+  "title": "I am writing to ask about…",
+  "objective": "state your purpose in the first line",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-22-3",
+  "cycle": "22.3",
+  "title": "Could you possibly send it?",
+  "objective": "make a formal request",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-22-4",
+  "cycle": "22.4",
+  "title": "Please let me know by Thursday",
+  "objective": "give a deadline that works",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-22-5",
+  "cycle": "22.5",
+  "title": "Thank you in advance, Best regards",
+  "objective": "close, and choose between the four closings",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-22-6",
+  "cycle": "22.6",
+  "title": "The same message, two ways",
+  "objective": "write the same message two ways, for two readers",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-22-7",
+  "cycle": "22.7",
+  "title": "Review & Mediate: two emails compared",
+  "objective": "Review & Mediate: tell a colleague what two emails are really doing",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

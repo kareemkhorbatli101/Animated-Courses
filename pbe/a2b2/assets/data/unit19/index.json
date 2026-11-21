@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-19-1",
+  "cycle": "19.1",
+  "title": "We buy the boxes from Aleppo",
+  "objective": "say where you buy from, and what from each",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-19-2",
+  "cycle": "19.2",
+  "title": "Could you do better on the hundred?",
+  "objective": "ask for a better price, politely and specifically",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-19-3",
+  "cycle": "19.3",
+  "title": "If you order a hundred, we will reduce it",
+  "objective": "make a conditional offer",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-19-4",
+  "cycle": "19.4",
+  "title": "We have bought from her for eleven years",
+  "objective": "describe a long relationship, and what it is worth",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-19-5",
+  "cycle": "19.5",
+  "title": "Reliable, fair, slow, always on time",
+  "objective": "describe a supplier: reliable, fair, slow, always on time",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-19-6",
+  "cycle": "19.6",
+  "title": "Let us agree on the day and the price",
+  "objective": "agree terms, and write them down",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-19-7",
+  "cycle": "19.7",
+  "title": "Review & Mediate: the quotation",
+  "objective": "Review & Mediate: tell a colleague what the quotation says",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

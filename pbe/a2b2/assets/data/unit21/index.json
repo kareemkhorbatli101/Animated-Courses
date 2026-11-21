@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-21-1",
+  "cycle": "21.1",
+  "title": "Two of the twenty boxes were crushed",
+  "objective": "report damage exactly, with numbers",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-21-2",
+  "cycle": "21.2",
+  "title": "I would like to make a complaint",
+  "objective": "make a complaint politely and firmly",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-21-3",
+  "cycle": "21.3",
+  "title": "I am very sorry about that",
+  "objective": "apologise for your company when it is not your fault",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-21-4",
+  "cycle": "21.4",
+  "title": "We will send a replacement",
+  "objective": "say what you will do to put it right",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-21-5",
+  "cycle": "21.5",
+  "title": "Goods must be checked on arrival",
+  "objective": "state a quality rule",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-21-6",
+  "cycle": "21.6",
+  "title": "Is it under guarantee?",
+  "objective": "ask whether something is under guarantee",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-21-7",
+  "cycle": "21.7",
+  "title": "Review & Mediate: the complaint letter",
+  "objective": "Review & Mediate: tell a colleague what the complaint letter says",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

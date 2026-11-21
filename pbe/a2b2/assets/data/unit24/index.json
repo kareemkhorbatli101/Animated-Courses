@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-24-1",
+  "cycle": "24.1",
+  "title": "We are going to open on the first",
+  "objective": "say what is going to happen, and how certain it is",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-24-2",
+  "cycle": "24.2",
+  "title": "We hope to open in Homs",
+  "objective": "say what you hope to do, without promising it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-24-3",
+  "cycle": "24.3",
+  "title": "We would like to propose three steps",
+  "objective": "propose something: we would like to…",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-24-4",
+  "cycle": "24.4",
+  "title": "First, then, after that — and why",
+  "objective": "put a plan in order: first · then · after that, each step with a reason",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-24-5",
+  "cycle": "24.5",
+  "title": "We have already done three of the five",
+  "objective": "say what has been done already, with the present perfect",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-24-6",
+  "cycle": "24.6",
+  "title": "Closing well — a year, a project, a course",
+  "objective": "close well — a year, a project, a course",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-24-7",
+  "cycle": "24.7",
+  "title": "Review & Mediate: the year-end note and the course review",
+  "objective": "Review & Mediate: the year-end note, and the course review",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

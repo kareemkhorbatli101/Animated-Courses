@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-14-1",
+  "cycle": "14.1",
+  "title": "We are going to open a second counter",
+  "objective": "say what your company is going to do",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-14-2",
+  "cycle": "14.2",
+  "title": "Sales will rise after Eid",
+  "objective": "predict — and say how sure you are",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-14-3",
+  "cycle": "14.3",
+  "title": "The shipment may be late",
+  "objective": "say that something is possible but not certain",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-14-4",
+  "cycle": "14.4",
+  "title": "If we order now, we will get it on Tuesday",
+  "objective": "link a condition to a result",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-14-5",
+  "cycle": "14.5",
+  "title": "Sales went up by six per cent",
+  "objective": "describe a simple chart in three sentences",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-14-6",
+  "cycle": "14.6",
+  "title": "I think we will need a second lorry",
+  "objective": "give an opinion about the future at a meeting",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-14-7",
+  "cycle": "14.7",
+  "title": "Review & Mediate: the sales chart and the forecast note",
+  "objective": "Review & Mediate: tell a colleague what the sales chart and the forecast note say",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

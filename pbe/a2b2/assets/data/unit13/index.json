@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-13-1",
+  "cycle": "13.1",
+  "title": "I have worked here for eleven years",
+  "objective": "say how long you have done something",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-13-2",
+  "cycle": "13.2",
+  "title": "Have you ever used this system?",
+  "objective": "ask and answer about experience",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-13-3",
+  "cycle": "13.3",
+  "title": "I have already sent it",
+  "objective": "say what is done already, and what is not done yet",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-13-4",
+  "cycle": "13.4",
+  "title": "I worked there in 2019",
+  "objective": "tell the difference between finished time and time that is still going",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-13-5",
+  "cycle": "13.5",
+  "title": "What I can put on a CV after one year",
+  "objective": "describe your skills without exaggerating and without hiding",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-13-6",
+  "cycle": "13.6",
+  "title": "Tell me about yourself",
+  "objective": "answer \"tell me about yourself\" in sixty seconds",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-13-7",
+  "cycle": "13.7",
+  "title": "Review & Mediate: what the advertisement is really asking for",
+  "objective": "Review & Mediate: tell a colleague what a job advertisement asks for",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]
