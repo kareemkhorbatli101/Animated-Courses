@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-8-1",
+  "cycle": "8.1",
+  "title": "If I were you",
+  "objective": "advise somebody at your own level",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-8-2",
+  "cycle": "8.2",
+  "title": "If we changed it",
+  "objective": "describe what would happen if something changed",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-8-3",
+  "cycle": "8.3",
+  "title": "Would, might, could",
+  "objective": "choose between would, might and could — and know what each promises",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-8-4",
+  "cycle": "8.4",
+  "title": "The conditions under which yes becomes yes",
+  "objective": "set the conditions under which a yes becomes a yes",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-8-5",
+  "cycle": "8.5",
+  "title": "Advice upwards",
+  "objective": "advise somebody senior without instructing them",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-8-6",
+  "cycle": "8.6",
+  "title": "Advice to a stranger",
+  "objective": "advise a customer you have never met",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-8-7",
+  "cycle": "8.7",
+  "title": "Review & Mediate: two options, and what I would do",
+  "objective": "Review & Mediate: two options, and what I would do",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

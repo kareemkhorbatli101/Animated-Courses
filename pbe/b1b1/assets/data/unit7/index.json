@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-7-1",
+  "cycle": "7.1",
+  "title": "Because, since, owing to",
+  "objective": "give a cause in three registers, and choose the right one",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-7-2",
+  "cycle": "7.2",
+  "title": "So, therefore, which meant that",
+  "objective": "make the reader see the consequence",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-7-3",
+  "cycle": "7.3",
+  "title": "So late that the contract moved",
+  "objective": "say how bad a result was, not just that there was one",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-7-4",
+  "cycle": "7.4",
+  "title": "The chain, and where to stop",
+  "objective": "build a chain of causes — and decide where to stop",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-7-5",
+  "cycle": "7.5",
+  "title": "Caused, led to, contributed to",
+  "objective": "distinguish caused, led to and contributed to",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-7-6",
+  "cycle": "7.6",
+  "title": "What I saw, what I was told, what I infer",
+  "objective": "separate what you saw from what you were told and what you infer",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-7-7",
+  "cycle": "7.7",
+  "title": "Review & Mediate: what does this report say caused it?",
+  "objective": "Review & Mediate: what does this report actually say caused it?",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

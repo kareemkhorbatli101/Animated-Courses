@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-12-1",
+  "cycle": "12.1",
+  "title": "I would say, I take the view",
+  "objective": "state a view when you are the junior person in the room",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-12-2",
+  "cycle": "12.2",
+  "title": "Up to a point",
+  "objective": "agree with the half that is right",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-12-3",
+  "cycle": "12.3",
+  "title": "Admittedly, and it is true that",
+  "objective": "concede the point that wins the argument",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-12-4",
+  "cycle": "12.4",
+  "title": "Hala, you have done this",
+  "objective": "bring in the person who knows and has not spoken",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-12-5",
+  "cycle": "12.5",
+  "title": "So are we agreed?",
+  "objective": "close a decision, and write it down before the room empties",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-12-6",
+  "cycle": "12.6",
+  "title": "On the one hand, on balance",
+  "objective": "write the balanced paragraph, and then take a position",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-12-7",
+  "cycle": "12.7",
+  "title": "Review & Mediate: both sides, and where I stand",
+  "objective": "Review & Mediate: both sides, and where I stand",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

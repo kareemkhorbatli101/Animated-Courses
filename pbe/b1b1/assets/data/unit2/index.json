@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-2-1",
+  "cycle": "2.1",
+  "title": "Before anything happened",
+  "objective": "set the scene — say what was happening when the thing happened",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-2-2",
+  "cycle": "2.2",
+  "title": "And then, and then, and then",
+  "objective": "tell the sequence, and stop telling it at the right place",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-2-3",
+  "cycle": "2.3",
+  "title": "While I was waiting",
+  "objective": "say what interrupted what: while and when",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-2-4",
+  "cycle": "2.4",
+  "title": "We used to do it the other way",
+  "objective": "say what used to happen, and what changed",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-2-5",
+  "cycle": "2.5",
+  "title": "Being the one who listens",
+  "objective": "be the listener — the questions that get the rest of the story",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-2-6",
+  "cycle": "2.6",
+  "title": "And that was the point",
+  "objective": "say what the story is for",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-2-7",
+  "cycle": "2.7",
+  "title": "Review & Mediate: tell it the way the driver told it",
+  "objective": "Review & Mediate: tell it the way the driver told it",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-10-1",
+  "cycle": "10.1",
+  "title": "She said she had already sent it",
+  "objective": "report a statement, with the tense moved back",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-10-2",
+  "cycle": "10.2",
+  "title": "What the auditor asked, in order",
+  "objective": "report a question in the order it was asked",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-10-3",
+  "cycle": "10.3",
+  "title": "He told me to, and I have to",
+  "objective": "report an instruction you have to carry out",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-10-4",
+  "cycle": "10.4",
+  "title": "Said, explained, admitted, pointed out",
+  "objective": "choose between said, explained, admitted and pointed out",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-10-5",
+  "cycle": "10.5",
+  "title": "What was said and what was meant",
+  "objective": "report what was said without reporting what you think was meant",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-10-6",
+  "cycle": "10.6",
+  "title": "The Monday meeting, in one page",
+  "objective": "write minutes in the house format",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-10-7",
+  "cycle": "10.7",
+  "title": "Review & Mediate: telling the person who was not in the room",
+  "objective": "Review & Mediate: telling the person who was not in the room",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

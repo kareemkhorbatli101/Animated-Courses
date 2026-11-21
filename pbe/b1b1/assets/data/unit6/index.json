@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-6-1",
+  "cycle": "6.1",
+  "title": "Company rule and law",
+  "objective": "tell a company rule apart from the law",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-6-2",
+  "cycle": "6.2",
+  "title": "What I don't have to do",
+  "objective": "distinguish what you don't have to do from what you mustn't",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-6-3",
+  "cycle": "6.3",
+  "title": "What I am authorised to sign",
+  "objective": "say what you are authorised to sign, in figures",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-6-4",
+  "cycle": "6.4",
+  "title": "What I may not decide alone",
+  "objective": "say what you may not decide alone, and who must be asked",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-6-5",
+  "cycle": "6.5",
+  "title": "Asking upwards",
+  "objective": "ask upwards for a limit to be changed",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-6-6",
+  "cycle": "6.6",
+  "title": "Carrying a rule you did not make",
+  "objective": "enforce a rule you did not write",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-6-7",
+  "cycle": "6.7",
+  "title": "Review & Mediate: what do these terms actually require?",
+  "objective": "Review & Mediate: what do these terms of business actually require?",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

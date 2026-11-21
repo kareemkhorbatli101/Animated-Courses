@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-9-1",
+  "cycle": "9.1",
+  "title": "It can only have been a forklift",
+  "objective": "read damage and say what can only have caused it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-9-2",
+  "cycle": "9.2",
+  "title": "A batch fault, or one bad pallet",
+  "objective": "offer a possible cause without committing to it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-9-3",
+  "cycle": "9.3",
+  "title": "That cannot be the total",
+  "objective": "rule something out, and say what rules it out",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-9-4",
+  "cycle": "9.4",
+  "title": "The one-minute check",
+  "objective": "do the one-minute check before you telephone anybody",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-9-5",
+  "cycle": "9.5",
+  "title": "Definitely, probably, possibly",
+  "objective": "use definitely, probably and possibly — and know what each costs",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-9-6",
+  "cycle": "9.6",
+  "title": "A photograph, in words",
+  "objective": "describe what is in front of you so that somebody else can see it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-9-7",
+  "cycle": "9.7",
+  "title": "Review & Mediate: what do you think happened to this pallet?",
+  "objective": "Review & Mediate: what do you think happened to this pallet?",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

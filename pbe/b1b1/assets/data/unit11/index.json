@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-11-1",
+  "cycle": "11.1",
+  "title": "The customer who pays on delivery",
+  "objective": "define which one you mean",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-11-2",
+  "cycle": "11.2",
+  "title": "Ms Shamsi, who has supplied us for eleven years",
+  "objective": "add information about one you have already identified",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-11-3",
+  "cycle": "11.3",
+  "title": "Whose, where, when",
+  "objective": "use whose, where and when",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-11-4",
+  "cycle": "11.4",
+  "title": "The comma that changes a liability",
+  "objective": "see what a comma does to a liability",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-11-5",
+  "cycle": "11.5",
+  "title": "The invoice I queried",
+  "objective": "leave the relative out — and know when you cannot",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-11-6",
+  "cycle": "11.6",
+  "title": "One paragraph of terms, read twice",
+  "objective": "put defining and adding side by side in one paragraph of terms",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-11-7",
+  "cycle": "11.7",
+  "title": "Review & Mediate: the page before the conditions",
+  "objective": "Review & Mediate: the page before the conditions",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-3-1",
+  "cycle": "3.1",
+  "title": "What had already happened",
+  "objective": "say what had already happened before the thing happened",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-3-2",
+  "cycle": "3.2",
+  "title": "Because nobody had checked it",
+  "objective": "name an omission without naming a culprit",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-3-3",
+  "cycle": "3.3",
+  "title": "By the time I got there",
+  "objective": "use by the time — the shape that puts two pasts in one sentence",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-3-4",
+  "cycle": "3.4",
+  "title": "No — it had already been counted",
+  "objective": "correct somebody else's order of events",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-3-5",
+  "cycle": "3.5",
+  "title": "The chronology box",
+  "objective": "build a chronology box: the half-page that settles an argument",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-3-6",
+  "cycle": "3.6",
+  "title": "I had never done it before that day",
+  "objective": "say that something was a first time, and what that explains",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-3-7",
+  "cycle": "3.7",
+  "title": "Review & Mediate: what happened first?",
+  "objective": "Review & Mediate: what happened first?",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-5-1",
+  "cycle": "5.1",
+  "title": "How an order is handled",
+  "objective": "describe how something is handled, start to finish",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-5-2",
+  "cycle": "5.2",
+  "title": "How it came to be done that way",
+  "objective": "say how a practice came to exist",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-5-3",
+  "cycle": "5.3",
+  "title": "By hand, with a pen",
+  "objective": "distinguish by from with — the doer and the tool",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-5-4",
+  "cycle": "5.4",
+  "title": "First, then, and only after that",
+  "objective": "order a procedure, and mark the step that cannot be moved",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-5-5",
+  "cycle": "5.5",
+  "title": "Why there is nobody in this sentence",
+  "objective": "decide when a sentence may have nobody in it, and when it may not",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-5-6",
+  "cycle": "5.6",
+  "title": "What has been changed",
+  "objective": "say what has been changed since the last time anybody asked",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-5-7",
+  "cycle": "5.7",
+  "title": "Review & Mediate: what does this require of me?",
+  "objective": "Review & Mediate: what does this procedure require of me?",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]
