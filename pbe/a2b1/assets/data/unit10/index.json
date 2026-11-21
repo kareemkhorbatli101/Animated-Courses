@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-10-1",
+  "cycle": "10.1",
+  "title": "My back hurts",
+  "objective": "say what is wrong, at work and at the clinic",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-10-2",
+  "cycle": "10.2",
+  "title": "You shouldn't lift that alone",
+  "objective": "give advice about lifting, screens and breaks",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-10-3",
+  "cycle": "10.3",
+  "title": "Twice a day, after meals",
+  "objective": "give and understand instructions for medicine",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-10-4",
+  "cycle": "10.4",
+  "title": "I'd like to make an appointment",
+  "objective": "make an appointment at a clinic",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-10-5",
+  "cycle": "10.5",
+  "title": "Don't lift that alone!",
+  "objective": "give a safety instruction at the moment it matters",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-10-6",
+  "cycle": "10.6",
+  "title": "Get well soon — and take your time",
+  "objective": "say the right thing to somebody who is ill or hurt",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-10-7",
+  "cycle": "10.7",
+  "title": "Review & Mediate: what does the safety notice say?",
+  "objective": "Review & Mediate: tell a colleague what the safety notice says",
+  "n": 14,
+  "minutes": 95,
+  "stages": 11
+ }
+]

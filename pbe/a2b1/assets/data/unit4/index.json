@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-4-1",
+  "cycle": "4.1",
+  "title": "Two cartons, six rolls and a lot of tape",
+  "objective": "count and say what you have, in the right words for each thing",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-4-2",
+  "cycle": "4.2",
+  "title": "How much have we got left?",
+  "objective": "ask how much and how many, and answer with a quantity",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-4-3",
+  "cycle": "4.3",
+  "title": "There's none left",
+  "objective": "say what is finished, what is low and what you have none of",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-4-4",
+  "cycle": "4.4",
+  "title": "First we check it, then he signs it",
+  "objective": "describe a process in order, from first to finally",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-4-5",
+  "cycle": "4.5",
+  "title": "I'd like to order twelve rolls",
+  "objective": "place an order on the telephone",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-4-6",
+  "cycle": "4.6",
+  "title": "Is that everything?",
+  "objective": "check that an order is complete before you put the telephone down",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-4-7",
+  "cycle": "4.7",
+  "title": "Review & Mediate: the stock list and the order form",
+  "objective": "Review & Mediate: tell a colleague what the stock list and the order form say",
+  "n": 14,
+  "minutes": 95,
+  "stages": 11
+ }
+]

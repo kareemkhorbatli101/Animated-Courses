@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-7-1",
+  "cycle": "7.1",
+  "title": "I can use the system, but I can't sign",
+  "objective": "say what you can and can't do at work",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-7-2",
+  "cycle": "7.2",
+  "title": "Could you come at ten instead?",
+  "objective": "ask somebody politely to come, send or change something",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-7-3",
+  "cycle": "7.3",
+  "title": "What are you doing on Thursday?",
+  "objective": "talk about your diary and what you are doing next week",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-7-4",
+  "cycle": "7.4",
+  "title": "How about Tuesday instead?",
+  "objective": "suggest another time when the first one does not work",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-7-5",
+  "cycle": "7.5",
+  "title": "I'd love to, but I'm afraid I can't",
+  "objective": "accept an invitation, and refuse one without closing the door",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-7-6",
+  "cycle": "7.6",
+  "title": "I'd rather meet in the morning",
+  "objective": "say which you prefer, and why",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-7-7",
+  "cycle": "7.7",
+  "title": "Review & Mediate: what does the invitation say?",
+  "objective": "Review & Mediate: tell a colleague what a meeting invitation says",
+  "n": 14,
+  "minutes": 95,
+  "stages": 11
+ }
+]

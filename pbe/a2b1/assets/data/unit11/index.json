@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-11-1",
+  "cycle": "11.1",
+  "title": "I'm going to visit the Homs branch",
+  "objective": "talk about what you are going to do on a trip",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-11-2",
+  "cycle": "11.2",
+  "title": "A single room for two nights",
+  "objective": "reserve a room, and say exactly what you need",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-11-3",
+  "cycle": "11.3",
+  "title": "It's very cold in Aleppo in January",
+  "objective": "talk about the weather, and plan around it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-11-4",
+  "cycle": "11.4",
+  "title": "Is breakfast included?",
+  "objective": "ask what is and is not included",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-11-5",
+  "cycle": "11.5",
+  "title": "You should see the old city",
+  "objective": "recommend something to a visitor",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-11-6",
+  "cycle": "11.6",
+  "title": "The bus leaves at seven",
+  "objective": "read and explain a timetable",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-11-7",
+  "cycle": "11.7",
+  "title": "Review & Mediate: the travel plan and the hotel page",
+  "objective": "Review & Mediate: tell a colleague what the travel plan and the hotel page say",
+  "n": 14,
+  "minutes": 95,
+  "stages": 11
+ }
+]

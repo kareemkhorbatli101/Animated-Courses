@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-9-1",
+  "cycle": "9.1",
+  "title": "I look after the orders and the post",
+  "objective": "say what you are responsible for, and what you only help with",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-9-2",
+  "cycle": "9.2",
+  "title": "Everybody must sign the book",
+  "objective": "give a company rule, and explain the reason behind it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-9-3",
+  "cycle": "9.3",
+  "title": "You don't have to come in on Saturday",
+  "objective": "say what is necessary and what is not",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-9-4",
+  "cycle": "9.4",
+  "title": "Is it OK if I leave at three?",
+  "objective": "ask permission, and answer somebody who asks you",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-9-5",
+  "cycle": "9.5",
+  "title": "Can I take a message?",
+  "objective": "take a message when the person they want is out",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-9-6",
+  "cycle": "9.6",
+  "title": "Please find attached",
+  "objective": "write a short work email with the phrases everybody uses",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-9-7",
+  "cycle": "9.7",
+  "title": "Review & Mediate: what do the staff rules say?",
+  "objective": "Review & Mediate: tell a colleague what the staff rules say",
+  "n": 14,
+  "minutes": 95,
+  "stages": 11
+ }
+]

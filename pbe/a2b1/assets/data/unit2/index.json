@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-2-1",
+  "cycle": "2.1",
+  "title": "I start at eight",
+  "objective": "describe your working day, hour by hour",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-2-2",
+  "cycle": "2.2",
+  "title": "What time do you open?",
+  "objective": "ask and say when places open, close and start",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-2-3",
+  "cycle": "2.3",
+  "title": "How often do you count the stock?",
+  "objective": "say how often you do something at work",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-2-4",
+  "cycle": "2.4",
+  "title": "I'm working on the Homs order",
+  "objective": "say what you are doing now, and what a colleague is doing",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-2-5",
+  "cycle": "2.5",
+  "title": "What does a day on the road look like?",
+  "objective": "ask a colleague about his or her working day",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-2-6",
+  "cycle": "2.6",
+  "title": "Could you send it before five?",
+  "objective": "ask somebody politely to do something, and answer a request",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-2-7",
+  "cycle": "2.7",
+  "title": "Review & Mediate: what does the timetable say?",
+  "objective": "Review & Mediate: tell a colleague what the weekly timetable says",
+  "n": 14,
+  "minutes": 95,
+  "stages": 11
+ }
+]

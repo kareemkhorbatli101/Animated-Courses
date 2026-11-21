@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-3-1",
+  "cycle": "3.1",
+  "title": "There are six desks and one printer",
+  "objective": "say what there is in a room or a building",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-3-2",
+  "cycle": "3.2",
+  "title": "It's in the second drawer",
+  "objective": "say exactly where something is, and ask for it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-3-3",
+  "cycle": "3.3",
+  "title": "Have we got any plastic wrap?",
+  "objective": "ask and say what you have and have not got on the shelves",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-3-4",
+  "cycle": "3.4",
+  "title": "It's old, but it's not too slow",
+  "objective": "describe the equipment you work with",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-3-5",
+  "cycle": "3.5",
+  "title": "Go down the stairs and turn left",
+  "objective": "give directions inside a building or a yard",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-3-6",
+  "cycle": "3.6",
+  "title": "It's a kind of plastic",
+  "objective": "say what something is made of, and explain a word you do not know",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-3-7",
+  "cycle": "3.7",
+  "title": "Review & Mediate: the floor plan and the safety notice",
+  "objective": "Review & Mediate: tell a colleague what the floor plan and the safety notice say",
+  "n": 14,
+  "minutes": 95,
+  "stages": 11
+ }
+]

@@ -429,6 +429,75 @@
     tools.appendChild(map);
 
     /* ---------------------------------------------------------
+       THE WORD LIST THE LEARNER CAN ACTUALLY OPEN. See the patch
+       note in tools/course_engine.py: auto-linking reaches a word
+       the book's own prose repeats, and reaches none of the 460
+       phrases an A2 or B1 book teaches.
+       --------------------------------------------------------- */
+    if (Object.keys(BNK.glossaryData || {}).length) {
+      var wbt = U.el('button', 'btn btn-sm btn-ghost');
+      wbt.type = 'button';
+      wbt.innerHTML = BNK.art.icon('book', 16)
+        + '<span class="hide-sm">Words</span>';
+      wbt.title = 'Every word and phrase this unit teaches, with the Arabic';
+      wbt.onclick = function () {
+        var gBox = U.el('div');
+        var gQ = U.el('input', 'inp');
+        gQ.type = 'search';
+        gQ.placeholder = 'Type to find a word or phrase';
+        gQ.setAttribute('aria-label', 'Filter the word list');
+        gBox.appendChild(gQ);
+        var gKeys = Object.keys(BNK.glossaryData).sort(function (a, b) {
+          return a.localeCompare(b);
+        });
+        var gRows = [];
+        for (var gi = 0; gi < gKeys.length; gi++) {
+          var ge = BNK.glossaryData[gKeys[gi]] || {};
+          var gTerm = ge.term || gKeys[gi];
+          var gRow = U.el('div');
+          gRow.style.cssText = 'padding:10px 0;border-top:1px solid var(--line);'
+            + 'display:flex;gap:10px;align-items:flex-start';
+          var gTxt = U.el('div');
+          gTxt.style.cssText = 'flex:1 1 auto;min-width:0';
+          gTxt.innerHTML = '<b>' + U.esc(gTerm) + '</b>'
+            + '<div style="color:var(--ink-2);margin-top:2px">'
+            + U.esc(ge.en || '') + '</div>'
+            + (ge.ar ? '<span class="ar">' + U.esc(ge.ar) + '</span>' : '');
+          gRow.appendChild(gTxt);
+          var gSay = U.el('button', 'btn btn-sm btn-ghost',
+                          BNK.art.icon('sound', 14));
+          gSay.type = 'button';
+          gSay.setAttribute('aria-label', 'Say ' + gTerm);
+          gSay.onclick = (function (t) {
+            return function () { BNK.say(t, 'course'); };
+          }(gTerm));
+          gRow.appendChild(gSay);
+          gBox.appendChild(gRow);
+          gRows.push([(gTerm + ' ' + (ge.en || '')).toLowerCase(), gRow]);
+        }
+        var gNone = U.el('p', 'instr', 'No word here matches that.');
+        gNone.style.display = 'none';
+        gBox.appendChild(gNone);
+        gQ.oninput = function () {
+          var s = gQ.value.trim().toLowerCase(), shown = 0;
+          for (var ri = 0; ri < gRows.length; ri++) {
+            var on = !s || gRows[ri][0].indexOf(s) >= 0;
+            /* 'flex', NOT '' - '' DELETES the inline display, and these
+               rows ARE their inline display. */
+            gRows[ri][1].style.display = on ? 'flex' : 'none';
+            if (on) shown++;
+          }
+          gNone.style.display = shown ? 'none' : '';
+        };
+        BNK.panel({
+          title: 'Words and phrases in this unit (' + gKeys.length + ')',
+          node: gBox, key: 'words'
+        });
+      };
+      tools.appendChild(wbt);
+    }
+
+    /* ---------------------------------------------------------
        HOW TO STUDY THIS PAGE. See the patch note in
        tools/course_engine.py.
        --------------------------------------------------------- */

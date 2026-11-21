@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-5-1",
+  "cycle": "5.1",
+  "title": "How much is it?",
+  "objective": "ask a price and give one, at the counter and on the telephone",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-5-2",
+  "cycle": "5.2",
+  "title": "Aleppo is cheaper, but Homs is nearer",
+  "objective": "compare two offers and say which is better, and why",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-5-3",
+  "cycle": "5.3",
+  "title": "The cheapest is not always the best",
+  "objective": "say which of several is the best, the cheapest or the nearest",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-5-4",
+  "cycle": "5.4",
+  "title": "It's too expensive for this order",
+  "objective": "say that something is too expensive, and what would be enough",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-5-5",
+  "cycle": "5.5",
+  "title": "Is this invoice ours or theirs?",
+  "objective": "say whose invoice, whose money and whose mistake it is",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-5-6",
+  "cycle": "5.6",
+  "title": "That's 192,000. Out of 200,000",
+  "objective": "take payment, give change and explain a receipt",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-5-7",
+  "cycle": "5.7",
+  "title": "Review & Mediate: the invoice and the receipt",
+  "objective": "Review & Mediate: tell a customer what the invoice and the receipt say",
+  "n": 14,
+  "minutes": 95,
+  "stages": 11
+ }
+]

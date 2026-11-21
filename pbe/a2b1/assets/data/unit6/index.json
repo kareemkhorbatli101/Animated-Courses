@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-6-1",
+  "cycle": "6.1",
+  "title": "It goes by lorry, not by van",
+  "objective": "say how goods and people travel, and choose the right transport",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-6-2",
+  "cycle": "6.2",
+  "title": "How long does it take to Aleppo?",
+  "objective": "ask and say how long a journey takes and how far it is",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-6-3",
+  "cycle": "6.3",
+  "title": "You mustn't park at the loading door",
+  "objective": "give and understand the rules of a yard or a site",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-6-4",
+  "cycle": "6.4",
+  "title": "Why don't we send it on Wednesday?",
+  "objective": "propose a plan to a colleague, and agree on one",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-6-5",
+  "cycle": "6.5",
+  "title": "We send the small van to save the fuel",
+  "objective": "give the reason for a decision, and say what something is for",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-6-6",
+  "cycle": "6.6",
+  "title": "It's arriving at four, not at two",
+  "objective": "explain a delay, and say when something will arrive",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-6-7",
+  "cycle": "6.7",
+  "title": "Review & Mediate: the delivery note and the road signs",
+  "objective": "Review & Mediate: tell a colleague what the delivery note and the road signs say",
+  "n": 14,
+  "minutes": 95,
+  "stages": 11
+ }
+]

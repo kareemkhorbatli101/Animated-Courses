@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-8-1",
+  "cycle": "8.1",
+  "title": "I checked the stock and signed the note",
+  "objective": "say what you did at work last week",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-8-2",
+  "cycle": "8.2",
+  "title": "He went to Homs and saw four customers",
+  "objective": "tell somebody what happened, with the verbs that do not follow the rule",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-8-3",
+  "cycle": "8.3",
+  "title": "It was a busy week",
+  "objective": "describe how a day or a week was",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-8-4",
+  "cycle": "8.4",
+  "title": "When did you send the invoice?",
+  "objective": "ask a colleague about something that happened",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-8-5",
+  "cycle": "8.5",
+  "title": "First the road was closed, then the telephone died",
+  "objective": "tell a short work story in the right order",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-8-6",
+  "cycle": "8.6",
+  "title": "Really? That's very good news",
+  "objective": "react to somebody's news so that they want to go on talking",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-8-7",
+  "cycle": "8.7",
+  "title": "Review & Mediate: what does the week's report say?",
+  "objective": "Review & Mediate: tell a colleague what the week's report says",
+  "n": 14,
+  "minutes": 95,
+  "stages": 11
+ }
+]
