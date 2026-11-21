@@ -11,19 +11,28 @@ a book lacks something a teacher would expect, it says so.
 
 ## 0 · Also in this folder, and not counted in the figures above
 
-**English for Syria · Five Programmes — `English-for-Syria_Five-Programmes_15-Courses.zip`**
+**English for Syria · Ten Programmes — `English-for-Syria_Ten-Programmes_30-Courses.zip`**
 
-**5 programmes · 15 courses · 180 two-hour sessions · 360 teaching hours · 4,267 pages.** Five
+**10 programmes · 30 courses · 360 two-hour sessions · 720 teaching hours · 8,509 pages.** Ten
 separate ESP programmes written to one architecture and set in Syria: **Workplace English** (837 pp),
 **Banking English** (886 pp), **Foreign Ministry English** (846 pp), **Business Managers English**
-(850 pp) and **Hospitality English** (848 pp).
+(850 pp), **Hospitality English** (848 pp), **Telecommunications English** (856 pp),
+**Journalists' English** (828 pp), **Accounting English** (873 pp), **Import/Export English**
+(856 pp) and **Software Engineering English** (829 pp).
+
+The last five are written for work with foreign counterparties: operators and their vendors,
+foreign news desks and agencies, auditors and group offices abroad, shipping lines, customs houses
+and overseas principals, and foreign software clients, cloud vendors and security assessors.
 
 Each programme is three course books — Pre-Intermediate, Intermediate, Upper-Intermediate, twelve
 two-hour sessions each — with eight appendices per book (answer key, sample answers, audio scripts,
 vocabulary, role-play cards, case-study packs, teacher's notes, progress record), plus four planning
 documents: a design plan, a programme overview for the centre, a full scheme of work and a specimen
-session. Everything is supplied twice, `.docx` and `.pdf`. A four-page `00_READ-ME_Five-Programmes`
+session. Everything is supplied twice, `.docx` and `.pdf`. A four-page `READ-ME_Ten-Programmes`
 at the top of the archive indexes all of it.
+
+**This archive supersedes `English-for-Syria_Five-Programmes_15-Courses.zip`**, which held the
+first five programmes and is no longer kept beside it; every byte of it is inside this one.
 
 **These are courses, not units**, so they are deliberately kept out of the book, unit and page
 counts in the heading above, which describe the seventeen packages below.
