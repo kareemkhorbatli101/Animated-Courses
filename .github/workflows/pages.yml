@@ -62,6 +62,10 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  # actions: read is for the "Wait for the artifact to be listable" step below,
+  # which asks the Actions API whether the artifact it just uploaded can be seen
+  # yet. Without it that step gets a 403 and cannot do its job.
+  actions: read
 
 # Never let two deploys race: a half-uploaded 298 MB site is a broken site.
 concurrency:
@@ -94,6 +98,51 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
+
+      # ⚠ THE SECOND WAY THIS DEPLOY FAILS, and it is not the timeout above.
+      #
+      # On 2026-11-21 three deploys in a row ended:
+      #
+      #     Artifact github-pages.zip successfully finalized. Artifact ID …
+      #     Artifact github-pages has been successfully uploaded! Final size is
+      #       190066530 bytes
+      #     Fetching artifact metadata for "github-pages" in this workflow run
+      #     Found 0 artifact(s)
+      #     ##[error]No artifacts named "github-pages" were found for this run.
+      #
+      # The timestamps are the whole story: the upload finalized at 13:55:54.68
+      # and deploy-pages asked for it at 13:55:55.13 - FOUR HUNDRED AND SIXTY
+      # MILLISECONDS later - and GitHub's artifact index had not caught up for a
+      # 190 MB artifact. The action does not retry this particular lookup; it
+      # fails the run and tells you to "re-run the deployment at a later time".
+      #
+      # Re-running does work, eventually, which is exactly what makes this one
+      # expensive: it looks like the known "syncing_files" stall documented at
+      # the top of this file, so the instinct is to re-run and move on. It is a
+      # different failure with a different fix, and it will get MORE frequent as
+      # the site grows, because the index lag scales with the artifact.
+      #
+      # So: ask whether the artifact can be seen before handing it to the
+      # deployer. Up to ninety seconds, then go anyway - if the index is still
+      # cold the deploy fails as it did before and nothing is worse.
+      - name: Wait for the artifact to be listable
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          api="/repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts"
+          for i in $(seq 1 18); do
+            n=$(curl -sS -H "Authorization: Bearer ${GH_TOKEN}" \
+                     -H "Accept: application/vnd.github+json" \
+                     "https://api.github.com${api}" \
+                 | grep -c '"name": *"github-pages"' || true)
+            if [ "${n}" -ge 1 ]; then
+              echo "artifact visible after $(( (i - 1) * 5 ))s"
+              exit 0
+            fi
+            echo "not visible yet ($(( (i - 1) * 5 ))s) - waiting"
+            sleep 5
+          done
+          echo "WARNING: still not listable after 90s; deploying anyway"
 
       - name: Deploy
         id: deployment
