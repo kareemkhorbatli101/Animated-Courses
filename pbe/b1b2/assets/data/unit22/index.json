@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-22-1",
+  "cycle": "22.1",
+  "title": "The four questions, and the fifth",
+  "objective": "prepare four answers, and know the fifth you cannot prepare",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-22-2",
+  "cycle": "22.2",
+  "title": "It is the writing that takes the time",
+  "objective": "say which part of the work is the work",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-22-3",
+  "cycle": "22.3",
+  "title": "About, roughly, out of",
+  "objective": "give a number you cannot prove, honestly",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-22-4",
+  "cycle": "22.4",
+  "title": "The question you hope will not be asked",
+  "objective": "answer the question you hope will not be asked, before it is asked",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-22-5",
+  "cycle": "22.5",
+  "title": "The three questions back",
+  "objective": "ask three questions back, and know what each one tells you",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-22-6",
+  "cycle": "22.6",
+  "title": "The page a stranger could check",
+  "objective": "write the page a stranger could check",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-22-7",
+  "cycle": "22.7",
+  "title": "Review & Mediate: the three lines nobody can fail",
+  "objective": "Review & Mediate: the three lines nobody can fail",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

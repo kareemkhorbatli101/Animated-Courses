@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-14-1",
+  "cycle": "14.1",
+  "title": "Four lines and a number each",
+  "objective": "put four lines and a number on a forecast board",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-14-2",
+  "cycle": "14.2",
+  "title": "It may be the exchange rate",
+  "objective": "name a cause you are not sure of, without pretending",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-14-3",
+  "cycle": "14.3",
+  "title": "How likely is it? Give the number or give the range",
+  "objective": "say how likely something is, in a way somebody can act on",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-14-4",
+  "cycle": "14.4",
+  "title": "Where the adverb goes",
+  "objective": "put the adverb where it changes the meaning you want",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-14-5",
+  "cycle": "14.5",
+  "title": "By the end of October",
+  "objective": "say what will have happened by a date",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-14-6",
+  "cycle": "14.6",
+  "title": "The assumptions under the forecast",
+  "objective": "print the assumptions under the forecast",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-14-7",
+  "cycle": "14.7",
+  "title": "Review & Mediate: how far to trust this forecast",
+  "objective": "Review & Mediate: how far to trust this forecast",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

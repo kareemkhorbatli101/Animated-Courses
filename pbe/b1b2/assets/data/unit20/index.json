@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-20-1",
+  "cycle": "20.1",
+  "title": "I did exactly what it said",
+  "objective": "say that you did exactly what it said, and that it was still wrong",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-20-2",
+  "cycle": "20.2",
+  "title": "The warning before the step",
+  "objective": "put the warning before the step and not after it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-20-3",
+  "cycle": "20.3",
+  "title": "The step that cannot be got wrong",
+  "objective": "mark the step that cannot be got wrong, and say why",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-20-4",
+  "cycle": "20.4",
+  "title": "So that nobody shortens it",
+  "objective": "say what a step is for, so that nobody shortens it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-20-5",
+  "cycle": "20.5",
+  "title": "Unless, and in which case",
+  "objective": "write the exception: unless · in which case",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-20-6",
+  "cycle": "20.6",
+  "title": "The page I would leave on the bench",
+  "objective": "write the one page you would leave on the bench",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-20-7",
+  "cycle": "20.7",
+  "title": "Review & Mediate: who is the originating office",
+  "objective": "Review & Mediate: who is the originating office",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

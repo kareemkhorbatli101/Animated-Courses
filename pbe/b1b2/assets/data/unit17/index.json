@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-17-1",
+  "cycle": "17.1",
+  "title": "We used to sign at the gate",
+  "objective": "say what used to be true and is not",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-17-2",
+  "cycle": "17.2",
+  "title": "He would open the shutter at seven",
+  "objective": "say what somebody used to do, again and again",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-17-3",
+  "cycle": "17.3",
+  "title": "I am used to being the one they telephone",
+  "objective": "say what you are used to, and what you are not",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-17-4",
+  "cycle": "17.4",
+  "title": "I am getting used to it",
+  "objective": "say what you are getting used to",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-17-5",
+  "cycle": "17.5",
+  "title": "It used to be done at the gate",
+  "objective": "say how a thing used to be done, without naming anybody",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-17-6",
+  "cycle": "17.6",
+  "title": "Then, now, and the date the turn happened",
+  "objective": "write the before-and-after page, with the date of the turn",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-17-7",
+  "cycle": "17.7",
+  "title": "Review & Mediate: how it used to be done here",
+  "objective": "Review & Mediate: how it used to be done here",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

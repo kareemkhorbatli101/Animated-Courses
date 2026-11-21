@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-24-1",
+  "cycle": "24.1",
+  "title": "The whole system on one page",
+  "objective": "put the whole tense system on one page",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-24-2",
+  "cycle": "24.2",
+  "title": "The same question, eight ways",
+  "objective": "ask the same question in eight tenses",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-24-3",
+  "cycle": "24.3",
+  "title": "By January I will have written it nine times",
+  "objective": "count a habit: by January I will have written it nine times",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-24-4",
+  "cycle": "24.4",
+  "title": "What I cannot yet do",
+  "objective": "say what you cannot yet do",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-24-5",
+  "cycle": "24.5",
+  "title": "The next twelve months",
+  "objective": "separate what is arranged, what you intend, and what you hope for",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-24-6",
+  "cycle": "24.6",
+  "title": "Closing well, and the letter",
+  "objective": "close well, and write the letter to your B2 self",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-24-7",
+  "cycle": "24.7",
+  "title": "Review & Mediate: what the certificate says, and the first fortnight",
+  "objective": "Review & Mediate: what the certificate says, and the first fortnight",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

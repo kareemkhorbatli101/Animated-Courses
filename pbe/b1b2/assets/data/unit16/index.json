@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-16-1",
+  "cycle": "16.1",
+  "title": "Not as cheap as it looks: landed cost",
+  "objective": "see why the cheap quotation is dearer than the dear one",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-16-2",
+  "cycle": "16.2",
+  "title": "One of the best, and by far the oldest",
+  "objective": "use superlatives and keep them honest",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-16-3",
+  "cycle": "16.3",
+  "title": "The more we take, the less it costs",
+  "objective": "say how one thing changes with another",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-16-4",
+  "cycle": "16.4",
+  "title": "Delivered faster, packed more carefully",
+  "objective": "compare how, and not only what",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-16-5",
+  "cycle": "16.5",
+  "title": "Better at what? Naming the dimension",
+  "objective": "name the dimension you are comparing on",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-16-6",
+  "cycle": "16.6",
+  "title": "The recommendation paragraph, and the column that is a guess",
+  "objective": "write the recommendation paragraph, and the column that is a guess",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-16-7",
+  "cycle": "16.7",
+  "title": "Review & Mediate: what is not in the columns",
+  "objective": "Review & Mediate: what is not in the columns",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

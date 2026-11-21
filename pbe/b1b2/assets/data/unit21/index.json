@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-21-1",
+  "cycle": "21.1",
+  "title": "What they want, and what they need",
+  "objective": "separate what somebody wants from what they need",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-21-2",
+  "cycle": "21.2",
+  "title": "The condition that makes yes possible",
+  "objective": "state the condition that makes yes possible",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-21-3",
+  "cycle": "21.3",
+  "title": "Never a concession without one",
+  "objective": "make a conditional offer, and never a concession without one",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-21-4",
+  "cycle": "21.4",
+  "title": "In that case",
+  "objective": "respond to a move so that it keeps moving",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-21-5",
+  "cycle": "21.5",
+  "title": "Whatever else we agree",
+  "objective": "say what you will not trade, whatever else you agree",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-21-6",
+  "cycle": "21.6",
+  "title": "The two-column page",
+  "objective": "write the two-column page before the meeting",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-21-7",
+  "cycle": "21.7",
+  "title": "Review & Mediate: two people who both compromised",
+  "objective": "Review & Mediate: two people who both compromised",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

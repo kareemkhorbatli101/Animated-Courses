@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-23-1",
+  "cycle": "23.1",
+  "title": "The word that decided you",
+  "objective": "find the one word in a report that decided something",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-23-2",
+  "cycle": "23.2",
+  "title": "Said, claimed, admitted, denied",
+  "objective": "choose between said, claimed, admitted and denied",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-23-3",
+  "cycle": "23.3",
+  "title": "It is understood that",
+  "objective": "see what it is understood that hides",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-23-4",
+  "cycle": "23.4",
+  "title": "Three sentences",
+  "objective": "write three sentences: what, who says so, and what is not known",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-23-5",
+  "cycle": "23.5",
+  "title": "Confirmed, claimed, not known",
+  "objective": "grade what is known, and never mix the three grades",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-23-6",
+  "cycle": "23.6",
+  "title": "The short market note",
+  "objective": "write the short market note",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-23-7",
+  "cycle": "23.7",
+  "title": "Review & Mediate: one story, four kinds of sentence",
+  "objective": "Review & Mediate: one story, four kinds of sentence",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

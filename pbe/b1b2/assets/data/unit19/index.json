@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-19-1",
+  "cycle": "19.1",
+  "title": "What it does, and how often",
+  "objective": "say what the fault is, exactly, and how often it happens",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-19-2",
+  "cycle": "19.2",
+  "title": "We have had it serviced twice",
+  "objective": "say what work you arranged somebody else to do",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-19-3",
+  "cycle": "19.3",
+  "title": "Could you tell me whether…",
+  "objective": "ask the question that is harder to refuse",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-19-4",
+  "cycle": "19.4",
+  "title": "One request, by one date",
+  "objective": "make one request, by one date",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-19-5",
+  "cycle": "19.5",
+  "title": "What I asked for was not this",
+  "objective": "write the sentence that cannot be misread",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-19-6",
+  "cycle": "19.6",
+  "title": "I accept it, and here is what it does not cover",
+  "objective": "accept and limit in the same letter",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-19-7",
+  "cycle": "19.7",
+  "title": "Review & Mediate: who counts as the claimant",
+  "objective": "Review & Mediate: who counts as the claimant",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

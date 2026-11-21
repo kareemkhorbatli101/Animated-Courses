@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-15-1",
+  "cycle": "15.1",
+  "title": "I should have asked which code",
+  "objective": "say what you should have done, and own the decision",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-15-2",
+  "cycle": "15.2",
+  "title": "If somebody had counted the walk-in trade",
+  "objective": "say what would have happened if somebody had done otherwise",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-15-3",
+  "cycle": "15.3",
+  "title": "If we had started then, we would have it now",
+  "objective": "join a past omission to a present consequence",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-15-4",
+  "cycle": "15.4",
+  "title": "The apology that names the thing",
+  "objective": "write the apology that names the thing",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-15-5",
+  "cycle": "15.5",
+  "title": "I wish we had — and when a wish is an excuse",
+  "objective": "wish, and know when a wish is an excuse",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-15-6",
+  "cycle": "15.6",
+  "title": "The five-part post-mortem",
+  "objective": "write the five-part post-mortem",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-15-7",
+  "cycle": "15.7",
+  "title": "Review & Mediate: what went wrong, and what we would do differently",
+  "objective": "Review & Mediate: what went wrong, and what we would do differently",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-13-1",
+  "cycle": "13.1",
+  "title": "It is arranged, and here is the evidence",
+  "objective": "say what is arranged, and show the evidence that it is",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-13-2",
+  "cycle": "13.2",
+  "title": "What I intend to do, and what I am not pretending",
+  "objective": "say what you intend to do, and not pretend it is arranged",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-13-3",
+  "cycle": "13.3",
+  "title": "At ten on the 14th: the diary",
+  "objective": "give a diary: three appointments and one fixed point",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-13-4",
+  "cycle": "13.4",
+  "title": "Arranged, intended, predicted — side by side",
+  "objective": "put arranged, intended and predicted side by side",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-13-5",
+  "cycle": "13.5",
+  "title": "The vessel sails at 6.40: timetables",
+  "objective": "read a timetable, and say what sails whatever you do",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-13-6",
+  "cycle": "13.6",
+  "title": "A programme somebody else can run",
+  "objective": "write a programme somebody else can run without you",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-13-7",
+  "cycle": "13.7",
+  "title": "Review & Mediate: the programme nobody reads twice",
+  "objective": "Review & Mediate: the programme nobody reads twice",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]
