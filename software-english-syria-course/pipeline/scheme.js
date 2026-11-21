@@ -48,10 +48,10 @@ out.push(pb());
 out.push(h2('2 · Materials specification'));
 out.push(p('Each cycle needs three short texts. **These lengths are the specification** — writing to them keeps the timings honest.'));
 out.push(table(['', 'Course 1 · A2', 'Course 2 · B1', 'Course 3 · B2'], [
-  ['**Reading**', '132–190 words', '191–263 words', '271–360 words'],
-  ['**Conversation**', '10–11 turns', '12–13 turns', '14–17 turns'],
-  ['**Writing model**', '37–75 words', '101–163 words', '145–202 words'],
-  ['**What learners write**', '37–75 words', '101–163 words', '145–202 words'],
+  ['**Reading**', '133–184 words', '190–236 words', '283–360 words'],
+  ['**Conversation**', '10–11 turns', '12–13 turns', '14–16 turns'],
+  ['**Writing model**', '48–74 words', '80–116 words', '145–184 words'],
+  ['**What learners write**', '48–74 words', '80–116 words', '145–184 words'],
   ['**Case-study pack**', '3 short documents', '3 documents, one incomplete', '3 documents, at least one of them contradicting another'],
 ], [1.5, 1.8, 1.8, 2.4]));
 out.push(sp());
@@ -88,15 +88,15 @@ out.push(h2('5 · Portfolio and progress'));
 
 // ---- the sessions ----
 const COURSES = [
-  { from: 1, to: 12, h: 'COURSE 1 · Pre-Intermediate', sub: 'From your first shift to a colleague the shift depends on',
-    arc: 'The learner arrives on a first shift unable to operate, and leaves able to be relied on: to take a booking accurately, keep a board and a log a second person can trust, answer for the property on the telephone and at the desk, be trusted with keys and cash, say no to a guest without losing them, account for a shift and hand it on.',
-    role: 'Receptionist · housekeeping room attendant · night porter and door security · reservations clerk · restaurant or bar waiter · kitchen porter and commis · banqueting assistant · guesthouse all-rounder' },
-  { from: 13, to: 24, h: 'COURSE 2 · Intermediate', sub: 'From dependable pair of hands to owning a section and a guest',
-    arc: 'The learner is given something of their own — a section, a shift, a guest, a group — and learns the language that ownership requires: explaining what happened and why, training somebody else on the floor, offering options with their cost, recommending with a reservation, handling a complaint that has already been made worse, and reporting upward including what did not happen.',
-    role: 'Shift leader on the desk · housekeeping floor supervisor · reservations supervisor · restaurant or bar supervisor · head waiter · events coordinator · duty manager in a small property · guesthouse manager' },
-  { from: 25, to: 36, h: 'COURSE 3 · Upper-Intermediate', sub: 'From owning a section to running a department and answering to owners and inspectors',
-    arc: 'The learner becomes answerable for other people\'s work and for the property\'s word. Three sessions are given to supervision itself — delegating, inducting, appraising and chairing — and the course runs on through writing the rule a department follows, naming risk before it lands, negotiating with agents and suppliers, answering a licensing committee, and arguing for the learner\'s own next post.',
-    role: 'Front of house manager · head of housekeeping · food and beverage manager · rooms division manager · deputy general manager · general manager of a guesthouse or small hotel' },
+  { from: 1, to: 12, h: 'COURSE 1 · Pre-Intermediate', sub: 'From your first weeks on the team to a developer the team can rely on',
+    arc: 'The learner arrives on an engineering team unable to operate, and leaves able to be relied on: to take a requirement accurately, keep a ticket and a log a second person can trust, answer for the team to a user who is stuck, be trusted with a release step and a code review, hold a rule under pressure when a client is pressing, account for a piece of work and hand it on.',
+    role: 'Junior developer · trainee tester · support desk engineer · intern on a product team · junior front-end developer · build and release assistant · technical support agent taking tickets' },
+  { from: 13, to: 24, h: 'COURSE 2 · Intermediate', sub: 'From dependable pair of hands to owning a module, a release and a deadline',
+    arc: 'The learner is given something of their own — a module, a release, a migration, a client\'s integration — and learns the language that ownership requires: explaining a defect so that a reader who was not there can follow it, training somebody on live code, explaining why an estimate moved, pressing a vendor, recommending with a reservation, and reporting upward including what did not happen.',
+    role: 'Developer · senior tester · support lead · release coordinator · database developer · integration developer · client-facing engineer' },
+  { from: 25, to: 36, h: 'COURSE 3 · Upper-Intermediate', sub: 'From owning a module to running a team and speaking for the firm to clients, vendors and boards',
+    arc: 'The learner becomes answerable for other people\'s work and for the firm\'s word. Three sessions are given to supervision itself — delegating, appraising and chairing — and the course runs on through writing the standard a team follows, naming risk before it lands, negotiating with vendors, clients and auditors, answering a client\'s review board, and arguing for the learner\'s own next post.',
+    role: 'Engineering manager · technical lead · QA manager · head of support · platform or infrastructure manager · delivery manager · deputy to a technical director' },
 ];
 
 COURSES.forEach(co => {
@@ -133,7 +133,7 @@ out.push(table(['For', 'Draw on'], [
   ['**Course 1**', 'Proactive Business English A2 Book 1; A1 Book 2 for weaker entrants'],
   ['**Course 2**', 'Proactive Business English B1 Books 1 and 2'],
   ['**Course 3**', 'Proactive Business English B2 Books 1 and 2'],
-  ['**Sector colour for case studies**', 'Front desk and reception · Housekeeping · Security and night duty · Reservations and revenue · Maintenance and engineering · Concierge and guest services · Restaurant service · Bar and café · Banqueting and events · Kitchen and food safety · Tours and excursions · Guesthouses and heritage properties'],
+  ['**Sector colour for case studies**', 'Requirements and what the client actually asked for · Estimates, scope and dates · Code review and pull requests · Testing, QA and the bug that got through · Releases, deployment and rollback · Incidents, outages and the post-mortem · Support tickets and the user who is stuck · Databases, migrations and data loss · Security, secrets and access · Third-party APIs, libraries and vendors · Performance, capacity and cost · Handover, documentation and the leaver'],
 ], [1.4, 5]));
 out.push(sp());
 out.push(h3('The supervision sessions, checked line by line'));

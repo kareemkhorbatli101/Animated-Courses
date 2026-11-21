@@ -1,0 +1,80 @@
+{
+ "from": "a first weeks as a junior developer",
+ "to": "running an engineering team and speaking for the firm to clients, vendors and review boards",
+ "case_setting": "a named part of a software house",
+ "field": "software engineering",
+ "field_adj": "software",
+ "field_title": "Software Engineers",
+ "unit": "part of the engineering team",
+ "own_unit": "a module, a release and a deadline",
+ "series_arc": "first weeks as a junior developer → **running a team and speaking for the firm outside it**",
+ "learners": "They work, or are about to work, in a Syrian software house, a product team, an IT department or a development shop taking work from abroad — where English is the language of the ticket, the pull request, the incident post-mortem, the service schedule and the messages that arrive from a client in Rotterdam, a vendor in Dublin or a security assessor in Zurich.",
+ "neutral": "It is **role-neutral within the trade**. One cohort can contain a back-end developer, a tester and a support engineer, and all three practise the same skill on their own tickets and releases.",
+ "contexts_intro": "The programme assumes learners work on different parts of a system, not one. Twelve software contexts carry the case studies:",
+ "contexts": [
+  "Requirements and what the client actually asked for",
+  "Estimates, scope and dates",
+  "Code review and pull requests",
+  "Testing, QA and the bug that got through",
+  "Releases, deployment and rollback",
+  "Incidents, outages and the post-mortem",
+  "Support tickets and the user who is stuck",
+  "Databases, migrations and data loss",
+  "Security, secrets and access",
+  "Third-party APIs, libraries and vendors",
+  "Performance, capacity and cost",
+  "Handover, documentation and the leaver"
+ ],
+ "upward": "**Upward and outward paper:** tickets and pull request descriptions, incident minutes and post-mortems, estimate papers and change requests, decision papers for a director, standards a team follows, submissions to a client's review board, terms notes after a vendor negotiation and briefings written for three readers at once — usually written, usually read by somebody who was not there.",
+ "contact": "**Client, vendor and assessor contact:** foreign clients and their product managers, cloud and API vendors, security assessors and auditors, contractors abroad, service review boards and customer councils, often where neither side is a native speaker.",
+ "reading_rows": [
+  "Tickets, instructions, logs, messages, runbook pages — 133–184 words",
+  "Explanations, post-mortems, options notes, reports — 190–236 words",
+  "Decision papers, standards, submissions, hearings — 283–360 words"
+ ],
+ "writing_rows": [
+  "Tickets, notes, logs, a three-line handover — 48–74 words",
+  "Explanations, post-mortems, recommendations, monthly packs — 80–116 words",
+  "Decision papers, standards, appraisals, submissions — 145–184 words"
+ ],
+ "move3": "Decide, supervise, and speak for the firm",
+ "resp2": "a module, a release and a deadline",
+ "resp2b": "a module, a release and a deadline",
+ "arc2": "someone who owns a module, a release and a deadline",
+ "threads": "**being honest about what you did not do and cannot evidence** (Course 1 S9 → Course 2 S14 → Course 3 S28); **giving a figure its definition, basis and weakness** (C1 S4 → C2 S16 and S20 → C3 S27); and **writing so that the reader can act** (C1 S12 → C2 S19 → C3 S25).",
+ "h1": "from your first weeks on the team to a developer the team can rely on",
+ "h2": "from dependable pair of hands to owning a module, a release and a deadline",
+ "h3": "from owning a module to running a team and speaking for the firm to clients, vendors and boards",
+ "map_example": "A learner on the support desk meets their own work in sessions 7, 19 and 35, each time at a higher level of responsibility.",
+ "posts1": "Junior developer · trainee tester · support desk engineer · intern on a product team · junior front-end developer · build and release assistant · technical support agent taking tickets",
+ "gives1": "Being understood on a stand-up and in a ticket, taking a requirement accurately, keeping a ticket and a log a second person can trust, answering for the team to a user, holding a rule under pressure, accounting for a piece of work and handing it on",
+ "posts2": "Developer · senior tester · support lead · release coordinator · database developer · integration developer · client-facing engineer",
+ "gives2": "Owning a module and a release: explaining a defect so a reader who was not there can follow it, training somebody on live code, explaining why an estimate moved, pressing a vendor, recommending with a reservation, and reporting upward including what did not happen",
+ "posts3": "Engineering manager · technical lead · QA manager · head of support · platform or infrastructure manager · delivery manager · deputy to a technical director",
+ "gives3": "Other people's work and the firm's word: delegating, appraising, chairing the engineering review, writing the standard a team follows, naming risk before it lands, negotiating with vendors and clients, disagreeing upward, and answering a client's review board",
+ "constraint": "a capable young engineer at the developer's grade",
+ "doc_adj": "team",
+ "terminology": "Development, testing and service-agreement",
+ "notice_signer": "technical director",
+ "read_bands": [
+  "133–184",
+  "190–236",
+  "283–360"
+ ],
+ "write_bands": [
+  "48–74",
+  "80–116",
+  "145–184"
+ ],
+ "turn_bands": [
+  "10–11",
+  "12–13",
+  "14–16"
+ ],
+ "sub1": "From your first weeks on the team to a developer the team can rely on",
+ "sub2": "From dependable pair of hands to owning a module, a release and a deadline",
+ "sub3": "From owning a module to running a team and speaking for the firm to clients, vendors and boards",
+ "arc1_text": "The learner arrives on an engineering team unable to operate, and leaves able to be relied on: to take a requirement accurately, keep a ticket and a log a second person can trust, answer for the team to a user who is stuck, be trusted with a release step and a code review, hold a rule under pressure when a client is pressing, account for a piece of work and hand it on.",
+ "arc2_text": "The learner is given something of their own — a module, a release, a migration, a client's integration — and learns the language that ownership requires: explaining a defect so that a reader who was not there can follow it, training somebody on live code, explaining why an estimate moved, pressing a vendor, recommending with a reservation, and reporting upward including what did not happen.",
+ "arc3_text": "The learner becomes answerable for other people's work and for the firm's word. Three sessions are given to supervision itself — delegating, appraising and chairing — and the course runs on through writing the standard a team follows, naming risk before it lands, negotiating with vendors, clients and auditors, answering a client's review board, and arguing for the learner's own next post."
+}

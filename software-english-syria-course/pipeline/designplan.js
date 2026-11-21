@@ -30,7 +30,7 @@ out.push(p('⚠ **No fact is tested twice.** A date checked in True/False does n
 out.push(fig('taskmap', 620, 190));
 out.push(box('Worked example — a 150-word staff notice at Course 1', [
   '**Matching (4 pairs, 1 distractor).** Match each of the four blocks of the notice to its job: _who it is from · what has changed · from when · what you must do_. **Tests structure. Touches no detail.**',
-  '**True / False (5).** _The change starts on Sunday. · The notice is signed by the head of housekeeping. · Staff must sign the list before Thursday._ Two of the five are about something the notice does **not** say. **Tests detail. Touches no structure.**',
+  '**True / False (5).** _The change starts on Sunday. · The notice is signed by the technical director. · Staff must sign the list before Thursday._ Two of the five are about something the notice does **not** say. **Tests detail. Touches no structure.**',
   '**Gap-fill (4 gaps, word bank at this level).** A 50-word summary of the notice, reconstructed. **Tests the whole. Repeats nothing already asked.**',
   '⚠ **Thirteen items in all, and every line of the notice is covered exactly once.**',
 ], C.lteal, C.teal));
@@ -44,7 +44,7 @@ out.push(table(['Part', 'Min', 'What happens'], [
   ['**Cycle 1**', '31', 'Reading + its three tasks · listening + its three tasks · gapped model · pair role-play'],
   ['**Cycle 2**', '31', 'The same shape, a second angle on the session aim'],
   ['**Cycle 3**', '31', 'The same shape again — **this cycle\'s writing is the portfolio piece**'],
-  ['**Case study**', '22', 'A document pack in a named department or property, worked in fours, with its own three tasks'],
+  ['**Case study**', '22', 'A document pack in a named part of a software house, worked in fours, with its own three tasks'],
   ['**Close**', '2', 'The can-do checklist · homework: finish cycle 3\'s writing'],
 ], [1.1, 0.5, 5.4]));
 out.push(p('**3 × 31 + 22 + 3 + 2 = 120.** The cycle breakdown below is measured against real item counts, not estimated.'));
@@ -61,7 +61,7 @@ out.push(pb());
 out.push(h2('3 · The task typology'));
 out.push(h3('Reading — all three, every cycle, partitioned'));
 out.push(table(['Type', 'What it looks like', 'What it actually tests'], [
-  ['**True / False**', '5 statements about a short hotel document', 'Whether the learner read the document or guessed from the topic'],
+  ['**True / False**', '5 statements about a short team document', 'Whether the learner read the document or guessed from the topic'],
   ['**Gap-fill**', 'A 60–80 word summary of the text with 4 gaps, or an excerpt with words removed', 'Whether they can hold the whole text, not only find a line'],
   ['**Matching**', 'Match 4 lines to 4 purposes, readers or outcomes — with one distractor', 'Whether they see what each part of a document is FOR'],
 ], [1.2, 3, 2.8]));
@@ -131,7 +131,7 @@ out.push(table(['Element on the page', 'Fill', 'Rule / title', 'Never used for']
 out.push(sp());
 out.push(box('The visuals, and what each is for', [
   '**The cycle strip** — at the head of every session, in the course colour. Same figure, 36 times. It tells a learner where they are in the two hours.',
-  '**Context badges** — twelve small marks, one per hospitality context, on every case study. A learner recognises their own department before they read a word.',
+  '**Context badges** — twelve small marks, one per software context, on every case study. A learner recognises their own part of the engineering team before they read a word.',
   '**Document facsimiles** — readings are drawn as the thing itself: a form, a rota, a minute, an appraisal. **This is the highest-value visual in the course**, because recognising a genre on sight is half of reading it at work.',
   '**Concept diagrams** — about one per session, only where a structure is being taught: the four-line note, the chronology box, the decision question with two answers.',
   '⚠ **No decorative images.** Every figure in all three courses either shows a structure or identifies a document. A picture that only brightens the page is cut.',
@@ -149,8 +149,8 @@ out.push(table(['Device', 'Course 1', 'Course 2', 'Course 3'], [
   ['**Writing model**', 'Model, then **4 blanks + word bank**', 'Model, then **4 blanks, no bank**', 'Model, then 4 blanks on the **judgement words**'],
   ['**Case pack**', '**3 documents that agree**', '3 documents, one **incomplete**', '3 documents, two of which can **contradict**'],
   ['**Discussion**', 'About the learner\'s own work', 'About a judgement call', 'About a decision with **no good option**'],
-  ['**Reading length**', '132–190 words', '191–263 words', '271–360 words'],
-  ['**Writing length**', '37–75 words', '101–163 words', '145–202 words'],
+  ['**Reading length**', '133–184 words', '190–236 words', '283–360 words'],
+  ['**Writing length**', '48–74 words', '80–116 words', '145–184 words'],
 ], [1.3, 1.9, 1.9, 2.3]));
 
 // ============ 7 ============
@@ -186,7 +186,7 @@ out.push(table(['', 'Addition', 'Why'], [
   ['2', '**One pronunciation or intonation point a session**, 2 minutes inside cycle 2', 'The published B2 book already shows the value: a flat tone makes a sentence a delegation, a rising one makes it a hope. These are quick and they are memorable'],
   ['3', '**A can-do checklist at the end of every session** — three statements, ticked by the learner', 'Feeds the portfolio, gives the centre evidence, and takes ninety seconds'],
   ['4', '**Recycling checkpoints in sessions 6 and 12** of each course, inside the existing case study', 'Revision without spending a session on revision'],
-  ['5', '**A first-language column in the vocabulary appendix only**', 'Hotel and restaurant terminology is where an Arabic gloss earns its place. Translation stays out of the tasks and goes where it helps most — the word list. ⚠ **The column is printed empty, headed "In your language": no translation appears anywhere in the books, and filling it in Arabic is a decision for the centre**'],
+  ['5', '**A first-language column in the vocabulary appendix only**', 'Development, testing and service-agreement terminology is where an Arabic gloss earns its place. Translation stays out of the tasks and goes where it helps most — the word list. ⚠ **The column is printed empty, headed "In your language": no translation appears anywhere in the books, and filling it in Arabic is a decision for the centre**'],
   ['6', '**A one-page "how this book works" spread** at the front of each course, showing the colour legend', 'The colour system only pays if the learner is told it exists, once'],
 ], [0.4, 2.6, 4]));
 
@@ -201,7 +201,7 @@ out.push(table(['', 'Pass', 'Automatic?'], [
   ['5', 'Every writing task has a gapped model AND a sample answer in Appendix B', 'yes'],
   ['6', 'Every role play has all four scaffold parts', 'yes'],
   ['7', 'Every functional colour is used for its one purpose and no other', 'yes'],
-  ['8', 'Twelve hospitality contexts, each used exactly once per course', 'yes'],
+  ['8', 'Twelve software contexts, each used exactly once per course', 'yes'],
   ['9', 'No vocabulary item repeats; 12 per session, 144 in the course', 'yes'],
   ['10', 'Every reading and writing length falls inside the band for the level', 'yes'],
   ['11', 'Every figure referenced exists, embeds, and is not decorative', 'yes'],
