@@ -165,6 +165,36 @@ jobs:
       # to happen for the cure to be exercised. The run to look for this time
       # is one whose log shows "seen 1 of 3" or "lost it again" and then
       # deploys successfully. Until that appears, this is a better-aimed guess.
+      #
+      # ⚠ FIRST RUN WITH THIS STEP, 2026-11-22, commit 2709afe7 - and it
+      # answers HALF the question. Its log:
+      #
+      #     20:00:19.1512679  not visible yet (0s) - waiting
+      #     20:00:24.3507522  seen 1 of 3 (5s)
+      #     20:00:29.5726312  seen 2 of 3 (10s)
+      #     20:00:34.8099436  seen 3 of 3 (15s)
+      #     20:00:34.8099990  artifact listable on 3 consecutive queries - deploying
+      #
+      # and the deploy succeeded on the FIRST attempt, where 810b70fb had
+      # needed three.
+      #
+      # WHAT THAT PROVES: the index really can be cold - "not visible yet (0s)"
+      # is the very evidence the note above asked for before believing the wait
+      # was worth anything at all. It was, and waiting is now measured rather
+      # than assumed.
+      #
+      # WHAT IT STILL DOES NOT PROVE: "lost it again" never printed, so NO
+      # FLICKER HAPPENED on this run. The three-consecutive requirement was
+      # therefore not exercised against the thing it was built for, and one
+      # positive answer would have been enough here. The cure remains unproven
+      # and the run to look for is still one whose log says "lost it again" and
+      # then deploys.
+      #
+      # WHAT IT BUYS REGARDLESS, which is worth stating because it is probably
+      # the real mechanism: requiring three positives put ten extra seconds
+      # between the upload and deploy-pages' own query. 810b70fb failed on a
+      # 400-millisecond gap. Widening that gap makes the race rarer whether or
+      # not the consecutive-count logic ever catches a flicker in the act.
       - name: Wait for the artifact to be listable
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
