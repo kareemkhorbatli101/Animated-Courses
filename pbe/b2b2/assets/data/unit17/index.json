@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-17-1",
+  "cycle": "17.1",
+  "title": "The reader who will not read the original",
+  "objective": "write for the reader who will not read the original",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-17-2",
+  "cycle": "17.2",
+  "title": "What gets a line and what gets a page",
+  "objective": "decide what gets a line and what gets a page",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-17-3",
+  "cycle": "17.3",
+  "title": "Quoting fairly",
+  "objective": "quote fairly, including the part against you",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-17-4",
+  "cycle": "17.4",
+  "title": "The absence, inside the summary",
+  "objective": "put an absence inside a summary",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-17-5",
+  "cycle": "17.5",
+  "title": "The summary read without the original",
+  "objective": "write so that nothing load-bearing is only in the bundle",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-17-6",
+  "cycle": "17.6",
+  "title": "Summarising a case you disagree with",
+  "objective": "summarise a case you disagree with, without arguing in it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-17-7",
+  "cycle": "17.7",
+  "title": "Review & Mediate: the sentence everybody quotes",
+  "objective": "Review & Mediate: the sentence everybody quotes and nobody has read in place",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

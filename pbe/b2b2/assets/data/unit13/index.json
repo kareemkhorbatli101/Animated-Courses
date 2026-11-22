@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-13-1",
+  "cycle": "13.1",
+  "title": "What it obliges, not what it says",
+  "objective": "read your own agreement for what it obliges, not for what it says",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-13-2",
+  "cycle": "13.2",
+  "title": "Shall, may, and best endeavours",
+  "objective": "weigh shall, may and will use best endeavours, and find out which one you signed",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-13-3",
+  "cycle": "13.3",
+  "title": "A clause as a thing somebody does on a date",
+  "objective": "turn a clause into a thing somebody does on a date",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-13-4",
+  "cycle": "13.4",
+  "title": "The clause nobody here can perform",
+  "objective": "name the clause nobody here can perform, before the other side does",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-13-5",
+  "cycle": "13.5",
+  "title": "The notice provision, and the clock it starts",
+  "objective": "read a notice provision for the clock it starts",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-13-6",
+  "cycle": "13.6",
+  "title": "The register",
+  "objective": "build the obligations register: clause → act → owner → evidence",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-13-7",
+  "cycle": "13.7",
+  "title": "Review & Mediate: the clause we are already in breach of",
+  "objective": "Review & Mediate: the clause we are already in breach of, and nobody has looked",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

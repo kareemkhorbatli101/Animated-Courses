@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-22-1",
+  "cycle": "22.1",
+  "title": "Work, not the person",
+  "objective": "write about work rather than about a person, and notice the difference",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-22-2",
+  "cycle": "22.2",
+  "title": "The instance under the judgement",
+  "objective": "put an instance with a date under every judgement you make",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-22-3",
+  "cycle": "22.3",
+  "title": "The strength nobody has named",
+  "objective": "name a strength nobody has ever told the person about",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-22-4",
+  "cycle": "22.4",
+  "title": "Once, precisely, with a remedy",
+  "objective": "make a criticism once, precisely, with a remedy they can begin on Monday",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-22-5",
+  "cycle": "22.5",
+  "title": "Answering an assessment you think is wrong",
+  "objective": "answer an assessment you think is wrong, accepting the part that is right",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-22-6",
+  "cycle": "22.6",
+  "title": "Reviewing somebody better than you",
+  "objective": "review somebody who is better at part of the job than you are",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-22-7",
+  "cycle": "22.7",
+  "title": "Review & Mediate: the document that must not agree",
+  "objective": "Review & Mediate: the appraisal that must not be made to agree with the appointment",
+  "n": 12,
+  "minutes": 99,
+  "stages": 11
+ }
+]

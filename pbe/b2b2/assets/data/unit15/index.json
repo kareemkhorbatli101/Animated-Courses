@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-15-1",
+  "cycle": "15.1",
+  "title": "What has changed since the no",
+  "objective": "find what has changed since the no, and accept nothing as an answer",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-15-2",
+  "cycle": "15.2",
+  "title": "Conceding the no, completely",
+  "objective": "concede the refusal completely, and without irony",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-15-3",
+  "cycle": "15.3",
+  "title": "The narrower request",
+  "objective": "ask for something narrower, that can be answered with a yes",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-15-4",
+  "cycle": "15.4",
+  "title": "Letting somebody change their mind",
+  "objective": "let somebody change their mind without losing",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-15-5",
+  "cycle": "15.5",
+  "title": "When not to write at all",
+  "objective": "decide not to write, and write the file note instead",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-15-6",
+  "cycle": "15.6",
+  "title": "The interval, and how to say why you waited",
+  "objective": "judge the interval, and say why you waited",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-15-7",
+  "cycle": "15.7",
+  "title": "Review & Mediate: the no that was never a no",
+  "objective": "Review & Mediate: the no that was never a no, and nobody asked",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

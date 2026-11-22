@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-16-1",
+  "cycle": "16.1",
+  "title": "The strongest honest form",
+  "objective": "write the strongest honest form of a case you reject",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-16-2",
+  "cycle": "16.2",
+  "title": "Marking your own view out of the paper",
+  "objective": "mark your own view out of the paper, and attach it separately",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-16-3",
+  "cycle": "16.3",
+  "title": "Where you would change your mind, both ways",
+  "objective": "write the overturning condition in both directions",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-16-4",
+  "cycle": "16.4",
+  "title": "Reading it to the person who holds it",
+  "objective": "read the paper to the person who holds the case",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-16-5",
+  "cycle": "16.5",
+  "title": "Two papers, one decider",
+  "objective": "put two papers in front of one decider, with no thumb on the scale",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-16-6",
+  "cycle": "16.6",
+  "title": "The paper that loses",
+  "objective": "write the case you believe, and watch it lose",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-16-7",
+  "cycle": "16.7",
+  "title": "Review & Mediate: the case for the decision we took",
+  "objective": "Review & Mediate: the case for the decision we took, by the person who opposed it",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-18-1",
+  "cycle": "18.1",
+  "title": "The reader in five years",
+  "objective": "write for a reader in five years, who will not know and will assume",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-18-2",
+  "cycle": "18.2",
+  "title": "The context inside the document",
+  "objective": "put the context inside the document, because the file around it will be gone",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-18-3",
+  "cycle": "18.3",
+  "title": "The office, and the person then in it",
+  "objective": "name people and offices so that a stranger can trace them",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-18-4",
+  "cycle": "18.4",
+  "title": "The reason, not the decision",
+  "objective": "write the reason and not only the decision",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-18-5",
+  "cycle": "18.5",
+  "title": "What was considered and rejected",
+  "objective": "record what was considered and rejected, so that 2032 does not re-propose it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-18-6",
+  "cycle": "18.6",
+  "title": "The note for a question nobody has asked yet",
+  "objective": "write the file note for a question nobody has asked yet, with its index line",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-18-7",
+  "cycle": "18.7",
+  "title": "Review & Mediate: the firm that decided it twice",
+  "objective": "Review & Mediate: the Homs file, and two decisions with no reason written down",
+  "n": 12,
+  "minutes": 99,
+  "stages": 11
+ }
+]

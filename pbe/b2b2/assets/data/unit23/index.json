@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-23-1",
+  "cycle": "23.1",
+  "title": "Reading a rule that was not written for you",
+  "objective": "read a rule that was not written for you and work out exactly what it requires of you",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-23-2",
+  "cycle": "23.2",
+  "title": "Asking a body that can decide",
+  "objective": "write to a body that can decide, asking for something it has the power to grant",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-23-3",
+  "cycle": "23.3",
+  "title": "Costing a requirement before you argue about it",
+  "objective": "cost a requirement before you argue about it, including the cost of complying late",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-23-4",
+  "cycle": "23.4",
+  "title": "The falsifying condition, and the watcher",
+  "objective": "state the falsifying condition for your own position, and name who is watching for it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-23-5",
+  "cycle": "23.5",
+  "title": "Planning against a change you cannot influence",
+  "objective": "plan against a change you cannot influence instead of arguing with it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-23-6",
+  "cycle": "23.6",
+  "title": "A view you share with a competitor",
+  "objective": "put a view you share with a competitor, and say where you do not share it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-23-7",
+  "cycle": "23.7",
+  "title": "Review & Mediate: the joint submission you half agree with",
+  "objective": "Review & Mediate: the joint submission you half agree with",
+  "n": 12,
+  "minutes": 99,
+  "stages": 11
+ }
+]

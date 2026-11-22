@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-19-1",
+  "cycle": "19.1",
+  "title": "What a tribunal decides",
+  "objective": "understand what a tribunal decides, and what it will not decide however badly you were treated",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-19-2",
+  "cycle": "19.2",
+  "title": "The case you can plead",
+  "objective": "separate the case you can plead from the grievance you actually have",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-19-3",
+  "cycle": "19.3",
+  "title": "The document that hurts you",
+  "objective": "disclose the document that hurts you, and say what it means before the other side does",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-19-4",
+  "cycle": "19.4",
+  "title": "The absence inside your own case",
+  "objective": "name the absence inside your own case, and say whose it is",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-19-5",
+  "cycle": "19.5",
+  "title": "Answer the question, and stop",
+  "objective": "answer the question you were asked, and stop when the answer is finished",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-19-6",
+  "cycle": "19.6",
+  "title": "The offer, and what refusing it costs",
+  "objective": "answer an offer to settle, and price what refusing it costs",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-19-7",
+  "cycle": "19.7",
+  "title": "Review & Mediate: the statement he cannot sign",
+  "objective": "Review & Mediate: the call of 14 May, and the document nobody wants to write",
+  "n": 12,
+  "minutes": 99,
+  "stages": 11
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-20-1",
+  "cycle": "20.1",
+  "title": "Judgements, not tasks",
+  "objective": "write a handover that is about judgements rather than tasks",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-20-2",
+  "cycle": "20.2",
+  "title": "Your successor's first week",
+  "objective": "write your successor's first week, and name what they will change",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-20-3",
+  "cycle": "20.3",
+  "title": "What you have been carrying alone",
+  "objective": "name the thing you have been carrying that should never have been one person's",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-20-4",
+  "cycle": "20.4",
+  "title": "The judgement you would not defend again",
+  "objective": "hand on a judgement you would not defend again, and say why",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-20-5",
+  "cycle": "20.5",
+  "title": "The relationship that does not transfer",
+  "objective": "hand over a relationship that does not transfer, and introduce it properly",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-20-6",
+  "cycle": "20.6",
+  "title": "The case you cannot make out loud",
+  "objective": "make the case for an appointment, including the part you cannot say out loud",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-20-7",
+  "cycle": "20.7",
+  "title": "Review & Mediate: the right appointment at the wrong moment",
+  "objective": "Review & Mediate: the right appointment at the wrong moment",
+  "n": 12,
+  "minutes": 99,
+  "stages": 11
+ }
+]

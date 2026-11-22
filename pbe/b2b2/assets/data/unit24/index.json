@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-24-1",
+  "cycle": "24.1",
+  "title": "Reading what you wrote two years ago",
+  "objective": "open what you wrote two years ago and do what its first line tells you to do",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-24-2",
+  "cycle": "24.2",
+  "title": "The gap that closed, with the document that proves it",
+  "objective": "name a gap that closed, and produce the document that proves it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-24-3",
+  "cycle": "24.3",
+  "title": "The gap that did not close, and whether the exercise was done",
+  "objective": "name a gap that did not close, and say whether the exercise was ever done",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-24-4",
+  "cycle": "24.4",
+  "title": "Counting what you said you would do",
+  "objective": "count what you undertook against what you did, and give the figure",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-24-5",
+  "cycle": "24.5",
+  "title": "What you will be answerable for, written before it starts",
+  "objective": "write what you will be answerable for before the office begins",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-24-6",
+  "cycle": "24.6",
+  "title": "The letter to your C1 self, and the reader you arrange",
+  "objective": "write and seal one letter to your C1 self, and arrange its reader",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-24-7",
+  "cycle": "24.7",
+  "title": "Review & Mediate: what a certificate says and does not say",
+  "objective": "Review & Mediate: what a certificate says and does not say about a person",
+  "n": 12,
+  "minutes": 99,
+  "stages": 11
+ }
+]

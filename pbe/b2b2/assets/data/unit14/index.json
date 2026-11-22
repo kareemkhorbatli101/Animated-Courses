@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-14-1",
+  "cycle": "14.1",
+  "title": "A standard somebody can test",
+  "objective": "write a standard somebody can test",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-14-2",
+  "cycle": "14.2",
+  "title": "Tolerance, sample and method",
+  "objective": "give a standard its tolerance, its sample and its method",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-14-3",
+  "cycle": "14.3",
+  "title": "Deemed accepted, in both directions",
+  "objective": "read deemed accepted in both directions, including your own",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-14-4",
+  "cycle": "14.4",
+  "title": "A rejection that will hold",
+  "objective": "write a rejection that will hold, with its criterion quoted",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-14-5",
+  "cycle": "14.5",
+  "title": "The criterion that is really a preference",
+  "objective": "find the criterion that is really a preference, and say so",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-14-6",
+  "cycle": "14.6",
+  "title": "Agreeing criteria before the work",
+  "objective": "agree criteria before the work, in eleven lines signed by both",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-14-7",
+  "cycle": "14.7",
+  "title": "Review & Mediate: what we accept every month by saying nothing",
+  "objective": "Review & Mediate: what we accept every month by saying nothing",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-21-1",
+  "cycle": "21.1",
+  "title": "The question your reader actually has",
+  "objective": "answer the question your reader actually has, rather than the one you have prepared",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-21-2",
+  "cycle": "21.2",
+  "title": "A real option set",
+  "objective": "put a real option set, not one option with reasons attached to it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-21-3",
+  "cycle": "21.3",
+  "title": "Pricing the option of changing nothing",
+  "objective": "price the option of changing nothing, which is the option that usually wins",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-21-4",
+  "cycle": "21.4",
+  "title": "What has to be true",
+  "objective": "name what has to be true for your proposal to work, and which of it can be tested",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-21-5",
+  "cycle": "21.5",
+  "title": "The option you recommend against, priced",
+  "objective": "price the option you recommend against, fairly, and say what would make it right",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-21-6",
+  "cycle": "21.6",
+  "title": "The ask",
+  "objective": "state the ask: what you want decided, by whom, by when",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-21-7",
+  "cycle": "21.7",
+  "title": "Review & Mediate: the paper strong enough to defeat its author",
+  "objective": "Review & Mediate: the paper that is strong enough to defeat its own author",
+  "n": 12,
+  "minutes": 99,
+  "stages": 11
+ }
+]
