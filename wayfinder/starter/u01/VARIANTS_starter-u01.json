@@ -1,0 +1,26 @@
+{
+  "schema": "wayfinder/variants/1",
+  "unit_id": "starter-u01",
+  "base": "en-US",
+  "variant": "en-GB",
+  "tokens": [
+    { "id": "sp.center", "base": "center", "variant": "centre", "class": "spelling",
+      "slots": ["L1-1B", "L1-2A", "L2-2", "L2-4", "L4-1A", "L5-1A", "L5-2A", "RV-case"],
+      "audio_lines": ["W1-01-01", "W1-01-04", "W1-01-14", "W1-01-15", "W1-01-16"],
+      "note": "Appears in the name Portmere Language Center. Spelled, not a proper-noun exception: the institution's name takes the edition's spelling.",
+      "affects_key": false },
+    { "id": "lx.mobile", "base": "cell phone", "variant": "mobile", "class": "lexis",
+      "slots": ["L5-1B"], "audio_lines": ["W1-01-13"],
+      "note": "Narration only. The learner never writes this word in Unit 1.",
+      "affects_key": false },
+    { "id": "gr.havegot", "base": "I don't have your first name", "variant": "I haven't got your first name",
+      "class": "grammar", "slots": ["L4-1B"], "audio_lines": ["W1-01-07"],
+      "note": "The unit's only re-cut audio line. The learner writes Ewa and E-W-A in both editions.",
+      "affects_key": false }
+  ],
+  "checks": {
+    "answer_keys_identical_across_editions": true,
+    "variant_is_content_slots": [],
+    "recut_audio_lines": ["W1-01-07"]
+  }
+}

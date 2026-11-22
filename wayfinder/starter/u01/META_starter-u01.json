@@ -1,0 +1,854 @@
+{
+ "schema": "wayfinder/meta/1",
+ "unit_id": "starter-u01",
+ "level": "starter",
+ "cefr": "A1",
+ "unit": 1,
+ "title": "Nice to Meet You",
+ "setting": "Portmere Language Center, Fenner Street. Monday, the first day.",
+ "pages": [
+  4,
+  17
+ ],
+ "unit_goals": [
+  "Say and spell your name, your country and your phone number",
+  "Use a, an and plurals for the things in your bag and your classroom",
+  "Fill in an arrival form - and check it"
+ ],
+ "grammar": [
+  "singular and plural nouns",
+  "subject pronouns + be",
+  "a / an"
+ ],
+ "pronunciation": "/I/ vs /e/",
+ "document": "the center's arrival form, on paper and on the front-desk tablet",
+ "lesson_order": [
+  "Vocabulary",
+  "Real-life Reading",
+  "Grammar",
+  "Everyday Conversation",
+  "Writing",
+  "Team Up & Review"
+ ],
+ "budgets": {
+  "article": [
+   60,
+   90
+  ],
+  "real_lives": [
+   40,
+   60
+  ],
+  "case": [
+   40,
+   60
+  ]
+ },
+ "texts": {
+  "article": "Welcome to Portmere Language Center. Come to the front desk. Say your name. Spell it slowly. Get your student card. Look at your name on the card. Is it correct? Find your group. Your group is on the board. Group 1 is in Room 2. Group 2 is in Room 4. Ask questions. Your teacher is here to help you. Every student has questions in week one.",
+  "real_lives": "My name is Nadia Rahman. Nadia is my first name. Rahman is my last name. I am from Tabriz. I am a student at Portmere Language Center. My group is Group 2. My classroom is Room 4. My teacher is Ms Nkemelu. My notebook is new and my pens are blue. It is a good first day.",
+  "case": "Blanca is a new student at Portmere Language Center. On Monday she spells her name at the front desk: B-L-A-N-C-A. On Tuesday her student card is ready. But the name on the card is Blanka. It is wrong. Blanca needs the card for the library today. She is shy, and this is her third question this week."
+ },
+ "vocab": [
+  {
+   "w": "first name",
+   "band": "A1",
+   "set": "A",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-1A"
+  },
+  {
+   "w": "last name",
+   "band": "A1",
+   "set": "A",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-1A"
+  },
+  {
+   "w": "country",
+   "band": "A1",
+   "set": "A",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-1A"
+  },
+  {
+   "w": "address",
+   "band": "A1",
+   "set": "A",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-1A"
+  },
+  {
+   "w": "phone number",
+   "band": "A1",
+   "set": "A",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-1A"
+  },
+  {
+   "w": "email",
+   "band": "A1",
+   "set": "A",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-1A"
+  },
+  {
+   "w": "student",
+   "band": "A1",
+   "set": "A",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-1A"
+  },
+  {
+   "w": "teacher",
+   "band": "A1",
+   "set": "A",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-1A"
+  },
+  {
+   "w": "book",
+   "band": "A1",
+   "set": "B",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-2A"
+  },
+  {
+   "w": "notebook",
+   "band": "A1",
+   "set": "B",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-2A"
+  },
+  {
+   "w": "pen",
+   "band": "A1",
+   "set": "B",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-2A"
+  },
+  {
+   "w": "pencil",
+   "band": "A1",
+   "set": "B",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-2A"
+  },
+  {
+   "w": "bag",
+   "band": "A1",
+   "set": "B",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-2A"
+  },
+  {
+   "w": "chair",
+   "band": "A1",
+   "set": "B",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-2A"
+  },
+  {
+   "w": "table",
+   "band": "A1",
+   "set": "B",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-2A"
+  },
+  {
+   "w": "board",
+   "band": "A1",
+   "set": "B",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-2A"
+  },
+  {
+   "w": "computer",
+   "band": "A1",
+   "set": "B",
+   "source": "NGSL/Oxford3000",
+   "slot": "L1-2A"
+  }
+ ],
+ "sources": [],
+ "sourcing_note": "At Starter level the reading text is authored realia - a document a Portmere institution would itself produce - and makes no external factual claim, so there is no outside source to cite. External public sourcing begins at Level 2, where articles start making claims about the world. Inventing a citation for a 63-word welcome sheet would be worse than having none.",
+ "recycling": {
+  "back_refs": [
+   {
+    "from": "L3-REMEMBER",
+    "to": "starter-pre",
+    "items": 5
+   }
+  ],
+  "forward_refs": [],
+  "note": "Unit 1 has no earlier units to recycle, so the Remember? strip looks back at Starting Point. Forward refs are written in at book close, when U2 and U4 exist; gate 3 reports SKIP until then rather than passing on an empty check."
+ },
+ "lessons": [
+  {
+   "id": "L1",
+   "name": "Vocabulary",
+   "pages": [
+    4,
+    5
+   ],
+   "can_do": [
+    "I can say and spell my name and my country",
+    "I can name the things in my bag and my classroom",
+    "I can check a form a machine filled in for me"
+   ],
+   "slots": [
+    {
+     "id": "L1-1A",
+     "fn": "activate: circle the words you know",
+     "items": 8,
+     "interaction": "individual then pair",
+     "oral": true,
+     "art": "u01-a01",
+     "open": true
+    },
+    {
+     "id": "L1-1B",
+     "fn": "gist listening",
+     "items": 1,
+     "interaction": "whole class",
+     "audio": "W1-01-01",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-01",
+     "art": "u01-a02",
+     "key": true
+    },
+    {
+     "id": "L1-1C",
+     "fn": "listen and repeat",
+     "items": 8,
+     "interaction": "whole class",
+     "oral": true,
+     "audio": "W1-01-02",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-02",
+     "drill": true
+    },
+    {
+     "id": "L1-1D",
+     "fn": "gap-fill",
+     "items": 6,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L1-1E",
+     "fn": "pair Q&A from a model",
+     "items": 3,
+     "interaction": "pair",
+     "oral": true,
+     "open": true
+    },
+    {
+     "id": "L1-2A",
+     "fn": "match words to picture",
+     "items": 9,
+     "interaction": "individual",
+     "art": "u01-a03",
+     "key": true
+    },
+    {
+     "id": "L1-2B",
+     "fn": "listen and check, then say",
+     "items": 9,
+     "interaction": "pair",
+     "oral": true,
+     "audio": "W1-01-03",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-03",
+     "key": true
+    },
+    {
+     "id": "L1-2C",
+     "fn": "paragraph completion",
+     "items": 5,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L1-2D",
+     "fn": "Think about it discussion",
+     "items": 2,
+     "interaction": "pair",
+     "oral": true,
+     "open": true
+    },
+    {
+     "id": "L1-AUG-a",
+     "fn": "digital literacy: check the screen",
+     "items": 3,
+     "interaction": "pair then class",
+     "oral": true,
+     "open": true,
+     "art": "u01-a04",
+     "key": true
+    },
+    {
+     "id": "L1-CHECK",
+     "fn": "two-column sort + say it",
+     "items": 6,
+     "interaction": "individual then pair",
+     "oral": true,
+     "key": true
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "name": "Real-life Reading",
+   "pages": [
+    6,
+    7
+   ],
+   "can_do": [
+    "I can find information in a short welcome text",
+    "I can read a form and find a missing field",
+    "I can say why checking a name matters"
+   ],
+   "slots": [
+    {
+     "id": "L2-1A",
+     "fn": "pre-reading vocabulary match",
+     "items": 4,
+     "interaction": "individual then pair",
+     "oral_step": true,
+     "key": true
+    },
+    {
+     "id": "L2-1B",
+     "fn": "prediction poll with reasons",
+     "items": 3,
+     "interaction": "whole class",
+     "oral": true,
+     "open": true
+    },
+    {
+     "id": "L2-2",
+     "fn": "read the article",
+     "items": 0,
+     "interaction": "individual",
+     "art": "u01-a05"
+    },
+    {
+     "id": "L2-2A",
+     "fn": "audio read-along",
+     "items": 0,
+     "interaction": "individual",
+     "audio": "W1-01-04",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-04"
+    },
+    {
+     "id": "L2-3A",
+     "fn": "multiple choice, exam format",
+     "items": 4,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L2-3B",
+     "fn": "word gap-fill from the text",
+     "items": 4,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L2-4",
+     "fn": "read a form: partner Q&A",
+     "items": 4,
+     "interaction": "pair",
+     "oral": true,
+     "art": "u01-a06",
+     "key": true
+    },
+    {
+     "id": "L2-4B",
+     "fn": "inference: why check a form",
+     "items": 1,
+     "interaction": "pair",
+     "oral": true,
+     "open": true,
+     "key": true
+    },
+    {
+     "id": "L2-TIO",
+     "fn": "Take It Outside: find a name on a sign",
+     "items": 3,
+     "interaction": "individual then group",
+     "oral": true,
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "name": "Grammar",
+   "pages": [
+    8,
+    10
+   ],
+   "can_do": [
+    "I can use am, is and are and their short forms",
+    "I can use a and an and make plurals",
+    "I can ask three classmates for their information"
+   ],
+   "slots": [
+    {
+     "id": "L3-REMEMBER",
+     "fn": "spaced retrieval from Starting Point",
+     "items": 5,
+     "interaction": "pair then individual",
+     "oral": true,
+     "key": true
+    },
+    {
+     "id": "L3-1A",
+     "fn": "context dialogue + opinion",
+     "items": 1,
+     "interaction": "whole class",
+     "oral": true,
+     "open": true,
+     "audio": "W1-01-05",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-05",
+     "key": true
+    },
+    {
+     "id": "L3-1B",
+     "fn": "notice and underline",
+     "items": 1,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L3-1C",
+     "fn": "chart + Grammar Note",
+     "items": 0,
+     "interaction": "individual"
+    },
+    {
+     "id": "L3-1D",
+     "fn": "pair oral practice: short forms",
+     "items": 5,
+     "interaction": "pair",
+     "oral": true,
+     "key": true
+    },
+    {
+     "id": "L3-1E",
+     "fn": "one sentence per rule",
+     "items": 3,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L3-2A",
+     "fn": "chart: a / an / plurals",
+     "items": 0,
+     "interaction": "individual"
+    },
+    {
+     "id": "L3-2B",
+     "fn": "listen and repeat",
+     "items": 8,
+     "interaction": "whole class",
+     "oral": true,
+     "audio": "W1-01-06",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-06",
+     "drill": true
+    },
+    {
+     "id": "L3-2C",
+     "fn": "controlled completion",
+     "items": 6,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L3-3A",
+     "fn": "picture-cued pair questions",
+     "items": 12,
+     "interaction": "pair",
+     "oral": true,
+     "art": "u01-a07",
+     "key": true
+    },
+    {
+     "id": "L3-3B",
+     "fn": "notebook sentences",
+     "items": 4,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L3-4A",
+     "fn": "personalized survey of three classmates",
+     "items": 9,
+     "interaction": "mingle",
+     "oral": true,
+     "key": true
+    },
+    {
+     "id": "L3-4B",
+     "fn": "report one person to the class",
+     "items": 1,
+     "interaction": "whole class",
+     "oral": true,
+     "open": true
+    },
+    {
+     "id": "L3-CHECK",
+     "fn": "three sentences about a partner",
+     "items": 3,
+     "interaction": "individual",
+     "key": true
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "name": "Everyday Conversation",
+   "pages": [
+    11,
+    13
+   ],
+   "can_do": [
+    "I can give and spell my name at a desk and check it was heard right",
+    "I can hear the difference between /I/ and /e/",
+    "I can correct someone politely when they get my name wrong"
+   ],
+   "slots": [
+    {
+     "id": "L4-1A",
+     "fn": "realia Q&A from the class list",
+     "items": 5,
+     "interaction": "pair",
+     "oral": true,
+     "art": "u01-a08",
+     "key": true
+    },
+    {
+     "id": "L4-1B",
+     "fn": "listening: complete the list",
+     "items": 2,
+     "interaction": "individual",
+     "audio": "W1-01-07",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-07",
+     "key": true
+    },
+    {
+     "id": "L4-2A",
+     "fn": "pronunciation model",
+     "items": 4,
+     "interaction": "whole class",
+     "audio": "W1-01-08",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-08",
+     "drill": true
+    },
+    {
+     "id": "L4-2B",
+     "fn": "identify the word you hear",
+     "items": 4,
+     "interaction": "individual",
+     "audio": "W1-01-09",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-09",
+     "key": true
+    },
+    {
+     "id": "L4-2C",
+     "fn": "minimal-pair pair drill",
+     "items": 4,
+     "interaction": "pair",
+     "oral": true,
+     "drill": true
+    },
+    {
+     "id": "L4-3A",
+     "fn": "model dialogue read and listen",
+     "items": 0,
+     "interaction": "pair",
+     "oral": true,
+     "audio": "W1-01-10",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-10",
+     "art": "u01-a09"
+    },
+    {
+     "id": "L4-3B",
+     "fn": "a/b comprehension",
+     "items": 4,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L4-3C",
+     "fn": "think about the grammar",
+     "items": 2,
+     "interaction": "pair",
+     "oral": true,
+     "key": true
+    },
+    {
+     "id": "L4-3D",
+     "fn": "question chart: listen and repeat",
+     "items": 7,
+     "interaction": "whole class",
+     "oral": true,
+     "audio": "W1-01-11",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-11",
+     "drill": true
+    },
+    {
+     "id": "L4-4A",
+     "fn": "realia pair task: the sign-in screen",
+     "items": 4,
+     "interaction": "pair",
+     "oral": true,
+     "art": "u01-a10",
+     "key": true
+    },
+    {
+     "id": "L4-OJ",
+     "fn": "On the Job: three exchanges + discussion",
+     "items": 3,
+     "interaction": "group of three",
+     "oral": true,
+     "open": true,
+     "audio": "W1-01-12",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-12",
+     "key": true
+    },
+    {
+     "id": "L4-CC",
+     "fn": "Culture Check: which name comes first",
+     "items": 3,
+     "interaction": "group",
+     "oral": true,
+     "open": true
+    },
+    {
+     "id": "L4-5A",
+     "fn": "gap-dialogue",
+     "items": 6,
+     "interaction": "pair",
+     "oral": true,
+     "key": true
+    },
+    {
+     "id": "L4-5B",
+     "fn": "present to another pair",
+     "items": 1,
+     "interaction": "pair to pair",
+     "oral": true,
+     "open": true
+    },
+    {
+     "id": "L4-CHECK",
+     "fn": "role-play from two role cards",
+     "items": 2,
+     "interaction": "pair",
+     "oral": true,
+     "open": true,
+     "key": true
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "name": "Writing",
+   "pages": [
+    14,
+    15
+   ],
+   "can_do": [
+    "I can write eight to ten sentences about my first day",
+    "I can use a capital letter for names and countries",
+    "I can check a partner's writing against three points"
+   ],
+   "slots": [
+    {
+     "id": "L5-1A",
+     "fn": "realia warm-up: the badge",
+     "items": 3,
+     "interaction": "pair",
+     "oral": true,
+     "art": "u01-a11",
+     "key": true
+    },
+    {
+     "id": "L5-1B",
+     "fn": "picture story, listen",
+     "items": 0,
+     "interaction": "whole class",
+     "audio": "W1-01-13",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-13",
+     "art": "u01-a12"
+    },
+    {
+     "id": "L5-2A",
+     "fn": "Real Lives model text + Writer's Tip",
+     "items": 0,
+     "interaction": "individual",
+     "audio": "W1-01-14",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-14"
+    },
+    {
+     "id": "L5-2B",
+     "fn": "comprehension: circle the word",
+     "items": 4,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L5-2C",
+     "fn": "second speaker, then agree with a partner",
+     "items": 4,
+     "interaction": "individual then pair",
+     "oral": true,
+     "open": true,
+     "audio": "W1-01-15",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-15",
+     "key": true
+    },
+    {
+     "id": "L5-3A",
+     "fn": "plan: complete the form",
+     "items": 8,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L5-3B",
+     "fn": "role-play the form at a front desk",
+     "items": 8,
+     "interaction": "pair",
+     "oral": true,
+     "open": true
+    },
+    {
+     "id": "L5-4A",
+     "fn": "write from the frame",
+     "items": 9,
+     "interaction": "individual",
+     "key": true
+    },
+    {
+     "id": "L5-4B",
+     "fn": "read to a partner, three-point peer check",
+     "items": 3,
+     "interaction": "pair",
+     "oral": true,
+     "key": true
+    },
+    {
+     "id": "L5-CHECK",
+     "fn": "self-assessment, said aloud",
+     "items": 4,
+     "interaction": "pair",
+     "oral": true,
+     "open": true
+    }
+   ]
+  },
+  {
+   "id": "RV",
+   "name": "Team Up & Review",
+   "pages": [
+    16,
+    17
+   ],
+   "can_do": [
+    "I can describe my classroom in four sentences with a team",
+    "I can build and check a class list",
+    "I can read a bar chart of my class and check that it adds up"
+   ],
+   "slots": [
+    {
+     "id": "RV-A",
+     "fn": "team discussion of the scene",
+     "items": 4,
+     "interaction": "team",
+     "oral": true,
+     "open": true,
+     "art": "u01-a13",
+     "key": true
+    },
+    {
+     "id": "RV-B",
+     "fn": "team summary from a model",
+     "items": 4,
+     "interaction": "team",
+     "key": true
+    },
+    {
+     "id": "RV-C",
+     "fn": "report to another team",
+     "items": 2,
+     "interaction": "team to team",
+     "oral": true,
+     "open": true
+    },
+    {
+     "id": "RV-D",
+     "fn": "team project: the class list, four roles",
+     "items": 3,
+     "interaction": "team",
+     "oral": true,
+     "key": true
+    },
+    {
+     "id": "RV-E",
+     "fn": "class survey + ranked bar chart",
+     "items": 3,
+     "interaction": "whole class",
+     "art": "u01-a14",
+     "key": true
+    },
+    {
+     "id": "RV-F",
+     "fn": "talk about the chart, check the total",
+     "items": 3,
+     "interaction": "whole class",
+     "oral": true,
+     "open": true,
+     "key": true
+    },
+    {
+     "id": "RV-TIO",
+     "fn": "Take It Outside harvest",
+     "items": 3,
+     "interaction": "group",
+     "oral": true,
+     "open": true
+    },
+    {
+     "id": "RV-CASE",
+     "fn": "Think It Through: Blanca",
+     "items": 3,
+     "interaction": "group",
+     "oral": true,
+     "open": true,
+     "audio": "W1-01-16",
+     "script_ref": "AUDIO_starter-u01.md#w1-01-16",
+     "art": "u01-a15",
+     "key": true
+    },
+    {
+     "id": "RV-PROGRESS",
+     "fn": "My Progress log",
+     "items": 5,
+     "interaction": "individual",
+     "open": true
+    }
+   ]
+  }
+ ],
+ "counts": {
+  "lessons": 6,
+  "slots": 68,
+  "audio_tracks": 16,
+  "art_assets": 15,
+  "vocab_items": 17,
+  "oral_slots": 40,
+  "open_slots": 22,
+  "drill_slots": 5
+ }
+}

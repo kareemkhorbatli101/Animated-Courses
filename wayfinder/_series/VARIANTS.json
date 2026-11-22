@@ -1,0 +1,35 @@
+{
+  "schema": "wayfinder/variants/1",
+  "base": "en-US",
+  "variant": "en-GB",
+  "note": "Keyed tokens, not a spell-checker swap. Each entry names the slots that use it so audio scripts, answer keys, art labels and realia all switch together. variant_is_content:true means the divergence IS the teaching point and the item is keyed twice on purpose.",
+  "tokens": [
+    { "id": "sp.center",   "base": "center",     "variant": "centre",    "class": "spelling", "scope": "series" },
+    { "id": "sp.color",    "base": "color",      "variant": "colour",    "class": "spelling", "scope": "series" },
+    { "id": "sp.realize",  "base": "realize",    "variant": "realise",   "class": "spelling", "scope": "series" },
+    { "id": "sp.program",  "base": "program",    "variant": "programme", "class": "spelling", "scope": "series", "note": "computer program stays 'program' in both editions" },
+    { "id": "sp.meter",    "base": "meter",      "variant": "metre",     "class": "spelling", "scope": "series" },
+    { "id": "sp.traveled", "base": "traveled",   "variant": "travelled", "class": "spelling", "scope": "series" },
+    { "id": "sp.enroll",   "base": "enroll",     "variant": "enrol",     "class": "spelling", "scope": "series" },
+    { "id": "lx.flat",     "base": "apartment",  "variant": "flat",      "class": "lexis", "scope": ["starter.u10", "l1.u04"] },
+    { "id": "lx.queue",    "base": "line",       "variant": "queue",     "class": "lexis", "scope": ["starter.u02", "starter.u05", "starter.u08"] },
+    { "id": "lx.mobile",   "base": "cell phone", "variant": "mobile",    "class": "lexis", "scope": ["starter.u01", "l1.u02"] },
+    { "id": "lx.chemist",  "base": "pharmacy",   "variant": "chemist",   "class": "lexis", "scope": ["starter.u08", "starter.u09"] },
+    { "id": "lx.trash",    "base": "trash",      "variant": "rubbish",   "class": "lexis", "scope": ["starter.u10", "l1.u06"] },
+    { "id": "lx.elevator", "base": "elevator",   "variant": "lift",      "class": "lexis", "scope": ["starter.u10", "l1.u09"] },
+    { "id": "lx.fall",     "base": "fall",       "variant": "autumn",    "class": "lexis", "scope": ["starter.u04"] },
+    { "id": "lx.cv",       "base": "resume",     "variant": "CV",        "class": "lexis", "scope": ["l1.u10"] },
+    { "id": "lx.check",    "base": "check",      "variant": "bill",      "class": "lexis", "scope": ["starter.u05"] },
+    { "id": "lx.subway",   "base": "subway",     "variant": "underground","class": "lexis", "scope": ["starter.u11"] },
+    { "id": "gr.havegot",  "base": "Do you have",      "variant": "Have you got",   "class": "grammar", "scope": ["l1.u03"] },
+    { "id": "gr.weekend",  "base": "on the weekend",   "variant": "at the weekend", "class": "grammar", "scope": ["starter.u04", "l1.u12"] },
+    { "id": "dt.order",    "base": "March 14",         "variant": "14 March",       "class": "dates", "scope": ["starter.u04"], "variant_is_content": true,
+      "note": "Starter U4 is BUILT on this divergence and teaches both numeric formats explicitly, because guessing between 3-14 and 14-03 is a real-world failure. Keyed twice on purpose." }
+  ],
+  "rules": [
+    "No slot's ANSWER may depend on the active edition unless variant_is_content is true.",
+    "Audio is scripted once; each affected line carries a variant note so a British record re-cuts only the flagged lines.",
+    "Proper nouns are never switched. Portmere, Fenner Street and every character name are spelling-neutral by design.",
+    "Gate 14 fails the unit if any token fails to resolve in either edition, or if an unflagged answer key diverges."
+  ]
+}
