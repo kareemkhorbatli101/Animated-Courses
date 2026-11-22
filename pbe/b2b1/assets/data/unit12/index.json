@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-12-1",
+  "cycle": "12.1",
+  "title": "The decision as a question",
+  "objective": "write a decision as a question with two answers and no third",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-12-2",
+  "cycle": "12.2",
+  "title": "The four papers",
+  "objective": "name the four papers behind it, and what each one is for",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-12-3",
+  "cycle": "12.3",
+  "title": "The thing that decides it",
+  "objective": "find the one thing that decides it, and say what does not",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-12-4",
+  "cycle": "12.4",
+  "title": "The case against your own answer",
+  "objective": "write the case against your own answer, yourself",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-12-5",
+  "cycle": "12.5",
+  "title": "The sentence you will be held to",
+  "objective": "identify the sentence you will be held to, and get its wording right",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-12-6",
+  "cycle": "12.6",
+  "title": "Recording it so that it can be revisited",
+  "objective": "record the decision with its basis, its review date and its trigger",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-12-7",
+  "cycle": "12.7",
+  "title": "Review & Mediate: the decision taken, and the dissent minuted",
+  "objective": "Review & Mediate: the decision taken, and the dissent minuted",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

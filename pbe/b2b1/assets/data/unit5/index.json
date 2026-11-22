@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-5-1",
+  "cycle": "5.1",
+  "title": "A rule for a case nobody has met",
+  "objective": "write a rule for a case nobody has met yet",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-5-2",
+  "cycle": "5.2",
+  "title": "Scope and exclusion",
+  "objective": "set a scope, and say what the rule does not apply to",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-5-3",
+  "cycle": "5.3",
+  "title": "Who may decide an exception",
+  "objective": "name who may grant an exception, and how it is recorded",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-5-4",
+  "cycle": "5.4",
+  "title": "The definition that does the work",
+  "objective": "write the one definition that does the work",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-5-5",
+  "cycle": "5.5",
+  "title": "Not only … but",
+  "objective": "write a two-part obligation, and say why both halves fail together",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-5-6",
+  "cycle": "5.6",
+  "title": "The policy that will be quoted against you",
+  "objective": "read your own policy as the person who will quote it against you",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-5-7",
+  "cycle": "5.7",
+  "title": "Review & Mediate: the policy we have never written",
+  "objective": "Review & Mediate: the policy we have followed for years and never written",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

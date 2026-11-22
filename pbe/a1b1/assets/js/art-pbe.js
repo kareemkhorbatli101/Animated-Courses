@@ -146,7 +146,49 @@
     accountdesk:   [0.20, 0.72, 0.46],
     workbench:     [0.18, 0.74, 0.47],
     stocktake:     [0.17, 0.75, 0.46],
-    signingdesk:   [0.24, 0.68, 0.46]
+    signingdesk:   [0.24, 0.68, 0.46],
+    /* B1 Book 2's five rooms of its own. Five rows and not twelve for the same
+       reason as Book 1's four: the other seven units happen in rooms this table
+       already has, and each of those seven is a room that IS the unit's subject
+       (the archive is how it used to be done; the returns desk is a claim). */
+    diarywall:     [0.21, 0.71, 0.46],
+    incidentroom:  [0.19, 0.73, 0.47],
+    quotetable:    [0.23, 0.69, 0.45],
+    dealtable:     [0.25, 0.67, 0.46],
+    pressdesk:     [0.20, 0.70, 0.47],
+    /* B2 Book 1's six rooms of its own, and Book 2's five. Eleven rows for
+       twenty-four units, because thirteen of those units happen in a room this
+       table already has and each of the thirteen IS the unit's subject - the
+       boardroom is where a decision was half-taken, the archive is a document
+       that outlives its author, the quotation table is three options with one
+       argued against.
+
+       ⚠ THESE TRIPLES WERE CHOSEN FOR THEIR GAPS, NOT BY EYE. A prop above
+       WAIST_Y must sit between two actor columns, and a column is 2 x
+       ACTOR_HALF = 272 wide, so a triple with a 64-wide gap has nowhere to put
+       a telephone. Each is one of four shapes whose gaps are written down:
+
+         [0.20, 0.70, 0.46]  gaps 456..600 and 872..984
+         [0.18, 0.74, 0.46]  gaps 424..600 and 872..1048
+         [0.22, 0.72, 0.47]  gaps 488..616 and 888..1016
+         [0.19, 0.73, 0.45]  gaps 440..584 and 856..1032
+
+       Every tall prop in the eleven rooms below is placed at an x inside one of
+       its own room's two gaps, which is why `clearOf` passes by construction
+       rather than by luck - the mistake `incidentroom` made on 2026-11-21, when
+       a carton was painted across 47% of a speaker's chest behind a comment
+       claiming a proof that had never been run. */
+    directorsroom: [0.22, 0.72, 0.47],
+    fileroom:      [0.18, 0.74, 0.46],
+    policydesk:    [0.20, 0.70, 0.46],
+    bankdesk:      [0.19, 0.73, 0.45],
+    editdesk:      [0.22, 0.72, 0.47],
+    callroom:      [0.20, 0.70, 0.46],
+    contractdesk:  [0.18, 0.74, 0.46],
+    readingroom:   [0.20, 0.70, 0.46],
+    tribunal:      [0.19, 0.73, 0.45],
+    handoverdesk:  [0.22, 0.72, 0.47],
+    letterdesk:    [0.20, 0.70, 0.46]
   };
   var ACTOR_HALF = 0.085 * W;          // half an actor box, in stage units
   var WAIST_Y = 0.56 * H;              // above this, a small prop is across a body
@@ -249,7 +291,31 @@
        a fight with the floor - the same reason `warehouse` is absent. */
     accountdesk:   { x0: 400, x1: 1200, top: 560 },
     workbench:     { x0: 240, x1: 1360, top: 556 },
-    signingdesk:   { x0: 440, x1: 1160, top: 558 }
+    signingdesk:   { x0: 440, x1: 1160, top: 558 },
+    /* B1 Book 2. All five have one, because all five put their props on a
+       surface rather than on the floor - which is itself the test: a room whose
+       fore layer would stand things on the ground does not get a row here. */
+    diarywall:     { x0: 380, x1: 1220, top: 562 },
+    incidentroom:  { x0: 260, x1: 1340, top: 556 },
+    quotetable:    { x0: 300, x1: 1300, top: 560 },
+    dealtable:     { x0: 420, x1: 1180, top: 558 },
+    pressdesk:     { x0: 340, x1: 1260, top: 560 },
+    /* B2's eleven. All eleven have a surface, because B2 is a book of
+       documents: every one of these rooms puts paper on a top, and not one of
+       them wants a bin on the floor. The `top` is each room's own desk height
+       from its `mid` layer, not a constant - a span copied from another room is
+       how a prop ends up resting on air beside the desk. */
+    directorsroom: { x0: 420, x1: 1180, top: 558 },
+    fileroom:      { x0: 260, x1: 1340, top: 556 },
+    policydesk:    { x0: 360, x1: 1240, top: 560 },
+    bankdesk:      { x0: 300, x1: 1300, top: 556 },
+    editdesk:      { x0: 440, x1: 1160, top: 558 },
+    callroom:      { x0: 480, x1: 1120, top: 562 },
+    contractdesk:  { x0: 280, x1: 1320, top: 558 },
+    readingroom:   { x0: 300, x1: 1300, top: 560 },
+    tribunal:      { x0: 240, x1: 1360, top: 556 },
+    handoverdesk:  { x0: 420, x1: 1180, top: 558 },
+    letterdesk:    { x0: 400, x1: 1200, top: 560 }
   };
   //: exported so gates/pbe_art.py can ask the page the same question it measures
   A.pbeContract = { spots: SPOTS, actorHalf: ACTOR_HALF, waistY: WAIST_Y,
@@ -3609,6 +3675,1331 @@
       s += rest(P.st, TOP, 68, 24, '#4b545f', 4);
       s += rest(P.st + 18, TOP - 24, 32, 22, INK, 3);
       s += text(P.st + 34, TOP - 52, 'DATE', 12, '#9aa4ac', 'middle', 700);
+      return stage(s);
+    }
+  };
+
+  /* ────────────────────────────────────────────────────────────────────────
+     B1 BOOK 2 - FIVE ROOMS, AND WHY THESE FIVE.
+     Units 13-24 use twelve rooms; seven of them this file already draws. The
+     five below are the units whose own artefact the series has never had to
+     put on a stage:
+
+       13  diarywall     what is ARRANGED, with the evidence beside it
+       15  incidentroom  the post-mortem, reconstructed on a table
+       16  quotetable    three offers side by side, and a column that is a guess
+       21  dealtable     two people, two columns, and what each gave up
+       23  pressdesk     the trade press - confirmed, claimed, and not known
+
+     Each obeys the contract at the head of this file: 1600x900, back/mid/fore,
+     nothing in a fore layer painting above WAIST_Y=504 inside an actor column,
+     three arrangements through slot(), and every prop RESTING on a declared
+     surface rather than at a y chosen by eye.
+     ──────────────────────────────────────────────────────────────────────── */
+
+  /* UNIT 13. The month on the wall is the unit's whole grammar: a square with a
+     time written in it is an arrangement, a square with a word in it is an
+     intention, and an empty square is a prediction. The sailing timetable
+     beside it is there because 13.5 is the timetable present - the vessel sails
+     at 6.40 whatever anybody intends. */
+  MINE.diarywall = {
+    back: function (arr) {
+      var s = r(0, 0, W, H, '#e4ddd0') + r(0, 0, W, 176, '#d3cbb9');
+      s += r(0, 652, W, 248, FLOOR) + r(0, 652, W, 16, FLOOR2);
+      /* the month: six columns, four rows, drawn as a grid and not as a picture
+         of one, so the squares can carry different KINDS of entry */
+      s += r(150, 196, 700, 392, PAPER, 8);
+      s += r(150, 196, 700, 52, OLIVE, 4);
+      s += text(500, 232, 'MARCH', 22, PAPER, 'middle', 800);
+      var DAY = ['M', 'T', 'W', 'T', 'F', 'S'];
+      for (var d = 0; d < 6; d++) {
+        s += text(206 + d * 114, 274, DAY[d], 14, STEEL2, 'middle', 700);
+      }
+      /* 10.00 is arranged, "Aleppo?" is intended, the blanks are neither */
+      var CELL = [['', '10.00', '', 'wrap', '', ''],
+                  ['Aleppo?', '', '14.00', '', '', ''],
+                  ['', '', '', '', '6.40', '']];
+      for (var rw = 0; rw < CELL.length; rw++) {
+        for (var cl = 0; cl < 6; cl++) {
+          var x = 164 + cl * 114, y = 292 + rw * 96;
+          s += r(x, y, 104, 86, '#f4efe3', 3);
+          s += line(x, y, x + 104, y, '#ddd5c2', 2);
+          var v = CELL[rw][cl];
+          if (v) {
+            var arranged = /^[0-9]/.test(v);
+            s += text(x + 52, y + 50, v, arranged ? 19 : 17,
+                      arranged ? INK : '#a79f8e', 'middle', arranged ? 700 : 600);
+          }
+        }
+      }
+      s += text(500, 612, 'a time is an arrangement  ·  a word is an intention',
+                15, '#9a9382', 'middle', 600);
+      /* the sailing timetable: fixed, public, and nobody's intention */
+      s += r(1010, 208, 440, 372, PAPER, 8);
+      s += r(1010, 208, 440, 46, STEEL2, 4);
+      s += text(1230, 240, 'SAILINGS', 18, PAPER, 'middle', 800);
+      var SAIL = [['Lattakia', '06.40'], ['Tartus', '11.15'],
+                  ['Lattakia', '18.00'], ['Tartus', '22.30']];
+      for (var i = 0; i < SAIL.length; i++) {
+        var sy = 288 + i * 68;
+        s += line(1030, sy + 22, 1430, sy + 22, '#ded6c4', 2);
+        s += text(1032, sy + 10, SAIL[i][0], 17, INK, 'start', 600);
+        s += text(1428, sy + 10, SAIL[i][1], 18, RUST, 'end', 700);
+      }
+      return stage(s);
+    },
+    mid: function (arr) {
+      /* a long table under the wall, top at the declared y=562 */
+      var inx = slot(arr, [0, 26, -18]);
+      var s = shadow(800, 742, 820);
+      s += r(380, 562, 840, 146, WOOD, 6) + r(380, 550, 840, 20, WOOD2, 4);
+      s += r(418, 606, 764, 10, '#8a6540', 3);
+      /* one chair, pushed in - this room is read standing up */
+      s += shadow(520 + inx, 730, 140);
+      s += r(462 + inx, 512, 116, 20, WOOD2, 6);
+      s += r(470 + inx, 532, 100, 106, '#b08a5e', 4);
+      s += r(512 + inx, 638, 14, 74, WOOD2, 3);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE TABLE: the desk diary open, the confirmation that makes an
+         arrangement an arrangement, and a pen. Surface 380..1220, top 562. The
+         tallest is the diary's open board at 44, so its top is 518 - below the
+         waist line at 504. The diary lies FLAT and open; it is not stood up. */
+      var TOP = 562, s = '';
+      var P = slot(arr, [{ dy: 470, cf: 820, pn: 1080 },
+                         { dy: 700, cf: 440, pn: 1140 },
+                         { dy: 940, cf: 560, pn: 420 }]);
+      s += sit(P.dy + 132, TOP, 284);
+      s += rest(P.dy, TOP, 264, 14, PAPER, 2);
+      s += rest(P.dy + 128, TOP - 14, 8, 30, '#d8d0bd', 1);
+      s += line(P.dy + 18, TOP - 10, P.dy + 118, TOP - 10, '#ded6c4', 3);
+      s += line(P.dy + 146, TOP - 10, P.dy + 246, TOP - 10, '#ded6c4', 3);
+      s += text(P.dy + 132, TOP - 34, 'DIARY', 13, STEEL2, 'middle', 700);
+      s += sit(P.cf + 86, TOP, 184);
+      s += rest(P.cf, TOP, 172, 12, '#f1ead9', 2);
+      s += text(P.cf + 86, TOP - 26, 'CONFIRMED 10.00', 12, OLIVE, 'middle', 700);
+      s += sit(P.pn + 22, TOP, 60);
+      s += rest(P.pn, TOP, 46, 10, INK, 4);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 15. The post-mortem room. The thing itself is on the table with the
+     paper that was supposed to prevent it, and the board behind carries the
+     five parts in order - because 15.6 is that page and the unit's point is that
+     "what went wrong" and "what we would do differently" are different lines. */
+  MINE.incidentroom = {
+    back: function (arr) {
+      var s = r(0, 0, W, H, '#e1dace') + r(0, 0, W, 184, '#cfc7b5');
+      s += r(0, 646, W, 254, FLOOR) + r(0, 646, W, 16, FLOOR2);
+      /* the five-part board */
+      s += r(170, 196, 800, 404, PAPER, 8);
+      s += r(170, 196, 800, 50, RUST, 4);
+      s += text(570, 230, 'POST-MORTEM', 21, PAPER, 'middle', 800);
+      var FIVE = ['1  what happened', '2  what it cost',
+                  '3  what should have been asked', '4  what we have changed',
+                  '5  what is still open'];
+      for (var i = 0; i < FIVE.length; i++) {
+        var y = 276 + i * 62;
+        s += c(206, y + 14, 7, i < 4 ? OLIVE : '#c3bcab');
+        s += text(228, y + 22, FIVE[i], 18, i < 4 ? INK : '#a79f8e', 'start', 600);
+        s += line(190, y + 44, 950, y + 44, '#e4dccb', 2);
+      }
+      /* and the one line nobody writes: the date it was still cheap */
+      s += r(1060, 234, 392, 236, PAPER, 8);
+      s += r(1060, 234, 392, 44, STEEL2, 4);
+      s += text(1256, 264, 'STILL RECOVERABLE', 15, PAPER, 'middle', 800);
+      s += text(1256, 344, '14 Feb', 40, RUST, 'middle', 800);
+      s += text(1256, 400, 'nothing was reported', 15, '#9a9382', 'middle', 600);
+      s += text(1256, 432, 'that day', 15, '#9a9382', 'middle', 600);
+      return stage(s);
+    },
+    mid: function (arr) {
+      var inx = slot(arr, [0, 30, -22]);
+      var s = shadow(800, 746, 900);
+      s += r(260, 556, 1080, 156, WOOD, 6) + r(260, 544, 1080, 20, WOOD2, 4);
+      s += r(300, 602, 1000, 10, '#8a6540', 3);
+      s += shadow(1180 + inx, 732, 140);
+      s += r(1122 + inx, 508, 116, 20, WOOD2, 6);
+      s += r(1130 + inx, 528, 100, 106, '#b08a5e', 4);
+      s += r(1172 + inx, 634, 14, 76, WOOD2, 3);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE TABLE: the damp carton that is the evidence, the gate sheet that
+         was supposed to prevent it, and the tape measure. Surface 260..1340,
+         top 556.
+
+         ⚠ AND THE CARTON DOES NOT ROTATE, BECAUSE THERE IS NOWHERE FOR IT TO GO.
+         The comment here used to say it was "placed in the arrangements only at
+         x values clear of both actor columns, and clearOf is what proves it" -
+         clearOf was never called, and it was not clear: the carton is 92 tall on
+         a surface at 556, so its top is 464 and its label 448, both inside the
+         chest band (405..504). The actor columns of this room are the spots
+         0.19, 0.73 and 0.47 of 1600, each 136 either side:
+
+             [168, 440]      [616, 888]      [1032, 1304]
+
+         which leaves exactly one gap wide enough for a 92-tall prop, 440..616.
+         Arrangement 0 put the carton at 760 (47% of the middle actor's chest)
+         and arrangement 1 at 1140 (57% of the right one's); arrangement 2 sat
+         20px inside the left column and passed the 6% allowance on margin
+         alone, which is a flake waiting for a spot to move.
+
+         So the carton is fixed, centred in that gap at 456..600, and the
+         variety comes from the two FLAT props: the gate sheet is 12 tall and
+         the tape measure 34, tops at 544 and 522, both below the chest band
+         where furniture is expected and allowed. */
+      var TOP = 556, s = '', BX = 456;
+      var P = slot(arr, [{ gs: 660, tm: 1180 },
+                         { gs: 1060, tm: 660 },
+                         { gs: 260, tm: 980 }]);
+      s += sit(BX + 72, TOP, 158);
+      s += rest(BX, TOP, 144, 92, '#c6a572', 3);
+      s += line(BX, TOP - 48, BX + 144, TOP - 48, '#a98a5c', 3);
+      s += rest(BX + 42, TOP - 92, 60, 10, '#b4925f', 2);
+      s += text(BX + 72, TOP - 108, '9 DAMP', 12, RUST, 'middle', 700);
+      s += sit(P.gs + 96, TOP, 206);
+      s += rest(P.gs, TOP, 192, 12, PAPER, 2);
+      s += line(P.gs + 16, TOP - 8, P.gs + 176, TOP - 8, '#ded6c4', 3);
+      s += text(P.gs + 96, TOP - 24, 'GATE SHEET', 12, STEEL2, 'middle', 700);
+      s += sit(P.tm + 34, TOP, 88);
+      s += rest(P.tm, TOP, 70, 34, OLIVE, 6);
+      s += c(P.tm + 35, TOP - 17, 10, '#f4efe3');
+      return stage(s);
+    }
+  };
+
+  /* UNIT 16. Three quotations side by side. The columns are the unit: landed
+     cost is not the price on the paper, and one column of the three is a guess -
+     which is 16.6, and is why the third sheet carries a question mark where the
+     others carry a number. */
+  MINE.quotetable = {
+    back: function (arr) {
+      var s = r(0, 0, W, H, '#e4ddd0') + r(0, 0, W, 180, '#d3cbb9');
+      s += r(0, 650, W, 250, FLOOR) + r(0, 650, W, 16, FLOOR2);
+      /* the comparison, on the wall, as a table with a named dimension per row */
+      s += r(140, 196, 1320, 398, PAPER, 8);
+      s += r(140, 196, 1320, 52, OLIVE, 4);
+      s += text(800, 232, 'THREE OFFERS  ·  LANDED', 21, PAPER, 'middle', 800);
+      var HEAD = ['', 'Shamsi', 'Maarouf', 'Tarabishi'];
+      var ROW = [['price / roll', '1,180', '1,090', '1,140'],
+                 ['carriage', '    40', '   140', '    0'],
+                 ['landed', '1,220', '1,230', '1,140'],
+                 ['days', '    4', '    9', '    ?']];
+      for (var h = 0; h < 4; h++) {
+        s += text(h === 0 ? 180 : 500 + h * 300, 290, HEAD[h], 17,
+                  STEEL2, h === 0 ? 'start' : 'middle', 700);
+      }
+      for (var i = 0; i < ROW.length; i++) {
+        var y = 334 + i * 60, hot = (ROW[i][0] === 'landed');
+        s += line(170, y + 26, 1430, y + 26, '#e4dccb', 2);
+        s += text(180, y + 16, ROW[i][0], 17, hot ? INK : '#8e8777',
+                  'start', hot ? 700 : 600);
+        for (var j = 1; j < 4; j++) {
+          var v = ROW[i][j].trim();
+          s += text(500 + j * 300, y + 16, v, hot ? 22 : 18,
+                    v === '?' ? RUST : (hot ? INK : '#6d665a'), 'middle',
+                    hot ? 800 : 600);
+        }
+      }
+      s += text(800, 572, 'the cheapest roll is not the cheapest offer',
+                15, '#9a9382', 'middle', 600);
+      return stage(s);
+    },
+    mid: function (arr) {
+      var inx = slot(arr, [0, 24, -26]);
+      var s = shadow(800, 744, 860);
+      s += r(300, 560, 1000, 150, WOOD, 6) + r(300, 548, 1000, 20, WOOD2, 4);
+      s += r(338, 606, 924, 10, '#8a6540', 3);
+      s += shadow(420 + inx, 730, 140);
+      s += r(362 + inx, 510, 116, 20, WOOD2, 6);
+      s += r(370 + inx, 530, 100, 106, '#b08a5e', 4);
+      s += r(412 + inx, 636, 14, 74, WOOD2, 3);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE TABLE: the three quotations as three flat sheets, fanned, and the
+         calculator. Surface 300..1300, top 560. The calculator is the tallest at
+         26, top 534, below the waist line. The sheets lie flat because a
+         quotation on a table is read, not displayed. */
+      var TOP = 560, s = '';
+      var P = slot(arr, [{ q: 420, cal: 1120 },
+                         { q: 760, cal: 380 },
+                         { q: 1020, cal: 700 }]);
+      for (var i = 0; i < 3; i++) {
+        var x = P.q + i * 54;
+        s += sit(x + 82, TOP, 176);
+        s += rest(x, TOP, 164, 12 - i * 2, i === 2 ? '#f6f0e2' : PAPER, 2);
+        s += line(x + 14, TOP - 8, x + 150, TOP - 8, '#ded6c4', 3);
+      }
+      s += text(P.q + 136, TOP - 28, 'QUOTATIONS', 12, STEEL2, 'middle', 700);
+      s += sit(P.cal + 42, TOP, 104);
+      s += rest(P.cal, TOP, 84, 26, '#4b545f', 5);
+      s += rest(P.cal + 10, TOP - 22, 64, 12, '#b9c6b0', 2);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 21. Two people, one table, and a page with a line down the middle.
+     The two columns are the unit: 21.3 is never a concession without one, so
+     what is drawn is a page where each side has given something up, and both
+     columns have the same number of lines. */
+  MINE.dealtable = {
+    back: function (arr) {
+      var s = r(0, 0, W, H, '#e2dbcd') + r(0, 0, W, 188, '#d0c8b6');
+      s += r(0, 648, W, 252, FLOOR) + r(0, 648, W, 16, FLOOR2);
+      /* the two-column page, on the wall, so the room states its own grammar */
+      s += r(300, 200, 1000, 388, PAPER, 8);
+      s += r(300, 200, 1000, 50, STEEL2, 4);
+      s += text(800, 234, 'WHAT EACH SIDE GAVE', 20, PAPER, 'middle', 800);
+      s += line(800, 250, 800, 588, '#ded6c4', 3);
+      s += text(550, 292, 'we gave', 16, OLIVE, 'middle', 700);
+      s += text(1050, 292, 'they gave', 16, RUST, 'middle', 700);
+      var OURS = ['60 days', 'Thursday delivery', 'price held 3 months'];
+      var THEIRS = ['40 rolls a month', 'no returns after 14 days',
+                    '14 days notice of a rise'];
+      for (var i = 0; i < 3; i++) {
+        var y = 346 + i * 72;
+        s += c(342, y + 10, 6, OLIVE);
+        s += text(360, y + 18, OURS[i], 17, INK, 'start', 600);
+        s += c(842, y + 10, 6, RUST);
+        s += text(860, y + 18, THEIRS[i], 17, INK, 'start', 600);
+        s += line(320, y + 40, 1280, y + 40, '#e4dccb', 2);
+      }
+      s += text(800, 572, 'three each  ·  a concession with nothing back is a loss',
+                14, '#9a9382', 'middle', 600);
+      return stage(s);
+    },
+    mid: function (arr) {
+      /* two chairs facing each other across the table - a negotiation is two
+         people on opposite sides, which the geometry has to say */
+      var inx = slot(arr, [0, 26, -24]);
+      var s = shadow(540 + inx, 726, 148);
+      s += r(480 + inx, 504, 120, 22, WOOD2, 6);
+      s += r(490 + inx, 526, 102, 112, '#b08a5e', 4);
+      s += r(532 + inx, 638, 16, 76, WOOD2, 3);
+      s += shadow(1060 - inx, 726, 148);
+      s += r(1000 - inx, 504, 120, 22, WOOD2, 6);
+      s += r(1010 - inx, 526, 102, 112, '#b08a5e', 4);
+      s += r(1052 - inx, 638, 16, 76, WOOD2, 3);
+      s += shadow(800, 738, 740);
+      s += r(420, 558, 760, 152, WOOD, 6) + r(420, 546, 760, 20, WOOD2, 4);
+      s += r(456, 604, 688, 10, '#8a6540', 3);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE TABLE: the two-column page, two glasses of tea - one each, which
+         is the point - and a pen. Surface 420..1180, top 558. The glasses are
+         the tallest at 56, top 502, which clears the waist line at 504 by 2 and
+         is why they are 56 and not 60. */
+      var TOP = 558, s = '';
+      var P = slot(arr, [{ pg: 640, t1: 480, t2: 1080, pn: 940 },
+                         { pg: 820, t1: 520, t2: 1120, pn: 460 },
+                         { pg: 500, t1: 760, t2: 1140, pn: 1060 }]);
+      s += sit(P.pg + 104, TOP, 228);
+      s += rest(P.pg, TOP, 208, 12, PAPER, 2);
+      s += line(P.pg + 104, TOP - 12, P.pg + 104, TOP, '#ded6c4', 2);
+      s += text(P.pg + 104, TOP - 24, 'TWO COLUMNS', 12, STEEL2, 'middle', 700);
+      s += sit(P.t1 + 20, TOP, 56);
+      s += rest(P.t1, TOP, 40, 56, '#c98b4a', 3);
+      s += rest(P.t1 + 4, TOP - 52, 32, 8, '#f0d9b4', 2);
+      s += sit(P.t2 + 20, TOP, 56);
+      s += rest(P.t2, TOP, 40, 56, '#c98b4a', 3);
+      s += rest(P.t2 + 4, TOP - 52, 32, 8, '#f0d9b4', 2);
+      s += sit(P.pn + 22, TOP, 60);
+      s += rest(P.pn, TOP, 46, 10, INK, 4);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 23. The trade press. Three sentences, three kinds: what is confirmed,
+     what is claimed, and what is not known - which is 23.5, and is drawn as
+     three stacked strips in three weights, because the unit's whole work is
+     telling them apart on a page that prints them in the same type. */
+  MINE.pressdesk = {
+    back: function (arr) {
+      var s = r(0, 0, W, H, '#e4ddd0') + r(0, 0, W, 178, '#d3cbb9');
+      s += r(0, 650, W, 250, FLOOR) + r(0, 650, W, 16, FLOOR2);
+      /* the market note, pinned: the three kinds, labelled */
+      s += r(160, 196, 760, 396, PAPER, 8);
+      s += r(160, 196, 760, 50, INK, 4);
+      s += text(540, 230, 'MARKET NOTE  ·  12 MAR', 19, PAPER, 'middle', 800);
+      var KIND = [['CONFIRMED', OLIVE, 'The port reopened on the 9th.'],
+                  ['CLAIMED', RUST, 'Two importers say stocks are short.'],
+                  ['NOT KNOWN', '#8e8777', 'Whether the tariff changes in April.']];
+      for (var i = 0; i < KIND.length; i++) {
+        var y = 276 + i * 104;
+        s += r(184, y, 712, 84, '#f4efe3', 4);
+        s += r(184, y, 10, 84, KIND[i][1], 2);
+        s += text(208, y + 30, KIND[i][0], 13, KIND[i][1], 'start', 800);
+        s += text(208, y + 62, KIND[i][2], 17, INK, 'start', 600);
+      }
+      /* the newspaper on the wall behind, as columns and not as words */
+      s += r(1000, 214, 450, 366, PAPER, 6);
+      s += text(1225, 258, 'AL-IQTISAD', 20, INK, 'middle', 800);
+      s += line(1020, 276, 1430, 276, INK, 3);
+      for (var col = 0; col < 3; col++) {
+        for (var ln = 0; ln < 11; ln++) {
+          var lx = 1022 + col * 142, ly = 302 + ln * 24;
+          s += r(lx, ly, (ln === 10 ? 72 : 126), 7, '#ddd5c2', 2);
+        }
+      }
+      return stage(s);
+    },
+    mid: function (arr) {
+      var inx = slot(arr, [0, 28, -20]);
+      var s = shadow(800, 744, 840);
+      s += r(340, 560, 920, 150, WOOD, 6) + r(340, 548, 920, 20, WOOD2, 4);
+      s += r(378, 606, 844, 10, '#8a6540', 3);
+      s += shadow(1140 + inx, 730, 140);
+      s += r(1082 + inx, 510, 116, 20, WOOD2, 6);
+      s += r(1090 + inx, 530, 100, 106, '#b08a5e', 4);
+      s += r(1132 + inx, 636, 14, 74, WOOD2, 3);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE DESK: the newspaper folded flat, the radio that is where
+         "it is understood that" comes from, and a pen. Surface 340..1260, top
+         560. The radio is the tallest at 64, top 496 - above the waist line at
+         504 by 8 - so its x values in all three arrangements sit clear of both
+         actor columns, and clearOf is what proves that rather than my eye. */
+      var TOP = 560, s = '';
+      var P = slot(arr, [{ np: 480, rd: 1140, pn: 880 },
+                         { np: 860, rd: 400, pn: 1180 },
+                         { np: 1020, rd: 740, pn: 420 }]);
+      s += sit(P.np + 110, TOP, 240);
+      s += rest(P.np, TOP, 220, 14, PAPER, 2);
+      s += line(P.np + 110, TOP - 14, P.np + 110, TOP, '#ded6c4', 2);
+      s += line(P.np + 16, TOP - 9, P.np + 96, TOP - 9, '#ded6c4', 3);
+      s += text(P.np + 110, TOP - 28, 'FOLDED', 12, STEEL2, 'middle', 700);
+      s += sit(P.rd + 54, TOP, 128);
+      s += rest(P.rd, TOP, 108, 64, '#6b6252', 5);
+      s += c(P.rd + 34, TOP - 34, 20, '#4b4539');
+      s += c(P.rd + 34, TOP - 34, 12, '#8e8777');
+      s += rest(P.rd + 62, TOP - 44, 34, 8, '#b9b0a0', 2);
+      s += rest(P.rd + 62, TOP - 28, 34, 8, '#b9b0a0', 2);
+      s += sit(P.pn + 22, TOP, 60);
+      s += rest(P.pn, TOP, 46, 10, INK, 4);
+      return stage(s);
+    }
+  };
+
+  /* ================================================================
+     B2 BOOK 1 - SIX ROOMS. The level stops reporting and starts ARGUING, so
+     every one of these rooms has a DOCUMENT in it and the document is drawn as
+     the thing the unit turns on: unit 1's first four lines are legible on the
+     wall and the rest of the page is grey; unit 5's policy is drawn as its own
+     three parts; unit 9's draft carries twelve numbered lines with four of them
+     ruled in another hand.
+
+     Every tall prop below stands at an x taken from its room's own gap list in
+     SPOTS above, so `clearOf` is satisfied by construction.
+     ================================================================ */
+
+  /* UNIT 1. The room where your own paper is read back to you. The note on the
+     wall is the unit's lesson and not decoration: the first four lines are in
+     ink and full size, and everything after them is grey rule - "I read four
+     lines, of anything". Gaps 488..616 and 888..1016. */
+  MINE.directorsroom = {
+    back: function () {
+      var s = r(0, 0, W, H, '#ded5c6') + r(0, 0, W, 196, '#cdc3b0');
+      s += r(0, 640, W, 260, FLOOR) + r(0, 640, W, 16, FLOOR2);
+      /* the panelling, which is what a room like this is made of */
+      s += r(0, 196, W, 300, '#d6ccb9');
+      for (var i = 0; i < 8; i++) s += line(200 * i, 196, 200 * i, 496, '#c6bba6', 4);
+      /* THE NOTE, framed: four lines a reader can act on, then grey */
+      s += r(300, 218, 600, 372, PAPER, 8);
+      s += r(300, 218, 600, 372, 'none', 8).replace('fill="none"',
+            'fill="none" stroke="' + WOOD2 + '" stroke-width="9"');
+      s += text(600, 262, 'NOTE  ·  THE DALLAL LETTER', 19, STEEL2, 'middle', 700);
+      var FOUR = ['We should refuse the extension.',
+                  'It would cost us 4.1m this quarter.',
+                  'The decision is yours, not the committee’s.',
+                  'I need your answer by Thursday.'];
+      for (var j = 0; j < 4; j++) {
+        s += text(330, 308 + j * 34, FOUR[j], 17, INK, 'start', 600);
+      }
+      s += line(330, 452, 870, 452, '#ded6c4', 3);
+      for (var g = 0; g < 4; g++) {
+        s += r(330, 470 + g * 26, (g === 3 ? 300 : 540), 9, '#e2dacb', 3);
+      }
+      s += text(600, 572, 'and everything after them', 14, '#a9a192', 'middle', 500);
+      /* the appointment board - who has decided, and who only thinks so */
+      s += r(1010, 240, 440, 300, '#f2eee4', 6);
+      s += r(1010, 240, 440, 46, OLIVE, 4);
+      s += text(1230, 272, 'DECIDED  ·  OPEN', 17, PAPER, 'middle', 800);
+      var ROW = [['Beirut depot', 'DECIDED'], ['March terms', 'OPEN'],
+                 ['Haddad facility', 'OPEN'], ['Store rent', 'DECIDED']];
+      for (var k = 0; k < ROW.length; k++) {
+        var ry = 302 + k * 58;
+        s += text(1032, ry + 22, ROW[k][0], 16, INK, 'start', 600);
+        s += text(1428, ry + 22, ROW[k][1], 14,
+                  ROW[k][1] === 'DECIDED' ? OLIVE : RUST, 'end', 800);
+        s += line(1032, ry + 40, 1428, ry + 40, '#e0d8c7', 2);
+      }
+      return stage(s);
+    },
+    mid: function (arr) {
+      var s = shadow(800, 756, 880);
+      /* the desk this room is about - 420..1180, top 558 */
+      s += r(420, 558, 760, 170, WOOD, 6) + r(420, 546, 760, 20, WOOD2, 4);
+      s += r(462, 606, 676, 12, '#8a6540', 3);
+      /* his chair behind it, and the arrangement is how far it is turned */
+      var cx = slot(arr, [1248, 1296, 1216]);
+      s += shadow(cx, 742, 190);
+      s += r(cx - 84, 470, 168, 30, WOOD2, 8);
+      s += r(cx - 74, 500, 148, 120, '#8d7b63', 6);
+      s += r(cx - 12, 620, 24, 112, WOOD2, 4);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE DESK: the note itself, a pen, and the lamp. The lamp is 74 tall,
+         top 484 - above WAIST_Y - so it rotates between 496, 896 and 512, all
+         from this room's gap list. The note and pen are 40 and 10 tall, tops
+         518 and 548, below the waist line where clearOf exempts them. */
+      var TOP = 558, s = '';
+      var P = slot(arr, [{ nt: 560, pn: 880, lp: 496 },
+                         { nt: 700, pn: 1060, lp: 896 },
+                         { nt: 940, pn: 660, lp: 512 }]);
+      s += sit(P.nt + 96, TOP, 210);
+      s += rest(P.nt, TOP, 192, 40, PAPER, 3);
+      for (var i = 0; i < 4; i++) {
+        s += line(P.nt + 16, TOP - 32 + i * 8, P.nt + 150, TOP - 32 + i * 8,
+                  '#ded6c4', 3);
+      }
+      s += sit(P.pn + 24, TOP, 62);
+      s += rest(P.pn, TOP, 48, 10, INK, 4);
+      s += sit(P.lp + 48, TOP, 104);
+      s += rest(P.lp + 38, TOP, 20, 74, STEEL2, 4);
+      s += rest(P.lp + 14, TOP, 68, 10, STEEL2, 4);
+      s += r(P.lp, TOP - 94, 96, 32, '#8e9aa3', 10);
+      s += r(P.lp + 10, TOP - 68, 76, 8, '#f6e9c4', 4);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 2. The file room, and not the archive: the archive is where a thing
+     goes when it is finished, and unit 2 asks what THIS year's file supports
+     before you write "it was decided". So the wall is the current four
+     quarters, and the box that is out has its approval slip showing - with one
+     signature on it and one blank, which is 2.5's hedged agency. Gaps 424..600
+     and 872..1048. */
+  MINE.fileroom = {
+    back: function () {
+      var s = r(0, 0, W, H, '#e0d8ca') + r(0, 0, W, 170, '#cfc6b3');
+      s += r(0, 648, W, 252, FLOOR) + r(0, 648, W, 16, FLOOR2);
+      /* four quarters of box files, this year only */
+      var Q = ['Q1', 'Q2', 'Q3', 'Q4'];
+      for (var band = 0; band < 2; band++) {
+        var by = 196 + band * 190;
+        s += r(120, by, 1360, 174, '#d8cfbc', 4);
+        s += r(120, by + 160, 1360, 14, WOOD2, 3);
+        for (var i = 0; i < 12; i++) {
+          var bx = 136 + i * 112;
+          s += r(bx, by + 14, 100, 146, band ? '#c9bda9' : '#d6c9ae', 4);
+          s += r(bx + 10, by + 40, 80, 34, PAPER, 3);
+          s += text(bx + 50, by + 64, Q[(i + band * 2) % 4] + '·' + (i + 1),
+                    15, INK, 'middle', 700);
+          s += r(bx + 34, by + 122, 32, 10, STEEL2, 4);
+        }
+      }
+      /* the box that is OUT, with the approval slip in it */
+      s += r(1060, 92, 420, 86, PAPER, 6);
+      s += text(1270, 126, 'APPROVAL  ·  SECOND CONSIGNMENT', 16, INK,
+                'middle', 700);
+      s += text(1160, 160, 'Approved: N. Haddad', 14, OLIVE, 'middle', 600);
+      s += text(1392, 160, 'Checked: —', 14, RUST, 'middle', 700);
+      return stage(s);
+    },
+    mid: function (arr) {
+      var s = shadow(800, 768, 1060);
+      /* the long table - 260..1340, top 556 */
+      s += r(260, 556, 1080, 160, WOOD, 6) + r(260, 544, 1080, 20, WOOD2, 4);
+      s += r(300, 602, 1000, 12, '#8a6540', 3);
+      /* the trolley the boxes came on, wheeled to one end or the other */
+      var tx = slot(arr, [120, 1400, 132]);
+      s += shadow(tx, 760, 170);
+      s += r(tx - 76, 520, 152, 22, STEEL2, 4);
+      s += r(tx - 68, 542, 136, 92, '#b9b0a0', 4);
+      s += c(tx - 50, 748, 16, STEEL2) + c(tx + 50, 748, 16, STEEL2);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE TABLE: two box files lying flat, the slip, and the one standing
+         upright. The standing box is 84 tall, top 472, so it rotates between
+         432, 880 and 940 - this room's gaps. The flat boxes are 48 tall, top
+         508, below the waist line and exempt.
+         ⚠ THEIR HANDLES WERE NOT. Drawn on TOP of a flat box at TOP-48 they sat
+         at y=498, six pixels above the waist line and 140 wide - far too wide
+         for any gap - so each one painted inside an actor column in every
+         arrangement. A prop being exempt does not make the thing ON it exempt.
+         The handle is now on the box's front face, at TOP-26. */
+      var TOP = 556, s = '';
+      var P = slot(arr, [{ a: 300, b: 1140, sl: 700, up: 432 },
+                         { a: 640, b: 1160, sl: 340, up: 880 },
+                         { a: 1060, b: 320, sl: 1180, up: 940 }]);
+      s += sit(P.a + 70, TOP, 156);
+      s += rest(P.a, TOP, 140, 48, '#d6c9ae', 4);
+      s += rest(P.a + 42, TOP - 26, 56, 10, STEEL2, 3);
+      s += sit(P.b + 70, TOP, 156);
+      s += rest(P.b, TOP, 140, 48, '#c9bda9', 4);
+      s += rest(P.b + 42, TOP - 26, 56, 10, STEEL2, 3);
+      s += sit(P.sl + 54, TOP, 120);
+      s += rest(P.sl, TOP, 108, 14, PAPER, 2);
+      s += line(P.sl + 14, TOP - 8, P.sl + 94, TOP - 8, '#ded6c4', 3);
+      s += sit(P.up + 44, TOP, 98);
+      s += rest(P.up, TOP, 88, 84, '#d6c9ae', 5);
+      s += rest(P.up + 12, TOP - 54, 64, 26, PAPER, 3);
+      s += text(P.up + 44, TOP - 34, 'Q3', 15, INK, 'middle', 700);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 5. The policy desk. The sheet on the wall is drawn as the three parts
+     the unit teaches - SCOPE, EXCLUSIONS, and WHO MAY DECIDE AN EXCEPTION -
+     because the unit's whole work is that a policy has those and a procedure
+     does not. ⚠ This is why unit 5 is NOT in the noticeboard: that room is this
+     series' wall of procedure, and it would have taught the opposite of the
+     lesson. Gaps 456..600 and 872..984. */
+  MINE.policydesk = {
+    back: function () {
+      var s = r(0, 0, W, H, '#e2dacb') + r(0, 0, W, 182, '#d1c8b5');
+      s += r(0, 646, W, 254, FLOOR) + r(0, 646, W, 16, FLOOR2);
+      /* the draft policy, pinned - its three parts, labelled */
+      s += r(150, 206, 720, 396, PAPER, 8);
+      s += r(150, 206, 720, 54, INK, 4);
+      s += text(510, 242, 'POLICY  ·  CREDIT TERMS  ·  DRAFT 3', 19,
+                PAPER, 'middle', 800);
+      var PART = [['SCOPE', OLIVE, 'Every customer account opened after 1 April.'],
+                  ['EXCLUSIONS', RUST, 'Not staff accounts. Not the two depots.'],
+                  ['EXCEPTION', STEEL2, 'The finance director, in writing, once.']];
+      for (var i = 0; i < PART.length; i++) {
+        var y = 282 + i * 104;
+        s += r(174, y, 672, 84, '#f4efe3', 4);
+        s += r(174, y, 10, 84, PART[i][1], 2);
+        s += text(198, y + 30, PART[i][0], 13, PART[i][1], 'start', 800);
+        s += text(198, y + 62, PART[i][2], 16, INK, 'start', 600);
+      }
+      /* beside it, the procedure it is NOT: a numbered list of steps */
+      s += r(960, 230, 490, 350, '#f2eee4', 6);
+      s += text(1205, 268, 'PROCEDURE  (not a policy)', 16, STEEL2, 'middle', 700);
+      s += line(980, 286, 1430, 286, '#ded6c4', 3);
+      for (var j = 0; j < 7; j++) {
+        s += text(1000, 322 + j * 34, (j + 1) + '.', 15, '#a9a192', 'start', 700);
+        s += r(1026, 310 + j * 34, (j === 6 ? 220 : 390), 9, '#ddd5c2', 3);
+      }
+      return stage(s);
+    },
+    mid: function (arr) {
+      var s = shadow(800, 762, 940);
+      /* the desk - 360..1240, top 560 */
+      s += r(360, 560, 880, 164, WOOD, 6) + r(360, 548, 880, 20, WOOD2, 4);
+      s += r(402, 608, 796, 12, '#8a6540', 3);
+      var cx = slot(arr, [248, 1352, 262]);
+      s += shadow(cx, 746, 180);
+      s += r(cx - 78, 478, 156, 28, WOOD2, 8);
+      s += r(cx - 68, 506, 136, 116, '#8d7b63', 6);
+      s += r(cx - 12, 622, 24, 112, WOOD2, 4);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE DESK: the draft, the stamp that makes an exception official, and
+         the box file of what the old rule cost. The box is 76 tall, top 484, so
+         it takes 460, 876 or 480 from this room's gaps. */
+      var TOP = 560, s = '';
+      var P = slot(arr, [{ dr: 640, st: 1080, bx: 460 },
+                         { dr: 980, st: 420, bx: 876 },
+                         { dr: 700, st: 1160, bx: 480 }]);
+      s += sit(P.dr + 92, TOP, 200);
+      s += rest(P.dr, TOP, 184, 42, PAPER, 3);
+      s += rest(P.dr + 16, TOP - 34, 60, 12, OLIVE, 2);
+      for (var i = 0; i < 3; i++) {
+        s += line(P.dr + 16, TOP - 18 + i * 6, P.dr + 150, TOP - 18 + i * 6,
+                  '#ded6c4', 3);
+      }
+      s += sit(P.st + 32, TOP, 78);
+      s += rest(P.st, TOP, 64, 20, '#6b6252', 4);
+      s += rest(P.st + 22, TOP - 20, 20, 30, STEEL2, 4);
+      s += sit(P.bx + 48, TOP, 104);
+      s += rest(P.bx, TOP, 96, 76, '#d6c9ae', 5);
+      s += rest(P.bx + 14, TOP - 52, 68, 24, PAPER, 3);
+      s += text(P.bx + 48, TOP - 34, 'TERMS', 13, INK, 'middle', 700);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 8. The bank desk. The unit is numbers in prose, so the wall is the
+     rate board a figure comes FROM and the facility paper is drawn as eleven
+     sentences rather than nine numbers - which is 8.3 and the line Nour is
+     given in track 8.3. Gaps 440..584 and 856..1032. */
+  MINE.bankdesk = {
+    back: function () {
+      var s = r(0, 0, W, H, '#dcd4c6') + r(0, 0, W, 190, '#c7bda9');
+      s += r(0, 650, W, 250, FLOOR) + r(0, 650, W, 16, FLOOR2);
+      /* the board a figure has a basis in */
+      s += r(130, 204, 560, 384, '#2f3640', 8);
+      s += text(410, 250, 'RATES  ·  12 MARCH', 19, '#f0d9b4', 'middle', 800);
+      s += line(154, 268, 666, 268, '#59616d', 3);
+      var RT = [['Facility', '9.5%'], ['Overdraft', '13.0%'],
+                ['90 days', '11.25%'], ['Deposit', '4.0%'],
+                ['Last month', '9.0%'], ['Base', '8.5%']];
+      for (var i = 0; i < RT.length; i++) {
+        var y = 300 + i * 46;
+        s += text(156, y + 22, RT[i][0], 17, '#c9d2dc', 'start', 600);
+        s += text(664, y + 22, RT[i][1], 17,
+                  i === 4 ? '#d9a06a' : '#f4efe3', 'end', 800);
+      }
+      /* the facility paper: eleven sentences, each with its basis */
+      s += r(770, 214, 690, 374, PAPER, 8);
+      s += r(770, 214, 690, 48, OLIVE, 4);
+      s += text(1115, 246, 'FACILITY PAPER  ·  ELEVEN SENTENCES', 18,
+                PAPER, 'middle', 800);
+      for (var j = 0; j < 11; j++) {
+        var ly = 278 + j * 28;
+        s += text(792, ly + 14, (j + 1), 12, '#a9a192', 'start', 700);
+        s += r(816, ly + 4, (j % 3 === 2 ? 420 : 606), 10, '#e4dccb', 3);
+        if (j % 4 === 1) s += r(816, ly + 4, 92, 10, '#cfbf9a', 3);
+      }
+      s += text(1115, 606, 'period  ·  basis  ·  source', 15, STEEL2,
+                'middle', 600);
+      return stage(s);
+    },
+    mid: function (arr) {
+      var s = shadow(800, 760, 1020);
+      /* the counter - 300..1300, top 556 */
+      s += r(300, 556, 1000, 166, STONE2, 6) + r(300, 542, 1000, 22, STONE, 4);
+      s += r(340, 606, 920, 12, '#bdb09a', 3);
+      /* The teller's glass screen, the hanging sign, and which window is open -
+         this room's arrangement. All three are in the MID layer, which the
+         player stacks BEHIND the cast (back, mid, CAST, fore), so a screen that
+         crosses a chest passes behind the person's shoulder and is simply what a
+         bank looks like. Only the FORE layer draws over the cast, and the chest
+         band gates/pbe_art.py measures is measured on the fore layer alone -
+         which is why the loose props below are pinned to this room's gaps and
+         this screen needs no such care. I nearly deleted the screen for
+         crossing a chest it was always behind. */
+      var win = slot(arr, [0, 1, 2]);
+      s += r(470, 112, 660, 84, '#2f3640', 8);
+      s += text(800, 152, 'ENQUIRIES  ·  FACILITIES', 22, '#f0d9b4',
+                'middle', 800);
+      s += text(800, 182, 'NOW SERVING  ·  WINDOW ' + (win + 1), 17,
+                '#9fb0a0', 'middle', 700);
+      s += line(470, 196, 1130, 196, STEEL, 5);
+      s += r(360, 336, 880, 206, '#cfe0ea', 6).replace('fill=',
+            'opacity="0.42" fill=');
+      s += line(360, 336, 1240, 336, STEEL, 6);
+      for (var i = 0; i < 3; i++) {
+        var wx = 400 + i * 290;
+        s += line(wx, 336, wx, 542, STEEL, 4);
+        if (i === win) {
+          s += r(wx + 30, 452, 200, 76, '#f4efe3', 5);
+          s += text(wx + 130, 500, 'OPEN', 20, OLIVE, 'middle', 800);
+        }
+      }
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE COUNTER: the paper, a calculator, and the card holder. The
+         holder is 72 tall, top 484, so it takes 448, 864 or 920. */
+      var TOP = 556, s = '';
+      var P = slot(arr, [{ pp: 620, cl: 1060, hd: 448 },
+                         { pp: 980, cl: 360, hd: 864 },
+                         { pp: 640, cl: 1180, hd: 920 }]);
+      s += sit(P.pp + 90, TOP, 196);
+      s += rest(P.pp, TOP, 180, 40, PAPER, 3);
+      for (var i = 0; i < 4; i++) {
+        s += line(P.pp + 14, TOP - 32 + i * 8, P.pp + 148, TOP - 32 + i * 8,
+                  '#ded6c4', 3);
+      }
+      s += sit(P.cl + 38, TOP, 90);
+      s += rest(P.cl, TOP, 76, 44, '#6b6252', 5);
+      s += rest(P.cl + 10, TOP - 38, 56, 12, '#9fb0a0', 2);
+      for (var k = 0; k < 3; k++) {
+        s += rest(P.cl + 12 + k * 20, TOP - 8, 14, 8, '#b9b0a0', 2);
+      }
+      s += sit(P.hd + 44, TOP, 96);
+      s += rest(P.hd + 34, TOP, 18, 72, STEEL2, 4);
+      s += rest(P.hd + 10, TOP, 66, 10, STEEL2, 4);
+      s += r(P.hd, TOP - 92, 88, 30, PAPER, 4);
+      s += text(P.hd + 44, TOP - 71, 'TAKE ONE', 12, STEEL2, 'middle', 700);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 9. The editing desk - and deliberately not the writing desk, which is
+     where one person writes alone. Here the page already has an author: the
+     draft on the wall is twelve numbered lines with FOUR ruled in another
+     colour, which is 9.4 and 9.7, "four of them are not yours". Gaps 488..616
+     and 888..1016. */
+  MINE.editdesk = {
+    back: function () {
+      var s = r(0, 0, W, H, '#e4ddd0') + r(0, 0, W, 176, '#d3cbb9');
+      s += r(0, 642, W, 258, FLOOR) + r(0, 642, W, 16, FLOOR2);
+      /* the draft, twelve lines, four of them not yours */
+      s += r(210, 200, 700, 402, PAPER, 8);
+      s += r(210, 200, 700, 50, STEEL2, 4);
+      s += text(560, 234, 'DRAFT  ·  TWELVE LINES  ·  2nd HAND', 18,
+                PAPER, 'middle', 800);
+      var MINE_LINES = [1, 4, 7, 11];     // the four he may not improve
+      for (var i = 0; i < 12; i++) {
+        var ly = 272 + i * 27, his = MINE_LINES.indexOf(i) >= 0;
+        s += text(234, ly + 14, (i + 1), 12, '#a9a192', 'start', 700);
+        s += r(258, ly + 4, (i % 4 === 3 ? 430 : 620), 10,
+               his ? '#d9c4b0' : '#e4dccb', 3);
+        if (his) s += r(258, ly + 4, 10, 10, RUST, 2);
+      }
+      s += text(560, 582, 'four of these are not yours to improve', 15, RUST,
+                'middle', 600);
+      /* the two names it goes out over */
+      s += r(1000, 236, 450, 150, '#f2eee4', 6);
+      s += text(1225, 282, 'ONE DOCUMENT', 17, INK, 'middle', 800);
+      s += text(1225, 318, 'TWO AUTHORS', 17, INK, 'middle', 800);
+      s += text(1225, 356, 'ONE VOICE', 17, OLIVE, 'middle', 800);
+      return stage(s);
+    },
+    mid: function (arr) {
+      var s = shadow(800, 756, 860);
+      /* the desk - 440..1160, top 558 */
+      s += r(440, 558, 720, 168, WOOD, 6) + r(440, 546, 720, 20, WOOD2, 4);
+      s += r(480, 606, 640, 12, '#8a6540', 3);
+      var cx = slot(arr, [1256, 1300, 1228]);
+      s += shadow(cx, 744, 182);
+      s += r(cx - 78, 476, 156, 28, WOOD2, 8);
+      s += r(cx - 68, 504, 136, 118, '#8d7b63', 6);
+      s += r(cx - 12, 622, 24, 112, WOOD2, 4);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE DESK: the draft being marked, the red pen, and the pot. The pot
+         is 70 tall, top 488, so it takes 496, 896 or 512. */
+      var TOP = 558, s = '';
+      var P = slot(arr, [{ dr: 640, pn: 900, pt: 496 },
+                         { dr: 880, pn: 660, pt: 896 },
+                         { dr: 660, pn: 1060, pt: 512 }]);
+      s += sit(P.dr + 94, TOP, 204);
+      s += rest(P.dr, TOP, 188, 44, PAPER, 3);
+      for (var i = 0; i < 5; i++) {
+        s += line(P.dr + 14, TOP - 36 + i * 7, P.dr + 152, TOP - 36 + i * 7,
+                  i === 2 ? '#d99a74' : '#ded6c4', 3);
+      }
+      s += rest(P.dr + 150, TOP - 38, 28, 8, RUST, 2);
+      s += sit(P.pn + 26, TOP, 66);
+      s += rest(P.pn, TOP, 52, 10, RUST, 4);
+      s += sit(P.pt + 36, TOP, 84);
+      s += rest(P.pt + 4, TOP, 64, 54, '#6b6252', 6);
+      s += rest(P.pt + 16, TOP - 54, 10, 16, RUST, 2);
+      s += rest(P.pt + 34, TOP - 54, 10, 16, INK, 2);
+      s += rest(P.pt + 50, TOP - 54, 10, 16, OLIVE, 2);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 11. The call room: a small room with a door that shuts, which is what
+     the unit needs - "who is the second person to know?" The card on the wall
+     is the unit's own order of work, and the telephone is the room's point.
+     Gaps 484..596 and 876..980 - the left gap is clipped at the surface's own
+     x0=480, which is why it starts at 484 and not 456. */
+  MINE.callroom = {
+    back: function () {
+      var s = r(0, 0, W, H, '#d8d2c6') + r(0, 0, W, 186, '#c6bfb0');
+      s += r(0, 652, W, 248, FLOOR) + r(0, 652, W, 16, FLOOR2);
+      /* the acoustic wall, in panels - a quiet room reads as texture */
+      for (var i = 0; i < 9; i++) {
+        for (var j = 0; j < 3; j++) {
+          s += r(100 + i * 160, 200 + j * 140, 144, 124, '#cdc6b7', 6);
+        }
+      }
+      /* the door, shut, with its sign */
+      s += r(1180, 196, 300, 420, '#b79a74', 6);
+      s += r(1180, 196, 300, 420, 'none', 6).replace('fill="none"',
+            'fill="none" stroke="' + WOOD2 + '" stroke-width="8"');
+      s += c(1216, 420, 14, STEEL2);
+      s += r(1232, 250, 206, 68, PAPER, 5);
+      s += text(1335, 292, 'ENGAGED', 20, RUST, 'middle', 800);
+      /* the card: the order of work this unit teaches */
+      s += r(220, 236, 560, 300, PAPER, 8);
+      s += r(220, 236, 560, 46, INK, 4);
+      s += text(500, 268, 'BEFORE YOU CALL', 18, PAPER, 'middle', 800);
+      var STEP = ['Write it, then take things out.',
+                  'One of them is a number.',
+                  'Who is the second person to know?',
+                  'Give her something she can check.'];
+      for (var k = 0; k < STEP.length; k++) {
+        s += text(246, 320 + k * 48, '—', 16, OLIVE, 'start', 800);
+        s += text(276, 320 + k * 48, STEP[k], 16, INK, 'start', 600);
+      }
+      return stage(s);
+    },
+    mid: function (arr) {
+      var s = shadow(800, 764, 700);
+      /* the small table - 480..1120, top 562 */
+      s += r(480, 562, 640, 158, WOOD, 6) + r(480, 550, 640, 20, WOOD2, 4);
+      s += r(518, 608, 564, 12, '#8a6540', 3);
+      var cx = slot(arr, [360, 1240, 374]);
+      s += shadow(cx, 748, 170);
+      s += r(cx - 72, 486, 144, 26, WOOD2, 8);
+      s += r(cx - 62, 512, 124, 112, '#8d7b63', 6);
+      s += r(cx - 12, 624, 24, 108, WOOD2, 4);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE TABLE: the telephone, the note that was written first, and the
+         glass. The telephone is 78 tall, top 484, so it takes 484, 876 or 500
+         - all inside the surface span as well as the gaps. */
+      var TOP = 562, s = '';
+      var P = slot(arr, [{ ph: 484, nt: 760, gl: 1040 },
+                         { ph: 876, nt: 560, gl: 700 },
+                         { ph: 500, nt: 900, gl: 1060 }]);
+      s += sit(P.ph + 46, TOP, 100);
+      s += rest(P.ph, TOP, 92, 40, '#4b4539', 6);
+      s += rest(P.ph + 8, TOP - 78, 76, 22, '#59545f', 8);
+      s += line(P.ph + 14, TOP - 40, P.ph + 14, TOP - 58, '#59545f', 7);
+      s += line(P.ph + 78, TOP - 40, P.ph + 78, TOP - 58, '#59545f', 7);
+      for (var i = 0; i < 3; i++) {
+        s += rest(P.ph + 22 + i * 18, TOP - 14, 12, 8, '#8e8777', 2);
+      }
+      s += sit(P.nt + 60, TOP, 132);
+      s += rest(P.nt, TOP, 120, 16, PAPER, 2);
+      s += line(P.nt + 14, TOP - 9, P.nt + 104, TOP - 9, '#ded6c4', 3);
+      s += sit(P.gl + 22, TOP, 56);
+      s += rest(P.gl, TOP, 44, 52, '#cfe0ea', 4).replace('fill=',
+            'opacity="0.7" fill=');
+      s += rest(P.gl + 4, TOP, 36, 22, '#b7d2e0', 3);
+      return stage(s);
+    }
+  };
+
+  /* ================================================================
+     B2 BOOK 2 - FIVE ROOMS, and the last rooms in the series. The register is
+     adversarial now: a contract read for what it obliges, a bundle nobody on
+     your side has read for you, a tribunal, a handover, and the letters.
+
+     Gaps, from this room's own triple in SPOTS:
+       contractdesk  424..600, 872..1048      readingroom   456..600, 872..984
+       tribunal      440..584, 856..1032      handoverdesk  488..616, 888..1016
+       letterdesk    456..600, 872..984
+     ================================================================ */
+
+  /* UNIT 13. The contract desk. The register on the wall is the unit's own
+     artefact - clause, act, owner, evidence - and ONE ROW'S OWNER IS BLANK,
+     which is 13.4 and 13.7: the clause nobody here can perform, found before
+     the other side finds it. */
+  MINE.contractdesk = {
+    back: function () {
+      var s = r(0, 0, W, H, '#e1d9ca') + r(0, 0, W, 178, '#d0c7b4');
+      s += r(0, 644, W, 256, FLOOR) + r(0, 644, W, 16, FLOOR2);
+      /* the obligations register, four columns */
+      s += r(120, 196, 1000, 412, PAPER, 8);
+      s += r(120, 196, 1000, 54, INK, 4);
+      s += text(620, 232, 'OBLIGATIONS REGISTER  ·  22 CLAUSES', 20, PAPER,
+                'middle', 800);
+      var COL = ['CLAUSE', 'ACT', 'OWNER', 'EVIDENCE'];
+      var AT = [150, 330, 660, 860];
+      for (var c0 = 0; c0 < 4; c0++) {
+        s += text(AT[c0], 282, COL[c0], 13, STEEL2, 'start', 800);
+      }
+      s += line(144, 296, 1096, 296, '#ded6c4', 3);
+      var ROWS = [['4.1', 'Monthly return, 10 days', 'Nadia', 'Signed copy'],
+                  ['6.2', 'Keep stock at two depots', 'Bassel', 'Count sheet'],
+                  ['9.4', 'Notice by telephone, 48h', '—', '—'],
+                  ['11.1', 'Quarterly audit access', 'Mr Attar', 'Letter'],
+                  ['14.3', 'Price review each April', 'Nour', 'Minute'],
+                  ['18.6', 'Insurance at full value', 'Hala', 'Certificate']];
+      for (var i = 0; i < ROWS.length; i++) {
+        var y = 318 + i * 46, gap = ROWS[i][2] === '—';
+        if (gap) s += r(136, y, 968, 42, '#f6e4da', 4);
+        for (var j = 0; j < 4; j++) {
+          s += text(AT[j], y + 28, ROWS[i][j], 16,
+                    gap && j >= 2 ? RUST : INK, 'start', gap ? 700 : 600);
+        }
+      }
+      s += text(620, 586, 'clause 9.4 has no owner, and we have one telephone',
+                15, RUST, 'middle', 700);
+      /* the contract itself, on the wall as a spine */
+      s += r(1200, 230, 260, 350, '#8d7b63', 6);
+      s += r(1216, 246, 228, 318, PAPER, 4);
+      s += text(1330, 300, 'SUPPLY', 20, INK, 'middle', 800);
+      s += text(1330, 330, 'AGREEMENT', 20, INK, 'middle', 800);
+      s += line(1240, 352, 1420, 352, '#ded6c4', 3);
+      s += text(1330, 392, '22 clauses', 16, STEEL2, 'middle', 600);
+      s += text(1330, 424, 'eleven acts', 16, STEEL2, 'middle', 600);
+      s += text(1330, 456, 'six names', 16, STEEL2, 'middle', 600);
+      s += text(1330, 520, 'signed 4 Feb', 15, OLIVE, 'middle', 700);
+      return stage(s);
+    },
+    mid: function (arr) {
+      var s = shadow(800, 764, 1040);
+      /* the desk - 280..1320, top 558 */
+      s += r(280, 558, 1040, 164, WOOD, 6) + r(280, 546, 1040, 20, WOOD2, 4);
+      s += r(320, 606, 960, 12, '#8a6540', 3);
+      var cx = slot(arr, [180, 1420, 194]);
+      s += shadow(cx, 748, 178);
+      s += r(cx - 76, 480, 152, 28, WOOD2, 8);
+      s += r(cx - 66, 508, 132, 114, '#8d7b63', 6);
+      s += r(cx - 12, 622, 24, 110, WOOD2, 4);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE DESK: the contract open with its tabs, the register sheet, and
+         the lamp. The lamp is 74 tall, top 484, so it takes 432, 880 or 940. */
+      var TOP = 558, s = '';
+      var P = slot(arr, [{ ct: 640, rg: 1120, lp: 432 },
+                         { ct: 980, rg: 340, lp: 880 },
+                         { ct: 660, rg: 1200, lp: 940 }]);
+      s += sit(P.ct + 102, TOP, 220);
+      s += rest(P.ct, TOP, 200, 46, PAPER, 3);
+      s += line(P.ct + 100, TOP - 46, P.ct + 100, TOP, '#ded6c4', 3);
+      for (var i = 0; i < 4; i++) {
+        s += line(P.ct + 14, TOP - 36 + i * 8, P.ct + 88, TOP - 36 + i * 8,
+                  '#ded6c4', 3);
+        s += line(P.ct + 112, TOP - 36 + i * 8, P.ct + 186, TOP - 36 + i * 8,
+                  '#ded6c4', 3);
+      }
+      /* the tabs, which is how you find clause 9.4 twice in a meeting */
+      var TAB = [RUST, OLIVE, STEEL2];
+      for (var t = 0; t < 3; t++) {
+        s += rest(P.ct + 186, TOP - 38 + t * 13, 22, 9, TAB[t], 2);
+      }
+      s += sit(P.rg + 56, TOP, 124);
+      s += rest(P.rg, TOP, 112, 16, PAPER, 2);
+      s += line(P.rg + 12, TOP - 9, P.rg + 100, TOP - 9, '#ded6c4', 3);
+      s += sit(P.lp + 48, TOP, 104);
+      s += rest(P.lp + 38, TOP, 20, 74, STEEL2, 4);
+      s += rest(P.lp + 14, TOP, 68, 10, STEEL2, 4);
+      s += r(P.lp, TOP - 94, 96, 32, '#8e9aa3', 10);
+      s += r(P.lp + 10, TOP - 68, 76, 8, '#f6e9c4', 4);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 17. The reading room. Two hundred and fourteen pages and two readers,
+     and the wall says what the unit says: the PROPORTIONS are the finding. The
+     bar chart is how many pages each part of the bundle takes, because 17.3 is
+     a learner discovering that four fifths of a dispute is about one thing. */
+  MINE.readingroom = {
+    back: function () {
+      var s = r(0, 0, W, H, '#e3dbcd') + r(0, 0, W, 184, '#d2c9b6');
+      s += r(0, 648, W, 252, FLOOR) + r(0, 648, W, 16, FLOOR2);
+      /* the proportions of the bundle */
+      s += r(140, 204, 700, 392, PAPER, 8);
+      s += r(140, 204, 700, 50, OLIVE, 4);
+      s += text(490, 238, 'THE BUNDLE  ·  214 PAGES', 19, PAPER, 'middle',
+                800);
+      var PART = [['Correspondence', 96], ['The disputed delivery', 62],
+                  ['Invoices', 31], ['The contract', 18], ['Minutes', 7]];
+      for (var i = 0; i < PART.length; i++) {
+        var y = 280 + i * 60, wd = Math.round(PART[i][1] / 96 * 420);
+        s += text(164, y + 20, PART[i][0], 16, INK, 'start', 600);
+        s += r(164, y + 30, wd, 20, i < 2 ? RUST : '#c9bda9', 4);
+        s += text(164 + wd + 14, y + 47, PART[i][1] + 'pp', 14, STEEL2, 'start',
+                  700);
+      }
+      s += text(490, 578, 'the proportions are the finding', 15, RUST, 'middle',
+                700);
+      /* the shelf, and the notice that the bundle does not leave the room */
+      s += r(950, 212, 510, 180, '#d8cfbc', 4);
+      s += r(950, 378, 510, 14, WOOD2, 3);
+      for (var b = 0; b < 7; b++) {
+        s += r(966 + b * 70, 226, 56, 152, b % 2 ? '#c9bda9' : '#d6c9ae', 3);
+      }
+      s += r(950, 436, 510, 120, PAPER, 6);
+      s += text(1205, 482, 'BUNDLE', 22, INK, 'middle', 800);
+      s += text(1205, 522, 'DO NOT REMOVE', 18, RUST, 'middle', 800);
+      return stage(s);
+    },
+    mid: function (arr) {
+      var s = shadow(800, 766, 1000);
+      /* the reading table - 300..1300, top 560 */
+      s += r(300, 560, 1000, 162, WOOD, 6) + r(300, 548, 1000, 20, WOOD2, 4);
+      s += r(340, 608, 920, 12, '#8a6540', 3);
+      /* the reading lamp on a stand, behind the cast: mid, so it may be tall */
+      var lx = slot(arr, [220, 1380, 236]);
+      s += shadow(lx, 750, 150);
+      s += r(lx - 10, 330, 20, 420, STEEL2, 4);
+      s += r(lx - 62, 296, 124, 42, '#6f7a83', 10);
+      s += r(lx - 50, 338, 100, 8, '#f6e9c4', 4);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE TABLE: the bundle, the slip index, and the water glass.
+         ⚠ THE BUNDLE IS 220 WIDE AND NO GAP IN THIS ROOM IS WIDER THAN 144, so
+         it cannot be placed clear of the actor columns and MUST clear the waist
+         line by height instead. At 56 tall its top was exactly 504 - and
+         WAIST_Y is 0.56 x 900, which in floating point is 504.00000000000006,
+         so "exactly on the line" was on the wrong side of it. It is 44 tall
+         now, top 516, and its tab is on the front face rather than on top. A
+         threshold a prop sits exactly on is a flake either way. */
+      var TOP = 560, s = '';
+      var P = slot(arr, [{ bd: 620, sl: 1060, gl: 460 },
+                         { bd: 960, sl: 360, gl: 876 },
+                         { bd: 680, sl: 1180, gl: 480 }]);
+      s += sit(P.bd + 110, TOP, 236);
+      s += rest(P.bd, TOP, 220, 44, '#efe8da', 3);
+      for (var i = 0; i < 5; i++) {
+        s += line(P.bd + 6, TOP - 38 + i * 8, P.bd + 214, TOP - 38 + i * 8,
+                  '#ddd5c2', 3);
+      }
+      s += rest(P.bd + 170, TOP - 14, 24, 9, RUST, 2);
+      s += sit(P.sl + 52, TOP, 116);
+      s += rest(P.sl, TOP, 104, 14, PAPER, 2);
+      s += line(P.sl + 12, TOP - 8, P.sl + 92, TOP - 8, '#ded6c4', 3);
+      s += sit(P.gl + 24, TOP, 60);
+      s += rest(P.gl, TOP, 48, 58, '#cfe0ea', 4).replace('fill=',
+            'opacity="0.7" fill=');
+      s += rest(P.gl + 4, TOP, 40, 24, '#b7d2e0', 3);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 19. The tribunal. The room where nobody is on your side, which is why
+     the bench is drawn EMPTY and raised and facing the learner: three chairs
+     that are not yours. The card on the wall is 19.1 - what a tribunal decides
+     and what it will not decide however badly you were treated. */
+  MINE.tribunal = {
+    back: function () {
+      var s = r(0, 0, W, H, '#d9d3c7') + r(0, 0, W, 196, '#c7c0b1');
+      s += r(0, 654, W, 246, FLOOR) + r(0, 654, W, 16, FLOOR2);
+      /* panelled wall, and the emblem */
+      s += r(0, 196, W, 320, '#cec5b2');
+      for (var i = 0; i < 10; i++) line(0, 0, 0, 0, '#000', 1);
+      for (var p = 0; p < 9; p++) {
+        s += line(178 * p, 196, 178 * p, 516, '#bfb5a1', 4);
+      }
+      s += c(800, 290, 62, '#b8ab92');
+      s += c(800, 290, 48, '#cec5b2');
+      s += text(800, 300, 'ARB', 26, INK, 'middle', 800);
+      /* what it decides, and what it will not */
+      s += r(140, 356, 520, 230, PAPER, 8);
+      s += r(140, 356, 520, 44, INK, 4);
+      s += text(400, 386, 'THE TRIBUNAL DECIDES', 17, PAPER, 'middle', 800);
+      var DEC = [['the issues as pleaded', OLIVE],
+                 ['what the contract says', OLIVE],
+                 ['who pays the costs', OLIVE],
+                 ['not whether they were fair', RUST]];
+      for (var j = 0; j < DEC.length; j++) {
+        s += text(164, 432 + j * 38, '—', 15, DEC[j][1], 'start', 800);
+        s += text(192, 432 + j * 38, DEC[j][0], 16, DEC[j][1], 'start',
+                  j === 3 ? 800 : 600);
+      }
+      /* the raised bench: three chairs, empty, facing out */
+      s += r(940, 392, 520, 124, '#8d7b63', 6);
+      s += r(940, 380, 520, 18, WOOD2, 4);
+      for (var k = 0; k < 3; k++) {
+        var bx = 976 + k * 164;
+        s += r(bx, 320, 120, 62, '#7d6c56', 8);
+        s += r(bx + 10, 330, 100, 44, '#938169', 6);
+      }
+      s += text(1200, 470, 'NEITHER OF YOU', 16, PAPER, 'middle', 800);
+      return stage(s);
+    },
+    mid: function (arr) {
+      var s = shadow(800, 768, 1120);
+      /* the party's table - 240..1360, top 556 */
+      s += r(240, 556, 1120, 162, WOOD, 6) + r(240, 544, 1120, 20, WOOD2, 4);
+      s += r(280, 604, 1040, 12, '#8a6540', 3);
+      /* the stenographer's small table, at one end or the other */
+      var tx = slot(arr, [110, 1420, 124]);
+      s += shadow(tx, 756, 150);
+      s += r(tx - 66, 536, 132, 24, WOOD2, 4);
+      s += r(tx - 56, 560, 112, 92, '#b08a5e', 4);
+      s += r(tx - 10, 652, 20, 100, WOOD2, 3);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE TABLE: the bundle open at the document that hurts you, the
+         pleaded-issues card, and the jug. The jug is 70 tall, top 486, so it
+         takes 448, 864 or 920 from this room's gaps. */
+      var TOP = 556, s = '';
+      var P = slot(arr, [{ bd: 560, cd: 1040, jg: 448 },
+                         { bd: 940, cd: 320, jg: 864 },
+                         { bd: 600, cd: 1180, jg: 920 }]);
+      s += sit(P.bd + 106, TOP, 228);
+      s += rest(P.bd, TOP, 212, 50, '#efe8da', 3);
+      s += line(P.bd + 106, TOP - 50, P.bd + 106, TOP, '#ded6c4', 3);
+      for (var i = 0; i < 4; i++) {
+        s += line(P.bd + 12, TOP - 40 + i * 8, P.bd + 94, TOP - 40 + i * 8,
+                  '#ddd5c2', 3);
+        s += line(P.bd + 118, TOP - 40 + i * 8, P.bd + 200, TOP - 40 + i * 8,
+                  i === 1 ? '#d99a74' : '#ddd5c2', 3);
+      }
+      s += sit(P.cd + 50, TOP, 112);
+      s += rest(P.cd, TOP, 100, 16, PAPER, 2);
+      s += text(P.cd + 50, TOP - 4, 'ISSUES: 4', 12, STEEL2, 'middle', 700);
+      s += sit(P.jg + 40, TOP, 92);
+      s += rest(P.jg, TOP, 80, 70, '#b9b0a0', 8);
+      s += rest(P.jg + 8, TOP - 70, 64, 12, '#cfc6b3', 4);
+      s += rest(P.jg + 72, TOP - 54, 16, 30, '#b9b0a0', 6);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 20. The handover desk, the week after you have gone. The sheet on the
+     wall is the unit's distinction drawn as two columns: forty TASKS struck
+     through, and the six JUDGEMENTS that are the real handover (20.1). The coat
+     hook is empty, which is the only way to draw an absence. */
+  MINE.handoverdesk = {
+    back: function () {
+      var s = r(0, 0, W, H, '#e2dacb') + r(0, 0, W, 180, '#d1c8b5');
+      s += r(0, 642, W, 258, FLOOR) + r(0, 642, W, 16, FLOOR2);
+      /* tasks, struck through; judgements, not */
+      s += r(150, 200, 640, 400, PAPER, 8);
+      s += r(150, 200, 640, 50, STEEL2, 4);
+      s += text(470, 234, 'HANDOVER  ·  WHAT IS ACTUALLY MINE', 17, PAPER,
+                'middle', 800);
+      s += text(290, 288, 'TASKS  (40)', 14, '#a9a192', 'middle', 800);
+      s += text(650, 288, 'JUDGEMENTS  (6)', 14, OLIVE, 'middle', 800);
+      for (var i = 0; i < 9; i++) {
+        var ty = 312 + i * 30;
+        s += r(178, ty, 224, 10, '#e4dccb', 3);
+        s += line(178, ty + 5, 402, ty + 5, '#c3b9a4', 3);
+      }
+      var JUD = ['Who we do not sell to.', 'When to stop a lorry.',
+                 'Which late payer we carry.', 'What Mr Sayegh is told first.',
+                 'The price I will not go under.', 'Who signs when I am away.'];
+      for (var j = 0; j < JUD.length; j++) {
+        s += text(508, 322 + j * 44, JUD[j], 15, INK, 'start', 600);
+        s += r(492, 312 + j * 44, 8, 14, OLIVE, 2);
+      }
+      /* the empty hook, and the week's diary left open */
+      s += r(1060, 214, 70, 20, STEEL2, 4);
+      s += c(1095, 252, 16, 'none').replace('fill="none"',
+            'fill="none" stroke="' + STEEL2 + '" stroke-width="9"');
+      s += text(1095, 310, 'empty', 15, '#a9a192', 'middle', 500);
+      s += r(1200, 240, 260, 340, PAPER, 6);
+      s += text(1330, 282, 'FIRST WEEK', 17, INK, 'middle', 800);
+      s += line(1222, 300, 1438, 300, '#ded6c4', 3);
+      var DAY = ['Mon  the Wednesday call', 'Tue  Abu Yasser, in person',
+                 'Wed  the audit letter', 'Thu  nothing - on purpose',
+                 'Fri  the one he will change'];
+      for (var d = 0; d < DAY.length; d++) {
+        s += text(1226, 336 + d * 46, DAY[d], 14, INK, 'start', 600);
+      }
+      return stage(s);
+    },
+    mid: function (arr) {
+      var s = shadow(800, 756, 860);
+      /* the desk - 420..1180, top 558 - with one drawer out and empty */
+      s += r(420, 558, 760, 170, WOOD, 6) + r(420, 546, 760, 20, WOOD2, 4);
+      s += r(462, 606, 676, 12, '#8a6540', 3);
+      var dw = slot(arr, [470, 820, 640]);
+      s += r(dw, 622, 240, 70, '#8a6540', 4);
+      s += r(dw + 10, 632, 220, 50, '#6f6253', 3);
+      s += r(dw + 96, 650, 48, 12, WOOD2, 4);
+      var cx = slot(arr, [1256, 1300, 1230]);
+      s += shadow(cx, 744, 182);
+      s += r(cx - 78, 476, 156, 28, WOOD2, 8);
+      s += r(cx - 68, 504, 136, 118, '#8d7b63', 6);
+      s += r(cx - 12, 622, 24, 112, WOOD2, 4);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE DESK: the handover folder, the keys being left, and the mug. The
+         mug is 62 tall, top 496, so it takes 496, 896 or 512. */
+      var TOP = 558, s = '';
+      var P = slot(arr, [{ fd: 600, ky: 900, mg: 496 },
+                         { fd: 920, ky: 640, mg: 896 },
+                         { fd: 640, ky: 1060, mg: 512 }]);
+      s += sit(P.fd + 98, TOP, 212);
+      s += rest(P.fd, TOP, 196, 48, '#b08a5e', 4);
+      /* the folder's label on its FRONT, not its top: at TOP-48 the label was
+         at y=498, above the waist line and 72 wide, which painted inside an
+         actor column in two of the three arrangements */
+      s += rest(P.fd + 16, TOP - 30, 72, 12, PAPER, 2);
+      s += text(P.fd + 52, TOP - 20, 'HANDOVER', 11, INK, 'middle', 700);
+      s += rest(P.fd + 180, TOP - 40, 22, 9, OLIVE, 2);
+      s += sit(P.ky + 30, TOP, 76);
+      s += rest(P.ky, TOP, 60, 12, STEEL2, 6);
+      s += c(P.ky + 14, TOP - 18, 9, 'none').replace('fill="none"',
+            'fill="none" stroke="' + STEEL2 + '" stroke-width="5"');
+      s += sit(P.mg + 34, TOP, 80);
+      s += rest(P.mg + 4, TOP, 60, 62, '#c9bda9', 8);
+      s += rest(P.mg + 10, TOP - 62, 48, 10, '#6f7a4a', 3);
+      s += rest(P.mg + 64, TOP - 46, 16, 28, '#c9bda9', 6);
+      return stage(s);
+    }
+  };
+
+  /* UNIT 24. The letter desk, and the last room in the series. Four envelopes:
+     three the learner sealed at A1, A2 and B1 - two of them open now - and one
+     still blank, addressed to C1, which is 24.6. This room is why unit 24 does
+     NOT reuse the rooftop that closed A2 Book 2 and B1 Book 2: the unit is
+     about the letters, so the room is the desk they are opened on. */
+  MINE.letterdesk = {
+    back: function () {
+      var s = r(0, 0, W, H, '#e4ddd0') + r(0, 0, W, 176, '#d3cbb9');
+      s += r(0, 646, W, 254, FLOOR) + r(0, 646, W, 16, FLOOR2);
+      /* the four letters of the series, pinned in order */
+      var L = [['A1', 'opened', OLIVE], ['A2', 'opened', OLIVE],
+               ['B1', 'opened', OLIVE], ['C1', 'sealed', RUST]];
+      for (var i = 0; i < 4; i++) {
+        var x = 150 + i * 330;
+        s += r(x, 216, 280, 200, i === 3 ? '#f6efe0' : PAPER, 6);
+        s += r(x, 216, 280, 200, 'none', 6).replace('fill="none"',
+              'fill="none" stroke="' + (i === 3 ? RUST : '#ded6c4') +
+              '" stroke-width="5"');
+        /* the flap: open on three, shut on the fourth */
+        if (i === 3) {
+          s += p('M ' + x + ' 216 L ' + (x + 140) + ' 330 L ' + (x + 280) +
+                 ' 216', 'none', ' stroke="' + RUST + '" stroke-width="5"');
+        } else {
+          s += p('M ' + x + ' 216 L ' + (x + 140) + ' 150 L ' + (x + 280) +
+                 ' 216', '#f2eee4', ' stroke="#ded6c4" stroke-width="5"');
+        }
+        s += text(x + 140, 372, L[i][0], 34, i === 3 ? RUST : INK, 'middle', 800);
+        s += text(x + 140, 404, L[i][1], 14, L[i][2], 'middle', 700);
+      }
+      /* the count: what was undertaken against what was done (24.4) */
+      s += r(420, 450, 760, 150, PAPER, 8);
+      s += r(420, 450, 760, 44, INK, 4);
+      s += text(800, 480, 'UNDERTOOK  ·  DID', 17, PAPER, 'middle', 800);
+      s += text(560, 540, 'undertook  7', 20, INK, 'middle', 700);
+      s += text(800, 540, 'did  4', 20, OLIVE, 'middle', 800);
+      s += text(1040, 540, 'count it yourself', 16, STEEL2, 'middle', 600);
+      s += text(800, 578, 'written in December, not in May', 14, '#a9a192',
+                'middle', 500);
+      return stage(s);
+    },
+    mid: function (arr) {
+      var s = shadow(800, 760, 900);
+      /* the desk - 400..1200, top 560 */
+      s += r(400, 560, 800, 166, WOOD, 6) + r(400, 548, 800, 20, WOOD2, 4);
+      s += r(440, 608, 720, 12, '#8a6540', 3);
+      var cx = slot(arr, [240, 1360, 256]);
+      s += shadow(cx, 748, 176);
+      s += r(cx - 74, 482, 148, 28, WOOD2, 8);
+      s += r(cx - 64, 510, 128, 112, '#8d7b63', 6);
+      s += r(cx - 12, 622, 24, 110, WOOD2, 4);
+      return stage(s);
+    },
+    fore: function (arr) {
+      /* ON THE DESK: the letter unfolded and read, the knife it was opened
+         with, and the one standing sealed for C1. The standing envelope is 72
+         tall, top 488, so it takes 460, 876 or 480 from this room's gaps. */
+      var TOP = 560, s = '';
+      /* arr2's knife was at 1140 and is 88 long with a 28 handle beyond it: it
+         ended at 1228 on a desk that stops at 1200, hanging off the end with
+         its shadow. 1080 keeps the whole of it, and the shadow, on the wood. */
+      var P = slot(arr, [{ lt: 620, kn: 1040, up: 460 },
+                         { lt: 940, kn: 440, up: 876 },
+                         { lt: 660, kn: 1080, up: 480 }]);
+      s += sit(P.lt + 96, TOP, 208);
+      s += rest(P.lt, TOP, 192, 44, PAPER, 3);
+      for (var i = 0; i < 5; i++) {
+        s += line(P.lt + 14, TOP - 36 + i * 7, P.lt + 150, TOP - 36 + i * 7,
+                  '#ded6c4', 3);
+      }
+      s += line(P.lt + 96, TOP - 44, P.lt + 96, TOP, '#e4dccb', 2);
+      s += sit(P.kn + 44, TOP, 100);
+      s += rest(P.kn, TOP, 88, 10, STEEL2, 4);
+      s += rest(P.kn + 60, TOP - 10, 28, 14, WOOD2, 3);
+      s += sit(P.up + 44, TOP, 98);
+      s += rest(P.up, TOP, 88, 72, '#f6efe0', 4);
+      s += p('M ' + P.up + ' ' + (TOP - 72) + ' L ' + (P.up + 44) + ' ' +
+             (TOP - 34) + ' L ' + (P.up + 88) + ' ' + (TOP - 72), 'none',
+             ' stroke="' + RUST + '" stroke-width="4"');
+      s += text(P.up + 44, TOP - 16, 'C1', 18, RUST, 'middle', 800);
       return stage(s);
     }
   };

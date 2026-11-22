@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-7-1",
+  "cycle": "7.1",
+  "title": "Proximate and distal cause",
+  "objective": "name a proximate and a distal cause, and keep both",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-7-2",
+  "cycle": "7.2",
+  "title": "Chaining",
+  "objective": "chain four links, and say which of them you can evidence",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-7-3",
+  "cycle": "7.3",
+  "title": "The cause inside a decision nobody recorded",
+  "objective": "name a cause that is a decision with no document behind it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-7-4",
+  "cycle": "7.4",
+  "title": "Counterfactual discipline",
+  "objective": "apply the counterfactual test, and find the fix that would not have worked",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-7-5",
+  "cycle": "7.5",
+  "title": "Refusing the single cause",
+  "objective": "refuse a single cause, and separate three contributors from one occasion",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-7-6",
+  "cycle": "7.6",
+  "title": "The link you cannot evidence",
+  "objective": "say inside the chain which link you cannot evidence",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-7-7",
+  "cycle": "7.7",
+  "title": "Review & Mediate: the decision whose author has left",
+  "objective": "Review & Mediate: the decision whose author has left the company",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

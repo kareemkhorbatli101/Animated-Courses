@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-4-1",
+  "cycle": "4.1",
+  "title": "Likelihood at range",
+  "objective": "write likelihood at range, with the conditions attached",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-4-2",
+  "cycle": "4.2",
+  "title": "Concentration in one sentence",
+  "objective": "state a concentration in one sentence",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-4-3",
+  "cycle": "4.3",
+  "title": "Modelling what can be modelled",
+  "objective": "model what can be modelled, with the assumptions numbered",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-4-4",
+  "cycle": "4.4",
+  "title": "Naming what cannot be modelled",
+  "objective": "name what cannot be modelled, and refuse to put a figure on it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-4-5",
+  "cycle": "4.5",
+  "title": "Stress language",
+  "objective": "write a stress case — two things happening in the same fortnight",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-4-6",
+  "cycle": "4.6",
+  "title": "The risk that belongs to the owner",
+  "objective": "write the risk that belongs to the owner and not to you",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-4-7",
+  "cycle": "4.7",
+  "title": "Review & Mediate: the exposure nobody owns",
+  "objective": "Review & Mediate: the exposure that is in no document because nobody owns it",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

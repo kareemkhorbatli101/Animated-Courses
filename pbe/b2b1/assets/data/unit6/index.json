@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-6-1",
+  "cycle": "6.1",
+  "title": "One fact, three registers",
+  "objective": "write one fact in three registers, moving the dials on purpose",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-6-2",
+  "cycle": "6.2",
+  "title": "What each reader will do with it",
+  "objective": "write for what each reader will do, not for who they are",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-6-3",
+  "cycle": "6.3",
+  "title": "What may be left out, and what may never",
+  "objective": "decide what may be left out, and what may never be",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-6-4",
+  "cycle": "6.4",
+  "title": "The sentence that must be identical",
+  "objective": "write the one sentence that is identical in all three",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-6-5",
+  "cycle": "6.5",
+  "title": "When the three readers compare notes",
+  "objective": "write for the day the three readers compare notes",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-6-6",
+  "cycle": "6.6",
+  "title": "Writing the three in one sitting",
+  "objective": "write all three in one sitting",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-6-7",
+  "cycle": "6.7",
+  "title": "Review & Mediate: the reader who actually read it",
+  "objective": "Review & Mediate: the reader you wrote for, and the reader who actually read it",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

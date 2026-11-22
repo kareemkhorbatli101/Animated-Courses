@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-9-1",
+  "cycle": "9.1",
+  "title": "Substance and presentation",
+  "objective": "separate a change of substance from a change of presentation",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-9-2",
+  "cycle": "9.2",
+  "title": "The silent correction and the flagged one",
+  "objective": "decide which corrections to make silently and which to flag",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-9-3",
+  "cycle": "9.3",
+  "title": "Editing a line whose author will read it",
+  "objective": "edit a line whose author will read your edit",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-9-4",
+  "cycle": "9.4",
+  "title": "The line you may not improve",
+  "objective": "recognise the line you may not improve, however badly written",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-9-5",
+  "cycle": "9.5",
+  "title": "Reinstating a deletion",
+  "objective": "reinstate a deletion you cannot accept, and say why",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-9-6",
+  "cycle": "9.6",
+  "title": "One document, two authors, one voice",
+  "objective": "make one document out of two authors without flattening either",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-9-7",
+  "cycle": "9.7",
+  "title": "Review & Mediate: the four you may not change",
+  "objective": "Review & Mediate: the four you may not change, read back to their author",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

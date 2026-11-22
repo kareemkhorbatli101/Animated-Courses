@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-8-1",
+  "cycle": "8.1",
+  "title": "A figure needs a basis",
+  "objective": "give every figure its period, its basis and its source",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-8-2",
+  "cycle": "8.2",
+  "title": "The trend and the blip",
+  "objective": "write three years of trading in eleven sentences, and separate a trend from a blip",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-8-3",
+  "cycle": "8.3",
+  "title": "Per cent, points and the base",
+  "objective": "use percentages, percentage points and a base without misleading anybody",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-8-4",
+  "cycle": "8.4",
+  "title": "Stripping out the one-off",
+  "objective": "strip out a one-off item, and say that you have done it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-8-5",
+  "cycle": "8.5",
+  "title": "The round number and the spurious precision",
+  "objective": "choose between a round number and a precise one, and refuse a spurious precision",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-8-6",
+  "cycle": "8.6",
+  "title": "The figure the reader will check",
+  "objective": "write the figure the reader will check, and build the bridge to it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-8-7",
+  "cycle": "8.7",
+  "title": "Review & Mediate: the figure Mr Haddad will ask for",
+  "objective": "Review & Mediate: the figure Mr Haddad will ask for on the telephone",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

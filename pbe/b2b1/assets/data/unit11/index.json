@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-11-1",
+  "cycle": "11.1",
+  "title": "The sentence, written down first",
+  "objective": "write the sentence down before you say it, and take the hedges out",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-11-2",
+  "cycle": "11.2",
+  "title": "Counting the cost",
+  "objective": "count what it costs, and what not saying it costs",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-11-3",
+  "cycle": "11.3",
+  "title": "Saying it first, and to the right person",
+  "objective": "say it first, and to the person it costs you with",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-11-4",
+  "cycle": "11.4",
+  "title": "Telling, and not asking",
+  "objective": "separate the telling from the asking, and offer nothing in the same breath",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-11-5",
+  "cycle": "11.5",
+  "title": "The true things that are not yours to say",
+  "objective": "leave out the true things that are somebody else's to say",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-11-6",
+  "cycle": "11.6",
+  "title": "The undertaking, with a date in it",
+  "objective": "give an undertaking you can keep, with a date in it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-11-7",
+  "cycle": "11.7",
+  "title": "Review & Mediate: the thing you have to say, said",
+  "objective": "Review & Mediate: the thing you have to say, said",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

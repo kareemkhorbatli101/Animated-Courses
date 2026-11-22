@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-2-1",
+  "cycle": "2.1",
+  "title": "The passive that hides and the passive that clarifies",
+  "objective": "choose between a passive that hides and a passive that clarifies",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-2-2",
+  "cycle": "2.2",
+  "title": "It was decided — and by whom",
+  "objective": "write it was decided — and know when to say by whom",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-2-3",
+  "cycle": "2.3",
+  "title": "Nominalisation, and what it costs",
+  "objective": "turn a verb into a noun, and count what it costs",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-2-4",
+  "cycle": "2.4",
+  "title": "A fault without a culprit, and a fault with one",
+  "objective": "write a fault without a culprit, and a fault with one, on purpose",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-2-5",
+  "cycle": "2.5",
+  "title": "Hedged agency",
+  "objective": "hedge agency to exactly what the file supports",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-2-6",
+  "cycle": "2.6",
+  "title": "Restoring the actor on request",
+  "objective": "restore the actor when somebody asks, without retreating",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-2-7",
+  "cycle": "2.7",
+  "title": "Review & Mediate: the sentence that cost somebody a reputation",
+  "objective": "Review & Mediate: the sentence that cost somebody a reputation, and nobody wrote it to",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

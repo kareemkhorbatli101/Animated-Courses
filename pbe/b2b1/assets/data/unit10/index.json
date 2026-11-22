@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-10-1",
+  "cycle": "10.1",
+  "title": "What is this meeting for?",
+  "objective": "find out what a meeting is for before it starts",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-10-2",
+  "cycle": "10.2",
+  "title": "Three agendas in one room",
+  "objective": "name what each person in the room came for",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-10-3",
+  "cycle": "10.3",
+  "title": "The item that is not on the agenda",
+  "objective": "raise the item that is not on the agenda and is the reason for the meeting",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-10-4",
+  "cycle": "10.4",
+  "title": "The sentence that stops a decision",
+  "objective": "say the thing that stops a decision being taken on the wrong basis",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-10-5",
+  "cycle": "10.5",
+  "title": "The minute is the decision",
+  "objective": "read a minute as the decision, and spot what it does not record",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-10-6",
+  "cycle": "10.6",
+  "title": "Correcting a minute you did not write",
+  "objective": "correct a minute you did not write, on accuracy and not on substance",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-10-7",
+  "cycle": "10.7",
+  "title": "Review & Mediate: the minute that decides what happened",
+  "objective": "Review & Mediate: the minute that decides what happened",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]

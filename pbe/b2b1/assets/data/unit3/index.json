@@ -1,0 +1,72 @@
+[
+ {
+  "ord": 1,
+  "sid": "s01-cycle-3-1",
+  "cycle": "3.1",
+  "title": "The concession that costs you something",
+  "objective": "make a concession that costs you something",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 2,
+  "sid": "s02-cycle-3-2",
+  "cycle": "3.2",
+  "title": "I may be wrong about this",
+  "objective": "write I may be wrong about this as a strength and not a hedge",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 3,
+  "sid": "s03-cycle-3-3",
+  "cycle": "3.3",
+  "title": "The strongest version of the other side",
+  "objective": "put the other side better than its owner put it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 4,
+  "sid": "s04-cycle-3-4",
+  "cycle": "3.4",
+  "title": "The one figure that decides it",
+  "objective": "find the one figure that decides it, and give it a source",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 5,
+  "sid": "s05-cycle-3-5",
+  "cycle": "3.5",
+  "title": "What you are not asking for",
+  "objective": "say what you are not asking for",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 6,
+  "sid": "s06-cycle-3-6",
+  "cycle": "3.6",
+  "title": "The paragraph you show them first",
+  "objective": "read your hardest paragraph to the person it is about, before you send it",
+  "n": 15,
+  "minutes": 90,
+  "stages": 13
+ },
+ {
+  "ord": 7,
+  "sid": "s07-cycle-3-7",
+  "cycle": "3.7",
+  "title": "Review & Mediate: readable by the person who disagrees with it",
+  "objective": "Review & Mediate: what makes a paper readable by the person who disagrees with it",
+  "n": 14,
+  "minutes": 96,
+  "stages": 11
+ }
+]
