@@ -126,33 +126,78 @@ jobs:
       # deployer. Up to ninety seconds, then go anyway - if the index is still
       # cold the deploy fails as it did before and nothing is worse.
       #
-      # ⚠ WHAT IS AND IS NOT PROVEN. On the first run with this step in place
-      # the deploy succeeded and the step printed "artifact visible after 0s" -
-      # so the step's own mechanics are proven (the permission is right, the
-      # query works, it reads a positive answer correctly) and the RESCUE is
-      # not: the race simply did not happen that time, and that deploy would
-      # have succeeded without this step. Do not read a green run as evidence
-      # that this fixed anything. The thing to look for is a run where the log
-      # says "not visible yet (5s) - waiting" and then deploys anyway; until
-      # one of those appears, this is a measured guess and no more.
+      # ⚠ THE RUN THAT JUDGED THE STEP ABOVE, AND WHY IT IS NOW WRITTEN
+      # DIFFERENTLY. The note that used to sit here asked for one specific run
+      # before believing any of this: a log saying "not visible yet (5s) -
+      # waiting" and then deploying anyway. On 2026-11-22, commit 810b70fb gave
+      # something better and worse - it failed TWICE, and the second failure's
+      # log reads, to the millisecond:
+      #
+      #     17:06:17.5539278   artifact visible after 0s        <- this step
+      #     17:06:17.9658377   Fetching artifact metadata …     <- deploy-pages
+      #     17:06:18.2111884   Found 0 artifact(s)
+      #
+      # So the step did NOT time out and did not warn. It asked the index, was
+      # told the artifact was there, and deploy-pages asked FOUR HUNDRED
+      # MILLISECONDS LATER and was told it was not. The index does not come up
+      # cold and stay up - it FLICKERS, and a step that exits on the first
+      # positive answer can pass on the flicker and hand a still-unsettled
+      # index to the deployer. That is why ninety seconds of patience changed
+      # nothing: the loop never used them.
+      #
+      # ⚠ WHAT I COULD NOT RULE OUT, stated because it changes the fix if true:
+      # the two queries may simply not be the same query. This step asks for the
+      # run's artifact list and greps the name; deploy-pages@v4 asks through its
+      # own getArtifactMetadata (api-client.js:85), and if that filters by run
+      # ATTEMPT or by non-expired status, then a re-run's artifact could be
+      # permanently invisible to it rather than briefly so - and no amount of
+      # waiting would help. The millisecond gap above is evidence for a flicker
+      # and not proof of one.
+      #
+      # EITHER WAY the same change is the right one, so it is made without
+      # settling that: require the artifact to be seen on THREE CONSECUTIVE
+      # queries five seconds apart, so one positive answer cannot satisfy the
+      # step, and a flickering index has to hold still before the deployer is
+      # handed anything. Cost when all is well: ten seconds per deploy.
+      #
+      # ⚠ AND THIS RESCUE IS AGAIN UNPROVEN. What is now evidence-backed is the
+      # DIAGNOSIS, not the cure. A green run proves nothing here - the race has
+      # to happen for the cure to be exercised. The run to look for this time
+      # is one whose log shows "seen 1 of 3" or "lost it again" and then
+      # deploys successfully. Until that appears, this is a better-aimed guess.
       - name: Wait for the artifact to be listable
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           api="/repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts"
+          need=3
+          seen=0
           for i in $(seq 1 18); do
             n=$(curl -sS -H "Authorization: Bearer ${GH_TOKEN}" \
                      -H "Accept: application/vnd.github+json" \
                      "https://api.github.com${api}" \
                  | grep -c '"name": *"github-pages"' || true)
             if [ "${n}" -ge 1 ]; then
-              echo "artifact visible after $(( (i - 1) * 5 ))s"
-              exit 0
+              seen=$(( seen + 1 ))
+              echo "seen ${seen} of ${need} ($(( (i - 1) * 5 ))s)"
+              if [ "${seen}" -ge "${need}" ]; then
+                echo "artifact listable on ${need} consecutive queries - deploying"
+                exit 0
+              fi
+            else
+              # ⚠ THE RESET IS THE WHOLE POINT. A positive answer followed by a
+              # negative one is exactly the state that broke 810b70fb, so the
+              # count goes back to zero rather than carrying on.
+              if [ "${seen}" -gt 0 ]; then
+                echo "lost it again after ${seen} positive answer(s) - restarting the count"
+              else
+                echo "not visible yet ($(( (i - 1) * 5 ))s) - waiting"
+              fi
+              seen=0
             fi
-            echo "not visible yet ($(( (i - 1) * 5 ))s) - waiting"
             sleep 5
           done
-          echo "WARNING: still not listable after 90s; deploying anyway"
+          echo "WARNING: never listable on ${need} consecutive queries in 90s; deploying anyway"
 
       - name: Deploy
         id: deployment
