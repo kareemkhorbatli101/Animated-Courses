@@ -444,6 +444,24 @@ PBE8.arabic({
     '⚠ أريد أمرًا آخر فيه. ⚠ ما المفترض أن أفعله في الشهرين، عملًا، لا إدارةً مؤقّتة. أعطوني إعادة فتح حمص وأكون قد أدرتُ شيئًا بحلول تموز.',
   '⚠ That is the right ask and it is better than anything the three of us had written down. It is also the gap in 20.6, and you have just proposed how to close it.':
     '⚠ ذلك هو الطلب الصحيح وهو أفضل من أي شيء كتبناه ثلاثتنا. وهو أيضًا الفجوة في الدورة ٢٠٫٦، وقد اقترحتَ الآن كيف تُسَدّ.',
+  'The warehouse manager\'s post is decided. Nadia takes it substantively from the first of July.':
+    'حُسم منصب مدير المستودع. تتولّاه ناديا أصالةً من الأول من تمّوز.',
+  'And until July?':
+    'وحتى تمّوز؟',
+  'You act in it, with the same authority and the same limit.':
+    'تعمل فيه بالوكالة، بالصلاحية نفسها والحدّ نفسه.',
+  'So am I acting, or auditioning?':
+    'إذن أنا وكيل، أم في اختبار؟',
+  'Acting. You are not auditioning, and doing it well will not change the outcome.':
+    'وكيل. لست في اختبار، وإحسانك العمل فيه لن يغيّر النتيجة.',
+  'If I left you to hope, you would do everything for the wrong reason for two months, and you would be entitled to be angry in July.':
+    'لو تركتك تأمل، لفعلت كل شيء لسبب خاطئ مدّة شهرين، ولكان من حقّك أن تغضب في تمّوز.',
+  'Why is there a gap at all? Is it about me?':
+    'ولماذا هناك فجوة أصلًا؟ هل الأمر يتعلّق بي؟',
+  'It is the arbitration and the peak season, not your capability. And the acting post ends on the fifteenth of July whatever happens.':
+    'الأمر هو التحكيم وذروة الموسم، لا قدرتك. وينتهي منصب الوكالة في الخامس عشر من تمّوز أيًّا كان ما يحدث.',
+  'Then give me the Homs reopening, and I will have run something by July.':
+    'إذن أعطيني إعادة افتتاح حمص، وسأكون قد أدرت شيئًا بحلول تمّوز.',
   'Last day. What is actually in that folder?':
     'اليوم الأخير. ما في ذلك الملفّ فعلًا؟',
   '⚠ Not what I thought when I started. ⚠ Pages one and two are forty tasks and they are the part nobody will need after a fortnight.':

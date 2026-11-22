@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u10-s07', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 10 · 10.7', part: '10.7',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 10 · 10.7', part: '10.7',
           section: '7', lesson: 'Review: the safety notice', title: 'Review: the safety notice' },
   objective: 'Review: the safety notice — and one problem to talk about together',
   study: {
@@ -182,17 +182,20 @@ PBE2.page('u10-s07', {
             q: 'Books closed. Listen. Who breaks the rule?',
             options: [{
               t: 'the new men',
-              ok: false
+              ok: false,
+              why: 'The easy answer when a rule is broken. Listen to who admits it first.'
             },
             {
               t: 'everybody, including Abu Yasser',
               ok: true,
-              why: 'everybody, including Abu Yasser'
+              why: 'Abu Yasser says I did about Tuesday, and Fouad and Samih do it too.'
             },
             {
               t: 'nobody',
-              ok: false
-            }]
+              ok: false,
+              why: 'The rule is broken in this scene by men who are named.'
+            }],
+            evidence: 'the pause after Ammar names Tuesday'
           },
         {
             q: 'Listen again. Who admits to breaking rule two?',

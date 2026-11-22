@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u5-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 5 · 5.5', part: '5.5',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 5 · 5.5', part: '5.5',
           section: '5', lesson: 'Is it a six or an eight?', title: 'Is it a six or an eight?' },
   objective: 'copy a number without changing it',
   study: {
@@ -215,7 +215,7 @@ PBE1.page('u5-s05', {
             options: [{
               t: 'the third one',
               ok: true,
-              why: '*The third digit. A one, or a seven?* - which is what makes '
+              why: '“The third digit. A one, or a seven?” - which is what makes '
                 + '4417 and 4477 the same handwriting.'
             },
             {
@@ -235,7 +235,7 @@ PBE1.page('u5-s05', {
             options: [{
               t: 'because if one is wrong, the other still finds the delivery',
               ok: true,
-              why: '*Two facts are better than one.* Two facts about one thing can '
+              why: '“Two facts are better than one.” Two facts about one thing can '
                 + 'check each other; one cannot.'
             },
             {
@@ -248,9 +248,25 @@ PBE1.page('u5-s05', {
               ok: false,
               why: 'A date says when, not who. The signature is a different cycle.'
             }],
-            evidence: 'Nour\'s answer to *Why both?*'
+            evidence: 'Nour\'s answer to “Why both?”'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '5.5.2',
+      bookRef: 'Unit 5 · 5.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the question.',
+      text: '<b>1</b> You cannot tell &nbsp; <b>6</b> from 8. [[6]]? &nbsp; <b>2</b> '
+      + 'You cannot tell &nbsp; <b>1</b> from 7. [[1]]? &nbsp; <b>3</b> Read 4417 '
+      + 'back digit by digit: [[3]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -269,7 +285,7 @@ PBE1.page('u5-s05', {
             keys: ['third',
               'digit'],
             need: 1,
-            hint: 'Ammar names the *position* in the number, and then the two '
+            hint: 'Ammar names the <i>position</i> in the number, and then the two '
               + 'digits it might be.'
           },
       {
@@ -516,8 +532,8 @@ PBE1.page('u5-s05', {
               'exactly',
               'like'],
             need: 1,
-            hint: 'Because of how it *looks* on the paper afterwards. Nothing marks '
-              + 'it as a guess.'
+            hint: 'Because of how it <i>looks</i> on the paper afterwards. Nothing '
+              + 'marks it as a guess.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

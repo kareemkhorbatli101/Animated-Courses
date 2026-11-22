@@ -5,7 +5,7 @@
   "cycle": "6.1",
   "title": "Sham Trading, good morning",
   "objective": "answer the telephone",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -15,7 +15,7 @@
   "cycle": "6.2",
   "title": "Your name, please",
   "objective": "ask who is calling, and write a name you cannot spell",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -25,7 +25,7 @@
   "cycle": "6.3",
   "title": "One moment, please",
   "objective": "say wait — and not lose the call",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -35,7 +35,7 @@
   "cycle": "6.4",
   "title": "He is not here",
   "objective": "say somebody is not here",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -45,7 +45,7 @@
   "cycle": "6.5",
   "title": "Zero nine four four — one one two",
   "objective": "take a number and read it back",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -55,7 +55,7 @@
   "cycle": "6.6",
   "title": "I will tell him",
   "objective": "say you will pass the message on",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },

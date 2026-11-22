@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u5-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 5 · 5.6', part: '5.6',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 5 · 5.6', part: '5.6',
           section: '6', lesson: 'There is no note', title: 'There is no note' },
   objective: 'say a paper is missing',
   study: {
@@ -125,7 +125,7 @@ PBE1.page('u5-s06', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '5.6.1',
       bookRef: 'Unit 5 · 5.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -142,16 +142,13 @@ PBE1.page('u5-s06', {
       {
             q: 'Read the two lines. Which is better? He did not bring the paper '
               + '· There is no delivery note. I wrote one myself.',
-            minWords: 6,
+            model: 'The second line',
+            minWords: 1,
             rows: 2,
             hint: 'One reports a problem. The other reports a problem and what was '
               + 'done about it.'
           }],
-      ideas: ['Saying there is nothing there',
-      'Driver: Marwan Haddad Lorry: 345 871'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -219,7 +216,7 @@ PBE1.page('u5-s06', {
             options: [{
               t: 'six',
               ok: true,
-              why: '*Six pallets. Where do they go?* - and six is what Ammar '
+              why: '“Six pallets. Where do they go?” - and six is what Ammar '
                 + 'writes on the note he makes himself.'
             },
             {
@@ -239,7 +236,7 @@ PBE1.page('u5-s06', {
             options: [{
               t: 'writes one himself and has the driver sign it',
               ok: true,
-              why: '*I write it and you sign it. Then we both have a paper.* A '
+              why: '“I write it and you sign it. Then we both have a paper.” A '
                 + 'paper made on the spot by two people is still a paper.'
             },
             {
@@ -256,6 +253,22 @@ PBE1.page('u5-s06', {
             evidence: 'Ammar\'s last three lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '5.6.2',
+      bookRef: 'Unit 5 · 5.6 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write there is no or there are no.',
+      text: '<b>1</b> [[1]] delivery note. &nbsp; <b>2</b> [[2]] papers in the lorry. '
+      + '&nbsp; <b>3</b> [[3]] signature at the bottom. &nbsp; <b>4</b> [[4]] '
+      + 'labels on the six pallets.',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

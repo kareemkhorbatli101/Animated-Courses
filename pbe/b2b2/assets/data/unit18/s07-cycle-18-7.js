@@ -312,52 +312,39 @@ PBE8.page('u18-s07', {
     },
     {
       id: 'c4',
-      kind: 'model',
       ref: '18.7.3',
       bookRef: 'Unit 18 · 18.7 · Lesson A · Speaking · Practise',
-      type: 'discuss',
+      type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. A brings a finding that names a person; B moves it to the '
   + 'practice. ⚠ Use the four steps, in order.',
-      passage: {
-        title: 'From the book',
-        html: '<table class=\'bk\'><tr><th>B says</th><th>A '
-          + 'answers</th></tr><tr><td>⚠ <b>Read it as a stranger in 2032 will. '
-          + 'What is that a document about?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>Now make the firm the '
-          + 'subject, and lose no fact.</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>What is the mechanism? '
-          + 'No form, no owner, nobody asking?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>And what does it cost '
-          + 'going forward?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>Is your version weaker '
-          + 'than the one with the name in it, or larger?</b></td><td><span '
-          + 'class="blank"></span></td></tr></table><table '
-          + 'class=\'bk\'><tr><th>Role card 1 — softening it</th><th>Role card 2 '
-          + '— he will not sign</th></tr><tr><td>⚠ <b>A says that moving the '
-          + 'subject to the firm is softening the finding to keep the peace.</b> '
-          + '⚠ <b>B asks which fact has been removed, and the answer is none: '
-          + 'both dates, both decisions and both silences remain.</b> ⚠ <b>B\'s '
-          + 'point: <i>one man was careless</i> is a smaller claim than <i>this '
-          + 'firm cannot hold a reason</i>, so the move is not a softening</b> — '
-          + '<b>it is the larger finding, and the checkable one.</b></td><td>⚠ '
-          + '<b>A says the finding is being dropped because Mr Ayoub will not '
-          + 'sign.</b> ⚠ <b>B separates the two requests: his initials on his own '
-          + 'words at s.3.2, and his assent to a page about the firm.</b> ⚠ '
-          + '<b>B\'s point: putting them in one afternoon made refusing either '
-          + 'look like refusing both</b> — <b>and s.3.2 exists only with him, so '
-          + 'losing it to win the wording is the worse trade by a long '
-          + 'way.</b></td></tr></table>'
-      },
-      questions: [{
-            q: 'Write what you said and what you heard.',
-            model: 'The four steps, with a sample run',
-            minWords: 2,
-            rows: 2,
-            hint: 'Both sides: your lines, then the other person\'s. Alone, the '
-              + 'engine is the other person - write what it said.'
-          }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      scene: 'u18-18-7-pair',
+      roles: [{
+          who: 'a',
+          label: 'A'
+        },
+      {
+          who: 'b',
+          label: 'B'
+        }],
+      minWords: 8,
+      notePlaceholder: 'Write two lines you said in the role-play…',
+      table: {
+        title: 'The cards the book gives you',
+        head: ['B says',
+        'A answers'],
+        rows: [['⚠ <b>Read it as a stranger in 2032 will. What is that a document about?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>Now make the firm the subject, and lose no fact.</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>What is the mechanism? No form, no owner, nobody asking?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>And what does it cost going forward?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>Is your version weaker than the one with the name in it, or larger?</b>',
+          '<span class="blank"></span>']]
+      }
     },
     {
       id: 'c5',

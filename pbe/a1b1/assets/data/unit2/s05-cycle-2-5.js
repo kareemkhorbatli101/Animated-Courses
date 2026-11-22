@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u2-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 2 · 2.5', part: '2.5',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 2 · 2.5', part: '2.5',
           section: '5', lesson: 'Say it, write it, read it back', title: 'Say it, write it, read it back' },
   objective: 'write a number down and read it back',
   study: {
@@ -219,12 +219,12 @@ PBE1.page('u2-s05', {
               t: 'sixteen',
               ok: false,
               why: 'Sixteen is what Ammar heard first - and the mistake the whole '
-                + 'cycle is built on. Listen for *six zero, or one six?*'
+                + 'cycle is built on. Listen for “six zero, or one six?”'
             },
             {
               t: 'eleven',
               ok: false,
-              why: 'Eleven is in the order, but as a time: on the lorry *by eleven*.'
+              why: 'Eleven is in the order, but as a time: on the lorry “by eleven”.'
             }],
             evidence: 'Fadi\'s correction, and the digits he gives after it'
           },
@@ -233,8 +233,8 @@ PBE1.page('u2-s05', {
             options: [{
               t: 'nine thousand pounds short',
               ok: true,
-              why: 'He puts a price on it at the end, which is why *read it back '
-                + 'every time* is not fussiness.'
+              why: 'He puts a price on it at the end, which is why “read it back '
+                + 'every time” is not fussiness.'
             },
             {
               t: 'one lorry',
@@ -251,6 +251,21 @@ PBE1.page('u2-s05', {
             evidence: 'the last line of the dialogue'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '2.5.2',
+      bookRef: 'Unit 2 · 2.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the digits.',
+      text: '<b>1</b> sixty [[1]] &nbsp; <b>2</b> sixteen [[2]] &nbsp; <b>3</b> '
+      + 'fifteen [[3]] &nbsp; <b>4</b> fifty [[4]] &nbsp; <b>5</b> ninety [[5]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -273,7 +288,7 @@ PBE1.page('u2-s05', {
             model: 'Sixty',
             minWords: 1,
             rows: 2,
-            hint: 'The one Fadi confirms digit by digit: *six zero*. Write it as a word.'
+            hint: 'The one Fadi confirms digit by digit: <i>six zero</i>. Write it as a word.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

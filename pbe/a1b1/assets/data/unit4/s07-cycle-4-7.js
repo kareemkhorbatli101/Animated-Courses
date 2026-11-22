@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u4-s07', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 4 · 4.7', part: '4.7',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 4 · 4.7', part: '4.7',
           section: '7', lesson: 'Review: the shelf map', title: 'Review: the shelf map' },
   objective: 'Review: the shelf map — and one problem to talk about together',
   study: {
@@ -203,7 +203,7 @@ PBE1.page('u4-s07', {
             options: [{
               t: 'six',
               ok: true,
-              why: '*The packets are not there. Six packets.*'
+              why: '“The packets are not there. Six packets.”'
             },
             {
               t: 'two',
@@ -223,7 +223,7 @@ PBE1.page('u4-s07', {
             options: [{
               t: 'the packets went a long time ago',
               ok: true,
-              why: '*Thick dust. They went a long time ago.* - the opposite '
+              why: '“Thick dust. They went a long time ago.” - the opposite '
                 + 'reading from the clean square earlier in the unit.'
             },
             {
@@ -261,8 +261,8 @@ PBE1.page('u4-s07', {
               'yasser',
               'trusts'],
             need: 1,
-            hint: 'The dialogue does not give a number. Say what it *does* tell '
-              + 'you, which is about how far Abu Yasser trusts him.'
+            hint: 'The dialogue does not give a number. Say what it <i>does</i> '
+              + 'tell you, which is about how far Abu Yasser trusts him.'
           },
       {
             q: 'Why is his place for the long rolls better?',

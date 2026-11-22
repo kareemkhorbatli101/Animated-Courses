@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u1-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 1 · 1.3', part: '1.3',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 1 · 1.3', part: '1.3',
           section: '3', lesson: 'This is the list. That is my name.', title: 'This is the list. That is my name.' },
   objective: 'find your name on a list',
   study: {
@@ -123,7 +123,7 @@ PBE1.page('u1-s03', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '1.3.1',
       bookRef: 'Unit 1 · 1.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -141,15 +141,14 @@ PBE1.page('u1-s03', {
       {
             q: 'Look at a list on the wall. Where is your name — near the top or '
               + 'near the bottom?',
-            minWords: 6,
+            model: 'Open. Most learners do not know where their own name is on any '
+              + 'list at their work',
+            minWords: 5,
             rows: 2,
             hint: 'Near the top or near the bottom is all that is asked - then add '
               + 'why, if you know. Lists are usually ordered by something.'
           }],
-      ideas: ['Grammar — this and that'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -220,8 +219,8 @@ PBE1.page('u1-s03', {
             {
               t: 'number four',
               ok: false,
-              why: 'Four is in the dialogue as the end of his shift, *seven to '
-                + 'four*. It is a time, not a line on the list.'
+              why: 'Four is in the dialogue as the end of his shift, “seven to '
+                + 'four”. It is a time, not a line on the list.'
             }],
             evidence: 'the line where Abu Yasser points at the list'
           },
@@ -238,17 +237,33 @@ PBE1.page('u1-s03', {
               t: 'once a week, on Monday',
               ok: false,
               why: 'It changes every week, so that is the right word in the wrong '
-                + 'place: the change is weekly, the *reading* is daily.'
+                + 'place: the change is weekly, the “reading” is daily.'
             },
             {
               t: 'only when Abu Yasser tells him to',
               ok: false,
-              why: 'The opposite: his last words in the scene are *do not ask me*. '
+              why: 'The opposite: his last words in the scene are “do not ask me”. '
                 + 'Reading it is Ammar\'s own job.'
             }],
             evidence: 'the last three lines, where Abu Yasser says what to do and what not to do'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '1.3.2',
+      bookRef: 'Unit 1 · 1.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write this, that, these or those.',
+      text: '<b>1</b> [[1]] is the shift list. (here) &nbsp; <b>2</b> [[2]] is the '
+      + 'gate. (far) &nbsp; <b>3</b> [[3]] are my boxes. (here) &nbsp; <b>4</b> '
+      + '[[4]] are your pallets. (far)',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -465,7 +480,7 @@ PBE1.page('u1-s03', {
             model: 'Number 7',
             minWords: 1,
             rows: 2,
-            hint: 'One number, from the line where Abu Yasser points: *that is you*.'
+            hint: 'One number, from the line where Abu Yasser points: <i>that is you</i>.'
           },
       {
             q: 'Who is on the afternoon shift?',

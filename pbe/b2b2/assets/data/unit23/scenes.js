@@ -650,6 +650,47 @@ PBE8.scene('u23-23-7', {
   ]
 });
 
+PBE8.scene('u23-23-7-pair', {
+  set: 'pressdesk',
+  arr: 0,
+  cast: {
+    nour: { rig: 'f-20s-a', name: 'Nour', voice: 'en-US-AriaNeural', shirt: '#b8527a', shirt2: '#95415f',
+      full: true, scale: 0.62, bottom: 30, at: [0.20, 0.62],
+      pose: 'rest' },
+    tarabishi: { rig: 'm-50s-b', name: 'Mr Tarabishi', voice: 'en-NZ-MitchellNeural', shirt: '#7a5a3f', shirt2: '#604832',
+      full: true, scale: 0.62, bottom: 30, at: [0.70, 0.62],
+      pose: 'rest' }
+  },
+  lines: [
+    { who: 'nour', cam: { shot: 'wide' },
+      en: 'The association\'s submission has four points. We can sign three of them.' },
+    { who: 'tarabishi', cam: { shot: 'mid' },
+      en: 'The word in the draft is united. Four signatures under four points.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'If I sign and stay silent on the fourth, in a year I will have '
+            + 'nothing to point at.' },
+    { who: 'tarabishi', cam: { shot: 'mid' },
+      en: 'And a signatory who is silent is read as agreeing. That is how the '
+            + 'Directorate will read it.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'Hamdan will not argue for a transition that disadvantages them, '
+            + 'and they are right not to.' },
+    { who: 'tarabishi', cam: { shot: 'mid' },
+      en: 'Then the submission says so on its face. Paragraph two carries the '
+            + 'three points, and the difference goes in an annex.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'Annex B for us and Annex C for Hamdan. The difference is visible '
+            + 'to anybody who reads it.' },
+    { who: 'tarabishi', cam: { shot: 'mid' },
+      en: 'I give up the word united. The association keeps the only asset it has.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'Which is that its agreements can be taken at face value.' },
+    { who: 'tarabishi', cam: { shot: 'close' },
+      en: 'And I would far rather hear this on a Tuesday than be surprised by '
+            + 'my own member in front of the Directorate.' }
+  ]
+});
+
 PBE8.scene('u23-23-7-b', {
   set: 'pressdesk',
   arr: 0,

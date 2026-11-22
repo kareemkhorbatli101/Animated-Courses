@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u9-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 9 · 9.5', part: '9.5',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 9 · 9.5', part: '9.5',
           section: '5', lesson: 'What happened?', title: 'What happened?' },
   objective: 'ask what happened',
   study: {
@@ -123,7 +123,7 @@ PBE2.page('u9-s05', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '9.5.1',
       bookRef: 'Unit 9 · 9.5 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -140,15 +140,12 @@ PBE2.page('u9-s05', {
       {
             q: 'Read the two questions. Which gets more out of a man? Who broke '
               + 'it? · What happened?',
-            minWords: 6,
+            model: 'What happened? gets more',
+            minWords: 1,
             rows: 2,
             hint: 'One of them makes a man defend himself; the other makes him tell a story.'
           }],
-      ideas: ['Asking about the past',
-      '5 What do you need?'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -198,16 +195,22 @@ PBE2.page('u9-s05', {
             options: [{
               t: 'one',
               ok: true,
-              why: 'one'
+              why: 'Samih. What happened? - and after that Abu Yasser says nothing '
+                + 'until the end.'
             },
             {
               t: 'three',
-              ok: false
+              ok: false,
+              why: 'Three is the number this unit keeps using, for sentences at a '
+                + 'shift change. Count what Abu Yasser asks.'
             },
             {
               t: 'six',
-              ok: false
-            }]
+              ok: false,
+              why: 'Six is in the unit too, as the number Samih tried once. It is '
+                + 'not a count of questions.'
+            }],
+            evidence: 'Abu Yasser\'s first line, and then how long he says nothing'
           },
         {
             q: 'Listen again. What does Abu Yasser do after his first question?',
@@ -251,6 +254,21 @@ PBE2.page('u9-s05', {
             evidence: 'his last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '9.5.2',
+      bookRef: 'Unit 9 · 9.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the question.',
+      text: '<b>1</b> You want the whole story. [[1]]? &nbsp; <b>2</b> You want the '
+      + 'time. [[2]]? &nbsp; <b>3</b> You want yes or no about the count. [[3]]?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

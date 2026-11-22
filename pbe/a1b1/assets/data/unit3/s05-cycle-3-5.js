@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u3-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 3 · 3.5', part: '3.5',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 3 · 3.5', part: '3.5',
           section: '5', lesson: 'Can I swap Thursday?', title: 'Can I swap Thursday?' },
   objective: 'ask about the shift and ask to swap',
   study: {
@@ -124,7 +124,7 @@ PBE1.page('u3-s05', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '3.5.1',
       bookRef: 'Unit 3 · 3.5 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -135,19 +135,18 @@ PBE1.page('u3-s05', {
             minWords: 6,
             rows: 2,
             hint: 'Ask, do not announce - and name the day. Look at how Ammar '
-              + 'opens: a question with *can I*, then the reason.'
+              + 'opens: a question with <i>can I</i>, then the reason.'
           },
       {
             q: 'Read the two lines. Which one is better at work? I am not coming '
               + 'on Thursday · Can I swap Thursday with Samih?',
-            minWords: 6,
+            model: 'Can I swap Thursday with Samih? is better',
+            minWords: 2,
             rows: 2,
             hint: 'One of them leaves a hole in the shift and one of them fills it. '
               + 'Which one gives the supervisor something to say yes to?'
           }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -211,7 +210,7 @@ PBE1.page('u3-s05', {
             options: [{
               t: 'Samih',
               ok: true,
-              why: '*With Samih. He is off on Thursday.* - which is what makes the '
+              why: '“With Samih. He is off on Thursday.” - which is what makes the '
                 + 'swap possible at all.'
             },
             {
@@ -224,16 +223,16 @@ PBE1.page('u3-s05', {
             {
               t: 'his brother',
               ok: false,
-              why: 'His brother is the *reason* for the swap: he is in hospital on Thursday.'
+              why: 'His brother is the “reason” for the swap: he is in hospital on Thursday.'
             }],
-            evidence: 'Ammar\'s answer to *Swap with who?*'
+            evidence: 'Ammar\'s answer to “Swap with who?”'
           },
         {
             q: 'What must Ammar do first, and in what order?',
             options: [{
               t: 'ask Samih, then come and tell Abu Yasser',
               ok: true,
-              why: '*Then ask Samih first. Not me* - and if Samih says yes, then '
+              why: '“Then ask Samih first. Not me” - and if Samih says yes, then '
                 + 'come back and it goes on the board.'
             },
             {
@@ -250,6 +249,22 @@ PBE1.page('u3-s05', {
             evidence: 'Abu Yasser\'s two answers near the end'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '3.5.2',
+      bookRef: 'Unit 3 · 3.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the question.',
+      text: '<b>1</b> You want the day of the count. [[1]]? &nbsp; <b>2</b> You want '
+      + 'to change Friday. [[2]]? &nbsp; <b>3</b> You do not know who decides. '
+      + '[[3]]?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

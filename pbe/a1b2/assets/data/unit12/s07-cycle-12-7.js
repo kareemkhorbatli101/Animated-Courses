@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u12-s07', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 12 · 12.7', part: '12.7',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 12 · 12.7', part: '12.7',
           section: '7', lesson: 'Review: the note that saved a morning', title: 'Review: the note that saved a morning' },
   objective: 'Review: the note that saved a morning — and one problem to talk about together',
   study: {
@@ -181,17 +181,20 @@ PBE2.page('u12-s07', {
             q: 'Books closed. Listen. What did the note save?',
             options: [{
               t: 'ten minutes',
-              ok: false
+              ok: false,
+              why: 'Minutes are what the other scenes count - four minutes, twenty minutes.'
             },
             {
               t: 'a morning',
               ok: true,
-              why: 'a morning'
+              why: 'Nour says it saved us a morning, and row four was done by seven.'
             },
             {
               t: 'a customer',
-              ok: false
-            }]
+              ok: false,
+              why: 'No customer is in this scene.'
+            }],
+            evidence: 'Nour\'s first line, and the time row four was finished'
           },
         {
             q: 'Listen again. Who read the note, and what did he do with it?',

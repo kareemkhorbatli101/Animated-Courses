@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u5-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 5 · 5.3', part: '5.3',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 5 · 5.3', part: '5.3',
           section: '3', lesson: 'Twelve boxes, not twelve', title: 'Twelve boxes, not twelve' },
   objective: 'read a quantity and its unit',
   study: {
@@ -211,7 +211,7 @@ PBE1.page('u5-s03', {
             options: [{
               t: 'four',
               ok: true,
-              why: '*Three pallets, four boxes on each* - which is where the '
+              why: '“Three pallets, four boxes on each” - which is where the '
                 + 'twelve comes from.'
             },
             {
@@ -231,7 +231,7 @@ PBE1.page('u5-s03', {
             options: [{
               t: 'because he is new, so the paper has to say it',
               ok: true,
-              why: '*I am new. I do not know it is boxes.* A paper that only works '
+              why: '“I am new. I do not know it is boxes.” A paper that only works '
                 + 'for the people who already know is not a paper.'
             },
             {
@@ -248,6 +248,22 @@ PBE1.page('u5-s03', {
             evidence: 'Ammar\'s last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '5.3.2',
+      bookRef: 'Unit 5 · 5.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the quantity.',
+      text: '<b>1</b> three _(pallets)_ = [[1]] &nbsp; <b>2</b> one _(roll)_ = [[2]] '
+      + '&nbsp; <b>3</b> two hundred _(packets)_ = [[3]] &nbsp; <b>4</b> twelve '
+      + '_(box)_ = [[4]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

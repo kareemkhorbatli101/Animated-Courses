@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u3-s07', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 3 · 3.7', part: '3.7',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 3 · 3.7', part: '3.7',
           section: '7', lesson: 'Review: the shift board', title: 'Review: the shift board' },
   objective: 'Review: the shift board — and one problem to talk about together',
   study: {
@@ -203,7 +203,7 @@ PBE1.page('u3-s07', {
             options: [{
               t: 'Tuesday - and Ammar takes his Saturday',
               ok: true,
-              why: '*I take your Tuesday, you take my Saturday.* A swap is two '
+              why: '“I take your Tuesday, you take my Saturday.” A swap is two '
                 + 'days moving, not one.'
             },
             {
@@ -216,7 +216,7 @@ PBE1.page('u3-s07', {
               t: 'Saturday',
               ok: false,
               why: 'Saturday is the day Ammar takes, not the one Samih takes. '
-                + 'Listen for *your* and *my*.'
+                + 'Listen for “your” and “my”.'
             }],
             evidence: 'Samih\'s line where he agrees'
           },
@@ -225,7 +225,7 @@ PBE1.page('u3-s07', {
             options: [{
               t: 'tell Abu Yasser about the swap',
               ok: true,
-              why: '*Tell him today. Not Monday.* A swap nobody has written down '
+              why: '“Tell him today. Not Monday.” A swap nobody has written down '
                 + 'is not a swap.'
             },
             {
@@ -273,7 +273,7 @@ PBE1.page('u3-s07', {
               'always',
               'asks'],
             need: 1,
-            hint: 'Two reasons, joined by *and* - one about asking, one about '
+            hint: 'Two reasons, joined by <i>and</i> - one about asking, one about '
               + 'turning up. Both are needed.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'

@@ -8,6 +8,8 @@ PBE1.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write the word.':
+    'اكتب الكلمة.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs. One asks. One answers. Then change places.':
@@ -32,6 +34,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: ومن غيرك يعرف مكانه؟ ثم اكتب الجواب.',
   'Read three papers. How many things does only one person know the place of? Count them on the board.':
     'اقرأ ثلاث ورقات. كم شيئًا لا يعرف مكانه إلا شخص واحد؟ عُدّوها على اللوح.',
+  'Write the number or the word.':
+    'اكتب العدد أو الكلمة.',
   'Work in pairs. One gives an address. One says it back. Then change places.':
     'اعملا في ثنائيات. أحدكما يعطي عنوانًا. والآخر يعيده. ثم تبادلا الدورين.',
   'Draw your own store in the box. Put four things in it with an address. Write it.':
@@ -50,6 +54,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: أي رف تستخدمه أكثر؟ ثم اكتب الجواب.',
   'Read three papers. Is the heavy shelf the bottom one in every store? Count them on the board.':
     'اقرأ ثلاث ورقات. هل الرف الثقيل هو الأسفل في كل مستودع؟ عُدّوها على اللوح.',
+  'Write is or are.':
+    'اكتب is أو are.',
   'Ask your partner where four things at their work are. Write it.':
     'اسأل زميلك عن أماكن أربعة أشياء في عمله. واكتبها.',
   'Tell the class: I asked where the was. It is .':
@@ -66,6 +72,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: هل غيّر أحدٌ الورقة؟ ثم اكتب الجواب.',
   'Read three papers. In how many was the paper changed? Count them on the board.':
     'اقرأ ثلاث ورقات. في كم واحدة منها غُيّرت الورقة؟ عُدّوها على اللوح.',
+  'Write the line.':
+    'اكتب السطر.',
   'Work in pairs. One reports. One asks. Then change places.':
     'اعملا في ثنائيات. أحدكما يبلّغ. والآخر يسأل. ثم تبادلا الدورين.',
   'Think of two things that went missing at your work. Write it.':
@@ -84,6 +92,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: هل عاد؟ ثم اكتب الجواب.',
   'Read three papers. In how many did the thing come back the same day? Count them on the board.':
     'اقرأ ثلاث ورقات. في كم واحدة منها عاد الشيء في اليوم نفسه؟ عُدّوها على اللوح.',
+  'Write the order.':
+    'اكتب الأمر.',
   'Work in pairs. One is the driver. One gives directions. Then change places.':
     'اعملا في ثنائيات. أحدكما السائق. والآخر يدلّه على الطريق. ثم تبادلا الدورين.',
   'Tell your partner how to walk from the gate of your work to where you stand. Write it.':
@@ -102,6 +112,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: هل أخطأ فيها أحد من قبل؟ ثم اكتب الجواب.',
   'Read three papers. How many name a door that nobody should use? Count them on the board.':
     'اقرأ ثلاث ورقات. كم واحدة منها تسمّي بابًا لا ينبغي لأحد أن يستخدمه؟ عُدّوها على اللوح.',
+  'Write can or cannot.':
+    'اكتب can أو cannot.',
   'Work in pairs. One gives a job. One says what they can and cannot do. Then change places.':
     'اعملا في ثنائيات. أحدكما يعطي عملًا. والآخر يقول ما يستطيع وما لا يستطيع. ثم تبادلا الدورين.',
   'Say three things you can do at your work and three you cannot. Write it.':

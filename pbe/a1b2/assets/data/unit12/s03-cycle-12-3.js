@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u12-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 12 · 12.3', part: '12.3',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 12 · 12.3', part: '12.3',
           section: '3', lesson: 'I did rows one to three', title: 'I did rows one to three' },
   objective: 'say what you did',
   study: {
@@ -122,7 +122,7 @@ PBE2.page('u12-s03', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '12.3.1',
       bookRef: 'Unit 12 · 12.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -138,15 +138,13 @@ PBE2.page('u12-s03', {
       {
             q: 'Read the two lines. Which does the next man believe? I did the '
               + 'shelves · I did rows one to three',
-            minWords: 6,
+            model: 'I did rows one to three',
+            minWords: 2,
             rows: 2,
             hint: 'One of them can be checked in a minute. The other has to be '
               + 'checked from the beginning.'
           }],
-      ideas: ['Saying what you did'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -193,17 +191,21 @@ PBE2.page('u12-s03', {
             q: 'Books closed. Listen. What is wrong with Ammar\'s first version?',
             options: [{
               t: 'it is too short',
-              ok: false
+              ok: false,
+              why: 'Length is not the problem. Six more words would fix it.'
             },
             {
               t: 'the shelves could mean anything',
               ok: true,
-              why: 'the shelves could mean anything'
+              why: 'There are sixteen shelves, so I did the shelves makes Samih '
+                + 'check all sixteen.'
             },
             {
               t: 'it has no verb',
-              ok: false
-            }]
+              ok: false,
+              why: 'It has one: did.'
+            }],
+            evidence: 'Samih\'s line about four rows and four shelves'
           },
         {
             q: 'Listen again. How many rows and shelves are there?',
@@ -245,6 +247,21 @@ PBE2.page('u12-s03', {
             evidence: 'his line about six words'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '12.3.2',
+      bookRef: 'Unit 12 · 12.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Make it exact.',
+      text: '<b>1</b> I did the shelves. → [[1]]. &nbsp; <b>2</b> I counted some of '
+      + 'it. → [[2]]. &nbsp; <b>3</b> I finished most of it. → [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

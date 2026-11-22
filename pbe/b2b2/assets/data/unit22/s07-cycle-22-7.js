@@ -317,51 +317,40 @@ PBE8.page('u22-s07', {
     },
     {
       id: 'c4',
-      kind: 'model',
       ref: '22.7.3',
       bookRef: 'Unit 22 · 22.7 · Lesson A · Speaking · Practise',
-      type: 'discuss',
+      type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. A has softened a document; B works the five steps. ⚠ In order.',
-      passage: {
-        title: 'From the book',
-        html: '<table class=\'bk\'><tr><th>B asks</th><th>A '
-          + 'answers</th></tr><tr><td>⚠ <b>Is your later draft smaller than your '
-          + 'first? Which sentences came out?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>Why did they come out? '
-          + 'What other document were you making it agree with?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>What question does your '
-          + 'document answer?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>What question does the '
-          + 'other one answer?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>Then who signs the '
-          + 'paragraph saying they are not supposed to agree?</b></td><td><span '
-          + 'class="blank"></span></td></tr></table><table '
-          + 'class=\'bk\'><tr><th>Role card 1 — the file should be '
-          + 'consistent</th><th>Role card 2 — I will just leave both '
-          + 'out</th></tr><tr><td>⚠ <b>A argues that two documents in a personnel '
-          + 'file ought not to contradict each other.</b> ⚠ <b>B asks what each '
-          + 'one is answering.</b> ⚠ <b>B\'s point: consistency between answers '
-          + 'to different questions is not a virtue, it is a coincidence</b> — '
-          + '<b>and manufacturing it means falsifying whichever document is '
-          + 'easier to soften, which is always the one about the person rather '
-          + 'than the one about the decision.</b></td><td>⚠ <b>A proposes '
-          + 'removing the two strong sentences AND the April reasoning, so '
-          + 'neither document says anything.</b> ⚠ <b>B asks what a reader in a '
-          + 'year then has.</b> ⚠ <b>B\'s point: two uninformative documents are '
-          + 'worse than two in tension</b> — <b>because the tension at least '
-          + 'contains the truth, and the reader who finds nothing concludes '
-          + 'something and nobody can correct them.</b></td></tr></table>'
-      },
-      questions: [{
-            q: 'Write what you said and what you heard.',
-            model: 'The five steps, with a sample run',
-            minWords: 2,
-            rows: 2,
-            hint: 'Both sides: your lines, then the other person\'s. Alone, the '
-              + 'engine is the other person - write what it said.'
-          }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      scene: 'u22-22-7-pair',
+      roles: [{
+          who: 'a',
+          label: 'A'
+        },
+      {
+          who: 'b',
+          label: 'B'
+        }],
+      minWords: 8,
+      notePlaceholder: 'Write two lines you said in the role-play…',
+      table: {
+        title: 'The cards the book gives you',
+        head: ['B asks',
+        'A answers'],
+        rows: [['⚠ <b>Is your later draft smaller than your first? Which sentences '
+            + 'came out?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>Why did they come out? What other document were you making it '
+            + 'agree with?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>What question does your document answer?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>What question does the other one answer?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>Then who signs the paragraph saying they are not supposed to agree?</b>',
+          '<span class="blank"></span>']]
+      }
     },
     {
       id: 'c5',

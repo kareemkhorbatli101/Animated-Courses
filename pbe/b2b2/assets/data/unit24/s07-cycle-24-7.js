@@ -332,52 +332,38 @@ PBE8.page('u24-s07', {
     },
     {
       id: 'c4',
-      kind: 'model',
       ref: '24.7.3',
       bookRef: 'Unit 24 · 24.7 · Lesson A · Speaking · Practise',
-      type: 'discuss',
+      type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. A wants the generous sentence; B works the four moves. ⚠ In order.',
-      passage: {
-        title: 'From the book',
-        html: '<table class=\'bk\'><tr><th>B asks</th><th>A '
-          + 'answers</th></tr><tr><td>⚠ <b>What is the certificate, exactly? What '
-          + 'did somebody do, and when?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>What does it evidence? '
-          + 'Three things, as acts.</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>What does it not '
-          + 'evidence? Say it in the reference.</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>What would evidence the '
-          + 'thing you want to claim?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>And whose decision is '
-          + 'the final wording?</b></td><td><span '
-          + 'class="blank"></span></td></tr></table><table '
-          + 'class=\'bk\'><tr><th>Role card 1 — the warm sentence is '
-          + 'kindness</th><th>Role card 2 — then the certificate is '
-          + 'worthless</th></tr><tr><td>⚠ <b>A believes the generous sentence is '
-          + 'a kindness that costs nothing.</b> ⚠ <b>B asks when the reader will '
-          + 'test it.</b> ⚠ <b>B\'s point: in the first twenty minutes, and it '
-          + 'will fail, and it will take the three true things down with it</b> — '
-          + '<b>so the kindness is spent on the writer\'s comfort and charged to '
-          + 'the candidate, which is 22.7\'s softened draft with somebody else '
-          + 'paying.</b></td><td>⚠ <b>A swings the other way and says a '
-          + 'certificate that proves none of this is worth nothing.</b> ⚠ <b>B '
-          + 'asks how many people in the office could read a 2,500-word '
-          + 'regulation in an hour and write 130 words a bank would act on.</b> ⚠ '
-          + '<b>B\'s point: very few, and the certificate evidences exactly that, '
-          + 'on a stated day</b> — <b>so the honest position is neither the warm '
-          + 'sentence nor the dismissal, but the specific '
-          + 'list.</b></td></tr></table>'
-      },
-      questions: [{
-            q: 'Write what you said and what you heard.',
-            model: 'The four moves, with a sample run',
-            minWords: 2,
-            rows: 2,
-            hint: 'Both sides: your lines, then the other person\'s. Alone, the '
-              + 'engine is the other person - write what it said.'
-          }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      scene: 'u24-24-7-pair',
+      roles: [{
+          who: 'a',
+          label: 'A'
+        },
+      {
+          who: 'b',
+          label: 'B'
+        }],
+      minWords: 8,
+      notePlaceholder: 'Write two lines you said in the role-play…',
+      table: {
+        title: 'The cards the book gives you',
+        head: ['B asks',
+        'A answers'],
+        rows: [['⚠ <b>What is the certificate, exactly? What did somebody do, and when?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>What does it evidence? Three things, as acts.</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>What does it not evidence? Say it in the reference.</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>What would evidence the thing you want to claim?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>And whose decision is the final wording?</b>',
+          '<span class="blank"></span>']]
+      }
     },
     {
       id: 'c5',

@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u8-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 8 · 8.5', part: '8.5',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 8 · 8.5', part: '8.5',
           section: '5', lesson: 'Do you want a hand?', title: 'Do you want a hand?' },
   objective: 'offer to help before you are asked',
   study: {
@@ -124,7 +124,7 @@ PBE2.page('u8-s05', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '8.5.1',
       bookRef: 'Unit 8 · 8.5 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -141,14 +141,13 @@ PBE2.page('u8-s05', {
       {
             q: 'Read the two lines. Which is easier to say no to? I will help '
               + 'you · Do you want a hand?',
-            minWords: 6,
+            model: 'Do you want a hand? is easier to refuse',
+            minWords: 3,
             rows: 2,
             hint: 'One of them has already decided. Think about the man who does '
               + 'not want help but does not want to be rude.'
           }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -196,17 +195,22 @@ PBE2.page('u8-s05', {
             q: 'Books closed. Listen. Does Fouad say yes?',
             options: [{
               t: 'yes',
-              ok: false
+              ok: false,
+              why: 'He does accept help, so yes is half of it. The question is '
+                + 'what he accepts it for.'
             },
             {
               t: 'no',
-              ok: false
+              ok: false,
+              why: 'His first word is no - but he does not stop there.'
             },
             {
               t: 'yes, but not for the pallet',
               ok: true,
-              why: 'yes, but not for the pallet'
-            }]
+              why: 'No for the pallet, because he has the truck. Yes for the door, '
+                + 'which he calls the hard part.'
+            }],
+            evidence: 'Fouad\'s first word, and then the line about the door'
           },
         {
             q: 'Listen again. What does Fouad say the hard part is?',
@@ -250,6 +254,22 @@ PBE2.page('u8-s05', {
             evidence: 'the last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '8.5.2',
+      bookRef: 'Unit 8 · 8.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the offer.',
+      text: '<b>1</b> Somebody is carrying something. [[1]]? &nbsp; <b>2</b> You know '
+      + 'what would help. [[2]]? &nbsp; <b>3</b> You do not know what would help. '
+      + '[[3]]?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

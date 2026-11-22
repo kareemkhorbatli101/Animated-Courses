@@ -8,6 +8,8 @@ PBE2.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write the greeting.':
+    'اكتب التحية.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs. One is the customer. One greets. Ten times each, and the tenth must sound like the first.':
@@ -32,6 +34,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: أي زبون هو الأصعب؟ واكتب الجواب.',
   'Read three papers. How many customers does this class serve in a day altogether? Add it up on the board.':
     'اقرأ ثلاث أوراق. كم زبونًا يخدم هذا الصف في اليوم إجمالًا؟ اجمعها على اللوح.',
+  'Write the line.':
+    'اكتب السطر.',
   'Work in pairs. One orders two things. One reads the order back. Then change places.':
     'اعملا في ثنائيات. واحد يطلب شيئين، والآخر يعيد قراءة الطلب. ثم تبادلا الأدوار.',
   'Two pairs perform for the class — books closed.':
@@ -52,6 +56,8 @@ PBE2.arabic({
     'اقرأ ما كتبه زميلك. واسأله: هل أعدتَ قراءتها؟ ثم اكتب الجواب.',
   'Read three papers. In how many was the order read back? Count them. Then count how many of those went wrong.':
     'اقرأ ثلاث أوراق. في كم منها أُعيدت قراءة الطلب؟ عُدّها. ثم عُدّ كم منها أخطأ رغم ذلك.',
+  'Make it a price.':
+    'اجعلها سعرًا.',
   'Work in pairs. One asks a price. One answers with all three parts. Then change places.':
     'اعملا في ثنائيات. واحد يسأل عن سعر، والآخر يجيب بالأجزاء الثلاثة كلها. ثم تبادلا الأدوار.',
   'Six prices from your work. Write it with all three parts.':
@@ -70,6 +76,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل القائمة التي على الحائط هي الحقيقية؟ واكتب الجواب.',
   'Read three papers. In how many is the price list on the wall out of date? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها قائمة الأسعار التي على الحائط قديمة؟ عُدّها على اللوح.',
+  'Write how many or how much.':
+    'اكتب how many أو how much.',
   'Work in pairs. One orders two things. One adds up out loud. Then change places.':
     'اعملا في ثنائيات. واحد يطلب شيئين، والآخر يجمع بصوت مسموع. ثم تبادلا الأدوار.',
   'Four two-line orders from your work. Write it and add each one up out loud to your partner.':
@@ -106,6 +114,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل كان عليه اسم؟ واكتب الجواب.',
   'Read three papers. In how many was there a name on the receipt? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها كان على الإيصال اسم؟ عُدّها على اللوح.',
+  'Write the close.':
+    'اكتب عبارة الختام.',
   'Work in pairs. One closes with a day and news. One leaves. Then change places.':
     'اعملا في ثنائيات. واحد يختم بذكر يوم وخبر، والآخر يغادر. ثم تبادلا الأدوار.',
   'Four regular customers. Write it. Which day do they come, and what news could you give them?':

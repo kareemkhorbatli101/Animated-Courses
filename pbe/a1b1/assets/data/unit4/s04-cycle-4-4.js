@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u4-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 4 · 4.4', part: '4.4',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 4 · 4.4', part: '4.4',
           section: '4', lesson: 'It is not there. It is gone.', title: 'It is not there. It is gone.' },
   objective: 'say it is not there',
   study: {
@@ -123,7 +123,7 @@ PBE1.page('u4-s04', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '4.4.1',
       bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -134,22 +134,19 @@ PBE1.page('u4-s04', {
               + 'in English.',
             minWords: 6,
             rows: 2,
-            hint: 'Say where you looked and what you saw there. *I cannot find it* '
-              + 'tells the supervisor nothing he can use.'
+            hint: 'Say where you looked and what you saw there. <i>I cannot find '
+              + 'it</i> tells the supervisor nothing he can use.'
           },
       {
             q: 'Read the two lines. Which tells the supervisor more? I cannot '
               + 'find it · It is not in row two. The space is empty.',
-            minWords: 6,
+            model: 'The second line tells the supervisor more',
+            minWords: 2,
             rows: 2,
             hint: 'One of them says where you have already looked. That saves '
               + 'somebody else the same walk.'
           }],
-      ideas: ['Saying a thing is not there',
-      'What: four cartons of labels'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -214,7 +211,7 @@ PBE1.page('u4-s04', {
             options: [{
               t: 'four',
               ok: true,
-              why: '*Row three, shelf two. The four cartons are not there.*'
+              why: '“Row three, shelf two. The four cartons are not there.”'
             },
             {
               t: 'three',
@@ -246,11 +243,26 @@ PBE1.page('u4-s04', {
             {
               t: 'the counter told him so',
               ok: false,
-              why: 'He says he will *ask* the counter first - which means he has not yet.'
+              why: 'He says he will “ask” the counter first - which means he has not yet.'
             }],
             evidence: 'the exchange about dust'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '4.4.2',
+      bookRef: 'Unit 4 · 4.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the line.',
+      text: '<b>1</b> One carton is missing. [[1]]. &nbsp; <b>2</b> The shelf is '
+      + 'empty. [[2]]. &nbsp; <b>3</b> You do not know. [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

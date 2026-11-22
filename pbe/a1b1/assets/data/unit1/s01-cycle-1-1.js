@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u1-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 1 · 1.1', part: '1.1',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 1 · 1.1', part: '1.1',
           section: '1', lesson: 'My name is Ammar. I am the new storeman.', title: 'My name is Ammar. I am the new storeman.' },
   objective: 'say your name and your job',
   study: {
@@ -223,14 +223,14 @@ PBE1.page('u1-s01', {
             {
               t: 'ten past seven',
               ok: false,
-              why: 'The same two words in the other order. *To* seven is before '
-                + 'seven; *past* seven is after it - and Abu Raed says Ammar is '
+              why: 'The same two words in the other order. “To” seven is before '
+                + 'seven; “past” seven is after it - and Abu Raed says Ammar is '
                 + 'early.'
             },
             {
               t: 'seven o\'clock exactly',
               ok: false,
-              why: 'Seven is the hour the shift starts, which is why *early* means '
+              why: 'Seven is the hour the shift starts, which is why “early” means '
                 + 'before it. The clock in this scene does not say seven.'
             }],
             evidence: 'Abu Raed\'s last long line, where he reads the clock'
@@ -246,18 +246,34 @@ PBE1.page('u1-s01', {
             {
               t: 'that Ammar is the new storeman',
               ok: false,
-              why: 'He does welcome the job - *the new storeman, welcome* - but '
-                + '*that is good* comes later, after something else.'
+              why: 'He does welcome the job - “the new storeman, welcome” - but '
+                + '“that is good” comes later, after something else.'
             },
             {
               t: 'that Ammar said his name clearly',
               ok: false,
               why: 'The name is asked for and given at the start. Listen to what '
-                + 'Abu Raed has just said when the words *that is good* arrive.'
+                + 'Abu Raed has just said when the words “that is good” arrive.'
             }],
             evidence: 'the line immediately before he says it'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '1.1.2',
+      bookRef: 'Unit 1 · 1.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write am, are or am not.',
+      text: '<b>1</b> I [[1]] Ammar. &nbsp; <b>2</b> You [[2]] the supervisor. &nbsp; '
+      + '<b>3</b> I [[3]] the driver. I am the storeman. &nbsp; <b>4</b> [[4]] '
+      + 'you new? — Yes, I [[4b]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -475,7 +491,7 @@ PBE1.page('u1-s01', {
             model: 'He is a storeman',
             minWords: 1,
             rows: 2,
-            hint: 'Two words. It is the answer he gives to the question *and your job?*'
+            hint: 'Two words. It is the answer he gives to the question <i>and your job?</i>'
           },
       {
             q: 'What time does Fadi come in?',
@@ -483,7 +499,7 @@ PBE1.page('u1-s01', {
             minWords: 1,
             rows: 2,
             hint: 'The gate book, not the dialogue: find Fadi\'s row and read '
-              + 'across to the *in* column.'
+              + 'across to the <i>in</i> column.'
           },
       {
             q: 'Who is out at 4.05?',
@@ -493,9 +509,9 @@ PBE1.page('u1-s01', {
             keys: ['ammar',
               'zreik'],
             need: 1,
-            hint: 'Read down the *out* column of the gate book for 4.05, then read '
-              + 'back along that row to the name. Give both names as they are '
-              + 'written.'
+            hint: 'Read down the <i>out</i> column of the gate book for 4.05, then '
+              + 'read back along that row to the name. Give both names as they '
+              + 'are written.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

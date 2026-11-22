@@ -622,6 +622,47 @@ PBE8.scene('u19-19-7', {
   ]
 });
 
+PBE8.scene('u19-19-7-pair', {
+  set: 'tribunal',
+  arr: 0,
+  cast: {
+    nahas: { rig: 'f-50s-a', name: 'Ms Nahas', voice: 'en-ZA-LeahNeural', shirt: '#50607a', shirt2: '#3f4c61',
+      full: true, scale: 0.62, bottom: 30, at: [0.19, 0.62],
+      pose: 'rest' },
+    ayoub: { rig: 'm-50s-a', name: 'Mr Ayoub', voice: 'en-CA-LiamNeural', shirt: '#3f5668', shirt2: '#32454f',
+      full: true, scale: 0.62, bottom: 30, at: [0.73, 0.62],
+      pose: 'rest' }
+  },
+  lines: [
+    { who: 'nahas', cam: { shot: 'wide' },
+      en: 'Your draft statement says we agreed the revised figures in May. '
+            + 'Your note of September 2024 says I think we agreed.' },
+    { who: 'ayoub', cam: { shot: 'mid' },
+      en: 'Both sentences are mine. I am more certain now than I was then.' },
+    { who: 'nahas', cam: { shot: 'mid' },
+      en: 'In cross-examination that gap has two explanations. Your memory '
+            + 'improved, which nobody believes, or the 2024 note was careless.' },
+    { who: 'ayoub', cam: { shot: 'mid' },
+      en: 'And I am your principal witness on two issues.' },
+    { who: 'nahas', cam: { shot: 'mid' },
+      en: 'You are. I am telling you what the gap does, not what it proves.' },
+    { who: 'ayoub', cam: { shot: 'mid' },
+      en: 'Nobody has asked me what changed. In between I read their own June '
+            + 'stock sheets, drawn to the revised figures.' },
+    { who: 'nahas', cam: { shot: 'mid' },
+      en: 'You saw a document, then. On what date?' },
+    { who: 'ayoub', cam: { shot: 'mid' },
+      en: 'The eleventh of March, when disclosure arrived. That is not my '
+            + 'memory improving. That is me finding out I was right.' },
+    { who: 'nahas', cam: { shot: 'mid' },
+      en: 'Then the statement carries all three: what you wrote in 2024, what '
+            + 'you say now, and the sheets with their date.' },
+    { who: 'ayoub', cam: { shot: 'close' },
+      en: 'I lose the clean sentence. I will sign that one, because it is '
+            + 'true and not because it is safer.' }
+  ]
+});
+
 PBE8.scene('u19-19-7-b', {
   set: 'tribunal',
   arr: 0,

@@ -8,6 +8,8 @@ PBE2.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write the four line headings.':
+    'اكتب عناوين الأسطر الأربعة.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs. One explains the four lines. One asks why four. Then change places.':
@@ -32,6 +34,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل يردّ أحد على ملاحظة يومًا؟ واكتب الجواب.',
   'Read three papers. In how many does anybody ever write back? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها يردّ أحد كتابةً؟ عُدّها على اللوح.',
+  'Write the top line.':
+    'اكتب السطر الأعلى.',
   'Work in pairs. One wrote a note nobody read. One explains why. Then change places.':
     'اعملا في ثنائيات. واحد كتب ملاحظة لم يقرأها أحد، والآخر يشرح لماذا. ثم تبادلا الأدوار.',
   'Four notes you could leave at your work. Write the TOP LINE of each, and say who exactly will read it.':
@@ -50,6 +54,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: من ظننت أنه سيقرؤها؟ واكتب الجواب.',
   'Read three papers. How many unread notes were addressed to nobody in particular? Count them on the board.':
     'اقرأ ثلاث أوراق. كم ملاحظة لم تُقرأ كانت موجّهة إلى لا أحد بعينه؟ عُدّها على اللوح.',
+  'Make it exact.':
+    'اجعلها دقيقة.',
   'Work in pairs. One reads a vague note. One asks what it means. Then change places.':
     'اعملا في ثنائيات. واحد يقرأ ملاحظة غامضة، والآخر يسأل ما معناها. ثم تبادلا الأدوار.',
   'Four things you finished yesterday. Write them vaguely, then exactly. Count the extra words.':
@@ -68,6 +74,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل كان قد أنجزه فعلًا؟ واكتب الجواب.',
   'Read three papers. Add up the minutes this class has spent checking work that was already done. Put the total on the board.':
     'اقرأ ثلاث أوراق. اجمع الدقائق التي أنفقها هذا الصف في التحقق من عمل كان منجزًا أصلًا. واكتب المجموع على اللوح.',
+  'Add the because.':
+    'أضف السبب بـ because.',
   'Work in pairs. One has not done something. One shows why the because helps. Then change places.':
     'اعملا في ثنائيات. واحد لم ينجز شيئًا، والآخر يبيّن لماذا يفيد «لأنّ». ثم تبادلا الأدوار.',
   'Four things you did not finish. Write both halves. Then say what the next person would do differently.':
@@ -86,6 +94,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل انزعج أحد؟ واكتب الجواب.',
   'Read three papers. ⚠ In how many was anybody annoyed about an I did not with a reason on it? Count them. It is usually none.':
     'اقرأ ثلاث أوراق. ⚠ في كم منها انزعج أحد من «لم أفعل» مذكور معها سببها؟ عُدّها. وعادةً لا تكون أي واحدة.',
+  'Write line four.':
+    'اكتب السطر الرابع.',
   'Work in pairs. One asks which to use. One decides and says why. Then change places.':
     'اعملا في ثنائيات. واحد يسأل أيّهما يستعمل، والآخر يقرّر ويقول لماذا. ثم تبادلا الأدوار.',
   'Four line-fours for your own work. Write it. Mark which are please and which are must.':
@@ -104,6 +114,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل كنت ستفعله لو طُلب منك؟ واكتب الجواب.',
   'Read three papers. In how many would the person have done it if asked? Count them. It is nearly all of them.':
     'اقرأ ثلاث أوراق. في كم منها كان الشخص سيفعله لو طُلب منه؟ عُدّها. وهي تقريبًا كلها.',
+  'Do the exercise in the Language box.':
+    'أنجز التمرين في صندوق اللغة.',
   'Work in pairs. One wrote a note with no time. One explains why it matters. Then change places.':
     'اعملا في ثنائيات. واحد كتب ملاحظة بلا وقت، والآخر يشرح لماذا يهمّ ذلك. ثم تبادلا الأدوار.',
   'Four notes you have left or could leave. Write the bottom line of each, with a time.':

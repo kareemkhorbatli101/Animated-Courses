@@ -625,6 +625,47 @@ PBE8.scene('u21-21-7', {
   ]
 });
 
+PBE8.scene('u21-21-7-pair', {
+  set: 'quotetable',
+  arr: 0,
+  cast: {
+    bassel: { rig: 'm-20s-b', name: 'Bassel', voice: 'en-IE-ConnorNeural', shirt: '#4a7f5a', shirt2: '#3a6447',
+      full: true, scale: 0.62, bottom: 30, at: [0.23, 0.62],
+      pose: 'rest' },
+    nadia: { rig: 'f-30s-a', name: 'Nadia', voice: 'en-GB-LibbyNeural', shirt: '#8a5a7a', shirt2: '#6e4861',
+      full: true, scale: 0.62, bottom: 30, at: [0.69, 0.62],
+      pose: 'rest' }
+  },
+  lines: [
+    { who: 'bassel', cam: { shot: 'wide' },
+      en: 'Section five states option C fairly. Stated fairly, it may defeat '
+            + 'my own recommendation.' },
+    { who: 'nadia', cam: { shot: 'mid' },
+      en: 'Then your own paper will have done it. That is what a paper '
+            + 'written properly does.' },
+    { who: 'bassel', cam: { shot: 'mid' },
+      en: 'I could state it narrowly and nobody would notice for a year.' },
+    { who: 'nadia', cam: { shot: 'mid' },
+      en: 'You would notice. A paper written properly cannot be unwritten '
+            + 'once the writer has seen where it leads.' },
+    { who: 'bassel', cam: { shot: 'mid' },
+      en: 'Nour has the largest personal reason to want section five weak.' },
+    { who: 'nadia', cam: { shot: 'mid' },
+      en: 'Which is exactly why she will not touch it, and she says so.' },
+    { who: 'bassel', cam: { shot: 'mid' },
+      en: 'Then there is a fourth option that neither of us wrote. Sixty '
+            + 'square metres, with a written option over the adjoining sixty.' },
+    { who: 'nadia', cam: { shot: 'mid' },
+      en: 'For how long, and at what?' },
+    { who: 'bassel', cam: { shot: 'mid' },
+      en: 'Six months, at about forty-five thousand. Nour found it, after '
+            + 'being told not to look.' },
+    { who: 'nadia', cam: { shot: 'close' },
+      en: 'Then her name goes in the paper against it. You give up the '
+            + 'authorship and the firm gets the option.' }
+  ]
+});
+
 PBE8.scene('u21-21-7-b', {
   set: 'quotetable',
   arr: 0,

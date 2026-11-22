@@ -434,6 +434,26 @@ PBE8.arabic({
     '⚠ يوقّع بيانًا يحتوي الجملتين وسبب الفرق. ⚠ ما كتبه في ٢٠٢٤، وما يقوله الآن، والوثيقة التي رآها بينهما، بتاريخها. ولا يستطيعون مباغتته بـ«ج٧» إن كان «ج٧» في فقرته الرابعة.',
   '⚠ That he can sign, and it is a weaker sentence and a very much stronger witness. ⚠ It costs us the clean version of issue three — and it means the tribunal hears about the stock sheets from the man himself rather than from me in closing.':
     '⚠ ذلك يستطيع توقيعه، وهي جملة أضعف وشاهد أقوى كثيرًا. ⚠ يكلّفنا الصيغة النظيفة للمسألة الثالثة — ويعني أن الهيئة تسمع عن أوراق المخزون من الرجل نفسه لا منّي في الختام.',
+  'Your draft statement says we agreed the revised figures in May. Your note of September 2024 says I think we agreed.':
+    'يقول بيانك المسوّد إننا اتفقنا على الأرقام المعدّلة في أيار. وتقول مذكّرتك في أيلول ٢٠٢٤: أظنّ أننا اتفقنا.',
+  'Both sentences are mine. I am more certain now than I was then.':
+    'الجملتان كلتاهما لي. أنا أكثر يقينًا الآن مما كنت حينها.',
+  'In cross-examination that gap has two explanations. Your memory improved, which nobody believes, or the 2024 note was careless.':
+    'في الاستجواب، لهذه الفجوة تفسيران. تحسّنت ذاكرتك، وهذا لا يصدّقه أحد، أو كانت مذكّرة ٢٠٢٤ متهاونة.',
+  'And I am your principal witness on two issues.':
+    'وأنا شاهدك الرئيسي في مسألتين.',
+  'You are. I am telling you what the gap does, not what it proves.':
+    'أنت كذلك. أنا أخبرك بما تفعله الفجوة، لا بما تثبته.',
+  'Nobody has asked me what changed. In between I read their own June stock sheets, drawn to the revised figures.':
+    'لم يسألني أحد عمّا تغيّر. في ما بين الأمرين قرأت كشوف مخزونهم في حزيران، وقد أُعدّت على الأرقام المعدّلة.',
+  'You saw a document, then. On what date?':
+    'إذن رأيت وثيقة. في أيّ تاريخ؟',
+  'The eleventh of March, when disclosure arrived. That is not my memory improving. That is me finding out I was right.':
+    'في الحادي عشر من آذار، حين وصل الإفصاح. هذا ليس تحسّنًا في ذاكرتي. هذا أنني عرفت أنني كنت على حقّ.',
+  'Then the statement carries all three: what you wrote in 2024, what you say now, and the sheets with their date.':
+    'إذن يحمل البيان الثلاثة جميعًا: ما كتبته في ٢٠٢٤، وما تقوله الآن، والكشوف بتاريخها.',
+  'I lose the clean sentence. I will sign that one, because it is true and not because it is safer.':
+    'أخسر الجملة النظيفة. سأوقّع تلك، لأنها صحيحة وليس لأنها أكثر أمانًا.',
   'So what has paragraph four cost us?':
     'فماذا كلّفتنا الفقرة الرابعة؟',
   '⚠ The clean version of issue three. We will not get a finding that the change was agreed in May. At best we get a finding that it probably was.':

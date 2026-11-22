@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u5-s07', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 5 · 5.7', part: '5.7',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 5 · 5.7', part: '5.7',
           section: '7', lesson: 'Review: a real delivery note', title: 'Review: a real delivery note' },
   objective: 'Review: a real delivery note — and one problem to talk about together',
   study: {
@@ -204,14 +204,14 @@ PBE1.page('u5-s07', {
             options: [{
               t: 'fifteen counted, sixteen on the paper',
               ok: true,
-              why: 'Which Ammar then states as *one box short, line one* - a '
+              why: 'Which Ammar then states as “one box short, line one” - a '
                 + 'difference, with the line it is on.'
             },
             {
               t: 'sixteen counted, fifteen on the paper',
               ok: false,
               why: 'The two numbers the other way round. The count is always the '
-                + 'smaller one here - that is what *short* means.'
+                + 'smaller one here - that is what “short” means.'
             },
             {
               t: 'fifteen on the paper and fifteen counted',

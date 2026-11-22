@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u3-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 3 · 3.4', part: '3.4',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 3 · 3.4', part: '3.4',
           section: '4', lesson: 'Fadi drives. Majd opens the counter.', title: 'Fadi drives. Majd opens the counter.' },
   objective: 'say what another person does every day',
   study: {
@@ -124,7 +124,7 @@ PBE1.page('u3-s04', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '3.4.1',
       bookRef: 'Unit 3 · 3.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -135,20 +135,18 @@ PBE1.page('u3-s04', {
             minWords: 6,
             rows: 2,
             hint: 'Three sentences about somebody else, so every verb takes an -s: '
-              + '*he starts, he checks, he drives*. That -s is the lesson.'
+              + '<i>he starts, he checks, he drives</i>. That -s is the lesson.'
           },
       {
             q: 'Read the two lines. Which is correct? Fadi drive the lorry · '
               + 'Fadi drives the lorry',
-            minWords: 6,
+            model: 'Fadi drives the lorry is correct',
+            minWords: 2,
             rows: 2,
-            hint: 'Ask what changes when the person is *he* or *she* rather than '
-              + '*I*. One letter.'
+            hint: 'Ask what changes when the person is <i>he</i> or <i>she</i> '
+              + 'rather than <i>I</i>. One letter.'
           }],
-      ideas: ['What HE does, what SHE does'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -211,7 +209,7 @@ PBE1.page('u3-s04', {
             options: [{
               t: 'eight',
               ok: true,
-              why: '*He opens the counter at eight. He counts the money first.*'
+              why: '“He opens the counter at eight. He counts the money first.”'
             },
             {
               t: 'six',
@@ -224,15 +222,15 @@ PBE1.page('u3-s04', {
               ok: false,
               why: 'Seven is Ammar\'s own start, and the time he is compared against.'
             }],
-            evidence: 'Ammar\'s answer to *And Majd?*'
+            evidence: 'Ammar\'s answer to “And Majd?”'
           },
         {
             q: 'Why does Majd count the money before the customers come?',
             options: [{
               t: 'because you cannot count with people waiting',
               ok: true,
-              why: 'Ammar quotes him: *he says you cannot count with people '
-                + 'waiting*, and Nour writes it down because it is true of '
+              why: 'Ammar quotes him: “he says you cannot count with people '
+                + 'waiting”, and Nour writes it down because it is true of '
                 + 'counting anything.'
             },
             {
@@ -248,6 +246,22 @@ PBE1.page('u3-s04', {
             evidence: 'Ammar\'s last long line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '3.4.2',
+      bookRef: 'Unit 3 · 3.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the verb.',
+      text: '<b>1</b> Fadi [[1]] (drive) the lorry. &nbsp; <b>2</b> Majd [[2]] (open) '
+      + 'the counter. &nbsp; <b>3</b> He [[3]] (not work) on Friday. &nbsp; '
+      + '<b>4</b> [[4]] she [[4b]] (count) the money?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -478,8 +492,8 @@ PBE1.page('u3-s04', {
             keys: ['counts',
               'money'],
             need: 1,
-            hint: 'The same answer as *what does he do first* - and the reason he '
-              + 'gives for it is worth adding.'
+            hint: 'The same answer as <i>what does he do first</i> - and the reason '
+              + 'he gives for it is worth adding.'
           },
       {
             q: 'Which day does Samih count?',

@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u12-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 12 · 12.6', part: '12.6',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 12 · 12.6', part: '12.6',
           section: '6', lesson: 'A. Zreik, Sunday, 16.00', title: 'A. Zreik, Sunday, 16.00' },
   objective: 'sign it and date it',
   study: {
@@ -123,7 +123,7 @@ PBE2.page('u12-s06', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '12.6.1',
       bookRef: 'Unit 12 · 12.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -138,15 +138,13 @@ PBE2.page('u12-s06', {
           },
       {
             q: 'Read the two bottoms. Which is better? A.Z. · A. Zreik, Sunday, 16.00',
-            minWords: 6,
+            model: 'The second',
+            minWords: 1,
             rows: 2,
             hint: 'One of them tells the reader how old the note is, which decides '
               + 'how much to believe it.'
           }],
-      ideas: ['2 The same, with initials only'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -193,17 +191,21 @@ PBE2.page('u12-s06', {
             q: 'Books closed. Listen. What was wrong with the note?',
             options: [{
               t: 'no name',
-              ok: false
+              ok: false,
+              why: 'It has initials, A.Z., and Samih says he knows it is Ammar.'
             },
             {
               t: 'no time',
               ok: true,
-              why: 'no time'
+              why: 'I know it is you. I do not know when you wrote it - and the '
+                + 'ladder came in at half past four.'
             },
             {
               t: 'both',
-              ok: false
-            }]
+              ok: false,
+              why: 'Only one of the two is missing.'
+            }],
+            evidence: 'Samih\'s second line - what he knows and what he does not'
           },
         {
             q: 'Listen again. What time did Ammar write the note?',
@@ -249,6 +251,21 @@ PBE2.page('u12-s06', {
           }],
         say: true
       }
+    },
+    {
+      id: 'c15',
+      kind: 'own',
+      ref: '12.6.2',
+      bookRef: 'Unit 12 · 12.6 · Lesson A · Speaking · Listen and read',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Write the bottom line.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c3',

@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u9-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 9 · 9.4', part: '9.4',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 9 · 9.4', part: '9.4',
           section: '4', lesson: 'I did not count it', title: 'I did not count it' },
   objective: 'say what did NOT happen',
   study: {
@@ -124,7 +124,7 @@ PBE2.page('u9-s04', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '9.4.1',
       bookRef: 'Unit 9 · 9.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -141,15 +141,13 @@ PBE2.page('u9-s04', {
       {
             q: 'Read the two lines. Which is correct? I did not counted it · I '
               + 'did not count it',
-            minWords: 6,
+            model: 'I did not count it is correct',
+            minWords: 2,
             rows: 2,
             hint: 'After \'did not\', the verb goes back to its plainest form. Only '
               + 'one line does that.'
           }],
-      ideas: ['Saying what did not happen'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -200,17 +198,21 @@ PBE2.page('u9-s04', {
             q: 'Books closed. Listen. What did Samih not do?',
             options: [{
               t: 'open the gate',
-              ok: false
+              ok: false,
+              why: 'He says he opened the gate. That is one of the things he did do.'
             },
             {
               t: 'count the load',
               ok: true,
-              why: 'count the load'
+              why: 'Forty on the paper. I did not count forty. I counted nothing.'
             },
             {
               t: 'give the driver the note',
-              ok: false
-            }]
+              ok: false,
+              why: 'He signed it and gave it, and wrote not counted, no light '
+                + 'beside his name.'
+            }],
+            evidence: 'the line where Samih says what he counted'
           },
         {
             q: 'Listen again. How many cartons were on the paper?',
@@ -253,6 +255,22 @@ PBE2.page('u9-s04', {
             evidence: 'the last three lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '9.4.2',
+      bookRef: 'Unit 9 · 9.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Make it negative.',
+      text: '<b>1</b> I counted it. → [[1]]. &nbsp; <b>2</b> I took the torch. → '
+      + '[[2]]. &nbsp; <b>3</b> The lorry came. → [[3]]. &nbsp; <b>4</b> I found '
+      + 'the key. → [[4]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

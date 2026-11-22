@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u2-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 2 · 2.2', part: '2.2',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 2 · 2.2', part: '2.2',
           section: '2', lesson: 'Twenty, fifty, three hundred', title: 'Twenty, fifty, three hundred' },
   objective: 'say the big numbers, up to a thousand',
   study: {
@@ -218,7 +218,7 @@ PBE1.page('u2-s02', {
             {
               t: 'three hundred and forty',
               ok: false,
-              why: 'That is what the board said *before* the ninety came in.'
+              why: 'That is what the board said “before” the ninety came in.'
             },
             {
               t: 'ninety',
@@ -233,7 +233,7 @@ PBE1.page('u2-s02', {
             options: [{
               t: 'the figures, and the words under them',
               ok: true,
-              why: '*And in words under it. Both. Always both.* Two ways of '
+              why: '“And in words under it. Both. Always both.” Two ways of '
                 + 'writing one number is how a nine stops becoming a four.'
             },
             {
@@ -251,6 +251,22 @@ PBE1.page('u2-s02', {
             evidence: 'Abu Yasser\'s last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '2.2.2',
+      bookRef: 'Unit 2 · 2.2 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the number.',
+      text: '<b>1</b> three hundred and twelve [[1]] &nbsp; <b>2</b> nine hundred '
+      + '[[2]] &nbsp; <b>3</b> a thousand and five [[3]] &nbsp; <b>4</b> forty '
+      + '[[4]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -469,7 +485,7 @@ PBE1.page('u2-s02', {
             model: 'Ninety',
             minWords: 1,
             rows: 2,
-            hint: 'From the board above, the *in* line. One number, and Ammar '
+            hint: 'From the board above, the <i>in</i> line. One number, and Ammar '
               + 'spells it out digit by digit in the dialogue.'
           },
       {
@@ -480,7 +496,7 @@ PBE1.page('u2-s02', {
             keys: ['none',
               'zero'],
             need: 1,
-            hint: 'The *out* line of the board. It is a number even when it is '
+            hint: 'The <i>out</i> line of the board. It is a number even when it is '
               + 'nothing - and this unit has two words for that number.'
           },
       {

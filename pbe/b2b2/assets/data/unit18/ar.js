@@ -448,6 +448,26 @@ PBE8.arabic({
     'والآلية ليست عذرًا.',
   '⚠ No. It is the finding. ⚠ A firm where a reason has nowhere to go will lose every reason it ever has, and it will go on doing that after you and I have both left — which is why it belongs on page one and why your name does not.':
     '⚠ لا. هي النتيجة. ⚠ الشركة التي لا موضع فيها للسبب ستفقد كل سبب يكون عندها، وستظلّ تفعل ذلك بعد رحيلك ورحيلي — ولهذا موضعها الصفحة الأولى ولهذا اسمك ليس فيها.',
+  'Bassel has found the strongest thing in the file. This firm set a quoting threshold in 2021 and reviewed it in neither 2023 nor 2025.':
+    'وجد باسل أقوى ما في الملفّ. حدّدت هذه الشركة حدًّا لعروض الأسعار في ٢٠٢١ ولم تراجعه لا في ٢٠٢٣ ولا في ٢٠٢٥.',
+  'As he has written it, it names the previous office manager twice. That is a document about me.':
+    'بالصياغة التي كتبها، تُسمّي الوثيقة مدير المكتب السابق مرّتين. تلك وثيقة عنّي.',
+  'It is a finding about a reason nobody recorded.':
+    'إنها نتيجة عن سبب لم يسجّله أحد.',
+  'In 2032 nobody will know what it was meant as. They will have the sentence.':
+    'في ٢٠٣٢ لن يعرف أحد ما كان المقصود بها. سيكون بين أيديهم النصّ وحده.',
+  'Then the firm becomes the subject and your name comes out. Both dates and both silences stay.':
+    'إذن تصبح الشركة هي الفاعل ويُحذف اسمك. ويبقى التاريخان وحالتا الصمت كلتاهما.',
+  'That is a larger claim than the one he wrote.':
+    'هذا ادّعاء أكبر من الذي كتبه.',
+  'It is. One man being careless is a smaller claim than a firm that cannot hold a reason.':
+    'نعم. إهمال رجل واحد ادّعاء أصغر من شركة لا تستطيع الاحتفاظ بسبب.',
+  'And you want my initials at section 3.2 as well.':
+    'وتريدين أيضًا الأحرف الأولى من اسمي على البند ٣٫٢.',
+  'On your own words there, and nothing else. The page-one finding is mine, and it is endorsed by nobody.':
+    'على كلماتك أنت هناك، ولا شيء غيرها. نتيجة الصفحة الأولى نتيجتي، ولا يصادق عليها أحد.',
+  'Then write this at 3.2 as well. There was no form, and nobody whose job it was to ask me. Not as an excuse - it will happen to the next person in that chair.':
+    'إذن اكتبي هذا في ٣٫٢ أيضًا. لم يكن هناك نموذج، ولا أحد من واجبه أن يسألني. ليس عذرًا — سيحدث للشخص التالي في هذا المقعد.',
   'Mr Ayoub, six names in the old Homs file I cannot trace. May I read them to you?':
     'سيد أيوب، ستة أسماء في ملفّ حمص القديم لا أستطيع اقتفاءها. أتسمح أن أقرأها عليك؟',
   'Read them.':

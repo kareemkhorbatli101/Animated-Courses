@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u1-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 1 · 1.6', part: '1.6',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 1 · 1.6', part: '1.6',
           section: '6', lesson: 'Sorry — again, please', title: 'Sorry — again, please' },
   objective: 'say that you did not understand',
   study: {
@@ -123,7 +123,7 @@ PBE1.page('u1-s06', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '1.6.1',
       bookRef: 'Unit 1 · 1.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -134,22 +134,20 @@ PBE1.page('u1-s06', {
               + 'Say it in Arabic.',
             minWords: 6,
             rows: 2,
-            hint: 'Say what you do *now*, in this second - not what you wish you '
-              + 'could do. Then look at what Ammar says, twice, in the dialogue.'
+            hint: 'Say what you do <i>now</i>, in this second - not what you wish '
+              + 'you could do. Then look at what Ammar says, twice, in the '
+              + 'dialogue.'
           },
       {
             q: 'Read the two lines. Which one is better at work? I say nothing '
               + 'and I do it wrong · I say "Sorry — again, please"',
-            minWords: 6,
+            model: 'The second',
+            minWords: 1,
             rows: 2,
             hint: 'Ask which line ends with the work done right. One of them costs '
               + 'five seconds; the other costs a morning.'
           }],
-      ideas: ['When you do not understand',
-      'Row 3, shelf 2'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -218,9 +216,9 @@ PBE1.page('u1-s06', {
             {
               t: 'forty boxes, row three, shelf two',
               ok: false,
-              why: '*Fourteen* and *forty* are exactly the confusion this cycle is '
-                + 'about - Abu Yasser separates them himself: *four-teen, one '
-                + 'four*.'
+              why: '“Fourteen” and “forty” are exactly the confusion this cycle is '
+                + 'about - Abu Yasser separates them himself: “four-teen, one '
+                + 'four”.'
             },
             {
               t: 'fourteen boxes, row two, shelf three',
@@ -235,7 +233,7 @@ PBE1.page('u1-s06', {
             options: [{
               t: 'saying sorry - he should ask instead',
               ok: true,
-              why: 'His last line is *do not say sorry. Ask. Always ask. Ask me ten times.*'
+              why: 'His last line is “do not say sorry. Ask. Always ask. Ask me ten times.”'
             },
             {
               t: 'asking so many questions',
@@ -253,6 +251,22 @@ PBE1.page('u1-s06', {
       }
     },
     {
+      id: 'c15',
+      ref: '1.6.2',
+      bookRef: 'Unit 1 · 1.6 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'What do you say?',
+      text: '<b>1</b> He spoke very fast. [[1]] &nbsp; <b>2</b> It is a long name. '
+      + '[[2]] &nbsp; <b>3</b> You heard nothing. [[3]] &nbsp; <b>4</b> It is '
+      + '&nbsp; <b>15</b> or 50. [[15]]',
+      plain: true,
+      small: true,
+      answers: {
+        
+      }
+    },
+    {
       id: 'c3',
       kind: 'model',
       ref: '1.6.2',
@@ -266,7 +280,7 @@ PBE1.page('u1-s06', {
             minWords: 1,
             rows: 2,
             hint: 'Abu Yasser separates the number into two halves to be sure of '
-              + 'it: *four-teen, one four*. That is the number.'
+              + 'it: <i>four-teen, one four</i>. That is the number.'
           },
       {
             q: 'What does Ammar not understand — the number or the place?',

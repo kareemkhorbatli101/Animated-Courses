@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u5-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 5 · 5.2', part: '5.2',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 5 · 5.2', part: '5.2',
           section: '2', lesson: '4 March, not 3 April', title: '4 March, not 3 April' },
   objective: 'read a date, and not read it the wrong way round',
   study: {
@@ -123,7 +123,7 @@ PBE1.page('u5-s02', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '5.2.1',
       bookRef: 'Unit 5 · 5.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -138,18 +138,13 @@ PBE1.page('u5-s02', {
           },
       {
             q: 'What is today\'s date? Write it three ways:',
-            minWords: 6,
+            model: 'Open. Three ways: 25 March · 25/03 · 25/3/26',
+            minWords: 1,
             rows: 2,
             hint: 'Figures day-first, figures month-first, and the month in '
               + 'letters. Compare the three: one of them cannot be misread.'
           }],
-      ideas: ['The months, and the date',
-      'Delivery note no. 4417',
-      'To: Sham Trading, Damascus',
-      'Received by: Date received:'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -235,7 +230,7 @@ PBE1.page('u5-s02', {
             options: [{
               t: 'write the month in letters: 4 March',
               ok: true,
-              why: '*Then nobody can read it two ways.* Letters cannot be '
+              why: '“Then nobody can read it two ways.” Letters cannot be '
                 + 'reordered the way two digits can.'
             },
             {
@@ -253,6 +248,21 @@ PBE1.page('u5-s02', {
             evidence: 'Nour\'s last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '5.2.2',
+      bookRef: 'Unit 5 · 5.2 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the date in letters.',
+      text: '<b>1</b> 04/03 _(from Beirut)_ = [[1]] &nbsp; <b>2</b> 12/01 _(from '
+      + 'Aleppo)_ = [[2]] &nbsp; <b>3</b> Write today in letters: [[3]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -496,8 +506,8 @@ PBE1.page('u5-s02', {
               'knows',
               'worked'],
             need: 1,
-            hint: 'Not to record the date - to record how she *worked it out*. The '
-              + 'reason is about the next person who reads it.'
+            hint: 'Not to record the date - to record how she <i>worked it out</i>. '
+              + 'The reason is about the next person who reads it.'
           },
       {
             q: 'What two things are empty on this note?',

@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u2-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 2 · 2.4', part: '2.4',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 2 · 2.4', part: '2.4',
           section: '4', lesson: 'There are six on the shelf. There are none on the floor.', title: 'There are six on the shelf. There are none on the floor.' },
   objective: 'say what is on the shelf and what is not',
   study: {
@@ -133,11 +133,12 @@ PBE1.page('u2-s04', {
       questions: [{
             q: 'Look at the room. Say three things that are here. Say one thing '
               + 'that is not here.',
-            minWords: 6,
+            model: 'Open. Three things here, one thing not here',
+            minWords: 2,
             rows: 2,
-            hint: 'Use *there is* and *there are* for what is here, and *there are '
-              + 'none* for what is not. The last one is the pattern worth the '
-              + 'practice.'
+            hint: 'Use <i>there is</i> and <i>there are</i> for what is here, and '
+              + '<i>there are none</i> for what is not. The last one is the '
+              + 'pattern worth the practice.'
           },
       {
             q: 'Read the two lines. Which one helps the supervisor? the shelf is '
@@ -216,13 +217,13 @@ PBE1.page('u2-s04', {
             options: [{
               t: 'six',
               ok: true,
-              why: '*There are six cartons on shelf three* - the pattern the cycle '
+              why: '“There are six cartons on shelf three” - the pattern the cycle '
                 + 'is teaching, with its number.'
             },
             {
               t: 'none',
               ok: false,
-              why: 'None is the answer to the *other* shelf, shelf four, which is empty.'
+              why: 'None is the answer to the “other” shelf, shelf four, which is empty.'
             },
             {
               t: 'four',
@@ -237,14 +238,14 @@ PBE1.page('u2-s04', {
             options: [{
               t: 'because nobody can tell an empty shelf from an unchecked one',
               ok: true,
-              why: '*Then I do not know if it is empty or if you did not look.* A '
+              why: '“Then I do not know if it is empty or if you did not look.” A '
                 + 'zero is a report; a silence is not.'
             },
             {
               t: 'because none is not a number',
               ok: false,
-              why: 'He says the opposite in the same breath: *none is a number. I '
-                + 'write zero.*'
+              why: 'He says the opposite in the same breath: “none is a number. I '
+                + 'write zero.”'
             },
             {
               t: 'because the sheet has no space for a zero',
@@ -254,6 +255,22 @@ PBE1.page('u2-s04', {
             evidence: 'Abu Yasser\'s very last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '2.4.2',
+      bookRef: 'Unit 2 · 2.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write there is, there are or there are none.',
+      text: '<b>1</b> [[1]] a pallet by the door. &nbsp; <b>2</b> [[2]] nine rolls on '
+      + 'shelf one. &nbsp; <b>3</b> Shelf six? [[3]]. &nbsp; <b>4</b> [[4]] two '
+      + 'lorries in the yard.',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -493,8 +510,8 @@ PBE1.page('u2-s04', {
               'looked',
               'shelf'],
             need: 1,
-            hint: 'The note under the sheet. The answer is about the *person*, not '
-              + 'the stock - and it is why a zero is better than a blank.'
+            hint: 'The note under the sheet. The answer is about the <i>person</i>, '
+              + 'not the stock - and it is why a zero is better than a blank.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

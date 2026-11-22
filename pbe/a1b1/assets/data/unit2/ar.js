@@ -8,6 +8,8 @@ PBE1.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write the number in words.':
+    'اكتب العدد بالحروف.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs. One person counts. One person asks. Then change places.':
@@ -32,6 +34,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: من يقرأ ذلك الرقم؟ ثم اكتب الجواب.',
   'Read three papers. In how many does somebody read the number? Count them on the board.':
     'اقرأ ثلاث ورقات. في كم واحدة منها يقرأ أحدٌ الرقم؟ عُدّوها على اللوح.',
+  'Write the number.':
+    'اكتب العدد.',
   'Work in pairs. Read the lines. Say it. Then change places.':
     'اعملا في ثنائيات. اقرآ الجمل. قولاها. ثم تبادلا الدورين.',
   'Say four big numbers from your work. Your partner writes it. Then check it together.':
@@ -50,6 +54,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: من كتب ذلك الرقم؟ ثم اكتب الجواب.',
   'Read three papers. In how many was the number written only once? Count them on the board.':
     'اقرأ ثلاث ورقات. في كم واحدة منها كُتب الرقم مرة واحدة فقط؟ عُدّوها على اللوح.',
+  'Write a, an or -s.':
+    'اكتب a أو an أو -s.',
   'Say four things at your work with the number and the word. Your partner writes it.':
     'قل أربعة أشياء في عملك مع الرقم والكلمة. يكتبها زميلك.',
   'Tell the class: There are on .':
@@ -66,6 +72,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: كم في الواحد؟ ثم اكتب الجواب.',
   'Read three papers. In how many is the word said with the number every time? Count them on the board.':
     'اقرأ ثلاث ورقات. في كم واحدة منها تُقال الكلمة مع الرقم في كل مرة؟ عُدّوها على اللوح.',
+  'Write there is, there are or there are none.':
+    'اكتب there is أو there are أو there are none.',
   'Work in pairs. One asks about four shelves. One answers. Then change places.':
     'اعملا في ثنائيات. أحدكما يسأل عن أربعة رفوف. والآخر يجيب. ثم تبادلا الدورين.',
   'Think of four places at your work. Say what is there. Write it. One place must have none.':
@@ -84,6 +92,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: من قاله أول مرة؟ ثم اكتب الجواب.',
   'Read three papers. In how many did somebody write the zero down? Count them on the board.':
     'اقرأ ثلاث ورقات. في كم واحدة منها كتب أحدٌ الصفر؟ عُدّوها على اللوح.',
+  'Write the digits.':
+    'اكتب الأرقام.',
   'Work in pairs. A gives an order. B writes it and reads it back. Then change places.':
     'اعملا في ثنائيات. (أ) يعطي طلبية. و(ب) يكتبها ثم يعيد قراءتها. ثم تبادلا الدورين.',
   'Give your partner four orders. They write it and read it back. Check it together.':
@@ -102,6 +112,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: هل أعدتَ قراءتها؟ ثم اكتب الجواب.',
   'Read three papers. In how many did somebody read the number back? Count them on the board.':
     'اقرأ ثلاث ورقات. في كم واحدة منها أعاد أحدٌ قراءة الرقم؟ عُدّوها على اللوح.',
+  'Make the sentence better.':
+    'اجعل الجملة أفضل.',
   'Work in pairs. A has the sheet. B counted again. Then change places.':
     'اعملا في ثنائيات. مع (أ) الورقة. و(ب) عدّ مرة أخرى. ثم تبادلا الدورين.',
   'Think of two numbers at your work that were wrong. Tell your partner. Write it without naming anybody.':

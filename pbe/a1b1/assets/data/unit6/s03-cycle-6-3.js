@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u6-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 6 · 6.3', part: '6.3',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 6 · 6.3', part: '6.3',
           section: '3', lesson: 'One moment, please', title: 'One moment, please' },
   objective: 'say wait — and not lose the call',
   study: {
@@ -223,16 +223,16 @@ PBE1.page('u6-s03', {
             {
               t: 'four minutes',
               ok: false,
-              why: 'Four minutes is what happened to this caller *last week*, with '
+              why: 'Four minutes is what happened to this caller “last week”, with '
                 + 'somebody else - and it is the reason he asked.'
             },
             {
               t: 'one minute',
               ok: false,
-              why: '*One moment* is what Ammar said, and the scene is about the '
+              why: '“One moment” is what Ammar said, and the scene is about the '
                 + 'gap between the phrase and the clock.'
             }],
-            evidence: 'Ammar\'s answer to *How long was that?*'
+            evidence: 'Ammar\'s answer to “How long was that?”'
           },
         {
             q: 'Why was there a wait at all?',
@@ -256,6 +256,22 @@ PBE1.page('u6-s03', {
             evidence: 'Ammar\'s own explanation'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '6.3.2',
+      bookRef: 'Unit 6 · 6.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the line.',
+      text: '<b>1</b> You need to find a pen. [[1]]. &nbsp; <b>2</b> You come back '
+      + 'after ten seconds. [[2]]. &nbsp; <b>3</b> It will take three minutes. '
+      + '[[3]]?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

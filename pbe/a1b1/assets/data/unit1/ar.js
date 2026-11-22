@@ -8,6 +8,8 @@ PBE1.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write am, are or am not.':
+    'اكتب am أو are أو am not.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs. Read the lines. Say it. Then change places.':
@@ -32,6 +34,8 @@ PBE1.arabic({
     'اقرأ عمل زميلك. اسأله سؤالًا واحدًا. واكتبه: ★ أعجبني… ؟ سؤال واحد',
   'Put the papers on the wall. Walk and read. Write one word on a paper you like: Good.':
     'علّقوا الأوراق على الحائط. امشِ واقرأ. اكتب كلمة واحدة على ورقة أعجبتك: جيد.',
+  'Do the exercise in the Language box.':
+    'أنجز التمرين في صندوق اللغة.',
   'Work in pairs. Ask your partner for four names. Write them. Then check them.':
     'اعملا في ثنائيات. اطلب من زميلك أربعة أسماء. اكتبها. ثم تحقّق منها.',
   'Tell the class: I wrote names. are right. The hard one was .':
@@ -50,6 +54,8 @@ PBE1.arabic({
     'اقرأ عمل زميلك. اطلب منه أن يتهجّى الاسم بصوت عالٍ. اكتبه. هل هو الاسم نفسه؟',
   'Three students spell a name. The class writes. Count the right ones on the board.':
     'يتهجّى ثلاثة طلاب اسمًا. يكتبه الصف. ثم أحصوا الصحيح منها على اللوح.',
+  'Write this, that, these or those.':
+    'اكتب this أو that أو these أو those.',
   'Work in pairs. One person points. One person says. Then change places.':
     'اعملا في ثنائيات. أحدكما يشير والآخر يقول. ثم تبادلا الدورين.',
   'Look around the room. Point at four things. Say this or that. Write the four things.':
@@ -68,6 +74,8 @@ PBE1.arabic({
     'اقرأ عمل زميلك. واسأله: أين تلك القائمة؟ ثم اكتب الجواب.',
   'Three students say where their list is. The class says which one is easiest to find.':
     'يقول ثلاثة طلاب أين توجد قائمتهم. ويقول الصف أيّها أسهل في العثور عليها.',
+  'Write he is, she is or it is.':
+    'اكتب he is أو she is أو it is.',
   'Think of four people at your work. Tell your partner who they are. Write it.':
     'فكّر في أربعة أشخاص في عملك. أخبر زميلك من هم. ثم اكتب ذلك.',
   'Tell the class: is . He is / She is the .':
@@ -84,6 +92,8 @@ PBE1.arabic({
     'اقرأ عمل زميلك. واسأله: هل هو ـــــ؟ ثم اكتب الجواب.',
   'Put the papers on the wall. Walk and read. Find two people with the same job.':
     'علّقوا الأوراق على الحائط. امشِ واقرأ. وابحث عن شخصين لهما العمل نفسه.',
+  'Write in or at.':
+    'اكتب in أو at.',
   'Tell your partner about your day. What time do you start? What time do you finish? What do you say?':
     'حدّث زميلك عن يومك. في أي ساعة تبدأ؟ وفي أي ساعة تنتهي؟ وماذا تقول؟',
   'Tell the class: I start at . I finish at . In the morning I say .':
@@ -100,6 +110,8 @@ PBE1.arabic({
     'اقرأ عمل زميلك. واسأله: ماذا تقول في الساعة الرابعة؟ ثم اكتب الجواب.',
   'Three students read. The class counts how many say goodbye to a person by name.':
     'يقرأ ثلاثة طلاب. ويحصي الصف كم منهم يودّع شخصًا باسمه.',
+  'What do you say?':
+    'ماذا تقول؟',
   'Work in pairs. A speaks fast. B asks. Then change places.':
     'اعملا في ثنائيات. يتكلم «أ» بسرعة و«ب» يسأل. ثم تبادلا الدورين.',
   'Work in pairs. Say four numbers fast. Your partner asks and writes. Then check them.':

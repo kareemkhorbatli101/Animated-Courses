@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u6-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 6 · 6.1', part: '6.1',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 6 · 6.1', part: '6.1',
           section: '1', lesson: 'Sham Trading, good morning', title: 'Sham Trading, good morning' },
   objective: 'answer the telephone',
   study: {
@@ -225,8 +225,8 @@ PBE1.page('u6-s01', {
             {
               t: 'say the company, your name, and the time',
               ok: false,
-              why: 'Your name belongs to the caller\'s side of this call: *your '
-                + 'name, please* is the next cycle.'
+              why: 'Your name belongs to the caller\'s side of this call: “your '
+                + 'name, please” is the next cycle.'
             },
             {
               t: 'say good morning, ask the name, take a message',
@@ -241,7 +241,7 @@ PBE1.page('u6-s01', {
             options: [{
               t: 'good afternoon',
               ok: true,
-              why: '*After twelve o\'clock say good afternoon* - the one change to '
+              why: '“After twelve o\'clock say good afternoon” - the one change to '
                 + 'the opening, and it is on the clock, not the mood.'
             },
             {
@@ -258,6 +258,21 @@ PBE1.page('u6-s01', {
             evidence: 'Nour\'s line after she tells him it is better'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '6.1.2',
+      bookRef: 'Unit 6 · 6.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the answer.',
+      text: '<b>1</b> It is 9.00. You answer: [[1]]. &nbsp; <b>2</b> It is 2.00. You '
+      + 'answer: [[2]]. &nbsp; <b>3</b> You did not understand. You say: [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

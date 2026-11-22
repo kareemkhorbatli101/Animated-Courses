@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u6-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 6 · 6.4', part: '6.4',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 6 · 6.4', part: '6.4',
           section: '4', lesson: 'He is not here', title: 'He is not here' },
   objective: 'say somebody is not here',
   study: {
@@ -124,7 +124,7 @@ PBE1.page('u6-s04', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '6.4.1',
       bookRef: 'Unit 6 · 6.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -140,14 +140,13 @@ PBE1.page('u6-s04', {
       {
             q: 'Read the two lines. Which helps the caller? He is not here · He '
               + 'is not here. He is back at two.',
-            minWords: 6,
+            model: 'The second line helps',
+            minWords: 1,
             rows: 2,
             hint: 'One of them ends the call with nothing. The other gives the '
               + 'caller something to do next.'
           }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -174,9 +173,9 @@ PBE1.page('u6-s04', {
           + 'in it.</b> <b><i>He is back at two</i> gives the caller something to '
           + 'do.</b></p><p>⚠ <b>Say the TRUE reason.</b> <b><i>At lunch</i> is a '
           + 'reason. <i>In a meeting</i> when he is at lunch is a lie that costs '
-          + 'nothing today and costs the office its word later.</b> **A caller '
+          + 'nothing today and costs the office its word later.</b> <b>A caller '
           + 'who is told <i>at lunch</i> believes <i>in a meeting</i> the next '
-          + 'time.</p><p>⚠ <b><i>I do not know</i> is allowed</b> — <b>with a '
+          + 'time.</b></p><p>⚠ <b><i>I do not know</i> is allowed</b> — <b>with a '
           + 'question after it.</b> <b>Nobody expects a storeman to know where '
           + 'the office people are. They expect him to take a '
           + 'number.</b></p><p><b>Practise:</b> Add the second sentence.</p><p>1 '
@@ -217,7 +216,7 @@ PBE1.page('u6-s04', {
             options: [{
               t: 'at two',
               ok: true,
-              why: '*She is here. She is at lunch. She is back at two.* - here, '
+              why: '“She is here. She is at lunch. She is back at two.” - here, '
                 + 'but not now, and a time to ring.'
             },
             {
@@ -238,7 +237,7 @@ PBE1.page('u6-s04', {
             options: [{
               t: 'he said she was at lunch, which is the truth',
               ok: true,
-              why: '*Everybody says a meeting. Nobody is ever at lunch.* The true '
+              why: '“Everybody says a meeting. Nobody is ever at lunch.” The true '
                 + 'reason is rarer, and more useful, than the polite one.'
             },
             {
@@ -257,6 +256,21 @@ PBE1.page('u6-s04', {
       }
     },
     {
+      id: 'c15',
+      ref: '6.4.2',
+      bookRef: 'Unit 6 · 6.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Add the second sentence.',
+      text: '<b>1</b> He is not here. [[1]]. &nbsp; <b>2</b> She is not here. [[2]]. '
+      + '&nbsp; <b>3</b> I do not know. [[3]]?',
+      plain: true,
+      small: true,
+      answers: {
+        
+      }
+    },
+    {
       id: 'c3',
       kind: 'answer',
       ref: '6.4.2',
@@ -272,7 +286,7 @@ PBE1.page('u6-s04', {
             keys: ['person',
               'back'],
             need: 1,
-            hint: 'Beyond *he is not here*: one is a place, one is a time.'
+            hint: 'Beyond <i>he is not here</i>: one is a place, one is a time.'
           },
       {
             q: 'What does he NOT say?',
@@ -485,7 +499,8 @@ PBE1.page('u6-s04', {
             q: 'When is Abu Yasser back?',
             minWords: 6,
             rows: 2,
-            hint: 'The board above, Abu Yasser\'s row - read across to the *back* column.'
+            hint: 'The board above, Abu Yasser\'s row - read across to the '
+              + '<i>back</i> column.'
           },
       {
             q: 'Who is here all day?',

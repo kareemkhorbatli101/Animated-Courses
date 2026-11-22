@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u12-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 12 · 12.4', part: '12.4',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 12 · 12.4', part: '12.4',
           section: '4', lesson: 'I did not, because', title: 'I did not, because' },
   objective: 'say what you did NOT do, and why',
   study: {
@@ -122,7 +122,7 @@ PBE2.page('u12-s04', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '12.4.1',
       bookRef: 'Unit 12 · 12.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -138,14 +138,12 @@ PBE2.page('u12-s04', {
       {
             q: 'Read the two lines. Which helps? I did not do row four · I did '
               + 'not do row four because the ladder was in the yard',
-            minWords: 6,
+            model: 'The second helps',
+            minWords: 1,
             rows: 2,
             hint: 'One of them lets the next man fix the cause before he starts.'
           }],
-      ideas: ['I did not because'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -194,17 +192,20 @@ PBE2.page('u12-s04', {
             q: 'Books closed. Listen. What does Samih do with the I did not line?',
             options: [{
               t: 'complains',
-              ok: false
+              ok: false,
+              why: 'Ammar expected that and says so. Samih\'s answer is something else.'
             },
             {
               t: 'starts there',
               ok: true,
-              why: 'starts there'
+              why: 'So I bring the ladder in first, before I start.'
             },
             {
               t: 'tells Abu Yasser',
-              ok: false
-            }]
+              ok: false,
+              why: 'Nobody is told. Samih uses the line himself.'
+            }],
+            evidence: 'Samih\'s answer straight after the because'
           },
         {
             q: 'Listen again. What does Samih do first because of the reason?',
@@ -247,6 +248,21 @@ PBE2.page('u12-s04', {
             evidence: 'his long line near the end'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '12.4.2',
+      bookRef: 'Unit 12 · 12.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Add the because.',
+      text: '<b>1</b> I did not do row four [[1]]. &nbsp; <b>2</b> I did not count it '
+      + '[[2]]. &nbsp; <b>3</b> I did not ring him [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

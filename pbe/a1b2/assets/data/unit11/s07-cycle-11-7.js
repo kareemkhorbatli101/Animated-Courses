@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u11-s07', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 11 · 11.7', part: '11.7',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 11 · 11.7', part: '11.7',
           section: '7', lesson: 'Review: the price list', title: 'Review: the price list' },
   objective: 'Review: the price list — and one problem to talk about together',
   study: {
@@ -180,17 +180,21 @@ PBE2.page('u11-s07', {
             q: 'Books closed. Listen. What happened?',
             options: [{
               t: 'the customer paid too little',
-              ok: false
+              ok: false,
+              why: 'He pays six hundred where the price is eight hundred, so this '
+                + 'looks right. Listen to what Nour says.'
             },
             {
               t: 'he was given the old price and is right',
               ok: true,
-              why: 'he was given the old price and is right'
+              why: 'The paper on the wall says six hundred and he read it before he ordered.'
             },
             {
               t: 'he did not pay',
-              ok: false
-            }]
+              ok: false,
+              why: 'He does pay. The argument is about which price.'
+            }],
+            evidence: 'Nour\'s line that begins he is right'
           },
         {
             q: 'Listen again. How many large bags does the customer buy, and for '

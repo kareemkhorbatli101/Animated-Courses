@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u10-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 10 · 10.3', part: '10.3',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 10 · 10.3', part: '10.3',
           section: '3', lesson: 'STOP', title: 'STOP' },
   objective: 'stop somebody — in one word',
   study: {
@@ -198,17 +198,21 @@ PBE2.page('u10-s03', {
             q: 'Books closed. Listen. What was behind the lorry?',
             options: [{
               t: 'a pallet',
-              ok: false
+              ok: false,
+              why: 'Pallets are everywhere in this book, but nobody mentions one here.'
             },
             {
               t: 'Abu Raed',
               ok: true,
-              why: 'Abu Raed'
+              why: 'Abu Raed is behind you. He was picking up a nail.'
             },
             {
               t: 'nothing',
-              ok: false
-            }]
+              ok: false,
+              why: 'The driver says there is nothing in the mirror - and that is '
+                + 'the point, because he could not see.'
+            }],
+            evidence: 'Ammar\'s line straight after he shouts'
           },
         {
             q: 'Listen again. What did Abu Raed do when he heard the shout?',
@@ -252,6 +256,21 @@ PBE2.page('u10-s03', {
             evidence: 'the last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '10.3.2',
+      bookRef: 'Unit 10 · 10.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'What do you say?',
+      text: '<b>1</b> One second, somebody is behind a lorry. [[1]] &nbsp; <b>2</b> '
+      + 'Three seconds. [[2]] &nbsp; <b>3</b> Afterwards. [[3]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

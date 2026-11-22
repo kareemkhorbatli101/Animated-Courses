@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u9-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 9 · 9.6', part: '9.6',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 9 · 9.6', part: '9.6',
           section: '6', lesson: 'Three sentences, in order', title: 'Three sentences, in order' },
   objective: 'tell it in order — three sentences',
   study: {
@@ -197,16 +197,20 @@ PBE2.page('u9-s06', {
             options: [{
               t: 'three',
               ok: true,
-              why: 'three'
+              why: 'Three sentences - light, lorry, row four - and Ammar repeats '
+                + 'all three back.'
             },
             {
               t: 'six',
-              ok: false
+              ok: false,
+              why: 'He tried six once, and says what happened: two were remembered.'
             },
             {
               t: 'nine',
-              ok: false
-            }]
+              ok: false,
+              why: 'Nine words each is in the line. Nine sentences is not.'
+            }],
+            evidence: 'Samih\'s first line, and the three things Ammar repeats back'
           },
         {
             q: 'Listen again. What are the three sentences about?',
@@ -252,6 +256,23 @@ PBE2.page('u9-s06', {
           }],
         say: true
       }
+    },
+    {
+      id: 'c15',
+      kind: 'own',
+      ref: '9.6.2',
+      bookRef: 'Unit 9 · 9.6 · Lesson A · Speaking · Listen and read',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Put these in order 1, 2, 3. a) I did not finish the shelves. b) '
+              + 'The water is still off. c) Twelve bags came and nobody checked '
+              + 'them.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c3',

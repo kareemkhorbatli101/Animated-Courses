@@ -602,6 +602,46 @@ PBE8.scene('u22-22-7', {
   ]
 });
 
+PBE8.scene('u22-22-7-pair', {
+  set: 'interview',
+  arr: 0,
+  cast: {
+    nour: { rig: 'f-20s-a', name: 'Nour', voice: 'en-US-AriaNeural', shirt: '#b8527a', shirt2: '#95415f',
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62],
+      pose: 'rest' },
+    sayegh: { rig: 'm-50s-b', name: 'Mr Sayegh', voice: 'en-AU-WilliamMultilingualNeural', shirt: '#4a5e74', shirt2: '#3a4a5c',
+      full: true, scale: 0.62, bottom: 30, at: [0.70, 0.62],
+      pose: 'rest' }
+  },
+  lines: [
+    { who: 'nour', cam: { shot: 'wide' },
+      en: 'The review as I first wrote it reads as a criticism of your April decision.' },
+    { who: 'sayegh', cam: { shot: 'mid' },
+      en: 'A reader in a year will see the tension and conclude somebody was wrong.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'I have a third draft that agrees with April. It is the only '
+            + 'dishonest document I have written.' },
+    { who: 'sayegh', cam: { shot: 'mid' },
+      en: 'Dishonest? Nothing in it is untrue.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'It is smaller than what I found, and it was made smaller to agree '
+            + 'with another document.' },
+    { who: 'sayegh', cam: { shot: 'mid' },
+      en: 'Then the file carries both, and the tension stays on it.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'And a third paragraph, signed by both of us, saying the review '
+            + 'does not disprove the April decision.' },
+    { who: 'sayegh', cam: { shot: 'mid' },
+      en: 'Which is a more uncomfortable thing to sign than the review was to write.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'It is. I add that I was the person appointed instead, which all '
+            + 'three drafts left out.' },
+    { who: 'sayegh', cam: { shot: 'close' },
+      en: 'Add it. I would rather sign the tension than hold a file that '
+            + 'agrees with itself.' }
+  ]
+});
+
 PBE8.scene('u22-22-7-b', {
   set: 'interview',
   arr: 0,

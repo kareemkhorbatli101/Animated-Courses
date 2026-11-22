@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u3-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 3 · 3.2', part: '3.2',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 3 · 3.2', part: '3.2',
           section: '2', lesson: 'Seven o\'clock, half past four', title: 'Seven o\'clock, half past four' },
   objective: 'say the time',
   study: {
@@ -134,8 +134,8 @@ PBE1.page('u3-s02', {
             q: 'What time is it now? Say it. Write it here:',
             minWords: 6,
             rows: 2,
-            hint: 'Say it both ways - the numbers, and the words with *past* or '
-              + '*to*. This cycle wants both every time.'
+            hint: 'Say it both ways - the numbers, and the words with <i>past</i> '
+              + 'or <i>to</i>. This cycle wants both every time.'
           },
       {
             q: 'What time do you start work? What time do you finish? Tell your partner.',
@@ -237,7 +237,7 @@ PBE1.page('u3-s02', {
             options: [{
               t: 'because different men say it differently',
               ok: true,
-              why: '*Some men say one, some say the other.* You cannot choose '
+              why: '“Some men say one, some say the other.” You cannot choose '
                 + 'which version arrives at you, so you need both.'
             },
             {
@@ -251,9 +251,25 @@ PBE1.page('u3-s02', {
               why: 'The board carries the shift in other cycles, but nothing here '
                 + 'says times are written twice.'
             }],
-            evidence: 'his line right after Ammar says *seven fifteen*'
+            evidence: 'his line right after Ammar says “seven fifteen”'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '3.2.2',
+      bookRef: 'Unit 3 · 3.2 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the other way.',
+      text: '<b>1</b> 8.30 = half past eight = [[1]] &nbsp; <b>2</b> quarter past '
+      + 'nine = [[2]] &nbsp; <b>3</b> 4.45 = [[3]] &nbsp; <b>4</b> six o\'clock = '
+      + '[[4]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

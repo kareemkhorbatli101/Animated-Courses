@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u7-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 7 · 7.6', part: '7.6',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 7 · 7.6', part: '7.6',
           section: '6', lesson: 'One line, and somebody acts on it', title: 'One line, and somebody acts on it' },
   objective: 'write one line about it',
   study: {
@@ -190,17 +190,23 @@ PBE2.page('u7-s06', {
             q: 'Books closed. Listen. What happened because of Ammar\'s one line?',
             options: [{
               t: 'nothing',
-              ok: false
+              ok: false,
+              why: 'Twelve words sounds too small to matter, which is why this is '
+                + 'the easy guess. Nour says what it did.'
             },
             {
               t: 'the office took money off the invoice',
               ok: true,
-              why: 'the office took money off the invoice'
+              why: 'Nour says it: forty thousand off the Aleppo invoice, from '
+                + 'twelve words with two numbers in them.'
             },
             {
               t: 'the lorry went back',
-              ok: false
-            }]
+              ok: false,
+              why: 'A lorry going is in her other story - the month when nobody '
+                + 'wrote the numbers down.'
+            }],
+            evidence: 'Nour\'s second line, about what she took upstairs'
           },
         {
             q: 'Listen again. How much did the office take off the invoice?',
@@ -244,6 +250,20 @@ PBE2.page('u7-s06', {
             evidence: 'Nour\'s last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '7.6.2',
+      bookRef: 'Unit 7 · 7.6 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write one line for each.',
+      text: '<b>1</b> Twelve bags, three torn at the top, already torn on the van. [[1]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

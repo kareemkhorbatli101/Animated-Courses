@@ -424,6 +424,26 @@ PBE8.arabic({
     '⚠ إذن أكتب الوثيقة الثالثة، وهي فقرة واحدة، وتقول ما كلٌّ منهما من أجله. ⚠ لا للتوفيق بينهما — بل لقول إنهما ليستا مفترضتين أن تتوافقا.',
   '⚠ And I have to sign that, which means signing a sentence saying my April decision is not disproved by a review that contradicts it. ⚠ Which is a more uncomfortable thing to sign than the review was to write.':
     '⚠ وعليّ أن أوقّع على ذلك، ومعناه التوقيع على جملة تقول إن قراري في نيسان لا تنقضه مراجعةٌ تناقضه. ⚠ وهو شيء أشدّ إزعاجًا في التوقيع مما كانت المراجعة في الكتابة.',
+  'The review as I first wrote it reads as a criticism of your April decision.':
+    'المراجعة بصياغتها الأولى تُقرأ كنقد لقرارك في نيسان.',
+  'A reader in a year will see the tension and conclude somebody was wrong.':
+    'وقارئ بعد سنة سيرى التناقض ويستنتج أنّ أحدًا كان مخطئًا.',
+  'I have a third draft that agrees with April. It is the only dishonest document I have written.':
+    'عندي مسوّدة ثالثة تتّفق مع نيسان. وهي الوثيقة غير الصادقة الوحيدة التي كتبتها.',
+  'Dishonest? Nothing in it is untrue.':
+    'غير صادقة؟ لا شيء فيها غير صحيح.',
+  'It is smaller than what I found, and it was made smaller to agree with another document.':
+    'هي أصغر من الذي وجدته، وقد صُغّرت لتتّفق مع وثيقة أخرى.',
+  'Then the file carries both, and the tension stays on it.':
+    'إذن يحمل الملفّ الوثيقتين، ويبقى التناقض عليه.',
+  'And a third paragraph, signed by both of us, saying the review does not disprove the April decision.':
+    'وفقرة ثالثة، نوقّعها كلانا، تقول إنّ المراجعة لا تنقض قرار نيسان.',
+  'Which is a more uncomfortable thing to sign than the review was to write.':
+    'وهو أمر أثقل على النفس في التوقيع من أن تُكتب المراجعة نفسها.',
+  'It is. I add that I was the person appointed instead, which all three drafts left out.':
+    'صحيح. وأضيف أنني كنت الشخص الذي عُيّن بدلًا، وهو ما أسقطته المسوّدات الثلاث.',
+  'Add it. I would rather sign the tension than hold a file that agrees with itself.':
+    'أضيفيه. أفضّل أن أوقّع التناقض على أن أحمل ملفًّا يتّفق مع نفسه.',
   'Four reviews. What did you actually learn?':
     'أربع مراجعات. فماذا تعلّمتِ فعلًا؟',
   '⚠ That I withdrew three assessments out of eleven, ⚠ and all three for the same reason: I went to look for the instances and there were none. Twenty minutes each.':

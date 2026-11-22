@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u11-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 11 · 11.2', part: '11.2',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 11 · 11.2', part: '11.2',
           section: '2', lesson: 'What would you like?', title: 'What would you like?' },
   objective: 'ask what they want',
   study: {
@@ -122,7 +122,7 @@ PBE2.page('u11-s02', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '11.2.1',
       bookRef: 'Unit 11 · 11.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -139,15 +139,13 @@ PBE2.page('u11-s02', {
       {
             q: 'Read the three questions. Which is best at a counter? What do '
               + 'you want? · What would you like? · Yes?',
-            minWords: 6,
+            model: 'What would you like?',
+            minWords: 1,
             rows: 2,
             hint: 'All three get an answer. Only one of them could be said to a '
               + 'stranger who is about to spend money.'
           }],
-      ideas: ['Asking, and checking you heard right'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -196,17 +194,21 @@ PBE2.page('u11-s02', {
             q: 'Books closed. Listen. What does the customer want?',
             options: [{
               t: 'bread',
-              ok: false
+              ok: false,
+              why: 'Nothing in this shop scene is bread.'
             },
             {
               t: 'twenty bags and two kilos of sugar',
               ok: true,
-              why: 'twenty bags and two kilos of sugar'
+              why: 'Twenty of the small bags and two kilos of sugar - and Majd '
+                + 'repeats it back to check.'
             },
             {
               t: 'a receipt',
-              ok: false
-            }]
+              ok: false,
+              why: 'A receipt comes later in this unit, in another scene.'
+            }],
+            evidence: 'the customer\'s first line, and Majd repeating it back'
           },
         {
             q: 'Listen again. Which sugar does the customer choose?',
@@ -249,6 +251,21 @@ PBE2.page('u11-s02', {
             evidence: 'his second line and his second-to-last'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '11.2.2',
+      bookRef: 'Unit 11 · 11.2 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the line.',
+      text: '<b>1</b> Ask what they want. [[1]]? &nbsp; <b>2</b> Read back two bags '
+      + 'and one kilo. [[2]]. [[2b]]? &nbsp; <b>3</b> Before the money. [[3]]?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

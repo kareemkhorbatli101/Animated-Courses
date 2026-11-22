@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u11-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 11 · 11.1', part: '11.1',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 11 · 11.1', part: '11.1',
           section: '1', lesson: 'Good morning. Can I help you?', title: 'Good morning. Can I help you?' },
   objective: 'greet a customer',
   study: {
@@ -200,17 +200,22 @@ PBE2.page('u11-s01', {
             q: 'Books closed. Listen. What does Majd say first?',
             options: [{
               t: 'yes?',
-              ok: false
+              ok: false,
+              why: 'That is what a counter man who is not Majd would say. This '
+                + 'scene is about his two things.'
             },
             {
               t: 'good morning',
               ok: true,
-              why: 'good morning'
+              why: 'Good morning. Can I help you - two things, every time, four '
+                + 'hundred times a week.'
             },
             {
               t: 'nothing',
-              ok: false
-            }]
+              ok: false,
+              why: 'Saying nothing is what he says Abu Fouad does, not what he does.'
+            }],
+            evidence: 'Majd\'s first line - the two things he says every time'
           },
         {
             q: 'Listen again. How many times a week does Majd say it?',
@@ -253,6 +258,21 @@ PBE2.page('u11-s01', {
             evidence: 'the last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '11.1.2',
+      bookRef: 'Unit 11 · 11.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the greeting.',
+      text: '<b>1</b> It is nine in the morning. [[1]]. [[1b]]? &nbsp; <b>2</b> It is '
+      + 'three in the afternoon. [[2]]. [[2b]]?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

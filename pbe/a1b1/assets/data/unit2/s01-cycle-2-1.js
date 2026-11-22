@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u2-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 2 · 2.1', part: '2.1',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 2 · 2.1', part: '2.1',
           section: '1', lesson: 'One, two, three — how many?', title: 'One, two, three — how many?' },
   objective: 'say the numbers 0 to 20',
   study: {
@@ -123,7 +123,7 @@ PBE1.page('u2-s01', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '2.1.1',
       bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -138,16 +138,14 @@ PBE1.page('u2-s01', {
           },
       {
             q: 'How many chairs are in this room? Say the number. Write it here:',
-            minWords: 6,
+            model: 'Open. Whatever the room holds',
+            minWords: 2,
             rows: 2,
-            hint: 'Count them by pointing. Then say the number *with* the word - '
-              + '*nine chairs*, not *nine* - because that is the habit this unit '
-              + 'is built on.'
+            hint: 'Count them by pointing. Then say the number <i>with</i> the word '
+              + '- <i>nine chairs</i>, not <i>nine</i> - because that is the '
+              + 'habit this unit is built on.'
           }],
-      ideas: ['The numbers 0 to 20'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -228,13 +226,13 @@ PBE1.page('u2-s01', {
             options: [{
               t: 'so each number is tied to the things it counts',
               ok: true,
-              why: 'Pointing while he says *twelve here, six here, eighteen* is '
+              why: 'Pointing while he says “twelve here, six here, eighteen” is '
                 + 'what stops a number floating free of what it counted.'
             },
             {
               t: 'because Ammar counted wrongly',
               ok: false,
-              why: 'Abu Yasser says *good* before he asks for it again, so nothing '
+              why: 'Abu Yasser says “good” before he asks for it again, so nothing '
                 + 'needs correcting.'
             },
             {
@@ -246,6 +244,21 @@ PBE1.page('u2-s01', {
             evidence: 'the last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '2.1.2',
+      bookRef: 'Unit 2 · 2.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the number in words.',
+      text: '<b>1</b> 12 [[1]] &nbsp; <b>2</b> 18 [[2]] &nbsp; <b>3</b> 7 [[3]] '
+      + '&nbsp; <b>4</b> 15 [[4]] &nbsp; <b>5</b> 20 [[5]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -269,7 +282,8 @@ PBE1.page('u2-s01', {
             model: 'Six',
             minWords: 1,
             rows: 2,
-            hint: 'The second of his two counts, after Abu Yasser asks *and on the floor?*'
+            hint: 'The second of his two counts, after Abu Yasser asks <i>and on '
+              + 'the floor?</i>'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -474,7 +488,7 @@ PBE1.page('u2-s01', {
             model: 'Nine rolls',
             minWords: 1,
             rows: 2,
-            hint: 'The count sheet, shelf 3 row. Give the number *and* what is '
+            hint: 'The count sheet, shelf 3 row. Give the number <i>and</i> what is '
               + 'being counted - the unit word is half the answer in this unit.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'

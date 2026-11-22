@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u8-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 8 · 8.3', part: '8.3',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 8 · 8.3', part: '8.3',
           section: '3', lesson: 'The same question, twice', title: 'The same question, twice' },
   objective: 'say please — and find out what it is worth',
   study: {
@@ -123,7 +123,7 @@ PBE2.page('u8-s03', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '8.3.1',
       bookRef: 'Unit 8 · 8.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -140,14 +140,13 @@ PBE2.page('u8-s03', {
       {
             q: 'Where does please go in English? Say it three ways: at the '
               + 'start, in the middle, at the end.',
-            minWords: 6,
+            model: 'Open. All three positions are grammatical',
+            minWords: 2,
             rows: 2,
             hint: 'All three are correct. Say them aloud and notice that one of the '
               + 'three sounds like an order anyway.'
           }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -196,17 +195,23 @@ PBE2.page('u8-s03', {
             q: 'Books closed. Listen. Who gets the tape faster?',
             options: [{
               t: 'the first man',
-              ok: false
+              ok: false,
+              why: 'Hani speaks first, so first is the obvious guess. Listen to '
+                + 'how long each man waits.'
             },
             {
               t: 'the second man',
               ok: true,
-              why: 'the second man, Ammar'
+              why: 'Hani says it himself: four seconds for one of them, two '
+                + 'minutes for him. Majd says why.'
             },
             {
               t: 'the same',
-              ok: false
-            }]
+              ok: false,
+              why: 'It is the same tape, and Majd agrees it is. He says it is not '
+                + 'the same two minutes.'
+            }],
+            evidence: 'Hani\'s line at the end, where he says the two times'
           },
         {
             q: 'Listen again. What did the first man say when he asked?',
@@ -250,6 +255,21 @@ PBE2.page('u8-s03', {
             evidence: 'the last line of the dialogue'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '8.3.2',
+      bookRef: 'Unit 8 · 8.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the request properly.',
+      text: '<b>1</b> _Tape._ → [[1]]? &nbsp; <b>2</b> _Give me the key._ → [[2]]? '
+      + '&nbsp; <b>3</b> _Pen._ → [[3]]?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

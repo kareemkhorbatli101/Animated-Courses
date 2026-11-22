@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u8-s07', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 8 · 8.7', part: '8.7',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 8 · 8.7', part: '8.7',
           section: '7', lesson: 'Review: the counter', title: 'Review: the counter' },
   objective: 'Review: the counter — and one problem to talk about together',
   study: {
@@ -181,17 +181,20 @@ PBE2.page('u8-s07', {
             q: 'Books closed. Listen. What is the problem with Abu Fouad?',
             options: [{
               t: 'he does not pay',
-              ok: false
+              ok: false,
+              why: 'Nour says the opposite: he pays on the day.'
             },
             {
               t: 'he has never said please in eleven years',
               ok: true,
-              why: 'he has never said please in eleven years'
+              why: 'Majd\'s count: eleven years, twice a week, and not once.'
             },
             {
               t: 'he always wants credit',
-              ok: false
-            }]
+              ok: false,
+              why: 'Credit is never mentioned. The talk is about the words he uses.'
+            }],
+            evidence: 'Majd\'s count of the years, and Nour\'s line about the account'
           },
         {
             q: 'Listen again. By when must the long ladder come back?',

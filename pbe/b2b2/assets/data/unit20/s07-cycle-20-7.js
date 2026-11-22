@@ -324,52 +324,39 @@ PBE8.page('u20-s07', {
     },
     {
       id: 'c4',
-      kind: 'model',
       ref: '20.7.3',
       bookRef: 'Unit 20 · 20.7 · Lesson A · Speaking · Practise',
-      type: 'discuss',
+      type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. A is making a split appointment; B is the person acting in '
   + 'the gap. ⚠ Use the five steps in order.',
-      passage: {
-        title: 'From the book',
-        html: '<table class=\'bk\'><tr><th>B asks</th><th>A '
-          + 'answers</th></tr><tr><td>⚠ <b>Has it been decided, or is it '
-          + 'open?</b></td><td><span class="blank"></span></td></tr><tr><td>⚠ '
-          + '<b>So am I acting, or auditioning?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>Why is there a gap at '
-          + 'all? Is it about me?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>When does this '
-          + 'arrangement end, whatever happens?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>And what am I supposed '
-          + 'to actually DO in it, as a job?</b></td><td><span '
-          + 'class="blank"></span></td></tr></table><table '
-          + 'class=\'bk\'><tr><th>Role card 1 — leave it open, it is '
-          + 'kinder</th><th>Role card 2 — two months, nobody need date '
-          + 'it</th></tr><tr><td>⚠ <b>A wants to leave the substantive '
-          + 'appointment open so as not to disappoint anybody now.</b> ⚠ <b>B '
-          + 'asks what they will be doing for two months, and what they will feel '
-          + 'in July.</b> ⚠ <b>B\'s point: leaving it open does not spare the '
-          + 'person, it postpones the same news and adds two months of work done '
-          + 'for a reason that was never available</b> — <b>and the grievance in '
-          + 'July is then entirely legitimate.</b></td><td>⚠ <b>A sees no need to '
-          + 'date the end of a two-month arrangement that everybody '
-          + 'understands.</b> ⚠ <b>B asks what happens if the award slips to '
-          + 'September.</b> ⚠ <b>B\'s point: every permanent temporary '
-          + 'arrangement anybody has ever seen began as a short one nobody '
-          + 'dated</b> — <b>and the person with standing to object is the one who '
-          + 'was told not to hope, which makes the drift both likely and '
-          + 'unanswerable.</b></td></tr></table>'
-      },
-      questions: [{
-            q: 'Write what you said and what you heard.',
-            model: 'The five steps, with a sample run',
-            minWords: 2,
-            rows: 2,
-            hint: 'Both sides: your lines, then the other person\'s. Alone, the '
-              + 'engine is the other person - write what it said.'
-          }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      scene: 'u20-20-7-pair',
+      roles: [{
+          who: 'a',
+          label: 'A'
+        },
+      {
+          who: 'b',
+          label: 'B'
+        }],
+      minWords: 8,
+      notePlaceholder: 'Write two lines you said in the role-play…',
+      table: {
+        title: 'The cards the book gives you',
+        head: ['B asks',
+        'A answers'],
+        rows: [['⚠ <b>Has it been decided, or is it open?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>So am I acting, or auditioning?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>Why is there a gap at all? Is it about me?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>When does this arrangement end, whatever happens?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>And what am I supposed to actually DO in it, as a job?</b>',
+          '<span class="blank"></span>']]
+      }
     },
     {
       id: 'c5',

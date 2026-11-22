@@ -432,6 +432,26 @@ PBE8.arabic({
     'وهو خيارك، لا خياري.',
   '⚠ It is your paper. I would not have found it reading a paper with three lines of straw in the middle of it — and I am going to the board recommending something I argued against in December, which is the part of this that costs me.':
     '⚠ هي ورقتك. ولم أكن سأجده بقراءة ورقة في وسطها ثلاثة أسطر من القشّ — وأنا ذاهبة إلى المجلس أوصي بشيء عارضتُه في كانون الأول، وذلك هو الجزء الذي يكلّفني.',
+  'Section five states option C fairly. Stated fairly, it may defeat my own recommendation.':
+    'يعرض البند الخامس الخيار «ج» عرضًا منصفًا. وبعرضه منصفًا قد يهزم توصيتي أنا.',
+  'Then your own paper will have done it. That is what a paper written properly does.':
+    'إذن تكون ورقتك أنت قد فعلت ذلك. هذا ما تفعله ورقة مكتوبة كما ينبغي.',
+  'I could state it narrowly and nobody would notice for a year.':
+    'كان بإمكاني عرضه عرضًا ضيّقًا ولا يلاحظ أحد لمدّة سنة.',
+  'You would notice. A paper written properly cannot be unwritten once the writer has seen where it leads.':
+    'أنت ستلاحظ. ورقة مكتوبة كما ينبغي لا يمكن سحبها بعد أن يرى كاتبها إلى أين تؤدّي.',
+  'Nour has the largest personal reason to want section five weak.':
+    'لنور أكبر سبب شخصي في أن تريد البند الخامس ضعيفًا.',
+  'Which is exactly why she will not touch it, and she says so.':
+    'ولهذا بالضبط لن تمسّه، وهي تقول ذلك صراحةً.',
+  'Then there is a fourth option that neither of us wrote. Sixty square metres, with a written option over the adjoining sixty.':
+    'إذن هناك خيار رابع لم يكتبه أيّ منّا. ستّون مترًا مربّعًا، مع خيار مكتوب على الستّين المجاورة.',
+  'For how long, and at what?':
+    'لكم من الوقت، وبكم؟',
+  'Six months, at about forty-five thousand. Nour found it, after being told not to look.':
+    'ستّة أشهر، بنحو خمسة وأربعين ألفًا. وجدته نور، بعد أن قيل لها ألّا تبحث.',
+  'Then her name goes in the paper against it. You give up the authorship and the firm gets the option.':
+    'إذن يوضع اسمها في الورقة إزاءه. تتنازل عن نسبة التأليف وتكسب الشركة الخيار.',
   'Well?':
     'وبعد؟',
   '⚠ They took the fourth option. Sixty square metres and a written option over the adjoining sixty, for six months.':

@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u2-s07', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 2 · 2.7', part: '2.7',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 2 · 2.7', part: '2.7',
           section: '7', lesson: 'Review: the count sheet', title: 'Review: the count sheet' },
   objective: 'Review: the count sheet — and one problem to talk about together',
   study: {
@@ -201,7 +201,7 @@ PBE1.page('u2-s07', {
             {
               t: 'seventeen, by ten',
               ok: false,
-              why: 'Seventeen is what Ammar checks against: *seven zero, or one seven?*'
+              why: 'Seventeen is what Ammar checks against: “seven zero, or one seven?”'
             },
             {
               t: 'seventy, by eleven',
@@ -216,7 +216,7 @@ PBE1.page('u2-s07', {
             options: [{
               t: 'his own name',
               ok: true,
-              why: '*I write the zero, and my name.* A zero nobody signed is a '
+              why: '“I write the zero, and my name.” A zero nobody signed is a '
                 + 'zero nobody can be asked about.'
             },
             {

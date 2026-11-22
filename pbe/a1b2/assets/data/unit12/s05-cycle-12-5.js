@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u12-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 12 · 12.5', part: '12.5',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 12 · 12.5', part: '12.5',
           section: '5', lesson: 'Please do row four', title: 'Please do row four' },
   objective: 'say what the next person must do',
   study: {
@@ -194,17 +194,22 @@ PBE2.page('u12-s05', {
             q: 'Books closed. Listen. Which does Ammar use?',
             options: [{
               t: 'do',
-              ok: false
+              ok: false,
+              why: 'The word do is in both sentences Ammar offers, so it does not '
+                + 'decide between them.'
             },
             {
               t: 'please',
               ok: true,
-              why: 'please'
+              why: 'Abu Yasser answers with it: please, because he is a man you '
+                + 'work with, not a man you give orders to.'
             },
             {
               t: 'must',
-              ok: false
-            }]
+              ok: false,
+              why: 'Must is kept for safety - you must not open the paint store.'
+            }],
+            evidence: 'Abu Yasser\'s one-word answer, and then what he keeps must for'
           },
         {
             q: 'Listen again. When does Abu Yasser say to use “must”?',
@@ -249,6 +254,22 @@ PBE2.page('u12-s05', {
             evidence: 'his line after please-for-work and must-for-safety'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '12.5.2',
+      bookRef: 'Unit 12 · 12.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write line four.',
+      text: '<b>1</b> You want row four done. [[1]]. &nbsp; <b>2</b> You want Beirut '
+      + 'rung before ten. [[2]]. &nbsp; <b>3</b> Nobody must go in the paint '
+      + 'store alone. [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

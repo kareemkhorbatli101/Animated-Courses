@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u8-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 8 · 8.6', part: '8.6',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 8 · 8.6', part: '8.6',
           section: '6', lesson: 'Thank you for the ladder', title: 'Thank you for the ladder' },
   objective: 'thank somebody for a named thing',
   study: {
@@ -122,7 +122,7 @@ PBE2.page('u8-s06', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '8.6.1',
       bookRef: 'Unit 8 · 8.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -139,15 +139,12 @@ PBE2.page('u8-s06', {
       {
             q: 'Read the two lines. Which does the other man remember? Thanks · '
               + 'Thank you for the ladder. I could not have reached it.',
-            minWords: 6,
+            model: 'The second line',
+            minWords: 1,
             rows: 2,
             hint: 'One of them tells the helper what their help was worth.'
           }],
-      ideas: ['Thanking for a named thing',
-      'That is about forty minutes'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -195,17 +192,22 @@ PBE2.page('u8-s06', {
             q: 'Books closed. Listen. What does Ammar thank Samih for?',
             options: [{
               t: 'the tape',
-              ok: false
+              ok: false,
+              why: 'The tape is Majd\'s, in another scene of this unit.'
             },
             {
               t: 'bringing the ladder',
               ok: true,
-              why: 'bringing the ladder in'
+              why: 'Thank you for the ladder this morning - and he says what for: '
+                + 'carried in from the yard at half past seven.'
             },
             {
               t: 'counting with him',
-              ok: false
-            }]
+              ok: false,
+              why: 'A Monday count is mentioned, but as the other time somebody '
+                + 'said what for - not as what Samih did here.'
+            }],
+            evidence: 'Ammar\'s first line, and the words half past seven'
           },
         {
             q: 'Listen again. What time did Samih bring the ladder in?',
@@ -249,6 +251,21 @@ PBE2.page('u8-s06', {
             evidence: 'his line near the end, and the number he gives'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '8.6.2',
+      bookRef: 'Unit 8 · 8.6 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Make it strong.',
+      text: '<b>1</b> Thanks. → [[1]]. &nbsp; <b>2</b> Thank you. → [[2]]. &nbsp; '
+      + '<b>3</b> Thank you very much. → [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

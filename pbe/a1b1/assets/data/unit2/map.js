@@ -5,7 +5,7 @@ PBE1.unitMap('unit2', [{
       part: '2.1',
       lesson: 'One, two, three — how many?',
       label: '2.1 One, two, three — how many?',
-      n: 14
+      n: 15
     },
     {
       id: 'u2-s02',
@@ -13,7 +13,7 @@ PBE1.unitMap('unit2', [{
       part: '2.2',
       lesson: 'Twenty, fifty, three hundred',
       label: '2.2 Twenty, fifty, three hundred',
-      n: 14
+      n: 15
     },
     {
       id: 'u2-s03',
@@ -21,7 +21,7 @@ PBE1.unitMap('unit2', [{
       part: '2.3',
       lesson: 'One carton, two cartons, a packet of twenty',
       label: '2.3 One carton, two cartons, a packet of twenty',
-      n: 14
+      n: 15
     },
     {
       id: 'u2-s04',
@@ -29,7 +29,7 @@ PBE1.unitMap('unit2', [{
       part: '2.4',
       lesson: 'There are six on the shelf. There are none on the floor.',
       label: '2.4 There are six on the shelf. There are none on the floor.',
-      n: 14
+      n: 15
     },
     {
       id: 'u2-s05',
@@ -37,7 +37,7 @@ PBE1.unitMap('unit2', [{
       part: '2.5',
       lesson: 'Say it, write it, read it back',
       label: '2.5 Say it, write it, read it back',
-      n: 14
+      n: 15
     },
     {
       id: 'u2-s06',
@@ -45,7 +45,7 @@ PBE1.unitMap('unit2', [{
       part: '2.6',
       lesson: 'It is not twelve. It is nine.',
       label: '2.6 It is not twelve. It is nine.',
-      n: 14
+      n: 15
     },
     {
       id: 'u2-s07',

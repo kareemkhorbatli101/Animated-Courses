@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u5-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 5 · 5.4', part: '5.4',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 5 · 5.4', part: '5.4',
           section: '4', lesson: 'Sign here — and what you have just said', title: 'Sign here — and what you have just said' },
   objective: 'sign — and know what you have agreed to',
   study: {
@@ -125,7 +125,7 @@ PBE1.page('u5-s04', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '5.4.1',
       bookRef: 'Unit 5 · 5.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -142,16 +142,13 @@ PBE1.page('u5-s04', {
       {
             q: 'Read the two lines. Which one can you say to a driver in a '
               + 'hurry? No · I have not counted it yet. Two minutes.',
-            minWords: 6,
+            model: 'The second line',
+            minWords: 1,
             rows: 2,
             hint: 'One of them stops the conversation, and one of them tells him '
               + 'exactly how long his wait is.'
           }],
-      ideas: ['Goods received by: Ammar Zreik',
-      'Signature: A. Zreik'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -241,7 +238,7 @@ PBE1.page('u5-s04', {
             options: [{
               t: 'one box short',
               ok: true,
-              why: 'He writes fifteen, signs it, *and* writes one box short - so '
+              why: 'He writes fifteen, signs it, “and” writes one box short - so '
                 + 'the difference is on the paper and not just in his memory.'
             },
             {
@@ -259,6 +256,23 @@ PBE1.page('u5-s04', {
             evidence: 'Ammar\'s second-to-last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '5.4.2',
+      bookRef: 'Unit 5 · 5.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the line.',
+      text: '<b>1</b> The driver is in a hurry and you have not counted. [[1]]. '
+      + '&nbsp; <b>2</b> The paper says &nbsp; <b>16</b> and you counted 15. '
+      + '[[16]]. &nbsp; <b>3</b> You sign. What do you write beside your name? '
+      + '[[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

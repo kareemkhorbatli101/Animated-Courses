@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u7-s07', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 7 · 7.7', part: '7.7',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 7 · 7.7', part: '7.7',
           section: '7', lesson: 'Review: a damage note', title: 'Review: a damage note' },
   objective: 'Review: a damage note — and one problem to talk about together',
   study: {
@@ -183,17 +183,23 @@ PBE2.page('u7-s07', {
             q: 'Books closed. Listen. How many people saw the carton?',
             options: [{
               t: 'one',
-              ok: false
+              ok: false,
+              why: 'Only one man wrote nothing on the sheet, so one feels right. '
+                + 'Count the voices that say I saw them.'
             },
             {
               t: 'two',
-              ok: false
+              ok: false,
+              why: 'Two is the number of crushed cartons. It is in the scene for '
+                + 'that reason, not for the people.'
             },
             {
               t: 'four',
               ok: true,
-              why: 'four'
-            }]
+              why: 'Fouad, Samih, Ammar and Abu Yasser each say I saw them, and '
+                + 'Nour counts four men.'
+            }],
+            evidence: 'the four men who each say I saw them, and Nour\'s count'
           },
         {
             q: 'Listen again. How many bags came and how many are torn?',

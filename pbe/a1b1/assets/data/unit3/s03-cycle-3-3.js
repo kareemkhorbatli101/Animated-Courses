@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u3-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 3 · 3.3', part: '3.3',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 3 · 3.3', part: '3.3',
           section: '3', lesson: 'I start at seven. I check the shelves.', title: 'I start at seven. I check the shelves.' },
   objective: 'say what you do every day',
   study: {
@@ -135,8 +135,9 @@ PBE1.page('u3-s03', {
               + 'Your teacher writes the English.',
             minWords: 6,
             rows: 2,
-            hint: 'Three sentences, each starting with *I* and a verb in the '
-              + 'present: *I sign in. I check. I write.* Order them by the clock.'
+            hint: 'Three sentences, each starting with <i>I</i> and a verb in the '
+              + 'present: <i>I sign in. I check. I write.</i> Order them by the '
+              + 'clock.'
           },
       {
             q: 'Put these in order for your day: start · count · break · finish',
@@ -215,7 +216,7 @@ PBE1.page('u3-s03', {
             options: [{
               t: 'he signs in at the gate',
               ok: true,
-              why: 'His list starts there: *I sign in at the gate. I read the shift board.*'
+              why: 'His list starts there: “I sign in at the gate. I read the shift board.”'
             },
             {
               t: 'he checks the shelves',
@@ -252,6 +253,22 @@ PBE1.page('u3-s03', {
             evidence: 'Nour\'s last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '3.3.2',
+      bookRef: 'Unit 3 · 3.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the verb.',
+      text: '<b>1</b> I [[1]] in at the gate. &nbsp; <b>2</b> I [[2]] the shift '
+      + 'board. &nbsp; <b>3</b> I [[3]] the numbers on the sheet. &nbsp; <b>4</b> '
+      + 'I [[4]] out at four.',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -496,7 +513,7 @@ PBE1.page('u3-s03', {
               'sheet'],
             need: 1,
             hint: 'The item straight after the shelves in his own list. It is what '
-              + 'the checking is *for*.'
+              + 'the checking is <i>for</i>.'
           },
       {
             q: 'Who told the office this?',

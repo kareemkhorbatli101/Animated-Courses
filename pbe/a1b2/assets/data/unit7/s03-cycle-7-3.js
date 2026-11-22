@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u7-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 7 · 7.3', part: '7.3',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 7 · 7.3', part: '7.3',
           section: '3', lesson: 'Two of the ten', title: 'Two of the ten' },
   objective: 'say how many are bad, not just that they are bad',
   study: {
@@ -123,7 +123,7 @@ PBE2.page('u7-s03', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '7.3.1',
       bookRef: 'Unit 7 · 7.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -138,14 +138,12 @@ PBE2.page('u7-s03', {
       {
             q: 'Read the two lines. Which can a supervisor use? Some of them are '
               + 'crushed · Two of the ten are crushed.',
-            minWords: 6,
+            model: 'The second line',
+            minWords: 1,
             rows: 2,
             hint: 'Ask which line he could act on without walking out to look.'
           }],
-      ideas: ['How many are bad'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -192,16 +190,22 @@ PBE2.page('u7-s03', {
             options: [{
               t: 'two of ten',
               ok: true,
-              why: 'two of ten'
+              why: 'Abu Yasser asks twice, and then Ammar gives both numbers: ten '
+                + 'came, two are crushed.'
             },
             {
               t: 'half',
-              ok: false
+              ok: false,
+              why: 'Abu Yasser says half - but as what he would do IF it were '
+                + 'half: telephone Aleppo. It is not what Ammar counted.'
             },
             {
               t: 'most of them',
-              ok: false
-            }]
+              ok: false,
+              why: 'He says most of them too, for the case where the lorry goes '
+                + 'back full. Also not the count.'
+            }],
+            evidence: 'the line where Ammar finally gives two numbers'
           },
         {
             q: 'Listen again. How many cartons came altogether?',
@@ -247,6 +251,22 @@ PBE2.page('u7-s03', {
             evidence: 'his last line, where he puts two different numbers side by side'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '7.3.2',
+      bookRef: 'Unit 7 · 7.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write it with two numbers.',
+      text: '<b>1</b> Twelve bags came. Three are torn. [[1]]. &nbsp; <b>2</b> Six '
+      + 'pallets came. All six are broken. [[2]]. &nbsp; <b>3</b> Twenty boxes '
+      + 'came. Ten are wet. [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

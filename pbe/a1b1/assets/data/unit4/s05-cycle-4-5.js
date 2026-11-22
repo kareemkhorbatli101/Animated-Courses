@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u4-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 4 · 4.5', part: '4.5',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 4 · 4.5', part: '4.5',
           section: '5', lesson: 'Straight on, then left at the bench', title: 'Straight on, then left at the bench' },
   objective: 'tell somebody how to walk to a place in the yard',
   study: {
@@ -136,16 +136,16 @@ PBE1.page('u4-s05', {
               + 'chair. Three orders.',
             minWords: 6,
             rows: 2,
-            hint: 'Three orders, each starting with a verb: *go, turn, stop*. Then '
-              + 'have them say it back - that is the part this cycle is really '
-              + 'teaching.'
+            hint: 'Three orders, each starting with a verb: <i>go, turn, stop</i>. '
+              + 'Then have them say it back - that is the part this cycle is '
+              + 'really teaching.'
           },
       {
             q: 'Which hand is your left? Hold it up. Say it.',
             minWords: 6,
             rows: 2,
-            hint: 'Hold it up and say *this is my left* out loud. Under pressure, '
-              + 'people say one and point at the other.'
+            hint: 'Hold it up and say <i>this is my left</i> out loud. Under '
+              + 'pressure, people say one and point at the other.'
           }],
       ideas: ['Giving a direction inside the yard'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -220,7 +220,7 @@ PBE1.page('u4-s05', {
             options: [{
               t: 'the one to the office stairs',
               ok: true,
-              why: '*Do not use the other door. It is the office stairs. No lorries.*'
+              why: '“Do not use the other door. It is the office stairs. No lorries.”'
             },
             {
               t: 'the big grey door',
@@ -230,8 +230,8 @@ PBE1.page('u4-s05', {
             {
               t: 'the small store door',
               ok: false,
-              why: 'The small store is a landmark on the way - *go straight on, '
-                + 'past the small store* - not a door he is offered.'
+              why: 'The small store is a landmark on the way - “go straight on, '
+                + 'past the small store” - not a door he is offered.'
             }],
             evidence: 'Ammar\'s warning near the end'
           },
@@ -254,11 +254,27 @@ PBE1.page('u4-s05', {
               t: 'because the driver turned left at the right bench',
               ok: false,
               why: 'He names the long bench, which matters - but what Ammar '
-                + 'praises is that he said the *whole thing* back.'
+                + 'praises is that he said the “whole thing” back.'
             }],
             evidence: 'the driver\'s last line, and Ammar\'s reply to it'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '4.5.2',
+      bookRef: 'Unit 4 · 4.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the order.',
+      text: '<b>1</b> [[1]] straight on. &nbsp; <b>2</b> [[2]] left at the bench. '
+      + '&nbsp; <b>3</b> [[3]] the second door. &nbsp; <b>4</b> [[4]] [[4b]] use '
+      + 'the stairs.',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -491,8 +507,8 @@ PBE1.page('u4-s05', {
             model: 'Three',
             minWords: 1,
             rows: 2,
-            hint: 'Count Ammar\'s instructions - the *go*, the *turn*, the *it is '
-              + 'on your left* - and stop at the *do not*.'
+            hint: 'Count Ammar\'s instructions - the <i>go</i>, the <i>turn</i>, '
+              + 'the <i>it is on your left</i> - and stop at the <i>do not</i>.'
           },
       {
             q: 'Which bench do you turn at?',

@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u10-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 10 · 10.5', part: '10.5',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 10 · 10.5', part: '10.5',
           section: '5', lesson: 'There is a light and it does not work', title: 'There is a light and it does not work' },
   objective: 'report something unsafe, to a person',
   study: {
@@ -197,16 +197,19 @@ PBE2.page('u10-s05', {
             options: [{
               t: 'Abu Yasser',
               ok: true,
-              why: 'Abu Yasser, this morning'
+              why: 'Nour says it: this morning you told Abu Yasser.'
             },
             {
               t: 'Nour',
-              ok: false
+              ok: false,
+              why: 'Nour is the one asking the question. She is not who he told.'
             },
             {
               t: 'both, and the electrician',
-              ok: false
-            }]
+              ok: false,
+              why: 'No electrician is in this scene at all.'
+            }],
+            evidence: 'Nour\'s line about what he did this morning'
           },
         {
             q: 'Listen again. How soon after Samih told Abu Yasser was the '
@@ -250,6 +253,21 @@ PBE2.page('u10-s05', {
             evidence: 'her two lines about the record and the telling'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '10.5.2',
+      bookRef: 'Unit 10 · 10.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Report it in three parts.',
+      text: '<b>1</b> The thing: [[1]]. &nbsp; <b>2</b> How long: [[2]]. &nbsp; '
+      + '<b>3</b> What it means: [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

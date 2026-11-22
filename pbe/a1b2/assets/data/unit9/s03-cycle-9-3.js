@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u9-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 9 · 9.3', part: '9.3',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 9 · 9.3', part: '9.3',
           section: '3', lesson: 'Last night, last week, on Monday', title: 'Last night, last week, on Monday' },
   objective: 'say when it happened',
   study: {
@@ -124,7 +124,7 @@ PBE2.page('u9-s03', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '9.3.1',
       bookRef: 'Unit 9 · 9.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -141,14 +141,12 @@ PBE2.page('u9-s03', {
       {
             q: 'Read the two lines. Which tells you more? The light went out · '
               + 'Last night at eleven the light went out.',
-            minWords: 6,
+            model: 'The second line',
+            minWords: 1,
             rows: 2,
             hint: 'One of them can be compared with another night. The other cannot.'
           }],
-      ideas: ['When it happened'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -200,17 +198,21 @@ PBE2.page('u9-s03', {
             q: 'Books closed. Listen. How long has the light been out?',
             options: [{
               t: 'one night',
-              ok: false
+              ok: false,
+              why: 'Abu Yasser thought so himself and says it. Samih corrects him.'
             },
             {
               t: 'three nights',
               ok: true,
-              why: 'three nights'
+              why: 'Last night, the night before, and Tuesday - and Samih gives '
+                + 'the time for each.'
             },
             {
               t: 'a week',
-              ok: false
-            }]
+              ok: false,
+              why: 'No day earlier than Tuesday is named.'
+            }],
+            evidence: 'Samih\'s answer when Abu Yasser says last night'
           },
         {
             q: 'Listen again. What time did the light go out on Tuesday?',
@@ -253,6 +255,21 @@ PBE2.page('u9-s03', {
             evidence: 'Abu Yasser\'s second-to-last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '9.3.2',
+      bookRef: 'Unit 9 · 9.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Add a when.',
+      text: '<b>1</b> The light went out. → [[1]]. &nbsp; <b>2</b> The lorry came '
+      + 'early. → [[2]]. &nbsp; <b>3</b> I lost the key. → [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

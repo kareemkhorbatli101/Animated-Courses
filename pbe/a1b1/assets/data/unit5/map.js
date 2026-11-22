@@ -5,7 +5,7 @@ PBE1.unitMap('unit5', [{
       part: '5.1',
       lesson: 'Name, date, number, signature',
       label: '5.1 Name, date, number, signature',
-      n: 14
+      n: 15
     },
     {
       id: 'u5-s02',
@@ -13,7 +13,7 @@ PBE1.unitMap('unit5', [{
       part: '5.2',
       lesson: '4 March, not 3 April',
       label: '5.2 4 March, not 3 April',
-      n: 14
+      n: 15
     },
     {
       id: 'u5-s03',
@@ -21,7 +21,7 @@ PBE1.unitMap('unit5', [{
       part: '5.3',
       lesson: 'Twelve boxes, not twelve',
       label: '5.3 Twelve boxes, not twelve',
-      n: 14
+      n: 15
     },
     {
       id: 'u5-s04',
@@ -29,7 +29,7 @@ PBE1.unitMap('unit5', [{
       part: '5.4',
       lesson: 'Sign here — and what you have just said',
       label: '5.4 Sign here — and what you have just said',
-      n: 14
+      n: 15
     },
     {
       id: 'u5-s05',
@@ -37,7 +37,7 @@ PBE1.unitMap('unit5', [{
       part: '5.5',
       lesson: 'Is it a six or an eight?',
       label: '5.5 Is it a six or an eight?',
-      n: 14
+      n: 15
     },
     {
       id: 'u5-s06',
@@ -45,7 +45,7 @@ PBE1.unitMap('unit5', [{
       part: '5.6',
       lesson: 'There is no note',
       label: '5.6 There is no note',
-      n: 14
+      n: 15
     },
     {
       id: 'u5-s07',

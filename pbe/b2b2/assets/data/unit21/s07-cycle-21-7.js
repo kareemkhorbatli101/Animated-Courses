@@ -318,52 +318,40 @@ PBE8.page('u21-s07', {
     },
     {
       id: 'c4',
-      kind: 'model',
       ref: '21.7.3',
       bookRef: 'Unit 21 · 21.7 · Lesson A · Speaking · Practise',
-      type: 'discuss',
+      type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. A has an untestable assumption; B looks for the fourth '
   + 'option. ⚠ Use the five steps in order.',
-      passage: {
-        title: 'From the book',
-        html: '<table class=\'bk\'><tr><th>B asks</th><th>A '
-          + 'answers</th></tr><tr><td>⚠ <b>Which sentence in your paper says '
-          + 'something cannot be checked?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>Why does that stay true? '
-          + 'What arrangement makes it untestable?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>What would have to be '
-          + 'different for somebody to be able to check it?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>Can you buy that for a '
-          + 'fee rather than a decision?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>And what date would the '
-          + 'test then have?</b></td><td><span '
-          + 'class="blank"></span></td></tr></table><table '
-          + 'class=\'bk\'><tr><th>Role card 1 — soften it, I am your '
-          + 'manager</th><th>Role card 2 — the fourth option is a '
-          + 'compromise</th></tr><tr><td>⚠ <b>A asks their manager to authorise '
-          + 'weakening the honest section, and the manager would gain by it.</b> '
-          + '⚠ <b>B names their own interest out loud and declines on that '
-          + 'ground.</b> ⚠ <b>B\'s point: the person with the largest reason to '
-          + 'want a paper weakened is the person who must not touch it</b> — '
-          + '<b>and saying so in the room is what makes the rest of the '
-          + 'conversation possible.</b></td><td>⚠ <b>A treats the fourth option '
-          + 'as splitting the difference between B and C.</b> ⚠ <b>B points out '
-          + 'that it takes the same floor as B and makes C available later at a '
-          + 'known price.</b> ⚠ <b>B\'s point: a fourth option is not a midpoint, '
-          + 'it is a different arrangement that converts an assumption into a '
-          + 'dated test</b> — <b>and it usually costs a fee, which is why it is '
-          + 'never in the original set.</b></td></tr></table>'
-      },
-      questions: [{
-            q: 'Write what you said and what you heard.',
-            model: 'The five steps, with a sample run',
-            minWords: 2,
-            rows: 2,
-            hint: 'Both sides: your lines, then the other person\'s. Alone, the '
-              + 'engine is the other person - write what it said.'
-          }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      scene: 'u21-21-7-pair',
+      roles: [{
+          who: 'a',
+          label: 'A'
+        },
+      {
+          who: 'b',
+          label: 'B'
+        }],
+      minWords: 8,
+      notePlaceholder: 'Write two lines you said in the role-play…',
+      table: {
+        title: 'The cards the book gives you',
+        head: ['B asks',
+        'A answers'],
+        rows: [['⚠ <b>Which sentence in your paper says something cannot be checked?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>Why does that stay true? What arrangement makes it untestable?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>What would have to be different for somebody to be able to '
+            + 'check it?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>Can you buy that for a fee rather than a decision?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>And what date would the test then have?</b>',
+          '<span class="blank"></span>']]
+      }
     },
     {
       id: 'c5',

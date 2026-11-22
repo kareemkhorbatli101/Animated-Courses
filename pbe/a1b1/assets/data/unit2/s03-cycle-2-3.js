@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u2-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 2 · 2.3', part: '2.3',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 2 · 2.3', part: '2.3',
           section: '3', lesson: 'One carton, two cartons, a packet of twenty', title: 'One carton, two cartons, a packet of twenty' },
   objective: 'say how many boxes, rolls and packets',
   study: {
@@ -134,13 +134,15 @@ PBE1.page('u2-s03', {
             model: 'Open. Four things, singular and plural',
             minWords: 2,
             rows: 2,
-            hint: 'Four pairs: *one box, six boxes*. The change at the end of the '
-              + 'word is the thing being practised, so say both halves of each '
-              + 'pair.'
+            hint: 'Four pairs: <i>one box, six boxes</i>. The change at the end of '
+              + 'the word is the thing being practised, so say both halves of '
+              + 'each pair.'
           },
       {
             q: 'Read the four words. Which is big and which is small? carton · '
               + 'pallet · roll · packet',
+            model: 'Big to small: pallet → carton → packet. A roll is a different '
+              + 'shape and is not in that line,',
             minWords: 6,
             rows: 2,
             hint: 'Put them in order of size rather than sorting them into two '
@@ -211,18 +213,18 @@ PBE1.page('u2-s03', {
             options: [{
               t: 'ten',
               ok: true,
-              why: '*A carton. Ten packets in a carton.* - said as he shows him one.'
+              why: '“A carton. Ten packets in a carton.” - said as he shows him one.'
             },
             {
               t: 'twenty',
               ok: false,
               why: 'Twenty is in the dialogue, but twenty is what is in a '
-                + '*packet*, which is the smaller thing.'
+                + '“packet”, which is the smaller thing.'
             },
             {
               t: 'two',
               ok: false,
-              why: 'Two appears here only as *shelf two*, which is a place, not a quantity.'
+              why: 'Two appears here only as “shelf two”, which is a place, not a quantity.'
             }],
             evidence: 'Abu Yasser\'s line about the big one'
           },
@@ -231,7 +233,7 @@ PBE1.page('u2-s03', {
             options: [{
               t: 'say the unit word with the number, always',
               ok: true,
-              why: '*Say the word with the number. Always.* Twenty on its own is '
+              why: '“Say the word with the number. Always.” Twenty on its own is '
                 + 'not a quantity - twenty packets is.'
             },
             {
@@ -248,6 +250,22 @@ PBE1.page('u2-s03', {
             evidence: 'the last two lines of the dialogue'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '2.3.2',
+      bookRef: 'Unit 2 · 2.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write a, an or -s.',
+      text: '<b>1</b> [[1]] carton &nbsp; <b>2</b> three carton[[2]] &nbsp; <b>3</b> '
+      + '[[3]] empty pallet &nbsp; <b>4</b> [[4]] roll &nbsp; <b>5</b> nine '
+      + 'roll[[5]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -271,8 +289,9 @@ PBE1.page('u2-s03', {
             model: 'Ten',
             minWords: 1,
             rows: 2,
-            hint: 'Said in the line where he shows Ammar *this big one*. Careful: '
-              + 'there is a different number for what is inside a packet.'
+            hint: 'Said in the line where he shows Ammar <i>this big one</i>. '
+              + 'Careful: there is a different number for what is inside a '
+              + 'packet.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -461,8 +480,9 @@ PBE1.page('u2-s03', {
             model: 'Ten',
             minWords: 1,
             rows: 2,
-            hint: 'Said in the line where he shows Ammar *this big one*. Careful: '
-              + 'there is a different number for what is inside a packet.'
+            hint: 'Said in the line where he shows Ammar <i>this big one</i>. '
+              + 'Careful: there is a different number for what is inside a '
+              + 'packet.'
           },
       {
             q: 'How many cartons on a full pallet?',

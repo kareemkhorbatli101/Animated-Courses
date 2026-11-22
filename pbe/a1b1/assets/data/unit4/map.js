@@ -5,7 +5,7 @@ PBE1.unitMap('unit4', [{
       part: '4.1',
       lesson: 'In the box, on the shelf, under the bench',
       label: '4.1 In the box, on the shelf, under the bench',
-      n: 14
+      n: 15
     },
     {
       id: 'u4-s02',
@@ -13,7 +13,7 @@ PBE1.unitMap('unit4', [{
       part: '4.2',
       lesson: 'Row three, shelf two',
       label: '4.2 Row three, shelf two',
-      n: 14
+      n: 15
     },
     {
       id: 'u4-s03',
@@ -21,7 +21,7 @@ PBE1.unitMap('unit4', [{
       part: '4.3',
       lesson: 'Where is the big roll?',
       label: '4.3 Where is the big roll?',
-      n: 14
+      n: 15
     },
     {
       id: 'u4-s04',
@@ -29,7 +29,7 @@ PBE1.unitMap('unit4', [{
       part: '4.4',
       lesson: 'It is not there. It is gone.',
       label: '4.4 It is not there. It is gone.',
-      n: 14
+      n: 15
     },
     {
       id: 'u4-s05',
@@ -37,7 +37,7 @@ PBE1.unitMap('unit4', [{
       part: '4.5',
       lesson: 'Straight on, then left at the bench',
       label: '4.5 Straight on, then left at the bench',
-      n: 14
+      n: 15
     },
     {
       id: 'u4-s06',
@@ -45,7 +45,7 @@ PBE1.unitMap('unit4', [{
       part: '4.6',
       lesson: 'I can reach it. I cannot reach that one.',
       label: '4.6 I can reach it. I cannot reach that one.',
-      n: 14
+      n: 15
     },
     {
       id: 'u4-s07',

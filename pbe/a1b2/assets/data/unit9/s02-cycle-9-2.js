@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u9-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 9 · 9.2', part: '9.2',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 9 · 9.2', part: '9.2',
           section: '2', lesson: 'Fifteen verbs, and what they do in the past', title: 'Fifteen verbs, and what they do in the past' },
   objective: 'say what happened — fifteen verbs in the past',
   study: {
@@ -201,17 +201,20 @@ PBE2.page('u9-s02', {
             q: 'Books closed. Listen. What happened at eleven o\'clock?',
             options: [{
               t: 'the lorry came',
-              ok: false
+              ok: false,
+              why: 'The lorry does arrive, and early - but at one, not at eleven.'
             },
             {
               t: 'the light went out',
               ok: true,
-              why: 'the light went out'
+              why: 'At eleven the light over the loading door went out, and he stopped work.'
             },
             {
               t: 'the gate closed',
-              ok: false
-            }]
+              ok: false,
+              why: 'The gate is opened, not closed, and later in the night.'
+            }],
+            evidence: 'Samih\'s line with the time eleven in it'
           },
         {
             q: 'Listen again. What did Samih take from the counter?',
@@ -255,6 +258,22 @@ PBE2.page('u9-s02', {
             evidence: 'the last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '9.2.2',
+      bookRef: 'Unit 9 · 9.2 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the past.',
+      text: '<b>1</b> I [[1]] (start) at ten. &nbsp; <b>2</b> The light [[2]] (go) '
+      + 'out. &nbsp; <b>3</b> I [[3]] (take) the torch. &nbsp; <b>4</b> The lorry '
+      + '[[4]] (arrive) at one. &nbsp; <b>5</b> He [[5]] (leave) at two.',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u3-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 3 · 3.1', part: '3.1',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 3 · 3.1', part: '3.1',
           section: '1', lesson: 'Sunday, Monday, Tuesday', title: 'Sunday, Monday, Tuesday' },
   objective: 'say the days of the week',
   study: {
@@ -139,8 +139,8 @@ PBE1.page('u3-s01', {
             q: 'Which days do you work? Write it here:',
             minWords: 6,
             rows: 2,
-            hint: 'Write the first day and the last day joined by *to*, then the '
-              + 'days off separately. That is how a shift list says it.'
+            hint: 'Write the first day and the last day joined by <i>to</i>, then '
+              + 'the days off separately. That is how a shift list says it.'
           }],
       ideas: ['The days, and on'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -203,7 +203,7 @@ PBE1.page('u3-s01', {
             options: [{
               t: 'Monday',
               ok: true,
-              why: '*On Monday. Always on Monday. Twelve pallets.*'
+              why: '“On Monday. Always on Monday. Twelve pallets.”'
             },
             {
               t: 'Thursday',
@@ -223,7 +223,7 @@ PBE1.page('u3-s01', {
             options: [{
               t: 'the whole store is counted',
               ok: true,
-              why: '*On Thursday we count. Every Thursday, the whole store.*'
+              why: '“On Thursday we count. Every Thursday, the whole store.”'
             },
             {
               t: 'twelve pallets arrive',
@@ -240,6 +240,22 @@ PBE1.page('u3-s01', {
             evidence: 'the last line of the dialogue'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '3.1.2',
+      bookRef: 'Unit 3 · 3.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the day.',
+      text: '<b>1</b> The day after Sunday is [[1]]. &nbsp; <b>2</b> The day before '
+      + 'Friday is [[2]]. &nbsp; <b>3</b> We count [[3]] Thursday. &nbsp; '
+      + '<b>4</b> The delivery comes [[4]] Monday.',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -268,8 +284,8 @@ PBE1.page('u3-s01', {
               'pallets',
               'big'],
             need: 1,
-            hint: 'The day Abu Yasser says *always*. Give the day and the number of '
-              + 'pallets - the number is what makes it big.'
+            hint: 'The day Abu Yasser says <i>always</i>. Give the day and the '
+              + 'number of pallets - the number is what makes it big.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

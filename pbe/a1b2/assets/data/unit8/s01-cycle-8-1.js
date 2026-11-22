@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u8-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 8 · 8.1', part: '8.1',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 8 · 8.1', part: '8.1',
           section: '1', lesson: 'Can I have the tape, please?', title: 'Can I have the tape, please?' },
   objective: 'ask for a thing',
   study: {
@@ -193,17 +193,22 @@ PBE2.page('u8-s01', {
             q: 'Books closed. Listen. What does Ammar ask for?',
             options: [{
               t: 'a pen',
-              ok: false
+              ok: false,
+              why: 'Ammar is usually the one who writes, so a pen is the obvious '
+                + 'guess. He asks for one thing by name.'
             },
             {
               t: 'the tape',
               ok: true,
-              why: 'the tape'
+              why: 'Majd, can I have the tape, please - and then he says which '
+                + 'tape: the wide brown one.'
             },
             {
               t: 'the key',
-              ok: false
-            }]
+              ok: false,
+              why: 'Nothing is locked in this scene and no key is mentioned.'
+            }],
+            evidence: 'Ammar\'s first line, and then the words wide and brown'
           },
         {
             q: 'Listen again. Which tape does Ammar ask for?',
@@ -249,6 +254,22 @@ PBE2.page('u8-s01', {
             evidence: 'the last three lines, after Majd asks what it is for'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '8.1.2',
+      bookRef: 'Unit 8 · 8.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the question.',
+      text: '<b>1</b> You want the tape. [[1]]? &nbsp; <b>2</b> You want a pen and '
+      + 'you will give it back. [[2]]? &nbsp; <b>3</b> You do not know if there '
+      + 'is tape. [[3]]?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

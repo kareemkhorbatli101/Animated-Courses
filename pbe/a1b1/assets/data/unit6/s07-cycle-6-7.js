@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u6-s07', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 6 · 6.7', part: '6.7',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 6 · 6.7', part: '6.7',
           section: '7', lesson: 'Review: the message slip', title: 'Review: the message slip' },
   objective: 'Review: the message slip — and one problem to talk about together',
   study: {
@@ -202,7 +202,7 @@ PBE1.page('u6-s07', {
             options: [{
               t: 'zero nine three two, four four five, six six one',
               ok: true,
-              why: 'He reads all three groups back and then asks *is that it?* '
+              why: 'He reads all three groups back and then asks “is that it?” '
                 + 'before he writes anything else.'
             },
             {

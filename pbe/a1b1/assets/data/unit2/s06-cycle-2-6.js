@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u2-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 2 · 2.6', part: '2.6',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 2 · 2.6', part: '2.6',
           section: '6', lesson: 'It is not twelve. It is nine.', title: 'It is not twelve. It is nine.' },
   objective: 'say that a count is wrong',
   study: {
@@ -217,7 +217,7 @@ PBE1.page('u2-s06', {
             {
               t: 'twelve',
               ok: false,
-              why: 'Twelve is what the *sheet* says - the number he is correcting, '
+              why: 'Twelve is what the “sheet” says - the number he is correcting, '
                 + 'not the number he found.'
             },
             {
@@ -232,7 +232,7 @@ PBE1.page('u2-s06', {
             options: [{
               t: 'giving the number without naming a person',
               ok: true,
-              why: '*You did not say who. You said the number.* A count is a fact; '
+              why: '“You did not say who. You said the number.” A count is a fact; '
                 + 'who wrote it is an accusation.'
             },
             {
@@ -249,6 +249,21 @@ PBE1.page('u2-s06', {
             evidence: 'Abu Yasser\'s last question and the line after it'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '2.6.2',
+      bookRef: 'Unit 2 · 2.6 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Make the sentence better.',
+      text: '<b>1</b> You are wrong. → [[1]] &nbsp; <b>2</b> Somebody counted badly. '
+      + '→ [[2]] &nbsp; <b>3</b> This sheet is no good. → [[3]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

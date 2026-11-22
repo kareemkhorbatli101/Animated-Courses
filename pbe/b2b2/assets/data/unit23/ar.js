@@ -430,6 +430,26 @@ PBE8.arabic({
     'إذن أهاتفه يوم الثلاثاء وأخبره ما يقوله الملحق.',
   '⚠ You ring him on Tuesday and ask him whether he would rather the difference was marked in his document or in yours. ⚠ Which is a real question with two acceptable answers — and if he chooses his, you have cost yourself nothing and given him the stronger submission.':
     '⚠ تهاتفينه يوم الثلاثاء وتسألينه هل يفضّل أن يكون الفرق موسومًا في وثيقته أم في وثيقتك. ⚠ وهو سؤال حقيقي بجوابين مقبولين — وإن اختار وثيقته، لم تكلّفي نفسك شيئًا وأعطيتِه العرض الأقوى.',
+  'The association\'s submission has four points. We can sign three of them.':
+    'في مذكّرة الجمعية أربع نقاط. نستطيع أن نوقّع ثلاثًا منها.',
+  'The word in the draft is united. Four signatures under four points.':
+    'الكلمة في المسوّدة «موحّدون». أربع تواقيع تحت أربع نقاط.',
+  'If I sign and stay silent on the fourth, in a year I will have nothing to point at.':
+    'إن وقّعت وسكتّ عن الرابعة، فلن يكون لديّ بعد سنة ما أشير إليه.',
+  'And a signatory who is silent is read as agreeing. That is how the Directorate will read it.':
+    'والموقّع الساكت يُقرأ على أنه موافق. هكذا ستقرأها المديرية.',
+  'Hamdan will not argue for a transition that disadvantages them, and they are right not to.':
+    'لن تدافع «حمدان» عن مرحلة انتقالية تضرّ بها، وهي محقّة في ذلك.',
+  'Then the submission says so on its face. Paragraph two carries the three points, and the difference goes in an annex.':
+    'إذن تقول المذكّرة ذلك على وجهها. تحمل الفقرة الثانية النقاط الثلاث، ويذهب الاختلاف إلى ملحق.',
+  'Annex B for us and Annex C for Hamdan. The difference is visible to anybody who reads it.':
+    'الملحق «ب» لنا والملحق «ج» لـ«حمدان». والاختلاف ظاهر لكلّ من يقرأ.',
+  'I give up the word united. The association keeps the only asset it has.':
+    'أتنازل عن كلمة «موحّدون». وتحتفظ الجمعية بالأصل الوحيد الذي تملكه.',
+  'Which is that its agreements can be taken at face value.':
+    'وهو أنّ اتفاقاتها يمكن أن تُؤخذ بظاهرها.',
+  'And I would far rather hear this on a Tuesday than be surprised by my own member in front of the Directorate.':
+    'وأفضّل كثيرًا أن أسمع هذا يوم الثلاثاء على أن يفاجئني عضوي أمام المديرية.',
   'You rang him on the Tuesday. What did he say?':
     'هاتفتِه يوم الثلاثاء. فماذا قال؟',
   '⚠ He took it into the joint document. ⚠ Paragraph 2 of the submission is his drafting, not mine, and it is better than mine was — because it says who gains and who loses and then refuses to weigh us against each other.':

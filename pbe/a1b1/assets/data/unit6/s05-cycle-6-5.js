@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u6-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 6 · 6.5', part: '6.5',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 6 · 6.5', part: '6.5',
           section: '5', lesson: 'Zero nine four four — one one two', title: 'Zero nine four four — one one two' },
   objective: 'take a number and read it back',
   study: {
@@ -217,7 +217,7 @@ PBE1.page('u6-s05', {
             options: [{
               t: 'two three three',
               ok: true,
-              why: 'The caller settles it as *two, then double three* - and Ammar '
+              why: 'The caller settles it as “two, then double three” - and Ammar '
                 + 'reads the whole number back after that.'
             },
             {
@@ -231,7 +231,7 @@ PBE1.page('u6-s05', {
               ok: false,
               why: 'The right digits in the wrong order. Listen for where the double falls.'
             }],
-            evidence: 'the exchange about *two three three, or two two three?*'
+            evidence: 'the exchange about “two three three, or two two three?”'
           },
         {
             q: 'What does Ammar\'s supervisor say about numbers?',
@@ -256,6 +256,22 @@ PBE1.page('u6-s05', {
             evidence: 'Ammar\'s last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '6.5.2',
+      bookRef: 'Unit 6 · 6.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the number in digits.',
+      text: '<b>1</b> zero nine four four, one one two, two three three = [[1]] '
+      + '&nbsp; <b>2</b> zero one one, double five, double seven, eight eight = '
+      + '[[2]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

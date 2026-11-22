@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u8-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 8 · 8.2', part: '8.2',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 8 · 8.2', part: '8.2',
           section: '2', lesson: 'Here you are', title: 'Here you are' },
   objective: 'give a thing, and take one',
   study: {
@@ -199,17 +199,23 @@ PBE2.page('u8-s02', {
             q: 'Books closed. Listen. How many things change hands?',
             options: [{
               t: 'one',
-              ok: false
+              ok: false,
+              why: 'The tape is what he asked for, so one is the easy count. '
+                + 'Listen for what Majd adds, and what comes back at four.'
             },
             {
               t: 'two',
-              ok: false
+              ok: false,
+              why: 'The tape and the cutter are two, and they are named together. '
+                + 'Something else crosses the counter at four.'
             },
             {
               t: 'three',
               ok: true,
-              why: 'three: the tape, the cutter, and the empty roll back'
-            }]
+              why: 'The tape, the cutter, and the empty roll Ammar brings back so '
+                + 'Majd knows to order more.'
+            }],
+            evidence: 'what Majd adds without being asked, and what Ammar brings back at four'
           },
         {
             q: 'Listen again. What does Majd give Ammar besides the tape?',
@@ -253,6 +259,21 @@ PBE2.page('u8-s02', {
             evidence: 'the last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '8.2.2',
+      bookRef: 'Unit 8 · 8.2 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the line.',
+      text: '<b>1</b> You hand over the tape. [[1]]. &nbsp; <b>2</b> You take it. '
+      + '[[2]]. &nbsp; <b>3</b> You bring it back at four. [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

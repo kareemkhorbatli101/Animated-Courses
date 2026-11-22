@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u11-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 11 · 11.4', part: '11.4',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 11 · 11.4', part: '11.4',
           section: '4', lesson: 'How many, and how much', title: 'How many, and how much' },
   objective: 'ask how many and how much',
   study: {
@@ -198,17 +198,21 @@ PBE2.page('u11-s04', {
             q: 'Books closed. Listen. What is the total?',
             options: [{
               t: '16,000',
-              ok: false
+              ok: false,
+              why: 'That is the bags on their own, and it is said out loud first.'
             },
             {
               t: '24,000',
               ok: true,
-              why: '24,000'
+              why: 'Sixteen and eight is twenty-four thousand - he adds up out '
+                + 'loud so it can be heard.'
             },
             {
               t: '25,200',
-              ok: false
-            }]
+              ok: false,
+              why: 'Twenty-five thousand is what the customer hands over, not what it costs.'
+            }],
+            evidence: 'the line where Majd adds the two numbers out loud'
           },
         {
             q: 'Listen again. What is the total, and what does the customer give?',
@@ -252,6 +256,21 @@ PBE2.page('u11-s04', {
             evidence: 'his last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '11.4.2',
+      bookRef: 'Unit 11 · 11.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write how many or how much.',
+      text: '<b>1</b> [[1]] bags? &nbsp; <b>2</b> [[2]] sugar? &nbsp; <b>3</b> [[3]] '
+      + 'is that? &nbsp; <b>4</b> [[4]] trays of bread?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

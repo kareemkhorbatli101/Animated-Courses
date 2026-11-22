@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u12-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 12 · 12.2', part: '12.2',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 12 · 12.2', part: '12.2',
           section: '2', lesson: 'To: Samih', title: 'To: Samih' },
   objective: 'say who it is for',
   study: {
@@ -122,7 +122,7 @@ PBE2.page('u12-s02', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '12.2.1',
       bookRef: 'Unit 12 · 12.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -138,15 +138,13 @@ PBE2.page('u12-s02', {
           },
       {
             q: 'Read the two tops. Which note gets read? NOTE · To: Samih',
-            minWords: 6,
+            model: 'To: Samih',
+            minWords: 1,
             rows: 2,
             hint: 'One of them belongs to somebody. The other belongs to everybody, '
               + 'which is the same as nobody.'
           }],
-      ideas: ['Naming your reader'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -193,17 +191,22 @@ PBE2.page('u12-s02', {
             q: 'Books closed. Listen. What happened to the note with no name?',
             options: [{
               t: 'Samih read it',
-              ok: false
+              ok: false,
+              why: 'The note was for him, so this is the natural guess. Listen to '
+                + 'what Nour says happened on the bench.'
             },
             {
               t: 'nobody read it for two days',
               ok: true,
-              why: 'nobody read it for two days'
+              why: 'It lay on the bench for two days, and everybody who passed '
+                + 'thought it was for somebody else.'
             },
             {
               t: 'it was thrown away',
-              ok: false
-            }]
+              ok: false,
+              why: 'It was still there - that is how Nour can read it out.'
+            }],
+            evidence: 'Nour\'s first line, about the bench'
           },
         {
             q: 'Listen again. How long did the note sit on the bench?',
@@ -246,6 +249,21 @@ PBE2.page('u12-s02', {
             evidence: 'her last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '12.2.2',
+      bookRef: 'Unit 12 · 12.2 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the top line.',
+      text: '<b>1</b> You know it is Samih. [[1]] &nbsp; <b>2</b> You do not know '
+      + 'who. [[2]] &nbsp; <b>3</b> It is for two people. [[3]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

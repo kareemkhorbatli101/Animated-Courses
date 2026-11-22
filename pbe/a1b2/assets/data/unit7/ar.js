@@ -8,6 +8,8 @@ PBE2.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write the word.':
+    'اكتب الكلمة.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs. One gives a job. One asks about the thing. Then change places.':
@@ -50,6 +52,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل أُلقي اللوم على أحد؟ واكتب الجواب.',
   'Read three papers. In how many did somebody get the blame? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها أُلقي اللوم على أحد؟ عُدّها على اللوح.',
+  'Write it with two numbers.':
+    'اكتبها برقمين.',
   'Work in pairs. One reports vaguely. One asks for the numbers. Then change places.':
     'اعملا في ثنائيات. واحد يبلّغ بصيغة غامضة، والآخر يطلب الأرقام. ثم تبادلا الأدوار.',
   'Four times something came damaged. Write it with two numbers each time.':
@@ -68,6 +72,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: من دفع ثمنها؟ واكتب الجواب.',
   'Read three papers. In how many did the supplier pay? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها دفع المورّد؟ عُدّها على اللوح.',
+  'Write the line.':
+    'اكتب السطر.',
   'Work in pairs. One is the supervisor. One explains. Then change places.':
     'اعملا في ثنائيات. واحد هو المشرف، والآخر يشرح. ثم تبادلا الأدوار.',
   'Two times something was already damaged when it reached you. Write it.':
@@ -86,6 +92,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: من رآه أيضًا؟ واكتب الجواب.',
   'Read three papers. In how many did a second person see it at the time? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها رآه شخص ثانٍ في حينه؟ عُدّها على اللوح.',
+  'Write the question.':
+    'اكتب السؤال.',
   'Work in pairs. One has a problem. One decides AND says why. Then change places.':
     'اعملا في ثنائيات. واحد لديه مشكلة، والآخر يقرّر ويقول السبب أيضًا. ثم تبادلا الأدوار.',
   'Four things you have had to ask about at work. Write it. Facts first, then the question.':
@@ -104,6 +112,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل تستطيع أن تقرّره وحدك الآن؟ واكتب الجواب.',
   'Read three papers. In how many was a reason given? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها ذُكر سبب؟ عُدّها على اللوح.',
+  'Write one line for each.':
+    'اكتب سطرًا واحدًا لكل منها.',
   'Work in pairs. One says the facts slowly. One writes ONE line. Then read it back and change places.':
     'اعملا في ثنائيات. واحد يقول الحقائق ببطء، والآخر يكتب سطرًا واحدًا. ثم اقرأه عليه وتبادلا الأدوار.',
   'Two pairs read their line for the class — books closed.':

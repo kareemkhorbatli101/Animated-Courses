@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u7-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 7 · 7.5', part: '7.5',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 7 · 7.5', part: '7.5',
           section: '5', lesson: 'What do I do?', title: 'What do I do?' },
   objective: 'ask what to do',
   study: {
@@ -123,7 +123,7 @@ PBE2.page('u7-s05', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '7.5.1',
       bookRef: 'Unit 7 · 7.5 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -140,15 +140,13 @@ PBE2.page('u7-s05', {
       {
             q: 'Read the two lines. Which gets an answer? I do not know what to '
               + 'do with it · Two are crushed. What do I do?',
-            minWords: 6,
+            model: 'The second line',
+            minWords: 1,
             rows: 2,
             hint: 'One of them hands the supervisor everything he needs to answer '
               + 'in a second.'
           }],
-      ideas: ['Asking what to do'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -197,17 +195,22 @@ PBE2.page('u7-s05', {
             q: 'Books closed. Listen. What does Abu Yasser decide?',
             options: [{
               t: 'send them back',
-              ok: false
+              ok: false,
+              why: 'They do go back - but only IF the labels inside are damaged. '
+                + 'That is the step after this one.'
             },
             {
               t: 'put them aside and open one',
               ok: true,
-              why: 'put them aside and open one'
+              why: 'Put the two aside, by the bench, and open the worse one.'
             },
             {
               t: 'sell them cheap',
-              ok: false
-            }]
+              ok: false,
+              why: 'No price and no customer is mentioned. The talk is about where '
+                + 'the boxes go.'
+            }],
+            evidence: 'the two lines after Ammar asks what he should do'
           },
         {
             q: 'Listen again. Where do the two crushed cartons go?',
@@ -254,6 +257,22 @@ PBE2.page('u7-s05', {
             evidence: 'the last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '7.5.2',
+      bookRef: 'Unit 7 · 7.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the question.',
+      text: '<b>1</b> You have two choices. [[1]] or [[1b]]? &nbsp; <b>2</b> You '
+      + 'think you know. [[2]]? &nbsp; <b>3</b> You want the other case too. '
+      + '[[3]]?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

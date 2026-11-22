@@ -432,6 +432,26 @@ PBE8.arabic({
     '⚠ وأنتِ تفهمين أن هذه التوصية أبرد من التي أردتُ كتابتها، وأن التوصية الباردة قد تُخسِرك مقابلة.',
   '⚠ I understand it, and I would rather be asked about the November reconciliation than asked to explain the word fluent. ⚠ One of those conversations I can have.':
     '⚠ أفهمه، وأفضّل أن أُسأل عن تسوية تشرين الثاني على أن أُطلَب بشرح كلمة «فصيحة». ⚠ واحدة من تلك المحادثات أستطيع إجراءها.',
+  'I have written that your English is fluent. It will help you get an interview.':
+    'كتبت أنّ إنجليزيّتك فصيحة. سيساعدك ذلك في الحصول على مقابلة.',
+  'It is not true, and it will be tested in the first twenty minutes.':
+    'هذا غير صحيح، وسيُختبر في العشرين دقيقة الأولى.',
+  'It is one sentence among three true ones.':
+    'هي جملة واحدة بين ثلاث جمل صحيحة.',
+  'The three true ones fail with it. That is what one untrue sentence does to a reference.':
+    'والثلاث الصحيحة تسقط معها. هذا ما تفعله جملة واحدة غير صحيحة بالتزكية.',
+  'And a cold reference may cost you the interview altogether.':
+    'والتزكية الباردة قد تُفقدك المقابلة أصلًا.',
+  'I am the one who will be in the room. The choice of which conversation to have is mine.':
+    'أنا من سيكون في الغرفة. واختيار أيّ المحادثتين أخوضها اختياري أنا.',
+  'Then tell me what the reference says.':
+    'إذن قولي لي ما تقوله التزكية.',
+  'What the certificate is, the three acts it evidences, and what it does not evidence. Then three documents, named.':
+    'ما هي الشهادة، والأعمال الثلاثة التي تُثبتها، وما لا تُثبته. ثم ثلاث وثائق، مسمّاة.',
+  'Including the September note correcting your own earlier note.':
+    'ومنها مذكّرة أيلول التي تصحّح مذكّرتك السابقة.',
+  'Including that. I would rather be asked about the November reconciliation than asked to explain the word fluent. One of those conversations I can have.':
+    'ومنها تلك. أفضّل أن أُسأل عن تسوية تشرين الثاني على أن أُسأل عن معنى كلمة «فصيحة». إحدى هاتين المحادثتين أستطيع أن أخوضها.',
   'Lina had her interview. Which of the three did they ask for?':
     'لينا أجرت مقابلتها. فأيّ الثلاث طلبوا؟',
   '⚠ The September note. The one correcting her own earlier note, which she nearly left out.':

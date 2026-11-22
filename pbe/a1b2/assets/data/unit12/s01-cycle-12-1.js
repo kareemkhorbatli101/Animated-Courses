@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u12-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 12 · 12.1', part: '12.1',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 12 · 12.1', part: '12.1',
           section: '1', lesson: 'Four lines', title: 'Four lines' },
   objective: 'write the four-line note',
   study: {
@@ -199,17 +199,21 @@ PBE2.page('u12-s01', {
             q: 'Books closed. Listen. How many lines does Abu Yasser want?',
             options: [{
               t: 'two',
-              ok: false
+              ok: false,
+              why: 'Two words is the lesson in another scene of this unit.'
             },
             {
               t: 'four',
               ok: true,
-              why: 'four'
+              why: 'Four lines, and he names them: who it is for, what you did, '
+                + 'what you did not do and why, and what he must do.'
             },
             {
               t: 'as many as you need',
-              ok: false
-            }]
+              ok: false,
+              why: 'The opposite of what he says. He gives a number.'
+            }],
+            evidence: 'the line where Abu Yasser lists what each line must say'
           },
         {
             q: 'Listen again. Why does the note need four lines when the '
@@ -254,6 +258,20 @@ PBE2.page('u12-s01', {
             evidence: 'the last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '12.1.2',
+      bookRef: 'Unit 12 · 12.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the four line headings.',
+      text: '<b>1</b> [[1]] &nbsp; <b>2</b> [[2]] &nbsp; <b>3</b> [[3]] &nbsp; <b>4</b> [[4]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

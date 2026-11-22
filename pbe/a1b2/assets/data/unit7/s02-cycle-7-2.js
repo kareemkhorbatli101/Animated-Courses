@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u7-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 7 · 7.2', part: '7.2',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 7 · 7.2', part: '7.2',
           section: '2', lesson: 'Broken, torn, wet', title: 'Broken, torn, wet' },
   objective: 'say something is damaged',
   study: {
@@ -123,7 +123,7 @@ PBE2.page('u7-s02', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '7.2.1',
       bookRef: 'Unit 7 · 7.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -140,15 +140,13 @@ PBE2.page('u7-s02', {
       {
             q: 'Read the three words. Which goes with paper, which with glass, '
               + 'which with rain? broken · torn · wet',
-            minWords: 6,
+            model: 'Torn goes with paper, broken with glass, wet with rain',
+            minWords: 3,
             rows: 2,
             hint: 'Ask what each material does when it fails: paper comes apart, '
               + 'glass comes to pieces, and rain leaves something behind.'
           }],
-      ideas: ['Saying what is wrong with it'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -196,17 +194,23 @@ PBE2.page('u7-s02', {
             q: 'Books closed. Listen. What is wrong with the carton?',
             options: [{
               t: 'it is wet',
-              ok: false
+              ok: false,
+              why: 'Abu Yasser does ask if it is wet, and they talk about rain. '
+                + 'Listen to Ammar\'s answer: not wet, dry.'
             },
             {
               t: 'it is crushed',
               ok: true,
-              why: 'it is crushed'
+              why: 'Ammar says it in his first line, and again at the end - dry, '
+                + 'and crushed on one corner.'
             },
             {
               t: 'it is torn',
-              ok: false
-            }]
+              ok: false,
+              why: 'A damaged box sounds torn, but nobody uses that word here. The '
+                + 'words are crushed and dry.'
+            }],
+            evidence: 'Ammar\'s first line, and his answer when Abu Yasser asks about water'
           },
         {
             q: 'Listen again. Is the carton wet?',
@@ -252,6 +256,22 @@ PBE2.page('u7-s02', {
             evidence: 'his last line, about what each kind of damage looks like'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '7.2.2',
+      bookRef: 'Unit 7 · 7.2 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the word.',
+      text: '<b>1</b> The paper bag is [[1]]. &nbsp; <b>2</b> The wooden pallet is '
+      + '[[2]]. &nbsp; <b>3</b> The carton is [[3]] on one corner. &nbsp; '
+      + '<b>4</b> The bottom of the box is [[4]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -477,7 +497,7 @@ PBE2.page('u7-s02', {
           + 'it</b>.</p><p>⚠ <b>Write what you SEE. Not what happened.</b> '
           + '<i>Crushed on one corner</i> is yours to write. <i>Somebody dropped '
           + 'it</i> is not<b> — </b>you were not there, and the moment you write '
-          + 'it the conversation is about a person instead of a carton.**</p><p>⚠ '
+          + 'it the conversation is about a person instead of a carton.</p><p>⚠ '
           + '<b>Unit 4.4 said the same thing about an empty shelf:</b> <i>a clean '
           + 'square, no dust</i>. <b>Say what you saw and let the man with twenty '
           + 'years do the thinking.</b></p>'

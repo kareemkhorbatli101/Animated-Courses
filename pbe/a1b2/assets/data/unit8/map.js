@@ -5,7 +5,7 @@ PBE2.unitMap('unit8', [{
       part: '8.1',
       lesson: 'Can I have the tape, please?',
       label: '8.1 Can I have the tape, please?',
-      n: 14
+      n: 15
     },
     {
       id: 'u8-s02',
@@ -13,7 +13,7 @@ PBE2.unitMap('unit8', [{
       part: '8.2',
       lesson: 'Here you are',
       label: '8.2 Here you are',
-      n: 14
+      n: 15
     },
     {
       id: 'u8-s03',
@@ -21,7 +21,7 @@ PBE2.unitMap('unit8', [{
       part: '8.3',
       lesson: 'The same question, twice',
       label: '8.3 The same question, twice',
-      n: 14
+      n: 15
     },
     {
       id: 'u8-s04',
@@ -29,7 +29,7 @@ PBE2.unitMap('unit8', [{
       part: '8.4',
       lesson: 'Sorry, we have not got any',
       label: '8.4 Sorry, we have not got any',
-      n: 14
+      n: 15
     },
     {
       id: 'u8-s05',
@@ -37,7 +37,7 @@ PBE2.unitMap('unit8', [{
       part: '8.5',
       lesson: 'Do you want a hand?',
       label: '8.5 Do you want a hand?',
-      n: 14
+      n: 15
     },
     {
       id: 'u8-s06',
@@ -45,7 +45,7 @@ PBE2.unitMap('unit8', [{
       part: '8.6',
       lesson: 'Thank you for the ladder',
       label: '8.6 Thank you for the ladder',
-      n: 14
+      n: 15
     },
     {
       id: 'u8-s07',

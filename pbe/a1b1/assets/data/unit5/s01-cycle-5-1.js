@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u5-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 5 · 5.1', part: '5.1',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 5 · 5.1', part: '5.1',
           section: '1', lesson: 'Name, date, number, signature', title: 'Name, date, number, signature' },
   objective: 'name the four things on every delivery note',
   study: {
@@ -125,7 +125,7 @@ PBE1.page('u5-s01', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '5.1.1',
       bookRef: 'Unit 5 · 5.1 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -141,14 +141,14 @@ PBE1.page('u5-s01', {
           },
       {
             q: 'Look at any paper on your table. Find a name and a date. Point at them.',
-            minWords: 6,
+            model: 'Open. Any paper will do: a bus ticket, a receipt, a phone bill',
+            minWords: 4,
             rows: 2,
-            hint: 'Point first, then say where each one sits - *the name is at the '
-              + 'top, the date is under it*. Position is half of reading a form.'
+            hint: 'Point first, then say where each one sits - <i>the name is at '
+              + 'the top, the date is under it</i>. Position is half of reading a '
+              + 'form.'
           }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -240,8 +240,8 @@ PBE1.page('u5-s01', {
             options: [{
               t: 'that the other three things are correct',
               ok: true,
-              why: '*Because when you sign it, you have said the other three are '
-                + 'correct.* A signature is a claim about the name, the date and '
+              why: '“Because when you sign it, you have said the other three are '
+                + 'correct.” A signature is a claim about the name, the date and '
                 + 'the quantity.'
             },
             {
@@ -259,6 +259,22 @@ PBE1.page('u5-s01', {
             evidence: 'Nour\'s very last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '5.1.2',
+      bookRef: 'Unit 5 · 5.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the number 1, 2, 3 or 4.',
+      text: '<b>1</b> Where is the date? [[1]] &nbsp; <b>2</b> What says who sent the '
+      + 'goods? [[2]] &nbsp; <b>3</b> What is at the bottom? [[3]] &nbsp; '
+      + '<b>4</b> What tells you how many? [[4]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -503,8 +519,8 @@ PBE1.page('u5-s01', {
             keys: ['yet',
               'counted'],
             need: 1,
-            hint: 'A short sentence with *yet* in it, from the card above. It buys '
-              + 'you two minutes without refusing anybody.'
+            hint: 'A short sentence with <i>yet</i> in it, from the card above. It '
+              + 'buys you two minutes without refusing anybody.'
           },
       {
             q: 'Which of the four is a question about the past?',

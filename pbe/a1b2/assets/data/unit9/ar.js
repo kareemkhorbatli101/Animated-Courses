@@ -8,6 +8,8 @@ PBE2.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write was or were.':
+    'اكتب was أو were.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs. One asks about four o\'clock. One answers. Then change places.':
@@ -32,6 +34,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: من يستطيع أن يشهد أين كنت؟ واكتب الجواب.',
   'Read three papers. How many people were alone, with nobody who could say where they were? Count them on the board.':
     'اقرأ ثلاث أوراق. كم شخصًا كان وحده بلا أحد يشهد أين كان؟ عُدّهم على اللوح.',
+  'Write the past.':
+    'اكتب الفعل في الماضي.',
   'Work in pairs. One asks. One tells the shift, in order. Then change places.':
     'اعملا في ثنائيات. واحد يسأل، والآخر يروي المناوبة بالترتيب. ثم تبادلا الأدوار.',
   'Six things that happened at your work yesterday. Write it with the past verb.':
@@ -50,6 +54,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل دوّنتها في حينها؟ واكتب الجواب.',
   'Read three papers. In how many was it written down at the time? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها دُوّنت في حينها؟ عُدّها على اللوح.',
+  'Add a when.':
+    'أضف وقتًا.',
   'Work in pairs. One reports one time. One says it happened more than once. Then change places.':
     'اعملا في ثنائيات. واحد يبلّغ عن مرة واحدة، والآخر يقول إنها حدثت أكثر من مرة. ثم تبادلا الأدوار.',
   'Four things that happened at your work more than once. Write it with all the whens.':
@@ -68,6 +74,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: كم شخصًا يعرف؟ واكتب الجواب.',
   'Read three papers. How many of these things are known to only one person? Count them on the board.':
     'اقرأ ثلاث أوراق. كم من هذه الأمور لا يعرفها إلا شخص واحد؟ عُدّها على اللوح.',
+  'Make it negative.':
+    'اجعلها منفية.',
   'Work in pairs. One asks about the line. One explains. Then change places.':
     'اعملا في ثنائيات. واحد يسأل عن السطر، والآخر يشرح. ثم تبادلا الأدوار.',
   'Four things you did not do at work yesterday, and why. Write it.':
@@ -86,6 +94,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: ماذا كان سيحدث لو لم تكتبه؟ واكتب الجواب.',
   'Read three papers. In how many would nobody have found out? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها ما كان أحد ليكتشف الأمر؟ عُدّها على اللوح.',
+  'Write the question.':
+    'اكتب السؤال.',
   'Work in pairs. One asks what happened and then stays silent. One tells it. Then change places.':
     'اعملا في ثنائيات. واحد يسأل ماذا حدث ثم يصمت، والآخر يروي. ثم تبادلا الأدوار.',
   'Ask your partner what happened about a bad day at their work. Then say nothing for four seconds. Write it.':
@@ -104,6 +114,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل عرفوا الباقي يومًا؟ واكتب الجواب.',
   'Read three papers. In how many was the rest never found out? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها لم يُعرف الباقي قط؟ عُدّها على اللوح.',
+  'Do the exercise in the Language box.':
+    'أنجز التمرين في صندوق اللغة.',
   'Work in pairs. One is going home. One is starting. Three sentences only. Then change places.':
     'اعملا في ثنائيات. واحد ذاهب إلى بيته، والآخر يبدأ مناوبته. ثلاث جمل فقط. ثم تبادلا الأدوار.',
   'Your last shift, in three sentences. Write it. Still wrong, needs doing, not finished.':

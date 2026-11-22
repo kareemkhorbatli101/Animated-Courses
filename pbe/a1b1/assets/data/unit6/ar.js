@@ -8,6 +8,8 @@ PBE1.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write the answer.':
+    'اكتب الجواب.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs, back to back — you cannot see each other, like a real telephone. Then change places.':
@@ -32,6 +34,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: من لا يريد أن يجيب عليه؟ ثم اكتب الجواب.',
   'Read three papers. How many people are afraid of the telephone at work? Count them on the board.':
     'اقرأ ثلاث ورقات. كم شخصًا يخاف من الهاتف في العمل؟ عُدّوهم على اللوح.',
+  'Write the line.':
+    'اكتب السطر.',
   'Work in pairs, back to back. One is the caller with a hard name. Then change places.':
     'اعملا في ثنائيات، ظهرًا إلى ظهر. أحدكما المتصل وله اسم صعب. ثم تبادلا الدورين.',
   'Four hard names. Your partner says them over a telephone. You write them and count. Write it.':
@@ -70,6 +74,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: هل أقفل أحدٌ الخط يومًا؟ ثم اكتب الجواب.',
   'Read three papers. How many callers have rung off waiting? Count them on the board.':
     'اقرأ ثلاث ورقات. كم متصلًا أقفل الخط وهو ينتظر؟ عُدّوهم على اللوح.',
+  'Add the second sentence.':
+    'أضف الجملة الثانية.',
   'Work in pairs, back to back. One asks for people. One says where they are. Then change places.':
     'اعملا في ثنائيات، ظهرًا إلى ظهر. أحدكما يسأل عن أشخاص. والآخر يقول أين هم. ثم تبادلا الدورين.',
   'Four people at your work. Where are they, and when are they back? Write it.':
@@ -88,6 +94,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: هل تقول «في اجتماع» أحيانًا؟ ثم اكتب الجواب.',
   'Read three papers. How many people say in a meeting when it is not true? Count them on the board.':
     'اقرأ ثلاث ورقات. كم شخصًا يقول «في اجتماع» وهي ليست الحقيقة؟ عُدّوهم على اللوح.',
+  'Write the number in digits.':
+    'اكتب العدد بالأرقام.',
   'Work in pairs, back to back. One gives a number. One writes and reads it back. Then change places.':
     'اعملا في ثنائيات، ظهرًا إلى ظهر. أحدكما يعطي رقمًا. والآخر يكتبه ويعيد قراءته. ثم تبادلا الدورين.',
   'Four numbers. Your partner says them over a telephone. You write and read back. Write it.':
@@ -106,6 +114,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: هل تمكنتَ من الوصول إليه يومًا؟ ثم اكتب الجواب.',
   'Read three papers. How many lost calls were never got back? Count them on the board.':
     'اقرأ ثلاث ورقات. كم اتصالًا ضائعًا لم يُستدرك أبدًا؟ عُدّوها على اللوح.',
+  'Make it strong.':
+    'اجعلها أقوى.',
   'Work in pairs, back to back. One is the caller. One promises. Then change places.':
     'اعملا في ثنائيات، ظهرًا إلى ظهر. أحدكما المتصل. والآخر يَعِد. ثم تبادلا الدورين.',
   'Four messages you have taken. What did you promise? What did you do? Write it.':

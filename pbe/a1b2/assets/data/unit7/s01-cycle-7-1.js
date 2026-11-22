@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u7-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 7 · 7.1', part: '7.1',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 7 · 7.1', part: '7.1',
           section: '1', lesson: 'Big, small, heavy, light', title: 'Big, small, heavy, light' },
   objective: 'describe a thing — big, small, heavy, light, full, empty',
   study: {
@@ -194,17 +194,23 @@ PBE2.page('u7-s01', {
             q: 'Books closed. Listen. Which box does Ammar take?',
             options: [{
               t: 'the big one',
-              ok: false
+              ok: false,
+              why: 'Ammar says it is nearer, and he talks about carrying it on his '
+                + 'shoulder. That is Ammar arguing, not the box he is told to '
+                + 'take first.'
             },
             {
               t: 'the small heavy one',
               ok: true,
-              why: 'the small heavy one'
+              why: 'Samih\'s first line says it: two boxes, and take the small one first.'
             },
             {
               t: 'both',
-              ok: false
-            }]
+              ok: false,
+              why: 'Two boxes are going to the counter, so both are in the scene. '
+                + 'The question is which one goes first.'
+            }],
+            evidence: 'Samih\'s first line, and then the line about which one is heavy'
           },
         {
             q: 'Listen again. What is in the small box?',
@@ -249,6 +255,22 @@ PBE2.page('u7-s01', {
             evidence: 'the last two lines of the dialogue'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '7.1.2',
+      bookRef: 'Unit 7 · 7.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the word.',
+      text: '<b>1</b> A box with nothing in it is [[1]]. &nbsp; <b>2</b> A box with '
+      + 'labels in it is [[2]]. &nbsp; <b>3</b> A carton in the rain is [[3]]. '
+      + '&nbsp; <b>4</b> A pallet with two cartons on it is [[4]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

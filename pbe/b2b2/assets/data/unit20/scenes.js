@@ -653,6 +653,47 @@ PBE8.scene('u20-20-7', {
   ]
 });
 
+PBE8.scene('u20-20-7-pair', {
+  set: 'handoverdesk',
+  arr: 0,
+  cast: {
+    nour: { rig: 'f-20s-a', name: 'Nour', voice: 'en-US-AriaNeural', shirt: '#b8527a', shirt2: '#95415f',
+      full: true, scale: 0.62, bottom: 30, at: [0.22, 0.62],
+      pose: 'rest' },
+    bassel: { rig: 'm-20s-b', name: 'Bassel', voice: 'en-IE-ConnorNeural', shirt: '#4a7f5a', shirt2: '#3a6447',
+      full: true, scale: 0.62, bottom: 30, at: [0.72, 0.62],
+      pose: 'rest' }
+  },
+  lines: [
+    { who: 'nour', cam: { shot: 'wide' },
+      en: 'The warehouse manager\'s post is decided. Nadia takes it '
+            + 'substantively from the first of July.' },
+    { who: 'bassel', cam: { shot: 'mid' },
+      en: 'And until July?' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'You act in it, with the same authority and the same limit.' },
+    { who: 'bassel', cam: { shot: 'mid' },
+      en: 'So am I acting, or auditioning?' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'Acting. You are not auditioning, and doing it well will not change '
+            + 'the outcome.' },
+    { who: 'bassel', cam: { shot: 'mid' },
+      en: 'That is a hard thing to be told on a Thursday.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'If I left you to hope, you would do everything for the wrong '
+            + 'reason for two months, and you would be entitled to be angry in '
+            + 'July.' },
+    { who: 'bassel', cam: { shot: 'mid' },
+      en: 'Why is there a gap at all? Is it about me?' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'It is the arbitration and the peak season, not your capability. '
+            + 'And the acting post ends on the fifteenth of July whatever '
+            + 'happens.' },
+    { who: 'bassel', cam: { shot: 'close' },
+      en: 'Then give me the Homs reopening, and I will have run something by July.' }
+  ]
+});
+
 PBE8.scene('u20-20-7-b', {
   set: 'handoverdesk',
   arr: 0,

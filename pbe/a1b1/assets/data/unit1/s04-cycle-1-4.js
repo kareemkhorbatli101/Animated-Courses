@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u1-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 1 · 1.4', part: '1.4',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 1 · 1.4', part: '1.4',
           section: '4', lesson: 'He is the driver. She is in the office.', title: 'He is the driver. She is in the office.' },
   objective: 'say who another person is',
   study: {
@@ -123,7 +123,7 @@ PBE1.page('u1-s04', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '1.4.1',
       bookRef: 'Unit 1 · 1.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -133,20 +133,19 @@ PBE1.page('u1-s04', {
             q: 'Say the names of three people at your work. What is each one\'s job?',
             minWords: 6,
             rows: 2,
-            hint: 'Three sentences, all the same shape: a name, then *he is* or '
-              + '*she is*, then the job. The shape is the lesson.'
+            hint: 'Three sentences, all the same shape: a name, then <i>he is</i> '
+              + 'or <i>she is</i>, then the job. The shape is the lesson.'
           },
       {
             q: 'Read the four jobs. Which are in the yard, and which are in the '
               + 'office? driver · storeman · accountant · counter',
-            minWords: 6,
+            model: 'Yard: driver, storeman. Office: accountant. Counter: counter',
+            minWords: 2,
             rows: 2,
             hint: 'Ask of each one: does this person work with things, or with '
               + 'paper? That sorts all four.'
           }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -239,7 +238,7 @@ PBE1.page('u1-s04', {
               t: 'they both work upstairs',
               ok: false,
               why: 'Half right is wrong here. She is upstairs; Ammar is told in '
-                + 'the same breath that he is *down here*.'
+                + 'the same breath that he is “down here”.'
             },
             {
               t: 'they are both new drivers',
@@ -250,6 +249,22 @@ PBE1.page('u1-s04', {
             evidence: 'Abu Yasser\'s line about Nour, and Ammar\'s surprised question after it'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '1.4.2',
+      bookRef: 'Unit 1 · 1.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write he is, she is or it is.',
+      text: '<b>1</b> Fadi? [[1]] the driver. &nbsp; <b>2</b> Nour? [[2]] in the '
+      + 'office. &nbsp; <b>3</b> The badge? [[3]] on the table. &nbsp; <b>4</b> '
+      + 'Majd? [[4]] on the counter.',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -277,7 +292,7 @@ PBE1.page('u1-s04', {
               'upstairs'],
             need: 1,
             hint: 'Two words: the room, and which floor. Abu Yasser gives both in '
-              + 'the same line, and then says it again as *upstairs*.'
+              + 'the same line, and then says it again as <i>upstairs</i>.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

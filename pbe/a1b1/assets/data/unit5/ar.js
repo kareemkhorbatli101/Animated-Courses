@@ -8,6 +8,8 @@ PBE1.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write the number 1, 2, 3 or 4.':
+    'اكتب الرقم ١ أو ٢ أو ٣ أو ٤.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs. One has the note. One asks. Then change places.':
@@ -32,6 +34,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: هل وقّعتَ يومًا على شيء لم تتحقق منه؟ ثم اكتب الجواب.',
   'Read three papers. How many people have signed something they had not checked? Count them on the board.':
     'اقرأ ثلاث ورقات. كم شخصًا وقّع على شيء لم يتحقق منه؟ عُدّوهم على اللوح.',
+  'Write the date in letters.':
+    'اكتب التاريخ بالحروف.',
   'Work in pairs. One asks. One answers. Then change places.':
     'اعملا في ثنائيات. أحدكما يسأل. والآخر يجيب. ثم تبادلا الدورين.',
   'Write four dates from your life in numbers. Give them to your partner. They write them in letters.':
@@ -50,6 +54,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: بأي طريقة تكتبها شركتك؟ ثم اكتب الجواب.',
   'Read three papers. How many companies write the month in letters? Count them on the board.':
     'اقرأ ثلاث ورقات. كم شركة تكتب الشهر بالحروف؟ عُدّوها على اللوح.',
+  'Write the quantity.':
+    'اكتب الكمية.',
   'Work in pairs. One is the driver. One is the storeman. Then change places.':
     'اعملا في ثنائيات. أحدكما السائق. والآخر أمين المستودع. ثم تبادلا الدورين.',
   'Say six quantities from your work. Write it with the unit every time.':
@@ -68,6 +74,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: كم في الواحدة منها؟ ثم اكتب الجواب.',
   'Read three papers. How many different units does this class count in? Count them on the board.':
     'اقرأ ثلاث ورقات. بكم وحدة مختلفة يعدّ هذا الصف؟ عُدّوها على اللوح.',
+  'Write the line.':
+    'اكتب السطر.',
   'Work in pairs. One is the driver, in a hurry. One is the storeman. Then change places.':
     'اعملا في ثنائيات. أحدكما السائق، وهو مستعجل. والآخر أمين المستودع. ثم تبادلا الدورين.',
   'Your partner is a driver in a hurry. Ask your partner for two minutes. Then write it.':
@@ -86,6 +94,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: هل سألك أحدٌ لماذا وقّعتها؟ ثم اكتب الجواب.',
   'Read three papers. In how many did somebody sign without counting? Count them on the board.':
     'اقرأ ثلاث ورقات. في كم واحدة منها وقّع أحدٌ دون أن يعدّ؟ عُدّوها على اللوح.',
+  'Write the question.':
+    'اكتب السؤال.',
   'Work in pairs. One has a number they cannot read. One helps. Then change places.':
     'اعملا في ثنائيات. مع أحدكما رقم لا يستطيع قراءته. والآخر يساعده. ثم تبادلا الدورين.',
   'Write five numbers from your work badly, on purpose. Your partner asks about each one. Write it.':
@@ -104,6 +114,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: كيف اكتشفوه في النهاية؟ ثم اكتب الجواب.',
   'Read three papers. How many hours did wrong digits cost this class altogether? Add them up on the board.':
     'اقرأ ثلاث ورقات. كم ساعة كلّفت الأرقام الخاطئة هذا الصف في المجموع؟ اجمعوها على اللوح.',
+  'Write there is no or there are no.':
+    'اكتب there is no أو there are no.',
   'Work in pairs. One is the driver with no paper. One is the storeman. Then change places.':
     'اعملا في ثنائيات. أحدكما السائق الذي لا ورقة معه. والآخر أمين المستودع. ثم تبادلا الدورين.',
   'Think of a paper that is sometimes missing at your work. Write it.':

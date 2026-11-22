@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u11-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 11 · 11.5', part: '11.5',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 11 · 11.5', part: '11.5',
           section: '5', lesson: 'Here is your receipt', title: 'Here is your receipt' },
   objective: 'give a receipt, and say what is on it',
   study: {
@@ -197,17 +197,21 @@ PBE2.page('u11-s05', {
             q: 'Books closed. Listen. What is missing from the receipt?',
             options: [{
               t: 'the date',
-              ok: false
+              ok: false,
+              why: 'No date is discussed here.'
             },
             {
               t: 'the total',
-              ok: false
+              ok: false,
+              why: 'The total is printed. Twenty-four thousand is on it.'
             },
             {
               t: 'the word each',
               ok: true,
-              why: 'the word each'
-            }]
+              why: 'It says 800 next to the bags, and the machine does not print '
+                + 'each - so Majd writes it by hand.'
+            }],
+            evidence: 'the customer\'s line about what it says next to the bags'
           },
         {
             q: 'Listen again. What does the machine not print?',
@@ -252,6 +256,21 @@ PBE2.page('u11-s05', {
             evidence: 'the last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '11.5.2',
+      bookRef: 'Unit 11 · 11.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the line.',
+      text: '<b>1</b> Hand it over and say three things. [[1]]. &nbsp; <b>2</b> The '
+      + 'machine printed 800 and you need _each_. [[2]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

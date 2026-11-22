@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u7-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 7 · 7.4', part: '7.4',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 7 · 7.4', part: '7.4',
           section: '4', lesson: 'It came like this', title: 'It came like this' },
   objective: 'say it was like that when it came',
   study: {
@@ -123,7 +123,7 @@ PBE2.page('u7-s04', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '7.4.1',
       bookRef: 'Unit 7 · 7.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -140,16 +140,13 @@ PBE2.page('u7-s04', {
       {
             q: 'Read the two lines. Which one is about the carton? The driver '
               + 'broke it · It came like this. I saw it on the lorry.',
-            minWords: 6,
+            model: 'The second line',
+            minWords: 1,
             rows: 2,
             hint: 'One names a person; the other names a moment. Only one of them '
               + 'can be checked.'
           }],
-      ideas: ['Saying it came like that',
-      'A. Zreik Driver: M. Haddad'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -196,17 +193,23 @@ PBE2.page('u7-s04', {
             q: 'Books closed. Listen. When did Ammar see the damage?',
             options: [{
               t: 'after he unloaded',
-              ok: false
+              ok: false,
+              why: 'Unloading is in the scene, so this sounds right. Listen for '
+                + 'the word before.'
             },
             {
               t: 'on the lorry',
               ok: true,
-              why: 'on the lorry'
+              why: 'His own words: I saw them on the lorry, before I touched them. '
+                + 'He showed the driver too.'
             },
             {
               t: 'the next day',
-              ok: false
-            }]
+              ok: false,
+              why: 'Nothing here happens the next day. The driver was still there '
+                + 'when he looked.'
+            }],
+            evidence: 'Ammar\'s second line - the words before I touched them'
           },
         {
             q: 'Listen again. Who does Abu Yasser say stacked something heavy on it?',
@@ -252,6 +255,21 @@ PBE2.page('u7-s04', {
             evidence: 'the last line of the dialogue'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '7.4.2',
+      bookRef: 'Unit 7 · 7.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the line.',
+      text: '<b>1</b> It was damaged before you touched it. [[1]]. &nbsp; <b>2</b> '
+      + 'Say when you saw it. [[2]]. &nbsp; <b>3</b> Say who else saw it. [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

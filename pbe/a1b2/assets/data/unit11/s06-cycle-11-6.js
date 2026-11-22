@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u11-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 11 · 11.6', part: '11.6',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 11 · 11.6', part: '11.6',
           section: '6', lesson: 'The last ten seconds', title: 'The last ten seconds' },
   objective: 'close well — the last ten seconds',
   study: {
@@ -122,7 +122,7 @@ PBE2.page('u11-s06', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '11.6.1',
       bookRef: 'Unit 11 · 11.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -138,14 +138,12 @@ PBE2.page('u11-s06', {
       {
             q: 'Read the two endings. Which would bring you back? (nothing) · '
               + 'Thank you. See you Thursday.',
-            minWords: 6,
+            model: 'The second',
+            minWords: 1,
             rows: 2,
             hint: 'One of them says the shop knows who the customer is.'
           }],
-      ideas: ['The last ten seconds'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -195,17 +193,21 @@ PBE2.page('u11-s06', {
             q: 'Books closed. Listen. What does Majd add to see you?',
             options: [{
               t: 'nothing',
-              ok: false
+              ok: false,
+              why: 'Just see you is what he says it would be without it - a goodbye.'
             },
             {
               t: 'a day',
               ok: true,
-              why: 'a day'
+              why: 'See you Thursday. He says a day makes it an appointment '
+                + 'instead of a goodbye.'
             },
             {
               t: 'a price',
-              ok: false
-            }]
+              ok: false,
+              why: 'Prices are the other scenes of this unit.'
+            }],
+            evidence: 'Majd\'s goodbye, and his answer when Ammar asks why'
           },
         {
             q: 'Listen again. What day does Majd name?',
@@ -250,6 +252,21 @@ PBE2.page('u11-s06', {
             evidence: 'her last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '11.6.2',
+      bookRef: 'Unit 11 · 11.6 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the close.',
+      text: '<b>1</b> The change is 1,000 and he comes on Thursdays. [[1]]. [[1b]]. '
+      + '[[1c]]. &nbsp; <b>2</b> There is news about the sugar. [[2]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

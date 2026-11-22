@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u3-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 3 · 3.6', part: '3.6',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 3 · 3.6', part: '3.6',
           section: '6', lesson: 'I am late because the road was closed', title: 'I am late because the road was closed' },
   objective: 'say you are late, and why',
   study: {
@@ -124,7 +124,7 @@ PBE1.page('u3-s06', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '3.6.1',
       bookRef: 'Unit 3 · 3.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -141,15 +141,13 @@ PBE1.page('u3-s06', {
             q: 'Read the two lines. Which is better at work? sorry sorry sorry, '
               + 'there was a big problem · I am twenty minutes late. The road was '
               + 'closed.',
-            minWords: 6,
+            model: 'The second one is better',
+            minWords: 2,
             rows: 2,
             hint: 'One of them tells the supervisor how long he has to find a '
               + 'replacement. The other tells him how you feel.'
           }],
-      ideas: ['Saying you are late'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -211,8 +209,8 @@ PBE1.page('u3-s06', {
             options: [{
               t: 'twenty minutes',
               ok: true,
-              why: 'He opens with it: *I am twenty minutes late. The road was '
-                + 'closed at Jaramana.*'
+              why: 'He opens with it: “I am twenty minutes late. The road was '
+                + 'closed at Jaramana.”'
             },
             {
               t: 'fifteen minutes',
@@ -233,8 +231,8 @@ PBE1.page('u3-s06', {
             options: [{
               t: 'telephone from the road',
               ok: true,
-              why: '*Next time, telephone. Two minutes on the telephone and I move '
-                + 'a man.* A call that early is worth twenty minutes of lateness.'
+              why: '“Next time, telephone. Two minutes on the telephone and I move '
+                + 'a man.” A call that early is worth twenty minutes of lateness.'
             },
             {
               t: 'apologise at the gate',
@@ -252,6 +250,22 @@ PBE1.page('u3-s06', {
           }],
         say: true
       }
+    },
+    {
+      id: 'c15',
+      kind: 'own',
+      ref: '3.6.2',
+      bookRef: 'Unit 3 · 3.6 · Lesson A · Speaking · Listen and read',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Put them in order: the bus did not come · I am fifteen minutes '
+              + 'late · next time I telephone',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c3',

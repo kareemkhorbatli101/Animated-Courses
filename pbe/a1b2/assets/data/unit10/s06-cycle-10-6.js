@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u10-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 10 · 10.6', part: '10.6',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 10 · 10.6', part: '10.6',
           section: '6', lesson: 'I cannot do it alone', title: 'I cannot do it alone' },
   objective: 'say you cannot do it alone',
   study: {
@@ -198,17 +198,22 @@ PBE2.page('u10-s06', {
             q: 'Books closed. Listen. Does Samih do the job?',
             options: [{
               t: 'yes, alone',
-              ok: false
+              ok: false,
+              why: 'He did that last Thursday, and that is the thing Abu Yasser '
+                + 'asks him about afterwards.'
             },
             {
               t: 'no',
-              ok: false
+              ok: false,
+              why: 'He does not refuse. He says what he needs.'
             },
             {
               t: 'yes, with Ammar, an hour later',
               ok: true,
-              why: 'yes, with Ammar, at eleven'
-            }]
+              why: 'He says he cannot do it alone, Ammar is back at eleven, so he '
+                + 'does it at eleven.'
+            }],
+            evidence: 'Samih\'s second line, and the time Abu Yasser gives him'
           },
         {
             q: 'Listen again. When will the paint pallet be moved?',
@@ -254,6 +259,21 @@ PBE2.page('u10-s06', {
             evidence: 'the last four lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '10.6.2',
+      bookRef: 'Unit 10 · 10.6 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Say both halves.',
+      text: '<b>1</b> You cannot lift it alone. [[1]]. [[1b]]. &nbsp; <b>2</b> You '
+      + 'cannot reach it alone. [[2]]. [[2b]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

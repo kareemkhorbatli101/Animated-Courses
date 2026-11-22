@@ -624,6 +624,49 @@ PBE8.scene('u18-18-7', {
   ]
 });
 
+PBE8.scene('u18-18-7-pair', {
+  set: 'archive',
+  arr: 0,
+  cast: {
+    nour: { rig: 'f-20s-a', name: 'Nour', voice: 'en-US-AriaNeural', shirt: '#b8527a', shirt2: '#95415f',
+      full: true, scale: 0.62, bottom: 30, at: [0.23, 0.62],
+      pose: 'rest' },
+    ayoub: { rig: 'm-50s-a', name: 'Mr Ayoub', voice: 'en-CA-LiamNeural', shirt: '#3f5668', shirt2: '#32454f',
+      full: true, scale: 0.62, bottom: 30, at: [0.65, 0.62],
+      pose: 'rest' }
+  },
+  lines: [
+    { who: 'nour', cam: { shot: 'wide' },
+      en: 'Bassel has found the strongest thing in the file. This firm set a '
+            + 'quoting threshold in 2021 and reviewed it in neither 2023 nor '
+            + '2025.' },
+    { who: 'ayoub', cam: { shot: 'mid' },
+      en: 'As he has written it, it names the previous office manager twice. '
+            + 'That is a document about me.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'It is a finding about a reason nobody recorded.' },
+    { who: 'ayoub', cam: { shot: 'mid' },
+      en: 'In 2032 nobody will know what it was meant as. They will have the sentence.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'Then the firm becomes the subject and your name comes out. Both '
+            + 'dates and both silences stay.' },
+    { who: 'ayoub', cam: { shot: 'mid' },
+      en: 'That is a larger claim than the one he wrote.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'It is. One man being careless is a smaller claim than a firm that '
+            + 'cannot hold a reason.' },
+    { who: 'ayoub', cam: { shot: 'mid' },
+      en: 'And you want my initials at section 3.2 as well.' },
+    { who: 'nour', cam: { shot: 'mid' },
+      en: 'On your own words there, and nothing else. The page-one finding is '
+            + 'mine, and it is endorsed by nobody.' },
+    { who: 'ayoub', cam: { shot: 'close' },
+      en: 'Then write this at 3.2 as well. There was no form, and nobody '
+            + 'whose job it was to ask me. Not as an excuse - it will happen to '
+            + 'the next person in that chair.' }
+  ]
+});
+
 PBE8.scene('u18-18-7-b', {
   set: 'archive',
   arr: 0,

@@ -5,7 +5,7 @@ PBE2.unitMap('unit7', [{
       part: '7.1',
       lesson: 'Big, small, heavy, light',
       label: '7.1 Big, small, heavy, light',
-      n: 14
+      n: 15
     },
     {
       id: 'u7-s02',
@@ -13,7 +13,7 @@ PBE2.unitMap('unit7', [{
       part: '7.2',
       lesson: 'Broken, torn, wet',
       label: '7.2 Broken, torn, wet',
-      n: 14
+      n: 15
     },
     {
       id: 'u7-s03',
@@ -21,7 +21,7 @@ PBE2.unitMap('unit7', [{
       part: '7.3',
       lesson: 'Two of the ten',
       label: '7.3 Two of the ten',
-      n: 14
+      n: 15
     },
     {
       id: 'u7-s04',
@@ -29,7 +29,7 @@ PBE2.unitMap('unit7', [{
       part: '7.4',
       lesson: 'It came like this',
       label: '7.4 It came like this',
-      n: 14
+      n: 15
     },
     {
       id: 'u7-s05',
@@ -37,7 +37,7 @@ PBE2.unitMap('unit7', [{
       part: '7.5',
       lesson: 'What do I do?',
       label: '7.5 What do I do?',
-      n: 14
+      n: 15
     },
     {
       id: 'u7-s06',
@@ -45,7 +45,7 @@ PBE2.unitMap('unit7', [{
       part: '7.6',
       lesson: 'One line, and somebody acts on it',
       label: '7.6 One line, and somebody acts on it',
-      n: 14
+      n: 15
     },
     {
       id: 'u7-s07',

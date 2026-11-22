@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u9-s07', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 9 · 9.7', part: '9.7',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 9 · 9.7', part: '9.7',
           section: '7', lesson: 'Review: the shift report', title: 'Review: the shift report' },
   objective: 'Review: the shift report — and one problem to talk about together',
   study: {
@@ -181,17 +181,22 @@ PBE2.page('u9-s07', {
             q: 'Books closed. Listen. What is the problem?',
             options: [{
               t: 'one man is lying',
-              ok: false
+              ok: false,
+              why: 'The obvious reading when two times do not match. Listen to '
+                + 'what Nour says about both sheets.'
             },
             {
               t: 'two men remember the same night differently',
               ok: true,
-              why: 'two men remember the same night differently'
+              why: 'One o\'clock and three o\'clock are both true, and the two '
+                + 'hours between them are what nobody wrote.'
             },
             {
               t: 'nobody wrote anything down',
-              ok: false
-            }]
+              ok: false,
+              why: 'Both men wrote something. That is how the gap can be seen at all.'
+            }],
+            evidence: 'Nour\'s line that says both of you are right'
           },
         {
             q: 'Listen again. How long did the lorry sit in the yard?',

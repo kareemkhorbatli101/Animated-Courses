@@ -5,7 +5,7 @@ PBE2.unitMap('unit9', [{
       part: '9.1',
       lesson: 'Where everybody was at four o\'clock',
       label: '9.1 Where everybody was at four o\'clock',
-      n: 14
+      n: 15
     },
     {
       id: 'u9-s02',
@@ -13,7 +13,7 @@ PBE2.unitMap('unit9', [{
       part: '9.2',
       lesson: 'Fifteen verbs, and what they do in the past',
       label: '9.2 Fifteen verbs, and what they do in the past',
-      n: 14
+      n: 15
     },
     {
       id: 'u9-s03',
@@ -21,7 +21,7 @@ PBE2.unitMap('unit9', [{
       part: '9.3',
       lesson: 'Last night, last week, on Monday',
       label: '9.3 Last night, last week, on Monday',
-      n: 14
+      n: 15
     },
     {
       id: 'u9-s04',
@@ -29,7 +29,7 @@ PBE2.unitMap('unit9', [{
       part: '9.4',
       lesson: 'I did not count it',
       label: '9.4 I did not count it',
-      n: 14
+      n: 15
     },
     {
       id: 'u9-s05',
@@ -37,7 +37,7 @@ PBE2.unitMap('unit9', [{
       part: '9.5',
       lesson: 'What happened?',
       label: '9.5 What happened?',
-      n: 14
+      n: 15
     },
     {
       id: 'u9-s06',
@@ -45,7 +45,7 @@ PBE2.unitMap('unit9', [{
       part: '9.6',
       lesson: 'Three sentences, in order',
       label: '9.6 Three sentences, in order',
-      n: 14
+      n: 15
     },
     {
       id: 'u9-s07',

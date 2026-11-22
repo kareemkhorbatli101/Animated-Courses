@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u11-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 11 · 11.3', part: '11.3',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 11 · 11.3', part: '11.3',
           section: '3', lesson: 'Eight hundred SYP each', title: 'Eight hundred SYP each' },
   objective: 'read a price aloud',
   study: {
@@ -122,7 +122,7 @@ PBE2.page('u11-s03', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '11.3.1',
       bookRef: 'Unit 11 · 11.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -139,14 +139,12 @@ PBE2.page('u11-s03', {
       {
             q: 'Read the two lines. Which is a price? Eight hundred · Eight '
               + 'hundred SYP each',
-            minWords: 6,
+            model: 'The second is a price',
+            minWords: 2,
             rows: 2,
             hint: 'Ask which one you could pay without asking a question first.'
           }],
-      ideas: ['Saying a price'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -196,16 +194,20 @@ PBE2.page('u11-s03', {
             options: [{
               t: '800',
               ok: true,
-              why: '800'
+              why: 'Eight hundred SYP each - and he says each again when the customer asks.'
             },
             {
               t: '8,000',
-              ok: false
+              ok: false,
+              why: 'Eight thousand is not said in this scene. The numbers here are '
+                + 'eight hundred and sixteen thousand.'
             },
             {
               t: '80,000',
-              ok: false
-            }]
+              ok: false,
+              why: 'Too big: twenty of them together is sixteen thousand.'
+            }],
+            evidence: 'Majd\'s answer, and the word he says twice'
           },
         {
             q: 'Listen again. How much are the big bags?',
@@ -250,6 +252,21 @@ PBE2.page('u11-s03', {
             evidence: 'the last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '11.3.2',
+      bookRef: 'Unit 11 · 11.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Make it a price.',
+      text: '<b>1</b> Eight hundred. → [[1]]. &nbsp; <b>2</b> Sixteen thousand. → '
+      + '[[2]]. &nbsp; <b>3</b> Four thousand. → [[3]] (a kilo).',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

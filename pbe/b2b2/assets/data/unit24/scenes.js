@@ -648,6 +648,47 @@ PBE8.scene('u24-24-7', {
   ]
 });
 
+PBE8.scene('u24-24-7-pair', {
+  set: 'letterdesk',
+  arr: 0,
+  cast: {
+    sayegh: { rig: 'm-50s-b', name: 'Mr Sayegh', voice: 'en-AU-WilliamMultilingualNeural', shirt: '#4a5e74', shirt2: '#3a4a5c',
+      full: true, scale: 0.62, bottom: 30, at: [0.20, 0.62],
+      pose: 'rest' },
+    lina: { rig: 'f-20s-b', name: 'Lina', voice: 'en-NZ-MollyNeural', shirt: '#8a5f7a', shirt2: '#6e4b61',
+      full: true, scale: 0.62, bottom: 30, at: [0.70, 0.62],
+      pose: 'rest' }
+  },
+  lines: [
+    { who: 'sayegh', cam: { shot: 'wide' },
+      en: 'I have written that your English is fluent. It will help you get '
+            + 'an interview.' },
+    { who: 'lina', cam: { shot: 'mid' },
+      en: 'It is not true, and it will be tested in the first twenty minutes.' },
+    { who: 'sayegh', cam: { shot: 'mid' },
+      en: 'It is one sentence among three true ones.' },
+    { who: 'lina', cam: { shot: 'mid' },
+      en: 'The three true ones fail with it. That is what one untrue sentence '
+            + 'does to a reference.' },
+    { who: 'sayegh', cam: { shot: 'mid' },
+      en: 'And a cold reference may cost you the interview altogether.' },
+    { who: 'lina', cam: { shot: 'mid' },
+      en: 'I am the one who will be in the room. The choice of which '
+            + 'conversation to have is mine.' },
+    { who: 'sayegh', cam: { shot: 'mid' },
+      en: 'Then tell me what the reference says.' },
+    { who: 'lina', cam: { shot: 'mid' },
+      en: 'What the certificate is, the three acts it evidences, and what it '
+            + 'does not evidence. Then three documents, named.' },
+    { who: 'sayegh', cam: { shot: 'mid' },
+      en: 'Including the September note correcting your own earlier note.' },
+    { who: 'lina', cam: { shot: 'close' },
+      en: 'Including that. I would rather be asked about the November '
+            + 'reconciliation than asked to explain the word fluent. One of those '
+            + 'conversations I can have.' }
+  ]
+});
+
 PBE8.scene('u24-24-7-b', {
   set: 'letterdesk',
   arr: 0,

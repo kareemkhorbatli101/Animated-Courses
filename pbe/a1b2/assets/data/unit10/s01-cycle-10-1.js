@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u10-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 10 · 10.1', part: '10.1',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 10 · 10.1', part: '10.1',
           section: '1', lesson: 'The six signs', title: 'The six signs' },
   objective: 'read the six signs in this yard',
   study: {
@@ -198,17 +198,21 @@ PBE2.page('u10-s01', {
             q: 'Books closed. Listen. How many signs are in the yard?',
             options: [{
               t: 'four',
-              ok: false
+              ok: false,
+              why: 'Ammar reads them out in groups, so it is easy to lose count. '
+                + 'Abu Yasser gives the number first.'
             },
             {
               t: 'six',
               ok: true,
-              why: 'six'
+              why: 'Six signs in this yard - he says it before they start, and six get read.'
             },
             {
               t: 'eleven',
-              ok: false
-            }]
+              ok: false,
+              why: 'No eleven here. That number belongs to Abu Fouad\'s years in unit eight.'
+            }],
+            evidence: 'Abu Yasser\'s first line, before they walk round'
           },
         {
             q: 'Listen again. Which sign is on the paint store?',
@@ -253,6 +257,21 @@ PBE2.page('u10-s01', {
             evidence: 'the last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '10.1.2',
+      bookRef: 'Unit 10 · 10.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write what each one means.',
+      text: '<b>1</b> KEEP OUT = [[1]] &nbsp; <b>2</b> FLAMMABLE = [[2]] &nbsp; '
+      + '<b>3</b> FIRE EXIT = [[3]] &nbsp; <b>4</b> DANGER = [[4]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u1-s05', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 1 · 1.5', part: '1.5',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 1 · 1.5', part: '1.5',
           section: '5', lesson: 'Good morning at seven, goodbye at four', title: 'Good morning at seven, goodbye at four' },
   objective: 'say hello in the morning and goodbye at four o\'clock',
   study: {
@@ -144,8 +144,8 @@ PBE1.page('u1-s05', {
             minWords: 6,
             rows: 2,
             hint: 'Twelve is the line. Anything under it is the morning; anything '
-              + 'over it is the afternoon - which is also the rule for *good '
-              + 'morning* and *good afternoon*.'
+              + 'over it is the afternoon - which is also the rule for <i>good '
+              + 'morning</i> and <i>good afternoon</i>.'
           }],
       ideas: ['Hello and goodbye at work'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -210,7 +210,7 @@ PBE1.page('u1-s05', {
             options: [{
               t: 'seven o\'clock',
               ok: true,
-              why: 'Abu Yasser says *see you tomorrow morning, seven o\'clock*, '
+              why: 'Abu Yasser says “see you tomorrow morning, seven o\'clock”, '
                 + 'and Ammar says it back.'
             },
             {
@@ -232,7 +232,7 @@ PBE1.page('u1-s05', {
             options: [{
               t: 'to sign out - his name and the time',
               ok: true,
-              why: 'Abu Raed says *sign out, your name and the time*, and adds '
+              why: 'Abu Raed says “sign out, your name and the time”, and adds '
                 + 'that it is every day, in and out.'
             },
             {
@@ -250,6 +250,22 @@ PBE1.page('u1-s05', {
             evidence: 'the three lines after Abu Raed shouts his name'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '1.5.2',
+      bookRef: 'Unit 1 · 1.5 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write in or at.',
+      text: '<b>1</b> I start [[1]] seven. &nbsp; <b>2</b> I work [[2]] the morning. '
+      + '&nbsp; <b>3</b> I finish [[3]] four. &nbsp; <b>4</b> He comes [[4]] the '
+      + 'afternoon.',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -483,8 +499,8 @@ PBE1.page('u1-s05', {
             keys: ['sign',
               'out'],
             need: 1,
-            hint: 'Abu Raed says it as four words: *every day, in and out*. The '
-              + 'thing itself is what he calls Ammar back for.'
+            hint: 'Abu Raed says it as four words: <i>every day, in and out</i>. '
+              + 'The thing itself is what he calls Ammar back for.'
           },
       {
             q: 'What happens if your name is not in the book?',

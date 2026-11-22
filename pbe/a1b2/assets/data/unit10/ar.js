@@ -8,6 +8,8 @@ PBE2.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write what each one means.':
+    'اكتب معنى كل واحدة.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs. One points at a sign on the page. One says what it means and what kind it is. Then change places.':
@@ -32,6 +34,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل طلب أحد يومًا لافتة بالعربية؟ واكتب الجواب.',
   'Read three papers. How many workplaces have a sign nobody can read? Count them on the board.':
     'اقرأ ثلاث أوراق. كم مكان عمل فيه لافتة لا يستطيع أحد قراءتها؟ عُدّها على اللوح.',
+  'Write must or must not.':
+    'اكتب must أو must not.',
   'Work in pairs. One has a paper with nine rules. One says which three matter. Then change places.':
     'اعملا في ثنائيات. واحد معه ورقة فيها تسع قواعد، والآخر يقول أي ثلاث منها هي المهمة. ثم تبادلا الأدوار.',
   'How many rules are on paper at your work, and how many are enforced? Write it.':
@@ -50,6 +54,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل أُصيب أحد يومًا بسبب تلك القاعدة؟ واكتب الجواب.',
   'Read three papers. How many rules in this class have hurt somebody? Count them on the board.':
     'اقرأ ثلاث أوراق. كم قاعدة في هذا الصف أُصيب أحد بسببها؟ عُدّها على اللوح.',
+  'What do you say?':
+    'ماذا تقول؟',
   'Work in threes. One shouts. One is the driver. One is the man behind. Then change places.':
     'اعملوا في مجموعات ثلاثية. واحد يصرخ، وواحد هو السائق، وواحد هو الرجل الذي خلف الشاحنة. ثم تبادلوا الأدوار.',
   'Two threes perform for the class — books closed, and really shout.':
@@ -70,6 +76,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل تغيّر شيء بعدها؟ واكتب الجواب.',
   'Read three papers. After how many near misses did something change? Count them on the board.':
     'اقرأ ثلاث أوراق. بعد كم حادث كاد يقع تغيّر شيء؟ عُدّها على اللوح.',
+  'Make it a real warning.':
+    'اجعلها تحذيرًا حقيقيًا.',
   'Work in pairs. One gives a worn-out warning. One makes it a real one. Then change places.':
     'اعملا في ثنائيات. واحد يطلق تحذيرًا مستهلكًا، والآخر يحوّله إلى تحذير حقيقي. ثم تبادلا الأدوار.',
   'Four dangerous things at your work. Write a real warning for each — where, and what to do instead.':
@@ -88,6 +96,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: منذ متى وهو هناك؟ واكتب الجواب.',
   'Read three papers. Add up how long these notices have been on the wall. Put the total in years on the board.':
     'اقرأ ثلاث أوراق. اجمع المدة التي ظلت فيها هذه الإعلانات على الحائط. واكتب المجموع بالسنوات على اللوح.',
+  'Report it in three parts.':
+    'أبلغ عنها في ثلاثة أجزاء.',
   'Work in pairs. One reports. One asks the hard question. Then change places.':
     'اعملا في ثنائيات. واحد يبلّغ، والآخر يسأل السؤال الصعب. ثم تبادلا الأدوار.',
   'Four unsafe things at your work. Write it. And write the NAME of the person you will tell.':
@@ -106,6 +116,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل يُخبَر الرجل الجديد؟ واكتب الجواب.',
   'Read three papers. In how many does a new person get told? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها يُخبَر الشخص الجديد؟ عُدّها على اللوح.',
+  'Say both halves.':
+    'قل النصفين كليهما.',
   'Work in pairs. One gives a two-man job. One says the seven words AND when. Then change places.':
     'اعملا في ثنائيات. واحد يكلّف بمهمة تحتاج رجلين، والآخر يقول الكلمات السبع ويقول متى أيضًا. ثم تبادلا الأدوار.',
   'Four two-man jobs at your work. Write it. Have you done each one alone?':

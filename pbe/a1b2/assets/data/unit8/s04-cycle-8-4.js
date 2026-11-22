@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u8-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 8 · 8.4', part: '8.4',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 8 · 8.4', part: '8.4',
           section: '4', lesson: 'Sorry, we have not got any', title: 'Sorry, we have not got any' },
   objective: 'say no, politely',
   study: {
@@ -124,7 +124,7 @@ PBE2.page('u8-s04', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '8.4.1',
       bookRef: 'Unit 8 · 8.4 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -141,13 +141,12 @@ PBE2.page('u8-s04', {
       {
             q: 'Read the two lines. Which one would you rather hear? No. · '
               + 'Sorry, we have not got any. Thursday.',
-            minWords: 6,
+            model: 'The second line',
+            minWords: 1,
             rows: 2,
             hint: 'Ask which one lets the customer plan their week.'
           }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -194,17 +193,22 @@ PBE2.page('u8-s04', {
             q: 'Books closed. Listen. Does the customer go away angry?',
             options: [{
               t: 'yes',
-              ok: false
+              ok: false,
+              why: 'He is told none at all, which would make most people angry. '
+                + 'Listen to what he says at the end.'
             },
             {
               t: 'no',
-              ok: false
+              ok: false,
+              why: 'He does not simply accept it either. Something is arranged '
+                + 'before he goes.'
             },
             {
               t: 'he waits',
               ok: true,
-              why: 'he waits, and orders for Thursday'
-            }]
+              why: 'Keep them, I come Thursday at eight - and Majd takes his name for it.'
+            }],
+            evidence: 'the customer\'s last two lines'
           },
         {
             q: 'Listen again. How many brown bags has Majd got today?',
@@ -249,6 +253,21 @@ PBE2.page('u8-s04', {
             evidence: 'the last four lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '8.4.2',
+      bookRef: 'Unit 8 · 8.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the three parts.',
+      text: '<b>1</b> The no: [[1]]. &nbsp; <b>2</b> The when: [[2]]. &nbsp; <b>3</b> '
+      + 'The instead: [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

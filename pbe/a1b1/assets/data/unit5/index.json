@@ -5,7 +5,7 @@
   "cycle": "5.1",
   "title": "Name, date, number, signature",
   "objective": "name the four things on every delivery note",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -15,7 +15,7 @@
   "cycle": "5.2",
   "title": "4 March, not 3 April",
   "objective": "read a date, and not read it the wrong way round",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -25,7 +25,7 @@
   "cycle": "5.3",
   "title": "Twelve boxes, not twelve",
   "objective": "read a quantity and its unit",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -35,7 +35,7 @@
   "cycle": "5.4",
   "title": "Sign here — and what you have just said",
   "objective": "sign — and know what you have agreed to",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -45,7 +45,7 @@
   "cycle": "5.5",
   "title": "Is it a six or an eight?",
   "objective": "copy a number without changing it",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -55,7 +55,7 @@
   "cycle": "5.6",
   "title": "There is no note",
   "objective": "say a paper is missing",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },

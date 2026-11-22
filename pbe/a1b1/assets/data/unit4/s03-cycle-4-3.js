@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u4-s03', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 4 · 4.3', part: '4.3',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 4 · 4.3', part: '4.3',
           section: '3', lesson: 'Where is the big roll?', title: 'Where is the big roll?' },
   objective: 'ask where something is',
   study: {
@@ -123,7 +123,7 @@ PBE1.page('u4-s03', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '4.3.1',
       bookRef: 'Unit 4 · 4.3 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -133,21 +133,20 @@ PBE1.page('u4-s03', {
             q: 'Ask your partner where three things in this room are.',
             minWords: 6,
             rows: 2,
-            hint: '*Where is* for one thing, *where are* for more than one. Getting '
-              + 'that right is the point; the three things barely matter.'
+            hint: '<i>Where is</i> for one thing, <i>where are</i> for more than '
+              + 'one. Getting that right is the point; the three things barely '
+              + 'matter.'
           },
       {
             q: 'Read the two questions. Which is correct? Where is the rolls? · '
               + 'Where are the rolls?',
-            minWords: 6,
+            model: 'Where are the rolls? is correct',
+            minWords: 2,
             rows: 2,
             hint: 'Look at the end of the noun. If it is more than one thing, the '
               + 'verb has to agree with it.'
           }],
-      ideas: ['Asking where'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -210,12 +209,12 @@ PBE1.page('u4-s03', {
             options: [{
               t: 'behind the door, standing up',
               ok: true,
-              why: 'And standing up for a reason: *because it does not go on a shelf*.'
+              why: 'And standing up for a reason: “because it does not go on a shelf”.'
             },
             {
               t: 'row two, shelf one',
               ok: false,
-              why: 'That is where the *paper* says it is - the whole problem of the scene.'
+              why: 'That is where the “paper” says it is - the whole problem of the scene.'
             },
             {
               t: 'row two, shelf two',
@@ -230,7 +229,7 @@ PBE1.page('u4-s03', {
             options: [{
               t: 'it was a good decision that nobody wrote down',
               ok: true,
-              why: '*Somebody made a good decision and told nobody.* The decision '
+              why: '“Somebody made a good decision and told nobody.” The decision '
                 + 'was right and the paper was left lying.'
             },
             {
@@ -247,6 +246,22 @@ PBE1.page('u4-s03', {
             evidence: 'Nour\'s last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '4.3.2',
+      bookRef: 'Unit 4 · 4.3 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write is or are.',
+      text: '<b>1</b> Where [[1]] the ladder? &nbsp; <b>2</b> Where [[2]] the count '
+      + 'sheets? &nbsp; <b>3</b> Where [[3]] my badge? &nbsp; <b>4</b> Where '
+      + '[[4]] the four pallets?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

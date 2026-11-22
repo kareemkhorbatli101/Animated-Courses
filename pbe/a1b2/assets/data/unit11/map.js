@@ -5,7 +5,7 @@ PBE2.unitMap('unit11', [{
       part: '11.1',
       lesson: 'Good morning. Can I help you?',
       label: '11.1 Good morning. Can I help you?',
-      n: 14
+      n: 15
     },
     {
       id: 'u11-s02',
@@ -13,7 +13,7 @@ PBE2.unitMap('unit11', [{
       part: '11.2',
       lesson: 'What would you like?',
       label: '11.2 What would you like?',
-      n: 14
+      n: 15
     },
     {
       id: 'u11-s03',
@@ -21,7 +21,7 @@ PBE2.unitMap('unit11', [{
       part: '11.3',
       lesson: 'Eight hundred SYP each',
       label: '11.3 Eight hundred SYP each',
-      n: 14
+      n: 15
     },
     {
       id: 'u11-s04',
@@ -29,7 +29,7 @@ PBE2.unitMap('unit11', [{
       part: '11.4',
       lesson: 'How many, and how much',
       label: '11.4 How many, and how much',
-      n: 14
+      n: 15
     },
     {
       id: 'u11-s05',
@@ -37,7 +37,7 @@ PBE2.unitMap('unit11', [{
       part: '11.5',
       lesson: 'Here is your receipt',
       label: '11.5 Here is your receipt',
-      n: 14
+      n: 15
     },
     {
       id: 'u11-s06',
@@ -45,7 +45,7 @@ PBE2.unitMap('unit11', [{
       part: '11.6',
       lesson: 'The last ten seconds',
       label: '11.6 The last ten seconds',
-      n: 14
+      n: 15
     },
     {
       id: 'u11-s07',

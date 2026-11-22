@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u4-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 4 · 4.1', part: '4.1',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 4 · 4.1', part: '4.1',
           section: '1', lesson: 'In the box, on the shelf, under the bench', title: 'In the box, on the shelf, under the bench' },
   objective: 'say where a thing is — in, on, under, behind, next to',
   study: {
@@ -142,9 +142,9 @@ PBE1.page('u4-s01', {
             q: 'Where is your bag? Say it with one of the five words.',
             minWords: 6,
             rows: 2,
-            hint: 'The five are *in, on, under, behind, next to*. If two of them '
-              + 'fit, say both - *under the table, next to the wall* is better '
-              + 'than either.'
+            hint: 'The five are <i>in, on, under, behind, next to</i>. If two of '
+              + 'them fit, say both - <i>under the table, next to the wall</i> is '
+              + 'better than either.'
           }],
       ideas: ['The five small words',
       'Ladder — next to the bench'],
@@ -217,7 +217,7 @@ PBE1.page('u4-s01', {
             options: [{
               t: 'under the bench',
               ok: true,
-              why: 'Two guesses are ruled out before it: *look under the bench* - '
+              why: 'Two guesses are ruled out before it: “look under the bench” - '
                 + 'and there it is.'
             },
             {
@@ -237,7 +237,7 @@ PBE1.page('u4-s01', {
             options: [{
               t: 'so the next man can see it',
               ok: true,
-              why: '*In front of it. So the next man can see it.* Where a thing '
+              why: '“In front of it. So the next man can see it.” Where a thing '
                 + 'goes is decided by who looks for it next.'
             },
             {
@@ -254,6 +254,22 @@ PBE1.page('u4-s01', {
             evidence: 'Abu Yasser\'s last line'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '4.1.2',
+      bookRef: 'Unit 4 · 4.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the word.',
+      text: '<b>1</b> The labels are [[1]] the small box. &nbsp; <b>2</b> The box is '
+      + '[[2]] the bench. &nbsp; <b>3</b> The ladder is [[3]] the bench. &nbsp; '
+      + '<b>4</b> Put the paper [[4]] the top shelf.',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -489,8 +505,8 @@ PBE1.page('u4-s01', {
               'key',
               'hook'],
             need: 1,
-            hint: 'The table above, the *behind the door* row. Give the thing and '
-              + 'what it hangs on.'
+            hint: 'The table above, the <i>behind the door</i> row. Give the thing '
+              + 'and what it hangs on.'
           },
       {
             q: 'How many places have TWO small words?',
@@ -503,8 +519,8 @@ PBE1.page('u4-s01', {
               'spare'],
             need: 1,
             hint: 'Count the rows of the table whose place needs two prepositions '
-              + 'to say it - *in the box, on the shelf*. Name them as well as '
-              + 'counting them.'
+              + 'to say it - <i>in the box, on the shelf</i>. Name them as well '
+              + 'as counting them.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

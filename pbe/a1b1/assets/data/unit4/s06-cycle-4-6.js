@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u4-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 4 · 4.6', part: '4.6',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 4 · 4.6', part: '4.6',
           section: '6', lesson: 'I can reach it. I cannot reach that one.', title: 'I can reach it. I cannot reach that one.' },
   objective: 'say what you can and cannot reach',
   study: {
@@ -134,15 +134,15 @@ PBE1.page('u4-s06', {
             q: 'Which shelf in this room can you reach? Which cannot you reach? Say it.',
             minWords: 6,
             rows: 2,
-            hint: 'Two sentences, one with *can* and one with *cannot*. Say them '
-              + 'standing up, with your arm up - the words come easier.'
+            hint: 'Two sentences, one with <i>can</i> and one with <i>cannot</i>. '
+              + 'Say them standing up, with your arm up - the words come easier.'
           },
       {
             q: 'Hold your hand up. Say I can reach here. I cannot reach there.',
             minWords: 6,
             rows: 2,
-            hint: 'Say both out loud. *Cannot* is the one you will actually need at '
-              + 'work, so say it twice.'
+            hint: 'Say both out loud. <i>Cannot</i> is the one you will actually '
+              + 'need at work, so say it twice.'
           }],
       ideas: ['can and cannot'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
@@ -215,7 +215,7 @@ PBE1.page('u4-s06', {
             options: [{
               t: 'in the yard',
               ok: true,
-              why: 'Samih thinks it is by the bench; Ammar has looked: *it is in the yard*.'
+              why: 'Samih thinks it is by the bench; Ammar has looked: “it is in the yard”.'
             },
             {
               t: 'next to the bench',
@@ -243,8 +243,8 @@ PBE1.page('u4-s06', {
             {
               t: 'stands on a carton to reach',
               ok: false,
-              why: 'Samih forbids it, and gives the reason: *a man on a carton is '
-                + 'a man in hospital*.'
+              why: 'Samih forbids it, and gives the reason: “a man on a carton is '
+                + 'a man in hospital”.'
             },
             {
               t: 'waits and does nothing until the ladder comes',
@@ -255,6 +255,22 @@ PBE1.page('u4-s06', {
             evidence: 'his last two lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '4.6.2',
+      bookRef: 'Unit 4 · 4.6 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write can or cannot.',
+      text: '<b>1</b> I [[1]] reach shelf three. It is easy. &nbsp; <b>2</b> I [[2]] '
+      + 'reach shelf four. It is too high. &nbsp; <b>3</b> He [[3]] drive the '
+      + 'lorry. He has the licence. &nbsp; <b>4</b> [[4]] you reach the top one?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -282,8 +298,9 @@ PBE1.page('u4-s06', {
               'next',
               'bench'],
             need: 1,
-            hint: 'Ammar corrects Samih about this. Say where it is *and* where it '
-              + 'was supposed to be - the gap between those is the problem.'
+            hint: 'Ammar corrects Samih about this. Say where it is <i>and</i> '
+              + 'where it was supposed to be - the gap between those is the '
+              + 'problem.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -485,8 +502,8 @@ PBE1.page('u4-s06', {
               'long',
               'bench'],
             need: 1,
-            hint: 'The safety note above. And note *which* bench - there are two in '
-              + 'this unit.'
+            hint: 'The safety note above. And note <i>which</i> bench - there are '
+              + 'two in this unit.'
           },
       {
             q: 'How many men use it?',

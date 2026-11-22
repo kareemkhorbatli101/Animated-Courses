@@ -5,7 +5,7 @@ PBE1.unitMap('unit6', [{
       part: '6.1',
       lesson: 'Sham Trading, good morning',
       label: '6.1 Sham Trading, good morning',
-      n: 14
+      n: 15
     },
     {
       id: 'u6-s02',
@@ -13,7 +13,7 @@ PBE1.unitMap('unit6', [{
       part: '6.2',
       lesson: 'Your name, please',
       label: '6.2 Your name, please',
-      n: 14
+      n: 15
     },
     {
       id: 'u6-s03',
@@ -21,7 +21,7 @@ PBE1.unitMap('unit6', [{
       part: '6.3',
       lesson: 'One moment, please',
       label: '6.3 One moment, please',
-      n: 14
+      n: 15
     },
     {
       id: 'u6-s04',
@@ -29,7 +29,7 @@ PBE1.unitMap('unit6', [{
       part: '6.4',
       lesson: 'He is not here',
       label: '6.4 He is not here',
-      n: 14
+      n: 15
     },
     {
       id: 'u6-s05',
@@ -37,7 +37,7 @@ PBE1.unitMap('unit6', [{
       part: '6.5',
       lesson: 'Zero nine four four — one one two',
       label: '6.5 Zero nine four four — one one two',
-      n: 14
+      n: 15
     },
     {
       id: 'u6-s06',
@@ -45,7 +45,7 @@ PBE1.unitMap('unit6', [{
       part: '6.6',
       lesson: 'I will tell him',
       label: '6.6 I will tell him',
-      n: 14
+      n: 15
     },
     {
       id: 'u6-s07',

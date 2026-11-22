@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u10-s04', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 10 · 10.4', part: '10.4',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 10 · 10.4', part: '10.4',
           section: '4', lesson: 'The floor is wet', title: 'The floor is wet' },
   objective: 'say something is dangerous',
   study: {
@@ -194,17 +194,20 @@ PBE2.page('u10-s04', {
             q: 'Books closed. Listen. Who fell?',
             options: [{
               t: 'Nour',
-              ok: false
+              ok: false,
+              why: 'She is the one who slipped - but listen for the word nearly.'
             },
             {
               t: 'nobody',
               ok: true,
-              why: 'nobody fell, but Nour nearly did'
+              why: 'The floor by the door is wet and Nour nearly went over. Nearly.'
             },
             {
               t: 'Majd',
-              ok: false
-            }]
+              ok: false,
+              why: 'Majd is the one who says be careful every morning. He does not slip.'
+            }],
+            evidence: 'Nour\'s first line, and the word nearly'
           },
         {
             q: 'Listen again. What does Ammar put on the wet part?',
@@ -249,6 +252,21 @@ PBE2.page('u10-s04', {
             evidence: 'Nour\'s second and third lines'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '10.4.2',
+      bookRef: 'Unit 10 · 10.4 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Make it a real warning.',
+      text: '<b>1</b> Be careful. → [[1]]. &nbsp; <b>2</b> Watch out. → [[2]]. &nbsp; '
+      + '<b>3</b> It is dangerous. → [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

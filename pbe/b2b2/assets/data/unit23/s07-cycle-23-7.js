@@ -327,51 +327,39 @@ PBE8.page('u23-s07', {
     },
     {
       id: 'c4',
-      kind: 'model',
       ref: '23.7.3',
       bookRef: 'Unit 23 · 23.7 · Lesson A · Speaking · Practise',
-      type: 'discuss',
+      type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. A has a joint document to sign; B works the four moves. ⚠ In order.',
-      passage: {
-        title: 'From the book',
-        html: '<table class=\'bk\'><tr><th>B asks</th><th>A '
-          + 'answers</th></tr><tr><td>⚠ <b>What is the document right about, and '
-          + 'whose signature does that need?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>What is it silent about, '
-          + 'and was the silence asked for?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>If you refuse, who pays '
-          + 'for it?</b></td><td><span class="blank"></span></td></tr><tr><td>⚠ '
-          + '<b>If you sign and say nothing, what will you be read as agreeing '
-          + 'to?</b></td><td><span class="blank"></span></td></tr><tr><td>⚠ '
-          + '<b>So: which day do you ring the chairman, and what do you ask '
-          + 'him?</b></td><td><span class="blank"></span></td></tr></table><table '
-          + 'class=\'bk\'><tr><th>Role card 1 — I will file the annex and tell '
-          + 'him after</th><th>Role card 2 — signing in part is not really '
-          + 'signing</th></tr><tr><td>⚠ <b>A proposes to file the annex on Friday '
-          + 'and let the chairman see it when the Directorate does.</b> ⚠ <b>B '
-          + 'asks what the chairman\'s job is.</b> ⚠ <b>B\'s point: an '
-          + 'association exists so that a body hears one voice where there is one '
-          + 'and knows where there is not</b> — <b>and a chairman surprised in '
-          + 'front of the Directorate cannot do that job again, so the trade '
-          + 'loses four signatures permanently to save one difficult '
-          + 'call.</b></td><td>⚠ <b>A says a partial signature is worth nothing '
-          + 'and the firm should either support the submission or stand outside '
-          + 'it.</b> ⚠ <b>B asks what 1.2 is.</b> ⚠ <b>B\'s point: it is '
-          + 'arithmetic that affects the whole trade, and three signatures carry '
-          + 'it less well than four</b> — <b>so standing outside punishes the '
-          + 'reader for a competitor\'s drafting and costs the firm its own point '
-          + 'as well.</b></td></tr></table>'
-      },
-      questions: [{
-            q: 'Write what you said and what you heard.',
-            model: 'The four moves, with a sample run',
-            minWords: 2,
-            rows: 2,
-            hint: 'Both sides: your lines, then the other person\'s. Alone, the '
-              + 'engine is the other person - write what it said.'
-          }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      scene: 'u23-23-7-pair',
+      roles: [{
+          who: 'a',
+          label: 'A'
+        },
+      {
+          who: 'b',
+          label: 'B'
+        }],
+      minWords: 8,
+      notePlaceholder: 'Write two lines you said in the role-play…',
+      table: {
+        title: 'The cards the book gives you',
+        head: ['B asks',
+        'A answers'],
+        rows: [['⚠ <b>What is the document right about, and whose signature does '
+            + 'that need?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>What is it silent about, and was the silence asked for?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>If you refuse, who pays for it?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>If you sign and say nothing, what will you be read as agreeing to?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>So: which day do you ring the chairman, and what do you ask him?</b>',
+          '<span class="blank"></span>']]
+      }
     },
     {
       id: 'c5',

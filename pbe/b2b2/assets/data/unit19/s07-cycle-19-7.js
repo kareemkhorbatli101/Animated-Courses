@@ -317,51 +317,39 @@ PBE8.page('u19-s07', {
     },
     {
       id: 'c4',
-      kind: 'model',
       ref: '19.7.3',
       bookRef: 'Unit 19 · 19.7 · Lesson A · Speaking · Practise',
-      type: 'discuss',
+      type: 'roleplay',
       title: 'Practise',
+      kind: 'own',
       instruction: 'Work in pairs. A is a witness whose account has firmed; B builds the '
   + 'survivable version. ⚠ Use the four steps in order.',
-      passage: {
-        title: 'From the book',
-        html: '<table class=\'bk\'><tr><th>B says</th><th>A '
-          + 'answers</th></tr><tr><td>⚠ <b>What did you write at the time, in the '
-          + 'actual words?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>And what do you say '
-          + 'now?</b></td><td><span class="blank"></span></td></tr><tr><td>⚠ '
-          + '<b>What did you see or read in between? A document, not a '
-          + 'thought.</b></td><td><span class="blank"></span></td></tr><tr><td>⚠ '
-          + '<b>On what date?</b></td><td><span '
-          + 'class="blank"></span></td></tr><tr><td>⚠ <b>Now say all four as one '
-          + 'sentence, and do not pause in the middle.</b></td><td><span '
-          + 'class="blank"></span></td></tr></table><table '
-          + 'class=\'bk\'><tr><th>Role card 1 — people become '
-          + 'certain</th><th>Role card 2 — I will not be called a '
-          + 'liar</th></tr><tr><td>⚠ <b>A argues that becoming certain over time '
-          + 'is ordinary and honest, and it is.</b> ⚠ <b>B agrees entirely and '
-          + 'asks what the other side does with the earlier document.</b> ⚠ '
-          + '<b>B\'s point: the question is not whether the hardening is honest '
-          + 'but what the only two available answers cost</b> — <b>and both of '
-          + 'them cost the witness, so the remedy is a statement that contains '
-          + 'the hardening rather than one that denies it.</b></td><td>⚠ <b>A '
-          + 'takes the objection personally, which is reasonable, because it is '
-          + 'about their word.</b> ⚠ <b>B separates what the gap does from what '
-          + 'it proves</b> — <i>I am telling you what the gap does, not what it '
-          + 'proves.</i> ⚠ <b>B\'s point: nobody in the conversation thinks A is '
-          + 'lying, and that is precisely why the fix must come from A\'s own '
-          + 'account of why the certainty changed.</b></td></tr></table>'
-      },
-      questions: [{
-            q: 'Write what you said and what you heard.',
-            model: 'The four steps, with a sample run',
-            minWords: 2,
-            rows: 2,
-            hint: 'Both sides: your lines, then the other person\'s. Alone, the '
-              + 'engine is the other person - write what it said.'
-          }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+      scene: 'u19-19-7-pair',
+      roles: [{
+          who: 'a',
+          label: 'A'
+        },
+      {
+          who: 'b',
+          label: 'B'
+        }],
+      minWords: 8,
+      notePlaceholder: 'Write two lines you said in the role-play…',
+      table: {
+        title: 'The cards the book gives you',
+        head: ['B says',
+        'A answers'],
+        rows: [['⚠ <b>What did you write at the time, in the actual words?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>And what do you say now?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>What did you see or read in between? A document, not a thought.</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>On what date?</b>',
+          '<span class="blank"></span>'],
+        ['⚠ <b>Now say all four as one sentence, and do not pause in the middle.</b>',
+          '<span class="blank"></span>']]
+      }
     },
     {
       id: 'c5',

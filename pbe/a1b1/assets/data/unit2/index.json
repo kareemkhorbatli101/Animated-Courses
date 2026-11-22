@@ -5,7 +5,7 @@
   "cycle": "2.1",
   "title": "One, two, three — how many?",
   "objective": "say the numbers 0 to 20",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -15,7 +15,7 @@
   "cycle": "2.2",
   "title": "Twenty, fifty, three hundred",
   "objective": "say the big numbers, up to a thousand",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -25,7 +25,7 @@
   "cycle": "2.3",
   "title": "One carton, two cartons, a packet of twenty",
   "objective": "say how many boxes, rolls and packets",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -35,7 +35,7 @@
   "cycle": "2.4",
   "title": "There are six on the shelf. There are none on the floor.",
   "objective": "say what is on the shelf and what is not",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -45,7 +45,7 @@
   "cycle": "2.5",
   "title": "Say it, write it, read it back",
   "objective": "write a number down and read it back",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },
@@ -55,7 +55,7 @@
   "cycle": "2.6",
   "title": "It is not twelve. It is nine.",
   "objective": "say that a count is wrong",
-  "n": 14,
+  "n": 15,
   "minutes": 90,
   "stages": 13
  },

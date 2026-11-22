@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u1-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 1 · 1.2', part: '1.2',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 1 · 1.2', part: '1.2',
           section: '2', lesson: 'Z, R, E, I, K — how do you spell it?', title: 'Z, R, E, I, K — how do you spell it?' },
   objective: 'say the letters, and spell your name',
   study: {
@@ -214,7 +214,7 @@ PBE1.page('u1-s02', {
             {
               t: 'nine',
               ok: false,
-              why: 'Nine is in this dialogue, but it is nine *years* of writing '
+              why: 'Nine is in this dialogue, but it is nine “years” of writing '
                 + 'names in the book - not the letters in one name.'
             }],
             evidence: 'the line where Ammar says the letters the second time, slowly'
@@ -246,6 +246,21 @@ PBE1.page('u1-s02', {
       }
     },
     {
+      id: 'c15',
+      kind: 'own',
+      ref: '1.2.2',
+      bookRef: 'Unit 1 · 1.2 · Lesson A · Speaking · Listen and read',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Spell these. Say each letter. gate · yard · shift · store · badge',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
+    },
+    {
       id: 'c3',
       kind: 'answer',
       ref: '1.2.2',
@@ -270,8 +285,9 @@ PBE1.page('u1-s02', {
               'arabic',
               'letters'],
             need: 1,
-            hint: 'He says what he writes, and then says what he does *not* write. '
-              + 'Your answer needs the script he uses, not just *the name*.'
+            hint: 'He says what he writes, and then says what he does <i>not</i> '
+              + 'write. Your answer needs the script he uses, not just <i>the '
+              + 'name</i>.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

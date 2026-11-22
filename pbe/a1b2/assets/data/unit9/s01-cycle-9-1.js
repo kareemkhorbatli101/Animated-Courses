@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u9-s01', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 9 · 9.1', part: '9.1',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 9 · 9.1', part: '9.1',
           section: '1', lesson: 'Where everybody was at four o\'clock', title: 'Where everybody was at four o\'clock' },
   objective: 'say where people were',
   study: {
@@ -125,7 +125,7 @@ PBE2.page('u9-s01', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '9.1.1',
       bookRef: 'Unit 9 · 9.1 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -139,15 +139,13 @@ PBE2.page('u9-s01', {
           },
       {
             q: 'Where were you and your family last night? Say it: We were .',
-            minWords: 6,
+            model: 'Open. We were — the plural, immediately after the singular',
+            minWords: 3,
             rows: 2,
             hint: 'More than one person, so the verb changes. That change is the '
               + 'whole point of the cycle.'
           }],
-      ideas: ['was and were'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -195,17 +193,21 @@ PBE2.page('u9-s01', {
             q: 'Books closed. Listen. Where was Fadi at four?',
             options: [{
               t: 'in the yard',
-              ok: false
+              ok: false,
+              why: 'The yard is what Abu Yasser really wants to know about, so it '
+                + 'is the trap. Ammar\'s answers put nobody there.'
             },
             {
               t: 'on the Homs road',
               ok: true,
-              why: 'on the Homs road'
+              why: 'Fadi was on the Homs road. He left at two.'
             },
             {
               t: 'at the gate',
-              ok: false
-            }]
+              ok: false,
+              why: 'Nobody is placed at the gate in this list.'
+            }],
+            evidence: 'the line where Ammar answers about Fadi'
           },
         {
             q: 'Listen again. What time did Fadi leave?',
@@ -249,6 +251,22 @@ PBE2.page('u9-s01', {
             evidence: 'the last line of the dialogue'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '9.1.2',
+      bookRef: 'Unit 9 · 9.1 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write was or were.',
+      text: '<b>1</b> I [[1]] in the yard. &nbsp; <b>2</b> We [[2]] on row three. '
+      + '&nbsp; <b>3</b> Fadi [[3]] on the road. &nbsp; <b>4</b> Nobody [[4]] at '
+      + 'the gate.',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

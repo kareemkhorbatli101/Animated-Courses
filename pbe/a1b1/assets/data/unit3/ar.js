@@ -8,6 +8,8 @@ PBE1.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write the day.':
+    'اكتب اليوم.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs. Read the lines. Say it. Then change places.':
@@ -32,6 +34,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: لماذا ذلك اليوم مزدحم؟ ثم اكتب الجواب.',
   'Read three papers. Which day is busy for most people? Count them on the board.':
     'اقرأ ثلاث ورقات. أي يوم هو المزدحم عند أكثرهم؟ عُدّوها على اللوح.',
+  'Write the other way.':
+    'اكتبها بالطريقة الأخرى.',
   'Say four times from your own day. Your partner writes it both ways.':
     'قل أربعة أوقات من يومك أنت. يكتبها زميلك بالطريقتين.',
   'Tell the class: I start at . That is and . My break is at .':
@@ -48,6 +52,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: كم تطول استراحتك؟ ثم اكتب الجواب.',
   'Read three papers. Who has the longest day? Count the hours on the board.':
     'اقرأ ثلاث ورقات. مَن يومه الأطول؟ عُدّوا الساعات على اللوح.',
+  'Write the verb.':
+    'اكتب الفعل.',
   'Work in pairs. One asks. One says four things in order. Then change places.':
     'اعملا في ثنائيات. أحدكما يسأل. والآخر يقول أربعة أمور بالترتيب. ثم تبادلا الدورين.',
   'Write it. Six things you do every day, in order. Then tell your partner.':
@@ -84,6 +90,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: هل يفعل ذلك أحد غيره؟ ثم اكتب الجواب.',
   'Read three papers. How many describe a job only one person can do? Count them on the board.':
     'اقرأ ثلاث ورقات. كم واحدة منها تصف عملًا لا يقدر عليه إلا شخص واحد؟ عُدّوها على اللوح.',
+  'Write the question.':
+    'اكتب السؤال.',
   'Work in pairs. One asks. One answers. Then change places.':
     'اعملا في ثنائيات. أحدكما يسأل. والآخر يجيب. ثم تبادلا الدورين.',
   'Think of a day you want to change. Ask your partner for a swap. Then write it.':
@@ -102,6 +110,8 @@ PBE1.arabic({
     'اقرأ ما كتبه زميلك. واسأله: من سألت أولًا؟ ثم اكتب الجواب.',
   'Read three papers. In how many did the writer ask the other worker first? Count them on the board.':
     'اقرأ ثلاث ورقات. في كم واحدة منها سأل الكاتب العامل الآخر أولًا؟ عُدّوها على اللوح.',
+  'Do the exercise in the Language box.':
+    'أنجز التمرين في صندوق اللغة.',
   'Work in pairs. One is late. One is the supervisor. Then change places.':
     'اعملا في ثنائيات. أحدكما متأخر. والآخر هو المشرف. ثم تبادلا الدورين.',
   'Think of two times you were late. Write it. Time first, then the reason.':

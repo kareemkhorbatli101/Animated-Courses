@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE2.page('u10-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 10 · 10.2', part: '10.2',
+  book: { source: 'Proactive Business English · A1 Book 2', ref: 'Unit 10 · 10.2', part: '10.2',
           section: '2', lesson: 'Must and must not', title: 'Must and must not' },
   objective: 'say must and must not',
   study: {
@@ -200,16 +200,21 @@ PBE2.page('u10-s02', {
             options: [{
               t: 'three',
               ok: true,
-              why: 'three'
+              why: 'Nine rules on the paper, and he says I enforce three.'
             },
             {
               t: 'nine',
-              ok: false
+              ok: false,
+              why: 'Nine is what is written on the wall - the number printed, not '
+                + 'the number he acts on.'
             },
             {
               t: 'all of them',
-              ok: false
-            }]
+              ok: false,
+              why: 'He says why he does not: if I shout about all nine, nobody '
+                + 'believes me about the three.'
+            }],
+            evidence: 'Abu Yasser\'s answer to the nine on the paper'
           },
         {
             q: 'Listen again. How many rules are on the paper, and how many does '
@@ -255,6 +260,22 @@ PBE2.page('u10-s02', {
             evidence: 'the exchange near the end about shouting'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '10.2.2',
+      bookRef: 'Unit 10 · 10.2 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write must or must not.',
+      text: '<b>1</b> You [[1]] wear a hard hat in the yard. &nbsp; <b>2</b> You '
+      + '[[2]] stand on a carton. &nbsp; <b>3</b> You [[3]] sign in at the gate. '
+      + '&nbsp; <b>4</b> You [[4]] walk behind a reversing lorry.',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

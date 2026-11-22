@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u6-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 6 · 6.2', part: '6.2',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 6 · 6.2', part: '6.2',
           section: '2', lesson: 'Your name, please', title: 'Your name, please' },
   objective: 'ask who is calling, and write a name you cannot spell',
   study: {
@@ -124,7 +124,7 @@ PBE1.page('u6-s02', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '6.2.1',
       bookRef: 'Unit 6 · 6.2 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -141,13 +141,12 @@ PBE1.page('u6-s02', {
       {
             q: 'Read the two lines. Which is better on a telephone? Who are you? '
               + '· Your name, please.',
-            minWords: 6,
+            model: 'Your name, please is better',
+            minWords: 2,
             rows: 2,
             hint: 'Both get a name. Only one of them can be said to a customer.'
           }],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -234,7 +233,7 @@ PBE1.page('u6-s02', {
             options: [{
               t: 'asks again, then asks him to spell it',
               ok: true,
-              why: '*Sorry? Again, please.* and then *Can you spell it, please?* - '
+              why: '“Sorry? Again, please.” and then “Can you spell it, please?” - '
                 + 'two steps, and the second one is the one that gets it right.'
             },
             {
@@ -246,12 +245,27 @@ PBE1.page('u6-s02', {
             {
               t: 'passes the call to somebody else',
               ok: false,
-              why: 'He does say *one moment, please* at the very end, but only '
+              why: 'He does say “one moment, please” at the very end, but only '
                 + 'after he has the name.'
             }],
             evidence: 'the three lines after the caller first says it'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '6.2.2',
+      bookRef: 'Unit 6 · 6.2 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the line.',
+      text: '<b>1</b> You want the caller\'s name. [[1]]. &nbsp; <b>2</b> You did not '
+      + 'hear it. [[2]]. &nbsp; <b>3</b> You cannot write it. [[3]]?',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {

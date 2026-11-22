@@ -8,6 +8,8 @@ PBE2.arabic({
     'استمع واقرأ. لكل شخص صوته الخاص.',
   'Choose the answer.':
     'اختر الجواب.',
+  'Write the question.':
+    'اكتب السؤال.',
   'Answer from what you heard. Play the scene again if you need to.':
     'أجب مما سمعته. أعد تشغيل المشهد إن احتجت.',
   'Work in pairs. One asks. One gives. Then change places.':
@@ -32,6 +34,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل يوجد احتياطي؟ واكتب الجواب.',
   'Read three papers. How many of these things have no spare? Count them on the board.':
     'اقرأ ثلاث أوراق. كم من هذه الأشياء ليس لها احتياطي؟ عُدّها على اللوح.',
+  'Write the line.':
+    'اكتب السطر.',
   'Work in pairs, with real objects. Hand things over. Then change places.':
     'اعملا في ثنائيات بأشياء حقيقية. سلّما الأشياء. ثم تبادلا الأدوار.',
   'Two pairs say the lines for the class — books closed, real objects.':
@@ -52,6 +56,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل دُوّن في أي مكان؟ واكتب الجواب.',
   'Read three papers. In how many was the borrowing written down? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها دُوّنت الإعارة؟ عُدّها على اللوح.',
+  'Write the request properly.':
+    'اكتب الطلب بصيغته الصحيحة.',
   'Work in threes. One is Majd. Two ask for the same thing, one well and one badly. Then change places.':
     'اعملوا في مجموعات ثلاثية. واحد هو مجد، واثنان يطلبان الشيء نفسه، أحدهما بأسلوب جيد والآخر بأسلوب سيئ. ثم تبادلوا الأدوار.',
   'Two threes perform for the class — books closed.':
@@ -72,6 +78,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل سألت يومًا الشخص الصعب وحصلت على ما تريد؟ واكتب الجواب.',
   'Read three papers. Is the hard person hard to everybody, or only to some people? Count both on the board.':
     'اقرأ ثلاث أوراق. هل الشخص الصعب صعب على الجميع أم على بعضهم فقط؟ عُدّ الحالتين على اللوح.',
+  'Write the three parts.':
+    'اكتب الأجزاء الثلاثة.',
   'Work in pairs. One is a customer. One says no, in three parts. Then change places.':
     'اعملا في ثنائيات. واحد زبون، والآخر يقول «لا» في ثلاثة أجزاء. ثم تبادلا الأدوار.',
   'Four times you have had to say no at work. Write it in three parts each time.':
@@ -90,6 +98,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل عادوا؟ واكتب الجواب.',
   'Read three papers. In how many did the customer come back? Count them. Then count how many of those were offered something instead.':
     'اقرأ ثلاث أوراق. في كم منها عاد الزبون؟ عُدّها. ثم عُدّ كم منها عُرض فيه بديل.',
+  'Write the offer.':
+    'اكتب عرض المساعدة.',
   'Work in pairs. One is working. One offers. Then change places.':
     'اعملا في ثنائيات. واحد يعمل، والآخر يعرض المساعدة. ثم تبادلا الأدوار.',
   'Four jobs at your work. What looks hard, and what IS hard? Write it.':
@@ -108,6 +118,8 @@ PBE2.arabic({
     'اقرأ عمل زميلك. واسأله: هل أخبرت أحدًا يومًا؟ واكتب الجواب.',
   'Read three papers. In how many had the writer never told anybody what the hard part was? Count them on the board.':
     'اقرأ ثلاث أوراق. في كم منها لم يخبر الكاتب أحدًا قط بما هو الجزء الصعب؟ عُدّها على اللوح.',
+  'Make it strong.':
+    'اجعلها أقوى.',
   'Work in pairs. One thanks, with the thing named. One brushes it off. Then change places.':
     'اعملا في ثنائيات. واحد يشكر ويسمّي الشيء، والآخر يقلّل من شأنه. ثم تبادلا الأدوار.',
   'Four people who helped you at work this month. Write it. The thing, the time, and what it saved you.':

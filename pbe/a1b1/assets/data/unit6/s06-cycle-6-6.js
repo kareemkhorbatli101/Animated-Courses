@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u6-s06', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 6 · 6.6', part: '6.6',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 6 · 6.6', part: '6.6',
           section: '6', lesson: 'I will tell him', title: 'I will tell him' },
   objective: 'say you will pass the message on',
   study: {
@@ -124,7 +124,7 @@ PBE1.page('u6-s06', {
   cards: [
     {
       id: 'c1',
-      kind: 'own',
+      kind: 'model',
       ref: '6.6.1',
       bookRef: 'Unit 6 · 6.6 · Lesson A · Speaking · Get ready',
       type: 'discuss',
@@ -135,22 +135,19 @@ PBE1.page('u6-s06', {
               + 'say? Say it in Arabic, then in English.',
             minWords: 6,
             rows: 2,
-            hint: 'Say what you will do and when. *I will tell him* with no time in '
-              + 'it is the version nobody believes.'
+            hint: 'Say what you will do and when. <i>I will tell him</i> with no '
+              + 'time in it is the version nobody believes.'
           },
       {
             q: 'Read the two lines. Which one would you believe? OK · I will '
               + 'tell him at two, when he is back from lunch.',
-            minWords: 6,
+            model: 'The second line',
+            minWords: 1,
             rows: 2,
             hint: 'One of them tells the caller that you understood, that you know '
               + 'where he is, and when it will happen.'
           }],
-      ideas: ['Promising to pass a message on',
-      'From: Ghassan Mouallem (M-O-U-A-L-L-E-M)'],
-      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
-      example: ['Good morning. My name is Samih Qassar. I am the storeman.',
-      'I am the storeman. I work in the back store.']
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c2',
@@ -216,7 +213,7 @@ PBE1.page('u6-s06', {
             options: [{
               t: 'tells her at two, and puts the slip on her desk now',
               ok: true,
-              why: '*Both.* One is a person remembering; the other works if the '
+              why: '“Both.” One is a person remembering; the other works if the '
                 + 'person forgets.'
             },
             {
@@ -237,7 +234,7 @@ PBE1.page('u6-s06', {
             options: [{
               t: 'he forgot one before, and the day\'s delay cost a lorry',
               ok: true,
-              why: 'The slip worked - *a day late*. A day late is better than '
+              why: 'The slip worked - “a day late”. A day late is better than '
                 + 'never, and still not good enough, so he does both and tells '
                 + 'her twice.'
             },
@@ -250,11 +247,26 @@ PBE1.page('u6-s06', {
             {
               t: 'because slips get lost on a desk',
               ok: false,
-              why: 'In his story the slip was *found*. What failed was the person.'
+              why: 'In his story the slip was “found”. What failed was the person.'
             }],
             evidence: 'the end of the dialogue, where he says what happened before'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '6.6.2',
+      bookRef: 'Unit 6 · 6.6 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Make it strong.',
+      text: '<b>1</b> OK. → [[1]]. &nbsp; <b>2</b> I will tell him. → [[2]]. &nbsp; '
+      + '<b>3</b> I will try. → [[3]].',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -270,8 +282,8 @@ PBE1.page('u6-s06', {
             model: 'On her desk',
             minWords: 1,
             rows: 2,
-            hint: 'A place, two words - and he says *now*, which matters as much as '
-              + 'the place.'
+            hint: 'A place, two words - and he says <i>now</i>, which matters as '
+              + 'much as the place.'
           },
       {
             q: 'What does he say he will do as well?',
@@ -514,8 +526,8 @@ PBE1.page('u6-s06', {
             keys: ['slip',
               'desk'],
             need: 1,
-            hint: 'Both halves, joined with *and*. Either one on its own is the '
-              + 'version that failed him before.'
+            hint: 'Both halves, joined with <i>and</i>. Either one on its own is '
+              + 'the version that failed him before.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

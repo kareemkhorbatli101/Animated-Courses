@@ -3,7 +3,7 @@
    Built by tools/pbe_build_unit.py from the series' own pipeline.
    Every question, line, table and model answer is the book's own. */
 PBE1.page('u4-s02', {
-  book: { source: 'Proactive Business English A1', ref: 'Unit 4 · 4.2', part: '4.2',
+  book: { source: 'Proactive Business English · A1 Book 1', ref: 'Unit 4 · 4.2', part: '4.2',
           section: '2', lesson: 'Row three, shelf two', title: 'Row three, shelf two' },
   objective: 'say the row and the shelf',
   study: {
@@ -135,8 +135,8 @@ PBE1.page('u4-s02', {
               + 'the third row.',
             minWords: 6,
             rows: 2,
-            hint: 'Pick a starting point and say it out loud first - *from the '
-              + 'door*. A row number means nothing without it.'
+            hint: 'Pick a starting point and say it out loud first - <i>from the '
+              + 'door</i>. A row number means nothing without it.'
           },
       {
             q: 'Which shelf in your store is the hardest to reach? Say it with a number.',
@@ -217,7 +217,7 @@ PBE1.page('u4-s02', {
             options: [{
               t: 'shelf one',
               ok: true,
-              why: '*Shelf one is the bottom, shelf four is the top. Everybody asks.*'
+              why: '“Shelf one is the bottom, shelf four is the top. Everybody asks.”'
             },
             {
               t: 'shelf four',
@@ -230,15 +230,15 @@ PBE1.page('u4-s02', {
               ok: false,
               why: 'Shelf two is the one the cartons go on: the second one up.'
             }],
-            evidence: 'Samih\'s line that begins *Four shelves in a row*'
+            evidence: 'Samih\'s line that begins “Four shelves in a row”'
           },
         {
             q: 'Where do you start counting the rows from?',
             options: [{
               t: 'from the door',
               ok: true,
-              why: '*From the door. One, two, three. The third row.* - and in the '
-                + 'review cycle he says *from the door, always*.'
+              why: '“From the door. One, two, three. The third row.” - and in the '
+                + 'review cycle he says “from the door, always”.'
             },
             {
               t: 'from the bench',
@@ -251,9 +251,25 @@ PBE1.page('u4-s02', {
               why: 'No office end is mentioned in the store. The counting has one '
                 + 'agreed starting point and it is the way everybody comes in.'
             }],
-            evidence: 'Samih\'s answer to *Which one is row three?*'
+            evidence: 'Samih\'s answer to “Which one is row three?”'
           }],
         say: true
+      }
+    },
+    {
+      id: 'c15',
+      ref: '4.2.2',
+      bookRef: 'Unit 4 · 4.2 · Lesson A · Speaking · Listen and read',
+      type: 'cloze',
+      title: 'Practise the grammar',
+      instruction: 'Write the number or the word.',
+      text: '<b>1</b> row &nbsp; <b>3</b> = the [[3]] row &nbsp; <b>2</b> the second '
+      + 'shelf = shelf [[2]] &nbsp; <b>3</b> shelf &nbsp; <b>4</b> = the [[4]] '
+      + 'shelf &nbsp; <b>4</b> the first row = row [[4]]',
+      plain: true,
+      small: true,
+      answers: {
+        
       }
     },
     {
@@ -277,8 +293,8 @@ PBE1.page('u4-s02', {
             model: 'The bottom',
             minWords: 1,
             rows: 2,
-            hint: 'The answer surprises most people, and Samih says so: *everybody '
-              + 'asks*. One word.'
+            hint: 'The answer surprises most people, and Samih says so: '
+              + '<i>everybody asks</i>. One word.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
