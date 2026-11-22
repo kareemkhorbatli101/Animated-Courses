@@ -64,3 +64,8 @@ TOEFL_iBT_2026_Course_All_Eight_Volumes.zip
 # the delivery zip is just the six books plus the reports, all of which are
 # already tracked here; no point storing 26MB of duplicates
 IELTS_2026_Series_Volumes_*.zip
+
+# The all-courses package: 289 MB of files that are all in this
+# repository individually, so the bundle is a download artefact rather
+# than source, and GitHub refuses anything over 100 MB in any case.
+All_Courses_2026_Complete.zip
