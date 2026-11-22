@@ -1,0 +1,674 @@
+<title>Portmere Plates</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Inter:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: annotated production plates, one asset per plate, metadata in a fixed left rail. */
+:root{
+  --surface-1:#fcfcfb; --surface-2:#f5f5f3; --surface-3:#ebebe8;
+  --ink:#0b0b0b; --ink-2:#52514e; --ink-3:#76746e;
+  --rule:#dcdbd6; --rule-strong:#b9b7b0;
+  --accent:#c9452c;            /* Starter red-orange, validated */
+  --series-1:#2a78d6;          /* data palette slot 1 */
+  --paper:#ffffff; --paper-ink:#111; --paper-rule:#c9c7c0;
+  --screen:#e8eef6; --screen-ink:#13233a; --screen-field:#ffffff;
+  --skin-a:#e8b793; --skin-b:#c08a5e; --skin-c:#8d5a3b; --skin-d:#f0cdb0;
+  --cloth-1:#2f6f7a; --cloth-2:#8a4a62; --cloth-3:#415a8c; --cloth-4:#6b6f3f; --cloth-5:#a4552f;
+  --hair-1:#2b2420; --hair-2:#4a3326; --hair-3:#1a1a1a; --hair-4:#6b5340;
+  --wood:#d8c3a0; --wood-dk:#b89f78; --plant:#4f8d4a; --metal:#cfd3d6;
+  --disp:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Inter",system-ui,-apple-system,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --surface-1:#1a1a19; --surface-2:#232322; --surface-3:#2d2d2b;
+  --ink:#f0efec; --ink-2:#c3c2b7; --ink-3:#8f8d84;
+  --rule:#383835; --rule-strong:#4e4e4a;
+  --accent:#e06243; --series-1:#3987e5;
+  --paper:#f3f1ec; --paper-ink:#1a1a18; --paper-rule:#b3b0a8;
+  --screen:#1e2b3d; --screen-ink:#dce6f5; --screen-field:#0f1724;
+  --wood:#8a7556; --wood-dk:#6d5c42; --metal:#6a7076;
+  color-scheme:dark;
+}}
+:root[data-theme="dark"]{
+  --surface-1:#1a1a19; --surface-2:#232322; --surface-3:#2d2d2b;
+  --ink:#f0efec; --ink-2:#c3c2b7; --ink-3:#8f8d84;
+  --rule:#383835; --rule-strong:#4e4e4a;
+  --accent:#e06243; --series-1:#3987e5;
+  --paper:#f3f1ec; --paper-ink:#1a1a18; --paper-rule:#b3b0a8;
+  --screen:#1e2b3d; --screen-ink:#dce6f5; --screen-field:#0f1724;
+  --wood:#8a7556; --wood-dk:#6d5c42; --metal:#6a7076;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{background:var(--surface-1);color:var(--ink);font-family:var(--body);margin:0;line-height:1.55}
+.wrap{max-width:1060px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:0}
+h1,h2,h3{font-family:var(--disp);text-wrap:balance;margin:0}
+.eyebrow{font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-3)}
+
+/* masthead */
+.mast{padding-block:40px 28px;border-bottom:2px solid var(--ink)}
+.mastrow{display:flex;gap:20px;align-items:flex-end;flex-wrap:wrap}
+.mastrow>div:first-child{flex:1 1 320px;min-width:0}
+h1{font-size:clamp(32px,6vw,52px);font-weight:800;line-height:1.02;letter-spacing:-.02em}
+.sub{color:var(--ink-2);font-size:16px;max-width:62ch;margin-top:12px}
+.chip{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#fff;
+  font-family:var(--disp);font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;
+  padding:6px 11px;border-radius:2px}
+.glyph{font-size:9px;letter-spacing:2px}
+.tog{font:600 12px var(--body);background:var(--surface-2);color:var(--ink-2);border:1px solid var(--rule-strong);
+  border-radius:2px;padding:7px 12px;cursor:pointer}
+.tog:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* goals */
+.goals{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:1px;background:var(--rule);
+  border:1px solid var(--rule);margin-block:28px}
+.goal{background:var(--surface-1);padding:16px 18px}
+.goal b{display:block;font-family:var(--disp);font-size:13px;color:var(--accent);margin-bottom:5px}
+.goal span{font-size:14px;color:var(--ink-2)}
+
+/* plates */
+.plate{padding-block:34px;border-top:1px solid var(--rule)}
+.phead{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;margin-bottom:4px}
+.pid{font-family:var(--disp);font-weight:700;font-size:12px;letter-spacing:.08em;color:var(--accent)}
+.ptype{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-3)}
+h2{font-size:clamp(20px,3vw,26px);font-weight:700;letter-spacing:-.01em;margin-bottom:10px}
+.note{font-size:14px;color:var(--ink-2);max-width:66ch}
+.alt{font-size:13px;color:var(--ink-3);max-width:70ch;margin-top:14px;padding-left:13px;border-left:2px solid var(--rule-strong)}
+.alt b{color:var(--ink-2);font-weight:600}
+.art{margin-top:20px;background:var(--surface-2);border:1px solid var(--rule);overflow:hidden}
+.art svg{display:block;width:100%;height:auto;max-width:100%}
+.pair{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px;margin-top:20px}
+
+/* realia */
+.realia{background:var(--paper);color:var(--paper-ink);border:1px solid var(--paper-rule);padding:20px;
+  font-family:var(--body);box-shadow:0 1px 0 var(--rule-strong)}
+.realia .lh{font-family:var(--disp);font-weight:800;font-size:13px;letter-spacing:.08em;text-transform:uppercase;
+  border-bottom:2px solid var(--accent);padding-bottom:7px;margin-bottom:14px}
+.realia h4{font-family:var(--disp);font-size:19px;margin:0 0 9px}
+.realia ol{margin:0;padding-left:20px;font-size:14px}
+.realia ol li{margin-bottom:7px}
+.realia .small{font-size:12px;color:#6b6861;margin-top:12px}
+.frow{display:flex;gap:8px;border-bottom:1px dotted var(--paper-rule);padding:6px 0;font-size:13px;align-items:baseline}
+.frow .fl{flex:0 0 122px;color:#6b6861;font-weight:500}
+.frow .fv{flex:1 1 auto;min-width:0;font-family:"Bricolage Grotesque",cursive;font-size:15px}
+.frow.empty .fv{border-bottom:1px solid var(--paper-rule);min-height:17px}
+.hand{font-family:"Bricolage Grotesque",cursive}
+
+/* screen realia */
+.screen{background:var(--screen);color:var(--screen-ink);border:1px solid var(--rule-strong);padding:18px;border-radius:9px}
+.screen .stit{font-size:11px;font-weight:700;letter-spacing:.11em;text-transform:uppercase;opacity:.72;margin-bottom:12px;
+  display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.field{background:var(--screen-field);border:1px solid var(--rule-strong);border-radius:5px;padding:9px 11px;margin-bottom:9px}
+.field .fk{font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;opacity:.65}
+.field .fvv{font-family:var(--disp);font-weight:600;font-size:16px;letter-spacing:.02em;margin-top:2px}
+.field.bad{border-color:var(--accent);box-shadow:0 0 0 2px color-mix(in srgb,var(--accent) 28%,transparent)}
+.flag{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:700;color:var(--accent);margin-top:3px}
+.btn-fake{background:var(--series-1);color:#fff;font:700 13px var(--body);padding:9px 0;border-radius:5px;
+  text-align:center;margin-top:4px;letter-spacing:.06em}
+
+/* badge */
+.badge{background:var(--paper);color:var(--paper-ink);border:1px solid var(--paper-rule);border-radius:6px;
+  padding:14px;max-width:252px;margin:0 auto}
+.badge .bh{font-family:var(--disp);font-size:9px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--accent);text-align:center;margin-bottom:9px}
+.badge .photo{background:var(--surface-3);border:1px solid var(--paper-rule);height:74px;width:60px;margin:0 auto 10px;
+  display:flex;align-items:center;justify-content:center;color:#9a978f;font-size:9px;letter-spacing:.08em}
+.badge .bn{font-family:var(--disp);font-weight:800;font-size:17px;text-align:center;letter-spacing:.01em}
+.badge .bm{font-size:12px;text-align:center;color:#6b6861;margin-top:4px}
+.badge .br{font-size:10px;text-align:center;letter-spacing:.14em;text-transform:uppercase;margin-top:9px;
+  border-top:1px solid var(--paper-rule);padding-top:7px;color:#6b6861}
+
+/* chart */
+.chartbox{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:22px;align-items:start}
+@media(max-width:620px){.chartbox{grid-template-columns:1fr}}
+table{border-collapse:collapse;width:100%;font-size:13px;font-variant-numeric:tabular-nums}
+caption{text-align:left;font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink-3);padding-bottom:8px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--rule)}
+th{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3);font-weight:700}
+td.num,th.num{text-align:right}
+tr.tot td{border-bottom:none;border-top:2px solid var(--ink);font-weight:700}
+.flagrow{margin-top:12px;font-size:13px;color:var(--accent);font-weight:600;display:flex;gap:7px;align-items:flex-start}
+
+/* colophon */
+.colo{padding-block:34px 56px;border-top:2px solid var(--ink);margin-top:34px;font-size:13px;color:var(--ink-2)}
+.colo h3{font-size:16px;margin-bottom:10px}
+.colo ul{padding-left:19px;margin:0}
+.colo li{margin-bottom:7px}
+.swatches{display:flex;gap:0;margin:16px 0 6px;flex-wrap:wrap;border:1px solid var(--rule)}
+.sw{flex:1 1 86px;min-width:86px;padding:11px 9px;font:600 10px var(--body);letter-spacing:.07em;color:#fff}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="mast">
+    <div class="mastrow">
+      <div>
+        <div class="eyebrow">Wayfinder English &middot; production plates</div>
+        <h1>Nice to Meet You</h1>
+        <p class="sub">Starter, Unit 1. Fifteen visual assets, drawn in one system. This is the art
+        manifest made visible &mdash; every plate carries the id the unit files reference, the slot it
+        serves, and the alt text a learner on a screen reader hears instead.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:10px;align-items:flex-start">
+        <span class="chip">Starter <span class="glyph">&#9679;</span></span>
+        <button class="tog" id="t">Light / dark</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="goals">
+    <div class="goal"><b>Unit goal 1</b><span>Say and spell your name, your country and your phone number</span></div>
+    <div class="goal"><b>Unit goal 2</b><span>Use <i>a</i>, <i>an</i> and plurals for the things in your bag and your classroom</span></div>
+    <div class="goal"><b>Unit goal 3</b><span>Fill in an arrival form &mdash; and check it</span></div>
+  </div>
+
+  <!-- PLATE a02 -->
+  <section class="plate">
+    <div class="phead"><span class="pid">u01-a02</span><span class="ptype">Scene &middot; Lesson 1, slot 1B</span></div>
+    <h2>The front desk, 8:40 on a Monday</h2>
+    <p class="note">The unit's establishing shot. Six affordances are labeled by the picture alone, so a
+    learner who cannot yet read the rubric can still answer the gist question: <i>where is Nadia?</i>
+    The clock reads 8:40, the board behind the desk already answers Lesson 2's questions, and the
+    queue is three deep because that is why nobody wants to ask twice.</p>
+    <div class="art">
+      <svg viewBox="0 0 820 440" role="img" aria-label="A woman stands behind a desk with a tablet. Three students wait in a line. Behind the desk a board shows two groups and two room numbers.">
+        <rect width="820" height="300" fill="var(--surface-2)"/>
+        <rect y="300" width="820" height="140" fill="var(--surface-3)"/>
+        <line x1="0" y1="300" x2="820" y2="300" stroke="var(--rule-strong)" stroke-width="2"/>
+        <!-- board -->
+        <rect x="516" y="48" width="258" height="126" rx="3" fill="var(--paper)" stroke="var(--ink)" stroke-width="2.5"/>
+        <text x="532" y="74" font-family="Bricolage Grotesque,sans-serif" font-size="15" font-weight="800" fill="var(--paper-ink)">GROUP 1</text>
+        <text x="652" y="74" font-family="Bricolage Grotesque,sans-serif" font-size="15" font-weight="800" fill="var(--accent)">ROOM 2</text>
+        <line x1="532" y1="86" x2="758" y2="86" stroke="var(--paper-rule)" stroke-width="1.5"/>
+        <text x="532" y="112" font-family="Bricolage Grotesque,sans-serif" font-size="15" font-weight="800" fill="var(--paper-ink)">GROUP 2</text>
+        <text x="652" y="112" font-family="Bricolage Grotesque,sans-serif" font-size="15" font-weight="800" fill="var(--accent)">ROOM 4</text>
+        <line x1="532" y1="124" x2="758" y2="124" stroke="var(--paper-rule)" stroke-width="1.5"/>
+        <text x="532" y="152" font-family="Inter,sans-serif" font-size="12" fill="#7a776f">Portmere Language Center</text>
+        <!-- clock -->
+        <circle cx="196" cy="92" r="31" fill="var(--paper)" stroke="var(--ink)" stroke-width="2.5"/>
+        <line x1="196" y1="92" x2="196" y2="72" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round"/>
+        <line x1="196" y1="92" x2="212" y2="100" stroke="var(--ink)" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="196" cy="92" r="2.5" fill="var(--accent)"/>
+        <!-- plant -->
+        <path d="M58 300 L66 232 L104 232 L112 300 Z" fill="var(--wood-dk)" stroke="var(--ink)" stroke-width="2"/>
+        <path d="M85 232 C64 214 60 186 72 168 C84 184 88 208 85 232Z" fill="var(--plant)" stroke="var(--ink)" stroke-width="2"/>
+        <path d="M85 232 C106 212 112 186 100 166 C88 184 82 208 85 232Z" fill="var(--plant)" stroke="var(--ink)" stroke-width="2"/>
+        <!-- counter -->
+        <rect x="326" y="246" width="464" height="20" rx="2" fill="var(--wood)" stroke="var(--ink)" stroke-width="2.5"/>
+        <rect x="334" y="266" width="448" height="92" fill="var(--wood-dk)" stroke="var(--ink)" stroke-width="2.5"/>
+        <line x1="334" y1="300" x2="782" y2="300" stroke="var(--ink)" stroke-width="1.2" opacity=".45"/>
+        <!-- Mrs Oyelaran behind counter -->
+        <g>
+          <path d="M468 246 L468 206 C468 190 482 180 500 180 C518 180 532 190 532 206 L532 246Z" fill="var(--cloth-2)" stroke="var(--ink)" stroke-width="2.5"/>
+          <circle cx="500" cy="158" r="23" fill="var(--skin-c)" stroke="var(--ink)" stroke-width="2.5"/>
+          <path d="M477 152 C477 132 523 132 523 152 C523 142 512 136 500 136 C488 136 477 142 477 152Z" fill="var(--hair-3)" stroke="var(--ink)" stroke-width="2"/>
+          <circle cx="492" cy="159" r="2.4" fill="var(--ink)"/><circle cx="508" cy="159" r="2.4" fill="var(--ink)"/>
+          <path d="M494 168 Q500 172 506 168" stroke="var(--ink)" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M532 212 L562 230" stroke="var(--skin-c)" stroke-width="11" stroke-linecap="round"/>
+          <path d="M532 212 L562 230" stroke="var(--ink)" stroke-width="2" fill="none" opacity=".35"/>
+        </g>
+        <!-- tablet on stand -->
+        <rect x="566" y="196" width="76" height="54" rx="4" fill="var(--screen)" stroke="var(--ink)" stroke-width="2.5"/>
+        <rect x="574" y="204" width="60" height="7" rx="2" fill="var(--series-1)"/>
+        <rect x="574" y="216" width="46" height="5" rx="2" fill="var(--rule-strong)"/>
+        <rect x="574" y="226" width="54" height="5" rx="2" fill="var(--rule-strong)"/>
+        <rect x="574" y="236" width="30" height="7" rx="2" fill="var(--accent)"/>
+        <path d="M596 250 L612 250 L616 264 L592 264Z" fill="var(--metal)" stroke="var(--ink)" stroke-width="2"/>
+        <!-- queue of three, foreground left, facing right -->
+        <g>
+          <path d="M120 432 L120 332 C120 314 134 303 152 303 C170 303 184 314 184 332 L184 432Z" fill="var(--cloth-4)" stroke="var(--ink)" stroke-width="2.5"/>
+          <circle cx="152" cy="280" r="24" fill="var(--skin-b)" stroke="var(--ink)" stroke-width="2.5"/>
+          <path d="M128 276 C128 253 176 253 176 276 C176 262 166 256 152 256 C138 256 128 262 128 276Z" fill="var(--hair-2)" stroke="var(--ink)" stroke-width="2"/>
+          <circle cx="158" cy="281" r="2.4" fill="var(--ink)"/><circle cx="145" cy="281" r="2.4" fill="var(--ink)"/>
+          <rect x="104" y="348" width="26" height="36" rx="4" fill="var(--cloth-5)" stroke="var(--ink)" stroke-width="2"/>
+        </g>
+        <g>
+          <path d="M202 432 L202 328 C202 310 216 299 234 299 C252 299 266 310 266 328 L266 432Z" fill="var(--cloth-1)" stroke="var(--ink)" stroke-width="2.5"/>
+          <circle cx="234" cy="276" r="24" fill="var(--skin-a)" stroke="var(--ink)" stroke-width="2.5"/>
+          <path d="M210 274 C210 248 258 248 258 274 L258 292 C258 268 210 268 210 292Z" fill="var(--hair-1)" stroke="var(--ink)" stroke-width="2"/>
+          <circle cx="241" cy="277" r="2.4" fill="var(--ink)"/><circle cx="228" cy="277" r="2.4" fill="var(--ink)"/>
+          <path d="M228 286 Q234 290 240 286" stroke="var(--ink)" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <rect x="258" y="336" width="34" height="24" rx="3" fill="var(--paper)" stroke="var(--ink)" stroke-width="2"/>
+          <line x1="264" y1="344" x2="286" y2="344" stroke="var(--paper-rule)" stroke-width="1.5"/>
+          <line x1="264" y1="351" x2="280" y2="351" stroke="var(--paper-rule)" stroke-width="1.5"/>
+        </g>
+        <g>
+          <path d="M284 432 L284 338 C284 320 298 309 316 309 C334 309 348 320 348 338 L348 432Z" fill="var(--cloth-3)" stroke="var(--ink)" stroke-width="2.5"/>
+          <circle cx="316" cy="286" r="24" fill="var(--skin-d)" stroke="var(--ink)" stroke-width="2.5"/>
+          <path d="M292 284 C292 260 340 260 340 284 C340 270 330 264 316 264 C302 264 292 270 292 284Z" fill="var(--hair-4)" stroke="var(--ink)" stroke-width="2"/>
+          <circle cx="323" cy="287" r="2.4" fill="var(--ink)"/><circle cx="310" cy="287" r="2.4" fill="var(--ink)"/>
+        </g>
+        <text x="234" y="420" font-family="Bricolage Grotesque,sans-serif" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">2nd</text>
+      </svg>
+    </div>
+    <p class="alt"><b>Alt text:</b> A woman stands behind a desk with a tablet. Three students wait in
+    a line. Nadia is second. Behind the desk a board shows two groups and two room numbers.</p>
+  </section>
+
+  <!-- PLATE a03 -->
+  <section class="plate">
+    <div class="phead"><span class="pid">u01-a03</span><span class="ptype">Vocabulary set &middot; Lesson 1, slot 2A</span></div>
+    <h2>Nine things, one scale</h2>
+    <p class="note">The matching set. Every item is drawn at a consistent scale and lit from the same
+    side, because a learner matching a word to a picture should be deciding about the word, never about
+    the drawing. Numbers sit outside the objects so they never cover the thing being named.</p>
+    <div class="art">
+      <svg viewBox="0 0 820 260" role="img" aria-label="Nine numbered classroom objects: a book, a notebook, a pen, a pencil, a bag, a chair, a table, the board and a computer.">
+        <rect width="820" height="260" fill="var(--surface-2)"/>
+        <g font-family="Bricolage Grotesque,sans-serif" font-size="13" font-weight="800" fill="var(--accent)">
+        <!-- 1 book -->
+        <g><rect x="40" y="52" width="68" height="50" rx="3" fill="var(--cloth-1)" stroke="var(--ink)" stroke-width="2.5"/>
+          <line x1="52" y1="52" x2="52" y2="102" stroke="var(--ink)" stroke-width="2"/>
+          <rect x="56" y="62" width="40" height="4" rx="2" fill="#fff" opacity=".65"/>
+          <rect x="56" y="72" width="30" height="4" rx="2" fill="#fff" opacity=".45"/>
+          <text x="40" y="124">1</text></g>
+        <!-- 2 notebook -->
+        <g><rect x="150" y="48" width="58" height="58" rx="3" fill="var(--paper)" stroke="var(--ink)" stroke-width="2.5"/>
+          <g stroke="var(--paper-rule)" stroke-width="1.5"><line x1="160" y1="64" x2="198" y2="64"/><line x1="160" y1="74" x2="198" y2="74"/><line x1="160" y1="84" x2="198" y2="84"/><line x1="160" y1="94" x2="186" y2="94"/></g>
+          <g fill="var(--metal)" stroke="var(--ink)" stroke-width="1.5"><circle cx="150" cy="60" r="3.5"/><circle cx="150" cy="78" r="3.5"/><circle cx="150" cy="96" r="3.5"/></g>
+          <text x="150" y="124">2</text></g>
+        <!-- 3 pen -->
+        <g><path d="M258 102 L300 56 L310 64 L268 110 Z" fill="var(--series-1)" stroke="var(--ink)" stroke-width="2.5"/>
+          <path d="M258 102 L268 110 L254 116 Z" fill="var(--ink)"/>
+          <rect x="296" y="52" width="16" height="10" rx="2" transform="rotate(-42 304 57)" fill="var(--metal)" stroke="var(--ink)" stroke-width="2"/>
+          <text x="254" y="134">3</text></g>
+        <!-- 4 pencil -->
+        <g><path d="M350 104 L392 58 L402 66 L360 112 Z" fill="#e0a92c" stroke="var(--ink)" stroke-width="2.5"/>
+          <path d="M350 104 L360 112 L345 118 Z" fill="var(--skin-a)" stroke="var(--ink)" stroke-width="2"/>
+          <path d="M349 112 L354 116 L345 118 Z" fill="var(--ink)"/>
+          <text x="345" y="136">4</text></g>
+        <!-- 5 bag -->
+        <g><path d="M440 72 C440 56 456 46 474 46 C492 46 508 56 508 72" fill="none" stroke="var(--ink)" stroke-width="2.5"/>
+          <rect x="428" y="70" width="92" height="56" rx="6" fill="var(--cloth-5)" stroke="var(--ink)" stroke-width="2.5"/>
+          <rect x="428" y="70" width="92" height="16" rx="4" fill="var(--ink)" opacity=".2"/>
+          <rect x="462" y="94" width="24" height="16" rx="2" fill="var(--metal)" stroke="var(--ink)" stroke-width="2"/>
+          <text x="428" y="146">5</text></g>
+        <!-- 6 chair -->
+        <g><rect x="560" y="48" width="42" height="46" rx="4" fill="var(--cloth-3)" stroke="var(--ink)" stroke-width="2.5"/>
+          <rect x="552" y="94" width="58" height="10" rx="3" fill="var(--wood)" stroke="var(--ink)" stroke-width="2.5"/>
+          <line x1="560" y1="104" x2="558" y2="132" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/>
+          <line x1="602" y1="104" x2="604" y2="132" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/>
+          <text x="552" y="152">6</text></g>
+        <!-- 7 table -->
+        <g><rect x="650" y="78" width="120" height="12" rx="3" fill="var(--wood)" stroke="var(--ink)" stroke-width="2.5"/>
+          <line x1="662" y1="90" x2="660" y2="132" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round"/>
+          <line x1="758" y1="90" x2="760" y2="132" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round"/>
+          <text x="650" y="152">7</text></g>
+        <!-- 8 board -->
+        <g><rect x="40" y="166" width="150" height="62" rx="3" fill="var(--paper)" stroke="var(--ink)" stroke-width="2.5"/>
+          <g stroke="var(--series-1)" stroke-width="2.5" stroke-linecap="round"><line x1="56" y1="184" x2="120" y2="184"/><line x1="56" y1="198" x2="146" y2="198"/><line x1="56" y1="212" x2="96" y2="212"/></g>
+          <rect x="36" y="228" width="158" height="6" rx="2" fill="var(--wood-dk)" stroke="var(--ink)" stroke-width="2"/>
+          <text x="40" y="252">8</text></g>
+        <!-- 9 computer -->
+        <g><rect x="250" y="160" width="120" height="76" rx="4" fill="var(--screen)" stroke="var(--ink)" stroke-width="2.5"/>
+          <rect x="262" y="172" width="96" height="44" rx="2" fill="var(--screen-field)"/>
+          <rect x="270" y="180" width="54" height="5" rx="2" fill="var(--series-1)"/>
+          <rect x="270" y="190" width="72" height="4" rx="2" fill="var(--rule-strong)"/>
+          <rect x="270" y="199" width="44" height="4" rx="2" fill="var(--rule-strong)"/>
+          <rect x="286" y="236" width="48" height="8" rx="3" fill="var(--metal)" stroke="var(--ink)" stroke-width="2"/>
+          <text x="250" y="256">9</text></g>
+        </g>
+      </svg>
+    </div>
+    <p class="alt"><b>Alt text:</b> An open bag on a desk with the classroom behind. Nine things are
+    numbered: a book; a notebook; a pen; a pencil; the bag; a chair; a table; the board and a computer.</p>
+  </section>
+
+  <!-- PLATE a04 + a06 -->
+  <section class="plate">
+    <div class="phead"><span class="pid">u01-a04 &middot; u01-a06</span><span class="ptype">Realia &middot; Lesson 1 AUG-a, Lesson 2 slot 4</span></div>
+    <h2>The screen that filled itself in, and the form that did not</h2>
+    <p class="note">Realia is designed, not photographed: a real layout with invented data, typeset so
+    that the reading skill the slot teaches is genuinely exercised by the page. On the left, the
+    passport scanner has put the family name in <i>First name</i> and the given name in <i>Last
+    name</i> &mdash; the learner's job is to catch it, because the only person who can is the person
+    whose name it is. On the right, the paper form has one field left empty on purpose:
+    <i>emergency contact</i> is the line newcomers cannot fill in yet.</p>
+    <div class="pair">
+      <div class="screen">
+        <div class="stit"><span>Arrival form</span><span>&#10003; Scanned from passport</span></div>
+        <div class="field bad"><div class="fk">First name</div><div class="fvv">RAHMAN</div>
+          <div class="flag">&#9656; this is her family name</div></div>
+        <div class="field bad"><div class="fk">Last name</div><div class="fvv">NADIA</div>
+          <div class="flag">&#9656; this is her first name</div></div>
+        <div class="field"><div class="fk">Country</div><div class="fvv" style="opacity:.35">&mdash;</div></div>
+        <div class="btn-fake">CHECK</div>
+      </div>
+      <div class="realia">
+        <div class="lh">Portmere Language Center &mdash; Arrival form</div>
+        <div class="frow"><span class="fl">First name</span><span class="fv">Nadia</span></div>
+        <div class="frow"><span class="fl">Last name</span><span class="fv">Rahman</span></div>
+        <div class="frow"><span class="fl">Country</span><span class="fv">Iran</span></div>
+        <div class="frow"><span class="fl">Date of birth</span><span class="fv">4 / 11 / 2002</span></div>
+        <div class="frow"><span class="fl">Address</span><span class="fv">12 Fenner Street, Flat 4B</span></div>
+        <div class="frow"><span class="fl">Phone</span><span class="fv">7700 418 206</span></div>
+        <div class="frow"><span class="fl">Group / Room</span><span class="fv">2 / 4</span></div>
+        <div class="frow empty"><span class="fl">Emergency contact</span><span class="fv"></span></div>
+        <div class="frow empty"><span class="fl">Signature</span><span class="fv"></span></div>
+        <div class="small">Please check your form before you sign it.</div>
+      </div>
+    </div>
+    <p class="alt"><b>Alt text (a04):</b> A form on a tablet screen. The First name box says RAHMAN and
+    the Last name box says NADIA. The two names are in the wrong boxes. The Country box is empty.</p>
+  </section>
+
+  <!-- PLATE a07 -->
+  <section class="plate">
+    <div class="phead"><span class="pid">u01-a07</span><span class="ptype">Grammar cue &middot; Lesson 3, slot 3A</span></div>
+    <h2>Singular and plural, drawn so the answer is unarguable</h2>
+    <p class="note">One board, two computers, three chairs, four pens, one bag, one notebook. The
+    picture is composed around the grammar: every count is unambiguous at a glance, so the pair asking
+    <i>what's number 4?</i> argues about <i>a pen</i> versus <i>pens</i> and never about what they can
+    see. This is the series' most reused cue type and it is re-earned at five levels.</p>
+    <div class="art">
+      <svg viewBox="0 0 820 300" role="img" aria-label="A cutaway classroom with seven numbered groups of things. Some groups are one thing like the board and some are several like the two computers; the three chairs and the four pens.">
+        <rect width="820" height="300" fill="var(--surface-2)"/>
+        <rect y="206" width="820" height="94" fill="var(--surface-3)"/>
+        <line x1="0" y1="206" x2="820" y2="206" stroke="var(--rule-strong)" stroke-width="2"/>
+        <!-- 1 board -->
+        <rect x="42" y="36" width="188" height="80" rx="3" fill="var(--paper)" stroke="var(--ink)" stroke-width="2.5"/>
+        <text x="58" y="68" font-family="Bricolage Grotesque,sans-serif" font-size="15" font-weight="800" fill="var(--paper-ink)">GROUP 2</text>
+        <text x="58" y="94" font-family="Bricolage Grotesque,sans-serif" font-size="15" font-weight="800" fill="var(--accent)">ROOM 4</text>
+        <circle cx="34" cy="28" r="12" fill="var(--accent)"/><text x="34" y="33" font-family="Bricolage Grotesque,sans-serif" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">1</text>
+        <!-- 2 computers (two) -->
+        <g>
+          <rect x="296" y="110" width="84" height="56" rx="4" fill="var(--screen)" stroke="var(--ink)" stroke-width="2.5"/>
+          <rect x="306" y="120" width="64" height="30" rx="2" fill="var(--screen-field)"/>
+          <rect x="318" y="166" width="40" height="7" rx="3" fill="var(--metal)" stroke="var(--ink)" stroke-width="2"/>
+          <rect x="406" y="110" width="84" height="56" rx="4" fill="var(--screen)" stroke="var(--ink)" stroke-width="2.5"/>
+          <rect x="416" y="120" width="64" height="30" rx="2" fill="var(--screen-field)"/>
+          <rect x="428" y="166" width="40" height="7" rx="3" fill="var(--metal)" stroke="var(--ink)" stroke-width="2"/>
+          <circle cx="288" cy="102" r="12" fill="var(--accent)"/><text x="288" y="107" font-family="Bricolage Grotesque,sans-serif" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">2</text>
+        </g>
+        <!-- 3 chairs (three) -->
+        <g>
+          <g transform="translate(540,116)"><rect width="38" height="40" rx="4" fill="var(--cloth-3)" stroke="var(--ink)" stroke-width="2.5"/><rect x="-6" y="40" width="50" height="9" rx="3" fill="var(--wood)" stroke="var(--ink)" stroke-width="2.5"/><line x1="2" y1="49" x2="0" y2="76" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/><line x1="36" y1="49" x2="38" y2="76" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/></g>
+          <g transform="translate(624,116)"><rect width="38" height="40" rx="4" fill="var(--cloth-3)" stroke="var(--ink)" stroke-width="2.5"/><rect x="-6" y="40" width="50" height="9" rx="3" fill="var(--wood)" stroke="var(--ink)" stroke-width="2.5"/><line x1="2" y1="49" x2="0" y2="76" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/><line x1="36" y1="49" x2="38" y2="76" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/></g>
+          <g transform="translate(708,116)"><rect width="38" height="40" rx="4" fill="var(--cloth-3)" stroke="var(--ink)" stroke-width="2.5"/><rect x="-6" y="40" width="50" height="9" rx="3" fill="var(--wood)" stroke="var(--ink)" stroke-width="2.5"/><line x1="2" y1="49" x2="0" y2="76" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/><line x1="36" y1="49" x2="38" y2="76" stroke="var(--ink)" stroke-width="3" stroke-linecap="round"/></g>
+          <circle cx="532" cy="108" r="12" fill="var(--accent)"/><text x="532" y="113" font-family="Bricolage Grotesque,sans-serif" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">3</text>
+        </g>
+        <!-- 4 pens (four) -->
+        <g>
+          <g stroke="var(--ink)" stroke-width="2.5">
+            <rect x="60" y="223" width="42" height="10" rx="3" fill="var(--series-1)"/>
+            <path d="M102 223 L116 228 L102 233 Z" fill="var(--metal)"/>
+            <rect x="60" y="239" width="42" height="10" rx="3" fill="var(--series-1)"/>
+            <path d="M102 239 L116 244 L102 249 Z" fill="var(--metal)"/>
+            <rect x="60" y="255" width="42" height="10" rx="3" fill="var(--series-1)"/>
+            <path d="M102 255 L116 260 L102 265 Z" fill="var(--metal)"/>
+            <rect x="60" y="271" width="42" height="10" rx="3" fill="var(--series-1)"/>
+            <path d="M102 271 L116 276 L102 281 Z" fill="var(--metal)"/>
+          </g>
+          <circle cx="42" cy="218" r="12" fill="var(--accent)"/><text x="42" y="223" font-family="Bricolage Grotesque,sans-serif" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">4</text>
+        </g>
+        <!-- 5 bag (one) -->
+        <g>
+          <path d="M196 236 C196 224 208 216 220 216 C232 216 244 224 244 236" fill="none" stroke="var(--ink)" stroke-width="2.5"/>
+          <rect x="186" y="234" width="68" height="46" rx="6" fill="var(--cloth-5)" stroke="var(--ink)" stroke-width="2.5"/>
+          <rect x="210" y="252" width="20" height="13" rx="2" fill="var(--metal)" stroke="var(--ink)" stroke-width="2"/>
+          <circle cx="178" cy="226" r="12" fill="var(--accent)"/><text x="178" y="231" font-family="Bricolage Grotesque,sans-serif" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">5</text>
+        </g>
+        <!-- 6 notebook (one) -->
+        <g>
+          <rect x="320" y="228" width="56" height="54" rx="3" fill="var(--paper)" stroke="var(--ink)" stroke-width="2.5"/>
+          <g stroke="var(--paper-rule)" stroke-width="1.5"><line x1="332" y1="244" x2="366" y2="244"/><line x1="332" y1="254" x2="366" y2="254"/><line x1="332" y1="264" x2="354" y2="264"/></g>
+          <g fill="var(--metal)" stroke="var(--ink)" stroke-width="1.5"><circle cx="320" cy="240" r="3.5"/><circle cx="320" cy="256" r="3.5"/><circle cx="320" cy="272" r="3.5"/></g>
+          <circle cx="312" cy="220" r="12" fill="var(--accent)"/><text x="312" y="225" font-family="Bricolage Grotesque,sans-serif" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">6</text>
+        </g>
+        <!-- table (one), right foreground -->
+        <g>
+          <rect x="470" y="226" width="200" height="13" rx="3" fill="var(--wood)" stroke="var(--ink)" stroke-width="2.5"/>
+          <line x1="486" y1="239" x2="482" y2="290" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round"/>
+          <line x1="654" y1="239" x2="658" y2="290" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round"/>
+          <circle cx="462" cy="218" r="12" fill="var(--accent)"/><text x="462" y="223" font-family="Bricolage Grotesque,sans-serif" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">7</text>
+        </g>
+      </svg>
+    </div>
+    <p class="alt"><b>Alt text:</b> A cutaway view of a classroom with seven numbered groups of things. Some
+    groups are one thing like the board and some are several like the two computers, the three chairs
+    and the four pens.</p>
+  </section>
+
+  <!-- PLATE a12 -->
+  <section class="plate">
+    <div class="phead"><span class="pid">u01-a12</span><span class="ptype">Story panels &middot; Lesson 5, slot 1B</span></div>
+    <h2>8:35 outside, 9:05 inside</h2>
+    <p class="note">The <i>Real Lives</i> model text is seeded by two panels, thirty minutes apart. The
+    clock is in both, because the time is the story: she is early, she is checking the number on the
+    door against the number on her phone, and then she is in the room with a new notebook open. Same
+    character construction in both frames &mdash; that consistency is what a recurring cast buys, and
+    why fifteen assets per unit is affordable at all.</p>
+    <div class="art">
+      <svg viewBox="0 0 820 290" role="img" aria-label="Two pictures. In the first Nadia stands outside the school at 8:35 holding up her phone to check the address. In the second she sits in Room 4 at 9:05 with a new notebook open and another student beside her.">
+        <!-- panel 1 -->
+        <g>
+          <rect x="0" y="0" width="404" height="290" fill="var(--surface-3)"/>
+          <rect x="0" y="198" width="404" height="92" fill="var(--rule)"/>
+          <!-- building face -->
+          <rect x="178" y="18" width="210" height="182" fill="var(--surface-2)" stroke="var(--ink)" stroke-width="2.5"/>
+          <rect x="214" y="96" width="62" height="104" rx="3" fill="var(--wood-dk)" stroke="var(--ink)" stroke-width="2.5"/>
+          <circle cx="266" cy="150" r="4" fill="var(--metal)" stroke="var(--ink)" stroke-width="1.5"/>
+          <rect x="226" y="54" width="40" height="28" rx="3" fill="var(--paper)" stroke="var(--ink)" stroke-width="2.5"/>
+          <text x="246" y="74" font-family="Bricolage Grotesque,sans-serif" font-size="17" font-weight="800" fill="var(--paper-ink)" text-anchor="middle">12</text>
+          <rect x="300" y="100" width="62" height="50" rx="2" fill="var(--screen)" stroke="var(--ink)" stroke-width="2.5"/>
+          <!-- Nadia -->
+          <path d="M84 290 L84 182 C84 162 100 150 120 150 C140 150 156 162 156 182 L156 290Z" fill="var(--cloth-1)" stroke="var(--ink)" stroke-width="2.5"/>
+          <circle cx="120" cy="124" r="26" fill="var(--skin-a)" stroke="var(--ink)" stroke-width="2.5"/>
+          <path d="M94 122 C94 94 146 94 146 122 L146 142 C146 116 94 116 94 142Z" fill="var(--hair-1)" stroke="var(--ink)" stroke-width="2"/>
+          <circle cx="128" cy="124" r="2.6" fill="var(--ink)"/><circle cx="113" cy="124" r="2.6" fill="var(--ink)"/>
+          <path d="M113 134 Q120 137 127 134" stroke="var(--ink)" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <!-- arm up holding phone -->
+          <path d="M150 180 L176 142" stroke="var(--skin-a)" stroke-width="13" stroke-linecap="round"/>
+          <rect x="166" y="112" width="24" height="38" rx="4" fill="var(--screen)" stroke="var(--ink)" stroke-width="2.5"/>
+          <rect x="171" y="119" width="14" height="4" rx="2" fill="var(--series-1)"/>
+          <rect x="171" y="127" width="14" height="3" rx="1.5" fill="var(--rule-strong)"/>
+          <rect x="171" y="134" width="9" height="3" rx="1.5" fill="var(--rule-strong)"/>
+          <!-- clock badge -->
+          <rect x="20" y="20" width="76" height="30" rx="4" fill="var(--ink)"/>
+          <text x="58" y="41" font-family="Bricolage Grotesque,sans-serif" font-size="16" font-weight="800" fill="var(--surface-1)" text-anchor="middle">8:35</text>
+        </g>
+        <!-- divider -->
+        <rect x="404" y="0" width="12" height="290" fill="var(--surface-1)"/>
+        <!-- panel 2 -->
+        <g>
+          <rect x="416" y="0" width="404" height="290" fill="var(--surface-2)"/>
+          <rect x="416" y="214" width="404" height="76" fill="var(--surface-3)"/>
+          <!-- board -->
+          <rect x="446" y="28" width="162" height="68" rx="3" fill="var(--paper)" stroke="var(--ink)" stroke-width="2.5"/>
+          <text x="462" y="56" font-family="Bricolage Grotesque,sans-serif" font-size="14" font-weight="800" fill="var(--paper-ink)">ROOM 4</text>
+          <line x1="462" y1="66" x2="592" y2="66" stroke="var(--paper-rule)" stroke-width="1.5"/>
+          <line x1="462" y1="80" x2="560" y2="80" stroke="var(--paper-rule)" stroke-width="1.5"/>
+          <!-- Ms Nkemelu at board -->
+          <path d="M636 196 L636 128 C636 114 648 106 662 106 C676 106 688 114 688 128 L688 196Z" fill="var(--cloth-2)" stroke="var(--ink)" stroke-width="2.5"/>
+          <circle cx="662" cy="88" r="19" fill="var(--skin-c)" stroke="var(--ink)" stroke-width="2.5"/>
+          <path d="M643 84 C643 66 681 66 681 84 C681 72 672 68 662 68 C652 68 643 72 643 84Z" fill="var(--hair-3)" stroke="var(--ink)" stroke-width="2"/>
+          <circle cx="656" cy="89" r="2.2" fill="var(--ink)"/><circle cx="668" cy="89" r="2.2" fill="var(--ink)"/>
+          <path d="M636 132 L608 112" stroke="var(--skin-c)" stroke-width="10" stroke-linecap="round"/>
+          <!-- table + notebook -->
+          <rect x="440" y="186" width="190" height="12" rx="3" fill="var(--wood)" stroke="var(--ink)" stroke-width="2.5"/>
+          <line x1="454" y1="198" x2="450" y2="244" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round"/>
+          <line x1="616" y1="198" x2="620" y2="244" stroke="var(--ink)" stroke-width="3.5" stroke-linecap="round"/>
+          <path d="M498 186 L560 186 L556 170 L502 170 Z" fill="var(--paper)" stroke="var(--ink)" stroke-width="2.5"/>
+          <line x1="529" y1="170" x2="529" y2="186" stroke="var(--paper-rule)" stroke-width="1.5"/>
+          <!-- Nadia seated -->
+          <path d="M460 186 L460 150 C460 136 472 128 486 128 C500 128 512 136 512 150 L512 186Z" fill="var(--cloth-1)" stroke="var(--ink)" stroke-width="2.5"/>
+          <circle cx="486" cy="110" r="19" fill="var(--skin-a)" stroke="var(--ink)" stroke-width="2.5"/>
+          <path d="M467 108 C467 88 505 88 505 108 L505 122 C505 104 467 104 467 122Z" fill="var(--hair-1)" stroke="var(--ink)" stroke-width="2"/>
+          <circle cx="492" cy="111" r="2.2" fill="var(--ink)"/><circle cx="480" cy="111" r="2.2" fill="var(--ink)"/>
+          <path d="M480 118 Q486 121 492 118" stroke="var(--ink)" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <!-- Lucia beside -->
+          <path d="M546 186 L546 152 C546 139 557 132 570 132 C583 132 594 139 594 152 L594 186Z" fill="var(--cloth-4)" stroke="var(--ink)" stroke-width="2.5"/>
+          <circle cx="570" cy="115" r="18" fill="var(--skin-b)" stroke="var(--ink)" stroke-width="2.5"/>
+          <path d="M552 113 C552 94 588 94 588 113 C588 100 579 96 570 96 C561 96 552 100 552 113Z" fill="var(--hair-2)" stroke="var(--ink)" stroke-width="2"/>
+          <circle cx="576" cy="116" r="2.2" fill="var(--ink)"/><circle cx="564" cy="116" r="2.2" fill="var(--ink)"/>
+          <!-- clock badge -->
+          <rect x="724" y="20" width="76" height="30" rx="4" fill="var(--ink)"/>
+          <text x="762" y="41" font-family="Bricolage Grotesque,sans-serif" font-size="16" font-weight="800" fill="var(--surface-1)" text-anchor="middle">9:05</text>
+        </g>
+      </svg>
+    </div>
+    <p class="alt"><b>Alt text:</b> Two pictures. In the first Nadia stands outside the school at 8:35
+    holding up her phone to check the address. In the second she sits in Room 4 at 9:05 with a new
+    notebook open and another student beside her.</p>
+  </section>
+
+  <!-- PLATE a14 -->
+  <section class="plate">
+    <div class="phead"><span class="pid">u01-a14</span><span class="ptype">Data figure &middot; Team Up &amp; Review, slot E&ndash;F</span></div>
+    <h2>The chart the class builds, and the total that does not add up</h2>
+    <p class="note">One series, so no legend box &mdash; the title names it, and every bar is labeled
+    directly. Bars are sorted by value, not alphabetically. The table beside it is not a courtesy: at
+    this level reading the table <i>is</i> the exercise, and it is also the accessibility path.
+    The numbers are deliberately wrong: five countries sum to twelve, and there are thirteen students
+    in the room. Item F3 asks the class to find the missing one. That is three minutes of numeracy,
+    data literacy and a register check at once.</p>
+    <div class="art" style="background:var(--surface-1);padding:22px">
+      <div class="chartbox">
+        <svg viewBox="0 0 440 232" role="img" aria-label="A bar chart of the countries in the class. Bars are sorted with the largest at the top and each is labeled with the number of students.">
+          <g font-family="Inter,sans-serif" font-size="12">
+            <!-- gridlines -->
+            <g stroke="var(--rule)" stroke-width="1">
+              <line x1="104" y1="14" x2="104" y2="196"/>
+              <line x1="184" y1="14" x2="184" y2="196"/>
+              <line x1="264" y1="14" x2="264" y2="196"/>
+              <line x1="344" y1="14" x2="344" y2="196"/>
+              <line x1="424" y1="14" x2="424" y2="196"/>
+            </g>
+            <!-- bars: 80px per student -->
+            <g fill="var(--series-1)">
+              <rect x="104" y="20" width="320" height="22" rx="4"/>
+              <rect x="104" y="56" width="240" height="22" rx="4"/>
+              <rect x="104" y="92" width="160" height="22" rx="4"/>
+              <rect x="104" y="128" width="160" height="22" rx="4"/>
+              <rect x="104" y="164" width="80" height="22" rx="4"/>
+            </g>
+            <!-- baseline -->
+            <line x1="104" y1="14" x2="104" y2="196" stroke="var(--ink)" stroke-width="2"/>
+            <!-- country labels -->
+            <g fill="var(--ink-2)" text-anchor="end">
+              <text x="94" y="36">Vietnam</text>
+              <text x="94" y="72">Iran</text>
+              <text x="94" y="108">Colombia</text>
+              <text x="94" y="144">Afghanistan</text>
+              <text x="94" y="180">Poland</text>
+            </g>
+            <!-- value labels -->
+            <g fill="#fff" font-weight="700" text-anchor="end">
+              <text x="414" y="36">4</text>
+              <text x="334" y="72">3</text>
+              <text x="254" y="108">2</text>
+              <text x="254" y="144">2</text>
+              <text x="174" y="180">1</text>
+            </g>
+            <!-- axis -->
+            <g fill="var(--ink-3)" font-size="11" text-anchor="middle">
+              <text x="104" y="214">0</text><text x="184" y="214">1</text><text x="264" y="214">2</text>
+              <text x="344" y="214">3</text><text x="424" y="214">4</text>
+            </g>
+            <text x="264" y="230" fill="var(--ink-3)" font-size="11" text-anchor="middle">students</text>
+          </g>
+        </svg>
+        <div>
+          <table>
+            <caption>Where are we from?</caption>
+            <thead><tr><th scope="col">Country</th><th scope="col" class="num">Students</th></tr></thead>
+            <tbody>
+              <tr><td>Vietnam</td><td class="num">4</td></tr>
+              <tr><td>Iran</td><td class="num">3</td></tr>
+              <tr><td>Colombia</td><td class="num">2</td></tr>
+              <tr><td>Afghanistan</td><td class="num">2</td></tr>
+              <tr><td>Poland</td><td class="num">1</td></tr>
+              <tr class="tot"><td>Total</td><td class="num">12</td></tr>
+            </tbody>
+          </table>
+          <p class="flagrow"><span>&#9656;</span><span>There are 13 students in the room.
+          Item F3: who is missing?</span></p>
+        </div>
+      </div>
+    </div>
+    <p class="alt"><b>Alt text:</b> A bar chart of the countries in the class. The bars are sorted with
+    the largest at the top and each bar is labeled with the number of students. The same numbers are
+    listed in a table beside it.</p>
+  </section>
+
+  <!-- PLATE a05 + a11 -->
+  <section class="plate">
+    <div class="phead"><span class="pid">u01-a05 &middot; u01-a11</span><span class="ptype">Realia &middot; Lesson 2 reading, Lesson 5 slot 1A</span></div>
+    <h2>The welcome sheet and the badge</h2>
+    <p class="note">The reading text is a document the center would really produce, which is why it
+    cites no outside source: it makes no claim about the world. Inventing a citation for a 63-word
+    welcome sheet would be worse than having none, so external sourcing starts at Level 2, where the
+    articles start making claims. The badge is the same name again, now correct, which is the unit's
+    whole arc in one object.</p>
+    <div class="pair">
+      <div class="realia">
+        <div class="lh">Portmere Language Center &middot; Fenner Street &middot; Ground floor</div>
+        <h4>Your First Week</h4>
+        <p style="font-size:14px;margin:0 0 11px">Welcome to Portmere Language Center!</p>
+        <ol>
+          <li><b>Come to the front desk.</b> Say your name. Spell it slowly.</li>
+          <li><b>Get your student card.</b> Look at your name on the card. Is it correct?</li>
+          <li><b>Find your group.</b> Your group is on the board. Group 1 is in Room 2. Group 2 is in Room 4.</li>
+        </ol>
+        <p style="font-size:14px;margin:11px 0 0">Ask questions. Your teacher is here to help you.
+        Every student has questions in week one.</p>
+        <div class="small"><b>front desk</b> &mdash; the desk at the door, for questions and forms &middot;
+        <b>student card</b> &mdash; a small card with your name and your photo &middot;
+        <b>group</b> &mdash; your class</div>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:center;background:var(--surface-3);padding:22px">
+        <div class="badge">
+          <div class="bh">Portmere Language Center</div>
+          <div class="photo">PHOTO</div>
+          <div class="bn">NADIA RAHMAN</div>
+          <div class="bm">Group 2 &middot; Room 4</div>
+          <div class="br">Student</div>
+        </div>
+      </div>
+    </div>
+    <p class="alt"><b>Alt text (a11):</b> A student badge on a desk. It shows the name Nadia Rahman
+    with Group 2 and Room 4 underneath and the word Student at the bottom.</p>
+  </section>
+
+  <footer class="colo">
+    <h3>How this system is built</h3>
+    <div class="swatches">
+      <div class="sw" style="background:#c9452c">STARTER</div>
+      <div class="sw" style="background:#0b96a4">LEVEL 1</div>
+      <div class="sw" style="background:#ab7200">LEVEL 2</div>
+      <div class="sw" style="background:#1e6ac9">LEVEL 3</div>
+      <div class="sw" style="background:#3d7a14">LEVEL 4</div>
+      <div class="sw" style="background:#9739ae">LEVEL 5</div>
+    </div>
+    <ul>
+      <li>Six level accents, each validated in light and dark. The hues interleave warm and cool
+      rather than running a warm-to-cool gradient, because a gradient put Starter's red-orange beside
+      Level 1's amber and those two collide for a deuteranopic reader. Interleaving lifts the worst
+      adjacent pair from &Delta;E&nbsp;1.9 to 16.1.</li>
+      <li>No six-hue set clears the all-pairs floor, so color never carries level identity alone:
+      every cover and running head also carries the level name, numeral and glyph.</li>
+      <li>Data graphics use the project's already-validated categorical palette, and the level accent
+      is withdrawn from the inside of any chart so a figure never reads as page furniture.</li>
+      <li>Every asset exists in both themes from tokens, never by inversion. Every one has authored
+      alt text written as a teaching sentence, because a learner on a screen reader is doing the same
+      exercise and not a reduced one.</li>
+      <li>Characters are built once per band and reused. That is what makes roughly 2,400 assets
+      across 78 units affordable, and what makes the books feel written rather than assembled.</li>
+    </ul>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var b=document.getElementById('t');
+  function cur(){
+    var a=document.documentElement.getAttribute('data-theme');
+    if(a) return a;
+    return window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+  }
+  b.addEventListener('click',function(){
+    document.documentElement.setAttribute('data-theme', cur()==='dark'?'light':'dark');
+  });
+})();
+</script>
