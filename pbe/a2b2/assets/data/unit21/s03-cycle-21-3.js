@@ -296,15 +296,16 @@ PBE4.page('u21-s03', {
             q: 'Listen again. What does Hala apologise for before she knows anything?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Hala* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Hala</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does she refuse to do?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *refuse* in it. Play it again with the subtitles on.'
+              + 'line with <i>refuse</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -542,21 +543,21 @@ PBE4.page('u21-s03', {
               + 'done, what happened, what changed?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *happened* in it.'
+            hint: 'Look in the text above for the line with <i>happened</i> in it.'
           },
       {
             q: 'Which paragraph protects somebody, and how?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *paragraph* in it.'
+              + 'in the text above for the line with <i>paragraph</i> in it.'
           },
       {
             q: 'What is the last line for?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *last* in it.'
+              + 'above for the line with <i>last</i> in it.'
           }],
       ideas: ['Dear Mr Tarabishi,',
       'Quote, question, stop'],

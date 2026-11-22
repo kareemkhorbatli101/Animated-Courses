@@ -285,15 +285,16 @@ PBE4.page('u21-s06', {
             q: 'Listen again. From what date does the guarantee run?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *guarantee* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>guarantee</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What is not covered, and what does Nour do about it?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *Nour* in it. Play it again with the subtitles on.'
+              + 'line with <i>Nour</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -523,21 +524,21 @@ PBE4.page('u21-s06', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *guarantee* in it.'
+              + 'in the text above for the line with <i>guarantee</i> in it.'
           },
       {
             q: 'What is said about the printer, and why is it in the list at all?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *printer* in it.'
+              + 'above for the line with <i>printer</i> in it.'
           },
       {
             q: 'What does the warning at the bottom ask somebody to do, and when?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *somebody* in it.'
+              + 'line with <i>somebody</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

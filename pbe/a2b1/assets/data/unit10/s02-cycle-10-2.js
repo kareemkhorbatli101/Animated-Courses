@@ -273,35 +273,34 @@ PBE3.page('u10-s02', {
       instruction: 'Give the advice, then the reason.',
       questions: [{
             q: '1 lifting a heavy box',
-            model: 'You should bend your knees, because your back is not a hinge.',
+            model: 'You should bend your knees, because your back is not a hinge',
             minWords: 4,
             rows: 2
           },
       {
             q: '2 a screen all day',
-            model: 'You should look away every twenty minutes, because your eyes '
-              + 'stop focusing.',
+            model: 'You should look away every twenty minutes, because your eyes stop focusing',
             minWords: 4,
             rows: 2
           },
       {
             q: '3 no break since eight',
             model: 'You should stop for five minutes, because you make more mistakes '
-              + 'in the last hour than the first three.',
+              + 'in the last hour than the first three',
             minWords: 6,
             rows: 3
           },
       {
             q: '4 a cut on the hand',
             model: 'You should wash it and cover it, because a warehouse cut gets '
-              + 'dirty in a minute.',
+              + 'dirty in a minute',
             minWords: 5,
             rows: 2
           },
       {
             q: '5 standing all day',
             model: 'You should move your weight from foot to foot, because standing '
-              + 'still is harder than walking.',
+              + 'still is harder than walking',
             minWords: 5,
             rows: 2
           }],
@@ -319,16 +318,16 @@ PBE3.page('u10-s02', {
             q: 'Listen again. What three things does Abu Yasser tell him?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Yasser* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Yasser</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Abu Yasser admit about himself?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Yasser* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Yasser</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -550,14 +549,15 @@ PBE3.page('u10-s02', {
             q: 'When is most of a bad lift decided?',
             minWords: 6,
             rows: 2,
-            hint: 'A time or a day. Look in the text above for the line with *decided* in it.'
+            hint: 'A time or a day. Look in the text above for the line with '
+              + '<i>decided</i> in it.'
           },
       {
             q: 'What four things mean "get somebody"?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *somebody* in it.'
+              + 'above for the line with <i>somebody</i> in it.'
           },
       {
             q: 'What must you not do if you have hurt yourself?',

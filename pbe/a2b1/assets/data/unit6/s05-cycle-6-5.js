@@ -294,16 +294,16 @@ PBE3.page('u6-s05', {
             q: 'Listen again. Why the small van?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *small* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>small</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'Why Tuesday and not Monday?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *Tuesday* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with '
+              + '<i>Tuesday</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -518,22 +518,24 @@ PBE3.page('u6-s05', {
             q: 'Why does the Jaramana order go by van?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Jaramana* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Jaramana</i> '
+              + 'in it.'
           },
       {
             q: 'What two reasons are given for sending the Hama pallets on Tuesday?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Hama* in it.'
+              + 'above for the line with <i>Hama</i> in it.'
           },
       {
             q: 'Why is the last paragraph on the sheet, when nothing was done?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *paragraph* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>paragraph</i> '
+              + 'in it.'
           }],
       ideas: ['Grammar – because and to (purpose)'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

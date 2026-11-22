@@ -301,15 +301,15 @@ PBE3.page('u2-s02', {
             q: 'Listen again. What time does the trade counter close on Thursday?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Thursday* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Thursday</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'When can the customer come?',
             minWords: 6,
             rows: 2,
             hint: 'A time or a day. Look in the dialogue above for the line with '
-              + '*customer* in it. Play it again with the subtitles on.'
+              + '<i>customer</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -509,13 +509,13 @@ PBE3.page('u2-s02', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *company* in it.'
+              + 'in the text above for the line with <i>company</i> in it.'
           },
       {
             q: 'On which day does the trade counter close early?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *counter* in it.'
+            hint: 'Look in the text above for the line with <i>counter</i> in it.'
           },
       {
             q: 'What must you do if you want a delivery at 6.00 pm?',

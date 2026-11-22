@@ -289,16 +289,16 @@ PBE4.page('u20-s04', {
             q: 'Listen again. What three things are recorded?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *recorded* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>recorded</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Why does Abu Yasser insist on the word "temporary"?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *Yasser* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with '
+              + '<i>Yasser</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -523,7 +523,7 @@ PBE4.page('u20-s04', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *something* in it.'
+              + 'in the text above for the line with <i>something</i> in it.'
           },
       {
             q: 'What is the total spent on adjustments, and what does putting it '
@@ -531,14 +531,14 @@ PBE4.page('u20-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *adjustments* in it.'
+              + 'line with <i>adjustments</i> in it.'
           },
       {
             q: 'What does the last line tell a future reader?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *future* in it.'
+              + 'above for the line with <i>future</i> in it.'
           }],
       ideas: ['REPAIR BOOK — loading bay shutter',
       'Grammar – recording what was done',

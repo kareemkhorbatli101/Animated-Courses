@@ -273,35 +273,35 @@ PBE3.page('u11-s05', {
       questions: [{
             q: '1 a market',
             model: 'You should go to the market early, about seven, when they are '
-              + 'setting out and nobody is pushing.',
+              + 'setting out and nobody is pushing',
             minWords: 6,
             rows: 2
           },
       {
             q: '2 a place to eat',
             model: 'You should eat at the place with no sign on the corner; the one '
-              + 'with pictures of the food is for people leaving tomorrow.',
+              + 'with pictures of the food is for people leaving tomorrow',
             minWords: 6,
             rows: 3
           },
       {
             q: '3 a walk',
             model: 'You should walk along the river in the evening, not at midday — '
-              + 'there is no shade at all.',
+              + 'there is no shade at all',
             minWords: 6,
             rows: 2
           },
       {
             q: '4 a view',
             model: 'It\'s worth getting up for the view at six; by nine the air is '
-              + 'white and you see nothing.',
+              + 'white and you see nothing',
             minWords: 6,
             rows: 3
           },
       {
             q: '5 something to buy',
             model: 'You should buy the olive oil, not the sweets — the sweets are '
-              + 'everywhere and that oil is from one village.',
+              + 'everywhere and that oil is from one village',
             minWords: 6,
             rows: 3
           }],
@@ -319,8 +319,8 @@ PBE3.page('u11-s05', {
             q: 'Listen again. What does Bassel recommend first?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Bassel* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Bassel</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does he tell her not to do?',
@@ -547,23 +547,24 @@ PBE3.page('u11-s05', {
             q: 'Why does Bassel say not to add the citadel?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Bassel* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Bassel</i> in '
+              + 'it.'
           },
       {
             q: 'What does he say about buying things?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *buying* in it.'
+              + 'above for the line with <i>buying</i> in it.'
           },
       {
             q: 'Why should you tell somebody where you are going?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Your own workplace, not the book\'s. Say it out loud once before '
-              + 'you write it - a sentence or two is enough.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Your own workplace, not the book\'s. Say it out loud once '
+              + 'before you write it - a sentence or two is enough.'
           }],
       ideas: ['Grammar – recommending'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

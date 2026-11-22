@@ -293,16 +293,16 @@ PBE3.page('u3-s02', {
             q: 'Listen again. Where is the file in the end?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *file* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>file</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'Why is it not in the filing cabinet?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *cabinet* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with '
+              + '<i>cabinet</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -507,14 +507,14 @@ PBE3.page('u3-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *Homs* in it.'
+              + 'the line with <i>Homs</i> in it.'
           },
       {
             q: 'Where are last year\'s invoices?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *invoices* in it.'
+              + 'the line with <i>invoices</i> in it.'
           },
       {
             q: 'What must you do if you take a file?',

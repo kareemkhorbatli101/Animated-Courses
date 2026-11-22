@@ -278,19 +278,19 @@ PBE3.page('u12-s06', {
       questions: [{
             q: '1 a long call with a customer',
             model: 'Thank you for your time. Please give my regards to your son, and '
-              + 'tell him we are still thinking about his second question.',
+              + 'tell him we are still thinking about his second question',
             minWords: 6,
             rows: 3
           },
       {
             q: '2 a short call with a colleague',
-            model: 'I\'ll let you go. Say hello to Rasha for me.',
+            model: 'I\'ll let you go. Say hello to Rasha for me',
             minWords: 3,
             rows: 2
           },
       {
             q: '3 a letter to a supplier',
-            model: 'Kind regards, and please pass on my best wishes to the whole team.',
+            model: 'Kind regards, and please pass on my best wishes to the whole team',
             minWords: 4,
             rows: 2
           },
@@ -298,13 +298,13 @@ PBE3.page('u12-s06', {
             q: '4 a message to somebody whose father has died',
             model: 'I was very sorry to hear about your father. Please give my '
               + 'condolences to your mother and your brothers. I will not keep '
-              + 'you.',
+              + 'you',
             minWords: 6,
             rows: 3
           },
       {
             q: '5 a call before Eid',
-            model: 'Eid Mubarak to you and the family, and thank you for this year.',
+            model: 'Eid Mubarak to you and the family, and thank you for this year',
             minWords: 4,
             rows: 2
           }],
@@ -322,15 +322,15 @@ PBE3.page('u12-s06', {
             q: 'Listen again. What does Nour say about his son?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Tarabishi ask her to tell Mr Ayoub?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Tarabishi* in it. Play it '
+              + 'dialogue above for the line with <i>Tarabishi</i> in it. Play it '
               + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
@@ -559,21 +559,22 @@ PBE3.page('u12-s06', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *letter* in it.'
+              + 'above for the line with <i>letter</i> in it.'
           },
       {
             q: 'What does it thank the customers for, exactly?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *customers* in it.'
+              + 'above for the line with <i>customers</i> in it.'
           },
       {
             q: 'Why is it signed with seven names rather than the company\'s?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *company\'s* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with '
+              + '<i>company\'s</i> in it.'
           }],
       ideas: ['Dear friends,',
       'Grammar – closing politely'],

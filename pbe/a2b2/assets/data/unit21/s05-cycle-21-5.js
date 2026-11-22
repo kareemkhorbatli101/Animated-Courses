@@ -290,15 +290,15 @@ PBE4.page('u21-s05', {
             q: 'Listen again. What three things does a rule need, according to Abu Yasser?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Yasser* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Yasser</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What is the exception, and why is it in the rule?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *exception* in it. Play it '
+              + 'dialogue above for the line with <i>exception</i> in it. Play it '
               + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
@@ -529,14 +529,15 @@ PBE4.page('u21-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *checking* in it.'
+              + 'above for the line with <i>checking</i> in it.'
           },
       {
             q: 'Why must damaged goods not be thrown away?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *damaged* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>damaged</i> '
+              + 'in it.'
           },
       {
             q: 'What is the difference between a rule broken and reported and '
@@ -544,7 +545,7 @@ PBE4.page('u21-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *difference* in it.'
+              + 'above for the line with <i>difference</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

@@ -274,35 +274,35 @@ PBE3.page('u12-s04', {
             q: '1 a fast delivery',
             model: 'Thank you for sending it on Tuesday — it meant the order went '
               + 'out the same week, and I know you had to take something off that '
-              + 'lorry.',
+              + 'lorry',
             minWords: 6,
             rows: 3
           },
       {
             q: '2 staying late',
             model: 'Thank you for staying until seven. We finished, and you missed '
-              + 'your service to do it.',
+              + 'your service to do it',
             minWords: 5,
             rows: 2
           },
       {
             q: '3 explaining something twice',
             model: 'Thank you for explaining it twice without making me feel stupid '
-              + 'the second time.',
+              + 'the second time',
             minWords: 4,
             rows: 2
           },
       {
             q: '4 covering your work',
             model: 'Thank you for covering the counter. You did your work and mine '
-              + 'and said nothing about it.',
+              + 'and said nothing about it',
             minWords: 5,
             rows: 2
           },
       {
             q: '5 telling you bad news early',
             model: 'Thank you for telling me on Monday instead of Thursday. Monday I '
-              + 'could do something about it.',
+              + 'could do something about it',
             minWords: 5,
             rows: 2
           }],
@@ -320,16 +320,16 @@ PBE3.page('u12-s04', {
             q: 'Listen again. What exactly did Ms Shamsi do?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Shamsi* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Shamsi</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour offer at the end?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -550,21 +550,22 @@ PBE3.page('u12-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *subject* in it.'
+              + 'above for the line with <i>subject</i> in it.'
           },
       {
             q: 'What two things does Nour thank her for?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           },
       {
             q: 'Why does Nour say "I am not offering a favour"?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           }],
       ideas: ['Dear Ms Shamsi,',
       'Nour Mansour, extension 212',

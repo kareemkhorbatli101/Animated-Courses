@@ -271,31 +271,31 @@ PBE4.page('u13-s03', {
       instruction: 'Answer each one with already, yet or just.',
       questions: [{
             q: '1 Have you sent the invoice?',
-            model: 'I have already sent it.',
+            model: 'I have already sent it',
             minWords: 2,
             rows: 2
           },
       {
             q: '2 Has the lorry left?',
-            model: 'Not yet — it leaves at two.',
+            model: 'Not yet — it leaves at two',
             minWords: 2,
             rows: 2
           },
       {
             q: '3 Have you booked the room?',
-            model: 'Yes, I have already booked it.',
+            model: 'Yes, I have already booked it',
             minWords: 2,
             rows: 2
           },
       {
             q: '4 Has she replied?',
-            model: 'She has just replied.',
+            model: 'She has just replied',
             minWords: 1,
             rows: 2
           },
       {
             q: '5 Have you had lunch?',
-            model: 'No, not yet; I am still waiting for the counter to close.',
+            model: 'No, not yet; I am still waiting for the counter to close',
             minWords: 4,
             rows: 2
           }],
@@ -313,16 +313,16 @@ PBE4.page('u13-s03', {
             q: 'Listen again. What has Nour just done?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'Why does Abu Yasser say the list is better than the memory?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *Yasser* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with '
+              + '<i>Yasser</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -534,7 +534,7 @@ PBE4.page('u13-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *title* in it.'
+              + 'line with <i>title</i> in it.'
           },
       {
             q: 'Which item is waiting for somebody outside the company, and what '
@@ -542,14 +542,15 @@ PBE4.page('u13-s03', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *somebody* in it.'
+              + 'in the text above for the line with <i>somebody</i> in it.'
           },
       {
             q: 'Why is the last line there?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *last* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>last</i> in '
+              + 'it.'
           }],
       ideas: ['Grammar – already, yet, just'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

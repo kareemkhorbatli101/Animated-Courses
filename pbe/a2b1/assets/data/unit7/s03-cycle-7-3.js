@@ -296,15 +296,15 @@ PBE3.page('u7-s03', {
             q: 'Listen again. Why is Wednesday difficult?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Wednesday* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Wednesday</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'When do they agree to meet?',
             minWords: 6,
             rows: 2,
             hint: 'A time or a day. Look in the dialogue above for the line with '
-              + '*agree* in it. Play it again with the subtitles on.'
+              + '<i>agree</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -519,21 +519,22 @@ PBE3.page('u7-s03', {
             q: 'When must nobody ask Abu Yasser for anything, and why?',
             minWords: 6,
             rows: 2,
-            hint: 'A time or a day. Look in the text above for the line with *Yasser* in it.'
+            hint: 'A time or a day. Look in the text above for the line with '
+              + '<i>Yasser</i> in it.'
           },
       {
             q: 'What two things are not happening this week?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *happening* in it.'
+              + 'above for the line with <i>happening</i> in it.'
           },
       {
             q: 'What does Nour promise at the end?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           }],
       ideas: ['Grammar – present continuous for arrangements'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

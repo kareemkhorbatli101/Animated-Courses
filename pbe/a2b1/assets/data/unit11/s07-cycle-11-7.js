@@ -196,7 +196,7 @@ PBE3.page('u11-s07', {
             evidence: 'who has been given two pages and has read them three times'
           },
         {
-            q: 'Books closed. Listen. What does *per diem* mean, as Nour explains it?',
+            q: 'Books closed. Listen. What does “per diem” mean, as Nour explains it?',
             options: [{
               t: 'sixty thousand a day for food, not accounted for and not '
                 + 'required to be spent',
@@ -270,16 +270,16 @@ PBE3.page('u11-s07', {
             q: 'Listen again. What does Hala not understand about the per diem?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Hala* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Hala</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What is the one thing she must not forget?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *forget* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>forget</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

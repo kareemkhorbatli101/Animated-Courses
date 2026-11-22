@@ -49,7 +49,7 @@ PBE5.arabic({
   'Swap books. Ask one question: what does the first version tell you that the writer did not mean to say? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: ماذا تقول لك النسخة الأولى ولم يقصد الكاتب أن يقوله؟ ضع ✓ أو ✗.',
   'Two or three students read their what that told the reader. The class says which accidental disclosure was the largest.':
-    'يقرأ طالبان أو ثلاثة فقرة *ما قالته هذه للقارئ*. يقول الصفّ أيّ إفشاء عارض كان الأكبر.',
+    'يقرأ طالبان أو ثلاثة فقرة «ما قالته هذه للقارئ». يقول الصفّ أيّ إفشاء عارض كان الأكبر.',
   'Write about something your workplace has disclosed by accident in writing ( 100 to 140 words ). Say what the sentence was, what it revealed, who read it, and whether it mattered.':
     'اكتب عن شيء أفشاه مكان عملك عرضًا كتابةً ( ١٠٠ إلى ١٤٠ كلمة ). قل ما كانت الجملة، وما كشفته، ومَن قرأها، وهل كان لها أثر.',
   'Read your partner\'s text. Write on a slip: ★ what was revealed ✓ defining and non-defining punctuated correctly throughout? ? would the writer have said it out loud?':
@@ -81,7 +81,7 @@ PBE5.arabic({
   'Two pairs act out the test for the class – without the book.':
     'زوجان يمثّلان الاختبار أمام الصفّ – من دون الكتاب.',
   'Take five sentences from real documents at your work with any, all or every and a relative clause. Apply the test to each.':
-    'خُذ خمس جمل من وثائق حقيقية في عملك فيها *any* أو *all* أو *every* وجملة وصفية. طبّق الاختبار على كلّ واحدة.',
+    'خُذ خمس جمل من وثائق حقيقية في عملك فيها «any» أو «all» أو «every» وجملة وصفية. طبّق الاختبار على كلّ واحدة.',
   'Tell the class: It says . Without the clause it says , which is / is not what was meant, so the commas go / stay.':
     'قل للصفّ: تقول . وبلا الجملة تقول ، وهو / ليس ما قُصد، فالفاصلتان تُحذفان / تبقيان.',
   'Read the correction notice, and answer the questions.':
@@ -111,7 +111,7 @@ PBE5.arabic({
   'Swap books. Ask one question: has the writer marked anything as wrong that was right? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل علّم الكاتب شيئًا بأنه خطأ وهو صحيح؟ ضع ✓ أو ✗.',
   'Two or three students read a sentence they marked nothing wrong. The class says whether they would have corrected it an hour ago.':
-    'يقرأ طالبان أو ثلاثة جملة علّموها *لا خطأ فيها*. يقول الصفّ هل كان سيصحّحها قبل ساعة.',
+    'يقرأ طالبان أو ثلاثة جملة علّموها «لا خطأ فيها». يقول الصفّ هل كان سيصحّحها قبل ساعة.',
   'Write about a sentence at your work that nobody could understand ( 100 to 140 words ). Say what it said, who queried it, how quickly, and what it was supposed to say.':
     'اكتب عن جملة في عملك لم يستطع أحد أن يفهمها ( ١٠٠ إلى ١٤٠ كلمة ). قل ماذا قالت، ومَن استفسر عنها، وبأيّ سرعة، وما كان مقصودًا أن تقول.',
   'Read your partner\'s text. Write on a slip: ★ who queried it and how quickly ✓ object and subject relatives handled correctly? ? would a readable version of the same error have been queried at all?':
@@ -133,7 +133,7 @@ PBE5.arabic({
   'Swap books. Read your partner\'s new version aloud to them once. Can they say what it requires? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اقرأ نسخة زميلك الجديدة عليه مرّة واحدة بصوت مسموع. هل يستطيع أن يقول ما تُلزم به؟ ضع ✓ أو ✗.',
   'Two or three students read their what it has cost. The class says which company they would rather work for.':
-    'يقرأ طالبان أو ثلاثة فقرة *كم كلّف ذلك*. يقول الصفّ في أيّ شركة كان يفضّل أن يعمل.',
+    'يقرأ طالبان أو ثلاثة فقرة «كم كلّف ذلك». يقول الصفّ في أيّ شركة كان يفضّل أن يعمل.',
   'Write about a paragraph at your work that everybody has been applying as they heard it ( 100 to 140 words ). Say what it says, what everybody thinks it says, and what the difference has cost or saved.':
     'اكتب عن فقرة في عملك يطبّقها الجميع كما سمعوها ( ١٠٠ إلى ١٤٠ كلمة ). قل ماذا تقول، وما يظنّ الجميع أنها تقول، وكم كلّف الفرق أو وفّر.',
   'Read your partner\'s text. Write on a slip: ★ what everybody thinks it says ✓ one clause per sentence in their rewrite? ? has the difference cost or saved, and who applied it?':
@@ -167,7 +167,7 @@ PBE5.arabic({
   'I meant the one with the standing order.':
     'كنتُ أعني الذي عنده طلب دائم.',
   'Then that is two clauses and you gave me one. The customer who has not paid since September is four people. The customer with a standing order who has not paid since September is one.':
-    'فتلك جملتان وأنتَ أعطيتَني واحدة. *The customer who has not paid since September* أربعة أشخاص. و*the customer with a standing order who has not paid since September* شخص واحد.',
+    'فتلك جملتان وأنتَ أعطيتَني واحدة. «The customer who has not paid since September» أربعة أشخاص. و«the customer with a standing order who has not paid since September» شخص واحد.',
   'And I have had you telephone a man who owes us nothing.':
     'وأنا جعلتُك تهاتفين رجلًا لا يدين لنا بشيء.',
   'He was very pleasant about it. He thought we were chasing him for the September order he paid in cash and he has the receipt, which he read to me.':
@@ -177,11 +177,11 @@ PBE5.arabic({
   'How do I know when it is enough?':
     'وكيف أعرف أنها كافية؟',
   '⚠ Count what is left. Not does it sound clear — count. The customer who has not paid: four. The customer with a standing order who has not paid: one. ⚠ A defining clause is right when the count is one, and nothing else tells you.':
-    '⚠ عُدّ ما بقي. لا *هل تبدو واضحة* — عُدّ. *The customer who has not paid*: أربعة. *The customer with a standing order who has not paid*: واحد. ⚠ الجملة الـ defining صحيحة حين يكون العدد واحدًا، ولا شيء آخر يقول لك ذلك.',
+    '⚠ عُدّ ما بقي. لا «هل تبدو واضحة» — عُدّ. «The customer who has not paid»: أربعة. «The customer with a standing order who has not paid»: واحد. ⚠ الجملة الـ defining صحيحة حين يكون العدد واحدًا، ولا شيء آخر يقول لك ذلك.',
   'And if there is genuinely more than one?':
     'وإن كان هناك فعلًا أكثر من واحد؟',
   'Then say so and name them. Four customers have not paid since September: … ⚠ A plural you have hidden inside a singular is the thing that sent Hala to the wrong telephone number.':
-    'فقل ذلك وسمّهم. *Four customers have not paid since September: …* ⚠ والجمع الذي أخفيتَه داخل مفرد هو الذي أرسل هالة إلى رقم الهاتف الخطأ.',
+    'فقل ذلك وسمّهم. «Four customers have not paid since September: …» ⚠ والجمع الذي أخفيتَه داخل مفرد هو الذي أرسل هالة إلى رقم الهاتف الخطأ.',
   'You said to find the invoice that was wrong. There are three.':
     'قلتَ لي أن أجد the invoice that was wrong. وهي ثلاث.',
   'Three?':
@@ -191,13 +191,13 @@ PBE5.arabic({
   'I meant the one priced from the old list.':
     'كنتُ أعني التي سُعّرت من القائمة القديمة.',
   'Then that is a clause and you gave me an adjective. ⚠ The wrong invoice is three. The invoice which was priced from the list of the 5th is one.':
-    'فتلك جملة وأنتَ أعطيتَني صفة. ⚠ *The wrong invoice* ثلاث. و*the invoice which was priced from the list of the 5th* واحدة.',
+    'فتلك جملة وأنتَ أعطيتَني صفة. ⚠ «The wrong invoice» ثلاث. و«the invoice which was priced from the list of the 5th» واحدة.',
   'And I have had you pull the one that is 8,000 under, which nobody has complained about.':
     'وأنا جعلتُك تخرجين التي هي أدنى بـ٨٬٠٠٠، ولم يشتكِ منها أحد.',
   'And which I have now queried with the school, who did not know.':
     'والتي استفسرتُ عنها الآن من المدرسة، وهي لم تكن تعرف.',
   'Your letter says our supplier who is in Aleppo has raised her price.':
-    'تقول رسالتك *our supplier who is in Aleppo has raised her price*.',
+    'تقول رسالتك «our supplier who is in Aleppo has raised her price».',
   'She has.':
     'رفعته.',
   'How many suppliers do we have?':
@@ -209,11 +209,11 @@ PBE5.arabic({
   'One. Ms Shamsi.':
     'واحد. السيدة شمسي.',
   'Then with no commas you are telling the bank we have several suppliers and distinguishing one of them by being in Aleppo — which is true and is not what you meant. You meant Ms Shamsi, who is in Aleppo, has raised her price: the name identifies her and the clause adds something.':
-    'فأنتَ بلا فاصلتين تقول للبنك إنّ عندنا موردين عدّة وتميّز واحدًا منهم بكونه في حلب — وذلك صحيح وليس ما قصدتَه. قصدتَ *Ms Shamsi, who is in Aleppo, has raised her price*: الاسم يحدّدها والجملة تضيف شيئًا.',
+    'فأنتَ بلا فاصلتين تقول للبنك إنّ عندنا موردين عدّة وتميّز واحدًا منهم بكونه في حلب — وذلك صحيح وليس ما قصدتَه. قصدتَ «Ms Shamsi, who is in Aleppo, has raised her price»: الاسم يحدّدها والجملة تضيف شيئًا.',
   'So the commas mean the clause is not doing the identifying.':
     'فالفاصلتان تعنيان أنّ الجملة لا تؤدّي التحديد.',
   'The commas mean you have already identified her and are adding a fact. ⚠ And it matters here because the bank is reading this to understand our supply, and our supplier who is in Aleppo invites them to ask about the other eight.':
-    'الفاصلتان تعنيان أنك حدّدتها أصلًا وأنك تضيف واقعة. ⚠ ويهمّ ذلك هنا لأنّ البنك يقرأ هذه ليفهم توريدنا، و*our supplier who is in Aleppo* تدعوه أن يسأل عن الثمانية الآخرين.',
+    'الفاصلتان تعنيان أنك حدّدتها أصلًا وأنك تضيف واقعة. ⚠ ويهمّ ذلك هنا لأنّ البنك يقرأ هذه ليفهم توريدنا، و«our supplier who is in Aleppo» تدعوه أن يسأل عن الثمانية الآخرين.',
   'Which I would rather they did not, because two of them are the same company under two names.':
     'وأنا أفضّل ألّا يفعلوا، لأنّ اثنين منهم الشركة نفسها باسمين.',
   '⚠ Which you should tell them before they find it, but not in this letter and not by accident in a relative clause.':
@@ -223,7 +223,7 @@ PBE5.arabic({
   'Name first, then add, and the adding goes between commas. ⚠ And if you cannot name, you are defining and not adding, and the commas have to come out.':
     'الاسم أولًا، ثم الإضافة، والإضافة تذهب بين فاصلتين. ⚠ وإن لم تستطع أن تسمّي، فأنتَ تحدّد لا تضيف، ويجب أن تُحذف الفاصلتان.',
   'Your letter says our site which opened in June has traded every week.':
-    'تقول رسالتك *our site which opened in June has traded every week*.',
+    'تقول رسالتك «our site which opened in June has traded every week».',
   'It has.':
     'عمل كذلك.',
   'How many sites do we have?':
@@ -235,13 +235,13 @@ PBE5.arabic({
   'One.':
     'واحد.',
   'Then with no commas you are distinguishing one site from others by its opening date, which tells the bank to ask how many we have and when each opened. You meant our second site, which opened on 8 June, has traded every week.':
-    'فأنتَ بلا فاصلتين تميّز موقعًا من غيره بتاريخ افتتاحه، وذلك يقول للبنك أن يسأل كم عندنا ومتى افتُتح كلّ واحد. قصدتَ *our second site, which opened on 8 June, has traded every week*.',
+    'فأنتَ بلا فاصلتين تميّز موقعًا من غيره بتاريخ افتتاحه، وذلك يقول للبنك أن يسأل كم عندنا ومتى افتُتح كلّ واحد. قصدتَ «our second site, which opened on 8 June, has traded every week».',
   'So the commas say I have already identified it.':
     'فالفاصلتان تقولان إنني حدّدتُه أصلًا.',
   '⚠ Name first — or second site, which is a name of a kind — then add.':
-    '⚠ الاسم أولًا — أو *second site*، وهي اسم من نوع ما — ثم الإضافة.',
+    '⚠ الاسم أولًا — أو «second site»، وهي اسم من نوع ما — ثم الإضافة.',
   'The policy covers stock held at the premises where the business is carried on.':
-    'تغطّي البوليصة *stock held at the premises where the business is carried on*.',
+    'تغطّي البوليصة «stock held at the premises where the business is carried on».',
   'Which is both sites.':
     'وهما الموقعان.',
   'Both sites and nothing else. Where are the five hundred cartons?':
@@ -253,7 +253,7 @@ PBE5.arabic({
   '…The yard is at the Mezzeh premises. The container is in the yard.':
     '…الساحة في موقع المزّة. والحاوية في الساحة.',
   'Then it probably is, and probably is doing a great deal of work in a sentence about five hundred cartons. ⚠ The clause makes the cover follow the place and not the goods, so every question about whether something is covered becomes a question about what counts as the premises.':
-    'فهي كذلك على الأرجح، و*على الأرجح* تؤدّي عملًا كبيرًا في جملة عن خمسمئة كرتونة. ⚠ الجملة تجعل التغطية تتبع المكان لا البضاعة، فيصبح كلّ سؤال عن كون شيء مشمولًا سؤالًا عمّا يُحتسَب premises.',
+    'فهي كذلك على الأرجح، و«على الأرجح» تؤدّي عملًا كبيرًا في جملة عن خمسمئة كرتونة. ⚠ الجملة تجعل التغطية تتبع المكان لا البضاعة، فيصبح كلّ سؤال عن كون شيء مشمولًا سؤالًا عمّا يُحتسَب premises.',
   'And the wrap at Ms Shamsi\'s, waiting for us?':
     'والغلاف عند السيدة شمسي، في انتظارنا؟',
   'Not covered by this clause at all, because it is not at a premises where our business is carried on. ⚠ Which nobody has ever thought about, because the clause reads as though it is about our stock and it is actually about our addresses.':
@@ -261,13 +261,13 @@ PBE5.arabic({
   'Is there a wording that follows the goods?':
     'وهل هناك صياغة تتبع البضاعة؟',
   'Stock whose property in the goods has passed to the insured, which follows the ownership wherever it is. ⚠ Whose relates by possession and where relates by place, and for stock in transit the difference is the whole policy.':
-    '*Stock whose property in the goods has passed to the insured*، وهي تتبع الملكية حيث كانت. ⚠ فـ whose تربط بالملكية و where تربط بالمكان، وللمخزون في الترانزيت الفرق هو البوليصة كلّها.',
+    '«Stock whose property in the goods has passed to the insured»، وهي تتبع الملكية حيث كانت. ⚠ فـ whose تربط بالملكية و where تربط بالمكان، وللمخزون في الترانزيت الفرق هو البوليصة كلّها.',
   'I would never have read that clause twice.':
     'لم أكن سأقرأ تلك الجملة مرّتين أبدًا.',
   'Nobody does. ⚠ The relative pronoun is the smallest word in an insurance clause and it decides what the clause is about.':
     'لا أحد يفعل. ⚠ الضمير الوصفي أصغر كلمة في جملة تأمين وهو الذي يقرّر عمّا الجملة.',
   'The guarantee covers goods whose fault appears within twelve months.':
-    'يغطّي الضمان *goods whose fault appears within twelve months*.',
+    'يغطّي الضمان «goods whose fault appears within twelve months».',
   'Which is a twelve-month guarantee.':
     'وهو ضمان اثني عشر شهرًا.',
   'Twelve months from when?':
@@ -279,23 +279,23 @@ PBE5.arabic({
   '…So a fault appearing in month eleven on something we sold in 2021 is covered.':
     '…فخلل يظهر في الشهر الحادي عشر على شيء بعناه في ٢٠٢١ مشمول.',
   'By that clause, yes. And the intended wording is goods whose date of sale is within twelve months.':
-    'بتلك الجملة، نعم. والصياغة المقصودة *goods whose date of sale is within twelve months*.',
+    'بتلك الجملة، نعم. والصياغة المقصودة «goods whose date of sale is within twelve months».',
   'Has anybody claimed on it?':
     'وهل طالب أحد بها؟',
   'Once, and we honoured it and thought we were being generous. ⚠ We were complying.':
     'مرّة واحدة، وأوفينا بها وظنّنا أننا كرماء. ⚠ كنّا ممتثلين.',
   'Your terms say we will replace any item, which is faulty on delivery.':
-    'تقول شروطك *we will replace any item, which is faulty on delivery.*',
+    'تقول شروطك «we will replace any item, which is faulty on delivery.»',
   'That is the guarantee.':
     'ذلك هو الضمان.',
   'Read it without the clause.':
     'اقرأها بلا الجملة.',
   'We will replace any item.':
-    '*We will replace any item.*',
+    '«We will replace any item.»',
   'That is what it promises. The clause is between commas, so it is an addition — and what it adds is the information that every item is faulty on delivery, which is an odd thing to tell a customer.':
     'ذلك ما تَعِد به. والجملة بين فاصلتين، فهي إضافة — والذي تضيفه معلومة أنّ كلّ قطعة معطوبة عند التسليم، وهو شيء غريب أن يُقال لعميل.',
   'It is meant to be any item which is faulty on delivery. Only the faulty ones.':
-    'المقصود *any item which is faulty on delivery*. المعطوبة فقط.',
+    'المقصود «any item which is faulty on delivery». المعطوبة فقط.',
   'Then the comma comes out, and the test is four seconds. ⚠ Read the sentence without the clause. If it still says what you meant, the clause is an addition and keeps its commas. If it now says something larger than you meant, the clause was defining and the commas come out.':
     'فتُحذف الفاصلة، والاختبار أربع ثوانٍ. ⚠ اقرأ الجملة بلا الجملة الوصفية. فإن كانت ما زالت تقول ما قصدتَه، فالجملة إضافة وتُبقي فاصلتيها. وإن صارت تقول شيئًا أكبر مما قصدتَه، فالجملة كانت defining وتُحذف الفاصلتان.',
   'How long has that been in our terms?':
@@ -311,9 +311,9 @@ PBE5.arabic({
   '⚠ I know. And in six years of this work I have found that comma eleven times, and ten of them were in documents written by careful people.':
     '⚠ أعرف. وفي ستّ سنوات من هذا العمل وجدتُ تلك الفاصلة إحدى عشرة مرّة، وعشر منها في وثائق كتبها أناس دقيقون.',
   'It says our second site, which opened in June, trades six days a week.':
-    'تقول *our second site, which opened in June, trades six days a week*.',
+    'تقول «our second site, which opened in June, trades six days a week».',
   'Our second site trades six days a week.':
-    '*Our second site trades six days a week.*',
+    '«Our second site trades six days a week.»',
   '⚠ Does it still say what you meant?':
     '⚠ وهل ما زالت تقول ما قصدتَه؟',
   'Yes. Exactly.':
@@ -325,23 +325,23 @@ PBE5.arabic({
   '⚠ Everybody is, by now. The test has two answers and we have only been using one of them.':
     '⚠ كلّ أحد سيفعل، في هذه المرحلة. الاختبار له جوابان ونحن لا نستخدم إلّا أحدهما.',
   'Your letter says the invoice was raised from the order carries no quotation reference.':
-    'تقول رسالتك *the invoice was raised from the order carries no quotation reference*.',
+    'تقول رسالتك «the invoice was raised from the order carries no quotation reference».',
   'It does carry no reference. That is the point of the sentence.':
     'هي فعلًا لا تحمل مرجعًا. ذلك هو مقصود الجملة.',
   'Read it to me again slowly.':
     'اقرأها لي مرّة أخرى ببطء.',
   'The invoice was raised from the order carries no quotation reference. …There are two verbs.':
-    '*The invoice was raised from the order carries no quotation reference.* …هناك فعلان.',
+    '«The invoice was raised from the order carries no quotation reference.» …هناك فعلان.',
   'Two verbs and one subject, so one of them has nothing to belong to. You meant the invoice which was raised from the order.':
-    'فعلان وفاعل واحد، فأحدهما لا شيء ينتسب إليه. قصدتَ *the invoice which was raised from the order*.',
+    'فعلان وفاعل واحد، فأحدهما لا شيء ينتسب إليه. قصدتَ «the invoice which was raised from the order».',
   'And I left out which because I have been leaving out which all week.':
-    'وأسقطتُ *which* لأنني أسقط *which* كلّ هذا الأسبوع.',
+    'وأسقطتُ «which» لأنني أسقط «which» كلّ هذا الأسبوع.',
   'You have been leaving it out where it is the object: the invoice I queried, the order he placed, the price we quoted. ⚠ Those are fine and they are how people speak. But where the relative is the subject of its own clause, it cannot go — the invoice which was raised has nothing left to do the raising if you remove it.':
-    'أنتَ تسقطها حيث تكون المفعول: *the invoice I queried*، و*the order he placed*، و*the price we quoted*. ⚠ تلك سليمة وهي كيف يتكلّم الناس. لكن حيث يكون الضمير الوصفي فاعل جملته، لا يمكن أن يُحذف — فـ *the invoice which was raised* لا يبقى فيها ما يؤدّي الإصدار إن حذفتَه.',
+    'أنتَ تسقطها حيث تكون المفعول: «the invoice I queried»، و«the order he placed»، و«the price we quoted». ⚠ تلك سليمة وهي كيف يتكلّم الناس. لكن حيث يكون الضمير الوصفي فاعل جملته، لا يمكن أن يُحذف — فـ «the invoice which was raised» لا يبقى فيها ما يؤدّي الإصدار إن حذفتَه.',
   'How do I tell which is which?':
     'وكيف أميّز أيّهما أيّ؟',
   '⚠ Look at what comes straight after the noun. If it is a person or a thing — the invoice I queried — the relative was the object and can go. If it is a verb — the invoice was raised — the relative was the subject and must stay.':
-    '⚠ انظر إلى ما يأتي بعد الاسم مباشرة. فإن كان شخصًا أو شيئًا — *the invoice I queried* — فالضمير الوصفي كان المفعول ويمكن حذفه. وإن كان فعلًا — *the invoice was raised* — فالضمير كان الفاعل ويجب إبقاؤه.',
+    '⚠ انظر إلى ما يأتي بعد الاسم مباشرة. فإن كان شخصًا أو شيئًا — «the invoice I queried» — فالضمير الوصفي كان المفعول ويمكن حذفه. وإن كان فعلًا — «the invoice was raised» — فالضمير كان الفاعل ويجب إبقاؤه.',
   'And the sentence as it stands?':
     'والجملة كما هي؟',
   'Means nothing at all, which is the good news. ⚠ A missing subject relative produces a sentence nobody can read, so somebody queries it. A missing comma produces a sentence everybody can read that means the opposite — and that is the one that costs money.':
@@ -357,19 +357,19 @@ PBE5.arabic({
   'The man I telephoned has the receipt.':
     'The man I telephoned has the receipt.',
   'Also correct. ⚠ Three out of three and I was about to put which into all of them.':
-    'صحيحة أيضًا. ⚠ ثلاث من ثلاث وكنتُ على وشك أن أضع *which* في كلّها.',
+    'صحيحة أيضًا. ⚠ ثلاث من ثلاث وكنتُ على وشك أن أضع «which» في كلّها.',
   'Why?':
     'لماذا؟',
   'Because we have spent an hour finding things wrong, ⚠ and the test for a sentence is not whether I have just learned a rule about it.':
     'لأننا أمضينا ساعة نجد أخطاء، ⚠ واختبار الجملة ليس هل تعلّمتُ قاعدة عنها قبل قليل.',
   'A customer who holds a written quotation, which is valid for fourteen days, is entitled to the quoted price on any order, which is placed within that period.':
-    '*A customer who holds a written quotation, which is valid for fourteen days, is entitled to the quoted price on any order, which is placed within that period.*',
+    '«A customer who holds a written quotation, which is valid for fourteen days, is entitled to the quoted price on any order, which is placed within that period.»',
   'So a written quotation lasts fourteen days and the price holds.':
     'فعرض السعر الكتابي يدوم أربعة عشر يومًا والسعر يثبت.',
   'Read it again.':
     'اقرأها مرّة أخرى.',
   '…any order, which is placed within that period. With commas. So it is every order, and the clause is just telling me they are all placed within the period, which is not true.':
-    '…*any order, which is placed within that period.* بفاصلتين. فهي كلّ طلب، والجملة تخبرني فقط أنها كلّها تُقدَّم داخل المدّة، وذلك غير صحيح.',
+    '…«any order, which is placed within that period.» بفاصلتين. فهي كلّ طلب، والجملة تخبرني فقط أنها كلّها تُقدَّم داخل المدّة، وذلك غير صحيح.',
   'Which means the paragraph entitles a customer with a quotation to the quoted price on any order at all, for ever.':
     'ومعنى ذلك أنّ الفقرة تستحقّ للعميل الذي عنده عرض سعر السعرَ المعروض على أيّ طلب على الإطلاق، إلى الأبد.',
   'And the first time I heard it, it sounded completely normal.':
@@ -383,29 +383,29 @@ PBE5.arabic({
   'And this paragraph as four sentences?':
     'وهذه الفقرة بأربع جمل؟',
   'A written quotation is valid for fourteen days from its date. A customer who holds a written quotation is entitled to the quoted price. The entitlement applies to any order which is placed within the fourteen days. Thereafter the current list applies.':
-    '*A written quotation is valid for fourteen days from its date. A customer who holds a written quotation is entitled to the quoted price. The entitlement applies to any order which is placed within the fourteen days. Thereafter the current list applies.*',
+    '«A written quotation is valid for fourteen days from its date. A customer who holds a written quotation is entitled to the quoted price. The entitlement applies to any order which is placed within the fourteen days. Thereafter the current list applies.»',
   'That I could act on at the counter without reading it twice. ⚠ And I have just realised I have been honouring quotations for about a month on the basis of the version I heard.':
     'تلك أستطيع أن أتصرّف بناءً عليها على الكاونتر دون أن أقرأها مرّتين. ⚠ وأدركتُ الآن أنني أوفي بعروض أسعار منذ نحو شهر على أساس النسخة التي سمعتُها.',
   'Goods which are returned in their original packaging, which must be unopened, will be credited in full on any return, which is made within fourteen days.':
-    '*Goods which are returned in their original packaging, which must be unopened, will be credited in full on any return, which is made within fourteen days.*',
+    '«Goods which are returned in their original packaging, which must be unopened, will be credited in full on any return, which is made within fourteen days.»',
   'So returns in the original packaging get a full credit within fourteen days.':
     'فالمرتجعات في عبوتها الأصلية تُقيَّد دائنًا بالكامل داخل أربعة عشر يومًا.',
   '…on any return, which is made within fourteen days. With commas. So it is any return, and the clause merely remarks that they are all within fourteen days.':
-    '…*on any return, which is made within fourteen days.* بفاصلتين. فهي أيّ مرتجع، والجملة تلاحظ فقط أنها كلّها داخل أربعة عشر يومًا.',
+    '…«on any return, which is made within fourteen days.» بفاصلتين. فهي أيّ مرتجع، والجملة تلاحظ فقط أنها كلّها داخل أربعة عشر يومًا.',
   'And which must be unopened is also between commas.':
-    'و*which must be unopened* بين فاصلتين أيضًا.',
+    'و«which must be unopened» بين فاصلتين أيضًا.',
   'So the packaging condition is a remark too. ⚠ As written, every return is credited in full, whatever its packaging and whenever it is made.':
     'فشرط العبوة ملاحظة أيضًا. ⚠ وكما هي مكتوبة، كلّ مرتجع يُقيَّد دائنًا بالكامل، بأيّ عبوة ومتى قُدّم.',
   'How would you write it?':
     'وكيف ستكتبها؟',
   'Three sentences. Goods must be returned in their original, unopened packaging. A return must be made within fourteen days. A return which meets both conditions is credited in full.':
-    'ثلاث جمل. *Goods must be returned in their original, unopened packaging. A return must be made within fourteen days. A return which meets both conditions is credited in full.*',
+    'ثلاث جمل. «Goods must be returned in their original, unopened packaging. A return must be made within fourteen days. A return which meets both conditions is credited in full.»',
   'If I am applying clause 12 at the counter, I need the page before it.':
     'إن كنتُ أطبّق البند ١٢ على الكاونتر، فأنا أحتاج الصفحة التي قبله.',
   'The definitions?':
     'التعريفات؟',
   'Every condition is made of the words on that page. Clause 12 says a valid written quotation, and whether somebody has one is decided on page one and not in clause 12.':
-    'كلّ شرط مصنوع من الكلمات في تلك الصفحة. البند ١٢ يقول *a valid written quotation*، وهل عند أحد واحد يُحسم في الصفحة الأولى لا في البند ١٢.',
+    'كلّ شرط مصنوع من الكلمات في تلك الصفحة. البند ١٢ يقول «a valid written quotation»، وهل عند أحد واحد يُحسم في الصفحة الأولى لا في البند ١٢.',
   'Page one says "written quotation" means a quotation issued on our quotation form and signed by an authorised signatory.':
     'تقول الصفحة الأولى إنّ "written quotation" تعني عرض سعر صادرًا على نموذج عروضنا وموقَّعًا من مفوَّض بالتوقيع.',
   'Then about half of what I have been treating as quotations are not. I write prices on the back of an order pad about four times a week.':
@@ -423,7 +423,7 @@ PBE5.arabic({
   '⚠ And the definition has been wrong since 2019, and the only reason nobody has found it is that nobody at a counter has ever read page one.':
     '⚠ والتعريف خطأ منذ ٢٠١٩، والسبب الوحيد لعدم اكتشافه أنّ أحدًا على كاونتر لم يقرأ الصفحة الأولى قطّ.',
   'Page one says "working day" means a day on which our office is open.':
-    'تقول الصفحة الأولى *"working day" means a day on which our office is open*.',
+    'تقول الصفحة الأولى «"working day" means a day on which our office is open».',
   'The office is shut on Saturdays. I work the counter.':
     'والمكتب مغلق أيام السبت. وأنا أعمل على الكاونتر.',
   'So a Saturday is not a working day.':
@@ -433,7 +433,7 @@ PBE5.arabic({
   'And the other way?':
     'والاتّجاه الآخر؟',
   'Anything we promise within two working days takes longer than the customer expects, and I have been counting Saturdays as working days at the counter for four years because I am there.':
-    'كلّ ما نَعِد به *داخل يومَي عمل* يستغرق أطول مما يتوقّع العميل، وأنا أحسب أيّام السبت أيّام عمل على الكاونتر منذ أربع سنوات لأنني هناك.',
+    'كلّ ما نَعِد به «داخل يومَي عمل» يستغرق أطول مما يتوقّع العميل، وأنا أحسب أيّام السبت أيّام عمل على الكاونتر منذ أربع سنوات لأنني هناك.',
   '⚠ So the same definition is in our favour on claims and against us on promises, and nobody has ever applied it either way.':
     '⚠ فالتعريف نفسه في مصلحتنا في المطالبات وضدّنا في الوعود، ولم يطبّقه أحد قطّ في أيّ اتّجاه.',
   'Then about half of what I treat as quotations are not. I write prices on the back of an order pad about four times a week, and when somebody brings one back I honour it.':

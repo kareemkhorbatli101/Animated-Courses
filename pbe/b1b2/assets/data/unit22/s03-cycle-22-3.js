@@ -112,7 +112,7 @@ PBE6.page('u22-s03', {
         }]
   },
   worked: {
-    task: 'Write *the figures and how I know each one* for your own work.',
+    task: 'Write “the figures and how I know each one” for your own work.',
     weak: 'The gate-sheet change saved the company a great deal of money.',
     change: ['Mark the edge of what you know. <i>A great deal of money</i> invites '
           + 'one question, and <i>I do not know</i> undoes the sentence and the '

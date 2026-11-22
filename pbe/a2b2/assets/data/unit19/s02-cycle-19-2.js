@@ -293,16 +293,16 @@ PBE4.page('u19-s02', {
             q: 'Listen again. What does she offer in return?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *return* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>return</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Ayoub say afterwards about the way she asked?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Ayoub* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Ayoub</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -528,21 +528,22 @@ PBE4.page('u19-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *separate* in it.'
+              + 'above for the line with <i>separate</i> in it.'
           },
       {
             q: 'What does the writer say she is not asking for?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *writer* in it.'
+              + 'above for the line with <i>writer</i> in it.'
           },
       {
             q: 'Why is there a deadline, and what is the reason given for it?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *deadline* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>deadline</i> '
+              + 'in it.'
           }],
       ideas: ['Dear Ms Shamsi,',
       'Quote, question, stop'],

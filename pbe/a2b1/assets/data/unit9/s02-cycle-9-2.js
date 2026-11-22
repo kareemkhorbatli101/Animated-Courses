@@ -272,34 +272,34 @@ PBE3.page('u9-s02', {
       instruction: 'Give the rule, then the reason.',
       questions: [{
             q: '1 sign the book',
-            model: 'Everybody must sign the book, because the fire list is made from it.',
+            model: 'Everybody must sign the book, because the fire list is made from it',
             minWords: 4,
             rows: 2
           },
       {
             q: '2 wear the badge',
-            model: 'You must wear the badge, because visitors need to know who works here.',
+            model: 'You must wear the badge, because visitors need to know who works here',
             minWords: 4,
             rows: 2
           },
       {
             q: '3 write it on the stock card',
             model: 'You must write it on the stock card the same hour, because '
-              + '"about a hundred" turned out to be nineteen.',
+              + '"about a hundred" turned out to be nineteen',
             minWords: 6,
             rows: 3
           },
       {
             q: '4 read the order back',
             model: 'You must read the order back, because the quantity is what goes '
-              + 'wrong, not the name.',
+              + 'wrong, not the name',
             minWords: 5,
             rows: 2
           },
       {
             q: '5 keep the invoice for five years',
             model: 'We have to keep the invoice for five years, because the tax '
-              + 'office can ask for any of them.',
+              + 'office can ask for any of them',
             minWords: 6,
             rows: 3
           }],
@@ -317,16 +317,16 @@ PBE3.page('u9-s02', {
             q: 'Listen again. Why must everybody sign in?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *everybody* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>everybody</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What happened in 2019?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *happened* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>happened</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -549,21 +549,23 @@ PBE3.page('u9-s02', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *protects* in it.'
+              + 'in the text above for the line with <i>protects</i> in it.'
           },
       {
             q: 'Why is rule 4 not about the law?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *rule* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>rule</i> in '
+              + 'it.'
           },
       {
             q: 'Why are there only five rules?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *rules* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>rules</i> in '
+              + 'it.'
           }],
       ideas: ['Grammar – must for company rules'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

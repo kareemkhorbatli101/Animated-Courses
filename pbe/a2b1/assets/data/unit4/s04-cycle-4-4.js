@@ -305,15 +305,15 @@ PBE3.page('u4-s04', {
             minWords: 6,
             rows: 2,
             hint: 'Digits. Say them in groups, the way the book reads them back. '
-              + 'Look in the dialogue above for the line with *reference* in it. '
-              + 'Play it again with the subtitles on.'
+              + 'Look in the dialogue above for the line with <i>reference</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'When does Mr Ayoub sign?',
             minWords: 6,
             rows: 2,
             hint: 'A time or a day. Look in the dialogue above for the line with '
-              + '*Ayoub* in it. Play it again with the subtitles on.'
+              + '<i>Ayoub</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -531,21 +531,21 @@ PBE3.page('u4-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A time or a day. Look in the text above for the line with '
-              + '*reference* in it.'
+              + '<i>reference</i> in it.'
           },
       {
             q: 'What happens if an item is not in stock?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *happens* in it.'
+              + 'above for the line with <i>happens</i> in it.'
           },
       {
             q: 'What does the last line say is the whole system?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *system* in it.'
+              + 'above for the line with <i>system</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

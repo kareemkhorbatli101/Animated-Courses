@@ -299,16 +299,16 @@ PBE3.page('u5-s05', {
             q: 'Listen again. Whose invoice is it?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *invoice* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>invoice</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Whose mistake was it, in the end?',
             minWords: 6,
             rows: 2,
             hint: 'Whose it is - a name with an apostrophe s. Look in the dialogue '
-              + 'above for the line with *mistake* in it. Play it again with the '
-              + 'subtitles on.'
+              + 'above for the line with <i>mistake</i> in it. Play it again with '
+              + 'the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -521,14 +521,15 @@ PBE3.page('u5-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *telling* in it.'
+              + 'above for the line with <i>telling</i> in it.'
           },
       {
             q: 'Why is the paper not the test?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *paper* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>paper</i> in '
+              + 'it.'
           },
       {
             q: 'What do you do if you are not sure?',

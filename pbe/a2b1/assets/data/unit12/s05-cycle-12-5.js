@@ -272,34 +272,34 @@ PBE3.page('u12-s05', {
       instruction: 'Offer each one, and press once.',
       questions: [{
             q: '1 tea',
-            model: 'Would you like some tea? … Are you sure? It\'s already made.',
+            model: 'Would you like some tea? … Are you sure? It\'s already made',
             minWords: 3,
             rows: 2
           },
       {
             q: '2 a chair',
-            model: 'Would you like to sit down? … Please — you\'ve been standing since nine.',
+            model: 'Would you like to sit down? … Please — you\'ve been standing since nine',
             minWords: 4,
             rows: 2
           },
       {
             q: '3 to telephone somebody',
             model: 'Would you like me to telephone him? … It\'s no trouble; he can '
-              + 'be back in twenty minutes.',
+              + 'be back in twenty minutes',
             minWords: 5,
             rows: 2
           },
       {
             q: '4 a quieter room',
             model: 'Would you like to wait in the small room? … It\'s quieter and '
-              + 'the window opens.',
+              + 'the window opens',
             minWords: 5,
             rows: 2
           },
       {
             q: '5 to take a message instead of waiting',
             model: 'Would you like me to take a message instead? … Then you don\'t '
-              + 'have to wait at all.',
+              + 'have to wait at all',
             minWords: 5,
             rows: 2
           }],
@@ -317,16 +317,16 @@ PBE3.page('u12-s05', {
             q: 'Listen again. How many times does Nour offer the tea?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does she offer that is not food or drink?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *offer* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>offer</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -545,21 +545,21 @@ PBE3.page('u12-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *invitation* in it.'
+              + 'above for the line with <i>invitation</i> in it.'
           },
       {
             q: 'What is the one thing people are asked to do, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *people* in it.'
+              + 'line with <i>people</i> in it.'
           },
       {
             q: 'How does it stop the gathering turning into work?',
             minWords: 6,
             rows: 2,
             hint: 'A way of doing it, not a yes or a no. Look in the text above for '
-              + 'the line with *gathering* in it.'
+              + 'the line with <i>gathering</i> in it.'
           }],
       ideas: ['Grammar – offering'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

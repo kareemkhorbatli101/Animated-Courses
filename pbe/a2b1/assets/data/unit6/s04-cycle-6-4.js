@@ -293,16 +293,16 @@ PBE3.page('u6-s04', {
             q: 'Listen again. What does Nour suggest first?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What do they agree in the end?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *agree* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>agree</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -522,22 +522,23 @@ PBE3.page('u6-s04', {
             q: 'Why is Nour writing before the customer asks?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           },
       {
             q: 'What exactly arrives on Tuesday, and when?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Tuesday* in it.'
+              + 'above for the line with <i>Tuesday</i> in it.'
           },
       {
             q: 'Who pays the extra 4,000, and why does Nour say so?',
             minWords: 6,
             rows: 2,
             hint: 'A person: their name, or their job if the line gives no name. '
-              + 'Look in the text above for the line with *Nour* in it.'
+              + 'Look in the text above for the line with <i>Nour</i> in it.'
           }],
       ideas: ['Dear Mr Tarabishi,',
       'Grammar – making and answering suggestions'],

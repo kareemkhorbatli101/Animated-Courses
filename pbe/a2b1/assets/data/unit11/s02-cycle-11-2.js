@@ -309,16 +309,16 @@ PBE3.page('u11-s02', {
             q: 'Listen again. How many nights, and which?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *nights* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>nights</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What two things does Nour ask at the end?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -540,21 +540,22 @@ PBE3.page('u11-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *included* in it.'
+              + 'above for the line with <i>included</i> in it.'
           },
       {
             q: 'Why does Nour want the invoice on paper at check-out?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           },
       {
             q: 'What does she ask the hotel to do if their record is different?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *different* in it.'
+              + 'line with <i>different</i> in it.'
           }],
       ideas: ['Dear colleagues,',
       'Nour Mansour, extension 212',

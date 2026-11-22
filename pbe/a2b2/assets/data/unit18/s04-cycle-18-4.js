@@ -286,16 +286,16 @@ PBE4.page('u18-s04', {
             q: 'Listen again. What is the book better at?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *better* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>better</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Abu Yasser say about the question itself?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Yasser* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Yasser</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -516,21 +516,21 @@ PBE4.page('u18-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *things* in it.'
+              + 'above for the line with <i>things</i> in it.'
           },
       {
             q: 'What figure is given for the cost of the book, and over what period?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *figure* in it.'
+              + 'above for the line with <i>figure</i> in it.'
           },
       {
             q: 'What two things does the note fix for the future?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *things* in it.'
+              + 'above for the line with <i>things</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

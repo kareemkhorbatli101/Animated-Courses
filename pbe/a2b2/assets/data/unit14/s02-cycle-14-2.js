@@ -270,22 +270,23 @@ PBE4.page('u14-s02', {
               + 'fortnight B a price rise C a late payment',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nadia* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nadia</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'Listen again. What does she say will happen in the second week after Eid?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *happen* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>happen</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Ayoub promise to do?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *Ayoub* in it. Play it again with the subtitles on.'
+              + 'line with <i>Ayoub</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -511,14 +512,15 @@ PBE4.page('u14-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *recommend* in it.'
+              + 'above for the line with <i>recommend</i> in it.'
           },
       {
             q: 'Why does the last paragraph exist at all?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *paragraph* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>paragraph</i> '
+              + 'in it.'
           }],
       ideas: ['Grammar – three jobs for will'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

@@ -291,16 +291,16 @@ PBE4.page('u13-s02', {
             q: 'Listen again. What has the second applicant never done?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *applicant* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>applicant</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour say about her own first week?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -515,21 +515,21 @@ PBE4.page('u13-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *never* in it.'
+              + 'above for the line with <i>never</i> in it.'
           },
       {
             q: 'What does she put immediately after the never sentence?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *immediately* in it.'
+              + 'above for the line with <i>immediately</i> in it.'
           },
       {
             q: 'Which sentence is the strongest, and why is it the shortest?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *strongest* in it.'
+              + 'in the text above for the line with <i>strongest</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

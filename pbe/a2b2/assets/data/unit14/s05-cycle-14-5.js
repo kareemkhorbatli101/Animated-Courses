@@ -287,16 +287,16 @@ PBE4.page('u14-s05', {
             q: 'Listen again. By how much did sales rise in March?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *March* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>March</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Nadia say about the February figure?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nadia* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nadia</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -512,14 +512,15 @@ PBE4.page('u14-s05', {
             q: 'Find the three sentences that describe the whole quarter.',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *describe* in it.'
+            hint: 'Look in the text above for the line with <i>describe</i> in it.'
           },
       {
             q: 'Why does the complaints paragraph mention the opening days?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *complaints* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with '
+              + '<i>complaints</i> in it.'
           },
       {
             q: 'What number would make the writer worried, and what has she said '
@@ -527,7 +528,7 @@ PBE4.page('u14-s05', {
             minWords: 6,
             rows: 2,
             hint: 'Digits. Say them in groups, the way the book reads them back. '
-              + 'Look in the text above for the line with *worried* in it.'
+              + 'Look in the text above for the line with <i>worried</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

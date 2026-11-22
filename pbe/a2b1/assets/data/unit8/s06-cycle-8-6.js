@@ -320,8 +320,8 @@ PBE3.page('u8-s06', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -540,21 +540,23 @@ PBE3.page('u8-s06', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           },
       {
             q: 'Why does she need a decision by Sunday?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Sunday* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Sunday</i> in '
+              + 'it.'
           },
       {
             q: 'Why does she write the last paragraph?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *paragraph* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>paragraph</i> '
+              + 'in it.'
           }],
       ideas: ['Grammar – reacting to news'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

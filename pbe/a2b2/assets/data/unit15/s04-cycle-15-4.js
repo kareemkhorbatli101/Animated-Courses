@@ -290,16 +290,16 @@ PBE4.page('u15-s04', {
             q: 'Listen again. What three things were done, and on what days?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *things* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>things</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Why does Mr Ayoub stop Nour naming the person?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *Ayoub* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with <i>Ayoub</i> '
+              + 'in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -509,13 +509,13 @@ PBE4.page('u15-s04', {
           + 'to protect anybody, but because a timeline with names in it is read '
           + 'as an accusation and argued with line by line. A timeline without '
           + 'them is read as a sequence and fixed.</p><p><b>Then two short '
-          + 'paragraphs: where it could have been caught, and what was *not* the '
-          + 'cause.</b> The second one is unusual and valuable: it stops three '
-          + 'innocent people spending a week defending themselves.</p><p>⚠ Put '
-          + 'the <b>times</b> in, not just the days. <i>Sunday 18.05</i> against '
-          + '<i>Monday 07.30</i> shows there were thirteen hours in which a '
-          + 'read-back would have cost nothing.</p><p>⚠ Write it the same day. A '
-          + 'timeline written a week later is a memory; written the same day it '
+          + 'paragraphs: where it could have been caught, and what was <i>not</i> '
+          + 'the cause.</b> The second one is unusual and valuable: it stops '
+          + 'three innocent people spending a week defending themselves.</p><p>⚠ '
+          + 'Put the <b>times</b> in, not just the days. <i>Sunday 18.05</i> '
+          + 'against <i>Monday 07.30</i> shows there were thirteen hours in which '
+          + 'a read-back would have cost nothing.</p><p>⚠ Write it the same day. '
+          + 'A timeline written a week later is a memory; written the same day it '
           + 'is a record.</p>'
       },
       questions: [{
@@ -523,22 +523,23 @@ PBE4.page('u15-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *timeline* in it.'
+              + 'in the text above for the line with <i>timeline</i> in it.'
           },
       {
             q: 'Why does "the load was counted against the note, not against the '
               + 'order" matter?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *counted* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>counted</i> '
+              + 'in it.'
           },
       {
             q: 'What is the last paragraph for?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *paragraph* in it.'
+              + 'above for the line with <i>paragraph</i> in it.'
           }],
       ideas: ['ORDER 0418-7 — what happened',
       'Grammar – the past simple passive'],
@@ -583,9 +584,9 @@ PBE4.page('u15-s04', {
               + 'argued with line by line. A timeline without them is read as a '
               + 'sequence and fixed.' },
             { t: 'Then two short paragraphs: where it could have been caught, and '
-              + 'what was *not* the cause. The second one is unusual and '
-              + 'valuable: it stops three innocent people spending a week '
-              + 'defending themselves.' },
+              + 'what was not the cause. The second one is unusual and valuable: '
+              + 'it stops three innocent people spending a week defending '
+              + 'themselves.' },
             { t: '⚠ Put the times in, not just the days. Sunday 18.05 against '
               + 'Monday 07.30 shows there were thirteen hours in which a '
               + 'read-back would have cost nothing.' },
@@ -603,8 +604,8 @@ PBE4.page('u15-s04', {
           + 'argued with line by line. A timeline without them is read as a '
           + 'sequence and fixed.',
         'Then two short paragraphs: where it could have been caught, and what '
-          + 'was *not* the cause. The second one is unusual and valuable: it '
-          + 'stops three innocent people spending a week defending themselves.',
+          + 'was not the cause. The second one is unusual and valuable: it stops '
+          + 'three innocent people spending a week defending themselves.',
         '⚠ Put the times in, not just the days. Sunday 18.05 against Monday '
           + '07.30 shows there were thirteen hours in which a read-back would '
           + 'have cost nothing.'],
@@ -671,8 +672,8 @@ PBE4.page('u15-s04', {
           + 'argued with line by line. A timeline without them is read as a '
           + 'sequence and fixed.',
         'Then two short paragraphs: where it could have been caught, and what '
-          + 'was *not* the cause. The second one is unusual and valuable: it '
-          + 'stops three innocent people spending a week defending themselves.',
+          + 'was not the cause. The second one is unusual and valuable: it stops '
+          + 'three innocent people spending a week defending themselves.',
         '⚠ Put the times in, not just the days. Sunday 18.05 against Monday '
           + '07.30 shows there were thirteen hours in which a read-back would '
           + 'have cost nothing.'],
@@ -756,9 +757,9 @@ PBE4.page('u15-s04', {
               + 'argued with line by line. A timeline without them is read as a '
               + 'sequence and fixed.' },
             { t: 'Then two short paragraphs: where it could have been caught, and '
-              + 'what was *not* the cause. The second one is unusual and '
-              + 'valuable: it stops three innocent people spending a week '
-              + 'defending themselves.' },
+              + 'what was not the cause. The second one is unusual and valuable: '
+              + 'it stops three innocent people spending a week defending '
+              + 'themselves.' },
             { t: '⚠ Put the times in, not just the days. Sunday 18.05 against '
               + 'Monday 07.30 shows there were thirteen hours in which a '
               + 'read-back would have cost nothing.' },
@@ -778,8 +779,8 @@ PBE4.page('u15-s04', {
           + 'argued with line by line. A timeline without them is read as a '
           + 'sequence and fixed.',
         'Then two short paragraphs: where it could have been caught, and what '
-          + 'was *not* the cause. The second one is unusual and valuable: it '
-          + 'stops three innocent people spending a week defending themselves.',
+          + 'was not the cause. The second one is unusual and valuable: it stops '
+          + 'three innocent people spending a week defending themselves.',
         '⚠ Put the times in, not just the days. Sunday 18.05 against Monday '
           + '07.30 shows there were thirteen hours in which a read-back would '
           + 'have cost nothing.'],

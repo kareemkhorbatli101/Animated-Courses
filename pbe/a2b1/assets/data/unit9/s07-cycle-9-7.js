@@ -192,7 +192,7 @@ PBE3.page('u9-s07', {
             evidence: 'the word Hala repeats back as a question, after Nour sorts the two pages'
           },
         {
-            q: 'Books closed. Listen. What does *confidential* cover?',
+            q: 'Books closed. Listen. What does “confidential” cover?',
             options: [{
               t: 'prices, telephone numbers, what customers buy and what they owe',
               ok: true,
@@ -208,7 +208,7 @@ PBE3.page('u9-s07', {
             {
               t: 'only prices',
               ok: false,
-              why: 'She says *especially* what they buy, when Hala is surprised by that one.'
+              why: 'She says “especially” what they buy, when Hala is surprised by that one.'
             }],
             evidence: 'Nour\'s answer, with its list'
           },
@@ -265,16 +265,16 @@ PBE3.page('u9-s07', {
             q: 'Listen again. What does "confidential" mean, in Nour\'s words?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour\'s* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour\'s</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What is the one thing Hala really has to remember?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Hala* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Hala</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

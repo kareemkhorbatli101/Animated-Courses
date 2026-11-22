@@ -291,16 +291,16 @@ PBE4.page('u18-s05', {
             q: 'Listen again. What is the naming rule Nadia gives?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nadia* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nadia</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'Where must the file be kept, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the dialogue above '
-              + 'for the line with *file* in it. Play it again with the subtitles '
-              + 'on.'
+              + 'for the line with <i>file</i> in it. Play it again with the '
+              + 'subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -522,21 +522,21 @@ PBE4.page('u18-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *folders* in it.'
+              + 'in the text above for the line with <i>folders</i> in it.'
           },
       {
             q: 'What happens to a file that is replaced?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *replaced* in it.'
+              + 'above for the line with <i>replaced</i> in it.'
           },
       {
             q: 'What is the instruction that stops the whole problem recurring?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *instruction* in it.'
+              + 'above for the line with <i>instruction</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

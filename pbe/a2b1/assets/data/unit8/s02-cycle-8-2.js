@@ -289,16 +289,16 @@ PBE3.page('u8-s02', {
             q: 'Listen again. How many customers did he see?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *customers* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>customers</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What did the customer in Hama say?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Hama* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Hama</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -511,22 +511,23 @@ PBE3.page('u8-s02', {
             q: 'Why did Mr Tarabishi take the big boxes this time?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Tarabishi* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Tarabishi</i> '
+              + 'in it.'
           },
       {
             q: 'What exactly was Abu Nidal\'s complaint?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nidal\'s* in it.'
+              + 'above for the line with <i>Nidal\'s</i> in it.'
           },
       {
             q: 'What does Bassel need, and by when?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Bassel* in it.'
+              + 'above for the line with <i>Bassel</i> in it.'
           }],
       ideas: ['Grammar – past simple, irregular verbs'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

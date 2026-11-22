@@ -112,7 +112,7 @@ PBE6.page('u21-s05', {
         }]
   },
   worked: {
-    task: 'Write *the one line* for a negotiation at your work.',
+    task: 'Write “the one line” for a negotiation at your work.',
     weak: 'We cannot go below four per cent and we cannot do ninety days.',
     change: ['A number is not a non-negotiable - it can always be traded, it is '
           + 'only a question of how much. Find the thing that stops being this '

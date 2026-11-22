@@ -129,7 +129,7 @@ PBE5.glossary({
     ar: 'لم… بعد'
   },
   "not *a bit behind*": {
-    term: 'not *a bit behind*',
+    term: 'not “a bit behind”',
     en: 'Refusing the phrase that hides how far behind something actually is.',
     ar: 'لا «متأخّر قليلًا»'
   },

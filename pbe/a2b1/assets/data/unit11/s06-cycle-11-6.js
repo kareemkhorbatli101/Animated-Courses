@@ -309,9 +309,9 @@ PBE3.page('u11-s06', {
             q: 'Why does he not take the first one?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *first* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with <i>first</i> '
+              + 'in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -533,22 +533,23 @@ PBE3.page('u11-s06', {
             q: 'Why is the 06.00 not an option, even though it is quicker?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *quicker* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>quicker</i> '
+              + 'in it.'
           },
       {
             q: 'Where should Bassel sit, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *Bassel* in it.'
+              + 'the line with <i>Bassel</i> in it.'
           },
       {
             q: 'What should he do if he misses the 13.00?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *misses* in it.'
+              + 'above for the line with <i>misses</i> in it.'
           }],
       ideas: ['Grammar – present simple for timetables'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

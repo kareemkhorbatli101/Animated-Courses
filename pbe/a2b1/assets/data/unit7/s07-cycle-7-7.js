@@ -266,16 +266,16 @@ PBE3.page('u7-s07', {
             q: 'Listen again. Where is the meeting, and when?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *meeting* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>meeting</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What must he bring?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *bring* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>bring</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

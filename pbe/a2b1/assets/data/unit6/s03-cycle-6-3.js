@@ -296,16 +296,16 @@ PBE3.page('u6-s03', {
             q: 'Listen again. Where must the driver not park, and why?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *driver* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>driver</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What must he wear?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *wear* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>wear</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -524,20 +524,20 @@ PBE3.page('u6-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *drivers* in it.'
+              + 'above for the line with <i>drivers</i> in it.'
           },
       {
             q: 'Where must they park instead, and what will the warehouse do?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *warehouse* in it.'
+              + 'the line with <i>warehouse</i> in it.'
           },
       {
             q: 'Name two things drivers do not have to do.',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *drivers* in it.'
+            hint: 'Look in the text above for the line with <i>drivers</i> in it.'
           }],
       ideas: ['Questions: Abu Yasser, or extension 212',
       'Grammar – must / mustn\'t'],

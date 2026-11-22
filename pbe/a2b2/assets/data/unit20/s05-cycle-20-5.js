@@ -293,16 +293,16 @@ PBE4.page('u20-s05', {
             q: 'Listen again. What is not included in the price?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *included* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>included</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What is agreed about anything over the figure?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *anything* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>anything</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -529,21 +529,22 @@ PBE4.page('u20-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *separately* in it.'
+              + 'above for the line with <i>separately</i> in it.'
           },
       {
             q: 'What does the message promise if the technician cannot reach anybody?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *technician* in it.'
+              + 'above for the line with <i>technician</i> in it.'
           },
       {
             q: 'Why does the writer say she is putting that in writing?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *putting* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>putting</i> '
+              + 'in it.'
           }],
       ideas: ['Mr Rateb,',
       'Asking the cost before the work',

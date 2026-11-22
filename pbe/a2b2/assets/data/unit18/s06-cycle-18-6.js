@@ -296,16 +296,16 @@ PBE4.page('u18-s06', {
             q: 'Listen again. What three things does Nadia tell everybody to do?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nadia* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nadia</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does she tell them not to feel?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *feel* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>feel</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -533,14 +533,15 @@ PBE4.page('u18-s06', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *evidence* in it.'
+              + 'above for the line with <i>evidence</i> in it.'
           },
       {
             q: 'Why does it say "ask loudly"?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *loudly* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>loudly</i> in '
+              + 'it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

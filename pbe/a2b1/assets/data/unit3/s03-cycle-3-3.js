@@ -298,15 +298,15 @@ PBE3.page('u3-s03', {
             q: 'Listen again. How many big boxes are there?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *boxes* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>boxes</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'When is the new wrap coming?',
             minWords: 6,
             rows: 2,
             hint: 'A time or a day. Look in the dialogue above for the line with '
-              + '*coming* in it. Play it again with the subtitles on.'
+              + '<i>coming</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -512,21 +512,22 @@ PBE3.page('u3-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *plenty* in it.'
+              + 'above for the line with <i>plenty</i> in it.'
           },
       {
             q: 'What is there none of?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *none* in it.'
+              + 'above for the line with <i>none</i> in it.'
           },
       {
             q: 'Why must Nour telephone today and not tomorrow?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           }],
       ideas: ['Abu Yasser',
       'Grammar – some / any'],

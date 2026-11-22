@@ -294,16 +294,16 @@ PBE3.page('u2-s05', {
             q: 'Listen again. What time does Bassel leave Damascus?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Bassel* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Bassel</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'How many customers does he usually see in a day?',
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the dialogue above for the line with *customers* in it. Play '
-              + 'it again with the subtitles on.'
+              + 'in the dialogue above for the line with <i>customers</i> in it. '
+              + 'Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -509,21 +509,23 @@ PBE3.page('u2-s05', {
             q: 'Why does Bassel start at the market?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Bassel* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Bassel</i> in '
+              + 'it.'
           },
       {
             q: 'When does he send the orders?',
             minWords: 6,
             rows: 2,
-            hint: 'A time or a day. Look in the text above for the line with *send* in it.'
+            hint: 'A time or a day. Look in the text above for the line with '
+              + '<i>send</i> in it.'
           },
       {
             q: 'What does Nour still not know?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           }],
       ideas: ['Grammar – present simple questions'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

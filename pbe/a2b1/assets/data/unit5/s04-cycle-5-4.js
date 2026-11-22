@@ -297,16 +297,16 @@ PBE3.page('u5-s04', {
             q: 'Listen again. What price does Nour name?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Ms Shamsi offer instead?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Shamsi* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Shamsi</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -522,21 +522,21 @@ PBE3.page('u5-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *price* in it.'
+              + 'above for the line with <i>price</i> in it.'
           },
       {
             q: 'What does Sham Trading give in return — two things?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Sham* in it.'
+              + 'above for the line with <i>Sham</i> in it.'
           },
       {
             q: 'What does Nour promise to do if they take fewer than twelve in a month?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *Nour* in it.'
+              + 'line with <i>Nour</i> in it.'
           }],
       ideas: ['Dear Ms Shamsi,',
       'Nour Mansour',

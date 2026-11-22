@@ -17,7 +17,7 @@ PBE5.arabic({
   'Two pairs act out the advice for the class – without the book.':
     'زوجان يمثّلان النصيحة أمام الصفّ – من دون الكتاب.',
   'Take four decisions a colleague of yours faces. Write your advice with a reason, a time and one I would not.':
-    'خُذ أربعة قرارات يواجهها زميل لك. اكتب نصيحتك بسبب ووقت وجملة *لم أكن سأفعل* واحدة.',
+    'خُذ أربعة قرارات يواجهها زميل لك. اكتب نصيحتك بسبب ووقت وجملة «لم أكن سأفعل» واحدة.',
   'Tell the class: If I were I would , because , and I would do it by . I would not .':
     'قل للصفّ: لو كنتُ لفعلتُ ، لأنّ ، ولفعلتُها قبل . ولم أكن سأفعل .',
   'Read the note, and answer the questions.':
@@ -53,7 +53,7 @@ PBE5.arabic({
   'Read your partner\'s text. Write on a slip: ★ who had known it would break ✓ if + past, would + infinitive throughout? ? what exactly were they asked at the time?':
     'اقرأ نصّ زميلك. اكتب على ورقة صغيرة: ★ مَن كان يعرف أنه سيتعطّل ✓ if + past, would + infinitive في كلّ موضع؟ ؟ ما سُئل عنه بالضبط حينها؟',
   'Read three texts. In how many had somebody known? All three, usually. ⚠ And in how many had that person been asked would it work? — which they answered honestly.':
-    'اقرأوا ثلاثة نصوص. في كم منها كان أحد يعرف؟ في ثلاثتها عادةً. ⚠ وفي كم منها كان قد سُئل *هل سينجح؟* — فأجاب بصدق.',
+    'اقرأوا ثلاثة نصوص. في كم منها كان أحد يعرف؟ في ثلاثتها عادةً. ⚠ وفي كم منها كان قد سُئل «هل سينجح؟» — فأجاب بصدق.',
   'Work in pairs. A makes three claims; B asks which have been measured and sorts them. Use the skeleton, then the role cards.':
     'اعملوا في أزواج. (أ) يطلق ثلاث دعاوى، و(ب) يسأل أيّها قِيس ويصنّفها. استخدموا الهيكل، ثم بطاقات الأدوار.',
   'Two pairs act out the sorting for the class – without the book.':
@@ -67,15 +67,15 @@ PBE5.arabic({
   'Write the claims page for a change at your work ( 50 words or more ). Use the frame.':
     'اكتب صفحة الدعاوى لتغيير في عملك ( ٥٠ كلمة أو أكثر ). استخدم الإطار.',
   'Swap books. Ask one question: is every would measured? Tick ✓ or cross ✗.':
-    'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل كلّ *would* مقيسة؟ ضع ✓ أو ✗.',
+    'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل كلّ «would» مقيسة؟ ضع ✓ أو ✗.',
   'Two or three students read their one thing against. The class says which paper they would act on — and it is one with a risk in it.':
-    'يقرأ طالبان أو ثلاثة فقرة *شيء واحد ضدّها*. يقول الصفّ أيّ ورقة سيتصرّف بناءً عليها — وهي التي فيها مخاطرة.',
+    'يقرأ طالبان أو ثلاثة فقرة «شيء واحد ضدّها». يقول الصفّ أيّ ورقة سيتصرّف بناءً عليها — وهي التي فيها مخاطرة.',
   'Write about a change that was promised to do three things and did one ( 100 to 140 words ). Say what was promised, what happened, and which of the three had ever been measured.':
     'اكتب عن تغيير وُعد بأن يفعل ثلاثة أشياء ففعل واحدًا ( ١٠٠ إلى ١٤٠ كلمة ). قل ما وُعد به، وما حدث، وأيّ الثلاثة قِيس قطّ.',
   'Read your partner\'s text. Write on a slip: ★ which promise was kept ✓ would / might / could matched to the evidence? ? which of the three had anybody measured beforehand?':
     'اقرأ نصّ زميلك. اكتب على ورقة صغيرة: ★ أيّ وعد حُفظ ✓ would / might / could مطابقة للدليل؟ ؟ أيّ الثلاثة قاسه أحد قبل ذلك؟',
   'Read three texts. In how many had anything been measured beforehand? ⚠ Usually none — and the three promises were all made with would, by somebody honest, which is how a measured claim loses its value.':
-    'اقرأوا ثلاثة نصوص. في كم منها قِيس شيء قبل ذلك؟ ⚠ في لا شيء منها عادةً — والوعود الثلاثة كلّها أُطلقت بـ*would*، على يد شخص صادق، وهكذا تخسر الدعوى المقيسة قيمتها.',
+    'اقرأوا ثلاثة نصوص. في كم منها قِيس شيء قبل ذلك؟ ⚠ في لا شيء منها عادةً — والوعود الثلاثة كلّها أُطلقت بـ«would»، على يد شخص صادق، وهكذا تخسر الدعوى المقيسة قيمتها.',
   'Work in pairs. A asks for something; B says yes with two conditions and the reason for each, and refuses to write a third. Use the skeleton, then the role cards.':
     'اعملوا في أزواج. (أ) يطلب شيئًا، و(ب) يقول نعم بشرطين وسبب كلّ واحد، ويرفض أن يكتب ثالثًا. استخدموا الهيكل، ثم بطاقات الأدوار.',
   'Two pairs act out the agreement for the class – without the book.':
@@ -91,7 +91,7 @@ PBE5.arabic({
   'Swap books. Ask one question: would you sign this? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل كنتَ ستوقّع هذه؟ ضع ✓ أو ✗.',
   'Two or three students read their what is not in this letter. The class says which clause they were right to leave out.':
-    'يقرأ طالبان أو ثلاثة فقرة *ما ليس في هذه الرسالة*. يقول الصفّ أيّ بند كان صوابًا أن يُترك.',
+    'يقرأ طالبان أو ثلاثة فقرة «ما ليس في هذه الرسالة». يقول الصفّ أيّ بند كان صوابًا أن يُترك.',
   'Write about an agreement at your work that has a clause nobody has ever used ( 100 to 140 words ). Say what it is, why it was put in, and what would happen if somebody pointed at it tomorrow.':
     'اكتب عن اتّفاق في عملك فيه بند لم يستخدمه أحد قطّ ( ١٠٠ إلى ١٤٠ كلمة ). قل ما هو، ولماذا وُضع، وما سيحدث لو أشار إليه أحد غدًا.',
   'Read your partner\'s text. Write on a slip: ★ why the clause was put in ✓ provided that / as long as / unless used correctly? ? who would point at it, and what would it get them?':
@@ -129,7 +129,7 @@ PBE5.arabic({
   'Swap books. Ask one question: could the reader act on this without telephoning back? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل يستطيع القارئ أن يتصرّف بناءً على هذه دون أن يهاتف مرّة أخرى؟ ضع ✓ أو ✗.',
   'Two or three students read their what this costs me. The class says which letter they would buy from.':
-    'يقرأ طالبان أو ثلاثة فقرة *كم يكلّفني هذا*. يقول الصفّ من أيّ رسالة سيشتري.',
+    'يقرأ طالبان أو ثلاثة فقرة «كم يكلّفني هذا». يقول الصفّ من أيّ رسالة سيشتري.',
   'Write about advice you were given by somebody selling something ( 100 to 140 words ). Say what they recommended, whether they asked you anything first, and whether it turned out to be right.':
     'اكتب عن نصيحة أعطاك إيّاها شخص يبيع شيئًا ( ١٠٠ إلى ١٤٠ كلمة ). قل بماذا أوصى، وهل سألك شيئًا أولًا، وهل ثبت أنها صائبة.',
   'Read your partner\'s text. Write on a slip: ★ whether they asked anything first ✓ hedges that add information rather than subtract it? ? did the adviser have an interest, and did they say so?':
@@ -245,11 +245,11 @@ PBE5.arabic({
   'Somebody would have to decide. The hours exist but she would not automatically be on the counter.':
     'سيضطرّ أحد أن يقرّره. الساعات موجودة لكنها لن تكون على الكاونتر تلقائيًّا.',
   'Then it is could. Could is what becomes possible; might is what may happen on its own. ⚠ They are not two strengths of the same thing — could is about permission and possibility and usually needs a second decision, and if you write would for it somebody will think it is included.':
-    'فهي could. و*could* ما يصبح ممكنًا؛ و*might* ما قد يحدث من نفسه. ⚠ وهما ليستا درجتين لشيء واحد — *could* عن الإذن والإمكان وتحتاج قرارًا ثانيًا عادةً، وإن كتبتَ لها *would* ظنّ أحد أنها مشمولة.',
+    'فهي could. و«could» ما يصبح ممكنًا؛ و«might» ما قد يحدث من نفسه. ⚠ وهما ليستا درجتين لشيء واحد — «could» عن الإذن والإمكان وتحتاج قرارًا ثانيًا عادةً، وإن كتبتَ لها «would» ظنّ أحد أنها مشمولة.',
   'So one would, one might and one could.':
-    'فـ*would* واحدة، و*might* واحدة، و*could* واحدة.',
+    'فـ«would» واحدة، و«might» واحدة، و«could» واحدة.',
   'And the would is the one he will read, because it is the only one you have measured. ⚠ A paper with three woulds in it reads as three guesses, and then the measured one is worth no more than the other two — which is a waste of your three weeks.':
-    'و*would* هي التي سيقرأها، لأنها الوحيدة التي قِستَها. ⚠ الورقة التي فيها ثلاث *would* تُقرأ ثلاث تخمينات، وبعدها لا تساوي المقيسة أكثر من الأخريين — وتلك خسارة لأسابيعك الثلاثة.',
+    'و«would» هي التي سيقرأها، لأنها الوحيدة التي قِستَها. ⚠ الورقة التي فيها ثلاث «would» تُقرأ ثلاث تخمينات، وبعدها لا تساوي المقيسة أكثر من الأخريين — وتلك خسارة لأسابيعك الثلاثة.',
   'Your paper says the second van would restore four Ghouta days, would bring back the two customers, and would allow a Saturday run. Which have you measured?':
     'تقول ورقتك إنّ الشاحنة الثانية ستستعيد أربعة أيام غوطة، وستُرجع العميلين، وستُتيح خطًّا يوم السبت. أيّها قِستَ؟',
   'The four days. That is arithmetic — two vans, four days, it is how it was until August.':
@@ -261,13 +261,13 @@ PBE5.arabic({
   'Then that is might, and it may be weaker than that.':
     'فتلك might، وقد تكون أضعف من ذلك.',
   'It is. They have not said they would come back. ⚠ It is we do not know.':
-    'هي كذلك. لم يقولا إنهما سيعودان. ⚠ هي *لا نعرف*.',
+    'هي كذلك. لم يقولا إنهما سيعودان. ⚠ هي «لا نعرف».',
   'And the Saturday run?':
     'وخطّ السبت؟',
   'Could. The van would exist; whether anybody works Saturday is a different decision and I have not asked.':
     'could. الشاحنة ستكون موجودة؛ وهل يعمل أحد يوم السبت قرار آخر ولم أسأل.',
   'So one would, one we-do-not-know, one could — and the would is the only one he will act on.':
-    'فواحدة would، وواحدة لا-نعرف، وواحدة could — و*would* هي الوحيدة التي سيتصرّف بناءً عليها.',
+    'فواحدة would، وواحدة لا-نعرف، وواحدة could — و«would» هي الوحيدة التي سيتصرّف بناءً عليها.',
   'I can hold the Aleppo price for three months if I know what you will take.':
     'أستطيع أن أثبّت سعر حلب ثلاثة أشهر إن عرفتُ كم ستأخذين.',
   'Then the answer is yes, provided two things, and I will put both in writing because they are mine to give.':

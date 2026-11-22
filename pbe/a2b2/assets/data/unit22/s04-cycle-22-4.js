@@ -291,15 +291,16 @@ PBE4.page('u22-s04', {
             q: 'Listen again. What three things does a deadline need?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *deadline* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>deadline</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour say you must never do with a false deadline?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *Nour* in it. Play it again with the subtitles on.'
+              + 'line with <i>Nour</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -523,21 +524,22 @@ PBE4.page('u22-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *chased* in it.'
+              + 'above for the line with <i>chased</i> in it.'
           },
       {
             q: 'What does the writer do about the "no" case before it happens?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *happens* in it.'
+              + 'line with <i>happens</i> in it.'
           },
       {
             q: 'Why does it say how long the alternative would take him?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *alternative* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with '
+              + '<i>alternative</i> in it.'
           }],
       ideas: ['Dear Mr Haddad,',
       'Giving a deadline',

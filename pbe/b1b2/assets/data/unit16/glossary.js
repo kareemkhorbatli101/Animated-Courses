@@ -130,7 +130,7 @@ PBE6.glossary({
     ar: 'أسرع، أم أكثر موثوقية؟'
   },
   "he said *no problem*": {
-    term: 'he said *no problem*',
+    term: 'he said “no problem”',
     en: 'A test, reported. The question was chosen so that yes was impossible, '
       + 'and the answer was yes.',
     ar: 'قال «لا مشكلة»'

@@ -288,15 +288,15 @@ PBE3.page('u4-s06', {
             q: 'Listen again. How does Nour check?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Tarabishi add at the end?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Tarabishi* in it. Play it '
+              + 'dialogue above for the line with <i>Tarabishi</i> in it. Play it '
               + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
@@ -507,21 +507,21 @@ PBE3.page('u4-s06', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Checked* in it.'
+              + 'above for the line with <i>Checked</i> in it.'
           },
       {
             q: 'What must the customer do if something is wrong, and by when?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *something* in it.'
+              + 'above for the line with <i>something</i> in it.'
           },
       {
             q: 'What must he say when he telephones?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *telephones* in it.'
+              + 'above for the line with <i>telephones</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

@@ -287,16 +287,16 @@ PBE3.page('u6-s02', {
             q: 'Listen again. How far is it to Aleppo?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Aleppo* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Aleppo</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'How long does it take in winter?',
             minWords: 6,
             rows: 2,
             hint: 'A length of time - two hours, three days. Look in the dialogue '
-              + 'above for the line with *winter* in it. Play it again with the '
-              + 'subtitles on.'
+              + 'above for the line with <i>winter</i> in it. Play it again with '
+              + 'the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -513,21 +513,22 @@ PBE3.page('u6-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A quantity or a price. If it is money, keep the book\'s figures. '
-              + 'Look in the text above for the line with *journey* in it.'
+              + 'Look in the text above for the line with <i>journey</i> in it.'
           },
       {
             q: 'Why must the tank be filled in the yard?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *filled* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>filled</i> in '
+              + 'it.'
           },
       {
             q: 'What is the rule if anything changes on the road?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *anything* in it.'
+              + 'above for the line with <i>anything</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

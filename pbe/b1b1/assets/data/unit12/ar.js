@@ -27,7 +27,7 @@ PBE5.arabic({
   'Swap books. Ask one question: what is the single thing you and the writer would be disagreeing about? Tick ✓ or cross ✗, and name the criterion each time.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: ما الشيء الواحد الذي ستختلف فيه أنتَ والكاتب؟ ضع ✓ أو ✗، وسمِّ المعيار في كلّ مرّة.',
   'Two or three students read their strongest thing against. The class says which writer they would trust with a decision.':
-    'يقرأ طالبان أو ثلاثة فقرة *أقوى شيء ضدّه*. يقول الصفّ بأيّ كاتب سيثق في قرار.',
+    'يقرأ طالبان أو ثلاثة فقرة «أقوى شيء ضدّه». يقول الصفّ بأيّ كاتب سيثق في قرار.',
   'Write about a view you have held at work for a long time and never stated ( 100 to 140 words ). Say what it is, the one reason, the strongest thing against it, and what has stopped you.':
     'اكتب عن رأي تحمله في العمل مدّة طويلة ولم تذكره قطّ ( ١٠٠ إلى ١٤٠ كلمة ). قل ما هو، والسبب الواحد، وأقوى شيء ضدّه، وما منعك.',
   'Read your partner\'s text. Write on a slip: ★ the one reason ✓ the view stated without a hedge? ? what has stopped them, and is it still true?':
@@ -89,7 +89,7 @@ PBE5.arabic({
   'Read your partner\'s text. Write on a slip: ★ what they knew ✓ the three-part question written out? ? what exactly were they asked instead?':
     'اقرأ نصّ زميلك. اكتب على ورقة صغيرة: ★ ما كانوا يعرفون ✓ السؤال الثلاثي مكتوب كاملًا؟ ؟ بماذا سُئلوا بدلًا منه بالضبط؟',
   'Read three texts. ⚠ In how many was the writer asked anything to add? Usually all three. ⚠ And in how many did they not speak because they did not know whether their part was in the question?':
-    'اقرأوا ثلاثة نصوص. ⚠ في كم منها سُئل الكاتب *هل لديك ما تضيف؟* في ثلاثتها عادةً. ⚠ وفي كم منها لم يتكلّم لأنه لم يعرف هل جزؤه داخل السؤال؟',
+    'اقرأوا ثلاثة نصوص. ⚠ في كم منها سُئل الكاتب «هل لديك ما تضيف؟» في ثلاثتها عادةً. ⚠ وفي كم منها لم يتكلّم لأنه لم يعرف هل جزؤه داخل السؤال؟',
   'Work in pairs. A reads a decision back in four elements; B objects to one of them. Use the skeleton, then the role cards.':
     'اعملوا في أزواج. (أ) يقرأ قرارًا بأربعة عناصر، و(ب) يعترض على أحدها. استخدموا الهيكل، ثم بطاقات الأدوار.',
   'Two pairs act out the close for the class – without the book.':
@@ -97,7 +97,7 @@ PBE5.arabic({
   'Take four decisions from your own meetings. Write each in four elements and mark the awkward one.':
     'خُذ أربعة قرارات من اجتماعاتك. اكتب كلّ واحد بأربعة عناصر وعلّم المحرج منها.',
   'Read one decision back to the class in four elements, ending with is that everybody?':
-    'اقرأ قرارًا واحدًا على الصفّ بأربعة عناصر، وأنهِ بـ*هل هذا الجميع؟*',
+    'اقرأ قرارًا واحدًا على الصفّ بأربعة عناصر، وأنهِ بـ«هل هذا الجميع؟»',
   'Read the confirmation, and answer the questions.':
     'اقرأ التأكيد، وأجب عن الأسئلة.',
   'Write a confirmation of a real decision ( 50 words or more ). Use the frame.':
@@ -105,7 +105,7 @@ PBE5.arabic({
   'Swap books. Ask one question: could three people read this and give three answers? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل يستطيع ثلاثة أن يقرأوا هذا ويعطوا ثلاثة أجوبة؟ ضع ✓ أو ✗.',
   'Two or three students read their what is not decided. The class says which open question will be decided by whoever acts first.':
-    'يقرأ طالبان أو ثلاثة فقرة *ما لم يُقرَّر*. يقول الصفّ أيّ سؤال مفتوح سيحسمه مَن يتصرّف أولًا.',
+    'يقرأ طالبان أو ثلاثة فقرة «ما لم يُقرَّر». يقول الصفّ أيّ سؤال مفتوح سيحسمه مَن يتصرّف أولًا.',
   'Write about a decision at your work that everybody remembered differently ( 100 to 140 words ). Say what was decided, what each person thought, and which part had never actually been agreed.':
     'اكتب عن قرار في عملك تذكّره كلّ واحد على نحو مختلف ( ١٠٠ إلى ١٤٠ كلمة ). قل ما قُرِّر، وما ظنّه كلّ شخص، وأيّ جزء لم يُتَّفق عليه فعلًا قطّ.',
   'Read your partner\'s text. Write on a slip: ★ the part never actually agreed ✓ four elements in the close? ? who acted first, and did that settle it?':
@@ -115,7 +115,7 @@ PBE5.arabic({
   'Work in pairs. A gives both hands and stops; B asks for the position and tests whether it weighs. Use the skeleton, then the role cards.':
     'اعملوا في أزواج. (أ) يعطي الكفّتين ويتوقّف، و(ب) يطلب الموقف ويختبر هل فيه ترجيح. استخدموا الهيكل، ثم بطاقات الأدوار.',
   'Take three questions at your work. Write both hands and an on balance with a third thing.':
-    'خُذ ثلاثة أسئلة في عملك. اكتب الكفّتين و*في المحصّلة* مع شيء ثالث.',
+    'خُذ ثلاثة أسئلة في عملك. اكتب الكفّتين و«في المحصّلة» مع شيء ثالث.',
   'Tell the class both hands and your position, and name the third thing.':
     'قل للصفّ الكفّتين وموقفك، وسمِّ الشيء الثالث.',
   'Read the position paper, and answer the questions.':
@@ -127,7 +127,7 @@ PBE5.arabic({
   'Two or three students read their third thing. The class says which papers counted and which weighed.':
     'يقرأ طالبان أو ثلاثة شيئهم الثالث. يقول الصفّ أيّ الأوراق عدّت وأيّها رجّحت.',
   'Write a position on a question at your work that has been argued for a long time ( 100 to 140 words ). Give both hands, an on balance with a third thing, and where you would be if it fell through.':
-    'اكتب موقفًا في سؤال في عملك يُجادل فيه منذ مدّة طويلة ( ١٠٠ إلى ١٤٠ كلمة ). أعطِ الكفّتين، و*في المحصّلة* مع شيء ثالث، وأين ستكون لو سقط.',
+    'اكتب موقفًا في سؤال في عملك يُجادل فيه منذ مدّة طويلة ( ١٠٠ إلى ١٤٠ كلمة ). أعطِ الكفّتين، و«في المحصّلة» مع شيء ثالث، وأين ستكون لو سقط.',
   'Read your partner\'s text. Write on a slip: ★ the third thing ✓ on the one hand / on the other / on balance? ? has anybody ever asked the question the third thing answers?':
     'اقرأ نصّ زميلك. اكتب على ورقة صغيرة: ★ الشيء الثالث ✓ on the one hand / on the other / on balance؟ ؟ هل سأل أحد قطّ السؤال الذي يجيبه الشيء الثالث؟',
   'Read three texts. ⚠ In how many had nobody ever asked the question the third thing answers? Usually all three — which is why the argument had lasted a long time.':
@@ -149,13 +149,13 @@ PBE5.arabic({
   'Swap books. Count the three points and the words. Tick ✓ or cross ✗, and name the criterion each time.':
     'تبادلوا الكتب. عُدّوا النقاط الثلاث والكلمات. ضعوا ✓ أو ✗، وسمّوا المعيار في كلّ مرّة.',
   'Write a full position paper on a real question ( 100 to 140 words ): both hands, an on balance with a third thing, the strongest argument against you conceded, what is left unsolved, and where you would be if the third thing fell through.':
-    'اكتب ورقة موقف كاملة في سؤال حقيقي ( ١٠٠ إلى ١٤٠ كلمة ): الكفّتان، و*في المحصّلة* مع شيء ثالث، وأقوى حجّة ضدّك مُسلَّمًا بها، وما يبقى بلا حلّ، وأين ستكون لو سقط الشيء الثالث.',
+    'اكتب ورقة موقف كاملة في سؤال حقيقي ( ١٠٠ إلى ١٤٠ كلمة ): الكفّتان، و«في المحصّلة» مع شيء ثالث، وأقوى حجّة ضدّك مُسلَّمًا بها، وما يبقى بلا حلّ، وأين ستكون لو سقط الشيء الثالث.',
   'The paper gives three options. What do you think?':
     'تعطي الورقة ثلاثة خيارات. ما رأيك؟',
   'I think maybe the repair is probably the best one, if we can afford it.':
     'أظنّ أنّ الإصلاح ربّما هو الأفضل على الأرجح، إن كنّا نستطيع تحمّله.',
   'Say that again without think maybe, probably and if we can afford it.':
-    'قل ذلك مرّة أخرى بلا *أظنّ ربّما* و*على الأرجح* و*إن كنّا نستطيع تحمّله*.',
+    'قل ذلك مرّة أخرى بلا «أظنّ ربّما» و«على الأرجح» و«إن كنّا نستطيع تحمّله».',
   '…Repair it.':
     '…أصلحوها.',
   'That is a view. Now give me the reason and nothing else.':
@@ -163,7 +163,7 @@ PBE5.arabic({
   'My own view is that we should repair it. The hire costs 1.8 million over three months to recover a loss of about 400,000 that has not grown since September, and the repair is 1.9 million once.':
     'رأيي أنا أنّ علينا أن نصلحها. الاستئجار يكلّف ١٫٨ مليون على ثلاثة أشهر لاستعادة خسارة نحو ٤٠٠٬٠٠٠ لم تنمُ منذ أيلول، والإصلاح ١٫٩ مليون مرّة واحدة.',
   'Good. And what was the if we can afford it for?':
-    'جيّد. وفيمَ كانت *إن كنّا نستطيع تحمّله*؟',
+    'جيّد. وفيمَ كانت «إن كنّا نستطيع تحمّله»؟',
   'In case you said no.':
     'في حال قلتَ لا.',
   '⚠ Which it would not have prevented, and it would have made the view not worth having. A view with an escape clause on it is a question wearing a statement\'s clothes, and I cannot agree or disagree with a question.':
@@ -177,7 +177,7 @@ PBE5.arabic({
   'I think maybe it would probably help, if the money is there.':
     'أظنّ أنه ربّما سيساعد على الأرجح، إن كان المال موجودًا.',
   'Say that again without think maybe, probably and if the money is there.':
-    'قولي ذلك مرّة أخرى بلا *أظنّ ربّما* و*على الأرجح* و*إن كان المال موجودًا*.',
+    'قولي ذلك مرّة أخرى بلا «أظنّ ربّما» و«على الأرجح» و«إن كان المال موجودًا».',
   '…We should take somebody on.':
     '…علينا أن نوظّف أحدًا.',
   'That is a view. Now the reason and nothing else.':
@@ -185,7 +185,7 @@ PBE5.arabic({
   'My own view is that we should take somebody on. Eleven calls went unreturned in October and four of those customers have ordered elsewhere since — about 900,000 of trade in one month against a salary of 650,000.':
     'رأيي أنا أنّ علينا أن نوظّف أحدًا. إحدى عشرة مكالمة لم تُرَدّ في تشرين الأول وأربعة من أصحابها طلبوا من غيرنا بعدها — نحو ٩٠٠٬٠٠٠ من التجارة في شهر واحد مقابل راتب ٦٥٠٬٠٠٠.',
   'And the if the money is there was for what?':
-    'وفيمَ كانت *إن كان المال موجودًا*؟',
+    'وفيمَ كانت «إن كان المال موجودًا»؟',
   'In case you said it was too expensive.':
     'في حال قلتَ إنه غالٍ جدًّا.',
   '⚠ Which it would not have prevented — and your own figures say it is cheaper than not doing it, so the hedge was arguing against you.':
@@ -197,11 +197,11 @@ PBE5.arabic({
   'And after four I am on my own with two lorries and I count what I can.':
     'وبعد الرابعة أكون وحدي مع شاحنتين وأعُدّ ما أستطيع.',
   'Then we agree about the afternoon and we disagree about the morning, and I want to say which is which before anybody repeats the sentence the gate count does not work.':
-    'فنحن متّفقان على بعد الظهر ومختلفان على الصباح، وأريد أن أقول أيّهما أيّ قبل أن يكرّر أحد جملة *عدّ البوّابة لا ينجح*.',
+    'فنحن متّفقان على بعد الظهر ومختلفان على الصباح، وأريد أن أقول أيّهما أيّ قبل أن يكرّر أحد جملة «عدّ البوّابة لا ينجح».',
   'Why does that matter?':
     'ولماذا يهمّ ذلك؟',
   'Because Mr Ayoub heard you say it last week and what he heard was that the control has failed. ⚠ If the sentence is the count is unreliable after four, that is a staffing decision about two hours a day. If it is the count does not work, it is an argument about whether to keep the control at all, and you would lose that argument and we would both be worse off.':
-    'لأنّ السيد أيوب سمعك تقولها الأسبوع الماضي والذي سمعه أنّ الضابط أخفق. ⚠ فإن كانت الجملة *العدّ غير موثوق بعد الرابعة*، فذلك قرار توظيف عن ساعتين في اليوم. وإن كانت *العدّ لا ينجح*، فهو جدال عن إبقاء الضابط من أساسه، وستخسر ذلك الجدال ونكون كلانا أسوأ حالًا.',
+    'لأنّ السيد أيوب سمعك تقولها الأسبوع الماضي والذي سمعه أنّ الضابط أخفق. ⚠ فإن كانت الجملة «العدّ غير موثوق بعد الرابعة»، فذلك قرار توظيف عن ساعتين في اليوم. وإن كانت «العدّ لا ينجح»، فهو جدال عن إبقاء الضابط من أساسه، وستخسر ذلك الجدال ونكون كلانا أسوأ حالًا.',
   'I would not lose it. The count is my own idea.':
     'لن أخسره. العدّ فكرتي أنا.',
   'It is, which is exactly why you should be the one who narrows it. ⚠ A man arguing that his own control works in the morning is believed; a man arguing that it does not work is believed too, and about the wrong thing.':
@@ -217,7 +217,7 @@ PBE5.arabic({
   'I mean the telephone ones. I settle about a dozen a year and I have never written one up.':
     'أعني الهاتفية. أنا أسوّي نحو اثنتي عشرة في السنة ولم أكتب واحدة منها قطّ.',
   'Then we agree about the telephone ones and disagree about the written ones, and I want that said before somebody repeats nobody uses the complaints book.':
-    'فنحن متّفقان على الهاتفية ومختلفان على الكتابية، وأريد أن يُقال ذلك قبل أن يكرّر أحد *لا أحد يستخدم دفتر الشكاوى*.',
+    'فنحن متّفقان على الهاتفية ومختلفان على الكتابية، وأريد أن يُقال ذلك قبل أن يكرّر أحد «لا أحد يستخدم دفتر الشكاوى».',
   'Because the wide version invites somebody to decide the book is not worth keeping, and then the nine go too. ⚠ The narrow version is a procedure gap worth about a dozen entries a year, and it has a fix.':
     'لأنّ النسخة الواسعة تدعو أحدًا أن يقرّر أنّ الدفتر لا يستحقّ الإبقاء، وبعدها تذهب التسع أيضًا. ⚠ والنسخة الضيّقة فجوة إجراء بنحو اثنتي عشرة مدخلة في السنة، ولها إصلاح.',
   'Which is what?':
@@ -275,7 +275,7 @@ PBE5.arabic({
   'Because you asked whether anybody had anything to add, and I did not know whether the counter was part of the question.':
     'لأنك سألتَ هل لدى أحد ما يضيف، ولم أعرف هل الكاونتر جزء من السؤال.',
   '⚠ Does anybody have anything to add is a question I have asked about four thousand times and I do not believe it has ever produced anything. It asks people to decide for themselves whether what they know is relevant, and the person who knows least is the most confident about that.':
-    '⚠ *هل لدى أحد ما يضيف* سؤال سألتُه نحو أربعة آلاف مرّة ولا أظنّ أنه أنتج شيئًا قطّ. هو يطلب من الناس أن يقرّروا بأنفسهم هل ما يعرفونه ذو صلة، ومَن يعرف أقلّ هو الأكثر ثقةً في ذلك.',
+    '⚠ «هل لدى أحد ما يضيف» سؤال سألتُه نحو أربعة آلاف مرّة ولا أظنّ أنه أنتج شيئًا قطّ. هو يطلب من الناس أن يقرّروا بأنفسهم هل ما يعرفونه ذو صلة، ومَن يعرف أقلّ هو الأكثر ثقةً في ذلك.',
   'And the question that worked was about sixty orders she has priced.':
     'والسؤال الذي نجح كان عن ستّين طلبًا سعّرتها.',
   '⚠ Name the person, name the thing they have done, and ask about that thing. Three parts, and the first two are what make the third answerable.':
@@ -287,7 +287,7 @@ PBE5.arabic({
   'About half of them have no quotation at all.':
     'نحو نصفها لا عرض سعر له على الإطلاق.',
   'So the box will be blank on about fifteen forms a week. And a blank box is read later as a missing reference, not as there was no quotation.':
-    'فالخانة ستكون فارغة في نحو خمسة عشر نموذجًا في الأسبوع. والخانة الفارغة تُقرأ لاحقًا مرجعًا ناقصًا، لا *لم يكن هناك عرض سعر*.',
+    'فالخانة ستكون فارغة في نحو خمسة عشر نموذجًا في الأسبوع. والخانة الفارغة تُقرأ لاحقًا مرجعًا ناقصًا، لا «لم يكن هناك عرض سعر».',
   'Which is how October looked in the file.':
     'وهكذا بدا تشرين الأول في الملفّ.',
   'It is exactly how October looked. ⚠ The form will manufacture about fifteen apparent faults a week, and in six months somebody will audit them.':
@@ -295,7 +295,7 @@ PBE5.arabic({
   'What would you do?':
     'وماذا كنتِ ستفعلين؟',
   'Two boxes, or one box with none printed in it. ⚠ A box you can tick to say there is nothing is worth more than a box you leave empty.':
-    'خانتان، أو خانة واحدة مطبوع فيها *لا شيء*. ⚠ الخانة التي تستطيع أن تضع فيها علامةً تقول إنه لا شيء تساوي أكثر من خانة تتركها فارغة.',
+    'خانتان، أو خانة واحدة مطبوع فيها «لا شيء». ⚠ الخانة التي تستطيع أن تضع فيها علامةً تقول إنه لا شيء تساوي أكثر من خانة تتركها فارغة.',
   'Before anybody stands up. So are we agreed: the list changes on the fifth, not the first; Nadia prints it; from January; and Hala has the old list for the orders taken before the change.':
     'قبل أن يقف أحد. إذن هل نحن متّفقون: تتغيّر القائمة في الخامس لا في الأول؛ ونادية تطبعها؛ من كانون الثاني؛ وعند هالة القائمة القديمة للطلبات المأخوذة قبل التغيير.',
   'Not the last part.':
@@ -341,13 +341,13 @@ PBE5.arabic({
   'And if I am genuinely undecided?':
     'وإن كنتُ فعلًا غير حاسم؟',
   'Then write that, and write what would decide it. I am undecided and the thing that would settle it is whether Fadi can do the Harasta drops before eleven. That is a position — it is a position about what the question is.':
-    'فاكتب ذلك، واكتب ما سيحسمه. *أنا غير حاسم والشيء الذي سيحسمه هو هل يستطيع فادي أن يؤدّي نقطتَي حرستا قبل الحادية عشرة.* ذلك موقف — هو موقف عن ما هو السؤال.',
+    'فاكتب ذلك، واكتب ما سيحسمه. «أنا غير حاسم والشيء الذي سيحسمه هو هل يستطيع فادي أن يؤدّي نقطتَي حرستا قبل الحادية عشرة.» ذلك موقف — هو موقف عن ما هو السؤال.',
   'And on balance?':
-    'و*في المحصّلة*؟',
+    'و«في المحصّلة»؟',
   'On balance has to be followed by something that was not in either hand. ⚠ If your on balance just repeats the stronger side, you have not weighed anything — you have counted.':
-    '*في المحصّلة* يجب أن يتبعها شيء لم يكن في أيّ من الكفّتين. ⚠ فإن كانت *في المحصّلة* عندك تكرّر الجهة الأقوى فقط، فأنتَ لم ترجّح شيئًا — أنتَ عددتَ.',
+    '«في المحصّلة» يجب أن يتبعها شيء لم يكن في أيّ من الكفّتين. ⚠ فإن كانت «في المحصّلة» عندك تكرّر الجهة الأقوى فقط، فأنتَ لم ترجّح شيئًا — أنتَ عددتَ.',
   'Mine says on balance the change should go ahead.':
-    'ورقتي تقول *في المحصّلة ينبغي أن يمضي التغيير*.',
+    'ورقتي تقول «في المحصّلة ينبغي أن يمضي التغيير».',
   'Which side was that from?':
     'ومن أيّ جهة كان ذلك؟',
   'The first one.':
@@ -369,7 +369,7 @@ PBE5.arabic({
   'Fadi sees two of the four weekly. ⚠ Nobody has asked him, and it is one question.':
     'فادي يرى اثنين من الأربعة أسبوعيًّا. ⚠ ولم يسأله أحد، وهو سؤال واحد.',
   'Then that is a position. It is a position about what the question is, and it is better than an on balance I would not have believed.':
-    'فذلك موقف. هو موقف عن ما هو السؤال، وهو أفضل من *في المحصّلة* لم أكن سأصدّقها.',
+    'فذلك موقف. هو موقف عن ما هو السؤال، وهو أفضل من «في المحصّلة» لم أكن سأصدّقها.',
   'I am going to put my position to you before I put it to him, and I will start with the strongest thing against it, which is yours.':
     'سأعرض موقفي عليك قبل أن أعرضه عليه، وسأبدأ بأقوى شيء ضدّه، وهو شيؤك.',
   'Friday is wrap morning and you cannot be at the gate and on the forklift. That is true, I agree with it completely, and nothing in my paper makes it untrue.':

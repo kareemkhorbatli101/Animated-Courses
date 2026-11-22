@@ -112,7 +112,7 @@ PBE6.page('u21-s03', {
         }]
   },
   worked: {
-    task: 'Write *what we have given away for nothing* for your work.',
+    task: 'Write “what we have given away for nothing” for your work.',
     weak: 'I gave Mr Tarabishi two per cent last March to settle a difficult conversation.',
     change: ['Record what each concession BOUGHT. Every concession becomes the '
           + 'floor - nobody goes back up - so one with nothing attached is a '

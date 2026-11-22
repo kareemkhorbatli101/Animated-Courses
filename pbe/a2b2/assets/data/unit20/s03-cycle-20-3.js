@@ -300,16 +300,16 @@ PBE4.page('u20-s03', {
             q: 'Listen again. What three facts does Nour give in the first thirty seconds?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does she ask for instead of an apology?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *instead* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>instead</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -544,21 +544,22 @@ PBE4.page('u20-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *subject* in it.'
+              + 'line with <i>subject</i> in it.'
           },
       {
             q: 'Why does the message repeat the dates that were agreed on the telephone?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *telephone* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>telephone</i> '
+              + 'in it.'
           },
       {
             q: 'What does the last paragraph do, and why is it there?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *paragraph* in it.'
+              + 'line with <i>paragraph</i> in it.'
           }],
       ideas: ['Mr Rateb,',
       'Quote, question, stop'],

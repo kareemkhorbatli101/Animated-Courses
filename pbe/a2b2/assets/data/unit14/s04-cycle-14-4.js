@@ -275,33 +275,33 @@ PBE4.page('u14-s04', {
       instruction: 'Make the sentence, then attach a second condition to it.',
       questions: [{
             q: '1 order today / old price',
-            model: 'If we order today, we will pay the old price.',
+            model: 'If we order today, we will pay the old price',
             minWords: 3,
             rows: 2
           },
       {
             q: '2 clear the bay / they fit',
             model: 'If Abu Yasser clears the bay, they will fit — but only if the '
-              + 'broken pallets go out.',
+              + 'broken pallets go out',
             minWords: 5,
             rows: 2
           },
       {
             q: '3 pay Thursday / discount',
             model: 'If he pays on Thursday, we will take the discount; if he does '
-              + 'not, tell me on Friday morning.',
+              + 'not, tell me on Friday morning',
             minWords: 6,
             rows: 3
           },
       {
             q: '4 road closed / a day late',
-            model: 'If the road is closed, Homs will be a day late.',
+            model: 'If the road is closed, Homs will be a day late',
             minWords: 3,
             rows: 2
           },
       {
             q: '5 he is ill / Hala covers',
-            model: 'If he is ill, Hala will cover the counter.',
+            model: 'If he is ill, Hala will cover the counter',
             minWords: 3,
             rows: 2
           }],
@@ -319,16 +319,16 @@ PBE4.page('u14-s04', {
             q: 'Listen again. What happens if they wait until Thursday?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Thursday* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Thursday</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What is the condition Mr Ayoub attaches to the bigger order?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Ayoub* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Ayoub</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -551,21 +551,21 @@ PBE4.page('u14-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *conditionals* in it.'
+              + 'in the text above for the line with <i>conditionals</i> in it.'
           },
       {
             q: 'Which paragraph argues against the recommendation, and why is it there?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *recommendation* in it.'
+              + 'in the text above for the line with <i>recommendation</i> in it.'
           },
       {
             q: 'What does the writer commit to doing afterwards?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *afterwards* in it.'
+              + 'above for the line with <i>afterwards</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

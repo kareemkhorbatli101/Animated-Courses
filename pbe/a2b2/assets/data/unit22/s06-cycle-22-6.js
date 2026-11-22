@@ -268,13 +268,13 @@ PBE4.page('u22-s06', {
             model: 'Thursday — auditor on Friday / Could you confirm by Thursday '
               + 'that the 12th is possible? · Two boxes of twenty crushed, '
               + 'photographed / Six of the forty boxes contain broken tiles; we '
-              + 'have photographed them on the pallet. · Thanks for Saturday / '
+              + 'have photographed them on the pallet · Thanks for Saturday / '
               + 'Thank you for coming in on Saturday; it made the Homs delivery '
-              + 'possible. · No, not before the 20th / I am afraid we cannot do '
-              + 'it before the 20th. We can do the 21st, if that would help. · '
-              + 'The van is off the road till Tuesday / I am sorry to say the '
+              + 'possible · No, not before the 20th / I am afraid we cannot do it '
+              + 'before the 20th. We can do the 21st, if that would help · The '
+              + 'van is off the road till Tuesday / I am sorry to say the '
               + 'delivery will now be Tuesday · May rather than Friday. The '
-              + 'reason is a vehicle repair.',
+              + 'reason is a vehicle repair',
             minWords: 6,
             rows: 3
           }],
@@ -293,16 +293,16 @@ PBE4.page('u22-s06', {
               + 'friendly one does not?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *friendly* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>friendly</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour say you must never change between versions?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -526,20 +526,20 @@ PBE4.page('u22-s06', {
             q: 'List everything that is the same in both messages.',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *everything* in it.'
+            hint: 'Look in the text above for the line with <i>everything</i> in it.'
           },
       {
             q: 'List everything the bank version explains that the warehouse '
               + 'version does not.',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *everything* in it.'
+            hint: 'Look in the text above for the line with <i>everything</i> in it.'
           },
       {
             q: 'Both versions contain an "if no". How do they differ?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *versions* in it.'
+            hint: 'Look in the text above for the line with <i>versions</i> in it.'
           }],
       ideas: ['To the warehouse',
       'To the bank',

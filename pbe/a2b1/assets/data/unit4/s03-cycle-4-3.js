@@ -234,12 +234,12 @@ PBE3.page('u4-s03', {
             evidence: 'Abu Yasser\'s line with the arithmetic in it'
           },
         {
-            q: 'Why does Abu Yasser say he does not like the word *about*?',
+            q: 'Why does Abu Yasser say he does not like the word “about”?',
             options: [{
               t: 'because "about a hundred" hid a hundred-and-nineteen-box error',
               ok: true,
               why: 'Somebody took four pallets and wrote nothing, and a card that '
-                + 'says *about* never contradicted them.'
+                + 'says “about” never contradicted them.'
             },
             {
               t: 'because he cannot count that high',
@@ -250,7 +250,7 @@ PBE3.page('u4-s03', {
             {
               t: 'because Thursday is a bad day',
               ok: false,
-              why: 'He jokes about Thursday in his first line; the word *about* is '
+              why: 'He jokes about Thursday in his first line; the word “about” is '
                 + 'a separate and serious point.'
             }],
             evidence: 'his line about the card and the four pallets'
@@ -291,15 +291,16 @@ PBE3.page('u4-s03', {
             q: 'Listen again. What has finished?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *finished* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>finished</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour do about it, and why today?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *Nour* in it. Play it again with the subtitles on.'
+              + 'line with <i>Nour</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -513,21 +514,22 @@ PBE3.page('u4-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A way of doing it, not a yes or a no. Look in the text above for '
-              + 'the line with *exactly* in it.'
+              + 'the line with <i>exactly</i> in it.'
           },
       {
             q: 'Why will the new boxes not solve the problem?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *problem* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>problem</i> '
+              + 'in it.'
           },
       {
             q: 'What are the two choices Nour gives her manager?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

@@ -288,16 +288,16 @@ PBE4.page('u18-s03', {
             q: 'Listen again. What has Nadia already checked?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nadia* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nadia</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does the office carry on doing while it is down?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *office* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>office</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -522,21 +522,22 @@ PBE4.page('u18-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *headings* in it.'
+              + 'in the text above for the line with <i>headings</i> in it.'
           },
       {
             q: 'What promise is made about the paper orders?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *promise* in it.'
+              + 'above for the line with <i>promise</i> in it.'
           },
       {
             q: 'Why does the last line say what it says?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *last* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>last</i> in '
+              + 'it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

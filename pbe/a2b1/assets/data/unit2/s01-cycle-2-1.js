@@ -301,16 +301,16 @@ PBE3.page('u2-s01', {
             q: 'Listen again. What does Nour do first in the morning?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'Why doesn\'t Nadia stay after four?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *Nadia* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with <i>Nadia</i> '
+              + 'in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -509,20 +509,20 @@ PBE3.page('u2-s01', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *Nour* in it.'
+              + 'in the text above for the line with <i>Nour</i> in it.'
           },
       {
             q: 'What are her first two jobs of the day?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *first* in it.'
+              + 'above for the line with <i>first</i> in it.'
           },
       {
             q: 'Name one thing she does not do.',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *thing* in it.'
+            hint: 'Look in the text above for the line with <i>thing</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

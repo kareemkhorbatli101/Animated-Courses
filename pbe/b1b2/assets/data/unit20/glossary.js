@@ -91,7 +91,7 @@ PBE6.glossary({
     ar: 'اثنتان على الأكثر'
   },
   "not *be careful*": {
-    term: 'not *be careful*',
+    term: 'not “be careful”',
     en: 'Why that phrase does nothing: being careful is not an act anybody can '
       + 'perform on purpose.',
     ar: 'لا «كن حذرًا»'

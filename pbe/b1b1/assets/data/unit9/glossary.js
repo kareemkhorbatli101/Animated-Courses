@@ -69,7 +69,7 @@ PBE5.glossary({
     ar: 'وهذا غير ممكن'
   },
   "not *that looks wrong*": {
-    term: 'not *that looks wrong*',
+    term: 'not “that looks wrong”',
     en: 'Refusing the vague objection, which gets checked, cleared and dropped.',
     ar: 'لا «يبدو هذا خطأً»'
   },

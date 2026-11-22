@@ -289,16 +289,16 @@ PBE4.page('u17-s04', {
             q: 'Listen again. What does Nadia say is easy, and after how long?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nadia* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nadia</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does she refuse to say?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *refuse* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>refuse</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -521,21 +521,22 @@ PBE4.page('u17-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *difficulty* in it.'
+              + 'above for the line with <i>difficulty</i> in it.'
           },
       {
             q: 'What is the proposed fix, and what does it cost?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *proposed* in it.'
+              + 'above for the line with <i>proposed</i> in it.'
           },
       {
             q: 'Why is "nine years" in the note?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *years* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>years</i> in '
+              + 'it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

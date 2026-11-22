@@ -297,16 +297,16 @@ PBE4.page('u15-s06', {
             q: 'Listen again. What exactly does she promise, and when?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *exactly* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>exactly</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does she do when she telephones back without the full answer?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *telephones* in it. Play it again with the subtitles '
-              + 'on.'
+              + 'line with <i>telephones</i> in it. Play it again with the '
+              + 'subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -531,22 +531,24 @@ PBE4.page('u15-s06', {
             q: 'Why are both times written at the top?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *written* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>written</i> '
+              + 'in it.'
           },
       {
             q: 'Why is "I did not promise Thursday" in the note at all?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Thursday* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Thursday</i> '
+              + 'in it.'
           },
       {
             q: 'What is the last paragraph for, and who is it addressed to?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *paragraph* in it.'
+              + 'above for the line with <i>paragraph</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

@@ -295,15 +295,15 @@ PBE3.page('u4-s05', {
             minWords: 6,
             rows: 2,
             hint: 'Digits. Say them in groups, the way the book reads them back. '
-              + 'Look in the dialogue above for the line with *reference* in it. '
-              + 'Play it again with the subtitles on.'
+              + 'Look in the dialogue above for the line with <i>reference</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'When will the order arrive?',
             minWords: 6,
             rows: 2,
             hint: 'A time or a day. Look in the dialogue above for the line with '
-              + '*arrive* in it. Play it again with the subtitles on.'
+              + '<i>arrive</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -523,22 +523,23 @@ PBE3.page('u4-s05', {
             q: 'Why does Nour write, when she has already telephoned?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           },
       {
             q: 'Where must the delivery go, and where must it not go?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *delivery* in it.'
+              + 'the line with <i>delivery</i> in it.'
           },
       {
             q: 'What does Nour ask Ms Shamsi to do today, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *Nour* in it.'
+              + 'line with <i>Nour</i> in it.'
           }],
       ideas: ['Dear Ms Shamsi,',
       'Thank you,',

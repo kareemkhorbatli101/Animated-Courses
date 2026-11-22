@@ -112,7 +112,7 @@ PBE6.page('u23-s03', {
         }]
   },
   worked: {
-    task: 'Write *what the lines actually had in them* for trade news you have read.',
+    task: 'Write “what the lines actually had in them” for trade news you have read.',
     weak: 'It is understood that the suspension is on two grades.',
     change: ['Name the source and the date. Eleven words, and a reader in '
           + 'September knows what he has.',

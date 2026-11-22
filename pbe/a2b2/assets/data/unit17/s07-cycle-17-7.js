@@ -267,16 +267,16 @@ PBE4.page('u17-s07', {
             q: 'Listen again. Which line stops him?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *stops* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>stops</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour say the course actually teaches?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

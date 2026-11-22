@@ -275,13 +275,13 @@ PBE3.page('u10-s03', {
       instruction: 'Explain each instruction in plain words, then ask for it to be repeated.',
       questions: [{
             q: '1 1 tab bd pc × 10/7',
-            model: 'One tablet, twice a day, after food, for ten days.',
+            model: 'One tablet, twice a day, after food, for ten days',
             minWords: 3,
             rows: 2
           },
       {
             q: '2 2 tabs every',
-            model: 'Two tablets every eight hours — not more than six in a day.',
+            model: 'Two tablets every eight hours — not more than six in a day',
             minWords: 4,
             rows: 2
           },
@@ -297,7 +297,7 @@ PBE3.page('u10-s03', {
           },
       {
             q: '4 before meals,',
-            model: 'Take it half an hour before you eat, on an empty stomach.',
+            model: 'Take it half an hour before you eat, on an empty stomach',
             minWords: 4,
             rows: 2
           },
@@ -308,7 +308,7 @@ PBE3.page('u10-s03', {
           },
       {
             q: '5 complete the course',
-            model: 'Take all of them, even if you feel better after three days.',
+            model: 'Take all of them, even if you feel better after three days',
             minWords: 4,
             rows: 2
           }],
@@ -326,8 +326,8 @@ PBE3.page('u10-s03', {
             q: 'Listen again. How often must he take the tablets?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *tablets* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>tablets</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What must he not do?',
@@ -551,22 +551,23 @@ PBE3.page('u10-s03', {
             q: 'Why are some words in capitals?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *capitals* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>capitals</i> '
+              + 'in it.'
           },
       {
             q: 'What would make him go back to the clinic the same day?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *clinic* in it.'
+              + 'above for the line with <i>clinic</i> in it.'
           },
       {
             q: 'What has Nour written on the calendar, and why in pencil?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           }],
       ideas: ['Grammar – medicine instructions'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

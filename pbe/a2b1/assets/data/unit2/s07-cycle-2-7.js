@@ -258,15 +258,15 @@ PBE3.page('u2-s07', {
             q: 'Listen again. What is the new time for the Monday meeting?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Monday* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Monday</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What must the warehouse do before the meeting?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *warehouse* in it. Play it '
+              + 'dialogue above for the line with <i>warehouse</i> in it. Play it '
               + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'

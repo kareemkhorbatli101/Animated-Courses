@@ -277,35 +277,35 @@ PBE3.page('u8-s05', {
       questions: [{
             q: '1 The road was closed. He went round.',
             model: 'The road was closed, so he went round. / He went round because '
-              + 'the road was closed.',
+              + 'the road was closed',
             minWords: 5,
             rows: 2
           },
       {
             q: '2 His telephone died. Nobody could tell the customer.',
             model: 'His telephone died, so nobody could tell the customer. / Nobody '
-              + 'could tell the customer because his telephone had died.',
+              + 'could tell the customer because his telephone had died',
             minWords: 6,
             rows: 3
           },
       {
             q: '3 He arrived at four. The shop was closed.',
             model: 'He arrived at four, so the shop was closed. / The shop was '
-              + 'closed because he arrived at four.',
+              + 'closed because he arrived at four',
             minWords: 6,
             rows: 2
           },
       {
             q: '4 Nobody telephoned. The customer telephoned us.',
             model: 'Nobody telephoned, so the customer telephoned us. / The customer '
-              + 'telephoned us because nobody telephoned him.',
+              + 'telephoned us because nobody telephoned him',
             minWords: 5,
             rows: 2
           },
       {
             q: '5 It was a long day. We finished at seven.',
             model: 'It was a long day, so we finished at seven. / We finished at '
-              + 'seven because it was a long day.',
+              + 'seven because it was a long day',
             minWords: 6,
             rows: 3
           }],
@@ -323,15 +323,15 @@ PBE3.page('u8-s05', {
             q: 'Listen again. What was the first problem?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *problem* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>problem</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'How did the customer find out in the end?',
             minWords: 6,
             rows: 2,
             hint: 'A way of doing it, not a yes or a no. Look in the dialogue above '
-              + 'for the line with *customer* in it. Play it again with the '
+              + 'for the line with <i>customer</i> in it. Play it again with the '
               + 'subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
@@ -553,22 +553,23 @@ PBE3.page('u8-s05', {
             q: 'Why did Nour not telephone the customer?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           },
       {
             q: 'Which sentence in the account takes the blame, and whose is it?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *account* in it.'
+              + 'in the text above for the line with <i>account</i> in it.'
           },
       {
             q: 'What were the two changes?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *changes* in it.'
+              + 'above for the line with <i>changes</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

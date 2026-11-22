@@ -112,7 +112,7 @@ PBE6.page('u21-s04', {
         }]
   },
   worked: {
-    task: 'Write *the moves, in order* for a negotiation at your work.',
+    task: 'Write “the moves, in order” for a negotiation at your work.',
     weak: 'She came down from ninety days to sixty. I said I would put it to Mr Ayoub.',
     change: ['Answer every move with IN THAT CASE. A move received in silence was '
           + 'a free move, and she will not make another.',

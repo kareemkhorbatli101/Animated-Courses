@@ -272,31 +272,31 @@ PBE4.page('u14-s01', {
       instruction: 'Turn each one into a going to sentence with a time in it.',
       questions: [{
             q: '1 a new member of staff',
-            model: 'We are going to take on an assistant in June.',
+            model: 'We are going to take on an assistant in June',
             minWords: 3,
             rows: 2
           },
       {
             q: '2 a change to the opening hours',
-            model: 'We are going to open at eight from Sunday.',
+            model: 'We are going to open at eight from Sunday',
             minWords: 3,
             rows: 2
           },
       {
             q: '3 a training day',
-            model: 'We are going to hold a training day on the ninth.',
+            model: 'We are going to hold a training day on the ninth',
             minWords: 3,
             rows: 2
           },
       {
             q: '4 a price rise',
-            model: 'Prices are going to rise on the first of the month.',
+            model: 'Prices are going to rise on the first of the month',
             minWords: 3,
             rows: 2
           },
       {
             q: '5 a machine that is going to break',
-            model: 'That compressor is going to fail before the summer.',
+            model: 'That compressor is going to fail before the summer',
             minWords: 3,
             rows: 2
           }],
@@ -314,15 +314,15 @@ PBE4.page('u14-s01', {
             q: 'Listen again. When is the work going to start?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *going* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>going</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What is Abu Yasser\'s objection, and what is the answer to it?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Yasser\'s* in it. Play it '
+              + 'dialogue above for the line with <i>Yasser\'s</i> in it. Play it '
               + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
@@ -538,20 +538,21 @@ PBE4.page('u14-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *notice* in it.'
+              + 'above for the line with <i>notice</i> in it.'
           },
       {
             q: 'Find the two things the company is going to do to make it less bad.',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *company* in it.'
+            hint: 'Look in the text above for the line with <i>company</i> in it.'
           },
       {
             q: 'Why does the last line invite the question it invites?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *invites* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>invites</i> '
+              + 'in it.'
           }],
       ideas: ['STAFF NOTICE — the second counter'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

@@ -290,16 +290,16 @@ PBE4.page('u19-s01', {
             q: 'Listen again. What does the company buy from each one?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *company* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>company</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What is the problem with buying everything from one place?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *everything* in it. Play it '
-              + 'again with the subtitles on.'
+              + 'dialogue above for the line with <i>everything</i> in it. Play '
+              + 'it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -518,14 +518,14 @@ PBE4.page('u19-s01', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *supplier* in it.'
+              + 'in the text above for the line with <i>supplier</i> in it.'
           },
       {
             q: 'What is the real reason for using Adra Pallets?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Adra* in it.'
+              + 'above for the line with <i>Adra</i> in it.'
           },
       {
             q: 'What does the warning at the bottom mean by "a decision we have '
@@ -533,7 +533,7 @@ PBE4.page('u19-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *decision* in it.'
+              + 'above for the line with <i>decision</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

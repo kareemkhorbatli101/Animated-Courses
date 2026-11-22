@@ -112,7 +112,7 @@ PBE6.page('u23-s01', {
         }]
   },
   worked: {
-    task: 'Write *the report word by word* for something you have read about your trade.',
+    task: 'Write “the report word by word” for something you have read about your trade.',
     weak: 'The Hama mill has closed, so we should buy six months of board this week.',
     change: ['Read the sentence, not what it means. <i>Suspended deliveries</i> is '
           + 'not <i>closed</i>, and the resumption date is in the same sentence.',

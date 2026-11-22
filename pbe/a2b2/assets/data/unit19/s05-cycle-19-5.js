@@ -291,16 +291,16 @@ PBE4.page('u19-s05', {
             q: 'Listen again. What is said about the cheaper one?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *cheaper* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>cheaper</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Ayoub say an adjective must have behind it?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Ayoub* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Ayoub</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -535,7 +535,7 @@ PBE4.page('u19-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *recommendation* in it.'
+              + 'above for the line with <i>recommendation</i> in it.'
           },
       {
             q: 'What would change the writer\'s mind, and what does she say she '
@@ -543,7 +543,7 @@ PBE4.page('u19-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *writer\'s* in it.'
+              + 'above for the line with <i>writer\'s</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

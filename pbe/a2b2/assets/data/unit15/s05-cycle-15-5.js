@@ -294,15 +294,15 @@ PBE4.page('u15-s05', {
             q: 'Listen again. How many sentences does Nour use before she gives the fix?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Tarabishi care about, and what does he not care about?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Tarabishi* in it. Play it '
+              + 'dialogue above for the line with <i>Tarabishi</i> in it. Play it '
               + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
@@ -527,8 +527,9 @@ PBE4.page('u15-s05', {
             q: 'Why is this message sent a fortnight later and not the next day?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *fortnight* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>fortnight</i> '
+              + 'in it.'
           },
       {
             q: 'Which of the two changes does the writer say mattered, and how '
@@ -544,7 +545,7 @@ PBE4.page('u15-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *refer* in it.'
+              + 'above for the line with <i>refer</i> in it.'
           }],
       ideas: ['Dear Mr Tarabishi,',
       'Best regards, Nour Mansour'],

@@ -278,10 +278,10 @@ PBE4.page('u23-s06', {
               + 'holiday 5 a competitor opening nearby',
             model: 'It says in the traders\' group that imported packaging must be '
               + 'labelled in Arabic from June. I have not seen the gazette. If it '
-              + 'is true, a third of what we import needs a new label. · '
+              + 'is true, a third of what we import needs a new label · '
               + 'Apparently — a customer told me — imported wrap rises thirty per '
               + 'cent in September. If it is true, our fourteen-day price promise '
-              + 'is the thing to look at.',
+              + 'is the thing to look at',
             minWords: 6,
             rows: 3
           }],
@@ -299,15 +299,16 @@ PBE4.page('u23-s06', {
             q: 'Listen again. Why does the source come first?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *source* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>source</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does she do with the part he is not sure about?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *part* in it. Play it again with the subtitles on.'
+              + 'line with <i>part</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -528,21 +529,22 @@ PBE4.page('u23-s06', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *headings* in it.'
+              + 'in the text above for the line with <i>headings</i> in it.'
           },
       {
             q: 'Why does the last paragraph say "we are not late by waiting"?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *paragraph* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>paragraph</i> '
+              + 'in it.'
           },
       {
             q: 'What exactly has the writer not done?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *exactly* in it.'
+              + 'above for the line with <i>exactly</i> in it.'
           }],
       ideas: ['Reporting business news – source first',
       'Quote, question, stop'],

@@ -263,16 +263,16 @@ PBE3.page('u6-s07', {
             q: 'Listen again. What must he do before the boxes come off?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *boxes* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>boxes</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What must he never do?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *never* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>never</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

@@ -268,10 +268,9 @@ PBE4.page('u23-s01', {
             q: 'Say each with a date. 1 when the company was founded 2 when you '
               + 'joined 3 when it moved 4 how long you have been in this district '
               + '5 what it started as',
-            model: 'We were founded in 1998. · I joined in 2014. · We moved to '
-              + 'Mezzeh in 2011. · We have been in this district for fifteen '
-              + 'years. · It started as a workshop with four people and one '
-              + 'machine.',
+            model: 'We were founded in 1998 · I joined in 2014 · We moved to Mezzeh '
+              + 'in 2011 · We have been in this district for fifteen years · It '
+              + 'started as a workshop with four people and one machine',
             minWords: 6,
             rows: 3
           }],
@@ -289,16 +288,16 @@ PBE4.page('u23-s01', {
             q: 'Listen again. What is the difference between since 1998 and for 28 years?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *difference* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>difference</i> '
+              + 'in it. Play it again with the subtitles on.'
           },
       {
             q: 'Why does he say the year of the move matters?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *matters* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with '
+              + '<i>matters</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -511,14 +510,15 @@ PBE4.page('u23-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *paragraph* in it.'
+              + 'in the text above for the line with <i>paragraph</i> in it.'
           },
       {
             q: 'Why mention the Homs store, which closed?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Homs* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Homs</i> in '
+              + 'it.'
           },
       {
             q: 'What does "two have been here since 1998" tell a reader that "we '
@@ -526,7 +526,7 @@ PBE4.page('u23-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *reader* in it.'
+              + 'above for the line with <i>reader</i> in it.'
           }],
       ideas: ['When, and how long'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

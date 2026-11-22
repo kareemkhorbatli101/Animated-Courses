@@ -300,8 +300,8 @@ PBE4.page('u17-s03', {
               'sample'],
             need: 1,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -522,21 +522,22 @@ PBE4.page('u17-s03', {
             q: 'Why does it say "ask at the counter, not at the gate"?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *counter* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>counter</i> '
+              + 'in it.'
           },
       {
             q: 'Find the four things that are not needed. Why list them at all?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *things* in it.'
+            hint: 'Look in the text above for the line with <i>things</i> in it.'
           },
       {
             q: 'What is the point of the last line?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *point* in it.'
+              + 'above for the line with <i>point</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

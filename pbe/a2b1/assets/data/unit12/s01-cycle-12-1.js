@@ -272,31 +272,31 @@ PBE3.page('u12-s01', {
       instruction: 'Congratulate each one, and say what for.',
       questions: [{
             q: '1 a new branch',
-            model: 'Congratulations on the branch — and on opening it this year.',
+            model: 'Congratulations on the branch — and on opening it this year',
             minWords: 3,
             rows: 2
           },
       {
             q: '2 a daughter\'s results',
-            model: 'Congratulations on your daughter\'s results; she worked for those.',
+            model: 'Congratulations on your daughter\'s results; she worked for those',
             minWords: 3,
             rows: 2
           },
       {
             q: '3 twenty years in the job',
-            model: 'Twenty years — well done, and congratulations on the people you trained.',
+            model: 'Twenty years — well done, and congratulations on the people you trained',
             minWords: 3,
             rows: 2
           },
       {
             q: '4 a difficult order finished',
-            model: 'Well done on finishing that order; I know what week it was.',
+            model: 'Well done on finishing that order; I know what week it was',
             minWords: 4,
             rows: 2
           },
       {
             q: '5 a wedding',
-            model: 'Congratulations and best wishes to you both.',
+            model: 'Congratulations and best wishes to you both',
             minWords: 2,
             rows: 2
           }],
@@ -314,15 +314,15 @@ PBE3.page('u12-s01', {
             q: 'Listen again. What does Mr Ayoub congratulate him on, exactly?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Ayoub* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Ayoub</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Tarabishi say about his son?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Tarabishi* in it. Play it '
+              + 'dialogue above for the line with <i>Tarabishi</i> in it. Play it '
               + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
@@ -538,21 +538,22 @@ PBE3.page('u12-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *congratulate* in it.'
+              + 'above for the line with <i>congratulate</i> in it.'
           },
       {
             q: 'What does the card say about the last twelve years?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *twelve* in it.'
+              + 'above for the line with <i>twelve</i> in it.'
           },
       {
             q: 'Why mention Nour and the son\'s question?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           }],
       ideas: ['Dear Mr Tarabishi,',
       'Khaled Ayoub, and everybody at Mezzeh',

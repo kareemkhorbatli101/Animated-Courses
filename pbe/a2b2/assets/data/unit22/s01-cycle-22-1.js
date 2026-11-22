@@ -274,9 +274,9 @@ PBE4.page('u22-s01', {
               + 'never written to 3 a supplier of eleven years 4 a name you '
               + 'cannot read 5 a customer who writes to you as "Hi"',
             model: 'Dear Mr / Ms + surname, or the first name if that is the office '
-              + 'habit. · Dear Sir or Madam, — after one telephone call to try '
-              + 'for a name. · the first name, if they sign that way. · the whole '
-              + 'name as written. · their first name — they went first.',
+              + 'habit · Dear Sir or Madam, — after one telephone call to try for '
+              + 'a name · the first name, if they sign that way · the whole name '
+              + 'as written · their first name — they went first',
             minWords: 6,
             rows: 3
           }],
@@ -294,8 +294,8 @@ PBE4.page('u22-s01', {
             q: 'Listen again. What does Nour say about "Dear Sir or Madam"?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What should you do if you do not know whether a name is a man\'s '
@@ -303,8 +303,8 @@ PBE4.page('u22-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *whether* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>whether</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -519,21 +519,22 @@ PBE4.page('u22-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Dear* in it.'
+              + 'above for the line with <i>Dear</i> in it.'
           },
       {
             q: 'What does "follow them down, never up" mean?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *follow* in it.'
+              + 'above for the line with <i>follow</i> in it.'
           },
       {
             q: 'Why does Dear sound wrong to a colleague?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Dear* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Dear</i> in '
+              + 'it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

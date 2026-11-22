@@ -112,7 +112,7 @@ PBE6.page('u22-s01', {
         }]
   },
   worked: {
-    task: 'Write your own *six months in four things*.',
+    task: 'Write your own “six months in four things”.',
     weak: 'I have worked hard, learned a lot and got on well with everybody.',
     change: ['Give four examples, each with what you DID, how, what came of it, '
           + 'and what went wrong - with dates and figures.',

@@ -289,16 +289,16 @@ PBE3.page('u5-s06', {
             q: 'Listen again. How much change does he get?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *change* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>change</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour explain on the receipt?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -523,16 +523,16 @@ PBE3.page('u5-s06', {
             q: 'Why should you say "VAT included" as well as printing it?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Your own workplace, not the book\'s. Say it out loud once before '
-              + 'you write it - a sentence or two is enough.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Your own workplace, not the book\'s. Say it out loud once '
+              + 'before you write it - a sentence or two is enough.'
           },
       {
             q: 'What is the difference between a receipt and an invoice?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *difference* in it.'
+              + 'above for the line with <i>difference</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

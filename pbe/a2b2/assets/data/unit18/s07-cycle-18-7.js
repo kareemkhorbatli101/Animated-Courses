@@ -267,16 +267,16 @@ PBE4.page('u18-s07', {
             q: 'Listen again. What does the notice actually ask him to do?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *actually* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>actually</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Which sentence in it is the one that matters for him?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the dialogue above for the line with *matters* in it. Play it '
-              + 'again with the subtitles on.'
+              + 'in the dialogue above for the line with <i>matters</i> in it. '
+              + 'Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

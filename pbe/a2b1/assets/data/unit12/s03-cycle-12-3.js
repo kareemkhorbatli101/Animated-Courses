@@ -281,13 +281,13 @@ PBE3.page('u12-s03', {
             q: '1 a late reply',
             model: 'I\'m sorry for the late reply; your message was under forty '
               + 'others and that is my filing, not your timing. It is answered '
-              + 'now.',
+              + 'now',
             minWords: 6,
             rows: 3
           },
       {
             q: '2 a wrong figure',
-            model: 'I\'m sorry — that figure is mine. The correct invoice goes today.',
+            model: 'I\'m sorry — that figure is mine. The correct invoice goes today',
             minWords: 3,
             rows: 2
           },
@@ -295,21 +295,21 @@ PBE3.page('u12-s03', {
             q: '3 a delivery nobody announced',
             model: 'I\'m sorry that nobody telephoned you. The driver had no signal; '
               + 'from now on the office calls when we don\'t know, not only when '
-              + 'we do.',
+              + 'we do',
             minWords: 6,
             rows: 3
           },
       {
             q: '4 forgetting a name',
             model: 'I\'m sorry, I\'ve forgotten your name. Would you tell me again? '
-              + 'I will not ask twice.',
+              + 'I will not ask twice',
             minWords: 5,
             rows: 2
           },
       {
             q: '5 a colleague\'s mistake',
             model: 'I\'m sorry you had to wait for that — it was our figure and we '
-              + 'are sending the correct one today.',
+              + 'are sending the correct one today',
             minWords: 6,
             rows: 3
           }],
@@ -327,16 +327,16 @@ PBE3.page('u12-s03', {
             q: 'Listen again. How many times does Nour apologise?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does she say instead of apologising again?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *apologising* in it. Play it '
-              + 'again with the subtitles on.'
+              + 'dialogue above for the line with <i>apologising</i> in it. Play '
+              + 'it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -556,21 +556,21 @@ PBE3.page('u12-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *Apology* in it.'
+              + 'in the text above for the line with <i>Apology</i> in it.'
           },
       {
             q: 'What does Apology 1 tell the customer that Apology 2 does not?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Apology* in it.'
+              + 'above for the line with <i>Apology</i> in it.'
           },
       {
             q: 'What has changed so that it does not happen again?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *changed* in it.'
+              + 'above for the line with <i>changed</i> in it.'
           }],
       ideas: ['Apology 1 — from Nour',
       'Nour Mansour, extension 212',

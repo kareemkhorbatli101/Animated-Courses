@@ -271,10 +271,9 @@ PBE4.page('u22-s02', {
               + 'answering a complaint 3 following up a call 4 asking a price 5 '
               + 'chasing something promised a fortnight ago',
             model: 'I am writing to ask for a copy of the March statement for '
-              + 'account 4471. · With reference to your email of · May about '
-              + 'order 0618, · I am writing to ask the price of 300 units of '
-              + 'article 55. · Further to my emails of · May, I am still waiting '
-              + 'for…',
+              + 'account 4471 · With reference to your email of · May about order '
+              + '0618, · I am writing to ask the price of 300 units of article 55 '
+              + '· Further to my emails of · May, I am still waiting for…',
             minWords: 6,
             rows: 3
           }],
@@ -292,15 +291,15 @@ PBE4.page('u22-s02', {
             q: 'Listen again. What does Nour say the first line is for?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'When is "I hope you are well" right?',
             minWords: 6,
             rows: 2,
             hint: 'A time or a day. Look in the dialogue above for the line with '
-              + '*hope* in it. Play it again with the subtitles on.'
+              + '<i>hope</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -521,7 +520,7 @@ PBE4.page('u22-s02', {
             q: 'In which line of the "Before" version does the purpose appear?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *version* in it.'
+            hint: 'Look in the text above for the line with <i>version</i> in it.'
           },
       {
             q: 'What two pieces of information in the "After" version save the '
@@ -529,14 +528,14 @@ PBE4.page('u22-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *information* in it.'
+              + 'above for the line with <i>information</i> in it.'
           },
       {
             q: 'Where have the good wishes gone, and what has been added to them?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *wishes* in it.'
+              + 'the line with <i>wishes</i> in it.'
           }],
       ideas: ['Dear Mr Haddad,',
       'Quote, question, stop'],

@@ -280,9 +280,9 @@ PBE3.page('u6-s06', {
               + 'If that\'s too late, we can… · I\'m telephoning about today\'s '
               + 'delivery. · It\'s arriving at four, not at two. · I\'m sorry. · '
               + 'The road is closed and the lorry is going round.',
-            model: 'I\'m telephoning about today\'s delivery. · I\'m sorry. · The '
-              + 'road is closed and the lorry is going round. · It\'s arriving at '
-              + 'four, not at two. · If that\'s too late, we can…',
+            model: 'I\'m telephoning about today\'s delivery · I\'m sorry · The road '
+              + 'is closed and the lorry is going round · It\'s arriving at four, '
+              + 'not at two · If that\'s too late, we can…',
             minWords: 6,
             rows: 3
           }],
@@ -306,8 +306,8 @@ PBE3.page('u6-s06', {
               'about',
               'today\'s'],
             need: 1,
-            hint: 'Look in the dialogue above for the line with *arrival* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>arrival</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour offer?',
@@ -318,8 +318,8 @@ PBE3.page('u6-s06', {
               'sorry'],
             need: 1,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -541,21 +541,22 @@ PBE3.page('u6-s06', {
             q: 'Why does Nour write, when she has already telephoned?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           },
       {
             q: 'What two telephone calls does she promise?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *telephone* in it.'
+              + 'above for the line with <i>telephone</i> in it.'
           },
       {
             q: 'By when must the customer decide about the alternative?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *alternative* in it.'
+            hint: 'Look in the text above for the line with <i>alternative</i> in it.'
           }],
       ideas: ['Dear Mr Tarabishi,',
       'Grammar – arrangements and delays'],

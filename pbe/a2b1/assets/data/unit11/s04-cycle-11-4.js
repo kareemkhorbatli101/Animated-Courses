@@ -313,16 +313,16 @@ PBE3.page('u11-s04', {
             q: 'Listen again. What is not included?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *included* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>included</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does the receptionist suggest instead?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *receptionist* in it. Play it '
-              + 'again with the subtitles on.'
+              + 'dialogue above for the line with <i>receptionist</i> in it. Play '
+              + 'it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -551,14 +551,15 @@ PBE3.page('u11-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Bassel* in it.'
+              + 'above for the line with <i>Bassel</i> in it.'
           },
       {
             q: 'Why does the page ask to be updated even when nothing went wrong?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *updated* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>updated</i> '
+              + 'in it.'
           }],
       ideas: ['Grammar – asking what is included'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

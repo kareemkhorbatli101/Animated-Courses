@@ -27,13 +27,13 @@ PBE5.arabic({
   'Swap books. Ask one question: could a reader in six months tell their words from yours? Tick ✓ or cross ✗, and name the criterion each time.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل يستطيع قارئ بعد ستّة أشهر أن يميّز كلامهم من كلامك؟ ضع ✓ أو ✗، وسمِّ المعيار في كلّ مرّة.',
   'Two or three students read their what I may be wrong about. The class says which would matter in six months.':
-    'يقرأ طالبان أو ثلاثة فقرة *ما قد أكون مخطئًا فيه*. يقول الصفّ أيّها سيهمّ بعد ستّة أشهر.',
+    'يقرأ طالبان أو ثلاثة فقرة «ما قد أكون مخطئًا فيه». يقول الصفّ أيّها سيهمّ بعد ستّة أشهر.',
   'Write about a time what you reported somebody as saying turned out to be wrong ( 100 to 140 words ). Say what they actually said, what you wrote, and where the difference came from.':
     'اكتب عن مرّة ثبت أنّ ما نقلتَه عن أحد كان خطأً ( ١٠٠ إلى ١٤٠ كلمة ). قل ما قاله فعلًا، وما كتبتَ، ومن أين جاء الفرق.',
   'Read your partner\'s text. Write on a slip: ★ where the difference came from ✓ backshift correct, and the date of the saying given? ? was it a word they used or a word you added?':
     'اقرأ نصّ زميلك. اكتب على ورقة صغيرة: ★ من أين جاء الفرق ✓ تحويل الزمن صحيح، وتاريخ القول مذكور؟ ؟ هل كانت كلمةً استخدموها أم كلمةً أضفتَها؟',
   'Read three texts. In how many was the difference one word? ⚠ Usually all three — and usually an adverb: already, just, never, only.':
-    'اقرأوا ثلاثة نصوص. في كم منها كان الفرق كلمةً واحدة؟ ⚠ في ثلاثتها عادةً — وظرفًا عادةً: *already*، *just*، *never*، *only*.',
+    'اقرأوا ثلاثة نصوص. في كم منها كان الفرق كلمةً واحدة؟ ⚠ في ثلاثتها عادةً — وظرفًا عادةً: «already»، «just»، «never»، «only».',
   'Work in pairs. A reports five questions in order; B works out what the asker was after. Use the skeleton, then the role cards.':
     'اعملوا في أزواج. (أ) ينقل خمسة أسئلة بترتيبها، و(ب) يستنتج ما كان السائل يبحث عنه. استخدموا الهيكل، ثم بطاقات الأدوار.',
   'Two pairs act out the reporting for the class – without the book.':
@@ -49,7 +49,7 @@ PBE5.arabic({
   'Swap books. Ask one question: what did the asker already suspect? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: بماذا كان السائل يشتبه أصلًا؟ ضع ✓ أو ✗.',
   'Two or three students read their what the order tells us. The class says which asker had made up their mind before the first question.':
-    'يقرأ طالبان أو ثلاثة فقرة *ما يقوله الترتيب*. يقول الصفّ أيّ سائل كان قد حزم رأيه قبل السؤال الأول.',
+    'يقرأ طالبان أو ثلاثة فقرة «ما يقوله الترتيب». يقول الصفّ أيّ سائل كان قد حزم رأيه قبل السؤال الأول.',
   'Write about a time you were asked a series of questions and only understood afterwards what they were for ( 100 to 140 words ). Say what the questions were, when you realised, and what you would answer differently.':
     'اكتب عن مرّة سُئلتَ سلسلة أسئلة ولم تفهم إلّا بعدها لماذا كانت ( ١٠٠ إلى ١٤٠ كلمة ). قل ما كانت الأسئلة، ومتى أدركتَ، وبماذا كنتَ ستجيب على نحو مختلف.',
   'Read your partner\'s text. Write on a slip: ★ when they realised ✓ reported questions with statement word order? ? which single question was the real one?':
@@ -69,7 +69,7 @@ PBE5.arabic({
   'Swap books. Ask one question: does the reader know which part to argue with? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل يعرف القارئ أيّ جزء يجادل فيه؟ ضع ✓ أو ✗.',
   'Two or three students read their what I have taken off you. The class says which notes passed on work with nothing attached.':
-    'يقرأ طالبان أو ثلاثة فقرة *ما أزلتُه عنك*. يقول الصفّ أيّ مذكّرات نقلت عملًا بلا شيء ملحق به.',
+    'يقرأ طالبان أو ثلاثة فقرة «ما أزلتُه عنك». يقول الصفّ أيّ مذكّرات نقلت عملًا بلا شيء ملحق به.',
   'Write about an instruction that reached you with somebody else\'s deadline attached as though it were the asker\'s ( 100 to 140 words ). Say what you were told, what you later learned, and what you would have argued with.':
     'اكتب عن تعليم وصلك ومعه مهلة شخص آخر كأنها مهلة الطالب ( ١٠٠ إلى ١٤٠ كلمة ). قل ما قيل لك، وما عرفتَه لاحقًا، وفي ماذا كنتَ ستجادل.',
   'Read your partner\'s text. Write on a slip: ★ what they later learned ✓ told me to / asked for, with the owner named? ? who would they have argued with, and would it have worked?':
@@ -91,7 +91,7 @@ PBE5.arabic({
   'Swap books. Ask one question: would the person named sign the new sentence? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل سيوقّع المذكور الجملة الجديدة؟ ضع ✓ أو ✗.',
   'Two or three students read their what was wrong with the word. The class says which word had done the most damage.':
-    'يقرأ طالبان أو ثلاثة فقرة *ما كان خطأً في الكلمة*. يقول الصفّ أيّ كلمة أحدثت أكبر ضرر.',
+    'يقرأ طالبان أو ثلاثة فقرة «ما كان خطأً في الكلمة». يقول الصفّ أيّ كلمة أحدثت أكبر ضرر.',
   'Write about a sentence somebody wrote about you that you would not have signed ( 100 to 140 words ). Say what it said, what you had actually said, and whether it was ever corrected.':
     'اكتب عن جملة كتبها أحد عنك ولم تكن ستوقّعها ( ١٠٠ إلى ١٤٠ كلمة ). قل ماذا قالت، وما قلتَه فعلًا، وهل صُحّحت قطّ.',
   'Read your partner\'s text. Write on a slip: ★ what they had actually said ✓ the reporting verbs named and their claims identified? ? who would have had to change it, and were they asked?':
@@ -111,7 +111,7 @@ PBE5.arabic({
   'Swap books. Ask one question: can a reader reject the reading and keep the report? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل يستطيع القارئ أن يرفض القراءة ويُبقي النقل؟ ضع ✓ أو ✗.',
   'Two or three students read their why I may be wrong. The class says which writer has named a real bias rather than a polite doubt.':
-    'يقرأ طالبان أو ثلاثة فقرة *لماذا قد أكون مخطئًا*. يقول الصفّ أيّ كاتب سمّى تحيّزًا حقيقيًّا لا شكًّا مجاملًا.',
+    'يقرأ طالبان أو ثلاثة فقرة «لماذا قد أكون مخطئًا». يقول الصفّ أيّ كاتب سمّى تحيّزًا حقيقيًّا لا شكًّا مجاملًا.',
   'Write about a time an interpretation was reported as a fact and acted on ( 100 to 140 words ). Say what was said, what it was reported as, what was done, and whether the original words were ever recovered.':
     'اكتب عن مرّة نُقل تفسير على أنه واقعة وتُصرِّف بناءً عليه ( ١٠٠ إلى ١٤٠ كلمة ). قل ما قيل، وبماذا نُقل، وما فُعل، وهل استُرجع الكلام الأصلي قطّ.',
   'Read your partner\'s text. Write on a slip: ★ what was actually said ✓ report and reading in separate sentences? ? could the original words still be recovered now?':
@@ -169,11 +169,11 @@ PBE5.arabic({
   '…She did not say. She said she had already sent it, and I assumed she meant before Tuesday.':
     '…لم تقل. قالت إنها أرسلتها already، وافترضتُ أنها تعني قبل الثلاثاء.',
   'Which is what already does — it moves the sending to before the saying, and you do not actually know that. She may have meant already as in I have put it in the post this morning.':
-    'وذلك ما تفعله *already* — تنقل الإرسال إلى ما قبل القول، وأنتِ لا تعرفين ذلك فعلًا. قد تكون قصدت *already* بمعنى *وضعتُها في البريد هذا الصباح*.',
+    'وذلك ما تفعله «already» — تنقل الإرسال إلى ما قبل القول، وأنتِ لا تعرفين ذلك فعلًا. قد تكون قصدت «already» بمعنى «وضعتُها في البريد هذا الصباح».',
   'So I write she said she had sent it and leave already out.':
-    'فأكتب *قالت إنها أرسلتها* وأحذف *already*.',
+    'فأكتب «قالت إنها أرسلتها» وأحذف «already».',
   'Better. And put the date of the call in the note, because had sent only means anything if the reader knows when the saying happened. ⚠ A reported statement without the date of the reporting is a tense with nothing to measure from.':
-    'أفضل. وضعي تاريخ المكالمة في المذكّرة، لأنّ *كانت قد أرسلت* لا تعني شيئًا إلّا إذا عرف القارئ متى كان القول. ⚠ والجملة المنقولة بلا تاريخ النقل زمنٌ لا شيء يُقاس منه.',
+    'أفضل. وضعي تاريخ المكالمة في المذكّرة، لأنّ «كانت قد أرسلت» لا تعني شيئًا إلّا إذا عرف القارئ متى كان القول. ⚠ والجملة المنقولة بلا تاريخ النقل زمنٌ لا شيء يُقاس منه.',
   'It was Tuesday the 25th, at about ten.':
     'كان يوم الثلاثاء الخامس والعشرين، نحو العاشرة.',
   'Then write that, and then write what you did about it, because the note will be read by somebody deciding whether to telephone her again.':
@@ -181,7 +181,7 @@ PBE5.arabic({
   'I checked the post book and there is nothing from her since the 11th.':
     'تحقّقتُ من دفتر البريد ولا شيء منها منذ الحادي عشر.',
   '⚠ Then that is the note. On 25 November Ms Shamsi said she had sent the September invoice. The post book shows nothing from her since 11 November. Two sentences, one of them hers and one of them ours, and the reader can see which is which.':
-    '⚠ فتلك هي المذكّرة. *في ٢٥ تشرين الثاني قالت السيدة شمسي إنها أرسلت فاتورة أيلول. ودفتر البريد لا يُظهر شيئًا منها منذ ١١ تشرين الثاني.* جملتان، واحدة لها وواحدة لنا، ويستطيع القارئ أن يرى أيّهما أيّ.',
+    '⚠ فتلك هي المذكّرة. «في ٢٥ تشرين الثاني قالت السيدة شمسي إنها أرسلت فاتورة أيلول. ودفتر البريد لا يُظهر شيئًا منها منذ ١١ تشرين الثاني.» جملتان، واحدة لها وواحدة لنا، ويستطيع القارئ أن يرى أيّهما أيّ.',
   'Your note says Mr Jaber said he had just collected the Aleppo load.':
     'تقول مذكّرتك إنّ السيد جابر قال إنه just استلم حمولة حلب.',
   'He did.':
@@ -191,9 +191,9 @@ PBE5.arabic({
   'And when did he say he had collected it?':
     'ومتى قال إنه استلمها؟',
   '…He did not say. I took just to mean a few minutes before he telephoned.':
-    '…لم يقل. فهمتُ *just* على أنها بضع دقائق قبل أن يهاتف.',
+    '…لم يقل. فهمتُ «just» على أنها بضع دقائق قبل أن يهاتف.',
   'Which is what just does, and he may have meant some time today. ⚠ Leave it out and put the time of the call in.':
-    'وذلك ما تفعله *just*، وقد يكون قصد وقتًا ما اليوم. ⚠ احذفها وضعي وقت المكالمة.',
+    'وذلك ما تفعله «just»، وقد يكون قصد وقتًا ما اليوم. ⚠ احذفها وضعي وقت المكالمة.',
   'And then my own finding, separately: the gate sheet shows no collection today at all.':
     'ثم نتيجتي أنا، منفصلة: ورقة البوّابة لا تُظهر أيّ استلام اليوم على الإطلاق.',
   'Then that is the note, and the two halves are visible.':
@@ -207,7 +207,7 @@ PBE5.arabic({
   '…He was walking towards the last one.':
     '…كان يمشي نحو الأخير.',
   'From the first question. Every one of the five is a step towards what happens to a difference, and the answer is that nothing does.':
-    'من السؤال الأول. كلّ واحد من الخمسة خطوة نحو *ماذا يحدث للفرق*، والجواب أنه لا يحدث شيء.',
+    'من السؤال الأول. كلّ واحد من الخمسة خطوة نحو «ماذا يحدث للفرق»، والجواب أنه لا يحدث شيء.',
   'He never said that was what he was looking for.':
     'لم يقل قطّ إنّ ذلك ما يبحث عنه.',
   'He never says. ⚠ The order of somebody\'s questions tells you what they already suspect, and it is the only part of an interview that nobody thinks to write down.':
@@ -283,19 +283,19 @@ PBE5.arabic({
   'I said it was dated the 5th and the band changed on the 8th. I said it in the first minute of the meeting, before anybody asked me anything.':
     'قلتُ إنها مؤرّخة بالخامس وإنّ الشريحة تغيّرت في الثامن. وقلتُها في الدقيقة الأولى من الاجتماع، قبل أن يسألني أحد شيئًا.',
   'And admitted makes it sound like—':
-    'و*اعترفتُ* تجعلها تبدو كأنّ—',
+    'و«اعترفتُ» تجعلها تبدو كأنّ—',
   'Like somebody got it out of me. Which is the opposite of what happened, and in six months that is the only record there will be.':
     'كأنّ أحدًا أخرجها منّي. وذلك عكس ما حدث، وبعد ستّة أشهر سيكون هو السجلّ الوحيد الموجود.',
   'What should it say?':
     'وماذا ينبغي أن تقول؟',
   'Said. Or if you want to be accurate, reported — because I brought it to the meeting.':
-    '*قالت.* أو إن أردتَ الدقّة، *أفادت* — لأنني أنا أحضرتُها إلى الاجتماع.',
+    '«قالت.» أو إن أردتَ الدقّة، «أفادت» — لأنني أنا أحضرتُها إلى الاجتماع.',
   'Reported is better than said. ⚠ And you are right about the six months, which is the part I had not thought about: I chose admitted because it felt like a stronger word for a serious point, and the strength went onto you instead of onto the point.':
-    '*أفادت* أفضل من *قالت*. ⚠ وأنتِ محقّة في الستّة أشهر، وهو الجزء الذي لم أفكّر فيه: اخترتُ *اعترفتُ* لأنها شعرت كلمةً أقوى لنقطة جدّية، فذهبت القوّة عليك بدلًا من أن تذهب على النقطة.',
+    '«أفادت» أفضل من «قالت». ⚠ وأنتِ محقّة في الستّة أشهر، وهو الجزء الذي لم أفكّر فيه: اخترتُ «اعترفتُ» لأنها شعرت كلمةً أقوى لنقطة جدّية، فذهبت القوّة عليك بدلًا من أن تذهب على النقطة.',
   'There is another one. It says Nadia pointed out that the invoice was raised from the order.':
-    'وهناك أخرى. تقول إنّ نادية *نبّهت* إلى أنّ الفاتورة أُصدرت من الطلب.',
+    'وهناك أخرى. تقول إنّ نادية «نبّهت» إلى أنّ الفاتورة أُصدرت من الطلب.',
   'She said it. ⚠ Pointed out means she was right and somebody else had been wrong, and the somebody else is me two lines earlier, and neither of us said anything of the kind.':
-    'قالت ذلك. ⚠ و*نبّهت* تعني أنها كانت محقّة وأنّ غيرها كان مخطئًا، وذلك الغير هو أنا قبل سطرين، ولم يقل أيّ منّا شيئًا من هذا القبيل.',
+    'قالت ذلك. ⚠ و«نبّهت» تعني أنها كانت محقّة وأنّ غيرها كان مخطئًا، وذلك الغير هو أنا قبل سطرين، ولم يقل أيّ منّا شيئًا من هذا القبيل.',
   'So the minute has given her a victory and you a confession, in two lines, out of one conversation in which nobody disagreed with anybody.':
     'فالمحضر منحها انتصارًا ومنحك اعترافًا، في سطرين، من محادثة لم يخالف فيها أحد أحدًا.',
   'And it is signed by you and nobody will ever read the other version, because there is no other version.':
@@ -307,13 +307,13 @@ PBE5.arabic({
   'I said it. Nobody had asked and nobody was confused. I said it in the same voice I would say that it is Tuesday.':
     'قلتُه. لم يسأل أحد ولم يكن أحد محتارًا. قلتُه بالنبرة نفسها التي أقول بها إنّ اليوم ثلاثاء.',
   'And explained makes it sound like—':
-    'و*أوضحتُ* تجعلها تبدو كأنّ—',
+    'و«أوضحتُ» تجعلها تبدو كأنّ—',
   'Like the room had misunderstood something simple and I had to put them right. Which is a claim about everybody else in that meeting, not about me.':
     'كأنّ الغرفة أساءت فهم شيء بسيط وكان عليّ أن أصحّحهم. وذلك دعوى عن كلّ مَن في الاجتماع، لا عنّي.',
   'I had not thought of it that way round.':
     'لم أفكّر فيها من هذه الجهة.',
   'Said. Or reported, because I brought it to the meeting and nobody asked me to.':
-    '*قال.* أو *أفاد*، لأنني أحضرتُها إلى الاجتماع ولم يطلب منّي أحد.',
+    '«قال.» أو «أفاد»، لأنني أحضرتُها إلى الاجتماع ولم يطلب منّي أحد.',
   'Your note says the bank said they would review it in April, which means no.':
     'تقول مذكّرتك إنّ البنك قال إنهم سيراجعونه في نيسان، ومعنى ذلك لا.',
   'It does mean no.':
@@ -327,15 +327,15 @@ PBE5.arabic({
   'He said the committee had not met and that he would put it on the April list.':
     'قال إنّ اللجنة لم تجتمع وإنه سيضعه على قائمة نيسان.',
   'So he said three things and your note contains one of them and your own conclusion joined to it by which means. ⚠ The conclusion may be right and it is not a report, and in April, when somebody reads this, they will not be able to tell what he said from what you thought.':
-    'فقد قال ثلاثة أشياء ومذكّرتك فيها واحد منها واستنتاجك أنتَ موصولًا به بـ*ومعنى ذلك*. ⚠ وقد يكون الاستنتاج صحيحًا وهو ليس نقلًا، وفي نيسان، حين يقرأ أحد هذه، لن يستطيع أن يميّز ما قاله هو من ما ظننتَه أنتَ.',
+    'فقد قال ثلاثة أشياء ومذكّرتك فيها واحد منها واستنتاجك أنتَ موصولًا به بـ«ومعنى ذلك». ⚠ وقد يكون الاستنتاج صحيحًا وهو ليس نقلًا، وفي نيسان، حين يقرأ أحد هذه، لن يستطيع أن يميّز ما قاله هو من ما ظننتَه أنتَ.',
   'So: he said the committee had not met, that he would put it on the April list, and that they would review it in April.':
     'إذن: قال إنّ اللجنة لم تجتمع، وإنه سيضعه على قائمة نيسان، وإنهم سيراجعونه في نيسان.',
   'And then?':
     'ثم ماذا؟',
   'And then a separate sentence. I understood that to mean the application has not been refused but will not be considered before April.':
-    'ثم جملة منفصلة. *فهمتُ ذلك على أنّ الطلب لم يُرفَض لكنه لن يُنظَر فيه قبل نيسان.*',
+    'ثم جملة منفصلة. «فهمتُ ذلك على أنّ الطلب لم يُرفَض لكنه لن يُنظَر فيه قبل نيسان.»',
   'Which is a better interpretation than no, and you only got to it by separating them. ⚠ The interpretation gets its own sentence, in your own name, and then it can be argued with — and it may be wrong, because the committee has not met is also what somebody says when a thing is going through.':
-    'وذلك تفسير أفضل من *لا*، ولم تصل إليه إلّا بفصلهما. ⚠ التفسير يأخذ جملته الخاصّة، باسمك، وبعدها يمكن أن يُجادَل فيه — وقد يكون خطأً، لأنّ *اللجنة لم تجتمع* هي أيضًا ما يقوله أحد حين يكون الأمر ماضيًا في طريقه.',
+    'وذلك تفسير أفضل من «لا»، ولم تصل إليه إلّا بفصلهما. ⚠ التفسير يأخذ جملته الخاصّة، باسمك، وبعدها يمكن أن يُجادَل فيه — وقد يكون خطأً، لأنّ «اللجنة لم تجتمع» هي أيضًا ما يقوله أحد حين يكون الأمر ماضيًا في طريقه.',
   'I had decided it was a no before I wrote the note.':
     'كنتُ قد قرّرتُ أنها لا قبل أن أكتب المذكّرة.',
   'Everybody has. ⚠ The discipline is not to stop deciding; it is to keep the decision in a sentence of its own, so that the next person can disagree with the decision without having to doubt the report.':
@@ -373,7 +373,7 @@ PBE5.arabic({
   'And there is a page and a half of discussion.':
     'وهناك صفحة ونصف من النقاش.',
   'Cut it. Who said what in a meeting matters when somebody has to be able to ask a question afterwards, and the question is always why did we decide that — so keep one line of reason against each decision and throw the rest away.':
-    'احذفها. مَن قال ماذا في اجتماع يهمّ حين يحتاج أحد أن يستطيع أن يسأل سؤالًا بعدها، والسؤال دائمًا *لماذا قرّرنا ذلك* — فأبقِ سطر سبب واحدًا أمام كلّ قرار وارمِ الباقي.',
+    'احذفها. مَن قال ماذا في اجتماع يهمّ حين يحتاج أحد أن يستطيع أن يسأل سؤالًا بعدها، والسؤال دائمًا «لماذا قرّرنا ذلك» — فأبقِ سطر سبب واحدًا أمام كلّ قرار وارمِ الباقي.',
   'Even the disagreement? Nadia and Abu Yasser did not agree about the Friday printing.':
     'وحتى الخلاف؟ نادية وأبو ياسر لم يتّفقا على طباعة الجمعة.',
   '⚠ That you keep, and you keep it with both names on it. A decision that was unanimous and a decision that was taken over an objection are different decisions, and in six months the second one needs to be visible — because if it goes wrong, the person who objected was right and should be asked next time.':
@@ -391,11 +391,11 @@ PBE5.arabic({
   'Nothing. We ran out of time on three and nobody would decide the fourth.':
     'لا شيء. نفد الوقت على ثلاثة ولم يرد أحد أن يقرّر الرابع.',
   'Then it is four deferred entries, and each needs a date for the decision.':
-    'فهي أربعة بنود *مؤجّلة*، ويحتاج كلّ واحد تاريخًا للقرار.',
+    'فهي أربعة بنود «مؤجّلة»، ويحتاج كلّ واحد تاريخًا للقرار.',
   'That looks like a bad meeting.':
     'ذلك يبدو اجتماعًا سيّئًا.',
   '⚠ It was a bad meeting. A minute that says discussed four times looks like a good meeting and tells nobody anything — and in three weeks somebody will ask what we decided about the van and there will be no answer and no date either.':
-    '⚠ كان اجتماعًا سيّئًا. والمحضر الذي يقول *نوقش* أربع مرّات يبدو اجتماعًا جيّدًا ولا يقول لأحد شيئًا — وبعد ثلاثة أسابيع سيسأل أحد ماذا قرّرنا بشأن الشاحنة ولن يكون هناك جواب ولا تاريخ أيضًا.',
+    '⚠ كان اجتماعًا سيّئًا. والمحضر الذي يقول «نوقش» أربع مرّات يبدو اجتماعًا جيّدًا ولا يقول لأحد شيئًا — وبعد ثلاثة أسابيع سيسأل أحد ماذا قرّرنا بشأن الشاحنة ولن يكون هناك جواب ولا تاريخ أيضًا.',
   'Fadi — Ghouta moves to Wednesday and Friday from Monday week. You were not in the meeting and it is your Friday, so I will tell you what was decided and who objected.':
     'فادي — تنتقل الغوطة إلى الأربعاء والجمعة من الاثنين القادم. لم تكن في الاجتماع وهي جمعتك، فسأقول لك ما قُرِّر ومَن اعترض.',
   'Somebody objected?':

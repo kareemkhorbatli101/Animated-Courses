@@ -109,7 +109,7 @@ PBE4.glossary({
   },
   "Could you confirm by…?": {
     term: 'Could you confirm by…?',
-    en: 'How an email asks for a reply rather than hoping for one.',
+    en: 'How an email asks for an answer by a day, which is how an answer arrives.',
     ar: 'هل يمكنكم التأكيد قبل…؟'
   },
   "Best regards,": {

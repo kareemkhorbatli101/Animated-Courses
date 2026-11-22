@@ -112,7 +112,7 @@ PBE6.page('u24-s04', {
         }]
   },
   worked: {
-    task: 'Write *what I cannot yet do*.',
+    task: 'Write “what I cannot yet do”.',
     weak: 'My written English is not very good yet and I need to improve it.',
     change: ['A verdict about yourself cannot be practised. Write the gap as a '
           + 'SITUATION - a letter you cannot write, a call you cannot begin.',
@@ -261,7 +261,7 @@ PBE6.page('u24-s04', {
               ok: false,
               why: 'Length has nothing to do with it; the verdict version is shorter.'
             }],
-            evidence: 'Nour\'s comparison with *my English is not very good*'
+            evidence: 'Nour\'s comparison with “my English is not very good”'
           }],
         say: true
       }

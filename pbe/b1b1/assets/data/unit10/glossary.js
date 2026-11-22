@@ -163,7 +163,7 @@ PBE5.glossary({
   },
   "Reason:": {
     term: 'Reason:',
-    en: 'The one line that answers *why did we decide that* in six months\' time.',
+    en: 'The one line that answers “why did we decide that” in six months\' time.',
     ar: 'السبب:'
   },
   "Objection: … —": {

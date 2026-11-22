@@ -300,16 +300,16 @@ PBE3.page('u1-s04', {
             q: 'Listen again. How many staff has the company got?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *company* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>company</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Has it got a branch?',
             minWords: 6,
             rows: 2,
             hint: 'Yes or no first - then the line that makes it so. Look in the '
-              + 'dialogue above for the line with *branch* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>branch</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -508,21 +508,21 @@ PBE3.page('u1-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *company* in it.'
+              + 'above for the line with <i>company</i> in it.'
           },
       {
             q: 'Where is the branch?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *branch* in it.'
+              + 'the line with <i>branch</i> in it.'
           },
       {
             q: 'How do customers order?',
             minWords: 6,
             rows: 2,
             hint: 'A way of doing it, not a yes or a no. Look in the text above for '
-              + 'the line with *customers* in it.'
+              + 'the line with <i>customers</i> in it.'
           }],
       ideas: ['Grammar – have got'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

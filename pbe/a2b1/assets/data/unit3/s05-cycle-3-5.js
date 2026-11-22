@@ -277,9 +277,8 @@ PBE3.page('u3-s05', {
             q: 'Put in order to go from the trade counter to the loading door. '
               + 'turn right · go out of this door · go through the gate · walk '
               + 'past the small window · it\'s the big green door at the back',
-            model: 'go out of this door · · turn right · · walk past the small '
-              + 'window · · go through the gate · · it\'s the big green door at '
-              + 'the back',
+            model: 'go out of this door · turn right · walk past the small window · '
+              + 'go through the gate · it\'s the big green door at the back',
             minWords: 6,
             rows: 3
           }],
@@ -301,8 +300,8 @@ PBE3.page('u3-s05', {
             keys: ['out',
               'door'],
             need: 1,
-            hint: 'Look in the dialogue above for the line with *first* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>first</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What must he not do?',
@@ -526,21 +525,21 @@ PBE3.page('u3-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *driver* in it.'
+              + 'the line with <i>driver</i> in it.'
           },
       {
             q: 'What can the driver see from the end of the small street?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *driver* in it.'
+              + 'above for the line with <i>driver</i> in it.'
           },
       {
             q: 'What should the driver do if he is lost?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *driver* in it.'
+              + 'above for the line with <i>driver</i> in it.'
           }],
       ideas: ['Dear Mr Saeed,',
       'Grammar – imperatives for directions'],

@@ -268,16 +268,16 @@ PBE4.page('u16-s07', {
             q: 'Listen again. What does Nour say it is really for?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'Which part of it does Hala say she needed in her first week?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the dialogue above for the line with *Hala* in it. Play it '
-              + 'again with the subtitles on.'
+              + 'in the dialogue above for the line with <i>Hala</i> in it. Play '
+              + 'it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

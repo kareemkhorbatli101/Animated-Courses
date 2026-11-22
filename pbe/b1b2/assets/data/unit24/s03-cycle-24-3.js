@@ -112,7 +112,7 @@ PBE6.page('u24-s03', {
         }]
   },
   worked: {
-    task: 'Write *what I said I would do, and what the count says*.',
+    task: 'Write “what I said I would do, and what the count says”.',
     weak: 'I am going to write the market note every month from now on.',
     change: ['Turn the frequency into a COUNT and a date. <i>Every month</i> '
           + 'cannot be counted at all - it can only be regretted, four months '
@@ -265,7 +265,7 @@ PBE6.page('u24-s03', {
               why: 'His repair is a COUNT and a date. The frequency form fails '
                 + 'even with a date on it.'
             }],
-            evidence: 'his answer about *every month*'
+            evidence: 'his answer about “every month”'
           }],
         say: true
       }

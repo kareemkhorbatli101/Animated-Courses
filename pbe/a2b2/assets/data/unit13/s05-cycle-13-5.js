@@ -280,12 +280,12 @@ PBE4.page('u13-s05', {
             q: 'Turn each weak phrase into a strong one about yourself. 1 '
               + 'hard-working 2 good with people 3 organised 4 good English 5 '
               + 'team player',
-            model: 'I have not missed a Monday deadline in a year. · I take about '
+            model: 'I have not missed a Monday deadline in a year · I take about '
               + 'seventy people a day at a counter and nobody has asked for '
-              + 'somebody else. · I keep the stock card for ninety lines and it '
-              + 'has balanced every month. · I deal with two suppliers in English '
-              + 'by email and telephone. · I trained two new assistants; both are '
-              + 'still here.',
+              + 'somebody else · I keep the stock card for ninety lines and it '
+              + 'has balanced every month · I deal with two suppliers in English '
+              + 'by email and telephone · I trained two new assistants; both are '
+              + 'still here',
             minWords: 6,
             rows: 3
           }],
@@ -303,16 +303,16 @@ PBE4.page('u13-s05', {
             q: 'Listen again. What three things does he say she can do?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *things* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>things</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What is his test for a skill on a CV?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *skill* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>skill</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -529,20 +529,21 @@ PBE4.page('u13-s05', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *weakness* in it.'
+              + 'in the text above for the line with <i>weakness</i> in it.'
           },
       {
             q: 'Find two claims that could be checked in ten minutes.',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *checked* in it.'
+            hint: 'Look in the text above for the line with <i>checked</i> in it.'
           },
       {
             q: 'Why does the last line say three of them ours?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *last* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>last</i> in '
+              + 'it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

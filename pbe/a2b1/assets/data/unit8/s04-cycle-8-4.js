@@ -302,16 +302,16 @@ PBE3.page('u8-s04', {
             q: 'Listen again. When was the invoice sent?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *invoice* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>invoice</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nadia discover at the end?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nadia* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nadia</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -532,21 +532,22 @@ PBE3.page('u8-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *exactly* in it.'
+              + 'above for the line with <i>exactly</i> in it.'
           },
       {
             q: 'Why did nobody notice for eleven days?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *nobody* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>nobody</i> in '
+              + 'it.'
           },
       {
             q: 'What is changing, and what is deliberately not changing?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *deliberately* in it.'
+              + 'above for the line with <i>deliberately</i> in it.'
           }],
       ideas: ['Grammar – past questions with did'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

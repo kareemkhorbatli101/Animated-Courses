@@ -27,7 +27,7 @@ PBE5.arabic({
   'Swap books. Ask one question: does the first paragraph contain any conclusion? Tick ✓ or cross ✗, and name the criterion each time.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل في الفقرة الأولى أيّ استنتاج؟ ضع ✓ أو ✗، وسمِّ المعيار في كلّ مرّة.',
   'Two or three students read their what would change this. The class says which deduction is the easiest to overturn — and that is the one to trust most, because the writer has told you how.':
-    'يقرأ طالبان أو ثلاثة فقرة *ما سيغيّر هذا*. يقول الصفّ أيّ استنباط أسهل في النقض — وهو الذي يُوثَق به أكثر، لأنّ كاتبه قال لك كيف.',
+    'يقرأ طالبان أو ثلاثة فقرة «ما سيغيّر هذا». يقول الصفّ أيّ استنباط أسهل في النقض — وهو الذي يُوثَق به أكثر، لأنّ كاتبه قال لك كيف.',
   'Write about damage at your work where everybody assumed they knew who was responsible ( 100 to 140 words ). Say what the marks actually showed, what was assumed, and whether anybody ever checked.':
     'اكتب عن تلف في عملك افترض الجميع أنهم يعرفون المسؤول عنه ( ١٠٠ إلى ١٤٠ كلمة ). قل ما أظهرته العلامات فعلًا، وما افتُرض، وهل تحقّق أحد قطّ.',
   'Read your partner\'s text. Write on a slip: ★ what the marks actually showed ✓ must have been / can only have been, with the mark attached? ? who made the assumption, and what was it based on?':
@@ -49,7 +49,7 @@ PBE5.arabic({
   'Swap books. Ask one question: has the writer looked for the explanation that is their own fault? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل بحث الكاتب عن التفسير الذي يكون خطأه هو؟ ضع ✓ أو ✗.',
   'Two or three students read their it may be us. The class says which was found by looking for something else — it usually is.':
-    'يقرأ طالبان أو ثلاثة فقرة *قد يكون منّا*. يقول الصفّ أيّها وُجد بالبحث عن شيء آخر — وهو كذلك عادةً.',
+    'يقرأ طالبان أو ثلاثة فقرة «قد يكون منّا». يقول الصفّ أيّها وُجد بالبحث عن شيء آخر — وهو كذلك عادةً.',
   'Write about a fault at your work that was blamed on a supplier and was not theirs ( 100 to 140 words ). Say what was assumed, what it turned out to be, and how long it took to find.':
     'اكتب عن خلل في عملك أُلقي على مورّد ولم يكن منه ( ١٠٠ إلى ١٤٠ كلمة ). قل ما افتُرض، وما ثبت أنه، وكم استغرق إيجاده.',
   'Read your partner\'s text. Write on a slip: ★ what it turned out to be ✓ may / might used for possibility, not must? ? was the supplier ever told it was not them?':
@@ -91,7 +91,7 @@ PBE5.arabic({
   'Swap books. Ask one question: could a new person do this on their first morning? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل يستطيع شخص جديد أن يؤدّي هذا في صباحه الأول؟ ضع ✓ أو ✗.',
   'Two or three students read their why the habit is hard. The class says which obstacle is real and which is about willingness — and the first kind can be fixed.':
-    'يقرأ طالبان أو ثلاثة فقرة *لماذا العادة صعبة*. يقول الصفّ أيّ عائق حقيقي وأيّه عن الاستعداد — والنوع الأول يمكن إصلاحه.',
+    'يقرأ طالبان أو ثلاثة فقرة «لماذا العادة صعبة». يقول الصفّ أيّ عائق حقيقي وأيّه عن الاستعداد — والنوع الأول يمكن إصلاحه.',
   'Write about a question you asked somebody that you could have answered yourself ( 100 to 140 words ). Say what you asked, where the answer was, and what stopped you looking.':
     'اكتب عن سؤال سألتَه أحدًا وكنتَ تستطيع أن تجيبه بنفسك ( ١٠٠ إلى ١٤٠ كلمة ). قل ماذا سألتَ، وأين كان الجواب، وما منعك أن تنظر.',
   'Read your partner\'s text. Write on a slip: ★ where the answer was ✓ what they checked, reported with what each showed? ? what actually stopped them looking — distance, habit, or not knowing the document existed?':
@@ -109,7 +109,7 @@ PBE5.arabic({
   'Write a status page laid out by certainty ( 50 words or more ). Use the frame.':
     'اكتب صفحة حالة مرتّبة بدرجة اليقين ( ٥٠ كلمة أو أكثر ). استخدم الإطار.',
   'Swap books. Ask one question: is any possibly on this page hiding an uncompleted task? Tick ✓ or cross ✗.':
-    'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل أيّ *possibly* في هذه الصفحة تُخفي مهمّة لم تُنجَز؟ ضع ✓ أو ✗.',
+    'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل أيّ «possibly» في هذه الصفحة تُخفي مهمّة لم تُنجَز؟ ضع ✓ أو ✗.',
   'Two or three students read their converted item. The class says which hedge had been hiding a task the longest.':
     'يقرأ طالبان أو ثلاثة البند الذي حوّلوه. يقول الصفّ أيّ تحوّط كان يخفي مهمّة أطول مدّة.',
   'Write about a time somebody told you something was definite and it was not ( 100 to 140 words ). Say what you did because you believed it, what it cost, and whether you believe that person now.':
@@ -133,7 +133,7 @@ PBE5.arabic({
   'Swap books. Draw your partner\'s description without looking at the thing. Tick ✓ or cross ✗.':
     'تبادلوا الكتب. ارسم وصف زميلك دون أن تنظر إلى الشيء. ضع ✓ أو ✗.',
   'Two or three students read their what is not here. The class says which absence would matter most in six months.':
-    'يقرأ طالبان أو ثلاثة فقرة *ما ليس هنا*. يقول الصفّ أيّ غياب سيكون الأهمّ بعد ستّة أشهر.',
+    'يقرأ طالبان أو ثلاثة فقرة «ما ليس هنا». يقول الصفّ أيّ غياب سيكون الأهمّ بعد ستّة أشهر.',
   'Write a description of something at your work that has worn out slowly ( 100 to 140 words ). Describe it so that somebody could draw it, say what is still sound, and say what it looked like when it was new.':
     'اكتب وصفًا لشيء في عملك بلي ببطء ( ١٠٠ إلى ١٤٠ كلمة ). صِفه بحيث يستطيع أحد أن يرسمه، وقل ما زال سليمًا، وقل كيف كان شكله حين كان جديدًا.',
   'Read your partner\'s text. Write on a slip: ★ what is still sound ✓ verbs you can draw, and no "damaged"? ? what measurement is missing?':
@@ -241,13 +241,13 @@ PBE5.arabic({
   'No, it cannot. Good.':
     'لا، لا يمكن. جيّد.',
   'I nearly wrote the total looks wrong.':
-    'كدتُ أكتب *المجموع يبدو خطأً*.',
+    'كدتُ أكتب «المجموع يبدو خطأً».',
   'Which I would have checked and found to be right, because it is right — the arithmetic on this statement is correct. ⚠ What is wrong is that one of those two invoices is not ours; it is 700,000 for a customer called Mansour, and I have been looking at my own surname on somebody else\'s invoice for about four minutes without seeing it.':
     'ولكنتُ تحقّقتُ منه فوجدتُه صحيحًا، لأنه صحيح — الحساب في هذا الكشف صحيح. ⚠ والخطأ أنّ واحدة من تلك الفاتورتين ليست لنا؛ هي بـ٧٠٠٬٠٠٠ لعميل اسمه منصور، وأنا أنظر إلى كُنيتي على فاتورة شخص آخر منذ نحو أربع دقائق دون أن أراها.',
   'So the total is right and the statement is wrong.':
     'فالمجموع صحيح والكشف خطأ.',
   'The total is right and the statement contains an invoice that belongs to somebody else. ⚠ Which I would not have found from the total looks wrong, because I would have added it up, found it correct and stopped.':
-    'المجموع صحيح والكشف يحتوي فاتورةً لشخص آخر. ⚠ وما كنتُ سأجد ذلك من *المجموع يبدو خطأً*، لأنني كنتُ سأجمعه فأجده صحيحًا فأتوقّف.',
+    'المجموع صحيح والكشف يحتوي فاتورةً لشخص آخر. ⚠ وما كنتُ سأجد ذلك من «المجموع يبدو خطأً»، لأنني كنتُ سأجمعه فأجده صحيحًا فأتوقّف.',
   'The objection found a different thing from the one I thought I was objecting to.':
     'فالاعتراض وجد شيئًا مختلفًا عن الذي ظننتُ أنني أعترض عليه.',
   'It usually does. ⚠ A specific objection gets investigated and a vague one gets checked — and checking means adding it up again, which confirms whatever the document already says.':
@@ -257,7 +257,7 @@ PBE5.arabic({
   'Because it says 7.20 and the gate sheet shows the load leaving at 10.30. It cannot have been delivered before it left.':
     'لأنها تقول السابعة وعشرين دقيقة وورقة البوّابة تُظهر خروج الحمولة في العاشرة والنصف. ولا يمكن أن تكون سُلِّمت قبل أن تخرج.',
   'I nearly wrote the times do not look right.':
-    'كدتُ أكتب *الأوقات لا تبدو صحيحة*.',
+    'كدتُ أكتب «الأوقات لا تبدو صحيحة».',
   'Which I would have checked against the schedule and found to be right. ⚠ What is actually wrong is that the time is pre-printed — every note we issue carries the scheduled time, and has for two years.':
     'ولكنتُ تحقّقتُ منها مقابل الجدول فوجدتُها صحيحة. ⚠ والخطأ فعلًا أنّ الوقت مطبوع مسبقًا — كلّ مذكّرة نُصدرها تحمل الوقت المجدول، ومنذ سنتين.',
   'So no delivery note in the building records an actual time.':
@@ -273,7 +273,7 @@ PBE5.arabic({
   'So the question is why two were held back.':
     'فالسؤال لماذا احتُجز اثنان.',
   'That is not my question any more, because the note says two damaged, replaced from the next delivery in Abu Yasser\'s hand. So the order is complete and the invoice is for forty and he has thirty-eight.':
-    'ذلك لم يبقَ سؤالي، لأنّ الملاحظة تقول *اثنان تالفان، استُبدلا من التسليم القادم* بخطّ أبو ياسر. فالطلب مكتمل والفاتورة لأربعين وعنده ثمانية وثلاثون.',
+    'ذلك لم يبقَ سؤالي، لأنّ الملاحظة تقول «اثنان تالفان، استُبدلا من التسليم القادم» بخطّ أبو ياسر. فالطلب مكتمل والفاتورة لأربعين وعنده ثمانية وثلاثون.',
   'Which means the invoice is wrong.':
     'ومعنى ذلك أنّ الفاتورة خطأ.',
   'The invoice is right if the two are going out on Thursday and wrong if they are not. That is the only thing I cannot see, and it is the only thing I am telephoning about.':
@@ -311,29 +311,29 @@ PBE5.arabic({
   'Take those three words and tell me what each one costs if it turns out wrong.':
     'خُذ هذه الكلمات الثلاث وقل لي كم تكلّف كلّ واحدة إن ثبت أنها خطأ.',
   'Definitely — if the wrap does not come on Thursday, the Ghouta run goes out without it and four customers get an apology, and the next time I say definitely nobody believes it.':
-    '*قطعًا* — إن لم يأتِ الغلاف يوم الخميس، يخرج خطّ الغوطة بلا غلاف ويصل أربعة عملاء اعتذارٌ، والمرّة القادمة التي أقول فيها *قطعًا* لا يصدّقها أحد.',
+    '«قطعًا» — إن لم يأتِ الغلاف يوم الخميس، يخرج خطّ الغوطة بلا غلاف ويصل أربعة عملاء اعتذارٌ، والمرّة القادمة التي أقول فيها «قطعًا» لا يصدّقها أحد.',
   'The second part is the expensive one. And the credit?':
     'الجزء الثاني هو المكلف. والإشعار الدائن؟',
   'Probably — if it is not settled, nothing happens, because probably has already told whoever is reading it to plan for both.':
-    '*على الأرجح* — إن لم يُسوَّ، لا يحدث شيء، لأنّ *على الأرجح* قالت لمن يقرأ أصلًا أن يخطّط للاثنين.',
+    '«على الأرجح» — إن لم يُسوَّ، لا يحدث شيء، لأنّ «على الأرجح» قالت لمن يقرأ أصلًا أن يخطّط للاثنين.',
   'So probably is almost free, and definitely costs you the word itself. And possibly?':
-    'فـ*على الأرجح* شبه مجّانية، و*قطعًا* تكلّفك الكلمة نفسها. و*احتمالًا*؟',
+    'فـ«على الأرجح» شبه مجّانية، و«قطعًا» تكلّفك الكلمة نفسها. و«احتمالًا»؟',
   'Possibly costs nothing at all if it is wrong, which is why it is the one I use when I have not looked.':
-    '*احتمالًا* لا تكلّف شيئًا على الإطلاق إن كانت خطأً، ولهذا هي التي أستخدمها حين لم أنظر.',
+    '«احتمالًا» لا تكلّف شيئًا على الإطلاق إن كانت خطأً، ولهذا هي التي أستخدمها حين لم أنظر.',
   'There it is. ⚠ Possibly is the most misused word in business writing, because it is free. It is doing honest work when you have looked and genuinely do not know, and it is doing dishonest work when it means I have not looked.':
-    'ها هي. ⚠ *احتمالًا* أكثر كلمة يُسيء الناس استخدامها في كتابة العمل، لأنها مجّانية. هي تؤدّي عملًا صادقًا حين تكون قد نظرتَ ولا تعرف فعلًا، وتؤدّي عملًا غير صادق حين تعني *لم أنظر*.',
+    'ها هي. ⚠ «احتمالًا» أكثر كلمة يُسيء الناس استخدامها في كتابة العمل، لأنها مجّانية. هي تؤدّي عملًا صادقًا حين تكون قد نظرتَ ولا تعرف فعلًا، وتؤدّي عملًا غير صادق حين تعني «لم أنظر».',
   'And nobody can tell which from the outside.':
     'ولا يستطيع أحد من الخارج أن يميّز أيّهما.',
   'Nobody — which is exactly why the discipline has to be yours. ⚠ The repair is one clause: possibly, and what I have not checked is the carrier\'s schedule. A hedge with its reason attached cannot be used to hide behind.':
-    'لا أحد — ولهذا بالضبط يجب أن يكون الضبط منك. ⚠ والإصلاح جملة واحدة: *احتمالًا، والذي لم أتحقّق منه هو جدول الناقل*. والتحوّط الذي سببه ملحق به لا يمكن أن يُستخدَم للتواري.',
+    'لا أحد — ولهذا بالضبط يجب أن يكون الضبط منك. ⚠ والإصلاح جملة واحدة: «احتمالًا، والذي لم أتحقّق منه هو جدول الناقل». والتحوّط الذي سببه ملحق به لا يمكن أن يُستخدَم للتواري.',
   'And definitely?':
-    'و*قطعًا*؟',
+    'و«قطعًا»؟',
   'Spend it about four times a year. ⚠ It is the only one of the three that is worth anything, and it is only worth anything because of the occasions on which you did not use it.':
     'اصرفها نحو أربع مرّات في السنة. ⚠ هي الوحيدة من الثلاث التي تساوي شيئًا، ولا تساوي شيئًا إلّا بسبب المرّات التي لم تستخدمها فيها.',
   'The goods will possibly arrive before Thursday.':
     'ستصل البضاعة قبل الخميس احتمالًا.',
   'What does possibly cost if it turns out wrong?':
-    'وكم تكلّف *احتمالًا* إن ثبت أنها خطأ؟',
+    'وكم تكلّف «احتمالًا» إن ثبت أنها خطأ؟',
   'Nothing. I have hedged it.':
     'لا شيء. تحوّطتُ.',
   'And what have you checked?':
@@ -341,11 +341,11 @@ PBE5.arabic({
   '…Nothing. I have not telephoned the carrier.':
     '…لا شيء. لم أهاتف الناقل.',
   'So the true sentence is not possibly. What is it?':
-    'فالجملة الصحيحة ليست *احتمالًا*. ما هي؟',
+    'فالجملة الصحيحة ليست «احتمالًا». ما هي؟',
   'I have not asked the carrier and I will do so this morning.':
-    '*لم أسأل الناقل وسأفعل هذا الصباح.*',
+    '«لم أسأل الناقل وسأفعل هذا الصباح.»',
   '⚠ Which is a worse-looking sentence and a better one, because somebody reading possibly would have planned around it and somebody reading yours will wait twenty minutes and get a real answer.':
-    '⚠ وهي جملة أسوأ شكلًا وأفضل منها، لأنّ مَن يقرأ *احتمالًا* كان سيخطّط حولها ومَن يقرأ جملتك سينتظر عشرين دقيقة ويحصل على جواب حقيقي.',
+    '⚠ وهي جملة أسوأ شكلًا وأفضل منها، لأنّ مَن يقرأ «احتمالًا» كان سيخطّط حولها ومَن يقرأ جملتك سينتظر عشرين دقيقة ويحصل على جواب حقيقي.',
   'I have photographed the pallet but the insurer wants it described in the report as well.':
     'صوّرتُ المنصّة لكنّ المؤمِّن يريدها موصوفة في التقرير أيضًا.',
   'Then write it so that I could draw it without the photograph. Three things in every line: where, how big, and what it is next to.':
@@ -359,13 +359,13 @@ PBE5.arabic({
   'Now I can draw it. And the word you have not used is the useful one.':
     'الآن أستطيع أن أرسمها. والكلمة التي لم تستخدمها هي النافعة.',
   'Damaged?':
-    '*تالف*؟',
+    '«تالف»؟',
   'You have not used it, which is why the sentence works. ⚠ Damaged is a conclusion wearing the clothes of a description: it tells me you have decided something and not what you can see. Split, crushed, torn, bent, soaked — those I can draw. Damaged I cannot.':
-    'لم تستخدمها، ولهذا تنجح الجملة. ⚠ *تالف* استنتاج يلبس ثوب الوصف: يقول لي إنك قرّرتَ شيئًا لا ما تستطيع أن تراه. مشقوق، مسحوق، ممزّق، منحنٍ، مغمور — تلك أستطيع أن أرسمها. و«تالف» لا أستطيع.',
+    'لم تستخدمها، ولهذا تنجح الجملة. ⚠ «تالف» استنتاج يلبس ثوب الوصف: يقول لي إنك قرّرتَ شيئًا لا ما تستطيع أن تراه. مشقوق، مسحوق، ممزّق، منحنٍ، مغمور — تلك أستطيع أن أرسمها. و«تالف» لا أستطيع.',
   'And what is sound? Do I say that?':
     'وما هو سليم؟ هل أقول ذلك؟',
   '⚠ Always. The top boards are sound is as much a fact as the split, and in six months it will be the sentence that matters, because somebody will claim the whole pallet.':
-    '⚠ دائمًا. *الألواح العليا سليمة* واقعة بقدر ما الشقّ واقعة، وبعد ستّة أشهر ستكون هي الجملة المهمّة، لأنّ أحدًا سيطالب بالمنصّة كلّها.',
+    '⚠ دائمًا. «الألواح العليا سليمة» واقعة بقدر ما الشقّ واقعة، وبعد ستّة أشهر ستكون هي الجملة المهمّة، لأنّ أحدًا سيطالب بالمنصّة كلّها.',
   'The two cartons on the split side are crushed on their lower corners.':
     'الكرتونتان في الجهة المشقوقة مسحوقتان في زاويتيهما السفليّتين.',
   'Which corners, and how far up?':
@@ -407,7 +407,7 @@ PBE5.arabic({
   'I know, and the credit is going out either way, so there would have been nothing in it for me.':
     'أعرف، والإشعار الدائن سيخرج في الحالتين، فلم يكن فيها شيء لي.',
   'There is one thing. It did not come off my lorry at my gate. ⚠ It went to the market first because the driver had another drop, and it was lifted off and on again there — I did not know that until I asked him this morning, and I asked him because you had said after wrapping.':
-    'هناك شيء واحد. لم تنزل من شاحنتي عند بوّابتي. ⚠ ذهبت إلى السوق أولًا لأنّ عند السائق نقطة أخرى، ورُفعت ونُزّلت هناك — لم أكن أعرف ذلك حتى سألتُه هذا الصباح، وسألتُه لأنك قلتَ *بعد التغليف*.',
+    'هناك شيء واحد. لم تنزل من شاحنتي عند بوّابتي. ⚠ ذهبت إلى السوق أولًا لأنّ عند السائق نقطة أخرى، ورُفعت ونُزّلت هناك — لم أكن أعرف ذلك حتى سألتُه هذا الصباح، وسألتُه لأنك قلتَ «بعد التغليف».',
   'Then that is the forklift, probably, and neither of us owns it.':
     'فتلك هي الرافعة، على الأرجح، ولا واحد منّا يملكها.',
   'Probably. ⚠ And I would not have gone and asked him at all if you had told me it was my man, because I would have paid it and been annoyed with him for a month.':

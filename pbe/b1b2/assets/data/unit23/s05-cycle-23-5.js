@@ -112,7 +112,7 @@ PBE6.page('u23-s05', {
         }]
   },
   worked: {
-    task: 'Write *the position, graded* for something in your trade.',
+    task: 'Write “the position, graded” for something in your trade.',
     weak: 'The plater has given notice of twelve per cent, the Hama suspension is '
       + 'on two grades, and a Homs works may reopen in the autumn.',
     change: ['Never two grades of certainty in one paragraph. Three headings, and '

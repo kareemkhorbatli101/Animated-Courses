@@ -280,7 +280,7 @@ PBE3.page('u12-s02', {
       questions: [{
             q: '1 tea with a visitor',
             model: 'It\'s polite to offer tea to anybody who comes in, even for two '
-              + 'minutes — it\'s how you say you are not in a hurry.',
+              + 'minutes — it\'s how you say you are not in a hurry',
             minWords: 6,
             rows: 3
           },
@@ -288,28 +288,28 @@ PBE3.page('u12-s02', {
             q: '2 taking your shoes off',
             model: 'It\'s polite to take your shoes off at the door; it is about the '
               + 'carpet and about the house being a different place from the '
-              + 'street.',
+              + 'street',
             minWords: 6,
             rows: 3
           },
       {
             q: '3 bringing something when you visit',
             model: 'People usually bring something small — not expensive, because '
-              + 'expensive makes a debt.',
+              + 'expensive makes a debt',
             minWords: 4,
             rows: 2
           },
       {
             q: '4 refusing twice before accepting',
             model: 'It\'s usual to refuse twice before accepting; the refusal is not '
-              + 'a refusal, it is a way of saying "don\'t trouble yourself".',
+              + 'a refusal, it is a way of saying "don\'t trouble yourself"',
             minWords: 6,
             rows: 3
           },
       {
             q: '5 standing up when an older person comes in',
             model: 'People stand up when an older person comes in; it costs a second '
-              + 'and it is noticed when it does not happen.',
+              + 'and it is noticed when it does not happen',
             minWords: 6,
             rows: 3
           }],
@@ -327,16 +327,16 @@ PBE3.page('u12-s02', {
             q: 'Listen again. What is the custom about the second cup?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *custom* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>custom</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour say about arriving early?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -565,15 +565,16 @@ PBE3.page('u12-s02', {
             q: 'Why is the first ten minutes not about price?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *minutes* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>minutes</i> '
+              + 'in it.'
           },
       {
             q: 'What is the one thing the page says matters most?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *matters* in it.'
+              + 'above for the line with <i>matters</i> in it.'
           }],
       ideas: ['Grammar – describing a custom'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

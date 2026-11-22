@@ -289,8 +289,8 @@ PBE4.page('u21-s02', {
             q: 'Listen again. What does Nour say she is not complaining about?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does she ask for at the end?',
@@ -537,21 +537,21 @@ PBE4.page('u21-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *evidence* in it.'
+              + 'above for the line with <i>evidence</i> in it.'
           },
       {
             q: 'What does the last line before the signature do?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *signature* in it.'
+              + 'line with <i>signature</i> in it.'
           },
       {
             q: 'What two things are asked for, and which one is unusual?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *unusual* in it.'
+              + 'above for the line with <i>unusual</i> in it.'
           }],
       ideas: ['Dear Ms Shamsi,'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

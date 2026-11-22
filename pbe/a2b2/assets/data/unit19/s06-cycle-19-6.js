@@ -295,16 +295,16 @@ PBE4.page('u19-s06', {
             q: 'Listen again. What does Nour do at the end of the call?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What one thing is deliberately left open, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *deliberately* in it. Play it '
-              + 'again with the subtitles on.'
+              + 'dialogue above for the line with <i>deliberately</i> in it. Play '
+              + 'it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -534,21 +534,22 @@ PBE4.page('u19-s06', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *paragraph* in it.'
+              + 'above for the line with <i>paragraph</i> in it.'
           },
       {
             q: 'Which term protects the supplier, and which protects the buyer?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *protects* in it.'
+              + 'in the text above for the line with <i>protects</i> in it.'
           },
       {
             q: 'Why does the last line say a reply is not needed if it is all right?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *needed* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>needed</i> in '
+              + 'it.'
           }],
       ideas: ['Dear Ms Shamsi,',
       'Everything else stays as it is',

@@ -309,16 +309,16 @@ PBE4.page('u16-s04', {
             q: 'Listen again. What has not happened since 2019?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *happened* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>happened</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Why does Nadia want the exact date, not the month?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *Nadia* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with <i>Nadia</i> '
+              + 'in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -539,15 +539,16 @@ PBE4.page('u16-s04', {
             q: 'Why does the page keep the old date underneath the new one?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *underneath* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with '
+              + '<i>underneath</i> in it.'
           },
       {
             q: 'Which two facts are put together to explain the margin?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *together* in it.'
+              + 'in the text above for the line with <i>together</i> in it.'
           },
       {
             q: 'What does "without a gap since January 2021" add that "every '
@@ -555,7 +556,7 @@ PBE4.page('u16-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *January* in it.'
+              + 'above for the line with <i>January</i> in it.'
           }],
       ideas: ['Grammar – measuring the period',
       'Quote, question, stop'],

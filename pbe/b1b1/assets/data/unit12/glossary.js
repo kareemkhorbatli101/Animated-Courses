@@ -23,7 +23,7 @@ PBE5.glossary({
     ar: 'والسبب هو…'
   },
   "not *I think maybe*": {
-    term: 'not *I think maybe*',
+    term: 'not “I think maybe”',
     en: 'Refusing the stack of hedges that leaves a view not worth having.',
     ar: 'لا «أظنّ ربّما»'
   },
@@ -106,7 +106,7 @@ PBE5.glossary({
     ar: 'قل ذلك مرّة أخرى'
   },
   "not *anything to add?*": {
-    term: 'not *anything to add?*',
+    term: 'not “anything to add?”',
     en: 'Refusing the question that has never once produced anything.',
     ar: 'لا «هل من إضافة؟»'
   },

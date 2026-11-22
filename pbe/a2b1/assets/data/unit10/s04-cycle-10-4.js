@@ -310,16 +310,16 @@ PBE3.page('u10-s04', {
             q: 'Listen again. What does the clinic ask for?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *clinic* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>clinic</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Why does Nour not take the Thursday appointment?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with <i>Nour</i> '
+              + 'in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -539,21 +539,21 @@ PBE3.page('u10-s04', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *clinic* in it.'
+              + 'in the text above for the line with <i>clinic</i> in it.'
           },
       {
             q: 'What should Abu Yasser tell the doctor about his work?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Yasser* in it.'
+              + 'above for the line with <i>Yasser</i> in it.'
           },
       {
             q: 'What does Nour tell him not to do, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *Nour* in it.'
+              + 'line with <i>Nour</i> in it.'
           }],
       ideas: ['ABU YASSER — your appointment',
       'Grammar – making an appointment'],

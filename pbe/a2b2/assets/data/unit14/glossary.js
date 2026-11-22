@@ -165,7 +165,8 @@ PBE4.glossary({
   },
   "That is fair": {
     term: 'That is fair',
-    en: 'Three words that concede a point without ending the argument.',
+    en: 'What you say when somebody\'s share of the credit or the blame is '
+      + 'correctly placed.',
     ar: 'هذا منصف'
   },
   "Put it on next Monday's list": {

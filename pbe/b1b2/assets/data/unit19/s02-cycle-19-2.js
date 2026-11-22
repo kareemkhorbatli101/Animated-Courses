@@ -112,7 +112,7 @@ PBE6.page('u19-s02', {
         }]
   },
   worked: {
-    task: 'Write *what has been done to it, and by whom* for something at your work.',
+    task: 'Write “what has been done to it, and by whom” for something at your work.',
     weak: 'We have serviced the machine twice since November and cleaned the rollers.',
     change: ['Use HAVE SOMETHING DONE for the work somebody else did. <i>We '
           + 'serviced it</i> claims a capability you do not have, and the answer '

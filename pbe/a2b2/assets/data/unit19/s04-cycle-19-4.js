@@ -287,16 +287,16 @@ PBE4.page('u19-s04', {
             q: 'Listen again. What three facts are chosen for the reference?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *reference* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>reference</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour refuse to write, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -525,21 +525,22 @@ PBE4.page('u19-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *adjectives* in it.'
+              + 'in the text above for the line with <i>adjectives</i> in it.'
           },
       {
             q: 'Why does it mention the two short deliveries?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *deliveries* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with '
+              + '<i>deliveries</i> in it.'
           },
       {
             q: 'What does the second-to-last paragraph do?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *second-to-last* in it.'
+              + 'line with <i>second-to-last</i> in it.'
           }],
       ideas: ['TRADING REFERENCE — Shamsi Packaging, Aleppo',
       'To whom it may concern,'],

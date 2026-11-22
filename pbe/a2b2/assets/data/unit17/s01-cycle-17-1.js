@@ -290,16 +290,16 @@ PBE4.page('u17-s01', {
             q: 'Listen again. What reason does she give?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *reason* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>reason</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Ayoub ask her that she has already answered?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Ayoub* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Ayoub</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -524,21 +524,22 @@ PBE4.page('u17-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *something* in it.'
+              + 'above for the line with <i>something</i> in it.'
           },
       {
             q: 'What does each option cost, and who pays each cost?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *option* in it.'
+              + 'above for the line with <i>option</i> in it.'
           },
       {
             q: 'Why is the last paragraph there?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *paragraph* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>paragraph</i> '
+              + 'in it.'
           }],
       ideas: ['Dear Mr Ayoub,',
       'Thank you. Nour Mansour'],

@@ -292,16 +292,16 @@ PBE3.page('u3-s01', {
             q: 'Listen again. How many desks are there?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *desks* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>desks</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What is there not in the office?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *office* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>office</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -507,22 +507,23 @@ PBE3.page('u3-s01', {
             q: 'Why are there seven chairs and only six desks?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *chairs* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>chairs</i> in '
+              + 'it.'
           },
       {
             q: 'Which two machines are not in the office?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *machines* in it.'
+              + 'in the text above for the line with <i>machines</i> in it.'
           },
       {
             q: 'What does Nour offer at the end?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           }],
       ideas: ['Dear colleagues,'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

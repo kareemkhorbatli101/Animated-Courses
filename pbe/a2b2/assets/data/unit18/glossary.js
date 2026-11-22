@@ -10,12 +10,13 @@ PBE4.glossary({
   },
   "Please find attached…": {
     term: 'Please find attached…',
-    en: 'The line that tells the reader a file came with the message, and what it is.',
+    en: 'The line that tells an email\'s reader there is a file with it, and says '
+      + 'what the file is.',
     ar: 'تجدون في المرفق…'
   },
   "Could you confirm by…?": {
     term: 'Could you confirm by…?',
-    en: 'How an email asks for a reply rather than hoping for one.',
+    en: 'How an email asks for an answer by a day, which is how an answer arrives.',
     ar: 'هل يمكنكم التأكيد قبل…؟'
   },
   "Please let me know by…": {

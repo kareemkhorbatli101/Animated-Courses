@@ -264,16 +264,16 @@ PBE3.page('u5-s07', {
             q: 'Listen again. What was the customer really looking at?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *customer* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>customer</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'How much does he actually owe?',
             minWords: 6,
             rows: 2,
             hint: 'A quantity or a price. If it is money, keep the book\'s figures. '
-              + 'Look in the dialogue above for the line with *actually* in it. '
-              + 'Play it again with the subtitles on.'
+              + 'Look in the dialogue above for the line with <i>actually</i> in '
+              + 'it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

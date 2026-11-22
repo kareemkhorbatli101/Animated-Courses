@@ -286,7 +286,7 @@ PBE3.page('u9-s06', {
       {
             q: '2 Further to our recent discussions, and as per your request, '
               + 'please find attached.',
-            model: 'As discussed, please find attached the price list.',
+            model: 'As discussed, please find attached the price list',
             minWords: 2,
             rows: 2
           },
@@ -310,16 +310,16 @@ PBE3.page('u9-s06', {
             q: 'Listen again. What does Nadia cut first?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nadia* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nadia</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does she say about "thanks in advance"?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *advance* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>advance</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -541,21 +541,21 @@ PBE3.page('u9-s06', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *version* in it.'
+              + 'above for the line with <i>version</i> in it.'
           },
       {
             q: 'What survives from the long version, and why does it survive?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *survives* in it.'
+              + 'above for the line with <i>survives</i> in it.'
           },
       {
             q: 'What is in the subject line that is not in the "before" version at all?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *subject* in it.'
+              + 'above for the line with <i>subject</i> in it.'
           }],
       ideas: ['Before — 148 words',
       'After — 61 words'],

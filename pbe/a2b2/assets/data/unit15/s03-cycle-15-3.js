@@ -275,14 +275,14 @@ PBE4.page('u15-s03', {
       questions: [{
             q: '1 a quotation nobody has sent',
             model: 'If we do not send the quotation this week, we will lose it; we '
-              + 'lose a little margin, or we lose the customer.',
+              + 'lose a little margin, or we lose the customer',
             minWords: 6,
             rows: 3
           },
       {
             q: '2 a part nobody has ordered',
             model: 'Unless the part is ordered today, the machine stands another '
-              + 'week — one day of hire, or a week of downtime.',
+              + 'week — one day of hire, or a week of downtime',
             minWords: 6,
             rows: 3
           },
@@ -315,15 +315,16 @@ PBE4.page('u15-s03', {
             q: 'Listen again. How long has the customer been waiting?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *customer* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>customer</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Ayoub decide, and what does he refuse to do?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *Ayoub* in it. Play it again with the subtitles on.'
+              + 'line with <i>Ayoub</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -542,21 +543,22 @@ PBE4.page('u15-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *decision* in it.'
+              + 'above for the line with <i>decision</i> in it.'
           },
       {
             q: 'Why is there a paragraph headed "why this is not a precedent"?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *paragraph* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>paragraph</i> '
+              + 'in it.'
           },
       {
             q: 'What would the writer have done if the delay had been the supplier\'s?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *supplier\'s* in it.'
+              + 'above for the line with <i>supplier\'s</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

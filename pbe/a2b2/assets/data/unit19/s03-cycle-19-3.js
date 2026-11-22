@@ -292,16 +292,16 @@ PBE4.page('u19-s03', {
             q: 'Listen again. Which offer costs the company nothing?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *company* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>company</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does the customer actually choose?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *customer* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>customer</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -524,21 +524,21 @@ PBE4.page('u19-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *customer* in it.'
+              + 'line with <i>customer</i> in it.'
           },
       {
             q: 'Which offer has a sentence admitting something, and what does it admit?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *admitting* in it.'
+              + 'in the text above for the line with <i>admitting</i> in it.'
           },
       {
             q: 'What is the alternative offered at the end?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *alternative* in it.'
+              + 'above for the line with <i>alternative</i> in it.'
           }],
       ideas: ['Dear Mr Haffar,',
       'Making a conditional offer'],

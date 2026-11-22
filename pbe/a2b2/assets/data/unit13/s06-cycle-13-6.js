@@ -296,15 +296,16 @@ PBE4.page('u13-s06', {
             q: 'Listen again. What three parts did Hala\'s answer have?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Hala\'s* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Hala\'s</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What did she do when she finished?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *finished* in it. Play it again with the subtitles on.'
+              + 'line with <i>finished</i> in it. Play it again with the '
+              + 'subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -523,21 +524,21 @@ PBE4.page('u13-s06', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *Language* in it.'
+              + 'in the text above for the line with <i>Language</i> in it.'
           },
       {
             q: 'Where does she name her gap, and what does she put after it?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *name* in it.'
+              + 'the line with <i>name</i> in it.'
           },
       {
             q: 'What does the last short paragraph offer?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *paragraph* in it.'
+              + 'above for the line with <i>paragraph</i> in it.'
           }],
       ideas: ['Dear Mr Ayoub,'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

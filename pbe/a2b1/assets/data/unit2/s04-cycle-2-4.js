@@ -290,16 +290,16 @@ PBE3.page('u2-s04', {
             q: 'Listen again. What is Nour doing?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What is Nadia doing this week?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nadia* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nadia</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -502,21 +502,21 @@ PBE3.page('u2-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *afternoon* in it.'
+              + 'above for the line with <i>afternoon</i> in it.'
           },
       {
             q: 'Where is Nadia working this week, and until when?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *Nadia* in it.'
+              + 'the line with <i>Nadia</i> in it.'
           },
       {
             q: 'What is Nour not doing today?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           }],
       ideas: ['Dear Mr Ayoub,'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

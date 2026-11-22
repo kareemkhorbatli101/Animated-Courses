@@ -292,16 +292,16 @@ PBE4.page('u13-s04', {
             q: 'Listen again. Where did Hala work in 2019?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Hala* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Hala</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Nadia say the tense tells a reader?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nadia* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nadia</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -514,21 +514,21 @@ PBE4.page('u13-s04', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *written* in it.'
+              + 'in the text above for the line with <i>written</i> in it.'
           },
       {
             q: 'Which job is written in the past simple, and why?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *written* in it.'
+              + 'in the text above for the line with <i>written</i> in it.'
           },
       {
             q: 'What does the bakery entry tell a reader that the pharmacy entry does not?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *pharmacy* in it.'
+              + 'above for the line with <i>pharmacy</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

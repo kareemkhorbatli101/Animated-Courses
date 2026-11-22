@@ -300,8 +300,8 @@ PBE4.page('u20-s06', {
             q: 'Listen again. What does she confirm immediately after thanking him?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *immediately* in '
-              + 'it. Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>immediately</i> '
+              + 'in it. Play it again with the subtitles on.'
           },
       {
             q: 'What does he ask for, and what does she say?',
@@ -536,21 +536,21 @@ PBE4.page('u20-s06', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *thanked* in it.'
+              + 'above for the line with <i>thanked</i> in it.'
           },
       {
             q: 'What will happen in November, and who will do it?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *November* in it.'
+              + 'above for the line with <i>November</i> in it.'
           },
       {
             q: 'What does the writer promise to put in the reference, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *reference* in it.'
+              + 'above for the line with <i>reference</i> in it.'
           }],
       ideas: ['Mr Rateb,',
       'Thanking properly, and closing the job',

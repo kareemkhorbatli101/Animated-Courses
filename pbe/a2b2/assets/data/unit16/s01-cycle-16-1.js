@@ -275,25 +275,25 @@ PBE4.page('u16-s01', {
           },
       {
             q: '2 the post',
-            model: 'We used to send everything by post.',
+            model: 'We used to send everything by post',
             minWords: 2,
             rows: 2
           },
       {
             q: '3 money',
-            model: 'We used to be paid in cash.',
+            model: 'We used to be paid in cash',
             minWords: 2,
             rows: 2
           },
       {
             q: '4 how people found you',
-            model: 'Customers used to come in person.',
+            model: 'Customers used to come in person',
             minWords: 2,
             rows: 2
           },
       {
             q: '5 what the office looked like',
-            model: 'There used to be a map on the wall.',
+            model: 'There used to be a map on the wall',
             minWords: 3,
             rows: 2
           }],
@@ -311,16 +311,16 @@ PBE4.page('u16-s01', {
             q: 'Listen again. Why did the handwritten book have two columns?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *handwritten* in '
-              + 'it. Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>handwritten</i> '
+              + 'in it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Abu Yasser say he does not miss?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Yasser* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Yasser</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -538,21 +538,22 @@ PBE4.page('u16-s01', {
             q: 'Find the sentence that says why the history is being written down at all.',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *history* in it.'
+            hint: 'Look in the text above for the line with <i>history</i> in it.'
           },
       {
             q: 'Which paragraph describes something that was worse in the past?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *paragraph* in it.'
+              + 'in the text above for the line with <i>paragraph</i> in it.'
           },
       {
             q: 'Why are "what we gained" and "what we lost" both there?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *gained* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>gained</i> in '
+              + 'it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

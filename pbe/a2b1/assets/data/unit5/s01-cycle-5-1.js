@@ -287,16 +287,16 @@ PBE3.page('u5-s01', {
             q: 'Listen again. How much is one small box?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *small* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>small</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What is the price for a hundred?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *hundred* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>hundred</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -509,20 +509,20 @@ PBE3.page('u5-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A quantity or a price. If it is money, keep the book\'s figures. '
-              + 'Look in the text above for the line with *small* in it.'
+              + 'Look in the text above for the line with <i>small</i> in it.'
           },
       {
             q: 'Until when are the prices good?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *prices* in it.'
+            hint: 'Look in the text above for the line with <i>prices</i> in it.'
           },
       {
             q: 'What does Nour offer at the end, and what would it get the customer?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           }],
       ideas: ['Dear Mr Tarabishi,'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

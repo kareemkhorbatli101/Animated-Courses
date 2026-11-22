@@ -301,16 +301,16 @@ PBE3.page('u1-s06', {
             minWords: 6,
             rows: 2,
             hint: 'Digits. Say them in groups, the way the book reads them back. '
-              + 'Look in the dialogue above for the line with *number* in it. '
-              + 'Play it again with the subtitles on.'
+              + 'Look in the dialogue above for the line with <i>number</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'How many boxes does Ms Shamsi send?',
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the dialogue above for the line with *Shamsi* in it. Play it '
-              + 'again with the subtitles on.'
+              + 'in the dialogue above for the line with <i>Shamsi</i> in it. '
+              + 'Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -511,21 +511,21 @@ PBE3.page('u1-s06', {
             minWords: 6,
             rows: 2,
             hint: 'A person: their name, or their job if the line gives no name. '
-              + 'Look in the text above for the line with *message* in it.'
+              + 'Look in the text above for the line with <i>message</i> in it.'
           },
       {
             q: 'What is the change to the order?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *change* in it.'
+              + 'above for the line with <i>change</i> in it.'
           },
       {
             q: 'What must Mr Ayoub do, and when?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Ayoub* in it.'
+              + 'above for the line with <i>Ayoub</i> in it.'
           }],
       ideas: ['Action: Please call her before Monday',
       'Taken by: N. Mansour'],

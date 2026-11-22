@@ -269,9 +269,9 @@ PBE4.page('u24-s01', {
               + 'a telephone call you decide to make now 3 a price rise you '
               + 'expect 4 a meeting in the diary 5 something you are only '
               + 'considering',
-            model: 'going to — the lease is the arrangement. · will — decided as you '
-              + 'speak. · will — a prediction. · are meeting or going to meet — '
-              + 'it is in the diary. · neither — we hope to, which is 24.2.',
+            model: 'going to — the lease is the arrangement · will — decided as you '
+              + 'speak · will — a prediction · are meeting or going to meet — it '
+              + 'is in the diary · neither — we hope to, which is 24.2',
             minWords: 6,
             rows: 3
           }],
@@ -289,8 +289,8 @@ PBE4.page('u24-s01', {
             q: 'Listen again. What is the test for going to?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *going* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>going</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does he say will is for?',
@@ -510,21 +510,22 @@ PBE4.page('u24-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *evidence* in it.'
+              + 'above for the line with <i>evidence</i> in it.'
           },
       {
             q: 'Why is the Homs plan in its own paragraph with its own heading?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Homs* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Homs</i> in '
+              + 'it.'
           },
       {
             q: 'What does the last paragraph answer, and who was asking it?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *paragraph* in it.'
+              + 'above for the line with <i>paragraph</i> in it.'
           }],
       ideas: ['Going to and will'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

@@ -112,7 +112,7 @@ PBE6.page('u24-s05', {
         }]
   },
   worked: {
-    task: 'Write *the next twelve months, graded*.',
+    task: 'Write “the next twelve months, graded”.',
     weak: 'Next year: the Tannous consignments, the market note, the B2 '
       + 'examination, and a visit to Beirut.',
     change: ['Grade them the way a board position is graded: ARRANGED means '

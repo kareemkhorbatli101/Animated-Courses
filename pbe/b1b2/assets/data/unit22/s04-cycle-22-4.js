@@ -112,7 +112,7 @@ PBE6.page('u22-s04', {
         }]
   },
   worked: {
-    task: 'Write *the two applicants* for an interview at your work, or two people '
+    task: 'Write “the two applicants” for an interview at your work, or two people '
       + 'you have seen interviewed.',
     weak: 'The second applicant only lasted five weeks at his last job, which is a worry.',
     change: ['Record WHO raised the awkward fact and when. The identical answer is '

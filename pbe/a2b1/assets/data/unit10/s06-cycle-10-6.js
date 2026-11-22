@@ -283,13 +283,13 @@ PBE3.page('u10-s06', {
           },
       {
             q: '2 Get well soon.',
-            model: 'Take your time; the stock count is moved and nobody asked you.',
+            model: 'Take your time; the stock count is moved and nobody asked you',
             minWords: 4,
             rows: 2
           },
       {
             q: '3 Don\'t worry about work.',
-            model: 'Don\'t think about Thursday — the report is put back a week.',
+            model: 'Don\'t think about Thursday — the report is put back a week',
             minWords: 3,
             rows: 2
           },
@@ -301,7 +301,7 @@ PBE3.page('u10-s06', {
           },
       {
             q: '5 Hope you\'re better soon.',
-            model: 'Rest properly, and don\'t come back and do it again in June.',
+            model: 'Rest properly, and don\'t come back and do it again in June',
             minWords: 4,
             rows: 2
           }],
@@ -319,16 +319,16 @@ PBE3.page('u10-s06', {
             q: 'Listen again. What does Mr Ayoub tell him not to think about?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Ayoub* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Ayoub</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour offer that is actually useful?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -547,22 +547,24 @@ PBE3.page('u10-s06', {
             q: 'Why does the message say "this message needs no reply"?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *message* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>message</i> '
+              + 'in it.'
           },
       {
             q: 'What does the last line mean?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *last* in it.'
+              + 'above for the line with <i>last</i> in it.'
           },
       {
             q: 'Why is Hala\'s sentence in the message?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Hala\'s* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Hala\'s</i> '
+              + 'in it.'
           }],
       ideas: ['Abu Yasser,'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

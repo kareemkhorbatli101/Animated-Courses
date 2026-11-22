@@ -295,16 +295,16 @@ PBE4.page('u15-s01', {
             q: 'Listen again. Since when has it been doing it?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Since* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Since</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What has already been tried?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *already* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>already</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -527,21 +527,21 @@ PBE4.page('u15-s01', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *engineer* in it.'
+              + 'in the text above for the line with <i>engineer</i> in it.'
           },
       {
             q: 'What is the cost of the fault, and why is it in the report at all?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *report* in it.'
+              + 'above for the line with <i>report</i> in it.'
           },
       {
             q: 'What exactly is being asked for?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *exactly* in it.'
+              + 'above for the line with <i>exactly</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

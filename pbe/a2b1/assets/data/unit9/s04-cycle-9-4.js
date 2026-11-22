@@ -272,34 +272,34 @@ PBE3.page('u9-s04', {
       questions: [{
             q: '1 leave at three on Wednesday',
             model: 'Is it OK if I leave at three on Wednesday? I\'ll finish the '
-              + 'orders and Hala can take the counter.',
+              + 'orders and Hala can take the counter',
             minWords: 6,
             rows: 3
           },
       {
             q: '2 take Thursday off',
             model: 'Is it OK if I take Thursday off? I\'ll do the Thursday post on '
-              + 'Wednesday evening.',
+              + 'Wednesday evening',
             minWords: 5,
             rows: 2
           },
       {
             q: '3 come in late on Sunday',
-            model: 'Could I come in at ten on Sunday? I\'ll stay until five to cover it.',
+            model: 'Could I come in at ten on Sunday? I\'ll stay until five to cover it',
             minWords: 5,
             rows: 2
           },
       {
             q: '4 use the boardroom for an hour',
             model: 'Is it OK if I use the boardroom from two to three? Nothing is '
-              + 'booked and I\'ll leave it as I found it.',
+              + 'booked and I\'ll leave it as I found it',
             minWords: 6,
             rows: 3
           },
       {
             q: '5 take the small van at lunchtime',
             model: 'Could I take the small van at lunchtime? I\'ll be back before '
-              + 'the two o\'clock load.',
+              + 'the two o\'clock load',
             minWords: 5,
             rows: 2
           }],
@@ -317,16 +317,16 @@ PBE3.page('u9-s04', {
             q: 'Listen again. What does she offer?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *offer* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>offer</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Ayoub ask her to change?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Ayoub* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Ayoub</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -545,21 +545,21 @@ PBE3.page('u9-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Email* in it.'
+              + 'above for the line with <i>Email</i> in it.'
           },
       {
             q: 'Which email takes longer to answer, and why?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *longer* in it.'
+              + 'in the text above for the line with <i>longer</i> in it.'
           },
       {
             q: 'What is in Email 2 that is not needed at all?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Email* in it.'
+              + 'above for the line with <i>Email</i> in it.'
           }],
       ideas: ['Subject: request',
       'Grammar – asking permission'],

@@ -271,10 +271,10 @@ PBE4.page('u22-s05', {
               + 'no name 2 a bank, with a name 3 a supplier of eleven years 4 a '
               + 'colleague 5 a customer complaining',
             model: 'Dear Sir or Madam → Yours faithfully in a letter, Best regards '
-              + 'in an email. · Dear Mr Haddad → Yours sincerely / Best regards. '
-              + '· Dear Dima → Kind regards. · Hello Fadi → Regards or nothing. · '
+              + 'in an email · Dear Mr Haddad → Yours sincerely / Best regards · '
+              + 'Dear Dima → Kind regards · Hello Fadi → Regards or nothing · '
               + 'Dear Mr Haffar → Best regards — and nothing warmer while the '
-              + 'complaint is open.',
+              + 'complaint is open',
             minWords: 6,
             rows: 3
           }],
@@ -292,15 +292,15 @@ PBE4.page('u22-s05', {
             q: 'Listen again. What does Nour say about "Thank you in advance"?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What must a signature block contain?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *signature* in it. Play it '
+              + 'dialogue above for the line with <i>signature</i> in it. Play it '
               + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
@@ -516,21 +516,21 @@ PBE4.page('u22-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *mentioned* in it.'
+              + 'in the text above for the line with <i>mentioned</i> in it.'
           },
       {
             q: 'What is forbidden in the signature block?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *forbidden* in it.'
+              + 'above for the line with <i>forbidden</i> in it.'
           },
       {
             q: 'What evidence is given for the telephone number rule?',
             minWords: 6,
             rows: 2,
             hint: 'Digits. Say them in groups, the way the book reads them back. '
-              + 'Look in the text above for the line with *telephone* in it.'
+              + 'Look in the text above for the line with <i>telephone</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

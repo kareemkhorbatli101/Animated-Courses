@@ -124,7 +124,7 @@ PBE5.glossary({
     ar: 'ملفّان، وصوتان'
   },
   "*an error was made* — by whom?": {
-    term: '*an error was made* — by whom?',
+    term: '“an error was made” — by whom?',
     en: 'How you catch a passive that is hiding the only fact that matters.',
     ar: '«حدث خطأ» — على يد مَن؟'
   },

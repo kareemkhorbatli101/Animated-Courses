@@ -143,6 +143,8 @@ PBE4.page('u21-s04', {
             q: 'Put these in order, cheapest to dearest: a replacement · a '
               + 'credit note · a refund · a goodwill gesture · doing it again '
               + 'properly',
+            model: 'Cheapest to dearest, roughly: doing it again properly · a '
+              + 'replacement · a credit note · a goodwill gesture · a refund',
             minWords: 6,
             rows: 2,
             hint: 'One answer for each item, and every item gets one. Do the ones '
@@ -289,16 +291,16 @@ PBE4.page('u21-s04', {
             q: 'Listen again. What does the customer say he does not want?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *customer* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>customer</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour offer that was not asked for, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -527,21 +529,22 @@ PBE4.page('u21-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *remedies* in it.'
+              + 'above for the line with <i>remedies</i> in it.'
           },
       {
             q: 'What does "what this does not cover" do, and why is it unusual?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *unusual* in it.'
+              + 'line with <i>unusual</i> in it.'
           },
       {
             q: 'Why is a mobile number at the bottom rather than the office one?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *mobile* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>mobile</i> in '
+              + 'it.'
           }],
       ideas: ['Dear Mr Haffar,',
       'Quote, question, stop'],

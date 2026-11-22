@@ -112,7 +112,7 @@ PBE6.page('u23-s04', {
         }]
   },
   worked: {
-    task: 'Write *the same information with and without the third sentence*.',
+    task: 'Write “the same information with and without the third sentence”.',
     weak: 'Deliveries at Hama are suspended. The sales office told me so on 21 July.',
     change: ['Add the third sentence - what is NOT known. Without it a reader '
           + 'thinks everything else is settled and telephones nobody.',

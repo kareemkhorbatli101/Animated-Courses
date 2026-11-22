@@ -271,34 +271,34 @@ PBE3.page('u3-s06', {
       instruction: 'Explain each one in two sentences (It\'s a kind of… You use it to…).',
       questions: [{
             q: '1 a stapler',
-            model: 'A stapler is a small metal thing. You use it to hold papers together.',
+            model: 'A stapler is a small metal thing. You use it to hold papers together',
             minWords: 4,
             rows: 2
           },
       {
             q: '2 a trolley',
             model: 'A trolley is a kind of small cart with wheels. You use it to '
-              + 'move heavy boxes.',
+              + 'move heavy boxes',
             minWords: 5,
             rows: 2
           },
       {
             q: '3 a ladder',
-            model: 'A ladder is made of metal or wood. You use it to reach high shelves.',
+            model: 'A ladder is made of metal or wood. You use it to reach high shelves',
             minWords: 5,
             rows: 2
           },
       {
             q: '4 plastic wrap',
             model: 'Plastic wrap is a kind of thin plastic on a roll. You use it to '
-              + 'hold the boxes on a pallet.',
+              + 'hold the boxes on a pallet',
             minWords: 6,
             rows: 3
           },
       {
             q: '5 a filing cabinet',
             model: 'A filing cabinet is a tall metal cupboard with drawers. You use '
-              + 'it to keep papers in order.',
+              + 'it to keep papers in order',
             minWords: 6,
             rows: 2
           }],
@@ -316,8 +316,8 @@ PBE3.page('u3-s06', {
             q: 'Listen again. What are the corners made of?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *corners* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>corners</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What are they for?',
@@ -538,9 +538,9 @@ PBE3.page('u3-s06', {
             q: 'Why do you use edge protectors?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Your own workplace, not the book\'s. Say it out loud once before '
-              + 'you write it - a sentence or two is enough.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Your own workplace, not the book\'s. Say it out loud once '
+              + 'before you write it - a sentence or two is enough.'
           },
       {
             q: 'What must you do with an old strap?',

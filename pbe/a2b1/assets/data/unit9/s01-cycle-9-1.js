@@ -314,8 +314,8 @@ PBE3.page('u9-s01', {
               'responsible'],
             need: 1,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *only* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>only</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -535,21 +535,21 @@ PBE3.page('u9-s01', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *counter* in it.'
+              + 'in the text above for the line with <i>counter</i> in it.'
           },
       {
             q: 'What is "the test", and what does it decide?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *decide* in it.'
+              + 'above for the line with <i>decide</i> in it.'
           },
       {
             q: 'What does the last paragraph add that the lists cannot?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *paragraph* in it.'
+              + 'above for the line with <i>paragraph</i> in it.'
           }],
       ideas: ['Grammar – saying what is yours'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

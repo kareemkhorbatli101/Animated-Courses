@@ -278,28 +278,28 @@ PBE3.page('u7-s06', {
       questions: [{
             q: '1 morning meetings',
             model: 'I prefer morning meetings. / I\'d rather meet in the morning '
-              + 'than after lunch, because people listen before they are tired.',
+              + 'than after lunch, because people listen before they are tired',
             minWords: 6,
             rows: 3
           },
       {
             q: '2 email',
             model: 'I prefer email to the telephone. / I\'d rather write than '
-              + 'telephone, because then there is a record.',
+              + 'telephone, because then there is a record',
             minWords: 5,
             rows: 2
           },
       {
             q: '3 working in a team',
             model: 'I prefer working in a team. / I\'d rather work with somebody '
-              + 'than alone, because I find my own mistakes too late.',
+              + 'than alone, because I find my own mistakes too late',
             minWords: 6,
             rows: 3
           },
       {
             q: '4 an early finish',
             model: 'I prefer an early finish. / I\'d rather finish early than take a '
-              + 'long lunch, because the traffic doubles after five.',
+              + 'long lunch, because the traffic doubles after five',
             minWords: 6,
             rows: 3
           },
@@ -307,7 +307,7 @@ PBE3.page('u7-s06', {
             q: '5 the office, not the warehouse',
             model: 'I\'d prefer to meet in the office. / I\'d rather sit down than '
               + 'stand in the warehouse, because nothing gets written down '
-              + 'standing up.',
+              + 'standing up',
             minWords: 6,
             rows: 3
           }],
@@ -325,16 +325,16 @@ PBE3.page('u7-s06', {
             q: 'Listen again. Why does Abu Yasser prefer the morning?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Yasser* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Yasser</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Where does Nour prefer to meet, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the dialogue above '
-              + 'for the line with *Nour* in it. Play it again with the subtitles '
-              + 'on.'
+              + 'for the line with <i>Nour</i> in it. Play it again with the '
+              + 'subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -555,14 +555,14 @@ PBE3.page('u7-s06', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *Sham* in it.'
+              + 'in the text above for the line with <i>Sham</i> in it.'
           },
       {
             q: 'What is the real reason behind the preference?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *preference* in it.'
+              + 'above for the line with <i>preference</i> in it.'
           },
       {
             q: 'What third option does Nour invent, and what does the supplier '
@@ -570,7 +570,7 @@ PBE3.page('u7-s06', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           }],
       ideas: ['Dear Ms Shamsi,',
       'Grammar – prefer and would rather'],

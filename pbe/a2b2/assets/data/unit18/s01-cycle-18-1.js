@@ -303,15 +303,16 @@ PBE4.page('u18-s01', {
             q: 'Listen again. What does Nour say a subject line is for?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What is the last line of a work email for?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *email* in it. Play it again with the subtitles on.'
+              + 'line with <i>email</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -539,21 +540,21 @@ PBE4.page('u18-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *version* in it.'
+              + 'in the text above for the line with <i>version</i> in it.'
           },
       {
             q: 'What does version 2 do that version 1 never does?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *version* in it.'
+              + 'line with <i>version</i> in it.'
           },
       {
             q: 'What is the point of "If they are not, I will order them here"?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *point* in it.'
+              + 'above for the line with <i>point</i> in it.'
           }],
       ideas: ['Subject: Hello',
       'Dear Ms Shamsi,'],

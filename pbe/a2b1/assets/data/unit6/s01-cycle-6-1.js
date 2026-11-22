@@ -225,7 +225,7 @@ PBE3.page('u6-s01', {
             options: [{
               t: 'the van carries one and a half tonnes and the load is nearly two',
               ok: true,
-              why: 'He separates *can* from *should*: it is possible and it is '
+              why: 'He separates “can” from “should”: it is possible and it is '
                 + 'over the weight.'
             },
             {
@@ -306,8 +306,8 @@ PBE3.page('u6-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A way of doing it, not a yes or a no. Look in the dialogue above '
-              + 'for the line with *Hama* in it. Play it again with the subtitles '
-              + 'on.'
+              + 'for the line with <i>Hama</i> in it. Play it again with the '
+              + 'subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -523,21 +523,21 @@ PBE3.page('u6-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A way of doing it, not a yes or a no. Look in the text above for '
-              + 'the line with *driving* in it.'
+              + 'the line with <i>driving</i> in it.'
           },
       {
             q: 'What must the customer do before signing?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *customer* in it.'
+              + 'above for the line with <i>customer</i> in it.'
           },
       {
             q: 'What is not enough, if something is damaged?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *something* in it.'
+              + 'above for the line with <i>something</i> in it.'
           }],
       ideas: ['Received by: Date and time: Signature:'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

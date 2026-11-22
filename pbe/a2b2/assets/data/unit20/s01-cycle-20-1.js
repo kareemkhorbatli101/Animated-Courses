@@ -287,16 +287,16 @@ PBE4.page('u20-s01', {
             q: 'Listen again. What has been done to it so far?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *done* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>done</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'Why does Abu Yasser object to the word "adjusting"?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *Yasser* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with '
+              + '<i>Yasser</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -515,21 +515,21 @@ PBE4.page('u20-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *dates* in it.'
+              + 'above for the line with <i>dates</i> in it.'
           },
       {
             q: 'Which item is not for Thursday, and why is it on the list?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *Thursday* in it.'
+              + 'in the text above for the line with <i>Thursday</i> in it.'
           },
       {
             q: 'What does the warning at the bottom ask for, and what does it offer?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *warning* in it.'
+              + 'above for the line with <i>warning</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

@@ -302,16 +302,16 @@ PBE4.page('u16-s03', {
             q: 'Listen again. What is not as good as it used to be?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *good* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>good</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What is better, and by how much?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *better* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>better</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -531,21 +531,21 @@ PBE4.page('u16-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *paragraph* in it.'
+              + 'above for the line with <i>paragraph</i> in it.'
           },
       {
             q: 'Which change turns out to be no change at all, and why?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *change* in it.'
+              + 'in the text above for the line with <i>change</i> in it.'
           },
       {
             q: 'Find the sentence that is the saddest, and say why it is in a '
               + 'company history.',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *saddest* in it.'
+            hint: 'Look in the text above for the line with <i>saddest</i> in it.'
           }],
       ideas: ['Is it better?',
       'Grammar – comparing then and now'],

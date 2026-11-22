@@ -293,16 +293,16 @@ PBE3.page('u5-s02', {
             q: 'Listen again. Which supplier is cheaper?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *supplier* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>supplier</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Why does Mr Ayoub not choose the cheaper one?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *Ayoub* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with <i>Ayoub</i> '
+              + 'in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -517,21 +517,21 @@ PBE3.page('u5-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A quantity or a price. If it is money, keep the book\'s figures. '
-              + 'Look in the text above for the line with *Shamsi* in it.'
+              + 'Look in the text above for the line with <i>Shamsi</i> in it.'
           },
       {
             q: 'What are the two advantages of Khalil?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Khalil* in it.'
+              + 'above for the line with <i>Khalil</i> in it.'
           },
       {
             q: 'What does Nour recommend, and when would she use the other supplier?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           }],
       ideas: ['Grammar – comparatives'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

@@ -290,16 +290,16 @@ PBE4.page('u15-s02', {
             q: 'Listen again. Which suggestion is rejected, and why?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *suggestion* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>suggestion</i> '
+              + 'in it. Play it again with the subtitles on.'
           },
       {
             q: 'What is decided in the end?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *decided* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>decided</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -520,21 +520,21 @@ PBE4.page('u15-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A way of doing it, not a yes or a no. Look in the text above for '
-              + 'the line with *option* in it.'
+              + 'the line with <i>option</i> in it.'
           },
       {
             q: 'Which option does she rule out, and does she hide it?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *option* in it.'
+              + 'in the text above for the line with <i>option</i> in it.'
           },
       {
             q: 'What does the last line do?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *last* in it.'
+              + 'line with <i>last</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

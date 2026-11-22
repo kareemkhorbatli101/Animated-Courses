@@ -112,7 +112,7 @@ PBE6.page('u23-s02', {
         }]
   },
   worked: {
-    task: 'Write *the same thing four ways* for something you have been told at work.',
+    task: 'Write “the same thing four ways” for something you have been told at work.',
     weak: 'The sales office claimed the suspension is on the heavy brown only.',
     change: ['Use SAID unless you have a reason not to - it reports and takes no '
           + 'position, and it is right nine times in ten.',

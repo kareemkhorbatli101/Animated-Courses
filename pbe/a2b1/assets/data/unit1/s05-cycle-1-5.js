@@ -299,16 +299,16 @@ PBE3.page('u1-s05', {
             q: 'Listen again. What does Abu Yasser do first every morning?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Yasser* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Yasser</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does he not like doing?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *doing* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>doing</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -508,21 +508,21 @@ PBE3.page('u1-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *Nour* in it.'
+              + 'line with <i>Nour</i> in it.'
           },
       {
             q: 'Who gets the orders after Nour writes them?',
             minWords: 6,
             rows: 2,
             hint: 'A person: their name, or their job if the line gives no name. '
-              + 'Look in the text above for the line with *Nour* in it.'
+              + 'Look in the text above for the line with <i>Nour</i> in it.'
           },
       {
             q: 'What does she do on Thursdays?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *Thursdays* in it.'
+              + 'line with <i>Thursdays</i> in it.'
           }],
       ideas: ['ASSISTANT — DUTIES (first week)',
       'Grammar – verb + -ing'],

@@ -275,13 +275,12 @@ PBE4.page('u24-s03', {
               + 'delivery day 2 a stock count 3 a price change 4 a new supplier 5 '
               + 'a training hour each week',
             model: 'We would like to try Saturdays in Mezzeh only, for six weeks; if '
-              + 'fewer than thirty orders come, we stop. · We suggest counting '
-              + 'the twenty fastest lines for four Fridays, then reviewing. · We '
-              + 'would like to hold one price for twenty-one days as a trial on '
-              + 'wrap only. · We suggest one order of ten boxes from the new '
-              + 'supplier, checked on arrival. · We would like to try one English '
-              + 'hour a week for a month; if attendance falls below four, we '
-              + 'stop.',
+              + 'fewer than thirty orders come, we stop · We suggest counting the '
+              + 'twenty fastest lines for four Fridays, then reviewing · We would '
+              + 'like to hold one price for twenty-one days as a trial on wrap '
+              + 'only · We suggest one order of ten boxes from the new supplier, '
+              + 'checked on arrival · We would like to try one English hour a '
+              + 'week for a month; if attendance falls below four, we stop',
             minWords: 6,
             rows: 3
           }],
@@ -299,16 +298,16 @@ PBE4.page('u24-s03', {
             q: 'Listen again. Why does she want a small first step?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *small* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>small</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does she say every proposal must say about stopping?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *proposal* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>proposal</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -529,21 +528,21 @@ PBE4.page('u24-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *conditional* in it.'
+              + 'in the text above for the line with <i>conditional</i> in it.'
           },
       {
             q: 'What makes the exit cheap?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *cheap* in it.'
+              + 'above for the line with <i>cheap</i> in it.'
           },
       {
             q: 'What does the last paragraph ask for, and what does it promise?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *paragraph* in it.'
+              + 'above for the line with <i>paragraph</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

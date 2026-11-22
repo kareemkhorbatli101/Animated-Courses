@@ -263,16 +263,16 @@ PBE4.page('u22-s07', {
             q: 'Listen again. What does the long email never do?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *email* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>email</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour say about the word "urgent" in the subject line?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

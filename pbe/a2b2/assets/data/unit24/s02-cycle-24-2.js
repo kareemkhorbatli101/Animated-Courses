@@ -273,12 +273,12 @@ PBE4.page('u24-s02', {
               + 'machine 3 hiring somebody 4 a price reduction 5 a training '
               + 'course',
             model: 'We hope to open a second store, if we find a lease at or below '
-              + '1,200 a month. We will know by March. · We hope to buy a second '
-              + 'press, if the first one pays for itself by June. · We hope to '
-              + 'take somebody on, if the Saturday trial brings thirty orders. · '
+              + '1,200 a month. We will know by March · We hope to buy a second '
+              + 'press, if the first one pays for itself by June · We hope to '
+              + 'take somebody on, if the Saturday trial brings thirty orders · '
               + 'We hope to reduce prices, if the import route reopens; we will '
-              + 'know by the end of the quarter. · We aim to run an English hour '
-              + 'every week from September, if we can close at four on Thursdays.',
+              + 'know by the end of the quarter · We aim to run an English hour '
+              + 'every week from September, if we can close at four on Thursdays',
             minWords: 6,
             rows: 3
           }],
@@ -296,15 +296,15 @@ PBE4.page('u24-s02', {
             q: 'Listen again. What does Nour add after every we hope to?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does she say about a hope with no condition on it?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *condition* in it. Play it '
+              + 'dialogue above for the line with <i>condition</i> in it. Play it '
               + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
@@ -528,21 +528,21 @@ PBE4.page('u24-s02', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *paragraph* in it.'
+              + 'in the text above for the line with <i>paragraph</i> in it.'
           },
       {
             q: 'What is the number in "what it depends on" doing there?',
             minWords: 6,
             rows: 2,
             hint: 'Digits. Say them in groups, the way the book reads them back. '
-              + 'Look in the text above for the line with *depends* in it.'
+              + 'Look in the text above for the line with <i>depends</i> in it.'
           },
       {
             q: 'What does the writer promise to do even if the answer is no?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *promise* in it.'
+              + 'line with <i>promise</i> in it.'
           }],
       ideas: ['Dear Mr Haffar,',
       'Saying what you intend',

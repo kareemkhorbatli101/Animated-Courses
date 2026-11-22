@@ -280,7 +280,7 @@ PBE4.page('u22-s03', {
               + 'price for 300 units by Friday? · Would you be able to visit on '
               + 'Tuesday or Wednesday morning? · Could you send a corrected '
               + 'invoice 3318 by Thursday? · Could you confirm today whether the '
-              + '12th is possible? If not, I will use the alternative.',
+              + '12th is possible? If not, I will use the alternative',
             minWords: 6,
             rows: 3
           }],
@@ -299,16 +299,16 @@ PBE4.page('u22-s03', {
               + 'could possibly assist us in this matter"?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *grateful* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>grateful</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does she say politeness is made of?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *politeness* in it. Play it '
-              + 'again with the subtitles on.'
+              + 'dialogue above for the line with <i>politeness</i> in it. Play '
+              + 'it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -535,21 +535,21 @@ PBE4.page('u22-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *asked* in it.'
+              + 'above for the line with <i>asked</i> in it.'
           },
       {
             q: 'What is the request that is not about the statement?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *statement* in it.'
+              + 'above for the line with <i>statement</i> in it.'
           },
       {
             q: 'What does the writer offer, and why does it help?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *writer* in it.'
+              + 'above for the line with <i>writer</i> in it.'
           }],
       ideas: ['Dear Mr Haddad,',
       'Quote, question, stop'],

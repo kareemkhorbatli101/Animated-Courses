@@ -112,7 +112,7 @@ PBE6.page('u24-s02', {
         }]
   },
   worked: {
-    task: 'Write *the questions and what each got* for a week at your work.',
+    task: 'Write “the questions and what each got” for a week at your work.',
     weak: 'I asked Abu Yasser whether he was marking tonight and he said yes.',
     change: ['Record what the answer was worth. <i>Yes</i> about tonight tells '
           + 'nobody anything about Friday, and Friday is the lorry.',

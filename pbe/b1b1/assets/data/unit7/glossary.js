@@ -59,7 +59,7 @@ PBE5.glossary({
   },
   "so … that…": {
     term: 'so … that…',
-    en: 'Turning *very* into a consequence, which is the one thing *very* cannot do.',
+    en: 'Turning “very” into a consequence, which is the one thing “very” cannot do.',
     ar: 'من… إلى حدّ أنّ…'
   },
   "so many … that…": {
@@ -187,7 +187,7 @@ PBE5.glossary({
     ar: 'لم يسبّب هذا أيّ شخص'
   },
   "*led to*, not *caused*": {
-    term: '*led to*, not *caused*',
+    term: '“led to”, not “caused”',
     en: 'Correcting the strength of a claim in a report, which is usually the '
       + 'whole of the dispute.',
     ar: '«أدّى إلى»، لا «سبّب»'

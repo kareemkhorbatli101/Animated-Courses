@@ -285,7 +285,7 @@ PBE4.page('u24-s06', {
               + 'Homs. We have learned to count before we sign. We are going to '
               + 'open on Baghdad Street on · Thank you for the two nights of the '
               + 'stock count. What went wrong was the list. We have learned to '
-              + 'print it first. The next count is · January. · June.',
+              + 'print it first. The next count is · January · June',
             minWords: 6,
             rows: 3
           }],
@@ -303,16 +303,16 @@ PBE4.page('u24-s06', {
             q: 'Listen again. What does he say about thanking everybody?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *everybody* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>everybody</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What is the one sentence he wants at the end?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *wants* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>wants</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -547,21 +547,21 @@ PBE4.page('u24-s06', {
             minWords: 6,
             rows: 2,
             hint: 'A way of doing it, not a yes or a no. Look in the text above for '
-              + 'the line with *August* in it.'
+              + 'the line with <i>August</i> in it.'
           },
       {
             q: 'Whose decision was Homs, and why does the note say so?',
             minWords: 6,
             rows: 2,
             hint: 'Whose it is - a name with an apostrophe s. Look in the text '
-              + 'above for the line with *Homs* in it.'
+              + 'above for the line with <i>Homs</i> in it.'
           },
       {
             q: 'What is promised about next year\'s news?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *promised* in it.'
+              + 'above for the line with <i>promised</i> in it.'
           }],
       ideas: ['Thank you. Khaled Ayoub'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

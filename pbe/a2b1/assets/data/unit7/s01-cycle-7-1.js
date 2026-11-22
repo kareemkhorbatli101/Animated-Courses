@@ -275,31 +275,31 @@ PBE3.page('u7-s01', {
       instruction: 'Answer with can or can\'t and add what exactly.',
       questions: [{
             q: '1 Can you use the accounts system?',
-            model: 'I can use it, but only to look, not to change anything.',
+            model: 'I can use it, but only to look, not to change anything',
             minWords: 4,
             rows: 2
           },
       {
             q: '2 Can you sign an invoice?',
-            model: 'I can\'t — Mr Ayoub signs at four every day.',
+            model: 'I can\'t — Mr Ayoub signs at four every day',
             minWords: 3,
             rows: 2
           },
       {
             q: '3 Can you drive the van?',
-            model: 'I can drive it, but I haven\'t driven it with a full load.',
+            model: 'I can drive it, but I haven\'t driven it with a full load',
             minWords: 4,
             rows: 2
           },
       {
             q: '4 Can you take the minutes?',
-            model: 'I can take them, but I write slowly; I\'d need the agenda first.',
+            model: 'I can take them, but I write slowly; I\'d need the agenda first',
             minWords: 4,
             rows: 2
           },
       {
             q: '5 Can you show Hala the counter?',
-            model: 'I can, on Thursday afternoon — not Thursday morning, the lorry comes.',
+            model: 'I can, on Thursday afternoon — not Thursday morning, the lorry comes',
             minWords: 3,
             rows: 2
           }],
@@ -328,9 +328,9 @@ PBE3.page('u7-s01', {
               'practise',
               'samples'],
             need: 1,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *can\'t* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with '
+              + '<i>can\'t</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -544,21 +544,21 @@ PBE3.page('u7-s01', {
             q: 'Name two things Nour can do without asking anybody.',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *Nour* in it.'
+            hint: 'Look in the text above for the line with <i>Nour</i> in it.'
           },
       {
             q: 'What must she do before entering an invoice for 180,000?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *entering* in it.'
+              + 'above for the line with <i>entering</i> in it.'
           },
       {
             q: 'What does Nadia prefer, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nadia* in it.'
+              + 'above for the line with <i>Nadia</i> in it.'
           }],
       ideas: ['Grammar – can / can\'t'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

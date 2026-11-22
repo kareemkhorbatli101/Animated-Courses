@@ -292,16 +292,16 @@ PBE3.page('u5-s03', {
             q: 'Listen again. Which is the cheapest?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *cheapest* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>cheapest</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Which one does Nour choose, and why?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the dialogue above for the line with *Nour* in it. Play it '
-              + 'again with the subtitles on.'
+              + 'in the dialogue above for the line with <i>Nour</i> in it. Play '
+              + 'it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -520,20 +520,22 @@ PBE3.page('u5-s03', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *cheapest* in it.'
+              + 'in the text above for the line with <i>cheapest</i> in it.'
           },
       {
             q: 'Why does Nour not recommend the cheapest?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           },
       {
             q: 'When would she recommend Noor?',
             minWords: 6,
             rows: 2,
-            hint: 'A time or a day. Look in the text above for the line with *Noor* in it.'
+            hint: 'A time or a day. Look in the text above for the line with '
+              + '<i>Noor</i> in it.'
           }],
       ideas: ['Grammar – superlatives'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

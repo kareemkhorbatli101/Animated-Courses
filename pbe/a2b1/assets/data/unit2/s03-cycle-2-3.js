@@ -273,31 +273,31 @@ PBE3.page('u2-s03', {
       instruction: 'Put the word in the right place.',
       questions: [{
             q: '1 I check my email at nine. (always)',
-            model: 'I always check my email at nine.',
+            model: 'I always check my email at nine',
             minWords: 2,
             rows: 2
           },
       {
             q: '2 She is late. (never)',
-            model: 'She is never late.',
+            model: 'She is never late',
             minWords: 1,
             rows: 2
           },
       {
             q: '3 We count the stock. (twice a month)',
-            model: 'We count the stock twice a month.',
+            model: 'We count the stock twice a month',
             minWords: 2,
             rows: 2
           },
       {
             q: '4 Bassel works in the office. (sometimes)',
-            model: 'Bassel sometimes works in the office.',
+            model: 'Bassel sometimes works in the office',
             minWords: 2,
             rows: 2
           },
       {
             q: '5 The lorry is on time. (usually)',
-            model: 'The lorry is usually on time.',
+            model: 'The lorry is usually on time',
             minWords: 2,
             rows: 2
           }],
@@ -315,15 +315,16 @@ PBE3.page('u2-s03', {
             q: 'Listen again. How often does Abu Yasser count the whole stock?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Yasser* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Yasser</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does he do every morning?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *morning* in it. Play it again with the subtitles on.'
+              + 'line with <i>morning</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -528,14 +529,14 @@ PBE3.page('u2-s03', {
             minWords: 6,
             rows: 2,
             hint: 'How many times in what - twice a day, every Thursday. Look in '
-              + 'the text above for the line with *counted* in it.'
+              + 'the text above for the line with <i>counted</i> in it.'
           },
       {
             q: 'What does Abu Yasser check every morning?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Yasser* in it.'
+              + 'above for the line with <i>Yasser</i> in it.'
           },
       {
             q: 'What must you do if the shelf and the screen are different?',

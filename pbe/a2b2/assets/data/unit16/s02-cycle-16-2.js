@@ -306,16 +306,16 @@ PBE4.page('u16-s02', {
             q: 'Listen again. What has not changed?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *changed* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>changed</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Ayoub say about the word "grown"?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Ayoub* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Ayoub</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -540,7 +540,7 @@ PBE4.page('u16-s02', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *paragraph* in it.'
+              + 'in the text above for the line with <i>paragraph</i> in it.'
           },
       {
             q: 'What fact is given about the original forty customers, and why '
@@ -548,14 +548,15 @@ PBE4.page('u16-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *customers* in it.'
+              + 'above for the line with <i>customers</i> in it.'
           },
       {
             q: 'Why is there a paragraph about what has not changed?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *paragraph* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>paragraph</i> '
+              + 'in it.'
           }],
       ideas: ['What has changed since 1998',
       'Quote, question, stop'],

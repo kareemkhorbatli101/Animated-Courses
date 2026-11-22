@@ -289,16 +289,16 @@ PBE4.page('u21-s01', {
             q: 'Listen again. Where were the damaged boxes on the pallet?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *damaged* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>damaged</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Why does Abu Yasser photograph it before it is moved?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *Yasser* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with '
+              + '<i>Yasser</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -525,21 +525,22 @@ PBE4.page('u21-s01', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *refuses* in it.'
+              + 'in the text above for the line with <i>refuses</i> in it.'
           },
       {
             q: 'Why does the report say what has not been done?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *report* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>report</i> in '
+              + 'it.'
           },
       {
             q: 'What two things is the supplier offered, and what is the deadline?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *supplier* in it.'
+              + 'above for the line with <i>supplier</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

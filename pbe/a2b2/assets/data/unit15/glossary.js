@@ -38,8 +38,8 @@ PBE4.glossary({
   },
   "Why don't we…?": {
     term: 'Why don\'t we…?',
-    en: 'The commonest way to suggest something at work. It is a question, so it '
-      + 'can be refused.',
+    en: 'The shape a suggestion takes at work. It is a question, so it can be '
+      + 'refused without anybody losing face.',
     ar: 'لماذا لا…؟'
   },
   "What about…?": {

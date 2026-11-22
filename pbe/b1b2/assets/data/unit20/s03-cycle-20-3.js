@@ -112,7 +112,7 @@ PBE6.page('u20-s03', {
         }]
   },
   worked: {
-    task: 'Write *which steps can be undone* for a job at your work.',
+    task: 'Write “which steps can be undone” for a job at your work.',
     weak: 'Steps 5, 9, 11 and 13 should be done with extra care.',
     change: ['Mark only the steps that CANNOT be put right - two, not four. Ask '
           + 'for extra attention four times and the reader picks two, and they '

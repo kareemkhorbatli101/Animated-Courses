@@ -275,12 +275,12 @@ PBE4.page('u24-s04', {
               + '2 a stock count 3 taking on somebody new 4 a delivery day 5 '
               + 'closing the year',
             model: 'First the lease, because nothing else is worth spending on until '
-              + 'it is signed. · First print the list, because you cannot count '
-              + 'against a list you do not have. · At the same time, start the '
-              + 'registration — it takes three weeks. · First tell the customers, '
-              + 'because a delivery day nobody knows about is an empty van. · '
+              + 'it is signed · First print the list, because you cannot count '
+              + 'against a list you do not have · At the same time, start the '
+              + 'registration — it takes three weeks · First tell the customers, '
+              + 'because a delivery day nobody knows about is an empty van · '
               + 'First close the ledger, so that the count has something to be '
-              + 'checked against.',
+              + 'checked against',
             minWords: 6,
             rows: 3
           }],
@@ -299,16 +299,16 @@ PBE4.page('u24-s04', {
               + 'done at the same time?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Ayoub* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Ayoub</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'Why does he want a reason on each step?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *reason* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with '
+              + '<i>reason</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -534,21 +534,21 @@ PBE4.page('u24-s04', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *although* in it.'
+              + 'in the text above for the line with <i>although</i> in it.'
           },
       {
             q: 'What reason is given for opening on a Monday?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Monday* in it.'
+              + 'above for the line with <i>Monday</i> in it.'
           },
       {
             q: 'What does the last line decide in advance?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *advance* in it.'
+              + 'above for the line with <i>advance</i> in it.'
           }],
       ideas: ['Ordering a plan, with reasons',
       'Quote, question, stop'],

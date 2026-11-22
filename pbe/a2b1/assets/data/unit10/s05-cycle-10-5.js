@@ -271,34 +271,34 @@ PBE3.page('u10-s05', {
       questions: [{
             q: '1 somebody stepping back towards a pallet',
             model: 'Stop! Don\'t step back. → There\'s a pallet behind you. Step '
-              + 'forward, towards me.',
+              + 'forward, towards me',
             minWords: 4,
             rows: 2
           },
       {
             q: '2 a hand near a moving belt',
             model: 'Don\'t touch that! → The belt\'s still moving. Wait for it to '
-              + 'stop, then clear it.',
+              + 'stop, then clear it',
             minWords: 5,
             rows: 2
           },
       {
             q: '3 somebody about to lift alone',
-            model: 'Put it down. → That\'s over twenty-five. I\'ll take the other end.',
+            model: 'Put it down. → That\'s over twenty-five. I\'ll take the other end',
             minWords: 4,
             rows: 2
           },
       {
             q: '4 a child near a hot pan',
             model: 'Mind the pan! → The handle\'s over the flame. Turn it in — you '
-              + 'didn\'t put it there.',
+              + 'didn\'t put it there',
             minWords: 5,
             rows: 2
           },
       {
             q: '5 somebody walking into the forklift area',
             model: 'Stop — wait. → The forklift\'s reversing and he can\'t see you. '
-              + 'Go round by the wall.',
+              + 'Go round by the wall',
             minWords: 5,
             rows: 2
           }],
@@ -316,16 +316,16 @@ PBE3.page('u10-s05', {
             q: 'Listen again. What does Abu Yasser say first?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Yasser* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Yasser</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does he say afterwards, and why does it matter?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *afterwards* in it. Play it '
-              + 'again with the subtitles on.'
+              + 'dialogue above for the line with <i>afterwards</i> in it. Play '
+              + 'it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -548,21 +548,22 @@ PBE3.page('u10-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *person* in it.'
+              + 'above for the line with <i>person</i> in it.'
           },
       {
             q: 'What changed, and what deliberately did not?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *deliberately* in it.'
+              + 'above for the line with <i>deliberately</i> in it.'
           },
       {
             q: 'Why does Abu Yasser want it written down that he shouted?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Yasser* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Yasser</i> in '
+              + 'it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

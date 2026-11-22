@@ -269,15 +269,16 @@ PBE4.page('u15-s07', {
             q: 'Listen again. How many people does the report name?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *people* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>people</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What is the report actually asking Fadi to do?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *Fadi* in it. Play it again with the subtitles on.'
+              + 'line with <i>Fadi</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },

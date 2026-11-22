@@ -275,33 +275,32 @@ PBE4.page('u14-s03', {
       instruction: 'Turn each worry into a possibility with a size, and add one action for today.',
       questions: [{
             q: '1 the road',
-            model: 'The power may go to four hours a day — I will fill the generator '
-              + 'on Sunday.',
+            model: 'The power may go to four hours a day — I will fill the generator on Sunday',
             minWords: 5,
             rows: 2
           },
       {
             q: '2 the power',
-            model: 'The road may be closed for a week — I will send the Hama order early.',
+            model: 'The road may be closed for a week — I will send the Hama order early',
             minWords: 5,
             rows: 2
           },
       {
             q: '3 a late payment',
-            model: 'He may pay late again — I will telephone before the due date, not after.',
+            model: 'He may pay late again — I will telephone before the due date, not after',
             minWords: 4,
             rows: 2
           },
       {
             q: '4 a member of staff leaving',
             model: 'She may leave in the summer — I will start training the Saturday '
-              + 'assistant now.',
+              + 'assistant now',
             minWords: 4,
             rows: 2
           },
       {
             q: '5 a price rise',
-            model: 'Prices may rise ten per cent — I will ask for it in writing this week.',
+            model: 'Prices may rise ten per cent — I will ask for it in writing this week',
             minWords: 5,
             rows: 2
           }],
@@ -319,15 +318,16 @@ PBE4.page('u14-s03', {
             q: 'Listen again. What are the two reasons the shipment may be late?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *shipment* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>shipment</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour do instead of waiting to find out?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *Nour* in it. Play it again with the subtitles on.'
+              + 'line with <i>Nour</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -540,14 +540,14 @@ PBE4.page('u14-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *message* in it.'
+              + 'in the text above for the line with <i>message</i> in it.'
           },
       {
             q: 'What has already been done, and what does it buy?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *already* in it.'
+              + 'above for the line with <i>already</i> in it.'
           },
       {
             q: 'What does the writer promise at the end, and why does it include '
@@ -555,7 +555,7 @@ PBE4.page('u14-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *uncomfortable* in it.'
+              + 'above for the line with <i>uncomfortable</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

@@ -112,7 +112,7 @@ PBE6.page('u18-s05', {
         }]
   },
   worked: {
-    task: 'Write the *who asked whom* page for something at your work.',
+    task: 'Write the “who asked whom” page for something at your work.',
     weak: 'The marking was on the programme, line three, Abu Yasser.',
     change: ['A document is not an instruction. Write the sentence that was '
           + 'actually said, with a name, a verb and the person who said it.',

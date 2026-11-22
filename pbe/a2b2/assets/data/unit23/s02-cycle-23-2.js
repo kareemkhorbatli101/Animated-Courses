@@ -272,11 +272,11 @@ PBE4.page('u23-s02', {
             q: 'Describe each in two sentences — one there is/are, one there is '
               + 'no / there aren\'t any. 1 your office 2 the store room 3 the '
               + 'street outside 4 the building entrance 5 the nearest bank',
-            model: 'There are six desks and there is no second door. · There are two '
-              + 'store rooms; there aren\'t any windows. · There is parking for '
-              + 'three cars and there is no shade. · There are eleven steps and '
-              + 'there is no lift. · There is a bank two streets away; there '
-              + 'isn\'t a cash machine in the district.',
+            model: 'There are six desks and there is no second door · There are two '
+              + 'store rooms; there aren\'t any windows · There is parking for '
+              + 'three cars and there is no shade · There are eleven steps and '
+              + 'there is no lift · There is a bank two streets away; there '
+              + 'isn\'t a cash machine in the district',
             minWords: 6,
             rows: 3
           }],
@@ -294,16 +294,16 @@ PBE4.page('u23-s02', {
             q: 'Listen again. What does Hala say about listing what there is not?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Hala* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Hala</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'Why does she mention the generator?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the dialogue above for the line with *generator* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the dialogue above for the line with '
+              + '<i>generator</i> in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -517,22 +517,23 @@ PBE4.page('u23-s02', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *visitor* in it.'
+              + 'in the text above for the line with <i>visitor</i> in it.'
           },
       {
             q: 'Why is "legal until eleven" more useful than "there is no '
               + 'loading bay" alone?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *loading* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>loading</i> '
+              + 'in it.'
           },
       {
             q: 'What does the last line do that the rest does not?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *last* in it.'
+              + 'line with <i>last</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

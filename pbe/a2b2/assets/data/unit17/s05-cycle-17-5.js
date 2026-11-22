@@ -286,16 +286,16 @@ PBE4.page('u17-s05', {
             q: 'Listen again. What is he bad at, and what has he done about it?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *done* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>done</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour say about the pairing?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -517,21 +517,21 @@ PBE4.page('u17-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nadia* in it.'
+              + 'above for the line with <i>Nadia</i> in it.'
           },
       {
             q: 'What does every entry have in common?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *common* in it.'
+              + 'above for the line with <i>common</i> in it.'
           },
       {
             q: 'Which entry has no formal training, and what does it say instead?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *training* in it.'
+              + 'in the text above for the line with <i>training</i> in it.'
           }],
       ideas: ['Grammar – strengths and weaknesses'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

@@ -112,7 +112,7 @@ PBE6.page('u20-s04', {
         }]
   },
   worked: {
-    task: 'Write *the numbers on the page* for a job at your work.',
+    task: 'Write “the numbers on the page” for a job at your work.',
     weak: '7 Lower the platen and hold for four seconds.',
     change: ['Put the REASON on every step that carries a time or a count. A bare '
           + 'number is a suggestion in disguise and will be rounded down at two '

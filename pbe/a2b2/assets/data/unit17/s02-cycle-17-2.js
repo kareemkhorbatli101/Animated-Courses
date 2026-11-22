@@ -317,8 +317,8 @@ PBE4.page('u17-s02', {
               'partner'],
             need: 1,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -544,21 +544,21 @@ PBE4.page('u17-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A person: their name, or their job if the line gives no name. '
-              + 'Look in the text above for the line with *course* in it.'
+              + 'Look in the text above for the line with <i>course</i> in it.'
           },
       {
             q: 'Which session would most interest somebody who closes a month?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *interest* in it.'
+              + 'in the text above for the line with <i>interest</i> in it.'
           },
       {
             q: 'What are the two dates a reader must not confuse?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *confuse* in it.'
+              + 'above for the line with <i>confuse</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

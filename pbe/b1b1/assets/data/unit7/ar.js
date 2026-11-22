@@ -57,7 +57,7 @@ PBE5.arabic({
   'Work in pairs. A uses an adjective; B presses for the line that was crossed. Use the skeleton, then the role cards.':
     'اعملوا في أزواج. (أ) يستخدم صفة، و(ب) يضغط من أجل الخطّ الذي تُجوِّز. استخدموا الهيكل، ثم بطاقات الأدوار.',
   'Take five things that went wrong this year. For each, name the line crossed — or write nothing crossed.':
-    'خُذ خمسة أشياء سارت على نحو سيّئ هذه السنة. لكلّ واحد، سمِّ الخطّ الذي تُجوِّز — أو اكتب *لم يُتجاوَز شيء*.',
+    'خُذ خمسة أشياء سارت على نحو سيّئ هذه السنة. لكلّ واحد، سمِّ الخطّ الذي تُجوِّز — أو اكتب «لم يُتجاوَز شيء».',
   'Tell the class: It was so that . If it had been , none of that happens. Or: It was , and nothing was crossed.':
     'قل للصفّ: كان من أنّ . ولو كان ، لم يحدث شيء من ذلك. أو: كان ، ولم يُتجاوَز شيء.',
   'Read the page, and answer the questions.':
@@ -65,7 +65,7 @@ PBE5.arabic({
   'Write your own month ( 50 words or more ). Use the frame.':
     'اكتب شهرك ( ٥٠ كلمة أو أكثر ). استخدم الإطار.',
   'Swap books. Ask one question: does every so … that pass the smaller-version test? Tick ✓ or cross ✗.':
-    'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل تنجح كلّ *so … that* في اختبار النسخة الأصغر؟ ضع ✓ أو ✗.',
+    'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل تنجح كلّ «so … that» في اختبار النسخة الأصغر؟ ضع ✓ أو ✗.',
   'Two or three students read their line that crossed by doing nothing. The class says which of those nobody had ever reported.':
     'يقرأ طالبان أو ثلاثة الخطّ الذي تُجوِّز بلا أن يفعل أحد شيئًا. يقول الصفّ أيّ هذه لم يبلّغ عنه أحد قطّ.',
   'Write about something at your work that has crossed a line by nobody doing anything ( 100 to 140 words ). Say what it is, when it was still recoverable, and what would be needed now.':
@@ -87,7 +87,7 @@ PBE5.arabic({
   'Swap books. Ask one question: could a reader add a link after yours and think you had missed it? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل يستطيع القارئ أن يضيف حلقة بعد حلقتك ويظنّ أنك فوّتها؟ ضع ✓ أو ✗.',
   'Two or three students read their where this report stops. The class says which chain they would have extended, and to what.':
-    'يقرأ طالبان أو ثلاثة فقرة *حيث يتوقّف هذا التقرير*. يقول الصفّ أيّ سلسلة كان سيمدّها، وإلى أين.',
+    'يقرأ طالبان أو ثلاثة فقرة «حيث يتوقّف هذا التقرير». يقول الصفّ أيّ سلسلة كان سيمدّها، وإلى أين.',
   'Write about a time something at your work was explained by something nobody could change ( 100 to 140 words ). Say what the explanation was, whether it was true, and what stopped being discussed once it was said.':
     'اكتب عن مرّة فُسِّر فيها شيء في عملك بشيء لا يستطيع أحد تغييره ( ١٠٠ إلى ١٤٠ كلمة ). قل ما كان التفسير، وهل كان صحيحًا، وما توقّف النقاش فيه بعد أن قيل.',
   'Read your partner\'s text. Write on a slip: ★ what stopped being discussed ✓ which led to / and that in turn? ? which link could somebody there have pulled?':
@@ -95,7 +95,7 @@ PBE5.arabic({
   'Read three texts. In how many was the unchangeable explanation true? All of them, usually. ⚠ Which is the point: the sentence that ends a discussion is almost never a lie, and that is what makes it so effective.':
     'اقرأوا ثلاثة نصوص. في كم منها كان التفسير غير القابل للتغيير صحيحًا؟ في كلّها عادةً. ⚠ وتلك هي النقطة: الجملة التي تُنهي نقاشًا قلّ أن تكون كذبًا، وذلك بالضبط ما يجعلها بهذه الفعّالية.',
   'Work in pairs. A writes caused; B tests it and sorts the three claims. Use the skeleton, then the role cards.':
-    'اعملوا في أزواج. (أ) يكتب *caused*، و(ب) يختبرها ويصنّف الدعاوى الثلاث. استخدموا الهيكل، ثم بطاقات الأدوار.',
+    'اعملوا في أزواج. (أ) يكتب «caused»، و(ب) يختبرها ويصنّف الدعاوى الثلاث. استخدموا الهيكل، ثم بطاقات الأدوار.',
   'Take two real incidents and sort every factor into the four categories.':
     'خُذ حادثتين حقيقيّتين وصنّف كلّ عامل في الفئات الأربع.',
   'Tell the class your four lines. Then say which verb you would have used for all of it before this lesson.':
@@ -107,7 +107,7 @@ PBE5.arabic({
   'Swap books. Ask one question: does any sentence here put a whole loss on one person? Tick ✓ or cross ✗.':
     'تبادلوا الكتب. اسأل سؤالًا واحدًا: هل تضع أيّ جملة هنا خسارة كاملة على شخص واحد؟ ضع ✓ أو ✗.',
   'Two or three students read their not a factor paragraph. The class says who it protects, and from what.':
-    'يقرأ طالبان أو ثلاثة فقرة *ليس عاملًا* عندهم. يقول الصفّ مَن تحمي، ومِن ماذا.',
+    'يقرأ طالبان أو ثلاثة فقرة «ليس عاملًا» عندهم. يقول الصفّ مَن تحمي، ومِن ماذا.',
   'Write about a time a document blamed the wrong thing ( 100 to 140 words ). Say what it said, what had actually caused it, who carried the blame, and whether it was ever corrected.':
     'اكتب عن مرّة نسبت وثيقة السبب إلى الشيء الخطأ ( ١٠٠ إلى ١٤٠ كلمة ). قل ماذا قالت، وما كان السبب فعلًا، ومَن حمل اللوم، وهل صُحّحت قطّ.',
   'Read your partner\'s text. Write on a slip: ★ who carried the blame ✓ caused / led to / contributed to used for the right claims? ? was the document ever corrected, and could it be now?':
@@ -161,9 +161,9 @@ PBE5.arabic({
   'Mr Attar. And the customer gets a version.':
     'السيد عطّار. والعميل يأخذ نسخة.',
   'Then you have written one sentence for three readers and it fits one of them. For us, because Fadi did not leave until half past ten — a person and a time, and we can act on it. For the file?':
-    'فأنتَ كتبتَ جملة واحدة لثلاثة قرّاء وهي تناسب واحدًا منهم. لنا، *لأنّ فادي لم يخرج قبل العاشرة والنصف* — شخص ووقت، ونستطيع أن نتصرّف بناءً عليها. وللملفّ؟',
+    'فأنتَ كتبتَ جملة واحدة لثلاثة قرّاء وهي تناسب واحدًا منهم. لنا، «لأنّ فادي لم يخرج قبل العاشرة والنصف» — شخص ووقت، ونستطيع أن نتصرّف بناءً عليها. وللملفّ؟',
   'Owing to a late departure from the yard.':
-    '*نتيجةً لخروج متأخّر من الساحة.*',
+    '«نتيجةً لخروج متأخّر من الساحة.»',
   'Good. No name, and still checkable, because the gate sheet has the time on it.':
     'جيّد. لا اسم، وما زالت قابلة للتحقّق، لأنّ ورقة البوّابة فيها الوقت.',
   'And for Mr Haffar?':
@@ -171,13 +171,13 @@ PBE5.arabic({
   'What does he need? Not the reason in that detail. He needs to know whether it will happen again on Thursday.':
     'ماذا يحتاج هو؟ ليس السبب بهذه التفصيل. يحتاج أن يعرف هل سيتكرّر يوم الخميس.',
   'Your delivery arrived at four rather than one as a result of a late departure from our yard. Thursday\'s is loaded the night before.':
-    '*وصل تسليمكم في الرابعة بدلًا من الواحدة نتيجةً لخروج متأخّر من ساحتنا. وتسليم الخميس يُحمَّل في الليلة السابقة.*',
+    '«وصل تسليمكم في الرابعة بدلًا من الواحدة نتيجةً لخروج متأخّر من ساحتنا. وتسليم الخميس يُحمَّل في الليلة السابقة.»',
   'That is the one. ⚠ And notice what you did not do, which is leave the cause out. People think the customer version means the vague version and it does not — it means the short version, with the thing he can use kept in.':
     'تلك هي. ⚠ ولاحظ ما لم تفعله، وهو أن تحذف السبب. يظنّ الناس أنّ نسخة العميل تعني النسخة المبهمة وهي ليست كذلك — هي تعني النسخة القصيرة، مع إبقاء الشيء الذي يستطيع أن يستخدمه.',
   'Most of the letters I have received in my life left the cause out.':
     'معظم الرسائل التي وصلتني في حياتي حذفت السبب.',
   'Most of them were written by somebody protecting themselves, and you could tell. ⚠ We apologise for the inconvenience caused has no cause in it at all, which is why it reads as an insult rather than an apology.':
-    'معظمها كتبه شخص يحمي نفسه، وكنتَ تستطيع أن تعرف ذلك. ⚠ وعبارة *نأسف للإزعاج الناتج* لا سبب فيها أصلًا، ولهذا تُقرأ إساءةً لا اعتذارًا.',
+    'معظمها كتبه شخص يحمي نفسه، وكنتَ تستطيع أن تعرف ذلك. ⚠ وعبارة «نأسف للإزعاج الناتج» لا سبب فيها أصلًا، ولهذا تُقرأ إساءةً لا اعتذارًا.',
   'The invoice was 46,000 high because Hala priced it from the list of the 5th.':
     'كانت الفاتورة أعلى بـ٤٦٬٠٠٠ لأنّ هالة سعّرتها من قائمة الخامس.',
   'True for us. Who else reads it?':
@@ -215,9 +215,9 @@ PBE5.arabic({
   'And in those reports, what did it say?':
     'وفي هذين التقريرين، ماذا كان يقول؟',
   '…The picking list is printed at 7.15.':
-    '…*تُطبع قائمة التجهيز في السابعة والربع.*',
+    '…«تُطبع قائمة التجهيز في السابعة والربع.»',
   'That is a fact about a printer, and I read about forty facts a week. ⚠ Which meant that nine cartons were written off is a decision I can make in one minute, and I would have made it in March. A cause with no consequence attached gets filed, and whoever filed it was me.':
-    'تلك واقعة عن طابعة، وأنا أقرأ نحو أربعين واقعة في الأسبوع. ⚠ وعبارة *ومعنى ذلك أنّ تسعة كراتين خُسرت* قرار أستطيع أن أتّخذه في دقيقة، ولكنتُ اتّخذتُه في آذار. السبب الذي لا نتيجة ملحقة به يُحفَظ في ملفّ، ومَن حفظه كنتُ أنا.',
+    'تلك واقعة عن طابعة، وأنا أقرأ نحو أربعين واقعة في الأسبوع. ⚠ وعبارة «ومعنى ذلك أنّ تسعة كراتين خُسرت» قرار أستطيع أن أتّخذه في دقيقة، ولكنتُ اتّخذتُه في آذار. السبب الذي لا نتيجة ملحقة به يُحفَظ في ملفّ، ومَن حفظه كنتُ أنا.',
   'The counter telephone is not answered between twelve and one.':
     'هاتف الكاونتر لا يُجاب بين الثانية عشرة والواحدة.',
   'It never has been.':
@@ -247,7 +247,7 @@ PBE5.arabic({
   'It was so late that Mr Haffar\'s shop had shut by the time we got there, so the load came back, so it stood in the yard overnight, so nine cartons were damp.':
     'كان من التأخّر أنّ متجر السيد حفّار كان قد أُغلق حين وصلنا، فعادت الحمولة، فوقفت في الساحة ليلًا، فصارت تسعة كراتين رطبة.',
   'That is four lines and every one of them is a line that was crossed. Write that instead of serious.':
-    'تلك أربعة خطوط وكلّ واحد منها خطّ تُجوِّز. اكتب ذلك بدلًا من *خطير*.',
+    'تلك أربعة خطوط وكلّ واحد منها خطّ تُجوِّز. اكتب ذلك بدلًا من «خطير».',
   'It is longer.':
     'هو أطول.',
   'It is four times as long and about forty times as useful, and here is the test. ⚠ A so … that sentence is right when the second half names something that would not have happened at all if the first half had been smaller. If the shop had still been open, nothing on that list happens. Half an hour earlier and there is no incident.':
@@ -255,7 +255,7 @@ PBE5.arabic({
   'And if nothing had been crossed? If it was just late?':
     'وإن لم يُتجاوَز شيء؟ إن كان متأخّرًا فقط؟',
   'Then it was late, and you say the run left three and a half hours late and stop. ⚠ Do not reach for so … that when nothing changed — that is how a report acquires drama, and a report with drama in it gets discounted entirely, including the true parts.':
-    'فهو متأخّر، وتقول *خرج الخطّ متأخّرًا ثلاث ساعات ونصفًا* وتتوقّف. ⚠ لا تمدّ يدك إلى *so … that* حين لم يتغيّر شيء — فهكذا يكتسب التقرير دراما، والتقرير الذي فيه دراما يُخصَم كلّه، بما في ذلك أجزاؤه الصحيحة.',
+    'فهو متأخّر، وتقول «خرج الخطّ متأخّرًا ثلاث ساعات ونصفًا» وتتوقّف. ⚠ لا تمدّ يدك إلى «so … that» حين لم يتغيّر شيء — فهكذا يكتسب التقرير دراما، والتقرير الذي فيه دراما يُخصَم كلّه، بما في ذلك أجزاؤه الصحيحة.',
   'Your report says the delivery was unacceptably late.':
     'يقول تقريرك إنّ التسليم كان متأخّرًا على نحو غير مقبول.',
   'It was forty minutes late.':
@@ -285,7 +285,7 @@ PBE5.arabic({
   'Nothing.':
     'لا شيء.',
   'Then that link is true and useless, and it is worse than useless, because the moment Mr Ayoub reads because of the economy the whole report becomes a thing that could not be helped. ⚠ Stop at the last link somebody in this building can pull.':
-    'فتلك الحلقة صحيحة وعديمة النفع، وهي أسوأ من عديمة النفع، لأنّ السيد أيوب في اللحظة التي يقرأ فيها *بسبب الاقتصاد* يصبح التقرير كلّه شيئًا لا يمكن تجنّبه. ⚠ توقّف عند آخر حلقة يستطيع أحد في هذا المبنى أن يجذبها.',
+    'فتلك الحلقة صحيحة وعديمة النفع، وهي أسوأ من عديمة النفع، لأنّ السيد أيوب في اللحظة التي يقرأ فيها «بسبب الاقتصاد» يصبح التقرير كلّه شيئًا لا يمكن تجنّبه. ⚠ توقّف عند آخر حلقة يستطيع أحد في هذا المبنى أن يجذبها.',
   'Which is the printing time.':
     'وهي وقت الطباعة.',
   'Or the second person at opening — and those are different recommendations with different costs, so give him both and say which you would do.':
@@ -331,11 +331,11 @@ PBE5.arabic({
   'That the yard has no cover on the north side, which we have known since 2019.':
     'أنّ الساحة بلا مظلّة في الجهة الشمالية، وذلك نعرفه منذ ٢٠١٩.',
   'Then you have three sentences and three different claims. ⚠ Caused says that but for this, nothing. Led to says this started the sequence. Contributed to says this made it worse or more likely and is not sufficient on its own.':
-    'فعندك ثلاث جمل وثلاث دعاوى مختلفة. ⚠ *Caused* تقول لولا هذا، لا شيء. و*led to* تقول هذا بدأ التسلسل. و*contributed to* تقول هذا جعله أسوأ أو أرجح وهو غير كافٍ وحده.',
+    'فعندك ثلاث جمل وثلاث دعاوى مختلفة. ⚠ «Caused» تقول لولا هذا، لا شيء. و«led to» تقول هذا بدأ التسلسل. و«contributed to» تقول هذا جعله أسوأ أو أرجح وهو غير كافٍ وحده.',
   'Does the difference matter if nobody is going to court?':
     'هل يهمّ الفرق إن لم يذهب أحد إلى المحكمة؟',
   'It matters more when nobody is. ⚠ If you write the late departure caused the loss, then Fadi caused the loss, and in two years when somebody reads the file that is what it will say — and the yard will still have no cover on the north side, because nothing in the file ever said so. ⚠ The weaker verb is not the softer one. It is the one that keeps the other two causes in the document.':
-    'يهمّ أكثر حين لا يذهب أحد. ⚠ فإن كتبتَ *الخروج المتأخّر سبّب الخسارة*، فقد سبّب فادي الخسارة، وبعد سنتين حين يقرأ أحد الملفّ سيكون ذلك ما يقوله — والساحة ستبقى بلا مظلّة في الجهة الشمالية، لأنّ شيئًا في الملفّ لم يقل ذلك قطّ. ⚠ الفعل الأضعف ليس الأرقّ. هو الذي يُبقي السببين الآخرين في الوثيقة.',
+    'يهمّ أكثر حين لا يذهب أحد. ⚠ فإن كتبتَ «الخروج المتأخّر سبّب الخسارة»، فقد سبّب فادي الخسارة، وبعد سنتين حين يقرأ أحد الملفّ سيكون ذلك ما يقوله — والساحة ستبقى بلا مظلّة في الجهة الشمالية، لأنّ شيئًا في الملفّ لم يقل ذلك قطّ. ⚠ الفعل الأضعف ليس الأرقّ. هو الذي يُبقي السببين الآخرين في الوثيقة.',
   '"The lunch hour caused us to lose the customer." Can you prove that?':
     '«ساعة الغداء سبّبت خسارتنا للعميل.» هل تستطيعين أن تُثبتي ذلك؟',
   'Four calls went unreturned and he went elsewhere.':
@@ -401,7 +401,7 @@ PBE5.arabic({
   'He would say so if I asked him.':
     'سيقوله لو سألتُه.',
   'Then ask him, and it becomes a T with a name on it. ⚠ Until you do, it goes in the last paragraph with I infer in front of it.':
-    'فاسأليه، فتصبح T باسم عليها. ⚠ وإلى أن تسأليه، تذهب في الفقرة الأخيرة وأمامها *أستنتج*.',
+    'فاسأليه، فتصبح T باسم عليها. ⚠ وإلى أن تسأليه، تذهب في الفقرة الأخيرة وأمامها «أستنتج».',
   'There is a report about the cartons. Does it say it was me?':
     'هناك تقرير عن الكراتين. هل يقول إنه أنا؟',
   'Sit down and I will read you the four lines that are about you. "What caused the damage: rain. No person caused this damage." "The tachograph shows the route and the hours and both were correct." "Fadi\'s driving, his hours and his route were not a factor."':

@@ -112,7 +112,7 @@ PBE6.page('u21-s01', {
         }]
   },
   worked: {
-    task: 'Write *what they are asking for and what they need* for a negotiation at '
+    task: 'Write “what they are asking for and what they need” for a negotiation at '
       + 'your work.',
     weak: 'Ms Tannous wants seven per cent and ninety days.',
     change: ['Separate the POSITION from the INTEREST - what they asked for, and '

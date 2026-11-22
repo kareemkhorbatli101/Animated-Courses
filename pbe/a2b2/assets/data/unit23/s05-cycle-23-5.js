@@ -275,11 +275,11 @@ PBE4.page('u23-s05', {
               + 'slow roads 3 the exchange rate 4 a slow licence 5 a shortage of '
               + 'a material',
             model: 'Because of the power cuts, we run a generator from one until '
-              + 'four. · Because the roads are slow, we deliver to the Ghouta on '
-              + 'two fixed days. · Because of the exchange rate, a price is held '
-              + 'for fourteen days in writing. · Because a licence takes nine '
-              + 'weeks, we start the paperwork before the first order. · Because '
-              + 'of the shortage, we hold six weeks of wrap and no more.',
+              + 'four · Because the roads are slow, we deliver to the Ghouta on '
+              + 'two fixed days · Because of the exchange rate, a price is held '
+              + 'for fourteen days in writing · Because a licence takes nine '
+              + 'weeks, we start the paperwork before the first order · Because '
+              + 'of the shortage, we hold six weeks of wrap and no more',
             minWords: 6,
             rows: 3
           }],
@@ -297,15 +297,15 @@ PBE4.page('u23-s05', {
             q: 'Listen again. What must follow every difficulty in the paragraph?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *difficulty* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>difficulty</i> '
+              + 'in it. Play it again with the subtitles on.'
           },
       {
             q: 'What does he say about the word situation?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *situation* in it. Play it '
+              + 'dialogue above for the line with <i>situation</i> in it. Play it '
               + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
@@ -538,21 +538,21 @@ PBE4.page('u23-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *paragraph* in it.'
+              + 'above for the line with <i>paragraph</i> in it.'
           },
       {
             q: 'What is said about a price that is held for three months?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *months* in it.'
+              + 'above for the line with <i>months</i> in it.'
           },
       {
             q: 'What is "the difference between a difficulty and an excuse"?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *difference* in it.'
+              + 'above for the line with <i>difference</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

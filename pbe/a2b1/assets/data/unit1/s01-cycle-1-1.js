@@ -300,16 +300,16 @@ PBE3.page('u1-s01', {
             q: 'Listen again. Answer the questions. What is Nour\'s job?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour\'s* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour\'s</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Which floor is the office on?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the dialogue above for the line with *office* in it. Play it '
-              + 'again with the subtitles on.'
+              + 'in the dialogue above for the line with <i>office</i> in it. '
+              + 'Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -512,21 +512,21 @@ PBE3.page('u1-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *Nour\'s* in it.'
+              + 'line with <i>Nour\'s</i> in it.'
           },
       {
             q: 'Where is her desk?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *desk* in it.'
+              + 'the line with <i>desk</i> in it.'
           },
       {
             q: 'What is her extension number?',
             minWords: 6,
             rows: 2,
             hint: 'Digits. Say them in groups, the way the book reads them back. '
-              + 'Look in the text above for the line with *extension* in it.'
+              + 'Look in the text above for the line with <i>extension</i> in it.'
           }],
       ideas: ['Dear colleagues,',
       'Pleased to meet you all',

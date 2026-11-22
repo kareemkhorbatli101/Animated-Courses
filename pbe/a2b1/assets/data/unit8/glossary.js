@@ -130,7 +130,7 @@ PBE3.glossary({
   },
   "Then…": {
     term: 'Then…',
-    en: 'The second step, following the first in time.',
+    en: 'The word that puts the next event after the one before it.',
     ar: 'ثم…'
   },
   "That's the real mistake": {
@@ -141,7 +141,7 @@ PBE3.glossary({
   },
   "After that…": {
     term: 'After that…',
-    en: 'The third, said at the start of a line so it is heard as a step.',
+    en: 'The longer way of carrying a story on, used at the start of a line.',
     ar: 'بعد ذلك…'
   },
   "In the end…": {

@@ -298,15 +298,16 @@ PBE3.page('u11-s01', {
             q: 'Listen again. What is Bassel going to do on the second day?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Bassel* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Bassel</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What is he not going to do?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *going* in it. Play it again with the subtitles on.'
+              + 'line with <i>going</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -521,21 +522,21 @@ PBE3.page('u11-s01', {
             q: 'Until when will the hotel hold the room?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *until* in it.'
+            hint: 'Look in the text above for the line with <i>until</i> in it.'
           },
       {
             q: 'What should Bassel do if Monday morning runs late?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Bassel* in it.'
+              + 'above for the line with <i>Bassel</i> in it.'
           },
       {
             q: 'Which receipts does he need to keep, and by when?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *receipts* in it.'
+              + 'in the text above for the line with <i>receipts</i> in it.'
           }],
       ideas: ['Grammar – going to'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

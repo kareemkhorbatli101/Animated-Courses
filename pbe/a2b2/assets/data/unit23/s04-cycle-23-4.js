@@ -272,10 +272,10 @@ PBE4.page('u23-s04', {
             q: 'Say each in the passive. 1 where the boxes are made 2 where the '
               + 'wrap comes from 3 when the order was sent 4 what is not made '
               + 'locally 5 who signs the delivery note, if it matters',
-            model: 'The boxes are made in Homs. · The wrap is imported through '
-              + 'Latakia. · The order was sent on Tuesday. · Wrap is not made '
-              + 'locally; it is imported. · The note is signed by the person who '
-              + 'checked it.',
+            model: 'The boxes are made in Homs · The wrap is imported through '
+              + 'Latakia · The order was sent on Tuesday · Wrap is not made '
+              + 'locally; it is imported · The note is signed by the person who '
+              + 'checked it',
             minWords: 6,
             rows: 3
           }],
@@ -293,16 +293,16 @@ PBE4.page('u23-s04', {
             q: 'Listen again. When should you not use the passive, according to Nour?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What is wrong with "it is maked"?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *maked* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>maked</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -521,21 +521,22 @@ PBE4.page('u23-s04', {
             minWords: 6,
             rows: 2,
             hint: 'A number, and the thing it counts - two cartons, not two. Look '
-              + 'in the text above for the line with *Delivery* in it.'
+              + 'in the text above for the line with <i>Delivery</i> in it.'
           },
       {
             q: 'Why is the person named in the last sentence and nowhere else?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *nowhere* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>nowhere</i> '
+              + 'in it.'
           },
       {
             q: 'What reason is given for not storing wrap for long?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *storing* in it.'
+              + 'above for the line with <i>storing</i> in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

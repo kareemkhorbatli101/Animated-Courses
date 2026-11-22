@@ -290,16 +290,16 @@ PBE3.page('u7-s02', {
             q: 'Listen again. What time was the meeting?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *meeting* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>meeting</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What three things does Nour ask for?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -525,15 +525,16 @@ PBE3.page('u7-s02', {
             q: 'Why does Nour want the figures before Thursday?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           },
       {
             q: 'What is the fourth request, and why does she make it?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *request* in it.'
+              + 'above for the line with <i>request</i> in it.'
           }],
       ideas: ['Dear Ms Shamsi,',
       'Grammar – could for polite requests'],

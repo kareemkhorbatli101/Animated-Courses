@@ -295,16 +295,16 @@ PBE3.page('u8-s03', {
             q: 'Listen again. Why was Wednesday difficult?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Wednesday* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Wednesday</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What was the best thing about the week?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *thing* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>thing</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -520,21 +520,21 @@ PBE3.page('u8-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *nothing* in it.'
+              + 'above for the line with <i>nothing</i> in it.'
           },
       {
             q: 'How was Hala at nine, and how was she by eleven?',
             minWords: 6,
             rows: 2,
             hint: 'A way of doing it, not a yes or a no. Look in the text above for '
-              + 'the line with *Hala* in it.'
+              + 'the line with <i>Hala</i> in it.'
           },
       {
             q: 'Where are the Aleppo invoices, and how are they arranged?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *Aleppo* in it.'
+              + 'the line with <i>Aleppo</i> in it.'
           }],
       ideas: ['Grammar – was / were'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

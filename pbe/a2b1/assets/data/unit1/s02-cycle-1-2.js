@@ -298,15 +298,15 @@ PBE3.page('u1-s02', {
             q: 'Listen again. What is Nadia\'s job?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nadia\'s* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nadia\'s</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'Where is Bassel today?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the dialogue above '
-              + 'for the line with *Bassel* in it. Play it again with the '
+              + 'for the line with <i>Bassel</i> in it. Play it again with the '
               + 'subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
@@ -503,21 +503,21 @@ PBE3.page('u1-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A person: their name, or their job if the line gives no name. '
-              + 'Look in the text above for the line with *invoices* in it.'
+              + 'Look in the text above for the line with <i>invoices</i> in it.'
           },
       {
             q: 'What is Bassel\'s extension?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Bassel\'s* in it.'
+              + 'above for the line with <i>Bassel\'s</i> in it.'
           },
       {
             q: 'Which person is not on the second floor?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *person* in it.'
+              + 'in the text above for the line with <i>person</i> in it.'
           }],
       ideas: ['Warehouse: Abu Yasser — ext. 230',
       'Grammar – possessives and object pronouns'],

@@ -269,31 +269,31 @@ PBE3.page('u10-s01', {
       instruction: 'Say each one two ways.',
       questions: [{
             q: '1 head',
-            model: 'My head hurts. / I\'ve got a headache.',
+            model: 'My head hurts. / I\'ve got a headache',
             minWords: 2,
             rows: 2
           },
       {
             q: '2 back',
-            model: 'My back hurts. / I\'ve got backache.',
+            model: 'My back hurts. / I\'ve got backache',
             minWords: 2,
             rows: 2
           },
       {
             q: '3 a cut on the finger',
-            model: 'I\'ve got a cut on my finger. / My finger hurts.',
+            model: 'I\'ve got a cut on my finger. / My finger hurts',
             minWords: 3,
             rows: 2
           },
       {
             q: '4 eyes, after a screen',
-            model: 'My eyes ache. / I\'ve got sore eyes.',
+            model: 'My eyes ache. / I\'ve got sore eyes',
             minWords: 2,
             rows: 2
           },
       {
             q: '5 a temperature since this morning',
-            model: 'I\'ve got a temperature. / I\'ve had a temperature since this morning.',
+            model: 'I\'ve got a temperature. / I\'ve had a temperature since this morning',
             minWords: 3,
             rows: 2
           }],
@@ -311,15 +311,16 @@ PBE3.page('u10-s01', {
             q: 'Listen again. When did it start?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *start* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>start</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does he refuse to do?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *refuse* in it. Play it again with the subtitles on.'
+              + 'line with <i>refuse</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -537,21 +538,22 @@ PBE3.page('u10-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *exactly* in it.'
+              + 'above for the line with <i>exactly</i> in it.'
           },
       {
             q: 'What can Abu Yasser still do, and what can he not do?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Yasser* in it.'
+              + 'above for the line with <i>Yasser</i> in it.'
           },
       {
             q: 'Why does he write and telephone?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *telephone* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>telephone</i> '
+              + 'in it.'
           }],
       ideas: ['Mr Ayoub,',
       'Grammar – saying what is wrong'],

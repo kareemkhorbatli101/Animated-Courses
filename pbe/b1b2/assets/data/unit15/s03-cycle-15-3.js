@@ -112,7 +112,7 @@ PBE6.page('u15-s03', {
         }]
   },
   worked: {
-    task: 'Write *what we still do not have* for your own workplace.',
+    task: 'Write “what we still do not have” for your own workplace.',
     weak: 'If the line had read differently, the nine cartons would have gone out right.',
     change: ['That is past and past, and it is finished - nobody does anything '
           + 'today because of it. Write the one that is past and PRESENT.',

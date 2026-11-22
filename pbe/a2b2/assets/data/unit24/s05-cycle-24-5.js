@@ -270,11 +270,11 @@ PBE4.page('u24-s05', {
               + 'opening 2 a stock count 3 a licence 4 a trial run 5 the year\'s '
               + 'plan',
             model: 'Four of the six steps are done; the shelves are finished on · '
-              + 'Three of the four rooms are counted; the upstairs room is '
-              + 'Friday. · The licence has been applied for; the answer is due on '
-              + '· We have run two of the six Saturdays; nineteen orders so far. '
-              + '· Nine of the twelve units of the year\'s plan are done; the '
-              + 'last three are November and December. · June. · May.',
+              + 'Three of the four rooms are counted; the upstairs room is Friday '
+              + '· The licence has been applied for; the answer is due on · We '
+              + 'have run two of the six Saturdays; nineteen orders so far · Nine '
+              + 'of the twelve units of the year\'s plan are done; the last three '
+              + 'are November and December · June · May',
             minWords: 6,
             rows: 3
           }],
@@ -292,16 +292,16 @@ PBE4.page('u24-s05', {
             q: 'Listen again. Why does she put the finished half first?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *finished* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>finished</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does she say about the word nearly?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *nearly* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>nearly</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -526,7 +526,7 @@ PBE4.page('u24-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *brackets* in it.'
+              + 'above for the line with <i>brackets</i> in it.'
           },
       {
             q: 'What is the difference between "the one thing I am watching" and '
@@ -534,14 +534,15 @@ PBE4.page('u24-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *difference* in it.'
+              + 'above for the line with <i>difference</i> in it.'
           },
       {
             q: 'Why is the last line there, when the dates above already say it?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *already* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>already</i> '
+              + 'in it.'
           }],
       ideas: ['Quote, question, stop'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

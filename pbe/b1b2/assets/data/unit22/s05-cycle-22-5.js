@@ -112,7 +112,7 @@ PBE6.page('u22-s05', {
         }]
   },
   worked: {
-    task: 'Write *the three questions and what the answers told them* for an '
+    task: 'Write “the three questions and what the answers told them” for an '
       + 'interview at your work.',
     weak: 'I asked about the hours, the pay scale and what the company does.',
     change: ['Never ask anything whose answer is printed - it says you did not '

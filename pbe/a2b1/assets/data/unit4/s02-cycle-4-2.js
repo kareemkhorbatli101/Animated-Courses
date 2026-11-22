@@ -293,16 +293,16 @@ PBE3.page('u4-s02', {
             q: 'Listen again. How much tape is there?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *tape* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>tape</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What is there plenty of?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *plenty* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>plenty</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -513,21 +513,23 @@ PBE3.page('u4-s02', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *finished* in it.'
+              + 'in the text above for the line with <i>finished</i> in it.'
           },
       {
             q: 'Why is the wrap urgent?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *urgent* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>urgent</i> in '
+              + 'it.'
           },
       {
             q: 'Why does Nour write to Mr Ayoub, if the order does not need his signature?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           }],
       ideas: ['Dear Mr Ayoub,'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

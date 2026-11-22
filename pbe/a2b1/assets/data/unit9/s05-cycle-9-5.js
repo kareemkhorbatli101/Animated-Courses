@@ -291,15 +291,16 @@ PBE3.page('u9-s05', {
             minWords: 6,
             rows: 2,
             hint: 'Digits. Say them in groups, the way the book reads them back. '
-              + 'Look in the dialogue above for the line with *caller\'s* in it. '
-              + 'Play it again with the subtitles on.'
+              + 'Look in the dialogue above for the line with <i>caller\'s</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour do before the call ends?',
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the dialogue above for the '
-              + 'line with *Nour* in it. Play it again with the subtitles on.'
+              + 'line with <i>Nour</i> in it. Play it again with the subtitles '
+              + 'on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -515,21 +516,21 @@ PBE3.page('u9-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Haddad* in it.'
+              + 'above for the line with <i>Haddad</i> in it.'
           },
       {
             q: 'What did Nour promise on Mr Ayoub\'s behalf?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Nour* in it.'
+              + 'above for the line with <i>Nour</i> in it.'
           },
       {
             q: 'What is the last section, and why is it separate?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *separate* in it.'
+              + 'above for the line with <i>separate</i> in it.'
           }],
       ideas: ['About: the lorry hire for May'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

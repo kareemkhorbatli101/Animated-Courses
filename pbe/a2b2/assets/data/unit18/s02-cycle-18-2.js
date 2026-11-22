@@ -291,16 +291,16 @@ PBE4.page('u18-s02', {
             q: 'Listen again. What is the warning in the middle?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *warning* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>warning</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour say about the word "then"?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -522,7 +522,7 @@ PBE4.page('u18-s02', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *things* in it.'
+              + 'in the text above for the line with <i>things</i> in it.'
           },
       {
             q: 'What happens if you close the screen before the green line, and '
@@ -538,7 +538,7 @@ PBE4.page('u18-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *somebody* in it.'
+              + 'above for the line with <i>somebody</i> in it.'
           }],
       ideas: ['Giving instructions – imperatives and order',
       'Quote, question, stop'],

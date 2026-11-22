@@ -298,16 +298,16 @@ PBE3.page('u1-s03', {
             q: 'Listen again. What is the shop called?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *called* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>called</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What is Mr Tarabishi\'s mobile number?',
             minWords: 6,
             rows: 2,
             hint: 'Digits. Say them in groups, the way the book reads them back. '
-              + 'Look in the dialogue above for the line with *Tarabishi\'s* in '
-              + 'it. Play it again with the subtitles on.'
+              + 'Look in the dialogue above for the line with <i>Tarabishi\'s</i> '
+              + 'in it. Play it again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -506,21 +506,21 @@ PBE3.page('u1-s03', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *company* in it.'
+              + 'above for the line with <i>company</i> in it.'
           },
       {
             q: 'How does this customer pay?',
             minWords: 6,
             rows: 2,
             hint: 'A way of doing it, not a yes or a no. Look in the text above for '
-              + 'the line with *customer* in it.'
+              + 'the line with <i>customer</i> in it.'
           },
       {
             q: 'Who completed the form?',
             minWords: 6,
             rows: 2,
             hint: 'A person: their name, or their job if the line gives no name. '
-              + 'Look in the text above for the line with *completed* in it.'
+              + 'Look in the text above for the line with <i>completed</i> in it.'
           }],
       ideas: ['Grammar – Wh- questions with be'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

@@ -267,10 +267,10 @@ PBE4.page('u23-s03', {
       questions: [{
             q: 'Compare two places, with a measure in each. 1 rent 2 distance 3 '
               + 'the size of the market 4 traffic 5 the number of competitors',
-            model: 'The rent is about forty per cent cheaper than in Mezzeh. · It is '
-              + 'two hours instead of five. · The market is perhaps three times '
-              + 'smaller. · The traffic is worse than in the old city, but only '
-              + 'after four. · There are four competitors instead of eleven.',
+            model: 'The rent is about forty per cent cheaper than in Mezzeh · It is '
+              + 'two hours instead of five · The market is perhaps three times '
+              + 'smaller · The traffic is worse than in the old city, but only '
+              + 'after four · There are four competitors instead of eleven',
             minWords: 6,
             rows: 3
           }],
@@ -289,16 +289,16 @@ PBE4.page('u23-s03', {
               + 'that matters?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Ayoub* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Ayoub</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What is wrong with "much better"?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *better* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>better</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -518,21 +518,21 @@ PBE4.page('u23-s03', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *conclusion* in it.'
+              + 'in the text above for the line with <i>conclusion</i> in it.'
           },
       {
             q: 'What reason is given for choosing Homs, and what would change it?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Homs* in it.'
+              + 'above for the line with <i>Homs</i> in it.'
           },
       {
             q: 'Where does the writer admit that a number is uncertain?',
             minWords: 6,
             rows: 2,
             hint: 'A place - a room, a floor, a town. Look in the text above for '
-              + 'the line with *uncertain* in it.'
+              + 'the line with <i>uncertain</i> in it.'
           }],
       ideas: ['Comparing – and saying how much',
       'Quote, question, stop'],

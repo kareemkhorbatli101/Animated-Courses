@@ -319,16 +319,16 @@ PBE3.page('u7-s05', {
             q: 'Listen again. Why can\'t Mr Ayoub come?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Ayoub* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Ayoub</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Nour offer instead?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Nour* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Nour</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -550,21 +550,21 @@ PBE3.page('u7-s05', {
             minWords: 6,
             rows: 2,
             hint: 'A job, in two or three words. Look in the text above for the '
-              + 'line with *Reply* in it.'
+              + 'line with <i>Reply</i> in it.'
           },
       {
             q: 'Which sentence in Reply 1 shows the relationship, not the business?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *Reply* in it.'
+              + 'in the text above for the line with <i>Reply</i> in it.'
           },
       {
             q: 'Is Reply 2 impolite? What is wrong with it?',
             minWords: 6,
             rows: 2,
             hint: 'Yes or no first - then the line that makes it so. Look in the '
-              + 'text above for the line with *Reply* in it.'
+              + 'text above for the line with <i>Reply</i> in it.'
           }],
       ideas: ['Reply 1 — from Nour',
       'Reply 2 — from another company',

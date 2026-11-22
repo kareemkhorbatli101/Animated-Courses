@@ -112,7 +112,7 @@ PBE6.page('u14-s05', {
         }]
   },
   worked: {
-    task: 'Write *by the end of the month* for your own next month.',
+    task: 'Write “by the end of the month” for your own next month.',
     weak: 'In February we will ship to Beirut, train Lina and count the fourth store.',
     change: ['Put each line in the future perfect and say them one after the '
           + 'other. The impossibility becomes audible: the same person is on two '

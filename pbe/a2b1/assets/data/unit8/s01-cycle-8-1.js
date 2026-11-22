@@ -296,8 +296,8 @@ PBE3.page('u8-s01', {
             q: 'Listen again. What did Nour finish on Tuesday?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nour* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nour</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What did she not finish?',
@@ -520,20 +520,21 @@ PBE3.page('u8-s01', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Wednesday* in it.'
+              + 'above for the line with <i>Wednesday</i> in it.'
           },
       {
             q: 'By how much did the counter takings change?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *counter* in it.'
+            hint: 'Look in the text above for the line with <i>counter</i> in it.'
           },
       {
             q: 'Why does Nour say "this is not a complaint"?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           }],
       ideas: ['Grammar – past simple, regular verbs'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

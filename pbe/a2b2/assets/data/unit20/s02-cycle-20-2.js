@@ -143,7 +143,9 @@ PBE4.page('u20-s02', {
             q: 'Put these in order, from least useful to most: next week · '
               + 'Thursday · Thursday morning · Thursday between nine and one · '
               + 'Thursday at ten',
-            minWords: 6,
+            model: 'Least to most useful: next week · Thursday · Thursday morning · '
+              + 'Thursday between nine and one · Thursday at ten',
+            minWords: 5,
             rows: 2,
             hint: 'One answer for each item, and every item gets one. Do the ones '
               + 'you are sure of first - what is left over pairs up.'
@@ -287,16 +289,16 @@ PBE4.page('u20-s02', {
             q: 'Listen again. What does Hala ask for that she does not get?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Hala* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Hala</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does she get instead, and why is it enough?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *instead* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>instead</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -524,8 +526,9 @@ PBE4.page('u20-s02', {
             q: 'Why are two telephone numbers given?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *telephone* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>telephone</i> '
+              + 'in it.'
           },
       {
             q: 'What does the "Access" section tell the technician that a time '
@@ -533,14 +536,14 @@ PBE4.page('u20-s02', {
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *Access* in it.'
+              + 'above for the line with <i>Access</i> in it.'
           },
       {
             q: 'What reason is given for the cost limit?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *reason* in it.'
+              + 'above for the line with <i>reason</i> in it.'
           }],
       ideas: ['SERVICE REQUEST — loading bay shutter',
       'Quote, question, stop'],

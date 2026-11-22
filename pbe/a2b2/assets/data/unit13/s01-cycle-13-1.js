@@ -271,31 +271,31 @@ PBE4.page('u13-s01', {
       instruction: 'Say each one twice — once with for, once with since.',
       questions: [{
             q: '1 your job',
-            model: 'I have worked here for two years / since 2024.',
+            model: 'I have worked here for two years / since 2024',
             minWords: 2,
             rows: 2
           },
       {
             q: '2 your town',
-            model: 'I have lived in Jaramana for nine years / since 2017.',
+            model: 'I have lived in Jaramana for nine years / since 2017',
             minWords: 3,
             rows: 2
           },
       {
             q: '3 your telephone number',
-            model: 'I have had this number for four years / since the old one stopped.',
+            model: 'I have had this number for four years / since the old one stopped',
             minWords: 4,
             rows: 2
           },
       {
             q: '4 this company',
-            model: 'I have been with this company for a year / since last March.',
+            model: 'I have been with this company for a year / since last March',
             minWords: 4,
             rows: 2
           },
       {
             q: '5 English',
-            model: 'I have studied English for six years / since school.',
+            model: 'I have studied English for six years / since school',
             minWords: 3,
             rows: 2
           }],
@@ -313,16 +313,16 @@ PBE4.page('u13-s01', {
             q: 'Listen again. How long has Nadia worked there?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *Nadia* in it. Play '
-              + 'it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>Nadia</i> in it. '
+              + 'Play it again with the subtitles on.'
           },
       {
             q: 'What does Abu Yasser say about the word experience?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Yasser* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Yasser</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -543,21 +543,21 @@ PBE4.page('u13-s01', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *present* in it.'
+              + 'in the text above for the line with <i>present</i> in it.'
           },
       {
             q: 'Which sentence uses the past simple, and why?',
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *simple* in it.'
+              + 'in the text above for the line with <i>simple</i> in it.'
           },
       {
             q: 'Find the sentence that proves she is good at her job without '
               + 'saying "I am good at my job".',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the text above for the line with *without* in it.'
+            hint: 'Look in the text above for the line with <i>without</i> in it.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
       example: ['Fourteen. It says fourteen twice - the number and the words - so it '

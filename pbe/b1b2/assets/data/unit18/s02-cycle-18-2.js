@@ -112,7 +112,7 @@ PBE6.page('u18-s02', {
         }]
   },
   worked: {
-    task: 'Write a *what I agreed to* note about a real disagreement.',
+    task: 'Write a “what I agreed to” note about a real disagreement.',
     weak: 'I offered to look at the labels.',
     change: ['Add, in the same breath, what you are NOT agreeing to. An offer with '
           + 'nothing after it is heard one rung up the ladder.',

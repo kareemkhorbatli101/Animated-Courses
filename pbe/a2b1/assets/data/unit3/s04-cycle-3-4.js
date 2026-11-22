@@ -289,16 +289,16 @@ PBE3.page('u3-s04', {
             q: 'Listen again. What is wrong with the old printer?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *printer* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>printer</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Mr Ayoub decide?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Ayoub* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Ayoub</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -505,21 +505,21 @@ PBE3.page('u3-s04', {
             minWords: 6,
             rows: 2,
             hint: 'One of the ones named in the question - pick it and say it. Look '
-              + 'in the text above for the line with *Nour* in it.'
+              + 'in the text above for the line with <i>Nour</i> in it.'
           },
       {
             q: 'How much time is lost every day, and why?',
             minWords: 6,
             rows: 2,
             hint: 'A quantity or a price. If it is money, keep the book\'s figures. '
-              + 'Look in the text above for the line with *time* in it.'
+              + 'Look in the text above for the line with <i>time</i> in it.'
           },
       {
             q: 'What is the cheap answer if there is no money?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *cheap* in it.'
+              + 'above for the line with <i>cheap</i> in it.'
           }],
       ideas: ['Nour Mansour'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',

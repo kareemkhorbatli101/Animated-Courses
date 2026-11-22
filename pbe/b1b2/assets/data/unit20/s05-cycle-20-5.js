@@ -112,7 +112,7 @@ PBE6.page('u20-s05', {
         }]
   },
   worked: {
-    task: 'Write *the things that went missing* for a job at your work.',
+    task: 'Write “the things that went missing” for a job at your work.',
     weak: '5 Apply the stencil for the consignee code.',
     change: ['Every step that can fail needs its UNLESS, and the unless needs an '
           + 'IN WHICH CASE - a page that does not say <i>stop</i> forbids '

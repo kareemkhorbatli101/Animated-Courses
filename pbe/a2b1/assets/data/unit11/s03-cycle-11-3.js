@@ -244,7 +244,7 @@ PBE3.page('u11-s03', {
               t: 'because if she hears he will be, she will go out',
               ok: true,
               why: 'A precise piece of social reasoning, and the whole point of '
-                + 'the distinction between *may* and *will*.'
+                + 'the distinction between “may” and “will”.'
             },
             {
               t: 'because he does not know the road',
@@ -272,34 +272,34 @@ PBE3.page('u11-s03', {
       questions: [{
             q: '1 rain all day',
             model: 'It\'s going to rain all day — I\'ll take the covered load, not '
-              + 'the open one.',
+              + 'the open one',
             minWords: 5,
             rows: 2
           },
       {
             q: '2 very hot, 45°',
             model: 'It\'s going to be forty-five degrees — we\'ll start at five and '
-              + 'stop at eleven.',
+              + 'stop at eleven',
             minWords: 5,
             rows: 2
           },
       {
             q: '3 fog in the morning',
             model: 'It\'s going to be foggy until nine — I\'m going to leave at five '
-              + 'and be past Hama before it.',
+              + 'and be past Hama before it',
             minWords: 6,
             rows: 3
           },
       {
             q: '4 snow on the Aleppo road',
             model: 'It\'s going to snow on the Aleppo road — we\'re going to send it '
-              + 'on Thursday instead.',
+              + 'on Thursday instead',
             minWords: 5,
             rows: 2
           },
       {
             q: '5 wind on the coast',
-            model: 'It\'s going to be windy on the coast — the tent sides come down.',
+            model: 'It\'s going to be windy on the coast — the tent sides come down',
             minWords: 4,
             rows: 2
           }],
@@ -317,16 +317,16 @@ PBE3.page('u11-s03', {
             q: 'Listen again. What is the weather going to be like?',
             minWords: 6,
             rows: 2,
-            hint: 'Look in the dialogue above for the line with *weather* in it. '
-              + 'Play it again with the subtitles on.'
+            hint: 'Look in the dialogue above for the line with <i>weather</i> in '
+              + 'it. Play it again with the subtitles on.'
           },
       {
             q: 'What does Bassel change?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the '
-              + 'dialogue above for the line with *Bassel* in it. Play it again '
-              + 'with the subtitles on.'
+              + 'dialogue above for the line with <i>Bassel</i> in it. Play it '
+              + 'again with the subtitles on.'
           }],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
@@ -543,22 +543,24 @@ PBE3.page('u11-s03', {
             q: 'Why does the departure move an hour earlier?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *departure* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>departure</i> '
+              + 'in it.'
           },
       {
             q: 'Why did Nour say "may be late" rather than "will be late"?',
             minWords: 6,
             rows: 2,
-            hint: 'A reason. Start it with *because* and it will come out whole. '
-              + 'Look in the text above for the line with *Nour* in it.'
+            hint: 'A reason. Start it with <i>because</i> and it will come out '
+              + 'whole. Look in the text above for the line with <i>Nour</i> in '
+              + 'it.'
           },
       {
             q: 'What is the instruction if the fog is worse than forecast?',
             minWords: 6,
             rows: 2,
             hint: 'A thing, in a few words - not a whole sentence. Look in the text '
-              + 'above for the line with *instruction* in it.'
+              + 'above for the line with <i>instruction</i> in it.'
           }],
       ideas: ['Grammar – talking about the weather'],
       okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.',
