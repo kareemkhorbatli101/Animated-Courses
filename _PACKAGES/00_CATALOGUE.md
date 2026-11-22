@@ -9,7 +9,29 @@ a book lacks something a teacher would expect, it says so.
 
 ---
 
-## 0 · Also in this folder, and not counted in the figures above
+## 0 · The one-click archive — everything, in one file
+
+**`English-for-Syria_COMPLETE-LIBRARY.zip` — 189 MB · 821 files · 73 books and course books ·
+27,152 pages.** Every finished book in this catalogue and every course book of the ten Syria
+programmes, unpacked and reachable without opening a second zip:
+
+```
+00_READ-ME_Complete-Library.docx / .pdf   the four-page index of the whole library
+00_CATALOGUE.md                           this file
+00_FULL-SYLLABUS_Proactive-Business-English.md
+01_Graded-Series_16-Books/                general A2–C1 and business A1–B2
+02_Professional-Books_27-Books/           the sixteen professional packages, unpacked
+03_ESP-Programmes_Syria_10/               the ten programmes, 140 documents
+```
+
+**It is a convenience, not a separate edition.** Every byte in it also exists in the package zips
+beside it and in the programme `out/` directories, so it is kept out of git and rebuilt with
+`_PACKAGES/make-library.sh`. It replaces the old `proactive_business_english_and_others.zip`,
+which held the same books nested one zip deeper.
+
+---
+
+## 0b · Also in this folder, and not counted in the figures above
 
 **English for Syria · Ten Programmes — `English-for-Syria_Ten-Programmes_30-Courses.zip`**
 
