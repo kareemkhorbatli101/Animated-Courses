@@ -53,6 +53,11 @@ OPEN = [r"\bwhat do you think\b", r"\bwould you\b", r"\bdo you agree\b", r"\bwhy
         r"\bdo you think\b", r"\bwhat else\b", r"\bwhat would you do\b"]
 
 
+# Organization names, quoted as published. Exempt from gate 14; a citation that
+# renames its source is a worse error than a British spelling.
+PROPER_NOUNS = ["UN Environment Programme", "World Food Programme",
+                "United Nations Environment Programme", "Labour Force Survey"]
+
 SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "level1":  ["spec_v1", "spec_v2", "spec_v3"],
                 "level2":  ["spec_w1", "spec_w2", "spec_w3"],
@@ -148,10 +153,15 @@ def check(book):
         "none of the US-specific, branded, framework or currency-symbol tokens appear"
         if not hits else "%d hits: %s" % (len(hits), sorted(set(hits))[:6]))
 
-    # 14 variant layer: the base edition must be clean of variant spellings
+    # 14 variant layer: the base edition must be clean of variant spellings.
+    # A proper noun is not a spelling choice: the UN Environment Programme is
+    # called that, and Americanizing an organization's name would misquote it.
+    novariant = whole
+    for _pn in PROPER_NOUNS:
+        novariant = novariant.replace(_pn, " ")
     bh = []
     for pat in BRITISH:
-        for m in re.finditer(pat, whole, re.I):
+        for m in re.finditer(pat, novariant, re.I):
             bh.append(m.group(0))
     add(14, "Variant base purity", "PASS" if not bh else "FAIL",
         "American base clean; %d switchable tokens defined in VARIANTS.json" % len(VARIANT_TOKENS)
