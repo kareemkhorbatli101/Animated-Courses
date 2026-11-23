@@ -39,22 +39,22 @@ makes that the task.
 
 ## Contents
 
-| | Unit | At work | Grammar |
-|---|---|---|---|
-| | **Starting Point** | What you can already do, and the four tenses you need | Review: present, past, *going to*, *will* |
-| 1 | **Getting It Right** | A specification, and the detail everybody assumed | Comparatives and superlatives |
-| 2 | **The Order Book** | Placing, confirming and changing an order | Present perfect for recent events |
-| 3 | **Chasing** | Following somebody up without annoying them | Present perfect against past simple; *yet*, *already*, *still* |
-| 4 | **Reading the Contract** | Payment terms, and what you have agreed to | *must* / *have to* / *should* / *don't have to* |
-| 5 | **Quality and Complaints** | A complaint, and a reply that keeps the customer | The passive, present and past |
-| 6 | **Keeping Records** | Logs, forms and the thing nobody wrote down | Defining relative clauses |
-| 7 | **Explaining a Process** | How it is done, to somebody who has never seen it | Sequencers with the passive |
-| 8 | **Comparing Suppliers** | Two quotations and a recommendation | *as … as*; *the most*; *not as … as* |
-| 9 | **The Meeting** | An agenda, an interruption, and a decision | Question forms; indirect questions |
-| 10 | **Money Matters** | An invoice, a reminder, and a difficult call | The first conditional |
-| 11 | **Safety at Work** | Rules, warnings and a near miss | *must* / *mustn't* / *needn't*; imperatives |
-| 12 | **Looking Back, Looking Forward** | A year in numbers, and what they do not say | Past continuous and past simple |
-| | **Back matter** | Grammar reference · Audio index · Word list · Sources | |
+| | Unit | At work | Grammar | Page |
+|---|---|---|---|---|
+| | **Starting Point** | What you can already do, and the four tenses you need | Review: present, past, *going to*, *will* | 5 |
+| 1 | **Getting It Right** | A specification, and the detail everybody assumed | Comparatives and superlatives | 8 |
+| 2 | **The Order Book** | Placing, confirming and changing an order | Present perfect for recent events | 28 |
+| 3 | **Chasing** | Following somebody up without annoying them | Present perfect against past simple; *yet*, *already*, *still* | 47 |
+| 4 | **Reading the Contract** | Payment terms, and what you have agreed to | *must* / *have to* / *should* / *don't have to* | 66 |
+| 5 | **Quality and Complaints** | A complaint, and a reply that keeps the customer | The passive, present and past | 86 |
+| 6 | **Keeping Records** | Logs, forms and the thing nobody wrote down | Defining relative clauses | 106 |
+| 7 | **Explaining a Process** | How it is done, to somebody who has never seen it | Sequencers with the passive | 125 |
+| 8 | **Comparing Suppliers** | Two quotations and a recommendation | *as … as*; *the most*; *not as … as* | 147 |
+| 9 | **The Meeting** | An agenda, an interruption, and a decision | Question forms; indirect questions | 167 |
+| 10 | **Money Matters** | An invoice, a reminder, and a difficult call | The first conditional | 187 |
+| 11 | **Safety at Work** | Rules, warnings and a near miss | *must* / *mustn't* / *needn't*; imperatives | 208 |
+| 12 | **Looking Back, Looking Forward** | A year in numbers, and what they do not say | Past continuous and past simple | 228 |
+| | **Back matter** | Grammar reference · Audio index · Word list · Sources | | 250 |
 
 ## The people
 

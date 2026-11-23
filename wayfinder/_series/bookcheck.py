@@ -69,7 +69,8 @@ SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 # Clearline (business series) — its specs live in business/_build.
                 # Both series number their directories level1..level6, so the key
                 # carries the series when it is not Wayfinder.
-                "business/level1": ["spec_o1", "spec_o2", "spec_o3", "spec_o4"]}
+                "business/level1": ["spec_o1", "spec_o2", "spec_o3", "spec_o4"],
+                "business/level2": ["spec_p1", "spec_p2", "spec_p3", "spec_p4"]}
 
 def load_specs(book):
     """The realia text of every figure, as raw HTML, keyed by figure id."""

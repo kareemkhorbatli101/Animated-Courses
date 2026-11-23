@@ -22,9 +22,10 @@ BOOKS = [("wayfinder/starter", "Wayfinder-Starter-Book1"),
          ("wayfinder/level3",  "Wayfinder-3-Book4"),
          ("wayfinder/level4",  "Wayfinder-4-Book5"),
          ("wayfinder/level5",  "Wayfinder-5-Book6"),
-         ("business/level1",   "Clearline-Foundation-Book1")]
+         ("business/level1",   "Clearline-Foundation-Book1"),
+         ("business/level2",   "Clearline-1-Book2")]
 
-HEAD = re.compile(r'^(UNIT \d+|Starting Point|Grammar reference|Audio index.*|'
+HEAD = re.compile(r'^(UNIT \d+|Starting Point|STARTING POINT|Grammar reference|Audio index.*|'
                   r'Word list|Academic word list|Sources|Closing)$')
 
 def openers(txt):
@@ -50,7 +51,12 @@ def page_for(label, op, txt):
     if not l: return None
     m = re.match(r'(?:Unit\s*)?(\d+)$', l, re.I) or re.match(r'Unit\s*(\d+)\b', l, re.I)
     if m: return op.get("UNIT %s" % int(m.group(1)))
-    if l.lower().startswith("starting point"):  return op.get("Starting Point")
+    if l.lower().startswith("starting point"):
+        # The opener may print the bare words or the full title, e.g.
+        # "Starting Point · Four Tenses and a Habit".
+        for k in op:
+            if k.lower().startswith("starting point"): return op[k]
+        return None
     if l.lower().startswith("back matter"):     return op.get("Grammar reference")
     for k in op:
         if k.lower() == l.lower() or k.lower().startswith(l.lower()[:14]): return op[k]
