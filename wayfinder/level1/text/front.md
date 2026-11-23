@@ -42,19 +42,19 @@ people arrive: Linh, Adeel, Oksana and Samira.
 |---|---|---|
 | **Starting Point** | One year later, in Room 7 | 5 |
 | **Unit 1** | Hello Again | 7 |
-| **Unit 2** | Can You Help Me? | 24 |
-| **Unit 3** | People I Know | 41 |
-| **Unit 4** | My Place | 58 |
-| **Unit 5** | Around the Block | 76 |
-| **Unit 6** | My Week | 93 |
-| **Unit 7** | Spend Smart | 110 |
-| **Unit 8** | Good Food | 128 |
-| **Unit 9** | Stay Healthy | 146 |
-| **Unit 10** | Job Hunt | 164 |
-| **Unit 11** | Be Safe | 181 |
-| **Unit 12** | Free Time | 198 |
-| **Grammar reference** | | 217 |
-| **Audio index and scripts** | | 3 |
+| **Unit 2** | Can You Help Me? | 25 |
+| **Unit 3** | People I Know | 42 |
+| **Unit 4** | My Place | 59 |
+| **Unit 5** | Around the Block | 77 |
+| **Unit 6** | My Week | 95 |
+| **Unit 7** | Spend Smart | 112 |
+| **Unit 8** | Good Food | 130 |
+| **Unit 9** | Stay Healthy | 148 |
+| **Unit 10** | Job Hunt | 166 |
+| **Unit 11** | Be Safe | 184 |
+| **Unit 12** | Free Time | 202 |
+| **Grammar reference** | | 221 |
+| **Audio index and scripts** | | 224 |
 | **Word list** | | 3 |
 
 ---

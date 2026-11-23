@@ -46,13 +46,13 @@ your own.
 | **Unit 6** | My People | 94 |
 | **Unit 7** | At the Market | 111 |
 | **Unit 8** | I Don't Feel Well | 127 |
-| **Unit 9** | What Should I Wear? | 143 |
-| **Unit 10** | Where I Live | 159 |
-| **Unit 11** | Around the City | 176 |
-| **Unit 12** | I Can Do That | 193 |
-| **Grammar reference** | | 210 |
-| **Audio index and scripts** | | 213 |
-| **Word list** | | 216 |
+| **Unit 9** | What Should I Wear? | 144 |
+| **Unit 10** | Where I Live | 160 |
+| **Unit 11** | Around the City | 177 |
+| **Unit 12** | I Can Do That | 194 |
+| **Grammar reference** | | 212 |
+| **Audio index and scripts** | | 3 |
+| **Word list** | | 219 |
 
 ---
 

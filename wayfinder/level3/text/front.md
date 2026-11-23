@@ -44,17 +44,17 @@ you did.
 | | **Starting Point** | Parts of speech; word families | Verb tense review | 5 |
 | 1 | **Back to School** | How a college actually works | Present and past review; yes/no questions; adjectives and adverbs | 8 |
 | 2 | **Fun Times** | Choosing between two things you would both like | *be going to* / *will*; promises; predictions; *would rather*; *very* / *too* | 29 |
-| 3 | **Office Life** | Shared drives, tickets, and the tool nobody trained you on | *as … as*; comparatives; superlatives | 48 |
-| 4 | **The Interview** | A job search, and persuading somebody to take a chance | Present perfect; *for* / *since*; contractions | 68 |
-| 5 | **Lend a Hand** | Volunteering, and saying what you are interested in | Present perfect questions; *ever* / *already* / *yet*; past simple vs present perfect | 88 |
-| 6 | **In the Kitchen** | A recipe, a substitution, an uncertainty | Phrasal verbs, separable and inseparable; possessive pronouns | 108 |
-| 7 | **Money Moves** | A scam message, a frozen account, a dispute | Real conditionals; questions; future time clauses | 128 |
-| 8 | **Healthy Habits** | A hospital department, and a change you used to resist | *used to*; present perfect continuous | 148 |
-| 9 | **On the Road** | Buying a second-hand vehicle, and making a deal | Time clauses; *and … too* / *and … not either* / *but* | 168 |
-| 10 | **Keeping Safe** | A break-in on the street, and reporting it in order | Gerunds as subjects; gerunds and infinitives | 188 |
-| 11 | **Big Moments** | News that changes a plan, and how to answer it | The passive; *by*; *be able to* | 208 |
-| 12 | **Speak Up** | Your rights as a tenant, a worker and a student | Verb + infinitive; verb + gerund or infinitive | 228 |
-| | **Back matter** | Grammar reference · Audio index and scripts · Word list · Sources | | 249 |
+| 3 | **Office Life** | Shared drives, tickets, and the tool nobody trained you on | *as … as*; comparatives; superlatives | 49 |
+| 4 | **The Interview** | A job search, and persuading somebody to take a chance | Present perfect; *for* / *since*; contractions | 69 |
+| 5 | **Lend a Hand** | Volunteering, and saying what you are interested in | Present perfect questions; *ever* / *already* / *yet*; past simple vs present perfect | 91 |
+| 6 | **In the Kitchen** | A recipe, a substitution, an uncertainty | Phrasal verbs, separable and inseparable; possessive pronouns | 112 |
+| 7 | **Money Moves** | A scam message, a frozen account, a dispute | Real conditionals; questions; future time clauses | 132 |
+| 8 | **Healthy Habits** | A hospital department, and a change you used to resist | *used to*; present perfect continuous | 153 |
+| 9 | **On the Road** | Buying a second-hand vehicle, and making a deal | Time clauses; *and … too* / *and … not either* / *but* | 174 |
+| 10 | **Keeping Safe** | A break-in on the street, and reporting it in order | Gerunds as subjects; gerunds and infinitives | 195 |
+| 11 | **Big Moments** | News that changes a plan, and how to answer it | The passive; *by*; *be able to* | 215 |
+| 12 | **Speak Up** | Your rights as a tenant, a worker and a student | Verb + infinitive; verb + gerund or infinitive | 236 |
+| | **Back matter** | Grammar reference · Audio index and scripts · Word list · Sources | | 257 |
 
 ## The people
 

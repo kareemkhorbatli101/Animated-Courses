@@ -10,7 +10,8 @@ mkdir -p "$PDF"
 for pass in 1 2 3; do
   for b in "" 2 3 4 5 6; do python3 -I "$ROOT/wayfinder/_build/build_book${b}.py" >/dev/null; done
   for b in 1 2 3 4 5 6; do python3 -I "$ROOT/business/_build/build_book${b}.py" >/dev/null; done
-  for d in wayfinder business; do
+  for b in 1 2 3 4 5 6; do python3 -I "$ROOT/diplomacy/_build/build_book${b}.py" >/dev/null; done
+  for d in wayfinder business diplomacy; do
     ( cd "$ROOT/$d" && for f in *.docx; do
         [ -e "$f" ] || continue
         timeout 900 soffice --headless --convert-to pdf --outdir "$PDF" "$f" >/dev/null 2>&1

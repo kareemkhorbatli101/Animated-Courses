@@ -77,15 +77,23 @@ SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "business/level3": ["spec_q1", "spec_q2", "spec_q3", "spec_q4"],
                 "business/level4": ["spec_r1", "spec_r2", "spec_r3", "spec_r4"],
                 "business/level5": ["spec_s1", "spec_s2", "spec_s3", "spec_s4"],
-                "business/level6": ["spec_t1", "spec_t2", "spec_t3", "spec_t4"]}
+                "business/level6": ["spec_t1", "spec_t2", "spec_t3", "spec_t4"],
+                # Foreign Service English (diplomacy series) — specs in diplomacy/_build.
+                "diplomacy/level1": ["spec_g1", "spec_g2", "spec_g3", "spec_g4"],
+                "diplomacy/level2": ["spec_h1", "spec_h2", "spec_h3", "spec_h4"],
+                "diplomacy/level3": ["spec_i1", "spec_i2", "spec_i3", "spec_i4"],
+                "diplomacy/level4": ["spec_j1", "spec_j2", "spec_j3", "spec_j4"],
+                "diplomacy/level5": ["spec_k1", "spec_k2", "spec_k3", "spec_k4"],
+                "diplomacy/level6": ["spec_l1", "spec_l2", "spec_l3", "spec_l4"]}
 
 def load_specs(book):
     """The realia text of every figure, as raw HTML, keyed by figure id."""
     mods = SPEC_MODULES.get(book)
     if not mods: return {}
     sys.path.insert(0, os.path.join(HERE, "..", "_build"))
-    if book.startswith("business/"):
-        sys.path.insert(0, os.path.join(HERE, "..", "..", "business", "_build"))
+    for _series in ("business", "diplomacy"):
+        if book.startswith(_series + "/"):
+            sys.path.insert(0, os.path.join(HERE, "..", "..", _series, "_build"))
     out = {}
     try:
         for mn in mods:
@@ -141,7 +149,11 @@ READ_TARGET = {"starter": (0.0,3.5), "level1": (2.5,4.5), "level2": (3.0,5.0),
                # Clearline: adult business readers, A2 to C1
                "business/level1": (3.5,6.5), "business/level2": (4.5,7.5),
                "business/level3": (5.5,8.5), "business/level4": (6.5,9.5),
-               "business/level5": (7.5,10.5), "business/level6": (8.5,11.5)}
+               "business/level5": (7.5,10.5), "business/level6": (8.5,11.5),
+               # Foreign Service English: adult professional readers, A2 to C1
+               "diplomacy/level1": (3.5,6.5), "diplomacy/level2": (4.5,7.5),
+               "diplomacy/level3": (5.5,8.5), "diplomacy/level4": (6.5,9.5),
+               "diplomacy/level5": (7.5,10.5), "diplomacy/level6": (8.5,11.5)}
 
 def strip_markup(s):
     s = re.sub(r"%%FIG[^%]*%%", " ", s)

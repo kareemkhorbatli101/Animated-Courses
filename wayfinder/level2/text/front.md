@@ -38,20 +38,20 @@ she lives.
 
 | | | Page |
 |---|---|---|
-| **Starting Point** | Two years in | 5 |
-| **Unit 1** | Study Smarter | 7 |
-| **Unit 2** | Make Plans | 24 |
-| **Unit 3** | A New Place | 42 |
-| **Unit 4** | Find Work | 60 |
-| **Unit 5** | First Week at Work | 78 |
-| **Unit 6** | Stay Connected | 96 |
-| **Unit 7** | Cook at Home | 114 |
-| **Unit 8** | Feeling Better | 132 |
-| **Unit 9** | Manage Money | 150 |
-| **Unit 10** | Know Your City | 168 |
-| **Unit 11** | When Things Go Wrong | 185 |
-| **Unit 12** | Time to Relax | 203 |
-| **Grammar reference** | | 222 |
+| **Starting Point** | Two years in | 6 |
+| **Unit 1** | Study Smarter | 8 |
+| **Unit 2** | Make Plans | 26 |
+| **Unit 3** | A New Place | 44 |
+| **Unit 4** | Find Work | 62 |
+| **Unit 5** | First Week at Work | 80 |
+| **Unit 6** | Stay Connected | 99 |
+| **Unit 7** | Cook at Home | 117 |
+| **Unit 8** | Feeling Better | 135 |
+| **Unit 9** | Manage Money | 153 |
+| **Unit 10** | Know Your City | 171 |
+| **Unit 11** | When Things Go Wrong | 189 |
+| **Unit 12** | Time to Relax | 208 |
+| **Grammar reference** | | 227 |
 | **Audio index and scripts** | | 3 |
 | **Word list** | | 3 |
 

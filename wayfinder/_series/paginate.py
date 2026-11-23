@@ -27,7 +27,13 @@ BOOKS = [("wayfinder/starter", "Wayfinder-Starter-Book1"),
          ("business/level3",   "Clearline-2-Book3"),
          ("business/level4",   "Clearline-3-Book4"),
          ("business/level5",   "Clearline-4-Book5"),
-         ("business/level6",   "Clearline-5-Book6")]
+         ("business/level6",   "Clearline-5-Book6"),
+         ("diplomacy/level1",  "FMS-Foundation-Book1"),
+         ("diplomacy/level2",  "FMS-1-Book2"),
+         ("diplomacy/level3",  "FMS-2-Book3"),
+         ("diplomacy/level4",  "FMS-3-Book4"),
+         ("diplomacy/level5",  "FMS-4-Book5"),
+         ("diplomacy/level6",  "FMS-5-Book6")]
 
 HEAD = re.compile(r'^(UNIT \d+|Starting Point|STARTING POINT|Grammar reference|Audio index.*|'
                   r'Word list|Academic word list|Sources|Closing)$')
@@ -107,6 +113,11 @@ if __name__ == "__main__":
     total = 0
     for d, stem in BOOKS:
         pdf = os.path.join(pdfdir, stem + ".pdf")
+        # A pdf dir holding only some of the books is normal: a single book can be
+        # converged on its own without reconverting the whole shelf.
+        if not os.path.exists(pdf):
+            print("%-8s %-24s no pdf in %s, skipped" % (d, stem, pdfdir))
+            continue
         txt = subprocess.run(["pdftotext", pdf, "-"], capture_output=True,
                              text=True, check=True).stdout
         n = rewrite(os.path.join(WF, d, "text", "front.md"), txt)
