@@ -41,22 +41,22 @@ job and you do not need a book six.
 
 ## Contents
 
-| | Unit | Situation | Grammar |
-|---|---|---|---|
-| | **Starting Point** | Register, hedging and academic word families | Tense and aspect review |
-| 1 | **Telling the Story** | Retelling the arrival that started all of this | Narrative tenses; past perfect continuous |
-| 2 | **What Comes Next** | Forecasts, trends, and what will have changed by then | Future continuous and future perfect; degrees of certainty |
-| 3 | **Reading the Evidence** | A claim, a dataset, and a summary that does not match | Modals of deduction; *must* / *might* / *can't have* |
-| 4 | **If Things Were Different** | A decision taken years ago, and its consequence now | Mixed conditionals; *wish* / *if only* |
-| 5 | **How It Gets Done** | A service, a process, and who is accountable | The passive across all tenses; *have something done* |
-| 6 | **People and Places** | A description that earns its adjectives | Non-defining and reduced relative clauses |
-| 7 | **He Said, She Claimed** | A meeting, a minute, and the verb you choose | Reporting verbs; backshift choices |
-| 8 | **Taking a Position** | An argument you concede half of and still win | Hypothetical past; *it's time*; concession |
-| 9 | **Making It Concise** | Summarizing without flattening | Participle clauses; nominalization |
-| 10 | **Making the Point** | A presentation, and the sentence that lands | Inversion; cleft sentences |
-| 11 | **The Fine Print** | The obligation hidden in a quantifier | Articles, determiners, quantifiers |
-| 12 | **Pulling It Together** | One long piece of writing, one sustained turn of talk | Discourse markers; hedging; cohesion |
-| | **Back matter** | Grammar reference · Audio index · Word list · Academic list · Sources | |
+| | Unit | Situation | Grammar | Page |
+|---|---|---|---|---|
+| | **Starting Point** | Register, hedging and academic word families | Tense and aspect review | 5 |
+| 1 | **Telling the Story** | Retelling the arrival that started all of this | Narrative tenses; past perfect continuous | 8 |
+| 2 | **What Comes Next** | Forecasts, trends, and what will have changed by then | Future continuous and future perfect; degrees of certainty | 30 |
+| 3 | **Reading the Evidence** | A claim, a dataset, and a summary that does not match | Modals of deduction; *must* / *might* / *can't have* | 52 |
+| 4 | **If Things Were Different** | A decision taken years ago, and its consequence now | Mixed conditionals; *wish* / *if only* | 75 |
+| 5 | **How It Gets Done** | A service, a process, and who is accountable | The passive across all tenses; *have something done* | 98 |
+| 6 | **People and Places** | A description that earns its adjectives | Non-defining and reduced relative clauses | 121 |
+| 7 | **He Said, She Claimed** | A meeting, a minute, and the verb you choose | Reporting verbs; backshift choices | 144 |
+| 8 | **Taking a Position** | An argument you concede half of and still win | Hypothetical past; *it's time*; concession | 166 |
+| 9 | **Making It Concise** | Summarizing without flattening | Participle clauses; nominalization | 189 |
+| 10 | **Making the Point** | A presentation, and the sentence that lands | Inversion; cleft sentences | 212 |
+| 11 | **The Fine Print** | The obligation hidden in a quantifier | Articles, determiners, quantifiers | 236 |
+| 12 | **Pulling It Together** | One long piece of writing, one sustained turn of talk | Discourse markers; hedging; cohesion | 259 |
+| | **Back matter** | Grammar reference · Audio index · Word list · Academic list · Sources | | 283 |
 
 ## The people
 

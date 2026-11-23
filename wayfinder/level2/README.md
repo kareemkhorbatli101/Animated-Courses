@@ -1,7 +1,7 @@
 # Wayfinder 2 — Book 3
 
 **Deliverable:** `../Wayfinder-2-Book3.docx` — the whole book as one Word file.
-234 pages A4 · 57,100 authored words · 174 figures · 193 audio cues.
+228 pages A4 · 57,100 authored words · 174 figures · 193 audio cues.
 
 CEFR A2. Set in Portmere two years after Wayfinder Starter, with the same cast and four
 arrivals who joined in Book 2.
@@ -18,16 +18,16 @@ arrivals who joined in Book 2.
 ## What is new against Book 2
 
 - **The past tense completes.** Unit 4 gives the regular simple past, Unit 8 the irregular forms
-  and *had to*, Unit 11 the past continuous against the simple past. A learner can now narrate.
+ and *had to*, Unit 11 the past continuous against the simple past. A learner can now narrate.
 - **Comparison arrives.** Unit 12 gives comparatives, superlatives and *one of the*.
 - **Documents get real.** The Real-life Reading texts are a tenancy agreement, a mobile contract,
-  a discharge letter, a bank statement, a council registration page and a power company's
-  emergency notice — written as those documents are written, with the task constrained to
-  scan-and-locate rather than full comprehension (series plan §4.2‡).
+ a discharge letter, a bank statement, a council registration page and a power company's
+ emergency notice — written as those documents are written, with the task constrained to
+ scan-and-locate rather than full comprehension (series plan §4.2‡).
 - **Phrase banks are gone.** Withdrawn entirely at this level, as planned.
 - **The hard cases get harder.** *Think It Through* now asks about a signature on a delivery note
-  that does not match the pallets, a consent form being translated by a neighbour who is not sure
-  she understood it, and a wheelchair at the top of an unlit stairwell.
+ that does not match the pallets, a consent form being translated by a neighbour who is not sure
+ she understood it, and a wheelchair at the top of an unlit stairwell.
 
 ## Structure, for the website build
 
@@ -67,13 +67,12 @@ Run `python3 wayfinder/_series/bookcheck.py wayfinder/level2`.
 - No British token in the American base; 7 switchable tokens defined in `VARIANTS.json`
 - Every lesson carries at least three oral slots and at least one open question; no silent openers
 - Reading texts: 10 of 12 scored, Flesch-Kincaid 2.9–5.8 against a document ceiling of 7.5. The
-  other two are an advert and a price table with no running prose, so the measure does not apply
-  and the gate says so rather than scoring them anyway.
+ other two are an advert and a price table with no running prose, so the measure does not apply
+ and the gate says so rather than scoring them anyway.
 
 ## Known gaps
 
 Same as Books 1 and 2: the answer key belongs in the Teacher's Book; teacher's notes exist for
-Starter Unit 1 only; audio scripts are indexed with the non-printed track types scripted in full;
-Contents page numbers are placeholders pending design pagination. Three gates still cannot run
+Starter Unit 1 only; audio scripts are indexed with the non-printed track types scripted in full; Three gates still cannot run
 without a per-unit META spine (band check, key coverage, CEFR descriptors) and two are human reads
 by design (answer sanity, and the clean-room n-gram diff, for which the project holds no corpus).

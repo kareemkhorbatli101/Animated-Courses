@@ -1,7 +1,7 @@
 # Wayfinder 3 — Book 4
 
 **Deliverable:** `../Wayfinder-3-Book4.docx` — the whole book as one Word file.
-264 pages A4 · 72,100 authored words · 194 figures · 194 audio cues.
+255 pages A4 · 72,100 authored words · 194 figures · 194 audio cues.
 
 CEFR B1. Set in Portmere three years after Wayfinder Starter, with the same cast.
 The first book in the series with sixteen-page units.
@@ -20,15 +20,15 @@ The first book in the series with sixteen-page units.
 Four slots arrive at this level, all of them in the plan from the start:
 
 - **True/False/Not Given, with line numbers.** Every Lesson 2 reading is numbered by line, and
-  the exam-format task asks learners to name the line that decides each answer. The hardest items
-  are the ones that are *Not Given* — where the text neither says it nor contradicts it.
+ the exam-format task asks learners to name the line that decides each answer. The hardest items
+ are the ones that are *Not Given* — where the text neither says it nor contradicts it.
 - **Word study.** A five-row affix chart per unit — prefixes that reverse, suffixes that make
-  people, the *-able* family, compound nouns — followed by five sentences that use them.
+ people, the *-able* family, compound nouns — followed by five sentences that use them.
 - **A *Language connection* box** in every Grammar lesson: a rule the learner completes from two
-  worked examples, always about the difference between a sentence that starts an argument and one
-  that starts a process.
+ worked examples, always about the difference between a sentence that starts an argument and one
+ that starts a process.
 - **Team roles.** Manager, Writer, Editor, Presenter. The Editor's job is the real one: check that
-  every claim in the team's work could actually be defended.
+ every claim in the team's work could actually be defended.
 
 Also: the phrase banks are gone, as planned; the team error hunt gives four wrong sentences and
 asks for the part of speech as well as the correction; and every lesson now carries a
@@ -86,6 +86,5 @@ Run `python3 wayfinder/_series/bookcheck.py wayfinder/level3`.
 
 The answer key belongs in the Teacher's Book. Teacher's notes exist for Starter Unit 1 only. Six
 of the sixteen audio types per unit are deliberately not printed in the Student Book, and their
-scripts are in the Teacher's Book. Contents page numbers are placeholders pending design
-pagination. Three gates still need a per-unit META spine (band check, key coverage, CEFR
+scripts are in the Teacher's Book. Three gates still need a per-unit META spine (band check, key coverage, CEFR
 descriptors) and two are human reads by design.

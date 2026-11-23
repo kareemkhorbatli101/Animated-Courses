@@ -41,22 +41,22 @@ document does and does not establish.
 
 ## Contents
 
-| | Unit | Situation | Grammar |
-|---|---|---|---|
-| | **Starting Point** | Register: the same thing said four ways | Verb tense review |
-| 1 | **Who Are You?** | What you are like to work with | Action and stative verbs; yes/no, information and or-questions |
-| 2 | **In the News** | One local story, two outlets, one set of facts | Past passive; past passive questions; reflexive pronouns |
-| 3 | **On the Move** | Travel that goes wrong, and relaying what you were told | Quoted and reported speech; *told* + object; reported instructions |
-| 4 | **Career Steps** | A five-year plan, and the step you had already taken | Past perfect; past perfect questions; the three past tenses together |
-| 5 | **Safety Matters** | An incident report, and what should have happened | *have to* / *have got to* / *must*; *should have* |
-| 6 | **People Skills** | The colleague whose work depends on yours | Adjective clauses; *whose* |
-| 7 | **Budget Wise** | A shared budget, and a decision nobody wants to make | The present unreal conditional |
-| 8 | **Smart Shopper** | A faulty product, a refund policy, and a complaint that works | *-ed* / *-ing* adjectives; adverbs of degree; *so* / *such … that* |
-| 9 | **Take Care** | Sleep, stress, and the advice you actually follow | *should* / *had better* / *ought to*; gerunds and infinitives |
-| 10 | **Get Involved** | A public consultation, and asking questions indirectly | Indirect *wh-* and yes/no questions; *if* / *whether* |
-| 11 | **Living Online** | A rental platform, a review, a dispute in writing | Tag questions with *be*, *do* and *did* |
-| 12 | **How Am I Doing?** | A review meeting, and asking for the feedback you need | Gerunds after prepositions and after adjective + preposition |
-| | **Back matter** | Grammar reference · Audio index · Word list · Academic list · Sources | |
+| | Unit | Situation | Grammar | Page |
+|---|---|---|---|---|
+| | **Starting Point** | Register: the same thing said four ways | Verb tense review | 5 |
+| 1 | **Who Are You?** | What you are like to work with | Action and stative verbs; yes/no, information and or-questions | 8 |
+| 2 | **In the News** | One local story, two outlets, one set of facts | Past passive; past passive questions; reflexive pronouns | 29 |
+| 3 | **On the Move** | Travel that goes wrong, and relaying what you were told | Quoted and reported speech; *told* + object; reported instructions | 51 |
+| 4 | **Career Steps** | A five-year plan, and the step you had already taken | Past perfect; past perfect questions; the three past tenses together | 72 |
+| 5 | **Safety Matters** | An incident report, and what should have happened | *have to* / *have got to* / *must*; *should have* | 93 |
+| 6 | **People Skills** | The colleague whose work depends on yours | Adjective clauses; *whose* | 114 |
+| 7 | **Budget Wise** | A shared budget, and a decision nobody wants to make | The present unreal conditional | 135 |
+| 8 | **Smart Shopper** | A faulty product, a refund policy, and a complaint that works | *-ed* / *-ing* adjectives; adverbs of degree; *so* / *such … that* | 157 |
+| 9 | **Take Care** | Sleep, stress, and the advice you actually follow | *should* / *had better* / *ought to*; gerunds and infinitives | 178 |
+| 10 | **Get Involved** | A public consultation, and asking questions indirectly | Indirect *wh-* and yes/no questions; *if* / *whether* | 199 |
+| 11 | **Living Online** | A rental platform, a review, a dispute in writing | Tag questions with *be*, *do* and *did* | 221 |
+| 12 | **How Am I Doing?** | A review meeting, and asking for the feedback you need | Gerunds after prepositions and after adjective + preposition | 243 |
+| | **Back matter** | Grammar reference · Audio index · Word list · Academic list · Sources | | 264 |
 
 ## The people
 

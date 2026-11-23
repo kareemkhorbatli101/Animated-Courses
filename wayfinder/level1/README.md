@@ -1,7 +1,7 @@
 # Wayfinder 1 — Book 2
 
 **Deliverable:** `../Wayfinder-1-Book2.docx` — the whole book as one Word file.
-227 pages A4 · 50,900 authored words · 181 figures · 194 audio cues.
+223 pages A4 · 54,700 authored words · 181 figures · 194 audio cues.
 
 CEFR A1+ → A2. Set in Portmere one year after Wayfinder Starter, with the same cast.
 
@@ -17,12 +17,12 @@ CEFR A1+ → A2. Set in Portmere one year after Wayfinder Starter, with the same
 ## What is new against Book 1
 
 - **The past tense opens.** Unit 10 gives *was* and *were*; Unit 12 gives *be going to* and
-  *was going to* for a plan that changed. For the first time a learner can say what they **were**.
+ *was going to* for a plan that changed. For the first time a learner can say what they **were**.
 - **Longer texts.** Readings run to about 140 words, model texts to about 90.
 - **Phrase banks withdrawn.** Two per unit instead of four, on purpose and visibly.
 - **Harder cases.** Several *Think It Through* problems have no good answer — a licence that will
-  not translate before a deadline, a CV gap that was a life, a colleague on an unsafe ladder who
-  trained you.
+ not translate before a deadline, a CV gap that was a life, a colleague on an unsafe ladder who
+ trained you.
 
 ## Structure, for the website build
 
@@ -60,4 +60,3 @@ art modules, so the same 187 icons and the same cast render in each book's own v
 
 Same as Book 1: the answer key belongs in the Teacher's Book; teacher's notes exist for Starter
 Unit 1 only; audio scripts are indexed with the five non-printed track types scripted in full;
-Contents page numbers are placeholders pending design pagination.

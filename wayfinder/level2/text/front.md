@@ -38,22 +38,22 @@ she lives.
 
 | | | Page |
 |---|---|---|
-| **Starting Point** | Two years in | 6 |
-| **Unit 1** | Study Smarter | 8 |
-| **Unit 2** | Make Plans | 22 |
-| **Unit 3** | A New Place | 36 |
-| **Unit 4** | Find Work | 50 |
-| **Unit 5** | First Week at Work | 64 |
-| **Unit 6** | Stay Connected | 78 |
-| **Unit 7** | Cook at Home | 92 |
-| **Unit 8** | Feeling Better | 106 |
-| **Unit 9** | Manage Money | 120 |
-| **Unit 10** | Know Your City | 134 |
-| **Unit 11** | When Things Go Wrong | 148 |
-| **Unit 12** | Time to Relax | 162 |
-| **Grammar reference** | | 176 |
-| **Audio index and scripts** | | 184 |
-| **Word list** | | 190 |
+| **Starting Point** | Two years in | 5 |
+| **Unit 1** | Study Smarter | 7 |
+| **Unit 2** | Make Plans | 24 |
+| **Unit 3** | A New Place | 42 |
+| **Unit 4** | Find Work | 60 |
+| **Unit 5** | First Week at Work | 78 |
+| **Unit 6** | Stay Connected | 96 |
+| **Unit 7** | Cook at Home | 114 |
+| **Unit 8** | Feeling Better | 132 |
+| **Unit 9** | Manage Money | 150 |
+| **Unit 10** | Know Your City | 168 |
+| **Unit 11** | When Things Go Wrong | 185 |
+| **Unit 12** | Time to Relax | 203 |
+| **Grammar reference** | | 222 |
+| **Audio index and scripts** | | 3 |
+| **Word list** | | 3 |
 
 ---
 

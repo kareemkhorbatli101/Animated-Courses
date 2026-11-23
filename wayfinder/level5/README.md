@@ -1,7 +1,7 @@
 # Wayfinder 5 — Book 6
 
 **Deliverable:** `../Wayfinder-5-Book6.docx` — the whole book as one Word file.
-298 pages A4 · 85,700 authored words · 194 figures · 194 audio cues.
+291 pages A4 · 85,700 authored words · 194 figures · 194 audio cues.
 
 CEFR B2. Set in Portmere five years after Wayfinder Starter, with the same cast and four new
 arrivals. The last book in the series.
@@ -85,5 +85,5 @@ Run `python3 wayfinder/_series/bookcheck.py wayfinder/level5`.
 
 The answer key belongs in the Teacher's Book. Teacher's notes exist for Starter Unit 1 only. Six
 of the sixteen audio types per unit are deliberately not printed, and their scripts are in the
-Teacher's Book. Contents page numbers are placeholders pending design pagination. Three gates
+Teacher's Book. Three gates
 still need a per-unit META spine and two are human reads by design.

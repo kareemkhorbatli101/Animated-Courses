@@ -37,22 +37,22 @@ your own.
 
 | | | Page |
 |---|---|---|
-| **Starting Point** | In class and online | 6 |
+| **Starting Point** | In class and online | 5 |
 | **Unit 1** | Nice to Meet You | 8 |
-| **Unit 2** | How Are You Today? | 22 |
-| **Unit 3** | What Time? | 36 |
-| **Unit 4** | Mark the Date | 50 |
-| **Unit 5** | How Much Is It? | 64 |
-| **Unit 6** | My People | 78 |
-| **Unit 7** | At the Market | 92 |
-| **Unit 8** | I Don't Feel Well | 106 |
-| **Unit 9** | What Should I Wear? | 120 |
-| **Unit 10** | Where I Live | 134 |
-| **Unit 11** | Around the City | 148 |
-| **Unit 12** | I Can Do That | 162 |
-| **Grammar reference** | | 176 |
-| **Audio index and scripts** | | 184 |
-| **Word list** | | 190 |
+| **Unit 2** | How Are You Today? | 27 |
+| **Unit 3** | What Time? | 43 |
+| **Unit 4** | Mark the Date | 60 |
+| **Unit 5** | How Much Is It? | 77 |
+| **Unit 6** | My People | 94 |
+| **Unit 7** | At the Market | 111 |
+| **Unit 8** | I Don't Feel Well | 127 |
+| **Unit 9** | What Should I Wear? | 143 |
+| **Unit 10** | Where I Live | 159 |
+| **Unit 11** | Around the City | 176 |
+| **Unit 12** | I Can Do That | 193 |
+| **Grammar reference** | | 210 |
+| **Audio index and scripts** | | 213 |
+| **Word list** | | 216 |
 
 ---
 

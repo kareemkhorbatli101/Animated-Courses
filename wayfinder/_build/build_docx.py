@@ -138,6 +138,64 @@ def add_figure(doc, fid, alt, maxw=5.6):
     except Exception:
         pass
 
+TEXT_WIDTH_EMU = Inches(6.37)      # A4 less two 0.95in margins
+
+def _plain(t):
+    t = re.sub(r'<[^>]+>', '', t or "")
+    t = re.sub(r'[*`~]', '', t)
+    return t.strip()
+
+def full_width(t, rows=None):
+    """Make a table fill the text column, with columns proportioned to their
+    content. python-docx leaves tables on content-driven autofit, which both
+    Word and LibreOffice resolve by shrinking to the longest cell -- on a page
+    this wide that left the contents table at under half the measure, wrapping
+    three-word cells onto four lines. A percentage width alone is ignored while
+    the layout is auto, so the layout is pinned to fixed and every column is
+    given an explicit width."""
+    tblPr = t._tbl.tblPr
+    for el in tblPr.findall(qn('w:tblW')): tblPr.remove(el)
+    w = OxmlElement('w:tblW'); w.set(qn('w:w'), "5000"); w.set(qn('w:type'), "pct")
+    tblPr.append(w)
+    for el in tblPr.findall(qn('w:tblLayout')): tblPr.remove(el)
+    lay = OxmlElement('w:tblLayout'); lay.set(qn('w:type'), "fixed"); tblPr.append(lay)
+    t.autofit = False
+    if rows:
+        ncol = max(len(r) for r in rows)
+        weight, floors = [], []
+        for j in range(ncol):
+            cells = [_plain(r[j]) for r in rows if j < len(r)]
+            longest = max((len(c) for c in cells), default=1)
+            # The longest single word cannot be broken, so a column holding
+            # "Pronunciation" needs room for it however short its cells are.
+            # Without this the six-column scope-and-sequence table hyphenated
+            # mid-word down every row: "Pronu / nciati / on".
+            word = max((len(w) for c in cells for w in c.split()), default=1)
+            weight.append(min(max(longest, word * 2.2, 10), 44))
+            floors.append(min(Inches(0.34 + 0.062 * word), Inches(1.45)))
+        total = float(sum(weight)) or 1.0
+        widths = [int(TEXT_WIDTH_EMU * x / total) for x in weight]
+        widths = [max(widths[j], floors[j]) for j in range(ncol)]
+        over = sum(widths) - TEXT_WIDTH_EMU
+        if over > 0:                      # take the excess off the widest columns
+            for _ in range(4):
+                if over <= 0: break
+                order = sorted(range(ncol), key=lambda j: -widths[j])
+                for j in order:
+                    if over <= 0: break
+                    room = max(0, widths[j] - floors[j])
+                    cut = min(room, over); widths[j] -= cut; over -= cut
+            if over > 0:                  # floors alone exceed the measure
+                scale = float(TEXT_WIDTH_EMU) / sum(widths)
+                widths = [int(x * scale) for x in widths]
+        grid = t._tbl.find(qn('w:tblGrid'))
+        if grid is not None:
+            for j, gc in enumerate(grid.findall(qn('w:gridCol'))):
+                if j < len(widths): gc.set(qn('w:w'), str(int(widths[j] / 635)))  # twips
+        for j, col in enumerate(t.columns):
+            for c in col.cells: c.width = Emu(widths[j])
+    return t
+
 def add_table(doc, rows, header=False):
     ncol = max(len(r) for r in rows)
     t = doc.add_table(rows=0, cols=ncol); t.style="Table Grid"; t.alignment=WD_TABLE_ALIGNMENT.LEFT
@@ -151,6 +209,7 @@ def add_table(doc, rows, header=False):
             if header and i==0:
                 shade(cells[j], "F0EFEC")
                 for rr in cells[j].paragraphs[0].runs: rr.bold=True
+    full_width(t, rows)
     doc.add_paragraph(style="WF Body")
     return t
 
@@ -206,13 +265,14 @@ def doc_box(doc, para_list):
     """The reading text, typeset as the document it is. A price board or a timetable
     inside that document is a table and has to be set as one; printing its pipes puts
     raw markdown in front of the learner."""
-    t = doc.add_table(rows=1, cols=1); t.style = "Table Grid"
+    t = doc.add_table(rows=1, cols=1); t.style = "Table Grid"; full_width(t)
     c = t.rows[0].cells[0]; shade(c, "FBFAF7")
     c.paragraphs[0]._p.getparent().remove(c.paragraphs[0]._p)
     for kind, txt in para_list:
         if kind == "t":
             inner = c.add_table(rows=0, cols=max(len(r) for r in txt))
             inner.style = "Table Grid"; inner.alignment = WD_TABLE_ALIGNMENT.LEFT
+            full_width(inner)
             ncol = max(len(r) for r in txt)
             for i, r in enumerate(txt):
                 cells = inner.add_row().cells
@@ -293,9 +353,21 @@ def render_unit(doc, path, first=False):
         if s_.startswith("## "): para(doc,"WF Lesson", s_[3:].strip()); continue
         if s_.startswith("### "):
             h=s_[4:].strip()
+            # %%AUG x%% marks one of the five augmentation strands (SERIES-PLAN §5).
+            # It is metadata for the website build and for the author, not a label:
+            # only strand (a) is digital literacy, so printing "Digital skills" above
+            # a retrieval strip, a pronunciation drill or a progress log was wrong.
+            # Each strand's own title already names it.
             augm=re.match(r'%%AUG ([a-z])%%\s*(.*)', h)
-            if augm: para(doc,"WF Box Head","Digital skills — "+augm.group(2))
-            elif h and h[0] in BOXES: para(doc,"WF Box Head", h[1:].strip())
+            if augm:
+                h = augm.group(2).strip()
+                # Strand (a) is the digital & AI literacy slot, and in Books 1-3 it
+                # is a "Check the ..." box that needs naming. From Level 3 the plan
+                # turns it into a team research task, which names itself.
+                if augm.group(1) == "a" and not h.startswith("Team research"):
+                    h = "Digital skills — " + h
+            if h and h[0] in BOXES: para(doc,"WF Box Head", h[1:].strip())
+            elif augm: para(doc,"WF Box Head", h)
             else: para(doc,"WF Section", h)
             continue
         if s_.startswith("<sub>"):

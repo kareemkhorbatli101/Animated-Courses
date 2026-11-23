@@ -1,7 +1,7 @@
 # Wayfinder 4 — Book 5
 
 **Deliverable:** `../Wayfinder-4-Book5.docx` — the whole book as one Word file.
-290 pages A4 · 77,100 authored words · 194 figures · 194 audio cues.
+270 pages A4 · 77,100 authored words · 194 figures · 194 audio cues.
 
 CEFR B1+. Set in Portmere four years after Wayfinder Starter, with the same cast.
 
@@ -77,5 +77,5 @@ Run `python3 wayfinder/_series/bookcheck.py wayfinder/level4`.
 
 The answer key belongs in the Teacher's Book. Teacher's notes exist for Starter Unit 1 only. Six
 of the sixteen audio types per unit are deliberately not printed, and their scripts are in the
-Teacher's Book. Contents page numbers are placeholders pending design pagination. Three gates
+Teacher's Book. Three gates
 still need a per-unit META spine and two are human reads by design.

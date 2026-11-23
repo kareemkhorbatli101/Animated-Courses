@@ -1,7 +1,7 @@
 # Wayfinder Starter — Book 1
 
 **Deliverable:** `../Wayfinder-Starter-Book1.docx` — the whole book as one Word file.
-219 pages A4 · 42,500 words · 183 figures · 174 tables · 195 audio cues.
+216 pages A4 · 51,200 authored words · 183 figures · 195 audio cues.
 
 ## What is in the file
 
@@ -62,9 +62,10 @@ python3 wayfinder/_build/build_book.py
 ## Known gaps
 
 - **Answer key** is not in this file. It belongs in the Teacher's Book; Unit 1's full key already
-  exists at `u01/AK_starter-u01.md` as the model.
+ exists at `u01/AK_starter-u01.md` as the model.
 - **Audio scripts** are indexed and the six non-printed track types are scripted in full. The
-  tracks that simply read printed text are marked as such rather than duplicated.
+ tracks that simply read printed text are marked as such rather than duplicated.
 - **Teacher's notes** exist for Unit 1 only (`u01/TN_starter-u01.md`).
-- **Page numbers in Contents** are placeholders from the planned 14-page unit grid; the Word file
-  flows to 219 A4 pages and would be repaginated at design.
+- **Page numbers in Contents** are measured from the built PDF by
+ `_series/paginate.py` and are correct for this build; a design repagination would
+ change them, and re-running that script rewrites them.

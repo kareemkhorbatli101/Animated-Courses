@@ -5,14 +5,14 @@ specification; every word of it is new.
 
 | Book | Level | CEFR | Deliverable | Pages | Words | Figures | Audio cues |
 |---|---|---|---|---|---|---|---|
-| 1 | Wayfinder Starter | pre-A1 → A1 | `Wayfinder-Starter-Book1.docx` | 219 | 51,200 | 183 | 195 |
-| 2 | Wayfinder 1 | A1 → A2 | `Wayfinder-1-Book2.docx` | 228 | 54,700 | 181 | 194 |
-| 3 | Wayfinder 2 | A2 | `Wayfinder-2-Book3.docx` | 234 | 57,100 | 174 | 193 |
-| 4 | Wayfinder 3 | A2+ → B1 | `Wayfinder-3-Book4.docx` | 264 | 72,300 | 194 | 194 |
-| 5 | Wayfinder 4 | B1+ | `Wayfinder-4-Book5.docx` | 290 | 77,200 | 194 | 194 |
-| 6 | Wayfinder 5 | B2 | `Wayfinder-5-Book6.docx` | 298 | 85,700 | 194 | 194 |
+| 1 | Wayfinder Starter | pre-A1 → A1 | `Wayfinder-Starter-Book1.docx` | 216 | 51,200 | 183 | 195 |
+| 2 | Wayfinder 1 | A1 → A2 | `Wayfinder-1-Book2.docx` | 223 | 54,700 | 181 | 194 |
+| 3 | Wayfinder 2 | A2 | `Wayfinder-2-Book3.docx` | 228 | 57,100 | 174 | 193 |
+| 4 | Wayfinder 3 | A2+ → B1 | `Wayfinder-3-Book4.docx` | 255 | 72,300 | 194 | 194 |
+| 5 | Wayfinder 4 | B1+ | `Wayfinder-4-Book5.docx` | 270 | 77,200 | 194 | 194 |
+| 6 | Wayfinder 5 | B2 | `Wayfinder-5-Book6.docx` | 291 | 85,700 | 194 | 194 |
 
-**398,000 authored words · 1,120 figures · 1,164 audio cues · 1,533 pages.**
+**398,000 authored words · 1,120 figures · 1,164 audio cues · 1,483 pages.**
 
 Each book is one Word file: front matter, a Starting Point, twelve units of sixteen pages, and
 back matter. Nothing is a placeholder.
@@ -72,8 +72,8 @@ word, character, figure, document, statistic and task in these six books is orig
 ## Built from source
 
 ```bash
-python3 wayfinder/_build/render_book6.py   # SVG → PNG at scale 2, via Chromium
-python3 wayfinder/_build/build_book6.py    # markdown + figures → one .docx
+python3 wayfinder/_build/render_book6.py # SVG → PNG at scale 2, via Chromium
+python3 wayfinder/_build/build_book6.py # markdown + figures → one .docx
 python3 wayfinder/_series/bookcheck.py wayfinder/level5
 ```
 
@@ -98,5 +98,6 @@ and its figure id as the image title. Six books, one parser, no guessing from fo
 
 Answer keys belong in the Teacher's Book. Teacher's notes exist for Starter Unit 1 only. Six of
 the sixteen audio types per unit are deliberately unprinted and their scripts are in the Teacher's
-Book. Contents page numbers are placeholders pending design pagination. Three gates need a
-per-unit META spine that is not yet written, and two are human reads by design.
+Book. Contents page numbers are measured from each built PDF by `_series/paginate.py`
+and are correct for this build. Three gates need a per-unit META spine that is not yet
+written, and two are human reads by design.
