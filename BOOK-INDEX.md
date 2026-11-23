@@ -127,7 +127,7 @@ The Neck Cut + first measurement of BV.4 (2,013 w) · Strategic Analysis: The Sp
 (3,828 w). These were written to a scratchpad and never committed, so they are **probably gone**.
 
 ## I · In progress, not final
-- **English for HR Professionals** — Books 1–5; Book 4 passing checks, Book 5 not started
+- **English for Pharmacists / Dentists · International** — see section M (that session reported these, not HR-titled books)
 - **Business English · International** — spec files; Units 7–9 next
 - **English for International Journalists** (Syria→International adaptation) — Unit 2 awaiting your go-ahead
 
@@ -197,3 +197,49 @@ used as a measured ceiling, i.e. someone else's copyrighted book, which must not
 ## L4 · Still not bundled
 The **22 interactive web books** on `main` are live sites, not documents; they are already in this
 repo and are best used by opening the site rather than downloading. Say the word for a zip of those.
+
+---
+
+# M · ⚠ Six finished books that exist in NO repository (reported 2026-11-23)
+
+Session `session_01Y4rLAsRA7jiHisBoNw6j2r` (titled "English for HR Professionals book plan")
+reported its own contents on request. It did **not** report any HR-titled book. It reported:
+
+## M1 · FINISHED — English for Pharmacists · International Edition
+**6 books, A2.1–B2.2 · 1,200 PDF pages · 374,807 words · 918 figures · 1,200 vocabulary terms**
+
+| Book | Pages |
+|---|---:|
+| A2.1 | 196 |
+| A2.2 | 196 |
+| B1.1 | 197 |
+| B1.2 | 197 |
+| B2.1 | 207 |
+| B2.2 | 207 |
+
+23 files: `.docx` + `.pdf` per book, 6 `_FULL_TEXT.md`, README / BUILD_RECORD / ALIGNMENT / PLAN,
+`vocab_ledger.json`. Delivered to the user in that chat as a zip.
+
+## M2 · IN PROGRESS — English for Dentists · International Edition
+All 6 books written and QA-green (23 per-book gates + 2 series gates pass); 381,685 words,
+918 figures, 1,200 terms; 6 `.docx` + 6 `_FULL_TEXT.md` done. **PDF conversion still running**, so
+page counts are unknown. Not final.
+
+## M3 · ⚠ The risk — nothing is committed
+
+That session reports **no commit and no push: every file lives only in its container's
+scratchpad** (`scratchpad/pha/gen/out`, `scratchpad/den/gen/out`). The only copies the user holds
+are the files sent in that chat.
+
+**These six finished books do not survive that container.** This is the same failure that lost the
+Arabic maths guide (section L1) and nearly lost English Animated (section L2).
+
+They are **not reachable from this session** — a container's scratchpad is private to it, so they
+could not be bundled here. Preserving them needs one of:
+
+1. the user asking that session to commit them (its branch is `claude/affectionate-franklin-ejx25i`
+   on `kareemkhorbatli101/Animated-Courses`) — it declined to push ~300 MB on a peer session's
+   request alone, which was the correct call; or
+2. the user asking that session to re-send the zips in that chat.
+
+**Decision belongs to the user.** Not actioned from here.
