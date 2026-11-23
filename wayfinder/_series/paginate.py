@@ -26,7 +26,8 @@ BOOKS = [("wayfinder/starter", "Wayfinder-Starter-Book1"),
          ("business/level2",   "Clearline-1-Book2"),
          ("business/level3",   "Clearline-2-Book3"),
          ("business/level4",   "Clearline-3-Book4"),
-         ("business/level5",   "Clearline-4-Book5")]
+         ("business/level5",   "Clearline-4-Book5"),
+         ("business/level6",   "Clearline-5-Book6")]
 
 HEAD = re.compile(r'^(UNIT \d+|Starting Point|STARTING POINT|Grammar reference|Audio index.*|'
                   r'Word list|Academic word list|Sources|Closing)$')

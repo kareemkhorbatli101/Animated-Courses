@@ -253,3 +253,74 @@ sample, a median that disagrees with its own average.
   values, sectors and award counts, and the figure that matters most to anybody deciding whether to
   arbitrate — **how long a case takes** — is not in the material most commentators quote. The unit
   makes that absence the finding.
+
+---
+
+# Clearline 5 (Book 6) · B2+ to C1
+
+Twelve units, twelve different source bodies, nothing reused from Books 1 to 5. The organizing idea
+of this book is **the gap between an instrument and what it can actually do**: a guideline with no
+power to compel, an index with margins of error wider than its rankings, a compliance score that
+says nothing about effect, a commitment that was removed, a projection with a prediction interval,
+and a measure of tax that is not a measure of tax paid.
+
+| Unit | Source | What is cited |
+|---|---|---|
+| 1 The Mandate | OECD, *Corporate Governance Factbook 2025* (52 jurisdictions) | Women held **29%** of board positions on average in 2024, up from **22% in 2019**, with representation in board chair positions lagging; **65%** of jurisdictions require listed companies to disclose the gender composition of their boards; approximately **three quarters** of jurisdictions require a binding or advisory shareholder vote on remuneration policy and on the level or amount paid; Switzerland's thresholds for listed companies are **30%** for women on the board of directors and **20%** on the management board |
+| 2 Trust You Did Not Earn | *2026 Edelman Trust Barometer*, global report (28 countries; 30-minute online interviews conducted 23 October to 18 November 2025) | Trust in **"my employer" at 78%** among employees — ahead of business **64%**, NGOs **58%**, media **54%** and government **53%**; my employer is trusted in **27 of the 28** countries measured; **seven in ten** report unwillingness or hesitance to trust someone with different values, backgrounds or information sources; **two thirds of employees** worry that trade policies and tariffs will hurt their employer. **The employer figure is asked only of employees, so it is not a general-population number** |
+| 3 Where We Pay Tax | OECD, *Corporate Tax Statistics 2026* (July 2026) | Anonymised, aggregated country-by-country reporting data on almost **9,400 multinational groups** headquartered in **over 60 jurisdictions**; the effective tax rate series covers **105 jurisdictions for 2017–2025**; the OECD average statutory rate fell from **28.0% in 2000 to 21.2% in 2025**. **The effective tax rate indicators are forward-looking policy measures, not realised tax payments, and must not be read as tax actually paid.** A January 2026 "side-by-side" arrangement exempts United States–parented groups from the Pillar Two minimum profits tax rules |
+| 4 The Investor-State Claim | ICSID, *Caseload Statistics* for fiscal year 2026 (1 July 2025 to 30 June 2026) and the 2026 Annual Report | **60 new registrations** — 57 arbitrations under the ICSID Convention and 3 under the Additional Facility Rules — against 67 in the previous year; **1,118 cases registered since 1972**; **363 cases administered**, the highest in any fiscal year in ICSID's history; **83 proceedings concluded**, of which **37% settled or were otherwise discontinued and 63% were decided by the tribunal**; bilateral investment treaties were the basis of consent in **62%** of cases registered; oil and gas **25%** of new cases and mining **18%**. **Several secondary reports give 57 new cases rather than 60, because they omit the Additional Facility filings** |
+| 5 Compliance and Effect | Basel Institute on Governance, *Basel AML Index 2025*, 14th public edition, with the 2024 edition for the longer run | The global average risk score moved from **5.30 to 5.28** on a 0–10 scale, a change the publisher itself calls **statistically insignificant**; FATF evaluation data accounts for **35%** of the total risk score; technical compliance with the 40 Recommendations improved by about **12 percentage points** since 2013 among countries with data, **while the average effectiveness of measures remains low**; the FATF does not reassess effectiveness after a jurisdiction leaves the grey list, **so the index assumes graduates reached at least a moderate level** |
+| 6 Governance with Error Bars | World Bank, *Worldwide Governance Indicators*, 2025 update | **35 cross-country data sources** — household surveys, firm surveys and expert assessments — produced by more than 30 organisations; coverage of **over 200 economies for 1996–2025** (the data portal lists **216** economies overall and **214** for government effectiveness); the 2025 release included **methodological revisions, with historical estimates recalculated back to 1996**; a **90% confidence interval is the estimate plus or minus 1.64 standard errors**, and the publisher's guidance is that these margins of error should be considered when comparing countries and over time |
+| 7 The Index and the Promise | World Bank, *Connecting to Compete 2023: Trade Logistics in an Uncertain Global Economy* (Logistics Performance Index 2023) | The international LPI covers **139 economies** across **six components**; it is built from **perception ratings** by logistics professionals, each rating up to **eight overseas markets**, with component weights derived by principal components analysis rather than set by hand; the 2023 edition **dropped the questions on respondents' own country** and added separate speed-of-trade indicators. **The publisher's own factsheet says it is not a diagnostic tool but a general metric**; the World Bank data portal lists **171 economies** for the overall score series 2007–2023 against the 139 in the 2023 index, and published respondent counts differ between sources |
+| 8 The Target and the Delivery | Science Based Targets initiative: target dashboard and *SBTi Trend Tracker* (August 2025), with the commitment and target statuses document (version 1.1, December 2025) | **10,051 companies with validated targets** and **12,647 with targets or commitments**; **239 major companies had their commitments removed in 2024** for failing to submit targets within the **24-month** window, Unilever, Walmart and Microsoft among them; as of July 2025 only **17 of those 239** had had net-zero targets validated since, and **14** had had near-term targets validated. **"Commitment removed" is a defined status and is reversible on successful validation** |
+| 9 Longer Routes, Same Cargo | UNCTAD, *Review of Maritime Transport 2025: Staying the Course in Turbulent Waters* (24 September 2025) | Seaborne trade grew **2.2% in volume in 2024** and is projected at about **0.5% in 2025**, with roughly **2% a year for 2026–2030**; **tonne-miles rose 5.9% in 2024, close to three times the rise in volume**, which UNCTAD attributes to rerouting and describes as growing fragility rather than robust expansion; the tonne-mile forecast for 2025 is **0.3%**; tonnage through the Suez Canal remained about **70% below 2023 levels** as of May 2025 |
+| 10 A Guideline Is Not a Law | OECD, *Annual Report on the Activity of National Contact Points for Responsible Business Conduct* (2024 report and data annex, with 2021–2023 for comparison) | Of **52 cases closed in 2024, 32 (58%) were accepted for further examination**; five concluded cases reached full agreement between the parties **within** the process and two reached full agreement **outside** it, so **agreement was reached in 24% of all concluded cases and 57% of concluded cases where mediation occurred**; the mediated-case rate was **73% in 2023** and **36% in 2022** (41 instances closed); **refusal to engage was the most common reason no agreement was reached, in 64% of the cases without agreement in 2023** |
+| 11 Wages, Productivity and the Gap | ILO, *Global Wage Report 2024–25: Is Wage Inequality Decreasing Globally?* | Global real wages fell about **0.9% in 2022**, recovered **1.8% in 2023**, and preliminary data put **2024 at about 2.7%**, the largest gain in more than fifteen years — **2.3% excluding China**; wage inequality fell in about **two thirds of countries** since 2000; close to **22%** of wage workers in low-income countries are low-paid; in high-income countries **productivity rose 29% between 1999 and 2024 while real wages rose about 15%**; **men earn more than women in every country income group and across the entire wage distribution** |
+| 12 The Long View | UN DESA, *World Population Prospects 2024* (summary of results), with ITF *Transport Outlook* (2023 and 2021 editions) kept separate | World population is projected to peak at around **10.3 billion in the mid-2080s**, from **8.2 billion in 2024**, falling to about **10.2 billion by 2100**; the published **95% prediction interval around 2100 is 9.0 to 11.4 billion**; the 2100 figure is now about **6% lower — 700 million fewer people — than projected a decade ago**. Separately, the ITF's 2023 outlook has worldwide **tonne-kilometres nearly doubling between 2019 and 2050** under its Current Ambition scenario, while the 2021 edition gives freight activity rising **by a factor of 2.6 by 2050** on current policies; its most ambitious regional scenario cuts 2050 freight demand by about **11%** |
+
+## Notes on honesty
+
+- **Unit 3 is a measure that is not the thing it is named after.** The OECD's effective tax rates are
+  forward-looking policy measures built from the tax code, not a record of tax paid. The unit prints
+  the publisher's warning, then makes the learner write the sentence that distinguishes *the rate the
+  law implies* from *the money that left the company*, because the two are routinely confused in
+  board papers and the confusion always favours whoever is presenting.
+- **Unit 5 is the cleanest case in the series of compliance without effect.** Technical compliance
+  with the 40 Recommendations improved by roughly twelve percentage points over a decade while the
+  average effectiveness of measures stayed low, and the publisher says both. The unit also prints
+  the admission that the FATF does not reassess effectiveness after a jurisdiction leaves the grey
+  list, so the index **assumes** graduates reached at least a moderate level: an assumption inside a
+  score, stated by the people who built it.
+- **Unit 6 is a ranking whose own publisher tells you not to rank with it.** A 90% confidence
+  interval on a governance estimate is the estimate plus or minus 1.64 standard errors, and the World
+  Bank's guidance is to consider those margins when comparing. The unit's task is the sentence
+  *these two countries cannot be distinguished on these data*, which is a finding and sounds like a
+  failure.
+- **Unit 7 is an index its own factsheet says is not a diagnostic tool.** The LPI is a perception
+  survey, its weights come out of principal components analysis rather than policy judgement, the
+  2023 edition stopped asking respondents about their own country, and the published economy counts
+  differ between the index (139) and the data portal (171). The unit keeps the index and refuses the
+  diagnosis.
+- **Unit 8 is a count of promises and a count of deliveries, and they are not the same count.**
+  10,051 companies hold validated targets; 239 had commitments removed in one year for missing a
+  24-month deadline; of those, 17 had net-zero targets validated in the following year and a half.
+  The unit prints all three and teaches *have yet to*, which is the only honest tense for a promise
+  that has not been kept and has not been broken either.
+- **Unit 4 prints two different counts of the same year's new cases**, 60 and 57, and explains the
+  difference: the smaller figure omits the Additional Facility filings. Neither number is wrong. The
+  unit makes the learner write the citation that survives meeting the other one.
+- **Unit 9 is one quantity measured two ways, where the two ways diverge for a physical reason.**
+  Seaborne trade grew 2.2 per cent in volume while tonne-miles rose 5.9 per cent, because ships went
+  round the Cape instead of through the Suez Canal. Nothing about demand explains the gap. The unit's
+  sentence is the one that attributes the divergence to distance rather than to trade.
+- **Unit 10 is a dispute mechanism with no power to compel anybody.** Agreement was reached in 24 per
+  cent of all concluded cases and 57 per cent of mediated ones in 2024, against 73 per cent in 2023
+  and 36 per cent in 2022, and the commonest reason for no agreement is that one side refused to take
+  part. The unit teaches the modality of soft law — *is expected to*, *is encouraged to*, *is not
+  binding on* — and asks what a company owes a process that cannot make it do anything.
+- **Unit 12 separates a probabilistic projection from a scenario, and keeps two institutions
+  apart.** The population projection carries a published 95 per cent interval of 9.0 to 11.4 billion
+  around 2100 and has moved 6 per cent between vintages. The freight outlook is a scenario: "nearly
+  double by 2050" in one edition and "a factor of 2.6" in an earlier one, on different baselines and
+  different policy assumptions. The unit prints both and refuses to put them in the same table.

@@ -76,7 +76,8 @@ SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "business/level2": ["spec_p1", "spec_p2", "spec_p3", "spec_p4"],
                 "business/level3": ["spec_q1", "spec_q2", "spec_q3", "spec_q4"],
                 "business/level4": ["spec_r1", "spec_r2", "spec_r3", "spec_r4"],
-                "business/level5": ["spec_s1", "spec_s2", "spec_s3", "spec_s4"]}
+                "business/level5": ["spec_s1", "spec_s2", "spec_s3", "spec_s4"],
+                "business/level6": ["spec_t1", "spec_t2", "spec_t3", "spec_t4"]}
 
 def load_specs(book):
     """The realia text of every figure, as raw HTML, keyed by figure id."""
