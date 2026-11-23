@@ -191,6 +191,10 @@ CAST = {
  "bah":     dict(skin="c", hair="5", style="crop", cloth="navy"),
  "lucia":   dict(skin="b", hair="2", style="long", cloth="wine",  skirt=True),
  "ahmad":   dict(skin="e", hair="2", style="crop", cloth="navy"),
+ "linh":   dict(skin="d", hair="1", style="long", cloth="green", skirt=True),
+ "adeel":  dict(skin="b", hair="3", style="crop", cloth="sky"),
+ "oksana": dict(skin="a", hair="4", style="long", cloth="wine",  skirt=True),
+ "samira": dict(skin="c", hair="3", style="wrap", cloth="sky",   skirt=True),
 }
 CLOTH["amberish"]="#b5802f"
 

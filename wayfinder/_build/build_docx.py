@@ -70,7 +70,9 @@ def rule(doc, color="C9452C", size=12):
     bo.set(qn('w:color'),color); b.append(bo); pPr.append(b)
     return p
 
-INLINE = re.compile(r'(\*\*.+?\*\*|\*[^*]+?\*|`[^`]+?`|~~.+?~~)')
+# An italic span may wrap bold (*She sent **it to me***). Matched first, or the
+# bold rule swallows the inner pair and the stray asterisks print.
+INLINE = re.compile(r'(\*(?:[^*]*\*\*[^*]+\*\*)+[^*]*\*|\*\*.+?\*\*(?!\*)|\*[^*]+?\*|`[^`]+?`|~~.+?~~)')
 def rich(par, text, base_italic=False):
     """markdown inline -> runs"""
     text = (text.replace("&mdash;","—").replace("&middot;","·").replace("&ndash;","–")
@@ -89,7 +91,15 @@ def rich(par, text, base_italic=False):
                 continue
             r=par.add_run(inner); r.bold=True
         elif tok.startswith("*") and tok.endswith("*") and len(tok)>2:
-            r=par.add_run(tok[1:-1]); r.italic=True
+            inner = tok[1:-1]
+            if "**" in inner:                      # bold inside italics
+                for sub in re.split(r'(\*\*[^*]+\*\*)', inner):
+                    if not sub: continue
+                    rr = par.add_run(sub[2:-2] if sub.startswith("**") else sub)
+                    rr.italic = True
+                    rr.bold = sub.startswith("**")
+                continue
+            r=par.add_run(inner); r.italic=True
         elif tok.startswith("`") and tok.endswith("`") and len(tok)>2:
             r=par.add_run(tok[1:-1]); r.font.name="Consolas"; r.font.size=Pt(9.5)
         else:
@@ -193,11 +203,28 @@ def _trim_cols(rows):
     return rows
 
 def doc_box(doc, para_list):
-    """The reading text, typeset as the document it is."""
+    """The reading text, typeset as the document it is. A price board or a timetable
+    inside that document is a table and has to be set as one; printing its pipes puts
+    raw markdown in front of the learner."""
     t = doc.add_table(rows=1, cols=1); t.style = "Table Grid"
     c = t.rows[0].cells[0]; shade(c, "FBFAF7")
     c.paragraphs[0]._p.getparent().remove(c.paragraphs[0]._p)
     for kind, txt in para_list:
+        if kind == "t":
+            inner = c.add_table(rows=0, cols=max(len(r) for r in txt))
+            inner.style = "Table Grid"; inner.alignment = WD_TABLE_ALIGNMENT.LEFT
+            ncol = max(len(r) for r in txt)
+            for i, r in enumerate(txt):
+                cells = inner.add_row().cells
+                for j in range(ncol):
+                    cells[j].paragraphs[0].style = doc.styles["WF Body"]
+                    cells[j].paragraphs[0].paragraph_format.space_after = Pt(2)
+                    rich(cells[j].paragraphs[0], r[j] if j < len(r) else "")
+                    if i == 0:
+                        shade(cells[j], "F0EFEC")
+                        for rr in cells[j].paragraphs[0].runs: rr.bold = True
+            c.add_paragraph(style="WF Model").paragraph_format.space_after = Pt(2)
+            continue
         p = c.add_paragraph(style={"h":"WF Section","g":"WF Gloss"}.get(kind,"WF Model"))
         p.paragraph_format.space_after = Pt(4)
         rich(p, txt)
@@ -279,10 +306,19 @@ def render_unit(doc, path, first=False):
             while True:
                 b=cur.lstrip(">").strip()
                 if b:
-                    # join a wrapped continuation onto the line before it
-                    if (block and not b.startswith(("**","#","|"))
-                            and (b[0].islower() or not re.search(r'[.!?:\u2014]$', block[-1]))
-                            and not block[-1].startswith("#")
+                    # A wrapped continuation joins the line before it. A line may begin
+                    # with bold and still be a continuation ("...It does **not** become
+                    # cheaper"), so only real openers -- a rubric, a speaker, a glossed
+                    # term -- are allowed to start a new paragraph.
+                    opener = (b.startswith(("#", "|"))
+                              or re.match(r'^\*\*\d+[A-Z]?\s', b)
+                              or re.match(r'^\*\*[^*]+:\*\*', b)
+                              or re.match(r'^\*\*[^*]+\*\*\s*(\u2014|-)\s', b)
+                              or (b.startswith("**") and re.search(r'[.!?:\u2014]$', block[-1] if block else "")))
+                    if (block and not opener
+                            and (b[0].islower() or b.startswith("**")
+                                 or not re.search(r'[.!?:\u2014]$', block[-1]))
+                            and not block[-1].startswith(("#", "|"))
                             and not re.fullmatch(r'\*[^*].*?[^*]\*', block[-1])):
                         block[-1] = block[-1] + " " + b
                     else:
@@ -293,12 +329,36 @@ def render_unit(doc, path, first=False):
             is_read = any(b.startswith("## ") for b in block)
             if is_read:
                 pl=[]
-                for b in block:
+                bi = 0
+                while bi < len(block):
+                    b = block[bi]
+                    if b.startswith("|"):                 # a table inside the document
+                        rows = []
+                        while bi < len(block) and block[bi].startswith("|"):
+                            cells = [x.strip() for x in block[bi].strip("|").split("|")]
+                            bi += 1
+                            if set("".join(cells)) <= set("-: "): continue
+                            rows.append(cells)
+                        if rows: pl.append(("t", _trim_cols(rows)))
+                        continue
                     if b.startswith("## "): pl.append(("h", b[3:].strip()))
                     elif b.startswith("*") and b.endswith("*"): pl.append(("g", b.strip("*")))
                     else: pl.append(("p", b))
+                    bi += 1
                 doc_box(doc, pl); continue
-            for b in block:
+            bj = 0
+            while bj < len(block):
+                b = block[bj]
+                if b.startswith("|"):
+                    rows = []
+                    while bj < len(block) and block[bj].startswith("|"):
+                        cells = [x.strip() for x in block[bj].strip("|").split("|")]
+                        bj += 1
+                        if set("".join(cells)) <= set("-: "): continue
+                        rows.append(cells)
+                    if rows: add_table(doc, _trim_cols(rows), header=True)
+                    continue
+                bj += 1
                 if b.startswith("### "): para(doc,"WF Section", b[4:].strip())
                 elif re.match(r'^\*\*[^*]+:\*\*', b):
                     p=para(doc,"WF Dialogue"); p.paragraph_format.left_indent=Inches(0.22); rich(p,b)

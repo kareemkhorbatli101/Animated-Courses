@@ -9,7 +9,10 @@ from art_scenes import *
 # Objects that rest on the floor of a room. Everything else (signs, screens,
 # weather, things held or on a wall) keeps the y it was given.
 FLOOR_ICONS = {"table","chair","bed","fridge","cooker","radiator","bag","shoes",
-               "forklift","cleaner","busstop","park","plant","queue"}
+               "forklift","cleaner","busstop","park","plant","queue",
+               # Book 3: things that plainly stand on the ground
+               "car","bus","bench","bins","cashmachine","ticketmachine","desk",
+               "sofa","wardrobe","cupboard","printer","fallentree","gym"}
 
 # ------------------------------------------------------------------ types
 def f_icons(items, cols=None, numbered=True, cell=118, w=None):
@@ -43,10 +46,21 @@ def f_count(items, cell=132):
     return svg(W,H,"".join(o)), W, H
 
 def f_scene(w=760, h=400, floor=0.74, people=(), behind=(), props=(), board=None, counter_=None,
-            clockat=None, window_=None, sign_=None, plant_=None, panelbg=None):
-    """behind = people standing behind the counter: drawn BEFORE it, so it occludes them."""
-    body, fy = room(w,h,floor, panelbg or S2)
+            clockat=None, window_=None, sign_=None, plant_=None, panelbg=None,
+            floorbg=None, litwins=(), beams=(), glows=(), strokes=(), branch=None, stairs_=None, skyline=None):
+    """behind = people standing behind the counter: drawn BEFORE it, so it occludes them.
+    floorbg/litwins/beams/glows exist for the night scenes: a dark street needs a dark
+    road under it, not a pale floor."""
+    body, fy = room(w,h,floor, panelbg or S2, floorbg or S3)
     o=[body]
+    if branch: o.append(fallen_branch(branch[0], fy*1.0 if len(branch)<2 else branch[1],
+                                      *branch[2:]))
+    if skyline: o.append(cityline(*skyline))
+    if stairs_: o.append(stairs(*stairs_))
+    for st in strokes: o.append(line(*st))
+    for b in beams: o.append(beam(*b))
+    for g in glows: o.append(glow(g[0], g[1] if len(g)>1 else fy, g[-1]))
+    for lw in litwins: o.append(litwin(*lw))
     if window_: o.append(window(*window_))
     if board:
         x,y,bw,bh,title,rows = board
@@ -88,7 +102,8 @@ def f_realia(inner, w=560): return realia(inner, w), w, None
 def f_chart(rows, unit="students", w=470): return ranked_bar("", rows, w=w, unit=unit)
 def f_part(title, rows, w=470): return partwhole(title, rows, w=w)
 def f_matrix(cols, rows, w=540): return matrix("", cols, rows, w)
-def f_process(steps, w=620): return process("", steps, w=w)
+def f_process(steps, w=620, loop=None): return process("", steps, w=w, loop=loop)
+def f_cycle(labels, w=520): return cycle(labels, w=w)
 def f_timeline(marks, nowx, w=600): return timeline("", marks, nowx, w=w)
 
 # ------------------------------------------------------------------ realia helpers

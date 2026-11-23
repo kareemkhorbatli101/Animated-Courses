@@ -8,6 +8,85 @@ def room(w,h,floor=0.74,wall=S2,fl=S3):
     return (rect(0,0,w,fy,wall,wall,0)+rect(0,fy,w,h-fy,fl,fl,0)
             +line(0,fy,w,fy,RULE2,2,"butt")), fy
 
+# ---- night ----------------------------------------------------------------
+# A power cut is the one thing in this book that cannot be drawn in daylight.
+def litwin(x,y,w,h,warm="#f0c77a"):
+    """A window with somebody's light still on behind it."""
+    return (rect(x,y,w,h,warm,INK,2.5,2)
+            +line(x+w/2,y,x+w/2,y+h,INK,2.2,"butt")
+            +line(x,y+h/2,x+w,y+h/2,INK,2.2,"butt"))
+
+def beam(x,y,dx,dy,length=150,spread=34):
+    """A torch beam: a pale cone from a point, drawn under everything else."""
+    import math
+    L=math.hypot(dx,dy) or 1.0; ux,uy=dx/L,dy/L; px,py=-uy,ux
+    ex,ey = x+ux*length, y+uy*length
+    return path("M%.1f %.1f L%.1f %.1f L%.1f %.1f Z"%(
+        x,y, ex+px*spread, ey+py*spread, ex-px*spread, ey-py*spread),
+        "#ffeec4", "none", 0, 0).replace("<path ", '<path opacity="0.45" ')
+
+def fallen_branch(x1, fy, w=460, poleh=210, sag=26):
+    """A pole, a wire sagging across the street, and a branch lying over the wire
+    with one end on the road. Drawn as a scene element, not an icon: the point of
+    the picture is the relationship between the three, and an icon cannot show it."""
+    px, py = x1, fy
+    top = fy - poleh
+    x2 = x1 + w
+    mid = (x1+x2)/2
+    o=[]
+    o.append(line(px, py, px, top, "#6b5340", 9))                  # the pole
+    o.append(path("M%d %d Q%d %d %d %d"%(x1, top+8, mid, top+8+sag, x2, top+2),
+                  "none", "#5a6676", 3.5))                          # the wire
+    bx1, by1 = mid-150, top+8+sag-18                                # branch, over the wire
+    bx2, by2 = mid+120, fy-6
+    o.append(line(bx1, by1, bx2, by2, "#b89f78", 15))
+    o.append(line(bx1, by1, bx2, by2, INK, 2.2))
+    o.append(line(bx1+70, by1+36, bx1+10, by1+4, "#b89f78", 9))
+    o.append(circ(bx1+6, by1-6, 26, "#5f7a3f", INK, 3))
+    o.append(circ(bx1+46, by1+18, 19, "#6b8a46", INK, 3))
+    o.append(circ(bx1-26, by1+18, 16, "#5f7a3f", INK, 3))
+    return "".join(o)
+
+def cityline(x, y, w, h=64, water=True):
+    """A city and its harbour seen from above, in one flat band. Distance is carried
+    by a paler ink, so it never competes with the people in the foreground."""
+    import random
+    rnd = random.Random(7)
+    pale = "#c6ccd2"; pale2 = "#aeb6bd"; sea = "#b9ccd8"
+    o=[]
+    if water:
+        o.append(rect(x, y+h, w, 26, sea, sea, 0))
+        for i in range(5):
+            wx = x + 30 + i*(w/5.0)
+            o.append(line(wx, y+h+10+(i%2)*7, wx+34, y+h+10+(i%2)*7, "#9db4c4", 2.2))
+    cx = x
+    while cx < x+w-10:
+        bw = rnd.randint(16, 34); bh = rnd.randint(18, h)
+        if cx+bw > x+w: bw = x+w-cx
+        o.append(rect(cx, y+h-bh, bw, bh, pale if rnd.random()<0.6 else pale2,
+                      "#9aa2a9", 1.6, 1))
+        cx += bw + rnd.randint(2, 7)
+    o.append(line(x, y+h, x+w, y+h, "#9aa2a9", 1.8))
+    return "".join(o)
+
+def stairs(x, fy, w=260, rise=26, steps=6, facing=1):
+    """A flight of stairs seen from the side. Needed once, for a stairwell in the dark."""
+    run = w/steps
+    o=[]
+    pts=[]
+    for i in range(steps):
+        sx = x + (i*run if facing>0 else w-(i+1)*run)
+        sy = fy - (i+1)*rise
+        o.append(rect(sx, sy, run, rise, S3 if facing>0 else S3, INK, 2.2, 0))
+        pts.append((sx,sy))
+    o.append(line(x, fy, x+w, fy, INK, 2.2))
+    return "".join(o)
+
+def glow(x,y,r):
+    """A pool of warm light on the ground under a window or a van."""
+    return ('<ellipse cx="%.1f" cy="%.1f" rx="%.1f" ry="%.1f" fill="#ffe3a6" opacity="0.16"/>'
+            %(x,y,r,r*0.30))
+
 def counter(x,y,w,h=64):
     return (rect(x,y,w,14,WOOD,INK,2.5,2)+rect(x+6,y+14,w-12,h-14,WOOD2,INK,2.5,0)
             +line(x+6,y+40,x+w-6,y+40,INK,1.1,"butt"))
@@ -112,9 +191,11 @@ def matrix(title, cols, rows, w=520):
         o.append(line(10,y+10,w-10,y+10,RULE,1.4,"butt"))
     return svg(w,h,"".join(o)), w, h
 
-def process(title, steps, w=600, h=132):
-    """numbered steps, visible start and end."""
+def process(title, steps, w=600, h=132, loop=None):
+    """numbered steps, visible start and end. loop=(from,to) draws the arrow that
+    sends you back a stage, because some official processes really do."""
     n=len(steps); bw=(w-40-(n-1)*26)/n
+    if loop: h += 46
     o=[rect(0,0,w,h,PAPER,PAPER,0)]
     for i,s in enumerate(steps):
         x=20+i*(bw+26)
@@ -125,6 +206,38 @@ def process(title, steps, w=600, h=132):
         if i<n-1:
             ax=x+bw+6
             o.append(path("M%d 65 L%d 65 M%d 60 L%d 65 L%d 70"%(ax,ax+13,ax+8,ax+13,ax+8),"none",MUTED,2.5))
+    if loop:
+        a,b = loop
+        xa = 20+a*(bw+26)+bw/2; xb = 20+b*(bw+26)+bw/2; yb = h-14
+        o.append(path("M%.1f 96 C%.1f %d %.1f %d %.1f 102"%(xa,xa,yb,xb,yb,xb),"none",ACCENT,2.5))
+        o.append(path("M%.1f 102 L%.1f 110 M%.1f 102 L%.1f 110"%(xb,xb-5,xb,xb+5),"none",ACCENT,2.5))
+        o.append(txt((xa+xb)/2, yb-2, "and start again", 11, ACCENT, "middle", "600"))
+    return svg(w,h,"".join(o)), w, h
+
+def cycle(labels, w=520):
+    """A ring of requirements, each pointing at the next. Used where a process has
+    no entry point, which is a real experience and worth drawing honestly."""
+    import math
+    h=w; cx=cy=w/2; R=w*0.33; r=w*0.115
+    o=[rect(0,0,w,h,PAPER,PAPER,0)]
+    n=len(labels); pts=[]
+    for i in range(n):
+        a=-math.pi/2 + i*2*math.pi/n
+        pts.append((cx+R*math.cos(a), cy+R*math.sin(a)))
+    for i in range(n):
+        x1,y1=pts[i]; x2,y2=pts[(i+1)%n]
+        dx,dy=x2-x1,y2-y1; L=math.hypot(dx,dy); ux,uy=dx/L,dy/L
+        sx,sy=x1+ux*(r+5), y1+uy*(r+5); ex,ey=x2-ux*(r+13), y2-uy*(r+13)
+        o.append(path("M%.1f %.1f L%.1f %.1f"%(sx,sy,ex,ey),"none",MUTED,2.5))
+        px,py=-uy,ux
+        o.append(path("M%.1f %.1f L%.1f %.1f M%.1f %.1f L%.1f %.1f"%(
+            ex,ey, ex-ux*9+px*5, ey-uy*9+py*5, ex,ey, ex-ux*9-px*5, ey-uy*9-py*5),"none",MUTED,2.5))
+    for i,(x,y) in enumerate(pts):
+        o.append(circ(x,y,r,S2,INK,2.5))
+        o.append(circ(x,y-r,11,ACCENT,ACCENT,0)); o.append(disp(x,y-r+5,str(i+1),12,"#fff","middle"))
+        for k,ln in enumerate(labels[i].split("|")):
+            o.append(txt(x, y-4+k*14, ln, 11.5, INK, "middle"))
+    o.append(txt(cx, cy-4, "no way in", 14, ACCENT, "middle", "700"))
     return svg(w,h,"".join(o)), w, h
 
 # ------------------------------------------------------------------ realia (HTML)

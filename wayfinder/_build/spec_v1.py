@@ -21,7 +21,7 @@ S["v01-f2"]=lambda: f_scene(800,400, behind=[("oyelaran",580,170,{})],
 S["v01-f3"]=lambda: f_icons([("application","application"),("studentcard","student card"),
     ("lecture","course"),("deadline","deadline"),("reference","reference"),
     ("qualification","qualification")], cols=3)
-S["v01-f4"]=lambda: f_realia(screen("Enrolment &middot; occupation",
+S["v01-f4"]=lambda: f_realia(screen("Enrollment &middot; occupation",
     [("Choose one","Student / Employed / Unemployed / Retired"),
      ("Nadia works 2 mornings and studies 4 evenings",""),("You can tick one","")],
     btn="NEXT", flags=(0,)), 430)
@@ -33,8 +33,8 @@ S["v01-f5"]=lambda: f_realia(doc("Northside Technical College &middot; Evening p
     "<li>Proof of address.</li></ol>"
     "<p>You do <b>not</b> need a qualification from this country. You do <b>not</b> need experience "
     "in a hospital. Many of our students start with neither.</p>"
-    "<p><b>To enrol:</b> come to the desk in Building 2 before <b>30 September</b>.</p>",
-    "<b>enrol</b> &mdash; put your name on a course &middot; <b>reference</b> &mdash; a letter about you"))
+    "<p><b>To enroll:</b> come to the desk in Building 2 before <b>30 September</b>.</p>",
+    "<b>enroll</b> &mdash; put your name on a course &middot; <b>reference</b> &mdash; a letter about you"))
 S["v01-f6"]=lambda: f_realia(tbl("Northside Technical College","Monday evening &middot; Room 7",
     ["Name","Occupation","Evening"],
     [["N. Rahman","Café worker / student","Mon &amp; Wed"],["A. Sultani","Warehouse","Mon &amp; Wed"],
@@ -50,7 +50,7 @@ S["v01-f8"]=lambda: f_realia(tbl("Northside Technical College","Courses &middot;
      ["Computing","Tue","9","8 October"]]), 470)
 S["v01-f9"]=lambda: f_scene(680,370, behind=[("oyelaran",460,172,{})], people=[("nadia",230,174,{})],
     counter_=(360,208,310,122), props=[("application",390,158,0.4),("computer",560,152,0.42)])
-S["v01-f10"]=lambda: f_realia(form("Northside Technical College &mdash; Enrolment",
+S["v01-f10"]=lambda: f_realia(form("Northside Technical College &mdash; Enrollment",
     [("Name",""),("Date of birth",""),("Address",""),("Occupation",""),("Course",""),
      ("Reference &mdash; name",""),("Reference &mdash; role",""),("Signature","")]))
 S["v01-f11"]=lambda: f_realia(doc("The Market Café, Portmere","Reference",
@@ -137,7 +137,7 @@ S["v02-f15"]=lambda: f_scene(680,370, people=[("mei",250,166,{"smile":False})],
 
 # ---------------- Unit 3 ----------------
 S["v03-f1"]=lambda: f_icons([("happy","friendly"),("tired","busy"),("fine","quiet"),("angry","loud"),
-    ("worried","careful"),("student","organised"),("teacher","patient"),("nervous","short"),
+    ("worried","careful"),("student","organized"),("teacher","patient"),("nervous","short"),
     ("carer","tall"),("sick","funny")], cols=5)
 S["v03-f2"]=lambda: f_scene(800,390, people=[("priya",160,172,{}),("mei",390,166,{"seated":True}),
     ("lucia",600,172,{}),("nadia",710,174,{})],

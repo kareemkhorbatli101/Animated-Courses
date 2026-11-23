@@ -184,9 +184,9 @@ that is not in front of them. Those are below.
 
 | Unit | What the learner hears |
 |---|---|
-| 1 | Mrs Oyelaran greets Nadia at the enrolment desk and asks what she is here for. Answer: she works two mornings and studies. |
+| 1 | Mrs Oyelaran greets Nadia at the enrollment desk and asks what she is here for. Answer: she works two mornings and studies. |
 | 2 | Ahmad reads a notice aloud and asks a passing student where Room 12 is. Answer: Room 12. |
-| 3 | Nadia describes a housemate without naming her — organised, lists for everything. Answer: herself. |
+| 3 | Nadia describes a housemate without naming her — organized, lists for everything. Answer: herself. |
 | 4 | Yusuf lists what the new place has and has not. Answer: cupboards above the sink. |
 | 5 | Tomás on the phone saying he is outside but cannot see a number. Answer: 14 Market Square. |
 | 6 | Mei counts her week aloud for a colleague. Answer: three. |
@@ -256,7 +256,7 @@ or date read aloud. Unit 5 is printed in full here as the model; the other eleve
 | 9 | **Linh** — had a rash, five weeks, asked a pharmacist first, told to come back if it changed. |
 | 10 | **Oksana** — was a nurse, nineteen years, interview in January, hardest question was about her gap. |
 | 11 | **Grace** — fifteen years there, most accidents in week one, checks the exits first, the book is for patterns. |
-| 12 | **Mei** — was going to study, changed her mind because of her friends, favourite part was the park, going to do it again. |
+| 12 | **Mei** — was going to study, changed her mind because of her friends, favorite part was the park, going to do it again. |
 
 ---
 
@@ -268,12 +268,12 @@ the word is taught.
 **Starting Point** — introduce, how long, study for, nice to meet you, this is
 
 **1** — nurse, warehouse worker, café worker, cleaner, driver, carer, application, student card,
-course, deadline, reference, qualification, enrol, entry requirement, part-time, occupation
+course, deadline, reference, qualification, enroll, entry requirement, part-time, occupation
 
 **2** — lecture, desk, canteen, printer, library, noticeboard, map, classmate, call, write down,
 show, term, attendance, absence, notify, urgent
 
-**3** — tall, short, quiet, loud, patient, organised, friendly, busy, careful, funny, rota, bins,
+**3** — tall, short, quiet, loud, patient, organized, friendly, busy, careful, funny, rota, bins,
 washing up, laundry, shopping, keys, tenant, shared, agreement
 
 **4** — sofa, bed, lamp, shelf, wardrobe, mirror, curtains, rug, cupboard, fridge, cooker, shower,

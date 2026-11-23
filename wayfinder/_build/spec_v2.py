@@ -50,7 +50,7 @@ S["v05-f10"]=lambda: f_scene(680,340, floor=0.97, panelbg="#eef1ec",
 S["v05-f11"]=lambda: f_realia(doc("Written on the back of a receipt", None,
     "<p class='hand' style='font-family:Bricolage Grotesque,cursive;font-size:17px;line-height:2'>"
     "1. Out of this door, turn right<br>2. Past the <u>canteen</u><br>3. Across the car park<br>"
-    "4. Grey building<br><br>Door is BLUE. No number.</p>"), 340)
+    "4. Gray building<br><br>Door is BLUE. No number.</p>"), 340)
 S["v05-f12"]=lambda: f_panels(
     P(people=[("tomas",130,180,{"smile":False})], props=[("phone",230,130,0.5),("door",320,140,0.9)],
       floor=0.82, panelbg="#dfe6ee"),

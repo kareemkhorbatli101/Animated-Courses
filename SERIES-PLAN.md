@@ -405,6 +405,35 @@ a language convention, not a setting — Portmere is still unplaced.
 Target readability: roughly grade 2–3 at Starter, 3–4 at Levels 1–2, 5–7 at Level 3, 7–9 at Level 4,
 9–11 at Level 5, measured on the article text only.
 
+‡ **Amended after Books 1–3 were written and measured.** Running the readability gate across three
+finished books showed roughly half the Real-life Reading texts sitting one to three grades above the
+band. Two things were wrong, and neither was the prose.
+
+First, the gate was scoring the wrong characters. A Real-life Reading text is a *document* — a
+tenancy agreement, a job advert, a price board, a council leaflet. Flesch-Kincaid is a ratio of words
+per sentence and syllables per word; run it over a table row, a list of duties or a line of form
+fields and it returns a number that means nothing, because none of those are sentences. The gate now
+scores only running prose paragraphs of two or more real sentences, and reports how many texts it
+could not score for this reason instead of scoring them anyway.
+
+Second, the band itself was applied too widely. There are two kinds of reading in this series and
+they are not held to the same standard:
+
+- **Narrative and explanatory prose** — anything written to be read straight through, and anything a
+  learner is expected to comprehend fully or produce from. The §4.2 band applies in full, floor and
+  ceiling.
+- **Authentic documents** — the realia of the Real-life Reading lesson. These may run up to **2.5
+  grades above the band ceiling**, and carry no floor. A real notice is not written for a learner,
+  and simplifying it until it scores at band destroys the only thing that makes the lesson worth
+  teaching. The protection is not a lower score; it is the task. Every slot on a document above band
+  must be **scan-and-locate or gist** — find the date, find the number, decide whether it applies to
+  you — never full-text comprehension or translation. Gate 2 enforces the higher ceiling; the task
+  constraint is checked by the human read in Gate 9.
+
+A text that clears neither is edited, not re-banded. One did: the power-cut notice in Level 2 Unit 11
+was rewritten into shorter sentences after this measurement, because it was long-winded rather than
+authentic.
+
 **Vocabulary selection is justified item by item against public frequency data** — NGSL, the Oxford
 3000/5000, CEFR-J and COCA bands — never against anyone's published word list. Bands: A1 for
 Starter, A1–A2 for Level 1, A2 for Level 2, B1 for Level 3, B1–B2 for Level 4, B2 for Level 5. The
@@ -522,7 +551,9 @@ rendered to print, to the web player, or to a different platform later without r
 ## 8. Quality gates — every unit passes all of them or does not ship
 
 1. **Band check.** ≥95% of running tokens inside the level band + 1, measured against `WORDLIST.json`.
-2. **Readability** inside the §4.2 target range, article text only.
+2. **Readability** inside the §4.2 target range, measured on running prose only. Authentic
+   documents carry the §4.2‡ ceiling of band + 2.5 and no floor; texts that cannot be scored
+   are reported as unscored, never as passing.
 3. **Recycling check.** Every grammar point from unit n appears in ≥2 later units; every *Remember?*
    strip resolves to real earlier items.
 4. **Key coverage.** 100% of closed items keyed, variants included.

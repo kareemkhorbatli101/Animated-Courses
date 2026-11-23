@@ -145,7 +145,7 @@ S["u11-f8"]=lambda: f_realia(doc("Portmere City Library","Noticeboard",
     "<p><b>Room to rent</b> &mdash; 12 Fenner Street. 420 a month.</p>"
     "<p style='opacity:.45'><b>Free English conversation</b> &mdash; "
     "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; at &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <i>(covered)</i></p>"
-    "<p><b>Lost cat</b> &mdash; grey, answers to nothing.</p>"), 440)
+    "<p><b>Lost cat</b> &mdash; gray, answers to nothing.</p>"), 440)
 S["u11-f9"]=lambda: f_scene(680,370, behind=[("priya",460,170,{})], people=[("nadia",230,174,{})],
     counter_=(360,210,310,120), props=[("map",390,158,0.4),("computer",570,154,0.4)])
 S["u11-f10"]=lambda: f_scene(640,330, floor=0.96, panelbg="#eef1ec",
@@ -217,7 +217,7 @@ S["u12-f10"]=lambda: f_realia(tbl("","What I can do",["Skill","Yes","Not yet"],
 S["u12-f11"]=lambda: f_realia(doc("What I can do", None,
     "<p class='hand' style='font-family:Bricolage Grotesque,cursive;font-size:17px;line-height:2'>"
     "&#10003; lift 15 kg<br>&#10003; read labels<br>&#10003; use a computer<br>&#10003; work in a team"
-    "<br>? forklift &mdash; course in March<br><s>drive</s> &mdash; licence not accepted here</p>"), 330)
+    "<br>? forklift &mdash; course in March<br><s>drive</s> &mdash; license not accepted here</p>"), 330)
 S["u12-f12"]=lambda: f_panels(
     P(people=[("ahmad",140,180,{"seated":True}),("grace",260,174,{})],
       props=[("table",110,230,1.1),("form",170,190,0.4)], floor=0.80),
