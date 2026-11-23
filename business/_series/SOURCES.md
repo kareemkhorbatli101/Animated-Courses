@@ -186,3 +186,70 @@ Twelve units, twelve different source bodies, nothing reused from Books 1, 2 or 
 - **Unit 10 mixes two vintages on purpose.** The birth and death rates are for 2024; the most
   recent EU-wide five-year survival figure describes businesses born in 2014. The unit prints both
   years beside the figures and makes the mismatch the task.
+
+---
+
+# Clearline 4 (Book 5) · B2
+
+Twelve units, twelve different source bodies, nothing reused from Books 1 to 4. The organizing idea
+of this book is that **every one of the twelve has something wrong with it that its own publisher
+admits**: a named assumption, a revision, a definitional difference, a series break, a growing
+sample, a median that disagrees with its own average.
+
+| Unit | Source | What is cited |
+|---|---|---|
+| 1 The Forecast | IMF, *World Economic Outlook*, October 2026 ("Resilience Under Strain, Urgent Choices") | Global growth 3.1% in 2026 and 3.4% in 2027, the 2027 figure revised up from 3.2% in April; advanced economies 2.1% then 1.8%; emerging and developing 3.7% then 4.4%; United States 2.3% in both years; China 4.5% then 4.0%; global headline inflation 4.7% easing to 4.1%. **The projections assume the Strait of Hormuz reopens in March 2027 and an average oil price of 96 dollars a barrel in 2026 and 87 in 2027.** |
+| 2 The Case Against Your Own Case | EIB Investment Survey 2025 and the EIB *Investment Report 2025/2026* (March 2026) | Skills shortages reported as a major barrier to investment by 52% of EU firms; Malta 76%, with energy costs 84% and uncertainty about the future 77%; Denmark 67%; in Germany skills, energy costs and uncertainty each affect around nine firms in ten; investment in intangibles continues to grow but is particularly vulnerable to uncertainty |
+| 3 Two Horizons | WEF, *Global Risks Report 2026* (14 January 2026, 21st edition, Global Risks Perception Survey of over 1,300 leaders and experts) | Two-year outlook: geoeconomic confrontation first, misinformation and disinformation second, cyber insecurity sixth. Ten-year outlook: extreme weather first, misinformation and disinformation fourth, adverse outcomes of AI technologies fifth. **Adverse outcomes of AI is the largest riser between the horizons, from 30th on the two-year list to 5th on the ten-year** |
+| 4 When the Forecast Was Wrong | Swiss Re Institute, *sigma* 1/2026 (March 2026) and *sigma* 1/2025 | **sigma 1/2025 projected insured natural catastrophe losses "on trend to 145 billion dollars" for 2025. The outcome was about 107 billion**, across 190 events — the sixth consecutive year above 100 billion. Economic losses 220 billion, of which about 49% was insured, the highest share in sigma records. Secondary perils 92% of insured natural catastrophe losses; the Los Angeles wildfires about 40 billion, the largest insured wildfire event on record |
+| 5 Average, Median, and the One You Mean | OECD, *Employment Outlook 2026* (July 2026) | The OECD-wide unemployment rate was **4.9%** in May 2026, at or below 5.0% for more than four years and projected to stay near it through 2027 — while **the median unemployment rate across OECD countries rose from 5.4% in May 2025 to 5.7% in May 2026**; employment growth projected at 0.3% in 2026 and 0.6% in 2027; average annual real wage growth 2.2% in Q1 2026 against 2.7% a year earlier; real wages remain below their level five years ago in about a third of OECD countries |
+| 6 The Changing Denominator | World Bank, *Business Ready* (B-READY) 2024, 2025 and the 2026 tranche | The 2024 edition benchmarked **50 economies**; the 2025 edition is described by the World Bank as an interim edition presenting data from **101 economies**; a 2026 tranche covers **62 further economies**, and the series is to expand to about 170 economies — a figure another World Bank page gives as about 180 |
+| 7 A Ranking Is an Argument | WIPO, *Global Innovation Index 2026* (press release 29 September 2026) | Switzerland first for a sixteenth consecutive year, Sweden second, the United States third, the Republic of Korea fourth, Singapore fifth; the Kingdom of the Netherlands seventh, Canada sixteenth, Austria eighteenth, Australia twentieth, New Zealand twenty-fourth; the United Arab Emirates twenty-fifth, up five places; Europe holds 14 of the top 25; Kuwait 62nd, Costa Rica 70th, Bhutan enters at 74th. **139 economies, 79 indicators** |
+| 8 The Dispute | ICC Dispute Resolution statistics for 2025 | **894 new cases** registered (881 under the Arbitration Rules, 13 under the Appointing Authority Rules), among the top three years by volume; a record **1,869 cases pending** at year end, against 1,789 after 841 new cases in 2024; 607 draft awards approved — 444 final, 118 partial, 45 by consent; 169 new cases under the expedited procedure, up from 152; construction and engineering 246 cases (28%) and energy 128 (15%), together 43%; **the average amount in dispute fell to just over 50 million dollars from 130 million in 2024** |
+| 9 One Institution, Two Numbers | IEA, *World Energy Outlook 2026*, *Electricity 2026* (February 2026) and the *Electricity Mid-Year Update* (July 2026) | WEO 2026, Stated Policies Scenario: electricity's share of total final energy consumption rises from **23% today to nearly 30% by 2035**, with electricity demand growing **over four times faster** than total energy demand. *Electricity 2026*: electricity demand grows **at least 2.5 times as fast** as overall energy demand to 2030, and electricity's share of final consumption rises from **21% in 2025 to 24% in 2030**; renewables and nuclear to supply about 50% of generation by the end of the decade. Mid-year update: demand growth 3.6% in 2026 and 3.8% in 2027, after 3% in 2025 |
+| 10 Revised by the Publisher | BIS, *Triennial Central Bank Survey* 2025 | The preliminary release of 30 September 2025 gave global foreign exchange turnover of **9.6 trillion dollars a day** in April 2025, **up 28%** on 2022. The December 2025 *BIS Quarterly Review* gives **9.5 trillion, up 27%**. Spot turnover 3 trillion a day, 31% of the total against 28% in 2022; outright forwards 1.8 trillion, 19% against 15%. 52 reporting jurisdictions, and the survey measures turnover in **one month, April** |
+| 11 Not Comparable with Itself | ILO, *World Social Protection Report 2024–26* | **52.4% of the world's population** is covered by at least one social protection benefit — the first time the figure has passed half — against 42.8% in 2015; **3.8 billion people remain entirely unprotected**; only **33.8%** of the working-age population is legally covered by comprehensive social security; in the 50 countries most vulnerable to climate change only **25%** are effectively covered. **The ILO states that these estimates are not strictly comparable with those of the previous report, because of methodological enhancements, extended data availability and country revisions** |
+| 12 The Hard Conversation | Eurofound, *European Working Conditions Survey 2024* (first findings 3 September 2025; overview and highlights 14 April 2026) | Over **36,600 face-to-face interviews** of about 45 minutes each, across **35 European countries** including the 27 member states, organized around **seven dimensions** of job quality; **more than 80% of workers** say they find their work useful and experience the feeling of work well done |
+
+## Notes on honesty
+
+- **Unit 4 is a published forecast that missed, by its own publisher's later figures.** Swiss Re's
+  *sigma* 1/2025 said insured natural catastrophe losses were "on trend to 145 billion dollars" for
+  2025; *sigma* 1/2026 reports about 107 billion. Nobody did anything wrong: a projection made in
+  March describes a year that had not happened. The unit prints both, asks what a 26 per cent miss
+  on a one-year projection should do to how the next one is used, and refuses the conclusion that
+  forecasts are useless.
+- **Unit 1 is a forecast whose assumptions are published and are the story.** The IMF's October 2026
+  projections assume the Strait of Hormuz reopens in March 2027 and an oil price averaging 96
+  dollars in 2026. The growth number everybody quotes is downstream of two sentences almost nobody
+  quotes. The unit makes the learner quote the assumptions.
+- **Unit 5 is an average and a median disagreeing about direction.** The OECD-wide unemployment rate
+  was 4.9 per cent and near a four-year low; the median across OECD countries rose from 5.4 to 5.7.
+  The first is weighted by the size of each labour market, so large countries dominate it; the second
+  treats every country alike. Both are in the same report. "Unemployment is flat" and "unemployment
+  is rising in most countries" can both be true.
+- **Unit 9 is one institution publishing two different versions of the same measure.** The IEA's
+  *World Energy Outlook 2026* gives electricity at 23 per cent of final energy consumption today
+  and growing four times faster than total energy; *Electricity 2026* gives 21 per cent in 2025 and
+  at least 2.5 times as fast. Different publications, scenarios, horizons and baselines. The unit's
+  task is the sentence that cites one of them properly rather than averaging the two.
+- **Unit 10 is a headline revised by its own publisher.** 9.6 trillion dollars a day became 9.5, and
+  "up 28 per cent" became "up 27", between a preliminary release and the final data. Both figures
+  were correct when published. The unit teaches the learner to write *as published on 30 September*
+  rather than to choose.
+- **Unit 11 says in the report itself that it cannot be compared with the report before it.** The
+  ILO's coverage estimates changed method, data availability and country revisions, so the rise from
+  42.8 to 52.4 per cent is partly real and partly measurement, and the ILO says so. The unit prints
+  that sentence and makes the learner write the caveat that has to travel with the figure.
+- **Unit 6 is a ranking whose sample is still growing.** B-READY covered 50 economies, then 101, with
+  62 more to come and a target of about 170 — or about 180, depending which World Bank page you read.
+  The published counts do not reconcile neatly. A country's position cannot be compared with last
+  year's while the denominator moves, and the unit's task is to say so in a slide somebody wanted to
+  use for exactly that.
+- **Unit 7 is a ranking built from 79 indicators across 139 economies**, in which a five-place move
+  is well within what a small change in one indicator can produce. The unit prints the top five and
+  asks what a five-place rise is evidence of.
+- **Unit 8 quotes what the statistics do not contain.** The ICC's 2025 figures give case numbers,
+  values, sectors and award counts, and the figure that matters most to anybody deciding whether to
+  arbitrate — **how long a case takes** — is not in the material most commentators quote. The unit
+  makes that absence the finding.
