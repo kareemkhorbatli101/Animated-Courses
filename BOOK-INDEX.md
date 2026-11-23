@@ -106,7 +106,7 @@ twin of the earlier email guide.
 
 ---
 
-## ⚠ G · Final books NOT found in any surviving git branch
+## ⚠ G · Final books NOT found in any surviving git branch — RESOLVED, see section L
 
 These were delivered but their branch is absent from `Animated-Courses`, so they may exist only
 in another repo or be lost:
@@ -141,3 +141,59 @@ Cybersecurity Personnel Illustrated · Syria (142 pp) · Banking & Finance · In
 not books: Portmere Plates, Proactive English, Room/Camera/Gaze, Health Centre Preview,
 IELTS Speaking V01, Proactive English A2 Book 2, TOEFL 2026 B2 plan, SC100 reviews,
 Al-Hasan Student Book 2 full plan, and others.
+
+---
+
+# L · Second pass — recovery results and bundles (2026-11-23)
+
+## L1 · The three missing books — resolved
+
+`private_clean_up` was attached and cloned. Its **default branch is
+`claude/nifty-einstein-fdx4ae`** — the branch reported missing. It was never in
+`Animated-Courses`; it was in a repo of its own. Findings:
+
+| Book | Verdict |
+|---|---|
+| **TOEFL Writing Guide** | ✅ **Recovered.** `toefl-writing/book/out/TOEFL-Writing-Guide-Vol1.docx` (807 KB). The 685-page PDF was a build output and is **not committed**, but the full source is (`build.py`, `curriculum.py`, `engine.py`, 43 item modules) so the PDF rebuilds. |
+| **TOEFL practice site** | ✅ **Recovered as source.** `toefl-writing/practice/` (index.html + 312 item files + `serve.py`) and `toefl-writing/site/` (`build_site.py`, gates, smoke test). The rendered 313-page site was not committed; it regenerates. |
+| **دليل حل التمارين والأنشطة** (Arabic maths, grade 9, 80 pp) | ❌ **Not found — treat as lost.** Absent from this repo, its history, and every other branch. The session that built it stated it committed only `toefl-writing/`, so the guide lived only in that container, which has been reclaimed. No source survives, so it cannot be rebuilt either. |
+
+381 files total in `toefl-writing/`. Shallow clone (depth 1), so deep history was not searchable —
+but the explicit statement that only `toefl-writing/` was committed makes the maths guide's absence
+conclusive rather than a search artefact.
+
+## L2 · English Animated — 8 books recovered from deleted history
+
+Listed in section D as "superseded" and absent from the branch tip. A bounded
+`--depth=1000` fetch of `claude/jolly-johnson-9khdgl` recovered all eight bound books,
+both formats, by walking history for the last commit in which each existed:
+
+StartingOut (A1.1) · GettingAround (A1.2) · MakingPlans (A2.1) · TellingtheStory (A2.2) ·
+TakingaPosition (B1.1) · WeighingItUp (B1.2) · MakingtheCase (B1.3) · ReadingBetweenLines (B2.1)
+
+16 files, 229 MB. Complete books, superseded by English for Daily Life.
+
+## L3 · What is reachable, in total
+
+**1,093 book files, ≈1.3 GB** across the three content branches, before deduplication.
+Deduplicated to finals only: **750 MB in 8 bundles**, all verified with `zip -T`.
+
+| Bundle | Size | Files | Contents |
+|---|---:|---:|---|
+| `01_Core-Document-Library_43-books.zip` | 64 MB | 589 | 27 professional + 16 graded Student's Books & keys, Al-Hasan, TOEFL Writing, catalogue, index |
+| `02_ESP-Ten-Programmes_30-Course-Books.zip` | 71 MB | 153 | the 10 Syria ESP programmes, 30 course books, .docx + .pdf |
+| `03_IELTS-2026_8-volumes.zip` | 85 MB | 14 | Foundation 1–2, Volumes 1–6, Volume 3 re-cut 3A/3B + Teacher's Editions |
+| `04_TOEFL-iBT-2026_8-volumes.zip` | 56 MB | 9 | Foundation 1–2, Volumes 1–6 |
+| `05_CMA_Parts-1-and-2.zip` | 85 MB | 35 | Part 1 Section A Vols 1–12, Bridge 13–17, Set D1, Books 1–3 handouts+keys, Books 1–8 summaries, workshop; Part 2 Books 1–4 |
+| `06_EFDL-A1_and_SAT.zip` | 51 MB | 21 | EFDL A1 Student Book + Answer Key (20 units); SAT Reading / Vocabulary / Writing |
+| `07_EFDL_superseded-and-partial.zip` | 113 MB | 25 | EFDL A2 first edition (complete, superseded); ⚠ A2 units 1–10 and B1 pilot unit 1 (part-written) |
+| `08_English-Animated_8-books.zip` | 229 MB | 17 | the 8 recovered books above (complete, superseded) |
+
+**Deliberately excluded:** per-unit split files (same text as the bound volumes), incremental
+build artefacts, source zips inside each package, and
+`docs/general-english/B1/source/PE_B2_U08_StudentBook.docx` — a **published Pearson textbook**
+used as a measured ceiling, i.e. someone else's copyrighted book, which must not be redistributed.
+
+## L4 · Still not bundled
+The **22 interactive web books** on `main` are live sites, not documents; they are already in this
+repo and are best used by opening the site rather than downloading. Say the word for a zip of those.
