@@ -86,3 +86,49 @@ Six source bodies across twelve units. No figure is used twice.
   the deadline, the share of invoices affected, and delay by country. The back matter prints all
   four and says plainly that they are not comparable with each other. Unit 10's *Think It Through*
   is about a manager who put two of them on the same slide.
+
+---
+
+# Clearline 2 (Book 3) · B1
+
+Twelve units, twelve different source bodies, no figure reused from Books 1 or 2.
+
+| Unit | Source | What is cited |
+|---|---|---|
+| 1 The Brief | World Bank, *Connecting to Compete 2023* (Logistics Performance Index) | 139 economies ranked; Singapore first; the top ten average 4.1 out of 5 on service quality, against 4.0 in 2018 |
+| 2 Negotiating | Asian Development Bank, *Global Trade Finance Gap Survey*, 9th edition, released January 2026 | The gap was 2.5 trillion dollars in 2025, unchanged from 2023, and about 10% of global trade, down from 10.6%; 1.5 trillion in 2015; SME rejection rate 41% against 40% for large and mid-cap corporates; survey of more than 110 providers |
+| 3 Presenting Numbers | WIPO, *World Intellectual Property Indicators 2025* (published 12 November 2025, for 2024) | About 3.7 million patent applications worldwide in 2024, up 4.9% — the fastest growth since 2018 and the fifth straight rise; CNIPA about 1.8 million (+9%), USPTO 603,194, JPO 306,855, KIPO 246,245; designs about 1.22 million (+2.6%); trademarks flat |
+| 4 The Deadline That Moved | IATA full-year 2025 air cargo figures, released January 2026 | Demand +3.4% in cargo tonne-kilometres (international +4.2%); capacity +3.7%; Asia-Pacific +8.4%; North America −1.3%, the only region to fall; yields −1.5%; 2026 forecast +2.4% |
+| 5 The Difficult Call | Eurostat, AI use in enterprises, December 2025 release and the 2026 *Key results* report | 20.0% of EU enterprises with 10 or more employees used AI in 2025, up 6.5 percentage points from 13.5%; country range about 5% to 42%; the commonest activity was analysing written language, 11.8%; 7.7% in 2021 |
+| 6 Working Across Time Zones | Eurostat Labour Force Survey 2025, reported June 2026 | About 9% of employed people in the EU usually work from home; Finland highest at about 20.5%, Romania lowest at 1.3%, Germany 13%, France 11%, Spain 7.9%, Italy 2.7%; self-employed 18.9% against employees 7.3% |
+| 7 Hiring and Handing Over | ILO, *Global Wage Report 2024–25*, and *Employment and Social Trends 2026* | Global real wage growth 2.7% in 2024 — the largest in fifteen years — after 1.8% in 2023 and −0.9% in 2022; the global labour income share was 52.6% in 2025 |
+| 8 The Report | OECD, *Economic Outlook Interim Report*, September 2026 | Global growth projected at 2.9% in 2026 and 3.0% in 2027, with 2027 revised down from 3.1%; G20 headline inflation 4.1% in 2026 easing to 3.6% in 2027; the June 2026 Outlook gave 3.1% for 2027 under a time-limited disruption and 1.8% under a prolonged one |
+| 9 Risk | Allianz Risk Barometer 2026 (published 14 January 2026) | Cyber incidents the top risk for the fifth year, at 42% of responses — the highest score ever recorded and the widest margin; artificial intelligence second at 32%, up from tenth in 2025; business interruption third, out of the top two for the first time; 3,338 risk experts in 97 countries and territories |
+| 10 The Audit | ISO Survey 2024, as reported from IAF CertSearch | 1,474,118 valid ISO 9001:2015 certificates in 2024 |
+| 11 Travel and the Site Visit | IATA *Annual Safety Report 2025* (published 9 March 2026) | All-accident rate 1.32 per million flights, down from 1.42 in 2024 but above the 2021–25 average of 1.27; 51 accidents in 38.7 million flights; 394 on-board fatalities against 244 in 2024; one fatal accident per 5.6 million flights across 2021–25, against one per 3.5 million across 2012–16; IOSA-registered carriers 0.98 against 2.55 for others |
+| 12 The Appraisal | WEF, *Future of Jobs Report 2025* (January 2026 press release; survey of over 1,000 employers) | Employers expect 39% of workers' core skills to change by 2030, down from 44% in 2023; 170 million new jobs and 92 million displaced by 2030, a net 78 million; 63% of employers name skill gaps as the biggest barrier to transformation |
+
+## Notes on honesty
+
+- **Unit 10 is built on a number nobody can confirm.** The 1,474,118 figure for ISO 9001
+  certificates in 2024 comes from secondary reports of the ISO Survey, which is now published
+  through IAF CertSearch rather than as a public table. Two of those reports give different
+  figures for 2023 — 837,978 and 1,250,243 — and the apparent jump is most likely a change in how
+  certificates are counted, not a change in the world. The unit prints the figure, prints both
+  baselines, and says plainly that it cannot tell you which is right. That is the point of the
+  unit: an audit is about evidence, and the number at the top of this page does not have any.
+- **Unit 11 is two true sentences that point in opposite directions.** The accident rate fell in
+  2025 and the number of people killed rose. Both are in the same IATA report. The unit teaches
+  the learner to say both.
+- **Unit 8 is about a forecast that moved.** The OECD's 2027 figure was 3.1% in June 2026 and 3.0%
+  in September 2026, and June's own alternative scenario put it at 1.8%. The unit's model report
+  quotes the current figure with its date and says which scenario it assumes.
+- **Unit 6's figure depends on a definition.** Eurostat counts somebody as usually working from
+  home if they do so for at least half the days in a four-week period. News reports of the same
+  release give the EU average as 8.8%, 8.9% and 9%, and Finland's as 20.5% or 20.9%. The unit
+  prints "about 9%" and asks the learner why a one-decimal difference is not worth arguing about
+  while the definition is.
+- **Unit 2 quotes a caveat the ADB printed about its own figure.** The ADB says the gap may partly
+  reflect cyclical factors rather than lack of access, and that no comprehensive dataset of trade
+  finance demand and supply exists, so the estimate rests on survey modelling. The unit prints
+  that sentence beside the figure.

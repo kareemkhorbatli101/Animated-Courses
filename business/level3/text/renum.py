@@ -5,7 +5,7 @@ for p in sys.argv[1:]:
     n = [0]
     def ren(m):
         n[0] += 1
-        return "%sAUD CL3-%s-%02d%s" % ("%%", u, n[0], "%%")
+        return "%sAUD CL2-%s-%02d%s" % ("%%", u, n[0], "%%")
     s = re.sub(r"%%AUD [^%]+%%", ren, s)
     open(p, "w", encoding="utf-8").write(s)
     print("%s  cues=%d  figs=%d  words=%d" % (p, n[0], s.count("%%FIG"), len(s.split())))
