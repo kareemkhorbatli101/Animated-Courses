@@ -100,7 +100,7 @@ the column worth reading twice.
 | ***used to*** for states and habits · ***would*** for repeated actions only | *he would be the manager* |
 | ***didn't use to*** · ***did you use to*** | no *d* in the negative and the question |
 | **Habit in *used to*, single event in the past simple** | one mixes into the other and changes the claim |
-| **Ask for a record, not a defence** | *what record would show me that?* |
+| **Ask for a record, not a defense** | *what record would show me that?* |
 
 ## Unit 11 · Articles
 

@@ -44,22 +44,22 @@ expenses, who may interrupt whom: all of these differ. Where it matters the book
 
 ## Contents
 
-| | Unit | At work | Grammar |
-|---|---|---|---|
-| | **Starting Point** | What you can already do, and the three habits this book builds | Review: tenses, modals, the passive |
-| 1 | **The Brief** | What the client asked for, and what they meant | Present perfect continuous; *for* and *since* |
-| 2 | **Negotiating** | Asking for something, and giving something back | *if* with modals; *unless*, *as long as* |
-| 3 | **Presenting Numbers** | Standing up with a chart | Quantifiers; approximation |
-| 4 | **The Deadline That Moved** | Telling people early | Future forms for changed plans |
-| 5 | **The Difficult Call** | A customer who is angry and right | Reported speech |
-| 6 | **Working Across Time Zones** | Four countries, one Thursday | *by*, *until*, *within*; time prepositions |
-| 7 | **Hiring and Handing Over** | A job, an offer, and a handover | Non-defining relative clauses |
-| 8 | **The Report** | Cause, effect, and what you are not sure about | Linking: cause and result |
-| 9 | **Risk** | What could happen, and what you would do | The second conditional |
-| 10 | **The Audit** | Evidence, and a number with none | *used to* and *would*; past habit |
-| 11 | **Travel and the Site Visit** | Getting there, and being a guest | Articles: *a*, *the*, and none |
-| 12 | **The Appraisal** | A year of work, in eight minutes | Present perfect against past simple |
-| | **Back matter** | Grammar reference · Audio index · Word list · Sources | |
+| | Unit | At work | Grammar | Page |
+|---|---|---|---|---|
+| | **Starting Point** | What you can already do, and the three habits this book builds | Review: tenses, modals, the passive | 5 |
+| 1 | **The Brief** | What the client asked for, and what they meant | Present perfect continuous; *for* and *since* | 8 |
+| 2 | **Negotiating** | Asking for something, and giving something back | *if* with modals; *unless*, *as long as* | 28 |
+| 3 | **Presenting Numbers** | Standing up with a chart | Quantifiers; approximation | 48 |
+| 4 | **The Deadline That Moved** | Telling people early | Future forms for changed plans | 68 |
+| 5 | **The Difficult Call** | A customer who is angry and right | Reported speech | 89 |
+| 6 | **Working Across Time Zones** | Four countries, one Thursday | *by*, *until*, *within*; time prepositions | 110 |
+| 7 | **Hiring and Handing Over** | A job, an offer, and a handover | Non-defining relative clauses | 130 |
+| 8 | **The Report** | Cause, effect, and what you are not sure about | Linking: cause and result | 151 |
+| 9 | **Risk** | What could happen, and what you would do | The second conditional | 173 |
+| 10 | **The Audit** | Evidence, and a number with none | *used to* and *would*; past habit | 195 |
+| 11 | **Travel and the Site Visit** | Getting there, and being a guest | Articles: *a*, *the*, and none | 217 |
+| 12 | **The Appraisal** | A year of work, in eight minutes | Present perfect against past simple | 238 |
+| | **Back matter** | Grammar reference · Audio index · Word list · Sources | | 259 |
 
 ## The people
 

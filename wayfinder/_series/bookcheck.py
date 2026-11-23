@@ -58,7 +58,10 @@ OPEN = [r"\bwhat do you think\b", r"\bwould you\b", r"\bdo you agree\b", r"\bwhy
 PROPER_NOUNS = ["UN Environment Programme", "World Food Programme",
                 "United Nations Environment Programme", "Labour Force Survey",
                 "International Labour Organization", "International Labour Office",
-                "Labour Organization"]
+                "Labour Organization",
+                # The ILO publishes this indicator under this name. Renaming a cited
+                # indicator is a worse error than a British spelling.
+                "labour income share", "Labour income share"]
 
 SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "level1":  ["spec_v1", "spec_v2", "spec_v3"],
@@ -70,7 +73,8 @@ SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 # Both series number their directories level1..level6, so the key
                 # carries the series when it is not Wayfinder.
                 "business/level1": ["spec_o1", "spec_o2", "spec_o3", "spec_o4"],
-                "business/level2": ["spec_p1", "spec_p2", "spec_p3", "spec_p4"]}
+                "business/level2": ["spec_p1", "spec_p2", "spec_p3", "spec_p4"],
+                "business/level3": ["spec_q1", "spec_q2", "spec_q3", "spec_q4"]}
 
 def load_specs(book):
     """The realia text of every figure, as raw HTML, keyed by figure id."""
