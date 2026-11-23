@@ -93,3 +93,51 @@ Three of these need a caveat, and each is carried into the book rather than hidd
 - European Commission, Consumer Conditions Scoreboard 2025 — https://transition-pathways.europa.eu/policy/2025-consumer-conditions-scoreboard
 - WHO, Mental health at work — https://www.who.int/news-room/fact-sheets/detail/mental-health-at-work
 - International IDEA, Global State of Democracy — https://www.idea.int/gsod/2024/chapters/global-trends-Introduction
+
+---
+
+# Book 6 (Wayfinder 5, B2) — cited sources
+
+Checked by search in November 2026. Six source bodies across twelve units. Where a body is used
+more than once it is used for a different figure each time, and the back matter says so.
+
+| Book 6 unit | Source | What is cited |
+|---|---|---|
+| 1 Telling the Story | UN DESA, *World Population Prospects 2024* | World population 8.2 billion in 2024, projected to peak at about 10.3 billion in the mid-2080s and fall to about 10.2 billion by 2100; the 2100 figure about 700 million — six per cent — lower than the projection made a decade earlier; population has already peaked in 63 countries and areas, including China, Germany, Japan and Russia, and is projected to rise through 2054 in 126 others |
+| 2 What Comes Next | OECD, *Survey of Adult Skills* (PIAAC, second cycle, December 2024) | About 160,000 adults aged 16–65 tested across 31 countries and economies; 18–19% at or below the lowest proficiency level in literacy and numeracy; average literacy declined in a majority of countries taking part in both cycles, numeracy mixed, Finland, Denmark, Norway and Switzerland stable or improved; the gap between highest and lowest performers widened in most countries |
+| 3 Reading the Evidence | IEA, *Renewables 2025* and *Global Energy Review 2026* | Renewables 32% of global electricity generation in 2024 and 34% in 2025, against about 23% a decade earlier; the 2030 projection reported as 43% in one summary of the same report and "almost 45%" in another |
+| 4 If Things Were Different | OECD, *Survey on Drivers of Trust in Public Institutions* | About four in ten report trusting their national government; trust is consistently higher in local than in national government; people reporting a recent successful dealing with a public service report higher trust |
+| 5 How It Gets Done | UN DESA, SDG Goal 11 statistics, 2024 data; UN-Habitat | About 1.16 billion urban residents — almost one in four — live in slums or informal settlements |
+| 6 People and Places | UN-Habitat, *World Cities Report 2024* | Urban green space has declined by nearly 30 per cent since 1990 |
+| 7 He Said, She Claimed | OECD, *Survey on Drivers of Trust in Public Institutions*, 2025 results | 69% trust the national government among those who believe people like them have a say in decision-making, against 22% of those who feel they do not |
+| 8 Taking a Position | OECD, *Survey on Drivers of Trust in Public Institutions*, 2025 results | Trust in national government runs 26 percentage points higher among self-reported supporters of governing parties; women seven points less likely to trust than men; 18–29s about five points less than the over-50s |
+| 9 Making It Concise | Automated audit of 207,000 website privacy policies (arXiv 1805.01187) | The average policy about 1,404 words, roughly 5.6 minutes' reading; including the third-party policies it refers to, a typical site totals about 84.7 minutes |
+| 10 Making the Point | OECD, *Survey on Drivers of Trust in Public Institutions* | An average of 41% believe they would be able to voice an opinion before local government takes a decision affecting their community; the share who think they can easily find information about an administrative service has risen four percentage points since 2021 |
+| 11 The Fine Print | *Privacy Policies Across the Ages*, 1996–2021 (arXiv 2201.08739) | At 250 words a minute the average policy took about 17 minutes to read in 2021; the longest in the sample about 152 minutes; annual reading for an average user exceeds 400 hours |
+| 12 Pulling It Together | OECD, *Survey of Adult Skills* (PIAAC, December 2024) | 60% of tertiary-educated adults score at or above Level 3 in literacy, against 12% of adults with below upper-secondary attainment |
+
+## Notes on honesty
+
+- **Unit 3 is built on a disagreement.** Two summaries of the same IEA report give 43% and "almost
+  45%" for the same 2030 projection. The unit prints both, with the measured 2024 and 2025 figures
+  beside them, states plainly that it does not know which explanation is the right one, and asks
+  the learner what could make two summaries of one report differ. That is the unit's subject.
+- **Units 1 and 2 each use a different figure from a different source**, and Units 4, 7, 8 and 10
+  each take a different figure from the OECD trust survey; Units 2 and 12 take different figures
+  from PIAAC. No figure is used twice in the book.
+- **Units 9 and 11 use two different studies of privacy policies** with different samples, methods
+  and reading-speed assumptions, producing 5.6 minutes and 17 minutes for "the average policy".
+  Both are academic. The back matter prints both and says they are not comparable.
+- **Unit 6's figure is UN DESA's SDG reporting**, which UN-Habitat's own annual report rounds to
+  1.1 billion. The book uses 1.16 billion and names the rounding.
+
+## Links
+
+- UN, World Population Prospects 2024 — https://www.un.org/sustainabledevelopment/blog/2024/07/press-release-wpp2024/
+- OECD, Survey of Adult Skills (PIAAC) — https://www.oecd.org/en/publications/education-at-a-glance-2025_1c0d9c79-en/full-report/piaac-proficiency-in-key-information-processing-skills-among-adults_3ccb98d6.html
+- OECD, Drivers of Trust in Public Institutions — https://www.oecd.org/en/publications/oecd-survey-on-drivers-of-trust-in-public-institutions-2026-results_9eb63fec-en/full-report
+- UN DESA, SDG Goal 11 — https://unstats.un.org/sdgs/report/2026/Goal-11/
+- UN-Habitat, World Cities Report 2024 — https://unhabitat.org/world-cities-report-2024
+- IEA, Renewables 2025 — https://iea.org/reports/renewables-2025/renewable-electricity
+- Privacy Policies Across the Ages, 1996–2021 — https://arxiv.org/pdf/2201.08739
+- Automated audit of website privacy policies — https://arxiv.org/pdf/1805.01187

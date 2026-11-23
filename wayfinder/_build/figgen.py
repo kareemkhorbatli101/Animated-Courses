@@ -12,7 +12,11 @@ FLOOR_ICONS = {"table","chair","bed","fridge","cooker","radiator","bag","shoes",
                "forklift","cleaner","busstop","park","plant","queue",
                # Book 3: things that plainly stand on the ground
                "car","bus","bench","bins","cashmachine","ticketmachine","desk",
-               "sofa","wardrobe","cupboard","printer","fallentree","gym"}
+               "sofa","wardrobe","cupboard","printer","fallentree","gym",
+               # Book 6: things that plainly stand on the ground
+               "roadworks","scaffolding","railings","planter","tree",
+               "goalposts","podium","boiler","signpost","tripod",
+               "proppeddoor","stairwell","microphone"}
 
 # ------------------------------------------------------------------ types
 def f_icons(items, cols=None, numbered=True, cell=118, w=None):
