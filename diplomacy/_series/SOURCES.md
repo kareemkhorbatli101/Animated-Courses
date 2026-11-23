@@ -212,3 +212,63 @@ and the base.
 - **Unit 12 is a list with three members that are not states.** A membership figure that includes
   associate members cannot be quoted as a number of countries, and the three roles a maritime state
   plays — flag, port, coastal — attract different obligations on the same day.
+
+---
+
+## Book 4 · Foreign Service English 3 (B1+) · *Protocol and the mission*
+
+Twelve source bodies, none used in Books Foundation, 1 or 2, and none used anywhere in the two
+sister series. This book's running subject is the **status page**: what a published count counts, on
+what date, under what entry-into-force clause, and what a state has actually accepted.
+
+| Unit | Source | What the text prints |
+|---|---|---|
+| 1 The Special Mission | Convention on Special Missions, **8 December 1969** | **Article 2:** a state may send a special mission with the consent of the receiving state, **previously obtained** through the diplomatic or another agreed channel. Adopted **1969**; entered into force **21 June 1985** — sixteen years later; **38 parties as at April 2012** on the depositary's table. **Most special missions in the world are therefore conducted outside this Convention, on consent and practice** |
+| 2 One Ratification Short | Vienna Convention on the Representation of States in their Relations with International Organizations of a Universal Character, **14 March 1975** | Adopted by **57 votes to 1, with 15 abstentions**. **Article 89:** entry into force thirty days after the deposit of the **thirty-fifth** instrument. The depositary's page records **34 parties and 20 signatories**. **Fifty years on, the Convention is one ratification short and has never entered into force** |
+| 3 A Hundred and Sixty-Two of a Hundred and Ninety-Three | Convention on the Privileges and Immunities of the United Nations, **1946**; Convention on the Privileges and Immunities of the Specialized Agencies, **21 November 1947** | The 1946 Convention entered into force **17 September 1946** and has **162 parties**, with **23 states** having accepted it subject to reservations. So **31 UN member states are not parties to it**. The 1947 Convention is a **separate instrument** with about **131 parties**. **Being party to one is not being party to the other** |
+| 4 Universal, and Its Protocols | Geneva Conventions of **12 August 1949** and the Additional Protocols of **8 June 1977** and **2005** | On the ICRC's annual-report map, **as at 31 December 2013**: **195** States party to the Conventions, **173** to Protocol I, **167** to Protocol II, **66** to Protocol III. Other published summaries give **194** for the Conventions and describe them as universally ratified. **The Conventions and the Protocols are four instruments with four memberships** |
+| 5 Signed, and Still Not in Force | Comprehensive Nuclear-Test-Ban Treaty | Entry into force requires ratification by **all 44 states listed in Annex 2**, and then **180 days**. Published figures give about **178 ratifications as at March 2024** and nine further signatures. **A treaty can have a hundred and seventy-eight ratifications and not be in force, because of how its entry-into-force clause is written.** One state **withdrew its ratification in 2023** while remaining a signatory |
+| 6 Choose Your Protocols | Convention on Certain Conventional Weapons, 1980, and its Protocols; UNODA's own status page | **128 High Contracting Parties and 4 signatories** on the page **updated 18 March 2025** (**127** on the version of **25 June 2024**). Protocol by protocol: **Protocol I 88 · Protocol II 121 · Amended Protocol II 96 · Protocol III 107 · Protocol IV 117 · Protocol V 111**. **A state consents protocol by protocol, so the framework figure tells you almost nothing about any obligation** |
+| 7 One Hundred and Ninety-Three of One Hundred and Ninety-Seven | Chemical Weapons Convention | **193 States Parties.** The denominator is **197**: the 193 UN member states plus the Cook Islands, Niue, the Holy See's state and the State of Palestine. **Near-universal is not universal, and 193 out of 197 is a different sentence from 193 out of 193** |
+| 8 The Transit Obligation | Agreement between the United Nations and the United States regarding the Headquarters of the United Nations, **1947** | The Agreement defines the **headquarters district**, provides for **access and transit** of persons having business with the United Nations, and contains a **dispute settlement clause providing for arbitration**. **A host state's obligations are in an agreement, not in courtesy**, and the Agreement says what happens when the parties disagree |
+| 9 A Count Nobody Can State Officially | UNESCO Convention of **1970** on illicit import, export and transfer of ownership of cultural property | UNESCO's own page gives **141 states** having ratified. A **2012** Secretariat report gave **122**, having recorded twelve accessions in five years, and a commentary on the same occasion noted that a **disputed ratification** meant the figure **could not officially be counted as 123**. **A published count can be unavailable rather than wrong** |
+| 10 The Nineteenth of March, 1815 | Règlement on the relative rank of diplomatic agents, annexed to the Final Act of the Congress of Vienna, **19 March 1815** | The Règlement established **classes of head of mission** and settled **precedence within each class by the date of the official notification of arrival** — a rule adopted to end disputes about rank, and the direct ancestor of the modern rule. **An 1815 instrument is not the law in force today**, and the principle it introduced is |
+| 11 Three Instruments, One Subject | Hague Convention of **1954** for the protection of cultural property in the event of armed conflict, with its **First Protocol (1954)** and **Second Protocol (1999)** | Three instruments on one subject, each with its **own list of parties**. **This unit prints no count**: it prints where the counts live, and the sentence a drafter must write instead of a figure |
+| 12 The Depositary's Own Notes | The United Nations Treaty Collection's published status of multilateral treaties deposited with the Secretary-General, and the Treaty Section's notes on how treaty actions are recorded | What the publisher says about its **own** table: that it is current **as at a stated date**; that actions are **recorded with the date of deposit**, which is not the date of entry into force for that state; that **accession and ratification have the same legal effect**; that a column headed **participant** may include signatories who are not parties; that **reservations, declarations and objections are reproduced with their dates**; and the standing language that **inclusion implies no position on questions of status or recognition**. **No figure is quoted: the practice is the subject, and the last reading text in this book is the publisher explaining its own table** |
+
+**Twelve honesty notes, printed in the units as well as here.**
+
+- **Unit 1.** Sixteen years between adoption and entry into force, and about thirty-eight parties a
+  quarter of a century after that. A desk officer who writes *under the Special Missions Convention*
+  about a visiting delegation is probably writing about an instrument that binds neither state.
+- **Unit 2.** The threshold is thirty-five; the count is thirty-four. One instrument of ratification
+  separates a fifty-year-old convention from entry into force, and nothing in the text obliges
+  anybody to deposit it.
+- **Unit 3.** 162 of 193 is the most useful figure in the book, because it is the one everybody
+  assumes is 193. And twenty-three parties have accepted the Convention subject to reservations,
+  which has to be read state by state.
+- **Unit 4.** The Conventions are described as universally ratified and published counts differ by
+  one. The Protocols are three further instruments with three smaller memberships, and the figures
+  printed here carry the date of the map they came from.
+- **Unit 5.** The entry-into-force clause, not the number of ratifications, decides whether a treaty
+  is in force. And a ratification can be withdrawn while a signature remains, which puts Article 18
+  of the 1969 Convention on treaties back on the desk.
+- **Unit 6.** The framework figure and the protocol figures differ by up to forty. Quoting the
+  framework figure as the measure of an obligation is the characteristic error in this field.
+- **Unit 7.** 193 out of 197 and 193 out of 193 are different sentences, and only one of them is
+  true. The denominator in this field is almost never the UN membership.
+- **Unit 8.** A host state's obligations to a headquarters are in a published agreement with a
+  dispute-settlement clause. Describing them as hospitality is a mistake in both directions.
+- **Unit 9.** A published count that its own publisher's commentators say cannot officially be
+  stated is the purest form of this book's subject: the number is not the fact; the page and its
+  date are.
+- **Unit 10.** The rule about precedence that every protocol officer uses began as an annex to the
+  Final Act of a congress in 1815, adopted because rank disputes were producing duels. The 1815
+  text is not the instrument in force today, and the principle is the same one.
+- **Unit 11.** Three instruments on one subject, each with its own party list, and this unit prints
+  none of them. The point of the unit is the sentence a drafter writes when the figure is not to
+  hand, which is the sentence this whole series is about.
+- **Unit 12.** The last reading text is the publisher explaining its own table, including the
+  language that inclusion implies no position on questions of status or recognition, and the warning
+  that a participant column may include states that have signed without becoming parties.
+  Everything in these four books rests on somebody having read that paragraph.
