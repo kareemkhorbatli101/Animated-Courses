@@ -51,3 +51,38 @@ Six source bodies across twelve units. No figure is used twice.
 - UNCTADstat, maritime and transport — https://unctadstat.unctad.org/insights/theme/41
 - WTO, Global Trade Outlook and Statistics — https://www.wto.org/english/res_e/publications_e/global-trade-outlook-and-statistics_execsum_e.htm
 - UN Tourism, World Tourism Barometer — https://www.untourism.int/un-tourism-world-tourism-barometer-data
+
+---
+
+# Book 2 · Clearline 1 (A2+ → B1)
+
+Six source bodies across twelve units. No figure is used twice.
+
+| Unit | Source | What is cited |
+|---|---|---|
+| 1 Getting It Right | UNCTAD, *Global Trade Update*, September 2026 | World services exports grew about 8.3% in 2025, and about 6.7% a year over the past decade |
+| 2 The Order Book | WTO, October 2025 outlook update | Digitally delivered services trade volume projected to grow 6.1% in 2025 against 5.7% in 2024, while total commercial services growth slows from 6.8% to 4.6% |
+| 3 Chasing | Sidetrade, 2026 | Businesses waited an average of 51 days to be paid in 2025: 32 days of agreed terms plus 19 days of delay |
+| 4 Reading the Contract | EOS, *European Payment Practices 2025* (11 countries, 2,200 decision-makers) | Business customers are given an average payment term of 36 days and settle on average 21 days after the deadline |
+| 5 Quality and Complaints | EOS, *European Payment Practices 2025* | About 24% of all invoices in Europe are paid late (19%) or not at all (5%) |
+| 6 Keeping Records | EU Payment Observatory / CEPS, 2025 | Suppliers report average payment periods above 60 days in both business-to-business and government-to-business transactions, with governments paying later than businesses in every Member State |
+| 7 Explaining a Process | ILO occupational safety estimates (2019 reference year, published 2023) | About 395 million non-fatal work-related injuries a year |
+| 8 Comparing Suppliers | UNCTAD, *Global Trade Update*, September 2026 | Three quarters of digitally deliverable exports — almost 4.2 trillion dollars — came from developed economies; developing economies exported about 1.3 trillion |
+| 9 The Meeting | UNCTAD, *Global Trade Update*, September 2026 | Digitally delivered services are 16% of the services exports of least developed countries, against 61% in developed economies |
+| 10 Money Matters | Sidetrade, 2026 | Payment delay past agreed terms: Netherlands 12 days, Europe 18, United Kingdom 21, United States 29 |
+| 11 Safety at Work | ILO occupational safety estimates (2019 reference year, published 2023) | About 2.93 million work-related deaths a year: roughly 2.6 million from disease and 330,000 from accidents |
+| 12 Looking Back, Looking Forward | UNCTAD and a WTO-linked trade report, both 2026 | Digitally delivered services are given as 56% of global services exports by one and 55.0% by the other, with growth of 7.1% a year and 10.0% respectively |
+
+## Notes on honesty
+
+- **Unit 12 is built on a disagreement.** Two 2026 reports give 56% and 55.0% for the same share,
+  and 7.1% and 10.0% for its growth. They are different vintages and slightly different methods.
+  The unit prints both and asks which one the learner would put in a report, and what they would
+  write beside it.
+- **Units 7 and 11 use a figure whose reference year is 2019.** It was published in 2023 and is
+  still the most recent global estimate the ILO has. The text says so, and Unit 11's task is about
+  what you write when the newest figure available is several years old.
+- **Units 3, 4, 5 and 10 measure late payment four different ways** — days to be paid, days past
+  the deadline, the share of invoices affected, and delay by country. The back matter prints all
+  four and says plainly that they are not comparable with each other. Unit 10's *Think It Through*
+  is about a manager who put two of them on the same slide.
