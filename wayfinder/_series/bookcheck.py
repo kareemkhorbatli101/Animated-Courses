@@ -297,9 +297,23 @@ def check(book):
     cues = re.findall(r"%%AUD (\S+)%%", whole)
     badf = [c for c in cues if not re.match(r"^[A-Z]{1,3}\d-\d\d-\d\d$", c)]
     dup = sorted({c for c in cues if cues.count(c) > 1})
-    add("C", "Audio cue ids", "PASS" if not (badf or dup) else "FAIL",
-        "%d cues, all well-formed and unique" % len(cues) if not (badf or dup)
-        else "malformed %s duplicate %s" % (badf[:4], dup[:4]))
+    # The prefix has to name THIS book. A renumbering script with the wrong
+    # prefix hard-coded in it produces ids that are well-formed, unique and
+    # wrong, which is exactly what happened once and is why this check exists.
+    wrongbook = []
+    front = allmd.get("front.md", "") + allmd.get("back.md", "")
+    declared = sorted({m for m in re.findall(r"\b([A-Z]{1,3}\d)-unit-track\b", front)})
+    if declared:
+        want = set(declared)
+        wrongbook = sorted({c.split("-")[0] for c in cues
+                            if c.split("-")[0] not in want})
+    add("C", "Audio cue ids", "PASS" if not (badf or dup or wrongbook) else "FAIL",
+        "%d cues, all well-formed, unique and prefixed %s" % (len(cues), declared[0])
+        if not (badf or dup or wrongbook) and declared
+        else "%d cues, all well-formed and unique" % len(cues)
+        if not (badf or dup or wrongbook)
+        else "malformed %s duplicate %s wrong book %s (front matter declares %s)"
+             % (badf[:4], dup[:4], wrongbook[:4], declared))
 
     # gates that need the META spine
     for n, t in [(1,"Band check"), (4,"Key coverage"), (6,"CEFR descriptors"),

@@ -132,3 +132,57 @@ Twelve units, twelve different source bodies, no figure reused from Books 1 or 2
   reflect cyclical factors rather than lack of access, and that no comprehensive dataset of trade
   finance demand and supply exists, so the estimate rests on survey modelling. The unit prints
   that sentence beside the figure.
+
+---
+
+# Clearline 3 (Book 4) · B1+
+
+Twelve units, twelve different source bodies, nothing reused from Books 1, 2 or 3.
+
+| Unit | Source | What is cited |
+|---|---|---|
+| 1 The Business Case | OECD, *Financing SMEs and Entrepreneurs 2026: An OECD Scoreboard* (31 March 2026, 48 countries) | 34 of 39 countries have higher SME interest rates than before the pandemic, even as costs begin to ease; median new SME lending rose 5.7% in 2024, which the OECD calls fragile |
+| 2 Saying No | EU-OSHA, *ESENER 2024* (41,458 establishments in 30 countries, surveyed May–October 2024) | Time pressure reported by 43% of establishments; 56% of service-sector establishments report dealing with difficult customers, patients or pupils; 25% of organizations do not recognize psychosocial risks at all; employee participation in designing measures fell from 61% in 2019 to 55% in 2024 |
+| 3 Costing It | Eurostat, electricity and gas prices for non-household consumers, first half of 2026 | EU average electricity about 0.18 euros per kWh, down 2.0% on the previous half-year and 5.4% year on year; Ireland highest at 0.27, Cyprus and Italy 0.23; prices fell in 19 of 27 countries, Luxembourg −23.8%, Czechia −11.9%, Greece −11.8%; the series covers consumers using 500 to 2,000 MWh a year; non-household gas about 0.06 euros per kWh, down 6.7% |
+| 4 Paying Across Borders | World Bank, *Remittance Prices Worldwide*, Q1 2025 (March 2025) | The global average cost of sending 200 dollars rose from 6.26% in Q4 2024 to 6.49% in Q1 2025; sending to sub-Saharan Africa averaged 8.78%; the global average is a simple average of the total cost charged by each provider in the database |
+| 5 Reporting Up | WTO, *Global Trade Outlook and Statistics*, October 2026 update | Commercial services trade grew 14% in value year on year in Q1 2026 and about 10% in Q2; services trade reached 9.56 trillion dollars in 2025, up 8%; in **volume** terms the 2026 forecast was cut to 3.3% from 4.8%, rebounding to 6.4% in 2027, after 5.3% volume growth in 2025; Europe fastest in 2026 at 4.6%, Asia 4.0%, Africa 3.1% |
+| 6 Gifts, Favors and the Line | Transparency International, *Corruption Perceptions Index 2025* (published 10 February 2026) | The global average score fell to 42 out of 100, its lowest in more than a decade, from 43; 182 countries and territories, 13 independent data sources, scale 0 to 100; 122 of 182 score under 50; Denmark highest at 89 for the eighth year; South Sudan and Somalia 9; Western Europe's regional average fell from 66 to 64 |
+| 7 Writing the Policy | World Bank, *Women, Business and the Law 2026* (24 February 2026, 190 economies, data to 1 October 2025) | Legal frameworks average about 67 out of 100 — women hold roughly two thirds of men's legal rights; when enforcement is assessed the average is 53; the adequacy of supporting systems averages 47; no economy has secured all the legal rights needed for women's full economic participation, and about 4% of women live in economies with near-full legal equality |
+| 8 When Something Is Attacked | ENISA, *Threat Landscape 2026* (September 2026) | 8,257 incidents recorded during 2025; distributed denial-of-service attacks just over half of them; financially motivated activity, particularly ransomware, 29.3% of recorded incidents and the most impactful in the short term; the companion NIS360 assessment places railway and maritime transport in a defined risk zone |
+| 9 The Investment Decision | UNCTAD, *World Investment Report 2026* (7 July 2026) | Global foreign direct investment rose 6% to 1.6 trillion dollars in 2025, ending two years of decline; developing economies up 2%; **lower-middle-income countries down 5%**; excluding conduit flows through major European financial centres, the rise was 4%; a separate UNCTAD monitor reports SDG-related project announcements down about 25% in the first half of 2026 |
+| 10 Starting and Closing Things | Eurostat, business demography statistics (October 2026 release, for 2024) | 3.5 million new businesses opened in the EU in 2024; enterprise birth rate 10.4%, death rate 9.2%; the most recent EU five-year survival figure is 45%, for enterprises born in 2014 and still active in 2019, and five-year survival was under 50% in a majority of Member States |
+| 11 Measuring What You Promise | UPU, *The State of the Postal Sector 2025*, with industry figures from the IPC for comparison | International letter-post tonnage fell by about two thirds between 2019 and 2025 and barcoded items by about 75%; international parcel post tonnage fell 16% while the number of items rose 38%; global domestic letter volumes are reported down 55%; real postal revenues fell in every region in 2024. Separately, the IPC reports parcel shipments up 4.4% in 2024 and, for the first half of 2025, mail down almost 10% with parcels up 4% |
+| 12 What We Report and Why | IFRS Foundation ISSB updates (November 2026) and the S&P Global adoption tracker (as at 1 January 2026) | The IFRS Foundation describes nearly 50 jurisdictions as "on the journey" to using ISSB Standards; the S&P tracker counts 21 jurisdictions that have adopted them on a voluntary or mandatory basis; adoption is frequently partial — some jurisdictions adopt IFRS S2 only and make S1 optional, others modify the standards or phase them in |
+
+## Notes on honesty
+
+- **Unit 11 is the clearest case in the series of one business measured two ways.** International
+  parcel post tonnage fell 16 per cent while the number of items rose 38 per cent. Both are true
+  and they describe the same traffic: people are sending more parcels and each one weighs less. A
+  report that quotes only the tonnage says the business is shrinking; one that quotes only the
+  items says it is growing. The unit prints both and makes the learner write the sentence that
+  contains them both. It also keeps the UPU and IPC figures visibly apart, because they are
+  different organizations measuring different populations over different periods.
+- **Unit 5 separates value from volume, which is the commonest honest-looking error in business
+  reporting.** The WTO's own October 2026 update has services trade up 14 per cent in value in one
+  quarter and a 2026 **volume** forecast cut to 3.3 per cent. Neither figure is wrong. Quoting one
+  as though it were the other is.
+- **Unit 9's headline contains its own counter-example.** Global FDI rose 6 per cent; flows to
+  lower-middle-income countries fell 5 per cent; and excluding conduit flows the rise was 4 per
+  cent rather than 6. The unit prints all three and asks which one belongs in a paper arguing for
+  investment in a lower-middle-income country.
+- **Unit 7 is three numbers for one subject, and the gap between them is the point.** The law
+  averages 67, its enforcement 53, and the systems that would make it work 47. The unit's task is a
+  policy that admits the difference between what a rule says and what a company actually does.
+- **Unit 12 is a count that depends on what you are counting.** "Nearly 50 jurisdictions on the
+  journey" and "21 jurisdictions have adopted" are both current and both defensible, because one
+  counts intention and the other counts enactment — and even enactment is often partial. The unit
+  prints both with their dates and asks the learner which they would put in an annual report, and
+  what sentence they would put beside it.
+- **Unit 4's figure is a simple average of providers, not of money sent.** The World Bank computes
+  its 6.49 per cent by averaging the cost charged by each provider in its database, so a provider
+  used by almost nobody counts as much as a provider used by millions. The unit says so, and asks
+  what you would say to a finance director who wanted to budget on it.
+- **Unit 10 mixes two vintages on purpose.** The birth and death rates are for 2024; the most
+  recent EU-wide five-year survival figure describes businesses born in 2014. The unit prints both
+  years beside the figures and makes the mismatch the task.
