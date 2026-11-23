@@ -114,16 +114,61 @@
   function hairFor(style, h1, h2) {
     switch (style) {
       /* the inner hairline must sit above the eyes (cy 98, top ≈ 89) */
-      case 'long': return p('M 50 72 q 50 -54 100 0 q 10 72 2 110 q -14 -78 -16 -102 q -42 16 -72 0 q -4 24 -16 102 q -8 -40 2 -110 Z', h1) +
-        p('M 50 72 q 50 -54 100 0 q -10 -34 -50 -34 q -40 0 -50 34 Z', h2);
+      /* ⚠ THE SAME FAULT AS THE HEAD-SCARF, THREE TIMES MORE, FOUND BY MEASURING
+         EVERY RIG RATHER THAN THE ONE THAT WAS REPORTED. The face ellipse's crown
+         is at y 42. Measured in a browser before this change, the top of the hair
+         was: long 45, bob 50 - so `long`, `bob` (f-20s-a, f-30s-a, f-50s-a) each
+         left 3 to 8 units of bare scalp above the hairline, which at the size a
+         learner sees reads as a receding hairline on women in their twenties.
+         `bun` (34) and every male style (32) were already clear.
+         The outer curve of each layer is raised so the vertex clears y 42 with a
+         margin: for `q dx dy1 ...` from y0 the vertex is y0 + dy1/2, so long
+         72-38=34 and bob 78-44=34. gates/course_rig.py asserts it for every rig. */
+      case 'long': return p('M 50 72 q 50 -76 100 0 q 10 72 2 110 q -14 -78 -16 -102 q -42 16 -72 0 q -4 24 -16 102 q -8 -40 2 -110 Z', h1) +
+        p('M 50 72 q 50 -76 100 0 q -10 -34 -50 -34 q -40 0 -50 34 Z', h2);
       case 'bun': return p('M 52 76 q 48 -52 96 0 q 4 -42 -48 -42 q -52 0 -48 42 Z', h1) + c(100, 24, 20, h1) + c(100, 24, 12, h2);
-      case 'bob': return p('M 48 78 q 52 -56 104 0 q 6 44 0 62 q -10 -46 -12 -62 q -40 16 -68 0 q -2 16 -12 62 q -6 -18 -12 -62 Z', h1) +
-        p('M 48 78 q 52 -56 104 0 q -14 -32 -52 -32 q -38 0 -52 32 Z', h2);
+      case 'bob': return p('M 48 78 q 52 -88 104 0 q 6 44 0 62 q -10 -46 -12 -62 q -40 16 -68 0 q -2 16 -12 62 q -6 -18 -12 -62 Z', h1) +
+        p('M 48 78 q 52 -88 104 0 q -14 -32 -52 -32 q -38 0 -52 32 Z', h2);
       case 'hijab': return '';
       case 'fade': return p('M 54 74 q 46 -46 92 0 q 2 -42 -46 -42 q -48 0 -46 42 Z', h1) + p('M 54 74 q 46 -46 92 0 q -8 -14 -46 -14 q -38 0 -46 14 Z', h2);
       default: return p('M 54 76 q 46 -50 92 0 q 2 -44 -46 -44 q -48 0 -46 44 Z', h1) + p('M 54 76 q 46 -50 92 0 q -10 -18 -46 -18 q -36 0 -46 18 Z', h2);
     }
   }
+
+  /* ============================================================
+     THE HEAD-SCARF, AND WHY IT IS DRAWN IN FRONT OF THE FACE
+
+     ⚠ IT USED TO BE ONE SHAPE DRAWN BEHIND THE HEAD, and that is wrong in a
+     way that is easy to miss and impossible to unsee. Measured in a browser
+     from the published file, before this change:
+
+         face ellipse   y  42 -> 150
+         scarf          y  55 -> 207     <- 13 units BELOW the top of the head
+         shadow band    y  46 ->  70     <- so it landed on bare forehead
+
+     The crown of the head therefore rose clear of the scarf, and the
+     translucent band - written to be a soft shadow UNDER the scarf's front
+     edge - fell on the skin instead. At the size a learner sees it, that band
+     reads as a scar across the forehead, which is how it was reported.
+
+     Raising the scarf does not fix it: a shape drawn behind the face can never
+     cover the crown. So the scarf is now ONE shape drawn IN FRONT, with the
+     face showing through a window cut in it by `fill-rule="evenodd"`. The
+     window is deliberately smaller than the face ellipse, so the scarf overlaps
+     the face's edge the way cloth does, and the ears (drawn before it) fall
+     outside the window and are covered, as they should be.
+
+     gates/course_rig.py asserts, in a real browser and for every rig, that the
+     scarf's bounding box CONTAINS the face ellipse's, and that no translucent
+     band falls outside the scarf.
+     ============================================================ */
+  /** the scarf, then the face window - evenodd turns the pair into a ring */
+  var HIJAB = 'M 34 104 C 28 40 62 20 100 20 C 138 20 172 40 166 104 '
+            + 'C 166 152 150 192 100 202 C 50 192 34 152 34 104 Z '
+            + 'M 62 100 a 38 46 0 1 0 76 0 a 38 46 0 1 0 -76 0 Z';
+  /** the fold along the scarf's own outer edge - ON the cloth, never on skin */
+  var HIJAB_FOLD = 'M 40 92 C 36 44 66 26 100 26 C 134 26 164 44 160 92 '
+                 + 'C 156 52 130 36 100 36 C 70 36 44 52 40 92 Z';
 
   /**
    * actor(id, rigName, opts) -> svg <g> markup, sized in a 200x300 local box.
@@ -181,12 +226,12 @@
     s += p('M 86 140 h 28 v 34 q -14 10 -28 0 Z', g.skin2);
     /* head group */
     s += '<g id="' + id + '-head" style="transform-origin:100px 110px">';
-    if (g.style === 'hijab') s += p('M 40 92 q 60 -74 120 0 q 10 72 -6 104 q -54 22 -108 0 q -16 -32 -6 -104 Z', g.hijab);
     s += e(100, 96, 46, 54, g.skin);
     s += p('M 54 96 a 46 54 0 0 0 92 0 a 46 54 0 0 1 -92 0 Z', g.skin2);
     s += e(55, 104, 7, 10, g.skin2) + e(145, 104, 7, 10, g.skin2);
     if (g.style !== 'hijab') s += hairFor(g.style, g.hair, g.hair2);
-    else s += p('M 54 70 q 46 -34 92 0 q -8 -24 -46 -24 q -38 0 -46 24 Z', '#00000022');
+    else s += p(HIJAB, g.hijab, ' fill-rule="evenodd"')
+            + p(HIJAB_FOLD, '#0000001a');
     /* brows */
     s += '<g id="' + id + '-brows" style="transform-origin:100px 82px">';
     s += p('M 70 80 q 12 -8 24 -2', 'none', ' stroke="' + g.hair2 + '" stroke-width="4.5" stroke-linecap="round"');
@@ -211,8 +256,11 @@
   /* small head-only portrait, used in lists and cue cards */
   A.portrait = function (rigName, size) {
     var g = RIGS[rigName] || RIGS['m-30s-a'], s = '';
-    if (g.style === 'hijab') s += p('M 40 92 q 60 -74 120 0 q 10 72 -6 104 q -54 22 -108 0 q -16 -32 -6 -104 Z', g.hijab);
     s += e(100, 100, 46, 54, g.skin) + e(55, 108, 7, 10, g.skin2) + e(145, 108, 7, 10, g.skin2);
+    /* the same front-drawn scarf as the actor; this head sits 4 units lower,
+       which is under a pixel at the 40px size a portrait is drawn at */
+    if (g.style === 'hijab') s += p(HIJAB, g.hijab, ' fill-rule="evenodd"')
+                                + p(HIJAB_FOLD, '#0000001a');
     if (g.style !== 'hijab') s += hairFor(g.style, g.hair, g.hair2);
     s += e(82, 102, 7, 8, '#fff') + e(118, 102, 7, 8, '#fff') + c(83, 103, 3.8, '#2a2320') + c(119, 103, 3.8, '#2a2320');
     s += p('M 86 134 q 14 9 28 0', 'none', ' stroke="#8c3b37" stroke-width="4" stroke-linecap="round"');
