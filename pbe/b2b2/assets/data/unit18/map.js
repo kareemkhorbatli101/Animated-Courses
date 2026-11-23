@@ -53,5 +53,5 @@ PBE8.unitMap('unit18', [{
       part: '18.7',
       lesson: 'Review & Mediate: the firm that decided it twice',
       label: '18.7 Review & Mediate: the firm that decided it twice',
-      n: 12
+      n: 14
     }]);

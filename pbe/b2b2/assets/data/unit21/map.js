@@ -53,5 +53,5 @@ PBE8.unitMap('unit21', [{
       part: '21.7',
       lesson: 'Review & Mediate: the paper strong enough to defeat its author',
       label: '21.7 Review & Mediate: the paper strong enough to defeat its author',
-      n: 12
+      n: 14
     }]);

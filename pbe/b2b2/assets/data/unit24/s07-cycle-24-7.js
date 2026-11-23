@@ -209,10 +209,13 @@ PBE8.page('u24-s07', {
           + 'asked about the November reconciliation than asked to explain the '
           + 'word fluent.</i> <b>The cost is real and it is theirs to accept</b> '
           + '— <b>and the sentence they choose tells you more about them than the '
-          + 'certificate does.</b></p><p><b>Useful phrases:</b> a performance on '
-          + 'a day · not a description of a person · three real things · what it '
-          + 'does not establish · one of those conversations I can '
-          + 'have</p><p><b>Pronunciation – a reference without warmth or '
+          + 'certificate does.</b></p><p><b>Practise:</b> Take a credential of '
+          + 'your own. Write the three acts it evidences, the three things it '
+          + 'does not, and the three documents of yours that would — including '
+          + 'the one you would rather leave out.</p><p><b>Useful phrases:</b> a '
+          + 'performance on a day · not a description of a person · three real '
+          + 'things · what it does not establish · one of those conversations I '
+          + 'can have</p><p><b>Pronunciation – a reference without warmth or '
           + 'coldness.</b> 🔊 <b>Track 24.14</b> Listen twice. ⚠ <b>The first says '
           + '<i>she wrote to a word limit, twice, on a day she did not choose</i> '
           + 'evenly, as a finding.</b> ⚠ <b>The second warms on <i>twice</i>.</b> '
@@ -303,6 +306,24 @@ PBE8.page('u24-s07', {
           }],
         say: true
       }
+    },
+    {
+      id: 'c13',
+      kind: 'own',
+      ref: '24.7.2',
+      bookRef: 'Unit 24 · 24.7 · Lesson A · Speaking · Listen and read',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take a credential of your own. Write the three acts it '
+              + 'evidences, the three things it does not, and the three documents '
+              + 'of yours that would — including the one you would rather leave '
+              + 'out.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c3',
@@ -917,6 +938,24 @@ PBE8.page('u24-s07', {
       kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u24-24-7-b'
+    },
+    {
+      id: 'c14',
+      kind: 'own',
+      ref: '24.7.✓',
+      bookRef: 'Unit 24 · 24.7 · Lesson B · Writing · Unit 24 check',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take a credential of your own. Write the three acts it '
+              + 'evidences, the three things it does not, and the three documents '
+              + 'of yours that would — including the one you would rather leave '
+              + 'out.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]
 });

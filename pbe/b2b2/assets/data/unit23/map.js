@@ -53,5 +53,5 @@ PBE8.unitMap('unit23', [{
       part: '23.7',
       lesson: 'Review & Mediate: the joint submission you half agree with',
       label: '23.7 Review & Mediate: the joint submission you half agree with',
-      n: 12
+      n: 14
     }]);

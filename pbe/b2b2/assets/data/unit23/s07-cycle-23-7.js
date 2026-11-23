@@ -206,16 +206,19 @@ PBE8.page('u23-s07', {
           + 'notification:</b> ⚠ <i>would you rather the difference was marked in '
           + 'your document or in mine?</i> <b>Two acceptable answers; if he takes '
           + 'it into the joint submission you have given him the stronger '
-          + 'document and kept your point.</b></p><p><b>Useful phrases:</b> right '
-          + 'about three things · silent about the fourth · I sign the three and '
-          + 'file one page · on Tuesday, not on Friday · in your document or in '
-          + 'mine?</p><p><b>Pronunciation – a difference announced in '
-          + 'advance.</b> 🔊 <b>Track 23.14</b> Listen twice. ⚠ <b>The first says '
-          + '<i>would you rather the difference was marked in your document or in '
-          + 'mine</i> evenly, as a genuine question.</b> ⚠ <b>The second stresses '
-          + '<i>mine</i>.</b> <b>Even, it is a choice he can take; stressed, it '
-          + 'is a threat with a question mark, and he will take neither option '
-          + 'well.</b> Say it four times, evenly.</p>'
+          + 'document and kept your point.</b></p><p><b>Practise:</b> Take a '
+          + 'joint document in front of you. Write what you will sign, the one '
+          + 'point you will not, the page you will file in your own name, and the '
+          + 'person you ring before you file rather than with it.</p><p><b>Useful '
+          + 'phrases:</b> right about three things · silent about the fourth · I '
+          + 'sign the three and file one page · on Tuesday, not on Friday · in '
+          + 'your document or in mine?</p><p><b>Pronunciation – a difference '
+          + 'announced in advance.</b> 🔊 <b>Track 23.14</b> Listen twice. ⚠ '
+          + '<b>The first says <i>would you rather the difference was marked in '
+          + 'your document or in mine</i> evenly, as a genuine question.</b> ⚠ '
+          + '<b>The second stresses <i>mine</i>.</b> <b>Even, it is a choice he '
+          + 'can take; stressed, it is a threat with a question mark, and he will '
+          + 'take neither option well.</b> Say it four times, evenly.</p>'
       },
       quiz: {
         type: 'quizset',
@@ -297,6 +300,24 @@ PBE8.page('u23-s07', {
           }],
         say: true
       }
+    },
+    {
+      id: 'c13',
+      kind: 'own',
+      ref: '23.7.2',
+      bookRef: 'Unit 23 · 23.7 · Lesson A · Speaking · Listen and read',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take a joint document in front of you. Write what you will sign, '
+              + 'the one point you will not, the page you will file in your own '
+              + 'name, and the person you ring before you file rather than with '
+              + 'it.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c3',
@@ -878,6 +899,24 @@ PBE8.page('u23-s07', {
       kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u23-23-7-b'
+    },
+    {
+      id: 'c14',
+      kind: 'own',
+      ref: '23.7.✓',
+      bookRef: 'Unit 23 · 23.7 · Lesson B · Writing · Unit 23 check',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take a joint document in front of you. Write what you will sign, '
+              + 'the one point you will not, the page you will file in your own '
+              + 'name, and the person you ring before you file rather than with '
+              + 'it.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]
 });

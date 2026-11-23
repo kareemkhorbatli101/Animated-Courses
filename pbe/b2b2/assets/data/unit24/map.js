@@ -53,5 +53,5 @@ PBE8.unitMap('unit24', [{
       part: '24.7',
       lesson: 'Review & Mediate: what a certificate says and does not say',
       label: '24.7 Review & Mediate: what a certificate says and does not say',
-      n: 12
+      n: 14
     }]);

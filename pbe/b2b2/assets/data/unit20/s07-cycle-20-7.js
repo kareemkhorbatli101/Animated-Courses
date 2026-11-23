@@ -209,17 +209,21 @@ PBE8.page('u20-s07', {
           + 'Homs reopening and I will have run something by July.</i> <b>That '
           + 'ask only becomes available once he knows he is not auditioning</b> — '
           + '<b>a man who thinks he is on trial asks for nothing and volunteers '
-          + 'for everything.</b></p><p><b>Useful phrases:</b> decided today, '
-          + 'effective later · you are acting, not auditioning · the reason is '
-          + 'the arbitration, not your capability · if it has not taken effect by '
-          + '· as a job, not a holding operation</p><p><b>Pronunciation – a '
-          + 'deferral that is not a doubt.</b> 🔊 <b>Track 20.14</b> Listen twice. '
-          + '⚠ <b>The first says <i>it has been decided, today, not deferred</i> '
-          + 'with the stress on <i>decided</i>.</b> ⚠ <b>The second stresses '
-          + '<i>today</i>.</b> <b>On <i>decided</i>, the listener hears that the '
-          + 'matter is closed; on <i>today</i>, they hear that today is one of '
-          + 'several days it might have been</b> — <b>and start waiting for the '
-          + 'next one.</b> Say it four times, stressing <i>decided</i>.</p>'
+          + 'for everything.</b></p><p><b>Practise:</b> Take a temporary '
+          + 'arrangement at your work. Write the four things its minute should '
+          + 'have said: what is decided, what the acting part is not, why there '
+          + 'is a gap, and the date the arrangement ends.</p><p><b>Useful '
+          + 'phrases:</b> decided today, effective later · you are acting, not '
+          + 'auditioning · the reason is the arbitration, not your capability · '
+          + 'if it has not taken effect by · as a job, not a holding '
+          + 'operation</p><p><b>Pronunciation – a deferral that is not a '
+          + 'doubt.</b> 🔊 <b>Track 20.14</b> Listen twice. ⚠ <b>The first says '
+          + '<i>it has been decided, today, not deferred</i> with the stress on '
+          + '<i>decided</i>.</b> ⚠ <b>The second stresses <i>today</i>.</b> <b>On '
+          + '<i>decided</i>, the listener hears that the matter is closed; on '
+          + '<i>today</i>, they hear that today is one of several days it might '
+          + 'have been</b> — <b>and start waiting for the next one.</b> Say it '
+          + 'four times, stressing <i>decided</i>.</p>'
       },
       quiz: {
         type: 'quizset',
@@ -296,6 +300,24 @@ PBE8.page('u20-s07', {
           }],
         say: true
       }
+    },
+    {
+      id: 'c13',
+      kind: 'own',
+      ref: '20.7.2',
+      bookRef: 'Unit 20 · 20.7 · Lesson A · Speaking · Listen and read',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take a temporary arrangement at your work. Write the four things '
+              + 'its minute should have said: what is decided, what the acting '
+              + 'part is not, why there is a gap, and the date the arrangement '
+              + 'ends.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c3',
@@ -862,6 +884,24 @@ PBE8.page('u20-s07', {
       kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u20-20-7-b'
+    },
+    {
+      id: 'c14',
+      kind: 'own',
+      ref: '20.7.✓',
+      bookRef: 'Unit 20 · 20.7 · Lesson B · Writing · Unit 20 check',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take a temporary arrangement at your work. Write the four things '
+              + 'its minute should have said: what is decided, what the acting '
+              + 'part is not, why there is a gap, and the date the arrangement '
+              + 'ends.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]
 });

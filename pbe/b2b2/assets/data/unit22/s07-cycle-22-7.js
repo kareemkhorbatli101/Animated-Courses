@@ -202,17 +202,20 @@ PBE8.page('u22-s07', {
           + 'rather than a procedure.</b></p><p>⚠ <b>The sentence to recognise in '
           + 'yourself:</b> ⚠ <i>my third draft is slightly smaller.</i> <b>It is '
           + 'the only warning you get, and the useful response is to take the '
-          + 'third draft to somebody rather than to file it.</b></p><p><b>Useful '
-          + 'phrases:</b> nothing is wrong with it, and that is the problem · '
-          + 'slightly smaller · they answer different questions · neither answer '
-          + 'makes the other wrong · not to reconcile them, to say that they do '
-          + 'not</p><p><b>Pronunciation – a tension stated as a fact.</b> 🔊 '
-          + '<b>Track 22.14</b> Listen twice. ⚠ <b>The first says <i>neither '
-          + 'answer makes the other wrong</i> flatly, as a statement about '
-          + 'documents.</b> ⚠ <b>The second rises slightly at the end.</b> '
-          + '<b>Flat, it is the finding; risen, it is a hope that somebody will '
-          + 'agree, and the room starts negotiating instead of recording.</b> Say '
-          + 'it four times, flat.</p>'
+          + 'third draft to somebody rather than to file '
+          + 'it.</b></p><p><b>Practise:</b> Find two documents at your work that '
+          + 'look as if they disagree. Write the question each one answers, leave '
+          + 'both as they stand, and write the paragraph saying why they are not '
+          + 'supposed to reconcile.</p><p><b>Useful phrases:</b> nothing is wrong '
+          + 'with it, and that is the problem · slightly smaller · they answer '
+          + 'different questions · neither answer makes the other wrong · not to '
+          + 'reconcile them, to say that they do not</p><p><b>Pronunciation – a '
+          + 'tension stated as a fact.</b> 🔊 <b>Track 22.14</b> Listen twice. ⚠ '
+          + '<b>The first says <i>neither answer makes the other wrong</i> '
+          + 'flatly, as a statement about documents.</b> ⚠ <b>The second rises '
+          + 'slightly at the end.</b> <b>Flat, it is the finding; risen, it is a '
+          + 'hope that somebody will agree, and the room starts negotiating '
+          + 'instead of recording.</b> Say it four times, flat.</p>'
       },
       quiz: {
         type: 'quizset',
@@ -289,6 +292,24 @@ PBE8.page('u22-s07', {
           }],
         say: true
       }
+    },
+    {
+      id: 'c13',
+      kind: 'own',
+      ref: '22.7.2',
+      bookRef: 'Unit 22 · 22.7 · Lesson A · Speaking · Listen and read',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Find two documents at your work that look as if they disagree. '
+              + 'Write the question each one answers, leave both as they stand, '
+              + 'and write the paragraph saying why they are not supposed to '
+              + 'reconcile.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c3',
@@ -862,6 +883,24 @@ PBE8.page('u22-s07', {
       kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u22-22-7-b'
+    },
+    {
+      id: 'c14',
+      kind: 'own',
+      ref: '22.7.✓',
+      bookRef: 'Unit 22 · 22.7 · Lesson B · Writing · Unit 22 check',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Find two documents at your work that look as if they disagree. '
+              + 'Write the question each one answers, leave both as they stand, '
+              + 'and write the paragraph saying why they are not supposed to '
+              + 'reconcile.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]
 });

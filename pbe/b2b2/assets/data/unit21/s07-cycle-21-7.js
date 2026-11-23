@@ -206,17 +206,20 @@ PBE8.page('u21-s07', {
           + 'against in December, which is the part of this that costs me.</i> '
           + '<b>Said in the room, by the person it costs</b> — <b>which is how '
           + 'the firm knows the recommendation is not '
-          + 'self-serving.</b></p><p><b>Useful phrases:</b> I am the wrong person '
-          + 'to want that · say the last six words again · why does that stay '
-          + 'true? · a written option, at a fee · you cannot test an assumption '
-          + 'you have not stated</p><p><b>Pronunciation – a concession that is '
-          + 'not a retreat.</b> 🔊 <b>Track 21.14</b> Listen twice. ⚠ <b>The first '
-          + 'says <i>I am going to the board recommending something I argued '
-          + 'against in December</i> at an even pace, as a fact.</b> ⚠ <b>The '
-          + 'second slows at the end.</b> <b>Even, it is a cost being named; '
-          + 'slowed, it is a complaint about having to pay it, and the room '
-          + 'starts reassuring her instead of deciding.</b> Say it four times, '
-          + 'even.</p>'
+          + 'self-serving.</b></p><p><b>Practise:</b> Take an assumption at your '
+          + 'work that nobody can test. Ask out loud why it stays untestable, '
+          + 'then write the fourth option: the arrangement that would settle it, '
+          + 'with a figure and a date on it.</p><p><b>Useful phrases:</b> I am '
+          + 'the wrong person to want that · say the last six words again · why '
+          + 'does that stay true? · a written option, at a fee · you cannot test '
+          + 'an assumption you have not stated</p><p><b>Pronunciation – a '
+          + 'concession that is not a retreat.</b> 🔊 <b>Track 21.14</b> Listen '
+          + 'twice. ⚠ <b>The first says <i>I am going to the board recommending '
+          + 'something I argued against in December</i> at an even pace, as a '
+          + 'fact.</b> ⚠ <b>The second slows at the end.</b> <b>Even, it is a '
+          + 'cost being named; slowed, it is a complaint about having to pay it, '
+          + 'and the room starts reassuring her instead of deciding.</b> Say it '
+          + 'four times, even.</p>'
       },
       quiz: {
         type: 'quizset',
@@ -278,6 +281,24 @@ PBE8.page('u21-s07', {
           }],
         say: true
       }
+    },
+    {
+      id: 'c13',
+      kind: 'own',
+      ref: '21.7.2',
+      bookRef: 'Unit 21 · 21.7 · Lesson A · Speaking · Listen and read',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take an assumption at your work that nobody can test. Ask out '
+              + 'loud why it stays untestable, then write the fourth option: the '
+              + 'arrangement that would settle it, with a figure and a date on '
+              + 'it.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c3',
@@ -899,6 +920,24 @@ PBE8.page('u21-s07', {
       kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u21-21-7-b'
+    },
+    {
+      id: 'c14',
+      kind: 'own',
+      ref: '21.7.✓',
+      bookRef: 'Unit 21 · 21.7 · Lesson B · Writing · Unit 21 check',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take an assumption at your work that nobody can test. Ask out '
+              + 'loud why it stays untestable, then write the fourth option: the '
+              + 'arrangement that would settle it, with a figure and a date on '
+              + 'it.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]
 });

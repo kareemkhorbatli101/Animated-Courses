@@ -201,9 +201,12 @@ PBE8.page('u18-s07', {
           + 'anybody has found. Mr Ayoub is right that as written it is a '
           + 'document about him.</i> <b>Two people can be right about different '
           + 'things in one disagreement, and saying which is the whole of the '
-          + 'mediation.</b></p><p><b>Useful phrases:</b> as a stranger will read '
-          + 'it · they will have the sentence · the mechanism is the firm\'s · no '
-          + 'form, no owner, nobody asking · right about different '
+          + 'mediation.</b></p><p><b>Practise:</b> Take a finding at your work '
+          + 'that names a person. Rewrite it with the firm as the subject, name '
+          + 'the mechanism that is missing, and check that not one fact has been '
+          + 'lost.</p><p><b>Useful phrases:</b> as a stranger will read it · they '
+          + 'will have the sentence · the mechanism is the firm\'s · no form, no '
+          + 'owner, nobody asking · right about different '
           + 'things</p><p><b>Pronunciation – a finding with no charge in it.</b> '
           + '🔊 <b>Track 18.14</b> Listen twice. ⚠ <b>The first says <i>no reason '
           + 'is recorded for either decision</i> with no stress on any word.</b> '
@@ -283,6 +286,23 @@ PBE8.page('u18-s07', {
           }],
         say: true
       }
+    },
+    {
+      id: 'c13',
+      kind: 'own',
+      ref: '18.7.2',
+      bookRef: 'Unit 18 · 18.7 · Lesson A · Speaking · Listen and read',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take a finding at your work that names a person. Rewrite it with '
+              + 'the firm as the subject, name the mechanism that is missing, and '
+              + 'check that not one fact has been lost.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c3',
@@ -943,6 +963,23 @@ PBE8.page('u18-s07', {
       kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u18-18-7-b'
+    },
+    {
+      id: 'c14',
+      kind: 'own',
+      ref: '18.7.✓',
+      bookRef: 'Unit 18 · 18.7 · Lesson B · Writing · Unit 18 check',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take a finding at your work that names a person. Rewrite it with '
+              + 'the firm as the subject, name the mechanism that is missing, and '
+              + 'check that not one fact has been lost.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]
 });

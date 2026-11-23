@@ -203,7 +203,10 @@ PBE8.page('u19-s07', {
           + '⚠ <b>The clean version of the issue is gone</b>, <b>and what the '
           + 'firm gets instead is a witness who cannot be broken and a tribunal '
           + 'that hears about the stock sheets from the man who saw '
-          + 'them.</b></p><p><b>Useful phrases:</b> firmer in the direction that '
+          + 'them.</b></p><p><b>Practise:</b> Take a belief of yours about work '
+          + 'that has grown firmer with time. Write what you wrote at the time, '
+          + 'what you say now, and the document that changed it, and date all '
+          + 'three.</p><p><b>Useful phrases:</b> firmer in the direction that '
           + 'helps · both answers are fatal · what I wrote then, what I say now · '
           + 'I stopped thinking and started knowing · it cannot be put to him; he '
           + 'has put it</p><p><b>Pronunciation – correcting yourself once.</b> 🔊 '
@@ -289,6 +292,23 @@ PBE8.page('u19-s07', {
           }],
         say: true
       }
+    },
+    {
+      id: 'c13',
+      kind: 'own',
+      ref: '19.7.2',
+      bookRef: 'Unit 19 · 19.7 · Lesson A · Speaking · Listen and read',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take a belief of yours about work that has grown firmer with '
+              + 'time. Write what you wrote at the time, what you say now, and '
+              + 'the document that changed it, and date all three.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     },
     {
       id: 'c3',
@@ -872,6 +892,23 @@ PBE8.page('u19-s07', {
       kind: 'own',
       instruction: 'Listen and read. Each person has their own voice.',
       scene: 'u19-19-7-b'
+    },
+    {
+      id: 'c14',
+      kind: 'own',
+      ref: '19.7.✓',
+      bookRef: 'Unit 19 · 19.7 · Lesson B · Writing · Unit 19 check',
+      type: 'discuss',
+      title: 'Practise the grammar',
+      instruction: 'Do the exercise in the Language box.',
+      questions: [{
+            q: 'Take a belief of yours about work that has grown firmer with '
+              + 'time. Write what you wrote at the time, what you say now, and '
+              + 'the document that changed it, and date all three.',
+            minWords: 6,
+            rows: 2
+          }],
+      okMsg: 'Saved. Press “Show me” to put the book\'s answer beside your own.'
     }
   ]
 });
