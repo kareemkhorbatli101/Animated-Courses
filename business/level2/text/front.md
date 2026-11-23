@@ -19,7 +19,7 @@ have used Clearline Foundation, you already know where everything is.
 | **5 · Writing** | A model of the unit's genre, then your own |
 | **Team Up & Review** | A picture, a team project, a survey, and one problem with no easy answer |
 
-**The audio.** 🔊 marks a track. 196 tracks, numbered `CL2-unit-track`.
+**The audio.** 🔊 marks a track. 195 tracks, numbered `CL2-unit-track`.
 
 ## What is different about this book
 
@@ -28,9 +28,10 @@ in your first, because the polite version is longer and the words are not the ob
 units are about little else.
 
 **Four reports count late payment four different ways.** Days to be paid. Days past the deadline.
-The share of invoices affected. Delay by country. All four are real, all four are in this book,
-and the back matter says plainly that they cannot be compared with each other. Unit 10 is about a
-manager who put two of them on one slide.
+The share of invoices affected. Delay by country. All four are real, all four are in this book, and
+the back matter sets them side by side and says plainly that they cannot be compared with each
+other. Unit 10 shows you the trap: because one of them measures delay *beyond agreed terms*, a
+country with short terms can look worse while being paid sooner.
 
 **Nothing assumes one country's law.** Payment terms, notice periods and safety rules differ
 everywhere. Where the law matters, this book says *this differs by country — find yours*, and
