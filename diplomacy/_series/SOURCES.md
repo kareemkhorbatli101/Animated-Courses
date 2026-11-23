@@ -78,3 +78,67 @@ short enough to say in one A2 sentence and real enough to be worth learning.
   of a single member with Egypt, and the separate seat resumed on 13 October 1961. The unit prints
   all three facts, because the short version — "member since 1945" — is true and leaves out the part
   a counterpart may raise.
+
+---
+
+## Book 2 · Foreign Service English 1 (A2+ to B1) · *The consular section*
+
+Twelve source bodies, none of them used in Book 1 and none used anywhere in the two sister series.
+Every count below is a count on a published status page on a stated date, and every unit prints that
+date, because these numbers move.
+
+| Unit | Source | What the text prints |
+|---|---|---|
+| 1 The Notice and the Warrant | INTERPOL, own published pages | **196 member countries**, reached in 2023 when Palau was admitted as the 196th. **A Red Notice is not an arrest warrant.** It rests on a warrant or order issued by a national judicial authority, and each member country decides for itself what effect to give it |
+| 2 Serving the Papers | HCCH, Service Convention of 15 November 1965, status table | **84 Contracting Parties**, table last updated **21 March 2024**. The HCCH's own note: **"Contracting Party" covers both cases in which the Convention has, and cases in which it has not yet, entered into force** for that party |
+| 3 A Child in Two Countries | HCCH, Convention of 25 October 1980 on the Civil Aspects of International Child Abduction, status table | **103 Contracting Parties**; in force since **1 December 1983**. The Convention decides **return**, not **custody** |
+| 4 What the Caller Said | UNHCR, on the 1951 Convention and its 1967 Protocol | **149 states are parties to the 1951 Convention and/or its 1967 Protocol** — a combined count. Per instrument, UNHCR has published **146** for the Convention and **147** for the Protocol. The pre-1951 time limitation still applies for **Saint Kitts and Nevis** and **Madagascar** |
+| 5 Nobody's National | The 1954 Convention relating to the Status of Stateless Persons; the 1961 Convention on the Reduction of Statelessness | **1961 Convention: 82 parties as at 10 September 2025**, against **78 as at 1 February 2023**. The most widely quoted figure for the **1954** Convention, **83**, is a **UNHCR count from November 2014**. Two conventions, two party lists, two different jobs |
+| 6 The Most Ratified Treaty | Convention on the Rights of the Child, 1989 | **196 states parties** — every eligible state but one. The one signed on **16 February 1995** and has not ratified. **A party count is not a count of identical obligations:** parties have entered reservations and interpretive declarations |
+| 7 Twenty-Four Hours | WHO, International Health Regulations (2005), Article 6, as amended in 2024 | Assess within **48 hours**; notify within **24 hours** of determining that the event is notifiable, through the National IHR Focal Point. Published material gives both **196** and **194** States Parties, and the larger figure includes States Parties that are not WHO Member States |
+| 8 Asking Another State | UN Convention against Corruption; UNODC ratification status page | **191 parties**; **last ratification 7 August 2024**. **Article 44 is extradition. Article 46 is mutual legal assistance.** Two articles, two requests, two answers |
+| 9 Signed Is Not Ratified | Vienna Convention on the Law of Treaties, 1969 | **116 parties** and **45 signatories** on the depositary's page; in force **27 January 1980**. **Article 18:** a state that has signed is obliged not to defeat the object and purpose of the treaty before it enters into force. That is not ratification, and it is not nothing |
+| 10 The Slow Route | Universal Postal Union | **192 member countries**; **Treaty of Bern, 9 October 1874**; renamed the Universal Postal Union in **1878**; a UN specialized agency since **1948**. The UPU's own anniversary release says **22** founding countries; other published accounts say **21** |
+| 11 The Award and the Court | Convention on the Recognition and Enforcement of Foreign Arbitral Awards, New York, 1958 | **172 parties** and **24 signatories**. The 172 is **169 UN member states plus three non-members** — the Cook Islands, the Holy See and the State of Palestine — which is why a second figure, **169**, is also published and also right |
+| 12 Permission to Land | Convention on International Civil Aviation, Chicago, 7 December 1944 | **52 signatory states** on the day; in force **April 1947**; **193 parties**. **Article 1:** every state has complete and exclusive sovereignty over the airspace above its territory. One state is covered through another state's ratification, and the Convention's party count and ICAO's membership count are two different measures |
+
+**Twelve honesty notes, printed in the units as well as here.**
+
+- **Unit 1 is the difference between an alert and an order.** A Red Notice asks; it does not compel.
+  Published analysis says roughly a third of member countries will treat one as a basis for
+  provisional arrest and the rest require a formal request first, so the honest answer to "will they
+  arrest him?" is a question about which country.
+- **Unit 2 is a word with a definition that surprises people.** On the HCCH tables, *Contracting
+  Party* includes states for which the Convention is not yet in force. So the count on the page is
+  not the count of states you can actually serve documents in, and the page says so in small type.
+- **Unit 3 separates two questions a parent hears as one.** The Convention is about where the case
+  is decided, not who wins it. A return order is not a custody order, and saying so early is kinder
+  than saying it late.
+- **Unit 4 is a combined number.** UNHCR's own headline figure, 149, is parties to the Convention
+  *and/or* the Protocol. Quoting it as the number of parties to the Convention is wrong by three,
+  and the two instruments do not have the same party list.
+- **Unit 5 is a figure with a date on it.** The 1961 count moved from 78 to 82 in under three years.
+  The commonly quoted 1954 figure is more than a decade old. The unit teaches the words *as at*
+  before it teaches either number.
+- **Unit 6 is what a party count hides.** 196 parties is the widest ratification of any human rights
+  treaty, and it does not mean 196 identical sets of obligations, because reservations and
+  interpretive declarations sit on top of it.
+- **Unit 7 is two clocks, not one.** Everybody remembers 24 hours. The 24 hours start after the
+  assessment, and the assessment has its own 48. A text that quotes only the 24 has described half
+  the obligation.
+- **Unit 8 is two articles that get asked for interchangeably.** A request for evidence and a
+  request for a person are different instruments with different grounds of refusal. The unit makes
+  the officer name which one is being asked for before answering.
+- **Unit 9 is a signature that does something smaller than people think and larger than they say.**
+  Signature is not consent to be bound. It does carry Article 18. Both halves of that sentence are
+  needed, and most speakers drop one of them.
+- **Unit 10 is two reputable sources with different numbers.** The UPU says 22 founding countries;
+  other published accounts say 21. Neither is lying. The unit teaches the learner to name the source
+  rather than pick the number they prefer.
+- **Unit 11 is why two right answers differ by three.** 172 counts three parties that are not UN
+  member states. 169 counts only those that are. A reader given one figure and shown the other will
+  suspect the first unless the text explains the base.
+- **Unit 12 is a count that is not quite a count of states.** One state is a party because another
+  state's ratification extends to it, and the Convention's parties and ICAO's members are tallied
+  differently. The unit prints the sovereignty rule in Article 1 and then prints the arithmetic that
+  sits underneath the headline number.
