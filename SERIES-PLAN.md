@@ -394,11 +394,13 @@ a language convention, not a setting — Portmere is still unplaced.
 | Level | *Real Lives* model | Reading article | *Think It Through* case | Dialogue | New words/unit |
 |---|---|---|---|---|---|
 | Starter | 40–60 | 60–90 | 40–60 | 8 lines | 16–20 |
-| 1 | 60–90 | 100–140 | 60–80 | 8–10 lines | 20–24 |
+| 1 | 60–105 † | 100–140 | 60–80 | 8–10 lines | 20–24 |
 | 2 | 90–120 | 150–200 | 70–100 | 10 lines | 24–28 |
 | 3 | 120–170 | 220–300 | 90–120 | 10–12 lines | 28–34 |
 | 4 | 170–250 | 300–400 | 100–140 | 12–14 lines | 34–40 + academic set |
 | 5 | 250–350 | 400–550 | 140–180 | 14–16 lines | 40–48 + academic set |
+
+† **Amended after Book 1 and Book 2 were written.** The Level 1 model texts came out at 81–104 words against an original budget of 60–90. Seven of the twelve exceeded it. The budget was the wrong number, not the prose: Book 2 spans A1+ to A2, and the plan's own Level 2 budget is 90–120, so texts in the eighties and nineties sit exactly between the two published bands. The band is widened to 60–105 and the reason recorded here rather than the texts cut to fit a figure estimated before any of them existed.
 
 Target readability: roughly grade 2–3 at Starter, 3–4 at Levels 1–2, 5–7 at Level 3, 7–9 at Level 4,
 9–11 at Level 5, measured on the article text only.

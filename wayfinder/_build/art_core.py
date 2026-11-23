@@ -16,6 +16,15 @@ CLOTH={"teal":"#2f6f7a","plum":"#8a4a62","navy":"#415a8c","olive":"#6b6f3f",
        "rust":"#a4552f","grey":"#6e7276","sky":"#5c86b0","sand":"#c0a36b",
        "green":"#4a7d52","wine":"#7a3b46"}
 
+def set_accent(hexval):
+    """Each book has its own validated level accent. Rebind it everywhere the
+    art modules captured it by `from art_core import *` at import time."""
+    import sys
+    g = globals(); g["ACCENT"] = hexval
+    for m in ("art_icons","art_scenes","figgen"):
+        mod = sys.modules.get(m)
+        if mod is not None: setattr(mod, "ACCENT", hexval)
+
 def svg(w,h,body,bg=None):
     b = '<rect width="%d" height="%d" fill="%s"/>'%(w,h,bg) if bg else ''
     return ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" width="%d" height="%d">'
