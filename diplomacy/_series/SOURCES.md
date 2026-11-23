@@ -142,3 +142,73 @@ date, because these numbers move.
   state's ratification extends to it, and the Convention's parties and ICAO's members are tallied
   differently. The unit prints the sovereignty rule in Article 1 and then prints the arithmetic that
   sits underneath the headline number.
+
+---
+
+## Book 3 · Foreign Service English 2 (B1) · *The desk officer*
+
+Twelve source bodies, none used in Books Foundation or 1, and none used anywhere in the two sister
+series. Every count is a count on a published page on a stated date, and every unit prints the date
+and the base.
+
+| Unit | Source | What the text prints |
+|---|---|---|
+| 1 Nine Votes | Charter of the United Nations, Article 27; Security Council composition | **15 members, 5 of them permanent**; a substantive decision needs **9 affirmative votes** and no permanent member voting against. **An abstention by a permanent member has not been treated as a veto in practice** — a practice built on conduct, not on an amended text |
+| 2 Present and Voting | Charter of the United Nations, **Article 18** | Important questions are decided by a **two-thirds majority of the members present and voting**. **An abstention is not a vote**, so the denominator moves while the vote is happening |
+| 3 Credentials Are Not Recognition | General Assembly practice; the **Credentials Committee** | The Committee has **nine members**, appointed at the start of each session, and reports on the credentials of representatives. **Credentials concern who may speak for a delegation in the Assembly. They are not an act of recognition of a government by other states** |
+| 4 It Is Reported That | Statute of the International Court of Justice, **Articles 36 and 59** | **15 judges**, elected for **nine-year** terms. Jurisdiction rests on **consent**. **Article 59: a decision has no binding force except between the parties and in respect of that particular case** |
+| 5 Forty-Seven Seats | General Assembly resolution **60/251 of 15 March 2006** | The Human Rights Council has **47 member states**, elected **directly and individually by secret ballot by a majority of the members of the General Assembly**. The resolution also established the **Universal Periodic Review**, whose first cycle ran over **four years, 48 states a year** |
+| 6 Concluding Observations | The Human Rights Committee under the 1966 Covenant | **18 members**, serving as **independent experts in their personal capacity**, not as representatives of states. **Its concluding observations are not judgments**, and a treaty body is not a court |
+| 7 Nationally Determined | Paris Agreement, 2015; UNFCCC secretariat synthesis reports | **Adopted by 195 Parties on 12 December 2015.** The secretariat's own page gives **194 Parties as at 27 January 2026** — a count that went **down**. A 2024 synthesis covered **168 NDCs communicated by 195 Parties**, because the European Union and its member states file **one joint NDC counted as one** for 28 Parties |
+| 8 A Table That Says It Is Unofficial | United Nations Convention on the Law of the Sea; the ocean affairs division's status page | Published counts give **169** parties and **170**, depending on whether the **European Union** is counted alongside the states. The division's own table shows a totals row of **168 ratifications** and is dated **2019**, and the page says it is **unofficial, quick-reference information** |
+| 9 A Bundle of National Rights | WIPO, the Madrid System for the international registration of marks | **116 members covering 132 countries**, on WIPO's own members page; other published accounts give **115 covering 131**. An international registration is **a bundle of national or regional rights**, in WIPO's own words, and the scope of protection in each designated member is decided by **that member's own law** |
+| 10 The Fifth Committee | General Assembly Main Committees | **Six Main Committees**, each with every member state entitled to representation. **A Main Committee recommends; the plenary decides.** A draft agreed in committee is a draft until the Assembly adopts it |
+| 11 Inscription Is Not Protection | UNESCO, 1972 World Heritage Convention; the World Heritage List | **1,248 properties** on the List — **972 cultural, 235 natural, 41 mixed** — in **170 States Parties**, out of **196 States Parties** to the Convention. **53 properties are on the List of World Heritage in Danger.** Inscription does not transfer sovereignty and does not by itself protect anything |
+| 12 The Flag and the Port | International Maritime Organization | **176 Member States and three Associate Members** — the Faroe Islands, Hong Kong and Macao — so a membership list is not a list of states. **Ten port State control regimes**: eight regional memoranda of understanding and one agreement. **Flag State, port State and coastal State are three different roles**, and one state wears all three on different days |
+
+**Twelve honesty notes, printed in the units as well as here.**
+
+- **Unit 1 is a rule that is not in the text it is said to be in.** Article 27 requires that a
+  substantive decision carry nine affirmative votes without a negative vote by a permanent member.
+  The treatment of an abstention as not a negative vote is a long practice, accepted in conduct and
+  by the Court's advisory reasoning, and it is not an amendment of the Article. The unit says so,
+  because an officer who quotes it as the text will be corrected.
+- **Unit 2 is a denominator that moves.** *Present and voting* excludes abstentions, so the
+  two-thirds is two-thirds of a smaller number than the number of states in the room. A
+  prediction made on the membership figure is a prediction about the wrong arithmetic.
+- **Unit 3 is a word that carries more weight outside the room than inside it.** A credentials
+  decision concerns participation in the Assembly's work. Reporting it as recognition, or as a
+  decision about who governs a country, is the commonest error in this field, and the unit teaches
+  the sentence that avoids it.
+- **Unit 4 prints Article 59 in full.** A judgment binds the parties, in that case. It is not
+  legislation, it is not a precedent in the common-law sense, and a desk officer who summarizes it
+  as *the Court has ruled that states must…* has written something the Court did not say.
+- **Unit 5 separates two things that share a word.** The Council's members are **states**, elected
+  by the Assembly. Its review mechanism is **periodic** but the length of the cycle has been set and
+  reset by its own decisions, so a confident *every four years* is not safe. The unit prints only
+  the published first-cycle figure.
+- **Unit 6 separates experts from representatives.** The Committee's eighteen members sit in their
+  personal capacity. Their concluding observations are authoritative and they are not binding
+  judgments, and both halves of that sentence have to be said in the same breath.
+- **Unit 7 is a party count that went down, and a figure that is not what it looks like.** 195 at
+  adoption, 194 on the secretariat's page in January 2026. And 168 NDCs for 195 Parties is not a
+  gap in compliance: one of those NDCs is filed jointly for 28 Parties. The unit prints both
+  arithmetics side by side.
+- **Unit 8 is a publisher saying so itself.** The status page the whole field uses calls itself
+  unofficial quick reference, carries a totals row dated 2019, and sits beside two different
+  published party counts depending on how a regional organization is tallied. The unit teaches the
+  learner to quote the page's own disclaimer along with its number.
+- **Unit 9 is a registration that is not a right.** One filing, one fee, one number — and then as
+  many separate national or regional rights as there are designations, each governed by its own
+  law. The phrase *international trademark* is in common use and is wrong in a way that costs
+  companies money.
+- **Unit 10 is a draft that is not a decision.** Agreement in a Main Committee is reported as a
+  decision of the Assembly roughly every session, and it is not one until the plenary adopts it.
+  The unit teaches the two-sentence correction.
+- **Unit 11 is three figures that are usually quoted as one.** Properties on the List, States
+  Parties with any property inscribed, and States Parties to the Convention are 1,248, 170 and 196,
+  and they answer three different questions. And fifty-three of the properties are on the Danger
+  List, which is the most important sentence in the unit.
+- **Unit 12 is a list with three members that are not states.** A membership figure that includes
+  associate members cannot be quoted as a number of countries, and the three roles a maritime state
+  plays — flag, port, coastal — attract different obligations on the same day.
