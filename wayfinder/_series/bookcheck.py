@@ -272,7 +272,7 @@ def check(book):
 
     # audio cue integrity (ids only -- audio itself is produced off-platform)
     cues = re.findall(r"%%AUD (\S+)%%", whole)
-    badf = [c for c in cues if not re.match(r"^W\d-\d\d-\d\d$", c)]
+    badf = [c for c in cues if not re.match(r"^[A-Z]{1,3}\d-\d\d-\d\d$", c)]
     dup = sorted({c for c in cues if cues.count(c) > 1})
     add("C", "Audio cue ids", "PASS" if not (badf or dup) else "FAIL",
         "%d cues, all well-formed and unique" % len(cues) if not (badf or dup)
