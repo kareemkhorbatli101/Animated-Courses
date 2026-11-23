@@ -14,11 +14,15 @@ caller should build, paginate, rebuild and paginate again until nothing moves.
 import os, re, sys, subprocess
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-WF   = os.path.dirname(HERE)
+WF   = os.path.dirname(os.path.dirname(HERE))
 
-BOOKS = [("starter", "Wayfinder-Starter-Book1"), ("level1", "Wayfinder-1-Book2"),
-         ("level2",  "Wayfinder-2-Book3"),       ("level3", "Wayfinder-3-Book4"),
-         ("level4",  "Wayfinder-4-Book5"),       ("level5", "Wayfinder-5-Book6")]
+BOOKS = [("wayfinder/starter", "Wayfinder-Starter-Book1"),
+         ("wayfinder/level1",  "Wayfinder-1-Book2"),
+         ("wayfinder/level2",  "Wayfinder-2-Book3"),
+         ("wayfinder/level3",  "Wayfinder-3-Book4"),
+         ("wayfinder/level4",  "Wayfinder-4-Book5"),
+         ("wayfinder/level5",  "Wayfinder-5-Book6"),
+         ("business/level1",   "Clearline-Foundation-Book1")]
 
 HEAD = re.compile(r'^(UNIT \d+|Starting Point|Grammar reference|Audio index.*|'
                   r'Word list|Academic word list|Sources|Closing)$')

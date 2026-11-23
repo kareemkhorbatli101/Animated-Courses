@@ -56,20 +56,28 @@ OPEN = [r"\bwhat do you think\b", r"\bwould you\b", r"\bdo you agree\b", r"\bwhy
 # Organization names, quoted as published. Exempt from gate 14; a citation that
 # renames its source is a worse error than a British spelling.
 PROPER_NOUNS = ["UN Environment Programme", "World Food Programme",
-                "United Nations Environment Programme", "Labour Force Survey"]
+                "United Nations Environment Programme", "Labour Force Survey",
+                "International Labour Organization", "International Labour Office",
+                "Labour Organization"]
 
 SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "level1":  ["spec_v1", "spec_v2", "spec_v3"],
                 "level2":  ["spec_w1", "spec_w2", "spec_w3"],
                 "level4":  ["spec_y1", "spec_y2", "spec_y3", "spec_y4"],
                 "level3":  ["spec_x1", "spec_x2", "spec_x3", "spec_x4"],
-                "level5":  ["spec_z1", "spec_z2", "spec_z3", "spec_z4"]}
+                "level5":  ["spec_z1", "spec_z2", "spec_z3", "spec_z4"],
+                # Clearline (business series) — its specs live in business/_build.
+                # Both series number their directories level1..level6, so the key
+                # carries the series when it is not Wayfinder.
+                "business/level1": ["spec_o1", "spec_o2", "spec_o3", "spec_o4"]}
 
 def load_specs(book):
     """The realia text of every figure, as raw HTML, keyed by figure id."""
     mods = SPEC_MODULES.get(book)
     if not mods: return {}
     sys.path.insert(0, os.path.join(HERE, "..", "_build"))
+    if book.startswith("business/"):
+        sys.path.insert(0, os.path.join(HERE, "..", "..", "business", "_build"))
     out = {}
     try:
         for mn in mods:
@@ -121,7 +129,11 @@ def fk(text):
     return 0.39*(len(words)/len(sents)) + 11.8*(sum(syll(w) for w in words)/len(words)) - 15.59
 
 READ_TARGET = {"starter": (0.0,3.5), "level1": (2.5,4.5), "level2": (3.0,5.0),
-               "level3": (4.5,7.5), "level4": (6.5,9.5), "level5": (8.5,11.5)}
+               "level3": (4.5,7.5), "level4": (6.5,9.5), "level5": (8.5,11.5),
+               # Clearline: adult business readers, A2 to C1
+               "business/level1": (3.5,6.5), "business/level2": (4.5,7.5),
+               "business/level3": (5.5,8.5), "business/level4": (6.5,9.5),
+               "business/level5": (7.5,10.5), "business/level6": (8.5,11.5)}
 
 def strip_markup(s):
     s = re.sub(r"%%FIG[^%]*%%", " ", s)
@@ -131,7 +143,13 @@ def strip_markup(s):
     return s
 
 def check(book):
-    name = os.path.basename(book.rstrip("/"))
+    full = os.path.abspath(book.rstrip("/"))
+    name = os.path.basename(full)
+    series = os.path.basename(os.path.dirname(full))
+    # Two series share the directory names level1..level6, so anything that is
+    # not Wayfinder is keyed by series/level.
+    if series != "wayfinder":
+        name = "%s/%s" % (series, name)
     tdir = os.path.join(book, "text")
     fdir = os.path.join(book, "figures")
     units = sorted(glob.glob(os.path.join(tdir, "u*.md")))

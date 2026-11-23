@@ -195,8 +195,30 @@ CAST = {
  "adeel":  dict(skin="b", hair="3", style="crop", cloth="sky"),
  "oksana": dict(skin="a", hair="4", style="long", cloth="wine",  skirt=True),
  "samira": dict(skin="c", hair="3", style="wrap", cloth="sky",   skirt=True),
+# ---- Clearline (business series) cast: its own twelve, visually distinct ----
+"yara":    dict(skin="c", hair="1", style="bun",  cloth="teal",  skirt=False),
+"anders":  dict(skin="a", hair="5", style="crop", cloth="hivis"),
+"chiamaka":dict(skin="c", hair="3", style="wrap", cloth="wine",  skirt=True),
+"ravi":    dict(skin="b", hair="3", style="crop", cloth="white"),
+"sofia":   dict(skin="b", hair="2", style="long", cloth="navy",  skirt=False),
+"marek":   dict(skin="a", hair="4", style="crop", cloth="slate"),
+"nour":    dict(skin="d", hair="1", style="bob",  cloth="plum",  skirt=True),
+"junseo":  dict(skin="d", hair="3", style="crop", cloth="sky"),
+"paula":   dict(skin="e", hair="2", style="bob",  cloth="rust",  skirt=True),
+"okonjo":  dict(skin="c", hair="5", style="bald", cloth="charcoal"),
+"hanna":   dict(skin="a", hair="4", style="long", cloth="sand",  skirt=True),
+"wei":     dict(skin="d", hair="3", style="bob",  cloth="olive", skirt=False),
+"lars":    dict(skin="a", hair="5", style="crop", cloth="grey"),
+"ines":    dict(skin="b", hair="1", style="bun",  cloth="green", skirt=True),
+"omar":    dict(skin="c", hair="3", style="crop", cloth="amberish"),
+"ida":     dict(skin="a", hair="2", style="bob",  cloth="hivis", skirt=False),
+"karin":   dict(skin="a", hair="1", style="long", cloth="charcoal", skirt=True),
 }
 CLOTH["amberish"]="#b5802f"
+CLOTH["hivis"]="#d8c93a"      # high-visibility vest, Clearline warehouse
+CLOTH["white"]="#eef0f0"      # lab coat
+CLOTH["slate"]="#4a5a6a"
+CLOTH["charcoal"]="#3b3f44"
 
 def cast(name, x, floor, h=170, **kw):
     p=dict(CAST[name]); p.update(kw); return person(x, floor, h, **p)

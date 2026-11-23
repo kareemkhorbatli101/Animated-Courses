@@ -67,7 +67,7 @@ say it.
 | **7 · Right Now** | Status words | Present continuous | *-ing* endings | A status board | A status update |
 | **8 · Last Week** | Past time words | Past simple | *-ed* endings | A shift report | What happened |
 | **9 · Getting There** | Travel; booking | *be going to* | Dates aloud | An itinerary | A travel note |
-| **10 · Can You …?** | Requests; favours | *can / could* | The polite rise | A request form | A short request |
+| **10 · Can You …?** | Requests; favors | *can / could* | The polite rise | A request form | A short request |
 | **11 · Something's Wrong** | Problems; delays | Past simple + *because* | Sorry, said three ways | A delay notice | An apology |
 | **12 · Next Steps** | Plans; deadlines | *will* / *going to* | Email read aloud | An action list | A first email |
 
