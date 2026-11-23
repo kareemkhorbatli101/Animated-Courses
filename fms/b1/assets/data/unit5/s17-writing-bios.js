@@ -105,7 +105,94 @@ FMS.page('u5-s17', {
           + 'venture zone. If you have any questions after reviewing it, please do not '
           + '____________________ to contact me directly. I look forward to arranging '
           + 'your meeting with the Investment Promotion Agency at a time that is '
-          + 'convenient for you. Best regards, Dawit Bekele']
+          + 'convenient for you. Best regards, Dawit Bekele'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Conditionals and the language of commitment',
+        task: 'Using the given information, write the following three items in formal '
+        + 'English. Follow the structure and tone of the models in exercise 6A. '
+        + 'Writing Task 1 — Formal Letter of Invitation: • From: Selamawit Tesfaye, '
+        + 'Investment Facilitation Officer, Ministry of Foreign Affairs • To: Ms. '
+        + 'Elena Popescu, Cultural Affairs Director, Romanian Embassy • Purpose: '
+        + 'Invite her delegation to a bilateral cultural and investment coordination '
+        + 'meeting, 22 November 2025 • Key message: The country\'s cultural heritage '
+        + 'creates unique soft-power opportunities for investment promotion; joint '
+        + 'programming is possible • Closing: Express confidence that if the meeting '
+        + 'goes well, it will open the door to deeper cooperation Writing Task 2 — '
+        + 'Follow-Up Email Summary: • From: Dawit Bekele • To: Klaus Richter • '
+        + 'Context: Summary of the meeting on 14 October; three agreed next steps (1. '
+        + 'Ministry sends legal framework document; 2. Klaus presents to board by '
+        + 'Friday; 3. IPA meeting to be arranged for following week if board '
+        + 'approves) • Tone: Professional, collegial; has worked together before '
+        + 'Writing Task 3 — Briefing Note Paragraph (3–4 sentences): • Sector: '
+        + 'Telecommunications and digital infrastructure • Key facts: The country has '
+        + '22 million potential mobile subscribers; 4G coverage is currently at 60% '
+        + 'of populated areas; a South Korean consortium has signed a letter of '
+        + 'intent; if a full investment agreement is reached, 4G coverage will reach '
+        + '90% within three years • Audience: Senior ministry official who will brief '
+        + 'the foreign minister',
+        parts: ['Using the given information, write the following three items in formal '
+          + 'English. Follow the structure and tone of the models in exercise 6A. '
+          + 'Writing Task 1 — Formal Letter of Invitation: • From: Selamawit Tesfaye, '
+          + 'Investment Facilitation Officer, Ministry of Foreign Affairs • To: Ms. '
+          + 'Elena Popescu, Cultural Affairs Director, Romanian Embassy • Purpose: '
+          + 'Invite her delegation to a bilateral cultural and investment coordination '
+          + 'meeting, 22 November 2025 • Key message: The country\'s cultural heritage '
+          + 'creates unique soft-power opportunities for investment promotion; joint '
+          + 'programming is possible • Closing: Express confidence that if the meeting '
+          + 'goes well, it will open the door to deeper cooperation Writing Task 2 — '
+          + 'Follow-Up Email Summary: • From: Dawit Bekele • To: Klaus Richter • '
+          + 'Context: Summary of the meeting on 14 October; three agreed next steps (1. '
+          + 'Ministry sends legal framework document; 2. Klaus presents to board by '
+          + 'Friday; 3. IPA meeting to be arranged for following week if board '
+          + 'approves) • Tone: Professional, collegial; has worked together before '
+          + 'Writing Task 3 — Briefing Note Paragraph (3–4 sentences): • Sector: '
+          + 'Telecommunications and digital infrastructure • Key facts: The country has '
+          + '22 million potential mobile subscribers; 4G coverage is currently at 60% '
+          + 'of populated areas; a South Korean consortium has signed a letter of '
+          + 'intent; if a full investment agreement is reached, 4G coverage will reach '
+          + '90% within three years • Audience: Senior ministry official who will brief '
+          + 'the foreign minister'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Conditionals and the language of commitment.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Using the given information, write the following three items in formal '
+        + 'English. Follow the structure and tone of the models in exercise 6A. '
+        + 'Writing Task 1 — Formal Letter of Invitation: • From: Selamawit Tesfaye, '
+        + 'Investment Facilitation Officer, Ministry of Foreign Affairs • To: Ms. '
+        + 'Elena Popescu, Cultural Affairs Director, Romanian Embassy • Purpose: '
+        + 'Invite her delegation to a bilateral cultural and investment coordination '
+        + 'meeting, 22 November 2025 • Key message: The country\'s cultural heritage '
+        + 'creates unique soft-power opportunities for investment promotion; joint '
+        + 'programming is possible • Closing: Express confidence that if the meeting '
+        + 'goes well, it will open the door to deeper cooperation Writing Task 2 — '
+        + 'Follow-Up Email Summary: • From: Dawit Bekele • To: Klaus Richter • '
+        + 'Context: Summary of the meeting on 14 October; three agreed next steps (1. '
+        + 'Ministry sends legal framework document; 2. Klaus presents to board by '
+        + 'Friday; 3. IPA meeting to be arranged for following week if board '
+        + 'approves) • Tone: Professional, collegial; has worked together before '
+        + 'Writing Task 3 — Briefing Note Paragraph (3–4 sentences): • Sector: '
+        + 'Telecommunications and digital infrastructure • Key facts: The country has '
+        + '22 million potential mobile subscribers; 4G coverage is currently at 60% '
+        + 'of populated areas; a South Korean consortium has signed a letter of '
+        + 'intent; if a full investment agreement is reached, 4G coverage will reach '
+        + '90% within three years • Audience: Senior ministry official who will brief '
+        + 'the foreign minister',
+        grammar: 'Conditionals and the language of commitment',
+        vocab: ['Free zone',
+          'Tax incentive',
+          'Feasibility study',
+          'Letter of intent',
+          'Investment climate',
+          'Due diligence',
+          'Joint venture',
+          'Subject Line',
+          'Formal Salutation',
+          'Purpose Statement (Paragraph 1)']
+      }
     }
   ]
 });

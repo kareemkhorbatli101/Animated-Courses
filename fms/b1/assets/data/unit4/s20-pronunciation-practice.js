@@ -79,7 +79,38 @@ FMS.page('u4-s20', {
           'Stress: AS are WE, LOOK FOR-ward, PRO-grams, SHAPE. Brief, warm, '
             + 'reciprocal — the guest\'s job here is to match the host\'s register '
             + 'without extending the exchange. Falling intonation, one breath, then stop. '
-            + 'A long reply at this point would be a small breach of form.']
+            + 'A long reply at this point would be a small breach of form.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Formal written structures and conditionals.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Partner activity: Read the formal welcome exchange below with correct '
+        + 'intonation. Then repeat using your own name, a real or fictional '
+        + 'cooperation event, and a country of your choice. Host: Your Excellency, on '
+        + 'behalf of the Kazakh Ministry of Foreign Affairs, it is my privilege to '
+        + 'welcome you to this ceremony. Guest: Thank you. It is a great pleasure to '
+        + 'be here. This is a significant moment for both our countries. Host: '
+        + 'Indeed. The agreement we sign today will define our cooperation for the '
+        + 'years ahead. Kazakhstan is committed to this partnership and to the '
+        + 'friendship between our peoples. Guest: As are we. We look forward to '
+        + 'seeing the programs take shape. Focus on: • Pause and warmth on "Your '
+        + 'Excellency" — never rush this address • Falling intonation on declarations '
+        + '("will define," "are committed") • A steady, confident pace — never faster '
+        + 'than the moment requires',
+        grammar: 'Formal written structures and conditionals',
+        mode: 'spoken',
+        vocab: ['Note Verbale',
+          'Communiqué',
+          'Aide-Mémoire',
+          'Protocol of Cooperation',
+          'Joint Statement',
+          'Letters of Credence',
+          'Memorandum of Understanding',
+          'Opening Compliments Formula',
+          'Substantive Paragraph',
+          'Supporting Details']
       }
     },
     {
@@ -142,7 +173,36 @@ FMS.page('u4-s20', {
             + 'seconds you are rushing, however clear the words are. Record again with a '
             + 'deliberate pause after the address and between the acknowledgment and the '
             + 'forward-looking sentence. A formal statement delivered quickly reads as '
-            + 'nervous, whatever it says.']
+            + 'nervous, whatever it says.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Formal written structures and conditionals.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Record a 30-second formal welcome statement for a fictional bilateral '
+        + 'cooperation event. Include: • A formal address to the guest of honor '
+        + '("Your Excellency" or "Distinguished guests") • A statement of what the '
+        + 'event represents using a future form • A forward-looking closing sentence '
+        + 'Listen back and check: • Was your intonation warm on the address and '
+        + 'falling on the declarations? • Did you stress the key words: the partner '
+        + 'country\'s name, the cooperation area, the future verb? • Was your pace '
+        + 'steady and dignified — unhurried? • Did you sound both sincere and '
+        + 'authoritative? Record a second version if needed. A formal diplomat who '
+        + 'sounds rushed loses the room. A diplomat who sounds settled and warm '
+        + 'commands it.',
+        grammar: 'Formal written structures and conditionals',
+        mode: 'spoken',
+        vocab: ['Note Verbale',
+          'Communiqué',
+          'Aide-Mémoire',
+          'Protocol of Cooperation',
+          'Joint Statement',
+          'Letters of Credence',
+          'Memorandum of Understanding',
+          'Opening Compliments Formula',
+          'Substantive Paragraph',
+          'Supporting Details']
       }
     }
   ]

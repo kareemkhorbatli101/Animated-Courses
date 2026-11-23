@@ -1385,3 +1385,59 @@ table.tbl.grammar td:first-child { font-weight:700; color:var(--accent); white-s
 .q-fb { font:600 12.5px/1.5 var(--ui); margin:4px 0 0; min-height:0; }
 .q-fb.is-ok { color:var(--ok); }
 .q-fb.is-no { color:var(--no); }
+
+/* ============================================================
+   TAKE A PART and PRESENT IT  (2026-11-23)
+
+   Every colour here is an existing token, redefined for the dark theme at
+   the top of this file. An undefined custom property in a fill renders
+   BLACK and no structural check can see it — this course has shipped that
+   defect once already with --text-1.
+   ============================================================ */
+.tp-chooser p { margin:0 0 10px; }
+.tp-people { display:flex; flex-wrap:wrap; gap:10px; margin:12px 0; }
+.tp-person {
+  display:flex; flex-direction:column; align-items:center; gap:2px;
+  padding:10px 14px; min-width:116px; cursor:pointer;
+  background:var(--surface); color:var(--text);
+  border:2px solid var(--border); border-radius:var(--r-3);
+  font:inherit;
+}
+.tp-person:hover { border-color:var(--primary); }
+.tp-person[aria-pressed="true"] {
+  border-color:var(--accent); background:var(--surface-2);
+}
+.tp-name { font-weight:700; font-size:14px; }
+.tp-mic { display:flex; align-items:center; gap:8px; margin:10px 0; }
+
+.tp-turn {
+  margin:10px 0 0; padding:12px;
+  background:var(--surface-2); border:1px solid var(--border);
+  border-radius:var(--r-3);
+}
+.tp-head { font-weight:700; margin-bottom:8px; }
+.tp-heard { margin-top:8px; font-style:italic; }
+.tp-readout {
+  margin-top:10px; padding:10px;
+  background:var(--surface); border:1px solid var(--border);
+  border-radius:var(--r-3);
+}
+.tp-readout .tp-h { font-weight:700; margin-bottom:4px; }
+.tp-readout .tp-said { font-style:italic; margin-bottom:6px; }
+.tp-note { margin-top:8px; }
+
+/* a blank stands for one word and is as wide as that word, so the shape of
+   the sentence is a clue and its length is honest */
+.sub-en .tp-blank {
+  letter-spacing:1px; opacity:.75; font-family:var(--mono, monospace);
+}
+.tp-count { opacity:.7; font-size:12.5px; margin-left:6px; }
+
+.pi-sent { margin:6px 0; }
+.pi-sent.is-hidden { opacity:.75; letter-spacing:1px; }
+.pi-sent.is-done { color:var(--ok); }
+.pi-wrap {
+  margin:10px 0 0; padding:12px;
+  background:var(--surface-2); border:1px solid var(--border);
+  border-radius:var(--r-3);
+}

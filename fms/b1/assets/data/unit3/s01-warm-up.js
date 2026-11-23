@@ -30,14 +30,14 @@ FMS.page('u3-s01', {
         { q: 'Complete this sentence with your partner: "My country\'s most important '
           + 'message to the world right now is that ___." Then give ONE specific '
           + 'example in 1–2 sentences that supports your sentence.' }],
-      ideas: ['A foreign journalist asks you: "What is the single most important change '
-          + 'in your country since 2024?" How would you answer professionally, '
-          + 'honestly, and concisely?',
-        'How do you stay honest about your country\'s challenges while still '
-          + 'presenting a forward-looking, constructive message?',
-        'Complete this sentence with your partner: "My country\'s most important '
-          + 'message to the world right now is that ___." Then give ONE specific '
-          + 'example in 1–2 sentences that supports your sentence.'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Explaining and describing: the '
+          + 'passive and reporting verbs.',
+        'Words from this unit you can use: Territorial Development, Development '
+          + 'Fund, Bilateral Agreement, Regional Integration, Humanitarian Access, '
+          + 'Trade Preference Scheme.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

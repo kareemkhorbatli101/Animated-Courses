@@ -88,7 +88,40 @@ FMS.page('u5-s08', {
             + 'I am also going to stop estimating processing times. If I do not know the '
             + 'current figure I will say so and send it the same day — because an '
             + 'investor who discovers that one of my numbers was approximate will '
-            + 'discount all of them.']
+            + 'discount all of them.'],
+        criteria: [{ t: 'What will happen if your country successfully completes its first major '
+            + 'infrastructure joint venture with a European company?' },
+          { t: 'If you could change one thing about your country\'s current investment '
+            + 'process, what would it be and why?' },
+          { t: 'What would happen if more Gulf sovereign funds committed to agricultural '
+            + 'projects in your country?' },
+          { t: 'What will you personally do differently in investor meetings after '
+            + 'studying this unit?' }]
+      },
+      aiCheck: {
+        task: 'In pairs, ask and answer these questions using full sentences. Use the '
+        + 'First Conditional for real possibilities and the Second Conditional for '
+        + 'hypothetical ideas. (Aim for 1–2 sentences per answer.)',
+        grammar: 'Conditionals and the language of commitment',
+        mode: 'spoken',
+        vocab: ['Free zone',
+          'Tax incentive',
+          'Feasibility study',
+          'Letter of intent',
+          'Investment climate',
+          'Due diligence',
+          'Joint venture',
+          'Subject Line',
+          'Formal Salutation',
+          'Purpose Statement (Paragraph 1)'],
+        must: ['What will happen if your country successfully completes its first major '
+            + 'infrastructure joint venture with a European company?',
+          'If you could change one thing about your country\'s current investment '
+            + 'process, what would it be and why?',
+          'What would happen if more Gulf sovereign funds committed to agricultural '
+            + 'projects in your country?',
+          'What will you personally do differently in investor meetings after '
+            + 'studying this unit?']
       }
     }
   ]

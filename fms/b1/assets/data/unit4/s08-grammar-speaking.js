@@ -87,7 +87,35 @@ FMS.page('u4-s08', {
             + 'will grow once the first infrastructure projects are visibly operational '
             + 'rather than merely announced. The distinction matters in a briefing — '
             + 'because a senior official hearing will assumes you are forecasting and '
-            + 'hearing are meeting assumes it is fixed.']
+            + 'hearing are meeting assumes it is fixed.'],
+        criteria: [{ t: 'Describe your country\'s diplomatic priorities for the next two years '
+            + 'using will and going to.' },
+          { t: 'Describe a three-point partnership plan for a specific country, using a '
+            + 'mix of all four future forms.' },
+          { t: 'Use present continuous for two confirmed future arrangements and will for '
+            + 'two predictions about your country\'s diplomatic future.' }]
+      },
+      aiCheck: {
+        task: 'In pairs, use the correct future forms to complete these ministry speaking '
+        + 'tasks. (Aim for 3–4 sentences per answer.)',
+        grammar: 'Formal written structures and conditionals',
+        mode: 'spoken',
+        vocab: ['Note Verbale',
+          'Communiqué',
+          'Aide-Mémoire',
+          'Protocol of Cooperation',
+          'Joint Statement',
+          'Letters of Credence',
+          'Memorandum of Understanding',
+          'Opening Compliments Formula',
+          'Substantive Paragraph',
+          'Supporting Details'],
+        must: ['Describe your country\'s diplomatic priorities for the next two years '
+            + 'using will and going to.',
+          'Describe a three-point partnership plan for a specific country, using a '
+            + 'mix of all four future forms.',
+          'Use present continuous for two confirmed future arrangements and will for '
+            + 'two predictions about your country\'s diplomatic future.']
       }
     }
   ]

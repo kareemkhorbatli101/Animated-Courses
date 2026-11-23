@@ -40,15 +40,13 @@ FMS.page('u2-s09', {
           + 'officer informs the ministry that one participant\'s clearance was not '
           + 'processed in time. The meeting is tomorrow morning. What are the '
           + 'officer\'s options?' }],
-      ideas: ['Scenario 1: A scheduling conflict — the foreign delegation\'s flight has '
-          + 'been delayed by two hours. The meeting was scheduled for 10 a.m. What does '
-          + 'the liaison officer need to do, and what language will they use?',
-        'Scenario 2: A room change — the booked conference room has a technical '
-          + 'failure. The IT team cannot fix it before the meeting. The only available '
-          + 'room is smaller. What must the liaison officer communicate, and how?',
-        'Scenario 3: A translation request — the delegation lead calls to say that '
-          + 'two additional participants speaking only German will join unexpectedly. '
-          + 'What should the officer arrange, and what can they promise?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Modal verbs for requests and '
+          + 'arrangements.',
+        'Words from this unit you can use: Agenda, Communiqué, Memorandum of '
+          + 'Understanding, Working Group, Protocol Brief, Aide-Mémoire.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       visual: { spot: 'predict-coordination', wide: true,
           caption: 'The four are numbered to match the questions below.' },

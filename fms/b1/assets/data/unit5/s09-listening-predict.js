@@ -38,16 +38,13 @@ FMS.page('u5-s09', {
         { q: 'At a signing ceremony for a letter of intent with a European company, the '
           + 'Minister and the investor\'s CEO are giving a joint press statement. What '
           + 'kind of language do you expect? What tone?' }],
-      ideas: ['Klaus Richter\'s delegation has just arrived at the Ministry. Dawit is '
-          + 'welcoming them in the conference room. What will Dawit say in his opening? '
-          + 'What will Klaus\'s first question be?',
-        'At an investor Q&A session, an investor named Nadia asks Meron, a ministry '
-          + 'officer: "What guarantees can you offer that our investment will be '
-          + 'protected if the political situation changes?" How should Meron respond '
-          + 'using conditional language?',
-        'Dawit calls Klaus on the phone to discuss the due diligence timeline. '
-          + 'Klaus says his board needs the legal framework summary in writing before '
-          + 'they will approve the next step. What does Dawit say?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Conditionals and the language of '
+          + 'commitment.',
+        'Words from this unit you can use: Free zone, Tax incentive, Feasibility '
+          + 'study, Letter of intent, Investment climate, Due diligence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       visual: { spot: 'predict-investment', wide: true,
           caption: 'The four are numbered to match the questions below.' },

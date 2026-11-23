@@ -59,7 +59,22 @@ FMS.page('u5-s14', {
       answers: [0],
       whyTitle: 'What you have just marked',
       after: 'Read the lines you underlined together: they are the facts the questions '
-        + 'on the next screen ask about.'
+        + 'on the next screen ask about.',
+      summary: ['The National Development and Investment Forum is an annual event organised '
+          + 'by the Ministry of Foreign Affairs with the Investment Promotion Agency '
+          + 'and the Ministry of Finance.',
+        'The 2025 Forum was held in Addis Ababa over two days and drew delegations '
+          + 'from 24 countries and 87 companies and financial institutions.',
+        'Five priority sectors were on the table: infrastructure and '
+          + 'transportation, energy, agriculture and food security, housing and urban '
+          + 'development, and telecommunications.',
+        'Three letters of intent were signed - a road feasibility study in the '
+          + 'eastern corridor, an agricultural joint venture in the Awash Valley, and a '
+          + 'digital infrastructure framework.',
+        'The programme also included a panel on investment law reform, bilateral '
+          + 'meetings, and a cultural evening hosted by the Protocol Department.',
+        'The 2026 Forum will expand to three days and will add a site visit '
+          + 'programme to priority development zones.']
     }
   ]
 });

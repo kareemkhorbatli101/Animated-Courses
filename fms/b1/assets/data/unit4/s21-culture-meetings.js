@@ -42,13 +42,13 @@ FMS.page('u4-s21', {
         { q: 'A Japanese delegation member receives a gift from the host at the end of '
           + 'the dinner. He does not open it at the table. Why, and what should the '
           + 'host know about this?' }],
-      ideas: ['Who sits where? How do you arrange the seating to respect seniority across '
-          + 'three different hierarchical cultures simultaneously?',
-        'How do you manage the toasts in a way that does not offend the Gulf Arab '
-          + 'delegation who do not drink alcohol?',
-        'A Japanese delegation member receives a gift from the host at the end of '
-          + 'the dinner. He does not open it at the table. Why, and what should the '
-          + 'host know about this?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Formal written structures and '
+          + 'conditionals.',
+        'Words from this unit you can use: Note Verbale, Communiqué, Aide-Mémoire, '
+          + 'Protocol of Cooperation, Joint Statement, Letters of Credence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

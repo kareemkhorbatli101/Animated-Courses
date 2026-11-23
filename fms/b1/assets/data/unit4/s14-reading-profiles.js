@@ -64,7 +64,21 @@ FMS.page('u4-s14', {
       answers: [0],
       whyTitle: 'What you have just marked',
       after: 'Read the lines you underlined together: they are the facts the questions '
-        + 'on the next screen ask about.'
+        + 'on the next screen ask about.',
+      summary: ['The Kazakhstan-France Bilateral Cooperation Framework was signed in Astana '
+          + 'in June 2025 by both foreign ministers.',
+        'It covers three areas: cultural and heritage exchange, academic and '
+          + 'scientific partnership, and infrastructure and digital development.',
+        'A Joint Cultural Commission will meet annually, and Kazakh heritage '
+          + 'exhibitions are going to be hosted in Paris, Lyon and Marseille over three '
+          + 'years.',
+        'Fifty Kazakh students a year will study in France, ten French specialists '
+          + 'will do research in Kazakhstan, and a joint renewable energy program is '
+          + 'going to be launched in September 2025.',
+        'A joint working group is going to develop a digital connectivity roadmap '
+          + 'by December 2025, with French support for e-government.',
+        'An annual bilateral committee of six members from each side shall oversee '
+          + 'the Framework, which runs five years with a review at three.']
     }
   ]
 });

@@ -31,15 +31,13 @@ FMS.page('u5-s01', {
         { q: 'Complete with your partner: "My country has the potential to attract '
           + 'significant investment in ___, ___, and ___ because ___." Then share your '
           + 'reasoning with the class.' }],
-      ideas: ['What do you already know about your country\'s main economic sectors that '
-          + 'might attract foreign investment? Name at least three and briefly explain '
-          + 'one.',
-        'What do you think is the biggest challenge for a foreign investor '
-          + 'considering your country right now? What can the Ministry of Foreign '
-          + 'Affairs do to address it?',
-        'Complete with your partner: "My country has the potential to attract '
-          + 'significant investment in ___, ___, and ___ because ___." Then share your '
-          + 'reasoning with the class.'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Conditionals and the language of '
+          + 'commitment.',
+        'Words from this unit you can use: Free zone, Tax incentive, Feasibility '
+          + 'study, Letter of intent, Investment climate, Due diligence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

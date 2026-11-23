@@ -77,7 +77,33 @@ FMS.page('u2-s20', {
             + 'falling endings — not from volume. Check three things in the recording: '
             + 'did you rush the meeting title, did any sentence end with a rise, and did '
             + 'you pause before inviting the delegation to begin? Warmth and authority '
-            + 'are not in tension; both come from control.']
+            + 'are not in tension; both come from control.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Modal verbs for requests and arrangements.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Record a 30-second formal meeting opening statement. Include: • A formal '
+        + 'welcome to the visiting delegation • Your name and role • A brief '
+        + 'statement of the meeting\'s purpose • An invitation to begin Listen back '
+        + 'and check: • Was your intonation falling at the end of declarative '
+        + 'statements? • Did you stress key content words: names, dates, the meeting '
+        + 'title? • Was your pace steady and calm — not rushed? • Did you sound both '
+        + 'authoritative and welcoming? Record a second version if needed and '
+        + 'compare.',
+        grammar: 'Modal verbs for requests and arrangements',
+        mode: 'spoken',
+        vocab: ['Agenda',
+          'Communiqué',
+          'Memorandum of Understanding',
+          'Working Group',
+          'Protocol Brief',
+          'Aide-Mémoire',
+          'Delegation Lead',
+          'Header / Meeting Details',
+          'Participant List',
+          'Numbered Agenda Items with Timing']
       }
     }
   ]

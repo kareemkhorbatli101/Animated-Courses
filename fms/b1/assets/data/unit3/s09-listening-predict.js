@@ -36,14 +36,14 @@ FMS.page('u3-s09', {
         { q: 'Speaker 4: Community leader representing citizens living abroad — speaking '
           + 'at a returning-citizens briefing. How is this different from the other '
           + 'speakers in register and vocabulary?' }],
-      ideas: ['Speaker 1: Ministry of Foreign Affairs spokesperson — delivering a press '
-          + 'statement about the signing of an MoU with Germany. What tone do you '
-          + 'expect? Where will passive voice be used?',
-        'Speaker 2: UN Resident Coordinator — briefing journalists about the status '
-          + 'of joint development programs. What perspective will they bring? Will they '
-          + 'use active or passive voice more often?',
-        'Speaker 3: German Ambassador — opening remarks at a bilateral meeting. '
-          + 'What tone and level of formality do you expect?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Explaining and describing: the '
+          + 'passive and reporting verbs.',
+        'Words from this unit you can use: Territorial Development, Development '
+          + 'Fund, Bilateral Agreement, Regional Integration, Humanitarian Access, '
+          + 'Trade Preference Scheme.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       visual: { spot: 'predict-speakers', wide: true,
           caption: 'The four are numbered to match the questions below.' },

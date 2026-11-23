@@ -84,7 +84,64 @@ FMS.page('u2-s17', {
           + '____________________. At the conclusion of the session, both delegation '
           + 'leads signed an aide-mémoire establishing the joint technical monitoring '
           + 'committee. Both sides ____________________ to hold a second working group '
-          + 'session within three months.']
+          + 'session within three months.'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Modal verbs for requests and arrangements',
+        task: 'Using the information below, write a formal two-hour meeting agenda for '
+        + 'the Morocco–France Cultural Cooperation Working Group. Given information: '
+        + '• Date: Wednesday, 22 April 2025, 10:00 a.m.–12:00 p.m. • Venue: '
+        + 'Conference Room A, Ministry of Foreign Affairs, Rabat • Host participants: '
+        + 'Youssef El Amrani (delegation lead), Nadia Tazi, two cultural affairs '
+        + 'officers • French participants: Ms. Claire Dupont (delegation lead, French '
+        + 'Institute Rabat), two cultural cooperation officers • Agenda items: (1) '
+        + 'Review of the Morocco–France Cultural Exchange Protocol signed in 2024, '
+        + '(2) Progress update on the joint cultural heritage exhibition for European '
+        + 'capitals, (3) Proposal for a new annual Morocco–France Film and Literature '
+        + 'Festival, (4) Any other business and next steps • Format: Each item '
+        + 'allocated 25 minutes; 5-minute transition break at 11:00 a.m.',
+        parts: ['Using the information below, write a formal two-hour meeting agenda for '
+          + 'the Morocco–France Cultural Cooperation Working Group. Given information: '
+          + '• Date: Wednesday, 22 April 2025, 10:00 a.m.–12:00 p.m. • Venue: '
+          + 'Conference Room A, Ministry of Foreign Affairs, Rabat • Host participants: '
+          + 'Youssef El Amrani (delegation lead), Nadia Tazi, two cultural affairs '
+          + 'officers • French participants: Ms. Claire Dupont (delegation lead, French '
+          + 'Institute Rabat), two cultural cooperation officers • Agenda items: (1) '
+          + 'Review of the Morocco–France Cultural Exchange Protocol signed in 2024, '
+          + '(2) Progress update on the joint cultural heritage exhibition for European '
+          + 'capitals, (3) Proposal for a new annual Morocco–France Film and Literature '
+          + 'Festival, (4) Any other business and next steps • Format: Each item '
+          + 'allocated 25 minutes; 5-minute transition break at 11:00 a.m.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Modal verbs for requests and arrangements.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Using the information below, write a formal two-hour meeting agenda for '
+        + 'the Morocco–France Cultural Cooperation Working Group. Given information: '
+        + '• Date: Wednesday, 22 April 2025, 10:00 a.m.–12:00 p.m. • Venue: '
+        + 'Conference Room A, Ministry of Foreign Affairs, Rabat • Host participants: '
+        + 'Youssef El Amrani (delegation lead), Nadia Tazi, two cultural affairs '
+        + 'officers • French participants: Ms. Claire Dupont (delegation lead, French '
+        + 'Institute Rabat), two cultural cooperation officers • Agenda items: (1) '
+        + 'Review of the Morocco–France Cultural Exchange Protocol signed in 2024, '
+        + '(2) Progress update on the joint cultural heritage exhibition for European '
+        + 'capitals, (3) Proposal for a new annual Morocco–France Film and Literature '
+        + 'Festival, (4) Any other business and next steps • Format: Each item '
+        + 'allocated 25 minutes; 5-minute transition break at 11:00 a.m.',
+        grammar: 'Modal verbs for requests and arrangements',
+        vocab: ['Agenda',
+          'Communiqué',
+          'Memorandum of Understanding',
+          'Working Group',
+          'Protocol Brief',
+          'Aide-Mémoire',
+          'Delegation Lead',
+          'Header / Meeting Details',
+          'Participant List',
+          'Numbered Agenda Items with Timing']
+      }
     }
   ]
 });

@@ -85,6 +85,65 @@ FMS.page('u4-s13', {
         label: 'Watch a worked role play',
         note: 'This is the book\'s own version, not the only one. Try yours first — the '
         + 'pop-up opens after your attempt.'
+      },
+      coach: {
+        title: 'Compare with the book',
+        target: 'Formal written structures and conditionals',
+        task: 'Work in groups of four. Student A is Daniyar Suleimenov, Economic Affairs '
+        + 'Specialist. Students B, C, and D are a French trade delegation. Daniyar '
+        + 'presents the Kazakhstan–France Digital Infrastructure Cooperation '
+        + 'framework and handles three follow-up questions. (Aim for 3–4 sentences '
+        + 'per speaking turn.) French delegation role cards: Student B: Ask about the '
+        + 'timeline for the first operational digital projects. Student C: Ask about '
+        + 'the technical requirements for French companies wishing to participate in '
+        + 'the program. Student D: Ask what Kazakhstan expects from France in return '
+        + '— what does Kazakhstan bring to the partnership? Guidance: Daniyar uses a '
+        + 'mix of future forms — will for predictions and announcements, going to for '
+        + 'existing plans, Present Continuous for confirmed arrangements, shall for '
+        + 'formal institutional commitments.',
+        parts: ['Work in groups of four. Student A is Daniyar Suleimenov, Economic Affairs '
+          + 'Specialist. Students B, C, and D are a French trade delegation. Daniyar '
+          + 'presents the Kazakhstan–France Digital Infrastructure Cooperation '
+          + 'framework and handles three follow-up questions. (Aim for 3–4 sentences '
+          + 'per speaking turn.) French delegation role cards: Student B: Ask about the '
+          + 'timeline for the first operational digital projects. Student C: Ask about '
+          + 'the technical requirements for French companies wishing to participate in '
+          + 'the program. Student D: Ask what Kazakhstan expects from France in return '
+          + '— what does Kazakhstan bring to the partnership? Guidance: Daniyar uses a '
+          + 'mix of future forms — will for predictions and announcements, going to for '
+          + 'existing plans, Present Continuous for confirmed arrangements, shall for '
+          + 'formal institutional commitments.'],
+        example: ['Model Dialogue Daniyar Suleimenov: Thank you. The Kazakhstan–France '
+            + 'Digital Infrastructure Cooperation framework covers three strands: the '
+            + 'connectivity roadmap, e-government platform development, and a joint '
+            + 'technical working group. The working group is going to develop the roadmap '
+            + 'by December 2025 — that deadline is in the Framework — not an aspiration. '
+            + 'French technical expertise will support our e-government platform work, '
+            + 'and the annual bilateral committee shall oversee implementation and report '
+            + 'to both ministries. Student B: What is the timeline for the first '
+            + 'operational digital projects? Daniyar Suleimenov: The roadmap is delivered '
+            + 'in December, and the first two projects are going to begin in the '
+            + 'following quarter — the e-government identity layer and the rural '
+            + 'connectivity pilot. I would rather give you those two than a longer list — '
+            + 'because those are the ones with budget attached. The rest will follow the '
+            + 'roadmap\'s own sequencing. Student C: What technical requirements apply to '
+            + 'French companies wishing to participate? Daniyar Suleimenov: Participation '
+            + 'runs through the investment framework, which sets procurement standards '
+            + 'and a dispute resolution mechanism. Companies shall register with the '
+            + 'investment facilitation unit — which is the single point of contact. I '
+            + 'would encourage your legal advisers to read the framework directly rather '
+            + 'than rely on my summary of it. Student D: And what does Kazakhstan bring '
+            + 'to this partnership in return? Daniyar Suleimenov: Scale, position, and a '
+            + 'working e-government base. We have an existing digital identity system '
+            + 'with national coverage, which is a test environment France does not have. '
+            + 'We are a land bridge between China and Europe — which makes connectivity '
+            + 'infrastructure here strategically useful to French partners. And we bring '
+            + 'political continuity on this file, which is going to matter over a '
+            + 'five-year framework.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Formal written structures and conditionals.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
       }
     },
     {
@@ -109,13 +168,13 @@ FMS.page('u4-s13', {
           + 'how does it create both challenge and opportunity?' },
         { q: 'What is one concrete commitment you are going to make to improving your '
           + 'English for this work? Use future forms in your answer.' }],
-      ideas: ['Rank these five qualities of an effective bridge-builder from most to '
-          + 'least important for diplomatic work. Explain your top choice in 2–3 '
-          + 'sentences.',
-        'What is your country\'s unique diplomatic position in the mid-2020s, and '
-          + 'how does it create both challenge and opportunity?',
-        'What is one concrete commitment you are going to make to improving your '
-          + 'English for this work? Use future forms in your answer.'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Formal written structures and '
+          + 'conditionals.',
+        'Words from this unit you can use: Note Verbale, Communiqué, Aide-Mémoire, '
+          + 'Protocol of Cooperation, Joint Statement, Letters of Credence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

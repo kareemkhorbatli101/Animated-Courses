@@ -34,7 +34,63 @@ FMS.page('u3-s13', {
         + 'factual, and forward-looking.',
       minWords: 40,
       placeholder: 'I would like to say that…',
-      stems: ['I would like to say that…']
+      stems: ['I would like to say that…'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Explaining and describing: the passive and reporting verbs',
+        task: 'Work in groups of four. Student A is Andrés Gaviria, Economic Affairs '
+        + 'Specialist. Students B, C, and D are members of a Korean trade delegation. '
+        + 'Andrés presents the national infrastructure investment framework, then '
+        + 'handles three follow-up questions. Korean delegation role cards: Student '
+        + 'B: Ask about the timeline for the first viable investment opportunities. '
+        + 'Student C: Ask about legal protections for foreign investors — '
+        + 'specifically what happens if there is a dispute. Student D: Ask about the '
+        + 'sectors with the fastest return on investment from the ministry\'s '
+        + 'perspective. Guidance: Andrés uses passive voice throughout where '
+        + 'appropriate ("frameworks have been established," "protections are '
+        + 'guaranteed by") and remains concise, factual, and forward-looking.',
+        parts: ['Work in groups of four. Student A is Andrés Gaviria, Economic Affairs '
+          + 'Specialist. Students B, C, and D are members of a Korean trade delegation. '
+          + 'Andrés presents the national infrastructure investment framework, then '
+          + 'handles three follow-up questions. Korean delegation role cards: Student '
+          + 'B: Ask about the timeline for the first viable investment opportunities. '
+          + 'Student C: Ask about legal protections for foreign investors — '
+          + 'specifically what happens if there is a dispute. Student D: Ask about the '
+          + 'sectors with the fastest return on investment from the ministry\'s '
+          + 'perspective. Guidance: Andrés uses passive voice throughout where '
+          + 'appropriate ("frameworks have been established," "protections are '
+          + 'guaranteed by") and remains concise, factual, and forward-looking.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Explaining and describing: the passive and '
+            + 'reporting verbs.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Work in groups of four. Student A is Andrés Gaviria, Economic Affairs '
+        + 'Specialist. Students B, C, and D are members of a Korean trade delegation. '
+        + 'Andrés presents the national infrastructure investment framework, then '
+        + 'handles three follow-up questions. Korean delegation role cards: Student '
+        + 'B: Ask about the timeline for the first viable investment opportunities. '
+        + 'Student C: Ask about legal protections for foreign investors — '
+        + 'specifically what happens if there is a dispute. Student D: Ask about the '
+        + 'sectors with the fastest return on investment from the ministry\'s '
+        + 'perspective. Guidance: Andrés uses passive voice throughout where '
+        + 'appropriate ("frameworks have been established," "protections are '
+        + 'guaranteed by") and remains concise, factual, and forward-looking.',
+        grammar: 'Explaining and describing: the passive and reporting verbs',
+        mode: 'spoken',
+        vocab: ['Territorial Development',
+          'Development Fund',
+          'Bilateral Agreement',
+          'Regional Integration',
+          'Humanitarian Access',
+          'Trade Preference Scheme',
+          'Civil Society',
+          'Dateline and Source',
+          'Opening Announcement',
+          'Context and Significance']
+      }
     },
     {
       id: 'c2',
@@ -52,12 +108,14 @@ FMS.page('u3-s13', {
           + 'while staying forward-looking? Practice three with your partner.' },
         { q: 'When is it professionally correct to say "I don\'t have that information" '
           + 'rather than attempt an answer?' }],
-      ideas: ['What is the difference between "diplomatic language" and "dishonest '
-          + 'language"? Can you give an example of each from your role-plays?',
-        'What phrases from this unit would you use to acknowledge a real difficulty '
-          + 'while staying forward-looking? Practice three with your partner.',
-        'When is it professionally correct to say "I don\'t have that information" '
-          + 'rather than attempt an answer?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Explaining and describing: the '
+          + 'passive and reporting verbs.',
+        'Words from this unit you can use: Territorial Development, Development '
+          + 'Fund, Bilateral Agreement, Regional Integration, Humanitarian Access, '
+          + 'Trade Preference Scheme.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

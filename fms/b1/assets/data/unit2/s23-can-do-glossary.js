@@ -32,14 +32,13 @@ FMS.page('u2-s23', {
         { q: 'What is your country\'s unique position as a host of diplomatic meetings, '
           + 'given that it sits culturally between the Arab world, Africa, and Europe '
           + 'and engages all three simultaneously?' }],
-      ideas: ['How can you adapt your facilitation style to different cultural '
-          + 'expectations without feeling like you are performing or being inauthentic?',
-        'What phrase could you use in a meeting to professionally and gently '
-          + 'address a cultural misunderstanding — for example, if a Scandinavian '
-          + 'colleague unintentionally interrupts a Gulf Arab delegation lead?',
-        'What is your country\'s unique position as a host of diplomatic meetings, '
-          + 'given that it sits culturally between the Arab world, Africa, and Europe '
-          + 'and engages all three simultaneously?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Modal verbs for requests and '
+          + 'arrangements.',
+        'Words from this unit you can use: Agenda, Communiqué, Memorandum of '
+          + 'Understanding, Working Group, Protocol Brief, Aide-Mémoire.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

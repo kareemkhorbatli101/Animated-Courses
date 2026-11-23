@@ -36,14 +36,14 @@ FMS.page('u1-s09', {
         { q: 'Ms. Elena Popescu — Correspondent, Romanian Public Television. What does '
           + 'she need? What kind of language do you expect from a journalist at a first '
           + 'official contact?' }],
-      ideas: ['Ms. Laura Fischer — Economic Adviser, German Embassy Hanoi. Which '
-          + 'department is she visiting? What kind of English do you expect her to use '
-          + '— formal or conversational?',
-        'Mr. Omar Diallo — Field Coordinator, UNICEF Viet Nam. What does he need '
-          + 'from the ministry? How formal will his language likely be?',
-        'Mr. Somsak Chaiyaporn — Thai businessman, visiting the ministry for the '
-          + 'first time. What is his likely purpose? What difficulties might he face '
-          + 'without an appointment?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Present simple and present '
+          + 'continuous.',
+        'Words from this unit you can use: Consular Section, Protocol Department, '
+          + 'Political Affairs Directorate, Press and Information Office, Legal '
+          + 'Directorate, Cultural Relations Division.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       visual: { spot: 'predict-visitors', wide: true,
           caption: 'The four are numbered to match the questions below.' },

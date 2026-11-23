@@ -70,7 +70,22 @@ FMS.page('u1-s14', {
       answers: [0],
       whyTitle: 'What you have just marked',
       after: 'Read the lines you underlined together: they are the facts the questions '
-        + 'on the next screen ask about.'
+        + 'on the next screen ask about.',
+      summary: ['The ministry\'s protocol, consular, press and economic work is carried by '
+          + 'four officers.',
+        'Mai is a Protocol Officer: she manages arrivals and ceremonies, and she is '
+          + 'preparing a three-day visit by the UN Special Rapporteur.',
+        'Duc is a Consular Affairs Officer: he processes diplomatic visas and '
+          + 'travel documents, and he is updating the procedures to reduce waiting '
+          + 'times.',
+        'Ha is a Press Attache: she handles media accreditation and press '
+          + 'statements, and she is preparing the media programme for a regional '
+          + 'investment conference.',
+        'Huy is an Economic Affairs Specialist: he prepares briefings on trade and '
+          + 'investment, and he is coordinating the country\'s part in a regional '
+          + 'investment forum.',
+        'Each of them has work they do every week and a task they are working on '
+          + 'now.']
     }
   ]
 });

@@ -102,7 +102,91 @@ FMS.page('u1-s17', {
           + 'participation in the upcoming regional investment forum and look forward '
           + 'to discussing our bilateral economic cooperation framework with your team. '
           + 'I would welcome the opportunity to ____________________ a preliminary '
-          + 'meeting at your earliest convenience. Kind regards, Le Quang Huy']
+          + 'meeting at your earliest convenience. Kind regards, Le Quang Huy'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Present simple and present continuous',
+        task: 'Using the given information, draft a professional bio (4–5 sentences) in '
+        + 'the same format and tone as the model emails in exercise 6A. Bio 1: • '
+        + 'Name: Vu Thi Lan • Job Title: Visa and Consular Officer • Workplace: '
+        + 'Ministry of Foreign Affairs • Responsibilities: Processing visa '
+        + 'applications, assisting foreign nationals, coordinating with embassies on '
+        + 'document verification • Current project: Streamlining the diplomatic visa '
+        + 'process for investment forum participants • Collaboration: Works daily '
+        + 'with foreign embassies in Hanoi Bio 2: • Name: Dang Minh Tuan • Job Title: '
+        + 'Cultural Affairs Coordinator • Workplace: Cultural Relations Division, '
+        + 'Ministry of Foreign Affairs • Responsibilities: Organizing cultural '
+        + 'exchange programs, promoting national cultural heritage internationally, '
+        + 'coordinating with foreign cultural institutes • Current project: Preparing '
+        + 'a cultural heritage exhibition for three European partner capitals • '
+        + 'Collaboration: Works with artists, historians, and foreign cultural '
+        + 'institutes Bio 3: • Name: Dr. Hoang Kim Ngan • Job Title: Political '
+        + 'Affairs Analyst • Workplace: Political Affairs Directorate, Ministry of '
+        + 'Foreign Affairs • Responsibilities: Analyzing international political '
+        + 'developments, preparing briefing papers for senior officials, monitoring '
+        + 'bilateral relations • Current project: Preparing a comprehensive briefing '
+        + 'on Viet Nam–EU relations for the foreign minister • Collaboration: Works '
+        + 'with regional embassies and international think tanks',
+        parts: ['Using the given information, draft a professional bio (4–5 sentences) in '
+          + 'the same format and tone as the model emails in exercise 6A. Bio 1: • '
+          + 'Name: Vu Thi Lan • Job Title: Visa and Consular Officer • Workplace: '
+          + 'Ministry of Foreign Affairs • Responsibilities: Processing visa '
+          + 'applications, assisting foreign nationals, coordinating with embassies on '
+          + 'document verification • Current project: Streamlining the diplomatic visa '
+          + 'process for investment forum participants • Collaboration: Works daily '
+          + 'with foreign embassies in Hanoi Bio 2: • Name: Dang Minh Tuan • Job Title: '
+          + 'Cultural Affairs Coordinator • Workplace: Cultural Relations Division, '
+          + 'Ministry of Foreign Affairs • Responsibilities: Organizing cultural '
+          + 'exchange programs, promoting national cultural heritage internationally, '
+          + 'coordinating with foreign cultural institutes • Current project: Preparing '
+          + 'a cultural heritage exhibition for three European partner capitals • '
+          + 'Collaboration: Works with artists, historians, and foreign cultural '
+          + 'institutes Bio 3: • Name: Dr. Hoang Kim Ngan • Job Title: Political '
+          + 'Affairs Analyst • Workplace: Political Affairs Directorate, Ministry of '
+          + 'Foreign Affairs • Responsibilities: Analyzing international political '
+          + 'developments, preparing briefing papers for senior officials, monitoring '
+          + 'bilateral relations • Current project: Preparing a comprehensive briefing '
+          + 'on Viet Nam–EU relations for the foreign minister • Collaboration: Works '
+          + 'with regional embassies and international think tanks'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Present simple and present continuous.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Using the given information, draft a professional bio (4–5 sentences) in '
+        + 'the same format and tone as the model emails in exercise 6A. Bio 1: • '
+        + 'Name: Vu Thi Lan • Job Title: Visa and Consular Officer • Workplace: '
+        + 'Ministry of Foreign Affairs • Responsibilities: Processing visa '
+        + 'applications, assisting foreign nationals, coordinating with embassies on '
+        + 'document verification • Current project: Streamlining the diplomatic visa '
+        + 'process for investment forum participants • Collaboration: Works daily '
+        + 'with foreign embassies in Hanoi Bio 2: • Name: Dang Minh Tuan • Job Title: '
+        + 'Cultural Affairs Coordinator • Workplace: Cultural Relations Division, '
+        + 'Ministry of Foreign Affairs • Responsibilities: Organizing cultural '
+        + 'exchange programs, promoting national cultural heritage internationally, '
+        + 'coordinating with foreign cultural institutes • Current project: Preparing '
+        + 'a cultural heritage exhibition for three European partner capitals • '
+        + 'Collaboration: Works with artists, historians, and foreign cultural '
+        + 'institutes Bio 3: • Name: Dr. Hoang Kim Ngan • Job Title: Political '
+        + 'Affairs Analyst • Workplace: Political Affairs Directorate, Ministry of '
+        + 'Foreign Affairs • Responsibilities: Analyzing international political '
+        + 'developments, preparing briefing papers for senior officials, monitoring '
+        + 'bilateral relations • Current project: Preparing a comprehensive briefing '
+        + 'on Viet Nam–EU relations for the foreign minister • Collaboration: Works '
+        + 'with regional embassies and international think tanks',
+        grammar: 'Present simple and present continuous',
+        vocab: ['Consular Section',
+          'Protocol Department',
+          'Political Affairs Directorate',
+          'Press and Information Office',
+          'Legal Directorate',
+          'Cultural Relations Division',
+          'Economic Affairs Office',
+          'Subject Line',
+          'Formal Greeting',
+          'Opening Self-Introduction']
+      }
     }
   ]
 });

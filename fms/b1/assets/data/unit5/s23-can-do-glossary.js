@@ -30,12 +30,13 @@ FMS.page('u5-s23', {
           + 'relationship-building to specific investment discussion in a Gulf meeting?' },
         { q: 'Write down two or three phrases from this unit that you will use in your '
           + 'next investor meeting. Share them with the class.' }],
-      ideas: ['What is the most important adaptation you need to make when hosting a '
-          + 'German investor compared to a Gulf investor?',
-        'How can a ministry officer know when it is the right moment to move from '
-          + 'relationship-building to specific investment discussion in a Gulf meeting?',
-        'Write down two or three phrases from this unit that you will use in your '
-          + 'next investor meeting. Share them with the class.'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Conditionals and the language of '
+          + 'commitment.',
+        'Words from this unit you can use: Free zone, Tax incentive, Feasibility '
+          + 'study, Letter of intent, Investment climate, Due diligence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

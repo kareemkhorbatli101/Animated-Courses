@@ -31,12 +31,13 @@ FMS.page('u4-s05', {
           + 'should never appear in a coordination email?' },
         { q: 'What mistakes should never be made in a note verbale, and what do they '
           + 'signal if they occur?' }],
-      ideas: ['What distinguishes formal diplomatic correspondence from semi-formal '
-          + 'correspondence? Can you give an example of each?',
-        'What phrases are used only in very formal diplomatic correspondence and '
-          + 'should never appear in a coordination email?',
-        'What mistakes should never be made in a note verbale, and what do they '
-          + 'signal if they occur?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Formal written structures and '
+          + 'conditionals.',
+        'Words from this unit you can use: Note Verbale, Communiqué, Aide-Mémoire, '
+          + 'Protocol of Cooperation, Joint Statement, Letters of Credence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

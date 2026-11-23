@@ -32,11 +32,13 @@ FMS.page('u5-s05', {
           + 'to bring?' },
         { q: 'How is Mr. Chen\'s visit different from the commercial investors\' visits, '
           + 'and what does it require from the Ministry?' }],
-      ideas: ['Which office handles Klaus Richter and what does he specifically need?',
-        'What does Ms. Al-Sayed specifically need and what concerns is she likely '
-          + 'to bring?',
-        'How is Mr. Chen\'s visit different from the commercial investors\' visits, '
-          + 'and what does it require from the Ministry?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Conditionals and the language of '
+          + 'commitment.',
+        'Words from this unit you can use: Free zone, Tax incentive, Feasibility '
+          + 'study, Letter of intent, Investment climate, Due diligence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

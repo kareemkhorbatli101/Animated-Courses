@@ -78,7 +78,39 @@ FMS.page('u3-s20', {
           'Stress: BOTH, SIGNED, FULL-y, BIND-ing. Short sentences, falling '
             + 'intonation on each. This is the moment to be briefest — a long answer '
             + 'about whether something is binding reads as hedging, whatever the words '
-            + 'actually say.']
+            + 'actually say.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Explaining and describing: the passive and '
+            + 'reporting verbs.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Partner activity: One student plays the ministry spokesperson; the other '
+        + 'plays a journalist. Read the exchange below with correct intonation, then '
+        + 'repeat with your own questions and answers on a topic of your choice. '
+        + 'Journalist: The ministry announced an MoU with Germany today. What '
+        + 'specifically has been agreed? Spokesperson: A comprehensive infrastructure '
+        + 'framework has been signed. The framework covers road networks, water '
+        + 'systems, and education. A joint technical committee has been established '
+        + 'and will convene within sixty days. Journalist: And is this a binding '
+        + 'agreement? Spokesperson: Both governments have signed. The framework is '
+        + 'fully binding and subject to quarterly implementation reviews. Focus on: • '
+        + 'Falling intonation on all declarative answers • Stress on key policy '
+        + 'words: framework, signed, established, binding • A steady, calm pace — do '
+        + 'not rush to fill silence',
+        grammar: 'Explaining and describing: the passive and reporting verbs',
+        mode: 'spoken',
+        vocab: ['Territorial Development',
+          'Development Fund',
+          'Bilateral Agreement',
+          'Regional Integration',
+          'Humanitarian Access',
+          'Trade Preference Scheme',
+          'Civil Society',
+          'Dateline and Source',
+          'Opening Announcement',
+          'Context and Significance']
       }
     },
     {
@@ -131,7 +163,34 @@ FMS.page('u3-s20', {
             + 'because it turns an announcement into a question and invites doubt that '
             + 'the content does not warrant. Listen to the recording once for content and '
             + 'a second time listening only to the last word of each sentence. If any of '
-            + 'them rise, record again. Volume is not the issue; direction is.']
+            + 'them rise, record again. Volume is not the issue; direction is.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Explaining and describing: the passive and '
+            + 'reporting verbs.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Record a 30-second official press statement about one real or fictional '
+        + 'national program. Include: • An announcement of what has been done '
+        + '(present perfect passive) • A description of what is currently being done '
+        + '(present continuous passive) • A forward-looking sentence about what will '
+        + 'happen next Listen back and check: • Did you stress key policy vocabulary '
+        + 'correctly? • Was your intonation falling on declarative sentences? • Was '
+        + 'your pace steady — authoritative but not rushed? • Did you sound confident '
+        + 'and credible? Record a second version if needed and compare.',
+        grammar: 'Explaining and describing: the passive and reporting verbs',
+        mode: 'spoken',
+        vocab: ['Territorial Development',
+          'Development Fund',
+          'Bilateral Agreement',
+          'Regional Integration',
+          'Humanitarian Access',
+          'Trade Preference Scheme',
+          'Civil Society',
+          'Dateline and Source',
+          'Opening Announcement',
+          'Context and Significance']
       }
     }
   ]

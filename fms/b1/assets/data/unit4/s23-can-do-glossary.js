@@ -31,13 +31,13 @@ FMS.page('u4-s23', {
           + 'course? Use a future form to express your commitment.' },
         { q: 'What message do you want to carry from this course into your professional '
           + 'work as a representative of your country?' }],
-      ideas: ['Kazakhstan sits between Europe, Russia, China, and the Turkic world. What '
-          + 'unique cultural strengths does your country bring to diplomacy that other '
-          + 'countries cannot easily replicate?',
-        'What is one thing you will do differently in your work as a result of this '
-          + 'course? Use a future form to express your commitment.',
-        'What message do you want to carry from this course into your professional '
-          + 'work as a representative of your country?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Formal written structures and '
+          + 'conditionals.',
+        'Words from this unit you can use: Note Verbale, Communiqué, Aide-Mémoire, '
+          + 'Protocol of Cooperation, Joint Statement, Letters of Credence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

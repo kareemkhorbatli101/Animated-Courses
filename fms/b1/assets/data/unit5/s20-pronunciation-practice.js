@@ -82,7 +82,34 @@ FMS.page('u5-s20', {
             + 'listen back. If the taps are evenly spaced, the rhythm is working. If they '
             + 'bunch together in the middle of the conditional and then stop, you are '
             + 'rushing the if-clause to get to the result — which is the most common '
-            + 'fault and the easiest to fix. Slow the if-clause — not the result.']
+            + 'fault and the easiest to fix. Slow the if-clause — not the result.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Conditionals and the language of commitment.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Record your investment briefing opening (30–40 seconds). Include: • '
+        + 'Welcome the investor delegation • Introduce yourself and your role • State '
+        + 'the key investment opportunity in one sentence • Use at least one First '
+        + 'Conditional to offer a clear next step Listen back and check: • Did you '
+        + 'stress key content words clearly — especially in conditional clauses? • '
+        + 'Was your rise-fall rhythm on conditionals natural and confident? • Did you '
+        + 'pause between the if-clause and the result clause? • Did you sound '
+        + 'confident and professional — not rushed or flat? Record a second version '
+        + 'if needed. Compare the two and identify the specific improvement.',
+        grammar: 'Conditionals and the language of commitment',
+        mode: 'spoken',
+        vocab: ['Free zone',
+          'Tax incentive',
+          'Feasibility study',
+          'Letter of intent',
+          'Investment climate',
+          'Due diligence',
+          'Joint venture',
+          'Subject Line',
+          'Formal Salutation',
+          'Purpose Statement (Paragraph 1)']
       }
     }
   ]

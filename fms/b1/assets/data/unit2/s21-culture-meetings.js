@@ -37,14 +37,13 @@ FMS.page('u2-s21', {
         { q: 'What should a liaison officer know about managing a meeting with a '
           + 'first-name-basis Scandinavian team — and how does this differ from '
           + 'managing a formally titled Gulf Arab session?' }],
-      ideas: ['What do you expect about punctuality, speaking order, and note-taking '
-          + 'norms in a meeting with a Scandinavian professional team compared to a '
-          + 'Gulf Arab ministerial delegation?',
-        'How does silence function differently in Scandinavian and Gulf Arab '
-          + 'meeting culture?',
-        'What should a liaison officer know about managing a meeting with a '
-          + 'first-name-basis Scandinavian team — and how does this differ from '
-          + 'managing a formally titled Gulf Arab session?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Modal verbs for requests and '
+          + 'arrangements.',
+        'Words from this unit you can use: Agenda, Communiqué, Memorandum of '
+          + 'Understanding, Working Group, Protocol Brief, Aide-Mémoire.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

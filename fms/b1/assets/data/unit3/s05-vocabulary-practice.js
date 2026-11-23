@@ -31,12 +31,14 @@ FMS.page('u3-s05', {
           + 'authority — without appearing to evade it?' },
         { q: 'What language helps you acknowledge a difficult reality while remaining '
           + 'forward-looking and constructive?' }],
-      ideas: ['What is the difference between "careful" and "evasive" language when '
-          + 'answering difficult questions about your country\'s situation?',
-        'How do you redirect a question that is genuinely outside your area of '
-          + 'authority — without appearing to evade it?',
-        'What language helps you acknowledge a difficult reality while remaining '
-          + 'forward-looking and constructive?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Explaining and describing: the '
+          + 'passive and reporting verbs.',
+        'Words from this unit you can use: Territorial Development, Development '
+          + 'Fund, Bilateral Agreement, Regional Integration, Humanitarian Access, '
+          + 'Trade Preference Scheme.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

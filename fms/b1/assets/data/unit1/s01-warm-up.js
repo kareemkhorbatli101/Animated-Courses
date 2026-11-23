@@ -30,12 +30,14 @@ FMS.page('u1-s01', {
         { q: 'Complete this sentence with your partner: "A ministry feels welcoming '
           + 'without being informal when it has ___, ___, and ___." Then explain ONE of '
           + 'your three choices in 1–2 sentences. Why is it important?' }],
-      ideas: ['What kinds of foreign visitors do you expect to come to the Ministry now '
-          + 'compared to five years ago?',
-        'What first impression should every ministry staff member aim to make?',
-        'Complete this sentence with your partner: "A ministry feels welcoming '
-          + 'without being informal when it has ___, ___, and ___." Then explain ONE of '
-          + 'your three choices in 1–2 sentences. Why is it important?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Present simple and present '
+          + 'continuous.',
+        'Words from this unit you can use: Consular Section, Protocol Department, '
+          + 'Political Affairs Directorate, Press and Information Office, Legal '
+          + 'Directorate, Cultural Relations Division.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

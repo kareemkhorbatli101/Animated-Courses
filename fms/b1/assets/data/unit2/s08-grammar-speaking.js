@@ -78,7 +78,35 @@ FMS.page('u2-s08', {
             + 'additional participant on the visiting side, commit the ministry to a new '
             + 'meeting date, or agree to any change with substantive content — all of '
             + 'those require authorization, and acting alone on them is the fastest way '
-            + 'to lose a delegation lead\'s confidence.']
+            + 'to lose a delegation lead\'s confidence.'],
+        criteria: [{ t: 'Explain three security rules for foreign visitors at the ministry using '
+            + 'must, must not, and may.' },
+          { t: 'Give three pieces of professional advice to a colleague who is '
+            + 'coordinating their first bilateral meeting, using should and need to.' },
+          { t: 'What can and cannot a liaison officer decide alone, without authorization '
+            + 'from a senior official? Use can and cannot.' }]
+      },
+      aiCheck: {
+        task: 'In pairs, use the correct modal verbs to complete these ministry speaking '
+        + 'tasks. (Aim for 3–4 sentences per answer.)',
+        grammar: 'Modal verbs for requests and arrangements',
+        mode: 'spoken',
+        vocab: ['Agenda',
+          'Communiqué',
+          'Memorandum of Understanding',
+          'Working Group',
+          'Protocol Brief',
+          'Aide-Mémoire',
+          'Delegation Lead',
+          'Header / Meeting Details',
+          'Participant List',
+          'Numbered Agenda Items with Timing'],
+        must: ['Explain three security rules for foreign visitors at the ministry using '
+            + 'must, must not, and may.',
+          'Give three pieces of professional advice to a colleague who is '
+            + 'coordinating their first bilateral meeting, using should and need to.',
+          'What can and cannot a liaison officer decide alone, without authorization '
+            + 'from a senior official? Use can and cannot.']
       }
     }
   ]

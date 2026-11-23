@@ -80,7 +80,61 @@ FMS.page('u4-s17', {
           + 'by both Foreign ____________________. A formal reception will '
           + '____________________ at the Ministry following the ceremony. We look '
           + 'forward to your distinguished presence. Yours sincerely, Aigerim Dosanova, '
-          + 'Protocol Department']
+          + 'Protocol Department'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Formal written structures and conditionals',
+        task: 'Write a formal English invitation (80–100 words) from the Kazakh Ministry '
+        + 'of Foreign Affairs to the German Ambassador, inviting him to a Cultural '
+        + 'Heritage Cooperation signing ceremony. Given information: • Host: Kazakh '
+        + 'Ministry of Foreign Affairs • Guest: His Excellency the Ambassador of the '
+        + 'Federal Republic of Germany, Astana • Event: Signing ceremony of the '
+        + 'Kazakhstan–Germany Cultural Heritage Cooperation Protocol • Date: '
+        + 'Wednesday, 25 June 2025 • Time: 11:00 a.m. • Venue: Reception Hall, '
+        + 'Ministry of Foreign Affairs, Astana • Additional: Formal reception to '
+        + 'follow; interpretation available Format: You may write this as a note '
+        + 'verbale (third person) or as a formal letter (first person) — state your '
+        + 'choice at the top.',
+        parts: ['Write a formal English invitation (80–100 words) from the Kazakh Ministry '
+          + 'of Foreign Affairs to the German Ambassador, inviting him to a Cultural '
+          + 'Heritage Cooperation signing ceremony. Given information: • Host: Kazakh '
+          + 'Ministry of Foreign Affairs • Guest: His Excellency the Ambassador of the '
+          + 'Federal Republic of Germany, Astana • Event: Signing ceremony of the '
+          + 'Kazakhstan–Germany Cultural Heritage Cooperation Protocol • Date: '
+          + 'Wednesday, 25 June 2025 • Time: 11:00 a.m. • Venue: Reception Hall, '
+          + 'Ministry of Foreign Affairs, Astana • Additional: Formal reception to '
+          + 'follow; interpretation available Format: You may write this as a note '
+          + 'verbale (third person) or as a formal letter (first person) — state your '
+          + 'choice at the top.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Formal written structures and conditionals.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Write a formal English invitation (80–100 words) from the Kazakh Ministry '
+        + 'of Foreign Affairs to the German Ambassador, inviting him to a Cultural '
+        + 'Heritage Cooperation signing ceremony. Given information: • Host: Kazakh '
+        + 'Ministry of Foreign Affairs • Guest: His Excellency the Ambassador of the '
+        + 'Federal Republic of Germany, Astana • Event: Signing ceremony of the '
+        + 'Kazakhstan–Germany Cultural Heritage Cooperation Protocol • Date: '
+        + 'Wednesday, 25 June 2025 • Time: 11:00 a.m. • Venue: Reception Hall, '
+        + 'Ministry of Foreign Affairs, Astana • Additional: Formal reception to '
+        + 'follow; interpretation available Format: You may write this as a note '
+        + 'verbale (third person) or as a formal letter (first person) — state your '
+        + 'choice at the top.',
+        grammar: 'Formal written structures and conditionals',
+        vocab: ['Note Verbale',
+          'Communiqué',
+          'Aide-Mémoire',
+          'Protocol of Cooperation',
+          'Joint Statement',
+          'Letters of Credence',
+          'Memorandum of Understanding',
+          'Opening Compliments Formula',
+          'Substantive Paragraph',
+          'Supporting Details']
+      }
     }
   ]
 });

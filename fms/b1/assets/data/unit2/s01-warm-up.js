@@ -30,13 +30,13 @@ FMS.page('u2-s01', {
         { q: 'Complete this sentence with your partner: "A visiting delegation feels '
           + 'well-coordinated when they arrive and find ___." Then explain ONE thing on '
           + 'your list in 1–2 sentences. Why does this detail matter?' }],
-      ideas: ['What do you think is the hardest part of coordinating a foreign '
-          + 'delegation\'s visit to the ministry?',
-        'What problems can poor meeting preparation cause for your country\'s '
-          + 'diplomatic relationships?',
-        'Complete this sentence with your partner: "A visiting delegation feels '
-          + 'well-coordinated when they arrive and find ___." Then explain ONE thing on '
-          + 'your list in 1–2 sentences. Why does this detail matter?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Modal verbs for requests and '
+          + 'arrangements.',
+        'Words from this unit you can use: Agenda, Communiqué, Memorandum of '
+          + 'Understanding, Working Group, Protocol Brief, Aide-Mémoire.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

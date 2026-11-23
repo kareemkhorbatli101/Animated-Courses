@@ -46,7 +46,32 @@ FMS.page('u1-s08', {
           'This week, I am preparing the visitor clearance list for the UN delegation '
             + 'that arrives on Thursday.',
           'This month we are expecting a French cultural delegation and a World Bank '
-            + 'technical team.']
+            + 'technical team.'],
+        criteria: [{ t: 'Where do you work?' },
+          { t: 'What do you usually do there?' },
+          { t: 'What are you working on this week?' },
+          { t: 'Which foreign visitors are you expecting this month?' }]
+      },
+      aiCheck: {
+        task: 'In pairs, ask and answer these questions using full sentences. Use Present '
+        + 'Simple for general facts and habits, and Present Continuous for current or '
+        + 'temporary situations. (Aim for 1–2 sentences per answer.)',
+        grammar: 'Present simple and present continuous',
+        mode: 'spoken',
+        vocab: ['Consular Section',
+          'Protocol Department',
+          'Political Affairs Directorate',
+          'Press and Information Office',
+          'Legal Directorate',
+          'Cultural Relations Division',
+          'Economic Affairs Office',
+          'Subject Line',
+          'Formal Greeting',
+          'Opening Self-Introduction'],
+        must: ['Where do you work?',
+          'What do you usually do there?',
+          'What are you working on this week?',
+          'Which foreign visitors are you expecting this month?']
       }
     }
   ]

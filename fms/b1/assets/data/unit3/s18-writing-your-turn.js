@@ -88,7 +88,77 @@ FMS.page('u3-s18', {
           + 'international organizations. Funding ____________________ totaling four '
           + 'billion dollars were made for infrastructure, education, and social '
           + 'programs. A multilateral coordination committee was ____________________ '
-          + 'to oversee the conversion of pledges into implemented projects.']
+          + 'to oversee the conversion of pledges into implemented projects.'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Explaining and describing: the passive and reporting verbs',
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Identify '
+        + 'the key facts — what was completed, by whom, where, and when. Note which '
+        + 'facts will use passive voice. Step 2: Think about the opening. A press '
+        + 'statement opens with the most important fact in one sentence. Draft your '
+        + 'opening sentence now: "The rehabilitation of ___ has been completed by ___ '
+        + 'in ___." Step 3: Plan your closing — what is the forward-looking message? '
+        + 'What happens next? Now write your press statement. Use passive voice at '
+        + 'least three times and maintain a formal, institutional tone throughout. '
+        + 'Event: Your country and Germany have completed a major infrastructure '
+        + 'project — the rehabilitation of the water treatment facility in a northern '
+        + 'city, funded jointly by a leading German development institution and the '
+        + 'national government. The facility now serves 300,000 residents. It was '
+        + 'completed two months ahead of schedule. Your statement must include: • An '
+        + 'opening announcement (what was completed) • Who was involved (using '
+        + 'passive voice: "funded by," "managed by") • The significance and impact '
+        + '(number of people served) • A forward-looking sentence about next steps',
+        parts: ['Before You Write — Plan in three steps before you start: Step 1: Identify '
+          + 'the key facts — what was completed, by whom, where, and when. Note which '
+          + 'facts will use passive voice. Step 2: Think about the opening. A press '
+          + 'statement opens with the most important fact in one sentence. Draft your '
+          + 'opening sentence now: "The rehabilitation of ___ has been completed by ___ '
+          + 'in ___." Step 3: Plan your closing — what is the forward-looking message? '
+          + 'What happens next? Now write your press statement. Use passive voice at '
+          + 'least three times and maintain a formal, institutional tone throughout. '
+          + 'Event: Your country and Germany have completed a major infrastructure '
+          + 'project — the rehabilitation of the water treatment facility in a northern '
+          + 'city, funded jointly by a leading German development institution and the '
+          + 'national government. The facility now serves 300,000 residents. It was '
+          + 'completed two months ahead of schedule. Your statement must include: • An '
+          + 'opening announcement (what was completed) • Who was involved (using '
+          + 'passive voice: "funded by," "managed by") • The significance and impact '
+          + '(number of people served) • A forward-looking sentence about next steps'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Explaining and describing: the passive and '
+            + 'reporting verbs.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Identify '
+        + 'the key facts — what was completed, by whom, where, and when. Note which '
+        + 'facts will use passive voice. Step 2: Think about the opening. A press '
+        + 'statement opens with the most important fact in one sentence. Draft your '
+        + 'opening sentence now: "The rehabilitation of ___ has been completed by ___ '
+        + 'in ___." Step 3: Plan your closing — what is the forward-looking message? '
+        + 'What happens next? Now write your press statement. Use passive voice at '
+        + 'least three times and maintain a formal, institutional tone throughout. '
+        + 'Event: Your country and Germany have completed a major infrastructure '
+        + 'project — the rehabilitation of the water treatment facility in a northern '
+        + 'city, funded jointly by a leading German development institution and the '
+        + 'national government. The facility now serves 300,000 residents. It was '
+        + 'completed two months ahead of schedule. Your statement must include: • An '
+        + 'opening announcement (what was completed) • Who was involved (using '
+        + 'passive voice: "funded by," "managed by") • The significance and impact '
+        + '(number of people served) • A forward-looking sentence about next steps',
+        grammar: 'Explaining and describing: the passive and reporting verbs',
+        vocab: ['Territorial Development',
+          'Development Fund',
+          'Bilateral Agreement',
+          'Regional Integration',
+          'Humanitarian Access',
+          'Trade Preference Scheme',
+          'Civil Society',
+          'Dateline and Source',
+          'Opening Announcement',
+          'Context and Significance']
+      }
     },
     {
       id: 'c2',
@@ -156,7 +226,65 @@ FMS.page('u3-s18', {
           + 'international organizations. Funding ____________________ totaling four '
           + 'billion dollars were made for infrastructure, education, and social '
           + 'programs. A multilateral coordination committee was ____________________ '
-          + 'to oversee the conversion of pledges into implemented projects.']
+          + 'to oversee the conversion of pledges into implemented projects.'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Explaining and describing: the passive and reporting verbs',
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Think '
+        + 'about your reader. This is a social media post for a general international '
+        + 'audience — not a formal press release. Your language should be '
+        + 'institutional but accessible and readable. Step 2: Identify the three '
+        + 'required elements — the announcement, its significance, and one '
+        + 'forward-looking sentence. Draft each in one short sentence. Step 3: Count '
+        + 'your words as you write. The target is 60 words — every word must do a '
+        + 'job. Now write your social media post. The post should announce the '
+        + 'following diplomatic milestone. Milestone: The embassy in Seoul has been '
+        + 'reopened after ten years. The reopening ceremony was attended by both '
+        + 'foreign ministers. Your post should: announce the event, express its '
+        + 'significance, and include one forward-looking sentence.',
+        parts: ['Before You Write — Plan in three steps before you start: Step 1: Think '
+          + 'about your reader. This is a social media post for a general international '
+          + 'audience — not a formal press release. Your language should be '
+          + 'institutional but accessible and readable. Step 2: Identify the three '
+          + 'required elements — the announcement, its significance, and one '
+          + 'forward-looking sentence. Draft each in one short sentence. Step 3: Count '
+          + 'your words as you write. The target is 60 words — every word must do a '
+          + 'job. Now write your social media post. The post should announce the '
+          + 'following diplomatic milestone. Milestone: The embassy in Seoul has been '
+          + 'reopened after ten years. The reopening ceremony was attended by both '
+          + 'foreign ministers. Your post should: announce the event, express its '
+          + 'significance, and include one forward-looking sentence.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Explaining and describing: the passive and '
+            + 'reporting verbs.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Think '
+        + 'about your reader. This is a social media post for a general international '
+        + 'audience — not a formal press release. Your language should be '
+        + 'institutional but accessible and readable. Step 2: Identify the three '
+        + 'required elements — the announcement, its significance, and one '
+        + 'forward-looking sentence. Draft each in one short sentence. Step 3: Count '
+        + 'your words as you write. The target is 60 words — every word must do a '
+        + 'job. Now write your social media post. The post should announce the '
+        + 'following diplomatic milestone. Milestone: The embassy in Seoul has been '
+        + 'reopened after ten years. The reopening ceremony was attended by both '
+        + 'foreign ministers. Your post should: announce the event, express its '
+        + 'significance, and include one forward-looking sentence.',
+        grammar: 'Explaining and describing: the passive and reporting verbs',
+        vocab: ['Territorial Development',
+          'Development Fund',
+          'Bilateral Agreement',
+          'Regional Integration',
+          'Humanitarian Access',
+          'Trade Preference Scheme',
+          'Civil Society',
+          'Dateline and Source',
+          'Opening Announcement',
+          'Context and Significance']
+      }
     }
   ]
 });

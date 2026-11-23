@@ -91,7 +91,76 @@ FMS.page('u4-s18', {
           + 'by both Foreign ____________________. A formal reception will '
           + '____________________ at the Ministry following the ceremony. We look '
           + 'forward to your distinguished presence. Yours sincerely, Aigerim Dosanova, '
-          + 'Protocol Department']
+          + 'Protocol Department'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Formal written structures and conditionals',
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Decide on '
+        + 'your format. Choose note verbale (third person throughout) or formal '
+        + 'letter (first person). Write your choice at the top of your document. Step '
+        + '2: List your key elements — (1) congratulations on the appointment, (2) '
+        + 'one expression of confidence in the Kazakhstan–Japan relationship, (3) one '
+        + 'forward-looking sentence with a future form. Step 3: Check your language '
+        + 'before you write — no contractions (use \'does not\' not \'doesn\'t\'), no '
+        + 'casual phrases, correct title (\'His Excellency\' for a note verbale, '
+        + '\'Your Excellency\' to open a letter). Write a formal congratulatory note '
+        + 'from the Kazakh Foreign Minister to the newly appointed Foreign Minister '
+        + 'of Japan. Your note should: • Use formal diplomatic language (you may '
+        + 'write in the third person as a note verbale, or in the first person as a '
+        + 'formal letter) • Express congratulations on the appointment • Express '
+        + 'confidence in the relationship between Kazakhstan and Japan • Include a '
+        + 'forward-looking sentence using a future form (will / going to / shall) • '
+        + 'Use formal closing language Length: 60–80 words.',
+        parts: ['Before You Write — Plan in three steps before you start: Step 1: Decide on '
+          + 'your format. Choose note verbale (third person throughout) or formal '
+          + 'letter (first person). Write your choice at the top of your document. Step '
+          + '2: List your key elements — (1) congratulations on the appointment, (2) '
+          + 'one expression of confidence in the Kazakhstan–Japan relationship, (3) one '
+          + 'forward-looking sentence with a future form. Step 3: Check your language '
+          + 'before you write — no contractions (use \'does not\' not \'doesn\'t\'), no '
+          + 'casual phrases, correct title (\'His Excellency\' for a note verbale, '
+          + '\'Your Excellency\' to open a letter). Write a formal congratulatory note '
+          + 'from the Kazakh Foreign Minister to the newly appointed Foreign Minister '
+          + 'of Japan. Your note should: • Use formal diplomatic language (you may '
+          + 'write in the third person as a note verbale, or in the first person as a '
+          + 'formal letter) • Express congratulations on the appointment • Express '
+          + 'confidence in the relationship between Kazakhstan and Japan • Include a '
+          + 'forward-looking sentence using a future form (will / going to / shall) • '
+          + 'Use formal closing language Length: 60–80 words.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Formal written structures and conditionals.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Decide on '
+        + 'your format. Choose note verbale (third person throughout) or formal '
+        + 'letter (first person). Write your choice at the top of your document. Step '
+        + '2: List your key elements — (1) congratulations on the appointment, (2) '
+        + 'one expression of confidence in the Kazakhstan–Japan relationship, (3) one '
+        + 'forward-looking sentence with a future form. Step 3: Check your language '
+        + 'before you write — no contractions (use \'does not\' not \'doesn\'t\'), no '
+        + 'casual phrases, correct title (\'His Excellency\' for a note verbale, '
+        + '\'Your Excellency\' to open a letter). Write a formal congratulatory note '
+        + 'from the Kazakh Foreign Minister to the newly appointed Foreign Minister '
+        + 'of Japan. Your note should: • Use formal diplomatic language (you may '
+        + 'write in the third person as a note verbale, or in the first person as a '
+        + 'formal letter) • Express congratulations on the appointment • Express '
+        + 'confidence in the relationship between Kazakhstan and Japan • Include a '
+        + 'forward-looking sentence using a future form (will / going to / shall) • '
+        + 'Use formal closing language Length: 60–80 words.',
+        grammar: 'Formal written structures and conditionals',
+        vocab: ['Note Verbale',
+          'Communiqué',
+          'Aide-Mémoire',
+          'Protocol of Cooperation',
+          'Joint Statement',
+          'Letters of Credence',
+          'Memorandum of Understanding',
+          'Opening Compliments Formula',
+          'Substantive Paragraph',
+          'Supporting Details']
+      }
     },
     {
       id: 'c2',
@@ -178,7 +247,88 @@ FMS.page('u4-s18', {
           + 'by both Foreign ____________________. A formal reception will '
           + '____________________ at the Ministry following the ceremony. We look '
           + 'forward to your distinguished presence. Yours sincerely, Aigerim Dosanova, '
-          + 'Protocol Department']
+          + 'Protocol Department'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Formal written structures and conditionals',
+        task: 'Before You Write — Plan in three steps: Step 1: Choose your cooperation '
+        + 'areas. Pick two or three from: economic, educational, cultural, '
+        + 'environmental, healthcare, or digital. Step 2: Plan your structure: '
+        + 'opening (what was signed and when), middle paragraph (what the framework '
+        + 'covers — one sentence per area), closing (what this means for the people '
+        + 'of both countries). Step 3: Plan your language mix: use passive voice for '
+        + 'formal statements (\'was signed,\' \'has been established,\' \'will be '
+        + 'implemented\'), use future forms for outcomes (\'will benefit,\' \'is '
+        + 'going to develop\'), and use active voice for direct, accessible '
+        + 'statements. Write a 150-word English summary of a fictional '
+        + 'Kazakhstan–Japan Bilateral Cooperation Agreement for publication on the '
+        + 'Ministry of Foreign Affairs official website. The summary should: • '
+        + 'Describe the agreement and its scope (choose your own areas of '
+        + 'cooperation) • Use passive voice for formal institutional statements • Use '
+        + 'future forms to describe planned outcomes • Be written for a general '
+        + 'international audience — not only diplomats • Maintain a formal but '
+        + 'accessible tone • Include a sentence about what the agreement means for '
+        + 'the people of both countries This summary will be read by journalists, '
+        + 'investors, citizens living abroad, and foreign officials — make it clear, '
+        + 'informative, and forward-looking.',
+        parts: ['Before You Write — Plan in three steps: Step 1: Choose your cooperation '
+          + 'areas. Pick two or three from: economic, educational, cultural, '
+          + 'environmental, healthcare, or digital. Step 2: Plan your structure: '
+          + 'opening (what was signed and when), middle paragraph (what the framework '
+          + 'covers — one sentence per area), closing (what this means for the people '
+          + 'of both countries). Step 3: Plan your language mix: use passive voice for '
+          + 'formal statements (\'was signed,\' \'has been established,\' \'will be '
+          + 'implemented\'), use future forms for outcomes (\'will benefit,\' \'is '
+          + 'going to develop\'), and use active voice for direct, accessible '
+          + 'statements. Write a 150-word English summary of a fictional '
+          + 'Kazakhstan–Japan Bilateral Cooperation Agreement for publication on the '
+          + 'Ministry of Foreign Affairs official website. The summary should: • '
+          + 'Describe the agreement and its scope (choose your own areas of '
+          + 'cooperation) • Use passive voice for formal institutional statements • Use '
+          + 'future forms to describe planned outcomes • Be written for a general '
+          + 'international audience — not only diplomats • Maintain a formal but '
+          + 'accessible tone • Include a sentence about what the agreement means for '
+          + 'the people of both countries This summary will be read by journalists, '
+          + 'investors, citizens living abroad, and foreign officials — make it clear, '
+          + 'informative, and forward-looking.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Formal written structures and conditionals.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Before You Write — Plan in three steps: Step 1: Choose your cooperation '
+        + 'areas. Pick two or three from: economic, educational, cultural, '
+        + 'environmental, healthcare, or digital. Step 2: Plan your structure: '
+        + 'opening (what was signed and when), middle paragraph (what the framework '
+        + 'covers — one sentence per area), closing (what this means for the people '
+        + 'of both countries). Step 3: Plan your language mix: use passive voice for '
+        + 'formal statements (\'was signed,\' \'has been established,\' \'will be '
+        + 'implemented\'), use future forms for outcomes (\'will benefit,\' \'is '
+        + 'going to develop\'), and use active voice for direct, accessible '
+        + 'statements. Write a 150-word English summary of a fictional '
+        + 'Kazakhstan–Japan Bilateral Cooperation Agreement for publication on the '
+        + 'Ministry of Foreign Affairs official website. The summary should: • '
+        + 'Describe the agreement and its scope (choose your own areas of '
+        + 'cooperation) • Use passive voice for formal institutional statements • Use '
+        + 'future forms to describe planned outcomes • Be written for a general '
+        + 'international audience — not only diplomats • Maintain a formal but '
+        + 'accessible tone • Include a sentence about what the agreement means for '
+        + 'the people of both countries This summary will be read by journalists, '
+        + 'investors, citizens living abroad, and foreign officials — make it clear, '
+        + 'informative, and forward-looking.',
+        grammar: 'Formal written structures and conditionals',
+        vocab: ['Note Verbale',
+          'Communiqué',
+          'Aide-Mémoire',
+          'Protocol of Cooperation',
+          'Joint Statement',
+          'Letters of Credence',
+          'Memorandum of Understanding',
+          'Opening Compliments Formula',
+          'Substantive Paragraph',
+          'Supporting Details']
+      }
     }
   ]
 });

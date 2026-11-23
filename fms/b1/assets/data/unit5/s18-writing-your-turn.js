@@ -92,7 +92,73 @@ FMS.page('u5-s18', {
           + 'venture zone. If you have any questions after reviewing it, please do not '
           + '____________________ to contact me directly. I look forward to arranging '
           + 'your meeting with the Investment Promotion Agency at a time that is '
-          + 'convenient for you. Best regards, Dawit Bekele']
+          + 'convenient for you. Best regards, Dawit Bekele'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Conditionals and the language of commitment',
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Decide on '
+        + 'your context. Who is the letter from? Who is it to? What event or meeting '
+        + 'are you inviting them to? Step 2: List your key information — the date, '
+        + 'the purpose, the main investment sector you are highlighting, and one '
+        + 'conditional sentence showing what will happen if they attend or respond. '
+        + 'Step 3: Choose your tone — formal and warm. This is an invitation, not a '
+        + 'legal document. The reader should want to come. Your letter must include: '
+        + '• A formal subject line • A formal greeting (use the recipient\'s full '
+        + 'title and name) • A clear purpose statement in the first sentence • At '
+        + 'least one First Conditional sentence offering a clear benefit or next step '
+        + '• A polite closing with your name and position Peer Feedback Activity '
+        + 'Exchange your letter with a partner and use this checklist: • Is the tone '
+        + 'formal and welcoming throughout? • Is at least one First Conditional used '
+        + 'correctly? • Are all required parts present? • Is the language concise — '
+        + 'no unnecessary repetition? • Are there any spelling or punctuation errors?',
+        parts: ['Before You Write — Plan in three steps before you start: Step 1: Decide on '
+          + 'your context. Who is the letter from? Who is it to? What event or meeting '
+          + 'are you inviting them to? Step 2: List your key information — the date, '
+          + 'the purpose, the main investment sector you are highlighting, and one '
+          + 'conditional sentence showing what will happen if they attend or respond. '
+          + 'Step 3: Choose your tone — formal and warm. This is an invitation, not a '
+          + 'legal document. The reader should want to come. Your letter must include: '
+          + '• A formal subject line • A formal greeting (use the recipient\'s full '
+          + 'title and name) • A clear purpose statement in the first sentence • At '
+          + 'least one First Conditional sentence offering a clear benefit or next step '
+          + '• A polite closing with your name and position Peer Feedback Activity '
+          + 'Exchange your letter with a partner and use this checklist: • Is the tone '
+          + 'formal and welcoming throughout? • Is at least one First Conditional used '
+          + 'correctly? • Are all required parts present? • Is the language concise — '
+          + 'no unnecessary repetition? • Are there any spelling or punctuation errors?'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Conditionals and the language of commitment.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Decide on '
+        + 'your context. Who is the letter from? Who is it to? What event or meeting '
+        + 'are you inviting them to? Step 2: List your key information — the date, '
+        + 'the purpose, the main investment sector you are highlighting, and one '
+        + 'conditional sentence showing what will happen if they attend or respond. '
+        + 'Step 3: Choose your tone — formal and warm. This is an invitation, not a '
+        + 'legal document. The reader should want to come. Your letter must include: '
+        + '• A formal subject line • A formal greeting (use the recipient\'s full '
+        + 'title and name) • A clear purpose statement in the first sentence • At '
+        + 'least one First Conditional sentence offering a clear benefit or next step '
+        + '• A polite closing with your name and position Peer Feedback Activity '
+        + 'Exchange your letter with a partner and use this checklist: • Is the tone '
+        + 'formal and welcoming throughout? • Is at least one First Conditional used '
+        + 'correctly? • Are all required parts present? • Is the language concise — '
+        + 'no unnecessary repetition? • Are there any spelling or punctuation errors?',
+        grammar: 'Conditionals and the language of commitment',
+        vocab: ['Free zone',
+          'Tax incentive',
+          'Feasibility study',
+          'Letter of intent',
+          'Investment climate',
+          'Due diligence',
+          'Joint venture',
+          'Subject Line',
+          'Formal Salutation',
+          'Purpose Statement (Paragraph 1)']
+      }
     },
     {
       id: 'c2',
@@ -175,7 +241,76 @@ FMS.page('u5-s18', {
           + 'venture zone. If you have any questions after reviewing it, please do not '
           + '____________________ to contact me directly. I look forward to arranging '
           + 'your meeting with the Investment Promotion Agency at a time that is '
-          + 'convenient for you. Best regards, Dawit Bekele']
+          + 'convenient for you. Best regards, Dawit Bekele'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Conditionals and the language of commitment',
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Choose '
+        + 'your sector (infrastructure, energy, agriculture, housing, or '
+        + 'telecommunications). Decide who will read the note (a senior official '
+        + 'briefing the foreign minister). Step 2: List your key facts — the current '
+        + 'state of the sector, the investment opportunity, any letters of intent or '
+        + 'confirmed interest, and one conditional outlook sentence. Step 3: '
+        + 'Structure your note with: a heading, a one-sentence summary, a paragraph '
+        + 'on the opportunity, and a closing recommendation. Now write your briefing '
+        + 'note (80–100 words). Your note should: • Use a clear heading (e.g., '
+        + '"Briefing Note: Agriculture Sector Investment Opportunities — 2025") • '
+        + 'State the key investment opportunity in plain, precise English • Include '
+        + 'at least one Second Conditional sentence exploring what could happen with '
+        + 'greater investment • End with a short recommendation to the senior '
+        + 'official • Use formal, impersonal language appropriate for an internal '
+        + 'ministry document Example opening: "This note provides a brief overview of '
+        + 'investment developments in the country\'s [sector] sector as of [date]."',
+        parts: ['Before You Write — Plan in three steps before you start: Step 1: Choose '
+          + 'your sector (infrastructure, energy, agriculture, housing, or '
+          + 'telecommunications). Decide who will read the note (a senior official '
+          + 'briefing the foreign minister). Step 2: List your key facts — the current '
+          + 'state of the sector, the investment opportunity, any letters of intent or '
+          + 'confirmed interest, and one conditional outlook sentence. Step 3: '
+          + 'Structure your note with: a heading, a one-sentence summary, a paragraph '
+          + 'on the opportunity, and a closing recommendation. Now write your briefing '
+          + 'note (80–100 words). Your note should: • Use a clear heading (e.g., '
+          + '"Briefing Note: Agriculture Sector Investment Opportunities — 2025") • '
+          + 'State the key investment opportunity in plain, precise English • Include '
+          + 'at least one Second Conditional sentence exploring what could happen with '
+          + 'greater investment • End with a short recommendation to the senior '
+          + 'official • Use formal, impersonal language appropriate for an internal '
+          + 'ministry document Example opening: "This note provides a brief overview of '
+          + 'investment developments in the country\'s [sector] sector as of [date]."'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Conditionals and the language of commitment.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Choose '
+        + 'your sector (infrastructure, energy, agriculture, housing, or '
+        + 'telecommunications). Decide who will read the note (a senior official '
+        + 'briefing the foreign minister). Step 2: List your key facts — the current '
+        + 'state of the sector, the investment opportunity, any letters of intent or '
+        + 'confirmed interest, and one conditional outlook sentence. Step 3: '
+        + 'Structure your note with: a heading, a one-sentence summary, a paragraph '
+        + 'on the opportunity, and a closing recommendation. Now write your briefing '
+        + 'note (80–100 words). Your note should: • Use a clear heading (e.g., '
+        + '"Briefing Note: Agriculture Sector Investment Opportunities — 2025") • '
+        + 'State the key investment opportunity in plain, precise English • Include '
+        + 'at least one Second Conditional sentence exploring what could happen with '
+        + 'greater investment • End with a short recommendation to the senior '
+        + 'official • Use formal, impersonal language appropriate for an internal '
+        + 'ministry document Example opening: "This note provides a brief overview of '
+        + 'investment developments in the country\'s [sector] sector as of [date]."',
+        grammar: 'Conditionals and the language of commitment',
+        vocab: ['Free zone',
+          'Tax incentive',
+          'Feasibility study',
+          'Letter of intent',
+          'Investment climate',
+          'Due diligence',
+          'Joint venture',
+          'Subject Line',
+          'Formal Salutation',
+          'Purpose Statement (Paragraph 1)']
+      }
     }
   ]
 });

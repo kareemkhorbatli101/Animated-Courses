@@ -81,6 +81,75 @@ FMS.page('u2-s13', {
         label: 'Watch a worked role play',
         note: 'This is the book\'s own version, not the only one. Try yours first — the '
         + 'pop-up opens after your attempt.'
+      },
+      coach: {
+        title: 'Compare with the book',
+        target: 'Modal verbs for requests and arrangements',
+        task: 'Practice opening a bilateral meeting formally. Use the three opening '
+        + 'variants below. One student plays the host delegation lead; the other '
+        + 'plays the visiting delegation lead. After each opening, the visiting '
+        + 'delegation lead responds formally. (Each response: 2–3 sentences.) Meeting '
+        + 'Opening Language Bank: • "On behalf of the Ministry of Foreign Affairs, I '
+        + 'welcome ___ to today\'s ___." • "It is my privilege to open today\'s '
+        + 'bilateral session." • "We value deeply our relationship with ___ and look '
+        + 'forward to ___." • "I propose we proceed according to the agreed agenda." '
+        + '• "I suggest we begin with a brief round of introductions." Variant 1 — '
+        + 'Bilateral Working Group (technical, professional): "Ladies and gentlemen, '
+        + 'on behalf of the Moroccan Ministry of Foreign Affairs, I welcome the '
+        + 'German delegation to today\'s Morocco–Germany Infrastructure Cooperation '
+        + 'Working Group. We are pleased to welcome Dr. Braun and her colleagues. I '
+        + 'propose we proceed according to the agreed agenda, beginning with a review '
+        + 'of the joint infrastructure assessment." Variant 2 — High-Level Bilateral '
+        + 'Meeting (formal, senior officials): "Your Excellency, distinguished '
+        + 'colleagues — on behalf of the Kingdom of Morocco, it is my privilege to '
+        + 'open today\'s bilateral session. We value deeply our relationship with '
+        + '[partner country] and look forward to a productive exchange. I propose we '
+        + 'begin." Variant 3 — Working Lunch / Informal Coordination Session: "Thank '
+        + 'you all for joining us today. We have a full agenda but an informal format '
+        + '— this session is an opportunity to speak frankly and move our cooperation '
+        + 'forward. I suggest we begin with a brief round of introductions before we '
+        + 'turn to the agenda items."',
+        parts: ['Practice opening a bilateral meeting formally. Use the three opening '
+          + 'variants below. One student plays the host delegation lead; the other '
+          + 'plays the visiting delegation lead. After each opening, the visiting '
+          + 'delegation lead responds formally. (Each response: 2–3 sentences.) Meeting '
+          + 'Opening Language Bank: • "On behalf of the Ministry of Foreign Affairs, I '
+          + 'welcome ___ to today\'s ___." • "It is my privilege to open today\'s '
+          + 'bilateral session." • "We value deeply our relationship with ___ and look '
+          + 'forward to ___." • "I propose we proceed according to the agreed agenda." '
+          + '• "I suggest we begin with a brief round of introductions." Variant 1 — '
+          + 'Bilateral Working Group (technical, professional): "Ladies and gentlemen, '
+          + 'on behalf of the Moroccan Ministry of Foreign Affairs, I welcome the '
+          + 'German delegation to today\'s Morocco–Germany Infrastructure Cooperation '
+          + 'Working Group. We are pleased to welcome Dr. Braun and her colleagues. I '
+          + 'propose we proceed according to the agreed agenda, beginning with a review '
+          + 'of the joint infrastructure assessment." Variant 2 — High-Level Bilateral '
+          + 'Meeting (formal, senior officials): "Your Excellency, distinguished '
+          + 'colleagues — on behalf of the Kingdom of Morocco, it is my privilege to '
+          + 'open today\'s bilateral session. We value deeply our relationship with '
+          + '[partner country] and look forward to a productive exchange. I propose we '
+          + 'begin." Variant 3 — Working Lunch / Informal Coordination Session: "Thank '
+          + 'you all for joining us today. We have a full agenda but an informal format '
+          + '— this session is an opportunity to speak frankly and move our cooperation '
+          + 'forward. I suggest we begin with a brief round of introductions before we '
+          + 'turn to the agenda items."'],
+        example: ['Model Dialogue Youssef El Amrani: Ladies and gentlemen, on behalf of the '
+            + 'Moroccan Ministry of Foreign Affairs, I welcome the German delegation to '
+            + 'today\'s Infrastructure Cooperation Working Group. Youssef El Amrani: '
+            + 'Shall we begin? Youssef El Amrani: We are pleased to welcome Dr. Braun and '
+            + 'her colleagues to Rabat. We value deeply our partnership with Germany, and '
+            + 'this working group is the practical expression of it. I propose we proceed '
+            + 'according to the agreed agenda, beginning with a review of the joint '
+            + 'infrastructure assessment. I suggest we take the rail network items this '
+            + 'morning and water infrastructure after lunch. Dr. Braun: Thank you, '
+            + 'Director. The German delegation is pleased to be here and grateful for the '
+            + 'ministry\'s careful preparation. We accept the proposed order of business. '
+            + 'On behalf of my team, I would add that we come to this session with a '
+            + 'mandate to agree on the monitoring committee — not only to discuss it.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Modal verbs for requests and arrangements.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
       }
     },
     {
@@ -99,12 +168,13 @@ FMS.page('u2-s13', {
           + 'bilateral meeting?' },
         { q: 'How do you politely and professionally manage a meeting that is running '
           + 'significantly over time?' }],
-      ideas: ['What makes a meeting feel professionally managed from the perspective of a '
-          + 'visiting delegation?',
-        'What are three things a liaison officer must never forget on the day of a '
-          + 'bilateral meeting?',
-        'How do you politely and professionally manage a meeting that is running '
-          + 'significantly over time?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Modal verbs for requests and '
+          + 'arrangements.',
+        'Words from this unit you can use: Agenda, Communiqué, Memorandum of '
+          + 'Understanding, Working Group, Protocol Brief, Aide-Mémoire.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

@@ -80,6 +80,62 @@ FMS.page('u1-s13', {
         label: 'Watch a worked role play',
         note: 'This is the book\'s own version, not the only one. Try yours first — the '
         + 'pop-up opens after your attempt.'
+      },
+      coach: {
+        title: 'Compare with the book',
+        target: 'Present simple and present continuous',
+        task: 'Imagine you are at the opening networking reception of the Viet Nam '
+        + 'Foreign Investment Forum in Hanoi. Ministry officials are mingling with '
+        + 'foreign delegates before the official program begins. Introduce yourself '
+        + 'to two other participants. Use your real position or one of the ministry '
+        + 'staff cards below. Take brief notes on who you meet and what they do. '
+        + '(Each introduction: 3–4 sentences.) Self-Introduction Template: "Good '
+        + 'evening. My name is ___. I am a ___ at the Vietnamese Ministry of Foreign '
+        + 'Affairs. I work in ___. Right now, I am ___. It is a pleasure to meet '
+        + 'you." Card 1: Le Quang Huy — Economic Affairs Specialist, Vietnamese MFA — '
+        + 'currently coordinating the national investment facilitation framework Card '
+        + '2: Pham Thi Mai — Protocol Officer, Vietnamese MFA — organizing the '
+        + 'Forum\'s official events and all delegation schedules Card 3: Tran Thu Ha '
+        + '— Press Attaché, Vietnamese MFA — managing media coverage and '
+        + 'international press access for the Forum Card 4: Nguyen Van Duc — Consular '
+        + 'Affairs Officer, Vietnamese MFA — managing diplomatic visa processing for '
+        + 'all Forum participants',
+        parts: ['Imagine you are at the opening networking reception of the Viet Nam '
+          + 'Foreign Investment Forum in Hanoi. Ministry officials are mingling with '
+          + 'foreign delegates before the official program begins. Introduce yourself '
+          + 'to two other participants. Use your real position or one of the ministry '
+          + 'staff cards below. Take brief notes on who you meet and what they do. '
+          + '(Each introduction: 3–4 sentences.) Self-Introduction Template: "Good '
+          + 'evening. My name is ___. I am a ___ at the Vietnamese Ministry of Foreign '
+          + 'Affairs. I work in ___. Right now, I am ___. It is a pleasure to meet '
+          + 'you." Card 1: Le Quang Huy — Economic Affairs Specialist, Vietnamese MFA — '
+          + 'currently coordinating the national investment facilitation framework Card '
+          + '2: Pham Thi Mai — Protocol Officer, Vietnamese MFA — organizing the '
+          + 'Forum\'s official events and all delegation schedules Card 3: Tran Thu Ha '
+          + '— Press Attaché, Vietnamese MFA — managing media coverage and '
+          + 'international press access for the Forum Card 4: Nguyen Van Duc — Consular '
+          + 'Affairs Officer, Vietnamese MFA — managing diplomatic visa processing for '
+          + 'all Forum participants'],
+        example: ['Model Dialogue Le Quang Huy: Good evening. My name is Le Quang Huy. I am '
+            + 'an Economic Affairs Specialist at the Vietnamese Ministry of Foreign '
+            + 'Affairs. I work in trade diplomacy. Right now, I am coordinating the '
+            + 'national investment facilitation framework. It is a pleasure to meet you. '
+            + 'Pham Thi Mai: Good evening. I am Pham Thi Mai, Protocol Officer at the '
+            + 'Ministry of Foreign Affairs. My role at this Forum is to make sure all '
+            + 'events and schedules run smoothly. Right now, I am helping delegates with '
+            + 'the official programme. It is a pleasure to meet you. Tran Thu Ha: Good '
+            + 'evening. I am Tran Thu Ha, Press Attaché at the Ministry of Foreign '
+            + 'Affairs. I work in media and communications. Right now, I am managing '
+            + 'press operations for the Forum this week. It is a pleasure to meet you. '
+            + 'Nguyen Van Duc: Good evening. I am Nguyen Van Duc from the Consular '
+            + 'Affairs Section of the Ministry of Foreign Affairs. My team processes '
+            + 'diplomatic visas and travel documents. Right now, I am managing '
+            + 'documentation for all Forum participants. I hope your entry to Viet Nam '
+            + 'was smooth.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Present simple and present continuous.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
       }
     },
     {
@@ -99,12 +155,14 @@ FMS.page('u1-s13', {
           + 'or too informal?' },
         { q: 'How does body language — eye contact, posture, and a calm manner — affect '
           + 'the visitor\'s experience even before any words are spoken?' }],
-      ideas: ['Which reception interactions felt most natural and professional? What '
-          + 'specifically made them work?',
-        'What phrases sounded genuinely professional? What made some sound awkward '
-          + 'or too informal?',
-        'How does body language — eye contact, posture, and a calm manner — affect '
-          + 'the visitor\'s experience even before any words are spoken?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Present simple and present '
+          + 'continuous.',
+        'Words from this unit you can use: Consular Section, Protocol Department, '
+          + 'Political Affairs Directorate, Press and Information Office, Legal '
+          + 'Directorate, Cultural Relations Division.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

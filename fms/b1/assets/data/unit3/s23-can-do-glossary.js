@@ -29,12 +29,14 @@ FMS.page('u3-s23', {
           + 'Give a concrete example.' },
         { q: 'Name three phrases that acknowledge difficulty while remaining '
           + 'forward-looking, and explain when you would use each.' }],
-      ideas: ['When is "I don\'t have that information" the most professional response? '
-          + 'When does it become evasion?',
-        'What is the difference between diplomatic language and dishonest language? '
-          + 'Give a concrete example.',
-        'Name three phrases that acknowledge difficulty while remaining '
-          + 'forward-looking, and explain when you would use each.'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Explaining and describing: the '
+          + 'passive and reporting verbs.',
+        'Words from this unit you can use: Territorial Development, Development '
+          + 'Fund, Bilateral Agreement, Regional Integration, Humanitarian Access, '
+          + 'Trade Preference Scheme.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

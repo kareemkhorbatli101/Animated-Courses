@@ -37,7 +37,68 @@ FMS.page('u2-s22', {
         + 'before we proceed."',
       minWords: 40,
       placeholder: 'I would like to say that…',
-      stems: ['I would like to say that…']
+      stems: ['I would like to say that…'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Modal verbs for requests and arrangements',
+        task: 'Work in pairs. Student A plays Youssef El Amrani, host delegation lead. '
+        + 'Student B plays Lars Eriksson, team lead of a Swedish environmental NGO '
+        + 'visiting to discuss the National Coastal Restoration Program. Context: The '
+        + 'meeting starts on time. Lars introduces his team informally: "Please, call '
+        + 'me Lars." The agenda has three items and two hours. The Swedish team uses '
+        + 'first names throughout. Practice: 1. Open the meeting formally, then '
+        + 'accept the informal register gracefully 2. Work through the first agenda '
+        + 'item: reviewing the current Restoration Program scope 3. A moment of '
+        + 'silence after your first proposal — do not rush to fill it; allow Lars to '
+        + 'respond Guidance phrases: • "Thank you, Lars. On behalf of the ministry, '
+        + 'we are very pleased to have you here today." • "I suggest we follow the '
+        + 'agenda we circulated — does that work for your team?" • "I would welcome '
+        + 'your team\'s perspective on this proposal before we proceed."',
+        parts: ['Work in pairs. Student A plays Youssef El Amrani, host delegation lead. '
+          + 'Student B plays Lars Eriksson, team lead of a Swedish environmental NGO '
+          + 'visiting to discuss the National Coastal Restoration Program. Context: The '
+          + 'meeting starts on time. Lars introduces his team informally: "Please, call '
+          + 'me Lars." The agenda has three items and two hours. The Swedish team uses '
+          + 'first names throughout. Practice: 1. Open the meeting formally, then '
+          + 'accept the informal register gracefully 2. Work through the first agenda '
+          + 'item: reviewing the current Restoration Program scope 3. A moment of '
+          + 'silence after your first proposal — do not rush to fill it; allow Lars to '
+          + 'respond Guidance phrases: • "Thank you, Lars. On behalf of the ministry, '
+          + 'we are very pleased to have you here today." • "I suggest we follow the '
+          + 'agenda we circulated — does that work for your team?" • "I would welcome '
+          + 'your team\'s perspective on this proposal before we proceed."'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Modal verbs for requests and arrangements.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Work in pairs. Student A plays Youssef El Amrani, host delegation lead. '
+        + 'Student B plays Lars Eriksson, team lead of a Swedish environmental NGO '
+        + 'visiting to discuss the National Coastal Restoration Program. Context: The '
+        + 'meeting starts on time. Lars introduces his team informally: "Please, call '
+        + 'me Lars." The agenda has three items and two hours. The Swedish team uses '
+        + 'first names throughout. Practice: 1. Open the meeting formally, then '
+        + 'accept the informal register gracefully 2. Work through the first agenda '
+        + 'item: reviewing the current Restoration Program scope 3. A moment of '
+        + 'silence after your first proposal — do not rush to fill it; allow Lars to '
+        + 'respond Guidance phrases: • "Thank you, Lars. On behalf of the ministry, '
+        + 'we are very pleased to have you here today." • "I suggest we follow the '
+        + 'agenda we circulated — does that work for your team?" • "I would welcome '
+        + 'your team\'s perspective on this proposal before we proceed."',
+        grammar: 'Modal verbs for requests and arrangements',
+        mode: 'spoken',
+        vocab: ['Agenda',
+          'Communiqué',
+          'Memorandum of Understanding',
+          'Working Group',
+          'Protocol Brief',
+          'Aide-Mémoire',
+          'Delegation Lead',
+          'Header / Meeting Details',
+          'Participant List',
+          'Numbered Agenda Items with Timing']
+      }
     },
     {
       id: 'c2',
@@ -64,7 +125,74 @@ FMS.page('u2-s22', {
         + 'whenever Your Excellency is ready."',
       minWords: 40,
       placeholder: 'I would like to say that…',
-      stems: ['I would like to say that…']
+      stems: ['I would like to say that…'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Modal verbs for requests and arrangements',
+        task: 'Work in pairs. Student A plays Salma Benali, welcoming the visiting Gulf '
+        + 'Arab delegation to the protocol lounge before the formal session. Student '
+        + 'B plays His Excellency Abdulrahman Al-Mansouri, Deputy Foreign Minister of '
+        + 'a Gulf partner state. Context: The delegation has just arrived. There is a '
+        + 'social welcome in the protocol lounge before the formal session begins. '
+        + 'Arabic coffee and dates have been arranged. His Excellency is accompanied '
+        + 'by two advisers. Practice: 1. Welcome the delegation with full protocol: '
+        + 'title, warmth, appreciation for the visit 2. Offer hospitality without '
+        + 'rushing to business 3. His Excellency begins with social conversation — '
+        + 'respond warmly and follow his lead 4. Only transition to the session when '
+        + 'His Excellency signals he is ready Guidance phrases: • "Your Excellency, '
+        + 'on behalf of the Ministry of Foreign Affairs, we are deeply honored by '
+        + 'your visit to Rabat." • "Please make yourself comfortable. We have '
+        + 'arranged coffee — may I offer you a cup?" • "We look forward to a very '
+        + 'productive session whenever Your Excellency is ready."',
+        parts: ['Work in pairs. Student A plays Salma Benali, welcoming the visiting Gulf '
+          + 'Arab delegation to the protocol lounge before the formal session. Student '
+          + 'B plays His Excellency Abdulrahman Al-Mansouri, Deputy Foreign Minister of '
+          + 'a Gulf partner state. Context: The delegation has just arrived. There is a '
+          + 'social welcome in the protocol lounge before the formal session begins. '
+          + 'Arabic coffee and dates have been arranged. His Excellency is accompanied '
+          + 'by two advisers. Practice: 1. Welcome the delegation with full protocol: '
+          + 'title, warmth, appreciation for the visit 2. Offer hospitality without '
+          + 'rushing to business 3. His Excellency begins with social conversation — '
+          + 'respond warmly and follow his lead 4. Only transition to the session when '
+          + 'His Excellency signals he is ready Guidance phrases: • "Your Excellency, '
+          + 'on behalf of the Ministry of Foreign Affairs, we are deeply honored by '
+          + 'your visit to Rabat." • "Please make yourself comfortable. We have '
+          + 'arranged coffee — may I offer you a cup?" • "We look forward to a very '
+          + 'productive session whenever Your Excellency is ready."'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Modal verbs for requests and arrangements.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Work in pairs. Student A plays Salma Benali, welcoming the visiting Gulf '
+        + 'Arab delegation to the protocol lounge before the formal session. Student '
+        + 'B plays His Excellency Abdulrahman Al-Mansouri, Deputy Foreign Minister of '
+        + 'a Gulf partner state. Context: The delegation has just arrived. There is a '
+        + 'social welcome in the protocol lounge before the formal session begins. '
+        + 'Arabic coffee and dates have been arranged. His Excellency is accompanied '
+        + 'by two advisers. Practice: 1. Welcome the delegation with full protocol: '
+        + 'title, warmth, appreciation for the visit 2. Offer hospitality without '
+        + 'rushing to business 3. His Excellency begins with social conversation — '
+        + 'respond warmly and follow his lead 4. Only transition to the session when '
+        + 'His Excellency signals he is ready Guidance phrases: • "Your Excellency, '
+        + 'on behalf of the Ministry of Foreign Affairs, we are deeply honored by '
+        + 'your visit to Rabat." • "Please make yourself comfortable. We have '
+        + 'arranged coffee — may I offer you a cup?" • "We look forward to a very '
+        + 'productive session whenever Your Excellency is ready."',
+        grammar: 'Modal verbs for requests and arrangements',
+        mode: 'spoken',
+        vocab: ['Agenda',
+          'Communiqué',
+          'Memorandum of Understanding',
+          'Working Group',
+          'Protocol Brief',
+          'Aide-Mémoire',
+          'Delegation Lead',
+          'Header / Meeting Details',
+          'Participant List',
+          'Numbered Agenda Items with Timing']
+      }
     }
   ]
 });

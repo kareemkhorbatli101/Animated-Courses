@@ -73,6 +73,56 @@ FMS.page('u5-s22', {
         label: 'Watch a worked role play',
         note: 'This is the book\'s own version, not the only one. Try yours first — the '
         + 'pop-up opens after your attempt.'
+      },
+      coach: {
+        title: 'Compare with the book',
+        target: 'Conditionals and the language of commitment',
+        task: 'Work in pairs. One student is Dawit Bekele (Economic Affairs Specialist). '
+        + 'The other is Klaus Richter (Managing Director, Richter Infrastructure '
+        + 'GmbH). Klaus is data-driven, direct, and wants specific answers. (Each '
+        + 'turn: 2–3 sentences per speaker.) Context: This is the second meeting. '
+        + 'Klaus has received the legal framework document. He has three direct '
+        + 'questions. Key language tips: Be precise and direct. Answer his questions '
+        + 'with specific conditional language. Offer a clear next step. Do not be '
+        + 'vague. Useful phrases: • "If you submit the application, we will ___." • '
+        + '"The legal framework provides ___ — here is the specific clause." • "If '
+        + 'the board approves on Monday, I will arrange ___ for Tuesday." • "I '
+        + 'understand the concern. Here is exactly what happens if ___." • "We are '
+        + 'ready to move quickly. The next step is ___."',
+        parts: ['Work in pairs. One student is Dawit Bekele (Economic Affairs Specialist). '
+          + 'The other is Klaus Richter (Managing Director, Richter Infrastructure '
+          + 'GmbH). Klaus is data-driven, direct, and wants specific answers. (Each '
+          + 'turn: 2–3 sentences per speaker.) Context: This is the second meeting. '
+          + 'Klaus has received the legal framework document. He has three direct '
+          + 'questions. Key language tips: Be precise and direct. Answer his questions '
+          + 'with specific conditional language. Offer a clear next step. Do not be '
+          + 'vague. Useful phrases: • "If you submit the application, we will ___." • '
+          + '"The legal framework provides ___ — here is the specific clause." • "If '
+          + 'the board approves on Monday, I will arrange ___ for Tuesday." • "I '
+          + 'understand the concern. Here is exactly what happens if ___." • "We are '
+          + 'ready to move quickly. The next step is ___."'],
+        example: ['Model Dialogue Klaus: Thank you for the document. I have three questions '
+            + 'and they are all narrow. First: the thirty-day processing target — is that '
+            + 'statutory or aspirational? Dawit: Aspirational, and I will not pretend '
+            + 'otherwise. The statutory maximum is ninety days; thirty is the Agency\'s '
+            + 'internal target for fast-tracked registered projects, and it has been met '
+            + 'in the two cases we have processed so far. Two cases is not a track '
+            + 'record, and your board should treat it as a target. Klaus: Understood, and '
+            + 'I prefer that answer. Second: the arbitration clause — which rules? Dawit: '
+            + 'ICSID, and the clause is in the investment law rather than in the '
+            + 'individual agreement, which is the point that matters to your legal team. '
+            + 'It applies automatically to a registered joint venture. It is section four '
+            + 'of the document I sent, and the Legal Directorate can confirm the English '
+            + 'text is authoritative. Klaus: Please do. Third: if my board approves on '
+            + 'Monday, what can actually happen that week? Dawit: If you confirm on '
+            + 'Monday, I will arrange the Investment Promotion Agency meeting for Tuesday '
+            + 'or Wednesday — the room and the case officer are provisionally held. You '
+            + 'would leave that meeting with a named officer and a written processing '
+            + 'schedule. That is a commitment I control, so I am comfortable making it.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Conditionals and the language of commitment.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
       }
     },
     {
@@ -140,6 +190,62 @@ FMS.page('u5-s22', {
         label: 'Watch a worked role play',
         note: 'This is the book\'s own version, not the only one. Try yours first — the '
         + 'pop-up opens after your attempt.'
+      },
+      coach: {
+        title: 'Compare with the book',
+        target: 'Conditionals and the language of commitment',
+        task: 'Work in pairs. One student is Dawit Bekele (Economic Affairs Specialist). '
+        + 'The other is Ms. Fatima Al-Sayed (Investment Director, Gulf Development '
+        + 'Fund). Ms. Al-Sayed is on her first visit. She is warm but formal, and she '
+        + 'needs to feel respected and confident before she will move to specific '
+        + 'details. Context: This is the first meeting. The meeting should begin with '
+        + 'warmth and gradually move toward specifics. Key language tips: Begin with '
+        + 'a ceremonial welcome. Do not rush to figures or legal documents '
+        + 'immediately. Build comfort. When she signals readiness to discuss '
+        + 'specifics, use conditional language to give her a clear pathway. '
+        + 'Ceremonial Language Bank: • "It is a great honour to welcome you to the '
+        + 'Ministry." • "We deeply appreciate your visit and your interest in our '
+        + 'country." • "Our country and the Gulf share a long history of '
+        + 'partnership." • "If there is anything we can do to make your visit more '
+        + 'productive, please tell us." • "We believe that if we work together, we '
+        + 'can build something of lasting value."',
+        parts: ['Work in pairs. One student is Dawit Bekele (Economic Affairs Specialist). '
+          + 'The other is Ms. Fatima Al-Sayed (Investment Director, Gulf Development '
+          + 'Fund). Ms. Al-Sayed is on her first visit. She is warm but formal, and she '
+          + 'needs to feel respected and confident before she will move to specific '
+          + 'details. Context: This is the first meeting. The meeting should begin with '
+          + 'warmth and gradually move toward specifics. Key language tips: Begin with '
+          + 'a ceremonial welcome. Do not rush to figures or legal documents '
+          + 'immediately. Build comfort. When she signals readiness to discuss '
+          + 'specifics, use conditional language to give her a clear pathway. '
+          + 'Ceremonial Language Bank: • "It is a great honour to welcome you to the '
+          + 'Ministry." • "We deeply appreciate your visit and your interest in our '
+          + 'country." • "Our country and the Gulf share a long history of '
+          + 'partnership." • "If there is anything we can do to make your visit more '
+          + 'productive, please tell us." • "We believe that if we work together, we '
+          + 'can build something of lasting value."'],
+        example: ['Model Dialogue Dawit: Your visit is a great honour for the Ministry, Ms. '
+            + 'Al-Sayed, and we deeply appreciate your interest in our country. Our '
+            + 'country and the Gulf share a long history of partnership, and I hope this '
+            + 'is the first of many visits. Please, before anything else — may I offer '
+            + 'you coffee? The journey from Kuwait is not a short one. Ms. Al-Sayed: '
+            + 'Thank you. You are very kind. It is a longer journey than it looks on the '
+            + 'map, and I am grateful for the welcome. I have been hearing about your '
+            + 'agricultural zones for two years from colleagues who have visited, and I '
+            + 'wanted finally to come and see for myself rather than read another report. '
+            + 'Dawit: Then I hope we can arrange that properly while you are here — the '
+            + 'Awash Valley is two hours from the capital and a report does not convey '
+            + 'the scale of it. Whenever you would like to turn to specifics, I am ready. '
+            + 'And if it is helpful, I can tell you now that the water allocation '
+            + 'framework for registered agricultural joint ventures sits in the '
+            + 'investment law itself — not in administrative practice. That is what I '
+            + 'would want to know first in your position, and I would rather raise it '
+            + 'than wait. Ms. Al-Sayed: That is exactly the question I came with. Please '
+            + 'go on.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Conditionals and the language of commitment.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
       }
     }
   ]

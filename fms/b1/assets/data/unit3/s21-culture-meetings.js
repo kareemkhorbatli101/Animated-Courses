@@ -38,12 +38,14 @@ FMS.page('u3-s21', {
           + 'what the Korean investor needs?' },
         { q: 'Is it possible to give the same underlying information to all four '
           + 'visitors but adjust only the framing and emphasis? Give one example.' }],
-      ideas: ['How does the journalist\'s question differ from the Gulf minister\'s, even '
-          + 'if they ask about the same topic?',
-        'What does the UN human rights official need to hear that is different from '
-          + 'what the Korean investor needs?',
-        'Is it possible to give the same underlying information to all four '
-          + 'visitors but adjust only the framing and emphasis? Give one example.'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Explaining and describing: the '
+          + 'passive and reporting verbs.',
+        'Words from this unit you can use: Territorial Development, Development '
+          + 'Fund, Bilateral Agreement, Regional Integration, Humanitarian Access, '
+          + 'Trade Preference Scheme.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

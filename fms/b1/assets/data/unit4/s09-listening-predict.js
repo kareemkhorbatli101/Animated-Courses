@@ -36,14 +36,13 @@ FMS.page('u4-s09', {
         { q: 'Context 4: A bilateral planning session between Kazakh and French '
           + 'officials. What is the difference in future language between this private '
           + 'professional context and the public speeches?' }],
-      ideas: ['Context 1: The signing ceremony of the Kazakhstan–Germany Bilateral '
-          + 'Cooperation MoU. What future language do you expect in the speeches? What '
-          + 'tone?',
-        'Context 2: An infrastructure investment conference in Brussels. What '
-          + 'commitments and future plans will speakers make? Will they use will or '
-          + 'going to?',
-        'Context 3: A formal dinner toast at a bilateral event in Astana. What '
-          + 'future language is appropriate? How formal will the language be?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Formal written structures and '
+          + 'conditionals.',
+        'Words from this unit you can use: Note Verbale, Communiqué, Aide-Mémoire, '
+          + 'Protocol of Cooperation, Joint Statement, Letters of Credence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       visual: { spot: 'predict-contexts', wide: true,
           caption: 'The four are numbered to match the questions below.' },

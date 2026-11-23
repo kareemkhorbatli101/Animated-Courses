@@ -78,7 +78,35 @@ FMS.page('u3-s08', {
             + 'Ongoing action (passive): The ministry\'s diplomatic visa processing '
             + 'system is currently being upgraded to reduce waiting times for foreign '
             + 'nationals and diplomatic applicants. [Partner continues with their own '
-            + 'examples.]']
+            + 'examples.]'],
+        criteria: [{ t: 'Describe three things that have been done in your country\'s diplomatic '
+            + 'relations over the past eighteen months using the present perfect passive.' },
+          { t: 'Describe what is currently being done in your country using the present '
+            + 'continuous passive.' },
+          { t: 'Explain one past achievement and one ongoing action using passive voice, '
+            + 'then invite a partner to add two more using their own words.' }]
+      },
+      aiCheck: {
+        task: 'In pairs, use passive voice to complete these ministry speaking tasks. '
+        + '(Aim for 3–4 sentences per answer.)',
+        grammar: 'Explaining and describing: the passive and reporting verbs',
+        mode: 'spoken',
+        vocab: ['Territorial Development',
+          'Development Fund',
+          'Bilateral Agreement',
+          'Regional Integration',
+          'Humanitarian Access',
+          'Trade Preference Scheme',
+          'Civil Society',
+          'Dateline and Source',
+          'Opening Announcement',
+          'Context and Significance'],
+        must: ['Describe three things that have been done in your country\'s diplomatic '
+            + 'relations over the past eighteen months using the present perfect passive.',
+          'Describe what is currently being done in your country using the present '
+            + 'continuous passive.',
+          'Explain one past achievement and one ongoing action using passive voice, '
+            + 'then invite a partner to add two more using their own words.']
       }
     }
   ]

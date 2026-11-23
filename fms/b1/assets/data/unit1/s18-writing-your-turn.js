@@ -90,7 +90,73 @@ FMS.page('u1-s18', {
           + 'participation in the upcoming regional investment forum and look forward '
           + 'to discussing our bilateral economic cooperation framework with your team. '
           + 'I would welcome the opportunity to ____________________ a preliminary '
-          + 'meeting at your earliest convenience. Kind regards, Le Quang Huy']
+          + 'meeting at your earliest convenience. Kind regards, Le Quang Huy'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Present simple and present continuous',
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Decide on '
+        + 'your reader. Choose a specific name and title (e.g., Ms. Thompson, '
+        + 'Economic Counsellor). Step 2: List your key information — your name, job '
+        + 'title, two main responsibilities, and one current project. Step 3: Choose '
+        + 'your closing offer — what can you offer to this person? (e.g., provide '
+        + 'information, arrange a meeting, send a document) Now write your email. '
+        + 'Your email must include: • A subject line • A formal greeting (use the '
+        + 'name you chose in Step 1) • Your full name and job title • Your main '
+        + 'responsibilities (use Present Simple) • Something you are currently '
+        + 'working on (use Present Continuous) • A polite closing and offer to '
+        + 'collaborate Peer Feedback Activity Exchange your email with a partner and '
+        + 'use this checklist: • Is the tone formal and professional throughout? • '
+        + 'Are Present Simple and Present Continuous used correctly? • Are all '
+        + 'required parts included? • Is the language clear and direct — no '
+        + 'unnecessary words? • Are there any spelling or punctuation mistakes?',
+        parts: ['Before You Write — Plan in three steps before you start: Step 1: Decide on '
+          + 'your reader. Choose a specific name and title (e.g., Ms. Thompson, '
+          + 'Economic Counsellor). Step 2: List your key information — your name, job '
+          + 'title, two main responsibilities, and one current project. Step 3: Choose '
+          + 'your closing offer — what can you offer to this person? (e.g., provide '
+          + 'information, arrange a meeting, send a document) Now write your email. '
+          + 'Your email must include: • A subject line • A formal greeting (use the '
+          + 'name you chose in Step 1) • Your full name and job title • Your main '
+          + 'responsibilities (use Present Simple) • Something you are currently '
+          + 'working on (use Present Continuous) • A polite closing and offer to '
+          + 'collaborate Peer Feedback Activity Exchange your email with a partner and '
+          + 'use this checklist: • Is the tone formal and professional throughout? • '
+          + 'Are Present Simple and Present Continuous used correctly? • Are all '
+          + 'required parts included? • Is the language clear and direct — no '
+          + 'unnecessary words? • Are there any spelling or punctuation mistakes?'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Present simple and present continuous.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Decide on '
+        + 'your reader. Choose a specific name and title (e.g., Ms. Thompson, '
+        + 'Economic Counsellor). Step 2: List your key information — your name, job '
+        + 'title, two main responsibilities, and one current project. Step 3: Choose '
+        + 'your closing offer — what can you offer to this person? (e.g., provide '
+        + 'information, arrange a meeting, send a document) Now write your email. '
+        + 'Your email must include: • A subject line • A formal greeting (use the '
+        + 'name you chose in Step 1) • Your full name and job title • Your main '
+        + 'responsibilities (use Present Simple) • Something you are currently '
+        + 'working on (use Present Continuous) • A polite closing and offer to '
+        + 'collaborate Peer Feedback Activity Exchange your email with a partner and '
+        + 'use this checklist: • Is the tone formal and professional throughout? • '
+        + 'Are Present Simple and Present Continuous used correctly? • Are all '
+        + 'required parts included? • Is the language clear and direct — no '
+        + 'unnecessary words? • Are there any spelling or punctuation mistakes?',
+        grammar: 'Present simple and present continuous',
+        vocab: ['Consular Section',
+          'Protocol Department',
+          'Political Affairs Directorate',
+          'Press and Information Office',
+          'Legal Directorate',
+          'Cultural Relations Division',
+          'Economic Affairs Office',
+          'Subject Line',
+          'Formal Greeting',
+          'Opening Self-Introduction']
+      }
     },
     {
       id: 'c2',
@@ -166,7 +232,70 @@ FMS.page('u1-s18', {
           + 'participation in the upcoming regional investment forum and look forward '
           + 'to discussing our bilateral economic cooperation framework with your team. '
           + 'I would welcome the opportunity to ____________________ a preliminary '
-          + 'meeting at your earliest convenience. Kind regards, Le Quang Huy']
+          + 'meeting at your earliest convenience. Kind regards, Le Quang Huy'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Present simple and present continuous',
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Think '
+        + 'about your reader. Who visits the Ministry website? (diplomat, investor, '
+        + 'journalist, student, citizen living abroad — pick one or two) Step 2: List '
+        + 'the key points you must include — welcome phrase, what the ministry does, '
+        + 'two or three departments that help visitors, how to contact them. Step 3: '
+        + 'Choose your tone — formal but friendly. Your reader is international and '
+        + 'may not know your country well. Keep sentences short and clear. Now write '
+        + 'your welcome message (60–80 words). Your message should: • Welcome foreign '
+        + 'visitors warmly but professionally • Briefly explain what the ministry '
+        + 'does and who it serves • Mention the departments available to assist '
+        + 'visitors • Invite visitors to contact the relevant office for assistance • '
+        + 'Use a formal but accessible tone — this is for a general international '
+        + 'audience, not just diplomats Example opening: "Welcome to the Vietnamese '
+        + 'Ministry of Foreign Affairs. We are committed to..."',
+        parts: ['Before You Write — Plan in three steps before you start: Step 1: Think '
+          + 'about your reader. Who visits the Ministry website? (diplomat, investor, '
+          + 'journalist, student, citizen living abroad — pick one or two) Step 2: List '
+          + 'the key points you must include — welcome phrase, what the ministry does, '
+          + 'two or three departments that help visitors, how to contact them. Step 3: '
+          + 'Choose your tone — formal but friendly. Your reader is international and '
+          + 'may not know your country well. Keep sentences short and clear. Now write '
+          + 'your welcome message (60–80 words). Your message should: • Welcome foreign '
+          + 'visitors warmly but professionally • Briefly explain what the ministry '
+          + 'does and who it serves • Mention the departments available to assist '
+          + 'visitors • Invite visitors to contact the relevant office for assistance • '
+          + 'Use a formal but accessible tone — this is for a general international '
+          + 'audience, not just diplomats Example opening: "Welcome to the Vietnamese '
+          + 'Ministry of Foreign Affairs. We are committed to..."'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Present simple and present continuous.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Before You Write — Plan in three steps before you start: Step 1: Think '
+        + 'about your reader. Who visits the Ministry website? (diplomat, investor, '
+        + 'journalist, student, citizen living abroad — pick one or two) Step 2: List '
+        + 'the key points you must include — welcome phrase, what the ministry does, '
+        + 'two or three departments that help visitors, how to contact them. Step 3: '
+        + 'Choose your tone — formal but friendly. Your reader is international and '
+        + 'may not know your country well. Keep sentences short and clear. Now write '
+        + 'your welcome message (60–80 words). Your message should: • Welcome foreign '
+        + 'visitors warmly but professionally • Briefly explain what the ministry '
+        + 'does and who it serves • Mention the departments available to assist '
+        + 'visitors • Invite visitors to contact the relevant office for assistance • '
+        + 'Use a formal but accessible tone — this is for a general international '
+        + 'audience, not just diplomats Example opening: "Welcome to the Vietnamese '
+        + 'Ministry of Foreign Affairs. We are committed to..."',
+        grammar: 'Present simple and present continuous',
+        vocab: ['Consular Section',
+          'Protocol Department',
+          'Political Affairs Directorate',
+          'Press and Information Office',
+          'Legal Directorate',
+          'Cultural Relations Division',
+          'Economic Affairs Office',
+          'Subject Line',
+          'Formal Greeting',
+          'Opening Self-Introduction']
+      }
     }
   ]
 });

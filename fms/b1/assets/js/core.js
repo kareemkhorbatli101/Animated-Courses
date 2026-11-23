@@ -39,6 +39,42 @@
   var BASE = w.FMS_BASE === undefined ? '' : w.FMS_BASE;
   FMS.base = BASE;
 
+  /* ----------------------------------------------------------
+     attachMics(host) - put "Say it" beside every box the learner
+     writes prose into. Called once per card from buildActivity;
+     see the long note there for why it lives at the mount point
+     rather than in each component.
+
+     A box counts as prose when it is a <textarea> that is not
+     read-only, not hidden, and is not already served by a mic the
+     component attached itself. A single-line <input> is left alone:
+     those hold one word, a date or a number, and dictation into
+     them is noise rather than help.
+     ---------------------------------------------------------- */
+  function attachMics(host) {
+    if (!host || !FMS.ui || !FMS.ui.micBtn) return 0;
+    var tas = host.querySelectorAll('textarea'), n = 0;
+    for (var i = 0; i < tas.length; i++) {
+      var ta = tas[i];
+      if (ta.disabled || ta.readOnly) continue;
+      if (ta.getAttribute('data-nomic') === '1') continue;
+      /* already has one, from this function or from the component */
+      if (ta.parentNode && ta.parentNode.querySelector('.mic-btn')) continue;
+      var sib = ta.nextElementSibling;
+      if (sib && sib.querySelector && sib.querySelector('.mic-btn')) continue;
+      var b = FMS.ui.micBtn(ta);
+      if (!b) return n;            /* no recogniser: stop, draw nothing */
+      var row = document.createElement('div');
+      row.className = 'q-tools mic-row';
+      row.appendChild(b);
+      if (ta.nextSibling) ta.parentNode.insertBefore(row, ta.nextSibling);
+      else ta.parentNode.appendChild(row);
+      n++;
+    }
+    return n;
+  }
+  FMS.attachMics = attachMics;
+
   /* WHERE THE RECORDINGS COME FROM, which is not where the pages come from.
 
      The 302 mp3s used to sit beside the pages inside the published site's git repository,
@@ -310,6 +346,11 @@
      Changing it starts this course's progress from empty rather than importing records
      that may belong to another course - the old data cannot be told apart per card. */
   var KEY = 'fms.b1.progress.v1', PREF = 'fms.b1.prefs.v1';
+  /* Anything else that needs its own corner of storage derives its key from
+     this one, so a new feature cannot invent a key that collides with another
+     course's - every course on this site is served from one origin, and that
+     collision has already shipped once. scene.js's Take-a-part uses it. */
+  FMS.progressKey = KEY;
   function readJSON(k, fb) { try { var v = w.localStorage.getItem(k); return v ? JSON.parse(v) : fb; } catch (e) { return fb; } }
   function writeJSON(k, v) { try { w.localStorage.setItem(k, JSON.stringify(v)); } catch (e) { } }
 
@@ -1240,6 +1281,30 @@
         inst.check = function () { var rr = oc.apply(inst, arguments); unlockShow(); return rr; };
       }
       card._inst = inst;
+      /* ----------------------------------------------------------
+         THE MICROPHONE ON EVERY BOX THE LEARNER WRITES PROSE INTO.
+
+         ⚠ IT USED TO BE THREE COMPONENTS OUT OF TWELVE. `micBtn` has been in
+         every one of this site's fifteen engines since they were lifted, and
+         exactly three components called it - discuss, writer and roleplay.
+         The other nine that build a textarea - letter, notes, opinion,
+         peerreview, picker, report, revise, solutions, taskcard - did not, so
+         199 cards across the site offered no way to speak an answer, including
+         all 16 `report` cards of this course.
+
+         Attaching it here rather than in nine components is deliberate: the
+         rule is "a box you write prose into can be spoken into", and a rule
+         enforced at the mount point cannot be forgotten by the next component
+         anyone adds. gates/course_mic.py asserts it from the rendered page.
+
+         It is skipped where the component attached its own (so the three keep
+         their own placement), where the box is not for prose, and silently
+         wherever the browser has no recogniser - micBtn returns null then, and
+         the course never draws a control it cannot honour.
+         ---------------------------------------------------------- */
+      try { attachMics(actHost); } catch (err) {
+        if (w.console) w.console.error('mic', card.id, err);
+      }
       /* The writing tutor belongs INSIDE buildActivity, not beside it: Try again
          empties actHost and rebuilds the component, so a panel appended once from
          outside would vanish on the first retry and never come back. */
@@ -3145,6 +3210,61 @@
         FMS.say(t, role, so);
       };
       return b;
+    },
+
+    /* ----------------------------------------------------------
+       listen - the recogniser as a LISTENER rather than a typist.
+
+       micBtn types what it hears into a box. Take-a-part and
+       Present-it need the same recogniser for the opposite purpose:
+       to show the learner what came through, beside what they were
+       trying to say. Both of them went through their own copy of
+       this at first; one copy means one place where the error
+       handling is right.
+
+       Returns a stop() function, or null where the browser has no
+       recogniser - the caller then draws no control at all.
+
+       ⚠ IT NEVER REPORTS A SCORE and nothing here may be used to
+       judge pronunciation or accent. A transcript cannot carry
+       either, and a browser's recogniser mishears names, numbers
+       and any accent it was not trained on. See the note the
+       readout prints to the learner, every time.
+       ---------------------------------------------------------- */
+    listen: function (opts) {
+      opts = opts || {};
+      var SR = w.SpeechRecognition || w.webkitSpeechRecognition;
+      if (!SR) return null;
+      var rec = null;
+      try { rec = new SR(); } catch (e) { rec = null; }
+      if (!rec) return null;
+      rec.lang = opts.lang || 'en-GB';
+      rec.interimResults = true;
+      rec.continuous = true;
+      var said = '';
+      rec.onresult = function (ev) {
+        said = '';
+        for (var i = 0; i < ev.results.length; i++) {
+          said += ev.results[i][0].transcript;
+        }
+        if (opts.onHear) opts.onHear(said);
+      };
+      rec.onerror = function (ev) {
+        var e = ev && ev.error;
+        /* permission can be withdrawn in the middle of a scene; say it
+           once, hand the caller the fact, and let the rest carry on */
+        if (e === 'not-allowed' || e === 'service-not-allowed') {
+          FMS.toast('The microphone was turned off. Everything else still works.');
+          if (opts.onDenied) opts.onDenied();
+        }
+        rec = null;
+      };
+      rec.onend = function () { rec = null; if (opts.onEnd) opts.onEnd(said); };
+      try { rec.start(); } catch (e) { return null; }
+      return function stop() {
+        if (rec) { try { rec.stop(); } catch (e) { } rec = null; }
+        return said;
+      };
     },
 
     /* ----------------------------------------------------------

@@ -68,7 +68,20 @@ FMS.page('u3-s14', {
       answers: [0],
       whyTitle: 'What you have just marked',
       after: 'Read the lines you underlined together: they are the facts the questions '
-        + 'on the next screen ask about.'
+        + 'on the next screen ask about.',
+      summary: ['After a change of government in late 2024, the ministry\'s international '
+          + 'engagement entered a new phase.',
+        'Contacts were established or upgraded with more than twenty countries, and '
+          + 'liaison offices were created for European, Asian and Pacific affairs.',
+        'Cooperation frameworks were signed in rural infrastructure, educational '
+          + 'exchange, trade facilitation and cultural cooperation, and joint technical '
+          + 'committees report on them every quarter.',
+        'The returning-citizens program has received more than forty thousand '
+          + 'applications, with priority for skilled professionals.',
+        'Investment conferences in Madrid, Seoul and Brussels produced pledges '
+          + 'totaling several billion dollars.',
+        'A multilateral coordination committee was established to make sure pledges '
+          + 'become projects rather than declarations.']
     }
   ]
 });

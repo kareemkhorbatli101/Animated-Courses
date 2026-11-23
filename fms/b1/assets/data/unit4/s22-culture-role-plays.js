@@ -69,6 +69,46 @@ FMS.page('u4-s22', {
         label: 'Watch a worked role play',
         note: 'This is the book\'s own version, not the only one. Try yours first — the '
         + 'pop-up opens after your attempt.'
+      },
+      coach: {
+        title: 'Compare with the book',
+        target: 'Formal written structures and conditionals',
+        task: 'Work in pairs. Student A is the host (Daniyar Suleimenov, hosting a dinner '
+        + 'for the French and German delegations). Student B plays the most senior '
+        + 'European guest, responding to the toast. Practice: 1. Daniyar delivers a '
+        + 'formal dinner toast — warm, dignified, forward-looking, using at least one '
+        + 'future form 2. The European guest responds — brief, gracious, reciprocal '
+        + '3. Swap roles Guidance for the toast: • Address the guest(s) first: "Your '
+        + 'Excellency, distinguished colleagues..." • Acknowledge what has been '
+        + 'achieved today (signing, cooperation) • Use one future form to express '
+        + 'what is coming • Propose the toast with a clear invitation',
+        parts: ['Work in pairs. Student A is the host (Daniyar Suleimenov, hosting a dinner '
+          + 'for the French and German delegations). Student B plays the most senior '
+          + 'European guest, responding to the toast. Practice: 1. Daniyar delivers a '
+          + 'formal dinner toast — warm, dignified, forward-looking, using at least one '
+          + 'future form 2. The European guest responds — brief, gracious, reciprocal '
+          + '3. Swap roles Guidance for the toast: • Address the guest(s) first: "Your '
+          + 'Excellency, distinguished colleagues..." • Acknowledge what has been '
+          + 'achieved today (signing, cooperation) • Use one future form to express '
+          + 'what is coming • Propose the toast with a clear invitation'],
+        example: ['Model Dialogue Daniyar Suleimenov: Your Excellency, distinguished '
+            + 'colleagues — it is my honor to propose a toast. Today we signed a '
+            + 'framework that will shape our cooperation for the next five years, in '
+            + 'culture, in education, and in digital infrastructure. What I value most '
+            + 'about it is that it is specific: it names the commissions, the numbers, '
+            + 'and the dates, so that in three years we will be able to say plainly '
+            + 'whether we did what we said. To friendship, to cooperation, and to a '
+            + 'future that will be built together — please raise your glasses. European '
+            + 'Guest: Thank you, Mr. Suleimenov, for your words and for your hospitality '
+            + 'this evening. The specificity you mention is exactly what our delegations '
+            + 'will be judged on at home, and we are glad it is in the document rather '
+            + 'than only in the speeches. On behalf of the French and German delegations, '
+            + 'we accept this toast with pleasure and look forward to the first '
+            + 'Commission session in October. To our countries, and to the work ahead.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Formal written structures and conditionals.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
       }
     },
     {
@@ -126,6 +166,55 @@ FMS.page('u4-s22', {
         label: 'Watch a worked role play',
         note: 'This is the book\'s own version, not the only one. Try yours first — the '
         + 'pop-up opens after your attempt.'
+      },
+      coach: {
+        title: 'Compare with the book',
+        target: 'Formal written structures and conditionals',
+        task: 'Work in pairs. Student A is Aigerim Dosanova, welcoming His Excellency '
+        + 'Sheikh Mohammed Al-Rashidi, Deputy Foreign Minister of a Gulf state, to a '
+        + 'formal ministry reception before a dinner. Student B plays His Excellency. '
+        + 'Context: His Excellency is accompanied by two senior advisers. The '
+        + 'reception is in the ministry\'s formal reception room. Non-alcoholic '
+        + 'refreshments are available. The dinner will follow in thirty minutes. '
+        + 'Practice: 1. Welcome His Excellency with full formal language, warmth, and '
+        + 'patience 2. Offer hospitality before any business reference 3. Follow His '
+        + 'Excellency\'s lead on when to move toward the formal room 4. One of His '
+        + 'Excellency\'s advisers offers Aigerim a small wrapped gift — how does she '
+        + 'receive it? Guidance: Show genuine warmth, not performed protocol. His '
+        + 'Excellency will test whether his hosts are comfortable in this register — '
+        + 'not whether they have memorized a script.',
+        parts: ['Work in pairs. Student A is Aigerim Dosanova, welcoming His Excellency '
+          + 'Sheikh Mohammed Al-Rashidi, Deputy Foreign Minister of a Gulf state, to a '
+          + 'formal ministry reception before a dinner. Student B plays His Excellency. '
+          + 'Context: His Excellency is accompanied by two senior advisers. The '
+          + 'reception is in the ministry\'s formal reception room. Non-alcoholic '
+          + 'refreshments are available. The dinner will follow in thirty minutes. '
+          + 'Practice: 1. Welcome His Excellency with full formal language, warmth, and '
+          + 'patience 2. Offer hospitality before any business reference 3. Follow His '
+          + 'Excellency\'s lead on when to move toward the formal room 4. One of His '
+          + 'Excellency\'s advisers offers Aigerim a small wrapped gift — how does she '
+          + 'receive it? Guidance: Show genuine warmth, not performed protocol. His '
+          + 'Excellency will test whether his hosts are comfortable in this register — '
+          + 'not whether they have memorized a script.'],
+        example: ['Model Dialogue Aigerim Dosanova: Your Excellency, on behalf of the '
+            + 'Ministry of Foreign Affairs, we are deeply honored by your visit to '
+            + 'Astana. Please make yourself comfortable — we have arranged coffee and '
+            + 'dates. May I offer you a cup? His Excellency: Thank you. You are most '
+            + 'kind. It is a pleasure to be in Astana again. Aigerim Dosanova: We are '
+            + 'glad to welcome you back, Your Excellency. The weather has been kinder '
+            + 'this week than at your last visit, I am told. Your advisers are most '
+            + 'welcome as well. His Excellency: You are generous. And the ministry has '
+            + 'grown since I was last here — I noticed the new wing as we arrived. These '
+            + 'are good signs. Aigerim Dosanova: Thank you, Your Excellency. The new wing '
+            + 'opened in the spring. Whenever Your Excellency is ready, the dinner room '
+            + 'is prepared — but there is no hurry at all; we have thirty minutes and '
+            + 'more if you would like them. His Excellency: A little more coffee first, I '
+            + 'think. Aigerim Dosanova: Of course, Your Excellency. It would be our '
+            + 'pleasure.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Formal written structures and conditionals.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
       }
     }
   ]

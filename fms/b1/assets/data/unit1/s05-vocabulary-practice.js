@@ -31,11 +31,14 @@ FMS.page('u1-s05', {
         { q: 'Which department handles Ms. Osei and what steps are needed?' },
         { q: 'Which department handles Mr. Watanabe and what specific process does he '
           + 'need to follow?' }],
-      ideas: ['Which department handles Pierre Moreau and what does the reception officer '
-          + 'need to do?',
-        'Which department handles Ms. Osei and what steps are needed?',
-        'Which department handles Mr. Watanabe and what specific process does he '
-          + 'need to follow?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Present simple and present '
+          + 'continuous.',
+        'Words from this unit you can use: Consular Section, Protocol Department, '
+          + 'Political Affairs Directorate, Press and Information Office, Legal '
+          + 'Directorate, Cultural Relations Division.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

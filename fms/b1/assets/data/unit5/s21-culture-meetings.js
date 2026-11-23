@@ -39,12 +39,13 @@ FMS.page('u5-s21', {
         { q: 'How might the language and the meeting flow differ between these two '
           + 'contexts?' },
         { q: 'What does "yes" mean in each business culture, and what does silence mean?' }],
-      ideas: ['What do you already know about German and Gulf business culture in terms '
-          + 'of meeting style, decision-making pace, and the role of personal '
-          + 'relationships?',
-        'How might the language and the meeting flow differ between these two '
-          + 'contexts?',
-        'What does "yes" mean in each business culture, and what does silence mean?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Conditionals and the language of '
+          + 'commitment.',
+        'Words from this unit you can use: Free zone, Tax incentive, Feasibility '
+          + 'study, Letter of intent, Investment climate, Due diligence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

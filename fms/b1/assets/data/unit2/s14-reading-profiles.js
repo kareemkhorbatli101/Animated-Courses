@@ -60,7 +60,20 @@ FMS.page('u2-s14', {
       answers: [0],
       whyTitle: 'What you have just marked',
       after: 'Read the lines you underlined together: they are the facts the questions '
-        + 'on the next screen ask about.'
+        + 'on the next screen ask about.',
+      summary: ['The Morocco-Germany Infrastructure Modernization Working Group held its '
+          + 'first session in Rabat in March 2025, after six weeks of preparation.',
+        'Salma Benali coordinated the logistics with Thomas Richter of the German '
+          + 'Embassy, and the agenda was circulated five days before.',
+        'The German delegation, led by Dr. Anna Braun, arrived at nine-thirty for a '
+          + 'briefing in the protocol lounge.',
+        'The morning covered rail network modernization and the afternoon water '
+          + 'infrastructure; at four o\'clock the two leads signed an aide-memoire on a '
+          + 'joint technical committee.',
+        'Both sides committed to a second session within three months, and a joint '
+          + 'press statement was issued.',
+        'Salma distributed the summary within 24 hours, and noted two late changes '
+          + '- a room switch and extra interpretation - that the visitors never saw.']
     }
   ]
 });

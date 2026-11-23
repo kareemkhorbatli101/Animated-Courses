@@ -28,12 +28,13 @@ FMS.page('u4-s01', {
           + 'does this distinction matter for ministry staff?' },
         { q: 'What should your country communicate most clearly to foreign partners in '
           + '2025 and beyond?' }],
-      ideas: ['If you could send one message about your country\'s future to the world in '
-          + 'English, what would it be?',
-        'What is the difference between a note verbale and a business email? Why '
-          + 'does this distinction matter for ministry staff?',
-        'What should your country communicate most clearly to foreign partners in '
-          + '2025 and beyond?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Formal written structures and '
+          + 'conditionals.',
+        'Words from this unit you can use: Note Verbale, Communiqué, Aide-Mémoire, '
+          + 'Protocol of Cooperation, Joint Statement, Letters of Credence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

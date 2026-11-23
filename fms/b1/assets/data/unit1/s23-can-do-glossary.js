@@ -31,12 +31,14 @@ FMS.page('u1-s23', {
           + 'ministry?' },
         { q: 'Write down two or three phrases you want to remember. Share them with the '
           + 'class.' }],
-      ideas: ['What is the biggest difference you noticed between welcoming a Western '
-          + 'visitor and welcoming a senior Gulf Arab official?',
-        'What phrases from this unit will you use in your daily work at the '
-          + 'ministry?',
-        'Write down two or three phrases you want to remember. Share them with the '
-          + 'class.'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Present simple and present '
+          + 'continuous.',
+        'Words from this unit you can use: Consular Section, Protocol Department, '
+          + 'Political Affairs Directorate, Press and Information Office, Legal '
+          + 'Directorate, Cultural Relations Division.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

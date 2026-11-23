@@ -2352,6 +2352,299 @@
   /* ============================================================
      highlighter — select the sentences that answer / support
      ============================================================ */
+  /* ============================================================
+     PRESENT IT - practise presenting a summary of what you read.
+     (2026-11-23)
+
+     Reading a passage and being able to SAY what it said are different
+     abilities, and this course only ever tested the first. The drill is the
+     one a presenter actually does: study a short summary, hide it, say it
+     from memory a sentence at a time, and check each sentence after you have
+     said it rather than before.
+
+     WHAT IT STANDS ON. The reading cards are `highlighter` cards and their
+     passages are ALREADY split into numbered sentences - `paras: [[{i, t}]]`
+     - and the component already saves `{ sel: [2, 7, 11] }`, the sentence
+     numbers the learner underlined. So "present your own notes" costs
+     nothing and closes the loop with the underlining they did two cards ago.
+
+     THREE SOURCES, AND ONLY ONE OF THEM NEEDS AUTHORING:
+       book  - a written 4-6 sentence summary (card.summary)
+       mine  - the sentences the learner underlined, in passage order
+       key   - the single sentence the book's own key names
+
+     Where no summary has been written, the `book` mode is NOT OFFERED. An
+     empty panel is worse than no button. gates/course_presentit.py fails the
+     build on a card that offers a summary it has not got.
+     ============================================================ */
+  function piSentences(card) {
+    var out = {};
+    (card.paras || []).forEach(function (pr) {
+      pr.forEach(function (s) {
+        out[s.i] = String(s.t).replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
+      });
+    });
+    return out;
+  }
+  /** how a sentence is revealed: whole, or in two halves at a clause break */
+  function piSteps(sentence) {
+    var wds = sentence.split(/\s+/).filter(function (x) { return x; });
+    if (wds.length <= 20) return [wds.length];
+    var mid = Math.round(wds.length / 2);
+    for (var d = 0; d <= 4; d++) {
+      if (/[,;:—]$/.test(wds[mid - d - 1] || '')) { mid -= d; break; }
+      if (/[,;:—]$/.test(wds[mid + d - 1] || '')) { mid += d; break; }
+    }
+    return [mid, wds.length];
+  }
+  function piBlanks(sentence, upto) {
+    var wds = sentence.split(/\s+/).filter(function (x) { return x; });
+    return wds.map(function (wd, i) {
+      if (i < upto) return esc(wd);
+      var n = Math.max(2, wd.replace(/[^0-9A-Za-zÀ-ɏ']/g, '').length);
+      return new Array(n + 1).join('▁');
+    }).join(' ');
+  }
+  function piKey() { return (FMS.progressKey || 'course') + '.presentit.v1'; }
+  function piLoad() {
+    try { return JSON.parse(w.localStorage.getItem(piKey()) || '{}') || {}; }
+    catch (e) { return {}; }
+  }
+  function piSave(id, st) {
+    try {
+      var all = piLoad();
+      all[id] = st;
+      w.localStorage.setItem(piKey(), JSON.stringify(all));
+    } catch (e) { }
+  }
+
+  function presentIt(card, host, api, getSel) {
+    var all = piSentences(card);
+    var modes = [];
+    if (card.summary && card.summary.length) {
+      modes.push({ id: 'book', label: 'The summary',
+                   get: function () { return card.summary.slice(); } });
+    }
+    modes.push({ id: 'mine', label: 'My own underlined sentences',
+      get: function () {
+        return (getSel() || []).slice().sort(function (a, b) { return a - b; })
+          .slice(0, 8)
+          .map(function (i) { return all[i]; })
+          .filter(function (x) { return x; });
+      } });
+    if (card.answers && card.answers.length) {
+      modes.push({ id: 'key', label: 'The one sentence the key names',
+        get: function () {
+          return card.answers.map(function (i) { return all[i]; })
+            .filter(function (x) { return x; });
+        } });
+    }
+
+    var row = mk('div', 'btn-row');
+    var b = mk('button', 'btn btn-sm');
+    b.type = 'button';
+    b.innerHTML = art.icon('mic', 15) + 'Practise presenting';
+    b.title = 'Say what this passage said, without looking at it';
+    row.appendChild(b);
+    host.appendChild(row);
+
+    b.onclick = function () {
+      var body = mk('div', 'pi');
+      var mode = modes[0], stop = null, pnl = null;
+      var st = (piLoad()[card.id] || {});
+
+      function cleanup() { if (stop) { try { stop(); } catch (e) { } stop = null; } }
+
+      function study() {
+        cleanup();
+        var sents = mode.get();
+        body.innerHTML = '';
+        if (modes.length > 1) {
+          var sel = mk('div', 'btn-row');
+          modes.forEach(function (m) {
+            var mb = mk('button', 'btn btn-sm' + (m === mode ? ' btn-accent' : ''));
+            mb.type = 'button';
+            mb.textContent = m.label;
+            mb.onclick = function () { mode = m; study(); };
+            sel.appendChild(mb);
+          });
+          body.appendChild(sel);
+        }
+        if (!sents.length) {
+          body.appendChild(mk('p', '', mode.id === 'mine'
+            ? 'You have not underlined anything in the passage yet. Underline '
+              + 'the sentences that carry the point, then come back — or '
+              + 'use another list above.'
+            : 'There is nothing to present here yet.'));
+          return;
+        }
+        body.appendChild(mk('p', '',
+          'Read this until you could say it without looking. Then hide it.'));
+        var ol = mk('ol', 'pi-list');
+        sents.forEach(function (s) {
+          ol.appendChild(mk('li', 'pi-sent', esc(s)));
+        });
+        body.appendChild(ol);
+        var SR = w.SpeechRecognition || w.webkitSpeechRecognition;
+        var lab = mk('label', 'tp-mic');
+        var cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.checked = !!st.mic && !!SR;
+        cb.disabled = !SR;
+        lab.appendChild(cb);
+        lab.appendChild(document.createTextNode(SR
+          ? ' Use my microphone, and show me what it hears'
+          : ' This browser has no speech recogniser — everything else works.'));
+        body.appendChild(lab);
+        var go = mk('button', 'btn btn-accent');
+        go.type = 'button';
+        go.innerHTML = art.icon('play', 16) + 'Hide it and present';
+        go.onclick = function () {
+          st = { mode: mode.id, mic: cb.checked, at: 0, shown: {}, helped: false };
+          piSave(card.id, st);
+          present(sents);
+        };
+        body.appendChild(go);
+      }
+
+      function present(sents) {
+        cleanup();
+        var heard = '', heardBox = null;
+        function draw() {
+          body.innerHTML = '';
+          body.appendChild(mk('div', 'tp-head', 'Sentence ' + (st.at + 1)
+            + ' of ' + sents.length + '. Say it, then check.'));
+          var wrap = mk('div', 'pi-wrap');
+          sents.forEach(function (s, i) {
+            var step = st.shown[i] || 0;
+            var steps = piSteps(s);
+            var upto = step > 0 ? steps[Math.min(step, steps.length) - 1] : 0;
+            var done = upto >= s.split(/\s+/).length;
+            var d = mk('div', 'pi-sent'
+              + (upto ? (done ? ' is-done' : '') : ' is-hidden'));
+            d.innerHTML = (i + 1) + '. ' + piBlanks(s, upto);
+            wrap.appendChild(d);
+          });
+          body.appendChild(wrap);
+          if (st.mic) {
+            heardBox = mk('div', 'tp-heard wc', 'Listening…');
+            body.appendChild(heardBox);
+          }
+          var row2 = mk('div', 'btn-row');
+          var more = mk('button', 'btn btn-sm btn-accent');
+          more.type = 'button';
+          var cur = sents[st.at] || '';
+          var steps = piSteps(cur);
+          var step = st.shown[st.at] || 0;
+          more.innerHTML = art.icon('book', 15)
+            + (st.at >= sents.length ? 'Done'
+               : (step < steps.length ? 'Show more' : 'Next sentence'));
+          more.onclick = function () {
+            if (step < steps.length) {
+              st.shown[st.at] = step + 1;
+              st.helped = true;
+              if (st.mic && heard) {
+                showHeard(cur, heard);
+              }
+            } else {
+              st.at = Math.min(sents.length - 1, st.at + 1);
+              heard = '';
+            }
+            piSave(card.id, st);
+            draw();
+            listen();
+          };
+          row2.appendChild(more);
+          var again = mk('button', 'btn btn-sm btn-ghost');
+          again.type = 'button';
+          again.innerHTML = art.icon('book', 15) + 'Study it again';
+          again.onclick = function () { study(); };
+          row2.appendChild(again);
+          var over = mk('button', 'btn btn-sm btn-ghost');
+          over.type = 'button';
+          over.innerHTML = art.icon('replay', 15) + 'Start over';
+          over.onclick = function () {
+            if (!w.confirm('Start over? What the microphone heard will go.')) return;
+            st.at = 0; st.shown = {}; heard = '';
+            piSave(card.id, st);
+            draw();
+            listen();
+          };
+          row2.appendChild(over);
+          body.appendChild(row2);
+          if (st.at === sents.length - 1
+              && (st.shown[st.at] || 0) >= piSteps(cur).length) {
+            body.appendChild(mk('p', 'wc', 'That is the whole summary. Say it '
+              + 'once more straight through, without stopping.'));
+          }
+        }
+        function showHeard(target, said) {
+          var r = piCompare(target, said);
+          var box = mk('div', 'tp-readout');
+          box.appendChild(mk('div', 'tp-h', 'What I heard'));
+          box.appendChild(mk('div', 'tp-said', '“' + esc(said) + '”'));
+          box.appendChild(mk('div', '', r.wild
+            ? 'That does not look like this sentence.'
+            : r.hit + ' of ' + r.total + ' words came through'
+              + (r.missing.length
+                 ? '. Not heard: ' + r.missing.slice(0, 5).join(', ') : '.')));
+          box.appendChild(mk('div', 'wc tp-note',
+            'This is what a browser’s recogniser heard, not a judgement '
+            + 'of your pronunciation.'));
+          body.appendChild(box);
+        }
+        function listen() {
+          cleanup();
+          if (!st.mic || !FMS.ui.listen) return;
+          stop = FMS.ui.listen({
+            onHear: function (s) {
+              heard = s;
+              if (heardBox) heardBox.textContent = '“' + s + '”';
+            },
+            onDenied: function () { st.mic = false; piSave(card.id, st); draw(); }
+          });
+        }
+        draw();
+        listen();
+      }
+
+      pnl = FMS.panel({ title: 'Present it', node: body, key: 'presentit',
+                        onClose: cleanup });
+      study();
+    };
+  }
+
+  /** the same comparison the scene player uses, on one sentence */
+  function piCompare(target, said) {
+    var NUM = { zero: '0', one: '1', two: '2', three: '3', four: '4',
+                five: '5', six: '6', seven: '7', eight: '8', nine: '9',
+                ten: '10', eleven: '11', twelve: '12', twenty: '20' };
+    var SKIP = { a: 1, an: 1, the: 1, is: 1, are: 1, was: 1, were: 1, to: 1,
+                 of: 1, and: 1, or: 1, in: 1, on: 1, at: 1, it: 1, that: 1 };
+    function tok(s) {
+      return String(s).toLowerCase().replace(/[’]/g, "'")
+        .replace(/[^a-z0-9'\s]/g, ' ').replace(/\s+/g, ' ').trim()
+        .split(' ').filter(function (x) { return x; })
+        .map(function (x) { return NUM[x] || x; });
+    }
+    var words = target.split(/\s+/);
+    var proper = {};
+    for (var i = 1; i < words.length; i++) {
+      if (/^[A-Z][a-zÀ-ɏ]{2,}/.test(words[i])) proper[tok(words[i])[0]] = 1;
+    }
+    var want = tok(target), got = tok(said);
+    if (got.length > want.length * 3) return { wild: true };
+    var pool = got.slice(), missing = [], total = 0, hit = 0;
+    for (var j = 0; j < want.length; j++) {
+      var wd = want[j];
+      if (SKIP[wd] || proper[wd]) continue;
+      total++;
+      var at = pool.indexOf(wd);
+      if (at >= 0) { hit++; pool.splice(at, 1); } else missing.push(wd);
+    }
+    return { total: total, hit: hit, missing: missing };
+  }
+
   EX.highlighter = function (card, host, api) {
     var box = mk('div', 'reading ' + (card.style || ''));
     var h = '';
@@ -2392,6 +2685,10 @@
       var out = [];
       for (var i = 0; i < spans.length; i++) if (spans[i].classList.contains('sel')) out.push(parseInt(spans[i].dataset.si, 10));
       return out;
+    }
+    /* reading it is not the same as being able to say it - see presentIt */
+    try { presentIt(card, host, api, selected); } catch (e) {
+      if (w.console) w.console.error('presentIt', card.id, e);
     }
     return {
       check: function () {

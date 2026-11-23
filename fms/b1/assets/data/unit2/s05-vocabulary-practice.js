@@ -31,12 +31,13 @@ FMS.page('u2-s05', {
           + 'problems arise if it is sent too late?' },
         { q: 'What problems can arise from last-minute coordination failures, and how '
           + 'should a liaison officer respond professionally?' }],
-      ideas: ['What must a protocol brief include to be genuinely useful for a delegation '
-          + 'lead?',
-        'When should the agenda be sent to the visiting delegation, and what '
-          + 'problems arise if it is sent too late?',
-        'What problems can arise from last-minute coordination failures, and how '
-          + 'should a liaison officer respond professionally?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Modal verbs for requests and '
+          + 'arrangements.',
+        'Words from this unit you can use: Agenda, Communiqué, Memorandum of '
+          + 'Understanding, Working Group, Protocol Brief, Aide-Mémoire.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

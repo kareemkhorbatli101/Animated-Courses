@@ -93,6 +93,67 @@ FMS.page('u5-s13', {
         label: 'Watch a worked role play',
         note: 'This is the book\'s own version, not the only one. Try yours first — the '
         + 'pop-up opens after your attempt.'
+      },
+      coach: {
+        title: 'Compare with the book',
+        target: 'Conditionals and the language of commitment',
+        task: 'You are participating in a panel discussion at the National Development '
+        + 'and Investment Forum in Addis Ababa. Ministry officials and investors are '
+        + 'presenting and responding to questions about the country\'s priority '
+        + 'investment sectors. Choose one role card and prepare a 3–4 sentence '
+        + 'contribution. Use conditional language in at least one sentence. '
+        + 'Self-Introduction Template: "Good morning. My name is ___. I am a ___ at / '
+        + 'from ___. Our main interest today is ___. If ___, we ___." Card 1: Dawit '
+        + 'Bekele — Moderator and Economic Affairs Specialist, Ministry of Foreign '
+        + 'Affairs — opens the panel and invites contributions Card 2: Klaus Richter '
+        + '— Managing Director, Richter Infrastructure GmbH — presents his company\'s '
+        + 'investment interest Card 3: Ms. Fatima Al-Sayed — Investment Director, '
+        + 'Gulf Development Fund — presents Gulf interest in agriculture Card 4: '
+        + 'Selamawit Tesfaye — Investment Facilitation Officer, Ministry of Foreign '
+        + 'Affairs — manages the logistics and keeps the panel on schedule',
+        parts: ['You are participating in a panel discussion at the National Development '
+          + 'and Investment Forum in Addis Ababa. Ministry officials and investors are '
+          + 'presenting and responding to questions about the country\'s priority '
+          + 'investment sectors. Choose one role card and prepare a 3–4 sentence '
+          + 'contribution. Use conditional language in at least one sentence. '
+          + 'Self-Introduction Template: "Good morning. My name is ___. I am a ___ at / '
+          + 'from ___. Our main interest today is ___. If ___, we ___." Card 1: Dawit '
+          + 'Bekele — Moderator and Economic Affairs Specialist, Ministry of Foreign '
+          + 'Affairs — opens the panel and invites contributions Card 2: Klaus Richter '
+          + '— Managing Director, Richter Infrastructure GmbH — presents his company\'s '
+          + 'investment interest Card 3: Ms. Fatima Al-Sayed — Investment Director, '
+          + 'Gulf Development Fund — presents Gulf interest in agriculture Card 4: '
+          + 'Selamawit Tesfaye — Investment Facilitation Officer, Ministry of Foreign '
+          + 'Affairs — manages the logistics and keeps the panel on schedule'],
+        example: ['Model Dialogue Dawit Bekele: Good morning. My name is Dawit Bekele and I '
+            + 'am an Economic Affairs Specialist at the Ministry of Foreign Affairs. Our '
+            + 'interest on this panel is practical rather than promotional: we want to '
+            + 'hear what is actually slowing decisions down. If we understand where the '
+            + 'delays are, we will fix the process rather than add another incentive. I '
+            + 'will ask each panellist to be specific. Klaus Richter: Good morning. Klaus '
+            + 'Richter, Managing Director of Richter Infrastructure GmbH. We came here '
+            + 'two years ago to look and we are here now to commit, so I will answer the '
+            + 'moderator\'s question directly: what slowed us was not cost or risk but '
+            + 'the number of offices. Four separate approvals, none of which could tell '
+            + 'us what the others needed. If the single-window process works as '
+            + 'described, our timeline shortens by months — and that is worth more to us '
+            + 'than a tax holiday. Fatima Al-Sayed: Good morning. I am Fatima Al-Sayed, '
+            + 'Investment Director at the Gulf Development Fund. Our interest is '
+            + 'agriculture and food security, and our horizon is fifteen years, which '
+            + 'changes what we are assessing. We are not pricing this year\'s conditions; '
+            + 'we are pricing the durability of the institutions. If the water rights '
+            + 'framework is statutory rather than administrative, we can consider '
+            + 'commitments at a scale that would not otherwise be prudent. Selamawit '
+            + 'Tesfaye: Good morning. Selamawit Tesfaye, Investment Facilitation Officer '
+            + 'at the Ministry of Foreign Affairs. My role is the unglamorous half of '
+            + 'what the panel has described: the case officers, the processing targets, '
+            + 'and the follow-up. If an investor leaves this Forum without a named '
+            + 'contact and a date, we have failed regardless of what was said on stage. '
+            + 'Every delegation here will have both before they fly home.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Conditionals and the language of commitment.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
       }
     },
     {
@@ -111,11 +172,13 @@ FMS.page('u5-s13', {
           + 'professional when answering investor concerns?' },
         { q: 'What is the biggest mistake a ministry officer can make when pitching to a '
           + 'hesitant investor?' }],
-      ideas: ['Which briefings felt most persuasive? What specifically made them work?',
-        'How does using conditional language make a ministry officer sound more '
-          + 'professional when answering investor concerns?',
-        'What is the biggest mistake a ministry officer can make when pitching to a '
-          + 'hesitant investor?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Conditionals and the language of '
+          + 'commitment.',
+        'Words from this unit you can use: Free zone, Tax incentive, Feasibility '
+          + 'study, Letter of intent, Investment climate, Due diligence.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',

@@ -71,7 +71,53 @@ FMS.page('u3-s17', {
           + 'international organizations. Funding ____________________ totaling four '
           + 'billion dollars were made for infrastructure, education, and social '
           + 'programs. A multilateral coordination committee was ____________________ '
-          + 'to oversee the conversion of pledges into implemented projects.']
+          + 'to oversee the conversion of pledges into implemented projects.'],
+      coach: {
+        title: 'Check your own work',
+        target: 'Explaining and describing: the passive and reporting verbs',
+        task: 'Write a 4–5 sentence official summary of the following fictional event. '
+        + 'Use passive voice where appropriate and maintain a formal, institutional '
+        + 'tone. Event: The Academic Cooperation Framework with France was signed '
+        + 'yesterday in Paris. Present at the signing: both foreign ministers. The '
+        + 'framework covers student exchange programs, joint research in renewable '
+        + 'energy, and collaboration between national and French universities. '
+        + 'Duration: 5 years. A joint committee will meet twice a year. Expected to '
+        + 'benefit 500 students annually.',
+        parts: ['Write a 4–5 sentence official summary of the following fictional event. '
+          + 'Use passive voice where appropriate and maintain a formal, institutional '
+          + 'tone. Event: The Academic Cooperation Framework with France was signed '
+          + 'yesterday in Paris. Present at the signing: both foreign ministers. The '
+          + 'framework covers student exchange programs, joint research in renewable '
+          + 'energy, and collaboration between national and French universities. '
+          + 'Duration: 5 years. A joint committee will meet twice a year. Expected to '
+          + 'benefit 500 students annually.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Explaining and describing: the passive and '
+            + 'reporting verbs.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Write a 4–5 sentence official summary of the following fictional event. '
+        + 'Use passive voice where appropriate and maintain a formal, institutional '
+        + 'tone. Event: The Academic Cooperation Framework with France was signed '
+        + 'yesterday in Paris. Present at the signing: both foreign ministers. The '
+        + 'framework covers student exchange programs, joint research in renewable '
+        + 'energy, and collaboration between national and French universities. '
+        + 'Duration: 5 years. A joint committee will meet twice a year. Expected to '
+        + 'benefit 500 students annually.',
+        grammar: 'Explaining and describing: the passive and reporting verbs',
+        vocab: ['Territorial Development',
+          'Development Fund',
+          'Bilateral Agreement',
+          'Regional Integration',
+          'Humanitarian Access',
+          'Trade Preference Scheme',
+          'Civil Society',
+          'Dateline and Source',
+          'Opening Announcement',
+          'Context and Significance']
+      }
     }
   ]
 });

@@ -71,7 +71,32 @@ FMS.page('u1-s20', {
           'Test phrase: \'How_may_I help_you?\' Link final consonant sounds to '
             + 'following vowel sounds. Listen back: does your delivery sound smooth or '
             + 'choppy? Smooth and connected is correct. If choppy, practice the phrase '
-            + 'slowly with links marked, then speed up gradually.']
+            + 'slowly with links marked, then speed up gradually.'],
+        criteria: [{ t: 'I answered the question that was actually asked, not a nearby one.' },
+          { t: 'I used this unit\'s language: Present simple and present continuous.' },
+          { t: 'I gave a reason as well as a fact — because…, so that…' },
+          { t: 'I used the words this unit teaches, not a translation of my own.' }]
+      },
+      aiCheck: {
+        task: 'Record your professional reception greeting and self-introduction. '
+        + 'Include: • Welcome the visitor to the ministry • Give your name and '
+        + 'position • Ask how you can help Listen back and check: • Did you stress '
+        + 'your name and job title clearly? • Did your linking sound natural — not '
+        + 'word by word? • Was your pace steady and calm — not rushed? • Did you '
+        + 'sound both welcoming and professional? Record a second version if needed '
+        + 'and compare.',
+        grammar: 'Present simple and present continuous',
+        mode: 'spoken',
+        vocab: ['Consular Section',
+          'Protocol Department',
+          'Political Affairs Directorate',
+          'Press and Information Office',
+          'Legal Directorate',
+          'Cultural Relations Division',
+          'Economic Affairs Office',
+          'Subject Line',
+          'Formal Greeting',
+          'Opening Self-Introduction']
       }
     }
   ]

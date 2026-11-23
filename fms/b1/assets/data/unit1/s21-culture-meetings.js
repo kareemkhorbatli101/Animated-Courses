@@ -36,12 +36,14 @@ FMS.page('u1-s21', {
           + 'these two contexts?' },
         { q: 'What non-verbal behaviors — handshake, eye contact, posture — do you '
           + 'expect in each context?' }],
-      ideas: ['What do you already know about French and Gulf Arab diplomatic customs in '
-          + 'terms of greetings, titles, and first-meeting conversation?',
-        'How might the language of the greeting and introduction differ between '
-          + 'these two contexts?',
-        'What non-verbal behaviors — handshake, eye contact, posture — do you '
-          + 'expect in each context?'],
+      ideas: ['Start with what you know for certain, then say what you think — one '
+          + 'sentence each.',
+        'Use this unit\'s language at least once: Present simple and present '
+          + 'continuous.',
+        'Words from this unit you can use: Consular Section, Protocol Department, '
+          + 'Political Affairs Directorate, Press and Information Office, Legal '
+          + 'Directorate, Cultural Relations Division.',
+        'Say WHY as well as WHAT — because…, so that…, which means…'],
       okMsg: 'Good. Open the notes below and compare with the book\'s answers.',
       coach: {
         title: 'Compare with the book',
