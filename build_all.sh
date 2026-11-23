@@ -9,7 +9,7 @@ PDF="${1:?pdf output dir}"
 mkdir -p "$PDF"
 for pass in 1 2 3; do
   for b in "" 2 3 4 5 6; do python3 -I "$ROOT/wayfinder/_build/build_book${b}.py" >/dev/null; done
-  for b in 1 2 3; do python3 -I "$ROOT/business/_build/build_book${b}.py" >/dev/null; done
+  for b in 1 2 3 4; do python3 -I "$ROOT/business/_build/build_book${b}.py" >/dev/null; done
   for d in wayfinder business; do
     ( cd "$ROOT/$d" && for f in *.docx; do
         [ -e "$f" ] || continue

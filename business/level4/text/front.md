@@ -42,22 +42,22 @@ Where it matters the book says *this differs — find yours*, and makes that the
 
 ## Contents
 
-| | Unit | At work | Grammar |
-|---|---|---|---|
-| | **Starting Point** | Four habits for carrying a decision | Review: tenses, conditionals, reporting |
-| 1 | **The Business Case** | What it costs, what it returns, and by when | Passive reporting structures |
-| 2 | **Saying No** | Refusing work without refusing the relationship | Degrees of refusal; *be able to* |
-| 3 | **Costing It** | Unit cost, and what the unit leaves out | Quantity: *per*, *out of*, ratios |
-| 4 | **Paying Across Borders** | Fees, rates, and who carries the cost | Future perfect; *by the time* |
-| 5 | **Reporting Up** | Value, volume, and the difference | Reporting verbs and *that*-clauses |
-| 6 | **Gifts, Favors and the Line** | Hospitality, and where it stops | *should have*; *be supposed to* |
-| 7 | **Writing the Policy** | A rule somebody else has to follow | Zero conditional; *shall*, *may*, *must* |
-| 8 | **When Something Is Attacked** | An incident, hour by hour | Past perfect; narrative sequence |
-| 9 | **The Investment Decision** | A headline with a counter-example inside it | *unless*, *provided that*, *in case* |
-| 10 | **Starting and Closing Things** | Opening, closing, and the five-year question | Verb + *-ing* or *to*-infinitive |
-| 11 | **Measuring What You Promise** | One business, two measures | Noun phrases; un-nominalizing |
-| 12 | **What We Report and Why** | Counting intention and counting fact | Hedging and commitment |
-| | **Back matter** | Grammar reference · Audio index · Word list · Sources | |
+| | Unit | At work | Grammar | Page |
+|---|---|---|---|---|
+| | **Starting Point** | Four habits for carrying a decision | Review: tenses, conditionals, reporting | 5 |
+| 1 | **The Business Case** | What it costs, what it returns, and by when | Passive reporting structures | 8 |
+| 2 | **Saying No** | Refusing work without refusing the relationship | Degrees of refusal; *be able to* | 29 |
+| 3 | **Costing It** | Unit cost, and what the unit leaves out | Quantity: *per*, *out of*, ratios | 52 |
+| 4 | **Paying Across Borders** | Fees, rates, and who carries the cost | Future perfect; *by the time* | 74 |
+| 5 | **Reporting Up** | Value, volume, and the difference | Reporting verbs and *that*-clauses | 96 |
+| 6 | **Gifts, Favors and the Line** | Hospitality, and where it stops | *should have*; *be supposed to* | 118 |
+| 7 | **Writing the Policy** | A rule somebody else has to follow | Zero conditional; *shall*, *may*, *must* | 141 |
+| 8 | **When Something Is Attacked** | An incident, hour by hour | Past perfect; narrative sequence | 163 |
+| 9 | **The Investment Decision** | A headline with a counter-example inside it | *unless*, *provided that*, *in case* | 186 |
+| 10 | **Starting and Closing Things** | Opening, closing, and the five-year question | Verb + *-ing* or *to*-infinitive | 208 |
+| 11 | **Measuring What You Promise** | One business, two measures | Noun phrases; un-nominalizing | 231 |
+| 12 | **What We Report and Why** | Counting intention and counting fact | Hedging and commitment | 254 |
+| | **Back matter** | Grammar reference · Audio index · Word list · Sources | | 276 |
 
 ## The people
 
