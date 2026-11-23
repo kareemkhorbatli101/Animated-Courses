@@ -183,8 +183,10 @@ S["w07-f5"]=lambda: f_realia(doc("Portmere City Council · Food and waste, leafl
     "before date is not dangerous; it is only less good.</p>"
     "<p><b>Three things that help:</b> keep the fridge at or below 5 degrees; put new shopping "
     "behind the old; freeze bread on the day you buy it.</p>",
-    "Households here throw away about <b>70 kilos of edible food</b> each year. Roughly a third of "
-    "it is thrown away on the date, not because anything was wrong with it."))
+    "Worldwide, households throw away about <b>79 kilos of food per person</b> each year &mdash; "
+    "631 million tonnes, or 60 per cent of all the food that is wasted "
+    "(UN Environment Programme, <i>Food Waste Index Report 2024</i>). A large part of it goes "
+    "because of a date on a packet, not because anything was wrong with it."))
 S["w07-f6"]=lambda: f_realia(doc("Freshline meal kit · card 12","Chickpea and tomato stew",
     "<p><b>Serves 2 &middot; 20 minutes</b></p>"
     "<table style='width:100%;font-size:13px'>"

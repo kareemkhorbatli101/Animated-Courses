@@ -132,11 +132,21 @@ def ranked_bar(title, rows, w=460, h=None, unit="students", maxv=None):
     mv = maxv or max(r[1] for r in rows)
     lab=128; right=w-24; span=right-lab
     o=[rect(0,0,w,h,PAPER,PAPER,0)]
-    step=span/mv
-    for i in range(mv+1):
-        gx=lab+step*i
+    # One gridline per unit is right for a count of students and absurd for a
+    # percentage, so the interval is chosen to give about five or six lines.
+    import math
+    step = span/mv if mv else span
+    raw = mv/5.0 if mv else 1
+    mag = 10 ** math.floor(math.log10(raw)) if raw > 0 else 1
+    gstep = next(m*mag for m in (1, 2, 2.5, 5, 10) if m*mag >= raw)
+    ticks = int(math.floor(mv/gstep)) + 1
+    for i in range(ticks + 1):
+        v = i*gstep
+        if v > mv * 1.001: break
+        gx = lab + span*v/mv
         o.append(line(gx,top,gx,top+n*(bh+gap)-gap+4,RULE,1,"butt"))
-        o.append(txt(gx,top+n*(bh+gap)+14,str(i),11,MUTED,"middle"))
+        lbl = str(int(v)) if abs(v-round(v)) < 1e-9 else ("%g" % v)
+        o.append(txt(gx,top+n*(bh+gap)+14,lbl,11,MUTED,"middle"))
     for i,(l,v) in enumerate(rows):
         y=top+i*(bh+gap)
         o.append(rect(lab,y,max(step*v,3),bh,BLUE,BLUE,0,4))
@@ -144,6 +154,46 @@ def ranked_bar(title, rows, w=460, h=None, unit="students", maxv=None):
         o.append(txt(lab+step*v-9,y+16,str(v),13,"#fff","end","700"))
     o.append(line(lab,top,lab,top+n*(bh+gap)-gap+4,INK,2,"butt"))
     o.append(txt(lab+span/2,top+n*(bh+gap)+32,unit,11,MUTED,"middle"))
+    return svg(w,h,"".join(o)), w, h
+
+def linechart(points, w=620, h=240, unit="", dashed_from=None, mark=None, ymin=None):
+    """points: [(xlabel, value)] in order. dashed_from = index where the line stops
+    being measurement and becomes projection; mark = index to call out in the accent.
+    A trend needs a line: a ranked bar answers a different question."""
+    n=len(points); vals=[p[1] for p in points]
+    lo = 0 if ymin is None else ymin
+    hi = max(vals)
+    pad = (hi-lo)*0.18 or 1
+    top, bot, left, right = 26, h-46, 54, w-24
+    def X(i): return left + (right-left)*(i/(n-1 if n>1 else 1))
+    def Y(v): return bot - (bot-top)*((v-lo)/((hi+pad)-lo))
+    o=[rect(0,0,w,h,PAPER,PAPER,0)]
+    import math
+    raw=(hi+pad-lo)/4.0
+    mag=10**math.floor(math.log10(raw)) if raw>0 else 1
+    gstep=next(m*mag for m in (1,2,2.5,5,10) if m*mag>=raw)
+    g=lo
+    while g <= hi+pad:
+        gy=Y(g)
+        o.append(line(left,gy,right,gy,RULE,1,"butt"))
+        lbl = str(int(g)) if abs(g-round(g))<1e-9 else ("%g"%g)
+        o.append(txt(left-10,gy+4,lbl,11,MUTED,"end"))
+        g += gstep
+    solid=[(X(i),Y(v)) for i,(_,v) in enumerate(points)][:None if dashed_from is None else dashed_from+1]
+    o.append(path("M"+" L".join("%.1f %.1f"%p for p in solid),"none",BLUE,3.2))
+    if dashed_from is not None and dashed_from < n-1:
+        dash=[(X(i),Y(v)) for i,(_,v) in enumerate(points)][dashed_from:]
+        o.append(path("M"+" L".join("%.1f %.1f"%p for p in dash),"none",BLUE,3.2)
+                 .replace("<path ",'<path stroke-dasharray="8 6" '))
+    for i,(lab,v) in enumerate(points):
+        # Level 3's accent is itself blue, so a flagged point is called out in amber:
+        # the mark has to read as "look here" against the series, in every book.
+        c = AMBER if (mark is not None and i==mark) else BLUE
+        o.append(circ(X(i),Y(v),6,PAPER,c,3))
+        o.append(txt(X(i),Y(v)-16,("%g"%v) if v!=int(v) else str(int(v)),12,c,"middle","700"))
+        o.append(txt(X(i),bot+20,lab,11.5,MUTED,"middle"))
+    if unit: o.append(txt(w/2,h-10,unit,11.5,MUTED,"middle"))
+    o.append(line(left,bot,right,bot,INK,2.2,"butt"))
     return svg(w,h,"".join(o)), w, h
 
 def timeline(title, marks, nowx=0.5, w=560, h=150):

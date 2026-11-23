@@ -47,7 +47,7 @@ def f_count(items, cell=132):
 
 def f_scene(w=760, h=400, floor=0.74, people=(), behind=(), props=(), board=None, counter_=None,
             clockat=None, window_=None, sign_=None, plant_=None, panelbg=None,
-            floorbg=None, litwins=(), beams=(), glows=(), strokes=(), branch=None, stairs_=None, skyline=None):
+            floorbg=None, litwins=(), beams=(), glows=(), strokes=(), branch=None, stairs_=None, skyline=None, on_counter=()):
     """behind = people standing behind the counter: drawn BEFORE it, so it occludes them.
     floorbg/litwins/beams/glows exist for the night scenes: a dark street needs a dark
     road under it, not a pale floor."""
@@ -72,6 +72,12 @@ def f_scene(w=760, h=400, floor=0.74, people=(), behind=(), props=(), board=None
         kw = dict(p[3]) if len(p)>3 else {}
         o.append(cast(nm, x, kw.pop("floor", fy), ht, **kw))
     if counter_: o.append(counter(*counter_))
+    # Things standing ON the counter. Hand-picked y values float or sink; the counter
+    # top is known, so the icon's foot is placed on it.
+    for ic, cx, s_ in on_counter:
+        cy = counter_[1] - 100*s_ + 4*s_
+        o.append('<g transform="translate(%s,%s) scale(%s)">%s</g>'
+                 % (cx, round(cy,1), s_, ICON[ic]()))
     for ic,x,y,s_ in props:
         # Furniture stands on the floor. Hand-picked y values made tables and beds
         # float, so anything in FLOOR_ICONS is snapped to the floor line instead.
@@ -105,6 +111,8 @@ def f_matrix(cols, rows, w=540): return matrix("", cols, rows, w)
 def f_process(steps, w=620, loop=None): return process("", steps, w=w, loop=loop)
 def f_cycle(labels, w=520): return cycle(labels, w=w)
 def f_timeline(marks, nowx, w=600): return timeline("", marks, nowx, w=w)
+def f_line(points, w=620, h=240, unit="", dashed_from=None, mark=None, ymin=None):
+    return linechart(points, w=w, h=h, unit=unit, dashed_from=dashed_from, mark=mark, ymin=ymin)
 
 # ------------------------------------------------------------------ realia helpers
 def doc(lh, title, body, note=None):

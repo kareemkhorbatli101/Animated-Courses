@@ -55,7 +55,8 @@ OPEN = [r"\bwhat do you think\b", r"\bwould you\b", r"\bdo you agree\b", r"\bwhy
 
 SPEC_MODULES = {"starter": ["spec_a", "spec_b", "spec_c"],
                 "level1":  ["spec_v1", "spec_v2", "spec_v3"],
-                "level2":  ["spec_w1", "spec_w2", "spec_w3"]}
+                "level2":  ["spec_w1", "spec_w2", "spec_w3"],
+                "level3":  ["spec_x1", "spec_x2", "spec_x3", "spec_x4"]}
 
 def load_specs(book):
     """The realia text of every figure, as raw HTML, keyed by figure id."""
