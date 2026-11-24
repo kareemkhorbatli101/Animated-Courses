@@ -367,3 +367,87 @@ figure is used twice. The series note is in `SOURCES.md`.
   that had been described as complete.
 
 **Book 5 as built.** Starting Point and twelve units; 196 figures; 195 audio cues numbered `KS5-…`; **296 pages**; `Keystone-4-Book5.docx`.
+
+
+# Keystone 5 (Book 6) · B2+ → C1
+
+Twelve units, twelve source bodies, and the shelf is now the one other people hold the evidence in:
+two machine-readable formats, two government publications on security practice, one framework, two
+widely cited awareness documents, one procurement standard a customer buys against, one disclosure
+guideline with its companion file specification, two records and preservation standards, one supply
+chain publication, and the published **stage codes** by which all of the above live and die.
+
+Every unit has somebody outside holding the other end — a procurement officer, a researcher who has
+found something, an auditor, a colleague in nine years — and the book is written for the moment when
+the reader is not a friendly colleague. The last unit exists because the sentence *this was correct
+at the time of writing* has a short shelf life: standards are amended, confirmed, superseded and
+withdrawn, and a citation must be checked rather than remembered.
+
+Twelve source bodies carry the twelve reading texts, one per unit, and the Starting Point carries
+none. They are the documents **other people hold the evidence in**: two machine-readable formats, two
+government publications on security practice, one framework, two widely cited awareness documents,
+one procurement standard, one disclosure guideline with its companion file specification, two records
+and preservation standards, one supply chain publication, and finally the published **stage codes**
+by which all of the above live and die. Each reading text names the document, its number, its edition
+or date, and the limits its own authors state. No source appears in any other book of this series or
+in its three sister series, and no figure is used twice. The series note is in `SOURCES.md`.
+
+| Unit | Source | What the text prints |
+|---|---|---|
+| 1 | **SPDX**, standardized as **ISO/IEC 5962:2021**; and **CycloneDX**, published as **ECMA-424, first edition, 2024** | Two machine-readable formats for a software bill of materials, with the widely cited minimum fields: supplier, component, version, other unique identifiers, dependency relationships, author of the data and timestamp. **The ISO edition specifies SPDX 2.2.1, and later project releases are not that edition.** *Not covered: neither format states whether a vulnerability in a listed component affects a product; neither determines licensing obligations; neither covers a model's training data; and **neither establishes how complete a particular list is** — a build-time list and one inferred from a binary are indistinguishable in the file.* |
+| 2 | **CSAF version 2.0**, an **OASIS Standard** of **November 2022**, with its **VEX profile**; and the **status justification** vocabulary published in a working-group document of **June 2022** | Four status values — **affected, not affected, fixed, under investigation** — and the five justifications for *not affected*: component not present; vulnerable code not present; **vulnerable code not in the execute path**; not controllable by an adversary; inline mitigations already exist. *Not covered: **a statement is an assertion by its issuer and the format verifies nothing**. It does not express severity, does not replace remediation, and its justification vocabulary is a closed list — where it does not fit, the honest status is *under investigation*.* |
+| 3 | **NIST Special Publication 800-207**, *Zero Trust Architecture*, **August 2020** | **Seven tenets** — all sources are resources; communication secured regardless of location; **per-session** access; **dynamic policy** including the observable state of identity, application and requesting asset; monitored asset posture; dynamic authentication and authorization; information collected to improve posture — and the logical components: **policy engine, policy administrator, policy enforcement point**. *Not covered: it is **guidance**; it prescribes **no products**; it states that there is **no single deployment plan** and that migration is **incremental**; and it does not eliminate risk — it describes threats to the architecture itself, the policy engine included.* |
+| 4 | **NIST Special Publication 800-218**, *Secure Software Development Framework*, **version 1.1, February 2022** | **Four groups, nineteen practices**: prepare the organization; protect the software; produce well-secured software; respond to vulnerabilities — each with tasks and implementation examples the document itself calls **notional**. *Not covered: it prescribes **no tools or techniques**, specifies **no order or priority**, provides **no maturity model** — any one-to-five level has been added by whoever is showing it to you — and offers **no certification**.* |
+| 5 | **ISO/IEC 29100**, *Privacy framework*, first published **2011**, with a **second edition carrying 2024** | **Eleven privacy principles**, from consent and choice through **use, retention and disclosure limitation** to privacy compliance, and the roles of **principal, controller and processor**. *Not covered: it is **high-level**. It specifies **no requirements**, prescribes **no implementation**, **maps to no jurisdiction's law**, and its terminology is its own — it says *personal information* where a statute may use a different term with a different boundary.* |
+| 6 | The **OWASP Top 10:2021** for web application security risks; and the **OWASP Top 10 for Large Language Model Applications**, first published **2023** and since revised | Ten ranked categories, of which **eight positions were derived from contributed data and two from an industry survey**; and a companion list including prompt injection, insecure output handling, training data poisoning, **excessive agency** and **overreliance**. *Not covered: both describe themselves as **awareness documents** — neither is a standard, neither offers certification, neither claims to be exhaustive — and **the ranking reflects the applications the contributing organizations tested**, not any particular company's risk. The companion list has already been **renamed and reordered**, so a contract citing it must say which version, as at which date.* |
+| 7 | **EN 301 549**, *Accessibility requirements for ICT products and services*, produced by **CEN, CENELEC and ETSI** following a European Commission mandate; the widely cited version is **3.2.1 of March 2021** | Conditional requirements of the form **where ICT does X, it shall do Y**, across functional performance, web content (**incorporating content criteria at the first two levels**), non-web documents, software, and **documentation and support services**; answered as **supported**, **supported with exceptions**, **not supported**, or **not applicable with a justification**. *Not covered: **conformance is self-declared** — the standard tests nothing and certifies nobody — later versions exist, and a *not applicable* without a justification is worthless.* |
+| 8 | **ISO/IEC 29147:2018**, *Vulnerability disclosure*, second edition; and **RFC 9116**, **April 2022** | What a disclosure policy must contain: a **point of contact**, a **secure channel**, a **stated response interval**, a **scope statement**, **credit** arrangements and a **good-faith statement** — plus a plain-text file at a **well-known web address** so that a finder can discover all of it. *Not covered: the standard is **guidance** and **sets no timeline**; it does not cover the **internal handling** of a report, which is a separate standard; and **it assumes an organization that wants reports** — one with no published route has answered that question without deciding it.* |
+| 9 | **ISO 15489-1:2016**, *Records management — Part 1: Concepts and principles*, second edition | A **record** as information kept as **evidence** of a transaction, and the four characteristics of an authoritative record: **authenticity, reliability, integrity, usability**; with appraisal, retention and disposition. *Not covered: **it sets no retention periods** — they derive from legal and business requirements in each jurisdiction — it does not make anything a record (status follows from how information is managed), and **a duration without a trigger event is not a period at all**.* |
+| 10 | **ISO 14721**, the **Open Archival Information System reference model**, **second edition 2012**, since revised | Submission, archival and dissemination **information packages**; the five preservation descriptions — **provenance, context, reference, fixity, access rights** — and **representation information**, which is what makes a bit stream meaningful; and the requirement to declare a **designated community** for whom holdings must be **independently understandable**. *Not covered: it is a **reference model** — **no technology, no formats, no certification** (audit is a separate standard) — and it does not determine **what** should be preserved.* |
+| 11 | **NIST Special Publication 800-161, Revision 1**, *Cybersecurity Supply Chain Risk Management Practices*, **May 2022** | Practices at **enterprise, mission and operational** levels, **acquisition language**, an adapted control set, and **flow-down requirements** imposed through contracts. *Not covered: it creates **no obligation**, confers **no right of audit** over a company you have no contract with, and — its most useful feature — **concedes** that visibility below the first tier rests on obligations traveling downwards through agreements the acquirer never sees and **cannot verify**.* |
+| 12 | The **harmonized stage codes** published for standards in development and under review | **60.60** published and current; **90.20** under periodic review; **90.92** to be revised; **90.93** **reviewed and confirmed, still current**; **95.99** **withdrawn**. *Not covered: a stage code describes a document's **position in its life cycle, not its quality**. **Confirmed does not mean old** — it means the document survived a review — and **withdrawn does not mean wrong**; what it means is narrow and absolute: **you cannot conform to a document that is no longer published**.* |
+
+**Twelve honesty notes, printed in the units as well as here.**
+
+- **Unit 1.** Nine of eleven component lists are generated at build time and two are inferred from
+  finished binaries, and the files are indistinguishable. Fourteen entries could not be identified
+  and were declared rather than deleted.
+- **Unit 2.** A supplier's claim, repeated in good faith, was reissued six weeks later as false. The
+  five words of attribution were the difference between correcting their statement and correcting
+  ours.
+- **Unit 3.** Seven noun phrases in a board paper contained decisions nobody had made, and the paper
+  passed three reviews and produced a budget line for something that cannot be bought.
+- **Unit 4.** Nineteen rows of *partially implemented*, written by somebody who had read the whole
+  framework twice, were indistinguishable from the answer of a company that had never opened it.
+- **Unit 5.** Twenty-two words — *generally*, *where appropriate*, *in most cases* — covered one zero
+  and four datasets with no retention limit of any kind.
+- **Unit 6.** A published top-ten list had been read about twenty times and never once compared with
+  the company's own two incidents, both of which fall in the category ranked ninth.
+- **Unit 7.** Nine clauses answered *not supported*, all nine in documentation and support services,
+  and the help desk had never been tested rather than having failed.
+- **Unit 8.** Three reports in two years, all to a sales inbox, fastest acknowledgment eleven days.
+  All three finders waited, which was luck.
+- **Unit 9.** Fourteen retention rows, every one with a duration and eleven with no trigger event,
+  described as compliant for four years.
+- **Unit 10.** Every archive object is checksummed and two of four 2019 formats cannot be opened. Any
+  one of three cheap measures would have been sufficient; none was done.
+- **Unit 11.** Eleven tier-one suppliers, nine flow-down clauses, six attestations, zero
+  verifications — and a competitor's four-word claim to have assured all tiers.
+- **Unit 12.** Thirty-one cited documents, nineteen never checked, one conformance claim against a
+  standard withdrawn in 2021, and one current standard deleted because somebody read *confirmed* as
+  *expired*.
+
+**Book 6 as built.** Starting Point and twelve units; 196 figures; 195 audio cues numbered `KS6-…`; **300 pages**; `Keystone-5-Book6.docx`.
+
+# The series as built
+
+| Book | Level | Pages | File |
+|---|---|---|---|
+| Keystone Foundation | A2 | 267 | `Keystone-Foundation-Book1.docx` |
+| Keystone 1 | A2+ → B1 | 278 | `Keystone-1-Book2.docx` |
+| Keystone 2 | B1 | 277 | `Keystone-2-Book3.docx` |
+| Keystone 3 | B1+ | 283 | `Keystone-3-Book4.docx` |
+| Keystone 4 | B2 | 296 | `Keystone-4-Book5.docx` |
+| Keystone 5 | B2+ → C1 | 300 | `Keystone-5-Book6.docx` |
+
+**1,701 pages. Seventy-two source bodies, one per unit, each named with its edition or venue, its date, and the limits its own authors state. 1,176 figures. 1,170 audio cues. Every person, team, company, system, dataset, model, incident and advisory invented; every standard, paper, regulation, framework, license and published method real.**
