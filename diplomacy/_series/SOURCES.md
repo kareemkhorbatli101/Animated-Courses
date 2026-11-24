@@ -333,3 +333,64 @@ thing that happened is written down afterwards.
 - **Unit 12.** A broken silence is not a rejection. And a body that cannot meet discovers how much
   the room had been doing for it: presence, timing, the moment to speak, and what counts as having
   spoken all had to be replaced by three paragraphs in a week.
+
+## Book 6 · Foreign Service English 5 (B2+ → C1) · *Representing the state*
+
+Twelve source bodies. This book's running subject is **who speaks for the state, and what
+their words do**: capacity, attribution, public commitment, characterization, discretion,
+express terms, consent, immediacy, evidential weight, custom, and the instrument itself.
+Three of the twelve are further articles of conventions used earlier in the series for
+different rules, which the table states; four bind nobody, which the table also states.
+
+| Unit | Source | What the text prints |
+|---|---|---|
+| 1 | **Vienna Convention on the Law of Treaties**, **23 May 1969**, in force **27 January 1980**, about **116 parties** — **Articles 7, 8 and 12** *(Book 1 of this series used Article 18 of the same Convention for a different rule)* | A person represents a State if he **produces appropriate full powers** or the States intended **to dispense with** them. **In virtue of their functions**: Heads of State, Heads of Government and Ministers for Foreign Affairs for **all acts**; heads of mission for **adopting a bilateral text**; representatives to a conference for **adopting the text there**. An act by a person without capacity **is without legal effect unless afterwards confirmed** — and **binds neither State** |
+| 2 | Vienna Convention on the Law of Treaties, **Article 2(1)(a)** and Article 3 | *Treaty* means an international agreement between States **in written form** and **governed by international law**, **whatever its particular designation**. The character of an instrument **turns on whether it is governed by international law**, evidenced by its terms; the **six drafting indicators** in the unit are **widely published practice and not provisions of the Convention**. A non-binding instrument **commits politically, records what was agreed and may constitute practice** |
+| 3 | **Articles on Responsibility of States for Internationally Wrongful Acts**, adopted by the **International Law Commission in 2001**, annexed to **General Assembly resolution 56/83 of 12 December 2001** — Articles 4, 5 and 7. **Not a treaty** | The Assembly **took note of** the articles and **commended them to the attention of Governments without prejudice to their future adoption**. The conduct of **any State organ** is **an act of that State**, whatever its functions or position; and conduct of an organ or person exercising governmental authority is attributable **if it acts in that capacity, even if it exceeds its authority or contravenes instructions**. **Attribution is not responsibility**: a breach of an obligation is required |
+| 4 | **Guiding Principles applicable to unilateral declarations of States capable of creating legal obligations**, adopted by the **International Law Commission in 2006**; **noted and commended to the attention of Governments**. **Not a treaty** | Declarations **publicly made and manifesting the will to be bound** may create legal obligations, their binding character resting on **good faith**. Three brakes: **clear and specific terms**; **restrictive interpretation** of any doubt as to scope; and **competence** — the three offices generally, others only **in areas within their competence**. Account is taken of the content, the circumstances **and the reactions**. Such a declaration **cannot be revoked arbitrarily** |
+| 5 | Vienna Convention on the Law of Treaties, **Article 2(1)(d)**; and the **Guide to Practice on Reservations to Treaties**, adopted by the **International Law Commission in 2011**, of which the General Assembly took note. **The Guide is not a treaty** | A **reservation** purports to **exclude or modify the legal effect** of provisions for a State; an **interpretative declaration** purports to **clarify the meaning or scope**; both are defined as statements **however phrased or named**. **The character is determined by the legal effect the author purports to produce**; the name **provides an indication** of it. A **conditional** interpretative declaration makes consent subject to the interpretation |
+| 6 | **Articles on Diplomatic Protection**, adopted by the **International Law Commission in 2006**, of which the General Assembly took note and which it commended to the attention of Governments — Articles 1, 2, 3, 14 and 19. **Not a treaty** | **A State has the right to exercise diplomatic protection**; the State entitled is **the State of nationality**; **the claim is the State's and not the injured person's**. Preconditions: **nationality of claims** and **exhaustion of local remedies**. Article 19, headed **Recommended practice**, says a State **should** give **due consideration** to exercising it, **should** take the injured person's views into account **wherever feasible**, and **should transfer any compensation obtained**, subject to reasonable deductions. **Three *shoulds* and not one *shall*** |
+| 7 | **Vienna Convention on Diplomatic Relations**, **18 April 1961**, in force **24 April 1964**, about **193 parties** — **Article 32** *(Book Foundation used the same Convention for the law of the mission)* | Immunity from jurisdiction **may be waived by the sending State**; **waiver must always be express**; the **initiation of proceedings precludes** reliance on immunity against a **directly connected counterclaim**; and waiver in respect of civil or administrative proceedings **shall not be held to imply waiver of immunity in respect of execution of the judgment, for which a separate waiver shall be necessary** |
+| 8 | Vienna Convention on Diplomatic Relations, **Articles 45 and 46** | On relations being broken off or a mission recalled, the receiving State must **respect and protect the premises, property and archives even in case of armed conflict**; the sending State may entrust **custody**, and the **protection of its interests and nationals**, to a **third State acceptable to the receiving State**. Separately, a State may, **with the prior consent of a receiving State** and **at the request of a third State not represented there**, undertake the **temporary protection** of that State's interests. **Neither is the establishment of diplomatic relations, and neither confers further privileges** |
+| 9 | **Vienna Convention on Consular Relations**, **24 April 1963**, in force **19 March 1967**, about **182 parties** — **Article 36** *(Book Foundation used the same Convention for the stamp and the seal)* | **Three immediacies**: the authorities shall inform the consular post **without delay** **if he so requests**; shall forward his communications **without delay**; and shall inform **the person concerned** of his rights **without delay**. Consular officers have rights of **visit, conversation, correspondence and arranging legal representation** — and **shall refrain from taking action if he expressly opposes it**. The rights are exercised **in conformity with local law, subject to the proviso that it must enable full effect to be given to the purposes of the Article** |
+| 10 | Vienna Convention on the Law of Treaties, **Articles 31(3) and 32**; and the **Conclusions on subsequent agreements and subsequent practice in relation to the interpretation of treaties**, adopted by the **International Law Commission in 2018**, of which the General Assembly took note. **The Conclusions are not a treaty** | Subsequent practice **which establishes the agreement of the parties** is **taken into account** in interpretation; practice of **one or more** parties that does not is a **supplementary means** — **evidence, and not authority**. Conduct includes **acts or omissions**, and **silence may constitute acceptance where the circumstances call for a reaction**. Weight depends on **clarity and specificity, repetition, visibility and consistency** |
+| 11 | **Vienna Convention on Succession of States in respect of Treaties**, **23 August 1978**, in force **6 November 1996** — **eighteen years later** — with about **twenty-three parties**; Articles 2, 16, 17 and 34 | Two opposite presumptions: a **newly independent State** is **not bound to maintain in force** a treaty by reason only of its prior application, and **may notify succession**; where part of a State **separates**, treaties **continue in force** in respect of each successor. **It is widely accepted** that the clean slate rule reflects custom; **the extent to which the continuity presumption does so is unsettled**, and **State practice has varied**. The unit states **no view on any particular State** |
+| 12 | The **United Nations Treaty Section's published guidance** on the deposit of instruments with the Secretary-General as depositary, and its **summary of depositary practice**. **Published practice notes, not a treaty** | An instrument must contain **five elements**: the treaty's **title, date and place of conclusion**; the signatory's **full name and title**; an **unambiguous expression of intent** to be bound and to **undertake faithfully to observe and implement**; the **date and place of issue**; and the **signature of the Head of State, Head of Government or Minister for Foreign Affairs**, or of a person holding **full powers** from one of them. The **original** is required; a **declaration must be in the instrument itself**. **The last reading text in six books is a practice note about a signature block** |
+
+**Twelve honesty notes, printed in the units as well as here.**
+
+- **Unit 1.** Capacity is not authority and neither is instructions. An act without capacity is
+  without legal effect **unless afterwards confirmed** — which makes the question *was the signature
+  valid?* into the question *do we wish to be bound?*, and that question belongs to the ministry and
+  not to the officer who signed.
+- **Unit 2.** The six drafting indicators are practice, not law, and a single *shall* makes nothing a
+  treaty. What the four words *whatever its particular designation* prevent is a ministry placing
+  itself outside the law of treaties by choosing a cover — and they cut both ways.
+- **Unit 3.** The most cited text in the subject binds nobody. And the rule that a state answers for
+  conduct contravening its own instructions is not severity: the alternative would let any state
+  escape responsibility by issuing orders and tolerating their breach.
+- **Unit 4.** A public sentence with a verb and a date, said by one of three people, may be an
+  instrument. The three brakes are what stop that swallowing every speech, and *cannot be revoked
+  arbitrarily* is not *cannot be revoked*.
+- **Unit 5.** Ministries name their statements for domestic audiences, and the test was drafted so
+  that nobody has to be accused of anything. *Purports to* does the whole of the work.
+- **Unit 6.** The claim is the state's, and the state is not obliged to bring it. The three modern
+  additions — consider, consult, transfer — are *should*, and a letter to a family that upgrades them
+  to *shall* is a kindness that costs the family more than the truth would have.
+- **Unit 7.** A waiver for the proceedings is not a waiver for execution, and the gap is not a trick:
+  it is the reason the first waiver can be given at all.
+- **Unit 8.** Both arrangements require the receiving state's agreement **in advance**, and neither
+  makes the protecting mission the third state's mission. The six weeks of writing down names and
+  refusing to open a window are the whole of the discipline.
+- **Unit 9.** The obligation most often breached is the one nobody complains about: telling the
+  detained person his rights. And his express opposition stops his own state acting on his behalf,
+  which is the law recognizing that he is a person and not the subject matter of a note.
+- **Unit 10.** Everything a ministry does in applying a treaty is evidence of what it takes the
+  treaty to mean, including what it declines to answer. Most ministries learn their own practice from
+  the other side's paper.
+- **Unit 11.** A convention of 1978 took eighteen years to enter into force and has about
+  twenty-three parties. Parts of it are widely regarded as custom, parts are contested, practice has
+  varied, and *this Ministry states no view* is a professional duty rather than an evasion.
+- **Unit 12.** The guidance that decides whether an instrument is accepted is a set of published
+  practice notes, not a treaty. A correct legal position defeated by a signature block is the most
+  expensive error in this work, and it arrives back in the envelope six weeks later.
