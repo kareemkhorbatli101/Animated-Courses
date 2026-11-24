@@ -90,6 +90,34 @@ p { margin:0 0 .9em; }
 .topbar .spacer { flex:1; }
 .tb-tools { display:flex; gap:6px; align-items:center; }
 
+/* ---------- the top bar on a narrow window, and the accounts badge ----------
+ *
+ * TWO DEFECTS, BOTH MEASURED RATHER THAN SEEN, 2026-11-24.
+ *
+ * 1. `hide-sm` IS WRITTEN BY THIS ENGINE AND WAS NEVER STYLED. core.js labels the three
+ *    toolbar buttons `<span class="hide-sm">Unit map|Words|How to study this</span>` - the
+ *    name says what was meant - and no rule in this stylesheet ever hid them. So `.tb-tools`
+ *    stayed 213px wide at every width and a unit page ran 424 to 453px of content inside a
+ *    360 or 390px window. The same shape of defect as a wrapper class with no rule: the
+ *    markup is correct and nothing can see it but a rectangle.
+ *
+ * 2. THE ACCOUNTS BADGE SITS ON TOP OF THIS ROW. `assets/la/account.js` mounts it on <body>
+ *    as `#la-bar.la-float`, fixed at top:10px right:12px with a z-index above everything, so
+ *    it is not in this flex row and cannot be laid out by it. It covered a `.btn-ghost` of
+ *    `.tb-tools` at every width from 560 up: a learner reaching for Unit map or Words got the
+ *    sign-in link. The row is centred at 1180px, so the two clear each other only above about
+ *    1308px; below that the row keeps 84px - the badge's 72 plus its 12 of offset - free.
+ *
+ * Fixed here, in this course's own stylesheet, and NOT in assets/la/account.js: that file is
+ * shared by every course family on the site and must not restyle ten different headers.
+ * gates/cma_layout, pointed at this course, is what holds both. */
+@media (max-width:640px) {
+  .hide-sm { display:none; }
+}
+@media (max-width:1320px) {
+  .tb-tools { margin-right:84px; }
+}
+
 /* ---------- buttons ---------- */
 .btn {
   display:inline-flex; align-items:center; gap:7px; justify-content:center;
